@@ -23,6 +23,24 @@
       --shadow: 0 24px 80px rgba(0, 0, 0, .35);
     }
 
+    body[data-theme="light"] {
+      color-scheme: light;
+      --bg: #f6f8fc;
+      --panel: #ffffff;
+      --panel-2: #eef2f8;
+      --line: #d7deea;
+      --muted: #64748b;
+      --text: #101827;
+      --soft: #334155;
+      --brand: #7c3aed;
+      --brand-2: #0891b2;
+      --ok: #16a34a;
+      --warn: #d97706;
+      --bad: #dc2626;
+      --gold: #b45309;
+      --shadow: 0 24px 80px rgba(15, 23, 42, .14);
+    }
+
     * {
       box-sizing: border-box;
     }
@@ -32,7 +50,7 @@
       min-height: 100vh;
       background:
         radial-gradient(circle at 50% 10%, rgba(6, 182, 212, .12), transparent 34rem),
-        linear-gradient(180deg, #0b0d12 0%, var(--bg) 40%, #07080b 100%);
+        linear-gradient(180deg, var(--panel) 0%, var(--bg) 42%, var(--panel-2) 100%);
       color: var(--text);
       font-family: Inter, "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
     }
@@ -60,7 +78,7 @@
       justify-content: space-between;
       padding: 0 24px;
       border-bottom: 1px solid var(--line);
-      background: rgba(8, 10, 14, .86);
+      background: color-mix(in srgb, var(--panel) 86%, transparent);
       backdrop-filter: blur(14px);
       position: sticky;
       top: 0;
@@ -501,6 +519,60 @@
       font-weight: 800;
     }
 
+    .answer-reveal {
+      width: min(760px, 100%);
+      min-height: 148px;
+      margin: 0 auto 22px;
+      display: grid;
+      place-items: center;
+      color: var(--soft);
+      text-align: center;
+      line-height: 1.55;
+      opacity: 1;
+      visibility: visible;
+      transition: opacity .18s ease, visibility .18s ease;
+      pointer-events: none;
+    }
+
+    .answer-reveal.hidden {
+      display: grid;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .answer-card {
+      pointer-events: auto;
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 16px 18px;
+      border: 1px solid rgba(148, 163, 184, .28);
+      border-radius: 14px;
+      background: rgba(15, 23, 42, .92);
+      box-shadow: 0 18px 50px rgba(0, 0, 0, .28);
+    }
+
+    .answer-word {
+      min-width: 72px;
+      text-align: center;
+      color: var(--text);
+    }
+
+    .answer-word .slot-ipa {
+      min-height: 18px;
+    }
+
+    .answer-word-text {
+      display: block;
+      border-bottom: 2px solid var(--brand-2);
+      padding: 4px 4px 5px;
+      font-size: clamp(20px, 2.4vw, 30px);
+      font-weight: 800;
+      line-height: 1.05;
+    }
+
     .input-shell {
       width: min(1080px, 100%);
       margin: 0 auto;
@@ -647,6 +719,7 @@
     }
 
     .feedback {
+      pointer-events: none;
       margin: 22px auto 0;
       max-width: 640px;
       min-height: 94px;
@@ -676,6 +749,47 @@
       color: var(--text);
     }
 
+    .hint-count {
+      margin-left: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .masked-answer,
+    .revealed-answer {
+      display: inline-block;
+      margin-top: 8px;
+      color: var(--text);
+      font-size: 24px;
+      font-weight: 900;
+      letter-spacing: .08em;
+    }
+
+    .revealed-answer {
+      letter-spacing: 0;
+      margin-bottom: 6px;
+    }
+
+    .ai-panel {
+      opacity: 1;
+      visibility: visible;
+      transition: opacity .18s ease, visibility .18s ease;
+    }
+
+    .ai-panel.hidden {
+      display: block !important;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+
+    /* analysis-placeholder-hidden: keep parser areas from shifting the drill layout */
+    .ai-panel {
+      min-height: 116px;
+    }
+
     .ai-panel {
       max-width: 640px;
       margin: 12px auto 0;
@@ -699,38 +813,6 @@
 
     .ai-panel li {
       margin: 4px 0;
-    }
-
-    .structure-panel {
-      max-width: 640px;
-      margin: 12px auto 0;
-      border: 1px solid rgba(139, 92, 246, .26);
-      border-radius: 8px;
-      background: rgba(139, 92, 246, .07);
-      padding: 14px 16px;
-      text-align: left;
-      color: var(--soft);
-      line-height: 1.7;
-    }
-
-    .structure-panel strong {
-      color: #ddd6fe;
-    }
-
-    .structure-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 8px;
-    }
-
-    .structure-tags span {
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      padding: 4px 9px;
-      background: rgba(255, 255, 255, .05);
-      color: var(--soft);
-      font-size: 13px;
     }
 
     .highlight {
@@ -1031,10 +1113,16 @@
     }
 
     .tab {
-      padding: 12px 0 16px;
+      padding: 12px 2px 16px;
       color: var(--muted);
       font-weight: 800;
       position: relative;
+      background: transparent;
+      border-radius: 0;
+    }
+
+    .tab:hover {
+      color: var(--text);
     }
 
     .tab.active {
@@ -1048,7 +1136,7 @@
       right: 0;
       bottom: -1px;
       height: 2px;
-      background: white;
+      background: var(--text);
       border-radius: 999px;
     }
 
@@ -1138,9 +1226,119 @@
       padding: 4px 8px;
     }
 
+    body[data-theme="light"] .panel,
+    body[data-theme="light"] .stat,
+    body[data-theme="light"] .text-box,
+    body[data-theme="light"] .summary-item,
+    body[data-theme="light"] .mistake {
+      background: rgba(255, 255, 255, .82);
+      border-color: rgba(203, 213, 225, .95);
+      box-shadow: 0 18px 56px rgba(15, 23, 42, .08);
+    }
+
+    body[data-theme="light"] .course-pack {
+      color: var(--text);
+      border-color: rgba(203, 213, 225, .95);
+      background:
+        radial-gradient(circle at 18% 8%, rgba(139, 92, 246, .12), transparent 12rem),
+        linear-gradient(145deg, rgba(255, 255, 255, .94), rgba(241, 245, 249, .88));
+      box-shadow: 0 18px 56px rgba(15, 23, 42, .10);
+    }
+
+    body[data-theme="light"] .course-pack::before {
+      background: radial-gradient(circle at 20% 10%, rgba(6, 182, 212, .16), transparent 18rem);
+    }
+
+    body[data-theme="light"] .course-pack:hover {
+      background:
+        radial-gradient(circle at 18% 8%, rgba(139, 92, 246, .15), transparent 12rem),
+        linear-gradient(145deg, #ffffff, #f1f5f9);
+      border-color: rgba(124, 58, 237, .42);
+    }
+
+    body[data-theme="light"] .course-banner {
+      background: rgba(255, 255, 255, .86);
+      border-color: rgba(203, 213, 225, .95);
+      box-shadow: 0 18px 56px rgba(15, 23, 42, .10);
+    }
+
+    body[data-theme="light"] .lesson-card {
+      background: rgba(255, 255, 255, .86);
+      border-color: rgba(203, 213, 225, .95);
+      color: var(--text);
+      box-shadow: 0 12px 36px rgba(15, 23, 42, .07);
+    }
+
+    body[data-theme="light"] .lesson-card:hover {
+      background: #ffffff;
+      border-color: rgba(124, 58, 237, .42);
+      box-shadow: 0 18px 48px rgba(15, 23, 42, .10);
+    }
+
+    body[data-theme="light"] .lesson-card.current {
+      border-color: rgba(124, 58, 237, .72);
+      box-shadow: 0 0 0 1px rgba(124, 58, 237, .16) inset, 0 18px 48px rgba(15, 23, 42, .10);
+    }
+
+    body[data-theme="light"] .lesson-index {
+      background: rgba(226, 232, 240, .9);
+      color: #475569;
+    }
+
+    body[data-theme="light"] .badge {
+      color: #475569;
+      background: rgba(248, 250, 252, .84);
+      border-color: rgba(148, 163, 184, .55);
+    }
+
+    body[data-theme="light"] .badge.done {
+      color: #047857;
+      background: rgba(16, 185, 129, .10);
+      border-color: rgba(16, 185, 129, .34);
+    }
+
+    body[data-theme="light"] .badge.active {
+      color: #6d28d9;
+      background: rgba(124, 58, 237, .10);
+      border-color: rgba(124, 58, 237, .34);
+    }
+
+    body[data-theme="light"] .course-progress,
+    body[data-theme="light"] .progress-track {
+      background: rgba(226, 232, 240, .9);
+      border-color: rgba(203, 213, 225, .95);
+    }
+
+    body[data-theme="light"] .import-note {
+      background: rgba(248, 250, 252, .72);
+      border-color: rgba(203, 213, 225, .95);
+    }
+
+    body[data-theme="light"] .answer-card {
+      background: rgba(255, 255, 255, .94);
+      border-color: rgba(203, 213, 225, .95);
+      box-shadow: 0 18px 48px rgba(15, 23, 42, .12);
+    }
+
+    body[data-theme="light"] .btn.secondary,
+    body[data-theme="light"] .btn.ghost {
+      color: #334155;
+      background: rgba(255, 255, 255, .72);
+      border-color: rgba(148, 163, 184, .55);
+    }
+
+    body[data-theme="light"] .key,
+    body[data-theme="light"] .pos-tag {
+      color: #334155;
+      background: rgba(226, 232, 240, .78);
+      border-color: rgba(148, 163, 184, .6);
+    }
+
     .hidden {
       display: none !important;
     }
+
+    .answer-reveal.hidden { display: grid !important; }
 
     @media (max-width: 880px) {
       .hero,
@@ -1193,6 +1391,7 @@
         <span id="topTitle">新概念课文默写训练</span>
       </div>
       <div class="top-actions" aria-label="页面工具">
+        <button class="icon-btn" id="themeToggleBtn" title="切换白天/黑夜">☀</button>
         <button class="icon-btn" title="设置">⚙</button>
         <button class="icon-btn" title="课本">□</button>
         <button class="icon-btn" title="统计">▤</button>
@@ -1221,23 +1420,25 @@
                 <span class="badge">已导入</span>
               </div>
             </button>
-            <button class="course-pack locked">
+            <button class="course-pack" id="openNce2Btn">
               <div>
                 <div class="pack-cover">2</div>
                 <h2>新概念英语第二册</h2>
                 <p>短文叙事和语法进阶，适合后续扩展为段落背诵训练。</p>
               </div>
               <div class="pack-meta">
-                <span class="badge">待接入</span>
+                <span class="badge active">已解锁</span>
+                <span class="badge">待导入</span>
               </div>
             </button>
-            <button class="course-pack locked">
+            <button class="course-pack" id="openCustomBtn">
               <div>
                 <div class="pack-cover">+</div>
                 <h2>其他课程</h2>
                 <p>可导入自定义课文 JSON，变成同样的中文提示默写训练。</p>
               </div>
               <div class="pack-meta">
+                <span class="badge active">已解锁</span>
                 <span class="badge">导入支持</span>
               </div>
             </button>
@@ -1259,7 +1460,7 @@
                 <span class="badge">中译英默写</span>
                 <span class="badge">AI 解析</span>
               </div>
-              <p class="course-desc">聚焦基础夯实，以情景对话为核心，同步训练重点词汇、基础语法、句型结构和课文原文还原。</p>
+              <p class="course-desc">聚焦基础夯实，以情景对话为核心，同步训练重点词汇、基础语法、英文顺序和课文原文还原。</p>
               <div class="course-progress"><span id="courseProgressFill"></span></div>
               <div class="course-progress-row">
                 <span id="courseProgressText">0/72 课程</span>
@@ -1279,7 +1480,7 @@
           </div>
 
           <div class="import-note" id="importNote">
-            已写入第一册英文原文。当前部分课程已补中文提示，后续可导入中文翻译版数据覆盖。
+            已写入第一册英文原文，并补齐 Lesson 1-143 中文提示；后续仍可导入新版翻译数据覆盖。
           </div>
           <input class="hidden" type="file" id="importFile" accept=".json,application/json">
           <div class="lesson-list" id="lessonList"></div>
@@ -1331,6 +1532,7 @@
             <div class="drill-card">
               <div class="small-status" id="smallStatus"></div>
               <div class="sentence-order" id="sentenceOrder"></div>
+              <div class="answer-reveal hidden" id="answerReveal"></div>
               <div class="prompt-label">中文提示</div>
               <div class="chinese" id="currentChinese"></div>
               <div class="input-shell" id="inputShell">
@@ -1339,7 +1541,6 @@
               </div>
               <div class="feedback" id="feedback"></div>
               <div class="ai-panel hidden" id="aiPanel"></div>
-              <div class="structure-panel hidden" id="structurePanel"></div>
             </div>
           </div>
 
@@ -5179,6 +5380,7 @@ window.NCE_ZH_OVERRIDES = [
 ];
 
   </script>
+  <script src="./nce1-zh-supplement.js"></script>
   <script>
     let lessons = [
       {
@@ -5328,30 +5530,82 @@ window.NCE_ZH_OVERRIDES = [
       (window.NCE_ZH_OVERRIDES || []).map((lesson) => [Number(lesson.lessonNo), lesson.sentences || []])
     );
 
+    function hasUsableChinese(text) {
+      return Boolean(text && text !== "待补中文翻译" && text !== "中文提示待补");
+    }
+
+    function protectAbbreviations(text) {
+      return String(text || "")
+        .replace(/\b(Mr|Mrs|Ms|Dr|St)\./g, "$1<dot>")
+        .replace(/\b([A-Z])\.([A-Z])\.([A-Z])\./g, "$1<dot>$2<dot>$3<dot>")
+        .replace(/\b([A-Z])\.([A-Z])\./g, "$1<dot>$2<dot>")
+        .replace(/\b(a|p)\.m\./gi, "$1<dot>m<dot>")
+        .replace(/\bU\.S\./g, "U<dot>S<dot>");
+    }
+
+    function restoreAbbreviations(text) {
+      return String(text || "").replace(/<dot>/g, ".");
+    }
+
+    function splitEnglishForPractice(text) {
+      const protectedText = protectAbbreviations(text);
+      return protectedText.split(/(?<=[.!?])\s+/).map((part) => restoreAbbreviations(part).trim()).filter(Boolean);
+    }
+
+    function splitChineseForPractice(text) {
+      return String(text || "").split(/(?<=[。！？!?])\s*/).map((part) => part.trim()).filter(Boolean);
+    }
+
+    function expandSentenceForPractice(sentence) {
+      const englishParts = splitEnglishForPractice(sentence.english);
+      if (englishParts.length < 2) return [sentence];
+      if (sentence.english.length < 120 && englishParts.length < 3) return [sentence];
+      const chineseParts = splitChineseForPractice(sentence.chinese);
+      const canPairChinese = chineseParts.length === englishParts.length;
+      return englishParts.map((english, index) => ({
+        ...sentence,
+        english,
+        chinese: canPairChinese ? chineseParts[index] : sentence.chinese,
+        parentEnglish: sentence.english,
+        parentChinese: sentence.chinese,
+        segmentOrder: index + 1,
+        segmentCount: englishParts.length
+      }));
+    }
+
+    function expandSentencesForPractice(sentences) {
+      return sentences.flatMap((sentence) => expandSentenceForPractice(sentence));
+    }
+
     lessons = realLessonTitles.map(([lessonNo, title], index) => {
-      const sentences = sentenceMap[lessonNo] || [];
+      let sentences = sentenceMap[lessonNo] || [];
       const zhOverrides = zhOverrideMap[lessonNo] || [];
       if (zhOverrides.length) {
         sentences.forEach((sentence, sentenceIndex) => {
           if (zhOverrides[sentenceIndex]) sentence.chinese = zhOverrides[sentenceIndex];
         });
       }
+      sentences.forEach((sentence) => {
+        if (!hasUsableChinese(sentence.chinese)) sentence.chinese = "中文提示待补";
+      });
+      sentences = expandSentencesForPractice(sentences);
       const hasData = sentences.length > 0;
       const hasBundledData = Boolean(bundledSentenceMap[lessonNo]);
-      const hasChinese = zhOverrides.length > 0;
+      const hasChinese = sentences.length > 0 && sentences.every((sentence) => hasUsableChinese(sentence.chinese));
       return {
         id: `lesson-${lessonNo}`,
         lessonNo,
         title: `Lesson ${lessonNo} ${title}`,
-        status: hasData ? (hasChinese ? "可练习" : (hasBundledData ? "待补中文" : (lessonNo === 1 ? "已完成" : "可练习"))) : "待导入",
-        statusClass: hasData ? (hasChinese || hasBundledData ? "active" : (lessonNo === 1 ? "done" : "active")) : "",
+        status: hasData ? "可练习" : "待导入",
+        statusClass: hasData ? "active" : "",
         progress: hasData && lessonNo === 1 && !hasBundledData ? 100 : 0,
         accuracy: hasData && lessonNo === 1 && !hasBundledData ? 92 : 0,
         lastStudy: hasData ? (hasBundledData ? "全文已导入" : (lessonNo === 1 ? "昨天" : "未学习")) : "未学习",
         intro: hasData
-          ? (hasChinese ? "本课英文原文和中文提示已导入，可以开始中译英默写训练。" : (hasBundledData ? "本课英文原文已导入。当前中文提示为占位文本，补入中文翻译后即可完整中译英训练。" : "本课已录入示例句子，可以直接体验中译英默写训练。"))
+          ? (hasChinese ? "本课英文原文和中文提示已导入，可以开始中译英默写训练。" : "本课英文原文已导入，课程已解锁；当前部分中文提示待补，补入中文翻译后即可完整中译英训练。")
           : "真实课程标题已加入目录；需要导入授权课文句子后才能开始练习。",
         sentences,
+        hasChinese,
         catalogOrder: index + 1
       };
     });
@@ -5427,7 +5681,7 @@ window.NCE_ZH_OVERRIDES = [
       if (!note) return;
       note.innerHTML = message || `
         已写入第一册英文原文，共 <strong>${(window.NCE_LESSON_DATA || []).length}</strong> 课。
-        当前中文提示为占位文本，后续可导入中文翻译版数据覆盖；本地额外导入 <strong>${importedCount}</strong> 课。
+        Lesson 1-143 已补中文提示，第一册奇数课可以完整进行中译英默写；本地额外导入 <strong>${importedCount}</strong> 课。
       `;
     }
 
@@ -5487,19 +5741,19 @@ window.NCE_ZH_OVERRIDES = [
       $("coursePercentText").textContent = `${percent}% 已开放`;
 
       $("lessonList").innerHTML = lessons.map((lesson) => `
-        <button class="lesson-card ${lesson.id === "lesson-3" ? "current" : ""} ${lesson.status === "待补中文" ? "locked" : ""}" data-id="${lesson.id}">
+        <button class="lesson-card ${lesson.id === "lesson-3" ? "current" : ""}" data-id="${lesson.id}">
           <span class="lesson-index">#${lesson.catalogOrder}</span>
           <div>
             <div class="lesson-title">Lesson ${lesson.lessonNo}</div>
             <div class="lesson-subtitle">${escapeHtml(lesson.title.replace(/^Lesson\s+\d+\s+/, "").replace(/[.!?]/g, ""))}</div>
             <div class="lesson-meta">
               <span>${lesson.sentences.length} 句</span>
-              <span>${lesson.status === "可练习" ? "已补中文" : lesson.status}</span>
+              <span>${lesson.hasChinese ? "已补中文" : "待补中文"}</span>
             </div>
           </div>
           <div class="lesson-meta">
             ${lesson.id === "lesson-3" ? `<span class="badge active">最近学习</span>` : ""}
-            ${lesson.status === "可练习" ? `<span class="badge done">可练习</span>` : `<span class="badge">${lesson.status}</span>`}
+            ${lesson.sentences.length ? `<span class="badge done">已解锁</span>` : `<span class="badge">${lesson.status}</span>`}
           </div>
         </button>
       `).join("");
@@ -5619,10 +5873,12 @@ window.NCE_ZH_OVERRIDES = [
       $("smallStatus").textContent = "";
       $("feedback").className = "feedback";
       $("feedback").innerHTML = "";
+      $("answerReveal").classList.add("hidden");
+      $("answerReveal").innerHTML = "";
+      $("answerBtn").innerHTML = `<span class="key">Ctrl ;</span> 查看答案`;
+      $("hintBtn").textContent = "再偷看一点";
       $("aiPanel").classList.add("hidden");
       $("aiPanel").innerHTML = "";
-      $("structurePanel").classList.add("hidden");
-      $("structurePanel").innerHTML = "";
       $("aiExplainBtn").disabled = true;
       $("nextBtn").classList.add("hidden");
       $("submitBtn").classList.remove("hidden");
@@ -5729,7 +5985,6 @@ window.NCE_ZH_OVERRIDES = [
         state.wrongIndex = -1;
         state.showAnalysis = true;
         renderWordSlots({ correctAll: true, showAnalysis: true });
-        renderSentenceStructure();
         $("smallStatus").textContent = result.type === "exact" ? "Great × 1" : "格式已放过";
         $("feedback").className = "feedback show correct";
         $("feedback").innerHTML = result.type === "exact"
@@ -5755,13 +6010,11 @@ window.NCE_ZH_OVERRIDES = [
       state.wrongIndex = result.position - 1;
       state.showAnalysis = true;
       renderWordSlots({ showAnalysis: true });
-      renderSentenceStructure();
-      const strength = result.type === "minor" ? "轻微错误" : "还没有对上课文原句";
+      const strength = result.type === "minor" ? "差一点就想起来了" : "这句还没回到原文画面";
       $("feedback").innerHTML = `
         <strong>${strength}</strong><br>
-        第 ${result.position} 个词附近可能有问题：
-        <span class="highlight">${escapeHtml(result.wrongWord)}</span><br>
-        你可以先修改，再点“提示”逐层获得线索。
+        <span class="highlight">${escapeHtml(result.wrongWord || "这一格")}</span> 先别急着硬猜。<br>
+        点一张小纸条，让画面把词带回来。
       `;
     }
 
@@ -5772,19 +6025,93 @@ window.NCE_ZH_OVERRIDES = [
       const user = words($("answerInput").value);
       let index = 0;
       while (index < target.length && user[index] === target[index]) index += 1;
-      const targetWord = target[index] || target[target.length - 1];
       state.wrongIndex = Math.min(index, target.length - 1);
       renderWordSlots();
-      state.current.hintLevel = Math.min(state.current.hintLevel + 1, 4);
+
+      state.current.hintLevel = Math.min(state.current.hintLevel + 1, 3);
       const level = state.current.hintLevel;
-      const hints = {
-        1: `第 ${index + 1} 个词附近可能有问题。`,
-        2: makeChineseHint(sentence.chinese, targetWord),
-        3: `正确单词以 “${targetWord.slice(0, 1)}” 开头。`,
-        4: `正确答案：${sentence.english}`
-      };
+      if (level === 3) state.current.usedAnswer = true;
+
+      const paper = buildMemoryPaper(sentence, level);
       $("feedback").className = "feedback show";
-      $("feedback").innerHTML = `<strong>第 ${level} 层提示</strong><br>${hints[level]}`;
+      $("feedback").innerHTML = `
+        <strong>${paper.title} <span class="hint-count">小纸条 ${level} / 3</span></strong><br>
+        ${paper.body}
+      `;
+      updateHintButtonLabel(level);
+    }
+
+    function updateHintButtonLabel(level = state.current?.hintLevel || 0) {
+      const labels = ["再偷看一点", "看字母轮廓", "看答案", "再看一遍"];
+      $("hintBtn").textContent = labels[Math.min(level, labels.length - 1)];
+    }
+
+    function buildMemoryPaper(sentence, level) {
+      if (level === 1) {
+        return { title: "记忆小纸条", body: escapeHtml(makeSceneNote(sentence)) };
+      }
+      if (level === 2) {
+        return { title: "字母轮廓", body: `<span class="masked-answer">${escapeHtml(maskAnswer(sentence.english))}</span>` };
+      }
+      return {
+        title: "答案揭晓",
+        body: `<span class="revealed-answer">${escapeHtml(sentence.english)}</span><br>${escapeHtml(makeAnswerNote(sentence))}`
+      };
+    }
+
+    function maskAnswer(answer) {
+      return String(answer || "").replace(/[A-Za-z]+(?:'[A-Za-z]+)?/g, (word) => {
+        const chars = [...word];
+        return chars.map((char, index) => /[A-Za-z]/.test(char) ? (index === 0 ? char : "_") : char).join("");
+      });
+    }
+
+    function makeSceneNote(sentence) {
+      const english = normalize(sentence.english);
+      const chinese = String(sentence.chinese || "");
+      const raw = String(sentence.english || "");
+
+      if (english.startsWith("excuse me")) return "像轻轻叫住别人，先开个礼貌小门。";
+      if (english.startsWith("sorry")) return "像不小心碰到人，马上补一声抱歉。";
+      if (english.startsWith("thank")) return "像接过别人帮忙，顺手递上一句感谢。";
+      if (english.includes("please")) return "不是命令别人，把语气轻轻放软。";
+      if (/^(good morning|hello|hi)\b/.test(english)) return "见面第一秒，先把招呼轻轻递过去。";
+      if (/^(is|are) (this|that|these|those) .*your\b/.test(english)) return "像拿起一样东西，轻声确认归属。";
+      if (/^(is|are) (this|that|these|those)\b/.test(english)) return "像指着眼前东西，再核对一遍。";
+      if (/^where\b/.test(english)) return "镜头先找人或物：它到底在哪儿？";
+      if (/^what\b/.test(english)) return "像追问一个小细节：到底是什么？";
+      if (/^how\b/.test(english)) return "见面寒暄，轻轻问一句近况。";
+      if (/^who\b/.test(english)) return "镜头对准人：这事儿是谁在做？";
+      if (/^whose\b/.test(english)) return "像捡到东西，先问它属于谁。";
+      if (/^here (is|are)\b/.test(english)) return "像把东西递到面前：喏，在这里。";
+      if (/^there (is|are)\b/.test(english)) return "像描述房间摆设：哪里有什么。";
+      if (/^don'?t\b/.test(english)) return "像赶紧提醒一句：先别这么做。";
+      if (/^(come|shut|open|put|make|dust|sweep|hurry|look|sit|give)\b/.test(english)) return "像在现场轻轻安排下一步动作。";
+      if (/^(can|could|would|will|shall|may)\b/.test(english)) return "像先探一探，对方愿不愿意。";
+      if (english.includes("going to")) return "脑子里已经有计划，话还没出发。";
+      if (english.includes("like") || english.includes("want")) return "像在柜台前，说出自己的小偏好。";
+      if (english.includes("must")) return "这句有点认真：现在非做不可。";
+      if (raw.includes("!")) return "语气比平时亮一点，像脱口而出。";
+      if (raw.includes("?")) return "把尾音轻轻抬起，像在确认小事。";
+      if (chinese.length <= 10) return `盯住这个小画面：${chinese}`;
+      return "先别翻译，想一想这句话出现在哪个画面。";
+    }
+
+    function makeAnswerNote(sentence) {
+      const english = normalize(sentence.english);
+      if (english.startsWith("excuse me")) return "想礼貌叫住别人时，先用这句开场。";
+      if (english.startsWith("sorry")) return "道歉不用绕弯，先把这句放前面。";
+      if (english.startsWith("thank")) return "收到帮助后，这句就是顺手的感谢。";
+      if (english.includes("please")) return "有 please，整句话立刻柔和很多。";
+      if (/^(is|are) (this|that|these|those).*your\b/.test(english)) return "拿着东西问归属，就用这个节奏。";
+      if (/^where\b/.test(english)) return "找位置时，先让 Where 站到最前面。";
+      if (/^what\b/.test(english)) return "问内容或动作时，先把 What 推出来。";
+      if (/^here (is|are)\b/.test(english)) return "递东西、展示东西，都很适合这句。";
+      if (/^there (is|are)\b/.test(english)) return "描述场景里有什么，就抓住 There be。";
+      if (/^don'?t\b/.test(english)) return "想阻止一个动作，开头先别忘了 Don't。";
+      if (/^(can|could|would)\b/.test(english)) return "请求别人帮忙时，这样问更轻。";
+      if (english.includes("going to")) return "说计划和打算时，这个表达很顺手。";
+      return "把中文画面和英文顺序绑在一起记。";
     }
 
     async function explainMistake() {
@@ -5837,11 +6164,9 @@ window.NCE_ZH_OVERRIDES = [
       const targetWord = payload.targetWord || targetWords[index] || "";
       const userWord = payload.wrongWord || userWords[index] || "";
       const tips = [];
-      const structure = analyzeSentence(payload.correctEnglish);
 
       if (payload.passed) {
         tips.push("这句已经还原正确。接下来可以关注它的句型、固定表达和可替换练习。");
-        tips.push(`结构重点：${structure.summary}`);
         tips.push(`拓展练习：把关键词替换后造一句新句，比如保留原句型，只替换人物、物品或地点。`);
         return `
           <strong>AI 知识点解析</strong>
@@ -5861,7 +6186,7 @@ window.NCE_ZH_OVERRIDES = [
       } else if (index === 0 && /^[a-z]/.test(payload.userInput.trim())) {
         tips.push("句首大小写不影响本次通过规则，但正式书写时句首应该大写。");
       } else {
-        tips.push(`第 ${index + 1} 个词没有对上课文原文。你写的是 <strong>${escapeHtml(userWord)}</strong>，这一格需要回到中文和原句结构里重新想。`);
+        tips.push(`第 ${index + 1} 个词没有对上课文原文。你写的是 <strong>${escapeHtml(userWord)}</strong>，这一格先回到中文画面里重新想。`);
       }
 
       if (targetWords.length !== userWords.length) {
@@ -5869,7 +6194,6 @@ window.NCE_ZH_OVERRIDES = [
       }
 
       tips.push(grammarHint(payload.correctEnglish, targetWord));
-      tips.push(`结构重点：${structure.summary}`);
 
       return `
         <strong>AI 解析</strong>
@@ -5900,25 +6224,10 @@ window.NCE_ZH_OVERRIDES = [
     function grammarHint(answer, targetWord) {
       const normalized = normalize(answer);
       if (normalized.startsWith("is ")) return "这句是一般疑问句，be 动词 <strong>Is</strong> 放在句首。";
-      if (normalized.includes(" not ")) return "这句是否定结构，注意 <strong>not</strong> 的位置不能漏。";
+      if (normalized.includes(" not ")) return "这句有 <strong>not</strong>，别让“不”偷偷溜走。";
       if (normalized.startsWith("here is")) return "<strong>Here is...</strong> 是固定呈现表达，表示“这是/给你”。";
       if (targetWord === "my" || targetWord === "your") return "这里考的是物主代词，要区分 <strong>my</strong> 和 <strong>your</strong>。";
-      return "建议按“中文意思 → 句型结构 → 单词拼写”的顺序再回忆一次，不要直接自由翻译。";
-    }
-
-    function makeChineseHint(chinese, word) {
-      const simpleHints = {
-        coat: "“外套”在这里是单数，不需要加 s。",
-        umbrella: "注意“伞”这个名词，以及前面的物主代词。",
-        please: "这句里有一个表示礼貌请求的词。",
-        ticket: "这里需要说“票”。",
-        thank: "这是感谢表达，开头是 Thank。",
-        very: "感谢程度更强，中间有 very。",
-        this: "注意句子开头是在指代“这”。",
-        not: "这是否定句，别漏掉 not。",
-        sorry: "这是道歉表达。"
-      };
-      return simpleHints[word] || `先看中文：“${chinese}”，回忆这里对应的英文固定表达。`;
+      return "建议按“中文画面 → 英文顺序 → 单词拼写”再回忆一次。";
     }
 
     const ipaMap = {
@@ -5994,77 +6303,47 @@ window.NCE_ZH_OVERRIDES = [
       return { pos: "单词", meaning: "待补释义" };
     }
 
-    function renderSentenceStructure() {
-      const answer = state.current?.sentence?.english || "";
-      if (!answer) return;
-      const analysis = analyzeSentence(answer);
-      $("structurePanel").classList.remove("hidden");
-      $("structurePanel").innerHTML = `
-        <strong>句子结构</strong><br>
-        ${analysis.summary}
-        <div class="structure-tags">
-          ${analysis.tags.map((tag) => `<span>${tag}</span>`).join("")}
+
+    function renderAnswerCard(sentence) {
+      return `
+        <div class="answer-card" aria-label="正确答案解析">
+          ${words(sentence.english).map((word) => {
+            const wordInfo = wordInfoFor(word);
+            return `
+              <div class="answer-word">
+                <span class="slot-ipa">${escapeHtml(phoneticFor(word))}</span>
+                <span class="answer-word-text">${escapeHtml(word)}</span>
+                <span class="slot-meta">
+                  ${wordInfo.pos ? `<span class="pos-tag">${escapeHtml(wordInfo.pos)}</span>` : ""}
+                  ${wordInfo.meaning ? `<span class="word-meaning">${escapeHtml(wordInfo.meaning)}</span>` : ""}
+                </span>
+              </div>
+            `;
+          }).join("")}
         </div>
       `;
     }
-
-    function analyzeSentence(sentence) {
-      const normalized = normalize(sentence);
-      const targetWords = words(sentence);
-      const tags = [];
-      let summary = "这是一个基础陈述/对话句，重点是按课文原句记住词序和固定表达。";
-
-      if (/^(is|are|do|does|did|can|will|would|have|has|had|must|may|shall)\b/.test(normalized)) {
-        summary = "这是一般疑问句，助动词或 be 动词放在句首，后面接主语和主要内容。";
-        tags.push("一般疑问句", "助动词/be 动词前置");
-      } else if (/^(what|where|which|who|whose|how|why|when)\b/.test(normalized)) {
-        summary = "这是特殊疑问句，疑问词放句首，后面接疑问句语序。";
-        tags.push("特殊疑问句", "疑问词开头");
-      } else if (/^(come|give|look|sit|shut|open|put|make|dust|sweep|hurry|be careful|don't)\b/.test(normalized)) {
-        summary = "这是祈使句，通常省略主语 you，直接用动词原形发出请求、指令或提醒。";
-        tags.push("祈使句", "动词原形开头");
-      } else if (normalized.startsWith("there is") || normalized.startsWith("there are")) {
-        summary = "这是 there be 句型，用来表示“某处有某物”。be 动词要和后面的名词单复数一致。";
-        tags.push("There be", "存在句");
-      } else if (normalized.startsWith("here is") || normalized.startsWith("here are")) {
-        summary = "这是 Here is/Here are 结构，常用来表示“给你/这是”。";
-        tags.push("Here is/are", "呈现表达");
-      } else if (normalized.includes(" not ") || normalized.includes("n't")) {
-        summary = "这是含否定的句子，注意 not 或 n't 的位置，以及它和 be/助动词的搭配。";
-        tags.push("否定结构", "not / n't");
-      } else if (normalized.includes(" going to ")) {
-        summary = "这里用了 be going to 结构，表示计划、打算或即将发生的动作。";
-        tags.push("be going to", "计划/将来");
-      } else if (targetWords.length <= 3) {
-        summary = "这是短对话句，重点是固定表达、大小写和句末语气。";
-        tags.push("短句", "固定表达");
-      }
-
-      if (targetWords.includes("my") || targetWords.includes("your") || targetWords.includes("his") || targetWords.includes("her") || targetWords.includes("our") || targetWords.includes("their")) {
-        tags.push("物主代词");
-      }
-      if (sentence.includes("?")) tags.push("问号语气");
-      if (sentence.includes("!")) tags.push("感叹/强调");
-      if (!tags.length) tags.push("词序记忆");
-
-      return { summary, tags: [...new Set(tags)] };
-    }
-
     function showAnswer() {
+      const reveal = $("answerReveal");
+      const isHidden = reveal.classList.contains("hidden");
+
+      if (!isHidden) {
+        reveal.classList.add("hidden");
+        reveal.innerHTML = "";
+        $("answerBtn").innerHTML = `<span class="key">Ctrl ;</span> 查看答案`;
+        focusSlot(0);
+        return;
+      }
+
       state.current.usedAnswer = true;
-      state.current.hintLevel = 4;
+      state.current.hintLevel = 3;
       state.showAnalysis = true;
-      $("aiPanel").classList.add("hidden");
-      $("feedback").className = "feedback show wrong";
-      $("feedback").innerHTML = `
-        <strong>正确答案</strong><br>
-        ${state.current.sentence.english}<br>
-        可以照着答案输入一遍，再进入下一句。
-      `;
-      $("answerInput").value = state.current.sentence.english;
       state.wrongIndex = -1;
-      renderWordSlots({ correctAll: true, showAnalysis: true });
-      renderSentenceStructure();
+      $("aiPanel").classList.add("hidden");
+      reveal.classList.remove("hidden");
+      reveal.innerHTML = renderAnswerCard(state.current.sentence);
+      $("answerBtn").innerHTML = `<span class="key">Ctrl ;</span> 隐藏答案`;
+      renderWordSlots({ showAnalysis: true });
       $("aiExplainBtn").disabled = false;
       focusSlot(0);
     }
@@ -6130,6 +6409,21 @@ window.NCE_ZH_OVERRIDES = [
         .replace(/'/g, "&#039;");
     }
 
+    function applyTheme(theme) {
+      const nextTheme = theme === "light" ? "light" : "dark";
+      document.body.dataset.theme = nextTheme;
+      localStorage.setItem("nce_theme", nextTheme);
+      const btn = $("themeToggleBtn");
+      if (btn) {
+        btn.textContent = nextTheme === "light" ? "☾" : "☀";
+        btn.title = nextTheme === "light" ? "切换黑夜模式" : "切换白天模式";
+      }
+    }
+
+    function toggleTheme() {
+      applyTheme(document.body.dataset.theme === "light" ? "dark" : "light");
+    }
+
     function speakCurrent() {
       const text = state.current?.sentence?.english;
       if (!text || !("speechSynthesis" in window)) return;
@@ -6140,12 +6434,22 @@ window.NCE_ZH_OVERRIDES = [
       window.speechSynthesis.speak(utterance);
     }
 
+    applyTheme(localStorage.getItem("nce_theme") || "dark");
+    $("themeToggleBtn").addEventListener("click", toggleTheme);
     $("homeBtn").addEventListener("click", () => {
       clearInterval(state.timerId);
       showView("homeView");
     });
     $("backToListBtn").addEventListener("click", () => showView("listView"));
     $("openNce1Btn").addEventListener("click", () => showView("listView"));
+    $("openNce2Btn").addEventListener("click", () => {
+      showView("listView");
+      updateImportNote("第二册入口已解锁；当前还没有导入第二册课文数据，先展示第一册课程列表。后续导入第二册数据后可直接接入同一套默写训练。");
+    });
+    $("openCustomBtn").addEventListener("click", () => {
+      showView("listView");
+      updateImportNote("其他课程入口已解锁；可以通过下方导入 JSON 接入自定义课文，接入后会出现在课程列表中。");
+    });
     $("continueBtn").addEventListener("click", () => {
       state.selectedLesson = lessons.find((lesson) => lesson.id === "lesson-3") || lessons[0];
       renderPreview();
