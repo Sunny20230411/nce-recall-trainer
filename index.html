@@ -93,18 +93,15 @@
       letter-spacing: .2px;
     }
 
-    .menu-icon {
+    .back-icon {
       width: 24px;
-      height: 18px;
+      height: 24px;
       display: grid;
-      gap: 5px;
-    }
-
-    .menu-icon span {
-      display: block;
-      height: 2px;
-      border-radius: 999px;
-      background: var(--text);
+      place-items: center;
+      color: var(--text);
+      font-size: 27px;
+      font-weight: 500;
+      line-height: 1;
     }
 
     .top-actions {
@@ -334,9 +331,11 @@
 
     .layout {
       display: grid;
-      grid-template-columns: 320px 1fr;
+      grid-template-columns: minmax(0, 1fr);
       gap: 22px;
       align-items: start;
+      width: min(980px, 100%);
+      margin: 0 auto;
     }
 
     .side {
@@ -385,6 +384,12 @@
       color: var(--soft);
       background: rgba(255, 255, 255, .05);
       border-color: var(--line);
+    }
+
+    .btn.secondary.active {
+      color: #bbf7d0;
+      border-color: rgba(34, 197, 94, .45);
+      background: rgba(34, 197, 94, .12);
     }
 
     .btn.ghost {
@@ -436,9 +441,9 @@
     }
 
     .practice {
-      min-height: calc(100vh - 120px);
-      display: grid;
-      grid-template-rows: auto 1fr auto;
+      min-height: calc(100dvh - 120px);
+      display: flex;
+      flex-direction: column;
       gap: 20px;
     }
 
@@ -480,6 +485,7 @@
     }
 
     .drill {
+      flex: 1 1 auto;
       display: grid;
       place-items: center;
       padding: 28px 0;
@@ -581,22 +587,6 @@
       cursor: text;
     }
 
-    .answer-input {
-      position: absolute;
-      left: -9999px;
-      top: auto;
-      width: 1px;
-      height: 1px;
-      border: 0;
-      background: transparent;
-      color: transparent;
-      caret-color: transparent;
-      outline: 0;
-      opacity: .01;
-      padding: 0;
-      pointer-events: none;
-    }
-
     .word-slots {
       width: 100%;
       margin: 0 auto;
@@ -610,7 +600,7 @@
     .word-slot {
       flex: 0 0 auto;
       min-width: 54px;
-      max-width: 220px;
+      max-width: min(520px, calc(100vw - 48px));
       min-height: 104px;
       display: flex;
       flex-direction: column;
@@ -620,7 +610,7 @@
       color: var(--text);
       font-size: 20px;
       line-height: 1.1;
-      transition: border-color .18s ease, color .18s ease, background .18s ease;
+      transition: border-color .18s ease, color .18s ease, transform .18s ease;
     }
 
     .slot-ipa {
@@ -635,13 +625,28 @@
     .slot-input {
       width: 100%;
       min-width: 0;
+      box-sizing: border-box;
       border: 0;
       border-bottom: 2px solid #8d96a8;
       outline: 0;
       background: transparent;
       color: inherit;
+      caret-color: var(--brand);
       text-align: center;
-      font-size: 22px;
+      font-size: clamp(24px, 2.6vw, 38px);
+      line-height: 1;
+      padding: 0 4px 10px;
+    }
+
+    .slot-text {
+      display: block;
+      width: 100%;
+      min-height: 40px;
+      border-bottom: 2px solid #8d96a8;
+      color: inherit;
+      text-align: center;
+      font-size: clamp(30px, 3.2vw, 48px);
+      line-height: 1;
       padding: 0 4px 10px;
       transition: border-color .18s ease;
     }
@@ -651,33 +656,54 @@
     }
 
     .word-slot.filled {
-      color: #e8f0ff;
+      color: var(--text);
     }
 
     .word-slot.correct {
-      color: #bbf7d0;
+      color: var(--brand);
     }
 
     .word-slot.correct .slot-input {
-      border-bottom-color: var(--ok);
+      border-bottom-color: var(--brand);
+      color: var(--brand);
+    }
+
+    .word-slot.correct .slot-text {
+      border-bottom-color: var(--brand);
     }
 
     .word-slot.active {
-      box-shadow: 0 8px 18px rgba(139, 92, 246, .12);
+      transform: translateY(-2px);
     }
 
-    .word-slot.active .slot-input {
+    .word-slot.active .slot-input,
+    .slot-input:focus {
+      border-bottom-color: var(--brand);
+    }
+
+    .word-slot.active .slot-text {
       border-bottom-color: var(--brand);
     }
 
     .word-slot.wrong {
       color: #fecaca;
-      background: rgba(239, 68, 68, .12);
-      border-radius: 8px 8px 0 0;
     }
 
     .word-slot.wrong .slot-input {
       border-bottom-color: var(--bad);
+    }
+
+    .word-slot.wrong .slot-text {
+      border-bottom-color: var(--bad);
+    }
+
+    .word-slot.wrong.active {
+      transform: translateY(-2px);
+    }
+
+    .word-slot.wrong.active .slot-input {
+      border-bottom-color: var(--bad);
+      caret-color: var(--brand);
     }
 
     .slot-meta {
@@ -708,6 +734,189 @@
       overflow-wrap: anywhere;
     }
 
+    .drill-card.analysis-mode {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .drill-card.analysis-mode .small-status { order: 0; }
+    .drill-card.analysis-mode .sentence-order { order: 1; }
+    .drill-card.analysis-mode .answer-reveal { order: 2; }
+    .drill-card.analysis-mode .input-shell { order: 3; margin-bottom: 28px; }
+    .drill-card.analysis-mode .prompt-label { display: none; }
+    .drill-card.analysis-mode .chinese {
+      order: 4;
+      margin: 0;
+      color: var(--soft);
+      font-size: clamp(22px, 2.4vw, 30px);
+      font-weight: 500;
+    }
+    .drill-card.analysis-mode .feedback { order: 5; }
+    .drill-card.analysis-mode .ai-panel { order: 6; }
+    .drill-card.analysis-mode .answer-reveal.hidden {
+      min-height: 0;
+      height: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .sentence-analysis {
+      width: 100%;
+      min-width: 0;
+      box-sizing: border-box;
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 18px;
+      padding: 12px 4px 8px;
+    }
+
+    .structure-group {
+      --structure-color: #6b7280;
+      position: relative;
+      min-width: 0;
+      max-width: 100%;
+      box-sizing: border-box;
+      padding: 20px 10px 10px;
+      border: 1px solid var(--structure-color);
+      border-radius: 18px;
+    }
+
+    .structure-group.clause-group {
+      border-style: dashed;
+    }
+
+    .structure-label {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-width: 42px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: var(--structure-color);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 800;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
+    .structure-words,
+    .analysis-ungrouped {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .structure-words {
+      max-width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+
+    .structure-group .structure-group {
+      margin: 10px 3px 0;
+      border-radius: 12px;
+    }
+
+    .analysis-word {
+      --pos-color: #94a3b8;
+      flex: 0 0 auto;
+      min-width: 64px;
+      max-width: 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .analysis-ipa {
+      min-height: 18px;
+      margin-bottom: 5px;
+      color: var(--muted);
+      font-family: Consolas, "SFMono-Regular", monospace;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .analysis-word-main {
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      min-height: 49px;
+      padding: 0 4px 7px;
+      color: var(--text);
+      font-size: clamp(27px, 3vw, 43px);
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .analysis-punctuation {
+      color: var(--text);
+    }
+
+    .analysis-pos-line {
+      width: 100%;
+      height: 4px;
+      border-radius: 999px;
+      background: var(--pos-color);
+    }
+
+    .analysis-translation {
+      min-height: 20px;
+      margin-top: 7px;
+      color: var(--soft);
+      font-size: 14px;
+    }
+
+    .analysis-pos-label {
+      min-height: 18px;
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .pos-noun { --pos-color: #4c8dff; }
+    .pos-pronoun { --pos-color: #ff4d67; }
+    .pos-verb { --pos-color: #2ed47a; }
+    .pos-adjective { --pos-color: #a970ff; }
+    .pos-adverb { --pos-color: #22d3ee; }
+    .pos-preposition { --pos-color: #ff9f43; }
+    .pos-conjunction { --pos-color: #f04fae; }
+    .pos-determiner { --pos-color: #ffd166; }
+    .pos-numeral { --pos-color: #8ad93f; }
+    .pos-interjection { --pos-color: #ff6b35; }
+    .pos-particle { --pos-color: #94a3b8; }
+
+    body[data-theme="light"] .structure-label {
+      color: #fff;
+    }
+
+    @media (max-width: 600px) {
+      .sentence-analysis {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .structure-group,
+      .analysis-ungrouped {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+      }
+
+      .structure-words,
+      .analysis-ungrouped {
+        justify-content: flex-start;
+        overflow-x: auto;
+        overflow-y: hidden;
+      }
+    }
+
     @media (min-width: 1160px) {
       .drill-card {
         width: min(1240px, 100%);
@@ -733,6 +942,13 @@
     .feedback.show {
       border-color: var(--line);
       background: rgba(255, 255, 255, .04);
+    }
+
+    .feedback:empty {
+      min-height: 0;
+      margin: 0;
+      padding: 0;
+      border: 0;
     }
 
     .feedback.correct {
@@ -778,16 +994,10 @@
     }
 
     .ai-panel.hidden {
-      display: block !important;
+      display: none !important;
       opacity: 0;
       visibility: hidden;
       pointer-events: none;
-    }
-
-
-    /* analysis-placeholder-hidden: keep parser areas from shifting the drill layout */
-    .ai-panel {
-      min-height: 116px;
     }
 
     .ai-panel {
@@ -824,12 +1034,69 @@
     }
 
     .practice-actions {
+      flex: 0 0 auto;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-wrap: wrap;
       gap: 12px;
+      margin-top: auto;
       padding: 12px 0 0;
+    }
+
+    @media (max-height: 760px) {
+      .practice {
+        gap: 10px;
+      }
+
+      .drill {
+        padding: 12px 0;
+      }
+
+      .practice-actions {
+        padding-top: 6px;
+      }
+    }
+
+    .pause-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 50;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: rgba(0, 0, 0, .72);
+      backdrop-filter: blur(7px);
+    }
+
+    .pause-dialog {
+      width: min(520px, 100%);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(8, 10, 14, .96);
+      box-shadow: var(--shadow);
+      color: var(--text);
+      overflow: hidden;
+    }
+
+    .pause-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .pause-dialog p {
+      margin: 0;
+      padding: 22px 20px;
+      color: var(--soft);
+    }
+
+    .pause-dialog .btn {
+      margin: 0 20px 20px auto;
+      display: flex;
+      width: fit-content;
     }
 
     .key {
@@ -1334,6 +1601,11 @@
       border-color: rgba(148, 163, 184, .6);
     }
 
+    body[data-theme="light"] .word-slot.wrong,
+    body[data-theme="light"] .word-slot.wrong .slot-input {
+      color: #0f172a;
+    }
+
     .hidden {
       display: none !important;
     }
@@ -1367,7 +1639,7 @@
         grid-template-columns: 1fr;
       }
 
-      .answer-input {
+      .slot-input {
         font-size: 24px;
       }
 
@@ -1385,17 +1657,14 @@
   <div class="app">
     <header class="topbar">
       <div class="brand">
-        <button class="icon-btn" id="homeBtn" title="返回课程列表">
-          <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        <button class="icon-btn hidden" id="homeBtn" title="返回首页" aria-label="返回首页">
+          <span class="back-icon" aria-hidden="true">←</span>
         </button>
         <span id="topTitle">新概念课文默写训练</span>
       </div>
       <div class="top-actions" aria-label="页面工具">
         <button class="icon-btn" id="themeToggleBtn" title="切换白天/黑夜">☀</button>
-        <button class="icon-btn" title="设置">⚙</button>
-        <button class="icon-btn" title="课本">□</button>
-        <button class="icon-btn" title="统计">▤</button>
-        <button class="icon-btn" title="全屏">⛶</button>
+        <button class="icon-btn hidden" id="pauseBtn" title="暂停">Ⅱ</button>
       </div>
     </header>
 
@@ -1489,12 +1758,6 @@
 
       <section id="previewView" class="view">
         <div class="layout">
-          <aside class="panel side">
-            <h3>本课目标</h3>
-            <p>看一遍课文后开始默写。练习时只显示中文提示，需要尽量还原英文原句。</p>
-            <button class="btn secondary" id="backToListBtn">返回课程列表</button>
-          </aside>
-
           <div class="panel preview-main">
             <h2 id="previewTitle"></h2>
             <p class="preview-copy" id="previewIntro"></p>
@@ -1521,6 +1784,7 @@
               <span id="practiceLesson"></span>
               <span id="practiceCount"></span>
               <span>用时 <b id="timer">00:00</b></span>
+              <span id="scoreMetric">分数 <b id="scoreValue">0</b></span>
               <span>正确率 <b id="liveAccuracy">0%</b></span>
             </div>
             <div class="progress-track" aria-label="练习进度">
@@ -1536,7 +1800,6 @@
               <div class="prompt-label">中文提示</div>
               <div class="chinese" id="currentChinese"></div>
               <div class="input-shell" id="inputShell">
-                <input class="answer-input" id="answerInput" autocomplete="off" spellcheck="false" aria-label="输入英文原文">
                 <div class="word-slots" id="wordSlots" aria-label="单词输入位置"></div>
               </div>
               <div class="feedback" id="feedback"></div>
@@ -1545,15 +1808,27 @@
           </div>
 
           <div class="practice-actions">
+            <button class="btn ghost" id="prevBtn"><span class="key">Shift ←</span> 上一题</button>
             <button class="btn secondary" id="speakBtn"><span class="key">Ctrl</span> 播放发音</button>
-            <button class="btn secondary" id="hintBtn"><span class="key">Ctrl M</span> 提示</button>
-            <button class="btn secondary" id="aiExplainBtn">AI 解析</button>
+            <button class="btn secondary" id="hintBtn"><span class="key">Ctrl M</span> 掌握</button>
+            <button class="btn secondary" id="aiExplainBtn"><span class="key">Ctrl N</span> 生词</button>
             <button class="btn secondary" id="answerBtn"><span class="key">Ctrl ;</span> 查看答案</button>
-            <button class="btn" id="submitBtn"><span class="key">Enter</span> 提交</button>
-            <button class="btn ghost hidden" id="nextBtn">下一句</button>
+            <button class="btn" id="submitBtn"><span class="key">Space</span> 提交</button>
+            <button class="btn ghost" id="nextBtn"><span class="key">Shift →</span> 下一题</button>
           </div>
         </div>
       </section>
+
+      <div class="pause-overlay hidden" id="pauseOverlay" role="dialog" aria-modal="true" aria-labelledby="pauseTitle">
+        <div class="pause-dialog">
+          <div class="pause-head">
+            <strong id="pauseTitle">游戏暂停</strong>
+            <button class="icon-btn" id="closePauseBtn" title="关闭暂停">×</button>
+          </div>
+          <p>快点回来吧，你的英语能力正在蓄势待发！</p>
+          <button class="btn" id="resumeBtn">继续游戏</button>
+        </div>
+      </div>
 
       <section id="resultView" class="view">
         <div class="result-wrap">
@@ -1566,6 +1841,7 @@
             <div class="summary-grid" id="summaryGrid"></div>
             <button class="btn" id="retryMistakesBtn">再练错题</button>
             <button class="btn secondary" id="restartBtn">重新练整课</button>
+            <button class="btn" id="nextLessonBtn">进入下一课</button>
           </div>
 
           <div class="panel result-card">
@@ -5704,59 +5980,181 @@ window.NCE_ZH_OVERRIDES = [
       }
     }
 
+    const LEARNING_RECORDS_KEY = "nce_learning_records_v1";
+
+    function loadLearningRecords() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(LEARNING_RECORDS_KEY) || "{}");
+        return saved && typeof saved === "object" && !Array.isArray(saved) ? saved : {};
+      } catch (error) {
+        return {};
+      }
+    }
+
+    let learningRecords = loadLearningRecords();
+
+    function defaultLearningRecord(lesson) {
+      return {
+        lessonId: lesson.id,
+        lessonTitle: lesson.title,
+        startedRuns: 0,
+        completedRuns: 0,
+        progress: 0,
+        completed: false,
+        lastAccuracy: 0,
+        bestAccuracy: 0,
+        aggregateCorrect: 0,
+        aggregateQuestions: 0,
+        lastDuration: 0,
+        lastPosition: 0,
+        lastStudiedAt: "",
+        wrongSentences: [],
+        newWords: []
+      };
+    }
+
+    function learningRecordFor(lesson) {
+      return { ...defaultLearningRecord(lesson), ...(learningRecords[lesson.id] || {}) };
+    }
+
+    function updateLearningRecord(lesson, updater) {
+      if (!lesson) return null;
+      const current = learningRecordFor(lesson);
+      const next = typeof updater === "function" ? updater(current) : { ...current, ...updater };
+      learningRecords[lesson.id] = {
+        ...defaultLearningRecord(lesson),
+        ...next,
+        lessonId: lesson.id,
+        lessonTitle: lesson.title
+      };
+      try {
+        localStorage.setItem(LEARNING_RECORDS_KEY, JSON.stringify(learningRecords));
+      } catch (error) {
+        // The practice flow should still work if browser storage is unavailable.
+      }
+      return learningRecords[lesson.id];
+    }
+
+    function formatLastStudy(value) {
+      if (!value) return "未学习";
+      const time = new Date(value).getTime();
+      if (!Number.isFinite(time)) return "未学习";
+      const diff = Math.max(0, Date.now() - time);
+      if (diff < 60 * 1000) return "刚刚";
+      if (diff < 60 * 60 * 1000) return `${Math.floor(diff / 60000)} 分钟前`;
+      if (diff < 24 * 60 * 60 * 1000) return `${Math.floor(diff / 3600000)} 小时前`;
+      if (diff < 7 * 24 * 60 * 60 * 1000) return `${Math.floor(diff / 86400000)} 天前`;
+      return new Date(value).toLocaleDateString("zh-CN");
+    }
+
+    function mostRecentLesson() {
+      const studied = lessons
+        .map((lesson) => ({ lesson, record: learningRecordFor(lesson) }))
+        .filter(({ lesson, record }) => lesson.sentences.length && record.lastStudiedAt)
+        .sort((a, b) => new Date(b.record.lastStudiedAt) - new Date(a.record.lastStudiedAt));
+      return studied[0]?.lesson || lessons.find((lesson) => lesson.sentences.length) || lessons[0];
+    }
+
+    function refreshContinueButton() {
+      const lesson = mostRecentLesson();
+      if (!lesson || !$("continueBtn")) return;
+      const record = learningRecordFor(lesson);
+      $("continueBtn").textContent = record.lastStudiedAt
+        ? `继续学习「Lesson ${lesson.lessonNo}」`
+        : `开始学习「Lesson ${lesson.lessonNo}」`;
+      $("continueBtn").dataset.lessonId = lesson.id;
+    }
+
     const state = {
       selectedLesson: lessons.find((lesson) => lesson.id === "lesson-3") || lessons[0],
       practiceSentences: [],
+      mode: "course",
+      phase: "idle",
       currentIndex: 0,
+      score: 0,
+      combo: 0,
+      maxCombo: 0,
       startedAt: null,
+      pausedAt: null,
+      pausedTotal: 0,
+      finishedElapsed: null,
       sentenceStartedAt: null,
       timerId: null,
       wrongIndex: -1,
+      activeWordIndex: 0,
+      isChecking: false,
       lastCompare: null,
       showAnalysis: false,
       results: [],
+      lastCourseResults: [],
+      reviewSourceResults: [],
+      sessionTotalCount: 0,
+      sessionCompletedCount: 0,
+      sessionCorrectCount: 0,
       current: null
     };
 
     const $ = (id) => document.getElementById(id);
 
     function showView(id) {
+      if (id === "listView") renderLessons();
+      if (id === "previewView") renderPreview();
       document.querySelectorAll(".view").forEach((view) => view.classList.remove("active"));
       $(id).classList.add("active");
       const titleMap = {
         homeView: "课程选择",
         listView: "新概念英语第一册",
         previewView: state.selectedLesson.title,
-        practiceView: `${state.selectedLesson.title}  (${state.currentIndex + 1}/${state.practiceSentences.length})`,
+        practiceView: state.mode === "review"
+          ? `复习本次错题  (${state.currentIndex + 1}/${state.practiceSentences.length})`
+          : `${state.selectedLesson.title}  (${state.currentIndex + 1}/${state.practiceSentences.length})`,
         resultView: `${state.selectedLesson.title} 完成`
       };
       $("topTitle").textContent = titleMap[id] || "新概念课文默写训练";
+      const backButton = $("homeBtn");
+      const isHome = id === "homeView";
+      const goesHome = id === "listView";
+      backButton.classList.toggle("hidden", isHome);
+      if (!isHome) {
+        const label = goesHome ? "返回首页" : "返回课程列表";
+        backButton.title = label;
+        backButton.setAttribute("aria-label", label);
+      }
+      $("pauseBtn").classList.toggle("hidden", id !== "practiceView");
     }
 
     function renderLessons() {
-      const completedCount = lessons.filter((lesson) => lesson.sentences.length).length;
-      const percent = Math.round((completedCount / lessons.length) * 100);
+      const availableLessons = lessons.filter((lesson) => lesson.sentences.length);
+      const completedCount = availableLessons.filter((lesson) => learningRecordFor(lesson).completed).length;
+      const percent = availableLessons.length ? Math.round((completedCount / availableLessons.length) * 100) : 0;
+      const recentLesson = mostRecentLesson();
       $("courseProgressFill").style.width = `${percent}%`;
-      $("courseProgressText").textContent = `${completedCount}/${lessons.length} 课程`;
-      $("coursePercentText").textContent = `${percent}% 已开放`;
+      $("courseProgressText").textContent = `${completedCount}/${availableLessons.length} 课程完成`;
+      $("coursePercentText").textContent = `${percent}% 已完成`;
 
-      $("lessonList").innerHTML = lessons.map((lesson) => `
-        <button class="lesson-card ${lesson.id === "lesson-3" ? "current" : ""}" data-id="${lesson.id}">
+      $("lessonList").innerHTML = lessons.map((lesson) => {
+        const record = learningRecordFor(lesson);
+        const status = record.completed ? "已完成" : record.progress > 0 ? "学习中" : "未开始";
+        return `
+        <button class="lesson-card ${record.lastStudiedAt && lesson.id === recentLesson.id ? "current" : ""}" data-id="${lesson.id}">
           <span class="lesson-index">#${lesson.catalogOrder}</span>
           <div>
             <div class="lesson-title">Lesson ${lesson.lessonNo}</div>
             <div class="lesson-subtitle">${escapeHtml(lesson.title.replace(/^Lesson\s+\d+\s+/, "").replace(/[.!?]/g, ""))}</div>
             <div class="lesson-meta">
               <span>${lesson.sentences.length} 句</span>
-              <span>${lesson.hasChinese ? "已补中文" : "待补中文"}</span>
+              <span>进度 ${record.progress}%</span>
+              <span>正确率 ${record.lastAccuracy}%</span>
             </div>
           </div>
           <div class="lesson-meta">
-            ${lesson.id === "lesson-3" ? `<span class="badge active">最近学习</span>` : ""}
-            ${lesson.sentences.length ? `<span class="badge done">已解锁</span>` : `<span class="badge">${lesson.status}</span>`}
+            ${record.lastStudiedAt && lesson.id === recentLesson.id ? `<span class="badge active">最近学习</span>` : ""}
+            <span class="badge ${record.completed ? "done" : record.progress > 0 ? "active" : ""}">${status}</span>
+            <span>${formatLastStudy(record.lastStudiedAt)}</span>
           </div>
         </button>
-      `).join("");
+      `;
+      }).join("");
 
       document.querySelectorAll(".lesson-card").forEach((card) => {
         card.addEventListener("click", () => {
@@ -5765,17 +6163,23 @@ window.NCE_ZH_OVERRIDES = [
           showView("previewView");
         });
       });
+      refreshContinueButton();
     }
 
     function renderPreview() {
       const lesson = state.selectedLesson;
+      const record = learningRecordFor(lesson);
+      const status = record.completed ? "已完成" : record.progress > 0 ? "学习中" : "未开始";
       $("previewTitle").textContent = lesson.title;
       $("previewIntro").textContent = lesson.intro;
       $("lessonInfo").innerHTML = `
         <span class="badge">${lesson.sentences.length} 句</span>
-        <span class="badge ${lesson.statusClass}">${lesson.status}</span>
-        <span class="badge">进度 ${lesson.progress}%</span>
-        <span class="badge">正确率 ${lesson.accuracy}%</span>
+        <span class="badge ${record.completed ? "done" : record.progress > 0 ? "active" : ""}">${status}</span>
+        <span class="badge">进度 ${record.progress}%</span>
+        <span class="badge">正确率 ${record.lastAccuracy}%</span>
+        <span class="badge">错句 ${(record.wrongSentences || []).length}</span>
+        <span class="badge">生词 ${(record.newWords || []).length}</span>
+        <span class="badge">${formatLastStudy(record.lastStudiedAt)}</span>
       `;
       $("englishText").innerHTML = lesson.sentences.map((item) => `<li>${item.english}</li>`).join("");
       $("chineseText").innerHTML = lesson.sentences.map((item) => `<li>${item.chinese}</li>`).join("");
@@ -5786,9 +6190,8 @@ window.NCE_ZH_OVERRIDES = [
       $("startBtn").disabled = !lesson.sentences.length;
       $("startBtn").textContent = lesson.sentences.length ? "开始练习" : "待导入课文数据";
     }
-
     function normalize(text) {
-      return text
+      return String(text || "")
         .trim()
         .toLowerCase()
         .replace(/[，。！？；：“”‘’]/g, (mark) => ({
@@ -5799,34 +6202,69 @@ window.NCE_ZH_OVERRIDES = [
         .replace(/\s+/g, " ");
     }
 
+    function normalizeForAccepted(text) {
+      return normalize(text)
+        .replace(/[,.!?;:"'()[\]{}，。！？；：“”‘’]/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    function acceptedAnswerTextsFor(sentence) {
+      const configured = sentence.acceptedAnswers || sentence.accepted_answers || sentence.answers;
+      return Array.isArray(configured) && configured.length ? configured : [sentence.english];
+    }
+
     function words(text) {
       return normalize(text).split(" ").filter(Boolean);
     }
 
-    function compareAnswer(input, answer) {
-      const user = normalize(input);
-      const target = normalize(answer);
-      if (!user) return { type: "empty", passed: false };
-      if (user === target) {
-        const exact = input.trim() === answer.trim();
-        return { type: exact ? "exact" : "format", passed: true };
-      }
+    function displayWords(text) {
+      return String(text || "")
+        .trim()
+        .replace(/[.!?。！？]+$/g, "")
+        .split(/\s+/)
+        .filter(Boolean);
+    }
 
-      const userWords = words(input);
-      const targetWords = words(answer);
-      let firstWrong = 0;
-      while (firstWrong < targetWords.length && userWords[firstWrong] === targetWords[firstWrong]) {
-        firstWrong += 1;
-      }
-      const wrongWord = userWords[firstWrong] || "(缺少单词)";
-      const distance = Math.abs(userWords.length - targetWords.length) +
-        targetWords.reduce((sum, word, index) => sum + (word === userWords[index] ? 0 : 1), 0);
+    function normalizeInputWord(value) {
+      return String(value || "")
+        .trim()
+        .toLowerCase()
+        .replace(/[’‘]/g, "'")
+        .replace(/[^a-z0-9]/g, "");
+    }
+
+    function answerWordValues(text) {
+      return displayWords(text).map(normalizeInputWord);
+    }
+
+    function compareWordValues(values, sentence) {
+      const standardWords = displayWords(sentence.english);
+      const userWords = standardWords.map((_, index) => normalizeInputWord(values[index]));
+      const variants = acceptedAnswerTextsFor(sentence)
+        .map(answerWordValues)
+        .filter((variant) => variant.length === standardWords.length);
+      if (!variants.length) variants.push(answerWordValues(sentence.english));
+
+      let best = null;
+      variants.forEach((variant) => {
+        const wrongIndexes = variant.reduce((indexes, word, index) => {
+          if (userWords[index] !== word) indexes.push(index);
+          return indexes;
+        }, []);
+        if (!best || wrongIndexes.length < best.wrongIndexes.length) best = { variant, wrongIndexes };
+      });
+
+      const firstWrong = best.wrongIndexes[0] ?? -1;
+      const input = values.join(" ").trim();
       return {
-        type: distance <= 2 ? "minor" : "major",
-        passed: false,
-        wrongWord,
-        targetWord: targetWords[firstWrong] || targetWords[targetWords.length - 1],
-        position: firstWrong + 1
+        type: best.wrongIndexes.length ? (userWords.every((word) => !word) ? "empty" : "minor") : "exact",
+        passed: best.wrongIndexes.length === 0,
+        wrongIndexes: best.wrongIndexes,
+        wrongWord: firstWrong >= 0 ? (values[firstWrong] || "(缺少单词)") : "",
+        targetWord: firstWrong >= 0 ? standardWords[firstWrong] : "",
+        position: firstWrong + 1,
+        input
       };
     }
 
@@ -5836,37 +6274,221 @@ window.NCE_ZH_OVERRIDES = [
       return `${mins}:${secs}`;
     }
 
-    function startPractice(sentences = state.selectedLesson.sentences) {
-      if (!sentences.length) return;
-      clearInterval(state.timerId);
-      state.practiceSentences = sentences;
-      state.currentIndex = 0;
-      state.startedAt = Date.now();
-      state.results = sentences.map((sentence) => ({
+    function createPracticeResult(sentence) {
+      return {
         sentence,
         attempts: 0,
-        hintLevel: 0,
-        usedAnswer: false,
+        emptySubmits: 0,
+        hadWrongAttempt: false,
+        viewedAnswer: false,
         correct: false,
         firstTry: false,
+        skipped: false,
+        mastered: false,
+        newWord: false,
+        replayCount: 0,
         timeSpent: 0,
-        lastInput: ""
+        lastInput: "",
+        draftText: "",
+        wordValues: [],
+        wrongIndexes: [],
+        activeWordIndex: 0,
+        answerReturnPhase: "ready",
+        answeredScored: false,
+        progressCounted: false,
+        accuracyCounted: false,
+        reviewWrongCount: 0
+      };
+    }
+
+    const SESSION_STORAGE_KEY = "nce_practice_session_v2";
+
+    function updateCourseProgressRecord() {
+      if (state.mode !== "course" || !state.selectedLesson || !state.sessionTotalCount) return;
+      const progress = Math.min(100, Math.round((state.sessionCompletedCount / state.sessionTotalCount) * 100));
+      const accuracy = state.sessionCompletedCount
+        ? Math.round((state.sessionCorrectCount / state.sessionCompletedCount) * 100)
+        : 0;
+      updateLearningRecord(state.selectedLesson, (record) => ({
+        ...record,
+        progress: Math.max(record.progress, progress),
+        completed: record.completed || progress === 100,
+        lastAccuracy: accuracy,
+        bestAccuracy: Math.max(record.bestAccuracy, accuracy),
+        lastPosition: state.currentIndex,
+        lastStudiedAt: new Date().toISOString()
       }));
+    }
+
+    function recordWrongSentence() {
+      if (state.mode !== "course" || !state.current) return;
+      updateLearningRecord(state.selectedLesson, (record) => {
+        const wrongSentences = Array.isArray(record.wrongSentences) ? [...record.wrongSentences] : [];
+        const index = wrongSentences.findIndex((item) => item.english === state.current.sentence.english);
+        const entry = {
+          english: state.current.sentence.english,
+          chinese: state.current.sentence.chinese,
+          wrongCount: index >= 0 ? (wrongSentences[index].wrongCount || 0) + 1 : 1,
+          lastInput: state.current.lastInput,
+          lastWrongAt: new Date().toISOString()
+        };
+        if (index >= 0) wrongSentences[index] = { ...wrongSentences[index], ...entry };
+        else wrongSentences.push(entry);
+        return { ...record, wrongSentences, lastStudiedAt: new Date().toISOString() };
+      });
+    }
+
+    function persistNewWordChoice() {
+      if (state.mode !== "course" || !state.current) return;
+      updateLearningRecord(state.selectedLesson, (record) => {
+        let newWords = Array.isArray(record.newWords) ? [...record.newWords] : [];
+        newWords = newWords.filter((item) => item.english !== state.current.sentence.english);
+        if (state.current.newWord) {
+          newWords.push({
+            english: state.current.sentence.english,
+            chinese: state.current.sentence.chinese,
+            addedAt: new Date().toISOString()
+          });
+        }
+        return { ...record, newWords, lastStudiedAt: new Date().toISOString() };
+      });
+    }
+
+    function serializeResult(item) {
+      const { sentence, ...rest } = item;
+      return {
+        ...rest,
+        english: sentence.english,
+        chinese: sentence.chinese
+      };
+    }
+
+    function persistSession() {
+      if (!state.current || state.mode !== "course") return;
+      if (state.phase === "courseSummary" || state.phase === "reviewSummary") return;
+      const payload = {
+        lessonId: state.selectedLesson.id,
+        mode: state.mode,
+        phase: state.phase,
+        currentIndex: state.currentIndex,
+        score: state.score,
+        combo: state.combo,
+        maxCombo: state.maxCombo,
+        elapsed: elapsedSeconds(),
+        sessionTotalCount: state.sessionTotalCount,
+        sessionCompletedCount: state.sessionCompletedCount,
+        sessionCorrectCount: state.sessionCorrectCount,
+        practiceEnglish: state.practiceSentences.map((sentence) => sentence.english),
+        results: state.results.map(serializeResult)
+      };
+      localStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(payload));
+    }
+
+    function restoreSavedSession(sentences, mode) {
+      if (mode !== "course") return false;
+      try {
+        const raw = localStorage.getItem(SESSION_STORAGE_KEY);
+        if (!raw) return false;
+        const saved = JSON.parse(raw);
+        if (saved.lessonId !== state.selectedLesson.id || !Array.isArray(saved.results)) return false;
+        const sentenceByEnglish = new Map(sentences.map((sentence) => [sentence.english, sentence]));
+        const restoredResults = saved.results
+          .map((item) => {
+            const sentence = sentenceByEnglish.get(item.english);
+            return sentence ? { ...createPracticeResult(sentence), ...item, sentence } : null;
+          })
+          .filter(Boolean);
+        if (!restoredResults.length) return false;
+        state.mode = "course";
+        state.phase = ["ready", "inputting", "wrong", "answerRevealed", "correct"].includes(saved.phase) ? saved.phase : "ready";
+        state.practiceSentences = restoredResults.map((item) => item.sentence);
+        state.results = restoredResults;
+        state.currentIndex = Math.min(saved.currentIndex || 0, restoredResults.length - 1);
+        state.score = saved.score || 0;
+        state.combo = saved.combo || 0;
+        state.maxCombo = saved.maxCombo || 0;
+        state.sessionTotalCount = saved.sessionTotalCount || sentences.length;
+        state.sessionCompletedCount = Number.isFinite(saved.sessionCompletedCount)
+          ? saved.sessionCompletedCount
+          : restoredResults.filter((item) => item.progressCounted || item.correct || item.skipped || item.mastered).length;
+        state.sessionCorrectCount = Number.isFinite(saved.sessionCorrectCount)
+          ? saved.sessionCorrectCount
+          : restoredResults.filter((item) => item.accuracyCounted || (item.correct && !item.mastered)).length;
+        state.startedAt = Date.now() - Math.max(0, saved.elapsed || 0) * 1000;
+        state.pausedAt = null;
+        state.pausedTotal = 0;
+        state.finishedElapsed = null;
+        return true;
+      } catch (error) {
+        return false;
+      }
+    }
+
+    function startPractice(sentences = state.selectedLesson.sentences, mode = "course", shouldRestore = true) {
+      if (!sentences.length) return;
+      clearInterval(state.timerId);
+      const restored = shouldRestore && restoreSavedSession(sentences, mode);
+      if (restored) {
+        state.timerId = setInterval(updateTimer, 1000);
+        renderQuestion(true);
+        showView("practiceView");
+        ensureSentenceFocus();
+        return;
+      }
+      state.mode = mode;
+      state.phase = "ready";
+      state.practiceSentences = sentences;
+      state.currentIndex = 0;
+      state.score = mode === "course" ? 0 : state.score;
+      state.combo = 0;
+      state.maxCombo = 0;
+      state.startedAt = Date.now();
+      state.pausedAt = null;
+      state.pausedTotal = 0;
+      state.finishedElapsed = null;
+      state.results = sentences.map((sentence) => createPracticeResult(sentence));
+      state.sessionTotalCount = sentences.length;
+      state.sessionCompletedCount = 0;
+      state.sessionCorrectCount = 0;
+      if (mode === "course") {
+        const savedNewWords = new Set(
+          (learningRecordFor(state.selectedLesson).newWords || []).map((item) => item.english)
+        );
+        state.results.forEach((result) => {
+          result.newWord = savedNewWords.has(result.sentence.english);
+        });
+        updateLearningRecord(state.selectedLesson, (record) => ({
+          ...record,
+          startedRuns: record.startedRuns + 1,
+          lastPosition: 0,
+          lastStudiedAt: new Date().toISOString()
+        }));
+        refreshContinueButton();
+      }
       state.timerId = setInterval(updateTimer, 1000);
       renderQuestion();
       showView("practiceView");
-      setTimeout(() => focusSlot(0), 30);
+      ensureSentenceFocus();
     }
 
-    function renderQuestion() {
+    function startReview() {
+      const mistakes = state.lastCourseResults.filter((item) => item.hadWrongAttempt || item.emptySubmits > 0);
+      if (!mistakes.length) return;
+      state.reviewSourceResults = mistakes;
+      startPractice(mistakes.map((item) => item.sentence), "review", false);
+    }
+
+    function renderQuestion(preservePhase = false) {
       const sentence = state.practiceSentences[state.currentIndex];
       state.current = state.results[state.currentIndex];
       state.sentenceStartedAt = Date.now();
-      $("practiceLesson").textContent = state.selectedLesson.title;
+      if (!preservePhase) state.phase = state.current.correct ? "correct" : "ready";
+      $("practiceLesson").textContent = state.mode === "review" ? "复习本次错题" : state.selectedLesson.title;
       $("practiceCount").textContent = `${state.currentIndex + 1} / ${state.practiceSentences.length}`;
-      $("sentenceOrder").textContent = `第 ${state.currentIndex + 1} 句`;
+      $("sentenceOrder").textContent = state.mode === "review" ? `复习第 ${state.currentIndex + 1} 题` : `第 ${state.currentIndex + 1} 句`;
       $("currentChinese").textContent = sentence.chinese;
-      $("answerInput").value = "";
+      ensureWordState(state.current);
+      state.activeWordIndex = state.current.activeWordIndex;
       state.wrongIndex = -1;
       state.lastCompare = null;
       state.showAnalysis = false;
@@ -5875,80 +6497,116 @@ window.NCE_ZH_OVERRIDES = [
       $("feedback").innerHTML = "";
       $("answerReveal").classList.add("hidden");
       $("answerReveal").innerHTML = "";
-      $("answerBtn").innerHTML = `<span class="key">Ctrl ;</span> 查看答案`;
-      $("hintBtn").textContent = "再偷看一点";
       $("aiPanel").classList.add("hidden");
       $("aiPanel").innerHTML = "";
-      $("aiExplainBtn").disabled = true;
-      $("nextBtn").classList.add("hidden");
-      $("submitBtn").classList.remove("hidden");
+      if (state.phase === "answerRevealed") {
+        $("answerReveal").classList.remove("hidden");
+        $("answerReveal").innerHTML = renderAnswerCard(sentence);
+      }
       renderWordSlots();
       updateProgress();
       updateLiveAccuracy();
+      updateControls();
       showView("practiceView");
+      ensureSentenceFocus();
+    }
+
+    function ensureWordState(result) {
+      const count = displayWords(result.sentence.english).length;
+      if (!Array.isArray(result.wordValues) || result.wordValues.length !== count) {
+        const legacyWords = String(result.draftText || "").trim().split(/\s+/).filter(Boolean);
+        result.wordValues = Array.from({ length: count }, (_, index) => legacyWords[index] || "");
+      }
+      if (!Array.isArray(result.wrongIndexes)) result.wrongIndexes = [];
+      result.wrongIndexes = result.wrongIndexes.filter((index) => index >= 0 && index < count);
+      const preferredIndex = result.wrongIndexes[0] ?? result.activeWordIndex ?? 0;
+      result.activeWordIndex = Math.max(0, Math.min(preferredIndex, Math.max(0, count - 1)));
+      result.draftText = result.wordValues.join(" ").trim();
+    }
+
+    function slotWidthFor(value) {
+      const length = Math.max(1, Array.from(String(value || "")).length);
+      return Math.max(58, Math.min(520, length * 22 + 34));
+    }
+
+    function focusSentenceInput(select = false) {
+      if (!state.current || state.phase === "correct" || state.phase === "paused") return;
+      ensureWordState(state.current);
+      const index = Math.max(0, Math.min(state.activeWordIndex, state.current.wordValues.length - 1));
+      const input = $("wordSlots").querySelector(`.slot-input[data-index="${index}"]`);
+      if (!input) return;
+      input.focus();
+      if (select) input.select();
+    }
+
+    function ensureSentenceFocus(select = false) {
+      focusSentenceInput(select);
+      setTimeout(() => focusSentenceInput(select), 0);
+      setTimeout(() => focusSentenceInput(select), 80);
     }
 
     function renderWordSlots(options = {}) {
       const sentence = state.current?.sentence;
       if (!sentence) return;
 
-      const target = words(sentence.english);
-      const typed = words($("answerInput").value);
-      const correctAll = options.correctAll || false;
-      const showAnalysis = options.showAnalysis || state.showAnalysis || correctAll;
-      const wrongIndex = Number.isInteger(options.wrongIndex) ? options.wrongIndex : state.wrongIndex;
-      const activeIndex = Math.min(typed.length, target.length - 1);
+      const analysisMode = state.phase === "correct" || options.correctAll;
+      document.querySelector(".drill-card")?.classList.toggle("analysis-mode", analysisMode);
+      if (analysisMode) {
+        $("wordSlots").innerHTML = renderSentenceAnalysis(sentence);
+        return;
+      }
+
+      const target = displayWords(sentence.english);
+      ensureWordState(state.current);
+      const typed = state.current.wordValues;
+      const isCorrect = state.phase === "correct" || options.correctAll;
+      const isWrong = state.phase === "wrong";
+      const showAnalysis = state.phase === "correct" || options.correctAll;
 
       $("wordSlots").innerHTML = target.map((targetWord, index) => {
         const typedWord = typed[index] || "";
-        const matches = typedWord && typedWord === targetWord;
         const classNames = ["word-slot"];
         if (typedWord) classNames.push("filled");
-        if (correctAll || matches) classNames.push("correct");
-        if (index === activeIndex && !correctAll && wrongIndex < 0) classNames.push("active");
-        if (index === wrongIndex) classNames.push("wrong");
-        const slotWidth = Math.max(58, Math.min(220, targetWord.length * 13 + 34));
+        if (isCorrect) classNames.push("correct");
+        if (isWrong && state.current.wrongIndexes.includes(index)) classNames.push("wrong");
+        if (!isCorrect && index === state.activeWordIndex) classNames.push("active");
+        const widthSeed = typedWord || targetWord || "word";
+        const slotWidth = slotWidthFor(widthSeed);
         const ipa = showAnalysis ? phoneticFor(targetWord) : "";
         const wordInfo = showAnalysis ? wordInfoFor(targetWord) : { pos: "", meaning: "" };
         return `
-          <label class="${classNames.join(" ")}" style="width:${slotWidth}px">
+          <div class="${classNames.join(" ")}" style="width:${slotWidth}px">
             <span class="slot-ipa">${escapeHtml(ipa)}</span>
-            <input class="slot-input" data-index="${index}" value="${escapeHtml(typedWord)}" autocomplete="off" spellcheck="false" aria-label="第 ${index + 1} 个单词">
+            <input class="slot-input" data-index="${index}" value="${escapeHtml(typedWord)}"
+              autocomplete="off" autocapitalize="off" spellcheck="false"
+              aria-label="第 ${index + 1} 个单词" maxlength="48" ${isCorrect ? "disabled" : ""}>
             <span class="slot-meta">
               ${wordInfo.pos ? `<span class="pos-tag">${escapeHtml(wordInfo.pos)}</span>` : ""}
               ${wordInfo.meaning ? `<span class="word-meaning">${escapeHtml(wordInfo.meaning)}</span>` : ""}
             </span>
-          </label>
+          </div>
         `;
       }).join("");
     }
 
-    function updateHiddenInputFromSlots() {
-      const values = [...document.querySelectorAll(".slot-input")].map((input) => input.value.trim()).filter(Boolean);
-      $("answerInput").value = values.join(" ");
+    function updateDraftFromInput() {
+      if (!state.current) return;
+      ensureWordState(state.current);
+      state.current.draftText = state.current.wordValues.join(" ").trim();
+      state.current.lastInput = state.current.draftText;
     }
 
-    function fillSlotsFromText(startIndex, text) {
-      const parts = text.trim().split(/\s+/).filter(Boolean);
-      const inputs = [...document.querySelectorAll(".slot-input")];
-      parts.forEach((part, offset) => {
-        if (inputs[startIndex + offset]) inputs[startIndex + offset].value = part;
-      });
-      updateHiddenInputFromSlots();
-      focusSlot(Math.min(startIndex + parts.length, inputs.length - 1));
-    }
-
-    function focusSlot(index = 0, select = false) {
-      const inputs = [...document.querySelectorAll(".slot-input")];
-      const input = inputs[Math.max(0, Math.min(index, inputs.length - 1))];
-      if (!input) return;
-      input.focus();
-      if (select) input.select();
+    function elapsedSeconds() {
+      if (state.finishedElapsed !== null && (state.phase === "courseSummary" || state.phase === "reviewSummary")) {
+        return state.finishedElapsed;
+      }
+      if (!state.startedAt) return 0;
+      const now = state.phase === "paused" && state.pausedAt ? state.pausedAt : Date.now();
+      return Math.max(0, Math.floor((now - state.startedAt - state.pausedTotal) / 1000));
     }
 
     function updateTimer() {
-      const seconds = Math.floor((Date.now() - state.startedAt) / 1000);
-      $("timer").textContent = formatTime(seconds);
+      $("timer").textContent = formatTime(elapsedSeconds());
     }
 
     function updateProgress() {
@@ -5959,159 +6617,161 @@ window.NCE_ZH_OVERRIDES = [
     }
 
     function updateLiveAccuracy() {
+      if (state.mode === "review") {
+        $("liveAccuracy").textContent = "复习";
+        return;
+      }
       const answered = state.results.filter((item) => item.correct).length;
-      const rate = state.currentIndex === 0 ? 0 : Math.round((answered / state.currentIndex) * 100);
+      const attempted = state.results.filter((item) => item.attempts || item.emptySubmits || item.correct || item.skipped).length;
+      const rate = attempted ? Math.round((answered / attempted) * 100) : 0;
       $("liveAccuracy").textContent = `${rate}%`;
     }
 
     function saveCurrentTiming() {
-      state.current.timeSpent += Math.floor((Date.now() - state.sentenceStartedAt) / 1000);
+      if (!state.current || !state.sentenceStartedAt || state.phase === "paused") return;
+      state.current.timeSpent += Math.max(0, Math.floor((Date.now() - state.sentenceStartedAt) / 1000));
       state.sentenceStartedAt = Date.now();
     }
 
+    function isLastQuestion() {
+      return state.currentIndex >= state.practiceSentences.length - 1;
+    }
+
+    function updateControls() {
+      const isReview = state.mode === "review";
+      const isCorrect = state.phase === "correct";
+      const isAnswerVisible = state.phase === "answerRevealed";
+      const isPaused = state.phase === "paused";
+      $("scoreMetric").classList.toggle("hidden", isReview);
+      $("scoreValue").textContent = state.score.toLocaleString();
+      $("submitBtn").innerHTML = isCorrect ? `<span class="key">Enter</span> 下一题` : `<span class="key">Space</span> 提交`;
+      $("answerBtn").innerHTML = isCorrect
+        ? `<span class="key">Ctrl ;</span> 再来一次`
+        : isAnswerVisible
+          ? `<span class="key">Ctrl ;</span> 隐藏答案`
+          : `<span class="key">Ctrl ;</span> 显示答案`;
+      $("hintBtn").classList.toggle("hidden", isReview);
+      $("aiExplainBtn").classList.toggle("hidden", isReview);
+      $("prevBtn").disabled = state.currentIndex === 0 || isPaused;
+      $("nextBtn").disabled = isPaused;
+      $("submitBtn").disabled = isPaused;
+      $("answerBtn").disabled = isPaused;
+      $("hintBtn").disabled = isPaused;
+      $("aiExplainBtn").disabled = isPaused;
+      persistSession();
+    }
+
     function submitAnswer() {
-      updateHiddenInputFromSlots();
-      const input = $("answerInput").value;
-      const answer = state.current.sentence.english;
-      const result = compareAnswer(input, answer);
+      if (!state.current || state.phase === "paused" || state.isChecking) return;
+      if (state.phase === "correct") {
+        nextQuestion();
+        return;
+      }
+
+      state.isChecking = true;
+      updateDraftFromInput();
+      const result = compareWordValues(state.current.wordValues, state.current.sentence);
       state.lastCompare = result;
-      state.current.attempts += 1;
-      state.current.lastInput = input;
       saveCurrentTiming();
+      state.current.attempts += 1;
+      if (result.type === "empty") state.current.emptySubmits += 1;
+      state.current.lastInput = result.input;
 
       if (result.passed) {
+        state.phase = "correct";
         state.current.correct = true;
-        state.current.firstTry = state.current.attempts === 1 && state.current.hintLevel === 0 && !state.current.usedAnswer;
+        state.current.firstTry = state.current.attempts === 1 && state.current.emptySubmits === 0 && !state.current.hadWrongAttempt && !state.current.viewedAnswer;
+        if (state.mode === "course" && !state.current.progressCounted) {
+          state.current.progressCounted = true;
+          state.sessionCompletedCount += 1;
+        }
+        if (state.mode === "course" && !state.current.accuracyCounted) {
+          state.current.accuracyCounted = true;
+          state.sessionCorrectCount += 1;
+        }
+        updateCourseProgressRecord();
+        if (!state.current.answeredScored && !state.current.skipped && state.mode === "course") {
+          state.score += 300;
+          state.combo += 1;
+          state.maxCombo = Math.max(state.maxCombo, state.combo);
+          state.current.answeredScored = true;
+        }
         state.wrongIndex = -1;
+        state.current.wrongIndexes = [];
         state.showAnalysis = true;
+        $("smallStatus").textContent = "";
+        $("feedback").className = "feedback";
+        $("feedback").innerHTML = "";
+        $("answerReveal").classList.add("hidden");
+        $("answerReveal").innerHTML = "";
         renderWordSlots({ correctAll: true, showAnalysis: true });
-        $("smallStatus").textContent = result.type === "exact" ? "Great × 1" : "格式已放过";
-        $("feedback").className = "feedback show correct";
-        $("feedback").innerHTML = result.type === "exact"
-          ? `<strong>${answer}</strong><br>正确，准备进入下一句。`
-          : `<strong>${answer}</strong><br>意思和词序正确。大小写或句末标点可以后面再精修。`;
-        $("nextBtn").classList.remove("hidden");
-        $("submitBtn").classList.add("hidden");
-        $("aiExplainBtn").disabled = false;
+        updateTimer();
+        updateLiveAccuracy();
+        updateControls();
+        state.isChecking = false;
         return;
       }
 
-      $("smallStatus").textContent = "再试一次";
-      $("feedback").className = "feedback show wrong";
-      $("aiExplainBtn").disabled = result.type === "empty";
-      $("aiPanel").classList.add("hidden");
-      if (result.type === "empty") {
-        state.wrongIndex = 0;
-        renderWordSlots();
-        $("aiExplainBtn").disabled = true;
-        $("feedback").innerHTML = "先输入英文原句，再提交。";
-        return;
-      }
-      state.wrongIndex = result.position - 1;
-      state.showAnalysis = true;
-      renderWordSlots({ showAnalysis: true });
-      const strength = result.type === "minor" ? "差一点就想起来了" : "这句还没回到原文画面";
-      $("feedback").innerHTML = `
-        <strong>${strength}</strong><br>
-        <span class="highlight">${escapeHtml(result.wrongWord || "这一格")}</span> 先别急着硬猜。<br>
-        点一张小纸条，让画面把词带回来。
-      `;
+      state.phase = "wrong";
+      state.current.hadWrongAttempt = true;
+      recordWrongSentence();
+      if (state.mode === "review") state.current.reviewWrongCount += 1;
+      state.combo = 0;
+      state.current.wrongIndexes = result.wrongIndexes;
+      state.wrongIndex = result.wrongIndexes[0] ?? -1;
+      result.wrongIndexes.forEach((index) => {
+        state.current.wordValues[index] = "";
+      });
+      state.current.activeWordIndex = state.wrongIndex >= 0 ? state.wrongIndex : 0;
+      state.activeWordIndex = state.current.activeWordIndex;
+      updateDraftFromInput();
+      $("smallStatus").textContent = "";
+      $("feedback").className = "feedback";
+      $("feedback").innerHTML = "";
+      renderWordSlots();
+      updateControls();
+      state.isChecking = false;
+      ensureSentenceFocus();
     }
 
     function showHint() {
-      const sentence = state.current.sentence;
-      const target = words(sentence.english);
-      updateHiddenInputFromSlots();
-      const user = words($("answerInput").value);
-      let index = 0;
-      while (index < target.length && user[index] === target[index]) index += 1;
-      state.wrongIndex = Math.min(index, target.length - 1);
-      renderWordSlots();
-
-      state.current.hintLevel = Math.min(state.current.hintLevel + 1, 3);
-      const level = state.current.hintLevel;
-      if (level === 3) state.current.usedAnswer = true;
-
-      const paper = buildMemoryPaper(sentence, level);
-      $("feedback").className = "feedback show";
-      $("feedback").innerHTML = `
-        <strong>${paper.title} <span class="hint-count">小纸条 ${level} / 3</span></strong><br>
-        ${paper.body}
-      `;
-      updateHintButtonLabel(level);
+      markMastered();
     }
 
-    function updateHintButtonLabel(level = state.current?.hintLevel || 0) {
-      const labels = ["再偷看一点", "看字母轮廓", "看答案", "再看一遍"];
-      $("hintBtn").textContent = labels[Math.min(level, labels.length - 1)];
-    }
-
-    function buildMemoryPaper(sentence, level) {
-      if (level === 1) {
-        return { title: "记忆小纸条", body: escapeHtml(makeSceneNote(sentence)) };
+    function markMastered() {
+      if (!state.current || state.mode === "review" || state.phase === "paused") return;
+      saveCurrentTiming();
+      if (!state.current.mastered) {
+        state.current.mastered = true;
+        state.current.correct = true;
+        state.current.answeredScored = true;
+        state.score += 1000;
+        if (!state.current.progressCounted) {
+          state.current.progressCounted = true;
+          state.sessionCompletedCount += 1;
+        }
+        updateCourseProgressRecord();
       }
-      if (level === 2) {
-        return { title: "字母轮廓", body: `<span class="masked-answer">${escapeHtml(maskAnswer(sentence.english))}</span>` };
+      state.practiceSentences.splice(state.currentIndex, 1);
+      state.results.splice(state.currentIndex, 1);
+      if (!state.practiceSentences.length) {
+        finishPractice();
+        return;
       }
-      return {
-        title: "答案揭晓",
-        body: `<span class="revealed-answer">${escapeHtml(sentence.english)}</span><br>${escapeHtml(makeAnswerNote(sentence))}`
-      };
+      if (state.currentIndex >= state.practiceSentences.length) state.currentIndex = state.practiceSentences.length - 1;
+      renderQuestion();
     }
 
-    function maskAnswer(answer) {
-      return String(answer || "").replace(/[A-Za-z]+(?:'[A-Za-z]+)?/g, (word) => {
-        const chars = [...word];
-        return chars.map((char, index) => /[A-Za-z]/.test(char) ? (index === 0 ? char : "_") : char).join("");
-      });
-    }
-
-    function makeSceneNote(sentence) {
-      const english = normalize(sentence.english);
-      const chinese = String(sentence.chinese || "");
-      const raw = String(sentence.english || "");
-
-      if (english.startsWith("excuse me")) return "像轻轻叫住别人，先开个礼貌小门。";
-      if (english.startsWith("sorry")) return "像不小心碰到人，马上补一声抱歉。";
-      if (english.startsWith("thank")) return "像接过别人帮忙，顺手递上一句感谢。";
-      if (english.includes("please")) return "不是命令别人，把语气轻轻放软。";
-      if (/^(good morning|hello|hi)\b/.test(english)) return "见面第一秒，先把招呼轻轻递过去。";
-      if (/^(is|are) (this|that|these|those) .*your\b/.test(english)) return "像拿起一样东西，轻声确认归属。";
-      if (/^(is|are) (this|that|these|those)\b/.test(english)) return "像指着眼前东西，再核对一遍。";
-      if (/^where\b/.test(english)) return "镜头先找人或物：它到底在哪儿？";
-      if (/^what\b/.test(english)) return "像追问一个小细节：到底是什么？";
-      if (/^how\b/.test(english)) return "见面寒暄，轻轻问一句近况。";
-      if (/^who\b/.test(english)) return "镜头对准人：这事儿是谁在做？";
-      if (/^whose\b/.test(english)) return "像捡到东西，先问它属于谁。";
-      if (/^here (is|are)\b/.test(english)) return "像把东西递到面前：喏，在这里。";
-      if (/^there (is|are)\b/.test(english)) return "像描述房间摆设：哪里有什么。";
-      if (/^don'?t\b/.test(english)) return "像赶紧提醒一句：先别这么做。";
-      if (/^(come|shut|open|put|make|dust|sweep|hurry|look|sit|give)\b/.test(english)) return "像在现场轻轻安排下一步动作。";
-      if (/^(can|could|would|will|shall|may)\b/.test(english)) return "像先探一探，对方愿不愿意。";
-      if (english.includes("going to")) return "脑子里已经有计划，话还没出发。";
-      if (english.includes("like") || english.includes("want")) return "像在柜台前，说出自己的小偏好。";
-      if (english.includes("must")) return "这句有点认真：现在非做不可。";
-      if (raw.includes("!")) return "语气比平时亮一点，像脱口而出。";
-      if (raw.includes("?")) return "把尾音轻轻抬起，像在确认小事。";
-      if (chinese.length <= 10) return `盯住这个小画面：${chinese}`;
-      return "先别翻译，想一想这句话出现在哪个画面。";
-    }
-
-    function makeAnswerNote(sentence) {
-      const english = normalize(sentence.english);
-      if (english.startsWith("excuse me")) return "想礼貌叫住别人时，先用这句开场。";
-      if (english.startsWith("sorry")) return "道歉不用绕弯，先把这句放前面。";
-      if (english.startsWith("thank")) return "收到帮助后，这句就是顺手的感谢。";
-      if (english.includes("please")) return "有 please，整句话立刻柔和很多。";
-      if (/^(is|are) (this|that|these|those).*your\b/.test(english)) return "拿着东西问归属，就用这个节奏。";
-      if (/^where\b/.test(english)) return "找位置时，先让 Where 站到最前面。";
-      if (/^what\b/.test(english)) return "问内容或动作时，先把 What 推出来。";
-      if (/^here (is|are)\b/.test(english)) return "递东西、展示东西，都很适合这句。";
-      if (/^there (is|are)\b/.test(english)) return "描述场景里有什么，就抓住 There be。";
-      if (/^don'?t\b/.test(english)) return "想阻止一个动作，开头先别忘了 Don't。";
-      if (/^(can|could|would)\b/.test(english)) return "请求别人帮忙时，这样问更轻。";
-      if (english.includes("going to")) return "说计划和打算时，这个表达很顺手。";
-      return "把中文画面和英文顺序绑在一起记。";
+    function toggleNewWord() {
+      if (!state.current || state.mode === "review" || state.phase === "paused") return;
+      state.current.newWord = !state.current.newWord;
+      persistNewWordChoice();
+      $("aiExplainBtn").classList.toggle("active", state.current.newWord);
+      $("smallStatus").textContent = state.current.newWord ? "已加入生词" : "已取消生词";
+      setTimeout(() => {
+        if (state.phase !== "correct") $("smallStatus").textContent = "";
+      }, 900);
+      focusSentenceInput();
     }
 
     async function explainMistake() {
@@ -6303,11 +6963,279 @@ window.NCE_ZH_OVERRIDES = [
       return { pos: "单词", meaning: "待补释义" };
     }
 
+    const structureRoleConfig = {
+      subject: ["主语", "#d97706"],
+      predicate: ["谓语", "#e11d48"],
+      object: ["宾语", "#0891b2"],
+      direct_object: ["直接宾语", "#0891b2"],
+      indirect_object: ["间接宾语", "#0891b2"],
+      prepositional_object: ["介词宾语", "#0891b2"],
+      predicative: ["表语", "#8b5cf6"],
+      attribute: ["定语", "#6366f1"],
+      adverbial: ["状语", "#0d9488"],
+      time_adverbial: ["时间状语", "#0d9488"],
+      place_adverbial: ["地点状语", "#0d9488"],
+      manner_adverbial: ["方式状语", "#0d9488"],
+      degree_adverbial: ["程度状语", "#0d9488"],
+      frequency_adverbial: ["频率状语", "#0d9488"],
+      reason_adverbial: ["原因状语", "#0d9488"],
+      purpose_adverbial: ["目的状语", "#0d9488"],
+      result_adverbial: ["结果状语", "#0d9488"],
+      condition_adverbial: ["条件状语", "#0d9488"],
+      concession_adverbial: ["让步状语", "#0d9488"],
+      comparison_adverbial: ["比较状语", "#0d9488"],
+      accompanying_adverbial: ["伴随状语", "#0d9488"],
+      sentence_adverbial: ["句子状语", "#0d9488"],
+      object_complement: ["宾语补足语", "#65a30d"],
+      subject_complement: ["主语补足语", "#65a30d"],
+      appositive: ["同位语", "#ca8a04"],
+      vocative: ["呼语", "#db2777"],
+      parenthetical: ["插入语", "#64748b"],
+      independent_element: ["独立成分", "#6b7280"],
+      main_clause: ["主句", "#94a3b8"],
+      coordinate_clause: ["并列分句", "#94a3b8"],
+      subject_clause: ["主语从句", "#7c3aed"],
+      object_clause: ["宾语从句", "#7c3aed"],
+      predicative_clause: ["表语从句", "#7c3aed"],
+      appositive_clause: ["同位语从句", "#7c3aed"],
+      relative_clause: ["定语从句", "#7c3aed"],
+      time_clause: ["时间状语从句", "#7c3aed"],
+      place_clause: ["地点状语从句", "#7c3aed"],
+      reason_clause: ["原因状语从句", "#7c3aed"],
+      purpose_clause: ["目的状语从句", "#7c3aed"],
+      result_clause: ["结果状语从句", "#7c3aed"],
+      condition_clause: ["条件状语从句", "#7c3aed"],
+      concession_clause: ["让步状语从句", "#7c3aed"],
+      comparison_clause: ["比较状语从句", "#7c3aed"],
+      manner_clause: ["方式状语从句", "#7c3aed"],
+      infinitive_phrase: ["不定式短语", "#7c3aed"],
+      gerund_phrase: ["动名词短语", "#7c3aed"],
+      present_participle_phrase: ["现在分词短语", "#7c3aed"],
+      past_participle_phrase: ["过去分词短语", "#7c3aed"],
+      prepositional_phrase: ["介词短语", "#64748b"],
+      noun_phrase: ["名词短语", "#64748b"],
+      verb_phrase: ["动词短语", "#64748b"],
+      adjective_phrase: ["形容词短语", "#64748b"],
+      adverb_phrase: ["副词短语", "#64748b"],
+      absolute_construction: ["独立主格结构", "#7c3aed"]
+    };
+
+    const contractionInfo = {
+      "here's": { phonetic: "/hɪrz/", translation: "这是", posFamily: "verb", posLabel: "动词短语" },
+      "there's": { phonetic: "/ðerz/", translation: "有/那里是", posFamily: "verb", posLabel: "动词短语" },
+      "i'm": { phonetic: "/aɪm/", translation: "我是", posFamily: "verb", posLabel: "代词＋系动词" },
+      "you're": { phonetic: "/jʊr/", translation: "你是", posFamily: "verb", posLabel: "代词＋系动词" },
+      "he's": { phonetic: "/hiːz/", translation: "他是", posFamily: "verb", posLabel: "代词＋系动词" },
+      "isn't": { phonetic: "/ˈɪzənt/", translation: "不是", posFamily: "verb", posLabel: "系动词否定" },
+      "don't": { phonetic: "/doʊnt/", translation: "不", posFamily: "verb", posLabel: "助动词否定" },
+      "doesn't": { phonetic: "/ˈdʌzənt/", translation: "不", posFamily: "verb", posLabel: "助动词否定" },
+      "can't": { phonetic: "/kænt/", translation: "不能", posFamily: "verb", posLabel: "情态动词否定" },
+      "won't": { phonetic: "/woʊnt/", translation: "不会", posFamily: "verb", posLabel: "情态动词否定" },
+      "let's": { phonetic: "/lets/", translation: "让我们", posFamily: "verb", posLabel: "祈使结构" }
+    };
+
+    function analysisGroup(id, type, startToken, endToken, parentGroupId = null) {
+      return { id, type, startToken, endToken, parentGroupId };
+    }
+
+    const sentenceAnalysisCatalog = {
+      [normalizeForAccepted("My coat.")]: { groups: [analysisGroup("object_1", "object", 0, 1)] },
+      [normalizeForAccepted("My umbrella please.")]: { groups: [
+        analysisGroup("object_1", "object", 0, 1),
+        analysisGroup("independent_1", "independent_element", 2, 2)
+      ] },
+      [normalizeForAccepted("My coat and my umbrella please.")]: { groups: [
+        analysisGroup("object_1", "object", 0, 4),
+        analysisGroup("independent_1", "independent_element", 5, 5)
+      ] },
+      [normalizeForAccepted("Here is my ticket.")]: { groups: [
+        analysisGroup("predicate_1", "predicate", 0, 1),
+        analysisGroup("subject_1", "subject", 2, 3)
+      ] },
+      [normalizeForAccepted("Thank you, sir.")]: { groups: [
+        analysisGroup("predicate_1", "predicate", 0, 0),
+        analysisGroup("object_1", "object", 1, 1),
+        analysisGroup("vocative_1", "vocative", 2, 2)
+      ] },
+      [normalizeForAccepted("Number five.")]: { groups: [analysisGroup("independent_1", "independent_element", 0, 1)] },
+      [normalizeForAccepted("Here's your umbrella and your coat.")]: { groups: [
+        analysisGroup("predicate_1", "predicate", 0, 0),
+        analysisGroup("subject_1", "subject", 1, 5)
+      ] },
+      [normalizeForAccepted("Here is your umbrella and your coat.")]: { groups: [
+        analysisGroup("predicate_1", "predicate", 0, 1),
+        analysisGroup("subject_1", "subject", 2, 6)
+      ] },
+      [normalizeForAccepted("This is not my umbrella.")]: { groups: [
+        analysisGroup("subject_1", "subject", 0, 0),
+        analysisGroup("predicate_1", "predicate", 1, 2),
+        analysisGroup("predicative_1", "predicative", 3, 4)
+      ] },
+      [normalizeForAccepted("Sorry, sir.")]: { groups: [
+        analysisGroup("independent_1", "independent_element", 0, 0),
+        analysisGroup("vocative_1", "vocative", 1, 1)
+      ] },
+      [normalizeForAccepted("Is this your umbrella?")]: { groups: [
+        analysisGroup("predicate_1", "predicate", 0, 0),
+        analysisGroup("subject_1", "subject", 1, 1),
+        analysisGroup("predicative_1", "predicative", 2, 3)
+      ] },
+      [normalizeForAccepted("No, it isn't.")]: { groups: [
+        analysisGroup("independent_1", "independent_element", 0, 0),
+        analysisGroup("subject_1", "subject", 1, 1),
+        analysisGroup("predicate_1", "predicate", 2, 2)
+      ] },
+      [normalizeForAccepted("Is this it?")]: { groups: [
+        analysisGroup("predicate_1", "predicate", 0, 0),
+        analysisGroup("subject_1", "subject", 1, 1),
+        analysisGroup("predicative_1", "predicative", 2, 2)
+      ] },
+      [normalizeForAccepted("Yes, it is.")]: { groups: [
+        analysisGroup("independent_1", "independent_element", 0, 0),
+        analysisGroup("subject_1", "subject", 1, 1),
+        analysisGroup("predicate_1", "predicate", 2, 2)
+      ] },
+      [normalizeForAccepted("Thank you very much.")]: { groups: [
+        analysisGroup("predicate_1", "predicate", 0, 0),
+        analysisGroup("object_1", "object", 1, 1),
+        analysisGroup("adverbial_1", "degree_adverbial", 2, 3)
+      ] }
+    };
+
+    function posFamilyFor(posLabel, word) {
+      const label = String(posLabel || "");
+      const key = String(word || "").toLowerCase().replace(/[’‘]/g, "'").replace(/^[^a-z']+|[^a-z']+$/g, "");
+      if (contractionInfo[key]) return contractionInfo[key].posFamily;
+      if (label.includes("名词")) return "noun";
+      if (label.includes("代词")) return "pronoun";
+      if (label.includes("动词")) return "verb";
+      if (label.includes("形容词")) return "adjective";
+      if (label.includes("副词")) return "adverb";
+      if (label.includes("介词")) return "preposition";
+      if (label.includes("连词")) return "conjunction";
+      if (label.includes("冠词") || label.includes("限定词")) return "determiner";
+      if (label.includes("数词")) return "numeral";
+      if (label.includes("感叹词")) return "interjection";
+      if (label.includes("疑问词")) return ["how", "where", "when", "why"].includes(key) ? "adverb" : "pronoun";
+      return "particle";
+    }
+
+    function splitAnalysisDisplay(text) {
+      const value = String(text || "");
+      const match = value.match(/^(.*?)([,.!?;:，。！？；：]+)$/);
+      return match ? { core: match[1], punctuation: match[2] } : { core: value, punctuation: "" };
+    }
+
+    function defaultAnalysisToken(displayText, index) {
+      const display = splitAnalysisDisplay(displayText);
+      const normalizedKey = display.core.toLowerCase().replace(/[’‘]/g, "'");
+      const contraction = contractionInfo[normalizedKey];
+      const info = wordInfoFor(display.core);
+      return {
+        order: index,
+        displayText: display.core,
+        punctuation: display.punctuation,
+        phonetic: contraction?.phonetic || phoneticFor(display.core),
+        translation: contraction?.translation || info.meaning,
+        posFamily: contraction?.posFamily || posFamilyFor(info.pos, display.core),
+        posLabel: contraction?.posLabel || info.pos
+      };
+    }
+
+    function sentenceAnalysisFor(sentence) {
+      const catalogEntry = sentenceAnalysisCatalog[normalizeForAccepted(sentence.english)] || {};
+      const source = sentence.analysis || catalogEntry;
+      const displayTokens = displayWords(sentence.english);
+      const indexBase = source.indexBase === 1 ? 1 : 0;
+      const suppliedTokens = new Map((source.tokens || []).map((token, index) => [
+        Number.isFinite(token.order) ? token.order - indexBase : index,
+        token
+      ]));
+      const tokens = displayTokens.map((word, index) => ({
+        ...defaultAnalysisToken(word, index),
+        ...(suppliedTokens.get(index) || {})
+      }));
+      const groups = (source.groups || []).map((group, index) => ({
+        id: group.id || `group_${index}`,
+        type: group.type || group.structureRole || "independent_element",
+        label: group.label || group.structureLabel || "",
+        startToken: Math.max(0, Number(group.startToken ?? 0) - indexBase),
+        endToken: Math.min(tokens.length - 1, Number(group.endToken ?? group.startToken ?? 0) - indexBase),
+        parentGroupId: group.parentGroupId || null
+      }));
+      return { tokens, groups, patterns: source.patterns || source.sentencePatterns || [] };
+    }
+
+    function renderAnalysisToken(token) {
+      const lineWidth = Math.max(30, Math.min(210, Array.from(String(token.displayText || token.text || "")).length * 18 + 10));
+      return `
+        <div class="analysis-word pos-${escapeHtml(token.posFamily || "particle")}">
+          <span class="analysis-ipa">${escapeHtml(token.phonetic || "")}</span>
+          <span class="analysis-word-main">
+            <span>${escapeHtml(token.displayText || token.text || "")}</span>
+            ${token.punctuation ? `<span class="analysis-punctuation">${escapeHtml(token.punctuation)}</span>` : ""}
+          </span>
+          <span class="analysis-pos-line" style="width:${lineWidth}px"></span>
+          <span class="analysis-translation">${escapeHtml(token.translation || "")}</span>
+          <span class="analysis-pos-label">${escapeHtml(token.posLabel || "")}</span>
+        </div>
+      `;
+    }
+
+    function renderAnalysisGroup(group, analysis) {
+      const config = structureRoleConfig[group.type] || [group.label || "句子成分", "#6b7280"];
+      const children = analysis.groups
+        .filter((item) => item.parentGroupId === group.id)
+        .sort((a, b) => a.startToken - b.startToken);
+      let content = "";
+      let index = group.startToken;
+      while (index <= group.endToken) {
+        const child = children.find((item) => item.startToken === index);
+        if (child) {
+          content += renderAnalysisGroup(child, analysis);
+          index = child.endToken + 1;
+        } else {
+          content += analysis.tokens[index] ? renderAnalysisToken(analysis.tokens[index]) : "";
+          index += 1;
+        }
+      }
+      const clauseClass = group.type.includes("clause") ? " clause-group" : "";
+      return `
+        <div class="structure-group${clauseClass}" style="--structure-color:${config[1]}">
+          <span class="structure-label">${escapeHtml(group.label || config[0])}</span>
+          <div class="structure-words">${content}</div>
+        </div>
+      `;
+    }
+
+    function renderSentenceAnalysis(sentence) {
+      const analysis = sentenceAnalysisFor(sentence);
+      const roots = analysis.groups
+        .filter((group) => !group.parentGroupId)
+        .sort((a, b) => a.startToken - b.startToken);
+      if (!roots.length) {
+        return `<div class="sentence-analysis"><div class="analysis-ungrouped">${analysis.tokens.map(renderAnalysisToken).join("")}</div></div>`;
+      }
+      let content = "";
+      let cursor = 0;
+      roots.forEach((group) => {
+        if (group.startToken > cursor) {
+          content += `<div class="analysis-ungrouped">${analysis.tokens.slice(cursor, group.startToken).map(renderAnalysisToken).join("")}</div>`;
+        }
+        content += renderAnalysisGroup(group, analysis);
+        cursor = Math.max(cursor, group.endToken + 1);
+      });
+      if (cursor < analysis.tokens.length) {
+        content += `<div class="analysis-ungrouped">${analysis.tokens.slice(cursor).map(renderAnalysisToken).join("")}</div>`;
+      }
+      return `<div class="sentence-analysis">${content}</div>`;
+    }
+
 
     function renderAnswerCard(sentence) {
       return `
         <div class="answer-card" aria-label="正确答案解析">
-          ${words(sentence.english).map((word) => {
+          ${displayWords(sentence.english).map((word) => {
             const wordInfo = wordInfoFor(word);
             return `
               <div class="answer-word">
@@ -6324,66 +7252,175 @@ window.NCE_ZH_OVERRIDES = [
       `;
     }
     function showAnswer() {
-      const reveal = $("answerReveal");
-      const isHidden = reveal.classList.contains("hidden");
-
-      if (!isHidden) {
-        reveal.classList.add("hidden");
-        reveal.innerHTML = "";
-        $("answerBtn").innerHTML = `<span class="key">Ctrl ;</span> 查看答案`;
-        focusSlot(0);
+      if (!state.current || state.phase === "paused") return;
+      if (state.phase === "correct") {
+        retryCurrentQuestion();
         return;
       }
-
-      state.current.usedAnswer = true;
-      state.current.hintLevel = 3;
+      if (state.phase === "answerRevealed") {
+        const hasInput = state.current.wordValues.some((value) => normalizeInputWord(value));
+        state.phase = state.current.answerReturnPhase || (hasInput ? "inputting" : "ready");
+        $("answerReveal").classList.add("hidden");
+        $("answerReveal").innerHTML = "";
+        renderWordSlots();
+        updateControls();
+        ensureSentenceFocus();
+        return;
+      }
+      updateDraftFromInput();
+      state.current.viewedAnswer = true;
+      state.current.answerReturnPhase = state.phase;
+      state.phase = "answerRevealed";
       state.showAnalysis = true;
       state.wrongIndex = -1;
-      $("aiPanel").classList.add("hidden");
-      reveal.classList.remove("hidden");
-      reveal.innerHTML = renderAnswerCard(state.current.sentence);
-      $("answerBtn").innerHTML = `<span class="key">Ctrl ;</span> 隐藏答案`;
-      renderWordSlots({ showAnalysis: true });
-      $("aiExplainBtn").disabled = false;
-      focusSlot(0);
+      $("answerReveal").classList.remove("hidden");
+      $("answerReveal").innerHTML = renderAnswerCard(state.current.sentence);
+      $("feedback").className = "feedback";
+      $("feedback").innerHTML = "";
+      renderWordSlots();
+      updateControls();
+      focusSentenceInput();
+    }
+
+    function retryCurrentQuestion() {
+      if (!state.current) return;
+      state.phase = "ready";
+      ensureWordState(state.current);
+      state.current.wordValues = state.current.wordValues.map(() => "");
+      state.current.wrongIndexes = [];
+      state.current.activeWordIndex = 0;
+      state.activeWordIndex = 0;
+      state.current.draftText = "";
+      $("answerReveal").classList.add("hidden");
+      $("answerReveal").innerHTML = "";
+      $("feedback").className = "feedback";
+      $("feedback").innerHTML = "";
+      renderWordSlots();
+      updateControls();
+      ensureSentenceFocus();
+    }
+
+    function markSkippedIfNeeded() {
+      if (!state.current || state.current.correct || state.current.mastered) return;
+      state.current.skipped = true;
+      if (state.mode === "course" && !state.current.progressCounted) {
+        state.current.progressCounted = true;
+        state.sessionCompletedCount += 1;
+        updateCourseProgressRecord();
+      }
+      ensureWordState(state.current);
+      state.current.wordValues = state.current.wordValues.map(() => "");
+      state.current.wrongIndexes = [];
+      state.current.activeWordIndex = 0;
+      state.current.draftText = "";
+      state.current.lastInput = "";
     }
 
     function nextQuestion() {
+      if (state.phase === "paused") return;
+      saveCurrentTiming();
+      if (state.phase !== "correct") markSkippedIfNeeded();
       if (state.currentIndex < state.practiceSentences.length - 1) {
         state.currentIndex += 1;
         renderQuestion();
-      } else {
+      } else if (state.phase === "correct") {
         finishPractice();
+      } else {
+        renderQuestion();
       }
+    }
+
+    function previousQuestion() {
+      if (state.phase === "paused" || state.currentIndex === 0) return;
+      saveCurrentTiming();
+      if (state.phase !== "correct") {
+        ensureWordState(state.current);
+        state.current.wordValues = state.current.wordValues.map(() => "");
+        state.current.wrongIndexes = [];
+        state.current.activeWordIndex = 0;
+        state.current.draftText = "";
+        state.current.lastInput = "";
+      }
+      state.currentIndex -= 1;
+      renderQuestion();
     }
 
     function finishPractice() {
       saveCurrentTiming();
       clearInterval(state.timerId);
       $("progressFill").style.width = "100%";
+      state.finishedElapsed = elapsedSeconds();
+      state.phase = state.mode === "review" ? "reviewSummary" : "courseSummary";
+      if (state.mode === "course") {
+        state.lastCourseResults = state.results.map((item) => ({ ...item }));
+        const total = state.sessionTotalCount || state.selectedLesson.sentences.length;
+        const accuracy = total ? Math.round((state.sessionCorrectCount / total) * 100) : 0;
+        updateLearningRecord(state.selectedLesson, (record) => ({
+          ...record,
+          completed: true,
+          progress: 100,
+          completedRuns: record.completedRuns + 1,
+          lastAccuracy: accuracy,
+          bestAccuracy: Math.max(record.bestAccuracy, accuracy),
+          aggregateCorrect: record.aggregateCorrect + state.sessionCorrectCount,
+          aggregateQuestions: record.aggregateQuestions + total,
+          lastDuration: state.finishedElapsed,
+          lastPosition: 0,
+          lastStudiedAt: new Date().toISOString()
+        }));
+        localStorage.removeItem(SESSION_STORAGE_KEY);
+        renderLessons();
+        renderPreview();
+      }
       renderResults();
       showView("resultView");
     }
 
+    function percent(value, total) {
+      return total ? `${Math.round((value / total) * 100)}%` : "0%";
+    }
+
     function renderResults() {
       const total = state.results.length;
+      const correct = state.results.filter((item) => item.correct && !item.mastered).length;
+      const skipped = state.results.filter((item) => item.skipped).length;
+      const wrong = state.results.filter((item) => item.hadWrongAttempt || item.emptySubmits > 0).length;
+      const viewed = state.results.filter((item) => item.viewedAnswer).length;
+      const replay = state.results.reduce((sum, item) => sum + item.replayCount, 0);
       const firstTry = state.results.filter((item) => item.firstTry).length;
-      const hinted = state.results.filter((item) => item.correct && !item.firstTry && !item.usedAnswer).length;
-      const usedAnswer = state.results.filter((item) => item.usedAnswer).length;
-      const mistakes = state.results.filter((item) => !item.firstTry || item.usedAnswer);
-      const correct = state.results.filter((item) => item.correct).length;
-      const rate = total ? Math.round((firstTry / total) * 100) : 0;
       const avg = total ? Math.round(state.results.reduce((sum, item) => sum + item.timeSpent, 0) / total) : 0;
+      const isReview = state.mode === "review";
+      const mistakes = isReview ? [] : state.results.filter((item) => item.hadWrongAttempt || item.emptySubmits > 0);
 
-      $("resultTitle").textContent = `${state.selectedLesson.title} 完成`;
-      $("finalRate").textContent = `${rate}%`;
-      $("summaryGrid").innerHTML = `
-        <div class="summary-item"><b>${total}</b><span>本课句子数</span></div>
-        <div class="summary-item"><b>${firstTry}</b><span>首次答对</span></div>
-        <div class="summary-item"><b>${hinted}</b><span>提示后答对</span></div>
-        <div class="summary-item"><b>${usedAnswer}</b><span>查看答案</span></div>
-        <div class="summary-item"><b>${total - correct}</b><span>错误句子数</span></div>
-        <div class="summary-item"><b>${avg}s</b><span>平均用时</span></div>
+      $("resultTitle").textContent = isReview ? "错题复盘完成" : "练习结算";
+      $("finalRate").textContent = isReview ? percent(correct, total) : `${state.score}`;
+      document.querySelector(".result-note").textContent = isReview
+        ? "这是本次错题复习的独立统计，不覆盖原课程结算。"
+        : "本次结算会区分正确、跳过、查看答案和错题复习，方便判断真实掌握情况。";
+      $("summaryGrid").innerHTML = isReview ? `
+        <div class="summary-item"><b>${correct}</b><span>答对</span></div>
+        <div class="summary-item"><b>${skipped}</b><span>跳过</span></div>
+        <div class="summary-item"><b>${wrong}</b><span>又错</span></div>
+        <div class="summary-item"><b>${formatTime(elapsedSeconds())}</b><span>练习时长</span></div>
+        <div class="summary-item"><b>${total}</b><span>答题数</span></div>
+        <div class="summary-item"><b>${percent(firstTry, total)}</b><span>一次命中率</span></div>
+        <div class="summary-item"><b>${percent(correct, total)}</b><span>正确率</span></div>
+        <div class="summary-item"><b>${percent(viewed, total)}</b><span>查看答案</span></div>
+        <div class="summary-item"><b>${replay}</b><span>重听次数</span></div>
+        <div class="summary-item"><b>${formatTime(avg)}</b><span>平均用时</span></div>
+      ` : `
+        <div class="summary-item"><b>C / ${state.score}</b><span>等级 / 总分</span></div>
+        <div class="summary-item"><b>${firstTry}</b><span>完美</span></div>
+        <div class="summary-item"><b>${state.results.filter((item) => item.correct && !item.firstTry).length}</b><span>很好</span></div>
+        <div class="summary-item"><b>${skipped}</b><span>跳过</span></div>
+        <div class="summary-item"><b>${formatTime(elapsedSeconds())}</b><span>练习时长</span></div>
+        <div class="summary-item"><b>${total}</b><span>答题数</span></div>
+        <div class="summary-item"><b>${state.maxCombo}</b><span>最大连击</span></div>
+        <div class="summary-item"><b>${percent(firstTry, total)}</b><span>一次命中率</span></div>
+        <div class="summary-item"><b>${percent(correct, total)}</b><span>正确率</span></div>
+        <div class="summary-item"><b>${percent(viewed, total)}</b><span>查看答案</span></div>
+        <div class="summary-item"><b>${replay}</b><span>重听次数</span></div>
+        <div class="summary-item"><b>${formatTime(avg)}</b><span>平均用时</span></div>
       `;
 
       $("mistakeList").innerHTML = mistakes.length
@@ -6391,13 +7428,29 @@ window.NCE_ZH_OVERRIDES = [
             <div class="mistake">
               <p>${index + 1}. ${item.sentence.chinese}</p>
               <strong>${item.sentence.english}</strong>
-              <span>你的输入：${escapeHtml(item.lastInput || "未输入")} · 尝试 ${item.attempts} 次 · 提示 ${item.hintLevel} 层</span>
+              <span>你的输入：${escapeHtml(item.lastInput || "空提交")} · 尝试 ${item.attempts} 次</span>
             </div>
           `).join("")
-        : `<div class="empty">这课掌握得很好，没有需要复习的错句。</div>`;
+        : `<div class="empty">${isReview ? "这轮错题复盘已经完成。" : "本轮没有需要复习的错题。"}</div>`;
 
-      $("retryMistakesBtn").disabled = mistakes.length === 0;
-      $("retryMistakesBtn").onclick = () => startPractice(mistakes.map((item) => item.sentence));
+      $("retryMistakesBtn").textContent = isReview ? "再练一次" : "复习错题";
+      $("retryMistakesBtn").disabled = isReview ? total === 0 : mistakes.length === 0;
+      $("retryMistakesBtn").onclick = isReview ? () => startPractice(state.practiceSentences, "review", false) : startReview;
+      const currentLessonIndex = lessons.findIndex((lesson) => lesson.id === state.selectedLesson.id);
+      const nextLesson = lessons.slice(currentLessonIndex + 1).find((lesson) => lesson.sentences.length);
+      $("nextLessonBtn").classList.toggle("hidden", isReview);
+      $("nextLessonBtn").disabled = !nextLesson;
+      $("nextLessonBtn").textContent = nextLesson ? `进入下一课 · Lesson ${nextLesson.lessonNo}` : "已完成全部课程";
+    }
+
+    function startNextLesson() {
+      const currentLessonIndex = lessons.findIndex((lesson) => lesson.id === state.selectedLesson.id);
+      const nextLesson = lessons.slice(currentLessonIndex + 1).find((lesson) => lesson.sentences.length);
+      if (!nextLesson) return;
+      localStorage.removeItem(SESSION_STORAGE_KEY);
+      state.selectedLesson = nextLesson;
+      renderPreview();
+      startPractice(nextLesson.sentences, "course", false);
     }
 
     function escapeHtml(text) {
@@ -6424,6 +7477,28 @@ window.NCE_ZH_OVERRIDES = [
       applyTheme(document.body.dataset.theme === "light" ? "dark" : "light");
     }
 
+    function pausePractice() {
+      if (!$("practiceView").classList.contains("active") || state.phase === "paused") return;
+      updateDraftFromInput();
+      state.previousPhase = state.phase;
+      state.phase = "paused";
+      state.pausedAt = Date.now();
+      $("pauseOverlay").classList.remove("hidden");
+      updateControls();
+      window.speechSynthesis?.cancel?.();
+    }
+
+    function resumePractice() {
+      if (state.phase !== "paused") return;
+      if (state.pausedAt) state.pausedTotal += Date.now() - state.pausedAt;
+      state.pausedAt = null;
+      state.phase = state.previousPhase || "ready";
+      $("pauseOverlay").classList.add("hidden");
+      updateControls();
+      updateTimer();
+      focusSentenceInput();
+    }
+
     function speakCurrent() {
       const text = state.current?.sentence?.english;
       if (!text || !("speechSynthesis" in window)) return;
@@ -6432,15 +7507,101 @@ window.NCE_ZH_OVERRIDES = [
       utterance.lang = "en-US";
       utterance.rate = .86;
       window.speechSynthesis.speak(utterance);
+      if (state.current) state.current.replayCount += 1;
+    }
+
+    function setActiveWord(index, shouldFocus = true) {
+      if (!state.current || state.phase === "correct" || state.phase === "paused") return;
+      ensureWordState(state.current);
+      const nextIndex = Math.max(0, Math.min(index, state.current.wordValues.length - 1));
+      state.activeWordIndex = nextIndex;
+      state.current.activeWordIndex = nextIndex;
+      $("wordSlots").querySelectorAll(".word-slot").forEach((slot, slotIndex) => {
+        slot.classList.toggle("active", slotIndex === nextIndex);
+      });
+      if (shouldFocus) focusSentenceInput();
+      persistSession();
+    }
+
+    function handleSlotInput(input) {
+      if (!state.current || state.phase === "correct" || state.phase === "paused") return;
+      const index = Number(input.dataset.index);
+      const value = input.value.replace(/\s+/g, "");
+      if (input.value !== value) input.value = value;
+      state.current.wordValues[index] = value;
+      state.current.activeWordIndex = index;
+      state.activeWordIndex = index;
+      state.current.draftText = state.current.wordValues.join(" ").trim();
+      state.current.lastInput = state.current.draftText;
+      if (state.phase === "ready") state.phase = "inputting";
+      const slot = input.closest(".word-slot");
+      if (slot) {
+        const targetWord = displayWords(state.current.sentence.english)[index] || "word";
+        slot.style.width = `${slotWidthFor(value || targetWord)}px`;
+        slot.classList.toggle("filled", Boolean(value));
+      }
+      $("smallStatus").textContent = "";
+      persistSession();
+    }
+
+    function handleSlotKeydown(event, input) {
+      if (event.isComposing || !state.current) return;
+      const index = Number(input.dataset.index);
+      const isPlainHorizontalArrow = (event.key === "ArrowLeft" || event.key === "ArrowRight")
+        && !event.shiftKey && !event.ctrlKey && !event.altKey && !event.metaKey;
+      if (isPlainHorizontalArrow) {
+        event.preventDefault();
+        const direction = event.key === "ArrowLeft" ? -1 : 1;
+        const nextIndex = Math.max(0, Math.min(index + direction, state.current.wordValues.length - 1));
+        setActiveWord(nextIndex);
+        const nextInput = $("wordSlots").querySelector(`.slot-input[data-index="${nextIndex}"]`);
+        if (nextInput) {
+          const caret = nextInput.value.length;
+          nextInput.setSelectionRange(caret, caret);
+        }
+        return;
+      }
+      if (event.key === "Backspace" && !input.value && index > 0) {
+        event.preventDefault();
+        setActiveWord(index - 1);
+        const previousInput = $("wordSlots").querySelector(`.slot-input[data-index="${index - 1}"]`);
+        if (previousInput) {
+          const caret = previousInput.value.length;
+          previousInput.setSelectionRange(caret, caret);
+        }
+        return;
+      }
+      if (event.key === " ") {
+        event.preventDefault();
+        handleSlotInput(input);
+        const isOnlyWrongWord = state.phase === "wrong"
+          && state.current.wrongIndexes.length === 1
+          && state.current.wrongIndexes[0] === index;
+        if (isOnlyWrongWord && normalizeInputWord(state.current.wordValues[index])) {
+          submitAnswer();
+          return;
+        }
+        if (index < state.current.wordValues.length - 1) {
+          setActiveWord(index + 1);
+        } else {
+          submitAnswer();
+        }
+        return;
+      }
+      if (event.key === "Enter") {
+        event.preventDefault();
+      }
     }
 
     applyTheme(localStorage.getItem("nce_theme") || "dark");
     $("themeToggleBtn").addEventListener("click", toggleTheme);
     $("homeBtn").addEventListener("click", () => {
       clearInterval(state.timerId);
-      showView("homeView");
+      window.speechSynthesis?.cancel?.();
+      $("pauseOverlay").classList.add("hidden");
+      const activeView = document.querySelector(".view.active")?.id;
+      showView(activeView === "listView" ? "homeView" : "listView");
     });
-    $("backToListBtn").addEventListener("click", () => showView("listView"));
     $("openNce1Btn").addEventListener("click", () => showView("listView"));
     $("openNce2Btn").addEventListener("click", () => {
       showView("listView");
@@ -6451,93 +7612,71 @@ window.NCE_ZH_OVERRIDES = [
       updateImportNote("其他课程入口已解锁；可以通过下方导入 JSON 接入自定义课文，接入后会出现在课程列表中。");
     });
     $("continueBtn").addEventListener("click", () => {
-      state.selectedLesson = lessons.find((lesson) => lesson.id === "lesson-3") || lessons[0];
+      const lessonId = $("continueBtn").dataset.lessonId;
+      state.selectedLesson = lessons.find((lesson) => lesson.id === lessonId) || mostRecentLesson();
       renderPreview();
       showView("previewView");
     });
     $("startBtn").addEventListener("click", () => startPractice());
     $("submitBtn").addEventListener("click", submitAnswer);
     $("nextBtn").addEventListener("click", nextQuestion);
-    $("hintBtn").addEventListener("click", showHint);
-    $("aiExplainBtn").addEventListener("click", explainMistake);
+    $("prevBtn").addEventListener("click", previousQuestion);
+    $("hintBtn").addEventListener("click", markMastered);
+    $("aiExplainBtn").addEventListener("click", toggleNewWord);
     $("answerBtn").addEventListener("click", showAnswer);
     $("speakBtn").addEventListener("click", speakCurrent);
-    $("restartBtn").addEventListener("click", () => startPractice(state.selectedLesson.sentences));
+    $("pauseBtn").addEventListener("click", pausePractice);
+    $("resumeBtn").addEventListener("click", resumePractice);
+    $("closePauseBtn").addEventListener("click", resumePractice);
+    $("restartBtn").addEventListener("click", () => {
+      localStorage.removeItem(SESSION_STORAGE_KEY);
+      startPractice(state.selectedLesson.sentences, "course", false);
+    });
+    $("nextLessonBtn").addEventListener("click", startNextLesson);
     $("importBtn").addEventListener("click", () => $("importFile").click());
     $("importFile").addEventListener("change", (event) => {
       handleImportFile(event.target.files[0]);
       event.target.value = "";
     });
     $("inputShell").addEventListener("click", (event) => {
-      if (event.target.classList.contains("slot-input")) return;
-      const inputs = [...document.querySelectorAll(".slot-input")];
-      const firstEmpty = inputs.findIndex((input) => !input.value.trim());
-      focusSlot(firstEmpty >= 0 ? firstEmpty : inputs.length - 1);
+      if (!event.target.closest(".slot-input")) focusSentenceInput();
+    });
+    $("wordSlots").addEventListener("focusin", (event) => {
+      const input = event.target.closest(".slot-input");
+      if (input) setActiveWord(Number(input.dataset.index), false);
     });
     $("wordSlots").addEventListener("input", (event) => {
-      if (!event.target.classList.contains("slot-input")) return;
-      const input = event.target;
-      const index = Number(input.dataset.index);
-      const value = input.value;
-      if (/\s/.test(value.trim())) {
-        fillSlotsFromText(index, value);
-      } else {
-        updateHiddenInputFromSlots();
-      }
-      state.wrongIndex = -1;
-      $("aiPanel").classList.add("hidden");
-      document.querySelectorAll(".word-slot.wrong").forEach((slot) => slot.classList.remove("wrong"));
+      const input = event.target.closest(".slot-input");
+      if (input) handleSlotInput(input);
     });
     $("wordSlots").addEventListener("keydown", (event) => {
-      if (!event.target.classList.contains("slot-input")) return;
-      const input = event.target;
-      const index = Number(input.dataset.index);
-      if (event.key === " ") {
-        event.preventDefault();
-        updateHiddenInputFromSlots();
-        focusSlot(index + 1);
-      }
-      if (event.key === "Backspace" && !input.value) {
-        event.preventDefault();
-        focusSlot(index - 1, true);
-      }
-      if (event.key === "ArrowLeft" && input.selectionStart === 0) {
-        event.preventDefault();
-        focusSlot(index - 1);
-      }
-      if (event.key === "ArrowRight" && input.selectionStart === input.value.length) {
-        event.preventDefault();
-        focusSlot(index + 1);
-      }
-      if (event.key === "Enter") {
-        event.preventDefault();
-        $("submitBtn").classList.contains("hidden") ? nextQuestion() : submitAnswer();
-      }
-    });
-    $("wordSlots").addEventListener("paste", (event) => {
-      if (!event.target.classList.contains("slot-input")) return;
-      const text = event.clipboardData.getData("text");
-      if (!text || !/\s/.test(text)) return;
-      event.preventDefault();
-      fillSlotsFromText(Number(event.target.dataset.index), text);
-    });
-    $("answerInput").addEventListener("focus", () => renderWordSlots());
-    $("answerInput").addEventListener("blur", () => renderWordSlots());
-    $("answerInput").addEventListener("keydown", (event) => {
-      if (event.key === "Enter") {
-        event.preventDefault();
-        $("submitBtn").classList.contains("hidden") ? nextQuestion() : submitAnswer();
-      }
-    });
-    $("answerInput").addEventListener("input", () => {
-      state.wrongIndex = -1;
-      renderWordSlots();
+      const input = event.target.closest(".slot-input");
+      if (input) handleSlotKeydown(event, input);
     });
 
     document.addEventListener("keydown", (event) => {
+      const inPractice = $("practiceView").classList.contains("active");
+      if (!inPractice && state.phase !== "paused") return;
+      if (event.isComposing) return;
+      if (state.phase === "paused") {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          resumePractice();
+        }
+        return;
+      }
+      if (event.key === "Enter") {
+        event.preventDefault();
+        if (state.phase === "correct") nextQuestion();
+        return;
+      }
       if (event.ctrlKey && event.key.toLowerCase() === "m") {
         event.preventDefault();
-        showHint();
+        markMastered();
+      }
+      if (event.ctrlKey && event.key.toLowerCase() === "n") {
+        event.preventDefault();
+        toggleNewWord();
       }
       if (event.ctrlKey && event.key === ";") {
         event.preventDefault();
@@ -6546,6 +7685,14 @@ window.NCE_ZH_OVERRIDES = [
       if (event.ctrlKey && event.key === "'") {
         event.preventDefault();
         speakCurrent();
+      }
+      if (event.shiftKey && event.key === "ArrowRight") {
+        event.preventDefault();
+        nextQuestion();
+      }
+      if (event.shiftKey && event.key === "ArrowLeft") {
+        event.preventDefault();
+        previousQuestion();
       }
     });
 
