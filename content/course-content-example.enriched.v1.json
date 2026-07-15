@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.0.0",
+  "stage": "enriched",
+  "generatorVersion": "content-pipeline-1.0.0",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
+  "course": {
+    "courseId": "sample-course",
+    "title": "示例英语课程",
+    "description": "完整字段示例。",
+    "language": "en",
+    "translationLanguage": "zh-CN",
+    "revision": 1,
+    "sourceName": null,
+    "sourceLicense": null
+  },
+  "lessons": [
+    {
+      "lessonId": "sample-course-lesson-001",
+      "lessonNo": 1,
+      "title": "Lesson 1 Sample",
+      "order": 1,
+      "sourceText": "Excuse me!",
+      "sentences": [
+        {
+          "sentenceId": "sample-course-lesson-001-sentence-001",
+          "order": 1,
+          "sourceParagraphOrder": 1,
+          "sourceSentenceOrder": 1,
+          "english": "Excuse me!",
+          "chinese": "打扰一下！",
+          "translationStatus": "generated",
+          "acceptedAnswers": [],
+          "audioUrl": null,
+          "difficulty": 1,
+          "analysisSource": "ai",
+          "analysisStatus": "generated",
+          "analysisRuleVersion": "1.0.0",
+          "reviewNote": null,
+          "tokens": [
+            {
+              "tokenId": "sample-course-lesson-001-sentence-001-token-000",
+              "tokenIndex": 0,
+              "displayText": "Excuse",
+              "normalizedText": "excuse",
+              "punctuation": "",
+              "phonetic": "/ɪkˈskjuːz/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "原谅；打扰"
+            },
+            {
+              "tokenId": "sample-course-lesson-001-sentence-001-token-001",
+              "tokenIndex": 1,
+              "displayText": "me",
+              "normalizedText": "me",
+              "punctuation": "!",
+              "phonetic": "/miː/",
+              "posCode": "pronoun",
+              "posLabel": "代词",
+              "contextMeaning": "我"
+            }
+          ],
+          "groups": [
+            {
+              "groupId": "sample-course-lesson-001-sentence-001-independent-01",
+              "type": "independent_element",
+              "label": "独立成分",
+              "startToken": 0,
+              "endToken": 1,
+              "parentGroupId": null
+            }
+          ],
+          "hints": {
+            "memoryNote": "像轻轻叫住别人，先礼貌地开个口。",
+            "letterShape": "E_____ m_!",
+            "answerNote": "想礼貌叫住别人时，先用这句开场。"
+          }
+        }
+      ]
+    }
+  ]
+}

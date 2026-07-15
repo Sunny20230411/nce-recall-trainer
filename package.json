@@ -4,6 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "generate:analysis": "node scripts/generate-nce1-analysis.mjs",
+    "validate:content": "node scripts/validate-content-package.mjs",
     "build": "node build.mjs"
   },
   "devDependencies": {}

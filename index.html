@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
   <title>新概念课文默写训练</title>
   <style>
     :root {
@@ -132,6 +133,11 @@
       margin: 0 auto;
       flex: 1;
       padding: 28px 0 36px;
+    }
+
+    body.practice-active main {
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
 
     .view {
@@ -441,7 +447,7 @@
     }
 
     .practice {
-      min-height: calc(100dvh - 120px);
+      min-height: calc(100dvh - 128px);
       display: flex;
       flex-direction: column;
       gap: 20px;
@@ -1099,6 +1105,35 @@
       width: fit-content;
     }
 
+    .exit-dialog-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      padding: 0 20px 20px;
+    }
+
+    .pause-dialog .exit-dialog-actions .btn {
+      margin: 0;
+    }
+
+    .btn.danger {
+      color: #fff;
+      border-color: #dc2626;
+      background: #dc2626;
+    }
+
+    .btn.danger:hover {
+      border-color: #ef4444;
+      background: #ef4444;
+    }
+
+    body[data-theme="light"] .pause-dialog {
+      color: var(--text);
+      border-color: rgba(203, 213, 225, .95);
+      background: rgba(255, 255, 255, .98);
+      box-shadow: 0 24px 70px rgba(15, 23, 42, .18);
+    }
+
     .key {
       display: inline-flex;
       min-width: 36px;
@@ -1663,8 +1698,8 @@
         <span id="topTitle">新概念课文默写训练</span>
       </div>
       <div class="top-actions" aria-label="页面工具">
-        <button class="icon-btn" id="themeToggleBtn" title="切换白天/黑夜">☀</button>
-        <button class="icon-btn hidden" id="pauseBtn" title="暂停">Ⅱ</button>
+        <button class="icon-btn" id="themeToggleBtn" title="切换白天/黑夜" aria-label="切换白天/黑夜模式">☀</button>
+        <button class="icon-btn hidden" id="pauseBtn" title="暂停" aria-label="暂停练习">Ⅱ</button>
       </div>
     </header>
 
@@ -1740,12 +1775,6 @@
               <button class="btn" id="continueBtn">继续学习「Lesson 3」</button>
               <button class="btn secondary" id="importBtn">导入课文 JSON</button>
             </div>
-          </div>
-
-          <div class="tabs">
-            <button class="tab">学习路线</button>
-            <button class="tab active">大纲</button>
-            <button class="tab">评价</button>
           </div>
 
           <div class="import-note" id="importNote">
@@ -1827,6 +1856,19 @@
           </div>
           <p>快点回来吧，你的英语能力正在蓄势待发！</p>
           <button class="btn" id="resumeBtn">继续游戏</button>
+        </div>
+      </div>
+
+      <div class="pause-overlay hidden" id="exitConfirmOverlay" role="dialog" aria-modal="true" aria-labelledby="exitConfirmTitle">
+        <div class="pause-dialog">
+          <div class="pause-head">
+            <strong id="exitConfirmTitle">退出本次练习？</strong>
+          </div>
+          <p>退出后，本次练习的进度、答题记录、用时和错题将被清除。以前已经完成的学习记录不会受到影响。</p>
+          <div class="exit-dialog-actions">
+            <button class="btn secondary" id="continuePracticeBtn">继续学习</button>
+            <button class="btn danger" id="confirmExitBtn">退出并清除</button>
+          </div>
         </div>
       </div>
 
@@ -5657,6 +5699,7 @@ window.NCE_ZH_OVERRIDES = [
 
   </script>
   <script src="./nce1-zh-supplement.js"></script>
+  <script src="./nce1-analysis.js?v=20260715-2"></script>
   <script>
     let lessons = [
       {
@@ -6091,7 +6134,9 @@ window.NCE_ZH_OVERRIDES = [
       sessionTotalCount: 0,
       sessionCompletedCount: 0,
       sessionCorrectCount: 0,
-      current: null
+      current: null,
+      sessionRecordSnapshot: null,
+      exitConfirmationOpen: false
     };
 
     const $ = (id) => document.getElementById(id);
@@ -6099,6 +6144,7 @@ window.NCE_ZH_OVERRIDES = [
     function showView(id) {
       if (id === "listView") renderLessons();
       if (id === "previewView") renderPreview();
+      document.body.classList.toggle("practice-active", id === "practiceView");
       document.querySelectorAll(".view").forEach((view) => view.classList.remove("active"));
       $(id).classList.add("active");
       const titleMap = {
@@ -6301,14 +6347,43 @@ window.NCE_ZH_OVERRIDES = [
       };
     }
 
-    const SESSION_STORAGE_KEY = "nce_practice_session_v2";
+    const SESSION_STORAGE_KEY = "nce_practice_session_v3";
+
+    function cloneLearningData(value) {
+      return value == null ? null : JSON.parse(JSON.stringify(value));
+    }
+
+    function captureLearningRecordSnapshot(lesson) {
+      const existed = Boolean(lesson && Object.prototype.hasOwnProperty.call(learningRecords, lesson.id));
+      return {
+        lessonId: lesson?.id || "",
+        existed,
+        record: existed ? cloneLearningData(learningRecords[lesson.id]) : null
+      };
+    }
+
+    function restoreLearningRecordSnapshot(snapshot) {
+      if (!snapshot?.lessonId) return;
+      if (snapshot.existed && snapshot.record) learningRecords[snapshot.lessonId] = cloneLearningData(snapshot.record);
+      else delete learningRecords[snapshot.lessonId];
+      try {
+        localStorage.setItem(LEARNING_RECORDS_KEY, JSON.stringify(learningRecords));
+      } catch (error) {
+        // Keep the in-memory rollback even when storage is unavailable.
+      }
+    }
+
+    function attemptStats(results = state.results) {
+      const totalAttempts = results.reduce((sum, item) => sum + Math.max(0, Number(item.attempts) || 0), 0);
+      const correctAttempts = results.filter((item) => item.correct && !item.mastered).length;
+      const accuracy = totalAttempts ? Math.round((correctAttempts / totalAttempts) * 100) : 0;
+      return { totalAttempts, correctAttempts, accuracy };
+    }
 
     function updateCourseProgressRecord() {
       if (state.mode !== "course" || !state.selectedLesson || !state.sessionTotalCount) return;
       const progress = Math.min(100, Math.round((state.sessionCompletedCount / state.sessionTotalCount) * 100));
-      const accuracy = state.sessionCompletedCount
-        ? Math.round((state.sessionCorrectCount / state.sessionCompletedCount) * 100)
-        : 0;
+      const accuracy = attemptStats().accuracy;
       updateLearningRecord(state.selectedLesson, (record) => ({
         ...record,
         progress: Math.max(record.progress, progress),
@@ -6378,6 +6453,7 @@ window.NCE_ZH_OVERRIDES = [
         sessionTotalCount: state.sessionTotalCount,
         sessionCompletedCount: state.sessionCompletedCount,
         sessionCorrectCount: state.sessionCorrectCount,
+        learningRecordSnapshot: state.sessionRecordSnapshot,
         practiceEnglish: state.practiceSentences.map((sentence) => sentence.english),
         results: state.results.map(serializeResult)
       };
@@ -6418,6 +6494,7 @@ window.NCE_ZH_OVERRIDES = [
         state.pausedAt = null;
         state.pausedTotal = 0;
         state.finishedElapsed = null;
+        state.sessionRecordSnapshot = saved.learningRecordSnapshot || null;
         return true;
       } catch (error) {
         return false;
@@ -6451,6 +6528,7 @@ window.NCE_ZH_OVERRIDES = [
       state.sessionCompletedCount = 0;
       state.sessionCorrectCount = 0;
       if (mode === "course") {
+        state.sessionRecordSnapshot = captureLearningRecordSnapshot(state.selectedLesson);
         const savedNewWords = new Set(
           (learningRecordFor(state.selectedLesson).newWords || []).map((item) => item.english)
         );
@@ -6549,7 +6627,7 @@ window.NCE_ZH_OVERRIDES = [
       const sentence = state.current?.sentence;
       if (!sentence) return;
 
-      const analysisMode = state.phase === "correct" || options.correctAll;
+      const analysisMode = state.phase === "correct" || options.correctAll === true;
       document.querySelector(".drill-card")?.classList.toggle("analysis-mode", analysisMode);
       if (analysisMode) {
         $("wordSlots").innerHTML = renderSentenceAnalysis(sentence);
@@ -6568,7 +6646,8 @@ window.NCE_ZH_OVERRIDES = [
         const classNames = ["word-slot"];
         if (typedWord) classNames.push("filled");
         if (isCorrect) classNames.push("correct");
-        if (isWrong && state.current.wrongIndexes.includes(index)) classNames.push("wrong");
+        const hasError = isWrong && state.current.wrongIndexes.includes(index);
+        if (hasError) classNames.push("wrong");
         if (!isCorrect && index === state.activeWordIndex) classNames.push("active");
         const widthSeed = typedWord || targetWord || "word";
         const slotWidth = slotWidthFor(widthSeed);
@@ -6579,7 +6658,8 @@ window.NCE_ZH_OVERRIDES = [
             <span class="slot-ipa">${escapeHtml(ipa)}</span>
             <input class="slot-input" data-index="${index}" value="${escapeHtml(typedWord)}"
               autocomplete="off" autocapitalize="off" spellcheck="false"
-              aria-label="第 ${index + 1} 个单词" maxlength="48" ${isCorrect ? "disabled" : ""}>
+              aria-label="第 ${index + 1} 个单词" aria-invalid="${hasError ? "true" : "false"}"
+              maxlength="48" ${isCorrect ? "disabled" : ""}>
             <span class="slot-meta">
               ${wordInfo.pos ? `<span class="pos-tag">${escapeHtml(wordInfo.pos)}</span>` : ""}
               ${wordInfo.meaning ? `<span class="word-meaning">${escapeHtml(wordInfo.meaning)}</span>` : ""}
@@ -6621,10 +6701,7 @@ window.NCE_ZH_OVERRIDES = [
         $("liveAccuracy").textContent = "复习";
         return;
       }
-      const answered = state.results.filter((item) => item.correct).length;
-      const attempted = state.results.filter((item) => item.attempts || item.emptySubmits || item.correct || item.skipped).length;
-      const rate = attempted ? Math.round((answered / attempted) * 100) : 0;
-      $("liveAccuracy").textContent = `${rate}%`;
+      $("liveAccuracy").textContent = `${attemptStats().accuracy}%`;
     }
 
     function saveCurrentTiming() {
@@ -7039,6 +7116,7 @@ window.NCE_ZH_OVERRIDES = [
     }
 
     const sentenceAnalysisCatalog = {
+      ...(window.NCE1_SENTENCE_ANALYSIS || {}),
       [normalizeForAccepted("My coat.")]: { groups: [analysisGroup("object_1", "object", 0, 1)] },
       [normalizeForAccepted("My umbrella please.")]: { groups: [
         analysisGroup("object_1", "object", 0, 1),
@@ -7099,6 +7177,13 @@ window.NCE_ZH_OVERRIDES = [
         analysisGroup("predicate_1", "predicate", 0, 0),
         analysisGroup("object_1", "object", 1, 1),
         analysisGroup("adverbial_1", "degree_adverbial", 2, 3)
+      ] },
+      [normalizeForAccepted("Give me some glasses please, Jane.")]: { groups: [
+        analysisGroup("predicate_1", "predicate", 0, 0),
+        analysisGroup("indirect_object_1", "indirect_object", 1, 1),
+        analysisGroup("direct_object_1", "direct_object", 2, 3),
+        analysisGroup("independent_1", "independent_element", 4, 4),
+        analysisGroup("vocative_1", "vocative", 5, 5)
       ] }
     };
 
@@ -7144,7 +7229,9 @@ window.NCE_ZH_OVERRIDES = [
 
     function sentenceAnalysisFor(sentence) {
       const catalogEntry = sentenceAnalysisCatalog[normalizeForAccepted(sentence.english)] || {};
-      const source = sentence.analysis || catalogEntry;
+      const sentenceSource = sentence.analysis;
+      const hasSentenceGroups = Array.isArray(sentenceSource?.groups) && sentenceSource.groups.length > 0;
+      const source = hasSentenceGroups ? sentenceSource : catalogEntry;
       const displayTokens = displayWords(sentence.english);
       const indexBase = source.indexBase === 1 ? 1 : 0;
       const suppliedTokens = new Map((source.tokens || []).map((token, index) => [
@@ -7354,7 +7441,8 @@ window.NCE_ZH_OVERRIDES = [
       if (state.mode === "course") {
         state.lastCourseResults = state.results.map((item) => ({ ...item }));
         const total = state.sessionTotalCount || state.selectedLesson.sentences.length;
-        const accuracy = total ? Math.round((state.sessionCorrectCount / total) * 100) : 0;
+        const submissionStats = attemptStats();
+        const accuracy = submissionStats.accuracy;
         updateLearningRecord(state.selectedLesson, (record) => ({
           ...record,
           completed: true,
@@ -7362,13 +7450,14 @@ window.NCE_ZH_OVERRIDES = [
           completedRuns: record.completedRuns + 1,
           lastAccuracy: accuracy,
           bestAccuracy: Math.max(record.bestAccuracy, accuracy),
-          aggregateCorrect: record.aggregateCorrect + state.sessionCorrectCount,
-          aggregateQuestions: record.aggregateQuestions + total,
+          aggregateCorrect: record.aggregateCorrect + submissionStats.correctAttempts,
+          aggregateQuestions: record.aggregateQuestions + submissionStats.totalAttempts,
           lastDuration: state.finishedElapsed,
           lastPosition: 0,
           lastStudiedAt: new Date().toISOString()
         }));
         localStorage.removeItem(SESSION_STORAGE_KEY);
+        state.sessionRecordSnapshot = null;
         renderLessons();
         renderPreview();
       }
@@ -7383,6 +7472,8 @@ window.NCE_ZH_OVERRIDES = [
     function renderResults() {
       const total = state.results.length;
       const correct = state.results.filter((item) => item.correct && !item.mastered).length;
+      const submissionStats = attemptStats();
+      const submissionAccuracy = percent(submissionStats.correctAttempts, submissionStats.totalAttempts);
       const skipped = state.results.filter((item) => item.skipped).length;
       const wrong = state.results.filter((item) => item.hadWrongAttempt || item.emptySubmits > 0).length;
       const viewed = state.results.filter((item) => item.viewedAnswer).length;
@@ -7393,10 +7484,10 @@ window.NCE_ZH_OVERRIDES = [
       const mistakes = isReview ? [] : state.results.filter((item) => item.hadWrongAttempt || item.emptySubmits > 0);
 
       $("resultTitle").textContent = isReview ? "错题复盘完成" : "练习结算";
-      $("finalRate").textContent = isReview ? percent(correct, total) : `${state.score}`;
+      $("finalRate").textContent = submissionAccuracy;
       document.querySelector(".result-note").textContent = isReview
         ? "这是本次错题复习的独立统计，不覆盖原课程结算。"
-        : "本次结算会区分正确、跳过、查看答案和错题复习，方便判断真实掌握情况。";
+        : "正确率按正确提交次数除以全部提交次数计算；重复答错会降低正确率。";
       $("summaryGrid").innerHTML = isReview ? `
         <div class="summary-item"><b>${correct}</b><span>答对</span></div>
         <div class="summary-item"><b>${skipped}</b><span>跳过</span></div>
@@ -7404,7 +7495,7 @@ window.NCE_ZH_OVERRIDES = [
         <div class="summary-item"><b>${formatTime(elapsedSeconds())}</b><span>练习时长</span></div>
         <div class="summary-item"><b>${total}</b><span>答题数</span></div>
         <div class="summary-item"><b>${percent(firstTry, total)}</b><span>一次命中率</span></div>
-        <div class="summary-item"><b>${percent(correct, total)}</b><span>正确率</span></div>
+        <div class="summary-item"><b>${submissionAccuracy}</b><span>正确率</span></div>
         <div class="summary-item"><b>${percent(viewed, total)}</b><span>查看答案</span></div>
         <div class="summary-item"><b>${replay}</b><span>重听次数</span></div>
         <div class="summary-item"><b>${formatTime(avg)}</b><span>平均用时</span></div>
@@ -7417,7 +7508,7 @@ window.NCE_ZH_OVERRIDES = [
         <div class="summary-item"><b>${total}</b><span>答题数</span></div>
         <div class="summary-item"><b>${state.maxCombo}</b><span>最大连击</span></div>
         <div class="summary-item"><b>${percent(firstTry, total)}</b><span>一次命中率</span></div>
-        <div class="summary-item"><b>${percent(correct, total)}</b><span>正确率</span></div>
+        <div class="summary-item"><b>${submissionAccuracy}</b><span>正确率</span></div>
         <div class="summary-item"><b>${percent(viewed, total)}</b><span>查看答案</span></div>
         <div class="summary-item"><b>${replay}</b><span>重听次数</span></div>
         <div class="summary-item"><b>${formatTime(avg)}</b><span>平均用时</span></div>
@@ -7470,6 +7561,7 @@ window.NCE_ZH_OVERRIDES = [
       if (btn) {
         btn.textContent = nextTheme === "light" ? "☾" : "☀";
         btn.title = nextTheme === "light" ? "切换黑夜模式" : "切换白天模式";
+        btn.setAttribute("aria-label", btn.title);
       }
     }
 
@@ -7497,6 +7589,54 @@ window.NCE_ZH_OVERRIDES = [
       updateControls();
       updateTimer();
       focusSentenceInput();
+    }
+
+    function openExitConfirmation() {
+      if (!$("practiceView").classList.contains("active") || state.exitConfirmationOpen) return;
+      state.exitConfirmationOpen = true;
+      pausePractice();
+      $("pauseOverlay").classList.add("hidden");
+      $("exitConfirmOverlay").classList.remove("hidden");
+      $("continuePracticeBtn").focus();
+    }
+
+    function continueCurrentPractice() {
+      if (!state.exitConfirmationOpen) return;
+      state.exitConfirmationOpen = false;
+      $("exitConfirmOverlay").classList.add("hidden");
+      resumePractice();
+    }
+
+    function discardCurrentPracticeAndExit() {
+      if (!state.exitConfirmationOpen) return;
+      clearInterval(state.timerId);
+      window.speechSynthesis?.cancel?.();
+      restoreLearningRecordSnapshot(state.sessionRecordSnapshot);
+      localStorage.removeItem(SESSION_STORAGE_KEY);
+      state.exitConfirmationOpen = false;
+      state.sessionRecordSnapshot = null;
+      state.phase = "idle";
+      state.practiceSentences = [];
+      state.currentIndex = 0;
+      state.score = 0;
+      state.combo = 0;
+      state.maxCombo = 0;
+      state.startedAt = null;
+      state.pausedAt = null;
+      state.pausedTotal = 0;
+      state.finishedElapsed = null;
+      state.sentenceStartedAt = null;
+      state.results = [];
+      state.sessionTotalCount = 0;
+      state.sessionCompletedCount = 0;
+      state.sessionCorrectCount = 0;
+      state.current = null;
+      $("pauseOverlay").classList.add("hidden");
+      $("exitConfirmOverlay").classList.add("hidden");
+      renderLessons();
+      renderPreview();
+      refreshContinueButton();
+      showView("listView");
     }
 
     function speakCurrent() {
@@ -7596,10 +7736,14 @@ window.NCE_ZH_OVERRIDES = [
     applyTheme(localStorage.getItem("nce_theme") || "dark");
     $("themeToggleBtn").addEventListener("click", toggleTheme);
     $("homeBtn").addEventListener("click", () => {
+      const activeView = document.querySelector(".view.active")?.id;
+      if (activeView === "practiceView") {
+        openExitConfirmation();
+        return;
+      }
       clearInterval(state.timerId);
       window.speechSynthesis?.cancel?.();
       $("pauseOverlay").classList.add("hidden");
-      const activeView = document.querySelector(".view.active")?.id;
       showView(activeView === "listView" ? "homeView" : "listView");
     });
     $("openNce1Btn").addEventListener("click", () => showView("listView"));
@@ -7628,6 +7772,8 @@ window.NCE_ZH_OVERRIDES = [
     $("pauseBtn").addEventListener("click", pausePractice);
     $("resumeBtn").addEventListener("click", resumePractice);
     $("closePauseBtn").addEventListener("click", resumePractice);
+    $("continuePracticeBtn").addEventListener("click", continueCurrentPractice);
+    $("confirmExitBtn").addEventListener("click", discardCurrentPracticeAndExit);
     $("restartBtn").addEventListener("click", () => {
       localStorage.removeItem(SESSION_STORAGE_KEY);
       startPractice(state.selectedLesson.sentences, "course", false);
@@ -7658,6 +7804,13 @@ window.NCE_ZH_OVERRIDES = [
       const inPractice = $("practiceView").classList.contains("active");
       if (!inPractice && state.phase !== "paused") return;
       if (event.isComposing) return;
+      if (state.exitConfirmationOpen) {
+        if (event.key === "Escape") {
+          event.preventDefault();
+          continueCurrentPractice();
+        }
+        return;
+      }
       if (state.phase === "paused") {
         if (event.key === "Enter" || event.key === " ") {
           event.preventDefault();

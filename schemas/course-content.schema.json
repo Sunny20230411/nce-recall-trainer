@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nce.sunchunjiang.com/schemas/course-content.schema.json",
+  "title": "NCE Recall Trainer Course Content Package",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "stage", "course", "lessons"],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "stage": { "enum": ["raw", "enriched", "approved"] },
+    "generatorVersion": { "type": ["string", "null"] },
+    "generatedAt": { "type": ["string", "null"], "format": "date-time" },
+    "course": { "$ref": "#/$defs/course" },
+    "lessons": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/lesson" }
+    }
+  },
+  "$defs": {
+    "course": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["courseId", "title", "language", "revision"],
+      "properties": {
+        "courseId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "title": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "language": { "const": "en" },
+        "translationLanguage": { "const": "zh-CN" },
+        "revision": { "type": "integer", "minimum": 1 },
+        "sourceName": { "type": ["string", "null"] },
+        "sourceLicense": { "type": ["string", "null"] }
+      }
+    },
+    "lesson": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lessonId", "lessonNo", "title", "order", "sourceText", "sentences"],
+      "properties": {
+        "lessonId": { "type": "string", "minLength": 1 },
+        "lessonNo": { "type": "integer", "minimum": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "order": { "type": "integer", "minimum": 1 },
+        "sourceText": { "type": "string", "minLength": 1 },
+        "sentences": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/sentence" }
+        }
+      }
+    },
+    "sentence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sentenceId", "order", "sourceParagraphOrder", "sourceSentenceOrder", "english"],
+      "properties": {
+        "sentenceId": { "type": "string", "minLength": 1 },
+        "order": { "type": "integer", "minimum": 1 },
+        "sourceParagraphOrder": { "type": "integer", "minimum": 1 },
+        "sourceSentenceOrder": { "type": "integer", "minimum": 1 },
+        "english": { "type": "string", "minLength": 1 },
+        "chinese": { "type": ["string", "null"] },
+        "translationStatus": { "enum": ["pending", "generated", "reviewed", "approved"] },
+        "acceptedAnswers": { "type": "array", "items": { "type": "string" } },
+        "audioUrl": { "type": ["string", "null"] },
+        "difficulty": { "type": ["integer", "null"], "minimum": 1, "maximum": 5 },
+        "analysisSource": { "enum": ["pending", "rule", "ai", "human"] },
+        "analysisStatus": { "enum": ["pending", "generated", "reviewed", "approved"] },
+        "analysisRuleVersion": { "type": ["string", "null"] },
+        "reviewNote": { "type": ["string", "null"] },
+        "tokens": { "type": "array", "items": { "$ref": "#/$defs/token" } },
+        "groups": { "type": "array", "items": { "$ref": "#/$defs/group" } },
+        "hints": { "$ref": "#/$defs/hints" }
+      }
+    },
+    "token": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tokenId", "tokenIndex", "displayText", "normalizedText", "punctuation"],
+      "properties": {
+        "tokenId": { "type": "string", "minLength": 1 },
+        "tokenIndex": { "type": "integer", "minimum": 0 },
+        "displayText": { "type": "string", "minLength": 1 },
+        "normalizedText": { "type": "string", "minLength": 1 },
+        "punctuation": { "type": "string" },
+        "phonetic": { "type": ["string", "null"] },
+        "posCode": { "$ref": "#/$defs/posCode" },
+        "posLabel": { "type": ["string", "null"] },
+        "contextMeaning": { "type": ["string", "null"] }
+      }
+    },
+    "group": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["groupId", "type", "startToken", "endToken", "parentGroupId"],
+      "properties": {
+        "groupId": { "type": "string", "minLength": 1 },
+        "type": { "$ref": "#/$defs/structureType" },
+        "label": { "type": ["string", "null"] },
+        "startToken": { "type": "integer", "minimum": 0 },
+        "endToken": { "type": "integer", "minimum": 0 },
+        "parentGroupId": { "type": ["string", "null"] }
+      }
+    },
+    "hints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["memoryNote", "letterShape", "answerNote"],
+      "properties": {
+        "memoryNote": { "type": ["string", "null"], "maxLength": 48 },
+        "letterShape": { "type": ["string", "null"] },
+        "answerNote": { "type": ["string", "null"], "maxLength": 80 }
+      }
+    },
+    "posCode": {
+      "enum": [
+        "noun", "pronoun", "verb", "adjective", "adverb", "preposition",
+        "conjunction", "determiner", "numeral", "interjection", "particle", null
+      ]
+    },
+    "structureType": {
+      "enum": [
+        "subject", "predicate", "object", "direct_object", "indirect_object",
+        "prepositional_object", "predicative", "attribute", "adverbial",
+        "time_adverbial", "place_adverbial", "manner_adverbial", "degree_adverbial",
+        "frequency_adverbial", "reason_adverbial", "purpose_adverbial",
+        "result_adverbial", "condition_adverbial", "concession_adverbial",
+        "comparison_adverbial", "accompanying_adverbial", "sentence_adverbial",
+        "object_complement", "subject_complement", "appositive", "vocative",
+        "parenthetical", "independent_element", "main_clause", "coordinate_clause",
+        "subject_clause", "object_clause", "predicative_clause", "appositive_clause",
+        "relative_clause", "time_clause", "place_clause", "reason_clause",
+        "purpose_clause", "result_clause", "condition_clause", "concession_clause",
+        "comparison_clause", "manner_clause", "infinitive_phrase", "gerund_phrase",
+        "present_participle_phrase", "past_participle_phrase", "prepositional_phrase",
+        "noun_phrase", "verb_phrase", "adjective_phrase", "adverb_phrase",
+        "absolute_construction"
+      ]
+    }
+  }
+}
