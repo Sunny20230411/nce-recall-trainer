@@ -1840,7 +1840,6 @@
             <button class="btn ghost" id="prevBtn"><span class="key">Shift ←</span> 上一题</button>
             <button class="btn secondary" id="speakBtn"><span class="key">Ctrl</span> 播放发音</button>
             <button class="btn secondary" id="hintBtn"><span class="key">Ctrl M</span> 掌握</button>
-            <button class="btn secondary" id="aiExplainBtn"><span class="key">Ctrl N</span> 生词</button>
             <button class="btn secondary" id="answerBtn"><span class="key">Ctrl ;</span> 查看答案</button>
             <button class="btn" id="submitBtn"><span class="key">Space</span> 提交</button>
             <button class="btn ghost" id="nextBtn"><span class="key">Shift →</span> 下一题</button>
@@ -6728,13 +6727,11 @@ window.NCE_ZH_OVERRIDES = [
           ? `<span class="key">Ctrl ;</span> 隐藏答案`
           : `<span class="key">Ctrl ;</span> 显示答案`;
       $("hintBtn").classList.toggle("hidden", isReview);
-      $("aiExplainBtn").classList.toggle("hidden", isReview);
       $("prevBtn").disabled = state.currentIndex === 0 || isPaused;
       $("nextBtn").disabled = isPaused;
       $("submitBtn").disabled = isPaused;
       $("answerBtn").disabled = isPaused;
       $("hintBtn").disabled = isPaused;
-      $("aiExplainBtn").disabled = isPaused;
       persistSession();
     }
 
@@ -6843,7 +6840,6 @@ window.NCE_ZH_OVERRIDES = [
       if (!state.current || state.mode === "review" || state.phase === "paused") return;
       state.current.newWord = !state.current.newWord;
       persistNewWordChoice();
-      $("aiExplainBtn").classList.toggle("active", state.current.newWord);
       $("smallStatus").textContent = state.current.newWord ? "已加入生词" : "已取消生词";
       setTimeout(() => {
         if (state.phase !== "correct") $("smallStatus").textContent = "";
@@ -6854,7 +6850,6 @@ window.NCE_ZH_OVERRIDES = [
     async function explainMistake() {
       if (!state.current || !state.current.lastInput || !state.lastCompare) return;
 
-      $("aiExplainBtn").disabled = true;
       $("aiPanel").classList.remove("hidden");
       $("aiPanel").innerHTML = "<strong>AI 解析生成中...</strong>";
 
@@ -6878,8 +6873,6 @@ window.NCE_ZH_OVERRIDES = [
         $("aiPanel").innerHTML = explanation;
       } catch (error) {
         $("aiPanel").innerHTML = mockAiExplanation(payload);
-      } finally {
-        $("aiExplainBtn").disabled = false;
       }
     }
 
@@ -7766,7 +7759,6 @@ window.NCE_ZH_OVERRIDES = [
     $("nextBtn").addEventListener("click", nextQuestion);
     $("prevBtn").addEventListener("click", previousQuestion);
     $("hintBtn").addEventListener("click", markMastered);
-    $("aiExplainBtn").addEventListener("click", toggleNewWord);
     $("answerBtn").addEventListener("click", showAnswer);
     $("speakBtn").addEventListener("click", speakCurrent);
     $("pauseBtn").addEventListener("click", pausePractice);
@@ -7800,6 +7792,8 @@ window.NCE_ZH_OVERRIDES = [
       if (input) handleSlotKeydown(event, input);
     });
 
+    let ctrlChordUsed = false;
+
     document.addEventListener("keydown", (event) => {
       const inPractice = $("practiceView").classList.contains("active");
       if (!inPractice && state.phase !== "paused") return;
@@ -7823,21 +7817,18 @@ window.NCE_ZH_OVERRIDES = [
         if (state.phase === "correct") nextQuestion();
         return;
       }
+      if (event.key === "Control") {
+        if (!event.repeat) ctrlChordUsed = false;
+        return;
+      }
+      if (event.ctrlKey) ctrlChordUsed = true;
       if (event.ctrlKey && event.key.toLowerCase() === "m") {
         event.preventDefault();
         markMastered();
       }
-      if (event.ctrlKey && event.key.toLowerCase() === "n") {
-        event.preventDefault();
-        toggleNewWord();
-      }
       if (event.ctrlKey && event.key === ";") {
         event.preventDefault();
         showAnswer();
-      }
-      if (event.ctrlKey && event.key === "'") {
-        event.preventDefault();
-        speakCurrent();
       }
       if (event.shiftKey && event.key === "ArrowRight") {
         event.preventDefault();
@@ -7847,6 +7838,18 @@ window.NCE_ZH_OVERRIDES = [
         event.preventDefault();
         previousQuestion();
       }
+    });
+
+    document.addEventListener("keyup", (event) => {
+      if (event.key !== "Control") return;
+      const shouldPlay = !ctrlChordUsed
+        && $("practiceView").classList.contains("active")
+        && state.phase !== "paused"
+        && !state.exitConfirmationOpen;
+      ctrlChordUsed = false;
+      if (!shouldPlay) return;
+      event.preventDefault();
+      speakCurrent();
     });
 
     renderLessons();
