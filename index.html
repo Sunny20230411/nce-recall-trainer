@@ -6556,6 +6556,7 @@ window.NCE_ZH_OVERRIDES = [
     }
 
     function renderQuestion(preservePhase = false) {
+      stopSentenceAudio();
       const sentence = state.practiceSentences[state.currentIndex];
       state.current = state.results[state.currentIndex];
       state.sentenceStartedAt = Date.now();
@@ -6782,6 +6783,7 @@ window.NCE_ZH_OVERRIDES = [
         updateTimer();
         updateLiveAccuracy();
         updateControls();
+        void playCorrectFeedback(state.current.sentence);
         state.isChecking = false;
         return;
       }
@@ -7364,6 +7366,7 @@ window.NCE_ZH_OVERRIDES = [
 
     function retryCurrentQuestion() {
       if (!state.current) return;
+      stopSentenceAudio();
       state.phase = "ready";
       ensureWordState(state.current);
       state.current.wordValues = state.current.wordValues.map(() => "");
@@ -7426,6 +7429,7 @@ window.NCE_ZH_OVERRIDES = [
     }
 
     function finishPractice() {
+      stopSentenceAudio();
       saveCurrentTiming();
       clearInterval(state.timerId);
       $("progressFill").style.width = "100%";
@@ -7570,7 +7574,7 @@ window.NCE_ZH_OVERRIDES = [
       state.pausedAt = Date.now();
       $("pauseOverlay").classList.remove("hidden");
       updateControls();
-      window.speechSynthesis?.cancel?.();
+      stopSentenceAudio();
     }
 
     function resumePractice() {
@@ -7603,7 +7607,7 @@ window.NCE_ZH_OVERRIDES = [
     function discardCurrentPracticeAndExit() {
       if (!state.exitConfirmationOpen) return;
       clearInterval(state.timerId);
-      window.speechSynthesis?.cancel?.();
+      stopSentenceAudio();
       restoreLearningRecordSnapshot(state.sessionRecordSnapshot);
       localStorage.removeItem(SESSION_STORAGE_KEY);
       state.exitConfirmationOpen = false;
@@ -7632,15 +7636,91 @@ window.NCE_ZH_OVERRIDES = [
       showView("listView");
     }
 
-    function speakCurrent() {
-      const text = state.current?.sentence?.english;
+    let correctFeedbackSequence = 0;
+    let correctAudioContext = null;
+    const activeCorrectTones = new Set();
+
+    function stopSentenceAudio() {
+      correctFeedbackSequence += 1;
+      activeCorrectTones.forEach((oscillator) => {
+        try {
+          oscillator.stop();
+        } catch (error) {
+          // The oscillator may already have ended.
+        }
+      });
+      activeCorrectTones.clear();
+      window.speechSynthesis?.cancel?.();
+    }
+
+    function playCorrectChime() {
+      return new Promise((resolve) => {
+        const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+        if (!AudioContextClass) {
+          resolve();
+          return;
+        }
+        try {
+          if (!correctAudioContext || correctAudioContext.state === "closed") {
+            correctAudioContext = new AudioContextClass();
+          }
+          const context = correctAudioContext;
+          const resumePromise = context.resume?.();
+          if (resumePromise?.catch) void resumePromise.catch(() => {});
+          const startAt = context.currentTime + 0.01;
+          [
+            { frequency: 659.25, offset: 0, duration: 0.13 },
+            { frequency: 880, offset: 0.12, duration: 0.18 }
+          ].forEach((tone) => {
+            const oscillator = context.createOscillator();
+            const gain = context.createGain();
+            const toneStart = startAt + tone.offset;
+            const toneEnd = toneStart + tone.duration;
+            oscillator.type = "sine";
+            oscillator.frequency.setValueAtTime(tone.frequency, toneStart);
+            gain.gain.setValueAtTime(0.0001, toneStart);
+            gain.gain.exponentialRampToValueAtTime(0.065, toneStart + 0.018);
+            gain.gain.exponentialRampToValueAtTime(0.0001, toneEnd);
+            oscillator.connect(gain);
+            gain.connect(context.destination);
+            oscillator.addEventListener("ended", () => activeCorrectTones.delete(oscillator), { once: true });
+            activeCorrectTones.add(oscillator);
+            oscillator.start(toneStart);
+            oscillator.stop(toneEnd + 0.015);
+          });
+          window.setTimeout(resolve, 340);
+        } catch (error) {
+          resolve();
+        }
+      });
+    }
+
+    function speakSentence(text, countReplay = false) {
       if (!text || !("speechSynthesis" in window)) return;
       window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = "en-US";
       utterance.rate = .86;
       window.speechSynthesis.speak(utterance);
-      if (state.current) state.current.replayCount += 1;
+      if (countReplay && state.current) state.current.replayCount += 1;
+    }
+
+    async function playCorrectFeedback(sentence) {
+      const text = sentence?.english;
+      if (!text) return;
+      stopSentenceAudio();
+      const sequence = correctFeedbackSequence;
+      await playCorrectChime();
+      if (sequence !== correctFeedbackSequence) return;
+      if (state.phase !== "correct" || state.current?.sentence !== sentence) return;
+      speakSentence(text, false);
+    }
+
+    function speakCurrent() {
+      const text = state.current?.sentence?.english;
+      if (!text) return;
+      stopSentenceAudio();
+      speakSentence(text, true);
     }
 
     function setActiveWord(index, shouldFocus = true) {
@@ -7735,7 +7815,7 @@ window.NCE_ZH_OVERRIDES = [
         return;
       }
       clearInterval(state.timerId);
-      window.speechSynthesis?.cancel?.();
+      stopSentenceAudio();
       $("pauseOverlay").classList.add("hidden");
       showView(activeView === "listView" ? "homeView" : "listView");
     });
