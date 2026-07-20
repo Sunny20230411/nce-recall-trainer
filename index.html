@@ -7787,10 +7787,12 @@ window.NCE_ZH_OVERRIDES = [
       if (event.key === " ") {
         event.preventDefault();
         handleSlotInput(input);
-        const isOnlyWrongWord = state.phase === "wrong"
-          && state.current.wrongIndexes.length === 1
-          && state.current.wrongIndexes[0] === index;
-        if (isOnlyWrongWord && normalizeInputWord(state.current.wordValues[index])) {
+        const completedCorrection = state.phase === "wrong"
+          && state.current.wrongIndexes.includes(index)
+          && state.current.wrongIndexes.every((wrongIndex) => (
+            normalizeInputWord(state.current.wordValues[wrongIndex])
+          ));
+        if (completedCorrection) {
           submitAnswer();
           return;
         }
