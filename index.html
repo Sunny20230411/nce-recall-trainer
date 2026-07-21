@@ -1860,7 +1860,7 @@
               </div>
               <div class="pack-meta">
                 <span class="badge active">96 课</span>
-                <span class="badge">1098 句</span>
+                <span class="badge" id="nce2SentenceCount">1098 句</span>
                 <span class="badge">已导入</span>
               </div>
             </button>
@@ -6139,6 +6139,10 @@ window.NCE_ZH_OVERRIDES = [
     const importedCount = loadImportedLessons();
 
     const nce2CourseData = window.NCE2_COURSE_DATA || { lessons: [] };
+    const nce2SentenceCountBadge = document.getElementById("nce2SentenceCount");
+    if (nce2SentenceCountBadge && nce2CourseData.practiceSentenceCount) {
+      nce2SentenceCountBadge.textContent = nce2CourseData.practiceSentenceCount + " 练习句";
+    }
     const nce2Lessons = (nce2CourseData.lessons || []).map((lesson) => ({
       ...lesson,
       status: "可练习",
