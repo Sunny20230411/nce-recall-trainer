@@ -337,10 +337,10 @@
 
     .layout {
       display: grid;
-      grid-template-columns: minmax(0, 1fr);
+      grid-template-columns: 220px minmax(0, 1fr);
       gap: 22px;
       align-items: start;
-      width: min(980px, 100%);
+      width: min(1180px, 100%);
       margin: 0 auto;
     }
 
@@ -360,6 +360,115 @@
     .result-note {
       color: var(--soft);
       line-height: 1.7;
+    }
+
+    .lesson-directory {
+      position: sticky;
+      top: 84px;
+      max-height: calc(100dvh - 120px);
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .directory-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 16px 16px 13px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .directory-head strong {
+      display: block;
+      margin-bottom: 3px;
+      font-size: 15px;
+    }
+
+    .directory-head span {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .lesson-directory-list {
+      max-height: calc(100dvh - 184px);
+      padding: 7px;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      scrollbar-width: thin;
+    }
+
+    .directory-item {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 32px minmax(0, 1fr);
+      gap: 9px;
+      align-items: center;
+      padding: 9px 10px;
+      border: 1px solid transparent;
+      border-radius: 7px;
+      color: var(--soft);
+      background: transparent;
+      text-align: left;
+    }
+
+    .directory-item:hover {
+      color: var(--text);
+      background: rgba(139, 92, 246, .08);
+    }
+
+    .directory-item.active {
+      color: var(--text);
+      border-color: rgba(139, 92, 246, .42);
+      background: rgba(139, 92, 246, .14);
+    }
+
+    .directory-number {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .directory-item.active .directory-number {
+      color: #c4b5fd;
+    }
+
+    .directory-copy {
+      min-width: 0;
+    }
+
+    .directory-copy strong,
+    .directory-copy span {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .directory-copy strong {
+      margin-bottom: 2px;
+      font-size: 13px;
+    }
+
+    .directory-copy span {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .directory-select-wrap {
+      display: none;
+    }
+
+    .directory-select {
+      width: 100%;
+      min-height: 42px;
+      padding: 0 38px 0 12px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      color: var(--text);
+      background: var(--panel-2);
+      font: inherit;
     }
 
     .btn {
@@ -1665,6 +1774,25 @@
         position: static;
       }
 
+      .lesson-directory {
+        position: static;
+        max-height: none;
+        padding: 14px;
+      }
+
+      .directory-head {
+        padding: 0 0 11px;
+        border-bottom: 0;
+      }
+
+      .lesson-directory-list {
+        display: none;
+      }
+
+      .directory-select-wrap {
+        display: block;
+      }
+
       .top-actions {
         display: none;
       }
@@ -1709,7 +1837,7 @@
           <div class="course-home-head">
             <div class="eyebrow">课程包</div>
             <h1>选择你要练习的课程。</h1>
-            <p>先进入课程包，再选择具体课文。当前已接入新概念英语第一册，后续可以继续扩展第二册、第三册或你自己的课程。</p>
+            <p>先进入课程包，再选择具体课文。当前已接入新概念英语第一册和第二册，后续可以继续扩展第三册或你自己的课程。</p>
           </div>
           <div class="course-pack-grid">
             <button class="course-pack" id="openNce1Btn">
@@ -1731,8 +1859,9 @@
                 <p>短文叙事和语法进阶，适合后续扩展为段落背诵训练。</p>
               </div>
               <div class="pack-meta">
-                <span class="badge active">已解锁</span>
-                <span class="badge">待导入</span>
+                <span class="badge active">96 课</span>
+                <span class="badge">1098 句</span>
+                <span class="badge">已导入</span>
               </div>
             </button>
             <button class="course-pack" id="openCustomBtn">
@@ -1754,17 +1883,17 @@
         <div class="course-overview">
           <div class="course-banner">
             <div class="course-cover">
-              <strong>新概念英语 第一册</strong>
+              <strong id="courseCoverTitle">新概念英语 第一册</strong>
               <span>Take you to learn English happily</span>
             </div>
             <div>
-              <h1>新概念英语第一册（单数课）</h1>
+              <h1 id="courseListTitle">新概念英语第一册（单数课）</h1>
               <div class="lesson-info">
                 <span class="badge active">精选</span>
                 <span class="badge">中译英默写</span>
                 <span class="badge">AI 解析</span>
               </div>
-              <p class="course-desc">聚焦基础夯实，以情景对话为核心，同步训练重点词汇、基础语法、英文顺序和课文原文还原。</p>
+              <p class="course-desc" id="courseDescription">聚焦基础夯实，以情景对话为核心，同步训练重点词汇、基础语法、英文顺序和课文原文还原。</p>
               <div class="course-progress"><span id="courseProgressFill"></span></div>
               <div class="course-progress-row">
                 <span id="courseProgressText">0/72 课程</span>
@@ -1787,6 +1916,19 @@
 
       <section id="previewView" class="view">
         <div class="layout">
+          <aside class="panel lesson-directory" aria-label="课文目录">
+            <div class="directory-head">
+              <div>
+                <strong>课文目录</strong>
+                <span>快速切换课文</span>
+              </div>
+              <span id="lessonDirectoryCount"></span>
+            </div>
+            <label class="directory-select-wrap">
+              <select class="directory-select" id="lessonDirectorySelect" aria-label="选择课文"></select>
+            </label>
+            <div class="lesson-directory-list" id="lessonDirectoryList"></div>
+          </aside>
           <div class="panel preview-main">
             <h2 id="previewTitle"></h2>
             <p class="preview-copy" id="previewIntro"></p>
@@ -5699,6 +5841,7 @@ window.NCE_ZH_OVERRIDES = [
   </script>
   <script src="./nce1-zh-supplement.js"></script>
   <script src="./nce1-analysis.js?v=20260715-2"></script>
+  <script src="./nce2-content.js?v=20260721-1"></script>
   <script>
     let lessons = [
       {
@@ -5928,6 +6071,7 @@ window.NCE_ZH_OVERRIDES = [
       };
     });
 
+    const nce1Lessons = lessons;
     const IMPORT_STORAGE_KEY = "nce_imported_lessons_v1";
     const AI_EXPLAIN_API = "";
 
@@ -5994,13 +6138,43 @@ window.NCE_ZH_OVERRIDES = [
 
     const importedCount = loadImportedLessons();
 
+    const nce2CourseData = window.NCE2_COURSE_DATA || { lessons: [] };
+    const nce2Lessons = (nce2CourseData.lessons || []).map((lesson) => ({
+      ...lesson,
+      status: "可练习",
+      statusClass: "active",
+      progress: 0,
+      accuracy: 0,
+      lastStudy: "未学习",
+      hasChinese: true
+    }));
+    const courseCatalog = {
+      nce1: {
+        id: "nce1",
+        title: "新概念英语第一册",
+        listTitle: "新概念英语第一册（单数课）",
+        coverTitle: "新概念英语 第一册",
+        description: "聚焦基础夯实，以情景对话为核心，同步训练重点词汇、基础语法、英文顺序和课文原文还原。",
+        lessons: nce1Lessons,
+        importNote: () => `已写入第一册英文原文，共 <strong>${nce1Lessons.length}</strong> 课。Lesson 1-143 已补中文提示，可以完整进行中译英默写；本地额外导入 <strong>${importedCount}</strong> 课。`
+      },
+      nce2: {
+        id: "nce2",
+        title: "新概念英语第二册",
+        listTitle: "新概念英语第二册（96课）",
+        coverTitle: "新概念英语 第二册",
+        description: "围绕短篇叙事和语法进阶，按原文顺序逐句练习中文提示、英文还原、词性与句子结构。",
+        lessons: nce2Lessons,
+        importNote: () => `已写入第二册英文原文，共 <strong>${nce2Lessons.length}</strong> 课、<strong>${nce2Lessons.reduce((sum, lesson) => sum + lesson.sentences.length, 0)}</strong> 句。中文提示、音标、词性、句子结构和三层提示已生成并通过内容校验。`
+      }
+    };
+    let activeCourse = courseCatalog.nce1;
+    lessons = activeCourse.lessons;
+
     function updateImportNote(message) {
       const note = $("importNote");
       if (!note) return;
-      note.innerHTML = message || `
-        已写入第一册英文原文，共 <strong>${(window.NCE_LESSON_DATA || []).length}</strong> 课。
-        Lesson 1-143 已补中文提示，第一册奇数课可以完整进行中译英默写；本地额外导入 <strong>${importedCount}</strong> 课。
-      `;
+      note.innerHTML = message || activeCourse.importNote();
     }
 
     async function handleImportFile(file) {
@@ -6108,6 +6282,7 @@ window.NCE_ZH_OVERRIDES = [
     }
 
     const state = {
+      selectedCourseId: "nce1",
       selectedLesson: lessons.find((lesson) => lesson.id === "lesson-3") || lessons[0],
       practiceSentences: [],
       mode: "course",
@@ -6135,12 +6310,20 @@ window.NCE_ZH_OVERRIDES = [
       sessionCorrectCount: 0,
       current: null,
       sessionRecordSnapshot: null,
-      exitConfirmationOpen: false
+      exitConfirmationOpen: false,
+      currentView: "homeView",
+      previousView: null,
+      lessonListReturnScrollY: 0
     };
 
     const $ = (id) => document.getElementById(id);
 
     function showView(id) {
+      const visibleView = document.querySelector(".view.active")?.id || state.currentView;
+      if (visibleView && visibleView !== id) {
+        state.previousView = visibleView;
+        state.currentView = id;
+      }
       if (id === "listView") renderLessons();
       if (id === "previewView") renderPreview();
       document.body.classList.toggle("practice-active", id === "practiceView");
@@ -6148,7 +6331,7 @@ window.NCE_ZH_OVERRIDES = [
       $(id).classList.add("active");
       const titleMap = {
         homeView: "课程选择",
-        listView: "新概念英语第一册",
+        listView: activeCourse.title,
         previewView: state.selectedLesson.title,
         practiceView: state.mode === "review"
           ? `复习本次错题  (${state.currentIndex + 1}/${state.practiceSentences.length})`
@@ -6168,7 +6351,26 @@ window.NCE_ZH_OVERRIDES = [
       $("pauseBtn").classList.toggle("hidden", id !== "practiceView");
     }
 
+    function refreshCourseOverview() {
+      $("courseCoverTitle").textContent = activeCourse.coverTitle;
+      $("courseListTitle").textContent = activeCourse.listTitle;
+      $("courseDescription").textContent = activeCourse.description;
+      $("importBtn").classList.toggle("hidden", activeCourse.id !== "nce1");
+      updateImportNote();
+    }
+
+    function selectCourse(courseId) {
+      activeCourse = courseCatalog[courseId] || courseCatalog.nce1;
+      lessons = activeCourse.lessons;
+      state.selectedCourseId = activeCourse.id;
+      state.selectedLesson = mostRecentLesson();
+      state.lessonListReturnScrollY = 0;
+      showView("listView");
+      window.scrollTo({ top: 0, behavior: "auto" });
+    }
+
     function renderLessons() {
+      refreshCourseOverview();
       const availableLessons = lessons.filter((lesson) => lesson.sentences.length);
       const completedCount = availableLessons.filter((lesson) => learningRecordFor(lesson).completed).length;
       const percent = availableLessons.length ? Math.round((completedCount / availableLessons.length) * 100) : 0;
@@ -6203,6 +6405,7 @@ window.NCE_ZH_OVERRIDES = [
 
       document.querySelectorAll(".lesson-card").forEach((card) => {
         card.addEventListener("click", () => {
+          state.lessonListReturnScrollY = window.scrollY;
           state.selectedLesson = lessons.find((lesson) => lesson.id === card.dataset.id);
           renderPreview();
           showView("previewView");
@@ -6211,9 +6414,58 @@ window.NCE_ZH_OVERRIDES = [
       refreshContinueButton();
     }
 
+    function selectPreviewLesson(lessonId) {
+      const lesson = lessons.find((item) => item.id === lessonId && item.sentences.length);
+      if (!lesson) return;
+      state.selectedLesson = lesson;
+      renderPreview();
+      window.scrollTo({ top: 0, behavior: "auto" });
+    }
+
+    function renderLessonDirectory() {
+      const lessonList = $("lessonDirectoryList");
+      const select = $("lessonDirectorySelect");
+      const count = $("lessonDirectoryCount");
+      if (!lessonList || !select || !count) return;
+
+      const availableLessons = lessons.filter((lesson) => lesson.sentences.length);
+      count.textContent = `${availableLessons.length} \u8bfe`;
+      lessonList.innerHTML = availableLessons.map((lesson, index) => {
+        const name = lesson.title.replace(/^Lesson\s+\d+\s+/, "");
+        const active = lesson.id === state.selectedLesson.id;
+        return `
+          <button class="directory-item ${active ? "active" : ""}" data-id="${lesson.id}" ${active ? 'aria-current="page"' : ""}>
+            <span class="directory-number">#${index + 1}</span>
+            <span class="directory-copy">
+              <strong>Lesson ${lesson.lessonNo}</strong>
+              <span>${escapeHtml(name)}</span>
+            </span>
+          </button>
+        `;
+      }).join("");
+      select.innerHTML = availableLessons.map((lesson) => {
+        const name = lesson.title.replace(/^Lesson\s+\d+\s+/, "");
+        return `<option value="${lesson.id}" ${lesson.id === state.selectedLesson.id ? "selected" : ""}>Lesson ${lesson.lessonNo} \u00b7 ${escapeHtml(name)}</option>`;
+      }).join("");
+
+      lessonList.querySelectorAll(".directory-item").forEach((item) => {
+        item.addEventListener("click", () => selectPreviewLesson(item.dataset.id));
+      });
+      select.onchange = () => selectPreviewLesson(select.value);
+
+      requestAnimationFrame(() => {
+        const active = lessonList.querySelector(".directory-item.active");
+        if (!active || !$("previewView").classList.contains("active")) return;
+        lessonList.scrollTop = Math.max(0, active.offsetTop - lessonList.clientHeight / 2 + active.offsetHeight / 2);
+      });
+    }
     function renderPreview() {
       const lesson = state.selectedLesson;
       const record = learningRecordFor(lesson);
+      if ($("previewView").classList.contains("active")) {
+        $("topTitle").textContent = lesson.title;
+      }
+      renderLessonDirectory();
       const status = record.completed ? "已完成" : record.progress > 0 ? "学习中" : "未开始";
       $("previewTitle").textContent = lesson.title;
       $("previewIntro").textContent = lesson.intro;
@@ -7606,6 +7858,9 @@ window.NCE_ZH_OVERRIDES = [
 
     function discardCurrentPracticeAndExit() {
       if (!state.exitConfirmationOpen) return;
+      const returnView = state.previousView && state.previousView !== "practiceView"
+        ? state.previousView
+        : "previewView";
       clearInterval(state.timerId);
       stopSentenceAudio();
       restoreLearningRecordSnapshot(state.sessionRecordSnapshot);
@@ -7633,7 +7888,7 @@ window.NCE_ZH_OVERRIDES = [
       renderLessons();
       renderPreview();
       refreshContinueButton();
-      showView("listView");
+      showView(returnView);
     }
 
     let correctFeedbackSequence = 0;
@@ -7819,18 +8074,23 @@ window.NCE_ZH_OVERRIDES = [
       clearInterval(state.timerId);
       stopSentenceAudio();
       $("pauseOverlay").classList.add("hidden");
+      if (activeView === "previewView") {
+        showView("listView");
+        requestAnimationFrame(() => {
+          window.scrollTo({ top: state.lessonListReturnScrollY, behavior: "auto" });
+        });
+        return;
+      }
       showView(activeView === "listView" ? "homeView" : "listView");
     });
-    $("openNce1Btn").addEventListener("click", () => showView("listView"));
-    $("openNce2Btn").addEventListener("click", () => {
-      showView("listView");
-      updateImportNote("第二册入口已解锁；当前还没有导入第二册课文数据，先展示第一册课程列表。后续导入第二册数据后可直接接入同一套默写训练。");
-    });
+    $("openNce1Btn").addEventListener("click", () => selectCourse("nce1"));
+    $("openNce2Btn").addEventListener("click", () => selectCourse("nce2"));
     $("openCustomBtn").addEventListener("click", () => {
       showView("listView");
       updateImportNote("其他课程入口已解锁；可以通过下方导入 JSON 接入自定义课文，接入后会出现在课程列表中。");
     });
     $("continueBtn").addEventListener("click", () => {
+      state.lessonListReturnScrollY = window.scrollY;
       const lessonId = $("continueBtn").dataset.lessonId;
       state.selectedLesson = lessons.find((lesson) => lesson.id === lessonId) || mostRecentLesson();
       renderPreview();

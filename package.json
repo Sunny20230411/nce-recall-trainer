@@ -4,6 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "import:nce2": "node scripts/import-nce2-source.mjs",
+    "build:nce2-data": "node scripts/build-nce2-browser-data.mjs",
     "generate:analysis": "node scripts/generate-nce1-analysis.mjs",
     "validate:content": "node scripts/validate-content-package.mjs",
     "build": "node build.mjs"

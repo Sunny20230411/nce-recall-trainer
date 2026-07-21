@@ -41,7 +41,10 @@
         "lessonId": { "type": "string", "minLength": 1 },
         "lessonNo": { "type": "integer", "minimum": 1 },
         "title": { "type": "string", "minLength": 1 },
+        "titleZh": { "type": ["string", "null"] },
         "order": { "type": "integer", "minimum": 1 },
+        "instruction": { "type": ["string", "null"] },
+        "comprehensionQuestion": { "type": ["string", "null"] },
         "sourceText": { "type": "string", "minLength": 1 },
         "sentences": {
           "type": "array",
