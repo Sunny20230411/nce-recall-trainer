@@ -1347,101 +1347,377 @@
       text-align: center;
     }
 
-    .course-home {
-      min-height: calc(100vh - 120px);
+    .home-brand-logo,
+    .home-profile {
+      display: none;
+    }
+
+    body.home-active main {
+      width: 100%;
+      max-width: none;
+      padding: 0;
+    }
+
+    body.home-active .topbar {
+      height: 82px;
+      padding-left: clamp(28px, 5.25vw, 108px);
+      padding-right: clamp(24px, 2.25vw, 46px);
+      border-bottom: 0;
+      background: rgba(249, 251, 255, .92);
+      backdrop-filter: blur(18px);
+    }
+
+    body.home-active .brand {
+      height: 100%;
+    }
+
+    body.home-active .home-brand-logo {
+      display: block;
+      width: 121px;
+      height: 58px;
+      object-fit: contain;
+    }
+
+    body.home-active #topTitle {
+      display: none;
+    }
+
+    body.home-active .top-actions {
+      display: flex;
+      gap: 32px;
+      color: #71819b;
+    }
+
+    .theme-toggle {
+      overflow: hidden;
+    }
+
+    .theme-toggle .theme-sun,
+    .theme-toggle .theme-moon {
+      display: none;
+      place-items: center;
+      line-height: 1;
+    }
+
+    body:not(.home-active)[data-theme="light"] .theme-toggle .theme-moon,
+    body:not(.home-active)[data-theme="dark"] .theme-toggle .theme-sun {
       display: grid;
-      align-content: center;
-      gap: 28px;
     }
 
-    .course-home-head {
-      max-width: 780px;
-    }
-
-    .course-home-head h1 {
-      font-size: clamp(38px, 5vw, 64px);
-      margin-bottom: 14px;
-    }
-
-    .course-home-head p {
-      color: var(--soft);
-      font-size: 18px;
-      line-height: 1.8;
-    }
-
-    .course-pack-grid {
+    body.home-active .theme-toggle {
+      width: 116px;
+      height: 48px;
+      padding: 4px;
+      border: 0;
+      border-radius: 24px;
+      background: rgba(225, 231, 242, .84);
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: 1fr 1fr;
+      gap: 2px;
+    }
+
+    body.home-active .theme-toggle .theme-sun,
+    body.home-active .theme-toggle .theme-moon {
+      display: grid;
+      width: 50px;
+      height: 40px;
+      border-radius: 20px;
+      font-size: 22px;
+      color: #71819b;
+    }
+
+    body.home-active[data-theme="light"] .theme-toggle .theme-sun,
+    body.home-active[data-theme="dark"] .theme-toggle .theme-moon {
+      color: #2f73f2;
+      background: rgba(255, 255, 255, .94);
+      box-shadow: 0 4px 12px rgba(50, 78, 128, .12);
+    }
+
+    body.home-active .home-profile {
+      display: flex;
+      align-items: center;
       gap: 18px;
     }
 
-    .course-pack {
-      min-height: 250px;
-      padding: 22px;
-      text-align: left;
-      color: var(--text);
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: linear-gradient(145deg, rgba(17, 24, 39, .95), rgba(8, 11, 18, .92));
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      overflow: hidden;
-      position: relative;
+    .profile-avatar {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #f8fbff;
+      background: #93a1b8;
+      border: 6px solid rgba(222, 228, 238, .9);
+      font-size: 17px;
+      font-weight: 800;
+      box-shadow: 0 3px 10px rgba(58, 77, 108, .12);
     }
 
-    .course-pack::before {
+    .profile-chevron {
+      color: #71819b;
+      font-size: 22px;
+      line-height: 1;
+    }
+
+    .course-home {
+      min-height: calc(100svh - 82px);
+      padding: clamp(24px, 3.15vw, 64px) clamp(18px, 1.7vw, 34px);
+      display: flex;
+      align-items: flex-end;
+      position: relative;
+      isolation: isolate;
+      background-image: url("./assets/ui/home/slices/bg_img.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .course-home::before {
       content: "";
       position: absolute;
       inset: 0;
-      background: radial-gradient(circle at 20% 10%, rgba(139, 92, 246, .24), transparent 18rem);
-      opacity: .9;
+      z-index: -1;
       pointer-events: none;
+      background: rgba(255, 255, 255, .02);
     }
 
-    .course-pack > * {
+    .home-course-grid {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+      align-items: stretch;
+    }
+
+    .home-course-card {
+      --course-accent: #18af8b;
+      --course-soft: rgba(24, 175, 139, .08);
+      --course-card-bg: rgba(238, 251, 248, .9);
+      min-width: 0;
+      min-height: 0;
+      aspect-ratio: 904 / 850;
+      padding: clamp(28px, 1.75vw, 36px) clamp(26px, 1.75vw, 36px) clamp(21px, 1.35vw, 28px);
       position: relative;
-      z-index: 1;
+      overflow: hidden;
+      text-align: left;
+      color: #111827;
+      border: 1px solid rgba(255, 255, 255, .86);
+      border-radius: clamp(14px, .9vw, 18px);
+      background: var(--course-card-bg);
+      box-shadow: 0 18px 42px rgba(72, 92, 129, .14);
+      backdrop-filter: blur(14px);
+      transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
     }
 
-    .course-pack:hover {
-      border-color: rgba(139, 92, 246, .65);
-      transform: translateY(-2px);
+    button.home-course-card:hover,
+    button.home-course-card:focus-visible {
+      transform: translateY(-5px);
+      border-color: color-mix(in srgb, var(--course-accent) 45%, white);
+      box-shadow: 0 24px 52px rgba(62, 84, 126, .2);
+      outline: 0;
     }
 
-    .pack-cover {
-      width: 72px;
-      height: 72px;
-      border-radius: 18px;
+    .home-course-card.course-2 {
+      --course-accent: #5d7dff;
+      --course-soft: rgba(93, 125, 255, .08);
+      --course-card-bg: rgba(241, 244, 255, .91);
+    }
+
+    .home-course-card.course-3 {
+      --course-accent: #8b5cf6;
+      --course-soft: rgba(139, 92, 246, .08);
+      --course-card-bg: rgba(248, 243, 255, .91);
+    }
+
+    .home-course-card.course-4 {
+      --course-accent: #ff942d;
+      --course-soft: rgba(255, 148, 45, .08);
+      --course-card-bg: rgba(255, 247, 241, .91);
+    }
+
+    .home-course-card.locked {
+      cursor: not-allowed;
+    }
+
+    .home-course-title {
+      margin: 0;
+      max-width: calc(100% - 118px);
+      font-size: clamp(21px, 1.45vw, 29px);
+      line-height: 1.2;
+      letter-spacing: 0;
+      color: #101827;
+    }
+
+    .home-course-cover {
+      position: absolute;
+      top: clamp(10px, .6vw, 12px);
+      right: clamp(6px, .4vw, 8px);
+      width: clamp(132px, 9.1vw, 198px);
+      height: clamp(132px, 9.1vw, 198px);
+      object-fit: contain;
+      pointer-events: none;
+      filter: drop-shadow(0 13px 13px rgba(39, 56, 88, .15));
+    }
+
+    .home-course-summary {
+      min-height: clamp(126px, 7.85vw, 160px);
+      padding-top: clamp(25px, 1.65vw, 34px);
+      display: flex;
+      align-items: center;
+      gap: clamp(18px, 1.2vw, 24px);
+    }
+
+    .home-course-number {
+      flex: 0 0 auto;
+      color: var(--course-accent);
+      font-size: clamp(62px, 4.5vw, 92px);
+      font-weight: 800;
+      line-height: .9;
+    }
+
+    .home-course-slogan {
+      margin: 0;
+      color: #303746;
+      font-size: clamp(16px, 1.05vw, 22px);
+      line-height: 1.4;
+    }
+
+    .home-course-runs {
+      margin-top: clamp(6px, .45vw, 9px);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: #7d8796;
+      font-size: clamp(13px, .8vw, 16px);
+    }
+
+    .home-course-runs::before {
+      content: "●";
+      width: 16px;
+      height: 16px;
       display: grid;
       place-items: center;
-      background: linear-gradient(135deg, #16a34a, #0f766e);
+      border-radius: 50%;
       color: white;
-      font-size: 30px;
-      font-weight: 900;
-      margin-bottom: 18px;
+      background: #8f9bad;
+      font-size: 6px;
     }
 
-    .course-pack.locked {
-      opacity: .58;
-    }
-
-    .course-pack h2 {
-      margin-bottom: 10px;
-    }
-
-    .course-pack p {
-      color: var(--muted);
-      line-height: 1.65;
-      margin-bottom: 18px;
-    }
-
-    .pack-meta {
+    .home-course-meta {
+      min-height: clamp(34px, 2.05vw, 42px);
+      padding: 0 clamp(10px, 1vw, 20px);
       display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      color: var(--soft);
-      font-size: 13px;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(8px, .7vw, 14px);
+      color: #526070;
+      border: 1px solid color-mix(in srgb, var(--course-accent) 22%, white);
+      border-radius: 9px;
+      background: var(--course-soft);
+      font-size: clamp(12px, .75vw, 15px);
+      white-space: nowrap;
+    }
+
+    .home-course-meta span {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .home-course-meta img {
+      width: clamp(13px, .8vw, 16px);
+      height: clamp(13px, .8vw, 16px);
+      object-fit: contain;
+      opacity: .76;
+    }
+
+    .home-course-status {
+      min-height: clamp(68px, 4.4vw, 90px);
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      color: #9aa2ae;
+      font-size: clamp(13px, .8vw, 16px);
+      text-align: center;
+    }
+
+    .home-course-status img {
+      width: 16px;
+      height: 16px;
+      object-fit: contain;
+      opacity: .65;
+    }
+
+    .home-course-cta {
+      min-height: clamp(50px, 3.1vw, 64px);
+      display: grid;
+      place-items: center;
+      color: var(--course-accent);
+      border: 2px solid color-mix(in srgb, var(--course-accent) 84%, white);
+      border-radius: 16px;
+      background: rgba(255, 255, 255, .4);
+      font-size: clamp(19px, 1.25vw, 27px);
+      line-height: 1;
+    }
+
+    .course-1 .home-course-cta {
+      color: white;
+      border-color: var(--course-accent);
+      background: var(--course-accent);
+    }
+
+    body.home-active[data-theme="dark"] .topbar {
+      background: rgba(9, 15, 28, .92);
+    }
+
+    body.home-active[data-theme="dark"] .home-brand-logo {
+      filter: brightness(0) invert(1);
+    }
+
+    body.home-active[data-theme="dark"] .course-home::before {
+      background: rgba(7, 13, 25, .44);
+    }
+
+    body.home-active[data-theme="dark"] .home-course-card {
+      color: #f4f7fb;
+      border-color: rgba(153, 171, 202, .22);
+      background: rgba(12, 19, 33, .88);
+      box-shadow: 0 18px 42px rgba(0, 0, 0, .3);
+    }
+
+    body.home-active[data-theme="dark"] .home-course-title {
+      color: #f6f8fc;
+    }
+
+    body.home-active[data-theme="dark"] .home-course-slogan {
+      color: #dce3ee;
+    }
+
+    body.home-active[data-theme="dark"] .home-course-runs,
+    body.home-active[data-theme="dark"] .home-course-status {
+      color: #9aa7ba;
+    }
+
+    body.home-active[data-theme="dark"] .home-course-meta {
+      color: #d4dce8;
+      border-color: color-mix(in srgb, var(--course-accent) 34%, #1a2539);
+      background: color-mix(in srgb, var(--course-accent) 12%, rgba(12, 19, 33, .72));
+    }
+
+    body.home-active[data-theme="dark"] .home-course-meta img,
+    body.home-active[data-theme="dark"] .home-course-status img {
+      filter: invert(1);
+      opacity: .7;
+    }
+
+    body.home-active[data-theme="dark"] .home-course-cta {
+      background: rgba(10, 17, 30, .58);
+    }
+
+    body.home-active[data-theme="dark"] .course-1 .home-course-cta {
+      background: var(--course-accent);
     }
 
     .course-overview {
@@ -1814,19 +2090,133 @@
         min-width: 64px;
       }
     }
+
+    @media (max-width: 1450px) {
+      .home-course-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .course-home {
+        align-items: flex-start;
+        background-position: 58% center;
+      }
+
+      .home-course-card {
+        aspect-ratio: auto;
+        min-height: 430px;
+      }
+    }
+
+    @media (max-width: 660px) {
+      body.home-active .topbar {
+        height: 68px;
+        padding: 0 18px;
+      }
+
+      body.home-active .home-brand-logo {
+        width: 104px;
+        height: 50px;
+      }
+
+      body.home-active .top-actions {
+        gap: 12px;
+      }
+
+      body.home-active .theme-toggle {
+        width: 88px;
+        height: 42px;
+      }
+
+      body.home-active .theme-toggle .theme-sun,
+      body.home-active .theme-toggle .theme-moon {
+        width: 37px;
+        height: 34px;
+        font-size: 18px;
+      }
+
+      body.home-active .home-profile {
+        display: none;
+      }
+
+      .course-home {
+        min-height: calc(100svh - 68px);
+        padding: 22px 14px 30px;
+        background-position: 66% top;
+        background-size: auto 680px;
+        background-color: #eef3fb;
+      }
+
+      .home-course-grid {
+        grid-template-columns: 1fr;
+        padding-top: 290px;
+      }
+
+      .home-course-card {
+        aspect-ratio: auto;
+        min-height: 410px;
+        padding: 28px 24px 22px;
+      }
+
+      .home-course-title {
+        max-width: calc(100% - 112px);
+        font-size: 23px;
+      }
+
+      .home-course-cover {
+        width: 145px;
+        height: 145px;
+      }
+
+      .home-course-summary {
+        min-height: 132px;
+        padding-top: 30px;
+      }
+
+      .home-course-number {
+        font-size: 70px;
+      }
+
+      .home-course-meta {
+        padding: 0 10px;
+        gap: 8px;
+        font-size: 13px;
+      }
+
+      .home-course-status {
+        min-height: 84px;
+        font-size: 14px;
+      }
+
+      .home-course-cta {
+        min-height: 56px;
+        font-size: 21px;
+      }
+
+      body.home-active[data-theme="dark"] .course-home {
+        background-color: #0a1220;
+      }
+    }
   </style>
 </head>
-<body>
+<body class="home-active" data-theme="light">
   <div class="app">
     <header class="topbar">
       <div class="brand">
         <button class="icon-btn hidden" id="homeBtn" title="返回首页" aria-label="返回首页">
           <span class="back-icon" aria-hidden="true">←</span>
         </button>
+        <img class="home-brand-logo" src="./assets/ui/home/slices/logo.png" alt="语刻">
         <span id="topTitle">新概念课文默写训练</span>
       </div>
       <div class="top-actions" aria-label="页面工具">
-        <button class="icon-btn" id="themeToggleBtn" title="切换白天/黑夜" aria-label="切换白天/黑夜模式">☀</button>
+        <button class="icon-btn theme-toggle" id="themeToggleBtn" title="切换白天/黑夜" aria-label="切换白天/黑夜模式">
+          <span class="theme-sun" aria-hidden="true">☀</span>
+          <span class="theme-moon" aria-hidden="true">☾</span>
+        </button>
+        <div class="home-profile" aria-label="本地学习者">
+          <span class="profile-avatar" aria-hidden="true">S</span>
+          <span class="profile-chevron" aria-hidden="true">⌄</span>
+        </div>
         <button class="icon-btn hidden" id="pauseBtn" title="暂停" aria-label="暂停练习">Ⅱ</button>
       </div>
     </header>
@@ -1834,47 +2224,90 @@
     <main>
       <section id="homeView" class="view active">
         <div class="course-home">
-          <div class="course-home-head">
-            <div class="eyebrow">课程包</div>
-            <h1>选择你要练习的课程。</h1>
-            <p>先进入课程包，再选择具体课文。当前已接入新概念英语第一册和第二册，后续可以继续扩展第三册或你自己的课程。</p>
-          </div>
-          <div class="course-pack-grid">
-            <button class="course-pack" id="openNce1Btn">
-              <div>
-                <div class="pack-cover">1</div>
-                <h2>新概念英语第一册</h2>
-                <p>适合基础入门，按单数课逐句中译英默写，练句型、词序和拼写。</p>
+          <div class="home-course-grid" aria-label="新概念英语课程">
+            <button class="home-course-card course-1" id="openNce1Btn" type="button">
+              <h2 class="home-course-title">新概念英语第一册</h2>
+              <img class="home-course-cover" src="./assets/ui/home/slices/1.png" alt="">
+              <div class="home-course-summary">
+                <span class="home-course-number">1</span>
+                <div>
+                  <p class="home-course-slogan">梦开始的地方</p>
+                  <div class="home-course-runs"><span id="nce1PracticeRuns">0</span>次</div>
+                </div>
               </div>
-              <div class="pack-meta">
-                <span class="badge active">72 课</span>
-                <span class="badge">790 句</span>
-                <span class="badge">已导入</span>
+              <div class="home-course-meta">
+                <span><img src="./assets/ui/home/slices/List-two%20(列表2).png" alt=""><b id="nce1LessonCount">72</b>课</span>
+                <span>·</span>
+                <span><img src="./assets/ui/home/slices/Menu-fold%20(收起菜单).png" alt=""><b id="nce1SentenceCount">0</b>句</span>
+                <span>·</span>
+                <span><img src="./assets/ui/home/slices/Level%20(级别).png" alt="">练气弟子</span>
               </div>
+              <p class="home-course-status">拾级而上，流水不争先</p>
+              <span class="home-course-cta">引气入体</span>
             </button>
-            <button class="course-pack" id="openNce2Btn">
-              <div>
-                <div class="pack-cover">2</div>
-                <h2>新概念英语第二册</h2>
-                <p>短文叙事和语法进阶，适合后续扩展为段落背诵训练。</p>
+
+            <button class="home-course-card course-2" id="openNce2Btn" type="button">
+              <h2 class="home-course-title">新概念英语第二册</h2>
+              <img class="home-course-cover" src="./assets/ui/home/slices/2.png" alt="">
+              <div class="home-course-summary">
+                <span class="home-course-number">2</span>
+                <div>
+                  <p class="home-course-slogan">能力生长的阶梯</p>
+                  <div class="home-course-runs"><span id="nce2PracticeRuns">0</span>次</div>
+                </div>
               </div>
-              <div class="pack-meta">
-                <span class="badge active">96 课</span>
-                <span class="badge" id="nce2SentenceCount">1098 句</span>
-                <span class="badge">已导入</span>
+              <div class="home-course-meta">
+                <span><img src="./assets/ui/home/slices/List-two%20(列表2).png" alt=""><b id="nce2LessonCount">96</b>课</span>
+                <span>·</span>
+                <span><img src="./assets/ui/home/slices/Menu-fold%20(收起菜单).png" alt=""><b id="nce2SentenceCount">0</b>句</span>
+                <span>·</span>
+                <span><img src="./assets/ui/home/slices/Level%20(级别).png" alt="">筑基师兄</span>
               </div>
+              <p class="home-course-status"><img src="./assets/ui/home/slices/Lock%20(锁定).png" alt="">根基既铸，自可越阶争锋</p>
+              <span class="home-course-cta">越阶挑战</span>
             </button>
-            <button class="course-pack" id="openCustomBtn">
-              <div>
-                <div class="pack-cover">+</div>
-                <h2>其他课程</h2>
-                <p>可导入自定义课文 JSON，变成同样的中文提示默写训练。</p>
+
+            <article class="home-course-card course-3 locked" aria-label="新概念英语第三册，暂未开放">
+              <h2 class="home-course-title">新概念英语第三册</h2>
+              <img class="home-course-cover" src="./assets/ui/home/slices/3.png" alt="">
+              <div class="home-course-summary">
+                <span class="home-course-number">3</span>
+                <div>
+                  <p class="home-course-slogan">思维跃迁的关口</p>
+                  <div class="home-course-runs"><span>0</span>次</div>
+                </div>
               </div>
-              <div class="pack-meta">
-                <span class="badge active">已解锁</span>
-                <span class="badge">导入支持</span>
+              <div class="home-course-meta">
+                <span><img src="./assets/ui/home/slices/List-two%20(列表2).png" alt="">待导入</span>
+                <span>·</span>
+                <span><img src="./assets/ui/home/slices/Menu-fold%20(收起菜单).png" alt="">待统计</span>
+                <span>·</span>
+                <span><img src="./assets/ui/home/slices/Level%20(级别).png" alt="">金丹长老</span>
               </div>
-            </button>
+              <p class="home-course-status"><img src="./assets/ui/home/slices/Lock%20(锁定).png" alt="">一朝破境，方见天地辽阔</p>
+              <span class="home-course-cta">破境而立</span>
+            </article>
+
+            <article class="home-course-card course-4 locked" aria-label="新概念英语第四册，暂未开放">
+              <h2 class="home-course-title">新概念英语第四册</h2>
+              <img class="home-course-cover" src="./assets/ui/home/slices/4.png" alt="">
+              <div class="home-course-summary">
+                <span class="home-course-number">4</span>
+                <div>
+                  <p class="home-course-slogan">自由表达的彼岸</p>
+                  <div class="home-course-runs"><span>0</span>次</div>
+                </div>
+              </div>
+              <div class="home-course-meta">
+                <span><img src="./assets/ui/home/slices/List-two%20(列表2).png" alt="">待导入</span>
+                <span>·</span>
+                <span><img src="./assets/ui/home/slices/Menu-fold%20(收起菜单).png" alt="">待统计</span>
+                <span>·</span>
+                <span><img src="./assets/ui/home/slices/Level%20(级别).png" alt="">元婴尊者</span>
+              </div>
+              <p class="home-course-status"><img src="./assets/ui/home/slices/Lock%20(锁定).png" alt="">心怀乾坤，出口自成山河</p>
+              <span class="home-course-cta">渡劫飞升</span>
+            </article>
           </div>
         </div>
       </section>
@@ -6141,7 +6574,7 @@ window.NCE_ZH_OVERRIDES = [
     const nce2CourseData = window.NCE2_COURSE_DATA || { lessons: [] };
     const nce2SentenceCountBadge = document.getElementById("nce2SentenceCount");
     if (nce2SentenceCountBadge && nce2CourseData.practiceSentenceCount) {
-      nce2SentenceCountBadge.textContent = nce2CourseData.practiceSentenceCount + " 练习句";
+      nce2SentenceCountBadge.textContent = nce2CourseData.practiceSentenceCount;
     }
     const nce2Lessons = (nce2CourseData.lessons || []).map((lesson) => ({
       ...lesson,
@@ -6235,6 +6668,33 @@ window.NCE_ZH_OVERRIDES = [
 
     function learningRecordFor(lesson) {
       return { ...defaultLearningRecord(lesson), ...(learningRecords[lesson.id] || {}) };
+    }
+
+    function courseHomeStats(course) {
+      const availableLessons = (course?.lessons || []).filter((lesson) => lesson.sentences?.length);
+      return {
+        lessonCount: availableLessons.length,
+        sentenceCount: availableLessons.reduce((sum, lesson) => sum + lesson.sentences.length, 0),
+        practiceRuns: availableLessons.reduce(
+          (sum, lesson) => sum + Math.max(0, Number(learningRecordFor(lesson).completedRuns) || 0),
+          0
+        )
+      };
+    }
+
+    function refreshHomeStats() {
+      const statsByCourse = {
+        nce1: courseHomeStats(courseCatalog.nce1),
+        nce2: courseHomeStats(courseCatalog.nce2)
+      };
+      Object.entries(statsByCourse).forEach(([courseId, stats]) => {
+        const lessonCount = $(`${courseId}LessonCount`);
+        const sentenceCount = $(`${courseId}SentenceCount`);
+        const practiceRuns = $(`${courseId}PracticeRuns`);
+        if (lessonCount) lessonCount.textContent = stats.lessonCount;
+        if (sentenceCount) sentenceCount.textContent = stats.sentenceCount;
+        if (practiceRuns) practiceRuns.textContent = stats.practiceRuns;
+      });
     }
 
     function updateLearningRecord(lesson, updater) {
@@ -6346,6 +6806,8 @@ window.NCE_ZH_OVERRIDES = [
       const backButton = $("homeBtn");
       const isHome = id === "homeView";
       const goesHome = id === "listView";
+      document.body.classList.toggle("home-active", isHome);
+      if (isHome) refreshHomeStats();
       backButton.classList.toggle("hidden", isHome);
       if (!isHome) {
         const label = goesHome ? "返回首页" : "返回课程列表";
@@ -7479,14 +7941,18 @@ window.NCE_ZH_OVERRIDES = [
     }
 
     function sentenceAnalysisFor(sentence) {
-      const catalogEntry = sentenceAnalysisCatalog[normalizeForAccepted(sentence.english)] || {};
+      const normalizedKey = normalizeForAccepted(sentence.english);
+      const generatedEntry = (window.NCE1_SENTENCE_ANALYSIS || {})[normalizedKey] || {};
+      const catalogEntry = sentenceAnalysisCatalog[normalizedKey] || {};
       const sentenceSource = sentence.analysis;
       const hasSentenceGroups = Array.isArray(sentenceSource?.groups) && sentenceSource.groups.length > 0;
       const source = hasSentenceGroups ? sentenceSource : catalogEntry;
       const displayTokens = displayWords(sentence.english);
       const indexBase = source.indexBase === 1 ? 1 : 0;
-      const suppliedTokens = new Map((source.tokens || []).map((token, index) => [
-        Number.isFinite(token.order) ? token.order - indexBase : index,
+      const tokenSource = Array.isArray(source.tokens) && source.tokens.length ? source : generatedEntry;
+      const tokenIndexBase = tokenSource.indexBase === 1 ? 1 : 0;
+      const suppliedTokens = new Map((tokenSource.tokens || []).map((token, index) => [
+        Number.isFinite(token.order) ? token.order - tokenIndexBase : index,
         token
       ]));
       const tokens = displayTokens.map((word, index) => ({
@@ -7571,21 +8037,19 @@ window.NCE_ZH_OVERRIDES = [
 
 
     function renderAnswerCard(sentence) {
+      const analysis = sentenceAnalysisFor(sentence);
       return `
         <div class="answer-card" aria-label="正确答案解析">
-          ${displayWords(sentence.english).map((word) => {
-            const wordInfo = wordInfoFor(word);
-            return `
+          ${analysis.tokens.map((token) => `
               <div class="answer-word">
-                <span class="slot-ipa">${escapeHtml(phoneticFor(word))}</span>
-                <span class="answer-word-text">${escapeHtml(word)}</span>
+                <span class="slot-ipa">${escapeHtml(token.phonetic || "")}</span>
+                <span class="answer-word-text">${escapeHtml(token.displayText || "")}${escapeHtml(token.punctuation || "")}</span>
                 <span class="slot-meta">
-                  ${wordInfo.pos ? `<span class="pos-tag">${escapeHtml(wordInfo.pos)}</span>` : ""}
-                  ${wordInfo.meaning ? `<span class="word-meaning">${escapeHtml(wordInfo.meaning)}</span>` : ""}
+                  ${token.posLabel ? `<span class="pos-tag">${escapeHtml(token.posLabel)}</span>` : ""}
+                  ${token.translation ? `<span class="word-meaning">${escapeHtml(token.translation)}</span>` : ""}
                 </span>
               </div>
-            `;
-          }).join("")}
+            `).join("")}
         </div>
       `;
     }
@@ -7812,7 +8276,6 @@ window.NCE_ZH_OVERRIDES = [
       localStorage.setItem("nce_theme", nextTheme);
       const btn = $("themeToggleBtn");
       if (btn) {
-        btn.textContent = nextTheme === "light" ? "☾" : "☀";
         btn.title = nextTheme === "light" ? "切换黑夜模式" : "切换白天模式";
         btn.setAttribute("aria-label", btn.title);
       }
@@ -8067,7 +8530,7 @@ window.NCE_ZH_OVERRIDES = [
       }
     }
 
-    applyTheme(localStorage.getItem("nce_theme") || "dark");
+    applyTheme(localStorage.getItem("nce_theme") || "light");
     $("themeToggleBtn").addEventListener("click", toggleTheme);
     $("homeBtn").addEventListener("click", () => {
       const activeView = document.querySelector(".view.active")?.id;
@@ -8089,7 +8552,7 @@ window.NCE_ZH_OVERRIDES = [
     });
     $("openNce1Btn").addEventListener("click", () => selectCourse("nce1"));
     $("openNce2Btn").addEventListener("click", () => selectCourse("nce2"));
-    $("openCustomBtn").addEventListener("click", () => {
+    $("openCustomBtn")?.addEventListener("click", () => {
       showView("listView");
       updateImportNote("其他课程入口已解锁；可以通过下方导入 JSON 接入自定义课文，接入后会出现在课程列表中。");
     });
@@ -8200,6 +8663,7 @@ window.NCE_ZH_OVERRIDES = [
 
     renderLessons();
     renderPreview();
+    refreshHomeStats();
     updateImportNote();
   </script>
 </body>

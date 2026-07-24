@@ -6,9 +6,13 @@
   "scripts": {
     "import:nce2": "node scripts/import-nce2-source.mjs",
     "build:nce2-data": "node scripts/build-nce2-browser-data.mjs",
+    "audit:nce1-words": "python scripts/audit-nce1-word-meanings.py",
     "generate:analysis": "node scripts/generate-nce1-analysis.mjs",
     "validate:content": "node scripts/validate-content-package.mjs",
+    "test:home": "node scripts/test-home-redesign.mjs",
     "build": "node build.mjs"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "playwright-core": "1.61.1"
+  }
 }
