@@ -529,6 +529,92 @@
       margin: 18px 0 24px;
     }
 
+    button.badge {
+      font: inherit;
+    }
+
+    .history-mistake-trigger {
+      cursor: pointer;
+    }
+
+    .history-mistake-trigger.has-items {
+      color: #fecaca;
+      border-color: rgba(239, 68, 68, .45);
+      background: rgba(239, 68, 68, .1);
+    }
+
+    .history-mistakes {
+      margin: -4px 0 24px;
+      padding: 18px 20px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .025);
+    }
+
+    .history-mistake-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .history-mistake-head h3 {
+      margin: 0 0 4px;
+      font-size: 18px;
+    }
+
+    .history-mistake-head p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .history-mistake-list {
+      margin-top: 16px;
+      border-top: 1px solid var(--line);
+    }
+
+    .history-mistake-item {
+      display: grid;
+      grid-template-columns: 34px minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: start;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .history-mistake-item:last-child {
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+
+    .history-mistake-number {
+      color: var(--bad);
+      font-weight: 800;
+    }
+
+    .history-mistake-copy strong,
+    .history-mistake-copy span {
+      display: block;
+    }
+
+    .history-mistake-copy strong {
+      margin-bottom: 4px;
+      color: var(--text);
+    }
+
+    .history-mistake-copy span,
+    .history-mistake-meta {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .history-mistake-meta {
+      text-align: right;
+      white-space: nowrap;
+    }
+
     .text-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -1990,6 +2076,17 @@
       border-color: rgba(124, 58, 237, .34);
     }
 
+    body[data-theme="light"] .history-mistake-trigger.has-items {
+      color: #b91c1c;
+      background: rgba(239, 68, 68, .08);
+      border-color: rgba(239, 68, 68, .4);
+    }
+
+    body[data-theme="light"] .history-mistakes {
+      background: rgba(255, 255, 255, .7);
+      border-color: rgba(203, 213, 225, .95);
+    }
+
     body[data-theme="light"] .course-progress,
     body[data-theme="light"] .progress-track {
       background: rgba(226, 232, 240, .9);
@@ -2192,6 +2289,20 @@
         font-size: 21px;
       }
 
+      .history-mistake-head {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .history-mistake-item {
+        grid-template-columns: 28px minmax(0, 1fr);
+      }
+
+      .history-mistake-meta {
+        grid-column: 2;
+        text-align: left;
+      }
+
       body.home-active[data-theme="dark"] .course-home {
         background-color: #0a1220;
       }
@@ -2366,6 +2477,16 @@
             <h2 id="previewTitle"></h2>
             <p class="preview-copy" id="previewIntro"></p>
             <div class="lesson-info" id="lessonInfo"></div>
+            <section class="history-mistakes hidden" id="historyMistakesPanel" aria-labelledby="historyMistakesTitle">
+              <div class="history-mistake-head">
+                <div>
+                  <h3 id="historyMistakesTitle">历史错题</h3>
+                  <p id="historyMistakesSummary"></p>
+                </div>
+                <button class="btn" id="reviewHistoryMistakesBtn" type="button">复习历史错题</button>
+              </div>
+              <div class="history-mistake-list" id="historyMistakeList"></div>
+            </section>
             <div class="text-grid">
               <div class="text-box">
                 <h3>英文原文</h3>
@@ -2415,7 +2536,7 @@
             <button class="btn ghost" id="prevBtn"><span class="key">Shift ←</span> 上一题</button>
             <button class="btn secondary" id="speakBtn"><span class="key">Ctrl</span> 播放发音</button>
             <button class="btn secondary" id="hintBtn"><span class="key">Ctrl M</span> 掌握</button>
-            <button class="btn secondary" id="answerBtn"><span class="key">Ctrl ;</span> 查看答案</button>
+            <button class="btn secondary" id="answerBtn"><span class="key">Alt / Option</span> 查看答案</button>
             <button class="btn" id="submitBtn"><span class="key">Space</span> 提交</button>
             <button class="btn ghost" id="nextBtn"><span class="key">Shift →</span> 下一题</button>
           </div>
@@ -6925,6 +7046,56 @@ window.NCE_ZH_OVERRIDES = [
         lessonList.scrollTop = Math.max(0, active.offsetTop - lessonList.clientHeight / 2 + active.offsetHeight / 2);
       });
     }
+    function historicalMistakesForLesson(lesson) {
+      const record = learningRecordFor(lesson);
+      return (record.wrongSentences || [])
+        .map((entry) => {
+          const sentence = lesson.sentences.find((item) => item.english === entry.english)
+            || lesson.sentences.find((item) => normalize(item.english) === normalize(entry.english));
+          return sentence ? { ...entry, sentence } : null;
+        })
+        .filter(Boolean);
+    }
+
+    function renderHistoricalMistakes(lesson) {
+      const mistakes = historicalMistakesForLesson(lesson);
+      const panel = $("historyMistakesPanel");
+      const trigger = $("historyMistakesBtn");
+      const reviewButton = $("reviewHistoryMistakesBtn");
+
+      panel.classList.add("hidden");
+      trigger.classList.toggle("has-items", mistakes.length > 0);
+      trigger.disabled = mistakes.length === 0;
+      trigger.setAttribute("aria-expanded", "false");
+      $("historyMistakesSummary").textContent = mistakes.length
+        ? `累计记录 ${mistakes.length} 句，复习不会覆盖整课结算。`
+        : "当前课文还没有历史错题。";
+      $("historyMistakeList").innerHTML = mistakes.map((item, index) => `
+        <div class="history-mistake-item">
+          <span class="history-mistake-number">${index + 1}</span>
+          <div class="history-mistake-copy">
+            <strong>${escapeHtml(item.sentence.english)}</strong>
+            <span>${escapeHtml(item.sentence.chinese)}</span>
+            <span>上次输入：${escapeHtml(item.lastInput || "空提交")}</span>
+          </div>
+          <span class="history-mistake-meta">错 ${Math.max(1, Number(item.wrongCount) || 1)} 次<br>${formatLastStudy(item.lastWrongAt)}</span>
+        </div>
+      `).join("");
+
+      trigger.onclick = () => {
+        const willOpen = panel.classList.contains("hidden");
+        panel.classList.toggle("hidden", !willOpen);
+        trigger.setAttribute("aria-expanded", String(willOpen));
+        if (willOpen) panel.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      };
+      reviewButton.disabled = mistakes.length === 0;
+      reviewButton.onclick = () => {
+        if (!mistakes.length) return;
+        state.reviewSourceResults = mistakes;
+        startPractice(mistakes.map((item) => item.sentence), "review", false);
+      };
+    }
+
     function renderPreview() {
       const lesson = state.selectedLesson;
       const record = learningRecordFor(lesson);
@@ -6940,10 +7111,11 @@ window.NCE_ZH_OVERRIDES = [
         <span class="badge ${record.completed ? "done" : record.progress > 0 ? "active" : ""}">${status}</span>
         <span class="badge">进度 ${record.progress}%</span>
         <span class="badge">正确率 ${record.lastAccuracy}%</span>
-        <span class="badge">错句 ${(record.wrongSentences || []).length}</span>
+        <button class="badge history-mistake-trigger" id="historyMistakesBtn" type="button" aria-controls="historyMistakesPanel" aria-expanded="false">错句 ${(record.wrongSentences || []).length}</button>
         <span class="badge">生词 ${(record.newWords || []).length}</span>
         <span class="badge">${formatLastStudy(record.lastStudiedAt)}</span>
       `;
+      renderHistoricalMistakes(lesson);
       $("englishText").innerHTML = lesson.sentences.map((item) => `<li>${item.english}</li>`).join("");
       $("chineseText").innerHTML = lesson.sentences.map((item) => `<li>${item.chinese}</li>`).join("");
       if (!lesson.sentences.length) {
@@ -7055,6 +7227,7 @@ window.NCE_ZH_OVERRIDES = [
         draftText: "",
         wordValues: [],
         wrongIndexes: [],
+        pendingReplacementIndexes: [],
         activeWordIndex: 0,
         answerReturnPhase: "ready",
         answeredScored: false,
@@ -7315,6 +7488,12 @@ window.NCE_ZH_OVERRIDES = [
       }
       if (!Array.isArray(result.wrongIndexes)) result.wrongIndexes = [];
       result.wrongIndexes = result.wrongIndexes.filter((index) => index >= 0 && index < count);
+      if (!Array.isArray(result.pendingReplacementIndexes)) {
+        result.pendingReplacementIndexes = result.wrongIndexes.slice();
+      }
+      result.pendingReplacementIndexes = result.pendingReplacementIndexes.filter((index) => (
+        result.wrongIndexes.includes(index)
+      ));
       const preferredIndex = result.wrongIndexes[0] ?? result.activeWordIndex ?? 0;
       result.activeWordIndex = Math.max(0, Math.min(preferredIndex, Math.max(0, count - 1)));
       result.draftText = result.wordValues.join(" ").trim();
@@ -7441,10 +7620,10 @@ window.NCE_ZH_OVERRIDES = [
       $("scoreValue").textContent = state.score.toLocaleString();
       $("submitBtn").innerHTML = isCorrect ? `<span class="key">Enter</span> 下一题` : `<span class="key">Space</span> 提交`;
       $("answerBtn").innerHTML = isCorrect
-        ? `<span class="key">Ctrl ;</span> 再来一次`
+        ? `<span class="key">Alt / Option</span> 再来一次`
         : isAnswerVisible
-          ? `<span class="key">Ctrl ;</span> 隐藏答案`
-          : `<span class="key">Ctrl ;</span> 显示答案`;
+          ? `<span class="key">Alt / Option</span> 隐藏答案`
+          : `<span class="key">Alt / Option</span> 显示答案`;
       $("hintBtn").classList.toggle("hidden", isReview);
       $("prevBtn").disabled = state.currentIndex === 0 || isPaused;
       $("nextBtn").disabled = isPaused;
@@ -7491,6 +7670,7 @@ window.NCE_ZH_OVERRIDES = [
         }
         state.wrongIndex = -1;
         state.current.wrongIndexes = [];
+        state.current.pendingReplacementIndexes = [];
         state.showAnalysis = true;
         $("smallStatus").textContent = "";
         $("feedback").className = "feedback";
@@ -7512,10 +7692,8 @@ window.NCE_ZH_OVERRIDES = [
       if (state.mode === "review") state.current.reviewWrongCount += 1;
       state.combo = 0;
       state.current.wrongIndexes = result.wrongIndexes;
+      state.current.pendingReplacementIndexes = result.wrongIndexes.slice();
       state.wrongIndex = result.wrongIndexes[0] ?? -1;
-      result.wrongIndexes.forEach((index) => {
-        state.current.wordValues[index] = "";
-      });
       state.current.activeWordIndex = state.wrongIndex >= 0 ? state.wrongIndex : 0;
       state.activeWordIndex = state.current.activeWordIndex;
       updateDraftFromInput();
@@ -8091,6 +8269,7 @@ window.NCE_ZH_OVERRIDES = [
       ensureWordState(state.current);
       state.current.wordValues = state.current.wordValues.map(() => "");
       state.current.wrongIndexes = [];
+      state.current.pendingReplacementIndexes = [];
       state.current.activeWordIndex = 0;
       state.activeWordIndex = 0;
       state.current.draftText = "";
@@ -8114,6 +8293,7 @@ window.NCE_ZH_OVERRIDES = [
       ensureWordState(state.current);
       state.current.wordValues = state.current.wordValues.map(() => "");
       state.current.wrongIndexes = [];
+      state.current.pendingReplacementIndexes = [];
       state.current.activeWordIndex = 0;
       state.current.draftText = "";
       state.current.lastInput = "";
@@ -8140,6 +8320,7 @@ window.NCE_ZH_OVERRIDES = [
         ensureWordState(state.current);
         state.current.wordValues = state.current.wordValues.map(() => "");
         state.current.wrongIndexes = [];
+        state.current.pendingReplacementIndexes = [];
         state.current.activeWordIndex = 0;
         state.current.draftText = "";
         state.current.lastInput = "";
@@ -8246,7 +8427,7 @@ window.NCE_ZH_OVERRIDES = [
       $("retryMistakesBtn").onclick = isReview ? () => startPractice(state.practiceSentences, "review", false) : startReview;
       const currentLessonIndex = lessons.findIndex((lesson) => lesson.id === state.selectedLesson.id);
       const nextLesson = lessons.slice(currentLessonIndex + 1).find((lesson) => lesson.sentences.length);
-      $("nextLessonBtn").classList.toggle("hidden", isReview);
+      $("nextLessonBtn").classList.remove("hidden");
       $("nextLessonBtn").disabled = !nextLesson;
       $("nextLessonBtn").textContent = nextLesson ? `进入下一课 · Lesson ${nextLesson.lessonNo}` : "已完成全部课程";
     }
@@ -8458,9 +8639,12 @@ window.NCE_ZH_OVERRIDES = [
       persistSession();
     }
 
-    function handleSlotInput(input) {
+    function handleSlotInput(input, markAsEdited = true) {
       if (!state.current || state.phase === "correct" || state.phase === "paused") return;
       const index = Number(input.dataset.index);
+      if (markAsEdited && state.phase === "wrong" && state.current.pendingReplacementIndexes.includes(index)) {
+        state.current.pendingReplacementIndexes = state.current.pendingReplacementIndexes.filter((item) => item !== index);
+      }
       const value = input.value.replace(/\s+/g, "");
       if (input.value !== value) input.value = value;
       state.current.wordValues[index] = value;
@@ -8479,9 +8663,50 @@ window.NCE_ZH_OVERRIDES = [
       persistSession();
     }
 
+    function prepareWrongSlotForReplacement(input) {
+      if (!state.current || state.phase !== "wrong") return false;
+      const index = Number(input.dataset.index);
+      if (!state.current.pendingReplacementIndexes.includes(index)) return false;
+      state.current.pendingReplacementIndexes = state.current.pendingReplacementIndexes.filter((item) => item !== index);
+      state.current.wordValues[index] = "";
+      input.value = "";
+      return true;
+    }
+
+    function markWrongSlotAsEdited(input) {
+      if (!state.current || state.phase !== "wrong") return;
+      const index = Number(input.dataset.index);
+      state.current.pendingReplacementIndexes = state.current.pendingReplacementIndexes.filter((item) => item !== index);
+    }
+
+    function handleSlotBeforeInput(event, input) {
+      if (!state.current || state.phase !== "wrong") return;
+      if (event.inputType.startsWith("insert")) {
+        prepareWrongSlotForReplacement(input);
+      } else if (event.inputType.startsWith("delete")) {
+        markWrongSlotAsEdited(input);
+      }
+    }
+
+    function correctionRoundIsComplete() {
+      if (!state.current || state.phase !== "wrong") return false;
+      const wrongIndexes = state.current.wrongIndexes;
+      return wrongIndexes.length > 0
+        && state.current.pendingReplacementIndexes.length === 0
+        && wrongIndexes.every((wrongIndex) => (
+          normalizeInputWord(state.current.wordValues[wrongIndex]).length > 0
+        ));
+    }
+
     function handleSlotKeydown(event, input) {
       if (event.isComposing || !state.current) return;
       const index = Number(input.dataset.index);
+      const isPlainTextKey = event.key.length === 1
+        && event.key !== " "
+        && !event.ctrlKey
+        && !event.altKey
+        && !event.metaKey;
+      if (isPlainTextKey) prepareWrongSlotForReplacement(input);
       const isPlainHorizontalArrow = (event.key === "ArrowLeft" || event.key === "ArrowRight")
         && !event.shiftKey && !event.ctrlKey && !event.altKey && !event.metaKey;
       if (isPlainHorizontalArrow) {
@@ -8508,13 +8733,8 @@ window.NCE_ZH_OVERRIDES = [
       }
       if (event.key === " ") {
         event.preventDefault();
-        handleSlotInput(input);
-        const completedCorrection = state.phase === "wrong"
-          && state.current.wrongIndexes.includes(index)
-          && state.current.wrongIndexes.every((wrongIndex) => (
-            normalizeInputWord(state.current.wordValues[wrongIndex])
-          ));
-        if (completedCorrection) {
+        handleSlotInput(input, false);
+        if (correctionRoundIsComplete()) {
           submitAnswer();
           return;
         }
@@ -8596,6 +8816,10 @@ window.NCE_ZH_OVERRIDES = [
       const input = event.target.closest(".slot-input");
       if (input) handleSlotInput(input);
     });
+    $("wordSlots").addEventListener("beforeinput", (event) => {
+      const input = event.target.closest(".slot-input");
+      if (input) handleSlotBeforeInput(event, input);
+    });
     $("wordSlots").addEventListener("keydown", (event) => {
       const input = event.target.closest(".slot-input");
       if (input) handleSlotKeydown(event, input);
@@ -8626,6 +8850,11 @@ window.NCE_ZH_OVERRIDES = [
         if (state.phase === "correct") nextQuestion();
         return;
       }
+      if (event.key === "Alt") {
+        event.preventDefault();
+        if (!event.repeat) showAnswer();
+        return;
+      }
       if (event.key === "Control") {
         if (!event.repeat) ctrlChordUsed = false;
         return;
@@ -8634,10 +8863,6 @@ window.NCE_ZH_OVERRIDES = [
       if (event.ctrlKey && event.key.toLowerCase() === "m") {
         event.preventDefault();
         markMastered();
-      }
-      if (event.ctrlKey && event.key === ";") {
-        event.preventDefault();
-        showAnswer();
       }
       if (event.shiftKey && event.key === "ArrowRight") {
         event.preventDefault();

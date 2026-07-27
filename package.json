@@ -10,6 +10,8 @@
     "generate:analysis": "node scripts/generate-nce1-analysis.mjs",
     "validate:content": "node scripts/validate-content-package.mjs",
     "test:home": "node scripts/test-home-redesign.mjs",
+    "test:mistake-history": "node scripts/test-history-mistakes.mjs",
+    "test:multi-error": "node scripts/test-multi-error-submit.mjs",
     "build": "node build.mjs"
   },
   "devDependencies": {
