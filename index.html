@@ -641,6 +641,29 @@
       line-height: 1.9;
     }
 
+    .preview-text-head, .preview-actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .preview-text-head { margin-bottom: 12px; }
+    .preview-text-head h3 { margin: 0; }
+    .preview-play {
+      color: var(--muted);
+      background: transparent;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 3px 8px;
+      cursor: pointer;
+      font: inherit;
+      font-size: 12px;
+    }
+    .preview-play[aria-pressed="true"] { color: var(--text); background: rgba(128, 128, 128, .15); }
+    .preview-sentence { display: flex; align-items: baseline; gap: 8px; }
+    .preview-sentence span { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+    .preview-sentence button { flex: none; }
     .practice {
       min-height: calc(100dvh - 128px);
       display: flex;
@@ -1552,7 +1575,7 @@
       align-items: flex-end;
       position: relative;
       isolation: isolate;
-      background-image: url("./assets/ui/home/slices/bg_img.png");
+      background-image: url("./assets/ui/home/slices/home-background-v2.png");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -2489,7 +2512,7 @@
             </section>
             <div class="text-grid">
               <div class="text-box">
-                <h3>英文原文</h3>
+                <div class="preview-text-head"><h3>英文原文</h3><button class="preview-play" id="previewReadAllBtn" type="button" aria-pressed="false">全文朗读</button></div>
                 <ol id="englishText"></ol>
               </div>
               <div class="text-box">
@@ -2497,7 +2520,11 @@
                 <ol id="chineseText"></ol>
               </div>
             </div>
-            <button class="btn" id="startBtn">开始练习</button>
+            <div class="preview-actions">
+              <button class="btn secondary" id="previewPrevLessonBtn" type="button">上一课</button>
+              <button class="btn" id="startBtn">开始练习</button>
+              <button class="btn secondary" id="previewNextLessonBtn" type="button">下一课</button>
+            </div>
           </div>
         </div>
       </section>
@@ -6905,6 +6932,7 @@ window.NCE_ZH_OVERRIDES = [
 
     function showView(id) {
       const visibleView = document.querySelector(".view.active")?.id || state.currentView;
+      if (visibleView === "previewView" && id !== visibleView) stopPreviewAudio();
       if (visibleView && visibleView !== id) {
         state.previousView = visibleView;
         state.currentView = id;
@@ -7097,6 +7125,7 @@ window.NCE_ZH_OVERRIDES = [
     }
 
     function renderPreview() {
+      stopPreviewAudio();
       const lesson = state.selectedLesson;
       const record = learningRecordFor(lesson);
       if ($("previewView").classList.contains("active")) {
@@ -7116,7 +7145,19 @@ window.NCE_ZH_OVERRIDES = [
         <span class="badge">${formatLastStudy(record.lastStudiedAt)}</span>
       `;
       renderHistoricalMistakes(lesson);
-      $("englishText").innerHTML = lesson.sentences.map((item) => `<li>${item.english}</li>`).join("");
+      $("englishText").innerHTML = lesson.sentences.map((item, index) => `<li><div class="preview-sentence"><span>${escapeHtml(item.english)}</span><button class="preview-play" type="button" data-sentence="${index}" title="播放第 ${index + 1} 句" aria-label="播放第 ${index + 1} 句" aria-pressed="false">播放</button></div></li>`).join("");
+      $("englishText").querySelectorAll("[data-sentence]").forEach((button) => {
+        button.onclick = () => playPreviewAudio(Number(button.dataset.sentence), false);
+      });
+      $("previewReadAllBtn").disabled = !lesson.sentences.length || !("speechSynthesis" in window);
+      $("previewReadAllBtn").onclick = () => playPreviewAudio(0, true);
+      const available = lessons.filter((item) => item.sentences.length);
+      const lessonIndex = available.findIndex((item) => item.id === lesson.id);
+      [ ["previewPrevLessonBtn", -1], ["previewNextLessonBtn", 1] ].forEach(([id, offset]) => {
+        const target = lessonIndex >= 0 ? available[lessonIndex + offset] : null;
+        $(id).disabled = !target;
+        $(id).onclick = () => { if (target) selectPreviewLesson(target.id); };
+      });
       $("chineseText").innerHTML = lesson.sentences.map((item) => `<li>${item.chinese}</li>`).join("");
       if (!lesson.sentences.length) {
         $("englishText").innerHTML = "<li>待导入授权课文英文原句</li>";
@@ -8537,6 +8578,50 @@ window.NCE_ZH_OVERRIDES = [
       renderPreview();
       refreshContinueButton();
       showView(returnView);
+    }
+
+    let previewAudio = null;
+
+    function stopPreviewAudio() {
+      if (previewAudio) window.speechSynthesis?.cancel();
+      previewAudio = null;
+      document.querySelectorAll("#previewView .preview-play").forEach((button) => {
+        button.setAttribute("aria-pressed", "false");
+        button.textContent = button.id === "previewReadAllBtn" ? "全文朗读" : "播放";
+      });
+    }
+
+    function playPreviewAudio(index, fullLesson) {
+      const wasPlaying = previewAudio && previewAudio.fullLesson === fullLesson
+        && (fullLesson || previewAudio.index === index);
+      stopPreviewAudio();
+      if (wasPlaying || !("speechSynthesis" in window)) return;
+      stopSentenceAudio();
+      const session = { index, fullLesson, lesson: state.selectedLesson };
+      previewAudio = session;
+      function readNext() {
+        if (previewAudio !== session) return;
+        const sentence = session.lesson.sentences[session.index];
+        if (!sentence) { stopPreviewAudio(); return; }
+        document.querySelectorAll("#englishText .preview-play").forEach((button) => {
+          const active = Number(button.dataset.sentence) === session.index;
+          button.setAttribute("aria-pressed", String(active));
+          button.textContent = active ? "停止" : "播放";
+        });
+        $("previewReadAllBtn").setAttribute("aria-pressed", String(fullLesson));
+        $("previewReadAllBtn").textContent = fullLesson ? "停止朗读" : "全文朗读";
+        const utterance = new SpeechSynthesisUtterance(sentence.english);
+        utterance.lang = "en-US";
+        utterance.rate = .86;
+        utterance.onend = () => {
+          if (previewAudio !== session) return;
+          if (fullLesson) { session.index += 1; readNext(); }
+          else stopPreviewAudio();
+        };
+        utterance.onerror = () => { if (previewAudio === session) stopPreviewAudio(); };
+        window.speechSynthesis.speak(utterance);
+      }
+      readNext();
     }
 
     let correctFeedbackSequence = 0;
