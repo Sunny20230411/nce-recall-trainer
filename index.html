@@ -2228,6 +2228,51 @@
     }
 
     @media (max-width: 660px) {
+      body.practice-active .topbar { height: 48px; padding: 0 12px; }
+      body.practice-active .brand { min-width: 0; gap: 8px; }
+      body.practice-active #topTitle { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; }
+      body.practice-active main { padding: 12px 0; }
+      .practice { min-height: calc(100dvh - 72px); gap: 14px; }
+      .practice-status { flex-direction: column; align-items: stretch; gap: 8px; }
+      .metric-row { gap: 12px; font-size: 12px; font-weight: 500; }
+      #practiceLesson, #scoreMetric { display: none; }
+      .progress-track { flex: none; height: 4px; }
+      .drill { flex: 0 0 auto; padding: 8px 0; display: block; }
+      .drill-card { display: flex; flex-direction: column; }
+      .drill-card .small-status { order: 0; min-height: 0; font-size: 16px; margin: 0 0 8px; }
+      .drill-card .small-status:empty { display: none; }
+      .drill-card .sentence-order { order: 1; font-size: 12px; margin-bottom: 12px; }
+      .drill-card .prompt-label { order: 2; font-size: 12px; margin-bottom: 6px; }
+      .drill-card .chinese, .drill-card.analysis-mode .chinese { order: 3; font-size: 21px; line-height: 1.45; margin: 0 0 16px; }
+      .drill-card .input-shell, .drill-card.analysis-mode .input-shell { order: 4; min-height: 0; margin: 0; }
+      .drill-card .answer-reveal, .drill-card.analysis-mode .answer-reveal { order: 5; min-height: 0; margin: 16px 0 0; }
+      .drill-card .answer-reveal.hidden { display: none; }
+      .drill-card .feedback { order: 6; }
+      .drill-card .ai-panel { order: 7; }
+      .word-slots { gap: 12px 6px; }
+      .word-slot { width: clamp(44px, calc(var(--slot-width) * .56), 100%) !important; min-width: 44px; min-height: 48px; padding: 0 4px 6px; }
+      .word-slot .slot-ipa:empty, .word-slot .slot-meta:empty { display: none; }
+      .word-slot:not(.correct) .slot-ipa, .word-slot:not(.correct) .slot-meta { display: none; }
+      .slot-input { font-size: 20px; padding: 8px 2px; scroll-margin-block: 80px; }
+      .answer-card { padding: 8px; gap: 8px 5px; border-radius: 8px; }
+      .answer-word { min-width: 36px; }
+      .answer-word-text { font-size: 17px; padding: 3px 2px 4px; }
+      .answer-card .slot-ipa { font-size: 10px; min-height: 14px; }
+      .answer-card .slot-meta { min-height: 0; margin-top: 5px; gap: 3px; }
+      .answer-card .pos-tag { font-size: 10px; padding: 2px 5px; }
+      .answer-card .word-meaning { font-size: 10px; }
+      .slot-ipa, .pos-tag, .word-meaning, .analysis-ipa, .analysis-translation, .analysis-pos { font-size: 11px; }
+      .analysis-word-main { font-size: 22px; min-height: 30px; }
+      .sentence-analysis { gap: 12px; padding: 10px 0; }
+      .practice-actions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; padding-bottom: env(safe-area-inset-bottom, 0px); }
+      .practice-actions .btn { min-width: 0; min-height: 44px; padding: 8px 4px; font-size: 13px; justify-content: center; }
+      .practice-actions .key { display: none; }
+      #speakBtn { order: 0; }
+      #answerBtn { order: 1; }
+      #submitBtn { order: 2; }
+      #prevBtn { order: 3; }
+      #hintBtn { order: 4; }
+      #nextBtn { order: 5; }
       body.home-active .topbar {
         height: 68px;
         padding: 0 18px;
@@ -7592,7 +7637,7 @@ window.NCE_ZH_OVERRIDES = [
         const ipa = showAnalysis ? phoneticFor(targetWord) : "";
         const wordInfo = showAnalysis ? wordInfoFor(targetWord) : { pos: "", meaning: "" };
         return `
-          <div class="${classNames.join(" ")}" style="width:${slotWidth}px">
+          <div class="${classNames.join(" ")}" style="width:${slotWidth}px;--slot-width:${slotWidth}px">
             <span class="slot-ipa">${escapeHtml(ipa)}</span>
             <input class="slot-input" data-index="${index}" value="${escapeHtml(typedWord)}"
               autocomplete="off" autocapitalize="off" spellcheck="false"
@@ -8742,6 +8787,7 @@ window.NCE_ZH_OVERRIDES = [
       if (slot) {
         const targetWord = displayWords(state.current.sentence.english)[index] || "word";
         slot.style.width = `${slotWidthFor(value || targetWord)}px`;
+        slot.style.setProperty("--slot-width", `${slotWidthFor(value || targetWord)}px`);
         slot.classList.toggle("filled", Boolean(value));
       }
       $("smallStatus").textContent = "";
