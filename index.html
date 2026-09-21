@@ -2243,7 +2243,7 @@
       .drill-card .small-status:empty { display: none; }
       .drill-card .sentence-order { order: 1; font-size: 12px; margin-bottom: 12px; }
       .drill-card .prompt-label { order: 2; font-size: 12px; margin-bottom: 6px; }
-      .drill-card .chinese, .drill-card.analysis-mode .chinese { order: 3; font-size: 21px; line-height: 1.45; margin: 0 0 16px; }
+      .drill-card .chinese, .drill-card.analysis-mode .chinese { order: 3; font-size: 19px; line-height: 1.45; margin: 0 0 16px; }
       .drill-card .input-shell, .drill-card.analysis-mode .input-shell { order: 4; min-height: 0; margin: 0; }
       .drill-card .answer-reveal, .drill-card.analysis-mode .answer-reveal { order: 5; min-height: 0; margin: 16px 0 0; }
       .drill-card .answer-reveal.hidden { display: none; }
@@ -2253,10 +2253,10 @@
       .word-slot { width: clamp(44px, calc(var(--slot-width) * .56), 100%) !important; min-width: 44px; min-height: 48px; padding: 0 4px 6px; }
       .word-slot .slot-ipa:empty, .word-slot .slot-meta:empty { display: none; }
       .word-slot:not(.correct) .slot-ipa, .word-slot:not(.correct) .slot-meta { display: none; }
-      .slot-input { font-size: 20px; padding: 8px 2px; scroll-margin-block: 80px; }
+      .slot-input { font-size: 18px; padding: 8px 2px; scroll-margin-block: 80px; }
       .answer-card { padding: 8px; gap: 8px 5px; border-radius: 8px; }
       .answer-word { min-width: 36px; }
-      .answer-word-text { font-size: 17px; padding: 3px 2px 4px; }
+      .answer-word-text { font-size: 15px; padding: 3px 2px 4px; }
       .answer-card .slot-ipa { font-size: 10px; min-height: 14px; }
       .answer-card .slot-meta { min-height: 0; margin-top: 5px; gap: 3px; }
       .answer-card .pos-tag { font-size: 10px; padding: 2px 5px; }
@@ -2265,7 +2265,8 @@
       .analysis-word-main { font-size: 22px; min-height: 30px; }
       .sentence-analysis { gap: 12px; padding: 10px 0; }
       .practice-actions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; padding-bottom: env(safe-area-inset-bottom, 0px); }
-      .practice-actions .btn { min-width: 0; min-height: 44px; padding: 8px 4px; font-size: 13px; justify-content: center; }
+      .drill-card .practice-actions { order: 1; margin: 0 0 14px; padding: 0; gap: 6px; }
+      .practice-actions .btn { min-width: 0; min-height: 36px; padding: 6px 4px; font-size: 12px; justify-content: center; }
       .practice-actions .key { display: none; }
       #speakBtn { order: 0; }
       #answerBtn { order: 1; }
@@ -8880,6 +8881,25 @@ window.NCE_ZH_OVERRIDES = [
         event.preventDefault();
       }
     }
+
+    const mobilePracticeLayout = window.matchMedia("(max-width: 660px)");
+    const practiceActions = document.querySelector(".practice-actions");
+    const practiceActionsAnchor = document.createComment("Desktop practice actions position");
+    practiceActions.before(practiceActionsAnchor);
+    const previewActions = document.querySelector(".preview-actions");
+    const previewActionsAnchor = document.createComment("Desktop preview actions position");
+    previewActions.before(previewActionsAnchor);
+    function positionPracticeActions() {
+      if (mobilePracticeLayout.matches) {
+        $("sentenceOrder").after(practiceActions);
+        document.querySelector("#previewView .lesson-directory").after(previewActions);
+      } else {
+        practiceActionsAnchor.after(practiceActions);
+        previewActionsAnchor.after(previewActions);
+      }
+    }
+    mobilePracticeLayout.addEventListener("change", positionPracticeActions);
+    positionPracticeActions();
 
     applyTheme(localStorage.getItem("nce_theme") || "light");
     $("themeToggleBtn").addEventListener("click", toggleTheme);
