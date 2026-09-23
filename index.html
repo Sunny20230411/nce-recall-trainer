@@ -2264,16 +2264,48 @@
       .slot-ipa, .pos-tag, .word-meaning, .analysis-ipa, .analysis-translation, .analysis-pos { font-size: 11px; }
       .analysis-word-main { font-size: 22px; min-height: 30px; }
       .sentence-analysis { gap: 12px; padding: 10px 0; }
-      .practice-actions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; padding-bottom: env(safe-area-inset-bottom, 0px); }
-      .drill-card .practice-actions { order: 1; margin: 0 0 14px; padding: 0; gap: 6px; }
-      .practice-actions .btn { min-width: 0; min-height: 36px; padding: 6px 4px; font-size: 12px; justify-content: center; }
+      body.practice-active main { padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
+      body > .practice-actions { display: none; }
+      body.practice-active > .practice-actions {
+        position: fixed; z-index: 20; left: 8px; right: 8px;
+        top: var(--mobile-toolbar-top, auto); bottom: auto;
+        display: grid; grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: 4px; margin: 0; padding: 6px;
+        border: 1px solid rgba(255, 255, 255, .7); border-radius: 22px;
+        background: rgba(246, 248, 253, .76);
+        -webkit-backdrop-filter: blur(20px) saturate(145%);
+        backdrop-filter: blur(20px) saturate(145%);
+        box-shadow: 0 8px 26px rgba(57, 76, 118, .16), inset 0 1px 0 rgba(255, 255, 255, .9);
+      }
+      body.practice-active > .practice-actions .btn {
+        min-width: 0; min-height: 44px; padding: 4px 2px; font-size: 0;
+        justify-content: center; border: 1px solid rgba(143, 157, 187, .3); border-radius: 16px;
+        color: #344159; background: linear-gradient(180deg, rgba(255, 255, 255, .7), rgba(241, 244, 250, .5));
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, .9), 0 2px 4px rgba(53, 68, 101, .04);
+      }
+      body.practice-active > .practice-actions #submitBtn {
+        color: #fff; border-color: rgba(174, 131, 255, .7);
+        background: linear-gradient(160deg, #9860fa, #7029ed);
+        box-shadow: inset 0 1px 1px rgba(255, 255, 255, .35), 0 4px 10px rgba(113, 45, 229, .22);
+      }
+      body.practice-active > .practice-actions .btn:active:not(:disabled) { transform: translateY(1px); }
+      body.practice-active[data-theme="dark"] > .practice-actions {
+        background: rgba(28, 32, 42, .78); border-color: rgba(255, 255, 255, .14);
+        box-shadow: 0 8px 26px rgba(0, 0, 0, .28), inset 0 1px 0 rgba(255, 255, 255, .1);
+      }
+      body.practice-active[data-theme="dark"] > .practice-actions .btn:not(#submitBtn) {
+        color: #e2e8f0; border-color: rgba(181, 192, 215, .22);
+        background: linear-gradient(180deg, rgba(255, 255, 255, .09), rgba(255, 255, 255, .03));
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, .08);
+      }
+      .practice-actions .btn::after { content: attr(data-mobile-label); font-size: 12px; white-space: nowrap; }
       .practice-actions .key { display: none; }
-      #speakBtn { order: 0; }
-      #answerBtn { order: 1; }
-      #submitBtn { order: 2; }
-      #prevBtn { order: 3; }
-      #hintBtn { order: 4; }
-      #nextBtn { order: 5; }
+      #prevBtn { order: 0; }
+      #speakBtn { order: 1; }
+      #answerBtn { order: 2; }
+      #hintBtn { order: 3; }
+      #nextBtn { order: 4; }
+      #submitBtn { order: 5; }
       body.home-active .topbar {
         height: 68px;
         padding: 0 18px;
@@ -8891,7 +8923,7 @@ window.NCE_ZH_OVERRIDES = [
     previewActions.before(previewActionsAnchor);
     function positionPracticeActions() {
       if (mobilePracticeLayout.matches) {
-        $("sentenceOrder").after(practiceActions);
+        document.body.append(practiceActions);
         document.querySelector("#previewView .lesson-directory").after(previewActions);
       } else {
         practiceActionsAnchor.after(practiceActions);
@@ -8900,6 +8932,42 @@ window.NCE_ZH_OVERRIDES = [
     }
     mobilePracticeLayout.addEventListener("change", positionPracticeActions);
     positionPracticeActions();
+
+    function updateMobileActionLabels() {
+      practiceActions.querySelectorAll("button").forEach((button) => {
+        const label = Array.from(button.childNodes).filter((node) => node.nodeType === Node.TEXT_NODE)
+          .map((node) => node.textContent).join("").trim();
+        button.dataset.mobileLabel = label.replace("播放发音", "发音").replace("显示答案", "答案").replace("查看答案", "答案").replace("隐藏答案", "隐藏").replace("再来一次", "重试");
+        button.setAttribute("aria-label", label);
+        button.title = label;
+      });
+    }
+    new MutationObserver(updateMobileActionLabels).observe(practiceActions, { childList: true, subtree: true, characterData: true });
+    updateMobileActionLabels();
+
+    let toolbarFrame = 0;
+    function scheduleMobileToolbar() {
+      cancelAnimationFrame(toolbarFrame);
+      toolbarFrame = requestAnimationFrame(() => {
+        if (!mobilePracticeLayout.matches || !document.body.classList.contains("practice-active")) return;
+        const viewport = window.visualViewport;
+        const bottom = (viewport?.offsetTop || 0) + (viewport?.height || window.innerHeight);
+        practiceActions.style.setProperty("--mobile-toolbar-top", `${Math.max(0, bottom - practiceActions.offsetHeight - 8)}px`);
+        const input = document.activeElement;
+        if (!input?.matches(".slot-input")) return;
+        const rect = input.getBoundingClientRect();
+        const toolbarTop = practiceActions.getBoundingClientRect().top;
+        if (rect.bottom > toolbarTop - 12) window.scrollBy(0, rect.bottom - toolbarTop + 12);
+      });
+    }
+    window.visualViewport?.addEventListener("resize", scheduleMobileToolbar);
+    window.visualViewport?.addEventListener("scroll", scheduleMobileToolbar);
+    window.addEventListener("resize", scheduleMobileToolbar);
+    document.addEventListener("focusin", scheduleMobileToolbar);
+    new MutationObserver(scheduleMobileToolbar).observe(document.body, { attributes: true, attributeFilter: ["class"] });
+    practiceActions.addEventListener("pointerdown", (event) => {
+      if (mobilePracticeLayout.matches && event.target.closest("button") && document.activeElement?.matches(".slot-input")) event.preventDefault();
+    });
 
     applyTheme(localStorage.getItem("nce_theme") || "light");
     $("themeToggleBtn").addEventListener("click", toggleTheme);
