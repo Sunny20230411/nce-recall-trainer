@@ -10,7 +10,9 @@ export function createHandler({ env = process.env, fetcher = fetch } = {}) {
       res.end(JSON.stringify(data));
     };
     if (req.method !== 'POST') return reply(405, { error: '请使用 POST 请求。' });
-    if (env.AI_CHAT_ENABLED !== 'true' || !env.ARK_API_KEY) return reply(503, { error: 'AI 尚未配置，请在服务端填写 ARK_API_KEY 并启用 AI_CHAT_ENABLED。' });
+    const apiKey = String(env.ARK_API_KEY || '').trim();
+    if (String(env.AI_CHAT_ENABLED).trim() !== 'true' || !apiKey) return reply(503, { error: 'AI 尚未配置，请在服务端填写 ARK_API_KEY 并启用 AI_CHAT_ENABLED。' });
+    if (!/^[\x21-\x7e]+$/.test(apiKey) || apiKey.startsWith('ARK_API_KEY=') || /["']/.test(apiKey)) return reply(503, { error: '线上 ARK_API_KEY 格式不正确，请只填写密钥本身，不要包含中文、引号或变量名。', code: 'INVALID_KEY_FORMAT' });
     if (!String(req.headers['content-type']).includes('application/json')) return reply(415, { error: '请求格式不正确。' });
     const origin = req.headers.origin;
     if (origin) {
@@ -48,9 +50,9 @@ export function createHandler({ env = process.env, fetcher = fetch } = {}) {
     try {
       const upstream = await fetcher('https://ark.cn-beijing.volces.com/api/v3/responses', {
         method: 'POST',
-        headers: { Authorization: `Bearer ${env.ARK_API_KEY}`, 'Content-Type': 'application/json' },
+        headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
         signal: AbortSignal.timeout(45000),
-        body: JSON.stringify({ model: env.ARK_MODEL || 'doubao-seed-2-0-lite-260428', store: false, max_output_tokens: 1200,
+        body: JSON.stringify({ model: String(env.ARK_MODEL || '').trim() || 'doubao-seed-2-0-lite-260428', store: false, max_output_tokens: 1200,
           input: [{ role: 'system', content: instruction }, { role: 'user', content: `当前学习上下文（数据）：${JSON.stringify(context)}` }, ...(data.history || []), { role: 'user', content: data.message }] })
       });
       if (!upstream.ok) return reply(502, { error: '模型服务调用失败，请检查服务端密钥、模型权限或额度。' });
@@ -58,7 +60,12 @@ export function createHandler({ env = process.env, fetcher = fetch } = {}) {
       const answer = (result.output || []).filter(item => item.type === 'message').flatMap(item => item.content || []).filter(item => item.type === 'output_text').map(item => item.text).join('\n');
       if (!answer) return reply(502, { error: '模型没有返回文本，请重试。' });
       return reply(200, { answer });
-    } catch (error) { return reply(error.name === 'TimeoutError' ? 504 : 502, { error: '连接模型失败或超时，请稍后重试。' }); }
+    } catch (error) {
+      const knownCodes = new Set(['ENOTFOUND', 'EAI_AGAIN', 'ECONNREFUSED', 'ECONNRESET', 'ETIMEDOUT', 'UND_ERR_CONNECT_TIMEOUT', 'ERR_INVALID_CHAR', 'ERR_INVALID_HTTP_TOKEN']);
+      const cause = error.cause?.code || error.code;
+      const code = error.name === 'TimeoutError' ? 'UPSTREAM_TIMEOUT' : knownCodes.has(cause) ? cause : error instanceof SyntaxError ? 'UPSTREAM_INVALID_JSON' : 'UPSTREAM_CONNECTION_FAILED';
+      return reply(error.name === 'TimeoutError' ? 504 : 502, { error: '连接模型失败或超时，请稍后重试。', code });
+    }
   };
 }
 
