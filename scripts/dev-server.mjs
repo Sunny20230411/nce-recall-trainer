@@ -4,7 +4,7 @@ import { resolve, extname } from 'node:path';
 try { process.loadEnvFile('.env.local'); } catch (error) { if (error.code !== 'ENOENT') throw error; }
 const { default: chat } = await import('../api/chat.js');
 const root = resolve('.');
-const allowed = new Set(['index.html', 'ai-chat.js', 'ai-chat.css', 'nce1-analysis.js', 'nce1-zh-supplement.js', 'nce2-content.js']);
+const allowed = new Set(['index.html', 'ai-chat.js', 'stream-events.js', 'ai-chat.css', 'nce1-analysis.js', 'nce1-zh-supplement.js', 'nce2-content.js']);
 const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.png': 'image/png', '.webp': 'image/webp', '.jpg': 'image/jpeg', '.svg': 'image/svg+xml' };
 const server = http.createServer(async (req, res) => {
   try {

@@ -14,6 +14,10 @@ Answers are plain text, not executable HTML. Chat keyboard events do not trigger
 
 ## Limits and Deployment
 
+Local streaming update: the browser requests SSE; the server forwards only text deltas, completion and sanitized errors. Interrupted answers remain visible and are excluded from successful conversation history. Disconnecting aborts the upstream request. Legacy JSON clients remain supported. Default answers are brief and `thinking.type` is `disabled` for the selected Doubao model. Official reference: https://docs.volcengine.com/docs/ark/streaming-output?lang=zh and https://docs.volcengine.com/docs/ark/model-deprecation-migration-guide?lang=en .
+
+Single local comparison on the same short prompt: thinking enabled first text 13,773 ms / total 14,729 ms; disabled first text 1,535 ms / total 4,390 ms. This is not a production latency guarantee. Test with `node scripts/test-ai-stream.mjs`.
+
 The practice entry is a right-side floating button. Suggested questions are selected locally from sentence punctuation, modal verbs and wrong-word state; opening the panel does not call the model. Clicking a suggestion submits it. Messages appear immediately before the API response, with elapsed waiting time, stop and retry controls. A failed message remains visible but is not added to model conversation history. Draft text typed while waiting is preserved.
 
 Maximum question: 1,500 characters. Maximum request: 24 KB. Maximum output: 1,200 tokens. Upstream timeout: 45 seconds. Ten requests per minute per connection address per server process; this is only a local/basic safeguard, not distributed abuse protection.

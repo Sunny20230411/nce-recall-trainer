@@ -68,13 +68,34 @@
     const timer = setInterval(() => { pending.textContent = `正在思考… ${Math.floor((Date.now() - started) / 1000)} 秒`; }, 1000);
     const stop = document.createElement('button'); stop.type = 'button'; stop.className = 'tutor-stop'; stop.textContent = '停止生成';
     stop.onclick = () => controller?.abort(); status.append(stop);
+    let answer = '', answerNode;
     try {
-      const response = await fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' }, signal: controller.signal, body: JSON.stringify({ message: question, context, history: history.slice(-10) }) });
-      const data = await response.json();
-      if (!response.ok) throw Error(data.error || '请求失败，请重试。');
+      const { readEvents } = await import('./stream-events.js');
+      const response = await fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' }, signal: controller.signal, body: JSON.stringify({ message: question, context, history: history.slice(-10), stream: true }) });
+      if (!response.ok) { const data = await response.json(); throw Error(data.error || '请求失败，请重试。'); }
+      if (response.headers.get('content-type')?.includes('text/event-stream')) {
+        let complete = false;
+        for await (const event of readEvents(response.body)) {
+          if (snapshot !== currentIdentity() || !dialog.open) { controller.abort(); return; }
+          if (event.type === 'delta') {
+            clearInterval(timer); pending.textContent = '正在生成…';
+            answer += event.text;
+            if (!answerNode) answerNode = append('assistant', '');
+            const follow = messages.scrollHeight - messages.scrollTop - messages.clientHeight < 80;
+            answerNode.textContent = answer;
+            if (follow) messages.scrollTop = messages.scrollHeight;
+          } else if (event.type === 'done') complete = true;
+          else if (event.type === 'error') throw Error(event.error);
+        }
+        if (!complete || !answer) throw Error('回答中断，已保留收到的内容，请重试。');
+      } else {
+        const data = await response.json(); answer = data.answer;
+        if (!answer) throw Error('模型没有返回文本，请重试。');
+        answerNode = append('assistant', answer);
+      }
       if (snapshot !== currentIdentity() || !dialog.open) return;
-      pending.remove(); append('assistant', data.answer);
-      history.push({ role: 'user', content: question }, { role: 'assistant', content: data.answer.slice(0, 5000) });
+      pending.remove();
+      history.push({ role: 'user', content: question }, { role: 'assistant', content: answer.slice(0, 5000) });
       status.textContent = '';
     } catch (error) {
       pending.dataset.role = 'error';
