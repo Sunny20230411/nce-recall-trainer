@@ -4,6 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "test:ai": "node scripts/test-ai-chat.mjs",
     "import:nce2": "node scripts/import-nce2-source.mjs",
     "build:nce2-data": "node scripts/build-nce2-browser-data.mjs",
     "audit:nce1-words": "python scripts/audit-nce1-word-meanings.py",
