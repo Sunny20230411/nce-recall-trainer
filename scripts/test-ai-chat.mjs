@@ -17,6 +17,13 @@ try {
   const result = await fetch(base, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ message: 'Explain', context: { english: 'Excuse me!' }, history: [] }) });
   assert.equal(result.status, 200); assert.equal((await result.json()).answer, 'Mock explanation');
   assert.equal(payload.store, false); assert.equal(payload.model, 'doubao-seed-2-0-lite-260428');
+  const teachingRules = payload.input[0].content;
+  assert.match(teachingRules, /中文母语学习者/);
+  assert.match(teachingRules, /不要逐词罗列词性/);
+  assert.match(teachingRules, /直接回答这个问题，不重新分析整句/);
+  assert.match(teachingRules, /不编造背景/);
+  assert.match(teachingRules, /没有修改课程、成绩或学习记录的权限/);
+  assert.doesNotMatch(teachingRules, /默认用两到四句或最多三个要点/);
   assert.equal((await fetch(base)).status, 405);
   assert.equal((await fetch(base, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' })).status, 400);
 } finally { await new Promise(resolve => mock.close(resolve)); }
