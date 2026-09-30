@@ -1,0 +1,257 @@
+{
+  "chinese": "半小时前我在这里买了两本很贵的词典，但忘了拿走。",
+  "intent": "向对方陈述两件过去发生的关联事情：自己半小时前在这里买了两本价格很高的词典，却忘了把它们随身带走，铺垫后续寻找遗失物品的对话场景。",
+  "comparison": {
+    "chinese": "中文习惯先把时间交代清楚，再讲发生的事情、地点和相关物品：“半小时前我在这里买了两本很贵的词典”。",
+    "english": "英文是先讲核心动作和对象“I bought two expensive dictionaries”，再依次补充地点here、时间half an hour ago。",
+    "steps": [
+      {
+        "label": "动作与对象",
+        "text": "I bought two expensive dictionaries",
+        "explanation": "先点明核心事件——我买了两本价格不菲的词典，让听者立刻抓住主要行为。"
+      },
+      {
+        "label": "补充位置",
+        "text": "here",
+        "explanation": "紧跟在购买的物品之后，说明这件事发生在当前对话的这个地点。"
+      },
+      {
+        "label": "补充时间",
+        "text": "half an hour ago",
+        "explanation": "最后补上事件发生的时间，说明这是不久之前的事情，和后续“忘记带走、回来寻找”的逻辑衔接。"
+      }
+    ],
+    "takeaway": "遇到叙述过去事件的句子，先抓住“谁做了什么”的主干，再根据需要把英文后置的时间、地点信息挪回中文表达的自然语序，不用逐字对应顺序。"
+  },
+  "backbone": {
+    "text": "I bought two dictionaries here half an hour ago, but I forgot to take them with me.",
+    "meaning": "我半小时前在这里买了两本词典，但忘了把它们随身带走。"
+  },
+  "structureNotes": [
+    {
+      "title": "but连接的转折并列句",
+      "text": "but在这里是并列连词，连接两个地位平等的独立分句，前后语义形成转折：本来已经买下词典，却没有随身带走，自然引出后续寻物的语境。"
+    },
+    {
+      "title": "宾语指代",
+      "text": "后半句里的them直接指代前半句提到的two expensive dictionaries，避免重复名词，让句子连接更紧凑。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "时间短语half an hour ago放在第一个分句末尾，是英语叙述过去事件时的常见安排，说明整个购买动作发生在半小时前。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "前一分句主语",
+      "explanation": "指代说话人本人，是“购买词典”这个动作的发出者。"
+    },
+    {
+      "text": "bought",
+      "role": "前一分句谓语动词",
+      "explanation": "buy的过去式，表示在过去时间发生的购买行为。"
+    },
+    {
+      "text": "two expensive dictionaries",
+      "role": "前一分句谓语的宾语",
+      "explanation": "是“购买”动作的核心对象，即两本价格昂贵的词典。"
+    },
+    {
+      "text": "here",
+      "role": "地点状语",
+      "explanation": "说明购买行为发生在当下所在的这个地点。"
+    },
+    {
+      "text": "half an hour ago",
+      "role": "时间状语",
+      "explanation": "说明购买行为发生在说话时刻往前推半小时的时间点。"
+    },
+    {
+      "text": "but",
+      "role": "转折并列连词",
+      "explanation": "连接前后两个独立分句，引出与前半句语义形成转折的后续情况。"
+    },
+    {
+      "text": "I",
+      "role": "后一分句主语",
+      "explanation": "同样指代说话人本人，是“忘记带走”这个状态的主体。"
+    },
+    {
+      "text": "forgot",
+      "role": "后一分句谓语动词",
+      "explanation": "forget的过去式，表示过去忘记了某件事。"
+    },
+    {
+      "text": "to take them with me",
+      "role": "forgot的宾语",
+      "explanation": "动词不定式作忘记的具体内容：把词典随身带走。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "bought",
+      "meaning": "买（buy的过去式）",
+      "pos": "动词",
+      "phonetic": "/bɔːt/"
+    },
+    {
+      "text": "two",
+      "meaning": "两（个）",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "expensive",
+      "meaning": "昂贵的，价格高的",
+      "pos": "形容词",
+      "phonetic": "/ɪkˈspensɪv/"
+    },
+    {
+      "text": "dictionaries",
+      "meaning": "词典（dictionary的复数形式）",
+      "pos": "名词",
+      "phonetic": "/ˈdɪkʃənəriz/"
+    },
+    {
+      "text": "here",
+      "meaning": "这里，在这里",
+      "pos": "副词",
+      "phonetic": "/hɪə(r)/"
+    },
+    {
+      "text": "half",
+      "meaning": "（与an、hour搭配构成时间短语half an hour，表“半小时”）",
+      "pos": "形容词",
+      "phonetic": "/hɑːf/"
+    },
+    {
+      "text": "an",
+      "meaning": "（用于hour前的不定冠词，与half an hour搭配表“半小时”）",
+      "pos": "不定冠词",
+      "phonetic": "/ən/"
+    },
+    {
+      "text": "hour",
+      "meaning": "小时",
+      "pos": "名词",
+      "phonetic": "/ˈaʊə(r)/"
+    },
+    {
+      "text": "ago,",
+      "meaning": "以前，（置于时间短语后表示距现在多久前）",
+      "pos": "副词",
+      "phonetic": "/əˈɡəʊ/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是，然而",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "forgot",
+      "meaning": "忘记（forget的过去式）",
+      "pos": "动词",
+      "phonetic": "/fəˈɡɒt/"
+    },
+    {
+      "text": "to",
+      "meaning": "（用于构成不定式的小品词）",
+      "pos": "助词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "take",
+      "meaning": "拿走，带走",
+      "pos": "动词",
+      "phonetic": "/teɪk/"
+    },
+    {
+      "text": "them",
+      "meaning": "它们（指代前面提到的两本词典）",
+      "pos": "代词（宾格）",
+      "phonetic": "/ðem/"
+    },
+    {
+      "text": "with",
+      "meaning": "和……一起，随身带着",
+      "pos": "介词",
+      "phonetic": "/wɪð/"
+    },
+    {
+      "text": "me.",
+      "meaning": "我（介词with的宾语）",
+      "pos": "代词（宾格）",
+      "phonetic": "/mi/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I bought",
+      "relation": "陈述前半句的核心主体与动作",
+      "meaning": "我买了"
+    },
+    {
+      "text": "two expensive dictionaries",
+      "relation": "说明“买”这个动作的具体对象",
+      "meaning": "两本很贵的词典"
+    },
+    {
+      "text": "here half an hour ago,",
+      "relation": "补充说明购买行为发生的地点与时间",
+      "meaning": "半小时前在这里"
+    },
+    {
+      "text": "but",
+      "relation": "连接前后语义转折的两个分句",
+      "meaning": "但"
+    },
+    {
+      "text": "I forgot",
+      "relation": "引出后半句的核心动作与状态",
+      "meaning": "我忘了"
+    },
+    {
+      "text": "to take them with me.",
+      "relation": "说明“忘记”的具体内容——没有把买的词典带在身上",
+      "meaning": "把它们随身带走"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-97",
+  "sentenceId": "nce-1-lesson-097-sentence-001",
+  "sentenceOrder": 1,
+  "english": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.",
+  "lesson": "Lesson 97 A small blue case",
+  "notes": [
+    {
+      "title": "but连接的转折并列句",
+      "text": "but在这里是并列连词，连接两个地位平等的独立分句，前后语义形成转折：本来已经买下词典，却没有随身带走，自然引出后续寻物的语境。"
+    },
+    {
+      "title": "宾语指代",
+      "text": "后半句里的them直接指代前半句提到的two expensive dictionaries，避免重复名词，让句子连接更紧凑。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "时间短语half an hour ago放在第一个分句末尾，是英语叙述过去事件时的常见安排，说明整个购买动作发生在半小时前。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合句法语义事实，仅存在两处可明确修正的细节：一是单个词汇释义中，half、an脱离原短语语境的独立释义不符合此处搭配逻辑，二是前分句主干的核心宾语表述不完整。其余成分标注、翻译、句式说明、比较内容均准确。（非逐句人工审核）"
+}

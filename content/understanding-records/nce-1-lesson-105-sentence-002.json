@@ -1,0 +1,117 @@
+{
+  "chinese": "请问您想和她说话吗？",
+  "intent": "用于当面礼貌询问对方是否想要与某位女性直接通话、交谈，是日常沟通中征询对方通话意愿的常用礼貌问句。",
+  "comparison": null,
+  "backbone": {
+    "text": "you want to speak to her",
+    "meaning": "理解用主干：you want to speak to her，即你想要和她通话/交谈；助动词Do仅起构成一般疑问句的语法作用，不纳入陈述主干。"
+  },
+  "structureNotes": [
+    {
+      "title": "一般疑问的构成",
+      "text": "句首的Do没有独立实义，只是把实义动词want的一般疑问标记放到句首；回答时用Yes, I do. 或No, I don't. 来回应，不要把Do和want拆成两个独立的想。"
+    },
+    {
+      "title": "动词连用的语义分层",
+      "text": "want to speak to her不是并列的两个动作：want表达主观意愿，to speak是意愿指向的具体行为，to引出说话的对象her。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "助动词（构成一般疑问）",
+      "explanation": "无独立实义，放在主语you之前，将实义动词want的陈述句转换为一般疑问句，体现疑问语气，可对应中文礼貌问句的“请问”语气。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "句子询问的对象，即听话的对方。"
+    },
+    {
+      "text": "want",
+      "role": "谓语实义动词",
+      "explanation": "表达“想要、希望”的主观意愿，是句子的核心动作。"
+    },
+    {
+      "text": "to speak to her",
+      "role": "want的宾语（动词不定式短语）",
+      "explanation": "说明想要做的具体事情：和她交谈；其中speak to her是固定搭配，表示和某人说话、通话。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Do",
+      "meaning": "助动词，无实义，用于构成实义动词的一般疑问句",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你，你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要，希望",
+      "pos": "动词",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "to",
+      "meaning": "不定式符号，无实义，后接动词原形",
+      "pos": "不定式标记",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "speak",
+      "meaning": "说话，交谈",
+      "pos": "动词",
+      "phonetic": "/spiːk/"
+    },
+    {
+      "text": "to",
+      "meaning": "向，和（引出交谈对象）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "her?",
+      "meaning": "她（宾格）",
+      "pos": "代词（宾格）",
+      "phonetic": "/hɜː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Do you want",
+      "meaning": "请问您想要",
+      "relation": "构成句子的疑问框架与主语、核心意愿动词，提示这是向对方发起的意愿询问，Do承载的礼貌语气可对应中文句首的“请问”。"
+    },
+    {
+      "text": "to speak to her?",
+      "meaning": "和她说话吗？",
+      "relation": "补充说明想要做的具体行为与交谈对象，是want指向的具体内容。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-105",
+  "sentenceId": "nce-1-lesson-105-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Do you want to speak to her?",
+  "lesson": "Lesson 105 Full of mistakes",
+  "notes": [
+    {
+      "title": "一般疑问的构成",
+      "text": "句首的Do没有独立实义，只是把实义动词want的一般疑问标记放到句首；回答时用Yes, I do. 或No, I don't. 来回应，不要把Do和want拆成两个独立的想。"
+    },
+    {
+      "title": "动词连用的语义分层",
+      "text": "want to speak to her不是并列的两个动作：want表达主观意愿，to speak是意愿指向的具体行为，to引出说话的对象her。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句为日常英语一般疑问句，现有主干、句法结构、词义、分块释义与中文翻译整体通顺，无语法角色混淆或核心语义错误。仅存在两处可精确修正的小问题：一是原翻译未体现句首Do对应的正式礼貌语气，贴合语境优化为规范表述；二是最后一个单词的音标词条误将句末问号归入text字段，按分词规则修正text为her，保留英式音标/hɜː/不变。其余内容经核对符合解析规范。（非逐句人工审核）"
+}

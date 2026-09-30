@@ -1,0 +1,103 @@
+{
+  "chinese": "我相信你们会玩得很开心。",
+  "intent": "表达说话人确信对方在即将到来的出行中会获得愉快的体验。",
+  "comparison": null,
+  "backbone": {
+    "text": "我相信你们会玩得很开心。",
+    "meaning": "说话人对对方即将到来的体验抱有确定的正面预期，预判对方会获得愉快体验。"
+  },
+  "structureNotes": [
+    {
+      "title": "I'm sure 引导的宾语从句省略that",
+      "text": "I'm sure 是主系表结构的主句，后面的从句是它的内容；that 被省略了，直接接上 you'll enjoy yourselves 表达具体的确信内容。"
+    },
+    {
+      "title": "you'll是you will的缩写",
+      "text": "you'll 是 you will 的缩略形式，will 表示对将来事件的预判，不是正在进行的动作。"
+    },
+    {
+      "title": "enjoy yourselves 是固定短语",
+      "text": "enjoy 是及物动词，后面接与主语 you 对应的反身代词 yourselves，构成固定搭配，表达“（你们）玩得愉快”的含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm sure",
+      "role": "主系表结构的主句",
+      "explanation": "表达说话人“确信”的主观判断状态，后接从句说明确信的具体内容。"
+    },
+    {
+      "text": "you'll enjoy yourselves",
+      "role": "形容词sure的补足语从句/宾语从句",
+      "explanation": "作形容词sure的补足从句，省略了引导词that，内容是说话人预判对方会玩得开心。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I'm",
+      "meaning": "我是（I am的缩写）",
+      "pos": "代词+be动词缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "sure",
+      "meaning": "确信的、有把握的",
+      "pos": "形容词",
+      "phonetic": "/ʃʊə(r)/"
+    },
+    {
+      "text": "you'll",
+      "meaning": "你们将（you will的缩写）",
+      "pos": "代词+情态动词缩写",
+      "phonetic": "/juːl/"
+    },
+    {
+      "text": "enjoy",
+      "meaning": "享受；过得愉快（与反身代词搭配）",
+      "pos": "动词",
+      "phonetic": "/ɪnˈdʒɔɪ/"
+    },
+    {
+      "text": "yourselves.",
+      "meaning": "你们自己（反身代词）",
+      "pos": "反身代词",
+      "phonetic": "/jɔːˈselvz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I'm sure",
+      "relation": "主干：表达说话人的主观确信状态",
+      "meaning": "我确信"
+    },
+    {
+      "text": "you'll enjoy yourselves.",
+      "relation": "补充说明：告诉对方“确信”的具体内容",
+      "meaning": "你们会玩得开心"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-83",
+  "sentenceId": "nce-1-lesson-083-sentence-014",
+  "sentenceOrder": 14,
+  "english": "I'm sure you'll enjoy yourselves.",
+  "lesson": "Lesson 83 Going on holiday",
+  "notes": [
+    {
+      "title": "I'm sure 引导的宾语从句省略that",
+      "text": "I'm sure 是主系表结构的主句，后面的从句是它的内容；that 被省略了，直接接上 you'll enjoy yourselves 表达具体的确信内容。"
+    },
+    {
+      "title": "you'll是you will的缩写",
+      "text": "you'll 是 you will 的缩略形式，will 表示对将来事件的预判，不是正在进行的动作。"
+    },
+    {
+      "title": "enjoy yourselves 是固定短语",
+      "text": "enjoy 是及物动词，后面接与主语 you 对应的反身代词 yourselves，构成固定搭配，表达“（你们）玩得愉快”的含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体通顺，译文、主干、词义和分块含义基本可用；主要需收紧语法标签：sure 是形容词而非介词短语，其后从句应明确为形容词补足语/宾语；I'm sure 不宜称作介词短语主句。（非逐句人工审核）"
+}

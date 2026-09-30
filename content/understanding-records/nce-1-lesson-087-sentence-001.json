@@ -1,0 +1,139 @@
+{
+  "chinese": "我的车修好了吗？",
+  "intent": "顾客向汽修店工作人员询问自己送修的车辆是否已经维修完毕、可以取车。",
+  "comparison": {
+    "chinese": "中文问的是“车修好了吗”，直接对应维修完成的状态。",
+    "english": "Is my car ready yet? 表面问“我的车准备好了吗”。",
+    "steps": [
+      {
+        "label": "先确认核心询问对象",
+        "text": "Is my car ready",
+        "explanation": "把 be 动词 Is 放在句首构成一般疑问，核心要确认 my car 的状态是不是 ready。"
+      },
+      {
+        "label": "再理解 yet 的语气",
+        "text": "yet?",
+        "explanation": "yet 用在疑问句句末，说明说话人已经在等待或询问到目前为止的结果，不是泛指“永远”。"
+      },
+      {
+        "label": "结合修车场景还原含义",
+        "text": "ready 指车辆维修完毕、可供取走。",
+        "explanation": "在汽修取车的语境中，ready 不是泛指任意准备，而是明确指车辆维修完工、可以交付。"
+      }
+    ],
+    "takeaway": "英语用 Is ... ready yet? 询问是否已经准备好，结合修车场景还原为“修好了吗”。"
+  },
+  "backbone": {
+    "text": "Is my car ready?",
+    "meaning": "我的车现在是否已经准备好（维修完工、可供取车）。"
+  },
+  "structureNotes": [
+    {
+      "title": "疑问句的语序",
+      "text": "这是一般疑问句，把作表语的系动词 Is 提到主语 my car 前面，用来确认“车是否处于准备好的状态”，不需要借助助动词 do。"
+    },
+    {
+      "title": "yet 的用法",
+      "text": "yet 放在疑问句句末，表示说话人在询问“到目前为止”的进展结果，带有等待已久、追问进度的语气。"
+    },
+    {
+      "title": "场景化理解 ready",
+      "text": "在汽修取车的具体语境里，ready 不指泛泛的准备，而是特指车辆已经维修完毕、可以交付取走。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is",
+      "role": "系动词（作表语）",
+      "explanation": "本身是表达状态的系动词，此处通过提至句首的方式构成一般疑问句，体现对当前状态的疑问语气。"
+    },
+    {
+      "text": "my car",
+      "role": "主语",
+      "explanation": "指说话人送修的那台汽车，是全句状态描述的核心主体。"
+    },
+    {
+      "text": "ready",
+      "role": "表语（形容词）",
+      "explanation": "描述车辆当前的完成状态，本语境下指维修完工、可供取车。"
+    },
+    {
+      "text": "yet",
+      "role": "时间语气标记",
+      "explanation": "放在句末点明询问的是截止当前的进展，暗示说话人已等待一段时间。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Is",
+      "meaning": "是（be动词的第三人称单数现在时形式，此处为系动词，表状态）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "car",
+      "meaning": "汽车；轿车",
+      "pos": "名词",
+      "phonetic": "/kɑː(r)/"
+    },
+    {
+      "text": "ready",
+      "meaning": "准备好的；（维修）完成的",
+      "pos": "形容词",
+      "phonetic": "/ˈredi/"
+    },
+    {
+      "text": "yet?",
+      "meaning": "到目前为止；还（用于疑问句末追问进展）",
+      "pos": "副词",
+      "phonetic": "/jet/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Is",
+      "relation": "构成疑问的引导部分，将“车已准备好”的陈述转为对当前状态的确认提问。",
+      "meaning": "是"
+    },
+    {
+      "text": "my car ready",
+      "relation": "句子核心内容，说明询问的主体是说话人的车，要确认其是否处于维修完工、可取走的就绪状态。",
+      "meaning": "我的车准备好了"
+    },
+    {
+      "text": "yet?",
+      "relation": "补充询问的时间语气，点明说话人在追问截至当前的进展结果，暗含已经等待了一段时间。",
+      "meaning": "到现在为止了吗？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-87",
+  "sentenceId": "nce-1-lesson-087-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Is my car ready yet?",
+  "lesson": "Lesson 87 A car crash",
+  "notes": [
+    {
+      "title": "疑问句的语序",
+      "text": "这是一般疑问句，把作表语的系动词 Is 提到主语 my car 前面，用来确认“车是否处于准备好的状态”，不需要借助助动词 do。"
+    },
+    {
+      "title": "yet 的用法",
+      "text": "yet 放在疑问句句末，表示说话人在询问“到目前为止”的进展结果，带有等待已久、追问进度的语气。"
+    },
+    {
+      "title": "场景化理解 ready",
+      "text": "在汽修取车的具体语境里，ready 不指泛泛的准备，而是特指车辆已经维修完毕、可以交付取走。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体释义与句子结构分析准确，贴合原课文汽修取车的场景语义，仅存在几处可优化的细节：1. 原单词表将Is的释义标注为助动词构成疑问，混淆了Is本身的系动词属性与句首疑问功能的区别；2. 原结构分析中将Is的role标注为引导词，未明确其系动词的核心语法属性；3. 各结构分析中对“be动词提前构成疑问”的表述未清晰区分系动词本身的语法功能与句子疑问语序的变化规则，易造成语法角色混淆。（非逐句人工审核）"
+}

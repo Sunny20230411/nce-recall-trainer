@@ -1,0 +1,137 @@
+{
+  "chinese": "琼斯先生和他的妻子正在看它们。",
+  "intent": "说明琼斯先生夫妇此刻正注视着河面上的那些小船，承接前文场景补充人物的当下动作状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "Mr. Jones and his wife are looking at them.",
+    "meaning": "琼斯先生和他的妻子正在看它们。"
+  },
+  "parts": [
+    {
+      "text": "Mr. Jones and his wife",
+      "relation": "动作的发出者",
+      "meaning": "琼斯先生和他的妻子"
+    },
+    {
+      "text": "are looking at",
+      "relation": "描述主语正在执行的动作",
+      "meaning": "正在看"
+    },
+    {
+      "text": "them.",
+      "relation": "动作的指向对象，指代前文提到的河面上的小船",
+      "meaning": "它们"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "现在进行时的结构呈现",
+      "text": "本句用are加looking的组合表达动作正在发生，说明琼斯夫妇当下正处于注视的状态，并非过去或未来的行为。"
+    },
+    {
+      "title": "动词短语look at的固定搭配",
+      "text": "look是不及物动词，搭配介词at之后才能接注视的对象them，此处at不能省略，含义偏向专注地看向某个目标。"
+    },
+    {
+      "title": "代词them的指代关联",
+      "text": "句尾的them没有新的指代内容，直接承接前一句的some boats，避免重复提及相同的名词让表达更简洁。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Mr. Jones and his wife",
+      "role": "并列主语",
+      "explanation": "由and连接两个人物，共同作为后面动作的发出主体"
+    },
+    {
+      "text": "are looking at",
+      "role": "现在进行时的谓语动词短语",
+      "explanation": "由助动词are、现在分词looking和介词at组合，表示正在进行的注视动作"
+    },
+    {
+      "text": "them",
+      "role": "宾语",
+      "explanation": "指代前文的小船，是look at这个动作的接收对象"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "先生（用于男士姓氏前的尊称）",
+      "pos": "noun",
+      "phonetic": "/ˈmɪstə(r)/",
+      "text": "Mr."
+    },
+    {
+      "meaning": "琼斯（姓氏）",
+      "pos": "noun",
+      "phonetic": "/dʒəʊnz/",
+      "text": "Jones"
+    },
+    {
+      "meaning": "和、以及",
+      "pos": "conjunction",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "他的",
+      "pos": "determiner",
+      "phonetic": "/hɪz/",
+      "text": "his"
+    },
+    {
+      "meaning": "妻子",
+      "pos": "noun",
+      "phonetic": "/waɪf/",
+      "text": "wife"
+    },
+    {
+      "meaning": "（与现在分词连用表示动作正在进行）",
+      "pos": "auxiliary verb",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "看（现在分词形式）",
+      "pos": "verb",
+      "phonetic": "/ˈlʊkɪŋ/",
+      "text": "looking"
+    },
+    {
+      "meaning": "朝、向",
+      "pos": "preposition",
+      "phonetic": "/æt/",
+      "text": "at"
+    },
+    {
+      "meaning": "它们",
+      "pos": "pronoun",
+      "phonetic": "/ðəm/",
+      "text": "them."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-33",
+  "sentenceId": "nce-1-lesson-033-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Mr. Jones and his wife are looking at them.",
+  "lesson": "Lesson 33 A fine day",
+  "notes": [
+    {
+      "title": "现在进行时的结构呈现",
+      "text": "本句用are加looking的组合表达动作正在发生，说明琼斯夫妇当下正处于注视的状态，并非过去或未来的行为。"
+    },
+    {
+      "title": "动词短语look at的固定搭配",
+      "text": "look是不及物动词，搭配介词at之后才能接注视的对象them，此处at不能省略，含义偏向专注地看向某个目标。"
+    },
+    {
+      "title": "代词them的指代关联",
+      "text": "句尾的them没有新的指代内容，直接承接前一句的some boats，避免重复提及相同的名词让表达更简洁。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合解析要求，仅存在局部细节疏漏与小偏差，可明确修正完善。（非逐句人工审核）"
+}

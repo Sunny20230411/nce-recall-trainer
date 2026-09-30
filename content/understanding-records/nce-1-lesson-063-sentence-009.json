@@ -1,0 +1,142 @@
+{
+  "chinese": "医生，他发烧吗？",
+  "intent": "家长向接诊医生询问就诊的男孩是否存在体温升高、发烧的症状，属于求医对话中确认患者病情的一般疑问句。",
+  "comparison": {
+    "chinese": "中文常将称呼“医生”放在句首引导对话，也可放在问句末尾；英文这类一般疑问句需先将助动词Does提到句首，再依次说出主语、核心动作与病情，称呼doctor通常放在句末。",
+    "english": "Does he have a temperature, doctor?",
+    "steps": [
+      {
+        "label": "确定疑问起点",
+        "text": "Does he have a temperature",
+        "explanation": "Does位于句首，说明这是需要用“是/否”回答的一般疑问句；它是帮助实义动词have构成疑问的助动词，本身没有“做”的实义含义。"
+      },
+      {
+        "label": "还原陈述语序",
+        "text": "he has a temperature",
+        "explanation": "将疑问语序还原为陈述语序后，核心语义是“他有发烧症状”；此处have不表示“持有物品”，而是描述健康状况的系表类用法。"
+      },
+      {
+        "label": "称呼的位置差异",
+        "text": "doctor放在句尾",
+        "explanation": "doctor是对话中对医生的呼语，不参与句子主干的句法结构；中文可将其前置为“医生，他发烧吗”，英文习惯将呼语放在整句末尾。"
+      }
+    ],
+    "takeaway": "先通过句首的Does判断这是需要回答是否的一般疑问句，再按“他是否有发烧症状”理解核心语义，注意呼语doctor的位置在中英表达中存在差异。"
+  },
+  "backbone": {
+    "text": "Does he have a temperature?",
+    "meaning": "（理解用主干）询问对方是否存在发烧、体温升高的情况。"
+  },
+  "structureNotes": [
+    {
+      "title": "have a temperature是固定就医表达",
+      "text": "have a temperature不能直译为“有一个温度”，是日常问诊场景下表示“发烧、体温升高”的常用固定短语。"
+    },
+    {
+      "title": "does帮助构成一般现在时疑问",
+      "text": "主语he是第三人称单数，一般现在时下实义动词have的疑问形式需要将助动词does提至句首，主语后的have保持动词原形；does本身没有“做”的实义含义，仅承担语法功能。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Does",
+      "role": "助动词",
+      "explanation": "放在句首构成一般疑问句，辅助实义动词have完成第三人称单数现在时的疑问结构，自身无“做”的实义含义。"
+    },
+    {
+      "text": "he",
+      "role": "主语",
+      "explanation": "指代前文提到的就诊男孩，是“是否发烧”这一状态的描述主体。"
+    },
+    {
+      "text": "have a temperature",
+      "role": "谓语+宾语",
+      "explanation": "have是实义动词，a temperature是其宾语；该固定搭配在就医语境下表示“发烧、体温升高”，是句子的核心疑问内容。"
+    },
+    {
+      "text": "doctor",
+      "role": "呼语（对话称呼）",
+      "explanation": "标明这句话是家长对接诊医生说的，属于独立的对话称呼，不参与句子主干的句法关系。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Does",
+      "meaning": "（助动词，无实义，仅帮助构成第三人称单数一般现在时的疑问句式）",
+      "pos": "助动词",
+      "phonetic": "/dʌz/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词（主格）",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "have",
+      "meaning": "有（患病状态）",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "a",
+      "meaning": "（不定冠词，此处不单独译出）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "temperature,",
+      "meaning": "体温升高、发烧",
+      "pos": "名词",
+      "phonetic": "/ˈtemprətʃə(r)/"
+    },
+    {
+      "text": "doctor?",
+      "meaning": "医生",
+      "pos": "名词",
+      "phonetic": "/ˈdɒktə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Does",
+      "meaning": "（帮助构成疑问的助动词，无实义）",
+      "relation": "标记该句为一般疑问句，提示回答需要给出是或否的判断"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "relation": "指明被询问是否发烧的对象，即前文提到的男孩"
+    },
+    {
+      "text": "have a temperature,",
+      "meaning": "发烧、有体温升高的症状",
+      "relation": "说明向医生确认的核心病情问题"
+    },
+    {
+      "text": "doctor?",
+      "meaning": "医生",
+      "relation": "点明这句话的对话对象，是对接诊医生直接说话的称呼"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-63",
+  "sentenceId": "nce-1-lesson-063-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Does he have a temperature, doctor?",
+  "lesson": "Lesson 63 Thank you, doctor.",
+  "notes": [
+    {
+      "title": "have a temperature是固定就医表达",
+      "text": "have a temperature不能直译为“有一个温度”，是日常问诊场景下表示“发烧、体温升高”的常用固定短语。"
+    },
+    {
+      "title": "does帮助构成一般现在时疑问",
+      "text": "主语he是第三人称单数，一般现在时下实义动词have的疑问形式需要将助动词does提至句首，主语后的have保持动词原形；does本身没有“做”的实义含义，仅承担语法功能。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，核心语法判断、短语释义、称呼用法说明均符合原句语境；仅两处词项的音标需修正为英式重读并去除冗余说明，不影响整体内容有效性。（非逐句人工审核）"
+}

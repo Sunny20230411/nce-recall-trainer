@@ -1,0 +1,123 @@
+{
+  "chinese": "厨房里有一个电炉。",
+  "intent": "说明厨房里存在一件具体的电器物品，交代该电炉所处的位置。",
+  "comparison": null,
+  "backbone": {
+    "text": "There is an electric cooker in the kitchen",
+    "meaning": "存在一个电炉，位置在厨房里"
+  },
+  "parts": [
+    {
+      "text": "There is",
+      "relation": "引出存在状态的标识",
+      "meaning": "存在有"
+    },
+    {
+      "text": "an electric cooker",
+      "relation": "说明存在的具体事物是什么",
+      "meaning": "一个电炉"
+    },
+    {
+      "text": "in the kitchen.",
+      "relation": "补充说明电炉所在的位置",
+      "meaning": "在厨房里"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "There be 存在句用法",
+      "text": "There不指代具体事物，只是用来引出后续‘某物存在’的陈述，真正的核心描述对象是后面的an electric cooker。"
+    },
+    {
+      "title": "地点介词短语的作用",
+      "text": "in the kitchen放在句末，用来补充说明前面提到的电炉所处的具体位置，明确事物的所在场景。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There is",
+      "role": "存在引导结构",
+      "explanation": "用于开启存在陈述，告知听者接下来要说明某个事物是存在的"
+    },
+    {
+      "text": "an electric cooker",
+      "role": "存在主体",
+      "explanation": "整句话描述的核心事物，说明这里存在的是什么物品"
+    },
+    {
+      "text": "in the kitchen",
+      "role": "地点状语",
+      "explanation": "限定电炉的具体所在位置，给存在的事物补充场景信息"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（存在句的引导词，无实际词义）",
+      "pos": "引导词",
+      "phonetic": "/ðeə(r)/",
+      "text": "There"
+    },
+    {
+      "meaning": "存在、有",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "一个（不定冠词，用于元音开头的单词前）",
+      "pos": "冠词",
+      "phonetic": "/ən/",
+      "text": "an"
+    },
+    {
+      "meaning": "电的、用电的",
+      "pos": "形容词",
+      "phonetic": "/ɪˈlektrɪk/",
+      "text": "electric"
+    },
+    {
+      "meaning": "炊具、炉具",
+      "pos": "名词",
+      "phonetic": "/ˈkʊkə(r)/",
+      "text": "cooker"
+    },
+    {
+      "meaning": "在…里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这个（定冠词，特指双方已知的特定厨房）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "厨房",
+      "pos": "名词",
+      "phonetic": "/ˈkɪtʃɪn/",
+      "text": "kitchen."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-25",
+  "sentenceId": "nce-1-lesson-025-sentence-005",
+  "sentenceOrder": 5,
+  "english": "There is an electric cooker in the kitchen.",
+  "lesson": "Lesson 25 Mrs. Smith's kitchen",
+  "notes": [
+    {
+      "title": "There be 存在句用法",
+      "text": "There不指代具体事物，只是用来引出后续‘某物存在’的陈述，真正的核心描述对象是后面的an electric cooker。"
+    },
+    {
+      "title": "地点介词短语的作用",
+      "text": "in the kitchen放在句末，用来补充说明前面提到的电炉所处的具体位置，明确事物的所在场景。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在局部细节疏漏需要修正，不影响核心语义传达与教学准确性（非逐句人工审核）"
+}

@@ -1,0 +1,81 @@
+{
+  "chinese": "早上好，克罗夫特先生。",
+  "intent": "医护人员在诊室向前来就诊的克罗夫特先生致以晨间见面问候，开启本次就诊对话。",
+  "comparison": null,
+  "backbone": {
+    "text": "Good morning, Mr. Croft.",
+    "meaning": "晨间的见面问候语，向对话对象克罗夫特先生致意。"
+  },
+  "structureNotes": [
+    {
+      "title": "问候语的呼语位置",
+      "text": "Good morning 是晨间通用问候语，逗号后添加 Mr. Croft 作为呼语，明确问候的对象，日常打招呼时这类称呼可放在问候语之后。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Good morning,",
+      "role": "问候语",
+      "explanation": "英语中上午时段使用的通用问候表达，意为早安/早上好。"
+    },
+    {
+      "text": "Mr. Croft.",
+      "role": "呼语",
+      "explanation": "指明本次问候的对象是克罗夫特先生，属于对男性的礼貌称谓。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Good",
+      "meaning": "好的，此处与morning构成固定晨间问候语",
+      "pos": "形容词",
+      "phonetic": "/ɡʊd/"
+    },
+    {
+      "text": "morning,",
+      "meaning": "早晨，与Good搭配为固定问候语，意为早上好",
+      "pos": "名词",
+      "phonetic": "/ˈmɔːnɪŋ/"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生（用于男性姓氏前的礼貌称谓）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪstə(r)/"
+    },
+    {
+      "text": "Croft.",
+      "meaning": "克罗夫特（姓氏）",
+      "pos": "名词",
+      "phonetic": "/krɒft/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Good morning,",
+      "relation": "核心问候内容，传递晨间问候意图",
+      "meaning": "早上好"
+    },
+    {
+      "text": "Mr. Croft.",
+      "relation": "说明问候所指向的具体对象",
+      "meaning": "克罗夫特先生"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-77",
+  "sentenceId": "nce-1-lesson-077-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Good morning, Mr. Croft.",
+  "lesson": "Lesson 77 Terrible toothache",
+  "notes": [
+    {
+      "title": "问候语的呼语位置",
+      "text": "Good morning 是晨间通用问候语，逗号后添加 Mr. Croft 作为呼语，明确问候的对象，日常打招呼时这类称呼可放在问候语之后。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原内容整体语义、结构划分符合英语表达规范，但存在几处可优化的细节：1. 问候语Good morning在日常交际中属于固定惯用表达，作为独立词汇解释时Good单独标注为“好的”与晨间问候的语义不匹配，且未补充说明该固定搭配的整体含义；2. 单词拆分时将句末标点直接附着在词条上，不符合词汇释义的常规格式；3. 词根、结构的释义基本准确，无需额外调整。（非逐句人工审核）"
+}

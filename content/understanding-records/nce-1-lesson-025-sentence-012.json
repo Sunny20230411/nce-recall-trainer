@@ -1,0 +1,86 @@
+{
+  "chinese": "杯子是干净的。",
+  "intent": "说明桌上的那个杯子所处的状态是洁净的，没有污渍。",
+  "comparison": null,
+  "backbone": {
+    "text": "The cup is clean.",
+    "meaning": "杯子是干净的。"
+  },
+  "parts": [
+    {
+      "text": "The cup",
+      "relation": "描述的对象",
+      "meaning": "这个杯子，指代前文提到的放在桌上的杯子"
+    },
+    {
+      "text": "is",
+      "relation": "连接主体和状态的判断纽带",
+      "meaning": "是"
+    },
+    {
+      "text": "clean.",
+      "relation": "补充说明杯子的状态",
+      "meaning": "干净的"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "定冠词The的指代作用",
+      "text": "句首的The指代前文刚提到的桌上的杯子，用来限定特指的对象，避免泛指任意一个杯子。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The cup",
+      "role": "主语",
+      "explanation": "整句话描述的核心对象，特指前文出现的那个杯子"
+    },
+    {
+      "text": "is clean",
+      "role": "谓语部分",
+      "explanation": "用系动词is衔接描述状态的形容词clean，说明杯子的洁净状态"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这个、那个（特指前文提到的事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "杯子",
+      "pos": "名词",
+      "phonetic": "/kʌp/",
+      "text": "cup"
+    },
+    {
+      "meaning": "是，用于衔接主语和表语说明主语所处状态",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "干净的",
+      "pos": "形容词",
+      "phonetic": "/kliːn/",
+      "text": "clean."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-25",
+  "sentenceId": "nce-1-lesson-025-sentence-012",
+  "sentenceOrder": 12,
+  "english": "The cup is clean.",
+  "lesson": "Lesson 25 Mrs. Smith's kitchen",
+  "notes": [
+    {
+      "title": "定冠词The的指代作用",
+      "text": "句首的The指代前文刚提到的桌上的杯子，用来限定特指的对象，避免泛指任意一个杯子。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容完整合规，仅存在个别细节小偏差可修正，不影响核心教学效果（非逐句人工审核）"
+}

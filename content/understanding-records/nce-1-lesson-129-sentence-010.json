@@ -1,0 +1,167 @@
+{
+  "chinese": "亲爱的，你总是告诉我要开慢点。",
+  "intent": "回应驾车建议，略带无奈地指出对方一贯提醒自己减速驾驶。",
+  "comparison": {
+    "chinese": "亲爱的，你总是叫我开慢一点。",
+    "english": "You always tell me to drive slowly, darling.",
+    "steps": [
+      {
+        "label": "称呼语位置",
+        "text": "darling 放在句末。",
+        "explanation": "中文习惯把亲爱的放在句首作呼语，英语可把同样的亲密称呼放到句末，不影响句子主干。"
+      },
+      {
+        "label": "建议结构",
+        "text": "tell me to drive slowly。",
+        "explanation": "英语用 tell 引出被建议对象 me，再接 to drive slowly 表示具体要求；中文自然说成叫我开慢一点。"
+      }
+    ],
+    "takeaway": "抓住 tell me to do sth. 这一结构，再调整呼语位置，就能理解这句回应。"
+  },
+  "backbone": {
+    "text": "You always tell me to drive slowly",
+    "meaning": "你总是叫我开慢一点。"
+  },
+  "structureNotes": [
+    {
+      "title": "tell me to drive slowly",
+      "text": "这是“tell + 人 + to do”结构，表示告诉某人去做某事；to drive slowly 是告诉的具体内容。"
+    },
+    {
+      "title": "always 的位置",
+      "text": "always 放在实义动词 tell 前面，表示这种提醒一贯如此，带有一点重复和无奈的语气。"
+    },
+    {
+      "title": "句末 darling",
+      "text": "darling 是呼语，放在句末，用来称呼对方，不影响句子主干意思。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "You",
+      "role": "主语",
+      "explanation": "句子描述的动作发出者，即一直提醒对方开车慢点的人。"
+    },
+    {
+      "text": "always",
+      "role": "频度状语",
+      "explanation": "修饰动词 tell，表示这种提醒一贯、经常发生。"
+    },
+    {
+      "text": "tell",
+      "role": "谓语动词",
+      "explanation": "表达“告诉、吩咐”这一核心动作。"
+    },
+    {
+      "text": "me",
+      "role": "间接宾语",
+      "explanation": "是 tell 的对象，也就是被告诉的人。"
+    },
+    {
+      "text": "to drive slowly",
+      "role": "宾语补足语",
+      "explanation": "补充说明 tell me 的具体内容：要我开慢一点。"
+    },
+    {
+      "text": "darling.",
+      "role": "呼语",
+      "explanation": "放在句末的亲密称呼，用来直接对对方说话。"
+    }
+  ],
+  "words": [
+    {
+      "text": "You",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "tell",
+      "meaning": "告诉，吩咐",
+      "pos": "动词",
+      "phonetic": "/tel/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "to",
+      "meaning": "（引出不定式）",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "drive",
+      "meaning": "开车",
+      "pos": "动词",
+      "phonetic": "/draɪv/"
+    },
+    {
+      "text": "slowly,",
+      "meaning": "缓慢地",
+      "pos": "副词",
+      "phonetic": "/ˈsləʊli/"
+    },
+    {
+      "text": "darling.",
+      "meaning": "亲爱的",
+      "pos": "名词",
+      "phonetic": "/ˈdɑːlɪŋ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "You",
+      "relation": "描述动作的发出者",
+      "meaning": "你"
+    },
+    {
+      "text": "always tell",
+      "relation": "说明动作发生的频率，句子的核心动作",
+      "meaning": "总是告诉"
+    },
+    {
+      "text": "me to drive slowly,",
+      "relation": "补充告诉的对象和具体内容",
+      "meaning": "告诉我要开慢点，"
+    },
+    {
+      "text": "darling.",
+      "relation": "直接称呼对方，点明对话对象",
+      "meaning": "亲爱的。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-129",
+  "sentenceId": "nce-1-lesson-129-sentence-010",
+  "sentenceOrder": 10,
+  "english": "You always tell me to drive slowly, darling.",
+  "lesson": "Lesson 129 Seventy miles an hour",
+  "notes": [
+    {
+      "title": "tell me to drive slowly",
+      "text": "这是“tell + 人 + to do”结构，表示告诉某人去做某事；to drive slowly 是告诉的具体内容。"
+    },
+    {
+      "title": "always 的位置",
+      "text": "always 放在实义动词 tell 前面，表示这种提醒一贯如此，带有一点重复和无奈的语气。"
+    },
+    {
+      "title": "句末 darling",
+      "text": "darling 是呼语，放在句末，用来称呼对方，不影响句子主干意思。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干与中文自然一致，tell me to do 结构、always 位置和句末 darling 呼语解释正确。两处可明确修正：You 是发出提醒的人而非被提醒开车的人；slowly 词条不要把状语释义与标点提示混写。其余分块、比较和主干保持原样。（非逐句人工审核）"
+}

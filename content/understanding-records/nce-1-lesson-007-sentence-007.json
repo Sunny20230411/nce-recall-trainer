@@ -1,0 +1,86 @@
+{
+  "chinese": "你是哪国人？",
+  "intent": "询问对方的国籍身份",
+  "comparison": null,
+  "backbone": {
+    "text": "What nationality are you?",
+    "meaning": "询问对方属于哪一个国家的国民"
+  },
+  "parts": [
+    {
+      "text": "What nationality",
+      "relation": "说明要询问的具体内容",
+      "meaning": "什么国籍"
+    },
+    {
+      "text": "are",
+      "relation": "连接询问内容和询问对象的系动词",
+      "meaning": "是"
+    },
+    {
+      "text": "you?",
+      "relation": "指定被询问的对象",
+      "meaning": "你"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "疑问词位置",
+      "text": "本句将疑问短语What nationality放在句首，系动词are提前到主语you之前，构成针对身份属性的标准疑问语序。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What nationality",
+      "role": "疑问名词短语",
+      "explanation": "用来引出关于国籍信息的询问，指明要获取的信息类型"
+    },
+    {
+      "text": "are you",
+      "role": "系表疑问结构",
+      "explanation": "通过系动词前置的倒装形式，完成对主语you的身份属性的提问"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "什么",
+      "pos": "pronoun",
+      "phonetic": "/wɒt/",
+      "text": "What"
+    },
+    {
+      "meaning": "国籍",
+      "pos": "noun",
+      "phonetic": "/ˌnæʃəˈnæləti/",
+      "text": "nationality"
+    },
+    {
+      "meaning": "是",
+      "pos": "verb",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "你",
+      "pos": "pronoun",
+      "phonetic": "/juː/",
+      "text": "you?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-7",
+  "sentenceId": "nce-1-lesson-007-sentence-007",
+  "sentenceOrder": 7,
+  "english": "What nationality are you?",
+  "lesson": "Lesson 7 Are you a teacher?",
+  "notes": [
+    {
+      "title": "疑问词位置",
+      "text": "本句将疑问短语What nationality放在句首，系动词are提前到主语you之前，构成针对身份属性的标准疑问语序。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合教学要求，仅存在少量细节错误可明确修正，无核心语法或释义偏差（非逐句人工审核）"
+}

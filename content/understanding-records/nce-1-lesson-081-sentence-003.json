@@ -1,0 +1,106 @@
+{
+  "chinese": "他在楼上。他正在洗澡。",
+  "intent": "回答“汤姆在哪儿”的问话，先说明位置，再补充他此刻正在做的事。",
+  "comparison": null,
+  "backbone": {
+    "text": "He's upstairs. He's having a bath.",
+    "meaning": "他人在楼上，此刻正在洗澡。"
+  },
+  "structureNotes": [
+    {
+      "title": "地点副词直接作表语",
+      "text": "upstairs 是表示位置方向的副词，放在 He's 后面直接说明人所在的位置，不需要额外的介词 to / at 来引导地点。"
+    },
+    {
+      "title": "现在进行时描述当下动作",
+      "text": "后一句用 He's having a bath 表示说话当下他正在洗澡，am/is/are + 动词-ing 是现在进行时的标准形式。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He's upstairs.",
+      "role": "第一分句",
+      "explanation": "回答前文 Where's Tom? 的问题，直接给出 Tom 所在的位置。"
+    },
+    {
+      "text": "He's having a bath.",
+      "role": "第二分句",
+      "explanation": "用现在进行时补充说明 Tom 当下正在进行的动作。"
+    },
+    {
+      "text": "having a bath",
+      "role": "谓语核心",
+      "explanation": "由现在分词 having 和宾语 a bath 构成，搭配后表示“洗澡”这一日常动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He's",
+      "meaning": "他是（he is 的缩写）",
+      "pos": "缩写形式（代词+系动词）",
+      "phonetic": "hiːz"
+    },
+    {
+      "text": "upstairs.",
+      "meaning": "在楼上；副词作表语表示位置",
+      "pos": "副词",
+      "phonetic": "ˌʌpˈsteəz"
+    },
+    {
+      "text": "He's",
+      "meaning": "他正在（he is 的缩写，此处 is 为现在进行时助动词）",
+      "pos": "缩写形式（代词+助动词）",
+      "phonetic": "hiːz"
+    },
+    {
+      "text": "having",
+      "meaning": "进行（have 的现在分词，have a bath 为固定搭配，表示洗澡）",
+      "pos": "动词现在分词",
+      "phonetic": "ˈhævɪŋ"
+    },
+    {
+      "text": "a",
+      "meaning": "一个；此处和 bath 构成固定搭配",
+      "pos": "不定冠词",
+      "phonetic": "ə"
+    },
+    {
+      "text": "bath.",
+      "meaning": "洗澡；沐浴",
+      "pos": "名词",
+      "phonetic": "bɑːθ"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He's upstairs.",
+      "relation": "回答关于汤姆位置的提问。",
+      "meaning": "他在楼上。"
+    },
+    {
+      "text": "He's having a bath.",
+      "relation": "补充说明他此刻正在做的动作。",
+      "meaning": "他正在洗澡。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-81",
+  "sentenceId": "nce-1-lesson-081-sentence-003",
+  "sentenceOrder": 3,
+  "english": "He's upstairs. He's having a bath.",
+  "lesson": "Lesson 81 Roast beef and potatoes",
+  "notes": [
+    {
+      "title": "地点副词直接作表语",
+      "text": "upstairs 是表示位置方向的副词，放在 He's 后面直接说明人所在的位置，不需要额外的介词 to / at 来引导地点。"
+    },
+    {
+      "title": "现在进行时描述当下动作",
+      "text": "后一句用 He's having a bath 表示说话当下他正在洗澡，am/is/are + 动词-ing 是现在进行时的标准形式。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：译文、主干、结构和分块关系基本正确；仅个别词性标注过细或误将句末标点归入词条，需作温和规范化。（非逐句人工审核）"
+}

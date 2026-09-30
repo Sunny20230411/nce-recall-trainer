@@ -1,0 +1,150 @@
+{
+  "chinese": "但今天下午，她正在花园里喝茶。",
+  "intent": "对比说明今天下午的当下行为和往常惯例不同，点明此刻她正在做的事，补充动作发生的位置。",
+  "comparison": null,
+  "backbone": {
+    "text": "she is drinking tea",
+    "meaning": "她正在喝茶"
+  },
+  "structureNotes": [
+    {
+      "title": "现在进行时的当下场景",
+      "text": "be动词is加动词-ing形式drinking，表示说话当下正在进行的动作，区别于前一句里通常喝茶的一般现在时。"
+    },
+    {
+      "title": "时间点前置",
+      "text": "this afternoon放在句首强调时间是今天下午这一特定时段，和前文的usually形成反差。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "But",
+      "role": "转折连词",
+      "explanation": "But承接前一句的惯常情况，和前文通常在客厅喝茶的常规行为形成转折。"
+    },
+    {
+      "text": "this afternoon,",
+      "role": "时间状语",
+      "explanation": "点明今天下午这个特定的时间点，和前文的usually形成时间上的反差。"
+    },
+    {
+      "text": "she",
+      "role": "主语",
+      "explanation": "指代前文提到的Mrs. Sawyer，是喝茶动作的发出者。"
+    },
+    {
+      "text": "is drinking",
+      "role": "现在进行时谓语",
+      "explanation": "表示此刻正在进行的动作，和前一句的一般现在时drinks形成时态对照。"
+    },
+    {
+      "text": "tea",
+      "role": "动词宾语",
+      "explanation": "drink所支配的对象，也就是茶。"
+    },
+    {
+      "text": "in the garden.",
+      "role": "地点状语",
+      "explanation": "说明喝茶这个动作发生的地点是花园，对应前一句通常在客厅喝茶的地点差异。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/",
+      "text": "But"
+    },
+    {
+      "meaning": "这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "下午；（句中带逗号停顿）",
+      "pos": "名词",
+      "phonetic": "/ˌɑːftəˈnuːn/",
+      "text": "afternoon,"
+    },
+    {
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/",
+      "text": "she"
+    },
+    {
+      "meaning": "（与doing连用构成现在进行时，无实义）",
+      "pos": "助动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "喝（现在分词形式）",
+      "pos": "动词",
+      "phonetic": "/ˈdrɪŋkɪŋ/",
+      "text": "drinking"
+    },
+    {
+      "meaning": "茶",
+      "pos": "名词",
+      "phonetic": "/tiː/",
+      "text": "tea"
+    },
+    {
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "（特指该处的花园）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "花园；（句末带句号）",
+      "pos": "名词",
+      "phonetic": "/ˈɡɑːdn/",
+      "text": "garden."
+    }
+  ],
+  "parts": [
+    {
+      "text": "But this afternoon,",
+      "relation": "用转折语气承接前文的惯常状态，点明今天下午这个特殊时间点，引出和往常不一样的行为。",
+      "meaning": "但今天下午，"
+    },
+    {
+      "text": "she is drinking tea",
+      "relation": "说明她当下正在进行的动作，是整句的核心主干。",
+      "meaning": "她正在喝茶。"
+    },
+    {
+      "text": "in the garden.",
+      "relation": "补充说明喝茶这个动作发生的具体位置，和前文通常在客厅喝茶形成地点对比。",
+      "meaning": "在花园里。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-57",
+  "sentenceId": "nce-1-lesson-057-sentence-005",
+  "sentenceOrder": 5,
+  "english": "But this afternoon, she is drinking tea in the garden.",
+  "lesson": "Lesson 57 An unusual day",
+  "notes": [
+    {
+      "title": "现在进行时的当下场景",
+      "text": "be动词is加动词-ing形式drinking，表示说话当下正在进行的动作，区别于前一句里通常喝茶的一般现在时。"
+    },
+    {
+      "title": "时间点前置",
+      "text": "this afternoon放在句首强调时间是今天下午这一特定时段，和前文的usually形成反差。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析事实准确，仅存在一处分类偏差：原文中this afternoon实际为修饰全句的时间状语，当前将this单独标注为限定词的拆分方式不符合当前以意群为单位的成分标注规则，该问题不影响核心语义的理解，属于可明确修正的细节。其余中文翻译、句子主干、语法时态说明、词汇音标与释义、分块语义均符合上下文语境，无事实错误或概念混淆。（非逐句人工审核）"
+}

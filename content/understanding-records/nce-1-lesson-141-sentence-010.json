@@ -1,0 +1,133 @@
+{
+  "chinese": "‘你为什么要那样做？’萨莉问。",
+  "intent": "还原场景中萨莉的直接引语，并点明这句话是谁说的；Why 是问原因，不是在问“那是什么”。",
+  "comparison": {
+    "chinese": "英语常把直接引语前置，再后置Sally asked点明说话人；中文习惯把说话人放在引语之前译作“萨莉问：‘……’”，也可保留引语在前的自然译法。",
+    "english": "'Why are you doing that?' Sally asked.",
+    "steps": [
+      {
+        "label": "先确认引语内的疑问核心",
+        "text": "Why are you doing that?",
+        "explanation": "Why是疑问副词，询问原因；you是主语，are doing是现在进行时的复合谓语，that指代对方此刻正在做的动作，整体是萨莉提出的特殊疑问句。"
+      },
+      {
+        "label": "再梳理引述框架",
+        "text": "Sally asked.",
+        "explanation": "Sally是引述分句的主语，asked是谓语，说明前面引号内的话是萨莉提出的问题，不是叙述者的旁白，引述分句后无需额外宾语。"
+      }
+    ],
+    "takeaway": "理解时先抓住引语内的疑问核心“你为什么在做那件事”，再通过后置的Sally asked判断说话人，不要把Why误认为定语或把引述分句当成完整问句。"
+  },
+  "backbone": {
+    "text": "Why are you doing that? Sally asked.",
+    "meaning": "萨莉问对方为什么正在做某件事。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语后置说话人",
+      "text": "引号内是萨莉的原话，Sally asked 交代说话人；引语为问句时句末问号仍放在引号内，asked 后用句号表示叙述结束。"
+    },
+    {
+      "title": "Why 提问的位置",
+      "text": "Why 放在句首询问原因，are 移到 you 前，形成现在进行时疑问句：are doing 表示此刻正在进行的动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'Why are you doing that?'",
+      "role": "直接引语",
+      "explanation": "引号内是萨莉说出的原话，整体作asked的直接引语成分；引语本身是特殊疑问句，句末问号保留在引号内。"
+    },
+    {
+      "text": "Why",
+      "role": "疑问副词",
+      "explanation": "放在引语句首，专门询问对方正在做这件事的原因，不是在描述that。"
+    },
+    {
+      "text": "are you doing that?",
+      "role": "引语内主句",
+      "explanation": "现在进行时疑问结构；you是主语，are doing是复合谓语，that指代对方刚才正在做的动作。"
+    },
+    {
+      "text": "Sally asked.",
+      "role": "引述分句",
+      "explanation": "Sally是说话人主语，asked是谓语，说明前面引号里的话由萨莉提出，该句子是零宾语结构，不需要额外成分补全意思。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'Why",
+      "meaning": "为什么",
+      "pos": "疑问副词",
+      "phonetic": "waɪ"
+    },
+    {
+      "text": "are",
+      "meaning": "助动词，与现在分词构成进行时",
+      "pos": "动词",
+      "phonetic": "ɑː(r)"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "juː"
+    },
+    {
+      "text": "doing",
+      "meaning": "做（do的现在分词）",
+      "pos": "动词",
+      "phonetic": "ˈduːɪŋ"
+    },
+    {
+      "text": "that?'",
+      "meaning": "那（指代对方正在做的事）",
+      "pos": "代词",
+      "phonetic": "ðæt"
+    },
+    {
+      "text": "Sally",
+      "meaning": "萨莉（人名）",
+      "pos": "名词",
+      "phonetic": "ˈsæli"
+    },
+    {
+      "text": "asked.",
+      "meaning": "问",
+      "pos": "动词",
+      "phonetic": "ɑːskt"
+    }
+  ],
+  "parts": [
+    {
+      "text": "'Why are you doing that?'",
+      "relation": "直接引语",
+      "meaning": "‘你为什么要那样做？’"
+    },
+    {
+      "text": "Sally asked.",
+      "relation": "说明这句话由谁说出",
+      "meaning": "萨莉问。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-141",
+  "sentenceId": "nce-1-lesson-141-sentence-010",
+  "sentenceOrder": 10,
+  "english": "'Why are you doing that?' Sally asked.",
+  "lesson": "Lesson 141 Sally's first train ride",
+  "notes": [
+    {
+      "title": "直接引语后置说话人",
+      "text": "引号内是萨莉的原话，Sally asked 交代说话人；引语为问句时句末问号仍放在引号内，asked 后用句号表示叙述结束。"
+    },
+    {
+      "title": "Why 提问的位置",
+      "text": "Why 放在句首询问原因，are 移到 you 前，形成现在进行时疑问句：are doing 表示此刻正在进行的动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：该句整体拆解准确，清晰区分了引述叙述部分与引号内的直接疑问句，正确指出Why为疑问副词、引语内使用现在进行时、Sally为引述分句主语；存在少量可明确修正的细节错误：词汇表中Why的文本残留前引号、结构分析中对引语宾语的表述模糊、引述分句缺少对句子零宾语的补充说明，其余内容均符合语境与语法规则。（非逐句人工审核）"
+}

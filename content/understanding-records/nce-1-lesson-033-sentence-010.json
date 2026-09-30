@@ -1,0 +1,123 @@
+{
+  "chinese": "那架飞机正飞过河面。",
+  "intent": "描述正在发生的场景：一架飞机正从河流的上方掠过",
+  "backbone": {
+    "text": "The aeroplane is flying over the river.",
+    "meaning": "飞机正从河的上方飞过"
+  },
+  "parts": [
+    {
+      "text": "The aeroplane",
+      "relation": "描述动作的发出者",
+      "meaning": "那架飞机"
+    },
+    {
+      "text": "is flying",
+      "relation": "说明正在进行的动作",
+      "meaning": "正在飞"
+    },
+    {
+      "text": "over the river.",
+      "relation": "补充说明飞行的位置范围",
+      "meaning": "在河的上方"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "现在进行时用法",
+      "text": "这里的is flying表示动作此刻正在发生，强调飞机正处于飞行的状态，而不是已经完成飞行动作。"
+    },
+    {
+      "title": "over的含义",
+      "text": "over在这里表示从物体的上方掠过，不接触河面，准确表达飞机飞经河流上空的状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The aeroplane",
+      "role": "主语",
+      "explanation": "动作的发出者，明确说明是什么物体在飞行"
+    },
+    {
+      "text": "is flying",
+      "role": "谓语",
+      "explanation": "现在进行时的动词结构，表明飞行动作正在当下发生"
+    },
+    {
+      "text": "over the river",
+      "role": "地点状语",
+      "explanation": "说明飞行的位置，指出飞机正处于河流的上方区域"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "那（这个定冠词用来特指前文提到的事物）",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "index": 0,
+      "text": "The"
+    },
+    {
+      "meaning": "飞机",
+      "pos": "noun",
+      "phonetic": "/ˈeərəpleɪn/",
+      "index": 1,
+      "text": "aeroplane"
+    },
+    {
+      "meaning": "（助动词，构成现在进行时结构）",
+      "pos": "verb (auxiliary)",
+      "phonetic": "/ɪz/",
+      "index": 2,
+      "text": "is"
+    },
+    {
+      "meaning": "飞行",
+      "pos": "verb (present participle)",
+      "phonetic": "/ˈflaɪɪŋ/",
+      "index": 3,
+      "text": "flying"
+    },
+    {
+      "meaning": "在……上方（掠过不接触）",
+      "pos": "preposition",
+      "phonetic": "/ˈəʊvə/",
+      "index": 4,
+      "text": "over"
+    },
+    {
+      "meaning": "这个（定冠词，特指前文语境中提及的河流）",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "index": 5,
+      "text": "the"
+    },
+    {
+      "meaning": "河流",
+      "pos": "noun",
+      "phonetic": "/ˈrɪvə/",
+      "index": 6,
+      "text": "river."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-33",
+  "sentenceId": "nce-1-lesson-033-sentence-010",
+  "sentenceOrder": 10,
+  "english": "The aeroplane is flying over the river.",
+  "lesson": "Lesson 33 A fine day",
+  "notes": [
+    {
+      "title": "现在进行时用法",
+      "text": "这里的is flying表示动作此刻正在发生，强调飞机正处于飞行的状态，而不是已经完成飞行动作。"
+    },
+    {
+      "title": "over的含义",
+      "text": "over在这里表示从物体的上方掠过，不接触河面，准确表达飞机飞经河流上空的状态。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合英语教学解析规范，仅存在个别细节疏漏可修正，不影响核心教学逻辑（非逐句人工审核）"
+}

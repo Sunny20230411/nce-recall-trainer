@@ -1,0 +1,108 @@
+{
+  "chinese": "现在短裙很流行。",
+  "intent": "说明当下的流行趋势，点明短裙目前正处于流行状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "Short skirts are in fashion.",
+    "meaning": "短裙很流行。"
+  },
+  "structureNotes": [
+    {
+      "title": "in fashion 是表语，不是地点",
+      "text": "in 在这里不是表示在某个空间里面，in fashion 是固定短语，意思是“时尚的、流行的”，跟在 are 后面说明主语的状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Short skirts",
+      "role": "主语",
+      "explanation": "句子描述的对象，short 修饰 skirts，指短款的裙子。"
+    },
+    {
+      "text": "are",
+      "role": "连系动词",
+      "explanation": "连接主语和后面的表语，体现一般现在时，说明当前的状态。"
+    },
+    {
+      "text": "in fashion",
+      "role": "表语",
+      "explanation": "固定短语，意思是流行、时尚，用来说明主语所处的流行状态。"
+    },
+    {
+      "text": "now",
+      "role": "时间状语",
+      "explanation": "修饰整个句子，点明当下的时间范围。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Short",
+      "meaning": "短的",
+      "pos": "形容词",
+      "phonetic": "/ʃɔːt/"
+    },
+    {
+      "text": "skirts",
+      "meaning": "裙子",
+      "pos": "名词复数",
+      "phonetic": "/skɜːts/"
+    },
+    {
+      "text": "are",
+      "meaning": "是",
+      "pos": "连系动词（be 的复数一般现在时形式）",
+      "phonetic": "/ɑː/"
+    },
+    {
+      "text": "in",
+      "meaning": "（与名词搭配表示处于某种状态）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "fashion",
+      "meaning": "时尚，流行",
+      "pos": "名词",
+      "phonetic": "/ˈfæʃn/"
+    },
+    {
+      "text": "now.",
+      "meaning": "现在",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Short skirts",
+      "meaning": "短裙",
+      "relation": "描述的主体"
+    },
+    {
+      "text": "are in fashion",
+      "meaning": "正处于流行状态",
+      "relation": "说明主语当前的流行状态"
+    },
+    {
+      "text": "now.",
+      "meaning": "现在。",
+      "relation": "补充说明流行状态的时间，指当下。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-107",
+  "sentenceId": "nce-1-lesson-107-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Short skirts are in fashion now.",
+  "lesson": "Lesson 107 It's too small.",
+  "notes": [
+    {
+      "title": "in fashion 是表语，不是地点",
+      "text": "in 在这里不是表示在某个空间里面，in fashion 是固定短语，意思是“时尚的、流行的”，跟在 are 后面说明主语的状态。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：核心句意、成分划分、固定短语表语说明和译文主干均正确；仅 are 的释义与词类标注、个别表述存在冗余或语法性质可更精确之处，故小修后通过。（非逐句人工审核）"
+}

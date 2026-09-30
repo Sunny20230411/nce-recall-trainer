@@ -1,0 +1,210 @@
+{
+  "chinese": "我觉得那件蓝色连衣裙比这件绿色的更漂亮。而且也更大。",
+  "intent": "表达对蓝色连衣裙的正面评价，通过与绿色连衣裙对比，说明蓝色连衣裙不仅外观更漂亮，尺寸也更合适。",
+  "comparison": {
+    "chinese": "中文先点明判断来源是个人看法，再说蓝色连衣裙比绿色的更漂亮，最后补充它也更大。",
+    "english": "英语先用 I think（我觉得）引出判断，再用宾语从句说明两件连衣裙在外观上的对比，最后用 and 连接的并列分句补充蓝色连衣裙尺寸也更大的第二点优势。",
+    "steps": [
+      {
+        "label": "先说判断来源",
+        "text": "I think…",
+        "explanation": "先说“我觉得”，明确后面是个人主观看法，而非绝对事实。"
+      },
+      {
+        "label": "对比两件连衣裙",
+        "text": "the blue dress is more beautiful than the green one",
+        "explanation": "more beautiful 是多音节形容词 beautiful 的比较级，than 引出对比对象；用 one 代指前面的 dress，避免重复“绿色连衣裙”这一整串说法。"
+      },
+      {
+        "label": "补充第二点优势",
+        "text": "And it's bigger, too.",
+        "explanation": "it 指代前面提到的蓝色连衣裙，too 表示“也”，说明蓝色连衣裙除了更漂亮之外，尺寸也更大。"
+      }
+    ],
+    "takeaway": "more beautiful 是多音节形容词的比较级形式，one 用来替代前面提到的同类名词 dress，避免重复啰嗦。"
+  },
+  "backbone": {
+    "text": "我认为蓝色连衣裙比绿色的更漂亮，而且它也更大。",
+    "meaning": "通过对比两件连衣裙的外观和尺寸，说明蓝色连衣裙在两方面都更有优势。"
+  },
+  "structureNotes": [
+    {
+      "title": "比较级结构",
+      "text": "more beautiful 是多音节形容词 beautiful 的比较级，后面用 than 引出比较的对象，即绿色连衣裙。"
+    },
+    {
+      "title": "代词 one 的用法",
+      "text": "the green one 中的 one 指代前面提到的 dress，也就是“绿色的那件连衣裙”，这样表达简洁，避免重复说 the green dress。"
+    },
+    {
+      "title": "代词 it 的指代",
+      "text": "后一句的 it 指代前面提到的 the blue dress，也就是蓝色连衣裙，too 表示“也”，补充第二点优势。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I think",
+      "role": "主句（陈述观点的主谓部分）",
+      "explanation": "表达个人观点，引出后面的宾语从句，说明后面的内容是说话人的主观看法。"
+    },
+    {
+      "text": "the blue dress is more beautiful than the green one.",
+      "role": "宾语从句",
+      "explanation": "作 think 的宾语，说明说话人具体的看法；从句内部是比较级结构，对比蓝色和绿色两件连衣裙的漂亮程度。"
+    },
+    {
+      "text": "And it's bigger, too.",
+      "role": "并列分句",
+      "explanation": "用 and 连接，补充说明蓝色连衣裙的第二个特点——尺寸更大，it 指代前面的 the blue dress。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "think",
+      "meaning": "认为",
+      "pos": "动词",
+      "phonetic": "/θɪŋk/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，这里特指提及的连衣裙",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "blue",
+      "meaning": "蓝色的",
+      "pos": "形容词",
+      "phonetic": "/bluː/"
+    },
+    {
+      "text": "dress",
+      "meaning": "连衣裙",
+      "pos": "名词",
+      "phonetic": "/dres/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be 动词第三人称单数）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "more",
+      "meaning": "更（用于构成多音节形容词的比较级）",
+      "pos": "副词",
+      "phonetic": "/mɔː(r)/"
+    },
+    {
+      "text": "beautiful",
+      "meaning": "漂亮的",
+      "pos": "形容词",
+      "phonetic": "/ˈbjuːtɪfl/"
+    },
+    {
+      "text": "than",
+      "meaning": "比（用于引出比较对象）",
+      "pos": "介词",
+      "phonetic": "/ðæn/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，这里特指提及的连衣裙",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "green",
+      "meaning": "绿色的",
+      "pos": "形容词",
+      "phonetic": "/ɡriːn/"
+    },
+    {
+      "text": "one.",
+      "meaning": "替代前面提到的同类单数名词（此处指连衣裙）",
+      "pos": "代词",
+      "phonetic": "/wʌn/"
+    },
+    {
+      "text": "And",
+      "meaning": "而且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "it's",
+      "meaning": "它是（it is 的缩写，it 指代蓝色连衣裙）",
+      "pos": "代词+动词缩写",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "bigger,",
+      "meaning": "更大的（big 的比较级）",
+      "pos": "形容词",
+      "phonetic": "/ˈbɪɡə(r)/"
+    },
+    {
+      "text": "too.",
+      "meaning": "也",
+      "pos": "副词",
+      "phonetic": "/tuː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I think",
+      "meaning": "我认为",
+      "relation": "引出个人观点，说明后面内容是主观看法。"
+    },
+    {
+      "text": "the blue dress",
+      "meaning": "那件蓝色连衣裙",
+      "relation": "宾语从句的主语，是评价的核心对象。"
+    },
+    {
+      "text": "is more beautiful than the green one.",
+      "meaning": "比这件绿色的更漂亮",
+      "relation": "描述蓝色连衣裙的外观特点，是宾语从句的谓语部分，通过和绿色连衣裙对比体现优势。"
+    },
+    {
+      "text": "And it's",
+      "meaning": "而且它是",
+      "relation": "连接并列分句，it 指代前面的蓝色连衣裙。"
+    },
+    {
+      "text": "bigger, too.",
+      "meaning": "也更大。",
+      "relation": "补充蓝色连衣裙的尺寸特点，说明它除了更漂亮之外，尺寸也更大。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-107",
+  "sentenceId": "nce-1-lesson-107-sentence-016",
+  "sentenceOrder": 16,
+  "english": "I think the blue dress is more beautiful than the green one. And it's bigger, too.",
+  "lesson": "Lesson 107 It's too small.",
+  "notes": [
+    {
+      "title": "比较级结构",
+      "text": "more beautiful 是多音节形容词 beautiful 的比较级，后面用 than 引出比较的对象，即绿色连衣裙。"
+    },
+    {
+      "title": "代词 one 的用法",
+      "text": "the green one 中的 one 指代前面提到的 dress，也就是“绿色的那件连衣裙”，这样表达简洁，避免重复说 the green dress。"
+    },
+    {
+      "title": "代词 it 的指代",
+      "text": "后一句的 it 指代前面提到的 the blue dress，也就是蓝色连衣裙，too 表示“也”，补充第二点优势。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅存在小的术语表述和词汇分块错误，均可修正。主要问题：将 I think 标注为主句表述不够规范，应改为“主句（陈述观点的主谓部分）”；单词分块时错误将句号和逗号纳入词汇文本，且 one 的词义误写为“一件”、more 的词性标注为限定词不准确，其余结构、释义、对比逻辑均符合原文语境。（非逐句人工审核）"
+}

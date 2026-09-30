@@ -1,0 +1,105 @@
+{
+  "chinese": "音响靠近门。",
+  "intent": "说明房间里音响所在的具体位置",
+  "backbone": {
+    "text": "The stereo is near the door",
+    "meaning": "音响在门的附近"
+  },
+  "parts": [
+    {
+      "text": "The stereo",
+      "relation": "描述动作/状态的主体",
+      "meaning": "音响（特指前文提到的那台音响）"
+    },
+    {
+      "text": "is",
+      "relation": "引出主体的位置状态",
+      "meaning": "处于（某种位置状态）"
+    },
+    {
+      "text": "near the door.",
+      "relation": "补充说明主体所处的位置",
+      "meaning": "在门的附近"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "定冠词The的指代作用",
+      "text": "句首的The承接前文提到过的stereo，明确指的是房间里已提及的那台音响，不是任意一台音响。"
+    },
+    {
+      "title": "near引导的位置表达",
+      "text": "near在这里作介词，直接带出参照对象the door，说明音响和门的相对距离很近。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The stereo",
+      "role": "主语名词短语",
+      "explanation": "指明要描述的对象，也就是前文提到的那台音响"
+    },
+    {
+      "text": "is near the door",
+      "role": "谓语部分",
+      "explanation": "说明主语所处的位置状态，完整交代音响和门的相对位置关系"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这个/这些（特指前文提及的事物）",
+      "pos": "definite article",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "立体声音响设备",
+      "pos": "noun",
+      "phonetic": "/ˈsteriəʊ/",
+      "text": "stereo"
+    },
+    {
+      "meaning": "处于（某种状态/位置）",
+      "pos": "verb",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "在……附近",
+      "pos": "preposition",
+      "phonetic": "/nɪə/",
+      "text": "near"
+    },
+    {
+      "meaning": "这个/这些（特指后文提到的事物）",
+      "pos": "definite article",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "门",
+      "pos": "noun",
+      "phonetic": "/dɔː/",
+      "text": "door."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-27",
+  "sentenceId": "nce-1-lesson-027-sentence-010",
+  "sentenceOrder": 10,
+  "english": "The stereo is near the door.",
+  "lesson": "Lesson 27 Mrs. Smith's living room",
+  "notes": [
+    {
+      "title": "定冠词The的指代作用",
+      "text": "句首的The承接前文提到过的stereo，明确指的是房间里已提及的那台音响，不是任意一台音响。"
+    },
+    {
+      "title": "near引导的位置表达",
+      "text": "near在这里作介词，直接带出参照对象the door，说明音响和门的相对距离很近。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在局部小瑕疵可明确修正，不影响核心学习内容的准确性（非逐句人工审核）"
+}

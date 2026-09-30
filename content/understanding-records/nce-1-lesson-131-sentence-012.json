@@ -1,0 +1,105 @@
+{
+  "chinese": "我们也许哪儿也不去。",
+  "intent": "表达出行安排的不确定性：有外出的可能性，但也存在完全不去任何地方的可能。",
+  "comparison": null,
+  "backbone": {
+    "text": "We might not go anywhere.",
+    "meaning": "我们也许不会去任何地方"
+  },
+  "structureNotes": [
+    {
+      "title": "情态动词might表推测",
+      "text": "might是may的过去式，此处用来表示可能性较低的推测，语气比may更委婉、更不确定，常带有犹豫的含义。"
+    },
+    {
+      "title": "anywhere的否定用法",
+      "text": "anywhere是不定副词，通常用于疑问句和否定句中；本句中not否定“go anywhere”，表示不前往任何地点，在本句语境中可理解为可能留在家中。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We",
+      "role": "主语",
+      "explanation": "句子描述的动作发出者，指说话人和相关人员这一群体。"
+    },
+    {
+      "text": "might not go",
+      "role": "复合谓语",
+      "explanation": "由情态动词might加否定副词not，再搭配实义动词go构成，表达“也许不会去”的推测含义。"
+    },
+    {
+      "text": "anywhere",
+      "role": "地点状语",
+      "explanation": "修饰动词go，说明动作指向的地点范围，在否定句中表示“任何地方”。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我们（主格）",
+      "pos": "代词",
+      "phonetic": "/wiː/",
+      "text": "We"
+    },
+    {
+      "meaning": "也许，可能",
+      "pos": "情态动词",
+      "phonetic": "/maɪt/",
+      "text": "might"
+    },
+    {
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/",
+      "text": "not"
+    },
+    {
+      "meaning": "去，前往",
+      "pos": "动词",
+      "phonetic": "/ɡəʊ/",
+      "text": "go"
+    },
+    {
+      "meaning": "任何地方",
+      "pos": "副词",
+      "phonetic": "/ˈeniweə(r)/",
+      "text": "anywhere."
+    }
+  ],
+  "parts": [
+    {
+      "text": "We",
+      "relation": "句子描述的主体，指代说话人及其同行的人。",
+      "meaning": "我们"
+    },
+    {
+      "text": "might not",
+      "relation": "补充说明动作“去”发生的可能性偏低，带有推测的语气。",
+      "meaning": "也许不"
+    },
+    {
+      "text": "go anywhere.",
+      "relation": "描述主体的核心动作及动作指向的地点范围。",
+      "meaning": "去任何地方"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-131",
+  "sentenceId": "nce-1-lesson-131-sentence-012",
+  "sentenceOrder": 12,
+  "english": "We might not go anywhere.",
+  "lesson": "Lesson 131 Don't be so sure!",
+  "notes": [
+    {
+      "title": "情态动词might表推测",
+      "text": "might是may的过去式，此处用来表示可能性较低的推测，语气比may更委婉、更不确定，常带有犹豫的含义。"
+    },
+    {
+      "title": "anywhere的否定用法",
+      "text": "anywhere是不定副词，通常用于疑问句和否定句中；本句中not否定“go anywhere”，表示不前往任何地点，在本句语境中可理解为可能留在家中。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干、句法成分、词义与分块关系基本正确；仅需把结构说明中偏绝对的表述收紧为适配本句语境的解释，主干释义与原分块保持一致。（非逐句人工审核）"
+}

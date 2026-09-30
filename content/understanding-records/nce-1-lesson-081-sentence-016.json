@@ -1,0 +1,111 @@
+{
+  "chinese": "我们吃了烤牛肉和土豆。",
+  "intent": "回答对方关于“你们吃了什么”的提问，说明已经完成的用餐内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "We had roast beef and potatoes.",
+    "meaning": "我们吃了烤牛肉和土豆。"
+  },
+  "structureNotes": [
+    {
+      "title": "have 表示吃",
+      "text": "had 是 have 的过去式，在这里表示“吃（饭、食物）”，不是“有”的意思，具体含义随后面的食物宾语确定。"
+    },
+    {
+      "title": "and 连接并列食物",
+      "text": "and 连接 roast beef 和 potatoes 两种食物，两者共同作 had 的宾语，翻译时直接用“和”连接即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We",
+      "role": "主语",
+      "explanation": "表示动作的执行者“我们”，是句子描述的主体。"
+    },
+    {
+      "text": "had",
+      "role": "谓语动词",
+      "explanation": "have 的过去式，此处表示“吃（食物）”，是句子的核心动作。"
+    },
+    {
+      "text": "roast beef and potatoes.",
+      "role": "宾语",
+      "explanation": "由 and 连接的两种并列食物，是 had 所涉及的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "had",
+      "meaning": "吃（have 的过去式）",
+      "pos": "动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "roast",
+      "meaning": "烤制的",
+      "pos": "形容词",
+      "phonetic": "/rəʊst/"
+    },
+    {
+      "text": "beef",
+      "meaning": "牛肉",
+      "pos": "名词",
+      "phonetic": "/biːf/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；与",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "potatoes.",
+      "meaning": "土豆（复数）",
+      "pos": "名词",
+      "phonetic": "/pəˈteɪtəʊz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We",
+      "relation": "动作执行者",
+      "meaning": "我们"
+    },
+    {
+      "text": "had",
+      "relation": "核心动作",
+      "meaning": "吃了"
+    },
+    {
+      "text": "roast beef and potatoes.",
+      "relation": "吃的对象",
+      "meaning": "烤牛肉和土豆"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-81",
+  "sentenceId": "nce-1-lesson-081-sentence-016",
+  "sentenceOrder": 16,
+  "english": "We had roast beef and potatoes.",
+  "lesson": "Lesson 81 Roast beef and potatoes",
+  "notes": [
+    {
+      "title": "have 表示吃",
+      "text": "had 是 have 的过去式，在这里表示“吃（饭、食物）”，不是“有”的意思，具体含义随后面的食物宾语确定。"
+    },
+    {
+      "title": "and 连接并列食物",
+      "text": "and 连接 roast beef 和 potatoes 两种食物，两者共同作 had 的宾语，翻译时直接用“和”连接即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句主干、翻译、语境语义和词项信息整体基本准确；仅需补正词汇表中 potatoes. 的音标，去掉文本末尾误带入的句号，避免按带标点字符串查发音。（非逐句人工审核）"
+}

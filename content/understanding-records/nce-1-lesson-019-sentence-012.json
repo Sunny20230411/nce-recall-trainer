@@ -1,0 +1,105 @@
+{
+  "chinese": "你们现在好了吗？",
+  "intent": "说话者向对方确认当下的身体或情绪状态是否已经恢复正常",
+  "comparison": null,
+  "backbone": {
+    "text": "Are you all right",
+    "meaning": "确认对方是否状态良好"
+  },
+  "parts": [
+    {
+      "text": "Are",
+      "relation": "开启疑问语序",
+      "meaning": "疑问引导词，对应be动词的现在时第二人称变位"
+    },
+    {
+      "text": "you",
+      "relation": "被询问状态的对象",
+      "meaning": "你/你们"
+    },
+    {
+      "text": "all right",
+      "relation": "描述询问对象的状态",
+      "meaning": "状况良好、没事"
+    },
+    {
+      "text": "now?",
+      "relation": "限定询问状态的时间点",
+      "meaning": "现在（句尾带问号表疑问语气）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般疑问句语序",
+      "text": "本句将be动词Are放在句首，提前到主语you之前，用来把状态陈述转化为状态确认的疑问句，不需要额外添加助动词do。"
+    },
+    {
+      "title": "固定表达all right",
+      "text": "这里all right是常用口语表达，专门用来询问对方身体、情绪等状态是否恢复正常，不拆分单独理解all和right的字面意思。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Are you all right",
+      "role": "疑问句核心框架",
+      "explanation": "完成“确认对方状态”的核心表意，是整个问句不可缺少的主体部分"
+    },
+    {
+      "text": "now",
+      "role": "时间状语",
+      "explanation": "把询问的时间范围限定在当下，明确是确认对方此刻的状态"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（be动词现在时第二人称变位，用于疑问句开头）",
+      "pos": "verb",
+      "phonetic": "/ɑː(r)/",
+      "text": "Are"
+    },
+    {
+      "meaning": "你，你们",
+      "pos": "pronoun",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "完全地",
+      "pos": "adverb",
+      "phonetic": "/ɔːl/",
+      "text": "all"
+    },
+    {
+      "meaning": "健康的、状态正常的",
+      "pos": "adjective",
+      "phonetic": "/raɪt/",
+      "text": "right"
+    },
+    {
+      "meaning": "此刻、现在",
+      "pos": "adverb",
+      "phonetic": "/naʊ/",
+      "text": "now?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-19",
+  "sentenceId": "nce-1-lesson-019-sentence-012",
+  "sentenceOrder": 12,
+  "english": "Are you all right now?",
+  "lesson": "Lesson 19 Tired and thirsty",
+  "notes": [
+    {
+      "title": "一般疑问句语序",
+      "text": "本句将be动词Are放在句首，提前到主语you之前，用来把状态陈述转化为状态确认的疑问句，不需要额外添加助动词do。"
+    },
+    {
+      "title": "固定表达all right",
+      "text": "这里all right是常用口语表达，专门用来询问对方身体、情绪等状态是否恢复正常，不拆分单独理解all和right的字面意思。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原学习数据整体框架合规，仅存在部分细节表述不准确、词性标注及音义匹配偏差问题，可通过补丁修正完善。（非逐句人工审核）"
+}

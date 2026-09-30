@@ -1,0 +1,156 @@
+{
+  "chinese": "请把前门钥匙给我好吗？",
+  "intent": "表达礼貌的请求，向对方索要前门的钥匙。",
+  "comparison": {
+    "chinese": "我能拿到前门的钥匙吗，麻烦你？",
+    "english": "Can I have the key to the front door, please?",
+    "steps": [
+      {
+        "label": "先提出请求核心",
+        "text": "Can I have the key",
+        "explanation": "这里的have不是单纯的拥有，而是礼貌请求对方把某物给自己，理解时要把它和索要钥匙的具体目的结合起来。"
+      },
+      {
+        "label": "用to短语限定钥匙",
+        "text": "the key to the front door",
+        "explanation": "to表示钥匙对应哪扇门，在英语中用to来体现钥匙和门锁的对应关系，而不是用of。"
+      },
+      {
+        "label": "补充礼貌语气",
+        "text": "please",
+        "explanation": "please放在句尾，把直接索要的请求软化成委婉的询问，和中文“麻烦你”“好吗”的语气功能相当。"
+      }
+    ],
+    "takeaway": "have在请求语境下理解为“拿到、得到”，the key to the front door是“前门的钥匙”，please放在句尾表礼貌。"
+  },
+  "backbone": {
+    "text": "Can I have the key?",
+    "meaning": "我能拿到钥匙吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "key的对应关系用介词to",
+      "text": "the key to the front door中，to用来表示这把钥匙是用来开前门的，是钥匙和门锁之间的固定搭配，不能换成of或其他介词。"
+    },
+    {
+      "title": "please的位置和功能",
+      "text": "please放在句尾，不改变句子核心意思，只是给请求加上委婉、客气的语气，让索要物品的表达更礼貌。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Can I have the key to the front door please?",
+      "role": "一般疑问句",
+      "explanation": "整体用Can I开头构成礼貌的请求式问句，通过询问“我是否可以拿到”来向对方提出索要钥匙的要求，而不是真的在询问能力。"
+    },
+    {
+      "text": "the key to the front door",
+      "role": "介词短语作后置定语",
+      "explanation": "to the front door用来修饰the key，说明这把钥匙具体是对应前门的，把普通的“钥匙”限定成了“前门的钥匙”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Can",
+      "meaning": "能够，可以",
+      "pos": "情态动词",
+      "phonetic": "/kæn/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词（主格）",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "have",
+      "meaning": "得到，拿到",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指的那把）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "key",
+      "meaning": "钥匙",
+      "pos": "名词",
+      "phonetic": "/kiː/"
+    },
+    {
+      "text": "to",
+      "meaning": "对应，用于",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指的那扇）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "front",
+      "meaning": "前面的",
+      "pos": "形容词",
+      "phonetic": "/frʌnt/"
+    },
+    {
+      "text": "door",
+      "meaning": "门",
+      "pos": "名词",
+      "phonetic": "/dɔː(r)/"
+    },
+    {
+      "text": "please?",
+      "meaning": "请",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Can I have",
+      "meaning": "我能不能拿到",
+      "relation": "礼貌请求的核心表达，引导出索要物品的诉求"
+    },
+    {
+      "text": "the key",
+      "meaning": "这把钥匙",
+      "relation": "请求的对象，说明想要拿到的具体物品"
+    },
+    {
+      "text": "to the front door",
+      "meaning": "用于前门的",
+      "relation": "修饰限定前面的key，说明钥匙对应的是前门"
+    },
+    {
+      "text": "please?",
+      "meaning": "麻烦你，好吗",
+      "relation": "补充礼貌语气，让请求更加委婉客气"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-65",
+  "sentenceId": "nce-1-lesson-065-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Can I have the key to the front door please?",
+  "lesson": "Lesson 65 Not a baby",
+  "notes": [
+    {
+      "title": "key的对应关系用介词to",
+      "text": "the key to the front door中，to用来表示这把钥匙是用来开前门的，是钥匙和门锁之间的固定搭配，不能换成of或其他介词。"
+    },
+    {
+      "title": "please的位置和功能",
+      "text": "please放在句尾，不改变句子核心意思，只是给请求加上委婉、客气的语气，让索要物品的表达更礼貌。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语法解析与语境解释准确，核心的key与front door的to搭配、please的礼貌语气功能均说明到位。仅存在两处不影响核心理解的小错误：一是please的音标误将句末问号写入音标块，应为英式标准音标；二是原句句末please前缺少英文习惯中常用的逗号，补充后更符合规范表达。其余内容无误。（非逐句人工审核）"
+}

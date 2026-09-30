@@ -1,0 +1,109 @@
+{
+  "chinese": "你喜欢饼干吗？",
+  "intent": "向对方确认是否喜欢饼干，回答可为Yes或No。",
+  "comparison": null,
+  "backbone": {
+    "text": "Do you like biscuits?",
+    "meaning": "询问对方是否喜欢饼干。"
+  },
+  "structureNotes": [
+    {
+      "title": "一般疑问句语序",
+      "text": "用Do开头表示提问，主语you在Do之后，实义动词like保持原形；句末用问号，表示需要回答Yes或No。"
+    },
+    {
+      "title": "biscuits的数量",
+      "text": "biscuits为复数形式，指饼干这类食物，不特指某一块。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "助动词",
+      "explanation": "帮助构成一般现在时的一般疑问句，没有独立词义。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "被询问的人。"
+    },
+    {
+      "text": "like",
+      "role": "谓语",
+      "explanation": "表示“喜欢”。"
+    },
+    {
+      "text": "biscuits",
+      "role": "宾语",
+      "explanation": "like的对象，即饼干。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "助动词（构成一般疑问句）",
+      "pos": "auxiliary verb",
+      "phonetic": "/duː/",
+      "text": "Do"
+    },
+    {
+      "meaning": "你",
+      "pos": "pronoun",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "喜欢",
+      "pos": "verb",
+      "phonetic": "/laɪk/",
+      "text": "like"
+    },
+    {
+      "meaning": "饼干（复数）",
+      "pos": "noun plural",
+      "phonetic": "/ˈbɪskɪts/",
+      "text": "biscuits?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Do",
+      "meaning": "助动词（无实义）",
+      "relation": "帮助构成一般现在时的一般疑问句，用于引导提问"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "relation": "被询问的人，是句子的主语"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢",
+      "relation": "表达喜好的谓语动词"
+    },
+    {
+      "text": "biscuits?",
+      "meaning": "饼干？",
+      "relation": "谓语动词like的宾语，指饼干这类食物"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-47",
+  "sentenceId": "nce-1-lesson-047-sentence-013",
+  "sentenceOrder": 13,
+  "english": "Do you like biscuits?",
+  "lesson": "Lesson 47 A cup of coffee",
+  "notes": [
+    {
+      "title": "一般疑问句语序",
+      "text": "用Do开头表示提问，主语you在Do之后，实义动词like保持原形；句末用问号，表示需要回答Yes或No。"
+    },
+    {
+      "title": "biscuits的数量",
+      "text": "biscuits为复数形式，指饼干这类食物，不特指某一块。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：各字段释义、语法角色、中文翻译均符合原句语义，无事实性错误。（非逐句人工审核）"
+}

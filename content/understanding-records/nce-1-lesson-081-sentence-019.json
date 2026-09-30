@@ -1,0 +1,200 @@
+{
+  "chinese": "嗯，今晚你们又要吃烤牛肉和土豆了！",
+  "intent": "说话人用了然、略带惊讶和调侃的语气点明今晚的安排——你们又要吃烤牛肉和土豆了，呼应前文询问卡萝尔近况的日常话题。",
+  "comparison": {
+    "chinese": "嗯，今晚你们又要吃烤牛肉和土豆了！",
+    "english": "Well, you're going to have roast beef and potatoes again tonight!",
+    "steps": [
+      {
+        "label": "开头的语气提示",
+        "text": "Well,",
+        "explanation": "放在句首独立出现，是说话人听到前文具情信息后稍作停顿、组织语言的语气词，对应中文里的“嗯/哦”，不参与主句语法结构，带有了然、略带惊讶的语气。"
+      },
+      {
+        "label": "主句的将来安排",
+        "text": "you're going to have roast beef and potatoes",
+        "explanation": "英文用be going to结构表达根据当前迹象或已知情况推测、即将发生的安排，have在这里是饮食语境下的“吃、享用”，后面接烤牛肉和土豆作为吃的对象。"
+      },
+      {
+        "label": "句末的两个修饰",
+        "text": "again tonight!",
+        "explanation": "again表示“又、再”，说明这道菜不是第一次吃，带有重复的意味；tonight点明这个安排的时间是今晚，两个状语都放在句末，按照中文表达习惯要把时间状语提前到频度状语前、主语之后的位置。"
+      }
+    ],
+    "takeaway": "中文习惯把时间、频度状语放在主语后、谓语前，且通常时间状语在频度状语之前；而英文常把这类修饰语放到句末，频度状语在时间状语之前。be going to可表达根据当前情况推测的即将发生的安排，have在饮食语境里要理解为“吃”，不是“拥有”。"
+  },
+  "backbone": {
+    "text": "You're going to have roast beef and potatoes.",
+    "meaning": "你们将要吃烤牛肉和土豆。"
+  },
+  "structureNotes": [
+    {
+      "title": "Well 的位置",
+      "text": "Well 是独立的语气感叹词，不充当句子成分，传递说话人听到前文信息后了然、略带惊讶的语气，翻译为“嗯”即可。"
+    },
+    {
+      "title": "be going to 表推测的将来安排",
+      "text": "be going to 后面接动词原形 have，表示根据当前已知情况推测出的、即将发生的晚餐安排，不一定是提前很久就敲定的计划。"
+    },
+    {
+      "title": "两个状语的顺序",
+      "text": "again（频度状语）和 tonight（时间状语）都放在句末，英文遵循“频度在前、时间在后”的顺序；翻译时按照中文习惯把时间状语移到频度状语之前、动作之前。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Well,",
+      "role": "独立语气感叹词",
+      "explanation": "独立成分，位于句首，表达说话人顿了一下后做出判断的语气，不参与主句语法结构。"
+    },
+    {
+      "text": "you're",
+      "role": "主语+系动词",
+      "explanation": "是you are的缩写，you是句子主语，are是和going to搭配构成将来时的助动词，不属于谓语核心实义动词。"
+    },
+    {
+      "text": "going to",
+      "role": "将来时标记",
+      "explanation": "和前面的are搭配构成be going to结构，表根据当前情况推测的将来安排，后面接动词原形。"
+    },
+    {
+      "text": "have",
+      "role": "谓语核心动词",
+      "explanation": "是实义动词，饮食语境下意为“吃、享用”，后面接食物作宾语。"
+    },
+    {
+      "text": "roast beef and potatoes",
+      "role": "动词宾语",
+      "explanation": "由and连接两个食物名词，是have（吃）的对象，roast作定语修饰beef表示烤牛肉。"
+    },
+    {
+      "text": "again",
+      "role": "频度状语",
+      "explanation": "修饰整个谓语，表示“吃这道菜”这件事是重复发生的。"
+    },
+    {
+      "text": "tonight!",
+      "role": "时间状语",
+      "explanation": "点明这个吃晚餐的安排发生的时间是今晚，感叹号强化了说话人略带惊讶、调侃的语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Well,",
+      "meaning": "嗯（语气词）",
+      "pos": "感叹词",
+      "phonetic": "/wel/"
+    },
+    {
+      "text": "you're",
+      "meaning": "你；你们（you are 的缩写）",
+      "pos": "代词+be动词缩写",
+      "phonetic": "/jʊə/"
+    },
+    {
+      "text": "going",
+      "meaning": "（与be going to搭配表将要）",
+      "pos": "动词（现在分词）",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（与be going to搭配构成将来结构）",
+      "pos": "不定式符号",
+      "phonetic": "/tə/"
+    },
+    {
+      "text": "have",
+      "meaning": "吃；享用",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "roast",
+      "meaning": "烤的，焙的",
+      "pos": "形容词",
+      "phonetic": "/rəʊst/"
+    },
+    {
+      "text": "beef",
+      "meaning": "牛肉",
+      "pos": "名词",
+      "phonetic": "/biːf/"
+    },
+    {
+      "text": "and",
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "/ənd/"
+    },
+    {
+      "text": "potatoes",
+      "meaning": "土豆（复数）",
+      "pos": "名词",
+      "phonetic": "/pəˈteɪtəʊz/"
+    },
+    {
+      "text": "again",
+      "meaning": "又，再一次",
+      "pos": "副词",
+      "phonetic": "/əˈɡen/"
+    },
+    {
+      "text": "tonight!",
+      "meaning": "今晚",
+      "pos": "副词",
+      "phonetic": "/təˈnaɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Well,",
+      "meaning": "嗯（语气词）",
+      "relation": "独立语气成分，传递说话人了然、略带惊讶的语气"
+    },
+    {
+      "text": "you're going to have",
+      "meaning": "你们将要吃",
+      "relation": "句子的主谓核心，说明即将发生的动作"
+    },
+    {
+      "text": "roast beef and potatoes",
+      "meaning": "烤牛肉和土豆",
+      "relation": "动作“吃”的对象，说明吃的是什么食物"
+    },
+    {
+      "text": "again",
+      "meaning": "又，再一次",
+      "relation": "频度修饰，说明这道菜是重复吃"
+    },
+    {
+      "text": "tonight!",
+      "meaning": "今晚",
+      "relation": "时间修饰，说明这个安排发生的时间，带感叹语气"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-81",
+  "sentenceId": "nce-1-lesson-081-sentence-019",
+  "sentenceOrder": 19,
+  "english": "Well, you're going to have roast beef and potatoes again tonight!",
+  "lesson": "Lesson 81 Roast beef and potatoes",
+  "notes": [
+    {
+      "title": "Well 的位置",
+      "text": "Well 是独立的语气感叹词，不充当句子成分，传递说话人听到前文信息后了然、略带惊讶的语气，翻译为“嗯”即可。"
+    },
+    {
+      "title": "be going to 表推测的将来安排",
+      "text": "be going to 后面接动词原形 have，表示根据当前已知情况推测出的、即将发生的晚餐安排，不一定是提前很久就敲定的计划。"
+    },
+    {
+      "title": "两个状语的顺序",
+      "text": "again（频度状语）和 tonight（时间状语）都放在句末，英文遵循“频度在前、时间在后”的顺序；翻译时按照中文习惯把时间状语移到频度状语之前、动作之前。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析对be going to表既定计划、have在饮食语境的义项、独立语气词Well、频度+时间状语的中英文位置差异等核心内容的解释基本准确，但存在be going to结构语义过度绝对化、个别单词释义词性不准确、未体现本句与前文疑问呼应的语气关联等可修正问题，整体框架完整无核心事实错误，修正后即可正常使用。（非逐句人工审核）"
+}

@@ -1,0 +1,234 @@
+{
+  "chinese": "他糟透了！他昨天给我打了四次电话，前天打了三次。",
+  "intent": "Pauline向对方强烈抱怨Ron Marston令人讨厌，举出他连续两天频繁给自己打电话的具体事实来佐证自己的评价。",
+  "comparison": {
+    "chinese": "他糟透了！他昨天给我打了四次电话，前天打了三次。",
+    "english": "He's awful! He telephoned me four times yesterday, and three times the day before yesterday.",
+    "steps": [
+      {
+        "label": "先整体表达评价",
+        "text": "He's awful!",
+        "explanation": "开篇直接抒发对He（指Ron Marston）的负面判断，对应中文“他糟透了！”，不先铺垫细节再下结论。"
+      },
+      {
+        "label": "再列行为细节",
+        "text": "He telephoned me four times yesterday, and three times the day before yesterday.",
+        "explanation": "英文先说核心动作“他给我打电话”，再接频次“四次/三次”，最后放时间状语“昨天/前天”；中文常先讲时间，再说动作和次数，最后才说给谁打电话。"
+      },
+      {
+        "label": "并列分句的省略",
+        "text": "and three times the day before yesterday",
+        "explanation": "后一分句省略了与前半句重复的telephoned me，英语在并列结构中常省略重复成分，理解时要补出完整含义“（他）前天（给我打了）三次电话”。"
+      }
+    ],
+    "takeaway": "英文先表态再用细节支撑，动作在前、频次与时间在后；中文多把时间放句首，通过并列分句的省略避免重复动词，还原时要补出被省略的打电话动作。"
+  },
+  "backbone": {
+    "text": "He's awful! He telephoned me four times yesterday, and three times the day before yesterday.",
+    "meaning": "他这人非常讨厌，昨天给我打了四次电话，前天又打了三次。"
+  },
+  "structureNotes": [
+    {
+      "title": "一般过去时表示已发生的动作",
+      "text": "telephoned用过去式，说明打电话的行为已经发生在昨天和前天，而不是现在正在进行的动作。"
+    },
+    {
+      "title": "并列分句的省略规则",
+      "text": "and连接的后半句省略了和前半句重复的telephoned me，只保留次数和时间，读的时候要意识到完整意思是“他前天给我打了三次电话”。"
+    },
+    {
+      "title": "次数表达的语序",
+      "text": "“四次”用four times表示，直接跟在动作telephoned me后面，时间yesterday放在次数之后，这是英语表达频次和时间的常见位置。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He's",
+      "role": "主句主语加系动词",
+      "explanation": "He指代前文提到的Ron Marston，'s是is的缩写，和后面的形容词awful构成主系表结构。"
+    },
+    {
+      "text": "awful!",
+      "role": "表语",
+      "explanation": "形容词作表语，直接表达对He的负面评价。"
+    },
+    {
+      "text": "He",
+      "role": "第二个分句主语",
+      "explanation": "仍是He（Ron Marston），是后半句打电话动作的发出者。"
+    },
+    {
+      "text": "telephoned",
+      "role": "谓语动词",
+      "explanation": "一般过去式，表示过去发生的打电话动作。"
+    },
+    {
+      "text": "me",
+      "role": "间接宾语",
+      "explanation": "电话的接收对象是“我”（Pauline）。"
+    },
+    {
+      "text": "four times",
+      "role": "状语",
+      "explanation": "说明昨天打电话的次数是四次。"
+    },
+    {
+      "text": "yesterday",
+      "role": "状语",
+      "explanation": "说明这四次电话发生在昨天。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接昨天和前天两个并列的打电话频次分句。"
+    },
+    {
+      "text": "three times the day before yesterday",
+      "role": "并列分句",
+      "explanation": "省略了重复的telephoned me，完整意思是“（他）前天给我打了三次电话”，表示前天的频次和时间。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He's",
+      "meaning": "他是",
+      "pos": "代词+系动词缩写",
+      "phonetic": "hiːz"
+    },
+    {
+      "text": "awful!",
+      "meaning": "讨厌的；糟糕的",
+      "pos": "形容词",
+      "phonetic": "ˈɔːfl"
+    },
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "hiː"
+    },
+    {
+      "text": "telephoned",
+      "meaning": "（给……）打电话（过去式）",
+      "pos": "动词",
+      "phonetic": "ˈtelɪfəʊnd"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "miː"
+    },
+    {
+      "text": "four",
+      "meaning": "四",
+      "pos": "数词",
+      "phonetic": "fɔː"
+    },
+    {
+      "text": "times",
+      "meaning": "次；回",
+      "pos": "名词复数",
+      "phonetic": "taɪmz"
+    },
+    {
+      "text": "yesterday,",
+      "meaning": "昨天",
+      "pos": "副词/名词",
+      "phonetic": "ˈjestədeɪ"
+    },
+    {
+      "text": "and",
+      "meaning": "和；并且",
+      "pos": "连词",
+      "phonetic": "ænd"
+    },
+    {
+      "text": "three",
+      "meaning": "三",
+      "pos": "数词",
+      "phonetic": "θriː"
+    },
+    {
+      "text": "times",
+      "meaning": "次；回",
+      "pos": "名词复数",
+      "phonetic": "taɪmz"
+    },
+    {
+      "text": "the",
+      "meaning": "（用于构成时间短语，无实义）",
+      "pos": "定冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "day",
+      "meaning": "天；日",
+      "pos": "名词",
+      "phonetic": "deɪ"
+    },
+    {
+      "text": "before",
+      "meaning": "在……之前",
+      "pos": "介词",
+      "phonetic": "bɪˈfɔː"
+    },
+    {
+      "text": "yesterday.",
+      "meaning": "（与前面的the day before搭配构成时间短语）前天",
+      "pos": "副词/名词",
+      "phonetic": "ˈjestədeɪ"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He's awful!",
+      "relation": "主句，直接表达对He（Ron Marston）的负面评价",
+      "meaning": "他糟透了！"
+    },
+    {
+      "text": "He",
+      "relation": "后半句的主语，指打电话的人Ron Marston",
+      "meaning": "他"
+    },
+    {
+      "text": "telephoned me",
+      "relation": "谓语核心，说明动作和动作对象",
+      "meaning": "给我打电话"
+    },
+    {
+      "text": "four times yesterday,",
+      "relation": "补充动作的频次和发生时间",
+      "meaning": "昨天打了四次（电话）"
+    },
+    {
+      "text": "and three times the day before yesterday.",
+      "relation": "并列补充更早一天的打电话频次和时间，省略了重复的telephoned me",
+      "meaning": "前天打了三次（电话）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-71",
+  "sentenceId": "nce-1-lesson-071-sentence-002",
+  "sentenceOrder": 2,
+  "english": "He's awful! He telephoned me four times yesterday, and three times the day before yesterday.",
+  "lesson": "Lesson 71 He's awful!",
+  "notes": [
+    {
+      "title": "一般过去时表示已发生的动作",
+      "text": "telephoned用过去式，说明打电话的行为已经发生在昨天和前天，而不是现在正在进行的动作。"
+    },
+    {
+      "title": "并列分句的省略规则",
+      "text": "and连接的后半句省略了和前半句重复的telephoned me，只保留次数和时间，读的时候要意识到完整意思是“他前天给我打了三次电话”。"
+    },
+    {
+      "title": "次数表达的语序",
+      "text": "“四次”用four times表示，直接跟在动作telephoned me后面，时间yesterday放在次数之后，这是英语表达频次和时间的常见位置。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文、中文翻译与上下文匹配，主系表结构、一般过去时、并列省略、频次和时间状语的解释基本准确；主要问题在词汇表：定冠词the被释义为“（特指）那（一天）”，脱离了冠词的基本功能；时间短语中的day和before没有结合固定搭配释义，最后一个yesterday的词义被错误写成“昨天”，实际它在the day before yesterday中与前面的词共同表示“前天”。这些属于可明确修正的问题，不影响整体审批。（非逐句人工审核）"
+}

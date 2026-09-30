@@ -1,0 +1,83 @@
+{
+  "chinese": "它很时髦。",
+  "intent": "承接上一句提到的连衣裙，进一步评价这件衣服的外观风格，夸它样式得体时髦。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's smart.",
+    "meaning": "（这件衣服）样式很时髦得体。"
+  },
+  "structureNotes": [
+    {
+      "title": "副词very的修饰作用",
+      "text": "very是程度副词，放在形容词smart前面，说明时髦的程度比较高，相当于中文里的“很”，直接修饰后面描述事物特质的形容词。"
+    },
+    {
+      "title": "smart的服装语境含义",
+      "text": "这句话的smart不是形容人聪明的意思，在评价衣服的语境下，指服装样式整洁、漂亮、得体、时髦，是对衣物外观的正向评价。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "主语加系动词",
+      "explanation": "It指代前文提到的连衣裙，It's是It is的缩写，起到连接描述对象和后续评价的作用，主语和系动词本身不承载具体评价内容。"
+    },
+    {
+      "text": "very smart.",
+      "role": "表语",
+      "explanation": "说明主语It（连衣裙）的特质，其中very是程度副词修饰smart，共同表达“非常时髦得体”的评价。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "它是（It is的缩写形式）",
+      "pos": "缩写",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常、很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "smart.",
+      "meaning": "时髦的、漂亮得体的",
+      "pos": "形容词",
+      "phonetic": "/smɑːt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's",
+      "relation": "指代对象，连接被评价的连衣裙和后续描述",
+      "meaning": "它是"
+    },
+    {
+      "text": "very smart.",
+      "relation": "描述连衣裙的风格特质，给出正向评价",
+      "meaning": "很时髦。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-107",
+  "sentenceId": "nce-1-lesson-107-sentence-005",
+  "sentenceOrder": 5,
+  "english": "It's very smart.",
+  "lesson": "Lesson 107 It's too small.",
+  "notes": [
+    {
+      "title": "副词very的修饰作用",
+      "text": "very是程度副词，放在形容词smart前面，说明时髦的程度比较高，相当于中文里的“很”，直接修饰后面描述事物特质的形容词。"
+    },
+    {
+      "title": "smart的服装语境含义",
+      "text": "这句话的smart不是形容人聪明的意思，在评价衣服的语境下，指服装样式整洁、漂亮、得体、时髦，是对衣物外观的正向评价。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确：指代关系、服装语境下smart的词义、very的修饰作用、主系表结构拆分都符合上下文，中文翻译通顺自然。仅存在一处词汇音标附带不必要句末点号的小问题，不影响核心理解。（非逐句人工审核）"
+}

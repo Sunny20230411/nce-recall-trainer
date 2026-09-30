@@ -1,0 +1,144 @@
+{
+  "chinese": "那就是我跟你说过的那个人。记得吗？",
+  "intent": "辨认并确认照片里的人物，引导对方回忆之前提过的相关经历。",
+  "comparison": {
+    "chinese": "中文把修饰语放在中心名词前面，说成“我跟你说过的那个人”；英文先说“the man”，再把“I told you about”放在后面补充说明这个人的来历。",
+    "english": "That's the man I told you about. Remember?",
+    "steps": [
+      {
+        "label": "先引出核心名词",
+        "text": "That's the man",
+        "explanation": "先直接点明眼前要辨认的核心对象是“那个男人”。"
+      },
+      {
+        "label": "再接修饰信息",
+        "text": "I told you about",
+        "explanation": "把“我之前跟你提起过他”这段回忆信息放在man的后面，用来限定是哪一个man；这里省略的关系代词在从句中作介词about的宾语，指代被修饰的the man。"
+      },
+      {
+        "label": "独立确认问句",
+        "text": "Remember?",
+        "explanation": "用省略主语you的简短问句向对方确认是否记得之前谈论过的相关经历，不属于前面主句的从句部分。"
+      }
+    ],
+    "takeaway": "本句的修饰关系是 man ← I told you about，about的指代对象就是the man；英文把关于人物的补充信息放在名词后，符合先给出中心词再补背景的表达习惯。"
+  },
+  "backbone": {
+    "text": "That's the man.",
+    "meaning": "那就是那个男人。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略关系词的定语从句",
+      "text": "本句中I told you about是修饰the man的定语从句，关系代词whom/that在从句中作about的宾语，因此可以被省略；told是该从句的谓语，you是told的间接宾语。"
+    },
+    {
+      "title": "简短确认问句",
+      "text": "句尾Remember?是独立的一般疑问句，省略了主语you，用来向对方确认是否还记起之前聊过的相关内容，并非前面主句的从句部分。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That's the man",
+      "role": "主句核心辨认结构",
+      "explanation": "用be动词连接指示主语that和表语the man，直接确认眼前的人物身份。"
+    },
+    {
+      "text": "I told you about",
+      "role": "修饰the man的定语从句",
+      "explanation": "从句省略了指代the man的关系代词（whom/that），关系代词在从句中同时作about的介词宾语，用来说明这个男人是说话人之前向对方提及过的人。"
+    },
+    {
+      "text": "Remember?",
+      "role": "独立的确认问句",
+      "explanation": "以省略主语you的简短问句形式，向对方确认是否还能记起之前谈论过的相关经历。"
+    }
+  ],
+  "words": [
+    {
+      "text": "That's",
+      "meaning": "那就是",
+      "pos": "缩写（that is）",
+      "phonetic": "ðæts"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，表特指",
+      "pos": "冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "man",
+      "meaning": "男人",
+      "pos": "名词",
+      "phonetic": "mæn"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "aɪ"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉（过去式）",
+      "pos": "动词",
+      "phonetic": "təʊld"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "juː"
+    },
+    {
+      "text": "about.",
+      "meaning": "关于（与tell搭配，表示提起、谈及某人/某事）",
+      "pos": "介词",
+      "phonetic": "əˈbaʊt"
+    },
+    {
+      "text": "Remember?",
+      "meaning": "记得",
+      "pos": "动词",
+      "phonetic": "rɪˈmembə(r)"
+    }
+  ],
+  "parts": [
+    {
+      "text": "That's the man",
+      "meaning": "那就是那个男人",
+      "relation": "主句的辨认核心，点明当前指向的人物对象"
+    },
+    {
+      "text": "I told you about.",
+      "meaning": "我之前跟你提起过的",
+      "relation": "修饰the man，补充说明这个男人的背景来历"
+    },
+    {
+      "text": "Remember?",
+      "meaning": "记得吗？",
+      "relation": "独立的确认问句，向对方确认是否还记得之前聊过的相关内容"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-123",
+  "sentenceId": "nce-1-lesson-123-sentence-008",
+  "sentenceOrder": 8,
+  "english": "That's the man I told you about. Remember?",
+  "lesson": "Lesson 123 A trip to Australia",
+  "notes": [
+    {
+      "title": "省略关系词的定语从句",
+      "text": "本句中I told you about是修饰the man的定语从句，关系代词whom/that在从句中作about的宾语，因此可以被省略；told是该从句的谓语，you是told的间接宾语。"
+    },
+    {
+      "title": "简短确认问句",
+      "text": "句尾Remember?是独立的一般疑问句，省略了主语you，用来向对方确认是否还记起之前聊过的相关内容，并非前面主句的从句部分。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有解释整体成立，仅存在两处小问题需要修正：1. 单词条里about.和Remember?误将标点纳入单词文本，且about作为介词单独标注“提起”的词义不够准确，属于搭配语境下的释义；2. 定语从句的说明表述略有遗漏，未点明关系代词同时作about的介词宾语，对比步骤里的解释和主分析不一致。其余内容符合规则：独立问句Remember?未被错误归为从句，主干提取正确，指代关系清晰，英式音标准确，语序对比说明了中英文修饰语位置差异的原因，无硬性错误。（非逐句人工审核）"
+}

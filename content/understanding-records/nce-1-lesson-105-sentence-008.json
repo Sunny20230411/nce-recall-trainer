@@ -1,0 +1,132 @@
+{
+  "chinese": "这是给你的一件小礼物。",
+  "intent": "说话人当面递给对方一件小礼物，向对方表示赠送的心意。",
+  "comparison": {
+    "chinese": "中文习惯把领属关系放在被修饰名词前面，先说“给你的”，再说“一件小礼物”。",
+    "english": "英文先点出递东西的场景，再顺着介绍这是小礼物，最后补出礼物的接收对象。",
+    "steps": [
+      {
+        "label": "开篇点明场景",
+        "text": "Here's = Here is",
+        "explanation": "放在句首提示“就在这里、给到你”的动作，突出当面递送的临场感。"
+      },
+      {
+        "label": "介绍核心事物",
+        "text": "a little present",
+        "explanation": "a 限定是“一件”，little 修饰 present，说明礼物的体量小、心意轻巧。"
+      },
+      {
+        "label": "补出接收对象",
+        "text": "for you",
+        "explanation": "放在 present 后面，说明这件礼物是专门赠给听话人的。"
+      }
+    ],
+    "takeaway": "英语用 here 开头把动作放到最前，再用名词加介词短语补充修饰关系，中文则把所有修饰语前置到名词前面。"
+  },
+  "backbone": {
+    "text": "这是给你的一件小礼物。",
+    "meaning": "说话人当面将一件体量不大的小礼物递交给对方。"
+  },
+  "structureNotes": [
+    {
+      "title": "Here's 的完全形式",
+      "text": "Here's 是 Here is 的口语缩写，属于倒装句式，把 here 提前突出递送的临场感，真正的主语是后面的 a little present。"
+    },
+    {
+      "title": "for 引出接收对象",
+      "text": "介词 for 后面接 you，直接点明礼物的接收方，不需要额外增加动词来表示“给”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Here's",
+      "role": "句首引导倒装结构",
+      "explanation": "Here 放在句首提示递送动作，is 作为系动词构成倒装，真正的主语在后面。"
+    },
+    {
+      "text": "a little present",
+      "role": "句子主语",
+      "explanation": "是被介绍、递出的核心事物，a 表泛指一件，little 修饰礼物的尺寸。"
+    },
+    {
+      "text": "for you",
+      "role": "介词短语作后置修饰语",
+      "explanation": "限定 present 的接收对象，说明这件礼物是送给听话人的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Here's",
+      "meaning": "这里（here is 的口语缩写）",
+      "pos": "缩略形式",
+      "phonetic": "/hɪəz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（件）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "little",
+      "meaning": "小的，指礼物体量不大、心意轻巧不厚重",
+      "pos": "形容词",
+      "phonetic": "/ˈlɪtl/"
+    },
+    {
+      "text": "present",
+      "meaning": "礼物",
+      "pos": "名词",
+      "phonetic": "/ˈpreznt/"
+    },
+    {
+      "text": "for",
+      "meaning": "给，为了",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "you.",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Here's",
+      "relation": "引出当面递送的场景",
+      "meaning": "这是（递东西的开场表达）"
+    },
+    {
+      "text": "a little present",
+      "relation": "说明递出的核心物品",
+      "meaning": "一件小礼物"
+    },
+    {
+      "text": "for you.",
+      "relation": "补充说明礼物的接收对象是听话人",
+      "meaning": "给你。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-105",
+  "sentenceId": "nce-1-lesson-105-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Here's a little present for you.",
+  "lesson": "Lesson 105 Full of mistakes",
+  "notes": [
+    {
+      "title": "Here's 的完全形式",
+      "text": "Here's 是 Here is 的口语缩写，属于倒装句式，把 here 提前突出递送的临场感，真正的主语是后面的 a little present。"
+    },
+    {
+      "title": "for 引出接收对象",
+      "text": "介词 for 后面接 you，直接点明礼物的接收方，不需要额外增加动词来表示“给”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析主干表意、倒装结构分析、词义标注均符合原文语义，仅存在两处可修正的细节问题：一是句末带句号的词项标注把句号并入单词音标展示范畴，易让学习者误以为句号属于单词本体；二是对little的释义仅描述了物理尺寸属性，未兼顾其在礼物语境中表达心意轻巧、不贵重的语用含义，修正后内容更贴合句中赠送小礼物的使用场景。（非逐句人工审核）"
+}

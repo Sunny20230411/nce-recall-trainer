@@ -1,0 +1,246 @@
+{
+  "chinese": "现在是十点。索耶太太上午通常待在家里，但今天上午她要去商店。",
+  "intent": "对比说明索耶太太的日常上午习惯与今天上午的反常活动。",
+  "comparison": {
+    "chinese": "索耶太太上午通常待在家里，但今天上午她要去商店。",
+    "english": "Mrs. Sawyer usually stays at home in the morning, but this morning, she is going to the shops.",
+    "steps": [
+      {
+        "label": "先说通常状态",
+        "text": "Mrs. Sawyer usually stays at home in the morning",
+        "explanation": "usually表示“通常”，说明这是日常的习惯；in the morning说明这个习惯对应的常规时间范围。"
+      },
+      {
+        "label": "再说出当天的反常情况",
+        "text": "but this morning, she is going to the shops",
+        "explanation": "but是转折连词，this morning明确指向“今天上午”这个具体的反常时间段；is going to the shops表示当下正要前往商店。"
+      },
+      {
+        "label": "整体形成对比",
+        "text": "usually stays at home vs is going to the shops",
+        "explanation": "常规的“在家”状态，被今天“去商店”的反常行为打破，突出了这天和往常不一样。"
+      }
+    ],
+    "takeaway": "用usually描述常规、but引出反常差异，this morning把时间限定为今天，突出这天的特殊。"
+  },
+  "backbone": {
+    "text": "It is ten o'clock. Mrs. Sawyer usually stays at home, but this morning she is going to the shops.",
+    "meaning": "现在时间是十点，索耶太太平时上午常在家，今天这个时间却要去商店。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间表达",
+      "text": "It is ten o'clock 是英语报时间的常用句式，o'clock 表示“……点钟”。"
+    },
+    {
+      "title": "通常与反常的对比",
+      "text": "but 连接两个并列分句，前句讲 usually 的日常习惯，后句讲 this morning 的反常情况。"
+    },
+    {
+      "title": "现在进行时表计划",
+      "text": "is going to the shops 用现在进行时表示已经计划好的即将发生的动作，不是单纯指正在前往的途中。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It is ten o'clock.",
+      "role": "时间说明句",
+      "explanation": "用来交代当前的时刻，为后面人物的反常行为提供时间背景。"
+    },
+    {
+      "text": "Mrs. Sawyer usually stays at home in the morning",
+      "role": "表示日常习惯的分句",
+      "explanation": "主语是 Mrs. Sawyer，usually 说明这是平时的常规状态，in the morning 限定习惯发生的时间范围。"
+    },
+    {
+      "text": "but",
+      "role": "转折连词",
+      "explanation": "连接前后两个分句，引出与日常习惯不同的情况。"
+    },
+    {
+      "text": "this morning, she is going to the shops.",
+      "role": "表示今天反常行为的分句",
+      "explanation": "this morning 把时间限定为今天上午，she 指代 Mrs. Sawyer，is going to the shops 表示她今天要去商店。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（此处为指代时间的形式主语，无实义）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be动词第三人称单数）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "ten",
+      "meaning": "十",
+      "pos": "数词",
+      "phonetic": "/ten/"
+    },
+    {
+      "text": "o'clock.",
+      "meaning": "……点钟",
+      "pos": "副词",
+      "phonetic": "/əˈklɒk/"
+    },
+    {
+      "text": "Mrs.",
+      "meaning": "夫人，太太",
+      "pos": "名词",
+      "phonetic": "/ˈmɪsɪz/"
+    },
+    {
+      "text": "Sawyer",
+      "meaning": "索耶（姓氏）",
+      "pos": "名词",
+      "phonetic": "/ˈsɔːjə/"
+    },
+    {
+      "text": "usually",
+      "meaning": "通常",
+      "pos": "副词",
+      "phonetic": "/ˈjuːʒuəli/"
+    },
+    {
+      "text": "stays",
+      "meaning": "停留，待在",
+      "pos": "动词",
+      "phonetic": "/steɪz/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（介词）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "home",
+      "meaning": "家",
+      "pos": "名词",
+      "phonetic": "/həʊm/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（某段时间）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，用于限定morning）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "morning,",
+      "meaning": "上午",
+      "pos": "名词",
+      "phonetic": "/ˈmɔːnɪŋ/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "this",
+      "meaning": "这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "morning,",
+      "meaning": "上午",
+      "pos": "名词",
+      "phonetic": "/ˈmɔːnɪŋ/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be动词第三人称单数）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "going",
+      "meaning": "去（go的现在分词）",
+      "pos": "动词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，往",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，用于限定shops）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "shops.",
+      "meaning": "商店",
+      "pos": "名词",
+      "phonetic": "/ʃɒps/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It is ten o'clock.",
+      "relation": "交代当前的时间背景。",
+      "meaning": "现在是十点。"
+    },
+    {
+      "text": "Mrs. Sawyer usually stays at home in the morning,",
+      "relation": "索耶太太的日常状态说明。",
+      "meaning": "索耶太太上午通常待在家里，"
+    },
+    {
+      "text": "but",
+      "relation": "转折，引出和日常相反的情况。",
+      "meaning": "但"
+    },
+    {
+      "text": "this morning, she is going to the shops.",
+      "relation": "说明今天上午的反常安排。",
+      "meaning": "今天上午她要去商店。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-57",
+  "sentenceId": "nce-1-lesson-057-sentence-002",
+  "sentenceOrder": 2,
+  "english": "It is ten o'clock. Mrs. Sawyer usually stays at home in the morning, but this morning, she is going to the shops.",
+  "lesson": "Lesson 57 An unusual day",
+  "notes": [
+    {
+      "title": "时间表达",
+      "text": "It is ten o'clock 是英语报时间的常用句式，o'clock 表示“……点钟”。"
+    },
+    {
+      "title": "通常与反常的对比",
+      "text": "but 连接两个并列分句，前句讲 usually 的日常习惯，后句讲 this morning 的反常情况。"
+    },
+    {
+      "title": "现在进行时表计划",
+      "text": "is going to the shops 用现在进行时表示已经计划好的即将发生的动作，不是单纯指正在前往的途中。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语义与结构讲解准确，仅发现冠词the的词性标注错误：the是定冠词，原标注误写为'这个（定冠词，表特指）'，词性应为冠词（定冠词），修正后内容无其他错误。（非逐句人工审核）"
+}

@@ -1,0 +1,187 @@
+{
+  "chinese": "‘你好，小姑娘，’她说。萨莉没有回答，只是好奇地看着她。",
+  "intent": "描写火车上陌生女士主动搭话后，萨莉的反应：没有回应问候，反而带着好奇打量对方，体现初次相遇时的陌生感与小萨莉的反应。",
+  "comparison": null,
+  "backbone": {
+    "text": "女士向萨莉打招呼；萨莉没有回答，而是好奇地看着她。",
+    "meaning": "先交代陌生女士开口问候的内容，再说明萨莉没有搭话回应，只带着好奇看向对方的状态。"
+  },
+  "structureNotes": [
+    {
+      "title": "引语后置的标点规则",
+      "text": "本句第一部分是直接引语后接引述分句，说话人 she said 放在引语后面，引语内部仍用逗号；这种结构用来明确台词归属，避免读者分不清是谁在说话。"
+    },
+    {
+      "title": "did not...but...连接并行动作",
+      "text": "but 在这里连接萨莉的两个并行动作：没有做“回答”，转而做“看着她”，转折的是行为的选择，不是完全否定前文。"
+    },
+    {
+      "title": "不及物动词加介词构成的短语",
+      "text": "look 是不及物动词，接看的对象时要加介词 at，即 look at her；curiously 放在句末修饰 looked，说明看的方式是带着好奇。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'Hello, little girl,'",
+      "role": "直接引语",
+      "explanation": "女士对萨莉说的问候台词，前后用单引号标出，内容是招呼语“你好，小姑娘”。"
+    },
+    {
+      "text": "she said.",
+      "role": "主句，引述说话人",
+      "explanation": "交代前面的引语是谁说的，she 指代前文刚上车的中年女士。"
+    },
+    {
+      "text": "Sally",
+      "role": "主语",
+      "explanation": "是后一句两个并列动作的发出者，也就是没有回答、好奇打量对方的人。"
+    },
+    {
+      "text": "did not answer",
+      "role": "谓语1，否定动作",
+      "explanation": "说明萨莉没有对女士的问候给出语言回应，did not 构成一般过去时的否定。"
+    },
+    {
+      "text": "but looked at her curiously",
+      "role": "谓语2，转折后的实际动作",
+      "explanation": "but 连接实际发生的动作：萨莉没有说话，而是用好奇的眼神打量这位陌生的女士。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'Hello,",
+      "meaning": "喂，你好",
+      "pos": "感叹词（问候语）",
+      "phonetic": "/həˈləʊ/"
+    },
+    {
+      "text": "little",
+      "meaning": "年纪小的，幼小的",
+      "pos": "形容词",
+      "phonetic": "/ˈlɪtl/"
+    },
+    {
+      "text": "girl,'",
+      "meaning": "女孩",
+      "pos": "名词",
+      "phonetic": "/ɡɜːl/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词（主格）",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说",
+      "pos": "动词（过去式）",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "Sally",
+      "meaning": "萨莉",
+      "pos": "专有名词（人名）",
+      "phonetic": "/ˈsæli/"
+    },
+    {
+      "text": "did",
+      "meaning": "无实义，构成过去时否定的助动词",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "副词（否定词）",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "answer,",
+      "meaning": "回答，应答",
+      "pos": "动词（原形）",
+      "phonetic": "/ˈɑːnsə/"
+    },
+    {
+      "text": "but",
+      "meaning": "而是，但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "looked",
+      "meaning": "看，瞧",
+      "pos": "动词（过去式）",
+      "phonetic": "/lʊkt/"
+    },
+    {
+      "text": "at",
+      "meaning": "向，对（引出看的对象）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "her",
+      "meaning": "她（宾格）",
+      "pos": "代词（宾格）",
+      "phonetic": "/hɜː/"
+    },
+    {
+      "text": "curiously.",
+      "meaning": "好奇地，稀奇地",
+      "pos": "副词",
+      "phonetic": "/ˈkjʊəriəsli/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "'Hello, little girl,'",
+      "relation": "女士对萨莉说的问候内容，用单引号标示为直接引语。",
+      "meaning": "“你好，小姑娘”"
+    },
+    {
+      "text": "she said.",
+      "relation": "交代前面引语的说话人，she指代刚上车的中年女士。",
+      "meaning": "她说"
+    },
+    {
+      "text": "Sally",
+      "relation": "句子主语，后面两个动作的发出者。",
+      "meaning": "萨莉"
+    },
+    {
+      "text": "did not answer,",
+      "relation": "萨莉的第一个动作行为，对女士的问候未作语言回应。",
+      "meaning": "没有回答"
+    },
+    {
+      "text": "but looked at her curiously.",
+      "relation": "转折后萨莉实际做出的动作，说明她以好奇打量的方式代替了口头回答。",
+      "meaning": "只是好奇地看着她"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-141",
+  "sentenceId": "nce-1-lesson-141-sentence-006",
+  "sentenceOrder": 6,
+  "english": "'Hello, little girl,' she said. Sally did not answer, but looked at her curiously.",
+  "lesson": "Lesson 141 Sally's first train ride",
+  "notes": [
+    {
+      "title": "引语后置的标点规则",
+      "text": "本句第一部分是直接引语后接引述分句，说话人 she said 放在引语后面，引语内部仍用逗号；这种结构用来明确台词归属，避免读者分不清是谁在说话。"
+    },
+    {
+      "title": "did not...but...连接并行动作",
+      "text": "but 在这里连接萨莉的两个并行动作：没有做“回答”，转而做“看着她”，转折的是行为的选择，不是完全否定前文。"
+    },
+    {
+      "title": "不及物动词加介词构成的短语",
+      "text": "look 是不及物动词，接看的对象时要加介词 at，即 look at her；curiously 放在句末修饰 looked，说明看的方式是带着好奇。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文、参考翻译、主干、结构分析与分块关系基本一致，已修正音标注释中把引语逗号、句点并入音标的做法。（非逐句人工审核）"
+}

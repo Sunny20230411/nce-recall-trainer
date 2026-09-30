@@ -1,0 +1,175 @@
+{
+  "chinese": "那太晚了。牙医现在能看我吗？",
+  "intent": "先是回应约见时间，表达认为对方给出的约见时间太晚无法接受，再急切向接诊方确认牙医当下能否为自己诊治。",
+  "comparison": {
+    "chinese": "先回应“两点来就诊”的邀约，再追问“牙医现在能不能看我”。",
+    "english": "First respond to the offered appointment time, then ask whether the dentist can see me at this moment.",
+    "steps": [
+      {
+        "label": "时间对比",
+        "text": "That's too late. / Can the dentist see me now?",
+        "explanation": "That's 回应对方给出的两点下午就诊邀约，too late 表示两点的时间太晚；now 把求诊时间拉回当下，询问能否立刻接诊。"
+      },
+      {
+        "label": "疑问指向",
+        "text": "Can the dentist see me now?",
+        "explanation": "Can 前置表示“是否可以、能否”，see me 不是简单“看见我”，而是“接诊、给我看病”，now 说明询问的是当下的可能性。"
+      }
+    ],
+    "takeaway": "两句连起来就是：觉得约的两点太晚，主动追问现在能不能马上看牙。"
+  },
+  "backbone": {
+    "text": "That's too late. Can the dentist see me now?",
+    "meaning": "先评价对方给出的就诊时间太晚，再立刻追问牙医当下能否为我诊治。"
+  },
+  "structureNotes": [
+    {
+      "title": "评价时间的主系表结构",
+      "text": "That's too late 中 That's 是 That is 的缩写，指代前面对方提议的下午两点就诊时间，too 修饰 late，直接表达这个时间不符合求诊者的急迫需求。"
+    },
+    {
+      "title": "can 引导的一般疑问句",
+      "text": "询问“牙医现在能否接诊我”时，把情态动词 Can 放在句首，主语是 the dentist，核心动作是 see me（接诊、给我看病），时间状语 now 放句末，点明询问的是当下的可能性。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That's",
+      "role": "陈述句主语加系动词缩写",
+      "explanation": "That 指代前文提议的下午两点就诊时间，'s 是 is 的缩写，引出对该时间的评价。"
+    },
+    {
+      "text": "too late.",
+      "role": "主系表结构的表语",
+      "explanation": "too 是程度副词，修饰形容词 late，说明这个就诊时间太晚，求诊者无法接受。"
+    },
+    {
+      "text": "Can",
+      "role": "情态动词引导疑问",
+      "explanation": "放在句首帮助构成一般疑问句，询问当下“能不能、是否可以”接诊。"
+    },
+    {
+      "text": "the dentist",
+      "role": "疑问句主语",
+      "explanation": "指诊所的牙医，是发出“接诊”这个动作的人。"
+    },
+    {
+      "text": "see me",
+      "role": "谓语加宾语",
+      "explanation": "这里 see 不是普通的“看见”，而是接诊、给病人诊治的意思，me 是接诊动作的对象。"
+    },
+    {
+      "text": "now?",
+      "role": "疑问句句末时间状语加问号",
+      "explanation": "now 说明询问的是当下能不能立刻接诊，问号标示这是一个需要对方回答的一般疑问句。"
+    }
+  ],
+  "words": [
+    {
+      "text": "That's",
+      "meaning": "那是（That is 的缩写）",
+      "pos": "代词+动词缩写",
+      "phonetic": "/ðæts/"
+    },
+    {
+      "text": "too",
+      "meaning": "太",
+      "pos": "副词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "late.",
+      "meaning": "晚的",
+      "pos": "形容词",
+      "phonetic": "/leɪt/"
+    },
+    {
+      "text": "Can",
+      "meaning": "能，可以",
+      "pos": "情态动词",
+      "phonetic": "/kæn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，特指语境中的牙医）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "dentist",
+      "meaning": "牙医",
+      "pos": "名词",
+      "phonetic": "/ˈdentɪst/"
+    },
+    {
+      "text": "see",
+      "meaning": "接诊，诊治",
+      "pos": "动词",
+      "phonetic": "/siː/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "now?",
+      "meaning": "现在",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "That's",
+      "relation": "指代前文对方提出的“下午两点来就诊”的提议，作为分句的主语和系动词。",
+      "meaning": "那是"
+    },
+    {
+      "text": "too late.",
+      "relation": "作表语，描述指代的就诊时间太晚，求诊者无法接受。",
+      "meaning": "太晚了"
+    },
+    {
+      "text": "Can",
+      "relation": "放在句首引导一般疑问句，询问当下接诊的可能性。",
+      "meaning": "能，可以"
+    },
+    {
+      "text": "the dentist",
+      "relation": "是问句中的主语，指代能为自己诊治的牙医。",
+      "meaning": "牙医"
+    },
+    {
+      "text": "see me",
+      "relation": "是问句的谓语加宾语，表示牙医接诊、为“我”诊治的动作。",
+      "meaning": "给我看病"
+    },
+    {
+      "text": "now?",
+      "relation": "补充说明求诊的时间是当下，同时以问号标示整句为疑问语气。",
+      "meaning": "现在吗？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-77",
+  "sentenceId": "nce-1-lesson-077-sentence-013",
+  "sentenceOrder": 13,
+  "english": "That's too late. Can the dentist see me now?",
+  "lesson": "Lesson 77 Terrible toothache",
+  "notes": [
+    {
+      "title": "评价时间的主系表结构",
+      "text": "That's too late 中 That's 是 That is 的缩写，指代前面对方提议的下午两点就诊时间，too 修饰 late，直接表达这个时间不符合求诊者的急迫需求。"
+    },
+    {
+      "title": "can 引导的一般疑问句",
+      "text": "询问“牙医现在能否接诊我”时，把情态动词 Can 放在句首，主语是 the dentist，核心动作是 see me（接诊、给我看病），时间状语 now 放句末，点明询问的是当下的可能性。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合原文语境，对see的医疗接诊义、That指代前文两点就诊提议的关系、疑问句结构的解释都准确。仅存在两处可明确修正的细节问题：1. late. 的词性标注将标点符号混入形容词语义描述；2. now? 的音标条目将标点符号混入时间状语的发音标注，其余内容无需改动。（非逐句人工审核）"
+}

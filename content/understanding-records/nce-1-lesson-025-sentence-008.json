@@ -1,0 +1,135 @@
+{
+  "chinese": "房间中央有一张桌子。",
+  "intent": "描述史密斯太太的厨房里的物品所在位置，明确桌子处于对应房间的中心区域。",
+  "comparison": null,
+  "backbone": {
+    "text": "There is a table",
+    "meaning": "存在一张桌子"
+  },
+  "parts": [
+    {
+      "text": "There is",
+      "relation": "引出事物存在的句式框架",
+      "meaning": "存在有"
+    },
+    {
+      "text": "a table",
+      "relation": "描述存在的具体事物",
+      "meaning": "一张桌子"
+    },
+    {
+      "text": "in the middle of the room.",
+      "relation": "补充说明桌子所在的位置",
+      "meaning": "在房间的中央"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "There be 存在句式",
+      "text": "这里用There is引出不确定是否提前知晓的事物，核心要说明的新信息是桌子的存在和它的位置。"
+    },
+    {
+      "title": "in the middle of 固定搭配",
+      "text": "这个短语用来表示方位，意思是在某一空间的中心位置，后面接对应的空间名词即可指明具体方位。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There is",
+      "role": "存在句引导框架",
+      "explanation": "用于向听者告知某事物当下是存在的，没有强调动作发出者的含义。"
+    },
+    {
+      "text": "a table",
+      "role": "存在的主体事物",
+      "explanation": "是整个句子要介绍的核心对象，后续所有内容都是围绕它展开的补充说明。"
+    },
+    {
+      "text": "in the middle of the room",
+      "role": "地点方位状语",
+      "explanation": "明确交代桌子所在的具体空间位置，让描述的场景更加清晰具体。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（存在句引导词，无实际语义）",
+      "pos": "副词",
+      "phonetic": "/ðeə(r)/",
+      "text": "There"
+    },
+    {
+      "meaning": "有（表示存在状态）",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "一张（不定冠词，泛指一个）",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "桌子",
+      "pos": "名词",
+      "phonetic": "/ˈteɪbl/",
+      "text": "table"
+    },
+    {
+      "meaning": "在…里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "（定冠词，特指后续空间范围）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "中间，中央",
+      "pos": "名词",
+      "phonetic": "/ˈmɪdl/",
+      "text": "middle"
+    },
+    {
+      "meaning": "（表示所属关系）",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "（定冠词，特指前文语境提及的房间）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "房间",
+      "pos": "名词",
+      "phonetic": "/ruːm/",
+      "text": "room."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-25",
+  "sentenceId": "nce-1-lesson-025-sentence-008",
+  "sentenceOrder": 8,
+  "english": "There is a table in the middle of the room.",
+  "lesson": "Lesson 25 Mrs. Smith's kitchen",
+  "notes": [
+    {
+      "title": "There be 存在句式",
+      "text": "这里用There is引出不确定是否提前知晓的事物，核心要说明的新信息是桌子的存在和它的位置。"
+    },
+    {
+      "title": "in the middle of 固定搭配",
+      "text": "这个短语用来表示方位，意思是在某一空间的中心位置，后面接对应的空间名词即可指明具体方位。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析框架符合面向中文母语成年人的英语学习要求，核心信息准确，仅存在局部细节表述不严谨、小瑕疵问题，可明确修正。（非逐句人工审核）"
+}

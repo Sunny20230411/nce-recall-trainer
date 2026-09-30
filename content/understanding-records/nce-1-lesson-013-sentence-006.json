@@ -1,0 +1,117 @@
+{
+  "chinese": "那是一件漂亮的连衣裙。它很时髦。",
+  "intent": "用于当面评价对方的连衣裙款式好看又时髦，表达赞赏的态度。",
+  "comparison": null,
+  "backbone": {
+    "text": "That's a nice dress. It's very smart.",
+    "meaning": "指出某件连衣裙是好看的，并且补充说明这件连衣裙十分时髦。"
+  },
+  "parts": [
+    {
+      "text": "That's",
+      "relation": "陈述的主体",
+      "meaning": "用来指代近处的物品，也就是那条连衣裙"
+    },
+    {
+      "text": "a nice dress.",
+      "relation": "补充说明That是什么物品",
+      "meaning": "一件好看的连衣裙，末尾带句末标点"
+    },
+    {
+      "text": "It's",
+      "relation": "承接上文物品的陈述主体",
+      "meaning": "指代前面提到的连衣裙"
+    },
+    {
+      "text": "very smart.",
+      "relation": "描述连衣裙的风格特点",
+      "meaning": "非常时髦，末尾带句末标点"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "指代衔接",
+      "text": "第二句的It直接指代前一句提到的dress，不用重复说a nice dress，语句更简洁连贯。"
+    },
+    {
+      "title": "两句分工",
+      "text": "前一句先点明评价的对象是连衣裙，后一句补充更深一层的夸赞，分开表述读起来自然口语化。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That's a nice dress",
+      "role": "主系表完整陈述句",
+      "explanation": "用于明确指出眼前的物品是一件好看的连衣裙，完成第一层评价。"
+    },
+    {
+      "text": "It's very smart",
+      "role": "主系表完整陈述句",
+      "explanation": "承接上一句的指代对象，补充夸赞连衣裙时髦，延伸评价的维度。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "那是",
+      "pos": "代词+系动词缩写",
+      "phonetic": "/ðæts/",
+      "text": "That's"
+    },
+    {
+      "meaning": "一（件）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "好看的，漂亮的",
+      "pos": "形容词",
+      "phonetic": "/naɪs/",
+      "text": "nice"
+    },
+    {
+      "meaning": "连衣裙。",
+      "pos": "名词",
+      "phonetic": "/dres/",
+      "text": "dress."
+    },
+    {
+      "meaning": "它是",
+      "pos": "代词+系动词缩写",
+      "phonetic": "/ɪts/",
+      "text": "It's"
+    },
+    {
+      "meaning": "非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/",
+      "text": "very"
+    },
+    {
+      "meaning": "时髦的。",
+      "pos": "形容词",
+      "phonetic": "/smɑːt/",
+      "text": "smart."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-13",
+  "sentenceId": "nce-1-lesson-013-sentence-006",
+  "sentenceOrder": 6,
+  "english": "That's a nice dress. It's very smart.",
+  "lesson": "Lesson 13 A new dress",
+  "notes": [
+    {
+      "title": "指代衔接",
+      "text": "第二句的It直接指代前一句提到的dress，不用重复说a nice dress，语句更简洁连贯。"
+    },
+    {
+      "title": "两句分工",
+      "text": "前一句先点明评价的对象是连衣裙，后一句补充更深一层的夸赞，分开表述读起来自然口语化。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原始解析整体框架合规，仅存在局部细节错误可修正（非逐句人工审核）"
+}

@@ -1,0 +1,130 @@
+{
+  "chinese": "您要一只鸡吗，伯德太太？这些鸡很好。",
+  "intent": "屠夫向伯德太太推销鸡肉，先询问对方是否想要购买，再介绍自家鸡肉品质好，尝试促成购买。",
+  "comparison": null,
+  "backbone": {
+    "text": "Do you want a chicken? They are very nice.",
+    "meaning": "你要不要一只鸡？这些鸡肉品质很好。"
+  },
+  "structureNotes": [
+    {
+      "title": "询问句的语序",
+      "text": "实义动词want的一般现在时疑问句需要把助动词Do放到句首，再依次接主语you和谓语want，不能说成you want a chicken?的语序。"
+    },
+    {
+      "title": "指代与省略",
+      "text": "第二句用They代指第一句提到的chicken，避免重复说“鸡”；They're是They are的口语缩写，very放在nice之前加强语气，表示“非常好”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do you want a chicken, Mrs. Bird?",
+      "role": "第一句：助动词+主语+谓语+宾语+称呼",
+      "explanation": "Do是构成一般现在时疑问句的助动词，you是主语，want是谓语动词，a chicken是want的宾语，Mrs. Bird是对话的对象称呼。"
+    },
+    {
+      "text": "They're very nice.",
+      "role": "第二句：主语+系动词+表语",
+      "explanation": "They是主语，指代前文提到的chicken，'re是are的缩写作系动词，very nice是表语，描述鸡肉的品质。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Do",
+      "meaning": "助动词，用于构成一般现在时的一般疑问句",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；您",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要；需要",
+      "pos": "动词",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一只",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "chicken,",
+      "meaning": "（供食用的）鸡；鸡肉",
+      "pos": "名词",
+      "phonetic": "/ˈtʃɪkɪn/"
+    },
+    {
+      "text": "Mrs.",
+      "meaning": "夫人；太太（用在已婚女性的姓氏前）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪsɪz/"
+    },
+    {
+      "text": "Bird?",
+      "meaning": "伯德（姓氏）",
+      "pos": "名词",
+      "phonetic": "/bɜːd/"
+    },
+    {
+      "text": "They're",
+      "meaning": "它们是；这些鸡是（They are 的口语缩写）",
+      "pos": "代词+动词缩写",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常；很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "nice.",
+      "meaning": "（食物）质量好的；美味的；不错的",
+      "pos": "形容词",
+      "phonetic": "/naɪs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Do you want a chicken,",
+      "meaning": "您想要一只鸡吗",
+      "relation": "核心推销问句，询问顾客的购买意愿"
+    },
+    {
+      "text": "Mrs. Bird?",
+      "meaning": "伯德太太",
+      "relation": "对话对象称呼，放在句尾明确招呼的人"
+    },
+    {
+      "text": "They're very nice.",
+      "meaning": "这些鸡非常好（指鸡肉品质佳）",
+      "relation": "补充说明鸡肉的优点，辅助推销"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-49",
+  "sentenceId": "nce-1-lesson-049-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Do you want a chicken, Mrs. Bird? They're very nice.",
+  "lesson": "Lesson 49 At the butcher's",
+  "notes": [
+    {
+      "title": "询问句的语序",
+      "text": "实义动词want的一般现在时疑问句需要把助动词Do放到句首，再依次接主语you和谓语want，不能说成you want a chicken?的语序。"
+    },
+    {
+      "title": "指代与省略",
+      "text": "第二句用They代指第一句提到的chicken，避免重复说“鸡”；They're是They are的口语缩写，very放在nice之前加强语气，表示“非常好”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体可作为面向中文母语成年人的静态解析使用：两个句子主干完整，主动谓语、系动词与表语、指代关系及音标基本正确；主要问题是词语切分把标点并入词条，以及 chicken、Bird 的释义/音标随标点不够规范，另有一处 nice 的释义可结合肉店语境作更贴合的说明。（非逐句人工审核）"
+}

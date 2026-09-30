@@ -1,0 +1,126 @@
+{
+  "chinese": "他必须卧床吗？",
+  "intent": "向医生确认病人是否有必须卧床休息的要求，属于对医嘱必要性的探询问句。",
+  "comparison": {
+    "chinese": "他必须卧床吗？",
+    "english": "Must he stay in bed?",
+    "steps": [
+      {
+        "label": "先明确已知询问对象",
+        "text": "主语是 he，指代前文提到的生病男孩，基础表意是「他处于卧床休养的状态」。",
+        "explanation": "本句先以 stay in bed 构成系表结构说明主体所处的状态，疑问核心并非询问他是不是在床上，而是问这件事有没有强制性。"
+      },
+      {
+        "label": "再看 Must 的位置与含义",
+        "text": "Must 放在句首、he 的前面，直接构成疑问句；它表达「必须、非得」的强制性，不需要再加 do/does。",
+        "explanation": "因为 must 是情态助动词，疑问句直接把它提到句首，语义上就是在确认「这件事是不是不得不做」，而不是询问他待在床上的状态。"
+      },
+      {
+        "label": "最后把疑问语气接回主干",
+        "text": "Must 提前后，整句的核心表意仍是 he stay in bed，只是给这个状态加上了「是否必须」的疑问色彩，句末问号和中文的「吗」对应。",
+        "explanation": "中文靠句末「吗」承载疑问语气，英语靠把助动词提前到句首实现疑问，不必逐字对应语序。"
+      }
+    ],
+    "takeaway": "英语用「情态助动词提前到句首」构成必要类疑问句，中文用句末语气词「吗」对应疑问语气，核心是确认卧床这件事是否属于硬性要求。"
+  },
+  "backbone": {
+    "text": "Must he stay in bed?",
+    "meaning": "询问卧床休养这件事对他来说是否属于必须执行的要求。"
+  },
+  "structureNotes": [
+    {
+      "title": "情态动词的疑问移位",
+      "text": "Must 作为表达强制义务的情态助动词，在疑问句中直接移到主语之前，不需要额外添加 do/does 类助动词来完成倒装。"
+    },
+    {
+      "title": "固定短语搭配",
+      "text": "stay in bed 是固定表达，指因病卧床休养，不能拆分理解为停留在床的表面，in 表示处于卧床休息的状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Must",
+      "role": "情态助动词（疑问标记）",
+      "explanation": "表达「必须、非得」的强制语气，因疑问句需要提前至句首，主语和后续实义动词保持原形。"
+    },
+    {
+      "text": "he",
+      "role": "主语",
+      "explanation": "指代前文提到的生病男性，是卧床这个状态的承载者。"
+    },
+    {
+      "text": "stay in bed",
+      "role": "系表结构（谓语部分）",
+      "explanation": "stay 是连系动词，介词短语 in bed 作表语，整体表示「处于卧床休养的状态」，是句子的核心表述部分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Must",
+      "meaning": "必须、非得",
+      "pos": "情态助动词",
+      "phonetic": "/mʌst/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词（主格）",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "stay",
+      "meaning": "保持、处于（某种状态）",
+      "pos": "动词",
+      "phonetic": "/steɪ/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……内（表状态）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "bed?",
+      "meaning": "床",
+      "pos": "名词",
+      "phonetic": "/bed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Must",
+      "meaning": "必须",
+      "relation": "疑问情态标记，提前到句首表示询问这件事是否有强制性"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "relation": "被询问的对象，也就是需要做卧床这件事的主体"
+    },
+    {
+      "text": "stay in bed?",
+      "meaning": "卧床吗？",
+      "relation": "核心表意内容，说明询问的具体事项是是否需要保持卧床休养的状态"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-63",
+  "sentenceId": "nce-1-lesson-063-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Must he stay in bed?",
+  "lesson": "Lesson 63 Thank you, doctor.",
+  "notes": [
+    {
+      "title": "情态动词的疑问移位",
+      "text": "Must 作为表达强制义务的情态助动词，在疑问句中直接移到主语之前，不需要额外添加 do/does 类助动词来完成倒装。"
+    },
+    {
+      "title": "固定短语搭配",
+      "text": "stay in bed 是固定表达，指因病卧床休养，不能拆分理解为停留在床的表面，in 表示处于卧床休息的状态。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体释义、结构拆解与对比说明符合原句语义，仅存在两处可明确修正的细节：一是stay in bed被标注为谓语动词短语，实际stay是连系动词，in bed是介词短语作表语，需补充说明系表结构的逻辑；二是bed词条的音标误将句末问号并入，需移除。其余内容表述准确，无关键事实或语法误判。（非逐句人工审核）"
+}

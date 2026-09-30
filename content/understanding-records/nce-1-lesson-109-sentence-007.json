@@ -1,0 +1,132 @@
+{
+  "chinese": "请给我一茶匙半（的量）。",
+  "intent": "在调味糖的场景中向对方提出自己需要的糖量，明确要求放一茶匙半的糖。",
+  "comparison": {
+    "chinese": "中文常说“一茶匙半”，把整数与半数合为一个数量短语直接修饰被计量对象；英文则先完整说出数量 One and a half，再接被计量名词；数量大于1时，该名词用复数形式。",
+    "english": "One and a half teaspoonfuls, please.",
+    "steps": [
+      {
+        "label": "先读英文数量",
+        "text": "One and a half",
+        "explanation": "整体数值是1加0.5，即1.5；它不是“一个半茶匙再加上另一个半”。"
+      },
+      {
+        "label": "再看被计量名词",
+        "text": "teaspoonfuls",
+        "explanation": "teaspoonful 指一茶匙的容量；因前面数量大于1，英语用复数 teaspoonfuls；若只说 one teaspoonful，则用单数。"
+      },
+      {
+        "label": "最后接礼貌请求",
+        "text": "please",
+        "explanation": "放在句末表示请求或嘱托，不是在陈述一个已完成的事实；整句可理解为“请给我一茶匙半（的量）”。"
+      }
+    ],
+    "takeaway": "One and a half 后接可数名词时，该名词用复数；中英语序差异主要体现在英文把完整数量放在名词前，而不是改变实际数量。"
+  },
+  "backbone": {
+    "text": "（I would like）one and a half teaspoonfuls, please.",
+    "meaning": "请给我一茶匙半（的量）。"
+  },
+  "structureNotes": [
+    {
+      "title": "数量大于1时名词用复数",
+      "text": "One and a half 表示1.5，后面的可数名词 teaspoonful 要变为复数 teaspoonfuls，不能因为有 half 就用单数。"
+    },
+    {
+      "title": "please 放在句末表礼貌请求",
+      "text": "please 放在句末表示礼貌请求或嘱托；整句是省略了主语和谓语的点量表达，完整意思是“请给我一茶匙半的量”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "One and a half",
+      "role": "数量定语",
+      "explanation": "整体修饰后面的 teaspoonfuls，表示具体数量是1.5个茶匙量。"
+    },
+    {
+      "text": "teaspoonfuls",
+      "role": "被计量的名词（复数）",
+      "explanation": "因前面数量大于1而用复数；句末逗号将它与后面的 please 隔开。"
+    },
+    {
+      "text": "please.",
+      "role": "礼貌请求标记",
+      "explanation": "放在句末，表示这是向对方提出的请求或嘱托，而非单纯陈述数量。"
+    }
+  ],
+  "words": [
+    {
+      "text": "One",
+      "meaning": "一",
+      "pos": "数词",
+      "phonetic": "/wʌn/"
+    },
+    {
+      "text": "and",
+      "meaning": "（在数量短语中连接整数与半数）",
+      "pos": "连词",
+      "phonetic": "/ənd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "half",
+      "meaning": "一半",
+      "pos": "名词",
+      "phonetic": "/hɑːf/"
+    },
+    {
+      "text": "teaspoonfuls,",
+      "meaning": "一茶匙的量（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈtiːspuːnfəlz/"
+    },
+    {
+      "text": "please.",
+      "meaning": "请",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "One and a half",
+      "meaning": "一又二分之一（即1.5）",
+      "relation": "说明总量数值"
+    },
+    {
+      "text": "teaspoonfuls,",
+      "meaning": "一茶匙的容量（复数形式，带句内逗号）",
+      "relation": "被数量修饰的计量单位"
+    },
+    {
+      "text": "please.",
+      "meaning": "请（带句末句号）",
+      "relation": "表示礼貌请求或嘱托的语气"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-109",
+  "sentenceId": "nce-1-lesson-109-sentence-007",
+  "sentenceOrder": 7,
+  "english": "One and a half teaspoonfuls, please.",
+  "lesson": "Lesson 109 A good idea",
+  "notes": [
+    {
+      "title": "数量大于1时名词用复数",
+      "text": "One and a half 表示1.5，后面的可数名词 teaspoonful 要变为复数 teaspoonfuls，不能因为有 half 就用单数。"
+    },
+    {
+      "title": "please 放在句末表礼貌请求",
+      "text": "please 放在句末表示礼貌请求或嘱托；整句是省略了主语和谓语的点量表达，完整意思是“请给我一茶匙半的量”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构、数量复数规则和礼貌请求标记的解释基本正确。主要可修正点：原“One and a half 后面接可数名词时，通常用复数”的表述不够严密，应限定为后接可数名词复数的情况；同时“and”在固定数量短语中不必单独释为独立连词，按整量构成解释更自然。（非逐句人工审核）"
+}

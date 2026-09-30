@@ -1,0 +1,95 @@
+{
+  "chinese": "当然可以。请进。",
+  "intent": "同意对方看房请求并邀请进入屋内。",
+  "comparison": null,
+  "backbone": {
+    "text": "Yes. Come in.",
+    "meaning": "同意对方的请求，邀请对方进入。"
+  },
+  "structureNotes": [
+    {
+      "title": "对请求的肯定回应",
+      "text": "Yes 直接回应上一句的 May I... 请求，of course 加强肯定语气，表示完全同意、没有问题。"
+    },
+    {
+      "title": "祈使句表邀请",
+      "text": "Come in 是祈使句，默认省略了第二人称主语 you，直接发出进入邀请，用于日常接待场景。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes, of course.",
+      "role": "肯定回应",
+      "explanation": "Yes 表示同意，of course 加强语气，意为当然可以。"
+    },
+    {
+      "text": "Come in.",
+      "role": "祈使句",
+      "explanation": "邀请对方进入。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes,",
+      "meaning": "是的（回应词）",
+      "pos": "感叹词",
+      "phonetic": "/jes/"
+    },
+    {
+      "text": "of",
+      "meaning": "与 course 构成固定短语 of course",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "course.",
+      "meaning": "（用于固定短语 of course 中）",
+      "pos": "名词",
+      "phonetic": "/kɔːs/"
+    },
+    {
+      "text": "Come",
+      "meaning": "来",
+      "pos": "动词（祈使句开头）",
+      "phonetic": "/kʌm/"
+    },
+    {
+      "text": "in.",
+      "meaning": "进入",
+      "pos": "副词",
+      "phonetic": "/ɪn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes, of course.",
+      "relation": "肯定回应对方的看房请求",
+      "meaning": "当然可以"
+    },
+    {
+      "text": "Come in.",
+      "relation": "发出邀请进入的指令",
+      "meaning": "请进"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-89",
+  "sentenceId": "nce-1-lesson-089-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Yes, of course. Come in.",
+  "lesson": "Lesson 89 For sale",
+  "notes": [
+    {
+      "title": "对请求的肯定回应",
+      "text": "Yes 直接回应上一句的 May I... 请求，of course 加强肯定语气，表示完全同意、没有问题。"
+    },
+    {
+      "title": "祈使句表邀请",
+      "text": "Come in 是祈使句，默认省略了第二人称主语 you，直接发出进入邀请，用于日常接待场景。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体表意、翻译和主干可成立；仅需修正 of 的词性、拆分单词音标并补充祈使句省略主语的说明，其余内容无需改动。（非逐句人工审核）"
+}

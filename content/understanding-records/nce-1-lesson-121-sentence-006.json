@@ -1,0 +1,248 @@
+{
+  "chinese": "卡罗琳，半小时前你接待过这位先生吗？他说他就是买这些书的人。",
+  "intent": "询问店员是否曾接待过这位先生，并说明对方自称的身份。",
+  "comparison": {
+    "chinese": "中文先喊人：“卡罗琳，……吗？”；英文也可把称呼放句末：“……吗，卡罗琳？”。",
+    "english": "Did you serve this gentleman half an hour ago, Caroline?",
+    "steps": [
+      {
+        "label": "先找核心动作",
+        "text": "you serve this gentleman",
+        "explanation": "主语是you，核心动作是接待这位先生；时间状语说明接待发生在半小时前。"
+      },
+      {
+        "label": "再判断问什么",
+        "text": "Did ... ?",
+        "explanation": "Did放在句首，表示向you核实过去有没有做过这件事，不是陈述句的强调。"
+      },
+      {
+        "label": "称呼放哪里",
+        "text": "..., Caroline?",
+        "explanation": "Caroline是被问话的人；放句末时，前面先把问题主体问完。"
+      }
+    ],
+    "takeaway": "把Did ... serve ...?还原成“你有没有接待过……”，再加上时间和称呼即可。"
+  },
+  "backbone": {
+    "text": "Did you serve this gentleman? He says he's the man who bought these books.",
+    "meaning": "是否接待过这位先生；他自称就是买书的那个人。"
+  },
+  "structureNotes": [
+    {
+      "title": "称呼放在句末",
+      "text": "Caroline用逗号隔开放在句末，是对话中对对方的称呼；不参与句子主干，主干仍是Did you serve this gentleman?"
+    },
+    {
+      "title": "who从句限定身份",
+      "text": "who bought these books紧跟the man，who指the man并作从句主语；从句说明“什么样的男人”，即买过这些书的人。"
+    },
+    {
+      "title": "says后接陈述内容",
+      "text": "He says后面省略that，整个句子he's the man...是“他说”的内容，不是直接引语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Did you serve this gentleman half an hour ago, Caroline?",
+      "role": "疑问句",
+      "explanation": "询问对方过去是否做过“接待这位先生”这件事。"
+    },
+    {
+      "text": "half an hour ago",
+      "role": "时间状语",
+      "explanation": "说明 serve 发生在半小时前。"
+    },
+    {
+      "text": "Caroline",
+      "role": "呼语",
+      "explanation": "对话称呼，指明问话对象。"
+    },
+    {
+      "text": "He says he's the man who bought these books.",
+      "role": "主句 + 宾语从句",
+      "explanation": "He says 是主句，he's the man... 是宾语从句（that 省略）；从句中再用 who bought these books 修饰 the man。"
+    },
+    {
+      "text": "who bought these books",
+      "role": "定语从句",
+      "explanation": "who 指代 the man，作从句主语，限定“买过这些书的人”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Did",
+      "meaning": "助动词（构成过去一般疑问句，无实义）",
+      "pos": "auxiliary verb",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "pronoun",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "serve",
+      "meaning": "接待；服务",
+      "pos": "verb",
+      "phonetic": "/sɜːv/"
+    },
+    {
+      "text": "this",
+      "meaning": "这个",
+      "pos": "determiner",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "gentleman",
+      "meaning": "先生；绅士",
+      "pos": "noun",
+      "phonetic": "/ˈdʒentlmən/"
+    },
+    {
+      "text": "half",
+      "meaning": "一半的",
+      "pos": "determiner",
+      "phonetic": "/hɑːf/"
+    },
+    {
+      "text": "an",
+      "meaning": "一（个）",
+      "pos": "article",
+      "phonetic": "/ən/"
+    },
+    {
+      "text": "hour",
+      "meaning": "小时",
+      "pos": "noun",
+      "phonetic": "/ˈaʊə/"
+    },
+    {
+      "text": "ago,",
+      "meaning": "以前",
+      "pos": "adverb",
+      "phonetic": "/əˈɡəʊ/"
+    },
+    {
+      "text": "Caroline?",
+      "meaning": "卡罗琳（人名）",
+      "pos": "proper noun",
+      "phonetic": "/ˈkærəlaɪn/"
+    },
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "pronoun",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "says",
+      "meaning": "（他）说（此处指男士向店员陈述自己的身份）",
+      "pos": "verb",
+      "phonetic": "/sez/"
+    },
+    {
+      "text": "he's",
+      "meaning": "他是",
+      "pos": "contraction of he is",
+      "phonetic": "/hiːz/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个；那个",
+      "pos": "determiner",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人",
+      "pos": "noun",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "who",
+      "meaning": "……的人（指代 the man）",
+      "pos": "relative pronoun",
+      "phonetic": "/huː/"
+    },
+    {
+      "text": "bought",
+      "meaning": "买（buy 的过去式）",
+      "pos": "verb",
+      "phonetic": "/bɔːt/"
+    },
+    {
+      "text": "these",
+      "meaning": "这些",
+      "pos": "determiner",
+      "phonetic": "/ðiːz/"
+    },
+    {
+      "text": "books.",
+      "meaning": "书（复数）",
+      "pos": "noun",
+      "phonetic": "/bʊks/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Did you serve",
+      "meaning": "你是否接待过",
+      "relation": "问句的助动词、主语与核心动作"
+    },
+    {
+      "text": "this gentleman",
+      "meaning": "这位先生",
+      "relation": "接待的对象"
+    },
+    {
+      "text": "half an hour ago,",
+      "meaning": "半小时前",
+      "relation": "说明动作发生的时间"
+    },
+    {
+      "text": "Caroline?",
+      "meaning": "卡罗琳？",
+      "relation": "对话中的呼语，指明问话对象"
+    },
+    {
+      "text": "He says",
+      "meaning": "他（向店员）说",
+      "relation": "主句，引出男士的自我陈述"
+    },
+    {
+      "text": "he's the man",
+      "meaning": "他就是那个男人",
+      "relation": "says 后宾语从句的主句"
+    },
+    {
+      "text": "who bought these books.",
+      "meaning": "买过这些书的（那个人）",
+      "relation": "定语从句，修饰 the man。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-121",
+  "sentenceId": "nce-1-lesson-121-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Did you serve this gentleman half an hour ago, Caroline? He says he's the man who bought these books.",
+  "lesson": "Lesson 121 The man in a hat",
+  "notes": [
+    {
+      "title": "称呼放在句末",
+      "text": "Caroline用逗号隔开放在句末，是对话中对对方的称呼；不参与句子主干，主干仍是Did you serve this gentleman?"
+    },
+    {
+      "title": "who从句限定身份",
+      "text": "who bought these books紧跟the man，who指the man并作从句主语；从句说明“什么样的男人”，即买过这些书的人。"
+    },
+    {
+      "title": "says后接陈述内容",
+      "text": "He says后面省略that，整个句子he's the man...是“他说”的内容，不是直接引语。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体主干、定语从句、呼语和翻译均可用。词语切分把句末标点附在单词后；words 与 parts 中对 says 的解释缺少“转述别人的陈述”这一语境信息，需与上下文保持一致；其余角色、关系和比较说明无误。（非逐句人工审核）"
+}

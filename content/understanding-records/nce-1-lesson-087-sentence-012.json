@@ -1,0 +1,121 @@
+{
+  "chinese": "你们的机修工能修好吗？",
+  "intent": "向对方询问机修工是否有能力把撞坏的汽车修好。",
+  "comparison": {
+    "chinese": "你们的机修工能修好吗？",
+    "english": "Can your mechanics repair it?",
+    "steps": [
+      {
+        "label": "提问起点",
+        "text": "Can",
+        "explanation": "把情态动词Can放在句首，直接表明要询问“能不能、是否有能力”，而不是陈述机修工本来就能修车。"
+      },
+      {
+        "label": "承接能力询问",
+        "text": "your mechanics repair it",
+        "explanation": "your mechanics是被问的对象，repair it是他们要做的动作；it指代前面撞坏的那辆车，Can提前后不用再加do/does。"
+      }
+    ],
+    "takeaway": "这句用Can开头，先问能力，再接上“谁做、做什么”，it指前面被撞坏的车。"
+  },
+  "backbone": {
+    "text": "Can your mechanics repair it?",
+    "meaning": "询问对方的机修工是否能够把这辆车修好。"
+  },
+  "structureNotes": [
+    {
+      "title": "Can提前构成能力问句",
+      "text": "Can放在句首是询问“能不能”，主语your mechanics跟在Can后面；不是陈述“机修工会修车”，而是向对方确认能力。"
+    },
+    {
+      "title": "it承接前文汽车",
+      "text": "it指前面提到的撞路灯柱的车，翻译时不必每次都说“它”，按上下文说“修好”即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Can",
+      "role": "情态助动词",
+      "explanation": "放在句首表示能力询问“能不能、是否可以”，帮助构成疑问句，是问句的情态功能标记，不在句中充当主语。"
+    },
+    {
+      "text": "your mechanics",
+      "role": "主语",
+      "explanation": "指对方的机修工，是repair这个动作的发出者。"
+    },
+    {
+      "text": "repair it",
+      "role": "谓语与宾语",
+      "explanation": "repair表示修理，it是修理的对象，即前文提到的撞坏的汽车。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Can",
+      "meaning": "能够、可以",
+      "pos": "情态动词",
+      "phonetic": "/kæn/"
+    },
+    {
+      "text": "your",
+      "meaning": "你的；你们的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/jɔː(r)/"
+    },
+    {
+      "text": "mechanics",
+      "meaning": "机修工；机械师",
+      "pos": "名词（复数）",
+      "phonetic": "/məˈkænɪks/"
+    },
+    {
+      "text": "repair",
+      "meaning": "修理",
+      "pos": "动词",
+      "phonetic": "/rɪˈpeə(r)/"
+    },
+    {
+      "text": "it?",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Can",
+      "meaning": "能、可以",
+      "relation": "表明对“能否做到”的提问，作为情态助动词帮助构成疑问句"
+    },
+    {
+      "text": "your mechanics",
+      "meaning": "你们的机修工",
+      "relation": "被询问的动作执行者"
+    },
+    {
+      "text": "repair it?",
+      "meaning": "修好它？",
+      "relation": "机修工要做的事，it指代前面撞坏的车"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-87",
+  "sentenceId": "nce-1-lesson-087-sentence-012",
+  "sentenceOrder": 12,
+  "english": "Can your mechanics repair it?",
+  "lesson": "Lesson 87 A car crash",
+  "notes": [
+    {
+      "title": "Can提前构成能力问句",
+      "text": "Can放在句首是询问“能不能”，主语your mechanics跟在Can后面；不是陈述“机修工会修车”，而是向对方确认能力。"
+    },
+    {
+      "title": "it承接前文汽车",
+      "text": "it指前面提到的撞路灯柱的车，翻译时不必每次都说“它”，按上下文说“修好”即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析方向正确，准确保留了Can疑问句的能力询问功能、it的指代关系和名词主语的动作发出者定位，仅存在词汇释义把标点混入、以及情态动词在该疑问句中的功能表述可进一步精准明确的小问题，不影响整体理解。（非逐句人工审核）"
+}

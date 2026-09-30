@@ -1,0 +1,81 @@
+{
+  "chinese": "谢谢您，杰克逊先生。",
+  "intent": "向杰克逊先生表达正式的感谢，礼貌回应对方的邀约或引导。",
+  "comparison": null,
+  "backbone": {
+    "text": "Thank you, Mr. Jackson.",
+    "meaning": "向杰克逊先生表达感谢的完整礼貌表述。"
+  },
+  "parts": [
+    {
+      "text": "Thank you,",
+      "relation": "核心的感谢动作，指向接收感谢的对象",
+      "meaning": "谢谢您"
+    },
+    {
+      "text": "Mr. Jackson.",
+      "relation": "补充说明感谢的具体对象是谁",
+      "meaning": "杰克逊先生"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "称呼的位置",
+      "text": "本句在感谢语之后直接加上带尊称的人名，用于明确感谢的对象，是日常礼貌交际的常用句式。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Thank you",
+      "role": "核心感谢用语",
+      "explanation": "直接传递感谢含义的基础交际片段"
+    },
+    {
+      "text": "Mr. Jackson",
+      "role": "礼貌称呼",
+      "explanation": "用尊称加姓氏明确致谢对象，符合正式场合的交流规范"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "感谢",
+      "pos": "动词",
+      "phonetic": "/θæŋk/",
+      "text": "Thank"
+    },
+    {
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you,"
+    },
+    {
+      "meaning": "先生（尊称）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪstə(r)/",
+      "text": "Mr."
+    },
+    {
+      "meaning": "杰克逊",
+      "pos": "专有名词（姓氏）",
+      "phonetic": "/ˈdʒæksən/",
+      "text": "Jackson."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-17",
+  "sentenceId": "nce-1-lesson-017-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Thank you, Mr. Jackson.",
+  "lesson": "Lesson 17 How do you do?",
+  "notes": [
+    {
+      "title": "称呼的位置",
+      "text": "本句在感谢语之后直接加上带尊称的人名，用于明确感谢的对象，是日常礼貌交际的常用句式。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合解析规范，仅存在部分细节可修正优化，不影响核心语义传递（非逐句人工审核）"
+}

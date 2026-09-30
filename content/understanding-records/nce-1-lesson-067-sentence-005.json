@@ -1,0 +1,114 @@
+{
+  "chinese": "吉米今天怎么样？",
+  "intent": "向对方询问吉米当前的身体或状态情况，属于日常寒暄问候类提问。",
+  "comparison": {
+    "chinese": "中文把被询问的人放在句首：“吉米今天怎么样？”；英语习惯把疑问词 How 放到句首，再用缩写 How's 引入。",
+    "english": "How's Jimmy today?",
+    "steps": [
+      {
+        "label": "先确定询问方向",
+        "text": "How's = How is",
+        "explanation": "How 问“怎么样、如何”，'s 是 is 的缩写，表示当前状态。"
+      },
+      {
+        "label": "找到被问对象",
+        "text": "Jimmy",
+        "explanation": "Jimmy 是这句话的询问对象，放在 How's 后面作为主语。"
+      },
+      {
+        "label": "补充时间",
+        "text": "today",
+        "explanation": "today 说明问的是“今天”的状态，不是平时或过去。"
+      }
+    ],
+    "takeaway": "英语问状态时先讲问“怎么样”，再接被问的人；中文则常先说出人，再问状态。"
+  },
+  "backbone": {
+    "text": "How's Jimmy today?",
+    "meaning": "询问吉米今天的身体或状态好不好。"
+  },
+  "structureNotes": [
+    {
+      "title": "缩写 How's",
+      "text": "How's 是 How is 的缩写，口语中常用它询问“某人怎么样/好不好”。"
+    },
+    {
+      "title": "today 的位置",
+      "text": "时间词 today 放在句末，表示询问的是今天的状态，而不是一贯状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "How's",
+      "role": "疑问引导部分（疑问词+系动词缩写）",
+      "explanation": "How is 的口语缩写，用来引导对状态的提问，包含疑问词 How 和 be 动词 is。"
+    },
+    {
+      "text": "Jimmy",
+      "role": "询问对象（主语）",
+      "explanation": "被询问状态的人，在这个问句中是句子的主语。"
+    },
+    {
+      "text": "today?",
+      "role": "时间状语",
+      "explanation": "指明状态询问的时间范围是“今天”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "How's",
+      "meaning": "how is 的口语缩写",
+      "pos": "疑问缩写短语（含疑问副词与be动词）",
+      "phonetic": "/haʊz/"
+    },
+    {
+      "text": "Jimmy",
+      "meaning": "吉米（男子名，这里指被问候的人）",
+      "pos": "专有名词",
+      "phonetic": "/ˈdʒɪmi/"
+    },
+    {
+      "text": "today?",
+      "meaning": "今天？",
+      "pos": "时间副词",
+      "phonetic": "/təˈdeɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "How's",
+      "meaning": "怎么样（含be动词is的缩写）",
+      "relation": "提出对状态的询问"
+    },
+    {
+      "text": "Jimmy",
+      "meaning": "吉米",
+      "relation": "询问对象"
+    },
+    {
+      "text": "today?",
+      "meaning": "今天？",
+      "relation": "补充说明询问的时间范围"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-67",
+  "sentenceId": "nce-1-lesson-067-sentence-005",
+  "sentenceOrder": 5,
+  "english": "How's Jimmy today?",
+  "lesson": "Lesson 67 The weekend",
+  "notes": [
+    {
+      "title": "缩写 How's",
+      "text": "How's 是 How is 的缩写，口语中常用它询问“某人怎么样/好不好”。"
+    },
+    {
+      "title": "today 的位置",
+      "text": "时间词 today 放在句末，表示询问的是今天的状态，而不是一贯状态。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：全句翻译、主干、分块结构、词性、音标与语境释义均与原文匹配，未发现语法角色混淆或表意错误，仅需微调两处术语表述使其更精准。（非逐句人工审核）"
+}

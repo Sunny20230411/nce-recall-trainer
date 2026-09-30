@@ -1,0 +1,89 @@
+{
+  "chinese": "恐怕我必须（现在浇）。",
+  "intent": "回应对方的提问，确认自己不得不现在就给花浇水。",
+  "comparison": null,
+  "backbone": {
+    "text": "I must",
+    "meaning": "这是用于理解的核心应答主干，承接上文中的“water it now”，表示说话人不得不现在浇水；I'm afraid是表示委婉语气的插入语，用于传递略带歉意的肯定态度。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略补全",
+      "text": "句中的must后省略了上文中刚提过的water it now，承接语境完整意思是\"恐怕我现在就必须给它浇水\"，不需要把省略的部分额外补说。"
+    },
+    {
+      "title": "I'm afraid的委婉语气",
+      "text": "I'm afraid在这里不是表达\"我害怕\"的情绪，而是英语日常用来委婉传递略带遗憾的事实，语气相当于中文口语里的\"恐怕、怕是\"。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm afraid",
+      "role": "语气插入语",
+      "explanation": "用来委婉回应对方的提问，传递略带歉意、无奈的态度，不是在说主观恐惧。"
+    },
+    {
+      "text": "I must",
+      "role": "主句",
+      "explanation": "情态动词must后省略了与上文重复的water it now，是回应提问的核心内容。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I'm",
+      "meaning": "我是（I am的缩写形式）",
+      "pos": "代词+be动词的缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "afraid",
+      "meaning": "担忧的、恐怕（此处用于委婉表达略带遗憾、歉意的语气，不表示“害怕”）",
+      "pos": "形容词",
+      "phonetic": "/əˈfreɪd/"
+    },
+    {
+      "text": "I",
+      "meaning": "我（主格代词）",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "must.",
+      "meaning": "必须（后省略了与上文重复的“water it now”）",
+      "pos": "情态动词（句末带句号）",
+      "phonetic": "/mʌst/."
+    }
+  ],
+  "parts": [
+    {
+      "text": "I'm afraid",
+      "relation": "表达委婉的回应语气",
+      "meaning": "恐怕"
+    },
+    {
+      "text": "I must.",
+      "relation": "对上文提问的核心回应内容",
+      "meaning": "我必须（现在浇它）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-125",
+  "sentenceId": "nce-1-lesson-125-sentence-004",
+  "sentenceOrder": 4,
+  "english": "I'm afraid I must.",
+  "lesson": "Lesson 125 Tea for two",
+  "notes": [
+    {
+      "title": "省略补全",
+      "text": "句中的must后省略了上文中刚提过的water it now，承接语境完整意思是\"恐怕我现在就必须给它浇水\"，不需要把省略的部分额外补说。"
+    },
+    {
+      "title": "I'm afraid的委婉语气",
+      "text": "I'm afraid在这里不是表达\"我害怕\"的情绪，而是英语日常用来委婉传递略带遗憾的事实，语气相当于中文口语里的\"恐怕、怕是\"。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构与省略说明准确，语境词义贴合日常对话；仅词汇分块中的must带有句号，音标和词性需要与分块文本保持一致。（非逐句人工审核）"
+}

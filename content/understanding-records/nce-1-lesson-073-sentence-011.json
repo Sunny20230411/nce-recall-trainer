@@ -1,0 +1,87 @@
+{
+  "chinese": "‘对不起，’他说。",
+  "intent": "交代男子用英语说出的致歉内容，并说明这句话是他表达的。",
+  "comparison": null,
+  "backbone": {
+    "text": "He said, 'I am sorry.'",
+    "meaning": "他说了一句道歉的话。"
+  },
+  "structureNotes": [
+    {
+      "title": "引语与说话人顺序",
+      "text": "英文的直接引语和中文一样放在句首，说话人 he said 放在引语之后；中文也是先写引语“对不起”，再接“他说”，只是英文用逗号把引语和说话人分句连接为一个完整句子，中文用句号分隔为两个分句。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'I am sorry,'",
+      "role": "直接引语内容",
+      "explanation": "用引号标出他直接说出的道歉语句，末尾带逗号表示引语尚未结束，后续接说话人说明。"
+    },
+    {
+      "text": "he said.",
+      "role": "主句",
+      "explanation": "表示这句话由他说出，交代说话人，整体语序为引语在前、说话人在后。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "am",
+      "meaning": "是（be动词第一人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/æm/"
+    },
+    {
+      "text": "sorry,'",
+      "meaning": "抱歉的、对不起的",
+      "pos": "形容词",
+      "phonetic": "/ˈsɒri/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说（say的过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "'I am sorry,'",
+      "relation": "他说出的直接引语内容",
+      "meaning": "‘对不起，’"
+    },
+    {
+      "text": "he said.",
+      "relation": "引语的说话人，交代这句话是谁说的",
+      "meaning": "他说。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-73",
+  "sentenceId": "nce-1-lesson-073-sentence-011",
+  "sentenceOrder": 11,
+  "english": "'I am sorry,' he said.",
+  "lesson": "Lesson 73 The way to King Street",
+  "notes": [
+    {
+      "title": "引语与说话人顺序",
+      "text": "英文的直接引语和中文一样放在句首，说话人 he said 放在引语之后；中文也是先写引语“对不起”，再接“他说”，只是英文用逗号把引语和说话人分句连接为一个完整句子，中文用句号分隔为两个分句。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有内容整体准确，仅存在两处可明确修正的小问题：一是单词拆分时将引语前后的标点和单词绑定在一起，会误导学习者认为标点是单词本身的一部分；二是结构说明中对中英文引语和说话人先后顺序的描述与实际语序不符，其余内容无错误。（非逐句人工审核）"
+}

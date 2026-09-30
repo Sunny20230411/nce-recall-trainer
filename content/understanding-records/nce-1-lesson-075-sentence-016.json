@@ -1,0 +1,99 @@
+{
+  "chinese": "它们看起来很不舒服。",
+  "intent": "描述鞋子给人的直观观感，预判穿着会不舒适，为后文女士爱穿不舒服的鞋做铺垫。",
+  "comparison": null,
+  "backbone": {
+    "text": "它们看起来很不舒服。",
+    "meaning": "指代前文提到的女鞋，从外观判断其穿着感受不佳。"
+  },
+  "structureNotes": [
+    {
+      "title": "感官系动词的用法",
+      "text": "look是“看起来、看上去”的意思，后面直接接形容词描述给人的观感，不翻译为“看”这个动作。"
+    },
+    {
+      "title": "very修饰程度",
+      "text": "very放在形容词uncomfortable前面，表示“非常、很”的程度，强化鞋子看起来极不舒适的感受。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They",
+      "role": "主语",
+      "explanation": "指代前文提到的女鞋，复数形式对应多只鞋。"
+    },
+    {
+      "text": "look",
+      "role": "系动词",
+      "explanation": "感官系动词，表达“从外观看上去如何”的判断。"
+    },
+    {
+      "text": "very uncomfortable.",
+      "role": "表语",
+      "explanation": "说明主语呈现出的观感特征，very修饰uncomfortable表示程度。"
+    }
+  ],
+  "words": [
+    {
+      "text": "They",
+      "meaning": "它们（指代前文的女鞋）",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "look",
+      "meaning": "看起来，看上去",
+      "pos": "系动词",
+      "phonetic": "/lʊk/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "uncomfortable.",
+      "meaning": "不舒服的，不舒适的",
+      "pos": "形容词",
+      "phonetic": "/ʌnˈkʌmftəbl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "They",
+      "relation": "句子描述的主体",
+      "meaning": "它们（指代前文的女鞋）"
+    },
+    {
+      "text": "look",
+      "relation": "连接主体和观感判断",
+      "meaning": "看起来"
+    },
+    {
+      "text": "very uncomfortable.",
+      "relation": "描述主体的外观特征",
+      "meaning": "很不舒服的。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-75",
+  "sentenceId": "nce-1-lesson-075-sentence-016",
+  "sentenceOrder": 16,
+  "english": "They look very uncomfortable.",
+  "lesson": "Lesson 75 Uncomfortable shoes",
+  "notes": [
+    {
+      "title": "感官系动词的用法",
+      "text": "look是“看起来、看上去”的意思，后面直接接形容词描述给人的观感，不翻译为“看”这个动作。"
+    },
+    {
+      "title": "very修饰程度",
+      "text": "very放在形容词uncomfortable前面，表示“非常、很”的程度，强化鞋子看起来极不舒适的感受。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正uncomfortable词条的文本和音标：原文将句号附在单词末尾是分块错误，且音标采用了美式发音，不符合英式音标要求。（非逐句人工审核）"
+}

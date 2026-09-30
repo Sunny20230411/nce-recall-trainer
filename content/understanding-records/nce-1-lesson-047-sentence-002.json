@@ -1,0 +1,85 @@
+{
+  "chinese": "是的，我喜欢。",
+  "intent": "用简略答句回应前面的一般疑问句，做出肯定答复。",
+  "comparison": null,
+  "backbone": {
+    "text": "Yes, I do.",
+    "meaning": "对前面关于喜好的一般疑问句作出肯定回答。"
+  },
+  "parts": [
+    {
+      "text": "Yes,",
+      "relation": "对整个问句作出肯定回应",
+      "meaning": "是的，对。"
+    },
+    {
+      "text": "I",
+      "relation": "说明作答的人",
+      "meaning": "我。"
+    },
+    {
+      "text": "do.",
+      "relation": "承接前文问句的内容表示肯定，代替前面的“like coffee”",
+      "meaning": "确实（这样）。"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略的替代答语",
+      "text": "肯定形式的简略答语中，助动词 do 替代前面问句里的实义动词 like，避免重复说“I like coffee”；若为否定简略答语则需用 I don't，是英语口语中常见的简略肯定回答。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "肯定回应标记",
+      "explanation": "对一般疑问句作出整体肯定的表态。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指作答者 Ann，是回应动作的发出者。"
+    },
+    {
+      "text": "do.",
+      "role": "助动词替代实义动词",
+      "explanation": "替代问句中的实义动词部分，避免重复，同时表示肯定。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是的，对",
+      "pos": "感叹词",
+      "phonetic": "jes",
+      "text": "Yes,"
+    },
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "aɪ",
+      "text": "I"
+    },
+    {
+      "meaning": "（助动词，替代前文实义动词）确实",
+      "pos": "助动词",
+      "phonetic": "duː",
+      "text": "do."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-47",
+  "sentenceId": "nce-1-lesson-047-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Yes, I do.",
+  "lesson": "Lesson 47 A cup of coffee",
+  "notes": [
+    {
+      "title": "省略的替代答语",
+      "text": "肯定形式的简略答语中，助动词 do 替代前面问句里的实义动词 like，避免重复说“I like coffee”；若为否定简略答语则需用 I don't，是英语口语中常见的简略肯定回答。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体标注符合成人英语学习的静态解析规范，仅存在1处可明确修正的不严谨表述：structureNotes中未说明简略答语仅在肯定形式时保留do，否定简略回应需改为I don't，补充限定条件后表述更准确，无语法角色、指代替换、词汇语境或其他结构性错误。（非逐句人工审核）"
+}

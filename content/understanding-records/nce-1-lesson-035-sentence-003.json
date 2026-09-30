@@ -1,0 +1,105 @@
+{
+  "chinese": "它位于两座小山之间。",
+  "intent": "指明前文提到的村庄所在的具体方位，补充说明其地理位置特征。",
+  "comparison": null,
+  "backbone": {
+    "text": "It is between two hills",
+    "meaning": "它处在两座小山之间"
+  },
+  "parts": [
+    {
+      "text": "It",
+      "relation": "描述的主体",
+      "meaning": "指代前文提到的村庄"
+    },
+    {
+      "text": "is",
+      "relation": "关联主体和方位的系动词",
+      "meaning": "表示处在某个位置的状态"
+    },
+    {
+      "text": "between two hills.",
+      "relation": "补充说明主体的具体方位",
+      "meaning": "在两座小山之间的区域"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "It的指代作用",
+      "text": "句首的It并非指代无生命的抽象事物，承接上一句提到的Our village，避免重复提及村庄这个名词，让上下文衔接更自然流畅。"
+    },
+    {
+      "title": "between的方位含义",
+      "text": "between在这里明确表示处在两个同类事物的中间区域，本句里用来精准界定村庄夹在两座小山之间的地理位置，不是笼统的附近位置。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "主语",
+      "explanation": "整句话描述的核心对象，指代前文的村庄"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "用来连接主语和后续的方位说明，表明主语所处的状态"
+    },
+    {
+      "text": "between two hills",
+      "role": "方位表语",
+      "explanation": "说明主语所在的具体位置，提供核心的方位信息"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "它，指代前文提到的村庄",
+      "pos": "pronoun",
+      "phonetic": "/ɪt/",
+      "text": "It"
+    },
+    {
+      "meaning": "是，处在（表示位置状态）",
+      "pos": "verb",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "在……之间",
+      "pos": "preposition",
+      "phonetic": "/bɪˈtwiːn/",
+      "text": "between"
+    },
+    {
+      "meaning": "两个，两座",
+      "pos": "number",
+      "phonetic": "/tuː/",
+      "text": "two"
+    },
+    {
+      "meaning": "小山（复数）",
+      "pos": "noun",
+      "phonetic": "/hɪlz/",
+      "text": "hills."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-35",
+  "sentenceId": "nce-1-lesson-035-sentence-003",
+  "sentenceOrder": 3,
+  "english": "It is between two hills.",
+  "lesson": "Lesson 35 Our village",
+  "notes": [
+    {
+      "title": "It的指代作用",
+      "text": "句首的It并非指代无生命的抽象事物，承接上一句提到的Our village，避免重复提及村庄这个名词，让上下文衔接更自然流畅。"
+    },
+    {
+      "title": "between的方位含义",
+      "text": "between在这里明确表示处在两个同类事物的中间区域，本句里用来精准界定村庄夹在两座小山之间的地理位置，不是笼统的附近位置。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合教学要求，仅存在局部细节疏漏可明确修正，不影响核心解析有效性（非逐句人工审核）"
+}

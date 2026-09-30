@@ -1,0 +1,116 @@
+{
+  "chinese": "请给我一张一英镑的钞票。",
+  "intent": "礼貌地向对方提出请求，索要一张一英镑面值的纸币，属于日常交易场景下的索款表达。",
+  "comparison": null,
+  "backbone": {
+    "text": "Give me a pound note",
+    "meaning": "给我一张一英镑的钞票"
+  },
+  "structureNotes": [
+    {
+      "title": "双宾语结构的表意",
+      "text": "谓语动词Give后面接两个宾语：me是动作的接收方（间接宾语），a pound note是动作交付的具体事物（直接宾语），两个成分搭配才能完整表达“交付什么、给谁”的请求含义，缺一不可。"
+    },
+    {
+      "title": "please的礼貌属性",
+      "text": "please放在句末，用逗号和前面的请求内容隔开，只是弱化命令感、增添礼貌语气，不承担核心表意功能，即便省略也不改变句子的主要请求内容。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Give",
+      "role": "谓语动词",
+      "explanation": "祈使句的核心动作动词，本身隐含指向听话人的指向，表达“交付、递给”的动作含义。"
+    },
+    {
+      "text": "me",
+      "role": "间接宾语",
+      "explanation": "动作的接收对象，即“给我”，明确索要物品的接受方是说话人自己。"
+    },
+    {
+      "text": "a pound note",
+      "role": "直接宾语",
+      "explanation": "动作的交付内容，即一张一英镑面值的钞票，明确索要的具体物品。"
+    },
+    {
+      "text": "please",
+      "role": "礼貌语气标记",
+      "explanation": "放在句末用逗号隔开，缓和祈使句的生硬感，使请求更礼貌得体。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Give",
+      "meaning": "给，递给",
+      "pos": "动词",
+      "phonetic": "/ɡɪv/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "a",
+      "meaning": "一张（不定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "pound",
+      "meaning": "英镑",
+      "pos": "名词",
+      "phonetic": "/paʊnd/"
+    },
+    {
+      "text": "note,",
+      "meaning": "纸币",
+      "pos": "名词",
+      "phonetic": "/nəʊt/"
+    },
+    {
+      "text": "please.",
+      "meaning": "请",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Give me",
+      "relation": "核心动作与动作接收对象，构成祈使句的起始部分",
+      "meaning": "给我"
+    },
+    {
+      "text": "a pound note,",
+      "relation": "动作交付的具体物品，是祈使句要求对方交付的核心内容",
+      "meaning": "一张一英镑的钞票"
+    },
+    {
+      "text": "please.",
+      "relation": "礼貌语气标记，补充缓和前面请求的生硬感",
+      "meaning": "请。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-113",
+  "sentenceId": "nce-1-lesson-113-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Give me a pound note, please.",
+  "lesson": "Lesson 113 Small change",
+  "notes": [
+    {
+      "title": "双宾语结构的表意",
+      "text": "谓语动词Give后面接两个宾语：me是动作的接收方（间接宾语），a pound note是动作交付的具体事物（直接宾语），两个成分搭配才能完整表达“交付什么、给谁”的请求含义，缺一不可。"
+    },
+    {
+      "title": "please的礼貌属性",
+      "text": "please放在句末，用逗号和前面的请求内容隔开，只是弱化命令感、增添礼貌语气，不承担核心表意功能，即便省略也不改变句子的主要请求内容。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有双宾语分析、主干抽取、礼貌语气标记说明与句中拆分基本可用，整体可清晰表达请求含义。为避免词表把标点当成词义或音标的一部分，只对词表分条做标点剥离；其余结构和分块保留。（非逐句人工审核）"
+}

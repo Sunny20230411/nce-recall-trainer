@@ -1,0 +1,118 @@
+{
+  "chinese": "我和妻子在比赛现场。",
+  "intent": "说明自己和妻子所处的位置——在赛车比赛现场。",
+  "comparison": null,
+  "backbone": {
+    "text": "My wife and I were at the race.",
+    "meaning": "我和妻子在比赛现场。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列复合主语的人称顺序",
+      "text": "英语中并列提到多人时，通常把第一人称I放在其他人称后面，表示礼貌，所以用My wife and I而非I and my wife，翻译时可调整为符合中文习惯的“我和妻子”。"
+    },
+    {
+      "title": "介词短语表位置",
+      "text": "be动词后接介词短语at the race，表示“在比赛现场、在赛事举办地”，不是“参加比赛”的意思，仅说明所处地点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My wife and I",
+      "role": "并列复合主语",
+      "explanation": "由and连接My wife和I共同充当句子主语，指代两人。"
+    },
+    {
+      "text": "were",
+      "role": "be动词过去式",
+      "explanation": "主语为复数，故用were，表过去的状态。"
+    },
+    {
+      "text": "at the race",
+      "role": "介词短语作表语",
+      "explanation": "说明主语所处的位置，即比赛现场。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/",
+      "text": "My"
+    },
+    {
+      "meaning": "妻子",
+      "pos": "名词",
+      "phonetic": "/waɪf/",
+      "text": "wife"
+    },
+    {
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "/ənd/",
+      "text": "and"
+    },
+    {
+      "meaning": "我",
+      "pos": "代词（主格）",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "是（复数过去式）",
+      "pos": "be动词",
+      "phonetic": "/wɜː(r)/",
+      "text": "were"
+    },
+    {
+      "meaning": "在（某地）",
+      "pos": "介词",
+      "phonetic": "/æt/",
+      "text": "at"
+    },
+    {
+      "meaning": "（特指）那个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "比赛",
+      "pos": "名词",
+      "phonetic": "/reɪs/",
+      "text": "race."
+    }
+  ],
+  "parts": [
+    {
+      "text": "My wife and I were",
+      "meaning": "我和妻子是",
+      "relation": "前半部分My wife and I为并列复合主语，were是搭配复数主语的过去式be动词，起连接主语和表语的作用"
+    },
+    {
+      "text": "at the race.",
+      "meaning": "在比赛现场",
+      "relation": "介词短语作表语，说明主语所处的位置"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-69",
+  "sentenceId": "nce-1-lesson-069-sentence-003",
+  "sentenceOrder": 3,
+  "english": "My wife and I were at the race.",
+  "lesson": "Lesson 69 The car race",
+  "notes": [
+    {
+      "title": "并列复合主语的人称顺序",
+      "text": "英语中并列提到多人时，通常把第一人称I放在其他人称后面，表示礼貌，所以用My wife and I而非I and my wife，翻译时可调整为符合中文习惯的“我和妻子”。"
+    },
+    {
+      "title": "介词短语表位置",
+      "text": "be动词后接介词短语at the race，表示“在比赛现场、在赛事举办地”，不是“参加比赛”的意思，仅说明所处地点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体讲解符合原句主系表结构与方位表达，仅需修正第一块“My wife and I were”的关系标注，使其明确区分主语和过去式be动词，避免“were”被误并入主语。（非逐句人工审核）"
+}

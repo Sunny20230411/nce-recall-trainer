@@ -1,0 +1,88 @@
+{
+  "chinese": "我想知道这是为什么！",
+  "intent": "表达说话人对对方提及的明星宣布长期不再拍电影这件事抱有好奇，想要弄清背后的原因。",
+  "comparison": null,
+  "backbone": {
+    "text": "I wonder why.",
+    "meaning": "我想要弄清这件事背后的原因。"
+  },
+  "structureNotes": [
+    {
+      "title": "why的宾语功能与省略特征",
+      "text": "why本身是疑问副词，此处是在口语中省略了完整的疑问从句（如why she said that），整体相当于名词性短语作wonder的宾语，承接上文的事件，指代“她宣布长期不想再拍电影”这件事背后的原因，并非引导疑问从句的连接性状语。"
+    },
+    {
+      "title": "I wonder的委婉用法",
+      "text": "I wonder常用来表达带着好奇的探寻语气，不是表示“我疑惑不解”，核心是传递对未知原因的探知欲，不代表向对方索要答案。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主句主语",
+      "explanation": "指代说话人本人，是发出“想知道”这个心理活动的主体。"
+    },
+    {
+      "text": "wonder",
+      "role": "主句谓语",
+      "explanation": "表示“想知道、好奇”的心理动词，承载整句的核心动作。"
+    },
+    {
+      "text": "why",
+      "role": "省略式宾语",
+      "explanation": "由疑问副词why引导的省略式疑问结构，承接上文提到的事件，指代背后的原因，相当于“这其中的原因”，口语中无需补出完整从句即可承担宾语功能。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "wonder",
+      "meaning": "想知道，好奇",
+      "pos": "动词",
+      "phonetic": "/ˈwʌndə/"
+    },
+    {
+      "text": "why!",
+      "meaning": "为什么",
+      "pos": "疑问副词",
+      "phonetic": "/waɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "说明“想知道”这个行为的发出者"
+    },
+    {
+      "text": "wonder why!",
+      "meaning": "想知道这是为什么！",
+      "relation": "核心谓语+省略式疑问宾语，表达带着好奇探寻背后原因的语气"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-133",
+  "sentenceId": "nce-1-lesson-133-sentence-017",
+  "sentenceOrder": 17,
+  "english": "I wonder why!",
+  "lesson": "Lesson 133 Sensational news!",
+  "notes": [
+    {
+      "title": "why的宾语功能与省略特征",
+      "text": "why本身是疑问副词，此处是在口语中省略了完整的疑问从句（如why she said that），整体相当于名词性短语作wonder的宾语，承接上文的事件，指代“她宣布长期不想再拍电影”这件事背后的原因，并非引导疑问从句的连接性状语。"
+    },
+    {
+      "title": "I wonder的委婉用法",
+      "text": "I wonder常用来表达带着好奇的探寻语气，不是表示“我疑惑不解”，核心是传递对未知原因的探知欲，不代表向对方索要答案。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本准确，明确说明why是wonder的宾语、承接上文指代事件背后的原因，没有混淆疑问副词的句法功能与状语用法，I wonder的委婉探寻语气解释符合语境。仅存在两处可优化的表述细节：一是why的词性标注不够严谨，why本身是疑问副词，此处是在口语中省略了完整的疑问从句，相当于名词性短语作宾语，不宜直接将整体句法角色写为疑问词作宾语；二是关于I wonder语气的表述略有绝对化，在上下文给出明确疑问指向的语境下，不一定完全不期待对方给出答案，仅核心是表达好奇探寻的语气。（非逐句人工审核）"
+}

@@ -1,0 +1,93 @@
+{
+  "chinese": "情况紧急吗？",
+  "intent": "针对上文提到的某件事，询问其是否需要立刻处理，是否紧迫。",
+  "comparison": null,
+  "backbone": {
+    "text": "it is urgent",
+    "meaning": "按理解还原后的陈述主干：这件事是紧急的；原句通过把 be 动词 Is 移到主语 it 前，变成询问这件事是否紧急。"
+  },
+  "structureNotes": [
+    {
+      "title": "一般疑问句的形成方式",
+      "text": "原句没有使用助动词 do/does，而是直接把 be 动词 Is 提到主语 it 前面来构成疑问，这是一般疑问句典型的形成方式，不需要额外添加助动词。"
+    },
+    {
+      "title": "代词 it 的指代范围",
+      "text": "句中的 it 指代的是上文对话中刚提到的某件事，当前给出的上下文没有足够证据判定它具体指代医生、患者或者某一类特定病情，解读时应收敛为上文提及的那件事。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is",
+      "role": "be 动词（疑问引导）",
+      "explanation": "是 be 动词第三人称单数现在时形式，提到主语 it 的前面来构成疑问句。"
+    },
+    {
+      "text": "it",
+      "role": "主语",
+      "explanation": "指代上文提到的某件事，是句子描述的对象。"
+    },
+    {
+      "text": "urgent?",
+      "role": "表语（形容词）",
+      "explanation": "用来描述主语 it 的性质，意思是“紧急的、需要立刻处理的”，问号体现全句的疑问语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Is",
+      "meaning": "是（be 动词第三人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代上文提到的某件事）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "urgent?",
+      "meaning": "紧急的",
+      "pos": "形容词",
+      "phonetic": "/ˈɜːdʒənt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Is",
+      "meaning": "是（用于构成疑问语序）",
+      "relation": "引导疑问，标记对主语状态的询问"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代上文提及的某件事）",
+      "relation": "被询问的主体对象"
+    },
+    {
+      "text": "urgent?",
+      "meaning": "紧急吗？",
+      "relation": "描述主体的状态，提出是否紧迫的疑问。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-77",
+  "sentenceId": "nce-1-lesson-077-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Is it urgent?",
+  "lesson": "Lesson 77 Terrible toothache",
+  "notes": [
+    {
+      "title": "一般疑问句的形成方式",
+      "text": "原句没有使用助动词 do/does，而是直接把 be 动词 Is 提到主语 it 前面来构成疑问，这是一般疑问句典型的形成方式，不需要额外添加助动词。"
+    },
+    {
+      "title": "代词 it 的指代范围",
+      "text": "句中的 it 指代的是上文对话中刚提到的某件事，当前给出的上下文没有足够证据判定它具体指代医生、患者或者某一类特定病情，解读时应收敛为上文提及的那件事。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确，it 的指代范围、疑问句结构拆分均符合语法事实。仅需微调两处表述：一是将一般疑问句形成说明中的“常见”调整为“典型”，更贴合语法术语表述；二是将句末 urgent? 词条中的问号从词义描述中移除，明确该词性为形容词，问号属于整句句末标点。（非逐句人工审核）"
+}

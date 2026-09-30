@@ -1,0 +1,139 @@
+{
+  "chinese": "我想我的英语和数学及格了。",
+  "intent": "表达说话人对自己两门科目考试结果的推测判断，说明自己认为英语和数学都达到及格标准。",
+  "comparison": {
+    "chinese": "中文会把“英语和数学及格”整体作为“我想”的内容，先给出核心判断“我想……及格了”，再点明涉及的两门科目，科目直接修饰“及格”这件事。",
+    "english": "英文先说“我认为”，再用从句完整叙述“我在英语和数学两门考试里及格了”，通过passed in这个搭配，用介词in引出具体是哪两门科目取得了及格成绩，把“及格”和“科目”的搭配关系明确说出来。",
+    "steps": [
+      {
+        "label": "先点明说话人的主观判断",
+        "text": "I think...",
+        "explanation": "放在句子最开头，直接说明后续内容是说话人自己的推测，不是百分之百确定的客观事实。"
+      },
+      {
+        "label": "完整叙述推测的具体内容",
+        "text": "I passed in English and Mathematics.",
+        "explanation": "这部分是think后面省略了that的宾语从句，本身是一个完整的小句子：主语是I，谓语是passed，in引出及格的范围，也就是英语和数学两门科目。"
+      },
+      {
+        "label": "两门科目并列",
+        "text": "English and Mathematics",
+        "explanation": "用and连接两个科目名称，共同作介词in的宾语，表示这两门考试都取得了及格的结果。"
+      }
+    ],
+    "takeaway": "英文用“passed in + 科目”的搭配明确表达“某门考试及格”，两个科目用and并列，整体放在think的后面作宾语，不需要额外的连接词，语序上先讲判断态度，再讲具体的判断内容。"
+  },
+  "backbone": {
+    "text": "I think I passed in English and Mathematics.",
+    "meaning": "我认为自己英语和数学都及格了。"
+  },
+  "structureNotes": [
+    {
+      "title": "宾语从句的省略引导词",
+      "text": "本句中think后面的引导词that被省略，直接把从句“我英语和数学及格了”接在think后面，用来表达主观想法，日常口语中这种省略十分常见，不影响从句完整表达语义。"
+    },
+    {
+      "title": "pass in搭配表考试及格",
+      "text": "passed in后面接具体科目，表示“某门考试取得及格成绩”，这里in不表示“在……里面”的空间含义，而是引出通过的具体科目范围。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I think",
+      "role": "主句主谓部分",
+      "explanation": "表达说话人的主观想法，引出后面的具体推测内容，后续是省略了that的宾语从句。"
+    },
+    {
+      "text": "I passed in English and Mathematics",
+      "role": "宾语从句",
+      "explanation": "作主句谓语think的宾语，完整叙述说话人推测的具体内容，说明自己在英语和数学两门科目上达到及格标准。"
+    },
+    {
+      "text": "in English and Mathematics",
+      "role": "介词短语",
+      "explanation": "作状语修饰从句的谓语passed，说明及格的具体科目范围。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "think",
+      "meaning": "认为；猜想",
+      "pos": "动词",
+      "phonetic": "/θɪŋk/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "passed",
+      "meaning": "及格；通过（考试）",
+      "pos": "动词（pass的过去式）",
+      "phonetic": "/pɑːst/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……（科目考试）中",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "English",
+      "meaning": "英语",
+      "pos": "名词",
+      "phonetic": "/ˈɪŋɡlɪʃ/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；与",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "Mathematics.",
+      "meaning": "数学",
+      "pos": "名词",
+      "phonetic": "/ˌmæθəˈmætɪks/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I think",
+      "relation": "点明说话人的主观判断态度，引出后面的具体推测内容",
+      "meaning": "我想"
+    },
+    {
+      "text": "I passed in English and Mathematics.",
+      "relation": "补充说明“我想”的具体内容，是被说话人推测的核心信息，说明自己在两门科目上达到及格成绩",
+      "meaning": "我的英语和数学及格了"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-007",
+  "sentenceOrder": 7,
+  "english": "I think I passed in English and Mathematics.",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "宾语从句的省略引导词",
+      "text": "本句中think后面的引导词that被省略，直接把从句“我英语和数学及格了”接在think后面，用来表达主观想法，日常口语中这种省略十分常见，不影响从句完整表达语义。"
+    },
+    {
+      "title": "pass in搭配表考试及格",
+      "text": "passed in后面接具体科目，表示“某门考试取得及格成绩”，这里in不表示“在……里面”的空间含义，而是引出通过的具体科目范围。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅存在词条末尾误带句号的小瑕疵，其余内容语义、语法、搭配解释均正确。（非逐句人工审核）"
+}

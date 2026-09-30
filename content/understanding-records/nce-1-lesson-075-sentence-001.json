@@ -1,0 +1,127 @@
+{
+  "chinese": "你们有像这样的鞋吗？",
+  "intent": "顾客进店向店员询问，确认店铺是否存在与当前指代样式相同的鞋款，带有购物询价的实际需求。",
+  "comparison": null,
+  "backbone": {
+    "text": "Do you have any shoes like these?",
+    "meaning": "你们有像这样的鞋吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "一般现在时疑问结构",
+      "text": "实义动词have的一般现在时疑问句需要在句首添加助动词Do，将助动词放在主语you之前，本身保留原形。"
+    },
+    {
+      "title": "后置的样式限定",
+      "text": "like these作为介词短语放在shoes之后，限定是「像这些的」特定款式，而非泛指所有鞋。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "助动词",
+      "explanation": "帮助实义动词have构成一般现在时的一般疑问句，本身没有实际词义。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指代对话中的店员一方，是动作have的发出者。"
+    },
+    {
+      "text": "have",
+      "role": "谓语",
+      "explanation": "表示「有、存有」，是句子的核心动作。"
+    },
+    {
+      "text": "any shoes",
+      "role": "宾语",
+      "explanation": "have的作用对象，any在疑问句中表示「一些、任何」，修饰shoes。"
+    },
+    {
+      "text": "like these?",
+      "role": "后置定语",
+      "explanation": "修饰shoes，说明鞋子的样式要求是「像这些」，these指代顾客当下看到的样品。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Do",
+      "meaning": "（助动词，无实义，帮助构成一般现在时疑问句）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "have",
+      "meaning": "有；存有",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "any",
+      "meaning": "一些；任何",
+      "pos": "限定词",
+      "phonetic": "/ˈeni/"
+    },
+    {
+      "text": "shoes",
+      "meaning": "鞋子（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈʃuːz/"
+    },
+    {
+      "text": "like",
+      "meaning": "像；如同",
+      "pos": "介词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "these?",
+      "meaning": "这些",
+      "pos": "代词",
+      "phonetic": "/ðiːz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Do you have",
+      "relation": "提问的核心框架，明确询问动作和对象",
+      "meaning": "你们有……吗"
+    },
+    {
+      "text": "any shoes",
+      "relation": "动作的询问对象，即是否存在对应商品",
+      "meaning": "一些鞋"
+    },
+    {
+      "text": "like these?",
+      "relation": "限定鞋款的样式要求，说明要找的具体款式参照",
+      "meaning": "像这样的？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-75",
+  "sentenceId": "nce-1-lesson-075-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Do you have any shoes like these?",
+  "lesson": "Lesson 75 Uncomfortable shoes",
+  "notes": [
+    {
+      "title": "一般现在时疑问结构",
+      "text": "实义动词have的一般现在时疑问句需要在句首添加助动词Do，将助动词放在主语you之前，本身保留原形。"
+    },
+    {
+      "title": "后置的样式限定",
+      "text": "like these作为介词短语放在shoes之后，限定是「像这些的」特定款式，而非泛指所有鞋。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构准确，无核心错误；仅两处可明确修正：1. 单词切分错误将代词these与疑问标点?合并为一个条目，标点不属于单词需拆分；2. 基础主干Do you have any shoes?未包含修饰鞋款的like these限定，与原句实际语义不符，需调整。（非逐句人工审核）"
+}

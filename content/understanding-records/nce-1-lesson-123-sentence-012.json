@@ -1,0 +1,53 @@
+{
+  "chinese": "猜猜看！",
+  "intent": "在向对方展示照片或人物的语境下，引导对方说出猜测答案。",
+  "comparison": null,
+  "backbone": {
+    "text": "Guess!",
+    "meaning": "请你猜猜看！"
+  },
+  "structureNotes": [
+    {
+      "title": "语境补充动作对象",
+      "text": "单独出现的Guess没有写出“猜”的具体内容，这里依据前文是让对方猜照片里的人是谁。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Guess!",
+      "role": "祈使句核心谓语动词",
+      "explanation": "动词原形开头直接发出邀请或指令，本句为省略第二人称主语you的祈使句，未写出“猜”的具体内容，需要结合上文语境理解。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Guess!",
+      "meaning": "猜、推测",
+      "pos": "动词",
+      "phonetic": "/ɡes/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Guess!",
+      "meaning": "猜猜看！",
+      "relation": "发出邀请对方根据展示的内容进行猜测的指令"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-123",
+  "sentenceId": "nce-1-lesson-123-sentence-012",
+  "sentenceOrder": 12,
+  "english": "Guess!",
+  "lesson": "Lesson 123 A trip to Australia",
+  "notes": [
+    {
+      "title": "语境补充动作对象",
+      "text": "单独出现的Guess没有写出“猜”的具体内容，这里依据前文是让对方猜照片里的人是谁。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解释基本合理，仅存在代词指代不清、词典词条标点不规范、语法结构解释表述略有偏差的问题，需调整后可使用。（非逐句人工审核）"
+}

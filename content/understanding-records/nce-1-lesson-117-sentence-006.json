@@ -1,0 +1,170 @@
+{
+  "chinese": "‘他从哪里拿到那块蛋糕的？’我丈夫问。",
+  "intent": "呈现说话人询问蛋糕来源位置的直接引语及对应的说话人信息，延续当前对话的问答流程。",
+  "comparison": {
+    "chinese": "英文把引语内容放在句首，再点明说话人；中文也可先引语后说话人，语序基本一致。",
+    "english": "The quoted question comes first, then my husband asked.",
+    "steps": [
+      {
+        "label": "疑问词定位核心疑问",
+        "text": "'Where did he get the cake?'",
+        "explanation": "Where 放在句首，明确问的是蛋糕的获取地点；did 是一般过去时的助动词，帮助构成特殊疑问句，不单独翻译为实义动作。"
+      },
+      {
+        "label": "主干动作保留疑问核心",
+        "text": "he get the cake",
+        "explanation": "he 指代前文提到的 Tommy，get 表示“拿到、得到”，the cake 是双方都知道的那块蛋糕；整体核心是“他拿到了那块蛋糕”，用 where 提问缺少的地点信息。"
+      },
+      {
+        "label": "引语归属后置补充",
+        "text": "my husband asked.",
+        "explanation": "直接引语结束后用陈述句说明这句话的发出者是“我”的丈夫；中文保留了“直接引语+说话人”的常见叙事顺序，符合日常对话记录的表达习惯。"
+      }
+    ],
+    "takeaway": "直接引语前置、说话人后置是对话叙事的常见结构。特殊疑问句先把疑问词放句首，再用助动词 did 搭配陈述语序的主干，用来询问已经发生的动作的相关信息。"
+  },
+  "backbone": {
+    "text": "“他从哪里拿到那块蛋糕的？”我丈夫问。",
+    "meaning": "通过引述的疑问句表明丈夫正在询问蛋糕的获取位置，点明说话人身份。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的排版与归属",
+      "text": "引号包裹的内容是丈夫说出的原话，位于句首；句末的my husband asked是归属说明，不改变引语本身的疑问语气。"
+    },
+    {
+      "title": "特殊疑问句的过去时构成",
+      "text": "本句询问的是已经发生的事，用助动词did放在主语he前面，后面的实义动词get用原形，不用再加其他过去式变形。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'Where did he get the cake?'",
+      "role": "直接引语（特殊疑问句）",
+      "explanation": "内容为丈夫提出的问题，核心是询问蛋糕的获取地点。"
+    },
+    {
+      "text": "did",
+      "role": "助动词",
+      "explanation": "帮助构成一般过去时的特殊疑问句，无实际实义含义。"
+    },
+    {
+      "text": "Where",
+      "role": "疑问副词",
+      "explanation": "放在句首引导疑问句，指明要询问的信息是地点，修饰 get 这个动作。"
+    },
+    {
+      "text": "he",
+      "role": "代词",
+      "explanation": "指代前文提到的小男孩 Tommy，是引语中的动作发出者。"
+    },
+    {
+      "text": "get",
+      "role": "实义动词",
+      "explanation": "表示“拿到、得到”，是引语中的核心动作。"
+    },
+    {
+      "text": "the cake",
+      "role": "名词短语",
+      "explanation": "是 get 这个动作的对象，指双方都知道的那块蛋糕。"
+    },
+    {
+      "text": "my husband",
+      "role": "名词短语",
+      "explanation": "是说话人分句的主语，即引语的发出者。"
+    },
+    {
+      "text": "asked",
+      "role": "实义动词",
+      "explanation": "表示“问、询问”，是说话人分句的谓语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'Where",
+      "meaning": "哪里",
+      "pos": "疑问副词",
+      "phonetic": "/weə/"
+    },
+    {
+      "text": "did",
+      "meaning": "（助动词do/does的过去式，无实义）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "get",
+      "meaning": "拿到；得到",
+      "pos": "动词",
+      "phonetic": "/ɡet/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指双方都知道的事物）那块",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "cake?'",
+      "meaning": "蛋糕",
+      "pos": "名词",
+      "phonetic": "/keɪk/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "husband",
+      "meaning": "丈夫",
+      "pos": "名词",
+      "phonetic": "/ˈhʌzbənd/"
+    },
+    {
+      "text": "asked.",
+      "meaning": "问",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "'Where did he get the cake?'",
+      "relation": "内容为丈夫说出的完整引语，提出关于蛋糕来源的疑问",
+      "meaning": "“他从哪里拿到那块蛋糕的？”"
+    },
+    {
+      "text": "my husband asked.",
+      "relation": "补充说明引语的说话人，归属前面的直接引语",
+      "meaning": "我丈夫问。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-117",
+  "sentenceId": "nce-1-lesson-117-sentence-006",
+  "sentenceOrder": 6,
+  "english": "'Where did he get the cake?' my husband asked.",
+  "lesson": "Lesson 117 Tommy's breakfast",
+  "notes": [
+    {
+      "title": "直接引语的排版与归属",
+      "text": "引号包裹的内容是丈夫说出的原话，位于句首；句末的my husband asked是归属说明，不改变引语本身的疑问语气。"
+    },
+    {
+      "title": "特殊疑问句的过去时构成",
+      "text": "本句询问的是已经发生的事，用助动词did放在主语he前面，后面的实义动词get用原形，不用再加其他过去式变形。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文翻译和引语归属基本正确。主要问题是 `my husband asked` 被标注为“转述句”，但本句是直接引语后接说话人分句，并非间接引语；词表拆分还把标点并入了单词，音标也应按词典词条标注。此外，引语中 `he` 在前文可确定为 Tommy，已保留这一指称说明。（非逐句人工审核）"
+}

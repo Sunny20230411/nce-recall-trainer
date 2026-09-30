@@ -1,0 +1,221 @@
+{
+  "chinese": "嗯，他们正在努力维修，先生。但说实话，您需要换一辆新车。",
+  "intent": "修车师傅回应顾客的修车请求，说明技师正在尝试维修车辆，随后用转折语气如实告知顾客，根据车辆损坏情况，建议更换新车。",
+  "comparison": null,
+  "backbone": {
+    "text": "They are trying to repair it, but you need a new car.",
+    "meaning": "修理人员正尝试维修这辆车，但顾客需要换一辆新车。"
+  },
+  "structureNotes": [
+    {
+      "title": "trying to repair it 的理解",
+      "text": "现在进行时结构 be trying to do sth. 表示此刻正在“努力尝试做某事”，强调修车的动作正在进行，并不代表肯定能修好；it指代上文提到的事故损坏的车。"
+    },
+    {
+      "title": "句首插入语的作用",
+      "text": "to tell you the truth 是固定插入语，可位于分句开头或句中用来引出直白的大实话，不承担句子主干成分，翻译为“说实话、跟您说实话”。"
+    },
+    {
+      "title": "称呼语sir的位置",
+      "text": "sir是对男顾客的礼貌称呼，放在第一句末尾，英语中这类称呼常放在句首或句尾，不打断核心意思的表达。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Well,",
+      "role": "语气感叹词",
+      "explanation": "用于缓和语气，承接前文顾客关于“能不能修车”的提问。"
+    },
+    {
+      "text": "they're trying to repair it,",
+      "role": "第一核心主谓结构分句（现在进行时）",
+      "explanation": "回应顾客的提问，说明修车人员正在尝试维修车辆，不代表最终一定能修好。"
+    },
+    {
+      "text": "sir.",
+      "role": "呼语",
+      "explanation": "对对话中男性顾客的礼貌称呼。"
+    },
+    {
+      "text": "But",
+      "role": "转折连词",
+      "explanation": "连接前后两个分句，从“正在修车”转到“建议换新车”的实际结论。"
+    },
+    {
+      "text": "to tell you the truth,",
+      "role": "评注性状语/插入语",
+      "explanation": "固定习语，用来引出坦诚直白的判断，弱化直白建议的突兀感。"
+    },
+    {
+      "text": "you need a new car.",
+      "role": "第二核心主谓宾结构分句",
+      "explanation": "给出专业建议：根据车辆损坏程度，建议顾客更换新车。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Well,",
+      "meaning": "嗯（语气词）",
+      "pos": "感叹词",
+      "phonetic": "/wel/"
+    },
+    {
+      "text": "they're",
+      "meaning": "他们是，他们正在",
+      "pos": "缩写（they are）",
+      "phonetic": "/ðeə(r)/"
+    },
+    {
+      "text": "trying",
+      "meaning": "尝试、努力",
+      "pos": "现在分词",
+      "phonetic": "/ˈtraɪɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "去（不定式符号）",
+      "pos": "不定式标记",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "repair",
+      "meaning": "修理、维修",
+      "pos": "动词原形",
+      "phonetic": "/rɪˈpeə(r)/"
+    },
+    {
+      "text": "it,",
+      "meaning": "它（指代这辆损坏的汽车）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "sir.",
+      "meaning": "先生",
+      "pos": "名词",
+      "phonetic": "/sɜː(r)/"
+    },
+    {
+      "text": "But",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "to",
+      "meaning": "去（不定式符号）",
+      "pos": "不定式标记",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "tell",
+      "meaning": "告诉",
+      "pos": "动词原形",
+      "phonetic": "/tel/"
+    },
+    {
+      "text": "you",
+      "meaning": "你（指代顾客）",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "the",
+      "meaning": "无实义，为固定习语结构的一部分",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "truth,",
+      "meaning": "事实、实情",
+      "pos": "名词",
+      "phonetic": "/truːθ/"
+    },
+    {
+      "text": "you",
+      "meaning": "您",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "need",
+      "meaning": "需要",
+      "pos": "动词",
+      "phonetic": "/niːd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一辆",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "new",
+      "meaning": "新的",
+      "pos": "形容词",
+      "phonetic": "/njuː/"
+    },
+    {
+      "text": "car.",
+      "meaning": "汽车",
+      "pos": "名词",
+      "phonetic": "/kɑː(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Well,",
+      "meaning": "嗯",
+      "relation": "承接上一句提问的语气铺垫。"
+    },
+    {
+      "text": "they're trying to repair it,",
+      "meaning": "他们正在努力维修（它）",
+      "relation": "直接回应顾客提出的“能不能修车”的问题，说明正在开展的修车动作。"
+    },
+    {
+      "text": "sir.",
+      "meaning": "先生",
+      "relation": "对顾客的礼貌称呼，补充对话的称呼信息。"
+    },
+    {
+      "text": "But",
+      "meaning": "但",
+      "relation": "转折引出与“正在修车”的预期不同的建议结论。"
+    },
+    {
+      "text": "to tell you the truth,",
+      "meaning": "说实话",
+      "relation": "引入坦诚判断的过渡语，弱化直白建议的生硬感。"
+    },
+    {
+      "text": "you need a new car.",
+      "meaning": "您需要换一辆新车",
+      "relation": "给出核心建议：结合车辆损坏情况，建议顾客购置新车。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-87",
+  "sentenceId": "nce-1-lesson-087-sentence-013",
+  "sentenceOrder": 13,
+  "english": "Well, they're trying to repair it, sir. But to tell you the truth, you need a new car.",
+  "lesson": "Lesson 87 A car crash",
+  "notes": [
+    {
+      "title": "trying to repair it 的理解",
+      "text": "现在进行时结构 be trying to do sth. 表示此刻正在“努力尝试做某事”，强调修车的动作正在进行，并不代表肯定能修好；it指代上文提到的事故损坏的车。"
+    },
+    {
+      "title": "句首插入语的作用",
+      "text": "to tell you the truth 是固定插入语，可位于分句开头或句中用来引出直白的大实话，不承担句子主干成分，翻译为“说实话、跟您说实话”。"
+    },
+    {
+      "title": "称呼语sir的位置",
+      "text": "sir是对男顾客的礼貌称呼，放在第一句末尾，英语中这类称呼常放在句首或句尾，不打断核心意思的表达。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确通顺，核心问题已修正：1. 定冠词the的原义项“这个”不符合固定习语to tell you the truth的搭配逻辑，在该习语中无实义，仅起结构连接作用；2. 原解析中直接断言车辆完全无法修好、必须买新车的表述偏绝对，原文仅给出需要新车的建议，未明确说明车辆已经完全无法修复；3. 个别的结构说明存在小疏漏，例如插入语位置的描述未提及常见的句中情况，主谓结构分句的说明可更明确时态与语义特点。其余翻译、词性标注、音标、短语解释、主主干提取均符合语境与语法规则。（非逐句人工审核）"
+}

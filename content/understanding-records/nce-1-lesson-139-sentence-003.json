@@ -1,0 +1,180 @@
+{
+  "chinese": "玛丽告诉我你会来伦敦。",
+  "intent": "转述他人此前告知的信息，说明我得知你计划前往伦敦。",
+  "comparison": {
+    "chinese": "玛丽告诉我，你会来伦敦。",
+    "english": "Mary told me that you would come to London.",
+    "steps": [
+      {
+        "label": "确定主句框架",
+        "text": "Mary told me",
+        "explanation": "先抓住玛丽告知我这件事，这是主句的主谓结构，后面还会接说明告知内容的直接宾语从句。"
+      },
+      {
+        "label": "理解从句内容",
+        "text": "that you would come to London",
+        "explanation": "that引出直接内容，would come表示从玛丽告知的时间点看，你来伦敦是当时预期会发生的事。"
+      },
+      {
+        "label": "对照中文语序",
+        "text": "中文把“你会来伦敦”作为“告诉我”的宾语直接放在后面",
+        "explanation": "英文结构同样如此，that只起连接作用，没有“那个”的实义。"
+      }
+    ],
+    "takeaway": "that引导的宾语从句整体作told的直接宾语；主句用过去式 told、从句用过去将来时 would come，是因为转述站在玛丽当时的视角看将来的动作。"
+  },
+  "backbone": {
+    "text": "Mary told me that you would come to London.",
+    "meaning": "玛丽之前把‘你将要来伦敦’这个信息告诉了我。"
+  },
+  "structureNotes": [
+    {
+      "title": "that引导的宾语从句",
+      "text": "that只起连接作用，不充当从句成分，也没有实际词义，用来引出told的直接内容。"
+    },
+    {
+      "title": "would come的时态",
+      "text": "would不是‘愿意’，而是过去将来时，表示从玛丽当时说话的时间点看，来伦敦是当时预期要发生的事。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Mary",
+      "role": "主语",
+      "explanation": "执行“告知”这个动作的人。"
+    },
+    {
+      "text": "told",
+      "role": "谓语动词",
+      "explanation": "表示“告知、告诉”，这里用过去式，表示动作已经发生。"
+    },
+    {
+      "text": "me",
+      "role": "间接宾语",
+      "explanation": "告诉的对象，也就是接收信息的人。"
+    },
+    {
+      "text": "that you would come to London.",
+      "role": "直接宾语（宾语从句）",
+      "explanation": "that引导从句，作told的具体内容，说明玛丽告诉了我什么事。"
+    },
+    {
+      "text": "you",
+      "role": "从句主语",
+      "explanation": "从句中执行“来伦敦”动作的人。"
+    },
+    {
+      "text": "would come",
+      "role": "从句谓语",
+      "explanation": "过去将来时，表示从过去时间看将要发生的动作。"
+    },
+    {
+      "text": "to London",
+      "role": "地点状语",
+      "explanation": "说明come这个动作的目的地。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Mary",
+      "meaning": "玛丽（女子名）",
+      "pos": "名词",
+      "phonetic": "/ˈmeəri/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉（tell的过去式）",
+      "pos": "动词",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导宾语从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "would",
+      "meaning": "will的过去式，用于过去将来时",
+      "pos": "情态动词",
+      "phonetic": "/wʊd/"
+    },
+    {
+      "text": "come",
+      "meaning": "来（come的动词原形）",
+      "pos": "动词",
+      "phonetic": "/kʌm/"
+    },
+    {
+      "text": "to",
+      "meaning": "到、向（表方向）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "London.",
+      "meaning": "伦敦",
+      "pos": "名词",
+      "phonetic": "/ˈlʌndən/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Mary",
+      "relation": "整句的主语，也就是执行‘告知’这个动作的人。",
+      "meaning": "玛丽"
+    },
+    {
+      "text": "told",
+      "relation": "句子的核心谓语，说明玛丽做出的动作。",
+      "meaning": "告诉（tell的过去式）"
+    },
+    {
+      "text": "me",
+      "relation": "‘告诉’的接收对象，也就是间接宾语。",
+      "meaning": "我（宾格）"
+    },
+    {
+      "text": "that",
+      "relation": "引导宾语从句，连接主句和后面的具体告知内容。",
+      "meaning": "（仅起连接作用，无实义）"
+    },
+    {
+      "text": "you would come to London.",
+      "relation": "‘告诉’的具体内容，也就是直接宾语从句。",
+      "meaning": "你会来伦敦。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-139",
+  "sentenceId": "nce-1-lesson-139-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Mary told me that you would come to London.",
+  "lesson": "Lesson 139 Is that you, John?",
+  "notes": [
+    {
+      "title": "that引导的宾语从句",
+      "text": "that只起连接作用，不充当从句成分，也没有实际词义，用来引出told的直接内容。"
+    },
+    {
+      "title": "would come的时态",
+      "text": "would不是‘愿意’，而是过去将来时，表示从玛丽当时说话的时间点看，来伦敦是当时预期要发生的事。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语法分析、翻译与主干讲解基本准确，仅存在两处可明确修正的小问题：1. London 的音标末尾误多写了句点，且带句号的文本块不应作为单词条目；2. comparison 第一步的表述中“整个句子的主干”不够严谨，told 后存在间接宾语和直接宾语从句，并非只有 Mary told me 构成完整主干。（非逐句人工审核）"
+}

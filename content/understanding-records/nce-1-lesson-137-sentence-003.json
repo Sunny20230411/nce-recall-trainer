@@ -1,0 +1,229 @@
+{
+  "chinese": "你总是这么说，可我们从没赢过什么！如果你赢了很多钱，你会做什么？",
+  "intent": "先反驳对方空口许愿的说法，指出从来没有实际中奖的经历，再顺着对方的幻想，询问如果真的赢到一大笔钱之后会如何安排使用。",
+  "comparison": {
+    "chinese": "中文习惯把假设条件“如果你赢了很多钱”放在问句前，最后点明要问的是“你会做什么”；英文则先把核心疑问What you will do提前，再补充假设条件。",
+    "english": "What will you do if you win a lot of money?",
+    "steps": [
+      {
+        "label": "定位核心疑问",
+        "text": "What will you do",
+        "explanation": "先把需要回答的核心——“会做什么”摆到句首，will移到主语you前面构成问句，do就是“做”的意思。"
+      },
+      {
+        "label": "补充前提条件",
+        "text": "if you win a lot of money",
+        "explanation": "条件放在主句之后，这里if引出假设；win用一般现在时表达将来可能发生的假设，a lot of money表示“一大笔钱”。"
+      }
+    ],
+    "takeaway": "理解这类问句时，先抓住What will you do要问的行为内容，再看if给出的假设前提，最后对应到中文语序调整为“如果……你会做什么”即可。"
+  },
+  "backbone": {
+    "text": "You say that, but we never win. What will you do if you win money?",
+    "meaning": "你一直重复同样的说法，可我们从来没有赢到过任何东西；如果真的赢到钱，你打算拿这些钱做什么。"
+  },
+  "structureNotes": [
+    {
+      "title": "but连接的并列分句",
+      "text": "but是转折连词，连接前后两个意思对立的分句：前半句讲对方反复说同样的话，后半句用never、anything点明从未有中奖的实际结果，带有不以为然的语气。"
+    },
+    {
+      "title": "条件从句的时态选择",
+      "text": "在if引出的假设条件句中，描述将来可能发生的假设时，条件分句用一般现在时win，主句用将来时will you do，不要在if分句里使用will win。"
+    },
+    {
+      "title": "不定代词的用法适配",
+      "text": "that指代前文对方说过的话，anything用在否定句never之后表示“任何东西”，和肯定句中的something形成对应。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "You always say that",
+      "role": "并列分句1",
+      "explanation": "由but连接的第一个分句，主语是You，always修饰say的频率，that指代对方之前说过的许愿内容。"
+    },
+    {
+      "text": "but we never win anything!",
+      "role": "转折并列分句2",
+      "explanation": "由but引出的转折分句，主语we，never表否定，anything作win的宾语，表达“从来没赢过任何东西”的实际结果。"
+    },
+    {
+      "text": "What will you do",
+      "role": "疑问主句",
+      "explanation": "特殊疑问句的核心部分，疑问代词What是do的逻辑宾语，will置于主语you前构成疑问语序，询问对方要采取的行动。"
+    },
+    {
+      "text": "if you win a lot of money",
+      "role": "条件状语从句",
+      "explanation": "if引导的假设条件分句，说明“赢钱”是询问“你会做什么”的前提，a lot of修饰money表示数额很大。"
+    }
+  ],
+  "words": [
+    {
+      "text": "You",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是，一直",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "say",
+      "meaning": "说，讲",
+      "pos": "动词",
+      "phonetic": "/seɪ/"
+    },
+    {
+      "text": "that,",
+      "meaning": "那（指代之前说过的话）",
+      "pos": "代词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是，可是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "we",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "never",
+      "meaning": "从不，从未",
+      "pos": "副词",
+      "phonetic": "/ˈnevə/"
+    },
+    {
+      "text": "win",
+      "meaning": "赢，获胜",
+      "pos": "动词",
+      "phonetic": "/wɪn/"
+    },
+    {
+      "text": "anything!",
+      "meaning": "任何东西",
+      "pos": "代词",
+      "phonetic": "/ˈeniθɪŋ/"
+    },
+    {
+      "text": "What",
+      "meaning": "什么",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "will",
+      "meaning": "将，会（助动词，构成将来时）",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "do",
+      "meaning": "做，干",
+      "pos": "动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "if",
+      "meaning": "如果",
+      "pos": "连词",
+      "phonetic": "/ɪf/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "win",
+      "meaning": "赢，获得（奖金）",
+      "pos": "动词",
+      "phonetic": "/wɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "lot",
+      "meaning": "很多，大量",
+      "pos": "名词",
+      "phonetic": "/lɒt/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表所属/数量关联）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "money?",
+      "meaning": "钱",
+      "pos": "名词",
+      "phonetic": "/ˈmʌni/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "You always say that,",
+      "relation": "说话人指出对方反复讲同样的话，是整个反驳的前半部分。",
+      "meaning": "你总是这么说"
+    },
+    {
+      "text": "but we never win anything!",
+      "relation": "由but转折，和前半句形成反差，说明对方的话从来没有兑现过，表实际情况。",
+      "meaning": "可我们从没赢过什么"
+    },
+    {
+      "text": "What will you do",
+      "relation": "整句的核心疑问部分，点明要向对方询问的核心问题。",
+      "meaning": "你会做什么"
+    },
+    {
+      "text": "if you win a lot of money?",
+      "relation": "用if引出假设的前提条件，说明这个问题成立的前提是赢到了一大笔钱。",
+      "meaning": "如果你赢了很多钱"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-137",
+  "sentenceId": "nce-1-lesson-137-sentence-003",
+  "sentenceOrder": 3,
+  "english": "You always say that, but we never win anything! What will you do if you win a lot of money?",
+  "lesson": "Lesson 137 A pleasant dream",
+  "notes": [
+    {
+      "title": "but连接的并列分句",
+      "text": "but是转折连词，连接前后两个意思对立的分句：前半句讲对方反复说同样的话，后半句用never、anything点明从未有中奖的实际结果，带有不以为然的语气。"
+    },
+    {
+      "title": "条件从句的时态选择",
+      "text": "在if引出的假设条件句中，描述将来可能发生的假设时，条件分句用一般现在时win，主句用将来时will you do，不要在if分句里使用will win。"
+    },
+    {
+      "title": "不定代词的用法适配",
+      "text": "that指代前文对方说过的话，anything用在否定句never之后表示“任何东西”，和肯定句中的something形成对应。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原内容主干正确，但存在少量标点、语法表述和术语不当问题：单词表中that、anything、anything!、money?保留了所属分块的标点，不符合音标卡只列单词本身的要求；What在问句中是do的宾语而非主语；conditions从句的主句表述语法不通且语序有误；takeaway对What的成分判断有误。修正后内容准确无误。（非逐句人工审核）"
+}

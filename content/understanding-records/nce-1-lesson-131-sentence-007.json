@@ -1,0 +1,121 @@
+{
+  "chinese": "我们可能坐船去。",
+  "intent": "回应对方关于出行方式的询问，说明己方存在选择乘船出行的可能性，并非已经确定的出行计划。",
+  "comparison": {
+    "chinese": "我们可能坐船去。",
+    "english": "We may travel by sea.",
+    "steps": [
+      {
+        "label": "先给出核心动作与语气",
+        "text": "We may travel…",
+        "explanation": "先以We点明出行主体，再用may传递“可能性较大但尚未确定”的语气，最后给出核心动作travel（出行、旅行）。"
+      },
+      {
+        "label": "后补充交通方式",
+        "text": "…by sea.",
+        "explanation": "紧接核心动作之后，用固定介词搭配by sea说明出行采用的交通方式，整个介词短语后置修饰travel。"
+      }
+    ],
+    "takeaway": "中文习惯把表不确定的“可能”放在谓语“坐船去”之前修饰，英文则先交代主体、情态语气和核心动作，再把表示交通方式的by sea后置作状语。"
+  },
+  "backbone": {
+    "text": "We may travel by sea.",
+    "meaning": "我们有可能乘船出行。"
+  },
+  "structureNotes": [
+    {
+      "title": "may表不确定的推测",
+      "text": "may是情态助动词，表达较大可能性的推测，说明这只是一种可行的出行选择，尚未最终敲定计划。"
+    },
+    {
+      "title": "by sea是固定搭配",
+      "text": "by sea是固定表达，指通过海路、乘船出行，结构为“by+表示交通方式的名词（零冠词）”，类似的搭配还有by air（乘飞机）、by train（乘火车）。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We",
+      "role": "主语",
+      "explanation": "指代对话中说话的一方，说明出行的主体是“我们”。"
+    },
+    {
+      "text": "may travel",
+      "role": "谓语",
+      "explanation": "may是情态助动词，和实义动词travel共同构成句子谓语，表达带有不确定性的出行动作。"
+    },
+    {
+      "text": "by sea",
+      "role": "方式状语",
+      "explanation": "介词短语修饰travel，补充说明出行所采用的交通方式。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "may",
+      "meaning": "可能、也许",
+      "pos": "情态动词",
+      "phonetic": "/meɪ/"
+    },
+    {
+      "text": "travel",
+      "meaning": "出行、旅行",
+      "pos": "动词",
+      "phonetic": "/ˈtrævl/"
+    },
+    {
+      "text": "by",
+      "meaning": "通过（某种交通方式）",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "sea.",
+      "meaning": "海、大海",
+      "pos": "名词",
+      "phonetic": "/siː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "relation": "说明出行的主体是谁"
+    },
+    {
+      "text": "may travel",
+      "meaning": "可能出行",
+      "relation": "表达带有不确定性的核心动作"
+    },
+    {
+      "text": "by sea.",
+      "meaning": "坐船、走海路",
+      "relation": "补充说明出行采用的交通方式"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-131",
+  "sentenceId": "nce-1-lesson-131-sentence-007",
+  "sentenceOrder": 7,
+  "english": "We may travel by sea.",
+  "lesson": "Lesson 131 Don't be so sure!",
+  "notes": [
+    {
+      "title": "may表不确定的推测",
+      "text": "may是情态助动词，表达较大可能性的推测，说明这只是一种可行的出行选择，尚未最终敲定计划。"
+    },
+    {
+      "title": "by sea是固定搭配",
+      "text": "by sea是固定表达，指通过海路、乘船出行，结构为“by+表示交通方式的名词（零冠词）”，类似的搭配还有by air（乘飞机）、by train（乘火车）。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：核心成分划分、语义解释均符合原句逻辑，准确传达了may表推测的不确定性，by sea作为固定搭配介词短语表方式的用法正确；仅存在单词条目的音标标点归属不当、释义搭配不够精准的两处细节问题，可直接修正。（非逐句人工审核）"
+}

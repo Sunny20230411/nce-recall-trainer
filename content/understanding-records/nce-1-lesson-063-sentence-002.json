@@ -1,0 +1,94 @@
+{
+  "chinese": "好多了。谢谢您，医生。",
+  "intent": "回答对方的健康询问，告知身体好转，并向医生表达谢意。",
+  "comparison": null,
+  "backbone": {
+    "text": "（I am）Better. Thank you, doctor.",
+    "meaning": "我身体好多了，谢谢您医生。"
+  },
+  "structureNotes": [
+    {
+      "title": "Better 承接前文询问",
+      "text": "完整理解时可补出 I'm feeling；口语直接用 Better，是对 How's Jimmy today 的简短回答。"
+    },
+    {
+      "title": "doctor 在句尾作称呼语",
+      "text": "Thank you, doctor 先表达感谢，再用逗号后称呼医生本人。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Better.",
+      "role": "简短健康回答",
+      "explanation": "表达身体状况比之前好转，承接医生询问。"
+    },
+    {
+      "text": "Thank you,",
+      "role": "感谢表达",
+      "explanation": "向对方表达谢意。"
+    },
+    {
+      "text": "doctor.",
+      "role": "称呼语",
+      "explanation": "指明道谢的对象是医生。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Better.",
+      "meaning": "好转（省略完整句式，指代身体状态比之前好）",
+      "pos": "形容词",
+      "phonetic": "/ˈbetə(r)/"
+    },
+    {
+      "text": "Thank",
+      "meaning": "感谢",
+      "pos": "动词",
+      "phonetic": "/θæŋk/"
+    },
+    {
+      "text": "you,",
+      "meaning": "你（本句中作感谢的对象）",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "doctor.",
+      "meaning": "医生",
+      "pos": "名词",
+      "phonetic": "/ˈdɒktə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Better.",
+      "relation": "回答医生此前的健康状态询问，省略了完整的主语和系动词",
+      "meaning": "好多了"
+    },
+    {
+      "text": "Thank you, doctor.",
+      "relation": "向医生表达谢意，点明道谢的对象是医生本人",
+      "meaning": "谢谢您，医生"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-63",
+  "sentenceId": "nce-1-lesson-063-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Better. Thank you, doctor.",
+  "lesson": "Lesson 63 Thank you, doctor.",
+  "notes": [
+    {
+      "title": "Better 承接前文询问",
+      "text": "完整理解时可补出 I'm feeling；口语直接用 Better，是对 How's Jimmy today 的简短回答。"
+    },
+    {
+      "title": "doctor 在句尾作称呼语",
+      "text": "Thank you, doctor 先表达感谢，再用逗号后称呼医生本人。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确：口语省略式回答、称呼语位置、词义音标与指代关系均符合上下文，且无严重语法误解；仅需删除逐词注音中的句末句号，避免音标对应形态被误读。（非逐句人工审核）"
+}

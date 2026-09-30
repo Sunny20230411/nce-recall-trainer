@@ -1,0 +1,242 @@
+{
+  "chinese": "半小时前我在这里买了两本很贵的词典，但忘了拿走。",
+  "intent": "叙述过去完成的购买行为，以及由此衍生的疏忽后果，点明后续问题的由来。",
+  "comparison": {
+    "chinese": "汉语习惯先交代时间、地点背景，再引出主体动作，最后说明疏忽结果；英语主句以主语和动作开头，再把时间、地点等补充信息放在动作之后。",
+    "english": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.",
+    "steps": [
+      {
+        "label": "先抓主干事件",
+        "text": "I bought two expensive dictionaries",
+        "explanation": "先明确核心动作是“我买了词典”，这是理解全句的基础。"
+      },
+      {
+        "label": "补充动作的背景信息",
+        "text": "here half an hour ago",
+        "explanation": "在买完东西的动作之后，补充说明这件事发生的地点是“这里”、时间是“半小时前”，不调换语序也不影响先抓住买东西这个核心。"
+      },
+      {
+        "label": "用转折带出后续疏忽",
+        "text": "but I forgot to take them with me",
+        "explanation": "通过but连接后续转折信息，说明自己买了词典却没带走，them指代前面提到的两本词典，承接前文事物。"
+      }
+    ],
+    "takeaway": "先抓住主语+核心动作的主干，再把后置的时间、地点修饰语还原到对应位置；遇到but连接的分句，注意后半句的代词指代前文已出现的事物，避免重复表述。"
+  },
+  "backbone": {
+    "text": "I bought dictionaries, but I forgot to take them.",
+    "meaning": "我购买了词典，却忘了带走它们。"
+  },
+  "structureNotes": [
+    {
+      "title": "时态统一为一般过去时",
+      "text": "bought和forgot都是过去式，说明买词典、忘记带走这两件事都已经发生，和后面的时间状语half an hour ago对应。"
+    },
+    {
+      "title": "but连接转折并列分句",
+      "text": "but连接两个意思形成反差的独立分句，前半句讲完成购买的动作，后半句讲出现的疏忽，语义上形成“本应带走却没有带走”的转折关系。"
+    },
+    {
+      "title": "动词搭配的固定表达",
+      "text": "forget to do sth. 表示“忘记去做某事”，to take them with me是forget的具体内容；take sth. with sb. 是固定搭配，表示“某人随身带上某物”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I bought two expensive dictionaries here half an hour ago",
+      "role": "第一个独立分句",
+      "explanation": "陈述过去发生的购买行为，包含主语、谓语、宾语以及地点、时间状语。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "连接两个语义形成反差的独立分句，提示后半句内容是前半句的意外转折。"
+    },
+    {
+      "text": "I forgot to take them with me",
+      "role": "第二个独立分句",
+      "explanation": "承接前半句的购买行为，说明伴随出现的疏忽后果，是全句语义的落点。"
+    },
+    {
+      "text": "two expensive dictionaries",
+      "role": "前一分句的宾语",
+      "explanation": "是动词bought的支配对象，指明购买的物品；two和expensive都是修饰dictionaries的定语。"
+    },
+    {
+      "text": "here",
+      "role": "地点状语",
+      "explanation": "补充说明购买行为发生的地点。"
+    },
+    {
+      "text": "half an hour ago",
+      "role": "时间状语",
+      "explanation": "补充说明购买行为发生的时间，对应一般过去时的时态。"
+    },
+    {
+      "text": "to take them with me",
+      "role": "动词forget的宾语",
+      "explanation": "是忘记的具体内容，即“带走词典”这件事。"
+    },
+    {
+      "text": "them",
+      "role": "take的宾语",
+      "explanation": "指代前半句提到的two expensive dictionaries，避免重复表述。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词（主格）",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "bought",
+      "meaning": "购买（buy的过去式）",
+      "pos": "动词",
+      "phonetic": "/bɔːt/"
+    },
+    {
+      "text": "two",
+      "meaning": "两本；两个",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "expensive",
+      "meaning": "昂贵的；贵的",
+      "pos": "形容词",
+      "phonetic": "/ɪkˈspensɪv/"
+    },
+    {
+      "text": "dictionaries",
+      "meaning": "词典（dictionary的复数形式）",
+      "pos": "名词",
+      "phonetic": "/ˈdɪkʃənriz/"
+    },
+    {
+      "text": "here",
+      "meaning": "在这里",
+      "pos": "副词",
+      "phonetic": "/hɪə(r)/"
+    },
+    {
+      "text": "half",
+      "meaning": "一半的",
+      "pos": "形容词",
+      "phonetic": "/hɑːf/"
+    },
+    {
+      "text": "an",
+      "meaning": "一本（不定冠词，后接以元音音素开头的单词）",
+      "pos": "冠词",
+      "phonetic": "/ən/"
+    },
+    {
+      "text": "hour",
+      "meaning": "小时",
+      "pos": "名词",
+      "phonetic": "/ˈaʊə(r)/"
+    },
+    {
+      "text": "ago,",
+      "meaning": "以前",
+      "pos": "副词",
+      "phonetic": "/əˈɡəʊ/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词（主格）",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "forgot",
+      "meaning": "忘记（forget的过去式）",
+      "pos": "动词",
+      "phonetic": "/fəˈɡɒt/"
+    },
+    {
+      "text": "to",
+      "meaning": "（用于构成动词不定式，无实义）",
+      "pos": "小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "take",
+      "meaning": "拿走；带走",
+      "pos": "动词",
+      "phonetic": "/teɪk/"
+    },
+    {
+      "text": "them",
+      "meaning": "它们（指代前面提到的两本词典）",
+      "pos": "代词（宾格）",
+      "phonetic": "/ðəm/"
+    },
+    {
+      "text": "with",
+      "meaning": "和…一起；带着",
+      "pos": "介词",
+      "phonetic": "/wɪð/"
+    },
+    {
+      "text": "me.",
+      "meaning": "我（代词宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I bought two expensive dictionaries",
+      "meaning": "我买了两本很贵的词典",
+      "relation": "核心动作与购买对象，是分句主干。"
+    },
+    {
+      "text": "here half an hour ago,",
+      "meaning": "是半小时前在这里买的",
+      "relation": "补充说明购买行为发生的地点和时间。"
+    },
+    {
+      "text": "but I forgot",
+      "meaning": "但是我忘了",
+      "relation": "用转折引出后续的疏忽行为。"
+    },
+    {
+      "text": "to take them with me.",
+      "meaning": "把它们随身带上",
+      "relation": "说明忘记的具体内容，them指代前面的两本词典。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-121",
+  "sentenceId": "nce-1-lesson-121-sentence-001",
+  "sentenceOrder": 1,
+  "english": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.",
+  "lesson": "Lesson 121 The man in a hat",
+  "notes": [
+    {
+      "title": "时态统一为一般过去时",
+      "text": "bought和forgot都是过去式，说明买词典、忘记带走这两件事都已经发生，和后面的时间状语half an hour ago对应。"
+    },
+    {
+      "title": "but连接转折并列分句",
+      "text": "but连接两个意思形成反差的独立分句，前半句讲完成购买的动作，后半句讲出现的疏忽，语义上形成“本应带走却没有带走”的转折关系。"
+    },
+    {
+      "title": "动词搭配的固定表达",
+      "text": "forget to do sth. 表示“忘记去做某事”，to take them with me是forget的具体内容；take sth. with sb. 是固定搭配，表示“某人随身带上某物”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体框架正确，语法、词义、指代关系解释符合规则，仅存在两处可明确修正的小问题：一是单词表中ago的音标错误附加了不存在的逗号符号，二是here片段的中文释义表述生硬冗余，不符合自然中文表达习惯，其余内容无需调整。（非逐句人工审核）"
+}

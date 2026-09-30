@@ -1,0 +1,89 @@
+{
+  "chinese": "给你。接住！",
+  "intent": "说话人把物品递给对方时，告知对方物品已经递出，同时提醒对方伸手接住递过来的东西",
+  "comparison": null,
+  "backbone": {
+    "text": "Here you are. Catch!",
+    "meaning": "把东西递交给对方，并提醒对方接住物品"
+  },
+  "parts": [
+    {
+      "text": "Here you are.",
+      "relation": "告知对方物品交接完成的状态",
+      "meaning": "给你，物品已递到你面前"
+    },
+    {
+      "text": "Catch!",
+      "relation": "补充提醒对方要做出的动作",
+      "meaning": "接住"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "Here you are的语序",
+      "text": "这是递东西时的常用固定表达，没有用普通陈述句的正常顺序you are here，专门用来表示物品已交到对方手里，不是描述“你在这里”的位置状态"
+    },
+    {
+      "title": "单独使用的祈使句Catch!",
+      "text": "直接用动词原形开头，省略了听话人you，用来面对面发出简短的提醒指令，不需要多余的助词铺垫，符合即时提醒的场景需求"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Here you are.",
+      "role": "递东西的常用交际语句",
+      "explanation": "用于把物品交到对方手上时的告知，不需要按照字面直译为“你在这里”，是口语里的固定惯用表达"
+    },
+    {
+      "text": "Catch!",
+      "role": "祈使短句",
+      "explanation": "直接用动词原形开头，向听话人发出即时接住物品的动作指令"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这里，递到你这边",
+      "pos": "副词",
+      "phonetic": "/hɪə/",
+      "text": "Here"
+    },
+    {
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "是（此处为固定表达组成部分，不单独翻译）",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are."
+    },
+    {
+      "meaning": "接住",
+      "pos": "动词",
+      "phonetic": "/kætʃ/",
+      "text": "Catch!"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-11",
+  "sentenceId": "nce-1-lesson-011-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Here you are. Catch!",
+  "lesson": "Lesson 11 Is this your shirt?",
+  "notes": [
+    {
+      "title": "Here you are的语序",
+      "text": "这是递东西时的常用固定表达，没有用普通陈述句的正常顺序you are here，专门用来表示物品已交到对方手里，不是描述“你在这里”的位置状态"
+    },
+    {
+      "title": "单独使用的祈使句Catch!",
+      "text": "直接用动词原形开头，省略了听话人you，用来面对面发出简短的提醒指令，不需要多余的助词铺垫，符合即时提醒的场景需求"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本符合要求，仅存在个别细节疏漏：单词are的文本错误包含句点、comparison字段缺失合规的补充说明、部分表述可更严谨，修正后即可正常使用。（非逐句人工审核）"
+}

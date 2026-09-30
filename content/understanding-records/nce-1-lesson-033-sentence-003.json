@@ -1,0 +1,103 @@
+{
+  "chinese": "琼斯先生和他的家人在一起。",
+  "intent": "陈述琼斯先生当下的所处状态，说明他正和自己的家人一同待着。",
+  "comparison": null,
+  "backbone": {
+    "text": "Mr. Jones is with his family",
+    "meaning": "琼斯先生和他的家人在一起"
+  },
+  "parts": [
+    {
+      "text": "Mr. Jones",
+      "relation": "描述状态的主体",
+      "meaning": "琼斯先生"
+    },
+    {
+      "text": "is",
+      "relation": "表示状态的联系动词",
+      "meaning": "处于（某种状态）"
+    },
+    {
+      "text": "with his family.",
+      "relation": "补充说明琼斯先生所处的陪伴状态",
+      "meaning": "和他的家人在一起"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "with的状态用法",
+      "text": "这里的with不表示伴随动作，而是放在be动词之后，用来表示主语正处于和某人共处的状态，不需要额外添加实义动词就能说明陪伴关系。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Mr. Jones",
+      "role": "名词短语作主语",
+      "explanation": "明确本句描述的对象，指琼斯先生"
+    },
+    {
+      "text": "is",
+      "role": "be动词作系动词",
+      "explanation": "承担连接主语和后续状态描述的作用，体现当下的即时状态"
+    },
+    {
+      "text": "with his family.",
+      "role": "介词短语作表语",
+      "explanation": "接在be动词之后，说明主语当下正和家人共处的状态"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "先生（对男士的尊称）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪstə(r)/",
+      "text": "Mr."
+    },
+    {
+      "meaning": "琼斯（姓氏）",
+      "pos": "名词",
+      "phonetic": "/dʒəʊnz/",
+      "text": "Jones"
+    },
+    {
+      "meaning": "是、处于（某种状态）",
+      "pos": "be动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "和……一起",
+      "pos": "介词",
+      "phonetic": "/wɪð/",
+      "text": "with"
+    },
+    {
+      "meaning": "他的",
+      "pos": "物主代词",
+      "phonetic": "/hɪz/",
+      "text": "his"
+    },
+    {
+      "meaning": "家人，家庭",
+      "pos": "名词",
+      "phonetic": "/ˈfæməli/",
+      "text": "family."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-33",
+  "sentenceId": "nce-1-lesson-033-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Mr. Jones is with his family.",
+  "lesson": "Lesson 33 A fine day",
+  "notes": [
+    {
+      "title": "with的状态用法",
+      "text": "这里的with不表示伴随动作，而是放在be动词之后，用来表示主语正处于和某人共处的状态，不需要额外添加实义动词就能说明陪伴关系。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析整体符合要求，仅存在部分细节疏漏，可明确修正（非逐句人工审核）"
+}

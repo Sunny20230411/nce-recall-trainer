@@ -1,0 +1,69 @@
+{
+  "chinese": "蒂姆在爬。",
+  "intent": "承接前文“谁在爬树”的提问，简洁给出对应答语，避免重复完整的谓语内容",
+  "comparison": null,
+  "backbone": {
+    "text": "Tim is.",
+    "meaning": "蒂姆正在做前文提到的爬树这个动作"
+  },
+  "parts": [
+    {
+      "text": "Tim",
+      "relation": "动作执行者",
+      "meaning": "人名蒂姆，指回答的动作主体"
+    },
+    {
+      "text": "is.",
+      "relation": "说明主体正在进行前文提及的动作",
+      "meaning": "结合前文语境省略了climbing the tree，指代正在爬树这个动作"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "上下文省略规则",
+      "text": "这句话承接前一句的提问，省去了重复的climbing the tree，只保留助动词is就可以完整传递回答的信息，避免表达冗余"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Tim",
+      "role": "主语",
+      "explanation": "明确给出动作的主体，也就是被询问的对象蒂姆"
+    },
+    {
+      "text": "is",
+      "role": "省略式谓语",
+      "explanation": "依托前文语境，替代完整的is climbing the tree，表达蒂姆正在爬树的含义"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "蒂姆（人名）",
+      "pos": "名词",
+      "phonetic": "/tɪm/",
+      "text": "Tim"
+    },
+    {
+      "meaning": "（此处为现在进行时的助动词，依托前文语境指代is climbing the tree，表正在爬树）",
+      "pos": "be动词/助动词",
+      "phonetic": "/ɪz/",
+      "text": "is."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-31",
+  "sentenceId": "nce-1-lesson-031-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Tim is.",
+  "lesson": "Lesson 31 Where's Sally?",
+  "notes": [
+    {
+      "title": "上下文省略规则",
+      "text": "这句话承接前一句的提问，省去了重复的climbing the tree，只保留助动词is就可以完整传递回答的信息，避免表达冗余"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，仅存在少量细节误差，可明确修正（非逐句人工审核）"
+}

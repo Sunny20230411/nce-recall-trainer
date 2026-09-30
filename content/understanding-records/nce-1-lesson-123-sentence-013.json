@@ -1,0 +1,95 @@
+{
+  "chinese": "不是你吧？",
+  "intent": "说话人根据照片做出猜测，先给出自己的判断“（照片里的人）不是你”，再用附加问句确认这个判断，是带着不确定语气的询问求证。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's not you, is it?",
+    "meaning": "（看照片的人）不是你，对吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "附加问句的语序",
+      "text": "主句 It's not you 表达说话人的判断，后半句 is it? 是与它配套的附加疑问，把 be 动词 is 提前、用代词 it 指主句提到的那个人，用来向对方求证，不是独立的另一个问题。"
+    },
+    {
+      "title": "否定形式的附加问句呼应",
+      "text": "主句用了 not 表否定猜测，附加问句用肯定形式 is it，整体带着说话人不太确定、希望对方证实的语气，中文译成“不是你吧？”最贴合这种犹豫求证的感觉。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's not you,",
+      "role": "陈述判断部分",
+      "explanation": "表达说话人初步的判断：“（照片里的人）不是你”，是全句信息的主体。"
+    },
+    {
+      "text": "is it?",
+      "role": "附加疑问部分",
+      "explanation": "跟在否定陈述之后，通过倒装语序提出确认请求，向对方核实前面的判断是否正确。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "它是（指代前文提到的照片里的人）",
+      "pos": "缩略形式（代词+be动词）",
+      "phonetic": "ɪts"
+    },
+    {
+      "text": "not",
+      "meaning": "不，表否定",
+      "pos": "副词",
+      "phonetic": "nɒt"
+    },
+    {
+      "text": "you,",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "juː"
+    },
+    {
+      "text": "is",
+      "meaning": "是（用于附加疑问）",
+      "pos": "动词be",
+      "phonetic": "ɪz"
+    },
+    {
+      "text": "it?",
+      "meaning": "那，它（指代前文提到的照片里的人）",
+      "pos": "代词（主语）",
+      "phonetic": "ɪt"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's not you,",
+      "relation": "给出说话人初步的猜测判断",
+      "meaning": "（照片里的人）不是你"
+    },
+    {
+      "text": "is it?",
+      "relation": "向对方求证前面的判断是否正确",
+      "meaning": "对吧？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-123",
+  "sentenceId": "nce-1-lesson-123-sentence-013",
+  "sentenceOrder": 13,
+  "english": "It's not you, is it?",
+  "lesson": "Lesson 123 A trip to Australia",
+  "notes": [
+    {
+      "title": "附加问句的语序",
+      "text": "主句 It's not you 表达说话人的判断，后半句 is it? 是与它配套的附加疑问，把 be 动词 is 提前、用代词 it 指主句提到的那个人，用来向对方求证，不是独立的另一个问题。"
+    },
+    {
+      "title": "否定形式的附加问句呼应",
+      "text": "主句用了 not 表否定猜测，附加问句用肯定形式 is it，整体带着说话人不太确定、希望对方证实的语气，中文译成“不是你吧？”最贴合这种犹豫求证的感觉。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确清晰，完整覆盖了反义疑问句的语法结构、指代逻辑和语气特征，仅存在一处代词角色标注的小瑕疵，微调后符合输出规范。（非逐句人工审核）"
+}

@@ -1,0 +1,116 @@
+{
+  "chinese": "您上午十点能来吗？",
+  "intent": "向对方确认能否在上午十点前来，约定就诊时间。",
+  "comparison": null,
+  "backbone": {
+    "text": "Can you come?",
+    "meaning": "询问对方是否能够前来。"
+  },
+  "structureNotes": [
+    {
+      "title": "问句语序",
+      "text": "Can 放在句首并置于主语 you 之前，用来询问对方是否有能力或是否方便做某事；come 是句子的核心动作。"
+    },
+    {
+      "title": "时间表达",
+      "text": "at ten a.m. 表示具体时刻，介词 at 搭配十点，a.m. 限定是上午时段。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Can",
+      "role": "情态助动词",
+      "explanation": "表示“能够，可以”，放在句首帮助构成一般疑问句。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "是被询问的对象，指听话的人。"
+    },
+    {
+      "text": "come",
+      "role": "谓语动词",
+      "explanation": "表示“来，前来”，是句子的核心动作。"
+    },
+    {
+      "text": "at ten a.m.?",
+      "role": "时间状语",
+      "explanation": "说明动作发生的具体时间是上午十点，句末问号表示疑问语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Can",
+      "meaning": "能够，可以",
+      "pos": "情态动词",
+      "phonetic": "/kæn/"
+    },
+    {
+      "text": "you",
+      "meaning": "你，您",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "come",
+      "meaning": "来，前来",
+      "pos": "动词",
+      "phonetic": "/kʌm/"
+    },
+    {
+      "text": "at",
+      "meaning": "（用于具体时刻前）在",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "ten",
+      "meaning": "十（点）",
+      "pos": "数词",
+      "phonetic": "/ten/"
+    },
+    {
+      "text": "a.m.?",
+      "meaning": "上午，午前",
+      "pos": "副词",
+      "phonetic": "/ˌeɪ ˈem/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Can you",
+      "meaning": "您能…吗",
+      "relation": "询问对方的行动意愿与能力"
+    },
+    {
+      "text": "come",
+      "meaning": "来",
+      "relation": "核心动作"
+    },
+    {
+      "text": "at ten a.m.?",
+      "meaning": "在上午十点（以问号收尾表疑问）",
+      "relation": "补充说明动作发生的具体时间，以问号收尾表疑问。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-77",
+  "sentenceId": "nce-1-lesson-077-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Can you come at ten a.m.?",
+  "lesson": "Lesson 77 Terrible toothache",
+  "notes": [
+    {
+      "title": "问句语序",
+      "text": "Can 放在句首并置于主语 you 之前，用来询问对方是否有能力或是否方便做某事；come 是句子的核心动作。"
+    },
+    {
+      "title": "时间表达",
+      "text": "at ten a.m. 表示具体时刻，介词 at 搭配十点，a.m. 限定是上午时段。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析主干完整，问句语序、时间状语和词性功能标注基本正确。两处标点耦合的小问题应修正：把 a.m. 词条与问号分开，避免把问号当作该词的读音和词条内容；同时将中文译义中多余的“前”改为“来”，使“come at ten”准确表示“十点来”，而不是十点之前到达。（非逐句人工审核）"
+}

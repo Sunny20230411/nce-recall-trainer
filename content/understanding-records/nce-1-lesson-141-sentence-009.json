@@ -1,0 +1,133 @@
+{
+  "chinese": "然后她开始化妆。",
+  "intent": "顺着前文女士掏出粉盒的动作，继续描述她接下来开始做的事——化妆。",
+  "comparison": null,
+  "backbone": {
+    "text": "She began to make up her face.",
+    "meaning": "她开始给自己化妆。"
+  },
+  "structureNotes": [
+    {
+      "title": "动作先后与具体内容",
+      "text": "then 表示在前面动作之后发生，说明“开始化妆”是紧接着掏粉盒的下一个动作；began to 后接不定式短语，说明开始做的具体事情。"
+    },
+    {
+      "title": "短语动词 make up 的语境义",
+      "text": "make up her face 指用化妆品装饰脸部，不是“编造她的脸”这类字面意思；这种固定搭配要结合上下文的粉盒、化妆品来理解。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "主语",
+      "explanation": "指前面提到的女士，是“开始”这个动作的发出者。"
+    },
+    {
+      "text": "then",
+      "role": "时间状语",
+      "explanation": "说明这个动作发生在前一句“掏出粉盒”之后。"
+    },
+    {
+      "text": "began",
+      "role": "谓语动词",
+      "explanation": "表示“开始”，用过去时描述过去发生的动作。"
+    },
+    {
+      "text": "to make up her face",
+      "role": "动词宾语/补足语",
+      "explanation": "用不定式说明她开始做的具体事是化妆。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "then",
+      "meaning": "然后，接着",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    },
+    {
+      "text": "began",
+      "meaning": "开始",
+      "pos": "动词",
+      "phonetic": "/bɪˈɡæn/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "助词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "make",
+      "meaning": "（与 up 构成短语）化妆",
+      "pos": "动词",
+      "phonetic": "/meɪk/"
+    },
+    {
+      "text": "up",
+      "meaning": "（与 make 构成短语）化妆",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "her",
+      "meaning": "她的",
+      "pos": "代词",
+      "phonetic": "/hɜː/（英式）"
+    },
+    {
+      "text": "face.",
+      "meaning": "脸",
+      "pos": "名词",
+      "phonetic": "/feɪs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She",
+      "relation": "动作发出者",
+      "meaning": "她"
+    },
+    {
+      "text": "then",
+      "relation": "时间顺序",
+      "meaning": "然后"
+    },
+    {
+      "text": "began",
+      "relation": "核心动作",
+      "meaning": "开始"
+    },
+    {
+      "text": "to make up her face.",
+      "relation": "开始做的事",
+      "meaning": "给她的脸化妆"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-141",
+  "sentenceId": "nce-1-lesson-141-sentence-009",
+  "sentenceOrder": 9,
+  "english": "She then began to make up her face.",
+  "lesson": "Lesson 141 Sally's first train ride",
+  "notes": [
+    {
+      "title": "动作先后与具体内容",
+      "text": "then 表示在前面动作之后发生，说明“开始化妆”是紧接着掏粉盒的下一个动作；began to 后接不定式短语，说明开始做的具体事情。"
+    },
+    {
+      "title": "短语动词 make up 的语境义",
+      "text": "make up her face 指用化妆品装饰脸部，不是“编造她的脸”这类字面意思；这种固定搭配要结合上下文的粉盒、化妆品来理解。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句翻译、主干、结构标注与词汇释义整体准确，贴合上下文，仅存在两处可优化细节：一是原结构Notes将不定式动作表述为“目的内容”，began to后接不定式是陈述开始的具体动作，并非表达主观目的；二是her音标/hɜː/为英式发音，需标注英式口音属性避免误读。其余内容无需改动。（非逐句人工审核）"
+}

@@ -1,0 +1,83 @@
+{
+  "chinese": "好消息？为什么？",
+  "intent": "用简短的口语化追问，对对方刚提到的“对吉米来说是个好消息”提出质疑，进一步询问这个消息被称作好消息的原因。",
+  "comparison": null,
+  "backbone": {
+    "text": "Good news? Why?",
+    "meaning": "（你说这是）好消息？（这是）为什么（呢）？"
+  },
+  "structureNotes": [
+    {
+      "title": "口语省略的反问",
+      "text": "Good news? 不是完整陈述句，而是依托前文“That's good news for Jimmy”的省略追问，完整意思是“（你说）这是好消息？”，带疑惑语气，不需要补出完整主谓语也能理解。"
+    },
+    {
+      "title": "短问衔接下一句",
+      "text": "Why? 直接追问原因，对应回答里的 Because 从句，是英语对话中常见的极简提问方式，只用疑问副词即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Good news?",
+      "role": "省略式确认反问",
+      "explanation": "承接上文出现的“好消息”表述，以升调疑问形式提出反问，表达说话人的疑惑态度，完整还原为理解用句子是：Is that really good news?"
+    },
+    {
+      "text": "Why?",
+      "role": "原因追问",
+      "explanation": "用单个疑问代词直接询问原因，对应后文以 Because 引导的原因说明句，是口语中最简洁的提问形式。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Good",
+      "meaning": "令人满意的、好的",
+      "pos": "形容词",
+      "phonetic": "/ɡʊd/"
+    },
+    {
+      "text": "news?",
+      "meaning": "消息",
+      "pos": "名词",
+      "phonetic": "/njuːz/"
+    },
+    {
+      "text": "Why?",
+      "meaning": "为什么",
+      "pos": "疑问副词",
+      "phonetic": "/waɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Good news?",
+      "relation": "承接前文提到的“好消息”，以反问形式表达疑惑，不构成独立完整的句子",
+      "meaning": "好消息？"
+    },
+    {
+      "text": "Why?",
+      "relation": "针对前文反问的内容，直接追问背后的原因",
+      "meaning": "为什么？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-61",
+  "sentenceId": "nce-1-lesson-061-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Good news? Why?",
+  "lesson": "Lesson 61 A bad cold",
+  "notes": [
+    {
+      "title": "口语省略的反问",
+      "text": "Good news? 不是完整陈述句，而是依托前文“That's good news for Jimmy”的省略追问，完整意思是“（你说）这是好消息？”，带疑惑语气，不需要补出完整主谓语也能理解。"
+    },
+    {
+      "title": "短问衔接下一句",
+      "text": "Why? 直接追问原因，对应回答里的 Because 从句，是英语对话中常见的极简提问方式，只用疑问副词即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：该条目整体语义、省略语解释、问答衔接说明均符合原文语境，仅存在一处词性标注错误：Why 实际为疑问副词，被误标为疑问代词，无需修改其他内容。（非逐句人工审核）"
+}

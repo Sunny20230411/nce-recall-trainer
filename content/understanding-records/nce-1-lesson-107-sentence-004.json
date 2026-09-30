@@ -1,0 +1,89 @@
+{
+  "chinese": "这是一件漂亮的连衣裙。",
+  "intent": "回应对方提出的试穿建议，对眼前这条连衣裙给出正面评价。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's a lovely dress.",
+    "meaning": "这是一条很漂亮的连衣裙。"
+  },
+  "structureNotes": [
+    {
+      "title": "形容词作定语的位置",
+      "text": "lovely是描述外观感受的形容词，直接放在所修饰的名词dress前面，用来说明这条连衣裙好看，位置符合英语“形容词+名词”的常规顺序。"
+    },
+    {
+      "title": "It's在此处的指代",
+      "text": "这里的It不指代其他非人称事物，承接上文刚提到的试穿的one（指代dress），用来引出对眼前这条连衣裙的评价，翻译时直接对应“这”即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "主语加系动词",
+      "explanation": "It指代上文提到的连衣裙，is作系动词，和后面的名词表语一起构成判断结构，说明眼前物品的属性。"
+    },
+    {
+      "text": "a lovely dress",
+      "role": "名词短语作表语",
+      "explanation": "lovely是形容词修饰dress，整体作为表语，补充说明It所指代的事物是一件漂亮的连衣裙。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "它是（此处指代眼前的连衣裙）",
+      "pos": "代词+动词缩写形式",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "a",
+      "meaning": "一件",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "lovely",
+      "meaning": "漂亮的",
+      "pos": "形容词",
+      "phonetic": "/ˈlʌvli/"
+    },
+    {
+      "text": "dress.",
+      "meaning": "连衣裙",
+      "pos": "名词",
+      "phonetic": "/ˈdres/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's",
+      "relation": "引出评价对象",
+      "meaning": "这是"
+    },
+    {
+      "text": "a lovely dress.",
+      "relation": "评价内容，说明这条连衣裙的特点",
+      "meaning": "一件漂亮的连衣裙"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-107",
+  "sentenceId": "nce-1-lesson-107-sentence-004",
+  "sentenceOrder": 4,
+  "english": "It's a lovely dress.",
+  "lesson": "Lesson 107 It's too small.",
+  "notes": [
+    {
+      "title": "形容词作定语的位置",
+      "text": "lovely是描述外观感受的形容词，直接放在所修饰的名词dress前面，用来说明这条连衣裙好看，位置符合英语“形容词+名词”的常规顺序。"
+    },
+    {
+      "title": "It's在此处的指代",
+      "text": "这里的It不指代其他非人称事物，承接上文刚提到的试穿的one（指代dress），用来引出对眼前这条连衣裙的评价，翻译时直接对应“这”即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子语义、翻译、句法分析基本正确。存在两处可修正问题：1. 名词dress的英式音标未按规范加主重音符号；2. 结构Notes中关于It指代的表述不够通顺，存在轻微语义偏差，修正后表意更准确。其余内容符合要求。（非逐句人工审核）"
+}

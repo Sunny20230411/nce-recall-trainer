@@ -1,0 +1,142 @@
+{
+  "chinese": "珍妮，你今天会见到伊恩吗？",
+  "intent": "这是一个一般将来时的疑问句，说话人向珍妮确认她当天是否打算、有机会见到Ian，获取关于未来事件的确定信息。",
+  "comparison": {
+    "chinese": "珍妮，你今天会见到伊恩吗？",
+    "english": "Will you see Ian today, Jenny?",
+    "steps": [
+      {
+        "label": "先看疑问落点",
+        "text": "Will you see Ian today?",
+        "explanation": "Will放在句首，帮助判断全句是在询问将来的事，而不是已经发生。"
+      },
+      {
+        "label": "再理清问答关系",
+        "text": "you see Ian today",
+        "explanation": "主语you、谓语see和宾语Ian先形成主干，today说明时间；若用Yes, I will回答，就是在确认you所指的人。"
+      }
+    ],
+    "takeaway": "疑问句中先由Will提示将来问，再还原主干；Jenny是称呼语，不参与主谓关系。"
+  },
+  "backbone": {
+    "text": "Will you see Ian today?",
+    "meaning": "你今天会见到伊恩吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "称呼语位置",
+      "text": "Jenny放在句末，用逗号与前面的问句隔开，是直接对珍妮说话的称呼，不参与句子主谓结构；中文习惯把称呼放在句首，翻译时可按中文表达习惯调整。"
+    },
+    {
+      "title": "一般将来时疑问结构",
+      "text": "will作为助动词放在句首构成疑问句，表达对将来发生动作的询问，后面接动词原形see。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Will",
+      "role": "助动词",
+      "explanation": "帮助构成一般将来时的一般疑问句，置于句首体现疑问语气，表达将来的可能性或计划。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "句子询问的对象，指听话人珍妮。"
+    },
+    {
+      "text": "see",
+      "role": "谓语动词",
+      "explanation": "表示“见到、会面”的动作，用原形，与will搭配表示将来的动作。"
+    },
+    {
+      "text": "Ian",
+      "role": "宾语",
+      "explanation": "动作see的对象，指要见到的人伊恩。"
+    },
+    {
+      "text": "today",
+      "role": "时间状语",
+      "explanation": "修饰动作see，说明动作发生的时间是今天。"
+    },
+    {
+      "text": "Jenny",
+      "role": "称呼语",
+      "explanation": "直接称呼对话对象，与句子主干无主谓或动宾关系，用逗号隔开。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Will",
+      "meaning": "将要；会（助动词，构成将来时疑问）",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "see",
+      "meaning": "见到；会面",
+      "pos": "动词",
+      "phonetic": "/siː/"
+    },
+    {
+      "text": "Ian",
+      "meaning": "伊恩（人名）",
+      "pos": "名词",
+      "phonetic": "/ˈiːən/"
+    },
+    {
+      "text": "today,",
+      "meaning": "今天",
+      "pos": "副词",
+      "phonetic": "/təˈdeɪ/"
+    },
+    {
+      "text": "Jenny?",
+      "meaning": "珍妮（人名）",
+      "pos": "名词",
+      "phonetic": "/ˈdʒeni/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Will you see",
+      "relation": "引出询问的框架，点明将来时疑问语气与主语、动作的开头",
+      "meaning": "你将要…吗"
+    },
+    {
+      "text": "Ian today,",
+      "relation": "说明动作的对象与发生的时间，是询问的核心内容",
+      "meaning": "见到伊恩，今天"
+    },
+    {
+      "text": "Jenny?",
+      "relation": "直接称呼对话的对象，表明这句话是说给珍妮听的",
+      "meaning": "珍妮？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-91",
+  "sentenceId": "nce-1-lesson-091-sentence-015",
+  "sentenceOrder": 15,
+  "english": "Will you see Ian today, Jenny?",
+  "lesson": "Lesson 91 Poor Ian!",
+  "notes": [
+    {
+      "title": "称呼语位置",
+      "text": "Jenny放在句末，用逗号与前面的问句隔开，是直接对珍妮说话的称呼，不参与句子主谓结构；中文习惯把称呼放在句首，翻译时可按中文表达习惯调整。"
+    },
+    {
+      "title": "一般将来时疑问结构",
+      "text": "will作为助动词放在句首构成疑问句，表达对将来发生动作的询问，后面接动词原形see。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析忠实于原句语境，主干、成分功能、分块含义和翻译均可靠；仅需修正 today 词条误带逗号、Jenny 词条误带问号的词表标注问题，避免把标点并入词形。（非逐句人工审核）"
+}

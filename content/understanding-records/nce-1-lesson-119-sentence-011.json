@@ -1,0 +1,143 @@
+{
+  "chinese": "他开了灯，但看不到任何人。",
+  "intent": "叙述George听到动静下楼后的两个先后行动：先打开了房间的灯，开灯之后四下查看却没有发现任何人影，为后续交代盗贼已经逃离做情节铺垫。",
+  "comparison": null,
+  "backbone": {
+    "text": "He turned on the light, but he couldn't see anyone.",
+    "meaning": "他打开了灯，但没有看到任何人。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列复合句的转折衔接",
+      "text": "本句由并列连词but连接两个独立分句，先陈述开灯的动作，再转折说明开灯后的查看结果是没有见到人，两句主语都是he，指代前文出现的George。"
+    },
+    {
+      "title": "短语动词的搭配逻辑",
+      "text": "turned on是固定搭配，表示打开电器类设备，宾语the light（灯）跟在这个短语后面；turn on不能按字面理解成转身打开。"
+    },
+    {
+      "title": "anyone的用法",
+      "text": "anyone用在否定句couldn't see后面，指代“任何人”，和否定语气配合表达“什么人都没看见”的含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He turned on the light",
+      "role": "转折并列句的第一分句",
+      "explanation": "叙述主语He的第一个过去动作：打开电灯。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "连接前后两个语义相反的分句，引出和预期不同的结果。"
+    },
+    {
+      "text": "he couldn't see anyone",
+      "role": "转折并列句的第二分句",
+      "explanation": "叙述开灯后的查看结果：主语he没有看见任何人。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "turned",
+      "meaning": "（turn的过去式，与on搭配构成短语动词）拧动、拨动以接通电源",
+      "pos": "动词",
+      "phonetic": "/tɜːnd/"
+    },
+    {
+      "text": "on",
+      "meaning": "（与turn搭配构成短语）接通（电流、电源）",
+      "pos": "副词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，表特指",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "light,",
+      "meaning": "灯",
+      "pos": "名词",
+      "phonetic": "/laɪt/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "couldn't",
+      "meaning": "不能、无法",
+      "pos": "情态动词",
+      "phonetic": "/ˈkʊdnt/"
+    },
+    {
+      "text": "see",
+      "meaning": "看见",
+      "pos": "动词",
+      "phonetic": "/siː/"
+    },
+    {
+      "text": "anyone.",
+      "meaning": "任何人",
+      "pos": "代词",
+      "phonetic": "/ˈeniwʌn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He turned on the light,",
+      "meaning": "他打开了灯",
+      "relation": "陈述他发出的第一个动作，交代后续查看的前提"
+    },
+    {
+      "text": "but",
+      "meaning": "但",
+      "relation": "转折连词，连接前后相反的情况"
+    },
+    {
+      "text": "he couldn't see anyone.",
+      "meaning": "他看不到任何人",
+      "relation": "说明开灯之后的查看结果，和预期“能看见人”形成转折"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-119",
+  "sentenceId": "nce-1-lesson-119-sentence-011",
+  "sentenceOrder": 11,
+  "english": "He turned on the light, but he couldn't see anyone.",
+  "lesson": "Lesson 119 A true story",
+  "notes": [
+    {
+      "title": "并列复合句的转折衔接",
+      "text": "本句由并列连词but连接两个独立分句，先陈述开灯的动作，再转折说明开灯后的查看结果是没有见到人，两句主语都是he，指代前文出现的George。"
+    },
+    {
+      "title": "短语动词的搭配逻辑",
+      "text": "turned on是固定搭配，表示打开电器类设备，宾语the light（灯）跟在这个短语后面；turn on不能按字面理解成转身打开。"
+    },
+    {
+      "title": "anyone的用法",
+      "text": "anyone用在否定句couldn't see后面，指代“任何人”，和否定语气配合表达“什么人都没看见”的含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅个别释义需要结合搭配逻辑进一步明确，无需修改的字段均保留原样。（非逐句人工审核）"
+}

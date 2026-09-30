@@ -1,0 +1,100 @@
+{
+  "chinese": "我希望这本词典能帮到你。",
+  "intent": "表达说话人希望前文提到的词典能够对听话人起到实际帮助。",
+  "comparison": null,
+  "backbone": {
+    "text": "I hope it'll help you.",
+    "meaning": "我希望这本词典能帮到你。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略that的宾语从句",
+      "text": "hope后面接的内容是希望的具体对象，完整形式为I hope (that) it'll help you，连词that在口语中经常省略，不影响从句主谓结构it'll help you的完整性。"
+    },
+    {
+      "title": "it'll的缩略形式",
+      "text": "it'll是it will的缩写，指代前文刚提到的dictionary（词典），表示将来能够提供帮助的期望，并非已经兑现的帮助动作，无需单独逐字拆解。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主句主语",
+      "explanation": "指说话的人，也就是表达希望的主体。"
+    },
+    {
+      "text": "hope",
+      "role": "主句谓语动词",
+      "explanation": "表达说话人的主观期望，后面跟省略引导词that的宾语从句。"
+    },
+    {
+      "text": "it'll help you",
+      "role": "宾语从句",
+      "explanation": "作hope的宾语，说明期望的具体内容；it是从句主语，指代前文的词典，will help是从句谓语，you是help的宾语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "hope",
+      "meaning": "希望",
+      "pos": "动词",
+      "phonetic": "/həʊp/"
+    },
+    {
+      "text": "it'll",
+      "meaning": "它会",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/ˈɪtl̩/"
+    },
+    {
+      "text": "help",
+      "meaning": "帮助",
+      "pos": "动词",
+      "phonetic": "/help/"
+    },
+    {
+      "text": "you.",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I hope",
+      "meaning": "我希望",
+      "relation": "句子主干，说明说话人的主观态度"
+    },
+    {
+      "text": "it'll help you.",
+      "meaning": "它会帮到你。",
+      "relation": "补充说明hope的具体内容，指词典会为听话人提供帮助"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-105",
+  "sentenceId": "nce-1-lesson-105-sentence-011",
+  "sentenceOrder": 11,
+  "english": "I hope it'll help you.",
+  "lesson": "Lesson 105 Full of mistakes",
+  "notes": [
+    {
+      "title": "省略that的宾语从句",
+      "text": "hope后面接的内容是希望的具体对象，完整形式为I hope (that) it'll help you，连词that在口语中经常省略，不影响从句主谓结构it'll help you的完整性。"
+    },
+    {
+      "title": "it'll的缩略形式",
+      "text": "it'll是it will的缩写，指代前文刚提到的dictionary（词典），表示将来能够提供帮助的期望，并非已经兑现的帮助动作，无需单独逐字拆解。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体标注符合句法语义事实，仅存在可直接修正的细节问题：1）it'll的原音标/ˈɪtl/缺少代表半元音的/j/，英式连读发音应为/ˈɪtl̩/；2）原单词表将you与句末句号绑定在同一分块中，单词分块不应包含标点；3）原翻译“我希望它会帮到你”的指代表达“它”可以结合前文语境明确为“这本词典”，表意更清晰；其余句法分析、成分关系、注释内容均无事实错误。（非逐句人工审核）"
+}

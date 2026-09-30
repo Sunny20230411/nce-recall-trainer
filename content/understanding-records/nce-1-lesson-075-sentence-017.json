@@ -1,0 +1,140 @@
+{
+  "chinese": "它们确实很不舒服。但女人总是穿不舒服的鞋！",
+  "intent": "先肯定鞋子确实穿着难受，再转折感慨：即便如此，女性却总是穿这种不舒服的鞋子。",
+  "comparison": null,
+  "backbone": {
+    "text": "They are uncomfortable. But women always wear uncomfortable shoes!",
+    "meaning": "（鞋子）确实不舒服，但女性却总是穿不舒服的鞋子。"
+  },
+  "structureNotes": [
+    {
+      "title": "两个句子的指代衔接",
+      "text": "前一句的主语They承接上文，指代之前提到的鞋子；第二句用But引出转折，形成“鞋子确实难受—可女性还总穿这种鞋”的对照。"
+    },
+    {
+      "title": "副词very和always的位置",
+      "text": "very放在形容词uncomfortable前面，用来加强程度，表示“非常、确实”。always放在实义动词wear前面，表示动作“总是”发生，不是偶尔一次。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They",
+      "role": "主语",
+      "explanation": "指代上文提到的鞋子。"
+    },
+    {
+      "text": "are very uncomfortable.",
+      "role": "系表结构作谓语",
+      "explanation": "描述主语They的状态，very修饰形容词uncomfortable，加强“不舒服”的程度。"
+    },
+    {
+      "text": "But",
+      "role": "转折连词",
+      "explanation": "连接前后两句，引出与前句预期相反的情况。"
+    },
+    {
+      "text": "women",
+      "role": "主语",
+      "explanation": "指一般的女性群体。"
+    },
+    {
+      "text": "always wear uncomfortable shoes!",
+      "role": "谓语加宾语",
+      "explanation": "always修饰实义动词wear，表示这个动作总是发生；uncomfortable修饰名词shoes，说明鞋子的属性。"
+    }
+  ],
+  "words": [
+    {
+      "text": "They",
+      "meaning": "它们（指代鞋子）",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（系动词，be动词are的现在式）",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常；确实",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "uncomfortable.",
+      "meaning": "不舒服的",
+      "pos": "形容词",
+      "phonetic": "/ʌnˈkʌmftəbl/"
+    },
+    {
+      "text": "But",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "women",
+      "meaning": "女人（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈwɪmɪn/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "wear",
+      "meaning": "穿",
+      "pos": "动词",
+      "phonetic": "/weə(r)/"
+    },
+    {
+      "text": "uncomfortable",
+      "meaning": "不舒服的",
+      "pos": "形容词",
+      "phonetic": "/ʌnˈkʌmftəbl/"
+    },
+    {
+      "text": "shoes!",
+      "meaning": "鞋子（复数）",
+      "pos": "名词",
+      "phonetic": "/ʃuːz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "They are very uncomfortable.",
+      "meaning": "它们非常不舒服。",
+      "relation": "第一句独立成句，承接上文说明鞋子的穿着感受"
+    },
+    {
+      "text": "But women always wear uncomfortable shoes!",
+      "meaning": "但女人总是穿不舒服的鞋！",
+      "relation": "转折关系的独立成句，对前述现象发出感慨，指出女性一直选择穿着这类不舒服的鞋子"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-75",
+  "sentenceId": "nce-1-lesson-075-sentence-017",
+  "sentenceOrder": 17,
+  "english": "They are very uncomfortable. But women always wear uncomfortable shoes!",
+  "lesson": "Lesson 75 Uncomfortable shoes",
+  "notes": [
+    {
+      "title": "两个句子的指代衔接",
+      "text": "前一句的主语They承接上文，指代之前提到的鞋子；第二句用But引出转折，形成“鞋子确实难受—可女性还总穿这种鞋”的对照。"
+    },
+    {
+      "title": "副词very和always的位置",
+      "text": "very放在形容词uncomfortable前面，用来加强程度，表示“非常、确实”。always放在实义动词wear前面，表示动作“总是”发生，不是偶尔一次。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，符合上下文语境，仅存在两处细节问题需要修正：1. 单词切分表中将句号错误归入单词uncomfortable的词条，属于切分错误；2. 第二句的分句关系表述使用“分句”不当，因为该句是独立成句而非从句分句，可调整为转折单句。（非逐句人工审核）"
+}

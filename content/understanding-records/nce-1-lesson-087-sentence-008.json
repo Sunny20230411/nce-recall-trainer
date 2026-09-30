@@ -1,0 +1,221 @@
+{
+  "chinese": "没有，他们还在修。我们到车库里去看看吧。",
+  "intent": "先否定机械师已经完工的提问，说明车辆维修仍在进行，随后提议一同前往车库实地查看维修车辆的情况。",
+  "comparison": {
+    "chinese": "没有，他们还在修。我们到车库里去看看吧。",
+    "english": "No, they're still working on it. Let's go into the garage and have a look at it.",
+    "steps": [
+      {
+        "label": "动词与宾语靠介词衔接",
+        "text": "working on it 没有直译成“在它上面工作”",
+        "explanation": "中文不需要额外介词补全“在修”的含义，英语里work是不及物动词，必须加on才能明确指向it指代的维修对象，on就是把动作和汽车衔接起来的介词。"
+      },
+      {
+        "label": "两个动作并列表达连贯意图",
+        "text": "go into the garage and have a look at it",
+        "explanation": "中文直接把“到车库”和“看看”两个动作连在一起说，英语用and连接两个对等的谓语动作，at把look和查看的对象it衔接起来，逻辑和中文动作顺序完全一致。"
+      }
+    ],
+    "takeaway": "理解时先认出it指代之前提到的维修车辆，两个小句分别承接上一句的一般疑问句作答、再发出同行查看的提议，不需要把短语逐字翻译成生硬的中文。"
+  },
+  "backbone": {
+    "text": "They're still working on it. Let's go into the garage and have a look at it.",
+    "meaning": "机械师们还在修理那辆车，我们一起去车库看看。"
+  },
+  "structureNotes": [
+    {
+      "title": "句中it的指代",
+      "text": "两个分句里的it都指代前文对话提到的正在维修的汽车，没有特指其他物品，理解时要结合前文场景还原指代对象，不需要额外翻译出具体名词。"
+    },
+    {
+      "title": "Let's的用法",
+      "text": "Let's是Let us的缩写形式，后面直接接不带to的动词原形，用来发出包含听话人在内的共同行动提议，是口语中很常见的祈使表达。"
+    },
+    {
+      "title": "and连接并列谓语",
+      "text": "and连接go into the garage和have a look at it两个连贯动作，两个动作同属Let's引导的祈使句谓语，顺序上先进入车库，再查看车辆，符合真实行动的逻辑。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "否定应答标记",
+      "explanation": "用来直接回应上一句一般疑问句 Have your mechanics finished yet?，明确给出否定答复，说明机械师还没有完工。"
+    },
+    {
+      "text": "they're still working on it",
+      "role": "第一分句主句",
+      "explanation": "使用现在进行时描述当前仍在持续的维修状态，still 突出“还未结束”的含义，work on 是固定搭配，意为“修理、处理”，后面接指代维修车辆的 it。"
+    },
+    {
+      "text": "Let's",
+      "role": "祈使句引导语",
+      "explanation": "缩写自 Let us，引出包含听话人在内的共同行动提议，后面搭配并列的两个动词原形构成完整提议句。"
+    },
+    {
+      "text": "go into the garage",
+      "role": "第一并列谓语动作",
+      "explanation": "表示第一步行动：进入车库内部，介词 into 表示从外部进入车库空间的方向。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个先后承接的并列动作，表明进入车库之后紧接着要做查看车辆的事。"
+    },
+    {
+      "text": "have a look at it",
+      "role": "第二并列谓语动作",
+      "explanation": "表示第二步行动：查看那辆正在维修的汽车，have a look 是英语口语中常用的固定表达，相当于 look at，语气更随意自然。"
+    }
+  ],
+  "words": [
+    {
+      "text": "No,",
+      "meaning": "（用于否定回答）不，没有",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "they're",
+      "meaning": "他们是（they are 的缩写）",
+      "pos": "代词+动词缩约形式",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "still",
+      "meaning": "仍然，还",
+      "pos": "副词",
+      "phonetic": "/stɪl/"
+    },
+    {
+      "text": "working",
+      "meaning": "工作；（此处指修理、操作）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈwɜːkɪŋ/"
+    },
+    {
+      "text": "on",
+      "meaning": "（与 work 搭配构成短语，表示修理、处理，后接对象）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "it.",
+      "meaning": "它（指代前文提到的维修车辆）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "Let's",
+      "meaning": "让我们（Let us 的缩写，用于提出共同行动的建议）",
+      "pos": "祈使引导结构（Let us 的缩约形式）",
+      "phonetic": "/lets/"
+    },
+    {
+      "text": "go",
+      "meaning": "去，走",
+      "pos": "动词",
+      "phonetic": "/ɡəʊ/"
+    },
+    {
+      "text": "into",
+      "meaning": "到…里面，进入",
+      "pos": "介词",
+      "phonetic": "/ˈɪntə/"
+    },
+    {
+      "text": "the",
+      "meaning": "该，那个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "garage",
+      "meaning": "车库",
+      "pos": "名词",
+      "phonetic": "/ˈɡærɑːʒ/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且（连接两个并列动作）",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "have",
+      "meaning": "进行，做（与 look 搭配构成固定短语）",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "look",
+      "meaning": "看，瞧（have a look 为固定搭配，表示看一看）",
+      "pos": "名词",
+      "phonetic": "/lʊk/"
+    },
+    {
+      "text": "at",
+      "meaning": "朝，向（与 look 搭配表示看向某对象）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "it.",
+      "meaning": "它（指代正在维修的车辆）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "No,",
+      "relation": "回应上一句关于机械师是否完工的提问，给出否定答复",
+      "meaning": "没有"
+    },
+    {
+      "text": "they're still working on it.",
+      "relation": "承接前面的否定答复，说明当前维修工作仍在持续的状态",
+      "meaning": "他们还在修它"
+    },
+    {
+      "text": "Let's go into the garage",
+      "relation": "提出共同行动的第一步：提议和听话人一同进入车库",
+      "meaning": "我们到车库里去"
+    },
+    {
+      "text": "and have a look at it.",
+      "relation": "承接进入车库的动作，说明进入车库后的紧接着的目的：查看维修的车辆",
+      "meaning": "并且看一看它"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-87",
+  "sentenceId": "nce-1-lesson-087-sentence-008",
+  "sentenceOrder": 8,
+  "english": "No, they're still working on it. Let's go into the garage and have a look at it.",
+  "lesson": "Lesson 87 A car crash",
+  "notes": [
+    {
+      "title": "句中it的指代",
+      "text": "两个分句里的it都指代前文对话提到的正在维修的汽车，没有特指其他物品，理解时要结合前文场景还原指代对象，不需要额外翻译出具体名词。"
+    },
+    {
+      "title": "Let's的用法",
+      "text": "Let's是Let us的缩写形式，后面直接接不带to的动词原形，用来发出包含听话人在内的共同行动提议，是口语中很常见的祈使表达。"
+    },
+    {
+      "title": "and连接并列谓语",
+      "text": "and连接go into the garage和have a look at it两个连贯动作，两个动作同属Let's引导的祈使句谓语，顺序上先进入车库，再查看车辆，符合真实行动的逻辑。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构和主干划分基本正确，it 的指代、并列谓语关系均符合语法逻辑。修正两处不够精确的表述：work on 中 on 的释义仅说明搭配功能未明确指代汽车的语义；have a look 表述为‘更委婉’不准确，实际是口语化固定短语，语气为随意自然。其余内容无需改动。（非逐句人工审核）"
+}

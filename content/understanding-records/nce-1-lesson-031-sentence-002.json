@@ -1,0 +1,100 @@
+{
+  "chinese": "她在花园里，让。",
+  "intent": "回答对方关于某位女性位置的询问，同时礼貌地称呼提问人让",
+  "comparison": null,
+  "backbone": {
+    "text": "She's in the garden, Jean.",
+    "meaning": "名叫让的说话对象被告知，某位女性正处在花园里"
+  },
+  "parts": [
+    {
+      "text": "She's",
+      "relation": "说明主体是谁以及主体的核心状态",
+      "meaning": "她是/她在"
+    },
+    {
+      "text": "in the garden,",
+      "relation": "补充说明主体所在的具体位置",
+      "meaning": "在花园里"
+    },
+    {
+      "text": "Jean.",
+      "relation": "点明这句话的当面称呼对象",
+      "meaning": "让"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "句末称呼",
+      "text": "句末的Jean是当面称呼对方的呼语，和主句的位置描述没有语法绑定，只是明确告诉谁这个位置信息"
+    },
+    {
+      "title": "She's的缩略形式",
+      "text": "这里She's是She is的口语缩略，和后面的in the garden搭配，直接表示“她处在某个地点”的状态，不是表示动作"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She's in the garden",
+      "role": "主句",
+      "explanation": "完整表达核心信息，说明某位女性当下处于花园这个地点"
+    },
+    {
+      "text": "Jean",
+      "role": "呼语",
+      "explanation": "用于当面称呼对话者，提示这条位置信息是专门说给名叫Jean的人听的"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "她在，她是",
+      "pos": "代词+系动词缩略形式",
+      "phonetic": "/ʃiːz/",
+      "text": "She's"
+    },
+    {
+      "meaning": "在…里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这个，定冠词",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "花园",
+      "pos": "名词",
+      "phonetic": "/ˈɡɑːdn/",
+      "text": "garden,"
+    },
+    {
+      "meaning": "让（人名）",
+      "pos": "名词",
+      "phonetic": "/dʒiːn/",
+      "text": "Jean."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-31",
+  "sentenceId": "nce-1-lesson-031-sentence-002",
+  "sentenceOrder": 2,
+  "english": "She's in the garden, Jean.",
+  "lesson": "Lesson 31 Where's Sally?",
+  "notes": [
+    {
+      "title": "句末称呼",
+      "text": "句末的Jean是当面称呼对方的呼语，和主句的位置描述没有语法绑定，只是明确告诉谁这个位置信息"
+    },
+    {
+      "title": "She's的缩略形式",
+      "text": "这里She's是She is的口语缩略，和后面的in the garden搭配，直接表示“她处在某个地点”的状态，不是表示动作"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合要求，仅存在个别细节疏漏，可明确修正（非逐句人工审核）"
+}

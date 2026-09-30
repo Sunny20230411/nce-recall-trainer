@@ -1,0 +1,130 @@
+{
+  "chinese": "索耶太太每天待在家里。",
+  "intent": "陈述索耶太太日常的活动状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "Mrs. Sawyer stays at home.",
+    "meaning": "索耶太太待在家里。"
+  },
+  "structureNotes": [
+    {
+      "title": "一般现在时与频率状语",
+      "text": "every day 表示每日重复，stays 用一般现在时，说明这是日常规律，而非当天偶然发生的一次停留。"
+    },
+    {
+      "title": "at home 短语",
+      "text": "at home 表示在“家”这个地点，不是“朝向家”或“离家”。"
+    },
+    {
+      "title": "时间状语位置",
+      "text": "every day 放在句末，补充该动作发生的频率。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Mrs. Sawyer",
+      "role": "主语",
+      "explanation": "指索耶太太，是“待在家里”的行为发出者。"
+    },
+    {
+      "text": "stays",
+      "role": "谓语",
+      "explanation": "stay 的第三人称单数形式，表示“停留、待在”。"
+    },
+    {
+      "text": "at home",
+      "role": "地点状语",
+      "explanation": "说明主语停留的地点是家。"
+    },
+    {
+      "text": "every day",
+      "role": "时间状语",
+      "explanation": "说明“待在家里”这一动作每日发生。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Mrs.",
+      "meaning": "夫人，太太",
+      "pos": "名词（尊称缩写）",
+      "phonetic": "/ˈmɪsɪz/"
+    },
+    {
+      "text": "Sawyer",
+      "meaning": "索耶（姓氏）",
+      "pos": "名词（姓氏）",
+      "phonetic": "/ˈsɔːjə(r)/"
+    },
+    {
+      "text": "stays",
+      "meaning": "停留，待在",
+      "pos": "动词（第三人称单数现在时）",
+      "phonetic": "/steɪz/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（表示位置）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "home",
+      "meaning": "家",
+      "pos": "名词",
+      "phonetic": "/həʊm/"
+    },
+    {
+      "text": "every",
+      "meaning": "每一个的",
+      "pos": "限定词",
+      "phonetic": "/ˈevri/"
+    },
+    {
+      "text": "day.",
+      "meaning": "天，日子",
+      "pos": "名词",
+      "phonetic": "/deɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Mrs. Sawyer",
+      "relation": "句子主语，是待在家里的人",
+      "meaning": "索耶太太"
+    },
+    {
+      "text": "stays at home",
+      "relation": "说明主语所处的状态和地点",
+      "meaning": "待在家里"
+    },
+    {
+      "text": "every day.",
+      "relation": "补充说明这个日常状态发生的频率",
+      "meaning": "每天。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-55",
+  "sentenceId": "nce-1-lesson-055-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Mrs. Sawyer stays at home every day.",
+  "lesson": "Lesson 55 The Sawyer family",
+  "notes": [
+    {
+      "title": "一般现在时与频率状语",
+      "text": "every day 表示每日重复，stays 用一般现在时，说明这是日常规律，而非当天偶然发生的一次停留。"
+    },
+    {
+      "title": "at home 短语",
+      "text": "at home 表示在“家”这个地点，不是“朝向家”或“离家”。"
+    },
+    {
+      "title": "时间状语位置",
+      "text": "every day 放在句末，补充该动作发生的频率。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合句子语义与语法事实，仅有微小可修正问题：单词day.的音标附带了句号、词性标注中限定词后额外补充了形容词说明，修正后内容更严谨规范。（非逐句人工审核）"
+}

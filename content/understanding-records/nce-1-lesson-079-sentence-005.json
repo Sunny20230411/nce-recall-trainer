@@ -1,0 +1,245 @@
+{
+  "chinese": "我必须去食品杂货店。我们茶和咖啡不多了，也没有糖和果酱了。",
+  "intent": "说明必须前往食品杂货店的原因是家里茶、咖啡、糖、果酱这些食品储备都不足，为列购物清单做铺垫。",
+  "comparison": {
+    "chinese": "英语先说“I must go to the grocer's”，再用and连接两个并列分句解释原因；中文通常把原因放在前面，把“必须去杂货店”放在结果位置。",
+    "english": "I must go to the grocer's. We haven't got much tea or coffee, and we haven't got any sugar or jam.",
+    "steps": [
+      {
+        "label": "先讲行动",
+        "text": "I must go to the grocer's.",
+        "explanation": "第一句直接说出必须做的事，相当于给出购物行动的结论；grocer's后面省略了shop，指食品杂货店。"
+      },
+      {
+        "label": "再补两条库存不足的事实",
+        "text": "We haven't got much tea or coffee, and we haven't got any sugar or jam.",
+        "explanation": "and连接两个并列分句，第一条用much说茶和咖啡存量不多，第二条用any说糖和果酱完全没有。"
+      },
+      {
+        "label": "否定并列用or",
+        "text": "much tea or coffee / any sugar or jam",
+        "explanation": "在否定的have got结构里，并列名词之间用or连接，而不是肯定句里的and，意思是“茶和咖啡都不多”“糖和果酱都没有”。"
+      }
+    ],
+    "takeaway": "英语先点出必须去杂货店，再把两个库存不足的分句并列放在后面作解释；中文表达常把原因前置，把“要去杂货店”作为结果收束。"
+  },
+  "backbone": {
+    "text": "我必须去食品杂货店，因为茶和咖啡不多，糖和果酱也没有了。",
+    "meaning": "为了补充缺少的食品，我必须去食品杂货店采购。"
+  },
+  "structureNotes": [
+    {
+      "title": "grocer's的省略用法",
+      "text": "grocer's是所有格形式，后面省略了名词shop，直接指代“食品杂货店”，属于日常说话中常见的店铺省略表达。"
+    },
+    {
+      "title": "have got表示“有/拥有”",
+      "text": "haven't got是英语口语里表示“没有”的常用说法，相当于don't have；much修饰不可数的tea和coffee，说明存量不多；any用在否定句里，修饰不可数的sugar和jam，表示“一点也没有”。"
+    },
+    {
+      "title": "并列否定结构",
+      "text": "and连接两个并列的否定分句，分句内部的两个并列名词用or连接，分别说明不同食品的储备情况，共同构成要去杂货店采购的理由。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "第一人称单数主格代词，指代发出“去杂货店”这个动作的人。"
+    },
+    {
+      "text": "must go to the grocer's.",
+      "role": "谓语部分",
+      "explanation": "情态动词must后接动词原形go，说明说话人有义务/必须去食品杂货店。"
+    },
+    {
+      "text": "We",
+      "role": "并列分句主语",
+      "explanation": "第一人称复数主格代词，指代说话人所在的家庭/同住群体。"
+    },
+    {
+      "text": "haven't got much tea or coffee,",
+      "role": "第一个并列分句",
+      "explanation": "haven't got表否定拥有，much修饰不可数的茶和咖啡，说明这两样东西的存量不多。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个表库存不足的否定分句，前后都是解释为什么要去杂货店的原因。"
+    },
+    {
+      "text": "we haven't got any sugar or jam.",
+      "role": "第二个并列分句",
+      "explanation": "同样用haven't got表否定拥有，any用在否定句中，说明糖和果酱完全没有存量。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "must",
+      "meaning": "必须",
+      "pos": "情态动词",
+      "phonetic": "/mʌst/"
+    },
+    {
+      "text": "go",
+      "meaning": "去",
+      "pos": "动词",
+      "phonetic": "/ɡəʊ/"
+    },
+    {
+      "text": "to",
+      "meaning": "到、向",
+      "pos": "介词",
+      "phonetic": "/tu:; tə/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，指代特定的店铺）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "grocer's.",
+      "meaning": "食品杂货店（省略了shop）",
+      "pos": "名词所有格",
+      "phonetic": "/ˈɡrəʊsəz/"
+    },
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wi:/"
+    },
+    {
+      "text": "haven't",
+      "meaning": "没有（have not的缩写）",
+      "pos": "have的否定缩略形式",
+      "phonetic": "/ˈhævnt/"
+    },
+    {
+      "text": "got",
+      "meaning": "有、拥有",
+      "pos": "动词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "much",
+      "meaning": "许多的（修饰不可数名词）",
+      "pos": "形容词",
+      "phonetic": "/mʌtʃ/"
+    },
+    {
+      "text": "tea",
+      "meaning": "茶",
+      "pos": "名词",
+      "phonetic": "/ti:/"
+    },
+    {
+      "text": "or",
+      "meaning": "和（用于否定句的并列）",
+      "pos": "连词",
+      "phonetic": "/ɔ:(r)/"
+    },
+    {
+      "text": "coffee,",
+      "meaning": "咖啡",
+      "pos": "名词",
+      "phonetic": "/ˈkɒfi/"
+    },
+    {
+      "text": "and",
+      "meaning": "和（连接两个并列分句）",
+      "pos": "连词",
+      "phonetic": "/ænd; ən/"
+    },
+    {
+      "text": "we",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wi:/"
+    },
+    {
+      "text": "haven't",
+      "meaning": "没有（have not的缩写）",
+      "pos": "have的否定缩略形式",
+      "phonetic": "/ˈhævnt/"
+    },
+    {
+      "text": "got",
+      "meaning": "有、拥有",
+      "pos": "动词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "any",
+      "meaning": "任何的（用于否定句）",
+      "pos": "形容词",
+      "phonetic": "/ˈeni/"
+    },
+    {
+      "text": "sugar",
+      "meaning": "糖",
+      "pos": "名词",
+      "phonetic": "/ˈʃʊɡə(r)/"
+    },
+    {
+      "text": "or",
+      "meaning": "和（用于否定句的并列）",
+      "pos": "连词",
+      "phonetic": "/ɔ:(r)/"
+    },
+    {
+      "text": "jam.",
+      "meaning": "果酱",
+      "pos": "名词",
+      "phonetic": "/dʒæm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I must go to the grocer's.",
+      "relation": "主句，给出必须执行的购物行动结论。",
+      "meaning": "我必须去食品杂货店。"
+    },
+    {
+      "text": "We haven't got much tea or coffee,",
+      "relation": "并列分句一，说明去杂货店的第一个原因：茶和咖啡存量不足。",
+      "meaning": "我们的茶和咖啡都不多了。"
+    },
+    {
+      "text": "and we haven't got any sugar or jam.",
+      "relation": "并列分句二，用and和前一个原因连接，说明糖和果酱完全没有储备。",
+      "meaning": "而且我们一点糖和果酱都没有了。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-79",
+  "sentenceId": "nce-1-lesson-079-sentence-005",
+  "sentenceOrder": 5,
+  "english": "I must go to the grocer's. We haven't got much tea or coffee, and we haven't got any sugar or jam.",
+  "lesson": "Lesson 79 Carol's shopping list",
+  "notes": [
+    {
+      "title": "grocer's的省略用法",
+      "text": "grocer's是所有格形式，后面省略了名词shop，直接指代“食品杂货店”，属于日常说话中常见的店铺省略表达。"
+    },
+    {
+      "title": "have got表示“有/拥有”",
+      "text": "haven't got是英语口语里表示“没有”的常用说法，相当于don't have；much修饰不可数的tea和coffee，说明存量不多；any用在否定句里，修饰不可数的sugar和jam，表示“一点也没有”。"
+    },
+    {
+      "title": "并列否定结构",
+      "text": "and连接两个并列的否定分句，分句内部的两个并列名词用or连接，分别说明不同食品的储备情况，共同构成要去杂货店采购的理由。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合原文语义与场景表达习惯，核心内容准确。存在两类不影响整体理解的小问题需要修正：1. words数组中连词and的音标存在笔误，漏写了左斜杠，拼写不规范；2. 三处标注为“助动词（缩写）”的haven't词性标注不精准，haven't是have not的缩写形式，属于现在完成时中have的否定缩略形式，而非助动词缩写，需修正标注。其余内容包括语法结构、词义、翻译、比较说明等均无错误。（非逐句人工审核）"
+}

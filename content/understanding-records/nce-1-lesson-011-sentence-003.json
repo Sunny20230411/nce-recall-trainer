@@ -1,0 +1,101 @@
+{
+  "chinese": "不是，先生。这不是我的衬衫。",
+  "intent": "针对对方的提问给出明确否定答复，同时礼貌称呼对方，澄清当前所指的衬衫不属于自己。",
+  "comparison": null,
+  "backbone": {
+    "text": "No, sir. It's not my shirt.",
+    "meaning": "礼貌向对方表示否定，明确说明这件衬衫不归我所有。"
+  },
+  "parts": [
+    {
+      "text": "No, sir.",
+      "relation": "对问话人表达礼貌回应",
+      "meaning": "先给出否定答复，再礼貌称呼对方"
+    },
+    {
+      "text": "It's not my shirt.",
+      "relation": "补充解释否定的具体内容",
+      "meaning": "说明当前所指的物品不属于我"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "指代明确",
+      "text": "句中的It直接指代上文提问里的那件衬衫，无需额外重复完整名词，指代关系一眼就能看懂。"
+    },
+    {
+      "title": "否定表达",
+      "text": "It's not 是It is not的常用口语缩略形式，把否定词not放在be动词后面，直接对所属关系进行否定。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No, sir.",
+      "role": "独立礼貌否定应答语",
+      "explanation": "用于口语场景里快速给出否定答复，同时称呼对方表示尊重，是日常对话里的常用礼貌开头。"
+    },
+    {
+      "text": "It's not my shirt",
+      "role": "否定陈述句主干",
+      "explanation": "用代词It指代上文提到的衬衫，通过be动词加否定词，清晰说明该物品的所属人不是说话者。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "不；不是",
+      "pos": "interjection",
+      "phonetic": "/nəʊ/",
+      "text": "No,"
+    },
+    {
+      "meaning": "先生",
+      "pos": "noun",
+      "phonetic": "/sɜː(r)/",
+      "text": "sir."
+    },
+    {
+      "meaning": "它是",
+      "pos": "contraction",
+      "phonetic": "/ɪts/",
+      "text": "It's"
+    },
+    {
+      "meaning": "不；没有",
+      "pos": "adverb",
+      "phonetic": "/nɒt/",
+      "text": "not"
+    },
+    {
+      "meaning": "我的",
+      "pos": "possessive determiner",
+      "phonetic": "/maɪ/",
+      "text": "my"
+    },
+    {
+      "meaning": "衬衫",
+      "pos": "noun",
+      "phonetic": "/ʃɜːt/",
+      "text": "shirt."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-11",
+  "sentenceId": "nce-1-lesson-011-sentence-003",
+  "sentenceOrder": 3,
+  "english": "No, sir. It's not my shirt.",
+  "lesson": "Lesson 11 Is this your shirt?",
+  "notes": [
+    {
+      "title": "指代明确",
+      "text": "句中的It直接指代上文提问里的那件衬衫，无需额外重复完整名词，指代关系一眼就能看懂。"
+    },
+    {
+      "title": "否定表达",
+      "text": "It's not 是It is not的常用口语缩略形式，把否定词not放在be动词后面，直接对所属关系进行否定。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析整体符合教学要求，仅comparison字段为空，补充对应面向中文学习者的组织说明即可，其余内容未发现核心错误（非逐句人工审核）"
+}

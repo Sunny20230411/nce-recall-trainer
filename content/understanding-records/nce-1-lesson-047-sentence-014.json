@@ -1,0 +1,53 @@
+{
+  "chinese": "喜欢。",
+  "intent": "作为对前文一般疑问句的肯定简短回答，回应对方“你喜欢饼干吗”的提问，表达自己认可、喜爱饼干的态度。",
+  "comparison": null,
+  "backbone": {
+    "text": "Yes.",
+    "meaning": "（结合前文提问语境）是的，我喜欢饼干。"
+  },
+  "structureNotes": [
+    {
+      "title": "简短肯定回应的语境适配",
+      "text": "Yes. 是针对前文“Do you like biscuits?”的省略式肯定回答，完整意思等价于“Yes, I do (like biscuits).”，根据上下文补全含义即可，不必纠结单句的字面翻译。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes.",
+      "role": "肯定答语",
+      "explanation": "用于直接回应前文的一般疑问句，直接给出肯定判断。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（用于答语）是，是的",
+      "pos": "感叹词，也常作应答副词",
+      "phonetic": "/jes/",
+      "text": "Yes."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes.",
+      "meaning": "（结合上文）是的（我喜欢饼干）。",
+      "relation": "作为对前文“Do you like biscuits?”这一一般疑问句的肯定省略答语，承接前文语境给出肯定判断"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-47",
+  "sentenceId": "nce-1-lesson-047-sentence-014",
+  "sentenceOrder": 14,
+  "english": "Yes.",
+  "lesson": "Lesson 47 A cup of coffee",
+  "notes": [
+    {
+      "title": "简短肯定回应的语境适配",
+      "text": "Yes. 是针对前文“Do you like biscuits?”的省略式肯定回答，完整意思等价于“Yes, I do (like biscuits).”，根据上下文补全含义即可，不必纠结单句的字面翻译。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合短句语境解析要求，无根本性错误；两处可优化点为：一是Yes作为省略答语的完整展开说明不够明确，二是单词的词性标注误将感叹词归为副词类别，符合可明确修正的优化范围。（非逐句人工审核）"
+}

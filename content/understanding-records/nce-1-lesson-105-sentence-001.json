@@ -1,0 +1,139 @@
+{
+  "chinese": "鲍勃，桑德拉在哪里？我要找她。",
+  "intent": "询问人物所在位置，并说明自己想找到这个人。",
+  "comparison": null,
+  "backbone": {
+    "text": "Where's Sandra? I want her.",
+    "meaning": "询问桑德拉在哪里，并表明自己要找她。"
+  },
+  "structureNotes": [
+    {
+      "title": "称呼语的位置",
+      "text": "人名 Bob 放在问句末尾，用逗号与前面的问题隔开，汉语常把称呼语放在句首。"
+    },
+    {
+      "title": "Where's 的构成",
+      "text": "Where's 是 Where is 的缩写，Where 是地点疑问副词作状语，is 为连系动词，Sandra 是句子主语。"
+    },
+    {
+      "title": "I want her 的含义",
+      "text": "动词 want 后用宾格 her，在找人事宜的语境中表示“要找她”，并非“想要她”的其他含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Where's",
+      "role": "疑问引导成分",
+      "explanation": "Where 是地点疑问副词作状语，'s 是 is 的缩写，和主语 Sandra 构成疑问语序下的连系动词部分，用来询问地点。"
+    },
+    {
+      "text": "Sandra",
+      "role": "主语",
+      "explanation": "人名 Sandra 是被询问位置的对象，在问句中作主语。"
+    },
+    {
+      "text": "Bob",
+      "role": "称呼语",
+      "explanation": "呼语，标明这句话是对鲍勃说的，用逗号与主句隔开。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "代词 I 是后一句动作的发出者。"
+    },
+    {
+      "text": "want",
+      "role": "谓语动词",
+      "explanation": "及物动词 want，在找人事宜的语境中表示“想要（和某人见面、谈话）”。"
+    },
+    {
+      "text": "her",
+      "role": "宾语",
+      "explanation": "宾格代词 her 作 want 的宾语，指代 Sandra。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Where's",
+      "meaning": "在哪里（Where is 的缩写）",
+      "pos": "疑问副词+缩写连系动词",
+      "phonetic": "/weəz/"
+    },
+    {
+      "text": "Sandra,",
+      "meaning": "桑德拉（人名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈsændrə/"
+    },
+    {
+      "text": "Bob?",
+      "meaning": "鲍勃（人名）",
+      "pos": "专有名词",
+      "phonetic": "/bɒb/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词主格",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要；需要（找某人时指希望见到或联系对方）",
+      "pos": "及物动词",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "her.",
+      "meaning": "她（宾格）",
+      "pos": "代词宾格",
+      "phonetic": "/hɜː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Where's Sandra,",
+      "meaning": "桑德拉在哪里",
+      "relation": "询问核心内容"
+    },
+    {
+      "text": "Bob?",
+      "meaning": "鲍勃？",
+      "relation": "点明说话对象"
+    },
+    {
+      "text": "I want",
+      "meaning": "我要（找）",
+      "relation": "说明自己的意愿"
+    },
+    {
+      "text": "her.",
+      "meaning": "她。",
+      "relation": "补充意愿的对象是桑德拉。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-105",
+  "sentenceId": "nce-1-lesson-105-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Where's Sandra, Bob? I want her.",
+  "lesson": "Lesson 105 Full of mistakes",
+  "notes": [
+    {
+      "title": "称呼语的位置",
+      "text": "人名 Bob 放在问句末尾，用逗号与前面的问题隔开，汉语常把称呼语放在句首。"
+    },
+    {
+      "title": "Where's 的构成",
+      "text": "Where's 是 Where is 的缩写，Where 是地点疑问副词作状语，is 为连系动词，Sandra 是句子主语。"
+    },
+    {
+      "title": "I want her 的含义",
+      "text": "动词 want 后用宾格 her，在找人事宜的语境中表示“要找她”，并非“想要她”的其他含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：本句内容整体准确，仅存在可明确修正的细节问题：I want her 的语境释义过于宽泛，未贴合课文中找人事宜的沟通语境，补全释义后能避免语义偏差；疑问句结构说明中未明确指出 Where 是状语而非主语，补充后可清晰区分疑问句中各成分的语法角色。其余翻译、主干、成分标注、词性音标、意群分块均符合规范，无事实错误。（非逐句人工审核）"
+}

@@ -1,0 +1,61 @@
+{
+  "chinese": "什么事？",
+  "intent": "回应旁人的呼唤，询问对方找自己有什么事。",
+  "comparison": null,
+  "backbone": {
+    "text": "Yes?",
+    "meaning": "听到有人喊自己的名字，开口应答并询问对方有什么事。"
+  },
+  "structureNotes": [
+    {
+      "title": "升调的Yes?表示应答式询问",
+      "text": "Yes本来是表示肯定的词，但带上疑问语调读成Yes?时，就成了听到呼唤后的应答，潜台词是“我在这儿，你有什么事？”，不是表示同意。"
+    },
+    {
+      "title": "对应前文呼唤的日常口语应答",
+      "text": "前一句旁人喊“Tom!”，Tom 用升调“Yes?”回应，是英语日常场景中被叫名字后的自然应答，并非完整主谓句，自带“请说明来意”的暗示。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes?",
+      "role": "应答感叹语",
+      "explanation": "用于听到他人呼唤后作出回应，同时表达“有什么事”的询问意味，本身不是完整主谓句。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes?",
+      "meaning": "（升调）我在？什么事？",
+      "pos": "感叹词",
+      "phonetic": "/jes/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes?",
+      "meaning": "（升调）什么事？",
+      "relation": "对上一句呼唤“Tom!”的应答，附带询问来意的意味。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-81",
+  "sentenceId": "nce-1-lesson-081-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Yes?",
+  "lesson": "Lesson 81 Roast beef and potatoes",
+  "notes": [
+    {
+      "title": "升调的Yes?表示应答式询问",
+      "text": "Yes本来是表示肯定的词，但带上疑问语调读成Yes?时，就成了听到呼唤后的应答，潜台词是“我在这儿，你有什么事？”，不是表示同意。"
+    },
+    {
+      "title": "对应前文呼唤的日常口语应答",
+      "text": "前一句旁人喊“Tom!”，Tom 用升调“Yes?”回应，是英语日常场景中被叫名字后的自然应答，并非完整主谓句，自带“请说明来意”的暗示。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体可直接用于成年人静态学习，原解析已正确指出升调 Yes? 是听到呼唤后的应答式询问，并非表示同意，无事实性错误或强语法断言。仅需补充语用场景细节，明确这一方应答是对上一句呼唤“Tom!”的回应。（非逐句人工审核）"
+}

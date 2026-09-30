@@ -1,0 +1,200 @@
+{
+  "chinese": "啊，是的。就是那个在澳大利亚给你提供工作机会的人。",
+  "intent": "回应对方的提示，确认自己记起了之前提到过的、曾在澳大利亚为对方提供工作机会的那位男士，补充明确“提供工作”这个动作发生在澳大利亚的语境。",
+  "comparison": {
+    "chinese": "中文可以用一个嵌套的定语把修饰信息全部放在被修饰的“那个人”前面，直接说“就是那个在澳大利亚给你提供工作机会的人”；而英文习惯先以the one给出被指代的核心对象，再用who引导的后置从句补充这位男士的相关经历，地点状语放在句末修饰提供工作的动作。",
+    "english": "The one who offered you a job in Australia.",
+    "steps": [
+      {
+        "label": "先锁定指代核心",
+        "text": "The one",
+        "explanation": "one在这里是代词，指代前文提到过的那位男士，相当于汉语里用来指代人、事的“那个（人/东西）”，避免重复使用the man。"
+      },
+      {
+        "label": "再接后置修饰信息",
+        "text": "who offered you a job",
+        "explanation": "who是关系代词，指代先行词the one，同时在从句中充当主语；整个从句放在the one的后面，用来明确这位男士的特征：他曾给你提供工作机会。"
+      },
+      {
+        "label": "in Australia的修饰范围",
+        "text": "in Australia",
+        "explanation": "介词短语放在句尾，说明“提供工作”这个动作发生在澳大利亚，即对方是在当地得到的求职机会。"
+      }
+    ],
+    "takeaway": "英语常把被修饰的核心名词放在前面，再用who/which引导的从句放在名词之后补充细节；中文则习惯把这类修饰语放在被修饰的名词之前，形成“[修饰语]+的+中心名词”的语序，地点状语通常放在动作前面，而非名词修饰语中。"
+  },
+  "backbone": {
+    "text": "The one who offered you a job.",
+    "meaning": "曾给你提供工作机会的那个人。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略句的日常用法",
+      "text": "结合前文，完整表达应为That is the one who offered you a job in Australia.，在口语中省略重复的主语That和be动词is，直接用“The one who...”指认，符合日常对话快速反应的特点。"
+    },
+    {
+      "title": "who引导的定语从句",
+      "text": "who在从句中作主语，不可省略；由于先行词the one指代人，因此使用who引导限制性定语从句限定这位男士的身份特征。"
+    },
+    {
+      "title": "双宾语结构与地点状语",
+      "text": "offer后面接双宾语you（间接宾语，指向对象）和a job（直接宾语，指提供的事物）；in Australia作为地点状语，修饰从句谓语offered，说明提供工作这件事发生在澳大利亚。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Ah yes.",
+      "role": "感叹应答语",
+      "explanation": "用简短的语气词+肯定词，表达恍然想起之前提到的人的反应。"
+    },
+    {
+      "text": "The one",
+      "role": "先行词（被定语从句修饰的核心）",
+      "explanation": "指代前文提到的那位男士，是定语从句所修饰的对象，关系代词who将代替它在从句中作主语。"
+    },
+    {
+      "text": "who offered you a job in Australia.",
+      "role": "限制性定语从句",
+      "explanation": "紧跟在the one后面，限定说明这就是那位曾在澳大利亚给你提供工作机会的人，明确指认对象。"
+    },
+    {
+      "text": "who",
+      "role": "关系代词（从句主语）",
+      "explanation": "指代先行词the one，同时在定语从句中充当主语，连接先行词和定语从句。"
+    },
+    {
+      "text": "offered",
+      "role": "从句谓语动词",
+      "explanation": "用一般过去时，表示“提供工作”这个动作是过去发生的事情。"
+    },
+    {
+      "text": "you",
+      "role": "间接宾语",
+      "explanation": "是offer动作的指向对象，即“提供”这个动作是对“你”做出的。"
+    },
+    {
+      "text": "a job",
+      "role": "直接宾语",
+      "explanation": "是offer动作的直接内容，也就是被提供的事物“一份工作”。"
+    },
+    {
+      "text": "in Australia.",
+      "role": "地点状语",
+      "explanation": "修饰从句谓语动词offered，说明“提供工作”这个动作发生在澳大利亚。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Ah",
+      "meaning": "啊（表示恍然想起的语气词）",
+      "pos": "感叹词",
+      "phonetic": "ɑː"
+    },
+    {
+      "text": "yes.",
+      "meaning": "是，对（表示肯定回应）",
+      "pos": "感叹词",
+      "phonetic": "jes"
+    },
+    {
+      "text": "The",
+      "meaning": "（定冠词，特指上下文提到的人）",
+      "pos": "冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "one",
+      "meaning": "（代词，指代前面提到的同类可数名词，此处指人）那个人",
+      "pos": "代词",
+      "phonetic": "wʌn"
+    },
+    {
+      "text": "who",
+      "meaning": "（关系代词，指代人，在从句中作主语）",
+      "pos": "关系代词",
+      "phonetic": "huː"
+    },
+    {
+      "text": "offered",
+      "meaning": "（过去式）给予，提供",
+      "pos": "动词",
+      "phonetic": "ˈɒfəd"
+    },
+    {
+      "text": "you",
+      "meaning": "你，你们（第二人称宾格）",
+      "pos": "代词",
+      "phonetic": "juː"
+    },
+    {
+      "text": "a",
+      "meaning": "（不定冠词，表泛指）一份",
+      "pos": "冠词",
+      "phonetic": "ə"
+    },
+    {
+      "text": "job",
+      "meaning": "工作，职位",
+      "pos": "名词",
+      "phonetic": "dʒɒb"
+    },
+    {
+      "text": "in",
+      "meaning": "在（地点）",
+      "pos": "介词",
+      "phonetic": "ɪn"
+    },
+    {
+      "text": "Australia.",
+      "meaning": "澳大利亚",
+      "pos": "专有名词",
+      "phonetic": "ɒˈstreɪliə"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Ah yes.",
+      "meaning": "啊，是的。",
+      "relation": "应答提示，表达自己终于记起了对方说的内容。"
+    },
+    {
+      "text": "The one",
+      "meaning": "那个（人）",
+      "relation": "指代前文提到的男士，是定语从句要修饰的核心对象。"
+    },
+    {
+      "text": "who offered you a job",
+      "meaning": "给你提供一份工作机会的",
+      "relation": "修饰核心对象the one，说明这位男士曾经做出的相关行为。"
+    },
+    {
+      "text": "in Australia.",
+      "meaning": "（这个动作发生）在澳大利亚。",
+      "relation": "补充说明“提供工作”这个动作发生的地点，即对方是在澳大利亚收到的求职邀约。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-123",
+  "sentenceId": "nce-1-lesson-123-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Ah yes. The one who offered you a job in Australia.",
+  "lesson": "Lesson 123 A trip to Australia",
+  "notes": [
+    {
+      "title": "省略句的日常用法",
+      "text": "结合前文，完整表达应为That is the one who offered you a job in Australia.，在口语中省略重复的主语That和be动词is，直接用“The one who...”指认，符合日常对话快速反应的特点。"
+    },
+    {
+      "title": "who引导的定语从句",
+      "text": "who在从句中作主语，不可省略；由于先行词the one指代人，因此使用who引导限制性定语从句限定这位男士的身份特征。"
+    },
+    {
+      "title": "双宾语结构与地点状语",
+      "text": "offer后面接双宾语you（间接宾语，指向对象）和a job（直接宾语，指提供的事物）；in Australia作为地点状语，修饰从句谓语offered，说明提供工作这件事发生在澳大利亚。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原主干遗漏关系代词who，会让先行词The one直接承担从句谓语；结构注和结构分块对省略补全、who的从句成分和in Australia修饰范围的解释存在语法矛盾，英式音标也有两处未转写。已按对话语境和语法关系修正。（非逐句人工审核）"
+}

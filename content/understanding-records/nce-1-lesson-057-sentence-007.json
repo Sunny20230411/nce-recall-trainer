@@ -1,0 +1,234 @@
+{
+  "chinese": "晚上，孩子们通常做作业，但今天晚上他们没有在做作业。",
+  "intent": "通过but连接两个并列分句，对比日常傍晚孩子们写作业的常规状态，和今天傍晚当下他们正在做的反常状态，引出今日这一天与众不同的特殊点。",
+  "comparison": {
+    "chinese": "孩子们通常做作业，但今晚没有在做作业。",
+    "english": "The children usually do their homework, but this evening they are not doing their homework.",
+    "steps": [
+      {
+        "label": "常规行为",
+        "text": "the children usually do their homework",
+        "explanation": "一般现在时搭配频率副词usually，描述长期重复的日常习惯。"
+      },
+      {
+        "label": "转折提示",
+        "text": "but this evening",
+        "explanation": "并列转折连词but连接两个独立分句，时间状语this evening切换到当天晚上，形成时间上的对比。"
+      },
+      {
+        "label": "当下反常状态",
+        "text": "they are not doing their homework",
+        "explanation": "现在进行时的否定形式，描述当前时刻正在发生的与日常相反的实际行为。"
+      }
+    ],
+    "takeaway": "一般现在时表长期习惯，现在进行时表当前正在发生的动作，but连接两种相反状态，凸显当天晚上的反常之处。"
+  },
+  "backbone": {
+    "text": "the children usually do their homework, but they are not doing their homework.",
+    "meaning": "孩子们通常做作业，但此刻他们没有在做作业。"
+  },
+  "structureNotes": [
+    {
+      "title": "时态对应状态差异",
+      "text": "前一分句用一般现在时do，搭配频率副词usually表示长期重复的日常习惯；后一分句用现在进行时的否定式are not doing，指当下正在发生的实际情况，this evening点明对比的时间范围。"
+    },
+    {
+      "title": "并列连词but的表意",
+      "text": "but直接连接两个主谓完整的独立分句，不需要额外引导词，分句间是转折对比关系，用来凸显当天晚上的反常之处。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "In the evening",
+      "role": "时间状语",
+      "explanation": "交代前一分句描述的常规行为发生的时间范围，泛指平常的傍晚时段。"
+    },
+    {
+      "text": "the children",
+      "role": "前一分句主语",
+      "explanation": "指代做日常作业的主体孩子们。"
+    },
+    {
+      "text": "usually",
+      "role": "频率状语",
+      "explanation": "说明do their homework是孩子们平常反复出现的习惯性动作。"
+    },
+    {
+      "text": "do their homework",
+      "role": "前一分句谓语及宾语",
+      "explanation": "用一般现在时表达日常惯例行为。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "连接前后两个语义相反的独立分句，形成日常惯例与当下实际行为的对比。"
+    },
+    {
+      "text": "this evening",
+      "role": "时间状语",
+      "explanation": "限定后一分句描述的反常行为发生在当天晚上。"
+    },
+    {
+      "text": "they",
+      "role": "后一分句主语",
+      "explanation": "指代前文提到的the children，避免重复。"
+    },
+    {
+      "text": "are not doing their homework",
+      "role": "后一分句谓语及宾语",
+      "explanation": "现在进行时的否定形式，表达此刻当下并未在写作业的实际状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "In",
+      "meaning": "在……期间",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（表示时段的定冠词，无实义）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "evening,",
+      "meaning": "晚上，傍晚",
+      "pos": "名词",
+      "phonetic": "/ˈiːvnɪŋ/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指这群孩子的定冠词，无实义）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "children",
+      "meaning": "孩子们",
+      "pos": "名词（child的复数）",
+      "phonetic": "/ˈtʃɪldrən/"
+    },
+    {
+      "text": "usually",
+      "meaning": "通常，平常",
+      "pos": "副词",
+      "phonetic": "/ˈjuːʒuəli/"
+    },
+    {
+      "text": "do",
+      "meaning": "做",
+      "pos": "动词（一般现在时形式）",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "their",
+      "meaning": "他们的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "homework,",
+      "meaning": "作业",
+      "pos": "名词",
+      "phonetic": "/ˈhəʊmwɜːk/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是，然而",
+      "pos": "并列转折连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "this",
+      "meaning": "这个，当前的",
+      "pos": "指示限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "evening,",
+      "meaning": "晚上，傍晚",
+      "pos": "名词",
+      "phonetic": "/ˈiːvnɪŋ/"
+    },
+    {
+      "text": "they",
+      "meaning": "他们（主格，指代孩子们）",
+      "pos": "人称代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（现在进行时助动词，与they搭配用are）",
+      "pos": "动词be（现在时形式）",
+      "phonetic": "/ɑː/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有（构成现在进行时否定）",
+      "pos": "否定副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "doing",
+      "meaning": "做（现在分词形式，与are构成现在进行时）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈduːɪŋ/"
+    },
+    {
+      "text": "their",
+      "meaning": "他们的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "homework.",
+      "meaning": "作业",
+      "pos": "名词",
+      "phonetic": "/ˈhəʊmwɜːk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "In the evening,",
+      "meaning": "在晚上（泛指日常傍晚时段）",
+      "relation": "说明前半句常规行为发生的时间"
+    },
+    {
+      "text": "the children usually do their homework,",
+      "meaning": "孩子们通常做作业",
+      "relation": "陈述日常傍晚的固定习惯"
+    },
+    {
+      "text": "but this evening,",
+      "meaning": "但今天晚上",
+      "relation": "转折提示，切换到当天晚上的特殊时间点"
+    },
+    {
+      "text": "they are not doing their homework.",
+      "meaning": "他们没有在做作业",
+      "relation": "描述今天晚上正在发生的、与常规相反的实际状态"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-57",
+  "sentenceId": "nce-1-lesson-057-sentence-007",
+  "sentenceOrder": 7,
+  "english": "In the evening, the children usually do their homework, but this evening, they are not doing their homework.",
+  "lesson": "Lesson 57 An unusual day",
+  "notes": [
+    {
+      "title": "时态对应状态差异",
+      "text": "前一分句用一般现在时do，搭配频率副词usually表示长期重复的日常习惯；后一分句用现在进行时的否定式are not doing，指当下正在发生的实际情况，this evening点明对比的时间范围。"
+    },
+    {
+      "title": "并列连词but的表意",
+      "text": "but直接连接两个主谓完整的独立分句，不需要额外引导词，分句间是转折对比关系，用来凸显当天晚上的反常之处。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合原文语义，时态、并列连词but的用法、时间状语的释义、指代关系都准确，主干提取保留了核心转折对比的句式逻辑，无关键错误。仅两处细节需要修正：1. 单词this的词性标注为指示形容词不够准确，应归为指示限定词；2. 句子中文翻译未明确体现后半句现在进行时的正在进行含义，表述模糊。（非逐句人工审核）"
+}

@@ -1,0 +1,134 @@
+{
+  "chinese": "她说她不打算再拍电影了。",
+  "intent": "引述卡伦·马什表达自己不再拍摄新电影的打算，承接上一句刚拍完新电影的信息，引出后续退休的计划。",
+  "comparison": null,
+  "backbone": {
+    "text": "She said she was not going to make another.",
+    "meaning": "她表明了自己不会再拍摄新电影的打算。"
+  },
+  "structureNotes": [
+    {
+      "title": "宾语从句的过去将来时态呼应",
+      "text": "主句谓语said是过去式，从句原本的is not going to需要按照时态呼应规则变为was not going to，站在她过去说话的时间点描述她当时的未来打算，对应中文里她“当时不打算”再拍新片的意思。"
+    },
+    {
+      "title": "代词another的指代",
+      "text": "句尾的another是代词，承接上文提到的a new film，完整含义是another new film，避免重复“新电影”这一概念，直接对应中文里“再拍（一部电影）”的表达。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "主句主语",
+      "explanation": "指代说话的Karen Marsh，是主句动作的发出者。"
+    },
+    {
+      "text": "said",
+      "role": "主句谓语",
+      "explanation": "表示主句动作“说”，引出她当时表述的具体内容。"
+    },
+    {
+      "text": "she was not going to make another.",
+      "role": "宾语从句",
+      "explanation": "作said的宾语，内容是她表达的不打算再拍新电影的计划；从句使用过去将来时was not going to，和主句过去式said保持时态呼应。"
+    },
+    {
+      "text": "was not going to make",
+      "role": "从句谓语",
+      "explanation": "过去将来时的否定形式，表示她当时没有做某事的计划。"
+    },
+    {
+      "text": "another",
+      "role": "从句宾语",
+      "explanation": "代词，指代另一部新电影，承接上文提到的刚拍完的新电影。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她（主格）",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "said",
+      "meaning": "说（say的过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "she",
+      "meaning": "她（主格）",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "be动词am/is/are的过去式（此处与going to搭配）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "going",
+      "meaning": "去，（与be to搭配表打算）",
+      "pos": "动词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（引出后续动词，与be going to搭配表将来）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː; tə/"
+    },
+    {
+      "text": "make",
+      "meaning": "拍摄，制作",
+      "pos": "动词",
+      "phonetic": "/meɪk/"
+    },
+    {
+      "text": "another.",
+      "meaning": "另一部（新电影）",
+      "pos": "代词",
+      "phonetic": "/əˈnʌðə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She said",
+      "relation": "主句，引出人物的表述内容",
+      "meaning": "她说"
+    },
+    {
+      "text": "she was not going to make another.",
+      "relation": "作said的宾语，是她具体表述的内容，说明她没有再拍摄新电影的计划",
+      "meaning": "她不打算再拍（一部电影）了。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-133",
+  "sentenceId": "nce-1-lesson-133-sentence-014",
+  "sentenceOrder": 14,
+  "english": "She said she was not going to make another.",
+  "lesson": "Lesson 133 Sensational news!",
+  "notes": [
+    {
+      "title": "宾语从句的过去将来时态呼应",
+      "text": "主句谓语said是过去式，从句原本的is not going to需要按照时态呼应规则变为was not going to，站在她过去说话的时间点描述她当时的未来打算，对应中文里她“当时不打算”再拍新片的意思。"
+    },
+    {
+      "title": "代词another的指代",
+      "text": "句尾的another是代词，承接上文提到的a new film，完整含义是another new film，避免重复“新电影”这一概念，直接对应中文里“再拍（一部电影）”的表达。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅存在一处轻微排版问题：words数组中another的条目text误附带了句尾句号，需要修正。（非逐句人工审核）"
+}

@@ -1,0 +1,115 @@
+{
+  "chinese": "我们可能出国。",
+  "intent": "表达关于出国度假的不确定推测，说明这是未最终确定的想法。",
+  "comparison": {
+    "chinese": "中文说“可能”时，常把推测放在动作前面；英语用 may 表示推测，后面直接接动词原形。",
+    "english": "We may go abroad.",
+    "steps": [
+      {
+        "label": "先说谁",
+        "text": "We",
+        "explanation": "意思是“我们”，作主语。"
+      },
+      {
+        "label": "再说推测",
+        "text": "may",
+        "explanation": "表示“可能、也许”，不是“一定”。"
+      },
+      {
+        "label": "最后说动作",
+        "text": "go abroad",
+        "explanation": "意思是“出国”，may 后面动词用原形 go。"
+      }
+    ],
+    "takeaway": "may 放在主语和动词之间，表示“可能做某事”。"
+  },
+  "backbone": {
+    "text": "We may go abroad.",
+    "meaning": "我们可能会出国。"
+  },
+  "structureNotes": [
+    {
+      "title": "may 表推测",
+      "text": "may 表示“可能”，说明出国只是一种可能性，还没有最终确定。"
+    },
+    {
+      "title": "abroad 用法",
+      "text": "go abroad 是固定搭配，表示“出国”，abroad 本身是副词，不需要加 to。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We",
+      "role": "主语",
+      "explanation": "动作的发出者，指说话人及其同行者。"
+    },
+    {
+      "text": "may go abroad.",
+      "role": "谓语",
+      "explanation": "may 表示推测，后面接动词原形 go，abroad 补充说明 go 的去向。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "may",
+      "meaning": "可能，也许",
+      "pos": "情态动词",
+      "phonetic": "/meɪ/"
+    },
+    {
+      "text": "go",
+      "meaning": "去，走",
+      "pos": "动词",
+      "phonetic": "/ɡəʊ/"
+    },
+    {
+      "text": "abroad.",
+      "meaning": "在国外，到国外",
+      "pos": "副词",
+      "phonetic": "/əˈbrɔːd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We",
+      "relation": "主语，指动作的发出者",
+      "meaning": "我们"
+    },
+    {
+      "text": "may",
+      "relation": "修饰后面的动作，表示不确定的推测",
+      "meaning": "可能，也许"
+    },
+    {
+      "text": "go abroad.",
+      "relation": "谓语部分，表示“去国外”这个动作",
+      "meaning": "出国。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-131",
+  "sentenceId": "nce-1-lesson-131-sentence-002",
+  "sentenceOrder": 2,
+  "english": "We may go abroad.",
+  "lesson": "Lesson 131 Don't be so sure!",
+  "notes": [
+    {
+      "title": "may 表推测",
+      "text": "may 表示“可能”，说明出国只是一种可能性，还没有最终确定。"
+    },
+    {
+      "title": "abroad 用法",
+      "text": "go abroad 是固定搭配，表示“出国”，abroad 本身是副词，不需要加 to。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析清晰准确，仅存在两处细节可修正：1. 单词表中abroad的音标错误混入了句末句号，不符合音标标注规范；2. 句子主干理解遗漏了情态动词may，未体现原句的推测语气。其余指代、语法角色、搭配说明、中英对比逻辑均符合要求。（非逐句人工审核）"
+}

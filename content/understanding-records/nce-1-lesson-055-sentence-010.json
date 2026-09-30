@@ -1,0 +1,99 @@
+{
+  "chinese": "他到家很晚。",
+  "intent": "叙述Sawyer先生下班回到家的时间状态，补充说明他抵达家中时时间已经偏晚。",
+  "comparison": null,
+  "backbone": {
+    "text": "He arrives home late.",
+    "meaning": "他回到家，而且到家的时间很晚。"
+  },
+  "structureNotes": [
+    {
+      "title": "arrive后直接接home的介词省略",
+      "text": "arrive是不及物动词，接名词性地点时需要搭配相应介词（如接城市用arrive in，接小地点用arrive at）；但此处home是地点副词，不是名词，前面不需要加介词to，直接说arrive home就可以表达“抵达家中”。"
+    },
+    {
+      "title": "late作副词的位置",
+      "text": "句尾的late是副词，用来修饰arrive这个动作发生的时间偏晚，不是形容词“迟到的”，意思是动作发生得晚。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文提到的Mr. Sawyer，是“到家”这个动作的发出者。"
+    },
+    {
+      "text": "arrives home",
+      "role": "谓语（不及物动词短语）",
+      "explanation": "表达完整的“回到家”的动作，home直接跟在arrive后面作地点副词，补充动作抵达的地点。"
+    },
+    {
+      "text": "late",
+      "role": "时间状语",
+      "explanation": "说明“到家”这个动作发生得很晚，描述动作的时间状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词（主格）",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "arrives",
+      "meaning": "到达、抵达",
+      "pos": "动词（第三人称单数现在时）",
+      "phonetic": "/əˈraɪvz/"
+    },
+    {
+      "text": "home",
+      "meaning": "到家、回家（地点副词）",
+      "pos": "副词",
+      "phonetic": "/həʊm/"
+    },
+    {
+      "text": "late.",
+      "meaning": "晚、迟",
+      "pos": "副词",
+      "phonetic": "/leɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "动作的发出者，指代Sawyer先生",
+      "meaning": "他"
+    },
+    {
+      "text": "arrives home",
+      "relation": "描述主语完成的核心动作",
+      "meaning": "到家、回到家中"
+    },
+    {
+      "text": "late.",
+      "relation": "补充说明到家这个动作发生的时间偏晚",
+      "meaning": "很晚。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-55",
+  "sentenceId": "nce-1-lesson-055-sentence-010",
+  "sentenceOrder": 10,
+  "english": "He arrives home late.",
+  "lesson": "Lesson 55 The Sawyer family",
+  "notes": [
+    {
+      "title": "arrive后直接接home的介词省略",
+      "text": "arrive是不及物动词，接名词性地点时需要搭配相应介词（如接城市用arrive in，接小地点用arrive at）；但此处home是地点副词，不是名词，前面不需要加介词to，直接说arrive home就可以表达“抵达家中”。"
+    },
+    {
+      "title": "late作副词的位置",
+      "text": "句尾的late是副词，用来修饰arrive这个动作发生的时间偏晚，不是形容词“迟到的”，意思是动作发生得晚。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确，各结构角色、词义、词性标注与例句匹配，仅存在两处可明确修正的表述细节。\n1. 单词块中late的text字段错误附带了句末句号，应拆分标点与词条，修正后text为late；\n2. 对arrive后接home的介词省略规则解释不够准确，arrive属于不及物动词，本身不直接接宾语，其接地点时需搭配对应介词，home在此处是地点副词而非名词，因此不需要加介词to。（非逐句人工审核）"
+}

@@ -1,0 +1,122 @@
+{
+  "chinese": "星期五我在面包店。",
+  "intent": "陈述过去某一天自己所处的地点位置。",
+  "comparison": null,
+  "backbone": {
+    "text": "I was at the baker's on Friday.",
+    "meaning": "我周五当天在面包店。"
+  },
+  "structureNotes": [
+    {
+      "title": "地点与时间的语序差别",
+      "text": "英语先说人在什么地点，再把具体时间放在句末；中文习惯先交代时间“星期五”，再说出地点“在面包店”。"
+    },
+    {
+      "title": "baker's 的含义",
+      "text": "baker's 后省略了 shop，指面包师工作的场所，也就是面包店，不能直译成“面包师的”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话人自己，是句子描述的主体。"
+    },
+    {
+      "text": "was",
+      "role": "系动词",
+      "explanation": "be动词的第一人称单数过去式，连接主语与所处的地点状态。"
+    },
+    {
+      "text": "at the baker's",
+      "role": "表语",
+      "explanation": "说明主语所处的地点，是本句要回应的核心内容。"
+    },
+    {
+      "text": "on Friday",
+      "role": "时间状语",
+      "explanation": "限定该位置状态发生的具体时间。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "was",
+      "meaning": "在（be动词第一人称单数过去式，不直译“是”）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（表示所处的小地点）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，无实义）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "baker's",
+      "meaning": "面包店",
+      "pos": "名词所有格（后省略shop）",
+      "phonetic": "/ˈbeɪkəz/"
+    },
+    {
+      "text": "on",
+      "meaning": "在（用于具体某一天前）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "Friday.",
+      "meaning": "星期五",
+      "pos": "名词",
+      "phonetic": "/ˈfraɪdeɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I was",
+      "meaning": "我当时在",
+      "relation": "引出陈述主体与过去状态。"
+    },
+    {
+      "text": "at the baker's",
+      "meaning": "面包店",
+      "relation": "补充说明当时所处的具体地点。"
+    },
+    {
+      "text": "on Friday.",
+      "meaning": "在星期五",
+      "relation": "限定上述状态发生的时间。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-67",
+  "sentenceId": "nce-1-lesson-067-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I was at the baker's on Friday.",
+  "lesson": "Lesson 67 The weekend",
+  "notes": [
+    {
+      "title": "地点与时间的语序差别",
+      "text": "英语先说人在什么地点，再把具体时间放在句末；中文习惯先交代时间“星期五”，再说出地点“在面包店”。"
+    },
+    {
+      "title": "baker's 的含义",
+      "text": "baker's 后省略了 shop，指面包师工作的场所，也就是面包店，不能直译成“面包师的”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子整体是常用陈述句，主干提取正确，问答场景中的be动词与名词所有格含义解释清楚，仅个别词性标注与释义可更严谨。（非逐句人工审核）"
+}

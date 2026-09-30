@@ -1,0 +1,167 @@
+{
+  "chinese": "星期五你在哪里？是在面包店吗？",
+  "intent": "询问对方周五的所在地点，并提示或确认是否在面包店。",
+  "comparison": {
+    "chinese": "原句先问“星期五你在哪里”，再补“是在面包店吗”；英语则把地点线索 baker's 和时间 Friday 直接放进同一个问句，和疑问词 Where 一起出现。",
+    "english": "Where were you at the baker's on Friday?",
+    "steps": [
+      {
+        "label": "先抓住主干",
+        "text": "were you = 你那时在",
+        "explanation": "be动词过去式放在 you 前，构成过去时疑问；Where 是要回答的地点核心。"
+      },
+      {
+        "label": "再看两个修饰",
+        "text": "at the baker's = 在面包店；on Friday = 在星期五",
+        "explanation": "两个介词短语分别提供地点线索和时间线索，让对方核对周五的位置，并确认是否在面包店。"
+      },
+      {
+        "label": "理解问句逻辑",
+        "text": "Where + were you + 地点线索 + 时间？",
+        "explanation": "疑问词 Where 点明要问的是地点；at the baker's 是伴随的地点线索，不是与 Where 并列的表语。"
+      }
+    ],
+    "takeaway": "英语常把时间、地点线索直接写进问句，与疑问词同现；中文则可拆成“在哪里？在面包店吗？”这样的先后问答。"
+  },
+  "backbone": {
+    "text": "Where were you?",
+    "meaning": "你当时在哪里？"
+  },
+  "structureNotes": [
+    {
+      "title": "be动词构成过去时问句",
+      "text": "were放在you前面，说明这是过去时间的询问，主语仍然是you；回答要用I was…。"
+    },
+    {
+      "title": "at the baker's的省略用法",
+      "text": "baker's后面省略了shop，表示“面包店”这一地点；定冠词the用来特指这家面包店。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "on Friday放在句末，说明是在问过去某个确定的星期五的位置，而不是一般习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Where",
+      "role": "疑问副词",
+      "explanation": "询问地点，是本句要回答的核心缺失信息。"
+    },
+    {
+      "text": "were",
+      "role": "系动词（be动词过去式）",
+      "explanation": "放在主语you前，构成过去时疑问。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "被询问的人。"
+    },
+    {
+      "text": "at the baker's",
+      "role": "地点状语",
+      "explanation": "表示“在面包店”，提供地点线索，说明询问时的地点范围。"
+    },
+    {
+      "text": "on Friday",
+      "role": "时间状语",
+      "explanation": "说明询问的时间是星期五。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Where",
+      "meaning": "在哪里",
+      "pos": "疑问副词",
+      "phonetic": "/weə/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（be的过去式，用于第二人称）",
+      "pos": "动词",
+      "phonetic": "/wɜː(r)/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（表示地点）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "baker's",
+      "meaning": "面包店",
+      "pos": "名词所有格",
+      "phonetic": "/ˈbeɪkəz/"
+    },
+    {
+      "text": "on",
+      "meaning": "在（用于具体某天前）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "Friday?",
+      "meaning": "星期五",
+      "pos": "名词",
+      "phonetic": "/ˈfraɪdeɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Where",
+      "meaning": "在哪里",
+      "relation": "询问核心：要回答的地点"
+    },
+    {
+      "text": "were you",
+      "meaning": "你（那时）在",
+      "relation": "问句主谓部分：过去时的“你在”"
+    },
+    {
+      "text": "at the baker's",
+      "meaning": "在面包店",
+      "relation": "地点线索：提示面包店这个位置"
+    },
+    {
+      "text": "on Friday?",
+      "meaning": "在星期五？",
+      "relation": "时间线索：把询问限定在周五"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-67",
+  "sentenceId": "nce-1-lesson-067-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Where were you at the baker's on Friday?",
+  "lesson": "Lesson 67 The weekend",
+  "notes": [
+    {
+      "title": "be动词构成过去时问句",
+      "text": "were放在you前面，说明这是过去时间的询问，主语仍然是you；回答要用I was…。"
+    },
+    {
+      "title": "at the baker's的省略用法",
+      "text": "baker's后面省略了shop，表示“面包店”这一地点；定冠词the用来特指这家面包店。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "on Friday放在句末，说明是在问过去某个确定的星期五的位置，而不是一般习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析把 at the baker's 当作地点表语，并据此认为它与 Where 形成呼应；实际结构中 were 是不及物用法，表语是疑问副词 Where，at the baker's 是介词短语作地点状语。中文译文也宜按同一理解，先问周五人在何处，再确认是否在面包店。其余主干、比较逻辑和分块可保留。（非逐句人工审核）"
+}

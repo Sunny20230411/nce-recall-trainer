@@ -1,0 +1,93 @@
+{
+  "chinese": "我正在喝茶。",
+  "intent": "回应对方的询问，告知对方自己当下正在进行的动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm having tea.",
+    "meaning": "我正在喝茶。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在进行时的构成",
+      "text": "be动词am与动词have的-ing形式having连用，构成现在进行时，表示此时此刻正在发生的动作。"
+    },
+    {
+      "title": "have与tea的搭配",
+      "text": "短语have tea是固定搭配，表示喝茶，而不是“拥有茶”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm",
+      "role": "主语+be动词",
+      "explanation": "I是句子主语，am是be动词的第一人称单数现在时形式，与having一起构成现在进行时的谓语。"
+    },
+    {
+      "text": "having",
+      "role": "谓语动词的现在分词形式",
+      "explanation": "have的现在分词形式，在本句中与am搭配，共同表示正在进行的“喝茶”动作，不能脱离am单独作为谓语。"
+    },
+    {
+      "text": "tea",
+      "role": "宾语",
+      "explanation": "having的宾语，表示动作的对象是茶。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I'm",
+      "meaning": "我是（I am的缩写）",
+      "pos": "代词+动词缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "having",
+      "meaning": "喝、享用（have的现在分词）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈhævɪŋ/"
+    },
+    {
+      "text": "tea.",
+      "meaning": "茶",
+      "pos": "名词",
+      "phonetic": "/tiː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I'm",
+      "meaning": "我（am表示现在进行时的时态）",
+      "relation": "句子主语与be动词，说明动作发出者和时态"
+    },
+    {
+      "text": "having",
+      "meaning": "正在喝",
+      "relation": "谓语动词现在分词，与am构成现在进行时，说明正在进行的动作"
+    },
+    {
+      "text": "tea.",
+      "meaning": "茶。",
+      "relation": "宾语，说明动作的对象是茶。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-115",
+  "sentenceId": "nce-1-lesson-115-sentence-006",
+  "sentenceOrder": 6,
+  "english": "I'm having tea.",
+  "lesson": "Lesson 115 Knock, knock!",
+  "notes": [
+    {
+      "title": "现在进行时的构成",
+      "text": "be动词am与动词have的-ing形式having连用，构成现在进行时，表示此时此刻正在发生的动作。"
+    },
+    {
+      "title": "have与tea的搭配",
+      "text": "短语have tea是固定搭配，表示喝茶，而不是“拥有茶”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子整体翻译、主干、语法标注和短语搭配解释准确，仅部分词汇释义、结构角色与分块语义存在小疏漏，修正后可通过。（非逐句人工审核）"
+}

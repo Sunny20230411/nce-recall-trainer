@@ -1,0 +1,125 @@
+{
+  "chinese": "他们很早到家。",
+  "intent": "承接上文孩子放学家归的语境，叙述儿童在傍晚时段早早抵达家中的状态。",
+  "comparison": {
+    "chinese": "他们很早到家。",
+    "english": "They arrive home early.",
+    "steps": [
+      {
+        "label": "主干结构",
+        "text": "They（主语）+ arrive（谓语动词）",
+        "explanation": "指代前文的children，谓语动词用一般现在时arrive，契合全篇索耶一家日常作息的叙事基调。"
+      },
+      {
+        "label": "home作副词的用法",
+        "text": "home（地点方向副词，修饰arrive）",
+        "explanation": "此处home直接跟在arrive后表“到达家这个地点”，是副词用法，无需加介词to，区别于go home/arrive at home等搭配。"
+      },
+      {
+        "label": "early的句末位置",
+        "text": "early（时间副词，修饰整个arrive home动作）",
+        "explanation": "early放在句末，明确修饰“到家”这个事件发生得早，区别于children从学校出发早，也区别于后文中Mr. Sawyer下班到家的时间。"
+      }
+    ],
+    "takeaway": "home跟在arrive/go等移动动词后直接用副词形式表方向，无需加介词；时间副词early放在句末可清晰修饰整个动作事件，避免修饰歧义。"
+  },
+  "backbone": {
+    "text": "They arrive home early.",
+    "meaning": "他们很早到家。"
+  },
+  "structureNotes": [
+    {
+      "title": "home 此处作副词",
+      "text": "home 跟在 arrive 后面表示“到家”，不使用介词 to，它在这里不是名词作地点宾语，而是修饰 arrive 的方向。"
+    },
+    {
+      "title": "early 放在句末",
+      "text": "early 说明 arrive home 这件事发生得早，放在动词短语后面，时间位置清楚。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They",
+      "role": "主语",
+      "explanation": "指前文提到的孩子们。"
+    },
+    {
+      "text": "arrive",
+      "role": "谓语动词",
+      "explanation": "表示“到达”的动作。"
+    },
+    {
+      "text": "home",
+      "role": "地点方向状语（副词）",
+      "explanation": "修饰arrive，表动作的方向是家，无需加介词to。"
+    },
+    {
+      "text": "early.",
+      "role": "时间状语（副词）",
+      "explanation": "修饰arrive home这个动作事件，说明到家的时间很早。"
+    }
+  ],
+  "words": [
+    {
+      "text": "They",
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "arrive",
+      "meaning": "到达",
+      "pos": "动词",
+      "phonetic": "/əˈraɪv/"
+    },
+    {
+      "text": "home",
+      "meaning": "到家；向家",
+      "pos": "副词",
+      "phonetic": "/həʊm/"
+    },
+    {
+      "text": "early.",
+      "meaning": "早",
+      "pos": "副词",
+      "phonetic": "/ˈɜːli/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "They",
+      "meaning": "他们",
+      "relation": "动作发出者"
+    },
+    {
+      "text": "arrive home",
+      "meaning": "到家",
+      "relation": "核心动作"
+    },
+    {
+      "text": "early.",
+      "meaning": "很早",
+      "relation": "补充动作的发生状态"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-55",
+  "sentenceId": "nce-1-lesson-055-sentence-008",
+  "sentenceOrder": 8,
+  "english": "They arrive home early.",
+  "lesson": "Lesson 55 The Sawyer family",
+  "notes": [
+    {
+      "title": "home 此处作副词",
+      "text": "home 跟在 arrive 后面表示“到家”，不使用介词 to，它在这里不是名词作地点宾语，而是修饰 arrive 的方向。"
+    },
+    {
+      "title": "early 放在句末",
+      "text": "early 说明 arrive home 这件事发生得早，放在动词短语后面，时间位置清楚。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析主干正确，home作地点方向副词、early作句末时间状语的判断符合语法规范，指代关系清晰，无核心事实错误；仅存在三处可优化的表述问题：1. 词汇表中early的音标误带了句末句号，属于排版瑕疵；2. 结构划分里将arrive home整体归为谓语+方向状语，未体现home本身作副词的语法属性，分类精度不足；3. 分句中early.标注了“动作发生的时间”，实际early修饰的是arrive这个动作本身而非独立的动作发生时点，需微调表述。整体内容可在修正后通过。（非逐句人工审核）"
+}

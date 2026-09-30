@@ -1,0 +1,137 @@
+{
+  "chinese": "你的老板对他说了什么？",
+  "intent": "向对方询问他的老板此前对着那名打电话的人具体讲了什么内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "What did your boss say to him?",
+    "meaning": "你的老板对他说了什么话？"
+  },
+  "structureNotes": [
+    {
+      "title": "一般过去时疑问句的语序",
+      "text": "疑问词What放在句首表示要询问说话的内容，助动词did提到主语your boss前面，构成一般过去时的疑问语序，谓语动词say用原形。"
+    },
+    {
+      "title": "say to sb.的搭配",
+      "text": "say表示“说”，后面接要讲的具体内容；to him表示说话的对象，即对着电话那头的人，不是对着你说。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What",
+      "role": "疑问代词",
+      "explanation": "指代说话的具体内容，作say的宾语，是本句要询问的核心信息。"
+    },
+    {
+      "text": "did",
+      "role": "助动词",
+      "explanation": "帮助构成一般过去时的疑问句，放在主语前，本身没有实义，同时提示后续的实义动词要用原形。"
+    },
+    {
+      "text": "your boss",
+      "role": "主语",
+      "explanation": "本句动作的发出者，也就是做出“说”这个动作的人。"
+    },
+    {
+      "text": "say",
+      "role": "谓语动词",
+      "explanation": "本句的核心动作，意思是“说、讲”，因为前面有did，所以用动词原形形式。"
+    },
+    {
+      "text": "to him",
+      "role": "说话对象状语",
+      "explanation": "说明say这个动作的接收对象，也就是电话那头的打电话的人。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "什么",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/",
+      "text": "What"
+    },
+    {
+      "meaning": "助动词do的过去式，无实义，帮助构成疑问句",
+      "pos": "助动词",
+      "phonetic": "/dɪd/",
+      "text": "did"
+    },
+    {
+      "meaning": "你的，你们的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/jɔː(r)/",
+      "text": "your"
+    },
+    {
+      "meaning": "老板",
+      "pos": "名词",
+      "phonetic": "/bɒs/",
+      "text": "boss"
+    },
+    {
+      "meaning": "说，讲",
+      "pos": "动词",
+      "phonetic": "/seɪ/",
+      "text": "say"
+    },
+    {
+      "meaning": "朝，向，对",
+      "pos": "介词",
+      "phonetic": "/tu; tə/",
+      "text": "to"
+    },
+    {
+      "meaning": "他（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɪm/",
+      "text": "him?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What",
+      "relation": "询问核心，也就是说话的具体内容",
+      "meaning": "什么"
+    },
+    {
+      "text": "did",
+      "relation": "提示句子是对过去发生的动作提问",
+      "meaning": "（助动词，构成过去时疑问句）"
+    },
+    {
+      "text": "your boss",
+      "relation": "发出“说”这个动作的人",
+      "meaning": "你的老板"
+    },
+    {
+      "text": "say",
+      "relation": "句子的核心动作",
+      "meaning": "说"
+    },
+    {
+      "text": "to him?",
+      "relation": "补充说明说话的接收对象是打电话的人",
+      "meaning": "对他？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-71",
+  "sentenceId": "nce-1-lesson-071-sentence-004",
+  "sentenceOrder": 4,
+  "english": "What did your boss say to him?",
+  "lesson": "Lesson 71 He's awful!",
+  "notes": [
+    {
+      "title": "一般过去时疑问句的语序",
+      "text": "疑问词What放在句首表示要询问说话的内容，助动词did提到主语your boss前面，构成一般过去时的疑问语序，谓语动词say用原形。"
+    },
+    {
+      "title": "say to sb.的搭配",
+      "text": "say表示“说”，后面接要讲的具体内容；to him表示说话的对象，即对着电话那头的人，不是对着你说。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体讲解符合原句的语法关系和语境。仅需微调一处表述：原解析写“还原过去时动作的疑问语序”，但did提到主语前是形成疑问语序，而非“还原”陈述语序，容易造成混淆；其余部分、结构拆分和语境说明均准确。（非逐句人工审核）"
+}

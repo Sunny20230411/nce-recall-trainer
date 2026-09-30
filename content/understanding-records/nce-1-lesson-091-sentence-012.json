@@ -1,0 +1,183 @@
+{
+  "chinese": "他是个很好的人。我们都会想念他的。",
+  "intent": "先评价他人的性格品质，再自然表达众人在对方离开后将会产生的想念情绪，承接前文提到对方是好邻居的铺垫。",
+  "comparison": {
+    "chinese": "中文会说“［非常好的］一个人”，把修饰语放在名词前面；英文常说a very nice person，先给出名词person，再用very nice修饰它。",
+    "english": "He's a very nice person. We'll all miss him.",
+    "steps": [
+      {
+        "label": "先确认描述对象",
+        "text": "He's",
+        "explanation": "用He指代前文提到的Ian，先明确句子谈论的主体是他。"
+      },
+      {
+        "label": "再给出名词身份",
+        "text": "a person",
+        "explanation": "点出他“是一个人”这个基础范畴；在a very nice person中，person是名词中心语。"
+      },
+      {
+        "label": "最后补充修饰",
+        "text": "very nice",
+        "explanation": "用程度副词very修饰形容词nice，说明这个人的特质是“非常友善好相处”。"
+      }
+    ],
+    "takeaway": "英语的名词中心语位置比中文靠前，修饰语紧跟在名词前后；中文则习惯把定语整体放在数量短语和名词的前面。"
+  },
+  "backbone": {
+    "text": "He's a nice person. We'll miss him.",
+    "meaning": "他是个友善的人，我们会想念他。"
+  },
+  "structureNotes": [
+    {
+      "title": "副词修饰形容词作定语",
+      "text": "very nice两个词在句中共同修饰person，very是程度副词，用来加强nice的程度；整体说明这个人性格和善、容易相处。"
+    },
+    {
+      "title": "助动词缩写表将来",
+      "text": "We'll是We will的缩写形式，will后接动词原形miss，表达未来将会发生的想念动作，不是当下正在进行的动作。"
+    },
+    {
+      "title": "all作同位语表范围",
+      "text": "代词all放在主语We和谓语miss之间，强调“我们这群人当中的每一个人”都会产生想念的情绪，没有例外。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He's",
+      "role": "主语加系动词缩写",
+      "explanation": "He指代前文提到的邻居Ian，是句子的描述对象，'s是is的缩写，构成主系表结构的前半部分。"
+    },
+    {
+      "text": "a very nice person.",
+      "role": "表语",
+      "explanation": "整体说明主语He的身份和性格特质，是对他的正面评价。"
+    },
+    {
+      "text": "We'll",
+      "role": "主语加将来时助动词缩写",
+      "explanation": "We指说话人和其他在场的相关邻居，'ll是will的缩写，标记后续动作是未来会发生的。"
+    },
+    {
+      "text": "all",
+      "role": "主语同位语",
+      "explanation": "修饰主语We，明确后续想念的情绪覆盖在场所有人，没有被遗漏的成员。"
+    },
+    {
+      "text": "miss",
+      "role": "谓语动词",
+      "explanation": "表达“因对方不在而思念”的动作，原形形式跟在will之后符合将来时的搭配要求。"
+    },
+    {
+      "text": "him.",
+      "role": "宾语",
+      "explanation": "指代被评价的He，是miss这个动作的对象，用宾格形式作动词宾语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He's",
+      "meaning": "他是",
+      "pos": "代词+动词缩写",
+      "phonetic": "/hiːz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "nice",
+      "meaning": "友善的、好的",
+      "pos": "形容词",
+      "phonetic": "/naɪs/"
+    },
+    {
+      "text": "person.",
+      "meaning": "人",
+      "pos": "名词",
+      "phonetic": "/ˈpɜːsn/"
+    },
+    {
+      "text": "We'll",
+      "meaning": "我们将会",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/wiːl/"
+    },
+    {
+      "text": "all",
+      "meaning": "全部、所有人都",
+      "pos": "代词",
+      "phonetic": "/ɔːl/"
+    },
+    {
+      "text": "miss",
+      "meaning": "想念、思念",
+      "pos": "动词",
+      "phonetic": "/mɪs/"
+    },
+    {
+      "text": "him.",
+      "meaning": "他（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He's",
+      "meaning": "他是",
+      "relation": "引出被评价的对象"
+    },
+    {
+      "text": "a very nice person.",
+      "meaning": "一个非常好的人。",
+      "relation": "描述他的性格特质"
+    },
+    {
+      "text": "We'll",
+      "meaning": "我们将会",
+      "relation": "引出后续未来动作的主语和时态标记"
+    },
+    {
+      "text": "all",
+      "meaning": "所有人都",
+      "relation": "补充动作覆盖的范围是所有人"
+    },
+    {
+      "text": "miss him.",
+      "meaning": "想念他。",
+      "relation": "说明未来将要发生的动作和动作对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-91",
+  "sentenceId": "nce-1-lesson-091-sentence-012",
+  "sentenceOrder": 12,
+  "english": "He's a very nice person. We'll all miss him.",
+  "lesson": "Lesson 91 Poor Ian!",
+  "notes": [
+    {
+      "title": "副词修饰形容词作定语",
+      "text": "very nice两个词在句中共同修饰person，very是程度副词，用来加强nice的程度；整体说明这个人性格和善、容易相处。"
+    },
+    {
+      "title": "助动词缩写表将来",
+      "text": "We'll是We will的缩写形式，will后接动词原形miss，表达未来将会发生的想念动作，不是当下正在进行的动作。"
+    },
+    {
+      "title": "all作同位语表范围",
+      "text": "代词all放在主语We和谓语miss之间，强调“我们这群人当中的每一个人”都会产生想念的情绪，没有例外。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语法、词义、翻译、指代表达与音标均符合原句和上下文。主要问题是将 very nice 称作并列形容词：实际是副词 very 修饰形容词 nice，而非两个并列形容词；另有一处步骤解释把身份范畴写得过宽。这些可做局部更正。（非逐句人工审核）"
+}

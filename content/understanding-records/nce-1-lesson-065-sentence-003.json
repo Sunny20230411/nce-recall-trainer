@@ -1,0 +1,189 @@
+{
+  "chinese": "你不能回家太晚。你必须十点半到家。",
+  "intent": "父亲对孩子外出提出明确的归家门禁要求，先明令禁止晚归行为，再告知具体的到家时间下限。",
+  "comparison": {
+    "chinese": "你不能回家太晚。你必须十点半到家。",
+    "english": "You mustn't come home late. You must be home at half past ten.",
+    "steps": [
+      {
+        "label": "禁止性规则的表达逻辑",
+        "text": "You mustn't come home late. 对应中文“你不能回家太晚。”",
+        "explanation": "英文用mustn't直接表示“严禁、不可以”的禁止语气，放在实义动词come前面约束整个行为；中文将否定词“不”放在能愿动词“能”与“回家”之间，语序符合中文日常表达。"
+      },
+      {
+        "label": "强制性要求的表达逻辑",
+        "text": "You must be home at half past ten. 对应中文“你必须十点半到家。”",
+        "explanation": "英文用must be加表示位置的home表示“必须处于在家的状态”，再用介词at引出具体时间点；中文将时间状语“十点半”放在“到家”这个动作前面，符合中文先说时间、再说动作的表达习惯。"
+      },
+      {
+        "label": "两条要求的呼应关系",
+        "text": "前一句禁止晚归，后一句给出明确时间底线",
+        "explanation": "英文两个独立句子的顺序和中文完全对应，先划红线禁止模糊的晚归行为，再给出精确的时间标准，避免歧义。"
+      }
+    ],
+    "takeaway": "本句中英表达顺序高度接近，核心难点是掌握mustn't表禁止、must表强制要求的用法，以及at用于引出具体时刻的搭配。"
+  },
+  "backbone": {
+    "text": "You mustn't come home late. You must be home at 10:30.",
+    "meaning": "严禁晚归，必须在十点半这个时间点就抵达家中。"
+  },
+  "structureNotes": [
+    {
+      "title": "情态动词表规则的语气差异",
+      "text": "mustn't是must not的缩写，语气强硬，意为“绝对不可以、严禁”，用来划清行为红线；must意为“必须”，用来给出必须遵守的硬性要求，二者一禁一令，共同构成完整的门禁要求。"
+    },
+    {
+      "title": "时间表达的介词搭配",
+      "text": "英文中表示“在某个具体的几点钟”，要在时间短语前加介词at，比如at half past ten，不能直接把时间短语放在句尾不加介词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "You",
+      "role": "第二人称主语",
+      "explanation": "两句共同的指代对象，是父亲对话中的“你”，也就是要外出的孩子。"
+    },
+    {
+      "text": "mustn't come home late",
+      "role": "第一句谓语，表达被禁止的行为",
+      "explanation": "mustn't是表禁止的情态动词，后接动词原形come；此处home是地点副词，直接跟在come后表示“回到家”，无需加介词to；late是副词修饰come，描述回家的状态不能太晚。"
+    },
+    {
+      "text": "must be home",
+      "role": "第二句核心谓语，表达必须达到的状态",
+      "explanation": "must是表强制的情态动词，后接be动词原形，home是地点副词作表语，意为“在家”。"
+    },
+    {
+      "text": "at half past ten",
+      "role": "时间状语",
+      "explanation": "用at引出具体时刻，说明必须达到在家状态的时间下限是十点半。"
+    }
+  ],
+  "words": [
+    {
+      "text": "You",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "mustn't",
+      "meaning": "绝对不可以、严禁",
+      "pos": "情态动词（must not的缩写）",
+      "phonetic": "/ˈmʌsnt/"
+    },
+    {
+      "text": "come",
+      "meaning": "来到、回",
+      "pos": "动词",
+      "phonetic": "/kʌm/"
+    },
+    {
+      "text": "home",
+      "meaning": "家、家中",
+      "pos": "副词",
+      "phonetic": "/həʊm/"
+    },
+    {
+      "text": "late.",
+      "meaning": "晚、迟。",
+      "pos": "副词；句号",
+      "phonetic": "/leɪt/"
+    },
+    {
+      "text": "You",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "must",
+      "meaning": "必须",
+      "pos": "情态动词",
+      "phonetic": "/mʌst/"
+    },
+    {
+      "text": "be",
+      "meaning": "处于（某种状态）",
+      "pos": "be动词原形",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "home",
+      "meaning": "在家、到家",
+      "pos": "副词",
+      "phonetic": "/həʊm/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（具体时刻）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "half",
+      "meaning": "一半",
+      "pos": "名词",
+      "phonetic": "/hɑːf/"
+    },
+    {
+      "text": "past",
+      "meaning": "（用于时间表达）过、晚于",
+      "pos": "介词",
+      "phonetic": "/pɑːst/"
+    },
+    {
+      "text": "ten.",
+      "meaning": "十（指十点）。",
+      "pos": "数词；句号",
+      "phonetic": "/ten/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "You",
+      "meaning": "你",
+      "relation": "第一句话的主语，指代对话中要外出的孩子。"
+    },
+    {
+      "text": "mustn't come home late.",
+      "meaning": "绝对不能太晚回家。",
+      "relation": "第一句的核心内容，用强硬的禁止语气划定行为红线，不允许回家迟到。"
+    },
+    {
+      "text": "You",
+      "meaning": "你",
+      "relation": "第二句话的主语，和前一句指代同一对象。"
+    },
+    {
+      "text": "must be home",
+      "meaning": "必须在家、必须到家",
+      "relation": "第二句的核心要求，明确必须达成在家的状态。"
+    },
+    {
+      "text": "at half past ten.",
+      "meaning": "在十点半。",
+      "relation": "补充说明到家状态必须达成的具体时间下限。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-65",
+  "sentenceId": "nce-1-lesson-065-sentence-003",
+  "sentenceOrder": 3,
+  "english": "You mustn't come home late. You must be home at half past ten.",
+  "lesson": "Lesson 65 Not a baby",
+  "notes": [
+    {
+      "title": "情态动词表规则的语气差异",
+      "text": "mustn't是must not的缩写，语气强硬，意为“绝对不可以、严禁”，用来划清行为红线；must意为“必须”，用来给出必须遵守的硬性要求，二者一禁一令，共同构成完整的门禁要求。"
+    },
+    {
+      "title": "时间表达的介词搭配",
+      "text": "英文中表示“在某个具体的几点钟”，要在时间短语前加介词at，比如at half past ten，不能直接把时间短语放在句尾不加介词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体释义、主干和结构分析基本准确，仅存在三处可明确修正的小问题：一是单词拆分时将句号误并入late、ten的词义标注，不符合词性与标点分离要求；二是mustn't的音标存在轻微拼写错误；三是结构分析中对home的副词属性解释不够准确，容易和名词用法混淆；其余关于must表强制、时间介词at用法、两句逻辑关系的表述均正确。（非逐句人工审核）"
+}

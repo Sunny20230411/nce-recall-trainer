@@ -1,0 +1,99 @@
+{
+  "chinese": "他卧床休息呢，医生。",
+  "intent": "回答医生关于威廉姆斯先生所在位置的询问，说明威廉姆斯先生正卧床休息。",
+  "comparison": null,
+  "backbone": {
+    "text": "He's in bed.",
+    "meaning": "他现在正躺在床上。"
+  },
+  "structureNotes": [
+    {
+      "title": "in bed 的含义",
+      "text": "in bed 表示“卧床、躺在床上休息”，不是单纯指空间位置在床上面。"
+    },
+    {
+      "title": "称呼语的位置",
+      "text": "doctor 放在句末作称呼语，独立于句子主干，不影响句子主谓结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He's",
+      "role": "主语+系动词",
+      "explanation": "He 是主语，指代威廉姆斯先生；is 是系动词，和 He 缩写为 He's，构成句子的核心部分。"
+    },
+    {
+      "text": "in bed",
+      "role": "表语",
+      "explanation": "介词短语作表语，说明主语的状态，意为“卧床休息”。"
+    },
+    {
+      "text": "doctor",
+      "role": "称呼语",
+      "explanation": "对听话人的称呼，独立于句子主干，不充当句子成分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He's",
+      "meaning": "他（指代威廉姆斯先生）是/在",
+      "pos": "代词+系动词",
+      "phonetic": "/hiːz/"
+    },
+    {
+      "text": "in",
+      "meaning": "在…中（此处搭配 bed 表卧床状态，不直译空间方位）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "bed,",
+      "meaning": "卧床休息",
+      "pos": "名词",
+      "phonetic": "/bed/"
+    },
+    {
+      "text": "doctor.",
+      "meaning": "医生",
+      "pos": "名词",
+      "phonetic": "/ˈdɒktə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He's",
+      "meaning": "他（指代威廉姆斯先生）在",
+      "relation": "句子核心主语加系动词，引出主体状态。"
+    },
+    {
+      "text": "in bed,",
+      "meaning": "卧床休息",
+      "relation": "描述主语所处的状态，表示卧床休息。"
+    },
+    {
+      "text": "doctor.",
+      "meaning": "医生",
+      "relation": "称呼听话人，说明说话对象是医生。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-63",
+  "sentenceId": "nce-1-lesson-063-sentence-016",
+  "sentenceOrder": 16,
+  "english": "He's in bed, doctor.",
+  "lesson": "Lesson 63 Thank you, doctor.",
+  "notes": [
+    {
+      "title": "in bed 的含义",
+      "text": "in bed 表示“卧床、躺在床上休息”，不是单纯指空间位置在床上面。"
+    },
+    {
+      "title": "称呼语的位置",
+      "text": "doctor 放在句末作称呼语，独立于句子主干，不影响句子主谓结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体主干、成分划分和称呼语说明正确；部分词汇与分块释义未结合语境补足“卧床休息”的含义，主中文也需明确指代关系并贴合短语语境，其余内容准确无需修改。（非逐句人工审核）"
+}

@@ -1,0 +1,90 @@
+{
+  "chinese": "他们是做什么工作的？",
+  "intent": "询问对方提及的几个人的职业情况",
+  "backbone": {
+    "text": "What are their jobs?",
+    "meaning": "询问指定群体的工作内容或职业身份"
+  },
+  "parts": [
+    {
+      "text": "What",
+      "relation": "疑问代词作句子的表语前置用于引出针对具体事物属性的提问",
+      "meaning": "什么"
+    },
+    {
+      "text": "are",
+      "relation": "句子的系动词，承担主谓倒装疑问语序的构成功能",
+      "meaning": "是"
+    },
+    {
+      "text": "their jobs?",
+      "relation": "句子的主语部分，指代所询问的特定群体的职业身份",
+      "meaning": "他们的工作"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "特殊疑问语序",
+      "text": "特殊疑问词What放在句首，随后将系动词are提到主语相关成分之前，形成询问属性的标准疑问结构，不需要借助助动词do"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What",
+      "role": "特殊疑问代词",
+      "explanation": "用来引出针对事物信息的提问，这里指代未知的工作内容"
+    },
+    {
+      "text": "are",
+      "role": "系动词",
+      "explanation": "调整至主语前构成特殊疑问倒装语序"
+    },
+    {
+      "text": "their jobs",
+      "role": "名词短语作主语",
+      "explanation": "指代前文提及的特定群体的职业身份，是本句的描述主体"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "什么",
+      "pos": "pronoun",
+      "phonetic": "/wɒt/",
+      "text": "What"
+    },
+    {
+      "meaning": "是",
+      "pos": "verb",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "他们的",
+      "pos": "determiner",
+      "phonetic": "/ðeə(r)/",
+      "text": "their"
+    },
+    {
+      "meaning": "工作（复数）",
+      "pos": "noun",
+      "phonetic": "/dʒɒbz/",
+      "text": "jobs?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-17",
+  "sentenceId": "nce-1-lesson-017-sentence-010",
+  "sentenceOrder": 10,
+  "english": "What are their jobs?",
+  "lesson": "Lesson 17 How do you do?",
+  "notes": [
+    {
+      "title": "特殊疑问语序",
+      "text": "特殊疑问词What放在句首，随后将系动词are提到主语相关成分之前，形成询问属性的标准疑问结构，不需要借助助动词do"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析逻辑合规，仅存在部分细节标注错误，可修正后符合面向中文母语成年人的英语学习解析要求。（非逐句人工审核）"
+}

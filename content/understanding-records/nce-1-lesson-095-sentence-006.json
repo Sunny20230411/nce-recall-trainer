@@ -1,0 +1,138 @@
+{
+  "chinese": "我们什么时候到达伦敦？",
+  "intent": "向对方询问抵达伦敦的具体时间。",
+  "comparison": {
+    "chinese": "中文通常先讲“我们”，再问“什么时候到达伦敦”：我们什么时候到达伦敦？",
+    "english": "英文用 What time will we arrive in London? 提问；先点明要问的时刻，再用助动词 will 加主语 we，最后接动作和目的地。",
+    "steps": [
+      {
+        "label": "已知信息",
+        "text": "we arrive in London",
+        "explanation": "已经知道动作是“我们抵达伦敦”，缺的是“几点到达”这一时间信息。"
+      },
+      {
+        "label": "询问时间",
+        "text": "What time will ...?",
+        "explanation": "What time 用于询问具体时刻；will 是将来时助动词，疑问句中放在主语 we 前面。"
+      }
+    ],
+    "takeaway": "What time 用来问具体时刻，回答应是钟点；疑问表达位于句首，助动词 will 提前形成将来时疑问句。"
+  },
+  "backbone": {
+    "text": "When will we arrive in London?",
+    "meaning": "这是为便于理解还原的一般问句形式，核心是询问我们抵达伦敦的时间。"
+  },
+  "structureNotes": [
+    {
+      "title": "What time 询问时刻",
+      "text": "What time 用来询问具体时间点，这里问的是“几点到达伦敦”；回答应给出钟点，而不是笼统的时间范围。"
+    },
+    {
+      "title": "疑问句的词序",
+      "text": "will 是将来时助动词，在疑问句中提到主语 we 前面；arrive in London 表示“到达伦敦”，介词 in 后接城市名称。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What time",
+      "role": "时间疑问表达",
+      "explanation": "位于句首，表示要询问的是到达伦敦的具体时刻。"
+    },
+    {
+      "text": "will",
+      "role": "将来时助动词",
+      "explanation": "表示动作在将来发生，疑问句中放在主语 we 前面。"
+    },
+    {
+      "text": "we",
+      "role": "主语",
+      "explanation": "指说话人一方和同行的人，是“到达”这个动作的发出者。"
+    },
+    {
+      "text": "arrive in London",
+      "role": "谓语部分",
+      "explanation": "arrive 是核心动词，in London 表示到达的目的地是伦敦。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What",
+      "meaning": "什么",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "time",
+      "meaning": "时间",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    },
+    {
+      "text": "will",
+      "meaning": "将、会",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "we",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "arrive",
+      "meaning": "到达",
+      "pos": "动词",
+      "phonetic": "/əˈraɪv/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……（大地点）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "London?",
+      "meaning": "伦敦",
+      "pos": "名词",
+      "phonetic": "/ˈlʌndən/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What time",
+      "meaning": "几点、什么时间",
+      "relation": "位于句首，点明要问的是抵达伦敦的具体时刻。"
+    },
+    {
+      "text": "will we",
+      "meaning": "将要、我们",
+      "relation": "will 是将来时助动词，we 是句子主语，共同说明动作的主体和时间范围。"
+    },
+    {
+      "text": "arrive in London?",
+      "meaning": "到达伦敦？",
+      "relation": "核心动作与目的地，承接疑问表达和主语构成完整问句。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-95",
+  "sentenceId": "nce-1-lesson-095-sentence-006",
+  "sentenceOrder": 6,
+  "english": "What time will we arrive in London?",
+  "lesson": "Lesson 95 Tickets, please.",
+  "notes": [
+    {
+      "title": "What time 询问时刻",
+      "text": "What time 用来询问具体时间点，这里问的是“几点到达伦敦”；回答应给出钟点，而不是笼统的时间范围。"
+    },
+    {
+      "title": "疑问句的词序",
+      "text": "will 是将来时助动词，在疑问句中提到主语 we 前面；arrive in London 表示“到达伦敦”，介词 in 后接城市名称。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：核心译文、结构切分、主干还原和英式音标均正确，句法语义可由上下文支持；仅存在个别表述重复、误把标点并入词目、以及对比说明中把 What time 的含义绝对化的问题，可在不改变原意的前提下更正。（非逐句人工审核）"
+}

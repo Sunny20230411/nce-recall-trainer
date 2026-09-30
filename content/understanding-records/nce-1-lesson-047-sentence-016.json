@@ -1,0 +1,64 @@
+{
+  "chinese": "好的，请给我一块。",
+  "intent": "在对话中接受对方提供的食物，表达自己愿意要这块食物。",
+  "comparison": null,
+  "backbone": {
+    "text": "Yes, please.",
+    "meaning": "礼貌地同意并接受对方提供的物品。"
+  },
+  "structureNotes": [
+    {
+      "title": "礼貌应答的简化表达",
+      "text": "这是日常应答对方邀约、提供物品时的简短礼貌说法。Yes 表示接受；please 在这里不表示命令，而是使接受显得客气、委婉。整句不需要额外加动词，就能完整传递“好的，麻烦您拿给我”的意思。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "肯定应答",
+      "explanation": "回应对方的询问，表示自己同意接受所提供的物品。"
+    },
+    {
+      "text": "please.",
+      "role": "礼貌修饰",
+      "explanation": "在接受对方提供的物品时，表示客气和感谢，使语气更委婉得体。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是（表示同意接受）",
+      "pos": "感叹词",
+      "phonetic": "/jes/",
+      "text": "Yes,"
+    },
+    {
+      "meaning": "请（在接受对方提供的物品时表示客气）",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/",
+      "text": "please."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes, please.",
+      "meaning": "好的，麻烦您给我。",
+      "relation": "整体为礼貌接受对方提供物品的应答表达。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-47",
+  "sentenceId": "nce-1-lesson-047-sentence-016",
+  "sentenceOrder": 16,
+  "english": "Yes, please.",
+  "lesson": "Lesson 47 A cup of coffee",
+  "notes": [
+    {
+      "title": "礼貌应答的简化表达",
+      "text": "这是日常应答对方邀约、提供物品时的简短礼貌说法。Yes 表示接受；please 在这里不表示命令，而是使接受显得客气、委婉。整句不需要额外加动词，就能完整传递“好的，麻烦您拿给我”的意思。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现记录整体可用。仅补充 please 在这种肯定应答中的语用功能，并微调主干与分块释义，避免笼统地把它只解释为请求语气。（非逐句人工审核）"
+}

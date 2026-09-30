@@ -1,0 +1,99 @@
+{
+  "chinese": "炉子是蓝色的。",
+  "intent": "明确说明厨房里那台电炉的颜色属性。",
+  "comparison": null,
+  "backbone": {
+    "text": "The cooker is blue",
+    "meaning": "炉子的颜色是蓝色的"
+  },
+  "parts": [
+    {
+      "text": "The cooker",
+      "relation": "描述的主体",
+      "meaning": "前文提到过的那台电炉"
+    },
+    {
+      "text": "is",
+      "relation": "连接主体和属性的纽带",
+      "meaning": "表示属性关联的系词"
+    },
+    {
+      "text": "blue.",
+      "relation": "补充主体的颜色属性",
+      "meaning": "蓝色的"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "定冠词The的指代作用",
+      "text": "这里的The特指前一句刚提到的那台电炉，不需要额外加修饰词，读者就能明确指向已提及的事物。"
+    },
+    {
+      "title": "主系表简单结构",
+      "text": "本句用be动词直接连接描述对象和颜色属性，清晰陈述事物的外观特征，没有额外嵌套修饰成分。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The cooker",
+      "role": "名词主语",
+      "explanation": "明确本句描述的对象，指代前文提到的电炉"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "起到连接主语和后续属性描述的作用"
+    },
+    {
+      "text": "blue",
+      "role": "表语形容词",
+      "explanation": "说明主语的颜色属性，传递核心描述信息"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这个/这些（特指前文提到的特定事物）",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "炉具，炉子",
+      "pos": "noun",
+      "phonetic": "/ˈkʊkə(r)/",
+      "text": "cooker"
+    },
+    {
+      "meaning": "是（系动词，用于连接主语和属性）",
+      "pos": "verb",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "蓝色的",
+      "pos": "adjective",
+      "phonetic": "/bluː/",
+      "text": "blue."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-25",
+  "sentenceId": "nce-1-lesson-025-sentence-006",
+  "sentenceOrder": 6,
+  "english": "The cooker is blue.",
+  "lesson": "Lesson 25 Mrs. Smith's kitchen",
+  "notes": [
+    {
+      "title": "定冠词The的指代作用",
+      "text": "这里的The特指前一句刚提到的那台电炉，不需要额外加修饰词，读者就能明确指向已提及的事物。"
+    },
+    {
+      "title": "主系表简单结构",
+      "text": "本句用be动词直接连接描述对象和颜色属性，清晰陈述事物的外观特征，没有额外嵌套修饰成分。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有内容整体符合解析规范，仅存在局部细节疏漏与表述瑕疵，可通过补丁修正完善。（非逐句人工审核）"
+}

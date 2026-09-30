@@ -1,0 +1,83 @@
+{
+  "chinese": "福特太太好吗？",
+  "intent": "日常见面寒暄时，向对方询问福特太太的近况与身体状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "How's Mrs. Ford?",
+    "meaning": "询问福特太太的状态如何。"
+  },
+  "parts": [
+    {
+      "text": "How's",
+      "relation": "疑问引导部分（由How和系动词is缩略构成）",
+      "meaning": "怎么样，用于询问人当前的身体/整体状态"
+    },
+    {
+      "text": "Mrs. Ford?",
+      "relation": "被询问的主语",
+      "meaning": "福特太太，作为本次状态询问的目标主体"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "疑问句式省略",
+      "text": "这里How's是How is的口语缩略形式，不用展开成完整的How is，符合日常快速寒暄的表达习惯。"
+    },
+    {
+      "title": "称谓指代清晰",
+      "text": "Mrs. Ford是已婚女性的常规尊称，直接紧跟在疑问部分后，明确指定要询问的对象，没有多余修饰。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "How's",
+      "role": "疑问引导部分",
+      "explanation": "由疑问副词How和系动词is缩略组成，用来引出对人状态的询问。"
+    },
+    {
+      "text": "Mrs. Ford?",
+      "role": "被询问的对象",
+      "explanation": "明确指出被询问近况的人物，结尾问号标识整句的疑问语气。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "怎么样，是How is的口语缩约形式",
+      "pos": "缩约形式",
+      "phonetic": "/haʊz/",
+      "text": "How's"
+    },
+    {
+      "meaning": "太太，对已婚女性的常规尊称",
+      "pos": "名词（称谓类）",
+      "phonetic": "/ˈmɪsɪz/",
+      "text": "Mrs."
+    },
+    {
+      "meaning": "福特，人物姓氏",
+      "pos": "名词",
+      "phonetic": "/fɔːd/",
+      "text": "Ford?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-9",
+  "sentenceId": "nce-1-lesson-009-sentence-008",
+  "sentenceOrder": 8,
+  "english": "How's Mrs. Ford?",
+  "lesson": "Lesson 9 How are you today?",
+  "notes": [
+    {
+      "title": "疑问句式省略",
+      "text": "这里How's是How is的口语缩略形式，不用展开成完整的How is，符合日常快速寒暄的表达习惯。"
+    },
+    {
+      "title": "称谓指代清晰",
+      "text": "Mrs. Ford是已婚女性的常规尊称，直接紧跟在疑问部分后，明确指定要询问的对象，没有多余修饰。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合教学要求，仅存在少量细节标注偏差，可修正完善。（非逐句人工审核）"
+}

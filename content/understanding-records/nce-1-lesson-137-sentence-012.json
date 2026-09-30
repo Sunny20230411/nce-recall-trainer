@@ -1,0 +1,137 @@
+{
+  "chinese": "这是个美好的梦，但一切都取决于‘如果’！",
+  "intent": "先肯定设想的美好，再点明该设想尚未成真，一切都取决于未确定的前提条件。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's a pleasant dream but everything depends on 'if'!",
+    "meaning": "设想很美好，但一切都取决于未确定的条件是否成立。"
+  },
+  "structureNotes": [
+    {
+      "title": "but 连接的转折关系",
+      "text": "but 连接两个语义对立的并列分句，先承认设想美好，再转向现实约束，突出理想与不确定现实的落差。"
+    },
+    {
+      "title": "depend on 的固定搭配",
+      "text": "depends on 是固定短语，意为“取决于、由……决定”，介词 on 不能省略；主语 everything 是单数，所以 depend 要加 -s。"
+    },
+    {
+      "title": "if 的活用",
+      "text": "这里 if 被加引号当作名词使用，指代“能不能赢球、能不能中奖”这个尚未确定的条件，不是普通的连词 if。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's a pleasant dream",
+      "role": "第一个并列分句（主系表结构）",
+      "explanation": "it 指代上文提到的赢足球彩票、实现度假愿望的设想，用主系表结构说明这是一个美好的梦想。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "连接前后两个语义对立的分句，从对梦想的肯定转向对现实的理性说明。"
+    },
+    {
+      "text": "everything depends on 'if'!",
+      "role": "第二个并列分句（主谓宾结构）",
+      "explanation": "主语是 everything，谓语是 depends on，宾语是活用为名词的 'if'，说明所有事情都取决于那个尚未确定的条件。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "它是（it is 的缩写）",
+      "pos": "缩略主语+系动词",
+      "phonetic": "/ɪts/ （撇号表示省略了词中的i）"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "pleasant",
+      "meaning": "令人愉快的，美好的",
+      "pos": "形容词",
+      "phonetic": "/ˈpleznt/"
+    },
+    {
+      "text": "dream",
+      "meaning": "梦，梦想",
+      "pos": "名词",
+      "phonetic": "/driːm/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是，然而",
+      "pos": "并列连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "everything",
+      "meaning": "所有事物，一切",
+      "pos": "代词",
+      "phonetic": "/ˈevriθɪŋ/"
+    },
+    {
+      "text": "depends",
+      "meaning": "依靠，取决于",
+      "pos": "动词（depend的第三人称单数）",
+      "phonetic": "/dɪˈpendz/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……之上（与depend构成固定搭配，意为取决于）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "'if'!",
+      "meaning": "不确定条件，是否（此处被引号引作名词使用，指“如果（条件成立）”）",
+      "pos": "名词",
+      "phonetic": "/ɪf/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's a pleasant dream",
+      "relation": "前半分句，描述核心设想的性质",
+      "meaning": "这是个美好的梦"
+    },
+    {
+      "text": "but",
+      "relation": "转折连词，衔接前后语义相反的两个分句",
+      "meaning": "但"
+    },
+    {
+      "text": "everything depends on 'if'!",
+      "relation": "后半分句，说明该设想完全依赖未确定的前提条件",
+      "meaning": "一切都取决于‘如果’！"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-137",
+  "sentenceId": "nce-1-lesson-137-sentence-012",
+  "sentenceOrder": 12,
+  "english": "It's a pleasant dream but everything depends on 'if'!",
+  "lesson": "Lesson 137 A pleasant dream",
+  "notes": [
+    {
+      "title": "but 连接的转折关系",
+      "text": "but 连接两个语义对立的并列分句，先承认设想美好，再转向现实约束，突出理想与不确定现实的落差。"
+    },
+    {
+      "title": "depend on 的固定搭配",
+      "text": "depends on 是固定短语，意为“取决于、由……决定”，介词 on 不能省略；主语 everything 是单数，所以 depend 要加 -s。"
+    },
+    {
+      "title": "if 的活用",
+      "text": "这里 if 被加引号当作名词使用，指代“能不能赢球、能不能中奖”这个尚未确定的条件，不是普通的连词 if。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子语义、结构分析与词汇标注整体准确，仅存在两处可明确修正的问题：一是词汇表中“It's”的音标/ɪts/未标注撇号对应的省音，二是标注为“'if'!”的条目把英文原文里的标点感叹号误纳入了词条文本，同时音标书写也误把感叹号写入音括号中，其余内容均符合语法规则与语境含义。（非逐句人工审核）"
+}

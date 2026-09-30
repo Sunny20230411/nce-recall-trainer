@@ -1,0 +1,64 @@
+{
+  "chinese": "这几个玻璃杯吗？",
+  "intent": "针对对方提到的玻璃杯，做出指代确认的疑问，核实是不是眼前的这一组玻璃杯",
+  "comparison": null,
+  "backbone": {
+    "text": "These glasses?",
+    "meaning": "（是）这几个玻璃杯吗？"
+  },
+  "parts": [
+    {
+      "text": "These",
+      "relation": "限定后面的名词，说明指代的玻璃杯是近处的一组",
+      "meaning": "这些"
+    },
+    {
+      "text": "glasses?",
+      "relation": "明确该疑问句的核心询问对象，句末问号承载疑问语气",
+      "meaning": "玻璃杯"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略式疑问",
+      "text": "这句是口语里的简略确认问句，省略了语境里默认的核心判断内容，仅靠指代加名词配合问号，就可以完成确认意图，不需要补全冗余句式。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "These glasses",
+      "role": "被确认的名词指代片段",
+      "explanation": "由限定词加名词构成，明确指向近处的一组玻璃杯"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这些",
+      "pos": "限定词",
+      "phonetic": "/ðiːz/",
+      "text": "These"
+    },
+    {
+      "meaning": "玻璃杯",
+      "pos": "名词",
+      "phonetic": "/ˈɡlɑːsɪz/",
+      "text": "glasses?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-23",
+  "sentenceId": "nce-1-lesson-023-sentence-003",
+  "sentenceOrder": 3,
+  "english": "These glasses?",
+  "lesson": "Lesson 23 Which glasses?",
+  "notes": [
+    {
+      "title": "省略式疑问",
+      "text": "这句是口语里的简略确认问句，省略了语境里默认的核心判断内容，仅靠指代加名词配合问号，就可以完成确认意图，不需要补全冗余句式。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本合规，仅存在局部细节可明确修正，不影响核心学习效果（非逐句人工审核）"
+}

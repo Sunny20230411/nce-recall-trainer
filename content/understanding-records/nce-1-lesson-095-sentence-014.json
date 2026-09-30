@@ -1,0 +1,175 @@
+{
+  "chinese": "每小时都有一班火车。你们只是错过了这一班。",
+  "intent": "先告知火车班次规律，再说明你们刚好错过刚开走的那一班。",
+  "comparison": null,
+  "backbone": {
+    "text": "There's a train every hour. You missed this one.",
+    "meaning": "火车每小时发一班，你们错过了这一班。"
+  },
+  "structureNotes": [
+    {
+      "title": "one的指代",
+      "text": "this one里的one替代前面已经提到的train，this one指当前刚开走的这一班火车，避免重复说train。"
+    },
+    {
+      "title": "just的语义",
+      "text": "just修饰missed，表示“刚才、刚好”，强调错过刚发生，说明说话人对错过这件事的惋惜或无奈语气。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There's",
+      "role": "存在句引导结构",
+      "explanation": "There与is缩写为There's，用于引出存在的事物，本身没有独立实义。"
+    },
+    {
+      "text": "a train",
+      "role": "存在句的真实主语",
+      "explanation": "表示存在的对象是一趟火车，是句子的核心主体。"
+    },
+    {
+      "text": "every hour.",
+      "role": "频率时间状语",
+      "explanation": "修饰第一分句，说明火车出现的频率是每小时一次，补充发车间隔。"
+    },
+    {
+      "text": "You",
+      "role": "第二人称主语",
+      "explanation": "指代对话中赶车的你们。"
+    },
+    {
+      "text": "just",
+      "role": "时间副词",
+      "explanation": "修饰错过这个动作，说明动作刚刚发生。"
+    },
+    {
+      "text": "missed",
+      "role": "谓语动词（一般过去时）",
+      "explanation": "表示“错过、没赶上”，是主语发出的动作。"
+    },
+    {
+      "text": "this one.",
+      "role": "动词宾语",
+      "explanation": "this one指代刚开走的这一班火车，是missed的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "There's",
+      "meaning": "有（there is的缩写）",
+      "pos": "缩写（引导存在句）",
+      "phonetic": "/ðeəz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（班）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "train",
+      "meaning": "火车",
+      "pos": "名词",
+      "phonetic": "/treɪn/"
+    },
+    {
+      "text": "every",
+      "meaning": "每一个",
+      "pos": "限定词",
+      "phonetic": "/ˈevri/"
+    },
+    {
+      "text": "hour.",
+      "meaning": "小时",
+      "pos": "名词",
+      "phonetic": "/ˈaʊə/"
+    },
+    {
+      "text": "You",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "just",
+      "meaning": "刚刚，刚才",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "missed",
+      "meaning": "错过，没赶上（动词过去式）",
+      "pos": "动词",
+      "phonetic": "/mɪst/"
+    },
+    {
+      "text": "this",
+      "meaning": "这，这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "one.",
+      "meaning": "一班（指代前面提到的火车）",
+      "pos": "代词",
+      "phonetic": "/wʌn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "There's",
+      "meaning": "存在句引导结构There's",
+      "relation": "引出后文存在的主体"
+    },
+    {
+      "text": "a train",
+      "meaning": "一班火车",
+      "relation": "第一分句的核心主语，说明存在的事物"
+    },
+    {
+      "text": "every hour.",
+      "meaning": "每小时（一班）",
+      "relation": "修饰第一分句，补充说明火车的发车频率"
+    },
+    {
+      "text": "You",
+      "meaning": "你们",
+      "relation": "第二分句的主语，描述行为的发出者"
+    },
+    {
+      "text": "just",
+      "meaning": "刚才、刚好",
+      "relation": "修饰错过的时机，说明动作刚刚发生"
+    },
+    {
+      "text": "missed",
+      "meaning": "错过了",
+      "relation": "描述主语发出的动作"
+    },
+    {
+      "text": "this one.",
+      "meaning": "这一班（火车）",
+      "relation": "说明错过的具体对象，代词one指代前文的train"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-95",
+  "sentenceId": "nce-1-lesson-095-sentence-014",
+  "sentenceOrder": 14,
+  "english": "There's a train every hour. You just missed this one.",
+  "lesson": "Lesson 95 Tickets, please.",
+  "notes": [
+    {
+      "title": "one的指代",
+      "text": "this one里的one替代前面已经提到的train，this one指当前刚开走的这一班火车，避免重复说train。"
+    },
+    {
+      "title": "just的语义",
+      "text": "just修饰missed，表示“刚才、刚好”，强调错过刚发生，说明说话人对错过这件事的惋惜或无奈语气。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体翻译、主干、句法与词义标注基本可用，存在局部表述需要修正：just的语义解释中“没有做别的事”易被理解为表“仅仅”的语义，需修正为贴合时间副词的释义；名词分块的音标需移除末尾错误附带的句点；every hour的句法角色需明确为修饰第一分句的频率状语，这些问题可通过明确修正完成，不影响整体理解。（非逐句人工审核）"
+}

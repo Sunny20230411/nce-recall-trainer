@@ -1,0 +1,131 @@
+{
+  "chinese": "你是不是撞车了？",
+  "intent": "以反问的形式确认对方此前是否发生过撞车事故。",
+  "comparison": {
+    "chinese": "你是不是撞车了？",
+    "english": "Didn't you have a crash?",
+    "steps": [
+      {
+        "label": "先抓核心事实",
+        "text": "have a crash",
+        "explanation": "短语本身表示发生撞车事故，先确认这句话围绕“是否撞车”展开。"
+      },
+      {
+        "label": "再看否定形式的疑问",
+        "text": "Didn't you",
+        "explanation": "把did not提前并缩写为Didn't，放在主语you前面，表示用带有预期的反问确认对方是否经历过这件事，并非字面在说“你没有撞车”。"
+      },
+      {
+        "label": "最后对应中文语序",
+        "text": "Didn't you have a crash?",
+        "explanation": "中文把反问语气放在句首，用“是不是”带出确认意味，和英语把助动词提前的疑问结构对应。"
+      }
+    ],
+    "takeaway": "Did开头的否定疑问句不是单纯问“是不是没有做某事”，更多是带着已有印象向对方确认事实。"
+  },
+  "backbone": {
+    "text": "Didn't you have a crash?",
+    "meaning": "确认对方此前是否发生过撞车事故。"
+  },
+  "structureNotes": [
+    {
+      "title": "否定疑问句的理解",
+      "text": "Didn't是did not的缩写，放在句首构成带确认语气的反问，并非要表达“你没有撞车”的否定陈述。"
+    },
+    {
+      "title": "have a crash的搭配",
+      "text": "crash此处指车祸，have a crash是固定搭配，表示发生撞车事故。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Didn't",
+      "role": "疑问助动词",
+      "explanation": "是did not的缩写形式，放在主语前构成针对过去事件的否定疑问。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指被询问的对方。"
+    },
+    {
+      "text": "have a crash",
+      "role": "谓语部分",
+      "explanation": "表示“发生撞车”的动作内容，是这句话询问的核心事实。"
+    },
+    {
+      "text": "a crash",
+      "role": "宾语",
+      "explanation": "指一场撞车事故，是谓语have所带的具体对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Didn't",
+      "meaning": "是否（did not的缩写，构成否定疑问）",
+      "pos": "助动词",
+      "phonetic": "ˈdɪdnt"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "juː"
+    },
+    {
+      "text": "have",
+      "meaning": "经历，发生",
+      "pos": "动词",
+      "phonetic": "hæv"
+    },
+    {
+      "text": "a",
+      "meaning": "一（场）",
+      "pos": "冠词",
+      "phonetic": "ə"
+    },
+    {
+      "text": "crash?",
+      "meaning": "撞车事故",
+      "pos": "名词",
+      "phonetic": "kræʃ"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Didn't you",
+      "meaning": "你是不是（表疑问引导）",
+      "relation": "引出确认式反问，说明询问指向对方的过往行为。"
+    },
+    {
+      "text": "have",
+      "meaning": "发生",
+      "relation": "对应撞车事件的动作核心。"
+    },
+    {
+      "text": "a crash?",
+      "meaning": "一次撞车",
+      "relation": "被询问的具体事件内容，是确认的核心对象。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-87",
+  "sentenceId": "nce-1-lesson-087-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Didn't you have a crash?",
+  "lesson": "Lesson 87 A car crash",
+  "notes": [
+    {
+      "title": "否定疑问句的理解",
+      "text": "Didn't是did not的缩写，放在句首构成带确认语气的反问，并非要表达“你没有撞车”的否定陈述。"
+    },
+    {
+      "title": "have a crash的搭配",
+      "text": "crash此处指车祸，have a crash是固定搭配，表示发生撞车事故。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体翻译、语法解析和搭配说明基本准确；仅需统一中文称谓，并把词表中最后一项的问号移回原文字符，避免把标点当作词义或句法说明。（非逐句人工审核）"
+}

@@ -1,0 +1,74 @@
+{
+  "chinese": "不，不是。",
+  "intent": "针对前面的一般疑问句给出明确的否定答复",
+  "backbone": {
+    "text": "No, it isn't.",
+    "meaning": "针对前文的一般疑问句，以简短表述直接作出明确的否定答复，表明前文询问的事物不符合对方所说的情况，此处完整还原的语义为「这不是你的雨伞」"
+  },
+  "parts": [
+    {
+      "text": "No,",
+      "relation": "答复的开篇表态",
+      "meaning": "用于直接给出否定答复"
+    },
+    {
+      "text": "it isn't.",
+      "relation": "补充说明具体否定的内容",
+      "meaning": "指代前文询问的事物，给出完整的否定判断"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略指代",
+      "text": "该句是省略式否定答复，it指代前文问句里提到的物品雨伞，isn't是is not的紧缩形式，避免重复问句里已经出现的完整表语内容your umbrella，符合日常对话的简洁表达习惯"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "否定应答标记",
+      "explanation": "直接表明答复是负面的，不需要多余修饰就能传递否定态度"
+    },
+    {
+      "text": "it isn't.",
+      "role": "否定判断分句",
+      "explanation": "借助指代明确否定前文陈述的情况，形式简短自然"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "不（用于否定答复的感叹词）",
+      "pos": "interjection",
+      "phonetic": "/nəʊ/",
+      "text": "No,"
+    },
+    {
+      "meaning": "它（人称代词，指代前文问句中提到的雨伞）",
+      "pos": "pronoun",
+      "phonetic": "/ɪt/",
+      "text": "it"
+    },
+    {
+      "meaning": "不是（系动词is与否定副词not的紧缩形式）",
+      "pos": "contraction",
+      "phonetic": "/ˈɪzənt/",
+      "text": "isn't."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-3",
+  "sentenceId": "nce-1-lesson-003-sentence-009",
+  "sentenceOrder": 9,
+  "english": "No, it isn't.",
+  "lesson": "Lesson 3 Sorry, sir.",
+  "notes": [
+    {
+      "title": "省略指代",
+      "text": "该句是省略式否定答复，it指代前文问句里提到的物品雨伞，isn't是is not的紧缩形式，避免重复问句里已经出现的完整表语内容your umbrella，符合日常对话的简洁表达习惯"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体合规，仅存在局部表述不够精准的细节，修正后可符合面向中文母语成年人的英语教学解析要求（非逐句人工审核）"
+}

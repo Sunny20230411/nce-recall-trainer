@@ -1,0 +1,106 @@
+{
+  "chinese": "对不起，我们没有。",
+  "intent": "店员礼貌回应顾客，表示店内没有顾客想要的那款黑色鞋子。",
+  "comparison": null,
+  "backbone": {
+    "text": "我们没有货",
+    "meaning": "表示店内没有顾客询问的那款黑色鞋子。"
+  },
+  "structureNotes": [
+    {
+      "title": "any的指代用法",
+      "text": "any在这里不是泛指「任何」，而是指代上文提到的黑色的鞋，避免重复说the black shoes，符合上下文的省略习惯。"
+    },
+    {
+      "title": "否定句的礼貌表达",
+      "text": "先说I'm sorry再陈述事实是服务场景常用的委婉说法，让拒绝更礼貌，不会显得生硬。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm sorry.",
+      "role": "礼貌致歉短句",
+      "explanation": "用于提前表达歉意，缓冲后面的拒绝内容。"
+    },
+    {
+      "text": "We don't have any.",
+      "role": "主谓宾结构的否定陈述句",
+      "explanation": "陈述店内没有对应商品的事实。"
+    },
+    {
+      "text": "any",
+      "role": "代词",
+      "explanation": "指代前文提到的黑色的鞋。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I'm",
+      "meaning": "我是",
+      "pos": "缩写（I am）",
+      "phonetic": "aɪm"
+    },
+    {
+      "text": "sorry.",
+      "meaning": "抱歉的",
+      "pos": "形容词",
+      "phonetic": "ˈsɒri"
+    },
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "wiː"
+    },
+    {
+      "text": "don't",
+      "meaning": "不",
+      "pos": "助动词否定缩写（do not）",
+      "phonetic": "dəʊnt"
+    },
+    {
+      "text": "have",
+      "meaning": "有",
+      "pos": "动词",
+      "phonetic": "hæv"
+    },
+    {
+      "text": "any.",
+      "meaning": "任何（指代前文提到的黑色鞋子）",
+      "pos": "代词",
+      "phonetic": "ˈeni"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I'm sorry.",
+      "relation": "礼貌铺垫，表达歉意",
+      "meaning": "对不起"
+    },
+    {
+      "text": "We don't have any.",
+      "relation": "核心陈述，说明没有对应商品",
+      "meaning": "我们没有（货）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-75",
+  "sentenceId": "nce-1-lesson-075-sentence-006",
+  "sentenceOrder": 6,
+  "english": "I'm sorry. We don't have any.",
+  "lesson": "Lesson 75 Uncomfortable shoes",
+  "notes": [
+    {
+      "title": "any的指代用法",
+      "text": "any在这里不是泛指「任何」，而是指代上文提到的黑色的鞋，避免重复说the black shoes，符合上下文的省略习惯。"
+    },
+    {
+      "title": "否定句的礼貌表达",
+      "text": "先说I'm sorry再陈述事实是服务场景常用的委婉说法，让拒绝更礼貌，不会显得生硬。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原有解析整体准确，仅存在一处细节歧义：单词表中any的中文释义末尾带有句号，无法明确是句子标点还是释义内容的组成部分，容易造成误解；其余释义、句法标注、语境解释、主干与分块翻译均符合原文和上下文，any作为代词指代前文提到的黑色鞋子的说明准确，否定句委婉表达的语境解释恰当。（非逐句人工审核）"
+}

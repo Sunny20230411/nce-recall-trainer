@@ -1,0 +1,138 @@
+{
+  "chinese": "我倒是能等，可我的牙疼等不了！",
+  "intent": "在牙科就诊的对话场景中，病人向牙医说明自己本身可以忍耐等待就诊，但剧烈的牙痛已经无法继续拖延，以此表达希望尽快就诊的迫切诉求。",
+  "comparison": {
+    "chinese": "我倒是能等，可我的牙疼等不了！",
+    "english": "I can wait, but my toothache can't!",
+    "steps": [
+      {
+        "label": "省略语义还原",
+        "text": "can't = can't wait",
+        "explanation": "后半句的can't后省略了前文出现过的实义动词wait，是英语并列结构中常见的承前省略，避免重复冗余，读者可以自然将省略的内容补全，语义清晰。"
+      },
+      {
+        "label": "拟人修辞效果",
+        "text": "toothache can't",
+        "explanation": "牙痛本身是生理症状，并不具备人主动“等待”的动作能力，这里将牙痛拟人化，用它“等不了”的表述，夸张突出疼痛的剧烈程度，强化病人希望立刻就诊的急切心情。"
+      }
+    ],
+    "takeaway": "理解这句话时，要先把后半句承前省略的wait还原，再体会拟人修辞的表达效果：病人并不是说牙痛本身拥有行动能力，而是借这种生动的对比，说明自己主观上愿意等候、但客观上牙痛已经无法支持继续等待的窘境。"
+  },
+  "backbone": {
+    "text": "I can wait, but my toothache can't!",
+    "meaning": "我本身可以等待就诊，但剧烈的牙痛已经支撑不了继续拖延。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列转折结构",
+      "text": "这句话由转折连词but连接两个语义形成反差的分句，前一个分句说明“我能等”，后一个分句用转折语气点出核心矛盾：牙痛拖不起，这种对比强化了病人要求立刻就诊的急切感。"
+    },
+    {
+      "title": "承前省略的用法",
+      "text": "后半句can't后面省略了与前半句重复的动词wait，属于英语并列结构中的常见省略，避免重复啰嗦，语义仍然清晰明确。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "前一分句主语",
+      "explanation": "指代说话的病人本人。"
+    },
+    {
+      "text": "can wait,",
+      "role": "前一分句谓语",
+      "explanation": "说明主语“我”具备忍耐等待的可能性。"
+    },
+    {
+      "text": "but",
+      "role": "转折并列连词",
+      "explanation": "连接前后两个语义形成转折对比的分句，引出与“我能等”形成反差的情况。"
+    },
+    {
+      "text": "my toothache",
+      "role": "后一分句主语",
+      "explanation": "此处使用拟人手法，把牙痛症状当作动作主体，指代“牙痛带来的剧痛无法忍耐”这一核心问题。"
+    },
+    {
+      "text": "can't!",
+      "role": "后一分句谓语",
+      "explanation": "完整形式是can't wait，承前省略了动词wait，表达“（牙痛的状态）无法再忍耐、不能再等待”的含义。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "can",
+      "meaning": "能够、可以",
+      "pos": "情态动词",
+      "phonetic": "/kæn/"
+    },
+    {
+      "text": "wait,",
+      "meaning": "等待",
+      "pos": "动词",
+      "phonetic": "/weɪt/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是、可是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词（形容词性物主代词）",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "toothache",
+      "meaning": "牙痛",
+      "pos": "名词",
+      "phonetic": "/ˈtuːθeɪk/"
+    },
+    {
+      "text": "can't!",
+      "meaning": "不能、无法（此处完整语义为“不能再等”）",
+      "pos": "情态动词（can的否定形式）",
+      "phonetic": "/kɑːnt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I can wait,",
+      "meaning": "我倒是能等",
+      "relation": "陈述分句的主语与谓语内容，交代说话人自身主观上可以忍耐等待的状态。"
+    },
+    {
+      "text": "but my toothache can't!",
+      "meaning": "可我的牙疼等不了！",
+      "relation": "通过转折连接词引出核心矛盾：牙痛的剧痛无法继续等待，解释为什么自己不能拖到下午再就诊。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-77",
+  "sentenceId": "nce-1-lesson-077-sentence-015",
+  "sentenceOrder": 15,
+  "english": "I can wait, but my toothache can't!",
+  "lesson": "Lesson 77 Terrible toothache",
+  "notes": [
+    {
+      "title": "并列转折结构",
+      "text": "这句话由转折连词but连接两个语义形成反差的分句，前一个分句说明“我能等”，后一个分句用转折语气点出核心矛盾：牙痛拖不起，这种对比强化了病人要求立刻就诊的急切感。"
+    },
+    {
+      "title": "承前省略的用法",
+      "text": "后半句can't后面省略了与前半句重复的动词wait，属于英语并列结构中的常见省略，避免重复啰嗦，语义仍然清晰明确。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体翻译、主干成分划分、省略修辞讲解基本准确，对my toothache拟人主语、can't承前省略wait的逻辑说明均符合原文语境；仅存在个别可优化的表述瑕疵，不影响整体正确性，修正后可投入使用。（非逐句人工审核）"
+}

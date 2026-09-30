@@ -1,0 +1,125 @@
+{
+  "chinese": "谁来照看房子？",
+  "intent": "向对方询问度假期间负责看管房子的人选。",
+  "comparison": null,
+  "backbone": {
+    "text": "Who's going to look after the house?",
+    "meaning": "询问谁会负责照看这处房子。"
+  },
+  "structureNotes": [
+    {
+      "title": "Who's 作疑问主语",
+      "text": "Who's 是 Who is 的缩写，疑问代词 Who 本身就是句子的主语，后面直接接 be going to 结构，不需要额外加 do/does 构成疑问倒装。"
+    },
+    {
+      "title": "be going to 表将来打算",
+      "text": "be going to 在这里表示将来的计划安排，不是“正在去”的进行含义，指即将发生的照看行为。"
+    },
+    {
+      "title": "look after 为固定短语",
+      "text": "look after 是固定的动词短语，意为“照看、照料”，后面直接接宾语 the house，不能拆成“看……之后”理解。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Who's",
+      "role": "疑问主语 + be 动词缩写",
+      "explanation": "Who 作主语，'s 是 is 的缩写，共同构成句子的疑问发起部分。"
+    },
+    {
+      "text": "going to look after",
+      "role": "谓语（be going to 结构 + 动词短语）",
+      "explanation": "be going to 表示将来打算，look after 是固定短语，意为照看，共同表达“将要照看”的动作含义。"
+    },
+    {
+      "text": "the house?",
+      "role": "宾语",
+      "explanation": "动作 look after 的对象，指需要被照看的房子。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Who's",
+      "meaning": "谁（who is 的缩写）",
+      "pos": "代词+be动词缩写",
+      "phonetic": "huːz"
+    },
+    {
+      "text": "going",
+      "meaning": "将要、打算（与be、to构成表将来的结构）",
+      "pos": "动词",
+      "phonetic": "ˈɡəʊɪŋ"
+    },
+    {
+      "text": "to",
+      "meaning": "（与going构成be going to将来时结构，本身无实义）",
+      "pos": "不定式符号",
+      "phonetic": "tuː"
+    },
+    {
+      "text": "look",
+      "meaning": "看、（与after构成短语表示照看）",
+      "pos": "动词",
+      "phonetic": "lʊk"
+    },
+    {
+      "text": "after",
+      "meaning": "在……之后（与look构成固定短语look after 表照看）",
+      "pos": "介词",
+      "phonetic": "ˈɑːftə"
+    },
+    {
+      "text": "the",
+      "meaning": "这、那（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "house?",
+      "meaning": "房子",
+      "pos": "名词",
+      "phonetic": "haʊs"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Who's",
+      "relation": "询问谁是后续将来动作的执行者，作句子的疑问主语",
+      "meaning": "是谁（Who is 的缩写）"
+    },
+    {
+      "text": "going to look after",
+      "relation": "说明即将发生的计划动作，表达“将要照看”的行为",
+      "meaning": "打算去照看（look after是固定短语，意为照料、看管）"
+    },
+    {
+      "text": "the house?",
+      "relation": "是前面look after这个动作的照料对象，作动词短语的宾语",
+      "meaning": "这栋房子"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-83",
+  "sentenceId": "nce-1-lesson-083-sentence-019",
+  "sentenceOrder": 19,
+  "english": "Who's going to look after the house?",
+  "lesson": "Lesson 83 Going on holiday",
+  "notes": [
+    {
+      "title": "Who's 作疑问主语",
+      "text": "Who's 是 Who is 的缩写，疑问代词 Who 本身就是句子的主语，后面直接接 be going to 结构，不需要额外加 do/does 构成疑问倒装。"
+    },
+    {
+      "title": "be going to 表将来打算",
+      "text": "be going to 在这里表示将来的计划安排，不是“正在去”的进行含义，指即将发生的照看行为。"
+    },
+    {
+      "title": "look after 为固定短语",
+      "text": "look after 是固定的动词短语，意为“照看、照料”，后面直接接宾语 the house，不能拆成“看……之后”理解。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整句翻译与语法分析基本正确，Who 作疑问主语、be going to 表将来打算、look after 为固定短语的说明均符合语境。但 to 的词性标注将不定式符号归为动词，与本身设定的词性说明矛盾，属于明确的标注错误，需更正。（非逐句人工审核）"
+}

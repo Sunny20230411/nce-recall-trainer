@@ -1,0 +1,159 @@
+{
+  "chinese": "这是一张好照片。这些人是谁？",
+  "intent": "先对眼前正在查看的照片给出正面评价，再针对照片里出现的人物提出身份询问，为后续对方介绍旅途中结识的人做铺垫。",
+  "comparison": null,
+  "backbone": {
+    "text": "这是张好照片，这些人是谁？",
+    "meaning": "评价当前正在和对方一同查看的照片拍得不错，进而询问照片中所拍到的人是什么身份。"
+  },
+  "structureNotes": [
+    {
+      "title": "近指代词的语境指向",
+      "text": "第一句里的 This 是近指代词，指代前文刚提到、对方正拿给说话人看的那张照片，不是泛指任意一张好照片，理解时要绑定前文的对话场景。"
+    },
+    {
+      "title": "指代照片内容时的these",
+      "text": "第二句里的 these people 指画面中离观看者注意力更近、正被指向的照片人物，these 在这里不是形容物理空间上站在近处的真人，而是顺着观看照片的视线锁定画面里的人群。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "This",
+      "role": "陈述句主语",
+      "explanation": "近指代词，指代前文 Mike 正拿给说话人看的那张照片，是句子描述的核心对象。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "连接主语 This 和后面的表语，说明主语的性质属性。"
+    },
+    {
+      "text": "a good photograph",
+      "role": "表语",
+      "explanation": "说明主语 This 所指代的照片是拍得不错的作品。"
+    },
+    {
+      "text": "Who",
+      "role": "疑问词",
+      "explanation": "用来发起身份询问，是整个问句要确认的核心未知信息。"
+    },
+    {
+      "text": "are",
+      "role": "问句中的系动词",
+      "explanation": "将疑问词 Who 和主语 these people 连接起来，构成询问身份的疑问结构。"
+    },
+    {
+      "text": "these people",
+      "role": "问句主语",
+      "explanation": "指代照片里拍到的那群人，是被询问身份的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "This",
+      "meaning": "这",
+      "pos": "代词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be的第三人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "good",
+      "meaning": "好的",
+      "pos": "形容词",
+      "phonetic": "/ɡʊd/"
+    },
+    {
+      "text": "photograph.",
+      "meaning": "照片",
+      "pos": "名词",
+      "phonetic": "/ˈfəʊtəɡrɑːf/"
+    },
+    {
+      "text": "Who",
+      "meaning": "谁",
+      "pos": "疑问代词",
+      "phonetic": "/huː/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（be的第二人称/复数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɑː/"
+    },
+    {
+      "text": "these",
+      "meaning": "这些",
+      "pos": "限定词",
+      "phonetic": "/ðiːz/"
+    },
+    {
+      "text": "people?",
+      "meaning": "人，人们",
+      "pos": "名词",
+      "phonetic": "/ˈpiːpl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "This",
+      "relation": "陈述句的描述主体，指代眼前正在被查看的照片",
+      "meaning": "这"
+    },
+    {
+      "text": "is",
+      "relation": "连接描述主体和后续对照片的评价",
+      "meaning": "是"
+    },
+    {
+      "text": "a good photograph.",
+      "relation": "说明主体的属性，给出对照片质量的正面评价",
+      "meaning": "一张好照片。"
+    },
+    {
+      "text": "Who",
+      "relation": "明确询问的核心方向，即人物的身份",
+      "meaning": "谁"
+    },
+    {
+      "text": "are",
+      "relation": "连接疑问词和被询问的对象",
+      "meaning": "是"
+    },
+    {
+      "text": "these people?",
+      "relation": "询问的具体对象，即照片里出现的那群人",
+      "meaning": "这些人？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-123",
+  "sentenceId": "nce-1-lesson-123-sentence-003",
+  "sentenceOrder": 3,
+  "english": "This is a good photograph. Who are these people?",
+  "lesson": "Lesson 123 A trip to Australia",
+  "notes": [
+    {
+      "title": "近指代词的语境指向",
+      "text": "第一句里的 This 是近指代词，指代前文刚提到、对方正拿给说话人看的那张照片，不是泛指任意一张好照片，理解时要绑定前文的对话场景。"
+    },
+    {
+      "title": "指代照片内容时的these",
+      "text": "第二句里的 these people 指画面中离观看者注意力更近、正被指向的照片人物，these 在这里不是形容物理空间上站在近处的真人，而是顺着观看照片的视线锁定画面里的人群。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：对两个连续句子的指代关系、成分划分和词义解释整体合理，仅词级数据存在拆分录入的瑕疵：photograph 的词条文本误把词末句号并入文本，people 的词条文本误把句末问号并入文本，两个词的英式音标标注准确，其余内容均符合对话场景和语法事实。（非逐句人工审核）"
+}

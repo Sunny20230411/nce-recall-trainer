@@ -1,0 +1,105 @@
+{
+  "chinese": "我们也许哪儿也不去。",
+  "intent": "表达对出行计划的不确定，暗示有可能取消度假、待在原地的情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "We might not go anywhere.",
+    "meaning": "我们可能不会去任何地方，也就是可能待在原地、不出行度假。"
+  },
+  "structureNotes": [
+    {
+      "title": "否定的范围",
+      "text": "not 放在情态动词 might 后、实义动词 go 前，否定的是“去任何地方”这件事，而不是否定 might 本身的推测语气。"
+    },
+    {
+      "title": "anywhere 的位置",
+      "text": "anywhere 放在不及物动词 go 后面，直接表示“去的地点”，不需要加介词 to；中文用“哪儿也不”覆盖同一个否定范围。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We",
+      "role": "主语",
+      "explanation": "指说话者一方的“我们”，是出行动作的发出者。"
+    },
+    {
+      "text": "might not go",
+      "role": "带情态动词的谓语",
+      "explanation": "might 表不确定的推测，not 表否定，go 是表示移动的实义动词。"
+    },
+    {
+      "text": "anywhere.",
+      "role": "地点性状语",
+      "explanation": "修饰 go，说明去的地点范围；在否定句中表示“任何地方”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "might",
+      "meaning": "也许，可能（表推测）",
+      "pos": "情态动词",
+      "phonetic": "/maɪt/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "go",
+      "meaning": "去",
+      "pos": "动词",
+      "phonetic": "/ɡəʊ/"
+    },
+    {
+      "text": "anywhere.",
+      "meaning": "任何地方",
+      "pos": "副词",
+      "phonetic": "/ˈeniweə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We",
+      "relation": "句子的主语，说明出行动作的发出者",
+      "meaning": "我们"
+    },
+    {
+      "text": "might not go",
+      "relation": "带推测语气的谓语部分，说明对出行可能性的否定判断",
+      "meaning": "也许不会去"
+    },
+    {
+      "text": "anywhere.",
+      "relation": "补充说明go的地点范围，在否定语境下对应中文的“哪儿也不”",
+      "meaning": "任何地方"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-83",
+  "sentenceId": "nce-1-lesson-083-sentence-016",
+  "sentenceOrder": 16,
+  "english": "We might not go anywhere.",
+  "lesson": "Lesson 83 Going on holiday",
+  "notes": [
+    {
+      "title": "否定的范围",
+      "text": "not 放在情态动词 might 后、实义动词 go 前，否定的是“去任何地方”这件事，而不是否定 might 本身的推测语气。"
+    },
+    {
+      "title": "anywhere 的位置",
+      "text": "anywhere 放在不及物动词 go 后面，直接表示“去的地点”，不需要加介词 to；中文用“哪儿也不”覆盖同一个否定范围。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确，情态推测语气、否定范围、anywhere作地点副词的用法说明均符合英语规则。仅对anywhere的词性标注存在歧义易引发误解，做小幅更正。（非逐句人工审核）"
+}

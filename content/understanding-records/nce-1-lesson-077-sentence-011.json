@@ -1,0 +1,143 @@
+{
+  "chinese": "护士，我必须现在看牙医。",
+  "intent": "向护士强调自己必须立刻就诊看牙医的迫切诉求。",
+  "comparison": {
+    "chinese": "中文会先点明对话对象“护士”，再陈述核心的迫切诉求。",
+    "english": "英文先把核心诉求完整说出，再用逗号隔开称呼语nurse收尾。",
+    "steps": [
+      {
+        "label": "核心诉求前置",
+        "text": "I must see the dentist now",
+        "explanation": "先说明自己的硬性要求：必须立刻就诊，突出表达的紧迫感。"
+      },
+      {
+        "label": "称呼语后置",
+        "text": "nurse",
+        "explanation": "逗号隔开的nurse是对话对象，放在句末，和中文把称呼放开头的语序不同。"
+      }
+    ],
+    "takeaway": "称呼人时，中文习惯把称呼放句首，英文可在核心表意之后用逗号加称呼收尾，理解时不用严格按开头顺序找称呼。"
+  },
+  "backbone": {
+    "text": "I must see the dentist now",
+    "meaning": "我必须现在就去看牙医。"
+  },
+  "structureNotes": [
+    {
+      "title": "称呼语的位置",
+      "text": "nurse用逗号和主句隔开，是呼语，明确这句话是对护士说的，放在句末不影响主句的主谓宾结构理解。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "now放在动词短语see the dentist之后，明确看牙这个动作的时间是“现在、立刻”，强调了患者的迫切情绪。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话的患者，是“看牙医”这个动作的发出者。"
+    },
+    {
+      "text": "must see the dentist",
+      "role": "谓语部分",
+      "explanation": "情态动词must表达“必须、得”的硬性要求，后接动词原形see，共同构成带有迫切诉求的谓语，the dentist是see的宾语，也就是就诊对象。"
+    },
+    {
+      "text": "now",
+      "role": "时间状语",
+      "explanation": "修饰谓语动作，明确动作要在当下立刻发生，突出患者不想等待的迫切心情。"
+    },
+    {
+      "text": "nurse",
+      "role": "呼语",
+      "explanation": "用逗号和主句隔开，指明这句话的听话对象是护士，不参与主句的主干结构。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "must",
+      "meaning": "必须、得",
+      "pos": "情态动词",
+      "phonetic": "/mʌst/"
+    },
+    {
+      "text": "see",
+      "meaning": "就诊、看（医生）",
+      "pos": "动词",
+      "phonetic": "/siː/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，无实义，限定特指牙医）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "dentist",
+      "meaning": "牙医",
+      "pos": "名词",
+      "phonetic": "/ˈdentɪst/"
+    },
+    {
+      "text": "now,",
+      "meaning": "现在、立刻",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    },
+    {
+      "text": "nurse.",
+      "meaning": "护士",
+      "pos": "名词",
+      "phonetic": "/nɜːs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I must",
+      "relation": "引出说话人的身份和强硬态度",
+      "meaning": "我必须"
+    },
+    {
+      "text": "see the dentist",
+      "relation": "陈述核心诉求的具体内容",
+      "meaning": "看牙医"
+    },
+    {
+      "text": "now,",
+      "relation": "说明动作发生的紧迫时间",
+      "meaning": "现在"
+    },
+    {
+      "text": "nurse.",
+      "relation": "点明说话的对方对象",
+      "meaning": "护士"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-77",
+  "sentenceId": "nce-1-lesson-077-sentence-011",
+  "sentenceOrder": 11,
+  "english": "I must see the dentist now, nurse.",
+  "lesson": "Lesson 77 Terrible toothache",
+  "notes": [
+    {
+      "title": "称呼语的位置",
+      "text": "nurse用逗号和主句隔开，是呼语，明确这句话是对护士说的，放在句末不影响主句的主谓宾结构理解。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "now放在动词短语see the dentist之后，明确看牙这个动作的时间是“现在、立刻”，强调了患者的迫切情绪。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构划分、词义解释、中英语序对比基本准确，仅存在一处单词音标尾随原文本标点的瑕疵，不影响核心语义理解与学习，修正后可通过。（非逐句人工审核）"
+}

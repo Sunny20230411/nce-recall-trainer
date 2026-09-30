@@ -1,0 +1,74 @@
+{
+  "chinese": "谢谢您，先生。",
+  "intent": "向对方表达感谢，同时礼貌称呼对方为先生",
+  "backbone": {
+    "text": "Thank you, sir.",
+    "meaning": "向您道谢，先生"
+  },
+  "parts": [
+    {
+      "text": "Thank you,",
+      "relation": "核心表达的动作与对象",
+      "meaning": "向你道谢"
+    },
+    {
+      "text": "sir.",
+      "relation": "补充道谢的对象身份，明确称呼指向",
+      "meaning": "礼貌称呼对方为先生"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "称呼语的位置",
+      "text": "称呼语sir放在感谢表达的末尾，前面用逗号和核心感谢内容隔开，是口语里礼貌的称谓补充，不影响核心表意"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Thank you",
+      "role": "核心致谢表达",
+      "explanation": "直接用来向对方表达谢意的常用固定口语片段"
+    },
+    {
+      "text": "sir",
+      "role": "礼貌称呼语",
+      "explanation": "用来尊称男性对方，明确致谢的指向对象，属于口语里的礼貌补充成分"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "感谢",
+      "pos": "动词",
+      "phonetic": "/θæŋk/",
+      "text": "Thank"
+    },
+    {
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you,"
+    },
+    {
+      "meaning": "先生",
+      "pos": "名词",
+      "phonetic": "/sɜː(r)/",
+      "text": "sir."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-11",
+  "sentenceId": "nce-1-lesson-011-sentence-012",
+  "sentenceOrder": 12,
+  "english": "Thank you, sir.",
+  "lesson": "Lesson 11 Is this your shirt?",
+  "notes": [
+    {
+      "title": "称呼语的位置",
+      "text": "称呼语sir放在感谢表达的末尾，前面用逗号和核心感谢内容隔开，是口语里礼貌的称谓补充，不影响核心表意"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体合规，仅存在局部表述不严谨细节，已完成针对性修正，未改动原文、ID及原有顺序结构。（非逐句人工审核）"
+}

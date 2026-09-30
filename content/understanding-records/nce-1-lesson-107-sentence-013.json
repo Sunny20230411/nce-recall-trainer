@@ -1,0 +1,253 @@
+{
+  "chinese": "可是那件蓝色的比这件绿色的长。恐怕这件绿色连衣裙对我来说太短了。",
+  "intent": "说明两件连衣裙的长度对比，并表达绿色连衣裙穿着偏短的顾虑。",
+  "comparison": {
+    "chinese": "英语先说主语和比较结果，再用 than 引出比较对象；汉语则把“比＋对象”放在形容词之前：那件蓝色的 比 这件绿色的 长。",
+    "english": "the blue one's longer than the green one; the green dress is too short for me.",
+    "steps": [
+      {
+        "label": "先确认比较双方",
+        "text": "the blue one / the green one",
+        "explanation": "one 指代上文出现的 dress，避免重复；上下文已知道在比较连衣裙。"
+      },
+      {
+        "label": "再接比较结果",
+        "text": "the blue one's longer than the green one",
+        "explanation": "语序是“蓝色的那件 是 更长的 比 绿色的那件”；汉语习惯说“比绿色的长”，than 只是引出比较对象。"
+      },
+      {
+        "label": "说明穿着感受",
+        "text": "too short for me",
+        "explanation": "too 表示“太……了”，for me 表示“对我来说”，合起来表示这件绿色连衣裙对我而言太短。"
+      }
+    ],
+    "takeaway": "读懂比较句的关键是先分清谁和谁比，再看 than 后面的比较对象；one 只是回指上文的连衣裙，不要把它误当成“一个”。"
+  },
+  "backbone": {
+    "text": "But the blue one's longer than the green one. I'm afraid the green dress is too short for me.",
+    "meaning": "蓝色连衣裙比绿色连衣裙长，绿色连衣裙对我来说太短。"
+  },
+  "structureNotes": [
+    {
+      "title": "one 的指代",
+      "text": "one's 中 one 指代上文提到的 dress，'s 是 is 的缩写，避免重复出现 dress。"
+    },
+    {
+      "title": "比较结构",
+      "text": "longer 是 long 的比较级，意思是“更长的”；than 后接比较对象，直接对照两件连衣裙的长度。"
+    },
+    {
+      "title": "I'm afraid 的委婉语气",
+      "text": "I'm afraid 在这里用来委婉表达担忧，意思是“恐怕、担心”，后面接说明具体顾虑的内容。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "But",
+      "role": "转折连词",
+      "explanation": "承接上文“蓝色连衣裙更好看”，转折引出长度不足的顾虑。"
+    },
+    {
+      "text": "the blue one",
+      "role": "第一分句主语",
+      "explanation": "one 指代前文的 dress，说明主语是那件蓝色连衣裙。"
+    },
+    {
+      "text": "'s",
+      "role": "系动词缩略",
+      "explanation": "是 is 的缩写，和后面的 longer 构成“主语＋系动词＋表语”结构。"
+    },
+    {
+      "text": "longer than the green one",
+      "role": "比较结构表语",
+      "explanation": "longer 是形容词 long 的比较级，than the green one 引出比较对象绿色连衣裙。"
+    },
+    {
+      "text": "I'm afraid",
+      "role": "委婉表达短语",
+      "explanation": "用来引出说话人对绿色连衣裙的顾虑，不是表达“我害怕”的实际情绪。"
+    },
+    {
+      "text": "the green dress",
+      "role": "第二分句主语",
+      "explanation": "指代前句里的 green one，也就是绿色连衣裙。"
+    },
+    {
+      "text": "is too short for me",
+      "role": "主系表结构表语",
+      "explanation": "too 修饰 short，表示“太短”，for me 说明短是相对于“我”的穿着感受而言。"
+    }
+  ],
+  "words": [
+    {
+      "text": "But",
+      "meaning": "可是",
+      "pos": "连词",
+      "phonetic": "bʌt"
+    },
+    {
+      "text": "the",
+      "meaning": "这件/那件（定指）",
+      "pos": "冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "blue",
+      "meaning": "蓝色的",
+      "pos": "形容词",
+      "phonetic": "bluː"
+    },
+    {
+      "text": "one's",
+      "meaning": "一件（连衣裙）（one is 的缩写）",
+      "pos": "代词+动词缩写",
+      "phonetic": "wʌnz"
+    },
+    {
+      "text": "longer",
+      "meaning": "更长的",
+      "pos": "形容词（long 的比较级）",
+      "phonetic": "ˈlɒŋɡə(r)"
+    },
+    {
+      "text": "than",
+      "meaning": "比",
+      "pos": "介词",
+      "phonetic": "ðæn"
+    },
+    {
+      "text": "the",
+      "meaning": "这件/那件（定指）",
+      "pos": "冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "green",
+      "meaning": "绿色的",
+      "pos": "形容词",
+      "phonetic": "ɡriːn"
+    },
+    {
+      "text": "one.",
+      "meaning": "一件（连衣裙）",
+      "pos": "代词",
+      "phonetic": "wʌn"
+    },
+    {
+      "text": "I'm",
+      "meaning": "我是（I am 的缩写）",
+      "pos": "代词+动词缩写",
+      "phonetic": "aɪm"
+    },
+    {
+      "text": "afraid",
+      "meaning": "恐怕；担心",
+      "pos": "形容词",
+      "phonetic": "əˈfreɪd"
+    },
+    {
+      "text": "the",
+      "meaning": "这件（定指）",
+      "pos": "冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "green",
+      "meaning": "绿色的",
+      "pos": "形容词",
+      "phonetic": "ɡriːn"
+    },
+    {
+      "text": "dress",
+      "meaning": "连衣裙",
+      "pos": "名词",
+      "phonetic": "dres"
+    },
+    {
+      "text": "is",
+      "meaning": "是（系动词）",
+      "pos": "动词",
+      "phonetic": "ɪz"
+    },
+    {
+      "text": "too",
+      "meaning": "太；过于",
+      "pos": "副词",
+      "phonetic": "tuː"
+    },
+    {
+      "text": "short",
+      "meaning": "短的",
+      "pos": "形容词",
+      "phonetic": "ʃɔːt"
+    },
+    {
+      "text": "for",
+      "meaning": "对……来说",
+      "pos": "介词",
+      "phonetic": "fɔː(r)"
+    },
+    {
+      "text": "me.",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "miː"
+    }
+  ],
+  "parts": [
+    {
+      "text": "But",
+      "relation": "转折连接前一句对蓝色裙子的正面评价",
+      "meaning": "可是"
+    },
+    {
+      "text": "the blue one's",
+      "relation": "第一分句的主语，指代前文提到的蓝色连衣裙",
+      "meaning": "那件蓝色的（连衣裙）是"
+    },
+    {
+      "text": "longer than the green one.",
+      "relation": "主语的表语，用比较级说明两件连衣裙的长度对比",
+      "meaning": "比这件绿色的更长。"
+    },
+    {
+      "text": "I'm afraid",
+      "relation": "委婉引出说话人的顾虑和判断",
+      "meaning": "恐怕"
+    },
+    {
+      "text": "the green dress",
+      "relation": "第二分句的主语",
+      "meaning": "这件绿色连衣裙"
+    },
+    {
+      "text": "is too short for me.",
+      "relation": "主语的表语，说明绿色连衣裙的长度不合穿着需求",
+      "meaning": "对我来说太短了。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-107",
+  "sentenceId": "nce-1-lesson-107-sentence-013",
+  "sentenceOrder": 13,
+  "english": "But the blue one's longer than the green one. I'm afraid the green dress is too short for me.",
+  "lesson": "Lesson 107 It's too small.",
+  "notes": [
+    {
+      "title": "one 的指代",
+      "text": "one's 中 one 指代上文提到的 dress，'s 是 is 的缩写，避免重复出现 dress。"
+    },
+    {
+      "title": "比较结构",
+      "text": "longer 是 long 的比较级，意思是“更长的”；than 后接比较对象，直接对照两件连衣裙的长度。"
+    },
+    {
+      "title": "I'm afraid 的委婉语气",
+      "text": "I'm afraid 在这里用来委婉表达担忧，意思是“恐怕、担心”，后面接说明具体顾虑的内容。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解释准确：比较句结构清晰，one 指代上文连衣裙，I'm afraid 的委婉语气说明正确，语音、分块和翻译均无明显问题。仅需把 than 在该比较结构中的词性明确为介词，因为其后接名词短语 the green one，而非引导从句；这一分类细化不影响整体理解。（非逐句人工审核）"
+}

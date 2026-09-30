@@ -1,0 +1,117 @@
+{
+  "chinese": "她是在这里买的吗？",
+  "intent": "询问对方，她之前购买某物品的地点是否是在这里。",
+  "comparison": null,
+  "backbone": {
+    "text": "Did she buy them here?",
+    "meaning": "她在这里买的吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "一般过去时的疑问结构",
+      "text": "本句使用一般过去时的一般疑问句结构，助动词Did放在句首构成疑问语序，后面的实义动词buy保持原形；代词them指代前文提到的鞋子，地点副词here直接说明购买地点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Did",
+      "role": "助动词",
+      "explanation": "辅助构成一般过去时的一般疑问句，无独立实义含义，帮助体现疑问语气和过去时间。"
+    },
+    {
+      "text": "she",
+      "role": "主语",
+      "explanation": "指代前文提到的“我的姐姐”，是这个购买动作的发出者。"
+    },
+    {
+      "text": "buy",
+      "role": "谓语核心",
+      "explanation": "表达核心动作“购买”，因为前面有助动词Did，所以使用动词原形。"
+    },
+    {
+      "text": "them",
+      "role": "宾语",
+      "explanation": "指代前文提到的鞋子，是购买动作的承受对象。"
+    },
+    {
+      "text": "here?",
+      "role": "地点状语",
+      "explanation": "修饰购买动作，说明动作发生的地点是当前说话所在的地方，问号标识整句的疑问语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Did",
+      "meaning": "助动词do的过去式，用于构成疑问句/否定句，无实义",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "buy",
+      "meaning": "购买，买",
+      "pos": "动词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "them",
+      "meaning": "它们（指代前文提到的鞋子）",
+      "pos": "代词宾格",
+      "phonetic": "/ðəm/"
+    },
+    {
+      "text": "here?",
+      "meaning": "副词here表示“在这里”，用于说明购买动作发生的地点；问号是整句疑问语气的书面标记，不承载“在这里”的词义",
+      "pos": "副词",
+      "phonetic": "/hɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Did",
+      "meaning": "助动词do的过去式，用于构成一般疑问句，无实义",
+      "relation": "表示句子为过去时态的一般疑问句"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "relation": "执行购买动作的主体"
+    },
+    {
+      "text": "buy",
+      "meaning": "买，购买",
+      "relation": "句子的核心动作"
+    },
+    {
+      "text": "them",
+      "meaning": "它们（指代前文提到的鞋子）",
+      "relation": "购买动作的对象"
+    },
+    {
+      "text": "here?",
+      "meaning": "在这里",
+      "relation": "副词here补充说明购买动作发生的地点；问号作为书面符号标识整句的疑问语气"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-75",
+  "sentenceId": "nce-1-lesson-075-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Did she buy them here?",
+  "lesson": "Lesson 75 Uncomfortable shoes",
+  "notes": [
+    {
+      "title": "一般过去时的疑问结构",
+      "text": "本句使用一般过去时的一般疑问句结构，助动词Did放在句首构成疑问语序，后面的实义动词buy保持原形；代词them指代前文提到的鞋子，地点副词here直接说明购买地点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：本句为独立的一般过去时一般疑问句，内容、主干、语法结构、词汇解释和上下文指代均基本准确。当前分块仅将问号并入最后一个词块here?，不影响语法判断；为避免学习者误认为问号本身承载地点词义，建议微调该词块的释义与关系说明。（非逐句人工审核）"
+}

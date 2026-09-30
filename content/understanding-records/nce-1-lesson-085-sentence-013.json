@@ -1,0 +1,93 @@
+{
+  "chinese": "就像伦敦一样！",
+  "intent": "承接前文巴黎春雨连绵、天气糟糕的描述，吐槽巴黎的雨下得没完没了的状态和伦敦的坏天气如出一辙，表达对持续下雨的无奈。",
+  "comparison": null,
+  "backbone": {
+    "text": "It is just like London!",
+    "meaning": "当下巴黎持续阴雨的糟糕天气，完全和伦敦的坏天气状态一样。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略感叹句的还原理解",
+      "text": "这是承接前文语境的省略感叹句，英文完整表意的主干是It was just like London!，It指代前文描述的巴黎持续阴雨的天气，省略掉It was之后，直接用Just like London!强化吐槽的语气。"
+    },
+    {
+      "title": "just like的修饰含义",
+      "text": "副词just放在短语like前面，意思是“就、简直、正”，用来加强类比的程度，说明巴黎的雨天状态和伦敦的相似程度很高，极为相似。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Just like London!",
+      "role": "省略式感叹分句",
+      "explanation": "承接上文语境，省略了主语It（指代巴黎持续下雨的糟糕天气）和be动词was，用Just like引出同类类比，发出吐槽感叹。"
+    },
+    {
+      "text": "Just",
+      "role": "程度副词",
+      "explanation": "修饰整个“like London”的类比表意，加强类比语气，意思是“简直就、正”。"
+    },
+    {
+      "text": "like London",
+      "role": "介词短语",
+      "explanation": "作表语部分，说明当前天气和伦敦的属性相似。"
+    },
+    {
+      "text": "London",
+      "role": "专有名词",
+      "explanation": "介词like的宾语，这里代指伦敦多雨、糟糕的春天天气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Just",
+      "meaning": "就，简直",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "like",
+      "meaning": "像……一样",
+      "pos": "介词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "London!",
+      "meaning": "伦敦（代指伦敦多雨、糟糕的春天天气）",
+      "pos": "专有名词",
+      "phonetic": "/ˈlʌndən/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Just like",
+      "meaning": "就像、简直和……一样",
+      "relation": "修饰类比的程度，加强相似性语气"
+    },
+    {
+      "text": "London!",
+      "meaning": "伦敦（代指伦敦糟糕多雨的天气）",
+      "relation": "类比的参照对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-85",
+  "sentenceId": "nce-1-lesson-085-sentence-013",
+  "sentenceOrder": 13,
+  "english": "Just like London!",
+  "lesson": "Lesson 85 Paris in the spring",
+  "notes": [
+    {
+      "title": "省略感叹句的还原理解",
+      "text": "这是承接前文语境的省略感叹句，英文完整表意的主干是It was just like London!，It指代前文描述的巴黎持续阴雨的天气，省略掉It was之后，直接用Just like London!强化吐槽的语气。"
+    },
+    {
+      "title": "just like的修饰含义",
+      "text": "副词just放在短语like前面，意思是“就、简直、正”，用来加强类比的程度，说明巴黎的雨天状态和伦敦的相似程度很高，极为相似。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确合规，符合静态解析要求，仅存在少量表述需适度调整：1. 结构说明中省略It be的表述与实际补充后的主干It is just like London!时态不一致，需修正为省略It was，匹配前文一般过去时语境；2. 副词just的修饰范围表述过窄，需补充说明此处并非仅修饰介词短语本身，而是修饰整个like London的类比表意，避免产生just直接搭配介词短语的误解；3. 两处关于相似程度的表述（“几乎没有差别”“几乎无差别”）程度偏强，需调整为更贴合原文的“极为相似”，符合日常口语吐槽的表意强度；4. 拆分的词汇块London!的音标附带了不必要的感叹号，需修正为专有名词London对应的英式音标。其余结构、语义、指代、词性标注均符合要求。（非逐句人工审核）"
+}

@@ -1,0 +1,139 @@
+{
+  "chinese": "晚上，孩子们放学回家。",
+  "intent": "说明一天中傍晚时段孩子们从学校返家的日常安排。",
+  "comparison": null,
+  "backbone": {
+    "text": "The children come home from school.",
+    "meaning": "孩子们从学校回到家里。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语前置",
+      "text": "In the evening 放在句首，说明整个动作发生的时段，用逗号与主句隔开。"
+    },
+    {
+      "title": "from 表示来源",
+      "text": "from school 说明 come home 的来源是学校，汉语习惯合并为“放学回家”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "In the evening",
+      "role": "时间状语",
+      "explanation": "表示动作发生在傍晚时段，放在句首强调时间。"
+    },
+    {
+      "text": "the children",
+      "role": "主语",
+      "explanation": "动作的发出者，指家里的孩子们。"
+    },
+    {
+      "text": "come home",
+      "role": "谓语",
+      "explanation": "表示“回到家”的动作，home 在这里是副词，直接跟在 come 后面。"
+    },
+    {
+      "text": "from school",
+      "role": "来源状语",
+      "explanation": "说明回家的出发地点是学校，即放学之后返回。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "在",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "In"
+    },
+    {
+      "meaning": "（定冠词，此处不译出）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "傍晚；晚上",
+      "pos": "名词",
+      "phonetic": "/ˈiːvnɪŋ/",
+      "text": "evening,"
+    },
+    {
+      "meaning": "（定冠词，此处不译出）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "孩子们",
+      "pos": "名词",
+      "phonetic": "/ˈtʃɪldrən/",
+      "text": "children"
+    },
+    {
+      "meaning": "来；来到",
+      "pos": "动词",
+      "phonetic": "/kʌm/",
+      "text": "come"
+    },
+    {
+      "meaning": "到家；回家",
+      "pos": "副词",
+      "phonetic": "/həʊm/",
+      "text": "home"
+    },
+    {
+      "meaning": "从……来",
+      "pos": "介词",
+      "phonetic": "/frɒm/",
+      "text": "from"
+    },
+    {
+      "meaning": "学校",
+      "pos": "名词",
+      "phonetic": "/skuːl/",
+      "text": "school."
+    }
+  ],
+  "parts": [
+    {
+      "text": "In the evening,",
+      "meaning": "在晚上",
+      "relation": "交代动作发生的时间背景"
+    },
+    {
+      "text": "the children",
+      "meaning": "孩子们",
+      "relation": "句子的主语，是完成返家动作的主体"
+    },
+    {
+      "text": "come home",
+      "meaning": "回家",
+      "relation": "描述主语发出的核心动作与目的地"
+    },
+    {
+      "text": "from school.",
+      "meaning": "从学校放学回来",
+      "relation": "补充说明回家的来源是学校，对应“放学”的含义"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-55",
+  "sentenceId": "nce-1-lesson-055-sentence-007",
+  "sentenceOrder": 7,
+  "english": "In the evening, the children come home from school.",
+  "lesson": "Lesson 55 The Sawyer family",
+  "notes": [
+    {
+      "title": "时间状语前置",
+      "text": "In the evening 放在句首，说明整个动作发生的时段，用逗号与主句隔开。"
+    },
+    {
+      "title": "from 表示来源",
+      "text": "from school 说明 come home 的来源是学校，汉语习惯合并为“放学回家”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整句的译文、主干、结构标注与词性释义均符合语法事实与原文语义，仅需将最后一个意群“from school”的释义从略偏向动作出发的表述，调整为更贴合整句“放学回家”语义的译法，其余内容无需改动。（非逐句人工审核）"
+}

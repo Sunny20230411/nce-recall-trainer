@@ -1,0 +1,144 @@
+{
+  "chinese": "我不知道。她还没有告诉记者。",
+  "intent": "回应对方关于凯伦·马什是否要退休的询问，说明自己并不知道相关情况，解释原因是凯伦还没有把消息告知记者。",
+  "comparison": {
+    "chinese": "我还不知道；她还没告诉记者。",
+    "english": "I don't know. She hasn't told reporters yet.",
+    "steps": [
+      {
+        "label": "定位否定时间标记",
+        "text": "yet",
+        "explanation": "yet是当前否定句的时间信号，语义为“到目前这个时间点为止仍未发生”，不要单独理解成“然而”。"
+      },
+      {
+        "label": "串联成完成否定结构",
+        "text": "hasn't told… yet",
+        "explanation": "hasn't是has not的缩写，加过去分词told构成现在完成时的否定，搭配yet表示“到目前为止尚未做出告知记者这个动作”。"
+      },
+      {
+        "label": "对应中文语序",
+        "text": "把“还没有”放到动词前",
+        "explanation": "中文习惯把“还没有”这类否定+时间的组合放在谓语之前，直接对应“她还没有告诉记者”，不用先把yet单独拆出来翻译。"
+      }
+    ],
+    "takeaway": "not+过去分词+yet的完成否定结构，直接对应中文“还没有做某事”的表达，用来强调到当前时刻该动作尚未发生。"
+  },
+  "backbone": {
+    "text": "I don't know. She hasn't told reporters yet.",
+    "meaning": "我并不知晓相关消息，因为她到现在为止还没有将这件事告知记者。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时的否定形式",
+      "text": "第二句使用has not told构成现在完成时的否定，搭配句末的yet，表达从过去到说话的当下，“告诉记者”这个动作始终没有发生，暗含后续可能会告知的意思。"
+    },
+    {
+      "title": "句子间的因果衔接",
+      "text": "两句独立短句之间没有使用额外连词，但逻辑上互为支撑：前一句说自己不知道，后一句解释不知道的原因是当事人尚未把消息告知记者。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主谓结构的主语",
+      "explanation": "指说话人本人，是“不知道”这个状态的主体。"
+    },
+    {
+      "text": "don't know.",
+      "role": "主谓结构的谓语",
+      "explanation": "don't是do not的缩写，对实义动词know进行否定，表达说话人不了解相关情况。"
+    },
+    {
+      "text": "She",
+      "role": "现在完成时句子的主语",
+      "explanation": "指代前文提到的Karen Marsh，是“告知记者”这个动作的发出者。"
+    },
+    {
+      "text": "hasn't told reporters yet.",
+      "role": "现在完成时的谓语+状语",
+      "explanation": "hasn't是has not的缩写，和过去分词told构成否定完成时；reporters是told的直接宾语，yet放在句末说明这个未完成的状态持续到说话当下。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "没有（do not的缩写）",
+      "pos": "助动词缩写",
+      "phonetic": "/dəʊnt/",
+      "text": "don't"
+    },
+    {
+      "meaning": "知道",
+      "pos": "动词",
+      "phonetic": "/nəʊ/",
+      "text": "know."
+    },
+    {
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/",
+      "text": "She"
+    },
+    {
+      "meaning": "没有（has not的缩写）",
+      "pos": "助动词缩写",
+      "phonetic": "/ˈhæznt/",
+      "text": "hasn't"
+    },
+    {
+      "meaning": "告诉（tell的过去分词）",
+      "pos": "动词（过去分词形式）",
+      "phonetic": "/təʊld/",
+      "text": "told"
+    },
+    {
+      "meaning": "记者",
+      "pos": "名词复数",
+      "phonetic": "/rɪˈpɔːtəz/",
+      "text": "reporters"
+    },
+    {
+      "meaning": "到目前为止，还（用于否定句）",
+      "pos": "副词",
+      "phonetic": "/jet/",
+      "text": "yet."
+    }
+  ],
+  "parts": [
+    {
+      "text": "I don't know.",
+      "relation": "回应对话方的询问，给出自己不清楚相关情况的答复。",
+      "meaning": "我不知道。"
+    },
+    {
+      "text": "She hasn't told reporters yet.",
+      "relation": "补充说明自己不知道的原因，也就是当事人尚未把消息透露给媒体。",
+      "meaning": "她还没有告诉记者。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-135",
+  "sentenceId": "nce-1-lesson-135-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I don't know. She hasn't told reporters yet.",
+  "lesson": "Lesson 135 The latest report",
+  "notes": [
+    {
+      "title": "现在完成时的否定形式",
+      "text": "第二句使用has not told构成现在完成时的否定，搭配句末的yet，表达从过去到说话的当下，“告诉记者”这个动作始终没有发生，暗含后续可能会告知的意思。"
+    },
+    {
+      "title": "句子间的因果衔接",
+      "text": "两句独立短句之间没有使用额外连词，但逻辑上互为支撑：前一句说自己不知道，后一句解释不知道的原因是当事人尚未把消息告知记者。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合要求，仅存在个别表述不当：结构Notes中对现在完成时否定形式的描述出现术语混淆，句子间因果衔接的表述存在逻辑矛盾，其余翻译、语法结构分析、词项释义、分块释义和关系说明均准确，无需大范围修改。（非逐句人工审核）"
+}

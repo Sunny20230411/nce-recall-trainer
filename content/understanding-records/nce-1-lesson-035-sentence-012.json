@@ -1,0 +1,105 @@
+{
+  "chinese": "它在一个公园旁边。",
+  "intent": "说明前文提到的学校建筑所处的具体方位位置。",
+  "comparison": null,
+  "backbone": {
+    "text": "It is beside a park.",
+    "meaning": "它位于一座公园的旁边。"
+  },
+  "parts": [
+    {
+      "text": "It",
+      "relation": "描述的主体",
+      "meaning": "指代前文提到的学校建筑"
+    },
+    {
+      "text": "is",
+      "relation": "连接主体和方位描述",
+      "meaning": "表示所处的位置状态"
+    },
+    {
+      "text": "beside a park.",
+      "relation": "补充说明主体的具体方位",
+      "meaning": "在一座公园的旁边"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "代词指代",
+      "text": "句首的It承接上一句的the school building，避免重复提及已说明的事物，让上下文衔接更连贯。"
+    },
+    {
+      "title": "方位表达",
+      "text": "beside是直接表示相邻位置的介词，无需额外动词就能清晰说明两个物体的紧邻关系。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "主语",
+      "explanation": "指代前文提到的学校建筑，是整句描述的对象。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "连接主语和后续的方位说明，引出主体的位置状态。"
+    },
+    {
+      "text": "beside a park",
+      "role": "表语",
+      "explanation": "用介词短语完整说明主语所处的具体方位。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "它，指代前文提到的学校建筑",
+      "pos": "代词",
+      "phonetic": "/ɪt/",
+      "text": "It"
+    },
+    {
+      "meaning": "是，表示所处状态",
+      "pos": "be动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "在……旁边",
+      "pos": "介词",
+      "phonetic": "/bɪˈsaɪd/",
+      "text": "beside"
+    },
+    {
+      "meaning": "一个（用于可数名词单数前）",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "公园",
+      "pos": "名词",
+      "phonetic": "/pɑːk/",
+      "text": "park."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-35",
+  "sentenceId": "nce-1-lesson-035-sentence-012",
+  "sentenceOrder": 12,
+  "english": "It is beside a park.",
+  "lesson": "Lesson 35 Our village",
+  "notes": [
+    {
+      "title": "代词指代",
+      "text": "句首的It承接上一句的the school building，避免重复提及已说明的事物，让上下文衔接更连贯。"
+    },
+    {
+      "title": "方位表达",
+      "text": "beside是直接表示相邻位置的介词，无需额外动词就能清晰说明两个物体的紧邻关系。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本合规，存在部分细节疏漏与小错误，可明确修正。（非逐句人工审核）"
+}

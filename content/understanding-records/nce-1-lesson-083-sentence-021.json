@@ -1,0 +1,116 @@
+{
+  "chinese": "我们每年都有这个问题。",
+  "intent": "承接前一句谁来照看花园的设问，说明这个需要找人照料花园的困扰是每年度假季都会重复出现的情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "We have this problem.",
+    "meaning": "我们存在这个困扰。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语的位置",
+      "text": "every year放在句末，表示问题重复出现的频率；与中文“每年都”对应的语义一致，这类频率名词短语作时间状语时前面不需要加介词。"
+    },
+    {
+      "title": "this problem的指代",
+      "text": "this problem回指前一句提出的“谁来照料花园”的问题，不另起新话题，强调这是老问题、年年遇到。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We",
+      "role": "句子主语",
+      "explanation": "指说话的“我们”，是“遇到问题”这一状态的主体。"
+    },
+    {
+      "text": "have",
+      "role": "谓语动词",
+      "explanation": "表示“拥有、遇到（某种问题）”，是陈述当前状态的一般现在时谓语。"
+    },
+    {
+      "text": "this problem",
+      "role": "动词的宾语",
+      "explanation": "指前文提到的度假时没人照看花园的困扰，this在这里起近指、回指的作用。"
+    },
+    {
+      "text": "every year.",
+      "role": "时间频率状语",
+      "explanation": "说明“遇到这个问题”的发生频率是每年重复。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "have",
+      "meaning": "有、遇到",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "this",
+      "meaning": "这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "problem",
+      "meaning": "问题、困扰",
+      "pos": "名词",
+      "phonetic": "/ˈprɒbləm/"
+    },
+    {
+      "text": "every",
+      "meaning": "每一个",
+      "pos": "限定词",
+      "phonetic": "/ˈevri/"
+    },
+    {
+      "text": "year.",
+      "meaning": "年",
+      "pos": "名词",
+      "phonetic": "/jɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We have",
+      "meaning": "我们有",
+      "relation": "句子主干的主体和动作，引出“谁遇到什么情况”。"
+    },
+    {
+      "text": "this problem",
+      "meaning": "这个问题",
+      "relation": "说明动作的对象，回指前面提到的花园照料难题。"
+    },
+    {
+      "text": "every year.",
+      "meaning": "每年。",
+      "relation": "补充说明这件事重复发生的频率。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-83",
+  "sentenceId": "nce-1-lesson-083-sentence-021",
+  "sentenceOrder": 21,
+  "english": "We have this problem every year.",
+  "lesson": "Lesson 83 Going on holiday",
+  "notes": [
+    {
+      "title": "时间状语的位置",
+      "text": "every year放在句末，表示问题重复出现的频率；与中文“每年都”对应的语义一致，这类频率名词短语作时间状语时前面不需要加介词。"
+    },
+    {
+      "title": "this problem的指代",
+      "text": "this problem回指前一句提出的“谁来照料花园”的问题，不另起新话题，强调这是老问题、年年遇到。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解释准确，仅修正原结构笔记中关于时间状语位置的不严谨表述：every year作为名词性频率短语可直接放在句末作状语，无需额外加介词，但该短语并非可自由放在名词/动词之后，且every是限定词，后续需接名词。（非逐句人工审核）"
+}

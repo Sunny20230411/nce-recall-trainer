@@ -1,0 +1,176 @@
+{
+  "chinese": "这是店里最贵的型号。它要五百英镑。",
+  "intent": "向顾客说明当前询问的电视机是店内定价最高的型号，并给出它的售价数值。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's the most expensive model. It costs five hundred pounds.",
+    "meaning": "这是最贵的型号，售价为五百英镑。"
+  },
+  "structureNotes": [
+    {
+      "title": "最高级修饰名词的语序",
+      "text": "the most expensive 整体修饰 model，表达“最贵的”，当形容词最高级修饰普通单数可数名词时前面通常需要带定冠词the，说明这是店内范围里价格最高的那一台。"
+    },
+    {
+      "title": "地点短语后置的作用",
+      "text": "in the shop 跟在 model 后面，说明“最贵”这个比较结论的范围是这家店铺，而不是其他商店。"
+    },
+    {
+      "title": "cost表示售价的用法",
+      "text": "cost 在这里表示商品“标价为、售价是”，后面直接接金额，主语是商品本身，不需要额外说“它值多少钱”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "主句主谓结构",
+      "explanation": "It 指代上文中提到的那台电视机，is 是系动词，引出对这台机器属性的说明。"
+    },
+    {
+      "text": "the most expensive model",
+      "role": "主句表语",
+      "explanation": "用形容词最高级描述这台机器是店内价格最高的型号。"
+    },
+    {
+      "text": "in the shop",
+      "role": "地点范围修饰",
+      "explanation": "限定最高级的比较范围是这家商店。"
+    },
+    {
+      "text": "It",
+      "role": "第二句主语",
+      "explanation": "仍然指代前面那台最贵的电视机。"
+    },
+    {
+      "text": "costs five hundred pounds",
+      "role": "谓语动词加间接宾语",
+      "explanation": "costs 为及物动词作谓语，后面直接接金额作间接宾语，说明这台电视机的售价是五百英镑。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "它是（指代那台电视机）",
+      "pos": "代词+动词缩写",
+      "phonetic": "ɪts",
+      "text": "It's"
+    },
+    {
+      "meaning": "（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "ðə",
+      "text": "the"
+    },
+    {
+      "meaning": "（构成最高级，最……）",
+      "pos": "副词",
+      "phonetic": "məʊst",
+      "text": "most"
+    },
+    {
+      "meaning": "昂贵的",
+      "pos": "形容词",
+      "phonetic": "ɪkˈspensɪv",
+      "text": "expensive"
+    },
+    {
+      "meaning": "型号、款式",
+      "pos": "名词",
+      "phonetic": "ˈmɒdl",
+      "text": "model"
+    },
+    {
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "ɪn",
+      "text": "in"
+    },
+    {
+      "meaning": "（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "ðə",
+      "text": "the"
+    },
+    {
+      "meaning": "商店。",
+      "pos": "名词",
+      "phonetic": "ʃɒp",
+      "text": "shop."
+    },
+    {
+      "meaning": "它（指代该型号电视）",
+      "pos": "代词",
+      "phonetic": "ɪt",
+      "text": "It"
+    },
+    {
+      "meaning": "价钱为、需花费",
+      "pos": "动词",
+      "phonetic": "kɒsts",
+      "text": "costs"
+    },
+    {
+      "meaning": "五",
+      "pos": "数词",
+      "phonetic": "faɪv",
+      "text": "five"
+    },
+    {
+      "meaning": "百",
+      "pos": "数词",
+      "phonetic": "ˈhʌndrəd",
+      "text": "hundred"
+    },
+    {
+      "meaning": "英镑。",
+      "pos": "名词",
+      "phonetic": "paʊndz",
+      "text": "pounds."
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's the most expensive model",
+      "relation": "句子的核心判断：点明这台机器在同类里价格最高",
+      "meaning": "这是最贵的型号"
+    },
+    {
+      "text": "in the shop.",
+      "relation": "补充说明最贵这个结论的比较范围是本店铺",
+      "meaning": "在这家店里。"
+    },
+    {
+      "text": "It costs",
+      "relation": "引出价格信息的主谓部分",
+      "meaning": "它售价为"
+    },
+    {
+      "text": "five hundred pounds.",
+      "relation": "说明该型号电视的具体售卖价格",
+      "meaning": "五百英镑。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-111",
+  "sentenceId": "nce-1-lesson-111-sentence-002",
+  "sentenceOrder": 2,
+  "english": "It's the most expensive model in the shop. It costs five hundred pounds.",
+  "lesson": "Lesson 111 The most expensive model",
+  "notes": [
+    {
+      "title": "最高级修饰名词的语序",
+      "text": "the most expensive 整体修饰 model，表达“最贵的”，当形容词最高级修饰普通单数可数名词时前面通常需要带定冠词the，说明这是店内范围里价格最高的那一台。"
+    },
+    {
+      "title": "地点短语后置的作用",
+      "text": "in the shop 跟在 model 后面，说明“最贵”这个比较结论的范围是这家店铺，而不是其他商店。"
+    },
+    {
+      "title": "cost表示售价的用法",
+      "text": "cost 在这里表示商品“标价为、售价是”，后面直接接金额，主语是商品本身，不需要额外说“它值多少钱”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合原文语境与语法规则，仅存在两处可明确优化的表述：一是structureNotes中“最高级前必须带定冠词the”的表述过于绝对，受最高级修饰的名词若前已有物主代词等限定词时无需加the，本句仅修饰普通单数可数名词故需搭配the；二是结构标注中将“costs five hundred pounds”整体标注为“谓语加金额宾语”不符合本句的双宾语结构，其中costs是谓语动词，five hundred pounds是间接宾语，并非谓语加状语的组合，也未包含直接宾语it，需要修正为更准确的标注。其余翻译、指代、词义、音标、信息块划分均准确无误。（非逐句人工审核）"
+}

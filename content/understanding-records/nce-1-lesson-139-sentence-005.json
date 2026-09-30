@@ -1,0 +1,143 @@
+{
+  "chinese": "他告诉我他明天到。",
+  "intent": "转述他人告知的抵达时间，传达对方的行程安排信息。",
+  "comparison": {
+    "chinese": "中文转述过去说过的未来安排时，通常不刻意区分动作说话时和转述时的时间差，可直接说“他告诉我他明天到”，时间放在动词前面。",
+    "english": "英文转述过去说过的将来安排时，主从句要时态呼应，说 He told me he would arrive tomorrow，从句用过去将来时 would arrive，时间 tomorrow 放在从句末尾。",
+    "steps": [
+      {
+        "label": "主句转述",
+        "text": "He told me",
+        "explanation": "先说明“他告诉我”，told 是过去时，同时带出听话人 me。"
+      },
+      {
+        "label": "从句时态呼应",
+        "text": "he would arrive",
+        "explanation": "受主句过去时影响，will 变为 would，体现是站在过去时间点转述当时的将来安排。"
+      },
+      {
+        "label": "后续接时间",
+        "text": "tomorrow",
+        "explanation": "时间状语置于从句末尾，说明抵达的时间点是明天。"
+      }
+    ],
+    "takeaway": "理解时不必逐字加“说”，told me 后直接接他所说的内容，注意主从句过去时态的呼应即可。"
+  },
+  "backbone": {
+    "text": "He told me he would arrive.",
+    "meaning": "他把抵达这件事告诉了我；完整信息中补充了抵达时间是明天。"
+  },
+  "structureNotes": [
+    {
+      "title": "宾语从句与时态呼应",
+      "text": "told 是过去时，从句用过去将来时 would arrive，而不是直接用 will arrive。这只是叙述当时所说的未来计划，不表示明天不会到。"
+    },
+    {
+      "title": "me 是 told 的听话人",
+      "text": "tell 后通常同时接听话人和内容，me 表示“告诉我”，后面的 he would arrive tomorrow 才是他说的具体内容。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主句主语",
+      "explanation": "指发出“告诉”这个动作的人。"
+    },
+    {
+      "text": "told",
+      "role": "主句谓语",
+      "explanation": "表示“告诉”，后接听话人 me 和所说内容。"
+    },
+    {
+      "text": "me",
+      "role": "主句间接宾语",
+      "explanation": "表示“我”是被告知的对象。"
+    },
+    {
+      "text": "he would arrive tomorrow",
+      "role": "宾语从句",
+      "explanation": "作 told 的直接宾语，转述他说过的安排；would 呼应主句过去时。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉",
+      "pos": "动词过去式",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "would",
+      "meaning": "将会（will 的过去时形式，表过去视角中的将来）",
+      "pos": "情态动词",
+      "phonetic": "/wʊd/"
+    },
+    {
+      "text": "arrive",
+      "meaning": "到达",
+      "pos": "动词原形",
+      "phonetic": "/əˈraɪv/"
+    },
+    {
+      "text": "tomorrow.",
+      "meaning": "明天",
+      "pos": "副词",
+      "phonetic": "/təˈmɒrəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He told me",
+      "relation": "引出转述内容",
+      "meaning": "他告诉我"
+    },
+    {
+      "text": "he would arrive",
+      "relation": "转述的核心信息",
+      "meaning": "他将会到达"
+    },
+    {
+      "text": "tomorrow.",
+      "relation": "补充到达的时间",
+      "meaning": "明天。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-139",
+  "sentenceId": "nce-1-lesson-139-sentence-005",
+  "sentenceOrder": 5,
+  "english": "He told me he would arrive tomorrow.",
+  "lesson": "Lesson 139 Is that you, John?",
+  "notes": [
+    {
+      "title": "宾语从句与时态呼应",
+      "text": "told 是过去时，从句用过去将来时 would arrive，而不是直接用 will arrive。这只是叙述当时所说的未来计划，不表示明天不会到。"
+    },
+    {
+      "title": "me 是 told 的听话人",
+      "text": "tell 后通常同时接听话人和内容，me 表示“告诉我”，后面的 he would arrive tomorrow 才是他说的具体内容。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句语法分析、词义解释、中文翻译基本准确，仅两处可修正：一是tomorrow的音标末尾多了一个多余的句点；二是原对比内容仅说明中英时间状语语序差异，未结合本句核心的时态呼应特点补充说明，可优化对比内容的讲解针对性。（非逐句人工审核）"
+}

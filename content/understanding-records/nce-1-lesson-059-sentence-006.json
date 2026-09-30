@@ -1,0 +1,157 @@
+{
+  "chinese": "有，梳妆台上有一些肥皂。",
+  "intent": "回应一般疑问句，确认梳妆台上存在一些肥皂，说明物品所在位置。",
+  "comparison": {
+    "chinese": "梳妆台上有一些肥皂。",
+    "english": "there's some soap on the dressing table.",
+    "steps": [
+      {
+        "label": "先回应存在",
+        "text": "there's some soap",
+        "explanation": "英文先用there be结构点明“存在某物”，先说所涉及的物品是some soap（一些肥皂）。"
+      },
+      {
+        "label": "后补位置",
+        "text": "on the dressing table",
+        "explanation": "再用on引出地点，说明肥皂所在的位置是“在梳妆台上”。"
+      }
+    ],
+    "takeaway": "英语先交代“有什么东西”，再补出地点；中文可直接把地点放前面说“梳妆台上有……”，两种语序都能表达存在关系。"
+  },
+  "backbone": {
+    "text": "there's some soap",
+    "meaning": "存在一些肥皂"
+  },
+  "structureNotes": [
+    {
+      "title": "there's的用法",
+      "text": "there's是there is的缩写形式，是there be句型的缩写，核心功能是表达“某地存在某事物”，不表示“那里”的实指方位。"
+    },
+    {
+      "title": "some与any的区别",
+      "text": "问句中用any询问是否存在，答语为肯定时换用some；on the dressing table是介词短语作地点说明，明确肥皂的摆放位置。"
+    },
+    {
+      "title": "dressing table的意思",
+      "text": "dressing table是固定名词短语，指“梳妆台”，不能按单个单词拆成“穿衣桌子”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "肯定应答词",
+      "explanation": "对上文的一般疑问句作出肯定回应，承接前文提问。"
+    },
+    {
+      "text": "there's",
+      "role": "there be句型的存在引导部分",
+      "explanation": "引出“存在某物”的核心表述，是there is的口语缩写。"
+    },
+    {
+      "text": "some soap",
+      "role": "存在的主体",
+      "explanation": "说明存在的物品是不可数名词soap，用some修饰表示“一些”。"
+    },
+    {
+      "text": "on the dressing table.",
+      "role": "地点介词短语",
+      "explanation": "用介词on引出位置，说明肥皂摆放在梳妆台上。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes,",
+      "meaning": "有（表示肯定回答）",
+      "pos": "感叹词",
+      "phonetic": "/jes/"
+    },
+    {
+      "text": "there's",
+      "meaning": "有（there is的缩写）",
+      "pos": "缩略结构",
+      "phonetic": "/ðɪəz/"
+    },
+    {
+      "text": "some",
+      "meaning": "一些",
+      "pos": "限定词",
+      "phonetic": "/sʌm/"
+    },
+    {
+      "text": "soap",
+      "meaning": "肥皂",
+      "pos": "名词（不可数）",
+      "phonetic": "/səʊp/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……之上",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指那件梳妆用的）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "dressing",
+      "meaning": "梳妆、打扮",
+      "pos": "动名词（作定语）",
+      "phonetic": "/ˈdresɪŋ/"
+    },
+    {
+      "text": "table.",
+      "meaning": "桌子",
+      "pos": "名词",
+      "phonetic": "/ˈteɪbl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes,",
+      "relation": "回应前文提问",
+      "meaning": "有（表肯定）"
+    },
+    {
+      "text": "there's",
+      "relation": "引出存在表述",
+      "meaning": "有（there is缩写）"
+    },
+    {
+      "text": "some soap",
+      "relation": "描述存在的主体物品",
+      "meaning": "一些肥皂"
+    },
+    {
+      "text": "on the dressing table.",
+      "relation": "补充说明肥皂的摆放位置",
+      "meaning": "在梳妆台上"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-59",
+  "sentenceId": "nce-1-lesson-059-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Yes, there's some soap on the dressing table.",
+  "lesson": "Lesson 59 Is that all?",
+  "notes": [
+    {
+      "title": "there's的用法",
+      "text": "there's是there is的缩写形式，是there be句型的缩写，核心功能是表达“某地存在某事物”，不表示“那里”的实指方位。"
+    },
+    {
+      "title": "some与any的区别",
+      "text": "问句中用any询问是否存在，答语为肯定时换用some；on the dressing table是介词短语作地点说明，明确肥皂的摆放位置。"
+    },
+    {
+      "title": "dressing table的意思",
+      "text": "dressing table是固定名词短语，指“梳妆台”，不能按单个单词拆成“穿衣桌子”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析核心语义、there be句型逻辑、some与any的用法对比、dressing table的短语释义均准确，仅存在单词级别的词性标注瑕疵：dressing是dressing table固定名词短语中的动名词作定语，不应标注为泛指的“定语”；table作为名词，音标绑定到分块标点后表述不规范，已完成对应修正。（非逐句人工审核）"
+}

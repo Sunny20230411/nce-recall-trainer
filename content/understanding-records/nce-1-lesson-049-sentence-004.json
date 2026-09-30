@@ -1,0 +1,77 @@
+{
+  "chinese": "请给我牛肉。",
+  "intent": "顾客在肉铺点餐，明确表示自己想要购买牛肉，作为对店员提问的回应。",
+  "comparison": null,
+  "backbone": {
+    "text": "（I want）Beef, please.",
+    "meaning": "顾客明确向店员提出购买牛肉的要求，please用于让语气更委婉礼貌，属于服务场景下的常用点餐表达。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略结构的还原",
+      "text": "这句话承接上文店员的提问“Do you want beef or lamb?”，省略了前文已经出现过的主语和谓语“I want”，只保留点餐的核心对象和礼貌标记please，符合日常口语简洁表达的习惯。"
+    },
+    {
+      "title": "please的用法",
+      "text": "在点餐、索要物品的场景中，please放在所求事物之后，用来软化语气，让提出的要求显得不生硬，和中文里末尾的“请”功能相近，例如本句翻译为“请给我牛肉”时，对应的礼貌标记“请”就出现在句子开头，这是英汉语礼貌标记位置的差异。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Beef",
+      "role": "被请求的商品/宾语",
+      "explanation": "是顾客明确想要的购买对象，承接上文提供的牛肉、羊肉两个选项做出的选择。"
+    },
+    {
+      "text": "please",
+      "role": "礼貌用语",
+      "explanation": "放在句末表示客气，说明这是礼貌的请求而非生硬的命令。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "牛肉",
+      "pos": "名词",
+      "phonetic": "/biːf/",
+      "text": "Beef,"
+    },
+    {
+      "meaning": "请",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/",
+      "text": "please."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Beef,",
+      "relation": "说话人明确要选择的商品，承接上文的二选一场景。",
+      "meaning": "牛肉"
+    },
+    {
+      "text": "please.",
+      "relation": "软化请求语气，体现礼貌点餐的态度。",
+      "meaning": "请"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-49",
+  "sentenceId": "nce-1-lesson-049-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Beef, please.",
+  "lesson": "Lesson 49 At the butcher's",
+  "notes": [
+    {
+      "title": "省略结构的还原",
+      "text": "这句话承接上文店员的提问“Do you want beef or lamb?”，省略了前文已经出现过的主语和谓语“I want”，只保留点餐的核心对象和礼貌标记please，符合日常口语简洁表达的习惯。"
+    },
+    {
+      "title": "please的用法",
+      "text": "在点餐、索要物品的场景中，please放在所求事物之后，用来软化语气，让提出的要求显得不生硬，和中文里末尾的“请”功能相近，例如本句翻译为“请给我牛肉”时，对应的礼貌标记“请”就出现在句子开头，这是英汉语礼貌标记位置的差异。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体标注逻辑自洽，还原省略的主谓结构符合对话语境，please的词性标注与功能解释恰当，词汇释义、句子翻译与场景对应准确。仅补充结构说明中汉语对应位置的实例，让语序对比更具象，其余内容无需修改。（非逐句人工审核）"
+}

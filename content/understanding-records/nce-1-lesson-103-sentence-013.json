@@ -1,0 +1,115 @@
+{
+  "chinese": "那些题很容易。",
+  "intent": "解释前文提到的“能回答16道题”的原因——前面的那些题难度不高。",
+  "comparison": {
+    "chinese": "那些题很容易。",
+    "english": "They were very easy.",
+    "steps": [
+      {
+        "label": "先锁定指代对象",
+        "text": "They were very easy.",
+        "explanation": "代词They指代前文出现的“16道题”，避免重复提及questions，直接承接上一句的内容。"
+      },
+      {
+        "label": "再补充程度修饰",
+        "text": "very easy",
+        "explanation": "用very修饰easy，说明题目不只是简单，而是难度很低，进一步解释为什么这16道题能顺利回答出来。"
+      }
+    ],
+    "takeaway": "英语常用代词承接前文已提到的事物，表达程度时把修饰词放在形容词前面，符合本句的语境逻辑。"
+  },
+  "backbone": {
+    "text": "They were easy.",
+    "meaning": "它们（前面提到的16道题）很容易。"
+  },
+  "structureNotes": [
+    {
+      "title": "指代承前省略",
+      "text": "本句主语They是代词，指代上一句提到的sixteen of the questions，不需要重复说出完整的名词，上下文逻辑连贯。"
+    },
+    {
+      "title": "系表结构表属性",
+      "text": "were是系动词，连接主语和表语easy，用来描述主语的性质；very放在easy前面修饰程度。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They",
+      "role": "主语",
+      "explanation": "人称代词主格，指代前文提到的16道题。"
+    },
+    {
+      "text": "were",
+      "role": "系动词",
+      "explanation": "are的过去式，在句中连接主语和表语。"
+    },
+    {
+      "text": "very easy",
+      "role": "表语",
+      "explanation": "very是副词修饰形容词easy，说明主语的难度属性。"
+    }
+  ],
+  "words": [
+    {
+      "text": "They",
+      "meaning": "它们（指代前文的16道题）",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（are的过去式）",
+      "pos": "系动词",
+      "phonetic": "/wɜː(r)/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "easy.",
+      "meaning": "容易的",
+      "pos": "形容词",
+      "phonetic": "/ˈiːzi/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "They",
+      "meaning": "它们（指代前面提到的16道题）",
+      "relation": "句子的描述对象"
+    },
+    {
+      "text": "were",
+      "meaning": "是",
+      "relation": "连接主语和描述内容"
+    },
+    {
+      "text": "very easy.",
+      "meaning": "非常容易",
+      "relation": "说明前面这些题的难度"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-013",
+  "sentenceOrder": 13,
+  "english": "They were very easy.",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "指代承前省略",
+      "text": "本句主语They是代词，指代上一句提到的sixteen of the questions，不需要重复说出完整的名词，上下文逻辑连贯。"
+    },
+    {
+      "title": "系表结构表属性",
+      "text": "were是系动词，连接主语和表语easy，用来描述主语的性质；very放在easy前面修饰程度。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体通顺，仅存在一处可明确修正的标点问题：easy词条的text误带了句末的句号。其余翻译、主干、句法成分、指代关系、词性、音标、分块语义和对比说明均符合语境。（非逐句人工审核）"
+}

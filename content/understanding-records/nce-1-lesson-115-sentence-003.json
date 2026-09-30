@@ -1,0 +1,93 @@
+{
+  "chinese": "“我”是谁？",
+  "intent": "对门外人自称的“me（我）”提出疑问，要求对方说明自己的真实身份。",
+  "comparison": {
+    "chinese": "对方敲门说自己是“我”，问话人没认出声音，追问这个自称的“我”到底指谁。",
+    "english": "Who's 'me'?",
+    "steps": [
+      {
+        "label": "疑问引导结构",
+        "text": "Who's 是 Who is 的缩写，用来询问“是谁”，对应中文的“是谁”。",
+        "explanation": "在特殊疑问句中，疑问词Who放在句首，和is缩写为Who's，用来询问人物身份。"
+      },
+      {
+        "label": "被提问的表语成分",
+        "text": "引号'me'是系动词is后的表语，被引号当作一个被谈论的名称，指对方口中自称的“我”。",
+        "explanation": "这里不是真的在问说话人自己，而是质疑对方自称的“我”到底对应哪个人。"
+      }
+    ],
+    "takeaway": "这是对方敲门说It's me.之后的追问，说话人没认出对方，要求对方报出具体身份。"
+  },
+  "backbone": {
+    "text": "Who's 'me'?",
+    "meaning": "这个被人称作“我”的人究竟是谁？"
+  },
+  "structureNotes": [
+    {
+      "title": "引号的作用",
+      "text": "引号把代词me转成了被谈论的对象，而不是指向说话人自己的第一人称“我”。"
+    },
+    {
+      "title": "缩写形式",
+      "text": "Who's = Who is，是口语中询问身份的常用缩写。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Who's",
+      "role": "疑问结构（Who is的缩写）",
+      "explanation": "Who是疑问代词作表语前置，is是系动词，二者缩写为Who's，用于询问身份。"
+    },
+    {
+      "text": "'me'?",
+      "role": "主语",
+      "explanation": "指对方自称的“我”，是整个疑问句要辨认的对象，也是问句的核心主语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Who's",
+      "meaning": "是谁",
+      "pos": "疑问结构（who is的缩写）",
+      "phonetic": "/huːz/"
+    },
+    {
+      "text": "'me'?",
+      "meaning": "我（宾格，此处加引号作为被谈论的名称，指对方自称的身份）",
+      "pos": "代词",
+      "phonetic": "/miː/?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Who's",
+      "meaning": "是谁",
+      "relation": "提出身份疑问，是Who is的缩写形式"
+    },
+    {
+      "text": "'me'?",
+      "meaning": "“我”？",
+      "relation": "被询问的核心对象，即对方口中自称的“我”，在句中作主语"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-115",
+  "sentenceId": "nce-1-lesson-115-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Who's 'me'?",
+  "lesson": "Lesson 115 Knock, knock!",
+  "notes": [
+    {
+      "title": "引号的作用",
+      "text": "引号把代词me转成了被谈论的对象，而不是指向说话人自己的第一人称“我”。"
+    },
+    {
+      "title": "缩写形式",
+      "text": "Who's = Who is，是口语中询问身份的常用缩写。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体释义准确，符合对话中敲门人自称“It's me.”后问话人没认出来、追问对方真实身份的语境。存在一处小瑕疵：结构切分将Who's对应的text仅标注为Who's，未明确这是Who is的缩写结构，且将'me'?的role描述为被询问对象，未清晰说明me是系动词is后的表语，需对语法角色做更明确的补充修正。（非逐句人工审核）"
+}

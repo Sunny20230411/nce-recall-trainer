@@ -1,0 +1,94 @@
+{
+  "chinese": "谁在爬树？",
+  "intent": "询问当前正在进行的爬树这个动作的实施者是谁",
+  "comparison": null,
+  "backbone": {
+    "text": "Who's climbing the tree?",
+    "meaning": "询问谁正在做出爬树的动作"
+  },
+  "parts": [
+    {
+      "text": "Who's",
+      "relation": "询问动作实施者的主语+现在进行时助动词的缩合成分",
+      "meaning": "谁（who is的缩合形式）"
+    },
+    {
+      "text": "climbing",
+      "relation": "现在进行时谓语的核心动作部分",
+      "meaning": "正在攀爬（climb的现在分词形式）"
+    },
+    {
+      "text": "the tree?",
+      "relation": "限定动作的指向目标，作句子的宾语成分",
+      "meaning": "这棵树（定冠词the特指语境中的树木）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "缩合形式说明",
+      "text": "Who's是Who is的口语缩合，在这里不表示所属关系，用来衔接询问主语和进行时态的动作描述"
+    },
+    {
+      "title": "疑问语序逻辑",
+      "text": "针对动作的实施者（即句子的主语成分）提问时，特殊疑问词Who直接放在句首，无需额外借助助动词do倒装，它本身就充当该现在进行时问句的主语成分"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Who's",
+      "role": "疑问主语+助动词缩合体",
+      "explanation": "既是询问具体对象的特殊疑问词，也是现在进行时态里的主语搭配助动词的缩合表达"
+    },
+    {
+      "text": "climbing the tree?",
+      "role": "现在进行时的动作谓语部分",
+      "explanation": "描述当前正在发生的爬树行为，末尾问号体现整句的疑问语气"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "谁是（who is的缩写，此处is为现在进行时的助动词，不表“所属”语义）",
+      "pos": "代词+助动词缩合形式",
+      "phonetic": "/huːz/",
+      "text": "Who's"
+    },
+    {
+      "meaning": "攀爬（climb的现在分词）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈklaɪmɪŋ/",
+      "text": "climbing"
+    },
+    {
+      "meaning": "这个，特指语境中提到的",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "树",
+      "pos": "名词",
+      "phonetic": "/triː/",
+      "text": "tree?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-31",
+  "sentenceId": "nce-1-lesson-031-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Who's climbing the tree?",
+  "lesson": "Lesson 31 Where's Sally?",
+  "notes": [
+    {
+      "title": "缩合形式说明",
+      "text": "Who's是Who is的口语缩合，在这里不表示所属关系，用来衔接询问主语和进行时态的动作描述"
+    },
+    {
+      "title": "疑问语序逻辑",
+      "text": "针对动作的实施者（即句子的主语成分）提问时，特殊疑问词Who直接放在句首，无需额外借助助动词do倒装，它本身就充当该现在进行时问句的主语成分"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析整体合规，仅存在部分表述细节需要修正，无原则性错误（非逐句人工审核）"
+}

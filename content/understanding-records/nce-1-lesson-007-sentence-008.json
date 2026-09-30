@@ -1,0 +1,69 @@
+{
+  "chinese": "我是意大利人。",
+  "intent": "用于回应对方询问国籍的问题，清晰告知自己的国籍身份。",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm Italian.",
+    "meaning": "我的身份是意大利人。"
+  },
+  "parts": [
+    {
+      "text": "I'm",
+      "relation": "指明陈述的主体和判断关系",
+      "meaning": "我是"
+    },
+    {
+      "text": "Italian.",
+      "relation": "补充说明主体的国籍身份",
+      "meaning": "意大利人"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "缩略表达说明",
+      "text": "I'm 是 I am 的日常口语缩略形式，用于轻松自然的对话场景，省略了am的完整发音，读起来更流畅。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm",
+      "role": "主语+系动词",
+      "explanation": "由代词I和系动词am缩略组合，点明陈述的主体是说话人自己，并带出后续的身份判断。"
+    },
+    {
+      "text": "Italian.",
+      "role": "表语",
+      "explanation": "放在系动词之后，说明说话人的国籍身份，完成整个判断陈述。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我是",
+      "pos": "pronoun + 系动词(linking verb)",
+      "phonetic": "/aɪm/",
+      "text": "I'm"
+    },
+    {
+      "meaning": "意大利人；意大利国籍的",
+      "pos": "noun（此处作表语说明国籍身份）",
+      "phonetic": "/ˌɪtæliən/",
+      "text": "Italian."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-7",
+  "sentenceId": "nce-1-lesson-007-sentence-008",
+  "sentenceOrder": 8,
+  "english": "I'm Italian.",
+  "lesson": "Lesson 7 Are you a teacher?",
+  "notes": [
+    {
+      "title": "缩略表达说明",
+      "text": "I'm 是 I am 的日常口语缩略形式，用于轻松自然的对话场景，省略了am的完整发音，读起来更流畅。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合教学要求，仅存在少量细节可优化补全，无原则性错误（非逐句人工审核）"
+}

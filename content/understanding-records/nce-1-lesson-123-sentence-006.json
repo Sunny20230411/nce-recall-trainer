@@ -1,0 +1,105 @@
+{
+  "chinese": "多漂亮的船啊！",
+  "intent": "表达看到船时的赞叹，突出船外观好看。",
+  "comparison": {
+    "chinese": "多漂亮的船啊！",
+    "english": "What a beautiful ship!",
+    "steps": [
+      {
+        "label": "先放赞叹词",
+        "text": "What 放在句首",
+        "explanation": "What 用来引出感叹，后面接被形容的事物。"
+      },
+      {
+        "label": "再接所赞叹的事物",
+        "text": "a beautiful ship",
+        "explanation": "中文常说“多漂亮的船啊”，英语要把形容词放在名词前面，再用 What 带动整个感叹结构。"
+      }
+    ],
+    "takeaway": "英语感叹句用 What 开头，后接“形容词 + 名词”，中文常把赞叹副词放在名词前。"
+  },
+  "backbone": {
+    "text": "What a beautiful ship!",
+    "meaning": "这艘船真漂亮！"
+  },
+  "structureNotes": [
+    {
+      "title": "What 引导感叹句",
+      "text": "What 后接名词短语 a beautiful ship，用来表达强烈赞叹，不需要额外动词。"
+    },
+    {
+      "title": "冠词位置",
+      "text": "a 放在 beautiful 前面，符合英语“冠词 + 形容词 + 名词”的顺序。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What",
+      "role": "感叹引导词",
+      "explanation": "引出对 ship 的赞叹，后面接所修饰的名词短语。"
+    },
+    {
+      "text": "a beautiful ship",
+      "role": "被感叹的名词短语",
+      "explanation": "a 是冠词，beautiful 修饰 ship，整体表示“一艘漂亮的船”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What",
+      "meaning": "多么",
+      "pos": "感叹句引导词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一艘",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "beautiful",
+      "meaning": "漂亮的",
+      "pos": "形容词",
+      "phonetic": "/ˈbjuːtɪfl/"
+    },
+    {
+      "text": "ship!",
+      "meaning": "船",
+      "pos": "名词",
+      "phonetic": "/ʃɪp/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What",
+      "relation": "引导感叹语气",
+      "meaning": "多么"
+    },
+    {
+      "text": "a beautiful ship!",
+      "relation": "赞叹描述的对象",
+      "meaning": "一艘漂亮的船啊！"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-123",
+  "sentenceId": "nce-1-lesson-123-sentence-006",
+  "sentenceOrder": 6,
+  "english": "What a beautiful ship!",
+  "lesson": "Lesson 123 A trip to Australia",
+  "notes": [
+    {
+      "title": "What 引导感叹句",
+      "text": "What 后接名词短语 a beautiful ship，用来表达强烈赞叹，不需要额外动词。"
+    },
+    {
+      "title": "冠词位置",
+      "text": "a 放在 beautiful 前面，符合英语“冠词 + 形容词 + 名词”的顺序。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：全句是由 What 引导的名词型感叹句，原记录对感叹结构、名词短语内部修饰关系、英汉语序对比和主干意思的解释均符合语法与语境；仅需修正 What 的词性分类，使其从字面感叹词调整为感叹句引导词，避免与感叹词的常规语法定义混淆。（非逐句人工审核）"
+}

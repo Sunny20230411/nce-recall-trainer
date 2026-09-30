@@ -1,0 +1,133 @@
+{
+  "chinese": "她在隔壁。她在自己的办公室里，先生。",
+  "intent": "向问话的先生说明帕梅拉当前所在的具体位置，回应对方的询问。",
+  "comparison": null,
+  "backbone": {
+    "text": "She's next door. She's in her office, sir.",
+    "meaning": "告知对方她在隔壁，身处自己的办公室。"
+  },
+  "parts": [
+    {
+      "text": "She's",
+      "relation": "描述主体的状态",
+      "meaning": "她是/她在"
+    },
+    {
+      "text": "next door.",
+      "relation": "补充说明她所处的位置",
+      "meaning": "隔壁"
+    },
+    {
+      "text": "She's",
+      "relation": "描述主体的状态",
+      "meaning": "她是/她在"
+    },
+    {
+      "text": "in her office,",
+      "relation": "补充说明她所处的具体地点",
+      "meaning": "在她的办公室里"
+    },
+    {
+      "text": "sir.",
+      "relation": "点明这句话的告知对象",
+      "meaning": "先生"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "She's的缩略含义",
+      "text": "这里两处She's都是She is的口语缩略形式，用来表示“她处于某个位置”的状态，省略了正式表达里的is，日常对话中使用更自然。"
+    },
+    {
+      "title": "称呼语sir的位置",
+      "text": "称呼语sir放在句末，用来明确对话的受众，是面向问话的男士做出回应，语气符合职场下属对上级的恭敬态度。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She's next door",
+      "role": "主句（第一位置说明）",
+      "explanation": "主系表结构的短句，直接交代她的大致所在位置。"
+    },
+    {
+      "text": "She's in her office",
+      "role": "主句（第二位置补充说明）",
+      "explanation": "主系表结构的短句，进一步补充她所在的更精确地点。"
+    },
+    {
+      "text": "sir",
+      "role": "对话称呼语",
+      "explanation": "放在句末，指明回应的对象，属于口语里的礼貌称呼用法。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "她是、她在",
+      "pos": "contraction",
+      "phonetic": "/ʃiːz/",
+      "text": "She's"
+    },
+    {
+      "meaning": "紧邻的",
+      "pos": "adjective",
+      "phonetic": "/nekst/",
+      "text": "next"
+    },
+    {
+      "meaning": "门（此处合指隔壁空间）",
+      "pos": "noun",
+      "phonetic": "/dɔː(r)/",
+      "text": "door."
+    },
+    {
+      "meaning": "她是、她在",
+      "pos": "contraction",
+      "phonetic": "/ʃiːz/",
+      "text": "She's"
+    },
+    {
+      "meaning": "在…里面",
+      "pos": "preposition",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "她的",
+      "pos": "possessive determiner",
+      "phonetic": "/hɜː(r)/",
+      "text": "her"
+    },
+    {
+      "meaning": "办公室",
+      "pos": "noun",
+      "phonetic": "/ˈɒfɪs/",
+      "text": "office,"
+    },
+    {
+      "meaning": "先生",
+      "pos": "noun",
+      "phonetic": "/sɜː(r)/",
+      "text": "sir."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-45",
+  "sentenceId": "nce-1-lesson-045-sentence-004",
+  "sentenceOrder": 4,
+  "english": "She's next door. She's in her office, sir.",
+  "lesson": "Lesson 45 The boss's letter",
+  "notes": [
+    {
+      "title": "She's的缩略含义",
+      "text": "这里两处She's都是She is的口语缩略形式，用来表示“她处于某个位置”的状态，省略了正式表达里的is，日常对话中使用更自然。"
+    },
+    {
+      "title": "称呼语sir的位置",
+      "text": "称呼语sir放在句末，用来明确对话的受众，是面向问话的男士做出回应，语气符合职场下属对上级的恭敬态度。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本合规，仅存在局部细节疏漏：1. 原comparison字段为空，未说明内容组织逻辑；2. 部分单词标点附着错误，结构说明存在冗余表述；3. 原notes与structureNotes内容重复，需修正优化。（非逐句人工审核）"
+}

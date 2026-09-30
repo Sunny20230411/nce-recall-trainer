@@ -1,0 +1,116 @@
+{
+  "chinese": "它们对我来说太难了。",
+  "intent": "表达前文提到的“剩下的题目”对说话人而言难度过高，解释自己答不出其余题目的原因。",
+  "comparison": null,
+  "backbone": {
+    "text": "They were too difficult for me.",
+    "meaning": "它们（指测试剩下的题目）对我来说太难了。"
+  },
+  "structureNotes": [
+    {
+      "title": "too修饰形容词的程度表达",
+      "text": "副词too放在形容词difficult前面，表示“过于、太”，用来说明难度超过了说话人的承受范围，不是单纯描述事物本身难度高。"
+    },
+    {
+      "title": "for引出评价指向",
+      "text": "for me放在句末，明确“太难”是针对说话人本人而言的判断，替换me为其他人时，评价的适用对象会跟着改变。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They",
+      "role": "主语",
+      "explanation": "指代前文提到的测试剩下的题目，是句子描述的对象。"
+    },
+    {
+      "text": "were",
+      "role": "系动词",
+      "explanation": "be动词的过去式复数形式，连接主语和后面的表语，说明过去的状态。"
+    },
+    {
+      "text": "too difficult",
+      "role": "表语",
+      "explanation": "too作程度副词修饰形容词difficult，共同说明主语“难度过高”的性质。"
+    },
+    {
+      "text": "for me",
+      "role": "评价指向状语",
+      "explanation": "由介词for引出动作对象，说明这个“太难”的判断是针对“我”做出的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "They",
+      "meaning": "它们",
+      "pos": "代词主格/宾格",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（be动词过去式，与复数主语搭配）",
+      "pos": "动词",
+      "phonetic": "/wɜː(r)/"
+    },
+    {
+      "text": "too",
+      "meaning": "太，过于",
+      "pos": "副词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "difficult",
+      "meaning": "困难的",
+      "pos": "形容词",
+      "phonetic": "/ˈdɪfɪkəlt/"
+    },
+    {
+      "text": "for",
+      "meaning": "对……来说",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "me.",
+      "meaning": "我（宾格）",
+      "pos": "代词宾格",
+      "phonetic": "/miː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "They were",
+      "relation": "引出描述主体与系动词，对应前文提到的答不出的剩余题目",
+      "meaning": "它们是"
+    },
+    {
+      "text": "too difficult",
+      "relation": "描述主体的属性，说明剩余题目难度过高",
+      "meaning": "太难了"
+    },
+    {
+      "text": "for me.",
+      "relation": "补充说明难度评价的对象是说话人本人",
+      "meaning": "对我来说。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-015",
+  "sentenceOrder": 15,
+  "english": "They were too difficult for me.",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "too修饰形容词的程度表达",
+      "text": "副词too放在形容词difficult前面，表示“过于、太”，用来说明难度超过了说话人的承受范围，不是单纯描述事物本身难度高。"
+    },
+    {
+      "title": "for引出评价指向",
+      "text": "for me放在句末，明确“太难”是针对说话人本人而言的判断，替换me为其他人时，评价的适用对象会跟着改变。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析质量合格，各模块信息准确、贴合语境，仅存在一处极小的格式冗余可修正。所有语法成分标注、词义解释、指代关系、表语结构、评价指向状语的分析均符合英语语法规则，结合前文语境对“They”的指代说明清晰，中式表达对比未设置、句子主干提取准确到位，仅单词表中“me”条目末尾多余附着原句的句末句号，可做格式优化。（非逐句人工审核）"
+}

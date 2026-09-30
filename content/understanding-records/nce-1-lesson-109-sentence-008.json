@@ -1,0 +1,86 @@
+{
+  "chinese": "那对我就够了。",
+  "intent": "用于表达当前获取的份量（本句中指一勺半的糖）已经完全满足自己的需求，不需要再多添加了。",
+  "comparison": null,
+  "backbone": {
+    "text": "That's enough.",
+    "meaning": "那（当前的量）已经足够了。"
+  },
+  "structureNotes": [
+    {
+      "title": "for me的语义指向",
+      "text": "介词短语for me紧跟在形容词enough后面，用来说明这个“足够”是针对说话人自身的需求，不是泛泛说某个东西总量足够，对应中文“对我来说”的指向。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That's",
+      "role": "主语加系动词（含缩写）",
+      "explanation": "That指代前文提到的一勺半糖这个量，is是系动词，缩写为That's，共同引出后续的表语说明。"
+    },
+    {
+      "text": "enough",
+      "role": "表语",
+      "explanation": "形容词作表语，直接说明主语that所代表的事物具备“足够的、充足的”属性。"
+    },
+    {
+      "text": "for me",
+      "role": "介词短语作补充说明",
+      "explanation": "介词for引出受益/指向的对象me，说明这份充足的量是适配说话人需求的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "That's",
+      "meaning": "那是（That is的缩写）",
+      "pos": "缩写（代词+be动词）",
+      "phonetic": "/ðæts/"
+    },
+    {
+      "text": "enough",
+      "meaning": "足够的，充足的",
+      "pos": "形容词",
+      "phonetic": "/ɪˈnʌf/"
+    },
+    {
+      "text": "for",
+      "meaning": "对……来说",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "me.",
+      "meaning": "我（I的宾格形式）",
+      "pos": "代词（宾格）",
+      "phonetic": "/miː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "That's enough",
+      "relation": "句子核心判断，说明当前的量已经达标",
+      "meaning": "那足够了"
+    },
+    {
+      "text": "for me.",
+      "relation": "补充说明足够的对象是说话人自身，限定适用范围",
+      "meaning": "对我来说"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-109",
+  "sentenceId": "nce-1-lesson-109-sentence-008",
+  "sentenceOrder": 8,
+  "english": "That's enough for me.",
+  "lesson": "Lesson 109 A good idea",
+  "notes": [
+    {
+      "title": "for me的语义指向",
+      "text": "介词短语for me紧跟在形容词enough后面，用来说明这个“足够”是针对说话人自身的需求，不是泛泛说某个东西总量足够，对应中文“对我来说”的指向。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本准确，贴合语境，仅存在两处需修正的细节：一是单词me的音标混入了末尾的句号，二是That's单词条的音标遗漏了闭音节的弱元音/ə/，导致读起来生硬不符合英式发音习惯。（非逐句人工审核）"
+}

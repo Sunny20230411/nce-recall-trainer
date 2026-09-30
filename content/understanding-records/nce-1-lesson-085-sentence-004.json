@@ -1,0 +1,94 @@
+{
+  "chinese": "《巴黎之春》。",
+  "intent": "承接上文“What's on?”的提问，引出当前正在上映的电影或演出的具体名称。",
+  "comparison": null,
+  "backbone": {
+    "text": "'Paris in the Spring'",
+    "meaning": "这是一部电影的名称，标准中文通译名为《巴黎之春》，也可译作《春天的巴黎》。"
+  },
+  "structureNotes": [
+    {
+      "title": "引号标注作品名",
+      "text": "句首和句尾的单引号是英文对电影、书籍等作品名称的标注，本句没有谓语动词，是独立的作品名引用，整体构成名词性短语。"
+    },
+    {
+      "title": "介词短语作标题修饰",
+      "text": "in the Spring 放在 Paris 后面，作标题中修饰巴黎的后置定语，点明标题所指的时节场景是春天的巴黎。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'Paris in the Spring'",
+      "role": "独立作品名（名词性短语）",
+      "explanation": "这是被引出的上映影片名称，本身是名词性短语，无主谓结构，在对话中独立成句指代对应作品。"
+    },
+    {
+      "text": "in the Spring",
+      "role": "标题内部后置修饰语",
+      "explanation": "位于 Paris 之后，作后置定语，说明标题所指的巴黎所处的时节为春天。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'Paris",
+      "meaning": "巴黎（专有名词，此处为作品名的主体部分）",
+      "pos": "专有名词",
+      "phonetic": "'pærɪs"
+    },
+    {
+      "text": "in",
+      "meaning": "在……期间",
+      "pos": "介词",
+      "phonetic": "ɪn"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，用于特指春天这一特定时节",
+      "pos": "定冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "Spring'.",
+      "meaning": "春天（作品名的收尾部分，名称末尾的单引号和句点为标点符号）",
+      "pos": "名词",
+      "phonetic": "sprɪŋ"
+    }
+  ],
+  "parts": [
+    {
+      "text": "'Paris",
+      "meaning": "带前单引号的“巴黎”，是该影片名称的核心主体",
+      "relation": "作为整个作品名称的核心主体，被时节修饰成分补充限定。"
+    },
+    {
+      "text": "in the",
+      "meaning": "介词加定冠词的结构，用于引出特定时节",
+      "relation": "作为介词结构的引导部分，连接后面的时节名词。"
+    },
+    {
+      "text": "Spring'.",
+      "meaning": "带后单引号和句点的“春天”，是影片名称的收尾部分",
+      "relation": "补充说明该作品对应的时节，和前面的介词the共同构成后置修饰语，收束整个片名。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-85",
+  "sentenceId": "nce-1-lesson-085-sentence-004",
+  "sentenceOrder": 4,
+  "english": "'Paris in the Spring'.",
+  "lesson": "Lesson 85 Paris in the spring",
+  "notes": [
+    {
+      "title": "引号标注作品名",
+      "text": "句首和句尾的单引号是英文对电影、书籍等作品名称的标注，本句没有谓语动词，是独立的作品名引用，整体构成名词性短语。"
+    },
+    {
+      "title": "介词短语作标题修饰",
+      "text": "in the Spring 放在 Paris 后面，作标题中修饰巴黎的后置定语，点明标题所指的时节场景是春天的巴黎。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解释基本准确，仅存在少量词语释义、语音标注的错误需要修正。（非逐句人工审核）"
+}

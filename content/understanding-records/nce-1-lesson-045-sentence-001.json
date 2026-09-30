@@ -1,0 +1,146 @@
+{
+  "chinese": "鲍勃，请你过来一下好吗？",
+  "intent": "说话人礼貌地向鲍勃发出请求，询问对方能否暂时移步到当前所在位置。",
+  "comparison": null,
+  "backbone": {
+    "text": "Can you come here a minute please, Bob?",
+    "meaning": "鲍勃，请问你能过来一下吗？"
+  },
+  "parts": [
+    {
+      "text": "Can you",
+      "relation": "表达询问的情态主体",
+      "meaning": "你能不能"
+    },
+    {
+      "text": "come here",
+      "relation": "说明要求执行的动作和地点",
+      "meaning": "过来这里"
+    },
+    {
+      "text": "a minute",
+      "relation": "补充动作持续的时长",
+      "meaning": "一会儿"
+    },
+    {
+      "text": "please,",
+      "relation": "让请求语气更委婉客气",
+      "meaning": "请"
+    },
+    {
+      "text": "Bob?",
+      "relation": "指明请求的对象是谁",
+      "meaning": "鲍勃"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "称呼语后置",
+      "text": "这句把人名Bob放在句末，是口语里常用的表达习惯，先把请求内容说完再点明找谁，语气更自然随意。"
+    },
+    {
+      "title": "a minute的用法",
+      "text": "这里的a minute不是严格计时的一分钟，只是表示很短的一小段时间，用来弱化请求的打扰感。"
+    },
+    {
+      "title": "完整句式构成",
+      "text": "原句并非仅由Can you come here构成核心框架，完整覆盖时间修饰、礼貌标记和称呼对象的全句内容才是完整的请求问句"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Can you come here",
+      "role": "核心疑问框架",
+      "explanation": "用情态动词Can开头构成疑问句，发起动作可行性的询问，是整句表意的基础。"
+    },
+    {
+      "text": "a minute",
+      "role": "时间修饰成分",
+      "explanation": "补充说明动作所需的时长，让请求的内容更具体清晰。"
+    },
+    {
+      "text": "please",
+      "role": "礼貌语气标记",
+      "explanation": "放在句中后半部分，缓和直接提问的生硬感，体现礼貌的说话态度。"
+    },
+    {
+      "text": "Bob",
+      "role": "称呼语",
+      "explanation": "点明对话的目标对象，确保听话人清楚请求是对自己发出的。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "能、可以",
+      "pos": "modal verb",
+      "phonetic": "/kæn/",
+      "text": "Can"
+    },
+    {
+      "meaning": "你",
+      "pos": "pronoun",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "来、过来",
+      "pos": "verb",
+      "phonetic": "/kʌm/",
+      "text": "come"
+    },
+    {
+      "meaning": "这里",
+      "pos": "adverb",
+      "phonetic": "/hɪə/",
+      "text": "here"
+    },
+    {
+      "meaning": "一",
+      "pos": "article",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "分钟，片刻",
+      "pos": "noun",
+      "phonetic": "/ˈmɪnɪt/",
+      "text": "minute"
+    },
+    {
+      "meaning": "请",
+      "pos": "interjection",
+      "phonetic": "/pliːz/",
+      "text": "please,"
+    },
+    {
+      "meaning": "鲍勃（人名）",
+      "pos": "proper noun",
+      "phonetic": "/bɒb/",
+      "text": "Bob?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-45",
+  "sentenceId": "nce-1-lesson-045-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Can you come here a minute please, Bob?",
+  "lesson": "Lesson 45 The boss's letter",
+  "notes": [
+    {
+      "title": "称呼语后置",
+      "text": "这句把人名Bob放在句末，是口语里常用的表达习惯，先把请求内容说完再点明找谁，语气更自然随意。"
+    },
+    {
+      "title": "a minute的用法",
+      "text": "这里的a minute不是严格计时的一分钟，只是表示很短的一小段时间，用来弱化请求的打扰感。"
+    },
+    {
+      "title": "完整句式构成",
+      "text": "原句并非仅由Can you come here构成核心框架，完整覆盖时间修饰、礼貌标记和称呼对象的全句内容才是完整的请求问句"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，仅存在局部细节遗漏、comparison为空的可修正问题，不影响核心表意（非逐句人工审核）"
+}

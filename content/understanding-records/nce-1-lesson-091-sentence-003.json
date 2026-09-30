@@ -1,0 +1,162 @@
+{
+  "chinese": "他已经搬到新房子里去了吗？",
+  "intent": "询问对方男子是否已经完成搬入新家的动作，得到肯定或否定的回答。",
+  "comparison": {
+    "chinese": "中文把时间状态词“已经”放在动作“搬到”前面，句尾用语气词“吗”表示疑问。",
+    "english": "英文用 Has he moved… yet? 把助动词 Has 放到主语前面，句尾用 yet 提示“到现在为止是否已经发生”。",
+    "steps": [
+      {
+        "label": "先抓主干",
+        "text": "Has he moved to his new house",
+        "explanation": "moved 是核心动作，to his new house 说明搬去的地点，整句问的是“他有没有搬去新家”。"
+      },
+      {
+        "label": "再看疑问结构",
+        "text": "Has 放在 he 前面",
+        "explanation": "这是现在完成时的一般疑问句语序，用 Yes, he has. / No, not yet. 回答。"
+      },
+      {
+        "label": "最后看 yet",
+        "text": "yet 放在句尾",
+        "explanation": "表示“到目前为止是否已经发生”，对应中文的“已经”和“还”这类时间判断。"
+      }
+    ],
+    "takeaway": "现在完成时一般疑问句把 has 提到主语前，yet 放在句尾询问动作到现在是否已经发生。"
+  },
+  "backbone": {
+    "text": "Has he moved to his new house yet?",
+    "meaning": "询问他到目前为止是否已经搬入新家。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时的疑问语序",
+      "text": "这句用“Has + 主语 he + 过去分词 moved”构成现在完成时的一般疑问句，助动词 has 提前到句首，不需要再加 do/does。"
+    },
+    {
+      "title": "yet 的位置与含义",
+      "text": "yet 放在句末，用于疑问句中表示“到目前为止是否已经发生”，对应的常见否定回答是 No, not yet.（还没有）。"
+    },
+    {
+      "title": "介词 to 表去向",
+      "text": "move to 是固定搭配，to 后面接搬去的目的地，his new house 就是搬家的终点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Has",
+      "role": "助动词（现在完成时）",
+      "explanation": "帮助构成现在完成时，同时提到主语前面构成疑问语序。"
+    },
+    {
+      "text": "he",
+      "role": "主语",
+      "explanation": "指代前文提到的 Ian，是搬家这个动作的发出者。"
+    },
+    {
+      "text": "moved",
+      "role": "核心谓语动词（过去分词）",
+      "explanation": "和前面的 has 一起构成现在完成时，在这里表示“搬家、搬迁”这个被征询是否发生的动作。"
+    },
+    {
+      "text": "to his new house",
+      "role": "地点状语",
+      "explanation": "说明搬家的目的地是他的新房子，由介词 to 引导。"
+    },
+    {
+      "text": "yet?",
+      "role": "时间提示副词",
+      "explanation": "放在疑问句末尾，强调询问动作到目前为止是否已经发生。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Has",
+      "meaning": "（助动词，have的第三人称单数现在时，构成现在完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词（主格）",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "moved",
+      "meaning": "搬（move的过去分词）；移动、搬迁",
+      "pos": "动词（过去分词）",
+      "phonetic": "/muːvd/"
+    },
+    {
+      "text": "to",
+      "meaning": "到、向（表去向）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "new",
+      "meaning": "新的",
+      "pos": "形容词",
+      "phonetic": "/njuː/"
+    },
+    {
+      "text": "house",
+      "meaning": "房子、住宅",
+      "pos": "名词",
+      "phonetic": "/haʊs/"
+    },
+    {
+      "text": "yet?",
+      "meaning": "（常用于否定句和疑问句末）到目前为止、还",
+      "pos": "副词",
+      "phonetic": "/jet/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Has he moved",
+      "relation": "谓语核心，用助动词提前的疑问语序发起询问。",
+      "meaning": "他搬（现在完成时疑问形式）"
+    },
+    {
+      "text": "to his new house",
+      "relation": "补充搬家的具体目的地。",
+      "meaning": "到他的新房子（里）"
+    },
+    {
+      "text": "yet?",
+      "relation": "提示询问的时间范围是到当前为止是否已经发生。",
+      "meaning": "（到目前为止）还……吗？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-91",
+  "sentenceId": "nce-1-lesson-091-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Has he moved to his new house yet?",
+  "lesson": "Lesson 91 Poor Ian!",
+  "notes": [
+    {
+      "title": "现在完成时的疑问语序",
+      "text": "这句用“Has + 主语 he + 过去分词 moved”构成现在完成时的一般疑问句，助动词 has 提前到句首，不需要再加 do/does。"
+    },
+    {
+      "title": "yet 的位置与含义",
+      "text": "yet 放在句末，用于疑问句中表示“到目前为止是否已经发生”，对应的常见否定回答是 No, not yet.（还没有）。"
+    },
+    {
+      "title": "介词 to 表去向",
+      "text": "move to 是固定搭配，to 后面接搬去的目的地，his new house 就是搬家的终点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体与上下文一致：现在完成时一般疑问句的语序、yet用于疑问句表“到目前为止是否已发生”、move to表搬家目的地的核心知识点均表述准确。但两处细节可优化：1. 原moved的词义标注为“已完成或待确认的动作”不符合现在完成时一般疑问句的语义实际，这类问句是在征询动作是否发生，本身不预设动作已完成；2. 词汇表中yet? 音标混入句末问号，音标需纯语音标注，问号应归属标点范畴。其余译文、成分划分、分块解释、对比说明均符合要求，可直接采用。（非逐句人工审核）"
+}

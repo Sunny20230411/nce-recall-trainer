@@ -1,0 +1,112 @@
+{
+  "chinese": "她说她可能待在家里。",
+  "intent": "转述她本人对外界说出的关于自身安排的未确定表述。",
+  "comparison": null,
+  "backbone": {
+    "text": "She says she may stay at home.",
+    "meaning": "她表示自己有留在家中的可能性。"
+  },
+  "structureNotes": [
+    {
+      "title": "宾语从句的省略引导",
+      "text": "在says之后，连词that被省略了。这是日常英语中极为常见的用法，不会影响对句子的理解。"
+    },
+    {
+      "title": "情态动词的不确定性",
+      "text": "may在这里不是“可以”，而是表示一种推测，说明“待在家里”只是一种可能的情况，并非已经确定的计划。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "主句主语",
+      "explanation": "指代发出“说”这个动作的女性。"
+    },
+    {
+      "text": "says",
+      "role": "主句谓语动词",
+      "explanation": "表示“说”或“表示”的动作，是连接说话人和所说话语的桥梁。"
+    },
+    {
+      "text": "she may stay at home",
+      "role": "宾语从句",
+      "explanation": "作为says的宾语，说明她具体说了什么内容；这里she指代同一个女性，may表示可能性。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "says",
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/sez/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "may",
+      "meaning": "可能",
+      "pos": "情态动词",
+      "phonetic": "/meɪ/"
+    },
+    {
+      "text": "stay",
+      "meaning": "停留、待",
+      "pos": "动词",
+      "phonetic": "/steɪ/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（表示位置）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "home.",
+      "meaning": "家",
+      "pos": "名词",
+      "phonetic": "/həʊm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She says",
+      "relation": "引出转述的内容。",
+      "meaning": "她说"
+    },
+    {
+      "text": "she may stay at home.",
+      "relation": "是says的宾语从句，说明她转述的具体内容。",
+      "meaning": "她可能待在家里。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-135",
+  "sentenceId": "nce-1-lesson-135-sentence-006",
+  "sentenceOrder": 6,
+  "english": "She says she may stay at home.",
+  "lesson": "Lesson 135 The latest report",
+  "notes": [
+    {
+      "title": "宾语从句的省略引导",
+      "text": "在says之后，连词that被省略了。这是日常英语中极为常见的用法，不会影响对句子的理解。"
+    },
+    {
+      "title": "情态动词的不确定性",
+      "text": "may在这里不是“可以”，而是表示一种推测，说明“待在家里”只是一种可能的情况，并非已经确定的计划。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整句翻译、主干释义、语法角色与结构说明整体准确，仅词汇表中home的词条末尾误带入原句句号，属可明确修正的小问题，其余内容符合规则要求。（非逐句人工审核）"
+}

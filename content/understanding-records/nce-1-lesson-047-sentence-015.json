@@ -1,0 +1,104 @@
+{
+  "chinese": "你想要一个吗？",
+  "intent": "询问对方是否想要前文提到的、和当前饮食场景相关的一份可数餐饮品（如一杯饮品、一块甜点等）。",
+  "comparison": null,
+  "backbone": {
+    "text": "Do you want one?",
+    "meaning": "询问你是否想要（之前聊到的、前文出现过的那份可数餐饮品）。"
+  },
+  "structureNotes": [
+    {
+      "title": "助动词引导的一般疑问句",
+      "text": "实义动词want的一般现在时非第三人称主语的疑问式，需要把助动词Do放到句首，主语you放在Do后面，动词want用原形。"
+    },
+    {
+      "title": "one的指代用法",
+      "text": "句末的one是不定代词，指代上文中出现过的可数事物（此处是前文提到的某份餐饮品），避免重复前文的具体名词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "助动词",
+      "explanation": "帮助构成一般现在时一般疑问句，无独立实义词义，位于句首引导疑问语序。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指代对话的听话对象，是动作want的发出者。"
+    },
+    {
+      "text": "want",
+      "role": "谓语动词",
+      "explanation": "表达“想要”的核心动作，主语为非第三人称，疑问句中使用动词原形。"
+    },
+    {
+      "text": "one?",
+      "role": "宾语",
+      "explanation": "指代前文提到的某份可数餐饮品，是want的对象。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "助动词，无实义，帮助构成疑问句",
+      "pos": "助动词",
+      "phonetic": "/duː/",
+      "text": "Do"
+    },
+    {
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "想要",
+      "pos": "动词",
+      "phonetic": "/wɒnt/",
+      "text": "want"
+    },
+    {
+      "meaning": "（指代上文提到的同类事物的）一个、一份",
+      "pos": "代词",
+      "phonetic": "/wʌn/",
+      "text": "one?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Do",
+      "meaning": "（助动词，无实义，引导疑问句）",
+      "relation": "标志疑问句式，提示这是一般现在时的提问。"
+    },
+    {
+      "text": "you want",
+      "meaning": "你 想要",
+      "relation": "说明提问指向的对象是听话人，以及核心动作是“想要”。"
+    },
+    {
+      "text": "one?",
+      "meaning": "一个吗？",
+      "relation": "是“想要”的具体对象，指代前文提到的那份餐饮品。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-47",
+  "sentenceId": "nce-1-lesson-047-sentence-015",
+  "sentenceOrder": 15,
+  "english": "Do you want one?",
+  "lesson": "Lesson 47 A cup of coffee",
+  "notes": [
+    {
+      "title": "助动词引导的一般疑问句",
+      "text": "实义动词want的一般现在时非第三人称主语的疑问式，需要把助动词Do放到句首，主语you放在Do后面，动词want用原形。"
+    },
+    {
+      "title": "one的指代用法",
+      "text": "句末的one是不定代词，指代上文中出现过的可数事物（此处是前文提到的某份餐饮品），避免重复前文的具体名词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构、词性标注、中文翻译与语法讲解基本准确，仅存两处可明确修正的问题：1. 词汇表与结构笔记中对one的指代范围描述过窄，错误限定为“按块计量的食物”，结合课程为《A cup of coffee》，one实际可指代前文出现的任意可数餐饮品（如一杯咖啡、一块蛋糕等），不应仅限定为“按块计量”；2. 结构笔记中存在多余的“作主语”冗余表述，属于语法讲解上的小冗余。其余内容无错误，可修正后通过。（非逐句人工审核）"
+}

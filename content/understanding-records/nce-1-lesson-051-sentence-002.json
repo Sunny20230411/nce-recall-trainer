@@ -1,0 +1,86 @@
+{
+  "chinese": "我来自希腊。",
+  "intent": "回应对方关于来自哪里的提问，告知自己的国籍/来源地是希腊。",
+  "comparison": null,
+  "backbone": {
+    "text": "I come from Greece.",
+    "meaning": "我来自希腊。"
+  },
+  "structureNotes": [
+    {
+      "title": "介词from的作用",
+      "text": "come from是固定搭配，from引出来源地，整体表示“来自某地”，不要把come from拆成两个独立的动词短语理解。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人本人，说明“来自”这个动作的发出者是我。"
+    },
+    {
+      "text": "come from Greece.",
+      "role": "谓语部分",
+      "explanation": "由固定搭配come from加地点Greece组成，说明主语的来源地。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "来（与from搭配构成come from，表示来自）",
+      "pos": "动词",
+      "phonetic": "/kʌm/",
+      "text": "come"
+    },
+    {
+      "meaning": "（与come搭配引出来源地）从……",
+      "pos": "介词",
+      "phonetic": "/frɒm/",
+      "text": "from"
+    },
+    {
+      "meaning": "希腊",
+      "pos": "名词",
+      "phonetic": "/ɡriːs/",
+      "text": "Greece."
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作的发出者，指代说话人自己。",
+      "meaning": "我"
+    },
+    {
+      "text": "come from",
+      "relation": "描述主语的身份来源属性，和from搭配构成固定表达。",
+      "meaning": "来自"
+    },
+    {
+      "text": "Greece.",
+      "relation": "说明来源的具体国家。",
+      "meaning": "希腊。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-51",
+  "sentenceId": "nce-1-lesson-051-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I come from Greece.",
+  "lesson": "Lesson 51 A pleasant climate",
+  "notes": [
+    {
+      "title": "介词from的作用",
+      "text": "come from是固定搭配，from引出来源地，整体表示“来自某地”，不要把come from拆成两个独立的动词短语理解。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句核心翻译、主干拆分、语境说明基本准确，仅词汇注释存在词性标注与词义不匹配的明确问题：come作为动词仅标注“来”，未体现搭配介词from后表达“来自”的完整词义；from被标注为介词却单独给出“从……来，来自”的释义，容易让学习者误以为该介词可以独立承载实义动词含义，其余内容均符合规则要求。（非逐句人工审核）"
+}

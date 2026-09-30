@@ -1,0 +1,111 @@
+{
+  "chinese": "奈杰尔是个非常幸运的人。",
+  "intent": "陈述奈杰尔的特质，点明他是一个十分幸运的人，承接上文关于他年纪轻轻就几乎环游过世界各国的内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "Nigel is a very lucky man.",
+    "meaning": "奈杰尔是一个非常幸运的人。"
+  },
+  "structureNotes": [
+    {
+      "title": "very lucky的修饰位置",
+      "text": "very是程度副词，放在形容词lucky之前加深程度，对应中文里的“非常幸运”，不能把very放在lucky之后使用。"
+    },
+    {
+      "title": "a very lucky man的构成",
+      "text": "冠词a放在形容词短语修饰语最前面，之后依次叠加程度副词very、形容词lucky，最后接中心名词man，共同构成表语部分。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Nigel",
+      "role": "主语",
+      "explanation": "句子描述的核心对象，指前文提到的奈杰尔这个人。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "起到连接主语和表语的作用，表达“是”的含义，属于be动词的第三人称单数现在时形式。"
+    },
+    {
+      "text": "a very lucky man",
+      "role": "表语",
+      "explanation": "用来说明主语奈杰尔的身份特质，其中very lucky是修饰man的定语，说明这个人的幸运程度。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Nigel",
+      "meaning": "奈杰尔（男子人名）",
+      "pos": "名词",
+      "phonetic": "/ˈnaɪdʒəl/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be动词第三人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个（表泛指）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "lucky",
+      "meaning": "幸运的",
+      "pos": "形容词",
+      "phonetic": "/ˈlʌki/"
+    },
+    {
+      "text": "man.",
+      "meaning": "人，男子",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Nigel",
+      "relation": "句子描述的核心主体",
+      "meaning": "奈杰尔"
+    },
+    {
+      "text": "is",
+      "relation": "连接主体与后续身份描述",
+      "meaning": "是"
+    },
+    {
+      "text": "a very lucky man.",
+      "relation": "说明奈杰尔的身份与特质",
+      "meaning": "一个非常幸运的人"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-93",
+  "sentenceId": "nce-1-lesson-093-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Nigel is a very lucky man.",
+  "lesson": "Lesson 93 Our new neighbour",
+  "notes": [
+    {
+      "title": "very lucky的修饰位置",
+      "text": "very是程度副词，放在形容词lucky之前加深程度，对应中文里的“非常幸运”，不能把very放在lucky之后使用。"
+    },
+    {
+      "title": "a very lucky man的构成",
+      "text": "冠词a放在形容词短语修饰语最前面，之后依次叠加程度副词very、形容词lucky，最后接中心名词man，共同构成表语部分。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容合规，仅存在两处可修正的小问题：一是单词分块中 man 附带了句号，需修正为不含句末标点的 man；二是结构注释中“所有修饰语最前面”的表述不够准确，此处实际指代置于形容词短语修饰语之前，需调整表述使其更严谨。（非逐句人工审核）"
+}

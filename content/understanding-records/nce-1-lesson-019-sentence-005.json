@@ -1,0 +1,105 @@
+{
+  "chinese": "你们现在好了吗？",
+  "intent": "说话人在对方坐下后，询问对方目前的身体或情绪状态是否已经恢复正常",
+  "comparison": null,
+  "backbone": {
+    "text": "Are you all right",
+    "meaning": "询问对方状态是否安好"
+  },
+  "parts": [
+    {
+      "text": "Are",
+      "relation": "系动词，置于句首引导一般疑问句",
+      "meaning": "是（be动词第二人称/复数现在式）"
+    },
+    {
+      "text": "you",
+      "relation": "主语，指代被询问的对象",
+      "meaning": "你/你们"
+    },
+    {
+      "text": "all right",
+      "relation": "表语，说明主语的状态",
+      "meaning": "情况良好、没事"
+    },
+    {
+      "text": "now?",
+      "relation": "时间状语，限定询问的时间范围",
+      "meaning": "此刻、现在（句末问号为全句疑问标记）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般疑问句语序",
+      "text": "本句将be动词Are放到句首发起提问，不需要额外加助动词do，用来直接询问对方的即时状态。"
+    },
+    {
+      "title": "all right的常用含义",
+      "text": "这里all right不表示“全部正确”，而是日常口语里询问身体、情绪状态是否恢复正常的固定表达。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Are you all right",
+      "role": "疑问句核心框架",
+      "explanation": "构成询问对方状态是否安好的基础表达"
+    },
+    {
+      "text": "now",
+      "role": "时间状语",
+      "explanation": "明确限定提问所指向的时间是当下这一刻"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（be动词第二人称/复数现在式）是",
+      "pos": "verb",
+      "phonetic": "/ɑː(r)/",
+      "text": "Are"
+    },
+    {
+      "meaning": "你，你们",
+      "pos": "pronoun",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "完全",
+      "pos": "adverb",
+      "phonetic": "/ɔːl/",
+      "text": "all"
+    },
+    {
+      "meaning": "良好的，正常的",
+      "pos": "adjective",
+      "phonetic": "/raɪt/",
+      "text": "right"
+    },
+    {
+      "meaning": "现在",
+      "pos": "adverb",
+      "phonetic": "/naʊ/",
+      "text": "now?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-19",
+  "sentenceId": "nce-1-lesson-019-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Are you all right now?",
+  "lesson": "Lesson 19 Tired and thirsty",
+  "notes": [
+    {
+      "title": "一般疑问句语序",
+      "text": "本句将be动词Are放到句首发起提问，不需要额外加助动词do，用来直接询问对方的即时状态。"
+    },
+    {
+      "title": "all right的常用含义",
+      "text": "这里all right不表示“全部正确”，而是日常口语里询问身体、情绪状态是否恢复正常的固定表达。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在局部细节表述偏差、comparison字段缺失说明、words模块标点冗余的可明确修正问题（非逐句人工审核）"
+}

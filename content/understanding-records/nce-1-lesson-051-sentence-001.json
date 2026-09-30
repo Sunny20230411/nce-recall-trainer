@@ -1,0 +1,136 @@
+{
+  "chinese": "你来自哪里？",
+  "intent": "礼貌询问对方的籍贯或来源地。",
+  "comparison": {
+    "chinese": "汉语说“你来自哪里？”，地点疑问词“哪里”放在谓语“来自”的后面；英语说“Where do you come from?”，疑问词Where要置于句首，主语you前需要加助动词do构成疑问语序。",
+    "english": "Chinese puts the location question word 'nǎlǐ' after the predicate 'láizì', while English places the question word 'Where' at the beginning and adds the auxiliary verb 'do' before the subject 'you' to form interrogative word order.",
+    "steps": [
+      {
+        "label": "核心谓语",
+        "text": "来自 / come from",
+        "explanation": "两种语言都用对应的动词短语表达“从某地来”的核心语义，come是不及物动词，from引出来源地，二者结合表示“来自”，不能拆分单独释义。"
+      },
+      {
+        "label": "疑问词位置",
+        "text": "哪里放在动词后，Where放在句首",
+        "explanation": "汉语将询问地点的疑问词放在动宾结构后面，符合汉语常规表达习惯；英语必须把特殊疑问词Where移到句子开头，明确这是一个地点类问句。"
+      },
+      {
+        "label": "助动词要求",
+        "text": "汉语无需助动词，英语需要加do",
+        "explanation": "汉语直接通过疑问词和句末语气表示疑问，不需要额外的功能词；英语的实义动词come在构成特殊疑问句时，需要借助助动词do放在主语you前面，才能形成正确的疑问语序。"
+      }
+    ],
+    "takeaway": "汉英疑问结构的核心差异在于：汉语疑问词常留在被提问的句法位置，英语特殊疑问词需要前置，且主谓结构调整为“助动词+主语+动词原形”的疑问语序。"
+  },
+  "backbone": {
+    "text": "you come from ...",
+    "meaning": "问“你来自……”这一信息，Where要求把空格替换成地点。"
+  },
+  "structureNotes": [
+    {
+      "title": "where与助动词的位置",
+      "text": "Where放在句首提出地点疑问；do是助动词，帮助构成疑问，不改变come from本身的“来自”含义。"
+    },
+    {
+      "title": "动词短语不可分",
+      "text": "come from是整体表示“来自”，from是短语的一部分，不能把from单独移到句首。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Where",
+      "role": "疑问词",
+      "explanation": "询问地点信息，要求回答具体的国家或地点。"
+    },
+    {
+      "text": "do",
+      "role": "助动词",
+      "explanation": "帮助一般现在时的实义动词come构成疑问句，无实义。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "句子描述的动作主体，即被询问的人。"
+    },
+    {
+      "text": "come from?",
+      "role": "谓语（动词短语）",
+      "explanation": "表示“来自”的整体动作，与Where搭配询问来源地。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "哪里",
+      "pos": "疑问副词",
+      "phonetic": "/weə/",
+      "text": "Where"
+    },
+    {
+      "meaning": "（构成疑问句的助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/duː/",
+      "text": "do"
+    },
+    {
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "来，与from搭配构成短语come from表示“来自”",
+      "pos": "动词",
+      "phonetic": "/kʌm/",
+      "text": "come"
+    },
+    {
+      "meaning": "（与come搭配表示“来自”，构成短语come from）",
+      "pos": "介词",
+      "phonetic": "/frɒm/",
+      "text": "from?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Where",
+      "meaning": "哪里",
+      "relation": "提问地点来源，位于句首引导特殊疑问句"
+    },
+    {
+      "text": "do",
+      "meaning": "无实义，帮助构成疑问语序",
+      "relation": "辅助实义动词come构成一般现在时的疑问结构"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "relation": "句子的主语，即被询问的对象"
+    },
+    {
+      "text": "come from?",
+      "meaning": "来自？",
+      "relation": "整体作谓语，表示“来自”的动作，与Where搭配询问对方的来源地"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-51",
+  "sentenceId": "nce-1-lesson-051-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Where do you come from?",
+  "lesson": "Lesson 51 A pleasant climate",
+  "notes": [
+    {
+      "title": "where与助动词的位置",
+      "text": "Where放在句首提出地点疑问；do是助动词，帮助构成疑问，不改变come from本身的“来自”含义。"
+    },
+    {
+      "title": "动词短语不可分",
+      "text": "come from是整体表示“来自”，from是短语的一部分，不能把from单独移到句首。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：中文翻译与核心主干表意准确，短语解析符合疑问句结构逻辑；存在两处可明确修正的问题：一是单词表中单独列示的come、from?两个词条释义错误，拆分了come from的整体短语含义，二是该句为特殊疑问句，缺少汉语疑问结构与英语疑问结构的对比辨析，无法帮助学习者理解汉英疑问语序差异。（非逐句人工审核）"
+}

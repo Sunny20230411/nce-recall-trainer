@@ -1,0 +1,172 @@
+{
+  "chinese": "简，你答对了多少题？",
+  "intent": "向Jane询问她在答题测试中答对的题目数量。",
+  "comparison": {
+    "chinese": "你答对了多少题？",
+    "english": "How many questions did you get right",
+    "steps": [
+      {
+        "label": "先确定提问范围",
+        "text": "How many questions",
+        "explanation": "How many后接可数名词复数，直接点明询问对象是题目的数量，排除了询问题目内容的可能。"
+      },
+      {
+        "label": "还原疑问语序",
+        "text": "did you get right",
+        "explanation": "陈述句顺序是you got questions right，提问数量时把助动词did提到主语you前面，谓语用原形get；倒装仅调整疑问语序，不改变you和get的主谓关系。"
+      },
+      {
+        "label": "right限定题目属性",
+        "text": "right",
+        "explanation": "right接在get后面作补足语，表示题目是“答对的”，而非答错或未作答的；如果去掉right，询问的就变成题目总数。"
+      }
+    ],
+    "takeaway": "提问可数事物数量时，先用How many+名词锁定询问范围，再用did提前构成一般过去时疑问语序，修饰性补足语right进一步限定询问的是答对的题目数量。"
+  },
+  "backbone": {
+    "text": "How many questions did you get right?",
+    "meaning": "你答对了多少道题目？"
+  },
+  "structureNotes": [
+    {
+      "title": "How many引导可数名词数量提问",
+      "text": "How many后必须接可数名词复数，这里修饰questions，专门询问题目的具体数量，不能和不可数名词搭配使用。"
+    },
+    {
+      "title": "一般过去时的疑问语序",
+      "text": "实义动词get的过去式疑问句需借助助动词did，把did置于主语you之前，实义动词还原为原形get，right作为宾语补足语补充说明答题结果。"
+    },
+    {
+      "title": "呼语独立",
+      "text": "Jane是呼语，用逗号和主句隔开，用来直接点明对话对象，不属于句子主干成分。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "How many questions",
+      "role": "疑问宾语",
+      "explanation": "How many修饰可数名词复数questions，是get的逻辑宾语，明确询问核心为答对的题目的数量，是句子的提问对象。"
+    },
+    {
+      "text": "did",
+      "role": "助动词",
+      "explanation": "用于一般过去时的疑问句，帮助构成倒装语序，本身没有实义。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指代对话对象Jane，是答题动作的发出者。"
+    },
+    {
+      "text": "get",
+      "role": "谓语动词",
+      "explanation": "实义动词，此处指在答题测试中得到（答对题目）的结果。"
+    },
+    {
+      "text": "right",
+      "role": "宾语补足语",
+      "explanation": "补充说明questions的状态，指答对的题目。"
+    },
+    {
+      "text": "Jane?",
+      "role": "呼语",
+      "explanation": "直接称呼对话对象，让问句指向明确的接收人。"
+    }
+  ],
+  "words": [
+    {
+      "text": "How",
+      "meaning": "怎样；多少",
+      "pos": "疑问副词",
+      "phonetic": "/haʊ/"
+    },
+    {
+      "text": "many",
+      "meaning": "多少",
+      "pos": "限定词",
+      "phonetic": "/ˈmeni/"
+    },
+    {
+      "text": "questions",
+      "meaning": "题目（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈkwestʃənz/"
+    },
+    {
+      "text": "did",
+      "meaning": "助动词do的过去式，无实义",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "get",
+      "meaning": "获得；得到",
+      "pos": "动词",
+      "phonetic": "/ɡet/"
+    },
+    {
+      "text": "right,",
+      "meaning": "正确的；对的",
+      "pos": "形容词",
+      "phonetic": "/raɪt/"
+    },
+    {
+      "text": "Jane?",
+      "meaning": "简（人名）",
+      "pos": "名词",
+      "phonetic": "/dʒeɪn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "How many questions",
+      "meaning": "多少道题",
+      "relation": "核心提问对象，即询问的题量"
+    },
+    {
+      "text": "did you get",
+      "meaning": "你（过去）答对",
+      "relation": "疑问语序下的主谓结构，体现答题的动作"
+    },
+    {
+      "text": "right,",
+      "meaning": "正确的，",
+      "relation": "补足语，限定题目为答对的状态"
+    },
+    {
+      "text": "Jane?",
+      "meaning": "简？",
+      "relation": "呼语，点明对话对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-001",
+  "sentenceOrder": 1,
+  "english": "How many questions did you get right, Jane?",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "How many引导可数名词数量提问",
+      "text": "How many后必须接可数名词复数，这里修饰questions，专门询问题目的具体数量，不能和不可数名词搭配使用。"
+    },
+    {
+      "title": "一般过去时的疑问语序",
+      "text": "实义动词get的过去式疑问句需借助助动词did，把did置于主语you之前，实义动词还原为原形get，right作为宾语补足语补充说明答题结果。"
+    },
+    {
+      "title": "呼语独立",
+      "text": "Jane是呼语，用逗号和主句隔开，用来直接点明对话对象，不属于句子主干成分。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析框架准确，清晰区分了核心数量提问和呼语Jane，对How many接可数名词复数、一般过去时疑问倒装语序、right作宾语补足语的说明均符合语法规则，翻译和意图与语境匹配；仅存在几处表述冗余、搭配不当的小问题，修正后即可符合规范。（非逐句人工审核）"
+}

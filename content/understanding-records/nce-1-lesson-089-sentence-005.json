@@ -1,0 +1,142 @@
+{
+  "chinese": "你/你们在这里住了多久？",
+  "intent": "询问对方在当前地点的居住时长，是房产带看场景中，房产中介向房主提出的相关问题。",
+  "comparison": {
+    "chinese": "询问居住时长：中文习惯把表时长的疑问词“多久”放在主语“你/你们”之前，而英文先把疑问成分How long放在句首，再把助动词have提到主语you前面，构成现在完成时的疑问结构。",
+    "english": "问对方住了多久：英文How long放在句首，have提到you前面，lived here用现在完成时表示从过去持续到现在的居住状态。",
+    "steps": [
+      {
+        "label": "先确定疑问范围",
+        "text": "How long",
+        "explanation": "这是针对持续时长的疑问词组，意思是“有多久、多长时间”，用来询问居住状态从过去延续到现在的总时长。"
+      },
+      {
+        "label": "再识别时态和主语",
+        "text": "have you lived",
+        "explanation": "have是现在完成时的助动词，提到主语you前面构成疑问，lived是live的过去分词，和have一起表示从过去某时开始、一直延续到现在的居住状态。"
+      },
+      {
+        "label": "最后补充地点信息",
+        "text": "here?",
+        "explanation": "here是地点副词，说明“居住”这个状态所处的位置就是当前对话所在的房子，末尾的问号标明这是完整的疑问句。"
+      }
+    ],
+    "takeaway": "How long不能只按字面理解为“多长”，在这里搭配完成时lived，专门用来询问状态从过去持续到现在的总时长；变成问句时，只需要把完成时的助动词have挪到主语you前面，不需要额外添加do/does之类的助动词。"
+  },
+  "backbone": {
+    "text": "How long have you lived here?",
+    "meaning": "向对方提问：从开始在这里居住到现在，一共过去了多长时间。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时疑问结构",
+      "text": "这是现在完成时的特殊疑问句，结构为“疑问词组+助动词have+主语+动词过去分词+地点副词”。助动词have放在主语you之前帮助构成疑问，主语you在语境中可指单个人或多人。"
+    },
+    {
+      "title": "How long的语义指向",
+      "text": "How long在这里不是问物体的长度，而是问状态持续的时间长度，常和表示一段时间的答语（比如for + 时长）呼应，本句对应答语就是for twenty years。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "How long",
+      "role": "疑问状语",
+      "explanation": "表示询问居住状态持续的时间长度，是整个句子要获取的核心信息，回答时需要给出具体的时间跨度。"
+    },
+    {
+      "text": "have",
+      "role": "助动词",
+      "explanation": "是现在完成时的标志性助动词，因为句子是疑问句，所以被提到主语you的前面，本身没有实义。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "是被询问的对象，也就是居住状态的主体，在本句中结合语境指代带看房产的房主，可指单人或多人。"
+    },
+    {
+      "text": "lived",
+      "role": "谓语核心动词",
+      "explanation": "是动词live的过去分词形式，和前面的have一起构成现在完成时，表示居住这个状态从过去延续到说话当下。"
+    },
+    {
+      "text": "here",
+      "role": "地点副词",
+      "explanation": "修饰谓语部分的居住状态，点明居住行为发生的地点，就是当前双方所在的房子里。"
+    }
+  ],
+  "words": [
+    {
+      "text": "How",
+      "meaning": "与long搭配构成疑问词组How long，用来询问时长或长度，不单独翻译为“怎样、如何”",
+      "pos": "疑问副词",
+      "phonetic": "/haʊ/"
+    },
+    {
+      "text": "long",
+      "meaning": "长久地；（与How搭配）（询问时长）多久",
+      "pos": "副词",
+      "phonetic": "/lɒŋ/"
+    },
+    {
+      "text": "have",
+      "meaning": "（现在完成时助动词，无实义，帮助构成疑问和完成时态）",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "lived",
+      "meaning": "居住；生活",
+      "pos": "动词（live的过去分词）",
+      "phonetic": "/lɪvd/"
+    },
+    {
+      "text": "here?",
+      "meaning": "这里；在这里？",
+      "pos": "副词",
+      "phonetic": "/hɪə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "How long",
+      "meaning": "多久、多长时间",
+      "relation": "询问核心信息，指向居住状态的持续时长"
+    },
+    {
+      "text": "have you lived",
+      "meaning": "你/你们已经居住",
+      "relation": "现在完成时疑问结构，说明居住这个从过去延续到现在的状态"
+    },
+    {
+      "text": "here?",
+      "meaning": "在这里？",
+      "relation": "补充说明居住的地点，收尾完成全句提问"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-89",
+  "sentenceId": "nce-1-lesson-089-sentence-005",
+  "sentenceOrder": 5,
+  "english": "How long have you lived here?",
+  "lesson": "Lesson 89 For sale",
+  "notes": [
+    {
+      "title": "现在完成时疑问结构",
+      "text": "这是现在完成时的特殊疑问句，结构为“疑问词组+助动词have+主语+动词过去分词+地点副词”。助动词have放在主语you之前帮助构成疑问，主语you在语境中可指单个人或多人。"
+    },
+    {
+      "title": "How long的语义指向",
+      "text": "How long在这里不是问物体的长度，而是问状态持续的时间长度，常和表示一段时间的答语（比如for + 时长）呼应，本句对应答语就是for twenty years。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确，How long作疑问状语而非主语、完成时疑问的助动词移位说明清晰，结合后文中I've lived here for twenty years的答语也正确。仅需微调两处表述：一是明确you在此语境可单指房主而非默认复数“你们”；二是将here的语法修饰对象明确为“居住状态”而非动作live，避免误解为询问正在进行的居住动作。（非逐句人工审核）"
+}

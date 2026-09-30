@@ -1,0 +1,116 @@
+{
+  "chinese": "您买的是哪几本书？",
+  "intent": "询问对方过去实际购买的书籍范围。",
+  "comparison": {
+    "chinese": "中文说“您买的是哪几本书”，中文常把“哪几本书”放在句首；英文要先把did放在you前面表示疑问，which books仍放在句首突出被问的对象。",
+    "english": "Which books did you buy?",
+    "steps": [
+      {
+        "label": "先定核心问题",
+        "text": "you bought...",
+        "explanation": "先理解为“你买了……”，再找缺的信息：买的具体是哪些书。"
+      },
+      {
+        "label": "用Which books提问",
+        "text": "Which books...",
+        "explanation": "Which books说明要问“哪几本书”，不是问是否买书或在哪里买。"
+      },
+      {
+        "label": "did表示过去疑问",
+        "text": "did you buy?",
+        "explanation": "did放在主语you前面，buy用原形，表示“你（过去）买了什么”。"
+      }
+    ],
+    "takeaway": "这类问句先理解“你买了”，再用which books问具体是哪些；did只表示疑问和过去，不改变buy的原形。"
+  },
+  "backbone": {
+    "text": "Which books did you buy?",
+    "meaning": "询问对方过去买了哪几本书。"
+  },
+  "structureNotes": [
+    {
+      "title": "Which books是被问的宾语",
+      "text": "Which books放在句首，说明buy的对象是“哪几本书”；回答通常直接说书，而不是重复buy did。"
+    },
+    {
+      "title": "did帮助构成过去疑问句",
+      "text": "陈述句you bought变成疑问句时，did放在you前，后面用buy原形，意思仍是“你买了”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Which books",
+      "role": "疑问宾语（前置）",
+      "explanation": "Which修饰books，构成宾语前置的特殊疑问结构，明确要问“哪几本书”，而非数量、地点或其他信息。"
+    },
+    {
+      "text": "did you buy",
+      "role": "谓语部分",
+      "explanation": "did是助动词，置于主语you前帮助构成过去式疑问句，无实际词汇意义；其后的实义动词buy用原形，表示询问对方已经完成的购买动作。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "哪一些",
+      "pos": "疑问限定词",
+      "phonetic": "/wɪtʃ/",
+      "text": "Which"
+    },
+    {
+      "meaning": "书（复数）",
+      "pos": "名词",
+      "phonetic": "/bʊks/",
+      "text": "books"
+    },
+    {
+      "meaning": "（过去疑问助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/",
+      "text": "did"
+    },
+    {
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "购买",
+      "pos": "动词",
+      "phonetic": "/baɪ/",
+      "text": "buy?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Which books",
+      "meaning": "哪几本书",
+      "relation": "buy的疑问宾语前置，询问购买的具体对象"
+    },
+    {
+      "text": "did you buy?",
+      "meaning": "你买了？",
+      "relation": "构成过去式疑问句的谓语框架，包含助动词、主语和实义动词"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-97",
+  "sentenceId": "nce-1-lesson-097-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Which books did you buy?",
+  "lesson": "Lesson 97 A small blue case",
+  "notes": [
+    {
+      "title": "Which books是被问的宾语",
+      "text": "Which books放在句首，说明buy的对象是“哪几本书”；回答通常直接说书，而不是重复buy did。"
+    },
+    {
+      "title": "did帮助构成过去疑问句",
+      "text": "陈述句you bought变成疑问句时，did放在you前，后面用buy原形，意思仍是“你买了”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅两处表述存在逻辑疏漏，可明确修正：一是did的语法作用描述将其与“过去时”绑定，未体现助动词本身无实义的核心属性；二是疑问词块的功能表述未说明其为宾语前置的特殊疑问词。（非逐句人工审核）"
+}

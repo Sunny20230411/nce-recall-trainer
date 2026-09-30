@@ -1,0 +1,106 @@
+{
+  "chinese": "它是一个著名的风景胜地。",
+  "intent": "说明上文提到的那座小镇具有知名风景胜地的属性，补充介绍该地点的知名度。",
+  "comparison": null,
+  "backbone": {
+    "text": "It is a famous beauty spot.",
+    "meaning": "（它）是一个著名的风景胜地。"
+  },
+  "structureNotes": [
+    {
+      "title": "指代关系",
+      "text": "句中的It指代前一句提到的被树林环绕的古老小镇，承接前文的介绍内容，避免重复表述。"
+    },
+    {
+      "title": "固定表达",
+      "text": "beauty spot是固定搭配，指风景优美、游人常来的景点或风景胜地，spot在这里表示特定的地点，不是“斑点”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "主语",
+      "explanation": "代词，指代前文提到的古老小镇，是句子描述的对象。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "be动词的第三人称单数现在时形式，连接主语和后续的表语。"
+    },
+    {
+      "text": "a famous beauty spot",
+      "role": "表语",
+      "explanation": "名词短语，用来说明主语的性质与身份，其中famous修饰beauty spot，点明它的知名属性。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（指代前文提到的小镇）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be动词第三人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "famous",
+      "meaning": "著名的，有名的",
+      "pos": "形容词",
+      "phonetic": "/ˈfeɪməs/"
+    },
+    {
+      "text": "beauty",
+      "meaning": "美景（与spot搭配构成风景胜地）",
+      "pos": "名词",
+      "phonetic": "/ˈbjuːti/"
+    },
+    {
+      "text": "spot.",
+      "meaning": "地点，场所（与beauty搭配构成风景胜地）",
+      "pos": "名词",
+      "phonetic": "/spɒt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It is",
+      "relation": "句子被描述的主体和判断谓语，承接上句指代被树林环绕的小镇",
+      "meaning": "它是"
+    },
+    {
+      "text": "a famous beauty spot.",
+      "relation": "描述主体的身份属性，说明这个地方是知名的游览景点",
+      "meaning": "一个著名的风景胜地"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-143",
+  "sentenceId": "nce-1-lesson-143-sentence-002",
+  "sentenceOrder": 2,
+  "english": "It is a famous beauty spot.",
+  "lesson": "Lesson 143 A walk through the woods",
+  "notes": [
+    {
+      "title": "指代关系",
+      "text": "句中的It指代前一句提到的被树林环绕的古老小镇，承接前文的介绍内容，避免重复表述。"
+    },
+    {
+      "title": "固定表达",
+      "text": "beauty spot是固定搭配，指风景优美、游人常来的景点或风景胜地，spot在这里表示特定的地点，不是“斑点”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合成人静态解析要求，仅单词spot的音标尾部多余了句点，修正后即可完全合规。（非逐句人工审核）"
+}

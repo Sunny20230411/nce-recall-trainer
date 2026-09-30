@@ -1,0 +1,92 @@
+{
+  "chinese": "这个书架不是给我的。",
+  "intent": "明确说明这个书架的归属分配对象不是说话人自己。",
+  "comparison": null,
+  "backbone": {
+    "text": "This bookcase isn't for me.",
+    "meaning": "这个书架的接收对象不是我"
+  },
+  "parts": [
+    {
+      "text": "This bookcase",
+      "relation": "整个句子描述的主体",
+      "meaning": "这个书架"
+    },
+    {
+      "text": "isn't",
+      "relation": "对归属分配关系做出否定",
+      "meaning": "不是"
+    },
+    {
+      "text": "for me.",
+      "relation": "补充说明原本的分配对象",
+      "meaning": "给我的"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "否定缩写形式",
+      "text": "isn't是is not的常用口语缩写，直接对后面的分配说明进行否定，不用额外加助动词就可以构成否定表述。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "This bookcase",
+      "role": "陈述主体",
+      "explanation": "点明被说明的具体物品，作为整句的描述对象"
+    },
+    {
+      "text": "isn't for me",
+      "role": "否定性分配说明",
+      "explanation": "清晰表达这件物品的用途归属并不指向说话人自己"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/",
+      "text": "This"
+    },
+    {
+      "meaning": "书架",
+      "pos": "名词",
+      "phonetic": "/ˈbʊkkeɪs/",
+      "text": "bookcase"
+    },
+    {
+      "meaning": "不是",
+      "pos": "系动词否定缩写",
+      "phonetic": "/ˈɪznt/",
+      "text": "isn't"
+    },
+    {
+      "meaning": "给、为了",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/",
+      "text": "for"
+    },
+    {
+      "meaning": "我",
+      "pos": "人称代词宾格",
+      "phonetic": "/miː/",
+      "text": "me."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-37",
+  "sentenceId": "nce-1-lesson-037-sentence-006",
+  "sentenceOrder": 6,
+  "english": "This bookcase isn't for me.",
+  "lesson": "Lesson 37 Making a bookcase",
+  "notes": [
+    {
+      "title": "否定缩写形式",
+      "text": "isn't是is not的常用口语缩写，直接对后面的分配说明进行否定，不用额外加助动词就可以构成否定表述。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合要求，仅存在少量细节可规范修正，无核心解析错误。（非逐句人工审核）"
+}

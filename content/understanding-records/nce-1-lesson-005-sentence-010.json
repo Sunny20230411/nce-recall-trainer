@@ -1,0 +1,69 @@
+{
+  "chinese": "她是日本人。",
+  "intent": "介绍这位名叫直子的女性的国籍身份。",
+  "comparison": null,
+  "backbone": {
+    "text": "She's Japanese.",
+    "meaning": "她的国籍身份是日本人。"
+  },
+  "parts": [
+    {
+      "text": "She's",
+      "relation": "指代前文提到的直子，作为句子的陈述主体带出判断",
+      "meaning": "她是"
+    },
+    {
+      "text": "Japanese.",
+      "relation": "补充说明主体的国籍身份",
+      "meaning": "日本人"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "缩略表达说明",
+      "text": "She's是She is的常用口语缩略形式，省去be动词的完整拼写不影响判断身份的核心含义，日常介绍身份时普遍使用。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She's",
+      "role": "主语+系动词缩略结构",
+      "explanation": "明确指代前文提到的女性人物Naoko，作为句子的陈述起点引出后续身份说明。"
+    },
+    {
+      "text": "Japanese.",
+      "role": "表语",
+      "explanation": "用于说明主语的国籍，和前面的系动词搭配完成完整的身份判断。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "她是",
+      "pos": "代词+系动词缩略形式",
+      "phonetic": "/ʃiːz/",
+      "text": "She's"
+    },
+    {
+      "meaning": "日本人；日本国籍的",
+      "pos": "名词/形容词",
+      "phonetic": "/ˌdʒæpəˈniːz/",
+      "text": "Japanese."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-5",
+  "sentenceId": "nce-1-lesson-005-sentence-010",
+  "sentenceOrder": 10,
+  "english": "She's Japanese.",
+  "lesson": "Lesson 5 Nice to meet you.",
+  "notes": [
+    {
+      "title": "缩略表达说明",
+      "text": "She's是She is的常用口语缩略形式，省去be动词的完整拼写不影响判断身份的核心含义，日常介绍身份时普遍使用。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：经核查，该解析整体符合要求，仅存在局部细节瑕疵可明确修正，未出现语法概念错误、信息错配等核心问题。（非逐句人工审核）"
+}

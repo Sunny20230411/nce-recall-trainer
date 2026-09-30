@@ -1,0 +1,99 @@
+{
+  "chinese": "你也是法国人吗？",
+  "intent": "向对方确认自己的国籍判断是否同样适用于对方",
+  "comparison": null,
+  "backbone": {
+    "text": "Are you French",
+    "meaning": "确认你是不是法国人"
+  },
+  "parts": [
+    {
+      "text": "Are",
+      "relation": "引导疑问句的疑问语序",
+      "meaning": "是（系动词引导疑问语序）"
+    },
+    {
+      "text": "you",
+      "relation": "询问的对象",
+      "meaning": "你"
+    },
+    {
+      "text": "French,",
+      "relation": "补充说明询问的身份属性",
+      "meaning": "法国人，"
+    },
+    {
+      "text": "too?",
+      "relation": "补充强调身份属性同样适用",
+      "meaning": "也？"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "疑问语序调整",
+      "text": "本句将系动词Are放到主语you之前，直接构成一般疑问句，不需要额外加助动词do来引导提问。"
+    },
+    {
+      "title": "too的用法",
+      "text": "副词too放在句末，用来表示前文提到的情况也适用于当前对话对象，呼应上一句已经确认过的国籍信息。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Are you French",
+      "role": "疑问句核心框架",
+      "explanation": "用来直接确认对方是否拥有法国国籍，是整个问句传递核心诉求的部分。"
+    },
+    {
+      "text": ", too?",
+      "role": "附加修饰成分",
+      "explanation": "放在句末补充说明，让提问关联到前文已经出现的相同情况，避免重复完整问句。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是（系动词，引导一般疑问语序）",
+      "pos": "be动词（系动词）",
+      "phonetic": "/ɑː(r)/",
+      "text": "Are"
+    },
+    {
+      "meaning": "你",
+      "pos": "第二人称主格人称代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "法国人",
+      "pos": "名词",
+      "phonetic": "/frentʃ/",
+      "text": "French,"
+    },
+    {
+      "meaning": "也",
+      "pos": "副词",
+      "phonetic": "/tuː/",
+      "text": "too?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-7",
+  "sentenceId": "nce-1-lesson-007-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Are you French, too?",
+  "lesson": "Lesson 7 Are you a teacher?",
+  "notes": [
+    {
+      "title": "疑问语序调整",
+      "text": "本句将系动词Are放到主语you之前，直接构成一般疑问句，不需要额外加助动词do来引导提问。"
+    },
+    {
+      "title": "too的用法",
+      "text": "副词too放在句末，用来表示前文提到的情况也适用于当前对话对象，呼应上一句已经确认过的国籍信息。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原始内容整体合规，仅存在局部细节偏差，可通过补丁修正完善内容准确性（非逐句人工审核）"
+}

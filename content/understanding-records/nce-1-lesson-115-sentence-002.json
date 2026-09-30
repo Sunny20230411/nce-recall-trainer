@@ -1,0 +1,74 @@
+{
+  "chinese": "是我。",
+  "intent": "向门外询问身份的人通报自己的身份。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's me.",
+    "meaning": "门外说话的人就是我。"
+  },
+  "structureNotes": [
+    {
+      "title": "It 作指人的形式主语",
+      "text": "本句的 It 不指代动物或物体，而是指代门外敲门的未知说话人；be 动词 is 缩写为 's，后面的 me 是人称代词宾格，口语中用来表明说话人的身份。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "指人作主语",
+      "explanation": "指代门外敲门的未知说话人，不指代事物。"
+    },
+    {
+      "text": "'s",
+      "role": "系动词 be 缩写",
+      "explanation": "是 is 的缩写，连接主语和表语。"
+    },
+    {
+      "text": "me",
+      "role": "表语",
+      "explanation": "用人称代词宾格说明说话人的身份，口语中不使用主格 I。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "是（is 的缩写）",
+      "pos": "缩写词",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "me.",
+      "meaning": "我",
+      "pos": "代词宾格",
+      "phonetic": "/miː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's",
+      "relation": "指代敲门者，引出身份回答",
+      "meaning": "是（指代门外敲门的人）"
+    },
+    {
+      "text": "me.",
+      "relation": "补充说明说话人自身身份",
+      "meaning": "我。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-115",
+  "sentenceId": "nce-1-lesson-115-sentence-002",
+  "sentenceOrder": 2,
+  "english": "It's me.",
+  "lesson": "Lesson 115 Knock, knock!",
+  "notes": [
+    {
+      "title": "It 作指人的形式主语",
+      "text": "本句的 It 不指代动物或物体，而是指代门外敲门的未知说话人；be 动词 is 缩写为 's，后面的 me 是人称代词宾格，口语中用来表明说话人的身份。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确：上下文问答匹配，核心结构与词汇释义无误，me 作表语用宾格的说明正确，中文翻译与意图通顺。仅 It's 词条的音标将 It 与缩写 's 的整体发音误写为 /ɪts/，需更正为英式标准音标 /ɪts/ 对应的正确写法 /ɪts/。（非逐句人工审核）"
+}

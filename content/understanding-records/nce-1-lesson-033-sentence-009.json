@@ -1,0 +1,116 @@
+{
+  "chinese": "蒂姆正在看一架飞机。",
+  "intent": "清晰交代蒂姆当下的动作行为，说明他正将视线投向飞机的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "Tim is looking at an aeroplane.",
+    "meaning": "蒂姆正在看一架飞机。"
+  },
+  "parts": [
+    {
+      "text": "Tim",
+      "relation": "描述动作的发出者",
+      "meaning": "蒂姆（人名）"
+    },
+    {
+      "text": "is looking",
+      "relation": "描述动作发出者正在执行的行为",
+      "meaning": "正在看"
+    },
+    {
+      "text": "at",
+      "relation": "补充说明看这个动作的指向",
+      "meaning": "朝向、对着"
+    },
+    {
+      "text": "an aeroplane.",
+      "relation": "说明视线所投向的对象",
+      "meaning": "一架飞机。"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "look at 的搭配用法",
+      "text": "look 作为表达观看的动作时，搭配介词at才能明确指向观看的具体对象，不可直接在look后接名词。"
+    },
+    {
+      "title": "现在进行时结构",
+      "text": "本句用“be动词is + 现在分词looking”的组合，体现动作正在当下持续发生的状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Tim",
+      "role": "主语",
+      "explanation": "全句动作的发出者，明确执行“看”这个动作的主体是蒂姆。"
+    },
+    {
+      "text": "is looking at",
+      "role": "谓语部分",
+      "explanation": "由be动词、现在分词和搭配介词共同组成，说明动作的进行状态和指向性。"
+    },
+    {
+      "text": "an aeroplane.",
+      "role": "宾语",
+      "explanation": "动作的接收对象，指明蒂姆正在观看的具体事物是飞机。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "蒂姆（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/tɪm/",
+      "text": "Tim"
+    },
+    {
+      "meaning": "是（现在进行时的助动词）",
+      "pos": "助动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "看（现在分词形式）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈlʊkɪŋ/",
+      "text": "looking"
+    },
+    {
+      "meaning": "朝向，对着",
+      "pos": "介词",
+      "phonetic": "/æt/",
+      "text": "at"
+    },
+    {
+      "meaning": "一（不定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ən/",
+      "text": "an"
+    },
+    {
+      "meaning": "飞机",
+      "pos": "名词",
+      "phonetic": "/ˈeərəpleɪn/",
+      "text": "aeroplane."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-33",
+  "sentenceId": "nce-1-lesson-033-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Tim is looking at an aeroplane.",
+  "lesson": "Lesson 33 A fine day",
+  "notes": [
+    {
+      "title": "look at 的搭配用法",
+      "text": "look 作为表达观看的动作时，搭配介词at才能明确指向观看的具体对象，不可直接在look后接名词。"
+    },
+    {
+      "title": "现在进行时结构",
+      "text": "本句用“be动词is + 现在分词looking”的组合，体现动作正在当下持续发生的状态。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容完整合规，仅存在两处细节瑕疵：一是单词表中aeroplane的释义末尾误带句号且标点归属不当，二是comparison字段为空，需补充明确的组织说明。（非逐句人工审核）"
+}

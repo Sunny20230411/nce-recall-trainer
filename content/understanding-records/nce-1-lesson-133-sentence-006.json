@@ -1,0 +1,99 @@
+{
+  "chinese": "我觉得很累。",
+  "intent": "表达自身当前的疲惫感受。",
+  "comparison": null,
+  "backbone": {
+    "text": "I feel very tired.",
+    "meaning": "本人现在感觉非常疲惫。"
+  },
+  "structureNotes": [
+    {
+      "title": "连系动词feel的表语用法",
+      "text": "feel是连系动词，后面直接接描述主语状态的形容词tired，不需要加介词或从句来衔接感受内容。"
+    },
+    {
+      "title": "程度副词very的修饰位置",
+      "text": "very放在tired之前，用来强调疲惫的程度，不改变句子核心的主谓表基本结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话者本人，是句子所描述感受的发出者。"
+    },
+    {
+      "text": "feel",
+      "role": "连系动词",
+      "explanation": "连接主语I和后面的表语tired，表达主语所处的主观感受状态。"
+    },
+    {
+      "text": "very tired",
+      "role": "表语",
+      "explanation": "说明主语I的状态，very作为程度副词修饰形容词tired，表示疲惫的程度很深。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "feel",
+      "meaning": "觉得；感觉",
+      "pos": "连系动词",
+      "phonetic": "/fiːl/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常；很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "tired.",
+      "meaning": "疲惫的；劳累的",
+      "pos": "形容词",
+      "phonetic": "/ˈtaɪərd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "描述的主体",
+      "meaning": "我"
+    },
+    {
+      "text": "feel",
+      "relation": "引出主语的主观感受",
+      "meaning": "觉得；感觉"
+    },
+    {
+      "text": "very tired.",
+      "relation": "说明主语当下的疲惫状态",
+      "meaning": "很累"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-133",
+  "sentenceId": "nce-1-lesson-133-sentence-006",
+  "sentenceOrder": 6,
+  "english": "I feel very tired.",
+  "lesson": "Lesson 133 Sensational news!",
+  "notes": [
+    {
+      "title": "连系动词feel的表语用法",
+      "text": "feel是连系动词，后面直接接描述主语状态的形容词tired，不需要加介词或从句来衔接感受内容。"
+    },
+    {
+      "title": "程度副词very的修饰位置",
+      "text": "very放在tired之前，用来强调疲惫的程度，不改变句子核心的主谓表基本结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句翻译、主干、结构分析与分块含义基本准确，不存在“Where 被当作主语”“if 被当成 only if”这类关键错误；仅词条 tired 的音标误写为英式音标 /taɪəd/，修正为通用国际音标 /ˈtaɪərd/ 即可，其余内容无需改动。（非逐句人工审核）"
+}

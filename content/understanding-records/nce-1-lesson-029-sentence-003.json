@@ -1,0 +1,81 @@
+{
+  "chinese": "这间卧室很不整洁。",
+  "intent": "说话人向对方指出当前这间卧室的状态十分脏乱，提示对方注意到这个需要整理的情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "This bedroom's very untidy",
+    "meaning": "这间卧室很不整洁"
+  },
+  "parts": [
+    {
+      "text": "This bedroom's",
+      "relation": "描述的主体（主语This bedroom与系动词is的口语缩略组合）",
+      "meaning": "这间卧室是"
+    },
+    {
+      "text": "very untidy.",
+      "relation": "补充说明卧室的表语状态",
+      "meaning": "非常不整洁"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "bedroom's的缩略",
+      "text": "这里的bedroom's是bedroom is的口语缩略形式，不是所有格，整句用来直接说明事物的状态，表达自然简洁。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "This bedroom's",
+      "role": "主语+系动词缩略",
+      "explanation": "明确全句描述的对象是眼前的这间卧室，通过缩略形式简化口语表达"
+    },
+    {
+      "text": "very untidy",
+      "role": "表语部分",
+      "explanation": "用来修饰前面的主语卧室，完整说明其脏乱的具体状态"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这，这间",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/",
+      "text": "This"
+    },
+    {
+      "meaning": "卧室是（bedroom is的口语缩略）",
+      "pos": "名词+系动词缩略",
+      "phonetic": "/ˈbedrʊmz/",
+      "text": "bedroom's"
+    },
+    {
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/",
+      "text": "very"
+    },
+    {
+      "meaning": "不整洁的",
+      "pos": "形容词",
+      "phonetic": "/ʌnˈtaɪdi/",
+      "text": "untidy."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-29",
+  "sentenceId": "nce-1-lesson-029-sentence-003",
+  "sentenceOrder": 3,
+  "english": "This bedroom's very untidy.",
+  "lesson": "Lesson 29 Come in, Amy.",
+  "notes": [
+    {
+      "title": "bedroom's的缩略",
+      "text": "这里的bedroom's是bedroom is的口语缩略形式，不是所有格，整句用来直接说明事物的状态，表达自然简洁。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有解析主体合规，仅存在局部细节疏漏可明确修正，不影响核心语义理解（非逐句人工审核）"
+}

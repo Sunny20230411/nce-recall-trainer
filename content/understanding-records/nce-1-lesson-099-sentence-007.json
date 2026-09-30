@@ -1,0 +1,53 @@
+{
+  "chinese": "试着站起来。你能站起来吗？来，让我帮你。",
+  "intent": "口语中向对方招手、提供搀扶时的示意，表达要过来提供帮助的意图。",
+  "comparison": null,
+  "backbone": {
+    "text": "Here.",
+    "meaning": "（招呼对方靠近、要提供帮助时说）来，到这儿来。"
+  },
+  "structureNotes": [
+    {
+      "title": "简短招呼语的语境含义",
+      "text": "这句话是完整的独立表达，不是地点状语，在邀请对方过来、伸手帮扶的场景下使用。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Here.",
+      "role": "招呼语",
+      "explanation": "用于口语情境中，示意对方靠近自己，结合下文Let me help you体现主动上前提供搀扶的意图。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Here.",
+      "meaning": "（招呼人到自己这里来）来，到这儿",
+      "pos": "招呼语",
+      "phonetic": "/hɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Here.",
+      "meaning": "来，到这儿来",
+      "relation": "招呼对方过来接受帮助，是完整独立的口语短句"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-99",
+  "sentenceId": "nce-1-lesson-099-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Here.",
+  "lesson": "Lesson 99 Ow!",
+  "notes": [
+    {
+      "title": "简短招呼语的语境含义",
+      "text": "这句话是完整的独立表达，不是地点状语，在邀请对方过来、伸手帮扶的场景下使用。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有释义、成分标注、语境说明基本正确，here 被正确处理为独立招呼语而非地点状语，与后续提供搀扶的上下文匹配。仅做轻度校正：将词义中的感叹词性调整为更准确的招呼语词性，微调解释措辞使其更贴合招呼人靠近接受帮助的场景，不改动原文与整体结构。（非逐句人工审核）"
+}

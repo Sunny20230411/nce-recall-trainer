@@ -1,0 +1,109 @@
+{
+  "chinese": "房间里有一台立体声音响。",
+  "intent": "说明房间内存在一台立体声音响这个物品。",
+  "comparison": null,
+  "backbone": {
+    "text": "There is a stereo in the room.",
+    "meaning": "这间房间里存在一台立体声音响。"
+  },
+  "parts": [
+    {
+      "text": "There is",
+      "relation": "引出存在陈述",
+      "meaning": "存在句式的引导部分，表示事物的存在状态"
+    },
+    {
+      "text": "a stereo",
+      "relation": "说明存在的具体物品",
+      "meaning": "一台立体声音响，是本句描述的核心事物"
+    },
+    {
+      "text": "in the room.",
+      "relation": "补充物品的存放地点",
+      "meaning": "在这个房间里，标明物品所在的位置"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "There be 存在句式",
+      "text": "这里用There is引出存在的事物，不用把There翻译成‘那里’，它只是用来开启存在类的陈述，真正的核心内容是后面的物品和位置。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There is",
+      "role": "存在引导结构",
+      "explanation": "用来告知听者接下来要说明某个事物是当下存在的，不是用来指代方位的实词"
+    },
+    {
+      "text": "a stereo",
+      "role": "存在的核心主体",
+      "explanation": "是本句里实际存在的事物，也是is后面接的名词内容"
+    },
+    {
+      "text": "in the room",
+      "role": "地点状语",
+      "explanation": "补充说明这台立体声音响所处的具体空间位置"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "引导存在句式",
+      "pos": "there（存在引导词）",
+      "phonetic": "/ðeə(r)/",
+      "text": "There"
+    },
+    {
+      "meaning": "是（存在句式的系动词）",
+      "pos": "动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "一台（不定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "立体声音响",
+      "pos": "名词",
+      "phonetic": "/ˈsteriəʊ/",
+      "text": "stereo"
+    },
+    {
+      "meaning": "在…里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这个（定冠词，特指本次语境下介绍的房间）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "房间",
+      "pos": "名词",
+      "phonetic": "/ruːm/",
+      "text": "room."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-27",
+  "sentenceId": "nce-1-lesson-027-sentence-009",
+  "sentenceOrder": 9,
+  "english": "There is a stereo in the room.",
+  "lesson": "Lesson 27 Mrs. Smith's living room",
+  "notes": [
+    {
+      "title": "There be 存在句式",
+      "text": "这里用There is引出存在的事物，不用把There翻译成‘那里’，它只是用来开启存在类的陈述，真正的核心内容是后面的物品和位置。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体合规，仅存在两处小细节需修正优化，不影响核心语义理解（非逐句人工审核）"
+}

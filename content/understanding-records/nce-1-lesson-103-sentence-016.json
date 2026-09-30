@@ -1,0 +1,137 @@
+{
+  "chinese": "法语考试真糟糕，是不是？",
+  "intent": "表达说话者对法语考试的负面感受，并通过反问期待对方认同自己的看法。",
+  "comparison": {
+    "chinese": "中文表达这类先表态再求附和的语气，会先说完完整的判断，再用语气词加短句抛出追问，顺着听话者的思路完成从陈述到求证的推进。",
+    "english": "英语反义疑问句会先给出完整肯定陈述句，再用与前文指称一致的代词，搭配与主句主谓相反的简短疑问结构接在句尾。",
+    "steps": [
+      {
+        "label": "先抛出核心判断",
+        "text": "French tests are awful",
+        "explanation": "先用“法语考试很糟糕”给出明确态度，这部分是听话者接收的主要信息。"
+      },
+      {
+        "label": "句尾追加求证反问",
+        "text": "aren't they?",
+        "explanation": "后半句用are的否定形式加指代tests的they，形成反向追问，期待对方同意前面的判断。"
+      }
+    ],
+    "takeaway": "英语反义疑问句前半句定态度，后半句用代词呼应名词、用相反语气求认同，和中文“……，是不是？”的表达逻辑顺序一致。"
+  },
+  "backbone": {
+    "text": "French tests are awful, aren't they?",
+    "meaning": "（说话者认为）法语考试非常糟糕，期待对方认同这个判断。"
+  },
+  "structureNotes": [
+    {
+      "title": "反义疑问结构的指代一致性",
+      "text": "后半句的they指代主句的复数名词French tests，反问部分的否定语气对应主句的肯定语气，形成固定的反义疑问搭配。"
+    },
+    {
+      "title": "反义疑问的功能",
+      "text": "这种结构不是真的提出疑问要求获取信息，而是偏向表达自己的主观看法，期待对方附和认同。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "French",
+      "role": "定语",
+      "explanation": "名词作定语，修饰后面的tests，说明是法语相关的考试。"
+    },
+    {
+      "text": "tests",
+      "role": "主语",
+      "explanation": "本句描述的核心对象，指各类法语考试。"
+    },
+    {
+      "text": "are",
+      "role": "系动词",
+      "explanation": "复数主语搭配的be动词，连接主语和后面的表语。"
+    },
+    {
+      "text": "awful",
+      "role": "表语",
+      "explanation": "形容词作表语，描述主语tests的性质，表达“糟糕、令人不快”的评价。"
+    },
+    {
+      "text": "aren't they?",
+      "role": "反义疑问附加部分",
+      "explanation": "和前面的肯定陈述形成反义搭配，用来寻求对方的认同，主语they指代前文的French tests。"
+    }
+  ],
+  "words": [
+    {
+      "text": "French",
+      "meaning": "法语",
+      "pos": "名词作定语",
+      "phonetic": "/frentʃ/"
+    },
+    {
+      "text": "tests",
+      "meaning": "考试（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈtest s/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（复数主语搭配的be动词）",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "awful,",
+      "meaning": "糟糕的",
+      "pos": "形容词",
+      "phonetic": "/ˈɔːfl/"
+    },
+    {
+      "text": "aren't",
+      "meaning": "不是（are not的缩写）",
+      "pos": "动词",
+      "phonetic": "/ɑːnt/"
+    },
+    {
+      "text": "they?",
+      "meaning": "他们/它们（指代前文的tests）",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "French tests",
+      "relation": "描述的核心主体，被后续内容评价",
+      "meaning": "法语考试"
+    },
+    {
+      "text": "are awful,",
+      "relation": "给出对法语考试的负面评价",
+      "meaning": "很糟糕，"
+    },
+    {
+      "text": "aren't they?",
+      "relation": "追加反问，期待对方认同前述的负面评价",
+      "meaning": "是不是？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-016",
+  "sentenceOrder": 16,
+  "english": "French tests are awful, aren't they?",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "反义疑问结构的指代一致性",
+      "text": "后半句的they指代主句的复数名词French tests，反问部分的否定语气对应主句的肯定语气，形成固定的反义疑问搭配。"
+    },
+    {
+      "title": "反义疑问的功能",
+      "text": "这种结构不是真的提出疑问要求获取信息，而是偏向表达自己的主观看法，期待对方附和认同。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句段主干结构、反义疑问功能、指代关系和语境翻译整体正确。主要可修正点为：音标未采用英式标注、单词条目混入标点、将名词作定语误注为形容词；另可明确be动词与否定缩写的成分拆分，使结构标注与文本一致。（非逐句人工审核）"
+}

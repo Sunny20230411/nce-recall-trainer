@@ -1,0 +1,105 @@
+{
+  "chinese": "这是你的衬衫吗，戴夫？",
+  "intent": "向戴夫发起询问，确认眼前的这件衬衫是否属于对方",
+  "comparison": null,
+  "backbone": {
+    "text": "Is this your shirt",
+    "meaning": "确认这个物品是不是你的衬衫"
+  },
+  "parts": [
+    {
+      "text": "Is",
+      "relation": "发起确认的疑问标记",
+      "meaning": "是（用于引导一般疑问句）"
+    },
+    {
+      "text": "this",
+      "relation": "指明询问的对象物品",
+      "meaning": "这个，指代眼前的物品"
+    },
+    {
+      "text": "your shirt,",
+      "relation": "说明要确认归属的物品内容",
+      "meaning": "你的衬衫"
+    },
+    {
+      "text": "Dave?",
+      "relation": "点明询问的目标对象",
+      "meaning": "戴夫，对话的被叫名字"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般疑问句式特点",
+      "text": "把be动词Is放到句首，直接将原本的陈述句「This is your shirt」转为需要对方用是或否回答的确认问句，不需要额外添加助动词。"
+    },
+    {
+      "title": "呼语位置说明",
+      "text": "人名Dave放在句末，用逗号和前面的问句主体隔开，专门用来点明正在向谁问话，不参与主句的语法结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is this your shirt",
+      "role": "一般疑问句主句",
+      "explanation": "句子的核心询问内容，用来确认物品的归属"
+    },
+    {
+      "text": "Dave?",
+      "role": "句末呼语",
+      "explanation": "指定对话的接收人，提醒被叫的人回应问题"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是",
+      "pos": "be动词",
+      "phonetic": "/ɪz/",
+      "text": "Is"
+    },
+    {
+      "meaning": "这个",
+      "pos": "指示代词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "你的",
+      "pos": "物主代词",
+      "phonetic": "/jɔː(r)/",
+      "text": "your"
+    },
+    {
+      "meaning": "衬衫",
+      "pos": "名词",
+      "phonetic": "/ʃɜːt/",
+      "text": "shirt,"
+    },
+    {
+      "meaning": "戴夫",
+      "pos": "人名（名词）",
+      "phonetic": "/deɪv/",
+      "text": "Dave?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-11",
+  "sentenceId": "nce-1-lesson-011-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Is this your shirt, Dave?",
+  "lesson": "Lesson 11 Is this your shirt?",
+  "notes": [
+    {
+      "title": "一般疑问句式特点",
+      "text": "把be动词Is放到句首，直接将原本的陈述句「This is your shirt」转为需要对方用是或否回答的确认问句，不需要额外添加助动词。"
+    },
+    {
+      "title": "呼语位置说明",
+      "text": "人名Dave放在句末，用逗号和前面的问句主体隔开，专门用来点明正在向谁问话，不参与主句的语法结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析逻辑合规，仅存在部分细节标注疏漏，可明确修正（非逐句人工审核）"
+}

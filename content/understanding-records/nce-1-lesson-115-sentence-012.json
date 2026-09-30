@@ -1,0 +1,165 @@
+{
+  "chinese": "里面没有人。大家都去看电影了。",
+  "intent": "陈述屋子里无人的现状，解释没人应门的原因是所有人都已经前往电影院。",
+  "comparison": {
+    "chinese": "大家都已经不在屋里，去到了电影院。",
+    "english": "Everyone's gone to the cinema.",
+    "steps": [
+      {
+        "label": "先给主语与状态",
+        "text": "Everyone（所有人）'s gone（已经去了）",
+        "explanation": "Everyone 作主语，'s gone 是 has gone 的缩写，表示人已经离开当前所在地，不强调是否已经到达电影院。"
+      },
+      {
+        "label": "再用介词表方向",
+        "text": "to the cinema（去电影院）",
+        "explanation": "to 表示移动的目的地，cinema 在此结合日常表达指看电影这件事，因此译为“看电影”而非字面的“电影院里面”。"
+      }
+    ],
+    "takeaway": "have/has gone to 表示“已经去了某地（现在不在此处）”，与“have been to（曾去过已回来）”语义完全不同；句中 to the cinema 是习惯搭配，不必逐字拆成“到电影院”。"
+  },
+  "backbone": {
+    "text": "There's no one in. Everyone's gone to the cinema.",
+    "meaning": "屋里没有任何人，所有人都已经离开，去了电影院。"
+  },
+  "structureNotes": [
+    {
+      "title": "There's no one in 的理解",
+      "text": "There be 结构在这里表示“存在某人/某物”，no one 意为“没有人”，作主语；句末的 in 是副词，表示“在（屋子）里面”，补充说明存在的范围，不要理解成介词“在……里”。"
+    },
+    {
+      "title": "have gone to 的语法作用",
+      "text": "Everyone's gone 是 Everyone has gone 的口语缩写，has gone 是现在完成时，表示“已经离开、人不在此处”，后面接 to + 地点表示移动方向，强调当前位置不在说话地点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There's",
+      "role": "存在句引导结构",
+      "explanation": "There is 的缩写形式，用来引出“存在/不存在”的陈述，后面接实际主语。"
+    },
+    {
+      "text": "no one",
+      "role": "存在句的实际主语",
+      "explanation": "表示“没有人”，是句子陈述的核心对象。"
+    },
+    {
+      "text": "in",
+      "role": "地点副词",
+      "explanation": "说明范围是“在屋子里面”，修饰 no one 所在的位置。"
+    },
+    {
+      "text": "Everyone's",
+      "role": "主语 + 助动词",
+      "explanation": "Everyone 是主语，'s 是 has 的缩写，和后面的 gone 构成现在完成时的谓语部分。"
+    },
+    {
+      "text": "gone",
+      "role": "谓语核心（过去分词）",
+      "explanation": "和助动词 has 搭配，构成“已经去了、已经离开”的现在完成时态。"
+    },
+    {
+      "text": "to the cinema",
+      "role": "目的地状语",
+      "explanation": "to 是方向介词，the cinema 是名词短语，说明 gone 的移动目的地。"
+    }
+  ],
+  "words": [
+    {
+      "text": "There's",
+      "meaning": "（There is 的缩写）",
+      "pos": "缩略结构",
+      "phonetic": "/ðeəz/"
+    },
+    {
+      "text": "no",
+      "meaning": "没有，表否定",
+      "pos": "限定词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "one",
+      "meaning": "人",
+      "pos": "不定代词",
+      "phonetic": "/wʌn/"
+    },
+    {
+      "text": "in.",
+      "meaning": "在里面（副词，指在屋内）",
+      "pos": "副词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "Everyone's",
+      "meaning": "（Everyone has 的缩写）",
+      "pos": "缩略结构",
+      "phonetic": "/ˈevriwʌnz/"
+    },
+    {
+      "text": "gone",
+      "meaning": "去了（go 的过去分词，表已离开前往）",
+      "pos": "动词（过去分词）",
+      "phonetic": "/ɡɒn/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向（表方向）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，特指当地的那家影院）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "cinema.",
+      "meaning": "电影院（此处指看电影）",
+      "pos": "名词",
+      "phonetic": "/ˈsɪnəmə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "There's no one",
+      "relation": "引导出存在性的否定陈述，说明屋内不存在的主体是“没有人”。",
+      "meaning": "没有任何人"
+    },
+    {
+      "text": "in.",
+      "relation": "补充“没有人”所在的范围是屋子内部。",
+      "meaning": "在屋里"
+    },
+    {
+      "text": "Everyone's gone",
+      "relation": "核心谓语部分，说明所有人已经动身离开的状态。",
+      "meaning": "大家已经去了（离开当前所在地）"
+    },
+    {
+      "text": "to the cinema.",
+      "relation": "补充说明所有人前往的目的地，解释为什么屋里没人。",
+      "meaning": "去了电影院（看电影）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-115",
+  "sentenceId": "nce-1-lesson-115-sentence-012",
+  "sentenceOrder": 12,
+  "english": "There's no one in. Everyone's gone to the cinema.",
+  "lesson": "Lesson 115 Knock, knock!",
+  "notes": [
+    {
+      "title": "There's no one in 的理解",
+      "text": "There be 结构在这里表示“存在某人/某物”，no one 意为“没有人”，作主语；句末的 in 是副词，表示“在（屋子）里面”，补充说明存在的范围，不要理解成介词“在……里”。"
+    },
+    {
+      "title": "have gone to 的语法作用",
+      "text": "Everyone's gone 是 Everyone has gone 的口语缩写，has gone 是现在完成时，表示“已经离开、人不在此处”，后面接 to + 地点表示移动方向，强调当前位置不在说话地点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体翻译、主干和句法分析正确：in 被准确标注为地点副词而非介词，have gone to 也正确表达“已经离开当前所在地、不在此处”的含义。仅有一处词汇分词释义需要修正：no 与 one 单独拆分解释时存在语义重叠，no 应明确为限定词表否定，one 是不定代词，二者共同构成 no one 表示“没有人”。（非逐句人工审核）"
+}

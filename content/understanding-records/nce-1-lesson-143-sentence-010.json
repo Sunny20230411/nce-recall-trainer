@@ -1,0 +1,253 @@
+{
+  "chinese": "在垃圾中，我发现了一块牌子，上面写着：‘任何在这些树林里乱扔垃圾的人都将被起诉！’",
+  "intent": "描述作者在树林的垃圾堆里发现一块写有禁令警示牌的场景，引出标牌上禁止乱扔垃圾的警示内容",
+  "comparison": {
+    "chinese": "中文先把地点放在句首点明环境，接着讲“我发现了一块牌子”，再用“上面写着”自然引出牌子上的警示语；描述“乱扔垃圾的人”时，会先说明“在这些树林里乱扔垃圾”这个条件，再说这个人对应的后果“将被起诉”。",
+    "english": "英文整体用Among the rubbish放在句首交代地点环境，主句先给出I found a sign，再用which said衔接标牌内容；引语内部先立核心对象Anyone，再紧跟who引导的限定从句说明“在这些树林里乱扔垃圾”的条件，最后用will be prosecuted给出对应的处罚结果。",
+    "steps": [
+      {
+        "label": "先交代环境与核心动作",
+        "text": "Among the rubbish, I found a sign",
+        "explanation": "地点状语提前呼应前文满地垃圾的场景，主干动作“我发现牌子”放在靠前位置，符合英文先交代核心事件、再补充细节的表达习惯。"
+      },
+      {
+        "label": "说明牌子的信息来源",
+        "text": "sign which said: ...",
+        "explanation": "which指代前面的sign，作said的主语，直接衔接引语内容，不需要额外冗余连接词就自然过渡到标牌文字。"
+      },
+      {
+        "label": "引语内的条件和结果",
+        "text": "Anyone who leaves litter in these woods will be prosecuted!",
+        "explanation": "核心主语是Anyone，who引导的从句是给“任何人”附加限定——只有在树林里乱扔垃圾的人才会触发后面的被动处罚，英语习惯先给出泛指对象，再补限定条件，最后落到最终结果。"
+      }
+    ],
+    "takeaway": "本句核心信息链条是：垃圾堆环境→我发现警示牌→警示牌上的禁令：乱扔垃圾者将被处罚，英文通过两层which、who的指代衔接，把三个层级的信息自然串联，不需要额外加连接词就能让读者看清信息之间的从属关系。"
+  },
+  "backbone": {
+    "text": "I found a sign with a warning against littering in the woods.",
+    "meaning": "我在垃圾堆里发现一块警示牌，牌子上明确禁止人们在树林里乱扔垃圾，违者会被追责起诉。"
+  },
+  "structureNotes": [
+    {
+      "title": "两层关系代词的指代",
+      "text": "第一个which指代先行词a sign，作said的主语，引导从句补充说明牌子上的文字内容；第二个who指代先行词Anyone，作leaves的主语，限定“任何人”的具体行为范围，明确只有实施该行为的人才属于条款约束对象。"
+    },
+    {
+      "title": "引语内的被动后果表达",
+      "text": "will be prosecuted是一般将来时的被动语态，逻辑主语是前面被who从句限定的anyone，即“（乱扔垃圾的人）将被起诉”，符合公共告示的正式语体，点明违规的处罚后果。"
+    },
+    {
+      "title": "句首地点状语的衔接",
+      "text": "Among the rubbish放在句首，呼应前文地面被各类垃圾覆盖的描述，把“在垃圾堆里”这个搜寻环境直接带出，让“发现牌子”这个动作的位置十分清晰。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Among the rubbish",
+      "role": "句首地点状语",
+      "explanation": "交代“我”发现牌子时所处的环境，呼应前文树林里满地垃圾的场景。"
+    },
+    {
+      "text": "I",
+      "role": "主句主语",
+      "explanation": "整个主句动作的发出者，即课文叙事的第一人称作者。"
+    },
+    {
+      "text": "found",
+      "role": "主句谓语",
+      "explanation": "主句的核心动作，表示“发现、找到”。"
+    },
+    {
+      "text": "a sign",
+      "role": "主句宾语",
+      "explanation": "主句动作find的对象，是后续标牌内容描述的核心名词。"
+    },
+    {
+      "text": "which said: 'Anyone who leaves litter in these woods will be prosecuted!'",
+      "role": "修饰sign的定语从句",
+      "explanation": "关系代词which指代先行词a sign，在从句中作主语，从句整体用于说明这块牌子上写着的具体警示内容，冒号后紧跟的引语是said的直接宾语，即标牌原文。"
+    },
+    {
+      "text": "who leaves litter in these woods",
+      "role": "修饰Anyone的定语从句",
+      "explanation": "关系代词who指代先行词Anyone，在从句中作主语，限定“任何一类人”，即只有在树林里乱扔垃圾的人才会触发后续的处罚。"
+    },
+    {
+      "text": "will be prosecuted",
+      "role": "警示牌引语内的谓语",
+      "explanation": "使用一般将来时被动语态，作为符合限定条件的违规者需要承担的后果，即“将被起诉、被追责”。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "在……之中",
+      "pos": "介词",
+      "phonetic": "/əˈmʌŋ/",
+      "text": "Among"
+    },
+    {
+      "meaning": "（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "垃圾",
+      "pos": "名词",
+      "phonetic": "/ˈrʌbɪʃ/",
+      "text": "rubbish,"
+    },
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "发现，找到",
+      "pos": "动词（过去式）",
+      "phonetic": "/faʊnd/",
+      "text": "found"
+    },
+    {
+      "meaning": "（不定冠词）一块，一个",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "标牌，牌子",
+      "pos": "名词",
+      "phonetic": "/saɪn/",
+      "text": "sign"
+    },
+    {
+      "meaning": "关系代词，指代牌子",
+      "pos": "代词",
+      "phonetic": "/wɪtʃ/",
+      "text": "which"
+    },
+    {
+      "meaning": "写着，说",
+      "pos": "动词（过去式）",
+      "phonetic": "/sed/",
+      "text": "said:"
+    },
+    {
+      "meaning": "任何人",
+      "pos": "代词",
+      "phonetic": "/ˈeniwʌn/",
+      "text": "'Anyone"
+    },
+    {
+      "meaning": "关系代词，指代任何人",
+      "pos": "代词",
+      "phonetic": "/huː/",
+      "text": "who"
+    },
+    {
+      "meaning": "丢弃（垃圾）",
+      "pos": "动词（第三人称单数）",
+      "phonetic": "/liːvz/",
+      "text": "leaves"
+    },
+    {
+      "meaning": "垃圾，废弃物",
+      "pos": "名词",
+      "phonetic": "/ˈlɪtə(r)/",
+      "text": "litter"
+    },
+    {
+      "meaning": "在……之内",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这些",
+      "pos": "限定词",
+      "phonetic": "/ðiːz/",
+      "text": "these"
+    },
+    {
+      "meaning": "树林，林地",
+      "pos": "名词",
+      "phonetic": "/wʊdz/",
+      "text": "woods"
+    },
+    {
+      "meaning": "将要，会",
+      "pos": "情态动词",
+      "phonetic": "/wɪl/",
+      "text": "will"
+    },
+    {
+      "meaning": "（be动词原形，构成被动）",
+      "pos": "动词",
+      "phonetic": "/bi/",
+      "text": "be"
+    },
+    {
+      "meaning": "被起诉，被检举",
+      "pos": "动词（过去分词，被动语态）",
+      "phonetic": "/ˈprɒsɪkjuːtɪd/",
+      "text": "prosecuted!'"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Among the rubbish,",
+      "relation": "交代主句动作发生的地点环境，呼应前文满地垃圾的场景。",
+      "meaning": "在垃圾之中"
+    },
+    {
+      "text": "I found a sign",
+      "relation": "句子主干，交代核心叙事动作与动作对象。",
+      "meaning": "我发现了一块牌子"
+    },
+    {
+      "text": "which said:",
+      "relation": "引导定语从句，补充说明这块牌子上印有的具体内容。",
+      "meaning": "上面写着："
+    },
+    {
+      "text": "'Anyone who",
+      "relation": "引出引语内容的核心泛指对象，后续从句对其行为范围加以限定。",
+      "meaning": "任何……的人"
+    },
+    {
+      "text": "leaves litter in these woods",
+      "relation": "修饰anyone，说明触发处罚的具体行为条件和所处地点。",
+      "meaning": "在这些树林里乱扔垃圾"
+    },
+    {
+      "text": "will be prosecuted!'",
+      "relation": "说明符合上述条件的人需要承担的法律后果，是警示牌的警示内容。",
+      "meaning": "都将被起诉！"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-143",
+  "sentenceId": "nce-1-lesson-143-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Among the rubbish, I found a sign which said: 'Anyone who leaves litter in these woods will be prosecuted!'",
+  "lesson": "Lesson 143 A walk through the woods",
+  "notes": [
+    {
+      "title": "两层关系代词的指代",
+      "text": "第一个which指代先行词a sign，作said的主语，引导从句补充说明牌子上的文字内容；第二个who指代先行词Anyone，作leaves的主语，限定“任何人”的具体行为范围，明确只有实施该行为的人才属于条款约束对象。"
+    },
+    {
+      "title": "引语内的被动后果表达",
+      "text": "will be prosecuted是一般将来时的被动语态，逻辑主语是前面被who从句限定的anyone，即“（乱扔垃圾的人）将被起诉”，符合公共告示的正式语体，点明违规的处罚后果。"
+    },
+    {
+      "title": "句首地点状语的衔接",
+      "text": "Among the rubbish放在句首，呼应前文地面被各类垃圾覆盖的描述，把“在垃圾堆里”这个搜寻环境直接带出，让“发现牌子”这个动作的位置十分清晰。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析贴合原句结构与语境，定语从句、被动语态、句首状语的句法说明准确，词义解释符合公共告示场景，comparison的中英组织逻辑解释符合原句的实际信息排布，仅存在个别表述可优化的小问题：1. 将限定语修饰对象描述为“缩小适用对象”不准确，实际是通过后置定语明确违规行为的限定范围；2. 对“牌上内容”的说明未清晰体现said后接的是标牌直接引语的属性。其余内容均符合原文含义与语法规则。（非逐句人工审核）"
+}

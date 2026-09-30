@@ -1,0 +1,126 @@
+{
+  "chinese": "你在做什么，波莉？",
+  "intent": "向波莉询问她当下正在进行的动作。",
+  "comparison": {
+    "chinese": "你在做什么，波莉？",
+    "english": "What are you doing, Polly?",
+    "steps": [
+      {
+        "label": "先确定核心问句",
+        "text": "What are you doing",
+        "explanation": "What 是 doing 的宾语，are 是现在进行时的助动词，you 是主语，doing 是现在分词；核心语义是询问对方正在进行的动作。"
+      },
+      {
+        "label": "再附加称呼语",
+        "text": "Polly",
+        "explanation": "Polly 是句末呼语，用逗号与主句隔开，用来点明被询问的对象，不进入句子主干。"
+      }
+    ],
+    "takeaway": "先保留 what are you doing 所表达的“你在做什么”，再把 Polly 作为称呼语附加为“波莉？”，整句意为“你在做什么，波莉？”。"
+  },
+  "backbone": {
+    "text": "What are you doing?",
+    "meaning": "询问对方正在做什么事。"
+  },
+  "structureNotes": [
+    {
+      "title": "特殊疑问句的语序",
+      "text": "疑问代词What放在句首，询问动作的对象或内容；be动词are放到主语you前面，构成现在进行时的疑问句。"
+    },
+    {
+      "title": "称呼语的位置",
+      "text": "Polly放在句末，用逗号隔开，是直接对波莉说话的称呼，不影响句子主干结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What",
+      "role": "疑问代词",
+      "explanation": "询问动作的内容，作 doing 的宾语。"
+    },
+    {
+      "text": "are",
+      "role": "助动词",
+      "explanation": "帮助构成现在进行时，并提到主语 you 前面形成疑问语序。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指被询问的人波莉。"
+    },
+    {
+      "text": "doing,",
+      "role": "现在分词",
+      "explanation": "和 are 一起构成现在进行时，表示正在做的动作。"
+    },
+    {
+      "text": "Polly?",
+      "role": "呼语",
+      "explanation": "直接称呼对方，点明询问对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What",
+      "meaning": "什么",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（助动词，构成进行时）",
+      "pos": "助动词",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "doing,",
+      "meaning": "做（现在分词）",
+      "pos": "动词",
+      "phonetic": "/ˈduːɪŋ/"
+    },
+    {
+      "text": "Polly?",
+      "meaning": "波莉",
+      "pos": "名词",
+      "phonetic": "/ˈpɒli/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What are you doing,",
+      "meaning": "你在做什么",
+      "relation": "现在进行时特殊疑问句，询问对方当下正在进行的动作"
+    },
+    {
+      "text": "Polly?",
+      "meaning": "波莉？",
+      "relation": "句末呼语，点明被询问的对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-115",
+  "sentenceId": "nce-1-lesson-115-sentence-005",
+  "sentenceOrder": 5,
+  "english": "What are you doing, Polly?",
+  "lesson": "Lesson 115 Knock, knock!",
+  "notes": [
+    {
+      "title": "特殊疑问句的语序",
+      "text": "疑问代词What放在句首，询问动作的对象或内容；be动词are放到主语you前面，构成现在进行时的疑问句。"
+    },
+    {
+      "title": "称呼语的位置",
+      "text": "Polly放在句末，用逗号隔开，是直接对波莉说话的称呼，不影响句子主干结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析的主干、语序、称呼语处理和整体翻译基本正确。主要问题是把 are 的词性写作动词，且未从“你在做什么”到“你在做什么，波莉？”展示称呼语的附加关系；doing, 和 Polly? 的音标应按独立分块去除标点。（非逐句人工审核）"
+}

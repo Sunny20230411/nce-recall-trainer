@@ -1,0 +1,97 @@
+{
+  "chinese": "这个年轻人是谁？",
+  "intent": "询问面前或者语境中提到的这位年轻男士的身份信息",
+  "comparison": null,
+  "backbone": {
+    "text": "Who is this young man?",
+    "meaning": "询问该年轻男子的身份"
+  },
+  "parts": [
+    {
+      "text": "Who",
+      "relation": "疑问代词，作本句的表语，指向被询问的身份信息",
+      "meaning": "谁"
+    },
+    {
+      "text": "is",
+      "relation": "系动词，承担连接表语和主语的语法功能",
+      "meaning": "是"
+    },
+    {
+      "text": "this young man?",
+      "relation": "本句的主语，即被询问的目标对象",
+      "meaning": "这个年轻人"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "特殊疑问词引导的身份询问",
+      "text": "本句是由疑问代词Who引导的特殊疑问句，Who在句中作表语，主语是this young man，不属于特殊疑问词作主语的情况，无需借助助动词do，直接采用「疑问词+be动词+主语」的语序构成倒装，符合be动词特殊疑问句的规范结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Who",
+      "role": "特殊疑问代词",
+      "explanation": "用来针对人物的身份进行提问，在本句中作表语"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "承担连接表语who和主语this young man的语法作用"
+    },
+    {
+      "text": "this young man",
+      "role": "名词性主语",
+      "explanation": "是本句被询问的主体，指向语境中提到的这位年轻男士"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "谁",
+      "pos": "疑问代词",
+      "phonetic": "/huː/",
+      "text": "Who"
+    },
+    {
+      "meaning": "是",
+      "pos": "be动词（系动词）",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "这个",
+      "pos": "指示代词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "年轻的",
+      "pos": "形容词",
+      "phonetic": "/jʌŋ/",
+      "text": "young"
+    },
+    {
+      "meaning": "男人",
+      "pos": "名词",
+      "phonetic": "/mæn/",
+      "text": "man?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-17",
+  "sentenceId": "nce-1-lesson-017-sentence-012",
+  "sentenceOrder": 12,
+  "english": "Who is this young man?",
+  "lesson": "Lesson 17 How do you do?",
+  "notes": [
+    {
+      "title": "特殊疑问词引导的身份询问",
+      "text": "本句是由疑问代词Who引导的特殊疑问句，Who在句中作表语，主语是this young man，不属于特殊疑问词作主语的情况，无需借助助动词do，直接采用「疑问词+be动词+主语」的语序构成倒装，符合be动词特殊疑问句的规范结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，存在部分细节表述不准确、格式疏漏的可修正问题，不影响核心语义理解（非逐句人工审核）"
+}

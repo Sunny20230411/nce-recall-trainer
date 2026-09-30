@@ -1,0 +1,87 @@
+{
+  "chinese": "还有一听烟丝。",
+  "intent": "顺着前文列举物品，补充说明另一样要买的物品是一听烟丝",
+  "comparison": null,
+  "backbone": {
+    "text": "a tin of tobacco",
+    "meaning": "一听烟丝"
+  },
+  "parts": [
+    {
+      "text": "And",
+      "relation": "衔接前文的物品列举",
+      "meaning": "还有、另外"
+    },
+    {
+      "text": "a tin of tobacco.",
+      "relation": "说明补充的具体物品",
+      "meaning": "一听烟丝"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略语境承接",
+      "text": "本句是口语里的省略表达，承接前文的物品列举语境，省去了重复的动词部分，直接带出新增物品"
+    }
+  ],
+  "structures": [
+    {
+      "text": "And",
+      "role": "衔接副词",
+      "explanation": "用来承接上文已经提到的物品，引出新增的另一项物品"
+    },
+    {
+      "text": "a tin of tobacco",
+      "role": "名词性物品短语",
+      "explanation": "完整表达这里指代的具体物品，是整个语句传递的核心信息"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "还有",
+      "pos": "conjunction",
+      "phonetic": "/ænd/",
+      "text": "And"
+    },
+    {
+      "meaning": "一（听）",
+      "pos": "determiner",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "听（容器单位）",
+      "pos": "noun",
+      "phonetic": "/tɪn/",
+      "text": "tin"
+    },
+    {
+      "meaning": "（表示所属、量的关联）",
+      "pos": "preposition",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "烟丝",
+      "pos": "noun",
+      "phonetic": "/təˈbækəʊ/",
+      "text": "tobacco."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-41",
+  "sentenceId": "nce-1-lesson-041-sentence-014",
+  "sentenceOrder": 14,
+  "english": "And a tin of tobacco.",
+  "lesson": "Lesson 41 Penny's bag",
+  "notes": [
+    {
+      "title": "省略语境承接",
+      "text": "本句是口语里的省略表达，承接前文的物品列举语境，省去了重复的动词部分，直接带出新增物品"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体符合面向中文母语成年人的英语解析要求，仅存在部分细节表述不严谨、字段内容冗余/缺失的可修正问题（非逐句人工审核）"
+}

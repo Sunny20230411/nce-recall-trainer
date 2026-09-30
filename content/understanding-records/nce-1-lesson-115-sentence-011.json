@@ -1,0 +1,174 @@
+{
+  "chinese": "可是，看，灯亮着。有人在敲门。",
+  "intent": "说话人先以转折引出对眼前新情况的提醒，先指出灯正亮着，进而说明此刻有人正在敲门，是场景中突发的两个连续观察。",
+  "comparison": null,
+  "backbone": {
+    "text": "There's a light on. Someone's knocking at the door.",
+    "meaning": "有一盏灯亮着，有人在敲门。"
+  },
+  "structureNotes": [
+    {
+      "title": "there's a light on 的语义逻辑",
+      "text": "句末的 on 是副词，表示“处于开启、亮着的状态”，there's a light on 等价于有一盏灯正亮着，不能把 on 理解成地点介词“在……上面”。"
+    },
+    {
+      "title": "knock at 的固定搭配",
+      "text": "knock 作“敲”这个动作时，要和介词 at 搭配指向敲击的对象，knock at the door 就是“敲门”，不能漏掉 at 直接说 knock the door。"
+    },
+    {
+      "title": "现在进行时的场景用法",
+      "text": "后一句使用现在进行时，描述说话当下正在被观察到的敲门动作，和前文“没人、大家都出去了”形成意外的反差；灯亮着的状态则通过 there be 句式搭配状态副词 on 呈现。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "But,",
+      "role": "转折连接词",
+      "explanation": "承接前文“没人、大家都外出了”的结论，转折引出接下来的意外发现。"
+    },
+    {
+      "text": "look,",
+      "role": "提醒用语",
+      "explanation": "唤起听者注意接下来要描述的眼前景象，类似中文里的“你看”。"
+    },
+    {
+      "text": "there's",
+      "role": "存在句引导结构",
+      "explanation": "引出“某地存在某物/某种状态”的核心句式，本句表示“有……（处于开启状态）”。"
+    },
+    {
+      "text": "a light",
+      "role": "存在的主体",
+      "explanation": "表示“一盏灯”，是存在句描述的核心事物。"
+    },
+    {
+      "text": "on.",
+      "role": "状态副词",
+      "explanation": "补充说明灯的状态是“亮着、开着”。"
+    },
+    {
+      "text": "Someone's",
+      "role": "现在进行时的主语与助动词",
+      "explanation": "Someone 是动作的发出者，Someone's 是 Someone is 的缩写，搭配后面的现在分词构成现在进行时。"
+    },
+    {
+      "text": "knocking",
+      "role": "现在分词",
+      "explanation": "表示“敲击”这个动作，和助动词一起构成谓语，表示此刻正在发生。"
+    },
+    {
+      "text": "at the door.",
+      "role": "介词短语",
+      "explanation": "用介词 at 指明敲击的对象是门。"
+    }
+  ],
+  "words": [
+    {
+      "text": "But,",
+      "meaning": "可是，但是",
+      "pos": "连词",
+      "phonetic": "bʌt"
+    },
+    {
+      "text": "look,",
+      "meaning": "看，你看（提醒注意）",
+      "pos": "感叹词",
+      "phonetic": "lʊk"
+    },
+    {
+      "text": "there's",
+      "meaning": "有（there is 的缩写）",
+      "pos": "缩略结构",
+      "phonetic": "ðeəz"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个，盏）",
+      "pos": "不定冠词",
+      "phonetic": "ə"
+    },
+    {
+      "text": "light",
+      "meaning": "灯，电灯",
+      "pos": "名词",
+      "phonetic": "laɪt"
+    },
+    {
+      "text": "on.",
+      "meaning": "（机器、灯等）处于工作状态，开着",
+      "pos": "副词",
+      "phonetic": "ɒn"
+    },
+    {
+      "text": "Someone's",
+      "meaning": "有人，某个人（Someone is 的缩写）",
+      "pos": "代词（含缩写）",
+      "phonetic": "ˈsʌmwʌnz"
+    },
+    {
+      "text": "knocking",
+      "meaning": "敲，击打",
+      "pos": "现在分词",
+      "phonetic": "ˈnɒkɪŋ"
+    },
+    {
+      "text": "at",
+      "meaning": "（用于指明动作的对象）对准，朝向",
+      "pos": "介词",
+      "phonetic": "æt"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，表特指",
+      "pos": "冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "door.",
+      "meaning": "门",
+      "pos": "名词",
+      "phonetic": "dɔː(r)"
+    }
+  ],
+  "parts": [
+    {
+      "text": "But, look,",
+      "relation": "转折并提醒听者注意后续的新情况",
+      "meaning": "可是，看"
+    },
+    {
+      "text": "there's a light on.",
+      "relation": "描述当下观察到的第一种状态",
+      "meaning": "有一盏灯亮着"
+    },
+    {
+      "text": "Someone's knocking at the door.",
+      "relation": "顺着灯亮的观察，补充此刻正在发生的另一个动作",
+      "meaning": "有人正在敲门"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-115",
+  "sentenceId": "nce-1-lesson-115-sentence-011",
+  "sentenceOrder": 11,
+  "english": "But, look, there's a light on. Someone's knocking at the door.",
+  "lesson": "Lesson 115 Knock, knock!",
+  "notes": [
+    {
+      "title": "there's a light on 的语义逻辑",
+      "text": "句末的 on 是副词，表示“处于开启、亮着的状态”，there's a light on 等价于有一盏灯正亮着，不能把 on 理解成地点介词“在……上面”。"
+    },
+    {
+      "title": "knock at 的固定搭配",
+      "text": "knock 作“敲”这个动作时，要和介词 at 搭配指向敲击的对象，knock at the door 就是“敲门”，不能漏掉 at 直接说 knock the door。"
+    },
+    {
+      "title": "现在进行时的场景用法",
+      "text": "后一句使用现在进行时，描述说话当下正在被观察到的敲门动作，和前文“没人、大家都出去了”形成意外的反差；灯亮着的状态则通过 there be 句式搭配状态副词 on 呈现。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合原文与上下文，时态说明、词义标注、存在句结构拆解、英式音标均准确，仅两处可优化：一是现在进行时用法的补充说明存在小偏差，there's a light on 是 there be 句式表当前存在的状态，并非现在进行时；二是短语 knock at the door 中 at 单独标注“朝，向”不准确，at 用于指明敲击的对象为门，优化后不影响整体理解。（非逐句人工审核）"
+}

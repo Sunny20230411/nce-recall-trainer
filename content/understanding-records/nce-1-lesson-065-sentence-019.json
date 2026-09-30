@@ -1,0 +1,77 @@
+{
+  "chinese": "玩得开心！",
+  "intent": "说话人向对方送上祝愿，希望对方度过愉快的时光。",
+  "comparison": null,
+  "backbone": {
+    "text": "Enjoy yourself!",
+    "meaning": "这是妈妈送别时说出的善意祝愿，希望听话人好好享受当下的时光，过得开心愉快。"
+  },
+  "structureNotes": [
+    {
+      "title": "祈使句的省略逻辑",
+      "text": "祈使句的逻辑主语默认就是听话的对方（你/你们），所以说话时不需要额外说出主语You，直接以动词原形开头，就能传递出面向对方的祝愿语气。"
+    },
+    {
+      "title": "反身代词yourself的用法",
+      "text": "enjoy后面搭配与宾语人称一致的反身代词，表示“过得快活、玩得开心”，yourself在这里指代听话的对方，相当于“你自己（过得好）”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Enjoy",
+      "role": "谓语（动词原形，祈使句核心）",
+      "explanation": "祈使句直接以动词原形开头，省略默认的第二人称主语you，传递直接的祝愿语气。"
+    },
+    {
+      "text": "yourself!",
+      "role": "宾语（反身代词）",
+      "explanation": "反身代词和省略的主语you保持人称一致，是enjoy动作的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Enjoy",
+      "meaning": "享受、过得愉快",
+      "pos": "动词",
+      "phonetic": "/ɪnˈdʒɔɪ/"
+    },
+    {
+      "text": "yourself!",
+      "meaning": "你自己",
+      "pos": "反身代词",
+      "phonetic": "/jɔːˈself/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Enjoy",
+      "meaning": "享受、过得愉快",
+      "relation": "祝愿的核心动作"
+    },
+    {
+      "text": "yourself!",
+      "meaning": "你自己",
+      "relation": "动作指向的对象，搭配enjoy构成“玩得开心”的常用表达"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-65",
+  "sentenceId": "nce-1-lesson-065-sentence-019",
+  "sentenceOrder": 19,
+  "english": "Enjoy yourself!",
+  "lesson": "Lesson 65 Not a baby",
+  "notes": [
+    {
+      "title": "祈使句的省略逻辑",
+      "text": "祈使句的逻辑主语默认就是听话的对方（你/你们），所以说话时不需要额外说出主语You，直接以动词原形开头，就能传递出面向对方的祝愿语气。"
+    },
+    {
+      "title": "反身代词yourself的用法",
+      "text": "enjoy后面搭配与宾语人称一致的反身代词，表示“过得快活、玩得开心”，yourself在这里指代听话的对方，相当于“你自己（过得好）”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合句子语境，主干翻译、结构拆分与词汇注释基本准确。存在可明确修正的细节：主干释义中语气定位不够准确，反身代词的人称对应关系描述有误，词汇部分把感叹号并入词形标注。已对这些细节做定向修正。（非逐句人工审核）"
+}

@@ -1,0 +1,121 @@
+{
+  "chinese": "冬天天气非常冷吗？",
+  "intent": "向对方询问该地点冬季的寒冷程度，确认冬天是否会达到非常冷的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "Is it cold in winter?",
+    "meaning": "冬天天气冷吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "一般疑问句倒装结构",
+      "text": "Is 位于句首，把原本陈述语序的 It is very cold in winter 变成疑问形式；询问某地天气状态时，习惯用 it 虚指当地天气，无需直译这个指代对象。"
+    },
+    {
+      "title": "时间状语与程度副词的语序",
+      "text": "in winter 是时间状语，说明询问的寒冷程度针对冬季这个时段，放在句末；程度副词 very 修饰形容词 cold，明确是在问是否“非常冷”，不是普通的冷。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is",
+      "role": "系动词",
+      "explanation": "作为 be 动词的第三人称单数形式，将陈述句的语序倒装到句首，构成一般疑问句的疑问标记。"
+    },
+    {
+      "text": "it",
+      "role": "主语",
+      "explanation": "虚指代词，在句中代指当地的天气状况。"
+    },
+    {
+      "text": "very cold",
+      "role": "表语",
+      "explanation": "very 是程度副词修饰形容词 cold，共同说明主语 it 所指代的天气属性。"
+    },
+    {
+      "text": "in winter",
+      "role": "时间状语",
+      "explanation": "介词短语限定寒冷的属性发生在冬季时段。"
+    },
+    {
+      "text": "?",
+      "role": "句末标点",
+      "explanation": "问号标明全句为疑问句。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是（be动词第三人称单数，用于构成疑问倒装）",
+      "pos": "v. (be)",
+      "phonetic": "/ɪz/",
+      "text": "Is"
+    },
+    {
+      "meaning": "它（此处虚指天气）",
+      "pos": "pron.",
+      "phonetic": "/ɪt/",
+      "text": "it"
+    },
+    {
+      "meaning": "非常，很",
+      "pos": "adv.",
+      "phonetic": "/ˈveri/",
+      "text": "very"
+    },
+    {
+      "meaning": "寒冷的",
+      "pos": "adj.",
+      "phonetic": "/kəʊld/",
+      "text": "cold"
+    },
+    {
+      "meaning": "在（某时段/地点）",
+      "pos": "prep.",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "冬天",
+      "pos": "n.",
+      "phonetic": "/ˈwɪntə(r)",
+      "text": "winter?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Is it",
+      "meaning": "它是（此处指代天气）",
+      "relation": "引导一般疑问句倒装结构，虚指当地天气。"
+    },
+    {
+      "text": "very cold",
+      "meaning": "非常冷",
+      "relation": "描述天气的温度状态，very 修饰 cold 表程度。"
+    },
+    {
+      "text": "in winter?",
+      "meaning": "在冬天？",
+      "relation": "限定温度属性对应的时间场景，末尾问号标明全句为疑问句。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-51",
+  "sentenceId": "nce-1-lesson-051-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Is it very cold in winter?",
+  "lesson": "Lesson 51 A pleasant climate",
+  "notes": [
+    {
+      "title": "一般疑问句倒装结构",
+      "text": "Is 位于句首，把原本陈述语序的 It is very cold in winter 变成疑问形式；询问某地天气状态时，习惯用 it 虚指当地天气，无需直译这个指代对象。"
+    },
+    {
+      "title": "时间状语与程度副词的语序",
+      "text": "in winter 是时间状语，说明询问的寒冷程度针对冬季这个时段，放在句末；程度副词 very 修饰形容词 cold，明确是在问是否“非常冷”，不是普通的冷。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句结构、翻译和语法角色基本准确。主要问题是：词汇表将 winter? 合并标注并把问号混入 winter 音标所在的词项；原句为独立疑问句，若在语法注记中称地点时间状语，需避免与 in winter 纯时间状语产生混淆；词块 Is it 的中文释义过于字面，可更贴合疑问句与天气指代的语境。其余内容可通过小幅修订提升准确度。（非逐句人工审核）"
+}

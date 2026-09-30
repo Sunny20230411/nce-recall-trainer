@@ -1,0 +1,144 @@
+{
+  "chinese": "你打算把它刷成什么颜色？",
+  "intent": "询问对方计划把某个物品涂刷成的具体颜色",
+  "comparison": {
+    "chinese": "你打算把它刷成什么颜色？",
+    "english": "What colour are you going to paint it?",
+    "steps": [
+      {
+        "label": "先抓核心预设动作",
+        "text": "you are going to paint it",
+        "explanation": "先明确句子基础主干信息：你打算涂刷它，依托上下文听者能立刻对接正在制作书架的对话背景，清楚当前讨论的核心事件"
+      },
+      {
+        "label": "明确待获取的缺失信息",
+        "text": "What colour",
+        "explanation": "点明这句要询问的核心未知内容是涂刷完成后物品的目标颜色，也就是paint这个动作对应的结果属性信息"
+      },
+      {
+        "label": "调整语序构成标准特殊疑问句",
+        "text": "What colour are you going to paint it?",
+        "explanation": "把疑问词组What colour放到句首抛出待查询的信息点，再把be going to结构里的助动词are移到主语you之前，形成符合英语母语表达习惯的特殊疑问句语序"
+      }
+    ],
+    "takeaway": "英语中这类针对动作相关属性提问的特殊疑问句，会先把要查询的核心信息点（本句里的疑问词组What colour）放在句首前置突出，再把主干be going to结构里的be动词移到主语之前完成疑问句式的构建"
+  },
+  "backbone": {
+    "text": "What colour are you going to paint it?",
+    "meaning": "询问对方计划涂刷某物品的目标颜色"
+  },
+  "parts": [
+    {
+      "text": "What colour",
+      "relation": "疑问限定词组，作宾语的核心定语，指向动作相关的目标颜色属性",
+      "meaning": "什么颜色"
+    },
+    {
+      "text": "are you going to paint",
+      "relation": "谓语部分，表达计划执行的涂刷动作且通过be动词前置体现疑问语气",
+      "meaning": "你打算涂刷"
+    },
+    {
+      "text": "it?",
+      "relation": "动作的承受对象（宾语）",
+      "meaning": "它（指代前文提到的书架）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "be going to的用法",
+      "text": "这里are going to paint不是表示正在前往刷东西，而是明确表达说话人当下的计划、打算，用来询问对方的预先安排"
+    },
+    {
+      "title": "疑问词的位置",
+      "text": "What colour是组合在一起的疑问词组，不能拆分，整组放在句首专门引出颜色相关的提问"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What colour",
+      "role": "疑问限定词组",
+      "explanation": "专门用于询问颜色信息，放在特殊疑问句的句首位置"
+    },
+    {
+      "text": "are you going to paint",
+      "role": "谓语部分",
+      "explanation": "由be going to结构加实义动词paint构成，表达计划要执行的动作，同时通过be动词前置体现疑问语气"
+    },
+    {
+      "text": "it",
+      "role": "宾语",
+      "explanation": "指代上下文提到的具体物品（本句里是正在制作的书架），是涂刷动作的作用对象"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "什么",
+      "pos": "pronoun",
+      "phonetic": "/wɒt/",
+      "text": "What"
+    },
+    {
+      "meaning": "颜色",
+      "pos": "noun",
+      "phonetic": "/ˈkʌlə(r)/",
+      "text": "colour"
+    },
+    {
+      "meaning": "是（助动词，配合be going to结构，前置构成疑问语序）",
+      "pos": "verb",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "你",
+      "pos": "pronoun",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "（be going to固定组成部分，无独立实义，共同表计划打算）",
+      "pos": "verb",
+      "phonetic": "/ˈɡəʊɪŋ/",
+      "text": "going"
+    },
+    {
+      "meaning": "无实义（不定式符号，引出后续实义动词paint）",
+      "pos": "particle",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "涂刷",
+      "pos": "verb",
+      "phonetic": "/peɪnt/",
+      "text": "paint"
+    },
+    {
+      "meaning": "它",
+      "pos": "pronoun",
+      "phonetic": "/ɪt/",
+      "text": "it?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-37",
+  "sentenceId": "nce-1-lesson-037-sentence-003",
+  "sentenceOrder": 3,
+  "english": "What colour are you going to paint it?",
+  "lesson": "Lesson 37 Making a bookcase",
+  "notes": [
+    {
+      "title": "be going to的用法",
+      "text": "这里are going to paint不是表示正在前往刷东西，而是明确表达说话人当下的计划、打算，用来询问对方的预先安排"
+    },
+    {
+      "title": "疑问词的位置",
+      "text": "What colour是组合在一起的疑问词组，不能拆分，整组放在句首专门引出颜色相关的提问"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，仅存在局部细节不准确的小问题，可明确修正（非逐句人工审核）"
+}

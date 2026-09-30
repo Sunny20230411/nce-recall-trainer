@@ -1,0 +1,127 @@
+{
+  "chinese": "我也很高兴见到你，史蒂文。再见。",
+  "intent": "向史蒂文回应见面的愉悦心情，随后道别",
+  "comparison": null,
+  "backbone": {
+    "text": "Nice to see you too. Goodbye.",
+    "meaning": "表达同样很高兴见到对方，然后说再见"
+  },
+  "parts": [
+    {
+      "text": "Nice to see you,",
+      "relation": "核心的见面问候回应表达",
+      "meaning": "很高兴见到你"
+    },
+    {
+      "text": "too,",
+      "relation": "补充说明这份愉悦感受和对方此前表达的感受相同",
+      "meaning": "也"
+    },
+    {
+      "text": "Steven.",
+      "relation": "点明本次问候回应的指向对象",
+      "meaning": "史蒂文"
+    },
+    {
+      "text": "Goodbye.",
+      "relation": "收尾的道别用语",
+      "meaning": "再见"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "问候回应的语序",
+      "text": "副词too放在问候语的末尾，用来表示和对方的感受一致，不需要插入到句子中间调整语序。"
+    },
+    {
+      "title": "呼语的位置",
+      "text": "人名Steven放在问候语之后单独用逗号隔开，明确这句话是专门说给史蒂文听的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Nice to see you",
+      "role": "见面问候固定表达",
+      "explanation": "日常用于表达见到对方的愉悦心情，是熟人见面的常用客套语。"
+    },
+    {
+      "text": "too",
+      "role": "副词补充成分",
+      "explanation": "表明这份愉悦的感受和之前对方表达的感受完全一致。"
+    },
+    {
+      "text": "Steven",
+      "role": "称呼语",
+      "explanation": "指明当前这句问候的接收对象。"
+    },
+    {
+      "text": "Goodbye",
+      "role": "道别固定表达",
+      "explanation": "日常分别时使用的标准客套道别语。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "令人愉快的",
+      "pos": "adjective",
+      "phonetic": "/naɪs/",
+      "text": "Nice"
+    },
+    {
+      "meaning": "引出后续动作",
+      "pos": "infinitive marker",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "见到",
+      "pos": "verb",
+      "phonetic": "/siː/",
+      "text": "see"
+    },
+    {
+      "meaning": "你",
+      "pos": "pronoun",
+      "phonetic": "/juː/",
+      "text": "you,"
+    },
+    {
+      "meaning": "也",
+      "pos": "adverb",
+      "phonetic": "/tuː/",
+      "text": "too,"
+    },
+    {
+      "meaning": "史蒂文（人名）",
+      "pos": "proper noun",
+      "phonetic": "/ˈstiːvən/",
+      "text": "Steven."
+    },
+    {
+      "meaning": "再见",
+      "pos": "interjection",
+      "phonetic": "/ˌɡʊdˈbaɪ/",
+      "text": "Goodbye."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-9",
+  "sentenceId": "nce-1-lesson-009-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Nice to see you, too, Steven. Goodbye.",
+  "lesson": "Lesson 9 How are you today?",
+  "notes": [
+    {
+      "title": "问候回应的语序",
+      "text": "副词too放在问候语的末尾，用来表示和对方的感受一致，不需要插入到句子中间调整语序。"
+    },
+    {
+      "title": "呼语的位置",
+      "text": "人名Steven放在问候语之后单独用逗号隔开，明确这句话是专门说给史蒂文听的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析整体符合要求，仅存在局部细节可优化修正（非逐句人工审核）"
+}

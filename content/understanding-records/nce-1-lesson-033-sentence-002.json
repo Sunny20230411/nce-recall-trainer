@@ -1,0 +1,175 @@
+{
+  "chinese": "天空中有几朵云，但太阳正在照耀。",
+  "intent": "描述当下天空的实际景象，呈现多云却阳光普照的晴朗状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "There are some clouds, but the sun is shining.",
+    "meaning": "空中存在一些云，与此同时太阳正在发光。"
+  },
+  "parts": [
+    {
+      "text": "There are",
+      "relation": "引入存在的事物",
+      "meaning": "存在引导结构，表“有、存在”"
+    },
+    {
+      "text": "some clouds",
+      "relation": "说明存在的具体事物",
+      "meaning": "几朵云"
+    },
+    {
+      "text": "in the sky,",
+      "relation": "补充云所在的位置",
+      "meaning": "在天空中"
+    },
+    {
+      "text": "but",
+      "relation": "连接前后两个转折的景象描述",
+      "meaning": "但是"
+    },
+    {
+      "text": "the sun",
+      "relation": "描述后半句的主体事物",
+      "meaning": "太阳"
+    },
+    {
+      "text": "is shining.",
+      "relation": "描述太阳当下的动作状态",
+      "meaning": "正在照耀"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "There be存在句",
+      "text": "用There are开头引出“某处有某物”，真正的主语是后面的some clouds，be动词的单复数由靠近的名词决定。"
+    },
+    {
+      "title": "but转折连接",
+      "text": "并列两个独立的景象描述，先讲天空有云，再转折说明太阳仍在照耀，体现晴朗但有云的天气状态。"
+    },
+    {
+      "title": "现在进行时用法",
+      "text": "is shining用来描述太阳此刻正在发光的持续动作，强调画面的即时感。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There are some clouds",
+      "role": "存在句主句",
+      "explanation": "说明空中存在一些云，是前半句的核心表意部分。"
+    },
+    {
+      "text": "in the sky",
+      "role": "地点状语",
+      "explanation": "点明云所处的具体位置，补充说明存在的场景。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "衔接前后两个语义转折的独立分句。"
+    },
+    {
+      "text": "the sun is shining",
+      "role": "主谓结构主句",
+      "explanation": "描述太阳正在发光的状态，是后半句的核心表意部分。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（存在句引导词，无实际语义）",
+      "pos": "there",
+      "phonetic": "/ðeə(r)/",
+      "text": "There"
+    },
+    {
+      "meaning": "有（be动词复数现在时形式，搭配复数主语）",
+      "pos": "verb",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "一些，几朵",
+      "pos": "determiner",
+      "phonetic": "/sʌm/",
+      "text": "some"
+    },
+    {
+      "meaning": "云（名词复数）",
+      "pos": "noun",
+      "phonetic": "/klaʊdz/",
+      "text": "clouds"
+    },
+    {
+      "meaning": "在……里面",
+      "pos": "preposition",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这个，该（定冠词，特指）",
+      "pos": "article",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "天空",
+      "pos": "noun",
+      "phonetic": "/skaɪ/",
+      "text": "sky,"
+    },
+    {
+      "meaning": "但是",
+      "pos": "conjunction",
+      "phonetic": "/bʌt/",
+      "text": "but"
+    },
+    {
+      "meaning": "这个，该（定冠词，特指）",
+      "pos": "article",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "太阳",
+      "pos": "noun",
+      "phonetic": "/sʌn/",
+      "text": "sun"
+    },
+    {
+      "meaning": "正在（助动词，构成现在进行时）",
+      "pos": "auxiliary verb",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "照耀，发光（现在分词）",
+      "pos": "verb",
+      "phonetic": "/ˈʃaɪnɪŋ/",
+      "text": "shining."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-33",
+  "sentenceId": "nce-1-lesson-033-sentence-002",
+  "sentenceOrder": 2,
+  "english": "There are some clouds in the sky, but the sun is shining.",
+  "lesson": "Lesson 33 A fine day",
+  "notes": [
+    {
+      "title": "There be存在句",
+      "text": "用There are开头引出“某处有某物”，真正的主语是后面的some clouds，be动词的单复数由靠近的名词决定。"
+    },
+    {
+      "title": "but转折连接",
+      "text": "并列两个独立的景象描述，先讲天空有云，再转折说明太阳仍在照耀，体现晴朗但有云的天气状态。"
+    },
+    {
+      "title": "现在进行时用法",
+      "text": "is shining用来描述太阳此刻正在发光的持续动作，强调画面的即时感。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在局部细节错误与缺失可明确修正，未出现核心语法断言偏差等严重问题（非逐句人工审核）"
+}

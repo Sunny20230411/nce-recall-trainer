@@ -1,0 +1,131 @@
+{
+  "chinese": "您能看看他吗？",
+  "intent": "病人家属礼貌向医生提出请求，请医生帮忙查看卧病在床的病人的状况。",
+  "comparison": {
+    "chinese": "您能看看他吗？",
+    "english": "Can you see him please?",
+    "steps": [
+      {
+        "label": "理解请求的核心",
+        "text": "Can you do something",
+        "explanation": "把Can放在句首，是礼貌询问对方是否“能够”做某件事，语气委婉客气，而非生硬命令。"
+      },
+      {
+        "label": "补全动作与对象",
+        "text": "see him",
+        "explanation": "see在这里不是普通的“看见”，结合看病的场景，是指医生给病人查看、诊视；him指代前文提到卧病在床的病人。"
+      },
+      {
+        "label": "理解礼貌修饰",
+        "text": "please?",
+        "explanation": "please放在句末，进一步缓和请求语气，末尾的问号体现委婉请求的疑问语气，符合家属拜托医生时的礼貌分寸。"
+      }
+    ],
+    "takeaway": "英文用句首情态动词Can加句末please共同表达委婉请求，中文用“您能……吗？”的委婉疑问结构对应。"
+  },
+  "backbone": {
+    "text": "Can you see him?",
+    "meaning": "（家属问医生）您能看看他（病人）吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "see的场景义",
+      "text": "see在此处不是泛指“看见”，而是就医语境中医生诊察、查看病人病情的动作，不能用字面“看见”生硬理解。"
+    },
+    {
+      "title": "please的位置",
+      "text": "please放在句末后接问号，不改变句子核心请求语义，仅增添委婉客气的语气，符合向医生求助的交际分寸。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Can",
+      "role": "句首情态动词",
+      "explanation": "表示礼貌请求，提前到主语前构成疑问句式。"
+    },
+    {
+      "text": "you",
+      "role": "疑问句主语",
+      "explanation": "指对话中的听话人，也就是医生。"
+    },
+    {
+      "text": "see him",
+      "role": "谓语加宾语",
+      "explanation": "see是核心动作，him指代前文卧病的病人，是see的对象。"
+    },
+    {
+      "text": "please?",
+      "role": "语气礼貌修饰加问号",
+      "explanation": "please缓和请求语气，问号表示这是一句委婉的请求疑问句。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Can",
+      "meaning": "能、可以",
+      "pos": "情态动词",
+      "phonetic": "/kæn/"
+    },
+    {
+      "text": "you",
+      "meaning": "您",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "see",
+      "meaning": "查看、诊视（病人）",
+      "pos": "动词",
+      "phonetic": "/siː/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（指代卧病的病人）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "please?",
+      "meaning": "请",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Can you",
+      "meaning": "您能……吗",
+      "relation": "委婉提问的引导框架，引出后面的请求动作"
+    },
+    {
+      "text": "see him",
+      "meaning": "看看他",
+      "relation": "请求的核心动作与动作对象"
+    },
+    {
+      "text": "please?",
+      "meaning": "请？",
+      "relation": "附在句末，增添礼貌语气，标记全句为疑问请求句式"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-63",
+  "sentenceId": "nce-1-lesson-063-sentence-017",
+  "sentenceOrder": 17,
+  "english": "Can you see him please?",
+  "lesson": "Lesson 63 Thank you, doctor.",
+  "notes": [
+    {
+      "title": "see的场景义",
+      "text": "see在此处不是泛指“看见”，而是就医语境中医生诊察、查看病人病情的动作，不能用字面“看见”生硬理解。"
+    },
+    {
+      "title": "please的位置",
+      "text": "please放在句末后接问号，不改变句子核心请求语义，仅增添委婉客气的语气，符合向医生求助的交际分寸。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：该条解析整体符合原句在就医语境下的含义，情态动词构成委婉请求、see的场景义、please的礼貌功能均解释正确，代词指代和主干提取无误。仅please的词性标注存在偏差：please在句中作礼貌语气修饰词时为感叹词原标注正确，但末尾附带问号的分词未单独说明语气词与标点的关系，属于小瑕疵，不影响核心理解。（非逐句人工审核）"
+}

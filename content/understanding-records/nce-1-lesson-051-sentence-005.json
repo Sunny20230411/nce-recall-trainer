@@ -1,0 +1,150 @@
+{
+  "chinese": "春天天气怎么样？",
+  "intent": "询问春季的天气状况。",
+  "comparison": {
+    "chinese": "中文把季节状语“春天”放句首作话题，谓语“天气怎么样”紧跟其后。",
+    "english": "英文先给疑问句式 What's ... like？，再把被问主体 the weather 放中间，最后用 in spring 交代时间范围。",
+    "steps": [
+      {
+        "label": "第一步",
+        "text": "What's the weather like?",
+        "explanation": "这是固定的天气询问句，意为“天气怎么样”，不能把 like 单独理解为动词“喜欢”。"
+      },
+      {
+        "label": "第二步",
+        "text": "in spring",
+        "explanation": "用介词短语补充说明询问的时间范围是春天，不是泛指全年天气。"
+      },
+      {
+        "label": "第三步",
+        "text": "What's",
+        "explanation": "是 What is 的缩写，构成疑问句式，is 提前到主语 the weather 之前形成倒装。"
+      }
+    ],
+    "takeaway": "先识别 What's ... like？这个询问句式，再看 the weather 是被问主体，最后理解 in spring 限定询问的时间范围。"
+  },
+  "backbone": {
+    "text": "What's the weather like in spring?",
+    "meaning": "春天的天气是什么样的？"
+  },
+  "structureNotes": [
+    {
+      "title": "What's ... like 句型",
+      "text": "这是询问事物特征的固定搭配，like 是介词，意思是“像……一样”，整体用来询问“……是什么样的”，不是动词“喜欢”。"
+    },
+    {
+      "title": "时间状语位置",
+      "text": "in spring 是介词短语作时间状语，说明天气描述的时间范围，在英文中放在句末；中文习惯把“春天”这类时间状语放句首作话题。"
+    },
+    {
+      "title": "疑问句倒装",
+      "text": "疑问结构中 be 动词 is 提到主语 the weather 前面，形成 What is the weather like 的倒装语序，符合特殊疑问句的构成规则。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's",
+      "role": "疑问引导词+be动词缩写",
+      "explanation": "What is 的缩写，引导特殊疑问句，is 提前到主语前构成倒装。"
+    },
+    {
+      "text": "the weather",
+      "role": "询问对象（句子主语）",
+      "explanation": "句子的主语，是被询问的核心对象“天气”。"
+    },
+    {
+      "text": "like",
+      "role": "介词",
+      "explanation": "固定搭配 What's ... like，意为“像……一样”，用来询问事物的特征。"
+    },
+    {
+      "text": "in spring?",
+      "role": "时间状语",
+      "explanation": "介词短语作时间状语，限定询问的时间范围是春天。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是什么（What is 的缩写）",
+      "pos": "疑问代词+系动词缩写",
+      "phonetic": "wɒts",
+      "text": "What's"
+    },
+    {
+      "meaning": "（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "ðə",
+      "text": "the"
+    },
+    {
+      "meaning": "天气",
+      "pos": "名词",
+      "phonetic": "ˈweðə",
+      "text": "weather"
+    },
+    {
+      "meaning": "像……一样（固定搭配中作介词）",
+      "pos": "介词",
+      "phonetic": "laɪk",
+      "text": "like"
+    },
+    {
+      "meaning": "在……里面（引出时间范围）",
+      "pos": "介词",
+      "phonetic": "ɪn",
+      "text": "in"
+    },
+    {
+      "meaning": "春天",
+      "pos": "名词",
+      "phonetic": "sprɪŋ?",
+      "text": "spring?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What's",
+      "relation": "疑问引导，构成询问句式",
+      "meaning": "是什么（What is 的缩写）"
+    },
+    {
+      "text": "the weather",
+      "relation": "询问的核心对象",
+      "meaning": "天气"
+    },
+    {
+      "text": "like",
+      "relation": "配合疑问句式，询问天气的特征",
+      "meaning": "像……一样（固定搭配）"
+    },
+    {
+      "text": "in spring?",
+      "relation": "补充说明天气询问的时间范围",
+      "meaning": "在春天"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-51",
+  "sentenceId": "nce-1-lesson-051-sentence-005",
+  "sentenceOrder": 5,
+  "english": "What's the weather like in spring?",
+  "lesson": "Lesson 51 A pleasant climate",
+  "notes": [
+    {
+      "title": "What's ... like 句型",
+      "text": "这是询问事物特征的固定搭配，like 是介词，意思是“像……一样”，整体用来询问“……是什么样的”，不是动词“喜欢”。"
+    },
+    {
+      "title": "时间状语位置",
+      "text": "in spring 是介词短语作时间状语，说明天气描述的时间范围，在英文中放在句末；中文习惯把“春天”这类时间状语放句首作话题。"
+    },
+    {
+      "title": "疑问句倒装",
+      "text": "疑问结构中 be 动词 is 提到主语 the weather 前面，形成 What is the weather like 的倒装语序，符合特殊疑问句的构成规则。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体可用。词汇音标与分块解释基本正确，仅个别词性标注缺少必要的句法说明，补充后可减少学习者将 like 误解为动词的风险。（非逐句人工审核）"
+}

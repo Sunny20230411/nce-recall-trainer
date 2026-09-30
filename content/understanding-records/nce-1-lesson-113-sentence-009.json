@@ -1,0 +1,126 @@
+{
+  "chinese": "我有一些零钱。",
+  "intent": "说明说话人持有少量零钱，为后文对话回应自己是否能投币乘车提供事实依据。",
+  "comparison": {
+    "chinese": "我有一些零钱。",
+    "english": "I've got some small change.",
+    "steps": [
+      {
+        "label": "理清表达归属",
+        "text": "I've got 对应中文的“我有”",
+        "explanation": "have got 是英语里日常表达“拥有”的惯用口语说法，I've 是 I have 的缩略形式，不要把这里的 got 单独直译成“得到”。"
+      },
+      {
+        "label": "理清修饰顺序",
+        "text": "small change 对应中文的“零钱”",
+        "explanation": "这里 small 修饰 change，表示“小额的零钱”，不是指“体积小的零钱”；some 修饰 small change，表示“一些”。"
+      }
+    ],
+    "takeaway": "have got 是英语口语表达“拥有”的固定惯用结构，small change 是固定搭配“零钱”，不要逐词直译造成语义偏差。"
+  },
+  "backbone": {
+    "text": "I've got some small change.",
+    "meaning": "我拥有一些小额的零钱。"
+  },
+  "structureNotes": [
+    {
+      "title": "have got 的口语用法",
+      "text": "I've got 是 I have got 的口语缩略形式，在日常对话中常用来表达“拥有、持有”，语义和“I have”接近，这里的 got 不单独体现“获取”的动作含义。"
+    },
+    {
+      "title": "small change 的搭配含义",
+      "text": "small change 是固定名词短语，整体指零钱，不能逐字翻译为“小的变化”；其中 small 表示面值小，change 在此处为名词，指硬币或小额纸币；some 用来限定零钱的数量，意思是“一些”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I've got",
+      "role": "谓语表达拥有的含义",
+      "explanation": "是现在完成时形式的口语化表达，用来表示说话人当前持有某物的状态。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人本人，是整个句子描述的拥有者。"
+    },
+    {
+      "text": "some small change",
+      "role": "宾语",
+      "explanation": "是谓语动词 got 所指向的对象，整体表示“一些零钱”。"
+    },
+    {
+      "text": "small",
+      "role": "定语",
+      "explanation": "修饰后面的名词 change，说明零钱是小额面值的。"
+    },
+    {
+      "text": "some",
+      "role": "限定词",
+      "explanation": "修饰 small change，表明零钱的数量是不确定的“一些”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I've",
+      "meaning": "我（I have 的缩略形式）",
+      "pos": "代词+助动词",
+      "phonetic": "/aɪv/"
+    },
+    {
+      "text": "got",
+      "meaning": "持有、拥有",
+      "pos": "动词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "some",
+      "meaning": "一些",
+      "pos": "限定词",
+      "phonetic": "/sʌm/"
+    },
+    {
+      "text": "small",
+      "meaning": "小额的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/"
+    },
+    {
+      "text": "change.",
+      "meaning": "零钱",
+      "pos": "名词",
+      "phonetic": "/tʃeɪndʒ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I've got",
+      "relation": "说明主语和“拥有”的状态，是句子的核心动作表达。",
+      "meaning": "我有"
+    },
+    {
+      "text": "some small change.",
+      "relation": "补充说明拥有的对象，是谓语所指向的内容。",
+      "meaning": "一些零钱"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-113",
+  "sentenceId": "nce-1-lesson-113-sentence-009",
+  "sentenceOrder": 9,
+  "english": "I've got some small change.",
+  "lesson": "Lesson 113 Small change",
+  "notes": [
+    {
+      "title": "have got 的口语用法",
+      "text": "I've got 是 I have got 的口语缩略形式，在日常对话中常用来表达“拥有、持有”，语义和“I have”接近，这里的 got 不单独体现“获取”的动作含义。"
+    },
+    {
+      "title": "small change 的搭配含义",
+      "text": "small change 是固定名词短语，整体指零钱，不能逐字翻译为“小的变化”；其中 small 表示面值小，change 在此处为名词，指硬币或小额纸币；some 用来限定零钱的数量，意思是“一些”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合教学要求，仅存在需修正的细节问题：1. 单词条change的音标后多余了句点；2. small change作为固定习语指零钱，补充说明其固定搭配属性可强化学习提示，避免逐字直译的误解。其余内容（翻译、结构分析、指代关系、词义解释）均准确合规。（非逐句人工审核）"
+}

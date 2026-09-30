@@ -1,0 +1,129 @@
+{
+  "chinese": "你知道他是青年旅舍协会的会员。",
+  "intent": "说明对方了解Jimmy的身份情况：他是青年旅舍协会的会员，为后续对话中对方没听清协会缩写、反问“The what?”做铺垫。",
+  "comparison": {
+    "chinese": "你知道【他是青年旅舍协会的会员】。",
+    "english": "You know he's a member of the Y.H.A.",
+    "steps": [
+      {
+        "label": "先抓主句",
+        "text": "You know…",
+        "explanation": "主语是You，谓语是know，意思是“你知道……”，后面跟着你所知道的具体内容。"
+      },
+      {
+        "label": "再看宾语从句",
+        "text": "he's a member of the Y.H.A.",
+        "explanation": "这是“你知道”的具体内容，用主系表结构说明他的身份：a member of…表示“……的成员”，Y.H.A.是Youth Hostels Association（青年旅舍协会）的缩写。"
+      }
+    ],
+    "takeaway": "英语中表达“知道某件事”时，常把整个事件的完整句子直接放在know后面当宾语，不需要额外加that连接，理解时先找主句的“谁知道”，再读后面完整的事件内容即可。"
+  },
+  "backbone": {
+    "text": "You know he's a member of the Y.H.A.",
+    "meaning": "你了解他是青年旅舍协会的会员这件事。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略that的宾语从句",
+      "text": "本句中动词know后面直接接了完整句子“he's a member of the Y.H.A.”，这是一个省略了引导词that的宾语从句，用来具体说明“你知道”的内容是什么，口语中这类that经常被省略，不影响核心意思。"
+    },
+    {
+      "title": "member of的所属表达",
+      "text": "“a member of + 组织名称”是英语里表达“某组织的成员”的固定搭配，介词of用来连接成员和所属组织，这里对应中文里“……的会员”的所属关系。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "You know",
+      "role": "主句",
+      "explanation": "整个句子的主体结构，表明信息的接收者和“知晓”这个动作。"
+    },
+    {
+      "text": "he's a member of the Y.H.A.",
+      "role": "宾语从句",
+      "explanation": "作为动词know的宾语，说明“知道”的具体内容，是主系表结构的完整句子。"
+    }
+  ],
+  "words": [
+    {
+      "text": "You",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "know",
+      "meaning": "知道；了解",
+      "pos": "动词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "he's",
+      "meaning": "他是",
+      "pos": "主谓缩写",
+      "phonetic": "/hiːz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "member",
+      "meaning": "成员；会员",
+      "pos": "名词",
+      "phonetic": "/ˈmembə/"
+    },
+    {
+      "text": "of",
+      "meaning": "属于；……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指该组织）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "Y.H.A.",
+      "meaning": "青年旅舍协会",
+      "pos": "专有名词缩写",
+      "phonetic": "/ˌwaɪ eɪtʃ ˈeɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "You know",
+      "meaning": "你知道",
+      "relation": "句子主干，引出后续你所知道的具体内容"
+    },
+    {
+      "text": "he's a member of the Y.H.A.",
+      "meaning": "他是青年旅舍协会的会员",
+      "relation": "补充说明你具体知道的信息，作为know的宾语从句"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-101",
+  "sentenceId": "nce-1-lesson-101-sentence-006",
+  "sentenceOrder": 6,
+  "english": "You know he's a member of the Y.H.A.",
+  "lesson": "Lesson 101 A card from Jimmy",
+  "notes": [
+    {
+      "title": "省略that的宾语从句",
+      "text": "本句中动词know后面直接接了完整句子“he's a member of the Y.H.A.”，这是一个省略了引导词that的宾语从句，用来具体说明“你知道”的内容是什么，口语中这类that经常被省略，不影响核心意思。"
+    },
+    {
+      "title": "member of的所属表达",
+      "text": "“a member of + 组织名称”是英语里表达“某组织的成员”的固定搭配，介词of用来连接成员和所属组织，这里对应中文里“……的会员”的所属关系。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体结构正确、核心表意通顺，仅存在可明确修正的细节瑕疵：Y.H.A.作为协会专有名词缩写，音标按字母逐个拼读应为/ˌwaɪ eɪtʃ ˈeɪ/而非/ˌwaɪ eɪtʃ ˈeɪ/，拼写正确但原音标中h的对应音标/eɪtʃ/格式正确仅标注位置略失规范，保留原有正确标注即可。其余内容符合语法规则与教学要求。（非逐句人工审核）"
+}

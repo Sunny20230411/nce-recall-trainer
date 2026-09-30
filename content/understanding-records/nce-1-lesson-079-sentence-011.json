@@ -1,0 +1,117 @@
+{
+  "chinese": "我们有啤酒和葡萄酒吗？",
+  "intent": "这是一个日常询问对话，用来确认说话人一方是否存有啤酒或葡萄酒，对应前一句“我们一点肉都没有了”的盘点语境。",
+  "comparison": null,
+  "backbone": {
+    "text": "Have we got any beer and wine?",
+    "meaning": "用来询问己方是否持有啤酒或葡萄酒。"
+  },
+  "structureNotes": [
+    {
+      "title": "疑问句结构",
+      "text": "Have放在主语we之前构成现在完成时的一般疑问句，have got在本句中表达“拥有、存有”的含义，和have的日常用法一致。"
+    },
+    {
+      "title": "any在疑问句中的用法",
+      "text": "any用在一般疑问句中，表示“一些”，修饰后面的并列名词beer和wine，不表示否定含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Have",
+      "role": "助动词",
+      "explanation": "是have got结构的助动词，放在主语we的前面构成疑问句。"
+    },
+    {
+      "text": "we",
+      "role": "主语",
+      "explanation": "指说话人和听话人组成的一方，说明询问的是“我们”是否拥有饮品。"
+    },
+    {
+      "text": "got",
+      "role": "过去分词（got形式的实义动词）",
+      "explanation": "和have搭配构成have got短语，表达“拥有”的含义。"
+    },
+    {
+      "text": "any beer and wine",
+      "role": "宾语",
+      "explanation": "由any修饰并列的两个不可数名词beer和wine，是询问的核心对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Have",
+      "meaning": "（have和got搭配构成have got，表示拥有）",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "we",
+      "meaning": "我们（主格）",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "got",
+      "meaning": "（和have搭配表示有、存有）",
+      "pos": "动词（过去分词）",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "any",
+      "meaning": "一些（用于疑问句中）",
+      "pos": "限定词",
+      "phonetic": "/ˈeni/"
+    },
+    {
+      "text": "beer",
+      "meaning": "啤酒（日常作为不可数的饮品类物质名词使用）",
+      "pos": "不可数名词",
+      "phonetic": "/bɪə(r)/"
+    },
+    {
+      "text": "and",
+      "meaning": "和、与",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "wine?",
+      "meaning": "葡萄酒（日常作为不可数的饮品类物质名词使用）",
+      "pos": "不可数名词",
+      "phonetic": "/waɪn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Have we got",
+      "relation": "疑问句框架，用来提出“是否拥有某物”的询问",
+      "meaning": "我们有……吗？"
+    },
+    {
+      "text": "any beer and wine?",
+      "relation": "询问对象，是“有”这个状态指向的事物",
+      "meaning": "啤酒和葡萄酒"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-79",
+  "sentenceId": "nce-1-lesson-079-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Have we got any beer and wine?",
+  "lesson": "Lesson 79 Carol's shopping list",
+  "notes": [
+    {
+      "title": "疑问句结构",
+      "text": "Have放在主语we之前构成现在完成时的一般疑问句，have got在本句中表达“拥有、存有”的含义，和have的日常用法一致。"
+    },
+    {
+      "title": "any在疑问句中的用法",
+      "text": "any用在一般疑问句中，表示“一些”，修饰后面的并列名词beer和wine，不表示否定含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确清晰，have got的疑问句用法、any的疑问场景用法解释得当，词汇、结构、语境说明均符合文本原意，仅存在两处细节问题：1. 词汇表中wine条目误把句末问号纳入单词text范围；2. 词汇表未标注beer、wine为饮品类物质名词，结合前文盘点库存的购物清单语境，可优化词汇释义的准确性。（非逐句人工审核）"
+}

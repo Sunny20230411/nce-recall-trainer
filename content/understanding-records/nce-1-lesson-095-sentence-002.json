@@ -1,0 +1,148 @@
+{
+  "chinese": "下一班火车什么时候开？",
+  "intent": "向车站工作人员询问下一班列车的发车时刻。",
+  "comparison": {
+    "chinese": "下一班火车什么时候开？",
+    "english": "What time will the next train leave?",
+    "steps": [
+      {
+        "label": "先确认询问核心",
+        "text": "the next train leave",
+        "explanation": "英文先把要问的事件说全：下一班火车发车，和中文里“下一班火车开”的信息一致。"
+      },
+      {
+        "label": "确定疑问位置",
+        "text": "What time",
+        "explanation": "What time放在句首，明确问的是发车时间；will放在主语the next train前面，使句子成为疑问句。"
+      },
+      {
+        "label": "还原主干顺序",
+        "text": "the next train will leave",
+        "explanation": "把will放回主语和动词之间，得到陈述式主干，再用What time提取缺失的时间信息。"
+      }
+    ],
+    "takeaway": "询问时刻时，What time承担缺的时间信息，will提前到主语前构成疑问，不能把What time当作主语。"
+  },
+  "backbone": {
+    "text": "The next train will leave at a time.",
+    "meaning": "下一班火车将在某个时刻发车。"
+  },
+  "structureNotes": [
+    {
+      "title": "What time疑问句",
+      "text": "What time在句中作时间状语，提示说话人要获取火车发车的具体时刻，不是句子的主语。"
+    },
+    {
+      "title": "will提前构成疑问",
+      "text": "will放在主语the next train之前，构成一般疑问句倒装，同时保留将来时含义，表示询问未来发车时刻。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What time",
+      "role": "疑问时间状语",
+      "explanation": "放在句首，明确询问发车的具体时刻，是对话中等待回答的缺失信息。"
+    },
+    {
+      "text": "will",
+      "role": "助动词（表将来时）",
+      "explanation": "放在主语the next train之前构成疑问倒装，同时表示列车发车是未来将要发生的动作。"
+    },
+    {
+      "text": "the next train",
+      "role": "主语",
+      "explanation": "指说话人询问的目标列车，即下一班即将发车的火车。"
+    },
+    {
+      "text": "leave",
+      "role": "谓语动词",
+      "explanation": "原形动词，表示火车发车的动作，和will搭配表示将来的发车行为。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What",
+      "meaning": "什么（与time搭配构成疑问短语What time）",
+      "pos": "疑问限定词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "time",
+      "meaning": "时间",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    },
+    {
+      "text": "will",
+      "meaning": "将要（助动词，构成将来时与疑问句倒装）",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，表特指",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "next",
+      "meaning": "下一个的",
+      "pos": "形容词",
+      "phonetic": "/nekst/"
+    },
+    {
+      "text": "train",
+      "meaning": "火车",
+      "pos": "名词",
+      "phonetic": "/treɪn/"
+    },
+    {
+      "text": "leave?",
+      "meaning": "离开，发车",
+      "pos": "动词",
+      "phonetic": "/liːv/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What time",
+      "meaning": "什么时候",
+      "relation": "作时间状语，说明询问的核心是发车时刻，明确要获取的缺失信息，不是句子主语。"
+    },
+    {
+      "text": "will",
+      "meaning": "将要（用于疑问倒装）",
+      "relation": "帮助构成疑问句，同时表示列车发车是将来的动作。"
+    },
+    {
+      "text": "the next train",
+      "meaning": "下一班火车",
+      "relation": "句子主语，即被询问的主体，下一班要发车的列车。"
+    },
+    {
+      "text": "leave?",
+      "meaning": "发车",
+      "relation": "谓语动词，描述火车的动作，和前面的主语搭配构成完整事件。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-95",
+  "sentenceId": "nce-1-lesson-095-sentence-002",
+  "sentenceOrder": 2,
+  "english": "What time will the next train leave?",
+  "lesson": "Lesson 95 Tickets, please.",
+  "notes": [
+    {
+      "title": "What time疑问句",
+      "text": "What time在句中作时间状语，提示说话人要获取火车发车的具体时刻，不是句子的主语。"
+    },
+    {
+      "title": "will提前构成疑问",
+      "text": "will放在主语the next train之前，构成一般疑问句倒装，同时保留将来时含义，表示询问未来发车时刻。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：核心理解基本准确：明确标注 What time 为时间状语而非主语，正确指出 will 提前构成疑问句倒装，主干补全和上下文匹配。但存在一处可明确修正的问题：单词表中 What 的词性标注为疑问限定词，实际 What time 整体为疑问短语时，What 是修饰 time 的限定词，单独询问时刻的场景下标注为疑问限定词不影响理解；另外 leave? 的单词音标、词性标注完整，仅单词表中 What 的解释可优化以更贴合短语用法。（非逐句人工审核）"
+}

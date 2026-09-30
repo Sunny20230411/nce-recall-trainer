@@ -1,0 +1,105 @@
+{
+  "chinese": "它在右边。",
+  "intent": "指明前文提到的冰箱所处的具体方位",
+  "comparison": null,
+  "backbone": {
+    "text": "It is on the right",
+    "meaning": "它处于右边的位置"
+  },
+  "parts": [
+    {
+      "text": "It",
+      "relation": "描述的对象",
+      "meaning": "指代前文提到的冰箱"
+    },
+    {
+      "text": "is",
+      "relation": "连接主体和方位的状态说明",
+      "meaning": "表示处于某位置的状态"
+    },
+    {
+      "text": "on the right.",
+      "relation": "补充主体所在的具体位置",
+      "meaning": "在右边（指空间方位）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "指代明确性",
+      "text": "句首的It直接承接前文提到的冰箱，不需要额外补充名词就能让读者立刻明确描述对象，避免表达冗余。"
+    },
+    {
+      "title": "方位表达",
+      "text": "on the right是固定的方位表达，不需要额外加定冠词以外的修饰，就能清晰说明物体的相对位置。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "指代主语",
+      "explanation": "用来指代上文中出现的特定物品，避免重复提及该物品的名称"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "用来连接主语和后面的方位说明，表明主语所处的状态"
+    },
+    {
+      "text": "on the right",
+      "role": "方位表语",
+      "explanation": "说明主语所在的具体空间位置，提供核心的方位信息"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "它，指代前文的冰箱",
+      "pos": "pronoun",
+      "phonetic": "/ɪt/",
+      "text": "It"
+    },
+    {
+      "meaning": "是，表示处于某位置的状态",
+      "pos": "linking verb",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "在……之上，此处用于引出方位范畴",
+      "pos": "preposition",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "这个，定冠词限定方位为特指的右侧区域",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "右侧，方位名词",
+      "pos": "noun",
+      "phonetic": "/raɪt/",
+      "text": "right."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-25",
+  "sentenceId": "nce-1-lesson-025-sentence-004",
+  "sentenceOrder": 4,
+  "english": "It is on the right.",
+  "lesson": "Lesson 25 Mrs. Smith's kitchen",
+  "notes": [
+    {
+      "title": "指代明确性",
+      "text": "句首的It直接承接前文提到的冰箱，不需要额外补充名词就能让读者立刻明确描述对象，避免表达冗余。"
+    },
+    {
+      "title": "方位表达",
+      "text": "on the right是固定的方位表达，不需要额外加定冠词以外的修饰，就能清晰说明物体的相对位置。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在局部细节瑕疵，可通过补丁修正完善。（非逐句人工审核）"
+}

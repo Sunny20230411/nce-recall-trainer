@@ -1,0 +1,151 @@
+{
+  "chinese": "我想他们后天会搬进来。",
+  "intent": "表达自己对新住户入住时间的推测，回应关于新家搬入时间的提问。",
+  "comparison": {
+    "chinese": "我认为，他们后天会搬进来。",
+    "english": "I think that they'll move in the day after tomorrow.",
+    "steps": [
+      {
+        "label": "先讲个人判断",
+        "text": "I think that…",
+        "explanation": "用“I think”引出说话人的推测，that只起连接作用，口语中常可省略，没有实际词义。"
+      },
+      {
+        "label": "再接具体内容",
+        "text": "they'll move in the day after tomorrow",
+        "explanation": "that后面说明判断的具体内容，they'll是they will的缩写，表将来会发生；move in是固定短语表“搬入新居”，后面的the day after tomorrow点明搬入的具体时间是后天。"
+      }
+    ],
+    "takeaway": "英语常用“I think that + 完整从句”来引出自己的推测，that只作连接词，从句保留完整的将来时态和时间信息，和中文“我认为……”的表达顺序基本一致。"
+  },
+  "backbone": {
+    "text": "I think that they'll move in the day after tomorrow.",
+    "meaning": "我推测新住户会在后天搬进来。"
+  },
+  "structureNotes": [
+    {
+      "title": "that引导的宾语从句",
+      "text": "that在本句中仅起连接主句和从句的作用，没有实际词义，也不承担从句内的语法成分，口语中常被省略，不影响句子意思表达。"
+    },
+    {
+      "title": "固定短语与时间表达",
+      "text": "move in是固定搭配，特指“搬进新居、迁入”，后面不需要额外加宾语；the day after tomorrow是固定时间表达，意为“后天”，直接放在句末作时间状语说明动作发生的时间。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I think",
+      "role": "主句",
+      "explanation": "主句是表达说话人判断的核心，表明后续内容是说话人的推测而非确定事实。"
+    },
+    {
+      "text": "that they'll move in the day after tomorrow",
+      "role": "宾语从句",
+      "explanation": "that引导宾语从句作think的宾语，从句用一般将来时陈述推测的具体入住时间与动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "think",
+      "meaning": "认为，想",
+      "pos": "动词",
+      "phonetic": "/θɪŋk/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导宾语从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "they'll",
+      "meaning": "他们将要（they will的缩写）",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/ðeɪl/"
+    },
+    {
+      "text": "move",
+      "meaning": "搬迁",
+      "pos": "动词",
+      "phonetic": "/muːv/"
+    },
+    {
+      "text": "in",
+      "meaning": "（与move搭配构成短语move in）搬进，迁入",
+      "pos": "副词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，无实义）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "day",
+      "meaning": "天",
+      "pos": "名词",
+      "phonetic": "/deɪ/"
+    },
+    {
+      "text": "after",
+      "meaning": "在……之后",
+      "pos": "介词",
+      "phonetic": "/ˈɑːftə/"
+    },
+    {
+      "text": "tomorrow.",
+      "meaning": "明天",
+      "pos": "名词",
+      "phonetic": "/təˈmɒrəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I think",
+      "relation": "主句，表达说话人的主观推测",
+      "meaning": "我想"
+    },
+    {
+      "text": "that",
+      "relation": "连接主句和后面的宾语从句",
+      "meaning": "（无实义的连接词）"
+    },
+    {
+      "text": "they'll move in",
+      "relation": "从句的核心主谓动作，说明推测的行为内容",
+      "meaning": "他们会搬进来"
+    },
+    {
+      "text": "the day after tomorrow.",
+      "relation": "补充说明搬入动作发生的具体时间",
+      "meaning": "后天"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-91",
+  "sentenceId": "nce-1-lesson-091-sentence-014",
+  "sentenceOrder": 14,
+  "english": "I think that they'll move in the day after tomorrow.",
+  "lesson": "Lesson 91 Poor Ian!",
+  "notes": [
+    {
+      "title": "that引导的宾语从句",
+      "text": "that在本句中仅起连接主句和从句的作用，没有实际词义，也不承担从句内的语法成分，口语中常被省略，不影响句子意思表达。"
+    },
+    {
+      "title": "固定短语与时间表达",
+      "text": "move in是固定搭配，特指“搬进新居、迁入”，后面不需要额外加宾语；the day after tomorrow是固定时间表达，意为“后天”，直接放在句末作时间状语说明动作发生的时间。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体分析准确，that作宾语从句连词、move in固定短语、时间表达等核心讲解均无误，仅存在两处小的表述可修正问题：一是structureNotes中关于that的描述提到“指代后面从句的完整内容”，而that此处无实义、不承担指代功能，表述有误；二是最后一处单词条目text错误附带了句末句号，应修正。（非逐句人工审核）"
+}

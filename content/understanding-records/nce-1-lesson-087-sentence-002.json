@@ -1,0 +1,145 @@
+{
+  "chinese": "我不知道，先生。您的车牌号是多少？",
+  "intent": "修理店工作人员回应顾客询问车辆状态时表明自己暂不清楚相关情况，同时向顾客询问车辆的登记车牌号，以便查询车辆的维修进度。",
+  "comparison": null,
+  "backbone": {
+    "text": "I don't know. What's the number of your car?",
+    "meaning": "（我）不清楚情况。（请问）您的车牌号是多少？"
+  },
+  "structureNotes": [
+    {
+      "title": "英文疑问语序",
+      "text": "问句中be动词is置于主语the number of your car之前，疑问词What作表语引导整个问题，用于询问具体的号码信息，属于特殊疑问句的标准倒装结构。"
+    },
+    {
+      "title": "英语所属关系表达",
+      "text": "短语the number of your car用of引出number的所属对象，对应中文“你的车的号码”，整体指车辆的登记编号即车牌号。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I don't know, sir.",
+      "role": "否定陈述句（回应前文）",
+      "explanation": "用于回应顾客之前提出的车辆是否准备好的问题，明确表达当前没有相关信息。"
+    },
+    {
+      "text": "sir.",
+      "role": "称呼语",
+      "explanation": "服务场景中对男性顾客的礼貌称呼，放在句末兼顾得体与自然。"
+    },
+    {
+      "text": "What's the number of your car?",
+      "role": "特殊疑问句",
+      "explanation": "核心交际目的是询问顾客车辆的车牌号，以便后续核对车辆信息、查询维修进度。"
+    },
+    {
+      "text": "the number of your car",
+      "role": "介词短语作后置定语修饰number",
+      "explanation": "用介词of明确number的归属，把抽象的“号码”和具体的“你的车”绑定，避免指代模糊。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我（主格人称代词）",
+      "pos": "pron.",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "don't",
+      "meaning": "不，没有",
+      "pos": "adv.",
+      "phonetic": "/dəʊnt/"
+    },
+    {
+      "text": "know,",
+      "meaning": "知道，了解",
+      "pos": "v.",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "sir.",
+      "meaning": "先生（对男性的尊称）",
+      "pos": "n.",
+      "phonetic": "/sɜː/"
+    },
+    {
+      "text": "What's",
+      "meaning": "是什么（what is的缩写形式）",
+      "pos": "pron. & v.",
+      "phonetic": "/wɒts/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指，用于限定名词）",
+      "pos": "art.",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "number",
+      "meaning": "号码，数字",
+      "pos": "n.",
+      "phonetic": "/ˈnʌmbə/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表所属关系）",
+      "pos": "prep.",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "your",
+      "meaning": "你的，您的（形容词性物主代词）",
+      "pos": "det.",
+      "phonetic": "/jɔː/"
+    },
+    {
+      "text": "car?",
+      "meaning": "汽车，车辆",
+      "pos": "n.",
+      "phonetic": "/kɑː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I don't know,",
+      "meaning": "我不知道，",
+      "relation": "回应顾客的询问，说明自己暂时不了解车辆的相关情况"
+    },
+    {
+      "text": "sir.",
+      "meaning": "先生。",
+      "relation": "服务场景的礼貌称呼，补充说明对话的对象身份"
+    },
+    {
+      "text": "What's the number",
+      "meaning": "（您的）号码是多少",
+      "relation": "问句核心，用于询问车辆的登记编号"
+    },
+    {
+      "text": "of your car?",
+      "meaning": "您的车（的）？",
+      "relation": "限定说明，明确这个号码归属于顾客的车辆，在本语境中整体指向车辆牌照编号，组合后对应中文的“您的车牌号是多少”"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-87",
+  "sentenceId": "nce-1-lesson-087-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I don't know, sir. What's the number of your car?",
+  "lesson": "Lesson 87 A car crash",
+  "notes": [
+    {
+      "title": "英文疑问语序",
+      "text": "问句中be动词is置于主语the number of your car之前，疑问词What作表语引导整个问题，用于询问具体的号码信息，属于特殊疑问句的标准倒装结构。"
+    },
+    {
+      "title": "英语所属关系表达",
+      "text": "短语the number of your car用of引出number的所属对象，对应中文“你的车的号码”，整体指车辆的登记编号即车牌号。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构、主干和语音信息基本可用，核心语义传达正确；仅存在两处可明确修正的问题：1. 单词分块中，know、sir、car的释义额外标注了句末标点，不符合单词释义规范，需要去掉这类标点说明；2. 分块parts的第三、第四块将\"您的车牌号是多少\"这一完整语义错误拆分，导致第四块字面释义为\"您的车？\"，丢失了\"号码\"的关键限定，需要调整释义和关联说明使其通顺自然。（非逐句人工审核）"
+}

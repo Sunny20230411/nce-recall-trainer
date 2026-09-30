@@ -1,0 +1,147 @@
+{
+  "chinese": "我和妻子正沿着河岸走。",
+  "intent": "描述说话人与妻子此刻正在河边行走的状态，交代照片中的人物活动场景。",
+  "comparison": null,
+  "backbone": {
+    "text": "My wife and I are walking",
+    "meaning": "我和妻子正在行走"
+  },
+  "parts": [
+    {
+      "text": "My wife and I",
+      "relation": "描述执行行走动作的主体",
+      "meaning": "我的妻子和我"
+    },
+    {
+      "text": "are walking",
+      "relation": "说明主体正在做的动作",
+      "meaning": "正在行走"
+    },
+    {
+      "text": "along the banks of the river.",
+      "relation": "补充说明行走的路径位置",
+      "meaning": "沿着河岸"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "并列主语的用法",
+      "text": "My wife and I 是由and连接的并列主语，指代两个人，后续be动词使用复数形式are，匹配复数主语的语法要求。"
+    },
+    {
+      "title": "along的含义",
+      "text": "along作为方位介词，在这里表示动作沿着某条长线状的路径移动，说明行走的轨迹是顺着河岸延伸的方向。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My wife and I",
+      "role": "并列主语",
+      "explanation": "指代动作的两个执行者，说明是谁在行走"
+    },
+    {
+      "text": "are walking",
+      "role": "现在进行时谓语",
+      "explanation": "表示当下正在发生的行走动作"
+    },
+    {
+      "text": "along the banks of the river",
+      "role": "地点状语",
+      "explanation": "补充交代行走的具体路线和位置范围"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/",
+      "text": "My"
+    },
+    {
+      "meaning": "妻子",
+      "pos": "名词",
+      "phonetic": "/waɪf/",
+      "text": "wife"
+    },
+    {
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "（助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/ɑː/",
+      "text": "are"
+    },
+    {
+      "meaning": "行走",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈwɔːkɪŋ/",
+      "text": "walking"
+    },
+    {
+      "meaning": "沿着",
+      "pos": "介词",
+      "phonetic": "/əˈlɒŋ/",
+      "text": "along"
+    },
+    {
+      "meaning": "这个、这些（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "岸",
+      "pos": "名词复数",
+      "phonetic": "/bæŋks/",
+      "text": "banks"
+    },
+    {
+      "meaning": "……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "这个（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "河",
+      "pos": "名词",
+      "phonetic": "/ˈrɪvə(r)/",
+      "text": "river."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-35",
+  "sentenceId": "nce-1-lesson-035-sentence-006",
+  "sentenceOrder": 6,
+  "english": "My wife and I are walking along the banks of the river.",
+  "lesson": "Lesson 35 Our village",
+  "notes": [
+    {
+      "title": "并列主语的用法",
+      "text": "My wife and I 是由and连接的并列主语，指代两个人，后续be动词使用复数形式are，匹配复数主语的语法要求。"
+    },
+    {
+      "title": "along的含义",
+      "text": "along作为方位介词，在这里表示动作沿着某条长线状的路径移动，说明行走的轨迹是顺着河岸延伸的方向。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体合规，仅存在comparison字段缺失的补全需求以及一处单词音标末尾冗余点的小问题，其余语法标注、语义解析、词性划分均符合面向中文母语成年人的英语学习要求，未出现各类语法概念错误。（非逐句人工审核）"
+}

@@ -1,0 +1,81 @@
+{
+  "chinese": "能。它们在这儿。",
+  "intent": "先针对前面的一般疑问句给出肯定答复，紧接着指明所询问的事物当前就在此处，完成完整的回应。",
+  "comparison": null,
+  "backbone": {
+    "text": "Yes. Here they are.",
+    "meaning": "给出肯定答复后点明询问的事物就在此处。"
+  },
+  "parts": [
+    {
+      "text": "Yes.",
+      "relation": "回应前置问题",
+      "meaning": "对前文提出的疑问给出肯定的答复"
+    },
+    {
+      "text": "Here they are.",
+      "relation": "补充说明答复对应的实际情况",
+      "meaning": "表明所指代的事物就在当前所处的位置"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "倒装语序说明",
+      "text": "Here they are 属于方位副词引导的习惯表达，常规方位副词置于句首时如果主语为名词需采用全倒装结构，即「Here + 谓语 + 名词主语」；但本句主语是人称代词they，属于全倒装规则的特殊例外情况，不需要把谓语are提到主语前，直接采用「Here + 人称代词主语 + 谓语」的正常语序即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes.",
+      "role": "独立肯定应答语",
+      "explanation": "专门用于快速回应前文提出的一般疑问句，直接传递同意、可行的态度。"
+    },
+    {
+      "text": "Here they are.",
+      "role": "方位指代表达句",
+      "explanation": "用来明确告知对方所寻找或者询问的物品、人就在眼前的位置，是日常找物场景下的常用表述。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是，能（此处用于对前文一般疑问句给出肯定答复）",
+      "pos": "感叹词",
+      "phonetic": "/jes/",
+      "text": "Yes."
+    },
+    {
+      "meaning": "在这里，到此处",
+      "pos": "副词",
+      "phonetic": "/hɪə/",
+      "text": "Here"
+    },
+    {
+      "meaning": "它们/他们/她们，此处指代前文询问的事物",
+      "pos": "人称代词",
+      "phonetic": "/ðeɪ/",
+      "text": "they"
+    },
+    {
+      "meaning": "是，存在，此处表示事物处于此处的状态",
+      "pos": "be动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-43",
+  "sentenceId": "nce-1-lesson-043-sentence-013",
+  "sentenceOrder": 13,
+  "english": "Yes. Here they are.",
+  "lesson": "Lesson 43 Hurry up!",
+  "notes": [
+    {
+      "title": "倒装语序说明",
+      "text": "Here they are 属于方位副词引导的习惯表达，常规方位副词置于句首时如果主语为名词需采用全倒装结构，即「Here + 谓语 + 名词主语」；但本句主语是人称代词they，属于全倒装规则的特殊例外情况，不需要把谓语are提到主语前，直接采用「Here + 人称代词主语 + 谓语」的正常语序即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合教学要求，仅存在局部细节表述偏差与内容疏漏，可针对性修正完善。（非逐句人工审核）"
+}

@@ -1,0 +1,99 @@
+{
+  "chinese": "别那么肯定。",
+  "intent": "劝阻对方不要对事情下定论，暗示情况存在变数，还不能完全确定。",
+  "comparison": null,
+  "backbone": {
+    "text": "Don't be so sure.",
+    "meaning": "不要对这件事下确定结论，事情还存在变数。"
+  },
+  "structureNotes": [
+    {
+      "title": "否定祈使句的构成",
+      "text": "这是否定形式的祈使句，直接省略第二人称主语you，用Don't开头加动词原形be，用来向听话人发出劝阻、提醒，相当于直接对对方说“你别……”。"
+    },
+    {
+      "title": "程度副词so修饰形容词",
+      "text": "so在这里是程度副词，放在形容词sure前面，表示“这么、那么”的程度，用来修饰“肯定”的程度，说明不要达到这么笃定的状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Don't",
+      "role": "否定祈使标记",
+      "explanation": "由do和not的缩写构成，放在句首表示否定的指令，省略了第二人称主语you。"
+    },
+    {
+      "text": "be",
+      "role": "连系动词",
+      "explanation": "祈使句中使用动词原形，后接表语描述主语所处的状态。"
+    },
+    {
+      "text": "so sure",
+      "role": "形容词短语作表语",
+      "explanation": "so修饰形容词sure，说明主语的状态是“如此肯定”。"
+    },
+    {
+      "text": "Don't be so sure.",
+      "role": "否定祈使句",
+      "explanation": "整体构成完整的劝阻表达，直接向听话人提出告诫。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Don't",
+      "meaning": "不要（do not的缩写，用于祈使句句首表否定）",
+      "pos": "助词（缩写）",
+      "phonetic": "/dəʊnt/"
+    },
+    {
+      "text": "be",
+      "meaning": "（祈使句中用原形，连接主语和表语，可酌情不译）",
+      "pos": "动词原形",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "so",
+      "meaning": "这么，那么（表程度）",
+      "pos": "副词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "sure.",
+      "meaning": "肯定的，有把握的",
+      "pos": "形容词",
+      "phonetic": "/ʃʊə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Don't be",
+      "relation": "指令的否定引导部分，构成劝阻的语气",
+      "meaning": "别这样（对对方发出否定指令）"
+    },
+    {
+      "text": "so sure.",
+      "relation": "描述对方当前的状态，是整个劝阻针对的具体内容",
+      "meaning": "如此肯定"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-131",
+  "sentenceId": "nce-1-lesson-131-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Don't be so sure.",
+  "lesson": "Lesson 131 Don't be so sure!",
+  "notes": [
+    {
+      "title": "否定祈使句的构成",
+      "text": "这是否定形式的祈使句，直接省略第二人称主语you，用Don't开头加动词原形be，用来向听话人发出劝阻、提醒，相当于直接对对方说“你别……”。"
+    },
+    {
+      "title": "程度副词so修饰形容词",
+      "text": "so在这里是程度副词，放在形容词sure前面，表示“这么、那么”的程度，用来修饰“肯定”的程度，说明不要达到这么笃定的状态。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子主干、翻译、各成分结构关系整体正确，仅存在两处可明确修正的细节问题：一是sure的音标末尾误加了句点，不属于音标本身的内容；二是be的中文释义不符合祈使句中be的实际用法，原释义未适配祈使语境。（非逐句人工审核）"
+}

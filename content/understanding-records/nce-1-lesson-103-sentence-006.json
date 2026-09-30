@@ -1,0 +1,80 @@
+{
+  "chinese": "那还不错。",
+  "intent": "评价前文提到的考试成绩，认为情况尚可。",
+  "comparison": null,
+  "backbone": {
+    "text": "That's not bad.",
+    "meaning": "那还不错。"
+  },
+  "structureNotes": [
+    {
+      "title": "That指代前文内容",
+      "text": "That指代上一句提到的考了44分这件事，不是指远处的某个实物。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That's",
+      "role": "主语+系动词",
+      "explanation": "That是主语，指代前文提到的成绩；is是系动词，缩写为's。"
+    },
+    {
+      "text": "not",
+      "role": "否定副词",
+      "explanation": "对表语bad进行否定。"
+    },
+    {
+      "text": "bad",
+      "role": "表语",
+      "explanation": "形容词作表语，说明主语的性质。"
+    }
+  ],
+  "words": [
+    {
+      "text": "That's",
+      "meaning": "那（指代前文的成绩）",
+      "pos": "代词",
+      "phonetic": "/ðæts/"
+    },
+    {
+      "text": "not",
+      "meaning": "不",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "bad.",
+      "meaning": "坏的；糟糕的",
+      "pos": "形容词",
+      "phonetic": "/bæd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "That's",
+      "relation": "评价对象",
+      "meaning": "那（指代前文的成绩）"
+    },
+    {
+      "text": "not bad.",
+      "relation": "对成绩的评价",
+      "meaning": "还不错（不是糟糕的）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-006",
+  "sentenceOrder": 6,
+  "english": "That's not bad.",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "That指代前文内容",
+      "text": "That指代上一句提到的考了44分这件事，不是指远处的某个实物。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：译文与上下文语义匹配，指代说明清晰，主干成分划分合理。仅存在两处可明确修正的细节：一是词汇表中bad带句号录入，音标为美式发音不符合英式要求；二是That's的音标错误包含了所有格符号，其余内容无需调整。（非逐句人工审核）"
+}

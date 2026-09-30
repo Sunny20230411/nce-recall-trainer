@@ -1,0 +1,122 @@
+{
+  "chinese": "这是村庄的另一张照片。",
+  "intent": "向听者展示并介绍另一张和村庄相关的照片，承接前文对村庄的描述，补充展示相关影像内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "Here is another photograph",
+    "meaning": "这是（前文提到的村庄相关场景下的）另一张照片，为句子剔除后置定语后的核心展示主体内容"
+  },
+  "parts": [
+    {
+      "text": "Here",
+      "relation": "引出展示的场景位置",
+      "meaning": "这里"
+    },
+    {
+      "text": "is",
+      "relation": "连接指代和主体事物",
+      "meaning": "是"
+    },
+    {
+      "text": "another photograph",
+      "relation": "句子描述的核心主体",
+      "meaning": "另一张照片"
+    },
+    {
+      "text": "of the village.",
+      "relation": "补充说明这张照片的所属关联对象",
+      "meaning": "属于这个村庄的"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "Here引导的展示句型",
+      "text": "本句用Here开头引出要展示的物品，不需要生硬逐词翻成“这里是”，理解为“这是/这儿有”更符合中文介绍物品的习惯。"
+    },
+    {
+      "title": "of的所属关联用法",
+      "text": "of the village用来限定photograph，说明这张照片的内容相关对象是前文提到的那个村庄，不是任意一张无关的照片。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Here is",
+      "role": "展示引导结构",
+      "explanation": "用于向对方呈现眼前的事物，是介绍物品时常用的开头表达。"
+    },
+    {
+      "text": "another photograph",
+      "role": "核心名词主体",
+      "explanation": "明确句子要介绍的核心事物，指代前一张村庄照片之外的另一张同类照片。"
+    },
+    {
+      "text": "of the village",
+      "role": "后置限定修饰短语",
+      "explanation": "补充说明照片的关联属性，指明这张照片的内容和前文提到的村庄直接相关。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这里",
+      "pos": "副词",
+      "phonetic": "/hɪə/",
+      "text": "Here"
+    },
+    {
+      "meaning": "是",
+      "pos": "be动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "另一个",
+      "pos": "限定词",
+      "phonetic": "/əˈnʌðə/",
+      "text": "another"
+    },
+    {
+      "meaning": "照片",
+      "pos": "名词",
+      "phonetic": "/ˈfəʊtəɡrɑːf/",
+      "text": "photograph"
+    },
+    {
+      "meaning": "属于…的",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "这个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "村庄",
+      "pos": "名词",
+      "phonetic": "/ˈvɪlɪdʒ/",
+      "text": "village."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-35",
+  "sentenceId": "nce-1-lesson-035-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Here is another photograph of the village.",
+  "lesson": "Lesson 35 Our village",
+  "notes": [
+    {
+      "title": "Here引导的展示句型",
+      "text": "本句用Here开头引出要展示的物品，不需要生硬逐词翻成“这里是”，理解为“这是/这儿有”更符合中文介绍物品的习惯。"
+    },
+    {
+      "title": "of的所属关联用法",
+      "text": "of the village用来限定photograph，说明这张照片的内容相关对象是前文提到的那个村庄，不是任意一张无关的照片。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体符合教学要求，仅存在comparison字段缺失、主干释义未结合语境补全关联信息、个别单词释义精度待优化的可修正问题，未触及核心错误规则（非逐句人工审核）"
+}

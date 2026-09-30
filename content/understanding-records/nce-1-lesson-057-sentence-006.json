@@ -1,0 +1,86 @@
+{
+  "chinese": "现在是六点。",
+  "intent": "交代当前的时间节点，引出后文傍晚时段孩子们的相关活动。",
+  "comparison": null,
+  "backbone": {
+    "text": "It is six o'clock.",
+    "meaning": "当前的时间是六点整。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间表达里的形式主语it",
+      "text": "英语说时间时，习惯用无人称的it充当句子主语，it并不指代任何具体的人或事物，不带有实义，仅满足英语句子的成句要求，谓语搭配is，后面直接接上具体时刻six o'clock即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "形式主语（时间表达专用无人称it）",
+      "explanation": "没有实际指代对象，仅用于构成表达时间的完整句式，不指代名词it对应的“它”的含义。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "表示处于（某时间状态），连接形式主语和具体的时间说明。"
+    },
+    {
+      "text": "six o'clock.",
+      "role": "表语",
+      "explanation": "给出具体的时刻数值，是句子要说明的核心时间信息。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "（表达时间的无人称形式主语，无实义）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（用于描述当前时间处于某点）",
+      "pos": "be动词；系动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "six",
+      "meaning": "六（此处指六点钟）",
+      "pos": "数词",
+      "phonetic": "/sɪks/"
+    },
+    {
+      "text": "o'clock.",
+      "meaning": "……点钟。",
+      "pos": "副词",
+      "phonetic": "/əˈklɒk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It is",
+      "meaning": "（用于报时的无人称句式）",
+      "relation": "构成报时的完整句子框架"
+    },
+    {
+      "text": "six o'clock.",
+      "meaning": "六点整。",
+      "relation": "补充说明当前的具体时刻。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-57",
+  "sentenceId": "nce-1-lesson-057-sentence-006",
+  "sentenceOrder": 6,
+  "english": "It is six o'clock.",
+  "lesson": "Lesson 57 An unusual day",
+  "notes": [
+    {
+      "title": "时间表达里的形式主语it",
+      "text": "英语说时间时，习惯用无人称的it充当句子主语，it并不指代任何具体的人或事物，不带有实义，仅满足英语句子的成句要求，谓语搭配is，后面直接接上具体时刻six o'clock即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：译文、主干、语法成分、分块、音标和语境说明基本准确，形式主语it的解释清晰，主系表结构完整。仅需微调词汇词性标注与断句块措辞，不影响整体理解。（非逐句人工审核）"
+}

@@ -1,0 +1,75 @@
+{
+  "chinese": "她们是电脑录入员。",
+  "intent": "回应之前关于她们职业的提问，明确告知对方这群人的具体工作身份。",
+  "comparison": null,
+  "backbone": {
+    "text": "They're keyboard operators.",
+    "meaning": "她们的职业是电脑录入员。"
+  },
+  "parts": [
+    {
+      "text": "They're",
+      "relation": "陈述主体和对应的判断系动词",
+      "meaning": "她们是"
+    },
+    {
+      "text": "keyboard operators.",
+      "relation": "补充说明她们的具体职业身份",
+      "meaning": "电脑录入员"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "职业判断句结构",
+      "text": "这是典型的说明职业的主系表短句，用缩写形式They're承接上文中的特殊疑问句里的指代对象their，直接带出后续的职业名词词组完成职业问答的回应。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They're",
+      "role": "主语+系动词",
+      "explanation": "They指代上文中的那些女性，和are缩写后构成判断句的开头，表明指代对象的属性"
+    },
+    {
+      "text": "keyboard operators",
+      "role": "表语名词词组",
+      "explanation": "keyboard修饰operators，指明这类操作人员的工作内容，整体说明主语的职业"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "她们是",
+      "pos": "代词+系动词（缩写形式）",
+      "phonetic": "/ðeə(r)/",
+      "text": "They're"
+    },
+    {
+      "meaning": "键盘",
+      "pos": "名词（此处作定语修饰operators，指明操作人员的工作关联工具）",
+      "phonetic": "/ˈkiːbɔːd/",
+      "text": "keyboard"
+    },
+    {
+      "meaning": "操作员，录入员",
+      "pos": "名词复数形式",
+      "phonetic": "/ˈɒpəreɪtəz/",
+      "text": "operators."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-17",
+  "sentenceId": "nce-1-lesson-017-sentence-006",
+  "sentenceOrder": 6,
+  "english": "They're keyboard operators.",
+  "lesson": "Lesson 17 How do you do?",
+  "notes": [
+    {
+      "title": "职业判断句结构",
+      "text": "这是典型的说明职业的主系表短句，用缩写形式They're承接上文中的特殊疑问句里的指代对象their，直接带出后续的职业名词词组完成职业问答的回应。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合面向中文母语成年人的英语教学解析要求，仅存在部分细节表述和信息准确性的可优化点，不影响核心语义理解。（非逐句人工审核）"
+}

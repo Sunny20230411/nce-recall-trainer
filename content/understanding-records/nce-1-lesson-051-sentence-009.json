@@ -1,0 +1,146 @@
+{
+  "chinese": "秋天是冷还是暖和？",
+  "intent": "询问秋季的整体气温属于偏冷还是偏暖。",
+  "comparison": {
+    "chinese": "秋天是冷还是暖和？",
+    "english": "Is it cold or warm in autumn?",
+    "steps": [
+      {
+        "label": "先说判断结果",
+        "text": "Is it cold or warm...",
+        "explanation": "英文先把be动词is提到句首，再给出cold和warm两个候选判断；中文先点出“秋天”这个时间，再问冷热选择。"
+      },
+      {
+        "label": "补充时间范围",
+        "text": "in autumn",
+        "explanation": "介词in放在autumn前，说明问题针对的是秋季整体气候，而不是某一天。"
+      }
+    ],
+    "takeaway": "英文把is提前构成疑问，or连接两个形容词作选择；中文习惯把时间放句首。"
+  },
+  "backbone": {
+    "text": "Is it cold or warm in autumn?",
+    "meaning": "秋天的天气是冷还是暖和？"
+  },
+  "structureNotes": [
+    {
+      "title": "一般疑问句结构",
+      "text": "Is it...把be动词is放在主语it之前，构成疑问语气；it在这里指代天气状况。"
+    },
+    {
+      "title": "or连接选择项",
+      "text": "cold和warm用or连接，表示二选一的询问，不是同时具备两种温度。"
+    },
+    {
+      "title": "in autumn表时间",
+      "text": "介词in加季节名词，表示在某个季节里，说明询问的时间范围是秋季。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is",
+      "role": "be动词",
+      "explanation": "帮助构成一般疑问句，放在句首表示疑问语气。"
+    },
+    {
+      "text": "it",
+      "role": "主语",
+      "explanation": "指代天气，是句子描述的对象。"
+    },
+    {
+      "text": "cold or warm",
+      "role": "表语",
+      "explanation": "由or连接的两个形容词并列，说明天气的两种可能状态。"
+    },
+    {
+      "text": "in autumn",
+      "role": "时间状语",
+      "explanation": "说明询问的时间范围是秋季。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是（be动词第三人称单数，用于疑问句开头）",
+      "pos": "动词",
+      "phonetic": "/ɪz/，",
+      "text": "Is"
+    },
+    {
+      "meaning": "它（此处指代天气）",
+      "pos": "代词",
+      "phonetic": "/ɪt/",
+      "text": "it"
+    },
+    {
+      "meaning": "冷的",
+      "pos": "形容词",
+      "phonetic": "/kəʊld/",
+      "text": "cold"
+    },
+    {
+      "meaning": "或者；还是",
+      "pos": "连词",
+      "phonetic": "/ɔː(r)/",
+      "text": "or"
+    },
+    {
+      "meaning": "暖和的",
+      "pos": "形容词",
+      "phonetic": "/wɔːm/",
+      "text": "warm"
+    },
+    {
+      "meaning": "在（某季节）",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "秋天",
+      "pos": "名词",
+      "phonetic": "/ˈɔːtəm/",
+      "text": "autumn?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Is it",
+      "meaning": "（天气）是……吗",
+      "relation": "疑问标记加主语，引出关于天气的提问"
+    },
+    {
+      "text": "cold or warm",
+      "meaning": "冷还是暖和",
+      "relation": "提供两个气温选项，是询问的核心内容"
+    },
+    {
+      "text": "in autumn?",
+      "meaning": "在秋天",
+      "relation": "说明提问的时间范围是秋季"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-51",
+  "sentenceId": "nce-1-lesson-051-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Is it cold or warm in autumn?",
+  "lesson": "Lesson 51 A pleasant climate",
+  "notes": [
+    {
+      "title": "一般疑问句结构",
+      "text": "Is it...把be动词is放在主语it之前，构成疑问语气；it在这里指代天气状况。"
+    },
+    {
+      "title": "or连接选择项",
+      "text": "cold和warm用or连接，表示二选一的询问，不是同时具备两种温度。"
+    },
+    {
+      "title": "in autumn表时间",
+      "text": "介词in加季节名词，表示在某个季节里，说明询问的时间范围是秋季。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语法关系、词汇释义、语境匹配都符合原文语义，仅存在两处小问题需要修正：一是autumn词条的音标误附带了句末问号，与单词本身的音标标注不符；二是'Is it'分块的现有释义没有明确it指代天气，易让学习者产生指代误解，其余内容均准确无误。（非逐句人工审核）"
+}

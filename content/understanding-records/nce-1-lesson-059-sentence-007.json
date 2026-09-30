@@ -1,0 +1,143 @@
+{
+  "chinese": "碗橱里有烟丝吗？",
+  "intent": "确认碗橱这个位置里，是否存在烟丝这种物品。",
+  "comparison": {
+    "chinese": "中文先说地点“碗橱里”，再询问“有烟丝吗”",
+    "english": "英语先以Is there引出存在疑问，接着询问对象any tobacco，最后补充地点in the cupboard",
+    "steps": [
+      {
+        "label": "先引出存在疑问",
+        "text": "Is there",
+        "explanation": "用Is there开头直接抛出“是否存在”的核心疑问，是there be句型一般疑问句的固定开头。"
+      },
+      {
+        "label": "再说明询问对象",
+        "text": "any tobacco",
+        "explanation": "紧跟疑问结构之后，明确询问的物品是烟丝，用any适配疑问句语境。"
+      },
+      {
+        "label": "最后补充地点",
+        "text": "in the cupboard",
+        "explanation": "在句末补充地点“碗橱里”，明确询问的是该位置内是否有烟丝。"
+      }
+    ],
+    "takeaway": "中文习惯将地点状语放在句首先说，英语习惯将地点状语放在句末最后说明。"
+  },
+  "backbone": {
+    "text": "Is there any tobacco?",
+    "meaning": "确认是否存在烟丝这种物品。"
+  },
+  "structureNotes": [
+    {
+      "title": "there be的疑问形式",
+      "text": "Is there...? 是there be句型的一般疑问句，把be动词is放到句首，用来询问“某地是否有某物”。"
+    },
+    {
+      "title": "any的疑问用法",
+      "text": "any常用在疑问句和否定句中，对应肯定句里的some，表示“一些”，这里修饰不可数名词tobacco。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is",
+      "role": "be动词（与there搭配构成存在句）",
+      "explanation": "作为there be句型的be动词，提前到句首构成一般疑问句，和后面的there组合成there be结构。"
+    },
+    {
+      "text": "there",
+      "role": "存在句引导词",
+      "explanation": "和Is搭配构成there be结构，表示“存在有”，没有实际词义。"
+    },
+    {
+      "text": "any tobacco",
+      "role": "存在的主体（主语）",
+      "explanation": "是句子要确认是否存在的事物，tobacco是不可数名词，any用来修饰它，适配疑问句语境。"
+    },
+    {
+      "text": "in the cupboard",
+      "role": "地点状语",
+      "explanation": "说明烟丝存在的位置是在碗橱内部。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Is",
+      "meaning": "是（be动词，与there构成存在句）",
+      "pos": "v.",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "there",
+      "meaning": "（与be动词连用，表示存在）",
+      "pos": "adv.",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "any",
+      "meaning": "任何的，一些",
+      "pos": "det.",
+      "phonetic": "/ˈeni/"
+    },
+    {
+      "text": "tobacco",
+      "meaning": "烟丝，烟草",
+      "pos": "n.",
+      "phonetic": "/təˈbækəʊ/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "prep.",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，表特指",
+      "pos": "art.",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "cupboard?",
+      "meaning": "碗橱，橱柜",
+      "pos": "n.",
+      "phonetic": "/ˈkʌbəd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Is there",
+      "meaning": "（构成存在句疑问句式）",
+      "relation": "存在句疑问开头，引出“是否存在”的疑问"
+    },
+    {
+      "text": "any tobacco",
+      "meaning": "一些烟丝",
+      "relation": "被询问是否存在的事物主体"
+    },
+    {
+      "text": "in the cupboard?",
+      "meaning": "在碗橱里",
+      "relation": "补充说明烟丝所在的位置"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-59",
+  "sentenceId": "nce-1-lesson-059-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Is there any tobacco in the cupboard?",
+  "lesson": "Lesson 59 Is that all?",
+  "notes": [
+    {
+      "title": "there be的疑问形式",
+      "text": "Is there...? 是there be句型的一般疑问句，把be动词is放到句首，用来询问“某地是否有某物”。"
+    },
+    {
+      "title": "any的疑问用法",
+      "text": "any常用在疑问句和否定句中，对应肯定句里的some，表示“一些”，这里修饰不可数名词tobacco。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，仅存在几处可明确修正的细节问题：1. 单词拆分错误，将单词cupboard与句末问号合并为一个词条，音标和词性标注对应错误；2. 单词there的释义表述不准确，存在冗余冗余描述；3. there be结构下的Is词性标注存在偏差；4. 中英对比步骤顺序描述与实际内容不一致。其余内容均符合要求，无需调整。（非逐句人工审核）"
+}

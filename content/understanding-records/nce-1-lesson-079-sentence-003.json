@@ -1,0 +1,125 @@
+{
+  "chinese": "我们需要什么？",
+  "intent": "向对方询问己方需要采购的全部物品。",
+  "comparison": {
+    "chinese": "中文用“什么”提问，紧跟在“需要”后面，符合“主语+谓语+疑问宾语”的常规语序。",
+    "english": "英文中疑问宾语 What 要放在句首构成特殊疑问句，剩余部分用助动词 do 引出主语 we，再接谓语动词 need，形成疑问词+助动词+主语+谓语的结构。",
+    "steps": [
+      {
+        "label": "提问焦点在前",
+        "text": "What do we need?",
+        "explanation": "What 是 need 的疑问宾语，表示问的是“需要的事物”，特殊疑问句中需放在句首突出疑问焦点。"
+      },
+      {
+        "label": "助动词引出主语",
+        "text": "do we",
+        "explanation": "主语是 we，因为疑问宾语 What 已经前置，一般现在时的实义动词 need 的疑问句需要借助助动词 do 放在主语 we 前，构成剩余部分的疑问倒装。"
+      },
+      {
+        "label": "谓语动词收尾",
+        "text": "need",
+        "explanation": "need 是谓语实义动词，接在主语 we 后，表示“需要”。"
+      }
+    ],
+    "takeaway": "问“需要什么”时，英文要先说疑问宾语 What，再用助动词 do 引出主语 we，最后说谓语动词 need。"
+  },
+  "backbone": {
+    "text": "What do we need?",
+    "meaning": "我们需要什么（东西）？"
+  },
+  "structureNotes": [
+    {
+      "title": "What 是疑问宾语",
+      "text": "What 指代需要的对象，是 need 的宾语，因提问被移到句首，不是修饰某个名词。"
+    },
+    {
+      "title": "助动词 do 帮助提问",
+      "text": "do 放在主语 we 前，帮助一般现在时的实义动词 need 构成疑问句，本身没有实义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What",
+      "role": "疑问代词（宾语）",
+      "explanation": "表示“什么东西”，作 need 的宾语，因提问置于句首。"
+    },
+    {
+      "text": "do",
+      "role": "助动词",
+      "explanation": "帮助实义动词 need 构成一般现在时的疑问句，无实际词义。"
+    },
+    {
+      "text": "we",
+      "role": "主语",
+      "explanation": "表示动作“需要”的发出者，指“我们”。"
+    },
+    {
+      "text": "need?",
+      "role": "谓语（实义动词）",
+      "explanation": "表示“需要”，说明主语 we 发出的动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What",
+      "meaning": "什么（东西）",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "do",
+      "meaning": "（助动词，无实义，帮助构成一般现在时疑问句）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "we",
+      "meaning": "我们",
+      "pos": "人称代词主格",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "need?",
+      "meaning": "需要",
+      "pos": "实义动词",
+      "phonetic": "/niːd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What",
+      "relation": "提问对象，指需要的具体事物",
+      "meaning": "什么（东西）"
+    },
+    {
+      "text": "do we",
+      "relation": "引出提问主体，即需要物品的人",
+      "meaning": "（无实义助动词）我们"
+    },
+    {
+      "text": "need?",
+      "relation": "核心动作，说明主体发出的行为",
+      "meaning": "需要？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-79",
+  "sentenceId": "nce-1-lesson-079-sentence-003",
+  "sentenceOrder": 3,
+  "english": "What do we need?",
+  "lesson": "Lesson 79 Carol's shopping list",
+  "notes": [
+    {
+      "title": "What 是疑问宾语",
+      "text": "What 指代需要的对象，是 need 的宾语，因提问被移到句首，不是修饰某个名词。"
+    },
+    {
+      "title": "助动词 do 帮助提问",
+      "text": "do 放在主语 we 前，帮助一般现在时的实义动词 need 构成疑问句，本身没有实义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子整体解析准确，What作为need的疑问宾语、do作为助动词、we作为主语的功能描述均正确，中文翻译贴合购物清单语境。仅存在2处可明确优化的细节问题：1. 词汇列表中need?的音标未剔除问号，不符合音标规范；2. comparison中倒装的解释未补充疑问宾语前置的背景，可能让学习者误以为实义动词疑问句都需要主谓倒装，解释不够严谨。（非逐句人工审核）"
+}

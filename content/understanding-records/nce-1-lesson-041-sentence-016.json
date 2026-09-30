@@ -1,0 +1,111 @@
+{
+  "chinese": "嗯，这东西肯定不是给我的！",
+  "intent": "针对对方询问烟草是不是给自己的问题，直接给出明确否定的回应",
+  "comparison": null,
+  "backbone": {
+    "text": "it's certainly not for me",
+    "meaning": "这听烟草肯定不是给我的"
+  },
+  "parts": [
+    {
+      "text": "Well,",
+      "relation": "承接前文问句的铺垫语气",
+      "meaning": "用于开口回应前的语气铺垫，带出后续要说的内容"
+    },
+    {
+      "text": "it's certainly not",
+      "relation": "陈述核心否定判断",
+      "meaning": "明确给出否定判断，加强确定的语气"
+    },
+    {
+      "text": "for me!",
+      "relation": "补充否定判断对应的接收对象",
+      "meaning": "说明指向的接收对象是我"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "语气词Well的作用",
+      "text": "放在句首不带实际语义，只用来承接前面的问句，让回应的语气更自然，不是生硬直接开口否定"
+    },
+    {
+      "title": "副词certainly的位置",
+      "text": "放在be动词和否定词not之间，专门用来加强整句否定的确定性，明确表达完全排除给到我的可能性"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Well,",
+      "role": "句首语气铺垫成分",
+      "explanation": "作为回应前的过渡语气词，承接上下文的对话逻辑"
+    },
+    {
+      "text": "it's certainly not",
+      "role": "带强调的否定判断部分",
+      "explanation": "以it's引出指代前文提到的那听烟草的主语，加certainly强化否定的确定程度"
+    },
+    {
+      "text": "for me!",
+      "role": "对象说明部分",
+      "explanation": "用介词for引出物品的预设接收对象，搭配感叹号强化说话人的笃定语气"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "嗯，好吧（句首语气词）",
+      "pos": "interjection",
+      "phonetic": "/wel/",
+      "text": "Well,"
+    },
+    {
+      "meaning": "它是（it is的缩合形式）",
+      "pos": "contraction",
+      "phonetic": "/ɪts/",
+      "text": "it's"
+    },
+    {
+      "meaning": "肯定，当然",
+      "pos": "adverb",
+      "phonetic": "/ˈsɜːtənli/",
+      "text": "certainly"
+    },
+    {
+      "meaning": "不，没有（否定词）",
+      "pos": "adverb",
+      "phonetic": "/nɒt/",
+      "text": "not"
+    },
+    {
+      "meaning": "给，为了（介词）",
+      "pos": "preposition",
+      "phonetic": "/fɔː(r)/",
+      "text": "for"
+    },
+    {
+      "meaning": "我（宾格人称代词）",
+      "pos": "pronoun",
+      "phonetic": "/miː/",
+      "text": "me!"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-41",
+  "sentenceId": "nce-1-lesson-041-sentence-016",
+  "sentenceOrder": 16,
+  "english": "Well, it's certainly not for me!",
+  "lesson": "Lesson 41 Penny's bag",
+  "notes": [
+    {
+      "title": "语气词Well的作用",
+      "text": "放在句首不带实际语义，只用来承接前面的问句，让回应的语气更自然，不是生硬直接开口否定"
+    },
+    {
+      "title": "副词certainly的位置",
+      "text": "放在be动词和否定词not之间，专门用来加强整句否定的确定性，明确表达完全排除给到我的可能性"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体符合解析规范，仅存在部分细节表述不严谨的可修正问题，可通过补丁优化准确性（非逐句人工审核）"
+}

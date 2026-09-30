@@ -1,0 +1,122 @@
+{
+  "chinese": "那就是我们乘坐的那艘船。",
+  "intent": "指着照片或事物，确认并介绍自己旅行时乘坐过的那艘船。",
+  "comparison": {
+    "chinese": "中文直接说“我们乘坐的那艘船”，把修饰语放在名词前面；英文先说“那就是那艘船”，再用 we travelled on 补充船的用途。",
+    "english": "That's the ship we travelled on.",
+    "steps": [
+      {
+        "label": "先给出核心判断",
+        "text": "That's the ship",
+        "explanation": "先明确眼前的对象是那艘船，对应中文“那就是那艘船”。"
+      },
+      {
+        "label": "再补充与船的关系",
+        "text": "we travelled on",
+        "explanation": "放在 ship 后面说明船是“我们旅行时乘坐的”；on 原本搭配船，表示在船上，关系词被省略。"
+      },
+      {
+        "label": "中文顺序还原",
+        "text": "我们乘坐的 + 船",
+        "explanation": "中文习惯把这类修饰语提前，因此读成“我们乘坐的那艘船”更自然。"
+      }
+    ],
+    "takeaway": "英文先给核心名词，再用分句补充说明与它相关的动作；中文常把这类信息放在名词前。"
+  },
+  "backbone": {
+    "text": "That's the ship.",
+    "meaning": "那就是那艘船。"
+  },
+  "structureNotes": [
+    {
+      "title": "定语从句省略了关系词",
+      "text": "we travelled on 是修饰 ship 的从句，完整形式是 the ship that/which we travelled on。关系词在从句中作 on 的宾语，因此可以省略。"
+    },
+    {
+      "title": "介词 on 留在句末",
+      "text": "travelled on 表示“乘坐（船）旅行”；省略关系词后，on 仍保留在从句末尾，说明“在这艘船上旅行”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That's the ship",
+      "role": "主句",
+      "explanation": "That's 是 That is 的缩写，先直接确认眼前对象就是那艘船。"
+    },
+    {
+      "text": "we travelled on",
+      "role": "定语从句（关系词省略）",
+      "explanation": "修饰 the ship，说明这艘船是我们旅行时乘坐的；on 与 ship 搭配，表示在船上。"
+    }
+  ],
+  "words": [
+    {
+      "text": "That's",
+      "meaning": "那就是（that is 的缩写）",
+      "pos": "代词+be动词缩写",
+      "phonetic": "/ðæts/"
+    },
+    {
+      "text": "the",
+      "meaning": "这；那（特指双方都知道的事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "ship",
+      "meaning": "船",
+      "pos": "名词",
+      "phonetic": "/ʃɪp/"
+    },
+    {
+      "text": "we",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "travelled",
+      "meaning": "旅行（travel 的过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈtrævld/"
+    },
+    {
+      "text": "on.",
+      "meaning": "在……上；乘坐",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "That's the ship",
+      "relation": "主句：直接确认眼前的船。",
+      "meaning": "那就是那艘船。"
+    },
+    {
+      "text": "we travelled on.",
+      "relation": "定语从句：修饰前面的 ship，说明我们曾在这艘船上旅行。",
+      "meaning": "我们乘坐（旅行）的。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-123",
+  "sentenceId": "nce-1-lesson-123-sentence-005",
+  "sentenceOrder": 5,
+  "english": "That's the ship we travelled on.",
+  "lesson": "Lesson 123 A trip to Australia",
+  "notes": [
+    {
+      "title": "定语从句省略了关系词",
+      "text": "we travelled on 是修饰 ship 的从句，完整形式是 the ship that/which we travelled on。关系词在从句中作 on 的宾语，因此可以省略。"
+    },
+    {
+      "title": "介词 on 留在句末",
+      "text": "travelled on 表示“乘坐（船）旅行”；省略关系词后，on 仍保留在从句末尾，说明“在这艘船上旅行”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体对省略关系词的定语从句、介词 on 的用法、核心主干和中英修饰语语序对比的解释均正确。仅需修正词表中 on 的音标误带入句末句号，删除多余标点即可。（非逐句人工审核）"
+}

@@ -1,0 +1,219 @@
+{
+  "chinese": "‘为了让我自己漂亮，’那位女士回答。她收起粉盒，亲切地笑了笑。",
+  "intent": "呈现女士解释自己化妆的原因，以及她回应提问时的动作和神态。",
+  "comparison": {
+    "chinese": "先引出说话内容，再说谁回答。",
+    "english": "'To make myself beautiful,' the lady answered.",
+    "steps": [
+      {
+        "label": "中文语序",
+        "text": "‘为了让我自己漂亮，’那位女士回答。",
+        "explanation": "先完整听到引语，最后才知道是谁在回答。"
+      },
+      {
+        "label": "英文语序",
+        "text": "'To make myself beautiful,' the lady answered.",
+        "explanation": "引语在前，the lady answered 在后。不定式 To make 说明化妆目的，myself 指女士本人。"
+      }
+    ],
+    "takeaway": "英文把引语放在句首、答话人放在后面；读时先理解引语内容，再确认说话人。"
+  },
+  "backbone": {
+    "text": "The lady answered. She put away her compact and smiled kindly.",
+    "meaning": "女士回答了问题，收起粉盒并温和地笑了。"
+  },
+  "structureNotes": [
+    {
+      "title": "引语前置倒装",
+      "text": "引语 'To make myself beautiful' 直接放在句首，后面接 the lady answered，用来引出说话内容和说话人。"
+    },
+    {
+      "title": "不定式表目的",
+      "text": "To make myself beautiful 用动词不定式说明女士化妆的目的，myself 指代女士本人，使动作对象明确。"
+    },
+    {
+      "title": "并列谓语",
+      "text": "put away her compact 与 smiled kindly 用 and 连接，共同描述主语 She 先后做出的两个动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'To make myself beautiful,'",
+      "role": "直接引语",
+      "explanation": "完整引述女士说的话，其中 To make myself beautiful 是不定式短语，说明行为目的。"
+    },
+    {
+      "text": "the lady answered.",
+      "role": "主句",
+      "explanation": "说明引语的说话人和动作，主谓结构倒装在引语之后。"
+    },
+    {
+      "text": "She",
+      "role": "主语",
+      "explanation": "指代前文的 the lady，是后面两个动作的发出者。"
+    },
+    {
+      "text": "put away her compact",
+      "role": "谓语部分",
+      "explanation": "由短语动词 put away 和宾语 her compact 构成，表示收起粉盒。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接 put away her compact 和 smiled kindly 两个并列谓语。"
+    },
+    {
+      "text": "smiled kindly.",
+      "role": "谓语部分",
+      "explanation": "表示女士温和地笑了笑，副词 kindly 修饰 smiled。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "为了",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/",
+      "text": "'To"
+    },
+    {
+      "meaning": "使",
+      "pos": "动词",
+      "phonetic": "/meɪk/",
+      "text": "make"
+    },
+    {
+      "meaning": "我自己",
+      "pos": "反身代词",
+      "phonetic": "/maɪˈself/",
+      "text": "myself"
+    },
+    {
+      "meaning": "漂亮的，优美的",
+      "pos": "形容词",
+      "phonetic": "/ˈbjuːtɪfl/",
+      "text": "beautiful,'"
+    },
+    {
+      "meaning": "这个；那位",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "女士",
+      "pos": "名词",
+      "phonetic": "/ˈleɪdi/",
+      "text": "lady"
+    },
+    {
+      "meaning": "回答",
+      "pos": "动词过去式",
+      "phonetic": "/ˈɑːnsəd/",
+      "text": "answered."
+    },
+    {
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/",
+      "text": "She"
+    },
+    {
+      "meaning": "放，放置",
+      "pos": "动词过去式",
+      "phonetic": "/pʊt/",
+      "text": "put"
+    },
+    {
+      "meaning": "离开；（put away 表示收起）",
+      "pos": "副词",
+      "phonetic": "/əˈweɪ/",
+      "text": "away"
+    },
+    {
+      "meaning": "她的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/hɜː/",
+      "text": "her"
+    },
+    {
+      "meaning": "粉盒，带镜小粉盒",
+      "pos": "名词",
+      "phonetic": "/ˈkɒmpækt/",
+      "text": "compact"
+    },
+    {
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "微笑",
+      "pos": "动词过去式",
+      "phonetic": "/smaɪld/",
+      "text": "smiled"
+    },
+    {
+      "meaning": "亲切地，温和地",
+      "pos": "副词",
+      "phonetic": "/ˈkaɪndli/",
+      "text": "kindly."
+    }
+  ],
+  "parts": [
+    {
+      "text": "'To make myself beautiful,'",
+      "relation": "直接引语，说明女士化妆的目的。",
+      "meaning": "‘为了让我自己漂亮，’"
+    },
+    {
+      "text": "the lady answered.",
+      "relation": "引出说话人和答话动作。",
+      "meaning": "那位女士回答。"
+    },
+    {
+      "text": "She",
+      "relation": "后一句主语，指代那位女士。",
+      "meaning": "她"
+    },
+    {
+      "text": "put away her compact",
+      "relation": "第一个并列动作及对象。",
+      "meaning": "收起她的粉盒"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列谓语。",
+      "meaning": "并且"
+    },
+    {
+      "text": "smiled kindly.",
+      "relation": "第二个并列动作及伴随神态。",
+      "meaning": "亲切地笑了笑。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-141",
+  "sentenceId": "nce-1-lesson-141-sentence-011",
+  "sentenceOrder": 11,
+  "english": "'To make myself beautiful,' the lady answered. She put away her compact and smiled kindly.",
+  "lesson": "Lesson 141 Sally's first train ride",
+  "notes": [
+    {
+      "title": "引语前置倒装",
+      "text": "引语 'To make myself beautiful' 直接放在句首，后面接 the lady answered，用来引出说话内容和说话人。"
+    },
+    {
+      "title": "不定式表目的",
+      "text": "To make myself beautiful 用动词不定式说明女士化妆的目的，myself 指代女士本人，使动作对象明确。"
+    },
+    {
+      "title": "并列谓语",
+      "text": "put away her compact 与 smiled kindly 用 and 连接，共同描述主语 She 先后做出的两个动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确完整，引语、不定式表目的、并列谓语等核心语法点解释正确，翻译通顺自然，词汇标注、音标、分块及对比内容均符合要求，无需要修正的错误。（非逐句人工审核）"
+}

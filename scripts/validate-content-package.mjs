@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { validateUnderstanding } from './understanding-contract.mjs';
 
 const inputArg = process.argv[2] || "content/course-content-template.v1.json";
 const inputPath = path.resolve(process.cwd(), inputArg);
@@ -81,6 +82,10 @@ function validateGroups(sentence, sentencePath) {
 }
 
 function validateSentence(sentence, sentencePath, stage) {
+  if (sentence.understanding) {
+    for (const error of validateUnderstanding(sentence.understanding)) fail(`${sentencePath}.understanding`, error);
+    if (sentence.understanding.english !== sentence.english) fail(sentencePath, 'understanding source differs from sentence');
+  }
   if (!sentence.sentenceId) fail(sentencePath, "sentenceId is required");
   if (!isPositiveInteger(sentence.order)) fail(sentencePath, "order must be a positive integer");
   if (!isPositiveInteger(sentence.sourceParagraphOrder)) fail(sentencePath, "sourceParagraphOrder must be positive");

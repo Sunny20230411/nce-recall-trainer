@@ -1,0 +1,128 @@
+{
+  "chinese": "索耶一家住在金街87号。",
+  "intent": "说明索耶一家的居住地址，作为介绍该家庭的开头。",
+  "comparison": {
+    "chinese": "中文日常表达常说“住在金斯街87号”，可以先提“住在”，再把街道和门牌连在一起说。",
+    "english": "The Sawyers live at 87 King Street.",
+    "steps": [
+      {
+        "label": "先说居住者",
+        "text": "The Sawyers live",
+        "explanation": "主语是 The Sawyers，复数表示索耶一家人，谓语用原形 live。"
+      },
+      {
+        "label": "介词 at 衔接地址",
+        "text": "at 87 King Street",
+        "explanation": "在具体门牌号地址前用 at；英文把门牌号 87 放在街名 King Street 前面，中文日常表达也可直接使用“金斯街87号”的通用译法，无需强制调换顺序。"
+      }
+    ],
+    "takeaway": "具体门牌号地址前用介词 at；英文地址顺序为“门牌号+街道名”，中文日常可对应译作“金斯街87号”，自然匹配英文语序。"
+  },
+  "backbone": {
+    "text": "The Sawyers live at 87 King Street.",
+    "meaning": "索耶一家人居住在金斯街87号。"
+  },
+  "structureNotes": [
+    {
+      "title": "The + 姓氏复数",
+      "text": "“the Sawyers”表示索耶一家或索耶夫妇，是复数概念，后面搭配复数谓语 live。"
+    },
+    {
+      "title": "地址的介词与顺序",
+      "text": "具体的街道门牌号前用介词 at；英文地址采用“门牌号+街道名”的顺序，King Street 作为街道名通用音译为“金斯街”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The Sawyers",
+      "role": "主语",
+      "explanation": "定冠词the加Sawyers复数姓氏，指代索耶全家，是居住行为的主体。"
+    },
+    {
+      "text": "live",
+      "role": "谓语",
+      "explanation": "不及物动词，表示居住，主语为复数时用原形。"
+    },
+    {
+      "text": "at 87 King Street",
+      "role": "地点状语",
+      "explanation": "介词at引导具体门牌号地址，说明居住的具体位置。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "（定冠词，搭配姓氏复数表示某一家人）",
+      "pos": "determiner",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "Sawyers",
+      "meaning": "索耶（姓氏），the Sawyers 指索耶一家",
+      "pos": "proper noun",
+      "phonetic": "/ˈsɔːjəz/"
+    },
+    {
+      "text": "live",
+      "meaning": "居住；生活",
+      "pos": "verb",
+      "phonetic": "/lɪv/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（用于具体地址、小地点前）",
+      "pos": "preposition",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "87",
+      "meaning": "八十七（此处指门牌号）",
+      "pos": "number",
+      "phonetic": "/ˈeɪti ˈsevn/"
+    },
+    {
+      "text": "King",
+      "meaning": "金斯（此处为街名组成部分，非“国王”实义）",
+      "pos": "proper noun",
+      "phonetic": "/kɪŋ/"
+    },
+    {
+      "text": "Street.",
+      "meaning": "街道",
+      "pos": "noun",
+      "phonetic": "/striːt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The Sawyers live",
+      "meaning": "索耶一家居住",
+      "relation": "句子主语与谓语，交代动作发出者和核心动作"
+    },
+    {
+      "text": "at 87 King Street.",
+      "meaning": "在金斯街87号",
+      "relation": "补充说明居住的具体地点"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-55",
+  "sentenceId": "nce-1-lesson-055-sentence-001",
+  "sentenceOrder": 1,
+  "english": "The Sawyers live at 87 King Street.",
+  "lesson": "Lesson 55 The Sawyer family",
+  "notes": [
+    {
+      "title": "The + 姓氏复数",
+      "text": "“the Sawyers”表示索耶一家或索耶夫妇，是复数概念，后面搭配复数谓语 live。"
+    },
+    {
+      "title": "地址的介词与顺序",
+      "text": "具体的街道门牌号前用介词 at；英文地址采用“门牌号+街道名”的顺序，King Street 作为街道名通用音译为“金斯街”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构正确，仅地址翻译的通用表达可优化：原译文“国王街87号”符合中文日常习惯，但对应英文“87 King Street”的规整官方译法通常保留“门牌+街道”的顺序作“金街87号”，同时“King Street”通用音译为“金斯街”，避免混淆为普通名词“国王大街”，其余语法、词性、发音标注均符合要求。（非逐句人工审核）"
+}

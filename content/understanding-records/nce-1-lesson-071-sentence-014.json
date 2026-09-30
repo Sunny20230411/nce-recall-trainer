@@ -1,0 +1,80 @@
+{
+  "chinese": "不，他没有！",
+  "intent": "回答上一句的一般疑问句，明确否定了“他又打了电话”这个疑问。",
+  "comparison": null,
+  "backbone": {
+    "text": "No, he didn't (telephone again).",
+    "meaning": "直接对上一句“他又打电话了吗？”作出否定回应，说明他没有再次打电话的行为。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略式否定回答",
+      "text": "这是针对一般疑问句的标准简短否定回答，didn't后省略了上一问句中已经出现过的telephone again，避免重复冗余。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "否定应答词",
+      "explanation": "先明确给出否定态度，和问句预期的“他又打了电话”的肯定回答预期相反。"
+    },
+    {
+      "text": "he",
+      "role": "主语",
+      "explanation": "指代上一句里提到的男性人物。"
+    },
+    {
+      "text": "didn't!",
+      "role": "否定简略谓语",
+      "explanation": "是一般过去时的否定助动词did not的缩写形式，后面省略了上文已经出现的实义动词短语telephone again，感叹的语调强化了否定语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "No,",
+      "meaning": "不，没有（对一般疑问句作否定应答时的开篇引导词）",
+      "pos": "感叹词",
+      "phonetic": "nəʊ"
+    },
+    {
+      "text": "he",
+      "meaning": "他（人称代词主格）",
+      "pos": "代词",
+      "phonetic": "hiː"
+    },
+    {
+      "text": "didn't!",
+      "meaning": "没有，did not的缩写形式，表过去动作的否定",
+      "pos": "助动词（did not的缩写）",
+      "phonetic": "ˈdɪdnt"
+    }
+  ],
+  "parts": [
+    {
+      "text": "No,",
+      "meaning": "不，没有。",
+      "relation": "先给出否定应答立场，回应前面的一般疑问句。"
+    },
+    {
+      "text": "he didn't!",
+      "meaning": "他没有（这么做）。",
+      "relation": "省略了前文出现过的动作telephone again，说明被询问的男性没有做出问句提到的动作。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-71",
+  "sentenceId": "nce-1-lesson-071-sentence-014",
+  "sentenceOrder": 14,
+  "english": "No, he didn't!",
+  "lesson": "Lesson 71 He's awful!",
+  "notes": [
+    {
+      "title": "省略式否定回答",
+      "text": "这是针对一般疑问句的标准简短否定回答，didn't后省略了上一问句中已经出现过的telephone again，避免重复冗余。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解释准确，能正确识别该句为针对前文一般疑问句的省略式否定回答，未将省略成分误解为完整句子结构。仅一处表述存在歧义，可通过限定表述优化，不影响整体内容有效性。（非逐句人工审核）"
+}

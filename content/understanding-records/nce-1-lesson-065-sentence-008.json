@@ -1,0 +1,120 @@
+{
+  "chinese": "她不是小孩子。",
+  "intent": "对Jill的年龄状态进行澄清陈述，回应对方将Jill视作需要管束的幼儿的态度。",
+  "comparison": {
+    "chinese": "英语：She's not a baby. 中文：她不是小孩子。",
+    "english": "She's not a baby.",
+    "steps": [
+      {
+        "label": "否定位置的语序差异",
+        "text": "英语否定be动词时，not放在be动词和表语之间：She is not a baby；中文的否定词“不”放在判断动词“是”前面：她不是小孩。",
+        "explanation": "英语不用把not放到句首或she前面，中文也不需要调整语序，只需按否定位置对应理解即可。"
+      },
+      {
+        "label": "be动词的语义对应",
+        "text": "英语的She's（She is）在中文判断句中对应为“她是”，不单独硬译出“她是”，和not、a baby组合后自然译为“她不是小孩子”。",
+        "explanation": "英语用be动词连接主语和身份/状态描述，中文用判断动词“是”连接，二者功能完全对应，无需额外添加词汇。"
+      },
+      {
+        "label": "不定冠词的省略",
+        "text": "英语的a baby包含不定冠词a，中文翻译时不需要对应添加量词，直接译为“小孩子/婴儿”即可。",
+        "explanation": "中文可数名词前不需要强制搭配不定冠词，省略“一个”符合日常表达习惯，不会产生歧义。"
+      }
+    ],
+    "takeaway": "本句核心差异是否定词not的位置，英语用be+not的结构构成否定判断，中文用“不+是”，功能完全对应，语序符合各自语言习惯即可。"
+  },
+  "backbone": {
+    "text": "She is not a baby.",
+    "meaning": "（理解用的主干判断，和原句语义一致）她还不是个需要特殊照看的幼童。"
+  },
+  "structureNotes": [
+    {
+      "title": "否定句的构成",
+      "text": "本句是带否定的主系表陈述句，在be动词is后加not构成否定，表达“不是某种身份/状态”的判断。"
+    },
+    {
+      "title": "名词的语境含义",
+      "text": "baby字面义是“婴儿”，结合前文Jill已经18岁的语境，此处实际指“不懂事的小孩子、需要被看管的幼童”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She's",
+      "role": "主语+系动词",
+      "explanation": "She's是She is的缩写，其中she是句子的主语，指前文提到的Jill，is是be动词，作系动词连接主语和表语。"
+    },
+    {
+      "text": "not",
+      "role": "否定标记",
+      "explanation": "放在系动词is之后，对整句的判断进行否定，说明主语不属于后面描述的身份。"
+    },
+    {
+      "text": "a baby.",
+      "role": "表语",
+      "explanation": "不定冠词a修饰可数名词baby，整体作表语，说明主语的身份属性。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "她是（she is的缩写）",
+      "pos": "代词+be动词缩写",
+      "phonetic": "/ʃiːz/",
+      "text": "She's"
+    },
+    {
+      "meaning": "不；没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/",
+      "text": "not"
+    },
+    {
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "婴儿；小孩子",
+      "pos": "名词",
+      "phonetic": "/ˈbeɪbi/",
+      "text": "baby."
+    }
+  ],
+  "parts": [
+    {
+      "text": "She's",
+      "meaning": "她是",
+      "relation": "是She is的缩写，其中she是句子主语，指代前文提到的Jill，is是系动词，二者共同构成陈述的核心框架。"
+    },
+    {
+      "text": "not",
+      "meaning": "不",
+      "relation": "否定标记，对后面的身份判断进行否定。"
+    },
+    {
+      "text": "a baby.",
+      "meaning": "小孩子。",
+      "relation": "说明被否定的身份对象，结合语境指年幼的、需要特殊照看的孩童。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-65",
+  "sentenceId": "nce-1-lesson-065-sentence-008",
+  "sentenceOrder": 8,
+  "english": "She's not a baby.",
+  "lesson": "Lesson 65 Not a baby",
+  "notes": [
+    {
+      "title": "否定句的构成",
+      "text": "本句是带否定的主系表陈述句，在be动词is后加not构成否定，表达“不是某种身份/状态”的判断。"
+    },
+    {
+      "title": "名词的语境含义",
+      "text": "baby字面义是“婴儿”，结合前文Jill已经18岁的语境，此处实际指“不懂事的小孩子、需要被看管的幼童”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合原句主系表否定结构，词义、语境说明和翻译基本准确。仅存在两处可明确修正的小问题：一是comparison第二步的英文例句误将缩写She's还原为She is时多写了not；二是第一个parts分块误把只包含She's的缩写成分整体描述为核心主语，需将指代Jill的主语归属到其中的she，避免把系动词也算入主语范围。（非逐句人工审核）"
+}

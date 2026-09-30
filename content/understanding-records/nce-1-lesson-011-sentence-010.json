@@ -1,0 +1,69 @@
+{
+  "chinese": "是的，先生。",
+  "intent": "直接对上级或有权威的人给出肯定回应，确认自己听清指令并认同对方的表述。",
+  "comparison": null,
+  "backbone": {
+    "text": "Yes, sir.",
+    "meaning": "向对方给出肯定的应答并以尊称称呼对方。"
+  },
+  "parts": [
+    {
+      "text": "Yes,",
+      "relation": "核心应答内容",
+      "meaning": "是的，用来给出肯定答复"
+    },
+    {
+      "text": "sir.",
+      "relation": "补充应答的称呼对象",
+      "meaning": "先生，用来尊称对话的对方"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "口语应答格式",
+      "text": "这是一个非常简短的口语应答句，用逗号把肯定答复和尊称隔开，语气正式得体，常见于下属对上级、晚辈对长辈或服务人员对顾客的回应场景。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes",
+      "role": "肯定应答语",
+      "explanation": "直接给出明确的肯定答复，用来认同对方的提问或指令。"
+    },
+    {
+      "text": "sir",
+      "role": "尊称称呼语",
+      "explanation": "用于正式场合尊称男性对话者，体现回应的礼貌性。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是的",
+      "pos": "interjection",
+      "phonetic": "/jes/",
+      "text": "Yes,"
+    },
+    {
+      "meaning": "先生",
+      "pos": "noun",
+      "phonetic": "/sɜː(r)/",
+      "text": "sir."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-11",
+  "sentenceId": "nce-1-lesson-011-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Yes, sir.",
+  "lesson": "Lesson 11 Is this your shirt?",
+  "notes": [
+    {
+      "title": "口语应答格式",
+      "text": "这是一个非常简短的口语应答句，用逗号把肯定答复和尊称隔开，语气正式得体，常见于下属对上级、晚辈对长辈或服务人员对顾客的回应场景。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原学习数据整体可用，仅存在部分细节内容需规范修正，未出现核心语法、词义或指代类错误。（非逐句人工审核）"
+}

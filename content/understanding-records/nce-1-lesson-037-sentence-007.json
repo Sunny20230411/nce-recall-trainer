@@ -1,0 +1,100 @@
+{
+  "chinese": "它是给我女儿苏珊的。",
+  "intent": "说明这件物品的归属对象，告知对方这个物品是属于自己的女儿苏珊的。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's for my daughter, Susan.",
+    "meaning": "这个物品是供我的女儿苏珊使用的。"
+  },
+  "parts": [
+    {
+      "text": "It's",
+      "relation": "指代前文提到的物品，作为句子的主体说明部分",
+      "meaning": "它是"
+    },
+    {
+      "text": "for my daughter,",
+      "relation": "说明这个物品的接收对象",
+      "meaning": "给我女儿"
+    },
+    {
+      "text": "Susan.",
+      "relation": "补充说明前面提到的女儿的名字",
+      "meaning": "苏珊"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "人名的同位语作用",
+      "text": "句末的Susan直接放在my daughter后面，用来补充说明女儿的姓名，不需要额外加连接词，用来明确指代的具体人物。"
+    },
+    {
+      "title": "for的表意作用",
+      "text": "这里的for不表示“为了做某事”，而是直接标明物品的接收对象，说明该物品的归属使用人。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's for",
+      "role": "主谓介词结构",
+      "explanation": "用来引出物品的接收对象，说明物品的用途归属。"
+    },
+    {
+      "text": "my daughter, Susan",
+      "role": "同位语名词短语",
+      "explanation": "用姓名补充说明前面的名词，明确指代的具体人物。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "它是",
+      "pos": "contraction (it is)",
+      "phonetic": "/ɪts/",
+      "text": "It's"
+    },
+    {
+      "meaning": "给、供",
+      "pos": "preposition",
+      "phonetic": "/fɔː(r); fə(r)/",
+      "text": "for"
+    },
+    {
+      "meaning": "我的",
+      "pos": "possessive determiner",
+      "phonetic": "/maɪ/",
+      "text": "my"
+    },
+    {
+      "meaning": "女儿",
+      "pos": "noun",
+      "phonetic": "/ˈdɔːtə(r)/",
+      "text": "daughter,"
+    },
+    {
+      "meaning": "苏珊",
+      "pos": "proper noun",
+      "phonetic": "/ˈsuːzən/",
+      "text": "Susan."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-37",
+  "sentenceId": "nce-1-lesson-037-sentence-007",
+  "sentenceOrder": 7,
+  "english": "It's for my daughter, Susan.",
+  "lesson": "Lesson 37 Making a bookcase",
+  "notes": [
+    {
+      "title": "人名的同位语作用",
+      "text": "句末的Susan直接放在my daughter后面，用来补充说明女儿的姓名，不需要额外加连接词，用来明确指代的具体人物。"
+    },
+    {
+      "title": "for的表意作用",
+      "text": "这里的for不表示“为了做某事”，而是直接标明物品的接收对象，说明该物品的归属使用人。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，仅存在局部细节瑕疵可明确修正（非逐句人工审核）"
+}

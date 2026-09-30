@@ -1,0 +1,109 @@
+{
+  "chinese": "她也很好，海伦。",
+  "intent": "回应对方询问福特夫人的近况，同时向在场的海伦同步告知这一状态并捎带称呼示意",
+  "backbone": {
+    "text": "She's very well, too",
+    "meaning": "她的身体/状态也很不错"
+  },
+  "parts": [
+    {
+      "text": "She's",
+      "relation": "整句话的核心主语和系动词",
+      "meaning": "她是（she is的缩合，指代前文的福特夫人）"
+    },
+    {
+      "text": "very well,",
+      "relation": "补充说明主语的状态程度",
+      "meaning": "非常健康、状态很不错"
+    },
+    {
+      "text": "too,",
+      "relation": "补充说明“状态不错”是呼应前文提到的另一人的良好状态",
+      "meaning": "也"
+    },
+    {
+      "text": "Helen.",
+      "relation": "点明当前说话的指向对象",
+      "meaning": "海伦（人名，对话对象）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略指代",
+      "text": "句首的She's明确指代前文问句提到的Mrs. Ford，不需要额外补充冗余信息来明确身份"
+    },
+    {
+      "title": "称呼后置",
+      "text": "人名Helen放在句末，是口语对话里常用的称呼方式，用来明确提醒对话接收人"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She's very well",
+      "role": "主句系表结构",
+      "explanation": "用来直接陈述主语当下的健康或整体状态"
+    },
+    {
+      "text": "too",
+      "role": "补充副词",
+      "explanation": "提示本句描述的良好状态，和之前提到的某个人的状态是一致的"
+    },
+    {
+      "text": "Helen.",
+      "role": "呼语",
+      "explanation": "口语中直接称呼对话对象，让对方明确知道这句话是说给他听的"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "她是（she is的缩合形式，指代前文的福特夫人）",
+      "pos": "代词+系动词（缩合）",
+      "phonetic": "/ʃiːz/",
+      "text": "She's"
+    },
+    {
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/",
+      "text": "very"
+    },
+    {
+      "meaning": "健康的，状态良好的",
+      "pos": "形容词",
+      "phonetic": "/wel/",
+      "text": "well,"
+    },
+    {
+      "meaning": "也",
+      "pos": "副词",
+      "phonetic": "/tuː/",
+      "text": "too,"
+    },
+    {
+      "meaning": "海伦（女性人名）",
+      "pos": "名词",
+      "phonetic": "/ˈhelən/",
+      "text": "Helen."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-9",
+  "sentenceId": "nce-1-lesson-009-sentence-009",
+  "sentenceOrder": 9,
+  "english": "She's very well, too, Helen.",
+  "lesson": "Lesson 9 How are you today?",
+  "notes": [
+    {
+      "title": "省略指代",
+      "text": "句首的She's明确指代前文问句提到的Mrs. Ford，不需要额外补充冗余信息来明确身份"
+    },
+    {
+      "title": "称呼后置",
+      "text": "人名Helen放在句末，是口语对话里常用的称呼方式，用来明确提醒对话接收人"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体学习内容准确合规，仅存在少量细节可优化修正，不影响核心理解（非逐句人工审核）"
+}

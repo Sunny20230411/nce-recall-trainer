@@ -1,0 +1,115 @@
+{
+  "chinese": "你想来一杯吗？",
+  "intent": "询问对方是否想要喝一杯（咖啡）。",
+  "comparison": null,
+  "backbone": {
+    "text": "Do you want a cup?",
+    "meaning": "询问对方是否想要一杯（咖啡）。"
+  },
+  "parts": [
+    {
+      "text": "Do",
+      "relation": "无实际词义，仅用于构成疑问句式",
+      "meaning": "助动词，帮助构成一般疑问句，没有实际词义"
+    },
+    {
+      "text": "you",
+      "relation": "询问的对象",
+      "meaning": "你，你们"
+    },
+    {
+      "text": "want",
+      "relation": "主语的动作",
+      "meaning": "想要"
+    },
+    {
+      "text": "a cup?",
+      "relation": "动作的对象",
+      "meaning": "一杯（咖啡）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般疑问句式",
+      "text": "主语是第二人称，句子用一般现在时，实义动词作谓语，因此在句首加助动词Do，构成一般疑问句。"
+    },
+    {
+      "title": "口语中的省略表达",
+      "text": "对话中根据前文语境，a cup指代a cup of coffee，是日常口语中常见的简洁表达。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "助动词",
+      "explanation": "帮助构成一般现在时的一般疑问句，本身无实际词义"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "句子询问的对象"
+    },
+    {
+      "text": "want",
+      "role": "谓语动词",
+      "explanation": "表达主语的意愿“想要”"
+    },
+    {
+      "text": "a cup?",
+      "role": "宾语",
+      "explanation": "动作“想要”的对象，结合上下文指代一杯咖啡"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（助动词，用于构成疑问句和否定句）",
+      "pos": "v.aux",
+      "phonetic": "/duː/",
+      "text": "Do"
+    },
+    {
+      "meaning": "你；你们",
+      "pos": "pron.",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "想要",
+      "pos": "v.",
+      "phonetic": "/wɒnt/",
+      "text": "want"
+    },
+    {
+      "meaning": "一（个/杯……）",
+      "pos": "art.",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "杯子；一杯的量；（本句结合上下文指代）一杯（咖啡）",
+      "pos": "n.",
+      "phonetic": "/kʌp/",
+      "text": "cup?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-47",
+  "sentenceId": "nce-1-lesson-047-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Do you want a cup?",
+  "lesson": "Lesson 47 A cup of coffee",
+  "notes": [
+    {
+      "title": "一般疑问句式",
+      "text": "主语是第二人称，句子用一般现在时，实义动词作谓语，因此在句首加助动词Do，构成一般疑问句。"
+    },
+    {
+      "title": "口语中的省略表达",
+      "text": "对话中根据前文语境，a cup指代a cup of coffee，是日常口语中常见的简洁表达。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，各字段表述符合语法规则与上下文语境：正确区分了Do作为助动词的语法功能与无实义的特点，主语you、谓语want、宾语a cup?的划分无误；结合前文语境明确了a cup指代a cup of coffee的省略用法；英式音标标注正确；语法角色与词性未混淆，未出现错误语法断言或事实性错误。（非逐句人工审核）"
+}

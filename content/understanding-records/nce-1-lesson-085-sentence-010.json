@@ -1,0 +1,144 @@
+{
+  "chinese": "是的，去过。我四月在那里。",
+  "intent": "回应对方的询问，肯定自己去过巴黎，并补充说明自己是四月份到过巴黎。",
+  "comparison": {
+    "chinese": "确认去过 → 补充具体到访时间",
+    "english": "Yes, I have. I was there in April.",
+    "steps": [
+      {
+        "label": "先省略答语",
+        "text": "Yes, I have.",
+        "explanation": "这是针对Have you ever been there?的简略回答。为了避免重复完整问句，只保留主语I和助动词have，就把“我确实去过巴黎”这个核心意思说清楚了。"
+      },
+      {
+        "label": "再补时间细节",
+        "text": "I was there in April.",
+        "explanation": "说完去过之后，用一般过去时的陈述补充“四月在那里”，说明这是过去发生的状态，对前面的确认信息提供具体的时间细节。"
+      }
+    ],
+    "takeaway": "英文先给出简短的肯定确认，再用单独的句子补充具体的过往时间，逻辑顺序和中文一致。"
+  },
+  "backbone": {
+    "text": "Yes, I have. I was there in April.",
+    "meaning": "是的，我去过巴黎。我四月份的时候在那里。"
+  },
+  "structureNotes": [
+    {
+      "title": "简略答语的构成",
+      "text": "Yes, I have.是对现在完成时一般疑问句Have you ever been there?的省略回答，保留主语I和助动词have，替代完整表述I have been there，避免和前文重复。"
+    },
+    {
+      "title": "时间状语的表达",
+      "text": "in April表示“在四月”，属于一般过去时的时间状语，和be动词过去式was搭配，说明过去的所处状态，介词in用于月份前。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "肯定答语标记",
+      "explanation": "表示对对方问题的肯定答复，语气直白明确。"
+    },
+    {
+      "text": "I have.",
+      "role": "简略主句",
+      "explanation": "是I have been there的省略形式，其中have为助动词，替代完整表述中的been there部分，说明主语“我”已经完成“去过巴黎”这个经历。"
+    },
+    {
+      "text": "I was there",
+      "role": "第二分句的主句",
+      "explanation": "主系表结构，描述主语“我”过去的所处状态，was是be动词的第一人称单数过去式。"
+    },
+    {
+      "text": "in April.",
+      "role": "时间状语",
+      "explanation": "补充说明“在那里”这个状态发生的具体时间是四月。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes,",
+      "meaning": "是的",
+      "pos": "感叹词",
+      "phonetic": "/jes/"
+    },
+    {
+      "text": "I",
+      "meaning": "我（主格）",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "have.",
+      "meaning": "已经（此处为助动词，构成现在完成时简略答语，替代完整表述中的been there部分）",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "I",
+      "meaning": "我（主格）",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（am/is的过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "there",
+      "meaning": "在那里（此处指代巴黎）",
+      "pos": "副词",
+      "phonetic": "/ðeə(r)/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（用于月份前）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "April.",
+      "meaning": "四月",
+      "pos": "名词",
+      "phonetic": "/ˈeɪprəl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes, I have.",
+      "relation": "回应对方的询问，确认自己有去过巴黎的经历",
+      "meaning": "是的，我去过。"
+    },
+    {
+      "text": "I was there",
+      "relation": "说明自己过去身处巴黎这个事实",
+      "meaning": "我在那里"
+    },
+    {
+      "text": "in April.",
+      "relation": "补充说明身处巴黎的具体时间",
+      "meaning": "在四月"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-85",
+  "sentenceId": "nce-1-lesson-085-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Yes, I have. I was there in April.",
+  "lesson": "Lesson 85 Paris in the spring",
+  "notes": [
+    {
+      "title": "简略答语的构成",
+      "text": "Yes, I have.是对现在完成时一般疑问句Have you ever been there?的省略回答，保留主语I和助动词have，替代完整表述I have been there，避免和前文重复。"
+    },
+    {
+      "title": "时间状语的表达",
+      "text": "in April表示“在四月”，属于一般过去时的时间状语，和be动词过去式was搭配，说明过去的所处状态，介词in用于月份前。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确完整，仅存在三处表述可优化：1. 简略答语的替代完整形式表述不准，省略答语中不保留ever（因原问句中ever仅用于构成现在完成时的疑问语气，简略答语通常不重复）；2. 单词has的词性说明不够清晰，未明确其为现在完成时简略答语中替代实义动词been的助动词；3. 句中there的词义标注可更精准，结合上下文指代巴黎。修正后不影响整体理解。（非逐句人工审核）"
+}

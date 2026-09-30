@@ -1,0 +1,85 @@
+{
+  "chinese": "不用了，谢谢，汤姆。",
+  "intent": "用于回应对方的待客邀请，礼貌拒绝对方递来的香烟，同时向对方表达谢意，是日常社交场合的常规婉拒回应。",
+  "comparison": null,
+  "backbone": {
+    "text": "No, thanks",
+    "meaning": "礼貌地拒绝对方的招待提议。"
+  },
+  "structureNotes": [
+    {
+      "title": "日常礼貌回应结构",
+      "text": "这是典型的社交婉拒短句，先用No表明拒绝态度，紧跟thanks表达对对方好意的感谢，不生硬；称呼Tom放在句末，是口语对话中直接点明回应对象的常见做法。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "感叹词（拒绝应答语）",
+      "explanation": "直接表达不接受对方递来的香烟，明确给出拒绝态度，回应前文的待客邀请。"
+    },
+    {
+      "text": "thanks,",
+      "role": "感叹词（致谢表达）",
+      "explanation": "在拒绝的同时礼貌感谢对方的好意，让拒绝语气更委婉，避免显得唐突失礼。"
+    },
+    {
+      "text": "Tom.",
+      "role": "呼语（名词）",
+      "explanation": "点明当前回应的对象是汤姆，明确回应的指向性，不属于句子主干成分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "No,",
+      "meaning": "不、没有（此处为委婉拒绝的应答感叹词，不承担句子主语功能）",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "thanks,",
+      "meaning": "感谢、谢谢",
+      "pos": "感叹词",
+      "phonetic": "/θæŋks/"
+    },
+    {
+      "text": "Tom.",
+      "meaning": "汤姆（男子名，此处作呼语，用于点明对话对象）",
+      "pos": "名词",
+      "phonetic": "/tɒm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "No,",
+      "meaning": "不，",
+      "relation": "拒绝应答部分"
+    },
+    {
+      "text": "thanks,",
+      "meaning": "谢谢，",
+      "relation": "礼貌补充部分"
+    },
+    {
+      "text": "Tom.",
+      "meaning": "汤姆。",
+      "relation": "呼语，点明回应对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-81",
+  "sentenceId": "nce-1-lesson-081-sentence-009",
+  "sentenceOrder": 9,
+  "english": "No, thanks, Tom.",
+  "lesson": "Lesson 81 Roast beef and potatoes",
+  "notes": [
+    {
+      "title": "日常礼貌回应结构",
+      "text": "这是典型的社交婉拒短句，先用No表明拒绝态度，紧跟thanks表达对对方好意的感谢，不生硬；称呼Tom放在句末，是口语对话中直接点明回应对象的常见做法。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句解析整体准确，仅对词语的句法属性标注做微调，明确No是用于拒绝应答的感叹词、Tom为呼语而非主语，其余语义、结构划分均符合原文对话语境，无实质性错误。（非逐句人工审核）"
+}

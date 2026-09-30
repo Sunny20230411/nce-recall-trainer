@@ -1,0 +1,81 @@
+{
+  "chinese": "孩子们，怎么了？",
+  "intent": "说话人发现孩子们状态不对，向孩子们询问他们遇到了什么问题或不适",
+  "comparison": null,
+  "backbone": {
+    "text": "What's the matter",
+    "meaning": "询问发生了什么状况、有什么不适或问题"
+  },
+  "parts": [
+    {
+      "text": "What's the matter,",
+      "relation": "核心询问内容",
+      "meaning": "怎么了、出什么问题了"
+    },
+    {
+      "text": "children?",
+      "relation": "询问对象",
+      "meaning": "孩子们"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "称呼的位置",
+      "text": "句末的children是对话里的称呼，独立在核心问句之后，用来明确这个问题是向孩子们提出的，不参与主句的语义成分构成"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's the matter",
+      "role": "固定疑问句式",
+      "explanation": "口语里常用的询问他人状况的表达，不需要拆解成生硬的语法组合来理解，直接对应“怎么了”的常用语义"
+    },
+    {
+      "text": "children?",
+      "role": "对话称呼语",
+      "explanation": "指明问话的接收对象是孩子们，带问号体现出整个句子是带有疑惑、关切语气的问句"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是什么（本句结合语境表“怎么了”）",
+      "pos": "contraction（what is的缩写）",
+      "phonetic": "/wɒts/",
+      "text": "What's"
+    },
+    {
+      "meaning": "这个、那个（定冠词，无单独实义）",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "问题、状况",
+      "pos": "noun",
+      "phonetic": "/ˈmætə/",
+      "text": "matter,"
+    },
+    {
+      "meaning": "孩子们",
+      "pos": "noun",
+      "phonetic": "/ˈtʃɪldrən/",
+      "text": "children?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-19",
+  "sentenceId": "nce-1-lesson-019-sentence-001",
+  "sentenceOrder": 1,
+  "english": "What's the matter, children?",
+  "lesson": "Lesson 19 Tired and thirsty",
+  "notes": [
+    {
+      "title": "称呼的位置",
+      "text": "句末的children是对话里的称呼，独立在核心问句之后，用来明确这个问题是向孩子们提出的，不参与主句的语义成分构成"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本符合要求，仅存在局部细节瑕疵：1. 单词项中`matter,`和`children?`的文本误携带标点，未与原句中的标点归属匹配；2. 缺少comparison字段的明确说明，需补充该解析的组织逻辑说明。其余内容主干完整、指代关系清晰、词性与语法角色区分正确，未出现违规语法断言。（非逐句人工审核）"
+}

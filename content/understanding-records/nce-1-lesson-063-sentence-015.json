@@ -1,0 +1,105 @@
+{
+  "chinese": "威廉斯先生今晚在哪里？",
+  "intent": "向对方询问威廉斯先生今晚所处的位置。",
+  "comparison": null,
+  "backbone": {
+    "text": "Where's Mr. Williams?",
+    "meaning": "威廉斯先生在哪里？（this evening 补充所指时间）"
+  },
+  "structureNotes": [
+    {
+      "title": "Where's 是缩写形式",
+      "text": "Where's 是 Where is 的口语缩写，在特殊疑问句中，be 动词 is 放到主语 Mr. Williams 前面，构成疑问结构；Where 是疑问副词，不是主语。"
+    },
+    {
+      "title": "this evening 作时间补充",
+      "text": "this evening 直接放在句末，用来限定所问的是今晚这个时段的位置，不需要额外加介词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Where's",
+      "role": "疑问词+be动词",
+      "explanation": "Where 询问地点，'s 是 is 的缩写，二者结合构成疑问核心。"
+    },
+    {
+      "text": "Mr. Williams",
+      "role": "询问对象（主语）",
+      "explanation": "整句围绕威廉斯先生的位置展开，是句子的主语。"
+    },
+    {
+      "text": "this evening?",
+      "role": "时间状语",
+      "explanation": "限定询问的时间范围，说明问的是今晚威廉斯先生所在的位置。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Where's",
+      "meaning": "……在哪里（Where is 的缩写）",
+      "pos": "缩写（疑问副词+be动词）",
+      "phonetic": "/weəz/"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生（用于男子姓名前的尊称）",
+      "pos": "名词（尊称缩写）",
+      "phonetic": "/ˈmɪstər/"
+    },
+    {
+      "text": "Williams",
+      "meaning": "威廉斯（姓氏）",
+      "pos": "名词（姓氏）",
+      "phonetic": "/ˈwɪljəmz/"
+    },
+    {
+      "text": "this",
+      "meaning": "这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "evening?",
+      "meaning": "傍晚，晚上",
+      "pos": "名词",
+      "phonetic": "/ˈiːvnɪŋ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Where's",
+      "relation": "发起位置疑问",
+      "meaning": "在哪里"
+    },
+    {
+      "text": "Mr. Williams",
+      "relation": "询问对象",
+      "meaning": "威廉斯先生"
+    },
+    {
+      "text": "this evening?",
+      "relation": "补充询问的时间范围",
+      "meaning": "今晚"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-63",
+  "sentenceId": "nce-1-lesson-063-sentence-015",
+  "sentenceOrder": 15,
+  "english": "Where's Mr. Williams this evening?",
+  "lesson": "Lesson 63 Thank you, doctor.",
+  "notes": [
+    {
+      "title": "Where's 是缩写形式",
+      "text": "Where's 是 Where is 的口语缩写，在特殊疑问句中，be 动词 is 放到主语 Mr. Williams 前面，构成疑问结构；Where 是疑问副词，不是主语。"
+    },
+    {
+      "title": "this evening 作时间补充",
+      "text": "this evening 直接放在句末，用来限定所问的是今晚这个时段的位置，不需要额外加介词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析主干、疑问结构和时间状语说明基本正确；Where 被识别为疑问词而非句子主语，主语 Mr. Williams、缩写 Where's 和时间状语 this evening 的关系清晰，整体可保留。仅需修正个别术语与音标标注：首项将 Where's 统一表述为缩写形式，结构说明中区分 be 动词 is 与主语，evening? 的音标去掉问号。（非逐句人工审核）"
+}

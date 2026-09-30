@@ -1,0 +1,131 @@
+{
+  "chinese": "卡罗尔，你在做什么？",
+  "intent": "汤姆当面询问卡罗尔当下正在进行的动作。",
+  "comparison": {
+    "chinese": "原句先把正在做的事 What 放到疑问位置，再用 are you doing 构成现在进行时，最后呼叫 Carol；中文则先叫名字，再问‘你在做什么’。",
+    "english": "原句保留 What are you doing, Carol? 的顺序，先突出动作疑问，再点明对方，不改成先呼叫的示例。",
+    "steps": [
+      {
+        "label": "确定疑问焦点",
+        "text": "What",
+        "explanation": "先说要问的是‘什么’，而不是先问‘谁’或‘哪里’。"
+      },
+      {
+        "label": "找出正在做的人",
+        "text": "are you doing",
+        "explanation": "are 放在 you 前，构成现在进行时的疑问语序；you 是被问的人，doing 表示正在做的事。"
+      },
+      {
+        "label": "呼语后置",
+        "text": "Carol",
+        "explanation": "称呼放在句末，保留原句中先问动作、再点明是问卡罗尔的语境。"
+      }
+    ],
+    "takeaway": "先看 What 知道问动作内容，再由 are you doing 理解为‘你正在做’，最后把 Carol 理解为问话对象；原句对比的是疑问焦点在前、呼语在后的词序。"
+  },
+  "backbone": {
+    "text": "What are you doing?",
+    "meaning": "你正在做什么？"
+  },
+  "structureNotes": [
+    {
+      "title": "疑问词与倒装",
+      "text": "What放在句首突出询问的动作内容，are放在主语you之前，构成现在进行时的疑问形式。"
+    },
+    {
+      "title": "呼语位置",
+      "text": "Carol放在句末，是直接对人称呼，不改变句子主干，只说明问话对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What",
+      "role": "疑问代词",
+      "explanation": "对 doing 的内容提问，意为‘什么事’。"
+    },
+    {
+      "text": "are",
+      "role": "助动词",
+      "explanation": "帮助构成现在进行时，并在疑问句中提到主语 you 前。"
+    },
+    {
+      "text": "you",
+      "role": "被询问的人",
+      "explanation": "指卡罗尔，是‘正在做动作’的人。"
+    },
+    {
+      "text": "doing",
+      "role": "现在分词",
+      "explanation": "与 are 一起表示‘正在做’，核心义为 do 的现在分词形式。"
+    },
+    {
+      "text": "Carol",
+      "role": "呼语",
+      "explanation": "当面称呼对方，明确这句话是问卡罗尔的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What",
+      "meaning": "什么",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "are",
+      "meaning": "（与现在分词连用构成现在进行时）",
+      "pos": "助动词",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "doing,",
+      "meaning": "做，干（do 的现在分词）",
+      "pos": "现在分词",
+      "phonetic": "/ˈduːɪŋ/"
+    },
+    {
+      "text": "Carol?",
+      "meaning": "卡罗尔",
+      "pos": "专有名词",
+      "phonetic": "/ˈkærəl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What are you doing,",
+      "meaning": "你在做什么？",
+      "relation": "询问核心内容"
+    },
+    {
+      "text": "Carol?",
+      "meaning": "卡罗尔？",
+      "relation": "称呼问话对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-79",
+  "sentenceId": "nce-1-lesson-079-sentence-001",
+  "sentenceOrder": 1,
+  "english": "What are you doing, Carol?",
+  "lesson": "Lesson 79 Carol's shopping list",
+  "notes": [
+    {
+      "title": "疑问词与倒装",
+      "text": "What放在句首突出询问的动作内容，are放在主语you之前，构成现在进行时的疑问形式。"
+    },
+    {
+      "title": "呼语位置",
+      "text": "Carol放在句末，是直接对人称呼，不改变句子主干，只说明问话对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整句主干、呼语位置、现在进行时疑问结构和翻译基本正确。需要修正两处：do 的现在分词释义应与动词‘做’绑定，不与正在进行时助动词搭配；疑问结构对比应保留呼语在主句后的完整语境，避免给出与原句词序不同的示例。（非逐句人工审核）"
+}

@@ -1,0 +1,198 @@
+{
+  "chinese": "‘对不起，’她说。‘请问去国王街怎么走？’",
+  "intent": "呈现迷路女士向陌生男士开口问路的完整过程，先礼貌打扰对方，再明确询问前往国王街的路线。",
+  "comparison": {
+    "chinese": "中文会把礼貌套语整合进问路句里，说“请问去国王街怎么走”。",
+    "english": "英语先用Excuse me单独搭话，再用Can you tell me引出要问的路线信息，最后以please收尾表示客气。",
+    "steps": [
+      {
+        "label": "Excuse me",
+        "text": "在需要请陌生人停下、给予帮助时，先单独说Excuse me引起对方注意。",
+        "explanation": "相当于中文搭话时的“不好意思/打扰一下”，不直接问问题，先完成礼貌开场。"
+      },
+      {
+        "label": "Can you tell me the way",
+        "text": "用Can you tell me引出请求，核心要获取的信息是the way（路线）。",
+        "explanation": "这是问路的固定结构，相当于“你能不能告诉我路怎么走”，重点在获取路线信息。"
+      },
+      {
+        "label": "to King Street, please",
+        "text": "to King Street点明要去的目的地，please放在句末软化请求语气。",
+        "explanation": "明确路线指向国王街，please表示客气，整体就是“去国王街怎么走，麻烦你了”。"
+      }
+    ],
+    "takeaway": "英语问路是“先礼貌打扰→提出帮我指路的请求→说明目的地”的三层结构，和中文把“请问”融进整句的说法不同，礼貌语和核心问题是分开排布的。"
+  },
+  "backbone": {
+    "text": "She said two things: first an opening polite phrase, then a polite request asking for the route to King Street.",
+    "meaning": "女士说出两部分内容：先是礼貌打扰的开场白，接着礼貌请求对方告知去国王街的路线。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的独立分句",
+      "text": "前后两段引语分别用单引号包裹，独立成句，she said作为引语的提示语穿插在两段引语中间，表明这是女士说出的原话。"
+    },
+    {
+      "title": "问路的固定句式",
+      "text": "Can you tell me... 是请求他人提供信息的常用句式，tell后面接双宾语：间接宾语me指代听话的人，直接宾语the way to King Street是询问的核心内容。"
+    },
+    {
+      "title": "礼貌收尾please",
+      "text": "please放在问句末尾，弱化请求的生硬感，让问路显得更客气，符合向陌生人求助的语境。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'Excuse me,",
+      "role": "第一部分直接引语（礼貌开场语）",
+      "explanation": "是女士用来引起对方注意的礼貌套语，放在说话内容的最前面。"
+    },
+    {
+      "text": "she said.",
+      "role": "直接引语提示分句",
+      "explanation": "主语she指代迷路的女士，谓语said说明引语是她说出的内容，前后两段引语都属于她的发言。"
+    },
+    {
+      "text": "'Can you tell me the way to King Street, please?'",
+      "role": "第二部分直接引语（问路核心问句）",
+      "explanation": "是包含情态动词Can的一般疑问句形式，用来礼貌请求对方提供前往国王街的路线信息。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'Excuse",
+      "meaning": "请问、打扰一下",
+      "pos": "感叹语（引语起始部分）",
+      "phonetic": "/ɪkˈskjuːz/"
+    },
+    {
+      "text": "me,'",
+      "meaning": "我（宾格，引语收尾部分）",
+      "pos": "代词（宾格，引语收尾部分）",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词（主格）",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说",
+      "pos": "动词（一般过去时）",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "'Can",
+      "meaning": "能够（引语起始部分；礼貌请求中弱读）",
+      "pos": "情态动词",
+      "phonetic": "/kən/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词（主格）",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "tell",
+      "meaning": "告诉",
+      "pos": "动词（原形）",
+      "phonetic": "/tel/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词（宾格）",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这（定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "way",
+      "meaning": "路、路线",
+      "pos": "名词",
+      "phonetic": "/weɪ/"
+    },
+    {
+      "text": "to",
+      "meaning": "通往……的",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "King",
+      "meaning": "国王（街名的组成部分）",
+      "pos": "专有名词",
+      "phonetic": "/kɪŋ/"
+    },
+    {
+      "text": "Street,",
+      "meaning": "大街（街名收尾，带逗号）",
+      "pos": "专有名词",
+      "phonetic": "/striːt/"
+    },
+    {
+      "text": "please?'",
+      "meaning": "请（引语收尾，带问号）",
+      "pos": "感叹语（礼貌用语）",
+      "phonetic": "/pliːz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "'Excuse me,'",
+      "meaning": "“对不起，”",
+      "relation": "女士开口的礼貌打扰语，用于引起陌生男士的注意，为接下来问路做铺垫。"
+    },
+    {
+      "text": "she said.",
+      "meaning": "她说。",
+      "relation": "提示说明前面的礼貌语是女士所说的原话，分隔两段独立的发言引语。"
+    },
+    {
+      "text": "'Can you tell me the",
+      "meaning": "“你能不能告诉我",
+      "relation": "问路问句的开头，用 Can you tell me 礼貌提出请求，引出后续要询问的路线内容。"
+    },
+    {
+      "text": "way to King Street,",
+      "meaning": "去国王街的路，",
+      "relation": "说明询问的核心是通往国王街的路线，明确问路的目的地指向。"
+    },
+    {
+      "text": "please?'",
+      "meaning": "好吗？”",
+      "relation": "句末礼貌收尾的 please，弱化请求的生硬感，让问路语气更客气得体。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-73",
+  "sentenceId": "nce-1-lesson-073-sentence-003",
+  "sentenceOrder": 3,
+  "english": "'Excuse me,' she said. 'Can you tell me the way to King Street, please?'",
+  "lesson": "Lesson 73 The way to King Street",
+  "notes": [
+    {
+      "title": "直接引语的独立分句",
+      "text": "前后两段引语分别用单引号包裹，独立成句，she said作为引语的提示语穿插在两段引语中间，表明这是女士说出的原话。"
+    },
+    {
+      "title": "问路的固定句式",
+      "text": "Can you tell me... 是请求他人提供信息的常用句式，tell后面接双宾语：间接宾语me指代听话的人，直接宾语the way to King Street是询问的核心内容。"
+    },
+    {
+      "title": "礼貌收尾please",
+      "text": "please放在问句末尾，弱化请求的生硬感，让问路显得更客气，符合向陌生人求助的语境。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语义、结构与问路场景解释基本准确；仅需小幅修正：backbone 未覆盖末段引语，can 弱读音标宜改为英式常用的 /kən/，parts 按原分块在 meaning 与 relation 上微调。（非逐句人工审核）"
+}

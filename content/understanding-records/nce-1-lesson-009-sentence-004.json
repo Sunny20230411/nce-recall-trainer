@@ -1,0 +1,117 @@
+{
+  "chinese": "我很好，谢谢。你呢？",
+  "intent": "回应对方的问候，告知自己状态很好并致谢，接着礼貌反问对方的近况",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm very well, thank you. And you?",
+    "meaning": "我状态很好，谢谢你，接下来问你近况如何"
+  },
+  "parts": [
+    {
+      "text": "I'm very well,",
+      "relation": "说明自身当下的状态",
+      "meaning": "我身体状态非常好"
+    },
+    {
+      "text": "thank you.",
+      "relation": "补充回应问候的礼貌态度",
+      "meaning": "向对方表达谢意"
+    },
+    {
+      "text": "And you?",
+      "relation": "转向询问对方的状态",
+      "meaning": "反问对方的情况"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "well的用法",
+      "text": "本句里well不表示“好地”这类副词含义，专门用来描述人的身体、精神状态良好，是日常问候场景里的常用表达"
+    },
+    {
+      "title": "And you?的省略",
+      "text": "这是口语里的简洁说法，顺着前面的问候语境，省略了重复的“Are you well?”，直接用来反问对方的近况，符合日常对话习惯"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm very well",
+      "role": "主系表结构主句",
+      "explanation": "用来直接陈述自身当下的身体或精神状态"
+    },
+    {
+      "text": "thank you",
+      "role": "独立礼貌用语分句",
+      "explanation": "用来对对方的关心和问候表达感谢"
+    },
+    {
+      "text": "And you?",
+      "role": "省略式反问短句",
+      "explanation": "承接前文语境，向对方回问相同的问候内容，简化对话表达"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我是/我状态是",
+      "pos": "contraction (代词+系动词)",
+      "phonetic": "/aɪm/",
+      "text": "I'm"
+    },
+    {
+      "meaning": "非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/",
+      "text": "very"
+    },
+    {
+      "meaning": "健康的，状态好的",
+      "pos": "形容词",
+      "phonetic": "/wel/",
+      "text": "well,"
+    },
+    {
+      "meaning": "感谢",
+      "pos": "动词",
+      "phonetic": "/θæŋk/",
+      "text": "thank"
+    },
+    {
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you."
+    },
+    {
+      "meaning": "然后、接下来",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "And"
+    },
+    {
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-9",
+  "sentenceId": "nce-1-lesson-009-sentence-004",
+  "sentenceOrder": 4,
+  "english": "I'm very well, thank you. And you?",
+  "lesson": "Lesson 9 How are you today?",
+  "notes": [
+    {
+      "title": "well的用法",
+      "text": "本句里well不表示“好地”这类副词含义，专门用来描述人的身体、精神状态良好，是日常问候场景里的常用表达"
+    },
+    {
+      "title": "And you?的省略",
+      "text": "这是口语里的简洁说法，顺着前面的问候语境，省略了重复的“Are you well?”，直接用来反问对方的近况，符合日常对话习惯"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，信息完整，仅存在部分细节可修正以保证严谨性（非逐句人工审核）"
+}

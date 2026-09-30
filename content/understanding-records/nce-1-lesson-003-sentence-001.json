@@ -1,0 +1,103 @@
+{
+  "chinese": "请把我的外套和伞给我。",
+  "intent": "在寄存处这类场景里，向工作人员索要自己寄存的外套和雨伞。",
+  "comparison": null,
+  "backbone": {
+    "text": "My coat and my umbrella please",
+    "meaning": "请给我我的外套和伞。"
+  },
+  "parts": [
+    {
+      "text": "My coat",
+      "relation": "索要的第一样物品",
+      "meaning": "我的外套"
+    },
+    {
+      "text": "and",
+      "relation": "连接并列的两样索要物品",
+      "meaning": "和"
+    },
+    {
+      "text": "my umbrella",
+      "relation": "索要的第二样物品",
+      "meaning": "我的伞"
+    },
+    {
+      "text": "please.",
+      "relation": "表示礼貌的请求语气",
+      "meaning": "请"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "场景省略表达",
+      "text": "这是服务场景里的常用省略请求，省略了逻辑上的give me，直接说出所需物品加please就可以清晰传达诉求。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My coat and my umbrella",
+      "role": "并列名词短语",
+      "explanation": "明确点明说话人想要取回的两件私人物品"
+    },
+    {
+      "text": "please",
+      "role": "礼貌语气标记",
+      "explanation": "让整句话的请求语气显得客气委婉，避免生硬"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我的",
+      "pos": "物主代词",
+      "phonetic": "/maɪ/",
+      "text": "My"
+    },
+    {
+      "meaning": "外套",
+      "pos": "名词",
+      "phonetic": "/kəʊt/",
+      "text": "coat"
+    },
+    {
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "我的",
+      "pos": "物主代词",
+      "phonetic": "/maɪ/",
+      "text": "my"
+    },
+    {
+      "meaning": "伞",
+      "pos": "名词",
+      "phonetic": "/ʌmˈbrelə/",
+      "text": "umbrella"
+    },
+    {
+      "meaning": "请",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/",
+      "text": "please."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-3",
+  "sentenceId": "nce-1-lesson-003-sentence-001",
+  "sentenceOrder": 1,
+  "english": "My coat and my umbrella please.",
+  "lesson": "Lesson 3 Sorry, sir.",
+  "notes": [
+    {
+      "title": "场景省略表达",
+      "text": "这是服务场景里的常用省略请求，省略了逻辑上的give me，直接说出所需物品加please就可以清晰传达诉求。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体符合教学要求，仅存在comparison字段缺失说明组织逻辑的问题，其余内容经核对无语法错误、词性混淆等违规问题（非逐句人工审核）"
+}

@@ -1,0 +1,128 @@
+{
+  "chinese": "嗯，下次你最好听我的劝告！",
+  "intent": "在回应对方一直提醒自己要开慢车的前提下，给出带有劝告性质的回应，建议对方下次采纳自己的相关劝告。",
+  "comparison": null,
+  "backbone": {
+    "text": "you'd better take my advice",
+    "meaning": "你最好采纳我的劝告。"
+  },
+  "structureNotes": [
+    {
+      "title": "had better 表劝告的结构",
+      "text": "you'd 是 you had 的缩写，had better 是固定表达，用来给出带有提醒性质的劝告，意为‘最好做某事’，后面直接跟动词原形 take，表劝告对方下次采纳自己的建议。"
+    },
+    {
+      "title": "next time 作时间修饰语",
+      "text": "next time 在这里是名词短语，直接作时间状语修饰整个建议内容，点明这个劝告是针对下一次出行的场景，无需额外补充连词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Well,",
+      "role": "语气插入语",
+      "explanation": "Well 是感叹词，用于承接上文对方一直提醒自己开慢车的内容，起到缓和语气、引出回应的作用，不参与句子核心表意。"
+    },
+    {
+      "text": "next time",
+      "role": "时间状语",
+      "explanation": "位于句首修饰整个建议内容，点明这个劝告是针对下一次出行的场景，是名词短语直接充当时间修饰语。"
+    },
+    {
+      "text": "you'd better take my advice",
+      "role": "含劝告语气的核心谓语结构",
+      "explanation": "you'd 是 you had 的缩写，had better 是固定表达，用来向对方提出应当做某事的劝告，意为“最好”，后接动词原形 take，构成核心的劝告内容“最好采纳我的劝告”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Well,",
+      "meaning": "嗯，语气词",
+      "pos": "感叹词",
+      "phonetic": "/wel/"
+    },
+    {
+      "text": "next",
+      "meaning": "下一个的，接下来的",
+      "pos": "形容词",
+      "phonetic": "/nekst/"
+    },
+    {
+      "text": "time",
+      "meaning": "次，回",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    },
+    {
+      "text": "you'd",
+      "meaning": "you had 的缩写，和had搭配表示“你最好”的劝告语气",
+      "pos": "缩写形式",
+      "phonetic": "/juːd/"
+    },
+    {
+      "text": "better",
+      "meaning": "在had better搭配中表“最好”的劝告语气，单独使用时意为更好的",
+      "pos": "形容词（固定搭配中为建议语气标记）",
+      "phonetic": "/ˈbetə(r)/"
+    },
+    {
+      "text": "take",
+      "meaning": "采纳，接受（建议、劝告）",
+      "pos": "动词",
+      "phonetic": "/teɪk/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "advice!",
+      "meaning": "劝告，建议（不可数名词）",
+      "pos": "名词",
+      "phonetic": "/ədˈvaɪs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Well,",
+      "meaning": "嗯",
+      "relation": "承接上文的语气铺垫"
+    },
+    {
+      "text": "next time",
+      "meaning": "下次",
+      "relation": "点明建议适用的时间场景"
+    },
+    {
+      "text": "you'd better",
+      "meaning": "你最好",
+      "relation": "给出劝告的语气框架"
+    },
+    {
+      "text": "take my advice!",
+      "meaning": "听我的劝告",
+      "relation": "劝告的核心具体内容"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-129",
+  "sentenceId": "nce-1-lesson-129-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Well, next time you'd better take my advice!",
+  "lesson": "Lesson 129 Seventy miles an hour",
+  "notes": [
+    {
+      "title": "had better 表劝告的结构",
+      "text": "you'd 是 you had 的缩写，had better 是固定表达，用来给出带有提醒性质的劝告，意为‘最好做某事’，后面直接跟动词原形 take，表劝告对方下次采纳自己的建议。"
+    },
+    {
+      "title": "next time 作时间修饰语",
+      "text": "next time 在这里是名词短语，直接作时间状语修饰整个建议内容，点明这个劝告是针对下一次出行的场景，无需额外补充连词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体语义基本准确，仅存在三类需要修正的问题：一是两处关于next time的说明错误认为next time是省略when的时间状语从句实际它是名词短语直接作时间修饰语，无需补出when；二是部分词块的语义标注不完整，you'd单独列出了缩写但未结合搭配说明完整表意，better单独标注为形容词未说明其在had better搭配中表建议语气的功能，advice未点明为不可数名词属性；三是主干表述可更明确体现语气，部分词块的解释可以更贴合语境。这些问题可通过定向patch修正，无需推翻整体解析。（非逐句人工审核）"
+}

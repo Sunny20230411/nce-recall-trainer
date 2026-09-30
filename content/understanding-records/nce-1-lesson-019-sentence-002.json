@@ -1,0 +1,64 @@
+{
+  "chinese": "我们累了……",
+  "intent": "直白告知自己当下的疲惫状态",
+  "comparison": null,
+  "backbone": {
+    "text": "We're tired...",
+    "meaning": "我们处于疲惫的状态"
+  },
+  "parts": [
+    {
+      "text": "We're",
+      "relation": "描述状态的主体与系动词",
+      "meaning": "我们是"
+    },
+    {
+      "text": "tired...",
+      "relation": "补充说明主语的状态特征",
+      "meaning": "累了……"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "缩略形式说明",
+      "text": "We're是We are的日常口语缩略表达，无需拆分理解，直接对应‘我们是’的语义，用于轻松的日常对话场景中。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We're tired",
+      "role": "主系表完整分句",
+      "explanation": "由主语We、系动词are和表语形容词tired构成，清晰说明主语所处的状态，句末省略号体现说话时语气未尽。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我们是",
+      "pos": "代词+系动词缩写",
+      "phonetic": "/wɪə(r)/",
+      "text": "We're"
+    },
+    {
+      "meaning": "累了……",
+      "pos": "形容词",
+      "phonetic": "/ˈtaɪəd/",
+      "text": "tired..."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-19",
+  "sentenceId": "nce-1-lesson-019-sentence-002",
+  "sentenceOrder": 2,
+  "english": "We're tired...",
+  "lesson": "Lesson 19 Tired and thirsty",
+  "notes": [
+    {
+      "title": "缩略形式说明",
+      "text": "We're是We are的日常口语缩略表达，无需拆分理解，直接对应‘我们是’的语义，用于轻松的日常对话场景中。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本合规，仅存在局部表述冗余、重复的可优化点，无核心语法与信息错误（非逐句人工审核）"
+}

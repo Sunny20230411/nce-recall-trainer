@@ -1,0 +1,212 @@
+{
+  "chinese": "我正在做家务时，丈夫从办公室给我打电话。",
+  "intent": "说明一件事件发生时另一件事同时发生。",
+  "comparison": {
+    "chinese": "我正在做家务时，丈夫从办公室给我打电话。",
+    "english": "When I was doing the housework, my husband telephoned me from the office.",
+    "steps": [
+      {
+        "label": "先确定背景动作",
+        "text": "When I was doing the housework",
+        "explanation": "中文常把“正在做家务时”放在句首，交代正在进行的背景动作；英文用when引导，放在句首时意思一致。"
+      },
+      {
+        "label": "再交代发生的事件",
+        "text": "my husband telephoned me from the office",
+        "explanation": "主句先说“丈夫打电话给我”，再用from the office补充是从办公室打来的；中文可顺成“从办公室给我打电话”。"
+      },
+      {
+        "label": "时间关系",
+        "text": "doing the housework / telephoned",
+        "explanation": "做家务是背景延续，打电话是插入其中的短暂事件；过去进行时和一般过去时配合体现这种同时关系。"
+      }
+    ],
+    "takeaway": "中文先讲背景，英文以when引导从句后接主句，用时态区分延续背景和短暂插入事件。"
+  },
+  "backbone": {
+    "text": "When I was doing the housework, my husband telephoned me.",
+    "meaning": "我做家务时，丈夫给我打来电话。"
+  },
+  "structureNotes": [
+    {
+      "title": "when引导时间从句",
+      "text": "When放在句首，说明主句动作发生在我做家务的过程中；was doing表示当时正在进行的背景动作。"
+    },
+    {
+      "title": "时态配合",
+      "text": "从句用过去进行时was doing描述延续背景，主句用一般过去时telephoned表示短暂插入的动作，突出“正在做某事时某事发生”。"
+    },
+    {
+      "title": "from the office补充来源",
+      "text": "from the office说明电话来源地，修饰telephoned，不是丈夫的地点属性。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When",
+      "role": "从属连词",
+      "explanation": "引导时间状语从句，表示“当……时候”。"
+    },
+    {
+      "text": "I",
+      "role": "从句主语",
+      "explanation": "指代说话的人，是做家务的执行者。"
+    },
+    {
+      "text": "was doing",
+      "role": "从句谓语",
+      "explanation": "过去进行时，表示过去某时正在进行的动作。"
+    },
+    {
+      "text": "the housework",
+      "role": "从句宾语",
+      "explanation": "do的宾语，指家务劳动。"
+    },
+    {
+      "text": "my husband",
+      "role": "主句主语",
+      "explanation": "打电话的人。"
+    },
+    {
+      "text": "telephoned",
+      "role": "主句谓语",
+      "explanation": "一般过去时，表示过去发生的短暂动作。"
+    },
+    {
+      "text": "me",
+      "role": "主句宾语",
+      "explanation": "telephoned的对象，指代说话人。"
+    },
+    {
+      "text": "from the office",
+      "role": "地点状语",
+      "explanation": "说明电话来自办公室，修饰telephoned。"
+    }
+  ],
+  "words": [
+    {
+      "text": "When",
+      "meaning": "当……时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "was",
+      "meaning": "（与现在分词构成过去进行时）",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "doing",
+      "meaning": "做；从事",
+      "pos": "动词",
+      "phonetic": "/ˈduːɪŋ/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指家务）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "housework,",
+      "meaning": "家务",
+      "pos": "名词",
+      "phonetic": "/ˈhaʊswɜːk/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "husband",
+      "meaning": "丈夫",
+      "pos": "名词",
+      "phonetic": "/ˈhʌzbənd/"
+    },
+    {
+      "text": "telephoned",
+      "meaning": "给……打电话",
+      "pos": "动词",
+      "phonetic": "/ˈtelɪfəʊnd/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "from",
+      "meaning": "从……来",
+      "pos": "介词",
+      "phonetic": "/frɒm/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指办公室）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "office.",
+      "meaning": "办公室",
+      "pos": "名词",
+      "phonetic": "/ˈɒfɪs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "When I was doing the housework,",
+      "relation": "时间背景",
+      "meaning": "我正在做家务时"
+    },
+    {
+      "text": "my husband",
+      "relation": "主句主语",
+      "meaning": "我的丈夫"
+    },
+    {
+      "text": "telephoned me",
+      "relation": "主句核心动作",
+      "meaning": "给我打电话"
+    },
+    {
+      "text": "from the office.",
+      "relation": "补充电话来源",
+      "meaning": "从办公室打来"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-117",
+  "sentenceId": "nce-1-lesson-117-sentence-001",
+  "sentenceOrder": 1,
+  "english": "When I was doing the housework, my husband telephoned me from the office.",
+  "lesson": "Lesson 117 Tommy's breakfast",
+  "notes": [
+    {
+      "title": "when引导时间从句",
+      "text": "When放在句首，说明主句动作发生在我做家务的过程中；was doing表示当时正在进行的背景动作。"
+    },
+    {
+      "title": "时态配合",
+      "text": "从句用过去进行时was doing描述延续背景，主句用一般过去时telephoned表示短暂插入的动作，突出“正在做某事时某事发生”。"
+    },
+    {
+      "title": "from the office补充来源",
+      "text": "from the office说明电话来源地，修饰telephoned，不是丈夫的地点属性。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干、结构、词表和分块解释基本一致；仅英文词语分块把 housework 后逗号带入词条，word 条目应标注不含该标点。（非逐句人工审核）"
+}

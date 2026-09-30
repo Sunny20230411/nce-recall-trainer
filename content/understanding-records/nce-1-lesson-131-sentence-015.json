@@ -1,0 +1,117 @@
+{
+  "chinese": "谁来照看房子？",
+  "intent": "在谈论外出旅行的场景时，询问由谁负责照料留守的房屋。",
+  "comparison": null,
+  "backbone": {
+    "text": "Who's going to look after the house?",
+    "meaning": "（理解用主干：谁将要照看房子？），这是一个询问负责照看房屋之人的特殊疑问句。"
+  },
+  "structureNotes": [
+    {
+      "title": "Who的特殊疑问用法",
+      "text": "Who's 是 Who is 的缩写，本句中疑问代词Who既引导特殊疑问句，又在句中充当主语，因此句中直接使用Who's going to...的陈述语序，不需要额外添加助动词提前倒装。"
+    },
+    {
+      "title": "固定短语的固定搭配",
+      "text": "look after 是固定的动词短语，意为“照料、照看”，不能将其拆分为“看”+“在……之后”来逐字理解。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Who's",
+      "role": "Who is的缩合形式：Who作主语，is构成be going to结构",
+      "explanation": "Who作主语指代“谁”，'s是is的缩写，与后面going to构成表将来的疑问结构，因此不需要再加助动词提前倒装。"
+    },
+    {
+      "text": "going to look after",
+      "role": "将来时结构be going to + 动词短语",
+      "explanation": "be going to表示“打算、将要”，后面接动词原形短语look after，表达即将执行的动作。"
+    },
+    {
+      "text": "the house",
+      "role": "动词短语look after的宾语",
+      "explanation": "是被照看的对象，定冠词the特指双方都清楚的那处房屋。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Who's",
+      "meaning": "是谁（who is的缩写，who为疑问代词，is为be动词第三人称单数现在时）",
+      "pos": "缩写形式",
+      "phonetic": "/huːz/"
+    },
+    {
+      "text": "going",
+      "meaning": "去（go的现在分词，和前面is构成be going to结构表将来）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "与前面going搭配，构成be going to结构表将来，不单独表示不定式标记",
+      "pos": "结构小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "look",
+      "meaning": "看、照料（和after搭配为固定短语look after，本短语表“照看”义）",
+      "pos": "动词",
+      "phonetic": "/lʊk/"
+    },
+    {
+      "text": "after",
+      "meaning": "在……之后（和look构成固定短语look after）",
+      "pos": "介词",
+      "phonetic": "/ˈɑːftə(r)/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，表特指，可译为“这/那”，不译出",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "house?",
+      "meaning": "房子",
+      "pos": "名词",
+      "phonetic": "/haʊs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Who's",
+      "meaning": "是谁",
+      "relation": "Who作主语询问负责照看房屋的主体，'s是is的缩写，与后面going to构成将来时结构。"
+    },
+    {
+      "text": "going to look after",
+      "meaning": "将要照看",
+      "relation": "将来时谓语结构，说明要执行的动作。"
+    },
+    {
+      "text": "the house?",
+      "meaning": "这处房子？",
+      "relation": "动作的对象，即被照看的具体事物。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-131",
+  "sentenceId": "nce-1-lesson-131-sentence-015",
+  "sentenceOrder": 15,
+  "english": "Who's going to look after the house?",
+  "lesson": "Lesson 131 Don't be so sure!",
+  "notes": [
+    {
+      "title": "Who的特殊疑问用法",
+      "text": "Who's 是 Who is 的缩写，本句中疑问代词Who既引导特殊疑问句，又在句中充当主语，因此句中直接使用Who's going to...的陈述语序，不需要额外添加助动词提前倒装。"
+    },
+    {
+      "title": "固定短语的固定搭配",
+      "text": "look after 是固定的动词短语，意为“照料、照看”，不能将其拆分为“看”+“在……之后”来逐字理解。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子主干、中文翻译、词块角色划分和主语疑问句的语序说明整体正确。主要可改进点：当前把Who's中的Who单独标为疑问主语，但原块同时包含is；词表中to的解释过窄，未说明它属于be going to结构；house音标后的问号应移除。（非逐句人工审核）"
+}

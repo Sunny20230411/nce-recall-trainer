@@ -1,0 +1,117 @@
+{
+  "chinese": "河上有几条船。",
+  "intent": "描述河面上存在若干船只的客观场景状态",
+  "comparison": null,
+  "backbone": {
+    "text": "There are some boats",
+    "meaning": "存在一些船只"
+  },
+  "parts": [
+    {
+      "text": "There are",
+      "relation": "引出后续存在的事物",
+      "meaning": "存在句式的引导与谓语组合"
+    },
+    {
+      "text": "some boats",
+      "relation": "说明存在的具体事物",
+      "meaning": "一些船只"
+    },
+    {
+      "text": "on the river.",
+      "relation": "补充船只所在的位置",
+      "meaning": "在河面上"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "There be 存在句式",
+      "text": "这里的There不指代地点，是专门引出存在事物的引导词，be动词are要和后面的复数主语boats保持数的一致。"
+    },
+    {
+      "title": "地点状语的位置",
+      "text": "on the river放在句子末尾，用来补充说明前面的some boats所处的具体位置，避免句子头重脚轻。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There are",
+      "role": "存在句引导框架",
+      "explanation": "用来向听者说明某个场景下存在某类事物，没有实际的动作指向"
+    },
+    {
+      "text": "some boats",
+      "role": "存在句主语",
+      "explanation": "是句子核心描述的对象，代表河面上的若干船只"
+    },
+    {
+      "text": "on the river",
+      "role": "地点状语",
+      "explanation": "限定船只所处的具体空间位置，补充场景细节"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（存在句的引导虚词，无实际语义）",
+      "pos": "there",
+      "phonetic": "/ðeə/",
+      "text": "There"
+    },
+    {
+      "meaning": "（表示存在，是be动词的复数现在时形式）",
+      "pos": "verb",
+      "phonetic": "/ɑː/",
+      "text": "are"
+    },
+    {
+      "meaning": "一些，若干",
+      "pos": "determiner",
+      "phonetic": "/sʌm/",
+      "text": "some"
+    },
+    {
+      "meaning": "小船，船只",
+      "pos": "noun",
+      "phonetic": "/bəʊts/",
+      "text": "boats"
+    },
+    {
+      "meaning": "在……之上",
+      "pos": "preposition",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "这个，特指对话双方都知晓的那条河",
+      "pos": "article",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "河流",
+      "pos": "noun",
+      "phonetic": "/ˈrɪvə/",
+      "text": "river."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-33",
+  "sentenceId": "nce-1-lesson-033-sentence-005",
+  "sentenceOrder": 5,
+  "english": "There are some boats on the river.",
+  "lesson": "Lesson 33 A fine day",
+  "notes": [
+    {
+      "title": "There be 存在句式",
+      "text": "这里的There不指代地点，是专门引出存在事物的引导词，be动词are要和后面的复数主语boats保持数的一致。"
+    },
+    {
+      "title": "地点状语的位置",
+      "text": "on the river放在句子末尾，用来补充说明前面的some boats所处的具体位置，避免句子头重脚轻。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本合规，仅存在个别细节疏漏可明确修正（非逐句人工审核）"
+}

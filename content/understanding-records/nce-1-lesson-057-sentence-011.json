@@ -1,0 +1,142 @@
+{
+  "chinese": "但今晚他没有看报纸。",
+  "intent": "用现在进行时的否定形式说明今晚此刻他并没有在做平时惯常的看报这件事。",
+  "comparison": null,
+  "backbone": {
+    "text": "He's not reading his newspaper.",
+    "meaning": "他此刻并没有在读报纸。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在进行时的否定结构",
+      "text": "结构为“am/is/are + not + 动词-ing”；本句he's = he is，not放在be动词和reading之间，说明此刻动作没有在发生。"
+    },
+    {
+      "title": "时间状语tonight的位置",
+      "text": "tonight放在句末，交代这个“没在读报”的状态发生在今晚这个时间范围里，和前文往常的夜间读报习惯形成对比。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "But",
+      "role": "转折连词",
+      "explanation": "承接上文，引出和日常惯常行为不同的情况。"
+    },
+    {
+      "text": "he's",
+      "role": "现在进行时的主语加be动词部分",
+      "explanation": "he's = he is，是现在进行时的助动词部分，和后面的reading构成时态框架。"
+    },
+    {
+      "text": "not",
+      "role": "否定副词",
+      "explanation": "放在be动词之后，否定后面的进行动作。"
+    },
+    {
+      "text": "reading",
+      "role": "现在分词（实义动词）",
+      "explanation": "和he's一起构成现在进行时的谓语核心动作。"
+    },
+    {
+      "text": "his newspaper",
+      "role": "宾语",
+      "explanation": "是reading这个动作的对象，即他阅读的内容。"
+    },
+    {
+      "text": "tonight.",
+      "role": "时间状语",
+      "explanation": "说明这个“没有在读报”的状态所处的时间范围。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/",
+      "text": "But"
+    },
+    {
+      "meaning": "他是（he is的缩写）",
+      "pos": "代词+be动词",
+      "phonetic": "/hiːz/",
+      "text": "he's"
+    },
+    {
+      "meaning": "没有，不",
+      "pos": "副词",
+      "phonetic": "/nɒt/",
+      "text": "not"
+    },
+    {
+      "meaning": "阅读，读（现在分词形式）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈriːdɪŋ/",
+      "text": "reading"
+    },
+    {
+      "meaning": "他的",
+      "pos": "物主代词",
+      "phonetic": "/hɪz/",
+      "text": "his"
+    },
+    {
+      "meaning": "报纸",
+      "pos": "名词",
+      "phonetic": "/ˈnjuːzpeɪpə(r)/",
+      "text": "newspaper"
+    },
+    {
+      "meaning": "今晚",
+      "pos": "副词",
+      "phonetic": "/təˈnaɪt/",
+      "text": "tonight."
+    }
+  ],
+  "parts": [
+    {
+      "text": "But",
+      "meaning": "但是",
+      "relation": "转折连接，引出和平时习惯相反的情况"
+    },
+    {
+      "text": "he's",
+      "meaning": "他是（he is的缩写）",
+      "relation": "指代动作的发出者，和后面的not reading配合构成现在进行时的框架"
+    },
+    {
+      "text": "not reading",
+      "meaning": "没有在读",
+      "relation": "描述主语当前没有发生的动作"
+    },
+    {
+      "text": "his newspaper",
+      "meaning": "他的报纸",
+      "relation": "说明阅读动作的对象"
+    },
+    {
+      "text": "tonight.",
+      "meaning": "今晚。",
+      "relation": "补充说明这个动作所处的时间"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-57",
+  "sentenceId": "nce-1-lesson-057-sentence-011",
+  "sentenceOrder": 11,
+  "english": "But he's not reading his newspaper tonight.",
+  "lesson": "Lesson 57 An unusual day",
+  "notes": [
+    {
+      "title": "现在进行时的否定结构",
+      "text": "结构为“am/is/are + not + 动词-ing”；本句he's = he is，not放在be动词和reading之间，说明此刻动作没有在发生。"
+    },
+    {
+      "title": "时间状语tonight的位置",
+      "text": "tonight放在句末，交代这个“没在读报”的状态发生在今晚这个时间范围里，和前文往常的夜间读报习惯形成对比。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体可用，词块拆分、主干提取、语法角色标注、词义与中文翻译均符合原文语义与语法规则，仅两处表述存在指代歧义、角色定义不准确的小问题，修正后可正常使用。（非逐句人工审核）"
+}

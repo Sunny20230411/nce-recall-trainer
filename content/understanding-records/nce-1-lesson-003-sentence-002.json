@@ -1,0 +1,86 @@
+{
+  "chinese": "这是我的票。",
+  "intent": "说话人向对方出示自己的票据，告知对方这就是自己的凭证。",
+  "comparison": null,
+  "backbone": {
+    "text": "Here is my ticket.",
+    "meaning": "这是我的票。"
+  },
+  "parts": [
+    {
+      "text": "Here",
+      "relation": "引出指代对象的提示",
+      "meaning": "这里/这"
+    },
+    {
+      "text": "is",
+      "relation": "连接指代和主体事物",
+      "meaning": "是"
+    },
+    {
+      "text": "my ticket.",
+      "relation": "说明指代的具体事物",
+      "meaning": "我的票。"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "出示东西时先引起注意",
+      "text": "Here is…可以在递交或出示东西时说，相当于“这是……”。先用Here把注意力引到眼前，再说my ticket是什么；my ticket是句子的主语，放在is后面。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Here is",
+      "role": "出示事物的引入表达",
+      "explanation": "用于引出近处的事物，告知对方所指的物品就在眼前。"
+    },
+    {
+      "text": "my ticket",
+      "role": "主语",
+      "explanation": "是全句描述的核心事物，说明这里所指的具体物品是什么。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这里，这",
+      "pos": "副词",
+      "phonetic": "/hɪə(r)/",
+      "text": "Here"
+    },
+    {
+      "meaning": "是",
+      "pos": "动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/",
+      "text": "my"
+    },
+    {
+      "meaning": "票",
+      "pos": "名词",
+      "phonetic": "/ˈtɪkɪt/",
+      "text": "ticket."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-3",
+  "sentenceId": "nce-1-lesson-003-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Here is my ticket.",
+  "lesson": "Lesson 3 Sorry, sir.",
+  "notes": [
+    {
+      "title": "出示东西时先引起注意",
+      "text": "Here is…可以在递交或出示东西时说，相当于“这是……”。先用Here把注意力引到眼前，再说my ticket是什么；my ticket是句子的主语，放在is后面。"
+    }
+  ],
+  "analysisSource": "human",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "编辑复核：明确出示事物的用法和my ticket的主语地位；第三课原人工结构仍优先显示。"
+}

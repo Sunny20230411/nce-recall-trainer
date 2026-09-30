@@ -1,0 +1,113 @@
+{
+  "chinese": "就在那儿！在你前面！",
+  "intent": "向对方指明物品所在的具体位置，让对方快速看到目标事物",
+  "comparison": null,
+  "backbone": {
+    "text": "There it is! It's in front of you!",
+    "meaning": "它在那儿！它位于你前方的位置"
+  },
+  "parts": [
+    {
+      "text": "There it is!",
+      "relation": "直接点明事物所在的地点",
+      "meaning": "它就在那儿！"
+    },
+    {
+      "text": "It's in front of you!",
+      "relation": "补充说明事物相对于对方的具体方位",
+      "meaning": "它在你前面！"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "there前置语序",
+      "text": "There it is是把地点副词there放到句首的强调语序，不用倒装成There is it，用来快速向对方指认近处的事物位置"
+    },
+    {
+      "title": "in front of方位表达",
+      "text": "这是固定方位短语，用来描述一物处在另一物的正前方位置，本句里说明物品处于听话人的前方区域"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There it is!",
+      "role": "强调性存在指认语句",
+      "explanation": "用来快速向对方指出已经找到的事物所在位置，语气直接醒目"
+    },
+    {
+      "text": "It's in front of you!",
+      "role": "方位说明语句",
+      "explanation": "明确说明事物相对于听话人的具体方位，帮对方快速定位目标"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "在那里",
+      "pos": "副词",
+      "phonetic": "/ðeə/",
+      "text": "There"
+    },
+    {
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/",
+      "text": "it"
+    },
+    {
+      "meaning": "是",
+      "pos": "动词",
+      "phonetic": "/ɪz/",
+      "text": "is!"
+    },
+    {
+      "meaning": "它是",
+      "pos": "缩约形式（代词+动词）",
+      "phonetic": "/ɪts/",
+      "text": "It's"
+    },
+    {
+      "meaning": "在…之内",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "前面",
+      "pos": "名词",
+      "phonetic": "/frʌnt/",
+      "text": "front"
+    },
+    {
+      "meaning": "关于",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you!"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-43",
+  "sentenceId": "nce-1-lesson-043-sentence-009",
+  "sentenceOrder": 9,
+  "english": "There it is! It's in front of you!",
+  "lesson": "Lesson 43 Hurry up!",
+  "notes": [
+    {
+      "title": "there前置语序",
+      "text": "There it is是把地点副词there放到句首的强调语序，不用倒装成There is it，用来快速向对方指认近处的事物位置"
+    },
+    {
+      "title": "in front of方位表达",
+      "text": "这是固定方位短语，用来描述一物处在另一物的正前方位置，本句里说明物品处于听话人的前方区域"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅局部细节存在可明确修正的标注偏差，可通过patch完成完善，未出现核心语法认知错误（非逐句人工审核）"
+}

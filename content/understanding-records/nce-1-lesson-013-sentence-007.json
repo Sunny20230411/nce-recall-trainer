@@ -1,0 +1,104 @@
+{
+  "chinese": "我的帽子也是新的。",
+  "intent": "顺着前面谈论连衣裙新潮的话题，补充说明自己的帽子同样是新的，让对话的信息保持连贯",
+  "comparison": null,
+  "backbone": {
+    "text": "My hat's new",
+    "meaning": "我的帽子是新的"
+  },
+  "parts": [
+    {
+      "text": "My",
+      "relation": "描述后面帽子的所属人",
+      "meaning": "我的"
+    },
+    {
+      "text": "hat's",
+      "relation": "说明描述对象帽子和状态的关联",
+      "meaning": "帽子是"
+    },
+    {
+      "text": "new,",
+      "relation": "补充说明帽子的属性",
+      "meaning": "新的"
+    },
+    {
+      "text": "too.",
+      "relation": "补充说明帽子新的情况和前文提到的物品属性一致",
+      "meaning": "也"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "hat's 缩写用法",
+      "text": "这里hat's是hat is的日常口语缩写，用来简化表达，不改变“帽子是”的核心含义，只用于非正式对话场景"
+    },
+    {
+      "title": "too的位置作用",
+      "text": "too放在句末表示“也”，承接前文提到的某件物品是新的属性，补充当前句子的帽子同样符合这个属性"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My hat's",
+      "role": "陈述主体",
+      "explanation": "明确整个句子描述的对象，即说话人自己的帽子"
+    },
+    {
+      "text": "new",
+      "role": "属性表述",
+      "explanation": "说明主体的核心状态，点明帽子是新的"
+    },
+    {
+      "text": "too",
+      "role": "补充衔接成分",
+      "explanation": "关联前文内容，说明帽子“新”的属性和前文提到的物品属性相同"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/",
+      "text": "My"
+    },
+    {
+      "meaning": "帽子是",
+      "pos": "名词+系动词缩写",
+      "phonetic": "/hæts/",
+      "text": "hat's"
+    },
+    {
+      "meaning": "新的",
+      "pos": "形容词",
+      "phonetic": "/njuː/",
+      "text": "new,"
+    },
+    {
+      "meaning": "也",
+      "pos": "副词",
+      "phonetic": "/tuː/",
+      "text": "too."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-13",
+  "sentenceId": "nce-1-lesson-013-sentence-007",
+  "sentenceOrder": 7,
+  "english": "My hat's new, too.",
+  "lesson": "Lesson 13 A new dress",
+  "notes": [
+    {
+      "title": "hat's 缩写用法",
+      "text": "这里hat's是hat is的日常口语缩写，用来简化表达，不改变“帽子是”的核心含义，只用于非正式对话场景"
+    },
+    {
+      "title": "too的位置作用",
+      "text": "too放在句末表示“也”，承接前文提到的某件物品是新的属性，补充当前句子的帽子同样符合这个属性"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本合规，仅存在局部信息偏差与表述疏漏，可明确修正（非逐句人工审核）"
+}

@@ -1,0 +1,111 @@
+{
+  "chinese": "这是您的伞和外套。",
+  "intent": "说话人把物品递交给对方时，告知对方面前的两件分别是对方的雨伞和外套。",
+  "comparison": null,
+  "backbone": {
+    "text": "Here's your umbrella and your coat.",
+    "meaning": "这里/这是属于你的伞和外套"
+  },
+  "parts": [
+    {
+      "text": "Here's",
+      "relation": "引出当前所在位置的物品，作为全句的开篇引导部分",
+      "meaning": "这里是/这是"
+    },
+    {
+      "text": "your umbrella",
+      "relation": "说明第一件要告知对方的所属物品",
+      "meaning": "你的伞"
+    },
+    {
+      "text": "and",
+      "relation": "起到并列连接作用，衔接前后两件物品",
+      "meaning": "和"
+    },
+    {
+      "text": "your coat.",
+      "relation": "说明第二件要告知对方的所属物品，结束整句话",
+      "meaning": "你的外套（带句末标点）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "Here's的用法",
+      "text": "这个here's是here is的缩写，用来指明视线范围内的物品就在当前位置，不需要复杂倒装规则，直接指向眼前事物做介绍。"
+    },
+    {
+      "title": "并列成分连接",
+      "text": "用and直接连接两个同属性的所属物品your umbrella和your coat，省去重复的Here's，读起来更简洁自然。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Here's",
+      "role": "引导指示结构",
+      "explanation": "用来引出当前就在眼前的物品，说明物品所处的位置就在说话人这边，方便对方接收。"
+    },
+    {
+      "text": "your umbrella and your coat",
+      "role": "并列名词短语作表语",
+      "explanation": "说明被指向的两件物品，和前面的Here's配合，完整交代“这里有的是什么东西”。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这里是，这是（here is的缩写）",
+      "pos": "副词+动词缩合形式",
+      "phonetic": "/hɪəz/",
+      "text": "Here's"
+    },
+    {
+      "meaning": "你的，您的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/jɔː(r)/",
+      "text": "your"
+    },
+    {
+      "meaning": "雨伞",
+      "pos": "名词",
+      "phonetic": "/ʌmˈbrelə/",
+      "text": "umbrella"
+    },
+    {
+      "meaning": "和，以及",
+      "pos": "并列连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "你的，您的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/jɔː(r)/",
+      "text": "your"
+    },
+    {
+      "meaning": "外套，大衣",
+      "pos": "名词",
+      "phonetic": "/kəʊt/",
+      "text": "coat."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-3",
+  "sentenceId": "nce-1-lesson-003-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Here's your umbrella and your coat.",
+  "lesson": "Lesson 3 Sorry, sir.",
+  "notes": [
+    {
+      "title": "Here's的用法",
+      "text": "这个here's是here is的缩写，用来指明视线范围内的物品就在当前位置，不需要复杂倒装规则，直接指向眼前事物做介绍。"
+    },
+    {
+      "title": "并列成分连接",
+      "text": "用and直接连接两个同属性的所属物品your umbrella和your coat，省去重复的Here's，读起来更简洁自然。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本合规，仅存在局部细节疏漏，可通过补丁修正完善内容准确性（非逐句人工审核）"
+}

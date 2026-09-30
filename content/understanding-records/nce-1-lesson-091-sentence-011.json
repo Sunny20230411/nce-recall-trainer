@@ -1,0 +1,109 @@
+{
+  "chinese": "他一直是个好邻居。",
+  "intent": "描述说话人眼中这位邻居一贯的良好品行，承接上文表达对他的不舍，体现他在邻里间的好口碑。",
+  "comparison": null,
+  "backbone": {
+    "text": "他一直是个好邻居。",
+    "meaning": "从过去到说话的当下，他始终保持着友善可靠的好邻居形象。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时表一贯状态",
+      "text": "句子使用has been这一现在完成时结构，表示从过去到现在的持续状态，always放在has和been中间，强化“一直、始终”的语义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文提到的即将搬走的邻居Ian，是句子描述的对象。"
+    },
+    {
+      "text": "has always been",
+      "role": "谓语（现在完成时结构）",
+      "explanation": "表示从过去持续到现在的状态，always夹在助动词has和过去分词been之间，修饰整个谓语，强调一贯性。"
+    },
+    {
+      "text": "a good neighbour",
+      "role": "表语",
+      "explanation": "说明主语He的身份特质，good是形容词修饰neighbour，描述他作为邻居的良好表现。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "has",
+      "meaning": "（与been构成现在完成时，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "always",
+      "meaning": "一直；始终",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "been",
+      "meaning": "是（be的过去分词）",
+      "pos": "动词",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "good",
+      "meaning": "好的；良好的",
+      "pos": "形容词",
+      "phonetic": "/ɡʊd/"
+    },
+    {
+      "text": "neighbour.",
+      "meaning": "邻居",
+      "pos": "名词",
+      "phonetic": "/ˈneɪbə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "relation": "句子描述的主体，指代提到的男邻居"
+    },
+    {
+      "text": "has always been",
+      "meaning": "一直是",
+      "relation": "说明主语从过去到当下的持续状态"
+    },
+    {
+      "text": "a good neighbour.",
+      "meaning": "好邻居",
+      "relation": "补充主语的身份特质，说明他一贯的表现"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-91",
+  "sentenceId": "nce-1-lesson-091-sentence-011",
+  "sentenceOrder": 11,
+  "english": "He has always been a good neighbour.",
+  "lesson": "Lesson 91 Poor Ian!",
+  "notes": [
+    {
+      "title": "现在完成时表一贯状态",
+      "text": "句子使用has been这一现在完成时结构，表示从过去到现在的持续状态，always放在has和been中间，强化“一直、始终”的语义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合句子原意，语法标注、词义、英式音标均准确，仅存在两处标点使用不当的小问题：其一，单词表中neighbour的音标错误附带了句末的句号；其二，语义分块a good neighbour的释义错误附带了句末的句号，不影响核心语义理解，修正标点即可。（非逐句人工审核）"
+}

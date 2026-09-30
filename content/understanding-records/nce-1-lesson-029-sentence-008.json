@@ -1,0 +1,89 @@
+{
+  "chinese": "擦一擦梳妆台。",
+  "intent": "发出清扫整理卧室的具体指令，要求对方完成擦拭梳妆台的动作",
+  "comparison": null,
+  "backbone": {
+    "text": "Dust the dressing table.",
+    "meaning": "执行擦拭梳妆台这个家务动作"
+  },
+  "parts": [
+    {
+      "text": "Dust",
+      "relation": "指令要求执行的核心动作",
+      "meaning": "擦拭（作为指令要求的动作）"
+    },
+    {
+      "text": "the dressing table.",
+      "relation": "动作的执行对象",
+      "meaning": "那张梳妆台"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "指令类祈使句",
+      "text": "这是无主语的祈使句，直接用动作类实义动词开头，明确向听话人下达具体家务指令，无需额外添加人称主语。"
+    },
+    {
+      "title": "词性功能活用",
+      "text": "Dust在这里不表示名词‘灰尘’，活用为及物动词，意思是‘擦去灰尘、擦拭’，贴合家务场景的指令语义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Dust",
+      "role": "祈使句谓语（实义动词原形开头）",
+      "explanation": "用来发出动作指令，是整个句子要求执行的核心行为"
+    },
+    {
+      "text": "the dressing table",
+      "role": "动词的宾语",
+      "explanation": "明确说明擦拭这个动作的具体对象，指向特定的梳妆台"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "擦拭（本句作动词）",
+      "pos": "动词",
+      "phonetic": "/dʌst/",
+      "text": "Dust"
+    },
+    {
+      "meaning": "这个、那个（定冠词，限定后面的名词）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "梳妆（动名词，此处和table搭配构成固定名词短语dressing table表示梳妆台）",
+      "pos": "动名词",
+      "phonetic": "/ˈdresɪŋ/",
+      "text": "dressing"
+    },
+    {
+      "meaning": "桌子",
+      "pos": "名词",
+      "phonetic": "/ˈteɪbl/",
+      "text": "table."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-29",
+  "sentenceId": "nce-1-lesson-029-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Dust the dressing table.",
+  "lesson": "Lesson 29 Come in, Amy.",
+  "notes": [
+    {
+      "title": "指令类祈使句",
+      "text": "这是无主语的祈使句，直接用动作类实义动词开头，明确向听话人下达具体家务指令，无需额外添加人称主语。"
+    },
+    {
+      "title": "词性功能活用",
+      "text": "Dust在这里不表示名词‘灰尘’，活用为及物动词，意思是‘擦去灰尘、擦拭’，贴合家务场景的指令语义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析内容准确合规，仅存在局部细节疏漏可明确修正，不影响核心语义理解（非逐句人工审核）"
+}

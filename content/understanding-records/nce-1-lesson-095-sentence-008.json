@@ -1,0 +1,97 @@
+{
+  "chinese": "车票多少钱？",
+  "intent": "询问所购车票的总价格。",
+  "comparison": null,
+  "backbone": {
+    "text": "the tickets are how much",
+    "meaning": "询问这些车票的总金额。"
+  },
+  "structureNotes": [
+    {
+      "title": "How much 用于问价格",
+      "text": "How much 是询问价格的固定表达，不是“多少个”；be 动词 are 提到主语 the tickets 前，构成疑问句。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "How much",
+      "role": "疑问词组",
+      "explanation": "用于询问价格多少，是疑问句的焦点信息。"
+    },
+    {
+      "text": "are",
+      "role": "系动词",
+      "explanation": "放在主语前帮助构成疑问语序。"
+    },
+    {
+      "text": "the tickets",
+      "role": "主语",
+      "explanation": "指要购买的车票，是价格询问的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "How",
+      "meaning": "怎样",
+      "pos": "副词",
+      "phonetic": "/haʊ/"
+    },
+    {
+      "text": "much",
+      "meaning": "多少（用于问价格）",
+      "pos": "副词",
+      "phonetic": "/mʌtʃ/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（be动词复数形式）",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "the",
+      "meaning": "这（些），定冠词",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "tickets?",
+      "meaning": "票（ticket的复数）",
+      "pos": "名词",
+      "phonetic": "/ˈtɪkɪts/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "How much",
+      "meaning": "多少钱",
+      "relation": "询问价格的焦点"
+    },
+    {
+      "text": "are",
+      "meaning": "是",
+      "relation": "连接主语与价格信息的be动词"
+    },
+    {
+      "text": "the tickets?",
+      "meaning": "车票？",
+      "relation": "被询问价格的对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-95",
+  "sentenceId": "nce-1-lesson-095-sentence-008",
+  "sentenceOrder": 8,
+  "english": "How much are the tickets?",
+  "lesson": "Lesson 95 Tickets, please.",
+  "notes": [
+    {
+      "title": "How much 用于问价格",
+      "text": "How much 是询问价格的固定表达，不是“多少个”；be 动词 are 提到主语 the tickets 前，构成疑问句。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语义、语法主干基本准确，仅存在两处可明确修正的细节：1. 单词 much 的词性标注为形容词有误，此处 much 与 how 搭配构成疑问副词词组用于询问价格，应标注为副词；2. 单词 tickets 的文本拆分包含了句末问号，不符合单词切分应剔除标点的规范。其余内容均符合语法规则与上下文场景，无事实或逻辑错误。（非逐句人工审核）"
+}

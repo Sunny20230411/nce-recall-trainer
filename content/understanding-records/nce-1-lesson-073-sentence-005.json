@@ -1,0 +1,92 @@
+{
+  "chinese": "他不懂英语！",
+  "intent": "承接前文男子友善微笑的场景，说明这名男子无法听懂英语，是后续他改用德语说话的原因。",
+  "comparison": null,
+  "backbone": {
+    "text": "He did not understand English.",
+    "meaning": "他听不懂英语。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去时的否定结构",
+      "text": "过去时实义动词的否定需借助 did not，后续实义动词 understand 保持原形，不能说成 did not understood。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指前文提到的那名男子。"
+    },
+    {
+      "text": "did not understand English!",
+      "role": "谓语部分",
+      "explanation": "表示过去的否定状态。did not 用于构成过去时的否定，核心实义动词 understand 用原形，English 是 understand 的宾语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "did",
+      "meaning": "助动词 do 的过去式，用于构成否定或疑问；本句不单独译为“做”",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "not",
+      "meaning": "不、没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "understand",
+      "meaning": "听懂、理解、明白",
+      "pos": "动词",
+      "phonetic": "/ˌʌndəˈstænd/"
+    },
+    {
+      "text": "English!",
+      "meaning": "英语（句中是名词，指语言；不是形容词“英国的”）",
+      "pos": "名词（本句语境）",
+      "phonetic": "/ˈɪŋɡlɪʃ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "relation": "描述对象，指代前文出现的那名男子。"
+    },
+    {
+      "text": "did not understand",
+      "meaning": "没有听懂",
+      "relation": "对主语的状态作出否定描述，did not 表示过去时否定，核心实义动词是 understand。"
+    },
+    {
+      "text": "English!",
+      "meaning": "英语",
+      "relation": "动作的对象，说明听不懂的具体语言。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-73",
+  "sentenceId": "nce-1-lesson-073-sentence-005",
+  "sentenceOrder": 5,
+  "english": "He did not understand English!",
+  "lesson": "Lesson 73 The way to King Street",
+  "notes": [
+    {
+      "title": "过去时的否定结构",
+      "text": "过去时实义动词的否定需借助 did not，后续实义动词 understand 保持原形，不能说成 did not understood。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有主干、结构切分和翻译基本正确。`understand English` 同时含“听得懂”和“会英语”的语境；单词表只列“英语”，需要补足名词义并明确此处不是“英国的”。结构说明应避免把 `did` 说成独立的核心动作；否定由 did not 构成，核心实义动词是 understand。（非逐句人工审核）"
+}

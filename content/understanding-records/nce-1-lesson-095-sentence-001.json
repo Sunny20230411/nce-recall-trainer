@@ -1,0 +1,116 @@
+{
+  "chinese": "请给我两张去伦敦的往返票。",
+  "intent": "在售票窗口向工作人员提出购票请求。",
+  "comparison": null,
+  "backbone": {
+    "text": "Two return tickets to London, please.",
+    "meaning": "我要买两张去伦敦的往返票。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略式购票表达",
+      "text": "买票时常省略 I want / I'd like，直接说票种、数量和目的地，末尾加 please 表示礼貌。"
+    },
+    {
+      "title": "return tickets 的修饰顺序",
+      "text": "return 先于 tickets，表示“往返票”；to London 说明票的目的地是伦敦，不是到达伦敦后再买票。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Two",
+      "role": "数词",
+      "explanation": "修饰 tickets，表示数量是两张。"
+    },
+    {
+      "text": "return tickets",
+      "role": "名词短语",
+      "explanation": "return 修饰 tickets，表示往返票。"
+    },
+    {
+      "text": "to London",
+      "role": "介词短语",
+      "explanation": "补充说明 tickets 的目的地是伦敦。"
+    },
+    {
+      "text": "please.",
+      "role": "礼貌用语",
+      "explanation": "放在句末，表示请求时的礼貌语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Two",
+      "meaning": "二，两张",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "return",
+      "meaning": "往返的",
+      "pos": "名词作定语",
+      "phonetic": "/rɪˈtɜːn/"
+    },
+    {
+      "text": "tickets",
+      "meaning": "票",
+      "pos": "名词（复数）",
+      "phonetic": "/ˈtɪkɪts/"
+    },
+    {
+      "text": "to",
+      "meaning": "到……去",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "London,",
+      "meaning": "伦敦",
+      "pos": "专有名词",
+      "phonetic": "/ˈlʌndən/"
+    },
+    {
+      "text": "please.",
+      "meaning": "请",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Two return tickets",
+      "relation": "购票请求的核心对象",
+      "meaning": "两张往返票"
+    },
+    {
+      "text": "to London,",
+      "relation": "补充票的目的地",
+      "meaning": "去伦敦的"
+    },
+    {
+      "text": "please.",
+      "relation": "让请求显得礼貌",
+      "meaning": "请。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-95",
+  "sentenceId": "nce-1-lesson-095-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Two return tickets to London, please.",
+  "lesson": "Lesson 95 Tickets, please.",
+  "notes": [
+    {
+      "title": "省略式购票表达",
+      "text": "买票时常省略 I want / I'd like，直接说票种、数量和目的地，末尾加 please 表示礼貌。"
+    },
+    {
+      "title": "return tickets 的修饰顺序",
+      "text": "return 先于 tickets，表示“往返票”；to London 说明票的目的地是伦敦，不是到达伦敦后再买票。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体释义、分块、结构与说明基本可用，仅词表条目误将标点写进词形释义，并把 return 的形容词标注为普通形容词；按原块边界保留文本，仅更正这两处。（非逐句人工审核）"
+}

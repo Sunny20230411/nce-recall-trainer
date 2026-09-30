@@ -1,0 +1,129 @@
+{
+  "chinese": "站在柜台后面的那位女士。",
+  "intent": "承接上文“Who served you”的提问，用带定语的名词短语直接给出为顾客提供服务的人员的范围，无需再重复回答主谓结构，对应中文回答“是站在柜台后面的那位女士（为我服务的）”。",
+  "comparison": {
+    "chinese": "“站在柜台后面的那位女士”：中文先放位置描述“站在柜台后面的”，再接被修饰的“女士”，最后用“那位”特指。",
+    "english": "“The lady who is standing behind the counter”：英文先以特指的“The lady”开头，再用“who is standing behind the counter”补充说明是哪一位女士。",
+    "steps": [
+      {
+        "label": "梳理回答逻辑",
+        "text": "问题“Who served you, sir?”在问服务者是谁",
+        "explanation": "回答的核心是给出“the lady”，不需要重复主谓结构“她为我服务”，用名词短语即可对应中文的省略回答，避免和上文重复。"
+      },
+      {
+        "label": "拆解定语从句",
+        "text": "who is standing behind the counter",
+        "explanation": "关系代词who指代先行词the lady，同时在从句中作主语，描述这位女士当下所处的位置，用来从众多女士里锁定“站在柜台后面”的那一位。"
+      }
+    ],
+    "takeaway": "回答who的提问时可以直接用带限定修饰的名词短语，不必重复完整主谓；英文先行词在前、定语从句在后，中文常把修饰语放在被修饰名词前面。"
+  },
+  "backbone": {
+    "text": "The lady (who is standing behind the counter).",
+    "meaning": "（为我服务的是）那位站在柜台后面的女士。"
+  },
+  "structureNotes": [
+    {
+      "title": "定语从句的作用",
+      "text": "who引导的从句紧跟在the lady之后，who指代前面的the lady并作从句主语，用来补充说明这位女士当下正站在柜台后面的状态，缩小特指范围。"
+    },
+    {
+      "title": "对话中的省略表达",
+      "text": "这是对上文“Who served you”的简短回答，完整意思相当于“The lady who is standing behind the counter served me”，对话语境中省略了与上文重复的谓语部分，只保留核心指人名词短语即可表意清晰。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The lady",
+      "role": "先行核心名词",
+      "explanation": "整个回答的核心被指对象，用定冠词the特指谈话双方都能指向的这位女士。"
+    },
+    {
+      "text": "who is standing behind the counter",
+      "role": "限制性定语从句",
+      "explanation": "由关系代词who引导，who指代the lady并在从句中充当主语，从句使用现在进行时，说明女士当下正处于站在柜台后的状态，用于限定是哪一位女士。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "（定冠词，特指双方都知道的人/物）",
+      "pos": "determiner",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "lady",
+      "meaning": "女士",
+      "pos": "noun",
+      "phonetic": "/ˈleɪdi/"
+    },
+    {
+      "text": "who",
+      "meaning": "（关系代词，指代人，在从句中作主语）",
+      "pos": "relative pronoun",
+      "phonetic": "/huː/"
+    },
+    {
+      "text": "is",
+      "meaning": "（be动词，与现在分词构成进行时）",
+      "pos": "verb",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "standing",
+      "meaning": "站立（现在分词）",
+      "pos": "verb",
+      "phonetic": "/ˈstændɪŋ/"
+    },
+    {
+      "text": "behind",
+      "meaning": "在……的后面",
+      "pos": "preposition",
+      "phonetic": "/bɪˈhaɪnd/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，特指该场所的柜台）",
+      "pos": "determiner",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "counter.",
+      "meaning": "柜台（末尾的句号为原句句末标点，不属于单词本身）",
+      "pos": "noun",
+      "phonetic": "/ˈkaʊntə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The lady",
+      "meaning": "那位女士",
+      "relation": "被修饰的核心先行名词，是整个回答的指称对象"
+    },
+    {
+      "text": "who is standing behind the counter.",
+      "meaning": "正站在柜台后面的",
+      "relation": "修饰限定the lady，说明这位女士当下所处的位置，锁定具体是哪一位女士"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-97",
+  "sentenceId": "nce-1-lesson-097-sentence-003",
+  "sentenceOrder": 3,
+  "english": "The lady who is standing behind the counter.",
+  "lesson": "Lesson 97 A small blue case",
+  "notes": [
+    {
+      "title": "定语从句的作用",
+      "text": "who引导的从句紧跟在the lady之后，who指代前面的the lady并作从句主语，用来补充说明这位女士当下正站在柜台后面的状态，缩小特指范围。"
+    },
+    {
+      "title": "对话中的省略表达",
+      "text": "这是对上文“Who served you”的简短回答，完整意思相当于“The lady who is standing behind the counter served me”，对话语境中省略了与上文重复的谓语部分，只保留核心指人名词短语即可表意清晰。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体讲解清晰，符合作为简略答句的语法定位，定语从句关系词、语序对比、对话省略的说明均准确。仅存在两处需要明确的小问题：1. 单词表中末尾的counter.带句号，翻译说明未明确该句号属于原句句末标点，不属于单词本身拼写；2. 未提示who在引导定语从句时可直接指代人并在从句中作主语的用法，对中文母语学习者来说这个衔接关系需要明确点明。其余内容无语法错误、无词义误导、指代关系正确。（非逐句人工审核）"
+}

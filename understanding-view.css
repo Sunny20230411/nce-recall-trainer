@@ -1,0 +1,52 @@
+.sentence-understanding { width: 100%; min-width: 0; max-width: 760px; margin: 0 auto; text-align: left; overflow-wrap: anywhere; font-size: 15px; line-height: 1.7; }
+.drill-card.analysis-mode .chinese { display: none; }
+.understanding-original { font-size: 20px; font-weight: 650; margin: 0 0 8px; }
+.understanding-section { margin: 18px 0; }
+.understanding-section > h2 { font-size: 16px; line-height: 1.5; margin: 0 0 8px; }
+.understanding-section > p { margin: 0 0 8px; white-space: pre-line; }
+.understanding-backbone { font-weight: 600; }
+.understanding-comparison-steps { padding-left: 22px; margin: 14px 0; }
+.understanding-comparison-steps li { margin: 14px 0; padding-left: 2px; }
+.understanding-comparison-steps h3 { font-size: 14px; margin: 0 0 6px; }
+.understanding-comparison-steps p { margin: 6px 0; white-space: pre-line; }
+.understanding-step-expression { font-weight: 600; padding-left: 12px; border-left: 3px solid #cad4e0; }
+.understanding-takeaway { margin-top: 14px !important; font-weight: 600; }
+.understanding-translation { margin: 0 0 14px; }
+.understanding-intent { color: #526173; margin: 0 0 16px; }
+.understanding-parts { display: grid; gap: 0; border-top: 1px solid #cad4e0; }
+.understanding-part { padding: 10px 0; border-bottom: 1px solid #cad4e0; }
+.understanding-part strong { display: block; font-size: 17px; }
+.understanding-part > span { color: #526173; font-size: 12px; }
+.understanding-part p { margin: 2px 0 0; }
+.understanding-notes { margin: 18px 0; }
+.understanding-notes section { margin: 14px 0; }
+.understanding-notes h3 { margin: 0 0 4px; font-size: 15px; }
+.understanding-notes p { margin: 0; white-space: pre-line; }
+.understanding-details { border-top: 1px solid #cad4e0; padding: 10px 0; }
+.understanding-details summary { cursor: pointer; font-size: 14px; font-weight: 600; }
+.understanding-word-table { width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 13px; margin-top: 10px; }
+.understanding-word-table caption { text-align: left; color: #526173; font-size: 12px; margin-bottom: 6px; }
+.understanding-word-table .word-col { width: 22%; }
+.understanding-word-table .phonetic-col { width: 24%; }
+.understanding-word-table .meaning-col { width: 34%; }
+.understanding-word-table .pos-col { width: 20%; }
+.understanding-word-table th, .understanding-word-table td { padding: 8px 5px; vertical-align: top; text-align: left; border-bottom: 1px solid #cad4e0; overflow-wrap: anywhere; }
+.understanding-word-table thead th { font-weight: 600; color: #526173; }
+.understanding-word-table tbody th { font-weight: 600; }
+.understanding-word-table .understanding-word-play { display: block; max-width: 100%; min-height: 32px; padding: 3px 0; border: 0; border-radius: 4px; background: transparent; color: inherit; font: inherit; font-weight: 600; text-align: left; white-space: normal; overflow-wrap: anywhere; cursor: pointer; text-decoration: underline; text-decoration-color: #9aaac0; text-underline-offset: 4px; }
+.understanding-word-table .understanding-word-play:hover, .understanding-word-table .understanding-word-play:active { color: #345bd1; background: #345bd112; }
+.understanding-word-table .understanding-word-play:focus-visible { outline: 2px solid #6386ee; outline-offset: 2px; }
+.understanding-word-table .understanding-word-play:disabled { cursor: default; text-decoration: none; opacity: .65; }
+body[data-theme=dark] .understanding-word-table .understanding-word-play:hover, body[data-theme=dark] .understanding-word-table .understanding-word-play:active { color: #a9beff; }
+.understanding-structures { list-style: none; padding: 12px 0 0; margin: 0; }
+.understanding-structures li { margin-bottom: 12px; }
+.understanding-structures span { display: block; font-size: 12px; color: #526173; }
+.understanding-structures p { margin: 2px 0; }
+body[data-theme=dark] .understanding-intent, body[data-theme=dark] .understanding-part > span, body[data-theme=dark] .understanding-word-table caption, body[data-theme=dark] .understanding-word-table thead th, body[data-theme=dark] .understanding-structures span { color: #bbc7d6; }
+@media(max-width:660px) {
+  .sentence-understanding { font-size: 14px; line-height: 1.65; }
+  .understanding-original { font-size: 17px; }
+  .understanding-part strong { font-size: 15px; }
+  .understanding-notes h3 { font-size: 14px; }
+  .understanding-section > h2 { font-size: 15px; }
+}

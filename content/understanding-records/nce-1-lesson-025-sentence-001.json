@@ -1,0 +1,92 @@
+{
+  "chinese": "史密斯太太的厨房很小。",
+  "intent": "陈述史密斯太太的厨房的规模状态，说明它面积不大。",
+  "comparison": null,
+  "backbone": {
+    "text": "Mrs. Smith's kitchen is small.",
+    "meaning": "史密斯太太的厨房规模很小。"
+  },
+  "parts": [
+    {
+      "text": "Mrs. Smith's kitchen",
+      "relation": "本句的描述主体",
+      "meaning": "史密斯太太的厨房"
+    },
+    {
+      "text": "is",
+      "relation": "连接主体和它的属性特征",
+      "meaning": "表示存在、处于某种状态的联系动词"
+    },
+    {
+      "text": "small.",
+      "relation": "补充说明厨房的尺寸属性",
+      "meaning": "很小"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "名词所有格的作用",
+      "text": "Mrs. Smith's 是名词所有格，直接附在人名后加's，用来表示这个厨房属于史密斯太太所有，不用额外加表示所属的汉字以外的多余连接词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Mrs. Smith's kitchen",
+      "role": "名词性主语",
+      "explanation": "明确指出本句要描述的具体对象，即归属史密斯太太的那间厨房。"
+    },
+    {
+      "text": "is small",
+      "role": "系表合成谓语",
+      "explanation": "通过联系动词is衔接形容词small，直接说明主语厨房具备“偏小”的尺寸特征。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "夫人、太太（已婚女性的尊称）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪsɪz/",
+      "text": "Mrs."
+    },
+    {
+      "meaning": "史密斯的（名词所有格，表示归属）",
+      "pos": "名词所有格",
+      "phonetic": "/smɪθs/",
+      "text": "Smith's"
+    },
+    {
+      "meaning": "厨房",
+      "pos": "名词",
+      "phonetic": "/ˈkɪtʃɪn/",
+      "text": "kitchen"
+    },
+    {
+      "meaning": "是（联系动词，衔接主语与属性）",
+      "pos": "be动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "小的，不大的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/",
+      "text": "small."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-25",
+  "sentenceId": "nce-1-lesson-025-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Mrs. Smith's kitchen is small.",
+  "lesson": "Lesson 25 Mrs. Smith's kitchen",
+  "notes": [
+    {
+      "title": "名词所有格的作用",
+      "text": "Mrs. Smith's 是名词所有格，直接附在人名后加's，用来表示这个厨房属于史密斯太太所有，不用额外加表示所属的汉字以外的多余连接词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本符合教学解析要求，仅存在局部细节错误与不严谨问题，可针对性修正后满足教学标准（非逐句人工审核）"
+}

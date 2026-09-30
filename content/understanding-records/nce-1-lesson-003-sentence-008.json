@@ -1,0 +1,86 @@
+{
+  "chinese": "这是您的伞吗？",
+  "intent": "向对方询问眼前的物品是不是对方所有的雨伞，核实物品归属",
+  "comparison": null,
+  "backbone": {
+    "text": "Is this your umbrella?",
+    "meaning": "询问眼前物品是否属于对方的雨伞"
+  },
+  "parts": [
+    {
+      "text": "Is",
+      "relation": "系动词，承担一般疑问语序的前置引导功能",
+      "meaning": "置于句首的疑问系动词，用于引导对事物属性、归属的疑问句"
+    },
+    {
+      "text": "this",
+      "relation": "本句的主语，指代眼前近处的单数物品",
+      "meaning": "指代眼前的这个物品"
+    },
+    {
+      "text": "your umbrella?",
+      "relation": "系动词之后的表语部分，说明要核实的物品所属与品类",
+      "meaning": "您的/你的雨伞"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般疑问句语序",
+      "text": "本句将系动词Is放到句首，不再借用助动词do，直接把常规陈述句This is your umbrella调整语序就构成询问归属的一般疑问句。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is this",
+      "role": "疑问引导核心片段",
+      "explanation": "用来发起对近处物品身份的确认询问"
+    },
+    {
+      "text": "your umbrella",
+      "role": "询问的核心内容",
+      "explanation": "指明要核实的物品是属于对方的雨伞"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是（系动词，用于一般疑问句开头表疑问）",
+      "pos": "动词",
+      "phonetic": "/ɪz/",
+      "text": "Is"
+    },
+    {
+      "meaning": "这，这个（指代近处的单数物品）",
+      "pos": "代词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "你的，您的（第二人称形容词性物主代词）",
+      "pos": "限定词",
+      "phonetic": "/jɔː(r)/",
+      "text": "your"
+    },
+    {
+      "meaning": "雨伞",
+      "pos": "名词",
+      "phonetic": "/ʌmˈbrelə/",
+      "text": "umbrella?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-3",
+  "sentenceId": "nce-1-lesson-003-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Is this your umbrella?",
+  "lesson": "Lesson 3 Sorry, sir.",
+  "notes": [
+    {
+      "title": "一般疑问句语序",
+      "text": "本句将系动词Is放到句首，不再借用助动词do，直接把常规陈述句This is your umbrella调整语序就构成询问归属的一般疑问句。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析框架完整，仅存在局部细节表述不够严谨的问题，可通过补丁修正优化准确性（非逐句人工审核）"
+}

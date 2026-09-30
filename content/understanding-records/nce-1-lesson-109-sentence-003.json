@@ -1,0 +1,128 @@
+{
+  "chinese": "咖啡好了。你要加牛奶吗？",
+  "intent": "告知饮品已经准备妥当，同时用委婉的语气询问对方是否想要在饮品中加入牛奶。",
+  "comparison": {
+    "chinese": "我们说“咖啡好了”，会直接补全语境里的饮品对象；问“你要加牛奶吗”，会点明“加进咖啡里”这个动作关系。",
+    "english": "英文用It指代前文刚提过的coffee，直接说It's ready，再用Do you want any milk?提问，以委婉询问的语气确认对方是否需要牛奶，不会额外补充“加进咖啡里”的动作描述。",
+    "steps": [
+      {
+        "label": "指代用法",
+        "text": "It's ready.",
+        "explanation": "这里的It指代前文讨论的coffee，英文顺着上下文直接用代词承接，不需要重复完整名词。"
+      },
+      {
+        "label": "疑问结构",
+        "text": "Do you want any milk?",
+        "explanation": "Do放在主语you前构成一般疑问，核心问“你想要牛奶吗”，any用于疑问句中修饰不可数名词milk，以委婉的语气确认对方的需求，没有直接译出“加进咖啡”的动作。"
+      }
+    ],
+    "takeaway": "理解这类简短口语时，要结合前文把代词It还原为对应的事物，同时注意英文疑问句中any的委婉询问语气，不要生硬按字面直译。"
+  },
+  "backbone": {
+    "text": "It's ready. Do you want any milk?",
+    "meaning": "咖啡已经准备好了，委婉询问对方是否想要牛奶。"
+  },
+  "structureNotes": [
+    {
+      "title": "代词指代",
+      "text": "前一句的It指代上文提到的coffee，是英语口语中避免重复前文名词的常见用法，不需要逐字把It翻译成“它”。"
+    },
+    {
+      "title": "any的疑问用法",
+      "text": "在一般疑问句Do you want...?中，any用来修饰不可数名词milk，表示“任何（量的）牛奶”，以委婉的语气向对方确认意愿。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's ready.",
+      "role": "主系表结构的陈述句",
+      "explanation": "It指代前文提到的coffee，系动词is和形容词ready构成表语，说明饮品已经制作完成，可以饮用。"
+    },
+    {
+      "text": "Do you want any milk?",
+      "role": "一般疑问句",
+      "explanation": "助动词Do放在主语you之前构成疑问语序，谓语是实义动词want，any milk是动词want的宾语，用于委婉询问对方是否需要牛奶。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "它（指代前文的咖啡），是It is的缩写形式",
+      "pos": "缩写结构（代词+系动词）",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "ready.",
+      "meaning": "准备好的、就绪的",
+      "pos": "形容词",
+      "phonetic": "/ˈredi/"
+    },
+    {
+      "text": "Do",
+      "meaning": "（助动词，构成疑问句）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要",
+      "pos": "动词",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "any",
+      "meaning": "任何的",
+      "pos": "限定词",
+      "phonetic": "/ˈeni/"
+    },
+    {
+      "text": "milk?",
+      "meaning": "牛奶",
+      "pos": "名词",
+      "phonetic": "/mɪlk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's ready.",
+      "meaning": "咖啡好了。",
+      "relation": "告知对象状态，说明准备好的饮品"
+    },
+    {
+      "text": "Do you",
+      "meaning": "你……吗？（疑问引导）",
+      "relation": "构成一般疑问句的引导部分"
+    },
+    {
+      "text": "want any milk?",
+      "meaning": "想要牛奶吗？",
+      "relation": "询问对方的具体意愿，说明询问的核心内容"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-109",
+  "sentenceId": "nce-1-lesson-109-sentence-003",
+  "sentenceOrder": 3,
+  "english": "It's ready. Do you want any milk?",
+  "lesson": "Lesson 109 A good idea",
+  "notes": [
+    {
+      "title": "代词指代",
+      "text": "前一句的It指代上文提到的coffee，是英语口语中避免重复前文名词的常见用法，不需要逐字把It翻译成“它”。"
+    },
+    {
+      "title": "any的疑问用法",
+      "text": "在一般疑问句Do you want...?中，any用来修饰不可数名词milk，表示“任何（量的）牛奶”，以委婉的语气向对方确认意愿。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合语境，代词指代、any的用法说明、结构拆分和主干提取都准确。仅两处可微调：It's的词性标注将缩写词归为代词+系动词缩写不够规范，句子中文未体现原句“要不要任何牛奶”的委婉询问语气。（非逐句人工审核）"
+}

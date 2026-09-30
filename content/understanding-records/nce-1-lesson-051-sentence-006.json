@@ -1,0 +1,224 @@
+{
+  "chinese": "三月经常刮风。四月和五月总是很暖和，但有时会下雨。",
+  "intent": "介绍春季月份（三月、四月、五月）对应的天气特征。",
+  "comparison": null,
+  "backbone": {
+    "text": "三月常刮风；四五月总暖和，但有时下雨。",
+    "meaning": "描述春季三个月各自的典型天气状况。"
+  },
+  "structureNotes": [
+    {
+      "title": "英语描述天气的常用结构",
+      "text": "描述天气时常用It's + 天气形容词的结构，这里It指代天气，不指具体事物；often、always这类频率副词通常放在be动词之后、形容词之前。"
+    },
+    {
+      "title": "月份前的介词与频率副词",
+      "text": "在某个月份用介词in引出时间状语，说明天气状况发生的时间范围；sometimes可放在句末修饰rains，表示下雨的频率。"
+    },
+    {
+      "title": "转折并列的两个分句",
+      "text": "but连接两个独立分句，先说明四五月普遍温暖，再转折补充也会出现下雨的情况，前后是对比转折关系。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "主语+系动词",
+      "explanation": "It指代天气；is是系动词，与表语一起说明天气属性；缩写形式为It's。"
+    },
+    {
+      "text": "often windy",
+      "role": "频率副词+表语",
+      "explanation": "windy是形容词作表语，描述天气多风；often放在be动词和形容词之间，表示频率。"
+    },
+    {
+      "text": "in March.",
+      "role": "时间状语",
+      "explanation": "介词in引出月份，说明“刮风”这个天气发生的时间范围。"
+    },
+    {
+      "text": "It's",
+      "role": "主语+系动词",
+      "explanation": "It同样指代天气，is是系动词，缩写形式为It's。"
+    },
+    {
+      "text": "always warm",
+      "role": "频率副词+表语",
+      "explanation": "warm作表语描述天气温暖；always放在be动词和形容词之间，表示频率。"
+    },
+    {
+      "text": "in April and May,",
+      "role": "时间状语",
+      "explanation": "介词in引出两个并列月份，说明“温暖”的时间范围。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "连接前后两个分句，表转折对比：前面说普遍温暖，后面补充存在下雨的情况。"
+    },
+    {
+      "text": "it",
+      "role": "主语",
+      "explanation": "同样指代天气，在转折后的分句中作主语。"
+    },
+    {
+      "text": "rains",
+      "role": "谓语",
+      "explanation": "实义动词rain的第三人称单数形式，表示“下雨”这个动作。"
+    },
+    {
+      "text": "sometimes.",
+      "role": "频率副词状语",
+      "explanation": "放在句末修饰动词rains，说明下雨这个动作的发生频率是“有时”。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "它是（此处指代天气）",
+      "pos": "代词+动词",
+      "phonetic": "/ɪts/，完整形式为It is /ɪt ɪz/。",
+      "text": "It's"
+    },
+    {
+      "meaning": "经常",
+      "pos": "副词",
+      "phonetic": "/ˈɒfn/",
+      "text": "often"
+    },
+    {
+      "meaning": "多风的、有风的",
+      "pos": "形容词",
+      "phonetic": "/ˈwɪndi/",
+      "text": "windy"
+    },
+    {
+      "meaning": "在（某月份）",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "三月",
+      "pos": "名词",
+      "phonetic": "/mɑːtʃ/，词后句点不参与音标。",
+      "text": "March."
+    },
+    {
+      "meaning": "它是（此处指代天气）",
+      "pos": "代词+动词",
+      "phonetic": "/ɪts/，完整形式为It is /ɪt ɪz/。",
+      "text": "It's"
+    },
+    {
+      "meaning": "总是",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/",
+      "text": "always"
+    },
+    {
+      "meaning": "温暖的",
+      "pos": "形容词",
+      "phonetic": "/wɔːm/",
+      "text": "warm"
+    },
+    {
+      "meaning": "在（某月份）",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "四月",
+      "pos": "名词",
+      "phonetic": "/ˈeɪprəl/",
+      "text": "April"
+    },
+    {
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "五月",
+      "pos": "名词",
+      "phonetic": "/meɪ/，词后逗号不参与音标。",
+      "text": "May,"
+    },
+    {
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/",
+      "text": "but"
+    },
+    {
+      "meaning": "它（此处指代天气）",
+      "pos": "代词",
+      "phonetic": "/ɪt/",
+      "text": "it"
+    },
+    {
+      "meaning": "下雨（动词第三人称单数形式）",
+      "pos": "动词",
+      "phonetic": "/reɪnz/",
+      "text": "rains"
+    },
+    {
+      "meaning": "有时",
+      "pos": "副词",
+      "phonetic": "/ˈsʌmtaɪmz/，词后句点不参与音标。",
+      "text": "sometimes."
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's often windy",
+      "relation": "描述天气的核心谓语部分",
+      "meaning": "天气经常是多风的"
+    },
+    {
+      "text": "in March.",
+      "relation": "说明刮风这个天气发生的时间",
+      "meaning": "在三月"
+    },
+    {
+      "text": "It's always warm",
+      "relation": "描述后续月份天气的核心谓语部分",
+      "meaning": "天气总是暖和的"
+    },
+    {
+      "text": "in April and May,",
+      "relation": "说明温暖这个天气发生的时间范围",
+      "meaning": "在四月和五月"
+    },
+    {
+      "text": "but it rains sometimes.",
+      "relation": "转折补充四五月偶尔出现的天气情况。",
+      "meaning": "但有时会下雨"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-51",
+  "sentenceId": "nce-1-lesson-051-sentence-006",
+  "sentenceOrder": 6,
+  "english": "It's often windy in March. It's always warm in April and May, but it rains sometimes.",
+  "lesson": "Lesson 51 A pleasant climate",
+  "notes": [
+    {
+      "title": "英语描述天气的常用结构",
+      "text": "描述天气时常用It's + 天气形容词的结构，这里It指代天气，不指具体事物；often、always这类频率副词通常放在be动词之后、形容词之前。"
+    },
+    {
+      "title": "月份前的介词与频率副词",
+      "text": "在某个月份用介词in引出时间状语，说明天气状况发生的时间范围；sometimes可放在句末修饰rains，表示下雨的频率。"
+    },
+    {
+      "title": "转折并列的两个分句",
+      "text": "but连接两个独立分句，先说明四五月普遍温暖，再转折补充也会出现下雨的情况，前后是对比转折关系。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有英文原句、中文翻译、主干、词义与大部分语法标注基本可用；需修正把in引出的月份状语误称为地点状语、It's中is被说成无实义、频率副词顺序标注不准，以及March.的词性与音标连写问题。（非逐句人工审核）"
+}

@@ -1,0 +1,150 @@
+{
+  "chinese": "好吧，我自己喝茶。",
+  "intent": "说话人意会对方无法一同享用茶点，决定独自喝茶，带有接受安排的释然感。",
+  "comparison": {
+    "chinese": "“我自己喝茶”把“独自”直接前置在动作前；英文则是先说出“我要喝茶”，再用 by myself 补出独自的方式。",
+    "english": "Well, I'll have tea by myself.",
+    "steps": [
+      {
+        "label": "先接语气词",
+        "text": "Well,",
+        "explanation": "Well 位于句首，表示顺着前文的小转折，翻译时对应“好吧”的语气，不是实际动作的一部分。"
+      },
+      {
+        "label": "先说出核心动作",
+        "text": "I'll have tea",
+        "explanation": "have tea 是“喝茶、用茶点”的惯用搭配，I'll 表示这是说话人接下来打算做的事。"
+      },
+      {
+        "label": "补充动作方式",
+        "text": "by myself",
+        "explanation": "by myself 放在句末，说明这个喝茶动作是独自进行的，翻译时自然放到“自己”的位置，和中文语序习惯一致。"
+      }
+    ],
+    "takeaway": "英文先交代要做什么事，再用介词短语补出“独自”这个动作方式；不像中文会把“自己”直接放在动词前面。"
+  },
+  "backbone": {
+    "text": "I'll have tea by myself.",
+    "meaning": "我打算独自享用茶点。"
+  },
+  "structureNotes": [
+    {
+      "title": "have tea 的惯用搭配",
+      "text": "这里的 have 不是“拥有”，是和 tea 搭配的惯用表达，表示喝茶、用茶点，和中文“喝茶”的含义对应。"
+    },
+    {
+      "title": "by myself 表方式",
+      "text": "by myself 是介词短语放在句末，说明“喝茶”这个动作是独自完成的，不跟其他人一起。"
+    },
+    {
+      "title": "I'll 的时态含义",
+      "text": "I'll 是 I will 的缩写，表示说话人当下做出的打算，即接下来要独自喝茶，不是正在进行的动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Well,",
+      "role": "语气插入语",
+      "explanation": "放在句首传递释然、顺承的语气，和句子主干内容没有句法上的从属关系。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "是后半句动作的发出者，指代说话人本人。"
+    },
+    {
+      "text": "'ll",
+      "role": "将来时助动词（will 的缩写）",
+      "explanation": "和后面的动词原形 have 配合，表示这是说话人当下做出的打算。"
+    },
+    {
+      "text": "have tea",
+      "role": "谓语+宾语的核心动宾结构",
+      "explanation": "是整个句子要传达的核心动作，即享用茶点。"
+    },
+    {
+      "text": "by myself",
+      "role": "方式状语",
+      "explanation": "补充说明“喝茶”这个动作是说话人独自完成的，没有他人陪同。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "好吧（语气词）",
+      "pos": "感叹词",
+      "phonetic": "/wel/",
+      "text": "Well,"
+    },
+    {
+      "meaning": "我将（I will 的缩写）",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/aɪl/",
+      "text": "I'll"
+    },
+    {
+      "meaning": "享用（茶点）",
+      "pos": "动词",
+      "phonetic": "/hæv/",
+      "text": "have"
+    },
+    {
+      "meaning": "茶；茶点",
+      "pos": "名词",
+      "phonetic": "/tiː/",
+      "text": "tea"
+    },
+    {
+      "meaning": "通过；凭借",
+      "pos": "介词",
+      "phonetic": "/baɪ/",
+      "text": "by"
+    },
+    {
+      "meaning": "我自己（反身代词）",
+      "pos": "反身代词",
+      "phonetic": "/maɪˈself/",
+      "text": "myself."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Well,",
+      "meaning": "好吧（带释然语气的语气词）",
+      "relation": "引出说话人接受安排的语气"
+    },
+    {
+      "text": "I'll have tea",
+      "meaning": "我将要喝茶",
+      "relation": "句子核心：说话人接下来打算做的事"
+    },
+    {
+      "text": "by myself.",
+      "meaning": "独自地，独自一人（搭配使用）",
+      "relation": "补充说明：喝茶是独自一人完成的，没有他人陪同"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-125",
+  "sentenceId": "nce-1-lesson-125-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Well, I'll have tea by myself.",
+  "lesson": "Lesson 125 Tea for two",
+  "notes": [
+    {
+      "title": "have tea 的惯用搭配",
+      "text": "这里的 have 不是“拥有”，是和 tea 搭配的惯用表达，表示喝茶、用茶点，和中文“喝茶”的含义对应。"
+    },
+    {
+      "title": "by myself 表方式",
+      "text": "by myself 是介词短语放在句末，说明“喝茶”这个动作是独自完成的，不跟其他人一起。"
+    },
+    {
+      "title": "I'll 的时态含义",
+      "text": "I'll 是 I will 的缩写，表示说话人当下做出的打算，即接下来要独自喝茶，不是正在进行的动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体句法、词义、搭配和语境解释准确；仅 parts 中 by myself. 的释义过于简略，按分块补为完整短语含义，text 与 relation 不改动。（非逐句人工审核）"
+}

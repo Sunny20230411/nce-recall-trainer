@@ -1,0 +1,81 @@
+{
+  "chinese": "早上好，布莱克先生。",
+  "intent": "日常见面时向布莱克先生礼貌问候，表达早安的友好致意。",
+  "comparison": null,
+  "backbone": {
+    "text": "Good morning, Mr. Blake.",
+    "meaning": "向布莱克先生道早安"
+  },
+  "parts": [
+    {
+      "text": "Good morning,",
+      "relation": "核心问候内容",
+      "meaning": "早上好"
+    },
+    {
+      "text": "Mr. Blake.",
+      "relation": "问候的对象",
+      "meaning": "布莱克先生"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "称呼的位置",
+      "text": "英文里向特定对象问候时，会把称呼放在问候语的后面，用逗号隔开，中文的习惯也是同样的语序，理解上没有顺序障碍。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Good morning",
+      "role": "问候语",
+      "explanation": "用来在早上时段向他人表达早安的礼貌用语。"
+    },
+    {
+      "text": "Mr. Blake",
+      "role": "称呼语",
+      "explanation": "点明本次问候的具体对象，用于明确致意的接收人。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "用于早安问候的固定搭配组成部分，不单独直译“好的”",
+      "pos": "限定词",
+      "phonetic": "/ɡʊd/",
+      "text": "Good"
+    },
+    {
+      "meaning": "早晨，早上",
+      "pos": "名词",
+      "phonetic": "/ˈmɔːnɪŋ/",
+      "text": "morning,"
+    },
+    {
+      "meaning": "先生（用于男子姓氏前的尊称）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪstə(r)/",
+      "text": "Mr."
+    },
+    {
+      "meaning": "布莱克（姓氏）",
+      "pos": "名词",
+      "phonetic": "/bleɪk/",
+      "text": "Blake."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-5",
+  "sentenceId": "nce-1-lesson-005-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Good morning, Mr. Blake.",
+  "lesson": "Lesson 5 Nice to meet you.",
+  "notes": [
+    {
+      "title": "称呼的位置",
+      "text": "英文里向特定对象问候时，会把称呼放在问候语的后面，用逗号隔开，中文的习惯也是同样的语序，理解上没有顺序障碍。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析框架合规，仅存在局部细节瑕疵，可修正完善（非逐句人工审核）"
+}

@@ -1,0 +1,117 @@
+{
+  "chinese": "不，不是那一个。红色的那一个。",
+  "intent": "用于回应对方的物品指代确认，先否定对方所指的那一件物品，再明确指出目标是红色的那一件物品",
+  "comparison": null,
+  "backbone": {
+    "text": "not that one. The red one.",
+    "meaning": "否定指向的那一件，说明目标是红色的那一件"
+  },
+  "parts": [
+    {
+      "text": "No,",
+      "relation": "直接回应对方之前的询问",
+      "meaning": "单独表示否定的应答"
+    },
+    {
+      "text": "not that one.",
+      "relation": "补充说明否定的具体内容",
+      "meaning": "否定对方提及的那一个物品"
+    },
+    {
+      "text": "The red one.",
+      "relation": "明确给出正确的指代对象",
+      "meaning": "指出目标是红色的那一个物品"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "口语省略表达",
+      "text": "这两句都是日常对话里的省略形式，完整还原理解可以是It is not that one 和It is the red one，省略了对话里双方默认的主语和be动词，符合口语简洁的特点。"
+    },
+    {
+      "title": "one的指代作用",
+      "text": "句中的one是代词，用来指代前文提到的可数物品，这里承接上下文指代对方正在询问的物品，避免重复说出具体物品名称。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "否定应答语",
+      "explanation": "直接对对方的询问给出否定的第一反应"
+    },
+    {
+      "text": "not that one.",
+      "role": "否定性名词短语",
+      "explanation": "说明被选中的不是此前指向的那一件物品，用代词one替代前文提到的书"
+    },
+    {
+      "text": "The red one.",
+      "role": "指代性名词短语",
+      "explanation": "通过颜色限定明确指出正确的目标物品，one依然指代前文提到的书"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "不",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/",
+      "text": "No,"
+    },
+    {
+      "meaning": "不是",
+      "pos": "副词",
+      "phonetic": "/nɒt/",
+      "text": "not"
+    },
+    {
+      "meaning": "那个",
+      "pos": "限定词",
+      "phonetic": "/ðæt/",
+      "text": "that"
+    },
+    {
+      "meaning": "一个（指代前文的书）",
+      "pos": "代词",
+      "phonetic": "/wʌn/",
+      "text": "one."
+    },
+    {
+      "meaning": "这个，定指",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "红色的",
+      "pos": "形容词",
+      "phonetic": "/red/",
+      "text": "red"
+    },
+    {
+      "meaning": "一个（指代前文的书）",
+      "pos": "代词",
+      "phonetic": "/wʌn/",
+      "text": "one."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-21",
+  "sentenceId": "nce-1-lesson-021-sentence-004",
+  "sentenceOrder": 4,
+  "english": "No, not that one. The red one.",
+  "lesson": "Lesson 21 Which book?",
+  "notes": [
+    {
+      "title": "口语省略表达",
+      "text": "这两句都是日常对话里的省略形式，完整还原理解可以是It is not that one 和It is the red one，省略了对话里双方默认的主语和be动词，符合口语简洁的特点。"
+    },
+    {
+      "title": "one的指代作用",
+      "text": "句中的one是代词，用来指代前文提到的可数物品，这里承接上下文指代对方正在询问的物品，避免重复说出具体物品名称。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在局部信息遗漏、字段内容重复、comparison未补充的可修正问题（非逐句人工审核）"
+}

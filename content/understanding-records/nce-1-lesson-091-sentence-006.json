@@ -1,0 +1,100 @@
+{
+  "chinese": "他打算明天搬家。",
+  "intent": "说明他计划明天搬家。",
+  "comparison": null,
+  "backbone": {
+    "text": "He's going to move.",
+    "meaning": "他打算搬家。"
+  },
+  "structureNotes": [
+    {
+      "title": "be going to 表打算",
+      "text": "He's = He is，be going to 表示按照计划、打算将要做某事，不是正在进行。"
+    },
+    {
+      "title": "时间位置",
+      "text": "tomorrow 放在句末，说明 move 发生的时间，汉语常说“明天搬”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He's going to move",
+      "role": "谓语",
+      "explanation": "He is going to move，is 与 going to 连用，move 为动词原形，表示打算搬家。"
+    },
+    {
+      "text": "tomorrow",
+      "role": "时间状语",
+      "explanation": "说明搬家的时间是明天。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He's",
+      "meaning": "他是（He is 的缩写）",
+      "pos": "代词+be动词缩写",
+      "phonetic": "/hiz/"
+    },
+    {
+      "text": "going",
+      "meaning": "去（与 be、to 构成 be going to，表打算）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "到（此处与 be going to 连用，后接动词原形）",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "move",
+      "meaning": "搬家",
+      "pos": "动词",
+      "phonetic": "/muːv/"
+    },
+    {
+      "text": "tomorrow.",
+      "meaning": "明天",
+      "pos": "副词",
+      "phonetic": "/təˈmɒrəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He's",
+      "meaning": "他",
+      "relation": "主语（He is 的缩写）"
+    },
+    {
+      "text": "going to move",
+      "meaning": "打算搬家",
+      "relation": "说明主语的计划"
+    },
+    {
+      "text": "tomorrow.",
+      "meaning": "明天",
+      "relation": "补充时间"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-91",
+  "sentenceId": "nce-1-lesson-091-sentence-006",
+  "sentenceOrder": 6,
+  "english": "He's going to move tomorrow.",
+  "lesson": "Lesson 91 Poor Ian!",
+  "notes": [
+    {
+      "title": "be going to 表打算",
+      "text": "He's = He is，be going to 表示按照计划、打算将要做某事，不是正在进行。"
+    },
+    {
+      "title": "时间位置",
+      "text": "tomorrow 放在句末，说明 move 发生的时间，汉语常说“明天搬”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原译文、主干与句块切分整体可用。主要需要修正的是词义解释：He's 的释义不应写成独立的“他是”；tomorrow 是时间副词，不宜标注为名词；句末标点不宜并入单词音标。（非逐句人工审核）"
+}

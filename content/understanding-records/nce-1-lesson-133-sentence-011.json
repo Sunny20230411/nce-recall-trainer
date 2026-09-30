@@ -1,0 +1,127 @@
+{
+  "chinese": "卡伦·马什今天抵达伦敦机场。",
+  "intent": "客观陈述新闻事件，告知读者知名人物卡伦·马什抵达伦敦机场的时间，交代后续采访内容的发生场景。",
+  "comparison": null,
+  "backbone": {
+    "text": "Karen Marsh arrived at London Airport today.",
+    "meaning": "理解用主干：卡伦·马什今天抵达了伦敦机场。"
+  },
+  "structureNotes": [
+    {
+      "title": "arrive与地点介词的搭配",
+      "text": "arrive后接小地点（如机场、车站）时用介词at，接城市、国家等大范围地点时通常用in；本句中London Airport属于小型交通站点，因此搭配at。"
+    },
+    {
+      "title": "句末时间状语的位置",
+      "text": "时间副词today放在句末，既说明arrived这个动作发生在当天，也符合新闻简讯直接、清晰的表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Karen Marsh",
+      "role": "主语",
+      "explanation": "新闻事件的核心当事人，是人名专有名词。"
+    },
+    {
+      "text": "arrived at",
+      "role": "谓语动词短语",
+      "explanation": "表达“抵达”的动作，是句子的核心陈述内容。"
+    },
+    {
+      "text": "London Airport",
+      "role": "介词宾语",
+      "explanation": "介词at的宾语，指抵达的具体地点，为专有地名。"
+    },
+    {
+      "text": "today.",
+      "role": "时间状语",
+      "explanation": "说明抵达动作发生的时间，位于句末。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Karen",
+      "meaning": "卡伦（女子名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈkærən/"
+    },
+    {
+      "text": "Marsh",
+      "meaning": "马什（姓氏）",
+      "pos": "专有名词",
+      "phonetic": "/mɑːʃ/"
+    },
+    {
+      "text": "arrived",
+      "meaning": "到达，抵达",
+      "pos": "动词",
+      "phonetic": "/əˈraɪvd/"
+    },
+    {
+      "text": "at",
+      "meaning": "（表示地点）在",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "London",
+      "meaning": "伦敦（英国城市）",
+      "pos": "专有名词",
+      "phonetic": "/ˈlʌndən/"
+    },
+    {
+      "text": "Airport",
+      "meaning": "机场",
+      "pos": "名词",
+      "phonetic": "/ˈeəpɔːt/"
+    },
+    {
+      "text": "today.",
+      "meaning": "今天",
+      "pos": "副词",
+      "phonetic": "/təˈdeɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Karen Marsh",
+      "meaning": "卡伦·马什",
+      "relation": "动作的发出者，句子描述的核心人物"
+    },
+    {
+      "text": "arrived at",
+      "meaning": "抵达在（某处）",
+      "relation": "描述主语做出的动作，说明抵达的动向"
+    },
+    {
+      "text": "London Airport",
+      "meaning": "伦敦机场",
+      "relation": "补充说明抵达的具体地点"
+    },
+    {
+      "text": "today.",
+      "meaning": "今天。",
+      "relation": "补充说明动作发生的时间"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-133",
+  "sentenceId": "nce-1-lesson-133-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Karen Marsh arrived at London Airport today.",
+  "lesson": "Lesson 133 Sensational news!",
+  "notes": [
+    {
+      "title": "arrive与地点介词的搭配",
+      "text": "arrive后接小地点（如机场、车站）时用介词at，接城市、国家等大范围地点时通常用in；本句中London Airport属于小型交通站点，因此搭配at。"
+    },
+    {
+      "title": "句末时间状语的位置",
+      "text": "时间副词today放在句末，既说明arrived这个动作发生在当天，也符合新闻简讯直接、清晰的表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅存在标点拆分过细的小问题：词汇表中将today后的句号拆分到单词音标与含义中，parts中描述today的关系时提及附带句末句号，不符合单词、意群分块边界规则，其余关于人名、动词搭配、地点介词用法、时间状语位置的解释均符合语法与语境要求。（非逐句人工审核）"
+}

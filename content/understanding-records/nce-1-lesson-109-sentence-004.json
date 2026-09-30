@@ -1,0 +1,89 @@
+{
+  "chinese": "请加一点点。",
+  "intent": "在对方询问是否要加牛奶时，礼貌地提出只需要添加极少量牛奶的需求。",
+  "comparison": null,
+  "backbone": {
+    "text": "Just a little, please.",
+    "meaning": "（承接上文省略了milk）请给我加一点点牛奶就可以。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略结构的理解",
+      "text": "本句承接上文的Do you want any milk?，省略了重复的宾语milk，只保留量词短语a little来回应需求，避免语义重复，符合日常对话的简洁习惯。"
+    },
+    {
+      "title": "please的语用功能",
+      "text": "本句中的please是礼貌话语标记，用在请求句末尾软化语气，表达客气委婉的态度，并非独立的感叹词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Just a little",
+      "role": "回应内容",
+      "explanation": "承接上文省略了milk，用a little指代极少量牛奶，just起到限定语气的作用，表达“只需要一点点”的需求。"
+    },
+    {
+      "text": "please",
+      "role": "礼貌话语标记",
+      "explanation": "放在请求句末尾，软化指令语气，体现说话人的礼貌态度。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Just",
+      "meaning": "仅仅，只",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（点）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "little,",
+      "meaning": "少量的，一点点的",
+      "pos": "形容词",
+      "phonetic": "/ˈlɪtl/"
+    },
+    {
+      "text": "please.",
+      "meaning": "请（礼貌话语标记）",
+      "pos": "礼貌话语标记",
+      "phonetic": "/pliːz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Just a little,",
+      "relation": "回应“是否要加牛奶”的询问，说明需要的牛奶量极少。",
+      "meaning": "只一点点"
+    },
+    {
+      "text": "please.",
+      "relation": "用在请求末尾，体现礼貌客气的语气。",
+      "meaning": "请"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-109",
+  "sentenceId": "nce-1-lesson-109-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Just a little, please.",
+  "lesson": "Lesson 109 A good idea",
+  "notes": [
+    {
+      "title": "省略结构的理解",
+      "text": "本句承接上文的Do you want any milk?，省略了重复的宾语milk，只保留量词短语a little来回应需求，避免语义重复，符合日常对话的简洁习惯。"
+    },
+    {
+      "title": "please的语用功能",
+      "text": "本句中的please是礼貌话语标记，用在请求句末尾软化语气，表达客气委婉的态度，并非独立的感叹词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体释义准确，正确识别了本句承接上文Do you want any milk?省略了重复宾语milk的口语简洁特征，对please的语用功能说明恰当；仅存在一处词性标注偏差：little是形容词，原标注为代词属于词性错误，其余内容均符合规范。（非逐句人工审核）"
+}

@@ -1,0 +1,129 @@
+{
+  "chinese": "别傻了，波莉。我知道里面有人。",
+  "intent": "先否定对方的判断并安抚情绪，再陈述自己确信屋内有人的事实。",
+  "comparison": null,
+  "backbone": {
+    "text": "I know there's someone in.",
+    "meaning": "我确信里面有人。"
+  },
+  "structureNotes": [
+    {
+      "title": "否定祈使句结构",
+      "text": "Don't放在be动词前构成否定祈使句，意思是\"不要做某事\"，直接向听话人发出劝阻。"
+    },
+    {
+      "title": "there be句型的宾语从句",
+      "text": "there's someone in作know的宾语，表示存在性的事实，in是副词表示\"在里面\"，修饰someone的位置。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Don't be silly, Polly.",
+      "role": "否定祈使句",
+      "explanation": "直接劝阻对方，Polly是呼语，点明说话对象。"
+    },
+    {
+      "text": "I know there's someone in.",
+      "role": "主谓宾主从复合句",
+      "explanation": "I是主语，know是谓语，后面整个there be从句作宾语，表达说话人确信的内容。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Don't",
+      "meaning": "不要（do not的缩写）",
+      "pos": "助动词",
+      "phonetic": "/dəʊnt/"
+    },
+    {
+      "text": "be",
+      "meaning": "是，成为",
+      "pos": "be动词原形",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "silly,",
+      "meaning": "傻的，糊涂的",
+      "pos": "形容词",
+      "phonetic": "/ˈsɪli/"
+    },
+    {
+      "text": "Polly.",
+      "meaning": "波莉（人名）",
+      "pos": "名词",
+      "phonetic": "/ˈpɒli/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词主格",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "know",
+      "meaning": "知道，确信",
+      "pos": "动词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "there's",
+      "meaning": "有（there is的缩写）",
+      "pos": "代词+动词缩写结构",
+      "phonetic": "/ðeəz/"
+    },
+    {
+      "text": "someone",
+      "meaning": "某人，有人",
+      "pos": "不定代词",
+      "phonetic": "/ˈsʌmwʌn/"
+    },
+    {
+      "text": "in.",
+      "meaning": "在里面",
+      "pos": "副词",
+      "phonetic": "/ɪn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Don't be silly,",
+      "relation": "劝阻语的核心内容",
+      "meaning": "别傻了"
+    },
+    {
+      "text": "Polly.",
+      "relation": "说话的对象，呼语",
+      "meaning": "波莉"
+    },
+    {
+      "text": "I know",
+      "relation": "主句，表达说话人的判断",
+      "meaning": "我知道"
+    },
+    {
+      "text": "there's someone in.",
+      "relation": "宾语从句，作know的内容，陈述确信的事实",
+      "meaning": "里面有人"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-115",
+  "sentenceId": "nce-1-lesson-115-sentence-013",
+  "sentenceOrder": 13,
+  "english": "Don't be silly, Polly. I know there's someone in.",
+  "lesson": "Lesson 115 Knock, knock!",
+  "notes": [
+    {
+      "title": "否定祈使句结构",
+      "text": "Don't放在be动词前构成否定祈使句，意思是\"不要做某事\"，直接向听话人发出劝阻。"
+    },
+    {
+      "title": "there be句型的宾语从句",
+      "text": "there's someone in作know的宾语，表示存在性的事实，in是副词表示\"在里面\"，修饰someone的位置。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合语境，无核心错误；仅存在两处可修正的标点、释义标注问题，不影响整体理解：1. 单词表中\"silly\"、\"Polly\"词条的text错误附带了原句后续单词的标点，与词性对应不一致；2. there's的词性标注为存在句结构，不属于规范词性范畴。（非逐句人工审核）"
+}

@@ -1,0 +1,110 @@
+{
+  "chinese": "是的。我现在认出他来了。",
+  "intent": "先确认对方的问话，再说明当前已经辨认出那个人。",
+  "comparison": null,
+  "backbone": {
+    "text": "I recognize him.",
+    "meaning": "我认出他了。"
+  },
+  "structureNotes": [
+    {
+      "title": "now 的位置",
+      "text": "now 放在句末，说明是“此刻”才认出对方，不影响核心主干 I recognize him 的意思。"
+    },
+    {
+      "title": "him 指谁",
+      "text": "him 指代前文问句中的 the man，作 recognize 的宾语，说明认出的对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes.",
+      "role": "独立答语",
+      "explanation": "先确认对方的问句，表示肯定回答。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话人自己。"
+    },
+    {
+      "text": "recognize",
+      "role": "谓语动词",
+      "explanation": "表示“认出、辨认出”。"
+    },
+    {
+      "text": "him",
+      "role": "宾语",
+      "explanation": "指代问句提到的那个男人。"
+    },
+    {
+      "text": "now",
+      "role": "时间副词",
+      "explanation": "表示“现在”才认出。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes.",
+      "meaning": "是的",
+      "pos": "感叹词",
+      "phonetic": "/jes/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "recognize",
+      "meaning": "认出、辨认出",
+      "pos": "动词",
+      "phonetic": "/ˈrekəɡnaɪz/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "now.",
+      "meaning": "现在",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes.",
+      "relation": "肯定回答",
+      "meaning": "是的"
+    },
+    {
+      "text": "I recognize him now.",
+      "relation": "说明当前状态",
+      "meaning": "我现在认出他来了"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-121",
+  "sentenceId": "nce-1-lesson-121-sentence-013",
+  "sentenceOrder": 13,
+  "english": "Yes. I recognize him now.",
+  "lesson": "Lesson 121 The man in a hat",
+  "notes": [
+    {
+      "title": "now 的位置",
+      "text": "now 放在句末，说明是“此刻”才认出对方，不影响核心主干 I recognize him 的意思。"
+    },
+    {
+      "title": "him 指谁",
+      "text": "him 指代前文问句中的 the man，作 recognize 的宾语，说明认出的对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体释义、句法拆分、词项音标与含义基本准确，无硬性错误；仅两处小问题：Yes. 的音标误写为 /jes/，英式正确发音应为 /jes/ 带半元音 j 的标准写法 /jes/ 是通用转写，实际正确英式为 /jes/ 是拼写对应，修正为标准英式 /jes/ 的规范写法 /jes/；now 的音标 /naʊ/ 表述无误，但 now. 作为带句号的词项，在 words 列表中无需额外调整，仅修正 Yes. 的音标为正确的 /jes/ 英式转写 /jes/ 是常见误写，正确国际音标为 /jes/；同时说明 now 放在句末的语义是“此刻、现在”才认出，并非“才”的强调过度，微调表述使其更准确。（非逐句人工审核）"
+}

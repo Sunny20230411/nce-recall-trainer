@@ -1,0 +1,162 @@
+{
+  "chinese": "他说他会住两个星期。",
+  "intent": "转述他本人提到的、自己将要停留两周的安排。",
+  "comparison": {
+    "chinese": "他说他会住两个星期。",
+    "english": "He said he would stay for two weeks.",
+    "steps": [
+      {
+        "label": "英文先给出主句",
+        "text": "He said",
+        "explanation": "先说“他说了话”，后面接他说的内容；he指同一人，但不把宾语内容提前。"
+      },
+      {
+        "label": "宾语从句紧跟其后",
+        "text": "he would stay for two weeks",
+        "explanation": "从句放在said后面，直接承接所说的话；would stay表示“将会留下/暂住”，不改变主谓顺序。"
+      },
+      {
+        "label": "时长放在动词后",
+        "text": "for two weeks",
+        "explanation": "for two weeks跟在stay后面，说明将来停留的预计时长；中文用“两个星期”放在“住”后面，语序相近。"
+      }
+    ],
+    "takeaway": "英文用said引出整个宾语从句；would体现从“他当时说”的角度看是将来安排，for two weeks修饰stay的预计时长。"
+  },
+  "backbone": {
+    "text": "He said he would stay for two weeks.",
+    "meaning": "他当时表示自己会暂住两周。"
+  },
+  "structureNotes": [
+    {
+      "title": "宾语从句承接said",
+      "text": "he would stay…是said的宾语，说明他说的具体内容；此处省略引导词that，从句语序仍按主语在前。"
+    },
+    {
+      "title": "would表示过去视角中的安排",
+      "text": "由于主句said是过去时，从句用would stay表示从他说话当时看将要发生的停留，不是现在正在住。"
+    },
+    {
+      "title": "for two weeks表预计时长",
+      "text": "for表示动作持续的预计时间，与would stay搭配说明他预计会停留多久；week用复数weeks对应two。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主句主语",
+      "explanation": "指代发话的男性，是said这个动作的发出者。"
+    },
+    {
+      "text": "said",
+      "role": "主句谓语及物动词",
+      "explanation": "表示“说、转述”，后面接所说的内容作宾语。"
+    },
+    {
+      "text": "he",
+      "role": "宾语从句主语",
+      "explanation": "与主句He指同一人，在从句中作would stay的主语。"
+    },
+    {
+      "text": "would stay",
+      "role": "宾语从句谓语",
+      "explanation": "由情态动词would加动词原形stay构成，表示过去看将要停留。"
+    },
+    {
+      "text": "for two weeks",
+      "role": "宾语从句中的时长状语",
+      "explanation": "说明stay预计持续两周，是介词短语修饰将要发生的停留动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "said",
+      "meaning": "说",
+      "pos": "动词（过去式）",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "would",
+      "meaning": "将会（will的过去式，表过去视角的将来）",
+      "pos": "情态动词",
+      "phonetic": "/wʊd/"
+    },
+    {
+      "text": "stay",
+      "meaning": "停留、暂住",
+      "pos": "动词",
+      "phonetic": "/steɪ/"
+    },
+    {
+      "text": "for",
+      "meaning": "（表动作持续）达、计（某段时间）",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "two",
+      "meaning": "两个",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "weeks.",
+      "meaning": "星期（复数）",
+      "pos": "名词",
+      "phonetic": "/wiːks/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He said",
+      "meaning": "他说",
+      "relation": "句子主干，引出后续转述内容"
+    },
+    {
+      "text": "he would stay",
+      "meaning": "他会暂住",
+      "relation": "转述的核心内容，说明他本人的停留安排"
+    },
+    {
+      "text": "for two weeks.",
+      "meaning": "预计长达两周",
+      "relation": "补充说明将来停留动作的预计持续时长"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-139",
+  "sentenceId": "nce-1-lesson-139-sentence-006",
+  "sentenceOrder": 6,
+  "english": "He said he would stay for two weeks.",
+  "lesson": "Lesson 139 Is that you, John?",
+  "notes": [
+    {
+      "title": "宾语从句承接said",
+      "text": "he would stay…是said的宾语，说明他说的具体内容；此处省略引导词that，从句语序仍按主语在前。"
+    },
+    {
+      "title": "would表示过去视角中的安排",
+      "text": "由于主句said是过去时，从句用would stay表示从他说话当时看将要发生的停留，不是现在正在住。"
+    },
+    {
+      "title": "for two weeks表预计时长",
+      "text": "for表示动作持续的预计时间，与would stay搭配说明他预计会停留多久；week用复数weeks对应two。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体可通过，仅修正两处不精确表述：一是for two weeks未完整体现动作尚未落地、将要持续两周的状态，二是for表时间义的说明易被误读为修饰已完成动作。（非逐句人工审核）"
+}

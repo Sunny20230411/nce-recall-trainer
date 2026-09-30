@@ -1,0 +1,117 @@
+{
+  "chinese": "我妻子想去埃及。",
+  "intent": "说明对话中妻子的假期计划目的地。",
+  "comparison": null,
+  "backbone": {
+    "text": "My wife wants to go to Egypt.",
+    "meaning": "我妻子想要前往埃及。"
+  },
+  "structureNotes": [
+    {
+      "title": "want to 表愿望",
+      "text": "wants to 表示“想要做某事”，后面接动词原形 go，体现主观意愿，不表示已经出发或正在去。"
+    },
+    {
+      "title": "go to 表前往地点",
+      "text": "go to 后接地点名词 Egypt，说明目的地是埃及，整体结构简洁对应中文的“去埃及”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My wife",
+      "role": "主语",
+      "explanation": "句子描述的主体，指“我的妻子”。"
+    },
+    {
+      "text": "wants",
+      "role": "谓语动词",
+      "explanation": "一般现在时第三人称单数形式，表达“想要”的意愿。"
+    },
+    {
+      "text": "to go to Egypt",
+      "role": "宾语（动词不定式短语）",
+      "explanation": "作 wants 的宾语，说明想要做的动作是“去埃及”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "My",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "wife",
+      "meaning": "妻子",
+      "pos": "名词",
+      "phonetic": "/waɪf/"
+    },
+    {
+      "text": "wants",
+      "meaning": "想要",
+      "pos": "动词（一般现在时第三人称单数）",
+      "phonetic": "/ˈwɒnts/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "小品词",
+      "phonetic": "/tə/"
+    },
+    {
+      "text": "go",
+      "meaning": "去；前往",
+      "pos": "动词",
+      "phonetic": "/ɡəʊ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（表示方向，朝、向）",
+      "pos": "介词",
+      "phonetic": "/tə/"
+    },
+    {
+      "text": "Egypt.",
+      "meaning": "埃及",
+      "pos": "专有名词",
+      "phonetic": "/ˈiːdʒɪpt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "My wife",
+      "relation": "描述谁有出行的意愿",
+      "meaning": "我的妻子"
+    },
+    {
+      "text": "wants to go",
+      "relation": "表达主语的主观意愿动作",
+      "meaning": "想要去"
+    },
+    {
+      "text": "to Egypt.",
+      "relation": "说明出行的目的地",
+      "meaning": "埃及。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-83",
+  "sentenceId": "nce-1-lesson-083-sentence-007",
+  "sentenceOrder": 7,
+  "english": "My wife wants to go to Egypt.",
+  "lesson": "Lesson 83 Going on holiday",
+  "notes": [
+    {
+      "title": "want to 表愿望",
+      "text": "wants to 表示“想要做某事”，后面接动词原形 go，体现主观意愿，不表示已经出发或正在去。"
+    },
+    {
+      "title": "go to 表前往地点",
+      "text": "go to 后接地点名词 Egypt，说明目的地是埃及，整体结构简洁对应中文的“去埃及”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语法分析、词汇音标与翻译均无错误，仅存在两处可明确修正的细节问题：一是Egypt的音标末尾误混入句号，需移除；二是原分块中不定式符号to与实义介词to均注为/tuː/，在弱读语境下更符合英式发音习惯的注法是弱读为/tə/，避免强读形式造成学习者误用。其余信息与原句结构、上下文语境匹配准确。（非逐句人工审核）"
+}

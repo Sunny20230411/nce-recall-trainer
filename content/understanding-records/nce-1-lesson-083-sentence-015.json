@@ -1,0 +1,89 @@
+{
+  "chinese": "别那么肯定。",
+  "intent": "语气化的提醒，提醒对方不要对尚未确定的度假计划过度笃定，暗示事情存在不确定性。",
+  "comparison": null,
+  "backbone": {
+    "text": "Don't be so sure.",
+    "meaning": "劝对方不要表现出那么确定的态度。"
+  },
+  "structureNotes": [
+    {
+      "title": "否定式祈使句的语序特点",
+      "text": "本句是否定形式的祈使句，用来提出劝阻。祈使句默认以动词原形开头，否定时在句首直接加Don't，无需添加额外主语，符合日常口语里直接提醒的语气。"
+    },
+    {
+      "title": "程度副词的修饰作用",
+      "text": "so是程度副词，修饰形容词sure，意为“这么、那么”，用来突出提醒对方：你现在笃定的程度太高了，实际情况未必如你所料。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Don't be",
+      "role": "否定祈使谓语",
+      "explanation": "是do not be的口语缩写形式，放在句首构成否定祈使谓语，传递劝阻、提醒的语气。"
+    },
+    {
+      "text": "so sure",
+      "role": "表语",
+      "explanation": "是被程度副词so修饰的形容词短语作表语，整体表示“如此肯定的状态”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Don't",
+      "meaning": "不要（do not的缩写）",
+      "pos": "否定助动词缩写",
+      "phonetic": "/dəʊnt/"
+    },
+    {
+      "text": "be",
+      "meaning": "是，处于（某种状态）",
+      "pos": "be动词原形",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "so",
+      "meaning": "这么，那么",
+      "pos": "程度副词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "sure.",
+      "meaning": "肯定的，有把握的",
+      "pos": "形容词",
+      "phonetic": "/ʃʊə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Don't",
+      "relation": "标记整句为否定祈使，传递劝阻语气",
+      "meaning": "不要"
+    },
+    {
+      "text": "be so sure.",
+      "relation": "祈使句核心内容，描述被劝阻的状态",
+      "meaning": "那么肯定"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-83",
+  "sentenceId": "nce-1-lesson-083-sentence-015",
+  "sentenceOrder": 15,
+  "english": "Don't be so sure.",
+  "lesson": "Lesson 83 Going on holiday",
+  "notes": [
+    {
+      "title": "否定式祈使句的语序特点",
+      "text": "本句是否定形式的祈使句，用来提出劝阻。祈使句默认以动词原形开头，否定时在句首直接加Don't，无需添加额外主语，符合日常口语里直接提醒的语气。"
+    },
+    {
+      "title": "程度副词的修饰作用",
+      "text": "so是程度副词，修饰形容词sure，意为“这么、那么”，用来突出提醒对方：你现在笃定的程度太高了，实际情况未必如你所料。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确可用，两处小问题可明确修正：1. 词语部分将含句末句号的'sure.'单独列为词目，音标带句号、释义未包含完整词义，不符合分词规范；2. 原核心结构标注存在拆分过细问题，将否定祈使结构拆分为两个部分，未体现Don't对be动词原形的祈使否定语法关系。其余翻译、主干、语法标注、讲解内容均符合要求，无事实性或语法性错误。（非逐句人工审核）"
+}

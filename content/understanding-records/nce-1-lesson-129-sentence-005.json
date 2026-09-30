@@ -1,0 +1,136 @@
+{
+  "chinese": "我一定是开得太快了。",
+  "intent": "说话人对自己过去的驾驶速度做出有把握的推断，承认自己刚才车速过快。",
+  "comparison": {
+    "chinese": "我一定是开得太快了。",
+    "english": "I must have been driving too fast.",
+    "steps": [
+      {
+        "label": "先明确推断的语气",
+        "text": "must have been",
+        "explanation": "中文用“一定是”表达对已发生事情的肯定推测，英语用must搭配完成进行时结构have been driving体现“过去某个时段一直在做某事”的推断，而非描述现在的驾驶行为。"
+      },
+      {
+        "label": "再补充速度的程度",
+        "text": "too fast",
+        "explanation": "中文把“太快了”放在动词“开得”之后作补语，英语则直接把副词短语放在动词driving之后，直接说明驾驶的速度超标。"
+      }
+    ],
+    "takeaway": "英语用must + have been doing的结构，把对过去持续动作的推测和动作本身整合在谓语部分，中文则用“一定是”加动词补语的方式，语序和表达逻辑都有差异。"
+  },
+  "backbone": {
+    "text": "I must have been driving too fast.",
+    "meaning": "我一定是刚才开车开得太快了。"
+  },
+  "structureNotes": [
+    {
+      "title": "情态动词表过去推测",
+      "text": "must在这里不是“必须”，而是表示有把握的肯定推测，搭配have been driving说明是对过去持续驾驶动作的判断。"
+    },
+    {
+      "title": "完成进行时表过去持续动作",
+      "text": "have been driving是现在完成进行时，结合must表示推测过去某段时间里一直在做的事，对应中文的“当时一定是在开”。"
+    },
+    {
+      "title": "too fast表程度超标",
+      "text": "too在这里是“过于、太”的意思，修饰fast，说明速度超出了合理范围，不是单纯描述速度快。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话人自己，是驾驶这个动作的发出者。"
+    },
+    {
+      "text": "must have been driving too fast.",
+      "role": "谓语部分",
+      "explanation": "整体是对过去驾驶状态的推测，must表肯定推测，have been driving表过去持续的动作，too fast说明动作的程度。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "must",
+      "meaning": "一定（表肯定推测）",
+      "pos": "情态动词",
+      "phonetic": "/mʌst/"
+    },
+    {
+      "text": "have",
+      "meaning": "（与must搭配，构成完成式，表对过去的推测）已经",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "been",
+      "meaning": "（与have和现在分词搭配，构成完成进行时）",
+      "pos": "be动词的过去分词",
+      "phonetic": "/bɪn/"
+    },
+    {
+      "text": "driving",
+      "meaning": "驾驶，开车",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈdraɪvɪŋ/"
+    },
+    {
+      "text": "too",
+      "meaning": "太，过于",
+      "pos": "副词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "fast.",
+      "meaning": "快",
+      "pos": "副词",
+      "phonetic": "/fɑːst/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "动作的发出者"
+    },
+    {
+      "text": "must have been driving",
+      "meaning": "一定是一直在开车",
+      "relation": "对过去驾驶动作的肯定推测"
+    },
+    {
+      "text": "too fast.",
+      "meaning": "太快了。",
+      "relation": "补充说明驾驶的速度超标。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-129",
+  "sentenceId": "nce-1-lesson-129-sentence-005",
+  "sentenceOrder": 5,
+  "english": "I must have been driving too fast.",
+  "lesson": "Lesson 129 Seventy miles an hour",
+  "notes": [
+    {
+      "title": "情态动词表过去推测",
+      "text": "must在这里不是“必须”，而是表示有把握的肯定推测，搭配have been driving说明是对过去持续驾驶动作的判断。"
+    },
+    {
+      "title": "完成进行时表过去持续动作",
+      "text": "have been driving是现在完成进行时，结合must表示推测过去某段时间里一直在做的事，对应中文的“当时一定是在开”。"
+    },
+    {
+      "title": "too fast表程度超标",
+      "text": "too在这里是“过于、太”的意思，修饰fast，说明速度超出了合理范围，不是单纯描述速度快。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体释义准确完整，主干、语法成分、分块关系均符合要求，仅存在单词部分音标混入标点、词性标注偏差、单词释义不当的小问题，修正后即可使用。（非逐句人工审核）"
+}

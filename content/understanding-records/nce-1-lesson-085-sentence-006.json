@@ -1,0 +1,148 @@
+{
+  "chinese": "我去年在电视上看的。",
+  "intent": "说明自己已经通过电视看过那部影片，解释早已看过的依据。",
+  "comparison": {
+    "chinese": "我去年在电视上看的。",
+    "english": "I saw it on television last year.",
+    "steps": [
+      {
+        "label": "英文主干在前",
+        "text": "I saw it",
+        "explanation": "先交代“我看了它”这一核心事实，再补充观看的渠道和时间。"
+      },
+      {
+        "label": "渠道与时间后置",
+        "text": "on television last year",
+        "explanation": "on television 作渠道状语，last year 作时间状语，放在谓语和宾语之后。"
+      },
+      {
+        "label": "中文常把时间提前",
+        "text": "去年在电视上",
+        "explanation": "中文习惯把时间、地点等背景信息放到动词前面，再说出“看的”。"
+      }
+    ],
+    "takeaway": "英文按“核心动作—渠道—时间”排列，中文常把时间与渠道提前到动词前。"
+  },
+  "backbone": {
+    "text": "I saw it.",
+    "meaning": "我看过它。"
+  },
+  "structureNotes": [
+    {
+      "title": "on television 表示渠道",
+      "text": "on television 指“在电视上播出、通过电视观看”，介词 on 不译作“在……上面”，而是表达信息传播的渠道。"
+    },
+    {
+      "title": "last year 标明过去时间",
+      "text": "last year 表示“去年”，与 saw（see 的一般过去式）搭配，说明这个观看动作发生在过去。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "动作的发出者，指说话人“我”。"
+    },
+    {
+      "text": "saw",
+      "role": "谓语动词",
+      "explanation": "see 的过去式，表示“观看、看过”，体现动作发生在过去。"
+    },
+    {
+      "text": "it",
+      "role": "宾语",
+      "explanation": "指代前文提到的那部影片，作 saw 的对象。"
+    },
+    {
+      "text": "on television",
+      "role": "方式/渠道状语",
+      "explanation": "说明观看的渠道是电视。"
+    },
+    {
+      "text": "last year.",
+      "role": "时间状语",
+      "explanation": "说明动作发生的时间是去年，句号结束陈述。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "saw",
+      "meaning": "看见，观看（see 的过去式）",
+      "pos": "动词",
+      "phonetic": "/sɔː/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代前文提到的影片）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "on",
+      "meaning": "通过，在……（传播渠道）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "television",
+      "meaning": "电视",
+      "pos": "名词",
+      "phonetic": "/ˈtelɪvɪʒn/"
+    },
+    {
+      "text": "last",
+      "meaning": "上一个的，刚过去的",
+      "pos": "形容词",
+      "phonetic": "/lɑːst/"
+    },
+    {
+      "text": "year.",
+      "meaning": "年",
+      "pos": "名词",
+      "phonetic": "/jɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I saw it",
+      "relation": "句子主干，说明核心动作与对象。",
+      "meaning": "我看过它。"
+    },
+    {
+      "text": "on television",
+      "relation": "补充观看的渠道。",
+      "meaning": "在电视上（通过电视）。"
+    },
+    {
+      "text": "last year.",
+      "relation": "说明动作发生的时间。",
+      "meaning": "去年。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-85",
+  "sentenceId": "nce-1-lesson-085-sentence-006",
+  "sentenceOrder": 6,
+  "english": "I saw it on television last year.",
+  "lesson": "Lesson 85 Paris in the spring",
+  "notes": [
+    {
+      "title": "on television 表示渠道",
+      "text": "on television 指“在电视上播出、通过电视观看”，介词 on 不译作“在……上面”，而是表达信息传播的渠道。"
+    },
+    {
+      "title": "last year 标明过去时间",
+      "text": "last year 表示“去年”，与 saw（see 的一般过去式）搭配，说明这个观看动作发生在过去。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体符合教学要求，仅存在两处可明确修正的问题：一是单词拆分中将year后附带的句号划入词条，year的释义误写为“年。”，标点归属错误；二是对动词saw的解释混用了完成时态表述，与一般过去式的语法定义不符。其余结构划分、词义解释、翻译和对比逻辑均准确。（非逐句人工审核）"
+}

@@ -1,0 +1,136 @@
+{
+  "chinese": "不用，谢谢。我从不抽烟。",
+  "intent": "礼貌拒绝对方递来的香烟，并说明自己从来不抽烟。",
+  "comparison": {
+    "chinese": "中文说“我从不抽烟”，把频度副词“从不”放在主语“我”和动词“抽烟”之间。",
+    "english": "英文说 I never smoke.，never 放在主语 I 和实义动词 smoke 前面。",
+    "steps": [
+      {
+        "label": "先确定基础主谓结构",
+        "text": "I smoke",
+        "explanation": "核心是“我抽烟”，先交代主体和动作。"
+      },
+      {
+        "label": "再加频度副词",
+        "text": "I never smoke",
+        "explanation": "never 放在主语后、实义动词前，说明这个动作从来不发生。"
+      }
+    ],
+    "takeaway": "频度副词 never 放在实义动词 smoke 前面；若句中是 be 动词，则习惯上放在 be 动词后面。中文里“从不”同样位于主语和谓语动词之间，语序相近。"
+  },
+  "backbone": {
+    "text": "I never smoke.",
+    "meaning": "我从来不抽烟。"
+  },
+  "structureNotes": [
+    {
+      "title": "拒绝用语",
+      "text": "No, thanks. 是礼貌拒绝时的常用说法，No 表示拒绝，thanks 表示对对方好意的感谢。"
+    },
+    {
+      "title": "频度副词位置",
+      "text": "never 放在主语 I 和实义动词 smoke 之间，表示动作完全不发生。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "简短拒绝",
+      "explanation": "直接回应对方递烟的提议，表示不要。"
+    },
+    {
+      "text": "thanks.",
+      "role": "礼貌致谢",
+      "explanation": "在拒绝的同时表达对对方好意的感谢。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话人自己，说明抽烟相关行为的主体。"
+    },
+    {
+      "text": "never",
+      "role": "频度副词",
+      "explanation": "修饰动词 smoke，说明抽烟这个动作从来不会发生。"
+    },
+    {
+      "text": "smoke.",
+      "role": "谓语动词",
+      "explanation": "实义动词，表示抽烟的行为，描述主语的日常习惯。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "不；没有",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/",
+      "text": "No,"
+    },
+    {
+      "meaning": "谢谢",
+      "pos": "感叹词",
+      "phonetic": "/θæŋks/",
+      "text": "thanks."
+    },
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "从不；从未",
+      "pos": "副词",
+      "phonetic": "/ˈnevə(r)/",
+      "text": "never"
+    },
+    {
+      "meaning": "抽烟；吸烟",
+      "pos": "动词",
+      "phonetic": "/sməʊk/",
+      "text": "smoke."
+    }
+  ],
+  "parts": [
+    {
+      "text": "No, thanks.",
+      "relation": "对递烟提议的礼貌拒绝回应",
+      "meaning": "不用，谢谢。"
+    },
+    {
+      "text": "I",
+      "relation": "说明拒绝解释的主体",
+      "meaning": "我"
+    },
+    {
+      "text": "never",
+      "relation": "说明抽烟这个行为的发生频率",
+      "meaning": "从不"
+    },
+    {
+      "text": "smoke.",
+      "relation": "说明主体的行为习惯，解释拒绝的原因",
+      "meaning": "抽烟。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-109",
+  "sentenceId": "nce-1-lesson-109-sentence-015",
+  "sentenceOrder": 15,
+  "english": "No, thanks. I never smoke.",
+  "lesson": "Lesson 109 A good idea",
+  "notes": [
+    {
+      "title": "拒绝用语",
+      "text": "No, thanks. 是礼貌拒绝时的常用说法，No 表示拒绝，thanks 表示对对方好意的感谢。"
+    },
+    {
+      "title": "频度副词位置",
+      "text": "never 放在主语 I 和实义动词 smoke 之间，表示动作完全不发生。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句整体准确，英文主干、翻译、词义、音标和部件关系均无误。仅发现 comparison 的 takeaway 有两处小问题：一是未区分实义动词与 be 动词的频度副词位置，容易让学习者误以为 never 总是放在行为动词前面；二是表述与中文实际语序不符，中文频度词“从不”本就位于主语和谓语动词之间，并非单独放在句首或句末。其余内容无需修改。（非逐句人工审核）"
+}

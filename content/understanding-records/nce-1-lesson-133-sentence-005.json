@@ -1,0 +1,105 @@
+{
+  "chinese": "我打算退休。",
+  "intent": "表达自己未来的退休计划与打算。",
+  "comparison": {
+    "chinese": "我打算退休。",
+    "english": "I'm going to retire.",
+    "steps": [
+      {
+        "label": "核心表达框架",
+        "text": "英语用 I'm going to 表达“我打算、我将要”，后面直接接动词原形 retire。",
+        "explanation": "am going to 整体表达将来计划，不表示“正在去”；retire 是要做的动作。"
+      },
+      {
+        "label": "语序对照",
+        "text": "中文按“主语+打算+动作”排列；英语主语后先说计划标记，再说动作。",
+        "explanation": "am going to 紧跟主语 I，再衔接动词 retire，位置和中文“打算”略有不同。"
+      }
+    ],
+    "takeaway": "be going to 表将来计划，后接动词原形。"
+  },
+  "backbone": {
+    "text": "I'm going to retire.",
+    "meaning": "我打算退休。"
+  },
+  "structureNotes": [
+    {
+      "title": "be going to 结构",
+      "text": "am going to 表达说话人的计划或打算，后接动词原形，不表示正在去某个地方。"
+    },
+    {
+      "title": "将来计划与动作",
+      "text": "retire 是计划要做的动作，放在 to 之后用原形，整体表示“将要做某事”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm going to",
+      "role": "助动词短语（表达将来计划）",
+      "explanation": "am going to 表示“打算、将要”，后接动词原形。"
+    },
+    {
+      "text": "retire",
+      "role": "动词（谓语核心动作）",
+      "explanation": "retire 是“退休”，表示计划要执行的动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I'm",
+      "meaning": "我（I am 的缩写）",
+      "pos": "代词",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "going",
+      "meaning": "与 am、to 搭配构成 be going to 结构表将来计划",
+      "pos": "动词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "不定式符号，后接动词原形",
+      "pos": "不定式标记",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "retire.",
+      "meaning": "退休",
+      "pos": "动词",
+      "phonetic": "/rɪˈtaɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I'm",
+      "relation": "主语",
+      "meaning": "我（I am 的缩写）"
+    },
+    {
+      "text": "going to retire.",
+      "relation": "谓语部分（表将来计划）",
+      "meaning": "打算退休"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-133",
+  "sentenceId": "nce-1-lesson-133-sentence-005",
+  "sentenceOrder": 5,
+  "english": "I'm going to retire.",
+  "lesson": "Lesson 133 Sensational news!",
+  "notes": [
+    {
+      "title": "be going to 结构",
+      "text": "am going to 表达说话人的计划或打算，后接动词原形，不表示正在去某个地方。"
+    },
+    {
+      "title": "将来计划与动作",
+      "text": "retire 是计划要做的动作，放在 to 之后用原形，整体表示“将要做某事”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构与关系判断基本正确，仅存在两处可修正问题：单词表中 retire 的音标末尾多余句点被误写入音标字段，I'm 的 pos 标注将代词与动词词性合并，不符合词性分离要求。其余翻译、结构、成分划分均符合英文原句语义与语法。（非逐句人工审核）"
+}

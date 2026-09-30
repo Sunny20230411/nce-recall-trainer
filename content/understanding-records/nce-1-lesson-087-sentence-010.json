@@ -1,0 +1,72 @@
+{
+  "chinese": "是的。",
+  "intent": "回应对方的反问\"你是不是出过一次车祸？\"，用肯定语气直接确认对方提出的事实完全正确。",
+  "comparison": null,
+  "backbone": {
+    "text": "That's right.",
+    "meaning": "表示对方刚才说的内容完全正确。"
+  },
+  "structureNotes": [
+    {
+      "title": "That's right 用于确认",
+      "text": "That's right 是日常英语口语中最常用的肯定表达，用来直接确认对方的提问、陈述或推断完全准确，不必额外重复完整事实；在本场景中承接上文反问，直接肯定自己确实出过车祸。"
+    },
+    {
+      "title": "That's 的缩写形式",
+      "text": "That's 是 That is 的口语缩写，在日常口语对话中高频使用；right 在此处表示判断属实，不表示方位意义的“右边”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That's",
+      "role": "主语加系动词的缩写结构",
+      "explanation": "That 指代对方刚才提到的内容，是句子的主语；is 是系动词，和 that 结合缩写为 that's，构成句子的判断框架。"
+    },
+    {
+      "text": "right.",
+      "role": "表语",
+      "explanation": "形容词 right 跟在系动词后，对主语的指代内容做出判断，表示情况完全正确。"
+    }
+  ],
+  "words": [
+    {
+      "text": "That's",
+      "meaning": "那（指代对方刚说的内容）+is的口语缩写",
+      "pos": "代词+系动词（缩写形式）",
+      "phonetic": "ðæts"
+    },
+    {
+      "text": "right.",
+      "meaning": "正确的、没错的",
+      "pos": "形容词",
+      "phonetic": "raɪt."
+    }
+  ],
+  "parts": [
+    {
+      "text": "That's right.",
+      "relation": "直接回应上文的反问，确认对方所说的事实完全正确，引出后续对撞车细节的具体描述。",
+      "meaning": "是的、没错。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-87",
+  "sentenceId": "nce-1-lesson-087-sentence-010",
+  "sentenceOrder": 10,
+  "english": "That's right.",
+  "lesson": "Lesson 87 A car crash",
+  "notes": [
+    {
+      "title": "That's right 用于确认",
+      "text": "That's right 是日常英语口语中最常用的肯定表达，用来直接确认对方的提问、陈述或推断完全准确，不必额外重复完整事实；在本场景中承接上文反问，直接肯定自己确实出过车祸。"
+    },
+    {
+      "title": "That's 的缩写形式",
+      "text": "That's 是 That is 的口语缩写，在日常口语对话中高频使用；right 在此处表示判断属实，不表示方位意义的“右边”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子主干与上下文理解基本正确，结构划分合理，主要修正两处：一是 structureNotes 中关于 right 语义的表述存在自相矛盾，既称 right 表示“正确的”，又说不作该字面义，需调整表述；二是单词项的词性标注存在表述不当，That's 是 That 与 is 的缩写，并非独立的“缩写代词加系动词”词性，拆分后对应名词/代词与系动词词性。（非逐句人工审核）"
+}

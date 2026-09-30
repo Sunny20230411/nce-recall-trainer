@@ -1,0 +1,98 @@
+{
+  "chinese": "这个村庄坐落在一条河边。",
+  "intent": "描述村庄所处的地理位置，说明它紧邻河流的空间位置关系。",
+  "comparison": null,
+  "backbone": {
+    "text": "The village is on a river",
+    "meaning": "村庄位于河边"
+  },
+  "parts": [
+    {
+      "text": "The village",
+      "relation": "描述的主体",
+      "meaning": "这个村庄"
+    },
+    {
+      "text": "is",
+      "relation": "连接主体和位置状态",
+      "meaning": "是、处于（位置）"
+    },
+    {
+      "text": "on a river.",
+      "relation": "补充说明村庄的具体位置",
+      "meaning": "在一条河边"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "介词on的特殊用法",
+      "text": "此处on不表示物体悬浮在河面上方，而是用来描述地点紧邻某条水岸线，表达建筑物或聚居地坐落在河边的含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The village",
+      "role": "名词主语",
+      "explanation": "全句描述的核心对象，指代前文已经提到过的那个村庄"
+    },
+    {
+      "text": "is on a river",
+      "role": "系表谓语",
+      "explanation": "由系动词is加地点介词短语构成，说明主语所处的地理位置状态"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这个、这些",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "村庄",
+      "pos": "名词",
+      "phonetic": "/ˈvɪlɪdʒ/",
+      "text": "village"
+    },
+    {
+      "meaning": "处于（位置）",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "紧邻、在…边上",
+      "pos": "介词",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "一个、一条",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "河，河流",
+      "pos": "名词",
+      "phonetic": "/ˈrɪvə(r)/",
+      "text": "river."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-35",
+  "sentenceId": "nce-1-lesson-035-sentence-004",
+  "sentenceOrder": 4,
+  "english": "The village is on a river.",
+  "lesson": "Lesson 35 Our village",
+  "notes": [
+    {
+      "title": "介词on的特殊用法",
+      "text": "此处on不表示物体悬浮在河面上方，而是用来描述地点紧邻某条水岸线，表达建筑物或聚居地坐落在河边的含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容合规，仅存在单词模块标点冗余、comparison未按要求明确补充说明的小问题，可修正完善。（非逐句人工审核）"
+}

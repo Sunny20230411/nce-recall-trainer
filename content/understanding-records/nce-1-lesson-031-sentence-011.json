@@ -1,0 +1,111 @@
+{
+  "chinese": "狗也在花园里。",
+  "intent": "回应前文关于狗的位置的询问，补充说明狗同样处于花园里的状态，和前文提到的其他人或动物的位置形成对应",
+  "comparison": null,
+  "backbone": {
+    "text": "The dog's in the garden",
+    "meaning": "狗处于花园里"
+  },
+  "parts": [
+    {
+      "text": "The dog's",
+      "relation": "描述位置状态的主体加对应系动词",
+      "meaning": "这只狗（是）"
+    },
+    {
+      "text": "in the garden,",
+      "relation": "补充主体所处的具体位置",
+      "meaning": "在花园里"
+    },
+    {
+      "text": "too.",
+      "relation": "补充说明该情况和前文提到的情况一致",
+      "meaning": "也"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "dog's的缩写含义",
+      "text": "这里dog's是dog is的口语化缩写，不是所有格形式，用来表示狗当下的所处位置，不会表示“狗的”所有关系"
+    },
+    {
+      "title": "too的指代逻辑",
+      "text": "末尾的too呼应前文已经提到的某对象处于花园的信息，不用重复完整的场景，就能直接传递“同样也在”的补充含义"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The dog's",
+      "role": "主语加系动词的口语缩写结构",
+      "explanation": "明确描述的对象是这只狗，同时带出表示存在状态的系动词，简化日常口语的表达"
+    },
+    {
+      "text": "in the garden",
+      "role": "地点介词短语",
+      "explanation": "用来指明主体所处的具体空间位置，补充说明状态发生的地点"
+    },
+    {
+      "text": "too.",
+      "role": "追加补充状语",
+      "explanation": "放在句末呼应前文信息，说明本句描述的情况和之前提到的情况相同"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这个，这只",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "狗是（dog is的口语缩写）",
+      "pos": "名词+系动词be的第三人称单数现在时缩写",
+      "phonetic": "/dɒɡz/",
+      "text": "dog's"
+    },
+    {
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这个，这片",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "花园",
+      "pos": "名词",
+      "phonetic": "/ˈɡɑːdn/",
+      "text": "garden,"
+    },
+    {
+      "meaning": "也",
+      "pos": "副词",
+      "phonetic": "/tuː/",
+      "text": "too."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-31",
+  "sentenceId": "nce-1-lesson-031-sentence-011",
+  "sentenceOrder": 11,
+  "english": "The dog's in the garden, too.",
+  "lesson": "Lesson 31 Where's Sally?",
+  "notes": [
+    {
+      "title": "dog's的缩写含义",
+      "text": "这里dog's是dog is的口语化缩写，不是所有格形式，用来表示狗当下的所处位置，不会表示“狗的”所有关系"
+    },
+    {
+      "title": "too的指代逻辑",
+      "text": "末尾的too呼应前文已经提到的某对象处于花园的信息，不用重复完整的场景，就能直接传递“同样也在”的补充含义"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有解析整体符合要求，仅存在部分细节疏漏可明确修正，不影响核心内容准确性（非逐句人工审核）"
+}

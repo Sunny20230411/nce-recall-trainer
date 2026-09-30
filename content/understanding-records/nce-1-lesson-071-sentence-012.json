@@ -1,0 +1,147 @@
+{
+  "chinese": "我说：‘我是波琳的母亲。请不要再给我女儿打电话！’",
+  "intent": "转述自己当时对对方说的两句话，一是自报身份，二是发出停止打扰的严正警告。",
+  "comparison": null,
+  "backbone": {
+    "text": "I said, 'This is Pauline's mother. Please don't telephone my daughter again!'",
+    "meaning": "我当时说出了两句话：表明自己是波琳的母亲，严正要求对方不要再给自己的女儿打电话。"
+  },
+  "structureNotes": [
+    {
+      "title": "said的单引号内容是直接引语",
+      "text": "said后面紧跟的单引号包裹的内容，是一字不差还原我当时说出的原话，不是我过后转述给自己听的间接内容。"
+    },
+    {
+      "title": "第二人称祈使句的否定形式",
+      "text": "Please don't + 动词原形 是对听话人直接发出命令的祈使句，逻辑主语是“你（听话人）”，不需要额外带出you，don't对telephone进行否定，末尾的again表示“再、又”，强调“别再做这件事”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I said",
+      "role": "主句主谓",
+      "explanation": "交代句子核心动作是“我说出了某番话”，是全句的主干，后面的引语全部是said的具体内容。"
+    },
+    {
+      "text": "This is Pauline's mother.",
+      "role": "直接引语第一分句（陈述句）",
+      "explanation": "引语里的第一句话，是自报身份的常用表达，意思是“我是波琳的母亲”，用所有格Pauline's说明这是波琳的妈妈。"
+    },
+    {
+      "text": "Please don't telephone my daughter again!",
+      "role": "直接引语第二分句（否定祈使句）",
+      "explanation": "引语里的第二句话，是直接对听话人发出的严正要求：请不要再次给我女儿打电话。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词（主格）",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "说（say的过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/",
+      "text": "said,"
+    },
+    {
+      "meaning": "这，这里",
+      "pos": "指示代词",
+      "phonetic": "/ðɪs/",
+      "text": "'This"
+    },
+    {
+      "meaning": "是（be动词第三人称单数现在式）",
+      "pos": "动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "波琳的",
+      "pos": "名词所有格",
+      "phonetic": "/ˈpɔːlɪnz/",
+      "text": "Pauline's"
+    },
+    {
+      "meaning": "母亲",
+      "pos": "名词",
+      "phonetic": "/ˈmʌðə(r)/",
+      "text": "mother."
+    },
+    {
+      "meaning": "请（礼貌/强调的请求标记）",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/",
+      "text": "Please"
+    },
+    {
+      "meaning": "不要（do not的缩写）",
+      "pos": "助动词（否定缩写）",
+      "phonetic": "/dəʊnt/",
+      "text": "don't"
+    },
+    {
+      "meaning": "给…打电话",
+      "pos": "动词",
+      "phonetic": "/ˈtelɪfəʊn/",
+      "text": "telephone"
+    },
+    {
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/",
+      "text": "my"
+    },
+    {
+      "meaning": "女儿",
+      "pos": "名词",
+      "phonetic": "/ˈdɔːtə(r)/",
+      "text": "daughter"
+    },
+    {
+      "meaning": "再，又",
+      "pos": "副词",
+      "phonetic": "/əˈɡen/",
+      "text": "again!'"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I said,",
+      "meaning": "我说：",
+      "relation": "全句主干，交代后面引号里的内容是“我”当时亲口说出的原话。"
+    },
+    {
+      "text": "'This is Pauline's mother.",
+      "meaning": "‘我是波琳的母亲。",
+      "relation": "直接引语的第一部分，是自报身份的陈述句，说明说话人是波琳的妈妈。"
+    },
+    {
+      "text": "Please don't telephone my daughter again!'",
+      "meaning": "请不要再给我女儿打电话！’",
+      "relation": "直接引语的第二部分，是否定祈使句，是对听话人提出的严正要求，禁止对方再次致电自己的女儿。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-71",
+  "sentenceId": "nce-1-lesson-071-sentence-012",
+  "sentenceOrder": 12,
+  "english": "I said, 'This is Pauline's mother. Please don't telephone my daughter again!'",
+  "lesson": "Lesson 71 He's awful!",
+  "notes": [
+    {
+      "title": "said的单引号内容是直接引语",
+      "text": "said后面紧跟的单引号包裹的内容，是一字不差还原我当时说出的原话，不是我过后转述给自己听的间接内容。"
+    },
+    {
+      "title": "第二人称祈使句的否定形式",
+      "text": "Please don't + 动词原形 是对听话人直接发出命令的祈使句，逻辑主语是“你（听话人）”，不需要额外带出you，don't对telephone进行否定，末尾的again表示“再、又”，强调“别再做这件事”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构清晰，直接引语与否定祈使句说明基本正确；主要问题是引语第一分句被表述为打电话自报身份，但本段上下文实际是“我”对骚扰者当面/直接告知自己是波琳的母亲，宜改为通用于自报身份的语境，不应强行绑定电话场景。其余主干、词性、音标与释义无需改动。（非逐句人工审核）"
+}

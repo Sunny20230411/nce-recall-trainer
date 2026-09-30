@@ -1,0 +1,140 @@
+{
+  "chinese": "没有，我们没有啤酒和葡萄酒。而且我也不打算去买！",
+  "intent": "先针对前文关于是否有啤酒和葡萄酒的提问给出明确否定答复，随后补充说明自己没有购置这类酒的计划，带有较强的否定强调语气。",
+  "comparison": null,
+  "backbone": {
+    "text": "we haven't, I'm not going to get any",
+    "meaning": "我们没有啤酒和葡萄酒，我也不打算去买任何（酒）。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略答语还原",
+      "text": "No, we haven't. 是对前文Have we got any beer and wine?的简短否定回答，完整形式为We haven't got any beer and wine，口语中直接用现在完成时的否定缩写回应，避免重复前文已提及的信息。"
+    },
+    {
+      "title": "be going to表计划",
+      "text": "I'm not going to get any使用be going to结构表示主语当下明确的打算，get指代前文提到的buy/obtain beer and wine，any指代前文的beer and wine，避免重复赘述。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "否定应答叹词",
+      "explanation": "以简短语气词直接承接前文的一般疑问句，给出否定回应的态度。"
+    },
+    {
+      "text": "we haven't.",
+      "role": "现在完成时省略谓语",
+      "explanation": "省略了前文出现过的got any beer and wine，完整表意是我们没有任何啤酒和葡萄酒了。"
+    },
+    {
+      "text": "And",
+      "role": "并列连词",
+      "explanation": "连接前后两个独立分句，补充进一层的否定计划信息，在本句中起到递进补充的作用。"
+    },
+    {
+      "text": "I'm not going to get any!",
+      "role": "一般将来时否定分句",
+      "explanation": "使用be going to结构表达主语的计划打算，not对计划行为进行否定，any指代前文提到的beer and wine。"
+    },
+    {
+      "text": "any",
+      "role": "不定代词",
+      "explanation": "在分句中作get的宾语，指代前文提到的beer and wine，属于语境省略后的指代用法。"
+    }
+  ],
+  "words": [
+    {
+      "text": "No,",
+      "meaning": "不、不是（应答否定词）",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "we",
+      "meaning": "我们（主格人称代词）",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "haven't.",
+      "meaning": "have not的缩写形式，此处为现在完成时否定助动词，后省略实义成分",
+      "pos": "缩写（助动词）",
+      "phonetic": "/ˈhævnt/"
+    },
+    {
+      "text": "And",
+      "meaning": "而且、和（并列连词）",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "I'm",
+      "meaning": "I am的缩写",
+      "pos": "缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "not",
+      "meaning": "不、没有（否定副词）",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "going",
+      "meaning": "go的现在分词，与am搭配构成be going to表打算",
+      "pos": "动词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，引出后续的动作）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː; tə/"
+    },
+    {
+      "text": "get",
+      "meaning": "获得、买到（动词原形）",
+      "pos": "动词",
+      "phonetic": "/ɡet/"
+    },
+    {
+      "text": "any!",
+      "meaning": "任何（事物，此处指代前文的啤酒和葡萄酒）",
+      "pos": "不定代词",
+      "phonetic": "/ˈeni/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "No, we haven't.",
+      "meaning": "没有，我们没有啤酒和葡萄酒。",
+      "relation": "针对前文关于是否有啤酒和葡萄酒的提问给出否定答复。"
+    },
+    {
+      "text": "And I'm not going to get any!",
+      "meaning": "而且我也不打算去买任何（酒）！",
+      "relation": "用and衔接补充说明自己后续也没有购买这类物品的计划，语气带有强调意味。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-79",
+  "sentenceId": "nce-1-lesson-079-sentence-012",
+  "sentenceOrder": 12,
+  "english": "No, we haven't. And I'm not going to get any!",
+  "lesson": "Lesson 79 Carol's shopping list",
+  "notes": [
+    {
+      "title": "省略答语还原",
+      "text": "No, we haven't. 是对前文Have we got any beer and wine?的简短否定回答，完整形式为We haven't got any beer and wine，口语中直接用现在完成时的否定缩写回应，避免重复前文已提及的信息。"
+    },
+    {
+      "title": "be going to表计划",
+      "text": "I'm not going to get any使用be going to结构表示主语当下明确的打算，get指代前文提到的buy/obtain beer and wine，any指代前文的beer and wine，避免重复赘述。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合对话语境，否定省略答语、be going to表计划、any的指代关系均解释正确，存在两处可明确修正的表述问题：1. we haven't 的成分角色定义不准确，它属于现在完成时的省略谓语而非单纯的省略答语成分；2. haven't 后缺少撇号，不符合规范书写形式，其余内容无需修改。（非逐句人工审核）"
+}

@@ -1,0 +1,157 @@
+{
+  "chinese": "他下个月将飞往纽约。",
+  "intent": "陈述他下个月的飞行出行目的地和时间安排。",
+  "comparison": {
+    "chinese": "时间状语“下个月”在中文里习惯放在动作前面；英文则先讲清主语、动作和目的地，再把时间放在句末。",
+    "english": "Next month he will fly to New York. / He will fly to New York next month.",
+    "steps": [
+      {
+        "label": "先确定主干",
+        "text": "He will fly to New York",
+        "explanation": "先给出核心事件“他将飞往纽约”，把动作和目的地交代清楚。"
+      },
+      {
+        "label": "再接时间",
+        "text": "next month",
+        "explanation": "时间状语作为补充信息放在句末，说明这个飞行安排发生在下个月。"
+      }
+    ],
+    "takeaway": "中文常把时间状语前置说明动作何时发生，英文可把完整事件先说清楚，时间信息放在句末作补充。"
+  },
+  "backbone": {
+    "text": "He will fly to New York.",
+    "meaning": "他将乘坐飞机前往纽约。"
+  },
+  "structureNotes": [
+    {
+      "title": "一般将来时的表达",
+      "text": "will 后接动词原形 fly，表示这个飞行动作是将来要发生的，而非现在正在进行的动作。"
+    },
+    {
+      "title": "地点介词搭配",
+      "text": "介词 to 接在不及物动词 fly 后面，引出飞行的目的地纽约，说明动作的朝向和最终抵达地点。"
+    },
+    {
+      "title": "时间状语位置",
+      "text": "next month 放在句末作时间补充，说明这个飞行安排的具体时间是下个月。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文提到的男性人物，是这个飞行动作的发出者。"
+    },
+    {
+      "text": "will fly",
+      "role": "谓语",
+      "explanation": "will 标记将来时态，fly 是核心动作动词，整体表示将要进行飞行这一动作。"
+    },
+    {
+      "text": "to New York",
+      "role": "目的地状语",
+      "explanation": "介词 to 引出飞行的最终目的地纽约，补充说明飞行动作的朝向。"
+    },
+    {
+      "text": "next month",
+      "role": "时间状语",
+      "explanation": "用名词短语说明这个飞行动作发生的时间是下个月。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词（主格）",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "will",
+      "meaning": "将（用于构成一般将来时）",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "fly",
+      "meaning": "乘飞机出行；（也可指驾驶飞机）飞行",
+      "pos": "动词",
+      "phonetic": "/flaɪ/"
+    },
+    {
+      "text": "to",
+      "meaning": "向，朝（引出目的地）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "New",
+      "meaning": "新的",
+      "pos": "形容词",
+      "phonetic": "/njuː/"
+    },
+    {
+      "text": "York",
+      "meaning": "约克（用于城市名）",
+      "pos": "名词",
+      "phonetic": "/jɔːk/"
+    },
+    {
+      "text": "next",
+      "meaning": "下一个的，紧接着的",
+      "pos": "形容词",
+      "phonetic": "/nekst/"
+    },
+    {
+      "text": "month.",
+      "meaning": "月，月份",
+      "pos": "名词",
+      "phonetic": "/mʌnθ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "整个句子的动作发出者，即实施飞行动作的人。",
+      "meaning": "他"
+    },
+    {
+      "text": "will fly",
+      "relation": "描述主语将要做出的核心动作，用will标记这是将来要发生的事。",
+      "meaning": "将飞"
+    },
+    {
+      "text": "to New York",
+      "relation": "补充飞行的目的地，说明这个飞行动作最终抵达的地点。",
+      "meaning": "到纽约"
+    },
+    {
+      "text": "next month.",
+      "relation": "补充整个飞行安排的发生时间。",
+      "meaning": "下个月。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-93",
+  "sentenceId": "nce-1-lesson-093-sentence-003",
+  "sentenceOrder": 3,
+  "english": "He will fly to New York next month.",
+  "lesson": "Lesson 93 Our new neighbour",
+  "notes": [
+    {
+      "title": "一般将来时的表达",
+      "text": "will 后接动词原形 fly，表示这个飞行动作是将来要发生的，而非现在正在进行的动作。"
+    },
+    {
+      "title": "地点介词搭配",
+      "text": "介词 to 接在不及物动词 fly 后面，引出飞行的目的地纽约，说明动作的朝向和最终抵达地点。"
+    },
+    {
+      "title": "时间状语位置",
+      "text": "next month 放在句末作时间补充，说明这个飞行安排的具体时间是下个月。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语法分析、主干、翻译和各分块释义基本可用。存在两处可明确修正的小问题：一是单词 fly 的释义仅写“飞，驾驶飞机”，未结合上下文体现“乘飞机前往”的出行属性；二是单词 month 的音标条目误将句末句号并入单词文本，应拆分修正。（非逐句人工审核）"
+}

@@ -1,0 +1,143 @@
+{
+  "chinese": "他上星期没去上学吗？",
+  "intent": "确认对方上星期是否缺课。",
+  "comparison": {
+    "chinese": "中文先点明时间“上星期”，再说“没去上学吗”；英文通常把时间状语放在句末。",
+    "english": "Was he absent from school last week? places the verb before the subject for the question and the time phrase at the end.",
+    "steps": [
+      {
+        "label": "第一步",
+        "text": "Was he absent from school",
+        "explanation": "把 Was 放在句首，构成一般疑问句，表示“他是不是缺课了”。"
+      },
+      {
+        "label": "第二步",
+        "text": "last week",
+        "explanation": "放在句末说明缺课的时间是“上星期”。"
+      }
+    ],
+    "takeaway": "英文问句常把 Was 提到主语前，时间状语放句末；中文可把时间放在动词前。"
+  },
+  "backbone": {
+    "text": "Was he absent from school?",
+    "meaning": "他是不是没去上学？"
+  },
+  "structureNotes": [
+    {
+      "title": "一般疑问句语序",
+      "text": "把 be 动词 Was 放在主语 he 前面，就把陈述句“他缺课了”变成了询问事实的问句。"
+    },
+    {
+      "title": "形容词与介词搭配",
+      "text": "absent 后接 from school，表示“没去上学/缺课”，不是从学校离开的动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Was",
+      "role": "be动词（一般疑问句）",
+      "explanation": "提到主语前，与表语搭配构成疑问。"
+    },
+    {
+      "text": "he",
+      "role": "主语",
+      "explanation": "指代被询问的男性。"
+    },
+    {
+      "text": "absent from school",
+      "role": "表语",
+      "explanation": "说明主语“没去上学/缺课”。"
+    },
+    {
+      "text": "last week?",
+      "role": "时间状语",
+      "explanation": "表示询问的时间范围是上星期。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Was",
+      "meaning": "是（am/is/are 的过去式）",
+      "pos": "be动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "absent",
+      "meaning": "缺席的，没到的",
+      "pos": "形容词",
+      "phonetic": "/ˈæbsənt/"
+    },
+    {
+      "text": "from",
+      "meaning": "从……，离……",
+      "pos": "介词",
+      "phonetic": "/frɒm/"
+    },
+    {
+      "text": "school",
+      "meaning": "学校；上学",
+      "pos": "名词",
+      "phonetic": "/skuːl/"
+    },
+    {
+      "text": "last",
+      "meaning": "上一个的",
+      "pos": "形容词",
+      "phonetic": "/lɑːst/"
+    },
+    {
+      "text": "week?",
+      "meaning": "星期，周",
+      "pos": "名词",
+      "phonetic": "/wiːk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Was",
+      "meaning": "（用于疑问句开头，构成过去式提问）",
+      "relation": "引导提问"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "relation": "被询问的对象"
+    },
+    {
+      "text": "absent from school",
+      "meaning": "没去上学/缺课",
+      "relation": "描述对象的状态"
+    },
+    {
+      "text": "last week?",
+      "meaning": "上星期",
+      "relation": "补充时间范围"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-67",
+  "sentenceId": "nce-1-lesson-067-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Was he absent from school last week?",
+  "lesson": "Lesson 67 The weekend",
+  "notes": [
+    {
+      "title": "一般疑问句语序",
+      "text": "把 be 动词 Was 放在主语 he 前面，就把陈述句“他缺课了”变成了询问事实的问句。"
+    },
+    {
+      "title": "形容词与介词搭配",
+      "text": "absent 后接 from school，表示“没去上学/缺课”，不是从学校离开的动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体可用于学习：句子主干、结构角色、时态和语境说明基本正确；`last week` 不应拆分到单词卡中，且 `English` 比较句需直接解释语序组织方式。（非逐句人工审核）"
+}

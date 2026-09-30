@@ -1,0 +1,123 @@
+{
+  "chinese": "我们十点十分到达伦敦。",
+  "intent": "回应关于到达伦敦时间的询问，明确说明到达伦敦的具体时刻。",
+  "comparison": null,
+  "backbone": {
+    "text": "We'll arrive in London.",
+    "meaning": "我们将抵达伦敦。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间介词的分工",
+      "text": "到达城市这类大地点用arrive in，具体钟点用at引出，不要把两个介词的搭配混淆。"
+    },
+    {
+      "title": "英式时间表达",
+      "text": "ten past ten表示“十点过十分”，即10:10，past在这里表示“超过、过（几点）”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We'll",
+      "role": "主语兼助动词",
+      "explanation": "We是主语，'ll是will的缩写，和后面的arrive一起构成一般将来时，表示将来要发生的动作。"
+    },
+    {
+      "text": "arrive in London",
+      "role": "谓语核心+地点状语",
+      "explanation": "arrive是表示“到达”的不及物动词，为谓语核心；in London是介词短语作地点状语，补充说明到达的具体城市。"
+    },
+    {
+      "text": "at ten past ten",
+      "role": "时间状语",
+      "explanation": "at引出具体钟点，说明arrive in London这个动作发生在10点10分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We'll",
+      "meaning": "我们（we和will的缩写形式）",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/wiːl/"
+    },
+    {
+      "text": "arrive",
+      "meaning": "到达，抵达",
+      "pos": "动词",
+      "phonetic": "/əˈraɪv/"
+    },
+    {
+      "text": "in",
+      "meaning": "（后接大地点）在……之内",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "London",
+      "meaning": "伦敦（英国首都）",
+      "pos": "专有名词",
+      "phonetic": "/ˈlʌndən/"
+    },
+    {
+      "text": "at",
+      "meaning": "（后接具体时刻）在……（时间点）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "ten",
+      "meaning": "十（此处指分钟数）",
+      "pos": "数词",
+      "phonetic": "/ten/"
+    },
+    {
+      "text": "past",
+      "meaning": "（时间表达）过，晚于",
+      "pos": "介词",
+      "phonetic": "/pɑːst/"
+    },
+    {
+      "text": "ten.",
+      "meaning": "十（此处指小时数）",
+      "pos": "数词",
+      "phonetic": "/ten/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We'll arrive",
+      "meaning": "我们将会到达",
+      "relation": "主语和谓语核心，交代动作主体与将要发生的核心动作"
+    },
+    {
+      "text": "in London",
+      "meaning": "在伦敦",
+      "relation": "介词短语作地点状语，补充说明到达的地点"
+    },
+    {
+      "text": "at ten past ten.",
+      "meaning": "在十点十分",
+      "relation": "介词短语作时间状语，补充说明到达的具体时间"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-95",
+  "sentenceId": "nce-1-lesson-095-sentence-007",
+  "sentenceOrder": 7,
+  "english": "We'll arrive in London at ten past ten.",
+  "lesson": "Lesson 95 Tickets, please.",
+  "notes": [
+    {
+      "title": "时间介词的分工",
+      "text": "到达城市这类大地点用arrive in，具体钟点用at引出，不要把两个介词的搭配混淆。"
+    },
+    {
+      "title": "英式时间表达",
+      "text": "ten past ten表示“十点过十分”，即10:10，past在这里表示“超过、过（几点）”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析内容准确，仅存在两处可优化的细节问题：一是最后一个词条的text字段携带了句末句号，不符合词条仅对应单词本身的规范；二是结构与分句中将地点状语误表述为谓语成分，未清晰区分核心不及物动词arrive与其后介词短语的句法分工。其余内容均符合解析规范。（非逐句人工审核）"
+}

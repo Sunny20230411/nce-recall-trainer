@@ -1,0 +1,75 @@
+{
+  "chinese": "里面有什么？",
+  "intent": "询问某个容器或者封闭空间内部所存放的具体事物",
+  "comparison": null,
+  "backbone": {
+    "text": "What's in it?",
+    "meaning": "询问其内的事物"
+  },
+  "parts": [
+    {
+      "text": "What's",
+      "relation": "疑问核心与系动词部分，作为特殊疑问句的起始引导部分点明要询问的未知事物",
+      "meaning": "是什么（What is的口语缩略形式）"
+    },
+    {
+      "text": "in it?",
+      "relation": "限定询问的空间范围，明确指向前文提及物品的内部区域",
+      "meaning": "在它里面"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "指代关系",
+      "text": "句中的it承接前文提到的物体，此处指代佩妮的包，不需要额外说出包的全称也能让对话双方明白指代对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's",
+      "role": "疑问词+be动词缩略结构",
+      "explanation": "用来发起对未知事物的提问，是What is的口语化缩略形式"
+    },
+    {
+      "text": "in it?",
+      "role": "地点状语短语",
+      "explanation": "限定提问的范围，说明询问的是该物体内部的内容"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是什么（What is的缩略）",
+      "pos": "contraction",
+      "phonetic": "/wɒts/",
+      "text": "What's"
+    },
+    {
+      "meaning": "在……里面",
+      "pos": "preposition",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "它（指代前文提到的物品，此处指代承接上下文的待查询容器）",
+      "pos": "pronoun",
+      "phonetic": "/ɪt/",
+      "text": "it?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-41",
+  "sentenceId": "nce-1-lesson-041-sentence-005",
+  "sentenceOrder": 5,
+  "english": "What's in it?",
+  "lesson": "Lesson 41 Penny's bag",
+  "notes": [
+    {
+      "title": "指代关系",
+      "text": "句中的it承接前文提到的物体，此处指代佩妮的包，不需要额外说出包的全称也能让对话双方明白指代对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原始解析整体框架合规，仅存在部分细节错误需修正，可通过补丁完善内容准确性（非逐句人工审核）"
+}

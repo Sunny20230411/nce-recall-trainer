@@ -1,0 +1,117 @@
+{
+  "chinese": "瓶子里有水吗？",
+  "intent": "用 there be 句型的疑问形式，询问瓶子这个容器内部是否存在水。",
+  "comparison": null,
+  "backbone": {
+    "text": "Is there any water in the bottle?",
+    "meaning": "询问瓶子这个容器内是否存在水。"
+  },
+  "structureNotes": [
+    {
+      "title": "Is there 疑问形式",
+      "text": "陈述句中 there is 表示“存在有”，变成一般疑问句时把 is 移到句首，形成 Is there...? 用来询问是否存在某人或某物。"
+    },
+    {
+      "title": "any 在疑问句中的用法",
+      "text": "any 常用于否定句和疑问句中，修饰不可数名词或可数名词复数，这里 any water 指“一些水”，对应答句里的肯定形式 some water。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is there",
+      "role": "there be句型的疑问引导部分",
+      "explanation": "将陈述句中的 be 动词 is 提前到句首，构成一般疑问结构，核心语义是“是否存在”。"
+    },
+    {
+      "text": "any water",
+      "role": "存在的主体",
+      "explanation": "any 修饰不可数名词 water，表示“一些水”，是本句询问是否存在的对象。"
+    },
+    {
+      "text": "in the bottle",
+      "role": "地点状语",
+      "explanation": "介词短语说明“存在”的位置是在瓶子内部，用名词 bottle 表示被考察的容器。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Is",
+      "meaning": "（与 there 连用表示存在）是；在",
+      "pos": "be动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "there",
+      "meaning": "（与 be 动词连用表示存在）",
+      "pos": "副词",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "any",
+      "meaning": "一些，任何",
+      "pos": "限定词",
+      "phonetic": "/ˈeni/"
+    },
+    {
+      "text": "water",
+      "meaning": "水",
+      "pos": "不可数名词",
+      "phonetic": "/ˈwɔːtə/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，特指",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bottle?",
+      "meaning": "瓶子（问号为句末标点，不构成词义）",
+      "pos": "名词",
+      "phonetic": "/ˈbɒtl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Is there",
+      "meaning": "是否存在",
+      "relation": "疑问引导，引出存在性询问"
+    },
+    {
+      "text": "any water",
+      "meaning": "一些水",
+      "relation": "询问的核心对象"
+    },
+    {
+      "text": "in the bottle?",
+      "meaning": "在瓶子里",
+      "relation": "补充说明水的位置"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-59",
+  "sentenceId": "nce-1-lesson-059-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Is there any water in the bottle?",
+  "lesson": "Lesson 59 Is that all?",
+  "notes": [
+    {
+      "title": "Is there 疑问形式",
+      "text": "陈述句中 there is 表示“存在有”，变成一般疑问句时把 is 移到句首，形成 Is there...? 用来询问是否存在某人或某物。"
+    },
+    {
+      "title": "any 在疑问句中的用法",
+      "text": "any 常用于否定句和疑问句中，修饰不可数名词或可数名词复数，这里 any water 指“一些水”，对应答句里的肯定形式 some water。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：译文通顺，主干为疑问主谓结构，非重读 there 已标副词且未被误作主语；结构说明和 chunks 与 there be 疑问形式一致。仅需在词汇表点明 bottle? 的问号只属于句末标点，并把 Is 的释义与 there be 句型中的“存在”用法衔接起来。（非逐句人工审核）"
+}

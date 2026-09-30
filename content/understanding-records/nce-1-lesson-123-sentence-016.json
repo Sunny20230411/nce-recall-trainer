@@ -1,0 +1,134 @@
+{
+  "chinese": "我妻子不喜欢！",
+  "intent": "用带感叹语气的简单句说明：妻子不喜欢前文提到的那件事/那样东西。",
+  "comparison": {
+    "chinese": "否定这件事时，中文把否定放在动词前，“不喜欢”作为整体语义直接出现。",
+    "english": "英文则在助动词 did 后加 not 构成否定，didn't like 一起作谓语，再用 it 指代前文提到的事物。",
+    "steps": [
+      {
+        "label": "确定主语",
+        "text": "My wife",
+        "explanation": "明确动作发出者是“我妻子”。"
+      },
+      {
+        "label": "构成否定",
+        "text": "didn't like",
+        "explanation": "didn't = did not，帮助动词 like 构成过去时的否定，表示过去“不喜欢”。"
+      },
+      {
+        "label": "指代对象",
+        "text": "it",
+        "explanation": "指代前文提到的事物，如留胡子的样子、某样物件，承接上下文理解。"
+      }
+    ],
+    "takeaway": "英语过去时否定要借助 didn't，后面动词用原形；it 指代前文已提及的对象，不额外增译。"
+  },
+  "backbone": {
+    "text": "My wife didn't like it.",
+    "meaning": "我妻子不喜欢它。"
+  },
+  "structureNotes": [
+    {
+      "title": "否定结构",
+      "text": "didn't 是 did not 的缩写，说明句子是一般过去时的否定，后面的实义动词 like 用原形。"
+    },
+    {
+      "title": "指代衔接",
+      "text": "句中 it 没有明确写出具体事物，需要结合前文语境判断指代对象，是上下文衔接的关键。"
+    },
+    {
+      "title": "感叹语气",
+      "text": "结尾用感叹号，给这句陈述增加情绪强度，说明说话人在强调妻子的态度。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My wife",
+      "role": "主语",
+      "explanation": "句子描述的主体，表示是“我妻子”发出了不喜欢的态度。"
+    },
+    {
+      "text": "didn't like",
+      "role": "谓语",
+      "explanation": "构成过去时否定的核心部分，表示过去“不喜欢”的动作。"
+    },
+    {
+      "text": "it",
+      "role": "宾语",
+      "explanation": "指代前文提到的事物，是 like 这个动作的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "My",
+      "meaning": "我的",
+      "pos": "物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "wife",
+      "meaning": "妻子",
+      "pos": "名词",
+      "phonetic": "/waɪf/"
+    },
+    {
+      "text": "didn't",
+      "meaning": "没有（did not 的缩写）",
+      "pos": "助动词否定缩写",
+      "phonetic": "/ˈdɪdnt/"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢",
+      "pos": "动词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "it!",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "My wife",
+      "relation": "说明动作的发出者",
+      "meaning": "我的妻子"
+    },
+    {
+      "text": "didn't like",
+      "relation": "描述主语的过去态度，构成否定的动作",
+      "meaning": "不喜欢"
+    },
+    {
+      "text": "it!",
+      "relation": "指代前文提到的事物，是“喜欢”的对象，带感叹语气",
+      "meaning": "它！"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-123",
+  "sentenceId": "nce-1-lesson-123-sentence-016",
+  "sentenceOrder": 16,
+  "english": "My wife didn't like it!",
+  "lesson": "Lesson 123 A trip to Australia",
+  "notes": [
+    {
+      "title": "否定结构",
+      "text": "didn't 是 did not 的缩写，说明句子是一般过去时的否定，后面的实义动词 like 用原形。"
+    },
+    {
+      "title": "指代衔接",
+      "text": "句中 it 没有明确写出具体事物，需要结合前文语境判断指代对象，是上下文衔接的关键。"
+    },
+    {
+      "title": "感叹语气",
+      "text": "结尾用感叹号，给这句陈述增加情绪强度，说明说话人在强调妻子的态度。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确：正确覆盖了一般过去时否定结构、it的上下文指代关系与感叹语气，主干提取、语法成分划分、词汇释义及音标均符合要求。仅存在两处小瑕疵：原中文翻译未与英文保持感叹语气一致；it词条将句末感叹号纳入释义，混淆了独立代词本身与整句标点的功能，已做最小范围修正。（非逐句人工审核）"
+}

@@ -1,0 +1,75 @@
+{
+  "chinese": "我快好了。",
+  "intent": "告知对话对象自身即将准备完毕。",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm nearly ready.",
+    "meaning": "我马上就准备妥当。"
+  },
+  "structureNotes": [
+    {
+      "title": "副词nearly的语义作用",
+      "text": "nearly是程度副词，修饰表语中的形容词ready，明确表达“接近完成、尚未完全准备好”的状态，而非已经全部就绪。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm",
+      "role": "主语加系动词（主谓组合的缩略形式）",
+      "explanation": "I'm是I am的口语缩略形式，I是句子主语，am是连接主语和表语的系动词，用于说明主语的状态。"
+    },
+    {
+      "text": "nearly ready.",
+      "role": "表语，带程度修饰",
+      "explanation": "形容词ready在系动词后作表语，描述主语I的状态；nearly作程度副词修饰ready，表示接近准备好但还未完成的程度。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我是（I am的口语缩略形式）",
+      "pos": "代词+系动词缩写",
+      "phonetic": "/aɪm/",
+      "text": "I'm"
+    },
+    {
+      "meaning": "几乎，差不多",
+      "pos": "副词",
+      "phonetic": "/ˈnɪəli/",
+      "text": "nearly"
+    },
+    {
+      "meaning": "准备好的",
+      "pos": "形容词",
+      "phonetic": "/ˈredi/",
+      "text": "ready."
+    }
+  ],
+  "parts": [
+    {
+      "text": "I'm",
+      "meaning": "我是（I am的口语缩写）",
+      "relation": "句子的核心陈述主体与状态引导"
+    },
+    {
+      "text": "nearly ready.",
+      "meaning": "差不多好了（nearly表示接近，ready表示准备就绪）",
+      "relation": "描述主语的临近就绪状态"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-81",
+  "sentenceId": "nce-1-lesson-081-sentence-007",
+  "sentenceOrder": 7,
+  "english": "I'm nearly ready.",
+  "lesson": "Lesson 81 Roast beef and potatoes",
+  "notes": [
+    {
+      "title": "副词nearly的语义作用",
+      "text": "nearly是程度副词，修饰表语中的形容词ready，明确表达“接近完成、尚未完全准备好”的状态，而非已经全部就绪。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句译文、主干、词汇、句法、语块关系均符合语境与语法，仅个别表述的准确性需微调：原结构注释将nearly的修饰对象描述为表语形容词ready，但表语整体是nearly ready短语，表述不够严谨；part的含义将nearly与ready融合翻译，和后续拆分的单个词汇语义略有冲突，调整表述使其更准确。（非逐句人工审核）"
+}

@@ -1,0 +1,137 @@
+{
+  "chinese": "嗯，我也没有多少钱！",
+  "intent": "在对方说自己没有多少之后，说明自己同样没有多少钱。",
+  "comparison": {
+    "chinese": "中文把“也”放在否定的“没有”前面：我也没有多少。",
+    "english": "英文把 either 放在句末：I haven't got much either。",
+    "steps": [
+      {
+        "label": "先确认否定事实",
+        "text": "haven't got much",
+        "explanation": "表示“没有多少”，much 结合本课购物资金语境，指不可数的钱或物资。"
+      },
+      {
+        "label": "再追加相同情况",
+        "text": "either 放在句末",
+        "explanation": "在否定句末用 either，表示“也”，即自己的情况和对方相同。"
+      }
+    ],
+    "takeaway": "英语否定句中的“也”常放句末，用 either，而不是在动词前加 also/too。"
+  },
+  "backbone": {
+    "text": "I haven't got much either",
+    "meaning": "我同样没有多少钱。"
+  },
+  "structureNotes": [
+    {
+      "title": "haven't got 的口语用法",
+      "text": "haven't got 在这里表示“拥有”的否定，即“没有”，have got 本身就比普通动词 have 更口语化，haven't got 是其对应的否定形式。"
+    },
+    {
+      "title": "either 用于否定句末",
+      "text": "either 表示“也”，只用于否定句；如果是肯定句，表示“也”通常用 too。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Well,",
+      "role": "语气词",
+      "explanation": "用于口语中承接上文，表示感叹或语气停顿。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人本人。"
+    },
+    {
+      "text": "haven't got",
+      "role": "谓语",
+      "explanation": "have got 的否定形式，表示“没有”，后接宾语 much。"
+    },
+    {
+      "text": "much",
+      "role": "宾语",
+      "explanation": "这里是代词，指代不可数的“大量（钱/物资）”。"
+    },
+    {
+      "text": "either",
+      "role": "状语",
+      "explanation": "放在否定句末，表示“也”，说明说话人与前文对方的情况相同。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Well,",
+      "meaning": "嗯（语气词）",
+      "pos": "感叹词",
+      "phonetic": "/wel/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "haven't",
+      "meaning": "没有（have not 的缩写）",
+      "pos": "助动词",
+      "phonetic": "/ˈhævnt/"
+    },
+    {
+      "text": "got",
+      "meaning": "得到、拥有（have got 表示拥有）",
+      "pos": "动词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "much",
+      "meaning": "大量（此处指不可数的钱/物资）",
+      "pos": "代词",
+      "phonetic": "/mʌtʃ/"
+    },
+    {
+      "text": "either!",
+      "meaning": "也（用于否定句末）",
+      "pos": "副词",
+      "phonetic": "/ˈaɪðə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Well,",
+      "relation": "语气铺垫，承接上文对话",
+      "meaning": "嗯"
+    },
+    {
+      "text": "I haven't got much",
+      "relation": "主干：说话人陈述自身没有多少钱",
+      "meaning": "我没有多少"
+    },
+    {
+      "text": "either!",
+      "relation": "补充说明：说话人的情况和前文对方相同",
+      "meaning": "也"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-79",
+  "sentenceId": "nce-1-lesson-079-sentence-015",
+  "sentenceOrder": 15,
+  "english": "Well, I haven't got much either!",
+  "lesson": "Lesson 79 Carol's shopping list",
+  "notes": [
+    {
+      "title": "haven't got 的口语用法",
+      "text": "haven't got 在这里表示“拥有”的否定，即“没有”，have got 本身就比普通动词 have 更口语化，haven't got 是其对应的否定形式。"
+    },
+    {
+      "title": "either 用于否定句末",
+      "text": "either 表示“也”，只用于否定句；如果是肯定句，表示“也”通常用 too。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确，仅两处细节表述不够严谨：一是结构Notes中关于haven't got的比较表述存在歧义，易被误解为否定形式比肯定陈述更口语；二是单词表中haven't的音标缺少撇号，书写不规范。其余词义、语法角色、翻译主干、中英对比均符合语境要求，无错误。（非逐句人工审核）"
+}

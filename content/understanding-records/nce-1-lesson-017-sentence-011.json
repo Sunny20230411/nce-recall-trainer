@@ -1,0 +1,101 @@
+{
+  "chinese": "他们是销售代表。他们很懒。",
+  "intent": "说明对话中提到的这群人的职业身份，同时补充描述这群人的工作状态特点。",
+  "comparison": null,
+  "backbone": {
+    "text": "They're sales reps. They're very lazy.",
+    "meaning": "前半句点明这群人的职业是销售代表，后半句补充说明这群人的共性特点是非常懒散。"
+  },
+  "parts": [
+    {
+      "text": "They're sales reps.",
+      "relation": "说明这群人的职业身份",
+      "meaning": "他们是销售代表。"
+    },
+    {
+      "text": "They're very lazy.",
+      "relation": "补充描述这群人的性格状态特点",
+      "meaning": "他们非常懒。"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "They're 的缩读形式",
+      "text": "这里They're是They are的标准口语缩读，用来指代前文提到的多位从业者，避免重复指代对象的赘述。"
+    },
+    {
+      "title": "两句的指代关联",
+      "text": "两个分句的主语都是同一组人，前一句交代职业身份，后一句直接对同一对象追加状态描述，语义衔接自然紧凑。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They're sales reps",
+      "role": "主系表判断句",
+      "explanation": "用于明确说明主语的职业身份，是典型的介绍身份的基础句式。"
+    },
+    {
+      "text": "They're very lazy",
+      "role": "主系表描述句",
+      "explanation": "用程度副词very修饰形容词lazy，补充说明主语的整体状态特点，语气偏向直白的评价。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "他们是",
+      "pos": "代词主格+系动词are的缩写",
+      "phonetic": "/ðeə(r)/",
+      "text": "They're"
+    },
+    {
+      "meaning": "销售业务的",
+      "pos": "名词（此处和后续reps构成复合名词sales reps，不作定语转形容词解）",
+      "phonetic": "/seɪlz/",
+      "text": "sales"
+    },
+    {
+      "meaning": "代表（复数，为representatives的口语缩写）",
+      "pos": "名词",
+      "phonetic": "/reps/",
+      "text": "reps."
+    },
+    {
+      "meaning": "他们是",
+      "pos": "代词主格+系动词are的缩写",
+      "phonetic": "/ðeə(r)/",
+      "text": "They're"
+    },
+    {
+      "meaning": "非常",
+      "pos": "程度副词",
+      "phonetic": "/ˈveri/",
+      "text": "very"
+    },
+    {
+      "meaning": "懒惰的",
+      "pos": "形容词",
+      "phonetic": "/ˈleɪzi/",
+      "text": "lazy."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-17",
+  "sentenceId": "nce-1-lesson-017-sentence-011",
+  "sentenceOrder": 11,
+  "english": "They're sales reps. They're very lazy.",
+  "lesson": "Lesson 17 How do you do?",
+  "notes": [
+    {
+      "title": "They're 的缩读形式",
+      "text": "这里They're是They are的标准口语缩读，用来指代前文提到的多位从业者，避免重复指代对象的赘述。"
+    },
+    {
+      "title": "两句的指代关联",
+      "text": "两个分句的主语都是同一组人，前一句交代职业身份，后一句直接对同一对象追加状态描述，语义衔接自然紧凑。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原始内容整体合规，存在少量细节表述偏差，可明确修正，不影响核心解析有效性。（非逐句人工审核）"
+}

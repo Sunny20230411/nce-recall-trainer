@@ -1,0 +1,106 @@
+{
+  "chinese": "二十年！好长的一段时间啊。",
+  "intent": "说话人以重复的Twenty years!对提到的二十年居住时长表示惊叹，随后做出评价：这是一段很长的时间。",
+  "comparison": null,
+  "backbone": {
+    "text": "That's a long time.",
+    "meaning": "那是一段很长的时间。"
+  },
+  "structureNotes": [
+    {
+      "title": "Twenty years! 的感叹功能",
+      "text": "Twenty years! 是承接上文的感叹片段，而非完整主谓句；它重复上文刚提到的居住时长，用来表达惊讶或感慨。"
+    },
+    {
+      "title": "That 的指代对象",
+      "text": "That 指代前文刚提到的 twenty years，使评价直接指向被感叹的时长，避免重复完整表达。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Twenty years!",
+      "role": "名词短语感叹片段",
+      "explanation": "它不是完整主谓句，而是承接上文重复 twenty years，用来抒发惊讶或感慨情绪。"
+    },
+    {
+      "text": "That's",
+      "role": "主语 + 系动词",
+      "explanation": "That 是指示代词作主语，指代前文刚提到的 twenty years；is 是系动词，That's 是 that is 的缩写。"
+    },
+    {
+      "text": "a long time",
+      "role": "表语",
+      "explanation": "a long time 是名词短语作表语，说明前面被指代的时长“很长”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Twenty",
+      "meaning": "二十",
+      "pos": "数词",
+      "phonetic": "/ˈtwenti/"
+    },
+    {
+      "text": "years!",
+      "meaning": "年（复数形式）",
+      "pos": "名词",
+      "phonetic": "/ˈjɪəz/"
+    },
+    {
+      "text": "That's",
+      "meaning": "那是（that is 的缩写形式）",
+      "pos": "代词+动词（缩写）",
+      "phonetic": "/ðæts/"
+    },
+    {
+      "text": "a",
+      "meaning": "一段（不定冠词，此处表示泛指）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "long",
+      "meaning": "长的，漫长的",
+      "pos": "形容词",
+      "phonetic": "/lɒŋ/"
+    },
+    {
+      "text": "time.",
+      "meaning": "时间",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Twenty years!",
+      "meaning": "二十年！",
+      "relation": "承接上文的感叹片段，引出后续评价。"
+    },
+    {
+      "text": "That's a long time.",
+      "meaning": "那可真长。",
+      "relation": "对前面提到的二十年时长做出评价。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-89",
+  "sentenceId": "nce-1-lesson-089-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Twenty years! That's a long time.",
+  "lesson": "Lesson 89 For sale",
+  "notes": [
+    {
+      "title": "Twenty years! 的感叹功能",
+      "text": "Twenty years! 是承接上文的感叹片段，而非完整主谓句；它重复上文刚提到的居住时长，用来表达惊讶或感慨。"
+    },
+    {
+      "title": "That 的指代对象",
+      "text": "That 指代前文刚提到的 twenty years，使评价直接指向被感叹的时长，避免重复完整表达。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合语境，指代、主干和分块关系说明基本清楚；为提升准确性，补充说明Twenty years!并非无动词的纯独词句，只是省略了主谓，同时明确That's的主语是That、is为系动词，a long time作表语。（非逐句人工审核）"
+}

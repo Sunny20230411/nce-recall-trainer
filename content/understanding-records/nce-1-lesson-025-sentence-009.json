@@ -1,0 +1,117 @@
+{
+  "chinese": "桌子上有一个瓶子。",
+  "intent": "客观说明房间内桌上摆放着一个瓶子的存在状态，补充描述屋内陈设细节。",
+  "comparison": null,
+  "backbone": {
+    "text": "There is a bottle",
+    "meaning": "表明存在一个瓶子"
+  },
+  "parts": [
+    {
+      "text": "There is",
+      "relation": "整句的存在引导框架",
+      "meaning": "存在句式的引导部分，用来引出后续要描述的存在事物"
+    },
+    {
+      "text": "a bottle",
+      "relation": "框架引出的核心存在事物",
+      "meaning": "一个瓶子，是句子描述的核心存在对象"
+    },
+    {
+      "text": "on the table.",
+      "relation": "补充说明瓶子的放置方位",
+      "meaning": "在桌子上，标明瓶子所处的具体位置"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "There be存在句结构",
+      "text": "本句用There is引导存在表述，不用把There当成实际指代事物的主语，真正描述的核心存在对象是a bottle。"
+    },
+    {
+      "title": "地点介词短语的作用",
+      "text": "on the table直接补充说明瓶子的位置，用来明确存在事物的具体摆放场景，不会改变主句的存在语义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There is",
+      "role": "存在句引导框架",
+      "explanation": "专门用来引出表示人或事物存在的陈述，不代表“在那里”的实际方位含义"
+    },
+    {
+      "text": "a bottle",
+      "role": "存在句的核心主语",
+      "explanation": "是整句用来描述的实际存在的事物，对应存在框架里的核心描述对象"
+    },
+    {
+      "text": "on the table",
+      "role": "地点状语",
+      "explanation": "用来补充说明瓶子放置的具体位置，把存在场景交代清楚"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "存在句引导词，无实际指代含义",
+      "pos": "存在句引导词",
+      "phonetic": "/ðeə(r)/",
+      "text": "There"
+    },
+    {
+      "meaning": "是，存在句式里的be动词",
+      "pos": "动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "一个，不定冠词",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "瓶子",
+      "pos": "名词",
+      "phonetic": "/ˈbɒtl/",
+      "text": "bottle"
+    },
+    {
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "这个，定冠词",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "桌子",
+      "pos": "名词",
+      "phonetic": "/ˈteɪbl/",
+      "text": "table."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-25",
+  "sentenceId": "nce-1-lesson-025-sentence-009",
+  "sentenceOrder": 9,
+  "english": "There is a bottle on the table.",
+  "lesson": "Lesson 25 Mrs. Smith's kitchen",
+  "notes": [
+    {
+      "title": "There be存在句结构",
+      "text": "本句用There is引导存在表述，不用把There当成实际指代事物的主语，真正描述的核心存在对象是a bottle。"
+    },
+    {
+      "title": "地点介词短语的作用",
+      "text": "on the table直接补充说明瓶子的位置，用来明确存在事物的具体摆放场景，不会改变主句的存在语义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，仅存在局部细节疏漏与不严谨表述，可明确修正后合规（非逐句人工审核）"
+}

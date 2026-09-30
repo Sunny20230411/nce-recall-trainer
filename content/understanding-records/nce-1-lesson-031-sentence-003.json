@@ -1,0 +1,85 @@
+{
+  "chinese": "她在做什么？",
+  "intent": "询问对方当下正在进行的动作内容",
+  "comparison": null,
+  "backbone": {
+    "text": "What's she doing?",
+    "meaning": "询问她当前正在做的事"
+  },
+  "parts": [
+    {
+      "text": "What's",
+      "relation": "提出询问的核心疑问点",
+      "meaning": "是什么（此处和doing搭配表示正在做的是什么事）"
+    },
+    {
+      "text": "she",
+      "relation": "指定询问的动作主体",
+      "meaning": "她"
+    },
+    {
+      "text": "doing?",
+      "relation": "限定询问的动作时态属性",
+      "meaning": "正在做（末尾带问号表疑问语气）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "现在进行时的特殊疑问语序",
+      "text": "将疑问词What置于句首，助动词is和主语she调换位置，最后接现在分词doing，直接询问当下正在发生的动作内容，符合日常对实时状态提问的表达逻辑。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's",
+      "role": "疑问词+助动词缩略形式",
+      "explanation": "由What和is缩写而来，既承担询问具体内容的疑问功能，也体现现在进行时的时态标记"
+    },
+    {
+      "text": "she",
+      "role": "主语",
+      "explanation": "指代被询问动作的执行者，明确提问指向的对象"
+    },
+    {
+      "text": "doing?",
+      "role": "现在分词+疑问标点",
+      "explanation": "用来表示动作正在进行，末尾问号明确整句的疑问语气，要求对方回应具体动作"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是什么（与doing搭配表正在做的内容）",
+      "pos": "疑问代词+be动词缩略形式",
+      "phonetic": "/wɒts/",
+      "text": "What's"
+    },
+    {
+      "meaning": "她",
+      "pos": "人称代词主格",
+      "phonetic": "/ʃiː/",
+      "text": "she"
+    },
+    {
+      "meaning": "正在做（句末带问号表疑问）",
+      "pos": "现在分词",
+      "phonetic": "/ˈduːɪŋ/",
+      "text": "doing?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-31",
+  "sentenceId": "nce-1-lesson-031-sentence-003",
+  "sentenceOrder": 3,
+  "english": "What's she doing?",
+  "lesson": "Lesson 31 Where's Sally?",
+  "notes": [
+    {
+      "title": "现在进行时的特殊疑问语序",
+      "text": "将疑问词What置于句首，助动词is和主语she调换位置，最后接现在分词doing，直接询问当下正在发生的动作内容，符合日常对实时状态提问的表达逻辑。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容合规，仅存在部分细节表述偏差，可明确修正后符合要求（非逐句人工审核）"
+}

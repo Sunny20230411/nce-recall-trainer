@@ -1,0 +1,121 @@
+{
+  "chinese": "请给我一本书，简。哪本书？",
+  "intent": "向名叫简的人发出请求，希望对方递给自己一本书。",
+  "comparison": null,
+  "backbone": {
+    "text": "Give me a book please, Jane",
+    "meaning": "请递给我一本书，简"
+  },
+  "parts": [
+    {
+      "text": "Give",
+      "relation": "发出的核心动作",
+      "meaning": "递交、给"
+    },
+    {
+      "text": "me",
+      "relation": "动作接收的对象",
+      "meaning": "我"
+    },
+    {
+      "text": "a book",
+      "relation": "动作涉及的物品",
+      "meaning": "一本书"
+    },
+    {
+      "text": "please,",
+      "relation": "表达礼貌请求的语气补充",
+      "meaning": "请"
+    },
+    {
+      "text": "Jane.",
+      "relation": "指明请求的对象是谁",
+      "meaning": "简"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "祈使句省略主语",
+      "text": "这句是面向对方的直接请求，省略了听话的对象you，直接用动作动词开头，语气简洁明确。"
+    },
+    {
+      "title": "双宾语用法",
+      "text": "动词give后面紧跟两个关联对象：me是动作的接收者，a book是动作传递的物品，不需要额外加介词就能清晰表意。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Give",
+      "role": "祈使句谓语动词",
+      "explanation": "放在句首直接发起指令性动作，是整个请求的核心行为"
+    },
+    {
+      "text": "me a book",
+      "role": "双宾语成分",
+      "explanation": "分别说明动作的接收人和传递的具体事物，共同补充动作的完整信息"
+    },
+    {
+      "text": "please, Jane.",
+      "role": "礼貌修饰+称呼成分",
+      "explanation": "用please软化请求语气，最后点名确保对方明确是被叫到的人接收请求"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "给、递",
+      "pos": "动词",
+      "phonetic": "/ɡɪv/",
+      "text": "Give"
+    },
+    {
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/",
+      "text": "me"
+    },
+    {
+      "meaning": "一个（本）",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "书",
+      "pos": "名词",
+      "phonetic": "/bʊk/",
+      "text": "book"
+    },
+    {
+      "meaning": "请",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/",
+      "text": "please,"
+    },
+    {
+      "meaning": "简（女性人名）",
+      "pos": "名词",
+      "phonetic": "/dʒeɪn/",
+      "text": "Jane."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-21",
+  "sentenceId": "nce-1-lesson-021-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Give me a book please, Jane.",
+  "lesson": "Lesson 21 Which book?",
+  "notes": [
+    {
+      "title": "祈使句省略主语",
+      "text": "这句是面向对方的直接请求，省略了听话的对象you，直接用动作动词开头，语气简洁明确。"
+    },
+    {
+      "title": "双宾语用法",
+      "text": "动词give后面紧跟两个关联对象：me是动作的接收者，a book是动作传递的物品，不需要额外加介词就能清晰表意。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合英语教学解析要求，仅存在局部细节疏漏，可明确修正。（非逐句人工审核）"
+}

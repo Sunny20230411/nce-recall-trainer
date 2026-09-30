@@ -1,0 +1,75 @@
+{
+  "chinese": "没有。",
+  "intent": "回应上一句询问是否预约的一般疑问句，给出否定答复，表明自己没有预约。",
+  "comparison": null,
+  "backbone": {
+    "text": "I don't.",
+    "meaning": "我没有预约。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略式答语",
+      "text": "这是对前面一般疑问句的简短否定回答。为避免重复，把 have an appointment 这类问句核心内容省略，don't 指代上句的“have an appointment”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "否定回应标记",
+      "explanation": "明确给出与问题相反的否定态度，对应“没有”。"
+    },
+    {
+      "text": "I don't.",
+      "role": "主谓结构的省略答语",
+      "explanation": "I 是主语，don't 是 do not 的缩略形式，承接前面的 have 类提问，完整含义等于 I don't have an appointment。"
+    }
+  ],
+  "words": [
+    {
+      "text": "No,",
+      "meaning": "没有（用于否定回答）",
+      "pos": "否定应答词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "don't.",
+      "meaning": "没有（do not 的缩写，此处指代未做“有预约”这件事）",
+      "pos": "助动词缩略式",
+      "phonetic": "/dəʊnt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "No,",
+      "meaning": "没有",
+      "relation": "标记整体否定态度"
+    },
+    {
+      "text": "I don't.",
+      "meaning": "我没有（预约）",
+      "relation": "给出主语对应的否定答复，承接上文的提问内容"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-77",
+  "sentenceId": "nce-1-lesson-077-sentence-004",
+  "sentenceOrder": 4,
+  "english": "No, I don't.",
+  "lesson": "Lesson 77 Terrible toothache",
+  "notes": [
+    {
+      "title": "省略式答语",
+      "text": "这是对前面一般疑问句的简短否定回答。为避免重复，把 have an appointment 这类问句核心内容省略，don't 指代上句的“have an appointment”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解释准确，明确了省略答语的指代对象、各成分的语法角色，适配成人学习者的理解需求。仅需将No的词性从易引起混淆的「感叹词」调整为更准确的「否定应答词」，同时统一No部分的中文释义为「没有」，与整体译法保持一致，其余内容均正确无需调整。（非逐句人工审核）"
+}

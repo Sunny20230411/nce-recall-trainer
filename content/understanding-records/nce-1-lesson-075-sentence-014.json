@@ -1,0 +1,117 @@
+{
+  "chinese": "但今年不流行了。",
+  "intent": "承接上句说去年和前年的流行状态，转折指出相关事物在当前这一年已经不再处于流行状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "They are not in fashion this year.",
+    "meaning": "这些鞋子在今年并不流行。"
+  },
+  "structureNotes": [
+    {
+      "title": "转折与否定表达",
+      "text": "But放在句首承接前文，说明语义转折；not放在be动词are后面，直接否定“in fashion”的状态。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "this year放在句尾，说明“不流行”这一状态对应的时间范围，对应中文“今年”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "But",
+      "role": "转折连词",
+      "explanation": "连接上下文语义，引出与前文相反的情况。"
+    },
+    {
+      "text": "they're not in fashion",
+      "role": "主谓表结构",
+      "explanation": "they指代前句提到的these shoes，作主语；'re是are的缩写，not in fashion是表语部分，说明主语“不流行”的状态。"
+    },
+    {
+      "text": "this year.",
+      "role": "时间状语",
+      "explanation": "限定状态的时间范围，说明不流行的情况发生在今年。"
+    }
+  ],
+  "words": [
+    {
+      "text": "But",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "they're",
+      "meaning": "它们是（they are的缩写）",
+      "pos": "代词+be动词缩写",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "not",
+      "meaning": "不",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "in",
+      "meaning": "处于…状态（构成固定搭配）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "fashion",
+      "meaning": "流行；时尚",
+      "pos": "名词",
+      "phonetic": "/ˈfæʃn/"
+    },
+    {
+      "text": "this",
+      "meaning": "这",
+      "pos": "指示形容词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "year.",
+      "meaning": "年",
+      "pos": "名词",
+      "phonetic": "/jɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "But",
+      "meaning": "但是",
+      "relation": "承接前文做语义转折"
+    },
+    {
+      "text": "they're not in fashion",
+      "meaning": "它们（这些鞋子）并不流行",
+      "relation": "句子核心，说明主语当下的状态"
+    },
+    {
+      "text": "this year.",
+      "meaning": "今年。",
+      "relation": "补充说明不流行的时间范围"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-75",
+  "sentenceId": "nce-1-lesson-075-sentence-014",
+  "sentenceOrder": 14,
+  "english": "But they're not in fashion this year.",
+  "lesson": "Lesson 75 Uncomfortable shoes",
+  "notes": [
+    {
+      "title": "转折与否定表达",
+      "text": "But放在句首承接前文，说明语义转折；not放在be动词are后面，直接否定“in fashion”的状态。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "this year放在句尾，说明“不流行”这一状态对应的时间范围，对应中文“今年”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：语义与语境衔接基本准确，主干结构和否定关系清晰。year. 的音标末尾多了一个英文句号，需从音标字段中移除；year. 词条将句点并入中文释义，建议把“年。”改为“年”，与其他词条统一；代词 they 的指代可根据前一句 These shoes are in fashion now 明确为“这些鞋子”。以上为小修，不影响整体理解。（非逐句人工审核）"
+}

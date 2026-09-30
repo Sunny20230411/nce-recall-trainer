@@ -1,0 +1,220 @@
+{
+  "chinese": "我很喜欢这个颜色。这是一件漂亮的连衣裙，但对我来说太小了。",
+  "intent": "顾客回应店员关于连衣裙的询问：肯定颜色喜好，称赞连衣裙本身好看，但点明尺寸过小、不适合自己。",
+  "comparison": {
+    "chinese": "我觉得它太小了。",
+    "english": "it's too small for me",
+    "steps": [
+      {
+        "label": "程度先放前面",
+        "text": "too small",
+        "explanation": "用 too 表示尺寸超出了可接受范围，语气上带有“过于、不适合”的含义。"
+      },
+      {
+        "label": "对象说明放在最后",
+        "text": "for me",
+        "explanation": "用 for me 说明这个“小”是相对于“我”的身形而言的，不是泛指所有人。"
+      },
+      {
+        "label": "整体顺序",
+        "text": "it's too small for me",
+        "explanation": "英文先说“它太小”，再用 for me 补充适用对象；中文常把“对我来说”提前，放在句首说“我觉得它太小了”。"
+      }
+    ],
+    "takeaway": "理解时先抓住“太小”这个核心判断，再通过 for me 理解它是针对“我”的尺寸问题。"
+  },
+  "backbone": {
+    "text": "I like the colour. It's a lovely dress, but it's too small for me.",
+    "meaning": "我喜欢这个颜色，这件连衣裙本身很好看，但它尺寸太小、不适合我穿。"
+  },
+  "structureNotes": [
+    {
+      "title": "very much 修饰程度",
+      "text": "very much 放在句末修饰动词 like，表示“非常、很喜欢”，不是修饰颜色本身。"
+    },
+    {
+      "title": "but 表示转折",
+      "text": "but 连接前后两句，先肯定裙子好看，再转折指出尺寸不合适，语义上形成对比。"
+    },
+    {
+      "title": "too + 形容词 + for sb. 的结构",
+      "text": "too small for me 表示“对我来说太小了”，用 too 体现程度超出合适范围，for me 点明针对的对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I like the colour very much",
+      "role": "主谓宾结构简单句",
+      "explanation": "主语 I + 谓语 like + 宾语 the colour，very much 作程度状语修饰 like。"
+    },
+    {
+      "text": "It's a lovely dress",
+      "role": "主系表结构简单句",
+      "explanation": "主语 It + 系动词 is + 表语 a lovely dress，说明裙子的属性是好看的。"
+    },
+    {
+      "text": "but it's too small for me",
+      "role": "由 but 连接的转折并列分句",
+      "explanation": "主语 it + 系动词 is + 表语 too small，for me 作范围状语，通过 but 和前一句形成语义转折。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢",
+      "pos": "动词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（特指前文提到的颜色）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "colour",
+      "meaning": "颜色",
+      "pos": "名词",
+      "phonetic": "/ˈkʌlə/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常（和 much 连用加强语气）",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "much.",
+      "meaning": "很；非常（very much 为固定搭配）",
+      "pos": "副词",
+      "phonetic": "/mʌtʃ/"
+    },
+    {
+      "text": "It's",
+      "meaning": "它是（it is 的缩写形式）",
+      "pos": "缩写",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "a",
+      "meaning": "一件",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "lovely",
+      "meaning": "漂亮的；好看的",
+      "pos": "形容词",
+      "phonetic": "/ˈlʌvli/"
+    },
+    {
+      "text": "dress,",
+      "meaning": "连衣裙",
+      "pos": "名词",
+      "phonetic": "/dres/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "it's",
+      "meaning": "它是（it is 的缩写形式）",
+      "pos": "缩写",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "too",
+      "meaning": "过于；太（表示程度超出合适范围）",
+      "pos": "副词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "small",
+      "meaning": "小的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/"
+    },
+    {
+      "text": "for",
+      "meaning": "对……来说",
+      "pos": "介词",
+      "phonetic": "/fɔː/"
+    },
+    {
+      "text": "me.",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I like",
+      "relation": "句子的主体与动作，引出喜好的对象",
+      "meaning": "我喜欢"
+    },
+    {
+      "text": "the colour",
+      "relation": "动词 like 的宾语，说明喜欢的具体对象是连衣裙的颜色",
+      "meaning": "这个颜色"
+    },
+    {
+      "text": "very much.",
+      "relation": "补充说明喜欢的程度很深",
+      "meaning": "非常（地）"
+    },
+    {
+      "text": "It's a lovely dress,",
+      "relation": "承接前文的连衣裙，对它的外观给出正面评价",
+      "meaning": "这是一件漂亮的连衣裙"
+    },
+    {
+      "text": "but",
+      "relation": "语义转折，从正面评价转到指出存在的问题",
+      "meaning": "但是"
+    },
+    {
+      "text": "it's too small",
+      "relation": "转折后的核心内容，说明连衣裙的尺寸不合适",
+      "meaning": "它太小了"
+    },
+    {
+      "text": "for me.",
+      "relation": "补充说明尺寸不合适的对象是说话人自己，不是泛指所有人",
+      "meaning": "对我来说"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-107",
+  "sentenceId": "nce-1-lesson-107-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I like the colour very much. It's a lovely dress, but it's too small for me.",
+  "lesson": "Lesson 107 It's too small.",
+  "notes": [
+    {
+      "title": "very much 修饰程度",
+      "text": "very much 放在句末修饰动词 like，表示“非常、很喜欢”，不是修饰颜色本身。"
+    },
+    {
+      "title": "but 表示转折",
+      "text": "but 连接前后两句，先肯定裙子好看，再转折指出尺寸不合适，语义上形成对比。"
+    },
+    {
+      "title": "too + 形容词 + for sb. 的结构",
+      "text": "too small for me 表示“对我来说太小了”，用 too 体现程度超出合适范围，for me 点明针对的对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅存在两处单词条目标点归属瑕疵、一处比较说明可更精准的小问题，不影响整体理解。（非逐句人工审核）"
+}

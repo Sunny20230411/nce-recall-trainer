@@ -1,0 +1,129 @@
+{
+  "chinese": "白天长，夜晚短。",
+  "intent": "说明春季和夏季昼长夜短的气候昼夜特征。",
+  "comparison": null,
+  "backbone": {
+    "text": "The days are long and the nights are short.",
+    "meaning": "白天时间长，夜晚时间短。"
+  },
+  "structureNotes": [
+    {
+      "title": "对等并列结构",
+      "text": "and 连接两个结构完全对称的分句，分别陈述昼与夜的长度特征，形成鲜明对照，读来节奏整齐。"
+    },
+    {
+      "title": "系表结构",
+      "text": "long 和 short 是形容词作表语，直接用来说明主语 days 和 nights 的长短属性，不需要额外加动词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The days are long",
+      "role": "分句1",
+      "explanation": "陈述白天的时长特征，days 指白昼。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个对等的分句，表示并列对照关系。"
+    },
+    {
+      "text": "the nights are short.",
+      "role": "分句2",
+      "explanation": "陈述夜晚的时长特征，nights 指黑夜。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "（用于特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə, ði/"
+    },
+    {
+      "text": "days",
+      "meaning": "白天，白昼（复数）",
+      "pos": "名词",
+      "phonetic": "/deɪz/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（be 动词复数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "long",
+      "meaning": "长的",
+      "pos": "形容词",
+      "phonetic": "/lɒŋ/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ənd, ænd/"
+    },
+    {
+      "text": "the",
+      "meaning": "（用于特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə, ði/"
+    },
+    {
+      "text": "nights",
+      "meaning": "夜晚，黑夜（复数）",
+      "pos": "名词",
+      "phonetic": "/naɪts/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（be 动词复数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "short.",
+      "meaning": "短的。",
+      "pos": "形容词",
+      "phonetic": "/ʃɔːt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The days are long",
+      "relation": "陈述昼夜特征的前半部分",
+      "meaning": "白天长"
+    },
+    {
+      "text": "and",
+      "relation": "连接前后两个并列对照的分句",
+      "meaning": "和"
+    },
+    {
+      "text": "the nights are short.",
+      "relation": "陈述昼夜特征的后半部分，与前半部分形成对照",
+      "meaning": "夜晚短。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-53",
+  "sentenceId": "nce-1-lesson-053-sentence-009",
+  "sentenceOrder": 9,
+  "english": "The days are long and the nights are short.",
+  "lesson": "Lesson 53 An interesting climate",
+  "notes": [
+    {
+      "title": "对等并列结构",
+      "text": "and 连接两个结构完全对称的分句，分别陈述昼与夜的长度特征，形成鲜明对照，读来节奏整齐。"
+    },
+    {
+      "title": "系表结构",
+      "text": "long 和 short 是形容词作表语，直接用来说明主语 days 和 nights 的长短属性，不需要额外加动词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干与语法分块整体准确，仅词表中 short 的音标误将标点纳入音标符号，且英文句号被误写入 short 的中文释义，作极小订正即可，无需改译文或结构。（非逐句人工审核）"
+}

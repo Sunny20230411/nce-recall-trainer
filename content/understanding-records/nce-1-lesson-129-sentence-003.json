@@ -1,0 +1,115 @@
+{
+  "chinese": "他要你停车。",
+  "intent": "承接上文警察向你挥手示意的场景，表达警察向你下达要求，让你立刻将车停下。",
+  "comparison": null,
+  "backbone": {
+    "text": "He wants you to stop.",
+    "meaning": "他向你提出要求，要你停车。"
+  },
+  "structureNotes": [
+    {
+      "title": "宾语+不定式的要求表达",
+      "text": "本句使用 want sb. to do sth. 结构，说明要求的对象是“你”，要求做的事是“停车”。to stop 是补充说明宾语 you 的内容，为宾语补足语，不是另一个独立的谓语。"
+    },
+    {
+      "title": "stop 的语境含义",
+      "text": "结合本篇交通警察拦车的场景，stop 此处指停下车辆，不是泛指停下任意动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "句子主语",
+      "explanation": "指代前文出现的那位警察，是发出要求的人。"
+    },
+    {
+      "text": "wants",
+      "role": "谓语动词",
+      "explanation": "表达“想要、要求”的含义，使用一般现在时，说明警察此刻希望对方执行停车指令。"
+    },
+    {
+      "text": "you",
+      "role": "宾语",
+      "explanation": "是动词 want 指向的对象，也就是被警察示意的驾驶者本人。"
+    },
+    {
+      "text": "to stop",
+      "role": "宾语补足语",
+      "explanation": "补充说明宾语 you 要执行的具体动作，即把车辆停下。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "wants",
+      "meaning": "想要，要求",
+      "pos": "动词",
+      "phonetic": "/ˈwɒnts/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "to",
+      "meaning": "（引出不定式符号，无实义）",
+      "pos": "不定式标记",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "stop.",
+      "meaning": "停下（车辆）",
+      "pos": "动词",
+      "phonetic": "/stɒp/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "relation": "说明发出要求的主体。"
+    },
+    {
+      "text": "wants",
+      "meaning": "想要，要求",
+      "relation": "陈述主语发出的动作，表明对方提出要求。"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "relation": "点明接受要求的对象。"
+    },
+    {
+      "text": "to stop.",
+      "meaning": "停车。",
+      "relation": "补充说明要求你执行的具体动作，即在交警拦车语境下停下车辆。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-129",
+  "sentenceId": "nce-1-lesson-129-sentence-003",
+  "sentenceOrder": 3,
+  "english": "He wants you to stop.",
+  "lesson": "Lesson 129 Seventy miles an hour",
+  "notes": [
+    {
+      "title": "宾语+不定式的要求表达",
+      "text": "本句使用 want sb. to do sth. 结构，说明要求的对象是“你”，要求做的事是“停车”。to stop 是补充说明宾语 you 的内容，为宾语补足语，不是另一个独立的谓语。"
+    },
+    {
+      "title": "stop 的语境含义",
+      "text": "结合本篇交通警察拦车的场景，stop 此处指停下车辆，不是泛指停下任意动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干英文与中文解释基本可用，结构、词义和场景匹配整体合理。仅有少量表述可优化：wants 用一般现在时表达意愿，不宜直接说成正在做出的指令动作；不定式结构可更清楚地说明为宾语补足语；个别表述可更贴合交警拦车语境。（非逐句人工审核）"
+}

@@ -1,0 +1,110 @@
+{
+  "chinese": "它正在追一只猫。",
+  "intent": "描述当前正在发生的、动物追逐猫的动作场景。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's running after a cat.",
+    "meaning": "它正在追逐一只猫。"
+  },
+  "parts": [
+    {
+      "text": "It's",
+      "relation": "动作的发出者+现在进行时的助动词与系动词部分的缩写标记",
+      "meaning": "它（是），此处为It is的缩写，配合现在分词标记动作正在发生"
+    },
+    {
+      "text": "running",
+      "relation": "核心动作的现在分词，为现在进行时的谓语核心组成部分",
+      "meaning": "奔跑（此处为动词现在分词形式）"
+    },
+    {
+      "text": "after",
+      "relation": "与running搭配构成固定动词短语，补充说明动作的指向与语义",
+      "meaning": "在……之后，此处参与构成固定搭配表追逐含义"
+    },
+    {
+      "text": "a cat.",
+      "relation": "run after这个固定动作短语的目标宾语",
+      "meaning": "一只猫"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "run after 的固定含义",
+      "text": "这里的run after不是字面的“在后面跑”，是固定搭配表示追逐、追赶的意思，指向动作的目标对象。"
+    },
+    {
+      "title": "It's 的时态作用",
+      "text": "It's 是 It is 的缩写，和后面的现在分词running组合，标记这个动作此刻正在发生，属于现在进行时。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "主语+助动词缩写",
+      "explanation": "指代前文提到的动物，同时带出现在进行时的助动词部分。"
+    },
+    {
+      "text": "running after",
+      "role": "进行时谓语+介词构成的动词短语",
+      "explanation": "合起来表达正在执行“追逐”的完整动作，而不是分开的跑步动作。"
+    },
+    {
+      "text": "a cat.",
+      "role": "动作目标宾语",
+      "explanation": "说明追逐的具体对象是任意一只猫，不用特指某一只已知的猫。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "它，此处为It is的缩写",
+      "pos": "代词+系动词（助动词功能）的缩写形式",
+      "phonetic": "/ɪts/",
+      "text": "It's"
+    },
+    {
+      "meaning": "跑（现在分词形式）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈrʌnɪŋ/",
+      "text": "running"
+    },
+    {
+      "meaning": "在……之后，此处为固定搭配run after的组成部分，表追逐的指向",
+      "pos": "介词",
+      "phonetic": "/ˈɑːftə(r)/",
+      "text": "after"
+    },
+    {
+      "meaning": "一个，一只",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "猫",
+      "pos": "名词",
+      "phonetic": "/kæt/",
+      "text": "cat."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-31",
+  "sentenceId": "nce-1-lesson-031-sentence-013",
+  "sentenceOrder": 13,
+  "english": "It's running after a cat.",
+  "lesson": "Lesson 31 Where's Sally?",
+  "notes": [
+    {
+      "title": "run after 的固定含义",
+      "text": "这里的run after不是字面的“在后面跑”，是固定搭配表示追逐、追赶的意思，指向动作的目标对象。"
+    },
+    {
+      "title": "It's 的时态作用",
+      "text": "It's 是 It is 的缩写，和后面的现在分词running组合，标记这个动作此刻正在发生，属于现在进行时。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合面向中文母语成年人的英语学习要求，仅存在局部表述偏差、细节标注不严谨的可修正小问题，无核心语法错误或信息误导内容。（非逐句人工审核）"
+}

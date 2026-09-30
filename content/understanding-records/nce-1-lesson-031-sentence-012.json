@@ -1,0 +1,100 @@
+{
+  "chinese": "它正跑过草地。",
+  "intent": "描述当前这只狗正在草地上横穿跑动的动作状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's running across the grass",
+    "meaning": "它正在横穿草地"
+  },
+  "parts": [
+    {
+      "text": "It's",
+      "relation": "主语与系动词的缩合形式",
+      "meaning": "它（指代前文提到的狗）+ 正在（搭配现在分词构成现在进行时）"
+    },
+    {
+      "text": "running",
+      "relation": "现在分词作谓语核心成分",
+      "meaning": "跑动"
+    },
+    {
+      "text": "across the grass.",
+      "relation": "补充动作发生的路径和范围的地点路径状语",
+      "meaning": "横穿这片草地"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "across的表意",
+      "text": "across在这里表示从草地的一侧横穿到另一侧，不是沿着草地边缘跑或者在草地上停留，明确了跑动的路径特征。"
+    },
+    {
+      "title": "It's的指代",
+      "text": "句首的It's指代前文提到的狗，不需要额外补充主语说明，结合语境就能明确描述的对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's running",
+      "role": "现在进行时谓语部分",
+      "explanation": "用来描述当前正在发生的动作，体现动作正在进行的状态。"
+    },
+    {
+      "text": "across the grass",
+      "role": "地点路径状语",
+      "explanation": "说明跑动的路径是横穿整片草地，交代动作发生的场所和行进方向。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "它（指代前文的狗）+ 正在（系动词is与代词It的缩合形式，搭配现在分词构成现在进行时）",
+      "pos": "pronoun + verb contraction",
+      "phonetic": "/ɪts/",
+      "text": "It's"
+    },
+    {
+      "meaning": "跑动（现在分词形式，搭配be动词构成现在进行时表正在进行的动作）",
+      "pos": "verb (present participle)",
+      "phonetic": "/ˈrʌnɪŋ/",
+      "text": "running"
+    },
+    {
+      "meaning": "横过，穿过",
+      "pos": "preposition",
+      "phonetic": "/əˈkrɒs/",
+      "text": "across"
+    },
+    {
+      "meaning": "这个，这片（特指语境中提到的草地）",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "草地",
+      "pos": "noun",
+      "phonetic": "/ɡrɑːs/",
+      "text": "grass."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-31",
+  "sentenceId": "nce-1-lesson-031-sentence-012",
+  "sentenceOrder": 12,
+  "english": "It's running across the grass.",
+  "lesson": "Lesson 31 Where's Sally?",
+  "notes": [
+    {
+      "title": "across的表意",
+      "text": "across在这里表示从草地的一侧横穿到另一侧，不是沿着草地边缘跑或者在草地上停留，明确了跑动的路径特征。"
+    },
+    {
+      "title": "It's的指代",
+      "text": "句首的It's指代前文提到的狗，不需要额外补充主语说明，结合语境就能明确描述的对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：基础解析整体符合要求，仅存在局部细节疏漏与标注偏差，可针对性修正补全（非逐句人工审核）"
+}

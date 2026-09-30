@@ -1,0 +1,173 @@
+{
+  "chinese": "她坐在靠窗的位置，看到什么都要问。",
+  "intent": "描述Sally第一次坐火车时的行为状态。",
+  "comparison": {
+    "chinese": "她坐在靠窗的位置，看到什么都要问。",
+    "english": "She sat near the window and asked questions about everything she saw.",
+    "steps": [
+      {
+        "label": "先交代动作发生的地点",
+        "text": "She sat near the window",
+        "explanation": "先说明“她坐在靠窗的位置”，这是理解整个行为的起点。"
+      },
+      {
+        "label": "用and连接并列的另一动作",
+        "text": "and asked questions about everything",
+        "explanation": "and连接两个并列的过去式动作“坐着”和“问问题”，说明她坐在那里的同时一直在提问。"
+      },
+      {
+        "label": "把提问的范围接在everything后面",
+        "text": "about everything she saw",
+        "explanation": "she saw作为后置修饰，限定“everything”指“她看到的所有事物”，对应中文“看到什么都要问”。"
+      }
+    ],
+    "takeaway": "英语先讲坐在哪里，再讲做了什么，最后用about everything she saw限定提问范围；中文则把“看到什么”的修饰内容提前，放在“问”之前。"
+  },
+  "backbone": {
+    "text": "She sat near the window and asked questions.",
+    "meaning": "她坐在窗边提问。"
+  },
+  "structureNotes": [
+    {
+      "title": "and连接的并列谓语",
+      "text": "主语She后面用and连接两个过去式动作sat和asked，共享同一个主语，表示同一人在同一时段先后或同时做的两件事。"
+    },
+    {
+      "title": "省略关系词的后置修饰",
+      "text": "everything后面接she saw，省略了指代everything的关系代词that；she saw用来限定“什么都要问”的范围是她亲眼看到的事物。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "主语",
+      "explanation": "动作的发出者，指代前文提到的Sally。"
+    },
+    {
+      "text": "sat near the window",
+      "role": "谓语1+地点补充",
+      "explanation": "描述她就座的位置。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个并列的谓语动作。"
+    },
+    {
+      "text": "asked questions about everything she saw",
+      "role": "谓语2+宾语+后置修饰",
+      "explanation": "描述她围绕所见事物提问的行为。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "sat",
+      "meaning": "坐（sit的过去式）",
+      "pos": "动词",
+      "phonetic": "/sæt/"
+    },
+    {
+      "text": "near",
+      "meaning": "在…附近",
+      "pos": "介词",
+      "phonetic": "/nɪə(r)/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，表特指",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "window",
+      "meaning": "窗户",
+      "pos": "名词",
+      "phonetic": "/ˈwɪndəʊ/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "asked",
+      "meaning": "问（ask的过去式）",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    },
+    {
+      "text": "questions",
+      "meaning": "问题（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈkwestʃənz/"
+    },
+    {
+      "text": "about",
+      "meaning": "关于",
+      "pos": "介词",
+      "phonetic": "/əˈbaʊt/"
+    },
+    {
+      "text": "everything",
+      "meaning": "所有事物，一切",
+      "pos": "代词",
+      "phonetic": "/ˈevriθɪŋ/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "saw.",
+      "meaning": "看见（see的过去式）",
+      "pos": "动词",
+      "phonetic": "/sɔː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She sat near the window",
+      "relation": "描述主语就坐的状态与位置",
+      "meaning": "她坐在靠窗的位置"
+    },
+    {
+      "text": "and asked questions about",
+      "relation": "连接第二个并列动作，引出提问的内容方向",
+      "meaning": "并且问关于…的问题"
+    },
+    {
+      "text": "everything she saw.",
+      "relation": "限定提问覆盖的全部事物范围",
+      "meaning": "她看到的所有东西"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-141",
+  "sentenceId": "nce-1-lesson-141-sentence-004",
+  "sentenceOrder": 4,
+  "english": "She sat near the window and asked questions about everything she saw.",
+  "lesson": "Lesson 141 Sally's first train ride",
+  "notes": [
+    {
+      "title": "and连接的并列谓语",
+      "text": "主语She后面用and连接两个过去式动作sat和asked，共享同一个主语，表示同一人在同一时段先后或同时做的两件事。"
+    },
+    {
+      "title": "省略关系词的后置修饰",
+      "text": "everything后面接she saw，省略了指代everything的关系代词that；she saw用来限定“什么都要问”的范围是她亲眼看到的事物。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合原句及上下文，主干、结构和词义均基本正确。仅需清理 saw 词条中误并入的句末标点，避免把它当成该词文本的一部分；其余内容无需改动。（非逐句人工审核）"
+}

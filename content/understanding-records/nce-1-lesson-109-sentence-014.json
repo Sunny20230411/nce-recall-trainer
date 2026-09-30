@@ -1,0 +1,116 @@
+{
+  "chinese": "没关系。抽支烟吧。",
+  "intent": "先表示某事不重要、不用在意，再向对方发出抽烟的邀请，用来安抚并缓和气氛。",
+  "comparison": null,
+  "backbone": {
+    "text": "It doesn't matter. Have a cigarette.",
+    "meaning": "这件事不算什么、不用放在心上，来抽一支烟吧。"
+  },
+  "structureNotes": [
+    {
+      "title": "It doesn't matter 的固定用法",
+      "text": "matter 在此为动词，表示“要紧、有重要影响”，It doesn't matter 是日常回应小失误时的常用安抚语，不必把 it 译成具体事物。"
+    },
+    {
+      "title": "祈使句的开头动词",
+      "text": "Have a cigarette 是直接以动词 Have 开头的祈使句，省略了第二人称 you；have 在这里不是“有”，而是口语中表“食用/吸食”的搭配。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "形式主语",
+      "explanation": "此处为固定习惯表达里的虚指主语，不指代前文具体事件。"
+    },
+    {
+      "text": "doesn't",
+      "role": "助动词构成否定",
+      "explanation": "和动词 matter 搭配，构成一般现在时的否定形式。"
+    },
+    {
+      "text": "matter.",
+      "role": "谓语核心动词",
+      "explanation": "作不及物动词，表示“要紧、有重大影响”，和否定搭配表示“不要紧”。"
+    },
+    {
+      "text": "Have",
+      "role": "祈使句主动词",
+      "explanation": "原形动词开头，向对方发出邀请或提议。"
+    },
+    {
+      "text": "a cigarette.",
+      "role": "动词宾语",
+      "explanation": "限定单数的名词短语，说明提议享用的对象是一支香烟。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（此处为虚指，无实义）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "doesn't",
+      "meaning": "不，没有（与动词搭配构成否定）",
+      "pos": "助动词",
+      "phonetic": "/ˈdʌznt/"
+    },
+    {
+      "text": "matter.",
+      "meaning": "要紧，有重要影响",
+      "pos": "动词",
+      "phonetic": "/ˈmætə(r)/"
+    },
+    {
+      "text": "Have",
+      "meaning": "享用，吃/抽（此处搭配香烟表吸食）",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（支）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "cigarette.",
+      "meaning": "香烟",
+      "pos": "名词",
+      "phonetic": "/ˌsɪɡəˈret/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It doesn't matter.",
+      "relation": "整体是安抚对方的表达，说明之前提及的遗憾或小失误不值得在意。",
+      "meaning": "没关系，不要紧"
+    },
+    {
+      "text": "Have a cigarette.",
+      "relation": "承接安抚的语气，向对方发出一个具体的、缓和气氛的提议。",
+      "meaning": "抽支烟吧"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-109",
+  "sentenceId": "nce-1-lesson-109-sentence-014",
+  "sentenceOrder": 14,
+  "english": "It doesn't matter. Have a cigarette.",
+  "lesson": "Lesson 109 A good idea",
+  "notes": [
+    {
+      "title": "It doesn't matter 的固定用法",
+      "text": "matter 在此为动词，表示“要紧、有重要影响”，It doesn't matter 是日常回应小失误时的常用安抚语，不必把 it 译成具体事物。"
+    },
+    {
+      "title": "祈使句的开头动词",
+      "text": "Have a cigarette 是直接以动词 Have 开头的祈使句，省略了第二人称 you；have 在这里不是“有”，而是口语中表“食用/吸食”的搭配。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构分析、词义标注与语境释义符合语法规范，祈使句主语省略、matter作动词的用法解释准确，仅单词拆分部分将标点符号并入单词文本，与词表标注不一致，需要修正。（非逐句人工审核）"
+}

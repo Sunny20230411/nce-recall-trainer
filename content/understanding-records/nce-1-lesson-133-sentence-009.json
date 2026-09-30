@@ -1,0 +1,81 @@
+{
+  "chinese": "‘卡伦·马什：爆炸性新闻！",
+  "intent": "还原报纸引语中的小标题，点明报道人物与新闻冲击力，引出下文的独家报道内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "（引语内小标题）卡伦·马什：爆炸性新闻！",
+    "meaning": "说明这篇报道的核心人物是卡伦·马什，内容是极具轰动性的爆炸性消息。"
+  },
+  "structureNotes": [
+    {
+      "title": "引语内的报纸标题格式",
+      "text": "开头的单引号表示这是报纸报道的直接引语，人名后用冒号分隔人名与新闻标题，用大写的Sensational News直接点明新闻的轰动属性，符合英文报纸短标题的表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'Karen Marsh:",
+      "role": "引语内小标题的新闻人物标识",
+      "explanation": "单引号标记直接引语的开始，Karen Marsh是这篇新闻报道的核心人物，冒号用来分隔人名和后续的新闻标题。"
+    },
+    {
+      "text": "Sensational News!",
+      "role": "新闻主标题",
+      "explanation": "直接点明新闻内容是极具轰动效应的消息，感叹号强化了新闻的冲击力，符合英文报纸标题醒目的表达特点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'Karen",
+      "meaning": "卡伦（女子名），前面的单引号为直接引语的起始标记",
+      "pos": "专有名词",
+      "phonetic": "/ˈkærən/"
+    },
+    {
+      "text": "Marsh:",
+      "meaning": "马什（姓氏），后面的冒号用于分隔人名与新闻标题",
+      "pos": "专有名词",
+      "phonetic": "/mɑːʃ/"
+    },
+    {
+      "text": "Sensational",
+      "meaning": "轰动的，大快人心的，在新闻语境中常译为「爆炸性的」",
+      "pos": "形容词",
+      "phonetic": "/senˈseɪʃənl/"
+    },
+    {
+      "text": "News!",
+      "meaning": "新闻，后面的感叹号用于强化语气、突出新闻的轰动性",
+      "pos": "不可数名词",
+      "phonetic": "/njuːz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "'Karen Marsh:",
+      "relation": "点明报道的核心人物",
+      "meaning": "‘卡伦·马什："
+    },
+    {
+      "text": "Sensational News!",
+      "relation": "说明新闻的轰动属性",
+      "meaning": "爆炸性新闻！"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-133",
+  "sentenceId": "nce-1-lesson-133-sentence-009",
+  "sentenceOrder": 9,
+  "english": "'Karen Marsh: Sensational News!",
+  "lesson": "Lesson 133 Sensational news!",
+  "notes": [
+    {
+      "title": "引语内的报纸标题格式",
+      "text": "开头的单引号表示这是报纸报道的直接引语，人名后用冒号分隔人名与新闻标题，用大写的Sensational News直接点明新闻的轰动属性，符合英文报纸短标题的表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：该引语小标题的原文拆分、翻译、主干语义和报纸标题格式说明整体准确，各分块的语义与对应关系匹配无误。仅词汇释义存在两处表述不够贴合语境的问题：一是词项解释将标点纳入词性标注，需拆分词性与标点说明；二是「Sensational」的释义未结合报纸新闻的特殊语境，可补充更贴合的中文表达，其余内容均符合要求，只需做小幅修改。（非逐句人工审核）"
+}

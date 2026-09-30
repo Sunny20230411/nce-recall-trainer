@@ -1,0 +1,77 @@
+{
+  "chinese": "下雨了。",
+  "intent": "陈述此刻外面正在下雨的当前天气状况，为后续不需要给花园浇水的推论提供事实依据。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's raining.",
+    "meaning": "此刻正在下雨。"
+  },
+  "structureNotes": [
+    {
+      "title": "非人称It的用法",
+      "text": "It在这里并不指代某个具体的人或事物，只是用来描述天气状态的形式主语，是英语表达雨、晴、冷、热等天气的固定句式习惯，不能直译为“它在下雨”。"
+    },
+    {
+      "title": "现在进行时描述当下天气",
+      "text": "is raining用现在进行时，说明降雨是说话这一刻正在发生的状态，并非泛指经常下雨。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "非人称形式主语+助动词",
+      "explanation": "It是描述天气的非人称形式主语，和缩写的is一起构成现在进行时的助动部分，没有实际指代含义。"
+    },
+    {
+      "text": "raining.",
+      "role": "现在分词作谓语核心",
+      "explanation": "rain的现在分词形式，和is配合共同表达“正在下雨”的动作状态，句末的句号标识陈述语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "it is的缩写形式，此处为描述天气的非人称形式主语，不直译为“它是”",
+      "pos": "代词+动词缩写",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "raining.",
+      "meaning": "下雨（rain的现在分词形式）。",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈreɪnɪŋ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's",
+      "meaning": "用于描述天气的形式主语it加助动词is的缩写，不直译为“它是”",
+      "relation": "句子的非人称形式主语与助动部分，配合后面的分词说明当前正在发生的天气状态"
+    },
+    {
+      "text": "raining.",
+      "meaning": "正在下雨。",
+      "relation": "句子的核心谓语部分，和前面的is配合表达当下正在降雨的事实，补充说明窗外的实际天气情况。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-125",
+  "sentenceId": "nce-1-lesson-125-sentence-015",
+  "sentenceOrder": 15,
+  "english": "It's raining.",
+  "lesson": "Lesson 125 Tea for two",
+  "notes": [
+    {
+      "title": "非人称It的用法",
+      "text": "It在这里并不指代某个具体的人或事物，只是用来描述天气状态的形式主语，是英语表达雨、晴、冷、热等天气的固定句式习惯，不能直译为“它在下雨”。"
+    },
+    {
+      "title": "现在进行时描述当下天气",
+      "text": "is raining用现在进行时，说明降雨是说话这一刻正在发生的状态，并非泛指经常下雨。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体释义准确，清晰点明了该句非人称it描述天气、现在进行时对应当前实况的用法特点，仅存在两处可修正细节：一是raining的音标末尾多附了句号，不符合音标注释规范；二是It's块的释义直译表述容易让学习者产生误解，未明确说明此处不能直译为“它是”。其余内容与语法角色、上下文逻辑均匹配无误。（非逐句人工审核）"
+}

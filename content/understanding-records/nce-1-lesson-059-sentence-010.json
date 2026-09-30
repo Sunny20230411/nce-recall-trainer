@@ -1,0 +1,143 @@
+{
+  "chinese": "有，瓶子里有一些水。",
+  "intent": "回应前文关于瓶子里是否有水的询问，给出肯定答复，说明瓶子中存在一定量的水。",
+  "comparison": {
+    "chinese": "中文说“有，瓶子里有一些水”，先给出整体肯定回应，再点明地点，最后说明存在的事物。",
+    "english": "英文说 Yes, there's some water in the bottle. 用 There's 直接引出存在的事物。",
+    "steps": [
+      {
+        "label": "肯定回应",
+        "text": "Yes",
+        "explanation": "直接承接上文的一般疑问句，表示“确实有”。"
+      },
+      {
+        "label": "先确认存在",
+        "text": "there's some water",
+        "explanation": "There's = There is，直接说明“存在一些水”，没有用“瓶子”当主语。"
+      },
+      {
+        "label": "补充地点",
+        "text": "in the bottle",
+        "explanation": "用介词短语说明水在瓶子里面，中文习惯把地点放在存在的事物之前表述，英语则将地点状语放在句末。"
+      }
+    ],
+    "takeaway": "英语表达“某地有某物”用 There be + 事物 + 地点，和中文“某地有某物”的语序相近，不需要硬套主谓宾结构。"
+  },
+  "backbone": {
+    "text": "there's some water",
+    "meaning": "存在一些水"
+  },
+  "structureNotes": [
+    {
+      "title": "存在句的语序",
+      "text": "本句是 there be 存在句，实际主语是 some water，be 动词用单数 is 因为 water 是不可数名词。in the bottle 是介词短语作地点状语，说明水的位置。"
+    },
+    {
+      "title": "some 的用法",
+      "text": "在肯定句中，表示“一些”用 some 修饰不可数名词 water，对应问句中的 any。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes",
+      "role": "肯定应答词",
+      "explanation": "回应前文的一般疑问句，表示同意或确认事实。"
+    },
+    {
+      "text": "there's",
+      "role": "存在句引导词和be动词",
+      "explanation": "There's 是 There is 的缩写，引出存在的事物。"
+    },
+    {
+      "text": "some water",
+      "role": "存在句的实际主语",
+      "explanation": "some 修饰不可数名词 water，表示“一些水”。"
+    },
+    {
+      "text": "in the bottle",
+      "role": "地点状语",
+      "explanation": "介词短语说明水所在的位置是瓶子里面。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "有（表示肯定回应）",
+      "pos": "感叹词",
+      "phonetic": "/jes/",
+      "text": "Yes,"
+    },
+    {
+      "meaning": "存在（there is 的缩写）",
+      "pos": "缩略结构",
+      "phonetic": "/ðeəz/",
+      "text": "there's"
+    },
+    {
+      "meaning": "一些",
+      "pos": "限定词",
+      "phonetic": "/sʌm/",
+      "text": "some"
+    },
+    {
+      "meaning": "水",
+      "pos": "不可数名词",
+      "phonetic": "/ˈwɔːtə(r)/",
+      "text": "water"
+    },
+    {
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "（特指那个瓶子）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "瓶子",
+      "pos": "名词",
+      "phonetic": "/ˈbɒtl/",
+      "text": "bottle."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes,",
+      "relation": "答语的开头，承接上文的一般疑问句",
+      "meaning": "对前文疑问的肯定答复"
+    },
+    {
+      "text": "there's some water",
+      "relation": "句子核心部分，说明存在的事物",
+      "meaning": "存在一些水"
+    },
+    {
+      "text": "in the bottle.",
+      "relation": "补充说明水所在的位置",
+      "meaning": "在瓶子里面"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-59",
+  "sentenceId": "nce-1-lesson-059-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Yes, there's some water in the bottle.",
+  "lesson": "Lesson 59 Is that all?",
+  "notes": [
+    {
+      "title": "存在句的语序",
+      "text": "本句是 there be 存在句，实际主语是 some water，be 动词用单数 is 因为 water 是不可数名词。in the bottle 是介词短语作地点状语，说明水的位置。"
+    },
+    {
+      "title": "some 的用法",
+      "text": "在肯定句中，表示“一些”用 some 修饰不可数名词 water，对应问句中的 any。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，仅存在Comparison中关于地点状语与中文语序的表述不够严谨的问题，需修正表述，其余内容（译文、主干、句子成分、词汇、分块等）均符合要求。（非逐句人工审核）"
+}

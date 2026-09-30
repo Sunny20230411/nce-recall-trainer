@@ -1,0 +1,143 @@
+{
+  "chinese": "你们国家的气候怎么样？",
+  "intent": "用于询问对方所在国家的气候状况如何，获取气候的具体特征信息。",
+  "comparison": {
+    "chinese": "中文常把范围和对象前置：先点明所属范围“你们国家”，再引出描述对象“气候”，最后用“怎么样”发起提问。",
+    "english": "英文用 What's ... like 固定提问框架串联成分：先放提问引导结构 What's，再放入被描述的对象 the climate，最后用 like 衔接询问语气，并用句尾介词短语 in your country 补充地域范围。",
+    "steps": [
+      {
+        "label": "第一步：先确定提问框架",
+        "text": "What's ... like",
+        "explanation": "这是询问“某事物是什么样、怎么样”的固定句型，不是“气候像什么”的字面含义；What's 是 What is 的缩写，like 在这里是介词，和前面的 What 搭配构成询问句式。"
+      },
+      {
+        "label": "第二步：放进被询问的核心对象",
+        "text": "the climate",
+        "explanation": "放在 What's 和 like 之间的 the climate 是这个问题要描述的主体，也就是“气候”这个核心对象，不是 like 的宾语。"
+      },
+      {
+        "label": "第三步：补充说明询问的范围",
+        "text": "in your country",
+        "explanation": "句尾的介词短语限定了提问的范围是“你们国家（的范围内）”，把“哪里的气候”这个信息补充完整。"
+      }
+    ],
+    "takeaway": "What's sth like 是固定的“询问某事物是什么样”的句式，like 在这里不表示“像”的动作；英文将地点范围状语置于句尾，中文习惯将所属范围前置到描述对象之前，识别这个固定搭配就不会误解成“气候像什么”。"
+  },
+  "backbone": {
+    "text": "What's the climate like?",
+    "meaning": "（这地方的）气候怎么样？是去掉范围限定后，依然能表达完整核心提问的主干。"
+  },
+  "structureNotes": [
+    {
+      "title": "固定询问句式 What's ... like",
+      "text": "这个结构专门用来询问人或事物的外观、性质、状态，意思是“……怎么样、……是什么样的”；句中的 like 是介词，不是动词“喜欢”，也不要按字面理解成“像”。"
+    },
+    {
+      "title": "句尾状语限定提问范围",
+      "text": "介词短语 in your country 放在句尾，说明被提问的气候属于“你们国家”，中文习惯会把这个所属范围放在“气候”前面作定语，英文则把它放在句子末尾作补充说明。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's",
+      "role": "疑问引导词＋连系动词",
+      "explanation": "是 What is 的缩写，What 是疑问代词，放在句首引导特殊疑问句，并和后面的 like 搭配构成询问“是什么样”的固定结构；is 是连系动词，帮助构成提问句式。"
+    },
+    {
+      "text": "the climate",
+      "role": "句子主语",
+      "explanation": "指气候，是这个问题要描述的核心主体，是整句话的询问对象。"
+    },
+    {
+      "text": "like",
+      "role": "介词（表询问搭配）",
+      "explanation": "和 What's 搭配构成 What's ... like 的固定提问结构，不单独翻译为“像”或“喜欢”。"
+    },
+    {
+      "text": "in your country?",
+      "role": "地点范围状语",
+      "explanation": "介词短语，说明被提问的气候所属的地域范围是“你们国家”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What's",
+      "meaning": "是什么（What is 的缩写）",
+      "pos": "疑问代词＋连系动词缩写",
+      "phonetic": "/wɒts; wɒt ɪz/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指该谈论范围内的事物，定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "climate",
+      "meaning": "气候",
+      "pos": "名词",
+      "phonetic": "/ˈklaɪmət/"
+    },
+    {
+      "text": "like",
+      "meaning": "（与 What's 搭配构成询问句式，表“……怎么样”）",
+      "pos": "介词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……范围内",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "your",
+      "meaning": "你的；你们的",
+      "pos": "限定词（形容词性物主代词）",
+      "phonetic": "/jɔː(r)/"
+    },
+    {
+      "text": "country?",
+      "meaning": "国家",
+      "pos": "名词",
+      "phonetic": "/ˈkʌntri/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What's",
+      "relation": "引导整句的特殊疑问句式，和like搭配构成固定提问框架。",
+      "meaning": "（What is 的缩写，用于提问）"
+    },
+    {
+      "text": "the climate like",
+      "relation": "说明本次要询问的核心对象是气候，承接前面的疑问框架。",
+      "meaning": "气候怎么样"
+    },
+    {
+      "text": "in your country?",
+      "relation": "补充限定询问的地域范围是你们国家的气候。",
+      "meaning": "在你们国家？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-53",
+  "sentenceId": "nce-1-lesson-053-sentence-003",
+  "sentenceOrder": 3,
+  "english": "What's the climate like in your country?",
+  "lesson": "Lesson 53 An interesting climate",
+  "notes": [
+    {
+      "title": "固定询问句式 What's ... like",
+      "text": "这个结构专门用来询问人或事物的外观、性质、状态，意思是“……怎么样、……是什么样的”；句中的 like 是介词，不是动词“喜欢”，也不要按字面理解成“像”。"
+    },
+    {
+      "title": "句尾状语限定提问范围",
+      "text": "介词短语 in your country 放在句尾，说明被提问的气候属于“你们国家”，中文习惯会把这个所属范围放在“气候”前面作定语，英文则把它放在句子末尾作补充说明。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确可靠，仅存在两处可明确修正的表述精度问题：1. 词汇表中What's的音标将原句连读的缩约形式/wɒts/作为独立单词音标标注，不适合作为学习者参考的标准读音，应补充拆分后的基础发音；2. 对比部分的中英文表述语序描述不够贴合实际表达逻辑，需微调表述使其准确。其余内容符合语法规则、翻译准确、成分分析正确，无需改动。（非逐句人工审核）"
+}

@@ -1,0 +1,148 @@
+{
+  "chinese": "你刚去过电影院吗？",
+  "intent": "询问对方是否刚刚去过电影院这一场所。",
+  "comparison": {
+    "chinese": "中文把时间副词“刚”放在动作“去过”和地点“电影院”之前，整体是陈述句加“吗”的是非问结构，不需要借助动词前置就能完成提问。",
+    "english": "英语先将助动词 Have 提前，再接主语 you、时间副词 just、核心谓语 been to，最后补上目的地 the cinema。",
+    "steps": [
+      {
+        "label": "先确认提问目的",
+        "text": "Have you...?",
+        "explanation": "Have 放到句首、位于主语 you 之前，是现在完成时的一般疑问句语序，用来确认是否存在“去过某地”的经历。"
+      },
+      {
+        "label": "时间副词的位置",
+        "text": "you just been...",
+        "explanation": "just 放在主语 you 和谓语 been 之间，表示“刚刚，方才”的时间含义，对应中文的“刚”。"
+      },
+      {
+        "label": "动作与地点衔接",
+        "text": "been to the cinema",
+        "explanation": "be 动词的过去分词 been 搭配介词 to，后接表示地点的名词，构成“去过某地”的表达，the cinema 点明具体目的地。"
+      }
+    ],
+    "takeaway": "英语通过助动词提前构成是非问句，时间副词夹在主语和谓语之间，与中文把时间词放在动作前的排布逻辑不同。"
+  },
+  "backbone": {
+    "text": "Have you been to the cinema?",
+    "meaning": "你去过电影院吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时的一般疑问句",
+      "text": "have been to 是现在完成时结构，表达到说话时刻为止已经完成的“去过某地”的经历，句首的 Have 体现疑问语序，无需额外添加助动词。"
+    },
+    {
+      "title": "just的位置与含义",
+      "text": "just 作为时间副词，放在主语 you 和过去分词 been 之间，强调动作发生在离当前说话很近的不久之前。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Have",
+      "role": "助动词",
+      "explanation": "现在完成时的助动词，提到句首构成一般疑问句，无实际词义，仅承担时态和疑问语序功能。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "被询问的对象，指代听话人本人。"
+    },
+    {
+      "text": "just",
+      "role": "时间状语",
+      "explanation": "修饰核心谓语，点明“刚刚”的时间属性。"
+    },
+    {
+      "text": "been to",
+      "role": "谓语核心",
+      "explanation": "是 be 动词的过去分词搭配介词 to，后接地点名词，构成固定表达“去过某地”，是现在完成时的谓语主体。"
+    },
+    {
+      "text": "the cinema",
+      "role": "介词to的宾语",
+      "explanation": "点明“去”这个动作的具体目的地，也就是电影院。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Have",
+      "meaning": "已经（助动词，构成现在完成时）",
+      "pos": "动词（助动词）",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "you",
+      "meaning": "你，你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "just",
+      "meaning": "刚才，方才",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "been",
+      "meaning": "是（be的过去分词）",
+      "pos": "动词",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向（表方向）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "cinema?",
+      "meaning": "电影院",
+      "pos": "名词",
+      "phonetic": "/ˈsɪnəmə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Have you",
+      "meaning": "你（完成疑问语序，提问对象是你）",
+      "relation": "疑问助动词提前引出以听话人为对象的询问"
+    },
+    {
+      "text": "just been to",
+      "meaning": "刚去过",
+      "relation": "描述询问的核心动作与时间属性"
+    },
+    {
+      "text": "the cinema?",
+      "meaning": "电影院？",
+      "relation": "补充动作指向的场所目的地"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-85",
+  "sentenceId": "nce-1-lesson-085-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Have you just been to the cinema?",
+  "lesson": "Lesson 85 Paris in the spring",
+  "notes": [
+    {
+      "title": "现在完成时的一般疑问句",
+      "text": "have been to 是现在完成时结构，表达到说话时刻为止已经完成的“去过某地”的经历，句首的 Have 体现疑问语序，无需额外添加助动词。"
+    },
+    {
+      "title": "just的位置与含义",
+      "text": "just 作为时间副词，放在主语 you 和过去分词 been 之间，强调动作发生在离当前说话很近的不久之前。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构清晰，已修正将 you 单独归为主语的问题；仅需微调个别表述，把 have been to 的结构表述得更严谨，说明 to 后接地名名词。（非逐句人工审核）"
+}

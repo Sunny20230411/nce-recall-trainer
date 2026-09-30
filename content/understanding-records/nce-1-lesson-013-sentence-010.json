@@ -1,0 +1,100 @@
+{
+  "chinese": "那真是一顶可爱的帽子！",
+  "intent": "近距离指着眼前的帽子发出直观的赞叹",
+  "comparison": null,
+  "backbone": {
+    "text": "That is a lovely hat",
+    "meaning": "那是一顶可爱的帽子"
+  },
+  "parts": [
+    {
+      "text": "That",
+      "relation": "描述的主体",
+      "meaning": "指代眼前的那顶帽子"
+    },
+    {
+      "text": "is",
+      "relation": "连接主体和描述内容",
+      "meaning": "表示肯定判断"
+    },
+    {
+      "text": "a lovely hat!",
+      "relation": "补充说明主体的具体身份和特征",
+      "meaning": "一顶可爱的帽子，末尾带感叹语气标点"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "感叹句语气",
+      "text": "句末的感叹号传递强烈的夸赞情绪，不是普通的陈述事实。"
+    },
+    {
+      "title": "That的指代作用",
+      "text": "这里的That直接指代视线范围内的帽子，不需要额外补充指代对象就能让听者明白所指内容。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That",
+      "role": "指示代词作主语",
+      "explanation": "点明描述的目标对象，指向近处的事物"
+    },
+    {
+      "text": "is a lovely hat",
+      "role": "系表结构作谓语部分",
+      "explanation": "用判断动词加带修饰的名词短语，说明主语的属性和身份"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "那，那个",
+      "pos": "指示代词",
+      "phonetic": "/ðæt/",
+      "text": "That"
+    },
+    {
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "一（顶）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "可爱的，好看的",
+      "pos": "形容词",
+      "phonetic": "/ˈlʌvli/",
+      "text": "lovely"
+    },
+    {
+      "meaning": "帽子",
+      "pos": "名词",
+      "phonetic": "/hæt/",
+      "text": "hat!"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-13",
+  "sentenceId": "nce-1-lesson-013-sentence-010",
+  "sentenceOrder": 10,
+  "english": "That is a lovely hat!",
+  "lesson": "Lesson 13 A new dress",
+  "notes": [
+    {
+      "title": "感叹句语气",
+      "text": "句末的感叹号传递强烈的夸赞情绪，不是普通的陈述事实。"
+    },
+    {
+      "title": "That的指代作用",
+      "text": "这里的That直接指代视线范围内的帽子，不需要额外补充指代对象就能让听者明白所指内容。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析框架合规，仅存在少量词性、表述细节不符合规范的可修正问题（非逐句人工审核）"
+}

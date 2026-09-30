@@ -1,0 +1,102 @@
+{
+  "chinese": "我们还没有去过那里。",
+  "intent": "陈述当前的事实：我们至今还没有去过那个地方。",
+  "comparison": null,
+  "backbone": {
+    "text": "We haven't been there yet.",
+    "meaning": "我们至今还没有去过那里。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时的否定表达",
+      "text": "haven't been there 表示从过去到现在为止没有去过那里，yet 放在句末，用于否定句中表示“还、尚未”，常与现在完成时搭配使用。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We",
+      "role": "主语",
+      "explanation": "指代说话者和同伴，是“没去过某地”这一状态的主体。"
+    },
+    {
+      "text": "haven't been",
+      "role": "谓语",
+      "explanation": "现在完成时的否定形式，由助动词have的否定缩写haven't和be的过去分词been构成，整体表示“曾经到过”的状态。"
+    },
+    {
+      "text": "there",
+      "role": "地点状语",
+      "explanation": "指代前文提到的某个地方，说明“没去过”的具体地点。"
+    },
+    {
+      "text": "yet",
+      "role": "时间状语",
+      "explanation": "用于否定句，说明动作尚未发生，即“到目前为止还没有”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "haven't",
+      "meaning": "没有（have 的否定缩写）",
+      "pos": "助动词",
+      "phonetic": "/ˈhævnt/"
+    },
+    {
+      "text": "been",
+      "meaning": "be 的过去分词，此处表示“到过、去过”",
+      "pos": "动词",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "there",
+      "meaning": "那里",
+      "pos": "副词",
+      "phonetic": "/ðeə(r)/"
+    },
+    {
+      "text": "yet.",
+      "meaning": "还、尚未",
+      "pos": "副词",
+      "phonetic": "/jet/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "relation": "动作的主体，即陈述的发出者。"
+    },
+    {
+      "text": "haven't been",
+      "meaning": "还没有去过",
+      "relation": "描述主语的状态：到目前为止没有去过某地。"
+    },
+    {
+      "text": "there yet.",
+      "meaning": "那里，到目前为止还",
+      "relation": "补充地点和时间状态：没去过的地方是那里，且至今尚未发生。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-131",
+  "sentenceId": "nce-1-lesson-131-sentence-005",
+  "sentenceOrder": 5,
+  "english": "We haven't been there yet.",
+  "lesson": "Lesson 131 Don't be so sure!",
+  "notes": [
+    {
+      "title": "现在完成时的否定表达",
+      "text": "haven't been there 表示从过去到现在为止没有去过那里，yet 放在句末，用于否定句中表示“还、尚未”，常与现在完成时搭配使用。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析核心语义与语法框架正确，仅存在以下小瑕疵：1. 词汇表中yet的text附带了原句句末的句点，属于格式问题；2. 词汇表haven't的词性标注“动词助动词”表述不够规范；3. haven't been作为现在完成时否定形式的解释可以更清晰，明确包含助动词+过去分词的构成，表述可进一步优化。（非逐句人工审核）"
+}

@@ -1,0 +1,169 @@
+{
+  "chinese": "下午好。我想这所房子是要出售的。",
+  "intent": "上门看房时先礼貌问候，随后提出自己的来意猜测，确认眼前的房子是否属于待售状态。",
+  "comparison": {
+    "chinese": "我想这房子是要出售的",
+    "english": "I believe that this house is for sale.",
+    "steps": [
+      {
+        "label": "先交代主观想法",
+        "text": "英文用 I believe 引出整句核心表达，中文把“我想”放在句首对应主观态度。",
+        "explanation": "I believe 在这里不是强烈的“坚信”，而是委婉表达“我觉得、我想”的猜测语气，是说话人确认来意的铺垫。"
+      },
+      {
+        "label": "用 that 衔接判断内容",
+        "text": "that 是引导宾语从句的连接词，本身没有实际词义，后面完整接出“this house is for sale”的具体判断。",
+        "explanation": "that 只起语法连接作用，不指代任何具体事物，去掉 that 不影响从句本身的意思，日常口语中经常省略。"
+      },
+      {
+        "label": "从句内部的判断",
+        "text": "this house is for sale 是完整的判断内容：这所房子处于待售状态。",
+        "explanation": "for sale 是固定搭配，表示“待售、供出售”，从句本身是完整的主系表结构。"
+      }
+    ],
+    "takeaway": "理解这类表达时，先抓住 I believe 引出“个人猜测”的语气，再读 that 后面“房子待售”的具体判断，不需要把 that 翻译成“那个”。"
+  },
+  "backbone": {
+    "text": "I believe that this house is for sale.",
+    "meaning": "我猜想眼前的这所房子是对外出售的。"
+  },
+  "structureNotes": [
+    {
+      "title": "Good afternoon. 的使用场景",
+      "text": "Good afternoon. 是午后时段的通用礼貌问候语，不分正式或非正式场合，类似中文见面先说“下午好”的打招呼习惯。"
+    },
+    {
+      "title": "that 引导的宾语从句",
+      "text": "that 仅起连接主从句的语法作用，不充当从句的句子成分，也没有独立词义，口语中常常可以省略，后面紧跟完整的陈述句，说明 believe 的具体内容。"
+    },
+    {
+      "title": "for sale 的固定搭配",
+      "text": "for sale 是固定介词短语，专门表示物品或房产处于“待售、供人购买”的状态，不要和 on sale（打折促销）混淆。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Good afternoon.",
+      "role": "问候语",
+      "explanation": "独立使用的日间礼貌问候，用于午后见面打招呼，不承担主句的表意功能。"
+    },
+    {
+      "text": "I",
+      "role": "主句主语",
+      "explanation": "指代说话人本人，也就是上门的访客。"
+    },
+    {
+      "text": "believe",
+      "role": "主句谓语",
+      "explanation": "表达“认为、猜想”的主观态度，后面接说出的具体想法内容。"
+    },
+    {
+      "text": "that this house is for sale",
+      "role": "宾语从句",
+      "explanation": "作 believe 的宾语，完整说明说话人猜想的内容，本身是“这房子待售”的主系表判断结构，that 是无实义的连接词。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Good",
+      "meaning": "好的",
+      "pos": "形容词",
+      "phonetic": "/ɡʊd/"
+    },
+    {
+      "text": "afternoon.",
+      "meaning": "下午",
+      "pos": "名词",
+      "phonetic": "/ˌɑːftəˈnuːn/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "believe",
+      "meaning": "认为，猜想",
+      "pos": "动词",
+      "phonetic": "/bɪˈliːv/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导宾语从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "this",
+      "meaning": "这，这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "house",
+      "meaning": "房子",
+      "pos": "名词",
+      "phonetic": "/haʊs/"
+    },
+    {
+      "text": "is",
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "for",
+      "meaning": "为了，供（表用途）",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "sale.",
+      "meaning": "销售，出售（与 for 搭配构成 for sale，表示待售）",
+      "pos": "名词",
+      "phonetic": "/ˈseɪl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Good afternoon.",
+      "relation": "开场的礼貌问候，开启和房主的对话",
+      "meaning": "下午好。"
+    },
+    {
+      "text": "I believe",
+      "relation": "主句核心框架，交代说话人的主观判断态度",
+      "meaning": "我认为"
+    },
+    {
+      "text": "that this house is for sale.",
+      "relation": "补充说明“我认为”的具体内容，是说话人确认来意的核心信息",
+      "meaning": "这所房子是要出售的。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-89",
+  "sentenceId": "nce-1-lesson-089-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Good afternoon. I believe that this house is for sale.",
+  "lesson": "Lesson 89 For sale",
+  "notes": [
+    {
+      "title": "Good afternoon. 的使用场景",
+      "text": "Good afternoon. 是午后时段的通用礼貌问候语，不分正式或非正式场合，类似中文见面先说“下午好”的打招呼习惯。"
+    },
+    {
+      "title": "that 引导的宾语从句",
+      "text": "that 仅起连接主从句的语法作用，不充当从句的句子成分，也没有独立词义，口语中常常可以省略，后面紧跟完整的陈述句，说明 believe 的具体内容。"
+    },
+    {
+      "title": "for sale 的固定搭配",
+      "text": "for sale 是固定介词短语，专门表示物品或房产处于“待售、供人购买”的状态，不要和 on sale（打折促销）混淆。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合文本语境，语法讲解、指代关系和常见搭配提示基本准确。两处词级标注可更精确：一是 afternoon. 词条的释义混入了句末标点；二是 sale. 的释义未说明它与 for 构成固定搭配，仅解释单个单词容易让学习者误判 sale 在句中独立承担“出售”的全部表意。已做对应修正，不改动其他字段。（非逐句人工审核）"
+}

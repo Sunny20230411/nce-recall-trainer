@@ -1,0 +1,83 @@
+{
+  "chinese": "这是找您的零钱。",
+  "intent": "售货员在收款后，向顾客递出多余钱款并说明这是找零。",
+  "comparison": null,
+  "backbone": {
+    "text": "这是你的零钱。",
+    "meaning": "说话人向听话人交付找零，告知这是属于对方的多余钱款。"
+  },
+  "structureNotes": [
+    {
+      "title": "Here's开头的倒装表达",
+      "text": "Here's是Here is的常用口语缩写，属于把地点提示词Here置于句首的倒装结构，正常语序为“Your change is here.”，用于当面把物品递出时打招呼式的提示，是服务场景下非常自然的口语表达。"
+    },
+    {
+      "title": "change的多义场景",
+      "text": "change最常见的含义是“改变”，但在购物、付费的场景中，它指顾客付款大于应付金额时售货员退回的“找零、零钱”，结合前文提到的付款金额就能准确判断词义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Here's",
+      "role": "倒装引导的主谓结构",
+      "explanation": "Here's是Here is的缩约形式，构成以Here开头的倒装句型，用来当面引出交付的物品，属于口语常用表达。"
+    },
+    {
+      "text": "your change.",
+      "role": "主语",
+      "explanation": "在倒装句中，真正的主语是your change，指代属于听话人的找零。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Here's",
+      "meaning": "这是（Here is 的口语缩约形式）",
+      "pos": "缩约结构（倒装句的引导主谓部分）",
+      "phonetic": "/hɪəz/"
+    },
+    {
+      "text": "your",
+      "meaning": "你的，您的",
+      "pos": "限定词",
+      "phonetic": "/jɔː(r)/"
+    },
+    {
+      "text": "change.",
+      "meaning": "找零，零钱",
+      "pos": "名词",
+      "phonetic": "/tʃeɪndʒ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Here's",
+      "relation": "当面递出物品时的提示引导",
+      "meaning": "这是（Here is的口语缩约）"
+    },
+    {
+      "text": "your change.",
+      "relation": "句子真正要交付的对象，说明递出的是什么东西",
+      "meaning": "找您的零钱"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-95",
+  "sentenceId": "nce-1-lesson-095-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Here's your change.",
+  "lesson": "Lesson 95 Tickets, please.",
+  "notes": [
+    {
+      "title": "Here's开头的倒装表达",
+      "text": "Here's是Here is的常用口语缩写，属于把地点提示词Here置于句首的倒装结构，正常语序为“Your change is here.”，用于当面把物品递出时打招呼式的提示，是服务场景下非常自然的口语表达。"
+    },
+    {
+      "title": "change的多义场景",
+      "text": "change最常见的含义是“改变”，但在购物、付费的场景中，它指顾客付款大于应付金额时售货员退回的“找零、零钱”，结合前文提到的付款金额就能准确判断词义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：译文、场景意图、主干和倒装结构说明整体准确，Here's 未被误析为从句引导词，your change 的主语身份与找零释义正确。仅 words 中 change. 的文本混入了句号，且 Here's 的语义与词性标注可更精确，其他分块和结构说明保持可用。（非逐句人工审核）"
+}

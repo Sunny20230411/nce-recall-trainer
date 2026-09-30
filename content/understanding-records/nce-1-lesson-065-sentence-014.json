@@ -1,0 +1,96 @@
+{
+  "chinese": "你听见了吗？",
+  "intent": "用简短的一般疑问句确认对方是否听到并接受刚才的叮嘱，是日常口语中提醒对方注意时的常用反问。",
+  "comparison": {
+    "chinese": "中文只需说“听见了吗？”，就把确认听到的意思表达完整了。",
+    "english": "英文 Do you hear? 必须借助助动词 do 构成疑问语序，把助动词放在主语 you 的前面。",
+    "steps": [
+      {
+        "label": "中文疑问表达",
+        "text": "听见了吗？",
+        "explanation": "直接用动词的问句形式就可以完成确认，不需要额外添加助动词。"
+      },
+      {
+        "label": "英文疑问结构",
+        "text": "Do you hear?",
+        "explanation": "hear 是实义动词，在一般现在时的问句中需要在句首加助动词 Do，主语 you 放在助动词和实义动词之间。"
+      }
+    ],
+    "takeaway": "实义动词作谓语的一般现在时一般疑问句，需要借助 do/does 放在句首构成疑问语序。"
+  },
+  "backbone": {
+    "text": "Do you hear?",
+    "meaning": "你听见了吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "一般疑问句的助动词",
+      "text": "本句谓语是实义动词 hear，构成一般疑问句时需要在句首借助助动词 do，放在主语 you 的前面，本身没有实际词义，只起到帮助构成疑问的语法作用。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "助动词",
+      "explanation": "无实义，帮助实义动词 hear 构成一般现在时的一般疑问句式。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指听话的对象，是“听到”这个动作的发出者。"
+    },
+    {
+      "text": "hear?",
+      "role": "谓语",
+      "explanation": "核心实义动词，表示“听到、听见”，带问号表示疑问语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Do",
+      "meaning": "（助动词，构成一般现在时疑问句式）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你（第二人称代词主格）",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "hear?",
+      "meaning": "听见；听到",
+      "pos": "动词",
+      "phonetic": "/hɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Do you",
+      "meaning": "你（借助助动词构成疑问句式）",
+      "relation": "助动词+主语，构成疑问语序框架"
+    },
+    {
+      "text": "hear?",
+      "meaning": "听见？",
+      "relation": "核心谓语动作，向对方确认是否听到了刚才的叮嘱"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-65",
+  "sentenceId": "nce-1-lesson-065-sentence-014",
+  "sentenceOrder": 14,
+  "english": "Do you hear?",
+  "lesson": "Lesson 65 Not a baby",
+  "notes": [
+    {
+      "title": "一般疑问句的助动词",
+      "text": "本句谓语是实义动词 hear，构成一般疑问句时需要在句首借助助动词 do，放在主语 you 的前面，本身没有实际词义，只起到帮助构成疑问的语法作用。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析的主干语法、词义、对比说明基本准确，仅存在音标分离不规范、分块对应关系标注不精准两处可修正问题，无核心错误。（非逐句人工审核）"
+}

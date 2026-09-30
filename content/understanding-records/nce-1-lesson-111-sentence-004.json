@@ -1,0 +1,146 @@
+{
+  "chinese": "这个型号比那个便宜。",
+  "intent": "在顾客认为某款冰箱太贵、负担不起的语境下，店员向顾客介绍价格更低、更实惠的型号，明确指出这款的价格优势。",
+  "comparison": {
+    "chinese": "这个型号比那个便宜。",
+    "english": "This model's less expensive than that one.",
+    "steps": [
+      {
+        "label": "先确定比较主体",
+        "text": "This model's less expensive",
+        "explanation": "开头先锁定要介绍的对象——这款型号，并用less expensive点明它的价格属性是“没那么贵、更便宜”，对应中文里修饰名词的定语位置。"
+      },
+      {
+        "label": "再明确比较对象",
+        "text": "than that one",
+        "explanation": "用than引出和它对比的参照对象“那个（型号）”，one指代前面出现过的model，避免重复说model，英文习惯把“被比较对象+be+比较级”放在句首，再用than引出参照对象，中文则把“比”放在被比较的两个对象之间。"
+      }
+    ],
+    "takeaway": "英语表达“比……更不/较不……”时，结构是“被比较对象 + be + less + 形容词原级 + than + 参照对象”，less本身就带有“程度更低、没那么”的否定含义，不需要再加not。"
+  },
+  "backbone": {
+    "text": "This model is less expensive than that one.",
+    "meaning": "这款型号的价格比那一款更低。"
+  },
+  "structureNotes": [
+    {
+      "title": "model's的缩写拆分",
+      "text": "model's是model与is的缩略形式，展开后是This model is，不能将其误解为名词所有格。"
+    },
+    {
+      "title": "than的连接作用",
+      "text": "than是比较句的连接标记，将比较的双方连接起来，明确价格高低的参照对象，避免比较关系模糊。"
+    },
+    {
+      "title": "one的替代用法",
+      "text": "that one里的one是代词，指代前文提到过的model，这样表达可以避免重复，让句子更自然简洁。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "This model",
+      "role": "主语",
+      "explanation": "指代当前正在介绍的这款冰箱型号，是整个比较关系中的核心主体。"
+    },
+    {
+      "text": "'s",
+      "role": "系动词",
+      "explanation": "是is的缩写形式，用来连接主语和后面的形容词表语，表明主语的属性。"
+    },
+    {
+      "text": "less expensive",
+      "role": "形容词短语作表语",
+      "explanation": "用less修饰多音节形容词expensive，构成降级比较，含义为“价格更低、没那么贵”。"
+    },
+    {
+      "text": "than that one",
+      "role": "比较状语短语",
+      "explanation": "由比较连词than引导，引出对比的参照对象“那一款型号”，one指代前面的model，避免重复。"
+    }
+  ],
+  "words": [
+    {
+      "text": "This",
+      "meaning": "这，这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "model's",
+      "meaning": "型号是（model is的缩写）",
+      "pos": "名词+be动词缩写",
+      "phonetic": "/ˈmɒdlz/"
+    },
+    {
+      "text": "less",
+      "meaning": "程度较低地，没那么",
+      "pos": "副词",
+      "phonetic": "/les/"
+    },
+    {
+      "text": "expensive",
+      "meaning": "昂贵的，价格高的",
+      "pos": "形容词",
+      "phonetic": "/ɪkˈspensɪv/"
+    },
+    {
+      "text": "than",
+      "meaning": "比（用于引出比较对象）",
+      "pos": "连词",
+      "phonetic": "/ðæn/"
+    },
+    {
+      "text": "that",
+      "meaning": "那，那个",
+      "pos": "限定词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "one.",
+      "meaning": "（用来指代前面提到过的可数名词单数）型号",
+      "pos": "代词",
+      "phonetic": "/wʌn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "This model's",
+      "meaning": "这款型号是",
+      "relation": "句子的开头部分，点明被比较的主体，引出后续的价格描述。"
+    },
+    {
+      "text": "less expensive than",
+      "meaning": "比……更便宜",
+      "relation": "描述主体的价格属性，同时引出比较的连接标记，说明这是和其他型号做价格对比。"
+    },
+    {
+      "text": "that one.",
+      "meaning": "那一个型号。",
+      "relation": "明确比较的参照对象，说明是和另一款价格更高的型号做对比。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-111",
+  "sentenceId": "nce-1-lesson-111-sentence-004",
+  "sentenceOrder": 4,
+  "english": "This model's less expensive than that one.",
+  "lesson": "Lesson 111 The most expensive model",
+  "notes": [
+    {
+      "title": "model's的缩写拆分",
+      "text": "model's是model与is的缩略形式，展开后是This model is，不能将其误解为名词所有格。"
+    },
+    {
+      "title": "than的连接作用",
+      "text": "than是比较句的连接标记，将比较的双方连接起来，明确价格高低的参照对象，避免比较关系模糊。"
+    },
+    {
+      "title": "one的替代用法",
+      "text": "that one里的one是代词，指代前文提到过的model，这样表达可以避免重复，让句子更自然简洁。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合原句的语境和语法逻辑，仅存在3处可明确修正的问题：1. 词汇表中one的文本错误附带了句末句号，应修正为仅保留单词one；2. comparison步骤中混淆了英语语序的表述，原说明误称英语将比较标记放在形容词后，实际than引导的比较状语位于表语之后；3. 第三个分块的meaning将one的指代意义直接译出为“那个型号”，未体现分块作为独立部分的字面直译属性，应调整为符合片段直译的表述。其余内容准确无误，无原则性错误。（非逐句人工审核）"
+}

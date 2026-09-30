@@ -1,0 +1,93 @@
+{
+  "chinese": "她是法国人。",
+  "intent": "明确说明前文提到的名叫Sophie的这位女性的国籍身份。",
+  "comparison": null,
+  "backbone": {
+    "text": "She is French.",
+    "meaning": "她的国籍是法国，属于法国籍的人。"
+  },
+  "parts": [
+    {
+      "text": "She",
+      "relation": "描述谁",
+      "meaning": "指代前文刚提到的新学生Sophie这位女性"
+    },
+    {
+      "text": "is",
+      "relation": "关联主语和身份说明",
+      "meaning": "起到连接主语和身份属性的作用"
+    },
+    {
+      "text": "French.",
+      "relation": "补充主语的国籍身份",
+      "meaning": "表示法国籍的人、法国人"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "主语指代关系",
+      "text": "代词She直接承接上文提到的Sophie，不用重复写出完整人名也能让读者立刻明确描述的对象是谁。"
+    },
+    {
+      "title": "国籍表达逻辑",
+      "text": "这里直接用国家对应的国籍形容词放在be动词之后，就可以说明主语的身份，不需要额外加表示身份的普通名词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "主语",
+      "explanation": "整句话描述的核心对象，指代前文出现的女性Sophie。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "用来搭建主语和后续身份属性之间的关联桥梁，表明二者的等同关系。"
+    },
+    {
+      "text": "French.",
+      "role": "表语",
+      "explanation": "补充说明主语的国籍属性，点明该对象是法国籍的法国人。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/",
+      "text": "She"
+    },
+    {
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "法国人，法国籍的",
+      "pos": "形容词",
+      "phonetic": "/frentʃ/",
+      "text": "French."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-5",
+  "sentenceId": "nce-1-lesson-005-sentence-005",
+  "sentenceOrder": 5,
+  "english": "She is French.",
+  "lesson": "Lesson 5 Nice to meet you.",
+  "notes": [
+    {
+      "title": "主语指代关系",
+      "text": "代词She直接承接上文提到的Sophie，不用重复写出完整人名也能让读者立刻明确描述的对象是谁。"
+    },
+    {
+      "title": "国籍表达逻辑",
+      "text": "这里直接用国家对应的国籍形容词放在be动词之后，就可以说明主语的身份，不需要额外加表示身份的普通名词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原学习数据整体符合面向中文母语成年人的英语解析要求，仅存在局部细节可优化修正，未出现核心规则错误。（非逐句人工审核）"
+}

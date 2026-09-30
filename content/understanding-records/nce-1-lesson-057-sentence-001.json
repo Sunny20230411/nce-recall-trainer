@@ -1,0 +1,286 @@
+{
+  "chinese": "现在是八点。孩子们每天都坐车去上学，但今天他们步行去学校。",
+  "intent": "先点明当前时间是八点，再通过对比孩子们平时乘车上学的惯例和今天步行上学的反常表现，突出这一天与众不同。",
+  "comparison": {
+    "chinese": "中文顺着时间和事件顺序说：现在几点，平时怎样，今天又怎样。",
+    "english": "It is eight o'clock. The children go to school by car every day, but today, they are going to school on foot.",
+    "steps": [
+      {
+        "label": "常规惯例先陈述",
+        "text": "The children go to school by car every day",
+        "explanation": "英语用一般现在时，表示每天重复的习惯：坐车上学。"
+      },
+      {
+        "label": "转折标记今天",
+        "text": "but today, they are going to school on foot.",
+        "explanation": "but 引出相反的情况；today 指今天，进行时表示此刻正在以步行方式前往学校。"
+      },
+      {
+        "label": "对比靠并列连接",
+        "text": "every day / today",
+        "explanation": "两个时间状语形成日常与今天的对照，by car 与 on foot 说明交通方式不同。"
+      }
+    ],
+    "takeaway": "英语用一般现在时说日常习惯，用现在进行时说今天此刻正在发生的动作；中文可把对比直接译出，不逐字翻译时态。"
+  },
+  "backbone": {
+    "text": "It is eight o'clock; the children go to school by car every day, but today they are going on foot.",
+    "meaning": "现在八点；孩子们日常乘车上学，今天却步行前往学校。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间表达 It is ... o'clock",
+      "text": "英语用 It is eight o'clock 表示现在八点钟；it 在这里指时间，不译作“它”。"
+    },
+    {
+      "title": "一般现在时与现在进行时对比",
+      "text": "go ... every day 是每天重复的习惯，因此用一般现在时；today 正在步行前往学校，因此用 are going，强调此刻正在进行。"
+    },
+    {
+      "title": "by car 与 on foot",
+      "text": "by car 表示乘车这种交通方式；on foot 是固定搭配，表示步行，中间不加冠词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "形式主语/时间主语",
+      "explanation": "在 It is eight o'clock 中表示时间，没有实际“它”的含义。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "连接主语 It 与表语 eight o'clock。"
+    },
+    {
+      "text": "eight o'clock.",
+      "role": "表语",
+      "explanation": "说明当前时间是八点钟。"
+    },
+    {
+      "text": "The children",
+      "role": "并列分句一的主语",
+      "explanation": "指上学的孩子们，是 go 和后面 they 的所指对象。"
+    },
+    {
+      "text": "go to school",
+      "role": "谓语短语",
+      "explanation": "表示去上学这一动作。"
+    },
+    {
+      "text": "by car",
+      "role": "方式状语",
+      "explanation": "说明日常上学的交通方式是乘车。"
+    },
+    {
+      "text": "every day,",
+      "role": "时间状语",
+      "explanation": "表示每天重复，决定该分句用一般现在时。"
+    },
+    {
+      "text": "but",
+      "role": "并列连词",
+      "explanation": "连接日常习惯与今天反常情况两个分句，形成转折。"
+    },
+    {
+      "text": "today,",
+      "role": "时间状语",
+      "explanation": "指今天，提示第二个分句描述当下正在发生的情况。"
+    },
+    {
+      "text": "they",
+      "role": "并列分句二的主语",
+      "explanation": "指代 the children。"
+    },
+    {
+      "text": "are going to school",
+      "role": "谓语短语",
+      "explanation": "用现在进行时表示此刻正步行去学校。"
+    },
+    {
+      "text": "on foot.",
+      "role": "方式状语",
+      "explanation": "说明今天的交通方式是步行，与 by car 形成对比。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（此处指时间）",
+      "pos": "代词",
+      "phonetic": "ɪt"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be动词第三人称单数）",
+      "pos": "动词",
+      "phonetic": "ɪz"
+    },
+    {
+      "text": "eight",
+      "meaning": "八",
+      "pos": "数词",
+      "phonetic": "eɪt"
+    },
+    {
+      "text": "o'clock.",
+      "meaning": "……点钟",
+      "pos": "限定词",
+      "phonetic": "əˈklɒk."
+    },
+    {
+      "text": "The",
+      "meaning": "定冠词，表特指",
+      "pos": "冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "children",
+      "meaning": "孩子们",
+      "pos": "名词",
+      "phonetic": "ˈtʃɪldrən"
+    },
+    {
+      "text": "go",
+      "meaning": "去（go的动词原形）",
+      "pos": "动词",
+      "phonetic": "ɡəʊ"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向",
+      "pos": "介词",
+      "phonetic": "tuː"
+    },
+    {
+      "text": "school",
+      "meaning": "学校",
+      "pos": "名词",
+      "phonetic": "skuːl"
+    },
+    {
+      "text": "by",
+      "meaning": "乘（交通工具）",
+      "pos": "介词",
+      "phonetic": "baɪ"
+    },
+    {
+      "text": "car",
+      "meaning": "汽车",
+      "pos": "名词",
+      "phonetic": "kɑː"
+    },
+    {
+      "text": "every",
+      "meaning": "每个",
+      "pos": "限定词",
+      "phonetic": "ˈevri"
+    },
+    {
+      "text": "day,",
+      "meaning": "一天；每天",
+      "pos": "名词",
+      "phonetic": "deɪ,"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "bʌt"
+    },
+    {
+      "text": "today,",
+      "meaning": "今天",
+      "pos": "副词",
+      "phonetic": "təˈdeɪ,"
+    },
+    {
+      "text": "they",
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "ðeɪ"
+    },
+    {
+      "text": "are",
+      "meaning": "是（be动词复数形式）",
+      "pos": "动词",
+      "phonetic": "ɑː"
+    },
+    {
+      "text": "going",
+      "meaning": "去（go的现在分词）",
+      "pos": "动词",
+      "phonetic": "ˈɡəʊɪŋ"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向",
+      "pos": "介词",
+      "phonetic": "tuː"
+    },
+    {
+      "text": "school",
+      "meaning": "学校",
+      "pos": "名词",
+      "phonetic": "skuːl"
+    },
+    {
+      "text": "on",
+      "meaning": "（固定搭配，表步行）",
+      "pos": "介词",
+      "phonetic": "ɒn"
+    },
+    {
+      "text": "foot.",
+      "meaning": "脚；步行",
+      "pos": "名词",
+      "phonetic": "fʊt."
+    }
+  ],
+  "parts": [
+    {
+      "text": "It is eight o'clock.",
+      "relation": "交代当前的具体时间，作为后续事件的背景。",
+      "meaning": "现在是八点钟。"
+    },
+    {
+      "text": "The children go to school by car every day,",
+      "relation": "描述孩子们日常重复的上学习惯，用一般现在时体现规律性。",
+      "meaning": "孩子们每天都坐车去上学。"
+    },
+    {
+      "text": "but today,",
+      "relation": "转折标记，引出与日常惯例不同的今天的情况。",
+      "meaning": "但是今天，"
+    },
+    {
+      "text": "they are going to school on foot.",
+      "relation": "描述今天此刻正在发生的反常行为，用现在进行时突出当下的特殊状态，和前文乘车上学的惯例形成对比。",
+      "meaning": "他们正步行去学校。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-57",
+  "sentenceId": "nce-1-lesson-057-sentence-001",
+  "sentenceOrder": 1,
+  "english": "It is eight o'clock. The children go to school by car every day, but today, they are going to school on foot.",
+  "lesson": "Lesson 57 An unusual day",
+  "notes": [
+    {
+      "title": "时间表达 It is ... o'clock",
+      "text": "英语用 It is eight o'clock 表示现在八点钟；it 在这里指时间，不译作“它”。"
+    },
+    {
+      "title": "一般现在时与现在进行时对比",
+      "text": "go ... every day 是每天重复的习惯，因此用一般现在时；today 正在步行前往学校，因此用 are going，强调此刻正在进行。"
+    },
+    {
+      "title": "by car 与 on foot",
+      "text": "by car 表示乘车这种交通方式；on foot 是固定搭配，表示步行，中间不加冠词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体语法关系、时间状语对比与中文翻译均可用，仅存在两处可明确修正的细节：1. 'o'clock.' 的词性被标注为副词，实际它是用于说明整点时间的限定短语，不应归类为副词；2. 单词表中 'by' 的释义统一为「通过，乘（交通工具）」与「由，凭借」，但在搭配交通方式的语境下统一译为「乘（交通工具）」更准确，在 'on foot' 中也不应将 'on' 解释为「由，凭借」，避免语义混淆。其余内容符合语法规则、逻辑通顺，无需调整。（非逐句人工审核）"
+}

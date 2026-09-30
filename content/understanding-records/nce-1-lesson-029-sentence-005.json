@@ -1,0 +1,117 @@
+{
+  "chinese": "打开窗户，给房间通通风。",
+  "intent": "说话人向听话人下达两项连贯的家务操作指令，告知需要完成的具体动作要求。",
+  "comparison": null,
+  "backbone": {
+    "text": "Open the window and air the room.",
+    "meaning": "执行两个先后关联的动作：打开窗户、给房间通风"
+  },
+  "parts": [
+    {
+      "text": "Open the window",
+      "relation": "第一项要求执行的动作",
+      "meaning": "打开窗户"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个先后关联的动作",
+      "meaning": "然后、接着"
+    },
+    {
+      "text": "air the room.",
+      "relation": "第二项要求执行的后续动作",
+      "meaning": "给房间通通风"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "祈使句的无主语特征",
+      "text": "本句是指向听话人的直接指令，省略了默认的主语you，直接以原形动词开头，表达明确的操作要求。"
+    },
+    {
+      "title": "并列连词and的表意作用",
+      "text": "此处and不单纯表示并列，还暗含两个动作的先后逻辑：先开窗才能给房间通风，动作顺序符合日常行为逻辑。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Open the window",
+      "role": "第一个祈使动作片段",
+      "explanation": "以原形动词Open开头，搭配动作的对象the window，构成完整的动作指令单元"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "串联两个关联的动作指令，体现动作的先后承接关系"
+    },
+    {
+      "text": "air the room",
+      "role": "第二个祈使动作片段",
+      "explanation": "以原形动词air开头，搭配动作的对象the room，是紧随前一动作的后续指令单元"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "打开",
+      "pos": "动词",
+      "phonetic": "/ˈəʊpən/",
+      "text": "Open"
+    },
+    {
+      "meaning": "这个、那个（定冠词，限定特指的事物）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "窗户",
+      "pos": "名词",
+      "phonetic": "/ˈwɪndəʊ/",
+      "text": "window"
+    },
+    {
+      "meaning": "和、然后（此处表动作承接）",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "通风、使透气",
+      "pos": "动词",
+      "phonetic": "/eə(r)/",
+      "text": "air"
+    },
+    {
+      "meaning": "这个、那个（定冠词，限定特指的事物）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "房间",
+      "pos": "名词",
+      "phonetic": "/ruːm/",
+      "text": "room."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-29",
+  "sentenceId": "nce-1-lesson-029-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Open the window and air the room.",
+  "lesson": "Lesson 29 Come in, Amy.",
+  "notes": [
+    {
+      "title": "祈使句的无主语特征",
+      "text": "本句是指向听话人的直接指令，省略了默认的主语you，直接以原形动词开头，表达明确的操作要求。"
+    },
+    {
+      "title": "并列连词and的表意作用",
+      "text": "此处and不单纯表示并列，还暗含两个动作的先后逻辑：先开窗才能给房间通风，动作顺序符合日常行为逻辑。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原学习数据整体符合面向中文母语成年人的英语学习解析要求，仅存在局部细节瑕疵，可通过补丁修正完善。（非逐句人工审核）"
+}

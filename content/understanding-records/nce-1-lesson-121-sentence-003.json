@@ -1,0 +1,129 @@
+{
+  "chinese": "站在柜台后面的那位女士。",
+  "intent": "承接上文的问句，用带限定修饰的名词短语指明“为我服务的人”具体是谁。",
+  "comparison": {
+    "chinese": "中文习惯把位置修饰语放在名词前面，说成“站在柜台后面的那位女士”，修饰信息在前，中心名词在后。",
+    "english": "英文先点出核心名词The lady，再用who引导的定语从句紧跟在后，补充这位女士的具体位置特征。",
+    "steps": [
+      {
+        "label": "先确定被修饰的核心对象",
+        "text": "The lady",
+        "explanation": "首先锁定要描述的核心人物是“这位女士”。"
+      },
+      {
+        "label": "再补充限定特征",
+        "text": "who is standing behind the counter",
+        "explanation": "紧跟在lady之后，用who（指代lady）引出她“站在柜台后面”的状态，把同名对象里的具体那位区分出来。"
+      }
+    ],
+    "takeaway": "中文的修饰语前置，英文的这类定语从句后置；理解时抓住核心名词lady，再读懂后面的who从句就能明确所指的具体人物。"
+  },
+  "backbone": {
+    "text": "The lady behind the counter",
+    "meaning": "理解用的核心指代：柜台后面的那位女士。这是对“谁为您服务”的回答片段，省略了主谓服务的核心动词，以名词短语指代被询问的人。"
+  },
+  "structureNotes": [
+    {
+      "title": "指代式回答的省略",
+      "text": "这不是结构完整的独立句子，而是针对上文Who served you的名词性回答，承接上文省略了served me这类表述，直接用带限定的名词短语说明对象。"
+    },
+    {
+      "title": "定语从句的指代",
+      "text": "who在从句里作主语，指代前面的the lady；is standing是现在进行时，表示此刻正处在站在柜台后的状态，用以区分店里其他女士。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The lady",
+      "role": "被修饰的核心名词短语",
+      "explanation": "是整个片段的指代核心，回答上文“谁为你服务”的主体对象。"
+    },
+    {
+      "text": "who is standing behind the counter.",
+      "role": "限定性定语从句",
+      "explanation": "修饰the lady，用who指代the lady作从句主语，说明这位女士正站在柜台后面的位置特征，把她和其他在场的女士区分开。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "该（定冠词，特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "lady",
+      "meaning": "女士",
+      "pos": "名词",
+      "phonetic": "/ˈleɪdi/"
+    },
+    {
+      "text": "who",
+      "meaning": "……的人（关系代词，指代the lady）",
+      "pos": "关系代词",
+      "phonetic": "/huː/"
+    },
+    {
+      "text": "is",
+      "meaning": "（助动词，构成现在进行时）",
+      "pos": "助动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "standing",
+      "meaning": "站立",
+      "pos": "动词（现在分词）",
+      "phonetic": "/ˈstændɪŋ/"
+    },
+    {
+      "text": "behind",
+      "meaning": "在……的后面",
+      "pos": "介词",
+      "phonetic": "/bɪˈhaɪnd/"
+    },
+    {
+      "text": "the",
+      "meaning": "该（定冠词，特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "counter.",
+      "meaning": "柜台",
+      "pos": "名词",
+      "phonetic": "/ˈkaʊntə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The lady",
+      "meaning": "这位女士",
+      "relation": "整个片段的核心指代对象，回答上文问的“哪个人服务了你”"
+    },
+    {
+      "text": "who is standing behind the counter.",
+      "meaning": "正站在柜台后面。",
+      "relation": "修饰前面的the lady，用位置特征把这位女士从其他在场的人里区分出来。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-121",
+  "sentenceId": "nce-1-lesson-121-sentence-003",
+  "sentenceOrder": 3,
+  "english": "The lady who is standing behind the counter.",
+  "lesson": "Lesson 121 The man in a hat",
+  "notes": [
+    {
+      "title": "指代式回答的省略",
+      "text": "这不是结构完整的独立句子，而是针对上文Who served you的名词性回答，承接上文省略了served me这类表述，直接用带限定的名词短语说明对象。"
+    },
+    {
+      "title": "定语从句的指代",
+      "text": "who在从句里作主语，指代前面的the lady；is standing是现在进行时，表示此刻正处在站在柜台后的状态，用以区分店里其他女士。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体可准确辅助理解，仅存在两处可精准优化的细节：一是单词栏中两处定冠词the的中文释义未统一，不符合词项释义的一致性要求；二是句子各拆分块、结构说明与主干中遗漏了原句末尾的句号，保持原句标识一致性。其余内容对回答属性、定语从句结构、中英修饰语序的说明均准确无误，无语法、指代或释义类错误。（非逐句人工审核）"
+}

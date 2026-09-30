@@ -1,0 +1,103 @@
+{
+  "chinese": "我打算给这个书架刷漆。",
+  "intent": "回应他人的询问，说明自己接下来计划要做的具体事情。",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm going to paint this bookcase",
+    "meaning": "我计划给这个书架刷漆"
+  },
+  "parts": [
+    {
+      "text": "I'm",
+      "relation": "动作的执行主体所属的主语+系动词缩写组合",
+      "meaning": "我（搭配be动词am）"
+    },
+    {
+      "text": "going to paint",
+      "relation": "说明动作是计划中的、尚未实际发生的谓语结构",
+      "meaning": "打算刷漆"
+    },
+    {
+      "text": "this bookcase.",
+      "relation": "刷漆这个及物动作的宾语对象",
+      "meaning": "这个书架"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "be going to 的表意",
+      "text": "这里的I'm going to不是表示正在前往，而是用来描述当下已经决定、即将要执行的计划动作，贴合上下文被询问打算做什么的场景。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm",
+      "role": "主语+系动词缩写",
+      "explanation": "指代说话者本人，同时带出be动词am，是整句话的主体启动部分。"
+    },
+    {
+      "text": "going to paint",
+      "role": "计划类谓语结构",
+      "explanation": "组合在一起表达说话者有明确意图要去做刷漆这个动作，说明动作还未发生。"
+    },
+    {
+      "text": "this bookcase",
+      "role": "动作宾语",
+      "explanation": "指明刷漆这个动作的目标物品，是说话者计划操作的具体对象。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我是",
+      "pos": "代词+系动词",
+      "phonetic": "/aɪm/",
+      "text": "I'm"
+    },
+    {
+      "meaning": "即将、打算（属于be going to计划表意结构的组成部分，不表“前往”的位移含义）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/",
+      "text": "going"
+    },
+    {
+      "meaning": "引出后续要执行的动作，为不定式标记",
+      "pos": "不定式标记",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "刷漆",
+      "pos": "动词",
+      "phonetic": "/peɪnt/",
+      "text": "paint"
+    },
+    {
+      "meaning": "这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "书架",
+      "pos": "名词",
+      "phonetic": "/ˈbʊkkeɪs/",
+      "text": "bookcase."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-37",
+  "sentenceId": "nce-1-lesson-037-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I'm going to paint this bookcase.",
+  "lesson": "Lesson 37 Making a bookcase",
+  "notes": [
+    {
+      "title": "be going to 的表意",
+      "text": "这里的I'm going to不是表示正在前往，而是用来描述当下已经决定、即将要执行的计划动作，贴合上下文被询问打算做什么的场景。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原始内容整体符合解析要求，存在部分细节可规范修正，不影响核心语义理解（非逐句人工审核）"
+}

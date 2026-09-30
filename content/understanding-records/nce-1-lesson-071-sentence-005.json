@@ -1,0 +1,155 @@
+{
+  "chinese": "他说：“波琳正在打信件。她现在不能和你讲话！”",
+  "intent": "还原老板转述的波琳当时的工作状态与无法接听的原因，回应“老板对他说了什么”。",
+  "comparison": null,
+  "backbone": {
+    "text": "He said, 'Pauline is typing letters. She can't speak to you now!'",
+    "meaning": "说话的他转述了两句直接引语：波琳正在打信，因此现在不能和你说话。"
+  },
+  "structureNotes": [
+    {
+      "title": "引号直接引语",
+      "text": "主句 He said 后用单引号引出老板当场说的原话，不是间接转述；引号内保留当时的时态与语气。"
+    },
+    {
+      "title": "现在进行时表正在进行",
+      "text": "is typing 表示“正在打字”，说明波琳当下在做的事，不是已经打完或将要打。"
+    },
+    {
+      "title": "can't 表当前能力/许可限制",
+      "text": "She can't speak 说明因正在工作，当下无法接听，不是永久不说话。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He said,",
+      "role": "转述提示",
+      "explanation": "引出后面引号内的直接引语，说明说话的人和动作。"
+    },
+    {
+      "text": "'Pauline is typing letters.",
+      "role": "直接引语分句1",
+      "explanation": "说明波琳此刻正在进行的动作，是她不能通话的原因。"
+    },
+    {
+      "text": "She can't speak to you now!'",
+      "role": "直接引语分句2",
+      "explanation": "说明结果：她现在没法和你说话，带感叹语气强化当下忙碌。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "said,",
+      "meaning": "说（say 的过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "'Pauline",
+      "meaning": "波琳（女子名）",
+      "pos": "名词",
+      "phonetic": "/pɔːˈliːn/"
+    },
+    {
+      "text": "is",
+      "meaning": "（助动词，构成现在进行时）",
+      "pos": "be动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "typing",
+      "meaning": "打字（现在分词）",
+      "pos": "动词",
+      "phonetic": "/ˈtaɪpɪŋ/"
+    },
+    {
+      "text": "letters.",
+      "meaning": "信；字母",
+      "pos": "名词",
+      "phonetic": "/ˈletəz/"
+    },
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "can't",
+      "meaning": "不能",
+      "pos": "情态动词",
+      "phonetic": "/kɑːnt/"
+    },
+    {
+      "text": "speak",
+      "meaning": "说话；讲话",
+      "pos": "动词",
+      "phonetic": "/spiːk/"
+    },
+    {
+      "text": "to",
+      "meaning": "对；向",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "now!'",
+      "meaning": "现在",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He said,",
+      "relation": "引出后面引号内的直接引语",
+      "meaning": "他说"
+    },
+    {
+      "text": "'Pauline is typing letters.",
+      "relation": "引语里说明波琳当下正在做的事",
+      "meaning": "波琳正在打信"
+    },
+    {
+      "text": "She can't speak to you now!'",
+      "relation": "引语里说明波琳当下无法通话的结果，带感叹语气",
+      "meaning": "她现在不能和你讲话"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-71",
+  "sentenceId": "nce-1-lesson-071-sentence-005",
+  "sentenceOrder": 5,
+  "english": "He said, 'Pauline is typing letters. She can't speak to you now!'",
+  "lesson": "Lesson 71 He's awful!",
+  "notes": [
+    {
+      "title": "引号直接引语",
+      "text": "主句 He said 后用单引号引出老板当场说的原话，不是间接转述；引号内保留当时的时态与语气。"
+    },
+    {
+      "title": "现在进行时表正在进行",
+      "text": "is typing 表示“正在打字”，说明波琳当下在做的事，不是已经打完或将要打。"
+    },
+    {
+      "title": "can't 表当前能力/许可限制",
+      "text": "She can't speak 说明因正在工作，当下无法接听，不是永久不说话。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，直接引语的功能、现在进行时、can't表当下限制的说明均贴合语境，各词标注的词性、音标与释义正确，仅需微调said的释义表述，删除冗余冗余字，补全主干释义的指代明确性。（非逐句人工审核）"
+}

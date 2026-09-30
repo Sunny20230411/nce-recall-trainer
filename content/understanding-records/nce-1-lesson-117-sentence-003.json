@@ -1,0 +1,117 @@
+{
+  "chinese": "‘对不起，’我说。‘他正在吃早饭。’",
+  "intent": "说话人用带歉意的语气回应他人关于Tommy的询问，告知Tommy当下正在吃早饭的状态，暗示当下不便打扰Tommy。",
+  "comparison": null,
+  "backbone": {
+    "text": "I said. He's eating breakfast.",
+    "meaning": "我开口回应致歉，说明Tommy正在吃早饭。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的分句排布",
+      "text": "本句属于日常对话的直接引语，先引述说话人致歉的内容，再用I said点明说话人身份，接着引出补充说明的引语内容，符合英语口语对话的常见表述顺序。"
+    },
+    {
+      "title": "现在进行时的表意",
+      "text": "He's eating breakfast使用现在进行时，描述说话当下正在发生的动作，对应中文的“正在吃早饭”，说明该动作在当前时间点正处于进行状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'I'm sorry,'",
+      "role": "直接引语",
+      "explanation": "放在引导分句之前，是说话人向对方表达歉意的语句。"
+    },
+    {
+      "text": "I said.",
+      "role": "说话引导分句",
+      "explanation": "说明引语的说话人是I，用一般过去时said体现这是叙述已经发生的对话内容。"
+    },
+    {
+      "text": "'He's eating breakfast.'",
+      "role": "直接引语",
+      "explanation": "是说话人补充告知的内容，用现在进行时描述当下正在发生的动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'I'm",
+      "meaning": "我是（此处用于衔接致歉内容）",
+      "pos": "缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "sorry,'",
+      "meaning": "抱歉的；对不起的",
+      "pos": "形容词",
+      "phonetic": "/ˈsɒri/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说（say的过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "'He's",
+      "meaning": "他正在（此处为现在进行时的结构组成部分，表他正在）",
+      "pos": "缩写",
+      "phonetic": "/hiːz/"
+    },
+    {
+      "text": "eating",
+      "meaning": "吃（eat的现在分词形式）",
+      "pos": "动词",
+      "phonetic": "/ˈiːtɪŋ/"
+    },
+    {
+      "text": "breakfast.'",
+      "meaning": "早饭",
+      "pos": "名词",
+      "phonetic": "/ˈbrekfəst/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "'I'm sorry,'",
+      "relation": "说话人说出的致歉内容，直接引语的第一部分",
+      "meaning": "“对不起，”"
+    },
+    {
+      "text": "I said.",
+      "relation": "说明前面引语的说话人身份与过去的说话动作",
+      "meaning": "我说。"
+    },
+    {
+      "text": "'He's eating breakfast.'",
+      "relation": "说话人补充给出的说明信息，直接引语的第二部分",
+      "meaning": "“他正在吃早饭。”"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-117",
+  "sentenceId": "nce-1-lesson-117-sentence-003",
+  "sentenceOrder": 3,
+  "english": "'I'm sorry,' I said. 'He's eating breakfast.'",
+  "lesson": "Lesson 117 Tommy's breakfast",
+  "notes": [
+    {
+      "title": "直接引语的分句排布",
+      "text": "本句属于日常对话的直接引语，先引述说话人致歉的内容，再用I said点明说话人身份，接着引出补充说明的引语内容，符合英语口语对话的常见表述顺序。"
+    },
+    {
+      "title": "现在进行时的表意",
+      "text": "He's eating breakfast使用现在进行时，描述说话当下正在发生的动作，对应中文的“正在吃早饭”，说明该动作在当前时间点正处于进行状态。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句语义与主干整体正确，但词表中两处be动词缩写的释义未贴合该句具体表意，且主干译文把前后两句引语杂糅成单一句意，需要修正。（非逐句人工审核）"
+}

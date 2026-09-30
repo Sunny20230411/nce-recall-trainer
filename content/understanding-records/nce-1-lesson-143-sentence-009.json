@@ -1,0 +1,264 @@
+{
+  "chinese": "垃圾筐是空的，地上满是纸片、烟头、旧轮胎、空瓶子和生锈的罐头。",
+  "intent": "并列陈述林间垃圾投放点与地面垃圾的现状，突出地面散落垃圾种类繁多。",
+  "comparison": {
+    "chinese": "英语先讲垃圾筐是空的，再讲地面被哪些垃圾覆盖。",
+    "english": "The litter baskets were empty and the ground was covered with pieces of paper, cigarette ends, old tyres, empty bottles and rusty tins.",
+    "steps": [
+      {
+        "label": "先说垃圾筐状态",
+        "text": "The litter baskets were empty",
+        "explanation": "先交代作为垃圾收纳点的筐是空的，暗示人们没有按规定把垃圾投入筐内。"
+      },
+      {
+        "label": "再讲地面垃圾",
+        "text": "the ground was covered with ... and rusty tins.",
+        "explanation": "用 be covered with 引出地面覆盖的具体垃圾种类，所有并列名词直接跟在介词 with 后，不需要额外连词引导。"
+      }
+    ],
+    "takeaway": "and 连接两个并列的描述分句，后一分句用被动结构把地面作为主语，把散落的各类垃圾作为介词引出的对象。"
+  },
+  "backbone": {
+    "text": "The litter baskets were empty and the ground was covered with many kinds of rubbish.",
+    "meaning": "垃圾筐是空的，地面覆盖着各种各样的垃圾。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列结构对比",
+      "text": "and 连接两个完整分句，前一分句用系表结构 were empty 描述垃圾筐的状态，后一分句用被动语态 was covered with 描述地面的状态，形成两处场景的并列对照。"
+    },
+    {
+      "title": "并列名词罗列",
+      "text": "be covered with 后面依次罗列五类常见散落垃圾，同类名词之间用逗号分隔，最后一类前加 and 收尾。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The litter baskets",
+      "role": "第一分句主语",
+      "explanation": "指林间设置的垃圾收纳筐，是第一个描述对象。"
+    },
+    {
+      "text": "were empty",
+      "role": "第一分句系表结构谓语",
+      "explanation": "描述垃圾筐处于空的状态。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个并列的描述分句。"
+    },
+    {
+      "text": "the ground",
+      "role": "第二分句主语",
+      "explanation": "指林间的地面，是第二个描述对象。"
+    },
+    {
+      "text": "was covered with pieces of paper, cigarette ends, old tyres, empty bottles and rusty tins",
+      "role": "第二分句被动语态谓语",
+      "explanation": "说明地面被各类垃圾覆盖，介词 with 引出具体覆盖物。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "（定冠词），此处指特定的垃圾筐",
+      "pos": "art.",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "litter",
+      "meaning": "垃圾",
+      "pos": "n.",
+      "phonetic": "/ˈlɪtə/"
+    },
+    {
+      "text": "baskets",
+      "meaning": "筐，篮子",
+      "pos": "n.",
+      "phonetic": "/ˈbɑːskɪts/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（be 的过去式，与复数主语搭配）",
+      "pos": "v.",
+      "phonetic": "/wɜː/"
+    },
+    {
+      "text": "empty",
+      "meaning": "空的",
+      "pos": "adj.",
+      "phonetic": "/ˈempti/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "conj.",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词），此处指林间的地面",
+      "pos": "art.",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "ground",
+      "meaning": "地面",
+      "pos": "n.",
+      "phonetic": "/ɡraʊnd/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be 的过去式，与单数主语搭配）",
+      "pos": "v.",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "covered",
+      "meaning": "覆盖（过去分词，与 was 构成被动）",
+      "pos": "v.",
+      "phonetic": "/ˈkʌvəd/"
+    },
+    {
+      "text": "with",
+      "meaning": "用；被（引出覆盖物）",
+      "pos": "prep.",
+      "phonetic": "/wɪð/"
+    },
+    {
+      "text": "pieces",
+      "meaning": "片，块",
+      "pos": "n.",
+      "phonetic": "/ˈpiːsɪz/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表所属、构成）",
+      "pos": "prep.",
+      "phonetic": "/əv/"
+    },
+    {
+      "text": "paper,",
+      "meaning": "纸，纸张",
+      "pos": "n.",
+      "phonetic": "/ˈpeɪpə/"
+    },
+    {
+      "text": "cigarette",
+      "meaning": "香烟",
+      "pos": "n.",
+      "phonetic": "/ˌsɪɡəˈret/"
+    },
+    {
+      "text": "ends,",
+      "meaning": "烟蒂，烟头",
+      "pos": "n.",
+      "phonetic": "/endz/"
+    },
+    {
+      "text": "old",
+      "meaning": "旧的，用坏的",
+      "pos": "adj.",
+      "phonetic": "/əʊld/"
+    },
+    {
+      "text": "tyres,",
+      "meaning": "轮胎",
+      "pos": "n.",
+      "phonetic": "/ˈtaɪəz/"
+    },
+    {
+      "text": "empty",
+      "meaning": "空的",
+      "pos": "adj.",
+      "phonetic": "/ˈempti/"
+    },
+    {
+      "text": "bottles",
+      "meaning": "瓶子",
+      "pos": "n.",
+      "phonetic": "/ˈbɒtlz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，以及（并列最后一项）",
+      "pos": "conj.",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "rusty",
+      "meaning": "生锈的",
+      "pos": "adj.",
+      "phonetic": "/ˈrʌsti/"
+    },
+    {
+      "text": "tins.",
+      "meaning": "金属罐，罐头盒",
+      "pos": "n.",
+      "phonetic": "/tɪnz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The litter baskets were empty",
+      "relation": "第一并列分句，描述垃圾筐的状态",
+      "meaning": "垃圾筐是空的"
+    },
+    {
+      "text": "and",
+      "relation": "并列连接词，衔接前后两个场景描述",
+      "meaning": "并且"
+    },
+    {
+      "text": "the ground was covered with",
+      "relation": "第二并列分句主干，描述地面状态",
+      "meaning": "地面被……覆盖"
+    },
+    {
+      "text": "pieces of paper,",
+      "relation": "覆盖在地面上的第一类垃圾",
+      "meaning": "纸片"
+    },
+    {
+      "text": "cigarette ends,",
+      "relation": "覆盖在地面上的第二类垃圾",
+      "meaning": "烟头"
+    },
+    {
+      "text": "old tyres,",
+      "relation": "覆盖在地面上的第三类垃圾",
+      "meaning": "旧轮胎"
+    },
+    {
+      "text": "empty bottles",
+      "relation": "覆盖在地面上的第四类垃圾",
+      "meaning": "空瓶子"
+    },
+    {
+      "text": "and rusty tins.",
+      "relation": "覆盖在地面上的最后一类垃圾，收尾罗列",
+      "meaning": "和生锈的罐头"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-143",
+  "sentenceId": "nce-1-lesson-143-sentence-009",
+  "sentenceOrder": 9,
+  "english": "The litter baskets were empty and the ground was covered with pieces of paper, cigarette ends, old tyres, empty bottles and rusty tins.",
+  "lesson": "Lesson 143 A walk through the woods",
+  "notes": [
+    {
+      "title": "并列结构对比",
+      "text": "and 连接两个完整分句，前一分句用系表结构 were empty 描述垃圾筐的状态，后一分句用被动语态 was covered with 描述地面的状态，形成两处场景的并列对照。"
+    },
+    {
+      "title": "并列名词罗列",
+      "text": "be covered with 后面依次罗列五类常见散落垃圾，同类名词之间用逗号分隔，最后一类前加 and 收尾。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构、语义与主从句关系标注正确，无根本性错误。仅存在三处可优化的细节：一是be covered with后的垃圾罗列实际为5类，现有表述存在数量描述偏差；二是对第一分句的谓语类型标注错误，were empty是系表结构而非被动语态，现有结构Notes未明确区分两类谓语类型；三是cigarette的词性标注冗余，无需补充作定语的说明，常规名词属性已足够；单词音标末尾携带标点符号不够规范，建议修正。（非逐句人工审核）"
+}

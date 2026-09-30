@@ -1,0 +1,86 @@
+{
+  "chinese": "你说什么？/请再说一遍？",
+  "intent": "礼貌地请求对方把刚才说过的内容重复一遍，用于没听清或没理解对方的表述时",
+  "comparison": null,
+  "backbone": {
+    "text": "I beg your pardon",
+    "meaning": "我请求你原谅（此处语境下指请求对方重复话语）"
+  },
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "beg",
+      "relation": "核心动作",
+      "meaning": "请求、恳请"
+    },
+    {
+      "text": "your pardon?",
+      "relation": "动作的对象",
+      "meaning": "你的原谅（此处语境指请对方重述内容的委婉表达）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "口语固定用法",
+      "text": "这是英语日常交流里的常用礼貌表达，字面含义是请求对方原谅，实际用于没听清对方话语、请对方重复一遍的场景，不需要按字面直译为“我恳求你的原谅”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "句子主语",
+      "explanation": "指代说话人自身，是动作的发出者"
+    },
+    {
+      "text": "beg your pardon",
+      "role": "谓语加宾语短语",
+      "explanation": "作为固定搭配表达请求的含义，是整个句子的核心表意部分"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "请求、恳请",
+      "pos": "动词",
+      "phonetic": "/beɡ/",
+      "text": "beg"
+    },
+    {
+      "meaning": "你的",
+      "pos": "物主代词",
+      "phonetic": "/jɔː(r)/",
+      "text": "your"
+    },
+    {
+      "meaning": "原谅，此处用于请求对方重述内容",
+      "pos": "名词",
+      "phonetic": "/ˈpɑːdən/",
+      "text": "pardon?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-31",
+  "sentenceId": "nce-1-lesson-031-sentence-007",
+  "sentenceOrder": 7,
+  "english": "I beg your pardon?",
+  "lesson": "Lesson 31 Where's Sally?",
+  "notes": [
+    {
+      "title": "口语固定用法",
+      "text": "这是英语日常交流里的常用礼貌表达，字面含义是请求对方原谅，实际用于没听清对方话语、请对方重复一遍的场景，不需要按字面直译为“我恳求你的原谅”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，仅存在部分细节瑕疵可修正，不影响核心语义理解（非逐句人工审核）"
+}

@@ -1,0 +1,137 @@
+{
+  "chinese": "这所房子多少钱？",
+  "intent": "向中介询问目标房屋的总售价，为买房决策收集核心价格信息。",
+  "comparison": {
+    "chinese": "中文先说出提问主体“这所房子”，再把疑问短语“多少钱”放在句末，直接询问价格。",
+    "english": "英文先把疑问词组How much放在句首点明询问价格，再用助动词does引出主谓结构this house cost，构成现在时特殊疑问句。",
+    "steps": [
+      {
+        "label": "先确定提问对象",
+        "text": "this house cost",
+        "explanation": "我们已经知道要打听“这所房子的价格”，this house是被询问价格的主体，cost是表示售价的核心动作。"
+      },
+      {
+        "label": "再点明缺失信息",
+        "text": "How much does",
+        "explanation": "How much放在句首告诉听者我们要问的是金额，does是助动词，帮助构成现在时的特殊疑问句，不需要直译。"
+      }
+    ],
+    "takeaway": "英文用How much does + 主语 + 动词原形询问物品价格，中文则是先说出主体，再把“多少钱”放在句末提问。"
+  },
+  "backbone": {
+    "text": "这所房子售价多少？",
+    "meaning": "说话人向房产中介询问目标房源的总售价。"
+  },
+  "structureNotes": [
+    {
+      "title": "特殊疑问句倒装",
+      "text": "does是助动词，放在主语this house之前帮助构成现在时疑问，本身没有实义，不用直译。"
+    },
+    {
+      "title": "cost的用法",
+      "text": "cost在这里是实义动词，表示“售价为……”，主语是物品this house，不是人。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "How much",
+      "role": "疑问词组",
+      "explanation": "放在句首，明确提问的核心是价格金额。"
+    },
+    {
+      "text": "does",
+      "role": "助动词",
+      "explanation": "帮助构成一般现在时的特殊疑问句，无实义。"
+    },
+    {
+      "text": "this house",
+      "role": "主语",
+      "explanation": "被询问价格的对象，也就是要看的那套房子。"
+    },
+    {
+      "text": "cost",
+      "role": "谓语动词",
+      "explanation": "实义动词，表示“售价为……”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "How",
+      "meaning": "怎样",
+      "pos": "疑问副词",
+      "phonetic": "/haʊ/"
+    },
+    {
+      "text": "much",
+      "meaning": "多少",
+      "pos": "副词",
+      "phonetic": "/mʌtʃ/"
+    },
+    {
+      "text": "does",
+      "meaning": "（助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/dʌz/"
+    },
+    {
+      "text": "this",
+      "meaning": "这",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "house",
+      "meaning": "房子",
+      "pos": "名词",
+      "phonetic": "/haʊs/"
+    },
+    {
+      "text": "cost?",
+      "meaning": "售价为；价格为",
+      "pos": "动词",
+      "phonetic": "/kɒst/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "How much",
+      "meaning": "多少钱",
+      "relation": "疑问词组，置于句首明确提问核心为价格金额"
+    },
+    {
+      "text": "does",
+      "meaning": "（助动词，无实义，帮助构成疑问句式）",
+      "relation": "辅助构成特殊疑问句，无独立语义"
+    },
+    {
+      "text": "this house",
+      "meaning": "这所房子",
+      "relation": "被询问价格的主体，也就是要看的房源"
+    },
+    {
+      "text": "cost?",
+      "meaning": "售价为",
+      "relation": "实义谓语动词，说明价格相关的核心动作"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-89",
+  "sentenceId": "nce-1-lesson-089-sentence-011",
+  "sentenceOrder": 11,
+  "english": "How much does this house cost?",
+  "lesson": "Lesson 89 For sale",
+  "notes": [
+    {
+      "title": "特殊疑问句倒装",
+      "text": "does是助动词，放在主语this house之前帮助构成现在时疑问，本身没有实义，不用直译。"
+    },
+    {
+      "title": "cost的用法",
+      "text": "cost在这里是实义动词，表示“售价为……”，主语是物品this house，不是人。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体正确，仅中文比较描述存在语序颠倒的错误，其余内容符合规范。（非逐句人工审核）"
+}

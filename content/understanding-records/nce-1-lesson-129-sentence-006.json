@@ -1,0 +1,132 @@
+{
+  "chinese": "我当时开到每小时八十英里。",
+  "intent": "描述过去开车的瞬时时速。",
+  "comparison": null,
+  "backbone": {
+    "text": "I was doing eighty miles an hour.",
+    "meaning": "我当时正以每小时八十英里的速度行驶。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去进行时",
+      "text": "was doing 是过去进行时结构，这里描述过去正在持续的驾驶状态，而非正在做某件具体的事。"
+    },
+    {
+      "title": "do 表示行驶速度",
+      "text": "do 在这里不是“做”，而是口语中表示“以某速度行驶、达到某速率”，后面直接跟速度数量短语作宾语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话人本人，是驾驶动作的发出者。"
+    },
+    {
+      "text": "was",
+      "role": "助动词",
+      "explanation": "与现在分词 doing 搭配，共同构成过去进行时，体现过去持续的动作状态。"
+    },
+    {
+      "text": "doing",
+      "role": "谓语主动词",
+      "explanation": "此处为及物动词，表“以某速度行驶”，后面接速度类名词短语作宾语。"
+    },
+    {
+      "text": "eighty",
+      "role": "数词",
+      "explanation": "修饰 miles，表示具体数量八十。"
+    },
+    {
+      "text": "miles",
+      "role": "名词（宾语核心）",
+      "explanation": "“英里”，长度单位，和前面的数词、后面的时间短语共同构成速度表达。"
+    },
+    {
+      "text": "an hour",
+      "role": "时间状语",
+      "explanation": "“每小时”，说明速度对应的时间基准，是速率表达的固定部分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be 的第一人称单数过去式）",
+      "pos": "动词be",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "doing",
+      "meaning": "以（某速度）行驶",
+      "pos": "动词",
+      "phonetic": "/ˈduːɪŋ/"
+    },
+    {
+      "text": "eighty",
+      "meaning": "八十",
+      "pos": "数词",
+      "phonetic": "/ˈeɪti/"
+    },
+    {
+      "text": "miles",
+      "meaning": "英里（复数）",
+      "pos": "名词",
+      "phonetic": "/maɪlz/"
+    },
+    {
+      "text": "an",
+      "meaning": "一（个）",
+      "pos": "冠词",
+      "phonetic": "/ən/"
+    },
+    {
+      "text": "hour.",
+      "meaning": "小时",
+      "pos": "名词",
+      "phonetic": "/ˈaʊə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "动作发出者"
+    },
+    {
+      "text": "was doing",
+      "meaning": "当时以……速度行驶",
+      "relation": "描述过去某段时间正在持续的驾驶状态"
+    },
+    {
+      "text": "eighty miles an hour.",
+      "meaning": "每小时八十英里",
+      "relation": "说明当时的行驶速度速率"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-129",
+  "sentenceId": "nce-1-lesson-129-sentence-006",
+  "sentenceOrder": 6,
+  "english": "I was doing eighty miles an hour.",
+  "lesson": "Lesson 129 Seventy miles an hour",
+  "notes": [
+    {
+      "title": "过去进行时",
+      "text": "was doing 是过去进行时结构，这里描述过去正在持续的驾驶状态，而非正在做某件具体的事。"
+    },
+    {
+      "title": "do 表示行驶速度",
+      "text": "do 在这里不是“做”，而是口语中表示“以某速度行驶、达到某速率”，后面直接跟速度数量短语作宾语。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析基本正确，主要存在三处可明确修正的问题：1. 两处对过去进行时的表述带有“正在达到”的错误含义，do 表速度时描述的是过去当时保持的行驶速率，并非瞬时或正在发生的动作，且 do 是及物动词、后接速度短语宾语；2. 句子成分的句法角色标注不完整，未区分谓语中的助动词与主动词，也未对数量修饰结构做句法说明；3. 词表中 hour 条目错误把单词句号当作发音的一部分，音标有误。其余内容符合原句语义与使用语境，无需大范围调整。（非逐句人工审核）"
+}

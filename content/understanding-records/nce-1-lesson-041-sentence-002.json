@@ -1,0 +1,64 @@
+{
+  "chinese": "不太重。",
+  "intent": "对上一句“那个包重吗，彭妮？”的简短否定回答，说明包的重量没有达到“很重”的程度。",
+  "comparison": null,
+  "backbone": {
+    "text": "Not very.",
+    "meaning": "程度不高，此处指代包不是很重。"
+  },
+  "parts": [
+    {
+      "text": "Not",
+      "relation": "否定后面的程度描述",
+      "meaning": "不、没有"
+    },
+    {
+      "text": "very.",
+      "relation": "补充被否定的具体程度内容",
+      "meaning": "非常（此处承接上文指代“很重”）。"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "上下文省略",
+      "text": "这是口语里的简略回答，承接上一句的形容词heavy，完整的理解还原是Not very heavy，不需要重复已经提到的内容。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Not very.",
+      "role": "口语简略否定回答",
+      "explanation": "用来回应前文的询问，简洁表达程度不高的含义，避免重复上文已经出现过的描述内容。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "不，没有",
+      "pos": "adverb",
+      "phonetic": "/nɒt/",
+      "text": "Not"
+    },
+    {
+      "meaning": "非常，很",
+      "pos": "adverb",
+      "phonetic": "/ˈveri/",
+      "text": "very."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-41",
+  "sentenceId": "nce-1-lesson-041-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Not very.",
+  "lesson": "Lesson 41 Penny's bag",
+  "notes": [
+    {
+      "title": "上下文省略",
+      "text": "这是口语里的简略回答，承接上一句的形容词heavy，完整的理解还原是Not very heavy，不需要重复已经提到的内容。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合教学要求，仅存在局部可明确修正的细节问题（非逐句人工审核）"
+}

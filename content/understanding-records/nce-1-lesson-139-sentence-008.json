@@ -1,0 +1,150 @@
+{
+  "chinese": "如果我有时间，我会尽量去接他。",
+  "intent": "回应对方关于是否到车站接人的询问，表达自己会在有时间的前提下尽量前去接人。",
+  "comparison": {
+    "chinese": "中文通常把假设条件放在句首，先说前提，再说出对应的打算。",
+    "english": "英文可以把主句的打算先说在前面，再用 if 引出条件从句。",
+    "steps": [
+      {
+        "label": "先说打算",
+        "text": "I'll try to meet him",
+        "explanation": "先说“我会尽量去接他”这一计划，核心动作是 try to meet him。"
+      },
+      {
+        "label": "补充前提",
+        "text": "if I have time",
+        "explanation": "if 放在后面引出接人的前提：我有时间。"
+      },
+      {
+        "label": "整体对应",
+        "text": "if I have time, I'll try to meet him.",
+        "explanation": "把 if 从句挪到句首时，意思不变，符合中文先讲条件的表达习惯。"
+      }
+    ],
+    "takeaway": "理解这类句子时，先找到主句的核心动作，再用 if 识别它成立的前提，不要把“有时间”和“接人”当成没有关联的两个独立事件。"
+  },
+  "backbone": {
+    "text": "I'll try to meet him.",
+    "meaning": "我会尽量去接他。"
+  },
+  "structureNotes": [
+    {
+      "title": "if 引导的条件从句",
+      "text": "if I have time 放在主句后面，说明主句“我会尽量去接他”成立的前提，不是接人这个动作本身的一部分。"
+    },
+    {
+      "title": "try to do 的用法",
+      "text": "try 后面接带 to 的不定式 to meet him，表示努力、设法去完成接人这件事，体现并非百分百保证能完成。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'll",
+      "role": "主语加助动词缩略形式",
+      "explanation": "I 是主格人称代词作主语，'ll 是 will 的缩略形式，与动词原形共同构成一般将来时，表达说话人当下做出的将来打算。"
+    },
+    {
+      "text": "try",
+      "role": "谓语核心动词",
+      "explanation": "表达“尝试、设法做某事”的核心动作，后接不定式说明具体要尝试做的事。"
+    },
+    {
+      "text": "to meet him",
+      "role": "不定式作 try 的宾语",
+      "explanation": "说明 try 这个动作的具体内容：接他这个人。"
+    },
+    {
+      "text": "if I have time",
+      "role": "条件状语从句",
+      "explanation": "用 if 引导，说明主句动作发生需要满足的前提条件：我有时间。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I'll",
+      "meaning": "我（主格）+ will 的缩写",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/aɪl/"
+    },
+    {
+      "text": "try",
+      "meaning": "尝试，设法",
+      "pos": "动词",
+      "phonetic": "/traɪ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "小品词",
+      "phonetic": "/tuː; tə/"
+    },
+    {
+      "text": "meet",
+      "meaning": "（到车站等）迎接，接",
+      "pos": "动词",
+      "phonetic": "/miːt/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "if",
+      "meaning": "如果",
+      "pos": "连词",
+      "phonetic": "/ɪf/"
+    },
+    {
+      "text": "I",
+      "meaning": "我（主格）",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "have",
+      "meaning": "有",
+      "pos": "动词",
+      "phonetic": "/hæv; həv/"
+    },
+    {
+      "text": "time.",
+      "meaning": "时间",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I'll try to meet him",
+      "relation": "主句，表达说话人的核心打算",
+      "meaning": "我会尽量去接他"
+    },
+    {
+      "text": "if I have time.",
+      "relation": "条件补充，说明主句动作成立的前提",
+      "meaning": "如果我有时间"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-139",
+  "sentenceId": "nce-1-lesson-139-sentence-008",
+  "sentenceOrder": 8,
+  "english": "I'll try to meet him if I have time.",
+  "lesson": "Lesson 139 Is that you, John?",
+  "notes": [
+    {
+      "title": "if 引导的条件从句",
+      "text": "if I have time 放在主句后面，说明主句“我会尽量去接他”成立的前提，不是接人这个动作本身的一部分。"
+    },
+    {
+      "title": "try to do 的用法",
+      "text": "try 后面接带 to 的不定式 to meet him，表示努力、设法去完成接人这件事，体现并非百分百保证能完成。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子整体解析基本准确，if 作为条件状语从句的判定、try to do 的用法说明、主干提取、词汇音标都符合事实。仅发现 word 列表中 time 的音标末尾误附带原句句点，以及 structures 中 'I'll' 的助动词说明需细化，修正后即可通过。（非逐句人工审核）"
+}

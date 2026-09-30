@@ -1,0 +1,75 @@
+{
+  "chinese": "不了，谢谢。",
+  "intent": "对对方提供牛奶的提议表示委婉拒绝，并礼貌致谢。",
+  "comparison": null,
+  "backbone": {
+    "text": "No, thank you.",
+    "meaning": "拒绝提议的同时向对方表达感谢。"
+  },
+  "parts": [
+    {
+      "text": "No,",
+      "relation": "拒绝内容",
+      "meaning": "不"
+    },
+    {
+      "text": "thank you.",
+      "relation": "礼貌感谢",
+      "meaning": "谢谢你"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "口语省略",
+      "text": "本句是日常礼貌应答，省略了完整拒绝理由，只用No表示拒绝，用thank you表达感谢，简洁自然。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "简短否定应答（省略主语I及谓语want的简答结构）",
+      "explanation": "直接回应前文的提议，表明拒绝态度，是口语中对一般疑问句作出否定回答的简答形式。"
+    },
+    {
+      "text": "thank you.",
+      "role": "并列礼貌致谢分句（省略主语I）",
+      "explanation": "在拒绝的同时表达感谢，是英语礼貌交际中的常见搭配，与前一分句并列，符合礼貌拒绝的语用逻辑。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "不（用于拒绝应答）",
+      "pos": "副词（用于否定简答）",
+      "phonetic": "/nəʊ/",
+      "text": "No,"
+    },
+    {
+      "meaning": "感谢",
+      "pos": "动词",
+      "phonetic": "/θæŋk/",
+      "text": "thank"
+    },
+    {
+      "meaning": "你（人称代词宾格）",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-47",
+  "sentenceId": "nce-1-lesson-047-sentence-010",
+  "sentenceOrder": 10,
+  "english": "No, thank you.",
+  "lesson": "Lesson 47 A cup of coffee",
+  "notes": [
+    {
+      "title": "口语省略",
+      "text": "本句是日常礼貌应答，省略了完整拒绝理由，只用No表示拒绝，用thank you表达感谢，简洁自然。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确合规。两处细节修正：一是补充分词在本句中的语法作用，避免仅语义描述造成的指代误解；二是修正No的词性标注，原标注为孤立的感叹词，实际在本句中为简短的否定简答式应答。（非逐句人工审核）"
+}

@@ -1,0 +1,118 @@
+{
+  "chinese": "夏天怎么样？",
+  "intent": "询问某地夏天的天气气候状况。",
+  "comparison": null,
+  "backbone": {
+    "text": "What's it like in summer?",
+    "meaning": "夏天（的天气）怎么样？"
+  },
+  "structureNotes": [
+    {
+      "title": "What's...like 询问事物状况",
+      "text": "这是英语中用来询问人或事物状况的常用固定结构，用来询问某地某季节的天气特征。"
+    },
+    {
+      "title": "it 指代天气",
+      "text": "本句里的 it 并非指代某个具体实体，而是指代前文一直在讨论的某地天气状况，避免重复。"
+    },
+    {
+      "title": "in summer 时间状语",
+      "text": "介词 in 搭配季节名词表示“在某季节”，是英语中表达季节时间的固定介词搭配。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's",
+      "role": "疑问引导（be动词与What的缩约形式）",
+      "explanation": "是 What is 的缩约形式，用来引导特殊疑问句，构成询问事物状况的固定句式开头。"
+    },
+    {
+      "text": "it",
+      "role": "主语（实际指代谈论的天气）",
+      "explanation": "指代前文一直在讨论的某地天气，是该问句的实际描述对象，也是语法上的主语。"
+    },
+    {
+      "text": "like",
+      "role": "介词（和be动词搭配构成询问结构）",
+      "explanation": "和What、be动词配合使用，用来询问事物的特征、状况，不表示动词“喜欢”的含义。"
+    },
+    {
+      "text": "in summer?",
+      "role": "时间状语",
+      "explanation": "限定询问的是夏天时段的天气情况。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是什么（What is的缩写形式）",
+      "pos": "疑问词+动词缩写",
+      "phonetic": "wɒts",
+      "text": "What's"
+    },
+    {
+      "meaning": "它（此处指代天气）",
+      "pos": "代词",
+      "phonetic": "ɪt",
+      "text": "it"
+    },
+    {
+      "meaning": "像……样子（和be动词搭配表状况）",
+      "pos": "介词",
+      "phonetic": "laɪk",
+      "text": "like"
+    },
+    {
+      "meaning": "在（某季节）",
+      "pos": "介词",
+      "phonetic": "ɪn",
+      "text": "in"
+    },
+    {
+      "meaning": "夏天",
+      "pos": "名词",
+      "phonetic": "ˈsʌmə(r)",
+      "text": "summer?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What's",
+      "meaning": "是什么（固定询问结构的开头部分）",
+      "relation": "构成询问天气的固定句式What's...like，用来发起对天气状况的提问。"
+    },
+    {
+      "text": "it like",
+      "meaning": "它（指天气）怎么样",
+      "relation": "描述询问的核心对象是it所指代的天气状况。"
+    },
+    {
+      "text": "in summer?",
+      "meaning": "在夏天？",
+      "relation": "补充说明该提问针对的是夏季的天气情况；末尾问号属于整个特殊疑问句的句末标点。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-51",
+  "sentenceId": "nce-1-lesson-051-sentence-007",
+  "sentenceOrder": 7,
+  "english": "What's it like in summer?",
+  "lesson": "Lesson 51 A pleasant climate",
+  "notes": [
+    {
+      "title": "What's...like 询问事物状况",
+      "text": "这是英语中用来询问人或事物状况的常用固定结构，用来询问某地某季节的天气特征。"
+    },
+    {
+      "title": "it 指代天气",
+      "text": "本句里的 it 并非指代某个具体实体，而是指代前文一直在讨论的某地天气状况，避免重复。"
+    },
+    {
+      "title": "in summer 时间状语",
+      "text": "介词 in 搭配季节名词表示“在某季节”，是英语中表达季节时间的固定介词搭配。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构划分与译文基本准确，仅一处角色描述易误导：it 是疑问分句的语法主语，并非形式主语；句尾标点也应归入末尾状语分块。词汇音标为英式，指代、时间状语与固定句式解释正确。（非逐句人工审核）"
+}

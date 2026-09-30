@@ -1,0 +1,144 @@
+{
+  "chinese": "她说她可能不会再拍新电影。",
+  "intent": "转述新闻内容，说明受访女性本人给出的、可能不会再拍摄新电影的表态。",
+  "comparison": {
+    "chinese": "她可能不会再拍新电影。",
+    "english": "She may not make another film.",
+    "steps": [
+      {
+        "label": "可能性来源",
+        "text": "may not",
+        "explanation": "表示说话人对未来情况的推测，并非下达禁止指令，核心含义是“有可能不”，而非“绝对不会”。"
+      },
+      {
+        "label": "动宾对象",
+        "text": "make another film",
+        "explanation": "make 此处是“拍摄、制作”的意思，another 明确限定对象是“另一部新的（电影）”，不是泛指任意一部旧电影。"
+      },
+      {
+        "label": "否定范围",
+        "text": "not",
+        "explanation": "not 修饰的是“会拍另一部电影”这件事发生的可能性，不是修饰 make 这个动作本身，不能理解为“禁止拍摄”。"
+      }
+    ],
+    "takeaway": "may not 表达不确定的否定推测，another 限定拍摄对象是另一部新电影，整句含义是当事人对未来是否继续拍新作持不确定态度。"
+  },
+  "backbone": {
+    "text": "She says she may not make another film.",
+    "meaning": "说话人转述某位女性的表态：她有可能不会再拍摄另一部新电影。"
+  },
+  "structureNotes": [
+    {
+      "title": "says 后面的 that 被省略",
+      "text": "says 后面直接接 she may not...，口语中 that 常省略，但从句仍是 says 的内容，不能看成连续的两个主谓句。"
+    },
+    {
+      "title": "may not 的否定范围",
+      "text": "may not 表示可能性的否定，意思是“可能不”，而不是“禁止”；not 否定的是“会拍另一部电影”这件事的可能性。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She says",
+      "role": "主句",
+      "explanation": "表示转述的发起，说明后面是她说的内容。"
+    },
+    {
+      "text": "she may not make another film",
+      "role": "宾语从句",
+      "explanation": "作 says 的宾语，转述“她”本人可能不会再拍另一部新电影。"
+    },
+    {
+      "text": "may not make",
+      "role": "从句谓语",
+      "explanation": "情态动词 may 加 not，后接动词原形 make，表示可能不拍。"
+    },
+    {
+      "text": "another film",
+      "role": "从句宾语",
+      "explanation": "make 的对象，指另一部新电影。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃi/"
+    },
+    {
+      "text": "says",
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/sez/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃi/"
+    },
+    {
+      "text": "may",
+      "meaning": "可能",
+      "pos": "情态动词",
+      "phonetic": "/meɪ/"
+    },
+    {
+      "text": "not",
+      "meaning": "不",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "make",
+      "meaning": "拍摄、制作",
+      "pos": "动词",
+      "phonetic": "/meɪk/"
+    },
+    {
+      "text": "another",
+      "meaning": "另一部的",
+      "pos": "形容词",
+      "phonetic": "/əˈnʌðə/"
+    },
+    {
+      "text": "film.",
+      "meaning": "电影",
+      "pos": "名词",
+      "phonetic": "/fɪlm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She says",
+      "meaning": "她说",
+      "relation": "主句，引出转述内容"
+    },
+    {
+      "text": "she may not make another film.",
+      "meaning": "她可能不会再拍新电影。",
+      "relation": "转述的具体内容，作 says 的宾语"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-135",
+  "sentenceId": "nce-1-lesson-135-sentence-008",
+  "sentenceOrder": 8,
+  "english": "She says she may not make another film.",
+  "lesson": "Lesson 135 The latest report",
+  "notes": [
+    {
+      "title": "says 后面的 that 被省略",
+      "text": "says 后面直接接 she may not...，口语中 that 常省略，但从句仍是 says 的内容，不能看成连续的两个主谓句。"
+    },
+    {
+      "title": "may not 的否定范围",
+      "text": "may not 表示可能性的否定，意思是“可能不”，而不是“禁止”；not 否定的是“会拍另一部电影”这件事的可能性。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体转述主干、句法切分、词义和词性标注基本准确，从句归属正确，may not 的情态否定范围解释恰当，不存在状语从句误判、主谓语混入、if 条件误读等硬伤。仅存在三处可精准修正的小问题：一是单词拆分将句末标点 . 并入 film 的词条，会让学习者误以为 film 本身带有句号；二是原翻译“可能不再拍电影”语义偏向“确定不会再拍”，与 may not 表可能性的情态含义不完全匹配，表述精度不足；三是“another film”在分块解释和单词释义中未明确覆盖“另一部新电影”的限定含义，容易被笼统理解为“电影”。（非逐句人工审核）"
+}

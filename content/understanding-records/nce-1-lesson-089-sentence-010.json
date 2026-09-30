@@ -1,0 +1,218 @@
+{
+  "chinese": "因为我刚退休。我想在乡下买一所小房子。",
+  "intent": "回答他人提出的「你为什么要卖掉这处房产」的提问，说明自己卖房的核心原因是刚退休，以及退休后的生活规划打算，向对方解释自身的决策动机。",
+  "comparison": {
+    "chinese": "我想在乡下买一所小房子。",
+    "english": "I want to buy a small house in the country.",
+    "steps": [
+      {
+        "label": "先交代核心打算",
+        "text": "I want to buy a small house",
+        "explanation": "先点明主语「我」和核心意愿「想买一栋小房子」，把意愿动词和要购买的对象放在前面。"
+      },
+      {
+        "label": "用介词短语补充地点",
+        "text": "in the country",
+        "explanation": "介词短语 in the country 放在被修饰的名词 house 之后，说明这栋小房子的位置是在乡下。"
+      },
+      {
+        "label": "转成中文的定语语序",
+        "text": "在乡下买一所小房子",
+        "explanation": "中文习惯把地点说明放在动词或「的」前面，变成「在乡下买房子」；英文则把地点放在名词后面修饰 house。"
+      }
+    ],
+    "takeaway": "英文地点修饰语在名词后，中文常把地点放在动词或定语前面；遇到 a small house in the country 时，应理解为「在乡下的小房子」。"
+  },
+  "backbone": {
+    "text": "因为我刚退休。我想买一栋房子。",
+    "meaning": "这是对卖房原因的简化理解：说话人已经退休，打算购买住房，因此需要卖掉当前的房产；省略了房子的大小和所在地点这些补充信息，不改变句子的核心含义。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略主句的because原因分句",
+      "text": "Because I've just retired是用来回应上文「你为什么想卖掉它」的回答，没有重复完整的主句I want to sell it；在口语对话中这种省略很常见，because直接引出背后的原因。"
+    },
+    {
+      "title": "地点介词短语作后置定语",
+      "text": "in the country放在名词house后面修饰它，用来限定这栋房子的位置，说明不是任何小房子，而是地处乡下的小房子，区别于城市里的住房。"
+    },
+    {
+      "title": "just的位置与现在完成时",
+      "text": "现在完成时I've retired搭配just，意思是「刚刚退休」；just放在助动词have的后面、过去分词retired的前面，用来强调退休这个动作是刚刚发生的近期事件。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Because I've just retired.",
+      "role": "原因状语分句",
+      "explanation": "作为对前文 why 提问的回答，由 because 引导，直接说明卖房的直接原因。"
+    },
+    {
+      "text": "Because",
+      "role": "从属连词",
+      "explanation": "引出原因关系，连接后文的内容和前面提问中「卖房」这件事的因果逻辑。"
+    },
+    {
+      "text": "I've",
+      "role": "主语与现在完成时助动词",
+      "explanation": "I 是分句主语，'ve 是 have 的缩写，和过去分词 retired 共同构成现在完成时结构。"
+    },
+    {
+      "text": "just",
+      "role": "程度副词",
+      "explanation": "修饰整个现在完成时的谓语，强调退休是最近刚发生的事。"
+    },
+    {
+      "text": "retired.",
+      "role": "过去分词（现在完成时）",
+      "explanation": "和 have 一起构成现在完成时，表示「退休」这个已经完成、并和现在状态相关的动作；retired 本身也可表示「已退休的」状态。"
+    },
+    {
+      "text": "I",
+      "role": "主句主语",
+      "explanation": "是第二个句子的主语，指代说话人本人。"
+    },
+    {
+      "text": "want",
+      "role": "谓语动词",
+      "explanation": "表示主语的意愿，后接不定式 to buy 作为动词宾语。"
+    },
+    {
+      "text": "to buy a small house",
+      "role": "动词宾语",
+      "explanation": "不定式短语 to buy 是 want 的宾语；a small house 是 buy 的动作对象，即想要购买的目标。"
+    },
+    {
+      "text": "in the country.",
+      "role": "后置地点定语",
+      "explanation": "修饰前面的 a small house，说明这栋房子的位置在乡下，补充房子的具体位置属性。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Because",
+      "meaning": "因为",
+      "pos": "从属连词",
+      "phonetic": "/bɪˈkɒz/"
+    },
+    {
+      "text": "I've",
+      "meaning": "我已经（I have的缩写）",
+      "pos": "代词+助动词",
+      "phonetic": "/aɪv/"
+    },
+    {
+      "text": "just",
+      "meaning": "刚刚",
+      "pos": "程度副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "retired.",
+      "meaning": "退休（过去分词/形容词）",
+      "pos": "动词过去分词",
+      "phonetic": "/rɪˈtaɪəd/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要",
+      "pos": "动词",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号）",
+      "pos": "不定式标记",
+      "phonetic": "/tu; tə/"
+    },
+    {
+      "text": "buy",
+      "meaning": "买",
+      "pos": "动词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "a",
+      "meaning": "一所",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "small",
+      "meaning": "小的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/"
+    },
+    {
+      "text": "house",
+      "meaning": "房子",
+      "pos": "名词",
+      "phonetic": "/haʊs/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指的）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "country.",
+      "meaning": "乡下",
+      "pos": "名词",
+      "phonetic": "/ˈkʌntri/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Because I've just retired.",
+      "meaning": "因为我刚退休。",
+      "relation": "回答前文的原因提问，补充说明自己卖房的直接背景是近期刚退休。"
+    },
+    {
+      "text": "I want to buy a small house",
+      "meaning": "我想买一所小房子",
+      "relation": "承接前面的退休背景，说明自己卖房后的打算，交代核心的购房需求。"
+    },
+    {
+      "text": "in the country.",
+      "meaning": "在乡下。",
+      "relation": "修饰前面的小房子，补充说明目标房屋的位置是在乡村地区。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-89",
+  "sentenceId": "nce-1-lesson-089-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Because I've just retired. I want to buy a small house in the country.",
+  "lesson": "Lesson 89 For sale",
+  "notes": [
+    {
+      "title": "省略主句的because原因分句",
+      "text": "Because I've just retired是用来回应上文「你为什么想卖掉它」的回答，没有重复完整的主句I want to sell it；在口语对话中这种省略很常见，because直接引出背后的原因。"
+    },
+    {
+      "title": "地点介词短语作后置定语",
+      "text": "in the country放在名词house后面修饰它，用来限定这栋房子的位置，说明不是任何小房子，而是地处乡下的小房子，区别于城市里的住房。"
+    },
+    {
+      "title": "just的位置与现在完成时",
+      "text": "现在完成时I've retired搭配just，意思是「刚刚退休」；just放在助动词have的后面、过去分词retired的前面，用来强调退休这个动作是刚刚发生的近期事件。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体可用。修正点：retired 在 I've 后面不是谓语过去分词，而是现在完成时中的过去分词，并说明它本身可表示状态；第二句中 want 限定为谓语动词、to buy 为动词宾语，避免将不定式整体说成谓语；just 是程度副词，修饰现在完成时整体时强调“刚刚”。（非逐句人工审核）"
+}

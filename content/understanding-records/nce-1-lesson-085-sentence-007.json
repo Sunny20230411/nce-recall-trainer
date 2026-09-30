@@ -1,0 +1,118 @@
+{
+  "chinese": "那是一部老电影，但它很好。",
+  "intent": "先点明这部电影的新旧属性，再用转折说明它虽然年代久，质量却很好。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's an old film, but it's good.",
+    "meaning": "它是一部老电影，但是它很好。"
+  },
+  "structureNotes": [
+    {
+      "title": "转折并列结构",
+      "text": "but 作为并列连词连接两个独立分句，前后语义形成转折，突出“老”和“好”的反差。"
+    },
+    {
+      "title": "指代呼应",
+      "text": "第二个分句中的 it 指代前文提到的 an old film，避免重复名词让语句更连贯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's an old film",
+      "role": "第一个独立分句",
+      "explanation": "主系表结构，说明这部影片的基本属性是年代较久。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "连接两个分句，表明前后语义存在转折关系。"
+    },
+    {
+      "text": "it's very good",
+      "role": "第二个独立分句",
+      "explanation": "主系表结构，评价这部影片的质量很好，是转折后的核心信息。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "它是（it is 的缩写）",
+      "pos": "缩写形式",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "an",
+      "meaning": "一部，一（用于元音音素开头的单词前）",
+      "pos": "不定冠词",
+      "phonetic": "/ən/"
+    },
+    {
+      "text": "old",
+      "meaning": "古老的，年代久的",
+      "pos": "形容词",
+      "phonetic": "/əʊld/"
+    },
+    {
+      "text": "film,",
+      "meaning": "电影",
+      "pos": "名词",
+      "phonetic": "/fɪlm/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "it's",
+      "meaning": "它是（it is 的缩写）",
+      "pos": "缩写形式",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "good.",
+      "meaning": "好的，出色的",
+      "pos": "形容词",
+      "phonetic": "/ɡʊd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's an old film,",
+      "meaning": "那是一部老电影",
+      "relation": "陈述电影的年代属性"
+    },
+    {
+      "text": "but it's very good.",
+      "meaning": "但它很好",
+      "relation": "转折语义，补充评价电影质量很好"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-85",
+  "sentenceId": "nce-1-lesson-085-sentence-007",
+  "sentenceOrder": 7,
+  "english": "It's an old film, but it's very good.",
+  "lesson": "Lesson 85 Paris in the spring",
+  "notes": [
+    {
+      "title": "转折并列结构",
+      "text": "but 作为并列连词连接两个独立分句，前后语义形成转折，突出“老”和“好”的反差。"
+    },
+    {
+      "title": "指代呼应",
+      "text": "第二个分句中的 it 指代前文提到的 an old film，避免重复名词让语句更连贯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干与结构分析基本准确，指代和连词关系成立；为贴合原句并避免重复，第二分句的中文补回“它”，并把词汇、分块中的“好”细化为“很好”。（非逐句人工审核）"
+}

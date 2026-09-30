@@ -1,0 +1,137 @@
+{
+  "chinese": "你怎么了，吉米？",
+  "intent": "关切地询问吉米的身体或情绪状况，属于问候他人状态的日常口语问句。",
+  "comparison": {
+    "chinese": "问对方怎么了，英语习惯先固定问状况，再点明问的是谁",
+    "english": "What's the matter with you, Jimmy?",
+    "steps": [
+      {
+        "label": "英语先抛出固定问法",
+        "text": "What's the matter",
+        "explanation": "这是英语里询问“出什么状况了”的固定常用表达，字面意为“是什么麻烦事”，对应中文的“怎么了、出什么事了”；其中 What 是引导特殊疑问的表语，is 是系动词，the matter 是主语。"
+      },
+      {
+        "label": "用介词引出询问对象",
+        "text": "with you",
+        "explanation": "介词with带出被询问的对象，说明这个“麻烦状况”是发生在you身上的，对应中文里的“你”。"
+      },
+      {
+        "label": "最后补叫对方名字",
+        "text": "Jimmy?",
+        "explanation": "对话场景下，称呼放在句末用来明确、呼唤对方，中文习惯把人名放在句首，英语口语中常把称呼放句末。"
+      }
+    ],
+    "takeaway": "What's the matter with sb 是询问某人状况的固定句型，中文语序通常是“称呼+怎么了”，英语语序是“固定问句+with+对象+称呼”。"
+  },
+  "backbone": {
+    "text": "What's the matter with you?",
+    "meaning": "用于日常关切地询问对方“你出什么问题、你怎么了”。"
+  },
+  "structureNotes": [
+    {
+      "title": "固定句型",
+      "text": "What's the matter (with sb) 是英语日常询问对方状况的固定表达，不需要逐词直译理解。"
+    },
+    {
+      "title": "称呼位置",
+      "text": "对话中把被称呼的人名放在句末，是口语里明确呼唤、对话对象的常见用法，不参与主句的句法结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's",
+      "role": "疑问代词 + 系动词缩写",
+      "explanation": "What's 是 What is 的口语缩写，What 在句中作表语引导特殊疑问句，is 是主系表结构里的系动词。"
+    },
+    {
+      "text": "the matter",
+      "role": "主语",
+      "explanation": "固定搭配表示“麻烦事、不对劲的状况”，是句子的核心主语，整体作为被询问的对象。"
+    },
+    {
+      "text": "with you",
+      "role": "补充对象",
+      "explanation": "介词短语说明状况发生在对方身上，点明询问的对象。"
+    },
+    {
+      "text": "Jimmy?",
+      "role": "呼语",
+      "explanation": "直接称呼对话对象吉米，明确这句话是说给吉米听的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What's",
+      "meaning": "是什么（What is 的缩写形式，What 作表语，is 为系动词）",
+      "pos": "疑问代词+系动词缩写",
+      "phonetic": "/wɒts/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，特指眼下出问题的状况，无独立实义）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "matter",
+      "meaning": "麻烦、不对劲的状况",
+      "pos": "名词",
+      "phonetic": "/ˈmætə(r)/"
+    },
+    {
+      "text": "with",
+      "meaning": "关于、和（引出对象）",
+      "pos": "介词",
+      "phonetic": "/wɪð/"
+    },
+    {
+      "text": "you,",
+      "meaning": "你（后面的逗号为句中停顿标点，不属于词义）",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "Jimmy?",
+      "meaning": "吉米（男子人名，后面的问号为句末疑问标点，不属于词义）",
+      "pos": "专有名词",
+      "phonetic": "/ˈdʒɪmi/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What's the matter",
+      "relation": "询问核心内容，是问句的主体。",
+      "meaning": "出什么事了"
+    },
+    {
+      "text": "with you,",
+      "relation": "介词短语，说明问题关联的对象。",
+      "meaning": "在你身上"
+    },
+    {
+      "text": "Jimmy?",
+      "relation": "呼语，点明对话指向的人。",
+      "meaning": "吉米？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-61",
+  "sentenceId": "nce-1-lesson-061-sentence-001",
+  "sentenceOrder": 1,
+  "english": "What's the matter with you, Jimmy?",
+  "lesson": "Lesson 61 A bad cold",
+  "notes": [
+    {
+      "title": "固定句型",
+      "text": "What's the matter (with sb) 是英语日常询问对方状况的固定表达，不需要逐词直译理解。"
+    },
+    {
+      "title": "称呼位置",
+      "text": "对话中把被称呼的人名放在句末，是口语里明确呼唤、对话对象的常见用法，不参与主句的句法结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语法分析、翻译和学习意图基本可用，但对核心问句的主系表结构标注不够准确：What's the matter with you 中，What 是引导特殊疑问的表语，is 是系动词，the matter 才是主语，原标注将 What's 笼统归为疑问词加be动词、the matter 标为表语，颠倒了主表关系；词表中 What's 的词性标注也需要对应修正；此外词表中两个词的释义标注了标点需后接，可补充说明标点仅为原句书写形式，不参与词义本身。（非逐句人工审核）"
+}

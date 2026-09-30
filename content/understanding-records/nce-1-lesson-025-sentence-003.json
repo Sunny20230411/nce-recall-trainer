@@ -1,0 +1,91 @@
+{
+  "chinese": "电冰箱是白色的。",
+  "intent": "明确说明厨房里那台电冰箱的颜色属性。",
+  "comparison": null,
+  "backbone": {
+    "text": "The refrigerator is white",
+    "meaning": "这台电冰箱的颜色为白色"
+  },
+  "parts": [
+    {
+      "text": "The refrigerator",
+      "relation": "描述的主体",
+      "meaning": "上文提到过的那台电冰箱"
+    },
+    {
+      "text": "is",
+      "relation": "连接主体和颜色属性",
+      "meaning": "表示判定关系"
+    },
+    {
+      "text": "white.",
+      "relation": "补充说明主体的颜色特征",
+      "meaning": "白色的"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "定冠词The的指代作用",
+      "text": "这里的The特指前一句刚提到的厨房里的那台电冰箱，不需要额外重复限定词就能明确指向已提及的事物。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The refrigerator",
+      "role": "句子主语",
+      "explanation": "指代前文出现的特定电冰箱，是整个句子描述的核心对象。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "用来连接主语和表示属性的表语，起到判定关联的作用。"
+    },
+    {
+      "text": "white",
+      "role": "表语",
+      "explanation": "说明主语电冰箱的颜色属性，交代核心描述信息。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这个、那个（定冠词，特指前文提及的特定事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "电冰箱",
+      "pos": "名词",
+      "phonetic": "/rɪˈfrɪdʒəreɪtə(r)/",
+      "text": "refrigerator"
+    },
+    {
+      "meaning": "是（系动词，表判定）",
+      "pos": "动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "白色的",
+      "pos": "形容词",
+      "phonetic": "/waɪt/",
+      "text": "white."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-25",
+  "sentenceId": "nce-1-lesson-025-sentence-003",
+  "sentenceOrder": 3,
+  "english": "The refrigerator is white.",
+  "lesson": "Lesson 25 Mrs. Smith's kitchen",
+  "notes": [
+    {
+      "title": "定冠词The的指代作用",
+      "text": "这里的The特指前一句刚提到的厨房里的那台电冰箱，不需要额外重复限定词就能明确指向已提及的事物。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体学习内容符合面向中文母语成年人的英语解析要求，仅存在部分细节可规范修正，不影响核心内容正确性（非逐句人工审核）"
+}

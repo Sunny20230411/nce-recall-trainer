@@ -1,0 +1,111 @@
+{
+  "chinese": "你能把这张十英镑的钞票换开吗？",
+  "intent": "礼貌地请求对方把大面额的钞票换成零钱。",
+  "comparison": null,
+  "backbone": {
+    "text": "Can you change this note?",
+    "meaning": "你能把这张钞票换开吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "Can 引导请求",
+      "text": "can 放在句首构成一般疑问句，用来礼貌请求对方帮忙，不是在询问对方的能力。"
+    },
+    {
+      "title": "复合形容词 ten-pound",
+      "text": "ten-pound 由连字符连接，整体作形容词修饰 note，表示这张钞票的面额是十英镑。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Can",
+      "role": "情态助动词",
+      "explanation": "放在句首构成疑问句，用于礼貌提出请求。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指听话的对方。"
+    },
+    {
+      "text": "change",
+      "role": "谓语动词",
+      "explanation": "此处表示把大面额钞票换成零钱。"
+    },
+    {
+      "text": "this ten-pound note",
+      "role": "动词宾语",
+      "explanation": "指要被换开的十英镑钞票；this 限定具体是这一张。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "能（引导礼貌请求）",
+      "pos": "情态动词",
+      "phonetic": "/kæn/",
+      "text": "Can"
+    },
+    {
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "兑换、换开（零钱）",
+      "pos": "动词",
+      "phonetic": "/tʃeɪndʒ/",
+      "text": "change"
+    },
+    {
+      "meaning": "这、这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "十英镑的",
+      "pos": "复合形容词",
+      "phonetic": "/ˈtenˈpaʊnd/",
+      "text": "ten-pound"
+    },
+    {
+      "meaning": "纸币、钞票",
+      "pos": "名词",
+      "phonetic": "/nəʊt/",
+      "text": "note?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Can you change",
+      "meaning": "你能换开吗？",
+      "relation": "礼貌请求帮忙，句中的宾语 this ten-pound note 被后置到下一分块"
+    },
+    {
+      "text": "this ten-pound note?",
+      "meaning": "这张十英镑的钞票（即要被换开的对象）",
+      "relation": "是动词 change 的宾语，说明需要被换开的具体物品"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-113",
+  "sentenceId": "nce-1-lesson-113-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Can you change this ten-pound note?",
+  "lesson": "Lesson 113 Small change",
+  "notes": [
+    {
+      "title": "Can 引导请求",
+      "text": "can 放在句首构成一般疑问句，用来礼貌请求对方帮忙，不是在询问对方的能力。"
+    },
+    {
+      "title": "复合形容词 ten-pound",
+      "text": "ten-pound 由连字符连接，整体作形容词修饰 note，表示这张钞票的面额是十英镑。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构标注、翻译与主干基本准确，仅有一处分块释义与原句语序不完全对应，可在不改动英文原文的前提下明确补出被换开的对象。（非逐句人工审核）"
+}

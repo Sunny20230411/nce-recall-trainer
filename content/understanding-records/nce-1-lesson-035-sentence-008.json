@@ -1,0 +1,109 @@
+{
+  "chinese": "水里有一个男孩。",
+  "intent": "直白传递某处存在某人的客观场景信息，描述当下水里存在男孩的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "There is a boy",
+    "meaning": "存在一个男孩"
+  },
+  "parts": [
+    {
+      "text": "There is",
+      "relation": "引出整个存在场景",
+      "meaning": "表示存在的引导结构"
+    },
+    {
+      "text": "a boy",
+      "relation": "说明存在的核心对象是什么",
+      "meaning": "一个男孩"
+    },
+    {
+      "text": "in the water.",
+      "relation": "补充说明男孩所在的位置",
+      "meaning": "在水里"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "There be 存在句型",
+      "text": "这里的There不指代具体地点，只作为引导词配合is引出“某处存在某物/人”的表述，真正的信息重心是后面的人和位置。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There is",
+      "role": "存在句引导框架",
+      "explanation": "用来开启客观存在的描述，明确要告知对方有某样事物存在。"
+    },
+    {
+      "text": "a boy",
+      "role": "存在的核心主体",
+      "explanation": "说明这个存在场景里的具体人物。"
+    },
+    {
+      "text": "in the water",
+      "role": "地点补充说明",
+      "explanation": "指明男孩所处的具体空间位置，让场景更清晰。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "存在句引导词",
+      "pos": "代词",
+      "phonetic": "/ðeə/",
+      "text": "There"
+    },
+    {
+      "meaning": "是（存在句型的系动词）",
+      "pos": "动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "一个",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "男孩",
+      "pos": "名词",
+      "phonetic": "/bɔɪ/",
+      "text": "boy"
+    },
+    {
+      "meaning": "在…里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这个（特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "水",
+      "pos": "名词",
+      "phonetic": "/ˈwɔːtə/",
+      "text": "water."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-35",
+  "sentenceId": "nce-1-lesson-035-sentence-008",
+  "sentenceOrder": 8,
+  "english": "There is a boy in the water.",
+  "lesson": "Lesson 35 Our village",
+  "notes": [
+    {
+      "title": "There be 存在句型",
+      "text": "这里的There不指代具体地点，只作为引导词配合is引出“某处存在某物/人”的表述，真正的信息重心是后面的人和位置。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在个别细节偏差可修正（非逐句人工审核）"
+}

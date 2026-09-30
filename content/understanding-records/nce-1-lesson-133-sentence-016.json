@@ -1,0 +1,217 @@
+{
+  "chinese": "‘她告诉记者她觉得非常累，并且很长一段时间都不想再拍电影了。’",
+  "intent": "转述卡伦对记者说出的自身感受与后续拍摄计划。",
+  "comparison": {
+    "chinese": "她告诉记者：她很累，并且很长一段时间都不想再拍电影了。",
+    "english": "She told reporters she felt very tired and didn't want to make another film for a long time.'",
+    "steps": [
+      {
+        "label": "先确定转述动作与对象",
+        "text": "She told reporters…",
+        "explanation": "主句先交代“她告诉记者”，reporters是told的间接对象，后面的内容才是记者听到的原话转述。"
+      },
+      {
+        "label": "再还原并列的转述内容",
+        "text": "she felt very tired and didn't want to make another film…",
+        "explanation": "and连接两个并列的陈述感受：觉得很累、不想再拍电影；由于主句是过去式told，从句里的felt和didn't want也保持过去时态。"
+      },
+      {
+        "label": "最后接时间范围",
+        "text": "…for a long time.",
+        "explanation": "for a long time修饰didn't want，说明“不想再拍”的状态会持续很久，不是只指拍一部电影所用的时长。"
+      }
+    ],
+    "takeaway": "英语先说出“告诉记者”，再展开记者听到的内容；中文可直接还原“她告诉记者：……”。"
+  },
+  "backbone": {
+    "text": "She told reporters she felt tired and didn't want to make another film for a long time.'",
+    "meaning": "她告诉记者她觉得累，并且很长时间不想再拍电影。"
+  },
+  "structureNotes": [
+    {
+      "title": "told的间接宾语",
+      "text": "told reporters后面接了一个陈述内容的从句；reporters是被告诉的对象，从句整体是告诉的具体信息，不是严格意义上的tell sb sth双宾语结构。"
+    },
+    {
+      "title": "and连接并列谓语",
+      "text": "felt very tired与didn't want…共用同一个主语she，由and连接，表达她当下的感受和随之而来的拍摄意愿。"
+    },
+    {
+      "title": "for a long time的位置",
+      "text": "for a long time放在句末，说明“不想再拍”这一状态会持续较长时间，而不是描述拍电影这个动作的耗时。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She told reporters",
+      "role": "主句",
+      "explanation": "交代转述动作、施事者和接收方，是全句理解的主干。"
+    },
+    {
+      "text": "she felt very tired",
+      "role": "转述内容的第一并列分句",
+      "explanation": "作told的陈述内容，表示她当时的感受。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个并列的转述内容，前后共用主语she。"
+    },
+    {
+      "text": "didn't want to make another film for a long time.'",
+      "role": "转述内容的第二并列分句",
+      "explanation": "作told的陈述内容，表示她很长时间内不想再拍电影。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉",
+      "pos": "动词过去式",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "reporters",
+      "meaning": "记者",
+      "pos": "名词复数",
+      "phonetic": "/rɪˈpɔːtəz/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "felt",
+      "meaning": "觉得（feel的过去式）",
+      "pos": "动词过去式",
+      "phonetic": "/felt/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "tired",
+      "meaning": "疲惫的",
+      "pos": "形容词",
+      "phonetic": "/ˈtaɪəd/"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "didn't",
+      "meaning": "不（构成否定）",
+      "pos": "助动词否定缩写（did not的缩写）",
+      "phonetic": "/ˈdɪdnt/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要",
+      "pos": "动词原形",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "to",
+      "meaning": "不定式符号",
+      "pos": "不定式标记",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "make",
+      "meaning": "制作；拍摄（电影）",
+      "pos": "动词原形",
+      "phonetic": "/meɪk/"
+    },
+    {
+      "text": "another",
+      "meaning": "另一部",
+      "pos": "限定词",
+      "phonetic": "/əˈnʌðə/"
+    },
+    {
+      "text": "film",
+      "meaning": "电影",
+      "pos": "名词单数",
+      "phonetic": "/fɪlm/"
+    },
+    {
+      "text": "for",
+      "meaning": "持续（一段时间）",
+      "pos": "介词",
+      "phonetic": "/fɔː/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "long",
+      "meaning": "长的",
+      "pos": "形容词",
+      "phonetic": "/lɒŋ/"
+    },
+    {
+      "text": "time.'",
+      "meaning": "时间；很长时间",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She told reporters",
+      "meaning": "她告诉记者",
+      "relation": "句子主干，交代转述动作的施事者与接收方"
+    },
+    {
+      "text": "she felt very tired",
+      "meaning": "她觉得非常累",
+      "relation": "转述的第一部分内容，由and连接的并列感受"
+    },
+    {
+      "text": "and didn't want to make another film for a long time.'",
+      "meaning": "并且很长一段时间都不想再拍电影了。",
+      "relation": "转述的第二部分内容，与前半部分并列，说明她的拍摄意愿。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-133",
+  "sentenceId": "nce-1-lesson-133-sentence-016",
+  "sentenceOrder": 16,
+  "english": "She told reporters she felt very tired and didn't want to make another film for a long time.'",
+  "lesson": "Lesson 133 Sensational news!",
+  "notes": [
+    {
+      "title": "told的间接宾语",
+      "text": "told reporters后面接了一个陈述内容的从句；reporters是被告诉的对象，从句整体是告诉的具体信息，不是严格意义上的tell sb sth双宾语结构。"
+    },
+    {
+      "title": "and连接并列谓语",
+      "text": "felt very tired与didn't want…共用同一个主语she，由and连接，表达她当下的感受和随之而来的拍摄意愿。"
+    },
+    {
+      "title": "for a long time的位置",
+      "text": "for a long time放在句末，说明“不想再拍”这一状态会持续较长时间，而不是描述拍电影这个动作的耗时。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句整体作为带引号的转述句理解基本正确，but there are small dictionary-level and presentation fixes: the trailing apostrophe was incorrectly attached to the word time in phonetic and meaning; told reporters is better described as an indirect object rather than a formal double-object construction; the Chinese wording for another film can be more natural; and the comparison steps should not say only one clause in quotation marks.（非逐句人工审核）"
+}

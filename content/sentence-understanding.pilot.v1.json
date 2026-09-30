@@ -1,0 +1,1015 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 3,
+  "records": [
+    {
+      "chinese": "打扰一下！",
+      "intent": "礼貌地引起对方注意。",
+      "parts": [
+        {
+          "text": "Excuse me!",
+          "meaning": "打扰一下！",
+          "relation": "礼貌开场"
+        }
+      ],
+      "notes": [
+        {
+          "title": "作为完整表达理解",
+          "text": "这句常用于搭话、询问信息或借过。本课是在礼貌地引起对方注意。"
+        }
+      ],
+      "structures": [
+        {
+          "text": "Excuse",
+          "role": "谓语",
+          "explanation": "祈使句用动词原形，通常不说出主语 you。"
+        },
+        {
+          "text": "me",
+          "role": "宾语",
+          "explanation": "指说话人，和 excuse 组成礼貌用语。"
+        }
+      ],
+      "words": [
+        {
+          "text": "Excuse",
+          "meaning": "原谅、打搅",
+          "pos": "动词",
+          "phonetic": "/ɪkˈskjuːz/"
+        },
+        {
+          "text": "me!",
+          "meaning": "我",
+          "pos": "人称代词（宾格）",
+          "phonetic": "/miː/"
+        }
+      ],
+      "courseId": "nce1",
+      "lessonId": "lesson-1",
+      "sentenceId": "nce-1-lesson-001-sentence-001",
+      "sentenceOrder": 1,
+      "english": "Excuse me!",
+      "lesson": "Lesson 1 Excuse me!",
+      "analysisSource": "human",
+      "analysisStatus": "approved",
+      "ruleVersion": "understanding-zh-adult-1.0.0",
+      "reviewNote": "逐项检查原文、搭话场景、祈使结构与词项；删去绝对化解释。",
+      "comparison": null,
+      "backbone": {
+        "text": "Excuse me!",
+        "meaning": "整体作为“打扰一下”这个礼貌表达理解，不必逐字拼译。"
+      },
+      "structureNotes": [
+        {
+          "title": "省略的主语",
+          "text": "这是祈使表达，通常不说出 you；excuse 是动词，me 指说话人。这里的用途是礼貌搭话。"
+        }
+      ]
+    },
+    {
+      "chinese": "这是您的手提包吗？",
+      "intent": "确认眼前的手提包是不是对方的。",
+      "parts": [
+        {
+          "text": "Is this",
+          "meaning": "这是不是……",
+          "relation": "发起确认"
+        },
+        {
+          "text": "your handbag?",
+          "meaning": "您的手提包？",
+          "relation": "确认的内容"
+        }
+      ],
+      "notes": [
+        {
+          "title": "为什么 Is 在前面？",
+          "text": "陈述时：This is your handbag.\n询问时：Is this your handbag?\n把 is 放到 this 前面，就成为向对方确认的信息问句。"
+        }
+      ],
+      "structures": [
+        {
+          "text": "Is",
+          "role": "系动词",
+          "explanation": "在这个一般疑问句里放到主语 this 前面。"
+        },
+        {
+          "text": "this",
+          "role": "主语",
+          "explanation": "指眼前要确认的东西。"
+        },
+        {
+          "text": "your handbag",
+          "role": "表语",
+          "explanation": "说明这个东西是否是对方的手提包。"
+        }
+      ],
+      "words": [
+        {
+          "text": "Is",
+          "meaning": "是",
+          "pos": "系动词",
+          "phonetic": "/ɪz/"
+        },
+        {
+          "text": "this",
+          "meaning": "这",
+          "pos": "指示代词",
+          "phonetic": "/ðɪs/"
+        },
+        {
+          "text": "your",
+          "meaning": "你的/您的",
+          "pos": "形容词性物主代词",
+          "phonetic": "/jɔː(r)/"
+        },
+        {
+          "text": "handbag?",
+          "meaning": "手提包",
+          "pos": "名词",
+          "phonetic": "/ˈhændbæɡ/"
+        }
+      ],
+      "courseId": "nce1",
+      "lessonId": "lesson-1",
+      "sentenceId": "nce-1-lesson-001-sentence-003",
+      "sentenceOrder": 3,
+      "english": "Is this your handbag?",
+      "lesson": "Lesson 1 Excuse me!",
+      "analysisSource": "human",
+      "analysisStatus": "approved",
+      "ruleVersion": "understanding-zh-adult-1.0.0",
+      "reviewNote": "核对一般疑问句、主语与表语；短语讲解与语法角色分别保存。",
+      "comparison": {
+        "chinese": "中文可以说“这是您的手提包吗？”，在陈述后加“吗”来询问。",
+        "english": "英语这里把 is 放到 this 前面：This is your handbag. → Is this your handbag?"
+      },
+      "backbone": {
+        "text": "This is your handbag.",
+        "meaning": "这 → 是 → 您的手提包。先看确认的内容，再看原句如何把它变成问题。"
+      },
+      "structureNotes": [
+        {
+          "title": "问句语序",
+          "text": "this 是被确认的东西；your handbag 说明它是否是对方的手提包。Is 放在主语 this 前面构成一般疑问句。"
+        }
+      ]
+    },
+    {
+      "chinese": "加里，你们今年打算去哪儿度假？",
+      "intent": "询问加里今年打算去哪儿度假。",
+      "parts": [
+        {
+          "text": "Where",
+          "meaning": "在哪里？",
+          "relation": "询问地点"
+        },
+        {
+          "text": "are you going to spend your holidays",
+          "meaning": "你们打算度假",
+          "relation": "计划的事情"
+        },
+        {
+          "text": "this year,",
+          "meaning": "今年",
+          "relation": "时间"
+        },
+        {
+          "text": "Gary?",
+          "meaning": "加里",
+          "relation": "称呼"
+        }
+      ],
+      "notes": [
+        {
+          "title": "这里不是“正在去”",
+          "text": "be going to + 动词在这里表示打算做某事。spend your holidays 整体表示“度假、度过假期”。"
+        },
+        {
+          "title": "为什么 are 在 you 前面？",
+          "text": "陈述时：You are going to spend your holidays somewhere this year.\n询问地点时，用 Where 问“在哪里”，并把 are 放到 you 前面。Where 不是主语，这里也没有地点状语从句。"
+        }
+      ],
+      "structures": [
+        {
+          "text": "Where",
+          "role": "疑问地点状语",
+          "explanation": "询问度假的地点；词性是疑问副词。"
+        },
+        {
+          "text": "you",
+          "role": "主语",
+          "explanation": "指被询问的人，这里结合课文指加里及同行的人。"
+        },
+        {
+          "text": "are",
+          "role": "助动词",
+          "explanation": "与 going to spend 配合表达计划，问句中放到主语前。"
+        },
+        {
+          "text": "going to spend",
+          "role": "谓语结构的一部分",
+          "explanation": "与 are 一起说明打算度过假期，不是宾语从句。"
+        },
+        {
+          "text": "your holidays",
+          "role": "宾语",
+          "explanation": "表示 spend 所涉及的假期。"
+        },
+        {
+          "text": "this year",
+          "role": "时间状语",
+          "explanation": "说明问的是今年的安排。"
+        },
+        {
+          "text": "Gary",
+          "role": "呼语",
+          "explanation": "称呼对方，不是主句。"
+        }
+      ],
+      "words": [
+        {
+          "text": "Where",
+          "meaning": "哪里",
+          "pos": "疑问副词",
+          "phonetic": "/weə(r)/"
+        },
+        {
+          "text": "are",
+          "meaning": "（助动词，配合构成将来计划的句式）",
+          "pos": "助动词",
+          "phonetic": "/ɑː(r)/"
+        },
+        {
+          "text": "you",
+          "meaning": "你/你们",
+          "pos": "代词",
+          "phonetic": "/juː/"
+        },
+        {
+          "text": "going",
+          "meaning": "（构成be going to结构的一部分，表计划）",
+          "pos": "现在分词",
+          "phonetic": "/ˈɡəʊɪŋ/"
+        },
+        {
+          "text": "to",
+          "meaning": "（不定式符号）",
+          "pos": "不定式标记",
+          "phonetic": "/tu/"
+        },
+        {
+          "text": "spend",
+          "meaning": "度过",
+          "pos": "实义动词",
+          "phonetic": "/spend/"
+        },
+        {
+          "text": "your",
+          "meaning": "你的/你们的",
+          "pos": "物主代词",
+          "phonetic": "/jɔː(r)/"
+        },
+        {
+          "text": "holidays",
+          "meaning": "假期",
+          "pos": "名词",
+          "phonetic": "/ˈhɒlədeɪz/"
+        },
+        {
+          "text": "this",
+          "meaning": "这",
+          "pos": "限定词",
+          "phonetic": "/ðɪs/"
+        },
+        {
+          "text": "year,",
+          "meaning": "年",
+          "pos": "名词",
+          "phonetic": "/jɪə(r)/"
+        },
+        {
+          "text": "Gary?",
+          "meaning": "加里（人名）",
+          "pos": "名词",
+          "phonetic": "/ˈɡæri/"
+        }
+      ],
+      "courseId": "nce1",
+      "lessonId": "lesson-131",
+      "sentenceId": "nce-1-lesson-131-sentence-001",
+      "sentenceOrder": 1,
+      "english": "Where are you going to spend your holidays this year, Gary?",
+      "lesson": "Lesson 131 Don't be so sure!",
+      "analysisSource": "human",
+      "analysisStatus": "approved",
+      "ruleVersion": "understanding-zh-adult-1.0.0",
+      "reviewNote": "纠正 Where 主语、地点状语从句和宾语从句误标；谓语与主语分开，保留原问句词序。",
+      "comparison": {
+        "chinese": "加里，你们今年打算［去哪儿］度假？中文这里可以先说人和打算，再在句子中间问地点。",
+        "english": "原句先用 Where 告诉听者“我要问的是地点”，再接完整的计划。理解时先找计划内容，再看问的是其中哪条信息。",
+        "steps": [
+          {
+            "label": "先看已经知道的事",
+            "text": "You are going to spend your holidays somewhere this year.",
+            "explanation": "你们今年打算在某个地方度假。这是为理解而还原的陈述形式；somewhere 暂时代表还不知道的地点，不是原句答案。"
+          },
+          {
+            "label": "现在缺的是哪条信息？",
+            "text": "在某个地方 → 到底在哪里？ → Where",
+            "explanation": "不是问“你们做不做这件事”，而是问“这次度假安排在哪里”。Where 把这个缺口明确点出来。"
+          },
+          {
+            "label": "英语怎样把它问出来？",
+            "text": "Where + are you going to spend your holidays + this year, Gary?",
+            "explanation": "把询问地点的 Where 放在前面，再把 are 放到 you 前面构成问句。后面仍在说度假的计划，this year 补充时间，Gary 是称呼。加号只表示理解分块，不是答案标点。"
+          }
+        ],
+        "takeaway": "读这句时，抓住“你们打算度假 → 我想知道地点”。理解了要问哪条信息，就不必把中文的“去、哪儿、度、假”逐字拼成英语。"
+      },
+      "backbone": {
+        "text": "You are going to spend your holidays somewhere.",
+        "meaning": "你们 → 打算度假。这里用陈述形式帮助理解原问句要询问的内容；somewhere 是辅助说明，不是原句答案。"
+      },
+      "structureNotes": [
+        {
+          "title": "计划与问句",
+          "text": "be going to + 动词在这里表示打算，不是“正在去”。are 是问句中前置的助动词，you 仍然是主语。"
+        },
+        {
+          "title": "一起理解的表达",
+          "text": "spend your holidays 表示度假、度过假期。this year 补充时间；Gary 是对对方的称呼，不是另一句主干。"
+        }
+      ]
+    },
+    {
+      "chinese": "如果我赢了很多钱，我会给你买一件水貂皮大衣。",
+      "intent": "说明赢钱后愿意为对方买大衣的打算。",
+      "parts": [
+        {
+          "text": "If I win a lot of money",
+          "meaning": "如果我赢了很多钱",
+          "relation": "条件"
+        },
+        {
+          "text": "I'll buy you a mink coat.",
+          "meaning": "我会给你买一件貂皮大衣",
+          "relation": "条件成立后的打算"
+        }
+      ],
+      "notes": [
+        {
+          "title": "条件与打算",
+          "text": "if 这部分提出条件，后面说在这个条件下准备做什么。它没有断言一定会赢钱，也没有说明赢钱概率很高。"
+        },
+        {
+          "title": "两个可一起理解的表达",
+          "text": "a lot of money：很多钱。\nbuy you a mink coat：给你买一件貂皮大衣。\n这里用 win 说将来的条件，主句用 I'll（I will）说打算；不是“只有赢钱才可能买”。"
+        }
+      ],
+      "structures": [
+        {
+          "text": "If I win a lot of money",
+          "role": "条件状语从句",
+          "explanation": "提出条件，不是已经发生的事实。"
+        },
+        {
+          "text": "I'll buy you a mink coat",
+          "role": "主句",
+          "explanation": "说明条件成立时的打算，I'll 是 I will 的缩写。"
+        },
+        {
+          "text": "you",
+          "role": "间接宾语",
+          "explanation": "说明给谁买。"
+        },
+        {
+          "text": "a mink coat",
+          "role": "直接宾语",
+          "explanation": "说明买什么。"
+        }
+      ],
+      "words": [
+        {
+          "text": "If",
+          "meaning": "如果",
+          "pos": "连词",
+          "phonetic": "/ɪf/"
+        },
+        {
+          "text": "I",
+          "meaning": "我",
+          "pos": "代词",
+          "phonetic": "/aɪ/"
+        },
+        {
+          "text": "win",
+          "meaning": "赢得、赢取",
+          "pos": "动词",
+          "phonetic": "/wɪn/"
+        },
+        {
+          "text": "a",
+          "meaning": "a lot of 的一部分",
+          "pos": "不定冠词",
+          "phonetic": "/ə/"
+        },
+        {
+          "text": "lot",
+          "meaning": "大量",
+          "pos": "名词",
+          "phonetic": "/lɒt/"
+        },
+        {
+          "text": "of",
+          "meaning": "与 a lot 构成“很多……”",
+          "pos": "介词",
+          "phonetic": "/ɒv/"
+        },
+        {
+          "text": "money",
+          "meaning": "钱、金钱",
+          "pos": "名词",
+          "phonetic": "/ˈmʌni/"
+        },
+        {
+          "text": "I'll",
+          "meaning": "我会、我将要",
+          "pos": "代词加助动词缩写",
+          "phonetic": "/aɪl/"
+        },
+        {
+          "text": "buy",
+          "meaning": "购买、买",
+          "pos": "动词",
+          "phonetic": "/baɪ/"
+        },
+        {
+          "text": "you",
+          "meaning": "你",
+          "pos": "代词",
+          "phonetic": "/juː/"
+        },
+        {
+          "text": "a",
+          "meaning": "一件",
+          "pos": "冠词",
+          "phonetic": "/ə/"
+        },
+        {
+          "text": "mink",
+          "meaning": "水貂；这里指水貂皮",
+          "pos": "名词（作定语）",
+          "phonetic": "/mɪŋk/"
+        },
+        {
+          "text": "coat.",
+          "meaning": "大衣",
+          "pos": "名词",
+          "phonetic": "/kəʊt/"
+        }
+      ],
+      "courseId": "nce1",
+      "lessonId": "lesson-137",
+      "sentenceId": "nce-1-lesson-137-sentence-004",
+      "sentenceOrder": 4,
+      "english": "If I win a lot of money I'll buy you a mink coat.",
+      "lesson": "Lesson 137 A pleasant dream",
+      "analysisSource": "human",
+      "analysisStatus": "approved",
+      "ruleVersion": "understanding-zh-adult-1.0.0",
+      "reviewNote": "删除条件句高概率和只有才误解；修订 mink 词性以及 a lot of 的语境义。",
+      "comparison": {
+        "chinese": "中文说“如果我赢了很多钱，我就给你买一件貂皮大衣”，用“如果……就……”连接条件和打算。",
+        "english": "这句英语同样先提条件，再说打算；if 和 I'll 让这两部分的关系清楚，不需要强行改变中文的理解顺序。"
+      },
+      "backbone": {
+        "text": "I'll buy you a mink coat.",
+        "meaning": "我 → 会给你买一件貂皮大衣。前面的条件限制了这项打算，不能当作无条件承诺。"
+      },
+      "structureNotes": [
+        {
+          "title": "条件不是已经发生的事实",
+          "text": "If I win… 提出将来的条件，主句 I'll buy… 说明条件成立后的打算。win 用现在时说将来的条件，不代表已经赢钱，也不说明赢钱概率高。"
+        },
+        {
+          "title": "给谁买、买什么",
+          "text": "buy you a mink coat：you 说明给谁买，a mink coat 说明买什么。a lot of money 整体表示很多钱。"
+        }
+      ]
+    },
+    {
+      "chinese": "我住在一座很古老的小镇上，小镇四周环绕着美丽的树林。",
+      "intent": "先介绍住在哪里，再描述小镇的环境。",
+      "parts": [
+        {
+          "text": "I live in a very old town",
+          "meaning": "我住在一座很古老的小镇上",
+          "relation": "核心意思"
+        },
+        {
+          "text": "which is surrounded by beautiful woods.",
+          "meaning": "这座小镇被美丽的树林环绕",
+          "relation": "描述小镇"
+        }
+      ],
+      "notes": [
+        {
+          "title": "which 把什么接起来？",
+          "text": "which 指前面的 town，同时是从句的主语。\nI live in a very old town.\nThe town is surrounded by beautiful woods.\n→ 用 which 接上对 town 的描述，就得到原句。"
+        },
+        {
+          "title": "值得一起理解的表达",
+          "text": "be surrounded by：被……环绕。以小镇为主语，描述树林环绕小镇的状态。woods 在这里是一片树林，不是多块木头。"
+        },
+        {
+          "title": "这句的表达顺序",
+          "text": "中文可以说：一座［被树林环绕的］古老小镇。\n这句英文先说 town，再用后面的从句描述［这个小镇是什么样］。"
+        }
+      ],
+      "structures": [
+        {
+          "text": "I",
+          "role": "主句主语",
+          "explanation": "说话人。"
+        },
+        {
+          "text": "live",
+          "role": "主句谓语",
+          "explanation": "说明居住的状态。"
+        },
+        {
+          "text": "in a very old town",
+          "role": "地点状语",
+          "explanation": "说明住在哪里；very 修饰 old，old 修饰 town。"
+        },
+        {
+          "text": "which is surrounded by beautiful woods",
+          "role": "定语从句",
+          "explanation": "描述前面的 town。which 指 town，在从句中作主语；is surrounded 是被动结构。"
+        }
+      ],
+      "words": [
+        {
+          "text": "I",
+          "meaning": "我",
+          "pos": "人称代词主格",
+          "phonetic": "/aɪ/"
+        },
+        {
+          "text": "live",
+          "meaning": "居住，生活",
+          "pos": "不及物动词",
+          "phonetic": "/lɪv/"
+        },
+        {
+          "text": "in",
+          "meaning": "在……里面",
+          "pos": "介词",
+          "phonetic": "/ɪn/"
+        },
+        {
+          "text": "a",
+          "meaning": "一个",
+          "pos": "不定冠词",
+          "phonetic": "/ə/"
+        },
+        {
+          "text": "very",
+          "meaning": "非常，十分",
+          "pos": "副词",
+          "phonetic": "/ˈveri/"
+        },
+        {
+          "text": "old",
+          "meaning": "古老的，年代久的",
+          "pos": "形容词",
+          "phonetic": "/əʊld/"
+        },
+        {
+          "text": "town",
+          "meaning": "小镇，城镇",
+          "pos": "名词",
+          "phonetic": "/taʊn/"
+        },
+        {
+          "text": "which",
+          "meaning": "指前面的 town，不单独直译成“哪个”",
+          "pos": "关系代词",
+          "phonetic": "/wɪtʃ/"
+        },
+        {
+          "text": "is",
+          "meaning": "用于构成被动语态的助动词",
+          "pos": "助动词",
+          "phonetic": "/ɪz/"
+        },
+        {
+          "text": "surrounded",
+          "meaning": "被环绕，被包围",
+          "pos": "动词过去分词",
+          "phonetic": "/səˈraʊndɪd/"
+        },
+        {
+          "text": "by",
+          "meaning": "由……（引出动作的执行者）",
+          "pos": "介词",
+          "phonetic": "/baɪ/"
+        },
+        {
+          "text": "beautiful",
+          "meaning": "美丽的，漂亮的",
+          "pos": "形容词",
+          "phonetic": "/ˈbjuːtɪfl/"
+        },
+        {
+          "text": "woods.",
+          "meaning": "树林，林地",
+          "pos": "名词",
+          "phonetic": "/wʊdz/"
+        }
+      ],
+      "courseId": "nce1",
+      "lessonId": "lesson-143",
+      "sentenceId": "nce-1-lesson-143-sentence-001",
+      "sentenceOrder": 1,
+      "english": "I live in a very old town which is surrounded by beautiful woods.",
+      "lesson": "Lesson 143 A walk through the woods",
+      "analysisSource": "human",
+      "analysisStatus": "approved",
+      "ruleVersion": "understanding-zh-adult-1.0.0",
+      "reviewNote": "核对主句、地点短语、关系词主语和被动结构；修正原草稿只说承受者而不说明句法角色的问题。",
+      "comparison": {
+        "chinese": "我住在一座［四周环绕着美丽树林的］古老小镇里。中文这里可以先把“什么样的小镇”放在“小镇”前面。",
+        "english": "这句英文先交代“我住在哪里”，说到 town 后再接一段描述。后面的内容不是说“我又做了什么”，而是说明“这个小镇是什么样”。",
+        "steps": [
+          {
+            "label": "先得到完整的主要意思",
+            "text": "I live in a very old town.",
+            "explanation": "谁？I；做什么？live；住在哪里？in a very old town。到这里，“我住在一座古老小镇上”这个主要意思已经完整。"
+          },
+          {
+            "label": "后面的信息在补充谁？",
+            "text": "town → 什么样的小镇？ → which is surrounded by beautiful woods",
+            "explanation": "这部分回答的是小镇的环境，不是住在小镇的原因，也不是说话人的另一个动作。沿着 town 找回描述对象，就不容易把长句读散。"
+          },
+          {
+            "label": "which 怎样把描述接回去？",
+            "text": "The town is surrounded by beautiful woods.\n→ town which is surrounded by beautiful woods",
+            "explanation": "which 指代 town，并在后面的从句中作主语，把“这座小镇被树林环绕”的信息接回 town。这里不用把 which 单独译成“哪个”；下行是理解用的名词加描述片段，不是独立完整句。"
+          }
+        ],
+        "takeaway": "读这句时先抓“我住在哪里”，再问“后面的信息在描述谁”。中英文在这里把描述放在不同位置，但表达的是同一层关系。"
+      },
+      "backbone": {
+        "text": "I live in a very old town.",
+        "meaning": "我 → 住在一座很古老的小镇上。后半句进一步描述这个小镇。"
+      },
+      "structureNotes": [
+        {
+          "title": "描述关系对应什么结构？",
+          "text": "which is surrounded by beautiful woods 是描述 town 的定语从句。which 指 town，同时作从句主语。"
+        },
+        {
+          "title": "被动与修饰关系",
+          "text": "be surrounded by 表示被……环绕，以小镇作主语描述树林环绕它的状态。very 修饰 old，old 描述 town。woods 在这里是一片树林，不是多块木头。"
+        }
+      ]
+    },
+    {
+      "chinese": "上周我去了剧院。",
+      "intent": "交代上周去剧院的经历。",
+      "parts": [
+        {
+          "text": "Last week",
+          "meaning": "上周",
+          "relation": "时间"
+        },
+        {
+          "text": "I went to the theatre.",
+          "meaning": "我去了剧院",
+          "relation": "发生的事情"
+        }
+      ],
+      "notes": [
+        {
+          "title": "按表达块理解",
+          "text": "last week 整体是“上周”，不能把 last 在这里译成“最后一个”。went 是 go 的过去式；to the theatre 说明去哪里。"
+        }
+      ],
+      "structures": [
+        {
+          "text": "Last week",
+          "role": "时间状语",
+          "explanation": "交代过去的时间。"
+        },
+        {
+          "text": "I",
+          "role": "主语",
+          "explanation": "指说话人。"
+        },
+        {
+          "text": "went",
+          "role": "谓语",
+          "explanation": "go 的过去式。"
+        },
+        {
+          "text": "to the theatre",
+          "role": "地点状语",
+          "explanation": "说明去的目的地；go to the theatre 在本课是去剧院看戏。"
+        }
+      ],
+      "words": [
+        {
+          "text": "Last",
+          "meaning": "刚过去的",
+          "pos": "形容词",
+          "phonetic": "/lɑːst/"
+        },
+        {
+          "text": "week",
+          "meaning": "周，星期",
+          "pos": "名词",
+          "phonetic": "/wiːk/"
+        },
+        {
+          "text": "I",
+          "meaning": "我",
+          "pos": "代词",
+          "phonetic": "/aɪ/"
+        },
+        {
+          "text": "went",
+          "meaning": "去了",
+          "pos": "动词",
+          "phonetic": "/went/"
+        },
+        {
+          "text": "to",
+          "meaning": "向、往（引出目的地）",
+          "pos": "介词",
+          "phonetic": "/tuː/"
+        },
+        {
+          "text": "the",
+          "meaning": "用于 the theatre 这个表达",
+          "pos": "定冠词",
+          "phonetic": "/ðə/"
+        },
+        {
+          "text": "theatre.",
+          "meaning": "剧院",
+          "pos": "名词",
+          "phonetic": "/ˈθɪətə/"
+        }
+      ],
+      "courseId": "nce2",
+      "lessonId": "nce-2-lesson-001",
+      "sentenceId": "nce-2-lesson-001-sentence-001",
+      "sentenceOrder": 1,
+      "english": "Last week I went to the theatre.",
+      "lesson": "Lesson 1 A private conversation",
+      "analysisSource": "human",
+      "analysisStatus": "approved",
+      "ruleVersion": "understanding-zh-adult-1.0.0",
+      "reviewNote": "核对过去时间与目的地；修正 last、the 的语境义与音标格式。",
+      "comparison": null,
+      "backbone": {
+        "text": "I went to the theatre.",
+        "meaning": "我 → 去了剧院。Last week 交代这件事发生在什么时候。"
+      },
+      "structureNotes": [
+        {
+          "title": "时间与去向",
+          "text": "last week 整体是上周。went 是 go 的过去式，与过去时间相配；to the theatre 说明去哪里，不能把 to 独立硬译成一个中文动作。"
+        }
+      ]
+    },
+    {
+      "chinese": "我参观了博物馆，还坐在公共花园里。",
+      "intent": "介绍旅行中做过的两件事。",
+      "parts": [
+        {
+          "text": "I visited museums",
+          "meaning": "我参观了博物馆",
+          "relation": "一件事"
+        },
+        {
+          "text": "and sat in public gardens.",
+          "meaning": "还坐在公共花园里",
+          "relation": "另一件事"
+        }
+      ],
+      "notes": [
+        {
+          "title": "英语也可以说多个动作",
+          "text": "and 把 visited 和 sat 两个动作接起来，它们共用主语 I。并列关系不要求两件事同时发生，也不单凭这句规定每次都严格先参观再坐下。"
+        }
+      ],
+      "structures": [
+        {
+          "text": "I",
+          "role": "共同主语",
+          "explanation": "参观和坐下的都是说话人。"
+        },
+        {
+          "text": "visited",
+          "role": "第一个谓语",
+          "explanation": "visit 的过去式。"
+        },
+        {
+          "text": "museums",
+          "role": "宾语",
+          "explanation": "参观的对象。"
+        },
+        {
+          "text": "and",
+          "role": "并列连接成分",
+          "explanation": "连接两个动作。"
+        },
+        {
+          "text": "sat",
+          "role": "第二个谓语",
+          "explanation": "sit 的过去式。"
+        },
+        {
+          "text": "in public gardens",
+          "role": "地点状语",
+          "explanation": "说明坐在哪里。"
+        }
+      ],
+      "words": [
+        {
+          "text": "I",
+          "meaning": "我",
+          "pos": "代词",
+          "phonetic": "/aɪ/"
+        },
+        {
+          "text": "visited",
+          "meaning": "参观了",
+          "pos": "动词过去式",
+          "phonetic": "/ˈvɪzɪtɪd/"
+        },
+        {
+          "text": "museums",
+          "meaning": "博物馆（复数）",
+          "pos": "名词",
+          "phonetic": "/mjuˈzɪəmz/"
+        },
+        {
+          "text": "and",
+          "meaning": "并且",
+          "pos": "连词",
+          "phonetic": "/ænd/"
+        },
+        {
+          "text": "sat",
+          "meaning": "坐、坐着（过去式）",
+          "pos": "动词过去式",
+          "phonetic": "/sæt/"
+        },
+        {
+          "text": "in",
+          "meaning": "在……里面",
+          "pos": "介词",
+          "phonetic": "/ɪn/"
+        },
+        {
+          "text": "public",
+          "meaning": "公共的",
+          "pos": "形容词",
+          "phonetic": "/ˈpʌblɪk/"
+        },
+        {
+          "text": "gardens.",
+          "meaning": "花园（复数）",
+          "pos": "名词",
+          "phonetic": "/ˈɡɑːdnz/"
+        }
+      ],
+      "courseId": "nce2",
+      "lessonId": "nce-2-lesson-003",
+      "sentenceId": "nce-2-lesson-003-sentence-003",
+      "sentenceOrder": 3,
+      "english": "I visited museums and sat in public gardens.",
+      "lesson": "Lesson 3 Please send me a card",
+      "analysisSource": "human",
+      "analysisStatus": "approved",
+      "ruleVersion": "understanding-zh-adult-1.0.0",
+      "reviewNote": "核对共用主语的并列谓语，避免规定严格先后或同时关系。",
+      "comparison": {
+        "chinese": "中文可以说“我参观了博物馆，还坐在公共花园里”，两个动作连着交代。",
+        "english": "英语也能表达多个动作：and 连接 visited 和 sat，它们共用主语 I，不需要每个动作都重新说一遍 I。"
+      },
+      "backbone": {
+        "text": "I visited museums and sat in public gardens.",
+        "meaning": "我 → 参观博物馆、坐在公共花园里。这里两项活动并列，不必选一项当主干、把另一项当附属动作。"
+      },
+      "structureNotes": [
+        {
+          "title": "并列与地点",
+          "text": "visited 和 sat 都用过去式。museums 是参观的对象，in public gardens 说明坐在哪里。and 在这里表示并列，不能单凭它断定两件事同时发生或严格按某个先后顺序发生。"
+        }
+      ]
+    },
+    {
+      "chinese": "我坐在一个很好的座位上。",
+      "intent": "说明看戏时的座位很好。",
+      "parts": [
+        {
+          "text": "I had",
+          "meaning": "我有／坐在",
+          "relation": "说话人的情况"
+        },
+        {
+          "text": "a very good seat.",
+          "meaning": "一个很好的座位",
+          "relation": "座位情况"
+        }
+      ],
+      "notes": [
+        {
+          "title": "had 在这里怎么理解？",
+          "text": "had 是 have 的过去式。在剧院的场景里，I had a very good seat 可以自然理解为“我的座位很好”。very 修饰 good，good 再描述 seat。"
+        }
+      ],
+      "structures": [
+        {
+          "text": "I",
+          "role": "主语",
+          "explanation": "说话人。"
+        },
+        {
+          "text": "had",
+          "role": "谓语",
+          "explanation": "have 的过去式，交代当时有怎样的座位。"
+        },
+        {
+          "text": "a very good seat",
+          "role": "宾语",
+          "explanation": "说明有的是什么：一个很好的座位。"
+        }
+      ],
+      "words": [
+        {
+          "text": "I",
+          "meaning": "我",
+          "pos": "人称代词主格",
+          "phonetic": "/aɪ/"
+        },
+        {
+          "text": "had",
+          "meaning": "有；这里交代当时的座位情况",
+          "pos": "实义动词（have的过去式）",
+          "phonetic": "/hæd/"
+        },
+        {
+          "text": "a",
+          "meaning": "一个",
+          "pos": "不定冠词",
+          "phonetic": "/ə/"
+        },
+        {
+          "text": "very",
+          "meaning": "非常",
+          "pos": "副词",
+          "phonetic": "/ˈveri/"
+        },
+        {
+          "text": "good",
+          "meaning": "好的",
+          "pos": "形容词",
+          "phonetic": "/ɡʊd/"
+        },
+        {
+          "text": "seat.",
+          "meaning": "座位",
+          "pos": "名词",
+          "phonetic": "/siːt/"
+        }
+      ],
+      "courseId": "nce2",
+      "lessonId": "nce-2-lesson-001",
+      "sentenceId": "nce-2-lesson-001-sentence-002",
+      "sentenceOrder": 2,
+      "english": "I had a very good seat.",
+      "lesson": "Lesson 1 A private conversation",
+      "analysisSource": "human",
+      "analysisStatus": "approved",
+      "ruleVersion": "understanding-zh-adult-1.0.0",
+      "reviewNote": "分开词性与句子角色，补全宾语；删去把主语误说成动作发出者的模板解释。",
+      "comparison": null,
+      "backbone": {
+        "text": "I had a very good seat.",
+        "meaning": "我 → 当时有一个很好的座位。结合看戏场景，可以自然说成“我的座位很好”。"
+      },
+      "structureNotes": [
+        {
+          "title": "状态与修饰",
+          "text": "had 是 have 的过去式，交代当时的座位情况。a very good seat 是完整的对象：very 修饰 good，good 描述 seat。不能把 I had 单独当作已经表达完整意思的主干。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "chinese": "我希望你有一些钱。",
+  "intent": "表达自己对对方持有一定金额钱币的期盼。",
+  "comparison": {
+    "chinese": "中文“我希望你有一些钱”直接把“希望”和后续想法连成一句话；英文在 hope 后用 that 引出“希望”的具体内容，that 本身没有实义。",
+    "english": "I hope that you've got some money.",
+    "steps": [
+      {
+        "label": "先把握主干",
+        "text": "I hope",
+        "explanation": "先说“我抱有某个愿望”，这是整句的核心动作。"
+      },
+      {
+        "label": "再看愿望内容",
+        "text": "that you've got some money",
+        "explanation": "that 后面说明我希望的是什么：你身上有一些钱。"
+      },
+      {
+        "label": "have got 的意思",
+        "text": "you've got some money",
+        "explanation": "you've got = you have got，在本句中表示“你有、身上带着”，不是“你已经得到”。"
+      }
+    ],
+    "takeaway": "that 只起引导宾语从句的作用，可省略；have got 在口语中常表示“拥有”。"
+  },
+  "backbone": {
+    "text": "I hope that you've got some money.",
+    "meaning": "说话人期盼对方身上备有一定的钱。"
+  },
+  "structureNotes": [
+    {
+      "title": "that 引导的宾语从句",
+      "text": "that 放在 hope 后面，引出“希望”的具体内容，没有实际词义，口语中常省略。"
+    },
+    {
+      "title": "have got 表示拥有",
+      "text": "you've got = you have got，在日常口语中常用来表示“拥有、身上带有”某物。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "发出“希望”这一动作的人。"
+    },
+    {
+      "text": "hope",
+      "role": "谓语动词",
+      "explanation": "表达说话人的愿望或期盼。"
+    },
+    {
+      "text": "that you've got some money",
+      "role": "宾语从句",
+      "explanation": "作 hope 的宾语，说明“希望”的具体内容。"
+    },
+    {
+      "text": "you've",
+      "role": "从句主语+助动词",
+      "explanation": "you 是从句主语，have 与 got 构成 have got 结构。"
+    },
+    {
+      "text": "got",
+      "role": "过去分词",
+      "explanation": "与 have 构成 have got，表示“拥有”。"
+    },
+    {
+      "text": "some money",
+      "role": "从句宾语",
+      "explanation": "表示“一些钱”，是 have got 的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "hope",
+      "meaning": "希望",
+      "pos": "动词",
+      "phonetic": "/həʊp/"
+    },
+    {
+      "text": "that",
+      "meaning": "无实义，引导宾语从句",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "you've",
+      "meaning": "你有（you have 的缩写）",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/juːv/"
+    },
+    {
+      "text": "got",
+      "meaning": "（与 have 构成 have got，表示“拥有”，不是单独的“得到”）",
+      "pos": "过去分词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "some",
+      "meaning": "一些",
+      "pos": "限定词",
+      "phonetic": "/sʌm/"
+    },
+    {
+      "text": "money.",
+      "meaning": "钱",
+      "pos": "名词",
+      "phonetic": "/ˈmʌni/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I hope",
+      "relation": "表达主语和核心动作",
+      "meaning": "我希望"
+    },
+    {
+      "text": "that you've got some money.",
+      "relation": "说明“希望”的具体内容，作 hope 的宾语",
+      "meaning": "你有一些钱"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-79",
+  "sentenceId": "nce-1-lesson-079-sentence-013",
+  "sentenceOrder": 13,
+  "english": "I hope that you've got some money.",
+  "lesson": "Lesson 79 Carol's shopping list",
+  "notes": [
+    {
+      "title": "that 引导的宾语从句",
+      "text": "that 放在 hope 后面，引出“希望”的具体内容，没有实际词义，口语中常省略。"
+    },
+    {
+      "title": "have got 表示拥有",
+      "text": "you've got = you have got，在日常口语中常用来表示“拥有、身上带有”某物。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干、从句、词汇和短语释义基本正确。需要把单词条里的标点去掉，词项应承载 money 本身，句号属于句末标点；同时明确 have got 的“拥有”是口语用法，避免把 got 孤立解释成“得到”。（非逐句人工审核）"
+}

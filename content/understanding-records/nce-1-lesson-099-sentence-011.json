@@ -1,0 +1,226 @@
+{
+  "chinese": "医生说他马上就来。安迪，我肯定你需要拍一张X光片。",
+  "intent": "转述医生即将赶来的承诺，并对Andy的伤情作出医疗判断和建议。",
+  "comparison": {
+    "chinese": "中文转述医生的承诺时，通常先说“医生说/表示”再引出具体内容，判断类语气可以前置为“我敢肯定/我确信”，呼语安迪自然放在句首或句末；在这段Andy受伤呼叫医生的对话里，双方都清楚指的是即将前来的Carter医生，因此译文不必反复重复医生的身份。",
+    "english": "English keeps the main clause first and uses that to introduce what was said or believed: The doctor says that…, I'm sure that…",
+    "steps": [
+      {
+        "label": "医生说的内容",
+        "text": "The doctor says that he will come at once.",
+        "explanation": "先说出医生发出这一信息，再由that引出转述内容；he指代doctor，避免重复。"
+      },
+      {
+        "label": "说话人的判断",
+        "text": "I'm sure that you need an X-ray, Andy.",
+        "explanation": "that引出“我确定”的具体内容；Andy放在句末，是对听话人的直接称呼，不参与句子主干。"
+      }
+    ],
+    "takeaway": "that在这里不承担实际词义，只起连接作用，后面可以直接跟完整句子，理解时先抓住主句，再看that从句给出的具体信息。"
+  },
+  "backbone": {
+    "text": "The doctor says that he will come at once. I'm sure that you need an X-ray, Andy.",
+    "meaning": "医生表示会立刻赶来；说话人判断Andy需要拍X光片。"
+  },
+  "structureNotes": [
+    {
+      "title": "that引导宾语从句",
+      "text": "两句话里的that分别接在says和sure后面，用来引导转述内容与判断内容，that本身无实际词义，可省略。"
+    },
+    {
+      "title": "呼语Andy的位置",
+      "text": "Andy放在句末逗号之后，是直接对听话人说话的称呼，不充当句子成分，读译时前置到句首符合中文习惯。"
+    },
+    {
+      "title": "at once作时间说明",
+      "text": "这是固定短语，用在will come后面说明医生赶来的时间紧迫性，表示“立刻、马上”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The doctor",
+      "role": "主句主语",
+      "explanation": "指接诊的医生，是发出“说”这个动作的主体。"
+    },
+    {
+      "text": "says",
+      "role": "主句谓语",
+      "explanation": "表示转述医生的陈述内容，后接that引导的宾语从句。"
+    },
+    {
+      "text": "that he will come at once",
+      "role": "宾语从句",
+      "explanation": "作says的宾语，转述医生说的具体内容，he指代前文的the doctor。"
+    },
+    {
+      "text": "I'm sure",
+      "role": "第二句主句",
+      "explanation": "表达说话人对后续内容的确定语气，后接that引导的从句说明确定的具体事项。"
+    },
+    {
+      "text": "that you need an X-ray",
+      "role": "形容词补语从句",
+      "explanation": "用来说明“我确信”的具体内容：Andy需要拍X光片。"
+    },
+    {
+      "text": "Andy",
+      "role": "呼语",
+      "explanation": "直接称呼对话对象，不参与句子主干结构。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "（特指谈话双方知晓的那位医生）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "doctor",
+      "meaning": "医生",
+      "pos": "名词",
+      "phonetic": "/ˈdɒktə/"
+    },
+    {
+      "text": "says",
+      "meaning": "说、转述",
+      "pos": "动词（第三人称单数）",
+      "phonetic": "/sez/"
+    },
+    {
+      "text": "that",
+      "meaning": "无实义，引导宾语从句",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他（指代前文的医生）",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "will",
+      "meaning": "将要、会",
+      "pos": "情态动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "come",
+      "meaning": "（此处指医生动身前来接诊）",
+      "pos": "动词原形",
+      "phonetic": "/kʌm/"
+    },
+    {
+      "text": "at",
+      "meaning": "（与once搭配构成固定短语）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "once.",
+      "meaning": "立刻，马上",
+      "pos": "副词/固定短语",
+      "phonetic": "/wʌns/"
+    },
+    {
+      "text": "I'm",
+      "meaning": "我是（I am的缩写）",
+      "pos": "代词+be动词缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "sure",
+      "meaning": "确信的、肯定的",
+      "pos": "形容词",
+      "phonetic": "/ʃʊə/"
+    },
+    {
+      "text": "that",
+      "meaning": "无实义，引导补语从句",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "you",
+      "meaning": "你（指代Andy）",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "need",
+      "meaning": "需要",
+      "pos": "动词",
+      "phonetic": "/niːd/"
+    },
+    {
+      "text": "an",
+      "meaning": "一张（后接以元音音素开头的名词）",
+      "pos": "不定冠词",
+      "phonetic": "/ən/"
+    },
+    {
+      "text": "X-ray,",
+      "meaning": "X光片",
+      "pos": "名词",
+      "phonetic": "/ˈeks reɪ/"
+    },
+    {
+      "text": "Andy.",
+      "meaning": "安迪（人名）",
+      "pos": "名词（呼语）",
+      "phonetic": "/ˈændi/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The doctor says",
+      "meaning": "医生说、医生表示",
+      "relation": "说明整句话转述的动作发出者"
+    },
+    {
+      "text": "that he will come at once.",
+      "meaning": "他马上就来",
+      "relation": "接在says后面，说明医生说出的具体内容"
+    },
+    {
+      "text": "I'm sure",
+      "meaning": "我肯定",
+      "relation": "引出说话人做出判断的语气"
+    },
+    {
+      "text": "that you need an X-ray,",
+      "meaning": "你需要拍一张X光片",
+      "relation": "接在sure后面，说明“我肯定”的具体内容"
+    },
+    {
+      "text": "Andy.",
+      "meaning": "安迪",
+      "relation": "直接呼告听话对象，说明这句话是对Andy说的"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-99",
+  "sentenceId": "nce-1-lesson-099-sentence-011",
+  "sentenceOrder": 11,
+  "english": "The doctor says that he will come at once. I'm sure that you need an X-ray, Andy.",
+  "lesson": "Lesson 99 Ow!",
+  "notes": [
+    {
+      "title": "that引导宾语从句",
+      "text": "两句话里的that分别接在says和sure后面，用来引导转述内容与判断内容，that本身无实际词义，可省略。"
+    },
+    {
+      "title": "呼语Andy的位置",
+      "text": "Andy放在句末逗号之后，是直接对听话人说话的称呼，不充当句子成分，读译时前置到句首符合中文习惯。"
+    },
+    {
+      "title": "at once作时间说明",
+      "text": "这是固定短语，用在will come后面说明医生赶来的时间紧迫性，表示“立刻、马上”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，符合句子原意，仅存在3处可修正的细节瑕疵：1. 首个分块“The doctor says”的语义遗漏了核心谓语“说、表示”，未覆盖分块完整含义；2. 单词“come”的释义“赶来、前来”不够贴合语境，未结合后续“at once”体现医生收到消息后即刻动身就诊的动作属性；3. 对比补充的中文部分未呼应该课文的医疗就诊场景，未说明中文表达如何适配对话双方均知晓的语境，表述过于泛化。（非逐句人工审核）"
+}

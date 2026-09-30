@@ -1,0 +1,125 @@
+{
+  "chinese": "‘我不会说英语。’",
+  "intent": "转述人物用英语表达自己不会说英语的直接引语内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "我不会说英语。",
+    "meaning": "用来表达自身不具备使用英语进行交流的能力。"
+  },
+  "structureNotes": [
+    {
+      "title": "否定句的构成逻辑",
+      "text": "这是借助助动词do构成的一般现在时否定陈述句，用直接引语的引号包裹，还原人物的原话表达。句子用do not对谓语speak进行全盘否定，明确说明主语没有说英语的能力。"
+    },
+    {
+      "title": "引号的作用",
+      "text": "本句是带单引号的直接引语，属于人物的原话语，引号边界明确标识这部分是直接复述的说话内容。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'",
+      "role": "直接引语开头标识",
+      "explanation": "单引号开头，标识后续内容为人物原话，不充当句子语法成分。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "第一人称单数主格代词，是引语内表述的发出者。"
+    },
+    {
+      "text": "do not",
+      "role": "否定助动词",
+      "explanation": "构成一般现在时的否定形式，用来否定后面的实义动词speak。"
+    },
+    {
+      "text": "speak",
+      "role": "谓语动词",
+      "explanation": "实义动词，是引语里的核心动作，表示“说（某种语言）”。"
+    },
+    {
+      "text": "English",
+      "role": "宾语",
+      "explanation": "指英语这门语言，是及物动词speak的动作对象。"
+    },
+    {
+      "text": "'",
+      "role": "直接引语收尾标识",
+      "explanation": "单引号结尾，收束整段直接引语，不充当句子语法成分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "do",
+      "meaning": "（助动词，构成否定）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "not",
+      "meaning": "不",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "speak",
+      "meaning": "说，讲（某种语言）",
+      "pos": "动词",
+      "phonetic": "/spiːk/"
+    },
+    {
+      "text": "English.'",
+      "meaning": "英语",
+      "pos": "名词",
+      "phonetic": "/ˈɪŋɡlɪʃ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "'I",
+      "relation": "引语开头，点明说话人视角",
+      "meaning": "我"
+    },
+    {
+      "text": "do not",
+      "relation": "标记对后面动作的全盘否定",
+      "meaning": "不会（否定标记）"
+    },
+    {
+      "text": "speak",
+      "relation": "核心动作谓语",
+      "meaning": "说（某种语言）"
+    },
+    {
+      "text": "English.'",
+      "relation": "说明说的对象是英语，引语收尾",
+      "meaning": "英语"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-73",
+  "sentenceId": "nce-1-lesson-073-sentence-012",
+  "sentenceOrder": 12,
+  "english": "'I do not speak English.'",
+  "lesson": "Lesson 73 The way to King Street",
+  "notes": [
+    {
+      "title": "否定句的构成逻辑",
+      "text": "这是借助助动词do构成的一般现在时否定陈述句，用直接引语的引号包裹，还原人物的原话表达。句子用do not对谓语speak进行全盘否定，明确说明主语没有说英语的能力。"
+    },
+    {
+      "title": "引号的作用",
+      "text": "本句是带单引号的直接引语，属于人物的原话语，引号边界明确标识这部分是直接复述的说话内容。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体符合英式音标、直接引语结构和名词作宾语规则；仅发现英语单词English的音标中舌叶音符号使用有误，以及引语边界的标注分散在各语法构件中，未将引语标识作为独立结构块说明，其余内容与上下文语义一致，无事实性错误。（非逐句人工审核）"
+}

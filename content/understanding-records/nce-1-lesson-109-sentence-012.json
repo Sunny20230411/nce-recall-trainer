@@ -1,0 +1,191 @@
+{
+  "chinese": "只剩下几块了。恐怕盒子快空了。",
+  "intent": "告知对方罐中饼干剩余数量极少，表达罐内几乎已经空了的情况。",
+  "comparison": {
+    "chinese": "英文先用 There are 引出存在句说明剩余数量很少，再用 I'm afraid 委婉告知罐子几乎空了；中文译文按汉语日常表达习惯，先说明剩余少的情况，再委婉说明罐子几乎空了的状态，整体顺承说明同一现状。",
+    "english": "There are only a few left. I'm afraid the tin's nearly empty.",
+    "steps": [
+      {
+        "label": "存在表达",
+        "text": "There are only a few left.",
+        "explanation": "英文用 There are ... 表示“存在、有”，a few 代指前文提到的饼干，left 是过去分词作后置定语修饰 a few，表示“剩余的”，句序为 存在标志→剩余数量→剩余的事物。"
+      },
+      {
+        "label": "委婉告知",
+        "text": "I'm afraid the tin's nearly empty.",
+        "explanation": "I'm afraid 是委婉表达“恐怕、遗憾”，用来引出不太好的消息， nearly 修饰 empty 表示“几乎空了”，说明罐内剩余物品少的原因。"
+      }
+    ],
+    "takeaway": "英文通过 There be 句式描述剩余量，再用 I'm afraid 引出委婉判断；中文译文顺承表述剩余量和罐子状态，符合日常对话的自然语序。"
+  },
+  "backbone": {
+    "text": "There are only a few left. I'm afraid the tin's nearly empty.",
+    "meaning": "只剩下很少一点了，罐子几乎空了。"
+  },
+  "structureNotes": [
+    {
+      "title": "There be 句型",
+      "text": "There are 表示“有、存在”，真正的主语是后面的 a few，代指前文提到的可数事物，left 作后置定语表示“剩余的”。"
+    },
+    {
+      "title": "I'm afraid 的用法",
+      "text": "I'm afraid 在这里不是“我害怕”，而是口语中用来委婉引出不好的消息，相当于“恐怕、很遗憾”。"
+    },
+    {
+      "title": "缩写形式",
+      "text": "I'm 是 I am 的缩写，tin's 是 tin is 的缩写，nearly 是副词修饰形容词 empty，表示程度“几乎、差不多”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There are only a few left.",
+      "role": "存在句",
+      "explanation": "There are 引导存在句，a few 是真正主语，left 修饰 a few 表示剩余，说明剩余数量很少。"
+    },
+    {
+      "text": "I'm afraid",
+      "role": "委婉插入语",
+      "explanation": "用来委婉引出后文不好的消息，不单独表示害怕的情绪。"
+    },
+    {
+      "text": "the tin's nearly empty.",
+      "role": "宾语从句",
+      "explanation": "跟在 I'm afraid 后面表示委婉判断的具体内容，the tin 是从句主语，nearly empty 是表语说明状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "There",
+      "meaning": "（与be连用表示存在）",
+      "pos": "副词",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（复数）",
+      "pos": "动词",
+      "phonetic": "/ɑː/"
+    },
+    {
+      "text": "only",
+      "meaning": "只，仅仅",
+      "pos": "副词",
+      "phonetic": "/ˈəʊnli/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（块/个）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "few",
+      "meaning": "少量的事物",
+      "pos": "代词",
+      "phonetic": "/fjuː/"
+    },
+    {
+      "text": "left.",
+      "meaning": "剩余的",
+      "pos": "过去分词",
+      "phonetic": "/left/"
+    },
+    {
+      "text": "I'm",
+      "meaning": "我是",
+      "pos": "缩略形式",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "afraid",
+      "meaning": "担心的；（用于委婉表达）恐怕",
+      "pos": "形容词",
+      "phonetic": "/əˈfreɪd/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指）这个/那个",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "tin's",
+      "meaning": "罐头盒是",
+      "pos": "缩略形式",
+      "phonetic": "/tɪn ɪz/"
+    },
+    {
+      "text": "nearly",
+      "meaning": "几乎，差不多",
+      "pos": "副词",
+      "phonetic": "/ˈnɪəli/"
+    },
+    {
+      "text": "empty.",
+      "meaning": "空的",
+      "pos": "形容词",
+      "phonetic": "/ˈempti/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "There are only",
+      "relation": "引导存在状态，限定剩余数量很少。",
+      "meaning": "（存在句开头）只有"
+    },
+    {
+      "text": "a few",
+      "relation": "句子真正主语，指剩余的少量饼干。",
+      "meaning": "几块（代指前文饼干）"
+    },
+    {
+      "text": "left.",
+      "relation": "修饰a few，说明饼干是剩余状态。",
+      "meaning": "剩下"
+    },
+    {
+      "text": "I'm afraid",
+      "relation": "委婉插入语，引出后面不太好的消息。",
+      "meaning": "恐怕"
+    },
+    {
+      "text": "the",
+      "relation": "限定后面的tin，指装饼干的罐子。",
+      "meaning": "（特指这个）"
+    },
+    {
+      "text": "tin's nearly",
+      "relation": "说明罐子的状态接近空了。",
+      "meaning": "盒子快"
+    },
+    {
+      "text": "empty.",
+      "relation": "描述罐子最终状态，解释剩余少的原因。",
+      "meaning": "空了"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-109",
+  "sentenceId": "nce-1-lesson-109-sentence-012",
+  "sentenceOrder": 12,
+  "english": "There are only a few left. I'm afraid the tin's nearly empty.",
+  "lesson": "Lesson 109 A good idea",
+  "notes": [
+    {
+      "title": "There be 句型",
+      "text": "There are 表示“有、存在”，真正的主语是后面的 a few，代指前文提到的可数事物，left 作后置定语表示“剩余的”。"
+    },
+    {
+      "title": "I'm afraid 的用法",
+      "text": "I'm afraid 在这里不是“我害怕”，而是口语中用来委婉引出不好的消息，相当于“恐怕、很遗憾”。"
+    },
+    {
+      "title": "缩写形式",
+      "text": "I'm 是 I am 的缩写，tin's 是 tin is 的缩写，nearly 是副词修饰形容词 empty，表示程度“几乎、差不多”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语义、句式解释和指代关系基本正确，主要需修正三处小问题：1. left 的音标误加句尾句号，且词性标注有误，left 是修饰 a few 的后置定语，属于过去分词，并非形容词；2. tin's 的音标误拆为连读形式，应还原为 tin is 的英式分读音标；3. comparison 对中文语序的描述不准确，原中文译文并没有把结果放在句首再解释原因，语序描述错误。其余内容经核查符合要求，无需修改。（非逐句人工审核）"
+}

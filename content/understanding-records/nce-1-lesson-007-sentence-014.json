@@ -1,0 +1,75 @@
+{
+  "chinese": "我是工程师。",
+  "intent": "回答对方关于自己职业的询问，说明自己的身份是工程师。",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm an engineer.",
+    "meaning": "我是一名工程师。"
+  },
+  "parts": [
+    {
+      "text": "I'm",
+      "relation": "陈述身份的主体和判断动词",
+      "meaning": "我是"
+    },
+    {
+      "text": "an engineer.",
+      "relation": "补充说明身份的具体内容",
+      "meaning": "一名工程师"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "缩写说明",
+      "text": "I'm 是I am的常用口语缩写形式，在日常对话里用来简略表达判断句式，不需要拆分理解成两个独立的成分。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm",
+      "role": "主语+系动词",
+      "explanation": "指代说话人自身的判断主体，搭配系动词说明归属关系"
+    },
+    {
+      "text": "an engineer",
+      "role": "表语",
+      "explanation": "说明说话人的具体职业身份"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我是",
+      "pos": "pronoun + verb",
+      "phonetic": "/aɪm/",
+      "text": "I'm"
+    },
+    {
+      "meaning": "一个（不定冠词）",
+      "pos": "determiner",
+      "phonetic": "/ən/",
+      "text": "an"
+    },
+    {
+      "meaning": "工程师",
+      "pos": "noun",
+      "phonetic": "/ˌendʒɪˈnɪə(r)/",
+      "text": "engineer."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-7",
+  "sentenceId": "nce-1-lesson-007-sentence-014",
+  "sentenceOrder": 14,
+  "english": "I'm an engineer.",
+  "lesson": "Lesson 7 Are you a teacher?",
+  "notes": [
+    {
+      "title": "缩写说明",
+      "text": "I'm 是I am的常用口语缩写形式，在日常对话里用来简略表达判断句式，不需要拆分理解成两个独立的成分。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，仅存在局部细节不准确的可修正问题，不影响核心内容理解（非逐句人工审核）"
+}

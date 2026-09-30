@@ -1,0 +1,152 @@
+{
+  "chinese": "我们总是玩得很开心，妈妈。再见。",
+  "intent": "向妈妈说明自己和伙伴们总是玩得尽兴，安抚妈妈无需挂念，随后道别出门。",
+  "comparison": {
+    "chinese": "中文可以直接说“我们总是玩得很开心”，不会特意把“自己”放在句子末尾强调。",
+    "english": "英文说 We always enjoy ourselves。",
+    "steps": [
+      {
+        "label": "先找动作发出者",
+        "text": "We always enjoy…",
+        "explanation": "“我们”是主语，always说明这种玩乐的状态是一贯的。"
+      },
+      {
+        "label": "再看动作对象",
+        "text": "enjoy ourselves",
+        "explanation": "ourselves是反身代词，指代主语we，说明是我们自己从活动里获得快乐，不是招待他人；这就是“玩得开心”的固定搭配。"
+      },
+      {
+        "label": "最后是呼语和道别",
+        "text": "Mum. Bye-bye.",
+        "explanation": "Mum是当面称呼，放在句末不参与句子主干；Bye-bye是道别用语，独立成句。"
+      }
+    ],
+    "takeaway": "enjoy oneself是固定表达，意思就是“玩得开心”，反身代词的人称要和前面的主语保持一致。"
+  },
+  "backbone": {
+    "text": "We always enjoy ourselves.",
+    "meaning": "我们总是玩得很开心。"
+  },
+  "structureNotes": [
+    {
+      "title": "反身代词作enjoy的宾语",
+      "text": "enjoy oneself是固定搭配，表示“过得愉快、玩得开心”，反身代词ourselves和主语we同指，不能换成普通代词us。"
+    },
+    {
+      "title": "呼语独立",
+      "text": "Mum是当面对妈妈的称呼，放在陈述句末尾，不参与句子主干的主谓结构，仅用于点明说话的对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We",
+      "role": "主语",
+      "explanation": "是执行enjoy这个动作的主体，指代说话的孩子和同行的伙伴。"
+    },
+    {
+      "text": "always",
+      "role": "频度副词",
+      "explanation": "修饰动词enjoy，表示玩乐开心的状态是一贯、常常发生的。"
+    },
+    {
+      "text": "enjoy",
+      "role": "谓语动词",
+      "explanation": "是句子的核心动作，表示“享受、从中获得乐趣”。"
+    },
+    {
+      "text": "ourselves",
+      "role": "反身代词作宾语",
+      "explanation": "和主语we同指，是enjoy的固定搭配部分，构成enjoy oneself“玩得开心”的表达。"
+    },
+    {
+      "text": "Mum",
+      "role": "呼语",
+      "explanation": "当面称呼妈妈，点明对话对象，独立于句子主干。"
+    },
+    {
+      "text": "Bye-bye.",
+      "role": "感叹道别语",
+      "explanation": "独立成句，是告别时的常用口语表达。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词（主格）",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是，常常",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "enjoy",
+      "meaning": "享受，从…获得乐趣",
+      "pos": "动词",
+      "phonetic": "/ɪnˈdʒɔɪ/"
+    },
+    {
+      "text": "ourselves,",
+      "meaning": "我们自己（与enjoy构成固定搭配enjoy oneself，表玩得开心），（带逗号）",
+      "pos": "反身代词",
+      "phonetic": "/ˌaʊəˈselvz/"
+    },
+    {
+      "text": "Mum.",
+      "meaning": "妈妈。",
+      "pos": "名词",
+      "phonetic": "/mʌm/"
+    },
+    {
+      "text": "Bye-bye.",
+      "meaning": "再见。",
+      "pos": "感叹词",
+      "phonetic": "/ˌbaɪˈbaɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We always enjoy",
+      "meaning": "我们总是享受",
+      "relation": "句子主干的主语与动作部分"
+    },
+    {
+      "text": "ourselves,",
+      "meaning": "我们自己（与enjoy共同构成“玩得开心”的固定搭配），（带逗号）",
+      "relation": "补充说明enjoy的对象，构成固定搭配，附带句中停顿逗号"
+    },
+    {
+      "text": "Mum.",
+      "meaning": "妈妈。",
+      "relation": "补充呼语，点明说话的对象，附带第一个陈述句的句号"
+    },
+    {
+      "text": "Bye-bye.",
+      "meaning": "再见。",
+      "relation": "独立的道别表达，附带自身句号"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-65",
+  "sentenceId": "nce-1-lesson-065-sentence-020",
+  "sentenceOrder": 20,
+  "english": "We always enjoy ourselves, Mum. Bye-bye.",
+  "lesson": "Lesson 65 Not a baby",
+  "notes": [
+    {
+      "title": "反身代词作enjoy的宾语",
+      "text": "enjoy oneself是固定搭配，表示“过得愉快、玩得开心”，反身代词ourselves和主语we同指，不能换成普通代词us。"
+    },
+    {
+      "title": "呼语独立",
+      "text": "Mum是当面对妈妈的称呼，放在陈述句末尾，不参与句子主干的主谓结构，仅用于点明说话的对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体事实准确，主干提取、反身代词搭配、呼语的独立地位均符合语法规则，仅需要对词汇分块的释义做贴合固定搭配语境的优化，使其更符合成人母语表达习惯。（非逐句人工审核）"
+}

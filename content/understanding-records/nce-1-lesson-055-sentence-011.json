@@ -1,0 +1,133 @@
+{
+  "chinese": "夜里，孩子们总是做他们的作业。",
+  "intent": "陈述孩子们在夜间的日常固定行为。",
+  "comparison": null,
+  "backbone": {
+    "text": "The children always do their homework.",
+    "meaning": "孩子们总是做他们的作业。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间短语放在句首",
+      "text": "At night 放在句首，先交代行为发生的时间，再陈述主体动作，和中文表达顺序基本一致。"
+    },
+    {
+      "title": "频度副词位置",
+      "text": "always 放在实义动词 do 的前面，表示“总是、一直”，说明这个行为是孩子们每天的日常安排。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "At night",
+      "role": "时间状语",
+      "explanation": "点明do their homework这个动作发生的时间是在夜里。"
+    },
+    {
+      "text": "the children",
+      "role": "主语",
+      "explanation": "动作的发出者，指从事做作业行为的孩子们。"
+    },
+    {
+      "text": "always",
+      "role": "频度状语",
+      "explanation": "修饰谓语动词，说明做作业这个动作是经常性、一贯性的行为。"
+    },
+    {
+      "text": "do their homework",
+      "role": "谓语",
+      "explanation": "表达主语的核心动作，do是实义动词“做”，their homework是动作的对象。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "在",
+      "pos": "介词",
+      "phonetic": "/æt/",
+      "text": "At"
+    },
+    {
+      "meaning": "夜晚",
+      "pos": "名词",
+      "phonetic": "/naɪt/",
+      "text": "night,"
+    },
+    {
+      "meaning": "（特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "孩子们",
+      "pos": "名词",
+      "phonetic": "/ˈtʃɪldrən/",
+      "text": "children"
+    },
+    {
+      "meaning": "总是",
+      "pos": "频度副词",
+      "phonetic": "/ˈɔːlweɪz/",
+      "text": "always"
+    },
+    {
+      "meaning": "做",
+      "pos": "实义动词",
+      "phonetic": "/duː/",
+      "text": "do"
+    },
+    {
+      "meaning": "他们的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/ðeə(r)/",
+      "text": "their"
+    },
+    {
+      "meaning": "作业",
+      "pos": "名词",
+      "phonetic": "/ˈhəʊmwɜːk/",
+      "text": "homework."
+    }
+  ],
+  "parts": [
+    {
+      "text": "At night,",
+      "meaning": "在夜里",
+      "relation": "动作发生的时间"
+    },
+    {
+      "text": "the children",
+      "meaning": "孩子们",
+      "relation": "做出动作的主体"
+    },
+    {
+      "text": "always",
+      "meaning": "总是",
+      "relation": "描述动作的发生频率"
+    },
+    {
+      "text": "do their homework.",
+      "meaning": "做他们的作业",
+      "relation": "主语执行的核心动作及动作对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-55",
+  "sentenceId": "nce-1-lesson-055-sentence-011",
+  "sentenceOrder": 11,
+  "english": "At night, the children always do their homework.",
+  "lesson": "Lesson 55 The Sawyer family",
+  "notes": [
+    {
+      "title": "时间短语放在句首",
+      "text": "At night 放在句首，先交代行为发生的时间，再陈述主体动作，和中文表达顺序基本一致。"
+    },
+    {
+      "title": "频度副词位置",
+      "text": "always 放在实义动词 do 的前面，表示“总是、一直”，说明这个行为是孩子们每天的日常安排。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整句语义、句法切分和词汇标注基本正确。主要优化两处：一是原中文未体现物主代词 their，译文补出后表意更完整；二是原 parts 中“do their homework. ”的译文遗漏 their，仅译作“做作业”，补充对应指代后与原文语义一致，其余内容表述准确无误。（非逐句人工审核）"
+}

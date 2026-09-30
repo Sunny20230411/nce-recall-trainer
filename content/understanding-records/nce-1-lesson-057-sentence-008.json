@@ -1,0 +1,147 @@
+{
+  "chinese": "此刻，他们正在花园里玩。",
+  "intent": "描述当前时刻他们正在进行的活动，以及活动发生的地点，呼应上下文里今晚他们反常没有写作业的情节。",
+  "comparison": null,
+  "backbone": {
+    "text": "They are playing.",
+    "meaning": "他们正在玩耍。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在进行时的构成",
+      "text": "are playing是现在进行时结构，由be动词are加动词play的-ing形式playing组成，表示说话时刻正在发生的动作，区别于平时习惯性的行为。"
+    },
+    {
+      "title": "时间状语前置",
+      "text": "At the moment放在句首，点明动作发生的时间是“此刻”，呼应上句的反常情境：本该写作业的时候，他们此刻正在花园玩。"
+    },
+    {
+      "title": "地点说明",
+      "text": "in the garden说明玩耍的具体地点，介词in用于表示在某个区域或空间内部，garden这类户外庭院场所用in搭配是自然的表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "At the moment",
+      "role": "时间状语",
+      "explanation": "表示当前说话的这个时刻，交代后面动作发生的时间背景。"
+    },
+    {
+      "text": "they",
+      "role": "主语",
+      "explanation": "指代前文提到的孩子们，是“玩”这个动作的发出者。"
+    },
+    {
+      "text": "are playing",
+      "role": "谓语",
+      "explanation": "现在进行时的谓语部分，表示正在进行的动作。"
+    },
+    {
+      "text": "in the garden",
+      "role": "地点状语",
+      "explanation": "说明“玩”这个动作发生的具体地点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "At",
+      "meaning": "在（表示时间的介词）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，此处无实义）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "moment,",
+      "meaning": "此刻；瞬间（句末逗号随附）",
+      "pos": "名词",
+      "phonetic": "/ˈməʊmənt/"
+    },
+    {
+      "text": "they",
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（be动词复数形式，此处构成进行时）",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "playing",
+      "meaning": "玩耍（现在分词形式）",
+      "pos": "动词",
+      "phonetic": "/ˈpleɪɪŋ/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面（地点介词）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，此处无实义）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "garden.",
+      "meaning": "花园（句末句号随附）",
+      "pos": "名词",
+      "phonetic": "/ˈɡɑːdn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "At the moment,",
+      "relation": "点明动作正在发生的具体时间点，对应上下文里不写作业的反常当下。",
+      "meaning": "此刻"
+    },
+    {
+      "text": "they",
+      "relation": "指代表动作的主体，也就是前文提到的孩子们。",
+      "meaning": "他们"
+    },
+    {
+      "text": "are playing",
+      "relation": "描述主语此刻正在进行的动作，是句子的核心表述。",
+      "meaning": "正在玩"
+    },
+    {
+      "text": "in the garden.",
+      "relation": "补充说明玩耍这个动作发生的具体地点。",
+      "meaning": "在花园里。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-57",
+  "sentenceId": "nce-1-lesson-057-sentence-008",
+  "sentenceOrder": 8,
+  "english": "At the moment, they are playing in the garden.",
+  "lesson": "Lesson 57 An unusual day",
+  "notes": [
+    {
+      "title": "现在进行时的构成",
+      "text": "are playing是现在进行时结构，由be动词are加动词play的-ing形式playing组成，表示说话时刻正在发生的动作，区别于平时习惯性的行为。"
+    },
+    {
+      "title": "时间状语前置",
+      "text": "At the moment放在句首，点明动作发生的时间是“此刻”，呼应上句的反常情境：本该写作业的时候，他们此刻正在花园玩。"
+    },
+    {
+      "title": "地点说明",
+      "text": "in the garden说明玩耍的具体地点，介词in用于表示在某个区域或空间内部，garden这类户外庭院场所用in搭配是自然的表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，仅两处需微调：一是词性标注将定冠词the归为冠词，应统一表述为限定词以符合成人语法规范；二是单词表中moment、garden的音标错误附带了句中标点，需移除；另对地点说明中“封闭空间”的表述做严谨修正，其余内容无事实错误。（非逐句人工审核）"
+}

@@ -1,0 +1,68 @@
+{
+  "chinese": "他是中国人。",
+  "intent": "说明对方的国籍身份",
+  "backbone": {
+    "text": "He's Chinese.",
+    "meaning": "他是中国人"
+  },
+  "parts": [
+    {
+      "text": "He's",
+      "relation": "描述主体身份的判断标记",
+      "meaning": "他是"
+    },
+    {
+      "text": "Chinese.",
+      "relation": "说明主体的身份属性",
+      "meaning": "中国人"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "He's的缩略形式",
+      "text": "He's是He is的日常口语缩略，直接表示“他是”，不需要额外补充实义动作，专门用于介绍人物身份。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He's",
+      "role": "主语+系动词缩略组合",
+      "explanation": "指代前文提到的男性人物，同时带出判断身份的系动词，属于口语里的紧凑表达"
+    },
+    {
+      "text": "Chinese",
+      "role": "身份表语",
+      "explanation": "说明主体的国籍所属身份，句末的标点用于标识陈述语气的结束"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "他是",
+      "pos": "pronoun + verb",
+      "phonetic": "/hiːz/",
+      "text": "He's"
+    },
+    {
+      "meaning": "中国人",
+      "pos": "noun",
+      "phonetic": "/ˌtʃaɪˈniːz/",
+      "text": "Chinese."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-5",
+  "sentenceId": "nce-1-lesson-005-sentence-016",
+  "sentenceOrder": 16,
+  "english": "He's Chinese.",
+  "lesson": "Lesson 5 Nice to meet you.",
+  "notes": [
+    {
+      "title": "He's的缩略形式",
+      "text": "He's是He is的日常口语缩略，直接表示“他是”，不需要额外补充实义动作，专门用于介绍人物身份。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析整体符合面向中文母语成年人的英语学习要求，仅存在局部细节可优化修正，未出现核心语法概念错误、指代混淆等严重问题（非逐句人工审核）"
+}

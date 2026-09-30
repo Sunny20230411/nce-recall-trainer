@@ -1,0 +1,69 @@
+{
+  "chinese": "你好，史蒂文。",
+  "intent": "熟人见面时用轻松随意的语气向名为史蒂文的人打招呼致意。",
+  "comparison": null,
+  "backbone": {
+    "text": "Hi, Steven.",
+    "meaning": "向史蒂文问好致意。"
+  },
+  "parts": [
+    {
+      "text": "Hi,",
+      "relation": "传递致意的核心内容",
+      "meaning": "你好，打招呼的用语"
+    },
+    {
+      "text": "Steven.",
+      "relation": "明确打招呼的对象是谁",
+      "meaning": "称呼对方的名字史蒂文"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "称呼的位置",
+      "text": "这句问候把对方名字放在打招呼用语的后面，符合日常口语中先致意、再点明对象的表达习惯，语气随意自然。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Hi",
+      "role": "问候语",
+      "explanation": "用于熟人之间轻松的日常见面打招呼，表达友好的致意。"
+    },
+    {
+      "text": "Steven.",
+      "role": "称呼语",
+      "explanation": "直接点出问候的对象，让对方明确感知到是在和自己打招呼。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "嗨，你好",
+      "pos": "感叹词",
+      "phonetic": "/haɪ/",
+      "text": "Hi,"
+    },
+    {
+      "meaning": "史蒂文（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈstiːvən/",
+      "text": "Steven."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-9",
+  "sentenceId": "nce-1-lesson-009-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Hi, Steven.",
+  "lesson": "Lesson 9 How are you today?",
+  "notes": [
+    {
+      "title": "称呼的位置",
+      "text": "这句问候把对方名字放在打招呼用语的后面，符合日常口语中先致意、再点明对象的表达习惯，语气随意自然。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析基本合规，仅存在细节补全和修正项，不影响核心内容准确性（非逐句人工审核）"
+}

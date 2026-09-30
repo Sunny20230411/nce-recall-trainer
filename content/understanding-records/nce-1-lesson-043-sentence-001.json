@@ -1,0 +1,110 @@
+{
+  "chinese": "你会沏茶吗，萨姆？",
+  "intent": "向萨姆询问他是否具备沏茶的能力",
+  "backbone": {
+    "text": "Can you make the tea, Sam?",
+    "meaning": "你有没有能力完成沏茶这件事，此处问话明确指向萨姆"
+  },
+  "parts": [
+    {
+      "text": "Can",
+      "relation": "引出疑问的标记",
+      "meaning": "情态动词，用于引导询问能力的一般疑问句"
+    },
+    {
+      "text": "you",
+      "relation": "询问对象",
+      "meaning": "你，指代被询问的对象萨姆"
+    },
+    {
+      "text": "make the tea,",
+      "relation": "询问的核心行为内容",
+      "meaning": "沏茶，也就是泡茶冲调茶水的动作"
+    },
+    {
+      "text": "Sam?",
+      "relation": "补充点明问话的对象是谁",
+      "meaning": "萨姆，是这句问话指向的特定人名"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "疑问语序调整",
+      "text": "表达能力的情态动词can放在句首，后面接主语you再接动作内容，直接构成询问对方能力的一般疑问句，不需要额外添加助动词do。"
+    },
+    {
+      "title": "呼语的位置作用",
+      "text": "人名Sam放在句末，是当面喊出对话对象的称呼，用逗号和前面的问句主体隔开，不影响主句的疑问逻辑。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Can you make the tea",
+      "role": "一般疑问句主体",
+      "explanation": "核心疑问部分，用来询问对方是否拥有完成沏茶动作的能力"
+    },
+    {
+      "text": "Sam?",
+      "role": "呼语",
+      "explanation": "当面点明被询问的对象是萨姆，让对话指向明确"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "能够、会",
+      "pos": "modal verb",
+      "phonetic": "/kæn/",
+      "text": "Can"
+    },
+    {
+      "meaning": "你",
+      "pos": "pronoun",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "制作、此处指冲调沏制",
+      "pos": "verb",
+      "phonetic": "/meɪk/",
+      "text": "make"
+    },
+    {
+      "meaning": "这个、定指",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "茶",
+      "pos": "noun",
+      "phonetic": "/tiː/",
+      "text": "tea,"
+    },
+    {
+      "meaning": "萨姆（男子名）",
+      "pos": "proper noun",
+      "phonetic": "/sæm/",
+      "text": "Sam?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-43",
+  "sentenceId": "nce-1-lesson-043-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Can you make the tea, Sam?",
+  "lesson": "Lesson 43 Hurry up!",
+  "notes": [
+    {
+      "title": "疑问语序调整",
+      "text": "表达能力的情态动词can放在句首，后面接主语you再接动作内容，直接构成询问对方能力的一般疑问句，不需要额外添加助动词do。"
+    },
+    {
+      "title": "呼语的位置作用",
+      "text": "人名Sam放在句末，是当面喊出对话对象的称呼，用逗号和前面的问句主体隔开，不影响主句的疑问逻辑。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合要求，仅存在单词标点、主干完整性的局部细节偏差，可明确修正。（非逐句人工审核）"
+}

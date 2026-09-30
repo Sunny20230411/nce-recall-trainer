@@ -1,0 +1,80 @@
+{
+  "chinese": "有。",
+  "intent": "针对对方提出的“先生，您有帽子吗？”这个问题，作出肯定的简短回答。",
+  "comparison": null,
+  "backbone": {
+    "text": "I have.",
+    "meaning": "我有（帽子）。"
+  },
+  "structureNotes": [
+    {
+      "title": "答语的省略形式",
+      "text": "Yes, I have. 是针对 Have you got a hat, sir? 的简略肯定回答，完整表达为 Yes, I have got a hat. 省略后只保留主语 I 和助动词 have，结合上下文即可明确意思。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "语气肯定的应答词",
+      "explanation": "对前面提出的问题作出肯定回应，功能上对应中文的应答语气，而非疑问含义。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话的本人。"
+    },
+    {
+      "text": "have.",
+      "role": "简略谓语",
+      "explanation": "代替完整的 have got a hat 表述，说明自己确实拥有帽子。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes,",
+      "meaning": "是的（此处为语气肯定的应答词，不表示疑问含义）",
+      "pos": "感叹词",
+      "phonetic": "/jes/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "have.",
+      "meaning": "拥有（此处为助动词，替代完整的 have got a hat 表述）",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes,",
+      "relation": "肯定回应对方提出的问题",
+      "meaning": "是的"
+    },
+    {
+      "text": "I have.",
+      "relation": "给出核心的肯定答复，说明自己具备对方询问的物品",
+      "meaning": "我有（帽子）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-121",
+  "sentenceId": "nce-1-lesson-121-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Yes, I have.",
+  "lesson": "Lesson 121 The man in a hat",
+  "notes": [
+    {
+      "title": "答语的省略形式",
+      "text": "Yes, I have. 是针对 Have you got a hat, sir? 的简略肯定回答，完整表达为 Yes, I have got a hat. 省略后只保留主语 I 和助动词 have，结合上下文即可明确意思。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合原句语法与语境，主干、成分、词义和分块释义基本正确。存在一处可优化点：Yes 作为语气肯定的应答词，补充说明其功能对应中文常见的应答语气更完整；其余内容无需改动。（非逐句人工审核）"
+}

@@ -1,0 +1,99 @@
+{
+  "chinese": "你能站起来吗？",
+  "intent": "在询问对方是否具备站起来的能力，用于确认对方当前受伤后的身体状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "Can you stand up?",
+    "meaning": "询问对方是否有能力完成站起来这个动作。"
+  },
+  "structureNotes": [
+    {
+      "title": "情态动词can引导的一般疑问句",
+      "text": "can作为情态动词提前至句首，用来询问对方是否具备做某事的能力，本句中询问对方能否完成站起的动作。"
+    },
+    {
+      "title": "stand up是固定短语",
+      "text": "stand up表示“站起来、起立”，是固定搭配，up作为副词补充说明站立的状态是从卧/坐变为直立。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Can",
+      "role": "情态动词",
+      "explanation": "表示询问能力，提前至句首构成疑问句。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "句子询问的对象，指听话的人。"
+    },
+    {
+      "text": "stand up",
+      "role": "谓语",
+      "explanation": "固定动词短语，表示“站起来”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Can",
+      "meaning": "能够，可以",
+      "pos": "情态动词",
+      "phonetic": "/kæn/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/ju/"
+    },
+    {
+      "text": "stand",
+      "meaning": "站立、直立",
+      "pos": "动词",
+      "phonetic": "/stænd/"
+    },
+    {
+      "text": "up?",
+      "meaning": "向上；站起（与stand构成固定短语）",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Can",
+      "relation": "表询问能力，提前构成疑问句",
+      "meaning": "能够、可以"
+    },
+    {
+      "text": "you",
+      "relation": "被询问的对象",
+      "meaning": "你"
+    },
+    {
+      "text": "stand up?",
+      "relation": "要完成的动作",
+      "meaning": "站起来"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-99",
+  "sentenceId": "nce-1-lesson-099-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Can you stand up?",
+  "lesson": "Lesson 99 Ow!",
+  "notes": [
+    {
+      "title": "情态动词can引导的一般疑问句",
+      "text": "can作为情态动词提前至句首，用来询问对方是否具备做某事的能力，本句中询问对方能否完成站起的动作。"
+    },
+    {
+      "title": "stand up是固定短语",
+      "text": "stand up表示“站起来、起立”，是固定搭配，up作为副词补充说明站立的状态是从卧/坐变为直立。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句解析整体准确，核心语法标注、词义解释、中文翻译均符合本句语义与成人学习要求，仅存在两处标点细节问题：单词表中up的音标标注误将句末问号并入词条文本，以及can作为句首情态动词未标注对应的英式发音，修正后即可正常使用。（非逐句人工审核）"
+}

@@ -1,0 +1,129 @@
+{
+  "chinese": "你想再来一杯吗？",
+  "intent": "以委婉礼貌的语气向对方发出询问，确认对方是否想要再来一杯饮品，属于日常社交场合的礼貌服务/邀约表达。",
+  "comparison": {
+    "chinese": "你想再来一杯吗？",
+    "english": "Would you like another cup?",
+    "steps": [
+      {
+        "label": "先看疑问语气怎么来",
+        "text": "Would you like...",
+        "explanation": "Would 放在句首、主语 you 之前，是比 Do you want 更礼貌的询问框架；Would 不表示过去时，而是使邀约更客气、更留有余地。"
+      },
+      {
+        "label": "再看“再一杯”怎么表达",
+        "text": "another cup",
+        "explanation": "another 放在名词 cup 前，表示在已经喝过一杯的基础上，再增加同一类饮品的另一杯；cup 在此是“一杯饮品”的省略说法，不指杯子本身。"
+      }
+    ],
+    "takeaway": "英语用 Would 提前来表达礼貌邀约，用 another + 单数名词表达“再来一份/一杯”；中文则自然用“再”表示追加，语序和提问焦点基本一致。"
+  },
+  "backbone": {
+    "text": "Would you like another cup?",
+    "meaning": "询问对方是否想要再来一杯饮品。"
+  },
+  "structureNotes": [
+    {
+      "title": "Would you like 的礼貌用法",
+      "text": "Would 置于句首并非过去时态，而是让邀请、询问语气更委婉客气；这是日常提出邀约时最常用的礼貌结构之一，比更随意的 Do you want 更适合服务、待客场景。"
+    },
+    {
+      "title": "another 的限定作用",
+      "text": "another 接单数可数名词，表示在已知的一份之外再来同样的一份，不是“不同的另一个”；结合上文刚结束的饮用场景，自然指代“再喝一杯”。"
+    },
+    {
+      "title": "cup 的省略含义",
+      "text": "此处 cup 不是具体的杯子，而是用容器名代指“一杯（饮品）”，结合前文的茶/咖啡场景，无需额外补充说明就能被理解。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Would",
+      "role": "礼貌助动词",
+      "explanation": "放在句首构成委婉询问，不表达过去时间，仅用于让邀请语气更客气。"
+    },
+    {
+      "text": "you",
+      "role": "第二人称主语",
+      "explanation": "指代被询问的对方，是句子描述的对象。"
+    },
+    {
+      "text": "like",
+      "role": "谓语动词",
+      "explanation": "表示“想要、愿意”，在 Would you like 结构中表达礼貌的邀约询问。"
+    },
+    {
+      "text": "another cup?",
+      "role": "宾语",
+      "explanation": "作 like 的宾语，another 限定“再一杯”，cup 代指一杯饮品，末尾问号标记整个问句。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "会（用于委婉礼貌地提出邀请、询问）",
+      "pos": "助动词（will 的委婉形式）",
+      "phonetic": "/wʊd/",
+      "text": "Would"
+    },
+    {
+      "meaning": "你（您）",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "想要，愿意",
+      "pos": "动词",
+      "phonetic": "/laɪk/",
+      "text": "like"
+    },
+    {
+      "meaning": "另一（份/杯），再一（个）",
+      "pos": "限定词",
+      "phonetic": "/əˈnʌðə/",
+      "text": "another"
+    },
+    {
+      "meaning": "杯，一杯（的量）",
+      "pos": "名词",
+      "phonetic": "/kʌp/",
+      "text": "cup?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Would you like",
+      "relation": "句子核心的礼貌询问结构，用来发出委婉的邀请",
+      "meaning": "你想要……吗（礼貌询问框架）"
+    },
+    {
+      "text": "another cup?",
+      "relation": "询问的具体内容，作为like的宾语，承接“是否想要”的核心动作，用名词代指一杯饮品",
+      "meaning": "再来一杯（吗）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-109",
+  "sentenceId": "nce-1-lesson-109-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Would you like another cup?",
+  "lesson": "Lesson 109 A good idea",
+  "notes": [
+    {
+      "title": "Would you like 的礼貌用法",
+      "text": "Would 置于句首并非过去时态，而是让邀请、询问语气更委婉客气；这是日常提出邀约时最常用的礼貌结构之一，比更随意的 Do you want 更适合服务、待客场景。"
+    },
+    {
+      "title": "another 的限定作用",
+      "text": "another 接单数可数名词，表示在已知的一份之外再来同样的一份，不是“不同的另一个”；结合上文刚结束的饮用场景，自然指代“再喝一杯”。"
+    },
+    {
+      "title": "cup 的省略含义",
+      "text": "此处 cup 不是具体的杯子，而是用容器名代指“一杯（饮品）”，结合前文的茶/咖啡场景，无需额外补充说明就能被理解。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：核查发现一处易误导的表述：structureNotes 中写“比 Do you like 更适合服务、待客场景”，Do you like 用于询问喜好，而 Do you want 才是 Would you like 的口语化对比对象，存在表达不准的问题。其余内容主干完整、指代清晰、词性区分合理、词义贴合上下文场景，无其他错误。（非逐句人工审核）"
+}

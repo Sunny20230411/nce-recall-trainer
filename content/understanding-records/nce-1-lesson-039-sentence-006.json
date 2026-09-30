@@ -1,0 +1,87 @@
+{
+  "chinese": "小心！别把它摔了！",
+  "intent": "提醒对方留意动作，避免失手把手中的物品掉落摔坏。",
+  "comparison": null,
+  "backbone": {
+    "text": "Be careful! Don't drop it!",
+    "meaning": "发出小心的提醒，同时告诫不要把物品弄掉。"
+  },
+  "parts": [
+    {
+      "text": "Be careful!",
+      "relation": "直接向听话人发出的提醒指令",
+      "meaning": "小心！"
+    },
+    {
+      "text": "Don't drop it!",
+      "relation": "补充说明需要避免的具体行为",
+      "meaning": "别把它摔了！"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "祈使句用法",
+      "text": "两句都是面向听话人的直接指令，以动词原形开头，否定形式直接在句首加Don't，不需要额外写出主语you。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Be careful!",
+      "role": "肯定祈使句",
+      "explanation": "用于直接提醒他人注意，以be动词原形开头搭配形容词构成指令。"
+    },
+    {
+      "text": "Don't drop it!",
+      "role": "否定祈使句",
+      "explanation": "用于告诫他人不要做某事，以Don't加动词原形开头，后接动作涉及的对象it。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是（be动词原形，此处用于构成提醒指令）",
+      "pos": "verb",
+      "phonetic": "/biː/",
+      "text": "Be"
+    },
+    {
+      "meaning": "小心的",
+      "pos": "adjective",
+      "phonetic": "/ˈkeəfəl/",
+      "text": "careful!"
+    },
+    {
+      "meaning": "不要（是do not的缩约形式，由助动词do+否定副词not构成）",
+      "pos": "contraction (auxiliary verb + adverb)",
+      "phonetic": "/dəʊnt/",
+      "text": "Don't"
+    },
+    {
+      "meaning": "使落下、摔落",
+      "pos": "verb",
+      "phonetic": "/drɒp/",
+      "text": "drop"
+    },
+    {
+      "meaning": "它",
+      "pos": "pronoun",
+      "phonetic": "/ɪt/",
+      "text": "it!"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-39",
+  "sentenceId": "nce-1-lesson-039-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Be careful! Don't drop it!",
+  "lesson": "Lesson 39 Don't drop it!",
+  "notes": [
+    {
+      "title": "祈使句用法",
+      "text": "两句都是面向听话人的直接指令，以动词原形开头，否定形式直接在句首加Don't，不需要额外写出主语you。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合教学要求，仅存在局部细节表述不严谨、缺失comparison字段说明的可修正问题，不影响核心语义理解（非逐句人工审核）"
+}

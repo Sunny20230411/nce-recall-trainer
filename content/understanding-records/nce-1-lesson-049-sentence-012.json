@@ -1,0 +1,159 @@
+{
+  "chinese": "我丈夫喜欢牛排，但他不喜欢鸡肉。",
+  "intent": "说明丈夫对两种肉类的喜好反差：喜欢牛排、不喜欢鸡肉。",
+  "comparison": null,
+  "backbone": {
+    "text": "My husband likes steak, but he doesn't like chicken.",
+    "meaning": "我丈夫喜欢牛排，但是他不喜欢鸡肉。"
+  },
+  "structureNotes": [
+    {
+      "title": "but 连接的对比关系",
+      "text": "but 将前后两个分句直接并列，突出同一人对两种肉类的不同态度。"
+    },
+    {
+      "title": "doesn't like 的否定方式",
+      "text": "一般现在时的否定用 doesn't + 动词原形 like，doesn't 承担否定和时态，he 指代 my husband。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My husband",
+      "role": "前半句主语",
+      "explanation": "指说话人的丈夫，是前半句动作 likes 的发出者。"
+    },
+    {
+      "text": "likes",
+      "role": "前半句谓语",
+      "explanation": "一般现在时第三人称单数，表示喜好。"
+    },
+    {
+      "text": "steak",
+      "role": "前半句宾语",
+      "explanation": "喜好的对象，不可数名词表示牛排这种肉类。"
+    },
+    {
+      "text": "but",
+      "role": "并列连词",
+      "explanation": "连接前后两个分句，形成转折对比。"
+    },
+    {
+      "text": "he",
+      "role": "后半句主语",
+      "explanation": "指代 my husband，避免重复。"
+    },
+    {
+      "text": "doesn't like",
+      "role": "后半句谓语",
+      "explanation": "一般现在时第三人称单数的否定形式，表示不喜欢。"
+    },
+    {
+      "text": "chicken",
+      "role": "后半句宾语",
+      "explanation": "不喜欢的对象，此处作不可数名词表示鸡肉。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/",
+      "text": "My"
+    },
+    {
+      "meaning": "丈夫",
+      "pos": "名词",
+      "phonetic": "/ˈhʌzbənd/",
+      "text": "husband"
+    },
+    {
+      "meaning": "喜欢",
+      "pos": "动词",
+      "phonetic": "/laɪks/",
+      "text": "likes"
+    },
+    {
+      "meaning": "牛排",
+      "pos": "名词",
+      "phonetic": "/steɪk/",
+      "text": "steak,"
+    },
+    {
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt; bət/",
+      "text": "but"
+    },
+    {
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/",
+      "text": "he"
+    },
+    {
+      "meaning": "不（构成否定）",
+      "pos": "助动词",
+      "phonetic": "/ˈdʌznt/",
+      "text": "doesn't"
+    },
+    {
+      "meaning": "喜欢",
+      "pos": "动词",
+      "phonetic": "/laɪk/",
+      "text": "like"
+    },
+    {
+      "meaning": "鸡；鸡肉",
+      "pos": "名词",
+      "phonetic": "/ˈtʃɪkɪn/",
+      "text": "chicken."
+    }
+  ],
+  "parts": [
+    {
+      "text": "My husband likes",
+      "meaning": "我的丈夫喜欢",
+      "relation": "表达主语的肯定喜好"
+    },
+    {
+      "text": "steak,",
+      "meaning": "牛排",
+      "relation": "喜欢的对象"
+    },
+    {
+      "text": "but he",
+      "meaning": "但他",
+      "relation": "转折并引出同一人的另一态度"
+    },
+    {
+      "text": "doesn't like",
+      "meaning": "不喜欢",
+      "relation": "否定谓语"
+    },
+    {
+      "text": "chicken.",
+      "meaning": "鸡；鸡肉",
+      "relation": "不喜欢的对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-49",
+  "sentenceId": "nce-1-lesson-049-sentence-012",
+  "sentenceOrder": 12,
+  "english": "My husband likes steak, but he doesn't like chicken.",
+  "lesson": "Lesson 49 At the butcher's",
+  "notes": [
+    {
+      "title": "but 连接的对比关系",
+      "text": "but 将前后两个分句直接并列，突出同一人对两种肉类的不同态度。"
+    },
+    {
+      "title": "doesn't like 的否定方式",
+      "text": "一般现在时的否定用 doesn't + 动词原形 like，doesn't 承担否定和时态，he 指代 my husband。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，翻译通顺，主干完整，指代和否定结构清晰；仅需把“chicken”的释义从单纯的“鸡肉”补充为包含上下文中“作为食物的鸡/鸡肉”的表述，避免将词义局限于不可数食物含义。（非逐句人工审核）"
+}

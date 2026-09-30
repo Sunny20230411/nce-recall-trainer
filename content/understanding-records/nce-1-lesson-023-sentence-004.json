@@ -1,0 +1,113 @@
+{
+  "chinese": "不，不是那些。架子上的那几个。",
+  "intent": "针对对方的物品指认做出否定回应，随后明确指出正确指代的物品位置。",
+  "comparison": null,
+  "backbone": {
+    "text": "No, not those. The ones on the shelf.",
+    "meaning": "否定对方先前提到的那几个物品，指明正确的是架子上的那几个物品。"
+  },
+  "parts": [
+    {
+      "text": "No, not those.",
+      "relation": "直接给出否定答复",
+      "meaning": "不，不是那些物品"
+    },
+    {
+      "text": "The ones on the shelf.",
+      "relation": "补充说明正确指代的物品具体位置",
+      "meaning": "放在架子上的那几个物品"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略的语境指代",
+      "text": "这两句都是口语里的省略表达，省去了上文中重复出现的指代对象glasses，听话人可以直接通过上下文补全完整语义，不需要额外补充多余表述。"
+    },
+    {
+      "title": "ones的指代作用",
+      "text": "这里的ones用来代替前面提到过的复数物品glasses，避免把同样的名词再说一遍，让口语表达更简洁自然。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No, not those",
+      "role": "否定回应片段",
+      "explanation": "用于快速否定对方刚刚指向的那一组物品，是日常口语里高频的简短否定表达。"
+    },
+    {
+      "text": "The ones on the shelf",
+      "role": "指向说明片段",
+      "explanation": "用ones代指前文提到的复数物品，搭配方位介词短语说明物品所在的位置，清晰指明正确的指代对象。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "不",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/",
+      "text": "No,"
+    },
+    {
+      "meaning": "不是",
+      "pos": "副词",
+      "phonetic": "/nɒt/",
+      "text": "not"
+    },
+    {
+      "meaning": "那些",
+      "pos": "代词",
+      "phonetic": "/ðəʊz/",
+      "text": "those."
+    },
+    {
+      "meaning": "这个（定冠词，此处配合ones表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "那些（代指前文提到的复数物品glasses）",
+      "pos": "代词",
+      "phonetic": "/wʌnz/",
+      "text": "ones"
+    },
+    {
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "这个（定冠词，特指眼前已知的架子）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "架子",
+      "pos": "名词",
+      "phonetic": "/ʃelf/",
+      "text": "shelf."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-23",
+  "sentenceId": "nce-1-lesson-023-sentence-004",
+  "sentenceOrder": 4,
+  "english": "No, not those. The ones on the shelf.",
+  "lesson": "Lesson 23 Which glasses?",
+  "notes": [
+    {
+      "title": "省略的语境指代",
+      "text": "这两句都是口语里的省略表达，省去了上文中重复出现的指代对象glasses，听话人可以直接通过上下文补全完整语义，不需要额外补充多余表述。"
+    },
+    {
+      "title": "ones的指代作用",
+      "text": "这里的ones用来代替前面提到过的复数物品glasses，避免把同样的名词再说一遍，让口语表达更简洁自然。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合要求，仅存在局部细节疏漏可修正（非逐句人工审核）"
+}

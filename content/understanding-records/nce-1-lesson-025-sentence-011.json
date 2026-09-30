@@ -1,0 +1,133 @@
+{
+  "chinese": "桌子上还有一个杯子。",
+  "intent": "补充说明桌子上除了已提到的物品之外，还存在一个杯子，延续对厨房桌面物品状态的描述。",
+  "comparison": null,
+  "backbone": {
+    "text": "There is a cup",
+    "meaning": "核心表达存在一个杯子的基础事实。"
+  },
+  "parts": [
+    {
+      "text": "There is",
+      "relation": "引出存在关系的框架",
+      "meaning": "there be存在句型，表示某地有某物"
+    },
+    {
+      "text": "a cup",
+      "relation": "说明存在的具体事物是什么",
+      "meaning": "一个杯子"
+    },
+    {
+      "text": "on the table,",
+      "relation": "补充说明杯子所处的位置",
+      "meaning": "在桌子上"
+    },
+    {
+      "text": "too.",
+      "relation": "补充说明这是前文提及之外的另一项物品补充",
+      "meaning": "也、还"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "There be句型逻辑",
+      "text": "本句用There is引出存在的物品，核心要描述的内容是a cup，主语位置的there不指代实际事物，只是存在句型的引导占位词。"
+    },
+    {
+      "title": "too的用法",
+      "text": "末尾的too带逗号隔开，呼应前文提到的桌面上的瓶子，说明杯子是桌上额外存在的物品，传递“还、也”的补充含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There is",
+      "role": "存在句型引导框架",
+      "explanation": "用于引出后续存在的物品，搭配单数名词使用对应is。"
+    },
+    {
+      "text": "a cup",
+      "role": "存在句型的核心主语",
+      "explanation": "整句话要说明的实际存在的事物，是描述的核心对象。"
+    },
+    {
+      "text": "on the table",
+      "role": "地点状语",
+      "explanation": "指明杯子所在的具体位置，补充核心事物的放置场景。"
+    },
+    {
+      "text": "too.",
+      "role": "补充语气标记",
+      "explanation": "承接前文语境，说明该物品是在已有描述之外新增的补充信息。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "存在句型引导词，无实际语义",
+      "pos": "代词",
+      "phonetic": "/ðeə/",
+      "text": "There"
+    },
+    {
+      "meaning": "是，这里搭配there be表示存在",
+      "pos": "动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "一个（不定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "杯子",
+      "pos": "名词",
+      "phonetic": "/kʌp/",
+      "text": "cup"
+    },
+    {
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "这个（定冠词，特指双方都知道的那张桌子）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "桌子",
+      "pos": "名词",
+      "phonetic": "/ˈteɪbl/",
+      "text": "table,"
+    },
+    {
+      "meaning": "也，还",
+      "pos": "副词",
+      "phonetic": "/tuː/",
+      "text": "too."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-25",
+  "sentenceId": "nce-1-lesson-025-sentence-011",
+  "sentenceOrder": 11,
+  "english": "There is a cup on the table, too.",
+  "lesson": "Lesson 25 Mrs. Smith's kitchen",
+  "notes": [
+    {
+      "title": "There be句型逻辑",
+      "text": "本句用There is引出存在的物品，核心要描述的内容是a cup，主语位置的there不指代实际事物，只是存在句型的引导占位词。"
+    },
+    {
+      "title": "too的用法",
+      "text": "末尾的too带逗号隔开，呼应前文提到的桌面上的瓶子，说明杯子是桌上额外存在的物品，传递“还、也”的补充含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确合规，存在两处可明确修正的细节问题，修正后内容完全符合要求。（非逐句人工审核）"
+}

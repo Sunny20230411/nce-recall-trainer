@@ -1,0 +1,111 @@
+{
+  "chinese": "画在墙上。",
+  "intent": "说明房间里那些画所处的具体位置。",
+  "comparison": null,
+  "backbone": {
+    "text": "The pictures are on the wall.",
+    "meaning": "画作位于墙面之上。"
+  },
+  "parts": [
+    {
+      "text": "The pictures",
+      "relation": "描述本句所指的主体对象",
+      "meaning": "（上文提到过的那些）画"
+    },
+    {
+      "text": "are",
+      "relation": "衔接主体和它的所在位置",
+      "meaning": "处于、位于"
+    },
+    {
+      "text": "on the wall.",
+      "relation": "补充说明主体所处的具体位置",
+      "meaning": "在墙上面"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "定冠词The的指代作用",
+      "text": "句首的The指代前文刚提到的some pictures，用来明确指双方都清楚的特定画作，不是任意的画。"
+    },
+    {
+      "title": "地点介词on的含义",
+      "text": "on在这里表示物体附着或处在某个平面的上方，说明画作是张贴或挂在墙面的表面上。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The pictures",
+      "role": "名词主语",
+      "explanation": "是全句描述的核心对象，指代前文出现过的特定画作。"
+    },
+    {
+      "text": "are",
+      "role": "系动词",
+      "explanation": "用来连接主语和后续的位置说明，表明主语所处的状态。"
+    },
+    {
+      "text": "on the wall",
+      "role": "地点表语",
+      "explanation": "说明主语所在的具体位置，清晰交代画作所处的位置。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这个、这些（特指前文提到的事物）",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "画、图画",
+      "pos": "noun",
+      "phonetic": "/ˈpɪktʃəz/",
+      "text": "pictures"
+    },
+    {
+      "meaning": "处于、位于（be动词的复数现在时形式）",
+      "pos": "verb",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "在……之上",
+      "pos": "preposition",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "这个（特指双方知晓的事物）",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "墙",
+      "pos": "noun",
+      "phonetic": "/wɔːl/",
+      "text": "wall."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-27",
+  "sentenceId": "nce-1-lesson-027-sentence-013",
+  "sentenceOrder": 13,
+  "english": "The pictures are on the wall.",
+  "lesson": "Lesson 27 Mrs. Smith's living room",
+  "notes": [
+    {
+      "title": "定冠词The的指代作用",
+      "text": "句首的The指代前文刚提到的some pictures，用来明确指双方都清楚的特定画作，不是任意的画。"
+    },
+    {
+      "title": "地点介词on的含义",
+      "text": "on在这里表示物体附着或处在某个平面的上方，说明画作是张贴或挂在墙面的表面上。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合面向中文母语成年人的英语解析要求，仅存在部分细节疏漏与表述瑕疵，可明确修正（非逐句人工审核）"
+}

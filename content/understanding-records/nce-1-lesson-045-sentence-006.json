@@ -1,0 +1,112 @@
+{
+  "chinese": "鲍勃，请去问问她。",
+  "intent": "说话人直接吩咐鲍勃去询问前一句里提到的女性，please 只是缓和语气，核心祈使内容仍然明确。",
+  "comparison": null,
+  "backbone": {
+    "text": "Ask her, Bob.",
+    "meaning": "祈使句省略第二人称主语 you，意为“（你）去问她，鲍勃”。"
+  },
+  "structureNotes": [
+    {
+      "title": "祈使句的省略主语",
+      "text": "祈使句直接以动词原形 Ask 开头，默认省略听话人主语 you，因此不需要助动词，也不是疑问句。"
+    },
+    {
+      "title": "please 的位置",
+      "text": "please 放在祈使内容之后、呼语之前，用逗号隔开，作用是把直接吩咐缓和为礼貌请求；句末逗号使其语气更轻，而不是改变主干动作。"
+    },
+    {
+      "title": "呼语的位置",
+      "text": "人名 Bob 放在句末作呼语，点明听话对象，独立于“Ask her”主干之外。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Ask",
+      "role": "祈使句谓语核心",
+      "explanation": "动词原形开头表示直接指令，默认主语是听话人 you。"
+    },
+    {
+      "text": "her",
+      "role": "谓语动词的宾语",
+      "explanation": "宾格代词作 ask 的宾语，指代前一句中的女性。"
+    },
+    {
+      "text": "please,",
+      "role": "礼貌语气修饰",
+      "explanation": "放在请求内容之后缓和命令语气，表示礼貌的请求或客气叮嘱。"
+    },
+    {
+      "text": "Bob.",
+      "role": "呼语",
+      "explanation": "独立于句子主干之外，点明这句话的听话人是鲍勃。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "询问；叫她做某事",
+      "pos": "动词原形",
+      "phonetic": "/ɑːsk/",
+      "text": "Ask"
+    },
+    {
+      "meaning": "她（宾格）",
+      "pos": "人称代词宾格",
+      "phonetic": "/hɜː/",
+      "text": "her"
+    },
+    {
+      "meaning": "请；劳驾",
+      "pos": "感叹词（礼貌用语）",
+      "phonetic": "/pliːz/",
+      "text": "please,"
+    },
+    {
+      "meaning": "鲍勃（人名）",
+      "pos": "名词",
+      "phonetic": "/bɒb/",
+      "text": "Bob."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Ask her",
+      "meaning": "去问问她",
+      "relation": "核心祈使内容，省略第二人称主语 you"
+    },
+    {
+      "text": "please,",
+      "meaning": "请；劳驾",
+      "relation": "缓和祈使语气，使吩咐更礼貌"
+    },
+    {
+      "text": "Bob.",
+      "meaning": "鲍勃",
+      "relation": "呼语，独立于主干之外，点明听话人"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-45",
+  "sentenceId": "nce-1-lesson-045-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Ask her please, Bob.",
+  "lesson": "Lesson 45 The boss's letter",
+  "notes": [
+    {
+      "title": "祈使句的省略主语",
+      "text": "祈使句直接以动词原形 Ask 开头，默认省略听话人主语 you，因此不需要助动词，也不是疑问句。"
+    },
+    {
+      "title": "please 的位置",
+      "text": "please 放在祈使内容之后、呼语之前，用逗号隔开，作用是把直接吩咐缓和为礼貌请求；句末逗号使其语气更轻，而不是改变主干动作。"
+    },
+    {
+      "title": "呼语的位置",
+      "text": "人名 Bob 放在句末作呼语，点明听话对象，独立于“Ask her”主干之外。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：例句主干、省略主语、please 位置、呼语结构及音标基本正确；please 的两个释义均为礼貌客套语，按原句结构补充更明确的汉语译文。（非逐句人工审核）"
+}

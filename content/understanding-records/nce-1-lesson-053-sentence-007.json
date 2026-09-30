@@ -1,0 +1,129 @@
+{
+  "chinese": "你最喜欢哪些季节？",
+  "intent": "向对方提问其最喜爱的季节是哪几个。",
+  "comparison": null,
+  "backbone": {
+    "text": "Which seasons do you like best?",
+    "meaning": "询问对方最喜欢的具体季节。"
+  },
+  "structureNotes": [
+    {
+      "title": "特殊疑问句的倒装语序",
+      "text": "本句谓语是实义动词like，以疑问词组which seasons引导构成现在时特殊疑问句时，需要把助动词do放到主语you前面，再连接动词原形like。"
+    },
+    {
+      "title": "疑问词组的句法作用",
+      "text": "which seasons是like的宾语，直接跟在疑问句句首，用来明确提问的对象是“哪些季节”，而不是其他事物。"
+    },
+    {
+      "title": "最高级的位置",
+      "text": "best是副词well的最高级形式，修饰like表示程度“最”，放在句末符合英语表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Which seasons",
+      "role": "疑问宾语",
+      "explanation": "指代要提问的对象，充当动词like的宾语，点明问题围绕“季节”展开。"
+    },
+    {
+      "text": "do",
+      "role": "助动词",
+      "explanation": "帮助实义动词like构成现在时疑问句，本身无实义，语法上需要提前到主语之前。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "动作like的发出者，指被提问的对方。"
+    },
+    {
+      "text": "like",
+      "role": "谓语动词",
+      "explanation": "核心动作，表示“喜欢”，受助动词do影响用动词原形。"
+    },
+    {
+      "text": "best",
+      "role": "程度状语",
+      "explanation": "修饰动词like，说明喜欢的程度是“最”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Which",
+      "meaning": "哪一个；哪些",
+      "pos": "疑问限定词",
+      "phonetic": "/wɪtʃ/"
+    },
+    {
+      "text": "seasons",
+      "meaning": "季节（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈsiːznz/"
+    },
+    {
+      "text": "do",
+      "meaning": "助动词，无实义，帮助构成现在时疑问句",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢",
+      "pos": "动词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "best?",
+      "meaning": "最；最好地",
+      "pos": "副词（well的最高级）",
+      "phonetic": "/best/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Which seasons",
+      "meaning": "哪些季节",
+      "relation": "询问对象，是动词like的宾语。"
+    },
+    {
+      "text": "do you like",
+      "meaning": "你（们）喜欢",
+      "relation": "句子主干部分，包含助动词、主语和核心谓语。"
+    },
+    {
+      "text": "best?",
+      "meaning": "最",
+      "relation": "修饰like，说明喜欢的程度。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-53",
+  "sentenceId": "nce-1-lesson-053-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Which seasons do you like best?",
+  "lesson": "Lesson 53 An interesting climate",
+  "notes": [
+    {
+      "title": "特殊疑问句的倒装语序",
+      "text": "本句谓语是实义动词like，以疑问词组which seasons引导构成现在时特殊疑问句时，需要把助动词do放到主语you前面，再连接动词原形like。"
+    },
+    {
+      "title": "疑问词组的句法作用",
+      "text": "which seasons是like的宾语，直接跟在疑问句句首，用来明确提问的对象是“哪些季节”，而不是其他事物。"
+    },
+    {
+      "title": "最高级的位置",
+      "text": "best是副词well的最高级形式，修饰like表示程度“最”，放在句末符合英语表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体翻译、主干、成分划分与词义标注准确，仅存在术语表述不当问题：本句是由which seasons引导的特殊疑问句，并非一般疑问句，原有的两处“一般疑问句的倒装语序”表述错误，需要修正为特殊疑问句对应的语序说明。（非逐句人工审核）"
+}

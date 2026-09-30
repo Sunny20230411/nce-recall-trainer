@@ -1,0 +1,152 @@
+{
+  "chinese": "他说他住在一家青年旅舍。",
+  "intent": "转述男性对象告知的、当前正在居住的具体地点。",
+  "comparison": {
+    "chinese": "他说他住在一家青年旅舍。",
+    "english": "He says he's staying at a Youth Hostel.",
+    "steps": [
+      {
+        "label": "确定转述框架",
+        "text": "He says...",
+        "explanation": "表示信息来自这位男性本人的表述，说明他说了某件事。"
+      },
+      {
+        "label": "拆分从句成分",
+        "text": "he's staying",
+        "explanation": "从句主语是he，对应被转述的人；现在进行时描述他当下这段时间正在持续的居住状态，并非完全否定临时暂住的属性，只是强调当前的居留状态。"
+      },
+      {
+        "label": "补全地点搭配",
+        "text": "at a Youth Hostel",
+        "explanation": "stay at接小型住宿地点，表示居住在该处；Youth Hostel作为固定专有名词短语，首字母大写表示“青年旅舍”这类面向青年的平价短期住宿场所。"
+      }
+    ],
+    "takeaway": "宾语从句通过语序直接跟随谓语动词says，省略了引导词that；从句保留陈述语序，用现在进行时表达当前持续的居住状态。"
+  },
+  "backbone": {
+    "text": "He says he's staying at a Youth Hostel.",
+    "meaning": "（被转述的这位男性）说，他当下正住在一家青年旅舍里。"
+  },
+  "structureNotes": [
+    {
+      "title": "宾语从句省略that",
+      "text": "says后面直接跟随陈述内容的小句，此处省略了引导宾语从句的that；理解时要明确后面的小句是“说的具体内容”，不要把从句里的he's当成主句says的另一个主语。"
+    },
+    {
+      "title": "at加住宿地点的搭配",
+      "text": "stay at后接具体的小型住宿场所，表示居住在该处；如果是大型建筑或城市，会改用in，这里的青年旅舍是小型住宿点，因此用at。"
+    },
+    {
+      "title": "专有名词Youth Hostel",
+      "text": "Youth Hostel是固定的专有名词短语，指面向青年的平价旅舍，两个词都大写首字母，Youth在此处作为专有名词的组成部分修饰Hostel，共同构成特定场所名称。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主句主语",
+      "explanation": "指这位提供转述信息的男性，是“说话”这个动作的发出者。"
+    },
+    {
+      "text": "says",
+      "role": "主句谓语",
+      "explanation": "一般现在时，表示他当下说出的内容，是主句的核心动作。"
+    },
+    {
+      "text": "he's staying at a Youth Hostel.",
+      "role": "宾语从句（直接引语转述的内容）",
+      "explanation": "作says的宾语，整体表示“说的具体内容”；从句内he是主语，is staying是现在进行时谓语，at a Youth Hostel是地点状语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词（主格）",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "says",
+      "meaning": "说，讲",
+      "pos": "动词（第三人称单数现在时）",
+      "phonetic": "/sez/"
+    },
+    {
+      "text": "he's",
+      "meaning": "他是/他正在",
+      "pos": "缩写（he is）",
+      "phonetic": "/hiːz/"
+    },
+    {
+      "text": "staying",
+      "meaning": "暂住，居住（现在分词）",
+      "pos": "动词（现在分词）",
+      "phonetic": "/ˈsteɪɪŋ/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（表示位于小地点）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一家",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "Youth",
+      "meaning": "青年",
+      "pos": "名词（作定语，组成专有名词）",
+      "phonetic": "/juːθ/"
+    },
+    {
+      "text": "Hostel.",
+      "meaning": "旅舍（组成专有名词Youth Hostel，青年旅舍。）",
+      "pos": "名词",
+      "phonetic": "/ˈhɒstəl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He says",
+      "relation": "引出后续转述内容的主句框架。",
+      "meaning": "他说"
+    },
+    {
+      "text": "he's staying at",
+      "relation": "转述内容的主谓结构，表示当前持续的居住状态。",
+      "meaning": "他正住在"
+    },
+    {
+      "text": "a Youth Hostel.",
+      "relation": "补充说明居住的具体地点。",
+      "meaning": "一家青年旅舍。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-101",
+  "sentenceId": "nce-1-lesson-101-sentence-005",
+  "sentenceOrder": 5,
+  "english": "He says he's staying at a Youth Hostel.",
+  "lesson": "Lesson 101 A card from Jimmy",
+  "notes": [
+    {
+      "title": "宾语从句省略that",
+      "text": "says后面直接跟随陈述内容的小句，此处省略了引导宾语从句的that；理解时要明确后面的小句是“说的具体内容”，不要把从句里的he's当成主句says的另一个主语。"
+    },
+    {
+      "title": "at加住宿地点的搭配",
+      "text": "stay at后接具体的小型住宿场所，表示居住在该处；如果是大型建筑或城市，会改用in，这里的青年旅舍是小型住宿点，因此用at。"
+    },
+    {
+      "title": "专有名词Youth Hostel",
+      "text": "Youth Hostel是固定的专有名词短语，指面向青年的平价旅舍，两个词都大写首字母，Youth在此处作为专有名词的组成部分修饰Hostel，共同构成特定场所名称。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析对宾语从句省略that、现在进行时表当前持续状态、介词at接小型地点、专有名词Youth Hostel的核心语法解释基本准确，分块与词项的原意、词性标注、地点搭配说明均正确，仅存在少量可明确修正的细节：1. comparison步骤中对现在进行时的表述存在绝对化问题，未说明青年旅舍本身就是短期住宿场所、用进行时只是对应当前居留时段，不是完全否定暂住属性；2. 末尾带句号的Hostel词项音标后误加了多余句点，与原文本不匹配。（非逐句人工审核）"
+}

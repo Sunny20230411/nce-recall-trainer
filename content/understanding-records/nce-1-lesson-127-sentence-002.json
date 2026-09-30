@@ -1,0 +1,157 @@
+{
+  "chinese": "她当时不可能是四十三岁，肯定至少五十岁了。",
+  "intent": "基于已有线索对前文提到的这位女士过去的年龄做出两种相反判断：先否定四十三岁的猜测，再给出符合实际情况的年龄结论。",
+  "comparison": null,
+  "backbone": {
+    "text": "She can't have been forty-three. She must have been at least fifty.",
+    "meaning": "结合语境，can't have been与must have been均是对过去状态的推测，因此本句含义为：她当时不可能是四十三岁，肯定至少有五十岁了。"
+  },
+  "structureNotes": [
+    {
+      "title": "情态动词+have been的推测用法",
+      "text": "can't have been和must have been都是对过去状态的推断，can't表示“（过去）不可能”，must表示“（过去）肯定”，二者方向相反但都指向过去的实际年龄，不是对当下年龄的陈述。"
+    },
+    {
+      "title": "at least的修饰作用",
+      "text": "at least修饰fifty，表示年龄下限，意思是“不低于五十”，暗示实际年龄可能比五十更大，不代表恰好五十岁。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "主语",
+      "explanation": "两句共指同一位女士，是被判断年龄的对象。"
+    },
+    {
+      "text": "can't have been",
+      "role": "否定推测谓语",
+      "explanation": "can't表强烈否定，have been指向过去的状态，合起来表示“过去不可能是某情况”。"
+    },
+    {
+      "text": "forty-three.",
+      "role": "表语",
+      "explanation": "给出被否定的具体年龄数值。"
+    },
+    {
+      "text": "must have been",
+      "role": "肯定推测谓语",
+      "explanation": "must表强烈肯定，have been同样指向过去状态，合起来表示“过去肯定是某情况”。"
+    },
+    {
+      "text": "at least",
+      "role": "状语",
+      "explanation": "修饰后面的数词fifty，限定年龄的最低限度。"
+    },
+    {
+      "text": "fifty.",
+      "role": "表语",
+      "explanation": "给出推测出的最低年龄数值。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "can't",
+      "meaning": "不可能（can not的缩写）",
+      "pos": "情态动词",
+      "phonetic": "/kɑːnt/"
+    },
+    {
+      "text": "have",
+      "meaning": "（与过去分词连用，构成完成结构）",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "been",
+      "meaning": "是（be的过去分词，表状态）",
+      "pos": "动词be",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "forty-three.",
+      "meaning": "四十三岁",
+      "pos": "数词",
+      "phonetic": "/ˌfɔːtiˈθriː/"
+    },
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "must",
+      "meaning": "一定，肯定",
+      "pos": "情态动词",
+      "phonetic": "/mʌst/"
+    },
+    {
+      "text": "have",
+      "meaning": "（与过去分词连用，构成完成结构）",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "been",
+      "meaning": "是（be的过去分词，表状态）",
+      "pos": "动词be",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "at",
+      "meaning": "（用于at least短语中）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "least",
+      "meaning": "最少，至少",
+      "pos": "副词",
+      "phonetic": "/liːst/"
+    },
+    {
+      "text": "fifty.",
+      "meaning": "五十岁",
+      "pos": "数词",
+      "phonetic": "/ˈfɪfti/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She can't have been forty-three.",
+      "meaning": "她当时不可能是四十三岁。",
+      "relation": "给出对过去年龄的否定性推测，否掉前文提出的四十三岁猜测。"
+    },
+    {
+      "text": "She must have been at least fifty.",
+      "meaning": "她当时肯定至少五十岁了。",
+      "relation": "给出对应的肯定性推测，作为更符合实际的年龄判断。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-127",
+  "sentenceId": "nce-1-lesson-127-sentence-002",
+  "sentenceOrder": 2,
+  "english": "She can't have been forty-three. She must have been at least fifty.",
+  "lesson": "Lesson 127 A famous actress",
+  "notes": [
+    {
+      "title": "情态动词+have been的推测用法",
+      "text": "can't have been和must have been都是对过去状态的推断，can't表示“（过去）不可能”，must表示“（过去）肯定”，二者方向相反但都指向过去的实际年龄，不是对当下年龄的陈述。"
+    },
+    {
+      "title": "at least的修饰作用",
+      "text": "at least修饰fifty，表示年龄下限，意思是“不低于五十”，暗示实际年龄可能比五十更大，不代表恰好五十岁。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，明确区分了现在确定语境下对过去年龄的否定与肯定推测，can't have been/must have been的用法讲解正确，词汇释义、词性、标注均无误，仅存在两处小的表述可优化，不影响核心理解。（非逐句人工审核）"
+}

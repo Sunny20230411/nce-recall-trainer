@@ -1,0 +1,93 @@
+{
+  "chinese": "有人在吗？",
+  "intent": "敲门后询问室内是否有人，期待得到肯定或否定的回应。",
+  "comparison": null,
+  "backbone": {
+    "text": "Is anyone there?",
+    "meaning": "询问当前是否有人在场的疑问句。"
+  },
+  "structureNotes": [
+    {
+      "title": "一般疑问句的语序",
+      "text": "原句把Is放在主语anyone之前，构成疑问语气，用于确认“是否存在某人”，而非陈述“某人在那里”。"
+    },
+    {
+      "title": "there的指代",
+      "text": "句中there指说话人当前所处位置或附近的室内场所，结合上下文是敲门后询问屋内是否有人。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is",
+      "role": "be动词的疑问形式",
+      "explanation": "放在句首构成一般疑问句，表示“存在、是”的状态。"
+    },
+    {
+      "text": "anyone",
+      "role": "疑问代词作主语",
+      "explanation": "意思是“有人、任何人”，是这句话询问的核心对象。"
+    },
+    {
+      "text": "there?",
+      "role": "地点副词+疑问标点",
+      "explanation": "there表示“那里（此处指屋内）”，问号表示整个句子是疑问句。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是（be动词第三人称单数）",
+      "pos": "动词",
+      "phonetic": "/ɪz/",
+      "text": "Is"
+    },
+    {
+      "meaning": "有人，任何人",
+      "pos": "代词",
+      "phonetic": "/ˈeniwʌn/",
+      "text": "anyone"
+    },
+    {
+      "meaning": "那里，在该处",
+      "pos": "副词",
+      "phonetic": "/ðeə/",
+      "text": "there?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Is",
+      "meaning": "是（表疑问的be动词）",
+      "relation": "构成疑问语气，引出“是否有人在场”的判断"
+    },
+    {
+      "text": "anyone",
+      "meaning": "有人、任何人",
+      "relation": "询问的核心对象，即要确认是否存在的人"
+    },
+    {
+      "text": "there?",
+      "meaning": "在该处？",
+      "relation": "补充说明人所在的位置，以问号收尾表示疑问"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-115",
+  "sentenceId": "nce-1-lesson-115-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Is anyone there?",
+  "lesson": "Lesson 115 Knock, knock!",
+  "notes": [
+    {
+      "title": "一般疑问句的语序",
+      "text": "原句把Is放在主语anyone之前，构成疑问语气，用于确认“是否存在某人”，而非陈述“某人在那里”。"
+    },
+    {
+      "title": "there的指代",
+      "text": "句中there指说话人当前所处位置或附近的室内场所，结合上下文是敲门后询问屋内是否有人。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句中 Is anyone there? 是固定表示“有人在吗”的存在疑问，there 为地点状语而非主语；主干、结构、词义、音标与中文意图基本正确。仅 parts 中 there? 的中文释义把“在那里？”拆开，和该句习惯译法略有偏差，可微调为与“在该处”一致，其余不影响理解。（非逐句人工审核）"
+}

@@ -1,0 +1,135 @@
+{
+  "chinese": "她告诉我她刚拍完一部新电影。",
+  "intent": "说明她向“我”转述的、刚完成新电影拍摄这件事。",
+  "comparison": null,
+  "backbone": {
+    "text": "She told me she had just made a new film.",
+    "meaning": "她把自己刚拍完一部新电影的消息告知了我。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去完成时的使用",
+      "text": "主句动词told是过去时，从句用had just made表示“刚拍完”这件事发生在told之前。中文不需要时态标记，直接用“刚”就能体现动作先后。"
+    },
+    {
+      "title": "双宾语结构",
+      "text": "told后面的me是间接宾语，指听话人；that引导的宾语从句是直接宾语，指说话内容。that在口语中常省略。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She told me",
+      "role": "主句主干",
+      "explanation": "主语She，谓语told，间接宾语me，交代“她告诉我”这一转述框架。"
+    },
+    {
+      "text": "she had just made a new film.",
+      "role": "宾语从句",
+      "explanation": "作told的直接宾语，说明她告诉“我”的具体内容。"
+    },
+    {
+      "text": "had just made",
+      "role": "从句谓语",
+      "explanation": "过去完成时，强调在told之前刚完成“拍摄”这个动作。"
+    },
+    {
+      "text": "a new film",
+      "role": "made的宾语",
+      "explanation": "说明拍摄的对象是一部新电影。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉",
+      "pos": "动词（过去式）",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词（宾格）",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "had",
+      "meaning": "（构成过去完成时的助动词）",
+      "pos": "助动词（过去式）",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "just",
+      "meaning": "刚刚",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "made",
+      "meaning": "制作、拍摄（make的过去分词）",
+      "pos": "动词（过去分词）",
+      "phonetic": "/meɪd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个（不定冠词，表泛指）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "new",
+      "meaning": "新的",
+      "pos": "形容词",
+      "phonetic": "/njuː/"
+    },
+    {
+      "text": "film.",
+      "meaning": "电影",
+      "pos": "名词",
+      "phonetic": "/fɪlm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She told me",
+      "relation": "主句框架，交代转述动作和听话人",
+      "meaning": "她告诉我"
+    },
+    {
+      "text": "she had just made a new film.",
+      "relation": "转述的具体内容，作told的直接宾语",
+      "meaning": "她刚拍完一部新电影"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-133",
+  "sentenceId": "nce-1-lesson-133-sentence-013",
+  "sentenceOrder": 13,
+  "english": "She told me she had just made a new film.",
+  "lesson": "Lesson 133 Sensational news!",
+  "notes": [
+    {
+      "title": "过去完成时的使用",
+      "text": "主句动词told是过去时，从句用had just made表示“刚拍完”这件事发生在told之前。中文不需要时态标记，直接用“刚”就能体现动作先后。"
+    },
+    {
+      "title": "双宾语结构",
+      "text": "told后面的me是间接宾语，指听话人；that引导的宾语从句是直接宾语，指说话内容。that在口语中常省略。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体译文、主干、结构拆分和词义标注基本准确，时态、从句关系与双宾语的说明清晰。需修正冠词释义的表述，并在双宾语说明中澄清从句的直接宾语地位，避免读者误以为me是唯一直接宾语。（非逐句人工审核）"
+}

@@ -1,0 +1,101 @@
+{
+  "chinese": "看！有个卖冰淇淋的人。",
+  "intent": "提醒身边的人注意到眼前出现的卖冰淇淋的商贩，传递发现的即时信息。",
+  "comparison": null,
+  "backbone": {
+    "text": "Look! There's an ice cream man.",
+    "meaning": "提醒对方看，告知现场有一位卖冰淇淋的人。"
+  },
+  "parts": [
+    {
+      "text": "Look!",
+      "relation": "独立的提醒指令",
+      "meaning": "提醒对方注意眼前事物的感叹语"
+    },
+    {
+      "text": "There's an ice cream man.",
+      "relation": "补充说明提醒对方看的具体内容",
+      "meaning": "告知现场存在一位卖冰淇淋的人"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "There's 存在句型",
+      "text": "这里使用There's引出在场的人，直接传递“某处存在某物/某人”的信息，不需要调整词序提前主语。"
+    },
+    {
+      "title": "名词组合修饰",
+      "text": "ice cream两个名词连在man前面，直接说明这个男子的身份是卖冰淇淋的，不需要额外加动词来解释。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Look!",
+      "role": "提醒感叹语",
+      "explanation": "用来立刻吸引听者的注意力，指向接下来要让对方看到的事物。"
+    },
+    {
+      "text": "There's an ice cream man",
+      "role": "存现陈述句",
+      "explanation": "以There's开头说明现场存在某个人物，交代说话人发现的具体对象。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "看！",
+      "pos": "感叹词",
+      "phonetic": "/lʊk/",
+      "text": "Look!"
+    },
+    {
+      "meaning": "有（there is的缩合形式）",
+      "pos": "存在句引导词+动词缩合",
+      "phonetic": "/ðeəz/",
+      "text": "There's"
+    },
+    {
+      "meaning": "一个（用于元音音素开头的单词前）",
+      "pos": "不定冠词",
+      "phonetic": "/æn/",
+      "text": "an"
+    },
+    {
+      "meaning": "冰淇淋",
+      "pos": "名词",
+      "phonetic": "/aɪs/",
+      "text": "ice"
+    },
+    {
+      "meaning": "奶油、乳脂，此处和ice搭配指冰淇淋的整体",
+      "pos": "名词",
+      "phonetic": "/kriːm/",
+      "text": "cream"
+    },
+    {
+      "meaning": "男人、人",
+      "pos": "名词",
+      "phonetic": "/mæn/",
+      "text": "man."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-19",
+  "sentenceId": "nce-1-lesson-019-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Look! There's an ice cream man.",
+  "lesson": "Lesson 19 Tired and thirsty",
+  "notes": [
+    {
+      "title": "There's 存在句型",
+      "text": "这里使用There's引出在场的人，直接传递“某处存在某物/某人”的信息，不需要调整词序提前主语。"
+    },
+    {
+      "title": "名词组合修饰",
+      "text": "ice cream两个名词连在man前面，直接说明这个男子的身份是卖冰淇淋的，不需要额外加动词来解释。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体学习内容基本合规，仅存在部分细节表述不准确、标注疏漏的可修正问题，无核心语法与解析逻辑错误（非逐句人工审核）"
+}

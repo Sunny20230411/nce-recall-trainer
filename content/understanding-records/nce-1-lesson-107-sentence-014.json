@@ -1,0 +1,167 @@
+{
+  "chinese": "您为什么不试试那件蓝色的呢？",
+  "intent": "以委婉反问的形式向对方提出穿搭建议，劝说对方试穿蓝色的衣服。",
+  "comparison": {
+    "chinese": "你为什么不试试那件蓝色的呢？",
+    "english": "Why don't you try on the blue one?",
+    "steps": [
+      {
+        "label": "疑问副词引出反问建议",
+        "text": "Why",
+        "explanation": "英语将表建议的反问引导词放在句首，中文对应“为什么不”的建议语气，不是在真的追问对方不愿试穿的原因。"
+      },
+      {
+        "label": "助动词+主语构成反问结构",
+        "text": "don't you",
+        "explanation": "英语用 Why don't you 这一固定反问句式提出委婉建议，还原成陈述语序就是 you don't …，搭配动词表“你（不妨）做某事”，中文直接对应“你为什么不”，不需要额外加冗余的表达。"
+      },
+      {
+        "label": "动作与指代宾语",
+        "text": "try on the blue one",
+        "explanation": "try on 是固定搭配表示试穿，the blue one 指代前文提到的蓝色连衣裙；中文里把定语“蓝色的”放在代词“那件”前面，和英语顺序基本一致，one 用来避免重复 dress。"
+      }
+    ],
+    "takeaway": "Why don't you 不是真实询问原因，而是英语里提出友好建议的常用反问句式，one 在这里是代词，指代前文提到的同类衣物，避免重复名词。"
+  },
+  "backbone": {
+    "text": "Why don't you try on the blue one?",
+    "meaning": "这是理解用的完整主干，核心是反问提出建议：你不妨试穿那件蓝色的衣服。"
+  },
+  "structureNotes": [
+    {
+      "title": "固定建议句式",
+      "text": "Why don't you + 动词原形 是英语提出委婉建议的常用反问结构，语义等同于“你不妨/你为什么不（做某事）”，并不是在询问对方拒绝的理由。"
+    },
+    {
+      "title": "代词替代避免重复",
+      "text": "one 是代词，此处指代前文出现的 dress（连衣裙），the blue one 就是“那件蓝色的连衣裙”，避免上下文重复出现 dress。"
+    },
+    {
+      "title": "动小品词搭配",
+      "text": "try on 是固定的“动词+小品词”搭配，表示试穿衣物，on 在这里不是独立的地点介词，和 try 结合成整体动作含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Why",
+      "role": "疑问副词",
+      "explanation": "引导反问结构，在这里表建议语气，而非真的询问原因。"
+    },
+    {
+      "text": "don't",
+      "role": "助动词",
+      "explanation": "和 you 搭配构成 Why don't you 的建议句式，是一般现在时的否定疑问形式。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指代对话中被建议的听话人，即试衣服的顾客。"
+    },
+    {
+      "text": "try on",
+      "role": "谓语动词短语",
+      "explanation": "固定搭配，表“试穿”的动作。"
+    },
+    {
+      "text": "the blue one",
+      "role": "动词宾语",
+      "explanation": "try on 的宾语，指代那件蓝色的连衣裙。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Why",
+      "meaning": "为什么",
+      "pos": "疑问副词",
+      "phonetic": "/waɪ/"
+    },
+    {
+      "text": "don't",
+      "meaning": "不（构成否定疑问）",
+      "pos": "助动词（do not 的缩写）",
+      "phonetic": "/dəʊnt/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/ju/"
+    },
+    {
+      "text": "try",
+      "meaning": "尝试，试穿",
+      "pos": "动词",
+      "phonetic": "/traɪ/"
+    },
+    {
+      "text": "on",
+      "meaning": "（与 try 搭配表穿在身上）",
+      "pos": "副词/小品词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指）那件",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "blue",
+      "meaning": "蓝色的",
+      "pos": "形容词",
+      "phonetic": "/bluː/"
+    },
+    {
+      "text": "one?",
+      "meaning": "（指代同类衣物）一件",
+      "pos": "代词",
+      "phonetic": "/wʌn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Why",
+      "relation": "引导反问式建议",
+      "meaning": "为什么"
+    },
+    {
+      "text": "don't you",
+      "relation": "构成建议句式 Why don't you，指向被建议的听话人",
+      "meaning": "你不……"
+    },
+    {
+      "text": "try on",
+      "relation": "说明建议的具体动作",
+      "meaning": "试穿"
+    },
+    {
+      "text": "the blue one?",
+      "relation": "说明试穿的对象，指代前文提到的蓝色连衣裙",
+      "meaning": "那件蓝色的（衣物）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-107",
+  "sentenceId": "nce-1-lesson-107-sentence-014",
+  "sentenceOrder": 14,
+  "english": "Why don't you try on the blue one?",
+  "lesson": "Lesson 107 It's too small.",
+  "notes": [
+    {
+      "title": "固定建议句式",
+      "text": "Why don't you + 动词原形 是英语提出委婉建议的常用反问结构，语义等同于“你不妨/你为什么不（做某事）”，并不是在询问对方拒绝的理由。"
+    },
+    {
+      "title": "代词替代避免重复",
+      "text": "one 是代词，此处指代前文出现的 dress（连衣裙），the blue one 就是“那件蓝色的连衣裙”，避免上下文重复出现 dress。"
+    },
+    {
+      "title": "动小品词搭配",
+      "text": "try on 是固定的“动词+小品词”搭配，表示试穿衣物，on 在这里不是独立的地点介词，和 try 结合成整体动作含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体释义与语法结构基本正确，建议句式、代词指代和动小品词搭配均已说明。仅单词分块中出现了将标点并入词条、遗漏第二人称代词 you 的问题，按已给出的单词表修正即可。（非逐句人工审核）"
+}

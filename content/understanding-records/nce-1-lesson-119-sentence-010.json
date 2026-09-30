@@ -1,0 +1,143 @@
+{
+  "chinese": "乔治听到响声，很快下了楼。",
+  "intent": "按顺序叙述乔治听到动静后迅速下楼的连贯动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "George heard the noise and came downstairs.",
+    "meaning": "乔治听到响声并下楼，这是全句最核心的两个动作；“很快”只是补充速度。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列谓语的拆分",
+      "text": "and连接的两个动作heard和came都是主语George发出的动作，共享同一主语，不需要重复写出George。翻译时顺着中文动作顺序表达即可，不需要额外添加主语。"
+    },
+    {
+      "title": "副词修饰动作",
+      "text": "quickly放在句末，修饰came这个动作，表示下楼的速度很快，不是修饰heard noise这个动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "George",
+      "role": "主语",
+      "explanation": "全句所有动作的发出者。"
+    },
+    {
+      "text": "heard the noise",
+      "role": "第一组并列谓语+宾语",
+      "explanation": "第一个动作hear的过去式heard，the noise是heard的动作对象。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个先后发生的并列动作。"
+    },
+    {
+      "text": "came downstairs",
+      "role": "第二组并列谓语",
+      "explanation": "第二个动作come的过去式came，downstairs作方向状语表示下楼的方向。"
+    },
+    {
+      "text": "quickly",
+      "role": "方式状语",
+      "explanation": "修饰came，表示下楼的速度很快。"
+    }
+  ],
+  "words": [
+    {
+      "text": "George",
+      "meaning": "乔治",
+      "pos": "名词（人名）",
+      "phonetic": "/dʒɔːdʒ/"
+    },
+    {
+      "text": "heard",
+      "meaning": "听见，听到",
+      "pos": "动词（过去式）",
+      "phonetic": "/hɜːd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这（那个）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "noise",
+      "meaning": "响声，噪音",
+      "pos": "名词",
+      "phonetic": "/nɔɪz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "came",
+      "meaning": "来，来到",
+      "pos": "动词（过去式）",
+      "phonetic": "/keɪm/"
+    },
+    {
+      "text": "downstairs",
+      "meaning": "向楼下；在楼下",
+      "pos": "副词",
+      "phonetic": "/ˌdaʊnˈsteəz/"
+    },
+    {
+      "text": "quickly.",
+      "meaning": "快速地，很快地",
+      "pos": "副词",
+      "phonetic": "/ˈkwɪkli/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "George",
+      "relation": "全句所有动作的发出者，是整句话的主语",
+      "meaning": "乔治"
+    },
+    {
+      "text": "heard the noise",
+      "relation": "描述乔治发出的第一个动作，以及这个动作的作用对象",
+      "meaning": "听到了这阵响声"
+    },
+    {
+      "text": "and",
+      "relation": "连接先后发生的两个并列动作，表明第二个动作承接第一个动作而来",
+      "meaning": "并且，接着"
+    },
+    {
+      "text": "came downstairs",
+      "relation": "描述乔治发出的第二个动作，以及下楼的方向",
+      "meaning": "走下楼"
+    },
+    {
+      "text": "quickly.",
+      "relation": "补充说明乔治下楼这个动作的速度。",
+      "meaning": "很快地。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-119",
+  "sentenceId": "nce-1-lesson-119-sentence-010",
+  "sentenceOrder": 10,
+  "english": "George heard the noise and came downstairs quickly.",
+  "lesson": "Lesson 119 A true story",
+  "notes": [
+    {
+      "title": "并列谓语的拆分",
+      "text": "and连接的两个动作heard和came都是主语George发出的动作，共享同一主语，不需要重复写出George。翻译时顺着中文动作顺序表达即可，不需要额外添加主语。"
+    },
+    {
+      "title": "副词修饰动作",
+      "text": "quickly放在句末，修饰came这个动作，表示下楼的速度很快，不是修饰heard noise这个动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合成人理解目标，主干完整，并列谓语与状语角色基本正确；仅有quickly条目的音标字符串误带末尾句点，以及downstairs释义对方向义的边界表述不够清晰，均可明确修正，不改变原句结构和分块。（非逐句人工审核）"
+}

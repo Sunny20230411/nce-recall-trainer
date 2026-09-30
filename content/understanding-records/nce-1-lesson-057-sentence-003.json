@@ -1,0 +1,94 @@
+{
+  "chinese": "现在是四点。",
+  "intent": "用英语报出当前的具体时刻。",
+  "comparison": null,
+  "backbone": {
+    "text": "It is four o'clock.",
+    "meaning": "当前的时刻是四点整。"
+  },
+  "structureNotes": [
+    {
+      "title": "It 用作时间表达的形式主语",
+      "text": "在英语中表达时间时，用 It 作为句子的形式占位主语，不需要将其翻译成具体的“它”，实际指向的是当前的时间。"
+    },
+    {
+      "title": "o'clock 的用法",
+      "text": "o'clock 用来标记整点时刻，说明当前是没有分钟偏移的四点整，是报整点的常用搭配。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "形式主语（时间表达占位）",
+      "explanation": "英语表达时间的固定占位成分，本身没有实义，不指代具体事物。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "连接形式主语和具体时间表语，表示当前的状态。"
+    },
+    {
+      "text": "four o'clock.",
+      "role": "表语",
+      "explanation": "说明当前的具体时刻，是句子传递的核心信息。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "这（时间表达的形式占位主语，无实义）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "is",
+      "meaning": "是",
+      "pos": "be动词（第三人称单数现在时）",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "four",
+      "meaning": "四",
+      "pos": "数词",
+      "phonetic": "/fɔː/"
+    },
+    {
+      "text": "o'clock.",
+      "meaning": "……点钟。",
+      "pos": "副词",
+      "phonetic": "/əˈklɒk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It is",
+      "relation": "引导时间表达，不指代具体实体",
+      "meaning": "（时间表达的形式开头，无实义）"
+    },
+    {
+      "text": "four o'clock.",
+      "relation": "补充说明当前的具体时刻信息",
+      "meaning": "四点整。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-57",
+  "sentenceId": "nce-1-lesson-057-sentence-003",
+  "sentenceOrder": 3,
+  "english": "It is four o'clock.",
+  "lesson": "Lesson 57 An unusual day",
+  "notes": [
+    {
+      "title": "It 用作时间表达的形式主语",
+      "text": "在英语中表达时间时，用 It 作为句子的形式占位主语，不需要将其翻译成具体的“它”，实际指向的是当前的时间。"
+    },
+    {
+      "title": "o'clock 的用法",
+      "text": "o'clock 用来标记整点时刻，说明当前是没有分钟偏移的四点整，是报整点的常用搭配。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有解析整体符合句意与英语表达规则，It 作时间表达形式主语的定位正确，整点、系动词表语等说明均无误，仅 o'clock 的音标附带了非字母组成的句点，需修正音标格式。（非逐句人工审核）"
+}

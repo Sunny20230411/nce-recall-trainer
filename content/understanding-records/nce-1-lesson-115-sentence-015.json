@@ -1,0 +1,127 @@
+{
+  "chinese": "是汤姆！他藏在门后面。",
+  "intent": "认出来人的身份，并说明他此刻藏在门后的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's Tom! He's hiding behind the door.",
+    "meaning": "来人是汤姆，他正藏在门的后面。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在进行时表当前状态",
+      "text": "He's hiding 是现在进行时，强调此刻他正处于躲藏的状态，而不是习惯性躲在门后。"
+    },
+    {
+      "title": "behind表位置",
+      "text": "behind the door 说明躲藏的具体位置是在门的后方。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "主语+系动词",
+      "explanation": "It指代听到敲门声或看到人影的未知对象，'s是is的缩写，系动词连接判断。"
+    },
+    {
+      "text": "Tom",
+      "role": "表语",
+      "explanation": "Tom是对It所指对象的身份判断，说明来人的名字是汤姆。"
+    },
+    {
+      "text": "He's",
+      "role": "主语+助动词",
+      "explanation": "He指代Tom，'s是is的缩写，与现在分词hiding构成现在进行时。"
+    },
+    {
+      "text": "hiding",
+      "role": "现在分词作谓语",
+      "explanation": "与is搭配表示正在躲藏的动作，说明当前的行为状态。"
+    },
+    {
+      "text": "behind the door",
+      "role": "介词短语作地点状语",
+      "explanation": "behind是介词，the door是宾语，共同说明躲藏的具体位置。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "是（it is的缩写）",
+      "pos": "代词+系动词的缩写形式",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "Tom!",
+      "meaning": "汤姆（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/tɒm/"
+    },
+    {
+      "text": "He's",
+      "meaning": "他是（he is的缩写）",
+      "pos": "代词+系动词的缩写形式",
+      "phonetic": "/hiːz/"
+    },
+    {
+      "text": "hiding",
+      "meaning": "躲藏、隐藏（hide的现在分词）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈhaɪdɪŋ/"
+    },
+    {
+      "text": "behind",
+      "meaning": "在……后面",
+      "pos": "介词",
+      "phonetic": "/bɪˈhaɪnd/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，表特指的门",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "door.",
+      "meaning": "门",
+      "pos": "名词",
+      "phonetic": "/dɔː(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's Tom!",
+      "relation": "核心身份判断",
+      "meaning": "是汤姆！"
+    },
+    {
+      "text": "He's hiding behind",
+      "relation": "描述主语当前的动作",
+      "meaning": "他正躲在"
+    },
+    {
+      "text": "the door.",
+      "relation": "补充说明躲藏的具体位置",
+      "meaning": "门后面"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-115",
+  "sentenceId": "nce-1-lesson-115-sentence-015",
+  "sentenceOrder": 15,
+  "english": "It's Tom! He's hiding behind the door.",
+  "lesson": "Lesson 115 Knock, knock!",
+  "notes": [
+    {
+      "title": "现在进行时表当前状态",
+      "text": "He's hiding 是现在进行时，强调此刻他正处于躲藏的状态，而不是习惯性躲在门后。"
+    },
+    {
+      "title": "behind表位置",
+      "text": "behind the door 说明躲藏的具体位置是在门的后方。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析的中文翻译、主干含义、结构划分、词义标注整体符合句子语法与语境，能够准确帮助中文母语成年学习者理解该句的含义与语法结构。部分词性标注存在表述不够严谨的问题，可微调后提升准确性，无需改动核心解析内容。（非逐句人工审核）"
+}

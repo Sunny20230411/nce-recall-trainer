@@ -2411,6 +2411,11 @@
     }
   </style>
   <link rel="stylesheet" href="ai-chat.css">
+  <link rel="stylesheet" href="understanding-view.css">
+  <script src="understanding-content.js"></script>
+  <script src="assets/british-phonetics-data.js"></script>
+  <script src="assets/british-english.js"></script>
+  <script src="understanding-view.js"></script>
 </head>
 <body class="home-active" data-theme="light">
   <div class="app">
@@ -7648,7 +7653,19 @@ window.NCE_ZH_OVERRIDES = [
       const analysisMode = state.phase === "correct" || options.correctAll === true;
       document.querySelector(".drill-card")?.classList.toggle("analysis-mode", analysisMode);
       if (analysisMode) {
-        $("wordSlots").innerHTML = renderSentenceAnalysis(sentence);
+        const courseId = state.selectedCourseId;
+        const lessonId = state.selectedLesson.id;
+        const loading = window.ensureLessonUnderstanding(courseId, lessonId);
+        if (loading) void loading.then(() => {
+          if (state.current?.sentence === sentence && state.selectedCourseId === courseId && state.selectedLesson.id === lessonId && state.phase === "correct") renderWordSlots();
+        }).catch(() => {});
+        $("wordSlots").innerHTML = window.renderSentenceUnderstanding({
+          sentence, courseId: state.selectedCourseId, lessonId: state.selectedLesson.id,
+          sentenceOrder: state.selectedLesson.sentences.findIndex(item => item === sentence || (sentence.id && item.id === sentence.id) || item.english === sentence.english) + 1,
+          legacyAnalysis: sentenceAnalysisFor(sentence),
+          manualStructure: state.selectedCourseId === "nce1" && state.selectedLesson.id === "lesson-3",
+          roleLabels: structureRoleConfig
+        });
         return;
       }
 
@@ -7669,7 +7686,7 @@ window.NCE_ZH_OVERRIDES = [
         if (!isCorrect && index === state.activeWordIndex) classNames.push("active");
         const widthSeed = typedWord || targetWord || "word";
         const slotWidth = slotWidthFor(widthSeed);
-        const ipa = showAnalysis ? phoneticFor(targetWord) : "";
+        const ipa = showAnalysis ? phoneticFor(targetWord, index) : "";
         const wordInfo = showAnalysis ? wordInfoFor(targetWord) : { pos: "", meaning: "" };
         return `
           <div class="${classNames.join(" ")}" style="width:${slotWidth}px;--slot-width:${slotWidth}px">
@@ -8004,10 +8021,10 @@ window.NCE_ZH_OVERRIDES = [
       glasses: "/ˈɡlæsɪz/", shelf: "/ʃelf/"
     };
 
-    function phoneticFor(word) {
+    function phoneticFor(word, index) {
       const key = String(word).toLowerCase().replace(/[^a-z']/g, "").replace(/'s$/, "").replace(/^mr$/, "mister");
       if (!key) return "";
-      return ipaMap[key] || `/${key}/`;
+      return window.britishPhoneticFor(word, ipaMap[key] || '', state.current?.sentence?.english || '', index);
     }
 
     const wordInfoMap = {
@@ -8256,7 +8273,8 @@ window.NCE_ZH_OVERRIDES = [
       ]));
       const tokens = displayTokens.map((word, index) => ({
         ...defaultAnalysisToken(word, index),
-        ...(suppliedTokens.get(index) || {})
+        ...(suppliedTokens.get(index) || {}),
+        displayIndex: index
       }));
       const groups = (source.groups || []).map((group, index) => ({
         id: group.id || `group_${index}`,
@@ -8273,7 +8291,7 @@ window.NCE_ZH_OVERRIDES = [
       const lineWidth = Math.max(30, Math.min(210, Array.from(String(token.displayText || token.text || "")).length * 18 + 10));
       return `
         <div class="analysis-word pos-${escapeHtml(token.posFamily || "particle")}">
-          <span class="analysis-ipa">${escapeHtml(token.phonetic || "")}</span>
+          <span class="analysis-ipa">${escapeHtml(window.britishPhoneticFor(token.displayText || token.text, token.phonetic || "", state.current?.sentence?.english || "", token.displayIndex))}</span>
           <span class="analysis-word-main">
             <span>${escapeHtml(token.displayText || token.text || "")}</span>
             ${token.punctuation ? `<span class="analysis-punctuation">${escapeHtml(token.punctuation)}</span>` : ""}
@@ -8341,7 +8359,7 @@ window.NCE_ZH_OVERRIDES = [
         <div class="answer-card" aria-label="正确答案解析">
           ${analysis.tokens.map((token) => `
               <div class="answer-word">
-                <span class="slot-ipa">${escapeHtml(token.phonetic || "")}</span>
+                <span class="slot-ipa">${escapeHtml(window.britishPhoneticFor(token.displayText || token.text, token.phonetic || "", sentence.english, token.displayIndex))}</span>
                 <span class="answer-word-text">${escapeHtml(token.displayText || "")}${escapeHtml(token.punctuation || "")}</span>
                 <span class="slot-meta">
                   ${token.posLabel ? `<span class="pos-tag">${escapeHtml(token.posLabel)}</span>` : ""}
@@ -8662,6 +8680,14 @@ window.NCE_ZH_OVERRIDES = [
 
     let previewAudio = null;
 
+    function prepareMediaPlayback() {
+      try {
+        if (navigator.audioSession) navigator.audioSession.type = "playback";
+      } catch (error) {
+        // Older browsers may expose the API without allowing a session override.
+      }
+    }
+
     function stopPreviewAudio() {
       if (previewAudio) window.speechSynthesis?.cancel();
       previewAudio = null;
@@ -8676,6 +8702,7 @@ window.NCE_ZH_OVERRIDES = [
         && (fullLesson || previewAudio.index === index);
       stopPreviewAudio();
       if (wasPlaying || !("speechSynthesis" in window)) return;
+      prepareMediaPlayback();
       stopSentenceAudio();
       const session = { index, fullLesson, lesson: state.selectedLesson };
       previewAudio = session;
@@ -8691,8 +8718,7 @@ window.NCE_ZH_OVERRIDES = [
         $("previewReadAllBtn").setAttribute("aria-pressed", String(fullLesson));
         $("previewReadAllBtn").textContent = fullLesson ? "停止朗读" : "全文朗读";
         const utterance = new SpeechSynthesisUtterance(sentence.english);
-        utterance.lang = "en-US";
-        utterance.rate = .86;
+        window.configureEnglishSpeech(utterance);
         utterance.onend = () => {
           if (previewAudio !== session) return;
           if (fullLesson) { session.index += 1; readNext(); }
@@ -8722,6 +8748,7 @@ window.NCE_ZH_OVERRIDES = [
     }
 
     function playCorrectChime() {
+      prepareMediaPlayback();
       return new Promise((resolve) => {
         const AudioContextClass = window.AudioContext || window.webkitAudioContext;
         if (!AudioContextClass) {
@@ -8765,10 +8792,10 @@ window.NCE_ZH_OVERRIDES = [
 
     function speakSentence(text, countReplay = false) {
       if (!text || !("speechSynthesis" in window)) return;
+      prepareMediaPlayback();
       window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = "en-US";
-      utterance.rate = .86;
+      window.configureEnglishSpeech(utterance);
       window.speechSynthesis.speak(utterance);
       if (countReplay && state.current) state.current.replayCount += 1;
     }

@@ -1,0 +1,131 @@
+{
+  "chinese": "请代我向他问好。",
+  "intent": "礼貌地请对方帮忙转达问候，向即将迁居的Ian表达自己的关心。",
+  "comparison": {
+    "chinese": "请代我向他问好。",
+    "english": "Please give him my regards.",
+    "steps": [
+      {
+        "label": "先提礼貌请求",
+        "text": "Please",
+        "explanation": "用Please放在句首，明确表达这是客气的请求，对应中文的“请”，语气委婉不生硬。"
+      },
+      {
+        "label": "接核心传递动作",
+        "text": "give him my regards",
+        "explanation": "give是双宾语结构，him是接收对象，my regards是传递的内容；him在这里指代即将搬走的Ian，regards固定表示“问候、致意”。"
+      }
+    ],
+    "takeaway": "英语用双宾语结构give sb sth直接说明把某事物给到某人，中文则用“代我向他问好”的动宾搭配表达转达问候的含义，不需要逐字直译“给”和“我的”。"
+  },
+  "backbone": {
+    "text": "Please give him my regards.",
+    "meaning": "请你帮我把我的问候带给Ian。"
+  },
+  "structureNotes": [
+    {
+      "title": "双宾语结构理解动作传递关系",
+      "text": "give后面接了两个宾语：him是间接宾语，代表问候的接收者；my regards是直接宾语，代表要传递的内容，整体表达“把我的问候给到他”，自然转成中文就是代我向他问好。"
+    },
+    {
+      "title": "regards表示问候要用复数形式",
+      "text": "regard表示“致意、问候”时习惯用复数regards，这是日常交际中的固定用法，常见搭配send/give one's regards to sb，不可误解为“关注”或“认为”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Please",
+      "role": "礼貌修饰成分",
+      "explanation": "位于句首修饰整个祈使句，使请求语气更委婉客气，对应中文的“请”。"
+    },
+    {
+      "text": "give",
+      "role": "谓语动词",
+      "explanation": "祈使句以动词原形开头，表示请求对方执行“传递、给到”的动作。"
+    },
+    {
+      "text": "him",
+      "role": "间接宾语",
+      "explanation": "指代前文提到的Ian，是接收问候的对象，说明问候要给到他。"
+    },
+    {
+      "text": "my regards.",
+      "role": "直接宾语",
+      "explanation": "指说话人的问候致意，是要传递给Ian的具体内容。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Please",
+      "meaning": "请",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/"
+    },
+    {
+      "text": "give",
+      "meaning": "给，传递",
+      "pos": "动词",
+      "phonetic": "/ɡɪv/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "regards.",
+      "meaning": "问候，致意（复数）",
+      "pos": "名词",
+      "phonetic": "/rɪˈɡɑːdz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Please",
+      "meaning": "请",
+      "relation": "放在句首修饰整个祈使请求，使语气委婉客气"
+    },
+    {
+      "text": "give",
+      "meaning": "给到、传递",
+      "relation": "祈使句核心动作，说明要求对方执行的行为"
+    },
+    {
+      "text": "him",
+      "meaning": "他（Ian）",
+      "relation": "动作的接收对象，即问候要送达的人"
+    },
+    {
+      "text": "my regards.",
+      "meaning": "我的问候、致意",
+      "relation": "动作传递的具体内容，即给到Ian的事物"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-91",
+  "sentenceId": "nce-1-lesson-091-sentence-017",
+  "sentenceOrder": 17,
+  "english": "Please give him my regards.",
+  "lesson": "Lesson 91 Poor Ian!",
+  "notes": [
+    {
+      "title": "双宾语结构理解动作传递关系",
+      "text": "give后面接了两个宾语：him是间接宾语，代表问候的接收者；my regards是直接宾语，代表要传递的内容，整体表达“把我的问候给到他”，自然转成中文就是代我向他问好。"
+    },
+    {
+      "title": "regards表示问候要用复数形式",
+      "text": "regard表示“致意、问候”时习惯用复数regards，这是日常交际中的固定用法，常见搭配send/give one's regards to sb，不可误解为“关注”或“认为”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解释准确，清晰说明了双宾语结构和regards表问候时的复数习惯，仅存在单词项误将标点纳入文本、Please词性标注与功能、以及部分措辞可优化的问题，修正后即可通过。（非逐句人工审核）"
+}

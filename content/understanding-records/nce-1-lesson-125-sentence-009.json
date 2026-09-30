@@ -1,0 +1,80 @@
+{
+  "chinese": "你不记得了吗？",
+  "intent": "说话人用反问的语气向听话人确认对方是否还记得之前提到的去年夏天干旱的事，带有提醒对方回想、无需惊讶的口吻。",
+  "comparison": null,
+  "backbone": {
+    "text": "你不记得了吗？",
+    "meaning": "用否定形式的反问，确认听话人是否还记得去年夏天很干旱、需要每天浇水这件事，带有提醒对方回想的语气。"
+  },
+  "structureNotes": [
+    {
+      "title": "否定形式反问句",
+      "text": "句首的 Don't 后接主语 you 和动词原形 remember，构成带否定形式的反问。它不是在指责对方记不住，而是提醒对方本来应当记得这件事。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Don't",
+      "role": "助动词的否定缩写形式",
+      "explanation": "是 do not 的缩写，帮助构成否定疑问句，本身没有独立的实义词汇意义。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指对话的听话人，是「记得」这个动作的发出者。"
+    },
+    {
+      "text": "remember",
+      "role": "谓语核心动词",
+      "explanation": "表示「记得、记住」的状态，是疑问句中的核心实义动词，与助动词 Don't 共同构成谓语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Don't",
+      "meaning": "不（助动词 do 的否定缩写形式，用来构成否定疑问）",
+      "pos": "助动词缩写形式",
+      "phonetic": "/dəʊnt/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "remember?",
+      "meaning": "记得，记住",
+      "pos": "动词",
+      "phonetic": "/rɪˈmembə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Don't",
+      "meaning": "不（do not 的缩写，与动词原形连用构成否定疑问）",
+      "relation": "助动词否定缩写形式，后接主语和动词原形，帮助构成反问语气"
+    },
+    {
+      "text": "you remember?",
+      "meaning": "你不记得了吗",
+      "relation": "主语加谓语核心，其中 you 是询问对象，remember 是「记得」这个核心动作"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-125",
+  "sentenceId": "nce-1-lesson-125-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Don't you remember?",
+  "lesson": "Lesson 125 Tea for two",
+  "notes": [
+    {
+      "title": "否定形式反问句",
+      "text": "句首的 Don't 后接主语 you 和动词原形 remember，构成带否定形式的反问。它不是在指责对方记不住，而是提醒对方本来应当记得这件事。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：译文和主干意思符合反问语气；各分块词性、主语和谓语功能总体正确。但助动词 Don't 与实义动词 remember 在两个分块中的边界和关系描述需要更清楚，避免把缩写形式本身写成完整的否定词；结构说明中 Don't do 的表述也应改为 Don't + 动词原形。（非逐句人工审核）"
+}

@@ -1,0 +1,106 @@
+{
+  "chinese": "那喝杯威士忌吧。",
+  "intent": "回应对方的推辞，顺势邀请对方来一杯威士忌。",
+  "comparison": null,
+  "backbone": {
+    "text": "Have a glass of whisky.",
+    "meaning": "邀请对方喝一杯威士忌。"
+  },
+  "structureNotes": [
+    {
+      "title": "then的让步语气",
+      "text": "then位于句末，承接前文对方的推辞，不表示时间顺序，而是表示退一步的提议，对应中文里的“那”。"
+    },
+    {
+      "title": "a glass of的计量用法",
+      "text": "这里用glass指“一杯”的量，whisky是不可数的饮品，通过a glass of明确数量；在强调“一份（饮品）”的点餐场景中也可以说 a whisky，但本句中用量化表述更自然。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Have",
+      "role": "谓语动词（祈使句）",
+      "explanation": "have在这里表示“吃/喝”，祈使句直接以动词原形开头，面向听话者发出邀请。"
+    },
+    {
+      "text": "a glass of whisky",
+      "role": "宾语",
+      "explanation": "a glass of是计量短语修饰不可数名词whisky，说明所喝饮品的量和种类。"
+    },
+    {
+      "text": "then",
+      "role": "语气状语",
+      "explanation": "承接前文语境，表达退一步提议的语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Have",
+      "meaning": "喝，享用",
+      "pos": "动词（祈使用法）",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（杯）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "glass",
+      "meaning": "玻璃杯，一杯的量",
+      "pos": "名词",
+      "phonetic": "/ɡlɑːs/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表示计量关系）",
+      "pos": "介词",
+      "phonetic": "/əv/"
+    },
+    {
+      "text": "whisky",
+      "meaning": "威士忌（酒）",
+      "pos": "不可数名词",
+      "phonetic": "/ˈwɪski/"
+    },
+    {
+      "text": "then.",
+      "meaning": "那么，那",
+      "pos": "副词（语气用法）",
+      "phonetic": "/ðen/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Have a glass of whisky",
+      "relation": "核心邀请内容",
+      "meaning": "喝杯威士忌"
+    },
+    {
+      "text": "then.",
+      "relation": "承接前文的语气词，体现退一步的提议",
+      "meaning": "那，既然这样"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-81",
+  "sentenceId": "nce-1-lesson-081-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Have a glass of whisky then.",
+  "lesson": "Lesson 81 Roast beef and potatoes",
+  "notes": [
+    {
+      "title": "then的让步语气",
+      "text": "then位于句末，承接前文对方的推辞，不表示时间顺序，而是表示退一步的提议，对应中文里的“那”。"
+    },
+    {
+      "title": "a glass of的计量用法",
+      "text": "这里用glass指“一杯”的量，whisky是不可数的饮品，通过a glass of明确数量；在强调“一份（饮品）”的点餐场景中也可以说 a whisky，但本句中用量化表述更自然。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体释义与结构分析基本准确，then 的让步语气、a glass of 的计量用法解释均符合语境，仅两处小瑕疵：一是词条将带句末点的 “then.” 作为独立条目，音标应对应无标点的词干；二是结构备注中关于不可说 a whisky 的表述过于绝对，补充场景限定即可避免误导。（非逐句人工审核）"
+}

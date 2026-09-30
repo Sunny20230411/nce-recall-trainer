@@ -1,0 +1,125 @@
+{
+  "chinese": "你伤到自己了吗？",
+  "intent": "询问对方是否在刚才滑倒的事故中弄伤了自己，表达关心。",
+  "comparison": {
+    "chinese": "询问当下是否有受伤结果",
+    "english": "结合前文刚滑倒的语境，用现在完成时询问滑倒后当下是否存在受伤结果",
+    "steps": [
+      {
+        "label": "说明现在完成时疑问框架",
+        "text": "核心结构为 Have you hurt…？",
+        "explanation": "汉语常用“你伤到自己了吗”直接询问当前状态，英语采用“助动词Have提前 + 主语you + 过去分词hurt”的现在完成时疑问结构，重点关联过去滑倒动作对当下造成的受伤结果，不是单纯追问过去是否发生了某个动作。"
+      },
+      {
+        "label": "点明反身宾语的对应关系",
+        "text": "补充宾语yourself",
+        "explanation": "yourself是反身代词，指代主语you本人，作hurt的宾语，明确受伤的对象就是听话者自己，而非其他人。"
+      }
+    ],
+    "takeaway": "英语现在完成时的疑问结构“Have + 主语 + 过去分词”，常用来询问过往动作对当前造成的结果；反身代词作宾语时，回指主语本人，明确动作的施受为同一对象。"
+  },
+  "backbone": {
+    "text": "Have you hurt yourself?",
+    "meaning": "询问对方是否已经伤到了自己。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时的疑问句结构",
+      "text": "have 是助动词，放到主语 you 前面构成疑问，后面接过去分词 hurt；这种结构强调“受伤”这件事和现在的状态有关，不是只问过去有没有发生。"
+    },
+    {
+      "title": "反身代词作宾语",
+      "text": "yourself 和主语 you 指的是同一个人，作 hurt 的宾语，表示受伤的对象就是对方自己。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Have",
+      "role": "助动词（现在完成时标志）",
+      "explanation": "帮助构成现在完成时，同时提前到主语前形成疑问句。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "句子询问的对象，也就是“你”。"
+    },
+    {
+      "text": "hurt",
+      "role": "过去分词（主动词核心）",
+      "explanation": "表示“使受伤”的动作，和 have 一起构成现在完成时的谓语部分。"
+    },
+    {
+      "text": "yourself",
+      "role": "反身代词作宾语",
+      "explanation": "指代主语 you 本人，作 hurt 的宾语，说明受伤的就是“你自己”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Have",
+      "meaning": "助动词（have 的现在时形式，构成现在完成时，无实义）",
+      "pos": "auxiliary verb",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "you",
+      "meaning": "你（主格）",
+      "pos": "pronoun",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "hurt",
+      "meaning": "使受伤、伤害（过去分词形式，和原形拼写一致）",
+      "pos": "verb",
+      "phonetic": "/hɜːt/"
+    },
+    {
+      "text": "yourself?",
+      "meaning": "你自己（反身代词）",
+      "pos": "pronoun",
+      "phonetic": "/jɔːˈself/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Have",
+      "relation": "疑问引导，和hurt搭配构成现在完成时的谓语框架",
+      "meaning": "助动词，构成现在完成时并引导疑问句"
+    },
+    {
+      "text": "you",
+      "relation": "询问对象，即受伤可能发生在谁身上",
+      "meaning": "你"
+    },
+    {
+      "text": "hurt",
+      "relation": "描述核心动作，询问是否发生了受伤",
+      "meaning": "伤到"
+    },
+    {
+      "text": "yourself?",
+      "relation": "动作的承受对象，和主语you指同一人",
+      "meaning": "你自己"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-99",
+  "sentenceId": "nce-1-lesson-099-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Have you hurt yourself?",
+  "lesson": "Lesson 99 Ow!",
+  "notes": [
+    {
+      "title": "现在完成时的疑问句结构",
+      "text": "have 是助动词，放到主语 you 前面构成疑问，后面接过去分词 hurt；这种结构强调“受伤”这件事和现在的状态有关，不是只问过去有没有发生。"
+    },
+    {
+      "title": "反身代词作宾语",
+      "text": "yourself 和主语 you 指的是同一个人，作 hurt 的宾语，表示受伤的对象就是对方自己。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合现在完成时疑问句、反身代词作宾语的语法规则，语境匹配前文对方滑倒的场景，主干、结构、词义标注整体准确；仅存在两处需要修正的问题：1. 单词表中yourself的音标混入了后续问号的范围，应当独立标注yourself的英式音标，不包含句末标点；2. comparison的第一步标注示例写为“先问 Have you hurt…？”，省略了主语you，和该步说明的“Have + 主语 + 过去分词”结构不一致，需要补回主语以保持表述一致。（非逐句人工审核）"
+}

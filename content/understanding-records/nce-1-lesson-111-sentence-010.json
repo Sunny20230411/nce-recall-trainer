@@ -1,0 +1,138 @@
+{
+  "chinese": "亲爱的，你想买下它吗？",
+  "intent": "说话人以亲昵的语气向对方征询是否购买前文提到的商品。",
+  "comparison": {
+    "chinese": "汉语常把称呼语放在句首，如“亲爱的，你想买下它吗？”；英语可把相同的呼语放在句末，并用逗号隔开，因此句子主干先问“Do you want to buy it”，再补充“dear”。",
+    "english": "Dear, do you want to buy it? / Do you want to buy it, dear? — 英语的呼语 dear 位置更灵活，放在句末时不参与主干意思，中文则倾向于把称呼语提前。",
+    "steps": [
+      {
+        "label": "提取主干",
+        "text": "Do you want to buy it",
+        "explanation": "这是句子的核心疑问部分，询问对方是否有购买意愿。"
+      },
+      {
+        "label": "处理呼语",
+        "text": "dear",
+        "explanation": "这是独立的称呼语，不属于主干；汉语习惯将它放在句首，英语则在本句中放在句末并用逗号隔开。"
+      }
+    ],
+    "takeaway": "翻译时可按汉语习惯把英语句末的呼语前置，不必逐字保持原文语序。"
+  },
+  "backbone": {
+    "text": "Do you want to buy it",
+    "meaning": "你是否想要买下它"
+  },
+  "structureNotes": [
+    {
+      "title": "一般疑问句的do前置",
+      "text": "本句是一般现在时的一般疑问句，实义动词是want，需要把助动词do提到主语you的前面，表达“是否想要”的询问含义。"
+    },
+    {
+      "title": "dear作为称呼的位置",
+      "text": "dear是口语中亲昵的称呼，放在句末用逗号隔开；汉语习惯把对应的称呼语放在句首。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "助动词",
+      "explanation": "帮助构成一般现在时的一般疑问句，无实际词汇含义。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "句子询问动作的发出者，指听话的对方。"
+    },
+    {
+      "text": "want to buy it",
+      "role": "谓语部分",
+      "explanation": "表达核心的询问内容：想要买这件商品，其中want为核心谓语动词，to buy it是动词不定式作want的宾语。"
+    },
+    {
+      "text": "dear",
+      "role": "呼语",
+      "explanation": "对听话人的亲昵称呼，和主句的询问内容相独立，不充当句子的主干成分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Do",
+      "meaning": "（助动词，无实义，帮助构成疑问句）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要",
+      "pos": "动词",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "buy",
+      "meaning": "购买",
+      "pos": "动词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "it,",
+      "meaning": "它（指代前文提到的商品）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "dear?",
+      "meaning": "亲爱的（亲昵的称呼用语）",
+      "pos": "名词（呼语）",
+      "phonetic": "/dɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Do you want",
+      "meaning": "你是否想要",
+      "relation": "发起询问，引出核心内容"
+    },
+    {
+      "text": "to buy it,",
+      "meaning": "买它（it指代前文提到的商品）",
+      "relation": "说明想要的具体行为"
+    },
+    {
+      "text": "dear?",
+      "meaning": "亲爱的",
+      "relation": "呼语，点明对话对象，句末问号承载全句的询问语气"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-111",
+  "sentenceId": "nce-1-lesson-111-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Do you want to buy it, dear?",
+  "lesson": "Lesson 111 The most expensive model",
+  "notes": [
+    {
+      "title": "一般疑问句的do前置",
+      "text": "本句是一般现在时的一般疑问句，实义动词是want，需要把助动词do提到主语you的前面，表达“是否想要”的询问含义。"
+    },
+    {
+      "title": "dear作为称呼的位置",
+      "text": "dear是口语中亲昵的称呼，放在句末用逗号隔开；汉语习惯把对应的称呼语放在句首。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，仅存在三处可明确修正的小问题：1. 原译文将呼语“亲爱的”误归入疑问句主干，未体现中英文呼语的位置差异；2. 单词条目将标点符号直接并入代词和呼语的词性、释义中，不符合词项标注规范；3. 谓语部分未点明非谓语结构“want to buy it”的语法构成，信息不够完整。（非逐句人工审核）"
+}

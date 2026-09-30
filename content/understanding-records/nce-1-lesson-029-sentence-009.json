@@ -1,0 +1,89 @@
+{
+  "chinese": "然后扫地。",
+  "intent": "告知接下来要执行的家务操作步骤。",
+  "comparison": null,
+  "backbone": {
+    "text": "sweep the floor",
+    "meaning": "清扫地面"
+  },
+  "parts": [
+    {
+      "text": "Then",
+      "relation": "说明清扫动作发生的时间顺序",
+      "meaning": "然后"
+    },
+    {
+      "text": "sweep the floor.",
+      "relation": "说明具体要执行的操作内容",
+      "meaning": "清扫地面"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "祈使句省略主语",
+      "text": "本句是表示指令的祈使句，省略了听话人you，直接用动词原形开头下达操作要求，符合家务指令简洁直接的表达习惯。"
+    },
+    {
+      "title": "Then的衔接作用",
+      "text": "Then用来衔接前后的家务动作，明确这个扫地的步骤是在之前的擦梳妆台动作之后执行的，理顺操作的先后顺序。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Then",
+      "role": "时间状语",
+      "explanation": "标记动作发生的先后时序，承接上一个完成的动作。"
+    },
+    {
+      "text": "sweep the floor",
+      "role": "祈使句谓语核心部分",
+      "explanation": "以动词原形加宾语构成完整的指令内容，直接要求对方完成扫地的动作。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "然后，接下来",
+      "pos": "副词",
+      "phonetic": "/ðen/",
+      "text": "Then"
+    },
+    {
+      "meaning": "清扫，扫",
+      "pos": "动词",
+      "phonetic": "/swiːp/",
+      "text": "sweep"
+    },
+    {
+      "meaning": "这个，该",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "地板，地面",
+      "pos": "名词",
+      "phonetic": "/flɔː(r)/",
+      "text": "floor."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-29",
+  "sentenceId": "nce-1-lesson-029-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Then sweep the floor.",
+  "lesson": "Lesson 29 Come in, Amy.",
+  "notes": [
+    {
+      "title": "祈使句省略主语",
+      "text": "本句是表示指令的祈使句，省略了听话人you，直接用动词原形开头下达操作要求，符合家务指令简洁直接的表达习惯。"
+    },
+    {
+      "title": "Then的衔接作用",
+      "text": "Then用来衔接前后的家务动作，明确这个扫地的步骤是在之前的擦梳妆台动作之后执行的，理顺操作的先后顺序。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合解析要求，仅存在局部细节疏漏，可明确修正。（非逐句人工审核）"
+}

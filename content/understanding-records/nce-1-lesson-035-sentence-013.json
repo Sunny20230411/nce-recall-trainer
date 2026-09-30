@@ -1,0 +1,106 @@
+{
+  "chinese": "公园在右边。",
+  "intent": "明确告知前文提到的那座公园所处的方位，位于视线的右侧区域。",
+  "comparison": null,
+  "backbone": {
+    "text": "The park is on the right",
+    "meaning": "公园处于右侧的方位上。"
+  },
+  "parts": [
+    {
+      "text": "The park",
+      "relation": "描述动作状态的主体",
+      "meaning": "前文已经提到的那座公园"
+    },
+    {
+      "text": "is",
+      "relation": "衔接主体和方位的状态标志",
+      "meaning": "处于、位于"
+    },
+    {
+      "text": "on the right.",
+      "relation": "补充说明公园所在的具体位置",
+      "meaning": "在右边的方位上"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "定冠词The的指代作用",
+      "text": "句首的The指代前文已经提及的公园，不是泛指任意一座公园，避免读者混淆方位对应的对象。"
+    },
+    {
+      "title": "on表示方位的用法",
+      "text": "这里介词on搭配方位名词right，用来指明事物处于某一侧的范围之上，而非表示动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The park",
+      "role": "句子主语",
+      "explanation": "指代被描述方位的对象，也就是前文提到的那座公园。"
+    },
+    {
+      "text": "is on the right",
+      "role": "系动词加表语的整体谓语部分",
+      "explanation": "状态系动词is搭配方位介词短语on the right作为表语，共同说明公园所处的具体位置，未遗漏系表结构组成部分。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这个，用来特指前文提到的特定事物",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "公园",
+      "pos": "名词",
+      "phonetic": "/pɑːk/",
+      "text": "park"
+    },
+    {
+      "meaning": "处于，位于",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "在…之上（此处用于引出侧位方位）",
+      "pos": "介词",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "限定方位名词，明确特指右侧的参照范围",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "右边，右侧",
+      "pos": "名词",
+      "phonetic": "/raɪt/",
+      "text": "right."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-35",
+  "sentenceId": "nce-1-lesson-035-sentence-013",
+  "sentenceOrder": 13,
+  "english": "The park is on the right.",
+  "lesson": "Lesson 35 Our village",
+  "notes": [
+    {
+      "title": "定冠词The的指代作用",
+      "text": "句首的The指代前文已经提及的公园，不是泛指任意一座公园，避免读者混淆方位对应的对象。"
+    },
+    {
+      "title": "on表示方位的用法",
+      "text": "这里介词on搭配方位名词right，用来指明事物处于某一侧的范围之上，而非表示动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在局部细节表述偏差与小瑕疵，可明确修正。（非逐句人工审核）"
+}

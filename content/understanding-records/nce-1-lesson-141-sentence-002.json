@@ -1,0 +1,137 @@
+{
+  "chinese": "我决定带她坐火车去。",
+  "intent": "陈述说话人自己为了送女儿参加派对，选择的出行方式是乘坐火车。",
+  "comparison": null,
+  "backbone": {
+    "text": "I decided to take her by train.",
+    "meaning": "我决定带她坐火车出行。"
+  },
+  "structureNotes": [
+    {
+      "title": "decide的用法",
+      "text": "decide作及物动词表示“决定”时，后面可以直接接带to的动词不定式，不定式整体就是decide的宾语，用来说明决定的具体内容是什么。"
+    },
+    {
+      "title": "by + 交通工具表出行方式",
+      "text": "by train是固定的交通方式表达，中间不需要加冠词，意思相当于by means of taking a train，直接跟在动作后面说明出行的具体方式。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人自己，是做出决定的人。"
+    },
+    {
+      "text": "decided",
+      "role": "谓语",
+      "explanation": "表达“决定”这个动作，是句子的核心动词。"
+    },
+    {
+      "text": "to take her by train",
+      "role": "动词不定式短语作decided的宾语",
+      "explanation": "用来说明decide的具体内容，也就是决定要做的事是“带她坐火车走”。"
+    },
+    {
+      "text": "take",
+      "role": "不定式核心动词",
+      "explanation": "在不定式短语中表“带着、带领”的动作。"
+    },
+    {
+      "text": "her",
+      "role": "不定式动词take的宾语",
+      "explanation": "指代前文提到的说话人的女儿Sally。"
+    },
+    {
+      "text": "by train",
+      "role": "方式状语",
+      "explanation": "修饰take这个动作，说明带她出行所采用的交通方式。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "decided",
+      "meaning": "决定",
+      "pos": "动词（过去式）",
+      "phonetic": "/dɪˈsaɪdɪd/"
+    },
+    {
+      "text": "to",
+      "meaning": "（引出不定式）",
+      "pos": "小品词",
+      "phonetic": "/tuː; tə/"
+    },
+    {
+      "text": "take",
+      "meaning": "带领、携带",
+      "pos": "动词（不定式形式）",
+      "phonetic": "/teɪk/"
+    },
+    {
+      "text": "her",
+      "meaning": "她（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɜː(r)/"
+    },
+    {
+      "text": "by",
+      "meaning": "由、乘（表交通方式）",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "train.",
+      "meaning": "火车",
+      "pos": "名词",
+      "phonetic": "/treɪn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作的发出者，做出决策的主体",
+      "meaning": "我"
+    },
+    {
+      "text": "decided",
+      "relation": "句子核心谓语，交代做出的动作",
+      "meaning": "决定"
+    },
+    {
+      "text": "to take her",
+      "relation": "补充说明决定的具体内容：带她同行",
+      "meaning": "带她"
+    },
+    {
+      "text": "by train.",
+      "relation": "补充说明带她出行所采用的交通方式",
+      "meaning": "坐火车"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-141",
+  "sentenceId": "nce-1-lesson-141-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I decided to take her by train.",
+  "lesson": "Lesson 141 Sally's first train ride",
+  "notes": [
+    {
+      "title": "decide的用法",
+      "text": "decide作及物动词表示“决定”时，后面可以直接接带to的动词不定式，不定式整体就是decide的宾语，用来说明决定的具体内容是什么。"
+    },
+    {
+      "title": "by + 交通工具表出行方式",
+      "text": "by train是固定的交通方式表达，中间不需要加冠词，意思相当于by means of taking a train，直接跟在动作后面说明出行的具体方式。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体翻译、主干、成分标注、短语释义均符合原文语义，结构说明准确；仅单词表中train的音标错误附带了句末句号，已修正为英式正确音标。（非逐句人工审核）"
+}

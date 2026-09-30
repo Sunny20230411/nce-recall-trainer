@@ -1,0 +1,167 @@
+{
+  "chinese": "我打算把它放在这里，窗户前面。",
+  "intent": "说明自己放置某件物品的具体计划位置，回应之前的相关询问。",
+  "backbone": {
+    "text": "I'm going to put it here",
+    "meaning": "我打算把它放在这里"
+  },
+  "parts": [
+    {
+      "text": "I'm going to",
+      "relation": "说明动作的执行人和计划属性",
+      "meaning": "我打算"
+    },
+    {
+      "text": "put",
+      "relation": "说明要执行的具体动作",
+      "meaning": "放置"
+    },
+    {
+      "text": "it",
+      "relation": "说明放置这个动作的对象",
+      "meaning": "它（指代前文提到的物品）"
+    },
+    {
+      "text": "here,",
+      "relation": "说明放置的大致位置",
+      "meaning": "这里"
+    },
+    {
+      "text": "in front of the window.",
+      "relation": "补充说明“这里”具体指的是哪个位置",
+      "meaning": "在窗户的前面"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "be going to 的用法",
+      "text": "这里的I'm going to不是表示正在去某个地方，而是用来表达说话人当下已经确定、即将执行的计划动作。"
+    },
+    {
+      "title": "位置补充说明的表达",
+      "text": "句末的in front of the window是对前面的here的具体解释，用逗号隔开，进一步明确放置物品的精准位置，避免听者产生歧义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm going to",
+      "role": "计划表达框架",
+      "explanation": "用来引出说话人即将实施的动作，传递明确的主观打算含义"
+    },
+    {
+      "text": "put it here",
+      "role": "核心动宾补片段",
+      "explanation": "交代动作、动作对象和大致的放置位置，构成句子的核心信息"
+    },
+    {
+      "text": "in front of the window",
+      "role": "位置补充状语",
+      "explanation": "进一步细化here所指代的具体地点，让位置描述更清晰"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我是",
+      "pos": "pronoun + verb",
+      "phonetic": "/aɪm/",
+      "text": "I'm"
+    },
+    {
+      "meaning": "去（此处和be going to搭配表打算）",
+      "pos": "verb",
+      "phonetic": "/ˈɡəʊɪŋ/",
+      "text": "going"
+    },
+    {
+      "meaning": "无实义（和后面的动词构成不定式）",
+      "pos": "infinitive marker",
+      "phonetic": "/tə/",
+      "text": "to"
+    },
+    {
+      "meaning": "放置",
+      "pos": "verb",
+      "phonetic": "/pʊt/",
+      "text": "put"
+    },
+    {
+      "meaning": "它（指代前文提到的物品）",
+      "pos": "pronoun",
+      "phonetic": "/ɪt/",
+      "text": "it"
+    },
+    {
+      "meaning": "这里",
+      "pos": "adverb",
+      "phonetic": "/hɪə(r)/",
+      "text": "here,"
+    },
+    {
+      "meaning": "在……里面",
+      "pos": "preposition",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "前面",
+      "pos": "noun",
+      "phonetic": "/frʌnt/",
+      "text": "front"
+    },
+    {
+      "meaning": "属于（此处构成固定搭配）",
+      "pos": "preposition",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "这个",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "窗户",
+      "pos": "noun",
+      "phonetic": "/ˈwɪndəʊ/",
+      "text": "window."
+    }
+  ],
+  "comparison": {
+    "chinese": "中文习惯直接说“我打算把它放在窗户前面”，可以一次性说清所有位置信息",
+    "english": "英文先说出核心打算“我打算把它放在这里”，再追加补充说明here具体是哪里",
+    "steps": [
+      {
+        "label": "第一步",
+        "text": "I'm going to put it here",
+        "explanation": "先交代最核心的信息：我打算把物品放在这里，快速传递大致的动作和位置"
+      },
+      {
+        "label": "第二步",
+        "text": "in front of the window",
+        "explanation": "再补充说明here的具体所指，让听者准确get到精准的放置位置"
+      }
+    ],
+    "takeaway": "英文这种先给核心信息再补细节的表达，不需要把所有描述都提前堆在名词前面，读起来更轻松，信息接收也有明确的先后顺序。"
+  },
+  "courseId": "nce1",
+  "lessonId": "lesson-39",
+  "sentenceId": "nce-1-lesson-039-sentence-005",
+  "sentenceOrder": 5,
+  "english": "I'm going to put it here, in front of the window.",
+  "lesson": "Lesson 39 Don't drop it!",
+  "notes": [
+    {
+      "title": "be going to 的用法",
+      "text": "这里的I'm going to不是表示正在去某个地方，而是用来表达说话人当下已经确定、即将执行的计划动作。"
+    },
+    {
+      "title": "位置补充说明的表达",
+      "text": "句末的in front of the window是对前面的here的具体解释，用逗号隔开，进一步明确放置物品的精准位置，避免听者产生歧义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合解析规范，仅存在局部细节表述不严谨、标点处理小问题，可明确修正（非逐句人工审核）"
+}

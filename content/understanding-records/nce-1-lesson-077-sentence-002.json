@@ -1,0 +1,168 @@
+{
+  "chinese": "早上好，护士。麻烦您，我想看牙医。",
+  "intent": "病人在牙科诊所和护士打招呼，并礼貌说明自己想要就诊的诉求。",
+  "comparison": null,
+  "backbone": {
+    "text": "I want to see the dentist.",
+    "meaning": "我想要看牙医。"
+  },
+  "structureNotes": [
+    {
+      "title": "问候语独立成块",
+      "text": "“Good morning, nurse.” 是独立的日常问候，后面接的就诊诉求句子是核心信息，不需要把问候语和诉求揉成一个长句。"
+    },
+    {
+      "title": "to see 表意愿内容",
+      "text": "动词 want 表示“想要”，后面的 to see the dentist 是不定式短语，说明想要做的具体事。"
+    },
+    {
+      "title": "句末 please 的作用",
+      "text": "please 放在句末，让原本直接的诉求语气变得礼貌，对应中文里客气的“麻烦、劳驾”的语气。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Good morning",
+      "role": "问候表达",
+      "explanation": "日常固定早安问候语，独立使用，不充当后续句子的语法成分。"
+    },
+    {
+      "text": "nurse",
+      "role": "问候的称呼对象",
+      "explanation": "指明问候的对象是诊所的护士，是呼语。"
+    },
+    {
+      "text": "I",
+      "role": "句子主语",
+      "explanation": "指说话的病人本人。"
+    },
+    {
+      "text": "want",
+      "role": "谓语动词",
+      "explanation": "表达主语的意愿“想要”。"
+    },
+    {
+      "text": "to see the dentist",
+      "role": "want 的宾语（不定式短语）",
+      "explanation": "说明想要做出的具体动作是去看牙医，the dentist 是 see 的宾语。"
+    },
+    {
+      "text": "please",
+      "role": "礼貌修饰语",
+      "explanation": "放在句末软化语气，让请求更委婉客气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Good",
+      "meaning": "好的",
+      "pos": "形容词",
+      "phonetic": "/ɡʊd/"
+    },
+    {
+      "text": "morning,",
+      "meaning": "早晨，上午",
+      "pos": "名词",
+      "phonetic": "/ˈmɔːnɪŋ/"
+    },
+    {
+      "text": "nurse.",
+      "meaning": "护士",
+      "pos": "名词",
+      "phonetic": "/nɜːs/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要",
+      "pos": "动词",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "see",
+      "meaning": "看，就诊",
+      "pos": "动词",
+      "phonetic": "/siː/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "dentist,",
+      "meaning": "牙医",
+      "pos": "名词",
+      "phonetic": "/ˈdentɪst/"
+    },
+    {
+      "text": "please.",
+      "meaning": "请，麻烦",
+      "pos": "感叹词（礼貌用语）",
+      "phonetic": "/pliːz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Good morning, nurse.",
+      "meaning": "早上好，护士。",
+      "relation": "向接待自己的护士道早安"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "句子主语，指代说话的病人"
+    },
+    {
+      "text": "want to see",
+      "meaning": "想要就诊",
+      "relation": "表达自身的就诊意愿，衔接后续就诊对象"
+    },
+    {
+      "text": "the dentist,",
+      "meaning": "牙医",
+      "relation": "就诊的具体对象"
+    },
+    {
+      "text": "please.",
+      "meaning": "麻烦您",
+      "relation": "柔化语气，体现礼貌请求的态度"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-77",
+  "sentenceId": "nce-1-lesson-077-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Good morning, nurse. I want to see the dentist, please.",
+  "lesson": "Lesson 77 Terrible toothache",
+  "notes": [
+    {
+      "title": "问候语独立成块",
+      "text": "“Good morning, nurse.” 是独立的日常问候，后面接的就诊诉求句子是核心信息，不需要把问候语和诉求揉成一个长句。"
+    },
+    {
+      "title": "to see 表意愿内容",
+      "text": "动词 want 表示“想要”，后面的 to see the dentist 是不定式短语，说明想要做的具体事。"
+    },
+    {
+      "title": "句末 please 的作用",
+      "text": "please 放在句末，让原本直接的诉求语气变得礼貌，对应中文里客气的“麻烦、劳驾”的语气。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体翻译、主干、语法结构和词汇解析准确，符合成人静态解析要求。两处可优化：一是当前句块的中文翻译遗漏了句末表礼貌语气的 please，与英文原文信息不对等；二是词汇表中 morning 后的逗号、nurse 后的句点、dentist 后的逗号属于标点，不属于词汇本身，同时 please 标注为感叹词不够准确，应标注为感叹词/礼貌用语更贴合实际用法。（非逐句人工审核）"
+}

@@ -1,0 +1,75 @@
+{
+  "chinese": "给你。",
+  "intent": "在日常递接物品的场景中，向对方交付物品，表达递给对方东西的常用口语。",
+  "comparison": null,
+  "backbone": {
+    "text": "Here you are.",
+    "meaning": "递给你。"
+  },
+  "structureNotes": [
+    {
+      "title": "固定递物口语表达",
+      "text": "Here 置于句首引出交付动作，整体是口语化的固定表达，用来表示把物品递交给对方。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Here",
+      "role": "发话语境提示词",
+      "explanation": "提示当前正在交付物品的语境，置于句首引出递物动作。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "是接收物品的对象，为主格代词在句中作主语。"
+    },
+    {
+      "text": "are.",
+      "role": "系动词",
+      "explanation": "是 be 动词的第二人称单数现在时形式，与 Here、you 搭配构成固定递物表达。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Here",
+      "meaning": "（用于递物时的发话语境提示）",
+      "pos": "副词",
+      "phonetic": "/hɪə/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/ju/"
+    },
+    {
+      "text": "are.",
+      "meaning": "是（be的第二人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɑː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Here you are.",
+      "meaning": "给你。",
+      "relation": "完整的递物表达"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-65",
+  "sentenceId": "nce-1-lesson-065-sentence-012",
+  "sentenceOrder": 12,
+  "english": "Here you are.",
+  "lesson": "Lesson 65 Not a baby",
+  "notes": [
+    {
+      "title": "固定递物口语表达",
+      "text": "Here 置于句首引出交付动作，整体是口语化的固定表达，用来表示把物品递交给对方。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整句翻译、主干释义、整体语用说明与上下文匹配，here、you、are 的基础词性标注、英式音标与分块释义均符合要求。原标注中“Here 置于句首构成倒装”的语法表述不够严谨：本句是 you 作主语、are 作系动词的固定习语，并未发生主语与谓语倒装，需将倒装表述调整为与原分析一致的语用说明，明确其为递物时的固定口语表达，避免学习者误判语序。（非逐句人工审核）"
+}

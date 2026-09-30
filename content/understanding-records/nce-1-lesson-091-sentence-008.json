@@ -1,0 +1,53 @@
+{
+  "chinese": "不对。",
+  "intent": "用于否定对方刚才提出的“明天上午”的时间猜测，明确表示该时间不符合预期，后续将给出正确的时间安排。",
+  "comparison": null,
+  "backbone": {
+    "text": "不。",
+    "meaning": "否定前文提出的“明天上午”这一时间假设，明确指出该时间不符合实际预期。"
+  },
+  "structureNotes": [
+    {
+      "title": "独立否定应答的语境作用",
+      "text": "No. 是承接上文猜测的独立简短应答，单独成句直接否决前文刚提出的时间假设，不需要额外的句法成分就可以传递完整的否定态度。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No.",
+      "role": "独立否定应答短句",
+      "explanation": "直接对上文提到的“明天上午”这一猜测做出否定回应，明确表示这个时间不对。"
+    }
+  ],
+  "words": [
+    {
+      "text": "No.",
+      "meaning": "不，不对，用于否定前文的判断或猜测",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "No.",
+      "meaning": "不对，明确否定前文提出的时间猜测",
+      "relation": "直接否定前文“明天上午”的时间猜测，引出后续给出的正确时间安排"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-91",
+  "sentenceId": "nce-1-lesson-091-sentence-008",
+  "sentenceOrder": 8,
+  "english": "No.",
+  "lesson": "Lesson 91 Poor Ian!",
+  "notes": [
+    {
+      "title": "独立否定应答的语境作用",
+      "text": "No. 是承接上文猜测的独立简短应答，单独成句直接否决前文刚提出的时间假设，不需要额外的句法成分就可以传递完整的否定态度。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确：核心释义、词性标注、句法角色判定、语境关联均与对话上下文匹配，明确该句是针对前文“明天上午”的时间猜测做出独立否定应答，未出现语法误判、语义错释或指代错误；仅需微调表述使其更符合中文表达习惯。（非逐句人工审核）"
+}

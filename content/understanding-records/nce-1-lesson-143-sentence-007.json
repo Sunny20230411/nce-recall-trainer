@@ -1,0 +1,133 @@
+{
+  "chinese": "我看到的景象让我非常难过。",
+  "intent": "陈述在树林散步时所见的景象带给自己的情绪感受。",
+  "comparison": {
+    "chinese": "我看到的景象让我非常难过。",
+    "english": "What I saw made me very sad.",
+    "steps": [
+      {
+        "label": "先明确动作承受者",
+        "text": "What I saw",
+        "explanation": "What在这里不是独立疑问词，而是引导名词性从句，字面意思是“我所看到的事物/景象”，整个从句充当句子的主语，而不是独立的特殊疑问句。"
+      },
+      {
+        "label": "再接核心谓语和情绪",
+        "text": "made me very sad",
+        "explanation": "make sb. + 形容词是“让某人处于某种状态”的常用结构，me是宾语，very sad补充说明宾语的情绪状态。"
+      }
+    ],
+    "takeaway": "含疑问词的结构可以作句子主语；理解时要先识别它是名词性从句而非疑问句，再找主句的谓语和情绪结果。"
+  },
+  "backbone": {
+    "text": "What I saw made me very sad.",
+    "meaning": "我在散步途中亲眼所见的景象，让我产生了非常难过的情绪。"
+  },
+  "structureNotes": [
+    {
+      "title": "主语从句的识别",
+      "text": "What I saw整体作句子主语，回答“是什么事”让我难过；what在从句中指代“看到的东西/景象”，同时作saw的宾语，不要把它当成独立的疑问词来理解。"
+    },
+    {
+      "title": "make的宾补结构",
+      "text": "made me very sad使用make + 宾语 + 形容词补语的结构，表示“使得某人变得某种状态”，very用来修饰sad的程度。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What I saw",
+      "role": "主语从句",
+      "explanation": "由what引导的名词性从句，在句中充当主语，指代说话人亲眼看到的具体景象，what同时作从句中saw的宾语。"
+    },
+    {
+      "text": "made",
+      "role": "主句谓语",
+      "explanation": "make的一般过去式，连接主语（所见景象）和宾语（me），表达“使得、让”的使动含义。"
+    },
+    {
+      "text": "me",
+      "role": "宾语",
+      "explanation": "人称代词I的宾格形式，是made这个动作的承受者。"
+    },
+    {
+      "text": "very sad",
+      "role": "宾语补足语",
+      "explanation": "由副词very修饰形容词sad构成，补充说明me被带来的情绪状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What",
+      "meaning": "所……的事物（引导主语从句）",
+      "pos": "代词（关系代词型）",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词（主格）",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "saw",
+      "meaning": "看到（see的过去式）",
+      "pos": "动词",
+      "phonetic": "/sɔː/"
+    },
+    {
+      "text": "made",
+      "meaning": "使、让（make的过去式）",
+      "pos": "动词",
+      "phonetic": "/meɪd/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（I的宾格）",
+      "pos": "代词（宾格）",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "sad.",
+      "meaning": "难过的",
+      "pos": "形容词",
+      "phonetic": "/sæd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What I saw",
+      "relation": "句子的主语部分，整体指代触发情绪的所见事物",
+      "meaning": "我所看到的景象"
+    },
+    {
+      "text": "made me very sad.",
+      "relation": "谓语加宾语加情绪补语，说明所见景象带来的结果",
+      "meaning": "让我非常难过"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-143",
+  "sentenceId": "nce-1-lesson-143-sentence-007",
+  "sentenceOrder": 7,
+  "english": "What I saw made me very sad.",
+  "lesson": "Lesson 143 A walk through the woods",
+  "notes": [
+    {
+      "title": "主语从句的识别",
+      "text": "What I saw整体作句子主语，回答“是什么事”让我难过；what在从句中指代“看到的东西/景象”，同时作saw的宾语，不要把它当成独立的疑问词来理解。"
+    },
+    {
+      "title": "make的宾补结构",
+      "text": "made me very sad使用make + 宾语 + 形容词补语的结构，表示“使得某人变得某种状态”，very用来修饰sad的程度。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体核对通过：明确说明“What I saw”是主语从句而非独立疑问句，what在从句内作saw的宾语、不是句子主语；“made me very sad”按make+宾语+形容词宾补结构解释，me为宾语，句法与语义均成立；上下文里的woods未误写为木头；仅词表中sad后多带了句号，需按句末标点的显示规则拆分到标点条目，而非单词条目。（非逐句人工审核）"
+}

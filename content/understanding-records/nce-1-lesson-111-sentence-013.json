@@ -1,0 +1,121 @@
+{
+  "chinese": "有时候你以为自己是百万富翁！",
+  "intent": "带调侃语气指出对方总想要最好的商品，甚至产生了自己是百万富翁的错觉。",
+  "comparison": null,
+  "backbone": {
+    "text": "You think you're a millionaire.",
+    "meaning": "你认为自己是百万富翁。"
+  },
+  "structureNotes": [
+    {
+      "title": "think后接省略that的宾语从句",
+      "text": "本句里think后面直接接表述想法内容的句子，that被省略，整个从句说明“你”的想法是什么，按中文顺序可直接理解为“你以为自己是百万富翁”。"
+    },
+    {
+      "title": "Sometimes作频率状语",
+      "text": "Sometimes放在句首说明这种想法的发生频率是“偶尔、有时”，不是指此刻正在发生，修饰的是“think”这个动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Sometimes",
+      "role": "句子频率状语",
+      "explanation": "表示“你产生这种想法”这件事偶尔发生，不是每次都这样。"
+    },
+    {
+      "text": "you",
+      "role": "主句主语",
+      "explanation": "是发出think这个动作的人，也就是被调侃的对话对象。"
+    },
+    {
+      "text": "think",
+      "role": "主句谓语",
+      "explanation": "表示“认为、以为”的心理活动，后面引出所想的具体内容。"
+    },
+    {
+      "text": "you're a millionaire",
+      "role": "think的宾语从句（主从复合句中的名词性从句）",
+      "explanation": "省略了引导词that，用来表述“你”所持的想法：自己是百万富翁。"
+    },
+    {
+      "text": "millionaire",
+      "role": "从句表语",
+      "explanation": "说明从句主语you的身份是百万富翁。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Sometimes",
+      "meaning": "有时候",
+      "pos": "副词",
+      "phonetic": "/ˈsʌmtaɪmz/"
+    },
+    {
+      "text": "you",
+      "meaning": "你（主格）",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "think",
+      "meaning": "认为，以为",
+      "pos": "动词",
+      "phonetic": "/θɪŋk/"
+    },
+    {
+      "text": "you're",
+      "meaning": "你是",
+      "pos": "缩写（you are）",
+      "phonetic": "/jʊə(r)/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "冠词（不定冠词）",
+      "phonetic": "/eɪ/ 或弱读 /ə/"
+    },
+    {
+      "text": "millionaire!",
+      "meaning": "百万富翁",
+      "pos": "名词",
+      "phonetic": "/ˌmɪljəˈneə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Sometimes",
+      "meaning": "有时候",
+      "relation": "补充动作发生的频率"
+    },
+    {
+      "text": "you think",
+      "meaning": "你认为",
+      "relation": "主句主干，说明主语和心理动作"
+    },
+    {
+      "text": "you're a millionaire!",
+      "meaning": "你是个百万富翁！",
+      "relation": "宾语从句，补充think的具体想法内容"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-111",
+  "sentenceId": "nce-1-lesson-111-sentence-013",
+  "sentenceOrder": 13,
+  "english": "Sometimes you think you're a millionaire!",
+  "lesson": "Lesson 111 The most expensive model",
+  "notes": [
+    {
+      "title": "think后接省略that的宾语从句",
+      "text": "本句里think后面直接接表述想法内容的句子，that被省略，整个从句说明“你”的想法是什么，按中文顺序可直接理解为“你以为自己是百万富翁”。"
+    },
+    {
+      "title": "Sometimes作频率状语",
+      "text": "Sometimes放在句首说明这种想法的发生频率是“偶尔、有时”，不是指此刻正在发生，修饰的是“think”这个动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体通顺。主要修正：将a的词性由不定冠词改为冠词、音标由/ə/改为英式常用弱式/eɪ/或/ə/；millionaire的音标为/ˌmɪljəˈneə(r)/正确；为millionaire补充“表语”说明；主从句嵌套关系解释清楚。（非逐句人工审核）"
+}

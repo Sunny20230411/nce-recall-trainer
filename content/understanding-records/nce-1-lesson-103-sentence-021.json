@@ -1,0 +1,245 @@
+{
+  "chinese": "然后他坐在那里看了三个小时！一个字也没写！",
+  "intent": "用反差对比的动作描写，生动叙述男孩参加法语考试时交白卷、发呆耗时间的状态，突出他面对考试手足无措、毫无进展的窘迫感。",
+  "comparison": {
+    "chinese": "中文表达「一个字也没写！」时，通常把「一个字」作为受事前置到动词前，再用「也没」这个否定语气强化完全没有动笔的程度，不常说「没写一个字」来同等强调。",
+    "english": "英文对应表达 He didn't write a word!，用 didn't 构成过去时否定，a word 在否定句中相当于 anything 的强调语气，字面是「没有写下任何字」。",
+    "steps": [
+      {
+        "label": "先说动作主体和谓语，再补时间",
+        "text": "He sat there and looked at it for three hours",
+        "explanation": "中文习惯把时间状语放在动作后表述为「在那里看了三个小时」，英文先讲完「坐下来盯着考卷看」的核心动作，再用 for three hours 补充动作持续了多久，符合英文先讲核心信息、再加补充说明的表达习惯。"
+      },
+      {
+        "label": "否定句先加助动词，再接宾语",
+        "text": "He didn't write a word",
+        "explanation": "中文直接在受事前加「也」、动词前加「没」表达强否定，英文需要借助 didn't（did not）放在主语后、动词前完成否定，a word 作为 write 的宾语放在动词后面，和中文受事前置的语序不同，但否定强调的逻辑一致。"
+      }
+    ],
+    "takeaway": "理解英文否定时，先抓 didn't 传递的否定核心，再看后面的动词和宾语；时间类的补充信息往往放在核心动作说完之后，不用硬按中文的语序顺序逐字对应。"
+  },
+  "backbone": {
+    "text": "He sat there, looked at it for three hours, and didn't write a word.",
+    "meaning": "他坐在那里盯着考卷看了三个小时，全程一个字都没有写。"
+  },
+  "structureNotes": [
+    {
+      "title": "and 连接的并列谓语",
+      "text": "第一个句子里 and 连接 sat there 和 looked at it 两个并列动作，主语都是 he，共同描述他在考场上的连续状态，没有额外从属关系。"
+    },
+    {
+      "title": "for 引出动作持续的时长",
+      "text": "for three hours 放在 looked at it 之后，用介词 for 明确表示「看考卷」这个动作持续了整整三个小时，而不是某一个时刻的短暂动作。"
+    },
+    {
+      "title": "完全否定的固定表达",
+      "text": "didn't write a word 是固定的口语化否定表达，意思是「一个字也没写」；此处 a word 在否定语境下并非量词短语「一个」的字面含义，而是表“任何字”的强调语气，整体强化完全没有动笔的结果，语气比 didn't write anything 更生动。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Then",
+      "role": "句首时间副词",
+      "explanation": "承接前文的考试场景，说明接下来发生的动作顺序，是叙事连贯性的标记。"
+    },
+    {
+      "text": "he",
+      "role": "前一句的主语",
+      "explanation": "指代参加法语考试的男孩，是前一句两个并列动作的发出者。"
+    },
+    {
+      "text": "sat there",
+      "role": "并列谓语1",
+      "explanation": "描述男孩坐在考场座位上的状态，和后面的 look at it 是连续的两个动作。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个谓语动作，表示两个动作先后/同时发生，共享同一个主语 he。"
+    },
+    {
+      "text": "looked at it",
+      "role": "并列谓语2",
+      "explanation": "it 指代前文提到的法语试卷，这个动作描述男孩盯着试卷、迟迟不动笔的状态。"
+    },
+    {
+      "text": "for three hours!",
+      "role": "动作时长状语",
+      "explanation": "用 for 短语说明「坐着看试卷」这个状态持续的总时长，突出他耗了很久没有进展。"
+    },
+    {
+      "text": "He",
+      "role": "第二句的主语",
+      "explanation": "和前一句的 he 是同一个人，仍然指代参加考试的男孩。"
+    },
+    {
+      "text": "didn't write",
+      "role": "否定谓语",
+      "explanation": "用一般过去时的否定形式，说明男孩在考试全程没有进行书写这个动作，didn't 是 did not 的缩写，后接动词原形 write。"
+    },
+    {
+      "text": "a word!",
+      "role": "write 的宾语",
+      "explanation": "此处为否定语境下的强调用法，相当于 anything，整体表达完全否定「连任何一个字都没写」，强化交白卷的结果。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "然后",
+      "pos": "副词",
+      "phonetic": "/ðen/",
+      "text": "Then"
+    },
+    {
+      "meaning": "他（主格）",
+      "pos": "代词",
+      "phonetic": "/hiː/",
+      "text": "he"
+    },
+    {
+      "meaning": "坐（sit 的过去式）",
+      "pos": "动词",
+      "phonetic": "/sæt/",
+      "text": "sat"
+    },
+    {
+      "meaning": "在那里",
+      "pos": "副词",
+      "phonetic": "/ðeə(r)/",
+      "text": "there"
+    },
+    {
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "看，瞧（look 的过去式）",
+      "pos": "动词",
+      "phonetic": "/lʊkt/",
+      "text": "looked"
+    },
+    {
+      "meaning": "向，朝（和 look 构成短语 look at）",
+      "pos": "介词",
+      "phonetic": "/æt/",
+      "text": "at"
+    },
+    {
+      "meaning": "它（此处指代试卷）",
+      "pos": "代词",
+      "phonetic": "/ɪt/",
+      "text": "it"
+    },
+    {
+      "meaning": "（表示持续时长）达，计",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/",
+      "text": "for"
+    },
+    {
+      "meaning": "三",
+      "pos": "数词",
+      "phonetic": "/θriː/",
+      "text": "three"
+    },
+    {
+      "meaning": "小时（复数）！",
+      "pos": "名词",
+      "phonetic": "/ˈaʊəz/",
+      "text": "hours!"
+    },
+    {
+      "meaning": "他（主格）",
+      "pos": "代词",
+      "phonetic": "/hiː/",
+      "text": "He"
+    },
+    {
+      "meaning": "没有（did not 的缩写，构成过去时否定）",
+      "pos": "缩写词",
+      "phonetic": "/ˈdɪdnt/",
+      "text": "didn't"
+    },
+    {
+      "meaning": "写",
+      "pos": "动词",
+      "phonetic": "/raɪt/",
+      "text": "write"
+    },
+    {
+      "meaning": "一（个）",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "字，单词！",
+      "pos": "名词",
+      "phonetic": "/wɜːd/",
+      "text": "word!"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Then",
+      "meaning": "然后",
+      "relation": "叙事衔接标记，引出接下来发生的后续动作"
+    },
+    {
+      "text": "he sat there",
+      "meaning": "他坐在那里",
+      "relation": "描述男孩第一阶段的状态，是前半句的第一个核心动作"
+    },
+    {
+      "text": "and looked",
+      "meaning": "并且看",
+      "relation": "连接两个并列动作，引出男孩第二阶段的行为"
+    },
+    {
+      "text": "at it",
+      "meaning": "它（指试卷）",
+      "relation": "说明男孩盯着看的对象，也就是面前的考试卷"
+    },
+    {
+      "text": "for three hours!",
+      "meaning": "长达三个小时！",
+      "relation": "补充说明「坐着看试卷」这个动作持续的总时长"
+    },
+    {
+      "text": "He didn't write",
+      "meaning": "他没有写",
+      "relation": "作为独立完整句子，描述和前一句发呆动作形成强烈反差的结果，主语仍是同一个男孩"
+    },
+    {
+      "text": "a word!",
+      "meaning": "哪怕一个字！",
+      "relation": "补充说明「没写」的程度：全程没有落下任何书写内容，突出交白卷的反差"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-021",
+  "sentenceOrder": 21,
+  "english": "Then he sat there and looked at it for three hours! He didn't write a word!",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "and 连接的并列谓语",
+      "text": "第一个句子里 and 连接 sat there 和 looked at it 两个并列动作，主语都是 he，共同描述他在考场上的连续状态，没有额外从属关系。"
+    },
+    {
+      "title": "for 引出动作持续的时长",
+      "text": "for three hours 放在 looked at it 之后，用介词 for 明确表示「看考卷」这个动作持续了整整三个小时，而不是某一个时刻的短暂动作。"
+    },
+    {
+      "title": "完全否定的固定表达",
+      "text": "didn't write a word 是固定的口语化否定表达，意思是「一个字也没写」；此处 a word 在否定语境下并非量词短语「一个」的字面含义，而是表“任何字”的强调语气，整体强化完全没有动笔的结果，语气比 didn't write anything 更生动。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅有两处表述可优化：1. 第二句 He didn't write a word! 实际为独立完整句子，原标注为与前一句并列的反差分句，未明确说明其独立句属性；2. a word 在否定句中表“任何字”的强调用法未明确标注，易被误解为量词“一个”的字面含义。其余内容、音标、结构划分均符合事实。（非逐句人工审核）"
+}

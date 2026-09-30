@@ -1,0 +1,127 @@
+{
+  "chinese": "您要牛肉还是羊肉？",
+  "intent": "在肉店询问顾客，在牛肉和羊肉两种肉类中想要哪一种。",
+  "comparison": {
+    "chinese": "您要牛肉还是羊肉？",
+    "english": "Do you want beef or lamb?",
+    "steps": [
+      {
+        "label": "先把Do放到句首",
+        "text": "Do you want…",
+        "explanation": "Do放在you前面构成一般疑问框架，询问“你是否想要……”，不是陈述事实。"
+      },
+      {
+        "label": "用or给出两个选项",
+        "text": "…beef or lamb?",
+        "explanation": "or把牛肉和羊肉连起来，问的是要哪一种，而不是是否两者都要。"
+      }
+    ],
+    "takeaway": "这类问句先用Do确认框架，再用or引出两个并列选项。"
+  },
+  "backbone": {
+    "text": "Do you want beef or lamb?",
+    "meaning": "询问顾客在牛肉和羊肉之间想要哪一种肉类。"
+  },
+  "structureNotes": [
+    {
+      "title": "选择疑问句的结构",
+      "text": "本句不是回答Yes/No的普通一般疑问句：先用Do...want提出询问，再用or把beef和lamb并列成两个选择项，听者要在其中选一个回答。"
+    },
+    {
+      "title": "lamb表示肉类的用法",
+      "text": "此处lamb不是指小羊本身，而是指食用的羔羊肉，与beef（牛肉）并列作want的宾语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "助动词",
+      "explanation": "放在主语you前面，帮助构成现在时的一般疑问句式，本身没有独立实义。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指听话的顾客，是“想要”这个动作的发出者。"
+    },
+    {
+      "text": "want",
+      "role": "谓语动词",
+      "explanation": "表示“想要、希望得到”，是句子的核心动作。"
+    },
+    {
+      "text": "beef or lamb",
+      "role": "选择宾语",
+      "explanation": "两个肉类名词由or连接，作want的宾语，构成牛肉或羊肉的二选一询问。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（助动词，构成现在时疑问句式）",
+      "pos": "auxiliary verb",
+      "phonetic": "/duː, də/",
+      "text": "Do"
+    },
+    {
+      "meaning": "你，你们",
+      "pos": "pronoun",
+      "phonetic": "/ju/",
+      "text": "you"
+    },
+    {
+      "meaning": "想要",
+      "pos": "verb",
+      "phonetic": "/wɒnt/",
+      "text": "want"
+    },
+    {
+      "meaning": "牛肉",
+      "pos": "noun (uncountable)",
+      "phonetic": "/biːf/",
+      "text": "beef"
+    },
+    {
+      "meaning": "或者，还是",
+      "pos": "conjunction",
+      "phonetic": "/ɔː/",
+      "text": "or"
+    },
+    {
+      "meaning": "羔羊肉",
+      "pos": "noun (uncountable)",
+      "phonetic": "/læm/",
+      "text": "lamb?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Do you want",
+      "relation": "疑问框架：用Do开头，后接主语和核心动词，引出购买需求的询问。",
+      "meaning": "您想要……？"
+    },
+    {
+      "text": "beef or lamb?",
+      "relation": "选择宾语：并列给出两种肉类作为顾客可选择的商品。",
+      "meaning": "牛肉还是羊肉？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-49",
+  "sentenceId": "nce-1-lesson-049-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Do you want beef or lamb?",
+  "lesson": "Lesson 49 At the butcher's",
+  "notes": [
+    {
+      "title": "选择疑问句的结构",
+      "text": "本句不是回答Yes/No的普通一般疑问句：先用Do...want提出询问，再用or把beef和lamb并列成两个选择项，听者要在其中选一个回答。"
+    },
+    {
+      "title": "lamb表示肉类的用法",
+      "text": "此处lamb不是指小羊本身，而是指食用的羔羊肉，与beef（牛肉）并列作want的宾语。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：本句为选择疑问句，整体翻译、主语谓语划分、结构说明、词义标注均准确，英文音标采用英式发音符合要求，仅词表中lamb的词条误带句末问号，予以修正即可。（非逐句人工审核）"
+}

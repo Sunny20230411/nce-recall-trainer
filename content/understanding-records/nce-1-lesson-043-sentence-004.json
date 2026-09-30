@@ -1,0 +1,75 @@
+{
+  "chinese": "有。",
+  "intent": "针对上文以Is there开头的存在疑问句，给出肯定的答复，确认所询问的事物是存在的。",
+  "comparison": null,
+  "backbone": {
+    "text": "Yes, there is.",
+    "meaning": "对上一句询问的内容给出肯定的确认，表示所问的事物是存在的。"
+  },
+  "parts": [
+    {
+      "text": "Yes,",
+      "relation": "回应整个问句的起始标识",
+      "meaning": "用于开启肯定答复的回应词"
+    },
+    {
+      "text": "there is.",
+      "relation": "补充回应的具体判定内容",
+      "meaning": "there be句型的简略表述，指代上文提到的事物存在"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "简略回应规则",
+      "text": "该句是Is there...存在疑问句的标准肯定简略答语，无需重复问句里的名词内容，用there is对应回上文的存在判定，避免表述冗余。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "肯定应答起始标记",
+      "explanation": "用来明确传递正面回应的态度，开启后续的确认内容。"
+    },
+    {
+      "text": "there is.",
+      "role": "存在判定简略表述",
+      "explanation": "承接上文的there be问句结构，直接确认被询问的事物是存在的。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是, 好的",
+      "pos": "interjection",
+      "phonetic": "/jes/",
+      "text": "Yes,"
+    },
+    {
+      "meaning": "（存在句型的引导词，无实际词义）",
+      "pos": "pronoun",
+      "phonetic": "/ðeə(r)/",
+      "text": "there"
+    },
+    {
+      "meaning": "存在, 是",
+      "pos": "verb",
+      "phonetic": "/ɪz/",
+      "text": "is."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-43",
+  "sentenceId": "nce-1-lesson-043-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Yes, there is.",
+  "lesson": "Lesson 43 Hurry up!",
+  "notes": [
+    {
+      "title": "简略回应规则",
+      "text": "该句是Is there...存在疑问句的标准肯定简略答语，无需重复问句里的名词内容，用there is对应回上文的存在判定，避免表述冗余。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有解析基本符合要求，仅存在部分细节瑕疵可明确修正（非逐句人工审核）"
+}

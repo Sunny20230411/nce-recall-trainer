@@ -1,0 +1,61 @@
+{
+  "chinese": "六万八千五百英镑。",
+  "intent": "承接上一句询问房屋价格的问句，给出这套待售房屋的总售价金额。",
+  "comparison": null,
+  "backbone": {
+    "text": "£68,500.",
+    "meaning": "这套待售房屋的售价为六万八千五百英镑。"
+  },
+  "structureNotes": [
+    {
+      "title": "货币符号与金额读法",
+      "text": "£是英镑的货币符号，不是独立词汇；该金额在语境中读作“sixty-eight thousand five hundred pounds”，不需要给符号加数字的整体组合标注独立的词级读音。"
+    },
+    {
+      "title": "对话省略",
+      "text": "这是价格提问后的简短答语，完整含义是This house costs £68,500，省略了问句中已经出现过的主语和谓语，仅保留需要回答的金额信息。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "£68,500.",
+      "role": "省略答语中的金额信息",
+      "explanation": "承接前文How much does this house cost?的提问，直接给出房屋的具体售价，是对话中对价格问题的简短回应。"
+    }
+  ],
+  "words": [
+    {
+      "text": "£68,500.",
+      "meaning": "六万八千五百英镑",
+      "pos": "名词短语",
+      "phonetic": "ˌsɪksti eɪt ˈθaʊznd faɪv ˈhʌndrəd ˈpaʊndz"
+    }
+  ],
+  "parts": [
+    {
+      "text": "£68,500.",
+      "relation": "核心售价信息，直接回应前文的价格询问",
+      "meaning": "六万八千五百英镑"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-89",
+  "sentenceId": "nce-1-lesson-089-sentence-012",
+  "sentenceOrder": 12,
+  "english": "£68,500.",
+  "lesson": "Lesson 89 For sale",
+  "notes": [
+    {
+      "title": "货币符号与金额读法",
+      "text": "£是英镑的货币符号，不是独立词汇；该金额在语境中读作“sixty-eight thousand five hundred pounds”，不需要给符号加数字的整体组合标注独立的词级读音。"
+    },
+    {
+      "title": "对话省略",
+      "text": "这是价格提问后的简短答语，完整含义是This house costs £68,500，省略了问句中已经出现过的主语和谓语，仅保留需要回答的金额信息。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文为承接房价问句的省略答语，整体对应中文、金额读法、省略语境与词性标注基本正确。仅将“名词性金额短语”统一表述为“名词短语”，避免“名词性”被误读为独立的句法类别。（非逐句人工审核）"
+}

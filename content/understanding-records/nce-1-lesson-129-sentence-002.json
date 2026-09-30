@@ -1,0 +1,100 @@
+{
+  "chinese": "那个警察正在向你挥手。",
+  "intent": "描述当前正在发生的动作：警察做出挥手的示意，对象是听话人，呼应下一句警察想让对方停车的语境。",
+  "comparison": null,
+  "backbone": {
+    "text": "That policeman's waving to you.",
+    "meaning": "那个警察正朝着你挥手示意。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在进行时的缩约形式",
+      "text": "policeman's 是 policeman is 的缩约形式，后面接 waving，构成现在进行时，表示此刻正在发生的动作。"
+    },
+    {
+      "title": "wave 接对象的介词搭配",
+      "text": "表示“向某人挥手”时，英语用 wave to sb，介词 to 不能省略；此处 to you 说明挥手的朝向是听话人本人。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That policeman",
+      "role": "句子主语",
+      "explanation": "由指示代词 That 修饰名词 policeman，指明动作发出者是远处的那名警察。"
+    },
+    {
+      "text": "'s waving to you",
+      "role": "谓语部分",
+      "explanation": "'s 是助动词 is，和现在分词 waving 一起构成现在进行时；to you 是介词短语，说明挥手朝向的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "That",
+      "meaning": "那个",
+      "pos": "指示代词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "policeman's",
+      "meaning": "警察（policeman 后接缩约形式 's = is，共同构成现在进行时的助动词部分）",
+      "pos": "名词（后接缩约的助动词 is）",
+      "phonetic": "/pəˈliːsmənz/"
+    },
+    {
+      "text": "waving",
+      "meaning": "挥手",
+      "pos": "现在分词",
+      "phonetic": "/ˈweɪvɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "向，朝",
+      "pos": "介词",
+      "phonetic": "/tu/"
+    },
+    {
+      "text": "you.",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "That policeman's",
+      "relation": "动作发出者，指明是谁在做挥手这个动作",
+      "meaning": "那个警察"
+    },
+    {
+      "text": "waving",
+      "relation": "核心动作，说明当前正在进行的行为",
+      "meaning": "正在挥手"
+    },
+    {
+      "text": "to you.",
+      "relation": "补充挥手的朝向对象，明确动作是冲着听话人发出的",
+      "meaning": "向你"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-129",
+  "sentenceId": "nce-1-lesson-129-sentence-002",
+  "sentenceOrder": 2,
+  "english": "That policeman's waving to you.",
+  "lesson": "Lesson 129 Seventy miles an hour",
+  "notes": [
+    {
+      "title": "现在进行时的缩约形式",
+      "text": "policeman's 是 policeman is 的缩约形式，后面接 waving，构成现在进行时，表示此刻正在发生的动作。"
+    },
+    {
+      "title": "wave 接对象的介词搭配",
+      "text": "表示“向某人挥手”时，英语用 wave to sb，介词 to 不能省略；此处 to you 说明挥手的朝向是听话人本人。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整句解释基本正确，仅存在一处需要明确化的细节：缩约形式 policeman's 的释义和词性标注没有说明撇号 s 是独立的助动词 is，容易让学习者误以为 policeman's 整体是一个带所有格或名词后缀的单个词汇。其余主干、句法划分、介词搭配、词汇标注和分块含义均符合原句语境。（非逐句人工审核）"
+}

@@ -1,0 +1,95 @@
+{
+  "chinese": "那是一大笔钱！",
+  "intent": "承接前面提到的68500英镑总价，感叹这笔金额数额很高、不是小数目。",
+  "comparison": null,
+  "backbone": {
+    "text": "That's a lot of money.",
+    "meaning": "指代前文提到的那笔数额，说明它属于一大笔钱。"
+  },
+  "structureNotes": [
+    {
+      "title": "代词That的指代作用",
+      "text": "句首That指代前文刚刚报出的68500英镑总价，不需要额外翻译出“那个”，直接按中文表达习惯对应前文的那笔钱即可。"
+    },
+    {
+      "title": "a lot of的固定用法",
+      "text": "a lot of是固定搭配，后接不可数名词money时表示“大量、许多”，整体修饰money，说明这笔钱的数额很大。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That's",
+      "role": "主语加系动词的缩略形式",
+      "explanation": "That指代前文提到的房款总价，'s是is的缩略形式，构成句子的主谓连接。"
+    },
+    {
+      "text": "a lot of money!",
+      "role": "表语",
+      "explanation": "整体说明主语指代的这笔钱的性质：属于数额很大的款项，是句子核心表意部分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "That's",
+      "meaning": "那是",
+      "pos": "代词加系动词的缩略形式（that is的缩写）",
+      "phonetic": "/ðæts/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "ə"
+    },
+    {
+      "text": "lot",
+      "meaning": "大量，许多",
+      "pos": "固定搭配组成词",
+      "phonetic": "lɒt"
+    },
+    {
+      "text": "of",
+      "meaning": "……的",
+      "pos": "介词",
+      "phonetic": "ɒv"
+    },
+    {
+      "text": "money!",
+      "meaning": "钱",
+      "pos": "名词",
+      "phonetic": "ˈmʌni"
+    }
+  ],
+  "parts": [
+    {
+      "text": "That's",
+      "relation": "指代前文提到的68500英镑房款总价，作为句子的陈述对象。",
+      "meaning": "那是"
+    },
+    {
+      "text": "a lot of money!",
+      "relation": "补充说明前面指代的那笔款项的属性，突出金额数额很高、不是小数目。",
+      "meaning": "一大笔钱！"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-89",
+  "sentenceId": "nce-1-lesson-089-sentence-013",
+  "sentenceOrder": 13,
+  "english": "That's a lot of money!",
+  "lesson": "Lesson 89 For sale",
+  "notes": [
+    {
+      "title": "代词That的指代作用",
+      "text": "句首That指代前文刚刚报出的68500英镑总价，不需要额外翻译出“那个”，直接按中文表达习惯对应前文的那笔钱即可。"
+    },
+    {
+      "title": "a lot of的固定用法",
+      "text": "a lot of是固定搭配，后接不可数名词money时表示“大量、许多”，整体修饰money，说明这笔钱的数额很大。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确可用，That的指代关系解释清晰，a lot of的用法说明符合语法规范，主干拆分逻辑正确；仅存在两处可优化的细节：1. That's的音标未使用常用连写形式/ðæts/；2. lot标注为名词不符合该固定搭配中的常规词性说明。已通过补丁修正这两处问题。（非逐句人工审核）"
+}

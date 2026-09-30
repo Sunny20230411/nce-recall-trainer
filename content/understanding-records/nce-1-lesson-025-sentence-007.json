@@ -1,0 +1,105 @@
+{
+  "chinese": "它在左边。",
+  "intent": "说明前文提到的厨具所在的具体方位",
+  "comparison": null,
+  "backbone": {
+    "text": "It is on the left",
+    "meaning": "它处于左侧的位置"
+  },
+  "parts": [
+    {
+      "text": "It",
+      "relation": "描述的主体",
+      "meaning": "指代前文提到的蓝色厨具"
+    },
+    {
+      "text": "is",
+      "relation": "连接主体和方位描述",
+      "meaning": "表示处于某位置的状态"
+    },
+    {
+      "text": "on the left.",
+      "relation": "补充主体所处的具体位置",
+      "meaning": "在左边这个方位上"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "代词指代说明",
+      "text": "句首的It直接承接上一句提到的厨具，不需要额外重复名词，就能让读者清晰知道描述的是哪件物品。"
+    },
+    {
+      "title": "方位表达逻辑",
+      "text": "用on加the left直接表示在左边，无需额外添加冗余修饰，是日常说明位置的简洁表达。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "句子主语",
+      "explanation": "指代前文出现的特定事物，承担被描述的主体角色"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "用来连接主语和后续的方位表述，说明主语的所处状态"
+    },
+    {
+      "text": "on the left",
+      "role": "方位表语",
+      "explanation": "说明主语所在的具体方位，交代核心的位置信息"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "它，指代前文的厨具",
+      "pos": "代词",
+      "phonetic": "/ɪt/",
+      "text": "It"
+    },
+    {
+      "meaning": "是，处于（某状态）",
+      "pos": "动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "在……之上、位于",
+      "pos": "介词",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "这个、这些，限定特指的方位",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "左边",
+      "pos": "名词",
+      "phonetic": "/left/",
+      "text": "left."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-25",
+  "sentenceId": "nce-1-lesson-025-sentence-007",
+  "sentenceOrder": 7,
+  "english": "It is on the left.",
+  "lesson": "Lesson 25 Mrs. Smith's kitchen",
+  "notes": [
+    {
+      "title": "代词指代说明",
+      "text": "句首的It直接承接上一句提到的厨具，不需要额外重复名词，就能让读者清晰知道描述的是哪件物品。"
+    },
+    {
+      "title": "方位表达逻辑",
+      "text": "用on加the left直接表示在左边，无需额外添加冗余修饰，是日常说明位置的简洁表达。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体符合教学要求，仅存在部分细节疏漏需修正，可明确补正优化内容准确性（非逐句人工审核）"
+}

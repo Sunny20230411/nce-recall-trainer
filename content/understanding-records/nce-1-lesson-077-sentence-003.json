@@ -1,0 +1,131 @@
+{
+  "chinese": "您预约了吗？",
+  "intent": "护士向就诊者询问是否已经提前预约过牙科诊疗，用于核实就诊资格。",
+  "comparison": {
+    "chinese": "您预约了吗？",
+    "english": "Do you have an appointment?",
+    "steps": [
+      {
+        "label": "英语用助动词Do前置构成疑问",
+        "text": "Do you have an appointment?",
+        "explanation": "本句是含实义动词have的一般现在时一般疑问句，句首的Do是助动词，本身没有实际语义，仅用于帮助实义动词have构成疑问结构，将原本的陈述句“You have an appointment.”转为提问形式，英语中这类一般疑问句需要通过助动词前置来体现疑问语气。"
+      },
+      {
+        "label": "中文没有对应的助动词变化",
+        "text": "您预约了吗？",
+        "explanation": "中文里表达同类疑问不需要添加助动词，只需要在正常的陈述语序末尾加上疑问语气词“吗”，就可以将普通陈述句转为闭合疑问句，句子本身的陈述语序不需要发生倒装变化。"
+      }
+    ],
+    "takeaway": "英语中含有实义动词的一般现在时一般疑问句，需要将对应助动词Do/Does放在句首构成疑问结构；中文没有助动词倒装的规则，直接在陈述语序的句末加“吗”就可以表达疑问语气。"
+  },
+  "backbone": {
+    "text": "Do you have an appointment?",
+    "meaning": "您有预约吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "一般疑问句的助动词前置",
+      "text": "本句是含实义动词have的一般现在时一般疑问句，句首的Do是助动词，用来将陈述句结构转为疑问，本身不翻译成实际的“做”，只承担语法功能。"
+    },
+    {
+      "title": "询问对象的指代",
+      "text": "you指代来诊所就诊的患者，an appointment指提前约定的牙科就诊时段，句末问号表示这是需要对方给出肯定或否定回答的闭合提问。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "助动词（构成疑问）",
+      "explanation": "无实义，帮助实义动词have构成一般现在时的一般疑问句，放在句首体现疑问语气。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指代被询问的就诊患者，是动作have的发出者。"
+    },
+    {
+      "text": "have",
+      "role": "谓语动词",
+      "explanation": "实义动词，意为“拥有、已有”，表达“持有预约”的核心含义。"
+    },
+    {
+      "text": "an appointment",
+      "role": "动词宾语",
+      "explanation": "have的对象，指一次提前预约的就诊安排。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Do",
+      "meaning": "助动词（无实义，帮助构成一般现在时疑问句）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你，您",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "have",
+      "meaning": "有，持有",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "an",
+      "meaning": "一（件/次）",
+      "pos": "不定冠词",
+      "phonetic": "/ən/"
+    },
+    {
+      "text": "appointment?",
+      "meaning": "预约；约定",
+      "pos": "名词",
+      "phonetic": "/əˈpɔɪntmənt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Do",
+      "meaning": "无实义的助动词，引导疑问句",
+      "relation": "体现句子的疑问语气，无独立实义"
+    },
+    {
+      "text": "you",
+      "meaning": "你，您",
+      "relation": "询问的对象，句子描述的主体"
+    },
+    {
+      "text": "have",
+      "meaning": "有",
+      "relation": "核心动作，表示持有预约"
+    },
+    {
+      "text": "an appointment?",
+      "meaning": "一次预约",
+      "relation": "动作“有”的对象，即询问是否存在的事物"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-77",
+  "sentenceId": "nce-1-lesson-077-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Do you have an appointment?",
+  "lesson": "Lesson 77 Terrible toothache",
+  "notes": [
+    {
+      "title": "一般疑问句的助动词前置",
+      "text": "本句是含实义动词have的一般现在时一般疑问句，句首的Do是助动词，用来将陈述句结构转为疑问，本身不翻译成实际的“做”，只承担语法功能。"
+    },
+    {
+      "title": "询问对象的指代",
+      "text": "you指代来诊所就诊的患者，an appointment指提前约定的牙科就诊时段，句末问号表示这是需要对方给出肯定或否定回答的闭合提问。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确清晰，仅两处需修正：1. appointment?词条将问号纳入text字段有误，单词本身不包含标点，附带的问号是整句疑问语气的标记，不应拆分到单词词条中，需移除多余的问号；2. 原有对比步骤将appointment?单独作为第三个步骤拆分出疑问语气解释，与前两个步骤的拆分逻辑重复，因为疑问语气已经由句首助动词Do前置完成标记，不需要重复拆分解释，调整为贴合中英疑问结构差异的对比说明，去掉重复拆分，修正后整体表述更严谨。（非逐句人工审核）"
+}

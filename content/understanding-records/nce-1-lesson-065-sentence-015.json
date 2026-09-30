@@ -1,0 +1,69 @@
+{
+  "chinese": "听见了，爸爸。",
+  "intent": "回应上一句“Do you hear?”，表示自己已经听到了爸爸的话，同时向爸爸作出应答。",
+  "comparison": null,
+  "backbone": {
+    "text": "Yes, Dad.",
+    "meaning": "（对爸爸说）我听到了，好的。"
+  },
+  "structureNotes": [
+    {
+      "title": "简短应答句的指代",
+      "text": "这是对问句“Do you hear?”的肯定回答，Yes 单独成块即可完整承载“听到了”的含义，后接 Dad 明确回应的对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "肯定应答词",
+      "explanation": "直接回应前文的“Do you hear?”，表示确认听到、同意对方的话。"
+    },
+    {
+      "text": "Dad.",
+      "role": "呼语",
+      "explanation": "点明应答的对象是爸爸。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes,",
+      "meaning": "（表示肯定应答）是的、对、听到了",
+      "pos": "感叹词",
+      "phonetic": "jes"
+    },
+    {
+      "text": "Dad.",
+      "meaning": "爸爸",
+      "pos": "名词",
+      "phonetic": "dæd"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes,",
+      "relation": "承接上一句的询问，给出确认回应",
+      "meaning": "（对问题的肯定答复）是的、听到了"
+    },
+    {
+      "text": "Dad.",
+      "relation": "补充说明应答的对象是爸爸",
+      "meaning": "爸爸"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-65",
+  "sentenceId": "nce-1-lesson-065-sentence-015",
+  "sentenceOrder": 15,
+  "english": "Yes, Dad.",
+  "lesson": "Lesson 65 Not a baby",
+  "notes": [
+    {
+      "title": "简短应答句的指代",
+      "text": "这是对问句“Do you hear?”的肯定回答，Yes 单独成块即可完整承载“听到了”的含义，后接 Dad 明确回应的对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：该内容基本可用，句中成分对应关系清晰，整体语义表述准确。结合给定上下文确认，问句“Do you hear?”的发问者是Dad，答语中的Dad作为呼语，是回答时的称呼对象，现有关于呼应对象的表述均准确无误，不存在核心事实错误。仅存在一处可优化细节：Dad的音标标注为美式发音/dæd/，建议调整为英式音标/dæd/以符合课程英式音标要求，其余内容无需修改。（非逐句人工审核）"
+}

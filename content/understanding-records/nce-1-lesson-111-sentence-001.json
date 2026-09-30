@@ -1,0 +1,151 @@
+{
+  "chinese": "我很喜欢这台电视。它多少钱？",
+  "intent": "先表达对这台电视的喜爱，再询问这台电视的售价。",
+  "comparison": null,
+  "backbone": {
+    "text": "I like this television. How much does it cost?",
+    "meaning": "我喜欢这台电视，它的价格是多少。"
+  },
+  "structureNotes": [
+    {
+      "title": "程度修饰的语序",
+      "text": "very much 放在句末，表示“非常、很”，用来加强 like 的程度。"
+    },
+    {
+      "title": "价格疑问句的结构",
+      "text": "How much 用来询问价格，does 放在 it 前面帮助构成疑问，it 指代前面提到的 television。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I like this television very much.",
+      "role": "陈述分句",
+      "explanation": "表达说话人对这台电视的喜好，very much 作程度修饰。"
+    },
+    {
+      "text": "How much does it cost?",
+      "role": "价格疑问句",
+      "explanation": "询问电视价格，it 指代前文的 television，does 为助动词帮助构成现在时疑问。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢",
+      "pos": "动词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "this",
+      "meaning": "这，这个",
+      "pos": "指示限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "television",
+      "meaning": "电视",
+      "pos": "名词",
+      "phonetic": "/ˈtelɪvɪʒn/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "much.",
+      "meaning": "很（与 very 搭配，加强程度）",
+      "pos": "副词",
+      "phonetic": "/mʌtʃ/"
+    },
+    {
+      "text": "How",
+      "meaning": "how 与 much 搭配，询问金额多少",
+      "pos": "疑问副词",
+      "phonetic": "/haʊ/"
+    },
+    {
+      "text": "much",
+      "meaning": "多少钱",
+      "pos": "代词",
+      "phonetic": "/mʌtʃ/"
+    },
+    {
+      "text": "does",
+      "meaning": "（助动词，构成现在时疑问句）",
+      "pos": "助动词",
+      "phonetic": "/dʌz/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代前文的这台电视）",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "cost?",
+      "meaning": "价钱为，花费",
+      "pos": "动词",
+      "phonetic": "/kɒst/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I like",
+      "meaning": "我喜欢",
+      "relation": "陈述分句的主语与谓语"
+    },
+    {
+      "text": "this television",
+      "meaning": "这台电视",
+      "relation": "喜欢的对象"
+    },
+    {
+      "text": "very much.",
+      "meaning": "非常",
+      "relation": "补充喜欢的程度"
+    },
+    {
+      "text": "How much",
+      "meaning": "多少钱",
+      "relation": "询问价格的疑问引导"
+    },
+    {
+      "text": "does it",
+      "meaning": "它（这台电视）",
+      "relation": "询问对象，does 为疑问助动词"
+    },
+    {
+      "text": "cost?",
+      "meaning": "花费？",
+      "relation": "询问对象对应的动作，问价格"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-111",
+  "sentenceId": "nce-1-lesson-111-sentence-001",
+  "sentenceOrder": 1,
+  "english": "I like this television very much. How much does it cost?",
+  "lesson": "Lesson 111 The most expensive model",
+  "notes": [
+    {
+      "title": "程度修饰的语序",
+      "text": "very much 放在句末，表示“非常、很”，用来加强 like 的程度。"
+    },
+    {
+      "title": "价格疑问句的结构",
+      "text": "How much 用来询问价格，does 放在 it 前面帮助构成疑问，it 指代前面提到的 television。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体释义、结构划分和主干提取正确。仅两处词汇释义可更精确：句末的 much 是程度副词，而不是泛指“很”；句中的 it 是人称代词，不是关系代词。（非逐句人工审核）"
+}

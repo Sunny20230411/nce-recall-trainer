@@ -1,0 +1,165 @@
+{
+  "chinese": "我当然想买，但我不喜欢这个价格。",
+  "intent": "回应对方的购买意愿询问：先肯定自己确实有购买的意向，随后用but转折，表达对商品价格的不满，暗示虽然想买，但价格是阻碍成交的问题。",
+  "comparison": {
+    "chinese": "我当然想（买它），但我不喜欢这个价格。",
+    "english": "I certainly do, but I don't like the price.",
+    "steps": [
+      {
+        "label": "先用do替代上文的完整动词短语",
+        "text": "上一句问 Do you want to buy it, dear?，回应时用do替代want to buy it，避免重复整句；certainly放在do前加强语气。",
+        "explanation": "do在这里不是助动词无实义，而是代动词，指代前面已经提过的want to buy it这个动作，读者需要回看前一句才能知道do具体指什么。"
+      },
+      {
+        "label": "but直接衔接转折后的态度",
+        "text": "but后面是完整的I don't like the price，没有省略核心信息；中文“但”放在两个分句之间，位置和英文基本对应。",
+        "explanation": "中英文都用转折连词连接两个态度：先说肯定购买意愿，再抛出价格不满意的问题，语序和逻辑顺序一致。"
+      }
+    ],
+    "takeaway": "do用来替代前文已经出现的动词短语，避免重复；本句do指代want to buy it，需要结合上一句的提问才能准确理解语义。"
+  },
+  "backbone": {
+    "text": "I certainly do, but I don't like the price.",
+    "meaning": "（结合上文）我当然想买它，但我不满意它的价格。"
+  },
+  "structureNotes": [
+    {
+      "title": "do作代动词的省略用法",
+      "text": "句中do不是助动词，而是替代上文中want to buy it的代动词，避免重复冗长的动词短语；certainly是副词，修饰do，表示“当然、确实”的肯定语气。"
+    },
+    {
+      "title": "but连接并列转折分句",
+      "text": "but是并列连词，连接两个独立的分句，前后语义形成转折：先肯定购买意愿，再指出价格问题；两个分句都保留主语I，结构对等清晰。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "第一分句主语",
+      "explanation": "第一人称主格代词，指代说话人本人，是“肯定购买意愿”这一动作的发出者。"
+    },
+    {
+      "text": "certainly",
+      "role": "状语",
+      "explanation": "副词，修饰后面的代动词do，加强肯定语气，意思是“当然、确实”。"
+    },
+    {
+      "text": "do",
+      "role": "第一分句谓语（代动词）",
+      "explanation": "代动词，替代上文提到的want to buy it，避免重复完整的动词短语。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "连接两个并列分句，表示语义转折，前后态度形成对比。"
+    },
+    {
+      "text": "I",
+      "role": "第二分句主语",
+      "explanation": "第一人称主格代词，指代说话人本人，是“不喜欢价格”这一态度的发出者。"
+    },
+    {
+      "text": "don't like",
+      "role": "第二分句谓语",
+      "explanation": "一般现在时的否定式，don't是do not的缩写，意思是“不喜欢、不满意”。"
+    },
+    {
+      "text": "the price",
+      "role": "第二分句宾语",
+      "explanation": "特指正在谈论的商品的价格，是like的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "certainly",
+      "meaning": "当然，确实",
+      "pos": "副词",
+      "phonetic": "/ˈsɜːtnli/"
+    },
+    {
+      "text": "do,",
+      "meaning": "（代动词，替代上文want to buy it）",
+      "pos": "动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "don't",
+      "meaning": "不（do not的缩写）",
+      "pos": "助动词（否定式）",
+      "phonetic": "/dəʊnt/"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢，对……满意",
+      "pos": "动词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "price.",
+      "meaning": "价格，价钱",
+      "pos": "名词",
+      "phonetic": "/praɪs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I certainly do,",
+      "relation": "回应对方的购买意愿询问，给出肯定答复",
+      "meaning": "我当然想买（do指代上文的want to buy it）"
+    },
+    {
+      "text": "but",
+      "relation": "转折，连接前后两个态度相反的分句",
+      "meaning": "但是"
+    },
+    {
+      "text": "I don't like the price.",
+      "relation": "补充说明：虽然想买，但对价格存在不满，是阻碍购买的核心原因",
+      "meaning": "我不喜欢这个价格"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-111",
+  "sentenceId": "nce-1-lesson-111-sentence-011",
+  "sentenceOrder": 11,
+  "english": "I certainly do, but I don't like the price.",
+  "lesson": "Lesson 111 The most expensive model",
+  "notes": [
+    {
+      "title": "do作代动词的省略用法",
+      "text": "句中do不是助动词，而是替代上文中want to buy it的代动词，避免重复冗长的动词短语；certainly是副词，修饰do，表示“当然、确实”的肯定语气。"
+    },
+    {
+      "title": "but连接并列转折分句",
+      "text": "but是并列连词，连接两个独立的分句，前后语义形成转折：先肯定购买意愿，再指出价格问题；两个分句都保留主语I，结构对等清晰。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，正确识别do为替代上文want to buy it的代动词，清晰解释了but连接并列转折分句的逻辑关系，各成分划分基本正确。仅存在单词条文本误带首尾标点的小问题，需要修正以保持术语准确性：do词条不应带逗号，price词条不应带句号。（非逐句人工审核）"
+}

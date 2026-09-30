@@ -1,0 +1,89 @@
+{
+  "chinese": "恐怕我不能。",
+  "intent": "礼貌地拒绝对方提出的兑换十英镑纸币的请求。",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm afraid I can't.",
+    "meaning": "我没办法帮忙兑换。"
+  },
+  "structureNotes": [
+    {
+      "title": "I'm afraid 的委婉用法",
+      "text": "I'm afraid 在此不表示“害怕”，而是口语中用来引出不太好的消息或拒绝，让语气显得客气委婉。"
+    },
+    {
+      "title": "can't 的省略",
+      "text": "I can't 后面省略了上句刚提到的 change this ten-pound note，避免重复；结合上下文可明确理解为“没法兑换这张十英镑纸币”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm afraid",
+      "role": "委婉表态的插入语",
+      "explanation": "用于缓冲后续的拒绝内容，让语气更客气，不是字面意义上的“我害怕”。"
+    },
+    {
+      "text": "I can't.",
+      "role": "主句（主语 + 连系动词 + 否定缩写）",
+      "explanation": "核心表达无法做到对方请求的事，省略了上下文已提及的动作 change this ten-pound note。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I'm",
+      "meaning": "我是（I am 的缩写形式）",
+      "pos": "缩写代词+动词",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "afraid",
+      "meaning": "害怕的；（用于委婉引出坏消息）恐怕",
+      "pos": "形容词",
+      "phonetic": "/əˈfreɪd/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "can't.",
+      "meaning": "不能，无法（cannot 的缩写）",
+      "pos": "情态动词缩写",
+      "phonetic": "/kɑːnt/."
+    }
+  ],
+  "parts": [
+    {
+      "text": "I'm afraid",
+      "relation": "委婉引出后续的拒绝内容",
+      "meaning": "恐怕"
+    },
+    {
+      "text": "I can't.",
+      "relation": "核心回应，表明无法满足对方的兑换请求",
+      "meaning": "我不能"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-113",
+  "sentenceId": "nce-1-lesson-113-sentence-008",
+  "sentenceOrder": 8,
+  "english": "I'm afraid I can't.",
+  "lesson": "Lesson 113 Small change",
+  "notes": [
+    {
+      "title": "I'm afraid 的委婉用法",
+      "text": "I'm afraid 在此不表示“害怕”，而是口语中用来引出不太好的消息或拒绝，让语气显得客气委婉。"
+    },
+    {
+      "title": "can't 的省略",
+      "text": "I can't 后面省略了上句刚提到的 change this ten-pound note，避免重复；结合上下文可明确理解为“没法兑换这张十英镑纸币”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容通顺，无事实性错误与严重表述问题，仅存在两处可优化的细节：1.词汇表中can't.的text误写入了句号，音标未体现句末停顿的规范标注；2.主句的语法角色描述不够准确，未明确I是主语、can't是连系动词与否定缩写的组合。其余主干翻译、结构说明、分块关系均符合原文语境。（非逐句人工审核）"
+}

@@ -1,0 +1,121 @@
+{
+  "chinese": "但其余的我答不上来。",
+  "intent": "承接前文说试题很简单，转折说明自己无法作答剩下的试题，补充应试的结果。",
+  "comparison": null,
+  "backbone": {
+    "text": "I couldn't answer the rest.",
+    "meaning": "我没法回答剩下的（试题）。"
+  },
+  "structureNotes": [
+    {
+      "title": "转折连词的语义作用",
+      "text": "but放在句首承接前一句的easy，从多数试题简单的情况，转折到剩余试题无法作答的结果，形成语义上的前后反差。"
+    },
+    {
+      "title": "the rest的指代",
+      "text": "the rest在这里指前文提到的试题中，除了容易作答的部分之外剩下的题目，不需要额外的定语就能明确所指。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "But",
+      "role": "转折连词",
+      "explanation": "位于句首，连接前后语义相反的两个分句，表转折关系。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "代词主格，是做出“回答”这个动作的主体。"
+    },
+    {
+      "text": "couldn't",
+      "role": "情态动词否定式",
+      "explanation": "can的否定过去式，缩写形式为couldn't，表过去不具备做某事的能力。"
+    },
+    {
+      "text": "answer",
+      "role": "谓语核心动词",
+      "explanation": "实义动词原形，和前面的couldn't搭配共同构成句子的谓语部分，表示“回答”这一动作。"
+    },
+    {
+      "text": "the rest",
+      "role": "宾语",
+      "explanation": "特指前述试题中剩余的部分，是“回答”这个动作的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "But",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "bʌt"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "aɪ"
+    },
+    {
+      "text": "couldn't",
+      "meaning": "不能（过去式，等于could not）",
+      "pos": "情态动词否定缩写",
+      "phonetic": "ˈkʊdnt"
+    },
+    {
+      "text": "answer",
+      "meaning": "回答；作答",
+      "pos": "动词",
+      "phonetic": "ˈɑːnsə"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "rest.",
+      "meaning": "剩余部分；其余的（试题）",
+      "pos": "名词",
+      "phonetic": "rest"
+    }
+  ],
+  "parts": [
+    {
+      "text": "But",
+      "relation": "承接上下文的转折关系，引出和前文“试题很简单”相反的情况",
+      "meaning": "但是"
+    },
+    {
+      "text": "I couldn't answer",
+      "relation": "陈述主语和对应的动作能力，说明核心情况",
+      "meaning": "我没法回答"
+    },
+    {
+      "text": "the rest.",
+      "relation": "补充说明回答动作的对象，指代剩下没作答的试题内容",
+      "meaning": "其余的（试题）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-014",
+  "sentenceOrder": 14,
+  "english": "But I couldn't answer the rest.",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "转折连词的语义作用",
+      "text": "but放在句首承接前一句的easy，从多数试题简单的情况，转折到剩余试题无法作答的结果，形成语义上的前后反差。"
+    },
+    {
+      "title": "the rest的指代",
+      "text": "the rest在这里指前文提到的试题中，除了容易作答的部分之外剩下的题目，不需要额外的定语就能明确所指。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，和上下文语境匹配，仅存在单词音标注释、结构拆分的小瑕疵，修正后可正常用于教学。（非逐句人工审核）"
+}

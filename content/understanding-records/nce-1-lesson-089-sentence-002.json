@@ -1,0 +1,82 @@
+{
+  "chinese": "没错。",
+  "intent": "回应买方的猜测，确认对方所说的待售房屋属实。",
+  "comparison": null,
+  "backbone": {
+    "text": "That's right.",
+    "meaning": "确认前面对方说的话是对的。"
+  },
+  "structureNotes": [
+    {
+      "title": "指代上一句的内容",
+      "text": "That 指代上一句中对方提出的“这房子是要出售的”这件事，避免重复整句内容。"
+    },
+    {
+      "title": "right 作表语",
+      "text": "right 在这里是形容词作表语，意思是“正确的、对的”，不表示方位“右边”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That's right.",
+      "role": "完整的简短确认句",
+      "explanation": "口语中用于确认对方说的内容属实，是日常对话的简洁回应。"
+    },
+    {
+      "text": "That's",
+      "role": "主语加系动词",
+      "explanation": "That 指代上文提到的事，'s 是 is 的缩写，和后面的 right 构成主系表结构。"
+    },
+    {
+      "text": "right.",
+      "role": "表语",
+      "explanation": "说明前面指代的内容是正确的，是这句话的核心判断。"
+    }
+  ],
+  "words": [
+    {
+      "text": "That's",
+      "meaning": "那（指代前面提到的事）",
+      "pos": "指示代词+系动词缩写",
+      "phonetic": "/ðæts/"
+    },
+    {
+      "text": "right.",
+      "meaning": "正确的、对的",
+      "pos": "形容词",
+      "phonetic": "/raɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "That's",
+      "relation": "指代前文提到的内容",
+      "meaning": "那（指代“房屋待售”这件事）"
+    },
+    {
+      "text": "right.",
+      "relation": "作出肯定判断，确认前述内容属实",
+      "meaning": "正确的、对的"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-89",
+  "sentenceId": "nce-1-lesson-089-sentence-002",
+  "sentenceOrder": 2,
+  "english": "That's right.",
+  "lesson": "Lesson 89 For sale",
+  "notes": [
+    {
+      "title": "指代上一句的内容",
+      "text": "That 指代上一句中对方提出的“这房子是要出售的”这件事，避免重复整句内容。"
+    },
+    {
+      "title": "right 作表语",
+      "text": "right 在这里是形容词作表语，意思是“正确的、对的”，不表示方位“右边”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解释正确，仅存在词性标注与音标格式的小问题，修正后即可通过。（非逐句人工审核）"
+}

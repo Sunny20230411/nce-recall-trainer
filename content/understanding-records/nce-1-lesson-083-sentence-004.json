@@ -1,0 +1,199 @@
+{
+  "chinese": "你们真幸运！卡罗尔，你们今年打算去哪儿度假？",
+  "intent": "表达对对方即将度假的羡慕，并询问对方度假计划的目的地。",
+  "comparison": {
+    "chinese": "卡罗尔，你们今年打算去哪儿度假？",
+    "english": "Where are you going to spend your holidays this year, Carol?",
+    "steps": [
+      {
+        "label": "先交代已知计划",
+        "text": "you are going to spend your holidays this year",
+        "explanation": "本句先确认双方已知的计划——你们今年要度假，be going to 表示打算，不是正在进行的动作。"
+      },
+      {
+        "label": "再提问缺的地点",
+        "text": "Where...?",
+        "explanation": "Where 点明要问的是地点，are 放到主语 you 前面构成疑问句；主干是“你们打算度假”，缺的只是“去哪儿”。"
+      }
+    ],
+    "takeaway": "把句子拆成“已有的度假计划 + 要问的地点”，不要把 Where 误解成主语或从句引导词。"
+  },
+  "backbone": {
+    "text": "Where are you going to spend your holidays?",
+    "meaning": "询问对方打算在哪里度过假期。"
+  },
+  "structureNotes": [
+    {
+      "title": "be going to 表打算",
+      "text": "are you going to spend 不是“你正在花（钱/时间）”，而是“你打算度过（假期）”，后跟动词原形 spend。"
+    },
+    {
+      "title": "呼语 Carol 不参与句法",
+      "text": "Carol 是对听话人的称呼，放在句末用逗号隔开，不充当主语或宾语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Lucky you!",
+      "role": "感叹省略句",
+      "explanation": "口语中用形容词 lucky 加 you，省略 (You are)，表达羡慕。"
+    },
+    {
+      "text": "Where",
+      "role": "疑问副词",
+      "explanation": "引导特殊疑问句，对度假地点提问。"
+    },
+    {
+      "text": "are you going to spend",
+      "role": "谓语（表打算）",
+      "explanation": "be going to + 动词原形 spend，表示将来的计划或打算。"
+    },
+    {
+      "text": "your holidays",
+      "role": "动词宾语",
+      "explanation": "spend 的宾语，表示要度过的假期。"
+    },
+    {
+      "text": "this year",
+      "role": "时间状语",
+      "explanation": "限定动作发生在今年。"
+    },
+    {
+      "text": "Carol",
+      "role": "呼语",
+      "explanation": "说话对象的名字，起呼唤作用。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "幸运的",
+      "pos": "形容词",
+      "phonetic": "/ˈlʌki/",
+      "text": "Lucky"
+    },
+    {
+      "meaning": "你（你们）",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you!"
+    },
+    {
+      "meaning": "哪里",
+      "pos": "疑问副词",
+      "phonetic": "/weə/",
+      "text": "Where"
+    },
+    {
+      "meaning": "是（助动词，与 going to 构成将来打算）",
+      "pos": "动词",
+      "phonetic": "/ɑː/",
+      "text": "are"
+    },
+    {
+      "meaning": "你（你们）",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "去（与 are going to 构成“打算”结构）",
+      "pos": "动词",
+      "phonetic": "/ˈɡəʊɪŋ/",
+      "text": "going"
+    },
+    {
+      "meaning": "（与 going to 搭配，表将要）",
+      "pos": "不定式标记",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "度过（时间）",
+      "pos": "动词",
+      "phonetic": "/spend/",
+      "text": "spend"
+    },
+    {
+      "meaning": "你的（你们的）",
+      "pos": "形容词性物主代词",
+      "phonetic": "/jɔː/",
+      "text": "your"
+    },
+    {
+      "meaning": "假期（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈhɒlədeɪz/",
+      "text": "holidays"
+    },
+    {
+      "meaning": "这",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "年",
+      "pos": "名词",
+      "phonetic": "/jɪə/",
+      "text": "year,"
+    },
+    {
+      "meaning": "卡罗尔（人名）",
+      "pos": "名词",
+      "phonetic": "/ˈkærəl/",
+      "text": "Carol?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Lucky you!",
+      "meaning": "你们真幸运！",
+      "relation": "表达对对方即将度假的羡慕感叹"
+    },
+    {
+      "text": "Where",
+      "meaning": "在哪里",
+      "relation": "提出要询问的信息：度假地点"
+    },
+    {
+      "text": "are you going to spend",
+      "meaning": "你们打算度过（假期）",
+      "relation": "疑问句中的谓语结构，主语为前置的 you，表将来计划"
+    },
+    {
+      "text": "your holidays",
+      "meaning": "你们的假期",
+      "relation": "动词 spend 的宾语"
+    },
+    {
+      "text": "this year,",
+      "meaning": "今年",
+      "relation": "补充说明度假的时间"
+    },
+    {
+      "text": "Carol?",
+      "meaning": "卡罗尔？",
+      "relation": "呼语，点明说话的对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-83",
+  "sentenceId": "nce-1-lesson-083-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Lucky you! Where are you going to spend your holidays this year, Carol?",
+  "lesson": "Lesson 83 Going on holiday",
+  "notes": [
+    {
+      "title": "be going to 表打算",
+      "text": "are you going to spend 不是“你正在花（钱/时间）”，而是“你打算度过（假期）”，后跟动词原形 spend。"
+    },
+    {
+      "title": "呼语 Carol 不参与句法",
+      "text": "Carol 是对听话人的称呼，放在句末用逗号隔开，不充当主语或宾语。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体覆盖前句感叹与本句疑问，be going to、呼语、疑问副词 Where 的说明基本正确；主要修正分块语义：Where 仅表示地点状语，are you going to spend 需补足主语 you，不重复介词状语；其余内容无需改动。（非逐句人工审核）"
+}

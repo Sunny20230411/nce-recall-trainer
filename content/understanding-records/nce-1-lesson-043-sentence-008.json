@@ -1,0 +1,141 @@
+{
+  "chinese": "我能看见茶壶，但看不见茶叶。",
+  "intent": "说话人先说明自己能看到茶壶，紧接着转折表示自己看不到里面的茶叶，传递出两者位置或可见状态不一致的信息。",
+  "comparison": null,
+  "backbone": {
+    "text": "I can see the teapot, but I can't see the tea.",
+    "meaning": "我能看见茶壶，但我看不见茶叶。"
+  },
+  "parts": [
+    {
+      "text": "I can see the teapot,",
+      "relation": "陈述我能完成的视觉动作和对应对象",
+      "meaning": "我能看见茶壶，"
+    },
+    {
+      "text": "but",
+      "relation": "连接前后语义相反的两个分句，表达转折关系",
+      "meaning": "但是"
+    },
+    {
+      "text": "I can't see the tea.",
+      "relation": "陈述我无法完成的视觉动作和对应对象，和前半句形成对比",
+      "meaning": "我看不见茶叶。"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "转折连词but的作用",
+      "text": "but连接两个语义对立的并列分句，前半句说能看见茶壶，后半句转折说明看不见茶叶，清晰呈现前后状态的反差。"
+    },
+    {
+      "title": "情态动词can和can't的含义",
+      "text": "can表示具备完成某动作的能力或可能性，can't是它的否定形式，直接说明无法完成后面的see动作，无需额外助动词辅助表达否定。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I can see the teapot",
+      "role": "肯定式主谓宾分句",
+      "explanation": "以第一人称I作主语，搭配情态动词can加实义动词see作谓语，the teapot作动作的宾语，说明能看到的具体事物。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "用来衔接前后两个内容相反的分句，明确传递出前后状态的转折对比关系。"
+    },
+    {
+      "text": "I can't see the tea",
+      "role": "否定式主谓宾分句",
+      "explanation": "以第一人称I作主语，搭配否定情态动词can't加实义动词see作谓语，the tea作动作的宾语，说明看不到的具体事物。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "能够",
+      "pos": "情态动词",
+      "phonetic": "/kæn/",
+      "text": "can"
+    },
+    {
+      "meaning": "看见",
+      "pos": "实义动词",
+      "phonetic": "/siː/",
+      "text": "see"
+    },
+    {
+      "meaning": "这个，定冠词，指代对话语境中双方知晓的特定事物",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "茶壶",
+      "pos": "名词",
+      "phonetic": "/ˈtiːpɒt/",
+      "text": "teapot,"
+    },
+    {
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/",
+      "text": "but"
+    },
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "不能",
+      "pos": "情态动词否定形式",
+      "phonetic": "/kɑːnt/",
+      "text": "can't"
+    },
+    {
+      "meaning": "看见",
+      "pos": "实义动词",
+      "phonetic": "/siː/",
+      "text": "see"
+    },
+    {
+      "meaning": "这个，定冠词，指代对话语境中双方知晓的特定事物",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "茶叶",
+      "pos": "名词",
+      "phonetic": "/tiː/",
+      "text": "tea."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-43",
+  "sentenceId": "nce-1-lesson-043-sentence-008",
+  "sentenceOrder": 8,
+  "english": "I can see the teapot, but I can't see the tea.",
+  "lesson": "Lesson 43 Hurry up!",
+  "notes": [
+    {
+      "title": "转折连词but的作用",
+      "text": "but连接两个语义对立的并列分句，前半句说能看见茶壶，后半句转折说明看不见茶叶，清晰呈现前后状态的反差。"
+    },
+    {
+      "title": "情态动词can和can't的含义",
+      "text": "can表示具备完成某动作的能力或可能性，can't是它的否定形式，直接说明无法完成后面的see动作，无需额外助动词辅助表达否定。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有解析整体信息基本合规，仅存在局部小疏漏，可通过patch修正完善。（非逐句人工审核）"
+}

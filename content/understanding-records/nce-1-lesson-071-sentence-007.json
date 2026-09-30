@@ -1,0 +1,85 @@
+{
+  "chinese": "他又打电话来了。",
+  "intent": "叙述昨天傍晚自己到家之后，那个之前频繁联系的男子再次打来电话这件事。",
+  "comparison": null,
+  "backbone": {
+    "text": "He telephoned again.",
+    "meaning": "（叙述中的他）又一次打来电话。"
+  },
+  "structureNotes": [
+    {
+      "title": "again的位置与含义",
+      "text": "本句中again放在动词telephoned之后，直接补充说明这个打电话的动作不是第一次发生，对应中文的“又、再”，承接前文他此前多次来电的语境。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "动作发出者",
+      "explanation": "指代前文反复打电话的那位男子，是telephoned这个动作的执行者。"
+    },
+    {
+      "text": "telephoned",
+      "role": "谓语核心",
+      "explanation": "使用一般过去时，表示昨天傍晚到家之后发生的“打电话”动作。"
+    },
+    {
+      "text": "again",
+      "role": "动作频率补充",
+      "explanation": "放在动词后，说明这次打电话是重复发生的行为，不是第一次。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "telephoned",
+      "meaning": "打电话",
+      "pos": "动词（过去式）",
+      "phonetic": "/ˈtelɪfəʊnd/"
+    },
+    {
+      "text": "again.",
+      "meaning": "又，再一次",
+      "pos": "副词",
+      "phonetic": "/əˈɡen/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "指代打电话的人，是全句动作的发出者",
+      "meaning": "他"
+    },
+    {
+      "text": "telephoned",
+      "relation": "叙述核心动作，使用过去式体现该动作发生在昨天傍晚",
+      "meaning": "打电话"
+    },
+    {
+      "text": "again.",
+      "relation": "补充说明这次来电是重复发生的，呼应前文他此前多次来电的情况",
+      "meaning": "又，再一次"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-71",
+  "sentenceId": "nce-1-lesson-071-sentence-007",
+  "sentenceOrder": 7,
+  "english": "He telephoned again.",
+  "lesson": "Lesson 71 He's awful!",
+  "notes": [
+    {
+      "title": "again的位置与含义",
+      "text": "本句中again放在动词telephoned之后，直接补充说明这个打电话的动作不是第一次发生，对应中文的“又、再”，承接前文他此前多次来电的语境。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析的中文翻译、语法成分划分、词块释义、上下文关联均符合该句的语义和语法规则，没有事实性、语法性错误，仅需将词汇表中词块“again.”的词块文本修正为不带句点的“again”，消除词汇表文本与原文标点标记不一致的问题，其余内容无需修改。（非逐句人工审核）"
+}

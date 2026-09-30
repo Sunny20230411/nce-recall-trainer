@@ -1,0 +1,102 @@
+{
+  "chinese": "你呢，哈里？",
+  "intent": "承接前文已经说过的自己得了八十分，向哈里反问他的相关情况，即询问对方的法国测试得分。",
+  "comparison": {
+    "chinese": "你呢，哈里？",
+    "english": "How about you, Harry?",
+    "steps": [
+      {
+        "label": "识别省略前提",
+        "text": "前文刚说“I got eighty.（我考了八十分）”",
+        "explanation": "本句是承接语境的提问，不需要把前文的信息全部重复出来。"
+      },
+      {
+        "label": "理解省略表达",
+        "text": "How about you?",
+        "explanation": "在对话里，这是“How about your test result?”的简略说法，意思是“那你的情况怎么样？”。"
+      },
+      {
+        "label": "看清语序",
+        "text": "How about you, Harry?",
+        "explanation": "用How about引出话题，you指被问的哈里，Harry是呼语，放在句末。"
+      }
+    ],
+    "takeaway": "How about you 在日常对话里常用来省略重复前文已经提过的话题，直接问对方同类情况，中文用“你呢”对应。"
+  },
+  "backbone": {
+    "text": "How about you?",
+    "meaning": "（承接前文的分数话题）那你的情况怎么样？你考了多少分？"
+  },
+  "structureNotes": [
+    {
+      "title": "简略反问句",
+      "text": "How about 用来承接已提及的话题，询问对方同类情况，不必把完整的问题全部说出来。Harry是称呼对方的呼语，放在句末。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "How about you,",
+      "role": "反问话题引入",
+      "explanation": "承接前文已说的自己得分，直接反问对方的相关情况。"
+    },
+    {
+      "text": "Harry?",
+      "role": "呼语",
+      "explanation": "点明被询问的对象是哈里。"
+    }
+  ],
+  "words": [
+    {
+      "text": "How",
+      "meaning": "怎样，如何",
+      "pos": "副词",
+      "phonetic": "/haʊ/"
+    },
+    {
+      "text": "about",
+      "meaning": "与 how 连用构成 How about…? 结构，用于引出话题、征求意见或反问同类情况，意为“……怎么样，……呢”",
+      "pos": "介词",
+      "phonetic": "/əˈbaʊt/"
+    },
+    {
+      "text": "you,",
+      "meaning": "你（此处指对话中的哈里）",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "Harry?",
+      "meaning": "哈里（男子名，此处为呼语）",
+      "pos": "名词",
+      "phonetic": "/ˈhæri/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "How about you,",
+      "relation": "承接前文自己的分数，反问对方同类情况",
+      "meaning": "你呢"
+    },
+    {
+      "text": "Harry?",
+      "relation": "点明被询问的对象是哈里",
+      "meaning": "哈里？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-003",
+  "sentenceOrder": 3,
+  "english": "How about you, Harry?",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "简略反问句",
+      "text": "How about 用来承接已提及的话题，询问对方同类情况，不必把完整的问题全部说出来。Harry是称呼对方的呼语，放在句末。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句为对话承接式反问，整体翻译、省略逻辑、呼语拆分与英式音标均正确。仅修正词表中 about 的短语释义，避免脱离 How about 语境时单独使用产生歧义，其余内容合规。（非逐句人工审核）"
+}

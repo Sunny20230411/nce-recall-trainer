@@ -1,0 +1,124 @@
+{
+  "chinese": "我在写购物清单，汤姆。",
+  "intent": "直接回应汤姆的提问，说明自己当下正在制作购物清单的动作状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm making a shopping list",
+    "meaning": "我正在制作购物清单，是完整传达核心动作与对象的主干内容。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在进行时表正在进行的动作",
+      "text": "I'm是I am的口语缩写，搭配动词make的现在分词making，构成现在进行时，说明说话当下正在发生的动作，对应中文里的“正在做、在做”。"
+    },
+    {
+      "title": "动名词作定语的固定搭配",
+      "text": "shopping是动名词作定语，修饰后面的list，二者组合成固定短语shopping list，即购物清单，表示清单的用途，类似的用法还有swimming pool、book shop。"
+    },
+    {
+      "title": "呼语独立成意",
+      "text": "句末的Tom是说话的称呼对象，不参与主句的主干结构，前后由逗号分隔，点明这句话是说给汤姆听的，和前一句汤姆提问的语境相呼应。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm",
+      "role": "主语及现在进行时的助动词",
+      "explanation": "I是句子主语，指代说话人Carol；'m是am的口语缩写，和后面的现在分词making一起构成现在进行时的谓语框架。"
+    },
+    {
+      "text": "making",
+      "role": "谓语核心动词（现在分词）",
+      "explanation": "make的现在分词形式，核心语义为“制作、书写（清单）”，和前面的am一起表示正在进行的动作。"
+    },
+    {
+      "text": "a shopping list",
+      "role": "动词宾语",
+      "explanation": "making的动作对象，其中a是不定冠词表泛指，shopping是动名词作定语修饰list，整体指一张购物清单。"
+    },
+    {
+      "text": "Tom.",
+      "role": "呼语",
+      "explanation": "对话中对听话人的称呼，独立于主句结构之外，明确这句话的交流对象是汤姆。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我（I am的口语缩写）",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/aɪm/",
+      "text": "I'm"
+    },
+    {
+      "meaning": "制作、书写（make的现在分词形式）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈmeɪkɪŋ/",
+      "text": "making"
+    },
+    {
+      "meaning": "一张（不定冠词，表泛指）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "购物（动名词作定语）",
+      "pos": "动名词作定语",
+      "phonetic": "/ˈʃɒpɪŋ/",
+      "text": "shopping"
+    },
+    {
+      "meaning": "清单，单子",
+      "pos": "名词",
+      "phonetic": "/lɪst/",
+      "text": "list,"
+    },
+    {
+      "meaning": "汤姆（男子名，呼语）",
+      "pos": "名词（呼语）",
+      "phonetic": "/tɒm/",
+      "text": "Tom."
+    }
+  ],
+  "parts": [
+    {
+      "text": "I'm making",
+      "relation": "句子核心动作框架，点明主语和正在发生的动作",
+      "meaning": "我正在制作"
+    },
+    {
+      "text": "a shopping list,",
+      "relation": "动作的对象，即制作的内容",
+      "meaning": "一份购物清单"
+    },
+    {
+      "text": "Tom.",
+      "relation": "对话的呼语，点明这句话是说给汤姆听的",
+      "meaning": "汤姆"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-79",
+  "sentenceId": "nce-1-lesson-079-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I'm making a shopping list, Tom.",
+  "lesson": "Lesson 79 Carol's shopping list",
+  "notes": [
+    {
+      "title": "现在进行时表正在进行的动作",
+      "text": "I'm是I am的口语缩写，搭配动词make的现在分词making，构成现在进行时，说明说话当下正在发生的动作，对应中文里的“正在做、在做”。"
+    },
+    {
+      "title": "动名词作定语的固定搭配",
+      "text": "shopping是动名词作定语，修饰后面的list，二者组合成固定短语shopping list，即购物清单，表示清单的用途，类似的用法还有swimming pool、book shop。"
+    },
+    {
+      "title": "呼语独立成意",
+      "text": "句末的Tom是说话的称呼对象，不参与主句的主干结构，前后由逗号分隔，点明这句话是说给汤姆听的，和前一句汤姆提问的语境相呼应。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析内容准确，主干成分划分清晰，现在进行时、动名词作定语、呼语的说明均符合语法规则与对话语境，仅需将两处短语搭配的表述从“名词作定语”修正为更准确的“动名词作定语”，其余内容无需调整。（非逐句人工审核）"
+}

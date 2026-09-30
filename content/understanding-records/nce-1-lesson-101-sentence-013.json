@@ -1,0 +1,155 @@
+{
+  "chinese": "妈妈，明信片上写不了太多。",
+  "intent": "向妈妈解释吉米在明信片上写不了太多内容的原因，对应前文提到的“他没写多少”。",
+  "comparison": {
+    "chinese": "中文把明信片这个书写载体放前面，说“在明信片上”写不了太多；英语先抛出动作和“写不了多少”，再用 on a card 补充书写的载体。",
+    "english": "He can't write very much on a card, Mum.",
+    "steps": [
+      {
+        "label": "先讲核心动作状态",
+        "text": "He can't write very much",
+        "explanation": "can't write very much 表示“没法写很多内容”，先把核心意思说出来。"
+      },
+      {
+        "label": "再补书写的位置/载体",
+        "text": "on a card",
+        "explanation": "on 在这里表示书写在什么材质的表面上，说明这个“写不了太多”的场景是在卡片/明信片上，最后才补上对话对象 Mum。"
+      }
+    ],
+    "takeaway": "中文习惯把地点/载体提前当状语，英语常把载体用介词短语放在动作之后作补充说明。"
+  },
+  "backbone": {
+    "text": "He can't write very much",
+    "meaning": "他写不了太多内容"
+  },
+  "structureNotes": [
+    {
+      "title": "on a card 的表意",
+      "text": "这里的 on 不是单纯的空间方位，而是表示文字书写在卡片这个材质表面上，结合上下文就是指吉米寄来的明信片。"
+    },
+    {
+      "title": "Mum 的语用位置",
+      "text": "Mum 放在句尾，是对话中对听话人的称呼，用来表明这句话是孩子对母亲说的，不需要纳入句子主干。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指前文提到的吉米，是“写卡片”这个动作的发出者。"
+    },
+    {
+      "text": "can't write very much",
+      "role": "谓语部分",
+      "explanation": "由情态动词否定式 can't 加实义动词 write 构成核心谓语，very much 修饰 write，表示“写很多（内容）”。"
+    },
+    {
+      "text": "on a card",
+      "role": "介词短语作状语",
+      "explanation": "补充说明 write 这个动作发生的载体，也就是在卡片表面上书写。"
+    },
+    {
+      "text": "Mum",
+      "role": "呼语",
+      "explanation": "是对话里对听话妈妈的称呼，不属于句子主干成分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "can't",
+      "meaning": "不能；没法（cannot的缩写）",
+      "pos": "情态动词否定式",
+      "phonetic": "/kɑːnt/"
+    },
+    {
+      "text": "write",
+      "meaning": "书写；写下",
+      "pos": "动词",
+      "phonetic": "/raɪt/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常（此处和much搭配表程度）",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "much",
+      "meaning": "很多（内容）",
+      "pos": "代词",
+      "phonetic": "/mʌtʃ/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……之上；（文字）书写在……表面",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一张（不定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "card,",
+      "meaning": "卡片；明信片",
+      "pos": "名词",
+      "phonetic": "/kɑːd/"
+    },
+    {
+      "text": "Mum.",
+      "meaning": "妈妈（呼语）",
+      "pos": "名词",
+      "phonetic": "/mʌm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He can't write",
+      "meaning": "他没法书写（很多内容）",
+      "relation": "主语加核心动作"
+    },
+    {
+      "text": "very much",
+      "meaning": "非常多（内容）",
+      "relation": "补充说明写的内容量级"
+    },
+    {
+      "text": "on a card,",
+      "meaning": "在一张明信片上",
+      "relation": "补充说明书写的载体"
+    },
+    {
+      "text": "Mum.",
+      "meaning": "妈妈",
+      "relation": "对话的听话对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-101",
+  "sentenceId": "nce-1-lesson-101-sentence-013",
+  "sentenceOrder": 13,
+  "english": "He can't write very much on a card, Mum.",
+  "lesson": "Lesson 101 A card from Jimmy",
+  "notes": [
+    {
+      "title": "on a card 的表意",
+      "text": "这里的 on 不是单纯的空间方位，而是表示文字书写在卡片这个材质表面上，结合上下文就是指吉米寄来的明信片。"
+    },
+    {
+      "title": "Mum 的语用位置",
+      "text": "Mum 放在句尾，是对话中对听话人的称呼，用来表明这句话是孩子对母亲说的，不需要纳入句子主干。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合上下文与语法规则：主干提取正确保留了呼语Mum不纳入主干的处理，on a card的状语表意贴合语境，card根据上下文译为明信片的补充说明合理，各词的音标、词性标注准确，句法成分划分清晰，中英对比解释符合实际的语序差异逻辑。仅存在一处可优化的小问题：parts模块中“He can't write”对应文本的表意过于简略，补充更完整的语义解释后更便于学习者理解。（非逐句人工审核）"
+}

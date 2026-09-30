@@ -1,0 +1,181 @@
+{
+  "chinese": "帕梅拉，请你替老板打这封信好吗？",
+  "intent": "向帕梅拉提出请求，请她帮忙给老板打印这封信。",
+  "comparison": {
+    "chinese": "中文常先讲称呼、请托语和受益方，再落到具体动作；英文则把称呼放在句首，随后用 can 提前构成礼貌请求框架，再接动作与对象，最后补充受益方和语气词。",
+    "english": "Pamela, can you type this letter for the boss please?",
+    "steps": [
+      {
+        "label": "先呼语",
+        "text": "Pamela,",
+        "explanation": "中文常直接叫“帕梅拉”或放在句首，英文将称呼语置于祈请句句首，独立于主句之外，明确交谈对象。"
+      },
+      {
+        "label": "再用情态动词提前构成倒装",
+        "text": "can you type",
+        "explanation": "can 是情态助动词，在主语 you 之前，构成疑问句式；can you type… 用来询问对方意愿或能力，比直接命令更委婉，type 是谓语核心动词。"
+      },
+      {
+        "label": "接着接动作对象",
+        "text": "this letter",
+        "explanation": "this letter 直接作 type 的宾语，说明要打印的具体内容，位置紧跟动词，符合英语动宾搭配习惯。"
+      },
+      {
+        "label": "再补充受益介词短语",
+        "text": "for the boss",
+        "explanation": "for the boss 是介词短语，说明 type this letter 是替老板做的事，而非老板本人执行动作，放在宾语之后，补充动作的服务对象。"
+      },
+      {
+        "label": "最后加语气词 please",
+        "text": "please?",
+        "explanation": "please 置于句末，仅作缓和语气的礼貌标记，不参与主干句法结构，问号与 please 配合，使请求更客气。"
+      }
+    ],
+    "takeaway": "这类请求先呼语，再将 can 提前构成主谓倒装，随后按动宾、受益短语、礼貌标记的顺序排列，不必把 please 放在句首。"
+  },
+  "backbone": {
+    "text": "can you type this letter",
+    "meaning": "你能不能打这封信（句末 please 仅为礼貌语气词，不纳入主干）。"
+  },
+  "parts": [
+    {
+      "text": "Pamela,",
+      "relation": "呼语",
+      "meaning": "帕梅拉"
+    },
+    {
+      "text": "can you type",
+      "relation": "倒装疑问框架：can 为情态助动词，提前于主语 you",
+      "meaning": "你能不能打"
+    },
+    {
+      "text": "this letter",
+      "relation": "动作对象",
+      "meaning": "这封信"
+    },
+    {
+      "text": "for the boss",
+      "relation": "服务对象",
+      "meaning": "为老板"
+    },
+    {
+      "text": "please?",
+      "relation": "礼貌标记，不参与主干结构",
+      "meaning": "请？"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "can 引导的礼貌请求（主谓倒装）",
+      "text": "can 作为情态助动词放在主语 you 前，属于疑问句中的主谓倒装；can you do…? 用来询问能力或意愿，不是正在进行的“正在打”。"
+    },
+    {
+      "title": "for 引出服务对象",
+      "text": "for the boss 说明 type 这个动作是为谁做；please 在句尾使请求更客气，不影响主句结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Pamela,",
+      "role": "呼语",
+      "explanation": "直接点明这句话对谁说，不参与后续主句的句法结构。"
+    },
+    {
+      "text": "can you type this letter",
+      "role": "主谓倒装疑问结构",
+      "explanation": "can 提前于主语 you，构成情态动词疑问句；you 是主语，type 是谓语动词，this letter 是宾语，整体表示礼貌请求。"
+    },
+    {
+      "text": "for the boss",
+      "role": "介词短语（表受益）",
+      "explanation": "说明动作 type 是为谁做的，而不是“老板在打”。"
+    },
+    {
+      "text": "please?",
+      "role": "句末礼貌标记",
+      "explanation": "让请求语气更委婉，不承担主句句法成分，和句末问号一起构成日常客气请求。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "帕梅拉（人名）",
+      "pos": "名词",
+      "phonetic": "/ˈpæmələ/",
+      "text": "Pamela,"
+    },
+    {
+      "meaning": "能，可以（情态助动词，疑问句中提前于主语构成主谓倒装）",
+      "pos": "情态动词",
+      "phonetic": "/kən/",
+      "text": "can"
+    },
+    {
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "打字，输入",
+      "pos": "动词",
+      "phonetic": "/taɪp/",
+      "text": "type"
+    },
+    {
+      "meaning": "这",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "信",
+      "pos": "名词",
+      "phonetic": "/ˈletə/",
+      "text": "letter"
+    },
+    {
+      "meaning": "为，替",
+      "pos": "介词",
+      "phonetic": "/fɔː/",
+      "text": "for"
+    },
+    {
+      "meaning": "（特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "老板",
+      "pos": "名词",
+      "phonetic": "/bɒs/",
+      "text": "boss"
+    },
+    {
+      "meaning": "请",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/",
+      "text": "please?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-45",
+  "sentenceId": "nce-1-lesson-045-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Pamela, can you type this letter for the boss please?",
+  "lesson": "Lesson 45 The boss's letter",
+  "notes": [
+    {
+      "title": "can 引导的礼貌请求（主谓倒装）",
+      "text": "can 作为情态助动词放在主语 you 前，属于疑问句中的主谓倒装；can you do…? 用来询问能力或意愿，不是正在进行的“正在打”。"
+    },
+    {
+      "title": "for 引出服务对象",
+      "text": "for the boss 说明 type 这个动作是为谁做；please 在句尾使请求更客气，不影响主句结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有主干未纳入句末 please，且该疑问结构的疑问词为 can、主语为 you，属于主谓倒装；现有标注未能准确体现这一语法特征。（非逐句人工审核）"
+}

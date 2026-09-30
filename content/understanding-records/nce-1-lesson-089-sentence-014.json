@@ -1,0 +1,101 @@
+{
+  "chinese": "它的每一分钱都花得值",
+  "intent": "强调这套待售房屋的价格完全物有所值，认可它的价值。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's worth every penny.",
+    "meaning": "这东西每一分钱都值。"
+  },
+  "structureNotes": [
+    {
+      "title": "固定习语的含义",
+      "text": "worth every penny是固定表达，直译是“值每一个便士”，实际用来表示某物品价格完全合理，付出的每一分钱都值得。"
+    },
+    {
+      "title": "of it的指代",
+      "text": "介词短语of it用来明确前面提到的价值是属于上下文里那套待售房屋的，补充限定范围，避免歧义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "主语加系动词",
+      "explanation": "It指代上下文里的那套待售房屋，is用来引出后面描述的价值属性。"
+    },
+    {
+      "text": "worth every penny of it",
+      "role": "形容词短语作表语",
+      "explanation": "worth引导的短语说明主语的价值属性，整体表达物有所值的含义。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "它是（此处It指代待售的房屋）",
+      "pos": "代词+动词缩写",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "worth",
+      "meaning": "值得的、值……的",
+      "pos": "形容词",
+      "phonetic": "/wɜːθ/"
+    },
+    {
+      "text": "every",
+      "meaning": "每一个的",
+      "pos": "限定词",
+      "phonetic": "/ˈevri/"
+    },
+    {
+      "text": "penny",
+      "meaning": "便士（指代花出去的每一分钱）",
+      "pos": "名词",
+      "phonetic": "/ˈpeni/"
+    },
+    {
+      "text": "of",
+      "meaning": "属于……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "it.",
+      "meaning": "它（指代前文的待售房屋）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's",
+      "meaning": "它（指代待售房屋）是",
+      "relation": "主干主语与系动词，指明评价对象"
+    },
+    {
+      "text": "worth every penny of it.",
+      "meaning": "它的每一分钱都花得值",
+      "relation": "描述主语的价值属性，说明房屋物超所值"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-89",
+  "sentenceId": "nce-1-lesson-089-sentence-014",
+  "sentenceOrder": 14,
+  "english": "It's worth every penny of it.",
+  "lesson": "Lesson 89 For sale",
+  "notes": [
+    {
+      "title": "固定习语的含义",
+      "text": "worth every penny是固定表达，直译是“值每一个便士”，实际用来表示某物品价格完全合理，付出的每一分钱都值得。"
+    },
+    {
+      "title": "of it的指代",
+      "text": "介词短语of it用来明确前面提到的价值是属于上下文里那套待售房屋的，补充限定范围，避免歧义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语义与结构划分准确，词汇标注基本符合要求，两处小问题已修正：1. 原译文“它每一便士都值”不符合中文表达习惯，调整为更自然的“它的每一分钱都花得值”；2. 原parts中“worth every penny of it”分块的meaning未结合习语表达房屋物有所值的核心含义，已调整为符合中文表达的“它的每一分钱都花得值”。其余内容经核对无误。（非逐句人工审核）"
+}

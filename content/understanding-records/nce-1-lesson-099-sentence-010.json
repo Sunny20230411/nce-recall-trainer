@@ -1,0 +1,182 @@
+{
+  "chinese": "我想最好让医生看看你。我会给卡特医生打电话。",
+  "intent": "表达认为应当就医并准备联系医生的打算。",
+  "comparison": {
+    "chinese": "中文先说“我想”，再说出完整的建议内容“最好让医生看看你”。",
+    "english": "英文先用 I think 给出说话人的态度，再用 that 把后面的完整句子作为宾语接在后面。",
+    "steps": [
+      {
+        "label": "先交代态度",
+        "text": "I think...",
+        "explanation": "表示这是说话人的判断或建议，不是确定的命令。"
+      },
+      {
+        "label": "再给出建议内容",
+        "text": "that the doctor had better see you",
+        "explanation": "that 引导宾语从句，说明 think 的具体内容；had better 表示“最好做某事”，后面用动词原形 see。"
+      }
+    ],
+    "takeaway": "that 在这里把一个完整的陈述句接在 think 后面，理解时先知道说话人在表达想法，再读从句内容。"
+  },
+  "backbone": {
+    "text": "I think that the doctor had better see you. I'll phone Dr. Carter.",
+    "meaning": "我认为最好让医生看看你，并且我会给卡特医生打电话。"
+  },
+  "structureNotes": [
+    {
+      "title": "宾语从句用 that 引出",
+      "text": "that 引导的从句跟在 think 后面，作“想”的内容；that 本身没有实际词义，只起连接作用。"
+    },
+    {
+      "title": "had better 表建议",
+      "text": "had better 后接动词原形 see，表示“最好做某事”，不是过去时态，也不表示完成。"
+    },
+    {
+      "title": "I'll 是将来时",
+      "text": "I'll = I will，表示说话人马上要做的动作，即打算给卡特医生打电话。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I think",
+      "role": "主句",
+      "explanation": "表明这是说话人的想法，后接完整的宾语从句。"
+    },
+    {
+      "text": "that the doctor had better see you",
+      "role": "宾语从句",
+      "explanation": "作 think 的宾语，说明具体想法是“医生最好看看你”。"
+    },
+    {
+      "text": "I'll phone Dr. Carter",
+      "role": "第二句主谓宾结构",
+      "explanation": "主语 I，谓语 will phone，宾语 Dr. Carter，表示“我将给卡特医生打电话”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "think",
+      "meaning": "认为；想",
+      "pos": "动词",
+      "phonetic": "/θɪŋk/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导宾语从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "doctor",
+      "meaning": "医生",
+      "pos": "名词",
+      "phonetic": "/ˈdɒktə/"
+    },
+    {
+      "text": "had",
+      "meaning": "（had better 结构的一部分）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "better",
+      "meaning": "（构成 had better，最好）",
+      "pos": "副词",
+      "phonetic": "/ˈbetə/"
+    },
+    {
+      "text": "see",
+      "meaning": "看；诊查",
+      "pos": "动词",
+      "phonetic": "/siː/"
+    },
+    {
+      "text": "you.",
+      "meaning": "你。",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "I'll",
+      "meaning": "我将（=I will）。",
+      "pos": "缩写（代词+助动词）",
+      "phonetic": "/aɪl/"
+    },
+    {
+      "text": "phone",
+      "meaning": "打电话",
+      "pos": "动词",
+      "phonetic": "/fəʊn/"
+    },
+    {
+      "text": "Dr.",
+      "meaning": "医生（Dr. 是 Doctor 的缩写，用于姓氏前作为称呼头衔）。",
+      "pos": "名词缩写",
+      "phonetic": "/ˈdɒktə/"
+    },
+    {
+      "text": "Carter.",
+      "meaning": "卡特（姓氏）。",
+      "pos": "名词",
+      "phonetic": "/ˈkɑːtə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I think",
+      "meaning": "我认为",
+      "relation": "主句，引出后面的想法"
+    },
+    {
+      "text": "that the doctor had better see you.",
+      "meaning": "最好让医生看看你。",
+      "relation": "作 think 的宾语，具体说明想法内容"
+    },
+    {
+      "text": "I'll phone",
+      "meaning": "我会给……打电话",
+      "relation": "第二句的主语和谓语，表示将要做的动作"
+    },
+    {
+      "text": "Dr. Carter.",
+      "meaning": "卡特医生。",
+      "relation": "电话的对象，作 phone 的宾语"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-99",
+  "sentenceId": "nce-1-lesson-099-sentence-010",
+  "sentenceOrder": 10,
+  "english": "I think that the doctor had better see you. I'll phone Dr. Carter.",
+  "lesson": "Lesson 99 Ow!",
+  "notes": [
+    {
+      "title": "宾语从句用 that 引出",
+      "text": "that 引导的从句跟在 think 后面，作“想”的内容；that 本身没有实际词义，只起连接作用。"
+    },
+    {
+      "title": "had better 表建议",
+      "text": "had better 后接动词原形 see，表示“最好做某事”，不是过去时态，也不表示完成。"
+    },
+    {
+      "title": "I'll 是将来时",
+      "text": "I'll = I will，表示说话人马上要做的动作，即打算给卡特医生打电话。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体理解、结构划分和词义解释基本准确。parts 分块只切到短语级，保留了原文范围；had better 与 that 从句的说明清楚。仅对 Dr. Carter 的冠词限定作小修正，并补充说明 Dr. 的缩写含义，其余内容可保留。（非逐句人工审核）"
+}

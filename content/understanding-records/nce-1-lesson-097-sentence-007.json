@@ -1,0 +1,176 @@
+{
+  "chinese": "我记不起来了。我接待的那个男人戴着一顶帽子。",
+  "intent": "这是两个独立的简单表意片段：第一句表达说话人无法回忆起之前接待的客人的样貌，第二句用来补充说明自己印象里曾经接待过的那位男士的外貌特征。",
+  "comparison": {
+    "chinese": "中文会直接把修饰语放在被修饰的名词前面，说成“[我接待的]那个男人戴着一顶帽子”；英文则是先说出核心名词The man，再把修饰这个男人的内容放在后面，用who引导从句衔接。",
+    "english": "The man [who I served] was wearing a hat.",
+    "steps": [
+      {
+        "label": "第一步：先讲核心主体",
+        "text": "The man was wearing a hat.",
+        "explanation": "意思是“那个男人当时戴着一顶帽子”，这是整个句子最核心的主干意思，先明确描述的对象和他的状态。"
+      },
+      {
+        "label": "第二步：把限定信息接在名词后面",
+        "text": "The man who I served was wearing a hat.",
+        "explanation": "who紧跟在The man后面，指代前面提到的男人，同时在从句里充当served（接待）这个动作的对象，也就是“我接待的（那个男人）”，不需要额外再重复一遍him或the man。"
+      }
+    ],
+    "takeaway": "英文里表示“我接待的男人”这类修饰关系时，会把被修饰的名词放在最前面，紧跟who来把限定信息接在后面，而不是像中文那样把整个修饰语都放在名词前面。"
+  },
+  "backbone": {
+    "text": "I can't remember. The man was wearing a hat.",
+    "meaning": "我记不起来了。（我印象里的）那个男人当时戴着一顶帽子。"
+  },
+  "structureNotes": [
+    {
+      "title": "第一句是简短的否定陈述",
+      "text": "can't是can not的缩写，后接动词原形remember，直接表达“没有办法记起”的意思，结构直白，没有额外修饰成分。"
+    },
+    {
+      "title": "定语从句的引导与指代",
+      "text": "who用来指代前面的先行词the man，同时在从句中充当served的宾语，完整从句“who I served”的意思就是“我接待过的（那个男人）”，限定了被描述的男人的范围，不能删掉。"
+    },
+    {
+      "title": "过去进行时表示当时的状态",
+      "text": "was wearing是过去进行时，描述在过去那个时间点，那个男人正处于“戴着帽子”的状态，而不是说他过去“戴过”帽子的一次性动作，是用来勾勒人物样貌的细节。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I can't remember.",
+      "role": "独立简单句",
+      "explanation": "主谓结构的否定陈述句，表达说话人当下无法回忆起相关细节的状态。"
+    },
+    {
+      "text": "The man who I served was wearing a hat.",
+      "role": "包含定语从句的主句",
+      "explanation": "主句的核心是The man was wearing a hat，用来描述核心对象的穿戴状态；who I served是修饰the man的定语从句，明确是哪一位男士。"
+    },
+    {
+      "text": "who I served",
+      "role": "限制性定语从句",
+      "explanation": "关系代词who指代先行词the man，同时在从句中作served的宾语，限定“我接待过的这位男士”，帮助说话人缩小回忆里的人物范围。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我（主格人称代词）",
+      "pos": "pron.",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "can't",
+      "meaning": "不能，无法（是can not的缩写形式）",
+      "pos": "modal verb",
+      "phonetic": "/kɑːnt/"
+    },
+    {
+      "text": "remember.",
+      "meaning": "记得，记起",
+      "pos": "verb",
+      "phonetic": "/rɪˈmembə(r)/"
+    },
+    {
+      "text": "The",
+      "meaning": "（特指谈话中提及的那个）",
+      "pos": "art.",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人，男士",
+      "pos": "n.",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "who",
+      "meaning": "（关系代词，指代前文提到的人，在从句中作宾语）",
+      "pos": "pron.",
+      "phonetic": "/huː/"
+    },
+    {
+      "text": "I",
+      "meaning": "我（主格人称代词）",
+      "pos": "pron.",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "served",
+      "meaning": "接待，为……提供服务",
+      "pos": "verb",
+      "phonetic": "/sɜːvd/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词的第一/第三人称单数过去式，此处和wearing搭配构成过去进行时）",
+      "pos": "verb",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "wearing",
+      "meaning": "穿戴，戴着",
+      "pos": "verb",
+      "phonetic": "/ˈweərɪŋ/"
+    },
+    {
+      "text": "a",
+      "meaning": "一顶（不定冠词，用于辅音音素开头的单词前）",
+      "pos": "art.",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "hat.",
+      "meaning": "帽子",
+      "pos": "n.",
+      "phonetic": "/hæt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I can't remember.",
+      "relation": "独立分句，表达说话人当下无法回忆起相关细节的状态",
+      "meaning": "我记不起来了。"
+    },
+    {
+      "text": "The man",
+      "relation": "整个主句的描述主体，后文所有内容都围绕这个人物展开",
+      "meaning": "那个男人"
+    },
+    {
+      "text": "who I served",
+      "relation": "修饰前面的the man，限定清楚是哪一位男士，也就是曾经被说话人接待过的对象",
+      "meaning": "我接待过的"
+    },
+    {
+      "text": "was wearing a hat.",
+      "relation": "描述前面这位男士当时的穿戴状态，用来补充说话人关于这位客人的模糊印象细节",
+      "meaning": "戴着一顶帽子"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-97",
+  "sentenceId": "nce-1-lesson-097-sentence-007",
+  "sentenceOrder": 7,
+  "english": "I can't remember. The man who I served was wearing a hat.",
+  "lesson": "Lesson 97 A small blue case",
+  "notes": [
+    {
+      "title": "第一句是简短的否定陈述",
+      "text": "can't是can not的缩写，后接动词原形remember，直接表达“没有办法记起”的意思，结构直白，没有额外修饰成分。"
+    },
+    {
+      "title": "定语从句的引导与指代",
+      "text": "who用来指代前面的先行词the man，同时在从句中充当served的宾语，完整从句“who I served”的意思就是“我接待过的（那个男人）”，限定了被描述的男人的范围，不能删掉。"
+    },
+    {
+      "title": "过去进行时表示当时的状态",
+      "text": "was wearing是过去进行时，描述在过去那个时间点，那个男人正处于“戴着帽子”的状态，而不是说他过去“戴过”帽子的一次性动作，是用来勾勒人物样貌的细节。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体翻译与语法分析准确，主从句主干清晰，定语从句关系词的指代与句法功能说明正确，过去进行时的用法解释符合语境；仅两处词表的词性标注略有瑕疵，修正后即可通过。（非逐句人工审核）"
+}

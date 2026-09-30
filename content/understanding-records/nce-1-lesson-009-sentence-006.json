@@ -1,0 +1,69 @@
+{
+  "chinese": "托尼好吗？",
+  "intent": "口头问候托尼的近况，询问对方目前的状态是否安好",
+  "comparison": null,
+  "backbone": {
+    "text": "How's Tony?",
+    "meaning": "询问托尼的近况如何"
+  },
+  "parts": [
+    {
+      "text": "How's",
+      "relation": "用来引出对状态的询问",
+      "meaning": "怎么样，是How is的缩略形式"
+    },
+    {
+      "text": "Tony?",
+      "relation": "指明被询问状态的对象",
+      "meaning": "托尼（人名）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "缩略形式说明",
+      "text": "句里的How's是How is的日常口语缩略，省去了字母i，适配问候的轻松语境，读起来更流畅自然。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "How's",
+      "role": "疑问引导部分",
+      "explanation": "由疑问副词how和be动词is的缩略形式组成，用来发起对某人状态的简短问询"
+    },
+    {
+      "text": "Tony",
+      "role": "问候指向对象",
+      "explanation": "明确本句询问状态的主体，句末整体问号传递出疑问语气"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "怎么样，是How is的口语缩略",
+      "pos": "contraction",
+      "phonetic": "/haʊz/",
+      "text": "How's"
+    },
+    {
+      "meaning": "托尼（男子人名）",
+      "pos": "proper noun",
+      "phonetic": "/ˈtəʊni/",
+      "text": "Tony?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-9",
+  "sentenceId": "nce-1-lesson-009-sentence-006",
+  "sentenceOrder": 6,
+  "english": "How's Tony?",
+  "lesson": "Lesson 9 How are you today?",
+  "notes": [
+    {
+      "title": "缩略形式说明",
+      "text": "句里的How's是How is的日常口语缩略，省去了字母i，适配问候的轻松语境，读起来更流畅自然。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合面向中文母语成年人的英语解析要求，仅存在少量细节表述瑕疵可修正（非逐句人工审核）"
+}

@@ -1,0 +1,59 @@
+{
+  "chinese": "这一本吗？",
+  "intent": "口头确认对方指代的物品是不是眼前的这一件，承接前文询问的‘哪本书’的语境做核实",
+  "comparison": null,
+  "backbone": {
+    "text": "This one?",
+    "meaning": "确认眼前指代的这个物品"
+  },
+  "parts": [
+    {
+      "text": "This one?",
+      "relation": "完整的确认询问内容",
+      "meaning": "这一本（带问号表疑问确认）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略的语境依赖",
+      "text": "这句是口语里的省略短句，依托前文‘哪本书’的语境，完整还原理解为‘是这一本吗？’，日常对话里不需要补全冗余信息就可以传递明确含义"
+    }
+  ],
+  "structures": [
+    {
+      "text": "This one?",
+      "role": "口语确认疑问短句",
+      "explanation": "通过语调配合问号，直接完成对指代物品的确认询问，不需要额外加助动词构成完整疑问句"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/",
+      "text": "This"
+    },
+    {
+      "meaning": "一本（指代前文提到的书）",
+      "pos": "代词",
+      "phonetic": "/wʌn/",
+      "text": "one?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-21",
+  "sentenceId": "nce-1-lesson-021-sentence-003",
+  "sentenceOrder": 3,
+  "english": "This one?",
+  "lesson": "Lesson 21 Which book?",
+  "notes": [
+    {
+      "title": "省略的语境依赖",
+      "text": "这句是口语里的省略短句，依托前文‘哪本书’的语境，完整还原理解为‘是这一本吗？’，日常对话里不需要补全冗余信息就可以传递明确含义"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合面向中文母语成年人的英语学习要求，仅存在局部细节瑕疵可修正（非逐句人工审核）"
+}

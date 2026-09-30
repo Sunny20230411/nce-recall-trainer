@@ -1,0 +1,107 @@
+{
+  "chinese": "那个男人愉快地笑了笑。",
+  "intent": "描述前文被问路的男士的反应：他面带友好愉悦的笑意。",
+  "comparison": {
+    "chinese": "那个男人愉快地笑了笑。",
+    "english": "The man smiled pleasantly.",
+    "steps": [
+      {
+        "label": "语序差异",
+        "text": "中文将描述状态的状语放在动作前，英文把修饰动作的副词放在动词之后。",
+        "explanation": "中文里“愉快地”放在“笑”之前，而英文里pleasantly直接接在smiled后面，说明笑这个动作是带着愉悦的状态完成的。"
+      },
+      {
+        "label": "后续铺垫",
+        "text": "下一句He did not understand English!揭示了这个笑的实际含义。",
+        "explanation": "男士对女士的问路露出友好的微笑，但他根本听不懂英语，也没法为女士指路。"
+      }
+    ],
+    "takeaway": "smiled pleasantly是“愉快地笑了笑”，副词后置不改变语义位置；这句是反转前的铺垫，看似友好回应，实则对方听不懂英语。"
+  },
+  "backbone": {
+    "text": "The man smiled.",
+    "meaning": "那个男人笑了。"
+  },
+  "structureNotes": [
+    {
+      "title": "方式副词的位置",
+      "text": "本句中修饰动词smiled的副词pleasantly放在动词之后，用于说明“笑”这个动作是以愉悦、友好的方式进行的，这是描述动作状态的常见语序。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The man",
+      "role": "主语",
+      "explanation": "指代前文出现的被女士问路的男士，是句子动作的发出者。"
+    },
+    {
+      "text": "smiled",
+      "role": "谓语动词",
+      "explanation": "是句子的核心动作，表示做出微笑的行为，使用一般过去时匹配叙事场景。"
+    },
+    {
+      "text": "pleasantly",
+      "role": "方式状语",
+      "explanation": "修饰动词smiled，说明微笑时带着愉悦、友好的情绪。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "定冠词，特指前文提到的那位男士",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "smiled",
+      "meaning": "微笑（smile的过去式）",
+      "pos": "动词",
+      "phonetic": "/smaɪld/"
+    },
+    {
+      "text": "pleasantly.",
+      "meaning": "愉快地、友好地",
+      "pos": "副词",
+      "phonetic": "/ˈplezəntli/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The man",
+      "relation": "句子动作的发出者",
+      "meaning": "那个男人"
+    },
+    {
+      "text": "smiled",
+      "relation": "句子的核心动作",
+      "meaning": "笑了笑"
+    },
+    {
+      "text": "pleasantly.",
+      "relation": "补充说明笑的状态",
+      "meaning": "愉快地。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-73",
+  "sentenceId": "nce-1-lesson-073-sentence-004",
+  "sentenceOrder": 4,
+  "english": "The man smiled pleasantly.",
+  "lesson": "Lesson 73 The way to King Street",
+  "notes": [
+    {
+      "title": "方式副词的位置",
+      "text": "本句中修饰动词smiled的副词pleasantly放在动词之后，用于说明“笑”这个动作是以愉悦、友好的方式进行的，这是描述动作状态的常见语序。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体符合叙事语境，主干、词性、语法功能、分块关系和方式副词语序说明基本准确。仅发现一处可改进点：词汇表中 pleasantly 的音标未按英式发音规范标注，其余内容无需调整。（非逐句人工审核）"
+}

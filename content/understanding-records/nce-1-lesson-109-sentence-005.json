@@ -1,0 +1,106 @@
+{
+  "chinese": "加点糖怎么样？放两茶匙够吗？",
+  "intent": "在准备饮品的日常场景中，向对方征询添加糖的意见，并试探询问两茶匙的用量是否合适。",
+  "comparison": null,
+  "backbone": {
+    "text": "What about some sugar? Two teaspoonfuls?",
+    "meaning": "询问是否要加糖，并进一步确认两茶匙的量是否合适。"
+  },
+  "structureNotes": [
+    {
+      "title": "What about的征询用法",
+      "text": "What about 用在提议或征询意见时，后面可直接接名词或动名词，这里接some sugar，意思是“加糖怎么样？”，相当于主动给出添加糖的建议。"
+    },
+    {
+      "title": "承接上文的省略问句",
+      "text": "Two teaspoonfuls? 是承接上一句的省略说法，完整逻辑是“加两茶匙糖行不行？”，不需要额外添加动词，就能直接传递确认用量的含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What about",
+      "role": "提议征询短语",
+      "explanation": "用于引出建议或询问对方是否同意某件事，是日常对话里发起提议的常用表达。"
+    },
+    {
+      "text": "some sugar?",
+      "role": "提议的内容",
+      "explanation": "指代“添加糖”这件事，是What about要征询的核心对象。"
+    },
+    {
+      "text": "Two teaspoonfuls?",
+      "role": "追问用量的省略问句",
+      "explanation": "承接上一句的加糖提议，进一步确认具体添加量，完整语义是“两茶匙可以吗？”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What",
+      "meaning": "（用于提议）怎么样，如何",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "about",
+      "meaning": "关于，对于（与what搭配构成征询短语）",
+      "pos": "介词",
+      "phonetic": "/əˈbaʊt/"
+    },
+    {
+      "text": "some",
+      "meaning": "一些，少许（用于提议或希望得到肯定回答的疑问句）",
+      "pos": "限定词",
+      "phonetic": "/sʌm/"
+    },
+    {
+      "text": "sugar?",
+      "meaning": "糖（不可数名词）",
+      "pos": "名词",
+      "phonetic": "/ˈʃʊɡə/"
+    },
+    {
+      "text": "Two",
+      "meaning": "两个，两（数词）",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "teaspoonfuls?",
+      "meaning": "一茶匙的量（可数名词复数）",
+      "pos": "名词复数",
+      "phonetic": "/ˈtiːspʊlfʊlz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What about some sugar?",
+      "relation": "发起添加糖的提议并征询对方意见",
+      "meaning": "加点糖怎么样？"
+    },
+    {
+      "text": "Two teaspoonfuls?",
+      "relation": "承接上一问，进一步确认糖的具体用量",
+      "meaning": "（放）两茶匙（够吗）？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-109",
+  "sentenceId": "nce-1-lesson-109-sentence-005",
+  "sentenceOrder": 5,
+  "english": "What about some sugar? Two teaspoonfuls?",
+  "lesson": "Lesson 109 A good idea",
+  "notes": [
+    {
+      "title": "What about的征询用法",
+      "text": "What about 用在提议或征询意见时，后面可直接接名词或动名词，这里接some sugar，意思是“加糖怎么样？”，相当于主动给出添加糖的建议。"
+    },
+    {
+      "title": "承接上文的省略问句",
+      "text": "Two teaspoonfuls? 是承接上一句的省略说法，完整逻辑是“加两茶匙糖行不行？”，不需要额外添加动词，就能直接传递确认用量的含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合对话提议加糖、追问用量的语义，省略问句的语境说明合理，仅存在单条标点附带在词汇文本、个别释义表述可更精准的小问题。（非逐句人工审核）"
+}

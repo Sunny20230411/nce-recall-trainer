@@ -1,0 +1,191 @@
+{
+  "chinese": "‘可是你还是很丑，’萨莉说。萨莉觉得挺有意思，可我当时尴尬极了！",
+  "intent": "记录萨莉天真直白的插话，并对照呈现她的轻松玩乐心态与“我”当时的窘迫处境。",
+  "comparison": {
+    "chinese": "本句两个分句分别说明萨莉的状态与“我”的状态，中文在承接语境中可自然对应时间关系；“我”的窘迫是当时现场的感受，无需额外补出主语即可与萨莉的态度形成对照。",
+    "english": "The main clauses describe two states experienced by different people during the same train conversation: Sally was entertained by the lady’s vanity, while the narrator felt deeply embarrassed by Sally’s blunt comment.",
+    "steps": [
+      {
+        "label": "先识别引语归属",
+        "text": "'But you are still ugly,' Sally said.",
+        "explanation": "句首的引语是萨莉当场说出的直白评价，引语后的 Sally said 点明说话人，引语内的 are 保持一般现在时，体现说话当下的即时判断，不随主句过去时改成转述时态。"
+      },
+      {
+        "label": "再对照两种感受",
+        "text": "Sally was amused, but I was very embarrassed!",
+        "explanation": "but 连接两个并列分句：amused 描述孩子旁观时觉得好玩的松弛心态，embarrassed 描述在场成人替孩子失言感到难堪的状态，同一场景下两种反应形成强烈反差。"
+      }
+    ],
+    "takeaway": "直接引语保留说话当下的时态，主谓语义完整；but 连接的两个并列分句借助不同主体的情绪反差，强化故事的现场幽默感与窘迫感。"
+  },
+  "backbone": {
+    "text": "Sally said you are still ugly; Sally was amused, but I was embarrassed.",
+    "meaning": "（理解保留：）萨莉说对方还是很丑，萨莉觉得有趣，而“我”感到尴尬。"
+  },
+  "structureNotes": [
+    {
+      "title": "引号与对话归属",
+      "text": "引语放在句首，Sally said 放在引语后，引语末尾标点属于引语内容。这里引语是直接引语，引语内的 are 是说话当下的即时表述，不随主句 said 的过去时改成过去时；若改为间接引语才需要调整为 she was still ugly。"
+    },
+    {
+      "title": "but 转折",
+      "text": "第一个 but 表示萨莉不接受“化妆会变美”的前提；第二个 but 连接同句中的两种感受，突出孩子与在场成人对同一句话的不同反应。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'But you are still ugly,'",
+      "role": "直接引语（及物动词 said 的宾语）",
+      "explanation": "Sally said 的宾语内容，引号内保持直接引语原样；其中 you 是引语内的主语，are 是引语内的系动词，still ugly 是引语内的表语，are 不随主句时态改为过去式。"
+    },
+    {
+      "text": "Sally said.",
+      "role": "主句",
+      "explanation": "说明这句话是谁说的；said 后无引号宾语从句时，宾语就是前面的直接引语。"
+    },
+    {
+      "text": "Sally was amused,",
+      "role": "并列独立分句",
+      "explanation": "描述萨莉当时的感受：Sally 是主语，was 是系动词，amused 是表语，分句结构完整。"
+    },
+    {
+      "text": "but I was very embarrassed!",
+      "role": "转折并列独立分句",
+      "explanation": "用 but 把萨莉的轻松与“我”的窘迫对照起来：I 是主语，was 是系动词，very embarrassed 是表语，very 作副词修饰 embarrassed。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'But",
+      "meaning": "但是；可是",
+      "pos": "连词",
+      "phonetic": "bʌt"
+    },
+    {
+      "text": "you",
+      "meaning": "你（此处指正在补妆的女士）",
+      "pos": "代词",
+      "phonetic": "ju"
+    },
+    {
+      "text": "are",
+      "meaning": "是；（此处与形容词构成引语内的谓语）",
+      "pos": "系动词",
+      "phonetic": "ɑː(r)"
+    },
+    {
+      "text": "still",
+      "meaning": "仍然；还是",
+      "pos": "副词",
+      "phonetic": "stɪl"
+    },
+    {
+      "text": "ugly,'",
+      "meaning": "丑的；难看的",
+      "pos": "形容词",
+      "phonetic": "ˈʌɡli"
+    },
+    {
+      "text": "Sally",
+      "meaning": "萨莉（女子人名）",
+      "pos": "专有名词",
+      "phonetic": "ˈsæli"
+    },
+    {
+      "text": "said.",
+      "meaning": "说；讲",
+      "pos": "动词",
+      "phonetic": "sed"
+    },
+    {
+      "text": "Sally",
+      "meaning": "萨莉（女子人名）",
+      "pos": "专有名词",
+      "phonetic": "ˈsæli"
+    },
+    {
+      "text": "was",
+      "meaning": "是（此处与形容词构成表语结构，过去时）",
+      "pos": "系动词",
+      "phonetic": "wɒz"
+    },
+    {
+      "text": "amused,",
+      "meaning": "被逗乐的；觉得好玩的",
+      "pos": "形容词",
+      "phonetic": "əˈmjuːzd"
+    },
+    {
+      "text": "but",
+      "meaning": "但是；可是",
+      "pos": "连词",
+      "phonetic": "bʌt"
+    },
+    {
+      "text": "I",
+      "meaning": "我（叙事者）",
+      "pos": "代词",
+      "phonetic": "aɪ"
+    },
+    {
+      "text": "was",
+      "meaning": "是（此处与形容词构成表语结构，过去时）",
+      "pos": "系动词",
+      "phonetic": "wɒz"
+    },
+    {
+      "text": "very",
+      "meaning": "非常；很",
+      "pos": "副词",
+      "phonetic": "ˈveri"
+    },
+    {
+      "text": "embarrassed!",
+      "meaning": "尴尬的；窘迫的",
+      "pos": "形容词",
+      "phonetic": "ɪmˈbærəst!"
+    }
+  ],
+  "parts": [
+    {
+      "text": "'But you are still ugly,'",
+      "meaning": "‘可是你还是很丑，’",
+      "relation": "萨莉说出的直接引语内容，由 but 承接上一段女士补妆变美的表述形成转折。"
+    },
+    {
+      "text": "Sally said.",
+      "meaning": "萨莉说。",
+      "relation": "说明前面引语的说话人，整体为主句。"
+    },
+    {
+      "text": "Sally was amused,",
+      "meaning": "萨莉觉得挺有意思，",
+      "relation": "独立分句，描述萨莉当时旁观这一幕的轻松心态。"
+    },
+    {
+      "text": "but I was very embarrassed!",
+      "meaning": "可我当时尴尬极了！",
+      "relation": "用 but 转折连接独立分句，对照描述叙事者“我”当时因萨莉直白发言感到的窘迫。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-141",
+  "sentenceId": "nce-1-lesson-141-sentence-012",
+  "sentenceOrder": 12,
+  "english": "'But you are still ugly,' Sally said. Sally was amused, but I was very embarrassed!",
+  "lesson": "Lesson 141 Sally's first train ride",
+  "notes": [
+    {
+      "title": "引号与对话归属",
+      "text": "引语放在句首，Sally said 放在引语后，引语末尾标点属于引语内容。这里引语是直接引语，引语内的 are 是说话当下的即时表述，不随主句 said 的过去时改成过去时；若改为间接引语才需要调整为 she was still ugly。"
+    },
+    {
+      "title": "but 转折",
+      "text": "第一个 but 表示萨莉不接受“化妆会变美”的前提；第二个 but 连接同句中的两种感受，突出孩子与在场成人对同一句话的不同反应。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原记录整体释义与语法标注基本准确，仅存在一处结构分块的时态表述可进一步严谨：直接引语中的谓语 are 属于引号内即时表述的原文内容，并非随主句一般过去时调整的转述时态，对应结构说明可表述得更明确；其余词义、词性、音标、成分划分与译文均符合语境，可予通过。（非逐句人工审核）"
+}

@@ -1,0 +1,81 @@
+{
+  "chinese": "非常感谢。",
+  "intent": "在日常交际场景中，向对方表达诚挚的谢意。",
+  "comparison": null,
+  "backbone": {
+    "text": "Thank you very much.",
+    "meaning": "向对方致以非常诚挚的谢意。"
+  },
+  "structureNotes": [
+    {
+      "title": "程度修饰副词位置",
+      "text": "very much是常见的程度副词短语，放在句子末尾修饰动词Thank，用来表达感谢的程度很深，翻译时按中文语序把“非常”提前到“感谢”之前更符合中文表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Thank you",
+      "role": "表达感谢的核心谓语分句",
+      "explanation": "本句是日常交际的感谢用语，省略了主语I，谓语动词为Thank，宾语为you，用来直接向听话人传递谢意。"
+    },
+    {
+      "text": "very much",
+      "role": "程度状语",
+      "explanation": "副词短语修饰动词Thank，说明感谢的程度非常深。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Thank",
+      "meaning": "感谢",
+      "pos": "动词（省略主语I的祈使表达）",
+      "phonetic": "/θæŋk/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；您",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "much.",
+      "meaning": "与very搭配构成程度短语，表“非常”",
+      "pos": "副词（在very much固定搭配中）",
+      "phonetic": "/mʌtʃ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Thank you",
+      "meaning": "感谢你/您",
+      "relation": "传递核心感谢的交际动作"
+    },
+    {
+      "text": "very much.",
+      "meaning": "非常",
+      "relation": "补充说明感谢的程度"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-113",
+  "sentenceId": "nce-1-lesson-113-sentence-013",
+  "sentenceOrder": 13,
+  "english": "Thank you very much.",
+  "lesson": "Lesson 113 Small change",
+  "notes": [
+    {
+      "title": "程度修饰副词位置",
+      "text": "very much是常见的程度副词短语，放在句子末尾修饰动词Thank，用来表达感谢的程度很深，翻译时按中文语序把“非常”提前到“感谢”之前更符合中文表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确通顺，但存在三处可明确修正的问题：1. 句子结构说明中将动词thank的主语表述为“I”，与实际用法不符——thank作“感谢”义的及物动词时，主语通常为说话人自己，表达直接感谢的交际用语是省略了主语I的祈使式表述，此处标注易误导学习者混淆主语归属；2. 对very much的属性标注不一致：结构说明与单词标注中，very被归为副词、much被归为限定词，但二者组成的very much整体是副词性程度短语，单独标注much的词性时未明确说明其在固定短语中的副词化属性，易让学习者误以为much此处表数量限定；3. 核心动词thank的标注中直接标注为“祈愿分句”，实际Thank you是完整的交际短句，作为句子的核心谓语部分，分句属性表述过强。其余翻译、主干、分块释义、语境说明均符合原句语义，无事实性错误。（非逐句人工审核）"
+}

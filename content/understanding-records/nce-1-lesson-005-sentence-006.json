@@ -1,0 +1,81 @@
+{
+  "chinese": "索菲，这是汉斯。",
+  "intent": "向名叫索菲的人介绍汉斯，告知索菲眼前的这个人是谁",
+  "comparison": null,
+  "backbone": {
+    "text": "this is Hans",
+    "meaning": "这一位是汉斯"
+  },
+  "parts": [
+    {
+      "text": "Sophie,",
+      "relation": "称呼听话人",
+      "meaning": "索菲，对话的接收对象"
+    },
+    {
+      "text": "this is Hans.",
+      "relation": "向被叫到的索菲说明眼前人的名字",
+      "meaning": "这是汉斯，介绍在场的人物身份"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "称呼的断句作用",
+      "text": "开头单独出现的人名Sophie是称呼听话人，和后续介绍的内容用逗号隔开，不会混进介绍的对象里。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Sophie",
+      "role": "呼语",
+      "explanation": "直接点出对话的对象，提示接下来的话是说给索菲听的"
+    },
+    {
+      "text": "this is Hans",
+      "role": "人物介绍主句",
+      "explanation": "日常面对面介绍他人的标准表达，直接说明近处的这个人是汉斯"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "索菲（人名）",
+      "pos": "noun",
+      "phonetic": "/ˈsəʊfi/",
+      "text": "Sophie,"
+    },
+    {
+      "meaning": "这、这个",
+      "pos": "determiner",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "是",
+      "pos": "verb",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "汉斯（人名），句末为标点符号",
+      "pos": "noun",
+      "phonetic": "/hænz/",
+      "text": "Hans."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-5",
+  "sentenceId": "nce-1-lesson-005-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Sophie, this is Hans.",
+  "lesson": "Lesson 5 Nice to meet you.",
+  "notes": [
+    {
+      "title": "称呼的断句作用",
+      "text": "开头单独出现的人名Sophie是称呼听话人，和后续介绍的内容用逗号隔开，不会混进介绍的对象里。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规准确，仅存在局部可明确修正的细节问题，调整后即可符合要求（非逐句人工审核）"
+}

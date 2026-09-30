@@ -1,0 +1,202 @@
+{
+  "chinese": "‘我刚到苏格兰，现在住在一家青年旅舍。’",
+  "intent": "这是吉米明信片里的第一人称直接自述，向收信人说明自己刚刚抵达苏格兰，目前临时住宿在青年旅舍，是外出旅行时的近况告知。",
+  "comparison": {
+    "chinese": "我刚到苏格兰，现在住在一家青年旅舍。",
+    "english": "I have just arrived in Scotland and I'm staying at a Youth Hostel.",
+    "steps": [
+      {
+        "label": "先交代动作完成状态",
+        "text": "I have just arrived in Scotland",
+        "explanation": "英语用现在完成时have arrived加上just，明确“刚完成抵达”这个动作，不直接指明具体的过去到达时间；中文直接说“刚到”，同样靠“刚”字表达动作刚完成的含义，不需要额外搭配完成时标记。"
+      },
+      {
+        "label": "衔接当前持续状态",
+        "text": "and I'm staying at a Youth Hostel",
+        "explanation": "and顺承前一个抵达动作，用现在进行时I'm staying表示旅行期间这段时间临时居住的状态，说明抵达之后当下的住处安排。"
+      },
+      {
+        "label": "地点介词的匹配",
+        "text": "arrive in + 大范围地点 / stay at + 具体住宿场所",
+        "explanation": "英语里到达城市、国家这类大范围地点用arrive in，落脚在具体的旅舍、宾馆这类点位用stay at；中文不区分这类介词搭配，直接说“到苏格兰”“住在青年旅舍”即可。"
+      }
+    ],
+    "takeaway": "英语用不同时态分别标记“刚抵达”的完成动作和“暂住”的当前持续状态，中文靠时间副词和语境自然体现；搭配地点时，大区域配介词in、具体点位配介词at。"
+  },
+  "backbone": {
+    "text": "I have just arrived in Scotland and I'm staying at a Youth Hostel.",
+    "meaning": "我刚刚抵达苏格兰，当下正住在一家青年旅舍里。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时表刚完成的动作",
+      "text": "have arrived加just，表示“刚刚到达”，动作在说话前不久刚完成，和当前的暂住状态直接关联。"
+    },
+    {
+      "title": "现在进行时表临时当下状态",
+      "text": "I'm staying不是指“正在收拾行李”这类瞬时动作，而是表达旅行期间临时居住的安排，是一段时间内持续的状态。"
+    },
+    {
+      "title": "并列连词and串联两个近况",
+      "text": "and连接两个并列的第一人称分句，分别说明“抵达地点”和“住宿安排”，逻辑顺承、语气自然。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'I",
+      "role": "直接引语起始标记与第一人称主语",
+      "explanation": "前导单引号标明直接引语的起始，I是两个并列分句共用的第一人称主语，指代写明信片的吉米本人。"
+    },
+    {
+      "text": "have just arrived in Scotland",
+      "role": "第一个并列分句的谓语与地点补语",
+      "explanation": "现在完成时结构have arrived表示动作刚完成，just是程度副词强化“刚刚”的语义，in Scotland说明抵达的大范围目的地。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个语义顺承的独立分句，把抵达苏格兰和落脚青年旅舍两层近况自然衔接起来。"
+    },
+    {
+      "text": "I'm staying",
+      "role": "第二个并列分句的主谓结构",
+      "explanation": "I'm是I am的缩约形式，am staying为现在进行时，表达当下临时居住的状态。"
+    },
+    {
+      "text": "at a Youth Hostel.",
+      "role": "第二个分句的地点补语",
+      "explanation": "at指明居住的具体点位，Youth Hostel是固定名词短语，意为青年旅舍。"
+    },
+    {
+      "text": "'",
+      "role": "直接引语结尾标记",
+      "explanation": "单引号收束整段直接引语，和句首的前导单引号配对。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'I",
+      "meaning": "我（直接引语内主语）",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "have",
+      "meaning": "（助动词，与过去分词构成现在完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "just",
+      "meaning": "刚刚",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "arrived",
+      "meaning": "到达，抵达",
+      "pos": "动词",
+      "phonetic": "/əˈraɪvd/"
+    },
+    {
+      "text": "in",
+      "meaning": "（后接大范围地点）在……之内",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "Scotland",
+      "meaning": "苏格兰",
+      "pos": "专有名词",
+      "phonetic": "/ˈskɒtlənd/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "I'm",
+      "meaning": "我是（I am的缩约形式）",
+      "pos": "代词+be动词缩约",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "staying",
+      "meaning": "暂住，停留居住",
+      "pos": "动词",
+      "phonetic": "/ˈsteɪɪŋ/"
+    },
+    {
+      "text": "at",
+      "meaning": "（后接具体地点）在……处",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一家（泛指）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "Youth",
+      "meaning": "青年（用于机构名称）",
+      "pos": "名词",
+      "phonetic": "/juːθ/"
+    },
+    {
+      "text": "Hostel.'",
+      "meaning": "旅舍（Youth Hostel合指青年旅舍）",
+      "pos": "名词",
+      "phonetic": "/ˈhɒstəl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "'I",
+      "meaning": "引号内的我（指吉米本人）",
+      "relation": "引语标记，引出吉米的第一人称自述内容"
+    },
+    {
+      "text": "have just arrived in Scotland",
+      "meaning": "刚抵达苏格兰",
+      "relation": "第一个并列分句，说明刚刚完成的动作和抵达的大范围目的地"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "relation": "顺承连接两个并列的近况分句"
+    },
+    {
+      "text": "I'm staying at a Youth Hostel.'",
+      "meaning": "当下正住在一家青年旅舍里",
+      "relation": "第二个并列分句，补充说明抵达之后的临时住宿安排，句尾单引号收束直接引语"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-101",
+  "sentenceId": "nce-1-lesson-101-sentence-002",
+  "sentenceOrder": 2,
+  "english": "'I have just arrived in Scotland and I'm staying at a Youth Hostel.'",
+  "lesson": "Lesson 101 A card from Jimmy",
+  "notes": [
+    {
+      "title": "现在完成时表刚完成的动作",
+      "text": "have arrived加just，表示“刚刚到达”，动作在说话前不久刚完成，和当前的暂住状态直接关联。"
+    },
+    {
+      "title": "现在进行时表临时当下状态",
+      "text": "I'm staying不是指“正在收拾行李”这类瞬时动作，而是表达旅行期间临时居住的安排，是一段时间内持续的状态。"
+    },
+    {
+      "title": "并列连词and串联两个近况",
+      "text": "and连接两个并列的第一人称分句，分别说明“抵达地点”和“住宿安排”，逻辑顺承、语气自然。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合语义与语法事实，仅存在局部词性分类与音标符号的小瑕疵：1. I'm是I与am的缩写，原标注“代词+动词缩写”分类不规范，应归类为代词与be动词的缩约形式；2. 'I项的音标缺少英式常用的重音符号标记，同时首分块meaning未明确引语属性；其余句子主干、时态解释、并列结构、介词搭配、青年旅舍词义、双语对比逻辑均符合上下文与语法规则。（非逐句人工审核）"
+}

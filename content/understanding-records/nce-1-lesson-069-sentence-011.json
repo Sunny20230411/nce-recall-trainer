@@ -1,0 +1,136 @@
+{
+  "chinese": "另有五辆车紧跟在他后面。",
+  "intent": "描述赛车时其余五辆车的位置，说明它们在比利的车后方紧追。",
+  "comparison": {
+    "chinese": "中文说“另有五辆车紧跟在他后面”，先点明有多少辆车、动作和位置；英文先说“五辆别的车”，再接位置说明。",
+    "english": "Five other cars were just behind him.",
+    "steps": [
+      {
+        "label": "先说数量和对象",
+        "text": "Five other cars",
+        "explanation": "Five other 表示“另外的五辆”，对应前文提到的比利的车，是除他之外的参赛车辆；五辆车整体作句子的主语。"
+      },
+      {
+        "label": "说明位置",
+        "text": "were just behind him",
+        "explanation": "were 表示当时的状态，just 修饰 behind him，强调距离很近、紧跟在后方，him 指代比利本人，他所驾驶的赛车也处于该位置。"
+      }
+    ],
+    "takeaway": "英文把数量定语放在主语最前，位置介词短语放在句末；中文常把位置放在动词后说“在……后面”。"
+  },
+  "backbone": {
+    "text": "Five other cars were just behind him.",
+    "meaning": "另有五辆车紧紧跟在他的车后面。"
+  },
+  "structureNotes": [
+    {
+      "title": "other的位置",
+      "text": "Five other cars 指除了前文那辆之外的另外五辆车，不能按字面拆成“五别的车”，other在这里是修饰cars、说明范围的词。"
+    },
+    {
+      "title": "just的作用",
+      "text": "just在这里修饰behind him，不是表示“刚刚”，而是强调两车/两车群之间距离很近，也就是“紧跟着、就在后面一点”。"
+    },
+    {
+      "title": "代词him的指代",
+      "text": "him指代前文出现的比利·斯图尔特本人，当时他正驾驶15号赛车；behind him既可以理解为他所在赛车的后方，也指他本人所处位置的后方。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Five other cars",
+      "role": "主语",
+      "explanation": "five other 共同修饰cars，指除前文提及车辆外的其余五辆赛车，是句子描述的主体。"
+    },
+    {
+      "text": "were",
+      "role": "系动词",
+      "explanation": "过去式be动词，连接主语和后面的位置表语，说明当时所处的状态。"
+    },
+    {
+      "text": "just behind him",
+      "role": "表语",
+      "explanation": "介词短语说明主语的位置，just修饰behind him，强调距离很近，him指代比利本人，其驾驶的赛车也处于该位置。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Five",
+      "meaning": "五（数词）",
+      "pos": "数词",
+      "phonetic": "/faɪv/"
+    },
+    {
+      "text": "other",
+      "meaning": "其他的，另外的",
+      "pos": "形容词",
+      "phonetic": "/ˈʌðə(r)/"
+    },
+    {
+      "text": "cars",
+      "meaning": "汽车（复数）",
+      "pos": "名词",
+      "phonetic": "/kɑːz/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（be动词过去式，搭配复数主语）",
+      "pos": "动词",
+      "phonetic": "/wɜː(r)/"
+    },
+    {
+      "text": "just",
+      "meaning": "正好，就（此处表距离极近）",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "behind",
+      "meaning": "在……后面",
+      "pos": "介词",
+      "phonetic": "/bɪˈhaɪnd/"
+    },
+    {
+      "text": "him.",
+      "meaning": "他（宾格，此处指代赛车手比利）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Five other cars",
+      "meaning": "另外五辆车",
+      "relation": "描述对象，也就是全句要说明位置的主体"
+    },
+    {
+      "text": "were just behind him.",
+      "meaning": "就紧跟在他的赛车后面",
+      "relation": "补充说明这五辆车所在的具体位置，体现和前车的近距离追赶状态。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-69",
+  "sentenceId": "nce-1-lesson-069-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Five other cars were just behind him.",
+  "lesson": "Lesson 69 The car race",
+  "notes": [
+    {
+      "title": "other的位置",
+      "text": "Five other cars 指除了前文那辆之外的另外五辆车，不能按字面拆成“五别的车”，other在这里是修饰cars、说明范围的词。"
+    },
+    {
+      "title": "just的作用",
+      "text": "just在这里修饰behind him，不是表示“刚刚”，而是强调两车/两车群之间距离很近，也就是“紧跟着、就在后面一点”。"
+    },
+    {
+      "title": "代词him的指代",
+      "text": "him指代前文出现的比利·斯图尔特本人，当时他正驾驶15号赛车；behind him既可以理解为他所在赛车的后方，也指他本人所处位置的后方。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原内容整体语义、成分划分与语境解释基本准确，仅存在一处表述偏差：原注释称‘him指代比利的赛车’，但him为指代人的宾格代词，实际指代赛车手比利，仅其所在赛车处于该位置。已修正对应表述使其符合语法规则与原文本指代逻辑。（非逐句人工审核）"
+}

@@ -1,0 +1,111 @@
+{
+  "chinese": "他们正走过桥。",
+  "intent": "描述一群人正在进行过桥的实时动作场景",
+  "comparison": null,
+  "backbone": {
+    "text": "They are walking over the bridge",
+    "meaning": "他们正在桥的上方穿行而过"
+  },
+  "parts": [
+    {
+      "text": "They",
+      "relation": "动作的执行者",
+      "meaning": "指代前文提到的琼斯先生和他的家人"
+    },
+    {
+      "text": "are walking",
+      "relation": "描述主语正在做的动作",
+      "meaning": "正在行走"
+    },
+    {
+      "text": "over the bridge.",
+      "relation": "补充说明行走的路径和范围",
+      "meaning": "从桥的一侧穿行到另一侧，经过整座桥"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "现在进行时表达",
+      "text": "are加walking组合表示当下正在进行的行走动作，不是已经完成或将要发生的动作"
+    },
+    {
+      "title": "over的方位含义",
+      "text": "这里over不表示垂直正上方，而是表示从桥的一侧穿行到另一侧的跨越路径"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They",
+      "role": "主语",
+      "explanation": "动作的发出者，指代前文提到的一家人"
+    },
+    {
+      "text": "are walking",
+      "role": "谓语",
+      "explanation": "现在进行时结构，说明正在发生的行走动作"
+    },
+    {
+      "text": "over the bridge",
+      "role": "地点状语",
+      "explanation": "说明行走的路径是整座桥的范围"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "他们",
+      "pos": "pronoun",
+      "phonetic": "/ðeɪ/",
+      "text": "They"
+    },
+    {
+      "meaning": "（协助构成进行时）",
+      "pos": "auxiliary verb",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "行走",
+      "pos": "verb",
+      "phonetic": "/ˈwɔːkɪŋ/",
+      "text": "walking"
+    },
+    {
+      "meaning": "越过，在……之上穿行",
+      "pos": "preposition",
+      "phonetic": "/ˈəʊvə(r)/",
+      "text": "over"
+    },
+    {
+      "meaning": "这个，这座",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "桥",
+      "pos": "noun",
+      "phonetic": "/brɪdʒ/",
+      "text": "bridge."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-33",
+  "sentenceId": "nce-1-lesson-033-sentence-004",
+  "sentenceOrder": 4,
+  "english": "They are walking over the bridge.",
+  "lesson": "Lesson 33 A fine day",
+  "notes": [
+    {
+      "title": "现在进行时表达",
+      "text": "are加walking组合表示当下正在进行的行走动作，不是已经完成或将要发生的动作"
+    },
+    {
+      "title": "over的方位含义",
+      "text": "这里over不表示垂直正上方，而是表示从桥的一侧穿行到另一侧的跨越路径"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，仅存在个别细节疏漏，可明确修正完善（非逐句人工审核）"
+}

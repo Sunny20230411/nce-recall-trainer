@@ -1,0 +1,80 @@
+{
+  "chinese": "我很好，谢谢。",
+  "intent": "回应对方关于自身状况的询问，告知自己状态良好并向对方表达谢意",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm fine, thanks.",
+    "meaning": "我状态很好，多谢关心"
+  },
+  "parts": [
+    {
+      "text": "I'm",
+      "relation": "指代第一人称主语+系动词，作为后续表语的依附成分",
+      "meaning": "我是"
+    },
+    {
+      "text": "fine,",
+      "relation": "作表语，补充说明主体的状态",
+      "meaning": "状态良好的"
+    },
+    {
+      "text": "thanks.",
+      "relation": "独立的礼貌补充成分，表达对对方关心的谢意",
+      "meaning": "谢谢"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "日常应答省略",
+      "text": "这是日常问候场景下的简短回应，省略了明确的语义指向，依托上下文就能清晰传递告知自身状态并致谢的完整含义，无需额外补全内容"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm fine",
+      "role": "主句",
+      "explanation": "用于陈述自身当下的良好状态，是整个句子的核心信息部分"
+    },
+    {
+      "text": "thanks.",
+      "role": "礼貌补充成分",
+      "explanation": "用于向询问自己状态的对方表达谢意，是日常问候里的礼貌配套表达"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我是",
+      "pos": "代词+系动词",
+      "phonetic": "/aɪm/",
+      "text": "I'm"
+    },
+    {
+      "meaning": "良好的",
+      "pos": "形容词",
+      "phonetic": "/faɪn/",
+      "text": "fine,"
+    },
+    {
+      "meaning": "谢谢",
+      "pos": "感叹词",
+      "phonetic": "/θæŋks/",
+      "text": "thanks."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-9",
+  "sentenceId": "nce-1-lesson-009-sentence-005",
+  "sentenceOrder": 5,
+  "english": "I'm fine, thanks.",
+  "lesson": "Lesson 9 How are you today?",
+  "notes": [
+    {
+      "title": "日常应答省略",
+      "text": "这是日常问候场景下的简短回应，省略了明确的语义指向，依托上下文就能清晰传递告知自身状态并致谢的完整含义，无需额外补全内容"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本准确合规，仅存在局部细节表述可优化完善，不影响核心语义理解（非逐句人工审核）"
+}

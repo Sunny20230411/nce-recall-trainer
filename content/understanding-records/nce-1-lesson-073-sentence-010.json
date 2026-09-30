@@ -1,0 +1,115 @@
+{
+  "chinese": "他慢慢地读了那句话。",
+  "intent": "描述人物过去做的动作，并说明动作进行的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "He read the phrase slowly.",
+    "meaning": "他慢慢地读了那句话。"
+  },
+  "structureNotes": [
+    {
+      "title": "动词 read 的过去式发音",
+      "text": "read 的原形与过去式同形，本句因是过去时，读为 /red/。"
+    },
+    {
+      "title": "方式副词位置",
+      "text": "slowly 放在宾语之后，说明 read 这个动作进行得缓慢，不直接修饰名词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "句子描述的动作发出者。"
+    },
+    {
+      "text": "read",
+      "role": "谓语动词",
+      "explanation": "本句中为过去式，表示已完成的阅读动作。"
+    },
+    {
+      "text": "the phrase",
+      "role": "宾语",
+      "explanation": "阅读这个动作的具体对象。"
+    },
+    {
+      "text": "slowly",
+      "role": "方式状语",
+      "explanation": "补充说明阅读动作进行的方式。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "read",
+      "meaning": "读（过去式，本句中读为/red/）",
+      "pos": "动词",
+      "phonetic": "/red/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，无实义，用于特指已知事物",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "phrase",
+      "meaning": "短语；语句",
+      "pos": "名词",
+      "phonetic": "/freɪz/"
+    },
+    {
+      "text": "slowly.",
+      "meaning": "慢慢地",
+      "pos": "副词",
+      "phonetic": "/ˈsləʊli/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "动作发出者",
+      "meaning": "他"
+    },
+    {
+      "text": "read",
+      "relation": "描述主语发出的动作",
+      "meaning": "读（过去式）"
+    },
+    {
+      "text": "the phrase",
+      "relation": "动作的对象",
+      "meaning": "那句话"
+    },
+    {
+      "text": "slowly.",
+      "relation": "补充动作进行的状态",
+      "meaning": "慢慢地。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-73",
+  "sentenceId": "nce-1-lesson-073-sentence-010",
+  "sentenceOrder": 10,
+  "english": "He read the phrase slowly.",
+  "lesson": "Lesson 73 The way to King Street",
+  "notes": [
+    {
+      "title": "动词 read 的过去式发音",
+      "text": "read 的原形与过去式同形，本句因是过去时，读为 /red/。"
+    },
+    {
+      "title": "方式副词位置",
+      "text": "slowly 放在宾语之后，说明 read 这个动作进行得缓慢，不直接修饰名词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干成分、过去式 read 的发音说明、slowly 的方式状语功能及中文译文均与原句和上下文一致；仅需修正音标末尾多余标点。（非逐句人工审核）"
+}

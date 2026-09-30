@@ -1,0 +1,83 @@
+{
+  "chinese": "是的，很紧急。我难受极了。我牙疼得厉害。",
+  "intent": "患者向医生强调自己的就诊需求非常紧急，需要尽快处理牙疼症状。",
+  "comparison": null,
+  "backbone": {
+    "text": "情况非常紧急",
+    "meaning": "当前的状况十分急迫，需要立即获得处理。"
+  },
+  "structureNotes": [
+    {
+      "title": "人称代词it的指代",
+      "text": "本句中的It承接上文语境，指代自己当下需要就诊看牙的状况，是有具体指代意义的人称代词，并非没有实际语义的形式主语。无需直译成“它”，按中文的表达习惯可灵活译为“这事儿”或是省略主语直接说明状况紧急。"
+    },
+    {
+      "title": "副词very的修饰逻辑",
+      "text": "本句中副词very放在形容词urgent之前，用来加强紧急的程度，对应中文里“非常、十分”的语义，这里遵循程度副词通常前置修饰形容词的常规用法。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "主语加be动词",
+      "explanation": "It是指代当前就诊紧急状况的人称代词，不是无实义的形式主语，'s是is的缩写，作为系动词引出后续的表语说明主语的状态。"
+    },
+    {
+      "text": "very urgent.",
+      "role": "表语",
+      "explanation": "形容词短语very urgent作表语，描述主语it所指代的状况的紧急程度。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "它（指代当下就诊的紧急状况）；是（is的缩写）",
+      "pos": "代词+动词缩写形式",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常，十分",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "urgent.",
+      "meaning": "紧急的，急迫的",
+      "pos": "形容词",
+      "phonetic": "/ˈɜːdʒənt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's",
+      "meaning": "它（指代当下就诊的紧急状况）；是（is的缩写）",
+      "relation": "句子的主干部分，引出对当前就诊紧急状况的判断"
+    },
+    {
+      "text": "very urgent.",
+      "meaning": "非常紧急。",
+      "relation": "补充说明当前状况的紧急程度，说明就诊需求十分急迫。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-77",
+  "sentenceId": "nce-1-lesson-077-sentence-007",
+  "sentenceOrder": 7,
+  "english": "It's very urgent.",
+  "lesson": "Lesson 77 Terrible toothache",
+  "notes": [
+    {
+      "title": "人称代词it的指代",
+      "text": "本句中的It承接上文语境，指代自己当下需要就诊看牙的状况，是有具体指代意义的人称代词，并非没有实际语义的形式主语。无需直译成“它”，按中文的表达习惯可灵活译为“这事儿”或是省略主语直接说明状况紧急。"
+    },
+    {
+      "title": "副词very的修饰逻辑",
+      "text": "本句中副词very放在形容词urgent之前，用来加强紧急的程度，对应中文里“非常、十分”的语义，这里遵循程度副词通常前置修饰形容词的常规用法。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析存在3处可明确修正的问题：1. 单词条目urgent.的音标末尾多了句号，与其他单词音标格式不统一；2. 结构说明中对It的性质标注为形式主语，但该句的It是承接上文指代就诊需求的人称代词，并非指代不定式等真正主语的形式主语，属于语法标注错误；3. 结构Note中对副词very的使用绝对化，very作为程度副词虽然通常放在被修饰的形容词前，但并非完全不能用于其他修饰场景，该句中very确实修饰urgent，但表述不应过于绝对，同时需要明确指出这里的It不是形式主语而是指代上下文的人称代词。其余内容与原文、翻译、语境匹配，无需改动。（非逐句人工审核）"
+}

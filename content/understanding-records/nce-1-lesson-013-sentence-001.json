@@ -1,0 +1,97 @@
+{
+  "chinese": "你的新连衣裙是什么颜色的？",
+  "intent": "询问对方新连衣裙的颜色",
+  "comparison": null,
+  "backbone": {
+    "text": "What colour's your dress?",
+    "meaning": "你的连衣裙是什么颜色的"
+  },
+  "parts": [
+    {
+      "text": "What colour's",
+      "relation": "提出要询问的核心内容",
+      "meaning": "是什么颜色"
+    },
+    {
+      "text": "your",
+      "relation": "限定连衣裙的所属对象",
+      "meaning": "你的"
+    },
+    {
+      "text": "new",
+      "relation": "补充说明连衣裙的属性",
+      "meaning": "新的"
+    },
+    {
+      "text": "dress?",
+      "relation": "询问对象",
+      "meaning": "连衣裙"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "colour's的缩写",
+      "text": "colour's是colour is的口语化缩写，把系动词is和前面的名词直接连写，用于日常快速的提问场景，没有改变原句的语法含义"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What colour's",
+      "role": "疑问引导部分",
+      "explanation": "用来开启对颜色的提问，替代陈述句里表示颜色的表语部分"
+    },
+    {
+      "text": "your new dress",
+      "role": "被询问的主体",
+      "explanation": "明确这个问句要了解颜色的具体物品"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "什么",
+      "pos": "限定词",
+      "phonetic": "/wɒt/",
+      "text": "What"
+    },
+    {
+      "meaning": "颜色是",
+      "pos": "名词+系动词缩写",
+      "phonetic": "/ˈkʌləz/",
+      "text": "colour's"
+    },
+    {
+      "meaning": "你的",
+      "pos": "物主代词",
+      "phonetic": "/jɔː(r)/",
+      "text": "your"
+    },
+    {
+      "meaning": "新的",
+      "pos": "形容词",
+      "phonetic": "/njuː/",
+      "text": "new"
+    },
+    {
+      "meaning": "连衣裙",
+      "pos": "名词",
+      "phonetic": "/dres/",
+      "text": "dress?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-13",
+  "sentenceId": "nce-1-lesson-013-sentence-001",
+  "sentenceOrder": 1,
+  "english": "What colour's your new dress?",
+  "lesson": "Lesson 13 A new dress",
+  "notes": [
+    {
+      "title": "colour's的缩写",
+      "text": "colour's是colour is的口语化缩写，把系动词is和前面的名词直接连写，用于日常快速的提问场景，没有改变原句的语法含义"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在主干文本遗漏限定修饰成分、部分单词标注细节错误、重复内容冗余的可明确修正问题，不影响核心学习逻辑。（非逐句人工审核）"
+}

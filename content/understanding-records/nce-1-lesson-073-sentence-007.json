@@ -1,0 +1,91 @@
+{
+  "chinese": "他是个游客。",
+  "intent": "用英语be动词的过去式说明过去某人的身份。",
+  "comparison": null,
+  "backbone": {
+    "text": "He was a tourist.",
+    "meaning": "他曾是游客。"
+  },
+  "structureNotes": [
+    {
+      "title": "be动词过去式，连接主语与身份",
+      "text": "was是be动词am/is的过去式，表示过去的状态或身份；a tourist是名词短语作表语，用来说明主语He当时的身份。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文出现的男子。"
+    },
+    {
+      "text": "was",
+      "role": "谓语系动词",
+      "explanation": "be动词的过去式，连接主语与后面的表语。"
+    },
+    {
+      "text": "a tourist.",
+      "role": "表语",
+      "explanation": "名词短语作表语，说明主语过去的身份是游客。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be动词am/is的过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "tourist.",
+      "meaning": "游客；观光者",
+      "pos": "名词",
+      "phonetic": "/ˈtʊərɪst/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "relation": "句子要描述的主体"
+    },
+    {
+      "text": "was",
+      "meaning": "是（过去式）",
+      "relation": "连接主语和身份的判断"
+    },
+    {
+      "text": "a tourist.",
+      "meaning": "一个游客",
+      "relation": "补充说明主语当时的身份"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-73",
+  "sentenceId": "nce-1-lesson-073-sentence-007",
+  "sentenceOrder": 7,
+  "english": "He was a tourist.",
+  "lesson": "Lesson 73 The way to King Street",
+  "notes": [
+    {
+      "title": "be动词过去式，连接主语与身份",
+      "text": "was是be动词am/is的过去式，表示过去的状态或身份；a tourist是名词短语作表语，用来说明主语He当时的身份。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原内容整体符合要求：英文例句、中文翻译、指代关系、语法成分划分、be动词过去式用法说明、英式音标均准确，无核心事实或语法错误，仅存在标点一致性的小瑕疵，修正后可通过。（非逐句人工审核）"
+}

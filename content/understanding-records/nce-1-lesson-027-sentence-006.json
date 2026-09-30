@@ -1,0 +1,117 @@
+{
+  "chinese": "桌子上有几份报纸。",
+  "intent": "说明房间里桌上放置着几份报纸的客观事实，补充前文提到的桌子的相关物品信息。",
+  "comparison": null,
+  "backbone": {
+    "text": "There are some newspapers on the table.",
+    "meaning": "桌上存在几份报纸"
+  },
+  "parts": [
+    {
+      "text": "There are",
+      "relation": "引出存现说明",
+      "meaning": "存在（无实际指代含义的存现结构开头）"
+    },
+    {
+      "text": "some newspapers",
+      "relation": "说明存在的主体是什么",
+      "meaning": "几份报纸"
+    },
+    {
+      "text": "on the table.",
+      "relation": "补充说明报纸所在的位置",
+      "meaning": "在桌子上"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "There be存现结构",
+      "text": "这里的There没有实际地点含义，和are搭配用来引出存在的事物，不用翻译为“那里”，避免把句子误译成“那里是几份报纸”。"
+    },
+    {
+      "title": "介词on的作用",
+      "text": "on the table用来明确报纸的位置，直接修饰前面的主体some newspapers，说明报纸所处的具体方位。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There are",
+      "role": "存现引导结构",
+      "explanation": "用来开启对“某处存在某物”这类事实的说明，不表示“那里是”的字面含义。"
+    },
+    {
+      "text": "some newspapers",
+      "role": "存在主体",
+      "explanation": "是本句存现结构描述的核心事物，也就是实际存在的对象。"
+    },
+    {
+      "text": "on the table",
+      "role": "地点状语",
+      "explanation": "用来交代主体事物所处的具体位置，补充完整存现的地点信息。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "存现引导词，无实际指代义",
+      "pos": "pron",
+      "phonetic": "/ðeə(r)/",
+      "text": "There"
+    },
+    {
+      "meaning": "（存现结构中）表示存在",
+      "pos": "v",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "几份、一些",
+      "pos": "det",
+      "phonetic": "/sʌm/",
+      "text": "some"
+    },
+    {
+      "meaning": "报纸（复数）",
+      "pos": "n",
+      "phonetic": "/ˈnjuːzpeɪpəz/",
+      "text": "newspapers"
+    },
+    {
+      "meaning": "在……上面",
+      "pos": "prep",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "这个、那个（定冠词）",
+      "pos": "art",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "桌子",
+      "pos": "n",
+      "phonetic": "/ˈteɪbl/",
+      "text": "table."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-27",
+  "sentenceId": "nce-1-lesson-027-sentence-006",
+  "sentenceOrder": 6,
+  "english": "There are some newspapers on the table.",
+  "lesson": "Lesson 27 Mrs. Smith's living room",
+  "notes": [
+    {
+      "title": "There be存现结构",
+      "text": "这里的There没有实际地点含义，和are搭配用来引出存在的事物，不用翻译为“那里”，避免把句子误译成“那里是几份报纸”。"
+    },
+    {
+      "title": "介词on的作用",
+      "text": "on the table用来明确报纸的位置，直接修饰前面的主体some newspapers，说明报纸所处的具体方位。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本符合教学要求，存在局部细节偏差可修正，未出现核心语法错误与事实性错误（非逐句人工审核）"
+}

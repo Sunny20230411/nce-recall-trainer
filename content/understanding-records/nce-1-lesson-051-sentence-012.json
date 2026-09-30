@@ -1,0 +1,161 @@
+{
+  "chinese": "十二月、一月和二月常常很冷。有时会下雪。",
+  "intent": "描述冬季代表月份的寒冷气候，说明气温状态和降水情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's often cold... It snows sometimes.",
+    "meaning": "天气常常很冷，有时会下雪。"
+  },
+  "structureNotes": [
+    {
+      "title": "天气表达的形式主语 It",
+      "text": "两个句子的 It 都不是指代某个具体事物，而是用来引出天气状况的形式主语，没有实际的“它”的含义，对应中文里直接描述天气即可，不需要额外译出主语。"
+    },
+    {
+      "title": "并列月份的列举语序",
+      "text": "英语按 December、January、February 的先后顺序排列，用 and 连接最后一个月份；中文语序和列举习惯与英文基本一致，直接顺着翻译为“十二月、一月和二月”即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "形式主语+系动词",
+      "explanation": "It 作为形式主语引出天气描述，is 是系动词，缩写为 's。"
+    },
+    {
+      "text": "often",
+      "role": "频度状语",
+      "explanation": "表示“常常”，说明冷的频繁程度，放在系动词之后、表语之前。"
+    },
+    {
+      "text": "cold",
+      "role": "表语",
+      "explanation": "形容词作表语，描述天气的寒冷状态。"
+    },
+    {
+      "text": "in December, January and February.",
+      "role": "时间状语",
+      "explanation": "介词 in 加三个并列的月份名词，说明寒冷天气出现的时间范围。"
+    },
+    {
+      "text": "It",
+      "role": "形式主语",
+      "explanation": "同样用于引出天气现象，没有实际指代意义。"
+    },
+    {
+      "text": "snows",
+      "role": "谓语",
+      "explanation": "动词 snow 的第三人称单数形式，表示“下雪”这一天气动作。"
+    },
+    {
+      "text": "sometimes.",
+      "role": "频度状语",
+      "explanation": "表示“有时”，说明下雪的频率不高，放在句末。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "（it is 的缩写形式），用于描述天气",
+      "pos": "代词+动词缩写",
+      "phonetic": "ɪts"
+    },
+    {
+      "text": "often",
+      "meaning": "常常",
+      "pos": "副词",
+      "phonetic": "ˈɒfn"
+    },
+    {
+      "text": "cold",
+      "meaning": "寒冷的",
+      "pos": "形容词",
+      "phonetic": "kəʊld"
+    },
+    {
+      "text": "in",
+      "meaning": "在（某个月份）",
+      "pos": "介词",
+      "phonetic": "ɪn"
+    },
+    {
+      "text": "December,",
+      "meaning": "十二月",
+      "pos": "名词",
+      "phonetic": "dɪˈsembə"
+    },
+    {
+      "text": "January",
+      "meaning": "一月",
+      "pos": "名词",
+      "phonetic": "ˈdʒænjuəri"
+    },
+    {
+      "text": "and",
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "ænd"
+    },
+    {
+      "text": "February.",
+      "meaning": "二月",
+      "pos": "名词",
+      "phonetic": "ˈfebruəri"
+    },
+    {
+      "text": "It",
+      "meaning": "（用于指代天气，无实义）",
+      "pos": "代词",
+      "phonetic": "ɪt"
+    },
+    {
+      "text": "snows",
+      "meaning": "下雪",
+      "pos": "动词",
+      "phonetic": "snəʊz"
+    },
+    {
+      "text": "sometimes.",
+      "meaning": "有时",
+      "pos": "副词",
+      "phonetic": "ˈsʌmtaɪmz"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's often cold",
+      "relation": "主句主干，描述天气的基本温度状态",
+      "meaning": "（天气）常常很冷"
+    },
+    {
+      "text": "in December, January and February.",
+      "relation": "补充说明寒冷天气出现的具体时间范围",
+      "meaning": "在十二月、一月和二月"
+    },
+    {
+      "text": "It snows sometimes.",
+      "relation": "承接上一句的气候描述，补充说明这一时期的降水天气特征",
+      "meaning": "有时会下雪"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-51",
+  "sentenceId": "nce-1-lesson-051-sentence-012",
+  "sentenceOrder": 12,
+  "english": "It's often cold in December, January and February. It snows sometimes.",
+  "lesson": "Lesson 51 A pleasant climate",
+  "notes": [
+    {
+      "title": "天气表达的形式主语 It",
+      "text": "两个句子的 It 都不是指代某个具体事物，而是用来引出天气状况的形式主语，没有实际的“它”的含义，对应中文里直接描述天气即可，不需要额外译出主语。"
+    },
+    {
+      "title": "并列月份的列举语序",
+      "text": "英语按 December、January、February 的先后顺序排列，用 and 连接最后一个月份；中文语序和列举习惯与英文基本一致，直接顺着翻译为“十二月、一月和二月”即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构、词义、主干与时间状语划分基本清楚，翻译也通顺。仅词汇表中带尾标点的词目需要拆分：December 的音标应去掉逗号，January 与 and 之间应补充 February 的独立词目，February 的音标应去掉句号；语法解释无需实质修改。（非逐句人工审核）"
+}

@@ -1,0 +1,120 @@
+{
+  "chinese": "谁来照看狗？",
+  "intent": "这是一个特殊疑问句，用于询问将要负责照看狗的人选，承接前文提到的主人要去度假的语境。",
+  "comparison": null,
+  "backbone": {
+    "text": "Who's going to look after the dog?",
+    "meaning": "谁会负责照看这只狗？"
+  },
+  "structureNotes": [
+    {
+      "title": "Who's的缩写",
+      "text": "Who's 是 Who is 的缩写，这里的 who 同时承担疑问词和问句主语的角色，因此不需要额外添加助动词倒装。"
+    },
+    {
+      "title": "be going to的用法",
+      "text": "be going to 表示按计划、安排将要发生的动作，这里指将来会安排某人负责照看狗的任务。"
+    },
+    {
+      "title": "look after的固定搭配",
+      "text": "look after 是固定的短语动词，含义是“照顾、照看”，不能拆分开来单独翻译。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Who's",
+      "role": "疑问主语与谓语助动词",
+      "explanation": "Who's 是 Who is 的缩写，who 作本句主语，is 是 be going to 结构里的助动词，和 going to 搭配表示将来。"
+    },
+    {
+      "text": "going to look after the dog",
+      "role": "谓语部分",
+      "explanation": "和 is 一起构成 be going to do 的将来时结构，look after 是固定短语，表示“照看”，the dog 是 look after 的宾语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Who's",
+      "meaning": "谁（who is的缩写形式）",
+      "pos": "代词+动词缩写",
+      "phonetic": "/huːz/"
+    },
+    {
+      "text": "going",
+      "meaning": "（与be动词连用构成将来时）即将、将要",
+      "pos": "动词（现在分词）",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（与动词原形连用构成不定式）",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "look",
+      "meaning": "照料，照看",
+      "pos": "短语动词",
+      "phonetic": "/lʊk ˈɑːftə/"
+    },
+    {
+      "text": "after",
+      "meaning": "这、那（定冠词，特指上下文提到的狗）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "the",
+      "meaning": "狗",
+      "pos": "名词",
+      "phonetic": "/dɒɡ/"
+    },
+    {
+      "text": "dog?",
+      "meaning": "那只狗？（特指家里的宠物狗）",
+      "pos": "名词短语",
+      "phonetic": "/ðə dɒɡ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Who's",
+      "relation": "问句的主语，同时是疑问起点。",
+      "meaning": "谁是（who is的缩写，此处指代询问的责任主体）"
+    },
+    {
+      "text": "going to look after",
+      "relation": "描述主语将要执行的动作，由be going to do结构加短语动词look after构成。",
+      "meaning": "将要负责照看"
+    },
+    {
+      "text": "the dog?",
+      "relation": "动作look after的对象，特指上下文提到的自家的狗。",
+      "meaning": "这只狗？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-83",
+  "sentenceId": "nce-1-lesson-083-sentence-018",
+  "sentenceOrder": 18,
+  "english": "Who's going to look after the dog?",
+  "lesson": "Lesson 83 Going on holiday",
+  "notes": [
+    {
+      "title": "Who's的缩写",
+      "text": "Who's 是 Who is 的缩写，这里的 who 同时承担疑问词和问句主语的角色，因此不需要额外添加助动词倒装。"
+    },
+    {
+      "title": "be going to的用法",
+      "text": "be going to 表示按计划、安排将要发生的动作，这里指将来会安排某人负责照看狗的任务。"
+    },
+    {
+      "title": "look after的固定搭配",
+      "text": "look after 是固定的短语动词，含义是“照顾、照看”，不能拆分开来单独翻译。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干语义、翻译和整体结构基本正确，但词表将短语动词 look after 中的 look、after 拆成了独立词汇，释义分别错为“看”“在……之后”，与短语搭配的实际含义不符，需要更正。（非逐句人工审核）"
+}

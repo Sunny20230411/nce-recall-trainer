@@ -1,0 +1,149 @@
+{
+  "chinese": "梳妆台上有肥皂吗？",
+  "intent": "确认梳妆台上是否存在肥皂。",
+  "comparison": {
+    "chinese": "中文常先说位置，再说有无：“梳妆台上有肥皂吗？”",
+    "english": "Is there any soap on the dressing table?",
+    "steps": [
+      {
+        "label": "先选疑问框架",
+        "text": "Is there any soap…?",
+        "explanation": "把 Is 提到 there 前，就把存在句变成一般疑问。"
+      },
+      {
+        "label": "再接地点",
+        "text": "…on the dressing table",
+        "explanation": "位置用介词短语放在句尾，不单独成句。"
+      },
+      {
+        "label": "any 的作用",
+        "text": "any soap",
+        "explanation": "疑问句中用 any，表示“是否有一些”，不是强调数量很多。"
+      }
+    ],
+    "takeaway": "一般存在疑问先由 Is there…? 提问，地点再用 on the dressing table 补充。"
+  },
+  "backbone": {
+    "text": "Is there any soap?",
+    "meaning": "询问是否有肥皂存在。"
+  },
+  "structureNotes": [
+    {
+      "title": "there be 的疑问语序",
+      "text": "原句把 Is 放在 there 之前，构成一般疑问句；回答时可直接用 Yes 或 No 回应。"
+    },
+    {
+      "title": "地点介词短语",
+      "text": "on the dressing table 说明肥皂所在位置，介词 on 表示“在……表面上”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is",
+      "role": "be动词",
+      "explanation": "与 there 构成 there be 结构的疑问形式，表示“存在”。"
+    },
+    {
+      "text": "there",
+      "role": "引导词",
+      "explanation": "there be 句型中的引导词，本身没有实义，帮助表达“存在有”。"
+    },
+    {
+      "text": "any soap",
+      "role": "真正主语",
+      "explanation": "在 there be 句型中，any soap 是实际表示存在事物的主体，soap 为不可数名词，因此搭配 is。"
+    },
+    {
+      "text": "on the dressing table",
+      "role": "地点状语",
+      "explanation": "用介词 on 引出 soap 所在的具体位置，dressing table 为固定搭配，意为“梳妆台”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Is",
+      "meaning": "是（用于there be疑问句式）",
+      "pos": "be动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "there",
+      "meaning": "（与be连用表示存在）",
+      "pos": "副词",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "any",
+      "meaning": "一些（用于疑问句中）",
+      "pos": "限定词",
+      "phonetic": "/ˈeni/"
+    },
+    {
+      "text": "soap",
+      "meaning": "肥皂（不可数）",
+      "pos": "名词",
+      "phonetic": "/səʊp/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……之上",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，此处不单独译出）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "dressing",
+      "meaning": "（构成固定搭配 dressing table，表示梳妆台）",
+      "pos": "名词",
+      "phonetic": "/ˈdresɪŋ/"
+    },
+    {
+      "text": "table?",
+      "meaning": "桌子（dressing table 为固定短语，意为梳妆台）",
+      "pos": "名词",
+      "phonetic": "/ˈteɪbl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Is there",
+      "relation": "疑问存在框架",
+      "meaning": "是否存在"
+    },
+    {
+      "text": "any soap",
+      "relation": "存在询问对象",
+      "meaning": "一些肥皂"
+    },
+    {
+      "text": "on the dressing table?",
+      "relation": "补充位置",
+      "meaning": "在梳妆台上？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-59",
+  "sentenceId": "nce-1-lesson-059-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Is there any soap on the dressing table?",
+  "lesson": "Lesson 59 Is that all?",
+  "notes": [
+    {
+      "title": "there be 的疑问语序",
+      "text": "原句把 Is 放在 there 之前，构成一般疑问句；回答时可直接用 Yes 或 No 回应。"
+    },
+    {
+      "title": "地点介词短语",
+      "text": "on the dressing table 说明肥皂所在位置，介词 on 表示“在……表面上”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体分析准确，存在疑问框架、真正主语、地点状语的划分与词义解释均符合原句语境，仅有三处可明确修正：1. 词表中 dressing 的释义混淆了“dressing table”整体固定搭配的含义，误将 dressing 拆解为“梳妆台（名词作定语）”，且未说明 dressing table 是固定短语；2. table? 的音标误将句末问号纳入单词音标，格式错误；3. 语法结构块 on the dressing table? 的文本包含句末问号，在语法分析语境下应去除标点，对应分块部分保留原文标点不变。（非逐句人工审核）"
+}

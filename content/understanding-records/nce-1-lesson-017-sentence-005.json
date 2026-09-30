@@ -1,0 +1,134 @@
+{
+  "chinese": "那些女士工作很努力。她们是做什么工作的？",
+  "intent": "先说明在场的多位女士工作十分勤勉，紧接着向对话对象询问这些女士的具体职业是什么。",
+  "comparison": null,
+  "backbone": {
+    "text": "Those women are very hard-working. What are their jobs?",
+    "meaning": "核心信息是：那些女性工作非常勤勉，询问她们的具体职业是什么"
+  },
+  "parts": [
+    {
+      "text": "Those women",
+      "relation": "描述整个陈述句的主体对象",
+      "meaning": "那些女士"
+    },
+    {
+      "text": "are very hard-working.",
+      "relation": "系表结构，补充说明这些女士的工作状态特质",
+      "meaning": "工作非常努力"
+    },
+    {
+      "text": "What",
+      "relation": "点明需要询问的核心内容，作为疑问代词作特殊疑问句的表语",
+      "meaning": "什么"
+    },
+    {
+      "text": "are their jobs?",
+      "relation": "将be动词前置、置于主语their jobs之前，和句首疑问词共同构成完整的特殊疑问句式",
+      "meaning": "是她们的工作？"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "短句衔接逻辑",
+      "text": "前一句先对特定群体的工作态度给出评价，后一句紧接着针对该群体的职业发起提问，两句的指代对象完全一致。"
+    },
+    {
+      "title": "特殊疑问词的位置",
+      "text": "第二句用疑问词What放在句首，随后将be动词are提前到主语their jobs之前，构成针对职业信息的标准特殊问句语序。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Those women",
+      "role": "陈述句主语",
+      "explanation": "明确指代前文语境中提到的多位女性，是后半句提问的指向主体。"
+    },
+    {
+      "text": "are very hard-working",
+      "role": "陈述句谓语部分",
+      "explanation": "用来描述主语的工作特质，very作为程度副词进一步强化努力的程度。"
+    },
+    {
+      "text": "What are their jobs",
+      "role": "特殊疑问句",
+      "explanation": "用于询问主语对应的职业信息，疑问词What直接针对“工作的具体内容”发起询问。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "那些",
+      "pos": "限定词",
+      "phonetic": "/ðəʊz/",
+      "text": "Those"
+    },
+    {
+      "meaning": "女士们，女性",
+      "pos": "名词",
+      "phonetic": "/ˈwɪmɪn/",
+      "text": "women"
+    },
+    {
+      "meaning": "是",
+      "pos": "be动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/",
+      "text": "very"
+    },
+    {
+      "meaning": "勤勉的、努力工作的",
+      "pos": "形容词",
+      "phonetic": "/ˌhɑːd ˈwɜːkɪŋ/",
+      "text": "hard-working."
+    },
+    {
+      "meaning": "什么",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/",
+      "text": "What"
+    },
+    {
+      "meaning": "是",
+      "pos": "be动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "她们的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/ðeə(r)/",
+      "text": "their"
+    },
+    {
+      "meaning": "工作，职业",
+      "pos": "名词",
+      "phonetic": "/dʒɒbz/",
+      "text": "jobs?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-17",
+  "sentenceId": "nce-1-lesson-017-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Those women are very hard-working. What are their jobs?",
+  "lesson": "Lesson 17 How do you do?",
+  "notes": [
+    {
+      "title": "短句衔接逻辑",
+      "text": "前一句先对特定群体的工作态度给出评价，后一句紧接着针对该群体的职业发起提问，两句的指代对象完全一致。"
+    },
+    {
+      "title": "特殊疑问词的位置",
+      "text": "第二句用疑问词What放在句首，随后将be动词are提前到主语their jobs之前，构成针对职业信息的标准特殊问句语序。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体合规，仅存在部分细节标注疏漏，可明确修正后符合要求（非逐句人工审核）"
+}

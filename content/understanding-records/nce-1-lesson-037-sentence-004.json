@@ -1,0 +1,121 @@
+{
+  "chinese": "我打算把它刷成粉红色。",
+  "intent": "说明自己计划把某个物件涂刷成粉红色的具体安排。",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm going to paint it pink.",
+    "meaning": "我打算把它刷成粉红色。"
+  },
+  "parts": [
+    {
+      "text": "I'm",
+      "relation": "动作的发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "going to paint",
+      "relation": "说明要执行的核心动作以及动作的计划属性",
+      "meaning": "打算去刷"
+    },
+    {
+      "text": "it",
+      "relation": "涂刷这个动作的作用对象",
+      "meaning": "它（指代前文提到的物件）"
+    },
+    {
+      "text": "pink.",
+      "relation": "补充说明把物件涂刷成什么最终状态",
+      "meaning": "粉红色"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "be going to 的含义",
+      "text": "这里用来表示说话人已经做好计划、即将去做的动作，不是描述正在前往的动作，传递明确的打算意味。"
+    },
+    {
+      "title": "paint 后的双补充",
+      "text": "paint后面先接动作对象it，再接说明最终颜色的pink，直接点明涂刷完成后对象呈现的状态，不需要额外添加介词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm",
+      "role": "主语+系动词缩略形式",
+      "explanation": "指代说话人本人，同时搭配后续的结构构成计划表达的开头部分。"
+    },
+    {
+      "text": "going to paint",
+      "role": "带计划含义的谓语部分",
+      "explanation": "用be going to加实义动词原形，表达预先计划好要执行的涂刷动作。"
+    },
+    {
+      "text": "it",
+      "role": "动作宾语",
+      "explanation": "指代对话里之前提到的被涂刷的物件，避免重复名词。"
+    },
+    {
+      "text": "pink",
+      "role": "宾语补足语",
+      "explanation": "补充说明动作完成后宾语所处的颜色状态，让表达更完整明确。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我是（此处为I am的缩略，在本句中作主语I搭配系动词am的组合，共同构成be going to结构的主语+助动词部分）",
+      "pos": "代词+系动词缩略形式",
+      "phonetic": "/aɪm/",
+      "text": "I'm"
+    },
+    {
+      "meaning": "将要、打算（和后续词搭配构成计划表达）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/",
+      "text": "going"
+    },
+    {
+      "meaning": "无实义，引出后续的动词原形",
+      "pos": "不定式标记",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "刷漆、涂刷",
+      "pos": "动词原形",
+      "phonetic": "/peɪnt/",
+      "text": "paint"
+    },
+    {
+      "meaning": "它（指代前文提及的待涂刷物件）",
+      "pos": "代词",
+      "phonetic": "/ɪt/",
+      "text": "it"
+    },
+    {
+      "meaning": "粉红色",
+      "pos": "形容词/名词",
+      "phonetic": "/pɪŋk/",
+      "text": "pink."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-37",
+  "sentenceId": "nce-1-lesson-037-sentence-004",
+  "sentenceOrder": 4,
+  "english": "I'm going to paint it pink.",
+  "lesson": "Lesson 37 Making a bookcase",
+  "notes": [
+    {
+      "title": "be going to 的含义",
+      "text": "这里用来表示说话人已经做好计划、即将去做的动作，不是描述正在前往的动作，传递明确的打算意味。"
+    },
+    {
+      "title": "paint 后的双补充",
+      "text": "paint后面先接动作对象it，再接说明最终颜色的pink，直接点明涂刷完成后对象呈现的状态，不需要额外添加介词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合面向中文母语成年人的英语学习要求，仅存在局部细节疏漏需要修正补充，不影响核心语义理解（非逐句人工审核）"
+}

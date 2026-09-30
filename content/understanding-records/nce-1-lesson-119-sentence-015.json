@@ -1,0 +1,140 @@
+{
+  "chinese": "‘没什么，亨利，’乔治笑着说。‘回去睡吧。’",
+  "intent": "乔治向被惊醒的亨利说明没有异常，并劝他继续睡觉。",
+  "comparison": null,
+  "backbone": {
+    "text": "George said, 'Nothing, Henry.' and smiled, then told him to go back to sleep.",
+    "meaning": "George replied to Henry that there was nothing of concern, smiled, and told him to return to sleep."
+  },
+  "structureNotes": [
+    {
+      "title": "引述分句放在直接引语后",
+      "text": "直接引语 'Nothing, Henry,' 在前，George said and smiled 在后；said 是引述动词，and smiled 是伴随动作。"
+    },
+    {
+      "title": "sleep 在 go back to 后作名词",
+      "text": "Go back to sleep 中 sleep 表示睡眠状态，不是动词；to 是介词，表示回到睡觉这件事。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'Nothing, Henry,'",
+      "role": "直接引语",
+      "explanation": "George 回答 Henry 的问句，表示没有什么事。"
+    },
+    {
+      "text": "George",
+      "role": "主语",
+      "explanation": "引述分句的主语，指说话人 George。"
+    },
+    {
+      "text": "said and smiled.",
+      "role": "引述谓语与伴随动作",
+      "explanation": "said 引出直接引语，and smiled 表示 George 说话时同时微笑。"
+    },
+    {
+      "text": "'Go back to sleep.'",
+      "role": "第二句直接引语/祈使句",
+      "explanation": "George 对 Henry 发出的指令，让他回去继续睡觉。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "没有什么",
+      "pos": "代词",
+      "phonetic": "'nʌθɪŋ",
+      "text": "'Nothing,"
+    },
+    {
+      "meaning": "亨利（男子名）",
+      "pos": "专有名词",
+      "phonetic": "'henri",
+      "text": "Henry,'"
+    },
+    {
+      "meaning": "乔治（男子名）",
+      "pos": "专有名词",
+      "phonetic": "dʒɔːdʒ",
+      "text": "George"
+    },
+    {
+      "meaning": "说",
+      "pos": "动词过去式",
+      "phonetic": "sed",
+      "text": "said"
+    },
+    {
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "ənd",
+      "text": "and"
+    },
+    {
+      "meaning": "微笑",
+      "pos": "动词过去式",
+      "phonetic": "smaɪld",
+      "text": "smiled."
+    },
+    {
+      "meaning": "去",
+      "pos": "动词（原形，祈使句）",
+      "phonetic": "ɡəʊ",
+      "text": "'Go"
+    },
+    {
+      "meaning": "回来，回去",
+      "pos": "副词",
+      "phonetic": "bæk",
+      "text": "back"
+    },
+    {
+      "meaning": "到，向",
+      "pos": "介词",
+      "phonetic": "tuː",
+      "text": "to"
+    },
+    {
+      "meaning": "睡眠（此处作名词）",
+      "pos": "名词",
+      "phonetic": "sliːp",
+      "text": "sleep.'"
+    }
+  ],
+  "parts": [
+    {
+      "text": "'Nothing, Henry,'",
+      "meaning": "‘没什么，亨利，’",
+      "relation": "乔治直接说出的回答内容，回应亨利的询问。"
+    },
+    {
+      "text": "George said and smiled.",
+      "meaning": "乔治笑着说。",
+      "relation": "引述分句，说明说话人乔治以及他伴随微笑的动作。"
+    },
+    {
+      "text": "'Go back to sleep.'",
+      "meaning": "‘回去睡吧。’",
+      "relation": "乔治对亨利发出的进一步指令，让他返回睡觉。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-119",
+  "sentenceId": "nce-1-lesson-119-sentence-015",
+  "sentenceOrder": 15,
+  "english": "'Nothing, Henry,' George said and smiled. 'Go back to sleep.'",
+  "lesson": "Lesson 119 A true story",
+  "notes": [
+    {
+      "title": "引述分句放在直接引语后",
+      "text": "直接引语 'Nothing, Henry,' 在前，George said and smiled 在后；said 是引述动词，and smiled 是伴随动作。"
+    },
+    {
+      "title": "sleep 在 go back to 后作名词",
+      "text": "Go back to sleep 中 sleep 表示睡眠状态，不是动词；to 是介词，表示回到睡觉这件事。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：全句基础解析准确，仅存在两处与场景不符的细节表述偏差：一是场景中Henry是被说话声惊醒后开口询问，并非打电话的通话对象；二是George给出'没有异常'的答复属于安慰性回应，并不等同于已确认实际没有问题。其余内容、语法标注、语境说明、词义释义、分块关系均符合原文与上下文要求。（非逐句人工审核）"
+}

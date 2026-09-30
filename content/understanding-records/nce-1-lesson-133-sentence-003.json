@@ -1,0 +1,116 @@
+{
+  "chinese": "您打算再拍一部吗？",
+  "intent": "向对方询问是否有再拍摄一部（影片）的计划。",
+  "comparison": null,
+  "backbone": {
+    "text": "Are you going to make another?",
+    "meaning": "询问对方是否打算再拍摄一部（影片）。"
+  },
+  "structureNotes": [
+    {
+      "title": "be going to 表打算",
+      "text": "be going to 后面接动词原形，表示已经计划好的打算或意图，不要理解成“正在去往做某事的路上”。"
+    },
+    {
+      "title": "another 作代词的指代作用",
+      "text": "another 在这里直接用作 make 的宾语，承接上文已经提到的同类型可数事物，结合对话语境指代“另一部影片”，不需要额外补出被修饰的名词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Are you going to make another?",
+      "role": "be going to 构成的一般疑问句",
+      "explanation": "be 动词 Are 放在主语 you 前面，构成一般疑问语序，整体用来询问主语的行动计划。"
+    },
+    {
+      "text": "you",
+      "role": "第二人称主语",
+      "explanation": "指代听话的采访对象，是句子动作的发出者。"
+    },
+    {
+      "text": "going to make another",
+      "role": "表计划的谓语部分",
+      "explanation": "be going to 与实义动词原形 make 结合，表达“打算制作/拍摄”的含义，another 是 make 的宾语。"
+    },
+    {
+      "text": "another",
+      "role": "代词作宾语",
+      "explanation": "指代和前文同类的“另一部影片”，避免重复使用相同的名词。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Are",
+      "meaning": "是（be动词第二人称现在时）",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；您",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "going",
+      "meaning": "（与be动词连用表将来）将要、打算",
+      "pos": "动词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（引出后续动词不定式）",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "make",
+      "meaning": "制作；拍摄",
+      "pos": "动词",
+      "phonetic": "/meɪk/"
+    },
+    {
+      "text": "another?",
+      "meaning": "另一（个）；再一个（句中作宾语，整体带疑问语气）",
+      "pos": "代词",
+      "phonetic": "/əˈnʌðə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Are you",
+      "relation": "疑问引导",
+      "meaning": "您是"
+    },
+    {
+      "text": "going to make",
+      "relation": "动作与计划",
+      "meaning": "打算制作/拍摄"
+    },
+    {
+      "text": "another?",
+      "relation": "动作的对象",
+      "meaning": "再拍一部吗？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-133",
+  "sentenceId": "nce-1-lesson-133-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Are you going to make another?",
+  "lesson": "Lesson 133 Sensational news!",
+  "notes": [
+    {
+      "title": "be going to 表打算",
+      "text": "be going to 后面接动词原形，表示已经计划好的打算或意图，不要理解成“正在去往做某事的路上”。"
+    },
+    {
+      "title": "another 作代词的指代作用",
+      "text": "another 在这里直接用作 make 的宾语，承接上文已经提到的同类型可数事物，结合对话语境指代“另一部影片”，不需要额外补出被修饰的名词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合原句意义与对话语境，主干、结构和词义解释清楚。仅词汇表中 another 带问号作为词条不规范，应取词条本身并在释义中体现疑问语气；其余内容无需改动。（非逐句人工审核）"
+}

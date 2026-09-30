@@ -1,0 +1,63 @@
+{
+  "chinese": "五号。",
+  "intent": "明确指向编号为五的物品或序号",
+  "backbone": {
+    "text": "Number five.",
+    "meaning": "指明对应的序号为五"
+  },
+  "parts": [
+    {
+      "text": "Number",
+      "relation": "指明这是序号类的指代",
+      "meaning": "编号、序号"
+    },
+    {
+      "text": "five.",
+      "relation": "补充序号的具体数值",
+      "meaning": "数字五，带句末停顿"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "场景用法",
+      "text": "这是口语里的简短指代表达，直接用“Number+数字”点明对应编号，不需要额外动词就能传递完整指代信息，常见于服务、叫号等场景。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Number five.",
+      "role": "编号指代短句",
+      "explanation": "由序号标识词加具体数字构成，可独立使用传递明确的编号指向含义"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "编号、序号",
+      "pos": "noun",
+      "phonetic": "/ˈnʌmbə(r)/",
+      "text": "Number"
+    },
+    {
+      "meaning": "五",
+      "pos": "number",
+      "phonetic": "/faɪv/",
+      "text": "five."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-3",
+  "sentenceId": "nce-1-lesson-003-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Number five.",
+  "lesson": "Lesson 3 Sorry, sir.",
+  "notes": [
+    {
+      "title": "场景用法",
+      "text": "这是口语里的简短指代表达，直接用“Number+数字”点明对应编号，不需要额外动词就能传递完整指代信息，常见于服务、叫号等场景。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：仅存在少量细节偏差，可明确修正，整体内容合规可用（非逐句人工审核）"
+}

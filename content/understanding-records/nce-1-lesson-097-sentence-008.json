@@ -1,0 +1,108 @@
+{
+  "chinese": "先生，您有帽子吗？",
+  "intent": "店员礼貌询问顾客是否随身带有帽子。",
+  "comparison": null,
+  "backbone": {
+    "text": "Have you got a hat?",
+    "meaning": "你有一顶帽子吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "礼貌称呼的位置",
+      "text": "sir 放在句末，用逗号与问句主体隔开，是英语里对男士礼貌称呼的常见位置；中文把“先生”放在句首，符合中文问候时的表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Have you got",
+      "role": "疑问谓语",
+      "explanation": "have got 相当于 have，表示“拥有”，这里把 Have 提前构成一般疑问句。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指被询问的顾客。"
+    },
+    {
+      "text": "a hat",
+      "role": "宾语",
+      "explanation": "询问对象是“一顶帽子”。"
+    },
+    {
+      "text": "sir",
+      "role": "呼语",
+      "explanation": "对男性顾客的礼貌称呼，不参与句子主干。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Have",
+      "meaning": "与 got 搭配构成“拥有”的现在时疑问结构，本身不单独表示“已经”",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "got",
+      "meaning": "have got 组合表“有、拥有”，got 此处为过去分词，不单独直译",
+      "pos": "动词（过去分词）",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（顶）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "hat,",
+      "meaning": "帽子",
+      "pos": "名词",
+      "phonetic": "/hæt/"
+    },
+    {
+      "text": "sir?",
+      "meaning": "先生",
+      "pos": "名词",
+      "phonetic": "/sɜː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Have you got",
+      "relation": "谓语疑问结构，发起拥有关系的提问",
+      "meaning": "您有……吗（have got 构成现在时的拥有疑问）"
+    },
+    {
+      "text": "a hat,",
+      "relation": "询问对象",
+      "meaning": "一顶帽子"
+    },
+    {
+      "text": "sir?",
+      "relation": "礼貌称呼，补充表明说话对象",
+      "meaning": "先生"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-97",
+  "sentenceId": "nce-1-lesson-097-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Have you got a hat, sir?",
+  "lesson": "Lesson 97 A small blue case",
+  "notes": [
+    {
+      "title": "礼貌称呼的位置",
+      "text": "sir 放在句末，用逗号与问句主体隔开，是英语里对男士礼貌称呼的常见位置；中文把“先生”放在句首，符合中文问候时的表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原记录主干、句法切分、中文翻译和语境意图基本正确，英式音标也符合发音规范。需要修正三处词汇释义：have 不应解释为“已经”，got 不宜单独解释为“拥有”；单词切分时把标点并入了 hat、sir，应保留原词形并仅标注其本身。（非逐句人工审核）"
+}

@@ -1,0 +1,134 @@
+{
+  "chinese": "奈杰尔是我们的新隔壁邻居。他是个飞行员。",
+  "intent": "开门见山介绍新搬来的邻居奈杰尔的身份与职业，为后续讲述他的相关经历做铺垫。",
+  "comparison": null,
+  "backbone": {
+    "text": "Nigel is neighbour. He's a pilot.",
+    "meaning": "奈杰尔是邻居。他是一名飞行员。"
+  },
+  "structureNotes": [
+    {
+      "title": "身份修饰语的语序",
+      "text": "在介绍邻居身份时，多个修饰语按所属（our）→新旧（new）→居住关系（next-door）的顺序排列，中文对应“我们的新隔壁邻居”，语序符合中文表达习惯。"
+    },
+    {
+      "title": "缩略形式的理解",
+      "text": "第二句中He's是He is的缩略形式，在一般现在时中用来陈述职业事实，相当于完整的He is a pilot。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Nigel",
+      "role": "主语",
+      "explanation": "指人奈杰尔，是第一句描述的核心对象，是谓语动词is描述的主体。"
+    },
+    {
+      "text": "is our new next-door neighbour",
+      "role": "系表结构（谓语+表语）",
+      "explanation": "系动词is连接主语Nigel与表语our new next-door neighbour，表明奈杰尔的身份；多个定语依次修饰核心名词neighbour。"
+    },
+    {
+      "text": "He's a pilot",
+      "role": "主系表结构的缩略形式",
+      "explanation": "He's是He is的缩写，He指代前文的Nigel，a pilot作表语说明他的职业身份。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "奈杰尔（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈnaɪdʒəl/",
+      "text": "Nigel"
+    },
+    {
+      "meaning": "是（be的第三人称单数现在时）",
+      "pos": "动词（be动词）",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "我们的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/ˈaʊə(r)/",
+      "text": "our"
+    },
+    {
+      "meaning": "新的",
+      "pos": "形容词",
+      "phonetic": "/njuː/",
+      "text": "new"
+    },
+    {
+      "meaning": "隔壁的，邻居住的",
+      "pos": "复合形容词",
+      "phonetic": "/ˌnekst ˈdɔː(r)/",
+      "text": "next-door"
+    },
+    {
+      "meaning": "邻居",
+      "pos": "名词",
+      "phonetic": "/ˈneɪbə(r)/",
+      "text": "neighbour."
+    },
+    {
+      "meaning": "他是（He is的缩略形式）",
+      "pos": "代词+be动词缩略形式",
+      "phonetic": "/hiːz/",
+      "text": "He's"
+    },
+    {
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə; eɪ/",
+      "text": "a"
+    },
+    {
+      "meaning": "飞行员",
+      "pos": "名词",
+      "phonetic": "/ˈpaɪlət/",
+      "text": "pilot."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Nigel",
+      "relation": "整个句子的描述主体，是被介绍的核心人物。",
+      "meaning": "奈杰尔"
+    },
+    {
+      "text": "is our new next-door neighbour.",
+      "relation": "说明奈杰尔的身份，多个修饰语依次限定核心名词neighbour。",
+      "meaning": "是我们的新隔壁邻居"
+    },
+    {
+      "text": "He's",
+      "relation": "承接前文指代奈杰尔，引出他的职业信息。",
+      "meaning": "他是"
+    },
+    {
+      "text": "a pilot.",
+      "relation": "说明奈杰尔的职业，补充他的身份特征。",
+      "meaning": "一名飞行员"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-93",
+  "sentenceId": "nce-1-lesson-093-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Nigel is our new next-door neighbour. He's a pilot.",
+  "lesson": "Lesson 93 Our new neighbour",
+  "notes": [
+    {
+      "title": "身份修饰语的语序",
+      "text": "在介绍邻居身份时，多个修饰语按所属（our）→新旧（new）→居住关系（next-door）的顺序排列，中文对应“我们的新隔壁邻居”，语序符合中文表达习惯。"
+    },
+    {
+      "title": "缩略形式的理解",
+      "text": "第二句中He's是He is的缩略形式，在一般现在时中用来陈述职业事实，相当于完整的He is a pilot。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确，仅存在第二句句法结构角色标注错误：He's a pilot 是由主语+系动词+表语构成的主系表结构，原标注为“主谓宾结构的缩略形式”属于误判；同时主干提取时未体现a pilot中的职业冠词，与完整句子表意有细微偏差，其余翻译、词解、分块、语序说明等内容均符合规范，无需额外调整。（非逐句人工审核）"
+}

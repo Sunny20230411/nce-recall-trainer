@@ -1,0 +1,120 @@
+{
+  "chinese": "你们的朋友也是游客吗？",
+  "intent": "向对方询问同行的朋友们是否也属于游客身份",
+  "comparison": null,
+  "backbone": {
+    "text": "Are your friends tourists, too?",
+    "meaning": "你的朋友们也是游客吗？"
+  },
+  "parts": [
+    {
+      "text": "Are",
+      "relation": "引导一般疑问句的be动词，触发疑问语气",
+      "meaning": "是（be动词，用于引导一般疑问句）"
+    },
+    {
+      "text": "your friends",
+      "relation": "句子的被询问主体（主语）",
+      "meaning": "你的朋友们"
+    },
+    {
+      "text": "tourists,",
+      "relation": "说明主语身份的表语成分",
+      "meaning": "游客"
+    },
+    {
+      "text": "too?",
+      "relation": "承接前文同类语境追加询问的副词，附带疑问标点标记整句疑问语气",
+      "meaning": "也（问号标记整句为疑问句）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "疑问语序调整",
+      "text": "把be动词Are放到句首，把原本的陈述结构改成疑问结构，直接向听话人发起身份确认的询问。"
+    },
+    {
+      "title": "too的用法含义",
+      "text": "放在句尾表示“也”，承接前文对方已经是游客的语境，延伸询问同行的朋友是否同样是游客。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Are your friends tourists, too?",
+      "role": "完整一般疑问句框架",
+      "explanation": "用来确认主语的身份属性，期待对方给出肯定或否定的答复，同时呼应前文已提及的同类身份情况"
+    },
+    {
+      "text": "Are your friends tourists",
+      "role": "一般疑问核心主干框架",
+      "explanation": "用来确认主语的身份属性，期待对方给出肯定或否定的答复"
+    },
+    {
+      "text": "your friends",
+      "role": "句子主语",
+      "explanation": "指代被询问的对象，也就是对方的朋友们"
+    },
+    {
+      "text": "tourists",
+      "role": "表语",
+      "explanation": "用来描述主语的身份，说明朋友们的身份是游客"
+    },
+    {
+      "text": ", too?",
+      "role": "附加语气成分",
+      "explanation": "承接前文语境追加同类情况的询问，让问句贴合对话上下文的逻辑"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是",
+      "pos": "be动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "Are"
+    },
+    {
+      "meaning": "你的，你们的",
+      "pos": "物主代词",
+      "phonetic": "/jɔː(r)/",
+      "text": "your"
+    },
+    {
+      "meaning": "朋友们",
+      "pos": "名词",
+      "phonetic": "/frendz/",
+      "text": "friends"
+    },
+    {
+      "meaning": "游客",
+      "pos": "名词",
+      "phonetic": "/ˈtʊərɪsts/",
+      "text": "tourists,"
+    },
+    {
+      "meaning": "也",
+      "pos": "副词",
+      "phonetic": "/tuː/",
+      "text": "too?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-15",
+  "sentenceId": "nce-1-lesson-015-sentence-012",
+  "sentenceOrder": 12,
+  "english": "Are your friends tourists, too?",
+  "lesson": "Lesson 15 Your passports, please.",
+  "notes": [
+    {
+      "title": "疑问语序调整",
+      "text": "把be动词Are放到句首，把原本的陈述结构改成疑问结构，直接向听话人发起身份确认的询问。"
+    },
+    {
+      "title": "too的用法含义",
+      "text": "放在句尾表示“也”，承接前文对方已经是游客的语境，延伸询问同行的朋友是否同样是游客。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体符合要求，仅存在部分细节表述偏差、信息完整性不足的可修正问题，调整后可满足面向中文母语成年人的英语解析规范（非逐句人工审核）"
+}

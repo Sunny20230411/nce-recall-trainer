@@ -1,0 +1,189 @@
+{
+  "chinese": "是的，我受伤了。我想我伤到背了。",
+  "intent": "先对对方的现在完成时提问作出肯定的简短回应，再补充说明自己对伤情的判断。",
+  "comparison": {
+    "chinese": "中文先直接用“是的”确认对方的提问，再用“我想”引出自己的判断内容；英语则用 Yes, I have. 完成简短肯定回答，再用 I think that 引出从句内容。",
+    "english": "Yes, I have. I think that I've hurt my back.",
+    "steps": [
+      {
+        "label": "先回应前面的问题",
+        "text": "Yes, I have. = 是的，我（受伤）了。",
+        "explanation": "have 单独放在句末，对应前面现在完成时的提问 Have you hurt yourself?；这里不重复 hurt yourself，直接用 have 简短确认。"
+      },
+      {
+        "label": "再说出判断内容",
+        "text": "I think that I've hurt my back. = 我想我伤到背了。",
+        "explanation": "that 引导宾语从句，说明 think 的具体内容；I've 是 I have，后面接 hurt 的过去分词，构成现在完成时。"
+      }
+    ],
+    "takeaway": "理解时先识别 have 是简略回答的助动词，再看 that 后面才是真正表达的伤情判断。"
+  },
+  "backbone": {
+    "text": "Yes, I have. I think that I've hurt my back.",
+    "meaning": "先确认自己受伤，再判断自己伤到了背。"
+  },
+  "structureNotes": [
+    {
+      "title": "Yes, I have. 的简短回答",
+      "text": "have 是助动词，保留它就能完成现在完成时的简略回答，不必重复完整问句。"
+    },
+    {
+      "title": "that 从句说明“想”的内容",
+      "text": "that I've hurt my back 是 think 的宾语从句；that 在口语中常可省略，但语法上标示后面是陈述内容。"
+    },
+    {
+      "title": "I've hurt 仍是现在完成时",
+      "text": "have + hurt 的过去分词表示已经发生并对现在有影响的伤情；hurt 形式不变。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "肯定答语",
+      "explanation": "用 Yes 对前面的一般疑问句作出肯定回应。"
+    },
+    {
+      "text": "I",
+      "role": "简略回答中的主语",
+      "explanation": "指说话人本人，承接前面提问中的 you。"
+    },
+    {
+      "text": "have.",
+      "role": "现在完成时简略回答的助动词",
+      "explanation": "完整回答为 I have hurt myself；此处省略重复的 hurt myself，只保留主语和助动词 have。"
+    },
+    {
+      "text": "I",
+      "role": "主句主语",
+      "explanation": "指说话人本人。"
+    },
+    {
+      "text": "think",
+      "role": "主句谓语",
+      "explanation": "表示说话人的判断或想法。"
+    },
+    {
+      "text": "that",
+      "role": "宾语从句引导词",
+      "explanation": "引导后面的宾语从句，标示从句为 think 的内容。"
+    },
+    {
+      "text": "I've",
+      "role": "从句主语加助动词",
+      "explanation": "I have 的缩写，从句内与 hurt 构成现在完成时。"
+    },
+    {
+      "text": "hurt",
+      "role": "从句谓语核心",
+      "explanation": "过去分词形式，与 have 搭配表示已经受伤。"
+    },
+    {
+      "text": "my back",
+      "role": "从句宾语",
+      "explanation": "说明受伤的部位是背部。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes,",
+      "meaning": "是的",
+      "pos": "感叹词",
+      "phonetic": "jes"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "aɪ"
+    },
+    {
+      "text": "have.",
+      "meaning": "已经（此处为简略回答，替代 have hurt myself）",
+      "pos": "助动词",
+      "phonetic": "hæv"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "aɪ"
+    },
+    {
+      "text": "think",
+      "meaning": "想；认为",
+      "pos": "动词",
+      "phonetic": "θɪŋk"
+    },
+    {
+      "text": "that",
+      "meaning": "that（引导宾语从句）",
+      "pos": "连词",
+      "phonetic": "ðæt"
+    },
+    {
+      "text": "I've",
+      "meaning": "我已经（I have 的缩写）",
+      "pos": "缩写（代词+助动词）",
+      "phonetic": "aɪv"
+    },
+    {
+      "text": "hurt",
+      "meaning": "（使）受伤",
+      "pos": "动词（过去分词）",
+      "phonetic": "hɜːt"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "maɪ"
+    },
+    {
+      "text": "back.",
+      "meaning": "背；背部",
+      "pos": "名词",
+      "phonetic": "bæk"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes, I have.",
+      "meaning": "是的，我（受伤）了。",
+      "relation": "用现在完成时的简略肯定形式，回应前文的提问 Have you hurt yourself?"
+    },
+    {
+      "text": "I think",
+      "meaning": "我想",
+      "relation": "主句，引出后面的判断内容"
+    },
+    {
+      "text": "that I've hurt my back.",
+      "meaning": "我伤到背了。",
+      "relation": "由 that 引导的宾语从句，补充说明 think 的具体内容"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-99",
+  "sentenceId": "nce-1-lesson-099-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Yes, I have. I think that I've hurt my back.",
+  "lesson": "Lesson 99 Ow!",
+  "notes": [
+    {
+      "title": "Yes, I have. 的简短回答",
+      "text": "have 是助动词，保留它就能完成现在完成时的简略回答，不必重复完整问句。"
+    },
+    {
+      "title": "that 从句说明“想”的内容",
+      "text": "that I've hurt my back 是 think 的宾语从句；that 在口语中常可省略，但语法上标示后面是陈述内容。"
+    },
+    {
+      "title": "I've hurt 仍是现在完成时",
+      "text": "have + hurt 的过去分词表示已经发生并对现在有影响的伤情；hurt 形式不变。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析整体符合语境，仅存在几处细节问题：1. Yes, I have. 直译“是的。我受伤了。”已体现肯定含义，“是的。我想我伤到背了。”的中文翻译缺少 I have 的对应语义；2. 结构切分中 I've 被标注为“从句主语加助动词”，角色描述没有分离出独立的主语 I 和助动词 've 两个语法成分，不利于语法角色与词性的清晰区分；3. 词汇表中 have 的音标未使用英式音标，不符合英式发音标注要求，其他内容符合语法规则、翻译逻辑与释义要求。（非逐句人工审核）"
+}

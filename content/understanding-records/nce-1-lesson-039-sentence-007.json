@@ -1,0 +1,130 @@
+{
+  "chinese": "别把它放在那里，萨姆。把它放在架子上。",
+  "intent": "向萨姆发出直接指令，提醒他不要把物品放在当前的位置，转而放到架子上。",
+  "comparison": null,
+  "backbone": {
+    "text": "Don't put it there. Put it on the shelf.",
+    "meaning": "不要把它放在那里。把它放在架子上。"
+  },
+  "parts": [
+    {
+      "text": "Don't put it there, Sam.",
+      "relation": "完整的否定祈使指令，点明执行指令的对象是萨姆",
+      "meaning": "别把它放在那里，萨姆。"
+    },
+    {
+      "text": "Put it on the shelf.",
+      "relation": "补充说明正确的放置位置",
+      "meaning": "把它放在架子上。"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "祈使句的否定形式",
+      "text": "祈使句直接用Don't加动词原形开头，表示禁止对方做某事，不需要额外添加主语you，默认指令面向听话人。"
+    },
+    {
+      "title": "地点状语的切换",
+      "text": "先用there指代说话人认为不合适的位置，再用on the shelf明确给出正确位置，信息递进清晰，避免指令模糊。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Don't put it there",
+      "role": "否定祈使主句",
+      "explanation": "直接发出禁止放置的指令，涵盖动作、对象和错误位置"
+    },
+    {
+      "text": "Sam",
+      "role": "呼语",
+      "explanation": "点明指令的接收者，确保萨姆明确是在对他说话"
+    },
+    {
+      "text": "Put it on the shelf",
+      "role": "肯定祈使主句",
+      "explanation": "给出正确的操作指令，明确告知物品应放置的位置"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "不要，别",
+      "pos": "contraction",
+      "phonetic": "/dəʊnt/",
+      "text": "Don't"
+    },
+    {
+      "meaning": "放置，放",
+      "pos": "verb",
+      "phonetic": "/pʊt/",
+      "text": "put"
+    },
+    {
+      "meaning": "它（指代前文提到的物品）",
+      "pos": "pronoun",
+      "phonetic": "/ɪt/",
+      "text": "it"
+    },
+    {
+      "meaning": "那里，那儿",
+      "pos": "adverb",
+      "phonetic": "/ðeə/",
+      "text": "there,"
+    },
+    {
+      "meaning": "萨姆（人名）",
+      "pos": "proper noun",
+      "phonetic": "/sæm/",
+      "text": "Sam."
+    },
+    {
+      "meaning": "放置，放",
+      "pos": "verb",
+      "phonetic": "/pʊt/",
+      "text": "Put"
+    },
+    {
+      "meaning": "它（指代前文提到的物品）",
+      "pos": "pronoun",
+      "phonetic": "/ɪt/",
+      "text": "it"
+    },
+    {
+      "meaning": "在……上面",
+      "pos": "preposition",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "这个，那个（定冠词，特指双方都清楚的架子）",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "架子，搁板",
+      "pos": "noun",
+      "phonetic": "/ʃelf/",
+      "text": "shelf."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-39",
+  "sentenceId": "nce-1-lesson-039-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Don't put it there, Sam. Put it on the shelf.",
+  "lesson": "Lesson 39 Don't drop it!",
+  "notes": [
+    {
+      "title": "祈使句的否定形式",
+      "text": "祈使句直接用Don't加动词原形开头，表示禁止对方做某事，不需要额外添加主语you，默认指令面向听话人。"
+    },
+    {
+      "title": "地点状语的切换",
+      "text": "先用there指代说话人认为不合适的位置，再用on the shelf明确给出正确位置，信息递进清晰，避免指令模糊。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合教学要求，仅存在个别细节瑕疵，可明确修正（非逐句人工审核）"
+}

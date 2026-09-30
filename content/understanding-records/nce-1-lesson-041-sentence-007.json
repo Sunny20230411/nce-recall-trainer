@@ -1,0 +1,80 @@
+{
+  "chinese": "一条面包。",
+  "intent": "明确说明用于计数的面包的具体计量单位和对应物品",
+  "backbone": {
+    "text": "A loaf of bread",
+    "meaning": "指明所指的物品是论条计量的面包"
+  },
+  "parts": [
+    {
+      "text": "A loaf",
+      "relation": "说明面包的计量单位",
+      "meaning": "表示单个长条状的量，也就是‘一条’"
+    },
+    {
+      "text": "of",
+      "relation": "连接量词和物品的衔接词",
+      "meaning": "用于衔接计量单位和对应的物品"
+    },
+    {
+      "text": "bread.",
+      "relation": "说明被计量的具体物品",
+      "meaning": "指代面包这个食物"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "不可数名词计数方式",
+      "text": "bread是不可数名词，不能直接在前面加a表示数量，需要借助loaf这类量词搭配of，构成表示具体数量的计量短语"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A loaf of",
+      "role": "量词短语",
+      "explanation": "专门用来计量长条状的整块食物，这里用来表示面包的单条计量，对应中文的‘一条’"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "一（个）",
+      "pos": "determiner（限定词）",
+      "phonetic": "/ə/",
+      "text": "A"
+    },
+    {
+      "meaning": "一条（面包的计量单位）",
+      "pos": "noun（名词）",
+      "phonetic": "/ləʊf/",
+      "text": "loaf"
+    },
+    {
+      "meaning": "（衔接量词与事物）属于…的",
+      "pos": "preposition（介词）",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "面包",
+      "pos": "noun（名词）",
+      "phonetic": "/bred/",
+      "text": "bread."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-41",
+  "sentenceId": "nce-1-lesson-041-sentence-007",
+  "sentenceOrder": 7,
+  "english": "A loaf of bread.",
+  "lesson": "Lesson 41 Penny's bag",
+  "notes": [
+    {
+      "title": "不可数名词计数方式",
+      "text": "bread是不可数名词，不能直接在前面加a表示数量，需要借助loaf这类量词搭配of，构成表示具体数量的计量短语"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原学习数据整体符合面向中文母语成年人的英语解析要求，仅存在局部细节可优化修正，不影响核心学习逻辑（非逐句人工审核）"
+}

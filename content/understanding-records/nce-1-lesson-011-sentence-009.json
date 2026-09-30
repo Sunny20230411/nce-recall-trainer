@@ -1,0 +1,86 @@
+{
+  "chinese": "这是你的衬衫吗？",
+  "intent": "向对方确认眼前的这件物品是否属于他的衬衫，发起针对性的核实询问。",
+  "comparison": null,
+  "backbone": {
+    "text": "Is this your shirt?",
+    "meaning": "确认眼前物品是否是对方的衬衫"
+  },
+  "parts": [
+    {
+      "text": "Is",
+      "relation": "系动词，用于构成一般疑问句的前置标记",
+      "meaning": "是（用于构成主系表结构的一般疑问句）"
+    },
+    {
+      "text": "this",
+      "relation": "句子的主语，指代眼前近距离的特定物品",
+      "meaning": "这个，指代对话当下双方视线范围内的物品"
+    },
+    {
+      "text": "your shirt?",
+      "relation": "表语部分，明确要核实的物品属性与归属",
+      "meaning": "你的衬衫"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般疑问句构成",
+      "text": "把be动词Is放到句首，直接将陈述句“This is your shirt”转为需要对方用是或否回答的确认问句。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is this",
+      "role": "疑问引导部分",
+      "explanation": "将系动词前置，用于引出针对眼前事物属性或归属的询问"
+    },
+    {
+      "text": "your shirt",
+      "role": "被询问的属性内容",
+      "explanation": "明确本次要核实的物品归属，也就是对方的衬衫"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是",
+      "pos": "be动词",
+      "phonetic": "/ɪz/",
+      "text": "Is"
+    },
+    {
+      "meaning": "这个",
+      "pos": "指示代词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "你的",
+      "pos": "物主代词",
+      "phonetic": "/jɔː(r)/",
+      "text": "your"
+    },
+    {
+      "meaning": "衬衫",
+      "pos": "名词",
+      "phonetic": "/ʃɜːt/",
+      "text": "shirt?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-11",
+  "sentenceId": "nce-1-lesson-011-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Is this your shirt?",
+  "lesson": "Lesson 11 Is this your shirt?",
+  "notes": [
+    {
+      "title": "一般疑问句构成",
+      "text": "把be动词Is放到句首，直接将陈述句“This is your shirt”转为需要对方用是或否回答的确认问句。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体学习数据框架完整、核心语义准确，仅存在局部小瑕疵，可通过补丁修正完善。（非逐句人工审核）"
+}

@@ -1,0 +1,146 @@
+{
+  "chinese": "谁来照看花园？",
+  "intent": "询问将来负责照看花园的人是谁。",
+  "comparison": {
+    "chinese": "中文常直接说“谁来照看花园”，把动作和对象连成整句；英语先在句首点明问“谁”，再用 be going to 交代打算，最后落到动作和对象。",
+    "english": "Who is going to look after the garden?",
+    "steps": [
+      {
+        "label": "先锁定缺的信息",
+        "text": "Who",
+        "explanation": "Who 直接作为句子主语，提问的是“谁”要做这件事，因此后面按陈述句主谓顺序排列，不需要再加 do 或 does。"
+      },
+      {
+        "label": "交代将来打算",
+        "text": "Who's going to",
+        "explanation": "Who's 是 Who is 的缩写，be going to 在本处结合上下文询问未来每年的分工安排，表示问的是“将要/打算由谁来做”。"
+      },
+      {
+        "label": "给出动作和对象",
+        "text": "look after the garden",
+        "explanation": "look after 是固定短语，表示“照看、照料”；the garden 是这个动作指向的对象。"
+      }
+    ],
+    "takeaway": "Who 作主语时仍按正常语序理解，重点先抓住问“谁”，再识别 be going to 表示未来的计划安排。"
+  },
+  "backbone": {
+    "text": "Who is going to look after the garden?",
+    "meaning": "询问将来由谁来负责照料花园。"
+  },
+  "structureNotes": [
+    {
+      "title": "Who 作特殊问句主语",
+      "text": "Who 在本句中直接充当主语，后面动词短语按陈述句顺序排列，不需要额外助动词倒装。"
+    },
+    {
+      "title": "be going to 表将来安排",
+      "text": "Who's going to 表示“谁将要/打算”，强调计划中的安排，不是正在进行的动作。"
+    },
+    {
+      "title": "look after 为固定搭配",
+      "text": "look after 不按字面逐词理解为“看在……后面”，整体表示“照料、照看”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Who's",
+      "role": "疑问代词主语",
+      "explanation": "Who 是特殊疑问词，在本句中充当主语；'s 是 is 的缩写，和 going to 构成将来时结构。"
+    },
+    {
+      "text": "going to look after",
+      "role": "谓语部分",
+      "explanation": "be going to 后接动词原形短语 look after，表示将来打算执行的动作。"
+    },
+    {
+      "text": "the garden",
+      "role": "动词宾语",
+      "explanation": "作 look after 的宾语，说明被照看的具体对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Who's",
+      "meaning": "谁（Who is 的缩写，Who为疑问代词作主语，is为be动词）",
+      "pos": "疑问代词+be动词缩写",
+      "phonetic": "/huːz/"
+    },
+    {
+      "text": "going",
+      "meaning": "（与be、to构成将来时结构）将要、打算",
+      "pos": "动词-ing形式",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（与be going构成未来打算结构，后接动词原形）",
+      "pos": "不定式符号",
+      "phonetic": "/tə/"
+    },
+    {
+      "text": "look",
+      "meaning": "看（与after构成短语动词表示照料）",
+      "pos": "动词",
+      "phonetic": "/lʊk/"
+    },
+    {
+      "text": "after",
+      "meaning": "在……之后（与look构成短语动词表示照料）",
+      "pos": "介词",
+      "phonetic": "/ˈɑːftə/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，表特指双方都知道的花园）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "garden?",
+      "meaning": "花园",
+      "pos": "名词",
+      "phonetic": "/ˈɡɑːdn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Who's",
+      "relation": "询问对象",
+      "meaning": "谁（是谁）"
+    },
+    {
+      "text": "going to look after",
+      "relation": "描述谁要做的动作",
+      "meaning": "将要照看"
+    },
+    {
+      "text": "the garden?",
+      "relation": "补充照看的具体对象",
+      "meaning": "花园？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-131",
+  "sentenceId": "nce-1-lesson-131-sentence-016",
+  "sentenceOrder": 16,
+  "english": "Who's going to look after the garden?",
+  "lesson": "Lesson 131 Don't be so sure!",
+  "notes": [
+    {
+      "title": "Who 作特殊问句主语",
+      "text": "Who 在本句中直接充当主语，后面动词短语按陈述句顺序排列，不需要额外助动词倒装。"
+    },
+    {
+      "title": "be going to 表将来安排",
+      "text": "Who's going to 表示“谁将要/打算”，强调计划中的安排，不是正在进行的动作。"
+    },
+    {
+      "title": "look after 为固定搭配",
+      "text": "look after 不按字面逐词理解为“看在……后面”，整体表示“照料、照看”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析主体正确，Who作主语的特殊疑问句语序、be going to表将来、look after固定搭配的说明均符合语法规则。仅需微调两处表述：1. words中Who's的词性标注原表述为‘疑问代词+动词缩写’，易与后续拆分的Who/is角色混淆，补充明确两部分语法功能；2. comparison中‘be going to表示将来的打算或安排’原表述未区分本处受上下文询问未来分工的语境，补充该语境指向即可，不影响核心结论。（非逐句人工审核）"
+}

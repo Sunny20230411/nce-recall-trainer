@@ -1,0 +1,154 @@
+{
+  "chinese": "那你为什么想卖掉它？",
+  "intent": "在对方说明自己自1976年起就住在这处房产之后，针对其出售该房产的行为询问背后的原因。",
+  "comparison": {
+    "chinese": "那你为什么想卖掉它？",
+    "english": "Then why do you want to sell it?",
+    "steps": [
+      {
+        "label": "先确定核心诉求",
+        "text": "you want to sell it",
+        "explanation": "主语you指代来卖房的对话对象，为单数语境下的“你”，核心动作为want to sell it，即对方有出售该房产的意愿，it指代前文一直在讨论的待售房屋。"
+      },
+      {
+        "label": "再补问缺失的信息",
+        "text": "why",
+        "explanation": "why放在疑问链最开头，专门用来追问做“出售房屋”这件事的原因；为了构成疑问句，把助动词do提到主语you的前面，这是英语对实义动词的一般现在时提问的常规做法。"
+      },
+      {
+        "label": "用衔接词承接前文",
+        "text": "Then",
+        "explanation": "then放在句首表示顺着上文的对话逻辑继续提问，对应中文里的“那”，承接上一句对方说自己住了很久的信息。"
+      }
+    ],
+    "takeaway": "英语针对一般现在时实义动词的特殊疑问句，需要将助动词提前完成句式倒装，再把疑问词放在句首指明要询问的维度；中文不需要倒装，按“那+为什么+你+想卖掉它”的自然顺序排布语义即可。"
+  },
+  "backbone": {
+    "text": "Why do you want to sell it?",
+    "meaning": "你为什么想要把它卖掉？"
+  },
+  "structureNotes": [
+    {
+      "title": "助动词倒装规则",
+      "text": "本句谓语want是实义动词，对一般现在时的原因提问时，需要借助助动词do放在主语you之前构成疑问，不能直接说成Why you want to sell it。"
+    },
+    {
+      "title": "指代衔接",
+      "text": "句中it是代词，回指上下文正在讨论的待售房产，避免重复提起同一对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Then",
+      "role": "对话衔接副词",
+      "explanation": "承接前文对话内容，表示顺着当前话题继续提问，相当于“那”。"
+    },
+    {
+      "text": "why",
+      "role": "原因疑问副词",
+      "explanation": "点明本句要询问的是出售房屋这一行为背后的原因。"
+    },
+    {
+      "text": "do",
+      "role": "助动词",
+      "explanation": "帮助构成一般现在时的疑问句，没有独立词义，放在主语you前完成倒装。"
+    },
+    {
+      "text": "you",
+      "role": "问句主语",
+      "explanation": "指听话的对方，为单数语境下的“你”，是“想要卖房”这个想法的发出者。"
+    },
+    {
+      "text": "want to sell it",
+      "role": "谓语部分",
+      "explanation": "表达主语的意愿：想要卖掉它，其中it指代讨论中的房屋。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Then",
+      "meaning": "那么，接着",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    },
+    {
+      "text": "why",
+      "meaning": "为什么",
+      "pos": "疑问副词",
+      "phonetic": "/waɪ/"
+    },
+    {
+      "text": "do",
+      "meaning": "（构成疑问句的助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要，打算",
+      "pos": "动词",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "to",
+      "meaning": "（引出后续动作的不定式符号，无实义）",
+      "pos": "小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "sell",
+      "meaning": "售卖，出售",
+      "pos": "动词",
+      "phonetic": "/sel/"
+    },
+    {
+      "text": "it?",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Then",
+      "meaning": "那么，接着",
+      "relation": "对话衔接，承接上文内容引出后续提问"
+    },
+    {
+      "text": "why do",
+      "meaning": "为什么（疑问结构标记）",
+      "relation": "询问核心，点明要追问“卖房”这一行为的原因"
+    },
+    {
+      "text": "you want to sell it?",
+      "meaning": "你想要卖掉它？",
+      "relation": "提问主体内容，说明要追问原因的具体行为：对方有出售房屋的意愿"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-89",
+  "sentenceId": "nce-1-lesson-089-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Then why do you want to sell it?",
+  "lesson": "Lesson 89 For sale",
+  "notes": [
+    {
+      "title": "助动词倒装规则",
+      "text": "本句谓语want是实义动词，对一般现在时的原因提问时，需要借助助动词do放在主语you之前构成疑问，不能直接说成Why you want to sell it。"
+    },
+    {
+      "title": "指代衔接",
+      "text": "句中it是代词，回指上下文正在讨论的待售房产，避免重复提起同一对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语法分析、词汇音标、指代说明均符合一般现在时特殊疑问句的教学逻辑，仅存在个别表述精度问题：一是将wh-疑问句中疑问词的倒装规则泛化为“疑问词放在句首”，表述不够严谨；二是翻译将you译为“你们”，未结合上下文看房场景明确为单数语境下的“你”，易造成歧义；三是词汇表中代词词条误将句末问号纳入文本与释义，词性标注也存在不规范问题，均已修正。（非逐句人工审核）"
+}

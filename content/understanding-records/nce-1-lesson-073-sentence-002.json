@@ -1,0 +1,204 @@
+{
+  "chinese": "突然，她在公共汽车站附近看见一个男人。‘我可以向他问路，’她自言自语道。",
+  "intent": "讲述米尔丝太太迷路后，在公交站附近偶遇一名男子，并暗自盘算向对方问路的心理活动。",
+  "comparison": null,
+  "backbone": {
+    "text": "她看见一个男人，她自言自语说：我可以向他问路。",
+    "meaning": "迷路的她在公交站附近撞见一名男子，心里盘算着可以向这名男子问路。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的位置标记",
+      "text": "直接引语'I can ask him the way'放在she said to herself之前，标点上把引语包裹在引号内，提示引号内是人物的内心想法，she said to herself是引述动作，说明这句话的发出者就是句子主语she。"
+    },
+    {
+      "title": "双宾动词ask的搭配逻辑",
+      "text": "ask可以接双宾语，间宾him指向被询问的对象，直宾the way指向问路这件事，不需要额外加介词就能表达“向某人问某事”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Suddenly",
+      "role": "句首状语",
+      "explanation": "修饰整个后续事件，表明看到男子这个动作发生得很突然、毫无预兆。"
+    },
+    {
+      "text": "she saw a man near a bus stop",
+      "role": "主句",
+      "explanation": "第一个完整句子的主干，交代主语she完成“看见”的动作，宾语是a man，地点状语说明看到男子的具体位置。"
+    },
+    {
+      "text": "'I can ask him the way,'",
+      "role": "直接引语",
+      "explanation": "放在引号内，是she的内心想法；引语中I是主语，can ask是情态动词加动词原形的谓语，him是间接宾语，the way是直接宾语，内容为她打算向这名男子问路。"
+    },
+    {
+      "text": "she said to herself",
+      "role": "引述分句",
+      "explanation": "交代前面引语的发出者，说明这句话是她对自己说的、没有出声。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Suddenly,",
+      "meaning": "突然",
+      "pos": "副词",
+      "phonetic": "/ˈsʌdnli/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词（主格）",
+      "phonetic": "/ʃi/"
+    },
+    {
+      "text": "saw",
+      "meaning": "看见（see的过去式）",
+      "pos": "动词",
+      "phonetic": "/sɔː/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "near",
+      "meaning": "在……附近",
+      "pos": "介词",
+      "phonetic": "/nɪə(r)/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "bus",
+      "meaning": "公共汽车",
+      "pos": "名词",
+      "phonetic": "/ˈbʌs/"
+    },
+    {
+      "text": "stop.",
+      "meaning": "车站",
+      "pos": "名词",
+      "phonetic": "/stɒp/"
+    },
+    {
+      "text": "'I",
+      "meaning": "我（引号内引语开头）",
+      "pos": "代词（主格）",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "can",
+      "meaning": "能够，可以",
+      "pos": "情态动词",
+      "phonetic": "/kæn/"
+    },
+    {
+      "text": "ask",
+      "meaning": "询问、请求",
+      "pos": "动词",
+      "phonetic": "/ɑːsk/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格）",
+      "pos": "代词（宾格）",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "the",
+      "meaning": "特指这条路线",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "way,'",
+      "meaning": "路线、路（引号收尾）",
+      "pos": "名词",
+      "phonetic": "/weɪ/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词（主格）",
+      "phonetic": "/ʃi/"
+    },
+    {
+      "text": "said",
+      "meaning": "说（say的过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "to",
+      "meaning": "对……（说）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "herself.",
+      "meaning": "她自己",
+      "pos": "反身代词",
+      "phonetic": "/hɜːˈself/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Suddenly,",
+      "meaning": "突然",
+      "relation": "描述后续看见男子的动作发生得十分突兀，给整个事件做情绪铺垫。"
+    },
+    {
+      "text": "she saw a man",
+      "meaning": "她看见一个男人",
+      "relation": "构成第一个句子的主干，交代核心动作与动作的对象。"
+    },
+    {
+      "text": "near a bus stop.",
+      "meaning": "在一个公共汽车站附近",
+      "relation": "补充说明她看见这名男子的具体地点位置。"
+    },
+    {
+      "text": "'I can ask him the way,'",
+      "meaning": "“我可以向他问路”",
+      "relation": "引号内的直接内心独白，是她撞见男子后萌生的想法。"
+    },
+    {
+      "text": "she said to herself.",
+      "meaning": "她对自己说",
+      "relation": "交代前面这句独白的状态：是她自言自语、没有对外说出的内心盘算。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-73",
+  "sentenceId": "nce-1-lesson-073-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Suddenly, she saw a man near a bus stop. 'I can ask him the way,' she said to herself.",
+  "lesson": "Lesson 73 The way to King Street",
+  "notes": [
+    {
+      "title": "直接引语的位置标记",
+      "text": "直接引语'I can ask him the way'放在she said to herself之前，标点上把引语包裹在引号内，提示引号内是人物的内心想法，she said to herself是引述动作，说明这句话的发出者就是句子主语she。"
+    },
+    {
+      "title": "双宾动词ask的搭配逻辑",
+      "text": "ask可以接双宾语，间宾him指向被询问的对象，直宾the way指向问路这件事，不需要额外加介词就能表达“向某人问某事”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体译文、主干、成分分析和词义拆分符合语境，主从关系、双宾语搭配和直接引语标记均无实质错误。为让读者更清楚ask的双宾语结构，补充说明I是引语中的主语、can ask是谓语；同时把the way中the的释义改为特指这条路线，避免“这”脱离语境。（非逐句人工审核）"
+}

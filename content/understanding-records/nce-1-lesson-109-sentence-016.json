@@ -1,0 +1,171 @@
+{
+  "chinese": "我有很多香烟。我抽烟抽得很多。",
+  "intent": "陈述自己拥有的香烟数量充足，同时说明自己抽烟的频次很高、抽烟量很大。",
+  "comparison": {
+    "chinese": "我有很多香烟，我抽烟抽得很多。",
+    "english": "I have a lot of cigarettes. I smoke a lot.",
+    "steps": [
+      {
+        "label": "先理清a lot的不同作用",
+        "text": "第一句里a lot of后面接cigarettes，修饰这个可数复数名词的数量，意思是“大量的香烟”",
+        "explanation": "a lot of是固定短语，作用等同于many，直接接名词，表达事物的总数量多。"
+      },
+      {
+        "label": "再理清第二句的a lot",
+        "text": "第二句里smoke后面直接跟a lot，这个a lot是副词性的短语，修饰smoke这个动作，说明抽烟这个行为的频次高、抽烟量大。",
+        "explanation": "这里a lot后面没有接of+名词，不能按照“很多（名词）”来理解，它补充说明动作的程度和频次，对应中文里的“抽烟抽得很多”，不需要额外补出“烟”字。"
+      }
+    ],
+    "takeaway": "a lot of必须后接名词表示事物数量多；单独使用的a lot放在动词后面，是用来说明动作发生的频次、程度高，不要把两者的语法作用混为一谈。"
+  },
+  "backbone": {
+    "text": "I have a lot of cigarettes. I smoke a lot.",
+    "meaning": "我拥有很多香烟，我抽烟抽得很多。"
+  },
+  "structureNotes": [
+    {
+      "title": "a lot of与名词的搭配",
+      "text": "a lot of作为固定量词短语修饰可数复数名词cigarettes，表达“数量多”的含义，整体放在名词前，构成完整的宾语部分。"
+    },
+    {
+      "title": "单独使用的a lot作状语",
+      "text": "第二句中a lot独立放在动词smoke之后，作程度状语，说明抽烟这个动作的频次高、量大，后面不需要再重复接cigarettes。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "第一分句的主语",
+      "explanation": "指说话者本人，是第一句陈述动作的发出者。"
+    },
+    {
+      "text": "have",
+      "role": "第一分句的谓语",
+      "explanation": "表示“拥有”这个状态，是第一句的核心谓语动词。"
+    },
+    {
+      "text": "a lot of cigarettes.",
+      "role": "第一分句的宾语",
+      "explanation": "说明主语拥有的具体对象是数量很多的香烟。"
+    },
+    {
+      "text": "I",
+      "role": "第二分句的主语",
+      "explanation": "同样指说话者本人，和前一句主语一致。"
+    },
+    {
+      "text": "smoke",
+      "role": "第二分句的谓语",
+      "explanation": "表示“抽烟”这个动作，是第二句的核心谓语动词。"
+    },
+    {
+      "text": "a lot.",
+      "role": "第二分句的程度状语",
+      "explanation": "修饰动词smoke，说明抽烟的频次高、抽烟量大。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "have",
+      "meaning": "有，拥有",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "a",
+      "meaning": "与lot、of连用构成量词短语，表示“大量”",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "lot",
+      "meaning": "大量",
+      "pos": "名词",
+      "phonetic": "/lɒt/"
+    },
+    {
+      "text": "of",
+      "meaning": "属于……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "cigarettes.",
+      "meaning": "香烟",
+      "pos": "名词",
+      "phonetic": "/ˌsɪɡəˈrets/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "smoke",
+      "meaning": "抽烟",
+      "pos": "动词",
+      "phonetic": "/sməʊk/"
+    },
+    {
+      "text": "a",
+      "meaning": "与lot连用修饰动词，表示动作的频次/程度",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "lot.",
+      "meaning": "很多，经常",
+      "pos": "副词短语",
+      "phonetic": "/lɒt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I have",
+      "meaning": "我拥有",
+      "relation": "第一句的陈述起点，交代主语和核心状态动词。"
+    },
+    {
+      "text": "a lot of cigarettes.",
+      "meaning": "很多香烟",
+      "relation": "第一句的宾语，补充说明拥有的具体事物及其数量。"
+    },
+    {
+      "text": "I smoke",
+      "meaning": "我抽烟",
+      "relation": "第二句的主谓结构，核心动作是抽烟。"
+    },
+    {
+      "text": "a lot.",
+      "meaning": "抽得很多/经常抽",
+      "relation": "第二句的程度状语，补充说明抽烟这个动作的频次高、抽烟量大。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-109",
+  "sentenceId": "nce-1-lesson-109-sentence-016",
+  "sentenceOrder": 16,
+  "english": "I have a lot of cigarettes. I smoke a lot.",
+  "lesson": "Lesson 109 A good idea",
+  "notes": [
+    {
+      "title": "a lot of与名词的搭配",
+      "text": "a lot of作为固定量词短语修饰可数复数名词cigarettes，表达“数量多”的含义，整体放在名词前，构成完整的宾语部分。"
+    },
+    {
+      "title": "单独使用的a lot作状语",
+      "text": "第二句中a lot独立放在动词smoke之后，作程度状语，说明抽烟这个动作的频次高、量大，后面不需要再重复接cigarettes。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语义、句法分析准确，仅存在两处细节瑕疵：一是词汇拆分标注中两处单独出现的a被误标注为“一个”，结合本句a lot of、a lot的搭配实际词义应为“（与of连用构成量词短语；用于动词后表示频次/程度）”；二是cigarettes的音标末尾错误标注为美式发音，需修正为英式音标。其余主干结构、分块语义、语法成分划分、对比讲解均符合事实，无需调整。（非逐句人工审核）"
+}

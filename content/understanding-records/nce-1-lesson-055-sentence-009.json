@@ -1,0 +1,127 @@
+{
+  "chinese": "索耶先生下班回家。",
+  "intent": "陈述索耶先生结束工作后回到家中的日常行为。",
+  "comparison": {
+    "chinese": "中文把来源“下班”直接嵌在动作“回家”前面，说成“下班回家”；英文先讲“回家”这个核心动作，再用 from work 补充说明离开工作地点。",
+    "english": "Mr. Sawyer comes home from work.",
+    "steps": [
+      {
+        "label": "①确认主语与核心动作",
+        "text": "Mr. Sawyer comes home",
+        "explanation": "开头先交代是谁、做了什么——索耶先生动身回到家里，构成句子主干。"
+      },
+      {
+        "label": "②用介词短语补充来源",
+        "text": "from work",
+        "explanation": "紧跟 home 后面，说明这个“回家”是从工作场所出发，对应中文“下班回家”的来源部分。"
+      }
+    ],
+    "takeaway": "英文把来源信息放在动作后面，中文则常把来源提前嵌进动作表达里。"
+  },
+  "backbone": {
+    "text": "Mr. Sawyer comes home.",
+    "meaning": "索耶先生回到家中。"
+  },
+  "structureNotes": [
+    {
+      "title": "home 的词性",
+      "text": "这里 home 是地点副词，直接跟在不及物动词 come 后面作状语，表示“回到家”，前面不需要加 to。"
+    },
+    {
+      "title": "from work 的作用",
+      "text": "from work 是介词短语补充来源，说明 home 是从哪里来，对应“下班”的含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Mr. Sawyer",
+      "role": "主语",
+      "explanation": "指索耶先生，是动作的发出者。"
+    },
+    {
+      "text": "comes home",
+      "role": "谓语",
+      "explanation": "表示“回到家”的动作，home 是地点副词作状语。"
+    },
+    {
+      "text": "from work",
+      "role": "介词短语作状语",
+      "explanation": "补充说明回家的出发点，即从工作场所离开。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Mr.",
+      "meaning": "先生（称呼男士的前缀）",
+      "pos": "名词缩写",
+      "phonetic": "/ˈmɪstə/"
+    },
+    {
+      "text": "Sawyer",
+      "meaning": "索耶（姓氏）",
+      "pos": "名词",
+      "phonetic": "/ˈsɔːjə/"
+    },
+    {
+      "text": "comes",
+      "meaning": "来，来到",
+      "pos": "动词",
+      "phonetic": "/kʌmz/"
+    },
+    {
+      "text": "home",
+      "meaning": "回家，到家",
+      "pos": "副词",
+      "phonetic": "/həʊm/"
+    },
+    {
+      "text": "from",
+      "meaning": "从……（表示来源）",
+      "pos": "介词",
+      "phonetic": "/frəm/"
+    },
+    {
+      "text": "work.",
+      "meaning": "工作，上班",
+      "pos": "名词",
+      "phonetic": "/wɜːk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Mr. Sawyer",
+      "relation": "动作的发出者，是整句话描述的人物。",
+      "meaning": "索耶先生"
+    },
+    {
+      "text": "comes home",
+      "relation": "核心动作，交代主语完成的主要行为。",
+      "meaning": "回到家"
+    },
+    {
+      "text": "from work.",
+      "relation": "补充说明回家的出发点，对应“下班”的含义。",
+      "meaning": "从工作场所出发"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-55",
+  "sentenceId": "nce-1-lesson-055-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Mr. Sawyer comes home from work.",
+  "lesson": "Lesson 55 The Sawyer family",
+  "notes": [
+    {
+      "title": "home 的词性",
+      "text": "这里 home 是地点副词，直接跟在不及物动词 come 后面作状语，表示“回到家”，前面不需要加 to。"
+    },
+    {
+      "title": "from work 的作用",
+      "text": "from work 是介词短语补充来源，说明 home 是从哪里来，对应“下班”的含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句的语法分析、成分划分、中文翻译基本准确，仅存在两处可明确修正的小问题：1. 单词表末尾的work错误附带了原句的句号，应当移除；2. from work的状语作用原解释不够清晰，调整表述以明确说明其修饰comes home，指出来源为工作地点，原内容整体逻辑通顺，无需大幅改动。（非逐句人工审核）"
+}

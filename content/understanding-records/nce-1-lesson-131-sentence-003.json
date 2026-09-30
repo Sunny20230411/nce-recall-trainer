@@ -1,0 +1,133 @@
+{
+  "chinese": "我妻子想去埃及。",
+  "intent": "说明妻子对于出国旅行目的地的偏好与意愿，承接前一句“我们可能会出国”的话题。",
+  "comparison": {
+    "chinese": "我妻子想去埃及。",
+    "english": "My wife wants to go to Egypt.",
+    "steps": [
+      {
+        "label": "核心意愿",
+        "text": "My wife wants to...",
+        "explanation": "先点明主体“我的妻子”和核心意愿wants，说明这是妻子本人的主观想法，不是已经确定的行程安排。"
+      },
+      {
+        "label": "动作与目的地",
+        "text": "go to Egypt",
+        "explanation": "want后用带to的不定式补全意愿内容：go表示“去”，to Egypt中的to是地点介词，引出目的地埃及。"
+      }
+    ],
+    "takeaway": "英语把核心意愿wants放在主谓结构里，再用不定式补具体内容；中文常把“想去”连说，最后接目的地。"
+  },
+  "backbone": {
+    "text": "My wife wants to go to Egypt.",
+    "meaning": "我的妻子有前往埃及的主观意愿。"
+  },
+  "structureNotes": [
+    {
+      "title": "动词搭配",
+      "text": "wants后面接带to的不定式to go to Egypt，用来表示想要做的具体事情，这是want表达意愿时的常用搭配。"
+    },
+    {
+      "title": "地点介词",
+      "text": "go后面接表示目的地的名词时，需要加介词to，即go to+地点，表示前往某地，这里的Egypt是国家名，前面不需要加定冠词the。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My wife",
+      "role": "主语",
+      "explanation": "动作的发出者，也就是表达意愿的主体——说话者的妻子。"
+    },
+    {
+      "text": "wants",
+      "role": "谓语动词",
+      "explanation": "句子的核心动词，表示“想要、有意愿”，体现主语的主观想法。"
+    },
+    {
+      "text": "to go to Egypt",
+      "role": "动词不定式短语作宾语",
+      "explanation": "补充说明wants的具体内容，也就是妻子想要做的事是前往埃及。"
+    }
+  ],
+  "words": [
+    {
+      "text": "My",
+      "meaning": "我的",
+      "pos": "物主限定词（形容词性物主代词）",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "wife",
+      "meaning": "妻子",
+      "pos": "名词",
+      "phonetic": "/waɪf/"
+    },
+    {
+      "text": "wants",
+      "meaning": "想要、希望",
+      "pos": "动词（第三人称单数现在时）",
+      "phonetic": "/ˈwɒnts/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "go",
+      "meaning": "去、前往",
+      "pos": "动词（原形）",
+      "phonetic": "/ɡəʊ/"
+    },
+    {
+      "text": "to",
+      "meaning": "到、往（引出地点）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "Egypt.",
+      "meaning": "埃及",
+      "pos": "专有名词",
+      "phonetic": "/ˈiːdʒɪpt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "My wife",
+      "relation": "句子的主语，指明表达意愿的主体。",
+      "meaning": "我的妻子"
+    },
+    {
+      "text": "wants",
+      "relation": "句子的谓语，体现主语的主观意愿。",
+      "meaning": "想要"
+    },
+    {
+      "text": "to go to Egypt.",
+      "relation": "补充说明想要做的具体动作和目的地。",
+      "meaning": "去埃及"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-131",
+  "sentenceId": "nce-1-lesson-131-sentence-003",
+  "sentenceOrder": 3,
+  "english": "My wife wants to go to Egypt.",
+  "lesson": "Lesson 131 Don't be so sure!",
+  "notes": [
+    {
+      "title": "动词搭配",
+      "text": "wants后面接带to的不定式to go to Egypt，用来表示想要做的具体事情，这是want表达意愿时的常用搭配。"
+    },
+    {
+      "title": "地点介词",
+      "text": "go后面接表示目的地的名词时，需要加介词to，即go to+地点，表示前往某地，这里的Egypt是国家名，前面不需要加定冠词the。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干、结构分析、词汇音标、译文与分块基本正确，仅需把My wife的词性标注写得更规范，并补明go to Egypt中第二个to是地点介词，使两个to的功能区分更清楚。（非逐句人工审核）"
+}

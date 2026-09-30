@@ -107,6 +107,20 @@ create table sentence_hints (
   reviewed_at timestamptz
 );
 
+-- Additive teaching layer; tokens, structure groups and learner records stay separate.
+create table sentence_understanding (
+  sentence_id text primary key references sentences(id) on delete cascade,
+  content_revision integer not null check (content_revision > 0),
+  schema_version text not null,
+  rule_version text not null,
+  analysis_source text not null check (analysis_source in ('ai', 'human')),
+  analysis_status text not null check (analysis_status in ('generated', 'reviewed', 'approved')),
+  explanation jsonb not null check (jsonb_typeof(explanation) = 'object'),
+  review_note text,
+  reviewed_at timestamptz,
+  updated_at timestamptz not null default now()
+);
+
 create table content_import_jobs (
   id uuid primary key default gen_random_uuid(),
   course_id text references course_series(id) on delete set null,

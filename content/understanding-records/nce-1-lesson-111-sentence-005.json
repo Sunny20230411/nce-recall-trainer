@@ -1,0 +1,100 @@
+{
+  "chinese": "它只要三百英镑。",
+  "intent": "承接上一句“这款没那款贵”的对比，进一步补充说明这款便宜型号的具体售价水平，用only弱化价格的高昂感。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's three hundred pounds.",
+    "meaning": "它的价格是三百英镑。"
+  },
+  "structureNotes": [
+    {
+      "title": "only的修饰位置",
+      "text": "only放在be动词和表语之间，直接修饰后面的价格数目，传递“仅、才三百镑，不算贵”的语气，不需要单独生硬翻译成“它是只三百镑”。"
+    },
+    {
+      "title": "价格的常见表达",
+      "text": "英语可以直接用“It's + 金额”来表示商品售价，不必逐字补出“它的价格是”；pound表示英国货币单位“英镑”时常用复数形式pounds。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "主语 + 系动词",
+      "explanation": "it指代正在谈论的这款便宜型号，is作系动词，与后面的表语部分共同构成句子主干。"
+    },
+    {
+      "text": "only three hundred pounds.",
+      "role": "表语",
+      "explanation": "说明主语的售价金额，only修饰整个价格短语，强调价格不高。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "它是（it is的缩写形式）",
+      "pos": "缩写",
+      "phonetic": "/ɪts/",
+      "text": "It's"
+    },
+    {
+      "meaning": "只，仅仅",
+      "pos": "副词",
+      "phonetic": "/ˈəʊnli/",
+      "text": "only"
+    },
+    {
+      "meaning": "三",
+      "pos": "数词",
+      "phonetic": "/θriː/",
+      "text": "three"
+    },
+    {
+      "meaning": "百",
+      "pos": "数词",
+      "phonetic": "/ˈhʌndrəd/",
+      "text": "hundred"
+    },
+    {
+      "meaning": "英镑（pound的复数形式）",
+      "pos": "名词",
+      "phonetic": "/paʊndz/",
+      "text": "pounds."
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's",
+      "relation": "指代正在讨论的便宜型号，引出价格判断",
+      "meaning": "它是"
+    },
+    {
+      "text": "only",
+      "relation": "修饰后面的价格数额，强调价格不高",
+      "meaning": "只，仅仅"
+    },
+    {
+      "text": "three hundred pounds.",
+      "relation": "给出这款型号的具体售价金额",
+      "meaning": "三百英镑。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-111",
+  "sentenceId": "nce-1-lesson-111-sentence-005",
+  "sentenceOrder": 5,
+  "english": "It's only three hundred pounds.",
+  "lesson": "Lesson 111 The most expensive model",
+  "notes": [
+    {
+      "title": "only的修饰位置",
+      "text": "only放在be动词和表语之间，直接修饰后面的价格数目，传递“仅、才三百镑，不算贵”的语气，不需要单独生硬翻译成“它是只三百镑”。"
+    },
+    {
+      "title": "价格的常见表达",
+      "text": "英语可以直接用“It's + 金额”来表示商品售价，不必逐字补出“它的价格是”；pound表示英国货币单位“英镑”时常用复数形式pounds。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句的译文、主干、成分划分、词汇释义和分块关系整体正确。only修饰价格短语、it指代便宜型号、英镑复数用法等说明均符合语境；无需改判或删除比较。仅需对结构术语作小幅规范化表述，不影响理解。（非逐句人工审核）"
+}

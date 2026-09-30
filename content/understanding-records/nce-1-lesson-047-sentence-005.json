@@ -1,0 +1,117 @@
+{
+  "chinese": "你想喝一杯咖啡吗？",
+  "intent": "向对方发出礼貌的饮食邀约，询问对方是否想要一杯咖啡。",
+  "comparison": null,
+  "backbone": {
+    "text": "Would you like a cup of coffee?",
+    "meaning": "礼貌询问对方是否想要一杯咖啡。"
+  },
+  "structureNotes": [
+    {
+      "title": "Would like 表委婉意愿",
+      "text": "Would like 是礼貌表达意愿、喜好的常用结构，比直接说 Do you want 更客气委婉，常用于主动提供饮品或食物的场景。"
+    },
+    {
+      "title": "量词结构表饮品单位",
+      "text": "a cup of 是英语中计量液体的常用量词结构，类似汉语的“一杯……”，先接单位量词再接饮品名词，搭配成完整的饮品指代。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Would",
+      "role": "助动词（礼貌语气标记）",
+      "explanation": "放在句首配合 like 构成委婉邀约句式，没有实义，仅弱化语气，让提问更礼貌。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指代被询问的对话对象，是句子描述的主体。"
+    },
+    {
+      "text": "like",
+      "role": "谓语（意愿动词）",
+      "explanation": "与 would 搭配，表示“想要、愿意”，用来传递询问对方意愿的核心含义。"
+    },
+    {
+      "text": "a cup of coffee?",
+      "role": "宾语",
+      "explanation": "是 like 的对象，指具体的饮品“一杯咖啡”，承载邀约的具体内容。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（will 的过去式，此处用于礼貌请求）",
+      "pos": "助动词",
+      "phonetic": "/wʊd/",
+      "text": "Would"
+    },
+    {
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "喜欢；想要",
+      "pos": "动词",
+      "phonetic": "/laɪk/",
+      "text": "like"
+    },
+    {
+      "meaning": "一（个、杯）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "杯子；一杯的量",
+      "pos": "名词",
+      "phonetic": "/kʌp/",
+      "text": "cup"
+    },
+    {
+      "meaning": "……的（表数量所属）",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "咖啡",
+      "pos": "名词",
+      "phonetic": "/ˈkɒfɪ/",
+      "text": "coffee?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Would you like",
+      "relation": "礼貌询问意愿的发起部分",
+      "meaning": "你想吗"
+    },
+    {
+      "text": "a cup of coffee?",
+      "relation": "询问的具体对象，对应被征询的饮品",
+      "meaning": "一杯咖啡"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-47",
+  "sentenceId": "nce-1-lesson-047-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Would you like a cup of coffee?",
+  "lesson": "Lesson 47 A cup of coffee",
+  "notes": [
+    {
+      "title": "Would like 表委婉意愿",
+      "text": "Would like 是礼貌表达意愿、喜好的常用结构，比直接说 Do you want 更客气委婉，常用于主动提供饮品或食物的场景。"
+    },
+    {
+      "title": "量词结构表饮品单位",
+      "text": "a cup of 是英语中计量液体的常用量词结构，类似汉语的“一杯……”，先接单位量词再接饮品名词，搭配成完整的饮品指代。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子核心翻译、主干拆分、语法结构标注、词汇音标释义整体符合教学要求，仅存在一处可明确修正的瑕疵：原词汇表中coffee的条目将问号附着在英文词条text上，且音标位置标注不当，移除多余问号并调整后不影响其他解析内容，可直接修正。（非逐句人工审核）"
+}

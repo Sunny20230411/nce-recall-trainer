@@ -1,0 +1,132 @@
+{
+  "chinese": "但他的妻子并不十分幸运。",
+  "intent": "承接前文转折，对比Nigel的幸运，说明他的妻子远没有那么幸运。",
+  "comparison": {
+    "chinese": "上句“Nigel is a very lucky man”正向强调Nigel非常幸运；本句用But引出his wife isn't very lucky，说明幸运程度明显较低。两小句在同一对比框架内并列，形成夫妻境遇的反差。",
+    "english": "The previous clause states Nigel is very lucky; the connected clause contrasts this by saying his wife isn't very lucky. But marks the turn, while isn't very lucky negates the degree rather than stating she is entirely unlucky.",
+    "steps": [
+      {
+        "label": "前向正项",
+        "text": "Nigel is a very lucky man.",
+        "explanation": "用very lucky正向描述Nigel，构成后续对比的参照。"
+      },
+      {
+        "label": "转折标记",
+        "text": "But",
+        "explanation": "提示后一句与前一句在幸运程度上形成反差。"
+      },
+      {
+        "label": "后向对比项",
+        "text": "his wife isn't very lucky.",
+        "explanation": "isn't very lucky不是完全否定运气，而是说明她远没有Nigel那么幸运。"
+      }
+    ],
+    "takeaway": "But前后构成对比；isn't very lucky表示幸运程度不高，而不是绝对的厄运。"
+  },
+  "backbone": {
+    "text": "But his wife isn't very lucky.",
+    "meaning": "但是他的妻子并不十分幸运。"
+  },
+  "structureNotes": [
+    {
+      "title": "转折连接词But",
+      "text": "位于句首的But承接上一句内容，直接形成和“Nigel很幸运”的语义对比，清晰突出两人境遇的反差。"
+    },
+    {
+      "title": "否定式表语结构",
+      "text": "isn't very lucky是主系表结构的否定形式，其中very是程度副词修饰lucky；否定作用于very lucky，意思是“并不十分幸运”，不等于“完全没有运气”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "But",
+      "role": "句首转折连词",
+      "explanation": "承接上一句“Nigel是个非常幸运的人”，引出与前文相反或相对的情况。"
+    },
+    {
+      "text": "his wife",
+      "role": "句子主语",
+      "explanation": "指代前面提到的Nigel的妻子，是本句描述的核心对象。"
+    },
+    {
+      "text": "isn't very lucky.",
+      "role": "系表结构（否定式谓语）",
+      "explanation": "is和not缩写为isn't，与表语lucky构成否定判断；very修饰lucky，整体说明她并不十分幸运，而不是说她完全不幸运。"
+    }
+  ],
+  "words": [
+    {
+      "text": "But",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "物主代词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "wife",
+      "meaning": "妻子",
+      "pos": "名词",
+      "phonetic": "/waɪf/"
+    },
+    {
+      "text": "isn't",
+      "meaning": "不是（is not的缩写）",
+      "pos": "动词（be动词否定缩写）",
+      "phonetic": "/ˈɪznt/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "lucky.",
+      "meaning": "幸运的",
+      "pos": "形容词",
+      "phonetic": "/ˈlʌki/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "But",
+      "meaning": "但是",
+      "relation": "承接上句，引出与Nigel幸运状态相对的情况。"
+    },
+    {
+      "text": "his wife",
+      "meaning": "他的妻子",
+      "relation": "本句主语，被说明的对象。"
+    },
+    {
+      "text": "isn't very lucky.",
+      "meaning": "并不十分幸运",
+      "relation": "否定式系表结构，说明她的幸运程度不高。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-93",
+  "sentenceId": "nce-1-lesson-093-sentence-009",
+  "sentenceOrder": 9,
+  "english": "But his wife isn't very lucky.",
+  "lesson": "Lesson 93 Our new neighbour",
+  "notes": [
+    {
+      "title": "转折连接词But",
+      "text": "位于句首的But承接上一句内容，直接形成和“Nigel很幸运”的语义对比，清晰突出两人境遇的反差。"
+    },
+    {
+      "title": "否定式表语结构",
+      "text": "isn't very lucky是主系表结构的否定形式，其中very是程度副词修饰lucky；否定作用于very lucky，意思是“并不十分幸运”，不等于“完全没有运气”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体可正确讲解But连接的主系表否定句，词块、主干、结构关系与音标均准确。修正中文主干、表语解释和parts译文，使其与isn't very lucky的否定程度一致；将句末标点归入单词phonetic条目，不单独作为词条。（非逐句人工审核）"
+}

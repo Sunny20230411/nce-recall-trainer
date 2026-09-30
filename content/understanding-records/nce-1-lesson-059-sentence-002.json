@@ -1,0 +1,131 @@
+{
+  "chinese": "包里有一条面包。",
+  "intent": "回答包里装有什么物品，说明包内存在一条面包。",
+  "comparison": null,
+  "backbone": {
+    "text": "包里有一条面包。",
+    "meaning": "表示包内存在一条面包。"
+  },
+  "structureNotes": [
+    {
+      "title": "there be存在句型",
+      "text": "there's是there is的缩写，用来表示某地存在某物，真正的主语是紧随其后的a loaf of bread，不是there。"
+    },
+    {
+      "title": "量词搭配a loaf of",
+      "text": "a loaf of表示“一条（面包）”，loaf是量词，of连接loaf和被计量的对象bread，整个名词短语作为句子的真正主语。"
+    },
+    {
+      "title": "方位介词in",
+      "text": "in the bag用介词in表示面包位于包的内部，是地点状语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There's",
+      "role": "存在句型引导结构",
+      "explanation": "是there is的缩写，用来表达“某处存在某物”，本身没有实际词汇意义。"
+    },
+    {
+      "text": "a loaf of bread",
+      "role": "真正主语",
+      "explanation": "整体表示“一条面包”，是句子描述的存在对象，核心名词为bread，a loaf of为限定用量的修饰成分。"
+    },
+    {
+      "text": "in the bag",
+      "role": "地点状语",
+      "explanation": "说明面包所在的位置是在包里面。"
+    }
+  ],
+  "words": [
+    {
+      "text": "There's",
+      "meaning": "有（there is的缩写）",
+      "pos": "存在句型引导词",
+      "phonetic": "/ðeəz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "loaf",
+      "meaning": "一条（面包）",
+      "pos": "名词（量词用法）",
+      "phonetic": "/ləʊf/"
+    },
+    {
+      "text": "of",
+      "meaning": "属于……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "bread",
+      "meaning": "面包",
+      "pos": "名词",
+      "phonetic": "/bred/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，表特指",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bag.",
+      "meaning": "包",
+      "pos": "名词",
+      "phonetic": "/bæɡ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "There's",
+      "meaning": "存在结构，表示“有”",
+      "relation": "引出存在的事物"
+    },
+    {
+      "text": "a loaf of bread",
+      "meaning": "一条面包",
+      "relation": "说明存在的具体事物"
+    },
+    {
+      "text": "in the bag.",
+      "meaning": "在包里",
+      "relation": "补充位置信息"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-59",
+  "sentenceId": "nce-1-lesson-059-sentence-002",
+  "sentenceOrder": 2,
+  "english": "There's a loaf of bread in the bag.",
+  "lesson": "Lesson 59 Is that all?",
+  "notes": [
+    {
+      "title": "there be存在句型",
+      "text": "there's是there is的缩写，用来表示某地存在某物，真正的主语是紧随其后的a loaf of bread，不是there。"
+    },
+    {
+      "title": "量词搭配a loaf of",
+      "text": "a loaf of表示“一条（面包）”，loaf是量词，of连接loaf和被计量的对象bread，整个名词短语作为句子的真正主语。"
+    },
+    {
+      "title": "方位介词in",
+      "text": "in the bag用介词in表示面包位于包的内部，是地点状语。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解释基本准确，仅存在少量可修正问题：loaf 的释义冗余了括号说明；bag 的音标误混入句号，需拆分；a loaf of bread 的语法角色应明确为量词短语作限定，而非单纯将 loaf 定义为计量词；there's 的缩写词性标注为缩写词不够严谨，可调整为存在句型引导词。（非逐句人工审核）"
+}

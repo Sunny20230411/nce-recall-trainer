@@ -1,0 +1,183 @@
+{
+  "chinese": "索耶先生通常看报纸，但有时他和妻子一起看电视。",
+  "intent": "描述索耶先生日常晚间的两种常见休闲活动，说明不同时间他的行为变化。",
+  "comparison": {
+    "chinese": "中文用“但有时他和妻子看电视”承接前半句的日常行为，直接点明行为发生的频率和参与主体。",
+    "english": "英文用转折连词but连接两个独立分句，后半句把频率副词sometimes放在句首，主语he and his wife放在频率词之后。",
+    "steps": [
+      {
+        "label": "先说明日常惯常行为",
+        "text": "Mr. Sawyer usually reads his newspaper",
+        "explanation": "前半句以主语Mr. Sawyer开头，用usually点明这是通常的习惯动作，意思是索耶先生平时的晚间活动是看报纸。"
+      },
+      {
+        "label": "再转折到另一种偶发行为",
+        "text": "but sometimes he and his wife watch television",
+        "explanation": "but表示前后行为形成对照，sometimes点明这是不常发生的情况；主语是he and his wife两人，所以动词用原形watch，不能像前半句那样用第三人称单数形式。"
+      }
+    ],
+    "takeaway": "并列转折的复合句中，两个分句各自有独立主语和对应的动词形式：前半句主语是单人Mr. Sawyer，一般现在时动词用第三人称单数reads；后半句主语是两个人，动词用原形watch。"
+  },
+  "backbone": {
+    "text": "Mr. Sawyer reads his newspaper, but he and his wife watch television.",
+    "meaning": "索耶先生通常会看报纸，有时他和妻子会一起看电视。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列转折复合句结构",
+      "text": "连词but连接两个表意完整的独立分句，前后分句地位平等，形成行为上的对比关系，没有主从依附。"
+    },
+    {
+      "title": "频率副词的位置差异（补充语法提示）",
+      "text": "原句里前半句的频度副词usually放在主语和行为动词reads之间，后半句的频度副词sometimes放在句首，两种都是自然的正确表达，用来强调行为发生的不同频率；翻译和造句时频率副词的语序可根据表达需要灵活调整，不必完全照搬。"
+    },
+    {
+      "title": "后半句的并列主语",
+      "text": "he and his wife是由and连接的并列主语，代表两个人共同发出watch television这个动作，因此谓语动词用原形watch。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Mr. Sawyer usually reads his newspaper",
+      "role": "转折复合句的前一个独立分句",
+      "explanation": "语义上说明索耶先生日常惯常的晚间休闲动作，作为后半句转折的参照。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "连接两个独立分句，提示前后内容形成行为对比。"
+    },
+    {
+      "text": "sometimes he and his wife watch television",
+      "role": "转折复合句的后一个独立分句",
+      "explanation": "语义上说明偶发出现的、和妻子一起的休闲活动，和前半句的单人日常活动形成对照。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "先生（用于男子姓氏前的尊称）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪstə/",
+      "text": "Mr."
+    },
+    {
+      "meaning": "索耶（姓氏）",
+      "pos": "名词",
+      "phonetic": "/ˈsɔːjə/",
+      "text": "Sawyer"
+    },
+    {
+      "meaning": "通常地",
+      "pos": "副词",
+      "phonetic": "/ˈjuːʒəli/",
+      "text": "usually"
+    },
+    {
+      "meaning": "阅读；看（书报等）",
+      "pos": "动词（第三人称单数现在时）",
+      "phonetic": "/riːdz/",
+      "text": "reads"
+    },
+    {
+      "meaning": "他的",
+      "pos": "物主代词",
+      "phonetic": "/hɪz/",
+      "text": "his"
+    },
+    {
+      "meaning": "报纸",
+      "pos": "名词",
+      "phonetic": "/ˈnjuːzpeɪpə/",
+      "text": "newspaper,"
+    },
+    {
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/",
+      "text": "but"
+    },
+    {
+      "meaning": "有时；间或",
+      "pos": "副词",
+      "phonetic": "/ˈsʌmtaɪmz/",
+      "text": "sometimes"
+    },
+    {
+      "meaning": "他",
+      "pos": "代词（主格）",
+      "phonetic": "/hiː/",
+      "text": "he"
+    },
+    {
+      "meaning": "和；与",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "他的",
+      "pos": "物主代词",
+      "phonetic": "/hɪz/",
+      "text": "his"
+    },
+    {
+      "meaning": "妻子",
+      "pos": "名词",
+      "phonetic": "/waɪf/",
+      "text": "wife"
+    },
+    {
+      "meaning": "观看；注视",
+      "pos": "动词（原形）",
+      "phonetic": "/wɒtʃ/",
+      "text": "watch"
+    },
+    {
+      "meaning": "电视（节目）",
+      "pos": "名词",
+      "phonetic": "/ˈtelɪvɪʒn/",
+      "text": "television."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Mr. Sawyer usually reads his newspaper,",
+      "relation": "前半分句，说明索耶先生日常惯常的晚间休闲活动",
+      "meaning": "索耶先生通常看他的报纸，"
+    },
+    {
+      "text": "but",
+      "relation": "转折连接词，引出和前文对照的另一种行为",
+      "meaning": "但"
+    },
+    {
+      "text": "sometimes he and his wife watch television.",
+      "relation": "后半分句，说明偶发的、夫妻共同参与的晚间休闲活动",
+      "meaning": "有时他和妻子一起看电视。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-55",
+  "sentenceId": "nce-1-lesson-055-sentence-013",
+  "sentenceOrder": 13,
+  "english": "Mr. Sawyer usually reads his newspaper, but sometimes he and his wife watch television.",
+  "lesson": "Lesson 55 The Sawyer family",
+  "notes": [
+    {
+      "title": "并列转折复合句结构",
+      "text": "连词but连接两个表意完整的独立分句，前后分句地位平等，形成行为上的对比关系，没有主从依附。"
+    },
+    {
+      "title": "频率副词的位置差异（补充语法提示）",
+      "text": "原句里前半句的频度副词usually放在主语和行为动词reads之间，后半句的频度副词sometimes放在句首，两种都是自然的正确表达，用来强调行为发生的不同频率；翻译和造句时频率副词的语序可根据表达需要灵活调整，不必完全照搬。"
+    },
+    {
+      "title": "后半句的并列主语",
+      "text": "he and his wife是由and连接的并列主语，代表两个人共同发出watch television这个动作，因此谓语动词用原形watch。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，对句子结构、动词主谓一致、频率副词用法的解释都符合原文语义，词项词性、音标、词义标注准确。仅存在两处可明确修正的问题：一是backbone的主干文本保留了原句的频率副词usually，未按照主干简化要求省略修饰性的频率副词，导致主干冗余；二是前两个结构说明项未明确标注为补充说明的语法提示，易被误读为必须照搬的句式模板。（非逐句人工审核）"
+}

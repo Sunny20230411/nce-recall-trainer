@@ -1,0 +1,132 @@
+{
+  "chinese": "是的，我从1976年起就住在这里。",
+  "intent": "确认前面的说法，并用具体年份说明自己在此居住的起始时间。",
+  "comparison": {
+    "chinese": "中文常说“从1976年起就住在这里”，把时间起点放在“住”之前；英文则先说“我一直在这里”，再用 since 1976 补上起点。",
+    "english": "I've been here since 1976.",
+    "steps": [
+      {
+        "label": "先确定基本状态",
+        "text": "I've been here",
+        "explanation": "be here 表示“在这里、在此居住”，have been 强调从过去持续到现在。"
+      },
+      {
+        "label": "再接时间起点",
+        "text": "since 1976",
+        "explanation": "since 引导一个时间起点，说明前面的持续状态从1976年开始。"
+      }
+    ],
+    "takeaway": "理解时先抓住“一直在这里”，再理解 since 1976 是交代这个状态的起点。"
+  },
+  "backbone": {
+    "text": "I've been here since 1976.",
+    "meaning": "我从1976年起就一直住在这里。"
+  },
+  "structureNotes": [
+    {
+      "title": "have been here 表示持续状态",
+      "text": "have been 不只是“曾经是”，而是把“在这里居住”这一状态从过去延续到现在。"
+    },
+    {
+      "title": "since 给出状态起点",
+      "text": "since 1976 说明从1976年这个时间点开始，状态就已经成立，并持续到说话时。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I've",
+      "role": "主语加助动词缩约形式",
+      "explanation": "I 是主语，'ve 是 have 的口语缩约形式，与 been 一起构成现在完成时。"
+    },
+    {
+      "text": "been",
+      "role": "be 动词的过去分词",
+      "explanation": "与 have 结合，表达从过去持续到现在的居住状态。"
+    },
+    {
+      "text": "here",
+      "role": "地点副词",
+      "explanation": "表示所在的地方，是动词 been 的状态指向。"
+    },
+    {
+      "text": "since 1976",
+      "role": "时间起点表达",
+      "explanation": "说明 been here 这一状态从1976年开始。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes,",
+      "meaning": "是的",
+      "pos": "应答副词",
+      "phonetic": "/jes/"
+    },
+    {
+      "text": "I've",
+      "meaning": "我已经（I have 的缩约形式）",
+      "pos": "代词助动词缩约形式",
+      "phonetic": "/aɪv/"
+    },
+    {
+      "text": "been",
+      "meaning": "在、处于（be 的过去分词）",
+      "pos": "动词",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "here",
+      "meaning": "这里",
+      "pos": "副词",
+      "phonetic": "/hɪə(r)/"
+    },
+    {
+      "text": "since",
+      "meaning": "从……以来",
+      "pos": "介词",
+      "phonetic": "/sɪns/"
+    },
+    {
+      "text": "1976.",
+      "meaning": "1976年",
+      "pos": "数词名词",
+      "phonetic": "/ˌnaɪntiːn ˈhʌndrəd ənd ˈsevnti sɪks/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes,",
+      "meaning": "是的",
+      "relation": "回应前文，确认对方说的内容"
+    },
+    {
+      "text": "I've been here",
+      "meaning": "我一直在这里居住",
+      "relation": "说明自己所处的状态"
+    },
+    {
+      "text": "since 1976.",
+      "meaning": "从1976年起",
+      "relation": "补充说明居住状态开始的时间起点"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-89",
+  "sentenceId": "nce-1-lesson-089-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Yes, I've been here since 1976.",
+  "lesson": "Lesson 89 For sale",
+  "notes": [
+    {
+      "title": "have been here 表示持续状态",
+      "text": "have been 不只是“曾经是”，而是把“在这里居住”这一状态从过去延续到现在。"
+    },
+    {
+      "title": "since 给出状态起点",
+      "text": "since 1976 说明从1976年这个时间点开始，状态就已经成立，并持续到说话时。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析忠实原文，主干、结构、短语搭配和比较说明基本准确；仅需把 Yes, 的词性从“感叹词”调整为更贴切的“应答副词”。（非逐句人工审核）"
+}

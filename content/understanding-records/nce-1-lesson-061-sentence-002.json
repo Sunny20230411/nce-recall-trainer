@@ -1,0 +1,80 @@
+{
+  "chinese": "我觉得不舒服。",
+  "intent": "用来回答对方询问身体不适的问题，表述自身的病痛状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "I feel ill.",
+    "meaning": "我觉得身体不舒服。"
+  },
+  "structureNotes": [
+    {
+      "title": "feel的系动词用法",
+      "text": "本句中的feel是系动词，不表示具体的触摸动作，而是表达自身的主观感受；ill是形容词作表语，直接描述主语I的状态，与中文“我觉得不舒服”的语义完全对应，不需要额外添加动词衔接。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人本人，说明感受的主体是“我”。"
+    },
+    {
+      "text": "feel",
+      "role": "系动词",
+      "explanation": "此处不译作“摸”，而是引出说话人的主观身体感受，相当于中文里的“觉得、感到”。"
+    },
+    {
+      "text": "ill.",
+      "role": "表语",
+      "explanation": "形容词作表语，描述主语当前的身体状态，即生病、不舒服。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "feel",
+      "meaning": "觉得，感到",
+      "pos": "系动词",
+      "phonetic": "/fiːl/"
+    },
+    {
+      "text": "ill.",
+      "meaning": "生病的，不舒服的",
+      "pos": "形容词",
+      "phonetic": "/ɪl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "描述对象，明确感受的主体是说话人本人",
+      "meaning": "我"
+    },
+    {
+      "text": "feel ill.",
+      "relation": "说明主体的身体状态，直接回应健康状况的询问",
+      "meaning": "觉得不舒服。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-61",
+  "sentenceId": "nce-1-lesson-061-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I feel ill.",
+  "lesson": "Lesson 61 A bad cold",
+  "notes": [
+    {
+      "title": "feel的系动词用法",
+      "text": "本句中的feel是系动词，不表示具体的触摸动作，而是表达自身的主观感受；ill是形容词作表语，直接描述主语I的状态，与中文“我觉得不舒服”的语义完全对应，不需要额外添加动词衔接。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确完整，仅存在一处可优化的细节：ill的音标拆分时误将句末句号纳入标音范围，不符合常规英语音标注写规范，其余内容均符合校验规则，无需额外修改。（非逐句人工审核）"
+}

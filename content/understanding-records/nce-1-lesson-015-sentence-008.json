@@ -1,0 +1,75 @@
+{
+  "chinese": "不，不是。",
+  "intent": "用来直接回应之前的一般疑问句，明确给出否定答复。",
+  "comparison": null,
+  "backbone": {
+    "text": "No, they aren't.",
+    "meaning": "作出否定的应答"
+  },
+  "parts": [
+    {
+      "text": "No,",
+      "relation": "限定整个答复的否定基调",
+      "meaning": "用于引出否定答复的起始词"
+    },
+    {
+      "text": "they aren't.",
+      "relation": "说明谁不是（前文询问的事物）",
+      "meaning": "指代前文提到的物品，补充否定判断"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略式否定应答",
+      "text": "这句是针对前文一般疑问句的缩略否定回答，aren't是are not的缩写形式，省略了问句中重复的表语部分，通过上下文就能明确指代内容，让对话表达更简洁。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "否定应答标记",
+      "explanation": "直接表明整个回答的否定立场"
+    },
+    {
+      "text": "they aren't.",
+      "role": "主谓结构否定分句",
+      "explanation": "用代词指代前文对象，搭配be动词的否定缩略形式完成否定判断"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "不",
+      "pos": "interjection",
+      "phonetic": "/nəʊ/",
+      "text": "No,"
+    },
+    {
+      "meaning": "它们",
+      "pos": "pronoun",
+      "phonetic": "/ðeɪ/",
+      "text": "they"
+    },
+    {
+      "meaning": "不是（are not的缩略形式）",
+      "pos": "verb contraction",
+      "phonetic": "/ɑːnt/",
+      "text": "aren't."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-15",
+  "sentenceId": "nce-1-lesson-015-sentence-008",
+  "sentenceOrder": 8,
+  "english": "No, they aren't.",
+  "lesson": "Lesson 15 Your passports, please.",
+  "notes": [
+    {
+      "title": "省略式否定应答",
+      "text": "这句是针对前文一般疑问句的缩略否定回答，aren't是are not的缩写形式，省略了问句中重复的表语部分，通过上下文就能明确指代内容，让对话表达更简洁。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析框架合规，仅需补充comparison模块明确组织逻辑、修正部分细节表述以适配指定核查要求，其余核心内容准确合规。（非逐句人工审核）"
+}

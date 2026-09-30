@@ -1,0 +1,126 @@
+{
+  "chinese": "医生，他怎么了？",
+  "intent": "就医场景中，陪同病人的家属向医生询问病人的身体状况，了解他的不适原因。",
+  "comparison": {
+    "chinese": "中文把称呼语放在句首，直接问‘他怎么了’；英文则把询问内容放在前面，称呼语 doctor 放在句末。",
+    "english": "What's wrong with him, doctor?",
+    "steps": [
+      {
+        "label": "称呼语位置差异",
+        "text": "中文常说‘医生，他怎么了？’，把称呼放在最前面；英文说成 What's wrong with him, doctor?，把称呼放在句末。",
+        "explanation": "两种说法意思完全一样，只是语序习惯不同。"
+      },
+      {
+        "label": "疑问结构 What's wrong with",
+        "text": "‘某人怎么了’直接用 What's wrong with + 人来表达，介词 with 不能换成别的。",
+        "explanation": "with 后面接的就是被询问状况的对象，这里指病人 he 的宾格 him。"
+      }
+    ],
+    "takeaway": "称呼语 doctor 在句末只是英文的语用习惯，不改变句子核心疑问。"
+  },
+  "backbone": {
+    "text": "What's wrong with him",
+    "meaning": "（某人）他哪里不舒服、出什么问题了。"
+  },
+  "structureNotes": [
+    {
+      "title": "固定疑问表达",
+      "text": "What's wrong with sb. 是询问某人出了什么问题、哪里不舒服的日常固定句型，with 后接宾格的人。"
+    },
+    {
+      "title": "句末称呼语",
+      "text": "doctor 放在句末后用逗号隔开，是对听话医生的呼语，单独成块，不参与主句语法结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's",
+      "role": "疑问代词+系动词缩写",
+      "explanation": "What is 的缩写，用来引导询问‘怎么了’的核心疑问结构，其中 What 为疑问代词，is 是系动词。"
+    },
+    {
+      "text": "wrong",
+      "role": "表语形容词",
+      "explanation": "表示‘不对劲、有问题、不舒服’，和 be 动词搭配作表语，说明主语 what 指代的异常状况。"
+    },
+    {
+      "text": "with him",
+      "role": "介词短语限定询问对象",
+      "explanation": "介词 with 引出被询问状况的对象 him，说明不适的是这位男性病人。"
+    },
+    {
+      "text": "doctor?",
+      "role": "呼语",
+      "explanation": "直接称呼对话对象医生，属于句子外的呼语，带问号表示整句是向医生发问。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What's",
+      "meaning": "是什么（what is 的缩写，引导疑问）",
+      "pos": "缩略形式",
+      "phonetic": "/wɒts/"
+    },
+    {
+      "text": "wrong",
+      "meaning": "有问题的、不对劲的",
+      "pos": "形容词",
+      "phonetic": "/rɒŋ/"
+    },
+    {
+      "text": "with",
+      "meaning": "关于、对于",
+      "pos": "介词",
+      "phonetic": "/wɪð/"
+    },
+    {
+      "text": "him,",
+      "meaning": "他（he 的宾格）",
+      "pos": "代词（宾格）",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "doctor?",
+      "meaning": "医生",
+      "pos": "名词",
+      "phonetic": "/ˈdɒktə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What's wrong",
+      "relation": "发起核心疑问的固定开头",
+      "meaning": "……怎么了？"
+    },
+    {
+      "text": "with him,",
+      "relation": "介词 with 引出被询问的对象，说明不适发生在他身上",
+      "meaning": "他（他的身体状况）"
+    },
+    {
+      "text": "doctor?",
+      "relation": "呼语，指明这句话是向医生发出的询问",
+      "meaning": "医生？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-61",
+  "sentenceId": "nce-1-lesson-061-sentence-004",
+  "sentenceOrder": 4,
+  "english": "What's wrong with him, doctor?",
+  "lesson": "Lesson 61 A bad cold",
+  "notes": [
+    {
+      "title": "固定疑问表达",
+      "text": "What's wrong with sb. 是询问某人出了什么问题、哪里不舒服的日常固定句型，with 后接宾格的人。"
+    },
+    {
+      "title": "句末称呼语",
+      "text": "doctor 放在句末后用逗号隔开，是对听话医生的呼语，单独成块，不参与主句语法结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确清晰，符合该就医场景下的语境含义。仅存在两处可明确修正的细节问题：一是单词表中 What's 的词义标注不够准确，原解释将其等同于普通be动词“是”，未点明其作为what与is缩写的疑问指代属性；二是结构分析中对 wrong 的成分定位有偏差，原将 wrong 标注为表语形容词，但该句型中疑问代词 what 才是主语、wrong 为表语，需修正成分定位以符合语法事实。其余翻译、分块、对比说明、音标与语境解释均无问题。（非逐句人工审核）"
+}

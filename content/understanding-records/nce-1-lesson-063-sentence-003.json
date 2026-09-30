@@ -1,0 +1,168 @@
+{
+  "chinese": "我可以看看他吗，威廉斯太太？",
+  "intent": "医生向病人家属礼貌提出请求，希望查看生病的病人，征得对方同意。",
+  "comparison": {
+    "chinese": "“我可以看看他吗，威廉斯太太？”",
+    "english": "“Can I see him please, Mrs. Williams?”",
+    "steps": [
+      {
+        "label": "提出请求的结构",
+        "text": "Can I see him",
+        "explanation": "情态动词Can放在主语I之前，构成礼貌请求，比直接说I want to see him更委婉客气。"
+      },
+      {
+        "label": "please的位置",
+        "text": "see him please,",
+        "explanation": "please放在动宾短语see him之后、呼语之前，用于缓和语气，既对应直译的“请”，也起到“劳驾、麻烦您”的礼貌缓冲作用，符合英文日常对话中插在句中的使用习惯。"
+      },
+      {
+        "label": "称呼语位置",
+        "text": "Mrs. Williams?",
+        "explanation": "英文把对话接收者的称呼放在句末，用逗号和前面的请求隔开；中文习惯把称呼放在句首或句尾，这里译文和英文位置保持一致。"
+      }
+    ],
+    "takeaway": "Can I...please是典型的礼貌请求句式，Can前置帮助构成疑问，please软化语气，呼语可放在句末点明对话对象。"
+  },
+  "backbone": {
+    "text": "Can I see him",
+    "meaning": "我能不能看看他"
+  },
+  "structureNotes": [
+    {
+      "title": "Can引导的请求问句",
+      "text": "Can放在句首、主语I之前，主要用于提出客气请求，带有礼貌征询许可的意味，既暗含医生具备查看病人身份资质的基础能力，语气也比直接说I want to see him更委婉，和Do you mind if I...的礼貌程度相近。"
+    },
+    {
+      "title": "please的作用",
+      "text": "please在这里是常用的礼貌标记，本身对应“请”的含义，主要用来缓和请求的语气，让提问更尊重对方。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Can",
+      "role": "情态动词",
+      "explanation": "放在句首引导礼貌请求，后接动词原形see，帮助构成疑问语序。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话的医生本人。"
+    },
+    {
+      "text": "see",
+      "role": "谓语核心动词",
+      "explanation": "表示“查看、见到”，这里指医生查看病人。"
+    },
+    {
+      "text": "him",
+      "role": "动词宾语",
+      "explanation": "指代生病的男性患者。"
+    },
+    {
+      "text": "please",
+      "role": "礼貌语气副词",
+      "explanation": "软化请求语气，使表达更委婉客气。"
+    },
+    {
+      "text": "Mrs. Williams",
+      "role": "呼语",
+      "explanation": "点明对话的对象是威廉斯太太，即病人的家属。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "能，可以（引导礼貌请求）",
+      "pos": "情态动词",
+      "phonetic": "/kæn/",
+      "text": "Can"
+    },
+    {
+      "meaning": "我",
+      "pos": "代词（主格）",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "看见，查看",
+      "pos": "动词",
+      "phonetic": "/siː/",
+      "text": "see"
+    },
+    {
+      "meaning": "他（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɪm/",
+      "text": "him"
+    },
+    {
+      "meaning": "请（礼貌语气词）",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/",
+      "text": "please,"
+    },
+    {
+      "meaning": "太太（对已婚女性的尊称）",
+      "pos": "缩写名词",
+      "phonetic": "/ˈmɪsɪz/",
+      "text": "Mrs."
+    },
+    {
+      "meaning": "威廉斯（姓氏）",
+      "pos": "名词",
+      "phonetic": "/ˈwɪljəmz/",
+      "text": "Williams?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Can",
+      "relation": "礼貌引导词，引出请求，构成疑问语序",
+      "meaning": "能，可以"
+    },
+    {
+      "text": "I",
+      "relation": "请求的发出者，是句子主语",
+      "meaning": "我"
+    },
+    {
+      "text": "see",
+      "relation": "请求的核心动作，谓语动词",
+      "meaning": "看，查看"
+    },
+    {
+      "text": "him",
+      "relation": "查看的对象，指代生病的患者",
+      "meaning": "他"
+    },
+    {
+      "text": "please,",
+      "relation": "软化请求的语气标记，让表达更客气",
+      "meaning": "请"
+    },
+    {
+      "text": "Mrs. Williams?",
+      "relation": "点明对话的对象，是对家属的称呼",
+      "meaning": "威廉斯太太？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-63",
+  "sentenceId": "nce-1-lesson-063-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Can I see him please, Mrs. Williams?",
+  "lesson": "Lesson 63 Thank you, doctor.",
+  "notes": [
+    {
+      "title": "Can引导的请求问句",
+      "text": "Can放在句首、主语I之前，主要用于提出客气请求，带有礼貌征询许可的意味，既暗含医生具备查看病人身份资质的基础能力，语气也比直接说I want to see him更委婉，和Do you mind if I...的礼貌程度相近。"
+    },
+    {
+      "title": "please的作用",
+      "text": "please在这里是常用的礼貌标记，本身对应“请”的含义，主要用来缓和请求的语气，让提问更尊重对方。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确清晰，仅存在少量表述偏绝对、位置描述与实际分句顺序不符的小问题：1. structureNotes中两处关于Can、please的功能表述过于绝对，实际上在本句的就医语境中，Can既承载礼貌请求的交际功能，也暗含医生具备查看病人身份资质的基础能力含义；please虽以缓和语气为主要作用，但本身直译也对应“请”的礼貌含义，并非完全不表“请”的字面义。2. comparison中关于please位置的描述与实际文本不符，原文please放在动宾短语see him之后，please后还有逗号分隔呼语Mrs. Williams，原描述对位置的说明不够准确。其余语法成分标注、词义、音标、主干提取、语境指代均正确。（非逐句人工审核）"
+}

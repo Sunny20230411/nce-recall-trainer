@@ -1,0 +1,117 @@
+{
+  "chinese": "这个水壶里有水吗？",
+  "intent": "询问眼前这把水壶内部是否存在水",
+  "comparison": null,
+  "backbone": {
+    "text": "Is there any water",
+    "meaning": "是否存在水"
+  },
+  "parts": [
+    {
+      "text": "Is there",
+      "relation": "提出询问的起始判断",
+      "meaning": "是否存在"
+    },
+    {
+      "text": "any water",
+      "relation": "说明询问的对象事物",
+      "meaning": "任何水（用于疑问句表示不确定是否有）"
+    },
+    {
+      "text": "in this kettle?",
+      "relation": "补充水所在的具体位置",
+      "meaning": "在这把水壶里"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "there be 疑问句语序",
+      "text": "将be动词Is移到句首，形成存在句的疑问句式，直接询问某个事物是否存在。"
+    },
+    {
+      "title": "any的语境用法",
+      "text": "在疑问句里用any修饰不可数名词water，表达不确定是否有水的语气，不替换成表示肯定的some。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is there",
+      "role": "疑问引导框架",
+      "explanation": "由be动词的疑问形式和存在引导词there组成，用来开启对事物是否存在的询问"
+    },
+    {
+      "text": "any water",
+      "role": "被询问的核心主体",
+      "explanation": "作为存在句中被查询的事物，明确问句关注的内容是水"
+    },
+    {
+      "text": "in this kettle",
+      "role": "地点状语",
+      "explanation": "限定水可能存在的空间范围，把询问的场景缩小到这把水壶内部"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是（be动词的第三人称单数现在时，此处构成存在疑问句）",
+      "pos": "verb",
+      "phonetic": "/ɪz/",
+      "text": "Is"
+    },
+    {
+      "meaning": "存在引导词",
+      "pos": "pron",
+      "phonetic": "/ðeə(r)/",
+      "text": "there"
+    },
+    {
+      "meaning": "任何的（用于疑问句）",
+      "pos": "det",
+      "phonetic": "/ˈeni/",
+      "text": "any"
+    },
+    {
+      "meaning": "水",
+      "pos": "noun",
+      "phonetic": "/ˈwɔːtə(r)/",
+      "text": "water"
+    },
+    {
+      "meaning": "在…里面",
+      "pos": "prep",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这个",
+      "pos": "det",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "水壶",
+      "pos": "noun",
+      "phonetic": "/ˈketl/",
+      "text": "kettle?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-43",
+  "sentenceId": "nce-1-lesson-043-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Is there any water in this kettle?",
+  "lesson": "Lesson 43 Hurry up!",
+  "notes": [
+    {
+      "title": "there be 疑问句语序",
+      "text": "将be动词Is移到句首，形成存在句的疑问句式，直接询问某个事物是否存在。"
+    },
+    {
+      "title": "any的语境用法",
+      "text": "在疑问句里用any修饰不可数名词water，表达不确定是否有水的语气，不替换成表示肯定的some。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析整体符合要求，仅存在局部细节不严谨的小问题，可修正完善（非逐句人工审核）"
+}

@@ -1,0 +1,99 @@
+{
+  "chinese": "不用谢。",
+  "intent": "作为日常交际应答，回应对方说“Thanks, Mum.”的感谢，表达不客气、不用放在心上。",
+  "comparison": {
+    "chinese": "不用谢。",
+    "english": "That's all right.",
+    "steps": [
+      {
+        "label": "回应感谢",
+        "text": "对方先说 Thanks, Mum.（谢谢你，妈妈）。",
+        "explanation": "交际中一方表示感谢后，另一方需要给出对应的礼貌回应。"
+      },
+      {
+        "label": "固定应答",
+        "text": "That's all right. 在这里不是说“全都对”。",
+        "explanation": "它的意思相当于中文的“不用谢”“别客气”，也可回应道歉，表示“没关系”。"
+      }
+    ],
+    "takeaway": "That's all right. 是日常礼貌应答，随语境表示“不用谢”或“没关系”。"
+  },
+  "backbone": {
+    "text": "That's all right.",
+    "meaning": "回应感谢：不用客气，不必道谢。"
+  },
+  "structureNotes": [
+    {
+      "title": "That's 是缩写",
+      "text": "That's 是 That is 的缩写，口语中常见；句末标点已包含在最后一个词 right. 中。"
+    },
+    {
+      "title": "all right 作表语",
+      "text": "all right 在这里不是“完全正确”，而是作为固定表达，随语境回应感谢或道歉。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That's",
+      "role": "主语与系动词",
+      "explanation": "That 作主语，'s 是 is 的缩写，整体为 That is。"
+    },
+    {
+      "text": "all right.",
+      "role": "表语",
+      "explanation": "作表语，构成固定交际用语，此处表示不用谢、不用客气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "That's",
+      "meaning": "那是（that is 的缩写）",
+      "pos": "代词 + be动词缩写",
+      "phonetic": "/ðæts/"
+    },
+    {
+      "text": "all",
+      "meaning": "完全；都",
+      "pos": "限定词",
+      "phonetic": "/ɔːl/"
+    },
+    {
+      "text": "right.",
+      "meaning": "合适的；固定表达中表不用谢、没关系",
+      "pos": "形容词",
+      "phonetic": "/raɪt/."
+    }
+  ],
+  "parts": [
+    {
+      "text": "That's",
+      "relation": "引出应答语的主语与系动词",
+      "meaning": "那是（that is 的缩写）"
+    },
+    {
+      "text": "all right.",
+      "relation": "与前面的 That is 搭配组成固定交际应答",
+      "meaning": "不用谢；没关系"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-65",
+  "sentenceId": "nce-1-lesson-065-sentence-017",
+  "sentenceOrder": 17,
+  "english": "That's all right.",
+  "lesson": "Lesson 65 Not a baby",
+  "notes": [
+    {
+      "title": "That's 是缩写",
+      "text": "That's 是 That is 的缩写，口语中常见；句末标点已包含在最后一个词 right. 中。"
+    },
+    {
+      "title": "all right 作表语",
+      "text": "all right 在这里不是“完全正确”，而是作为固定表达，随语境回应感谢或道歉。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本可用于成人静态理解：交际语境、主干与表语分析、固定短语语义说明、结构拆分和比较步骤均正确。仅需修正单词分块中 right. 的音标误将句末句号并入词条，以及 pos 中冗余的“（含句末句号）”标注；其余内容符合要求。（非逐句人工审核）"
+}

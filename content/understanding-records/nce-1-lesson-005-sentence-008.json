@@ -1,0 +1,81 @@
+{
+  "chinese": "很高兴见到你。",
+  "intent": "见面时向对方表达友善愉悦的问候，传递初次碰面的愉快心情。",
+  "comparison": null,
+  "backbone": {
+    "text": "Nice to meet you.",
+    "meaning": "见到你这件事让人很愉快。"
+  },
+  "parts": [
+    {
+      "text": "Nice",
+      "relation": "描述整个见面事件带给人的感受",
+      "meaning": "愉快、开心的"
+    },
+    {
+      "text": "to meet you.",
+      "relation": "补充说明是什么事情让人觉得愉快",
+      "meaning": "见到你"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "常用见面省略表达",
+      "text": "这句是日常打招呼的惯用省略，完整的理解还原是It is nice to meet you，省去了无实际新信息的形式主语It is，开口更自然简洁。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Nice",
+      "role": "感受表述核心",
+      "explanation": "直接点明说话人的愉悦状态，是这句表达的情绪起点"
+    },
+    {
+      "text": "to meet you",
+      "role": "补充说明的真实主体",
+      "explanation": "说明是见到对方这件事带来了愉快的感受，对应原本形式主语it指代的实际内容"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "愉快的，高兴的",
+      "pos": "adjective",
+      "phonetic": "/naɪs/",
+      "text": "Nice"
+    },
+    {
+      "meaning": "用于引出后续的动作内容",
+      "pos": "infinitive marker",
+      "phonetic": "/tuː/（元音前弱读为/tə/）",
+      "text": "to"
+    },
+    {
+      "meaning": "遇见，见到",
+      "pos": "verb",
+      "phonetic": "/miːt/",
+      "text": "meet"
+    },
+    {
+      "meaning": "你",
+      "pos": "pronoun",
+      "phonetic": "/juː/",
+      "text": "you."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-5",
+  "sentenceId": "nce-1-lesson-005-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Nice to meet you.",
+  "lesson": "Lesson 5 Nice to meet you.",
+  "notes": [
+    {
+      "title": "常用见面省略表达",
+      "text": "这句是日常打招呼的惯用省略，完整的理解还原是It is nice to meet you，省去了无实际新信息的形式主语It is，开口更自然简洁。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有解析整体核心信息准确，仅存在单词音标遗漏适配英式发音规则、个别释义表述可更严谨的 minor 问题，可明确修正后符合要求（非逐句人工审核）"
+}

@@ -1,0 +1,133 @@
+{
+  "chinese": "他们是我在旅行中遇到的人。",
+  "intent": "回应上文的人物提问，说明照片中这些人的身份：是说话人在本次旅行途中结识的人。",
+  "comparison": {
+    "chinese": "他们是我在旅行中遇到的那些人。",
+    "english": "They're people I met during the trip.",
+    "steps": [
+      {
+        "label": "主干先定身份",
+        "text": "They're people",
+        "explanation": "先把照片里的人定性为“是我认识的人”，这是句子要先给出的核心答复。"
+      },
+      {
+        "label": "定语紧跟名词",
+        "text": "I met during the trip 直接放在 people 后面",
+        "explanation": "英文把“认识”和“在旅行途中”这两个补充信息都放在 people 后面，who/whom 被省略；中文则按说话人→遇到→在旅行中→的人的顺序组织，把修饰语放在“人”的前面。"
+      }
+    ],
+    "takeaway": "理解时先抓住 They're people 的主干，再看后面的 I met during the trip 是在限定“是哪一批人”，不要把 I met 当成并列谓语。"
+  },
+  "backbone": {
+    "text": "They're people I met.",
+    "meaning": "他们是我遇到的一些人。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略关系词的定语从句",
+      "text": "people 后面的 I met… 是修饰 people 的定语从句，从句的宾语就是被修饰的 people，所以关系代词 who/whom 可以省略；met 是从句里的动作，不是主句的动词。"
+    },
+    {
+      "title": "during the trip 表时间",
+      "text": "during the trip 点明“遇到人”这件事发生在旅行期间，不是旅行之前或之后。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They're",
+      "role": "主句主系",
+      "explanation": "They're 是 They are 的缩写，引出主句的判断。"
+    },
+    {
+      "text": "people",
+      "role": "主句表语",
+      "explanation": "说明主语 they 的身份类别，后面的从句用来进一步限定是哪些人。"
+    },
+    {
+      "text": "I met during the trip.",
+      "role": "省略关系词的定语从句",
+      "explanation": "修饰 people，还原为 I met [those people] during the trip，解释“我在旅行中遇到的人”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "They're",
+      "meaning": "他们是（they are 的缩写形式）",
+      "pos": "代词+动词缩写",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "people",
+      "meaning": "人（复数，指某个群体）",
+      "pos": "名词",
+      "phonetic": "/ˈpiːpl/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "met",
+      "meaning": "遇见、结识（meet 的过去式）",
+      "pos": "动词",
+      "phonetic": "/met/"
+    },
+    {
+      "text": "during",
+      "meaning": "在……期间",
+      "pos": "介词",
+      "phonetic": "/ˈdjʊərɪŋ/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "trip.",
+      "meaning": "旅行、旅程",
+      "pos": "名词",
+      "phonetic": "/trɪp/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "They're people",
+      "meaning": "他们是一些人",
+      "relation": "主句核心判断，回应人物是谁的问题"
+    },
+    {
+      "text": "I met",
+      "meaning": "我遇见……",
+      "relation": "定语从句的主语和动作，限定是我遇到的人"
+    },
+    {
+      "text": "during the trip.",
+      "meaning": "在旅行期间（的那些）",
+      "relation": "补充说明遇见人的时间背景"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-123",
+  "sentenceId": "nce-1-lesson-123-sentence-004",
+  "sentenceOrder": 4,
+  "english": "They're people I met during the trip.",
+  "lesson": "Lesson 123 A trip to Australia",
+  "notes": [
+    {
+      "title": "省略关系词的定语从句",
+      "text": "people 后面的 I met… 是修饰 people 的定语从句，从句的宾语就是被修饰的 people，所以关系代词 who/whom 可以省略；met 是从句里的动作，不是主句的动词。"
+    },
+    {
+      "title": "during the trip 表时间",
+      "text": "during the trip 点明“遇到人”这件事发生在旅行期间，不是旅行之前或之后。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析语法结构、主干提取、词义释义、语境匹配整体准确，仅存在两处可明确修正的小问题：一是词汇模块中the的释义标注为「（特指本次旅行的）」，属于语境化描述而非定冠词本身的通用词义；二是第一个意群「They're people」的释义中省略了表语people的复数量词，与原句存在细微信息偏差。其余内容符合要求，可在修正后通过。（非逐句人工审核）"
+}

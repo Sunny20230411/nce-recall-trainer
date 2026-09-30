@@ -1,0 +1,123 @@
+{
+  "chinese": "他将在下下周返回伦敦。",
+  "intent": "陈述他未来返回伦敦的具体时间安排。",
+  "comparison": null,
+  "backbone": {
+    "text": "He'll return to London the week after next.",
+    "meaning": "他将在下下周返回伦敦。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间表达顺序",
+      "text": "英文用“the week after next”表示“下下周”，直译为“接下来那一周之后的那一周”，是固定时间短语，作状语说明动作发生的时间。"
+    },
+    {
+      "title": "表将来的缩写",
+      "text": "He'll 是 He will 的缩写，will 加动词原形 return 表示将来要发生的动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He'll",
+      "role": "主语+将来时助动词",
+      "explanation": "He 是动作发出者；will 缩写为 'll，表将来，后接动词原形。"
+    },
+    {
+      "text": "return to London",
+      "role": "谓语+地点状语",
+      "explanation": "return 是谓语动词，to London 表示返回的目的地。"
+    },
+    {
+      "text": "the week after next",
+      "role": "时间状语",
+      "explanation": "固定短语，意思是“下下周”，说明 return 发生的时间。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He'll",
+      "meaning": "他（he will的缩写）",
+      "pos": "代词+助动词缩写",
+      "phonetic": "hiːl"
+    },
+    {
+      "text": "return",
+      "meaning": "返回；回来",
+      "pos": "动词",
+      "phonetic": "rɪˈtɜːn"
+    },
+    {
+      "text": "to",
+      "meaning": "到；向（表示方向）",
+      "pos": "介词",
+      "phonetic": "tuː"
+    },
+    {
+      "text": "London",
+      "meaning": "伦敦",
+      "pos": "专有名词",
+      "phonetic": "ˈlʌndən"
+    },
+    {
+      "text": "the",
+      "meaning": "这；那（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "week",
+      "meaning": "星期；周",
+      "pos": "名词",
+      "phonetic": "wiːk"
+    },
+    {
+      "text": "after",
+      "meaning": "在……之后",
+      "pos": "介词",
+      "phonetic": "ˈɑːftə"
+    },
+    {
+      "text": "next.",
+      "meaning": "下一个的；接下来",
+      "pos": "形容词/副词",
+      "phonetic": "nekst"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He'll",
+      "meaning": "他将会（he will的缩写，主语加将来时助动词）",
+      "relation": "描述动作的发出者和时态"
+    },
+    {
+      "text": "return to London",
+      "meaning": "返回伦敦",
+      "relation": "陈述核心动作及其目的地"
+    },
+    {
+      "text": "the week after next.",
+      "meaning": "下下周",
+      "relation": "说明动作发生的具体时间"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-93",
+  "sentenceId": "nce-1-lesson-093-sentence-006",
+  "sentenceOrder": 6,
+  "english": "He'll return to London the week after next.",
+  "lesson": "Lesson 93 Our new neighbour",
+  "notes": [
+    {
+      "title": "时间表达顺序",
+      "text": "英文用“the week after next”表示“下下周”，直译为“接下来那一周之后的那一周”，是固定时间短语，作状语说明动作发生的时间。"
+    },
+    {
+      "title": "表将来的缩写",
+      "text": "He'll 是 He will 的缩写，will 加动词原形 return 表示将来要发生的动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体讲解基本准确，主谓宾状结构清晰，翻译通顺；仅存在几处标点、音标格式和词性归属的小问题，不影响核心理解，做精准修正即可。（非逐句人工审核）"
+}

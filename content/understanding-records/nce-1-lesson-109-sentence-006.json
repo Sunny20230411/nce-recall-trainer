@@ -1,0 +1,105 @@
+{
+  "chinese": "不，比那少一点。",
+  "intent": "纠正对方提出的茶匙用量，说明实际需要的量少于对方所说的两茶匙。",
+  "comparison": {
+    "chinese": "不，比那少一点。",
+    "english": "No, less than that.",
+    "steps": [
+      {
+        "label": "先否定对方提议",
+        "text": "No,",
+        "explanation": "直接表明对方提出的‘两茶匙糖’的量太多，不接受这个用量。"
+      },
+      {
+        "label": "用简短比较表达余量",
+        "text": "less than that.",
+        "explanation": "that指代前文对方提到的两茶匙量，less作代词表示‘更少的量’，than引出比较基准，整体表示实际需要的量比刚才提到的那个量要小，完整含义等同于（The amount I want is）less than the amount of two teaspoonfuls。中文习惯补上‘一点’让表达更自然，不必逐字对应英文里省略的名词部分。"
+      }
+    ],
+    "takeaway": "英语口语中表达A比B更短时，若承接前文语境双方都清楚比较对象，常直接用‘形容词/代词比较级+than+指代B的代词’省略双方都心知肚明的中心名词；理解时只需结合前文还原指代内容即可，不需要逐字把省略成分补说出来。"
+  },
+  "backbone": {
+    "text": "（The amount I want is）less than that.",
+    "meaning": "我想要的（糖的）量比刚才说的那个量少。"
+  },
+  "structureNotes": [
+    {
+      "title": "比较结构中的指代用法",
+      "text": "less是little的比较级，此处作代词，表示‘更少的量’，代替前文提到的不可数名词amount；that指代对方刚提出的two teaspoonfuls的糖量，than引出比较的参照对象，说明二者量的高低关系。"
+    },
+    {
+      "title": "省略现象",
+      "text": "本句是承接上文用量提议的简短回应，省略了双方都已知的主语部分（The amount I want），避免重复啰嗦，符合英语口语的简洁表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "否定答语",
+      "explanation": "直接否定对方提出的两茶匙糖的用量建议，表明该用量过多。"
+    },
+    {
+      "text": "less than that.",
+      "role": "比较结构简略应答",
+      "explanation": "在对话语境中完整表意是‘（我需要的量）比那个少’，用简略形式纠正对方的用量估算。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "不（用于否定回答）",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/",
+      "text": "No,"
+    },
+    {
+      "meaning": "更少（的量）",
+      "pos": "代词（little的比较级）",
+      "phonetic": "/les/",
+      "text": "less"
+    },
+    {
+      "meaning": "比（用于引出比较对象）",
+      "pos": "介词",
+      "phonetic": "/ðæn; ðən/",
+      "text": "than"
+    },
+    {
+      "meaning": "那（指代前文提到的两茶匙的量）",
+      "pos": "代词",
+      "phonetic": "/ðæt/",
+      "text": "that."
+    }
+  ],
+  "parts": [
+    {
+      "text": "No,",
+      "relation": "直接否定对方提出的用量提议",
+      "meaning": "不"
+    },
+    {
+      "text": "less than that.",
+      "relation": "补充说明实际需要的糖量少于对方提及的参照量",
+      "meaning": "比那少一点"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-109",
+  "sentenceId": "nce-1-lesson-109-sentence-006",
+  "sentenceOrder": 6,
+  "english": "No, less than that.",
+  "lesson": "Lesson 109 A good idea",
+  "notes": [
+    {
+      "title": "比较结构中的指代用法",
+      "text": "less是little的比较级，此处作代词，表示‘更少的量’，代替前文提到的不可数名词amount；that指代对方刚提出的two teaspoonfuls的糖量，than引出比较的参照对象，说明二者量的高低关系。"
+    },
+    {
+      "title": "省略现象",
+      "text": "本句是承接上文用量提议的简短回应，省略了双方都已知的主语部分（The amount I want），避免重复啰嗦，符合英语口语的简洁表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确匹配对话语境：代词less指代所需糖量、that指代对方提出的两茶匙糖量的指代关系清晰，简略应答的成分拆分、语法角色判定、英式音标均符合规范，比较解释贴合原文省略特点与中文表达习惯，补充的1.5茶匙用量属于语境事实陈述无不当。仅个别表述可优化，不影响整体正确性。（非逐句人工审核）"
+}

@@ -1,0 +1,81 @@
+{
+  "chinese": "请把门关上。",
+  "intent": "说话人礼貌地向听话人发出关门的指令，要求对方完成关门这个动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "Shut the door",
+    "meaning": "执行关门这个动作"
+  },
+  "parts": [
+    {
+      "text": "Shut the door,",
+      "relation": "核心动作指令",
+      "meaning": "关上门"
+    },
+    {
+      "text": "please.",
+      "relation": "补充说明指令的礼貌语气",
+      "meaning": "请"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "祈使句的特点",
+      "text": "本句是礼貌祈使句，省略了默认的听话人主语you，直接以动词原形开头发出指令，结尾的please用于弱化命令感、表达客气的语气。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Shut the door",
+      "role": "祈使句主体",
+      "explanation": "由动词原形加动作的对象构成，直接发出要求执行关门动作的指令"
+    },
+    {
+      "text": "please",
+      "role": "礼貌语气修饰语",
+      "explanation": "放在句末用来让指令听起来更客气，不带强硬的命令感"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "关上",
+      "pos": "动词",
+      "phonetic": "/ʃʌt/",
+      "text": "Shut"
+    },
+    {
+      "meaning": "这个（定冠词，限定后面的名词）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "门",
+      "pos": "名词",
+      "phonetic": "/dɔː(r)/",
+      "text": "door,"
+    },
+    {
+      "meaning": "请",
+      "pos": "语气助词（用于祈使句表客气）",
+      "phonetic": "/pliːz/",
+      "text": "please."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-29",
+  "sentenceId": "nce-1-lesson-029-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Shut the door, please.",
+  "lesson": "Lesson 29 Come in, Amy.",
+  "notes": [
+    {
+      "title": "祈使句的特点",
+      "text": "本句是礼貌祈使句，省略了默认的听话人主语you，直接以动词原形开头发出指令，结尾的please用于弱化命令感、表达客气的语气。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，仅存在局部细节瑕疵，可明确修正后符合要求。（非逐句人工审核）"
+}

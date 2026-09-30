@@ -1,0 +1,111 @@
+{
+  "chinese": "我们会有一个美丽的花园，并且……",
+  "intent": "说话人在想象中奖后的理想生活，接着描述未来会拥有的事物。",
+  "comparison": null,
+  "backbone": {
+    "text": "We'll have a garden.",
+    "meaning": "我们会拥有一个花园。"
+  },
+  "structureNotes": [
+    {
+      "title": "will 表示对未来的想象",
+      "text": "We'll 是 We will 的缩写，表达说话人在假想情境中认为未来会拥有某物，不是既成事实。"
+    },
+    {
+      "title": "省略号表示话未说完",
+      "text": "句尾的 and... 表示说话人还在继续列举美好的设想，话语被截断或停顿，不构成完整语义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We'll",
+      "role": "主语+助动词",
+      "explanation": "We'll 是 We will 的缩写，will 表示将来，和实义动词 have 一起构成谓语。"
+    },
+    {
+      "text": "have a beautiful garden",
+      "role": "谓语+宾语",
+      "explanation": "have 在这里表示“拥有”，a beautiful garden 是拥有的对象。"
+    },
+    {
+      "text": "and...",
+      "role": "省略的后续并列成分",
+      "explanation": "and 暗示后面还有与“花园”并列的美好事物，但被省略号截断，没有说出完整内容。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我们（will的缩写）",
+      "pos": "代词+助动词",
+      "phonetic": "/wiːl/",
+      "text": "We'll"
+    },
+    {
+      "meaning": "拥有",
+      "pos": "动词",
+      "phonetic": "/hæv/",
+      "text": "have"
+    },
+    {
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "美丽的",
+      "pos": "形容词",
+      "phonetic": "/ˈbjuːtɪfl/",
+      "text": "beautiful"
+    },
+    {
+      "meaning": "花园",
+      "pos": "名词",
+      "phonetic": "/ˈɡɑːdn/",
+      "text": "garden"
+    },
+    {
+      "meaning": "和……；并且……",
+      "pos": "连词（后接省略内容）",
+      "phonetic": "/ənd/",
+      "text": "and..."
+    }
+  ],
+  "parts": [
+    {
+      "text": "We'll have",
+      "relation": "说明主语和未来动作",
+      "meaning": "我们将会拥有"
+    },
+    {
+      "text": "a beautiful garden",
+      "relation": "动作的对象，即会拥有的事物",
+      "meaning": "一个美丽的花园"
+    },
+    {
+      "text": "and...",
+      "relation": "话未说完，暗示还有其他美好事物要描述",
+      "meaning": "并且……"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-137",
+  "sentenceId": "nce-1-lesson-137-sentence-009",
+  "sentenceOrder": 9,
+  "english": "We'll have a beautiful garden and...",
+  "lesson": "Lesson 137 A pleasant dream",
+  "notes": [
+    {
+      "title": "will 表示对未来的想象",
+      "text": "We'll 是 We will 的缩写，表达说话人在假想情境中认为未来会拥有某物，不是既成事实。"
+    },
+    {
+      "title": "省略号表示话未说完",
+      "text": "句尾的 and... 表示说话人还在继续列举美好的设想，话语被截断或停顿，不构成完整语义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：译文、主干、结构拆分、词义音标及语境说明均与原文和上下文匹配，will表假想、省略号表话语未说完的解释准确，无事实性错误。（非逐句人工审核）"
+}

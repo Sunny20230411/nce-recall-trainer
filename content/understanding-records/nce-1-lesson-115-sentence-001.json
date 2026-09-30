@@ -1,0 +1,77 @@
+{
+  "chinese": "谁在那儿？",
+  "intent": "询问此刻身处说话人附近、但不在视线范围内的人的身份。",
+  "comparison": null,
+  "backbone": {
+    "text": "Who's there?",
+    "meaning": "用于询问说话人附近、视线之外的未知来者的身份，属于敲门时的常用日常招呼。"
+  },
+  "structureNotes": [
+    {
+      "title": "Who's 是缩略形式",
+      "text": "Who's 是 Who is 的口语缩略形式，此处 is 是句中的系动词，接在疑问代词 who 后构成疑问表达，后面的 there 说明所问对象所处的位置。"
+    },
+    {
+      "title": "there 的指代",
+      "text": "there 在这句日常口语中并非指代远处，而是指代说话人附近、当前视线之外的位置，比如门外、门后或隔壁房间。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Who's",
+      "role": "疑问代词+系动词",
+      "explanation": "Who 是疑问代词，在句中作表语；Who's 即 Who is，is 是句中的系动词。"
+    },
+    {
+      "text": "there?",
+      "role": "地点状语",
+      "explanation": "there 是副词，表示“在那里”，此处指说话人附近视线外的位置，用于说明所问的人所处的位置。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Who's",
+      "meaning": "是谁（who is 的口语缩略形式）",
+      "pos": "疑问代词+系动词缩略",
+      "phonetic": "/huːz/"
+    },
+    {
+      "text": "there?",
+      "meaning": "在那里（此处指说话人附近视线外的位置）",
+      "pos": "副词",
+      "phonetic": "/ðeə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Who's",
+      "meaning": "是谁",
+      "relation": "询问的核心内容"
+    },
+    {
+      "text": "there?",
+      "meaning": "在那里（此处指说话人附近视线外的位置）",
+      "relation": "地点状语，补充说明所问对象所在的位置"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-115",
+  "sentenceId": "nce-1-lesson-115-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Who's there?",
+  "lesson": "Lesson 115 Knock, knock!",
+  "notes": [
+    {
+      "title": "Who's 是缩略形式",
+      "text": "Who's 是 Who is 的口语缩略形式，此处 is 是句中的系动词，接在疑问代词 who 后构成疑问表达，后面的 there 说明所问对象所处的位置。"
+    },
+    {
+      "title": "there 的指代",
+      "text": "there 在这句日常口语中并非指代远处，而是指代说话人附近、当前视线之外的位置，比如门外、门后或隔壁房间。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干语义完整，语境解释贴合原对话的敲门应答场景，可明确修正部分结构标注的语法角色偏差、单词释义偏差，以及there的副词释义不够贴合实际使用场景的问题，其余内容均合规准确。（非逐句人工审核）"
+}

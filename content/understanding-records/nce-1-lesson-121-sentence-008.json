@@ -1,0 +1,132 @@
+{
+  "chinese": "先生，您有帽子吗？",
+  "intent": "店员向顾客当面核实对方是否拥有帽子，以此排查并确认要找的戴帽男士身份。",
+  "comparison": {
+    "chinese": "中文习惯先称呼对话对象，再提出核心问题；英语完整问句则先把疑问结构放在句首，尊称 sir 放在句尾。",
+    "english": "Have you got a hat, sir?",
+    "steps": [
+      {
+        "label": "先还原完整疑问结构",
+        "text": "Have you got a hat",
+        "explanation": "Have got 在此作为整体表示“拥有、有”，不是拆开按 have（助动词）+ got（过去分词）理解字面“得到”。核心是在问对方是否有一顶帽子。"
+      },
+      {
+        "label": "再调整尊称位置",
+        "text": "sir",
+        "explanation": "放在句末、用逗号与主句隔开，是对男性顾客的礼貌称呼；译成中文时移到句首“先生”，更符合中文当面问话的表达顺序。"
+      }
+    ],
+    "takeaway": "理解时先抓住 Have you got 表示“你是否有”的疑问整体，再识别 sir 是独立呼语，不参与主干主谓宾。"
+  },
+  "backbone": {
+    "text": "Have you got a hat?",
+    "meaning": "请问您是否拥有一顶帽子？"
+  },
+  "structureNotes": [
+    {
+      "title": "Have got表拥有",
+      "text": "口语中常用Have you got...? 来询问对方是否有某物，是生活化的常用问法，不需要生硬直译“得到”的含义。"
+    },
+    {
+      "title": "句尾称呼sir",
+      "text": "sir放在句末、用逗号和主句隔开，是英语里对话对男性的礼貌称呼，中文习惯把这类尊称放在句首开场。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Have you got",
+      "role": "谓语（Have got 的疑问式）",
+      "explanation": "Have got 在此整体表示“拥有”；Have 提前构成疑问，不表示独立的完成时助动词功能。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "被询问是否拥有帽子的人，即对话中的顾客。"
+    },
+    {
+      "text": "a hat",
+      "role": "宾语",
+      "explanation": "询问指向的物品，即“一顶帽子”。"
+    },
+    {
+      "text": "sir",
+      "role": "呼语",
+      "explanation": "对男性顾客的礼貌称呼，不参与句子主干。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Have",
+      "meaning": "与 got 搭配成 Have got，表示“拥有、有”，疑问时把 have 提前；不单独按完成时助动词理解",
+      "pos": "动词（have got 的疑问式组成部分）",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；您",
+      "pos": "代词",
+      "phonetic": "/ju/"
+    },
+    {
+      "text": "got",
+      "meaning": "与 have 构成 have got，表示“有、拥有”；本句不单独按“得到”的过去分词翻译",
+      "pos": "动词（与 have 搭配表拥有）",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（顶），不定冠词",
+      "pos": "冠词",
+      "phonetic": "/ə; eɪ/"
+    },
+    {
+      "text": "hat,",
+      "meaning": "帽子（含本词后紧随的逗号）",
+      "pos": "名词",
+      "phonetic": "/hæt/"
+    },
+    {
+      "text": "sir?",
+      "meaning": "先生（含本词后紧随的问号）",
+      "pos": "呼语名词",
+      "phonetic": "/sɜː(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Have you got",
+      "meaning": "您是否拥有（询问是否有某物的疑问整体）",
+      "relation": "完整疑问谓语框架，包含 have got 的疑问式与主语 you；不是单纯谓语，也不能再把 you 拆出另作标注。"
+    },
+    {
+      "text": "a hat,",
+      "meaning": "一顶帽子",
+      "relation": "Have got 的宾语，即被询问是否拥有的物品。"
+    },
+    {
+      "text": "sir?",
+      "meaning": "先生？",
+      "relation": "放在句末的礼貌呼语，对应当面称呼的顾客，不参与主干结构。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-121",
+  "sentenceId": "nce-1-lesson-121-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Have you got a hat, sir?",
+  "lesson": "Lesson 121 The man in a hat",
+  "notes": [
+    {
+      "title": "Have got表拥有",
+      "text": "口语中常用Have you got...? 来询问对方是否有某物，是生活化的常用问法，不需要生硬直译“得到”的含义。"
+    },
+    {
+      "title": "句尾称呼sir",
+      "text": "sir放在句末、用逗号和主句隔开，是英语里对话对男性的礼貌称呼，中文习惯把这类尊称放在句首开场。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句义和主要切分可用，但原切分遗漏了主语 you，且把 you 从 Have you got 中拆出做单独句法标注；同时 got 的释义容易误导为独立表示“得到”的过去分词。已在保持原文与语序不变的前提下，按原始三分块校正各块含义与关系，并统一词表与 comparison 的解释。（非逐句人工审核）"
+}

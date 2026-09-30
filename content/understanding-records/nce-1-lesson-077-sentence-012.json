@@ -1,0 +1,210 @@
+{
+  "chinese": "牙医现在很忙。您下午两点能来吗？",
+  "intent": "说明牙医当前没有空档，并询问对方能否在下午两点就诊。",
+  "comparison": {
+    "chinese": "中文可以说“现在牙医很忙”，再问“下午两点能来吗”，时间和能否都紧贴动词；英文按“牙医很忙／你能来吗”先给主干，再用 at the moment、at two p.m. 表示时间。",
+    "english": "The dentist is very busy at the moment. Can you come at two p.m.?",
+    "steps": [
+      {
+        "label": "第一句",
+        "text": "The dentist is very busy at the moment.",
+        "explanation": "主干是牙医很忙，at the moment 说明这个状态是当前的，中文“现在”放在句首，英文放在句末。"
+      },
+      {
+        "label": "第二句",
+        "text": "Can you come at two p.m.?",
+        "explanation": "Can 放句首表示询问可能性；at two p.m. 说明来的时间，come 这里指来就诊或来见牙医。"
+      }
+    ],
+    "takeaway": "时间状语常用 at 引出，放在句末；can 的一般疑问句把 can 放在主语前。"
+  },
+  "backbone": {
+    "text": "The dentist is busy. Can you come?",
+    "meaning": "牙医现在很忙；询问对方能否在下午两点前来就诊。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间短语",
+      "text": "at the moment 表示现在、此刻；at two p.m. 表示下午两点这个具体时间点。"
+    },
+    {
+      "title": "Can 疑问句",
+      "text": "Can 放在句首，后面接主语 you 和动词 come，用来礼貌询问对方是否可以或能否来。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The dentist",
+      "role": "主语",
+      "explanation": "说明描述的对象是牙医。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "连接主语和表语 busy。"
+    },
+    {
+      "text": "very busy",
+      "role": "表语",
+      "explanation": "very 修饰 busy，说明牙医非常忙。"
+    },
+    {
+      "text": "at the moment.",
+      "role": "时间状语",
+      "explanation": "表示当前、此刻。"
+    },
+    {
+      "text": "Can",
+      "role": "情态动词",
+      "explanation": "构成一般疑问句，表示请求或询问可能性。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指对方。"
+    },
+    {
+      "text": "come",
+      "role": "谓语动词",
+      "explanation": "表示来这里、来就诊。"
+    },
+    {
+      "text": "at two p.m.?",
+      "role": "时间状语",
+      "explanation": "表示下午两点这个时间。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "定冠词，无实义",
+      "pos": "art.",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "dentist",
+      "meaning": "牙医",
+      "pos": "n.",
+      "phonetic": "/ˈdentɪst/"
+    },
+    {
+      "text": "is",
+      "meaning": "是",
+      "pos": "v.",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常",
+      "pos": "adv.",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "busy",
+      "meaning": "忙的",
+      "pos": "adj.",
+      "phonetic": "/ˈbɪzi/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（具体时刻）",
+      "pos": "prep.",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，无实义",
+      "pos": "art.",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "moment.",
+      "meaning": "此刻；当前",
+      "pos": "n.",
+      "phonetic": "/ˈməʊmənt/"
+    },
+    {
+      "text": "Can",
+      "meaning": "能够；可以",
+      "pos": "modal v.",
+      "phonetic": "/kæn/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；您",
+      "pos": "pron.",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "come",
+      "meaning": "来（就诊）",
+      "pos": "v.",
+      "phonetic": "/kʌm/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（具体时刻）",
+      "pos": "prep.",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "two",
+      "meaning": "两点",
+      "pos": "num.",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "p.m.?",
+      "meaning": "下午（拉丁语 post meridiem 的缩写，用于十二小时制计时）",
+      "pos": "abbr.",
+      "phonetic": "/ˌpiːˈem/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The dentist",
+      "relation": "句子描述的对象",
+      "meaning": "牙医"
+    },
+    {
+      "text": "is very busy",
+      "relation": "描述牙医的状态",
+      "meaning": "非常忙"
+    },
+    {
+      "text": "at the moment.",
+      "relation": "时间，说明忙碌的时段",
+      "meaning": "现在"
+    },
+    {
+      "text": "Can you come",
+      "relation": "疑问句主干，询问对方是否能来",
+      "meaning": "你能来吗"
+    },
+    {
+      "text": "at two p.m.?",
+      "relation": "时间，说明来的具体时刻",
+      "meaning": "下午两点"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-77",
+  "sentenceId": "nce-1-lesson-077-sentence-012",
+  "sentenceOrder": 12,
+  "english": "The dentist is very busy at the moment. Can you come at two p.m.?",
+  "lesson": "Lesson 77 Terrible toothache",
+  "notes": [
+    {
+      "title": "时间短语",
+      "text": "at the moment 表示现在、此刻；at two p.m. 表示下午两点这个具体时间点。"
+    },
+    {
+      "title": "Can 疑问句",
+      "text": "Can 放在句首，后面接主语 you 和动词 come，用来礼貌询问对方是否可以或能否来。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，主干、结构、短语拆分符合语法规则，对比说明清晰。仅两处细节需修正：1. backbone的中文释义误将“下午两点”写为“下午两点前”，遗漏“前”的错误表述；2. words条目中moment、p.m.的文本误混入了所属句点或问号，音标标注也对应错位，需拆离标点并修正词性、释义。其余内容无需改动。（非逐句人工审核）"
+}

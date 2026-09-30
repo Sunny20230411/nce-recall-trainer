@@ -1,0 +1,100 @@
+{
+  "chinese": "不，他们不是。他们是挪威人。",
+  "intent": "直接回应前文“你的朋友们也是丹麦人吗”的一般疑问句，先给出否定答复，再补充说明这些人的国籍为挪威人",
+  "comparison": null,
+  "backbone": {
+    "text": "No, they aren't. They're Norwegian.",
+    "meaning": "先作出否定判断，再明确告知对方相关人员的国籍属性"
+  },
+  "parts": [
+    {
+      "text": "No,",
+      "relation": "回应前文问题的态度",
+      "meaning": "否定答复的引导词"
+    },
+    {
+      "text": "they aren't.",
+      "relation": "承接被否定的身份判定",
+      "meaning": "主语they指代前文提到的你的朋友们，aren't表示“不是”，承接前面的丹麦人身份判定作出否定"
+    },
+    {
+      "text": "They're Norwegian.",
+      "relation": "补充说明这群人的实际国籍",
+      "meaning": "主语they依旧指代你的朋友们，Norwegian说明其国籍是挪威人"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "指代一致性",
+      "text": "两处的they都指代前文问句中提到的“你的朋友们”，不会出现指代混乱，读者可直接关联前文问题理解回答的指向"
+    },
+    {
+      "title": "省略处理",
+      "text": "aren't是are not的缩写，They're是They are的缩写，都是日常口语里的常用简略表达，完全保留原句的语义信息"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No, they aren't",
+      "role": "否定应答句",
+      "explanation": "直接对前文的一般疑问句作出否定回复，省略了重复的表语部分“Danish”，避免语义冗余"
+    },
+    {
+      "text": "They're Norwegian",
+      "role": "身份说明句",
+      "explanation": "用主系表结构明确交代出前文指代对象的国籍，补充完整回答的核心信息"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "不",
+      "pos": "interjection",
+      "phonetic": "/nəʊ/",
+      "text": "No,"
+    },
+    {
+      "meaning": "他们，指代前文问句提到的你的朋友们",
+      "pos": "pronoun",
+      "phonetic": "/ðeɪ/",
+      "text": "they"
+    },
+    {
+      "meaning": "不是，为are not的缩约形式，此处省略重复的表语Danish，指代“不是丹麦人”",
+      "pos": "verb (contraction)",
+      "phonetic": "/ɑːnt/",
+      "text": "aren't."
+    },
+    {
+      "meaning": "他们是，为They are的缩约形式",
+      "pos": "pronoun + linking verb (contraction)",
+      "phonetic": "/ðeə(r)/",
+      "text": "They're"
+    },
+    {
+      "meaning": "挪威人，此处作表语说明主语的国籍身份",
+      "pos": "noun",
+      "phonetic": "/nɔːˈwiːdʒən/",
+      "text": "Norwegian."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-15",
+  "sentenceId": "nce-1-lesson-015-sentence-004",
+  "sentenceOrder": 4,
+  "english": "No, they aren't. They're Norwegian.",
+  "lesson": "Lesson 15 Your passports, please.",
+  "notes": [
+    {
+      "title": "指代一致性",
+      "text": "两处的they都指代前文问句中提到的“你的朋友们”，不会出现指代混乱，读者可直接关联前文问题理解回答的指向"
+    },
+    {
+      "title": "省略处理",
+      "text": "aren't是are not的缩写，They're是They are的缩写，都是日常口语里的常用简略表达，完全保留原句的语义信息"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析逻辑通顺，核心信息准确，仅存在局部小瑕疵可修正优化，符合面向中文母语成年人的英语学习解析要求（非逐句人工审核）"
+}

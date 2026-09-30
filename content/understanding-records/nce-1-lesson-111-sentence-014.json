@@ -1,0 +1,121 @@
+{
+  "chinese": "百万富翁不会分期付款买东西！",
+  "intent": "针对上文自我感觉像百万富翁的调侃，说明真正的百万富翁消费时不需要分期付款。",
+  "comparison": null,
+  "backbone": {
+    "text": "Millionaires don't buy things on instalments.",
+    "meaning": "百万富翁买东西时不会采用分期付款的方式。"
+  },
+  "structureNotes": [
+    {
+      "title": "on instalments作方式状语",
+      "text": "on instalments是固定搭配，指以分期付款的方式，放在宾语things之后补充说明购买行为的付款方式，不要把on instalments理解成装在分期上面。"
+    },
+    {
+      "title": "don't的否定范围",
+      "text": "don't放在实义动词buy前面，否定的是“以分期付款的方式买东西”这件事，不是否定买东西本身。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Millionaires",
+      "role": "主语",
+      "explanation": "指一类人，是整句话描述的主体。"
+    },
+    {
+      "text": "don't buy",
+      "role": "谓语",
+      "explanation": "用一般现在时的否定形式，表示“不会购买”。"
+    },
+    {
+      "text": "things",
+      "role": "宾语",
+      "explanation": "泛指各类商品，是buy这个动作的对象。"
+    },
+    {
+      "text": "on instalments",
+      "role": "方式状语",
+      "explanation": "修饰buy，说明是用分期付款的方式购买。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Millionaires",
+      "meaning": "百万富翁（复数）",
+      "pos": "名词",
+      "phonetic": "/ˌmɪljəˈneəz/"
+    },
+    {
+      "text": "don't",
+      "meaning": "不（用于构成一般现在时实义动词前的否定）",
+      "pos": "助动词",
+      "phonetic": "/dəʊnt/"
+    },
+    {
+      "text": "buy",
+      "meaning": "购买",
+      "pos": "动词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "things",
+      "meaning": "东西；物品（复数）",
+      "pos": "名词",
+      "phonetic": "/θɪŋz/"
+    },
+    {
+      "text": "on",
+      "meaning": "（表示付款方式）以……方式",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "instalments!",
+      "meaning": "分期付款（复数，和on搭配构成固定短语）",
+      "pos": "名词",
+      "phonetic": "/ɪnˈstɔːlmənts/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Millionaires",
+      "meaning": "百万富翁",
+      "relation": "描述的主体"
+    },
+    {
+      "text": "don't buy",
+      "meaning": "不会购买",
+      "relation": "主体发出的否定动作"
+    },
+    {
+      "text": "things",
+      "meaning": "东西",
+      "relation": "动作的对象"
+    },
+    {
+      "text": "on instalments!",
+      "meaning": "以分期付款的方式",
+      "relation": "补充说明买东西的付款方式"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-111",
+  "sentenceId": "nce-1-lesson-111-sentence-014",
+  "sentenceOrder": 14,
+  "english": "Millionaires don't buy things on instalments!",
+  "lesson": "Lesson 111 The most expensive model",
+  "notes": [
+    {
+      "title": "on instalments作方式状语",
+      "text": "on instalments是固定搭配，指以分期付款的方式，放在宾语things之后补充说明购买行为的付款方式，不要把on instalments理解成装在分期上面。"
+    },
+    {
+      "title": "don't的否定范围",
+      "text": "don't放在实义动词buy前面，否定的是“以分期付款的方式买东西”这件事，不是否定买东西本身。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合事实与原句语义，仅存在一处词性标注不严谨的小问题，其余主谓宾结构、否定范围解释、短语搭配、词汇释义均符合要求，修正后可正常使用。（非逐句人工审核）"
+}

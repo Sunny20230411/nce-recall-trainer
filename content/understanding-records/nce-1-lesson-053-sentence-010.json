@@ -1,0 +1,143 @@
+{
+  "chinese": "太阳升得早，落得晚。",
+  "intent": "客观描述夏季昼长时段太阳升落的时间特点，是对前文‘白昼长、夜晚短’的具象化补充说明。",
+  "comparison": {
+    "chinese": "太阳升得早，落得晚。",
+    "english": "The sun rises early and sets late.",
+    "steps": [
+      {
+        "label": "先立主语，再列两个状态",
+        "text": "英文先说 The sun（太阳），再用 and 连接两个谓语部分：rises early（升起得早）和 sets late（落下得晚）。",
+        "explanation": "中文把两个主谓结构分开说：‘升得早，落得晚’；英文共用同一个主语 the sun，第二个谓语 sets 不再重复主语，依靠 and 把两个动作并列起来。"
+      },
+      {
+        "label": "副词说明动作的时间",
+        "text": "early 和 late 放在各自动词后面，分别修饰 rises 和 sets。",
+        "explanation": "中文用‘得早/得晚’把动作和时间程度连起来；英文直接把 early、late 放在动词后面即可，不需要额外的‘得’结构。"
+      }
+    ],
+    "takeaway": "英文可以让一个主语带两个并列谓语，避免重复主语；中文则常把两个分句拆开说，并用‘得’来连接动作与时间程度。"
+  },
+  "backbone": {
+    "text": "The sun rises early and sets late.",
+    "meaning": "太阳升起得早，落下得晚。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列谓语共用主语",
+      "text": "句中 rises early 和 sets late 是由 and 连接的两个并列谓语，共同描述主语 the sun 的两种状态，不需要在 sets 前重复出现 the sun。"
+    },
+    {
+      "title": "副词后置表时间",
+      "text": "early 和 late 都是时间副词，分别放在 rise、set 后面，直接说明这两个动作发生得早或晚，语义对应中文的‘早升’‘晚落’。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The sun",
+      "role": "句子主语",
+      "explanation": "是全句描述的对象，指太阳，是 rise 和 set 两个动作的发出者。"
+    },
+    {
+      "text": "rises early",
+      "role": "第一组并列谓语",
+      "explanation": "rise 是谓语动词，early 是时间副词修饰 rise，表示太阳升起这个动作发生得早。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个并列谓语部分，说明这是对太阳两个相关时间状态的并列描述。"
+    },
+    {
+      "text": "sets late",
+      "role": "第二组并列谓语",
+      "explanation": "set 是谓语动词，late 是时间副词修饰 set，表示太阳落下这个动作发生得晚。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "（定冠词，特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "sun",
+      "meaning": "太阳",
+      "pos": "名词",
+      "phonetic": "/sʌn/"
+    },
+    {
+      "text": "rises",
+      "meaning": "升起",
+      "pos": "动词",
+      "phonetic": "/ˈraɪzɪz/"
+    },
+    {
+      "text": "early",
+      "meaning": "早",
+      "pos": "副词",
+      "phonetic": "/ˈɜːli/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，与",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "sets",
+      "meaning": "落下；（日、月）沉落",
+      "pos": "动词",
+      "phonetic": "/sets/"
+    },
+    {
+      "text": "late.",
+      "meaning": "晚",
+      "pos": "副词",
+      "phonetic": "/leɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The sun",
+      "relation": "动作描述的核心对象，是全句的主语。",
+      "meaning": "太阳"
+    },
+    {
+      "text": "rises early",
+      "relation": "描述太阳的第一个动作及其时间特点。",
+      "meaning": "升得早"
+    },
+    {
+      "text": "and",
+      "relation": "连接太阳的两个并列动作状态。",
+      "meaning": "并且"
+    },
+    {
+      "text": "sets late.",
+      "relation": "描述太阳的第二个动作及其时间特点。",
+      "meaning": "落得晚。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-53",
+  "sentenceId": "nce-1-lesson-053-sentence-010",
+  "sentenceOrder": 10,
+  "english": "The sun rises early and sets late.",
+  "lesson": "Lesson 53 An interesting climate",
+  "notes": [
+    {
+      "title": "并列谓语共用主语",
+      "text": "句中 rises early 和 sets late 是由 and 连接的两个并列谓语，共同描述主语 the sun 的两种状态，不需要在 sets 前重复出现 the sun。"
+    },
+    {
+      "title": "副词后置表时间",
+      "text": "early 和 late 都是时间副词，分别放在 rise、set 后面，直接说明这两个动作发生得早或晚，语义对应中文的‘早升’‘晚落’。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析的主干、成分关系、词义、音标与中文翻译整体准确。仅发现副词义项可以更贴合时间语境：early 和 late 分别表示时间上的早、晚，而非泛指提早、迟；其余内容无需修改。（非逐句人工审核）"
+}

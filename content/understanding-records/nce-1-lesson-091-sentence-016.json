@@ -1,0 +1,93 @@
+{
+  "chinese": "是的，我会（见到他）。",
+  "intent": "针对对方关于当日是否会见到 Ian 的一般将来时一般疑问句作出肯定答复，确认说话人当天确实会见到 Ian。",
+  "comparison": null,
+  "backbone": {
+    "text": "I will.",
+    "meaning": "是对前一句 Will you see Ian today 的省略式肯定回答，完整语义为“是的，我今天会见到 Ian”。"
+  },
+  "structureNotes": [
+    {
+      "title": "对话中的省略式肯定回答",
+      "text": "这是针对 Will you 开头的一般将来时一般疑问句的简短肯定答复。为了避免重复前一句已经提及的 see Ian today 动作，英语直接保留助动词 will，省略重复的谓语和宾语部分，语义完整且形式简洁。"
+    },
+    {
+      "title": "Yes 的应答作用",
+      "text": "Yes 置于答句开头直接传递肯定态度，后续的 I will 进一步明确答复内容，语气确定，没有含糊。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "肯定应答词",
+      "explanation": "用简短的肯定语气承接对方的提问，表明答复是正面的。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "对应提问中的 you，指作答的人本人。"
+    },
+    {
+      "text": "will.",
+      "role": "谓语（助动词，替代重复的谓语部分）",
+      "explanation": "替代完整的表述 will see Ian today，在上下文语境中表示“我会做前面提到的那件事”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes,",
+      "meaning": "是的；对",
+      "pos": "感叹词",
+      "phonetic": "jes"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "aɪ"
+    },
+    {
+      "text": "will.",
+      "meaning": "会（此处代替完整的谓语部分，表示将要做前面提到的事）",
+      "pos": "助动词",
+      "phonetic": "wɪl"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes,",
+      "meaning": "是的，",
+      "relation": "承接提问，表明肯定态度"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "答复的主体，指作答的人"
+    },
+    {
+      "text": "will.",
+      "meaning": "会（完整含义是会见到 Ian）",
+      "relation": "针对提问给出肯定确认，说明自己将要完成对方询问的动作"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-91",
+  "sentenceId": "nce-1-lesson-091-sentence-016",
+  "sentenceOrder": 16,
+  "english": "Yes, I will.",
+  "lesson": "Lesson 91 Poor Ian!",
+  "notes": [
+    {
+      "title": "对话中的省略式肯定回答",
+      "text": "这是针对 Will you 开头的一般将来时一般疑问句的简短肯定答复。为了避免重复前一句已经提及的 see Ian today 动作，英语直接保留助动词 will，省略重复的谓语和宾语部分，语义完整且形式简洁。"
+    },
+    {
+      "title": "Yes 的应答作用",
+      "text": "Yes 置于答句开头直接传递肯定态度，后续的 I will 进一步明确答复内容，语气确定，没有含糊。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解释准确，will 作为助动词替代重复谓语的省略用法、主语指代关系说明清晰，仅部分表述措辞偏口语化，存在不严谨的表述，无核心语法错误，可小幅修正后通过。（非逐句人工审核）"
+}

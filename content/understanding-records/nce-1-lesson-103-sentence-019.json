@@ -1,0 +1,190 @@
+{
+  "chinese": "坐在我旁边的那个人在试卷上端写了自己的名字。",
+  "intent": "叙述法语考试中坐在自己旁边的考生的行为，用对方只写了名字的状态反衬自己考试的糟糕情况，表达自嘲的情绪。",
+  "comparison": {
+    "chinese": "坐在我旁边的那个人在试卷上端写了自己的名字。",
+    "english": "The man next to me wrote his name at the top of the paper.",
+    "steps": [
+      {
+        "label": "后置定语前置",
+        "text": "next to me修饰The man，英语放在被修饰名词之后，中文转为“坐在我旁边的那个人”。",
+        "explanation": "中文习惯把限定人的位置短语放在名词前，因此先译出“坐在我旁边的”，再接中心名词“那个男人/那个人”。"
+      },
+      {
+        "label": "地点状语前置",
+        "text": "at the top of the paper说明wrote的位置，英语放在句末，中文置于谓语“写”之前。",
+        "explanation": "本场景中的paper指试卷，top译为“上端”更自然；中文通常先说位置，再说动作，因此组织为“在试卷上端写了”。"
+      }
+    ],
+    "takeaway": "英语的后置定语和句末地点状语在中文里通常前置，同时paper和top需按考试试卷语境理解。"
+  },
+  "backbone": {
+    "text": "The man wrote his name.",
+    "meaning": "那个人写下了他的名字。"
+  },
+  "structureNotes": [
+    {
+      "title": "介词短语作后置定语的语序",
+      "text": "next to me是修饰the man的介词短语，英语中放在被修饰的名词后面；中文习惯把修饰人的限定语放在名词前面，翻译为“坐在我旁边的那个人”，符合中文表达顺序。"
+    },
+    {
+      "title": "地点状语的排序",
+      "text": "at the top of the paper是说明写名字位置的状语，放在整个句子的最后；中文会把地点状语放在谓语动词“写”的前面，翻译为“在试卷上端写了自己的名字”，符合中文的表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The man next to me",
+      "role": "主语部分",
+      "explanation": "中心词是the man，next to me作后置定语，限定是“坐在我旁边的那个人”。"
+    },
+    {
+      "text": "wrote",
+      "role": "谓语动词",
+      "explanation": "write的过去式，表示“写下”这个动作已经发生。"
+    },
+    {
+      "text": "his name",
+      "role": "宾语",
+      "explanation": "表示写下的对象是他自己的名字。"
+    },
+    {
+      "text": "at the top of the paper",
+      "role": "地点状语",
+      "explanation": "修饰wrote，说明写名字的位置是试卷的上端。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "（定冠词，特指）",
+      "pos": "article",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人",
+      "pos": "noun",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "next",
+      "meaning": "紧邻的，紧随的",
+      "pos": "adjective",
+      "phonetic": "/nekst/"
+    },
+    {
+      "text": "to",
+      "meaning": "（与next连用构成介词短语next to）紧邻，在…近旁",
+      "pos": "preposition",
+      "phonetic": "/tʊ/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "pronoun",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "wrote",
+      "meaning": "写，书写（write的过去式）",
+      "pos": "verb",
+      "phonetic": "/rəʊt/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "possessive adjective",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "name",
+      "meaning": "名字",
+      "pos": "noun",
+      "phonetic": "/neɪm/"
+    },
+    {
+      "text": "at",
+      "meaning": "（表示位置）在…",
+      "pos": "preposition",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，特指）",
+      "pos": "article",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "top",
+      "meaning": "上端，顶部",
+      "pos": "noun",
+      "phonetic": "/tɒp/"
+    },
+    {
+      "text": "of",
+      "meaning": "（表示所属）…的",
+      "pos": "preposition",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，特指）",
+      "pos": "article",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "paper.",
+      "meaning": "试卷；纸张",
+      "pos": "noun",
+      "phonetic": "/ˈpeɪpə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The man",
+      "meaning": "那个人",
+      "relation": "句子的描述主体，是后续动作的发出者。"
+    },
+    {
+      "text": "next to me",
+      "meaning": "坐在我旁边的",
+      "relation": "修饰前面的the man，限定这个男人的位置。"
+    },
+    {
+      "text": "wrote",
+      "meaning": "写下了",
+      "relation": "主语发出的过去动作，是句子的核心谓语。"
+    },
+    {
+      "text": "his name",
+      "meaning": "他的名字",
+      "relation": "动作wrote的对象，说明写下的具体内容。"
+    },
+    {
+      "text": "at the top of the paper.",
+      "meaning": "在试卷的上端",
+      "relation": "补充说明动作发生的具体位置，限定写名字的地点。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-019",
+  "sentenceOrder": 19,
+  "english": "The man next to me wrote his name at the top of the paper.",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "介词短语作后置定语的语序",
+      "text": "next to me是修饰the man的介词短语，英语中放在被修饰的名词后面；中文习惯把修饰人的限定语放在名词前面，翻译为“坐在我旁边的那个人”，符合中文表达顺序。"
+    },
+    {
+      "title": "地点状语的排序",
+      "text": "at the top of the paper是说明写名字位置的状语，放在整个句子的最后；中文会把地点状语放在谓语动词“写”的前面，翻译为“在试卷上端写了自己的名字”，符合中文的表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合句子事实与语境，结构划分、主干和翻译均正确。修正next to的词性/音标、单词text中误带的句号，并将“顶部/顶端”的译文改为符合本场景的“上端”。（非逐句人工审核）"
+}

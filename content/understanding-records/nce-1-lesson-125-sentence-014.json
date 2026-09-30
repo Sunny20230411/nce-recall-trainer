@@ -1,0 +1,105 @@
+{
+  "chinese": "看看窗外。",
+  "intent": "向对方发出指令，让他朝窗户外面看。",
+  "comparison": null,
+  "backbone": {
+    "text": "Look out of the window.",
+    "meaning": "看向窗外。"
+  },
+  "structureNotes": [
+    {
+      "title": "祈使句的起点",
+      "text": "以动词原形 look 开头，默认省略主语 you，直接对听话人发出动作指令。"
+    },
+    {
+      "title": "out of 指明视线方向",
+      "text": "look 表示“看”，out of 表示“从……向外”，后面接窗户，合起来就是“朝窗外看”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Look out of the window.",
+      "role": "祈使句",
+      "explanation": "用动词原形开头，发出直接指令，默认省略主语 you。"
+    },
+    {
+      "text": "Look",
+      "role": "谓语动词",
+      "explanation": "表示“看”这个核心动作。"
+    },
+    {
+      "text": "out of the window",
+      "role": "处所介词短语",
+      "explanation": "out of 是复合介词，表示“从……向外”，window 是名词作介词宾语，共同说明视线朝向窗户外面。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Look",
+      "meaning": "看",
+      "pos": "动词",
+      "phonetic": "/lʊk/"
+    },
+    {
+      "text": "out",
+      "meaning": "（与 of 搭配）表示从内部向外的方向",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，特指对话双方都清楚的事物）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "window.",
+      "meaning": "窗户",
+      "pos": "名词",
+      "phonetic": "/ˈwɪndəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Look",
+      "meaning": "看",
+      "relation": "核心指令动作"
+    },
+    {
+      "text": "out of",
+      "meaning": "从……向外",
+      "relation": "复合介词，指明动作的方向"
+    },
+    {
+      "text": "the window.",
+      "meaning": "窗户",
+      "relation": "介词宾语，特指双方知晓的那扇窗"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-125",
+  "sentenceId": "nce-1-lesson-125-sentence-014",
+  "sentenceOrder": 14,
+  "english": "Look out of the window.",
+  "lesson": "Lesson 125 Tea for two",
+  "notes": [
+    {
+      "title": "祈使句的起点",
+      "text": "以动词原形 look 开头，默认省略主语 you，直接对听话人发出动作指令。"
+    },
+    {
+      "title": "out of 指明视线方向",
+      "text": "look 表示“看”，out of 表示“从……向外”，后面接窗户，合起来就是“朝窗外看”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体可用：句子核心语义、祈使句结构、各词词性与短语搭配均解释正确，上下文衔接合理。仅存在三处细节问题：1. 单词释义存在冗余标点，window 的释义后多余加了句号；2. 部分词汇关系解释不够精准：out 单独释义时未说明在 look out of 搭配中的功能，the 的释义表述不规范，定冠词的作用是限定特指，释义写成“这个”不够准确；3. 词汇角色标注基本正确，部分表述可更贴合语法规范，不影响整体理解，仅需微调。（非逐句人工审核）"
+}

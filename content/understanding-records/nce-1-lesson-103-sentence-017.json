@@ -1,0 +1,166 @@
+{
+  "chinese": "我讨厌它们。我肯定会考低分。",
+  "intent": "说话人表达自己对法语考试的厌恶，以及对自己考试得分偏低的沮丧预判。",
+  "comparison": {
+    "chinese": "我肯定会考低分。",
+    "english": "I'm sure I've got a low mark.",
+    "steps": [
+      {
+        "label": "先把态度放在句首",
+        "text": "I'm sure",
+        "explanation": "放在句首先告诉听话人：接下来的内容是“我确信”的判断，而不是临时猜测；中文常说“我肯定……”，位置对应。"
+      },
+      {
+        "label": "再补出确信的具体内容",
+        "text": "I've got a low mark",
+        "explanation": "紧跟在sure后面，说明确信的具体内容是“我会得低分”；这里I've got是口语中常用的现在完成时表达，结合刚考完试还未出分的语境，表达说话人对当前考试结果的预判。"
+      },
+      {
+        "label": "low修饰名词的位置",
+        "text": "a low mark",
+        "explanation": "low放在mark前面修饰“分数”，表示“低分”；中文习惯说“低分”，定语顺序和英文一致。"
+      }
+    ],
+    "takeaway": "be sure后面接完整的陈述分句，表达说话人确信的内容；have got是口语常用表达，既可以表示“已经获得”的动作结果，也可以表示“拥有”的状态，具体含义结合上下文判断。"
+  },
+  "backbone": {
+    "text": "I hate them. I'm sure I've got a low mark.",
+    "meaning": "我讨厌（这些考试），并且我确信自己会考很低的分数。"
+  },
+  "structureNotes": [
+    {
+      "title": "指代them的所指",
+      "text": "them在这里承接上一句提到的French tests（法语考试），指代前面说的那些令人难受的考试，不是泛指别的东西。"
+    },
+    {
+      "title": "I've got的口语用法",
+      "text": "I've got是口语里非常常用的现在完成时形式，既可以表示“已经得到（分数）”的动作结果，也可以表示“拥有”的状态；结合本段刚考完法语试、还没正式出成绩的语境，这里是说话人对自己考试得分偏低的主观预判。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "第一分句主语",
+      "explanation": "指说话人自己，是发出“讨厌”这个动作的人。"
+    },
+    {
+      "text": "hate",
+      "role": "第一分句谓语",
+      "explanation": "表达说话人强烈的厌恶情绪，是第一句的核心动作。"
+    },
+    {
+      "text": "them",
+      "role": "第一分句宾语",
+      "explanation": "指代前文提到的法语考试，是hate的对象。"
+    },
+    {
+      "text": "I'm sure",
+      "role": "第二分句主句",
+      "explanation": "表达说话人的主观确信态度，后面引出确信的具体内容。"
+    },
+    {
+      "text": "I've got a low mark",
+      "role": "表语从句（省略that）",
+      "explanation": "说明sure的具体内容，是说话人对自身考试成绩的预判；从句用现在完成时，结合语境表达对当前已经结束的考试的结果判断。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "hate",
+      "meaning": "讨厌；憎恶",
+      "pos": "动词",
+      "phonetic": "/heɪt/"
+    },
+    {
+      "text": "them.",
+      "meaning": "它们（指代前文提到的法语考试）",
+      "pos": "代词",
+      "phonetic": "/ðem/"
+    },
+    {
+      "text": "I'm",
+      "meaning": "我是（I am的缩写）",
+      "pos": "缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "sure",
+      "meaning": "确信的；有把握的",
+      "pos": "形容词",
+      "phonetic": "/ʃʊə(r)/"
+    },
+    {
+      "text": "I've",
+      "meaning": "我已经（I have的缩写，构成现在完成时）",
+      "pos": "缩写",
+      "phonetic": "/aɪv/"
+    },
+    {
+      "text": "got",
+      "meaning": "得到；获得（get的过去分词，此处表已经获得）",
+      "pos": "动词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个，表泛指）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "low",
+      "meaning": "低的",
+      "pos": "形容词",
+      "phonetic": "/ləʊ/"
+    },
+    {
+      "text": "mark.",
+      "meaning": "分数；成绩",
+      "pos": "名词",
+      "phonetic": "/mɑːk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I hate them.",
+      "meaning": "我讨厌它们。",
+      "relation": "表达说话人对法语考试的厌恶情绪。"
+    },
+    {
+      "text": "I'm sure",
+      "meaning": "我肯定",
+      "relation": "引出说话人对自身考试成绩的主观判断态度。"
+    },
+    {
+      "text": "I've got a low mark.",
+      "meaning": "我会考低分。",
+      "relation": "补充说明说话人确信的具体内容，即自己预估会拿到偏低的考试分数。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-017",
+  "sentenceOrder": 17,
+  "english": "I hate them. I'm sure I've got a low mark.",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "指代them的所指",
+      "text": "them在这里承接上一句提到的French tests（法语考试），指代前面说的那些令人难受的考试，不是泛指别的东西。"
+    },
+    {
+      "title": "I've got的口语用法",
+      "text": "I've got是口语里非常常用的现在完成时形式，既可以表示“已经得到（分数）”的动作结果，也可以表示“拥有”的状态；结合本段刚考完法语试、还没正式出成绩的语境，这里是说话人对自己考试得分偏低的主观预判。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构和句意可理解，但存在三处需修正：一是‘I've got a low mark’对应前文刚结束考试的语境，是说话人对成绩的主观预判，并非已经实际拿到成绩；二是现有内容对‘I've got’静态归属用法的否定过于绝对，该表达既可以表示动作结果，也可以表示状态；三是‘a’的标注不够准确，其核心语法属性为不定冠词，而非泛化的‘冠词’。其余内容的语义、角色划分、指代关系均符合语境，无核心偏差。（非逐句人工审核）"
+}

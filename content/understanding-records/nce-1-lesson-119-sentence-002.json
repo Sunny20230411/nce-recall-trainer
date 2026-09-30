@@ -1,0 +1,139 @@
+{
+  "chinese": "我想给你讲一个真实的故事。",
+  "intent": "说话人表达想要向听众讲述一则真实经历的意愿，起到自然引出后续故事的承接作用。",
+  "comparison": {
+    "chinese": "中文习惯把“给你”这个对象放到动作前面，说成“我想给你讲一个真实的故事”。",
+    "english": "英文在表达“给某人讲某物”时，常用 tell sb sth 的结构，把接受信息的对象 you 直接放在动词 tell 后面，再接要传递的事物 a true story。",
+    "steps": [
+      {
+        "label": "先点明主观意愿",
+        "text": "I want to tell",
+        "explanation": "I want to 表示主语的想法是“想要做某事”，后面接动词原形 tell 构成打算做的内容。"
+      },
+      {
+        "label": "依次交代动作的接收者与内容",
+        "text": "you a true story",
+        "explanation": "you 是“讲”这个动作的接收人，a true story 是讲述的具体对象，二者先后跟在 tell 后面。"
+      }
+    ],
+    "takeaway": "双宾语结构中，接收对象在前、动作内容在后，译成中文时可把接收对象提前到动词前，更符合中文表达习惯。"
+  },
+  "backbone": {
+    "text": "I want to tell you a story.",
+    "meaning": "我想要给你讲一个故事。"
+  },
+  "structureNotes": [
+    {
+      "title": "双宾语的构成",
+      "text": "tell 后面接 you 作为间宾（接收讲述的人），再接 a true story 作为直宾（讲述的具体内容），两个宾语直接相连，不需要额外介词连接。"
+    },
+    {
+      "title": "true 作前置定语",
+      "text": "true 放在 story 前面修饰故事的性质，表示故事是真实发生的，不是虚构编造的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "句子描述的主体，是“想要讲故事”这个意愿的发出者。"
+    },
+    {
+      "text": "want to tell you a true story.",
+      "role": "谓语部分",
+      "explanation": "表达主语的具体意愿与动作内容，由 want 带不定式 to tell，再接双宾语 you 和 a true story 构成。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词（主格）",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要、希望",
+      "pos": "动词",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "to",
+      "meaning": "（动词不定式符号，无实义）",
+      "pos": "不定式标记",
+      "phonetic": "/tə/"
+    },
+    {
+      "text": "tell",
+      "meaning": "讲述、告诉",
+      "pos": "动词",
+      "phonetic": "/tel/"
+    },
+    {
+      "text": "you",
+      "meaning": "你、你们",
+      "pos": "代词（宾格）",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个（表泛指）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "true",
+      "meaning": "真实的、符合事实的",
+      "pos": "形容词",
+      "phonetic": "/truː/"
+    },
+    {
+      "text": "story.",
+      "meaning": "故事",
+      "pos": "名词",
+      "phonetic": "/ˈstɔːri/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "主语，即发出“想要讲故事”这个意愿的人",
+      "meaning": "我"
+    },
+    {
+      "text": "want to tell",
+      "relation": "谓语核心，表达主语的意愿和打算做的动作",
+      "meaning": "想要讲述"
+    },
+    {
+      "text": "you",
+      "relation": "动作的接收对象，也就是听故事的人",
+      "meaning": "你"
+    },
+    {
+      "text": "a true story.",
+      "relation": "动作传递的具体内容，也就是要讲的东西",
+      "meaning": "一个真实的故事"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-119",
+  "sentenceId": "nce-1-lesson-119-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I want to tell you a true story.",
+  "lesson": "Lesson 119 A true story",
+  "notes": [
+    {
+      "title": "双宾语的构成",
+      "text": "tell 后面接 you 作为间宾（接收讲述的人），再接 a true story 作为直宾（讲述的具体内容），两个宾语直接相连，不需要额外介词连接。"
+    },
+    {
+      "title": "true 作前置定语",
+      "text": "true 放在 story 前面修饰故事的性质，表示故事是真实发生的，不是虚构编造的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，各成分划分、双宾语说明、词义与语境匹配均符合原文逻辑，仅存在音标标注的微小格式问题需要修正，不影响整体理解。（非逐句人工审核）"
+}

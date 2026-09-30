@@ -1,0 +1,154 @@
+{
+  "chinese": "打扰一下。你有零钱吗？",
+  "intent": "礼貌引起注意后，向对方确认是否有可以找零的小额零钱。",
+  "comparison": {
+    "chinese": "先礼貌打声招呼，再询问对方有没有零钱；疑问语气靠“吗”和句末问号表达。",
+    "english": "Excuse me. Have you got any small change?",
+    "steps": [
+      {
+        "label": "先看“打声招呼”",
+        "text": "Excuse me.",
+        "explanation": "用于在提问或打扰他人前礼貌引起注意，中文习惯说“打扰一下”。"
+      },
+      {
+        "label": "再看“你有零钱吗”",
+        "text": "Have you got any small change?",
+        "explanation": "Have you got... 是英语口语中询问“你有没有……”的常用说法；把 Have 放在 you 前面，就表示这是在提问，而不是陈述句。"
+      },
+      {
+        "label": "接着看 any small change",
+        "text": "any small change",
+        "explanation": "在疑问句中常用 any 表示“一些”；small change 指可用于找零的“零钱”，而不是“小的变化”。"
+      }
+    ],
+    "takeaway": "先听清礼貌语，再用 Have you got... 理解“你有没有……”，并注意 small change 在购物、乘车场景中指零钱。"
+  },
+  "backbone": {
+    "text": "Excuse me. Have you got any small change?",
+    "meaning": "先礼貌打扰对方，再询问对方是否有零钱。"
+  },
+  "structureNotes": [
+    {
+      "title": "Have you got 的提问结构",
+      "text": "Have you got... 把 Have 放在主语 you 前，构成英语口语中“你有没有……”的一般疑问句；这里不是“你已经得到了什么”的叙事句。"
+    },
+    {
+      "title": "any 与 small change 的搭配",
+      "text": "疑问句中常用 any 修饰 small change，表示“一些零钱”；small change 是固定搭配，指可用于找零的小额钱币。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Excuse me.",
+      "role": "礼貌引起注意语",
+      "explanation": "在提问前先礼貌打扰对方，符合日常英语请求的开场习惯。"
+    },
+    {
+      "text": "Have",
+      "role": "助动词（提问标记）",
+      "explanation": "放在主语 you 前，帮助构成 Have you got... 的疑问结构。"
+    },
+    {
+      "text": "you",
+      "role": "询问对象（主语）",
+      "explanation": "指被询问的人“你”。"
+    },
+    {
+      "text": "got",
+      "role": "过去分词（与 Have 连用）",
+      "explanation": "和 Have 一起表示“有、拥有”，在 Have you got... 中不单独强调“得到”的动作。"
+    },
+    {
+      "text": "any small change",
+      "role": "询问对象（宾语）",
+      "explanation": "表示“一些零钱”，是整句要确认是否拥有的东西。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Excuse",
+      "meaning": "原谅、谅解（固定礼貌表达Excuse me.中的感叹语）",
+      "pos": "感叹语",
+      "phonetic": "/ɪkˈskjuːz/"
+    },
+    {
+      "text": "me.",
+      "meaning": "我（宾格，用于Excuse me.固定礼貌表达）",
+      "pos": "代词（宾格）",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "Have",
+      "meaning": "有（助动词，与got连用构成提问）",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "you",
+      "meaning": "你、你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "got",
+      "meaning": "得到、拥有（过去分词，与Have连用表示有）",
+      "pos": "动词（过去分词）",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "any",
+      "meaning": "一些（用于疑问句）",
+      "pos": "限定词",
+      "phonetic": "/ˈeni/"
+    },
+    {
+      "text": "small",
+      "meaning": "小额的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/"
+    },
+    {
+      "text": "change?",
+      "meaning": "零钱",
+      "pos": "名词",
+      "phonetic": "/tʃeɪndʒ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Excuse me.",
+      "relation": "礼貌引起注意",
+      "meaning": "打扰一下。"
+    },
+    {
+      "text": "Have you got",
+      "relation": "提问框架",
+      "meaning": "你有没有……"
+    },
+    {
+      "text": "any small change?",
+      "relation": "询问对象（拥有的东西）",
+      "meaning": "一些零钱？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-113",
+  "sentenceId": "nce-1-lesson-113-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Excuse me. Have you got any small change?",
+  "lesson": "Lesson 113 Small change",
+  "notes": [
+    {
+      "title": "Have you got 的提问结构",
+      "text": "Have you got... 把 Have 放在主语 you 前，构成英语口语中“你有没有……”的一般疑问句；这里不是“你已经得到了什么”的叙事句。"
+    },
+    {
+      "title": "any 与 small change 的搭配",
+      "text": "疑问句中常用 any 修饰 small change，表示“一些零钱”；small change 是固定搭配，指可用于找零的小额钱币。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合成人英语学习者的解析要求：句义翻译准确，对比模块完整说明中英文组句顺序差异和疑问语气表达习惯，主干提取正确，结构标注清晰对应了Have you got疑问句的成分和any、small change的搭配用法，词汇释义和音标符合英式英语规范，分块解析的语义和关联标注准确。仅存在两处可优化的小问题：1. 词汇表中Excuse标注为动词，但其在礼貌用语Excuse me.中的实际语法功能是感叹语，词性表述可更贴合语境；2. me.的释义缺少对其作宾格代词用于Excuse me.这一固定礼貌表达的场景说明。其余内容均无需修改。（非逐句人工审核）"
+}

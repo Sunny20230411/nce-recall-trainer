@@ -1,0 +1,86 @@
+{
+  "chinese": "一磅糖。",
+  "intent": "直接说明糖的计量规格，是购物场景里说明商品数量的常用简洁表达。",
+  "comparison": null,
+  "backbone": {
+    "text": "A pound of sugar.",
+    "meaning": "明确标示糖的重量为一磅，传递具体的商品计量信息。"
+  },
+  "parts": [
+    {
+      "text": "A pound",
+      "relation": "说明分量多少",
+      "meaning": "一磅，标示计量单位的具体数值"
+    },
+    {
+      "text": "of",
+      "relation": "衔接计量和对应物品",
+      "meaning": "表示计量与事物的从属关联"
+    },
+    {
+      "text": "sugar.",
+      "relation": "补充计量的具体对象",
+      "meaning": "糖，此处带句末标点标识表达结束"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "量词衔接逻辑",
+      "text": "该表达用A pound of固定搭配引出后续不可数名词sugar，是英语里给不可数事物搭配计量的基础结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A pound of",
+      "role": "计量限定短语",
+      "explanation": "用来指定不可数名词的具体重量，让原本无法直接用单数量化的事物有明确的数值范围。"
+    },
+    {
+      "text": "sugar.",
+      "role": "被限定的事物核心",
+      "explanation": "点明这里计量的具体物品是糖，句末的点标识整个简短表达的完结。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "一（个）",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "A"
+    },
+    {
+      "meaning": "磅（重量单位）",
+      "pos": "名词",
+      "phonetic": "/paʊnd/",
+      "text": "pound"
+    },
+    {
+      "meaning": "……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "糖",
+      "pos": "名词",
+      "phonetic": "/ˈʃʊɡə(r)/",
+      "text": "sugar."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-41",
+  "sentenceId": "nce-1-lesson-041-sentence-011",
+  "sentenceOrder": 11,
+  "english": "A pound of sugar.",
+  "lesson": "Lesson 41 Penny's bag",
+  "notes": [
+    {
+      "title": "量词衔接逻辑",
+      "text": "该表达用A pound of固定搭配引出后续不可数名词sugar，是英语里给不可数事物搭配计量的基础结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体合规，仅存在少量细节表述不严谨的问题，可明确修正。（非逐句人工审核）"
+}

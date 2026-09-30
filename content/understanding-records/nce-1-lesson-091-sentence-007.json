@@ -1,0 +1,75 @@
+{
+  "chinese": "什么时候？明天上午吗？",
+  "intent": "承接上文提到的搬家计划，先追问搬家的具体时间点，再提出自己猜测的时间“明天上午”，确认这个猜测是否正确。",
+  "comparison": null,
+  "backbone": {
+    "text": "（你说的搬家）什么时候？（是）明天上午吗？",
+    "meaning": "承接上文“He's going to move tomorrow.”的语境，追问搬家的具体时间，再就自己猜测的“明天上午”这个时间点向对方确认是否正确。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略结构适配口语场景",
+      "text": "这两句都是承接上文的口语省略形式。第一句When? 完整含义是When is he going to move? 直接追问时间；第二句Tomorrow morning? 完整含义是Is he going to move tomorrow morning? 用升调的问号表达确认语气，没有照搬完整疑问句式，符合日常对话的简洁特点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When?",
+      "role": "省略式特殊疑问句",
+      "explanation": "承接上文搬家计划，省略问句其余部分，仅用疑问副词When直接追问具体时间。"
+    },
+    {
+      "text": "Tomorrow morning?",
+      "role": "省略式一般疑问句",
+      "explanation": "承接前文的特殊疑问，省略主语和谓语部分，仅给出猜测的时间状语，以问号升调表达确认、核对的语气。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "什么时候",
+      "pos": "疑问副词",
+      "phonetic": "/wen/",
+      "text": "When?"
+    },
+    {
+      "meaning": "明天",
+      "pos": "副词",
+      "phonetic": "/təˈmɒrəʊ/",
+      "text": "Tomorrow"
+    },
+    {
+      "meaning": "早晨；上午",
+      "pos": "名词",
+      "phonetic": "/ˈmɔːnɪŋ/",
+      "text": "morning?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "When?",
+      "relation": "承接上文提到的搬家计划，直接追问具体的执行时间。",
+      "meaning": "什么时候？"
+    },
+    {
+      "text": "Tomorrow morning?",
+      "relation": "就自己猜测的时间点向对方确认，等待对方给出肯定或否定的答复。",
+      "meaning": "明天上午吗？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-91",
+  "sentenceId": "nce-1-lesson-091-sentence-007",
+  "sentenceOrder": 7,
+  "english": "When? Tomorrow morning?",
+  "lesson": "Lesson 91 Poor Ian!",
+  "notes": [
+    {
+      "title": "省略结构适配口语场景",
+      "text": "这两句都是承接上文的口语省略形式。第一句When? 完整含义是When is he going to move? 直接追问时间；第二句Tomorrow morning? 完整含义是Is he going to move tomorrow morning? 用升调的问号表达确认语气，没有照搬完整疑问句式，符合日常对话的简洁特点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合语境，准确识别了两处省略疑问句的口语用法，词义、音标基本符合英式规范，翻译通顺自然。仅存在一处冗余表述可优化：结构说明中描述Tomorrow morning?的扩展结构时多余提到“把猜测的时间提前到句首”，该表述不符合实际结构。其余内容无需修改。（非逐句人工审核）"
+}

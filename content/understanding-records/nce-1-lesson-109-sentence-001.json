@@ -1,0 +1,145 @@
+{
+  "chinese": "简，我来煮点咖啡好吗？",
+  "intent": "说话人主动提出要为对方煮咖啡，用征询的语气征求在场人的同意。",
+  "comparison": {
+    "chinese": "简，我来煮点咖啡好吗？",
+    "english": "Shall I make some coffee, Jane?",
+    "steps": [
+      {
+        "label": "谁做什么",
+        "text": "Shall I make some coffee",
+        "explanation": "先问“我要不要做点什么”，动作是 make some coffee（煮点咖啡）。"
+      },
+      {
+        "label": "征求谁的意见",
+        "text": "Shall 放在句首，末了称呼 Jane",
+        "explanation": "Shall 提到主语 I 前面，构成提议式征求；Jane 是听话人。"
+      },
+      {
+        "label": "Some 的语气",
+        "text": "some coffee 不是“一些”的字面强调",
+        "explanation": "some 在提议、请求中常带“请对方尝一点”的委婉语气，不必硬译为“一些咖啡”。"
+      }
+    ],
+    "takeaway": "Shall I… 是主动提出自己做某事并征询对方意愿，不是单纯疑问；some 在这里表示提议的委婉量。"
+  },
+  "backbone": {
+    "text": "Shall I make some coffee?",
+    "meaning": "“我来煮点咖啡，好不好？”"
+  },
+  "structureNotes": [
+    {
+      "title": "Shall I … 的提议句型",
+      "text": "Shall 放在句首、主语 I 之前，与动词原形 make 连用，表示“我要不要……好吗”，用于向对方征求自己行动的许可或意愿。"
+    },
+    {
+      "title": "称呼语位置",
+      "text": "Jane 放在句末并用逗号隔开，是对话中对听话人的直接称呼，不参与主干句法。"
+    },
+    {
+      "title": "some 在提议中的用法",
+      "text": "some 通常用于肯定句，但在表示提议、请求并期望得到肯定答复时也可用于疑问句，带有“请对方享用一点”的委婉意味。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Shall",
+      "role": "情态助动词",
+      "explanation": "与第一人称 I 连用，放在主语前，构成提议式征询，表示说话人打算做某事并征求对方意见。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人本人，是发出“煮咖啡”这个动作的人。"
+    },
+    {
+      "text": "make some coffee",
+      "role": "谓语动词短语",
+      "explanation": "make 是实义动词，在此处表示“煮、冲调（饮品）”；some coffee 是它的宾语。"
+    },
+    {
+      "text": "Jane",
+      "role": "呼语（直接称呼）",
+      "explanation": "指明这句话是对简说的，用逗号与句子主干隔开。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Shall",
+      "meaning": "（用于第一人称，表提议或征询）……好吗？要不要……？",
+      "pos": "情态动词",
+      "phonetic": "/ʃæl/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "make",
+      "meaning": "煮，冲调（饮品）；制作",
+      "pos": "动词",
+      "phonetic": "/meɪk/"
+    },
+    {
+      "text": "some",
+      "meaning": "一些，一点",
+      "pos": "限定词",
+      "phonetic": "/sʌm/"
+    },
+    {
+      "text": "coffee,",
+      "meaning": "咖啡",
+      "pos": "名词",
+      "phonetic": "/ˈkɒfi/"
+    },
+    {
+      "text": "Jane?",
+      "meaning": "简（人名）",
+      "pos": "名词",
+      "phonetic": "/dʒeɪn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Shall I make",
+      "meaning": "我来煮……好吗",
+      "relation": "用征询语气引出主动提议的动作"
+    },
+    {
+      "text": "some coffee,",
+      "meaning": "一点咖啡（some 体现提议的委婉语气，不必硬译为“一些”）",
+      "relation": "补充说明要煮的饮品"
+    },
+    {
+      "text": "Jane?",
+      "meaning": "简",
+      "relation": "对话中对听话人的直接称呼，不参与句子主干"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-109",
+  "sentenceId": "nce-1-lesson-109-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Shall I make some coffee, Jane?",
+  "lesson": "Lesson 109 A good idea",
+  "notes": [
+    {
+      "title": "Shall I … 的提议句型",
+      "text": "Shall 放在句首、主语 I 之前，与动词原形 make 连用，表示“我要不要……好吗”，用于向对方征求自己行动的许可或意愿。"
+    },
+    {
+      "title": "称呼语位置",
+      "text": "Jane 放在句末并用逗号隔开，是对话中对听话人的直接称呼，不参与主干句法。"
+    },
+    {
+      "title": "some 在提议中的用法",
+      "text": "some 通常用于肯定句，但在表示提议、请求并期望得到肯定答复时也可用于疑问句，带有“请对方享用一点”的委婉意味。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干、句型说明和句法成分划分整体准确，some 的提议语气也已说明。词表中 coffee 条目误把逗号并入词形，条目结尾又额外列出 Jane?（带问号）作为独立词条；分块释义没有把 some 的委婉提议语气体现出来，只需做词条清理和释义精化。（非逐句人工审核）"
+}

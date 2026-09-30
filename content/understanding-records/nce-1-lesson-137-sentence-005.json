@@ -1,0 +1,188 @@
+{
+  "chinese": "我不想要水貂皮大衣！我想去看看世界。",
+  "intent": "表达对水貂皮大衣的拒绝，同时说明自己真正的愿望是周游世界，回应对方提出的中奖后买大衣的提议。",
+  "comparison": {
+    "chinese": "我不想要水貂皮大衣！我想去看看世界。",
+    "english": "I don't want a mink coat! I want to see the world.",
+    "steps": [
+      {
+        "label": "否定范围",
+        "text": "don't want a mink coat",
+        "explanation": "don't 直接否定动词 want，意思是“不想要”，否定的是意愿本身，而不是说想要别的大衣。"
+      },
+      {
+        "label": "愿望的表达",
+        "text": "want to see the world",
+        "explanation": "want 后面接 to see 这个不定式，说明愿望的具体内容是“看看世界”，不是正在执行的动作。"
+      },
+      {
+        "label": "对比衔接",
+        "text": "前后两句用感叹号分隔",
+        "explanation": "英文先直接否定，再说出真正想要的事物，中文语序与英文基本一致。"
+      }
+    ],
+    "takeaway": "don't 否定的是整个“想要水貂皮大衣”这件事，to see the world 补充说明真正的愿望是什么。"
+  },
+  "backbone": {
+    "text": "I don't want a mink coat! I want to see the world.",
+    "meaning": "我不要水貂皮大衣，我想要的是去周游世界。"
+  },
+  "structureNotes": [
+    {
+      "title": "don't 的否定对象",
+      "text": "don't 放在实义动词 want 前面，否定的是“想要水貂皮大衣”这个意愿，不是否定“大衣”本身。"
+    },
+    {
+      "title": "want to do 结构",
+      "text": "want 后面接带 to 的不定式 to see，说明想要做的具体事情，不是描述正在做的动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "第一句的说话人，发出“想要”或“不想要”的意愿。"
+    },
+    {
+      "text": "don't want",
+      "role": "谓语",
+      "explanation": "带否定助动词 don't 的谓语，表示“不想要”。"
+    },
+    {
+      "text": "a mink coat",
+      "role": "宾语",
+      "explanation": "不想要的对象，即水貂皮大衣。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "第二句的说话人，同样是“我”。"
+    },
+    {
+      "text": "want",
+      "role": "谓语",
+      "explanation": "表达肯定的意愿“想要”。"
+    },
+    {
+      "text": "to see the world",
+      "role": "宾语",
+      "explanation": "动词 want 的具体内容，即“去看看世界”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "don't",
+      "meaning": "不（构成否定）",
+      "pos": "助动词（do not 的缩写）",
+      "phonetic": "/dəʊnt/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要",
+      "pos": "动词",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一件",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "mink",
+      "meaning": "水貂",
+      "pos": "名词",
+      "phonetic": "/mɪŋk/"
+    },
+    {
+      "text": "coat!",
+      "meaning": "大衣",
+      "pos": "名词",
+      "phonetic": "/kəʊt/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要",
+      "pos": "动词",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号）",
+      "pos": "小品词",
+      "phonetic": "/tə/"
+    },
+    {
+      "text": "see",
+      "meaning": "看",
+      "pos": "动词",
+      "phonetic": "/siː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "world.",
+      "meaning": "世界",
+      "pos": "名词",
+      "phonetic": "/wɜːld/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I don't want",
+      "relation": "主语加否定谓语，表达拒绝的态度",
+      "meaning": "我不想要"
+    },
+    {
+      "text": "a mink coat!",
+      "relation": "拒绝的具体对象",
+      "meaning": "一件水貂皮大衣！"
+    },
+    {
+      "text": "I want",
+      "relation": "主语加肯定谓语，引出真正的愿望",
+      "meaning": "我想要"
+    },
+    {
+      "text": "to see the world.",
+      "relation": "想要做的具体事情",
+      "meaning": "去看看世界。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-137",
+  "sentenceId": "nce-1-lesson-137-sentence-005",
+  "sentenceOrder": 5,
+  "english": "I don't want a mink coat! I want to see the world.",
+  "lesson": "Lesson 137 A pleasant dream",
+  "notes": [
+    {
+      "title": "don't 的否定对象",
+      "text": "don't 放在实义动词 want 前面，否定的是“想要水貂皮大衣”这个意愿，不是否定“大衣”本身。"
+    },
+    {
+      "title": "want to do 结构",
+      "text": "want 后面接带 to 的不定式 to see，说明想要做的具体事情，不是描述正在做的动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，正确区分了否定对象、不定式作宾语的语法功能、名词作定语的搭配关系，中英语序对应一致，仅存在词块提取时将句末标点附着到单词上的小问题，修正后即可符合规范。（非逐句人工审核）"
+}

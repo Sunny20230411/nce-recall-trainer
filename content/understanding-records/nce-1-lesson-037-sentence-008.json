@@ -1,0 +1,81 @@
+{
+  "chinese": "粉红色是她最喜欢的颜色。",
+  "intent": "向对方说明苏珊最喜欢的颜色是粉红色，补充解释前面提到的送给女儿的物件选择粉色的原因。",
+  "comparison": null,
+  "backbone": {
+    "text": "Pink's her favourite colour.",
+    "meaning": "粉红色是她偏爱的颜色。"
+  },
+  "parts": [
+    {
+      "text": "Pink's",
+      "relation": "陈述的主语（Pink）与系动词（is）的合并缩写部分",
+      "meaning": "粉红色是"
+    },
+    {
+      "text": "her favourite colour.",
+      "relation": "表语部分，补充说明主语的具体属性，交代主语对应的内容",
+      "meaning": "她最喜欢的颜色。"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "Pink's 缩写说明",
+      "text": "这里的Pink's是Pink is的口语常用缩写，不是所有格形式，用来连接主语和后面的表语说明属性。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Pink's",
+      "role": "主语+系动词缩写",
+      "explanation": "指代粉红色作为陈述的核心主体，搭配系动词is引出后续的属性描述。"
+    },
+    {
+      "text": "her favourite colour.",
+      "role": "表语部分",
+      "explanation": "用来明确说明主语粉红色对应的属性，交代这是她最偏爱的颜色。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "粉红色是",
+      "pos": "名词（粉色）+系动词is（缩写形式）",
+      "phonetic": "/pɪŋks/",
+      "text": "Pink's"
+    },
+    {
+      "meaning": "她的",
+      "pos": "物主代词",
+      "phonetic": "/hɜː(r)/",
+      "text": "her"
+    },
+    {
+      "meaning": "最喜欢的，偏爱的",
+      "pos": "形容词",
+      "phonetic": "/ˈfeɪvərɪt/",
+      "text": "favourite"
+    },
+    {
+      "meaning": "颜色",
+      "pos": "名词",
+      "phonetic": "/ˈkʌlə(r)/",
+      "text": "colour."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-37",
+  "sentenceId": "nce-1-lesson-037-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Pink's her favourite colour.",
+  "lesson": "Lesson 37 Making a bookcase",
+  "notes": [
+    {
+      "title": "Pink's 缩写说明",
+      "text": "这里的Pink's是Pink is的口语常用缩写，不是所有格形式，用来连接主语和后面的表语说明属性。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体合规，仅存在局部标注细节错误，可明确修正。（非逐句人工审核）"
+}

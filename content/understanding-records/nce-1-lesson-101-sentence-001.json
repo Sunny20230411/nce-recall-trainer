@@ -1,0 +1,137 @@
+{
+  "chinese": "彭妮，请把吉米的明信片读给我听。",
+  "intent": "向彭妮提出朗读吉米明信片内容的请求。",
+  "comparison": null,
+  "backbone": {
+    "text": "Read Jimmy's card to me.",
+    "meaning": "把吉米的明信片读给我听。"
+  },
+  "structureNotes": [
+    {
+      "title": "双宾语的表达顺序",
+      "text": "Read 后可直接接朗读的对象（吉米的明信片），表示“读某物给某人听”时，用介词 to 引出接收朗读内容的人（me），对应中文“把某物读给某人听”的表达逻辑。"
+    },
+    {
+      "title": "祈使句的礼貌用法",
+      "text": "句首直接以动词原形 Read 开头构成祈使句，please 是常用的礼貌标记，放在句末并附带停顿逗号，句尾的 Penny 是对听话人的呼语，明确告知请求的对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Read",
+      "role": "谓语动词",
+      "explanation": "以动词原形开头，构成祈使句，表示请求对方执行的动作“读、朗读”。"
+    },
+    {
+      "text": "Jimmy's card",
+      "role": "宾语",
+      "explanation": "read 的动作直接对象，即被朗读的东西：吉米的明信片，其中 Jimmy's 是所有格作定语修饰 card。"
+    },
+    {
+      "text": "to me",
+      "role": "状语",
+      "explanation": "用介词 to 表明朗读动作的接收方是说话人本人。"
+    },
+    {
+      "text": "please",
+      "role": "语气标记",
+      "explanation": "放在祈使句末尾，弱化命令语气，让请求显得更客气礼貌。"
+    },
+    {
+      "text": "Penny",
+      "role": "呼语",
+      "explanation": "放在句末，点明这句话是对彭妮说的。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "读，朗读",
+      "pos": "动词（原形，祈使用法）",
+      "phonetic": "/riːd/",
+      "text": "Read"
+    },
+    {
+      "meaning": "吉米的",
+      "pos": "名词所有格",
+      "phonetic": "/ˈdʒɪmiz/",
+      "text": "Jimmy's"
+    },
+    {
+      "meaning": "明信片",
+      "pos": "名词",
+      "phonetic": "/kɑːd/",
+      "text": "card"
+    },
+    {
+      "meaning": "给，向",
+      "pos": "介词",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/",
+      "text": "me"
+    },
+    {
+      "meaning": "请（礼貌语气词）",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/",
+      "text": "please,"
+    },
+    {
+      "meaning": "彭妮（人名）",
+      "pos": "名词（呼语）",
+      "phonetic": "/ˈpeni/",
+      "text": "Penny."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Read",
+      "relation": "核心动作，发起祈使请求",
+      "meaning": "读、朗读"
+    },
+    {
+      "text": "Jimmy's card",
+      "relation": "动作的直接对象，说明要读的内容",
+      "meaning": "吉米的明信片"
+    },
+    {
+      "text": "to me",
+      "relation": "动作的接收对象，说明读给谁听",
+      "meaning": "给我"
+    },
+    {
+      "text": "please,",
+      "relation": "礼貌语气标记，让请求更客气",
+      "meaning": "请"
+    },
+    {
+      "text": "Penny.",
+      "relation": "呼语，点明请求的听话对象",
+      "meaning": "彭妮"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-101",
+  "sentenceId": "nce-1-lesson-101-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Read Jimmy's card to me please, Penny.",
+  "lesson": "Lesson 101 A card from Jimmy",
+  "notes": [
+    {
+      "title": "双宾语的表达顺序",
+      "text": "Read 后可直接接朗读的对象（吉米的明信片），表示“读某物给某人听”时，用介词 to 引出接收朗读内容的人（me），对应中文“把某物读给某人听”的表达逻辑。"
+    },
+    {
+      "title": "祈使句的礼貌用法",
+      "text": "句首直接以动词原形 Read 开头构成祈使句，please 是常用的礼貌标记，放在句末并附带停顿逗号，句尾的 Penny 是对听话人的呼语，明确告知请求的对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，各部分结构、词义、音标基本无误，仅存在双宾语术语表述易引发歧义的小问题，不影响核心理解，可通过修正明确表述。（非逐句人工审核）"
+}

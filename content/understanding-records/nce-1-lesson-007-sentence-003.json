@@ -1,0 +1,85 @@
+{
+  "chinese": "你是法国人吗？",
+  "intent": "向对方确认国籍身份，提出是非类询问",
+  "comparison": null,
+  "backbone": {
+    "text": "Are you French?",
+    "meaning": "询问对方是否属于法国国籍的身份确认"
+  },
+  "parts": [
+    {
+      "text": "Are",
+      "relation": "系动词置于句首构成疑问语序，引导整个身份确认的询问",
+      "meaning": "（be动词第二人称单数现在时的疑问形式，无实义）"
+    },
+    {
+      "text": "you",
+      "relation": "指代对话对方，作为被询问身份的主语",
+      "meaning": "对话的对方，也就是被询问的对象"
+    },
+    {
+      "text": "French?",
+      "relation": "作为表语补充说明被询问的具体身份属性",
+      "meaning": "法国国籍相关的身份属性"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般疑问句的语序特点",
+      "text": "本句把be动词Are放到句首，直接引导对身份的是非询问，不需要额外添加助动词do，符合主系表结构的问句构造规则。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Are you French?",
+      "role": "一般疑问句",
+      "explanation": "用于直接确认对方是否为法国国籍的身份类是非问句，只需用Yes或No就可以给出基础答复。"
+    },
+    {
+      "text": "Are you",
+      "role": "疑问式主系组合",
+      "explanation": "把系动词Are提前到主语you之前，构成针对对方状态的疑问框架，引出后续要确认的身份内容。"
+    },
+    {
+      "text": "French",
+      "role": "表语",
+      "explanation": "放在系动词之后，用来描述主语you对应的身份属性，明确本次询问的具体内容是国籍身份。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（be动词的第二人称现在时，用于疑问句前置构成疑问语序）是",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "Are"
+    },
+    {
+      "meaning": "你，你们",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "法国人；法国籍的",
+      "pos": "名词/形容词",
+      "phonetic": "/frentʃ/",
+      "text": "French?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-7",
+  "sentenceId": "nce-1-lesson-007-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Are you French?",
+  "lesson": "Lesson 7 Are you a teacher?",
+  "notes": [
+    {
+      "title": "一般疑问句的语序特点",
+      "text": "本句把be动词Are放到句首，直接引导对身份的是非询问，不需要额外添加助动词do，符合主系表结构的问句构造规则。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合面向中文母语成年人的英语教学解析要求，仅存在少量细节疏漏可明确修正（非逐句人工审核）"
+}

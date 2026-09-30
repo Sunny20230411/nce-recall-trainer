@@ -1,0 +1,112 @@
+{
+  "chinese": "那听烟丝是给我的吗？",
+  "intent": "说话人指着面前的烟丝容器，询问对方这罐烟丝的归属对象是否是自己。",
+  "comparison": null,
+  "backbone": {
+    "text": "Is that tin of tobacco for me?",
+    "meaning": "那罐烟丝是给我的吗？"
+  },
+  "parts": [
+    {
+      "text": "Is",
+      "relation": "系动词提前开启疑问",
+      "meaning": "是（主系表一般疑问句中前置的系动词）"
+    },
+    {
+      "text": "that tin of tobacco",
+      "relation": "句子的主语部分，是被询问的对象主体",
+      "meaning": "那听烟丝"
+    },
+    {
+      "text": "for me?",
+      "relation": "表语部分，确认物品的指定接收对象",
+      "meaning": "是给我的吗"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般疑问语序",
+      "text": "本句把系动词Is放在句首，用来直接提出是非疑问，不需要额外借助助动词do，是主系表结构疑问句的标准调整方式。"
+    },
+    {
+      "title": "介词for的含义",
+      "text": "这里的for表示物品的归属或指定接收对象，说明这罐烟丝的用途是交付给me，不表达动作指向之外的其他含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is that tin of tobacco",
+      "role": "疑问引导+主语部分",
+      "explanation": "将系动词提前开启疑问，后面接被询问的主体“那听烟丝”。"
+    },
+    {
+      "text": "for me",
+      "role": "表语部分",
+      "explanation": "说明物品对应的接收对象，回应“是给谁的”这个问题。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是",
+      "pos": "be动词",
+      "phonetic": "/ɪz/",
+      "text": "Is"
+    },
+    {
+      "meaning": "那个",
+      "pos": "指示代词",
+      "phonetic": "/ðæt/",
+      "text": "that"
+    },
+    {
+      "meaning": "听（容器单位）",
+      "pos": "名词",
+      "phonetic": "/tɪn/",
+      "text": "tin"
+    },
+    {
+      "meaning": "属于……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "烟丝",
+      "pos": "名词",
+      "phonetic": "/təˈbækəʊ/",
+      "text": "tobacco"
+    },
+    {
+      "meaning": "给、归属于",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/",
+      "text": "for"
+    },
+    {
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/miː/",
+      "text": "me?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-41",
+  "sentenceId": "nce-1-lesson-041-sentence-015",
+  "sentenceOrder": 15,
+  "english": "Is that tin of tobacco for me?",
+  "lesson": "Lesson 41 Penny's bag",
+  "notes": [
+    {
+      "title": "一般疑问语序",
+      "text": "本句把系动词Is放在句首，用来直接提出是非疑问，不需要额外借助助动词do，是主系表结构疑问句的标准调整方式。"
+    },
+    {
+      "title": "介词for的含义",
+      "text": "这里的for表示物品的归属或指定接收对象，说明这罐烟丝的用途是交付给me，不表达动作指向之外的其他含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合要求，仅存在局部小瑕疵可修正，不影响核心解析准确性（非逐句人工审核）"
+}

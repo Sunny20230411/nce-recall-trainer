@@ -1,0 +1,143 @@
+{
+  "chinese": "他打开书，找到一句话。",
+  "intent": "按顺序叙述他取出短语手册后的连续动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "He opened the book and found a phrase.",
+    "meaning": "他打开书并找到了一句话。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列谓语",
+      "text": "opened 和 found 由 and 连接，共享主语 He，描述先打开书、后找到短语的连续动作。"
+    },
+    {
+      "title": "the book 指代明确",
+      "text": "the book 指前一句提到的 phrasebook，不是另一本书；翻译时可直接说“书”或“这本短语手册”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指故事中的男士，是后面两个动作的发出者。"
+    },
+    {
+      "text": "opened",
+      "role": "谓语1",
+      "explanation": "过去式，表示他打开了书。"
+    },
+    {
+      "text": "the book",
+      "role": "宾语1",
+      "explanation": "opened 的对象，指前文出现的 phrasebook。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个先后发生的动作。"
+    },
+    {
+      "text": "found",
+      "role": "谓语2",
+      "explanation": "过去式，表示他在打开的书中找到了一句话。"
+    },
+    {
+      "text": "a phrase.",
+      "role": "宾语2",
+      "explanation": "found 的对象，指书里的一句短语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "opened",
+      "meaning": "打开",
+      "pos": "动词",
+      "phonetic": "/ˈəʊpənd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "book",
+      "meaning": "书",
+      "pos": "名词",
+      "phonetic": "/bʊk/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "found",
+      "meaning": "找到",
+      "pos": "动词",
+      "phonetic": "/faʊnd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "phrase.",
+      "meaning": "短语；（结合语境）一句话",
+      "pos": "名词",
+      "phonetic": "/freɪz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "动作发出者",
+      "meaning": "他"
+    },
+    {
+      "text": "opened the book",
+      "relation": "第一个动作及对象",
+      "meaning": "打开这本书"
+    },
+    {
+      "text": "and",
+      "relation": "连接先后动作",
+      "meaning": "并"
+    },
+    {
+      "text": "found a phrase.",
+      "relation": "第二个动作及对象",
+      "meaning": "找到一句话"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-73",
+  "sentenceId": "nce-1-lesson-073-sentence-009",
+  "sentenceOrder": 9,
+  "english": "He opened the book and found a phrase.",
+  "lesson": "Lesson 73 The way to King Street",
+  "notes": [
+    {
+      "title": "并列谓语",
+      "text": "opened 和 found 由 and 连接，共享主语 He，描述先打开书、后找到短语的连续动作。"
+    },
+    {
+      "title": "the book 指代明确",
+      "text": "the book 指前一句提到的 phrasebook，不是另一本书；翻译时可直接说“书”或“这本短语手册”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合句义与上下文：两个并列谓语由 and 连接，共享主语 He；the book 已明确指代前一句的 phrasebook，phrase 结合语境译为“一句话”可接受。为进一步消除歧义、避免把句末标点误当作单词组成部分，微调词表中 phrase 的文本与释义即可。（非逐句人工审核）"
+}

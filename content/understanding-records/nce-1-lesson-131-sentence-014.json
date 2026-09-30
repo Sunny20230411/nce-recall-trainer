@@ -1,0 +1,133 @@
+{
+  "chinese": "谁来照看狗？",
+  "intent": "询问将要负责照看狗的人员，承接前文妻子的担忧语境，表达出行安排下对宠物照料问题的顾虑。",
+  "comparison": {
+    "chinese": "这个问题先问『谁』，再问要做的事。",
+    "english": "The question starts with Who, then asks what that person will do.",
+    "steps": [
+      {
+        "label": "先确定要问的缺口",
+        "text": "Who is going to look after the dog?",
+        "explanation": "Who是疑问代词作句子主语，问的是执行照看动作的人，放在句首，后面直接接is going to结构，不需要加助动词do。"
+      },
+      {
+        "label": "说清要做的事",
+        "text": "look after the dog",
+        "explanation": "be going to后面接动词原形look after，这是固定搭配表示“照顾、照看”，the dog是look after的宾语，说明照看的对象。"
+      },
+      {
+        "label": "对应中英文顺序",
+        "text": "问人→问要做的事",
+        "explanation": "中文习惯说“谁来照看狗”，英文将疑问代词Who放在句首主语位置，后续是be going to look after的将来时谓语部分，整体主谓宾顺序和中文一致。"
+      }
+    ],
+    "takeaway": "疑问代词作主语的问句，先找疑问词问的对象，再看后续的动作和对象即可，不需要额外加助动词。"
+  },
+  "backbone": {
+    "text": "Who's going to look after the dog?",
+    "meaning": "要由哪个人负责照看这只狗。"
+  },
+  "structureNotes": [
+    {
+      "title": "Who的位置",
+      "text": "Who是疑问代词作句子主语，放在句首，后面直接跟is going to…，不需要加助动词do。"
+    },
+    {
+      "title": "be going to + 动词短语",
+      "text": "look after是固定搭配，表示“照顾、照看”。be going to表示按安排将要发生的动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Who's",
+      "role": "疑问代词主语 + 缩写be动词",
+      "explanation": "Who是疑问代词作主语，'s是is的缩写，和后面going to构成将来时结构。"
+    },
+    {
+      "text": "going to look after the dog",
+      "role": "将来时谓语部分",
+      "explanation": "be going to + 动词原形look after，表示将要发生的动作；the dog是look after的宾语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Who's",
+      "meaning": "谁是（who is的缩写）",
+      "pos": "疑问代词 + 缩写be动词",
+      "phonetic": "/huːz/"
+    },
+    {
+      "text": "going",
+      "meaning": "（与be going to搭配表将来）将要",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（与be going to搭配）表将来",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "look",
+      "meaning": "（与after搭配）照料",
+      "pos": "动词",
+      "phonetic": "/lʊk/"
+    },
+    {
+      "text": "after",
+      "meaning": "（与look搭配）照料",
+      "pos": "副词小品词",
+      "phonetic": "/ˈɑːftə/"
+    },
+    {
+      "text": "the",
+      "meaning": "这/那",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "dog?",
+      "meaning": "狗",
+      "pos": "名词",
+      "phonetic": "/dɒɡ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Who's",
+      "meaning": "是谁（要负责这件事）",
+      "relation": "疑问代词作主语，询问执行动作的人"
+    },
+    {
+      "text": "going to look after",
+      "meaning": "将要照看",
+      "relation": "将来时谓语部分，说明动作内容和时间指向"
+    },
+    {
+      "text": "the dog?",
+      "meaning": "这只狗",
+      "relation": "宾语，补充说明照看的对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-131",
+  "sentenceId": "nce-1-lesson-131-sentence-014",
+  "sentenceOrder": 14,
+  "english": "Who's going to look after the dog?",
+  "lesson": "Lesson 131 Don't be so sure!",
+  "notes": [
+    {
+      "title": "Who的位置",
+      "text": "Who是疑问代词作句子主语，放在句首，后面直接跟is going to…，不需要加助动词do。"
+    },
+    {
+      "title": "be going to + 动词短语",
+      "text": "look after是固定搭配，表示“照顾、照看”。be going to表示按安排将要发生的动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句语义、主干、结构分析和基本翻译均正确；Who在该句中作主语、look after搭配及be going to表将来的说明均准确。仅需修正两处词性标注：to不是不定式符号，look after中的after是副词小品词而非介词。（非逐句人工审核）"
+}

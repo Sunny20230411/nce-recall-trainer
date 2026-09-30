@@ -1,0 +1,146 @@
+{
+  "chinese": "我正在清理碗橱时，汤米把蛋糕掉在了地上。",
+  "intent": "描述一个同步发生的意外事件：我在做清理碗橱这个动作的过程中，汤米发生了把蛋糕掉落的事。",
+  "comparison": {
+    "chinese": "我正在清理碗橱时，汤米把蛋糕掉在了地上。",
+    "english": "When I was cleaning the cupboard, Tommy dropped the cake.",
+    "steps": [
+      {
+        "label": "先把时间背景说清楚",
+        "text": "When I was cleaning the cupboard",
+        "explanation": "When在这里引导出时间场景，意思是“在我清理碗橱这个动作进行的期间”，was cleaning是过去进行时，说明这个背景动作在过去的某个时段正在持续发生。"
+      },
+      {
+        "label": "再交代这个时间里发生的核心事件",
+        "text": "Tommy dropped the cake.",
+        "explanation": "dropped是一般过去时，是已经完成的瞬间动作：就在我清理碗橱的那段时间里，汤米失手把蛋糕掉了，对应中文翻译补充的“掉在了地上”的语境含义。"
+      }
+    ],
+    "takeaway": "当要表达“某个持续动作正在进行的过程中，突然发生了另一件短动作的意外事”，可以用When引导过去进行时的从句做时间背景，主句用一般过去时说发生的事件，语序上可以先放时间从句，和中文“……时，……”的表达顺序一致。"
+  },
+  "backbone": {
+    "text": "When I was cleaning the cupboard, Tommy dropped the cake.",
+    "meaning": "我清理碗橱的过程中，汤米把蛋糕弄掉了。"
+  },
+  "structureNotes": [
+    {
+      "title": "When引导时间状语从句",
+      "text": "When在这里表示“当……的时候”，交代主句动作发生的时间背景，说明汤米掉蛋糕这件事，是在我清理碗橱的那个时段里发生的。"
+    },
+    {
+      "title": "两种过去时的配合",
+      "text": "从句用was cleaning（过去进行时）表示背景动作当时正在持续进行；主句用dropped（一般过去时）表示在这个背景下突发的、已经完成的瞬间动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When I was cleaning the cupboard,",
+      "role": "时间状语从句",
+      "explanation": "用When引导，给出主句动作发生的时间背景，说明“我正在清理碗橱”是当时正在进行的持续动作。"
+    },
+    {
+      "text": "Tommy",
+      "role": "主句主语",
+      "explanation": "指代事件的当事人汤米，是发出“掉蛋糕”这个动作的人。"
+    },
+    {
+      "text": "dropped the cake.",
+      "role": "主句谓语+宾语",
+      "explanation": "dropped是句子的核心动作，表示失手掉落、使东西落下的意思，the cake是dropped这个动作的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "When",
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "I",
+      "meaning": "我（主格）",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be动词过去式，搭配I）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "cleaning",
+      "meaning": "清理；打扫",
+      "pos": "动词（现在分词）",
+      "phonetic": "/ˈkliːnɪŋ/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，此处限定特指的碗橱",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "cupboard,",
+      "meaning": "碗橱；橱柜",
+      "pos": "名词",
+      "phonetic": "/ˈkʌbəd/"
+    },
+    {
+      "text": "Tommy",
+      "meaning": "汤米（人名）",
+      "pos": "名词",
+      "phonetic": "/ˈtɒmi/"
+    },
+    {
+      "text": "dropped",
+      "meaning": "（失手）使掉落；落下",
+      "pos": "动词（过去式）",
+      "phonetic": "/drɒpt/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，此处限定特指的蛋糕",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "cake.",
+      "meaning": "蛋糕",
+      "pos": "名词",
+      "phonetic": "/keɪk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "When I was cleaning the cupboard,",
+      "relation": "时间背景",
+      "meaning": "当我正在清理碗橱的时候"
+    },
+    {
+      "text": "Tommy dropped the cake.",
+      "relation": "核心事件",
+      "meaning": "汤米把蛋糕掉在了地上。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-117",
+  "sentenceId": "nce-1-lesson-117-sentence-008",
+  "sentenceOrder": 8,
+  "english": "When I was cleaning the cupboard, Tommy dropped the cake.",
+  "lesson": "Lesson 117 Tommy's breakfast",
+  "notes": [
+    {
+      "title": "When引导时间状语从句",
+      "text": "When在这里表示“当……的时候”，交代主句动作发生的时间背景，说明汤米掉蛋糕这件事，是在我清理碗橱的那个时段里发生的。"
+    },
+    {
+      "title": "两种过去时的配合",
+      "text": "从句用was cleaning（过去进行时）表示背景动作当时正在持续进行；主句用dropped（一般过去时）表示在这个背景下突发的、已经完成的瞬间动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容语法框架、分词逻辑符合原句结构，未出现关键错误，仅dropped的释义表述不够严谨，可优化完善。（非逐句人工审核）"
+}

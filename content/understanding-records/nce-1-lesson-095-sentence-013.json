@@ -1,0 +1,167 @@
+{
+  "chinese": "五分钟前开走了！我们错过了火车！",
+  "intent": "传达火车已经在五分钟前驶离站台、说话人没能赶上这趟列车的懊恼情绪，对应前文关于列车发车时间的询问。",
+  "comparison": null,
+  "backbone": {
+    "text": "It left five minutes ago! We missed the train!",
+    "meaning": "那趟火车五分钟前就已经开走了，我们没能赶上这班火车。"
+  },
+  "structureNotes": [
+    {
+      "title": "代词It的指代逻辑",
+      "text": "两句均为使用一般过去时的感叹句，开头的It指代前文语境中提到的the train，不需要补出完整名词，符合英语指代简洁性的表达习惯。"
+    },
+    {
+      "title": "ago的时间搭配",
+      "text": "“five minutes ago”是固定时间状语，意为“五分钟前”，和一般过去时搭配，明确说明火车驶离的时间点距离说话时刻已经过去了五分钟。"
+    },
+    {
+      "title": "missed的语境语义",
+      "text": "miss在此处不是“想念”的含义，结合赶火车的场景，意为“错过、没赶上”；末尾的the train指代前文提到的、五分钟前开走的那趟列车，避免重复啰嗦。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It left five minutes ago!",
+      "role": "第一分句（独立感叹句）",
+      "explanation": "陈述火车已经开走的客观事实，点明发车时间，独立成句传递紧迫感。"
+    },
+    {
+      "text": "It",
+      "role": "第一分句主语",
+      "explanation": "指代前文提到的the train，承接上下文避免重复。"
+    },
+    {
+      "text": "left",
+      "role": "第一分句谓语动词（一般过去时）",
+      "explanation": "表示“驶离、开出”的动作，是火车执行的过去动作。"
+    },
+    {
+      "text": "five minutes ago",
+      "role": "第一分句时间状语",
+      "explanation": "说明left这个动作发生在说话时刻的五分钟之前。"
+    },
+    {
+      "text": "We missed the train!",
+      "role": "第二分句（独立感叹句）",
+      "explanation": "在“火车已经开走”的事实基础上，点明说话人没能赶上火车的结果，传递懊恼情绪。"
+    },
+    {
+      "text": "We",
+      "role": "第二分句主语",
+      "explanation": "指说话人和同行的人，是“错过火车”这个动作的执行者。"
+    },
+    {
+      "text": "missed",
+      "role": "第二分句谓语动词（一般过去时）",
+      "explanation": "意为“错过、没赶上”，是描述过去发生的结果的核心动词。"
+    },
+    {
+      "text": "the train",
+      "role": "第二分句宾语",
+      "explanation": "指前文提到的五分钟前开走的那班火车。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（此处指代那趟火车）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "left",
+      "meaning": "离开，（从车站）驶出",
+      "pos": "动词（一般过去式）",
+      "phonetic": "/left/"
+    },
+    {
+      "text": "five",
+      "meaning": "五",
+      "pos": "数词",
+      "phonetic": "/faɪv/"
+    },
+    {
+      "text": "minutes",
+      "meaning": "分钟（minute的复数形式）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪnɪts/"
+    },
+    {
+      "text": "ago!",
+      "meaning": "……之前",
+      "pos": "副词",
+      "phonetic": "/əˈɡəʊ/"
+    },
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "missed",
+      "meaning": "错过，没赶上（miss的一般过去式）",
+      "pos": "动词（一般过去式）",
+      "phonetic": "/mɪst/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "train!",
+      "meaning": "火车",
+      "pos": "名词",
+      "phonetic": "/treɪn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It left",
+      "meaning": "它（指火车）开走了",
+      "relation": "第一分句的核心主谓部分，说明火车驶出的动作。"
+    },
+    {
+      "text": "five minutes ago!",
+      "meaning": "五分钟前",
+      "relation": "补充说明火车驶离的具体时间点。"
+    },
+    {
+      "text": "We missed",
+      "meaning": "我们错过了",
+      "relation": "第二分句的核心主谓部分，点明没赶上火车的主体和动作。"
+    },
+    {
+      "text": "the train!",
+      "meaning": "这班火车",
+      "relation": "补充说明错过的对象是特指那班刚开走的火车。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-95",
+  "sentenceId": "nce-1-lesson-095-sentence-013",
+  "sentenceOrder": 13,
+  "english": "It left five minutes ago! We missed the train!",
+  "lesson": "Lesson 95 Tickets, please.",
+  "notes": [
+    {
+      "title": "代词It的指代逻辑",
+      "text": "两句均为使用一般过去时的感叹句，开头的It指代前文语境中提到的the train，不需要补出完整名词，符合英语指代简洁性的表达习惯。"
+    },
+    {
+      "title": "ago的时间搭配",
+      "text": "“five minutes ago”是固定时间状语，意为“五分钟前”，和一般过去时搭配，明确说明火车驶离的时间点距离说话时刻已经过去了五分钟。"
+    },
+    {
+      "title": "missed的语境语义",
+      "text": "miss在此处不是“想念”的含义，结合赶火车的场景，意为“错过、没赶上”；末尾的the train指代前文提到的、五分钟前开走的那趟列车，避免重复啰嗦。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅存在一处表述疏漏：原备注将It所在的句子笼统归为陈述句，与实际带感叹号、传递紧迫感的感叹句属性不符，其余内容的指代关系、时态说明、语境词义解释、成分划分均符合原文逻辑，无其他错误。（非逐句人工审核）"
+}

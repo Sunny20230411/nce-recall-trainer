@@ -1,0 +1,105 @@
+{
+  "chinese": "然后他们上床睡觉。",
+  "intent": "承接前文孩子先写作业的晚间流程，说明完成作业后，他们接下来执行上床睡觉的动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "They go to bed.",
+    "meaning": "他们上床睡觉。"
+  },
+  "structureNotes": [
+    {
+      "title": "时序副词的衔接作用",
+      "text": "then作为时间衔接副词放在句首，指代“完成写作业这个动作之后”的节点，直接承接上一句的流程顺序，不需要额外加连接词。"
+    },
+    {
+      "title": "固定表达含义",
+      "text": "go to bed是表达“上床睡觉”的固定搭配，并不是指走去床的实体位置，to bed在这里和动词go搭配指向就寝的行为。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Then",
+      "role": "时间衔接状语",
+      "explanation": "用来说明本句动作发生在前文“孩子写作业”之后，承接晚间活动的先后顺序。"
+    },
+    {
+      "text": "they",
+      "role": "主语",
+      "explanation": "指代前文提到的孩子们，是上床睡觉这个动作的发出者。"
+    },
+    {
+      "text": "go to bed",
+      "role": "谓语部分",
+      "explanation": "固定搭配，表示就寝、上床睡觉的动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Then",
+      "meaning": "然后",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    },
+    {
+      "text": "they",
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "go",
+      "meaning": "去；前往",
+      "pos": "动词",
+      "phonetic": "/ɡəʊ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（用于 go to bed 等固定搭配中，表动作指向）",
+      "pos": "不定式标记",
+      "phonetic": "/tu/"
+    },
+    {
+      "text": "bed.",
+      "meaning": "床（go to bed 为固定搭配，表就寝）",
+      "pos": "名词",
+      "phonetic": "/bed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Then",
+      "meaning": "然后",
+      "relation": "交代动作发生的时序，承接上一句写作业的动作之后"
+    },
+    {
+      "text": "they",
+      "meaning": "他们",
+      "relation": "动作的发出者，指代前文提到的孩子们"
+    },
+    {
+      "text": "go to bed.",
+      "meaning": "上床睡觉。",
+      "relation": "描述主语执行的核心动作，表达就寝的行为"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-55",
+  "sentenceId": "nce-1-lesson-055-sentence-012",
+  "sentenceOrder": 12,
+  "english": "Then they go to bed.",
+  "lesson": "Lesson 55 The Sawyer family",
+  "notes": [
+    {
+      "title": "时序副词的衔接作用",
+      "text": "then作为时间衔接副词放在句首，指代“完成写作业这个动作之后”的节点，直接承接上一句的流程顺序，不需要额外加连接词。"
+    },
+    {
+      "title": "固定表达含义",
+      "text": "go to bed是表达“上床睡觉”的固定搭配，并不是指走去床的实体位置，to bed在这里和动词go搭配指向就寝的行为。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文语法、翻译、主干与块划分整体准确。go to bed 的固定搭配解释清楚，then 的时序衔接说明到位；仅需微调两个语法标注，避免暗示 bed 是介词普通宾语，同时明确 to 是不定式标记。（非逐句人工审核）"
+}

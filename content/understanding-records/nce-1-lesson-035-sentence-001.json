@@ -1,0 +1,109 @@
+{
+  "chinese": "这是我们村庄的一张照片。",
+  "intent": "向他人展示并介绍一张照片，点明照片对应的内容是说话人所属的村庄。",
+  "comparison": null,
+  "backbone": {
+    "text": "This is a photograph.",
+    "meaning": "这是一张照片。"
+  },
+  "parts": [
+    {
+      "text": "This",
+      "relation": "主语，指代当前所指的事物（这张照片）",
+      "meaning": "这"
+    },
+    {
+      "text": "is",
+      "relation": "系动词，承担主系表结构的连接功能",
+      "meaning": "是"
+    },
+    {
+      "text": "a photograph",
+      "relation": "表语，说明主语的具体身份属性",
+      "meaning": "一张照片"
+    },
+    {
+      "text": "of our village.",
+      "relation": "介词短语作后置定语，修饰限定名词photograph，说明照片的内容主题",
+      "meaning": "（内容是）我们村庄的"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "of 所属关系说明",
+      "text": "这里的of用来表示照片的内容归属，直接点明照片拍摄的是我们的村庄，不用额外添加从句就能清晰说明照片的主题。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "This is a photograph",
+      "role": "主句主干",
+      "explanation": "承担句子最核心的判断功能，直接说明眼前的事物是一张照片。"
+    },
+    {
+      "text": "of our village",
+      "role": "名词后置修饰成分",
+      "explanation": "放在photograph之后，限定照片的具体内容，说明这不是其他题材的照片，而是关于我们村庄的。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这",
+      "pos": "指示代词",
+      "phonetic": "/ðɪs/",
+      "text": "This"
+    },
+    {
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "一张，不定冠词，用于限定单数可数名词，泛指任意一张符合描述的事物",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "照片",
+      "pos": "名词",
+      "phonetic": "/ˈfəʊtəɡrɑːf/",
+      "text": "photograph"
+    },
+    {
+      "meaning": "属于…的",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "我们的",
+      "pos": "物主代词",
+      "phonetic": "/ˈaʊə/",
+      "text": "our"
+    },
+    {
+      "meaning": "村庄",
+      "pos": "名词",
+      "phonetic": "/ˈvɪlɪdʒ/",
+      "text": "village."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-35",
+  "sentenceId": "nce-1-lesson-035-sentence-001",
+  "sentenceOrder": 1,
+  "english": "This is a photograph of our village.",
+  "lesson": "Lesson 35 Our village",
+  "notes": [
+    {
+      "title": "of 所属关系说明",
+      "text": "这里的of用来表示照片的内容归属，直接点明照片拍摄的是我们的村庄，不用额外添加从句就能清晰说明照片的主题。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在局部细节表述瑕疵，可通过补丁修正完善（非逐句人工审核）"
+}

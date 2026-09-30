@@ -1,0 +1,100 @@
+{
+  "chinese": "放到这把椅子上。",
+  "intent": "发出指令，要求对方把某个物品放到指定的椅子上。",
+  "comparison": null,
+  "backbone": {
+    "text": "Put it on this chair.",
+    "meaning": "把它放在这把椅子上。"
+  },
+  "parts": [
+    {
+      "text": "Put",
+      "relation": "发出的核心动作",
+      "meaning": "放置"
+    },
+    {
+      "text": "it",
+      "relation": "动作的作用对象",
+      "meaning": "它（指代前文对话中提及的待放置物品）"
+    },
+    {
+      "text": "on this chair.",
+      "relation": "补充说明动作放置的位置",
+      "meaning": "在这把椅子上"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "祈使句特征",
+      "text": "本句是祈使句，直接以实义动词原形开头，省略了祈使对象you，用于直接下达指令，不需要额外添加助动词引导。"
+    },
+    {
+      "title": "on的功能",
+      "text": "这里的on不是表示状态的副词，而是搭配后面的名词短语说明放置动作的目标位置，指向物体所处的平面。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Put it",
+      "role": "祈使核心谓语加宾语",
+      "explanation": "明确发出放置的动作，以及动作的承受对象是前文指代的物品"
+    },
+    {
+      "text": "on this chair",
+      "role": "地点补足成分",
+      "explanation": "说明把物品放置的具体位置，补充动作的落点信息"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "放置",
+      "pos": "动词",
+      "phonetic": "/pʊt/",
+      "text": "Put"
+    },
+    {
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/",
+      "text": "it"
+    },
+    {
+      "meaning": "在……之上",
+      "pos": "介词",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "椅子",
+      "pos": "名词",
+      "phonetic": "/tʃeə(r)/",
+      "text": "chair."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-41",
+  "sentenceId": "nce-1-lesson-041-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Put it on this chair.",
+  "lesson": "Lesson 41 Penny's bag",
+  "notes": [
+    {
+      "title": "祈使句特征",
+      "text": "本句是祈使句，直接以实义动词原形开头，省略了祈使对象you，用于直接下达指令，不需要额外添加助动词引导。"
+    },
+    {
+      "title": "on的功能",
+      "text": "这里的on不是表示状态的副词，而是搭配后面的名词短语说明放置动作的目标位置，指向物体所处的平面。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本合规，仅存在局部细节疏漏，可明确修正。（非逐句人工审核）"
+}

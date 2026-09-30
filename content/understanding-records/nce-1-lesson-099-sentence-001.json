@@ -1,0 +1,89 @@
+{
+  "chinese": "怎么了，安迪？",
+  "intent": "询问安迪遇到的异常状况，表达关切。",
+  "comparison": null,
+  "backbone": {
+    "text": "What's the matter?",
+    "meaning": "出什么事了？你怎么了？"
+  },
+  "structureNotes": [
+    {
+      "title": "固定关切表达",
+      "text": "What's the matter? 是英语中询问他人是否遇到麻烦、身体不适或发生意外的常用固定句式，可直接传递关切态度，无需先说明具体问题。"
+    },
+    {
+      "title": "呼语的位置",
+      "text": "Andy 作为呼语放在句末，用逗号与前面的问句隔开，作用是明确询问的对象；在对应中文里，“安迪”放在句首或句末都自然。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's the matter",
+      "role": "核心问句",
+      "explanation": "本句的主干部分，用于询问对方遭遇的异常情况，be 动词 is 提到主语 the matter 前，构成特殊疑问句结构。"
+    },
+    {
+      "text": "Andy",
+      "role": "呼语",
+      "explanation": "点明当前问话的对象是安迪，不属于主干结构成分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What's",
+      "meaning": "是什么",
+      "pos": "缩写（疑问代词+be动词）",
+      "phonetic": "/wɒts/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，无实义",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "matter,",
+      "meaning": "麻烦；状况",
+      "pos": "名词",
+      "phonetic": "/ˈmætə/"
+    },
+    {
+      "text": "Andy?",
+      "meaning": "安迪（男子名）",
+      "pos": "名词（呼语）",
+      "phonetic": "/ˈændi/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What's the matter,",
+      "meaning": "怎么了",
+      "relation": "核心询问内容，向对方打听遇到的异常状况"
+    },
+    {
+      "text": "Andy?",
+      "meaning": "安迪？",
+      "relation": "点明问话对象，是对话中对安迪的称呼"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-99",
+  "sentenceId": "nce-1-lesson-099-sentence-001",
+  "sentenceOrder": 1,
+  "english": "What's the matter, Andy?",
+  "lesson": "Lesson 99 Ow!",
+  "notes": [
+    {
+      "title": "固定关切表达",
+      "text": "What's the matter? 是英语中询问他人是否遇到麻烦、身体不适或发生意外的常用固定句式，可直接传递关切态度，无需先说明具体问题。"
+    },
+    {
+      "title": "呼语的位置",
+      "text": "Andy 作为呼语放在句末，用逗号与前面的问句隔开，作用是明确询问的对象；在对应中文里，“安迪”放在句首或句末都自然。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句整体释义、主干提取、词汇解释与结构说明基本符合语境，仅部分表述存在口语生硬、呼语角色表述不准确的问题，调整后可保证解析严谨性。（非逐句人工审核）"
+}

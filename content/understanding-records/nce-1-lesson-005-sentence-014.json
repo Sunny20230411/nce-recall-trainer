@@ -1,0 +1,86 @@
+{
+  "chinese": "很高兴见到你。",
+  "intent": "日常见面打招呼时向对方表达友好愉悦的心情，完成初次见面的礼貌问候",
+  "comparison": null,
+  "backbone": {
+    "text": "Nice to meet you",
+    "meaning": "向见面的对方传递见到你这件事让人心情愉悦的核心问候含义"
+  },
+  "parts": [
+    {
+      "text": "Nice",
+      "relation": "说明见面时的感受",
+      "meaning": "形容心情愉悦的状态"
+    },
+    {
+      "text": "to meet",
+      "relation": "补充说明是什么事让人感到愉悦",
+      "meaning": "完成见面的动作：见到"
+    },
+    {
+      "text": "you.",
+      "relation": "点明动作的指向人",
+      "meaning": "问候的对象，指对面的交谈者"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "口语省略特性",
+      "text": "这个常用见面问候句完整理解可以还原为It is nice to meet you，口语里直接省略掉形式主语It is，表达更简洁自然，不需要补全也不影响日常交流理解"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Nice",
+      "role": "表语形容词",
+      "explanation": "用来直接点明说话人当下愉悦的心情状态"
+    },
+    {
+      "text": "to meet you",
+      "role": "真实主语短语",
+      "explanation": "作为使人感到nice的实际事件，说明愉悦的来源是见到对方这件事"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "令人愉快的、舒心的",
+      "pos": "形容词",
+      "phonetic": "/naɪs/",
+      "text": "Nice"
+    },
+    {
+      "meaning": "用于引出后续动作，此处作为不定式符号无独立实义",
+      "pos": "不定式标记",
+      "phonetic": "/tə/",
+      "text": "to"
+    },
+    {
+      "meaning": "遇见、见到",
+      "pos": "动词",
+      "phonetic": "/miːt/",
+      "text": "meet"
+    },
+    {
+      "meaning": "你（你们）",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-5",
+  "sentenceId": "nce-1-lesson-005-sentence-014",
+  "sentenceOrder": 14,
+  "english": "Nice to meet you.",
+  "lesson": "Lesson 5 Nice to meet you.",
+  "notes": [
+    {
+      "title": "口语省略特性",
+      "text": "这个常用见面问候句完整理解可以还原为It is nice to meet you，口语里直接省略掉形式主语It is，表达更简洁自然，不需要补全也不影响日常交流理解"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，仅存在少量细节可修正优化（非逐句人工审核）"
+}

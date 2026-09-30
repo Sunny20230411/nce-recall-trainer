@@ -1,0 +1,166 @@
+{
+  "chinese": "你打算怎么处理那个花瓶，彭妮？",
+  "intent": "说话人询问彭妮计划如何处置手中的那个花瓶",
+  "comparison": {
+    "chinese": "中文先说“你打算处理花瓶”，再补问方式，把疑问词“怎么”放在动词“处理”前面；英文先点明要问的内容What，再调整语序引出主体动作，最后补充询问的对象和物品相关细节",
+    "english": "What are you going to do with that vase, Penny?",
+    "steps": [
+      {
+        "label": "第一步：抓核心疑问点",
+        "text": "What",
+        "explanation": "直接抛出要询问的核心内容：“做什么/怎么处理”，让听者立刻明白问题的核心方向"
+      },
+      {
+        "label": "第二步：带出主体与计划动作",
+        "text": "are you going to do",
+        "explanation": "用be going to的搭配说明是询问对方的计划，把are提前构成疑问句语序，符合英文特殊问句的基本规则"
+      },
+      {
+        "label": "第三步：补充限定范围",
+        "text": "with that vase, Penny",
+        "explanation": "明确动作对应的物品是“那个花瓶”，最后点出问话的对象是彭妮，避免歧义"
+      }
+    ],
+    "takeaway": "英文用What开启特殊问句直接点出未知信息，再依次补全主体、动作和限定细节，和中文先交代主体动作再补问方式的语序习惯不同"
+  },
+  "backbone": {
+    "text": "What are you going to do with that vase?",
+    "meaning": "询问对方打算如何处置那个花瓶"
+  },
+  "parts": [
+    {
+      "text": "What",
+      "relation": "点明要询问的核心未知内容",
+      "meaning": "什么/怎么"
+    },
+    {
+      "text": "are you going to do",
+      "relation": "描述被询问人的计划动作",
+      "meaning": "你打算做"
+    },
+    {
+      "text": "with that vase,",
+      "relation": "补充动作关联的具体物品",
+      "meaning": "针对那个花瓶"
+    },
+    {
+      "text": "Penny?",
+      "relation": "指明这句问话的接收对象",
+      "meaning": "彭妮"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "be going to的疑问语序",
+      "text": "这是用be going to询问未来计划的特殊疑问句，把be动词are放到主语you前面，不需要额外加助动词do"
+    },
+    {
+      "title": "do with的搭配含义",
+      "text": "do with在这里不直译“和...一起做”，固定搭配表示“处置、处理”，搭配疑问词What来询问处理方式"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What",
+      "role": "特殊疑问词",
+      "explanation": "用来引出整个问句要获取的未知信息，也就是处理花瓶的具体方式"
+    },
+    {
+      "text": "are you going to do",
+      "role": "谓语部分",
+      "explanation": "用be going to的结构表示对未来计划的询问，提前are构成疑问语序"
+    },
+    {
+      "text": "with that vase",
+      "role": "状语成分",
+      "explanation": "限定do这个动作的关联对象，说明是针对这个花瓶做出的动作"
+    },
+    {
+      "text": "Penny?",
+      "role": "称呼语",
+      "explanation": "点明问话的对象，和前面的问句主体内容用逗号隔开"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "什么，此处指代处理花瓶的方式",
+      "pos": "pronoun",
+      "phonetic": "/wɒt/",
+      "text": "What"
+    },
+    {
+      "meaning": "是，be动词的第二人称现在时形式",
+      "pos": "verb",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "你",
+      "pos": "pronoun",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "去，和后面的to do构成搭配表计划",
+      "pos": "verb",
+      "phonetic": "/ˈɡəʊɪŋ/",
+      "text": "going"
+    },
+    {
+      "meaning": "后续引出要执行的动作",
+      "pos": "particle",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "做",
+      "pos": "verb",
+      "phonetic": "/duː/",
+      "text": "do"
+    },
+    {
+      "meaning": "针对、关于，此处和do构成固定搭配",
+      "pos": "preposition",
+      "phonetic": "/wɪð/",
+      "text": "with"
+    },
+    {
+      "meaning": "那个",
+      "pos": "determiner",
+      "phonetic": "/ðæt/",
+      "text": "that"
+    },
+    {
+      "meaning": "花瓶",
+      "pos": "noun",
+      "phonetic": "/vɑːz/",
+      "text": "vase,"
+    },
+    {
+      "meaning": "彭妮（人名）",
+      "pos": "noun",
+      "phonetic": "/ˈpeni/",
+      "text": "Penny?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-39",
+  "sentenceId": "nce-1-lesson-039-sentence-001",
+  "sentenceOrder": 1,
+  "english": "What are you going to do with that vase, Penny?",
+  "lesson": "Lesson 39 Don't drop it!",
+  "notes": [
+    {
+      "title": "be going to的疑问语序",
+      "text": "这是用be going to询问未来计划的特殊疑问句，把be动词are放到主语you前面，不需要额外加助动词do"
+    },
+    {
+      "title": "do with的搭配含义",
+      "text": "do with在这里不直译“和...一起做”，固定搭配表示“处置、处理”，搭配疑问词What来询问处理方式"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本合规，仅存在部分细节误差可修正，不影响核心学习内容的准确性（非逐句人工审核）"
+}

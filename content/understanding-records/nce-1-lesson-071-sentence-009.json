@@ -1,0 +1,123 @@
+{
+  "chinese": "他昨晚打电话了吗？",
+  "intent": "向对方确认男性的他昨晚是否打过电话。",
+  "comparison": {
+    "chinese": "他昨晚打电话了吗？",
+    "english": "Did he telephone last night?",
+    "steps": [
+      {
+        "label": "先确定询问的核心内容",
+        "text": "he telephone",
+        "explanation": "先知道要问的是“他打电话”这件事，主语是he，动作是telephone。"
+      },
+      {
+        "label": "再用Did把一般疑问引出来",
+        "text": "Did",
+        "explanation": "Did放在句首，表示问的是过去是否发生；后面telephone用原形，不再加ed。"
+      },
+      {
+        "label": "最后补上时间信息",
+        "text": "last night",
+        "explanation": "说明打电话的时间是昨晚，明确询问的时间范围。"
+      }
+    ],
+    "takeaway": "中文靠“了吗”表示过去疑问，英语用Did加动词原形，并把时间放在句末。"
+  },
+  "backbone": {
+    "text": "Did he telephone?",
+    "meaning": "他打电话了吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "一般过去时的一般疑问",
+      "text": "Did 放在句首引导一般疑问，主语 he 后跟原形动词 telephone，不再使用过去式；last night 说明动作发生在过去的时间。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Did",
+      "role": "助动词",
+      "explanation": "位于句首，帮助构成一般过去时的一般疑问句，本身表示过去时和疑问功能。"
+    },
+    {
+      "text": "he",
+      "role": "主语",
+      "explanation": "指代男性的他，是 telephone 这个动作的发出者。"
+    },
+    {
+      "text": "telephone",
+      "role": "谓语动词",
+      "explanation": "意为打电话，在 Did 之后用原形。"
+    },
+    {
+      "text": "last night?",
+      "role": "时间状语",
+      "explanation": "其中 last night 表示动作发生的时间是昨晚，问号只表示全句疑问语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Did",
+      "meaning": "（助动词 do 的过去式，用于构成过去时疑问）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "telephone",
+      "meaning": "打电话",
+      "pos": "动词",
+      "phonetic": "/ˈtelɪfəʊn/"
+    },
+    {
+      "text": "last",
+      "meaning": "上一个的、刚过去的",
+      "pos": "形容词",
+      "phonetic": "/lɑːst/"
+    },
+    {
+      "text": "night?",
+      "meaning": "夜晚",
+      "pos": "名词",
+      "phonetic": "/naɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Did",
+      "meaning": "（构成过去时疑问的助动词）",
+      "relation": "引出过去动作的疑问"
+    },
+    {
+      "text": "he telephone",
+      "meaning": "他打电话",
+      "relation": "主干：询问对象和动作"
+    },
+    {
+      "text": "last night?",
+      "meaning": "昨晚（问号仅表示全句疑问）",
+      "relation": "补充打电话的时间范围"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-71",
+  "sentenceId": "nce-1-lesson-071-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Did he telephone last night?",
+  "lesson": "Lesson 71 He's awful!",
+  "notes": [
+    {
+      "title": "一般过去时的一般疑问",
+      "text": "Did 放在句首引导一般疑问，主语 he 后跟原形动词 telephone，不再使用过去式；last night 说明动作发生在过去的时间。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句为独立的一般过去时一般疑问句，现有主干与状语关系、词义和音标总体可用。主要问题是 `last night?` 将问号并入词义表与释义，容易让学习者误以为问号是时间短语的一部分；同时结构分析中的“主语he之后”对助动词后的主谓框架表述不够直观。已做最小修订，不改动原文分块。（非逐句人工审核）"
+}

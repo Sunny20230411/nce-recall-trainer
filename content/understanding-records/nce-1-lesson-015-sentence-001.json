@@ -1,0 +1,80 @@
+{
+  "chinese": "你们是瑞典人吗？",
+  "intent": "询问对方的国籍是否为瑞典",
+  "comparison": null,
+  "backbone": {
+    "text": "Are you Swedish?",
+    "meaning": "确认对方是否属于瑞典籍的群体"
+  },
+  "parts": [
+    {
+      "text": "Are",
+      "relation": "触发疑问语气，连接主语和后续身份描述",
+      "meaning": "是（be动词的疑问语序形式）"
+    },
+    {
+      "text": "you",
+      "relation": "询问的对象",
+      "meaning": "你/你们"
+    },
+    {
+      "text": "Swedish?",
+      "relation": "补充询问对方的身份属性",
+      "meaning": "瑞典人（吗？）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般疑问句语序",
+      "text": "本句将be动词Are放到句首，原本的主系表语序倒装，直接表达确认对方情况的疑问，不需要额外加助动词do构成问句"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Are you",
+      "role": "疑问引导部分",
+      "explanation": "把be动词提前，引出对主语you身份、状态的询问"
+    },
+    {
+      "text": "Swedish",
+      "role": "身份表语",
+      "explanation": "说明要确认的具体内容，指代瑞典国籍的人"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是",
+      "pos": "be动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "Are"
+    },
+    {
+      "meaning": "你，你们",
+      "pos": "人称代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "瑞典人；瑞典的",
+      "pos": "名词/形容词",
+      "phonetic": "/ˈswiːdɪʃ/",
+      "text": "Swedish?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-15",
+  "sentenceId": "nce-1-lesson-015-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Are you Swedish?",
+  "lesson": "Lesson 15 Your passports, please.",
+  "notes": [
+    {
+      "title": "一般疑问句语序",
+      "text": "本句将be动词Are放到句首，原本的主系表语序倒装，直接表达确认对方情况的疑问，不需要额外加助动词do构成问句"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在部分细节表述疏漏、标点及内容重复问题，可明确修正。（非逐句人工审核）"
+}

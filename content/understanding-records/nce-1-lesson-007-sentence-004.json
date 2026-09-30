@@ -1,0 +1,75 @@
+{
+  "chinese": "是的，我是。",
+  "intent": "针对前文的一般疑问句给出肯定的简短确认答复。",
+  "comparison": null,
+  "backbone": {
+    "text": "Yes, I am.",
+    "meaning": "给出肯定回应，表明我符合问句中询问的身份属性。"
+  },
+  "parts": [
+    {
+      "text": "Yes,",
+      "relation": "引出肯定表态",
+      "meaning": "表示同意、肯定的答复开头"
+    },
+    {
+      "text": "I am.",
+      "relation": "明确表态的主体和判断",
+      "meaning": "指代回应者本人，配合系动词完成身份确认"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略式回应",
+      "text": "这是针对前文一般疑问句的简短肯定回复，没有重复问句里的表语内容，依托上下文就能明确完整含义，是口语里常用的简洁回应方式。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "肯定应答标记",
+      "explanation": "直接表明答复的肯定倾向，是口语问答里的常规应答开头。"
+    },
+    {
+      "text": "I am.",
+      "role": "主谓结构简短判断",
+      "explanation": "明确表态的主体是回应者自身，依托上下文补充判断的具体内容，不需要重复问句的完整表述。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是（表示肯定答复）",
+      "pos": "感叹词",
+      "phonetic": "/jes/",
+      "text": "Yes,"
+    },
+    {
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/æm/",
+      "text": "am."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-7",
+  "sentenceId": "nce-1-lesson-007-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Yes, I am.",
+  "lesson": "Lesson 7 Are you a teacher?",
+  "notes": [
+    {
+      "title": "省略式回应",
+      "text": "这是针对前文一般疑问句的简短肯定回复，没有重复问句里的表语内容，依托上下文就能明确完整含义，是口语里常用的简洁回应方式。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原学习数据基本符合要求，仅存在部分细节疏漏可修正：1. 单词标注中'am.'的拼写带句点不符合词性标注常规规则，音标对应有误；2. 补全缺失的comparison字段说明内容；3. 移除重复冗余的notes字段内容。（非逐句人工审核）"
+}

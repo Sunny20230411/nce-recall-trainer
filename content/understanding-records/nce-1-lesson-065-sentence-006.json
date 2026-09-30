@@ -1,0 +1,80 @@
+{
+  "chinese": "不行，你不能拿。",
+  "intent": "作为针对对方提出的「我能拿前门的钥匙吗？」的请求，明确给出否定拒绝的回应，不批准对方的请求。",
+  "comparison": null,
+  "backbone": {
+    "text": "No, you can't.",
+    "meaning": "你不能（做这件事/拿到钥匙），直接否定对方的请求。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略式否定回应",
+      "text": "can't 是 cannot 的缩略形式，因为上文已经明确讨论的动作是「拿前门钥匙」，因此 can't 后面直接省略了重复的 have the key to the front door，无需重复说完整句即可让听者清晰理解拒绝的具体指向。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "否定标记",
+      "explanation": "直接给出否定判断，开门见山表示拒绝。"
+    },
+    {
+      "text": "you",
+      "role": "第二人称主语",
+      "explanation": "明确被拒绝的对象，指代提出请求的 Jill。"
+    },
+    {
+      "text": "can't.",
+      "role": "情态动词否定式（省略后续动作）",
+      "explanation": "表示对方不被允许做请求的动作，承接前文的情态动词疑问句进行简短否定应答。"
+    }
+  ],
+  "words": [
+    {
+      "text": "No,",
+      "meaning": "不；不行",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "can't.",
+      "meaning": "不能（是cannot的缩略形式）",
+      "pos": "情态动词否定缩略式",
+      "phonetic": "/kɑːnt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "No,",
+      "meaning": "不；不行",
+      "relation": "给出整体否定判断，明确拒绝态度"
+    },
+    {
+      "text": "you can't.",
+      "meaning": "你不能（这么做）",
+      "relation": "指向请求者，说明对方不被允许实施拿前门钥匙的动作"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-65",
+  "sentenceId": "nce-1-lesson-065-sentence-006",
+  "sentenceOrder": 6,
+  "english": "No, you can't.",
+  "lesson": "Lesson 65 Not a baby",
+  "notes": [
+    {
+      "title": "省略式否定回应",
+      "text": "can't 是 cannot 的缩略形式，因为上文已经明确讨论的动作是「拿前门钥匙」，因此 can't 后面直接省略了重复的 have the key to the front door，无需重复说完整句即可让听者清晰理解拒绝的具体指向。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本准确：符合前文语境的省略式否定应答逻辑清晰，词汇释义、英式音标标注正确，主语指代关系、省略说明均无事实错误，仅存在少量可优化的表述细节。（非逐句人工审核）"
+}

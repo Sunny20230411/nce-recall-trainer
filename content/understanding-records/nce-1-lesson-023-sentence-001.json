@@ -1,0 +1,131 @@
+{
+  "chinese": "请给我几个玻璃杯，简。",
+  "intent": "这是一句面向特定人物Jane的日常礼貌祈使句，核心诉求是让对方把若干玻璃杯递到说话人手里。",
+  "comparison": null,
+  "backbone": {
+    "text": "Give me some glasses",
+    "meaning": "把一些玻璃杯递给我"
+  },
+  "parts": [
+    {
+      "text": "Give",
+      "relation": "发出的核心动作",
+      "meaning": "递、给"
+    },
+    {
+      "text": "me",
+      "relation": "接收物品的对象",
+      "meaning": "我"
+    },
+    {
+      "text": "some glasses",
+      "relation": "要递出去的具体物品",
+      "meaning": "几个玻璃杯"
+    },
+    {
+      "text": "please,",
+      "relation": "补充请求的礼貌语气",
+      "meaning": "请"
+    },
+    {
+      "text": "Jane.",
+      "relation": "指明这个请求的询问对象",
+      "meaning": "简"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "祈使句省略主语",
+      "text": "这句是日常祈使句，句首直接用动词原形开头，默认省略了听话人you，不需要额外补出就能明确动作的执行者是谁。"
+    },
+    {
+      "title": "双宾语排布",
+      "text": "动词Give后面先接接收者me，再接传递的物品some glasses，符合口语里先说明动作指向、再讲具体要什么的表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Give",
+      "role": "祈使谓语",
+      "explanation": "全句的核心动作，以原形放在句首发起请求"
+    },
+    {
+      "text": "me",
+      "role": "间接宾语",
+      "explanation": "表示动作的接收方，也就是拿到玻璃杯的人"
+    },
+    {
+      "text": "some glasses",
+      "role": "直接宾语",
+      "explanation": "动作涉及的实际物品，是请求传递的具体内容"
+    },
+    {
+      "text": "please",
+      "role": "礼貌修饰语",
+      "explanation": "加在句中缓和语气，让请求听上去更客气"
+    },
+    {
+      "text": "Jane",
+      "role": "称呼语",
+      "explanation": "点明说话的对象，让对方确认这个请求是说给ta听的"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "递、给",
+      "pos": "动词",
+      "phonetic": "/ɡɪv/",
+      "text": "Give"
+    },
+    {
+      "meaning": "我（宾格）",
+      "pos": "人称代词",
+      "phonetic": "/miː/",
+      "text": "me"
+    },
+    {
+      "meaning": "一些、几个",
+      "pos": "限定词",
+      "phonetic": "/sʌm/",
+      "text": "some"
+    },
+    {
+      "meaning": "玻璃杯（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈɡlɑːsɪz/",
+      "text": "glasses"
+    },
+    {
+      "meaning": "请",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/",
+      "text": "please,"
+    },
+    {
+      "meaning": "简（人名）",
+      "pos": "名词",
+      "phonetic": "/dʒeɪn/",
+      "text": "Jane."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-23",
+  "sentenceId": "nce-1-lesson-023-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Give me some glasses please, Jane.",
+  "lesson": "Lesson 23 Which glasses?",
+  "notes": [
+    {
+      "title": "祈使句省略主语",
+      "text": "这句是日常祈使句，句首直接用动词原形开头，默认省略了听话人you，不需要额外补出就能明确动作的执行者是谁。"
+    },
+    {
+      "title": "双宾语排布",
+      "text": "动词Give后面先接接收者me，再接传递的物品some glasses，符合口语里先说明动作指向、再讲具体要什么的表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析完整合规，仅存在部分细节表述偏差、字段重复、比较项缺失的可修正问题，不影响核心内容准确性（非逐句人工审核）"
+}

@@ -1,0 +1,97 @@
+{
+  "chinese": "这是个好主意，哈里。",
+  "intent": "赞同对方提出的建议，认可该提议很不错。",
+  "comparison": null,
+  "backbone": {
+    "text": "That's a good idea",
+    "meaning": "这是个好主意"
+  },
+  "structureNotes": [
+    {
+      "title": "称呼语的功能",
+      "text": "Harry是直接对话的称呼语，用逗号和主句隔开，不参与主干句法结构，仅明确对话的对象，起到呼唤对方的作用。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That's",
+      "role": "主谓语",
+      "explanation": "That指代对方刚刚提出的做咖啡的提议，'s是is的缩写，构成句子的主系部分"
+    },
+    {
+      "text": "a good idea",
+      "role": "表语",
+      "explanation": "说明主语that的属性，即这个提议很不错"
+    },
+    {
+      "text": "Harry.",
+      "role": "称呼语",
+      "explanation": "直接对对话对象哈里的称呼，和主句用逗号分隔"
+    }
+  ],
+  "words": [
+    {
+      "text": "That's",
+      "meaning": "那是（that is的缩写）",
+      "pos": "代词+be动词（is的缩写）",
+      "phonetic": "/ðæts/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个（表示泛指）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "good",
+      "meaning": "好的",
+      "pos": "形容词",
+      "phonetic": "/ɡʊd/"
+    },
+    {
+      "text": "idea,",
+      "meaning": "主意，想法",
+      "pos": "名词",
+      "phonetic": "/aɪˈdɪə/"
+    },
+    {
+      "text": "Harry.",
+      "meaning": "哈里（男子名）",
+      "pos": "名词（人名）",
+      "phonetic": "/ˈhæri/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "That's",
+      "relation": "句子主干的主系部分，指代对方提出的提议",
+      "meaning": "那是"
+    },
+    {
+      "text": "a good idea,",
+      "relation": "说明提议的评价，是句子的表语部分",
+      "meaning": "好主意"
+    },
+    {
+      "text": "Harry.",
+      "relation": "对话的称呼对象，和主句分隔开",
+      "meaning": "哈里"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-109",
+  "sentenceId": "nce-1-lesson-109-sentence-002",
+  "sentenceOrder": 2,
+  "english": "That's a good idea, Harry.",
+  "lesson": "Lesson 109 A good idea",
+  "notes": [
+    {
+      "title": "称呼语的功能",
+      "text": "Harry是直接对话的称呼语，用逗号和主句隔开，不参与主干句法结构，仅明确对话的对象，起到呼唤对方的作用。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析结构清晰，主干、句法成分划分和称呼语说明正确；仅个别单词条目存在音标拆分、释义、词性和文本标点标注不规范的问题，修正后即可准确用于学习。（非逐句人工审核）"
+}

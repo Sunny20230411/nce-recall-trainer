@@ -1,0 +1,145 @@
+{
+  "chinese": "他星期一、星期二、星期三和星期四都没来。",
+  "intent": "陈述他在星期一至星期四这连续四天都缺勤、未到场的事实。",
+  "comparison": {
+    "chinese": "英语列举连续四个工作日时，前三个并列项后加逗号，最后一项用and连接；中文对应为顿号分隔并列项，最后一项前加“和”。",
+    "english": "When listing four consecutive weekdays in English, commas are placed after the first three coordinate items, and the last item is connected by and.",
+    "steps": [
+      {
+        "label": "标点规则差异",
+        "text": "英语列举格式为Monday, Tuesday, Wednesday and Thursday，前三个并列日期后均带逗号，and前不再额外加逗号；中文对应表述为“星期一、星期二、星期三和星期四”，用顿号分隔并列的日期名称。",
+        "explanation": "此处补充中英列举并列成分时标点使用的差异，帮助学习者理解原文标点对应的中文表达习惯。"
+      },
+      {
+        "label": "语义匹配",
+        "text": "原英文表述仅说明缺勤发生的具体日期为周一到周四，未明确提及“上周”这一时间范围。",
+        "explanation": "修正原意图中超出原文的时间限定，保证解析与原文语义完全一致。"
+      }
+    ],
+    "takeaway": "英语中列举并列的日期类名词时，用逗号分隔前几个并列项，最后一项用and连接；中文对应使用顿号分隔并列成分，最后一项前加“和”。"
+  },
+  "backbone": {
+    "text": "He was absent.",
+    "meaning": "他（在提及的时间段内）处于缺勤、未到场的状态。"
+  },
+  "structureNotes": [
+    {
+      "title": "介词on引出具体工作日",
+      "text": "英语中表示“在星期几”这类具体某一天时，固定用介词on，而不是in；on后面直接接Monday、Tuesday等表示星期的名词，不需要额外加冠词。"
+    },
+    {
+      "title": "并列日期列举",
+      "text": "多个并列的工作日用逗号分隔，最后一项前加and连接，即“前几个并列项用逗号隔开，and连接最后一项”，相当于中文里顿号分隔并列项后最后加“和”的列举方式。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文提到的男性人物，是句子描述的核心对象。"
+    },
+    {
+      "text": "was absent",
+      "role": "系表结构（谓语）",
+      "explanation": "was是be动词的过去式，搭配形容词absent构成过去的状态描述，表示“当时处于缺勤的状态”。"
+    },
+    {
+      "text": "on Monday, Tuesday, Wednesday and Thursday",
+      "role": "时间状语",
+      "explanation": "说明这个缺勤状态具体发生在哪几天，由介词on引出并列的四个工作日。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be动词的过去式，用于第三人称单数）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "absent",
+      "meaning": "缺席的，未到场的",
+      "pos": "形容词",
+      "phonetic": "/ˈæbsənt/"
+    },
+    {
+      "text": "on",
+      "meaning": "在（具体某一天）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "Monday,",
+      "meaning": "星期一",
+      "pos": "名词",
+      "phonetic": "/ˈmʌndeɪ/"
+    },
+    {
+      "text": "Tuesday,",
+      "meaning": "星期二",
+      "pos": "名词",
+      "phonetic": "/ˈtjuːzdeɪ/"
+    },
+    {
+      "text": "Wednesday",
+      "meaning": "星期三",
+      "pos": "名词",
+      "phonetic": "/ˈwenzdeɪ/"
+    },
+    {
+      "text": "and",
+      "meaning": "和（用于连接并列的最后一项）",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "Thursday.",
+      "meaning": "星期四",
+      "pos": "名词",
+      "phonetic": "/ˈθɜːzdeɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "relation": "句子描述的主体"
+    },
+    {
+      "text": "was absent",
+      "meaning": "当时处于缺勤、未到场的状态",
+      "relation": "描述主语过去所处的状态"
+    },
+    {
+      "text": "on Monday, Tuesday, Wednesday and Thursday.",
+      "meaning": "在星期一、星期二、星期三和星期四",
+      "relation": "补充说明缺勤状态具体发生的时间"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-67",
+  "sentenceId": "nce-1-lesson-067-sentence-009",
+  "sentenceOrder": 9,
+  "english": "He was absent on Monday, Tuesday, Wednesday and Thursday.",
+  "lesson": "Lesson 67 The weekend",
+  "notes": [
+    {
+      "title": "介词on引出具体工作日",
+      "text": "英语中表示“在星期几”这类具体某一天时，固定用介词on，而不是in；on后面直接接Monday、Tuesday等表示星期的名词，不需要额外加冠词。"
+    },
+    {
+      "title": "并列日期列举",
+      "text": "多个并列的工作日用逗号分隔，最后一项前加and连接，即“前几个并列项用逗号隔开，and连接最后一项”，相当于中文里顿号分隔并列项后最后加“和”的列举方式。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确可靠，仅存在两处可明确修正的细节问题：1. 单词列表中Monday条目附带了原文中的逗号，该逗号属于列举分隔的标点，不属于单词本身，单词释义与词性标注对应正确无需改动；2. 结构说明中“多个并列的工作日用逗号隔开”的表述略有歧义，易被误解为每个日期后都加逗号，实际为前三个并列日期后加逗号、最后一项用and连接，符合英语列举惯例。其余内容包括句子主干、成分划分、时间状语功能、单词释义、分块关系均与原文语义、语法规则一致，无核心错误。（非逐句人工审核）"
+}

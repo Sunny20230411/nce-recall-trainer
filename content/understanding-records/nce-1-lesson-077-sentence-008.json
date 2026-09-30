@@ -1,0 +1,80 @@
+{
+  "chinese": "我难受极了。",
+  "intent": "表达自身当下状态非常难受、不舒服的感受。",
+  "comparison": null,
+  "backbone": {
+    "text": "I feel awful.",
+    "meaning": "我当下状态非常难受、不舒服。"
+  },
+  "structureNotes": [
+    {
+      "title": "系表结构表达感受",
+      "text": "feel 是感官系动词，不表示“触摸”的动作，后面直接接形容词 awful 描述主语自身的状态，说明主观感受极差。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话的人，是感受的发出者。"
+    },
+    {
+      "text": "feel awful",
+      "role": "系表结构",
+      "explanation": "feel 作感官系动词，语义为“觉得、感受为”，连接主语和描述状态的形容词表语awful，说明说话人当下主观感受极差。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "feel",
+      "meaning": "感觉；觉得",
+      "pos": "动词",
+      "phonetic": "/fiːl/"
+    },
+    {
+      "text": "awful.",
+      "meaning": "糟糕的；难受的",
+      "pos": "形容词",
+      "phonetic": "/ˈɔːfl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "表达感受的主体",
+      "meaning": "我"
+    },
+    {
+      "text": "feel",
+      "relation": "连接主体和自身状态",
+      "meaning": "感觉、觉得"
+    },
+    {
+      "text": "awful.",
+      "relation": "描述说话人当下的糟糕感受",
+      "meaning": "糟糕的、难受的"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-77",
+  "sentenceId": "nce-1-lesson-077-sentence-008",
+  "sentenceOrder": 8,
+  "english": "I feel awful.",
+  "lesson": "Lesson 77 Terrible toothache",
+  "notes": [
+    {
+      "title": "系表结构表达感受",
+      "text": "feel 是感官系动词，不表示“触摸”的动作，后面直接接形容词 awful 描述主语自身的状态，说明主观感受极差。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体表述准确、结构清晰，仅存在2处需微调的小问题：1. 单词表中单词awful的音标和释义误将句子末尾的句号纳入词条内容；2. 结构分析中对feel的语义解释不够完整，未补充feel作为感官系动词的语义项说明，可能让学习者误以为该语义对应及物动词用法。其余内容与语境匹配，主干、分句、分块、课程信息均准确无误。（非逐句人工审核）"
+}

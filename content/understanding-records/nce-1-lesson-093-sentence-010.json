@@ -1,0 +1,110 @@
+{
+  "chinese": "她通常待在家里！",
+  "intent": "强调这位邻居的日常状态，表达她常年居家的情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "She stays at home!",
+    "meaning": "她待在家里！"
+  },
+  "structureNotes": [
+    {
+      "title": "频度副词 usually 的位置",
+      "text": "频度副词 usually 放在主语 She 之后、谓语动词 stays 之前，表示动作的习惯性频率，中文对应“通常、平常”，语序和中文基本一致。"
+    },
+    {
+      "title": "固定搭配 stay at home",
+      "text": "stay 表示“停留、待着”，at home 是固定地点搭配，中间不需要额外加定冠词 the。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "主语",
+      "explanation": "指代前文提到的飞行员的妻子，是句子动作的发出者。"
+    },
+    {
+      "text": "usually",
+      "role": "频度状语",
+      "explanation": "说明“待在家里”是她日常的习惯性行为，频率很高。"
+    },
+    {
+      "text": "stays",
+      "role": "谓语动词",
+      "explanation": "用第三人称单数一般现在时，表示持续保持在某个地点的状态。"
+    },
+    {
+      "text": "at home",
+      "role": "地点状语",
+      "explanation": "说明待着的地点是家里，是和 stay 搭配的固定表达。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词主格",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "usually",
+      "meaning": "通常",
+      "pos": "频度副词",
+      "phonetic": "/ˈjuːʒuəli/"
+    },
+    {
+      "text": "stays",
+      "meaning": "停留、待（第三人称单数形式）",
+      "pos": "不及物动词",
+      "phonetic": "/steɪz/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（接地点）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "home!",
+      "meaning": "家",
+      "pos": "地点副词",
+      "phonetic": "/həʊm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She",
+      "relation": "句子的描述主体，指代前文提到的飞行员的妻子",
+      "meaning": "她"
+    },
+    {
+      "text": "usually",
+      "relation": "补充说明待在家里是她的经常性习惯",
+      "meaning": "通常"
+    },
+    {
+      "text": "stays at home!",
+      "relation": "描述主体的日常动作与所处地点",
+      "meaning": "待在家里！"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-93",
+  "sentenceId": "nce-1-lesson-093-sentence-010",
+  "sentenceOrder": 10,
+  "english": "She usually stays at home!",
+  "lesson": "Lesson 93 Our new neighbour",
+  "notes": [
+    {
+      "title": "频度副词 usually 的位置",
+      "text": "频度副词 usually 放在主语 She 之后、谓语动词 stays 之前，表示动作的习惯性频率，中文对应“通常、平常”，语序和中文基本一致。"
+    },
+    {
+      "title": "固定搭配 stay at home",
+      "text": "stay 表示“停留、待着”，at home 是固定地点搭配，中间不需要额外加定冠词 the。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：已按英语句法拆分并核对主语、频度状语、谓语和地点状语；home 的词性被更明确地标注为地点副词，而非名词。主干保留 She stays at home!，各 chunk 的对应关系清楚，未发现需要推翻的硬伤。（非逐句人工审核）"
+}

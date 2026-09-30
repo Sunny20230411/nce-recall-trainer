@@ -1,0 +1,88 @@
+{
+  "chinese": "什么颜色？",
+  "intent": "在购物场景中向售货员询问商品的颜色，承接前文已经确认尺码的对话。",
+  "comparison": {
+    "chinese": "（你要的鞋）什么颜色？",
+    "english": "What colour?",
+    "steps": [
+      {
+        "label": "结合上下文理解",
+        "text": "上一句已经说完 Size five，本句是售货员接着问鞋的颜色。",
+        "explanation": "对话双方都在围绕鞋子交谈，口语省略了与询问对象相关的主谓部分，不影响理解。"
+      },
+      {
+        "label": "疑问短语构成",
+        "text": "What colour 是直接询问颜色类别的名词性疑问短语。",
+        "explanation": "What 与 colour 连用，表示“什么颜色”，不需要按完整从句语序分析。"
+      },
+      {
+        "label": "完整理解形式",
+        "text": "可理解为 What colour is it? 或 What colour do you want?。",
+        "explanation": "补出的主谓部分只是理解用，不是原句内容；口语中常省略。"
+      }
+    ],
+    "takeaway": "口语购物问答里，What colour 直接问颜色，省略的部分由上下文判断即可。"
+  },
+  "backbone": {
+    "text": "What colour?",
+    "meaning": "（你要的鞋）是什么颜色？"
+  },
+  "structureNotes": [
+    {
+      "title": "口语省略",
+      "text": "这是购物对话中的简短追问，前后都是在聊鞋子，完整意思相当于What colour is the pair you want?，口语中省略了主语和be动词。"
+    },
+    {
+      "title": "疑问结构",
+      "text": "What修饰colour，整体表示询问颜色的类别，放在句首直接构成简短问句。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What colour?",
+      "role": "询问颜色的疑问短语",
+      "explanation": "What修饰colour，直接构成对颜色信息的提问，是对话中承接尺码问题的后续询问。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "什么",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/",
+      "text": "What"
+    },
+    {
+      "meaning": "颜色",
+      "pos": "名词",
+      "phonetic": "/ˈkʌlə/",
+      "text": "colour?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What colour?",
+      "relation": "询问的核心对象",
+      "meaning": "什么颜色？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-75",
+  "sentenceId": "nce-1-lesson-075-sentence-004",
+  "sentenceOrder": 4,
+  "english": "What colour?",
+  "lesson": "Lesson 75 Uncomfortable shoes",
+  "notes": [
+    {
+      "title": "口语省略",
+      "text": "这是购物对话中的简短追问，前后都是在聊鞋子，完整意思相当于What colour is the pair you want?，口语中省略了主语和be动词。"
+    },
+    {
+      "title": "疑问结构",
+      "text": "What修饰colour，整体表示询问颜色的类别，放在句首直接构成简短问句。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解释可用。疑问成分前置的表述不够准确：What colour 是名词性疑问短语，并非 What 直接置于 colour 前修饰整个句子形成前置结构；同时将完整形式限定为两种会缩小理解空间。其余翻译、音标、语境和主干均正确，故予以校正后通过。（非逐句人工审核）"
+}

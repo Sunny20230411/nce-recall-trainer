@@ -1,0 +1,133 @@
+{
+  "chinese": "是的，卖了。他上星期卖掉了。",
+  "intent": "回应此前关于伊恩是否已经卖掉房子的疑问，给出肯定答复，并补充说明卖房这件事的具体发生时间是上周。",
+  "comparison": null,
+  "backbone": {
+    "text": "肯定答复对方，说明他已经把房子卖掉的事实。",
+    "meaning": "确认卖房已经完成，卖房动作发生在上周。"
+  },
+  "structureNotes": [
+    {
+      "title": "简略答语避免重复",
+      "text": "Yes, he has 是对 Has Ian sold his house yet? 的简短肯定回答，省略了 sold his house 这一已经在上文问句中出现的内容，直接用助动词 has 承接，避免重复。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "last week 放在句尾，明确说明 sold 这个动作的发生时间，不需要额外介词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes, he has.",
+      "role": "简短肯定答语",
+      "explanation": "直接回应前文的现在完成时疑问句，确认伊恩已经卖了房子，避免重复问句中已出现的动宾内容。"
+    },
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文提到的 Ian，是发出“卖房”动作的人。"
+    },
+    {
+      "text": "sold",
+      "role": "谓语动词（一般过去时）",
+      "explanation": "表示“卖掉”的动作在这里是已经在过去某个时间完成的具体行为。"
+    },
+    {
+      "text": "it",
+      "role": "宾语",
+      "explanation": "指代前文提到的 his house，避免重复提到房子。"
+    },
+    {
+      "text": "last week.",
+      "role": "时间状语",
+      "explanation": "说明“卖掉房子”这个动作发生的时间是上周。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes,",
+      "meaning": "是的",
+      "pos": "感叹词",
+      "phonetic": "/jes/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "has.",
+      "meaning": "此处无独立实义含义，作为助动词承接前文现在完成时的问句，构成简略肯定回答",
+      "pos": "助动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "sold",
+      "meaning": "卖掉（sell的过去式）",
+      "pos": "动词",
+      "phonetic": "/səʊld/"
+    },
+    {
+      "text": "it",
+      "meaning": "它，此处指代他的房子",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "last",
+      "meaning": "上一个的",
+      "pos": "形容词",
+      "phonetic": "/lɑːst/"
+    },
+    {
+      "text": "week.",
+      "meaning": "星期，周",
+      "pos": "名词",
+      "phonetic": "/wiːk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes, he has.",
+      "meaning": "是的，他已经卖了",
+      "relation": "对前文“伊恩卖掉房子了吗”这一问题的肯定简短回应，承接上文省略了重复的谓语内容。"
+    },
+    {
+      "text": "He sold it",
+      "meaning": "他把它（房子）卖掉了",
+      "relation": "句子主干，说明他完成了卖房这个动作，it 指代前文提到的 house。"
+    },
+    {
+      "text": "last week.",
+      "meaning": "上星期",
+      "relation": "时间补充，说明卖房这个动作具体发生在上周。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-91",
+  "sentenceId": "nce-1-lesson-091-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Yes, he has. He sold it last week.",
+  "lesson": "Lesson 91 Poor Ian!",
+  "notes": [
+    {
+      "title": "简略答语避免重复",
+      "text": "Yes, he has 是对 Has Ian sold his house yet? 的简短肯定回答，省略了 sold his house 这一已经在上文问句中出现的内容，直接用助动词 has 承接，避免重复。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "last week 放在句尾，明确说明 sold 这个动作的发生时间，不需要额外介词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确匹配原文含义，成分标注、词义解释、指代关系均正确，但存在两处可明确修正的小问题：1. 对助动词has的语法角色解释中，原表述易被误解为独立表义的实义含义，需修正为纯语法功能说明；2. 对last week整体的词义拆分解释不符合该时间短语的固定搭配属性，需修正为该整体作时间状语的释义，原分词条的词性解释无需改动。（非逐句人工审核）"
+}

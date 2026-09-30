@@ -1,0 +1,69 @@
+{
+  "chinese": "嗨，萨姆。",
+  "intent": "熟人之间见面打招呼，向来访的萨姆问好。",
+  "comparison": null,
+  "backbone": {
+    "text": "Hi, Sam.",
+    "meaning": "开口向萨姆打招呼问好。"
+  },
+  "structureNotes": [
+    {
+      "title": "打招呼的直接表达",
+      "text": "Hi 是日常非正式问候语，后面紧跟被招呼的人名称呼，用逗号隔开，是英语见面时最常用的开口方式之一。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Hi,",
+      "role": "感叹语",
+      "explanation": "非正式的见面问候，用于开口向对方示意。"
+    },
+    {
+      "text": "Sam.",
+      "role": "称呼语",
+      "explanation": "指明打招呼的对象是萨姆，放在问候语之后。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "嗨（非正式问候）",
+      "pos": "感叹词",
+      "phonetic": "/haɪ/",
+      "text": "Hi,"
+    },
+    {
+      "meaning": "萨姆（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/sæm/",
+      "text": "Sam."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Hi,",
+      "relation": "直接发起招呼",
+      "meaning": "嗨（非正式问候）"
+    },
+    {
+      "text": "Sam.",
+      "relation": "打招呼的对象",
+      "meaning": "萨姆（男子名）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-81",
+  "sentenceId": "nce-1-lesson-081-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Hi, Sam.",
+  "lesson": "Lesson 81 Roast beef and potatoes",
+  "notes": [
+    {
+      "title": "打招呼的直接表达",
+      "text": "Hi 是日常非正式问候语，后面紧跟被招呼的人名称呼，用逗号隔开，是英语见面时最常用的开口方式之一。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整句内容为日常非正式问候，语境、中文翻译和语法成分均与上下文匹配；Hi 与 Sam 的功能区分、释义、音标和称呼语关系无误，无需实质修正。（非逐句人工审核）"
+}

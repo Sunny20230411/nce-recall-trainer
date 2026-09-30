@@ -1,0 +1,77 @@
+{
+  "chinese": "萨姆来了。",
+  "intent": "向对话中的对方告知萨姆已经抵达当前所处地点的消息。",
+  "comparison": null,
+  "backbone": {
+    "text": "Sam is here.",
+    "meaning": "主语Sam为第三人称单数，用be动词is搭配地点副词here作表语，说明萨姆身处说话人所在的位置。"
+  },
+  "structureNotes": [
+    {
+      "title": "缩写形式的含义",
+      "text": "本句里Sam's中的's不是名词所有格标记，而是is的口语缩写，Sam和is共同构成主语加系动词的部分，并非仅构成主语。"
+    },
+    {
+      "title": "地点副词作表语",
+      "text": "here是地点副词，不需要加介词就能直接放在be动词之后作表语，说明主语所处的位置。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Sam's",
+      "role": "主语+系动词",
+      "explanation": "Sam是被指代的人，缩写's代表is，二者结合充当句子的主语加系动词部分。"
+    },
+    {
+      "text": "here.",
+      "role": "表语",
+      "explanation": "地点副词here说明主语Sam所处的位置，句号表示陈述语气结束。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Sam's",
+      "meaning": "萨姆是（此处为Sam与is的口语缩写形式，并非所有格）",
+      "pos": "专有名词+缩写be动词",
+      "phonetic": "/sæmz/"
+    },
+    {
+      "text": "here.",
+      "meaning": "在这里",
+      "pos": "地点副词（附带句末句号）",
+      "phonetic": "/hɪə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Sam's",
+      "meaning": "萨姆是（Sam's为Sam is的口语缩写形式）",
+      "relation": "句子的主语加系动词部分，点明陈述的对象是萨姆。"
+    },
+    {
+      "text": "here.",
+      "meaning": "在这里。",
+      "relation": "作表语，补充说明萨姆当前所处的位置。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-81",
+  "sentenceId": "nce-1-lesson-081-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Sam's here.",
+  "lesson": "Lesson 81 Roast beef and potatoes",
+  "notes": [
+    {
+      "title": "缩写形式的含义",
+      "text": "本句里Sam's中的's不是名词所有格标记，而是is的口语缩写，Sam和is共同构成主语加系动词的部分，并非仅构成主语。"
+    },
+    {
+      "title": "地点副词作表语",
+      "text": "here是地点副词，不需要加介词就能直接放在be动词之后作表语，说明主语所处的位置。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有释义与句法分析整体符合原句语义，标点归属和缩写判断正确；仅部分表述对功能的归类不够严谨，需要修正。（非逐句人工审核）"
+}

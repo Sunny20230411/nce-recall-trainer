@@ -1,0 +1,105 @@
+{
+  "chinese": "巴黎是一座美丽的城市。",
+  "intent": "对巴黎这座城市做出正面评价，描述它美丽的特点。",
+  "comparison": null,
+  "backbone": {
+    "text": "Paris is a beautiful city.",
+    "meaning": "巴黎是一座美丽的城市。"
+  },
+  "structureNotes": [
+    {
+      "title": "主系表基本语序",
+      "text": "句子按照“主语+系动词+表语”组织：Paris作主语，is作系动词，a beautiful city作表语，说明主语巴黎的属性。"
+    },
+    {
+      "title": "前置修饰语位置",
+      "text": "形容词beautiful放在名词city前面，直接限定城市的特质，不需要额外结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Paris",
+      "role": "主语",
+      "explanation": "指巴黎，是句子描述的主体，专有名词首字母大写。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "连接主语和表语，说明主语的属性。"
+    },
+    {
+      "text": "a beautiful city",
+      "role": "表语",
+      "explanation": "说明巴黎是一座美丽的城市；a是不定冠词，beautiful是形容词作前置定语修饰city。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "巴黎",
+      "pos": "专有名词",
+      "phonetic": "/ˈpærɪs/",
+      "text": "Paris"
+    },
+    {
+      "meaning": "是",
+      "pos": "动词（be动词第三人称单数现在时）",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "一（座）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "美丽的",
+      "pos": "形容词",
+      "phonetic": "/ˈbjuːtɪfl/",
+      "text": "beautiful"
+    },
+    {
+      "meaning": "城市",
+      "pos": "名词",
+      "phonetic": "/ˈsɪti/",
+      "text": "city."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Paris",
+      "relation": "描述的主体，句子主语。",
+      "meaning": "巴黎"
+    },
+    {
+      "text": "is",
+      "relation": "连接主语和表语，说明所属与属性。",
+      "meaning": "是"
+    },
+    {
+      "text": "a beautiful city.",
+      "relation": "描述巴黎的属性，说明它是怎样的城市。",
+      "meaning": "一座美丽的城市"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-85",
+  "sentenceId": "nce-1-lesson-085-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Paris is a beautiful city.",
+  "lesson": "Lesson 85 Paris in the spring",
+  "notes": [
+    {
+      "title": "主系表基本语序",
+      "text": "句子按照“主语+系动词+表语”组织：Paris作主语，is作系动词，a beautiful city作表语，说明主语巴黎的属性。"
+    },
+    {
+      "title": "前置修饰语位置",
+      "text": "形容词beautiful放在名词city前面，直接限定城市的特质，不需要额外结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句各部分翻译、语法成分标注、词类与音标均准确，主系表结构与前置定语的解释符合英语语法规范，整句主干拆分完整无遗漏，所有内容均正确无误。（非逐句人工审核）"
+}

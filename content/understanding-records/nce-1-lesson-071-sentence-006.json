@@ -1,0 +1,155 @@
+{
+  "chinese": "然后我在昨晚六点回到了家。",
+  "intent": "按时间顺序承接前文，叙述自己昨天傍晚六点回到家的具体时间。",
+  "comparison": {
+    "chinese": "中文常把时间集中放在主语后、动词前，如“我昨晚六点到家”；英文则先说主语和核心动作 I arrived home，再用时间短语 at six o'clock yesterday evening 补充“何时到家”。",
+    "english": "Then I arrived home at six o'clock yesterday evening.",
+    "steps": [
+      {
+        "label": "先定叙述顺序",
+        "text": "Then I arrived home.",
+        "explanation": "Then 表示承接前文，先交代“我到家”这个动作发生了，是整句的核心。"
+      },
+      {
+        "label": "再补充时间细节",
+        "text": "at six o'clock yesterday evening",
+        "explanation": "at 引出具体钟点，yesterday evening 限定是昨天傍晚，两个时间信息叠在一起说明到家的准确时间。"
+      }
+    ],
+    "takeaway": "英语习惯把时间状语放在句末补充说明动作发生的时间，而中文更倾向把时间放在动词前面。"
+  },
+  "backbone": {
+    "text": "I arrived home.",
+    "meaning": "我回到了家。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语后置",
+      "text": "at six o'clock yesterday evening 放在句末，说明到家的具体时间；具体钟点前用介词 at。"
+    },
+    {
+      "title": "arrived home 的用法",
+      "text": "home 是地点副词，前面不加 to，直接说 arrive home，表示“到家”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Then",
+      "role": "连接性状语",
+      "explanation": "承接前文的时间顺序，表示动作接着发生。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "发出“到家”这个动作的人。"
+    },
+    {
+      "text": "arrived home",
+      "role": "谓语（动词+地点副词）",
+      "explanation": "arrive 是不及物动词，home 作地点副词，直接表示“到达家”，不需要加介词 to。"
+    },
+    {
+      "text": "at six o'clock yesterday evening",
+      "role": "时间状语",
+      "explanation": "由介词 at 引导的时间短语，具体说明到家的时间点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Then",
+      "meaning": "然后",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    },
+    {
+      "text": "I",
+      "meaning": "我（主格）",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "arrived",
+      "meaning": "到达（过去式）",
+      "pos": "动词",
+      "phonetic": "/əˈraɪvd/"
+    },
+    {
+      "text": "home",
+      "meaning": "家（地点副词）",
+      "pos": "副词",
+      "phonetic": "/həʊm/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（具体时间点前）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "six",
+      "meaning": "六",
+      "pos": "数词",
+      "phonetic": "/sɪks/"
+    },
+    {
+      "text": "o'clock",
+      "meaning": "……点钟",
+      "pos": "副词",
+      "phonetic": "/əˈklɒk/"
+    },
+    {
+      "text": "yesterday",
+      "meaning": "昨天",
+      "pos": "副词",
+      "phonetic": "/ˈjestədeɪ/"
+    },
+    {
+      "text": "evening.",
+      "meaning": "傍晚；晚上",
+      "pos": "名词",
+      "phonetic": "/ˈiːvnɪŋ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Then",
+      "meaning": "然后",
+      "relation": "承接上文的时间顺序"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "动作的发出者"
+    },
+    {
+      "text": "arrived home",
+      "meaning": "到家",
+      "relation": "核心动作，说明主语完成的行为"
+    },
+    {
+      "text": "at six o'clock yesterday evening.",
+      "meaning": "在昨晚六点",
+      "relation": "补充说明动作发生的具体时间。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-71",
+  "sentenceId": "nce-1-lesson-071-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Then I arrived home at six o'clock yesterday evening.",
+  "lesson": "Lesson 71 He's awful!",
+  "notes": [
+    {
+      "title": "时间状语后置",
+      "text": "at six o'clock yesterday evening 放在句末，说明到家的具体时间；具体钟点前用介词 at。"
+    },
+    {
+      "title": "arrived home 的用法",
+      "text": "home 是地点副词，前面不加 to，直接说 arrive home，表示“到家”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整句主干、词性、时间状语位置和译文均基本正确。个别词语解释可更贴合本句语境，且存在不必要的标点符号误入音标问题。（非逐句人工审核）"
+}

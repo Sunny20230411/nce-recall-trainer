@@ -1,0 +1,86 @@
+{
+  "chinese": "它是什么颜色的？",
+  "intent": "向对方询问某个指代事物的具体颜色属性",
+  "comparison": null,
+  "backbone": {
+    "text": "What colour is it?",
+    "meaning": "询问该事物的颜色"
+  },
+  "parts": [
+    {
+      "text": "What colour",
+      "relation": "疑问限定词加名词构成的疑问短语，作为特殊疑问句的被询问核心内容（表语位置的疑问成分）",
+      "meaning": "什么颜色"
+    },
+    {
+      "text": "is",
+      "relation": "系动词，承担主谓倒装的移位功能衔接疑问内容和主语",
+      "meaning": "是"
+    },
+    {
+      "text": "it?",
+      "relation": "指代前文提到的帽子，作为本句的主语",
+      "meaning": "它"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "特殊疑问词前置",
+      "text": "询问颜色的特殊问句把疑问词组What colour放在句首，随后衔接be动词和指代对象it，直接明确提问的核心方向"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What colour",
+      "role": "疑问词组",
+      "explanation": "指明本次提问的具体信息类型，要求对方给出对应的颜色答复"
+    },
+    {
+      "text": "is it",
+      "role": "系表疑问组合",
+      "explanation": "将be动词提前到主语it之前，构成符合英语规则的特殊疑问语序"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "什么",
+      "pos": "疑问限定词",
+      "phonetic": "/wɒt/",
+      "text": "What"
+    },
+    {
+      "meaning": "颜色",
+      "pos": "名词",
+      "phonetic": "/ˈkʌlə(r)/",
+      "text": "colour"
+    },
+    {
+      "meaning": "是",
+      "pos": "be动词（系动词）",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "它",
+      "pos": "第三人称单数主格人称代词",
+      "phonetic": "/ɪt/",
+      "text": "it?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-13",
+  "sentenceId": "nce-1-lesson-013-sentence-008",
+  "sentenceOrder": 8,
+  "english": "What colour is it?",
+  "lesson": "Lesson 13 A new dress",
+  "notes": [
+    {
+      "title": "特殊疑问词前置",
+      "text": "询问颜色的特殊问句把疑问词组What colour放在句首，随后衔接be动词和指代对象it，直接明确提问的核心方向"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：基础解析整体合规，仅存在局部细节偏差可修正（非逐句人工审核）"
+}

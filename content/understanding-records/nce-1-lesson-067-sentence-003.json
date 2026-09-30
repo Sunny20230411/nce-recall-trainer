@@ -1,0 +1,145 @@
+{
+  "chinese": "你也在肉店吗？",
+  "intent": "说话人陈述完自己周五在面包店之后，向对话对象确认对方是否同样去了肉店，用于核实对方上周末的出行目的地。",
+  "comparison": {
+    "chinese": "你也在肉店吗？",
+    "english": "Were you at the butcher's, too?",
+    "steps": [
+      {
+        "label": "先看语序",
+        "text": "中文把疑问语气放在句尾，直接顺着“你在肉店”的陈述语序加“吗”就能成问句。",
+        "explanation": "英语的be动词一般疑问句要把be动词Were移到主语you的前面，形成Were you的倒装结构，这是最常见、语法最规范的疑问形式；带升调的陈述式疑问“You were at the butcher's?”属于口语中可用于质疑或确认的合法表达，并非标准语法中的不规范形式。"
+      },
+      {
+        "label": "地点表达",
+        "text": "中文说“在肉店”，英语用at加the butcher's来表达地点。",
+        "explanation": "the butcher's后面省略了固定搭配的shop，指代屠夫经营的肉店，不需要特意把shop译出来。"
+      },
+      {
+        "label": "附加词位置",
+        "text": "中文的“也”放在所修饰的动词“在”前面。",
+        "explanation": "英语的too表示“也”时习惯放在句末，用逗号和前面的内容隔开。"
+      }
+    ],
+    "takeaway": "构成一般疑问句时英语需要把be动词移到主语前，且表示地点的所有格店铺用法、too表“也”的句末位置都和中文语序不同。"
+  },
+  "backbone": {
+    "text": "Were you at the butcher's?",
+    "meaning": "确认对方是否在肉店（理解用的核心问句，去除了表“也”的too）。"
+  },
+  "structureNotes": [
+    {
+      "title": "be动词前置构成一般疑问句",
+      "text": "本句是一般过去时的be动词问句，主语为第二人称you，因此使用were，并将were提到句首构成疑问结构，用来向对方确认过去的状态。"
+    },
+    {
+      "title": "the butcher's指代店铺",
+      "text": "the butcher's是固定的所有格表达，省略了后面的shop，指屠夫经营的肉店，同类结构还有the baker's、the greengrocer's等，用来指代对应业态的店铺。"
+    },
+    {
+      "title": "too表“也”的位置",
+      "text": "too放在句末，用逗号和前面的内容隔开，回应前一句提到的“I was at the baker's”，表示在确认对方是否和自己一样外出去过某类店铺。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Were",
+      "role": "be动词（一般过去时）",
+      "explanation": "本句的核心连系动词，搭配主语you构成一般过去时，移到句首构成一般疑问句，体现过去的状态。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "句子询问的对象，即对话接收方“你”。"
+    },
+    {
+      "text": "at the butcher's",
+      "role": "表语（介词短语）",
+      "explanation": "介词at引出地点the butcher's，和be动词搭配表示“在肉店”的状态。"
+    },
+    {
+      "text": "too",
+      "role": "状语",
+      "explanation": "表示“也”，承接前文提到说话人在面包店，询问对方是否同样去了肉店。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是（are的过去式）",
+      "pos": "动词（be的过去式）",
+      "phonetic": "/wɜː(r)/",
+      "text": "Were"
+    },
+    {
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "在（表示地点）",
+      "pos": "介词",
+      "phonetic": "/æt/",
+      "text": "at"
+    },
+    {
+      "meaning": "（定冠词，用于特指店铺）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "肉店（butcher's指代店铺）",
+      "pos": "名词所有格",
+      "phonetic": "/ˈbʊtʃəz/",
+      "text": "butcher's,"
+    },
+    {
+      "meaning": "也",
+      "pos": "副词",
+      "phonetic": "/tuː/",
+      "text": "too?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Were you",
+      "meaning": "你是否（处在某种状态）",
+      "relation": "疑问框架，对应询问的核心主语和be动词疑问结构。"
+    },
+    {
+      "text": "at the butcher's,",
+      "meaning": "在肉店",
+      "relation": "说明询问的核心地点内容，也就是对方当时所处的位置。"
+    },
+    {
+      "text": "too?",
+      "meaning": "也",
+      "relation": "补充语义，呼应前一句提到说话人在面包店的经历，确认对方是否也去了肉店。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-67",
+  "sentenceId": "nce-1-lesson-067-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Were you at the butcher's, too?",
+  "lesson": "Lesson 67 The weekend",
+  "notes": [
+    {
+      "title": "be动词前置构成一般疑问句",
+      "text": "本句是一般过去时的be动词问句，主语为第二人称you，因此使用were，并将were提到句首构成疑问结构，用来向对方确认过去的状态。"
+    },
+    {
+      "title": "the butcher's指代店铺",
+      "text": "the butcher's是固定的所有格表达，省略了后面的shop，指屠夫经营的肉店，同类结构还有the baker's、the greengrocer's等，用来指代对应业态的店铺。"
+    },
+    {
+      "title": "too表“也”的位置",
+      "text": "too放在句末，用逗号和前面的内容隔开，回应前一句提到的“I was at the baker's”，表示在确认对方是否和自己一样外出去过某类店铺。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析完整准确，仅存在三处需修正的细节问题：1. 语序对比部分将带升调的陈述式疑问You were at the butcher's?判定为标准语法中的不规范表达，表述过于绝对，这类句式在日常口语中可用于质疑或确认，属于合法表达；2. too的状语解释中未明确点明本句too是类比前一句的面包店、询问对方是否同样去了肉店，而非泛指外出；3. 第三个语块的关系解释中未明确too的具体指代对象为前句的面包店经历，表意偏模糊。其余内容（翻译、语法成分划分、音标、词汇释义、店铺类所有格的用法说明等）均符合事实与规则要求。（非逐句人工审核）"
+}

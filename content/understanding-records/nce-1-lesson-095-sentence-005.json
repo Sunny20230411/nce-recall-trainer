@@ -1,0 +1,95 @@
+{
+  "chinese": "二号站台。过天桥。",
+  "intent": "回应“哪个站台”的询问，告知乘车站台编号和前往站台的通行路线。",
+  "comparison": null,
+  "backbone": {
+    "text": "Platform Two. Over the bridge.",
+    "meaning": "我们要乘车的站台是二号站台，从天桥过去就能到达该站台。"
+  },
+  "structureNotes": [
+    {
+      "title": "口语应答省略",
+      "text": "两句都是车站场景下的短句应答。第一句直接说出站台编号，省略了“它是我们要去的站台”这类冗余表述。"
+    },
+    {
+      "title": "路线指引省略",
+      "text": "第二句用介词短语Over the bridge直接指路，省略了“You need to go”，符合口语指路时简洁明了的表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Platform Two.",
+      "role": "名词性名词短语（省略主系成分的独立应答句）",
+      "explanation": "完整对应问句Which platform，直接给出站台编号，承载完整应答功能。"
+    },
+    {
+      "text": "Over the bridge.",
+      "role": "介词短语（省略核心动词的简略指路表达）",
+      "explanation": "Over表示从上方穿过，the bridge此处特指车站人行天桥，省略了go across这类动作动词，是口语指路的常见简略形式。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Platform",
+      "meaning": "站台",
+      "pos": "名词",
+      "phonetic": "/ˈplætfɔːm/"
+    },
+    {
+      "text": "Two.",
+      "meaning": "二（用于站台编号）",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "Over",
+      "meaning": "从……上方穿过",
+      "pos": "介词",
+      "phonetic": "/ˈəʊvə(r)/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指此处的那座）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bridge.",
+      "meaning": "桥；（车站）天桥",
+      "pos": "名词",
+      "phonetic": "/brɪdʒ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Platform Two.",
+      "relation": "回应询问的核心答案，告知对应的站台编号",
+      "meaning": "二号站台"
+    },
+    {
+      "text": "Over the bridge.",
+      "relation": "补充说明通往该站台的路线指引",
+      "meaning": "过天桥"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-95",
+  "sentenceId": "nce-1-lesson-095-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Platform Two. Over the bridge.",
+  "lesson": "Lesson 95 Tickets, please.",
+  "notes": [
+    {
+      "title": "口语应答省略",
+      "text": "两句都是车站场景下的短句应答。第一句直接说出站台编号，省略了“它是我们要去的站台”这类冗余表述。"
+    },
+    {
+      "title": "路线指引省略",
+      "text": "第二句用介词短语Over the bridge直接指路，省略了“You need to go”，符合口语指路时简洁明了的表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合车站问路场景的口语省略表达逻辑，站台指认、天桥路线指引的释义清晰，仅需微调词汇音标标注，明确说明Two在本语境中作为站台编号的名词用法，避免学习者将其误认作独立数词，其余表述准确无需修改。（非逐句人工审核）"
+}

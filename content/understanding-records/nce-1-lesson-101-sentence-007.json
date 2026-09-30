@@ -1,0 +1,85 @@
+{
+  "chinese": "什么协会？",
+  "intent": "表示刚才听到的名词没有听清或没反应过来，要求对方再重复一遍。",
+  "comparison": {
+    "chinese": "刚才那个什么？/ 你说的是什么来着？",
+    "english": "The what?",
+    "steps": [
+      {
+        "label": "先抓住什么",
+        "text": "The",
+        "explanation": "回指对方刚提到的 Y.H.A.，相当于中文里的“那个”，不是新信息。"
+      },
+      {
+        "label": "再看问什么",
+        "text": "what?",
+        "explanation": "要求重复那个没听清的具体名词，不是在问“什么意思”。"
+      }
+    ],
+    "takeaway": "The what? 是要求重复刚听到的某一内容，而不是提出新的问题。"
+  },
+  "backbone": {
+    "text": "（请重复）你刚才说的那个名词？",
+    "meaning": "表示没听清对方刚说的专有名词，希望对方重复一遍。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略式疑问",
+      "text": "The 回指前文的 Y.H.A.，what 代替没听清的具体名称，整个短句在对话中承担要求重复的功能。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The",
+      "role": "回指限定词",
+      "explanation": "回指上一句刚提到的 Y.H.A.，相当于“你刚说的那个”。"
+    },
+    {
+      "text": "what?",
+      "role": "疑问焦点",
+      "explanation": "要求对方重复自己没听清的具体名词。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（回指刚提到的事物）那个；该",
+      "pos": "限定词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "什么（此处表示没听清，要求重复）",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/",
+      "text": "what?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The",
+      "relation": "指代前文内容",
+      "meaning": "那个（回指刚提到的Y.H.A.）"
+    },
+    {
+      "text": "what?",
+      "relation": "询问没听清的具体名词",
+      "meaning": "什么？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-101",
+  "sentenceId": "nce-1-lesson-101-sentence-007",
+  "sentenceOrder": 7,
+  "english": "The what?",
+  "lesson": "Lesson 101 A card from Jimmy",
+  "notes": [
+    {
+      "title": "省略式疑问",
+      "text": "The 回指前文的 Y.H.A.，what 代替没听清的具体名称，整个短句在对话中承担要求重复的功能。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：该省略式对话短句的核心语义、指代关系、语用功能解释准确，所有标注内容符合上下文场景，无事实、语法、词性或语义错误。（非逐句人工审核）"
+}

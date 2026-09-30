@@ -1,0 +1,117 @@
+{
+  "chinese": "来见见我们的雇员吧，理查兹先生。",
+  "intent": "向理查兹先生发出邀请，请他过来与己方的雇员见面认识。",
+  "comparison": null,
+  "backbone": {
+    "text": "Come and meet our employees",
+    "meaning": "过来见见我们的雇员"
+  },
+  "parts": [
+    {
+      "text": "Come and meet",
+      "relation": "发出的核心邀请动作",
+      "meaning": "过来并且见面认识"
+    },
+    {
+      "text": "our employees,",
+      "relation": "动作“meet”的对象",
+      "meaning": "我们的雇员"
+    },
+    {
+      "text": "Mr. Richards.",
+      "relation": "这句邀请的对话对象",
+      "meaning": "理查兹先生"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "祈使句称呼位置",
+      "text": "本句是祈使句，称呼语Mr. Richards放在句末，用逗号和前面的祈使内容隔开，直接点明发话的对象。"
+    },
+    {
+      "title": "and连接并列动作",
+      "text": "Come和meet用and连接，是祈使句里并列的两个连续动作，不需要额外加主语，直接传递连贯的邀请含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Come and meet",
+      "role": "并列祈使谓语",
+      "explanation": "用于直接向听话人发出连续的行动指令，属于祈使句的核心动作部分"
+    },
+    {
+      "text": "our employees",
+      "role": "动作宾语",
+      "explanation": "限定了“meet”这个动作针对的对象，说明要见面的是发话方的雇员群体"
+    },
+    {
+      "text": "Mr. Richards",
+      "role": "呼语",
+      "explanation": "用于点明当前这句邀请的接收者，不属于句子的主谓宾成分，仅作对话指向"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "来，过来",
+      "pos": "动词",
+      "phonetic": "/kʌm/",
+      "text": "Come"
+    },
+    {
+      "meaning": "并且，然后",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "见面，结识",
+      "pos": "动词",
+      "phonetic": "/miːt/",
+      "text": "meet"
+    },
+    {
+      "meaning": "我们的",
+      "pos": "限定词",
+      "phonetic": "/ˈaʊə/",
+      "text": "our"
+    },
+    {
+      "meaning": "雇员们",
+      "pos": "名词",
+      "phonetic": "/ˌemplɔɪˈiːz/",
+      "text": "employees,"
+    },
+    {
+      "meaning": "先生（用于姓氏前的尊称）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪstə(r)/",
+      "text": "Mr."
+    },
+    {
+      "meaning": "理查兹（姓氏）",
+      "pos": "名词",
+      "phonetic": "/ˈrɪtʃədz/",
+      "text": "Richards."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-17",
+  "sentenceId": "nce-1-lesson-017-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Come and meet our employees, Mr. Richards.",
+  "lesson": "Lesson 17 How do you do?",
+  "notes": [
+    {
+      "title": "祈使句称呼位置",
+      "text": "本句是祈使句，称呼语Mr. Richards放在句末，用逗号和前面的祈使内容隔开，直接点明发话的对象。"
+    },
+    {
+      "title": "and连接并列动作",
+      "text": "Come和meet用and连接，是祈使句里并列的两个连续动作，不需要额外加主语，直接传递连贯的邀请含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合要求，仅存在小瑕疵可明确修正（非逐句人工审核）"
+}

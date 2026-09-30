@@ -1,0 +1,136 @@
+{
+  "chinese": "你们的机修工修完了吗？",
+  "intent": "确认对方的机修工是否已经完成车辆维修工作，询问维修进度。",
+  "comparison": {
+    "chinese": "中文问“做完了吗”常靠句末语气词；英语用 Have 开头，并让 yet 出现在句末。",
+    "english": "Have your mechanics finished yet?",
+    "steps": [
+      {
+        "label": "先确定要问的事",
+        "text": "主语 your mechanics，谓语 finished。",
+        "explanation": "先知道问的是“你们的机修工”是否“完成了维修”，而不是问他们是否会修。"
+      },
+      {
+        "label": "英语怎么构成问句",
+        "text": "助动词 Have 提到主语 your mechanics 前，构成 Have your mechanics finished?。",
+        "explanation": "这是现在完成时的一般疑问句，Have 是帮助构成时态的助动词，不是“有”的意思。"
+      },
+      {
+        "label": "yet 放在哪里",
+        "text": "yet 放在句末 Have your mechanics finished yet?。",
+        "explanation": "yet 表示“到目前为止”，通常用在疑问句或否定句末尾，对应中文里“了/还”这类时间语气。"
+      }
+    ],
+    "takeaway": "先抓住 finished 这个核心动作，再看 Have 前移和 yet 句末怎样把它变成“到目前为止是否完成”的问句。"
+  },
+  "backbone": {
+    "text": "Have your mechanics finished?",
+    "meaning": "你们的机修工已经完成维修了吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "疑问句语序",
+      "text": "现在完成时的一般疑问句把助动词 Have 放到主语 your mechanics 前面，主体部分依然是“主语 + finished”。"
+    },
+    {
+      "title": "yet 的用法",
+      "text": "yet 通常放在现在完成时的疑问句或否定句末尾，表示“到目前为止、还”，这里用来追问是否已经完成。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Have",
+      "role": "助动词",
+      "explanation": "帮助构成现在完成时的一般疑问句，提到主语前面，不表示“有”。"
+    },
+    {
+      "text": "your mechanics",
+      "role": "主语",
+      "explanation": "句子动作的发出者，指对方所指的机修工们。"
+    },
+    {
+      "text": "finished",
+      "role": "过去分词（谓语核心）",
+      "explanation": "和 Have 一起构成现在完成时，表示“已经完成”。"
+    },
+    {
+      "text": "yet",
+      "role": "状语",
+      "explanation": "用于疑问句末尾，表示“到目前为止、还”，询问是否已经发生；问号属于整句句末标点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Have",
+      "meaning": "已经（助动词，构成现在完成时）",
+      "pos": "动词（助动词）",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "your",
+      "meaning": "你的；你们的",
+      "pos": "代词",
+      "phonetic": "/jɔː(r)/"
+    },
+    {
+      "text": "mechanics",
+      "meaning": "机修工；机械师",
+      "pos": "名词复数",
+      "phonetic": "/məˈkænɪks/"
+    },
+    {
+      "text": "finished",
+      "meaning": "完成；结束",
+      "pos": "动词过去分词",
+      "phonetic": "/ˈfɪnɪʃt/"
+    },
+    {
+      "text": "yet?",
+      "meaning": "到目前为止；还",
+      "pos": "副词",
+      "phonetic": "/jet/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Have",
+      "meaning": "（助动词，构成现在完成时疑问结构）",
+      "relation": "构成疑问语序，帮助提问是否已经完成"
+    },
+    {
+      "text": "your mechanics",
+      "meaning": "你们的机修工",
+      "relation": "动作的发出者，说明是谁完成工作"
+    },
+    {
+      "text": "finished",
+      "meaning": "完成了",
+      "relation": "核心动作，询问维修是否结束"
+    },
+    {
+      "text": "yet?",
+      "meaning": "到目前为止；还",
+      "relation": "时间语气，强调到目前为止是否完成"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-87",
+  "sentenceId": "nce-1-lesson-087-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Have your mechanics finished yet?",
+  "lesson": "Lesson 87 A car crash",
+  "notes": [
+    {
+      "title": "疑问句语序",
+      "text": "现在完成时的一般疑问句把助动词 Have 放到主语 your mechanics 前面，主体部分依然是“主语 + finished”。"
+    },
+    {
+      "title": "yet 的用法",
+      "text": "yet 通常放在现在完成时的疑问句或否定句末尾，表示“到目前为止、还”，这里用来追问是否已经完成。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文、上下文、中文翻译、主干、结构拆分、词目及分块含义基本一致；yet 为疑问句/否定句副词的用法说明正确。仅词表与结构拆分中的 yet 示例将问号并入词条、分块释义略带歧义，现按最小改动规范为独立副词释义。（非逐句人工审核）"
+}

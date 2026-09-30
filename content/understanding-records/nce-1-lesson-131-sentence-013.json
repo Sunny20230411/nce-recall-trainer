@@ -1,0 +1,120 @@
+{
+  "chinese": "我妻子总是担心。",
+  "intent": "描述说话人的妻子常年处于忧虑不安的状态，呼应前文提出的可能不会出门旅行的语境，解释不出发的顾虑来源。",
+  "comparison": {
+    "chinese": "中文说“我妻子总是担心”，直接顺着主语“我妻子”往后接描述，不需要额外加判断动词“是”来连接主语和情绪状态。",
+    "english": "My wife's always worried.",
+    "steps": [
+      {
+        "label": "第一步",
+        "text": "My wife's = My wife is",
+        "explanation": "这里的 's 是be动词is的缩写，不是所有格标记，核心语义围绕“我的妻子”展开。"
+      },
+      {
+        "label": "第二步",
+        "text": "频度副词always放在be动词之后，也就是My wife's always worried.",
+        "explanation": "always夹在缩写的is和形容词worried之间，说明这种担心是长期、一贯的状态，而不是某一次临时的情绪。"
+      },
+      {
+        "label": "第三步",
+        "text": "worried作表语形容词",
+        "explanation": "它描述主语妻子的情绪状态，而非正在进行的被动动作，对应中文的“担心、焦虑”，补充常用固定搭配be worried about表示“为……担忧”，呼应后文要照料狗的顾虑语境。"
+      }
+    ],
+    "takeaway": "be + 表情绪的形容词可以描述人的长期情绪状态，频度副词always放在be动词之后，中文翻译时不需要额外加“是”，直接顺着主语接状态即可；搭配about时可以引出具体担忧的对象。"
+  },
+  "backbone": {
+    "text": "My wife is always worried.",
+    "meaning": "我的妻子一直处于担心焦虑的状态。"
+  },
+  "structureNotes": [
+    {
+      "title": "'s的归属",
+      "text": "本句中wife's是wife is的缩写，并非所有格形式，后续接形容词worried作表语，整体是主系表结构而非名词所有格作定语。"
+    },
+    {
+      "title": "always的位置",
+      "text": "频度副词always放在be动词之后、表语形容词之前，强调这种忧虑状态是长期一贯的，而非某次临时的情绪反应。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My",
+      "role": "物主限定词",
+      "explanation": "修饰wife，说明妻子属于说话人，对应“我的”。"
+    },
+    {
+      "text": "wife's",
+      "role": "主语+系动词（缩写形式）",
+      "explanation": "其中wife是句子的主语，'s是be动词is的缩写，二者共同构成句子的主系部分。"
+    },
+    {
+      "text": "always",
+      "role": "频度副词",
+      "explanation": "修饰整个表语部分，说明“担心”这种状态的频度是始终、一贯的。"
+    },
+    {
+      "text": "worried.",
+      "role": "表语（形容词）",
+      "explanation": "描述主语wife的情绪状态，意为“担心的、焦虑的”，句末句号为陈述句标点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "My",
+      "meaning": "我的",
+      "pos": "物主限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "wife's",
+      "meaning": "妻子（此处's为is的缩写）",
+      "pos": "名词+be动词缩写",
+      "phonetic": "/waɪfs/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是、一直",
+      "pos": "频度副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "worried.",
+      "meaning": "担心的、焦虑的",
+      "pos": "形容词",
+      "phonetic": "/ˈwʌrɪd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "My wife's",
+      "meaning": "我的妻子（是）",
+      "relation": "句子的主语加缩写系动词部分，引出后续的状态描述"
+    },
+    {
+      "text": "always worried.",
+      "meaning": "总是担心。",
+      "relation": "频度副词加表语形容词，描述主语的长期情绪状态，说明妻子一贯处于忧虑中"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-131",
+  "sentenceId": "nce-1-lesson-131-sentence-013",
+  "sentenceOrder": 13,
+  "english": "My wife's always worried.",
+  "lesson": "Lesson 131 Don't be so sure!",
+  "notes": [
+    {
+      "title": "'s的归属",
+      "text": "本句中wife's是wife is的缩写，并非所有格形式，后续接形容词worried作表语，整体是主系表结构而非名词所有格作定语。"
+    },
+    {
+      "title": "always的位置",
+      "text": "频度副词always放在be动词之后、表语形容词之前，强调这种忧虑状态是长期一贯的，而非某次临时的情绪反应。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体正确，已准确区分了wife's是be动词缩写而非所有格、always的位置规则、worried作表语形容词的属性，仅存在词性标注的术语规范性、标点附带在音标/词义后以及未补充固定搭配释义的问题，不影响核心理解，可修正。（非逐句人工审核）"
+}

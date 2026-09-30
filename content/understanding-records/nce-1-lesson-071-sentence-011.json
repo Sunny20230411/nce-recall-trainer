@@ -1,0 +1,121 @@
+{
+  "chinese": "你对他说了什么？",
+  "intent": "询问对方此前对该男子所说的具体话语内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "你对他说了什么？",
+    "meaning": "问话人想知道你对那个打电话的人讲了什么内容。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去一般时的提问结构",
+      "text": "本句用 did 放在主语 you 前面构成疑问，后面的实义动词用原形 say，意思是“刚才/过去发生的事”，不要理解成现在的习惯动作。"
+    },
+    {
+      "title": "to him 的指向",
+      "text": "say 在这里表示“对某人说出话语”，to him 说明这句话的接收对象是前面提到的那个打电话的男人，不是对其他人说。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What",
+      "role": "疑问代词",
+      "explanation": "放在句首，专门询问“说出来的具体内容”，是本句要找的核心信息。"
+    },
+    {
+      "text": "did",
+      "role": "助动词",
+      "explanation": "帮助构成过去一般时的疑问句，放到主语 you 前面，没有独立的实义含义。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指被问话的人，也就是“说出那句话的人”。"
+    },
+    {
+      "text": "say",
+      "role": "谓语动词",
+      "explanation": "实义动词原形，意为“说出（话语）”。"
+    },
+    {
+      "text": "to him",
+      "role": "介词短语",
+      "explanation": "指明说话的接收对象是前面提到的那位男性。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What",
+      "meaning": "什么",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "did",
+      "meaning": "（助动词，构成过去时疑问句）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "say",
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/seɪ/"
+    },
+    {
+      "text": "to",
+      "meaning": "对（向）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "him?",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What",
+      "meaning": "什么",
+      "relation": "疑问代词，作动词 say 的宾语，放在句首引导特殊疑问句，询问说出来的具体内容"
+    },
+    {
+      "text": "did you",
+      "meaning": "你（伴随表过去的助动词did）",
+      "relation": "助动词 did 帮助构成过去时疑问，主语是 you；did 本身不是主语"
+    },
+    {
+      "text": "say to him?",
+      "meaning": "对他说",
+      "relation": "谓语核心为动词原形 say，to him 为介词短语，指明话语的接收对象是前面提到的那位男性"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-71",
+  "sentenceId": "nce-1-lesson-071-sentence-011",
+  "sentenceOrder": 11,
+  "english": "What did you say to him?",
+  "lesson": "Lesson 71 He's awful!",
+  "notes": [
+    {
+      "title": "过去一般时的提问结构",
+      "text": "本句用 did 放在主语 you 前面构成疑问，后面的实义动词用原形 say，意思是“刚才/过去发生的事”，不要理解成现在的习惯动作。"
+    },
+    {
+      "title": "to him 的指向",
+      "text": "say 在这里表示“对某人说出话语”，to him 说明这句话的接收对象是前面提到的那个打电话的男人，不是对其他人说。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句为过去一般时特殊疑问句，现有主干、翻译、语法角色和语境指向整体正确；仅对分词块的成分说明作最小澄清，避免把 did you 整组直接表述为主语。（非逐句人工审核）"
+}

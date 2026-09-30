@@ -1,0 +1,112 @@
+{
+  "chinese": "她说她打算退休。",
+  "intent": "转述卡伦·马什本人表达的退休计划，延续前一句的访谈内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "She said she was going to retire.",
+    "meaning": "卡伦·马什（通过记者转述）表示自己打算退休。"
+  },
+  "structureNotes": [
+    {
+      "title": "said 引出直接引语转间接引语",
+      "text": "said 后面接省略 that 的宾语从句，从句内容是转述她本人说过的话。"
+    },
+    {
+      "title": "is going to 变为 was going to",
+      "text": "主句 said 是过去时，从句表示过去视角下的将来打算，因此用 was going to retire。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "主句主语",
+      "explanation": "指记者在引述的卡伦·马什。"
+    },
+    {
+      "text": "said",
+      "role": "主句谓语",
+      "explanation": "表示“说过”，引出后面间接引语。"
+    },
+    {
+      "text": "she was going to retire",
+      "role": "宾语从句",
+      "explanation": "转述她曾表达的退休计划；从句主语是she，was going to retire是谓语部分，体现过去视角下的将来打算。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "said",
+      "meaning": "说（过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be 动词过去式，与 going to 搭配构成be going to结构）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "going",
+      "meaning": "与was、to构成be going to结构，表打算",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "不定式符号，与be going to搭配引出后续动词",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "retire.",
+      "meaning": "退休",
+      "pos": "动词",
+      "phonetic": "/rɪˈtaɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She said",
+      "meaning": "她说",
+      "relation": "主句框架，引出后面转述的内容"
+    },
+    {
+      "text": "she was going to retire.",
+      "meaning": "她打算退休。",
+      "relation": "补充said的具体引语，用was going to表示过去视角下的将来打算"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-133",
+  "sentenceId": "nce-1-lesson-133-sentence-015",
+  "sentenceOrder": 15,
+  "english": "She said she was going to retire.",
+  "lesson": "Lesson 133 Sensational news!",
+  "notes": [
+    {
+      "title": "said 引出直接引语转间接引语",
+      "text": "said 后面接省略 that 的宾语从句，从句内容是转述她本人说过的话。"
+    },
+    {
+      "title": "is going to 变为 was going to",
+      "text": "主句 said 是过去时，从句表示过去视角下的将来打算，因此用 was going to retire。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子的基础翻译、主干提取、成分划分、分块语义基本准确，仅存在两处可明确修正的细节问题：一是be going to结构的语法标注误将其定义为表语结构，二是retire的音标错误将句末句号混入音标内容中，其余内容符合语境、语法规范与学习要求。（非逐句人工审核）"
+}

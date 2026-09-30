@@ -1,0 +1,109 @@
+{
+  "chinese": "太阳升得晚，落得早。",
+  "intent": "描述冬季太阳的运行特征，日照时间短。",
+  "comparison": null,
+  "backbone": {
+    "text": "The sun rises late and sets early.",
+    "meaning": "太阳升起得晚，落下得早。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列谓语的连接",
+      "text": "主语 the sun 后接两个由 and 连接的并列谓语动词短语，rises late 和 sets early 分别描述太阳升起和落下的时间状态，late 和 early 都是副词，修饰各自前面的动词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The sun",
+      "role": "句子主语",
+      "explanation": "特指太阳这个天体，是全句动作的发出者。"
+    },
+    {
+      "text": "rises late",
+      "role": "第一个谓语部分",
+      "explanation": "说明太阳升起的时间偏晚。"
+    },
+    {
+      "text": "and sets early",
+      "role": "第二个并列谓语部分",
+      "explanation": "与前一个谓语并列，说明太阳落下的时间偏早。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "（定冠词，特指）",
+      "pos": "article",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "sun",
+      "meaning": "太阳",
+      "pos": "noun",
+      "phonetic": "/sʌn/"
+    },
+    {
+      "text": "rises",
+      "meaning": "升起",
+      "pos": "动词（第三人称单数）",
+      "phonetic": "/ˈraɪzɪz/"
+    },
+    {
+      "text": "late",
+      "meaning": "晚，迟",
+      "pos": "副词",
+      "phonetic": "/leɪt/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ənd/"
+    },
+    {
+      "text": "sets",
+      "meaning": "落下，（日、月）沉落",
+      "pos": "动词（第三人称单数）",
+      "phonetic": "/sets/"
+    },
+    {
+      "text": "early.",
+      "meaning": "早",
+      "pos": "副词",
+      "phonetic": "/ˈɜːli/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The sun",
+      "relation": "句子主语，被描述的对象。",
+      "meaning": "太阳"
+    },
+    {
+      "text": "rises late",
+      "relation": "描述太阳升起的时间状态。",
+      "meaning": "升起得晚"
+    },
+    {
+      "text": "and sets early.",
+      "relation": "并列描述太阳落下的时间状态。",
+      "meaning": "并且落得早。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-53",
+  "sentenceId": "nce-1-lesson-053-sentence-013",
+  "sentenceOrder": 13,
+  "english": "The sun rises late and sets early.",
+  "lesson": "Lesson 53 An interesting climate",
+  "notes": [
+    {
+      "title": "并列谓语的连接",
+      "text": "主语 the sun 后接两个由 and 连接的并列谓语动词短语，rises late 和 sets early 分别描述太阳升起和落下的时间状态，late 和 early 都是副词，修饰各自前面的动词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语义、语法标注基本准确，仅存在一处标点不规范问题：词汇表中词条 early 被误加了原句句末的句号，其余内容（包括并列谓语的连接方式说明、主语角色判定、副词修饰关系标注、词汇释义与音标）均符合原句语境，无概念性或语法性错误。（非逐句人工审核）"
+}

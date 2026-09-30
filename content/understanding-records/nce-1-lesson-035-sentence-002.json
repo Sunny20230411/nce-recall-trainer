@@ -1,0 +1,97 @@
+{
+  "chinese": "我们的村庄在一个山谷里。",
+  "intent": "直白说明村庄所处的具体地理位置，补充交代照片里场景的空间信息。",
+  "backbone": {
+    "text": "Our village is in a valley",
+    "meaning": "村庄位于山谷之中。"
+  },
+  "parts": [
+    {
+      "text": "Our village",
+      "relation": "全句描述的主体",
+      "meaning": "我们的村庄"
+    },
+    {
+      "text": "is",
+      "relation": "连接主体和位置信息的判断动词",
+      "meaning": "表示处于某地的状态"
+    },
+    {
+      "text": "in a valley.",
+      "relation": "补充说明村庄所在的具体位置",
+      "meaning": "在一个山谷里"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "地点介词in的使用",
+      "text": "这里用in搭配valley，表达村庄处于山谷的范围内，说明位置是在山谷内部而非边缘。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Our village",
+      "role": "名词短语作主语",
+      "explanation": "明确全句描述的对象，指向说话人所属的这座村庄。"
+    },
+    {
+      "text": "is in a valley",
+      "role": "系表结构作谓语",
+      "explanation": "用be动词搭配地点介词短语，清晰交代村庄所处的具体方位。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我们的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/ˈaʊə/",
+      "text": "Our"
+    },
+    {
+      "meaning": "村庄",
+      "pos": "名词",
+      "phonetic": "/ˈvɪlɪdʒ/",
+      "text": "village"
+    },
+    {
+      "meaning": "是（表示存在状态）",
+      "pos": "be动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "在…里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "山谷",
+      "pos": "名词",
+      "phonetic": "/ˈvæli/",
+      "text": "valley."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-35",
+  "sentenceId": "nce-1-lesson-035-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Our village is in a valley.",
+  "lesson": "Lesson 35 Our village",
+  "notes": [
+    {
+      "title": "地点介词in的使用",
+      "text": "这里用in搭配valley，表达村庄处于山谷的范围内，说明位置是在山谷内部而非边缘。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析核心信息准确，仅存在局部细节不规范问题，可直接修正完善。（非逐句人工审核）"
+}

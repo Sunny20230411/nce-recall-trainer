@@ -1,0 +1,100 @@
+{
+  "chinese": "恐怕不行。",
+  "intent": "委婉告知自己无法满足对方提出的请求。",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm afraid (that) I can't.",
+    "meaning": "我恐怕做不到（这件事）。"
+  },
+  "structureNotes": [
+    {
+      "title": "从句省略that",
+      "text": "afraid后面的从句常省略that，本句中that可有可无，但意思不变。"
+    },
+    {
+      "title": "can't后省掉重复内容",
+      "text": "上文对方问能否帮忙取东西，can't后面不必重复完整动词短语，只保留否定情态即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm afraid",
+      "role": "主句",
+      "explanation": "用afraid表达委婉语气，不是“害怕”某个具体事物。"
+    },
+    {
+      "text": "that I can't",
+      "role": "afraid的宾语从句",
+      "explanation": "说明委婉拒绝的具体内容；that可省略。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I'm",
+      "meaning": "我是",
+      "pos": "代词+动词缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "afraid",
+      "meaning": "担心的；（用于委婉表达）恐怕",
+      "pos": "形容词",
+      "phonetic": "/əˈfreɪd/"
+    },
+    {
+      "text": "that",
+      "meaning": "引导宾语从句的连词",
+      "pos": "连词",
+      "phonetic": "/ðæt/ /ðət/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "can't.",
+      "meaning": "不能",
+      "pos": "情态动词否定缩写",
+      "phonetic": "/kɑːnt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I'm afraid",
+      "meaning": "恐怕",
+      "relation": "委婉表达语气"
+    },
+    {
+      "text": "that",
+      "meaning": "引导从句的连词",
+      "relation": "连接后面的具体内容"
+    },
+    {
+      "text": "I can't.",
+      "meaning": "我不能（做到这件事）",
+      "relation": "说明拒绝的具体内容"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-75",
+  "sentenceId": "nce-1-lesson-075-sentence-012",
+  "sentenceOrder": 12,
+  "english": "I'm afraid that I can't.",
+  "lesson": "Lesson 75 Uncomfortable shoes",
+  "notes": [
+    {
+      "title": "从句省略that",
+      "text": "afraid后面的从句常省略that，本句中that可有可无，但意思不变。"
+    },
+    {
+      "title": "can't后省掉重复内容",
+      "text": "上文对方问能否帮忙取东西，can't后面不必重复完整动词短语，只保留否定情态即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解释基本准确，主干、从句省略、回指省略和委婉语气说明都与上下文相符。仅词汇表中“can't.”仍带句号，音标位置与英式形式需统一，以及个别用词可微调得更严谨。（非逐句人工审核）"
+}

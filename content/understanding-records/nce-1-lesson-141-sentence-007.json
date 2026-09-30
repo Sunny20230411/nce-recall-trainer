@@ -1,0 +1,184 @@
+{
+  "chinese": "那位女士穿着一件蓝色外套，戴着一顶又大又滑稽的帽子。",
+  "intent": "描述那位女士的衣着打扮细节。",
+  "comparison": {
+    "chinese": "中文会说“穿着一件蓝色外套，戴着一顶帽子”，把衣、帽的动词分开讲。",
+    "english": "The lady was dressed in a blue coat and a large, funny hat.",
+    "steps": [
+      {
+        "label": "第一步",
+        "text": "The lady was dressed in a blue coat",
+        "explanation": "先说女士穿着蓝色外套，be dressed in 是描述着装状态的常用说法，不强调“正在穿”这个动作。"
+      },
+      {
+        "label": "第二步",
+        "text": "and a large, funny hat",
+        "explanation": "在同一个 in 后面接并列的两件穿戴物品，外套和帽子都归到同一着装状态下，中文习惯补出“戴着”，让搭配更自然。"
+      }
+    ],
+    "takeaway": "be dressed in 可以同时管多件穿戴物品，不局限于上衣；中文表达衣物和帽子时常用不同动词分开搭配。"
+  },
+  "backbone": {
+    "text": "The lady was dressed in a blue coat and a hat.",
+    "meaning": "那位女士穿着一件蓝色外套，戴着一顶帽子。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列着装",
+      "text": "介词短语 in a blue coat and a large, funny hat 中，in 同时支配后面并列的两件穿戴物品；中文译法会按汉语习惯分别搭配“穿着”和“戴着”。"
+    },
+    {
+      "title": "形容词顺序",
+      "text": "描述帽子时，large（大）在前，funny（滑稽）在后，两个形容词之间用逗号隔开，共同修饰后面的 hat。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The lady",
+      "role": "主语",
+      "explanation": "全句描述的对象，即那位被提及的女士。"
+    },
+    {
+      "text": "was dressed",
+      "role": "谓语（状态被动结构）",
+      "explanation": "描述主语处于穿着某类衣物的状态。"
+    },
+    {
+      "text": "in a blue coat and a large, funny hat",
+      "role": "状语",
+      "explanation": "用介词 in 说明“穿/戴着”的具体衣物和配饰。"
+    },
+    {
+      "text": "a blue coat",
+      "role": "并列宾语之一",
+      "explanation": "被 in 支配的第一件穿戴物品：蓝色外套。"
+    },
+    {
+      "text": "a large, funny hat",
+      "role": "并列宾语之一",
+      "explanation": "被 in 支配的第二件穿戴物品：又大又滑稽的帽子。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "定指（那位）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "lady",
+      "meaning": "女士",
+      "pos": "名词",
+      "phonetic": "/ˈleɪdi/"
+    },
+    {
+      "text": "was",
+      "meaning": "与过去分词dressed构成状态被动结构，表过去的状态",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "dressed",
+      "meaning": "穿着，穿戴（过去分词，表状态）",
+      "pos": "动词",
+      "phonetic": "/drest/"
+    },
+    {
+      "text": "in",
+      "meaning": "穿着、戴着（介词）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一件（冠词）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "blue",
+      "meaning": "蓝色的",
+      "pos": "形容词",
+      "phonetic": "/bluː/"
+    },
+    {
+      "text": "coat",
+      "meaning": "外套",
+      "pos": "名词",
+      "phonetic": "/kəʊt/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且（连接并列物品）",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一顶（冠词）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "large,",
+      "meaning": "大的（后接逗号，与后面的funny并列修饰hat）",
+      "pos": "形容词",
+      "phonetic": "/lɑːdʒ/"
+    },
+    {
+      "text": "funny",
+      "meaning": "滑稽可笑的",
+      "pos": "形容词",
+      "phonetic": "/ˈfʌni/"
+    },
+    {
+      "text": "hat.",
+      "meaning": "帽子",
+      "pos": "名词",
+      "phonetic": "/hæt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The lady",
+      "meaning": "那位女士",
+      "relation": "句子的描述对象"
+    },
+    {
+      "text": "was dressed in",
+      "meaning": "穿着、戴着（状态表达）",
+      "relation": "说明主语处于穿戴状态"
+    },
+    {
+      "text": "a blue coat and",
+      "meaning": "一件蓝色外套和",
+      "relation": "并列的穿戴物品之一"
+    },
+    {
+      "text": "a large, funny hat.",
+      "meaning": "一顶又大又滑稽的帽子。",
+      "relation": "并列的另一件穿戴物品。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-141",
+  "sentenceId": "nce-1-lesson-141-sentence-007",
+  "sentenceOrder": 7,
+  "english": "The lady was dressed in a blue coat and a large, funny hat.",
+  "lesson": "Lesson 141 Sally's first train ride",
+  "notes": [
+    {
+      "title": "并列着装",
+      "text": "介词短语 in a blue coat and a large, funny hat 中，in 同时支配后面并列的两件穿戴物品；中文译法会按汉语习惯分别搭配“穿着”和“戴着”。"
+    },
+    {
+      "title": "形容词顺序",
+      "text": "描述帽子时，large（大）在前，funny（滑稽）在后，两个形容词之间用逗号隔开，共同修饰后面的 hat。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体翻译、句法主干和着装表达对比准确，仅单词语义标注需微调：large 词条将形容词含义与标点混在一起，且 was 的“助动词”表述未体现其构成状态被动结构的语法功能。（非逐句人工审核）"
+}

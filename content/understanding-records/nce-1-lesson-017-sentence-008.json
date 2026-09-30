@@ -1,0 +1,86 @@
+{
+  "chinese": "您好。",
+  "intent": "初次见面时用于正式礼貌问候对方，表达友好的致意。",
+  "comparison": null,
+  "backbone": {
+    "text": "How do you do?",
+    "meaning": "初次见面时的正式标准问候语，含义等同于中文的您好。"
+  },
+  "parts": [
+    {
+      "text": "How",
+      "relation": "引导问候的核心疑问起点",
+      "meaning": "询问方式，这里引导问候的正式表达"
+    },
+    {
+      "text": "do",
+      "relation": "辅助完成固定问候句式的语序",
+      "meaning": "助动词，无实际词义，构成问候表达的语序框架"
+    },
+    {
+      "text": "you",
+      "relation": "指明问候的接收人",
+      "meaning": "你/您，指代被问候的对象"
+    },
+    {
+      "text": "do?",
+      "relation": "补全固定问候的完整表达",
+      "meaning": "完成固定问候搭配的收尾部分，无单独实义"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "固定问候句式",
+      "text": "这是英语中初次见面时的传统正式问候语，不属于普通疑问句式，对方通常也以同样的How do you do?回应。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "How do you do?",
+      "role": "固定礼貌问候语",
+      "explanation": "专门用于陌生人初次正式见面的致意场景，不需要按普通特殊疑问句拆分语义理解。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "如何，怎样，此处引导正式问候",
+      "pos": "疑问副词",
+      "phonetic": "/haʊ/",
+      "text": "How"
+    },
+    {
+      "meaning": "无实义，助动词",
+      "pos": "助动词",
+      "phonetic": "/duː/",
+      "text": "do"
+    },
+    {
+      "meaning": "你，您",
+      "pos": "人称代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "无单独实义，属于固定问候搭配的组成部分",
+      "pos": "动词",
+      "phonetic": "/duː/",
+      "text": "do?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-17",
+  "sentenceId": "nce-1-lesson-017-sentence-008",
+  "sentenceOrder": 8,
+  "english": "How do you do?",
+  "lesson": "Lesson 17 How do you do?",
+  "notes": [
+    {
+      "title": "固定问候句式",
+      "text": "这是英语中初次见面时的传统正式问候语，不属于普通疑问句式，对方通常也以同样的How do you do?回应。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体符合教学要求，存在部分细节可优化修正，不影响核心理解（非逐句人工审核）"
+}

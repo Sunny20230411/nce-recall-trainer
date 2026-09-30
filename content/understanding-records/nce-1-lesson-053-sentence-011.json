@@ -1,0 +1,111 @@
+{
+  "chinese": "我不喜欢秋天和冬天。",
+  "intent": "表达说话人对秋冬两个季节的负面偏好。",
+  "comparison": null,
+  "backbone": {
+    "text": "I don't like autumn and winter.",
+    "meaning": "我不喜欢秋天和冬天这两个季节。"
+  },
+  "structureNotes": [
+    {
+      "title": "否定式 don't like",
+      "text": "don't 是 do not 的缩写，放在动词 like 前面，构成一般现在时的否定句，表示“不喜欢”。"
+    },
+    {
+      "title": "and 连接两个并列宾语",
+      "text": "autumn 和 winter 由 and 连接，共同作 like 的宾语，指两个并列的季节对象；在否定句中，若两者都被否定，仍可用 and 并列。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话者本人，是句子动作的发出者。"
+    },
+    {
+      "text": "don't like",
+      "role": "谓语",
+      "explanation": "由助动词否定形式 don't 加实义动词 like 构成，表示“不喜欢”。"
+    },
+    {
+      "text": "autumn and winter",
+      "role": "宾语",
+      "explanation": "由两个并列名词构成，是 like 这个动作的对象，指秋天和冬天两个季节。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "don't",
+      "meaning": "不（=do not）",
+      "pos": "助动词（否定缩写）",
+      "phonetic": "/dəʊnt/"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢",
+      "pos": "动词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "autumn",
+      "meaning": "秋天",
+      "pos": "名词",
+      "phonetic": "/ˈɔːtəm/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，与",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "winter.",
+      "meaning": "冬天",
+      "pos": "名词",
+      "phonetic": "/ˈwɪntə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "陈述的主体，也就是“不喜欢”这个动作的发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "don't like",
+      "relation": "核心谓语，说明主语对后续对象的否定态度",
+      "meaning": "不喜欢"
+    },
+    {
+      "text": "autumn and winter.",
+      "relation": "动作的对象，也就是被主语否定喜欢的两个并列季节",
+      "meaning": "秋天和冬天。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-53",
+  "sentenceId": "nce-1-lesson-053-sentence-011",
+  "sentenceOrder": 11,
+  "english": "I don't like autumn and winter.",
+  "lesson": "Lesson 53 An interesting climate",
+  "notes": [
+    {
+      "title": "否定式 don't like",
+      "text": "don't 是 do not 的缩写，放在动词 like 前面，构成一般现在时的否定句，表示“不喜欢”。"
+    },
+    {
+      "title": "and 连接两个并列宾语",
+      "text": "autumn 和 winter 由 and 连接，共同作 like 的宾语，指两个并列的季节对象；在否定句中，若两者都被否定，仍可用 and 并列。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析的翻译、成分划分、单词标注均符合句子语法规范与语境，仅存在一处细节疏漏：单词表中标注的 winter 条目误带上了句末句号，需要修正以保证单词标注的准确性。（非逐句人工审核）"
+}

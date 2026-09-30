@@ -1,0 +1,209 @@
+{
+  "chinese": "是的，我要她到我的办公室来。告诉她马上来。",
+  "intent": "回应是否要找对方说话，明确提出要让对方到办公室并传达立刻前来的要求。",
+  "comparison": {
+    "chinese": "中文说“我要她到我的办公室来”和“告诉她马上来”，都是把要求的对象、动作、地点和时间按顺序直接讲出来。",
+    "english": "英文用 I want her to come... 和 Tell her to come...，用 her 作 want 和 tell 的对象，再接 to come 说明要她做什么，后接地点或时间状语补充要求。",
+    "steps": [
+      {
+        "label": "先交代对象，再说动作",
+        "text": "I want her... 与 Tell her...",
+        "explanation": "her 分别是 want 和 tell 的宾语，先说明要求传达给谁，再用 to come 引出动作内容。"
+      },
+      {
+        "label": "动作后补地点和时间",
+        "text": "to come to my office / come at once",
+        "explanation": "come 后面接 to my office 说明来的目的地，at once 说明时间要求是立刻，都跟在动作后面补充。"
+      },
+      {
+        "label": "两句共用一个动作内容",
+        "text": "her to come... / her to come...",
+        "explanation": "两个分句都以 to come 为核心动作，前一句补地点，后一句补时间，形成递进的要求。"
+      }
+    ],
+    "takeaway": "理解这类句子时，先抓住 want/tell sb. to do 的框架，再分别补充地点或时间，不要把 to come 拆成与对象无关的独立目的。"
+  },
+  "backbone": {
+    "text": "I want her to come to my office. Tell her to come at once.",
+    "meaning": "我希望她来我的办公室，并让听话人立刻把这个要求转告她。"
+  },
+  "structureNotes": [
+    {
+      "title": "want/tell 后接复合宾语",
+      "text": "want 和 tell 都可接“人 + to do”，表示希望某人做某事、吩咐某人做某事；这里 her 是被要求的对象，to come 是要执行的动作。"
+    },
+    {
+      "title": "地点与时间状语跟在动作后",
+      "text": "to my office 说明 come 的目的地，at once 说明 come 的紧迫程度，都是补充信息，不改变核心动作 come。"
+    },
+    {
+      "title": "两句的指令衔接",
+      "text": "第一句说出自己的意愿，第二句是让听话人去执行传达，两句围绕“让她马上来办公室”这一指令。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I want her to come",
+      "role": "主谓宾宾补结构",
+      "explanation": "I 是主语，want 是谓语，her 是宾语，to come 是宾语补足语，说明希望她做的动作。"
+    },
+    {
+      "text": "to my office",
+      "role": "地点状语",
+      "explanation": "说明 come 这个动作要到达的地点是办公室。"
+    },
+    {
+      "text": "Tell her to come",
+      "role": "祈使句主谓宾宾补结构",
+      "explanation": "省略了第二人称主语 you，Tell 是谓语，her 是宾语，to come 是宾语补足语，是对听话人发出的指令。"
+    },
+    {
+      "text": "at once",
+      "role": "时间状语",
+      "explanation": "修饰 come，要求这个动作立刻发生。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes,",
+      "meaning": "是的",
+      "pos": "感叹词",
+      "phonetic": "/jes/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要，希望",
+      "pos": "动词",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "her",
+      "meaning": "她（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɜː/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号）",
+      "pos": "小品词",
+      "phonetic": "/tuː; tə/"
+    },
+    {
+      "text": "come",
+      "meaning": "来",
+      "pos": "动词",
+      "phonetic": "/kʌm/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向",
+      "pos": "介词",
+      "phonetic": "/tuː; tə/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "office.",
+      "meaning": "办公室",
+      "pos": "名词",
+      "phonetic": "/ˈɒfɪs/"
+    },
+    {
+      "text": "Tell",
+      "meaning": "告诉",
+      "pos": "动词",
+      "phonetic": "/tel/"
+    },
+    {
+      "text": "her",
+      "meaning": "她（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɜː/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号）",
+      "pos": "小品词",
+      "phonetic": "/tuː; tə/"
+    },
+    {
+      "text": "come",
+      "meaning": "来",
+      "pos": "动词",
+      "phonetic": "/kʌm/"
+    },
+    {
+      "text": "at",
+      "meaning": "（与 once 构成固定短语 at once）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "once.",
+      "meaning": "一次；（at once 表示立刻）",
+      "pos": "副词",
+      "phonetic": "/wʌns/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes,",
+      "meaning": "是的",
+      "relation": "回应上文提问，表示肯定"
+    },
+    {
+      "text": "I want her to come",
+      "meaning": "我要她来",
+      "relation": "主句核心，说明说话人的要求"
+    },
+    {
+      "text": "to my office.",
+      "meaning": "到我的办公室",
+      "relation": "补充说明 come 的目的地"
+    },
+    {
+      "text": "Tell her to come",
+      "meaning": "告诉她来",
+      "relation": "对听话人发出的指令，要求向对方转达要求"
+    },
+    {
+      "text": "at once.",
+      "meaning": "马上",
+      "relation": "补充说明 come 的时间要求"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-105",
+  "sentenceId": "nce-1-lesson-105-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Yes, I want her to come to my office. Tell her to come at once.",
+  "lesson": "Lesson 105 Full of mistakes",
+  "notes": [
+    {
+      "title": "want/tell 后接复合宾语",
+      "text": "want 和 tell 都可接“人 + to do”，表示希望某人做某事、吩咐某人做某事；这里 her 是被要求的对象，to come 是要执行的动作。"
+    },
+    {
+      "title": "地点与时间状语跟在动作后",
+      "text": "to my office 说明 come 的目的地，at once 说明 come 的紧迫程度，都是补充信息，不改变核心动作 come。"
+    },
+    {
+      "title": "两句的指令衔接",
+      "text": "第一句说出自己的意愿，第二句是让听话人去执行传达，两句围绕“让她马上来办公室”这一指令。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有解析整体准确：两个祈使句、复合宾语结构、状语补充关系、词义与音标均符合原文语境，未发现Where类主语误判、状语从句误用、非谓语目的混淆、单复数或人称时态错误。仅个别表述可更准确。（非逐句人工审核）"
+}

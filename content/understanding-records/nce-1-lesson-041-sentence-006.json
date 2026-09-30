@@ -1,0 +1,81 @@
+{
+  "chinese": "一块奶酪。",
+  "intent": "说明某个容器里装的物品是一块奶酪，用来回应前文询问里面有什么的问题。",
+  "comparison": null,
+  "backbone": {
+    "text": "A piece of cheese.",
+    "meaning": "回应前文“What's in it?”的询问，指代容器内装有的一份切块形态的奶酪"
+  },
+  "parts": [
+    {
+      "text": "A piece of",
+      "relation": "描述后面奶酪的数量形态",
+      "meaning": "一块（计量事物的单位表达）"
+    },
+    {
+      "text": "cheese.",
+      "relation": "说明具体是什么物品",
+      "meaning": "奶酪"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "不可数名词计量",
+      "text": "cheese作为不可数名词，不能直接搭配不定冠词a，需要用a piece of的单位短语来表达单份的数量。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A piece of",
+      "role": "数量单位短语",
+      "explanation": "用来量化不可数的固体食物，表明物品是按切块形态计数的一份。"
+    },
+    {
+      "text": "cheese.",
+      "role": "被修饰的主体名词",
+      "explanation": "点明这个单位短语所计量的具体事物。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "一（份）",
+      "pos": "indefinite article",
+      "phonetic": "/ə/",
+      "text": "A"
+    },
+    {
+      "meaning": "块、片",
+      "pos": "noun",
+      "phonetic": "/piːs/",
+      "text": "piece"
+    },
+    {
+      "meaning": "（表示计量关联）的",
+      "pos": "preposition",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "奶酪",
+      "pos": "noun",
+      "phonetic": "/tʃiːz/",
+      "text": "cheese."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-41",
+  "sentenceId": "nce-1-lesson-041-sentence-006",
+  "sentenceOrder": 6,
+  "english": "A piece of cheese.",
+  "lesson": "Lesson 41 Penny's bag",
+  "notes": [
+    {
+      "title": "不可数名词计量",
+      "text": "cheese作为不可数名词，不能直接搭配不定冠词a，需要用a piece of的单位短语来表达单份的数量。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在少量细节表述偏差，可通过补丁修正完善。（非逐句人工审核）"
+}

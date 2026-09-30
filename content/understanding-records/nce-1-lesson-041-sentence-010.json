@@ -1,0 +1,81 @@
+{
+  "chinese": "一瓶牛奶。",
+  "intent": "通过容器量词搭配名词，清晰表述指定数量的牛奶，属于物品计量的常用说明表达。",
+  "comparison": null,
+  "backbone": {
+    "text": "A bottle of milk.",
+    "meaning": "说明整体对应一瓶牛奶这个完整的计量物品概念。"
+  },
+  "parts": [
+    {
+      "text": "A bottle of",
+      "relation": "修饰后面的牛奶，说明牛奶的计量方式和数量",
+      "meaning": "表示“一瓶”这个容器计量的数量概念"
+    },
+    {
+      "text": "milk.",
+      "relation": "点明被计量的核心物品",
+      "meaning": "指代牛奶这个物质本身"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "物质名词计量方式",
+      "text": "牛奶是不可数物质名词，不能直接搭配a，需要借助表示容器的bottle搭配of，引出对应的物质来完成数量表述。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A bottle of",
+      "role": "容器计量短语",
+      "explanation": "用来表示以瓶子为容器的一份定量单位，作为整体修饰后面的不可数名词。"
+    },
+    {
+      "text": "milk.",
+      "role": "被修饰的物质名词",
+      "explanation": "明确这份定量单位对应的具体物品是什么。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "一（份、个，用于可数单数名词前）",
+      "pos": "冠词",
+      "phonetic": "/ə/ 或 /eɪ/",
+      "text": "A"
+    },
+    {
+      "meaning": "瓶子",
+      "pos": "名词",
+      "phonetic": "/ˈbɒtl/",
+      "text": "bottle"
+    },
+    {
+      "meaning": "属于……的（用于衔接计量容器和对应物质）",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "牛奶",
+      "pos": "名词",
+      "phonetic": "/mɪlk/",
+      "text": "milk."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-41",
+  "sentenceId": "nce-1-lesson-041-sentence-010",
+  "sentenceOrder": 10,
+  "english": "A bottle of milk.",
+  "lesson": "Lesson 41 Penny's bag",
+  "notes": [
+    {
+      "title": "物质名词计量方式",
+      "text": "牛奶是不可数物质名词，不能直接搭配a，需要借助表示容器的bottle搭配of，引出对应的物质来完成数量表述。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本准确，仅存在局部表述疏漏与规范适配问题，可明确修正。（非逐句人工审核）"
+}

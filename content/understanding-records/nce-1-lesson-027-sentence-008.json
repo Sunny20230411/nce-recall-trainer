@@ -1,0 +1,111 @@
+{
+  "chinese": "扶手椅靠近桌子。",
+  "intent": "说明扶手椅所在的位置，交代客厅内家具的摆放布局。",
+  "comparison": null,
+  "backbone": {
+    "text": "The armchairs are near the table",
+    "meaning": "扶手椅在桌子附近"
+  },
+  "parts": [
+    {
+      "text": "The armchairs",
+      "relation": "描述摆放位置的主体",
+      "meaning": "前文提到过的那些扶手椅"
+    },
+    {
+      "text": "are",
+      "relation": "连接主体和位置的系动词",
+      "meaning": "处于（某种状态/位置）"
+    },
+    {
+      "text": "near the table.",
+      "relation": "补充说明扶手椅的具体位置",
+      "meaning": "在桌子的旁边"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "定冠词The的指代作用",
+      "text": "句首的The指代前一句刚提到的扶手椅，不用重新说明是哪些扶手椅，听话者能直接对应前文提到的物品。"
+    },
+    {
+      "title": "位置描述的表达逻辑",
+      "text": "用be动词加near加地点名词的组合，直接说明事物的相对位置，不需要额外加表示动作的词汇就可以清晰交代静态摆放状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The armchairs",
+      "role": "名词短语作主语",
+      "explanation": "点明本句要描述位置的对象，也就是前文提到的那些扶手椅"
+    },
+    {
+      "text": "are",
+      "role": "系动词作谓语",
+      "explanation": "用来连接主语和位置描述，表明事物所处的状态"
+    },
+    {
+      "text": "near the table",
+      "role": "介词短语作表语",
+      "explanation": "说明扶手椅所在的具体相对位置，完成整个位置信息的传递"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这个/这些（定冠词，指代前文提及的特定事物）",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "扶手椅（复数形式）",
+      "pos": "noun",
+      "phonetic": "/ˈɑːmtʃeəz/",
+      "text": "armchairs"
+    },
+    {
+      "meaning": "处于（某种状态/位置）",
+      "pos": "verb",
+      "phonetic": "/ɑː/",
+      "text": "are"
+    },
+    {
+      "meaning": "在……附近",
+      "pos": "preposition",
+      "phonetic": "/nɪə/",
+      "text": "near"
+    },
+    {
+      "meaning": "这个/那个（定冠词，特指当前语境下的桌子）",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "桌子",
+      "pos": "noun",
+      "phonetic": "/ˈteɪbl/",
+      "text": "table."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-27",
+  "sentenceId": "nce-1-lesson-027-sentence-008",
+  "sentenceOrder": 8,
+  "english": "The armchairs are near the table.",
+  "lesson": "Lesson 27 Mrs. Smith's living room",
+  "notes": [
+    {
+      "title": "定冠词The的指代作用",
+      "text": "句首的The指代前一句刚提到的扶手椅，不用重新说明是哪些扶手椅，听话者能直接对应前文提到的物品。"
+    },
+    {
+      "title": "位置描述的表达逻辑",
+      "text": "用be动词加near加地点名词的组合，直接说明事物的相对位置，不需要额外加表示动作的词汇就可以清晰交代静态摆放状态。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合解析规范，仅存在局部细节小瑕疵可修正，未发现核心错误（非逐句人工审核）"
+}

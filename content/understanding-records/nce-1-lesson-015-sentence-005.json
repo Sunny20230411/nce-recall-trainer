@@ -1,0 +1,74 @@
+{
+  "chinese": "请出示你们的护照。",
+  "intent": "场景中海关或边检人员向在场人员提出要求，让对方出示自己的护照以完成核验手续。",
+  "backbone": {
+    "text": "Your passports, please.",
+    "meaning": "（请提供）你们的护照。"
+  },
+  "parts": [
+    {
+      "text": "Your passports,",
+      "relation": "动作指向的核心物品，也就是要求对方提交的对象",
+      "meaning": "你们的护照"
+    },
+    {
+      "text": "please.",
+      "relation": "补充表达请求的礼貌语气",
+      "meaning": "请"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略式礼貌请求",
+      "text": "这句是口语场景下的常用省略表达，省略了核心谓语动作“出示/提供”，直接把要求的物品放在前面，后面加please表示礼貌请求，属于通关、办理手续等场景的高频短句。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Your passports",
+      "role": "请求指向的核心事物主体",
+      "explanation": "点明要求对方拿出的具体物品是多人持有的多本护照"
+    },
+    {
+      "text": ", please.",
+      "role": "礼貌语气标记",
+      "explanation": "放在名词短语后缓和指令的生硬感，让直接索要物品的表达变成客气的请求"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "你们的",
+      "pos": "限定词",
+      "phonetic": "/jɔː(r)/",
+      "text": "Your"
+    },
+    {
+      "meaning": "护照",
+      "pos": "名词（复数）",
+      "phonetic": "/ˈpɑːspɔːts/",
+      "text": "passports,"
+    },
+    {
+      "meaning": "请",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/",
+      "text": "please."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-15",
+  "sentenceId": "nce-1-lesson-015-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Your passports, please.",
+  "lesson": "Lesson 15 Your passports, please.",
+  "notes": [
+    {
+      "title": "省略式礼貌请求",
+      "text": "这句是口语场景下的常用省略表达，省略了核心谓语动作“出示/提供”，直接把要求的物品放在前面，后面加please表示礼貌请求，属于通关、办理手续等场景的高频短句。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原有解析整体适配场景需求，仅存在少量细节标注偏差，可通过补丁修正完善。（非逐句人工审核）"
+}

@@ -1,0 +1,124 @@
+{
+  "chinese": "让我看看你的舌头。说，啊。",
+  "intent": "传达医生对患者下达的两项口头检查指令，要求患者配合完成检查动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "Show me your tongue. Say, Ah.",
+    "meaning": "让患者伸出舌头给医生查看，同时发“啊”的声音配合咽喉部位检查。"
+  },
+  "structureNotes": [
+    {
+      "title": "祈使句的直接指令表达",
+      "text": "两个分句都以动词原形 Show、Say 开头，面向听话者（患者）直接下达指令，没有额外的主语，符合口语中口头要求的简洁表达习惯，语气直接、明确。"
+    },
+    {
+      "title": "双宾语结构的语义逻辑",
+      "text": "Show 后先接间接宾语 me（指代医生本人）说明指令动作的接收者，再接直接宾语 your tongue 说明要展示的对象，与汉语“让我看看你的舌头”的表达逻辑匹配，直接将动作和对象串联起来。"
+    },
+    {
+      "title": "拟声短句的口语功能",
+      "text": "Say, Ah. 属于检查场景下的固定口语要求，Ah 是检查咽喉时需发出的开口音，直接用短句给出具体发音要求，无需多余解释。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Show",
+      "role": "祈使谓语动词",
+      "explanation": "用原形开头下达指令，含义为“出示、给……看”，是第一个祈使分句的动作核心。"
+    },
+    {
+      "text": "me",
+      "role": "间接宾语",
+      "explanation": "指代说话人（即医生本人），说明“展示”这个动作是指向医生完成的。"
+    },
+    {
+      "text": "your tongue.",
+      "role": "直接宾语",
+      "explanation": "指代要展示的具体对象是患者的舌头，是 Show 动作指向的内容。"
+    },
+    {
+      "text": "Say,",
+      "role": "祈使谓语动词",
+      "explanation": "用原形开头下达第二个指令，含义为“说出、发出”，是第二个祈使分句的动作核心。"
+    },
+    {
+      "text": "Ah.",
+      "role": "直接宾语（拟声内容）",
+      "explanation": "是要求发出的具体发音，对应检查时需要发出的开口“啊”音，作为动词Say的直接宾语，说明要说出的具体内容。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "给……看，展示；动词原形，用于祈使句开头",
+      "pos": "动词",
+      "phonetic": "/ʃəʊ/",
+      "text": "Show"
+    },
+    {
+      "meaning": "我（I 的宾格形式）",
+      "pos": "代词",
+      "phonetic": "/miː/",
+      "text": "me"
+    },
+    {
+      "meaning": "你的，你们的",
+      "pos": "限定词（物主形容词）",
+      "phonetic": "/jɔː(r)/",
+      "text": "your"
+    },
+    {
+      "meaning": "舌头",
+      "pos": "名词",
+      "phonetic": "/tʌŋ/",
+      "text": "tongue."
+    },
+    {
+      "meaning": "说，讲；动词原形，用于祈使句开头",
+      "pos": "动词",
+      "phonetic": "/seɪ/",
+      "text": "Say,"
+    },
+    {
+      "meaning": "啊（开口音，检查咽喉时的发声）",
+      "pos": "感叹词",
+      "phonetic": "/ɑː/",
+      "text": "Ah."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Show me your tongue.",
+      "relation": "第一句祈使指令，要求患者向医生展示舌头，完成舌部检查的准备动作。",
+      "meaning": "让我看看你的舌头"
+    },
+    {
+      "text": "Say, Ah.",
+      "relation": "第二句祈使指令，要求患者发“啊”的开口音，配合完成咽喉部位的检查。",
+      "meaning": "说，啊"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-61",
+  "sentenceId": "nce-1-lesson-061-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Show me your tongue. Say, Ah.",
+  "lesson": "Lesson 61 A bad cold",
+  "notes": [
+    {
+      "title": "祈使句的直接指令表达",
+      "text": "两个分句都以动词原形 Show、Say 开头，面向听话者（患者）直接下达指令，没有额外的主语，符合口语中口头要求的简洁表达习惯，语气直接、明确。"
+    },
+    {
+      "title": "双宾语结构的语义逻辑",
+      "text": "Show 后先接间接宾语 me（指代医生本人）说明指令动作的接收者，再接直接宾语 your tongue 说明要展示的对象，与汉语“让我看看你的舌头”的表达逻辑匹配，直接将动作和对象串联起来。"
+    },
+    {
+      "title": "拟声短句的口语功能",
+      "text": "Say, Ah. 属于检查场景下的固定口语要求，Ah 是检查咽喉时需发出的开口音，直接用短句给出具体发音要求，无需多余解释。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合医学问诊场景下祈使句的功能与双宾语结构语法规则，仅存在两处可修正的小问题：一是间接宾语指代错误，me指代医生本人而非听话的患者，原文表述混淆了指令的发出者与接收者；二是拟声词Ah的句法角色标注有误，它是动词Say的直接宾语（说出的具体内容）而非呼唤语/拟声补语。其余翻译、词义、音标、场景释义均准确无误。（非逐句人工审核）"
+}

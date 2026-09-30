@@ -1,0 +1,131 @@
+{
+  "chinese": "我也没有。",
+  "intent": "回应别人的状态，说明自己和对方一样，同样没有零钱/物品。",
+  "comparison": {
+    "chinese": "中文把“也”放在否定词前面，说“我也没有”；英文先说明自己没有，再用 either 放在句末表示同样情况。",
+    "english": "I haven't got any either.",
+    "steps": [
+      {
+        "label": "先回应核心事实",
+        "text": "haven't got any",
+        "explanation": "表示“没有（任何零钱）”，是对前面“没有零钱”这一情况的直接回应。"
+      },
+      {
+        "label": "再补充同样情况",
+        "text": "either",
+        "explanation": "放在否定句末尾，说明自己和对方情况相同，相当于中文里的“也”，但位置在句末。"
+      }
+    ],
+    "takeaway": "否定句中表示“也”用 either，放在句末；中文习惯把“也”放在否定词前，英文结构刚好相反。"
+  },
+  "backbone": {
+    "text": "I haven't got any.",
+    "meaning": "我一点也没有（零钱）。"
+  },
+  "structureNotes": [
+    {
+      "title": "have got 表示“有”",
+      "text": "haven't got = don't have，是英式口语中“没有”的常用说法，any 指代前文提到的 small change（零钱），避免重复。"
+    },
+    {
+      "title": "either 用于否定句末尾",
+      "text": "either 表示“也”，只能用在否定句中，放在句末；肯定句中对应的“也”是 too。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人本人。"
+    },
+    {
+      "text": "haven't got",
+      "role": "谓语",
+      "explanation": "have got 的否定形式，在本语境中表示“拥有（零钱）”的否定。"
+    },
+    {
+      "text": "any",
+      "role": "宾语",
+      "explanation": "指代前文提到的 small change，避免重复。"
+    },
+    {
+      "text": "either",
+      "role": "状语",
+      "explanation": "表示“也（不）”，说明自己和前面提到的人情况相同。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "haven't",
+      "meaning": "没有（have not 的缩写）",
+      "pos": "助动词（have not 的缩写）",
+      "phonetic": "/ˈhævnt/"
+    },
+    {
+      "text": "got",
+      "meaning": "拥有（get 的过去分词）",
+      "pos": "动词（get 的过去分词）",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "any",
+      "meaning": "任何（事物/零钱）",
+      "pos": "代词",
+      "phonetic": "/ˈeni/"
+    },
+    {
+      "text": "either.",
+      "meaning": "也（用于否定句）",
+      "pos": "副词",
+      "phonetic": "/ˈaɪðə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "句子主语，指代说话者本人",
+      "meaning": "我"
+    },
+    {
+      "text": "haven't got",
+      "relation": "否定谓语，说明说话者不具备某物",
+      "meaning": "没有"
+    },
+    {
+      "text": "any",
+      "relation": "宾语，指代前文提到的零钱",
+      "meaning": "任何（零钱）"
+    },
+    {
+      "text": "either.",
+      "relation": "附加说明，表明说话者和对方状态一致",
+      "meaning": "也"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-113",
+  "sentenceId": "nce-1-lesson-113-sentence-006",
+  "sentenceOrder": 6,
+  "english": "I haven't got any either.",
+  "lesson": "Lesson 113 Small change",
+  "notes": [
+    {
+      "title": "have got 表示“有”",
+      "text": "haven't got = don't have，是英式口语中“没有”的常用说法，any 指代前文提到的 small change（零钱），避免重复。"
+    },
+    {
+      "title": "either 用于否定句末尾",
+      "text": "either 表示“也”，只能用在否定句中，放在句末；肯定句中对应的“也”是 too。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合原句含义与上下文，主干、词性、指代表述基本准确；仅需将句末词汇分块的音标改为英式形式，并补回词汇表中遗漏的句号以保持原文一致。（非逐句人工审核）"
+}

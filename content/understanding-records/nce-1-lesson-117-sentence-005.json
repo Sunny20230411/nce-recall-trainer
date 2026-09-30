@@ -1,0 +1,122 @@
+{
+  "chinese": "‘他在吃一块蛋糕，’我回答。",
+  "intent": "转述自己刚刚给出的回应，说明丈夫提问时对方正在吃的东西，还原夫妻二人观察家中小孩的对话场景。",
+  "comparison": {
+    "chinese": "中文习惯把提示语放在引语前面，说成“我回答：‘他在吃一块蛋糕。’”。",
+    "english": "英文常把直接引语提前，再用逗号引出said/answered等提示语，如'He's eating a cake,' I answered.",
+    "steps": [
+      {
+        "label": "引语前置",
+        "text": "'He's eating a cake,' I answered.",
+        "explanation": "把需要传达的回答内容放在句首，提示语I answered后置，符合英语直接引语转述的常见写法，先呈现核心内容再说明说话人。"
+      },
+      {
+        "label": "提示语后置",
+        "text": "I answered, 'He's eating a cake.'",
+        "explanation": "若把I answered放句首，意思不变，只是先交代说话人再引出引语，引语首字母需保持大写。"
+      }
+    ],
+    "takeaway": "直接引语和提示语的先后顺序在英汉两种语言里习惯不同，读的时候先抓住引语内容，再确认是谁说的，不要把后置提示语理解成独立的新句子。"
+  },
+  "backbone": {
+    "text": "I answered that he was eating a cake.",
+    "meaning": "我说他当时正在吃一块蛋糕。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语与转述提示语",
+      "text": "引号内是说话人说出的原话，I answered是提示语，交代说话人和动作；引语末的逗号放在引号内部，英文书写格式如此。"
+    },
+    {
+      "title": "现在进行时在转述中的照应",
+      "text": "引语里He's eating是现在进行时，描述当时正在进行的动作；还原转述时按主句answered的过去时间照应，理解为过去正在吃。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'He's eating a cake,'",
+      "role": "直接引语宾语内容",
+      "explanation": "引号内的直接引语，是answered所传达的具体回答内容，使用现在进行时描述当时正在进行的动作。"
+    },
+    {
+      "text": "I",
+      "role": "主句主语",
+      "explanation": "指说话人本人，是执行回答这个动作的人。"
+    },
+    {
+      "text": "answered.",
+      "role": "主句谓语",
+      "explanation": "表示“回答”的动作，用一般过去时，说明这是说话人过去做出的回应。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'He's",
+      "meaning": "He是主格代词，意为“他”；此处He's是He is的缩写，is为系动词，和eating共同构成现在进行时。",
+      "pos": "代词；系动词缩写",
+      "phonetic": "/hiːz/"
+    },
+    {
+      "text": "eating",
+      "meaning": "吃（现在分词，和be动词构成现在进行时）",
+      "pos": "动词（现在分词）",
+      "phonetic": "/ˈiːtɪŋ/"
+    },
+    {
+      "text": "a",
+      "meaning": "一块（不定冠词，表泛指单数）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "cake,'",
+      "meaning": "蛋糕",
+      "pos": "名词",
+      "phonetic": "/keɪk/"
+    },
+    {
+      "text": "I",
+      "meaning": "我（主格代词）",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "answered.",
+      "meaning": "回答，回应",
+      "pos": "动词（一般过去式）",
+      "phonetic": "/ˈɑːnsəd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "'He's eating a cake,'",
+      "meaning": "‘他在吃一块蛋糕，’",
+      "relation": "直接引语内容，对应转述的核心回答"
+    },
+    {
+      "text": "I answered.",
+      "meaning": "我回答。",
+      "relation": "提示语，交代说话人和回应动作，补充说明引语是谁说的"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-117",
+  "sentenceId": "nce-1-lesson-117-sentence-005",
+  "sentenceOrder": 5,
+  "english": "'He's eating a cake,' I answered.",
+  "lesson": "Lesson 117 Tommy's breakfast",
+  "notes": [
+    {
+      "title": "直接引语与转述提示语",
+      "text": "引号内是说话人说出的原话，I answered是提示语，交代说话人和动作；引语末的逗号放在引号内部，英文书写格式如此。"
+    },
+    {
+      "title": "现在进行时在转述中的照应",
+      "text": "引语里He's eating是现在进行时，描述当时正在进行的动作；还原转述时按主句answered的过去时间照应，理解为过去正在吃。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确贴合对话场景，直接引语与提示语的结构划分、现在进行时的语境照应、英汉引语语序对比均符合事实。仅存在两处可修正的小问题：一是He's条目将代词与He is的缩写义合并标注，主格代词he与系动词is在语法成分上需区分开；二是引语前置步骤的explanation表述略有重复，可更清晰地说明后置提示语的语序特点。（非逐句人工审核）"
+}

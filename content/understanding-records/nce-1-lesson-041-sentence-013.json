@@ -1,0 +1,104 @@
+{
+  "chinese": "四分之一磅茶叶。",
+  "intent": "口语化说明茶叶的具体计量数量，用于商店购物、清点商品品类数量等日常场景下的物品计量表述。",
+  "comparison": null,
+  "backbone": {
+    "text": "A quarter of a pound of tea.",
+    "meaning": "说明对应茶叶的重量规格为四分之一磅，是完整的物品计量表述。"
+  },
+  "parts": [
+    {
+      "text": "A quarter",
+      "relation": "描述占后续基准重量的比例大小",
+      "meaning": "表示四分之一的比例数量"
+    },
+    {
+      "text": "of a pound of",
+      "relation": "限定该比例对应的基准重量单位",
+      "meaning": "作为计量基准的一磅"
+    },
+    {
+      "text": "tea.",
+      "relation": "衔接重量计量所指向的具体物品",
+      "meaning": "该计量对应的物品为茶叶"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "多重of的计量逻辑",
+      "text": "本句连续用两个of衔接层级关系，先说明占一磅的四分之一，再指向对应的物品茶叶，符合英文不可数商品的计量表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A quarter of",
+      "role": "比例限定短语",
+      "explanation": "用来表示某一基准总量的四分之一分量，明确占比关系。"
+    },
+    {
+      "text": "a pound of tea",
+      "role": "带计量属性的名词短语",
+      "explanation": "以磅为基准重量单位，搭配所属物品tea，说明计量的对象。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "一个，此处引出数量表述",
+      "pos": "determiner",
+      "phonetic": "/ə/",
+      "text": "A"
+    },
+    {
+      "meaning": "四分之一",
+      "pos": "noun",
+      "phonetic": "/ˈkwɔːtə(r)/",
+      "text": "quarter"
+    },
+    {
+      "meaning": "（表示数量关系）属于……总量中的部分",
+      "pos": "preposition",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "一，此处引出重量单位",
+      "pos": "determiner",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "磅（重量单位）",
+      "pos": "noun",
+      "phonetic": "/paʊnd/",
+      "text": "pound"
+    },
+    {
+      "meaning": "（表示属性关系）归属于某计量的",
+      "pos": "preposition",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "茶叶",
+      "pos": "noun",
+      "phonetic": "/tiː/",
+      "text": "tea."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-41",
+  "sentenceId": "nce-1-lesson-041-sentence-013",
+  "sentenceOrder": 13,
+  "english": "A quarter of a pound of tea.",
+  "lesson": "Lesson 41 Penny's bag",
+  "notes": [
+    {
+      "title": "多重of的计量逻辑",
+      "text": "本句连续用两个of衔接层级关系，先说明占一磅的四分之一，再指向对应的物品茶叶，符合英文不可数商品的计量表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原学习内容基本符合解析规范，仅存在局部指代说明模糊、个别语义表述不够精准的可修正问题，调整后内容合规准确。（非逐句人工审核）"
+}

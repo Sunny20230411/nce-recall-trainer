@@ -1,0 +1,219 @@
+{
+  "chinese": "垃圾筐已经被安放在树下，但人们仍然到处乱扔垃圾。",
+  "intent": "描述林地乱扔垃圾问题：虽已设置垃圾筐，人们仍到处扔垃圾。",
+  "comparison": {
+    "chinese": "前半句说明垃圾筐已经被安放在树下，后半句用转折指出人们仍随意丢弃垃圾；先讲已采取措施，再讲问题依旧存在。",
+    "english": "The second clause uses people still throw their rubbish everywhere as the unexpected continuation after the disposal facilities have already been installed.",
+    "steps": [
+      {
+        "label": "先看前半句",
+        "text": "Litter baskets have been placed under the trees",
+        "explanation": "主语是接受动作的litter baskets，have been placed是现在完成时被动，表示它们已被安放，under the trees说明位置。"
+      },
+      {
+        "label": "转折连接",
+        "text": "but",
+        "explanation": "but把两件事连在一起：设施已到位，却没有达到预期效果。"
+      },
+      {
+        "label": "后半句信息",
+        "text": "people still throw their rubbish everywhere",
+        "explanation": "people是主动扔垃圾的人，everywhere说明乱扔地点不固定；still强调尽管有筐，行为没有改变。"
+      }
+    ],
+    "takeaway": "两个分句主语和视角不同，但通过but形成对照，阅读时先抓住两个事实，再体会让步转折关系。"
+  },
+  "backbone": {
+    "text": "Litter baskets have been placed under the trees, but people still throw rubbish everywhere.",
+    "meaning": "虽然垃圾筐已经被安放在树下，人们还是到处扔垃圾。"
+  },
+  "structureNotes": [
+    {
+      "title": "被动语态表设施就位",
+      "text": "have been placed 是现在完成时被动，强调垃圾筐已被安放好；不需要说出是谁安放，重点在设施已存在。"
+    },
+    {
+      "title": "but 连接转折分句",
+      "text": "but 将“设施已设”与“行为依旧”连起来，后半句是对前半句预期的反转。"
+    },
+    {
+      "title": "everywhere 作地点状语",
+      "text": "everywhere 修饰throw，表示垃圾被扔到各处，而不是固定扔到筐里。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Litter baskets have been placed under the trees",
+      "role": "被动语态分句",
+      "explanation": "主语是litter baskets，have been placed是现在完成时被动，表示它们已被安放，under the trees说明位置。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "连接两个分句，体现前后事实的对照：设施已备但乱扔仍在继续。"
+    },
+    {
+      "text": "people still throw their rubbish everywhere",
+      "role": "主动语态分句",
+      "explanation": "people是动作发出者，throw their rubbish是核心动作，everywhere说明乱扔范围。"
+    },
+    {
+      "text": "Litter",
+      "role": "名词作定语",
+      "explanation": "修饰baskets，说明筐的用途是装垃圾，本身是名词，不是形容词。"
+    },
+    {
+      "text": "have been placed",
+      "role": "被动谓语",
+      "explanation": "由have been加过去分词placed构成，现在完成时被动，表示动作已完成且主语是动作承受者。"
+    },
+    {
+      "text": "under the trees",
+      "role": "介词短语",
+      "explanation": "说明垃圾筐放置的位置。"
+    },
+    {
+      "text": "still",
+      "role": "副词",
+      "explanation": "强调尽管有筐，人们仍然乱扔垃圾。"
+    },
+    {
+      "text": "their rubbish",
+      "role": "动词宾语",
+      "explanation": "指人们扔的垃圾。"
+    },
+    {
+      "text": "everywhere",
+      "role": "副词",
+      "explanation": "说明扔垃圾的地点遍布各处。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Litter",
+      "meaning": "垃圾（名词，此处作定语修饰baskets）",
+      "pos": "noun",
+      "phonetic": "/ˈlɪtə/"
+    },
+    {
+      "text": "baskets",
+      "meaning": "筐，篮",
+      "pos": "noun",
+      "phonetic": "/ˈbɑːskɪts/"
+    },
+    {
+      "text": "have",
+      "meaning": "已经（助动词，构成完成时被动）",
+      "pos": "auxiliary verb",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "been",
+      "meaning": "被（助动词，构成被动）",
+      "pos": "auxiliary verb",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "placed",
+      "meaning": "放置（过去分词）",
+      "pos": "past participle",
+      "phonetic": "/pleɪst/"
+    },
+    {
+      "text": "under",
+      "meaning": "在……下面",
+      "pos": "preposition",
+      "phonetic": "/ˈʌndə/"
+    },
+    {
+      "text": "the",
+      "meaning": "定指（那些树）",
+      "pos": "article",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "trees,",
+      "meaning": "树",
+      "pos": "noun",
+      "phonetic": "/triːz/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "conjunction",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "people",
+      "meaning": "人们",
+      "pos": "noun",
+      "phonetic": "/ˈpiːpl/"
+    },
+    {
+      "text": "still",
+      "meaning": "仍然",
+      "pos": "adverb",
+      "phonetic": "/stɪl/"
+    },
+    {
+      "text": "throw",
+      "meaning": "扔",
+      "pos": "verb",
+      "phonetic": "/θrəʊ/"
+    },
+    {
+      "text": "their",
+      "meaning": "他们的",
+      "pos": "determiner",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "rubbish",
+      "meaning": "垃圾",
+      "pos": "noun",
+      "phonetic": "/ˈrʌbɪʃ/"
+    },
+    {
+      "text": "everywhere.",
+      "meaning": "到处",
+      "pos": "adverb",
+      "phonetic": "/ˈevrɪweə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Litter baskets have been placed under the trees,",
+      "meaning": "垃圾筐已经被安放在树下",
+      "relation": "描述已采取的措施与设施位置，为下文转折做铺垫"
+    },
+    {
+      "text": "but people still throw their rubbish everywhere.",
+      "meaning": "但人们仍然到处乱扔垃圾",
+      "relation": "转折后的事实：设施虽设，乱扔仍在继续"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-143",
+  "sentenceId": "nce-1-lesson-143-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Litter baskets have been placed under the trees, but people still throw their rubbish everywhere.",
+  "lesson": "Lesson 143 A walk through the woods",
+  "notes": [
+    {
+      "title": "被动语态表设施就位",
+      "text": "have been placed 是现在完成时被动，强调垃圾筐已被安放好；不需要说出是谁安放，重点在设施已存在。"
+    },
+    {
+      "title": "but 连接转折分句",
+      "text": "but 将“设施已设”与“行为依旧”连起来，后半句是对前半句预期的反转。"
+    },
+    {
+      "title": "everywhere 作地点状语",
+      "text": "everywhere 修饰throw，表示垃圾被扔到各处，而不是固定扔到筐里。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体翻译、主干、分句分析、词性、音标和词义基本准确。仅需两处微调：1) 第一个分句为现在完成时被动，原meaning漏译完成体含义“已经”；2) Litter是名词作定语，不是形容词，原meaning的“（名词作定语）”标注无误，但语义表述补充更清晰；3) 词表中trees的text误带逗号，需修正为trees，标点应归属分句而非单词本身。（非逐句人工审核）"
+}

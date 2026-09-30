@@ -1,0 +1,215 @@
+{
+  "chinese": "有英国车、法国车、德国车、意大利车、美国车和日本车。",
+  "intent": "描述参赛车辆的品牌来源覆盖范围，说明这场赛事的参赛车辆来自多个不同国家。",
+  "comparison": null,
+  "backbone": {
+    "text": "There were English cars, French cars, German cars, Italian cars, American cars and Japanese cars.",
+    "meaning": "赛事中存在来自多个不同国家的参赛汽车，和前文“赛事中有二十辆车”的描述相呼应。"
+  },
+  "structureNotes": [
+    {
+      "title": "there be句型的复数搭配",
+      "text": "这是一般过去时的there be句型，主语是后面的复数汽车集合，因此be动词使用were，不能搭配单数was。"
+    },
+    {
+      "title": "并列名词项的修饰规律",
+      "text": "每一类汽车都以“国家名称形容词 + cars”构成，最后一个并列项前用and连接，符合英语列举事物的标点使用习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There",
+      "role": "存在句引导词",
+      "explanation": "无实义，和were搭配构成存在句型，引导“某地有某物”的表述，本身不充当主语。"
+    },
+    {
+      "text": "were",
+      "role": "存在句的be动词过去式",
+      "explanation": "使用复数过去式were，和后面的复数主语cars保持数的一致，表示“（当时）存在”。"
+    },
+    {
+      "text": "English cars",
+      "role": "并列主语项1",
+      "explanation": "由英国名称形容词修饰cars，指英国制造的汽车，是存在句描述的对象之一。"
+    },
+    {
+      "text": "French cars",
+      "role": "并列主语项2",
+      "explanation": "由法国名称形容词修饰cars，指法国制造的汽车，是并列列举的第二项。"
+    },
+    {
+      "text": "German cars",
+      "role": "并列主语项3",
+      "explanation": "由德国名称形容词修饰cars，指德国制造的汽车，是并列列举的第三项。"
+    },
+    {
+      "text": "Italian cars",
+      "role": "并列主语项4",
+      "explanation": "由意大利名称形容词修饰cars，指意大利制造的汽车，是并列列举的第四项。"
+    },
+    {
+      "text": "American cars",
+      "role": "并列主语项5",
+      "explanation": "由美国名称形容词修饰cars，指美国制造的汽车，是并列列举的第五项。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接最后一个并列项，符合英语列举事物最后一项前加and的表达习惯。"
+    },
+    {
+      "text": "Japanese cars",
+      "role": "并列主语项6",
+      "explanation": "由日本名称形容词修饰cars，指日本制造的汽车，是并列列举的最后一项。"
+    }
+  ],
+  "words": [
+    {
+      "text": "There",
+      "meaning": "（与were搭配构成存在句，无实义）",
+      "pos": "引导词",
+      "phonetic": "/ðeə(r)/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（复数过去式，表存在）",
+      "pos": "动词be过去式",
+      "phonetic": "/wɜː(r)/"
+    },
+    {
+      "text": "English",
+      "meaning": "英国的，英格兰的",
+      "pos": "形容词作定语",
+      "phonetic": "/ˈɪŋɡlɪʃ/"
+    },
+    {
+      "text": "cars,",
+      "meaning": "汽车（复数）",
+      "pos": "名词复数",
+      "phonetic": "/kɑːz/"
+    },
+    {
+      "text": "French",
+      "meaning": "法国的",
+      "pos": "形容词作定语",
+      "phonetic": "/frentʃ/"
+    },
+    {
+      "text": "cars,",
+      "meaning": "汽车（复数）",
+      "pos": "名词复数",
+      "phonetic": "/kɑːz/"
+    },
+    {
+      "text": "German",
+      "meaning": "德国的",
+      "pos": "形容词作定语",
+      "phonetic": "/ˈdʒɜːmən/"
+    },
+    {
+      "text": "cars,",
+      "meaning": "汽车（复数）",
+      "pos": "名词复数",
+      "phonetic": "/kɑːz/"
+    },
+    {
+      "text": "Italian",
+      "meaning": "意大利的",
+      "pos": "形容词作定语",
+      "phonetic": "/ɪˈtæliən/"
+    },
+    {
+      "text": "cars,",
+      "meaning": "汽车（复数）",
+      "pos": "名词复数",
+      "phonetic": "/kɑːz/"
+    },
+    {
+      "text": "American",
+      "meaning": "美国的",
+      "pos": "形容词作定语",
+      "phonetic": "/əˈmerɪkən/"
+    },
+    {
+      "text": "cars",
+      "meaning": "汽车（复数）",
+      "pos": "名词复数",
+      "phonetic": "/kɑːz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，以及",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "Japanese",
+      "meaning": "日本的",
+      "pos": "形容词作定语",
+      "phonetic": "/ˌdʒæpəˈniːz/"
+    },
+    {
+      "text": "cars.",
+      "meaning": "汽车（复数）",
+      "pos": "名词复数",
+      "phonetic": "/kɑːz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "There were",
+      "relation": "引出赛场存在车辆的事实，是存在句的框架部分。",
+      "meaning": "有（there be的一般过去时复数形式）"
+    },
+    {
+      "text": "English cars,",
+      "relation": "补充说明参赛车辆的第一个国别来源。",
+      "meaning": "英国车，"
+    },
+    {
+      "text": "French cars,",
+      "relation": "补充说明参赛车辆的第二个国别来源。",
+      "meaning": "法国车，"
+    },
+    {
+      "text": "German cars,",
+      "relation": "补充说明参赛车辆的第三个国别来源。",
+      "meaning": "德国车，"
+    },
+    {
+      "text": "Italian cars,",
+      "relation": "补充说明参赛车辆的第四个国别来源。",
+      "meaning": "意大利车，"
+    },
+    {
+      "text": "American cars",
+      "relation": "补充说明参赛车辆的第五个国别来源。",
+      "meaning": "美国车"
+    },
+    {
+      "text": "and Japanese cars.",
+      "relation": "补充说明参赛车辆的最后一个国别来源，收束整句列举。",
+      "meaning": "和日本车。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-69",
+  "sentenceId": "nce-1-lesson-069-sentence-007",
+  "sentenceOrder": 7,
+  "english": "There were English cars, French cars, German cars, Italian cars, American cars and Japanese cars.",
+  "lesson": "Lesson 69 The car race",
+  "notes": [
+    {
+      "title": "there be句型的复数搭配",
+      "text": "这是一般过去时的there be句型，主语是后面的复数汽车集合，因此be动词使用were，不能搭配单数was。"
+    },
+    {
+      "title": "并列名词项的修饰规律",
+      "text": "每一类汽车都以“国家名称形容词 + cars”构成，最后一个并列项前用and连接，符合英语列举事物的标点使用习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：全文字段整体准确合规：翻译、主干含义、存在句引导词的语法标注、并列主语划分、各词词义与英式音标、分块释义与语篇关联均符合原文语境。仅两处内容存在可明确修正的表述瑕疵：一是backbone的meaning中“存在来自多个不同国家的汽车”没有明确点出这些汽车是前文提到的赛事参赛车辆，表述略笼统；二是词汇表中“cars”的释义额外补充了标点提示“（复数，带逗号）/（复数，带句号）”，此类标点备注不属于词义范畴，易对词义理解造成干扰。（非逐句人工审核）"
+}

@@ -1,0 +1,105 @@
+{
+  "chinese": "那个包重吗，彭妮？",
+  "intent": "向名叫彭妮的人询问眼前的那个包是不是很重",
+  "comparison": null,
+  "backbone": {
+    "text": "Is that bag heavy",
+    "meaning": "询问那个包是否沉重"
+  },
+  "parts": [
+    {
+      "text": "Is",
+      "relation": "疑问语序中的系动词前置，用于发起对后续主语属性的疑问",
+      "meaning": "（系动词无独立实义，辅助构成疑问）"
+    },
+    {
+      "text": "that bag",
+      "relation": "疑问句的主语，是整个问句描述的核心对象",
+      "meaning": "那个包"
+    },
+    {
+      "text": "heavy,",
+      "relation": "疑问句中的表语，用于说明主语的属性状态",
+      "meaning": "重"
+    },
+    {
+      "text": "Penny?",
+      "relation": "句末呼语，点明该问句的接收对象",
+      "meaning": "彭妮"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般疑问句语序",
+      "text": "本句把be动词Is放在句首，不需要借助助动词do，直接对名词that bag的属性heavy发起疑问。"
+    },
+    {
+      "title": "呼语位置",
+      "text": "句末的Penny是直接称呼对话人的呼语，和主干内容用逗号隔开，不参与句子的核心语法构成。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is that bag heavy",
+      "role": "一般疑问句主体",
+      "explanation": "用于核实指定物品是否具备沉重这一属性的核心疑问部分"
+    },
+    {
+      "text": "Penny?",
+      "role": "称呼语",
+      "explanation": "明确这个问题的接收人是彭妮，起到提示对话对象的作用"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（系动词，无独立实义，辅助构成疑问）",
+      "pos": "verb",
+      "phonetic": "/ɪz/",
+      "text": "Is"
+    },
+    {
+      "meaning": "那个",
+      "pos": "determiner",
+      "phonetic": "/ðæt/",
+      "text": "that"
+    },
+    {
+      "meaning": "包",
+      "pos": "noun",
+      "phonetic": "/bæɡ/",
+      "text": "bag"
+    },
+    {
+      "meaning": "重的",
+      "pos": "adjective",
+      "phonetic": "/ˈhevi/",
+      "text": "heavy,"
+    },
+    {
+      "meaning": "彭妮（人名）",
+      "pos": "noun",
+      "phonetic": "/ˈpeni/",
+      "text": "Penny?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-41",
+  "sentenceId": "nce-1-lesson-041-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Is that bag heavy, Penny?",
+  "lesson": "Lesson 41 Penny's bag",
+  "notes": [
+    {
+      "title": "一般疑问句语序",
+      "text": "本句把be动词Is放在句首，不需要借助助动词do，直接对名词that bag的属性heavy发起疑问。"
+    },
+    {
+      "title": "呼语位置",
+      "text": "句末的Penny是直接称呼对话人的呼语，和主干内容用逗号隔开，不参与句子的核心语法构成。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体学习内容符合要求，仅存在局部细节疏漏可规范修正（非逐句人工审核）"
+}

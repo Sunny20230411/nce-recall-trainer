@@ -1,0 +1,146 @@
+{
+  "chinese": "快好了。我们七点钟可以吃晚饭。",
+  "intent": "答复晚饭即将准备就绪，告知对方可以在七点钟吃晚饭。",
+  "comparison": {
+    "chinese": "先说时间状语“七点钟”，再说“可以吃晚饭”的核心安排。",
+    "english": "先说主语“我们”和核心动作“可以吃晚饭”，再用句末的 at seven o'clock 补充用餐时间。",
+    "steps": [
+      {
+        "label": "时间状语前置",
+        "text": "在汉语表达中通常将时间状语放在主语后、动作前，比如“我们七点钟可以吃晚饭”。",
+        "explanation": "符合中文日常表达习惯，先点明时间再说明具体安排。"
+      },
+      {
+        "label": "核心动作前置",
+        "text": "英语先讲主语 we 和情态动词 can 带的动作 have dinner，再用句末的介词短语 at seven o'clock 补充时间信息。",
+        "explanation": "符合英语常用语序，时间状语位于句末修饰整个动作。"
+      }
+    ],
+    "takeaway": "说同一件吃饭安排时，中文常把时间放在动词前面，英语常把时间放在句子末尾；理解时先抓住“吃晚饭”这个核心动作，再补全时间信息即可。"
+  },
+  "backbone": {
+    "text": "It's nearly ready. We can have dinner at seven o'clock.",
+    "meaning": "晚饭很快就准备好，我们七点钟就可以吃晚饭。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间表达位置",
+      "text": "句末的 at seven o'clock 用介词 at 引出具体钟点，补充说明 have dinner 的时间，理解时先抓住“吃晚饭”的核心，再接住时间安排。"
+    },
+    {
+      "title": "It's nearly ready",
+      "text": "It 在这里指代正在准备的晚饭，nearly 表示“几乎、差不多”，说明晚饭即将准备完成。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's nearly ready.",
+      "role": "状态判断",
+      "explanation": "说明晚饭的当前准备进度，It 指代晚饭，nearly ready 表示快准备完成了。"
+    },
+    {
+      "text": "We can have dinner at seven o'clock.",
+      "role": "用餐安排",
+      "explanation": "can 表示具备做某事的条件、可以做某事，have dinner 是固定的用餐动作，at seven o'clock 说明具体的用餐时刻。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "它是（It 指代晚饭，is 是系动词）",
+      "pos": "代词+系动词缩写",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "nearly",
+      "meaning": "几乎、差不多",
+      "pos": "副词",
+      "phonetic": "/ˈnɪəli/"
+    },
+    {
+      "text": "ready.",
+      "meaning": "准备好的",
+      "pos": "形容词",
+      "phonetic": "/ˈredi/"
+    },
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "can",
+      "meaning": "可以、能够",
+      "pos": "情态动词",
+      "phonetic": "/kæn/"
+    },
+    {
+      "text": "have",
+      "meaning": "吃（have dinner 为固定搭配）",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "dinner",
+      "meaning": "晚餐、晚饭",
+      "pos": "名词",
+      "phonetic": "/ˈdɪnə(r)/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（用于具体钟点前）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "seven",
+      "meaning": "七",
+      "pos": "数词",
+      "phonetic": "/ˈsevn/"
+    },
+    {
+      "text": "o'clock.",
+      "meaning": "……点钟",
+      "pos": "副词",
+      "phonetic": "/əˈklɒck/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's nearly ready.",
+      "meaning": "晚饭快准备好了。",
+      "relation": "状态描述，回应上文关于晚饭是否准备好的提问，说明晚饭即将准备完成。"
+    },
+    {
+      "text": "We can have dinner",
+      "meaning": "我们可以吃晚饭。",
+      "relation": "动作主体和行为，说明具备开饭的条件。"
+    },
+    {
+      "text": "at seven o'clock.",
+      "meaning": "时间是七点钟。",
+      "relation": "时间补充，说明吃晚饭的具体时刻。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-81",
+  "sentenceId": "nce-1-lesson-081-sentence-013",
+  "sentenceOrder": 13,
+  "english": "It's nearly ready. We can have dinner at seven o'clock.",
+  "lesson": "Lesson 81 Roast beef and potatoes",
+  "notes": [
+    {
+      "title": "时间表达位置",
+      "text": "句末的 at seven o'clock 用介词 at 引出具体钟点，补充说明 have dinner 的时间，理解时先抓住“吃晚饭”的核心，再接住时间安排。"
+    },
+    {
+      "title": "It's nearly ready",
+      "text": "It 在这里指代正在准备的晚饭，nearly 表示“几乎、差不多”，说明晚饭即将准备完成。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体讲解基本准确，仅个别分块释义过于字面，未结合上文将省略的指代对象补入。（非逐句人工审核）"
+}

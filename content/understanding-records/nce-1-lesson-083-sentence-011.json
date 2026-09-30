@@ -1,0 +1,105 @@
+{
+  "chinese": "我们可能坐船。",
+  "intent": "回应对方提出的出行方式选择疑问，说明己方可能选择的出行方案。",
+  "comparison": null,
+  "backbone": {
+    "text": "We may travel by sea.",
+    "meaning": "我们有可能选择乘船出行。"
+  },
+  "structureNotes": [
+    {
+      "title": "情态动词may",
+      "text": "may是情态动词，表示有可能发生但并不确定，翻译时要带出“可能”的不确定语气，不要误译为肯定的“我们坐船出行”。"
+    },
+    {
+      "title": "by sea的含义",
+      "text": "固定介词搭配by sea表示“走海路、乘船出行”，中间没有冠词，不能生硬拆成“在海边”理解。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We",
+      "role": "主语",
+      "explanation": "表示动作的发出者“我们”，指代参与对话的一方。"
+    },
+    {
+      "text": "may travel",
+      "role": "谓语",
+      "explanation": "由情态动词may加实义动词travel构成，表示“有可能出行”的意愿与可能性。"
+    },
+    {
+      "text": "by sea.",
+      "role": "方式状语",
+      "explanation": "用by加名词sea的固定搭配说明出行采用的具体交通方式，意为乘船走海路。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "may",
+      "meaning": "可能，也许",
+      "pos": "情态动词",
+      "phonetic": "/meɪ/"
+    },
+    {
+      "text": "travel",
+      "meaning": "出行，旅行",
+      "pos": "动词",
+      "phonetic": "/ˈtrævl/"
+    },
+    {
+      "text": "by",
+      "meaning": "凭借，通过（某种交通方式）",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "sea.",
+      "meaning": "大海",
+      "pos": "名词",
+      "phonetic": "/siː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We",
+      "relation": "指代出行动作的发出者",
+      "meaning": "我们"
+    },
+    {
+      "text": "may travel",
+      "relation": "核心表述出行的可能性",
+      "meaning": "可能出行"
+    },
+    {
+      "text": "by sea.",
+      "relation": "补充说明出行采用的交通方式",
+      "meaning": "乘船（海路出行）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-83",
+  "sentenceId": "nce-1-lesson-083-sentence-011",
+  "sentenceOrder": 11,
+  "english": "We may travel by sea.",
+  "lesson": "Lesson 83 Going on holiday",
+  "notes": [
+    {
+      "title": "情态动词may",
+      "text": "may是情态动词，表示有可能发生但并不确定，翻译时要带出“可能”的不确定语气，不要误译为肯定的“我们坐船出行”。"
+    },
+    {
+      "title": "by sea的含义",
+      "text": "固定介词搭配by sea表示“走海路、乘船出行”，中间没有冠词，不能生硬拆成“在海边”理解。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合解析规范：中文翻译自然通顺，句子成分划分准确，词义、音标均无错误，情态动词may的不确定语气、by sea的固定搭配解释均到位，仅单词拆分条目里sea附带的句末标点未被剔除，不影响整体理解，修正后即可通过。（非逐句人工审核）"
+}

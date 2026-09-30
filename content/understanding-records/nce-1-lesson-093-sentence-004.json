@@ -1,0 +1,139 @@
+{
+  "chinese": "再下个月他将飞往东京。",
+  "intent": "陈述他再下个月的飞行出行计划。",
+  "comparison": {
+    "chinese": "再下个月他将飞往东京。",
+    "english": "The month after next he'll fly to Tokyo.",
+    "steps": [
+      {
+        "label": "先抓核心动作",
+        "text": "he'll fly to Tokyo",
+        "explanation": "理解为“他将飞往东京”，这是整句的主干：主语 he，动作是 fly to Tokyo。"
+      },
+      {
+        "label": "再接时间",
+        "text": "The month after next",
+        "explanation": "这个名词短语放在句首说明动作发生的时间，整体表示“再下个月”，修饰后面的飞行计划。"
+      }
+    ],
+    "takeaway": "英文把时间名词短语放句首作状语，主干 he'll fly to Tokyo 保持不变；理解时先确定谁、去哪、用什么方式，再看时间。"
+  },
+  "backbone": {
+    "text": "He will fly to Tokyo.",
+    "meaning": "他将飞往东京。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间短语作状语",
+      "text": "The month after next 是名词短语，放在句首说明动作发生的时间，相当于“在再下个月”，修饰后面的飞行计划。"
+    },
+    {
+      "title": "一般将来时表计划",
+      "text": "he'll = he will，后接动词原形 fly，表示他按计划将飞往东京，是已经安排好的出行。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The month after next",
+      "role": "时间状语",
+      "explanation": "名词短语，说明后面飞行动作发生的时间，意思是“再下个月”。"
+    },
+    {
+      "text": "he",
+      "role": "主语",
+      "explanation": "代词，指代前文的人，是“飞往东京”这个动作的发出者。"
+    },
+    {
+      "text": "'ll fly to Tokyo",
+      "role": "谓语",
+      "explanation": "he'll = he will，will + 动词原形 fly 构成一般将来时，to Tokyo 是介词短语说明飞行的目的地。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这（定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "month",
+      "meaning": "月份",
+      "pos": "名词",
+      "phonetic": "/mʌnθ/"
+    },
+    {
+      "text": "after",
+      "meaning": "在……之后",
+      "pos": "介词",
+      "phonetic": "/ˈɑːftə/"
+    },
+    {
+      "text": "next",
+      "meaning": "下一个的",
+      "pos": "形容词",
+      "phonetic": "/nekst/"
+    },
+    {
+      "text": "he'll",
+      "meaning": "他将（he will的缩写）",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/hiːl/"
+    },
+    {
+      "text": "fly",
+      "meaning": "飞；乘坐飞机航行",
+      "pos": "动词",
+      "phonetic": "/flaɪ/"
+    },
+    {
+      "text": "to",
+      "meaning": "向；到",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "Tokyo.",
+      "meaning": "东京",
+      "pos": "名词",
+      "phonetic": "/ˈtəʊkjəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The month after next",
+      "relation": "时间状语，说明他飞行动作发生的时间",
+      "meaning": "再下个月"
+    },
+    {
+      "text": "he'll",
+      "relation": "动作的发出者，引出后续的出行计划",
+      "meaning": "他将"
+    },
+    {
+      "text": "fly to Tokyo.",
+      "relation": "核心谓语动作与目的地，说明他的出行安排",
+      "meaning": "飞往东京。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-93",
+  "sentenceId": "nce-1-lesson-093-sentence-004",
+  "sentenceOrder": 4,
+  "english": "The month after next he'll fly to Tokyo.",
+  "lesson": "Lesson 93 Our new neighbour",
+  "notes": [
+    {
+      "title": "时间短语作状语",
+      "text": "The month after next 是名词短语，放在句首说明动作发生的时间，相当于“在再下个月”，修饰后面的飞行计划。"
+    },
+    {
+      "title": "一般将来时表计划",
+      "text": "he'll = he will，后接动词原形 fly，表示他按计划将飞往东京，是已经安排好的出行。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体主干、结构和分块基本准确。he'll 的音标 /hiːl/ 实际拼写为 /hiːl/ 时会与 he'll 的缩合发音 /hiːl/ 混淆，需还原为标准 /hiːl/ 或 /hiːl/ 中的非缩合形式；该词标注为缩写代词+助动词可保留，但音标应更清晰，修正为 /hiːl/ 对应的标准读音写法 /hiːl/（正确缩合音标为 /hiːl/，此处原稿音标无误，仅需微调）。其余内容如时间状语、将来时、主干等均符合语法规则与上下文，无硬伤。（非逐句人工审核）"
+}

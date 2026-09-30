@@ -1,0 +1,83 @@
+{
+  "chinese": "坐在这里。",
+  "intent": "发出让对方在当前所在区域坐下的直接指令。",
+  "comparison": null,
+  "backbone": {
+    "text": "Sit down here.",
+    "meaning": "告知听话人完成坐下的动作，且位置就在此处。"
+  },
+  "parts": [
+    {
+      "text": "Sit down",
+      "relation": "发出要求执行的核心动作",
+      "meaning": "表示坐下这个动作，是常用的短语动词"
+    },
+    {
+      "text": "here.",
+      "relation": "补充说明动作的地点",
+      "meaning": "指明动作发生的具体位置，句末带标点"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "祈使句省略主语",
+      "text": "这是面向听话人的直接指令类祈使句，默认省略了第二人称主语you，不用额外补出也不影响指令的明确性。"
+    },
+    {
+      "title": "短语动词sit down",
+      "text": "sit搭配down构成固定常用表达，专门表示从站立状态转为坐下的动作，和单独使用sit相比指向的动作更具体。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Sit down",
+      "role": "祈使句的谓语部分",
+      "explanation": "作为整个指令的核心，直接要求听话人执行坐下的动作。"
+    },
+    {
+      "text": "here",
+      "role": "地点状语",
+      "explanation": "明确指出坐下的位置就在说话人所指的近处，限定动作的发生地点。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "坐",
+      "pos": "动词",
+      "phonetic": "/sɪt/",
+      "text": "Sit"
+    },
+    {
+      "meaning": "向下",
+      "pos": "副词",
+      "phonetic": "/daʊn/",
+      "text": "down"
+    },
+    {
+      "meaning": "在这里",
+      "pos": "副词",
+      "phonetic": "/hɪə(r)/",
+      "text": "here."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-19",
+  "sentenceId": "nce-1-lesson-019-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Sit down here.",
+  "lesson": "Lesson 19 Tired and thirsty",
+  "notes": [
+    {
+      "title": "祈使句省略主语",
+      "text": "这是面向听话人的直接指令类祈使句，默认省略了第二人称主语you，不用额外补出也不影响指令的明确性。"
+    },
+    {
+      "title": "短语动词sit down",
+      "text": "sit搭配down构成固定常用表达，专门表示从站立状态转为坐下的动作，和单独使用sit相比指向的动作更具体。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，仅存在少量细节疏漏可明确修正，不影响核心学习内容的正确性（非逐句人工审核）"
+}

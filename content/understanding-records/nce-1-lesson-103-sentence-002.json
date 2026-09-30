@@ -1,0 +1,93 @@
+{
+  "chinese": "我答对了八十道。",
+  "intent": "针对前一句提问的“你答对了多少道题”给出回应，说明自己答对的题目数量。",
+  "comparison": null,
+  "backbone": {
+    "text": "I got eighty.",
+    "meaning": "我（在上一场测验中）答对了八十道题。"
+  },
+  "structureNotes": [
+    {
+      "title": "语境中的省略表达",
+      "text": "本句承接上一句“How many questions did you get right”的提问，省略了重复出现的questions（题目），仅用数词eighty就可以明确指代对应数量，完整表意是“我答对了八十道题”。"
+    },
+    {
+      "title": "动词get在考试语境的含义",
+      "text": "这里的got不是“拿到、得到”的字面意思，而是在测验、考试的对话场景下，与right搭配表示“答对（题目）”；本句省略重复的right后，got也承担了“答对”的语境含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代对话中的说话人简，是做出答题行为的主体。"
+    },
+    {
+      "text": "got",
+      "role": "谓语动词",
+      "explanation": "是动词get的过去式，在考试语境下表示“答对（题目）”。"
+    },
+    {
+      "text": "eighty",
+      "role": "宾语",
+      "explanation": "是数词eighty，承接上文省略了questions（题），表示答对的题目数量为八十；标点“.”仅为句末结束符号。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "got",
+      "meaning": "答对（题目）",
+      "pos": "动词过去式",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "eighty.",
+      "meaning": "八十（道题）",
+      "pos": "数词",
+      "phonetic": "/ˈeɪti/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "答题行为的发出者"
+    },
+    {
+      "text": "got",
+      "meaning": "答对了",
+      "relation": "说明主体在测验中的答题结果"
+    },
+    {
+      "text": "eighty.",
+      "meaning": "八十道（题）",
+      "relation": "补充说明答对的题目数量，是提问要求回答的核心信息"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I got eighty.",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "语境中的省略表达",
+      "text": "本句承接上一句“How many questions did you get right”的提问，省略了重复出现的questions（题目），仅用数词eighty就可以明确指代对应数量，完整表意是“我答对了八十道题”。"
+    },
+    {
+      "title": "动词get在考试语境的含义",
+      "text": "这里的got不是“拿到、得到”的字面意思，而是在测验、考试的对话场景下，与right搭配表示“答对（题目）”；本句省略重复的right后，got也承担了“答对”的语境含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体适配英语初学者静态解析：翻译表意准确，语境省略、got 的考试义、宾语省略、音标均正确。仅需统一将句末标点与单词音标分写，避免单词文本携带句末标点。（非逐句人工审核）"
+}

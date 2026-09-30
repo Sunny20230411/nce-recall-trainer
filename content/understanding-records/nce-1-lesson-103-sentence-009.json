@@ -1,0 +1,105 @@
+{
+  "chinese": "你呢，加里？",
+  "intent": "承接上一句关于考试的对话内容，向加里追问他自身相关的考试情况。",
+  "comparison": {
+    "chinese": "你呢，加里？",
+    "english": "How about you, Gary?",
+    "steps": [
+      {
+        "label": "省略式口语提问",
+        "text": "How about you, Gary? 是承接上文省略的提问结构。",
+        "explanation": "上文刚说完题目非常简单，这句不再重复考试相关的完整内容，直接用 How about you 提问加里的情况，符合口语对话的简洁习惯。"
+      },
+      {
+        "label": "固定提问结构",
+        "text": "How about you? 是英语日常用来询问对方同类情况的固定表达。",
+        "explanation": "该结构不需要搭配完整的疑问句式，直接以 How about 开头，后接提问对象 you，句末以逗号分隔称呼 Gary。"
+      }
+    ],
+    "takeaway": "How about you? 是口语中承接前文话题、追问对方同类情况的常用省略表达，不需要重复前文已经说过的完整话题内容。"
+  },
+  "backbone": {
+    "text": "How about you?",
+    "meaning": "在当前正在讨论的考试话题下，询问加里的相关情况如何。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略式追问结构",
+      "text": "How about you 是典型的口语省略表达，承接前一句提到的考试话题，不需要额外补充完整的疑问句式就能明确指向询问对方的同类情况。"
+    },
+    {
+      "title": "称呼语的标点分隔",
+      "text": "句中逗号把提问内容和对方称呼 Gary 分开，符合英语对话中直接称呼听者的书写规范，语气自然随意。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "How about you,",
+      "role": "省略式追问结构",
+      "explanation": "在当前考试话题下承接上文，用于询问听者的相关情况，是口语中极常见的追问表达。"
+    },
+    {
+      "text": "Gary?",
+      "role": "对话称呼语",
+      "explanation": "点明本句的提问对象是加里，用问号体现和后续接的回答构成完整的一问一答语境。"
+    }
+  ],
+  "words": [
+    {
+      "text": "How",
+      "meaning": "怎样，如何",
+      "pos": "疑问副词",
+      "phonetic": "/haʊ/"
+    },
+    {
+      "text": "about",
+      "meaning": "关于，对于",
+      "pos": "介词",
+      "phonetic": "/əˈbaʊt/"
+    },
+    {
+      "text": "you,",
+      "meaning": "你",
+      "pos": "代词（词后接逗号）",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "Gary?",
+      "meaning": "加里（男子名）",
+      "pos": "名词（词后接问号）",
+      "phonetic": "/ˈɡæri/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "How about you,",
+      "relation": "承接上文，引出对加里考试情况的提问",
+      "meaning": "你呢（承接前文话题的追问结构）"
+    },
+    {
+      "text": "Gary?",
+      "relation": "点明提问的具体对象是加里",
+      "meaning": "加里？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-009",
+  "sentenceOrder": 9,
+  "english": "How about you, Gary?",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "省略式追问结构",
+      "text": "How about you 是典型的口语省略表达，承接前一句提到的考试话题，不需要额外补充完整的疑问句式就能明确指向询问对方的同类情况。"
+    },
+    {
+      "title": "称呼语的标点分隔",
+      "text": "句中逗号把提问内容和对方称呼 Gary 分开，符合英语对话中直接称呼听者的书写规范，语气自然随意。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体符合原句的口语省略追问语境，主干和分块关系无误；仅词汇标注将标点并入词性不够规范，需将逗号、问号与词形、词性分开。（非逐句人工审核）"
+}

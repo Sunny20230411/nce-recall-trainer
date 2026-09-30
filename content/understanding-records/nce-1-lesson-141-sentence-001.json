@@ -1,0 +1,157 @@
+{
+  "chinese": "上星期，我四岁的女儿萨莉受邀参加一个儿童聚会。",
+  "intent": "交代故事事件发生的时间、涉及的人物，以及核心的起因事件。",
+  "comparison": null,
+  "backbone": {
+    "text": "Sally was invited to a party.",
+    "meaning": "萨莉受邀参加了一个聚会。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语前置",
+      "text": "时间状语Last week放在句首，直接点出事件发生在过去，也提示后续动词要用过去式。"
+    },
+    {
+      "title": "被动语态表受邀",
+      "text": "was invited是被动结构，字面意思是“被邀请”，中文习惯表达为“受邀”，不再额外说明是谁发出的邀请。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Last week",
+      "role": "时间状语",
+      "explanation": "点明整个事件发生在过去的上周。"
+    },
+    {
+      "text": "my four-year-old daughter, Sally",
+      "role": "句子主语",
+      "explanation": "核心指人名词短语是 daughter，my 和 four-year-old 作定语修饰她的所属与年龄；Sally 是女儿的名字，作为同位语补充身份。"
+    },
+    {
+      "text": "was invited to",
+      "role": "被动谓语",
+      "explanation": "表示主语萨莉“被邀请”这一被动动作，体现她是受邀的一方而非主动发起邀请。"
+    },
+    {
+      "text": "a children's party",
+      "role": "介词to的宾语",
+      "explanation": "说明邀请对应的活动是一场儿童聚会。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "上一个的",
+      "pos": "形容词",
+      "phonetic": "/lɑːst/",
+      "text": "Last"
+    },
+    {
+      "meaning": "星期；（时间）周，句中与last连用上星期",
+      "pos": "名词",
+      "phonetic": "/wiːk/",
+      "text": "week,"
+    },
+    {
+      "meaning": "我的",
+      "pos": "代词所有格",
+      "phonetic": "/maɪ/",
+      "text": "my"
+    },
+    {
+      "meaning": "四岁的",
+      "pos": "复合形容词",
+      "phonetic": "/fɔː jɪər əʊld/",
+      "text": "four-year-old"
+    },
+    {
+      "meaning": "女儿",
+      "pos": "名词",
+      "phonetic": "/ˈdɔːtə/",
+      "text": "daughter,"
+    },
+    {
+      "meaning": "萨莉（女子名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈsæli/",
+      "text": "Sally,"
+    },
+    {
+      "meaning": "是（be的过去式，搭配主语女儿）",
+      "pos": "be动词过去式",
+      "phonetic": "/wɒz/",
+      "text": "was"
+    },
+    {
+      "meaning": "邀请",
+      "pos": "动词过去分词（构成被动）",
+      "phonetic": "/ɪnˈvaɪtɪd/",
+      "text": "invited"
+    },
+    {
+      "meaning": "到；向",
+      "pos": "介词",
+      "phonetic": "/tu:/",
+      "text": "to"
+    },
+    {
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "儿童的",
+      "pos": "名词所有格",
+      "phonetic": "/ˈtʃɪldrənz/",
+      "text": "children's"
+    },
+    {
+      "meaning": "聚会",
+      "pos": "名词",
+      "phonetic": "/ˈpɑːti/",
+      "text": "party."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Last week,",
+      "relation": "点明事件发生的时间",
+      "meaning": "上星期"
+    },
+    {
+      "text": "my four-year-old daughter, Sally,",
+      "relation": "交代被事件作用的主体，即受邀的人",
+      "meaning": "我四岁的女儿萨莉"
+    },
+    {
+      "text": "was invited to",
+      "relation": "描述主体的动作状态，表明是受邀参加而非主动发起",
+      "meaning": "被邀请前往"
+    },
+    {
+      "text": "a children's party.",
+      "relation": "说明邀请对应的活动内容",
+      "meaning": "一个儿童聚会"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-141",
+  "sentenceId": "nce-1-lesson-141-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Last week, my four-year-old daughter, Sally, was invited to a children's party.",
+  "lesson": "Lesson 141 Sally's first train ride",
+  "notes": [
+    {
+      "title": "时间状语前置",
+      "text": "时间状语Last week放在句首，直接点出事件发生在过去，也提示后续动词要用过去式。"
+    },
+    {
+      "title": "被动语态表受邀",
+      "text": "was invited是被动结构，字面意思是“被邀请”，中文习惯表达为“受邀”，不再额外说明是谁发出的邀请。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句整体解释、译文、主干、结构与词汇基本准确，时间状语、被动结构和核心名词的语义关系成立。仅需修正一处用词表述：“核心指称”不够自然，宜改为“核心指人名词短语”；其余内容与英式音标、成分关系、分块范围均无冲突。（非逐句人工审核）"
+}

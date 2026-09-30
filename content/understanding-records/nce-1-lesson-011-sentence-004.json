@@ -1,0 +1,112 @@
+{
+  "chinese": "这是我的衬衫。我的衬衫是蓝色的。",
+  "intent": "明确指出属于自己的衬衫，并补充说明这件衬衫的颜色是蓝色，用来和其他物品区分开。",
+  "comparison": null,
+  "backbone": {
+    "text": "This is my shirt. My shirt's blue.",
+    "meaning": "指向眼前的物品说明这是我的衬衫，接着告知这件衬衫的颜色是蓝色。"
+  },
+  "parts": [
+    {
+      "text": "This",
+      "relation": "指代说明的对象",
+      "meaning": "这个、指眼前的物品"
+    },
+    {
+      "text": "is my shirt.",
+      "relation": "描述指代对象的所属身份",
+      "meaning": "是我的衬衫"
+    },
+    {
+      "text": "My shirt's blue.",
+      "relation": "补充说明前面提到的衬衫的颜色特征",
+      "meaning": "我的衬衫是蓝色的。"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "口语缩合说明",
+      "text": "My shirt's 是 My shirt is 的常用口语缩合形式，将代词it以外的名词与后续的系动词is进行缩合，并未省略核心动词is，不会改变原本表示属性判断的含义，日常对话中使用更自然。"
+    },
+    {
+      "title": "指代承接",
+      "text": "前半句指明所属的衬衫之后，后半句用My shirt承接前文提到的这件衬衫，不需要重复描述位置，直接补充颜色信息即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "This is my shirt",
+      "role": "主系表陈述句",
+      "explanation": "用于指向近处的物品，说明该物品的归属权，是日常确认所属物品的基础表达。"
+    },
+    {
+      "text": "My shirt's blue",
+      "role": "带缩写的属性判断陈述句",
+      "explanation": "用口语化的缩写形式说明主语的颜色属性，清晰传递衬衫的外观特征。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这个，指代近处的物品",
+      "pos": "代词",
+      "phonetic": "/ðɪs/",
+      "text": "This"
+    },
+    {
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "我的",
+      "pos": "物主代词",
+      "phonetic": "/maɪ/",
+      "text": "my"
+    },
+    {
+      "meaning": "衬衫",
+      "pos": "名词",
+      "phonetic": "/ʃɜːt/",
+      "text": "shirt."
+    },
+    {
+      "meaning": "我的",
+      "pos": "物主代词",
+      "phonetic": "/maɪ/",
+      "text": "My"
+    },
+    {
+      "meaning": "衬衫+系动词is（口语中二者缩合）",
+      "pos": "名词+系动词（缩合形式）",
+      "phonetic": "/ʃɜːts/",
+      "text": "shirt's"
+    },
+    {
+      "meaning": "蓝色的",
+      "pos": "形容词",
+      "phonetic": "/bluː/",
+      "text": "blue."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-11",
+  "sentenceId": "nce-1-lesson-011-sentence-004",
+  "sentenceOrder": 4,
+  "english": "This is my shirt. My shirt's blue.",
+  "lesson": "Lesson 11 Is this your shirt?",
+  "notes": [
+    {
+      "title": "口语缩合说明",
+      "text": "My shirt's 是 My shirt is 的常用口语缩合形式，将代词it以外的名词与后续的系动词is进行缩合，并未省略核心动词is，不会改变原本表示属性判断的含义，日常对话中使用更自然。"
+    },
+    {
+      "title": "指代承接",
+      "text": "前半句指明所属的衬衫之后，后半句用My shirt承接前文提到的这件衬衫，不需要重复描述位置，直接补充颜色信息即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原始解析整体符合面向中文母语成年人的英语学习解析要求，仅存在少量细节偏差，可明确修正。（非逐句人工审核）"
+}

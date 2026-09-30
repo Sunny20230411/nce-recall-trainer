@@ -1,0 +1,122 @@
+{
+  "chinese": "你会去车站接他吗？",
+  "intent": "向听话人提出询问，确认对方是否将要到车站迎接某位男性，了解听话人后续的接送计划安排。",
+  "comparison": null,
+  "backbone": {
+    "text": "Will you meet him?",
+    "meaning": "这是理解本句核心时使用的最简主干，保留了疑问助动词Will、主语you、谓语meet和宾语him；本句原句本身是结构完整的一般疑问句，不是需要额外还原的省略句。"
+  },
+  "structureNotes": [
+    {
+      "title": "一般将来时一般疑问句的倒装结构",
+      "text": "will作为表将来的助动词，位于句首构成疑问，主语you跟在will之后；这种语序表示“你是否将要做某事”，回答时用Yes, I will.或No, I won't."
+    },
+    {
+      "title": "及物动词meet的语境与地点状语",
+      "text": "meet此处为及物动词，宾语是him，地点状语由介词at引出；at the station说明见面的地点是车站，符合“到车站接人”的常见表达。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Will",
+      "role": "助动词（表将来）",
+      "explanation": "位于句首，帮助构成一般将来时的一般疑问句，表达“将要、会”的将来含义，与主语you配合提问未来动作的意愿。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "这是疑问句的实际主语，指代听话人，也就是句子询问的动作发出者。"
+    },
+    {
+      "text": "meet him",
+      "role": "谓语加宾语",
+      "explanation": "meet是谓语核心动词，表示“迎接、接”，him是meet的宾语，指代前文提到的那位男性，是迎接的对象。"
+    },
+    {
+      "text": "at the station?",
+      "role": "地点状语",
+      "explanation": "介词短语at the station修饰meet，说明迎接动作发生的地点是车站，句末问号表示这是一个需要回答的疑问句。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Will",
+      "meaning": "将；会（助动词，表将来时）",
+      "pos": "modal verb",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "pronoun",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "meet",
+      "meaning": "迎接；接（人）",
+      "pos": "verb",
+      "phonetic": "/miːt/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格）",
+      "pos": "pronoun",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（某处）",
+      "pos": "preposition",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个；那个（定冠词，表特指）",
+      "pos": "article",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "station?",
+      "meaning": "车站",
+      "pos": "noun",
+      "phonetic": "/ˈsteɪʃn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Will you",
+      "relation": "提出询问的主体框架",
+      "meaning": "你会……吗"
+    },
+    {
+      "text": "meet him",
+      "relation": "询问的核心动作与对象",
+      "meaning": "接他"
+    },
+    {
+      "text": "at the station?",
+      "relation": "补充说明接人动作发生的地点",
+      "meaning": "在车站？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-139",
+  "sentenceId": "nce-1-lesson-139-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Will you meet him at the station?",
+  "lesson": "Lesson 139 Is that you, John?",
+  "notes": [
+    {
+      "title": "一般将来时一般疑问句的倒装结构",
+      "text": "will作为表将来的助动词，位于句首构成疑问，主语you跟在will之后；这种语序表示“你是否将要做某事”，回答时用Yes, I will.或No, I won't."
+    },
+    {
+      "title": "及物动词meet的语境与地点状语",
+      "text": "meet此处为及物动词，宾语是him，地点状语由介词at引出；at the station说明见面的地点是车站，符合“到车站接人”的常见表达。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体理解与句法标注基本正确。仅需修正词汇分块：station? 把问号混作词形，词性应单独为 noun，音标和词义也不应带问号；主谓宾、地点状语、疑问句结构和中文翻译均无需改动。（非逐句人工审核）"
+}

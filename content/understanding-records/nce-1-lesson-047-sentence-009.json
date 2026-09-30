@@ -1,0 +1,108 @@
+{
+  "chinese": "你要加牛奶吗？",
+  "intent": "询问对方是否想要牛奶，是就餐场景下的提供类礼貌问句。",
+  "comparison": null,
+  "backbone": {
+    "text": "Do you want any milk?",
+    "meaning": "询问对方是否需要牛奶。",
+    "takeaway": "do型一般疑问句借助助动词do提问，谓语动词用原形；疑问句中用any表示“一些”，肯定回答中用some。"
+  },
+  "parts": [
+    {
+      "text": "Do",
+      "relation": "帮助构成疑问句的助动词，无实义",
+      "meaning": "助动词，无实义，帮助构成一般现在时疑问句，放在句首"
+    },
+    {
+      "text": "you",
+      "relation": "句子主语，询问的对象",
+      "meaning": "你"
+    },
+    {
+      "text": "want",
+      "relation": "主语发出的核心动作，作谓语",
+      "meaning": "想要"
+    },
+    {
+      "text": "any milk?",
+      "relation": "动作的对象，作宾语，any修饰不可数名词milk表“一些”",
+      "meaning": "一些牛奶吗？"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "any与some的使用区分",
+      "text": "any和some都表示“一些”，any多用于否定句和疑问句，some多用于肯定句；本句是疑问句，因此用any修饰milk。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "助动词",
+      "explanation": "帮助构成一般现在时的一般疑问句，本身没有实际词汇意义"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "句子询问的对象，指代听话人"
+    },
+    {
+      "text": "want",
+      "role": "谓语动词",
+      "explanation": "主语发出的核心动作，意为“想要”，疑问句中用原形"
+    },
+    {
+      "text": "any milk",
+      "role": "宾语",
+      "explanation": "“想要”的对象，any是限定词，修饰不可数名词milk，表示“一些牛奶”"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "助动词（无实义，帮助构成疑问句）",
+      "pos": "v.aux",
+      "phonetic": "/duː/",
+      "text": "Do"
+    },
+    {
+      "meaning": "你",
+      "pos": "pron.",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "想要",
+      "pos": "v.",
+      "phonetic": "/wɒnt/",
+      "text": "want"
+    },
+    {
+      "meaning": "一些（常用于疑问句和否定句）",
+      "pos": "det.",
+      "phonetic": "/ˈeni/",
+      "text": "any"
+    },
+    {
+      "meaning": "牛奶",
+      "pos": "n.",
+      "phonetic": "/mɪlk/",
+      "text": "milk?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-47",
+  "sentenceId": "nce-1-lesson-047-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Do you want any milk?",
+  "lesson": "Lesson 47 A cup of coffee",
+  "notes": [
+    {
+      "title": "any与some的使用区分",
+      "text": "any和some都表示“一些”，any多用于否定句和疑问句，some多用于肯定句；本句是疑问句，因此用any修饰milk。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体符合句子结构、词汇用法和场景语境；仅存在两处可更准确表述的问题：一是parts将Do笼统标记为“疑问结构”，未明确其助动词角色；二是词汇表中milk词条因保留句末问号被拆分标注，且释义未涵盖any的限定作用，容易导致学习者将milk理解为必须带问号的独立词项。（非逐句人工审核）"
+}

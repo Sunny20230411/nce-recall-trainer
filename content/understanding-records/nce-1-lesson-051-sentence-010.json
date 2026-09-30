@@ -1,0 +1,269 @@
+{
+  "chinese": "九月和十月总是很暖和。十一月常常很冷，有时下雨。",
+  "intent": "说明秋季月份的气候特征，指出前两个月通常温暖，十一月则常寒冷且时有降雨。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's warm in September and October. It's cold in November and it rains sometimes.",
+    "meaning": "九月和十月天气温暖，十一月天气寒冷，有时会下雨。"
+  },
+  "structureNotes": [
+    {
+      "title": "虚义It指代天气",
+      "text": "It在描述天气的句子中作形式主语，不指代前文具体事物，直接理解为“天气”，be动词后接warm/cold等形容词说明天气状态。"
+    },
+    {
+      "title": "频率副词的位置",
+      "text": "always、often这类频率副词放在be动词之后、实义动词之前：It's always warm中在is后；it rains sometimes中sometimes也可放在句末修饰rains。"
+    },
+    {
+      "title": "并列分句衔接",
+      "text": "第二句用and连接两个并列分句，前半句讲十一月的气温特征，后半句补充同期的降雨情况，前后分句都围绕十一月的天气展开。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "主语+系动词",
+      "explanation": "It是描述天气的虚义主语，对应中文的“天气”，is是系动词，和前面的It缩合为It's书写。"
+    },
+    {
+      "text": "always",
+      "role": "频率状语",
+      "explanation": "表示动作或状态总是发生，放在系动词is之后，修饰整体的温暖状态。"
+    },
+    {
+      "text": "warm",
+      "role": "表语",
+      "explanation": "形容词作表语，说明天气的特征是暖和的。"
+    },
+    {
+      "text": "in September and October.",
+      "role": "时间状语",
+      "explanation": "介词in加两个月份名词，说明暖和这种状态所处的时间段。"
+    },
+    {
+      "text": "It's",
+      "role": "主语+系动词",
+      "explanation": "同样是指代天气的虚义主语加系动词，引导十一月气温的描述。"
+    },
+    {
+      "text": "often",
+      "role": "频率状语",
+      "explanation": "表示常常、多数时候，放在系动词is之后，修饰寒冷的状态。"
+    },
+    {
+      "text": "cold",
+      "role": "表语",
+      "explanation": "形容词作表语，说明十一月的天气特征是寒冷的。"
+    },
+    {
+      "text": "in November",
+      "role": "时间状语",
+      "explanation": "介词in加月份名词，说明寒冷状态所处的时间段。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个独立分句，补充说明十一月同时会出现的降雨情况。"
+    },
+    {
+      "text": "it",
+      "role": "主语",
+      "explanation": "仍是指代天气的虚义形式主语，作rains的形式主语。"
+    },
+    {
+      "text": "rains",
+      "role": "谓语",
+      "explanation": "实义动词rain的第三人称单数形式，表示下雨，独立作后半句的谓语。"
+    },
+    {
+      "text": "sometimes.",
+      "role": "频率状语",
+      "explanation": "表示有时、偶尔，放在句末修饰rains，说明降雨的频率。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "（指代天气）它是",
+      "pos": "主语人称代词与系动词is的缩写",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "warm",
+      "meaning": "温暖的",
+      "pos": "形容词",
+      "phonetic": "/wɔːm/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（某月份）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "September",
+      "meaning": "九月",
+      "pos": "专有名词",
+      "phonetic": "/sepˈtembə(r)/"
+    },
+    {
+      "text": "and",
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "/ənd/"
+    },
+    {
+      "text": "October.",
+      "meaning": "十月",
+      "pos": "名词",
+      "phonetic": "/ɒkˈtəʊbə(r)/"
+    },
+    {
+      "text": "It's",
+      "meaning": "（指代天气）它是",
+      "pos": "主语人称代词与系动词is的缩写",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "often",
+      "meaning": "常常",
+      "pos": "副词",
+      "phonetic": "/ˈɒfn/"
+    },
+    {
+      "text": "cold",
+      "meaning": "寒冷的",
+      "pos": "形容词",
+      "phonetic": "/kəʊld/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（某月份）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "November",
+      "meaning": "十一月",
+      "pos": "专有名词",
+      "phonetic": "/nəʊˈvembə(r)/"
+    },
+    {
+      "text": "and",
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "/ənd/"
+    },
+    {
+      "text": "it",
+      "meaning": "（指代天气）它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "rains",
+      "meaning": "下雨",
+      "pos": "动词",
+      "phonetic": "/reɪnz/"
+    },
+    {
+      "text": "sometimes.",
+      "meaning": "有时",
+      "pos": "副词",
+      "phonetic": "/ˈsʌmtaɪmz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's",
+      "relation": "分句的形式主语，虚指天气状况",
+      "meaning": "天气是"
+    },
+    {
+      "text": "always",
+      "relation": "说明状态的持续频率",
+      "meaning": "总是"
+    },
+    {
+      "text": "warm",
+      "relation": "描述天气的温度特征",
+      "meaning": "暖和的"
+    },
+    {
+      "text": "in September and October.",
+      "relation": "交代该天气特征出现的月份范围",
+      "meaning": "在九月和十月。"
+    },
+    {
+      "text": "It's",
+      "relation": "第二个分句的形式主语，虚指天气状况",
+      "meaning": "天气是"
+    },
+    {
+      "text": "often",
+      "relation": "说明状态的出现频率",
+      "meaning": "常常"
+    },
+    {
+      "text": "cold",
+      "relation": "描述十一月的气温特征",
+      "meaning": "寒冷的"
+    },
+    {
+      "text": "in November",
+      "relation": "交代寒冷状态出现的月份",
+      "meaning": "在十一月"
+    },
+    {
+      "text": "and",
+      "relation": "连接并列分句，引出十一月的另一项天气特征",
+      "meaning": "并且"
+    },
+    {
+      "text": "it",
+      "relation": "后半分句的形式主语，虚指天气",
+      "meaning": "天气"
+    },
+    {
+      "text": "rains",
+      "relation": "描述天气的降雨动作",
+      "meaning": "下雨"
+    },
+    {
+      "text": "sometimes.",
+      "relation": "补充说明降雨发生的频率",
+      "meaning": "有时。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-51",
+  "sentenceId": "nce-1-lesson-051-sentence-010",
+  "sentenceOrder": 10,
+  "english": "It's always warm in September and October. It's often cold in November and it rains sometimes.",
+  "lesson": "Lesson 51 A pleasant climate",
+  "notes": [
+    {
+      "title": "虚义It指代天气",
+      "text": "It在描述天气的句子中作形式主语，不指代前文具体事物，直接理解为“天气”，be动词后接warm/cold等形容词说明天气状态。"
+    },
+    {
+      "title": "频率副词的位置",
+      "text": "always、often这类频率副词放在be动词之后、实义动词之前：It's always warm中在is后；it rains sometimes中sometimes也可放在句末修饰rains。"
+    },
+    {
+      "title": "并列分句衔接",
+      "text": "第二句用and连接两个并列分句，前半句讲十一月的气温特征，后半句补充同期的降雨情况，前后分句都围绕十一月的天气展开。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容通顺、词性标注和分句结构合理，仅存在两处可明确修正的小问题：一是词汇表将It's标注为“代词+系动词缩写”，表述不够规范，实际是主语人称代词与系动词is的缩合形式；二是句法标注中将rain后的it描述为“rains的动作发出者”，和句中虚指天气的形式主语属性表述不一致，需要修正措辞。其余分块、翻译、释义、音标内容均符合教学要求。（非逐句人工审核）"
+}

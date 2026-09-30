@@ -1,0 +1,111 @@
+{
+  "chinese": "快点，萨姆。水壶里的水开了！",
+  "intent": "催促萨姆动作快一点，同时提醒他水壶里的水正在沸腾。",
+  "comparison": null,
+  "backbone": {
+    "text": "Hurry up, Sam. The kettle's boiling!",
+    "meaning": "催促萨姆赶紧行动，告知他水壶里的水正在沸腾。"
+  },
+  "parts": [
+    {
+      "text": "Hurry up,",
+      "relation": "发出的催促指令",
+      "meaning": "快点、抓紧时间"
+    },
+    {
+      "text": "Sam.",
+      "relation": "指令的接收对象",
+      "meaning": "萨姆，人名"
+    },
+    {
+      "text": "The kettle's boiling!",
+      "relation": "催促对方的原因补充说明",
+      "meaning": "水壶里的水正在沸腾"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "祈使句用法",
+      "text": "Hurry up 是没有说出主语you的祈使句，直接用来向听话人发出催促的指令，语气直接简洁。"
+    },
+    {
+      "title": "名词's的缩略形式",
+      "text": "kettle's 是kettle is的口语缩略，不是所有格，和后面的现在分词boiling构成现在进行时，描述水正在沸腾的状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Hurry up",
+      "role": "祈使性动词短语",
+      "explanation": "单独构成祈使句，用于直接催促听话人加快动作。"
+    },
+    {
+      "text": "Sam",
+      "role": "呼语",
+      "explanation": "点明催促的对象是萨姆，明确指令的接收人。"
+    },
+    {
+      "text": "The kettle's boiling",
+      "role": "主谓结构现在进行时分句",
+      "explanation": "描述当下水壶里的水正在沸腾的实时状态，用来解释前面催促的原因。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "赶紧、加快动作",
+      "pos": "动词",
+      "phonetic": "/ˈhʌri/",
+      "text": "Hurry"
+    },
+    {
+      "meaning": "（和hurry搭配构成短语表催促）快、迅速地",
+      "pos": "副词",
+      "phonetic": "/ʌp/",
+      "text": "up,"
+    },
+    {
+      "meaning": "萨姆（男子名）",
+      "pos": "名词",
+      "phonetic": "/sæm/",
+      "text": "Sam."
+    },
+    {
+      "meaning": "这个、那个（定冠词，特指眼前的水壶）",
+      "pos": "限定词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "kettle is 的口语缩略，水壶正在",
+      "pos": "动词缩略形式",
+      "phonetic": "/ˈketəlz/",
+      "text": "kettle's"
+    },
+    {
+      "meaning": "沸腾、开了",
+      "pos": "现在分词",
+      "phonetic": "/ˈbɔɪlɪŋ/",
+      "text": "boiling!"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-43",
+  "sentenceId": "nce-1-lesson-043-sentence-014",
+  "sentenceOrder": 14,
+  "english": "Hurry up, Sam. The kettle's boiling!",
+  "lesson": "Lesson 43 Hurry up!",
+  "notes": [
+    {
+      "title": "祈使句用法",
+      "text": "Hurry up 是没有说出主语you的祈使句，直接用来向听话人发出催促的指令，语气直接简洁。"
+    },
+    {
+      "title": "名词's的缩略形式",
+      "text": "kettle's 是kettle is的口语缩略，不是所有格，和后面的现在分词boiling构成现在进行时，描述水正在沸腾的状态。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析内容完整合规，仅存在个别细节表述与comparison字段缺失的可修正问题，不影响核心语义与语法说明的准确性（非逐句人工审核）"
+}

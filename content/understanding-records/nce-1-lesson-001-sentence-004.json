@@ -1,0 +1,53 @@
+{
+  "chinese": "对不起，请再说一遍。",
+  "intent": "没听清对方刚才说的话，礼貌请求对方把内容重新表述一遍，无需对方额外添加新信息。",
+  "comparison": null,
+  "backbone": {
+    "text": "Pardon?",
+    "meaning": "请求对方重复刚才说过的内容。"
+  },
+  "parts": [
+    {
+      "text": "Pardon?",
+      "relation": "传递诉求",
+      "meaning": "礼貌请求对方重复话语的简短表达"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "没听清时的简短请求",
+      "text": "这里不是在问pardon这个词的意思，而是礼貌地请对方再说一遍。它是口语中的简短省略表达，不必按完整句子逐项寻找主语和谓语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Pardon?",
+      "role": "口语省略表达",
+      "explanation": "整句表达请对方再说一遍的请求，不能仅凭问号把它分析成普通的一般疑问句。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "对不起，请再说一遍",
+      "pos": "interjection",
+      "phonetic": "/ˈpɑːdən/",
+      "text": "Pardon?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-1",
+  "sentenceId": "nce-1-lesson-001-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Pardon?",
+  "lesson": "Lesson 1 Excuse me!",
+  "notes": [
+    {
+      "title": "没听清时的简短请求",
+      "text": "这里不是在问pardon这个词的意思，而是礼貌地请对方再说一遍。它是口语中的简短省略表达，不必按完整句子逐项寻找主语和谓语。"
+    }
+  ],
+  "analysisSource": "human",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "编辑复核：纠正祈使问句标签，明确口语省略请求的作用；保留原句和词序。"
+}

@@ -1,0 +1,105 @@
+{
+  "chinese": "我打不了这封信。",
+  "intent": "说明自己不具备完成当前打字任务的能力，无法处理眼前的这封信件。",
+  "comparison": null,
+  "backbone": {
+    "text": "I can't type this letter.",
+    "meaning": "我没办法完成这封信的打字操作。"
+  },
+  "structureNotes": [
+    {
+      "title": "情态动词can't的否定含义",
+      "text": "can't是can not的缩写，直接接动词原形type，表达主语不具备做打字这件事的能力，而非主观上不愿意做。"
+    },
+    {
+      "title": "指示限定词this的指代作用",
+      "text": "this修饰letter，指代双方当下都知道、就近提及的那封信件，不需要额外指明信件的其他属性。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人本人，是句子描述的动作发出者。"
+    },
+    {
+      "text": "can't type this letter",
+      "role": "谓语部分",
+      "explanation": "can't和动词原形type一起构成复合谓语，this letter是type的动作对象。"
+    },
+    {
+      "text": "this letter",
+      "role": "动词宾语",
+      "explanation": "是type这个动作的作用对象，指当前待处理的信件。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "不能；无法",
+      "pos": "情态动词缩写",
+      "phonetic": "/kɑːnt/",
+      "text": "can't"
+    },
+    {
+      "meaning": "打字；输入文字",
+      "pos": "动词",
+      "phonetic": "/taɪp/",
+      "text": "type"
+    },
+    {
+      "meaning": "这；这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "信；信件",
+      "pos": "名词",
+      "phonetic": "/ˈletə/",
+      "text": "letter."
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作的发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "can't type",
+      "relation": "描述主语的能力状态与对应的动作",
+      "meaning": "打不了；无法输入"
+    },
+    {
+      "text": "this letter.",
+      "relation": "打字动作的作用对象",
+      "meaning": "这封信。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-45",
+  "sentenceId": "nce-1-lesson-045-sentence-015",
+  "sentenceOrder": 15,
+  "english": "I can't type this letter.",
+  "lesson": "Lesson 45 The boss's letter",
+  "notes": [
+    {
+      "title": "情态动词can't的否定含义",
+      "text": "can't是can not的缩写，直接接动词原形type，表达主语不具备做打字这件事的能力，而非主观上不愿意做。"
+    },
+    {
+      "title": "指示限定词this的指代作用",
+      "text": "this修饰letter，指代双方当下都知道、就近提及的那封信件，不需要额外指明信件的其他属性。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语义、句法成分划分与词汇释义均基本准确，仅存在词汇条目内句号越界、音标格式冗余、个别表述不够精准的小问题，修正后可正常使用。（非逐句人工审核）"
+}

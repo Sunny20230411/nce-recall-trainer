@@ -1,0 +1,69 @@
+{
+  "chinese": "谢谢，妈妈。",
+  "intent": "向母亲表达谢意。",
+  "comparison": null,
+  "backbone": {
+    "text": "Thanks, Mum.",
+    "meaning": "向妈妈道谢。"
+  },
+  "structureNotes": [
+    {
+      "title": "称呼放在致谢语后",
+      "text": "英语在日常口语里通常常先说出感谢内容，再点明致谢的对象；中文通常习惯是先称呼对方，再说出感谢的话语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Thanks,",
+      "role": "致谢用语",
+      "explanation": "表达感谢的核心内容，是英语口语里常用的省略致谢说法。"
+    },
+    {
+      "text": "Mum.",
+      "role": "称呼语",
+      "explanation": "点明致谢的对象是妈妈。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Thanks,",
+      "meaning": "谢谢",
+      "pos": "名词",
+      "phonetic": "/θæŋks/"
+    },
+    {
+      "text": "Mum.",
+      "meaning": "妈妈",
+      "pos": "名词",
+      "phonetic": "/mʌm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Thanks,",
+      "relation": "表达谢意",
+      "meaning": "谢谢"
+    },
+    {
+      "text": "Mum.",
+      "relation": "指明致谢的对象",
+      "meaning": "妈妈"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-65",
+  "sentenceId": "nce-1-lesson-065-sentence-016",
+  "sentenceOrder": 16,
+  "english": "Thanks, Mum.",
+  "lesson": "Lesson 65 Not a baby",
+  "notes": [
+    {
+      "title": "称呼放在致谢语后",
+      "text": "英语在日常口语里通常常先说出感谢内容，再点明致谢的对象；中文通常习惯是先称呼对方，再说出感谢的话语。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本准确，仅存在两处可优化的细节问题：1. Thanks 的词性标注为「感叹语」不够规范，其本质是名词复数形式，虽在感叹语境中使用，但词性应标注为名词；2. 结构说明与笔记中使用「常先」「习惯是」的表述稍显绝对，补充「通常」二字使其更符合口语灵活使用的实际情况，其余分块、释义、主干、关系标注等内容均正确无需修改。（非逐句人工审核）"
+}

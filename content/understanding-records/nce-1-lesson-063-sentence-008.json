@@ -1,0 +1,214 @@
+{
+  "chinese": "这个男孩还不能去上学，威廉斯先生。而且他不能吃油腻的食物。",
+  "intent": "医生向威廉斯先生告知对患病男孩的两项禁止性医嘱：暂时不能上学、不能吃油腻食物，明确需要遵守的健康禁忌事项。",
+  "comparison": {
+    "chinese": "这个男孩还不能去上学，威廉斯先生。而且他不能吃油腻的食物。",
+    "english": "The boy mustn't go to school yet, Mr. Williams. And he mustn't eat rich food.",
+    "steps": [
+      {
+        "label": "语序差异",
+        "text": "yet 在英文中位于否定句句末，中文对应的“还”要放在情态动词“能”的前面，即“还不能”。",
+        "explanation": "英文习惯把表“尚未、还”的否定副词yet放在谓语部分末尾，中文则把这类副词放在情态动词前面修饰能力判断。"
+      },
+      {
+        "label": "称呼位置",
+        "text": "Mr. Williams 放在第一句的句末，中文里呼语位置较灵活，常放在句子开头，也可置于句末。",
+        "explanation": "英文常把听话人称呼放在句末，中文对呼语的摆放更灵活，放在开头点明说话对象更符合日常对话习惯。"
+      }
+    ],
+    "takeaway": "掌握英文否定句中yet的句末位置、句末呼语的摆放习惯，和中文对应表达的语序差异。"
+  },
+  "backbone": {
+    "text": "The boy mustn't go to school. And he mustn't eat rich food.",
+    "meaning": "男孩不能去上学，也不能吃油腻食物。"
+  },
+  "structureNotes": [
+    {
+      "title": "yet的位置与含义",
+      "text": "yet用在否定句句末，表示“还、尚未”，说明某一动作现在还不可以做，常对应中文“还没/还不能”的表达，不可单独放在否定词之前。"
+    },
+    {
+      "title": "And衔接平行禁忌",
+      "text": "And连接两句同结构的禁止性医嘱，两句都使用mustn't说明要求必须严格遵守，语气一致，强化了需要规避的事项。"
+    },
+    {
+      "title": "句末呼语的作用",
+      "text": "Mr. Williams放在第一句末尾，是说话时对听话人的称呼，不充当句子主语或宾语，只点明医嘱告知的对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The boy",
+      "role": "主语",
+      "explanation": "指做出动作的人，也就是生病的男孩，是第一句的描述核心。"
+    },
+    {
+      "text": "mustn't go to school yet",
+      "role": "谓语部分",
+      "explanation": "mustn't是情态动词表禁止，go to school是动作内容，yet补充说明“还、尚未”的状态。"
+    },
+    {
+      "text": "Mr. Williams",
+      "role": "呼语",
+      "explanation": "放在句末，点明这番话是对威廉斯先生说的，不属于句子主干成分。"
+    },
+    {
+      "text": "And",
+      "role": "并列连词",
+      "explanation": "连接前后两句同属医嘱的禁止要求，表并列补充关系。"
+    },
+    {
+      "text": "he",
+      "role": "主语",
+      "explanation": "指代前文提到的the boy，是第二句的描述核心。"
+    },
+    {
+      "text": "mustn't eat rich food",
+      "role": "谓语部分",
+      "explanation": "mustn't表禁止，eat rich food是动作内容，rich修饰food说明是油腻、不宜多吃的食物。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "boy",
+      "meaning": "男孩",
+      "pos": "名词",
+      "phonetic": "/bɔɪ/"
+    },
+    {
+      "text": "mustn't",
+      "meaning": "不能，禁止（must not的缩写）",
+      "pos": "情态动词否定式",
+      "phonetic": "/ˈmʌsnt/"
+    },
+    {
+      "text": "go",
+      "meaning": "去",
+      "pos": "动词",
+      "phonetic": "/ɡəʊ/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "school",
+      "meaning": "学校",
+      "pos": "名词",
+      "phonetic": "/skuːl/"
+    },
+    {
+      "text": "yet,",
+      "meaning": "还，尚",
+      "pos": "副词",
+      "phonetic": "/jet/"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生（Mister的缩写）",
+      "pos": "名词（尊称缩写）",
+      "phonetic": "/ˈmɪstə/"
+    },
+    {
+      "text": "Williams.",
+      "meaning": "威廉斯（姓氏）",
+      "pos": "名词",
+      "phonetic": "/ˈwɪljəmz/"
+    },
+    {
+      "text": "And",
+      "meaning": "而且，和",
+      "pos": "并列连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词（主格）",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "mustn't",
+      "meaning": "不能，禁止（must not的缩写）",
+      "pos": "情态动词否定式",
+      "phonetic": "/ˈmʌsnt/"
+    },
+    {
+      "text": "eat",
+      "meaning": "吃",
+      "pos": "动词",
+      "phonetic": "/iːt/"
+    },
+    {
+      "text": "rich",
+      "meaning": "油腻的，富含脂肪的",
+      "pos": "形容词",
+      "phonetic": "/rɪtʃ/"
+    },
+    {
+      "text": "food.",
+      "meaning": "食物",
+      "pos": "名词",
+      "phonetic": "/fuːd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The boy",
+      "meaning": "这个男孩",
+      "relation": "句子的主语，指代患病的孩子"
+    },
+    {
+      "text": "mustn't go to school yet,",
+      "meaning": "还不能去上学",
+      "relation": "对主语的禁止性要求，yet补充说明“目前还不能”的状态"
+    },
+    {
+      "text": "Mr. Williams.",
+      "meaning": "威廉斯先生。",
+      "relation": "呼语，点明医嘱的告知对象，和前面的句子用逗号、句号分隔"
+    },
+    {
+      "text": "And",
+      "meaning": "而且",
+      "relation": "并列连接词，引出另一条平行的禁止性医嘱"
+    },
+    {
+      "text": "he mustn't eat rich food.",
+      "meaning": "他不能吃油腻的食物。",
+      "relation": "第二个禁止要求，补充对男孩饮食的禁忌约束"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-63",
+  "sentenceId": "nce-1-lesson-063-sentence-008",
+  "sentenceOrder": 8,
+  "english": "The boy mustn't go to school yet, Mr. Williams. And he mustn't eat rich food.",
+  "lesson": "Lesson 63 Thank you, doctor.",
+  "notes": [
+    {
+      "title": "yet的位置与含义",
+      "text": "yet用在否定句句末，表示“还、尚未”，说明某一动作现在还不可以做，常对应中文“还没/还不能”的表达，不可单独放在否定词之前。"
+    },
+    {
+      "title": "And衔接平行禁忌",
+      "text": "And连接两句同结构的禁止性医嘱，两句都使用mustn't说明要求必须严格遵守，语气一致，强化了需要规避的事项。"
+    },
+    {
+      "title": "句末呼语的作用",
+      "text": "Mr. Williams放在第一句末尾，是说话时对听话人的称呼，不充当句子主语或宾语，只点明医嘱告知的对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确，符合语法规则与上下文，但存在3处可优化的小问题：1. 词表中yet的释义误写为“还，尚（带逗号，作语气停顿）”，将附带的标点误认为词性功能表述，不准确；2. 结构与词表中rich修饰食物的释义为“油腻的，难消化的”，在饮食禁忌语境下，“油腻的，富含脂肪的”表意更贴切，无需强行加入“难消化”的引申表述；3. comparison中“Mr. Williams放在第一句句末，中文通常放在句子开头”的表述偏绝对，中文呼语灵活，也可放在句末，措辞应更严谨。其余内容、语序对比、主干提取、成分划分、分块释义均无错误，修正后可使用。（非逐句人工审核）"
+}

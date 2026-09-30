@@ -1,0 +1,111 @@
+{
+  "chinese": "碗橱里有一些。",
+  "intent": "回应前文询问杯子位置的问题，指明部分杯子所在的具体位置",
+  "comparison": null,
+  "backbone": {
+    "text": "There are some",
+    "meaning": "存在某部分事物（指代前文提到的杯子）"
+  },
+  "parts": [
+    {
+      "text": "There are",
+      "relation": "引出后续存在的事物",
+      "meaning": "表示存在的存现结构引导部分"
+    },
+    {
+      "text": "some",
+      "relation": "说明存在的具体事物",
+      "meaning": "一些（指代前文提到的杯子）"
+    },
+    {
+      "text": "in the cupboard.",
+      "relation": "补充说明这些事物所在的位置",
+      "meaning": "在碗橱里面"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "there be 存现结构",
+      "text": "本句用There are引出“存在某事物”的含义，没有实际指代“那里”，真正的位置信息由后续的介词短语补充说明。"
+    },
+    {
+      "title": "some的指代",
+      "text": "代词some直接承接前文问句里的cups，不需要重复写出cups就能明确指代部分杯子，避免表述冗余。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There are",
+      "role": "存现引导框架",
+      "explanation": "用于开启表示“某地存在某物”的表述，没有实际语义的地点指代功能。"
+    },
+    {
+      "text": "some",
+      "role": "存在主体",
+      "explanation": "指代上下文提到的多个可数事物中的一部分，本句中代指部分杯子。"
+    },
+    {
+      "text": "in the cupboard.",
+      "role": "地点状语",
+      "explanation": "明确说明前文提到的some所处的具体位置，补充完整存现场景的信息。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "存现结构引导词（无实际地点含义）",
+      "pos": "副词",
+      "phonetic": "/ðeə/",
+      "text": "There"
+    },
+    {
+      "meaning": "存在（be动词复数现在时形式）",
+      "pos": "动词",
+      "phonetic": "/ɑː/",
+      "text": "are"
+    },
+    {
+      "meaning": "一些（指代前文的杯子）",
+      "pos": "代词",
+      "phonetic": "/sʌm/",
+      "text": "some"
+    },
+    {
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这个（定冠词，特指双方都知道的碗橱）",
+      "pos": "限定词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "碗橱，橱柜",
+      "pos": "名词",
+      "phonetic": "/ˈkʌbəd/",
+      "text": "cupboard."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-43",
+  "sentenceId": "nce-1-lesson-043-sentence-011",
+  "sentenceOrder": 11,
+  "english": "There are some in the cupboard.",
+  "lesson": "Lesson 43 Hurry up!",
+  "notes": [
+    {
+      "title": "there be 存现结构",
+      "text": "本句用There are引出“存在某事物”的含义，没有实际指代“那里”，真正的位置信息由后续的介词短语补充说明。"
+    },
+    {
+      "title": "some的指代",
+      "text": "代词some直接承接前文问句里的cups，不需要重复写出cups就能明确指代部分杯子，避免表述冗余。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体符合教学要求，仅存在部分细节疏漏与comparison缺失的合规性问题，可明确修正。（非逐句人工审核）"
+}

@@ -1,0 +1,130 @@
+{
+  "chinese": "你们吃了什么？",
+  "intent": "询问对方过去某个时间的具体饮食内容。",
+  "comparison": {
+    "chinese": "你们吃了什么？",
+    "english": "What did you have?",
+    "steps": [
+      {
+        "label": "先确定核心动作",
+        "text": "you had something",
+        "explanation": "这句话的核心是“你们有/吃了某个东西”的过去经历，主语是 you，动词是 had。"
+      },
+      {
+        "label": "再用疑问词标出缺口",
+        "text": "What 放在句首",
+        "explanation": "What 直接代替动作缺失的宾语，问“什么东西”；不需要逐字译成“什么你吃”。"
+      },
+      {
+        "label": "最后加助动词构成疑问",
+        "text": "did you have",
+        "explanation": "过去时疑问用 did 提前，后面的实义动词 have 用原形；did 表示时间是过去，不再另加 yesterday 等词。"
+      }
+    ],
+    "takeaway": "英语用 did 表示过去疑问、把 What 放在句首锁定宾语；中文则是“吃了什么”。"
+  },
+  "backbone": {
+    "text": "What did you have?",
+    "meaning": "询问对方过去那一顿具体吃了什么东西。"
+  },
+  "structureNotes": [
+    {
+      "title": "助动词 did 的作用",
+      "text": "did 是过去时疑问标记，说明动作发生在过去；真正的动作由后面的 have 表达，不能写成 did you had。"
+    },
+    {
+      "title": "疑问词 What 的指代",
+      "text": "What 在句中作 have 的宾语，询问所吃的东西；结合前文 lunch，自然理解为“吃了什么”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What",
+      "role": "疑问代词（宾语）",
+      "explanation": "询问 have 的对象，即“什么东西”。"
+    },
+    {
+      "text": "did",
+      "role": "助动词",
+      "explanation": "表示一般过去时疑问，帮助构成倒装。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "动作的发出者，这里指被问的人。"
+    },
+    {
+      "text": "have",
+      "role": "谓语动词（原形）",
+      "explanation": "结合餐饮上下文表示“吃、喝”，在 did 后用原形。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What",
+      "meaning": "什么",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "did",
+      "meaning": "（助动词，构成过去时疑问）",
+      "pos": "动词do的过去式",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "you",
+      "meaning": "你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "have?",
+      "meaning": "吃，喝，有",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What",
+      "meaning": "什么",
+      "relation": "have 的宾语，指代询问的饮食内容"
+    },
+    {
+      "text": "did",
+      "meaning": "（构成过去时疑问的助动词）",
+      "relation": "无独立实义，配合构成过去时疑问句式"
+    },
+    {
+      "text": "you",
+      "meaning": "你们",
+      "relation": "句子主语，指被询问的对象"
+    },
+    {
+      "text": "have?",
+      "meaning": "吃？",
+      "relation": "谓语核心动作，结合餐饮上下文取“吃”的含义"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-81",
+  "sentenceId": "nce-1-lesson-081-sentence-015",
+  "sentenceOrder": 15,
+  "english": "What did you have?",
+  "lesson": "Lesson 81 Roast beef and potatoes",
+  "notes": [
+    {
+      "title": "助动词 did 的作用",
+      "text": "did 是过去时疑问标记，说明动作发生在过去；真正的动作由后面的 have 表达，不能写成 did you had。"
+    },
+    {
+      "title": "疑问词 What 的指代",
+      "text": "What 在句中作 have 的宾语，询问所吃的东西；结合前文 lunch，自然理解为“吃了什么”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体可通过。have? 分块的释义混入句末问号，关系表述也偏重，需要按动词实际义项拆开校正；其余解释与餐饮上下文一致，语法成分判断无误。（非逐句人工审核）"
+}

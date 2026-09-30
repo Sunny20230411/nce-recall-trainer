@@ -1,0 +1,80 @@
+{
+  "chinese": "它太干了。",
+  "intent": "描述前文提到的观察对象的干燥状态，带有对干燥程度的强调。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's dry.",
+    "meaning": "描述前文提到的观察对象处于干燥的状态。"
+  },
+  "structureNotes": [
+    {
+      "title": "程度副词修饰形容词",
+      "text": "terribly 是程度副词，此处用来修饰形容词 dry，放在被修饰词前面强化干燥的程度，结合语境可译为“非常、极其”，整体短语意为“非常干燥”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "句子主干（主语+系动词）",
+      "explanation": "It 指代前文提到的观察对象，是句子的主语；'s 是系动词 is 的缩写，二者共同构成句子的主系结构。"
+    },
+    {
+      "text": "terribly",
+      "role": "程度状语",
+      "explanation": "修饰形容词 dry，说明干燥的程度之深，意为“非常、极其”。"
+    },
+    {
+      "text": "dry.",
+      "role": "表语",
+      "explanation": "形容词作表语，跟在系动词后说明主语所处的干燥状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "它是（It is 的缩写）",
+      "pos": "代词+动词（缩写形式）",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "terribly",
+      "meaning": "非常；极其",
+      "pos": "副词",
+      "phonetic": "/ˈterəbli/"
+    },
+    {
+      "text": "dry.",
+      "meaning": "干燥的；干的",
+      "pos": "形容词",
+      "phonetic": "/draɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's",
+      "meaning": "它是",
+      "relation": "句子主干（主语+系动词），引出描述对象"
+    },
+    {
+      "text": "terribly dry.",
+      "meaning": "非常干燥。",
+      "relation": "作表语说明主语的具体状态，其中 terribly 表程度修饰 dry。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-125",
+  "sentenceId": "nce-1-lesson-125-sentence-006",
+  "sentenceOrder": 6,
+  "english": "It's terribly dry.",
+  "lesson": "Lesson 125 Tea for two",
+  "notes": [
+    {
+      "title": "程度副词修饰形容词",
+      "text": "terribly 是程度副词，此处用来修饰形容词 dry，放在被修饰词前面强化干燥的程度，结合语境可译为“非常、极其”，整体短语意为“非常干燥”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确清晰，准确拆分了主系表结构，修正了原数据中对's的错误解释。当前解析明确指出It是指代前文观察对象的主语，'s是is的缩写，符合语法事实与上下文语境，其余释义、语音、结构说明均无误。（非逐句人工审核）"
+}

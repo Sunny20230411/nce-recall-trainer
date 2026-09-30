@@ -1,0 +1,137 @@
+{
+  "chinese": "那个赛车现场有数百人到场。",
+  "intent": "描述1995年那场盛大汽车比赛的现场规模，客观说明有数百名观众前往现场观赛，人数众多。",
+  "comparison": {
+    "chinese": "我们习惯把地点放句首引出存在状态：“那个现场有数百人”；英语的存在句则先给出There be的存在框架，再引出实际的存在对象，最后用地点副词收尾。",
+    "english": "There were hundreds of people there.",
+    "steps": [
+      {
+        "label": "存在句先搭框架",
+        "text": "There were",
+        "explanation": "开头的There没有实际词义，只表示“存在、有”这个框架，were提示后面的名词是复数、且描述过去的情况。"
+      },
+      {
+        "label": "引出实际主语",
+        "text": "hundreds of people",
+        "explanation": "这部分才是句子要说明的实际对象——几百号人，因为是复数，be动词对应使用were而不是was。"
+      },
+      {
+        "label": "补出地点",
+        "text": "there",
+        "explanation": "句尾的there是地点副词，指前文提到的赛车现场，说明“这些人是在那个场地里”，和句首无实义的引导性There功能完全不同。"
+      }
+    ],
+    "takeaway": "英语存在句用There be框架引出复数的人或物，再补地点；中文常把地点放前面说“某地有…”。"
+  },
+  "backbone": {
+    "text": "There were hundreds of people there.",
+    "meaning": "那个比赛现场当时有数百名观众在场。"
+  },
+  "structureNotes": [
+    {
+      "title": "There be过去式的数一致",
+      "text": "后面真正的主语是复数的hundreds of people，因此be动词用were而不是was，用来表示过去某个时间场地里存在这么多人。"
+    },
+    {
+      "title": "两个there功能不同",
+      "text": "句首的There是存在句的引导词，没有实际词义；句尾的there是地点副词，回指前文提到的那场大型赛车的现场。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There",
+      "role": "存在句引导词",
+      "explanation": "不指代具体地点，只用来引出“某地存在某物/某人”的表述，本身没有实际词义。"
+    },
+    {
+      "text": "were",
+      "role": "过去式be动词",
+      "explanation": "和后面的复数主语hundreds of people保持数的一致，表示“过去存在”的状态。"
+    },
+    {
+      "text": "hundreds of people",
+      "role": "存在句的实际主语",
+      "explanation": "是句子真正要说明的人，hundreds of表示“数百、好几百”，是概数而非精确数字。"
+    },
+    {
+      "text": "there",
+      "role": "地点状语",
+      "explanation": "此处是实义地点副词，指前文提及的赛车比赛现场，说明人所在的位置。"
+    }
+  ],
+  "words": [
+    {
+      "text": "There",
+      "meaning": "（存在句引导词，无实义）",
+      "pos": "引导词",
+      "phonetic": "/ðeə(r)/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（are的过去式）",
+      "pos": "be动词",
+      "phonetic": "/wɜː(r)/"
+    },
+    {
+      "text": "hundreds",
+      "meaning": "数百、许多",
+      "pos": "数词复数",
+      "phonetic": "/ˈhʌndrədz/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "people",
+      "meaning": "人们",
+      "pos": "名词复数",
+      "phonetic": "/ˈpiːpl/"
+    },
+    {
+      "text": "there.",
+      "meaning": "在那里；在该处",
+      "pos": "地点副词",
+      "phonetic": "/ðeə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "There were",
+      "meaning": "（句首存在句框架，表“过去有”）",
+      "relation": "引出存在状态"
+    },
+    {
+      "text": "hundreds of people",
+      "meaning": "数百人",
+      "relation": "被描述的实际对象"
+    },
+    {
+      "text": "there.",
+      "meaning": "在那个赛车场地里。",
+      "relation": "补充说明所在的地点。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-69",
+  "sentenceId": "nce-1-lesson-069-sentence-002",
+  "sentenceOrder": 2,
+  "english": "There were hundreds of people there.",
+  "lesson": "Lesson 69 The car race",
+  "notes": [
+    {
+      "title": "There be过去式的数一致",
+      "text": "后面真正的主语是复数的hundreds of people，因此be动词用were而不是was，用来表示过去某个时间场地里存在这么多人。"
+    },
+    {
+      "title": "两个there功能不同",
+      "text": "句首的There是存在句的引导词，没有实际词义；句尾的there是地点副词，回指前文提到的那场大型赛车的现场。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析整体准确清晰，两个there的功能区分、there be句型的主谓一致规则说明到位，比较内容贴合汉英存在句的语序差异，分块和核心主干解释完整。仅存在两处可优化小问题：一是例句前的中文译文仅直译字面含义，未结合上文的赛车现场补充语境指代；二是单词表中there的音标保留了原句末尾的句号，属于录入小瑕疵。其余内容符合成人中文母语学习者的学习需求，可直接通过。（非逐句人工审核）"
+}

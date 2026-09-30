@@ -1,0 +1,97 @@
+{
+  "chinese": "我喜欢春天和夏天。",
+  "intent": "陈述个人对春季和夏季两个季节的喜好。",
+  "comparison": null,
+  "backbone": {
+    "text": "I like spring and summer.",
+    "meaning": "我同时喜爱春天与夏天这两个季节。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列宾语的表达",
+      "text": "用 and 连接 spring 和 summer 两个并列的季节名词，二者在句中同作 like 的宾语，共同说明喜欢的对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人本人，是“喜欢”这个动作的发出者。"
+    },
+    {
+      "text": "like",
+      "role": "谓语",
+      "explanation": "表达喜好的实义动词，用一般现在时说明惯常的喜好。"
+    },
+    {
+      "text": "spring and summer.",
+      "role": "宾语",
+      "explanation": "由并列连词 and 连接的两个季节名词，共同作 like 的宾语。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "喜欢",
+      "pos": "动词",
+      "phonetic": "/laɪk/",
+      "text": "like"
+    },
+    {
+      "meaning": "春天",
+      "pos": "名词",
+      "phonetic": "/sprɪŋ/",
+      "text": "spring"
+    },
+    {
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "夏天",
+      "pos": "名词",
+      "phonetic": "/ˈsʌmə/",
+      "text": "summer."
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "句子的动作发出者，即喜好的主体。"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢",
+      "relation": "主语发出的核心动作，表达主观喜好。"
+    },
+    {
+      "text": "spring and summer.",
+      "meaning": "春天和夏天",
+      "relation": "动作的对象，说明喜欢的具体季节。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-53",
+  "sentenceId": "nce-1-lesson-053-sentence-008",
+  "sentenceOrder": 8,
+  "english": "I like spring and summer.",
+  "lesson": "Lesson 53 An interesting climate",
+  "notes": [
+    {
+      "title": "并列宾语的表达",
+      "text": "用 and 连接 spring 和 summer 两个并列的季节名词，二者在句中同作 like 的宾语，共同说明喜欢的对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析对句子主干、句法成分、词汇音标和分块含义的说明整体正确，主谓宾关系清晰，词汇标注符合英式音标规范。仅需将 summer 分块中的标点从语义说明中分离，避免学习者把句末句号当作词义的一部分。（非逐句人工审核）"
+}

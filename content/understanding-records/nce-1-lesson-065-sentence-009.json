@@ -1,0 +1,115 @@
+{
+  "chinese": "把钥匙给她。",
+  "intent": "发出明确指令，要求将钥匙交给对应的对象。",
+  "comparison": {
+    "chinese": "中文说“把钥匙给她”，会把交付的对象放到动词前面，突出钥匙这个核心事物；英文用 Give 开头，紧跟接收对象 her，最后接交付物 the key。",
+    "english": "Give her the key.",
+    "steps": [
+      {
+        "label": "接收对象前置",
+        "text": "Give her",
+        "explanation": "her 紧跟在 Give 后面，先点明要把东西交给“她”。"
+      },
+      {
+        "label": "交付物品收尾",
+        "text": "the key",
+        "explanation": "the key 放在句末，说明具体要交付的物品是钥匙。"
+      }
+    ],
+    "takeaway": "中文和英语都是祈使指令，只是物品和接收人的摆放顺序不同。"
+  },
+  "backbone": {
+    "text": "Give her the key.",
+    "meaning": "将钥匙递给她。"
+  },
+  "structureNotes": [
+    {
+      "title": "祈使句的形式",
+      "text": "这是直接给指令的祈使句，省略了默认的听话人 you，直接以动词 Give 开头表达要求。"
+    },
+    {
+      "title": "双宾语的基本顺序",
+      "text": "Give 后面先接接收对象 her，再接被交付的物品 the key，顺序和中文“把钥匙给她”的习惯不同。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Give",
+      "role": "谓语动词",
+      "explanation": "祈使句的核心动作，表示交付、递给。"
+    },
+    {
+      "text": "her",
+      "role": "间接宾语",
+      "explanation": "动作的接收对象，指女性的“她”。"
+    },
+    {
+      "text": "the key",
+      "role": "直接宾语",
+      "explanation": "被交付的具体物品，也就是钥匙。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "给、递给",
+      "pos": "动词",
+      "phonetic": "/ɡɪv/",
+      "text": "Give"
+    },
+    {
+      "meaning": "她（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɜː/",
+      "text": "her"
+    },
+    {
+      "meaning": "这（表特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "钥匙",
+      "pos": "名词",
+      "phonetic": "/kiː/",
+      "text": "key."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Give",
+      "meaning": "给、递交",
+      "relation": "整个指令的核心动作"
+    },
+    {
+      "text": "her",
+      "meaning": "她",
+      "relation": "说明钥匙要交付给的对象"
+    },
+    {
+      "text": "the key.",
+      "meaning": "钥匙",
+      "relation": "说明要交付的具体物品，末尾带句号标记祈使句结束"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-65",
+  "sentenceId": "nce-1-lesson-065-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Give her the key.",
+  "lesson": "Lesson 65 Not a baby",
+  "notes": [
+    {
+      "title": "祈使句的形式",
+      "text": "这是直接给指令的祈使句，省略了默认的听话人 you，直接以动词 Give 开头表达要求。"
+    },
+    {
+      "title": "双宾语的基本顺序",
+      "text": "Give 后面先接接收对象 her，再接被交付的物品 the key，顺序和中文“把钥匙给她”的习惯不同。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体释义、结构划分和双宾语关系基本正确；仅末词块把 key. 的句号包含进词义说明，宜改为仅说明 key 的词义。（非逐句人工审核）"
+}

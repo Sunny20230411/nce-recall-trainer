@@ -1,0 +1,136 @@
+{
+  "chinese": "他说他刚到苏格兰。",
+  "intent": "转述他人讲述的自己刚刚抵达苏格兰的情况。",
+  "comparison": {
+    "chinese": "他说他刚到苏格兰。",
+    "english": "He says he's just arrived in Scotland.",
+    "steps": [
+      {
+        "label": "主句先点明转述来源",
+        "text": "He says…",
+        "explanation": "中文会把转述动词放在句首，先说“他说”，再引出后面的内容；英文这里也是先给出 He says，说明后面讲的不是眼前人直接说的话，而是转述的信息。"
+      },
+      {
+        "label": "转述内容用现在完成时表刚完成",
+        "text": "he's just arrived in Scotland",
+        "explanation": "英文用 he has just arrived 表示“刚刚到达”，arrive 是短暂动作，用现在完成时强调和当下的关联；中文不需要额外加时态标记，用“刚”就可以表达这个意思。"
+      },
+      {
+        "label": "地点用介词 in 引出",
+        "text": "in Scotland",
+        "explanation": "英文表示“到达某个大范围地区”时用 arrive in；中文直接说“到苏格兰”，不需要对应介词。"
+      }
+    ],
+    "takeaway": "英文靠 He says 标记转述来源，再用现在完成时加 just 表达“刚到”，中文则用“他说”引出内容，靠“刚”对应这个时间状态。"
+  },
+  "backbone": {
+    "text": "He says he's arrived in Scotland.",
+    "meaning": "（核心主干）他说自己已经抵达苏格兰。"
+  },
+  "structureNotes": [
+    {
+      "title": "say 后接省略 that 的宾语从句",
+      "text": "He says 后面直接引出转述的内容 he's just arrived…，这里省略了引导宾语从句的 that。理解时先抓住 He says“他说”，再看后面的从句就是他说出的具体内容。"
+    },
+    {
+      "title": "just 搭配现在完成时表“刚刚”",
+      "text": "he's just arrived 里 he's 是 he has 的缩写，has arrived 是现在完成时；just 放在助动词 has 和实义动词 arrived 之间，表示动作刚刚发生。"
+    },
+    {
+      "title": "arrive in 后接大地点",
+      "text": "arrive 表示“到达”，后面接城市、国家这类大范围地点时搭配介词 in；Scotland 是国家级地区，所以说 arrived in Scotland。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He says",
+      "role": "主句",
+      "explanation": "交代转述的来源，说明后面内容是他所说的话。"
+    },
+    {
+      "text": "he's just arrived in Scotland.",
+      "role": "宾语从句（省略 that）",
+      "explanation": "作 says 的宾语，具体说明他所说的内容。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "says",
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/sez/"
+    },
+    {
+      "text": "he's",
+      "meaning": "他已经",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/hiːz/"
+    },
+    {
+      "text": "just",
+      "meaning": "刚刚",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "arrived",
+      "meaning": "到达",
+      "pos": "动词（过去分词）",
+      "phonetic": "/əˈraɪvd/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（大地点前）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "Scotland.",
+      "meaning": "苏格兰",
+      "pos": "名词",
+      "phonetic": "/ˈskɒtlənd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He says",
+      "relation": "主句，引出后面转述的全部内容。",
+      "meaning": "他说"
+    },
+    {
+      "text": "he's just arrived in Scotland.",
+      "relation": "作 says 的宾语，说明他所说的具体信息。",
+      "meaning": "他刚到苏格兰。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-101",
+  "sentenceId": "nce-1-lesson-101-sentence-004",
+  "sentenceOrder": 4,
+  "english": "He says he's just arrived in Scotland.",
+  "lesson": "Lesson 101 A card from Jimmy",
+  "notes": [
+    {
+      "title": "say 后接省略 that 的宾语从句",
+      "text": "He says 后面直接引出转述的内容 he's just arrived…，这里省略了引导宾语从句的 that。理解时先抓住 He says“他说”，再看后面的从句就是他说出的具体内容。"
+    },
+    {
+      "title": "just 搭配现在完成时表“刚刚”",
+      "text": "he's just arrived 里 he's 是 he has 的缩写，has arrived 是现在完成时；just 放在助动词 has 和实义动词 arrived 之间，表示动作刚刚发生。"
+    },
+    {
+      "title": "arrive in 后接大地点",
+      "text": "arrive 表示“到达”，后面接城市、国家这类大范围地点时搭配介词 in；Scotland 是国家级地区，所以说 arrived in Scotland。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析正确，主从结构、转述从句、时态和 arrive in 的用法说明均符合语境。仅两个小点需收紧：Scotland 的单词释义误带原句句末句号；backbone 删去 just 后未在中文含义中说明这是核心主干简化形式，以免读者误以为主干句仍表示“刚到”。（非逐句人工审核）"
+}

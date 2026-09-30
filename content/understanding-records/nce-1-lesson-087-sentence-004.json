@@ -1,0 +1,151 @@
+{
+  "chinese": "您什么时候把它送到我们这里来的？",
+  "intent": "用于询问对方将某物送到己方场所的具体时间，属于针对过去已完成动作的时间提问。",
+  "comparison": {
+    "chinese": "您什么时候把它送到我们这里来的？",
+    "english": "When did you bring it to us?",
+    "steps": [
+      {
+        "label": "先确定已知信息",
+        "text": "you bring it to us",
+        "explanation": "说话人已经知道“你把它送到我们这里”这件事已经发生，动作由you发出，it是被送来的对象，送达对象是us。"
+      },
+      {
+        "label": "再标记要问的缺失信息",
+        "text": "When",
+        "explanation": "When放在句首，专门指向整个动作发生的时间，是需要对方回答的核心内容。"
+      },
+      {
+        "label": "最后看提问的语法标记",
+        "text": "did",
+        "explanation": "did放在主语you之前，说明这是对过去动作的提问；原实义动词bring保持原形，过去时间的信息已经由did承载。"
+      }
+    ],
+    "takeaway": "英语问过去动作发生在什么时候，用“When + did + 主语 + 动词原形”的结构，实义动词本身不再变为过去式。"
+  },
+  "backbone": {
+    "text": "你什么时候把它送到我们这里来的？",
+    "meaning": "询问对方将物品送达己方的具体时间。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间疑问词引出问题",
+      "text": "When位于句首，直接指向“送过来”这个动作的发生时间，是整句话要询问的核心内容。"
+    },
+    {
+      "title": "助动词did标记过去",
+      "text": "did放在主语you前面，说明这是对过去已经发生的动作提问，实义动词bring使用原形，不需要再变形为过去式。"
+    },
+    {
+      "title": "介宾短语说明送达路径",
+      "text": "bring it to us中，it是被运送的物品，us是送达的接收对象，to与us构成介宾短语作状语，明确了物品的移动方向是朝向说话人一方。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When",
+      "role": "疑问副词",
+      "explanation": "引出时间提问，询问动作发生的具体时刻。"
+    },
+    {
+      "text": "did",
+      "role": "助动词",
+      "explanation": "帮助构成一般过去时的疑问句，体现动作发生在过去。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "发出“送来”这个动作的人。"
+    },
+    {
+      "text": "bring it to us",
+      "role": "谓语及动作相关成分",
+      "explanation": "bring是实义动词原形，it是动作的对象，to us说明送达的接收方。"
+    }
+  ],
+  "words": [
+    {
+      "text": "When",
+      "meaning": "什么时候",
+      "pos": "疑问副词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "did",
+      "meaning": "助动词（do的过去式，用于构成疑问句）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；您",
+      "pos": "代词",
+      "phonetic": "/ju:/"
+    },
+    {
+      "text": "bring",
+      "meaning": "带来；送来",
+      "pos": "动词",
+      "phonetic": "/brɪŋ/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指前文提到的车辆）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "to",
+      "meaning": "到；向",
+      "pos": "介词",
+      "phonetic": "/tu:/"
+    },
+    {
+      "text": "us?",
+      "meaning": "我们（we的宾格）",
+      "pos": "代词",
+      "phonetic": "/ʌs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "When",
+      "meaning": "什么时候",
+      "relation": "询问的核心对象，指向送车动作发生的时间"
+    },
+    {
+      "text": "did you bring",
+      "meaning": "（助动词did搭配主语you和实义动词bring）你（过去）送来、带来",
+      "relation": "标记句子为过去时的疑问结构，引出动作发出者“你”"
+    },
+    {
+      "text": "it to us?",
+      "meaning": "把它送到我们这里？",
+      "relation": "描述被询问的具体动作：把它送到我们这里"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-87",
+  "sentenceId": "nce-1-lesson-087-sentence-004",
+  "sentenceOrder": 4,
+  "english": "When did you bring it to us?",
+  "lesson": "Lesson 87 A car crash",
+  "notes": [
+    {
+      "title": "时间疑问词引出问题",
+      "text": "When位于句首，直接指向“送过来”这个动作的发生时间，是整句话要询问的核心内容。"
+    },
+    {
+      "title": "助动词did标记过去",
+      "text": "did放在主语you前面，说明这是对过去已经发生的动作提问，实义动词bring使用原形，不需要再变形为过去式。"
+    },
+    {
+      "title": "介宾短语说明送达路径",
+      "text": "bring it to us中，it是被运送的物品，us是送达的接收对象，to与us构成介宾短语作状语，明确了物品的移动方向是朝向说话人一方。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文整体理解基本正确。存在三处可修正问题：1. words中us?的音标未剥离问号，不符合音标标注规范；2. structureNotes和notes中对bring it to us的双宾语表述不准确，bring后接it作直接宾语，us需搭配介词to作状语，不属于双宾语结构；3. parts中did you bring的meaning错误标注为did you，遗漏了实义动词bring的语义。其余内容准确无歧义。（非逐句人工审核）"
+}

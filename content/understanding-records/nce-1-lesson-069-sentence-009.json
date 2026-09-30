@@ -1,0 +1,97 @@
+{
+  "chinese": "获胜者是比利·斯图尔特。",
+  "intent": "点明车赛的获胜者身份。",
+  "comparison": null,
+  "backbone": {
+    "text": "The winner was Billy Stewart.",
+    "meaning": "获胜者是比利·斯图尔特。"
+  },
+  "structureNotes": [
+    {
+      "title": "be动词表身份",
+      "text": "was 连接主语 The winner 与表语 Billy Stewart，直接说明前者是谁。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The winner",
+      "role": "主语",
+      "explanation": "指比赛获胜的人。"
+    },
+    {
+      "text": "was",
+      "role": "系动词",
+      "explanation": "表示“是”，连接主语和表语。"
+    },
+    {
+      "text": "Billy Stewart",
+      "role": "表语",
+      "explanation": "说明主语的具体身份。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "（定冠词，特指本次比赛的获胜者）",
+      "pos": "det.",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "winner",
+      "meaning": "获胜者",
+      "pos": "n.",
+      "phonetic": "/ˈwɪnə/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（am/is 的过去式）",
+      "pos": "v.",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "Billy",
+      "meaning": "比利（男子名）",
+      "pos": "n.",
+      "phonetic": "/ˈbɪli/"
+    },
+    {
+      "text": "Stewart.",
+      "meaning": "斯图尔特（姓氏）。",
+      "pos": "n.",
+      "phonetic": "/ˈstjuːət/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The winner",
+      "relation": "句子主语，指本次比赛夺冠的人",
+      "meaning": "获胜者"
+    },
+    {
+      "text": "was",
+      "relation": "连接主语与表语的系动词",
+      "meaning": "是"
+    },
+    {
+      "text": "Billy Stewart.",
+      "relation": "表语，说明获胜者的具体身份",
+      "meaning": "比利·斯图尔特。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-69",
+  "sentenceId": "nce-1-lesson-069-sentence-009",
+  "sentenceOrder": 9,
+  "english": "The winner was Billy Stewart.",
+  "lesson": "Lesson 69 The car race",
+  "notes": [
+    {
+      "title": "be动词表身份",
+      "text": "was 连接主语 The winner 与表语 Billy Stewart，直接说明前者是谁。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句、中文翻译、主干、结构切分和词义解释整体一致；只需修正 Stewart 词条音标字段中的多余句点，避免音标字段被标点污染。（非逐句人工审核）"
+}

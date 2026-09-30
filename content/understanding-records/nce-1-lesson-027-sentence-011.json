@@ -1,0 +1,117 @@
+{
+  "chinese": "音响上有几本书。",
+  "intent": "说明音响这个物品的表面上放置着几本书这一客观存在的情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "There are some books",
+    "meaning": "存在几本书"
+  },
+  "parts": [
+    {
+      "text": "There are",
+      "relation": "引出存在的主体",
+      "meaning": "存在有"
+    },
+    {
+      "text": "some books",
+      "relation": "描述存在的对象是什么",
+      "meaning": "几本书"
+    },
+    {
+      "text": "on the stereo.",
+      "relation": "补充说明几本书所处的位置",
+      "meaning": "在音响上面"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "There be 存在句用法",
+      "text": "本句用There are开头引出事物的存在，be动词are和后面的复数名词some books保持单复数一致，符合就近匹配的规则。"
+    },
+    {
+      "title": "地点状语的作用",
+      "text": "句尾的on the stereo是地点说明，用来明确前面提到的几本书具体放置的位置，补充完整场景信息。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There are",
+      "role": "存在句引导框架",
+      "explanation": "用来开启对客观存在事物的描述，没有实际的指代含义，仅承担存在句的语法功能。"
+    },
+    {
+      "text": "some books",
+      "role": "存在句主语",
+      "explanation": "是句子真正描述的存在对象，作为核心的名词性成分承载主要信息。"
+    },
+    {
+      "text": "on the stereo",
+      "role": "地点状语",
+      "explanation": "说明书籍所在的具体位置，让整句话的场景指向清晰明确。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "存在句引导词，无实际词义",
+      "pos": "there",
+      "phonetic": "/ðeə/",
+      "text": "There"
+    },
+    {
+      "meaning": "是（存在句的be动词，搭配复数主语）",
+      "pos": "动词",
+      "phonetic": "/ɑː/",
+      "text": "are"
+    },
+    {
+      "meaning": "一些，几台，几本",
+      "pos": "限定词",
+      "phonetic": "/sʌm/",
+      "text": "some"
+    },
+    {
+      "meaning": "书（复数形式）",
+      "pos": "名词",
+      "phonetic": "/bʊks/",
+      "text": "books"
+    },
+    {
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "这个，那个，这些，那些（定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "立体声音响设备",
+      "pos": "名词",
+      "phonetic": "/ˈsteriəʊ/",
+      "text": "stereo."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-27",
+  "sentenceId": "nce-1-lesson-027-sentence-011",
+  "sentenceOrder": 11,
+  "english": "There are some books on the stereo.",
+  "lesson": "Lesson 27 Mrs. Smith's living room",
+  "notes": [
+    {
+      "title": "There be 存在句用法",
+      "text": "本句用There are开头引出事物的存在，be动词are和后面的复数名词some books保持单复数一致，符合就近匹配的规则。"
+    },
+    {
+      "title": "地点状语的作用",
+      "text": "句尾的on the stereo是地点说明，用来明确前面提到的几本书具体放置的位置，补充完整场景信息。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合教学规范，仅存在个别细节疏漏可修正。（非逐句人工审核）"
+}

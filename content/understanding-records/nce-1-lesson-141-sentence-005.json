@@ -1,0 +1,162 @@
+{
+  "chinese": "突然，一位中年女士上了火车，坐在萨莉对面。",
+  "intent": "叙述火车上突然出现的人物，以及她和萨莉的位置关系。",
+  "comparison": null,
+  "backbone": {
+    "text": "A lady got on the train and sat opposite Sally.",
+    "meaning": "一位女士上了火车，坐在萨莉对面。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列谓语按动作顺序排列",
+      "text": "两个谓语 got on… 与 sat… 由 and 连接，叙述同一主语接连发生的动作，先上车后坐下，符合事件发生的时间顺序。"
+    },
+    {
+      "title": "opposite Sally 说明坐下的位置",
+      "text": "sat opposite Sally 中 opposite Sally 是介词短语作方位状语，说明坐的位置在萨莉对面，不指朝向动作本身。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Suddenly",
+      "role": "句首状语",
+      "explanation": "表示事件发生得突然。"
+    },
+    {
+      "text": "a middle-aged lady",
+      "role": "主语",
+      "explanation": "动作发出者，即这位中年女士。"
+    },
+    {
+      "text": "a middle-aged",
+      "role": "前置定语",
+      "explanation": "修饰 lady，说明她的年龄段。"
+    },
+    {
+      "text": "got on the train",
+      "role": "谓语 + 宾语",
+      "explanation": "第一个动作短语，表示上车。"
+    },
+    {
+      "text": "and sat opposite Sally",
+      "role": "并列谓语",
+      "explanation": "第二个动作短语，表示坐下后的位置。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Suddenly,",
+      "meaning": "突然地",
+      "pos": "副词",
+      "phonetic": "/ˈsʌdənli/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（位）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "middle-aged",
+      "meaning": "中年的",
+      "pos": "形容词",
+      "phonetic": "/ˌmɪdl ˈeɪdʒd/"
+    },
+    {
+      "text": "lady",
+      "meaning": "女士",
+      "pos": "名词",
+      "phonetic": "/ˈleɪdi/"
+    },
+    {
+      "text": "got",
+      "meaning": "进入、登上",
+      "pos": "动词（get 的过去式）",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "on",
+      "meaning": "上、在……之上",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "那辆",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "train",
+      "meaning": "火车",
+      "pos": "名词",
+      "phonetic": "/treɪn/"
+    },
+    {
+      "text": "and",
+      "meaning": "接着、于是",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "sat",
+      "meaning": "坐",
+      "pos": "动词（sit 的过去式）",
+      "phonetic": "/sæt/"
+    },
+    {
+      "text": "opposite",
+      "meaning": "在……对面",
+      "pos": "介词",
+      "phonetic": "/ˈɒpəzɪt/"
+    },
+    {
+      "text": "Sally.",
+      "meaning": "萨莉",
+      "pos": "专有名词",
+      "phonetic": "/ˈsæli/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Suddenly,",
+      "meaning": "突然",
+      "relation": "补充事件发生的突然性"
+    },
+    {
+      "text": "a middle-aged lady",
+      "meaning": "一位中年女士",
+      "relation": "句子主语，说明动作发出者"
+    },
+    {
+      "text": "got on the train",
+      "meaning": "上了火车",
+      "relation": "第一个连续动作"
+    },
+    {
+      "text": "and sat opposite Sally.",
+      "meaning": "并且坐在萨莉对面",
+      "relation": "第二个连续动作，补充坐下的位置"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-141",
+  "sentenceId": "nce-1-lesson-141-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Suddenly, a middle-aged lady got on the train and sat opposite Sally.",
+  "lesson": "Lesson 141 Sally's first train ride",
+  "notes": [
+    {
+      "title": "并列谓语按动作顺序排列",
+      "text": "两个谓语 got on… 与 sat… 由 and 连接，叙述同一主语接连发生的动作，先上车后坐下，符合事件发生的时间顺序。"
+    },
+    {
+      "title": "opposite Sally 说明坐下的位置",
+      "text": "sat opposite Sally 中 opposite Sally 是介词短语作方位状语，说明坐的位置在萨莉对面，不指朝向动作本身。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：全句主干、并列谓语、定语、状语与译文均与原文一致，无角色、指代、词义或语法关系错误。仅需微调两处表述：将 opposite 的说明由“方位补语”改为更稳妥的介词短语/方位状语；将 and 的“和、接着”合并为“接着、于是”，以更准确体现两个动作的先后顺序。（非逐句人工审核）"
+}

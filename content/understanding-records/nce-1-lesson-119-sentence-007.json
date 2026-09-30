@@ -1,0 +1,85 @@
+{
+  "chinese": "“怎么了？”",
+  "intent": "还原直接引语中说话人的惊问，理解被问者听到的问话内容，承接前文有人在身后发话的场景。",
+  "comparison": {
+    "chinese": "汉语习惯问“怎么了？出什么事了？”，直接说状态异常；英语口语用 What's up? 把状态疑问压缩成固定短句。",
+    "english": "What's up?",
+    "steps": [
+      {
+        "label": "先理解这是直接引语",
+        "text": "What's up?",
+        "explanation": "这是身后那人喊出的问话，不是小偷自言自语；问的是现场发生了什么异常情况。"
+      },
+      {
+        "label": "固定口语表达的对应",
+        "text": "What's = What is",
+        "explanation": "up 在这里不指“向上”，和 What's 搭配成日常口语，意思等同于“怎么了？出什么事了？”。"
+      }
+    ],
+    "takeaway": "What's up? 是口语里打听“发生了什么、有什么事”的固定说法，不要直译成“什么在上面”。"
+  },
+  "backbone": {
+    "text": "What's up?",
+    "meaning": "出什么事了？怎么了？"
+  },
+  "structureNotes": [
+    {
+      "title": "倒装疑问结构",
+      "text": "正常语序为 Something is up（出事了）；变为疑问句时，用 what 指代被问的“事”并提到句首，形成 What is sth up? 的倒装结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's",
+      "role": "疑问代词+缩约系动词",
+      "explanation": "What 是疑问代词，在句中作表语；'s 是 is 的口语缩约形式，整体引导倒装疑问句。"
+    },
+    {
+      "text": "up?",
+      "role": "表语形容词",
+      "explanation": "up 在此是形容词，表“异常、正在发生状况的”状态，和 What's 组成固定口语问句。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'What's",
+      "meaning": "什么（What is 的口语缩约形式，用于引导问句）",
+      "pos": "疑问代词+系动词缩约形式",
+      "phonetic": "ˈwɒts"
+    },
+    {
+      "text": "up?",
+      "meaning": "异常的，在口语固定搭配 What's up 中表“出状况、怎么了”",
+      "pos": "形容词（固定习语成分）",
+      "phonetic": "ʌp"
+    }
+  ],
+  "parts": [
+    {
+      "text": "'What's",
+      "meaning": "‘怎么了（What is 的口语缩约）",
+      "relation": "直接引语的疑问引导成分，引出问话内容。"
+    },
+    {
+      "text": "up?",
+      "meaning": "？’",
+      "relation": "和前面 What's 组成固定口语问句，点明问话的疑问语气。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-119",
+  "sentenceId": "nce-1-lesson-119-sentence-007",
+  "sentenceOrder": 7,
+  "english": "'What's up?",
+  "lesson": "Lesson 119 A true story",
+  "notes": [
+    {
+      "title": "倒装疑问结构",
+      "text": "正常语序为 Something is up（出事了）；变为疑问句时，用 what 指代被问的“事”并提到句首，形成 What is sth up? 的倒装结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有内容基本合理，修正了up被孤立标注为形容词的不当表述，将其明确为What's up固定习语的一部分，补足了该句倒装疑问结构的成分拆分，消除了原结构标注中不标注表语的遗漏问题，同时调整了词语解释和断句对应翻译，使其和实际语法结构匹配。（非逐句人工审核）"
+}

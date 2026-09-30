@@ -1,0 +1,161 @@
+{
+  "chinese": "不是，她是在美国买的。",
+  "intent": "针对对方提出的「她是在这里买的这些吗」这一疑问给出否定回应，同时说明实际购买地点是美国，纠正对方的猜测。",
+  "comparison": {
+    "chinese": "不是，她是在美国买的。",
+    "english": "No, she bought them in the U.S.",
+    "steps": [
+      {
+        "label": "先回答疑问的对错",
+        "text": "No 直接对应「不是」",
+        "explanation": "用一个简短的否定词先回应对方核心疑问是否成立，不需要重复完整问句。"
+      },
+      {
+        "label": "给出完整事实",
+        "text": "she bought them 对应「她买了它们」",
+        "explanation": "主语是她，动作是买，them指代前面提到的那双鞋子，避免重复名词。"
+      },
+      {
+        "label": "交代地点位置",
+        "text": "in the U.S. 放在句尾对应「在美国」",
+        "explanation": "英文把动作发生的地点放在句子末尾；中文译文使用「是在美国买的」这一强调结构，把地点放在「是」和「买的」之间，用来突出购买地点，是中文为了强调信息采用的自然表达。"
+      }
+    ],
+    "takeaway": "否定回答可先用简短No直接表态，再用完整小句补充事实与地点；英文将地点状语放在句尾，中文可用「是……的」结构把地点提前强调，这种表达服务于突出地点，并非原句有逐字对应的语法成分。"
+  },
+  "backbone": {
+    "text": "No, she bought them in the U.S.",
+    "meaning": "否定了「她在这里买的」这个猜测，说明她当初买它们的地点是美国。"
+  },
+  "structureNotes": [
+    {
+      "title": "代词指代",
+      "text": "句中的them指代对话上文提到的那双鞋子，避免重复使用名词，让表达更简洁。"
+    },
+    {
+      "title": "地点状语位置",
+      "text": "介词短语in the U.S.放在动词bought之后，补充说明购买这个动作发生的地点。"
+    },
+    {
+      "title": "否定简答的用法",
+      "text": "No直接回应前文的一般疑问句，不需要重复整个问句，再用陈述句补充真实信息即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "简答成分",
+      "explanation": "直接针对前文「Did she buy them here?」作出否定回应，说明情况并非如对方猜测的那样。"
+    },
+    {
+      "text": "she",
+      "role": "主语",
+      "explanation": "指代前文提到的女性，是执行「买」这个动作的人。"
+    },
+    {
+      "text": "bought",
+      "role": "谓语动词",
+      "explanation": "buy的一般过去式，说明购买是已经发生过的动作。"
+    },
+    {
+      "text": "them",
+      "role": "宾语",
+      "explanation": "指代前文提到的鞋子，是「买」这个动作的对象。"
+    },
+    {
+      "text": "in the U.S.",
+      "role": "地点状语",
+      "explanation": "补充说明购买动作发生的地点是美国。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "不是，",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/",
+      "text": "No,"
+    },
+    {
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/",
+      "text": "she"
+    },
+    {
+      "meaning": "买（buy的过去式）",
+      "pos": "动词",
+      "phonetic": "/bɔːt/",
+      "text": "bought"
+    },
+    {
+      "meaning": "它们（指代鞋子）",
+      "pos": "代词",
+      "phonetic": "/ðem/",
+      "text": "them"
+    },
+    {
+      "meaning": "在（某地）",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "（定冠词，无实义）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "美国（United States的缩写）",
+      "pos": "名词",
+      "phonetic": "/ˌjuːˈes/",
+      "text": "U.S."
+    }
+  ],
+  "parts": [
+    {
+      "text": "No,",
+      "relation": "先对前文的问句作出否定回答",
+      "meaning": "不是，"
+    },
+    {
+      "text": "she",
+      "relation": "说明句子里做动作的主体",
+      "meaning": "她"
+    },
+    {
+      "text": "bought them",
+      "relation": "主语执行的动作和动作的对象",
+      "meaning": "买了它们"
+    },
+    {
+      "text": "in the U.S.",
+      "relation": "补充说明购买这个动作发生的地点",
+      "meaning": "在美国"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-75",
+  "sentenceId": "nce-1-lesson-075-sentence-009",
+  "sentenceOrder": 9,
+  "english": "No, she bought them in the U.S.",
+  "lesson": "Lesson 75 Uncomfortable shoes",
+  "notes": [
+    {
+      "title": "代词指代",
+      "text": "句中的them指代对话上文提到的那双鞋子，避免重复使用名词，让表达更简洁。"
+    },
+    {
+      "title": "地点状语位置",
+      "text": "介词短语in the U.S.放在动词bought之后，补充说明购买这个动作发生的地点。"
+    },
+    {
+      "title": "否定简答的用法",
+      "text": "No直接回应前文的一般疑问句，不需要重复整个问句，再用陈述句补充真实信息即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句译文、句子主干、语法角色与词义标注整体准确，仅需把中文译文中的“是……的”强调结构补入对比说明，避免学习者误以为该结构必须逐字对应原句。（非逐句人工审核）"
+}

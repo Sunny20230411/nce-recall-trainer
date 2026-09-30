@@ -1,0 +1,114 @@
+{
+  "chinese": "吉米今天怎么样？",
+  "intent": "医生询问吉米当天的身体状况。",
+  "comparison": {
+    "chinese": "中文把时间状语“今天”放在询问对象“吉米”之后、谓语“怎么样”之前，直接问“吉米今天怎么样？”。",
+    "english": "英语用疑问词组 How's 开头提问状态，再引出主语 Jimmy，最后用时间状语 today 补充询问的时间范围。",
+    "steps": [
+      {
+        "label": "疑问词组 How's 引导提问",
+        "text": "How's 是 How is 的缩写，放在句首构成疑问结构，核心是询问状态。",
+        "explanation": "How 用来询问“怎么样/如何”，后面接 is，和主语构成完整的疑问语序。"
+      },
+      {
+        "label": "主语 Jimmy 紧跟在 be 动词后",
+        "text": "Jimmy 是被询问状态的人，作为句子核心主语放在 How's 之后。",
+        "explanation": "特殊疑问句中，疑问词+be 动词提前后，主语紧随其后。"
+      },
+      {
+        "label": "时间状语 today 放在句末",
+        "text": "today 放在句末，说明询问的是吉米当天的状态。",
+        "explanation": "英语中时间状语通常可以放在句末，中文里则常把时间放在主语后、谓语前。"
+      }
+    ],
+    "takeaway": "How's ... today 是询问他人当天状态（尤其身体状况）的常用口语表达，结构清晰、语序固定。"
+  },
+  "backbone": {
+    "text": "How's Jimmy today?",
+    "meaning": "吉米今天身体怎么样？"
+  },
+  "structureNotes": [
+    {
+      "title": "缩写 How's",
+      "text": "How's 是 How is 的缩写，口语中常见，表示“是怎样/如何”。"
+    },
+    {
+      "title": "疑问语序",
+      "text": "疑问结构 How's 放在句首，把 is 提前，形成对状态的询问。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "How's",
+      "role": "疑问词组",
+      "explanation": "How 用来问状态，'s 是 is 的缩写。"
+    },
+    {
+      "text": "Jimmy",
+      "role": "询问对象",
+      "explanation": "被问状态的人，是句子的核心主语。"
+    },
+    {
+      "text": "today?",
+      "role": "时间状语",
+      "explanation": "说明这次询问针对的是今天的情况。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "怎样（How's = How is）",
+      "pos": "疑问词组",
+      "phonetic": "/haʊz/",
+      "text": "How's"
+    },
+    {
+      "meaning": "吉米（人名）",
+      "pos": "名词",
+      "phonetic": "/ˈdʒɪmi/",
+      "text": "Jimmy"
+    },
+    {
+      "meaning": "今天",
+      "pos": "副词",
+      "phonetic": "/təˈdeɪ/",
+      "text": "today?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "How's",
+      "relation": "询问方式",
+      "meaning": "怎么样（How's = How is）"
+    },
+    {
+      "text": "Jimmy",
+      "relation": "被询问的人",
+      "meaning": "吉米"
+    },
+    {
+      "text": "today?",
+      "relation": "时间补充",
+      "meaning": "今天"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-63",
+  "sentenceId": "nce-1-lesson-063-sentence-001",
+  "sentenceOrder": 1,
+  "english": "How's Jimmy today?",
+  "lesson": "Lesson 63 Thank you, doctor.",
+  "notes": [
+    {
+      "title": "缩写 How's",
+      "text": "How's 是 How is 的缩写，口语中常见，表示“是怎样/如何”。"
+    },
+    {
+      "title": "疑问语序",
+      "text": "疑问结构 How's 放在句首，把 is 提前，形成对状态的询问。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：本句分析基本可靠，主谓结构、缩写说明、疑问语序解释及各分块含义均正确。主要可修正点：comparison 第一个步骤的标签与实际描述不匹配，标签写“先确定询问对象”，实际解释的是 How 引导疑问的用法，需要改为对应描述；同时细化疑问结构的解释，避免笼统表述影响理解。（非逐句人工审核）"
+}

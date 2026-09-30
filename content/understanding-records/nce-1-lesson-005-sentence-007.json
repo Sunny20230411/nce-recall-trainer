@@ -1,0 +1,79 @@
+{
+  "chinese": "他是德国人。",
+  "intent": "用于向对话中的第三方介绍汉斯的国籍与所属民族身份",
+  "backbone": {
+    "text": "He is German.",
+    "meaning": "他的身份属性为德国人"
+  },
+  "parts": [
+    {
+      "text": "He",
+      "relation": "描述的对象",
+      "meaning": "指代前文提到的男性汉斯"
+    },
+    {
+      "text": "is",
+      "relation": "关联主语和身份描述",
+      "meaning": "用来连接主语和身份属性"
+    },
+    {
+      "text": "German.",
+      "relation": "补充说明主语的身份属性",
+      "meaning": "表示国籍身份为德国人"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "身份属性表述",
+      "text": "本句用be动词直接连接人称代词和国籍类名词，清晰说明人物的所属身份，不需要额外添加修饰成分即可传递完整信息"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "人称代词主语",
+      "explanation": "指代前文已经介绍过的男性人物汉斯，明确描述的对象"
+    },
+    {
+      "text": "is German",
+      "role": "谓语部分",
+      "explanation": "通过be动词搭配国籍名词，直接说明主语的国籍身份属性"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/",
+      "text": "He"
+    },
+    {
+      "meaning": "是",
+      "pos": "be动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "德国人",
+      "pos": "名词",
+      "phonetic": "/ˈdʒɜːmən/",
+      "text": "German."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-5",
+  "sentenceId": "nce-1-lesson-005-sentence-007",
+  "sentenceOrder": 7,
+  "english": "He is German.",
+  "lesson": "Lesson 5 Nice to meet you.",
+  "notes": [
+    {
+      "title": "身份属性表述",
+      "text": "本句用be动词直接连接人称代词和国籍类名词，清晰说明人物的所属身份，不需要额外添加修饰成分即可传递完整信息"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合解析规范，仅存在单词条目末尾冗余标点的细节问题，可明确修正。（非逐句人工审核）"
+}

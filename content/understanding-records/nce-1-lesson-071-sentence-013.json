@@ -1,0 +1,133 @@
+{
+  "chinese": "他又打电话了吗？",
+  "intent": "询问对方是否再次做出了打电话的行为，对应前文劝阻对方不要再给女儿打电话后的后续情况核实。",
+  "comparison": {
+    "chinese": "中文问“他又打电话了吗”，先点明询问对象“他”，再讲核心动作“打电话”，最后补“又”说明重复，句末用“吗”提示这是是非问句。",
+    "english": "英文Did he telephone again? 把助动词Did放在句首提示疑问，主语he紧随其后，核心动作telephone用原形，状语again放在句末。",
+    "steps": [
+      {
+        "label": "先判断提问类型",
+        "text": "本句是一般过去时的是非疑问句，句首的Did直接提示询问已经发生的事是否属实，不需要额外的特殊疑问词。",
+        "explanation": "Did是do的过去式形式，放在句首就表示“是不是做过某事”的提问，对应中文问句里的“吗”所承担的疑问功能。"
+      },
+      {
+        "label": "识别核心动作与修饰",
+        "text": "he telephone again 对应“他又打电话”，telephone在这里是动词表示打电话，again说明这个动作是重复发生的，是对前文“不要再打电话”要求是否被打破的关注。",
+        "explanation": "因为句首已经有了表示过去的助动词Did，后面的实义动词telephone必须用原形，不能再加过去式变形。"
+      }
+    ],
+    "takeaway": "一般过去时是非疑问句把助动词Did放在句首，主语后接动词原形，动作重复的说明again放在句末，和中文先讲主体动作再提重复的顺序不同。"
+  },
+  "backbone": {
+    "text": "Did he telephone again?",
+    "meaning": "用来确认过去他有没有再次打电话。"
+  },
+  "structureNotes": [
+    {
+      "title": "助动词引导疑问",
+      "text": "本句是一般过去时的一般疑问句，将助动词Did提到句首，说明询问的是已经发生的动作是否属实，不需要额外特殊疑问词。"
+    },
+    {
+      "title": "动词形态要求",
+      "text": "句首出现Did作为过去时的助动词时，后面的实义动词telephone必须使用原形，不能再使用过去式形式。"
+    },
+    {
+      "title": "again的语义作用",
+      "text": "again放在句末修饰telephone，表示“再次、又一次”，呼应前文要求对方“不要再给女儿打电话”的劝阻语境。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Did",
+      "role": "助动词",
+      "explanation": "是动词do的过去式形式，放在句首构成一般过去时的一般疑问句，同时提示后面的实义动词使用原形。"
+    },
+    {
+      "text": "he",
+      "role": "主语",
+      "explanation": "指代前文里频繁打电话的男性，是telephone这个动作的发出者。"
+    },
+    {
+      "text": "telephone",
+      "role": "谓语核心",
+      "explanation": "本句中作实义动词，表示“打电话”，因为句首已经有助动词Did承载过去时态，所以这里使用动词原形。"
+    },
+    {
+      "text": "again",
+      "role": "方式状语",
+      "explanation": "修饰动词telephone，说明这个打电话的动作是重复发生的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Did",
+      "meaning": "（do的过去式，用于构成疑问句）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "telephone",
+      "meaning": "打电话；拨打电话",
+      "pos": "动词",
+      "phonetic": "/ˈtelɪfəʊn/"
+    },
+    {
+      "text": "again?",
+      "meaning": "又，再一次",
+      "pos": "副词",
+      "phonetic": "/əˈɡen/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Did",
+      "meaning": "（构成一般过去时疑问）",
+      "relation": "提示整个句子是过去发生的事的是非提问。"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "relation": "说明动作的发出者是前文提到的那名男性。"
+    },
+    {
+      "text": "telephone",
+      "meaning": "打电话",
+      "relation": "描述核心询问的动作内容。"
+    },
+    {
+      "text": "again?",
+      "meaning": "又，再一次",
+      "relation": "补充说明这个动作是重复发生的，同时问号承载整句的疑问语气。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-71",
+  "sentenceId": "nce-1-lesson-071-sentence-013",
+  "sentenceOrder": 13,
+  "english": "Did he telephone again?",
+  "lesson": "Lesson 71 He's awful!",
+  "notes": [
+    {
+      "title": "助动词引导疑问",
+      "text": "本句是一般过去时的一般疑问句，将助动词Did提到句首，说明询问的是已经发生的动作是否属实，不需要额外特殊疑问词。"
+    },
+    {
+      "title": "动词形态要求",
+      "text": "句首出现Did作为过去时的助动词时，后面的实义动词telephone必须使用原形，不能再使用过去式形式。"
+    },
+    {
+      "title": "again的语义作用",
+      "text": "again放在句末修饰telephone，表示“再次、又一次”，呼应前文要求对方“不要再给女儿打电话”的劝阻语境。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体可理解，主语、助动词结构、动词原形、again语义等说明基本正确。需修正几处表述：1. backbone释义冗余，“拨打通话电话”语义重复；2. 单词分块将问号并入again，释义“又打电话了吗”混入了整句疑问语气，不属于该副词分块自身含义；3. 词汇表中telephone词性标注动词、音标正确，但未提示它也可作名词、作动词时不加宾语；4. 动词telephone的英文拼写正确，英式音标/ˈtelɪfəʊn/符合规范；5. comparison补充说明语序差异，逻辑合理，无需改动。（非逐句人工审核）"
+}

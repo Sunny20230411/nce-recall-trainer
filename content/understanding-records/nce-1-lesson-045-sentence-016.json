@@ -1,0 +1,104 @@
+{
+  "chinese": "你为什么打不了？",
+  "intent": "向对方追问前文所述情况的具体原因，属于结合前文语境的简短追问。",
+  "comparison": {
+    "chinese": "中文追问时会先点明疑问语气“为什么”，再接主体“你”和对应动作状态；英语要把表达能力的can't放在主语you前面构成疑问，保留问原因的Why在句首。",
+    "english": "Why can't you?",
+    "steps": [
+      {
+        "label": "确认前文语境",
+        "text": "上一句刚听到对方说“我打不了这封信”",
+        "explanation": "这是针对同一件事的追问，不是凭空开启新话题。"
+      },
+      {
+        "label": "提取疑问意图",
+        "text": "Why放在句首",
+        "explanation": "点明想要询问“打不了”的具体原因。"
+      },
+      {
+        "label": "搭建疑问结构",
+        "text": "can't you保留缩写形式",
+        "explanation": "只重复前文出现过的I can't type this letter的核心结构，省略重复的动词短语，意思是你为什么打不了这封信？"
+      }
+    ],
+    "takeaway": "Why直接点出要问的是原因，can't放在主语you前构成疑问，后面的动词短语承接上文省略，避免重复啰嗦。"
+  },
+  "backbone": {
+    "text": "Why can't you?",
+    "meaning": "追问对方无法完成前文所说打字动作的原因。"
+  },
+  "parts": [
+    {
+      "text": "Why",
+      "relation": "表明询问的核心指向——追问原因",
+      "meaning": "为什么"
+    },
+    {
+      "text": "can't you?",
+      "relation": "承接前文对话的追问对象，构成针对对方的否定疑问结构",
+      "meaning": "你不能够"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略式追问",
+      "text": "这句是简短承接上文的追问，没有重复上文出现过的type this letter，直接用can't you指代前面提到的“不能打这封信”这件事，让对话更简洁。"
+    },
+    {
+      "title": "疑问倒装",
+      "text": "带can的否定疑问把can't放在主语you前面，不需要添加多余的助动词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Why",
+      "role": "疑问副词",
+      "explanation": "放在句首引出对原因的询问，是整句的疑问导向词。"
+    },
+    {
+      "text": "can't you?",
+      "role": "情态动词引导的疑问结构",
+      "explanation": "can't是cannot的缩写，置于主语you之前构成否定疑问，承接上文省略了重复的动作部分，是针对对方的追问形式。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "为什么",
+      "pos": "疑问副词",
+      "phonetic": "/waɪ/",
+      "text": "Why"
+    },
+    {
+      "meaning": "不能，不能够（cannot的缩写）",
+      "pos": "情态动词",
+      "phonetic": "/kɑːnt/",
+      "text": "can't"
+    },
+    {
+      "meaning": "你（承接上文的第二人称主格代词，作疑问结构中的主语）",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-45",
+  "sentenceId": "nce-1-lesson-045-sentence-016",
+  "sentenceOrder": 16,
+  "english": "Why can't you?",
+  "lesson": "Lesson 45 The boss's letter",
+  "notes": [
+    {
+      "title": "省略式追问",
+      "text": "这句是简短承接上文的追问，没有重复上文出现过的type this letter，直接用can't you指代前面提到的“不能打这封信”这件事，让对话更简洁。"
+    },
+    {
+      "title": "疑问倒装",
+      "text": "带can的否定疑问把can't放在主语you前面，不需要添加多余的助动词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体贴合对话语境，疑问结构、省略承接的讲解基本准确，仅存在两处可明确优化的指代疏漏，不影响核心理解。（非逐句人工审核）"
+}

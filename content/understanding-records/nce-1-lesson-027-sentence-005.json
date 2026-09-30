@@ -1,0 +1,109 @@
+{
+  "chinese": "房间里有一张桌子。",
+  "intent": "说明房间内存在一张桌子这个事实。",
+  "comparison": null,
+  "backbone": {
+    "text": "There is a table",
+    "meaning": "存在一张桌子"
+  },
+  "parts": [
+    {
+      "text": "There is",
+      "relation": "引出存在的事物",
+      "meaning": "存在句式的引导和谓语部分"
+    },
+    {
+      "text": "a table",
+      "relation": "存在的主体对象",
+      "meaning": "一张桌子"
+    },
+    {
+      "text": "in the room.",
+      "relation": "说明桌子所在的位置",
+      "meaning": "在房间里"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "存在句用法",
+      "text": "本句用There is开头引出存在的单数事物a table，后续的in the room补充说明该事物所处的具体地点，先交代存在的对象再补充位置信息。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There is",
+      "role": "存在引导结构",
+      "explanation": "用于引出场景中存在的单数可数事物，表示客观存在的状态"
+    },
+    {
+      "text": "a table",
+      "role": "存在的主体",
+      "explanation": "是整个句子描述的核心对象，指代存在的具体物品"
+    },
+    {
+      "text": "in the room",
+      "role": "地点状语",
+      "explanation": "补充说明桌子所处的空间位置，明确存在的场景范围"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "存在句引导词，无实际指代含义",
+      "pos": "pronoun",
+      "phonetic": "/ðeə(r)/",
+      "text": "There"
+    },
+    {
+      "meaning": "是（存在句式的谓语动词）",
+      "pos": "verb",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "一（个、张）",
+      "pos": "article",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "桌子",
+      "pos": "noun",
+      "phonetic": "/ˈteɪbl/",
+      "text": "table"
+    },
+    {
+      "meaning": "在……里面",
+      "pos": "preposition",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这个，定冠词，特指对话中提及的房间",
+      "pos": "article",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "房间",
+      "pos": "noun",
+      "phonetic": "/ruːm/",
+      "text": "room."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-27",
+  "sentenceId": "nce-1-lesson-027-sentence-005",
+  "sentenceOrder": 5,
+  "english": "There is a table in the room.",
+  "lesson": "Lesson 27 Mrs. Smith's living room",
+  "notes": [
+    {
+      "title": "存在句用法",
+      "text": "本句用There is开头引出存在的单数事物a table，后续的in the room补充说明该事物所处的具体地点，先交代存在的对象再补充位置信息。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本符合解析规范，仅存在局部细节瑕疵，可通过补丁修正完善。（非逐句人工审核）"
+}

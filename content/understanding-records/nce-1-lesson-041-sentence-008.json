@@ -1,0 +1,86 @@
+{
+  "chinese": "一块肥皂。",
+  "intent": "说明物品的数量与类别，指明这是一份计量好的肥皂。",
+  "comparison": null,
+  "backbone": {
+    "text": "A bar of soap.",
+    "meaning": "一块肥皂"
+  },
+  "parts": [
+    {
+      "text": "A bar",
+      "relation": "限定计量的数量",
+      "meaning": "一条、一块（用于条状物品的计量单位）"
+    },
+    {
+      "text": "of",
+      "relation": "衔接计量与物品的关联",
+      "meaning": "表示所属关系，连接计量单位和被计量的物品"
+    },
+    {
+      "text": "soap.",
+      "relation": "说明具体指代的物品",
+      "meaning": "肥皂"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "计量表达习惯",
+      "text": "描述条块状固体类的肥皂时，英文用A bar of这类量词搭配，直接对应中文里“一块”的计量说法，不需要额外调整语序。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A bar of",
+      "role": "量词短语",
+      "explanation": "用来计量条状的固体物品，明确物品的形态和数量基准"
+    },
+    {
+      "text": "soap",
+      "role": "名词中心语",
+      "explanation": "指代被计量的具体物品，是整个短语描述的核心对象"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "一个、一块",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "A"
+    },
+    {
+      "meaning": "条、块",
+      "pos": "名词",
+      "phonetic": "/bɑː(r)/",
+      "text": "bar"
+    },
+    {
+      "meaning": "的",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "肥皂",
+      "pos": "名词",
+      "phonetic": "/səʊp/",
+      "text": "soap."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-41",
+  "sentenceId": "nce-1-lesson-041-sentence-008",
+  "sentenceOrder": 8,
+  "english": "A bar of soap.",
+  "lesson": "Lesson 41 Penny's bag",
+  "notes": [
+    {
+      "title": "计量表达习惯",
+      "text": "描述条块状固体类的肥皂时，英文用A bar of这类量词搭配，直接对应中文里“一块”的计量说法，不需要额外调整语序。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析整体框架合规，仅存在音标对应偏差、主干释义可贴合通用常用表达、comparison字段未补充相关说明的可优化细节，无核心错误（非逐句人工审核）"
+}

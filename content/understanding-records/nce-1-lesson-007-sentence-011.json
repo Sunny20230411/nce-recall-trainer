@@ -1,0 +1,83 @@
+{
+  "chinese": "你是做什么工作的？",
+  "intent": "用于面对面询问对方的职业、日常从事的工作类型，开启关于职业的简短交流",
+  "comparison": null,
+  "backbone": {
+    "text": "What's your job?",
+    "meaning": "询问对方的工作是什么"
+  },
+  "parts": [
+    {
+      "text": "What's",
+      "relation": "由特殊疑问词和系动词构成，承担疑问句的核心疑问功能，用于引导对属性信息的询问",
+      "meaning": "是什么"
+    },
+    {
+      "text": "your job?",
+      "relation": "作为该主系表特殊疑问句的表语部分，明确限定询问的范畴是对方的职业，末尾问号标示该句为待回应的疑问句",
+      "meaning": "你的工作？"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "缩略形式说明",
+      "text": "What's是What is的口语常用缩略形式，日常对话中使用更自然流畅，正式书写场景下通常会展开为完整的What is"
+    },
+    {
+      "title": "语序逻辑",
+      "text": "该特殊疑问句将疑问词What放在句首，直接指向要询问的未知内容，无需借助助动词do完成倒装，表达简洁直接"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's",
+      "role": "疑问词加系动词缩略结构",
+      "explanation": "作为句子的核心疑问引导部分，用来发起针对属性内容的询问"
+    },
+    {
+      "text": "your job?",
+      "role": "名词性疑问主体部分",
+      "explanation": "限定询问的具体范畴是对方的工作，末尾问号标记这是一个需要对方回应的疑问句"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是什么",
+      "pos": "缩略形式（特殊疑问词+系动词）",
+      "phonetic": "/wɒts/",
+      "text": "What's"
+    },
+    {
+      "meaning": "你的",
+      "pos": "物主代词",
+      "phonetic": "/jɔː(r)/",
+      "text": "your"
+    },
+    {
+      "meaning": "工作",
+      "pos": "名词",
+      "phonetic": "/dʒəʊb/",
+      "text": "job?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-7",
+  "sentenceId": "nce-1-lesson-007-sentence-011",
+  "sentenceOrder": 11,
+  "english": "What's your job?",
+  "lesson": "Lesson 7 Are you a teacher?",
+  "notes": [
+    {
+      "title": "缩略形式说明",
+      "text": "What's是What is的口语常用缩略形式，日常对话中使用更自然流畅，正式书写场景下通常会展开为完整的What is"
+    },
+    {
+      "title": "语序逻辑",
+      "text": "该特殊疑问句将疑问词What放在句首，直接指向要询问的未知内容，无需借助助动词do完成倒装，表达简洁直接"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本准确可用，存在部分细节错误可明确修正，未出现严重语法或语义偏差（非逐句人工审核）"
+}

@@ -1,0 +1,275 @@
+{
+  "chinese": "早上，索耶先生去上班，孩子们去上学。他们的父亲每天送他们去学校。",
+  "intent": "说明索耶一家早上各自的出行安排，补充说明父亲送孩子上学的固定习惯。",
+  "comparison": null,
+  "backbone": {
+    "text": "索耶先生去上班，孩子们去上学；他们的父亲每天送他们去学校。",
+    "meaning": "索耶先生早上出门工作，孩子们出门上学，索耶先生每天送孩子们去学校。"
+  },
+  "structureNotes": [
+    {
+      "title": "and连接两个并列独立分句",
+      "text": "第一个分句中Mr. Sawyer是第三人称单数，一般现在时动词go用goes；and后的第二个分句主语the children是复数，动词用原形go，保持句式对称。"
+    },
+    {
+      "title": "take sb to sp的含义",
+      "text": "takes them to school中take不是简单的“去”，而是“带领、陪同某人前往某处”，对应中文“送某人上学”的表达。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "every day放在句尾，说明“送孩子上学”是每天重复的日常习惯；句首的In the morning限定了第一段两个动作发生的时段。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "In the morning",
+      "role": "时间状语",
+      "explanation": "说明后面两个并列分句的动作发生在早晨时段。"
+    },
+    {
+      "text": "Mr. Sawyer",
+      "role": "第一个并列分句的主语",
+      "explanation": "指代索耶先生，是“去上班”这一动作的发出者。"
+    },
+    {
+      "text": "goes to work",
+      "role": "第一个并列分句的谓语",
+      "explanation": "主语是第三人称单数，一般现在时动词go变为goes，表示日常去上班的固定行为。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个地位平等的独立分句，共同描述早上同一时段发生的两件事。"
+    },
+    {
+      "text": "the children",
+      "role": "第二个并列分句的主语",
+      "explanation": "指代索耶家的孩子们，是“去上学”这一动作的发出者。"
+    },
+    {
+      "text": "go to school",
+      "role": "第二个并列分句的谓语",
+      "explanation": "主语是复数，一般现在时动词用原形go，表示日常去上学的行为。"
+    },
+    {
+      "text": "Their father",
+      "role": "第二句的主语",
+      "explanation": "指代前文提到的索耶先生，即孩子们的父亲，呼应第一段的人物关系。"
+    },
+    {
+      "text": "takes",
+      "role": "第二句的谓语动词",
+      "explanation": "主语是第三人称单数，一般现在时用takes，表示“带领、陪同前往”。"
+    },
+    {
+      "text": "them",
+      "role": "第二句的宾语",
+      "explanation": "指代前面提到的孩子们，作takes的动作对象。"
+    },
+    {
+      "text": "to school",
+      "role": "方向状语",
+      "explanation": "表示take这个动作的目的地是学校。"
+    },
+    {
+      "text": "every day",
+      "role": "时间状语",
+      "explanation": "说明送孩子上学是每日重复的习惯，而非单次行为。"
+    }
+  ],
+  "words": [
+    {
+      "text": "In",
+      "meaning": "在……期间",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "morning,",
+      "meaning": "早晨，早上",
+      "pos": "名词",
+      "phonetic": "/ˈmɔːnɪŋ/"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生（缩写）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪstə/"
+    },
+    {
+      "text": "Sawyer",
+      "meaning": "索耶（姓氏）",
+      "pos": "专有名词",
+      "phonetic": "/ˈsɔːjə/"
+    },
+    {
+      "text": "goes",
+      "meaning": "去（go的第三人称单数形式）",
+      "pos": "动词",
+      "phonetic": "/ɡəʊz/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向",
+      "pos": "介词",
+      "phonetic": "/tuː; tə/"
+    },
+    {
+      "text": "work",
+      "meaning": "工作",
+      "pos": "名词",
+      "phonetic": "/wɜːk/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd; ənd/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "children",
+      "meaning": "孩子们（child的复数形式）",
+      "pos": "名词",
+      "phonetic": "/ˈtʃɪldrən/"
+    },
+    {
+      "text": "go",
+      "meaning": "去（动词原形）",
+      "pos": "动词",
+      "phonetic": "/ɡəʊ/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向",
+      "pos": "介词",
+      "phonetic": "/tuː; tə/"
+    },
+    {
+      "text": "school.",
+      "meaning": "学校",
+      "pos": "名词",
+      "phonetic": "/skuːl/"
+    },
+    {
+      "text": "Their",
+      "meaning": "他们的",
+      "pos": "代词（形容词性物主代词）",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "father",
+      "meaning": "父亲",
+      "pos": "名词",
+      "phonetic": "/ˈfɑːðə/"
+    },
+    {
+      "text": "takes",
+      "meaning": "带领，携带（take的第三人称单数形式）",
+      "pos": "动词",
+      "phonetic": "/teɪks/"
+    },
+    {
+      "text": "them",
+      "meaning": "他们（宾格）",
+      "pos": "代词",
+      "phonetic": "/ðem; ɪm/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向",
+      "pos": "介词",
+      "phonetic": "/tuː; tə/"
+    },
+    {
+      "text": "school",
+      "meaning": "学校",
+      "pos": "名词",
+      "phonetic": "/skuːl/"
+    },
+    {
+      "text": "every",
+      "meaning": "每一个",
+      "pos": "限定词",
+      "phonetic": "/ˈevri/"
+    },
+    {
+      "text": "day.",
+      "meaning": "天，日子",
+      "pos": "名词",
+      "phonetic": "/deɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "In the morning,",
+      "meaning": "在早上",
+      "relation": "点明后续上班、上学动作发生的时间。"
+    },
+    {
+      "text": "Mr. Sawyer goes to work",
+      "meaning": "索耶先生去上班",
+      "relation": "第一个并列分句，说明索耶先生早上的去向。"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "relation": "连接两个同时发生的并列分句。"
+    },
+    {
+      "text": "the children go to school.",
+      "meaning": "孩子们去上学",
+      "relation": "第二个并列分句，说明孩子们早上的去向。"
+    },
+    {
+      "text": "Their father",
+      "meaning": "他们的父亲",
+      "relation": "第二句的主语，指代前面提到的索耶先生，明确动作发出者。"
+    },
+    {
+      "text": "takes them to school",
+      "meaning": "送他们去学校",
+      "relation": "核心动作，说明父亲带孩子前往学校。"
+    },
+    {
+      "text": "every day.",
+      "meaning": "每天",
+      "relation": "说明送学动作是每日重复的日常习惯。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-55",
+  "sentenceId": "nce-1-lesson-055-sentence-002",
+  "sentenceOrder": 2,
+  "english": "In the morning, Mr. Sawyer goes to work and the children go to school. Their father takes them to school every day.",
+  "lesson": "Lesson 55 The Sawyer family",
+  "notes": [
+    {
+      "title": "and连接两个并列独立分句",
+      "text": "第一个分句中Mr. Sawyer是第三人称单数，一般现在时动词go用goes；and后的第二个分句主语the children是复数，动词用原形go，保持句式对称。"
+    },
+    {
+      "title": "take sb to sp的含义",
+      "text": "takes them to school中take不是简单的“去”，而是“带领、陪同某人前往某处”，对应中文“送某人上学”的表达。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "every day放在句尾，说明“送孩子上学”是每天重复的日常习惯；句首的In the morning限定了第一段两个动作发生的时段。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合原文语义与语法规则，仅存在一处细节表述不够严谨：原文本未直接说明索耶先生亲自陪同孩子到校，仅表明他承担送孩子上学的责任，修正该表述使其更贴合原文逻辑，其余词汇释义、结构划分、句意主干等内容均准确无误。（非逐句人工审核）"
+}

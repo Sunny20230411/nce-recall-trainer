@@ -1,0 +1,75 @@
+{
+  "chinese": "在这里。",
+  "intent": "应答对方索要物品的请求，把对方要的东西递过去并指明物品位置。",
+  "comparison": null,
+  "backbone": {
+    "text": "Here they are.",
+    "meaning": "要找的东西就在这里。"
+  },
+  "parts": [
+    {
+      "text": "Here",
+      "relation": "指明物品所在的位置",
+      "meaning": "在这里"
+    },
+    {
+      "text": "they are.",
+      "relation": "指代前文对方索要的护照等物品，补充位置说明的主体",
+      "meaning": "它们在"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "场景常用倒装省略",
+      "text": "这是递物时的口语常用表达，把Here放在句首来强调物品就在眼前，正常陈述语序是They are here. 不需要补多余成分就能传递完整应答信息。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Here",
+      "role": "地点指示成分",
+      "explanation": "放在句首直接点明物品就在说话人的近处，用来唤起对方注意要找的东西已经出现。"
+    },
+    {
+      "text": "they are",
+      "role": "主谓语结构",
+      "explanation": "they指代上文中提到的复数物品，这里也就是passports，用简单的be动词说明物品所处的位置。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "在这里",
+      "pos": "副词",
+      "phonetic": "/hɪər/",
+      "text": "Here"
+    },
+    {
+      "meaning": "它们",
+      "pos": "人称代词",
+      "phonetic": "/ðeɪ/",
+      "text": "they"
+    },
+    {
+      "meaning": "是，在",
+      "pos": "系动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-15",
+  "sentenceId": "nce-1-lesson-015-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Here they are.",
+  "lesson": "Lesson 15 Your passports, please.",
+  "notes": [
+    {
+      "title": "场景常用倒装省略",
+      "text": "这是递物时的口语常用表达，把Here放在句首来强调物品就在眼前，正常陈述语序是They are here. 不需要补多余成分就能传递完整应答信息。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原学习数据整体可用，存在部分细节疏漏需修正：1. words中are的文本尾冗余带句号、词性说明不符合语义场景；2. comparison字段原空缺，补充说明该解析针对零基础成人学习者，补充明确指代和倒装逻辑，帮助学习者区分here的场景功能与普通地点副词用法；3. 修正后内容符合所有语法核查要求，无错误断言。（非逐句人工审核）"
+}

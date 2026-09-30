@@ -1,0 +1,153 @@
+{
+  "chinese": "你现在好多了，但还不能起床。",
+  "intent": "先肯定身体已经好转的现状，再用转折语气给出当下禁止起床的医嘱，强调现阶段仍需卧床休养不能贸然起身。",
+  "comparison": null,
+  "backbone": {
+    "text": "You are better now, but you mustn't get up yet.",
+    "meaning": "你现在身体已经好转，但现阶段还不可以起床活动。"
+  },
+  "structureNotes": [
+    {
+      "title": "转折并列的语义关系",
+      "text": "并列连词but连接两个独立分句，前半句肯定身体好转的正向状态，后半句转折给出限制要求，形成“虽有好转但仍需遵守医嘱”的语义张力。"
+    },
+    {
+      "title": "mustn't的否定语气",
+      "text": "mustn't是情态动词must的否定缩写形式，用来表达禁止、不许可的强制语气，对应医嘱中不允许病人起床的要求，语气比普通的can't更严肃。"
+    },
+    {
+      "title": "yet的位置与含义",
+      "text": "yet用在否定句句末，表示“在当前这个时间点之前尚且还没、仍然还不”，呼应前文的now，明确限制仅针对现阶段，并非永远不允许起床。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "You",
+      "role": "前一分句主语",
+      "explanation": "指代被叮嘱的病人Jimmy，是前半句描述身体状态的主体。"
+    },
+    {
+      "text": "are better",
+      "role": "前一分句系表谓语",
+      "explanation": "由be动词are搭配形容词比较级better构成系表结构，说明主语“身体好转”的状态。"
+    },
+    {
+      "text": "now",
+      "role": "前一分句时间状语",
+      "explanation": "点明“身体好转”这一状态所处的当下时间节点。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "连接前后两个语义转折的独立分句，将“身体好转”和“禁止起床”两个信息衔接起来，体现医嘱的辩证态度。"
+    },
+    {
+      "text": "you",
+      "role": "后一分句主语",
+      "explanation": "指代同一个听话人，承接前半句的描述对象，引出后半句的禁止要求。"
+    },
+    {
+      "text": "mustn't get up yet",
+      "role": "后一分句谓语",
+      "explanation": "由情态动词否定式mustn't加实义动词短语get up构成，表达“不可以起床”的强制要求，句末yet补充说明该限制只适用于当前阶段。"
+    }
+  ],
+  "words": [
+    {
+      "text": "You",
+      "meaning": "你（指听话的病人）",
+      "pos": "代词",
+      "phonetic": "/ju/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（be动词，此处无实义，用于连接主语和表语）",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "better",
+      "meaning": "好转的、更好的（此处指身体状态变好）",
+      "pos": "形容词（well的比较级）",
+      "phonetic": "/ˈbetə(r)/"
+    },
+    {
+      "text": "now,",
+      "meaning": "现在、目前",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是、然而（用于引出转折内容）",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "you",
+      "meaning": "你（指代前半句的同一听话人）",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "mustn't",
+      "meaning": "不可以、禁止（是must not的缩写，表示强制不许可）",
+      "pos": "情态动词否定式",
+      "phonetic": "/ˈmʌsnt/"
+    },
+    {
+      "text": "get",
+      "meaning": "起（和up搭配构成固定短语）",
+      "pos": "动词",
+      "phonetic": "/ɡet/"
+    },
+    {
+      "text": "up",
+      "meaning": "（和get搭配表示“起床”）",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "yet.",
+      "meaning": "还、仍然（用于否定句末，表示当前阶段尚不能做某事）",
+      "pos": "副词",
+      "phonetic": "/jet/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "You are better now,",
+      "relation": "描述主语当下的身体状态，作为后半句转折的铺垫信息。",
+      "meaning": "你现在好多了"
+    },
+    {
+      "text": "but you mustn't get up yet.",
+      "relation": "由转折连词but引出，给出对主语当下行为的禁止要求，和前半句的好转状态形成语义转折。",
+      "meaning": "但还不能起床"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-63",
+  "sentenceId": "nce-1-lesson-063-sentence-006",
+  "sentenceOrder": 6,
+  "english": "You are better now, but you mustn't get up yet.",
+  "lesson": "Lesson 63 Thank you, doctor.",
+  "notes": [
+    {
+      "title": "转折并列的语义关系",
+      "text": "并列连词but连接两个独立分句，前半句肯定身体好转的正向状态，后半句转折给出限制要求，形成“虽有好转但仍需遵守医嘱”的语义张力。"
+    },
+    {
+      "title": "mustn't的否定语气",
+      "text": "mustn't是情态动词must的否定缩写形式，用来表达禁止、不许可的强制语气，对应医嘱中不允许病人起床的要求，语气比普通的can't更严肃。"
+    },
+    {
+      "title": "yet的位置与含义",
+      "text": "yet用在否定句句末，表示“在当前这个时间点之前尚且还没、仍然还不”，呼应前文的now，明确限制仅针对现阶段，并非永远不允许起床。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体理解与原文语义匹配，转折逻辑、mustn't的禁止语气、yet在否定句中表“当前阶段尚不”的释义均准确，主干完整涵盖两个分句的核心内容，结构与词汇标注基本符合句法规则。仅存在两处细节可修正：一是now,的音标标注错误，now无逗号对应的发音且原标注/naʊ/本身正确，逗号属于标点不应纳入音标标注内容；二是前一分句谓语标注为“are better now”，将时间状语now并入谓语范围，按照“主语不混入谓语、系动词表语不遗漏”的审核规则，系表谓语应聚焦“are better”，now为独立的时间状语，需单独拆分标注以厘清语法成分边界。（非逐句人工审核）"
+}

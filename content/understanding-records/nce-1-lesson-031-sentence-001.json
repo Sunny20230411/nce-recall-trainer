@@ -1,0 +1,88 @@
+{
+  "chinese": "萨莉在哪里，杰克？",
+  "intent": "向杰克询问萨莉的所在位置",
+  "comparison": null,
+  "backbone": {
+    "text": "Where's Sally",
+    "meaning": "萨莉在何处"
+  },
+  "parts": [
+    {
+      "text": "Where's",
+      "relation": "特殊疑问副词where与系动词is的缩合形式，在句中引出位置询问",
+      "meaning": "在哪里（where is的缩写）"
+    },
+    {
+      "text": "Sally,",
+      "relation": "句子的主语，即被查询位置的核心人物",
+      "meaning": "萨莉"
+    },
+    {
+      "text": "Jack?",
+      "relation": "句末呼语，点明这句问话的接收人",
+      "meaning": "杰克（对话称呼对象）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "疑问词前置",
+      "text": "疑问词Where放在句首引出位置询问，is和Where缩合成Where's，直接构成口语化的特殊疑问句结构"
+    },
+    {
+      "title": "呼语后置",
+      "text": "人名Jack放在句末作为对话的称呼对象，用逗号和问句主体隔开，不参与句子主干的语法成分"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Where's Sally",
+      "role": "特殊疑问句主干",
+      "explanation": "用来询问萨莉的具体所在位置，是句子传递核心信息的部分"
+    },
+    {
+      "text": "Jack?",
+      "role": "呼语",
+      "explanation": "明确这句问话的目标听者是杰克，起到提醒对方注意的作用"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "在哪里，是where is的缩合形式",
+      "pos": "contraction",
+      "phonetic": "/weəz/",
+      "text": "Where's"
+    },
+    {
+      "meaning": "萨莉（常见女子人名）",
+      "pos": "noun",
+      "phonetic": "/ˈsæli/",
+      "text": "Sally,"
+    },
+    {
+      "meaning": "杰克（常见男子人名）",
+      "pos": "noun",
+      "phonetic": "/dʒæk/",
+      "text": "Jack?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-31",
+  "sentenceId": "nce-1-lesson-031-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Where's Sally, Jack?",
+  "lesson": "Lesson 31 Where's Sally?",
+  "notes": [
+    {
+      "title": "疑问词前置",
+      "text": "疑问词Where放在句首引出位置询问，is和Where缩合成Where's，直接构成口语化的特殊疑问句结构"
+    },
+    {
+      "title": "呼语后置",
+      "text": "人名Jack放在句末作为对话的称呼对象，用逗号和问句主体隔开，不参与句子主干的语法成分"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合解析规范，仅存在部分细节需修正以确保语法标注严谨性、内容匹配度正确（非逐句人工审核）"
+}

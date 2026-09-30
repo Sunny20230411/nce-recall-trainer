@@ -1,0 +1,223 @@
+{
+  "chinese": "我们镇附近每年都有一场汽车比赛。1995年有一场规模很大的比赛。",
+  "intent": "讲述小镇附近常年举办汽车比赛的背景，并点明1995年那一届赛事的规模特点。",
+  "comparison": null,
+  "backbone": {
+    "text": "There is a car race near our town every year. There was a very big race in 1995.",
+    "meaning": "我们镇附近每年都举办汽车比赛，其中1995年的那场比赛规模很大。"
+  },
+  "structureNotes": [
+    {
+      "title": "there be 句型的表达逻辑",
+      "text": "英文用 there be 句型表示「某地/某时存在某事物」，there 仅为形式引导词、无实际词义，be 动词的单复数与后面紧跟的真实主语保持一致；第一句真实主语是 a car race，因此用 is，第二句真实主语是 a very big race，因此用 was。"
+    },
+    {
+      "title": "时间和地点修饰的位置差异",
+      "text": "表频率的 every year 和表年份的 In 1995 在句中均作状语，英文中可置于句尾或句首，中文习惯将这类时间状语放在句首、主语之前，符合中文先交代背景再讲内容的表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There is",
+      "role": "存在句引导结构",
+      "explanation": "there为引导词，无实际词义，is是be动词的一般现在时第三人称单数形式，与后面的单数名词a car race保持一致，整体表示「存在、有」的含义。"
+    },
+    {
+      "text": "a car race",
+      "role": "存在句主语",
+      "explanation": "car是名词作定语修饰race，核心名词是race，是句子描述的核心事物。"
+    },
+    {
+      "text": "near our town",
+      "role": "地点状语",
+      "explanation": "介词短语near our town修饰a car race，说明比赛举办的地点在我们镇附近。"
+    },
+    {
+      "text": "every year.",
+      "role": "时间状语",
+      "explanation": "频率短语作状语，说明这场汽车比赛是每年都会举办的常规活动。"
+    },
+    {
+      "text": "In 1995,",
+      "role": "时间状语",
+      "explanation": "介词短语作状语，交代第二句描述的赛事对应的年份背景。"
+    },
+    {
+      "text": "there was",
+      "role": "存在句引导结构",
+      "explanation": "there为引导词，was是be动词的一般过去时第三人称单数形式，与后面的单数名词a very big race保持一致。"
+    },
+    {
+      "text": "a very big race.",
+      "role": "存在句主语",
+      "explanation": "very是副词修饰形容词big，共同修饰race，突出这场比赛的规模很大，承接上文的汽车比赛。"
+    }
+  ],
+  "words": [
+    {
+      "text": "There",
+      "meaning": "（用于存在句引导，无实义）",
+      "pos": "引导词（非副词）",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be动词一般现在时第三人称单数）",
+      "pos": "verb",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一场（不定冠词，表泛指）",
+      "pos": "article",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "car",
+      "meaning": "汽车（名词作定语修饰race）",
+      "pos": "noun",
+      "phonetic": "/kɑː/"
+    },
+    {
+      "text": "race",
+      "meaning": "比赛；赛事",
+      "pos": "noun",
+      "phonetic": "/reɪs/"
+    },
+    {
+      "text": "near",
+      "meaning": "在……附近",
+      "pos": "preposition",
+      "phonetic": "/nɪə/"
+    },
+    {
+      "text": "our",
+      "meaning": "我们的",
+      "pos": "pronoun",
+      "phonetic": "/ˈaʊə/"
+    },
+    {
+      "text": "town",
+      "meaning": "镇；小镇",
+      "pos": "noun",
+      "phonetic": "/taʊn/"
+    },
+    {
+      "text": "every",
+      "meaning": "每；每一",
+      "pos": "determiner",
+      "phonetic": "/ˈevri/"
+    },
+    {
+      "text": "year.",
+      "meaning": "年。",
+      "pos": "noun",
+      "phonetic": "/jɪə/"
+    },
+    {
+      "text": "In",
+      "meaning": "在（用于年份前）",
+      "pos": "preposition",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "1995,",
+      "meaning": "1995年，",
+      "pos": "noun",
+      "phonetic": "/ˈnaɪntiːn ˈnaɪnti faɪv/"
+    },
+    {
+      "text": "there",
+      "meaning": "（用于存在句引导，无实义）",
+      "pos": "引导词（非副词）",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be动词一般过去时第三人称单数）",
+      "pos": "verb",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一场（不定冠词，表泛指）",
+      "pos": "article",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常；很",
+      "pos": "adverb",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "big",
+      "meaning": "规模大的；大的",
+      "pos": "adjective",
+      "phonetic": "/bɪɡ/"
+    },
+    {
+      "text": "race.",
+      "meaning": "比赛。",
+      "pos": "noun",
+      "phonetic": "/reɪs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "There is",
+      "relation": "引导存在句，引出后面的核心事物",
+      "meaning": "存在句引导结构，表「有、存在」"
+    },
+    {
+      "text": "a car race",
+      "relation": "存在句的核心主语，是句子描述的对象",
+      "meaning": "一场汽车比赛"
+    },
+    {
+      "text": "near our town",
+      "relation": "补充说明汽车比赛举办的具体地点",
+      "meaning": "在我们镇附近"
+    },
+    {
+      "text": "every year.",
+      "relation": "补充说明汽车比赛的举办频率",
+      "meaning": "每年。"
+    },
+    {
+      "text": "In 1995,",
+      "relation": "交代下一句描述赛事的具体时间背景",
+      "meaning": "在1995年，"
+    },
+    {
+      "text": "there was",
+      "relation": "引导过去时态的存在句，引出后面的核心事物",
+      "meaning": "存在句引导结构（过去时），表「有、存在」"
+    },
+    {
+      "text": "a very big race.",
+      "relation": "存在句的核心主语，承接上文的汽车比赛，描述1995年赛事的规模特点",
+      "meaning": "一场规模很大的比赛。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-69",
+  "sentenceId": "nce-1-lesson-069-sentence-001",
+  "sentenceOrder": 1,
+  "english": "There is a car race near our town every year. In 1995, there was a very big race.",
+  "lesson": "Lesson 69 The car race",
+  "notes": [
+    {
+      "title": "there be 句型的表达逻辑",
+      "text": "英文用 there be 句型表示「某地/某时存在某事物」，there 仅为形式引导词、无实际词义，be 动词的单复数与后面紧跟的真实主语保持一致；第一句真实主语是 a car race，因此用 is，第二句真实主语是 a very big race，因此用 was。"
+    },
+    {
+      "title": "时间和地点修饰的位置差异",
+      "text": "表频率的 every year 和表年份的 In 1995 在句中均作状语，英文中可置于句尾或句首，中文习惯将这类时间状语放在句首、主语之前，符合中文先交代背景再讲内容的表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文、分句、主干与中文释义对应一致；there be 句型、存在主语、时间状语与地点状语的语法分析均正确，英式音标规范。仅 There 的词性标注将引导词混同为 exclamation，存在句式说明不够严谨：存在句的主语是 be 后真实名词，there 无实义、仅为形式引导词；另外补充说明中文语序调整的依据即可。（非逐句人工审核）"
+}

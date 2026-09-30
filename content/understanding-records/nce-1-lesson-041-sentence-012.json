@@ -1,0 +1,87 @@
+{
+  "chinese": "半磅咖啡。",
+  "intent": "点明所指物品的具体分量与品类，是日常购物场景里直接说明所需商品的简洁表达。",
+  "comparison": null,
+  "backbone": {
+    "text": "Half a pound of coffee.",
+    "meaning": "说明总共有半磅重量的咖啡。"
+  },
+  "parts": [
+    {
+      "text": "Half a pound",
+      "relation": "描述所指物品的具体重量",
+      "meaning": "半磅"
+    },
+    {
+      "text": "of coffee.",
+      "relation": "补充说明这个重量对应的物品品类",
+      "meaning": "属于咖啡的（分量）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "量词表达习惯",
+      "text": "描述半磅的英文习惯用\"Half a pound\" 而非直译的\"Half pound\"，是英语里常见的小分量前置修饰冠词搭配。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Half a pound",
+      "role": "量语部分",
+      "explanation": "用来明确后面物品的具体重量数值"
+    },
+    {
+      "text": "of coffee",
+      "role": "所属修饰部分",
+      "explanation": "说明前面的重量对应的具体物品是什么"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "一半的",
+      "pos": "determiner",
+      "phonetic": "/hɑːf/",
+      "text": "Half"
+    },
+    {
+      "meaning": "一（个）",
+      "pos": "article",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "磅（重量单位）",
+      "pos": "noun",
+      "phonetic": "/paʊnd/",
+      "text": "pound"
+    },
+    {
+      "meaning": "（表示所属关系）",
+      "pos": "preposition",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "咖啡",
+      "pos": "noun",
+      "phonetic": "/ˈkɒfi/",
+      "text": "coffee."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-41",
+  "sentenceId": "nce-1-lesson-041-sentence-012",
+  "sentenceOrder": 12,
+  "english": "Half a pound of coffee.",
+  "lesson": "Lesson 41 Penny's bag",
+  "notes": [
+    {
+      "title": "量词表达习惯",
+      "text": "描述半磅的英文习惯用\"Half a pound\" 而非直译的\"Half pound\"，是英语里常见的小分量前置修饰冠词搭配。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在局部细节瑕疵，可修正后符合解析要求。（非逐句人工审核）"
+}

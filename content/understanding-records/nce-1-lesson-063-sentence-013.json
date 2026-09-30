@@ -1,0 +1,171 @@
+{
+  "chinese": "他还必须再卧床两天。",
+  "intent": "说明患者接下来的静养要求：他需要继续卧床，在现有静养时长基础上延长两天。",
+  "comparison": {
+    "chinese": "中文常把“还、再”这类延续意思放在动作前：他还必须再卧床两天。",
+    "english": "英文则把“延续”放在数量词组的限定词 another 上，并用 for 引出延续时长：remain in bed for another two days。",
+    "steps": [
+      {
+        "label": "先讲强制要求",
+        "text": "He must remain in bed",
+        "explanation": "must 表示医嘱要求，remain in bed 表示保持卧床状态，不是单次上床或起床动作。"
+      },
+      {
+        "label": "再补延续时长",
+        "text": "for another two days",
+        "explanation": "for 说明动作延续多久；another 修饰数量词组 two days，表示在原有两天静养基础上再多两天，而不是另外独立的两天。"
+      }
+    ],
+    "takeaway": "another two days 表示在已有的静养期上再追加两天，for 明确这是 remain in bed 的持续时长，不能按字面理解为“另外两天”。"
+  },
+  "backbone": {
+    "text": "He must remain in bed.",
+    "meaning": "他必须保持卧床状态，不能随意下床活动。"
+  },
+  "structureNotes": [
+    {
+      "title": "another 在这里的含义",
+      "text": "another 修饰数量词组 two days，意思是“再、又”，表示在原先的两天静养基础上额外延续两天，不是“不同的另外两天”。"
+    },
+    {
+      "title": "介词 for 的作用",
+      "text": "for 后面接一段时间，用来说明前面的 remain in bed 这个状态要持续多久，对应中文里“达、共计”的时长概念。"
+    },
+    {
+      "title": "remain 的常用搭配",
+      "text": "remain 是系动词，表示“保持、仍然是”，后面可以接形容词或介词短语，表示持续处于某状态，例如 remain in bed、remain silent。"
+    },
+    {
+      "title": "another 修饰数量词的用法",
+      "text": "“another + 数词 + 复数名词”表示“再、又（多少数量）”，例如 another three hours 意思是“再三个小时”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文提到的生病的孩子，是卧床状态的保持者。"
+    },
+    {
+      "text": "must remain",
+      "role": "谓语（情态动词+系动词）",
+      "explanation": "情态动词 must 表示医嘱层面的强制要求，和系动词 remain 共同构成谓语，表达主语必须保持的状态。"
+    },
+    {
+      "text": "in bed",
+      "role": "表语（介词短语）",
+      "explanation": "跟在系动词 remain 后面说明主语所处的状态，意思是“卧床、在床休息”，不是指普通意义上“在床的位置”。"
+    },
+    {
+      "text": "for another two days",
+      "role": "时间状语",
+      "explanation": "用介词 for 引出卧床状态需要持续的时长，说明还要延续两天静养时间。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "must",
+      "meaning": "必须，应当",
+      "pos": "情态动词",
+      "phonetic": "/mʌst/"
+    },
+    {
+      "text": "remain",
+      "meaning": "保持，仍然是",
+      "pos": "动词（系动词）",
+      "phonetic": "/rɪˈmeɪn/"
+    },
+    {
+      "text": "in",
+      "meaning": "（表示位置/状态）在……中",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "bed",
+      "meaning": "床",
+      "pos": "名词",
+      "phonetic": "/bed/"
+    },
+    {
+      "text": "for",
+      "meaning": "（表示时长）计，达",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "another",
+      "meaning": "再一，另一",
+      "pos": "限定词",
+      "phonetic": "/əˈnʌðə(r)/"
+    },
+    {
+      "text": "two",
+      "meaning": "二",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "days.",
+      "meaning": "天（复数）",
+      "pos": "名词",
+      "phonetic": "/deɪz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "relation": "说明是谁需要遵守静养要求，是动作的主体。"
+    },
+    {
+      "text": "must remain",
+      "meaning": "必须保持（卧床状态）",
+      "relation": "给出医嘱层面的强制要求，说明这个状态是规定必须维持的。"
+    },
+    {
+      "text": "in bed",
+      "meaning": "卧床",
+      "relation": "补充说明 remain 所指向的具体状态，即待在床上休息、不随意下床。"
+    },
+    {
+      "text": "for another two days.",
+      "meaning": "再（持续）两天",
+      "relation": "补充说明卧床状态还要额外延续的时长，点明静养时间的延长要求。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-63",
+  "sentenceId": "nce-1-lesson-063-sentence-013",
+  "sentenceOrder": 13,
+  "english": "He must remain in bed for another two days.",
+  "lesson": "Lesson 63 Thank you, doctor.",
+  "notes": [
+    {
+      "title": "another 在这里的含义",
+      "text": "another 修饰数量词组 two days，意思是“再、又”，表示在原先的两天静养基础上额外延续两天，不是“不同的另外两天”。"
+    },
+    {
+      "title": "介词 for 的作用",
+      "text": "for 后面接一段时间，用来说明前面的 remain in bed 这个状态要持续多久，对应中文里“达、共计”的时长概念。"
+    },
+    {
+      "title": "remain 的常用搭配",
+      "text": "remain 是系动词，表示“保持、仍然是”，后面可以接形容词或介词短语，表示持续处于某状态，例如 remain in bed、remain silent。"
+    },
+    {
+      "title": "another 修饰数量词的用法",
+      "text": "“another + 数词 + 复数名词”表示“再、又（多少数量）”，例如 another three hours 意思是“再三个小时”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原词表中 days 的条目把结尾句号纳入 text 字段，且音标缺少复数结尾的 /z/ 标注；词表末尾额外拼接了不属于本句原词的语法积累段落，应当从 words 字段移除并只保留本句实际出现的词汇，其余语法积累内容可保留在 structureNotes 中。句子主干、成分分析、对比逻辑、分块释义均符合上下文，无事实性错误。（非逐句人工审核）"
+}

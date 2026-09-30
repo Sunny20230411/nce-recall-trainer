@@ -1,0 +1,120 @@
+{
+  "chinese": "是的。我现在认出他来了。",
+  "intent": "回应前文的确认类问题，明确表示自己当下就认出了前文提到的那名男子。",
+  "comparison": null,
+  "backbone": {
+    "text": "I recognize him now.",
+    "meaning": "我现在认出他了。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间副词的位置",
+      "text": "时间副词 now 放在句末，点明认出这个动作是此刻正在发生的状态，而非过去就已经完成的动作。"
+    },
+    {
+      "title": "及物动词的宾语衔接",
+      "text": "recognize 是及物动词，后面直接接宾格代词 him 作宾语，him 指代前文问句里提到的 the man。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes.",
+      "role": "独立答语",
+      "explanation": "直接回应前文的一般疑问句，给出肯定答复。"
+    },
+    {
+      "text": "I",
+      "role": "分句主语",
+      "explanation": "执行 recognize 这个动作的人，即对话中的 Caroline。"
+    },
+    {
+      "text": "recognize",
+      "role": "分句谓语动词",
+      "explanation": "表示辨认出、认出的动作，是句子的核心动词。"
+    },
+    {
+      "text": "him",
+      "role": "谓语动词的宾语",
+      "explanation": "指代前文问句提到的 the man，作 recognize 的作用对象。"
+    },
+    {
+      "text": "now.",
+      "role": "时间状语",
+      "explanation": "说明 recognize 这个动作发生的时间是当下此刻。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes.",
+      "meaning": "是的、对",
+      "pos": "感叹词/应答语",
+      "phonetic": "/jes/"
+    },
+    {
+      "text": "I",
+      "meaning": "我（主格，作主语）",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "recognize",
+      "meaning": "认出、辨认出",
+      "pos": "动词",
+      "phonetic": "/ˈrekəɡnaɪz/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格，作宾语）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "now.",
+      "meaning": "现在、此刻",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes.",
+      "relation": "直接回应前文的确认类提问",
+      "meaning": "是的。"
+    },
+    {
+      "text": "I",
+      "relation": "句子的主语，指执行认出动作的人",
+      "meaning": "我"
+    },
+    {
+      "text": "recognize him",
+      "relation": "核心动作与动作对象，说明主语对“他”完成辨认",
+      "meaning": "认出他"
+    },
+    {
+      "text": "now.",
+      "relation": "补充动作发生的时间，说明辨认是当下此刻发生的",
+      "meaning": "现在。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-97",
+  "sentenceId": "nce-1-lesson-097-sentence-013",
+  "sentenceOrder": 13,
+  "english": "Yes. I recognize him now.",
+  "lesson": "Lesson 97 A small blue case",
+  "notes": [
+    {
+      "title": "时间副词的位置",
+      "text": "时间副词 now 放在句末，点明认出这个动作是此刻正在发生的状态，而非过去就已经完成的动作。"
+    },
+    {
+      "title": "及物动词的宾语衔接",
+      "text": "recognize 是及物动词，后面直接接宾格代词 him 作宾语，him 指代前文问句里提到的 the man。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析语义、成分划分、词汇释义均符合语境，仅需将动词 recognize 的音标更正为符合通用英式发音的规范形式，其余内容无需改动。（非逐句人工审核）"
+}

@@ -1,0 +1,86 @@
+{
+  "chinese": "给你。",
+  "intent": "向对方递出对方索要的一英镑纸币。",
+  "comparison": {
+    "chinese": "Here you are 是一个固定表达，并非要你按字面顺序翻译为“你在这里”。",
+    "english": "Here you are 常用于递东西给人时，表示“给你”。",
+    "steps": [
+      {
+        "label": "先看使用场景",
+        "text": "上一句说 Give me a pound note, please.（请给我一英镑纸币）",
+        "explanation": "Here you are 承接这个请求，是递东西给对方时的常用语。"
+      },
+      {
+        "label": "注意字面与实际含义",
+        "text": "字面上是“你在这里”，但在递物场景中表示“给你/拿着”。",
+        "explanation": "不能机械按词序翻译，需要结合上下文理解固定表达。"
+      }
+    ],
+    "takeaway": "Here you are 是固定表达，在递东西给人时表示“给你”。"
+  },
+  "backbone": {
+    "text": "Here you are.",
+    "meaning": "给你。"
+  },
+  "structureNotes": [
+    {
+      "title": "Here you are 的结构",
+      "text": "Here you are 是固定表达。在当前递物语境中，here 提示物品被递到对方面前或所在位置，you 指听话者，are 与 you 构成系表结构的一部分；整体用于把东西递给对方时表示“给你”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Here",
+      "role": "状语",
+      "explanation": "在本句中表示物品被递到对方面前或所在位置，起提示性引导作用，并非独立表示“给/递”。"
+    },
+    {
+      "text": "you are",
+      "role": "主语+系动词",
+      "explanation": "you 是主语，are 是系动词；整体与 Here 组合为递物时的常用表达。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Here",
+      "meaning": "这里（在递物表达中提示物品被递到对方面前）",
+      "pos": "副词",
+      "phonetic": "/hɪə/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "are.",
+      "meaning": "是（与 you 搭配；句号为句末标点，不是 are 的词义）",
+      "pos": "动词",
+      "phonetic": "/ɑː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Here you are.",
+      "meaning": "给你。",
+      "relation": "回应前面索要一英镑纸币的请求，表示把对方要的物品递过去。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-113",
+  "sentenceId": "nce-1-lesson-113-sentence-012",
+  "sentenceOrder": 12,
+  "english": "Here you are.",
+  "lesson": "Lesson 113 Small change",
+  "notes": [
+    {
+      "title": "Here you are 的结构",
+      "text": "Here you are 是固定表达。在当前递物语境中，here 提示物品被递到对方面前或所在位置，you 指听话者，are 与 you 构成系表结构的一部分；整体用于把东西递给对方时表示“给你”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：译文、场景意图和整体理解基本正确，comparison 说明了此处不能按字面顺序翻译。但语法切分把 here 的功能解释得过于绝对，且 are 单独注音时仍带句号，词表音标和标点需要修正。（非逐句人工审核）"
+}

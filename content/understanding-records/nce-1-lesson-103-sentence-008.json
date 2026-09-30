@@ -1,0 +1,105 @@
+{
+  "chinese": "题很容易。",
+  "intent": "陈述本次考试里的试题整体难度很低。",
+  "comparison": null,
+  "backbone": {
+    "text": "The questions were easy.",
+    "meaning": "这些试题是容易的。"
+  },
+  "structureNotes": [
+    {
+      "title": "be动词后接形容词作表语",
+      "text": "were 是 are 的过去式，说明话题是已经做完的考试试题；easy 直接跟在 were 后面说明主语的性质。"
+    },
+    {
+      "title": "very 修饰形容词",
+      "text": "very 放在 easy 前表示“非常、很”，加强 easy 的程度，不改变 easy 的基本含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The questions",
+      "role": "主语",
+      "explanation": "指考试的试题，是这句话描述的对象。"
+    },
+    {
+      "text": "were",
+      "role": "系动词（过去式）",
+      "explanation": "连接主语和后面的表语，表示“试题处于某一状态”。"
+    },
+    {
+      "text": "very easy.",
+      "role": "表语（形容词短语）",
+      "explanation": "说明主语 questions 的特征是容易，very 修饰 easy 的程度。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "（特指本次考试的）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "questions",
+      "meaning": "试题、题目",
+      "pos": "名词复数",
+      "phonetic": "/ˈkwestʃənz/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（are 的过去式）",
+      "pos": "be动词过去式",
+      "phonetic": "/wɜː(r)/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常、很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "easy.",
+      "meaning": "容易的、难度低的",
+      "pos": "形容词",
+      "phonetic": "/ˈiːzi/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The questions",
+      "relation": "句子描述的主体",
+      "meaning": "这些试题"
+    },
+    {
+      "text": "were",
+      "relation": "连接主体和特征的系动词",
+      "meaning": "是"
+    },
+    {
+      "text": "very easy.",
+      "relation": "描述试题的特征",
+      "meaning": "非常容易。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-008",
+  "sentenceOrder": 8,
+  "english": "The questions were very easy.",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "be动词后接形容词作表语",
+      "text": "were 是 are 的过去式，说明话题是已经做完的考试试题；easy 直接跟在 were 后面说明主语的性质。"
+    },
+    {
+      "title": "very 修饰形容词",
+      "text": "very 放在 easy 前表示“非常、很”，加强 easy 的程度，不改变 easy 的基本含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：英文句子、中文翻译、句法语义和词汇标注整体正确；be 动词后接形容词作表语、very 作程度修饰均解释清楚，未把 questions 误作地点或谓语。仅有少量释义可更精准：questions 在考试语境中译为“试题”更贴切，easy 补充“难度低”更贴合本句。（非逐句人工审核）"
+}

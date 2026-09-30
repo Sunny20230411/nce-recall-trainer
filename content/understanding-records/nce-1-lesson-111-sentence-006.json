@@ -1,0 +1,170 @@
+{
+  "chinese": "不过，当然，它不如那个贵的好。",
+  "intent": "承接上句平价商品价格更低的表述，做出让步式的客观评价：它确实不错，但品质比不上价格更高的那款。",
+  "comparison": {
+    "chinese": "它不如那个贵的好",
+    "english": "it's not as good as the expensive one",
+    "steps": [
+      {
+        "label": "先确定比较两端",
+        "text": "前半句描述的it（这款便宜的商品）和后面的the expensive one（贵的那款）。",
+        "explanation": "one在这里指代前文出现过的model（款型、商品），避免重复啰嗦，英语用同类代词代替已经提过的名词。"
+      },
+      {
+        "label": "再看比较框架",
+        "text": "肯定式是as good as（和…一样好），加not就变成否定比较。",
+        "explanation": "not as good as直接对应中文“不如…好、没有…好”，不需要额外加“比”字，结构上两个as中间放描述品质的形容词good，后一个as引出被比较的对象。"
+      }
+    ],
+    "takeaway": "英语用not as + 形容词 + as表达“不如…那么…”，one用来指代同类已提过的名词，避免重复。"
+  },
+  "backbone": {
+    "text": "it's not as good as the expensive one",
+    "meaning": "它不如那款贵的好。"
+  },
+  "structureNotes": [
+    {
+      "title": "让步转折与插入语",
+      "text": "But承接上句“它只要300英镑”的优点，自然转折指出它的缺点；of course是评注性插入语，表示这个判断是符合常理、无需争辩的事实。"
+    },
+    {
+      "title": "否定同级比较结构",
+      "text": "as + 形容词原级 + as表示两者程度相当，前面加not就表示前者在该品质上不如后者，中间的good描述商品的品质、做工水平。"
+    },
+    {
+      "title": "代词one的指代作用",
+      "text": "one是替代词，指代前文提到的可数名词model（款式/商品），后面带定语the expensive限定它指“价格更贵的那一款”，避免重复使用model造成句子累赘。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "But, of course,",
+      "role": "评注性状语",
+      "explanation": "But表示语义转折，of course是插入语，缓和语气，说明后面的评价是常识性的客观结论，不改变句子主干。"
+    },
+    {
+      "text": "it's not as good as the expensive one",
+      "role": "否定同级比较分句",
+      "explanation": "主句的核心判断，说明it的品质不及the expensive one，其中not as good as是固定的比较结构。"
+    },
+    {
+      "text": "the expensive one",
+      "role": "比较对象",
+      "explanation": "是被拿来和it做比较的参照对象，即贵价那款商品，one指代前文提到的model。"
+    }
+  ],
+  "words": [
+    {
+      "text": "But,",
+      "meaning": "但是，不过",
+      "pos": "连词",
+      "phonetic": "bʌt"
+    },
+    {
+      "text": "of",
+      "meaning": "（与course构成固定搭配）",
+      "pos": "固定短语的组成部分",
+      "phonetic": "ɒv"
+    },
+    {
+      "text": "course,",
+      "meaning": "当然（of course为固定短语，表常识性判断）",
+      "pos": "固定短语的组成部分",
+      "phonetic": "kɔːs"
+    },
+    {
+      "text": "it's",
+      "meaning": "它是",
+      "pos": "代词+be动词缩写",
+      "phonetic": "ɪts"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "否定副词",
+      "phonetic": "nɒt"
+    },
+    {
+      "text": "as",
+      "meaning": "和……一样（用于as...as同级比较结构）",
+      "pos": "副词",
+      "phonetic": "æz"
+    },
+    {
+      "text": "good",
+      "meaning": "好的，令人满意的",
+      "pos": "形容词",
+      "phonetic": "ɡʊd"
+    },
+    {
+      "text": "as",
+      "meaning": "和……（引出比较对象）",
+      "pos": "介词",
+      "phonetic": "æz"
+    },
+    {
+      "text": "the",
+      "meaning": "那个（定冠词，限定特指）",
+      "pos": "定冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "expensive",
+      "meaning": "昂贵的",
+      "pos": "形容词",
+      "phonetic": "ɪkˈspensɪv"
+    },
+    {
+      "text": "one.",
+      "meaning": "一个（指代前面提到的同类商品/款型）",
+      "pos": "代词",
+      "phonetic": "wʌn"
+    }
+  ],
+  "parts": [
+    {
+      "text": "But, of course,",
+      "relation": "整句的语气铺垫，承接上文转折、点明评价是公认事实。",
+      "meaning": "不过，当然了"
+    },
+    {
+      "text": "it's not",
+      "relation": "引出被评价的主体it，以及对品质的否定判断。",
+      "meaning": "它并没有"
+    },
+    {
+      "text": "as good as",
+      "relation": "嵌在否定结构里，说明两边在“好”这个维度上的程度差距。",
+      "meaning": "和……一样好"
+    },
+    {
+      "text": "the expensive one.",
+      "relation": "点明比较的参照对象，也就是被它比不上的贵价商品。",
+      "meaning": "那个贵的（款）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-111",
+  "sentenceId": "nce-1-lesson-111-sentence-006",
+  "sentenceOrder": 6,
+  "english": "But, of course, it's not as good as the expensive one.",
+  "lesson": "Lesson 111 The most expensive model",
+  "notes": [
+    {
+      "title": "让步转折与插入语",
+      "text": "But承接上句“它只要300英镑”的优点，自然转折指出它的缺点；of course是评注性插入语，表示这个判断是符合常理、无需争辩的事实。"
+    },
+    {
+      "title": "否定同级比较结构",
+      "text": "as + 形容词原级 + as表示两者程度相当，前面加not就表示前者在该品质上不如后者，中间的good描述商品的品质、做工水平。"
+    },
+    {
+      "title": "代词one的指代作用",
+      "text": "one是替代词，指代前文提到的可数名词model（款式/商品），后面带定语the expensive限定它指“价格更贵的那一款”，避免重复使用model造成句子累赘。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句译文、主干、比较说明与结构分析整体准确，能正确讲清not as...as同级否定比较和one的指代用法。词表中of、course的词性标注偏宽：of course是固定短语，course本身不是名词性评注成分；另外中文译文缺句首But，虽语境可补，但逐句对齐时应写明。其余信息无需改动。（非逐句人工审核）"
+}

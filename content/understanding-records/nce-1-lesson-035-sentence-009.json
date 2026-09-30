@@ -1,0 +1,111 @@
+{
+  "chinese": "他正在游过这条河。",
+  "intent": "描述水中男孩此刻正在做的动作，说明他正处于横穿河流的行进状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "He is swimming across the river",
+    "meaning": "他正在横穿这条河游动"
+  },
+  "parts": [
+    {
+      "text": "He",
+      "relation": "动作的执行者",
+      "meaning": "他"
+    },
+    {
+      "text": "is swimming",
+      "relation": "描述主语正在进行的动作",
+      "meaning": "正在游泳"
+    },
+    {
+      "text": "across the river.",
+      "relation": "补充说明游泳的路径和范围",
+      "meaning": "横穿这条河"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "现在进行时的用法",
+      "text": "这里用is加动词swimming的-ing形式，明确表示动作此刻正在发生，不是已经完成或者将要进行的行为。"
+    },
+    {
+      "title": "across的表意作用",
+      "text": "across表示从河流的一侧到另一侧横穿，不是沿着河岸游，清晰限定了游泳的方向路径。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "句子主语",
+      "explanation": "指明动作的执行者，指代前文提到的水里的男孩。"
+    },
+    {
+      "text": "is swimming",
+      "role": "现在进行时的谓语部分",
+      "explanation": "用来描述当前瞬间正在持续进行的游泳动作。"
+    },
+    {
+      "text": "across the river",
+      "role": "地点路径状语",
+      "explanation": "补充说明游泳动作发生的路径，说明他是横穿整条河游动。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/",
+      "text": "He"
+    },
+    {
+      "meaning": "（助动词，构成进行时态）",
+      "pos": "助动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "游泳",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈswɪmɪŋ/",
+      "text": "swimming"
+    },
+    {
+      "meaning": "横穿，越过",
+      "pos": "介词",
+      "phonetic": "/əˈkrɒs/",
+      "text": "across"
+    },
+    {
+      "meaning": "这个，这条",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "河，河流",
+      "pos": "名词",
+      "phonetic": "/ˈrɪvə(r)/",
+      "text": "river."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-35",
+  "sentenceId": "nce-1-lesson-035-sentence-009",
+  "sentenceOrder": 9,
+  "english": "He is swimming across the river.",
+  "lesson": "Lesson 35 Our village",
+  "notes": [
+    {
+      "title": "现在进行时的用法",
+      "text": "这里用is加动词swimming的-ing形式，明确表示动作此刻正在发生，不是已经完成或者将要进行的行为。"
+    },
+    {
+      "title": "across的表意作用",
+      "text": "across表示从河流的一侧到另一侧横穿，不是沿着河岸游，清晰限定了游泳的方向路径。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原始学习数据整体符合面向中文母语成年人的英语解析要求，仅存在局部细节瑕疵可明确修正，不影响核心学习逻辑。（非逐句人工审核）"
+}

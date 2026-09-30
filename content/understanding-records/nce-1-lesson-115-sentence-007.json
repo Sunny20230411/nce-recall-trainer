@@ -1,0 +1,64 @@
+{
+  "chinese": "进来吧。",
+  "intent": "对敲门者发出明确的进入邀请，邀请对方进入室内。",
+  "comparison": null,
+  "backbone": {
+    "text": "Come in.",
+    "meaning": "邀请听话人从门外进入室内的祈使表达。"
+  },
+  "structureNotes": [
+    {
+      "title": "短语动词构成的祈使句",
+      "text": "这是直接对听话人发出的指令，省略了第二人称主语you。come和in结合为固定短语动词come in，整体表示“进入室内”的动作，不拆分理解。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Come",
+      "role": "祈使句核心动词",
+      "explanation": "以动词原形开头，直接发出邀请动作，省略了默认的第二人称主语you。"
+    },
+    {
+      "text": "in",
+      "role": "小品副词",
+      "explanation": "和come搭配构成短语动词come in，表示进入室内的方向，句末标点不属于该词汇本身。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Come",
+      "meaning": "来，来到",
+      "pos": "动词",
+      "phonetic": "/kʌm/"
+    },
+    {
+      "text": "in.",
+      "meaning": "进，进入",
+      "pos": "副词",
+      "phonetic": "/ɪn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Come in.",
+      "relation": "完整的邀请进入的祈使表达，省略了默认的听话人主语。",
+      "meaning": "进来吧。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-115",
+  "sentenceId": "nce-1-lesson-115-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Come in.",
+  "lesson": "Lesson 115 Knock, knock!",
+  "notes": [
+    {
+      "title": "短语动词构成的祈使句",
+      "text": "这是直接对听话人发出的指令，省略了第二人称主语you。come和in结合为固定短语动词come in，整体表示“进入室内”的动作，不拆分理解。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，符合当前语境下对敲门者发出进入邀请的功能；仅发现词汇分词存在标点附着问题，导致单独词条的音标标注不准确，其余语法、释义、语境说明均无误。（非逐句人工审核）"
+}

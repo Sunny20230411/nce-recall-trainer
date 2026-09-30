@@ -1,0 +1,86 @@
+{
+  "chinese": "然后整理床铺。",
+  "intent": "提出接下来要完成的家务指令，告知听话人下一项需要执行的动作任务。",
+  "comparison": null,
+  "backbone": {
+    "text": "Then make the bed.",
+    "meaning": "接下来去整理床铺。"
+  },
+  "parts": [
+    {
+      "text": "Then",
+      "relation": "说明动作发生的先后时间顺序",
+      "meaning": "然后，接下来"
+    },
+    {
+      "text": "make",
+      "relation": "指令要求执行的核心动作",
+      "meaning": "整理、做"
+    },
+    {
+      "text": "the bed.",
+      "relation": "动作施加的对象",
+      "meaning": "这张床铺"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "祈使句省略主语",
+      "text": "本句是用于下达日常指令的祈使句，省略了听话人you，直接用动词原形开头发出要求，符合家务指令场景的简洁表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Then",
+      "role": "时间状语",
+      "explanation": "用来指明当前动作是承接上一项任务之后要执行的步骤，明确操作顺序。"
+    },
+    {
+      "text": "make the bed",
+      "role": "祈使谓语短语",
+      "explanation": "固定搭配表示整理床铺，作为祈使句的核心指令内容，直接告知需要完成的具体家务。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "然后，接下来",
+      "pos": "副词",
+      "phonetic": "/ðen/",
+      "text": "Then"
+    },
+    {
+      "meaning": "整理，做",
+      "pos": "动词",
+      "phonetic": "/meɪk/",
+      "text": "make"
+    },
+    {
+      "meaning": "这个，这（定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "床铺，床",
+      "pos": "名词",
+      "phonetic": "/bed/",
+      "text": "bed."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-29",
+  "sentenceId": "nce-1-lesson-029-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Then make the bed.",
+  "lesson": "Lesson 29 Come in, Amy.",
+  "notes": [
+    {
+      "title": "祈使句省略主语",
+      "text": "本句是用于下达日常指令的祈使句，省略了听话人you，直接用动词原形开头发出要求，符合家务指令场景的简洁表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅存在局部细节瑕疵可修正，不影响核心内容理解（非逐句人工审核）"
+}

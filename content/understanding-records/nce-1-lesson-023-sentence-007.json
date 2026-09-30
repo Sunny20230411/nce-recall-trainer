@@ -1,0 +1,75 @@
+{
+  "chinese": "给你。",
+  "intent": "向对方递出物品时告知对方物品已交到其手中的常用礼貌表达",
+  "comparison": null,
+  "backbone": {
+    "text": "Here you are.",
+    "meaning": "把物品交付给对方时的告知用语，意思是东西就在这里，交到你手上了"
+  },
+  "parts": [
+    {
+      "text": "Here",
+      "relation": "点明交付的物品所在的近旁位置，前置起强调作用",
+      "meaning": "这里（指代递送的物品已到对方手边的位置）"
+    },
+    {
+      "text": "you",
+      "relation": "指代接收物品的交际对方",
+      "meaning": "你"
+    },
+    {
+      "text": "are.",
+      "relation": "作为系动词搭配前置地点状语，共同构成约定俗成的递物场景专用表达，并非取常规语义",
+      "meaning": "此处无独立实义，配合完成固定交际表达"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "日常交际特殊语序",
+      "text": "这个表达不使用表示客观位置描述的普通陈述句语序You are here，采用Here前置的非完全倒装语序，是递东西场景下的通用固定常用礼貌说法，语气自然得体。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Here you are",
+      "role": "完整交际短句",
+      "explanation": "日常递物时的专用表达，不需要额外补充成分就能清晰传递交付物品给对方的含义。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "在这里（指代递送的物品已到对方手边的位置）",
+      "pos": "副词",
+      "phonetic": "/hɪə/",
+      "text": "Here"
+    },
+    {
+      "meaning": "你",
+      "pos": "人称代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "（此处无独立实义，为系动词）",
+      "pos": "系动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-23",
+  "sentenceId": "nce-1-lesson-023-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Here you are.",
+  "lesson": "Lesson 23 Which glasses?",
+  "notes": [
+    {
+      "title": "日常交际特殊语序",
+      "text": "这个表达不使用表示客观位置描述的普通陈述句语序You are here，采用Here前置的非完全倒装语序，是递东西场景下的通用固定常用礼貌说法，语气自然得体。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析完整合规，仅存在局部细节可优化修正，未出现核心语法、概念错误。（非逐句人工审核）"
+}

@@ -1,0 +1,121 @@
+{
+  "chinese": "伊恩已经卖掉他的房子了吗？",
+  "intent": "询问对方，伊恩目前是否已经完成了把自己的房子卖掉这件事。",
+  "comparison": null,
+  "backbone": {
+    "text": "伊恩已经卖掉他的房子了吗？",
+    "meaning": "确认伊恩是否已经完成出售自己房子的动作。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时的一般疑问语序",
+      "text": "句首的Has是现在完成时的助动词，帮助构成疑问，不单独表示“有”的含义。它被放在主语Ian之前，用来把陈述句转为疑问句，谓语核心是过去分词sold。"
+    },
+    {
+      "title": "yet的位置和含义",
+      "text": "yet意为“已经”，常用于否定句或疑问句的句末，说明这是一个面向当前时间点的询问，询问动作是否已经发生，不特指某个过去的具体时间。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Has",
+      "role": "助动词",
+      "explanation": "现在完成时的助动词，因疑问句需要放在句首，帮助构成疑问语序，体现主语第三人称单数的搭配要求。"
+    },
+    {
+      "text": "Ian",
+      "role": "主语",
+      "explanation": "本句的动作发出者，伊恩是卖掉房子这件事的执行者。"
+    },
+    {
+      "text": "sold his house",
+      "role": "谓语+宾语",
+      "explanation": "核心谓语是sold（sell的过去分词，和Has共同构成现在完成时），his house是sold的对象，说明卖掉的具体事物。"
+    },
+    {
+      "text": "yet?",
+      "role": "句末疑问状语",
+      "explanation": "yet是副词，用于疑问句末尾，强调询问“到目前为止是否已经完成”这件事，问号是整句的标点符号，不是yet本身的组成部分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Has",
+      "meaning": "助动词（have的第三人称单数现在时，用于构成现在完成时）",
+      "pos": "aux.",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "Ian",
+      "meaning": "伊恩（男子名）",
+      "pos": "n.",
+      "phonetic": "/ˈiːən/"
+    },
+    {
+      "text": "sold",
+      "meaning": "卖掉，出售（sell的过去分词）",
+      "pos": "v.",
+      "phonetic": "/səʊld/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "pron.",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "house",
+      "meaning": "房子，住宅",
+      "pos": "n.",
+      "phonetic": "/haʊs/"
+    },
+    {
+      "text": "yet?",
+      "meaning": "已经（用于疑问句末，询问动作是否发生）",
+      "pos": "adv.",
+      "phonetic": "/jet/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Has",
+      "meaning": "（助动词，构成现在完成时疑问）",
+      "relation": "引出疑问，搭配主语和完成时谓语"
+    },
+    {
+      "text": "Ian",
+      "meaning": "伊恩",
+      "relation": "句子主语，执行卖房动作的人"
+    },
+    {
+      "text": "sold his house",
+      "meaning": "卖掉他的房子",
+      "relation": "谓语加宾语，说明动作和动作对象"
+    },
+    {
+      "text": "yet?",
+      "meaning": "已经（搭配句末问号表疑问语气）",
+      "relation": "补充询问动作是否到目前为止已完成，承载疑问语气"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-91",
+  "sentenceId": "nce-1-lesson-091-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Has Ian sold his house yet?",
+  "lesson": "Lesson 91 Poor Ian!",
+  "notes": [
+    {
+      "title": "现在完成时的一般疑问语序",
+      "text": "句首的Has是现在完成时的助动词，帮助构成疑问，不单独表示“有”的含义。它被放在主语Ian之前，用来把陈述句转为疑问句，谓语核心是过去分词sold。"
+    },
+    {
+      "title": "yet的位置和含义",
+      "text": "yet意为“已经”，常用于否定句或疑问句的句末，说明这是一个面向当前时间点的询问，询问动作是否已经发生，不特指某个过去的具体时间。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体分析清晰准确，所有语法标注、词义解释、翻译和上下文关联均符合原句语义与英文语法规则；仅存在两处可优化的细节问题：一是yet的词表条目未将问号与单词本身区分，二是yet?的分块释义单独处理时略显生硬，均为不影响核心理解的小瑕疵。（非逐句人工审核）"
+}

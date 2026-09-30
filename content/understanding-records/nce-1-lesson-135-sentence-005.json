@@ -1,0 +1,125 @@
+{
+  "chinese": "她将做什么？",
+  "intent": "询问她未来将要采取的行动或做出的安排。",
+  "comparison": {
+    "chinese": "她将做什么？",
+    "english": "What will she do?",
+    "steps": [
+      {
+        "label": "疑问词前置",
+        "text": "疑问代词What直接置于句首，被提问的是句中do的宾语（即“做的具体事情”）。",
+        "explanation": "英语中特殊疑问句需要将疑问词放在句首，表明提问的核心内容。"
+      },
+      {
+        "label": "助动词倒装",
+        "text": "助动词will移到主语she之前，形成一般疑问句语序；实义动词do使用原形跟在主语后。",
+        "explanation": "这是一般将来时特殊疑问句的标准结构，体现“将要”的时态含义。"
+      }
+    ],
+    "takeaway": "一般将来时的特殊疑问句中，疑问词前置后接“助动词will + 主语 + 动词原形”，同时表达时态和提问意图。"
+  },
+  "backbone": {
+    "text": "What will she do?",
+    "meaning": "她将要做什么？"
+  },
+  "structureNotes": [
+    {
+      "title": "疑问代词作宾语",
+      "text": "疑问代词What在句中是实义动词do的宾语，被提到句首突出提问的是“做的事情”，而非动作本身。"
+    },
+    {
+      "title": "助动词倒装表疑问",
+      "text": "一般将来时的助动词will放在主语she之前，构成疑问语序，既体现将来时态，又表明这是一个疑问句。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What",
+      "role": "疑问代词（do的宾语）",
+      "explanation": "指代“要做的事情”，作为实义动词do的宾语，前置到句首提示提问核心。"
+    },
+    {
+      "text": "will",
+      "role": "将来时助动词",
+      "explanation": "帮助构成一般将来时，在疑问句中置于主语之前，体现“将要”的时态含义。"
+    },
+    {
+      "text": "she",
+      "role": "主语",
+      "explanation": "句子描述的动作执行者，即被询问的对象。"
+    },
+    {
+      "text": "do",
+      "role": "实义动词",
+      "explanation": "表示“做、进行”的动作，使用原形，与will搭配表示将来要发生的动作。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "什么",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/",
+      "text": "What"
+    },
+    {
+      "meaning": "将要；将会",
+      "pos": "助动词",
+      "phonetic": "/wɪl/",
+      "text": "will"
+    },
+    {
+      "meaning": "她",
+      "pos": "代词（主格）",
+      "phonetic": "/ʃiː/",
+      "text": "she"
+    },
+    {
+      "meaning": "做；干",
+      "pos": "动词",
+      "phonetic": "/duː/",
+      "text": "do?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What",
+      "relation": "提问对象：被询问的具体行为内容",
+      "meaning": "什么"
+    },
+    {
+      "text": "will",
+      "relation": "时态提示：说明动作发生在未来",
+      "meaning": "将要"
+    },
+    {
+      "text": "she",
+      "relation": "动作主体：实施动作的人",
+      "meaning": "她"
+    },
+    {
+      "text": "do?",
+      "relation": "核心动作：与What搭配构成疑问",
+      "meaning": "做？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-135",
+  "sentenceId": "nce-1-lesson-135-sentence-005",
+  "sentenceOrder": 5,
+  "english": "What will she do?",
+  "lesson": "Lesson 135 The latest report",
+  "notes": [
+    {
+      "title": "疑问代词作宾语",
+      "text": "疑问代词What在句中是实义动词do的宾语，被提到句首突出提问的是“做的事情”，而非动作本身。"
+    },
+    {
+      "title": "助动词倒装表疑问",
+      "text": "一般将来时的助动词will放在主语she之前，构成疑问语序，既体现将来时态，又表明这是一个疑问句。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：已核对该一般将来时特殊疑问句的标注：核心结构分析、成分词性、分块释义均准确，What作do的宾语前置、will助动词倒装的说明符合特殊疑问句语法规则，无语法断言错误、指代偏差或词义误解，内容符合面向中文母语成年人的解析要求，无需修改。（非逐句人工审核）"
+}

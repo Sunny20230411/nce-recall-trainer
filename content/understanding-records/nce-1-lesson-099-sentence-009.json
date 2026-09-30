@@ -1,0 +1,161 @@
+{
+  "chinese": "对不起，露西。恐怕我起不来。",
+  "intent": "向露西致歉，同时说明自己因身体不适无法起身的状况。",
+  "comparison": {
+    "chinese": "恐怕我起不来。",
+    "english": "I'm afraid that I can't get up.",
+    "steps": [
+      {
+        "label": "先表达委婉语气",
+        "text": "I'm afraid",
+        "explanation": "放在句首表示委婉告知，中文对应“恐怕、恐怕不行”，不是字面的“我害怕”。"
+      },
+      {
+        "label": "再说明具体状况",
+        "text": "that I can't get up",
+        "explanation": "that 引导说明“恐怕”的具体内容，I can't get up 直接说明无法起身，中文把“恐怕”放在分句前更自然。"
+      }
+    ],
+    "takeaway": "I'm afraid 是日常委婉表达，后面接从句说明担忧或不便的具体内容。"
+  },
+  "backbone": {
+    "text": "I'm sorry, Lucy. I'm afraid that I can't get up.",
+    "meaning": "向露西表达歉意，说明自己因为不适没办法站起来。"
+  },
+  "structureNotes": [
+    {
+      "title": "that 引导的宾语从句",
+      "text": "that 在 I'm afraid 后引导从句，说明担忧的具体内容，此处 that 口语中常可省略，不改变核心意思。"
+    },
+    {
+      "title": "get up 短语动词",
+      "text": "get up 在这里表示“站起来、起身”，不是单纯表示起床，需要结合语境理解动作含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm sorry",
+      "role": "致歉表达",
+      "explanation": "向对方表达歉意的固定说法，用于打扰或无法提供帮助时的礼貌回应。"
+    },
+    {
+      "text": "Lucy",
+      "role": "呼语",
+      "explanation": "直接称呼对话对象，明确致歉的接收人。"
+    },
+    {
+      "text": "I'm afraid",
+      "role": "委婉表达框架",
+      "explanation": "用来委婉引出坏消息或不便情况，弱化语气。"
+    },
+    {
+      "text": "that I can't get up",
+      "role": "宾语从句",
+      "explanation": "作 afraid 的内容，说明“恐怕”的具体事由：自己没办法起身。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I'm",
+      "meaning": "我（I am的缩写，在致歉语境中无实义，仅作主语引导表述）",
+      "pos": "缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "sorry,",
+      "meaning": "抱歉的；对不起的",
+      "pos": "形容词",
+      "phonetic": "/ˈsɒri/"
+    },
+    {
+      "text": "Lucy.",
+      "meaning": "露西（人名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈluːsi/"
+    },
+    {
+      "text": "I'm",
+      "meaning": "我（I am的缩写，用于引出委婉表达框架）",
+      "pos": "缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "afraid",
+      "meaning": "担心的；（用于委婉语气）恐怕",
+      "pos": "形容词",
+      "phonetic": "/əˈfreɪd/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导从句）无实义",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "can't",
+      "meaning": "不能；无法",
+      "pos": "情态动词否定缩写",
+      "phonetic": "/kɑːnt/"
+    },
+    {
+      "text": "get",
+      "meaning": "（与 up 搭配）起身、站起",
+      "pos": "动词",
+      "phonetic": "/ɡet/"
+    },
+    {
+      "text": "up.",
+      "meaning": "向上；（与 get 搭配）起身",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I'm sorry,",
+      "relation": "致歉表达",
+      "meaning": "对不起"
+    },
+    {
+      "text": "Lucy.",
+      "relation": "致歉的对象",
+      "meaning": "露西。"
+    },
+    {
+      "text": "I'm afraid",
+      "relation": "引导委婉告知的语气框架",
+      "meaning": "恐怕"
+    },
+    {
+      "text": "that I can't get up.",
+      "relation": "说明无法起身的具体状况",
+      "meaning": "我起不来。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-99",
+  "sentenceId": "nce-1-lesson-099-sentence-009",
+  "sentenceOrder": 9,
+  "english": "I'm sorry, Lucy. I'm afraid that I can't get up.",
+  "lesson": "Lesson 99 Ow!",
+  "notes": [
+    {
+      "title": "that 引导的宾语从句",
+      "text": "that 在 I'm afraid 后引导从句，说明担忧的具体内容，此处 that 口语中常可省略，不改变核心意思。"
+    },
+    {
+      "title": "get up 短语动词",
+      "text": "get up 在这里表示“站起来、起身”，不是单纯表示起床，需要结合语境理解动作含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体释义、结构标注与语境理解基本正确，符合原文表意。存在少量可规范修正的细节：单词表中两处“I'm”的释义重复为“我是”，不符合该缩写在句中的实际表意；单词“sorry,”“Lucy.”“up.”尾部标点附着在词条上不够规范，应去除标点保留纯单词内容。其余分句主干、从句属性、短语动词释义、呼语标注等均无错误。（非逐句人工审核）"
+}

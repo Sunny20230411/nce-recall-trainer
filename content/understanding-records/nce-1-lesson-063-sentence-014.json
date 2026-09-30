@@ -1,0 +1,236 @@
+{
+  "chinese": "他每天可以起床大约两个小时，但你们必须让房间保持暖和。",
+  "intent": "医生告知病人家属，病人可以短时间下床活动，但需要家属确保房间保暖。",
+  "comparison": {
+    "chinese": "他每天可以起床大约两个小时，但你们必须让房间保持暖和。",
+    "english": "He can get up for about two hours each day, but you must keep the room warm.",
+    "steps": [
+      {
+        "label": "先确认前半段的许可内容",
+        "text": "He can get up for about two hours each day",
+        "explanation": "先说明“他可以起床”，再用for about two hours补充每次下床的时长，用each day说明这是每天的日常安排；中文会自然说“每天可以起床大约两个小时”，把时间频率放在前面。"
+      },
+      {
+        "label": "再看后半段的要求",
+        "text": "you must keep the room warm",
+        "explanation": "先提出“你们必须做到”，再接要做的事：让房间保持暖和；keep是表达“维持某种状态”的核心动词，the room是被维持的对象，warm补充房间要保持的状态，中文说“让房间保持暖和”顺序对应。"
+      },
+      {
+        "label": "最后看并列连接",
+        "text": "but",
+        "explanation": "but连接两个相关但侧重不同的要求，前半段允许病人活动，后半段提醒家属做好保暖，二者都是护理要点，不是对立的转折关系。"
+      }
+    ],
+    "takeaway": "英文先讲动作、再补时长和频率；中文常把时间频率放前面。keep the room warm中，keep表“维持”，warm说明房间的状态。"
+  },
+  "backbone": {
+    "text": "He can get up, but you must keep the room warm.",
+    "meaning": "他可以下床活动，但家属必须保持房间温暖。"
+  },
+  "structureNotes": [
+    {
+      "title": "but连接并列分句",
+      "text": "but连接两个独立分句，前句说明病人可下床的时长，后句提出家属需执行的保暖要求，两句共同构成护理指导。"
+    },
+    {
+      "title": "介词for表动作持续时长",
+      "text": "for about two hours用来说明get up这个动作每天持续的大概时长。"
+    },
+    {
+      "title": "“keep + 宾语 + 形容词”表维持状态",
+      "text": "keep the room warm里，warm补充说明room需要保持的状态，表达“使某物维持在某状态”，不能换成系动词is直接跟在keep后面。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "前一分句主语",
+      "explanation": "指代正在康复的病人威廉姆斯先生，是“可以起床”这个动作的发出者。"
+    },
+    {
+      "text": "can get up",
+      "role": "前一分句谓语",
+      "explanation": "can是情态动词表示许可，后接动词短语get up，表示“能够起床（下床活动）”。"
+    },
+    {
+      "text": "for about two hours",
+      "role": "前一分句的时长状语",
+      "explanation": "用介词for引出动作持续的时长，about表示“大约”修饰two hours，说明下床活动的时间长度。"
+    },
+    {
+      "text": "each day",
+      "role": "前一分句的频率状语",
+      "explanation": "说明“下床两小时”是每天都可以进行的日常安排。"
+    },
+    {
+      "text": "but",
+      "role": "并列连词",
+      "explanation": "连接前后两个并列的分句，补充说明和病人活动配套的保暖要求。"
+    },
+    {
+      "text": "you",
+      "role": "后一分句主语",
+      "explanation": "指代病人的家属，是执行“让房间保持暖和”要求的人。"
+    },
+    {
+      "text": "must keep",
+      "role": "后一分句谓语",
+      "explanation": "must是情态动词表示必须，后接动词keep，构成“必须保持/维持”的含义。"
+    },
+    {
+      "text": "the room warm",
+      "role": "后一分句的宾语+宾语补足语",
+      "explanation": "the room是keep的对象，warm补充说明房间需要保持的暖和状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他（此处指代康复中的威廉姆斯先生）",
+      "pos": "人称代词主格",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "can",
+      "meaning": "可以；能够",
+      "pos": "情态动词",
+      "phonetic": "/kæn/"
+    },
+    {
+      "text": "get",
+      "meaning": "（与up搭配）起床；站起",
+      "pos": "动词",
+      "phonetic": "/ɡet/"
+    },
+    {
+      "text": "up",
+      "meaning": "（与get搭配）起床",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "for",
+      "meaning": "（表时长）计；持续达",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "about",
+      "meaning": "大约；左右",
+      "pos": "副词",
+      "phonetic": "/əˈbaʊt/"
+    },
+    {
+      "text": "two",
+      "meaning": "二",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "hours",
+      "meaning": "小时",
+      "pos": "名词复数",
+      "phonetic": "/ˈaʊəz/"
+    },
+    {
+      "text": "each",
+      "meaning": "每；每一",
+      "pos": "限定词",
+      "phonetic": "/iːtʃ/"
+    },
+    {
+      "text": "day,",
+      "meaning": "天；日子，（带逗号）",
+      "pos": "名词",
+      "phonetic": "/deɪ/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是；然而",
+      "pos": "并列连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们（此处指代病人家属）",
+      "pos": "人称代词主格",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "must",
+      "meaning": "必须；一定",
+      "pos": "情态动词",
+      "phonetic": "/mʌst/"
+    },
+    {
+      "text": "keep",
+      "meaning": "（使）保持；处于",
+      "pos": "动词",
+      "phonetic": "/kiːp/"
+    },
+    {
+      "text": "the",
+      "meaning": "定指；该",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "room",
+      "meaning": "房间",
+      "pos": "名词",
+      "phonetic": "/ruːm/"
+    },
+    {
+      "text": "warm.",
+      "meaning": "暖和的；温暖的（带句号）",
+      "pos": "形容词",
+      "phonetic": "/wɔːm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He can get up",
+      "relation": "前半句的核心动作，说明病人被允许下床活动",
+      "meaning": "他可以起床"
+    },
+    {
+      "text": "for about two hours each day,",
+      "relation": "补充说明起床活动的时长和频率",
+      "meaning": "大约两个小时每天"
+    },
+    {
+      "text": "but you must",
+      "relation": "转折引出后续对家属的要求",
+      "meaning": "但是你们必须"
+    },
+    {
+      "text": "keep the room warm.",
+      "relation": "说明家属必须执行的保暖要求",
+      "meaning": "让房间保持暖和"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-63",
+  "sentenceId": "nce-1-lesson-063-sentence-014",
+  "sentenceOrder": 14,
+  "english": "He can get up for about two hours each day, but you must keep the room warm.",
+  "lesson": "Lesson 63 Thank you, doctor.",
+  "notes": [
+    {
+      "title": "but连接并列分句",
+      "text": "but连接两个独立分句，前句说明病人可下床的时长，后句提出家属需执行的保暖要求，两句共同构成护理指导。"
+    },
+    {
+      "title": "介词for表动作持续时长",
+      "text": "for about two hours用来说明get up这个动作每天持续的大概时长。"
+    },
+    {
+      "title": "“keep + 宾语 + 形容词”表维持状态",
+      "text": "keep the room warm里，warm补充说明room需要保持的状态，表达“使某物维持在某状态”，不能换成系动词is直接跟在keep后面。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语义、结构划分与翻译均正确，but表护理要点的衔接而非对立关系、for引出动作持续时长、keep+宾语+形容词表维持状态的讲解均符合语境，仅存在两处可优化的表述瑕疵：一是structureNotes中「不是指向某个目的地或原因」属于冗余的无效补充，for表时长的用法本身无此歧义，无需额外说明；二是词汇表中将He标注为代词、you标注为代词未明确其在句中的指代对象，对中文母语学习者理解语境有所不足。（非逐句人工审核）"
+}

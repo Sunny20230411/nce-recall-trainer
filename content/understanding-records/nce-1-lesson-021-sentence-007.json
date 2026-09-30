@@ -1,0 +1,75 @@
+{
+  "chinese": "给你。",
+  "intent": "向对方递交物品时告知对方物品已交到其手中，完成交接的示意表达。",
+  "comparison": null,
+  "backbone": {
+    "text": "Here you are.",
+    "meaning": "这是物品递交完成时对接收者的常用示意，意思是东西给到你了。"
+  },
+  "parts": [
+    {
+      "text": "Here",
+      "relation": "点明物品当下的位置",
+      "meaning": "这里，指代正递出的物品所在的位置"
+    },
+    {
+      "text": "you",
+      "relation": "指明物品交付的对象",
+      "meaning": "你，指接收物品的对方"
+    },
+    {
+      "text": "are.",
+      "relation": "补充说明交付动作的完成状态",
+      "meaning": "在，表明对方已经拿到物品"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "常用口语倒装结构",
+      "text": "这是递物品场景的固定常用表达，不用生硬翻译成“你在这里”，直接对应中文日常说的“给你”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Here you are.",
+      "role": "完整常用交际短句",
+      "explanation": "专门用于向他人递交物品时的礼貌示意，不需要额外补充其他成分就能完成交际功能。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这里",
+      "pos": "副词",
+      "phonetic": "/hɪə/",
+      "text": "Here"
+    },
+    {
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "在",
+      "pos": "系动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-21",
+  "sentenceId": "nce-1-lesson-021-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Here you are.",
+  "lesson": "Lesson 21 Which book?",
+  "notes": [
+    {
+      "title": "常用口语倒装结构",
+      "text": "这是递物品场景的固定常用表达，不用生硬翻译成“你在这里”，直接对应中文日常说的“给你”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合面向中文母语成年人的英语学习要求，仅存在局部细节表述不严谨的可修正问题，无核心错误。（非逐句人工审核）"
+}

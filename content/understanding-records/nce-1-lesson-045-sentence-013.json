@@ -1,0 +1,70 @@
+{
+  "chinese": "什么事，先生？",
+  "intent": "在对方呼唤自己时，用回应语询问对方有什么事，表现出注意到了呼唤并准备听取指示。",
+  "comparison": null,
+  "backbone": {
+    "text": "Yes, sir?",
+    "meaning": "（听到呼唤后）我在，您有什么吩咐？",
+    "explanation": "用于员工听到老板喊名字时的应声询问，不是普通的肯定回答。"
+  },
+  "parts": [
+    {
+      "text": "Yes,",
+      "relation": "表示回应",
+      "meaning": "听到呼唤后的应声，语气为升调，表示在询问对方原因"
+    },
+    {
+      "text": "sir?",
+      "relation": "称呼的对象",
+      "meaning": "先生？（此处用升调，配合前半部分的应声表示恭敬地询问：您有什么吩咐？）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "语调决定语义",
+      "text": "Yes 用升调说出时，不是表示同意或肯定，而是用于应答呼唤，意思类似“怎么了？什么事？”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes",
+      "role": "应答语",
+      "explanation": "升调使用，表示注意到对方的呼唤并准备回应"
+    },
+    {
+      "text": "sir",
+      "role": "呼语",
+      "explanation": "礼貌称呼听话者，这里是下属对老板的称呼"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes,",
+      "pos": "感叹词",
+      "phonetic": "/jes/",
+      "meaning": "（应答呼唤时的应声）"
+    },
+    {
+      "text": "sir?",
+      "pos": "名词",
+      "phonetic": "/sɜː(r)/",
+      "meaning": "先生"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-45",
+  "sentenceId": "nce-1-lesson-045-sentence-013",
+  "sentenceOrder": 13,
+  "english": "Yes, sir?",
+  "lesson": "Lesson 45 The boss's letter",
+  "notes": [
+    {
+      "title": "语调决定语义",
+      "text": "Yes 用升调说出时，不是表示同意或肯定，而是用于应答呼唤，意思类似“怎么了？什么事？”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语境、功能、语调说明、主干和单词拆分均正确；仅 `sir?` 的翻译未在分块中完整体现升调疑问含义，`words` 里的国际音标需统一为英式宽式。（非逐句人工审核）"
+}

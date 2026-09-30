@@ -1,0 +1,138 @@
+{
+  "chinese": "柜台上的那几本。",
+  "intent": "承接上文问句的指代式回答，通过限定书籍所在位置，明确指出对方询问的是柜台上摆放的那几本书。",
+  "comparison": {
+    "chinese": "英语先说要找的对象“那几本书”，再用从句说明它“在柜台上”；中文自然说成“柜台上的那几本”。",
+    "english": "The books which are on the counter.",
+    "steps": [
+      {
+        "label": "第一步",
+        "text": "The books",
+        "explanation": "先点明核心指称“这些书”，回答“问的是什么东西”。"
+      },
+      {
+        "label": "第二步",
+        "text": "which are on the counter",
+        "explanation": "用which紧跟books，说明books的位置是“在柜台上”，避免和别处的书混淆。"
+      }
+    ],
+    "takeaway": "理解顺序是“books→哪些书→which are on the counter”；which指代先行词the books，并在从句中作主语。"
+  },
+  "backbone": {
+    "text": "The books which are on the counter.",
+    "meaning": "就是放在柜台上的那几本书（承接前文，省略了核心谓语部分，是针对“你买了哪些书”的指代性作答）。"
+  },
+  "structureNotes": [
+    {
+      "title": "定语从句的指代关系",
+      "text": "which是关系代词，指代前面的先行词the books，同时在从句中充当地点描述的主语，整个从句用来限定books的具体范围。"
+    },
+    {
+      "title": "省略表达的用法",
+      "text": "这是针对前文特殊疑问句“Which books did you buy?”的简略回答，直接用带限定修饰的名词短语作答，补全后完整语义等同于“The books which are on the counter are the ones I bought.”，英语对话中常用这类省略形式提升简洁度。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The books",
+      "role": "先行名词短语，被限定的核心对象",
+      "explanation": "是整个回答的核心指称，对应问句里被提问的books。"
+    },
+    {
+      "text": "which are on the counter",
+      "role": "修饰books的限制性定语从句",
+      "explanation": "用来明确具体是哪几本书，限定了书籍的位置在柜台上。"
+    },
+    {
+      "text": "which",
+      "role": "定语从句的关系代词",
+      "explanation": "指代前面的the books，在从句中作主语，避免重复提及books。"
+    },
+    {
+      "text": "are",
+      "role": "定语从句中的be动词",
+      "explanation": "和主语which（指代books）保持数的一致，搭配后面的地点介词短语构成主系表结构。"
+    },
+    {
+      "text": "on the counter",
+      "role": "介词短语作地点表语",
+      "explanation": "说明which所指代的books所处的位置。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "定冠词（表特指双方都知晓的对象）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "books",
+      "meaning": "书（复数形式）",
+      "pos": "名词",
+      "phonetic": "/bʊks/"
+    },
+    {
+      "text": "which",
+      "meaning": "关系代词，指代前文的the books，无独立实义",
+      "pos": "关系代词",
+      "phonetic": "/wɪtʃ/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（复数形式be动词，和指代复数books的which搭配）",
+      "pos": "动词",
+      "phonetic": "/ɑː/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……之上（表位置）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词（特指对话现场的那个柜台）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "counter.",
+      "meaning": "柜台",
+      "pos": "名词",
+      "phonetic": "/ˈkaʊntə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The books",
+      "relation": "指代被提问的核心对象，指明回答的事物类别",
+      "meaning": "那几本书"
+    },
+    {
+      "text": "which are on the counter.",
+      "relation": "后置修饰限定前面的books，说明书所处的具体位置，明确指代范围",
+      "meaning": "在柜台上的"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-97",
+  "sentenceId": "nce-1-lesson-097-sentence-005",
+  "sentenceOrder": 5,
+  "english": "The books which are on the counter.",
+  "lesson": "Lesson 97 A small blue case",
+  "notes": [
+    {
+      "title": "定语从句的指代关系",
+      "text": "which是关系代词，指代前面的先行词the books，同时在从句中充当地点描述的主语，整个从句用来限定books的具体范围。"
+    },
+    {
+      "title": "省略表达的用法",
+      "text": "这是针对前文特殊疑问句“Which books did you buy?”的简略回答，直接用带限定修饰的名词短语作答，补全后完整语义等同于“The books which are on the counter are the ones I bought.”，英语对话中常用这类省略形式提升简洁度。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合文本语法与语义事实，仅存在两处可明确修正的问题：一是对介词on的释义表述冗余拗口，二是关系代词which的释义中助词“的”的表述易引发歧义，误认为which本身具备中文“的”的语法功能。其余语义、结构、指代、指代表述及对比逻辑均准确无误。（非逐句人工审核）"
+}

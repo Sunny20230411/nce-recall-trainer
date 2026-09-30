@@ -1,0 +1,80 @@
+{
+  "chinese": "对，是我在通话，请讲。",
+  "intent": "电话场景下确认自身身份，回应对方的身份询问，示意对方继续讲话。",
+  "comparison": {
+    "chinese": "中文在接听来电、确认身份时，会先说“是我”或“我就是”表明身份，再用“请讲”“你说吧”示意对方继续表述，不会直译成“正在说话”。",
+    "english": "Yes, speaking.",
+    "steps": [
+      {
+        "label": "英文固定省略表达",
+        "text": "Yes, speaking.",
+        "explanation": "这是英语电话接听的惯用省略说法，完整形式是 Yes, this is John speaking.，日常通话中会省略多余的自我介绍部分，仅用 speaking 就能表示“本人正在接听，请继续说”。"
+      }
+    ],
+    "takeaway": "这是英语电话确认身份的固定口语表达，不能按字面直译为“正在说话”。"
+  },
+  "backbone": {
+    "text": "Yes, speaking.",
+    "meaning": "对，是我本人正在接听电话，请继续讲。"
+  },
+  "structureNotes": [
+    {
+      "title": "电话省略式应答",
+      "text": "完整说法是 Yes, this is John speaking.，日常通话中常省略冗余的主语和身份说明，只保留 yes 加 speaking 这一核心应答结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "肯定应答",
+      "explanation": "表示对对方身份询问的肯定回应，意为“是的”。"
+    },
+    {
+      "text": "speaking.",
+      "role": "电话固定用语",
+      "explanation": "是省略结构，含义为“本人正在接听，请讲”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes,",
+      "meaning": "对、是的",
+      "pos": "感叹词",
+      "phonetic": "/jes/"
+    },
+    {
+      "text": "speaking.",
+      "meaning": "（电话用语）本人正在接听、请讲",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈspiːkɪŋ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes,",
+      "meaning": "对、是的",
+      "relation": "对对方身份询问的肯定回应"
+    },
+    {
+      "text": "speaking.",
+      "meaning": "本人正在接听，请讲",
+      "relation": "电话场景下的身份确认用语，示意对方继续讲话"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-139",
+  "sentenceId": "nce-1-lesson-139-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Yes, speaking.",
+  "lesson": "Lesson 139 Is that you, John?",
+  "notes": [
+    {
+      "title": "电话省略式应答",
+      "text": "完整说法是 Yes, this is John speaking.，日常通话中常省略冗余的主语和身份说明，只保留 yes 加 speaking 这一核心应答结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容准确，语义贴合电话场景，各字段表述无事实错误，仅需微调部分说明的表述清晰度。（非逐句人工审核）"
+}

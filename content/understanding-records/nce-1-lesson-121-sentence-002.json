@@ -1,0 +1,109 @@
+{
+  "chinese": "是谁接待您的，先生？",
+  "intent": "询问为对方提供接待服务的人是谁",
+  "comparison": null,
+  "backbone": {
+    "text": "Who served you?",
+    "meaning": "谁为您提供了接待服务？"
+  },
+  "structureNotes": [
+    {
+      "title": "Who作主语的特殊疑问句",
+      "text": "本句中Who本身就是谓语动词served的发出者，即接待动作的主语，因此不需要像询问宾语那样额外添加助动词do/does，直接按照“疑问主语+谓语动词+宾语”的顺序排列即可。"
+    },
+    {
+      "title": "sir作为呼语",
+      "text": "sir是对听话男性的礼貌称呼，独立在句子末尾，用逗号和主句隔开，不属于句子的主干成分，体现问话者的客气态度。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Who",
+      "role": "疑问代词（句子主语）",
+      "explanation": "指代未知的接待者，同时作served这个动作的发出者。"
+    },
+    {
+      "text": "served",
+      "role": "谓语动词（一般过去时）",
+      "explanation": "表示过去发生的“接待、服务”动作。"
+    },
+    {
+      "text": "you",
+      "role": "动词宾语",
+      "explanation": "是served这个动作的承受者，指代听话的先生。"
+    },
+    {
+      "text": "sir",
+      "role": "呼语",
+      "explanation": "对听话者的礼貌称呼，独立于主句结构之外。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "谁",
+      "pos": "疑问代词",
+      "phonetic": "/huː/",
+      "text": "Who"
+    },
+    {
+      "meaning": "接待，服务",
+      "pos": "动词（serve的过去式）",
+      "phonetic": "/sɜːvd/",
+      "text": "served"
+    },
+    {
+      "meaning": "你，您",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you,"
+    },
+    {
+      "meaning": "先生，先生（称呼）",
+      "pos": "名词",
+      "phonetic": "/sɜː/",
+      "text": "sir?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Who",
+      "relation": "询问动作发出者，同时担任主句主语",
+      "meaning": "谁"
+    },
+    {
+      "text": "served",
+      "relation": "描述主语发出的动作",
+      "meaning": "接待、服务（过去式）"
+    },
+    {
+      "text": "you,",
+      "relation": "动作的承受对象",
+      "meaning": "你/您"
+    },
+    {
+      "text": "sir?",
+      "relation": "对听话人的礼貌称呼，独立于主句之外",
+      "meaning": "先生（呼语）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-121",
+  "sentenceId": "nce-1-lesson-121-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Who served you, sir?",
+  "lesson": "Lesson 121 The man in a hat",
+  "notes": [
+    {
+      "title": "Who作主语的特殊疑问句",
+      "text": "本句中Who本身就是谓语动词served的发出者，即接待动作的主语，因此不需要像询问宾语那样额外添加助动词do/does，直接按照“疑问主语+谓语动词+宾语”的顺序排列即可。"
+    },
+    {
+      "title": "sir作为呼语",
+      "text": "sir是对听话男性的礼貌称呼，独立在句子末尾，用逗号和主句隔开，不属于句子的主干成分，体现问话者的客气态度。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句的中文翻译、主干、句法分析与词形标注均符合语境；Who作主语、you为宾语、sir为呼语的关系清晰，时态为一般过去时，英式音标和词义均正确，仅呼语说明可更精炼。（非逐句人工审核）"
+}

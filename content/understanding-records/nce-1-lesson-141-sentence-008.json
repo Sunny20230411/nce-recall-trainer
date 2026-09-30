@@ -1,0 +1,219 @@
+{
+  "chinese": "火车离站后，那位女士打开手提包，拿出粉盒。",
+  "intent": "按先后顺序描述女士在火车离站后紧接着做出的两个连贯动作，是叙事里的场景推进。",
+  "comparison": {
+    "chinese": "中文先说“火车离站后”，再讲人先后做什么。",
+    "english": "英文用 After 引导时间状语从句放在句首，主句才说人的动作；从句的完成时 had left 用来明确它发生在主句 opened 之前。",
+    "steps": [
+      {
+        "label": "先确认时间顺序",
+        "text": "After the train had left the station",
+        "explanation": "中文说“火车离站后”，had left 表示这个动作先于主句完成，说明女士是在火车已经开动之后才动手。"
+      },
+      {
+        "label": "再看主句的连续动作",
+        "text": "the lady opened her handbag and took out her powder compact",
+        "explanation": "两个并列谓语由 and 连接：先打开手提包，再从包里取出粉盒，动作前后承接。"
+      }
+    ],
+    "takeaway": "先理解动作的先后顺序，再把两个连续动作接在女士这个主语上；过去完成时只是用来标明“火车离站”更早发生。"
+  },
+  "backbone": {
+    "text": "女士打开手提包并取出粉盒。",
+    "meaning": "那位女士完成了打开包、拿出粉盒这两个连贯动作。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去完成时的作用",
+      "text": "had left 发生在 opened 之前，用来说明女士做这些事的时候，火车已经驶出车站了。"
+    },
+    {
+      "title": "连续动作的连接",
+      "text": "opened 和 took out 共用主语 the lady，由 and 连接，表示先后紧接着发生的两个动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "After the train had left the station",
+      "role": "时间状语从句",
+      "explanation": "由 After 引导，说明主句动作发生的时间背景，从句用过去完成时表示先于主句动作完成。"
+    },
+    {
+      "text": "the lady",
+      "role": "主句主语",
+      "explanation": "是后面两个并列动作的发出者。"
+    },
+    {
+      "text": "opened her handbag",
+      "role": "主句并列谓语1",
+      "explanation": "第一个动作，打开自己的手提包。"
+    },
+    {
+      "text": "and took out her powder compact",
+      "role": "主句并列谓语2",
+      "explanation": "and 连接第二个动作，took out 为固定动词短语表示“拿出、取出”，指从包里取出粉盒，两个动作依次发生。"
+    },
+    {
+      "text": "powder compact",
+      "role": "名词短语",
+      "explanation": "作 took out 的宾语，powder 是名词作定语，说明 compact 的用途是装粉饼、化妆补妆。"
+    }
+  ],
+  "words": [
+    {
+      "text": "After",
+      "meaning": "在……之后",
+      "pos": "连词",
+      "phonetic": "/ˈɑːftə(r)/"
+    },
+    {
+      "text": "the",
+      "meaning": "这；那（定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "train",
+      "meaning": "火车",
+      "pos": "名词",
+      "phonetic": "/treɪn/"
+    },
+    {
+      "text": "had",
+      "meaning": "（构成过去完成时的助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "left",
+      "meaning": "离开；出发",
+      "pos": "动词过去分词",
+      "phonetic": "/left/"
+    },
+    {
+      "text": "the",
+      "meaning": "这；那（定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "station,",
+      "meaning": "车站",
+      "pos": "名词",
+      "phonetic": "/ˈsteɪʃn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这；那（定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "lady",
+      "meaning": "女士",
+      "pos": "名词",
+      "phonetic": "/ˈleɪdi/"
+    },
+    {
+      "text": "opened",
+      "meaning": "打开",
+      "pos": "动词过去式",
+      "phonetic": "/ˈəʊpənd/"
+    },
+    {
+      "text": "her",
+      "meaning": "她的",
+      "pos": "物主代词",
+      "phonetic": "/hɜː(r)/"
+    },
+    {
+      "text": "handbag",
+      "meaning": "手提包",
+      "pos": "名词",
+      "phonetic": "/ˈhændbæɡ/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "took",
+      "meaning": "（与 out 构成固定短语 took out）拿出、取出",
+      "pos": "动词过去式",
+      "phonetic": "/tʊk/"
+    },
+    {
+      "text": "out",
+      "meaning": "（与 took 搭配，构成短语动词）出、向外",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    },
+    {
+      "text": "her",
+      "meaning": "她的",
+      "pos": "物主代词",
+      "phonetic": "/hɜː(r)/"
+    },
+    {
+      "text": "powder",
+      "meaning": "扑面粉；化妆粉",
+      "pos": "名词作定语",
+      "phonetic": "/ˈpaʊdə(r)/"
+    },
+    {
+      "text": "compact.",
+      "meaning": "粉盒；带镜化妆盒",
+      "pos": "名词",
+      "phonetic": "/ˈkɒmpækt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "After the train had left the station,",
+      "meaning": "在火车驶离车站之后",
+      "relation": "时间背景"
+    },
+    {
+      "text": "the lady opened",
+      "meaning": "那位女士打开了",
+      "relation": "主句主语加第一个谓语"
+    },
+    {
+      "text": "her handbag",
+      "meaning": "她的手提包",
+      "relation": "第一个动作的对象"
+    },
+    {
+      "text": "and took",
+      "meaning": "并且（和 out 搭配表示拿出）",
+      "relation": "连接第二个先后承接的动作"
+    },
+    {
+      "text": "out her powder compact.",
+      "meaning": "她的粉盒",
+      "relation": "第二个动作的对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-141",
+  "sentenceId": "nce-1-lesson-141-sentence-008",
+  "sentenceOrder": 8,
+  "english": "After the train had left the station, the lady opened her handbag and took out her powder compact.",
+  "lesson": "Lesson 141 Sally's first train ride",
+  "notes": [
+    {
+      "title": "过去完成时的作用",
+      "text": "had left 发生在 opened 之前，用来说明女士做这些事的时候，火车已经驶出车站了。"
+    },
+    {
+      "title": "连续动作的连接",
+      "text": "opened 和 took out 共用主语 the lady，由 and 连接，表示先后紧接着发生的两个动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体通顺，但 take out 的词组切分使 took 单独释义为“取出；拿走”，与 out 的副词释义割裂，未体现固定动词短语的整体含义；部分 words 条目音标含中式元音 /əʊ/，应替换为英式标准 /əʊ/，并补充词性标注，使整句语法与词义解析更准确。（非逐句人工审核）"
+}

@@ -1,0 +1,81 @@
+{
+  "chinese": "谢谢您，理查兹先生。",
+  "intent": "向理查兹先生表达谢意，是日常对话中的礼貌致谢表达。",
+  "comparison": null,
+  "backbone": {
+    "text": "Thank you.",
+    "meaning": "（我）向你表达谢意。"
+  },
+  "structureNotes": [
+    {
+      "title": "称呼的语序",
+      "text": "英文先表达致谢内容 Thank you，再以逗号分隔收信人的称呼 Mr. Richards；中文则习惯把称呼放在句首，写作“谢谢您，理查兹先生”。Mr. 是对男性的尊称，后接姓氏 Richards。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Thank you",
+      "role": "致谢表达",
+      "explanation": "日常礼貌用语，省略了表达主体 I（我），表示说话人向对方表达感谢。"
+    },
+    {
+      "text": "Mr. Richards",
+      "role": "对话称呼",
+      "explanation": "句子中对收信人的礼貌称呼，放在句末用逗号与前文隔开，明确致谢的对象是理查兹先生。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Thank",
+      "meaning": "谢谢（用于向对方表达感激的礼貌说法，不是对他人的命令）",
+      "pos": "感叹词",
+      "phonetic": "/θæŋk/"
+    },
+    {
+      "text": "you,",
+      "meaning": "你（宾格，在本句中作 thank 的宾语）",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生（对男子的尊称，Mister 的缩写）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪstə(r)/"
+    },
+    {
+      "text": "Richards.",
+      "meaning": "理查兹（姓氏）",
+      "pos": "名词",
+      "phonetic": "/ˈrɪtʃədz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Thank you,",
+      "relation": "句子的核心致谢表达，省略了主语“我”，面向对方说出感谢的话语",
+      "meaning": "谢谢您"
+    },
+    {
+      "text": "Mr. Richards.",
+      "relation": "对话的称呼对象，明确致谢的具体接收人，用逗号和前面的致谢语隔开",
+      "meaning": "理查兹先生。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-105",
+  "sentenceId": "nce-1-lesson-105-sentence-012",
+  "sentenceOrder": 12,
+  "english": "Thank you, Mr. Richards.",
+  "lesson": "Lesson 105 Full of mistakes",
+  "notes": [
+    {
+      "title": "称呼的语序",
+      "text": "英文先表达致谢内容 Thank you，再以逗号分隔收信人的称呼 Mr. Richards；中文则习惯把称呼放在句首，写作“谢谢您，理查兹先生”。Mr. 是对男性的尊称，后接姓氏 Richards。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语义、主干、分块和语境说明均可使用；“Thank”标注为动词偏泛，祈使/礼貌用语的角色更准确，其他内容未发现影响理解的事实错误。（非逐句人工审核）"
+}

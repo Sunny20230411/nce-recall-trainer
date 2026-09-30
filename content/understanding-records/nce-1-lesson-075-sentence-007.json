@@ -1,0 +1,164 @@
+{
+  "chinese": "可是我姐姐/妹妹上个月买了这双。",
+  "intent": "在店员说没有同款鞋子后，说话人补充说明这双鞋的来源，为后续询问购买地点做铺垫。",
+  "comparison": {
+    "chinese": "英文把购买时间放在句末：my sister bought this pair last month；中文常说“我姐姐/妹妹上个月买了这双”，把时间放在动词前面。",
+    "english": "But my sister bought this pair last month.",
+    "steps": [
+      {
+        "label": "先确定事件",
+        "text": "my sister bought this pair",
+        "explanation": "主语 my sister 加上 bought 与宾语 this pair，构成完整事件：姐妹买了这双。"
+      },
+      {
+        "label": "再接时间",
+        "text": "last month",
+        "explanation": "时间状语放在 bought this pair 后面，补充购买发生的具体时间是上个月。"
+      },
+      {
+        "label": "中文怎么说",
+        "text": "我姐姐/妹妹上个月买了这双。",
+        "explanation": "把“上个月”移到“买”之前，更符合中文表达习惯，意思不变。"
+      }
+    ],
+    "takeaway": "英语时间状语常放在句末，中文常放在动词前；理解时先抓“谁买了什么”，再补充时间。"
+  },
+  "backbone": {
+    "text": "My sister bought this pair.",
+    "meaning": "我姐姐/妹妹买了这双鞋。"
+  },
+  "structureNotes": [
+    {
+      "title": "But 的转折作用",
+      "text": "But 承接前一句店员说没有同款鞋子，引出说话人提到的、自己姐妹已经买到的这双鞋，表示情况上的转折。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "last month 放在句末修饰 bought，说明买这双鞋的时间是上个月；中文里习惯把时间放在动词前面。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "But",
+      "role": "转折连词",
+      "explanation": "承接上文，表示与“店里没有同款鞋”形成转折，引出姐姐/妹妹已买到这双鞋的事实。"
+    },
+    {
+      "text": "my sister",
+      "role": "主语",
+      "explanation": "动作的发出者，也就是买鞋的人。"
+    },
+    {
+      "text": "bought",
+      "role": "谓语",
+      "explanation": "表示过去发生的动作“买”，是 buy 的过去式。"
+    },
+    {
+      "text": "this pair",
+      "role": "宾语",
+      "explanation": "buy 的对象，指代前面提到的那双鞋子。"
+    },
+    {
+      "text": "last month",
+      "role": "时间状语",
+      "explanation": "说明买鞋这个动作发生的时间是上个月。"
+    }
+  ],
+  "words": [
+    {
+      "text": "But",
+      "meaning": "可是，但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "sister",
+      "meaning": "姐姐/妹妹",
+      "pos": "名词",
+      "phonetic": "/ˈsɪstə(r)/"
+    },
+    {
+      "text": "bought",
+      "meaning": "购买（buy的过去式）",
+      "pos": "动词",
+      "phonetic": "/bɔːt/"
+    },
+    {
+      "text": "this",
+      "meaning": "这",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "pair",
+      "meaning": "一双，一对",
+      "pos": "名词",
+      "phonetic": "/peə(r)/"
+    },
+    {
+      "text": "last",
+      "meaning": "上一个的",
+      "pos": "限定词",
+      "phonetic": "/lɑːst/"
+    },
+    {
+      "text": "month.",
+      "meaning": "月，月份",
+      "pos": "名词",
+      "phonetic": "/mʌnθ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "But",
+      "meaning": "可是",
+      "relation": "承接上文的转折连接，引出新的信息内容"
+    },
+    {
+      "text": "my sister",
+      "meaning": "我姐姐/妹妹",
+      "relation": "描述谁做了买鞋这个动作，是句子的主语"
+    },
+    {
+      "text": "bought",
+      "meaning": "买了",
+      "relation": "核心动作，说明过去发生的行为"
+    },
+    {
+      "text": "this pair",
+      "meaning": "这双",
+      "relation": "补充动作的对象，说明买的物品是什么"
+    },
+    {
+      "text": "last month.",
+      "meaning": "上个月。",
+      "relation": "补充动作发生的时间，交代买鞋的具体时间点。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-75",
+  "sentenceId": "nce-1-lesson-075-sentence-007",
+  "sentenceOrder": 7,
+  "english": "But my sister bought this pair last month.",
+  "lesson": "Lesson 75 Uncomfortable shoes",
+  "notes": [
+    {
+      "title": "But 的转折作用",
+      "text": "But 承接前一句店员说没有同款鞋子，引出说话人提到的、自己姐妹已经买到的这双鞋，表示情况上的转折。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "last month 放在句末修饰 bought，说明买这双鞋的时间是上个月；中文里习惯把时间放在动词前面。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句翻译、句法切分、词语注释基本准确。仅有两处可微调：一是last month的词性标注为形容词不够准确，该短语作为时间状语时last为前置限定词修饰month；二是原句中文译文中“姐姐”未兼顾“妹妹”的通用语义，sister在无长幼上下文时可指姐妹，补充说明后表述更严谨。（非逐句人工审核）"
+}

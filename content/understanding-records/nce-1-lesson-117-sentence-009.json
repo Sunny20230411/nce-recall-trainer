@@ -1,0 +1,101 @@
+{
+  "chinese": "他把它全吃了。",
+  "intent": "简短叙述过去发生的动作，说明主语把前文提到的食物全部吃完，没有剩余。",
+  "comparison": null,
+  "backbone": {
+    "text": "He ate it all.",
+    "meaning": "他把它全吃了。"
+  },
+  "structureNotes": [
+    {
+      "title": "all 的位置",
+      "text": "all 紧跟在宾语 it 后面，强调“全部、一点不剩”，说明吃的对象没有剩余。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "动作发出者",
+      "explanation": "指代前文的男孩 Tommy，是“吃”这个动作的主语。"
+    },
+    {
+      "text": "ate",
+      "role": "谓语",
+      "explanation": "eat 的过去式，表示过去发生的“吃”这个动作。"
+    },
+    {
+      "text": "it",
+      "role": "动作对象",
+      "explanation": "指代前文提到的蛋糕，是宾语。"
+    },
+    {
+      "text": "all.",
+      "role": "宾语后置限定/范围补语",
+      "explanation": "修饰宾语 it，强调 it 的全部都被吃掉，没有剩余。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "ate",
+      "meaning": "吃（eat 的过去式）",
+      "pos": "动词",
+      "phonetic": "/et/; /ɑːt/"
+    },
+    {
+      "text": "it",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "all.",
+      "meaning": "全部",
+      "pos": "副词",
+      "phonetic": "/ɔːl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "说明动作的发出者",
+      "meaning": "他"
+    },
+    {
+      "text": "ate",
+      "relation": "表示过去发生的吃的动作",
+      "meaning": "吃了"
+    },
+    {
+      "text": "it",
+      "relation": "说明吃的对象，指代前文的蛋糕",
+      "meaning": "它"
+    },
+    {
+      "text": "all.",
+      "relation": "补充说明吃的范围是一点不剩",
+      "meaning": "全部"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-117",
+  "sentenceId": "nce-1-lesson-117-sentence-009",
+  "sentenceOrder": 9,
+  "english": "He ate it all.",
+  "lesson": "Lesson 117 Tommy's breakfast",
+  "notes": [
+    {
+      "title": "all 的位置",
+      "text": "all 紧跟在宾语 it 后面，强调“全部、一点不剩”，说明吃的对象没有剩余。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体分析与上下文一致，能够正确说明动作发出者、动作、对象和范围；仅需要细化 all 的句法角色，以及将音标中的句末标点移出音标，并统一音标符号。（非逐句人工审核）"
+}

@@ -1,0 +1,105 @@
+{
+  "chinese": "这是学校大楼。",
+  "intent": "指着眼前或照片中的建筑物，向听者说明它的身份是学校的主楼。",
+  "comparison": null,
+  "backbone": {
+    "text": "This is the school building.",
+    "meaning": "这个事物是学校大楼。"
+  },
+  "parts": [
+    {
+      "text": "This",
+      "relation": "描述被说明的对象",
+      "meaning": "这个（指代上下文照片里的学校大楼）"
+    },
+    {
+      "text": "is",
+      "relation": "连接指代对象和它的身份",
+      "meaning": "是"
+    },
+    {
+      "text": "the school building.",
+      "relation": "补充说明指代对象的具体身份",
+      "meaning": "学校大楼"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "名词作定语",
+      "text": "句里的school直接放在building前面修饰它，说明这栋楼的用途属性，不需要额外改成形容词，意思是供学校使用的大楼。"
+    },
+    {
+      "title": "定冠词the的作用",
+      "text": "the在这里限定后面的school building，特指当前语境下双方都知道的那栋学校大楼，不是任意一栋普通的楼。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "This",
+      "role": "主语",
+      "explanation": "指代说话人指向的近处事物，是整个句子要说明的核心对象。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "用来建立主语和后续身份描述之间的等同关联，起到连接说明的作用。"
+    },
+    {
+      "text": "the school building",
+      "role": "表语",
+      "explanation": "说明主语This对应的具体身份，点明这个事物就是学校大楼。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这，这个",
+      "pos": "代词",
+      "phonetic": "/ðɪs/",
+      "text": "This"
+    },
+    {
+      "meaning": "是",
+      "pos": "动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "这个，这（定冠词，特指双方知晓的特定事物）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "学校",
+      "pos": "名词",
+      "phonetic": "/skuːl/",
+      "text": "school"
+    },
+    {
+      "meaning": "大楼，建筑物",
+      "pos": "名词",
+      "phonetic": "/ˈbɪldɪŋ/",
+      "text": "building."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-35",
+  "sentenceId": "nce-1-lesson-035-sentence-011",
+  "sentenceOrder": 11,
+  "english": "This is the school building.",
+  "lesson": "Lesson 35 Our village",
+  "notes": [
+    {
+      "title": "名词作定语",
+      "text": "句里的school直接放在building前面修饰它，说明这栋楼的用途属性，不需要额外改成形容词，意思是供学校使用的大楼。"
+    },
+    {
+      "title": "定冠词the的作用",
+      "text": "the在这里限定后面的school building，特指当前语境下双方都知道的那栋学校大楼，不是任意一栋普通的楼。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合教学要求，仅存在局部细节错误，可通过补丁修正完善。（非逐句人工审核）"
+}

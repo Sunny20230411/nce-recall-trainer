@@ -1,0 +1,86 @@
+{
+  "chinese": "你能找到它们吗？",
+  "intent": "询问对方是否有能力找到前文提到的那些物品",
+  "comparison": null,
+  "backbone": {
+    "text": "Can you find them?",
+    "meaning": "询问你能不能找到它们"
+  },
+  "parts": [
+    {
+      "text": "Can",
+      "relation": "提出能力相关的询问",
+      "meaning": "能不能、是否能够"
+    },
+    {
+      "text": "you",
+      "relation": "询问的对象",
+      "meaning": "你"
+    },
+    {
+      "text": "find",
+      "relation": "核心动作",
+      "meaning": "找到"
+    },
+    {
+      "text": "them?",
+      "relation": "动作涉及的对象",
+      "meaning": "它们"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般疑问句语序",
+      "text": "把表示能力的Can放在句首，紧跟主语you，再跟上核心动作和涉及对象，直接构成询问对方能力的问句"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Can you find them?",
+      "role": "完整一般疑问句",
+      "explanation": "直接用于向对方发起关于“能否找到某物”的询问"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "能够、可以",
+      "pos": "modal verb",
+      "phonetic": "/kæn/",
+      "text": "Can"
+    },
+    {
+      "meaning": "你",
+      "pos": "pronoun",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "找到",
+      "pos": "verb",
+      "phonetic": "/faɪnd/",
+      "text": "find"
+    },
+    {
+      "meaning": "它们",
+      "pos": "pronoun",
+      "phonetic": "/ðəm/",
+      "text": "them?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-43",
+  "sentenceId": "nce-1-lesson-043-sentence-012",
+  "sentenceOrder": 12,
+  "english": "Can you find them?",
+  "lesson": "Lesson 43 Hurry up!",
+  "notes": [
+    {
+      "title": "一般疑问句语序",
+      "text": "把表示能力的Can放在句首，紧跟主语you，再跟上核心动作和涉及对象，直接构成询问对方能力的问句"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：基础内容符合要求，仅存在局部细节可规范修正，不影响整体理解（非逐句人工审核）"
+}

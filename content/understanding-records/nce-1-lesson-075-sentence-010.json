@@ -1,0 +1,226 @@
+{
+  "chinese": "一个月前我们有一些那样的鞋，但现在没有了。",
+  "intent": "对比店铺前后的货品库存状态：过去有对应款式的鞋，现在已经售罄无货。",
+  "comparison": {
+    "chinese": "时间先说在前：一个月前我们有过这种鞋，现在没有了。",
+    "english": "We had ... a month ago, but we don't have ... now.",
+    "steps": [
+      {
+        "label": "先说核心事实",
+        "text": "We had some shoes like those / but we don't have any",
+        "explanation": "先交代“我们曾有这些鞋 / 现在一双都没有”这个核心库存状态，和中文逻辑一致。"
+      },
+      {
+        "label": "再接时间标记",
+        "text": "a month ago / now",
+        "explanation": "a month ago 紧跟在前半句末尾，说明“有货”是一个月前的旧状态；now 放在后半句末尾，对应说明当下已经无货。"
+      },
+      {
+        "label": "避免指代混淆",
+        "text": "some shoes like those / don't have any",
+        "explanation": "前半句用 some 指代“有一些”，后半句的 any 指代前面提到的同款鞋子，避免重复出现相同名词。"
+      }
+    ],
+    "takeaway": "英语把时间标记放在对应分句的句末，中文习惯把时间提前放在句首；后半句用any代替前半句的shoes like those，指代明确不冗余。"
+  },
+  "backbone": {
+    "text": "We had shoes a month ago, but we don't have any now.",
+    "meaning": "一个月前还有对应款式的鞋，现在已经完全没有库存了。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列转折分句",
+      "text": "用but连接两个并列分句，前半句用过去式had说明过去的库存状态，后半句用一般现在时don't have说明当下的无货状态，形成过去有、现在无的鲜明对比。"
+    },
+    {
+      "title": "指代避免重复",
+      "text": "后半句的any是代词，指代前文提到的some shoes like those，避免重复啰嗦；like those后置作定语修饰shoes，意思是“和那双一样的、那种款式的”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We",
+      "role": "前半句主语",
+      "explanation": "指代说话的一方，也就是店铺的店员。"
+    },
+    {
+      "text": "had some shoes like those",
+      "role": "前半句谓语+宾语",
+      "explanation": "had是have的过去式，表示“过去曾有、曾进货有货”；like those修饰shoes，指和顾客脚上穿的同款鞋子。"
+    },
+    {
+      "text": "a month ago",
+      "role": "前半句时间状语",
+      "explanation": "明确限定“有同款鞋”这个状态发生在过去一个月之前。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "连接前后两个语义转折的分句，把过去的有货和现在的无货形成对照。"
+    },
+    {
+      "text": "we",
+      "role": "后半句主语",
+      "explanation": "和前半句主语一致，仍指代店铺一方。"
+    },
+    {
+      "text": "don't have any",
+      "role": "后半句谓语+宾语",
+      "explanation": "any是不定代词，指代前面提过的shoes like those，表示现在店里一双这种鞋都没有。"
+    },
+    {
+      "text": "now",
+      "role": "后半句时间状语",
+      "explanation": "对应前面的a month ago，说明当前这个时间点店里已经没有该款鞋了。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "had",
+      "meaning": "有（have的过去式）",
+      "pos": "动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "some",
+      "meaning": "一些",
+      "pos": "限定词",
+      "phonetic": "/sʌm/"
+    },
+    {
+      "text": "shoes",
+      "meaning": "鞋子（shoe的复数）",
+      "pos": "名词",
+      "phonetic": "/ˈʃuːz/"
+    },
+    {
+      "text": "like",
+      "meaning": "像……一样",
+      "pos": "介词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "those",
+      "meaning": "那些（指代前文提到的鞋子）",
+      "pos": "代词",
+      "phonetic": "/ðəʊz/"
+    },
+    {
+      "text": "a",
+      "meaning": "（用于月份等可数名词前表示“一（个）”）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "month",
+      "meaning": "月，月份",
+      "pos": "名词",
+      "phonetic": "/mʌnθ/"
+    },
+    {
+      "text": "ago,",
+      "meaning": "以前，之前",
+      "pos": "副词",
+      "phonetic": "/əˈɡəʊ/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是，然而",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "we",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "don't",
+      "meaning": "没有（do not的缩写）",
+      "pos": "助动词+否定词",
+      "phonetic": "/dəʊnt/"
+    },
+    {
+      "text": "have",
+      "meaning": "有",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "any",
+      "meaning": "任何（指任何同款鞋）",
+      "pos": "不定代词",
+      "phonetic": "/ˈeni/"
+    },
+    {
+      "text": "now.",
+      "meaning": "现在，此刻",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We had",
+      "meaning": "我们曾有",
+      "relation": "前半句的主语和谓语，说明陈述主体和过去拥有这个动作"
+    },
+    {
+      "text": "some shoes like those",
+      "meaning": "一些像那双一样的鞋子",
+      "relation": "前半句的宾语，说明过去拥有的货品是什么款式"
+    },
+    {
+      "text": "a month ago,",
+      "meaning": "一个月前",
+      "relation": "前半句的时间修饰，说明“有货”这个状态对应的时间点"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "relation": "转折连接词，引出和过去状态相反的当下情况"
+    },
+    {
+      "text": "we don't have",
+      "meaning": "我们没有",
+      "relation": "后半句的主语和谓语，说明当下店铺无货的状态"
+    },
+    {
+      "text": "any",
+      "meaning": "任何（同款鞋）",
+      "relation": "后半句的宾语，指代前文提到的同款鞋子，说明现在完全没有库存"
+    },
+    {
+      "text": "now.",
+      "meaning": "现在",
+      "relation": "后半句的时间修饰，说明“无货”状态对应的当前时间点"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-75",
+  "sentenceId": "nce-1-lesson-075-sentence-010",
+  "sentenceOrder": 10,
+  "english": "We had some shoes like those a month ago, but we don't have any now.",
+  "lesson": "Lesson 75 Uncomfortable shoes",
+  "notes": [
+    {
+      "title": "并列转折分句",
+      "text": "用but连接两个并列分句，前半句用过去式had说明过去的库存状态，后半句用一般现在时don't have说明当下的无货状态，形成过去有、现在无的鲜明对比。"
+    },
+    {
+      "title": "指代避免重复",
+      "text": "后半句的any是代词，指代前文提到的some shoes like those，避免重复啰嗦；like those后置作定语修饰shoes，意思是“和那双一样的、那种款式的”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解释完整通顺，仅存在音标将标点/句号与读音捆绑、冠词释义偏宽泛、代词those语境限定略冗余的小问题，不影响核心语义理解。（非逐句人工审核）"
+}

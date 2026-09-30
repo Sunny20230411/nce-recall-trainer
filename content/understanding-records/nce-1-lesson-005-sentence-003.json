@@ -1,0 +1,97 @@
+{
+  "chinese": "这是索菲·杜邦小姐。",
+  "intent": "当面向他人介绍身旁的索菲·杜邦，告知对方这位人士的身份。",
+  "comparison": null,
+  "backbone": {
+    "text": "This is Miss Sophie Dupont.",
+    "meaning": "用来指明当前指向的人是谁，完成人物身份的基础确认。"
+  },
+  "parts": [
+    {
+      "text": "This",
+      "relation": "指明要介绍的对象",
+      "meaning": "用来指代眼前的这个人"
+    },
+    {
+      "text": "is",
+      "relation": "关联指代内容和身份说明",
+      "meaning": "起到连接作用，说明指代对象和后续身份的对应关系"
+    },
+    {
+      "text": "Miss Sophie Dupont.",
+      "relation": "补充说明被指代人的具体身份信息",
+      "meaning": "完整的人物身份称谓，包含尊称和全名"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "称谓顺序",
+      "text": "英文的尊称Miss放在姓名Sophie Dupont的前面，中文对应调整为“索菲·杜邦小姐”，符合中文日常称呼的表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "This",
+      "role": "指示代词",
+      "explanation": "用来指向近处的介绍对象，让听者快速明确所指的是谁。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "把前面的指示对象和后面的人物身份连接起来，完成身份的对应说明。"
+    },
+    {
+      "text": "Miss Sophie Dupont.",
+      "role": "称谓名词短语",
+      "explanation": "包含尊称Miss和完整人名Sophie Dupont，清晰给出被介绍者的正式身份。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这，这个（指代近处的人）",
+      "pos": "determiner/pronoun",
+      "phonetic": "/ðɪs/",
+      "text": "This"
+    },
+    {
+      "meaning": "是",
+      "pos": "verb",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "小姐（对未婚女性的尊称）",
+      "pos": "noun",
+      "phonetic": "/mɪs/",
+      "text": "Miss"
+    },
+    {
+      "meaning": "索菲（女子名）",
+      "pos": "proper noun",
+      "phonetic": "/ˈsəʊfi/",
+      "text": "Sophie"
+    },
+    {
+      "meaning": "杜邦（姓氏）",
+      "pos": "proper noun",
+      "phonetic": "/ˈdju:pɒnt/",
+      "text": "Dupont."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-5",
+  "sentenceId": "nce-1-lesson-005-sentence-003",
+  "sentenceOrder": 3,
+  "english": "This is Miss Sophie Dupont.",
+  "lesson": "Lesson 5 Nice to meet you.",
+  "notes": [
+    {
+      "title": "称谓顺序",
+      "text": "英文的尊称Miss放在姓名Sophie Dupont的前面，中文对应调整为“索菲·杜邦小姐”，符合中文日常称呼的表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合面向中文母语成年人的英语学习要求，无核心语法错误与事实偏差，仅存在少量细节可优化修正（非逐句人工审核）"
+}

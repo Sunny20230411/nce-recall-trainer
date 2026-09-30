@@ -1,0 +1,132 @@
+{
+  "chinese": "她总是在中午吃午饭。",
+  "intent": "陈述她每到中午固定吃午饭的日常习惯。",
+  "comparison": null,
+  "backbone": {
+    "text": "She eats lunch.",
+    "meaning": "她吃午饭。"
+  },
+  "structureNotes": [
+    {
+      "title": "频度副词always的位置",
+      "text": "always放在主语She之后、实义动词eats之前，表示动作的经常性，不放在句末修饰时间。"
+    },
+    {
+      "title": "固定介词搭配",
+      "text": "at noon是固定时间表达，表示“在正午”，通常用介词at而非in或on。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "主语",
+      "explanation": "句子描述的对象，指前面提到的那位女性。"
+    },
+    {
+      "text": "always",
+      "role": "频度状语",
+      "explanation": "说明“吃午饭”这个动作是习惯性、反复发生的。"
+    },
+    {
+      "text": "eats",
+      "role": "谓语动词",
+      "explanation": "表达“吃”的动作，因主语是第三人称单数She，动词用eats。"
+    },
+    {
+      "text": "her lunch",
+      "role": "动词宾语",
+      "explanation": "动作的对象，her限定是她的午饭。"
+    },
+    {
+      "text": "at noon",
+      "role": "时间状语",
+      "explanation": "说明吃午饭发生的时间是正午。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "她",
+      "pos": "代词主格",
+      "phonetic": "/ʃiː/",
+      "text": "She"
+    },
+    {
+      "meaning": "总是，一直",
+      "pos": "频度副词",
+      "phonetic": "/ˈɔːlweɪz/",
+      "text": "always"
+    },
+    {
+      "meaning": "吃（第三人称单数形式）",
+      "pos": "动词",
+      "phonetic": "/iːts/",
+      "text": "eats"
+    },
+    {
+      "meaning": "她的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/hɜː(r)/",
+      "text": "her"
+    },
+    {
+      "meaning": "午餐",
+      "pos": "名词",
+      "phonetic": "/lʌntʃ/",
+      "text": "lunch"
+    },
+    {
+      "meaning": "在（某时间点）",
+      "pos": "介词",
+      "phonetic": "/æt/",
+      "text": "at"
+    },
+    {
+      "meaning": "中午",
+      "pos": "名词",
+      "phonetic": "/nuːn/",
+      "text": "noon."
+    }
+  ],
+  "parts": [
+    {
+      "text": "She",
+      "relation": "句子的描述主体",
+      "meaning": "她"
+    },
+    {
+      "text": "always",
+      "relation": "说明吃午饭这个动作的经常性",
+      "meaning": "总是"
+    },
+    {
+      "text": "eats her lunch",
+      "relation": "谓语加宾语，交代核心动作",
+      "meaning": "吃她的午饭"
+    },
+    {
+      "text": "at noon.",
+      "relation": "补充说明动作发生的时间",
+      "meaning": "在中午"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-55",
+  "sentenceId": "nce-1-lesson-055-sentence-005",
+  "sentenceOrder": 5,
+  "english": "She always eats her lunch at noon.",
+  "lesson": "Lesson 55 The Sawyer family",
+  "notes": [
+    {
+      "title": "频度副词always的位置",
+      "text": "always放在主语She之后、实义动词eats之前，表示动作的经常性，不放在句末修饰时间。"
+    },
+    {
+      "title": "固定介词搭配",
+      "text": "at noon是固定时间表达，表示“在正午”，通常用介词at而非in或on。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：全句核心结构、词义翻译、主干提取、块划分和音标记注均与上下文、原句语法一致，无事实性错误，仅两处辅助说明存在可优化空间，不影响整体内容可用性：频度副词位置的表述可进一步明确是在实义动词之前而非笼统的动词之前；关于at noon介词使用的断言可补充说明其为正午时段的固定表达，避免产生过于绝对的误导。（非逐句人工审核）"
+}

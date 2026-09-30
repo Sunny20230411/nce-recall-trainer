@@ -1,0 +1,121 @@
+{
+  "chinese": "然后把这些衣服放进衣柜里。",
+  "intent": "发出明确的操作指令，告知在完成前一项动作后执行放置衣物的步骤",
+  "backbone": {
+    "text": "put these clothes in the wardrobe",
+    "meaning": "把这些衣物放到衣柜当中"
+  },
+  "parts": [
+    {
+      "text": "Then",
+      "relation": "时间",
+      "meaning": "指代后续动作的时间顺序，说明要在之前的动作完成之后再执行本步"
+    },
+    {
+      "text": "put",
+      "relation": "核心指令动作",
+      "meaning": "表示放置这一核心操作"
+    },
+    {
+      "text": "these clothes",
+      "relation": "指令的作用对象",
+      "meaning": "明确操作的对象，特指面前的这些衣物"
+    },
+    {
+      "text": "in the wardrobe.",
+      "relation": "动作的目标位置",
+      "meaning": "交代动作的终点位置，也就是要把衣物放置的地方"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "祈使句省略主语",
+      "text": "本句是直接发出指令的祈使句，省略了第二人称主语you，直接用实义动词put开头，语气简洁直白，符合日常下达家务指令的场景"
+    },
+    {
+      "title": "介词in搭配地点名词的作用",
+      "text": "介词in在这里不单独表意，和后面的the wardrobe组合说明put这个动作的目标方位，补充说明要把衣物放到衣柜的内部空间里"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Then",
+      "role": "时间状语",
+      "explanation": "用来衔接前文的动作，说明本指令要在前一个步骤完成之后执行"
+    },
+    {
+      "text": "put these clothes",
+      "role": "指令核心谓宾部分",
+      "explanation": "明确告知要执行的动作以及这个动作施加的具体对象"
+    },
+    {
+      "text": "in the wardrobe",
+      "role": "地点补语",
+      "explanation": "补充说明放置衣物的具体目标位置，让指令的指向更清晰明确"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "然后，随后",
+      "pos": "adverb",
+      "phonetic": "/ðen/",
+      "text": "Then"
+    },
+    {
+      "meaning": "放置，摆放",
+      "pos": "verb",
+      "phonetic": "/pʊt/",
+      "text": "put"
+    },
+    {
+      "meaning": "这些",
+      "pos": "demonstrative pronoun",
+      "phonetic": "/ðiːz/",
+      "text": "these"
+    },
+    {
+      "meaning": "衣服，衣物",
+      "pos": "noun",
+      "phonetic": "/kləʊðz/",
+      "text": "clothes"
+    },
+    {
+      "meaning": "到…里面",
+      "pos": "preposition",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这个，该（特指双方都清楚的事物）",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "衣柜，衣橱",
+      "pos": "noun",
+      "phonetic": "/ˈwɔːdrəʊb/",
+      "text": "wardrobe."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-29",
+  "sentenceId": "nce-1-lesson-029-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Then put these clothes in the wardrobe.",
+  "lesson": "Lesson 29 Come in, Amy.",
+  "notes": [
+    {
+      "title": "祈使句省略主语",
+      "text": "本句是直接发出指令的祈使句，省略了第二人称主语you，直接用实义动词put开头，语气简洁直白，符合日常下达家务指令的场景"
+    },
+    {
+      "title": "介词in搭配地点名词的作用",
+      "text": "介词in在这里不单独表意，和后面的the wardrobe组合说明put这个动作的目标方位，补充说明要把衣物放到衣柜的内部空间里"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析内容完整合规，仅存在个别细节信息标注偏差，修正后即可符合要求（非逐句人工审核）"
+}

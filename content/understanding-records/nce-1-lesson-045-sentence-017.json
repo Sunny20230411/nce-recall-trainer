@@ -1,0 +1,139 @@
+{
+  "chinese": "我看不懂！老板的字迹太糟糕了！",
+  "intent": "先直接表达自己读不懂（前面回应Why can't you?），随后给出根本原因：老板的字迹实在太潦草糟糕。",
+  "comparison": null,
+  "backbone": {
+    "text": "I can't read it! The boss's handwriting is terrible!",
+    "meaning": "我读不懂它，老板的字迹太糟糕了。"
+  },
+  "parts": [
+    {
+      "text": "I can't read it!",
+      "relation": "直接回应前文的疑问，说明自己无法辨认信件内容",
+      "meaning": "我看不懂它！"
+    },
+    {
+      "text": "The boss's handwriting is terrible!",
+      "relation": "解释上一句读不懂的原因，用主语+表语描述字迹的状态",
+      "meaning": "老板的字迹太糟糕了！"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "所有格与核心表意",
+      "text": "这里的the boss's是名词所有格，直接修饰handwriting，限定字迹的所有者，不需要额外加of也能清楚表达所属关系，读的时候紧跟handwriting即可。"
+    },
+    {
+      "title": "can't do it的语境义",
+      "text": "这里的can't read it不是完全不认字，而是it指代前面的老板信件，it=the letter，因为字迹潦草无法辨认内容，所以用terrible形容笔迹难辨认。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人本人，是阅读动作的发出者。"
+    },
+    {
+      "text": "can't read",
+      "role": "谓语",
+      "explanation": "由情态动词否定式can't加实义动词原形read构成，表示“不能够读懂”。"
+    },
+    {
+      "text": "it",
+      "role": "宾语",
+      "explanation": "指代上下文里老板的信件，是阅读动作的对象。"
+    },
+    {
+      "text": "The boss's handwriting",
+      "role": "主语",
+      "explanation": "the boss's为名词所有格修饰handwriting，意为“老板的字迹”，是第二个句子描述的主体。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "起到连接主语和表语的作用。"
+    },
+    {
+      "text": "terrible",
+      "role": "表语",
+      "explanation": "形容词作表语，描述字迹“难以辨认、非常糟糕”的状态。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "不能、无法",
+      "pos": "情态动词否定式",
+      "phonetic": "/kɑːnt/",
+      "text": "can't"
+    },
+    {
+      "meaning": "读懂、辨认",
+      "pos": "动词",
+      "phonetic": "/riːd/",
+      "text": "read"
+    },
+    {
+      "meaning": "它（指代老板的信件）！",
+      "pos": "代词",
+      "phonetic": "/ɪt/",
+      "text": "it!"
+    },
+    {
+      "meaning": "（特指该语境里的那位老板）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "老板的",
+      "pos": "名词所有格",
+      "phonetic": "/bɒsɪz/",
+      "text": "boss's"
+    },
+    {
+      "meaning": "笔迹、书写字迹",
+      "pos": "名词",
+      "phonetic": "/ˈhændraɪtɪŋ/",
+      "text": "handwriting"
+    },
+    {
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "糟糕的、难以辨认的",
+      "pos": "形容词",
+      "phonetic": "/ˈterəbl/",
+      "text": "terrible!"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-45",
+  "sentenceId": "nce-1-lesson-045-sentence-017",
+  "sentenceOrder": 17,
+  "english": "I can't read it! The boss's handwriting is terrible!",
+  "lesson": "Lesson 45 The boss's letter",
+  "notes": [
+    {
+      "title": "所有格与核心表意",
+      "text": "这里的the boss's是名词所有格，直接修饰handwriting，限定字迹的所有者，不需要额外加of也能清楚表达所属关系，读的时候紧跟handwriting即可。"
+    },
+    {
+      "title": "can't do it的语境义",
+      "text": "这里的can't read it不是完全不认字，而是it指代前面的老板信件，it=the letter，因为字迹潦草无法辨认内容，所以用terrible形容笔迹难辨认。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：已核对所有解析内容：原文对应关系无误，结构标注正确区分了主语、谓语、宾语、系动词与表语，词汇音标采用符合要求的英式音标，词性标注准确；代词指代it对应老板信件的语境解释清晰，名词所有格、can't read it的语境义说明均符合上下文，没有语法断言错误或语义偏差。（非逐句人工审核）"
+}

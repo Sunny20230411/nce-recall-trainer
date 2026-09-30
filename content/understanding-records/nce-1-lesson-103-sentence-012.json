@@ -1,0 +1,133 @@
+{
+  "chinese": "我能回答其中十六道题。",
+  "intent": "描述过去参加法语考试时，自己有能力作答的题目数量。",
+  "comparison": {
+    "chinese": "我能回答试卷中的十六道题。",
+    "english": "I could answer sixteen of the questions.",
+    "steps": [
+      {
+        "label": "先讲核心动作与数量",
+        "text": "I could answer sixteen",
+        "explanation": "英文先交代“我能答出十六道”，could 表示过去具备这个能力。"
+      },
+      {
+        "label": "再接范围",
+        "text": "of the questions",
+        "explanation": "of 把 sixteen 限定在“那些题目”的整体范围内，中文用“其中”表达同一范围。"
+      }
+    ],
+    "takeaway": "英文用 sixteen of the questions 说明“题目总数中的十六道”，中文用“其中十六道题”表达相同意思。"
+  },
+  "backbone": {
+    "text": "I could answer sixteen of the questions.",
+    "meaning": "我有能力答出试卷里的十六道题。"
+  },
+  "structureNotes": [
+    {
+      "title": "could 表过去的能力",
+      "text": "could 在这里表示过去考试当时“能够做到”，不是现在的能力，也不是委婉请求。"
+    },
+    {
+      "title": "of 短语限定数量范围",
+      "text": "sixteen of the questions 表示题目整体中的十六道，of 明确这个数量的范围边界。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话者本人。"
+    },
+    {
+      "text": "could answer",
+      "role": "谓语",
+      "explanation": "could 是情态动词，与 answer 一起表示过去能够作答。"
+    },
+    {
+      "text": "sixteen of the questions",
+      "role": "宾语",
+      "explanation": "表示答出的对象和数量范围。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "could",
+      "meaning": "能够（can的过去式）",
+      "pos": "情态动词",
+      "phonetic": "/kʊd/"
+    },
+    {
+      "text": "answer",
+      "meaning": "回答",
+      "pos": "动词",
+      "phonetic": "/ˈɑːnsə/"
+    },
+    {
+      "text": "sixteen",
+      "meaning": "十六",
+      "pos": "数词",
+      "phonetic": "/ˌsɪksˈtiːn/"
+    },
+    {
+      "text": "of",
+      "meaning": "……中的",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，这里指试卷中的",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "questions.",
+      "meaning": "题目（question的复数形式）",
+      "pos": "名词",
+      "phonetic": "/ˈkwestʃənz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "描述谁"
+    },
+    {
+      "text": "could answer",
+      "meaning": "能够回答",
+      "relation": "描述过去具备的作答能力"
+    },
+    {
+      "text": "sixteen of the questions.",
+      "meaning": "试卷题目中的十六道题。",
+      "relation": "回答的对象与数量范围"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-012",
+  "sentenceOrder": 12,
+  "english": "I could answer sixteen of the questions.",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "could 表过去的能力",
+      "text": "could 在这里表示过去考试当时“能够做到”，不是现在的能力，也不是委婉请求。"
+    },
+    {
+      "title": "of 短语限定数量范围",
+      "text": "sixteen of the questions 表示题目整体中的十六道，of 明确这个数量的范围边界。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子主干、成分划分、词义与句意基本准确，could 表过去能力、of 限定数量范围的说明符合语境；仅需将 questions 的音标从附带句号的形式改为独立英式音标，并补充复数语境内含义，避免将单词条目与句末标点混同。（非逐句人工审核）"
+}

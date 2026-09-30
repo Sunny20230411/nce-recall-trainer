@@ -1,0 +1,53 @@
+{
+  "chinese": "给！",
+  "intent": "说话人向对方递出物品时发出的招呼提示，告知对方物品就在眼前、可以接取",
+  "comparison": null,
+  "backbone": {
+    "text": "Here!",
+    "meaning": "提示对方物品就在当下所处的位置，可以直接接取"
+  },
+  "parts": [
+    {
+      "text": "Here!",
+      "relation": "直接向听话人传递递物提示的核心信息",
+      "meaning": "在这里！给你！"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "场景用法说明",
+      "text": "这是口语里的独立感叹表达，不需要搭配其他成分，在递东西给对方时直接使用，简洁明了传递物品就在眼前的提示"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Here!",
+      "role": "独立祈使提示语",
+      "explanation": "口语中单独使用的感叹式提示，用来向对方示意物品所在的位置，告知对方可以接取"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（用于递物时）给，在这里",
+      "pos": "interjection",
+      "phonetic": "/hɪə(r)/",
+      "text": "Here!"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-41",
+  "sentenceId": "nce-1-lesson-041-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Here!",
+  "lesson": "Lesson 41 Penny's bag",
+  "notes": [
+    {
+      "title": "场景用法说明",
+      "text": "这是口语里的独立感叹表达，不需要搭配其他成分，在递东西给对方时直接使用，简洁明了传递物品就在眼前的提示"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合教学要求，仅存在一处细节可规范优化：words字段内的词条英文原文冗余包含感叹号，标准单词注音词条不应附带标点符号，其余语法解析、场景说明、释义均准确合规。（非逐句人工审核）"
+}

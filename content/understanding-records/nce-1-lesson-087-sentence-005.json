@@ -1,0 +1,138 @@
+{
+  "chinese": "我三天前把它送到这里来的。",
+  "intent": "回应上文关于把车辆送来的时间询问，交代自己把涉事车辆送到此处的具体时间点。",
+  "comparison": {
+    "chinese": "中文会把时间状语“三天前”放在动作“把它送到这里来”之前；英文先说主语和动作，再补地点，最后把过去时间状语放在句尾。",
+    "english": "I brought it here three days ago.",
+    "steps": [
+      {
+        "label": "先讲动作对象和地点",
+        "text": "I brought it here",
+        "explanation": "按顺序说明“我（I）— 带过来（brought）— 它（it）— 到这里（here）”，其中 it 指代上文提到的事故车辆，here 指说话人当下所在的汽修场所。"
+      },
+      {
+        "label": "最后补充时间",
+        "text": "three days ago",
+        "explanation": "时间状语放在句末，对应中文的“三天前”，配合过去式 brought 表明动作已经在过去完成。"
+      }
+    ],
+    "takeaway": "英文时间状语常置于句尾，搭配过去式来锚定已发生的动作的具体时间点。"
+  },
+  "backbone": {
+    "text": "I brought it here three days ago.",
+    "meaning": "我三天前把它送到这里了。"
+  },
+  "structureNotes": [
+    {
+      "title": "here 的功能",
+      "text": "here 是地点副词，直接放在宾语 it 之后，用来说明动作 bring 发生的目的地是当前说话的地点，不需要额外加介词。"
+    },
+    {
+      "title": "ago 表过去时间",
+      "text": "“时间段 + ago”是常用的一般过去时时间表达，意为“……以前”，和过去式动词 brought 搭配，明确动作发生的时间节点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "句子的动作发出者，指代说话人本人。"
+    },
+    {
+      "text": "brought it here",
+      "role": "谓语核心部分",
+      "explanation": "由及物动词 bring 的过去式、宾语 it 和地点副词 here 共同组成，说明核心动作是“把它带到这里来”。"
+    },
+    {
+      "text": "three days ago.",
+      "role": "时间状语",
+      "explanation": "补充说明 brought 这个动作发生在距离说话时三天之前的过去时间点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "brought",
+      "meaning": "带来，送到（bring 的过去式）",
+      "pos": "动词",
+      "phonetic": "/brɔːt/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代前文提到的事故车辆）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "here",
+      "meaning": "这里，到这里",
+      "pos": "副词",
+      "phonetic": "/hɪə(r)/"
+    },
+    {
+      "text": "three",
+      "meaning": "三",
+      "pos": "数词",
+      "phonetic": "/θriː/"
+    },
+    {
+      "text": "days",
+      "meaning": "天，日",
+      "pos": "名词",
+      "phonetic": "/deɪz/"
+    },
+    {
+      "text": "ago.",
+      "meaning": "以前",
+      "pos": "副词",
+      "phonetic": "/əˈɡəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I brought",
+      "relation": "主语加谓语，交代动作发出者与核心动作",
+      "meaning": "我带来/送来"
+    },
+    {
+      "text": "it",
+      "relation": "动作的对象，是 brought 的承受者",
+      "meaning": "它（指那辆事故车）"
+    },
+    {
+      "text": "here",
+      "relation": "补充动作的目的地，说明车辆被送到当前说话的场所",
+      "meaning": "到这里"
+    },
+    {
+      "text": "three days ago.",
+      "relation": "补充过去时间点，交代把车送过来的具体时间",
+      "meaning": "三天前。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-87",
+  "sentenceId": "nce-1-lesson-087-sentence-005",
+  "sentenceOrder": 5,
+  "english": "I brought it here three days ago.",
+  "lesson": "Lesson 87 A car crash",
+  "notes": [
+    {
+      "title": "here 的功能",
+      "text": "here 是地点副词，直接放在宾语 it 之后，用来说明动作 bring 发生的目的地是当前说话的地点，不需要额外加介词。"
+    },
+    {
+      "title": "ago 表过去时间",
+      "text": "“时间段 + ago”是常用的一般过去时时间表达，意为“……以前”，和过去式动词 brought 搭配，明确动作发生的时间节点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合上下文、语法角色和词汇释义，仅需微调：backbone 主干的中文表述中“就已经”的语气偏重，与原句平实陈述送车时间的语义不符；单词表中 ago 的音标末尾多了句号，属于格式笔误。（非逐句人工审核）"
+}

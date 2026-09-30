@@ -1,0 +1,126 @@
+{
+  "chinese": "夫人，您喜欢这件连衣裙吗？",
+  "intent": "售货员向女顾客询问对某件连衣裙的喜好。",
+  "comparison": null,
+  "backbone": {
+    "text": "Do you like this dress?",
+    "meaning": "您喜欢这件连衣裙吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "Do开头的一般疑问句",
+      "text": "谓语是实义动词like，变一般疑问句时在句首加助动词Do，后接主语you和动词原形like，不能说You do like。"
+    },
+    {
+      "title": "称呼语madam",
+      "text": "madam放在句末，用逗号和主句隔开，是对女顾客的礼貌称呼，不参与句子主干结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "助动词",
+      "explanation": "帮助实义动词like构成一般疑问句，无实义，放在句首。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指对话中的女顾客，是动作like的发出者。"
+    },
+    {
+      "text": "like",
+      "role": "谓语动词",
+      "explanation": "表示“喜欢”，是句子的核心动作，用原形。"
+    },
+    {
+      "text": "this dress",
+      "role": "宾语",
+      "explanation": "是动作like的对象，this是指示代词，限定指眼前的这件连衣裙。"
+    },
+    {
+      "text": "madam",
+      "role": "称呼语",
+      "explanation": "礼貌称呼对话的女性对象，和主句用逗号隔开。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Do",
+      "meaning": "助动词（构成疑问句）",
+      "pos": "auxiliary verb",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "您",
+      "pos": "pronoun",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢",
+      "pos": "verb",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "this",
+      "meaning": "这，这个",
+      "pos": "demonstrative pronoun",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "dress,",
+      "meaning": "连衣裙",
+      "pos": "noun",
+      "phonetic": "/dres/"
+    },
+    {
+      "text": "madam?",
+      "meaning": "夫人，女士",
+      "pos": "noun",
+      "phonetic": "/ˈmædəm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Do",
+      "relation": "帮助构成疑问句式",
+      "meaning": "（构成疑问句的助动词）"
+    },
+    {
+      "text": "you like",
+      "relation": "主谓结构，说明询问的动作和对象",
+      "meaning": "您喜欢"
+    },
+    {
+      "text": "this dress,",
+      "relation": "喜欢的具体对象",
+      "meaning": "这件连衣裙，"
+    },
+    {
+      "text": "madam?",
+      "relation": "礼貌称呼对话的女顾客",
+      "meaning": "夫人？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-107",
+  "sentenceId": "nce-1-lesson-107-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Do you like this dress, madam?",
+  "lesson": "Lesson 107 It's too small.",
+  "notes": [
+    {
+      "title": "Do开头的一般疑问句",
+      "text": "谓语是实义动词like，变一般疑问句时在句首加助动词Do，后接主语you和动词原形like，不能说You do like。"
+    },
+    {
+      "title": "称呼语madam",
+      "text": "madam放在句末，用逗号和主句隔开，是对女顾客的礼貌称呼，不参与句子主干结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干、成分、词义和分块关系整体正确。仅需将 this 的标注由“限定词”改为更准确的“指示代词”，因为它直接修饰名词 dress、在句中充当前置定语，属于指示代词用法；同时微调对应解释，不影响句义和其他解析。（非逐句人工审核）"
+}

@@ -1,0 +1,69 @@
+{
+  "chinese": "嗨，萨姆。",
+  "intent": "熟人见面时的日常打招呼，向萨姆致以问候。",
+  "comparison": null,
+  "backbone": {
+    "text": "Hi, Sam.",
+    "meaning": "向萨姆打招呼问候。"
+  },
+  "structureNotes": [
+    {
+      "title": "日常打招呼语序",
+      "text": "英语口语中熟人打招呼时，习惯先把问候语Hi放在句首，再点明要问候的对象Sam。Sam作为呼语，用于明确打招呼的对象；该句的语序和中文“嗨，萨姆”完全一致，无额外语法变形。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Hi,",
+      "role": "呼语前的问候语",
+      "explanation": "用于主动发起问候，引起对方注意，是日常非正式打招呼的常用表达。"
+    },
+    {
+      "text": "Sam.",
+      "role": "被问候的呼语",
+      "explanation": "点明问候的对象，即名叫萨姆的人，在句中作呼语。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "嗨，你好",
+      "pos": "感叹词",
+      "phonetic": "/haɪ/",
+      "text": "Hi,"
+    },
+    {
+      "meaning": "萨姆（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈsæm/",
+      "text": "Sam."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Hi,",
+      "relation": "发起日常问候",
+      "meaning": "嗨，你好"
+    },
+    {
+      "text": "Sam.",
+      "relation": "说明问候的对象",
+      "meaning": "萨姆"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-83",
+  "sentenceId": "nce-1-lesson-083-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Hi, Sam.",
+  "lesson": "Lesson 83 Going on holiday",
+  "notes": [
+    {
+      "title": "日常打招呼语序",
+      "text": "英语口语中熟人打招呼时，习惯先把问候语Hi放在句首，再点明要问候的对象Sam。Sam作为呼语，用于明确打招呼的对象；该句的语序和中文“嗨，萨姆”完全一致，无额外语法变形。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句结构简单，释义、成分分析、语序说明均符合语言事实，未发现主语误判、成分混淆或译意偏差；仅在结构注释和成分说明中补充呼语的语法功能，以提升解释精确度。（非逐句人工审核）"
+}

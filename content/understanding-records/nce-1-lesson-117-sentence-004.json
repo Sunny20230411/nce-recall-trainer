@@ -1,0 +1,137 @@
+{
+  "chinese": "‘他在吃什么？’我丈夫问。",
+  "intent": "还原对话中丈夫提出的直接引语问句，同时点明这句问话是谁说的，表现出丈夫对孩子正在吃的东西感到好奇。",
+  "comparison": {
+    "chinese": "我丈夫问：‘他在吃什么？’",
+    "english": "'What's he eating?' my husband asked.",
+    "steps": [
+      {
+        "label": "直接引语先放句首",
+        "text": "'What's he eating?' my husband asked.",
+        "explanation": "英文把说出口的问句先完整写出，再补充谁问的，强调问话内容本身。"
+      },
+      {
+        "label": "中文习惯先交代说话人",
+        "text": "我丈夫问：‘他在吃什么？’",
+        "explanation": "中文常先说明谁说的，再引出直接引语，读起来更符合中文叙事习惯。"
+      }
+    ],
+    "takeaway": "直接引语可以先放在句首，用引号完整呈现问话内容，再用名词主语+said/asked引出说话人。"
+  },
+  "backbone": {
+    "text": "'What's he eating?' my husband asked.",
+    "meaning": "我丈夫问道：‘他在吃什么？’"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句先把完整的直接引语问句放在句首，再用my husband asked点明说话人，引号明确标示话语内容，引语和引述语之间不需要额外连接词。"
+    },
+    {
+      "title": "现在进行时的特殊疑问句结构",
+      "text": "引语部分What's he eating? 是现在进行时的特殊疑问句，What放在句首询问吃的对象，is提到主语he之前构成疑问，eating表示正在进行的动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'What's he eating?'",
+      "role": "直接引语（现在进行时特殊疑问句）",
+      "explanation": "是my husband asked的直接引语内容，疑问代词What作eating的宾语，询问正在吃的事物。"
+    },
+    {
+      "text": "What",
+      "role": "疑问代词",
+      "explanation": "在直接引语中作eating的宾语，意为“什么（食物）”，放在句首引导特殊疑问句。"
+    },
+    {
+      "text": "he",
+      "role": "直接引语中的主语",
+      "explanation": "指代对话中正在吃东西的小孩Tommy，是现在进行时动作的发出者。"
+    },
+    {
+      "text": "eating",
+      "role": "现在分词（现在进行时谓语核心）",
+      "explanation": "和is搭配构成现在进行时，表示正在吃的动作。"
+    },
+    {
+      "text": "my husband",
+      "role": "主句主语",
+      "explanation": "是这句引述语的发出者，即说出引语的人。"
+    },
+    {
+      "text": "asked",
+      "role": "主句谓语",
+      "explanation": "用一般过去时表示过去发生的询问动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'What's",
+      "meaning": "什么（what is的缩写形式），此处带单引号起首，完整引语为What's he eating?",
+      "pos": "疑问代词与be动词缩写",
+      "phonetic": "wɒts"
+    },
+    {
+      "text": "he",
+      "meaning": "他（主格，指代男性）",
+      "pos": "代词",
+      "phonetic": "hiː"
+    },
+    {
+      "text": "eating?'",
+      "meaning": "吃（eat的现在分词形式），此处附带引语末尾的问号和闭合单引号，完整引语为What's he eating?",
+      "pos": "动词现在分词",
+      "phonetic": "ˈiːtɪŋ"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "maɪ"
+    },
+    {
+      "text": "husband",
+      "meaning": "丈夫",
+      "pos": "名词",
+      "phonetic": "ˈhʌzbənd"
+    },
+    {
+      "text": "asked.",
+      "meaning": "问（ask的过去式），附带主句末尾的句点",
+      "pos": "动词",
+      "phonetic": "ɑːskt"
+    }
+  ],
+  "parts": [
+    {
+      "text": "'What's he eating?'",
+      "relation": "直接引语内容，点明丈夫提出的疑问",
+      "meaning": "‘他在吃什么？’"
+    },
+    {
+      "text": "my husband asked.",
+      "relation": "引述主句，说明这句问话是谁说的",
+      "meaning": "我丈夫问。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-117",
+  "sentenceId": "nce-1-lesson-117-sentence-004",
+  "sentenceOrder": 4,
+  "english": "'What's he eating?' my husband asked.",
+  "lesson": "Lesson 117 Tommy's breakfast",
+  "notes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句先把完整的直接引语问句放在句首，再用my husband asked点明说话人，引号明确标示话语内容，引语和引述语之间不需要额外连接词。"
+    },
+    {
+      "title": "现在进行时的特殊疑问句结构",
+      "text": "引语部分What's he eating? 是现在进行时的特殊疑问句，What放在句首询问吃的对象，is提到主语he之前构成疑问，eating表示正在进行的动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句整体解析、对话情境、主干提取和直接引语语序对比基本正确；两处分块文本分别带引号和句末标点，而单词卡缺少这些引号/标点，属于原始切分问题，可只在音标说明中补充。（非逐句人工审核）"
+}

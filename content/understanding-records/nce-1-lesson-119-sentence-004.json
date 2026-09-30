@@ -1,0 +1,203 @@
+{
+  "chinese": "当我的朋友乔治躺在床上看书时，两个小偷爬进了他的厨房。",
+  "intent": "描述两个小偷潜入厨房的时刻，与乔治正卧床读书的背景同步发生。",
+  "comparison": {
+    "chinese": "中文先用“当……时”交代持续动作作为背景，再讲主句发生的主要事件；英文同样可以把 while 引导的时间从句前置。",
+    "english": "While my friend, George, was reading in bed, two thieves climbed into his kitchen.",
+    "steps": [
+      {
+        "label": "先看时间从句",
+        "text": "While my friend, George, was reading in bed",
+        "explanation": "While 引导时间从句，表示两个动作同时发生；George 是 my friend 的同位语，补充说明这位朋友的名字。"
+      },
+      {
+        "label": "再看主句事件",
+        "text": "two thieves climbed into his kitchen",
+        "explanation": "主句给出主要事件：小偷爬进厨房。climbed into 强调从外面进入的动作。"
+      },
+      {
+        "label": "理解时态配合",
+        "text": "was reading vs. climbed",
+        "explanation": "长动作用过去进行时 was reading，短动作用一般过去时 climbed，表示在读书的过程中，某个突然事件发生。"
+      }
+    ],
+    "takeaway": "英文用 while 把“持续中的背景动作”和“突发的短动作”组合在一句里；中文同样先交代时间背景，再讲主要事件。"
+  },
+  "backbone": {
+    "text": "Two thieves climbed into his kitchen.",
+    "meaning": "两个小偷爬进了他的厨房。"
+  },
+  "structureNotes": [
+    {
+      "title": "while 引导的时间从句",
+      "text": "While…was reading… 表示在某个正在进行的动作期间，另一个动作发生了。while 强调两件事同时存在，尤其是持续动作与短暂动作的叠加。"
+    },
+    {
+      "title": "同位语 George",
+      "text": "George 放在 my friend 后面，用逗号隔开，补充说明这位朋友就是乔治。它不改变句子主干，只让读者明确人物身份。"
+    },
+    {
+      "title": "climbed into 的搭配",
+      "text": "climb into 表示“爬进去”，强调从外部经由窗户、管道等进入室内；介词 into 表达由外向内的移动方向。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "While my friend, George, was reading in bed",
+      "role": "时间状语从句",
+      "explanation": "由 while 引导，表示主句动作发生的背景时间；从句主语是 my friend，George 是同位语，谓语为过去进行时 was reading。"
+    },
+    {
+      "text": "my friend, George",
+      "role": "同位结构",
+      "explanation": "George 紧跟 my friend，用逗号隔开，补充说明这位朋友的名字，不充当句子的核心成分。"
+    },
+    {
+      "text": "two thieves",
+      "role": "主句主语",
+      "explanation": "发出“爬进”这个动作的主体，是复数名词短语。"
+    },
+    {
+      "text": "climbed into his kitchen",
+      "role": "主句谓语+介词宾语",
+      "explanation": "climbed 是谓语动词，into his kitchen 是介词短语，表示动作方向和目的地。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "当……时候",
+      "pos": "连词",
+      "phonetic": "/waɪl/",
+      "text": "While"
+    },
+    {
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/",
+      "text": "my"
+    },
+    {
+      "meaning": "朋友",
+      "pos": "名词",
+      "phonetic": "/frend/",
+      "text": "friend,"
+    },
+    {
+      "meaning": "乔治（人名）",
+      "pos": "名词",
+      "phonetic": "/dʒɔːdʒ/",
+      "text": "George,"
+    },
+    {
+      "meaning": "（be 动词过去式，与现在分词构成进行时）",
+      "pos": "助动词",
+      "phonetic": "/wɒz/",
+      "text": "was"
+    },
+    {
+      "meaning": "阅读，看书",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈriːdɪŋ/",
+      "text": "reading"
+    },
+    {
+      "meaning": "在……里，在……状态中",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "床",
+      "pos": "名词",
+      "phonetic": "/bed/",
+      "text": "bed,"
+    },
+    {
+      "meaning": "两个",
+      "pos": "限定词",
+      "phonetic": "/tuː/",
+      "text": "two"
+    },
+    {
+      "meaning": "小偷（复数）",
+      "pos": "名词",
+      "phonetic": "/θiːvz/",
+      "text": "thieves"
+    },
+    {
+      "meaning": "爬，攀爬",
+      "pos": "动词过去式",
+      "phonetic": "/klaɪmd/",
+      "text": "climbed"
+    },
+    {
+      "meaning": "进入……之内",
+      "pos": "介词",
+      "phonetic": "/ˈɪntuː; ˈɪntə/",
+      "text": "into"
+    },
+    {
+      "meaning": "他的",
+      "pos": "限定词",
+      "phonetic": "/hɪz/",
+      "text": "his"
+    },
+    {
+      "meaning": "厨房",
+      "pos": "名词",
+      "phonetic": "/ˈkɪtʃɪn/",
+      "text": "kitchen."
+    }
+  ],
+  "parts": [
+    {
+      "text": "While",
+      "meaning": "当……的时候",
+      "relation": "引出同时发生的背景时间"
+    },
+    {
+      "text": "my friend, George,",
+      "meaning": "我的朋友乔治",
+      "relation": "时间从句的主语，George 补充说明朋友名字"
+    },
+    {
+      "text": "was reading in bed,",
+      "meaning": "正在躺在床上看书",
+      "relation": "描述当时正在持续的动作状态"
+    },
+    {
+      "text": "two thieves climbed",
+      "meaning": "两个小偷爬",
+      "relation": "主句的主语和谓语：two thieves 是动作发出者，climbed 说明发生的动作"
+    },
+    {
+      "text": "into his kitchen.",
+      "meaning": "进了他的厨房",
+      "relation": "说明小偷爬行动作的目的地"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-119",
+  "sentenceId": "nce-1-lesson-119-sentence-004",
+  "sentenceOrder": 4,
+  "english": "While my friend, George, was reading in bed, two thieves climbed into his kitchen.",
+  "lesson": "Lesson 119 A true story",
+  "notes": [
+    {
+      "title": "while 引导的时间从句",
+      "text": "While…was reading… 表示在某个正在进行的动作期间，另一个动作发生了。while 强调两件事同时存在，尤其是持续动作与短暂动作的叠加。"
+    },
+    {
+      "title": "同位语 George",
+      "text": "George 放在 my friend 后面，用逗号隔开，补充说明这位朋友就是乔治。它不改变句子主干，只让读者明确人物身份。"
+    },
+    {
+      "title": "climbed into 的搭配",
+      "text": "climb into 表示“爬进去”，强调从外部经由窗户、管道等进入室内；介词 into 表达由外向内的移动方向。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析主干正确：while 被识别为引导时间状语从句的连词，而不是句子主语；过去进行时与一般过去时的长短动作关系、George 的同位语身份、climb into 的移动方向均解释清楚，音标、译文、词性和分块关系基本可用。可修正点是 parts 第四块把主语短语和谓语 climbed 混称为“核心动作发出者”，容易让人只把它理解成主语；其余信息无误。（非逐句人工审核）"
+}

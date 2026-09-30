@@ -1,0 +1,122 @@
+{
+  "chinese": "她能替我打这封信吗？",
+  "intent": "询问对方是否有能力帮忙完成打这封信的请求",
+  "comparison": null,
+  "backbone": {
+    "text": "Can she type this letter?",
+    "meaning": "她能不能打这封信"
+  },
+  "parts": [
+    {
+      "text": "Can",
+      "relation": "引出能力询问",
+      "meaning": "能够（表询问能力的情态动词，提前放置表疑问）"
+    },
+    {
+      "text": "she",
+      "relation": "询问的动作发出者",
+      "meaning": "她"
+    },
+    {
+      "text": "type this letter",
+      "relation": "说明询问的具体动作和动作对象",
+      "meaning": "打这封信"
+    },
+    {
+      "text": "for me?",
+      "relation": "补充说明打字是为谁做的",
+      "meaning": "替我"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "情态动词引导的一般疑问句",
+      "text": "把表示能力的情态动词Can放到句子最开头，不需要加助动词do，直接构成询问对方是否能完成动作的问句。"
+    },
+    {
+      "title": "for的指向作用",
+      "text": "这里的for引出动作type的受益对象，明确打信这个动作是为说话人“我”完成的，表达帮忙代做的含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Can she",
+      "role": "疑问引导片段",
+      "explanation": "由情态动词提前加主语构成，直接开启关于主语能力的询问"
+    },
+    {
+      "text": "type this letter",
+      "role": "谓语加宾语核心片段",
+      "explanation": "点明要执行的具体动作“打字”以及动作的目标对象“这封信”"
+    },
+    {
+      "text": "for me?",
+      "role": "受益对象补充片段",
+      "explanation": "说明动作的服务对象，末尾问号标记整句是疑问句"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "能、能够",
+      "pos": "情态动词",
+      "phonetic": "/kæn/",
+      "text": "Can"
+    },
+    {
+      "meaning": "她",
+      "pos": "人称代词主格",
+      "phonetic": "/ʃiː/",
+      "text": "she"
+    },
+    {
+      "meaning": "打字",
+      "pos": "动词",
+      "phonetic": "/taɪp/",
+      "text": "type"
+    },
+    {
+      "meaning": "这个",
+      "pos": "指示代词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "信",
+      "pos": "名词",
+      "phonetic": "/ˈletə(r)/",
+      "text": "letter"
+    },
+    {
+      "meaning": "为、替",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/",
+      "text": "for"
+    },
+    {
+      "meaning": "我（宾格）",
+      "pos": "人称代词宾格",
+      "phonetic": "/miː/",
+      "text": "me?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-45",
+  "sentenceId": "nce-1-lesson-045-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Can she type this letter for me?",
+  "lesson": "Lesson 45 The boss's letter",
+  "notes": [
+    {
+      "title": "情态动词引导的一般疑问句",
+      "text": "把表示能力的情态动词Can放到句子最开头，不需要加助动词do，直接构成询问对方是否能完成动作的问句。"
+    },
+    {
+      "title": "for的指向作用",
+      "text": "这里的for引出动作type的受益对象，明确打信这个动作是为说话人“我”完成的，表达帮忙代做的含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有解析整体符合教学要求，仅存在局部细节偏差可修正，未出现核心语法错误。（非逐句人工审核）"
+}

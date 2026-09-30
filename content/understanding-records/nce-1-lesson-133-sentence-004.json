@@ -1,0 +1,88 @@
+{
+  "chinese": "不，我不打算再拍另一部了。",
+  "intent": "针对前文“Are you going to make another?”作出明确的否定答复，表示不打算再拍另一部，是依托上下文的简略否定应答。",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm not.",
+    "meaning": "我不打算再拍另一部了。"
+  },
+  "structureNotes": [
+    {
+      "title": "简略否定回答的依托关系",
+      "text": "完整形式是 No, I'm not going to make another.。这里不是独立回答“我不是”，而是承接前文的 be going to 计划；在上下文清楚时省略 going to make another，避免重复。"
+    },
+    {
+      "title": "No 与缩写形式的语气关系",
+      "text": "No 先表示否定态度，I'm not. 再给出对应的简略结构；其中 I'm not = I am not，与前文 Are you going to... 构成问答对应。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "对话否定标记",
+      "explanation": "用于先给出否定态度，修饰整个答句，不是句子主语。"
+    },
+    {
+      "text": "I'm",
+      "role": "主语加系动词缩写",
+      "explanation": "是 I am 的缩写形式，在简略回答中作主语和系动词；表语部分承前省略。"
+    },
+    {
+      "text": "not.",
+      "role": "否定副词",
+      "explanation": "放在系动词 am 后构成否定，并否定承前省略的 going to make another，而不是单独否定“我是”这个身份。"
+    }
+  ],
+  "words": [
+    {
+      "text": "No,",
+      "meaning": "不；不是",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "I'm",
+      "meaning": "我是（I am 的缩写）",
+      "pos": "代词+系动词缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "not.",
+      "meaning": "不；没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "No,",
+      "meaning": "不",
+      "relation": "对话中的整体否定态度标记，先回应前文的提问。"
+    },
+    {
+      "text": "I'm not.",
+      "meaning": "我不打算再拍另一部了。",
+      "relation": "核心简略答复，承接前文的 going to make another，省略重复部分。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-133",
+  "sentenceId": "nce-1-lesson-133-sentence-004",
+  "sentenceOrder": 4,
+  "english": "No, I'm not.",
+  "lesson": "Lesson 133 Sensational news!",
+  "notes": [
+    {
+      "title": "简略否定回答的依托关系",
+      "text": "完整形式是 No, I'm not going to make another.。这里不是独立回答“我不是”，而是承接前文的 be going to 计划；在上下文清楚时省略 going to make another，避免重复。"
+    },
+    {
+      "title": "No 与缩写形式的语气关系",
+      "text": "No 先表示否定态度，I'm not. 再给出对应的简略结构；其中 I'm not = I am not，与前文 Are you going to... 构成问答对应。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体可理解，但主干补义略显笼统；简略回答 I'm not. 的含义应联系前文的 be going to 计划，而不是泛化为所有可能的计划。补全为“我不打算再拍另一部了”更准确，其余结构和词义基本可用。（非逐句人工审核）"
+}

@@ -1,0 +1,178 @@
+{
+  "chinese": "六月、七月和八月总是很热。每天阳光灿烂。",
+  "intent": "描述夏季三个月的气温特征与日照状态，对应前文关于夏天天气是什么样的提问。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's always hot in three summer months; the sun shines every day.",
+    "meaning": "夏季的三个月始终炎热，太阳每天都照耀。"
+  },
+  "structureNotes": [
+    {
+      "title": "非人称 It 指代天气",
+      "text": "It's hot 里的 It 不指代具体的人或物，只用来描述天气状态，中文不需要把这个 It 翻译出来。"
+    },
+    {
+      "title": "时间状语前置更符合中文表达",
+      "text": "英文把月份地点状语 in June, July and August 放在句尾，中文习惯先交代时间范围，再接天气状况“总是很热”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "非人称主语与系动词",
+      "explanation": "It 指代天气，无实义；'s 是 is 的缩写，和后面的形容词 hot 构成“天气是热的”的核心谓语结构。"
+    },
+    {
+      "text": "always",
+      "role": "频度状语",
+      "explanation": "放在 be 动词后、形容词前，表示炎热的状态贯穿整个夏季三个月，没有间断。"
+    },
+    {
+      "text": "hot",
+      "role": "表语",
+      "explanation": "描述天气的核心特征是炎热，是整句要传递的主要天气信息。"
+    },
+    {
+      "text": "in June, July and August",
+      "role": "时间状语",
+      "explanation": "说明炎热状态覆盖的三个夏季月份，点明高温持续的时间范围。"
+    },
+    {
+      "text": "The sun",
+      "role": "第二句主语",
+      "explanation": "指太阳，是后面“照耀”这个动作的发出者。"
+    },
+    {
+      "text": "shines",
+      "role": "谓语",
+      "explanation": "用一般现在时表示常规日照状态，意思是太阳照耀、放晴。"
+    },
+    {
+      "text": "every day",
+      "role": "频度时间状语",
+      "explanation": "说明日照的频率是每一天，进一步补充夏季晴好无阴的天气特点。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "非人称虚指，无实义",
+      "pos": "非人称代词+系动词缩写",
+      "phonetic": "/ɪts/",
+      "text": "It's"
+    },
+    {
+      "meaning": "总是",
+      "pos": "频度副词",
+      "phonetic": "/ˈɔːlweɪz/",
+      "text": "always"
+    },
+    {
+      "meaning": "热的",
+      "pos": "形容词",
+      "phonetic": "/hɒt/",
+      "text": "hot"
+    },
+    {
+      "meaning": "在（某时段）",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "六月",
+      "pos": "专有名词",
+      "phonetic": "/dʒuːn/",
+      "text": "June,"
+    },
+    {
+      "meaning": "七月",
+      "pos": "专有名词",
+      "phonetic": "/dʒuˈlaɪ/",
+      "text": "July"
+    },
+    {
+      "meaning": "和",
+      "pos": "并列连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "八月",
+      "pos": "专有名词",
+      "phonetic": "/ˈɔːɡəst/",
+      "text": "August."
+    },
+    {
+      "meaning": "（特指世界上独一无二的太阳）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "太阳",
+      "pos": "名词",
+      "phonetic": "/sʌn/",
+      "text": "sun"
+    },
+    {
+      "meaning": "照耀",
+      "pos": "动词",
+      "phonetic": "/ʃaɪnz/",
+      "text": "shines"
+    },
+    {
+      "meaning": "每一的",
+      "pos": "限定词",
+      "phonetic": "/ˈevri/",
+      "text": "every"
+    },
+    {
+      "meaning": "天",
+      "pos": "名词",
+      "phonetic": "/deɪ/",
+      "text": "day."
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's always hot",
+      "relation": "第一句的核心判断，交代夏季天气的整体感受",
+      "meaning": "天气总是炎热"
+    },
+    {
+      "text": "in June, July and August.",
+      "relation": "补充炎热状态持续的具体时间范围，说明这是夏季三个月的常态",
+      "meaning": "在六月、七月和八月"
+    },
+    {
+      "text": "The sun shines",
+      "relation": "第二句的核心动作，进一步描述夏季的日照状态",
+      "meaning": "太阳照耀"
+    },
+    {
+      "text": "every day.",
+      "relation": "补充日照的频率，说明没有阴天遮蔽的晴好情况",
+      "meaning": "每天"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-51",
+  "sentenceId": "nce-1-lesson-051-sentence-008",
+  "sentenceOrder": 8,
+  "english": "It's always hot in June, July and August. The sun shines every day.",
+  "lesson": "Lesson 51 A pleasant climate",
+  "notes": [
+    {
+      "title": "非人称 It 指代天气",
+      "text": "It's hot 里的 It 不指代具体的人或物，只用来描述天气状态，中文不需要把这个 It 翻译出来。"
+    },
+    {
+      "title": "时间状语前置更符合中文表达",
+      "text": "英文把月份地点状语 in June, July and August 放在句尾，中文习惯先交代时间范围，再接天气状况“总是很热”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析主干、主谓关系、时间状语处理和整体中文译文基本正确；仅词汇表中 It's 的释义把非人称虚指 It 译为“它”，容易误导学习者认为此处 It 有实指代，需改成“非人称虚指，无实义”。其余内容无需修改。（非逐句人工审核）"
+}

@@ -1,0 +1,232 @@
+{
+  "chinese": "上星期米尔斯太太去了伦敦。她不太熟悉伦敦，迷了路。",
+  "intent": "交代故事背景：米尔斯太太上周前往伦敦，因对当地不熟悉而迷路，为后续她在车站附近向人问路的情节做铺垫。",
+  "comparison": null,
+  "backbone": {
+    "text": "Mrs. Mills went to London. She does not know London very well, and she lost her way.",
+    "meaning": "米尔斯太太前往伦敦，因为对当地不熟，所以迷了路。"
+  },
+  "structureNotes": [
+    {
+      "title": "动词时态的表意分工",
+      "text": "went、lost为一般过去时，说明“去伦敦”“迷路”都是上周发生的已结束动作；does not know用一般现在时，描述米尔斯太太当时不熟悉伦敦的状态，是她迷路的原因。"
+    },
+    {
+      "title": "并列连词and的逻辑作用",
+      "text": "and在这里不是简单罗列两个动作，而是承接前后分句的因果关系：正因为她不太熟悉伦敦，才发生了迷路的结果。"
+    },
+    {
+      "title": "last week的位置作用",
+      "text": "Last week放在句首，直接点明整个事件发生的时间范围，同时提示后面的went、lost都属于这个过去时间内的行为。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Last week",
+      "role": "时间状语",
+      "explanation": "点明整个叙事发生的时间为上星期，放在句首明确事件的时间背景。"
+    },
+    {
+      "text": "Mrs. Mills",
+      "role": "主语",
+      "explanation": "第一分句的动作发出者，即米尔斯太太。"
+    },
+    {
+      "text": "went to London.",
+      "role": "谓语+宾语",
+      "explanation": "表达“前往伦敦”的已完成动作，是第一分句的核心内容。"
+    },
+    {
+      "text": "She",
+      "role": "分句主语",
+      "explanation": "指代米尔斯太太，是后面两个并列分句的共同主语。"
+    },
+    {
+      "text": "does not know London very well,",
+      "role": "并列分句1",
+      "explanation": "说明她对伦敦的熟悉程度不高，是后一个“迷路”结果的原因。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个语义关联的分句，体现前后内容的因果承接关系。"
+    },
+    {
+      "text": "she lost her way.",
+      "role": "并列分句2",
+      "explanation": "说明最终发生的结果——她迷了路。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Last",
+      "meaning": "上一个，上一次的",
+      "pos": "形容词",
+      "phonetic": "/lɑːst/"
+    },
+    {
+      "text": "week",
+      "meaning": "星期，周",
+      "pos": "名词",
+      "phonetic": "/wiːk/"
+    },
+    {
+      "text": "Mrs.",
+      "meaning": "夫人，太太",
+      "pos": "缩写名词",
+      "phonetic": "/ˈmɪsɪz/"
+    },
+    {
+      "text": "Mills",
+      "meaning": "米尔斯（姓氏）",
+      "pos": "专有名词",
+      "phonetic": "/mɪlz/"
+    },
+    {
+      "text": "went",
+      "meaning": "去，前往（go的过去式）",
+      "pos": "动词",
+      "phonetic": "/went/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向",
+      "pos": "介词",
+      "phonetic": "/tu; tə/"
+    },
+    {
+      "text": "London.",
+      "meaning": "伦敦",
+      "pos": "专有名词",
+      "phonetic": "/ˈlʌndən/"
+    },
+    {
+      "text": "She",
+      "meaning": "她（主格）",
+      "pos": "代词",
+      "phonetic": "/ʃi; ʃɪ/"
+    },
+    {
+      "text": "does",
+      "meaning": "助动词，无实义，帮助构成一般现在时否定句",
+      "pos": "助动词",
+      "phonetic": "/dʌz; dəz/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "know",
+      "meaning": "了解，熟悉，知道",
+      "pos": "动词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "London",
+      "meaning": "伦敦",
+      "pos": "专有名词",
+      "phonetic": "/ˈlʌndən/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "well,",
+      "meaning": "好，透彻地",
+      "pos": "副词",
+      "phonetic": "/wel/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且，因此",
+      "pos": "连词",
+      "phonetic": "/ænd; ənd/"
+    },
+    {
+      "text": "she",
+      "meaning": "她（主格）",
+      "pos": "代词",
+      "phonetic": "/ʃi; ʃɪ/"
+    },
+    {
+      "text": "lost",
+      "meaning": "迷失，丢失（lose的过去式）",
+      "pos": "动词",
+      "phonetic": "/lɒst/"
+    },
+    {
+      "text": "her",
+      "meaning": "她的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/hɜː(r)/"
+    },
+    {
+      "text": "way.",
+      "meaning": "路，路线",
+      "pos": "名词",
+      "phonetic": "/weɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Last week",
+      "meaning": "上星期",
+      "relation": "时间背景，交代整个事件发生的时间"
+    },
+    {
+      "text": "Mrs. Mills",
+      "meaning": "米尔斯太太",
+      "relation": "第一分句的动作发出者，故事主角"
+    },
+    {
+      "text": "went to London.",
+      "meaning": "去了伦敦。",
+      "relation": "描述主角上周完成的核心动作"
+    },
+    {
+      "text": "She does not know London very well,",
+      "meaning": "她不太熟悉伦敦，",
+      "relation": "并列分句，说明主角对伦敦的熟悉程度"
+    },
+    {
+      "text": "and",
+      "meaning": "并且，因此",
+      "relation": "连接前后两个并列分句，体现因果承接"
+    },
+    {
+      "text": "she lost her way.",
+      "meaning": "她迷了路。",
+      "relation": "承接前文的结果，说明最终发生的事件。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-73",
+  "sentenceId": "nce-1-lesson-073-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Last week Mrs. Mills went to London. She does not know London very well, and she lost her way.",
+  "lesson": "Lesson 73 The way to King Street",
+  "notes": [
+    {
+      "title": "动词时态的表意分工",
+      "text": "went、lost为一般过去时，说明“去伦敦”“迷路”都是上周发生的已结束动作；does not know用一般现在时，描述米尔斯太太当时不熟悉伦敦的状态，是她迷路的原因。"
+    },
+    {
+      "title": "并列连词and的逻辑作用",
+      "text": "and在这里不是简单罗列两个动作，而是承接前后分句的因果关系：正因为她不太熟悉伦敦，才发生了迷路的结果。"
+    },
+    {
+      "title": "last week的位置作用",
+      "text": "Last week放在句首，直接点明整个事件发生的时间范围，同时提示后面的went、lost都属于这个过去时间内的行为。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容通顺可靠，仅存在少量可明确修正的细节问题：1. 部分单词音标不符合英式发音规范，未使用宽式转写；2. 并列分句的语法角色标注为“谓语部分”不够准确，应调整为“分句”；3. 个别并列连词的中文释义略有偏差，不符合常用译法。其余内容与原文匹配，结构分析基本合理。（非逐句人工审核）"
+}

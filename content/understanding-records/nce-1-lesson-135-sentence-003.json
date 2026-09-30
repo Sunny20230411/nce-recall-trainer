@@ -1,0 +1,125 @@
+{
+  "chinese": "她说了什么？",
+  "intent": "就这位女性此前已经说出的内容，询问具体说了什么。",
+  "comparison": {
+    "chinese": "她说了什么？",
+    "english": "What did she say?",
+    "steps": [
+      {
+        "label": "确定询问方向",
+        "text": "What did she say?",
+        "explanation": "What放在句首，说明缺的是“说的内容”；不是问她什么时候说、对谁说。"
+      },
+      {
+        "label": "还原事件与时间",
+        "text": "she say",
+        "explanation": "主语she和动词say表示“她说”；did把这件事定位到过去，不是现在正在说。"
+      }
+    ],
+    "takeaway": "先知道she say（她说）这一过去事件，再用What问她说的具体内容。"
+  },
+  "backbone": {
+    "text": "What did she say?",
+    "meaning": "询问这位女性在过去某一场合到底说了什么。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去时疑问句的语序",
+      "text": "一般过去时的实义动词say疑问时，需在主语she前加助动词did，动词say用原形；did承担过去时标记，不再把say说成said。"
+    },
+    {
+      "title": "疑问词What的作用",
+      "text": "What放在句首，作为say的逻辑宾语，表示要询问“所说的内容”；不是问她说话的时间、地点或对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What",
+      "role": "疑问代词",
+      "explanation": "放在句首引导特殊疑问句，指代询问的“说的内容”，是say的逻辑宾语。"
+    },
+    {
+      "text": "did",
+      "role": "助动词",
+      "explanation": "用于一般过去时的疑问句，帮助构成疑问语序，无实义，标记动作发生在过去。"
+    },
+    {
+      "text": "she",
+      "role": "主语",
+      "explanation": "指对话中提到的那位女性，是发出“说”这个动作的人。"
+    },
+    {
+      "text": "say",
+      "role": "谓语动词",
+      "explanation": "原形实义动词，表示“说、讲”，因为前面有助动词did，不再使用过去式said。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What",
+      "meaning": "什么",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "did",
+      "meaning": "（构成一般过去时疑问的助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词主格",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "say?",
+      "meaning": "说，讲（及物动词，后接所说的内容）",
+      "pos": "及物动词原形",
+      "phonetic": "/seɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What",
+      "meaning": "什么",
+      "relation": "疑问代词，放在句首引导特殊疑问句，是say的逻辑宾语，指向需要询问的发言内容"
+    },
+    {
+      "text": "did",
+      "meaning": "助动词，标记一般过去时，帮助构成疑问语序",
+      "relation": "无实义，仅辅助构成过去时的疑问结构，表明询问的是过去发生的发言"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "relation": "人称代词主格，是句子的主语，指代对话中提到的那位女性，是“说”这个动作的发出者"
+    },
+    {
+      "text": "say?",
+      "meaning": "说？",
+      "relation": "及物动词原形，因为前面有助动词did，所以用原形，核心动作是“说”，搭配What指向被询问的具体发言内容"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-135",
+  "sentenceId": "nce-1-lesson-135-sentence-003",
+  "sentenceOrder": 3,
+  "english": "What did she say?",
+  "lesson": "Lesson 135 The latest report",
+  "notes": [
+    {
+      "title": "过去时疑问句的语序",
+      "text": "一般过去时的实义动词say疑问时，需在主语she前加助动词did，动词say用原形；did承担过去时标记，不再把say说成said。"
+    },
+    {
+      "title": "疑问词What的作用",
+      "text": "What放在句首，作为say的逻辑宾语，表示要询问“所说的内容”；不是问她说话的时间、地点或对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体可用，仅存在两处可明确修正的小问题：1. 词汇表中say的音标错误带上了问号，且未标注动词的及物属性；2. 分块did的释义表述冗余、不够通顺，其余内容符合规则要求。（非逐句人工审核）"
+}

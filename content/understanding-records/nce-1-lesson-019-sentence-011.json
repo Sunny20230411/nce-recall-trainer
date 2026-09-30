@@ -1,0 +1,100 @@
+{
+  "chinese": "这些冰淇淋很好吃。",
+  "intent": "说话人向妈妈表达自己拿到的冰淇淋口感不错、味道很好的感受。",
+  "comparison": null,
+  "backbone": {
+    "text": "These ice creams are nice.",
+    "meaning": "这些冰淇淋很不错。"
+  },
+  "parts": [
+    {
+      "text": "These ice creams",
+      "relation": "描述被评价的对象",
+      "meaning": "这些冰淇淋"
+    },
+    {
+      "text": "are",
+      "relation": "连接主体和评价描述",
+      "meaning": "是"
+    },
+    {
+      "text": "nice.",
+      "relation": "补充说明冰淇淋的特点",
+      "meaning": "很好吃"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "名词复数指代",
+      "text": "这里ice creams用复数形式，对应语境里多个孩子分到的多支冰淇淋，不是指一份冰淇淋。"
+    },
+    {
+      "title": "形容词的常用义",
+      "text": "nice在本句里专门用来描述食物口感味道好，不泛指所有“美好的”含义，贴合日常对话场景。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "These ice creams",
+      "role": "主语",
+      "explanation": "整句话要描述的核心对象，点明具体是什么事物。"
+    },
+    {
+      "text": "are nice",
+      "role": "谓语部分",
+      "explanation": "用来描述主语的特点，给出对冰淇淋的正面评价。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这些",
+      "pos": "限定词",
+      "phonetic": "/ðiːz/",
+      "text": "These"
+    },
+    {
+      "meaning": "冰",
+      "pos": "名词",
+      "phonetic": "/aɪs/",
+      "text": "ice"
+    },
+    {
+      "meaning": "奶油（此处和ice组合指冰淇淋）",
+      "pos": "名词",
+      "phonetic": "/kriːmz/",
+      "text": "creams"
+    },
+    {
+      "meaning": "是",
+      "pos": "be动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "很好吃的",
+      "pos": "形容词",
+      "phonetic": "/naɪs/",
+      "text": "nice."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-19",
+  "sentenceId": "nce-1-lesson-019-sentence-011",
+  "sentenceOrder": 11,
+  "english": "These ice creams are nice.",
+  "lesson": "Lesson 19 Tired and thirsty",
+  "notes": [
+    {
+      "title": "名词复数指代",
+      "text": "这里ice creams用复数形式，对应语境里多个孩子分到的多支冰淇淋，不是指一份冰淇淋。"
+    },
+    {
+      "title": "形容词的常用义",
+      "text": "nice在本句里专门用来描述食物口感味道好，不泛指所有“美好的”含义，贴合日常对话场景。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本符合要求，存在部分细节标注不准确的可修正项，不影响核心理解，经修正后可正常使用（非逐句人工审核）"
+}

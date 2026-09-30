@@ -1,0 +1,107 @@
+{
+  "chinese": "来，让我帮你。",
+  "intent": "主动提出向无法起身的对方伸出援手，传递想要上前帮扶的关切姿态。",
+  "comparison": {
+    "chinese": "来，让我帮你。",
+    "english": "Let me help you.",
+    "steps": [
+      {
+        "label": "祈使起始",
+        "text": "Let",
+        "explanation": "结合上下文回应对方起身困难的情境，翻译补充语气词“来”，还原口语里主动搭手的自然状态；Let 直接置于句首构成祈使句核心，表提议或许可，意为“让”，祈使句无需添加主语。"
+      },
+      {
+        "label": "受事与动作补足",
+        "text": "me help you",
+        "explanation": "me 是 Let 的宾语，help you 是不带 to 的不定式短语作宾语补足语，明确“让我”要执行的具体动作是伸出援手帮助对方。"
+      }
+    ],
+    "takeaway": "Let 型祈使句用于主动提出做某事或允许对方做某事，后接宾语加不带 to 的动词不定式，翻译时可补充适配口语场景的语气词让表达更自然。"
+  },
+  "backbone": {
+    "text": "Let me help you.",
+    "meaning": "（主动提议）让我来帮你。"
+  },
+  "structureNotes": [
+    {
+      "title": "Let 型祈使结构",
+      "text": "这是省略了主语 you 的祈使句，用来主动提出帮助。Let 是使役动词，后接宾语 me，再接不带 to 的动词原形 help，这是使役动词的固定搭配。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Let",
+      "role": "祈使句谓语",
+      "explanation": "使役动词，表示“让、允许”，是句子的核心动作。"
+    },
+    {
+      "text": "me",
+      "role": "Let 的宾语",
+      "explanation": "人称代词宾格，表示“我”。"
+    },
+    {
+      "text": "help you",
+      "role": "宾语补足语",
+      "explanation": "不带 to 的动词不定式短语，补充说明让“我”做的具体动作是帮助对方。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Let",
+      "meaning": "让，允许",
+      "pos": "使役动词（祈使式）",
+      "phonetic": "/let/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "人称代词宾格",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "help",
+      "meaning": "帮助",
+      "pos": "动词",
+      "phonetic": "/help/"
+    },
+    {
+      "text": "you.",
+      "meaning": "你（宾格）",
+      "pos": "人称代词宾格",
+      "phonetic": "/juː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Let",
+      "meaning": "让",
+      "relation": "引导祈使句，表提议为对方提供帮助"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "relation": "Let 的宾语，指代发出帮助动作的说话人"
+    },
+    {
+      "text": "help you.",
+      "meaning": "帮你",
+      "relation": "宾语补足语，补充说明说话人要执行的具体帮扶动作"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-99",
+  "sentenceId": "nce-1-lesson-099-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Let me help you.",
+  "lesson": "Lesson 99 Ow!",
+  "notes": [
+    {
+      "title": "Let 型祈使结构",
+      "text": "这是省略了主语 you 的祈使句，用来主动提出帮助。Let 是使役动词，后接宾语 me，再接不带 to 的动词原形 help，这是使役动词的固定搭配。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：翻译缺少上下文的口语化自然衔接，其余语法解析、标注内容均符合规范。（非逐句人工审核）"
+}

@@ -1,0 +1,110 @@
+{
+  "chinese": "那更便宜，是吗？",
+  "intent": "说话人在乘船出行的讨论语境里，先给出乘船更便宜的判断，再用附加问句向对方确认这一说法，寻求对方的附和。",
+  "comparison": {
+    "chinese": "那更便宜，是吗？",
+    "english": "It's cheaper, isn't it?",
+    "steps": [
+      {
+        "label": "英文的反意问句结构",
+        "text": "It's cheaper, isn't it?",
+        "explanation": "英文先说完整陈述‘那更便宜’，再把be动词的否定形式isn't提前，放在简短问句的主语it之前，形成和前文指代同一事物的反向确认疑问。"
+      },
+      {
+        "label": "中文对应表达",
+        "text": "那更便宜，是吗？",
+        "explanation": "中文不需要把动词提前，只在陈述说完之后，在句尾加独立的反问语气词‘是吗’，就可以表达向对方确认、寻求附和的意思。"
+      }
+    ],
+    "takeaway": "反意附加问句要抓住‘陈述+反向短句疑问’的结构，不要只把它翻译成一般疑问句；本句核心是先表明判断，再向对方求确认，真正的疑问焦点就是‘是不是更便宜’。"
+  },
+  "backbone": {
+    "text": "It's cheaper, isn't it?",
+    "meaning": "（指代乘船出行这种方式）它的成本更低，对吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "附加问句的对应关系",
+      "text": "附加问句isn't it?中的代词it，和主句It's中的it都指代前文提到的乘船出行方式，前后指代一致，不是两个互不相关的it。"
+    },
+    {
+      "title": "比较级的隐含对比",
+      "text": "cheaper是形容词cheap的比较级，本句是在和其他出行方式对比，突出乘船的费用优势，比较的对象承前省略，不需要把所有对照都完整说出来。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "陈述分句的主语加系动词",
+      "explanation": "代词it指代前文提到的乘船出行，is是be动词，和后面的表语搭配说明事物的属性。"
+    },
+    {
+      "text": "cheaper",
+      "role": "陈述分句的表语",
+      "explanation": "形容词比较级作表语，说明it所指代的出行方式‘花费更低、更便宜’。"
+    },
+    {
+      "text": "isn't it?",
+      "role": "附加反意疑问分句",
+      "explanation": "由否定形式的be动词加主语it构成，用来对前面的陈述内容进行反向确认，期望对方给出肯定回应。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "它是（it is的缩写）",
+      "pos": "代词加be动词缩写",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "cheaper,",
+      "meaning": "更便宜的",
+      "pos": "形容词比较级",
+      "phonetic": "/ˈtʃiːpə(r)/"
+    },
+    {
+      "text": "isn't",
+      "meaning": "不是（is not的缩写）",
+      "pos": "be动词否定缩写",
+      "phonetic": "/ˈɪznt/"
+    },
+    {
+      "text": "it?",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's cheaper,",
+      "relation": "给出核心判断，作为后续确认的基础",
+      "meaning": "那更便宜，"
+    },
+    {
+      "text": "isn't it?",
+      "relation": "附加在陈述之后，向对方确认前述判断是否正确",
+      "meaning": "是吗？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-83",
+  "sentenceId": "nce-1-lesson-083-sentence-012",
+  "sentenceOrder": 12,
+  "english": "It's cheaper, isn't it?",
+  "lesson": "Lesson 83 Going on holiday",
+  "notes": [
+    {
+      "title": "附加问句的对应关系",
+      "text": "附加问句isn't it?中的代词it，和主句It's中的it都指代前文提到的乘船出行方式，前后指代一致，不是两个互不相关的it。"
+    },
+    {
+      "title": "比较级的隐含对比",
+      "text": "cheaper是形容词cheap的比较级，本句是在和其他出行方式对比，突出乘船的费用优势，比较的对象承前省略，不需要把所有对照都完整说出来。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体贴合反意附加问句的语法规则，清楚说明前后it指代乘船出行的对应关系，也明确了cheaper的隐含比较语境；仅两处音标书写可修正为英式音标常见的宽式标注形式，其余内容无需改动。（非逐句人工审核）"
+}

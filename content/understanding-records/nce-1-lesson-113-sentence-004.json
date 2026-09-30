@@ -1,0 +1,128 @@
+{
+  "chinese": "恐怕我没有零钱。",
+  "intent": "礼貌地告知对方，自己手头没有可找零的小额零钱。",
+  "comparison": {
+    "chinese": "英语把缓和语气的插语放句末，中文常把类似表达放到句首。",
+    "english": "I've got no small change, I'm afraid.",
+    "steps": [
+      {
+        "label": "先说事实",
+        "text": "I've got no small change",
+        "explanation": "主干先给出核心信息：我没有零钱。"
+      },
+      {
+        "label": "再加缓和插语",
+        "text": "I'm afraid",
+        "explanation": "放在事实之后，弱化直接拒绝的生硬感，表示恐怕、不好意思。"
+      }
+    ],
+    "takeaway": "英语先给事实，再用 I'm afraid 收尾软化语气；中文按表达习惯先把缓和语气放到句首。"
+  },
+  "backbone": {
+    "text": "I've got no small change",
+    "meaning": "我没有零钱。"
+  },
+  "structureNotes": [
+    {
+      "title": "have got 的口语用法",
+      "text": "I've got = I have，这里表示“拥有”，是口语中表达“有”的常见说法，不是完成时态的“得到”。"
+    },
+    {
+      "title": "I'm afraid 的插语功能",
+      "text": "I'm afraid 在这里不是“我害怕”，而是委婉表达遗憾、客气告知坏消息，类似中文的“恐怕、不好意思”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I've got",
+      "role": "主语 + 谓语",
+      "explanation": "I 是主语，have got 是谓语部分，表达“拥有”。"
+    },
+    {
+      "text": "no small change",
+      "role": "宾语",
+      "explanation": "have got 的宾语，表示“没有零钱”。"
+    },
+    {
+      "text": "I'm afraid",
+      "role": "独立分句（插在句末）",
+      "explanation": "作句末插入性分句，缓和语气，礼貌传达遗憾的含义；I'm 是 I am 的缩写。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I've",
+      "meaning": "我（I have 的缩写）",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/aɪv/"
+    },
+    {
+      "text": "got",
+      "meaning": "拥有（have got 表“有”）",
+      "pos": "动词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "no",
+      "meaning": "没有，无",
+      "pos": "限定词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "small",
+      "meaning": "小额的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/"
+    },
+    {
+      "text": "change,",
+      "meaning": "零钱（含逗号）",
+      "pos": "名词",
+      "phonetic": "/tʃeɪndʒ/"
+    },
+    {
+      "text": "I'm",
+      "meaning": "我是（I am 的缩写）",
+      "pos": "代词+系动词缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "afraid.",
+      "meaning": "恐怕（表委婉语气，含句号）",
+      "pos": "形容词",
+      "phonetic": "/əˈfreɪd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I've got no small change,",
+      "meaning": "我没有零钱。",
+      "relation": "核心陈述内容，说明自己不持有可找零的小额零钱。"
+    },
+    {
+      "text": "I'm afraid.",
+      "meaning": "恐怕（表示委婉客气）。",
+      "relation": "句末插入性分句，礼貌性缓和语气，补充说明对这件事的遗憾态度；不能单独译为孤立的“害怕”。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-113",
+  "sentenceId": "nce-1-lesson-113-sentence-004",
+  "sentenceOrder": 4,
+  "english": "I've got no small change, I'm afraid.",
+  "lesson": "Lesson 113 Small change",
+  "notes": [
+    {
+      "title": "have got 的口语用法",
+      "text": "I've got = I have，这里表示“拥有”，是口语中表达“有”的常见说法，不是完成时态的“得到”。"
+    },
+    {
+      "title": "I'm afraid 的插语功能",
+      "text": "I'm afraid 在这里不是“我害怕”，而是委婉表达遗憾、客气告知坏消息，类似中文的“恐怕、不好意思”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干完整且符合英式口语习惯；比较项解释了英文先陈述事实、后置 I'm afraid 软化语气，中文习惯前置缓和表达的语序与语气组织差异。已修正部分切分：I'm afraid 是独立分句中的主谓结构，不再误标为单个形容词或孤立副词。（非逐句人工审核）"
+}

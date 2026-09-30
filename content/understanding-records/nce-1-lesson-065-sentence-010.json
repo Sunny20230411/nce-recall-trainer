@@ -1,0 +1,120 @@
+{
+  "chinese": "她总是很早回家。",
+  "intent": "陈述她一贯的回家时间习惯，说明她日常回家很早。",
+  "comparison": null,
+  "backbone": {
+    "text": "She comes home.",
+    "meaning": "她回到家。"
+  },
+  "structureNotes": [
+    {
+      "title": "频度副词always的位置",
+      "text": "always是表示“总是、经常”的频度副词，放在实义动词comes的前面，用来修饰这个回家动作的发生频率，说明她回家早是长期稳定的习惯。"
+    },
+    {
+      "title": "home和early的功能",
+      "text": "句中的home是地点副词，直接跟在动词come后面表示动作的目的地是家，前面不需要加介词to；early在这里是副词，用来修饰come home这个动作，说明回家的时间很早。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "主语",
+      "explanation": "指代前文提到的女性，是整个句子动作的发出者。"
+    },
+    {
+      "text": "always",
+      "role": "频度副词",
+      "explanation": "修饰动词comes，说明回家这个动作的发生频率，意为“总是”。"
+    },
+    {
+      "text": "comes",
+      "role": "谓语动词",
+      "explanation": "是动词come的第三人称单数一般现在时形式，表示“来到、抵达”的动作。"
+    },
+    {
+      "text": "home",
+      "role": "地点副词",
+      "explanation": "说明动作come的目的地是家，home本身是副词，前面不需要额外加介词to。"
+    },
+    {
+      "text": "early",
+      "role": "时间副词",
+      "explanation": "修饰整个“comes home”的动作，说明回家这个动作发生的时间很早。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词（主格）",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是，一直",
+      "pos": "频度副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "comes",
+      "meaning": "来到，抵达（come的第三人称单数形式）",
+      "pos": "动词",
+      "phonetic": "/kʌmz/"
+    },
+    {
+      "text": "home",
+      "meaning": "到家，回家",
+      "pos": "地点副词",
+      "phonetic": "/həʊm/"
+    },
+    {
+      "text": "early.",
+      "meaning": "早，提早",
+      "pos": "时间副词",
+      "phonetic": "/ˈɜːli/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She",
+      "relation": "描述对象",
+      "meaning": "她"
+    },
+    {
+      "text": "always",
+      "relation": "修饰动作的发生频率",
+      "meaning": "总是"
+    },
+    {
+      "text": "comes home",
+      "relation": "核心动作：她完成回家的行为",
+      "meaning": "回到家"
+    },
+    {
+      "text": "early.",
+      "relation": "补充动作发生的时间",
+      "meaning": "很早"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-65",
+  "sentenceId": "nce-1-lesson-065-sentence-010",
+  "sentenceOrder": 10,
+  "english": "She always comes home early.",
+  "lesson": "Lesson 65 Not a baby",
+  "notes": [
+    {
+      "title": "频度副词always的位置",
+      "text": "always是表示“总是、经常”的频度副词，放在实义动词comes的前面，用来修饰这个回家动作的发生频率，说明她回家早是长期稳定的习惯。"
+    },
+    {
+      "title": "home和early的功能",
+      "text": "句中的home是地点副词，直接跟在动词come后面表示动作的目的地是家，前面不需要加介词to；early在这里是副词，用来修饰come home这个动作，说明回家的时间很早。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体通顺：主干、频度副词位置、home 与 early 的功能说明基本正确。仅发现 early 词条的音标后多余混入句点，分块与释义已正确保留句号，因此做最小修正。（非逐句人工审核）"
+}

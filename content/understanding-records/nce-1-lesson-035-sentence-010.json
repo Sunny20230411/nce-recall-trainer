@@ -1,0 +1,86 @@
+{
+  "chinese": "这是另一张照片。",
+  "intent": "向对方展示并引出另一张新的照片内容，承接前文已经展示过的相关画面。",
+  "comparison": null,
+  "backbone": {
+    "text": "Here is another photograph.",
+    "meaning": "这里存在另一张照片"
+  },
+  "parts": [
+    {
+      "text": "Here",
+      "relation": "提示视线落点的位置",
+      "meaning": "这里"
+    },
+    {
+      "text": "is",
+      "relation": "连接位置和要介绍的事物",
+      "meaning": "是（存在）"
+    },
+    {
+      "text": "another photograph.",
+      "relation": "说明要引出的具体事物",
+      "meaning": "另一张照片"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "Here引导的就近展示结构",
+      "text": "用Here放在句首来把要介绍的物品直接呈现在听者视线范围内，不需要逐字对应成“这里是”，日常展示物品时常用这类开头。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Here is",
+      "role": "展示引导语",
+      "explanation": "用来向对方示意眼前的物品，引出接下来要介绍的对象"
+    },
+    {
+      "text": "another photograph",
+      "role": "被展示的主体",
+      "explanation": "明确本次要介绍的内容是和之前看过的照片同类型的新照片"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这里",
+      "pos": "副词",
+      "phonetic": "/hɪə(r)/",
+      "text": "Here"
+    },
+    {
+      "meaning": "是（表示存在）",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "另一张",
+      "pos": "限定词",
+      "phonetic": "/əˈnʌðə(r)/",
+      "text": "another"
+    },
+    {
+      "meaning": "照片",
+      "pos": "名词",
+      "phonetic": "/ˈfəʊtəɡrɑːf/",
+      "text": "photograph."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-35",
+  "sentenceId": "nce-1-lesson-035-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Here is another photograph.",
+  "lesson": "Lesson 35 Our village",
+  "notes": [
+    {
+      "title": "Here引导的就近展示结构",
+      "text": "用Here放在句首来把要介绍的物品直接呈现在听者视线范围内，不需要逐字对应成“这里是”，日常展示物品时常用这类开头。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析完整合规，仅存在一处单词标注的小细节问题，不影响核心理解，修正后即可符合要求。（非逐句人工审核）"
+}

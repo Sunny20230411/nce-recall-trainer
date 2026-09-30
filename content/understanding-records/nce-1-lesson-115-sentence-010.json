@@ -1,0 +1,145 @@
+{
+  "chinese": "没有，一个人也没有。大家都出去了。",
+  "intent": "回应“有人在吗？”的询问，说明屋内没有任何人，并补充所有人都已经外出了。",
+  "comparison": {
+    "chinese": "英语先用 there be 句式引出“存在/不存在”的状态，再用 everyone 直接作主语；中文常把否定结果放前，用“一个人也没有”“大家都出去了”直接陈述。",
+    "english": "No, there's no one. Everyone's out.",
+    "steps": [
+      {
+        "label": "先否定，再说不存在的人",
+        "text": "No, there's no one.",
+        "explanation": "No 直接回应问句，there's no one 表示“这里没有人”；no one 合起来指“没有人”，作 there be 的实际主语。"
+      },
+      {
+        "label": "再说明人的去向",
+        "text": "Everyone's out.",
+        "explanation": "everyone 指“所有人”，out 表示“不在家/外出”；Everyone's 是 Everyone is 的缩约形式，用一般现在时说明当前状态。"
+      }
+    ],
+    "takeaway": "理解时先知道“没有人在屋里”，再理解“所有人都出去了”是对无人状态的补充说明。"
+  },
+  "backbone": {
+    "text": "No, there's no one. Everyone's out.",
+    "meaning": "否定对方的询问，说明屋里没有任何人，所有人都已外出。"
+  },
+  "structureNotes": [
+    {
+      "title": "缩约形式还原",
+      "text": "there's 是 there is 的缩约形式，Everyone's 是 Everyone is 的缩约形式，二者都用一般现在时说明当前状态。"
+    },
+    {
+      "title": "there be 表存在",
+      "text": "there's no one 用 there be 结构表达“存在某人”的否定，no one 合起来指“没有任何人”，而不是分开的 no 与 one。"
+    },
+    {
+      "title": "everyone 的主谓一致",
+      "text": "everyone 虽指“每个人”，但作单数处理，搭配 is；out 此处是副词，作表语表示“不在家、外出”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No",
+      "role": "否定回应",
+      "explanation": "直接回应上一句的询问，否定“屋里有人”的可能性。"
+    },
+    {
+      "text": "there's",
+      "role": "存在句引导结构",
+      "explanation": "there is 的缩约形式，用来引出“某地存在/不存在某人/某物”，本身无实际词义。"
+    },
+    {
+      "text": "no one",
+      "role": "存在句真正主语",
+      "explanation": "合指“没有任何人”，是 there be 句中被描述存在状态的对象。"
+    },
+    {
+      "text": "Everyone's",
+      "role": "主谓缩约结构",
+      "explanation": "Everyone is 的缩约形式，everyone 是句子主语，is 是系动词。"
+    },
+    {
+      "text": "out",
+      "role": "表语",
+      "explanation": "副词作表语，说明主语“外出、不在家”的状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "No,",
+      "meaning": "不，没有",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "there's",
+      "meaning": "（there is 的缩约形式）",
+      "pos": "缩略词",
+      "phonetic": "/ðeəz/"
+    },
+    {
+      "text": "no",
+      "meaning": "没有",
+      "pos": "限定词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "one.",
+      "meaning": "人",
+      "pos": "代词",
+      "phonetic": "/wʌn/"
+    },
+    {
+      "text": "Everyone's",
+      "meaning": "（Everyone is 的缩约形式）",
+      "pos": "缩略词",
+      "phonetic": "/ˈevriwʌnz/"
+    },
+    {
+      "text": "out.",
+      "meaning": "在外面，外出",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "No,",
+      "relation": "回应前文的询问，直接给出否定答复",
+      "meaning": "不"
+    },
+    {
+      "text": "there's no one.",
+      "relation": "陈述当前屋里不存在任何人的事实",
+      "meaning": "一个人也没有"
+    },
+    {
+      "text": "Everyone's out.",
+      "relation": "补充说明无人的原因：所有人都已外出，不在屋内",
+      "meaning": "大家都出去了"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-115",
+  "sentenceId": "nce-1-lesson-115-sentence-010",
+  "sentenceOrder": 10,
+  "english": "No, there's no one. Everyone's out.",
+  "lesson": "Lesson 115 Knock, knock!",
+  "notes": [
+    {
+      "title": "缩约形式还原",
+      "text": "there's 是 there is 的缩约形式，Everyone's 是 Everyone is 的缩约形式，二者都用一般现在时说明当前状态。"
+    },
+    {
+      "title": "there be 表存在",
+      "text": "there's no one 用 there be 结构表达“存在某人”的否定，no one 合起来指“没有任何人”，而不是分开的 no 与 one。"
+    },
+    {
+      "title": "everyone 的主谓一致",
+      "text": "everyone 虽指“每个人”，但作单数处理，搭配 is；out 此处是副词，作表语表示“不在家、外出”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语义、结构分析基本正确，存在一处单词音标错误：Everyone's 被错误标注为 /ˈevriwʌnts/，实际为 /ˈevriwʌnz/，其余内容符合规则。（非逐句人工审核）"
+}

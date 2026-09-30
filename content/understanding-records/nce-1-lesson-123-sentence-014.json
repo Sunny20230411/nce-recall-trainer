@@ -1,0 +1,260 @@
+{
+  "chinese": "没错。旅行期间我留了胡子，但回家后把它刮掉了。",
+  "intent": "先确认对方的身份猜测，再说明旅行途中留胡须、回家后又刮掉胡须的情况，和前后句的旧照片话题相呼应。",
+  "comparison": {
+    "chinese": "没错。我在旅行途中留了胡须，可一回到家就把它刮掉了。",
+    "english": "I grew a beard during the trip, but I shaved it off when I came home.",
+    "steps": [
+      {
+        "label": "先讲先后两个动作",
+        "text": "I grew a beard during the trip, but I shaved it off when I came home.",
+        "explanation": "英文用but直接连接两个转折的分句：先做的事是旅行时留胡须，后做的事是回家后刮掉胡须，时间信息跟在每个动作后面。"
+      },
+      {
+        "label": "中文按时间顺序理顺",
+        "text": "旅行期间我留了胡子，但回家后把它刮掉了。",
+        "explanation": "中文自然把时间状语放在动作之前，先说‘旅行期间’再说‘回家后’，用‘但’连接两个反差行为，不需要重复‘胡须’这个名词，用‘它’指代即可。"
+      }
+    ],
+    "takeaway": "英文用but连接两个先后动作的分句，时间分别后置；中文把时间状语前置，按留胡子、刮胡子的顺序叙述。"
+  },
+  "backbone": {
+    "text": "That's right. I grew a beard during the trip, but I shaved it off when I came home.",
+    "meaning": "对方猜得没错，我旅行时留了胡须，回家后又把胡须刮掉了。"
+  },
+  "structureNotes": [
+    {
+      "title": "that's right的作用",
+      "text": "That's right是对前文反义疑问句的确认，表示对方的猜测完全正确，意思是“你说的对，就是我”。"
+    },
+    {
+      "title": "but连接转折的两个并列分句",
+      "text": "but前后是两个独立的过去时分句，形成行为反差：旅途中留胡须，回家后刮掉胡须，两个动作时间不同、选择相反。"
+    },
+    {
+      "title": "when引导时间状语从句",
+      "text": "when I came home修饰shaved off这个动作，表示刮胡子这个行为发生在“我到家”的时刻，不用专门说“一……就”也能体现时间先后。"
+    },
+    {
+      "title": "it指代前文的beard",
+      "text": "后一分句里的it指代前面刚提到的a beard，避免重复说“the beard”，让句子更简洁。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That's",
+      "role": "代词+系动词缩写",
+      "explanation": "That是主语，is是系动词，缩写为That's，表示对前文内容的肯定。"
+    },
+    {
+      "text": "right.",
+      "role": "表语",
+      "explanation": "形容词right作表语，意思是“正确的”，和That's组成常用确认表达。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "第一个分句的主语，是留胡须动作的发出者。"
+    },
+    {
+      "text": "grew",
+      "role": "谓语动词",
+      "explanation": "grow的过去式，此处为及物动词，搭配a beard表示“留（胡须）”。"
+    },
+    {
+      "text": "a beard",
+      "role": "宾语",
+      "explanation": "grew的对象，指（下唇、下巴处的）胡须。"
+    },
+    {
+      "text": "during the trip,",
+      "role": "时间状语",
+      "explanation": "介词短语说明grew a beard这个动作发生的时段，即旅行全程当中。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "连接前后两个意思相反的并列分句，表示转折关系。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "第二个分句的主语，仍是说话人自己。"
+    },
+    {
+      "text": "shaved",
+      "role": "谓语动词",
+      "explanation": "shave的过去式，意思是“刮（胡须）”。"
+    },
+    {
+      "text": "it",
+      "role": "宾语",
+      "explanation": "指代前文提到的a beard，作shaved的对象。"
+    },
+    {
+      "text": "off",
+      "role": "副词小品词",
+      "explanation": "和shave组成短语动词shave off，表示“刮掉、剃掉”的完整含义。"
+    },
+    {
+      "text": "when I came home.",
+      "role": "时间状语从句",
+      "explanation": "由when引导，说明shaved it off这个动作发生的时间背景：当我回到家的时候。"
+    }
+  ],
+  "words": [
+    {
+      "text": "That's",
+      "meaning": "那是",
+      "pos": "代词+be动词缩写",
+      "phonetic": "/ðæts/"
+    },
+    {
+      "text": "right.",
+      "meaning": "正确的；对的",
+      "pos": "形容词",
+      "phonetic": "/raɪt/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "grew",
+      "meaning": "留（胡须）；种植；生长",
+      "pos": "动词（过去式）",
+      "phonetic": "/ɡruː/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（条）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "beard",
+      "meaning": "胡须（下巴上的）",
+      "pos": "名词",
+      "phonetic": "/bɪəd/"
+    },
+    {
+      "text": "during",
+      "meaning": "在……期间",
+      "pos": "介词",
+      "phonetic": "/ˈdjʊərɪŋ/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指本次的）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "trip,",
+      "meaning": "旅行；旅程",
+      "pos": "名词",
+      "phonetic": "/trɪp/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是；然而",
+      "pos": "并列连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "shaved",
+      "meaning": "刮（胡子）；剃",
+      "pos": "动词（过去式）",
+      "phonetic": "/ʃeɪvd/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代胡须）",
+      "pos": "代词（宾格）",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "off",
+      "meaning": "（使）脱落；去掉",
+      "pos": "副词",
+      "phonetic": "/ɒf/"
+    },
+    {
+      "text": "when",
+      "meaning": "当……的时候",
+      "pos": "从属连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "came",
+      "meaning": "到达，抵达",
+      "pos": "动词（过去式）",
+      "phonetic": "/keɪm/"
+    },
+    {
+      "text": "home.",
+      "meaning": "家；回家",
+      "pos": "副词",
+      "phonetic": "/həʊm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "That's right.",
+      "relation": "对前文反义疑问句的确认，表同意。",
+      "meaning": "没错。"
+    },
+    {
+      "text": "I grew a beard during the trip,",
+      "relation": "第一个并列分句，说明留胡须的动作和发生时段。",
+      "meaning": "旅行期间我留了胡子，"
+    },
+    {
+      "text": "but I shaved it off when I came home.",
+      "relation": "转折的第二个并列分句，说明后续的相反动作和触发时间。",
+      "meaning": "但回家后我就把它刮掉了。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-123",
+  "sentenceId": "nce-1-lesson-123-sentence-014",
+  "sentenceOrder": 14,
+  "english": "That's right. I grew a beard during the trip, but I shaved it off when I came home.",
+  "lesson": "Lesson 123 A trip to Australia",
+  "notes": [
+    {
+      "title": "that's right的作用",
+      "text": "That's right是对前文反义疑问句的确认，表示对方的猜测完全正确，意思是“你说的对，就是我”。"
+    },
+    {
+      "title": "but连接转折的两个并列分句",
+      "text": "but前后是两个独立的过去时分句，形成行为反差：旅途中留胡须，回家后刮掉胡须，两个动作时间不同、选择相反。"
+    },
+    {
+      "title": "when引导时间状语从句",
+      "text": "when I came home修饰shaved off这个动作，表示刮胡子这个行为发生在“我到家”的时刻，不用专门说“一……就”也能体现时间先后。"
+    },
+    {
+      "title": "it指代前文的beard",
+      "text": "后一分句里的it指代前面刚提到的a beard，避免重复说“the beard”，让句子更简洁。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解释准确，仅存在个小品词释义过宽的小问题：off在shave off短语中表示“使……脱落、去除”，单说“脱落；离开”易误导学习者。该修正不涉及原文、结构划分或核心句意。（非逐句人工审核）"
+}

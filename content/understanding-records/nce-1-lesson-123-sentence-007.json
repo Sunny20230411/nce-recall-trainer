@@ -1,0 +1,82 @@
+{
+  "chinese": "这是谁？",
+  "intent": "询问眼前的或照片/画面中的那个人是谁。",
+  "comparison": null,
+  "backbone": {
+    "text": "Who's this?",
+    "meaning": "问近处的人或画面中的人是谁。"
+  },
+  "structureNotes": [
+    {
+      "title": "Who's 的缩写",
+      "text": "Who's 是 Who is 的缩写，口语中常用，避免拆开书写造成误解。"
+    },
+    {
+      "title": "this 指画面里的人",
+      "text": "在看照片或指着某个人时，this 可指“这一位”，不一定只指身边近处的物品。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Who",
+      "role": "疑问代词作表语",
+      "explanation": "用 who 询问人的身份，放在句首引导这个特殊疑问句。"
+    },
+    {
+      "text": "'s",
+      "role": "系动词缩写",
+      "explanation": "is 的缩写，和主语 this 构成系表结构的系动词部分。"
+    },
+    {
+      "text": "this",
+      "role": "主语",
+      "explanation": "指被询问的那一位，结合上下文可以是照片或画面里的人。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Who's",
+      "meaning": "是谁（Who is 的缩写形式）",
+      "pos": "疑问代词+系动词缩写",
+      "phonetic": "huːz"
+    },
+    {
+      "text": "this?",
+      "meaning": "这、这个（指被询问的对象）",
+      "pos": "代词",
+      "phonetic": "ðɪs"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Who's",
+      "meaning": "是谁",
+      "relation": "和系动词is搭配，整体用来询问人的身份"
+    },
+    {
+      "text": "this?",
+      "meaning": "这？",
+      "relation": "作句子主语，指代被询问的对象，搭配问号构成完整疑问句"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-123",
+  "sentenceId": "nce-1-lesson-123-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Who's this?",
+  "lesson": "Lesson 123 A trip to Australia",
+  "notes": [
+    {
+      "title": "Who's 的缩写",
+      "text": "Who's 是 Who is 的缩写，口语中常用，避免拆开书写造成误解。"
+    },
+    {
+      "title": "this 指画面里的人",
+      "text": "在看照片或指着某个人时，this 可指“这一位”，不一定只指身边近处的物品。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：结构分析正确，this作主语，who作表语的判断符合主系表倒装问句的语法规则，含义和翻译基本贴合观看照片的语境，仅对疑问列表述和分句关系做微调，无需大幅改动。（非逐句人工审核）"
+}

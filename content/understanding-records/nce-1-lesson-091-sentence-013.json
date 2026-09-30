@@ -1,0 +1,144 @@
+{
+  "chinese": "新住户什么时候搬进这所房子？",
+  "intent": "询问尚未搬入的新住户具体的入住时间。",
+  "comparison": null,
+  "backbone": {
+    "text": "When will the new people move into this house?",
+    "meaning": "提问新住户搬入这所房子的具体时间。"
+  },
+  "structureNotes": [
+    {
+      "title": "people 的语境含义",
+      "text": "people 泛指人、人们，本句中 the new people 结合上下文指刚要搬入的新住户，不是指特定的民族。"
+    },
+    {
+      "title": "特殊疑问句语序",
+      "text": "will 放在主语 the new people 前构成疑问语序；When 指向提问的时间信息，回答时用具体的时间点对应即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When",
+      "role": "疑问副词",
+      "explanation": "用于提问动作发生的时间，明确问句是在询问具体时间。"
+    },
+    {
+      "text": "will",
+      "role": "助动词",
+      "explanation": "在特殊疑问句中置于主语之前，构成一般将来时的疑问结构，表示对未来动作时间的询问。"
+    },
+    {
+      "text": "the new people",
+      "role": "主语",
+      "explanation": "是发出搬入动作的主体，指将要入住的新住户。"
+    },
+    {
+      "text": "move into this house",
+      "role": "谓语部分",
+      "explanation": "move into 是固定搭配，表示“搬入、住进”，this house 点明搬入的地点是这所房子。"
+    }
+  ],
+  "words": [
+    {
+      "text": "When",
+      "meaning": "什么时候",
+      "pos": "疑问副词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "will",
+      "meaning": "将要，将会（用于构成将来时疑问）",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "new",
+      "meaning": "新的",
+      "pos": "形容词",
+      "phonetic": "/njuː/"
+    },
+    {
+      "text": "people",
+      "meaning": "人，人们（此处指新住户）",
+      "pos": "名词",
+      "phonetic": "/ˈpiːpl/"
+    },
+    {
+      "text": "move",
+      "meaning": "移动，搬迁",
+      "pos": "动词",
+      "phonetic": "/muːv/"
+    },
+    {
+      "text": "into",
+      "meaning": "进入，到……之内（move into 为固定搭配，表搬进）",
+      "pos": "介词",
+      "phonetic": "/ˈɪntə/"
+    },
+    {
+      "text": "this",
+      "meaning": "这，这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "house?",
+      "meaning": "房子？",
+      "pos": "名词",
+      "phonetic": "/haʊs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "When",
+      "meaning": "什么时候",
+      "relation": "提问要问的核心内容：动作发生的时间"
+    },
+    {
+      "text": "will",
+      "meaning": "将要（用于将来时疑问结构）",
+      "relation": "构成将来时疑问的助动词，在疑问语序中置于主语之前"
+    },
+    {
+      "text": "the new people",
+      "meaning": "新住户",
+      "relation": "执行搬入动作的主体，是句子描述的对象"
+    },
+    {
+      "text": "move into",
+      "meaning": "搬进",
+      "relation": "主体发出的核心动作"
+    },
+    {
+      "text": "this house?",
+      "meaning": "这所房子？",
+      "relation": "补充动作的目的地，即要搬入的具体场所。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-91",
+  "sentenceId": "nce-1-lesson-091-sentence-013",
+  "sentenceOrder": 13,
+  "english": "When will the new people move into this house?",
+  "lesson": "Lesson 91 Poor Ian!",
+  "notes": [
+    {
+      "title": "people 的语境含义",
+      "text": "people 泛指人、人们，本句中 the new people 结合上下文指刚要搬入的新住户，不是指特定的民族。"
+    },
+    {
+      "title": "特殊疑问句语序",
+      "text": "will 放在主语 the new people 前构成疑问语序；When 指向提问的时间信息，回答时用具体的时间点对应即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原记录整体通顺，翻译、主干、分词和结构解释基本正确；仅对 will 的说明做弱化：原表述将助动词提前与主语提前混在一起，应改为疑问语序中 will 置于主语之前。（非逐句人工审核）"
+}

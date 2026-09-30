@@ -1,0 +1,75 @@
+{
+  "chinese": "我不确定。",
+  "intent": "说话者承接上文提到的可能出国的旅行计划，明确表达自己尚未完全敲定行程、还拿不准最终安排的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "我不确定。",
+    "meaning": "说话者表明自己对当前谈论的旅行去向没有明确的定论。"
+  },
+  "structureNotes": [
+    {
+      "title": "表语形容词搭配",
+      "text": "sure 是表示“确定、有把握”的形容词，此处跟在 am 后作表语；否定词 not 放在 am 和 sure 之间，表示“不确定”。sure 后常接介词 about/of，例如 be sure about/of the plan；也可使用 be sure (that)…，例如 I'm not sure (that) the plan is good。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm",
+      "role": "主语与系动词组合",
+      "explanation": "I'm 是 I am 的缩写；I 是主语，am 是系动词，用来说明主语的状态。"
+    },
+    {
+      "text": "not sure.",
+      "role": "表语（带否定修饰）",
+      "explanation": "not 修饰形容词 sure，与 sure 共同作表语，说明主语“我”处于不确定的状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I'm",
+      "meaning": "我是",
+      "pos": "代词与系动词缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "not",
+      "meaning": "不；没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "sure.",
+      "meaning": "确定的；确信的",
+      "pos": "形容词",
+      "phonetic": "/ʃʊə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I'm",
+      "meaning": "我是",
+      "relation": "主语加系动词，引出说话者的状态"
+    },
+    {
+      "text": "not sure.",
+      "meaning": "不确定。",
+      "relation": "作表语，补充说明主语“我”的状态，承接上文表示旅行计划尚未确定。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-83",
+  "sentenceId": "nce-1-lesson-083-sentence-006",
+  "sentenceOrder": 6,
+  "english": "I'm not sure.",
+  "lesson": "Lesson 83 Going on holiday",
+  "notes": [
+    {
+      "title": "表语形容词搭配",
+      "text": "sure 是表示“确定、有把握”的形容词，此处跟在 am 后作表语；否定词 not 放在 am 和 sure 之间，表示“不确定”。sure 后常接介词 about/of，例如 be sure about/of the plan；也可使用 be sure (that)…，例如 I'm not sure (that) the plan is good。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体主干、翻译和语法说明基本可用；主要修正 sure 的词性示例，将原来作名词的示例改为形容词 sure 加介词 about/of 的搭配，并补充常用句型 be sure (that)…，避免词性与搭配失配。（非逐句人工审核）"
+}

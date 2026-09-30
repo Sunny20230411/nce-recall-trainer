@@ -1,0 +1,115 @@
+{
+  "chinese": "喂，是约翰吗？",
+  "intent": "打电话时主动向对方确认接电话的人是不是约翰。",
+  "comparison": null,
+  "backbone": {
+    "text": "Is that you?",
+    "meaning": "通过远程通话确认接听者身份的核心问句。"
+  },
+  "structureNotes": [
+    {
+      "title": "电话场景的指代习惯",
+      "text": "英语电话中用that指代听筒另一端的对方，用this指代打电话的自己，因此is that you不能按字面理解为“那边是你”，实际就是问“是你吗”。"
+    },
+    {
+      "title": "呼语的位置",
+      "text": "John作为呼语放在问句末尾，用逗号和前面的you隔开，作用是点明当前通话要确认的对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Hello,",
+      "role": "感叹语/打招呼用语",
+      "explanation": "打电话接通后先开口打招呼，引出后续的身份确认问题。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "和后面的表语搭配，构成一般现在时的一般疑问句的核心谓语。"
+    },
+    {
+      "text": "that",
+      "role": "主语",
+      "explanation": "电话语境中指听筒另一端的接听者，是需要确认身份的对象。"
+    },
+    {
+      "text": "you,",
+      "role": "表语",
+      "explanation": "和is搭配，说明that所指代的接听者是不是听话人。"
+    },
+    {
+      "text": "John?",
+      "role": "呼语",
+      "explanation": "点明要确认的具体对象是约翰，提示说话人是在问对方是不是约翰。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Hello,",
+      "meaning": "喂（电话接通后的打招呼用语）",
+      "pos": "感叹词",
+      "phonetic": "/həˈləʊ/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be动词，用于主系表结构构成一般现在时一般疑问句）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "that",
+      "meaning": "那（电话语境中专指听筒另一端的接听者）",
+      "pos": "代词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "you,",
+      "meaning": "你（指听话人，即要确认身份的对象）",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "John?",
+      "meaning": "约翰（男子名，作为呼语点明确认对象）",
+      "pos": "名词",
+      "phonetic": "/dʒɒn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Hello,",
+      "relation": "电话开场的打招呼用语，引出后续的身份确认。",
+      "meaning": "喂，"
+    },
+    {
+      "text": "is that you,",
+      "relation": "核心疑问部分，用is that you确认对方身份。",
+      "meaning": "是你吗，"
+    },
+    {
+      "text": "John?",
+      "relation": "呼语，点明要确认的具体对象是约翰。",
+      "meaning": "约翰？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-139",
+  "sentenceId": "nce-1-lesson-139-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Hello, is that you, John?",
+  "lesson": "Lesson 139 Is that you, John?",
+  "notes": [
+    {
+      "title": "电话场景的指代习惯",
+      "text": "英语电话中用that指代听筒另一端的对方，用this指代打电话的自己，因此is that you不能按字面理解为“那边是你”，实际就是问“是你吗”。"
+    },
+    {
+      "title": "呼语的位置",
+      "text": "John作为呼语放在问句末尾，用逗号和前面的you隔开，作用是点明当前通话要确认的对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合电话场景表达习惯，主干、成分划分、翻译基本准确，仅需微调词汇释义的严谨性，避免将主系表结构简化为不及物动词疑问形式。（非逐句人工审核）"
+}

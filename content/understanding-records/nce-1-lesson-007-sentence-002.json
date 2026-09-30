@@ -1,0 +1,107 @@
+{
+  "chinese": "很高兴见到你。我的名字叫索菲。",
+  "intent": "初次见面时向对方礼貌问好并自我介绍，告知对方自己的姓名是索菲。",
+  "comparison": null,
+  "backbone": {
+    "text": "Nice to meet you. My name's Sophie.",
+    "meaning": "向对方表达见面的愉悦，同时告知对方自己的名字是索菲。"
+  },
+  "parts": [
+    {
+      "text": "Nice to meet you.",
+      "relation": "向对方传递见面的友好感受",
+      "meaning": "表达见到对方的愉悦心情，是初次见面的常用礼貌用语"
+    },
+    {
+      "text": "My name's Sophie.",
+      "relation": "补充说明自我介绍的具体内容",
+      "meaning": "说明自己的姓名是索菲，完成自我介绍"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "见面问候的省略结构",
+      "text": "Nice to meet you是It is nice to meet you的常用口语省略形式，日常初次见面直接使用，不需要补全完整主语也能清晰传递意思。"
+    },
+    {
+      "title": "name's的缩写指代",
+      "text": "name's是name is的口语缩略写法，不用额外补加内容就可以清晰表示“名字是”的含义，是自我介绍场景里的高频简化表达。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Nice to meet you.",
+      "role": "初次见面礼貌问候语",
+      "explanation": "用于刚结识对方时，传递见面的愉悦感，是通用的社交打招呼表达。"
+    },
+    {
+      "text": "My name's Sophie.",
+      "role": "自我介绍说明句",
+      "explanation": "直接告知对方自己的姓名，完成简单清晰的身份信息传递。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "令人愉快的，这里指（见面的感受）很好",
+      "pos": "形容词",
+      "phonetic": "/naɪs/",
+      "text": "Nice"
+    },
+    {
+      "meaning": "引出后面的动作",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "见到、遇见",
+      "pos": "动词",
+      "phonetic": "/miːt/",
+      "text": "meet"
+    },
+    {
+      "meaning": "你/你们",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you."
+    },
+    {
+      "meaning": "我的",
+      "pos": "物主代词",
+      "phonetic": "/maɪ/",
+      "text": "My"
+    },
+    {
+      "meaning": "名字是（name is的缩写）",
+      "pos": "名词+动词缩略形式",
+      "phonetic": "/neɪmz/",
+      "text": "name's"
+    },
+    {
+      "meaning": "索菲（女子人名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈsəʊfi/",
+      "text": "Sophie."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-7",
+  "sentenceId": "nce-1-lesson-007-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Nice to meet you. My name's Sophie.",
+  "lesson": "Lesson 7 Are you a teacher?",
+  "notes": [
+    {
+      "title": "见面问候的省略结构",
+      "text": "Nice to meet you是It is nice to meet you的常用口语省略形式，日常初次见面直接使用，不需要补全完整主语也能清晰传递意思。"
+    },
+    {
+      "title": "name's的缩写指代",
+      "text": "name's是name is的口语缩略写法，不用额外补加内容就可以清晰表示“名字是”的含义，是自我介绍场景里的高频简化表达。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本符合要求，仅存在少量细节疏漏，可明确修正。（非逐句人工审核）"
+}

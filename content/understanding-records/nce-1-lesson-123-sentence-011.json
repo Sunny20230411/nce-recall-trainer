@@ -1,0 +1,82 @@
+{
+  "chinese": "这是谁？",
+  "intent": "询问面前或图片中的人是谁。",
+  "comparison": null,
+  "backbone": {
+    "text": "Who's this?",
+    "meaning": "说话人指着某人或某张照片，要求确认对方身份。"
+  },
+  "structureNotes": [
+    {
+      "title": "Who's 是 Who is 的缩约形式",
+      "text": "Who's 等于 Who is，is 是句中的系动词；整句相当于 Who is this?。缩约形式使口语更自然，不改变疑问内容。"
+    },
+    {
+      "title": "this 指向近处对象",
+      "text": "this 指眼前或照片里近处的人，常伴随手指、照片或画面作为手势线索；回答多为 He/She is… 或名字。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Who",
+      "role": "疑问代词",
+      "explanation": "询问身份，意为“谁”，是本句要回答的核心信息。"
+    },
+    {
+      "text": "'s",
+      "role": "系动词 is 的缩约形式",
+      "explanation": "与 Who 连读为 Who's，承担谓语功能，没有“正在”的进行体意义。"
+    },
+    {
+      "text": "this",
+      "role": "指示代词作主语",
+      "explanation": "指近处或被指着的人；在 This is… 的疑问语序中位于句末，回答时可还原为 This is…。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Who's",
+      "meaning": "是谁（who is 的口语缩约）",
+      "pos": "疑问代词+系动词缩写",
+      "phonetic": "/huːz/"
+    },
+    {
+      "text": "this?",
+      "meaning": "这，这个",
+      "pos": "指示代词",
+      "phonetic": "/ðɪs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Who's",
+      "meaning": "是谁（Who's = Who is）",
+      "relation": "疑问内容与系动词"
+    },
+    {
+      "text": "this?",
+      "meaning": "这？（问号仅表示疑问语气，不增加 this 的词义）",
+      "relation": "被指认的近处对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-123",
+  "sentenceId": "nce-1-lesson-123-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Who's this?",
+  "lesson": "Lesson 123 A trip to Australia",
+  "notes": [
+    {
+      "title": "Who's 是 Who is 的缩约形式",
+      "text": "Who's 等于 Who is，is 是句中的系动词；整句相当于 Who is this?。缩约形式使口语更自然，不改变疑问内容。"
+    },
+    {
+      "title": "this 指向近处对象",
+      "text": "this 指眼前或照片里近处的人，常伴随手指、照片或画面作为手势线索；回答多为 He/She is… 或名字。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文、中文翻译、主干和用法说明基本准确；主要问题是句法成分中 this 的角色表述不够规范，且将句末问号与 this 绑定后易造成词义/指称混淆，已做最小修正。（非逐句人工审核）"
+}

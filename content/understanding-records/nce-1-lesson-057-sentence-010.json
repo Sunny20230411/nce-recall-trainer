@@ -1,0 +1,133 @@
+{
+  "chinese": "索耶先生夜里通常看报纸。",
+  "intent": "说明索耶先生平日里的夜间常规行为，和今晚的反常状态形成对照。",
+  "comparison": null,
+  "backbone": {
+    "text": "Mr. Sawyer usually reads his newspaper.",
+    "meaning": "索耶先生通常会读报纸。"
+  },
+  "structureNotes": [
+    {
+      "title": "usually 的位置",
+      "text": "频度副词 usually 放在主语和实义动词 reads 之间，表示这是习惯性动作，不是单次行为。"
+    },
+    {
+      "title": "at night 表习惯性时间",
+      "text": "at night 指在夜晚这个时段，和后面 tonight 的具体当晚形成时间上的对照。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Mr. Sawyer",
+      "role": "主语",
+      "explanation": "句子所描述的动作执行者。"
+    },
+    {
+      "text": "usually",
+      "role": "频度副词",
+      "explanation": "表示动作是习惯性、经常性发生的。"
+    },
+    {
+      "text": "reads his newspaper",
+      "role": "谓语+宾语",
+      "explanation": "核心动作及其对象，reads 是实义动词 read 的第三人称单数形式。"
+    },
+    {
+      "text": "at night",
+      "role": "时间状语",
+      "explanation": "说明这个常规动作发生的时段。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Mr.",
+      "meaning": "先生（用于男子姓名前的尊称）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪstə(r)/"
+    },
+    {
+      "text": "Sawyer",
+      "meaning": "索耶（姓氏）",
+      "pos": "名词",
+      "phonetic": "/ˈsɔːjə(r)/"
+    },
+    {
+      "text": "usually",
+      "meaning": "通常",
+      "pos": "副词",
+      "phonetic": "/ˈjuːʒuəli/"
+    },
+    {
+      "text": "reads",
+      "meaning": "阅读，读",
+      "pos": "动词",
+      "phonetic": "/riːdz/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "代词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "newspaper",
+      "meaning": "报纸",
+      "pos": "名词",
+      "phonetic": "/ˈnjuːzpeɪpə(r)/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（某时段）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "night.",
+      "meaning": "夜晚",
+      "pos": "名词",
+      "phonetic": "/naɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Mr. Sawyer",
+      "relation": "句子描述的主体，动作的发出者。",
+      "meaning": "索耶先生"
+    },
+    {
+      "text": "usually",
+      "relation": "说明动作发生的惯常频度。",
+      "meaning": "通常"
+    },
+    {
+      "text": "reads his newspaper",
+      "relation": "主体做出的核心动作及动作对象。",
+      "meaning": "读他的报纸"
+    },
+    {
+      "text": "at night.",
+      "relation": "补充说明这个惯常动作发生的时间。",
+      "meaning": "在夜里。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-57",
+  "sentenceId": "nce-1-lesson-057-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Mr. Sawyer usually reads his newspaper at night.",
+  "lesson": "Lesson 57 An unusual day",
+  "notes": [
+    {
+      "title": "usually 的位置",
+      "text": "频度副词 usually 放在主语和实义动词 reads 之间，表示这是习惯性动作，不是单次行为。"
+    },
+    {
+      "title": "at night 表习惯性时间",
+      "text": "at night 指在夜晚这个时段，和后面 tonight 的具体当晚形成时间上的对照。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体翻译、主干、结构分析和词义解释基本准确。仅分词表中 night. 保留了句末点号，英文词形、音标和释义与其他分块不一致。（非逐句人工审核）"
+}

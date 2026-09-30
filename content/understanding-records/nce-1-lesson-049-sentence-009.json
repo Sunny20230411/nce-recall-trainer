@@ -1,0 +1,119 @@
+{
+  "chinese": "再来一磅肉馅。",
+  "intent": "顾客在肉店已经提出要一块肉的基础上，追加另一项购买要求，说明除了之前要的那份肉，还需要额外购买一磅肉馅。",
+  "comparison": null,
+  "backbone": {
+    "text": "（请给我）一磅肉馅。",
+    "meaning": "顾客向肉铺店员提出购买一磅肉馅的请求。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略的祈使句式",
+      "text": "结合上下文的上一句祈使句“Give me that piece, please.”，本句省略了相同的动词和宾语部分“Give me”，只保留追加的购物品，避免重复表述。"
+    },
+    {
+      "title": "并列与追加的表达",
+      "text": "开头的And承接上一项购买需求，句尾的too明确表示是在原有要求之外的额外追加，对应中文“还、也、再”的意思。"
+    },
+    {
+      "title": "数量修饰不可数名词",
+      "text": "mince是不可数的食物名词，用量词pound加of来计量，“a pound of mince”就是“一磅肉馅”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "And",
+      "role": "并列连词",
+      "explanation": "承接上文上一个购买请求，表示这是紧接着提出的另一项要求。"
+    },
+    {
+      "text": "a pound of mince",
+      "role": "宾语",
+      "explanation": "是承接上文省略后的“give me”的对象，指追加要购买的物品。"
+    },
+    {
+      "text": "too",
+      "role": "状语",
+      "explanation": "表明这是在前面已经要的那份肉之外额外增加的货品。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "和；并且；此外",
+      "pos": "conjunction",
+      "phonetic": "/ænd/",
+      "text": "And"
+    },
+    {
+      "meaning": "一（个/块/磅）",
+      "pos": "article",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "磅（重量单位）",
+      "pos": "noun",
+      "phonetic": "/paʊnd/",
+      "text": "pound"
+    },
+    {
+      "meaning": "（用于计量，表示……的量）",
+      "pos": "preposition",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "肉馅；碎肉",
+      "pos": "noun",
+      "phonetic": "/mɪns/",
+      "text": "mince,"
+    },
+    {
+      "meaning": "也；还；此外",
+      "pos": "adverb",
+      "phonetic": "/tuː/",
+      "text": "too."
+    }
+  ],
+  "parts": [
+    {
+      "text": "And",
+      "relation": "承接上文的购买请求，表示追加新的要求。",
+      "meaning": "还有、此外"
+    },
+    {
+      "text": "a pound of mince,",
+      "relation": "顾客追加要求购买的货品。",
+      "meaning": "一磅肉馅"
+    },
+    {
+      "text": "too.",
+      "relation": "说明是在之前要的那份肉之外额外追加的内容。",
+      "meaning": "也、还"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-49",
+  "sentenceId": "nce-1-lesson-049-sentence-009",
+  "sentenceOrder": 9,
+  "english": "And a pound of mince, too.",
+  "lesson": "Lesson 49 At the butcher's",
+  "notes": [
+    {
+      "title": "省略的祈使句式",
+      "text": "结合上下文的上一句祈使句“Give me that piece, please.”，本句省略了相同的动词和宾语部分“Give me”，只保留追加的购物品，避免重复表述。"
+    },
+    {
+      "title": "并列与追加的表达",
+      "text": "开头的And承接上一项购买需求，句尾的too明确表示是在原有要求之外的额外追加，对应中文“还、也、再”的意思。"
+    },
+    {
+      "title": "数量修饰不可数名词",
+      "text": "mince是不可数的食物名词，用量词pound加of来计量，“a pound of mince”就是“一磅肉馅”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体可用。主语省略与追加购买关系解释一致；主要修正两点：词表中 of 的释义不应套用领属结构，应解释数量短语中的计量关系；mince 和 too 两个词条的音标标注错误地带入了原句末尾的逗号或句号，属于可明确修正的标注问题。（非逐句人工审核）"
+}

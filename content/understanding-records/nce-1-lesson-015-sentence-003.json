@@ -1,0 +1,105 @@
+{
+  "chinese": "你们的朋友也是丹麦人吗？",
+  "intent": "向对方提出询问，确认对方的朋友们是否同样属于丹麦籍",
+  "comparison": null,
+  "backbone": {
+    "text": "Are your friends Danish?",
+    "meaning": "询问对方的朋友是否是丹麦人"
+  },
+  "parts": [
+    {
+      "text": "Are",
+      "relation": "引导主系表结构一般疑问句的助动词，位于句首标记疑问语序",
+      "meaning": "是（be动词第二人称复数一般现在时形式，无实义，承担语法功能标记疑问语气）"
+    },
+    {
+      "text": "your friends",
+      "relation": "句子的主语部分，是疑问针对的主体",
+      "meaning": "你们的朋友们"
+    },
+    {
+      "text": "Danish,",
+      "relation": "句子的表语部分，说明主语的身份属性",
+      "meaning": "丹麦人/丹麦国籍的"
+    },
+    {
+      "text": "too?",
+      "relation": "句末附加副词，关联前文语境做同类情况比照",
+      "meaning": "也（带问号体现全句疑问语气，承接前文的丹麦人身份表述展开同类询问）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般疑问句句序",
+      "text": "本句将be动词Are放在句首，后续衔接主语部分your friends和表语Danish，符合主系表结构转换为一般疑问句的常规调整逻辑，用于提出是非性质的询问。"
+    },
+    {
+      "title": "too的使用场景",
+      "text": "副词too放在句末，依托前文「We are Danish」的语境，追加询问对方朋友的情况是否和前述情况保持一致，句末的问号属于整个疑问句的标点，并非too自带的标点属性。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Are your friends Danish",
+      "role": "一般疑问核心框架",
+      "explanation": "承载完整的询问核心语义，确认对方朋友是否属于丹麦籍，是整个问句的主干部分"
+    },
+    {
+      "text": "too?",
+      "role": "附加比照标记",
+      "explanation": "依托前文语境，点明当前询问的内容是和之前提及的情况做同类参照，让询问的关联逻辑更清晰"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "be动词的第二人称复数一般现在时形式，主系表一般疑问句中置于句首引导疑问语序",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "Are"
+    },
+    {
+      "meaning": "你们的",
+      "pos": "限定词",
+      "phonetic": "/jɔː(r)/",
+      "text": "your"
+    },
+    {
+      "meaning": "朋友们",
+      "pos": "名词",
+      "phonetic": "/frendz/",
+      "text": "friends"
+    },
+    {
+      "meaning": "丹麦人；丹麦国籍的",
+      "pos": "名词/形容词",
+      "phonetic": "/ˈdeɪnɪʃ/",
+      "text": "Danish,"
+    },
+    {
+      "meaning": "也（用于句末，指代前文提及的同类情况）",
+      "pos": "副词",
+      "phonetic": "/tuː/",
+      "text": "too?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-15",
+  "sentenceId": "nce-1-lesson-015-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Are your friends Danish, too?",
+  "lesson": "Lesson 15 Your passports, please.",
+  "notes": [
+    {
+      "title": "一般疑问句句序",
+      "text": "本句将be动词Are放在句首，后续衔接主语部分your friends和表语Danish，符合主系表结构转换为一般疑问句的常规调整逻辑，用于提出是非性质的询问。"
+    },
+    {
+      "title": "too的使用场景",
+      "text": "副词too放在句末，依托前文「We are Danish」的语境，追加询问对方朋友的情况是否和前述情况保持一致，句末的问号属于整个疑问句的标点，并非too自带的标点属性。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合教学要求，仅存在局部细节表述不严谨、信息冗余的可修正问题，不影响核心语义理解（非逐句人工审核）"
+}

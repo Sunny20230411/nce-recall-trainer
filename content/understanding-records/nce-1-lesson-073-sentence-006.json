@@ -1,0 +1,93 @@
+{
+  "chinese": "他说德语。",
+  "intent": "交代这名男子使用的语言是德语，承接上一句“他不懂英语”，进一步解释他无法用英语交流的原因。",
+  "comparison": null,
+  "backbone": {
+    "text": "He spoke German.",
+    "meaning": "他当时说德语。"
+  },
+  "structureNotes": [
+    {
+      "title": "spoke是说话这个动作的过去式",
+      "text": "spoke是动词speak的过去式，表示这件事发生在过去，是故事里描述当时场景的动作。"
+    },
+    {
+      "title": "German在这里指德语，不是国籍",
+      "text": "German在此表示德语这种语言，作spoke的宾语，不需要额外加介词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文提到的那名游客，是做出说话动作的人。"
+    },
+    {
+      "text": "spoke",
+      "role": "谓语动词",
+      "explanation": "是speak的过去式，表示“说、讲”的动作，体现语言能力的使用。"
+    },
+    {
+      "text": "German.",
+      "role": "宾语",
+      "explanation": "指德语这种语言，直接说明他说的是什么语言。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "spoke",
+      "meaning": "说，讲（speak的过去式）",
+      "pos": "动词",
+      "phonetic": "/spəʊk/"
+    },
+    {
+      "text": "German.",
+      "meaning": "德语",
+      "pos": "名词",
+      "phonetic": "/ˈdʒɜːmən/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "描述做出说话动作的人",
+      "meaning": "他"
+    },
+    {
+      "text": "spoke",
+      "relation": "陈述过去发生的动作",
+      "meaning": "说（过去式）"
+    },
+    {
+      "text": "German.",
+      "relation": "补充说明说话时使用的语言",
+      "meaning": "德语。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-73",
+  "sentenceId": "nce-1-lesson-073-sentence-006",
+  "sentenceOrder": 6,
+  "english": "He spoke German.",
+  "lesson": "Lesson 73 The way to King Street",
+  "notes": [
+    {
+      "title": "spoke是说话这个动作的过去式",
+      "text": "spoke是动词speak的过去式，表示这件事发生在过去，是故事里描述当时场景的动作。"
+    },
+    {
+      "title": "German在这里指德语，不是国籍",
+      "text": "German在此表示德语这种语言，作spoke的宾语，不需要额外加介词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：译文、主干、结构标注和词义解释基本准确；仅词表中German.的音标误带句末句号，需要修正，其余内容与上下文和语法关系一致。（非逐句人工审核）"
+}

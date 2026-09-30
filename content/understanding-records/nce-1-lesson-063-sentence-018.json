@@ -1,0 +1,108 @@
+{
+  "chinese": "他也得了重感冒！",
+  "intent": "在医生问诊场景中，补充说明患者除了已经存在的不适症状之外，同时还患上了重感冒，强化需要医生上门查看患者的诉求。",
+  "comparison": null,
+  "backbone": {
+    "text": "He has a bad cold!",
+    "meaning": "他得了重感冒！"
+  },
+  "structureNotes": [
+    {
+      "title": "句末too的语义",
+      "text": "too放在陈述句末尾、用逗号与前面内容隔开时，表示与前述情况同类，说明患者不仅有前面提到的症状，同时也患上了重感冒，传递出情况叠加的提示语气。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文提到的患病的男性患者，是句子描述的主体。"
+    },
+    {
+      "text": "has",
+      "role": "谓语",
+      "explanation": "用一般现在时表示当前所处的患病状态，是表达“患有某疾病”的常用搭配动词。"
+    },
+    {
+      "text": "a bad cold",
+      "role": "宾语",
+      "explanation": "固定搭配a bad cold表示重感冒，是句子的核心描述对象。"
+    },
+    {
+      "text": "too",
+      "role": "句末评注性状语",
+      "explanation": "表示所述的患病情况与前文提到的其他患病情况同类，传递出情况叠加的提示语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "has",
+      "meaning": "患有（疾病）",
+      "pos": "动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "bad",
+      "meaning": "严重的",
+      "pos": "形容词",
+      "phonetic": "/bæd/"
+    },
+    {
+      "text": "cold,",
+      "meaning": "感冒",
+      "pos": "名词",
+      "phonetic": "/kəʊld/"
+    },
+    {
+      "text": "too!",
+      "meaning": "也",
+      "pos": "副词",
+      "phonetic": "/tuː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He has",
+      "meaning": "他患上",
+      "relation": "描述句子的主体及其动作"
+    },
+    {
+      "text": "a bad cold,",
+      "meaning": "重感冒",
+      "relation": "补充动作的对象，说明患的具体疾病"
+    },
+    {
+      "text": "too!",
+      "meaning": "也",
+      "relation": "补充说明患病情况与前述同类情况叠加"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-63",
+  "sentenceId": "nce-1-lesson-063-sentence-018",
+  "sentenceOrder": 18,
+  "english": "He has a bad cold, too!",
+  "lesson": "Lesson 63 Thank you, doctor.",
+  "notes": [
+    {
+      "title": "句末too的语义",
+      "text": "too放在陈述句末尾、用逗号与前面内容隔开时，表示与前述情况同类，说明患者不仅有前面提到的症状，同时也患上了重感冒，传递出情况叠加的提示语气。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅存在两处需修正的小问题：一是cold词条的音标错误附带了原句中cold后的逗号，二是bad cold、too的解释过度绑定前文语境，不符合本句独立解析的呈现要求，其余语义、语法结构、短语释义等内容均符合要求。（非逐句人工审核）"
+}

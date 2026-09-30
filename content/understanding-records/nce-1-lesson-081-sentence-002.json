@@ -1,0 +1,105 @@
+{
+  "chinese": "嗨，卡罗尔。汤姆在哪里？",
+  "intent": "见面先打招呼，然后向对方询问汤姆所在的位置。",
+  "comparison": {
+    "chinese": "先说“汤姆在哪里”，把要问的位置放在句首。",
+    "english": "Where's Tom? 先用 Where 说出要问的内容，再说明问的是谁。",
+    "steps": [
+      {
+        "label": "把疑问词放在句首",
+        "text": "Where's Tom?",
+        "explanation": "Where 直接点明要问“哪里”，表达地点疑问，而不是先问“汤姆在不在”。"
+      },
+      {
+        "label": "再说明询问对象",
+        "text": "Tom",
+        "explanation": "在这个问句中，Tom 是句子的主语，是被询问位置的人；缩写 's 是 is，表示“在”。"
+      }
+    ],
+    "takeaway": "问地点时，先用 Where 表示要问的信息，再接被问的人或物。"
+  },
+  "backbone": {
+    "text": "Where's Tom?",
+    "meaning": "汤姆在哪里？"
+  },
+  "structureNotes": [
+    {
+      "title": "Where's 的缩写形式",
+      "text": "Where's = Where is，口语中常用缩写来表达“……在哪里”。"
+    },
+    {
+      "title": "问候语和问句分开",
+      "text": "Hi, Carol 是见面打招呼；后续才提出关于 Tom 位置的问题。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Hi, Carol.",
+      "role": "日常问候语",
+      "explanation": "向 Carol 打招呼，引出对话。"
+    },
+    {
+      "text": "Where's Tom?",
+      "role": "询问位置的疑问句",
+      "explanation": "Where 是疑问词，用于询问地点，Tom 是句子的主语，是被询问位置的对象，'s 是 is 的缩写。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Hi,",
+      "meaning": "嗨",
+      "pos": "感叹词",
+      "phonetic": "/haɪ/"
+    },
+    {
+      "text": "Carol.",
+      "meaning": "卡罗尔（人名）",
+      "pos": "名词",
+      "phonetic": "/ˈkærəl/"
+    },
+    {
+      "text": "Where's",
+      "meaning": "是哪里",
+      "pos": "缩写形式（Where is 的缩写）",
+      "phonetic": "/weəz/"
+    },
+    {
+      "text": "Tom?",
+      "meaning": "汤姆（人名）",
+      "pos": "名词",
+      "phonetic": "/tɒm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Hi, Carol.",
+      "meaning": "嗨，卡罗尔。",
+      "relation": "见面打招呼"
+    },
+    {
+      "text": "Where's Tom?",
+      "meaning": "汤姆在哪里？",
+      "relation": "询问汤姆的所在位置"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-81",
+  "sentenceId": "nce-1-lesson-081-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Hi, Carol. Where's Tom?",
+  "lesson": "Lesson 81 Roast beef and potatoes",
+  "notes": [
+    {
+      "title": "Where's 的缩写形式",
+      "text": "Where's = Where is，口语中常用缩写来表达“……在哪里”。"
+    },
+    {
+      "title": "问候语和问句分开",
+      "text": "Hi, Carol 是见面打招呼；后续才提出关于 Tom 位置的问题。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容正确，问候语与位置疑问句的拆分、词汇释义与音标均符合日常对话场景。仅存在两处可明确修正的问题：1. 词汇条目Where's的词性标注为“疑问词与动词的缩写”不够规范，应明确标注为缩写形式；2. comparison中Where的语法角色说明有误，Where并非主语，是句子的表语/疑问成分，需修正表述避免误导学习者。（非逐句人工审核）"
+}

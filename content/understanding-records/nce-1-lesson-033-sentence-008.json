@@ -1,0 +1,109 @@
+{
+  "chinese": "那艘船正从桥下驶过。",
+  "intent": "描述船只正从桥梁下方通行的实时状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "The ship is going under the bridge",
+    "meaning": "这艘船正在桥下通行"
+  },
+  "parts": [
+    {
+      "text": "The ship",
+      "relation": "动作的发出主体",
+      "meaning": "那艘船"
+    },
+    {
+      "text": "is going",
+      "relation": "描述主体的动作状态",
+      "meaning": "正在行驶/行进"
+    },
+    {
+      "text": "under the bridge.",
+      "relation": "补充说明船只行驶的位置路径",
+      "meaning": "在桥的下方"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "进行时表动向",
+      "text": "这里is going并非表示“将要去”，而是搭配方位介词under，描述船只当前正沿着桥下的空间通行的动态场景。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The ship",
+      "role": "主语名词短语",
+      "explanation": "明确指向对话语境里提到的那艘特定的大船，是后续动作的执行者。"
+    },
+    {
+      "text": "is going",
+      "role": "谓语部分",
+      "explanation": "用现在进行时表达当下正在发生的移动动作，体现动作的实时性。"
+    },
+    {
+      "text": "under the bridge",
+      "role": "地点状语短语",
+      "explanation": "说明船只移动过程中所处的位置，补充动作发生的具体空间路径。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这个，那个（特指前文提到的事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "船，舰船",
+      "pos": "名词",
+      "phonetic": "/ʃɪp/",
+      "text": "ship"
+    },
+    {
+      "meaning": "（现在进行时的助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "行驶，行进",
+      "pos": "现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/",
+      "text": "going"
+    },
+    {
+      "meaning": "在……下方，从……下面穿过",
+      "pos": "介词",
+      "phonetic": "/ˈʌndə/",
+      "text": "under"
+    },
+    {
+      "meaning": "这个，那个（特指眼前或明确的事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "桥",
+      "pos": "名词",
+      "phonetic": "/brɪdʒ/",
+      "text": "bridge."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-33",
+  "sentenceId": "nce-1-lesson-033-sentence-008",
+  "sentenceOrder": 8,
+  "english": "The ship is going under the bridge.",
+  "lesson": "Lesson 33 A fine day",
+  "notes": [
+    {
+      "title": "进行时表动向",
+      "text": "这里is going并非表示“将要去”，而是搭配方位介词under，描述船只当前正沿着桥下的空间通行的动态场景。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，仅存在少量细节疏漏可修正，未涉及核心错误问题（非逐句人工审核）"
+}

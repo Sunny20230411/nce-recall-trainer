@@ -1,0 +1,109 @@
+{
+  "chinese": "电视机上有几本杂志。",
+  "intent": "说明电视机这个位置上摆放着的物品是几本杂志，清晰描述客厅内的物品摆放状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "There are some magazines",
+    "meaning": "存在几本杂志"
+  },
+  "parts": [
+    {
+      "text": "There are",
+      "relation": "引出存在状态的框架表达",
+      "meaning": "存在有"
+    },
+    {
+      "text": "some magazines",
+      "relation": "说明存在的具体物品",
+      "meaning": "几本杂志"
+    },
+    {
+      "text": "on the television.",
+      "relation": "补充说明杂志所在的位置",
+      "meaning": "在电视机上"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "There be 存在句用法",
+      "text": "本句用There are引出存在的事物，不需要额外添加“那里”的语义，直接交代事物的存在状态即可，后面紧跟的地点短语说明物品的具体摆放位置。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There are",
+      "role": "存在引导框架",
+      "explanation": "用于引出复数事物的存在状态，没有实际的地点指代含义"
+    },
+    {
+      "text": "some magazines",
+      "role": "存在主体",
+      "explanation": "是本句描述的核心事物，说明存在的具体内容"
+    },
+    {
+      "text": "on the television",
+      "role": "地点状语",
+      "explanation": "补充说明杂志摆放的具体位置，明确物品的所在场景"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（存在句引导词，无实义）",
+      "pos": "there",
+      "phonetic": "/ðeə(r)/",
+      "text": "There"
+    },
+    {
+      "meaning": "（复数事物对应的be动词，表存在义）",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "几本、一些",
+      "pos": "限定词",
+      "phonetic": "/sʌm/",
+      "text": "some"
+    },
+    {
+      "meaning": "杂志（复数形式）",
+      "pos": "名词",
+      "phonetic": "/ˌmæɡəˈziːnz/",
+      "text": "magazines"
+    },
+    {
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "这个（特指前文提及的电视机）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "电视机",
+      "pos": "名词",
+      "phonetic": "/ˈtelɪvɪʒn/",
+      "text": "television."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-27",
+  "sentenceId": "nce-1-lesson-027-sentence-004",
+  "sentenceOrder": 4,
+  "english": "There are some magazines on the television.",
+  "lesson": "Lesson 27 Mrs. Smith's living room",
+  "notes": [
+    {
+      "title": "There be 存在句用法",
+      "text": "本句用There are引出存在的事物，不需要额外添加“那里”的语义，直接交代事物的存在状态即可，后面紧跟的地点短语说明物品的具体摆放位置。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在局部细节小偏差，可通过补丁修正完善解析准确性（非逐句人工审核）"
+}

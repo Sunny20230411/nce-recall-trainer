@@ -1,0 +1,189 @@
+{
+  "chinese": "恐怕不能，克罗夫特先生。您不能等到今天下午吗？",
+  "intent": "牙科工作人员委婉告知患者现在无法就诊，并礼貌建议患者等到下午。",
+  "comparison": {
+    "chinese": "英语先用礼貌表达I'm afraid that...带出委婉的否定结论，再说出对方的名字Mr. Croft；中文常直接说出核心否定意思，再用称呼开启对话。",
+    "english": "I'm afraid that he can't, Mr. Croft. Can't you wait till this afternoon?",
+    "steps": [
+      {
+        "label": "委婉提示先行",
+        "text": "I'm afraid that he can't",
+        "explanation": "先说明“恐怕他不能”，he指代前文牙医，表达现在不能就诊的意思，用I'm afraid弱化否定语气。"
+      },
+      {
+        "label": "称呼后置",
+        "text": ", Mr. Croft.",
+        "explanation": "称呼放在陈述句末尾，中文习惯把称呼放在句首或句末，根据对话场景自然调整。"
+      },
+      {
+        "label": "委婉反问建议",
+        "text": "Can't you wait till this afternoon?",
+        "explanation": "用Can't you...反问，提出“能不能等到下午”的建议，till表示时间截止到下午。"
+      }
+    ],
+    "takeaway": "I'm afraid that...是英语委婉拒绝的常用表达，常放在否定句前；反问形式Can't you...比直接You can... wait更委婉客气。"
+  },
+  "backbone": {
+    "text": "I'm afraid that he can't, Mr. Croft. Can't you wait till this afternoon?",
+    "meaning": "委婉告知患者现在牙医不能给他看病，询问他是否能等到下午再来。"
+  },
+  "structureNotes": [
+    {
+      "title": "I'm afraid that...委婉结构",
+      "text": "本句中I'm afraid不表示“害怕”，是用于引出坏消息的礼貌表达，that引导宾语从句说明具体内容，he指代前文提到的牙医。"
+    },
+    {
+      "title": "till引导时间状语",
+      "text": "till this afternoon表示“直到今天下午”，修饰动词wait，说明等待的时间截止点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm afraid",
+      "role": "主句",
+      "explanation": "委婉表达的起始结构，用于软化后续的否定内容。"
+    },
+    {
+      "text": "that he can't",
+      "role": "宾语从句",
+      "explanation": "作afraid的宾语，说明具体担心/遗憾的内容，省略了与前文重复的see you now。"
+    },
+    {
+      "text": ", Mr. Croft.",
+      "role": "呼语",
+      "explanation": "直接称呼对话对象，放置在陈述句末尾，符合英语口语表达习惯。"
+    },
+    {
+      "text": "Can't you wait",
+      "role": "反问主句",
+      "explanation": "以否定疑问形式提出建议，语气比直接命令更委婉客气。"
+    },
+    {
+      "text": "till this afternoon?",
+      "role": "时间状语",
+      "explanation": "说明wait的时间范围，指等待到今天下午这个时间点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I'm",
+      "meaning": "我（I'm是I am的缩写）",
+      "pos": "代词",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "afraid",
+      "meaning": "担心的；抱歉的（此处表委婉遗憾）",
+      "pos": "形容词",
+      "phonetic": "/əˈfreɪd/"
+    },
+    {
+      "text": "that",
+      "meaning": "引导宾语从句的连词，无实义",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他（指代前文牙医）",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "can't,",
+      "meaning": "不能（can not的缩写形式）",
+      "pos": "情态动词",
+      "phonetic": "/kɑːnt/"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生（对男子的尊称）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪstə/"
+    },
+    {
+      "text": "Croft.",
+      "meaning": "克罗夫特（姓氏）",
+      "pos": "名词",
+      "phonetic": "/krɒft/"
+    },
+    {
+      "text": "Can't",
+      "meaning": "不能（can not的缩写，此处用于否定疑问）",
+      "pos": "情态动词",
+      "phonetic": "/kɑːnt/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "wait",
+      "meaning": "等待，等候",
+      "pos": "动词",
+      "phonetic": "/weɪt/"
+    },
+    {
+      "text": "till",
+      "meaning": "直到……为止",
+      "pos": "介词",
+      "phonetic": "/tɪl/"
+    },
+    {
+      "text": "this",
+      "meaning": "这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "afternoon?",
+      "meaning": "下午",
+      "pos": "名词",
+      "phonetic": "/ˌɑːftəˈnuːn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I'm afraid that he can't,",
+      "meaning": "恐怕他不能（现在给您看病）",
+      "relation": "宾语从句作I'm afraid的宾语，告知对方当下无法就诊的事实"
+    },
+    {
+      "text": "Mr. Croft.",
+      "meaning": "克罗夫特先生",
+      "relation": "呼语，指向对话的对象"
+    },
+    {
+      "text": "Can't you wait",
+      "meaning": "您不能等待吗",
+      "relation": "一般疑问句的主谓部分，提出等待的委婉询问"
+    },
+    {
+      "text": "till this afternoon?",
+      "meaning": "直到今天下午",
+      "relation": "时间状语，补充说明等待的时间节点，到下午为止"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-77",
+  "sentenceId": "nce-1-lesson-077-sentence-014",
+  "sentenceOrder": 14,
+  "english": "I'm afraid that he can't, Mr. Croft. Can't you wait till this afternoon?",
+  "lesson": "Lesson 77 Terrible toothache",
+  "notes": [
+    {
+      "title": "I'm afraid that...委婉结构",
+      "text": "本句中I'm afraid不表示“害怕”，是用于引出坏消息的礼貌表达，that引导宾语从句说明具体内容，he指代前文提到的牙医。"
+    },
+    {
+      "title": "till引导时间状语",
+      "text": "till this afternoon表示“直到今天下午”，修饰动词wait，说明等待的时间截止点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，清晰说明了语句语境、核心含义、句子结构与表达特点，仅存在分块的语法角色指代不够明确、单词条标点标注可规范的小问题，不影响核心理解。（非逐句人工审核）"
+}

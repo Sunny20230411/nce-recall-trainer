@@ -1,0 +1,160 @@
+{
+  "chinese": "吉尔，你今晚打算做什么？",
+  "intent": "父亲向吉尔询问她今晚的计划安排。",
+  "comparison": {
+    "chinese": "中文习惯先点明称呼对象，把时间状语放在动作前面，最后落到要询问的动作内容。",
+    "english": "英文称呼放在句末，疑问词直接开头引导提问，时间状语放在谓语结构之后，通过把助动词are移到主语you前来构成问句。",
+    "steps": [
+      {
+        "label": "先找提问对象和基础动作",
+        "text": "you going to do",
+        "explanation": "you是被询问的人，be going to do表示“打算做某事”，这是句子的核心框架。"
+      },
+      {
+        "label": "明确提问缺的信息",
+        "text": "What",
+        "explanation": "What放在句首，专门询问“打算做的事”具体是什么，也就是后续回答里“见朋友”这类动作内容。"
+      },
+      {
+        "label": "补充时间与称呼",
+        "text": "this evening, Jill?",
+        "explanation": "this evening说明计划的时间范围是今晚，Jill是听话人；英文称呼习惯放在句子末尾，中文一般放在开头。"
+      }
+    ],
+    "takeaway": "先理解核心的“打算做什么”，再识别出问句需要回答动作内容，最后把时间和称呼信息接回主干即可，不要把be going to误读为“正在去往”。"
+  },
+  "backbone": {
+    "text": "you are going to do what",
+    "meaning": "你打算做什么（这是把疑问词还原后得到的理解主干，不是句子最终语序）。"
+  },
+  "structureNotes": [
+    {
+      "title": "be going to表将来计划",
+      "text": "are you going to do是一般将来的疑问结构，用来询问已经打算好的安排，不是现在正在做的事。"
+    },
+    {
+      "title": "疑问句语序",
+      "text": "助动词are提到主语you前面，和句首的What配合形成疑问句；时间短语this evening放在谓语之后修饰整个计划。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What",
+      "role": "疑问代词（宾格）",
+      "explanation": "放在句首引导特殊疑问句，指代“做的事情”，是及物动词do的逻辑宾语。"
+    },
+    {
+      "text": "are you going to do",
+      "role": "疑问谓语结构",
+      "explanation": "are是助动词提前构成疑问，be going to do整体表示“打算做某事”，和you构成主谓关系。"
+    },
+    {
+      "text": "this evening",
+      "role": "时间状语",
+      "explanation": "说明这个“打算做某事”的时间是在今晚。"
+    },
+    {
+      "text": "Jill",
+      "role": "呼语",
+      "explanation": "点明这句话的听话人是吉尔，不参与句子主干的语法结构。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "什么",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/",
+      "text": "What"
+    },
+    {
+      "meaning": "是（助动词，无实义，帮助构成疑问）",
+      "pos": "动词be的复数现在时",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "你",
+      "pos": "人称代词主格",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "（和to搭配构成be going to，表打算）",
+      "pos": "动词go的现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/",
+      "text": "going"
+    },
+    {
+      "meaning": "（和going搭配引出后续动作）",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "做",
+      "pos": "动词原形",
+      "phonetic": "/duː/",
+      "text": "do"
+    },
+    {
+      "meaning": "这个",
+      "pos": "指示限定词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "晚上，今晚（含逗号）",
+      "pos": "名词",
+      "phonetic": "/ˈiːvnɪŋ/",
+      "text": "evening,"
+    },
+    {
+      "meaning": "吉尔（人名，含问号）",
+      "pos": "呼语",
+      "phonetic": "/dʒɪl/",
+      "text": "Jill?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What",
+      "relation": "询问的核心内容：要做的事是什么",
+      "meaning": "什么"
+    },
+    {
+      "text": "are you going to do",
+      "relation": "句子主干框架，说明是在询问对方的计划动作",
+      "meaning": "你打算做"
+    },
+    {
+      "text": "this evening,",
+      "relation": "补充说明计划发生的时间范围",
+      "meaning": "今晚"
+    },
+    {
+      "text": "Jill?",
+      "relation": "点明这句话的听话对象",
+      "meaning": "吉尔？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-65",
+  "sentenceId": "nce-1-lesson-065-sentence-001",
+  "sentenceOrder": 1,
+  "english": "What are you going to do this evening, Jill?",
+  "lesson": "Lesson 65 Not a baby",
+  "notes": [
+    {
+      "title": "be going to表将来计划",
+      "text": "are you going to do是一般将来的疑问结构，用来询问已经打算好的安排，不是现在正在做的事。"
+    },
+    {
+      "title": "疑问句语序",
+      "text": "助动词are提到主语you前面，和句首的What配合形成疑问句；时间短语this evening放在谓语之后修饰整个计划。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有解析整体准确，仅存在一处小的术语表述不够严谨的问题：对 What 的语法角色标注为疑问代词，结合它在句中作宾语的功能，应更明确标注为疑问代词（宾格），其余翻译、主干、语序对比、结构分析都符合句子实际语法逻辑。（非逐句人工审核）"
+}

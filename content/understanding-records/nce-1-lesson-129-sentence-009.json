@@ -1,0 +1,148 @@
+{
+  "chinese": "我告诉过你要开慢点，加里。",
+  "intent": "表达此前已给出开慢车的叮嘱，带有提醒对方遵守规则、略带责备的语气。",
+  "comparison": {
+    "chinese": "我告诉过你要开慢点，加里。",
+    "english": "I told you to drive slowly, Gary.",
+    "steps": [
+      {
+        "label": "先说明核心动作",
+        "text": "I told you",
+        "explanation": "先讲主语“我”在过去已经发出了“叮嘱”这个动作，听话人“你”是被叮嘱的对象。"
+      },
+      {
+        "label": "再补充叮嘱内容",
+        "text": "to drive slowly",
+        "explanation": "不定式说明被要求做的具体事是“慢速开车”，不是单纯叙述“你开得慢”。"
+      },
+      {
+        "label": "最后呼告对象",
+        "text": "Gary",
+        "explanation": "句末用名字呼告，明确这句话直接对加里说，中文习惯把呼告放在句中或句首都自然。"
+      }
+    ],
+    "takeaway": "tell sb. to do sth. 表示要求某人做某事；told 体现叮嘱发生在过去，不是当下才第一次提出要求。"
+  },
+  "backbone": {
+    "text": "I told you to drive slowly.",
+    "meaning": "我此前已经叮嘱过你要慢速开车。"
+  },
+  "structureNotes": [
+    {
+      "title": "tell sb. to do sth. 的搭配逻辑",
+      "text": "told 后接双宾语结构，you 是间接宾语，指被叮嘱的人；不定式 to drive slowly 作为宾语补足语，说明叮嘱对方要执行的具体动作。"
+    },
+    {
+      "title": "一般过去时的语气",
+      "text": "told 使用 tell 的过去式，说明叮嘱的动作在说话之前已经发生，暗含“我之前早就提醒过你”的责备意味，和中文“告诉过”的“过”字语气对应。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人本人，是发出叮嘱这个动作的主体。"
+    },
+    {
+      "text": "told",
+      "role": "谓语",
+      "explanation": "是 tell 的过去式，表达“告知、叮嘱、要求”的动作，说明动作发生在过去。"
+    },
+    {
+      "text": "you",
+      "role": "间接宾语",
+      "explanation": "是被叮嘱的对象，也就是听话人加里。"
+    },
+    {
+      "text": "to drive slowly",
+      "role": "宾语补足语",
+      "explanation": "用不定式补充说明叮嘱对方要完成的具体行为：慢速驾驶。"
+    },
+    {
+      "text": "Gary",
+      "role": "呼语",
+      "explanation": "放在句末，明确呼告的对象是加里，是当面交谈时的直接称呼。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉、叮嘱（tell的过去式）",
+      "pos": "动词",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "to",
+      "meaning": "（构成不定式）",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "drive",
+      "meaning": "驾驶、开车",
+      "pos": "动词",
+      "phonetic": "/draɪv/"
+    },
+    {
+      "text": "slowly,",
+      "meaning": "缓慢地",
+      "pos": "副词",
+      "phonetic": "/ˈsləʊli/"
+    },
+    {
+      "text": "Gary.",
+      "meaning": "加里",
+      "pos": "名词",
+      "phonetic": "/ˈɡæri/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I told you",
+      "meaning": "我告诉过你",
+      "relation": "主干核心动作，引出已经发生的叮嘱行为，点明叮嘱的发出者和接收者"
+    },
+    {
+      "text": "to drive slowly,",
+      "meaning": "要开慢点，",
+      "relation": "补充说明叮嘱的具体内容，明确要求对方执行慢速驾驶的行为"
+    },
+    {
+      "text": "Gary.",
+      "meaning": "加里。",
+      "relation": "呼告听话对象，明确这句话是直接对着加里说的"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-129",
+  "sentenceId": "nce-1-lesson-129-sentence-009",
+  "sentenceOrder": 9,
+  "english": "I told you to drive slowly, Gary.",
+  "lesson": "Lesson 129 Seventy miles an hour",
+  "notes": [
+    {
+      "title": "tell sb. to do sth. 的搭配逻辑",
+      "text": "told 后接双宾语结构，you 是间接宾语，指被叮嘱的人；不定式 to drive slowly 作为宾语补足语，说明叮嘱对方要执行的具体动作。"
+    },
+    {
+      "title": "一般过去时的语气",
+      "text": "told 使用 tell 的过去式，说明叮嘱的动作在说话之前已经发生，暗含“我之前早就提醒过你”的责备意味，和中文“告诉过”的“过”字语气对应。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句的主干、呼语、时态语气和整体翻译基本准确；主要需修正 tell 双宾语搭配中 you 的直接/间接宾语标签，并把两个末项分词条的音标与释义中的标点误写分开。（非逐句人工审核）"
+}

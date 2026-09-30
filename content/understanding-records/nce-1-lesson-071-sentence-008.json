@@ -1,0 +1,126 @@
+{
+  "chinese": "但我没有接电话！",
+  "intent": "陈述过去某个时间点自己没有接听电话这一事实，承接前文对方再次打来电话的语境，说明自己当时没有做出接听的动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "I didn't answer the phone.",
+    "meaning": "我没有接电话。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去否定的表达",
+      "text": "didn't是助动词did和not的缩写，用于一般过去时的否定，后面必须接动词原形answer，不能换成现在分词answering或过去式answered。"
+    },
+    {
+      "title": "动宾搭配的习惯用法",
+      "text": "answer the phone是英语中表示“接电话”的固定动宾搭配，中间的the用来特指对方打过来的那通来电，不需要额外生硬译成“那个电话”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "But",
+      "role": "转折连词",
+      "explanation": "放在句首，连接前文“He telephoned again.”的内容，形成语义上的转折，对应中文的“但是、可”。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "第一人称主格代词，指代说话者本人，是“没接电话”这个动作的发出者。"
+    },
+    {
+      "text": "didn't",
+      "role": "过去式否定助动词",
+      "explanation": "是did not的缩写，构成一般过去时的否定句，表明“没接电话”是已经发生在过去的事，同时标识后面要接动词原形。"
+    },
+    {
+      "text": "answer",
+      "role": "谓语动词原形",
+      "explanation": "本义为回答，在固定搭配answer the phone中表示接电话的动作，跟在didn't后保持原形。"
+    },
+    {
+      "text": "the phone!",
+      "role": "动词宾语",
+      "explanation": "定冠词the加名词phone，特指当时响起的那通来电，和answer组成固定搭配表达接听电话的行为。"
+    }
+  ],
+  "words": [
+    {
+      "text": "But",
+      "meaning": "但是，可是",
+      "pos": "转折连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "I",
+      "meaning": "我（主格）",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "didn't",
+      "meaning": "没有（do/does not的过去式缩写）",
+      "pos": "助动词（did和not的缩写）",
+      "phonetic": "/ˈdɪdnt/"
+    },
+    {
+      "text": "answer",
+      "meaning": "回答，接听",
+      "pos": "动词",
+      "phonetic": "/ˈɑːnsə/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指双方知晓的事物、事件）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "phone!",
+      "meaning": "电话",
+      "pos": "名词",
+      "phonetic": "/fəʊn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "But",
+      "relation": "承接前文内容，表转折关系",
+      "meaning": "但，可是"
+    },
+    {
+      "text": "I",
+      "relation": "陈述动作的发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "didn't answer",
+      "relation": "表述过去没有执行的核心动作",
+      "meaning": "没有接听"
+    },
+    {
+      "text": "the phone!",
+      "relation": "说明动作的对象，指那通打过来的电话",
+      "meaning": "电话！"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-71",
+  "sentenceId": "nce-1-lesson-071-sentence-008",
+  "sentenceOrder": 8,
+  "english": "But I didn't answer the phone!",
+  "lesson": "Lesson 71 He's awful!",
+  "notes": [
+    {
+      "title": "过去否定的表达",
+      "text": "didn't是助动词did和not的缩写，用于一般过去时的否定，后面必须接动词原形answer，不能换成现在分词answering或过去式answered。"
+    },
+    {
+      "title": "动宾搭配的习惯用法",
+      "text": "answer the phone是英语中表示“接电话”的固定动宾搭配，中间的the用来特指对方打过来的那通来电，不需要额外生硬译成“那个电话”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整句语义、句法主干与词汇解释整体正确，仅存在两处可明确修正的细节：一是两处注释将answer the phone误称作介词短语，实际该结构是由动词answer加名词宾语构成的动宾固定搭配；二是单词表中phone!的音标未匹配独立单词、纳入了末尾的感叹号，属于音标范围标注错误，其余内容均符合静态解析要求。（非逐句人工审核）"
+}

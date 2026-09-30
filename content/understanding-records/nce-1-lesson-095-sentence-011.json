@@ -1,0 +1,64 @@
+{
+  "chinese": "谢谢。",
+  "intent": "日常礼貌回应，向对方表达谢意。",
+  "comparison": null,
+  "backbone": {
+    "text": "Thank you.",
+    "meaning": "对对方表达感谢。"
+  },
+  "structureNotes": [
+    {
+      "title": "固定礼貌表达",
+      "text": "Thank you. 是英语中通用的致谢短句，结构简洁，单独成句即可表达完整的感谢含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Thank",
+      "role": "致谢动词",
+      "explanation": "是表达感谢的核心动词，用来引出致谢对象。"
+    },
+    {
+      "text": "you.",
+      "role": "致谢对象",
+      "explanation": "指代听话的对方，是致谢动作的承受者。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Thank",
+      "meaning": "感谢（动词的礼貌用法）",
+      "pos": "动词（现在时用法）",
+      "phonetic": "/θæŋk/"
+    },
+    {
+      "text": "you.",
+      "meaning": "你；您",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Thank you.",
+      "relation": "完整的致谢表达",
+      "meaning": "谢谢你。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-95",
+  "sentenceId": "nce-1-lesson-095-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Thank you.",
+  "lesson": "Lesson 95 Tickets, please.",
+  "notes": [
+    {
+      "title": "固定礼貌表达",
+      "text": "Thank you. 是英语中通用的致谢短句，结构简洁，单独成句即可表达完整的感谢含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子是通用致谢短句，整体含义、主干和词汇基本正确；仅需将 you. 中的句号从词条文本中分离，以保持分块与词形标注一致。（非逐句人工审核）"
+}

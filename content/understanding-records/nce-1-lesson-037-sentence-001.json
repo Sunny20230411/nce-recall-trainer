@@ -1,0 +1,112 @@
+{
+  "chinese": "你打算做什么，乔治？",
+  "intent": "向乔治询问他接下来计划要做的具体事情",
+  "comparison": null,
+  "backbone": {
+    "text": "What are you going to do",
+    "meaning": "你打算做什么"
+  },
+  "parts": [
+    {
+      "text": "What",
+      "relation": "询问的具体内容",
+      "meaning": "什么"
+    },
+    {
+      "text": "are you going to do,",
+      "relation": "描述被询问对象的计划动作",
+      "meaning": "你打算做"
+    },
+    {
+      "text": "George?",
+      "relation": "指明被询问的对象是谁",
+      "meaning": "，乔治？"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "be going to 的含义",
+      "text": "这里are you going to do不表示你正走去做，而是表达询问对方预先计划好要做的事，是将来计划的常用问法。"
+    },
+    {
+      "title": "疑问词的位置",
+      "text": "疑问词What放在句首点明要问的核心信息，再把are放到主语you之前构成问句语序，不需要额外加助动词do。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What are you going to do",
+      "role": "核心特殊疑问句",
+      "explanation": "用于询问对方计划进行的具体动作内容"
+    },
+    {
+      "text": "George?",
+      "role": "呼语",
+      "explanation": "直接点明问话的接收对象，提醒对方注意这是专门问他的问题"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "什么",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/",
+      "text": "What"
+    },
+    {
+      "meaning": "是（第二人称现在时助动词）",
+      "pos": "动词",
+      "phonetic": "/ɑː/",
+      "text": "are"
+    },
+    {
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "即将、打算（后接不定式表计划）",
+      "pos": "现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/",
+      "text": "going"
+    },
+    {
+      "meaning": "无实义，引出后续动作",
+      "pos": "不定式标记",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "做",
+      "pos": "动词",
+      "phonetic": "/duː/",
+      "text": "do,"
+    },
+    {
+      "meaning": "乔治（人名）",
+      "pos": "名词",
+      "phonetic": "/dʒɔːdʒ/",
+      "text": "George?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-37",
+  "sentenceId": "nce-1-lesson-037-sentence-001",
+  "sentenceOrder": 1,
+  "english": "What are you going to do, George?",
+  "lesson": "Lesson 37 Making a bookcase",
+  "notes": [
+    {
+      "title": "be going to 的含义",
+      "text": "这里are you going to do不表示你正走去做，而是表达询问对方预先计划好要做的事，是将来计划的常用问法。"
+    },
+    {
+      "title": "疑问词的位置",
+      "text": "疑问词What放在句首点明要问的核心信息，再把are放到主语you之前构成问句语序，不需要额外加助动词do。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，存在少量标点归类、comparison缺失及重复笔记的可明确修正问题，未涉及核心错误。（非逐句人工审核）"
+}

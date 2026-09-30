@@ -1,0 +1,133 @@
+{
+  "chinese": "你能把这封信拿给她吗？",
+  "intent": "向对方提出帮忙递送信件的请求，属于用 Can you... 开头的委婉请求问句。",
+  "comparison": {
+    "chinese": "你能把这封信拿给她吗？",
+    "english": "Can you take this letter to her?",
+    "steps": [
+      {
+        "label": "先看请求能力",
+        "text": "Can you…",
+        "explanation": "Can 放在句首形成请求，中文习惯把“你能”放在最前面，和英文这里顺序接近。"
+      },
+      {
+        "label": "说清动作和传递对象",
+        "text": "take this letter to her",
+        "explanation": "中文把“拿给她”连在一起表达递达，英文则用 take + 事物 + to + 对象 分开说明。"
+      }
+    ],
+    "takeaway": "理解时先把 Can you... 看成请求许可，再用 take sth to sb 判断要拿什么、给谁。"
+  },
+  "backbone": {
+    "text": "Can you take this letter to her?",
+    "meaning": "请求对方把这封信送到她那里。"
+  },
+  "structureNotes": [
+    {
+      "title": "请求句式",
+      "text": "Can you... 是常见的委婉请求，不是在问“你会不会拿信”的能力，而是请对方帮忙。"
+    },
+    {
+      "title": "动作搭配",
+      "text": "take...to... 表示把某物带到某处或某人那里，to 后面接接收对象 her。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Can",
+      "role": "情态助动词",
+      "explanation": "放在句首帮助构成请求问句，表达委婉请求。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "被请求执行 take 动作的人。"
+    },
+    {
+      "text": "take this letter to her",
+      "role": "谓语+宾语+目的地",
+      "explanation": "take 是核心动作，this letter 是被带走的事物，to her 说明递送给谁。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "能够（帮助构成请求问句）",
+      "pos": "情态动词",
+      "phonetic": "/kæn/",
+      "text": "Can"
+    },
+    {
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "拿，带",
+      "pos": "动词",
+      "phonetic": "/teɪk/",
+      "text": "take"
+    },
+    {
+      "meaning": "这",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "信",
+      "pos": "名词",
+      "phonetic": "/ˈletə(r)/",
+      "text": "letter"
+    },
+    {
+      "meaning": "到，给",
+      "pos": "介词",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/hɜː/",
+      "text": "her?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Can you",
+      "relation": "发起委婉请求，指向听话人",
+      "meaning": "你能……吗？"
+    },
+    {
+      "text": "take this letter to",
+      "relation": "说明动作 take 和要递送的事物 letter",
+      "meaning": "把这封信拿给"
+    },
+    {
+      "text": "her?",
+      "relation": "补充递送的接收对象，同时收束问句",
+      "meaning": "她吗？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-45",
+  "sentenceId": "nce-1-lesson-045-sentence-014",
+  "sentenceOrder": 14,
+  "english": "Can you take this letter to her?",
+  "lesson": "Lesson 45 The boss's letter",
+  "notes": [
+    {
+      "title": "请求句式",
+      "text": "Can you... 是常见的委婉请求，不是在问“你会不会拿信”的能力，而是请对方帮忙。"
+    },
+    {
+      "title": "动作搭配",
+      "text": "take...to... 表示把某物带到某处或某人那里，to 后面接接收对象 her。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：her? 的释义包含问号，与代词词性不符；为统一句式标记，将步骤标签中的“先说”改为“先看”，其余内容核对无误。（非逐句人工审核）"
+}

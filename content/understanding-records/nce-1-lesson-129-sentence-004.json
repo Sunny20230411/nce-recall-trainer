@@ -1,0 +1,174 @@
+{
+  "chinese": "你以为你在哪里？在赛车场上吗？",
+  "intent": "警察针对超速驾驶的司机表达强烈责备，质疑司机误以为自己身处赛车场地、可以高速行驶。",
+  "comparison": {
+    "chinese": "你以为你现在在什么地方？",
+    "english": "Where do you think you are?",
+    "steps": [
+      {
+        "label": "理清嵌套问句结构",
+        "text": "do you think 是主句疑问结构，后面接陈述语序的宾语从句",
+        "explanation": "do you think 本身承担助动词提前构成疑问的功能，Where 是宾语从句 you are 缺少的表语，用来询问地点。"
+      },
+      {
+        "label": "还原核心疑问",
+        "text": "宾语从句正常陈述语序为 you are where",
+        "explanation": "do you think 已经完成了主句的疑问倒装，后面的宾语从句 you are 必须保持陈述语序，不能再倒装成 are you。"
+      },
+      {
+        "label": "特殊语气辨析",
+        "text": "Where do you think you are? 并非真正询问所处地点",
+        "explanation": "这是反问责备的语气，意思是“你以为这是哪儿？”，指责司机忘了自己在公共道路上，不该开这么快。"
+      }
+    ],
+    "takeaway": "do you think 作主句疑问结构时，后面的宾语从句要保持陈述语序，整句并非单纯问路，而是带有责备反问的语气。"
+  },
+  "backbone": {
+    "text": "Where do you think you are?",
+    "meaning": "你以为你在什么地方（暗含你不该在这里开这么快）"
+  },
+  "structureNotes": [
+    {
+      "title": "嵌套疑问语序",
+      "text": "do you think 已经通过助动词 do 实现疑问倒装，后面的宾语从句 you are 保持陈述语序，不能说成 do you think are you。"
+    },
+    {
+      "title": "省略的第二问句",
+      "text": "On a race track? 是完整反问句 Do you think you are on a race track? 的省略形式，承接前一句的责备语气，反问司机是否以为自己在赛车场。"
+    },
+    {
+      "title": "race 作定语",
+      "text": "race track 中 race 是名词作定语，修饰 track，指供赛车使用的赛道，不是动词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Where",
+      "role": "疑问副词",
+      "explanation": "在宾语从句 you are 中作表语，引导整个特殊疑问句，询问地点，并不是主句的主语。"
+    },
+    {
+      "text": "do you think",
+      "role": "疑问主句",
+      "explanation": "表示“你认为、你以为”，助动词 do 提前构成疑问语序，you 是主语，think 是谓语动词。"
+    },
+    {
+      "text": "you are?",
+      "role": "宾语从句",
+      "explanation": "跟在 think 后面，使用陈述语序，意思是“你在（某个地方）”，从句缺少的表语由 Where 补充。"
+    },
+    {
+      "text": "On a race track?",
+      "role": "省略式反问句",
+      "explanation": "承接前句省略了 Do you think you are，用介词短语直接反问，语气强烈，指出司机误以为自己身处赛车场的错误认知。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Where",
+      "meaning": "在哪里，在哪里",
+      "pos": "疑问副词",
+      "phonetic": "/weə/"
+    },
+    {
+      "text": "do",
+      "meaning": "助动词（无实义，帮助构成疑问句）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "think",
+      "meaning": "认为，以为",
+      "pos": "动词",
+      "phonetic": "/θɪŋk/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "are?",
+      "meaning": "是（be 动词第二人称现在时）",
+      "pos": "动词",
+      "phonetic": "/ɑː/"
+    },
+    {
+      "text": "On",
+      "meaning": "在……之上",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "race",
+      "meaning": "赛车（名词作定语）",
+      "pos": "名词",
+      "phonetic": "/reɪs/"
+    },
+    {
+      "text": "track?",
+      "meaning": "跑道，赛道",
+      "pos": "名词",
+      "phonetic": "/træk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Where",
+      "meaning": "在哪里",
+      "relation": "作为宾语从句的表语，点明疑问的核心是地点。"
+    },
+    {
+      "text": "do you think",
+      "meaning": "你认为，你以为",
+      "relation": "构成疑问主句，助动词 do 帮助完成疑问倒装，表明问题指向对方的主观想法。"
+    },
+    {
+      "text": "you are?",
+      "meaning": "你在……",
+      "relation": "跟在 think 后面的宾语从句，使用陈述语序，指代对方当下所处的位置，末尾问号体现反问语气。"
+    },
+    {
+      "text": "On a race track?",
+      "meaning": "在赛车场上吗？",
+      "relation": "承接前一句的省略反问，进一步质疑对方是否把公共道路当成了赛车赛道。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-129",
+  "sentenceId": "nce-1-lesson-129-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Where do you think you are? On a race track?",
+  "lesson": "Lesson 129 Seventy miles an hour",
+  "notes": [
+    {
+      "title": "嵌套疑问语序",
+      "text": "do you think 已经通过助动词 do 实现疑问倒装，后面的宾语从句 you are 保持陈述语序，不能说成 do you think are you。"
+    },
+    {
+      "title": "省略的第二问句",
+      "text": "On a race track? 是完整反问句 Do you think you are on a race track? 的省略形式，承接前一句的责备语气，反问司机是否以为自己在赛车场。"
+    },
+    {
+      "title": "race 作定语",
+      "text": "race track 中 race 是名词作定语，修饰 track，指供赛车使用的赛道，不是动词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析结构完整，嵌套疑问语序、省略反问句的语境语气解释符合要求，仅存在少量语法表述不够严谨、释义精度不足的问题，可以通过局部修正完善。（非逐句人工审核）"
+}

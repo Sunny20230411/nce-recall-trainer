@@ -1,0 +1,83 @@
+{
+  "chinese": "茶叶在哪里？",
+  "intent": "说话人向在场的人询问茶水/茶叶所在的具体位置，是日常场景下找物品的直接问句",
+  "comparison": null,
+  "backbone": {
+    "text": "Where's the tea?",
+    "meaning": "询问茶水/茶叶的位置"
+  },
+  "parts": [
+    {
+      "text": "Where's",
+      "relation": "点明提问的核心方向，询问位置",
+      "meaning": "在哪里（是where is的缩合形式）"
+    },
+    {
+      "text": "the tea?",
+      "relation": "明确询问的具体对象是茶水/茶叶",
+      "meaning": "这杯/这份茶水/茶叶（带问号表疑问语气）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "缩合形式说明",
+      "text": "Where's是Where is的日常口语缩合，书写上把两个词合并成一个带撇号的形式，读起来更流畅随意，没有改变原句的疑问含义"
+    },
+    {
+      "title": "定冠词the的作用",
+      "text": "这里的the指代对话双方都清楚指向的那一份茶，不是泛泛指世界上任意的茶，符合上下文刚提及相关物品的语境"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Where's",
+      "role": "疑问引导部分",
+      "explanation": "用来引出位置询问，同时承担了问句的系动词成分"
+    },
+    {
+      "text": "the tea?",
+      "role": "被询问的主语对象",
+      "explanation": "明确询问的目标物品，末尾问号标记整句是疑问句式"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "在哪里（where is的缩合）",
+      "pos": "contraction",
+      "phonetic": "/weəz/",
+      "text": "Where's"
+    },
+    {
+      "meaning": "这个、这份（定冠词，特指双方知晓的事物）",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "茶、茶水、茶叶",
+      "pos": "noun",
+      "phonetic": "/tiː/",
+      "text": "tea?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-43",
+  "sentenceId": "nce-1-lesson-043-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Where's the tea?",
+  "lesson": "Lesson 43 Hurry up!",
+  "notes": [
+    {
+      "title": "缩合形式说明",
+      "text": "Where's是Where is的日常口语缩合，书写上把两个词合并成一个带撇号的形式，读起来更流畅随意，没有改变原句的疑问含义"
+    },
+    {
+      "title": "定冠词the的作用",
+      "text": "这里的the指代对话双方都清楚指向的那一份茶，不是泛泛指世界上任意的茶，符合上下文刚提及相关物品的语境"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本合规，仅存在个别细节偏差：1. 单词部分'tea?'的文本不应携带问号，英式音标表述无误但匹配对象有误；2. 原有comparison字段为空，补充说明该问句的组织逻辑以符合要求；3. 修正表述细节保证语法角色准确。（非逐句人工审核）"
+}

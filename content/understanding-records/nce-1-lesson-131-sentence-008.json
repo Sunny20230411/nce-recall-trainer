@@ -1,0 +1,89 @@
+{
+  "chinese": "那更便宜，是吗？",
+  "intent": "说话人先给出“乘船出行更便宜”的判断，再用附加疑问向对话对象寻求认同，延续之前关于乘船旅行的讨论。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's cheaper.",
+    "meaning": "那（乘船出行）要更便宜。"
+  },
+  "structureNotes": [
+    {
+      "title": "反义疑问的前后呼应",
+      "text": "陈述部分用肯定的It's，疑问部分用否定的isn't it，前后形式相反。疑问部分的主语it指代前面提到的乘船出行这件事，避免重复啰嗦。"
+    },
+    {
+      "title": "isn't it的理解",
+      "text": "isn't it相当于中文句末的“是吗”，作用是确认对方同意自己的判断，和一般疑问不同，不真的对信息存疑。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's cheaper",
+      "role": "陈述分句",
+      "explanation": "用肯定陈述给出核心判断，说明乘船出行的价格属性。"
+    },
+    {
+      "text": "isn't it",
+      "role": "附加疑问部分",
+      "explanation": "由be动词否定形式加主语代词构成，寻求对方对前述判断的认同，语气偏向确认而非质疑。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "它是（it is的缩写，指代前文提到的乘船出行）",
+      "pos": "代词+be动词",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "cheaper,",
+      "meaning": "更便宜的（cheap的比较级，此处作表语说明出行成本的属性）",
+      "pos": "形容词",
+      "phonetic": "/ˈtʃiːpə(r)/"
+    },
+    {
+      "text": "isn't",
+      "meaning": "不是（is not的缩写，构成附加疑问部分的否定形式）",
+      "pos": "be动词",
+      "phonetic": "/ˈɪznt/"
+    },
+    {
+      "text": "it?",
+      "meaning": "它（指代乘船出行这件事，位于附加疑问部分作主语）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's cheaper,",
+      "relation": "给出对乘船出行费用的核心判断",
+      "meaning": "那更便宜"
+    },
+    {
+      "text": "isn't it?",
+      "relation": "通过附加疑问寻求对方的认同，确认前述判断",
+      "meaning": "是吗？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-131",
+  "sentenceId": "nce-1-lesson-131-sentence-008",
+  "sentenceOrder": 8,
+  "english": "It's cheaper, isn't it?",
+  "lesson": "Lesson 131 Don't be so sure!",
+  "notes": [
+    {
+      "title": "反义疑问的前后呼应",
+      "text": "陈述部分用肯定的It's，疑问部分用否定的isn't it，前后形式相反。疑问部分的主语it指代前面提到的乘船出行这件事，避免重复啰嗦。"
+    },
+    {
+      "title": "isn't it的理解",
+      "text": "isn't it相当于中文句末的“是吗”，作用是确认对方同意自己的判断，和一般疑问不同，不真的对信息存疑。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干、分块释义和附加疑问的整体解释基本正确，但words数组存在严重的text、释义、词性、音标完全错位：把It's拆成的两个词块分别错配了后续cheaper、isn't的释义与音标，词义和所属结构完全不匹配，属于必须更正的错误，其余字段内容准确无需调整。（非逐句人工审核）"
+}

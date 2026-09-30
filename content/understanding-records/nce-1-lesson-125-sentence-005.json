@@ -1,0 +1,75 @@
+{
+  "chinese": "看看它！",
+  "intent": "引导听话人将注意力投向说话人所指的事物，让对方亲眼确认后面要讲的内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "Look at it!",
+    "meaning": "快看看那个东西！"
+  },
+  "structureNotes": [
+    {
+      "title": "祈使句的指令指向",
+      "text": "这是无主语的祈使句，直接向听话人发出指令。动词look搭配介词at才能接看的对象it，不能说Look it。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Look at",
+      "role": "动作指令",
+      "explanation": "表示“看”这一动作，look是不及物动词，必须搭配介词at才能引出观看的对象。"
+    },
+    {
+      "text": "it",
+      "role": "动作指向的对象",
+      "explanation": "指代前文语境中提到的事物，是“看”这个动作的指向目标。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Look",
+      "meaning": "看",
+      "pos": "动词",
+      "phonetic": "/lʊk/"
+    },
+    {
+      "text": "at",
+      "meaning": "（引出观看的对象）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "it!",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Look at",
+      "relation": "发出观看的动作指令",
+      "meaning": "看（向）"
+    },
+    {
+      "text": "it!",
+      "relation": "动作指向的对象",
+      "meaning": "它！"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-125",
+  "sentenceId": "nce-1-lesson-125-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Look at it!",
+  "lesson": "Lesson 125 Tea for two",
+  "notes": [
+    {
+      "title": "祈使句的指令指向",
+      "text": "这是无主语的祈使句，直接向听话人发出指令。动词look搭配介词at才能接看的对象it，不能说Look it。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：该句整体解析基本正确：祈使句属性说明准确，look与at的搭配讲解清晰，it的指代对象解释符合上下文，主干翻译通顺，各分块的关系和词义无明显错误。仅存在一处可明确修正的问题：words分块中it的音标包含了末尾感叹号，该标点不属于发音范畴，应当予以剔除；其余字段无需改动。（非逐句人工审核）"
+}

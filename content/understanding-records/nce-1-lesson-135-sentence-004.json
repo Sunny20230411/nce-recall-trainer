@@ -1,0 +1,111 @@
+{
+  "chinese": "她说她可能退休。",
+  "intent": "回应前文What did she say?的提问，转述女性主语对外公开表达的、自己未来可能退休的不确定想法。",
+  "comparison": {
+    "chinese": "她（自己说）可能退休",
+    "english": "She said [that] she might retire",
+    "steps": [
+      {
+        "label": "第一步",
+        "text": "She said",
+        "explanation": "先点明整个表述的来源是“她说”，不是当下正在发生的直接引语。"
+      },
+      {
+        "label": "第二步",
+        "text": "she might retire",
+        "explanation": "转述内容的主语she与主句主语同指，省略了引导从句的that，情态动词用might表达退休的不确定性。"
+      }
+    ],
+    "takeaway": "转述他人话语时，先说明是谁说的，再跟上省略that的宾语从句内容，情态动词跟随主句过去时态使用might。"
+  },
+  "backbone": {
+    "text": "She said she might retire.",
+    "meaning": "她陈述过自己存在退休的可能性。"
+  },
+  "structureNotes": [
+    {
+      "title": "宾语从句的省略引导词",
+      "text": "从句she might retire直接跟在said后面，省略了只起连接作用的that，两个she指代同一人，从句充当said的内容宾语。"
+    },
+    {
+      "title": "情态动词的时态呼应",
+      "text": "主句said为过去式，从句表达推测的might随过去时态调整形式，传递说话人当时的不确定语气，不表示过去的“可以”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She said",
+      "role": "主句主谓结构",
+      "explanation": "主语She搭配过去式谓语said，引出后面转述的具体话语内容。"
+    },
+    {
+      "text": "she might retire",
+      "role": "宾语从句（转述内容）",
+      "explanation": "省略引导词that，主语she与主句主语同指，情态动词might搭配原形动词retire，表达说话人当时提出的、自己未来可能退休的不确定推测。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "said",
+      "meaning": "说（say的过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "might",
+      "meaning": "可能（may的过去式，表推测）",
+      "pos": "情态动词",
+      "phonetic": "/maɪt/"
+    },
+    {
+      "text": "retire.",
+      "meaning": "退休",
+      "pos": "动词",
+      "phonetic": "/rɪˈtaɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She said",
+      "relation": "整个转述内容的触发主体，点明话语来源。",
+      "meaning": "她说"
+    },
+    {
+      "text": "she might retire.",
+      "relation": "作said的宾语，是她实际说出的具体内容。",
+      "meaning": "她可能退休。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-135",
+  "sentenceId": "nce-1-lesson-135-sentence-004",
+  "sentenceOrder": 4,
+  "english": "She said she might retire.",
+  "lesson": "Lesson 135 The latest report",
+  "notes": [
+    {
+      "title": "宾语从句的省略引导词",
+      "text": "从句she might retire直接跟在said后面，省略了只起连接作用的that，两个she指代同一人，从句充当said的内容宾语。"
+    },
+    {
+      "title": "情态动词的时态呼应",
+      "text": "主句said为过去式，从句表达推测的might随过去时态调整形式，传递说话人当时的不确定语气，不表示过去的“可以”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合转述句的结构与语义，存在retire音标尾随多余句号、宾语从句的非未来语义被表述为意愿的小问题，其余内容正确。（非逐句人工审核）"
+}

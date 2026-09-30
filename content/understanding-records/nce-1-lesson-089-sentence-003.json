@@ -1,0 +1,157 @@
+{
+  "chinese": "我可以看看吗？",
+  "intent": "用礼貌语气提出请求，询问是否获准查看正在讨论的对象。",
+  "comparison": {
+    "chinese": "汉语用“我可以看看吗？”把许可和动作合在一句里，先表明请求意图，省略具体要看的对象；英语用 May 开头表达许可，再用 have a look at 引出动作，最后用 it 指代前文已经提到的事物，please 让请求更委婉。",
+    "english": "May I have a look at it please?",
+    "steps": [
+      {
+        "label": "用 May 开头提出许可请求",
+        "text": "May I…",
+        "explanation": "May 放在句首、主语 I 之前，表示委婉询问“我是否可以……”，比 can 更正式礼貌。"
+      },
+      {
+        "label": "用短语表达“看一看”的动作",
+        "text": "have a look at it",
+        "explanation": "have a look 是固定常用表达，相当于看一眼的动作；at it 说明要看的具体对象，it 指代前文提到的讨论对象。"
+      },
+      {
+        "label": "用 please 缓和请求语气",
+        "text": "…please?",
+        "explanation": "please 放在句末不改变核心请求，只是让询问听起来更客气礼貌，符合日常礼貌对话的习惯。"
+      }
+    ],
+    "takeaway": "这个结构是礼貌请求许可的常用句式，语序是“情态动词May+主语I+请求动作+具体对象+礼貌用语please”。"
+  },
+  "backbone": {
+    "text": "May I have a look at it?",
+    "meaning": "我能不能查看一下它？"
+  },
+  "structureNotes": [
+    {
+      "title": "May 引导的礼貌请求句式",
+      "text": "May 放在句首、主语 I 之前，用来询问是否被允许做某事，是日常对话中委婉提出请求的常用表达。"
+    },
+    {
+      "title": "have a look 是固定短语",
+      "text": "have a look 整体表示“看一眼、查看一下”，不是“有一个看”的字面含义；后接 at 再加要看的具体对象。"
+    },
+    {
+      "title": "it 指代前文事物",
+      "text": "句中的 it 指代前面正在讨论的对象，不需要重新说出具体名称，符合对话的指代习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "May",
+      "role": "情态助动词",
+      "explanation": "放在句首表示委婉请求许可，构成礼貌问句的标志。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人本人，是请求动作的发出者。"
+    },
+    {
+      "text": "have a look at it",
+      "role": "谓语部分（固定动作短语）",
+      "explanation": "整体表达请求的核心动作“查看它”，have a look 是固定搭配，at it 明确查看的对象。"
+    },
+    {
+      "text": "please",
+      "role": "礼貌修饰语",
+      "explanation": "放在句末缓和请求语气，让询问更客气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "May",
+      "meaning": "（情态动词）可以、是否可以（表许可请求）",
+      "pos": "modal verb",
+      "phonetic": "/meɪ/"
+    },
+    {
+      "text": "I",
+      "meaning": "我（主格代词）",
+      "pos": "pronoun",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "have",
+      "meaning": "进行、做（与a look搭配构成固定短语）",
+      "pos": "verb",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个（不定冠词）",
+      "pos": "article",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "look",
+      "meaning": "看、瞧（名词，与have a搭配）",
+      "pos": "noun",
+      "phonetic": "/lʊk/"
+    },
+    {
+      "text": "at",
+      "meaning": "朝、向（介词，引出查看对象）",
+      "pos": "preposition",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代前文提到的事物）",
+      "pos": "pronoun",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "please?",
+      "meaning": "请（礼貌用语）",
+      "pos": "interjection",
+      "phonetic": "/pliːz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "May I",
+      "relation": "引出礼貌请求的许可前提，点明请求主体",
+      "meaning": "我是否可以"
+    },
+    {
+      "text": "have a look at it",
+      "relation": "说明请求的核心动作和查看的具体对象",
+      "meaning": "看一下它"
+    },
+    {
+      "text": "please?",
+      "relation": "缓和请求语气的礼貌收尾",
+      "meaning": "麻烦、请"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-89",
+  "sentenceId": "nce-1-lesson-089-sentence-003",
+  "sentenceOrder": 3,
+  "english": "May I have a look at it please?",
+  "lesson": "Lesson 89 For sale",
+  "notes": [
+    {
+      "title": "May 引导的礼貌请求句式",
+      "text": "May 放在句首、主语 I 之前，用来询问是否被允许做某事，是日常对话中委婉提出请求的常用表达。"
+    },
+    {
+      "title": "have a look 是固定短语",
+      "text": "have a look 整体表示“看一眼、查看一下”，不是“有一个看”的字面含义；后接 at 再加要看的具体对象。"
+    },
+    {
+      "title": "it 指代前文事物",
+      "text": "句中的 it 指代前面正在讨论的对象，不需要重新说出具体名称，符合对话的指代习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确覆盖了该礼貌请求句的句式、固定短语和指代逻辑，可正常使用。仅存在一处细节表述可优化：原结构说明中明确将it指代的对象认定为待售物品，结合本课标题为For sale的情境该表述合理，但可将指代范围调整为‘前文正在讨论的对象’以贴合给定的对话上下文；其余中文翻译、意图说明、句法拆分、词汇释义、比较内容均符合规范，无逻辑矛盾或误导性表述。（非逐句人工审核）"
+}

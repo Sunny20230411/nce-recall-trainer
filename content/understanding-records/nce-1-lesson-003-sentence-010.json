@@ -1,0 +1,74 @@
+{
+  "chinese": "是这把吗？",
+  "intent": "指向疑似目标物品，向对方确认当前所指的对象是不是自己之前提及的那一个",
+  "backbone": {
+    "text": "Is this it?",
+    "meaning": "确认眼前的这个是不是之前提到的那个目标物品"
+  },
+  "parts": [
+    {
+      "text": "Is",
+      "relation": "引导疑问",
+      "meaning": "表示一般疑问句的疑问引导，用来发起确认询问"
+    },
+    {
+      "text": "this",
+      "relation": "询问对象",
+      "meaning": "指代说话人当下指向的这个事物"
+    },
+    {
+      "text": "it?",
+      "relation": "确认的匹配目标",
+      "meaning": "指代前文提到的特定目标物品"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "代词指代",
+      "text": "句中this指代当下指向的近处事物，it指代上下文里之前提及的特定目标，两个代词分工配合完成确认指向"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is this it?",
+      "role": "一般疑问句",
+      "explanation": "将be动词Is前置，直接用两个指代对象完成匹配确认，不需要额外冗余的修饰成分，是口语里简洁的核对表达"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是（be动词的第三人称单数现在时形式，用于引导一般疑问句）",
+      "pos": "verb（linking verb）",
+      "phonetic": "/ɪz/",
+      "text": "Is"
+    },
+    {
+      "meaning": "这个",
+      "pos": "pronoun",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "它（指代前文特定目标物品）",
+      "pos": "pronoun",
+      "phonetic": "/ɪt/",
+      "text": "it?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-3",
+  "sentenceId": "nce-1-lesson-003-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Is this it?",
+  "lesson": "Lesson 3 Sorry, sir.",
+  "notes": [
+    {
+      "title": "代词指代",
+      "text": "句中this指代当下指向的近处事物，it指代上下文里之前提及的特定目标，两个代词分工配合完成确认指向"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，仅存在局部细节可规范修正，不影响核心内容准确性（非逐句人工审核）"
+}

@@ -1,0 +1,131 @@
+{
+  "chinese": "你为什么把它刮掉？",
+  "intent": "针对对方已经刮掉某物的事实，询问做出这个动作的原因。",
+  "comparison": null,
+  "backbone": {
+    "text": "Why did you shave it off?",
+    "meaning": "询问对方刮掉某事物的原因"
+  },
+  "structureNotes": [
+    {
+      "title": "疑问句语序与助动词",
+      "text": "一般过去时的特殊疑问句中，助动词did放在主语you前面，真正的实义动词shave保持原形，不使用过去式，did整体承载了过去动作的时间标记。"
+    },
+    {
+      "title": "动词短语的代词位置",
+      "text": "shave off是“剃掉、刮掉”的短语，当代词作宾语it时，必须放在shave和off之间，构成shave it off的结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Why",
+      "role": "疑问副词",
+      "explanation": "用于提问动作的原因，在句子中充当原因状语"
+    },
+    {
+      "text": "did",
+      "role": "助动词",
+      "explanation": "体现一般过去时，帮助构成特殊疑问句的倒装语序，无实义"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指被提问的对话对方，是刮掉动作的发出者"
+    },
+    {
+      "text": "shave it off",
+      "role": "谓语动词短语",
+      "explanation": "表示“把它刮掉”的完整动作，it是shave的宾语，off是小品副词，和shave搭配表示“去除、剃掉”的含义"
+    }
+  ],
+  "words": [
+    {
+      "text": "Why",
+      "meaning": "为什么",
+      "pos": "疑问副词",
+      "phonetic": "/waɪ/"
+    },
+    {
+      "text": "did",
+      "meaning": "（助动词，构成过去时疑问句，无实义）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词（主格）",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "shave",
+      "meaning": "刮（胡须）、剃",
+      "pos": "动词",
+      "phonetic": "/ʃeɪv/"
+    },
+    {
+      "text": "it",
+      "meaning": "它",
+      "pos": "代词（宾格）",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "off?",
+      "meaning": "（与shave搭配，表示剃掉、刮除）",
+      "pos": "副词",
+      "phonetic": "/ɒf/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Why",
+      "meaning": "为什么",
+      "relation": "点明提问方向，询问动作的原因"
+    },
+    {
+      "text": "did",
+      "meaning": "（构成过去时疑问的助动词）",
+      "relation": "搭配后续主语和动词，标明这是过去发生动作的疑问句"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "relation": "指明刮掉动作的发出者"
+    },
+    {
+      "text": "shave",
+      "meaning": "刮掉、剃",
+      "relation": "句子的核心动作"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代之前提到的胡须）",
+      "relation": "动作的作用对象"
+    },
+    {
+      "text": "off?",
+      "meaning": "与shave搭配，表剃去、刮除",
+      "relation": "补充说明动作的结果是把胡须去除"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-123",
+  "sentenceId": "nce-1-lesson-123-sentence-015",
+  "sentenceOrder": 15,
+  "english": "Why did you shave it off?",
+  "lesson": "Lesson 123 A trip to Australia",
+  "notes": [
+    {
+      "title": "疑问句语序与助动词",
+      "text": "一般过去时的特殊疑问句中，助动词did放在主语you前面，真正的实义动词shave保持原形，不使用过去式，did整体承载了过去动作的时间标记。"
+    },
+    {
+      "title": "动词短语的代词位置",
+      "text": "shave off是“剃掉、刮掉”的短语，当代词作宾语it时，必须放在shave和off之间，构成shave it off的结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有解析基本正确。仅off?词条和off?分块把小品副词off单独直译为“开”，在shave off搭配中容易让中文学习者误解为普通开关义；应只保留其与shave搭配表示去除、剃掉的语境义。其余词义、句法角色、语序与短语位置说明均符合上下文。（非逐句人工审核）"
+}

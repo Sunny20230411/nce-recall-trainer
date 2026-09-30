@@ -1,0 +1,133 @@
+{
+  "chinese": "我打算把它放在这张桌子上，萨姆。",
+  "intent": "向萨姆说明自己接下来打算把某样物品放置到桌面的计划，做出明确的动作告知。",
+  "backbone": {
+    "text": "I'm going to put it on this table",
+    "meaning": "我计划把它放在这张桌子上"
+  },
+  "parts": [
+    {
+      "text": "I'm going to put",
+      "relation": "说明说话人将要执行的核心动作",
+      "meaning": "我打算要放置"
+    },
+    {
+      "text": "it",
+      "relation": "补充放置这个动作的对象",
+      "meaning": "它（指代前文提到的花瓶）"
+    },
+    {
+      "text": "on this table,",
+      "relation": "补充说明放置动作的具体位置",
+      "meaning": "在这张桌子上"
+    },
+    {
+      "text": "Sam.",
+      "relation": "点明这句话的交谈对象",
+      "meaning": "萨姆"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "be going to的表意",
+      "text": "这里的I'm going to不是表示正在前往，而是用来明确描述说话人当下已经做好打算、很快要执行的后续计划动作。"
+    },
+    {
+      "title": "on的作用",
+      "text": "介词on直接承接放置动作，说明物体的最终落点是桌面之上，清晰限定动作发生的位置范围。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm going to put",
+      "role": "谓语部分",
+      "explanation": "由be going to搭配实义动词put共同构成，用来表达说话人预先计划好的将要执行的放置动作"
+    },
+    {
+      "text": "put it on this table",
+      "role": "动宾加地点补语的完整动作链",
+      "explanation": "明确动作的承受对象it和放置的目标位置，把“放什么、放到哪”两个关键信息完整串联起来"
+    },
+    {
+      "text": "Sam",
+      "role": "呼语",
+      "explanation": "放在句末直接点名对话接收者，明确这句话是专门对萨姆说的告知内容"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我是（I am的缩写，此处搭配be going to表计划将来）",
+      "pos": "代词+系动词be的第一人称单数现在时缩写",
+      "phonetic": "/aɪm/",
+      "text": "I'm"
+    },
+    {
+      "meaning": "去（辅助构成将来计划表达，无单独实义）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/",
+      "text": "going"
+    },
+    {
+      "meaning": "用来引出后续计划执行的动作",
+      "pos": "不定式符号",
+      "phonetic": "/tə/",
+      "text": "to"
+    },
+    {
+      "meaning": "放置、安放",
+      "pos": "实义动词",
+      "phonetic": "/pʊt/",
+      "text": "put"
+    },
+    {
+      "meaning": "它（指代前文提及的花瓶）",
+      "pos": "人称代词宾格",
+      "phonetic": "/ɪt/",
+      "text": "it"
+    },
+    {
+      "meaning": "在……之上",
+      "pos": "介词",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "这个",
+      "pos": "指示代词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "桌子",
+      "pos": "名词",
+      "phonetic": "/ˈteɪbl/",
+      "text": "table,"
+    },
+    {
+      "meaning": "萨姆（人名）",
+      "pos": "专有名词",
+      "phonetic": "/sæm/",
+      "text": "Sam."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-39",
+  "sentenceId": "nce-1-lesson-039-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I'm going to put it on this table, Sam.",
+  "lesson": "Lesson 39 Don't drop it!",
+  "notes": [
+    {
+      "title": "be going to的表意",
+      "text": "这里的I'm going to不是表示正在前往，而是用来明确描述说话人当下已经做好打算、很快要执行的后续计划动作。"
+    },
+    {
+      "title": "on的作用",
+      "text": "介词on直接承接放置动作，说明物体的最终落点是桌面之上，清晰限定动作发生的位置范围。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本符合要求，仅存在部分细节标注误差，可明确修正（非逐句人工审核）"
+}

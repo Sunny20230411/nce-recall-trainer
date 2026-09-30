@@ -1,0 +1,109 @@
+{
+  "chinese": "我也有。",
+  "intent": "承接上一句I've got some small change，回应自己同样有一些零钱。",
+  "comparison": {
+    "chinese": "我也有（零钱）。",
+    "english": "So have I.",
+    "steps": [
+      {
+        "label": "明确已有的参照事实",
+        "text": "前一句说I've got some small change，即“我有一些零钱”。",
+        "explanation": "这里先有一个带have got的肯定陈述，have是助动词的核心功能词。"
+      },
+      {
+        "label": "用倒装承接相同情况",
+        "text": "So have I = I have too。",
+        "explanation": "把So放在句首，再把have提到主语I前面，表示“我和前面的人一样，也有”。"
+      },
+      {
+        "label": "省略与前文重复的部分",
+        "text": "small change不出现在这句中。",
+        "explanation": "So have I只重复必要的功能词have；宾语small change由上文提供，无需再说。"
+      }
+    ],
+    "takeaway": "So＋助动词/ be动词＋主语表示“……也一样”；具体动词和省略的宾语都要从上文判断。"
+  },
+  "backbone": {
+    "text": "So have I.",
+    "meaning": "我也有（零钱）。"
+  },
+  "structureNotes": [
+    {
+      "title": "So开头的倒装",
+      "text": "So have I把have放在主语I前，用来承接前一句I've got some small change，表示“我也一样”。它替代完整说法I have got some small change too。"
+    },
+    {
+      "title": "省略与语序",
+      "text": "small change不重复出现在这句中，因为上下文已经说明have的对象是零钱。So不是连词，也不表示结果；它指代前面说过的相同情况。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "So",
+      "role": "简短承接语",
+      "explanation": "指代“与前面相同的情况”，起句引出倒装。"
+    },
+    {
+      "text": "have",
+      "role": "助动词/功能词",
+      "explanation": "重复前一句I've got中的have，放在主语前形成So have I结构。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "表示“我”也和前面的人一样有零钱。"
+    }
+  ],
+  "words": [
+    {
+      "text": "So",
+      "meaning": "同样，也（代替前文的相同情况）",
+      "pos": "副词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "have",
+      "meaning": "（承接have got结构，因倒装语序置于主语之前）",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "I.",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "So",
+      "relation": "指代前文相同情况，引出倒装",
+      "meaning": "同样"
+    },
+    {
+      "text": "have I.",
+      "relation": "倒装结构，说明自己与前文所述情况一致",
+      "meaning": "我也有（零钱）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-113",
+  "sentenceId": "nce-1-lesson-113-sentence-010",
+  "sentenceOrder": 10,
+  "english": "So have I.",
+  "lesson": "Lesson 113 Small change",
+  "notes": [
+    {
+      "title": "So开头的倒装",
+      "text": "So have I把have放在主语I前，用来承接前一句I've got some small change，表示“我也一样”。它替代完整说法I have got some small change too。"
+    },
+    {
+      "title": "省略与语序",
+      "text": "small change不重复出现在这句中，因为上下文已经说明have的对象是零钱。So不是连词，也不表示结果；它指代前面说过的相同情况。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确对应上下文，正确说明“So+助动词+主语”倒装结构指代前文相同情况的用法，补充了省略的宾语零钱，未将So误认为连词或结果状语，主干、结构说明、词义、分块的解释均符合语法规则和语境，仅存在一处可优化的词汇解析措辞，无根本性错误。（非逐句人工审核）"
+}

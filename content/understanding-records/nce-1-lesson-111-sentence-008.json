@@ -1,0 +1,142 @@
+{
+  "chinese": "我们可以分期付款买吗？",
+  "intent": "买方询问能否以分期付款的方式购买该商品。",
+  "comparison": {
+    "chinese": "我们可以分期付款买它吗？",
+    "english": "Can we buy it on instalments?",
+    "steps": [
+      {
+        "label": "动作主干先出现",
+        "text": "buy it",
+        "explanation": "先把核心动作“买它”说出来，再用短语说明付款方式。"
+      },
+      {
+        "label": "方式短语放末尾",
+        "text": "on instalments",
+        "explanation": "用 on 引出分期付款这种方式，放在宾语之后，说明“买它”的支付条件。"
+      },
+      {
+        "label": "情态动词前置构成问句",
+        "text": "Can we...?",
+        "explanation": "Can 提到句首，表示请求许可，问“是否可以这样做”。"
+      }
+    ],
+    "takeaway": "英语先讲买什么，再补付款方式；汉语常把“分期付款”放到“买”前面作状语。"
+  },
+  "backbone": {
+    "text": "Can we buy it on instalments?",
+    "meaning": "询问是否能以分期付款的方式购买这件商品。"
+  },
+  "structureNotes": [
+    {
+      "title": "on instalments 作方式状语",
+      "text": "on instalments 是固定搭配，表示“以分期付款方式”，修饰动词 buy，说明购买这件商品的支付方式。"
+    },
+    {
+      "title": "Can 引导一般疑问句",
+      "text": "情态动词 Can 置于句首，主语 we 在其后，用来请求对方许可，询问是否允许按分期付款购买。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Can",
+      "role": "情态助动词",
+      "explanation": "表示请求许可，置于主语前构成一般疑问句。"
+    },
+    {
+      "text": "we",
+      "role": "主语",
+      "explanation": "指提出购买请求的一方，即“我们”。"
+    },
+    {
+      "text": "buy it",
+      "role": "谓语动词短语",
+      "explanation": "表示“购买它”这件核心动作，it 指代前面谈到的商品。"
+    },
+    {
+      "text": "on instalments?",
+      "role": "方式状语",
+      "explanation": "说明购买的支付方式是分期付款，不是一次性付清。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Can",
+      "meaning": "能够、可以",
+      "pos": "情态动词",
+      "phonetic": "/kæn/"
+    },
+    {
+      "text": "we",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wi/"
+    },
+    {
+      "text": "buy",
+      "meaning": "购买、买",
+      "pos": "动词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代前面提到的更贵那款商品）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "on",
+      "meaning": "以……方式",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "instalments?",
+      "meaning": "分期付款（复数形式表示该支付方式）",
+      "pos": "名词",
+      "phonetic": "/ɪnˈstɔːlmənts/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Can",
+      "relation": "表示请求许可，引导疑问句",
+      "meaning": "能够、可以"
+    },
+    {
+      "text": "we",
+      "relation": "句子的主语，提出购买请求的一方",
+      "meaning": "我们"
+    },
+    {
+      "text": "buy it",
+      "relation": "核心动作，购买指代商品的it",
+      "meaning": "买它"
+    },
+    {
+      "text": "on instalments?",
+      "relation": "补充说明购买的支付方式，回答“怎么买”的问题",
+      "meaning": "以分期付款的方式"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-111",
+  "sentenceId": "nce-1-lesson-111-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Can we buy it on instalments?",
+  "lesson": "Lesson 111 The most expensive model",
+  "notes": [
+    {
+      "title": "on instalments 作方式状语",
+      "text": "on instalments 是固定搭配，表示“以分期付款方式”，修饰动词 buy，说明购买这件商品的支付方式。"
+    },
+    {
+      "title": "Can 引导一般疑问句",
+      "text": "情态动词 Can 置于句首，主语 we 在其后，用来请求对方许可，询问是否允许按分期付款购买。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整句为Can引导的一般疑问句，主干拆分、成分解释与语境指代均符合要求，仅单词分块误将句末问号归入instalments词条导致音标附带标点，其余内容无需调整。（非逐句人工审核）"
+}

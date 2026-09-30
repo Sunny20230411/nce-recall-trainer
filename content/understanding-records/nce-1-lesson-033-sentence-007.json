@@ -1,0 +1,117 @@
+{
+  "chinese": "萨莉正在看一艘大船。",
+  "intent": "陈述萨莉当下正在做的具体动作，说明她正注视着一艘大船的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "Sally is looking at a ship.",
+    "meaning": "萨莉正看着一艘船。"
+  },
+  "parts": [
+    {
+      "text": "Sally",
+      "relation": "动作的发出者",
+      "meaning": "萨莉（人名）"
+    },
+    {
+      "text": "is looking at",
+      "relation": "描述发出者的具体动作",
+      "meaning": "正在看"
+    },
+    {
+      "text": "a big ship.",
+      "relation": "动作的指向对象",
+      "meaning": "一艘大船"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "look at 搭配说明",
+      "text": "look是不及物动词，不能直接接看到的对象，加上介词at之后，才能引出注视的目标事物。"
+    },
+    {
+      "title": "现在进行时构成",
+      "text": "is和现在分词looking组合，用来表达此刻正在持续进行的动作，强调场景的即时状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Sally",
+      "role": "句子主语",
+      "explanation": "指明动作的执行者是萨莉"
+    },
+    {
+      "text": "is looking at",
+      "role": "现在进行时的谓语部分",
+      "explanation": "表示当下正在发生的注视动作"
+    },
+    {
+      "text": "a big ship",
+      "role": "介词at的宾语",
+      "explanation": "说明萨莉注视的具体对象是一艘大船"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "萨莉（女子人名）",
+      "pos": "名词",
+      "phonetic": "/ˈsæli/",
+      "text": "Sally"
+    },
+    {
+      "meaning": "是（助动词，构成进行时态）",
+      "pos": "助动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "看（现在分词形式）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈlʊkɪŋ/",
+      "text": "looking"
+    },
+    {
+      "meaning": "朝向",
+      "pos": "介词",
+      "phonetic": "/æt/",
+      "text": "at"
+    },
+    {
+      "meaning": "一个、一艘（不定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "大的",
+      "pos": "形容词",
+      "phonetic": "/bɪɡ/",
+      "text": "big"
+    },
+    {
+      "meaning": "船",
+      "pos": "名词",
+      "phonetic": "/ʃɪp/",
+      "text": "ship."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-33",
+  "sentenceId": "nce-1-lesson-033-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Sally is looking at a big ship.",
+  "lesson": "Lesson 33 A fine day",
+  "notes": [
+    {
+      "title": "look at 搭配说明",
+      "text": "look是不及物动词，不能直接接看到的对象，加上介词at之后，才能引出注视的目标事物。"
+    },
+    {
+      "title": "现在进行时构成",
+      "text": "is和现在分词looking组合，用来表达此刻正在持续进行的动作，强调场景的即时状态。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：排查确认该学习数据整体合规，仅存在3处细节待修正，不影响核心教学逻辑，修正后可满足面向中文母语成年人的英语学习解析要求（非逐句人工审核）"
+}

@@ -1,0 +1,117 @@
+{
+  "chinese": "但乔治的鹦鹉亨利还在那里。",
+  "intent": "转折说明盗贼已经离开后，乔治的鹦鹉亨利仍留在原地。",
+  "comparison": null,
+  "backbone": {
+    "text": "George's parrot was still there.",
+    "meaning": "乔治的鹦鹉仍在原地。"
+  },
+  "structureNotes": [
+    {
+      "title": "同位语补充名字",
+      "text": "Henry 是 parrot 的同位语，前后用逗号隔开，说明这只鹦鹉的名字叫亨利，不是另一个独立主语。"
+    },
+    {
+      "title": "转折衔接",
+      "text": "But 承接上文盗贼已离开，形成“人走了，鹦鹉还在”的反差，still 强化“仍旧、还没走”的状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "But",
+      "role": "转折连词",
+      "explanation": "连接上一句，表语义转折。"
+    },
+    {
+      "text": "George's parrot, Henry",
+      "role": "主语核心＋同位语",
+      "explanation": "George's parrot 是句子主语，Henry 补充说明鹦鹉的名字。"
+    },
+    {
+      "text": "was still there",
+      "role": "系表结构",
+      "explanation": "was 是系动词，there 作表语说明位置，still 修饰表语表示“仍旧”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "But",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "George's",
+      "meaning": "乔治的",
+      "pos": "名词所有格",
+      "phonetic": "/ˈdʒɔːdʒɪz/"
+    },
+    {
+      "text": "parrot,",
+      "meaning": "鹦鹉",
+      "pos": "名词",
+      "phonetic": "/ˈpærət/"
+    },
+    {
+      "text": "Henry,",
+      "meaning": "亨利（鹦鹉的名字）",
+      "pos": "名词（专有名词）",
+      "phonetic": "/ˈhenri/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be 动词过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "still",
+      "meaning": "仍然，还",
+      "pos": "副词",
+      "phonetic": "/stɪl/"
+    },
+    {
+      "text": "there.",
+      "meaning": "在那里",
+      "pos": "副词",
+      "phonetic": "/ðeə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "But",
+      "relation": "承接上文的转折连词，说明接下来的内容和前文形成反差",
+      "meaning": "但是"
+    },
+    {
+      "text": "George's parrot, Henry,",
+      "relation": "句子的描述主体，其中亨利是鹦鹉的名字，用逗号隔开作为同位语补充说明鹦鹉的身份",
+      "meaning": "乔治的鹦鹉亨利"
+    },
+    {
+      "text": "was still there.",
+      "relation": "说明主体所处的状态，描述鹦鹉仍留在原地的位置情况",
+      "meaning": "还在那里"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-119",
+  "sentenceId": "nce-1-lesson-119-sentence-013",
+  "sentenceOrder": 13,
+  "english": "But George's parrot, Henry, was still there.",
+  "lesson": "Lesson 119 A true story",
+  "notes": [
+    {
+      "title": "同位语补充名字",
+      "text": "Henry 是 parrot 的同位语，前后用逗号隔开，说明这只鹦鹉的名字叫亨利，不是另一个独立主语。"
+    },
+    {
+      "title": "转折衔接",
+      "text": "But 承接上文盗贼已离开，形成“人走了，鹦鹉还在”的反差，still 强化“仍旧、还没走”的状态。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子解析整体准确，同位语、系表结构、转折连词的说明均符合语法规范，中英文对应正确；仅单词表中 Henry 后的逗号属于句子标点，不应作为该词条的一部分，去除即可。（非逐句人工审核）"
+}

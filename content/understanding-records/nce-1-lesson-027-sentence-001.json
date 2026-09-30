@@ -1,0 +1,106 @@
+{
+  "chinese": "史密斯太太的客厅很大。",
+  "intent": "说明史密斯太太家的客厅空间宽敞这一事实。",
+  "comparison": null,
+  "backbone": {
+    "text": "Mrs. Smith's living room is large",
+    "meaning": "史密斯太太的客厅很大"
+  },
+  "parts": [
+    {
+      "text": "Mrs. Smith's living room",
+      "relation": "整句话描述的主体",
+      "meaning": "史密斯太太的客厅"
+    },
+    {
+      "text": "is",
+      "relation": "连接主体和描述特征的系动词",
+      "meaning": "是"
+    },
+    {
+      "text": "large.",
+      "relation": "说明主语属性的形容词表语",
+      "meaning": "很大"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "名词所有格的所属关系",
+      "text": "Mrs. Smith's 用来表示所属关系，直接说明后面的living room归史密斯太太所有，不需要额外加中文里的“的”之外的标识。"
+    },
+    {
+      "title": "动名词作定语的用法",
+      "text": "这里的living不表示动作，而是修饰room，说明房间的功能是用作起居会客的，合起来就是固定说法“客厅”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Mrs. Smith's living room",
+      "role": "主语",
+      "explanation": "整句话围绕它展开描述的核心对象"
+    },
+    {
+      "text": "is large",
+      "role": "谓语部分",
+      "explanation": "用来表述主语具备的“空间大”这个特征"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "夫人（对已婚女性的尊称）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪsɪz/",
+      "text": "Mrs."
+    },
+    {
+      "meaning": "史密斯的（名词所有格表所属）",
+      "pos": "名词所有格",
+      "phonetic": "/smɪθs/",
+      "text": "Smith's"
+    },
+    {
+      "meaning": "起居用的",
+      "pos": "动名词",
+      "phonetic": "/ˈlɪvɪŋ/",
+      "text": "living"
+    },
+    {
+      "meaning": "房间",
+      "pos": "名词",
+      "phonetic": "/ruːm/",
+      "text": "room"
+    },
+    {
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "大的",
+      "pos": "形容词",
+      "phonetic": "/lɑːdʒ/",
+      "text": "large."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-27",
+  "sentenceId": "nce-1-lesson-027-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Mrs. Smith's living room is large.",
+  "lesson": "Lesson 27 Mrs. Smith's living room",
+  "notes": [
+    {
+      "title": "名词所有格的所属关系",
+      "text": "Mrs. Smith's 用来表示所属关系，直接说明后面的living room归史密斯太太所有，不需要额外加中文里的“的”之外的标识。"
+    },
+    {
+      "title": "动名词作定语的用法",
+      "text": "这里的living不表示动作，而是修饰room，说明房间的功能是用作起居会客的，合起来就是固定说法“客厅”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原学习数据整体框架合规，仅存在局部细节疏漏可明确修正，不影响核心教学逻辑。（非逐句人工审核）"
+}

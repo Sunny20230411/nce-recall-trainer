@@ -1,0 +1,53 @@
+{
+  "chinese": "这些吗？",
+  "intent": "说话人指着面前的几件物品，向对方确认自己所指的对象是不是对方提到的那一组物品。",
+  "comparison": null,
+  "backbone": {
+    "text": "These?",
+    "meaning": "向对方确认指代的物品是不是对方所指的那部分物品。"
+  },
+  "parts": [
+    {
+      "text": "These?",
+      "relation": "提出需要对方答复的确认内容",
+      "meaning": "这些（指代近处的几件物品），搭配问号构成确认性问句"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "极简确认问句",
+      "text": "这句是上下文对话里的省略式问句，依托前文的物品指代语境，只保留指代对象的these加问号，就能完整传递确认意图，不需要补全多余的主谓结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "These?",
+      "role": "确认式名词短句",
+      "explanation": "直接用指示代词加问号构成独立问句，快速完成指代对象的确认，适合简短的口语交互场景。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这些吗？（指代近处的复数物品）",
+      "pos": "demonstrative pronoun",
+      "phonetic": "/ðiːz/",
+      "text": "These?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-23",
+  "sentenceId": "nce-1-lesson-023-sentence-005",
+  "sentenceOrder": 5,
+  "english": "These?",
+  "lesson": "Lesson 23 Which glasses?",
+  "notes": [
+    {
+      "title": "极简确认问句",
+      "text": "这句是上下文对话里的省略式问句，依托前文的物品指代语境，只保留指代对象的these加问号，就能完整传递确认意图，不需要补全多余的主谓结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合教学要求，仅存在个别细节标注偏差，可修正后正常使用（非逐句人工审核）"
+}

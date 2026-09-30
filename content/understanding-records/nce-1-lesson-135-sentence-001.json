@@ -1,0 +1,156 @@
+{
+  "chinese": "艾伦，卡伦·马什打算退休吗？",
+  "intent": "向艾伦询问卡伦·马什是否有退休的计划。",
+  "comparison": {
+    "chinese": "中文把称呼“艾伦”放在句首，整句用疑问语气问是否有退休打算；英文称呼语 Alan 放在句末，be going to 结构用 Is 提前构成一般疑问句。",
+    "english": "Is Karen Marsh going to retire, Alan?",
+    "steps": [
+      {
+        "label": "先确定询问的核心事件",
+        "text": "Karen Marsh is going to retire.",
+        "explanation": "陈述句表达“卡伦·马什打算退休”，是问句还原后的基本事实框架。"
+      },
+      {
+        "label": "再变成一般疑问句",
+        "text": "Is Karen Marsh going to retire?",
+        "explanation": "把 Is 提到主语 Karen Marsh 之前，用来确认这件事是否属实，而不是问“正在退休”。"
+      },
+      {
+        "label": "最后带上对话对象",
+        "text": "..., Alan?",
+        "explanation": "Alan 放在句末，标明这句话是对艾伦说的；中文常把称呼放在句首，位置不同但作用相同。"
+      }
+    ],
+    "takeaway": "be going to 表示打算，一般疑问句把 be 动词移到主语前；称呼语位置不影响句子核心意思。"
+  },
+  "backbone": {
+    "text": "Is Karen Marsh going to retire?",
+    "meaning": "卡伦·马什是否打算退休？"
+  },
+  "structureNotes": [
+    {
+      "title": "be going to 表打算",
+      "text": "going to retire 不是“正在去退休”，而是表示未来计划，中文译为“打算退休”。"
+    },
+    {
+      "title": "一般疑问句语序",
+      "text": "Is 提到句首、主语 Karen Marsh 在中间，整体用来确认这件事，不是特殊疑问句。"
+    },
+    {
+      "title": "称呼语位置",
+      "text": "Alan 位于句末并带问号，是直接对话的称呼，不属于句子主干成分。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is",
+      "role": "be 动词的疑问形式",
+      "explanation": "与主语 Karen Marsh 一致，并和 going to retire 搭配构成一般疑问句，表示未来打算。"
+    },
+    {
+      "text": "Karen Marsh",
+      "role": "主语",
+      "explanation": "指被询问的人物，退休计划的发出者。"
+    },
+    {
+      "text": "going to retire",
+      "role": "谓语部分",
+      "explanation": "be going to + 动词原形，表示“打算退休”。"
+    },
+    {
+      "text": "Alan",
+      "role": "称呼语",
+      "explanation": "指明说话对象，句子主干不依赖它。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Is",
+      "meaning": "是（be动词第三人称单数现在时，此处用于构成疑问句）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "Karen",
+      "meaning": "卡伦（人名）",
+      "pos": "名词",
+      "phonetic": "/ˈkærən/"
+    },
+    {
+      "text": "Marsh",
+      "meaning": "马什（姓氏）",
+      "pos": "名词",
+      "phonetic": "/mɑːʃ/"
+    },
+    {
+      "text": "going",
+      "meaning": "去（与to搭配构成be going to结构，表打算）",
+      "pos": "动词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "到（与going搭配构成不定式标记）",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "retire,",
+      "meaning": "退休",
+      "pos": "动词",
+      "phonetic": "/rɪˈtaɪə/"
+    },
+    {
+      "text": "Alan?",
+      "meaning": "艾伦（人名）",
+      "pos": "名词",
+      "phonetic": "/ˈælən/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Is",
+      "meaning": "是（be动词第三人称单数现在时，此处用于构成一般疑问句，搭配going to表将来打算）",
+      "relation": "构成一般疑问句的标志，提示询问未来计划"
+    },
+    {
+      "text": "Karen Marsh",
+      "meaning": "卡伦·马什",
+      "relation": "句子询问的核心对象，即退休计划的主体"
+    },
+    {
+      "text": "going to retire,",
+      "meaning": "打算退休，",
+      "relation": "描述卡伦·马什的未来计划，是句子的核心事件"
+    },
+    {
+      "text": "Alan?",
+      "meaning": "艾伦？",
+      "relation": "对话的称呼对象，说明这句话是说给艾伦听的。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-135",
+  "sentenceId": "nce-1-lesson-135-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Is Karen Marsh going to retire, Alan?",
+  "lesson": "Lesson 135 The latest report",
+  "notes": [
+    {
+      "title": "be going to 表打算",
+      "text": "going to retire 不是“正在去退休”，而是表示未来计划，中文译为“打算退休”。"
+    },
+    {
+      "title": "一般疑问句语序",
+      "text": "Is 提到句首、主语 Karen Marsh 在中间，整体用来确认这件事，不是特殊疑问句。"
+    },
+    {
+      "title": "称呼语位置",
+      "text": "Alan 位于句末并带问号，是直接对话的称呼，不属于句子主干成分。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体主干、从句属性、翻译和比较框架基本正确；主要需把单词音标与分块中随词附着的标点分离，避免把逗号、问号当作单词本身的一部分，并让 Is 的语法角色更准确地说明为 be 动词的疑问形式。（非逐句人工审核）"
+}

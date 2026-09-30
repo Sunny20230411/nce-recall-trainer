@@ -1,0 +1,167 @@
+{
+  "chinese": "卡罗琳，这就是你接待的那个人吗？",
+  "intent": "说话人向卡罗琳当面核对确认：眼前的这名男子，是否就是卡罗琳之前接待过的那名男子。",
+  "comparison": {
+    "chinese": "中文先说称呼对方，再把描述内容揉进问句：这就是[你接待的]那个人吗？",
+    "english": "英文先把Be动词Is放到句首构成疑问框架，再依次带出this、被修饰的名词the man，最后才说出指代该男子的定语从句和句末呼语Caroline。",
+    "steps": [
+      {
+        "label": "先搭建疑问框架",
+        "text": "Is this the man?",
+        "explanation": "把Is提前到句首，先抛出最核心的判断问题：眼前的人是不是那名男子。"
+      },
+      {
+        "label": "接名词修饰",
+        "text": "this the man that you served",
+        "explanation": "that you served直接跟在the man后面，说明是“你接待过的”那个man；这里that指代被修饰的man，在从句里充当served的宾语。"
+      },
+      {
+        "label": "呼语放句末",
+        "text": "Caroline?",
+        "explanation": "把对话对象Caroline放在整句末尾，明确这句话是说给卡罗琳听的，不参与主句的核心疑问结构。"
+      }
+    ],
+    "takeaway": "中文习惯先喊人、再把人对应的描述放在名词前面做修饰；英文先靠Is提前完成疑问结构，从句跟在被修饰的名词后面，呼语放在句末。"
+  },
+  "backbone": {
+    "text": "Is this the man (that you served)?",
+    "meaning": "说话人核对眼前的对象，询问对方眼前的人是否就是此前接待过的那名男子。"
+  },
+  "structureNotes": [
+    {
+      "title": "that引导定语从句的功能",
+      "text": "关系词that紧跟在先行词the man之后，指代the man，在从句you served中充当及物动词served的宾语；因为关系词在从句里作宾语，这个that在口语里也可以省略，不影响句子的基本意思。"
+    },
+    {
+      "title": "一般疑问句的构成",
+      "text": "本句是主系表结构的一般疑问句，将be动词Is提到句首主语this的前面，把陈述句“这就是你接待过的那个男人”的判断语气，转换成向对方求证的疑问语气。"
+    },
+    {
+      "title": "呼语的位置",
+      "text": "句末的Caroline是对话呼语，用来明确问话的对象是卡罗琳，它和句子核心的疑问结构相互独立，不承担句子主干成分的语法功能。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is",
+      "role": "be动词（系动词）",
+      "explanation": "作为一般疑问句的标志，提前到主语前面，搭配后面的表语构成对事实的判断疑问，体现和this的主谓一致关系。"
+    },
+    {
+      "text": "this",
+      "role": "指示代词",
+      "explanation": "是这个疑问句的主语，指代说话人眼前的这名男子，是被判断的核心对象。"
+    },
+    {
+      "text": "the man",
+      "role": "名词短语作表语",
+      "explanation": "是句子主干判断的核心表语对象，后面由that引导的从句修饰限定这个man的具体属性。"
+    },
+    {
+      "text": "that you served",
+      "role": "限制性定语从句",
+      "explanation": "修饰先行词the man，that在从句中作served的宾语，说明这个男子就是卡罗琳此前接待过的人。"
+    },
+    {
+      "text": "Caroline",
+      "role": "呼语",
+      "explanation": "点明这句话的听话对象，放在疑问句末尾，不参与主句的语法结构。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Is",
+      "meaning": "是（be动词，与第三人称单数主语搭配）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "this",
+      "meaning": "这，这个",
+      "pos": "代词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指双方都知晓的）那，该",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "man",
+      "meaning": "男子，男人",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "that",
+      "meaning": "（关系代词，此处指代被修饰的男子，在从句中作宾语）",
+      "pos": "关系代词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "you",
+      "meaning": "你，你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "served,",
+      "meaning": "接待、服务（serve的过去式）",
+      "pos": "动词",
+      "phonetic": "/sɜːvd/"
+    },
+    {
+      "text": "Caroline?",
+      "meaning": "卡罗琳（人名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈkærəlaɪn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Is this",
+      "relation": "疑问引导部分，用be动词前置的形式引出对当前判断的提问",
+      "meaning": "这是不是……"
+    },
+    {
+      "text": "the man",
+      "relation": "句子的核心判断对象，是说话人要核对的具体主体",
+      "meaning": "那名男子"
+    },
+    {
+      "text": "that you served,",
+      "relation": "修饰前面的男子，补充说明这名男子的相关经历",
+      "meaning": "你之前接待过的"
+    },
+    {
+      "text": "Caroline?",
+      "relation": "对话呼语，点明这句话的接收对象",
+      "meaning": "卡罗琳"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-121",
+  "sentenceId": "nce-1-lesson-121-sentence-012",
+  "sentenceOrder": 12,
+  "english": "Is this the man that you served, Caroline?",
+  "lesson": "Lesson 121 The man in a hat",
+  "notes": [
+    {
+      "title": "that引导定语从句的功能",
+      "text": "关系词that紧跟在先行词the man之后，指代the man，在从句you served中充当及物动词served的宾语；因为关系词在从句里作宾语，这个that在口语里也可以省略，不影响句子的基本意思。"
+    },
+    {
+      "title": "一般疑问句的构成",
+      "text": "本句是主系表结构的一般疑问句，将be动词Is提到句首主语this的前面，把陈述句“这就是你接待过的那个男人”的判断语气，转换成向对方求证的疑问语气。"
+    },
+    {
+      "title": "呼语的位置",
+      "text": "句末的Caroline是对话呼语，用来明确问话的对象是卡罗琳，它和句子核心的疑问结构相互独立，不承担句子主干成分的语法功能。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合句子事实，主系表一般疑问句结构、that引导定语从句的句法功能、句末呼语Caroline的语法定位均正确，词义音标适配英式英语规范。仅存在两处可明确修正的细节：一是单词列表中served的音标后误挂了原句的逗号，Caroline条目下误挂了原句的问号，属于分块音标混入标点的问题；二是the man的结构说明中误用了描述主谓宾结构的“宾语”表述，该短语在主系表句中作表语，需要修正措辞保证语法术语准确，不影响整体解析的正确性。（非逐句人工审核）"
+}

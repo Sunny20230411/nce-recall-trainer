@@ -1,0 +1,117 @@
+{
+  "chinese": "房间里有几把扶手椅。",
+  "intent": "说明房间内存在若干扶手椅这一事实，属于场景物品状态的客观描述。",
+  "comparison": null,
+  "backbone": {
+    "text": "There are some armchairs",
+    "meaning": "存在一些扶手椅"
+  },
+  "parts": [
+    {
+      "text": "There are",
+      "relation": "引出存在状态",
+      "meaning": "存在（there be句型固定起始表达）"
+    },
+    {
+      "text": "some armchairs",
+      "relation": "说明存在的具体事物",
+      "meaning": "几把扶手椅"
+    },
+    {
+      "text": "in the room.",
+      "relation": "补充扶手椅所在的位置",
+      "meaning": "在房间里"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "There be句型的用法",
+      "text": "这里的There没有实际指代地点的含义，和后面的are搭配，用来表示某个空间范围内存在某物。"
+    },
+    {
+      "title": "介词短语的位置作用",
+      "text": "in the room放在句末，用来明确说明前面提到的扶手椅所处的具体空间范围。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There are",
+      "role": "存在引导框架",
+      "explanation": "用于开启存在描述，提示接下来要说明某个空间内有什么事物"
+    },
+    {
+      "text": "some armchairs",
+      "role": "存在主体",
+      "explanation": "是句子描述的核心存在对象，说明具体存在的物品"
+    },
+    {
+      "text": "in the room",
+      "role": "地点状语",
+      "explanation": "限定了扶手椅的所在位置，把存在的范围明确到这个房间内"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（there be句型的虚启词，无实际词义）",
+      "pos": "引导词",
+      "phonetic": "/ðeə/",
+      "text": "There"
+    },
+    {
+      "meaning": "有、存在",
+      "pos": "动词",
+      "phonetic": "/ɑː/",
+      "text": "are"
+    },
+    {
+      "meaning": "一些、几把",
+      "pos": "限定词",
+      "phonetic": "/sʌm/",
+      "text": "some"
+    },
+    {
+      "meaning": "扶手椅（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈɑːmtʃeəz/",
+      "text": "armchairs"
+    },
+    {
+      "meaning": "在…里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这个、该",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "房间",
+      "pos": "名词",
+      "phonetic": "/ruːm/",
+      "text": "room."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-27",
+  "sentenceId": "nce-1-lesson-027-sentence-007",
+  "sentenceOrder": 7,
+  "english": "There are some armchairs in the room.",
+  "lesson": "Lesson 27 Mrs. Smith's living room",
+  "notes": [
+    {
+      "title": "There be句型的用法",
+      "text": "这里的There没有实际指代地点的含义，和后面的are搭配，用来表示某个空间范围内存在某物。"
+    },
+    {
+      "title": "介词短语的位置作用",
+      "text": "in the room放在句末，用来明确说明前面提到的扶手椅所处的具体空间范围。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原有解析核心语义准确，仅存在少量细节疏漏与规范偏差，可通过补丁修正后符合面向中文母语成年人的英语教学解析要求。（非逐句人工审核）"
+}

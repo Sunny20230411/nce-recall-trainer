@@ -1,0 +1,179 @@
+{
+  "chinese": "此刻，他在马德里。他一星期前飞往西班牙。",
+  "intent": "陈述人物当前所处的位置，以及一周前他坐飞机前往西班牙的出行事实，按时间顺序补充他的近期行程情况。",
+  "comparison": {
+    "chinese": "此刻他在马德里，他是一星期前飞往西班牙的。",
+    "english": "At the moment, he's in Madrid. He flew to Spain a week ago.",
+    "steps": [
+      {
+        "label": "时间状语的位置与语序对应",
+        "text": "At the moment / a week ago",
+        "explanation": "第一句的时间状语at the moment位于句首，第二句的时间状语a week ago位于句末；中文翻译时为了符合表达习惯，可把第二句的时间词“一星期前”调整到主语之后、动作之前，不改变原意。"
+      },
+      {
+        "label": "主干语序对应",
+        "text": "he's in Madrid / He flew to Spain",
+        "explanation": "英文两句的主干都是先说主语he，再接状态或动作，中文也对应“他在马德里／他飞往西班牙”，主干语序和英文基本一致。"
+      }
+    ],
+    "takeaway": "这两句主干语序和中文表达习惯接近，仅需注意a week ago位于句末，翻译时可根据中文习惯把时间词调整到动作之前，无需刻意调整主干词序。"
+  },
+  "backbone": {
+    "text": "He is in Madrid. He flew to Spain.",
+    "meaning": "他现在身处马德里，一周前他乘坐飞机前往西班牙。"
+  },
+  "structureNotes": [
+    {
+      "title": "两句时态的时间参照",
+      "text": "第一句用一般现在时he's，配合at the moment说明当前的状态；第二句用一般过去时flew，配合a week ago说明一周前已经发生的出行动作，两个时间标记帮助我们区分不同时间点的事实。"
+    },
+    {
+      "title": "时间短语的位置",
+      "text": "at the moment放在第一句句首，a week ago放在第二句句末，分别用来明确对应句子所述事实的时间点，不改变句子主干的意思。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "At the moment",
+      "role": "句首时间状语",
+      "explanation": "用介词短语说明第一句所述状态发生的当前时间，意思是“此刻、现在”。"
+    },
+    {
+      "text": "he's in Madrid",
+      "role": "第一句主干",
+      "explanation": "he's是he is的缩写，be动词接地点介词短语in Madrid，构成主系表结构，说明他当前所在的地点是马德里。"
+    },
+    {
+      "text": "He flew to Spain",
+      "role": "第二句主干",
+      "explanation": "flew是动词fly的过去式，to Spain表示飞往的目的地，陈述过去发生的飞行出行动作。"
+    },
+    {
+      "text": "a week ago",
+      "role": "句末时间状语",
+      "explanation": "用ago搭配时间段，说明flew这个动作发生在距离说话时间一星期之前。"
+    }
+  ],
+  "words": [
+    {
+      "text": "At",
+      "meaning": "在（固定搭配at the moment中）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，用于特指当下的这个时刻，无实义，帮助构成固定搭配at the moment）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "moment,",
+      "meaning": "时刻、当下，其后带逗号",
+      "pos": "名词",
+      "phonetic": "/ˈməʊmənt/"
+    },
+    {
+      "text": "he's",
+      "meaning": "他是（he is的缩写）",
+      "pos": "代词+be动词缩写",
+      "phonetic": "/hiːz/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（表地点）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "Madrid.",
+      "meaning": "马德里（西班牙首都），其后带句点",
+      "pos": "专有名词",
+      "phonetic": "/məˈdrɪd/"
+    },
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "flew",
+      "meaning": "飞（fly的过去式）",
+      "pos": "动词",
+      "phonetic": "/fluː/"
+    },
+    {
+      "text": "to",
+      "meaning": "到、向（搭配飞行动作表去往的目的地）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "Spain",
+      "meaning": "西班牙",
+      "pos": "专有名词",
+      "phonetic": "/speɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一、一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "week",
+      "meaning": "星期、一周",
+      "pos": "名词",
+      "phonetic": "/wiːk/"
+    },
+    {
+      "text": "ago.",
+      "meaning": "以前（常置于时间段后表过去）",
+      "pos": "副词",
+      "phonetic": "/əˈɡəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "At the moment,",
+      "relation": "点明第一句所述状态的当前时间。",
+      "meaning": "此刻"
+    },
+    {
+      "text": "he's in Madrid.",
+      "relation": "核心陈述当前所处的地点状态。",
+      "meaning": "他在马德里。"
+    },
+    {
+      "text": "He flew to Spain",
+      "relation": "核心陈述一周前发生的飞行出行动作与目的地。",
+      "meaning": "他飞往西班牙"
+    },
+    {
+      "text": "a week ago.",
+      "relation": "说明飞行动作发生的具体过去时间。",
+      "meaning": "一星期前。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-93",
+  "sentenceId": "nce-1-lesson-093-sentence-005",
+  "sentenceOrder": 5,
+  "english": "At the moment, he's in Madrid. He flew to Spain a week ago.",
+  "lesson": "Lesson 93 Our new neighbour",
+  "notes": [
+    {
+      "title": "两句时态的时间参照",
+      "text": "第一句用一般现在时he's，配合at the moment说明当前的状态；第二句用一般过去时flew，配合a week ago说明一周前已经发生的出行动作，两个时间标记帮助我们区分不同时间点的事实。"
+    },
+    {
+      "title": "时间短语的位置",
+      "text": "at the moment放在第一句句首，a week ago放在第二句句末，分别用来明确对应句子所述事实的时间点，不改变句子主干的意思。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体框架完整，核心语法关系、词义、翻译均准确，仅存在三处可明确修正的问题：一是note中对时间短语位置的描述与原文不符，其中a week ago实际位于第二句句末而非句首；二是词汇表中对定冠词the的释义过于模糊，不符合成年中文母语学习者的理解需求；三是比较步骤中对两句语序的描述存在偏差，第一句的时间状语位于句首但主语在前、状态在后，第二句主语在前、时间状语位于句末，并非两句时间状语都前置、完全对应中文语序，需要修正使其符合原文语序实际。（非逐句人工审核）"
+}

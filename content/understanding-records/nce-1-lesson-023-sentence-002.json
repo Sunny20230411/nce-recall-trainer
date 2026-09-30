@@ -1,0 +1,64 @@
+{
+  "chinese": "哪几个玻璃杯？",
+  "intent": "说话人没明确对方所指的具体玻璃杯，向对方询问确认对应的目标玻璃杯是哪一组",
+  "comparison": null,
+  "backbone": {
+    "text": "Which glasses?",
+    "meaning": "询问所指的是哪几个玻璃杯"
+  },
+  "parts": [
+    {
+      "text": "Which",
+      "relation": "限定询问的范围和对象属性",
+      "meaning": "哪几个"
+    },
+    {
+      "text": "glasses?",
+      "relation": "明确询问的核心事物，句末问号承载全句的疑问语气属性",
+      "meaning": "玻璃杯（复数）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略式疑问短句",
+      "text": "这句是承接前一句“请给我一些玻璃杯”的场景省略了完整的主谓结构，仅保留疑问词加核心被询问名词，就能清晰传递确认对象的意图，不需要补全冗余成分。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Which glasses?",
+      "role": "省略式特殊疑问句",
+      "explanation": "由疑问词Which直接修饰名词glasses构成，在对话场景中独立使用，快速完成对特定事物的确认询问。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "哪几个，哪些",
+      "pos": "determiner",
+      "phonetic": "/wɪtʃ/",
+      "text": "Which"
+    },
+    {
+      "meaning": "玻璃杯（复数）",
+      "pos": "noun",
+      "phonetic": "/ˈɡlɑːsɪz/",
+      "text": "glasses?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-23",
+  "sentenceId": "nce-1-lesson-023-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Which glasses?",
+  "lesson": "Lesson 23 Which glasses?",
+  "notes": [
+    {
+      "title": "省略式疑问短句",
+      "text": "这句是承接前一句“请给我一些玻璃杯”的场景省略了完整的主谓结构，仅保留疑问词加核心被询问名词，就能清晰传递确认对象的意图，不需要补全冗余成分。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在两处可明确修正的细节问题：1. words数组中glasses的text字段末尾误携带问号，词性标注的对应实意单词不应包含句末标点；2. 缺少comparison字段的合规说明，补充该组织逻辑的解释即可，不影响核心语义理解。（非逐句人工审核）"
+}

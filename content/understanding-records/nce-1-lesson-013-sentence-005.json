@@ -1,0 +1,89 @@
+{
+  "chinese": "看！在这儿！",
+  "intent": "提醒对方留意视线范围内刚刚出现的事物，告知目标物品就在此处",
+  "comparison": null,
+  "backbone": {
+    "text": "Look! Here it is!",
+    "meaning": "提醒他人看过去，同时指出寻找的事物就在眼前"
+  },
+  "parts": [
+    {
+      "text": "Look!",
+      "relation": "前置提醒动作",
+      "meaning": "唤起对方的注意，让对方看向指示的方向"
+    },
+    {
+      "text": "Here it is!",
+      "relation": "补充说明提醒对方看的具体内容",
+      "meaning": "点明对方正在寻找的事物当下就在此处"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "倒装结构调整",
+      "text": "Here it is没有用常规的Here is it语序，代词it作主语时不需要把谓语完全移到主语前，符合口语指物的习惯"
+    },
+    {
+      "title": "句末感叹号的作用",
+      "text": "两个分句都带感叹标记，强化找到目标物时的兴奋感，不是普通的平铺直叙"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Look!",
+      "role": "祈使式感叹分句",
+      "explanation": "简短的口语唤起指令，直接引导接收者的视线转向"
+    },
+    {
+      "text": "Here it is!",
+      "role": "指物存在倒装分句",
+      "explanation": "用方位副词Here开头，以代词it指代前文提到的事物，明确告知目标的位置"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "看！",
+      "pos": "感叹动词",
+      "phonetic": "/lʊk/",
+      "text": "Look!"
+    },
+    {
+      "meaning": "在这里",
+      "pos": "地点副词",
+      "phonetic": "/hɪə(r)/",
+      "text": "Here"
+    },
+    {
+      "meaning": "它",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/",
+      "text": "it"
+    },
+    {
+      "meaning": "在",
+      "pos": "be动词",
+      "phonetic": "/ɪz/",
+      "text": "is!"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-13",
+  "sentenceId": "nce-1-lesson-013-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Look! Here it is!",
+  "lesson": "Lesson 13 A new dress",
+  "notes": [
+    {
+      "title": "倒装结构调整",
+      "text": "Here it is没有用常规的Here is it语序，代词it作主语时不需要把谓语完全移到主语前，符合口语指物的习惯"
+    },
+    {
+      "title": "句末感叹号的作用",
+      "text": "两个分句都带感叹标记，强化找到目标物时的兴奋感，不是普通的平铺直叙"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合面向中文母语成年人的英语解析要求，仅存在局部细节错误可明确修正（非逐句人工审核）"
+}

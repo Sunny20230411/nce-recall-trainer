@@ -1,0 +1,75 @@
+{
+  "chinese": "进来，艾米。",
+  "intent": "招呼听话人艾米进到当前所在的空间内，是一句日常场景下的直接指令。",
+  "comparison": null,
+  "backbone": {
+    "text": "Come in, Amy.",
+    "meaning": "直接向艾米发出进来的指令"
+  },
+  "parts": [
+    {
+      "text": "Come in,",
+      "relation": "核心指令内容",
+      "meaning": "进来这个动作"
+    },
+    {
+      "text": "Amy.",
+      "relation": "明确这个招呼是对着谁发出的",
+      "meaning": "指令的接收者艾米"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "祈使句省略主语",
+      "text": "这是面向第二人称的日常指令，默认动作发出者是听话人you，不需要写出主语就能让对方清晰明白指令指向。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Come in",
+      "role": "祈使句谓语短语",
+      "explanation": "由不及物动词come和副词in搭配构成的固定短语，表达‘进来’的动作指令"
+    },
+    {
+      "text": "Amy",
+      "role": "呼语",
+      "explanation": "用来点明这句指令的接收对象，提醒对方注意当前发出的招呼"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "来",
+      "pos": "动词",
+      "phonetic": "/kʌm/",
+      "text": "Come"
+    },
+    {
+      "meaning": "进（与come搭配表进入空间）",
+      "pos": "副词",
+      "phonetic": "/ɪn/",
+      "text": "in,"
+    },
+    {
+      "meaning": "艾米（人名）",
+      "pos": "名词",
+      "phonetic": "/ˈeɪmi/",
+      "text": "Amy."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-29",
+  "sentenceId": "nce-1-lesson-029-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Come in, Amy.",
+  "lesson": "Lesson 29 Come in, Amy.",
+  "notes": [
+    {
+      "title": "祈使句省略主语",
+      "text": "这是面向第二人称的日常指令，默认动作发出者是听话人you，不需要写出主语就能让对方清晰明白指令指向。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本合规，仅存在部分细节表述、标点冗余及信息重复的可优化点，可明确修正（非逐句人工审核）"
+}

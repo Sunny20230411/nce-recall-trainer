@@ -1,0 +1,99 @@
+{
+  "chinese": "我妻子总是担心。",
+  "intent": "陈述自己妻子长期处于担忧的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "My wife is always worried.",
+    "meaning": "我的妻子一直处于担心的状态。"
+  },
+  "structureNotes": [
+    {
+      "title": "缩略形式拆解",
+      "text": "句中的 wife's 是 wife is 的缩写，完整结构为主语 My wife + be动词 is + 表语 worried，always 作为频率副词放在 be 动词之后。"
+    },
+    {
+      "title": "表语描述状态",
+      "text": "worried 是形容词化的过去分词，在句中作表语，描述主语妻子的情绪状态，而非正在进行的“担心”这个动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My wife",
+      "role": "主语",
+      "explanation": "句子描述的核心对象，指说话人的妻子。"
+    },
+    {
+      "text": "'s",
+      "role": "系动词（缩写形式）",
+      "explanation": "是 is 的缩略，起连接主语和表语的作用，本句中与后面的 worried 构成系表结构。"
+    },
+    {
+      "text": "always",
+      "role": "频率状语",
+      "explanation": "放在系动词之后，修饰整个系表结构，说明“担心”的状态是长期、一贯存在的。"
+    },
+    {
+      "text": "worried",
+      "role": "表语",
+      "explanation": "说明主语妻子的情绪状态是担忧的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "My",
+      "meaning": "我的",
+      "pos": "限定词（形容词性物主代词）",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "wife's",
+      "meaning": "妻子是（wife is 的缩写）",
+      "pos": "名词+系动词缩写",
+      "phonetic": "/waɪfs/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是；一直",
+      "pos": "频率副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "worried.",
+      "meaning": "担心的；焦虑的",
+      "pos": "形容词（过去分词转化）",
+      "phonetic": "/ˈwʌrid/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "My wife's",
+      "meaning": "我的妻子（是）",
+      "relation": "描述的核心对象，由名词 My wife 与系动词缩写 's 共同构成主语部分，引出后续状态描述。"
+    },
+    {
+      "text": "always worried.",
+      "meaning": "总是担心。",
+      "relation": "补充说明主语的长期情绪状态。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-83",
+  "sentenceId": "nce-1-lesson-083-sentence-017",
+  "sentenceOrder": 17,
+  "english": "My wife's always worried.",
+  "lesson": "Lesson 83 Going on holiday",
+  "notes": [
+    {
+      "title": "缩略形式拆解",
+      "text": "句中的 wife's 是 wife is 的缩写，完整结构为主语 My wife + be动词 is + 表语 worried，always 作为频率副词放在 be 动词之后。"
+    },
+    {
+      "title": "表语描述状态",
+      "text": "worried 是形容词化的过去分词，在句中作表语，描述主语妻子的情绪状态，而非正在进行的“担心”这个动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容完整，句子理解、语法标注、词汇解析均符合语境，仅存在两处细节拼写与词义标注问题需要修正。（非逐句人工审核）"
+}

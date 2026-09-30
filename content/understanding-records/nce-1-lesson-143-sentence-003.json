@@ -1,0 +1,219 @@
+{
+  "chinese": "每逢星期天，数百人从城里来到我们镇上参观，并穿过树林散步。",
+  "intent": "说明这个著名景点在周日吸引城区游客到访的常规活动。",
+  "comparison": null,
+  "backbone": {
+    "text": "Hundreds of people come from the city to see our town and to walk through the woods.",
+    "meaning": "数百人从城里来到这里，游览我们的小镇，再穿过树林散步。"
+  },
+  "structureNotes": [
+    {
+      "title": "不定式表目的",
+      "text": "to see our town 与 to walk through the woods 由 and 并列，分别说明人们前来要做的两件事，先看小镇再穿林散步。"
+    },
+    {
+      "title": "hundreds of 的约数表达",
+      "text": "hundreds of 是固定约数说法，表示“数以百计的、好几百的”，不是精确算出的具体数字。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "On Sundays",
+      "role": "时间状语",
+      "explanation": "表示这是每周日常态发生的规律性时间，不是某一个星期天的偶发事件。"
+    },
+    {
+      "text": "hundreds of people",
+      "role": "句子主语",
+      "explanation": "hundreds of 作限定修饰，表示“数百个、好几百的”，中心名词是 people。"
+    },
+    {
+      "text": "come",
+      "role": "谓语动词",
+      "explanation": "使用一般现在时，匹配周日反复出现的常态化行为。"
+    },
+    {
+      "text": "from the city",
+      "role": "地点来源状语",
+      "explanation": "说明 people 出发的地点是城里。"
+    },
+    {
+      "text": "to see our town and to walk through the woods",
+      "role": "并列目的状语",
+      "explanation": "两个带 to 的不定式由并列连词and连接，共同作状语修饰谓语come，说明人们出行要达成的两个目的；其中through the woods补充说明walk的行进路线是穿过树林。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "在（具体某天）",
+      "pos": "介词",
+      "phonetic": "/ɒn/",
+      "text": "On"
+    },
+    {
+      "meaning": "星期天（复数，表每个周日）",
+      "pos": "名词",
+      "phonetic": "/ˈsʌndɪz/",
+      "text": "Sundays,"
+    },
+    {
+      "meaning": "（复数）好几百、成百",
+      "pos": "数词",
+      "phonetic": "/ˈhʌndrədz/",
+      "text": "hundreds"
+    },
+    {
+      "meaning": "属于……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "人们",
+      "pos": "名词",
+      "phonetic": "/ˈpiːpl/",
+      "text": "people"
+    },
+    {
+      "meaning": "来",
+      "pos": "动词",
+      "phonetic": "/kʌm/",
+      "text": "come"
+    },
+    {
+      "meaning": "从……（表来源）",
+      "pos": "介词",
+      "phonetic": "/frɒm/",
+      "text": "from"
+    },
+    {
+      "meaning": "定冠词，表特指",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "城市",
+      "pos": "名词",
+      "phonetic": "/ˈsɪti/",
+      "text": "city"
+    },
+    {
+      "meaning": "去（引出不定式表目的）",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "参观、游览",
+      "pos": "动词",
+      "phonetic": "/siː/",
+      "text": "see"
+    },
+    {
+      "meaning": "我们的",
+      "pos": "限定词",
+      "phonetic": "/ˈaʊə(r)/",
+      "text": "our"
+    },
+    {
+      "meaning": "小镇",
+      "pos": "名词",
+      "phonetic": "/taʊn/",
+      "text": "town"
+    },
+    {
+      "meaning": "和、并且",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "去（引出不定式表目的）",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "散步、走",
+      "pos": "动词",
+      "phonetic": "/wɔːk/",
+      "text": "walk"
+    },
+    {
+      "meaning": "穿过、从……中走过",
+      "pos": "介词",
+      "phonetic": "/θruː/",
+      "text": "through"
+    },
+    {
+      "meaning": "定冠词，表特指",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "树林、林地",
+      "pos": "名词",
+      "phonetic": "/wʊdz/",
+      "text": "woods."
+    }
+  ],
+  "parts": [
+    {
+      "text": "On Sundays,",
+      "relation": "时间",
+      "meaning": "每逢星期天"
+    },
+    {
+      "text": "hundreds of people",
+      "relation": "描述谁",
+      "meaning": "好几百人"
+    },
+    {
+      "text": "come",
+      "relation": "核心动作",
+      "meaning": "来到"
+    },
+    {
+      "text": "from the city",
+      "relation": "补充什么",
+      "meaning": "从城里"
+    },
+    {
+      "text": "to see our town",
+      "relation": "目的",
+      "meaning": "参观我们的小镇"
+    },
+    {
+      "text": "and to walk",
+      "relation": "目的",
+      "meaning": "并散步"
+    },
+    {
+      "text": "through the woods.",
+      "relation": "补充什么",
+      "meaning": "穿过那片树林"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-143",
+  "sentenceId": "nce-1-lesson-143-sentence-003",
+  "sentenceOrder": 3,
+  "english": "On Sundays, hundreds of people come from the city to see our town and to walk through the woods.",
+  "lesson": "Lesson 143 A walk through the woods",
+  "notes": [
+    {
+      "title": "不定式表目的",
+      "text": "to see our town 与 to walk through the woods 由 and 并列，分别说明人们前来要做的两件事，先看小镇再穿林散步。"
+    },
+    {
+      "title": "hundreds of 的约数表达",
+      "text": "hundreds of 是固定约数说法，表示“数以百计的、好几百的”，不是精确算出的具体数字。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原翻译、词汇音标、结构分析均符合课文语境，整体表述准确。仅存在一处结构细节可以优化：并列目的状语部分应明确两个不定式由并列连词and连接，整体修饰谓语动词come，更清晰地说明出行目的的语法关系；其余内容无错误，准予通过。（非逐句人工审核）"
+}

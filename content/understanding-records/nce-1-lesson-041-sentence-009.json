@@ -1,0 +1,81 @@
+{
+  "chinese": "一块巧克力。",
+  "intent": "说明巧克力的数量计量单位，指出这是整根条形的巧克力。",
+  "comparison": null,
+  "backbone": {
+    "text": "A bar of chocolate",
+    "meaning": "一整根条形的巧克力块"
+  },
+  "parts": [
+    {
+      "text": "A bar",
+      "relation": "限定巧克力的计量形式",
+      "meaning": "一根/一块（条状物的计量单位）"
+    },
+    {
+      "text": "of",
+      "relation": "连接计量修饰和核心事物",
+      "meaning": "用于衔接计量单位和被计量的事物"
+    },
+    {
+      "text": "chocolate.",
+      "relation": "明确被计量的核心物品",
+      "meaning": "巧克力"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "不可数名词计量规则",
+      "text": "chocolate作为不可数名词，不能直接搭配不定冠词a，需要借助单位量词a bar of来表达具体的一整根条装巧克力。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A bar of",
+      "role": "数量计量短语",
+      "explanation": "专门用于描述长条形块状物品的数量单位，此处用来修饰巧克力，指明是条装的整块形态"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "一（个）",
+      "pos": "determiner",
+      "phonetic": "/ə/",
+      "text": "A"
+    },
+    {
+      "meaning": "条、块（计量单位）",
+      "pos": "noun",
+      "phonetic": "/bɑː(r)/",
+      "text": "bar"
+    },
+    {
+      "meaning": "（表示所属、衔接）……的",
+      "pos": "preposition",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "巧克力",
+      "pos": "noun",
+      "phonetic": "/ˈtʃɒklət/",
+      "text": "chocolate."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-41",
+  "sentenceId": "nce-1-lesson-041-sentence-009",
+  "sentenceOrder": 9,
+  "english": "A bar of chocolate.",
+  "lesson": "Lesson 41 Penny's bag",
+  "notes": [
+    {
+      "title": "不可数名词计量规则",
+      "text": "chocolate作为不可数名词，不能直接搭配不定冠词a，需要借助单位量词a bar of来表达具体的一整根条装巧克力。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本合规，仅存在少量细节偏差可修正，未出现核心语法或概念错误（非逐句人工审核）"
+}

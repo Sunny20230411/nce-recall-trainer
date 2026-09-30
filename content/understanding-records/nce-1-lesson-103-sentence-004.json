@@ -1,0 +1,93 @@
+{
+  "chinese": "我答对了五十道。",
+  "intent": "在询问考试成绩的语境中，说话人简洁告知自己本次法语考试答对的题数。",
+  "comparison": null,
+  "backbone": {
+    "text": "I got fifty.",
+    "meaning": "我（在考试里）拿到/答对了五十道题。"
+  },
+  "structureNotes": [
+    {
+      "title": "口语省略语境补全",
+      "text": "本句处于法语考试成绩交流的语境中，fifty指代fifty correct answers，也就是五十道答对的题目，got对应“获得、得到（分数/正确题数）”，无需逐字翻译成“我得到了五十”。"
+    },
+    {
+      "title": "got的口语化用法",
+      "text": "这里的got是口语化表达，相当于obtained，特指考试中得到的正确题数或分数，不表示具体拥有某个物品。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人本人。"
+    },
+    {
+      "text": "got",
+      "role": "谓语",
+      "explanation": "在本语境中表示“获得、答对（题目）”，是口语中描述考试得分的常用表达。"
+    },
+    {
+      "text": "fifty.",
+      "role": "宾语",
+      "explanation": "此处fifty后省略了correct answers，指代五十道答对的题目，句末点号表示陈述语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "got",
+      "meaning": "获得、得到、答对",
+      "pos": "动词（get的过去式）",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "fifty.",
+      "meaning": "五十（此处指五十道答对的题目）",
+      "pos": "数词",
+      "phonetic": "/ˈfɪfti/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "动作发出者，指代说话人本人"
+    },
+    {
+      "text": "got",
+      "meaning": "获得、答对（为get的一般过去式）",
+      "relation": "句子核心动作，说明说话人取得的状态"
+    },
+    {
+      "text": "fifty.",
+      "meaning": "五十道（答对的题目）",
+      "relation": "补充说明动作的具体内容，省略了correct answers"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-004",
+  "sentenceOrder": 4,
+  "english": "I got fifty.",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "口语省略语境补全",
+      "text": "本句处于法语考试成绩交流的语境中，fifty指代fifty correct answers，也就是五十道答对的题目，got对应“获得、得到（分数/正确题数）”，无需逐字翻译成“我得到了五十”。"
+    },
+    {
+      "title": "got的口语化用法",
+      "text": "这里的got是口语化表达，相当于obtained，特指考试中得到的正确题数或分数，不表示具体拥有某个物品。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合法语考试成绩交流的语境，主干、词汇、分块、结构标注均合理，仅存在两处小瑕疵：一是fifty.的音标错误地把句末点号并入了音标内容，二是未说明got为get的一般过去式，时态信息表述缺失，其余内容均准确无需调整。（非逐句人工审核）"
+}

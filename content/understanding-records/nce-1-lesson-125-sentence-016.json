@@ -1,0 +1,149 @@
+{
+  "chinese": "那就是说你不需要给花园浇水了。",
+  "intent": "承接前一句正在下雨的前提，推导并说明当下无需手动给花园浇水的结论，把下雨的事实和不用浇水的结果关联起来。",
+  "comparison": null,
+  "backbone": {
+    "text": "That means you don't need to water the garden.",
+    "meaning": "那件事说明你不需要给花园浇水了。"
+  },
+  "structureNotes": [
+    {
+      "title": "mean 后接整句作宾语",
+      "text": "That 指代前一句的 It's raining，means 后面没有 that 引导，直接接完整从句 you don't need…，表达“那意味着某事”的推论关系。"
+    },
+    {
+      "title": "need to 表示必要性",
+      "text": "need to do sth. 表示“需要做某事”，don't need to 即“不必、不需要”，说明浇水是可以免去的行为，而非完全禁止。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That",
+      "role": "主语",
+      "explanation": "指代前文提到的正在下雨这件事，是句子描述的推论依据。"
+    },
+    {
+      "text": "means",
+      "role": "谓语",
+      "explanation": "表达“意味着、也就是说”的推论含义，连接前提和后续结论。"
+    },
+    {
+      "text": "you don't need to water the garden.",
+      "role": "宾语从句",
+      "explanation": "作 means 的宾语，直接给出推论出的结论。"
+    },
+    {
+      "text": "you",
+      "role": "宾语从句主语",
+      "explanation": "从句里的动作主体，指向和说话人对话的对象。"
+    },
+    {
+      "text": "don't need to water",
+      "role": "宾语从句谓语",
+      "explanation": "从句的核心表述，说明主语没有做某事的必要。"
+    },
+    {
+      "text": "the garden",
+      "role": "宾语",
+      "explanation": "water 动作的对象，即需要被浇灌的花园。"
+    }
+  ],
+  "words": [
+    {
+      "text": "That",
+      "meaning": "那（指代前述正在下雨这件事）",
+      "pos": "代词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "means",
+      "meaning": "意味着，意思是",
+      "pos": "动词",
+      "phonetic": "/miːnz/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "don't",
+      "meaning": "不，没有（do not 的缩写）",
+      "pos": "助动词（与 not 缩写）",
+      "phonetic": "/dəʊnt/"
+    },
+    {
+      "text": "need",
+      "meaning": "需要",
+      "pos": "动词",
+      "phonetic": "/niːd/"
+    },
+    {
+      "text": "to",
+      "meaning": "（用于连接动词原形，构成不定式）",
+      "pos": "不定式符号",
+      "phonetic": "/tə/"
+    },
+    {
+      "text": "water",
+      "meaning": "浇水，洒水",
+      "pos": "动词",
+      "phonetic": "/ˈwɔːtə/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指双方都知道的那个花园）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "garden.",
+      "meaning": "花园",
+      "pos": "名词",
+      "phonetic": "/ˈɡɑːdn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "That means",
+      "relation": "主语加谓语，引出后续推论的核心表述。",
+      "meaning": "那意味着"
+    },
+    {
+      "text": "you don't need",
+      "relation": "说明从句的主体与对动作必要性的否定。",
+      "meaning": "你不需要"
+    },
+    {
+      "text": "to water",
+      "relation": "need to 后接的动作，说明被免去的具体行为。",
+      "meaning": "给……浇水"
+    },
+    {
+      "text": "the garden.",
+      "relation": "浇水动作的具体对象。",
+      "meaning": "花园。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-125",
+  "sentenceId": "nce-1-lesson-125-sentence-016",
+  "sentenceOrder": 16,
+  "english": "That means you don't need to water the garden.",
+  "lesson": "Lesson 125 Tea for two",
+  "notes": [
+    {
+      "title": "mean 后接整句作宾语",
+      "text": "That 指代前一句的 It's raining，means 后面没有 that 引导，直接接完整从句 you don't need…，表达“那意味着某事”的推论关系。"
+    },
+    {
+      "title": "need to 表示必要性",
+      "text": "need to do sth. 表示“需要做某事”，don't need to 即“不必、不需要”，说明浇水是可以免去的行为，而非完全禁止。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句翻译、主干、结构说明、词义分块整体成立。仅分词表中 garden. 的音标末尾误带了多余的英文句号，需去掉该标点；其余指代、从句分析、必要性表达均与上下文一致。（非逐句人工审核）"
+}

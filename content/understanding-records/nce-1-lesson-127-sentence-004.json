@@ -1,0 +1,208 @@
+{
+  "chinese": "她在1970年不可能是二十九岁。她那时一定是三十九岁。",
+  "intent": "对过去某一年份的年龄做出逻辑推断，先否定二十九岁的可能，再给出最合理的年龄结论。",
+  "comparison": {
+    "chinese": "中文一般把“在1970年”放在句首或主语后，先交代时间，再讲否定判断和合理结论。",
+    "english": "英语把推测判断的核心结构 can't have been / must have been 放在主语后，时间状语 in 1970 常放在句末；它通常不插在 have been 和年龄表语之间，但不能绝对说所有同类时间状语都只能放在句末。",
+    "steps": [
+      {
+        "label": "第一步：先确定判断的核心框架",
+        "text": "can't have been 表示对过去情况的否定推测，must have been 表示对过去情况的肯定推测，后面接表语说明主语当时的属性。",
+        "explanation": "这两个结构整体表达“不可能已经是……”“一定已经是……”，不能拆成“不能有”“必须有”这类字面翻译。"
+      },
+      {
+        "label": "第二步：补全被判断的内容",
+        "text": "be 动词后接年龄 twenty-nine / thirty-nine 作表语，说明主语当时的年龄。",
+        "explanation": "She can't have been twenty-nine 的意思就是“她当时不可能是二十九岁”。"
+      },
+      {
+        "label": "第三步：处理时间信息的位置",
+        "text": "in 1970 说明判断对应的是1970年的状态，本句放在年龄表语之后。",
+        "explanation": "本句语序是“主语+推测结构+判断内容+时间”，与中文常先放时间的顺序不同；但时间状语在英语中并非只能固定放在句末。"
+      }
+    ],
+    "takeaway": "对过去情况做推测时，英语用“情态动词+have been”的固定结构；本句时间状语放在句末，不要按中文语序把时间插在 have been 和年龄表语之间。"
+  },
+  "backbone": {
+    "text": "She can't have been twenty-nine in 1970. She must have been thirty-nine.",
+    "meaning": "说话人根据已知线索推断，1970年时她的年龄不可能是二十九，最合理的结论是三十九。"
+  },
+  "structureNotes": [
+    {
+      "title": "对过去情况的推测结构",
+      "text": "can't have been 和 must have been 都是对过去已经发生的状态做逻辑推断，不是描述现在的动作。can't 表“不可能”，must 表“一定、肯定”。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "介词短语 in 1970 用来说明判断对应的时间范围，本句放在年龄表语后面；这是本句常见语序，并不表示所有时间状语都只能放在句末。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "第一分句主语",
+      "explanation": "指代上下文提到的人，是后面年龄判断的对象。"
+    },
+    {
+      "text": "can't have been",
+      "role": "第一分句谓语（对过去状态的否定推测）",
+      "explanation": "表示说话人逻辑上否定“她当时二十九岁”的可能性。"
+    },
+    {
+      "text": "twenty-nine",
+      "role": "第一分句表语",
+      "explanation": "说明被否定的年龄内容，作 be 动词的表语。"
+    },
+    {
+      "text": "in 1970.",
+      "role": "第一分句时间状语",
+      "explanation": "限定这个年龄判断对应的是1970年的时间点。"
+    },
+    {
+      "text": "She",
+      "role": "第二分句主语",
+      "explanation": "和前句指代同一人，保持主语一致。"
+    },
+    {
+      "text": "must have been",
+      "role": "第二分句谓语（对过去状态的肯定推测）",
+      "explanation": "表示说话人根据前文否定，推出最合理的年龄结论。"
+    },
+    {
+      "text": "thirty-nine.",
+      "role": "第二分句表语",
+      "explanation": "说明推断出的年龄是三十九岁，作 be 动词的表语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "ʃiː"
+    },
+    {
+      "text": "can't",
+      "meaning": "不能；不可能",
+      "pos": "情态动词否定式（cannot 的缩写）",
+      "phonetic": "kɑːnt"
+    },
+    {
+      "text": "have",
+      "meaning": "（与过去分词构成完成式）已经",
+      "pos": "助动词",
+      "phonetic": "hæv"
+    },
+    {
+      "text": "been",
+      "meaning": "是；在（be动词的过去分词形式）",
+      "pos": "动词（be的过去分词）",
+      "phonetic": "biːn"
+    },
+    {
+      "text": "twenty-nine",
+      "meaning": "二十九",
+      "pos": "数词",
+      "phonetic": "ˌtwenti ˈnaɪn"
+    },
+    {
+      "text": "in",
+      "meaning": "在（某年份）",
+      "pos": "介词",
+      "phonetic": "ɪn"
+    },
+    {
+      "text": "1970.",
+      "meaning": "1970年",
+      "pos": "数词（年份）",
+      "phonetic": "ˌnaɪnˈtiːn ˈsevnti"
+    },
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "ʃiː"
+    },
+    {
+      "text": "must",
+      "meaning": "一定；肯定",
+      "pos": "情态动词",
+      "phonetic": "mʌst"
+    },
+    {
+      "text": "have",
+      "meaning": "（与过去分词构成完成式）已经",
+      "pos": "助动词",
+      "phonetic": "hæv"
+    },
+    {
+      "text": "been",
+      "meaning": "是；在（be动词的过去分词形式）",
+      "pos": "动词（be的过去分词）",
+      "phonetic": "biːn"
+    },
+    {
+      "text": "thirty-nine.",
+      "meaning": "三十九",
+      "pos": "数词",
+      "phonetic": "ˌθɜːti ˈnaɪn"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "relation": "推断的主体。"
+    },
+    {
+      "text": "can't have been",
+      "meaning": "不可能是",
+      "relation": "对过去状态的否定判断。"
+    },
+    {
+      "text": "twenty-nine",
+      "meaning": "二十九岁",
+      "relation": "被否定的年龄内容。"
+    },
+    {
+      "text": "in 1970.",
+      "meaning": "在1970年。",
+      "relation": "补充判断对应的时间。"
+    },
+    {
+      "text": "She",
+      "meaning": "她",
+      "relation": "第二个判断的主体，和前句是同一人。"
+    },
+    {
+      "text": "must have been",
+      "meaning": "一定是",
+      "relation": "对过去状态的肯定推断。"
+    },
+    {
+      "text": "thirty-nine.",
+      "meaning": "三十九岁。",
+      "relation": "推断出的合理年龄结论。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-127",
+  "sentenceId": "nce-1-lesson-127-sentence-004",
+  "sentenceOrder": 4,
+  "english": "She can't have been twenty-nine in 1970. She must have been thirty-nine.",
+  "lesson": "Lesson 127 A famous actress",
+  "notes": [
+    {
+      "title": "对过去情况的推测结构",
+      "text": "can't have been 和 must have been 都是对过去已经发生的状态做逻辑推断，不是描述现在的动作。can't 表“不可能”，must 表“一定、肯定”。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "介词短语 in 1970 用来说明判断对应的时间范围，本句放在年龄表语后面；这是本句常见语序，并不表示所有时间状语都只能放在句末。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句主干、推断语气与中文译文基本一致；修正两处表述以避免把 must 误解为唯一必然、把时间状语绝对化，并让第一分句 can't have been 的分块译文更通顺。（非逐句人工审核）"
+}

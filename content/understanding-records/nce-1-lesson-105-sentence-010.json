@@ -1,0 +1,75 @@
+{
+  "chinese": "它是一本词典。",
+  "intent": "回应上文的提问“What's this?”，向对方说明眼前物品的属性，给出明确的物品识别结论。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's a dictionary.",
+    "meaning": "它是一本词典。"
+  },
+  "structureNotes": [
+    {
+      "title": "日常问答中的it指代",
+      "text": "It's是It is的 contraction形式，这里的it指代上文提问中被指认的不明物品，承接上文的What's this?，不需要额外描述物品外观就能完成答句。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "主语+系动词",
+      "explanation": "It指代上文被问到的物品，is作系动词连接主语和后续表语，组合成It's完成句子核心判断框架。"
+    },
+    {
+      "text": "a dictionary",
+      "role": "表语",
+      "explanation": "冠词a修饰可数名词单数dictionary，共同作表语，说明it所代表的物品是一本词典。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "它是（it is的缩写形式）",
+      "pos": "代词+系动词缩写",
+      "phonetic": "ɪts"
+    },
+    {
+      "text": "a",
+      "meaning": "一本（不定冠词，后接辅音音素开头的单数可数名词）",
+      "pos": "冠词",
+      "phonetic": "ə"
+    },
+    {
+      "text": "dictionary.",
+      "meaning": "词典",
+      "pos": "名词",
+      "phonetic": "ˈdɪkʃənri"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's",
+      "meaning": "它是",
+      "relation": "指代上文被询问的未知物品，作为句子的主语加系动词核心框架，承前省略了多余的指代内容。"
+    },
+    {
+      "text": "a dictionary.",
+      "meaning": "一本词典。",
+      "relation": "说明it所指代的物品的具体类别，给出对提问“What's this?”的明确回答。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-105",
+  "sentenceId": "nce-1-lesson-105-sentence-010",
+  "sentenceOrder": 10,
+  "english": "It's a dictionary.",
+  "lesson": "Lesson 105 Full of mistakes",
+  "notes": [
+    {
+      "title": "日常问答中的it指代",
+      "text": "It's是It is的 contraction形式，这里的it指代上文提问中被指认的不明物品，承接上文的What's this?，不需要额外描述物品外观就能完成答句。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构和翻译可用，主要有三处需修正：1. structureNotes 与 notes 中的“contractions”用词不当，应改为单数 contraction；2. 单词 It's 的词性标注“代词+动词缩写”表述不准确，应明确标注为代词加系动词的缩写形式；3. a 的释义中“辅音开头”应表述为“辅音音素开头”，更符合语音规则，避免与元音字母开头、辅音音素开头的情况混淆。其余主干成分、语义关系、指代解释均正确。（非逐句人工审核）"
+}

@@ -1,0 +1,123 @@
+{
+  "chinese": "我们的朋友朱莉和杰克也在现场。",
+  "intent": "承接前一句我和妻子在赛事现场的表述，补充说明一同在场的友人身份，扩充现场出现的人员范围。",
+  "comparison": null,
+  "backbone": {
+    "text": "Julie and Jack were there.",
+    "meaning": "朱莉和杰克当时在比赛现场。"
+  },
+  "structureNotes": [
+    {
+      "title": "同位语点明朋友身份",
+      "text": "Julie and Jack 紧接在 Our friends 后作同位语，明确“我们的朋友”具体就是这两个人，避免听者对朋友身份产生歧义。"
+    },
+    {
+      "title": "句末too表同类在场",
+      "text": "副词too放在句末，呼应前一句中我和妻子在赛事现场的情况，说明这两位朋友也和我们一样在现场，而不是在其他地方。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Our friends Julie and Jack",
+      "role": "并列复合主语（名词短语+同位语）",
+      "explanation": "Our friends是整体指称，Julie和Jack作为同位语补充具体人名，共同作为句子的描述对象。"
+    },
+    {
+      "text": "were there, too",
+      "role": "谓语（系动词+地点状语）+ 句末语气副词",
+      "explanation": "were作为be动词过去式作系动词，there作表语说明主语所处位置，too作状语说明与前文人物的在场情况一致。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Our",
+      "meaning": "我们的",
+      "pos": "形容词性物主限定词",
+      "phonetic": "/ˈaʊə(r)/"
+    },
+    {
+      "text": "friends",
+      "meaning": "朋友",
+      "pos": "可数名词复数",
+      "phonetic": "/frendz/"
+    },
+    {
+      "text": "Julie",
+      "meaning": "朱莉（女子名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈdʒuːli/"
+    },
+    {
+      "text": "and",
+      "meaning": "和",
+      "pos": "并列连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "Jack",
+      "meaning": "杰克（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/dʒæk/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（are的过去式）",
+      "pos": "be动词过去式复数形式",
+      "phonetic": "/wɜː(r)/"
+    },
+    {
+      "text": "there,",
+      "meaning": "那里（指前文提及的赛事现场）",
+      "pos": "地点副词",
+      "phonetic": "/ðeə(r)/"
+    },
+    {
+      "text": "too.",
+      "meaning": "也",
+      "pos": "语气副词",
+      "phonetic": "/tuː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Our friends",
+      "meaning": "我们的朋友",
+      "relation": "交代主语的归属范围"
+    },
+    {
+      "text": "Julie and Jack",
+      "meaning": "朱莉和杰克",
+      "relation": "同位补充具体是哪两位朋友"
+    },
+    {
+      "text": "were there,",
+      "meaning": "（当时）在那里",
+      "relation": "描述主语所处的位置状态"
+    },
+    {
+      "text": "too.",
+      "meaning": "也",
+      "relation": "补充说明和前文的人一样在现场。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-69",
+  "sentenceId": "nce-1-lesson-069-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Our friends Julie and Jack were there, too.",
+  "lesson": "Lesson 69 The car race",
+  "notes": [
+    {
+      "title": "同位语点明朋友身份",
+      "text": "Julie and Jack 紧接在 Our friends 后作同位语，明确“我们的朋友”具体就是这两个人，避免听者对朋友身份产生歧义。"
+    },
+    {
+      "title": "句末too表同类在场",
+      "text": "副词too放在句末，呼应前一句中我和妻子在赛事现场的情况，说明这两位朋友也和我们一样在现场，而不是在其他地方。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，仅存在个别词性表述需细化的问题，无核心理解错误。（非逐句人工审核）"
+}

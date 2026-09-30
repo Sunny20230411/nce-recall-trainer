@@ -1,0 +1,75 @@
+{
+  "chinese": "二十英镑，请付款。",
+  "intent": "售票员向乘客告知票务价格并示意付款。",
+  "comparison": null,
+  "backbone": {
+    "text": "Twenty pounds",
+    "meaning": "（票价共计）二十英镑"
+  },
+  "structureNotes": [
+    {
+      "title": "please在交易场景的用法",
+      "text": "本句中的please并非日常礼貌问候，而是交易、服务场景下提示对方付费、递出物品的表达，对应中文售票员说“二十英镑”时隐含的请对方付款的语气。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Twenty pounds",
+      "role": "名词短语（价格说明）",
+      "explanation": "完整告知票务总价为二十英镑，是本句的核心信息。"
+    },
+    {
+      "text": "please",
+      "role": "感叹词（交易礼貌提示）",
+      "explanation": "在售票场景中用于示意对方完成付款动作，带有服务场景下的礼貌提示语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Twenty",
+      "meaning": "二十",
+      "pos": "数词",
+      "phonetic": "/ˈtwenti/"
+    },
+    {
+      "text": "pounds,",
+      "meaning": "英镑",
+      "pos": "名词（复数）",
+      "phonetic": "/ˈpaʊndz/"
+    },
+    {
+      "text": "please.",
+      "meaning": "请（交易场景下示意对方付款）",
+      "pos": "感叹词（交易礼貌小品词）",
+      "phonetic": "/pliːz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Twenty pounds,",
+      "meaning": "二十英镑",
+      "relation": "告知对方票务总价"
+    },
+    {
+      "text": "please.",
+      "meaning": "请付款",
+      "relation": "礼貌提示对方完成付款动作"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-95",
+  "sentenceId": "nce-1-lesson-095-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Twenty pounds, please.",
+  "lesson": "Lesson 95 Tickets, please.",
+  "notes": [
+    {
+      "title": "please在交易场景的用法",
+      "text": "本句中的please并非日常礼貌问候，而是交易、服务场景下提示对方付费、递出物品的表达，对应中文售票员说“二十英镑”时隐含的请对方付款的语气。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅个别标点与词性标注需要修正：pounds、please 词条和分块不应把句末标点纳入释义；please 按交易功能可作感叹词，按句法可归入感叹词/礼貌小品词，需标注交易功能；其余主干、场景说明和结构关系均可靠。（非逐句人工审核）"
+}

@@ -6,6 +6,12 @@
   "scripts": {
     "dev": "node scripts/dev-server.mjs",
     "test:ai": "node scripts/test-ai-chat.mjs",
+    "audit:phonetics": "node scripts/audit-british-phonetics.mjs",
+    "build:phonetics": "node scripts/build-british-phonetics.mjs",
+    "test:phonetics": "node scripts/test-british-phonetics.mjs",
+    "generate:understanding": "node scripts/generate-understanding.mjs",
+    "build:understanding": "node scripts/build-understanding.mjs",
+    "test:understanding": "node scripts/test-understanding.mjs",
     "import:nce2": "node scripts/import-nce2-source.mjs",
     "build:nce2-data": "node scripts/build-nce2-browser-data.mjs",
     "audit:nce1-words": "python scripts/audit-nce1-word-meanings.py",

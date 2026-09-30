@@ -1,0 +1,132 @@
+{
+  "chinese": "你好，卡罗尔。你们要去哪里？",
+  "intent": "对话开头向卡罗尔打招呼，并询问对方一行人正要前往的目的地。",
+  "comparison": {
+    "chinese": "中文先把疑问词“哪里”放在动词“去”之后，组成“要去哪里”的问句结构。",
+    "english": "英文把疑问词Where放在句首，再将助动词are提到主语you之前，最后接现在分词going。",
+    "steps": [
+      {
+        "label": "先确定已知信息",
+        "text": "you are going",
+        "explanation": "已知对话对象“你/你们”正处于出行的状态中，对应中文“正要走/出行”。"
+      },
+      {
+        "label": "填入要询问的信息",
+        "text": "Where ...?",
+        "explanation": "Where是疑问副词，作地点状语放在句首，借助are提前构成倒装的特殊疑问句，用来补全未知的目的地信息。"
+      }
+    ],
+    "takeaway": "英语习惯将疑问词放在句首，并通过助动词倒装构成特殊疑问句；中文则把疑问词放在动词附近，无需倒装。"
+  },
+  "backbone": {
+    "text": "Hello, Carol. Where are you going?",
+    "meaning": "向卡罗尔打招呼，并询问对方一行人要去什么地方。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在进行时表计划安排",
+      "text": "句中be going并非表示“正在行走”，而是结合当前语境表示已经计划好的行程安排，对应中文“要去哪里”。"
+    },
+    {
+      "title": "疑问句的词序",
+      "text": "用Where提问地点时，Where放在句首作地点状语，助动词are提到主语you之前，后面接现在分词going，构成现在进行时的特殊疑问结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Hello, Carol.",
+      "role": "问候语",
+      "explanation": "对话开头的打招呼用语，搭配称呼Carol，属于独立的日常交际表达。"
+    },
+    {
+      "text": "Where",
+      "role": "疑问副词（地点状语）",
+      "explanation": "引导特殊疑问句，在句中作地点状语，询问未知的目的地信息。"
+    },
+    {
+      "text": "are",
+      "role": "助动词",
+      "explanation": "帮助构成现在进行时的疑问结构，疑问句中放在主语you之前。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指对话的接收方卡罗尔一行人。"
+    },
+    {
+      "text": "going?",
+      "role": "谓语核心",
+      "explanation": "go的现在分词形式，与are搭配构成现在进行时，表示“前往、出行”的动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Hello,",
+      "meaning": "（打招呼用）你好",
+      "pos": "感叹词",
+      "phonetic": "/həˈləʊ/"
+    },
+    {
+      "text": "Carol.",
+      "meaning": "卡罗尔（女子人名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈkærəl/"
+    },
+    {
+      "text": "Where",
+      "meaning": "在哪里；去哪里",
+      "pos": "疑问副词",
+      "phonetic": "/weə/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（用于构成现在进行时）",
+      "pos": "be动词（现在时）",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "going?",
+      "meaning": "去；前往",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Hello, Carol.",
+      "meaning": "你好，卡罗尔。",
+      "relation": "打招呼与称呼，独立成义。"
+    },
+    {
+      "text": "Where are you going?",
+      "meaning": "你们要去哪里？",
+      "relation": "询问出行目的地的完整问句，Where作地点状语指向要问的目的地信息。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-83",
+  "sentenceId": "nce-1-lesson-083-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Hello, Carol. Where are you going?",
+  "lesson": "Lesson 83 Going on holiday",
+  "notes": [
+    {
+      "title": "现在进行时表计划安排",
+      "text": "句中be going并非表示“正在行走”，而是结合当前语境表示已经计划好的行程安排，对应中文“要去哪里”。"
+    },
+    {
+      "title": "疑问句的词序",
+      "text": "用Where提问地点时，Where放在句首作地点状语，助动词are提到主语you之前，后面接现在分词going，构成现在进行时的特殊疑问结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有解析对Where作疑问地点状语、be going表计划安排、疑问句倒装词序的说明基本准确，仅存在几处表述冗余、用词不够精准、解释完整性不足的小问题，可直接修正。（非逐句人工审核）"
+}

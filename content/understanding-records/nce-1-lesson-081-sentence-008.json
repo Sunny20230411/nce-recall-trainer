@@ -1,0 +1,92 @@
+{
+  "chinese": "你好，萨姆。抽支烟吧。",
+  "intent": "见面时先向萨姆打招呼，随后用祈使句客气地邀请对方抽一支香烟。",
+  "comparison": null,
+  "backbone": {
+    "text": "Hello, Sam. Have a cigarette.",
+    "meaning": "向萨姆打招呼，并邀请他抽一支烟。"
+  },
+  "structureNotes": [
+    {
+      "title": "祈使句的表意",
+      "text": "Have在这里是日常招待用语，不是现在完成时的构成；Have a cigarette 表示请对方抽烟，而不是陈述“拥有”这个事实。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Hello, Sam.",
+      "role": "呼语与问候",
+      "explanation": "用Hello和对方名字直接打招呼，是见面问候。"
+    },
+    {
+      "text": "Have a cigarette.",
+      "role": "祈使句",
+      "explanation": "动词原形Have开头，向听话人发出邀请或建议；省略了第二人称you。"
+    },
+    {
+      "text": "a cigarette",
+      "role": "Have的宾语",
+      "explanation": "a修饰cigarette，表示“一支香烟”，是Have涉及的具体事物。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Hello,",
+      "meaning": "你好",
+      "pos": "感叹词",
+      "phonetic": "həˈləʊ"
+    },
+    {
+      "text": "Sam.",
+      "meaning": "萨姆",
+      "pos": "专有名词",
+      "phonetic": "ˈsæm"
+    },
+    {
+      "text": "Have",
+      "meaning": "吃，喝，抽",
+      "pos": "动词",
+      "phonetic": "hæv"
+    },
+    {
+      "text": "a",
+      "meaning": "一，一支",
+      "pos": "不定冠词",
+      "phonetic": "ə"
+    },
+    {
+      "text": "cigarette.",
+      "meaning": "香烟",
+      "pos": "名词",
+      "phonetic": "ˌsɪɡəˈret"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Hello, Sam.",
+      "relation": "日常见面打招呼的问候语，直接点明打招呼的对象是萨姆",
+      "meaning": "你好，萨姆。"
+    },
+    {
+      "text": "Have a cigarette.",
+      "relation": "以动词原形Have开头的招待祈使句，向对方发出抽香烟的邀请",
+      "meaning": "抽支烟吧。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-81",
+  "sentenceId": "nce-1-lesson-081-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Hello, Sam. Have a cigarette.",
+  "lesson": "Lesson 81 Roast beef and potatoes",
+  "notes": [
+    {
+      "title": "祈使句的表意",
+      "text": "Have在这里是日常招待用语，不是现在完成时的构成；Have a cigarette 表示请对方抽烟，而不是陈述“拥有”这个事实。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体符合《新概念英语》第一册第81课的日常交际语境，问候语与邀请抽烟的祈使句语义、翻译、句法划分基本正确，明确区分了招待义的Have和完成时助动词用法，英式音标标注合规。仅补充a的常见语义标注，使词汇释义更完整，其余内容无需修改。（非逐句人工审核）"
+}

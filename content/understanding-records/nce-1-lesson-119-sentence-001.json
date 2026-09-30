@@ -1,0 +1,122 @@
+{
+  "chinese": "你喜欢故事吗？",
+  "intent": "向对方发起询问，确认对方是否对故事抱有喜好。",
+  "comparison": {
+    "chinese": "你喜欢故事吗？",
+    "english": "Do you like stories?",
+    "steps": [
+      {
+        "label": "确定提问对象",
+        "text": "you",
+        "explanation": "对应中文里的“你”，明确这个喜好的归属是听话人，不针对其他人。"
+      },
+      {
+        "label": "确定核心动作与对象",
+        "text": "like stories",
+        "explanation": "对应“喜欢故事”，是句子要表达的核心内容，直接回答“对故事持什么态度”。"
+      },
+      {
+        "label": "理解疑问表达方式",
+        "text": "Do + 主语 + 动词原形",
+        "explanation": "对于含有实义动词like的一般现在时问句，需要在句首加助动词Do，将其放在主语you之前，句末用问号，表示这是一个可以用yes或no回答的是非问。"
+      }
+    ],
+    "takeaway": "实义动词作谓语的一般现在时句子，构成一般疑问句时需要在句首添加助动词Do/Does，将助动词放在主语之前，主语后的实义动词用原形。"
+  },
+  "backbone": {
+    "text": "Do you like stories?",
+    "meaning": "询问听话人是否喜欢故事。"
+  },
+  "structureNotes": [
+    {
+      "title": "是非疑问句的助动词用法",
+      "text": "句首的Do没有实际词汇含义，仅起语法功能作用：帮助实义动词like构成一般现在时的疑问句式，将助动词提至主语you之前，全句句末用问号收尾。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "助动词",
+      "explanation": "无实义，作为一般现在时一般疑问句的语法标记，帮助实义动词like完成疑问结构，对应主语you采用第二人称的助动词形式。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "询问的对象，即发出“喜欢”这一动作的主体，指代听话人。"
+    },
+    {
+      "text": "like",
+      "role": "谓语动词",
+      "explanation": "表达核心语义的实义动词，意思是“喜欢”，在助动词Do之后使用动词原形。"
+    },
+    {
+      "text": "stories",
+      "role": "宾语",
+      "explanation": "动作like的对象，指各类故事，用复数形式表示泛指这一类事物，而非某一个特定故事。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Do",
+      "meaning": "（助动词，无实义，用于构成疑问句）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢",
+      "pos": "动词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "stories?",
+      "meaning": "故事（复数，泛指各类故事）",
+      "pos": "名词",
+      "phonetic": "/ˈstɔːriz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Do",
+      "relation": "疑问语法标记，帮助实义动词构成疑问句式。",
+      "meaning": "（助动词，无实义，用于构成疑问句）"
+    },
+    {
+      "text": "you",
+      "relation": "询问对象，即发出喜好动作的主体。",
+      "meaning": "你"
+    },
+    {
+      "text": "like",
+      "relation": "核心动作，表达对事物的喜好态度。",
+      "meaning": "喜欢"
+    },
+    {
+      "text": "stories?",
+      "relation": "喜好动作的对象，用复数泛指这一类事物。",
+      "meaning": "故事"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-119",
+  "sentenceId": "nce-1-lesson-119-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Do you like stories?",
+  "lesson": "Lesson 119 A true story",
+  "notes": [
+    {
+      "title": "是非疑问句的助动词用法",
+      "text": "句首的Do没有实际词汇含义，仅起语法功能作用：帮助实义动词like构成一般现在时的疑问句式，将助动词提至主语you之前，全句句末用问号收尾。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：该句为实义动词作谓语的一般现在时一般疑问句，现有中文翻译、句式主干、助动词用法说明、成分划分、词义标注与比较步骤均符合语法规则与语境要求，无明显事实或表述错误，整体可通过审核。（非逐句人工审核）"
+}

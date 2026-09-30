@@ -1,0 +1,94 @@
+{
+  "chinese": "这件衬衫是蒂姆的吗？",
+  "intent": "确认眼前的这件衬衫是否属于蒂姆，向对方发起归属关系的核实询问",
+  "comparison": null,
+  "backbone": {
+    "text": "Is this shirt Tim's?",
+    "meaning": "这件衬衫归蒂姆所有吗"
+  },
+  "parts": [
+    {
+      "text": "Is",
+      "relation": "发起询问的引导词",
+      "meaning": "是（用于引导一般疑问句，询问判断是否成立）"
+    },
+    {
+      "text": "this shirt",
+      "relation": "被询问归属的对象",
+      "meaning": "这件衬衫"
+    },
+    {
+      "text": "Tim's?",
+      "relation": "询问衬衫所属的对象",
+      "meaning": "蒂姆的（蒂姆所有的物品，此处指代蒂姆的衬衫）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "名词所有格省略指代",
+      "text": "句尾的Tim's直接指代Tim's shirt，避免重复前面已经提到的shirt，让表达更简洁自然"
+    },
+    {
+      "title": "一般疑问句句序",
+      "text": "把be动词Is放在句首，不再需要额外的助动词do，直接构成针对事物归属判断的疑问句"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is this shirt",
+      "role": "疑问句主语加引导动词",
+      "explanation": "明确要核实的物品是眼前的这件衬衫，用提前的Is发起判断询问"
+    },
+    {
+      "text": "Tim's?",
+      "role": "归属判断的疑问落点",
+      "explanation": "给出要核实的归属方，确认衬衫是否归蒂姆所有"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是",
+      "pos": "be动词",
+      "phonetic": "/ɪz/",
+      "text": "Is"
+    },
+    {
+      "meaning": "这个",
+      "pos": "指示代词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "衬衫",
+      "pos": "名词",
+      "phonetic": "/ʃɜːt/",
+      "text": "shirt"
+    },
+    {
+      "meaning": "蒂姆的（所有格）",
+      "pos": "名词所有格",
+      "phonetic": "/tɪmz/",
+      "text": "Tim's?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-11",
+  "sentenceId": "nce-1-lesson-011-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Is this shirt Tim's?",
+  "lesson": "Lesson 11 Is this your shirt?",
+  "notes": [
+    {
+      "title": "名词所有格省略指代",
+      "text": "句尾的Tim's直接指代Tim's shirt，避免重复前面已经提到的shirt，让表达更简洁自然"
+    },
+    {
+      "title": "一般疑问句句序",
+      "text": "把be动词Is放在句首，不再需要额外的助动词do，直接构成针对事物归属判断的疑问句"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原始内容整体合规，仅局部语法角色标注存在小瑕疵，修正后可符合解析规范。（非逐句人工审核）"
+}

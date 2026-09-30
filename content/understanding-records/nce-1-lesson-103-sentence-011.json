@@ -1,0 +1,133 @@
+{
+  "chinese": "我想我的法语考试不及格了。",
+  "intent": "表达自己对法语考试结果的主观猜测，认为自己大概率没有通过这门考试。",
+  "comparison": {
+    "chinese": "我想[我的法语试卷没及格]。",
+    "english": "I think [I failed the French paper].",
+    "steps": [
+      {
+        "label": "先说主观判断",
+        "text": "I think",
+        "explanation": "放在句首引出整句话的主观看法，相当于中文“我想”“我认为”，没有实际动作含义。"
+      },
+      {
+        "label": "接宾语从句",
+        "text": "I failed the French paper",
+        "explanation": "跟在think后面作为想法的具体内容，这里省略了引导词that；从句里完整陈述了“法语试卷没及格”这件事。"
+      },
+      {
+        "label": "名词语境适配",
+        "text": "French paper",
+        "explanation": "paper本意指“试卷”，结合考试的上下文语境，Chinese自然译作“法语考试”，不用生硬直译“法语纸”。"
+      }
+    ],
+    "takeaway": "I think放在句首时，后面的整个句子都是它引导的想法内容，从句可省略that；paper在考试语境中指试卷，对应中文的某门考试。"
+  },
+  "backbone": {
+    "text": "I think I failed the French paper.",
+    "meaning": "我觉得自己法语试卷没及格。"
+  },
+  "structureNotes": [
+    {
+      "title": "宾语从句省略引导词",
+      "text": "think后面接的宾语从句省略了that，从句本身保持完整的陈述语序，不需要倒装，直接说明想法的具体内容即可。"
+    },
+    {
+      "title": "名词的语境意",
+      "text": "paper在考试场景中指试卷，French paper就是法语科目试卷，自然对应中文里的法语考试，是上下文带来的词义适配。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I think",
+      "role": "主句",
+      "explanation": "表达说话人的主观判断，后接完整的想法内容。"
+    },
+    {
+      "text": "I failed the French paper",
+      "role": "宾语从句",
+      "explanation": "作think的宾语，具体说明“我”的想法是什么，省略了引导词that。"
+    },
+    {
+      "text": "the French paper",
+      "role": "从句宾语",
+      "explanation": "是从句中failed的作用对象，指法语科目试卷，也就是法语考试。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词主格",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "think",
+      "meaning": "认为，想",
+      "pos": "动词",
+      "phonetic": "/θɪŋk/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词主格",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "failed",
+      "meaning": "（考试）不及格；失败",
+      "pos": "动词过去式",
+      "phonetic": "/feɪld/"
+    },
+    {
+      "text": "the",
+      "meaning": "这（特指那份试卷）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "French",
+      "meaning": "法语（的）",
+      "pos": "作定语的专有名词/形容词",
+      "phonetic": "/frentʃ/"
+    },
+    {
+      "text": "paper.",
+      "meaning": "试卷；论文；纸张",
+      "pos": "名词",
+      "phonetic": "/ˈpeɪpə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I think",
+      "relation": "主句，引出后面的主观看法内容",
+      "meaning": "我想"
+    },
+    {
+      "text": "I failed the French paper.",
+      "relation": "作think的宾语从句，说明具体的想法内容",
+      "meaning": "我的法语考试不及格了"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-011",
+  "sentenceOrder": 11,
+  "english": "I think I failed the French paper.",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "宾语从句省略引导词",
+      "text": "think后面接的宾语从句省略了that，从句本身保持完整的陈述语序，不需要倒装，直接说明想法的具体内容即可。"
+    },
+    {
+      "title": "名词的语境意",
+      "text": "paper在考试场景中指试卷，French paper就是法语科目试卷，自然对应中文里的法语考试，是上下文带来的词义适配。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子主干、从句省略that的语法说明、paper的语境适配整体正确；仅词表中paper的音标后多了句点、词表对French的词性标注有歧义，需修正。（非逐句人工审核）"
+}

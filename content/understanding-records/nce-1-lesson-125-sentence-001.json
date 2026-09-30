@@ -1,0 +1,178 @@
+{
+  "chinese": "彼得，你现在不能进来喝茶吗？",
+  "intent": "以反问的语气挽留彼得，询问他能不能现在就进屋来一起喝茶，带有热切期盼对方答应的意味。",
+  "comparison": {
+    "chinese": "彼得，你现在不能进来喝茶吗？",
+    "english": "Can't you come in and have tea now, Peter?",
+    "steps": [
+      {
+        "label": "英文的否定疑问语序",
+        "text": "Can't you...",
+        "explanation": "把否定缩写Can't放在句首、主语you之前，构成反问结构，不是普通的事实确认问句。"
+      },
+      {
+        "label": "中文的对应表达",
+        "text": "你不能……吗？",
+        "explanation": "中文把疑问语气放在句末用“吗”体现，不会像英文那样把助动词加否定词提前。"
+      },
+      {
+        "label": "称呼的位置差异",
+        "text": "句末的Peter",
+        "explanation": "英文可以把呼语放在全句末尾，中文习惯把对人的称呼放在句子开头，更符合日常呼唤的表达顺序。"
+      }
+    ],
+    "takeaway": "英文否定疑问句把否定助动词提至句首表反问，中文将反问语气落到句末“吗”，呼语可灵活放在句首或句末适配语序。"
+  },
+  "backbone": {
+    "text": "Can't you come in and have tea?",
+    "meaning": "你能不能进来喝茶？"
+  },
+  "structureNotes": [
+    {
+      "title": "否定反问的语气",
+      "text": "Can't you 不是在确认“你不能来”这个事实，而是用反问表达期待对方接受邀请，语气比直接的Can you come in更热情恳切。"
+    },
+    {
+      "title": "并列的两个动作",
+      "text": "come in和have tea由and连接，是进屋后紧接着要做的连贯行为，共享前面的can't所引导的情态语义。"
+    },
+    {
+      "title": "呼语后置",
+      "text": "Peter作为对话对象被放在句末，不参与句子主干的语法结构，仅用于明确说话的收件人。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Can't",
+      "role": "情态助动词否定式",
+      "explanation": "是can not的缩写，放在句首构成否定疑问句，表达反问语气。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指听话人彼得，是后面两个动作的发出者。"
+    },
+    {
+      "text": "come in and have tea",
+      "role": "并列谓语",
+      "explanation": "由and连接两个动词短语，描述进屋、喝茶的连贯动作，共同受情态动词can't约束。"
+    },
+    {
+      "text": "now",
+      "role": "时间状语",
+      "explanation": "说明这个邀请的时间点是此刻、当下。"
+    },
+    {
+      "text": "Peter",
+      "role": "呼语",
+      "explanation": "点明对话的对象，是对彼得的直接称呼。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Can't",
+      "meaning": "不能（can not的缩写）",
+      "pos": "情态动词缩写",
+      "phonetic": "ˈkɑːnt"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "juː"
+    },
+    {
+      "text": "come",
+      "meaning": "来",
+      "pos": "动词",
+      "phonetic": "kʌm"
+    },
+    {
+      "text": "in",
+      "meaning": "进，入内",
+      "pos": "副词",
+      "phonetic": "ɪn"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "ænd"
+    },
+    {
+      "text": "have",
+      "meaning": "吃，喝",
+      "pos": "动词",
+      "phonetic": "hæv"
+    },
+    {
+      "text": "tea",
+      "meaning": "茶",
+      "pos": "名词",
+      "phonetic": "tiː"
+    },
+    {
+      "text": "now,",
+      "meaning": "现在",
+      "pos": "副词",
+      "phonetic": "naʊ"
+    },
+    {
+      "text": "Peter?",
+      "meaning": "彼得（男子名）",
+      "pos": "名词",
+      "phonetic": "ˈpiːtə(r)"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Can't you",
+      "meaning": "你难道不能……吗",
+      "relation": "构建反问语气，框定整个疑问句的语气基调"
+    },
+    {
+      "text": "come in",
+      "meaning": "进来",
+      "relation": "第一个并列动作，描述进屋的行为"
+    },
+    {
+      "text": "and have tea",
+      "meaning": "并且喝茶",
+      "relation": "第二个并列动作，和前面的come in连贯衔接"
+    },
+    {
+      "text": "now,",
+      "meaning": "现在",
+      "relation": "限定两个动作发生的时间是此刻"
+    },
+    {
+      "text": "Peter?",
+      "meaning": "彼得？",
+      "relation": "点明对话的称呼对象，呼语后置"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-125",
+  "sentenceId": "nce-1-lesson-125-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Can't you come in and have tea now, Peter?",
+  "lesson": "Lesson 125 Tea for two",
+  "notes": [
+    {
+      "title": "否定反问的语气",
+      "text": "Can't you 不是在确认“你不能来”这个事实，而是用反问表达期待对方接受邀请，语气比直接的Can you come in更热情恳切。"
+    },
+    {
+      "title": "并列的两个动作",
+      "text": "come in和have tea由and连接，是进屋后紧接着要做的连贯行为，共享前面的can't所引导的情态语义。"
+    },
+    {
+      "title": "呼语后置",
+      "text": "Peter作为对话对象被放在句末，不参与句子主干的语法结构，仅用于明确说话的收件人。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确清晰，仅存在两处重复冗余、一处冠词误用的小问题：两处语法说明中“连贯连贯行为”存在文字重复，短语搭配“一个邀请”量词使用不当，修正后即可正常使用，无需改动核心释义、语法成分、翻译与对比逻辑。（非逐句人工审核）"
+}

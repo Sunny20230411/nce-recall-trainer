@@ -1,0 +1,196 @@
+{
+  "chinese": "我记不起来了。我接待的那个男人戴着一顶帽子。",
+  "intent": "先说明自己没有相关记忆，再补充自己能记起的、用于辨认那位接待过的男士的外貌特征。",
+  "comparison": {
+    "chinese": "我接待的那个男人戴着一顶帽子",
+    "english": "The man who I served was wearing a hat",
+    "steps": [
+      {
+        "label": "先锁定核心描述对象",
+        "text": "The man... was wearing a hat",
+        "explanation": "英语首先说出核心主干：这位男士当时正戴着帽子，让听者先抓住核心事实。"
+      },
+      {
+        "label": "再嵌入修饰说明身份",
+        "text": "who I served 放在man的后面",
+        "explanation": "用定语从句解释这个man的具体身份，补充说明是“我之前接待过的”那位男士，而不是其他的人。"
+      },
+      {
+        "label": "定语内部的语序差异",
+        "text": "I served 而非served I",
+        "explanation": "中文习惯把“我接待的”完整放在“那个男人”前面；英语把从句接在被修饰的名词之后，从句内部仍使用“主语I + 谓语served”的自然陈述句语序，指代man的关系代词who（正式用法可用whom）作served的宾语。"
+      }
+    ],
+    "takeaway": "英语常用“核心名词+后置定语从句”的结构，把识别身份的补充信息放在被修饰对象后面；中文则习惯把修饰语放在名词前面，先说“我接待的”，再说“那个男人”。"
+  },
+  "backbone": {
+    "text": "I can't remember. The man was wearing a hat.",
+    "meaning": "我没有相关记忆，那位接待过的男士当时是戴着帽子的。"
+  },
+  "structureNotes": [
+    {
+      "title": "关系代词作从句宾语",
+      "text": "who在定语从句中是served的宾语，指代先行词the man，从句里保留主语I和谓语served的自然语序，意思是“我接待了那位男士”；书面正式文体中可使用宾格whom替代who。"
+    },
+    {
+      "title": "过去进行时的使用场景",
+      "text": "was wearing a hat表示过去某一时间点（半小时前为男士服务时）正持续存在的穿戴状态，对应回忆当时那位男士的外形特征，并非指他在进行“戴帽子”的瞬时动作。"
+    },
+    {
+      "title": "前后两句的语义关系",
+      "text": "前一句直白表示自己记不清细节，后一句给出自己仅存的可用于辨认的记忆线索，用来解释为什么无法完全确认对方身份。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I can't remember.",
+      "role": "主谓结构的否定陈述句",
+      "explanation": "表达否定的记忆状态，can't是情态动词can的否定形式，后接动词原形remember，整体表示“我记不起来”。"
+    },
+    {
+      "text": "The man",
+      "role": "主句的主语",
+      "explanation": "是整个第二句描述的核心对象，指对话中正在讨论的、被卡罗琳接待过的男士。"
+    },
+    {
+      "text": "who I served",
+      "role": "修饰主语的限制性定语从句",
+      "explanation": "限定说明这个man的身份：是被“我（卡罗琳）”接待过的那位，而非其他男士；关系代词who在从句中充当served的宾语。"
+    },
+    {
+      "text": "was wearing",
+      "role": "主句的谓语",
+      "explanation": "是过去进行时结构，表示过去当时正处于“穿戴”的状态，和后面的宾语a hat搭配。"
+    },
+    {
+      "text": "a hat",
+      "role": "主句的宾语",
+      "explanation": "说明当时男士穿戴的具体物品是一顶帽子。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "can't",
+      "meaning": "不能；无法",
+      "pos": "情态动词否定缩写",
+      "phonetic": "/kɑːnt/"
+    },
+    {
+      "text": "remember.",
+      "meaning": "记得；记起",
+      "pos": "动词",
+      "phonetic": "/rɪˈmembə(r)/"
+    },
+    {
+      "text": "The",
+      "meaning": "（特指说话双方都在讨论的对象）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人；男士",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "who",
+      "meaning": "（关系代词，指代前面的男士，在从句中作宾语；正式用法为whom）",
+      "pos": "关系代词",
+      "phonetic": "/huː/（宾格whom读音为/huːm/）"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "served",
+      "meaning": "接待；服务",
+      "pos": "动词serve的过去式",
+      "phonetic": "/sɜːvd/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词的第一人称单数过去式，和现在分词搭配构成过去进行时）",
+      "pos": "be动词过去式",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "wearing",
+      "meaning": "穿戴；戴着",
+      "pos": "动词wear的现在分词",
+      "phonetic": "/ˈweərɪŋ/"
+    },
+    {
+      "text": "a",
+      "meaning": "一顶",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "hat.",
+      "meaning": "帽子",
+      "pos": "名词",
+      "phonetic": "/hæt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I can't remember.",
+      "meaning": "我记不起来了。",
+      "relation": "说明自身的记忆状态。"
+    },
+    {
+      "text": "The man",
+      "meaning": "那位男士",
+      "relation": "整个第二句的核心描述对象。"
+    },
+    {
+      "text": "who I served",
+      "meaning": "我接待的",
+      "relation": "修饰前面的man，说明该男士的身份。"
+    },
+    {
+      "text": "was wearing",
+      "meaning": "当时戴着",
+      "relation": "描述男士当时的穿戴状态。"
+    },
+    {
+      "text": "a hat.",
+      "meaning": "一顶帽子。",
+      "relation": "说明穿戴的具体物品，是wear这个动作的对象。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-121",
+  "sentenceId": "nce-1-lesson-121-sentence-007",
+  "sentenceOrder": 7,
+  "english": "I can't remember. The man who I served was wearing a hat.",
+  "lesson": "Lesson 121 The man in a hat",
+  "notes": [
+    {
+      "title": "关系代词作从句宾语",
+      "text": "who在定语从句中是served的宾语，指代先行词the man，从句里保留主语I和谓语served的自然语序，意思是“我接待了那位男士”；书面正式文体中可使用宾格whom替代who。"
+    },
+    {
+      "title": "过去进行时的使用场景",
+      "text": "was wearing a hat表示过去某一时间点（半小时前为男士服务时）正持续存在的穿戴状态，对应回忆当时那位男士的外形特征，并非指他在进行“戴帽子”的瞬时动作。"
+    },
+    {
+      "title": "前后两句的语义关系",
+      "text": "前一句直白表示自己记不清细节，后一句给出自己仅存的可用于辨认的记忆线索，用来解释为什么无法完全确认对方身份。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确清晰，仅存在两处可明确修正的细节：一是关系代词的音标未给出宾格形式whom的对应读音/huːm/，二是对过去进行时表状态的表述略有歧义，修正后即可完全符合教学规范，无其他错误。（非逐句人工审核）"
+}

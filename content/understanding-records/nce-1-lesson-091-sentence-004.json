@@ -1,0 +1,99 @@
+{
+  "chinese": "还没有。",
+  "intent": "回应对方关于他是否已经搬进新家的提问，明确说明搬家这件事到目前为止还没有发生。",
+  "comparison": {
+    "chinese": "（他）还没有（搬家）。",
+    "english": "No, not yet.",
+    "steps": [
+      {
+        "label": "先接住对方的提问",
+        "text": "No",
+        "explanation": "首先直接给出否定答复，对应对方“他有没有搬进新家”的是非提问。"
+      },
+      {
+        "label": "补充说明时间状态",
+        "text": "not yet",
+        "explanation": "补充说明这件事不是永远不发生，只是到当前这个时间点还没有完成。"
+      }
+    ],
+    "takeaway": "英语用No直接回应是非提问，再用not yet补充说明“到目前为止尚未发生”，简洁表达否定加未完成的状态。"
+  },
+  "backbone": {
+    "text": "No, not yet.",
+    "meaning": "他还没有搬进新家。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略式口语应答",
+      "text": "这是日常口语里的简略回答，承接上文的搬家问句，省略了和提问重复的“He hasn't moved to his new house”部分，只保留No和not yet，表达干脆自然。"
+    },
+    {
+      "title": "yet的位置与含义",
+      "text": "yet在句末，用于现在完成时的疑问和否定句中，意思是“到目前为止、至今”，和not搭配成not yet，专门表示某事到当前时间点还未发生。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "简短否定应答",
+      "explanation": "直接针对上文Has he...yet?的提问给出否定判断，相当于No, he hasn't。"
+    },
+    {
+      "text": "not yet.",
+      "role": "补充说明时间状态",
+      "explanation": "说明搬家这件事到目前尚未完成，是日常对话中常用的简略表达。"
+    }
+  ],
+  "words": [
+    {
+      "text": "No,",
+      "meaning": "不，没有（指还没搬家）",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "yet.",
+      "meaning": "到目前为止，还",
+      "pos": "副词",
+      "phonetic": "/jet/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "No,",
+      "meaning": "不，没有（指他没搬家）",
+      "relation": "直接回应上文的是非提问"
+    },
+    {
+      "text": "not yet.",
+      "meaning": "到目前为止（他）还没（搬家）",
+      "relation": "补充说明搬家这件事到当前时间点尚未完成"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-91",
+  "sentenceId": "nce-1-lesson-091-sentence-004",
+  "sentenceOrder": 4,
+  "english": "No, not yet.",
+  "lesson": "Lesson 91 Poor Ian!",
+  "notes": [
+    {
+      "title": "省略式口语应答",
+      "text": "这是日常口语里的简略回答，承接上文的搬家问句，省略了和提问重复的“He hasn't moved to his new house”部分，只保留No和not yet，表达干脆自然。"
+    },
+    {
+      "title": "yet的位置与含义",
+      "text": "yet在句末，用于现在完成时的疑问和否定句中，意思是“到目前为止、至今”，和not搭配成not yet，专门表示某事到当前时间点还未发生。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合口语省略应答的语境，主干、结构注释、指代说明均与上下文一致。仅存在两处可明确修正的细节：一是No标注为感叹词不准确，此处是用于回应是非疑问句的独立否定应答词；二是not yet部分单独翻译为“还没有”略有歧义，补充上下文限定后表意更准确。其余字段信息无误。（非逐句人工审核）"
+}

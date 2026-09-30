@@ -1,0 +1,75 @@
+{
+  "chinese": "不，我不是。",
+  "intent": "针对前面的一般疑问句给出否定答复，表明自己并不具备问句里提到的身份或属性。",
+  "comparison": null,
+  "backbone": {
+    "text": "No, I'm not.",
+    "meaning": "给出否定回应，明确自身不属于问句指向的情况"
+  },
+  "parts": [
+    {
+      "text": "No,",
+      "relation": "整体回应的开篇表态",
+      "meaning": "用来直接给出否定答复的发语词"
+    },
+    {
+      "text": "I'm not.",
+      "relation": "补充说明否定的具体指向对象",
+      "meaning": "I am not的缩略形式，明确陈述自身不满足前文问句的判定条件"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "缩略表达的使用",
+      "text": "I'm 是 I am 的常用口语缩略形式，搭配后面的 not 共同构成完整的否定陈述，不需要额外补全多余成分就能清晰传递含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "否定应答发语标记",
+      "explanation": "用于快速表明对前文问句的否定立场，开启后续的具体陈述"
+    },
+    {
+      "text": "I'm not.",
+      "role": "完整否定陈述主体",
+      "explanation": "将主语、系动词和否定词紧凑组合，完成对前文一般疑问句的完整否定答复"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "不",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/",
+      "text": "No,"
+    },
+    {
+      "meaning": "我是（I am的口语缩略形式）",
+      "pos": "人称代词+系动词",
+      "phonetic": "/aɪm/",
+      "text": "I'm"
+    },
+    {
+      "meaning": "不是",
+      "pos": "否定副词",
+      "phonetic": "/nɒt/",
+      "text": "not."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-7",
+  "sentenceId": "nce-1-lesson-007-sentence-006",
+  "sentenceOrder": 6,
+  "english": "No, I'm not.",
+  "lesson": "Lesson 7 Are you a teacher?",
+  "notes": [
+    {
+      "title": "缩略表达的使用",
+      "text": "I'm 是 I am 的常用口语缩略形式，搭配后面的 not 共同构成完整的否定陈述，不需要额外补全多余成分就能清晰传递含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合教学要求，仅存在部分细节可规范修正，不影响核心语义传递（非逐句人工审核）"
+}

@@ -1,0 +1,97 @@
+{
+  "chinese": "这不是我的伞。",
+  "intent": "说话人明确指出眼前的物品不属于自己，是一把认错的雨伞，表达否定的归属判断。",
+  "comparison": null,
+  "backbone": {
+    "text": "This is not my umbrella",
+    "meaning": "眼前的这个物品不属于我，是我的伞的否定表达"
+  },
+  "parts": [
+    {
+      "text": "This",
+      "relation": "描述的主体",
+      "meaning": "指代眼前的这个物品"
+    },
+    {
+      "text": "is not",
+      "relation": "连接主体和后续的判断内容",
+      "meaning": "是（带否定含义）"
+    },
+    {
+      "text": "my umbrella.",
+      "relation": "说明主体的归属对象",
+      "meaning": "属于我的伞"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "否定位置",
+      "text": "否定词not直接放在be动词is的后面，直接推翻原本“This is my umbrella”的肯定归属判断，不需要额外加助动词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "This",
+      "role": "指示代词作主语",
+      "explanation": "指代距离说话人较近的单个物品，在本句里指对方递过来的那把伞"
+    },
+    {
+      "text": "is not",
+      "role": "带否定的系动词",
+      "explanation": "把主语和后面的属性描述连接起来，同时带出否定含义，否定二者的等同关系"
+    },
+    {
+      "text": "my umbrella.",
+      "role": "名词短语作表语",
+      "explanation": "说明主语对应的归属物品，点明这不属于“我的伞”这一范畴"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这，这个",
+      "pos": "指示代词",
+      "phonetic": "/ðɪs/",
+      "text": "This"
+    },
+    {
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "不，不是",
+      "pos": "否定副词",
+      "phonetic": "/nɒt/",
+      "text": "not"
+    },
+    {
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/",
+      "text": "my"
+    },
+    {
+      "meaning": "伞",
+      "pos": "名词",
+      "phonetic": "/ʌmˈbrelə/",
+      "text": "umbrella."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-3",
+  "sentenceId": "nce-1-lesson-003-sentence-006",
+  "sentenceOrder": 6,
+  "english": "This is not my umbrella.",
+  "lesson": "Lesson 3 Sorry, sir.",
+  "notes": [
+    {
+      "title": "否定位置",
+      "text": "否定词not直接放在be动词is的后面，直接推翻原本“This is my umbrella”的肯定归属判断，不需要额外加助动词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原学习数据整体合规，仅存在少量细节表述瑕疵，可针对性修正优化，不影响核心内容准确性（非逐句人工审核）"
+}

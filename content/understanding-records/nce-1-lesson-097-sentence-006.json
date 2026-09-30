@@ -1,0 +1,235 @@
+{
+  "chinese": "卡罗琳，半小时前你接待过这位先生吗？他说他就是买这些书的人。",
+  "intent": "通过提问店员卡罗琳，确认她半小时前是否接待过这位自称是此前买书顾客的男士。",
+  "comparison": {
+    "chinese": "他就是买这些书的人。",
+    "english": "he's the man who bought these books",
+    "steps": [
+      {
+        "label": "中文语序",
+        "text": "“买这些书的人”",
+        "explanation": "中文把修饰语放在名词“人”前面，直接用“的”连接。"
+      },
+      {
+        "label": "英文语序",
+        "text": "the man who bought these books",
+        "explanation": "英文先说核心名词 the man，再用 who 引导的从句接在后面，说明这个人做过“买这些书”这件事。"
+      },
+      {
+        "label": "指代关系",
+        "text": "who 指 the man",
+        "explanation": "who 在从句中作主语，连接主句里的“the man”和他的行为“bought these books”。"
+      }
+    ],
+    "takeaway": "遇到“the man who...”这类结构时，先找到修饰的名词，再看 who 后面的动作是谁做的。"
+  },
+  "backbone": {
+    "text": "Did you serve this gentleman? He says he's the man.",
+    "meaning": "（理解用）你接待过这位先生吗？他说自己就是那个人。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去时间的一般疑问句",
+      "text": "half an hour ago 表示“半小时前”，是明确的过去时间状语；句首 Did 帮助构成一般过去时的疑问句，后面用动词原形 serve。"
+    },
+    {
+      "title": "who 引导的定语从句",
+      "text": "who bought these books 接在 the man 后面，who 指代 the man，在从句中作主语，说明“这个男人”的具体身份和行为。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Did you serve this gentleman half an hour ago, Caroline?",
+      "role": "一般疑问句",
+      "explanation": "句首 Did 构成一般过去时疑问，主语 you，谓语 serve，宾语 this gentleman，时间状语 half an hour ago，句末称呼语 Caroline 用逗号隔开。"
+    },
+    {
+      "text": "He says he's the man who bought these books.",
+      "role": "复合句",
+      "explanation": "主句 He says 后接省略 that 的宾语从句 he's the man...；the man 后接 who 引导的定语从句，修饰 the man。"
+    },
+    {
+      "text": "half an hour ago",
+      "role": "时间状语",
+      "explanation": "说明 serve 这个动作发生的时间是“半小时前”。"
+    },
+    {
+      "text": "who bought these books",
+      "role": "定语从句",
+      "explanation": "who 指代 the man，在从句中作主语，bought 是从句谓语，these books 是从句宾语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Did",
+      "meaning": "助动词（构成一般过去时疑问句）",
+      "pos": "auxiliary verb",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "pronoun",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "serve",
+      "meaning": "接待；服务（此处指店员接待顾客）",
+      "pos": "verb",
+      "phonetic": "/sɜːv/"
+    },
+    {
+      "text": "this",
+      "meaning": "这；这个",
+      "pos": "determiner",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "gentleman",
+      "meaning": "先生；男士",
+      "pos": "noun",
+      "phonetic": "/ˈdʒentlmən/"
+    },
+    {
+      "text": "half",
+      "meaning": "一半的",
+      "pos": "determiner",
+      "phonetic": "/hɑːf/"
+    },
+    {
+      "text": "an",
+      "meaning": "一（个）",
+      "pos": "article",
+      "phonetic": "/æn/"
+    },
+    {
+      "text": "hour",
+      "meaning": "小时",
+      "pos": "noun",
+      "phonetic": "/ˈaʊə/"
+    },
+    {
+      "text": "ago,",
+      "meaning": "以前",
+      "pos": "adverb",
+      "phonetic": "/əˈɡəʊ/"
+    },
+    {
+      "text": "Caroline?",
+      "meaning": "卡罗琳（女子名）",
+      "pos": "proper noun",
+      "phonetic": "/ˈkærəlaɪn/"
+    },
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "pronoun",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "says",
+      "meaning": "说；声称",
+      "pos": "verb",
+      "phonetic": "/sez/"
+    },
+    {
+      "text": "he's",
+      "meaning": "他是（he is 的缩写）",
+      "pos": "contraction",
+      "phonetic": "/hiːz/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指）那个",
+      "pos": "determiner",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人",
+      "pos": "noun",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "who",
+      "meaning": "关系代词，指那个人",
+      "pos": "relative pronoun",
+      "phonetic": "/huː/"
+    },
+    {
+      "text": "bought",
+      "meaning": "买（buy 的过去式）",
+      "pos": "verb",
+      "phonetic": "/bɔːt/"
+    },
+    {
+      "text": "these",
+      "meaning": "这些",
+      "pos": "determiner",
+      "phonetic": "/ðiːz/"
+    },
+    {
+      "text": "books.",
+      "meaning": "书（复数）",
+      "pos": "noun",
+      "phonetic": "/bʊks/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Did you serve",
+      "relation": "疑问句的引导和主干部分，Did 帮助构成过去时疑问。",
+      "meaning": "你……接待过……吗？"
+    },
+    {
+      "text": "this gentleman",
+      "relation": "接待的对象。",
+      "meaning": "这位先生"
+    },
+    {
+      "text": "half an hour ago,",
+      "relation": "补充说明接待发生的时间。",
+      "meaning": "半小时前"
+    },
+    {
+      "text": "Caroline?",
+      "relation": "问话的对象。",
+      "meaning": "卡罗琳？"
+    },
+    {
+      "text": "He says",
+      "relation": "引出他自己的说法。",
+      "meaning": "他说"
+    },
+    {
+      "text": "he's the man",
+      "relation": "说明他的身份。",
+      "meaning": "他就是那个人"
+    },
+    {
+      "text": "who bought these books.",
+      "relation": "修饰“那个人”，说明具体是哪个人。",
+      "meaning": "买这些书的"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-97",
+  "sentenceId": "nce-1-lesson-097-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Did you serve this gentleman half an hour ago, Caroline? He says he's the man who bought these books.",
+  "lesson": "Lesson 97 A small blue case",
+  "notes": [
+    {
+      "title": "过去时间的一般疑问句",
+      "text": "half an hour ago 表示“半小时前”，是明确的过去时间状语；句首 Did 帮助构成一般过去时的疑问句，后面用动词原形 serve。"
+    },
+    {
+      "title": "who 引导的定语从句",
+      "text": "who bought these books 接在 the man 后面，who 指代 the man，在从句中作主语，说明“这个男人”的具体身份和行为。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，语法术语、语序对比和句意理解基本正确。仅词表存在两处小问题：the 的词性被误标为 article（零冠词语境中通常分析为 determiner/限定词），ago 的分块文本误把末尾逗号并入单词；同时需要明确 serve 的对象语义是“接待（顾客）”而非泛化的服务。（非逐句人工审核）"
+}

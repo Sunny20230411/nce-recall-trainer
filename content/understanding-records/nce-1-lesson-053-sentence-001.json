@@ -1,0 +1,123 @@
+{
+  "chinese": "你来自哪里？",
+  "intent": "向对方询问其籍贯、来源地，寻求地点相关的信息。",
+  "comparison": {
+    "chinese": "中文把疑问词「哪里」放在动词「来自」的前面直接提问。",
+    "english": "英文先说疑问词Where，再用助动词do提前，引出主语和动词短语，构成完整疑问句。",
+    "steps": [
+      {
+        "label": "确定核心动作",
+        "text": "you come from",
+        "explanation": "先识别出说话的核心动作是「你来自……」，这是句子的基础意思。"
+      },
+      {
+        "label": "明确疑问点",
+        "text": "Where + do",
+        "explanation": "用Where点明要问的是地点，用do把一般现在时的疑问形式搭起来。"
+      },
+      {
+        "label": "组合成问句",
+        "text": "Where do you come from?",
+        "explanation": "把「地点疑问词+助动词+主语+动词短语」组合起来，就是中文对应的「你来自哪里」。"
+      }
+    ],
+    "takeaway": "英文特殊疑问句需要把助动词提到主语前面，疑问词放在句首。"
+  },
+  "backbone": {
+    "text": "You come from somewhere.",
+    "meaning": "你来自某个地方。"
+  },
+  "structureNotes": [
+    {
+      "title": "特殊疑问句的构成",
+      "text": "这是询问来源地的特殊疑问句，Where作为疑问词放在句首，助动词do放在主语you之前，再接谓语部分come from，问号表明这是向对方提问。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Where",
+      "role": "疑问副词",
+      "explanation": "询问来源的具体地点，对应中文的「哪里」。"
+    },
+    {
+      "text": "do",
+      "role": "助动词",
+      "explanation": "帮助构成一般现在时的疑问句，没有实际词义。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指被询问的对象「你」。"
+    },
+    {
+      "text": "come from",
+      "role": "谓语",
+      "explanation": "表示「来自」的动作，和you搭配说明主语的来源。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Where",
+      "meaning": "哪里，何地",
+      "pos": "疑问副词",
+      "phonetic": "/weə/"
+    },
+    {
+      "text": "do",
+      "meaning": "（助动词，无实义，用于构成一般现在时疑问）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "come",
+      "meaning": "来（与from搭配表示来自）",
+      "pos": "动词",
+      "phonetic": "/kʌm/"
+    },
+    {
+      "text": "from?",
+      "meaning": "自……，从……（与come搭配构成短语come from，表示来自）",
+      "pos": "介词",
+      "phonetic": "/frɒm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Where",
+      "meaning": "哪里",
+      "relation": "疑问短语的地点核心：提问指向对方的来源地"
+    },
+    {
+      "text": "do you",
+      "meaning": "你（其中do仅为帮助构成疑问的助动词，无实际词义）",
+      "relation": "疑问句式辅助：借助助动词do引出动作的主体you"
+    },
+    {
+      "text": "come from?",
+      "meaning": "来自？",
+      "relation": "核心动作短语：搭配主语说明来源，句末问号表示疑问语气"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-53",
+  "sentenceId": "nce-1-lesson-053-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Where do you come from?",
+  "lesson": "Lesson 53 An interesting climate",
+  "notes": [
+    {
+      "title": "特殊疑问句的构成",
+      "text": "这是询问来源地的特殊疑问句，Where作为疑问词放在句首，助动词do放在主语you之前，再接谓语部分come from，问号表明这是向对方提问。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句整体解析基本准确，未将Where误认为主语，疑问句结构、主干还原、中英对比的组织逻辑均无原则性错误，仅存在两处可明确修正的细节问题：一是词汇表中from的原分块错误混入句末问号，音标被错写在from后却将问号纳入词汇文本，不符合分词规范；二是Parts分块中do you块的含义未点明do仅为助动词，易让学习者误以为do本身承载实义。（非逐句人工审核）"
+}

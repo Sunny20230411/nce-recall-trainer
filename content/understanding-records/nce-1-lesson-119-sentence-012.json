@@ -1,0 +1,95 @@
+{
+  "chinese": "小偷已经走了。",
+  "intent": "叙述乔治打开灯查看房间时的发现：在他开灯的那个时间点，小偷早已不在屋里。",
+  "comparison": null,
+  "backbone": {
+    "text": "The thieves had already gone.",
+    "meaning": "小偷已经不在原地、离开了。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去完成时的时间参照",
+      "text": "had gone 表示“离开”这个动作发生在更早的过去，在文中是相对于“他打开灯、查看房间”这组先后发生的过去动作来说，小偷在他开灯之前就已经离开了。"
+    },
+    {
+      "title": "already 的位置",
+      "text": "already 放在助动词 had 与过去分词 gone 之间，用来强调“早已经”完成，说明打开灯时小偷不在现场。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The thieves",
+      "role": "主语",
+      "explanation": "指句子描述的对象，这里特指闯入乔治家的小偷。"
+    },
+    {
+      "text": "had already gone",
+      "role": "谓语",
+      "explanation": "由助动词 had、副词 already 和过去分词 gone 组成，整体表示“已经离开”这一完成状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "（定冠词，特指上文提到的闯入乔治家的小偷）",
+      "pos": "冠词",
+      "phonetic": "/ðə, ðɪ/"
+    },
+    {
+      "text": "thieves",
+      "meaning": "小偷（thief 的复数形式）",
+      "pos": "名词",
+      "phonetic": "/θiːvz/"
+    },
+    {
+      "text": "had",
+      "meaning": "（过去完成时助动词，无实义，帮助构成完成时态）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "already",
+      "meaning": "已经",
+      "pos": "副词",
+      "phonetic": "/ɔːlˈredi/"
+    },
+    {
+      "text": "gone.",
+      "meaning": "离开（go 的过去分词形式，此处表示“已经不在原处”的状态）",
+      "pos": "动词",
+      "phonetic": "/ɡɒn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The thieves",
+      "meaning": "（特指闯入乔治家的）小偷",
+      "relation": "句子描述的主体，也就是被描述为已经不在现场的人。"
+    },
+    {
+      "text": "had already gone.",
+      "meaning": "（在那之前）就已经离开了",
+      "relation": "描述主体的状态，说明小偷在乔治开灯查看之前就已经走掉了。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-119",
+  "sentenceId": "nce-1-lesson-119-sentence-012",
+  "sentenceOrder": 12,
+  "english": "The thieves had already gone.",
+  "lesson": "Lesson 119 A true story",
+  "notes": [
+    {
+      "title": "过去完成时的时间参照",
+      "text": "had gone 表示“离开”这个动作发生在更早的过去，在文中是相对于“他打开灯、查看房间”这组先后发生的过去动作来说，小偷在他开灯之前就已经离开了。"
+    },
+    {
+      "title": "already 的位置",
+      "text": "already 放在助动词 had 与过去分词 gone 之间，用来强调“早已经”完成，说明打开灯时小偷不在现场。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有解析的时态参照、分句功能、主干和词汇标注整体正确，仅需细化部分表述：过去完成时参照的是“开灯、查看”两个先后动作的时间基准，而非泛化的“开灯查看”单动作；thieves 为特指乔治家的小偷；already 在助动词与过去分词之间的位置与强调作用表述准确；gone 的词条可点明其为 go 的过去分词、表“离开”的状态，其余内容无误。（非逐句人工审核）"
+}

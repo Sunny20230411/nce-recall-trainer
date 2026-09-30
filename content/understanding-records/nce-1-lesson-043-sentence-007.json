@@ -1,0 +1,91 @@
+{
+  "chinese": "你能看见它吗？",
+  "intent": "询问对方是否能够看到当前对话中指向的那个事物",
+  "comparison": null,
+  "backbone": {
+    "text": "Can you see it?",
+    "meaning": "询问对方是否看得见某物"
+  },
+  "parts": [
+    {
+      "text": "Can",
+      "relation": "情态动词，置于句首引导一般疑问句",
+      "meaning": "能够、可以"
+    },
+    {
+      "text": "you",
+      "relation": "句子的主语，即询问的对象",
+      "meaning": "你"
+    },
+    {
+      "text": "see",
+      "relation": "句子的谓语实义动词",
+      "meaning": "看见"
+    },
+    {
+      "text": "it?",
+      "relation": "句子的宾语，指代前文语境中提到的tea",
+      "meaning": "它"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "情态动词提前的疑问句结构",
+      "text": "情态动词Can放在句首，后面接主语you和动词原形see，构成询问对方是否具备做某件事能力的一般疑问句"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Can you",
+      "role": "疑问引导部分",
+      "explanation": "由情态动词和第二人称主语组成，用于开启针对对方能力的询问"
+    },
+    {
+      "text": "see it",
+      "role": "谓语宾语部分",
+      "explanation": "说明询问的具体动作和动作指向的对象"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "能、能够",
+      "pos": "modal verb",
+      "phonetic": "/kæn/",
+      "text": "Can"
+    },
+    {
+      "meaning": "你",
+      "pos": "pronoun",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "看见",
+      "pos": "verb",
+      "phonetic": "/siː/",
+      "text": "see"
+    },
+    {
+      "meaning": "它",
+      "pos": "pronoun",
+      "phonetic": "/ɪt/",
+      "text": "it?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-43",
+  "sentenceId": "nce-1-lesson-043-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Can you see it?",
+  "lesson": "Lesson 43 Hurry up!",
+  "notes": [
+    {
+      "title": "情态动词提前的疑问句结构",
+      "text": "情态动词Can放在句首，后面接主语you和动词原形see，构成询问对方是否具备做某件事能力的一般疑问句"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本符合要求，仅存在部分细节表述不严谨、格式小瑕疵的可修正问题（非逐句人工审核）"
+}

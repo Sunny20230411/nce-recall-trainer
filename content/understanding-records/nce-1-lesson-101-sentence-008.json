@@ -1,0 +1,109 @@
+{
+  "chinese": "青年旅舍协会，妈妈。就是青年旅舍协会。",
+  "intent": "向妈妈说明吉米明信片落款的缩写指代的具体机构名称。",
+  "comparison": null,
+  "backbone": {
+    "text": "The Youth Hostels Association.",
+    "meaning": "就是青年旅舍协会这个机构。"
+  },
+  "structureNotes": [
+    {
+      "title": "口语补充说明结构",
+      "text": "先说缩写The Y.H.A.，再用完整全称The Youth Hostels Association解释它的含义；Mum是对听话人的称呼，放在第一句句末，是口语日常对话的自然表达。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The Y.H.A.",
+      "role": "专有机构缩写",
+      "explanation": "是Youth Hostels Association（青年旅舍协会）的缩写，单独成句用来回应妈妈的提问。"
+    },
+    {
+      "text": "Mum",
+      "role": "称呼语",
+      "explanation": "放在第一句句末，是口语对话中对妈妈的称呼。"
+    },
+    {
+      "text": "The Youth Hostels Association",
+      "role": "机构专有名词短语",
+      "explanation": "是前面缩写的完整正式名称，用来向妈妈解释Y.H.A.的具体含义。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "（定冠词，用于特指该机构）",
+      "pos": "det.",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "Y.H.A.,",
+      "meaning": "青年旅舍协会（Youth Hostels Association的缩写）",
+      "pos": "专有名词",
+      "phonetic": "/ˌwaɪ eɪtʃ ˈeɪ/"
+    },
+    {
+      "text": "Mum.",
+      "meaning": "妈妈",
+      "pos": "名词",
+      "phonetic": "/mʌm/"
+    },
+    {
+      "text": "The",
+      "meaning": "（定冠词，用于特指该机构）",
+      "pos": "det.",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "Youth",
+      "meaning": "青年（此处作定语，修饰Hostels）",
+      "pos": "名词",
+      "phonetic": "/juːθ/"
+    },
+    {
+      "text": "Hostels",
+      "meaning": "青年旅舍、青年招待所（复数形式）",
+      "pos": "名词",
+      "phonetic": "/ˈhɒstl̩z/"
+    },
+    {
+      "text": "Association.",
+      "meaning": "协会、社团",
+      "pos": "名词",
+      "phonetic": "/əˌsəʊsiˈeɪʃn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The Y.H.A.,",
+      "relation": "回应的核心缩写",
+      "meaning": "青年旅舍协会（缩写）"
+    },
+    {
+      "text": "Mum.",
+      "relation": "补充对话的听话对象",
+      "meaning": "妈妈"
+    },
+    {
+      "text": "The Youth Hostels Association.",
+      "relation": "补充解释前面缩写的完整含义",
+      "meaning": "青年旅舍协会（全称）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-101",
+  "sentenceId": "nce-1-lesson-101-sentence-008",
+  "sentenceOrder": 8,
+  "english": "The Y.H.A., Mum. The Youth Hostels Association.",
+  "lesson": "Lesson 101 A card from Jimmy",
+  "notes": [
+    {
+      "title": "口语补充说明结构",
+      "text": "先说缩写The Y.H.A.，再用完整全称The Youth Hostels Association解释它的含义；Mum是对听话人的称呼，放在第一句句末，是口语日常对话的自然表达。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合《新概念英语1》第101课的语境，原句拆分结构清晰，单词音标、词性及基础释义基本准确，主干提取符合原句核心表意，仅存在缩写全称表述错误、部分角色说明冗余、个别词义需补充说明的可修正问题。（非逐句人工审核）"
+}

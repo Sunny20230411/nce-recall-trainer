@@ -1,0 +1,138 @@
+{
+  "chinese": "我读到她在1970年是二十九岁。",
+  "intent": "转述自己从某处读到的关于女演员在1970年年龄的信息。",
+  "comparison": {
+    "chinese": "我读到她在1970年是二十九岁。",
+    "english": "I read she was twenty-nine in 1970.",
+    "steps": [
+      {
+        "label": "主句部分",
+        "text": "I read",
+        "explanation": "句首直接说出“我读到了什么”，主句谓语是read，后面接宾语从句时可选的引导词that在此省略，直接连接读到的具体内容。"
+      },
+      {
+        "label": "从句内容",
+        "text": "she was twenty-nine in 1970",
+        "explanation": "作read的宾语，说明读到的具体信息是“她在1970年是29岁”；she是从句主语，was是系动词，twenty-nine是表语，in 1970是修饰该年龄状态的时间状语。"
+      },
+      {
+        "label": "时间位置",
+        "text": "in 1970 放在从句末尾",
+        "explanation": "英语把时间状语in 1970放在she was twenty-nine后面，优先修饰“她29岁”这个状态，对应中文“在1970年”放在年龄描述前面；除非有明确语境标记，不会默认修饰主句“读到”这个动作。"
+      }
+    ],
+    "takeaway": "read表示“获悉、读到”后接陈述类宾语从句时，可选的引导词that通常可以省略，直接把读到的完整句子跟在后面即可。"
+  },
+  "backbone": {
+    "text": "I read she was twenty-nine in 1970.",
+    "meaning": "我读到她在1970年是二十九岁。"
+  },
+  "structureNotes": [
+    {
+      "title": "read后接宾语从句",
+      "text": "read表示“读到、获悉”时，后面可以直接接陈述内容作宾语，这里省略了可选的引导词that，完整表达是I read (that) she was twenty-nine in 1970。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "in 1970放在从句末尾，优先修饰she was twenty-nine这个状态，说明年龄对应的年份；通常不会默认修饰主句“读到”这个动作，因此不会产生“我在1970年读到这件事”的歧义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主句主语",
+      "explanation": "指代说话者本人，是“读”这个动作的发出者。"
+    },
+    {
+      "text": "read",
+      "role": "主句谓语动词",
+      "explanation": "表示“读到、获悉”，后面接读到的具体内容作宾语。"
+    },
+    {
+      "text": "she was twenty-nine in 1970",
+      "role": "宾语从句",
+      "explanation": "作read的宾语，说明读到的完整信息；从句使用陈述语序，she是从句主语，was是系动词，twenty-nine是表语，in 1970是修饰年龄状态的时间状语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "read",
+      "meaning": "读到；获悉",
+      "pos": "动词",
+      "phonetic": "/red/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be动词的过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "twenty-nine",
+      "meaning": "二十九岁",
+      "pos": "数词",
+      "phonetic": "/ˌtwenti ˈnaɪn/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（某年份）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "1970.",
+      "meaning": "1970年",
+      "pos": "数词",
+      "phonetic": "/ˌnaɪntiːn ˈsevnti/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I read",
+      "meaning": "我读到",
+      "relation": "句子主干，说明说话者获取信息的动作"
+    },
+    {
+      "text": "she was twenty-nine",
+      "meaning": "她是二十九岁",
+      "relation": "补充读到的核心内容，说明她当时的年龄"
+    },
+    {
+      "text": "in 1970.",
+      "meaning": "在1970年。",
+      "relation": "补充时间，说明二十九岁这个状态对应的年份"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-127",
+  "sentenceId": "nce-1-lesson-127-sentence-003",
+  "sentenceOrder": 3,
+  "english": "I read she was twenty-nine in 1970.",
+  "lesson": "Lesson 127 A famous actress",
+  "notes": [
+    {
+      "title": "read后接宾语从句",
+      "text": "read表示“读到、获悉”时，后面可以直接接陈述内容作宾语，这里省略了可选的引导词that，完整表达是I read (that) she was twenty-nine in 1970。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "in 1970放在从句末尾，优先修饰she was twenty-nine这个状态，说明年龄对应的年份；通常不会默认修饰主句“读到”这个动作，因此不会产生“我在1970年读到这件事”的歧义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体释义与语法结构解析准确，仅存在少量需要规范的细节：1. 单词拆分存在标点问题：“1970.”不应将句号纳入单词本体，拆分的单词为“1970”，末尾句号属于分句结束标点；2. 数字1970的英式音标标注错误；3. 对比步骤、结构说明中“省略that”的表述不够严谨，阅读宾语从句中的that属于可选引导词，省略是自然用法而非必须；4. 时间状语歧义提示的表述可更准确，说明其优先修饰从句状态的规则。修正后内容符合面向中文母语成年人的英语学习解析要求。（非逐句人工审核）"
+}

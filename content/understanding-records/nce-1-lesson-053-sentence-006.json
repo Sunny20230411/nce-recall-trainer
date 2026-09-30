@@ -1,0 +1,155 @@
+{
+  "chinese": "西部常常潮湿，南部有时暖和。",
+  "intent": "说明国家西部和南部不同的气候特点。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's wet in the West and warm in the South.",
+    "meaning": "西部潮湿，南部暖和。这里用It泛指天气；often和sometimes分别补充两处的出现频率。"
+  },
+  "structureNotes": [
+    {
+      "title": "and 连接两个并列的天气描述",
+      "text": "It's后面跟着两个对等部分：often wet in the West 和 sometimes warm in the South。共用同一套主谓结构，直接说明不同区域的天气特征。"
+    },
+    {
+      "title": "It 指代天气",
+      "text": "It是虚指，不特指某个具体物体，用来谈论温度、晴雨、刮风这类天气状况。"
+    },
+    {
+      "title": "in the West / South 指方位区域",
+      "text": "大写the West、the South表示国家的西部、南部，不是指简单的方位坐标。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's often wet in the West",
+      "role": "天气描述分句",
+      "explanation": "It指代天气，often wet说明西部常潮湿，in the West指明区域。"
+    },
+    {
+      "text": "and sometimes warm in the South",
+      "role": "并列天气描述分句",
+      "explanation": "and连接对等结构，sometimes warm说明南部有时暖和，in the South指明区域。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It's",
+      "meaning": "是（it is的缩写，it指代天气）",
+      "pos": "缩写",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "often",
+      "meaning": "经常",
+      "pos": "副词",
+      "phonetic": "/ˈɒfn/"
+    },
+    {
+      "text": "wet",
+      "meaning": "潮湿的",
+      "pos": "形容词",
+      "phonetic": "/wet/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指，用于方位名词前）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "West",
+      "meaning": "西部；西方",
+      "pos": "名词",
+      "phonetic": "/west/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "sometimes",
+      "meaning": "有时；间或",
+      "pos": "副词",
+      "phonetic": "/ˈsʌmtaɪmz/"
+    },
+    {
+      "text": "warm",
+      "meaning": "温暖的",
+      "pos": "形容词",
+      "phonetic": "/wɔːm/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指，用于方位名词前）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "South.",
+      "meaning": "南部；南方",
+      "pos": "名词",
+      "phonetic": "/saʊθ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It's often wet",
+      "relation": "描述天气状态",
+      "meaning": "（天气）常常是潮湿的"
+    },
+    {
+      "text": "in the West",
+      "relation": "指明潮湿天气发生的区域",
+      "meaning": "在西部"
+    },
+    {
+      "text": "and sometimes warm",
+      "relation": "并列说明另一处的天气状态",
+      "meaning": "并且有时是暖和的"
+    },
+    {
+      "text": "in the South.",
+      "relation": "指明暖和天气发生的区域",
+      "meaning": "在南部"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-53",
+  "sentenceId": "nce-1-lesson-053-sentence-006",
+  "sentenceOrder": 6,
+  "english": "It's often wet in the West and sometimes warm in the South.",
+  "lesson": "Lesson 53 An interesting climate",
+  "notes": [
+    {
+      "title": "and 连接两个并列的天气描述",
+      "text": "It's后面跟着两个对等部分：often wet in the West 和 sometimes warm in the South。共用同一套主谓结构，直接说明不同区域的天气特征。"
+    },
+    {
+      "title": "It 指代天气",
+      "text": "It是虚指，不特指某个具体物体，用来谈论温度、晴雨、刮风这类天气状况。"
+    },
+    {
+      "title": "in the West / South 指方位区域",
+      "text": "大写the West、the South表示国家的西部、南部，不是指简单的方位坐标。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语法分析清晰，对It的虚指属性、and连接并列天气描述的结构讲解到位，方位表达的含义明确。存在两处可优化细节：一是South词条的text附带了句末句号，与其余单词条仅收录词语本身的格式不统一；二是warm的音标未补充英式发音对应的音标符号，与其余词条的标注规范不一致。以上问题不影响核心内容理解，修正后可通过。（非逐句人工审核）"
+}

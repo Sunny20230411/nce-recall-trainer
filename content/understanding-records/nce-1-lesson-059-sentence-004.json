@@ -1,0 +1,133 @@
+{
+  "chinese": "没有，包里没有奶酪。",
+  "intent": "对一般疑问句作出否定回答，说明包里没有奶酪。",
+  "comparison": null,
+  "backbone": {
+    "text": "there isn't any cheese in the bag.",
+    "meaning": "包里没有奶酪。"
+  },
+  "structureNotes": [
+    {
+      "title": "there be句型的否定回答",
+      "text": "这是There be句型的否定陈述句，直接对应上文的Is there any cheese...一般疑问句作出否定回应，isn't是is not的缩写，明确否定存在。"
+    },
+    {
+      "title": "any与不可数名词的搭配",
+      "text": "cheese是不可数名词，any在否定句中修饰它，意思是“一些”，和肯定句中使用some的情况有区别。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "否定应答词",
+      "explanation": "用来直接回应上文的一般疑问句，引出后面的否定陈述。"
+    },
+    {
+      "text": "there",
+      "role": "存在句引导词",
+      "explanation": "在There be句型中引导存在表述，本身没有实际词义。"
+    },
+    {
+      "text": "isn't",
+      "role": "系动词否定式",
+      "explanation": "是is not的缩写，表示“不存在”，说明主语的否定状态。"
+    },
+    {
+      "text": "any cheese",
+      "role": "存在句主语",
+      "explanation": "是句子描述的核心事物，any修饰不可数名词cheese，表示“一些奶酪”。"
+    },
+    {
+      "text": "in the bag",
+      "role": "地点状语",
+      "explanation": "说明奶酪不存在的具体位置是“在包里”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "No,",
+      "meaning": "（用于否定回答）没有，不",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "there",
+      "meaning": "（用于there be句型引导存在）",
+      "pos": "引导词",
+      "phonetic": "/ðeə(r)/"
+    },
+    {
+      "text": "isn't",
+      "meaning": "不是，不存在（is not的缩写）",
+      "pos": "动词短语",
+      "phonetic": "/ˈɪznt/"
+    },
+    {
+      "text": "any",
+      "meaning": "任何（用于否定句，表示存在一定数量）",
+      "pos": "限定词",
+      "phonetic": "/ˈeni/"
+    },
+    {
+      "text": "cheese",
+      "meaning": "奶酪",
+      "pos": "名词",
+      "phonetic": "/tʃiːz/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，此处指代双方都知道的包）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bag.",
+      "meaning": "包",
+      "pos": "名词",
+      "phonetic": "/bæɡ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "No,",
+      "relation": "应答上文的问题，给出否定立场",
+      "meaning": "没有"
+    },
+    {
+      "text": "there isn't any cheese",
+      "relation": "句子核心的否定存在表述，说明不存在的事物是奶酪",
+      "meaning": "没有任何奶酪"
+    },
+    {
+      "text": "in the bag.",
+      "relation": "补充说明奶酪不存在的具体位置是在包里面",
+      "meaning": "在包里"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-59",
+  "sentenceId": "nce-1-lesson-059-sentence-004",
+  "sentenceOrder": 4,
+  "english": "No, there isn't any cheese in the bag.",
+  "lesson": "Lesson 59 Is that all?",
+  "notes": [
+    {
+      "title": "there be句型的否定回答",
+      "text": "这是There be句型的否定陈述句，直接对应上文的Is there any cheese...一般疑问句作出否定回应，isn't是is not的缩写，明确否定存在。"
+    },
+    {
+      "title": "any与不可数名词的搭配",
+      "text": "cheese是不可数名词，any在否定句中修饰它，意思是“一些”，和肯定句中使用some的情况有区别。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干提取了完整的否定存在句，没有把No独立出来；there的引导词身份、isn't的系动词否定式、any cheese作存在句主语都已正确分离，地点状语修饰关系准确。词义与英式音标基本正确，any在否定句中表“一些”、cheese为不可数名词也讲清了。No,的词义缺少“（表示否定）”的功能说明，isn't的发音分隔标注不规范，any的释义没有体现否定句中表“任何”的语境，这些是可明确修正的小问题。（非逐句人工审核）"
+}

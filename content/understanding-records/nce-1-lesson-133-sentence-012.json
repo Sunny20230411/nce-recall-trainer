@@ -1,0 +1,143 @@
+{
+  "chinese": "她穿着一件蓝色连衣裙和一件水貂皮大衣。",
+  "intent": "描述卡伦·马什抵达伦敦机场当天的穿着打扮。",
+  "comparison": null,
+  "backbone": {
+    "text": "She was wearing a dress and a coat.",
+    "meaning": "她当时穿着连衣裙和大衣。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去进行时的用法",
+      "text": "was wearing 是过去进行时结构，此处用来描述卡伦抵达伦敦机场时呈现的穿着状态，表示当时正穿着这身衣物，而不是后来换了别的衣服。"
+    },
+    {
+      "title": "并列宾语的处理",
+      "text": "and 连接了 a blue dress 和 a mink coat 两个并列的穿着对象，两个短语都由 was wearing 支配，说明她当时同时穿着这两件衣物。"
+    },
+    {
+      "title": "名词作定语的用法",
+      "text": "mink 原本是指水貂、貂皮的名词，这里直接放在 coat 前面修饰它，说明这件大衣的材质是貂皮，不需要额外加介词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "主语",
+      "explanation": "指代前文提到的女演员卡伦·马什，是穿着状态的主体。"
+    },
+    {
+      "text": "was wearing",
+      "role": "谓语",
+      "explanation": "过去进行时结构，表示过去某个时刻正穿着某件衣物的状态。"
+    },
+    {
+      "text": "a blue dress and a mink coat",
+      "role": "并列宾语",
+      "explanation": "两个并列的衣物名词短语，都是 wearing 的对象，用 and 连接表示同时穿着。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/",
+      "text": "She"
+    },
+    {
+      "meaning": "（与 wearing 搭配构成过去进行时的助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/wɒz/",
+      "text": "was"
+    },
+    {
+      "meaning": "穿着（wear 的现在分词形式）",
+      "pos": "动词",
+      "phonetic": "/ˈweərɪŋ/",
+      "text": "wearing"
+    },
+    {
+      "meaning": "一件（不定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "蓝色的",
+      "pos": "形容词",
+      "phonetic": "/bluː/",
+      "text": "blue"
+    },
+    {
+      "meaning": "连衣裙",
+      "pos": "名词",
+      "phonetic": "/dres/",
+      "text": "dress"
+    },
+    {
+      "meaning": "和、与",
+      "pos": "连词",
+      "phonetic": "/ənd/",
+      "text": "and"
+    },
+    {
+      "meaning": "一件（不定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "水貂（此处作定语，指水貂皮材质）",
+      "pos": "名词",
+      "phonetic": "/mɪŋk/",
+      "text": "mink"
+    },
+    {
+      "meaning": "大衣",
+      "pos": "名词",
+      "phonetic": "/kəʊt/",
+      "text": "coat."
+    }
+  ],
+  "parts": [
+    {
+      "text": "She was wearing",
+      "relation": "描述主体的穿着状态",
+      "meaning": "她当时正穿着"
+    },
+    {
+      "text": "a blue dress",
+      "relation": "说明穿着的第一件衣物",
+      "meaning": "一件蓝色连衣裙"
+    },
+    {
+      "text": "and a mink coat.",
+      "relation": "并列补充穿着的第二件衣物",
+      "meaning": "和一件水貂皮大衣"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-133",
+  "sentenceId": "nce-1-lesson-133-sentence-012",
+  "sentenceOrder": 12,
+  "english": "She was wearing a blue dress and a mink coat.",
+  "lesson": "Lesson 133 Sensational news!",
+  "notes": [
+    {
+      "title": "过去进行时的用法",
+      "text": "was wearing 是过去进行时结构，此处用来描述卡伦抵达伦敦机场时呈现的穿着状态，表示当时正穿着这身衣物，而不是后来换了别的衣服。"
+    },
+    {
+      "title": "并列宾语的处理",
+      "text": "and 连接了 a blue dress 和 a mink coat 两个并列的穿着对象，两个短语都由 was wearing 支配，说明她当时同时穿着这两件衣物。"
+    },
+    {
+      "title": "名词作定语的用法",
+      "text": "mink 原本是指水貂、貂皮的名词，这里直接放在 coat 前面修饰它，说明这件大衣的材质是貂皮，不需要额外加介词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：结构、主干、词义与语境释义基本正确；仅需把过去进行时的说明改为适用于“动作进行”和“状态持续”的中性表述，避免把静态穿着状态说成正在进行的动作。（非逐句人工审核）"
+}

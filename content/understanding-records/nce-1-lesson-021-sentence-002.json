@@ -1,0 +1,64 @@
+{
+  "chinese": "哪一本书？",
+  "intent": "针对前文提到的“给我拿一本书”的请求，专门询问对方具体想要的是哪一本特定的书",
+  "comparison": null,
+  "backbone": {
+    "text": "Which book?",
+    "meaning": "询问指定范围内的某一本书的具体所指"
+  },
+  "parts": [
+    {
+      "text": "Which",
+      "relation": "限定询问的对象范围，用来指明要在多个选项里做选择，此处作疑问限定词修饰后续名词book",
+      "meaning": "哪一个"
+    },
+    {
+      "text": "book?",
+      "relation": "说明正在询问的核心事物是什么，句末问号整体承担全句的疑问语气功能",
+      "meaning": "书"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略式疑问句",
+      "text": "这个短句是上下文支撑下的口语简化表达，补全完整理解为Which book do you want?，直接省略了双方都清楚的主语和谓语部分，符合日常对话的简洁习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Which book",
+      "role": "特殊疑问短语",
+      "explanation": "由疑问限定词加被询问的核心名词组成，直接指明询问的是书的具体选择"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "哪一个",
+      "pos": "疑问限定词",
+      "phonetic": "/wɪtʃ/",
+      "text": "Which"
+    },
+    {
+      "meaning": "书",
+      "pos": "名词",
+      "phonetic": "/bʊk/",
+      "text": "book?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-21",
+  "sentenceId": "nce-1-lesson-021-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Which book?",
+  "lesson": "Lesson 21 Which book?",
+  "notes": [
+    {
+      "title": "省略式疑问句",
+      "text": "这个短句是上下文支撑下的口语简化表达，补全完整理解为Which book do you want?，直接省略了双方都清楚的主语和谓语部分，符合日常对话的简洁习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体基本合规，仅存在局部细节表述偏差，可明确修正完善（非逐句人工审核）"
+}

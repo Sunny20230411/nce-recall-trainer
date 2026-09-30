@@ -1,0 +1,91 @@
+{
+  "chinese": "你今天好吗？",
+  "intent": "熟人见面时用来问候对方近况是否安好的日常礼貌询问",
+  "comparison": null,
+  "backbone": {
+    "text": "How are you today?",
+    "meaning": "询问对方当下的状态如何"
+  },
+  "parts": [
+    {
+      "text": "How",
+      "relation": "点明询问的核心内容，聚焦了解对方的状态",
+      "meaning": "如何、怎么样"
+    },
+    {
+      "text": "are you",
+      "relation": "系动词搭配指代被询问对象的主语，建立身份与状态的关联",
+      "meaning": "你（的状态）是"
+    },
+    {
+      "text": "today?",
+      "relation": "限定询问的时间范围在当日，句末问号标记整句为疑问句",
+      "meaning": "今天"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "特殊疑问词引导问候",
+      "text": "本句用How开头询问状态，无需使用助动词do倒装，直接将be动词are移到主语you之前，是英语里最常用的日常问候句式。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "How",
+      "role": "特殊疑问副词",
+      "explanation": "用于引出关于状态、情况的询问"
+    },
+    {
+      "text": "are you",
+      "role": "疑问句系动词+主语前置结构",
+      "explanation": "为构成疑问句，将系动词are置于主语you之前，用于询问你的状态"
+    },
+    {
+      "text": "today",
+      "role": "时间状语",
+      "explanation": "将询问的时间限定在当日，句末的问号不属于该时间状语的组成部分，用于标记整句为疑问句"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "如何，怎样",
+      "pos": "疑问副词",
+      "phonetic": "/haʊ/",
+      "text": "How"
+    },
+    {
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "你，你们",
+      "pos": "人称代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "今天",
+      "pos": "时间副词",
+      "phonetic": "/təˈdeɪ/",
+      "text": "today?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-9",
+  "sentenceId": "nce-1-lesson-009-sentence-003",
+  "sentenceOrder": 3,
+  "english": "How are you today?",
+  "lesson": "Lesson 9 How are you today?",
+  "notes": [
+    {
+      "title": "特殊疑问词引导问候",
+      "text": "本句用How开头询问状态，无需使用助动词do倒装，直接将be动词are移到主语you之前，是英语里最常用的日常问候句式。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本符合教学要求，仅存在少量细节标注不严谨、描述冗余的问题，可明确修正完善。（非逐句人工审核）"
+}

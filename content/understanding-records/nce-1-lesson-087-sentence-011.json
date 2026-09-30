@@ -1,0 +1,104 @@
+{
+  "chinese": "我把车撞到一根路灯柱上了。",
+  "intent": "说话者向汽修店人员坦白自己之前开车时，把车撞到了路灯柱上，这就是车辆受损的原因。",
+  "comparison": null,
+  "backbone": {
+    "text": "I drove it into a lamp post.",
+    "meaning": "我驾驶车辆撞到了一根路灯柱上。"
+  },
+  "structureNotes": [
+    {
+      "title": "及物动词+介词的短语结构",
+      "text": "drive 是及物动词，后面紧跟宾语 it（指代前文提到的汽车）；介词 into 表示动作方向是“撞到……上”，后续接撞击的对象 a lamp post，整个结构自然表达驾车失控撞向路灯柱的结果。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "动作的发出者，指代说话的人。"
+    },
+    {
+      "text": "drove it into a lamp post.",
+      "role": "谓语部分",
+      "explanation": "描述主语发出的完整动作：驾车并撞击到路灯柱上。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词（主格）",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "drove",
+      "meaning": "驾驶（drive 的过去式）",
+      "pos": "动词",
+      "phonetic": "/drəʊv/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（此处指代那辆汽车）",
+      "pos": "代词（宾格）",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "into",
+      "meaning": "到……上、撞进……",
+      "pos": "介词",
+      "phonetic": "/ˈɪntuː/"
+    },
+    {
+      "text": "a",
+      "meaning": "一根",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "lamp",
+      "meaning": "灯",
+      "pos": "名词",
+      "phonetic": "/læmp/"
+    },
+    {
+      "text": "post.",
+      "meaning": "柱子（lamp post 为路灯柱）",
+      "pos": "名词",
+      "phonetic": "/pəʊst/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "句子的主语，指代说话人本人。",
+      "meaning": "我"
+    },
+    {
+      "text": "drove it",
+      "relation": "主语发出的核心动作，it 是 drove 的宾语。",
+      "meaning": "驾驶它（指代汽车）"
+    },
+    {
+      "text": "into a lamp post.",
+      "relation": "补充说明动作的方向和撞击对象，说明车撞到的位置。",
+      "meaning": "撞到一根路灯柱上"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-87",
+  "sentenceId": "nce-1-lesson-087-sentence-011",
+  "sentenceOrder": 11,
+  "english": "I drove it into a lamp post.",
+  "lesson": "Lesson 87 A car crash",
+  "notes": [
+    {
+      "title": "及物动词+介词的短语结构",
+      "text": "drive 是及物动词，后面紧跟宾语 it（指代前文提到的汽车）；介词 into 表示动作方向是“撞到……上”，后续接撞击的对象 a lamp post，整个结构自然表达驾车失控撞向路灯柱的结果。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确：drive into it a lamp post的核心含义、it指代前文汽车、句法成分划分均符合原句，无方向介词误判或指代替换错误。仅存在两处不影响核心理解的小问题：一是结构notes里把drive into衔接的驾车撞击结果描述成两个独立动作略有不妥；二是post词条的音标误混入了句号，post词义里也额外加了句号，不符合词条规范。（非逐句人工审核）"
+}

@@ -1,0 +1,52 @@
+{
+  "chinese": "什么事？",
+  "intent": "听到对方搭话后回应，请对方说明来意",
+  "backbone": {
+    "text": "Yes?",
+    "meaning": "简短发问，请对方说出具体内容"
+  },
+  "parts": [
+    {
+      "text": "Yes?",
+      "relation": "承接对方之前的提醒式搭话",
+      "meaning": "用带疑问语气的简短词搭话回应，示意对方说出接下来的内容"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "语境下的语气变化",
+      "text": "末尾的问号让原本表示同意的Yes脱离了普通肯定含义，变成请对方继续说明的示意问句"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes?",
+      "role": "带疑问语气的情景应答短句",
+      "explanation": "没有添加其他成分，仅靠上扬语调配合语境完成示意对方开口说明的功能"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（带疑问语气示意对方发言）什么事？",
+      "pos": "感叹词",
+      "phonetic": "/jes/",
+      "text": "Yes?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-1",
+  "sentenceId": "nce-1-lesson-001-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Yes?",
+  "lesson": "Lesson 1 Excuse me!",
+  "notes": [
+    {
+      "title": "语境下的语气变化",
+      "text": "末尾的问号让原本表示同意的Yes脱离了普通肯定含义，变成请对方继续说明的示意问句"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在单词词性标注的细节偏差，可明确修正（非逐句人工审核）"
+}

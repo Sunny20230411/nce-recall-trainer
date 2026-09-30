@@ -1,0 +1,102 @@
+{
+  "chinese": "那些花也很漂亮。",
+  "intent": "承接前文提到的漂亮花瓶，补充说明眼前的那些花同样美观。",
+  "comparison": null,
+  "backbone": {
+    "text": "Those flowers are lovely, too.",
+    "meaning": "那些花也很漂亮"
+  },
+  "parts": [
+    {
+      "text": "Those flowers",
+      "relation": "描述的主体",
+      "meaning": "那些花"
+    },
+    {
+      "text": "are",
+      "relation": "连接主体和描述属性的系动词",
+      "meaning": "是"
+    },
+    {
+      "text": "lovely,",
+      "relation": "补充说明主体的属性",
+      "meaning": "好看的、讨人喜欢的"
+    },
+    {
+      "text": "too.",
+      "relation": "呼应前文提到的漂亮物品，补充说明花同样符合美观的评价",
+      "meaning": "，也"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "too的位置作用",
+      "text": "副词too放在句末，用逗号和前文隔开，用来表示和之前提到的事物具备相同的属性，这里呼应前一句的漂亮花瓶，说明花也同样好看。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Those flowers",
+      "role": "主语",
+      "explanation": "明确本句描述的对象是远处或者前文提到的那些花"
+    },
+    {
+      "text": "are lovely",
+      "role": "系表结构谓语部分",
+      "explanation": "用系动词are搭配形容词lovely，说明主语的属性是美观可爱的"
+    },
+    {
+      "text": ", too.",
+      "role": "附加评价修饰",
+      "explanation": "补充说明花的美观属性和前文提到的花瓶是一致的，带出递进的呼应关系"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "那些",
+      "pos": "限定词",
+      "phonetic": "/ðəʊz/",
+      "text": "Those"
+    },
+    {
+      "meaning": "花（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈflaʊəz/",
+      "text": "flowers"
+    },
+    {
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "漂亮的，可爱的",
+      "pos": "形容词",
+      "phonetic": "/ˈlʌvli/",
+      "text": "lovely,"
+    },
+    {
+      "meaning": "也",
+      "pos": "副词",
+      "phonetic": "/tuː/",
+      "text": "too."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-39",
+  "sentenceId": "nce-1-lesson-039-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Those flowers are lovely, too.",
+  "lesson": "Lesson 39 Don't drop it!",
+  "notes": [
+    {
+      "title": "too的位置作用",
+      "text": "副词too放在句末，用逗号和前文隔开，用来表示和之前提到的事物具备相同的属性，这里呼应前一句的漂亮花瓶，说明花也同样好看。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合要求，仅存在少量细节瑕疵可明确修正（非逐句人工审核）"
+}

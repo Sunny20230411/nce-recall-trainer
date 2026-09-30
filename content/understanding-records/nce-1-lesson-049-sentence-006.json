@@ -1,0 +1,156 @@
+{
+  "chinese": "我喜欢羊肉，但我丈夫不喜欢。",
+  "intent": "表达自己与丈夫对羊肉的喜好差异，为后续换选其他肉类产品做铺垫。",
+  "comparison": {
+    "chinese": "中文可直接说“但我丈夫不喜欢”，顺着前文的话题自然省略了宾语“羊肉”。",
+    "english": "英语需要用 doesn't 补足否定结构，避免动词和宾语重复。",
+    "steps": [
+      {
+        "label": "先看前半句的话题",
+        "text": "I like lamb",
+        "explanation": "前半句明确讲出了完整动作：“我喜欢羊肉”，lamb是双方共享的话题。"
+      },
+      {
+        "label": "再看后半句如何承接",
+        "text": "but my husband doesn't",
+        "explanation": "后半句转折说丈夫态度相反，doesn't 实际等于 doesn't like lamb，不再重复动词和宾语。"
+      },
+      {
+        "label": "对比两种语言的省略习惯",
+        "text": "中文可只说“不喜欢”；英语需用doesn't补全助动词否定结构",
+        "explanation": "中文靠语境省略谓语和宾语更自然；英语否定句不能只说 my husband not，要用助动词doesn't维持语法完整。"
+      }
+    ],
+    "takeaway": "英语转折对比中，前后半句共享相同的动词和宾语时，后半句可用助动词的否定形式替代完整的动词短语，避免重复，does形式要匹配单数主语my husband。"
+  },
+  "backbone": {
+    "text": "I like lamb, but my husband doesn't.",
+    "meaning": "我喜欢羊肉，但是我丈夫不喜欢羊肉。"
+  },
+  "structureNotes": [
+    {
+      "title": "转折并列结构",
+      "text": "but是并列转折连词，连接两个独立分句，前后语义形成对比，but前保留逗号分隔两个分句。"
+    },
+    {
+      "title": "省略式否定表达",
+      "text": "后半句doesn't是省略形式，完整含义是doesn't like lamb，借助前半句已经出现的动词like和宾语lamb，避免重复冗余。"
+    },
+    {
+      "title": "助动词的一致",
+      "text": "doesn't对应单数主语my husband，与前半句的第一人称I的一般现在时谓语like形成人称上的正确匹配。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "前半句主语",
+      "explanation": "指代说话者本人，发出“喜欢”这个动作。"
+    },
+    {
+      "text": "like",
+      "role": "前半句谓语",
+      "explanation": "表达喜好的一般现在时动词，匹配主语I。"
+    },
+    {
+      "text": "lamb",
+      "role": "前半句宾语",
+      "explanation": "指作为食材的羊肉，是“喜欢”的对象。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "连接前后两个语义相反的分句，表转折对比关系。"
+    },
+    {
+      "text": "my husband",
+      "role": "后半句主语",
+      "explanation": "指代说话者的丈夫，是后半句的描述主体。"
+    },
+    {
+      "text": "doesn't",
+      "role": "后半句省略式谓语",
+      "explanation": "完整结构为doesn't like lamb，因与前半句动词、宾语重复而省略，匹配第三人称单数主语my husband，表达“不喜欢（羊肉）”的含义。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "喜欢",
+      "pos": "动词",
+      "phonetic": "/laɪk/",
+      "text": "like"
+    },
+    {
+      "meaning": "羊肉",
+      "pos": "名词",
+      "phonetic": "/læm/",
+      "text": "lamb,"
+    },
+    {
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/",
+      "text": "but"
+    },
+    {
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/",
+      "text": "my"
+    },
+    {
+      "meaning": "丈夫",
+      "pos": "名词",
+      "phonetic": "/ˈhʌzbənd/",
+      "text": "husband"
+    },
+    {
+      "meaning": "不喜欢（羊肉）",
+      "pos": "缩写的助动词否定形式",
+      "phonetic": "/ˈdʌznt/",
+      "text": "doesn't."
+    }
+  ],
+  "parts": [
+    {
+      "text": "I like lamb,",
+      "meaning": "我喜欢羊肉，",
+      "relation": "陈述前半句事实，是后半句转折的参照基础"
+    },
+    {
+      "text": "but my husband doesn't.",
+      "meaning": "但我丈夫不喜欢（羊肉）。",
+      "relation": "转折说明与前半句相反的情况，省略了和前半句相同的宾语“羊肉”"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-49",
+  "sentenceId": "nce-1-lesson-049-sentence-006",
+  "sentenceOrder": 6,
+  "english": "I like lamb, but my husband doesn't.",
+  "lesson": "Lesson 49 At the butcher's",
+  "notes": [
+    {
+      "title": "转折并列结构",
+      "text": "but是并列转折连词，连接两个独立分句，前后语义形成对比，but前保留逗号分隔两个分句。"
+    },
+    {
+      "title": "省略式否定表达",
+      "text": "后半句doesn't是省略形式，完整含义是doesn't like lamb，借助前半句已经出现的动词like和宾语lamb，避免重复冗余。"
+    },
+    {
+      "title": "助动词的一致",
+      "text": "doesn't对应单数主语my husband，与前半句的第一人称I的一般现在时谓语like形成人称上的正确匹配。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合句意与语境，结构、主干、比较和意群关系基本正确。仅需微调：词汇表中doesn't的标注应更准确地区分形式与功能；后半句意群的中文释义可补出指代省略的对象，使译文与原文的省略逻辑更清晰。（非逐句人工审核）"
+}

@@ -1,0 +1,143 @@
+{
+  "chinese": "包里有奶酪吗？",
+  "intent": "用Is there...?结构询问某地点是否存在某物。",
+  "comparison": {
+    "chinese": "包里有奶酪吗？",
+    "english": "Is there any cheese in the bag?",
+    "steps": [
+      {
+        "label": "确定表达框架",
+        "text": "Is there...?",
+        "explanation": "Is开头，用来询问某个地方“是否存在某事物”，先把疑问形式放前面。"
+      },
+      {
+        "label": "填入被询问的事物",
+        "text": "any cheese",
+        "explanation": "any cheese是要找的东西，放在Is there之后，表示“有没有奶酪”。"
+      },
+      {
+        "label": "加上地点并对照中文顺序",
+        "text": "in the bag?",
+        "explanation": "in the bag说明“在包里”，放在句尾；中文常先说地点再问有没有东西。"
+      }
+    ],
+    "takeaway": "Is there...any...in...?用来询问“某处有没有某物”，any在疑问语境中表示“一些/任何”。"
+  },
+  "backbone": {
+    "text": "Is there any cheese in the bag?",
+    "meaning": "确认包里有没有奶酪。"
+  },
+  "structureNotes": [
+    {
+      "title": "Is there存在疑问结构",
+      "text": "Is there用来询问“是否存在”，与陈述句There is相对应。"
+    },
+    {
+      "title": "any在疑问句中",
+      "text": "any常用于疑问句，表示“一些/任何”，修饰不可数名词cheese。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is",
+      "role": "存在疑问引导词",
+      "explanation": "把There is的存在句变成疑问形式。"
+    },
+    {
+      "text": "there",
+      "role": "存在句引导词",
+      "explanation": "构成there be结构，表示“存在”。"
+    },
+    {
+      "text": "any cheese",
+      "role": "存在主体",
+      "explanation": "被询问是否存在的事物，cheese为不可数名词，any修饰它。"
+    },
+    {
+      "text": "in the bag?",
+      "role": "地点",
+      "explanation": "说明存在的地点是“包里”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Is",
+      "meaning": "是（be动词第三人称单数）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "there",
+      "meaning": "存在（there be结构中的引导词）",
+      "pos": "副词",
+      "phonetic": "/ðeə(r)/"
+    },
+    {
+      "text": "any",
+      "meaning": "一些；任何",
+      "pos": "限定词",
+      "phonetic": "/ˈeni/"
+    },
+    {
+      "text": "cheese",
+      "meaning": "奶酪",
+      "pos": "名词",
+      "phonetic": "/tʃiːz/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个；那个",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bag?",
+      "meaning": "包",
+      "pos": "名词",
+      "phonetic": "/bæɡ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Is there",
+      "relation": "表达存在疑问的引导部分",
+      "meaning": "有没有"
+    },
+    {
+      "text": "any cheese",
+      "relation": "询问对象",
+      "meaning": "一些奶酪"
+    },
+    {
+      "text": "in the bag?",
+      "relation": "补充地点",
+      "meaning": "在包里？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-59",
+  "sentenceId": "nce-1-lesson-059-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Is there any cheese in the bag?",
+  "lesson": "Lesson 59 Is that all?",
+  "notes": [
+    {
+      "title": "Is there存在疑问结构",
+      "text": "Is there用来询问“是否存在”，与陈述句There is相对应。"
+    },
+    {
+      "title": "any在疑问句中",
+      "text": "any常用于疑问句，表示“一些/任何”，修饰不可数名词cheese。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句整体结构、词义和教学解释基本准确。Is there存在疑问框架、any修饰不可数名词cheese以及地点状语in the bag的功能说明均无错误；存在句结构中there为形式引导词而非实际存在主体的表述符合语法逻辑。仅存在一处词条标注不当：bag作为名词单独列示时，其对应语义不应附带问号，原标注“包？”易使读者误以为该名词本身带有疑问语气，需修正为单独的名词释义，标点属于句末疑问语气的范畴，不纳入单词释义。（非逐句人工审核）"
+}

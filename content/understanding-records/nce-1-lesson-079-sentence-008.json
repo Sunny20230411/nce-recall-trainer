@@ -1,0 +1,127 @@
+{
+  "chinese": "我还必须去肉店。",
+  "intent": "说明说话人除了已经提及的店铺行程之外，还额外需要前往肉店采购的安排。",
+  "comparison": null,
+  "backbone": {
+    "text": "I must go to the butcher's, too.",
+    "meaning": "我也必须去肉店。"
+  },
+  "structureNotes": [
+    {
+      "title": "名词所有格表示店铺",
+      "text": "butcher's 是名词所有格结构，省略了后面的 shop/store，指“肉店”这类经营场所；同类用法如 greengrocer's 指蔬果店，chemist's 指药店。"
+    },
+    {
+      "title": "句末 too 的语义",
+      "text": "too 放在句末，表示“也、还”，承接上一句提到的去蔬果店的安排，说明这是额外需要去的另一个地点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "执行“出门前往肉店”这个动作的人。"
+    },
+    {
+      "text": "must go",
+      "role": "谓语",
+      "explanation": "由情态动词 must 加实义动词原形 go 构成，表达说话人主观上的必须义务。"
+    },
+    {
+      "text": "to the butcher's",
+      "role": "介词短语表去向",
+      "explanation": "用介词 to 搭配 go，说明移动的目的地是肉店。"
+    },
+    {
+      "text": "too",
+      "role": "句末状语",
+      "explanation": "补充说明这是除前文已提行程外的另一处要去的地点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "must",
+      "meaning": "必须",
+      "pos": "情态动词",
+      "phonetic": "/mʌst/"
+    },
+    {
+      "text": "go",
+      "meaning": "去、前往",
+      "pos": "动词",
+      "phonetic": "/ɡəʊ/"
+    },
+    {
+      "text": "to",
+      "meaning": "到、向",
+      "pos": "介词",
+      "phonetic": "/tə/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指双方都知道的店铺）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "butcher's,",
+      "meaning": "肉店（butcher's shop 的省略说法）",
+      "pos": "名词所有格",
+      "phonetic": "/ˈbʊtʃəz/"
+    },
+    {
+      "text": "too.",
+      "meaning": "也、还",
+      "pos": "副词",
+      "phonetic": "/tuː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "动作的发出者"
+    },
+    {
+      "text": "must go to",
+      "meaning": "必须去",
+      "relation": "表达主观义务的核心动作"
+    },
+    {
+      "text": "the butcher's,",
+      "meaning": "（那家）肉店",
+      "relation": "前往的具体目的地"
+    },
+    {
+      "text": "too.",
+      "meaning": "也（还）",
+      "relation": "补充说明这是除前文行程外的额外安排。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-79",
+  "sentenceId": "nce-1-lesson-079-sentence-008",
+  "sentenceOrder": 8,
+  "english": "I must go to the butcher's, too.",
+  "lesson": "Lesson 79 Carol's shopping list",
+  "notes": [
+    {
+      "title": "名词所有格表示店铺",
+      "text": "butcher's 是名词所有格结构，省略了后面的 shop/store，指“肉店”这类经营场所；同类用法如 greengrocer's 指蔬果店，chemist's 指药店。"
+    },
+    {
+      "title": "句末 too 的语义",
+      "text": "too 放在句末，表示“也、还”，承接上一句提到的去蔬果店的安排，说明这是额外需要去的另一个地点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句翻译、词性标注、结构划分、分块释义整体准确，仅存在两处小问题：一是主干未纳入句末的 too 要素，二是 to 的音标采用了强读式，不符合此处虚词弱读的实际发音。（非逐句人工审核）"
+}

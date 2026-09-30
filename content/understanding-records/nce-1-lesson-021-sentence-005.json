@@ -1,0 +1,59 @@
+{
+  "chinese": "这一本吗？",
+  "intent": "说话人用简短的省略问句，向对方确认自己指向的物品是不是对方想要的那一件。",
+  "comparison": null,
+  "backbone": {
+    "text": "This one?",
+    "meaning": "这一件吗？"
+  },
+  "parts": [
+    {
+      "text": "This one?",
+      "relation": "完整的确认疑问片段，指向当前提及的物品并征求对方确认",
+      "meaning": "这一本吗？"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略式确认问句",
+      "text": "这是口语里的极简确认表达，省去了双方都清楚的核心名词和助动词，直接用This one加问号构成疑问，不用补全多余成分就能传递确认意图。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "This one?",
+      "role": "简短确认问句",
+      "explanation": "口语中用来快速确认指代的物品是否正确，one用来代替上文提到过的可数物品，避免重复说名词。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/",
+      "text": "This"
+    },
+    {
+      "meaning": "（指代前文提到的某一件物品）个/本",
+      "pos": "代词",
+      "phonetic": "/wʌn/",
+      "text": "one?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-21",
+  "sentenceId": "nce-1-lesson-021-sentence-005",
+  "sentenceOrder": 5,
+  "english": "This one?",
+  "lesson": "Lesson 21 Which book?",
+  "notes": [
+    {
+      "title": "省略式确认问句",
+      "text": "这是口语里的极简确认表达，省去了双方都清楚的核心名词和助动词，直接用This one加问号构成疑问，不用补全多余成分就能传递确认意图。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析基本符合要求，仅存在部分细节瑕疵可明确修正（非逐句人工审核）"
+}

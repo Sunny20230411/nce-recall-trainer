@@ -1,0 +1,75 @@
+{
+  "chinese": "是的，我们是。",
+  "intent": "针对前面的一般疑问句“你们是游客吗”给出肯定的答复，省略重复的表语内容让表达更简洁自然。",
+  "comparison": null,
+  "backbone": {
+    "text": "Yes, we are.",
+    "meaning": "针对前文“你们是游客吗”的一般疑问句给出明确的肯定确认"
+  },
+  "parts": [
+    {
+      "text": "Yes,",
+      "relation": "答复的肯定态度提示",
+      "meaning": "用来表示肯定答复的起始语气词"
+    },
+    {
+      "text": "we are.",
+      "relation": "给出答复的核心信息",
+      "meaning": "我们是（游客），补全省略的重复内容后呼应前文问题"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略用法",
+      "text": "本句省略了前文问句里重复出现的表语tourists，避免不必要的内容重复，是日常简短肯定答复的常用写法。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "肯定应答提示语",
+      "explanation": "直接表明答复的肯定立场，引出后续确认内容"
+    },
+    {
+      "text": "we are.",
+      "role": "主谓结构核心应答片段",
+      "explanation": "承接前文的问题，用省略重复信息的方式完成肯定确认"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是，是的",
+      "pos": "interjection",
+      "phonetic": "/jes/",
+      "text": "Yes,"
+    },
+    {
+      "meaning": "我们",
+      "pos": "pronoun",
+      "phonetic": "/wiː/",
+      "text": "we"
+    },
+    {
+      "meaning": "是",
+      "pos": "linking verb",
+      "phonetic": "/ɑː(r)/",
+      "text": "are."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-15",
+  "sentenceId": "nce-1-lesson-015-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Yes, we are.",
+  "lesson": "Lesson 15 Your passports, please.",
+  "notes": [
+    {
+      "title": "省略用法",
+      "text": "本句省略了前文问句里重复出现的表语tourists，避免不必要的内容重复，是日常简短肯定答复的常用写法。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本合规，仅存在部分细节偏差需修正：词汇释义、词性标注、音标格式存在不严谨处，comparison字段为空需补充符合要求的组织说明，主干含义表述可更精准。（非逐句人工审核）"
+}

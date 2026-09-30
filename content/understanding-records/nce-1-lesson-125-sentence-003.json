@@ -1,0 +1,140 @@
+{
+  "chinese": "你非得现在浇水吗？",
+  "intent": "就浇水这件事的紧迫性向对方确认：询问对方是否必须在当下就完成给花浇水的动作，暗含是否可以稍晚再做、不必马上动手的意味。",
+  "comparison": null,
+  "backbone": {
+    "text": "Do you have to water it now?",
+    "meaning": "询问对方是否当下就必须给它（花园/花）浇水。"
+  },
+  "structureNotes": [
+    {
+      "title": "have to的一般疑问句结构",
+      "text": "have to是表示「必须、不得不」的情态语义结构，变一般疑问句时需要借助助动词do放在句首，不能直接说Have you to water it now。"
+    },
+    {
+      "title": "it的指代",
+      "text": "句中it是代词，指代对话上下文里提到的需要浇水的对象，比如前文提到的花园或花，避免重复前文出现的事物名称。"
+    },
+    {
+      "title": "now的句末时间定位",
+      "text": "时间状语now放在句末，明确询问的是「是否现在就得浇水」，潜台词隐含「能不能晚一点再浇」的言外之意。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "助动词",
+      "explanation": "放在句首帮助构成一般现在时的疑问句，本身没有实际词义，只承担句法疑问功能，不改变have to的核心语义。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指对话里被询问的对象「你」，是完成浇水这个动作的发出者。"
+    },
+    {
+      "text": "have to",
+      "role": "情态语义短语",
+      "explanation": "表示「必须、不得不」，强调做浇水这件事是客观要求，不是说话人主观提出的命令。"
+    },
+    {
+      "text": "water it",
+      "role": "谓语核心",
+      "explanation": "water在这里作动词表示「浇水」，it指代需要浇水的对象，是动作涉及的目标事物。"
+    },
+    {
+      "text": "now?",
+      "role": "时间状语",
+      "explanation": "明确动作的时间点，把疑问的焦点落在「是不是非得这会儿浇不可」上。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Do",
+      "meaning": "（助动词，无实义，构成疑问）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "have",
+      "meaning": "（与to搭配构成have to，表必须）",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "to",
+      "meaning": "（与have搭配构成不定式标记）",
+      "pos": "不定式符号",
+      "phonetic": "/tə; tuː; tu/（在辅音前常弱读）"
+    },
+    {
+      "text": "water",
+      "meaning": "浇水",
+      "pos": "动词",
+      "phonetic": "/ˈwɔːtə(r)/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代需浇水的植物/花园）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "now?",
+      "meaning": "现在？",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Do",
+      "meaning": "（构成一般疑问句的句首助动词）",
+      "relation": "标记全句为疑问语气，引出后续询问内容，无独立实义"
+    },
+    {
+      "text": "you have to",
+      "meaning": "你（是）必须",
+      "relation": "句子的询问主体，搭配have to点明动作是「客观要求必须做」，不是主观意愿"
+    },
+    {
+      "text": "water it",
+      "meaning": "给它浇水",
+      "relation": "have to后面接的核心动作及动作对象，it指代上下文里提到的需要浇水的植物或花园"
+    },
+    {
+      "text": "now?",
+      "meaning": "现在？",
+      "relation": "补充说明浇水动作的时间，把疑问焦点落在「是否非得当下完成浇水」上"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-125",
+  "sentenceId": "nce-1-lesson-125-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Do you have to water it now?",
+  "lesson": "Lesson 125 Tea for two",
+  "notes": [
+    {
+      "title": "have to的一般疑问句结构",
+      "text": "have to是表示「必须、不得不」的情态语义结构，变一般疑问句时需要借助助动词do放在句首，不能直接说Have you to water it now。"
+    },
+    {
+      "title": "it的指代",
+      "text": "句中it是代词，指代对话上下文里提到的需要浇水的对象，比如前文提到的花园或花，避免重复前文出现的事物名称。"
+    },
+    {
+      "title": "now的句末时间定位",
+      "text": "时间状语now放在句末，明确询问的是「是否现在就得浇水」，潜台词隐含「能不能晚一点再浇」的言外之意。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体符合句意与对话语境，仅存在需精确化的小问题：单词表中不定式符号to的音标遗漏了英式常用的弱式/tu/，且未标注该发音仅在辅音前适用；其余主干、句法结构、指代说明、语义块拆分均准确无误，不存在语法角色、指代关系或词义偏差问题。（非逐句人工审核）"
+}

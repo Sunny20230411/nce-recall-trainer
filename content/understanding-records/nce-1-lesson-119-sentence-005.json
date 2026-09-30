@@ -1,0 +1,241 @@
+{
+  "chinese": "他们进屋后，走进了餐厅。里面很黑，所以他们打开了手电筒。",
+  "intent": "按时间顺序叙述两个小偷进屋后的连续动作，说明因餐厅光线昏暗而做出开手电筒的行为。",
+  "comparison": {
+    "chinese": "他们进屋后，走进了餐厅。餐厅里很黑，所以他们打开了手电筒。",
+    "english": "After they had entered the house, they went into the dining room. It was very dark, so they turned on a torch.",
+    "steps": [
+      {
+        "label": "时间先于动作出现",
+        "text": "英文用 After they had entered the house 放在句首，先交代动作发生的时间前提，再引出主句 they went into the dining room；中文“进屋后走进餐厅”的先后逻辑与英文对应。",
+        "explanation": "这里中英文的时间状语都放在句首，通过先后动作的叙述顺序，体现两个小偷的行动先后：先进入房屋，再走向餐厅。"
+      },
+      {
+        "label": "指代与因果逻辑",
+        "text": "第二句用 It 指代前文提到的 dining room，先说 It was very dark，再用 so 衔接引出 they turned on a torch；中文用“（餐厅）里面”指代前文的餐厅，按“环境昏暗→采取对应行动”的顺序表达因果。",
+        "explanation": "so 是典型的因果连接词，明确说明“打开手电筒”是“环境很黑”这个事实带来的结果，前后逻辑对应清楚。"
+      }
+    ],
+    "takeaway": "本句按动作先后和因果顺序展开，英文用时间状语前置和 so 衔接因果，中文的叙述逻辑顺序与英文基本一致，理解时可顺着“进屋→进餐厅→屋里黑→开手电”的链条还原情节。"
+  },
+  "backbone": {
+    "text": "After they had entered the house, they went into the dining room. It was very dark, so they turned on a torch.",
+    "meaning": "他们进入房屋后走进餐厅，因为餐厅里光线很暗，于是他们打开了手电筒照明。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去完成时表动作先后",
+      "text": "had entered 是过去完成时，用来表示这个动作在“走进餐厅”这个过去动作之前就已经完成，清晰体现两个先后发生的过去动作的时间层次。"
+    },
+    {
+      "title": "so 的因果衔接作用",
+      "text": "so 是并列连词，连接前后两个独立分句，构成并列复合句；前半句说明环境昏暗的情况，后半句说明由此做出的行为，明确交代动作的触发原因。"
+    },
+    {
+      "title": "代词 It 的指代对象",
+      "text": "第二句开头的 It 指代前一句提到的 dining room，避免重复提及地点，让上下文衔接更紧凑自然。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "After they had entered the house",
+      "role": "时间状语从句",
+      "explanation": "用after引导，说明主句动作发生的时间前提，过去完成时体现enter动作发生在主句动作之前。"
+    },
+    {
+      "text": "they went into the dining room",
+      "role": "第一个主句",
+      "explanation": "主谓结构的过去时句子，是整个语境里的核心主动作之一，交代小偷进入房屋后的去向。"
+    },
+    {
+      "text": "It was very dark",
+      "role": "因果复合句的原因分句",
+      "explanation": "主系表结构，描述餐厅光线昏暗的状态，用It指代前面提到的餐厅，为后续动作提供原因。"
+    },
+    {
+      "text": "so they turned on a torch",
+      "role": "因果复合句的结果分句",
+      "explanation": "so连接的结果部分，说明因为环境昏暗，小偷做出了开手电筒的动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "After",
+      "meaning": "在……之后",
+      "pos": "介词",
+      "phonetic": "ˈɑːftə"
+    },
+    {
+      "text": "they",
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "ðeɪ"
+    },
+    {
+      "text": "had",
+      "meaning": "（助动词，构成过去完成时）",
+      "pos": "助动词",
+      "phonetic": "hæd"
+    },
+    {
+      "text": "entered",
+      "meaning": "进入",
+      "pos": "动词（过去分词）",
+      "phonetic": "ˈentəd"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "house,",
+      "meaning": "房子；住宅",
+      "pos": "名词",
+      "phonetic": "haʊs"
+    },
+    {
+      "text": "they",
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "ðeɪ"
+    },
+    {
+      "text": "went",
+      "meaning": "走；去",
+      "pos": "动词（过去式）",
+      "phonetic": "went"
+    },
+    {
+      "text": "into",
+      "meaning": "进入；到……里面",
+      "pos": "介词",
+      "phonetic": "ˈɪntuː"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "dining",
+      "meaning": "用餐；进餐（dining room 为固定搭配，指餐厅）",
+      "pos": "名词作定语",
+      "phonetic": "ˈdaɪnɪŋ"
+    },
+    {
+      "text": "room.",
+      "meaning": "房间",
+      "pos": "名词",
+      "phonetic": "ruːm"
+    },
+    {
+      "text": "It",
+      "meaning": "它（此处指代餐厅）",
+      "pos": "代词",
+      "phonetic": "ɪt"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be 动词过去式）",
+      "pos": "动词",
+      "phonetic": "wɒz"
+    },
+    {
+      "text": "very",
+      "meaning": "非常；很",
+      "pos": "副词",
+      "phonetic": "ˈveri"
+    },
+    {
+      "text": "dark,",
+      "meaning": "黑暗的；昏暗的",
+      "pos": "形容词",
+      "phonetic": "dɑːk"
+    },
+    {
+      "text": "so",
+      "meaning": "所以；因此",
+      "pos": "连词",
+      "phonetic": "səʊ"
+    },
+    {
+      "text": "they",
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "ðeɪ"
+    },
+    {
+      "text": "turned",
+      "meaning": "转动；拧开",
+      "pos": "动词（过去式）",
+      "phonetic": "tɜːnd"
+    },
+    {
+      "text": "on",
+      "meaning": "（与 turned 搭配构成短语 turned on，表示打开电器、设备等）",
+      "pos": "副词",
+      "phonetic": "ɒn"
+    },
+    {
+      "text": "a",
+      "meaning": "一支；一个",
+      "pos": "冠词",
+      "phonetic": "ə"
+    },
+    {
+      "text": "torch.",
+      "meaning": "手电筒；火把",
+      "pos": "名词",
+      "phonetic": "tɔːtʃ"
+    }
+  ],
+  "parts": [
+    {
+      "text": "After they had entered the house,",
+      "relation": "时间前提，说明后续走进餐厅这个动作发生的时间节点。",
+      "meaning": "他们进入房屋之后"
+    },
+    {
+      "text": "they went into the dining room.",
+      "relation": "核心动作，是小偷进入房屋后的主要行为。",
+      "meaning": "他们走进了餐厅"
+    },
+    {
+      "text": "It was very dark,",
+      "relation": "状态描述，说明打开手电筒这个行为的原因。",
+      "meaning": "（餐厅）里面非常昏暗"
+    },
+    {
+      "text": "so they turned on a torch.",
+      "relation": "因果结果，承接光线昏暗的状态，交代小偷做出的对应行为。",
+      "meaning": "所以他们打开了手电筒"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-119",
+  "sentenceId": "nce-1-lesson-119-sentence-005",
+  "sentenceOrder": 5,
+  "english": "After they had entered the house, they went into the dining room. It was very dark, so they turned on a torch.",
+  "lesson": "Lesson 119 A true story",
+  "notes": [
+    {
+      "title": "过去完成时表动作先后",
+      "text": "had entered 是过去完成时，用来表示这个动作在“走进餐厅”这个过去动作之前就已经完成，清晰体现两个先后发生的过去动作的时间层次。"
+    },
+    {
+      "title": "so 的因果衔接作用",
+      "text": "so 是并列连词，连接前后两个独立分句，构成并列复合句；前半句说明环境昏暗的情况，后半句说明由此做出的行为，明确交代动作的触发原因。"
+    },
+    {
+      "title": "代词 It 的指代对象",
+      "text": "第二句开头的 It 指代前一句提到的 dining room，避免重复提及地点，让上下文衔接更紧凑自然。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：译文、主干、分句关系和整体语序比较基本成立，主要错误集中在个别词义释义和 turn on 的短语说明：dining 不是“用餐；进餐的”，house、dark、torch 的释义中混入了标点符号，on 不应仅标作副词而未说明短语搭配功能，so 连接两个独立分句的表述也应改为并列复合句更准确。（非逐句人工审核）"
+}

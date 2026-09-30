@@ -1,0 +1,169 @@
+{
+  "chinese": "这件事发生在我一位朋友身上，是在一年前。",
+  "intent": "说明这件事发生在说话者的一位朋友身上，并交代事情发生的时间。",
+  "comparison": {
+    "chinese": "我们习惯说“事情发生在某人身上”，时间可以放在后面单独说明。",
+    "english": "英语用 It happened to a friend of mine a year ago 一句说完：It 指前面提到的 story，a friend of mine 表示“我的一位朋友”，a year ago 放在句末。",
+    "steps": [
+      {
+        "label": "先看主语 It",
+        "text": "It 指代上一句的 a true story。",
+        "explanation": "它不是指某个无意义的形式主语，而是承接上文“那件事”。"
+      },
+      {
+        "label": "再看 happen to",
+        "text": "sth. happens to sb. 表示某事发生在某人身上。",
+        "explanation": "介词 to 不能换成 with；a friend of mine 表示“我的一位朋友”。"
+      },
+      {
+        "label": "最后看时间",
+        "text": "a year ago 放在句末。",
+        "explanation": "ago 通常与一般过去时连用，表示从现在算起的一年前。"
+      }
+    ],
+    "takeaway": "理解为“它发生在我一位朋友身上，时间是一年前”即可。"
+  },
+  "backbone": {
+    "text": "It happened to a friend of mine a year ago.",
+    "meaning": "这件事一年前发生在我一位朋友身上。"
+  },
+  "structureNotes": [
+    {
+      "title": "It 是指代主语",
+      "text": "It 承接上一句的 a true story，指“这件事”，不是形式主语，也不是天气或时间。"
+    },
+    {
+      "title": "a friend of mine 的表达",
+      "text": "a friend of mine 表示“我的一位朋友”，等于 one of my friends；mine 是名词性物主代词，后面不再跟名词。"
+    },
+    {
+      "title": "happen to 的搭配",
+      "text": "sth. happens to sb. 表示某事发生在某人身上，介词 to 引出经历该事的人。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "主语",
+      "explanation": "指代上一句提到的 a true story。"
+    },
+    {
+      "text": "happened",
+      "role": "谓语动词",
+      "explanation": "用一般过去时，表示事情已经发生。"
+    },
+    {
+      "text": "to a friend of mine",
+      "role": "状语",
+      "explanation": "介词短语表示事情发生在谁身上。"
+    },
+    {
+      "text": "a year ago",
+      "role": "状语",
+      "explanation": "表示事情发生的时间。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（指这件事）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "happened",
+      "meaning": "发生",
+      "pos": "动词",
+      "phonetic": "/ˈhæpənd/"
+    },
+    {
+      "text": "to",
+      "meaning": "到；针对",
+      "pos": "介词",
+      "phonetic": "/tu; tə/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "冠词",
+      "phonetic": "/ə; eɪ/"
+    },
+    {
+      "text": "friend",
+      "meaning": "朋友",
+      "pos": "名词",
+      "phonetic": "/frend/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的",
+      "pos": "介词",
+      "phonetic": "/ɒv; əv/"
+    },
+    {
+      "text": "mine",
+      "meaning": "我的（东西）",
+      "pos": "名词性物主代词",
+      "phonetic": "/maɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（年）",
+      "pos": "冠词",
+      "phonetic": "/ə; eɪ/"
+    },
+    {
+      "text": "year",
+      "meaning": "年",
+      "pos": "名词",
+      "phonetic": "/jɪə/"
+    },
+    {
+      "text": "ago.",
+      "meaning": "以前",
+      "pos": "副词",
+      "phonetic": "/əˈɡəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It",
+      "meaning": "它（指这件事）",
+      "relation": "限定发生事件的主体"
+    },
+    {
+      "text": "happened to a friend of mine",
+      "meaning": "发生在我一位朋友身上",
+      "relation": "谓语核心，说明事件经历者"
+    },
+    {
+      "text": "a year ago.",
+      "meaning": "一年前",
+      "relation": "限定事情发生的时间"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-119",
+  "sentenceId": "nce-1-lesson-119-sentence-003",
+  "sentenceOrder": 3,
+  "english": "It happened to a friend of mine a year ago.",
+  "lesson": "Lesson 119 A true story",
+  "notes": [
+    {
+      "title": "It 是指代主语",
+      "text": "It 承接上一句的 a true story，指“这件事”，不是形式主语，也不是天气或时间。"
+    },
+    {
+      "title": "a friend of mine 的表达",
+      "text": "a friend of mine 表示“我的一位朋友”，等于 one of my friends；mine 是名词性物主代词，后面不再跟名词。"
+    },
+    {
+      "title": "happen to 的搭配",
+      "text": "sth. happens to sb. 表示某事发生在某人身上，介词 to 引出经历该事的人。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干句意、指代关系、时间状语和核心搭配解释正确，结构划分合理，英式音标规范。仅需调整两处措辞：把“这件事发生在我的一位朋友身上”改为“这件事发生在我一位朋友身上”，更符合中文习惯；把 a year ago 的关系说明从“补充”改为“限定”，以体现它对动作时间的约束。（非逐句人工审核）"
+}

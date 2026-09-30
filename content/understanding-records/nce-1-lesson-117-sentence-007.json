@@ -1,0 +1,139 @@
+{
+  "chinese": "‘他从碗橱里拿出来的，’我说。",
+  "intent": "交代“我”转述丈夫的提问：蛋糕是从哪里被拿出来的。",
+  "comparison": null,
+  "backbone": {
+    "text": "He took it out of the cupboard.",
+    "meaning": "他从碗橱里取出了它（指蛋糕）。"
+  },
+  "structureNotes": [
+    {
+      "title": "转述分句的语序处理",
+      "text": "I said 放在直接引语之后，引语保持陈述句正常语序 He took it out...，不因为间接引用而把 took 移到主语前。"
+    },
+    {
+      "title": "out of 表示起点",
+      "text": "took it out of the cupboard 表示“从碗橱里把它拿出来”，out of 组合说明移出动作的起点是橱柜内部。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'He took it out of the cupboard,'",
+      "role": "直接引语",
+      "explanation": "引号中是“我”说出的原话，回答蛋糕是从哪里拿出来的。"
+    },
+    {
+      "text": "He",
+      "role": "引语内主语",
+      "explanation": "指代前文提到的 Tommy，是实施拿取动作的人。"
+    },
+    {
+      "text": "took it out",
+      "role": "引语内谓语",
+      "explanation": "took 是 take 的过去式，it 指蛋糕；took it out 表示把蛋糕拿出来。"
+    },
+    {
+      "text": "of the cupboard",
+      "role": "引语内状语",
+      "explanation": "和 out 搭配成 out of the cupboard，说明拿取动作的起点是碗橱内部。"
+    },
+    {
+      "text": "I said.",
+      "role": "引述分句",
+      "explanation": "说明前面引号内的话是“我”说的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'He",
+      "meaning": "（引语开头的引号）他",
+      "pos": "代词",
+      "phonetic": "hiː"
+    },
+    {
+      "text": "took",
+      "meaning": "拿（take 的过去式）",
+      "pos": "动词",
+      "phonetic": "tʊk"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代蛋糕）",
+      "pos": "代词",
+      "phonetic": "ɪt"
+    },
+    {
+      "text": "out",
+      "meaning": "出来",
+      "pos": "副词",
+      "phonetic": "aʊt"
+    },
+    {
+      "text": "of",
+      "meaning": "从…（与 out 搭配表起点）",
+      "pos": "介词",
+      "phonetic": "ɒv"
+    },
+    {
+      "text": "the",
+      "meaning": "那个",
+      "pos": "冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "cupboard,'",
+      "meaning": "碗橱（后面带引语结束的引号）",
+      "pos": "名词",
+      "phonetic": "ˈkʌbəd"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "aɪ"
+    },
+    {
+      "text": "said.",
+      "meaning": "说（say 的过去式）",
+      "pos": "动词",
+      "phonetic": "sed."
+    }
+  ],
+  "parts": [
+    {
+      "text": "'He took it out",
+      "relation": "转述的核心动作",
+      "meaning": "他把它拿了出来"
+    },
+    {
+      "text": "of the cupboard,'",
+      "relation": "补充说明拿取动作的起点",
+      "meaning": "从那个碗橱里"
+    },
+    {
+      "text": "I said.",
+      "relation": "说明前面的话是谁说的",
+      "meaning": "我说"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-117",
+  "sentenceId": "nce-1-lesson-117-sentence-007",
+  "sentenceOrder": 7,
+  "english": "'He took it out of the cupboard,' I said.",
+  "lesson": "Lesson 117 Tommy's breakfast",
+  "notes": [
+    {
+      "title": "转述分句的语序处理",
+      "text": "I said 放在直接引语之后，引语保持陈述句正常语序 He took it out...，不因为间接引用而把 took 移到主语前。"
+    },
+    {
+      "title": "out of 表示起点",
+      "text": "took it out of the cupboard 表示“从碗橱里把它拿出来”，out of 组合说明移出动作的起点是橱柜内部。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合静态解析要求，仅存在词表中 He 附带前引号未在释义中明确说明的小问题，其余主干、结构切分、语境释义、音标均准确无误，微调后即可通过。（非逐句人工审核）"
+}

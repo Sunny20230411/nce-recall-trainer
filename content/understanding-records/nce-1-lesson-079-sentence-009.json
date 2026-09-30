@@ -1,0 +1,99 @@
+{
+  "chinese": "我们需要一些肉。",
+  "intent": "陈述我们一方当前存在购买、获取肉的需求，承接前文要去肉店的购物语境，说明需要采购肉的原因。",
+  "comparison": null,
+  "backbone": {
+    "text": "We need meat.",
+    "meaning": "我们有获取肉的需求。"
+  },
+  "structureNotes": [
+    {
+      "title": "some的用法",
+      "text": "some在本句中修饰不可数名词meat，表示“一些、若干”，多用于肯定句中，表示不确定的数量，不需要翻译成生硬的“某个”。"
+    },
+    {
+      "title": "不可数名词meat",
+      "text": "meat是不可数名词，本句中没有在词尾加复数s，表达泛指的肉类时不需要搭配不定冠词a。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We",
+      "role": "主语",
+      "explanation": "指代说话人及其同伴，是句子中发出“需要”这一需求动作的主体。"
+    },
+    {
+      "text": "need",
+      "role": "谓语动词",
+      "explanation": "表达主语的需求与意愿，是句子的核心动作。"
+    },
+    {
+      "text": "some meat",
+      "role": "宾语",
+      "explanation": "是need指向的对象，some修饰说明肉的不确定数量，meat为不可数名词。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We",
+      "meaning": "我们（主格）",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "need",
+      "meaning": "需要",
+      "pos": "动词",
+      "phonetic": "/niːd/"
+    },
+    {
+      "text": "some",
+      "meaning": "一些，若干",
+      "pos": "限定词",
+      "phonetic": "/sʌm/"
+    },
+    {
+      "text": "meat.",
+      "meaning": "肉",
+      "pos": "名词（不可数）",
+      "phonetic": "/miːt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We",
+      "relation": "动作发出者，是“需要”这一需求的主体",
+      "meaning": "我们"
+    },
+    {
+      "text": "need",
+      "relation": "核心动作，表达主语对宾语的需求",
+      "meaning": "需要"
+    },
+    {
+      "text": "some meat.",
+      "relation": "动作指向的对象，是需求的具体内容",
+      "meaning": "一些肉"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-79",
+  "sentenceId": "nce-1-lesson-079-sentence-009",
+  "sentenceOrder": 9,
+  "english": "We need some meat.",
+  "lesson": "Lesson 79 Carol's shopping list",
+  "notes": [
+    {
+      "title": "some的用法",
+      "text": "some在本句中修饰不可数名词meat，表示“一些、若干”，多用于肯定句中，表示不确定的数量，不需要翻译成生硬的“某个”。"
+    },
+    {
+      "title": "不可数名词meat",
+      "text": "meat是不可数名词，本句中没有在词尾加复数s，表达泛指的肉类时不需要搭配不定冠词a。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确：中文翻译贴合原文语境，句子主干提取正确，词汇词性、音标、释义符合使用规范，各成分的句法角色说明清晰，仅存在两处小瑕疵需修正：一是词汇列表里meat的音标错误把句末句号纳入了/miːt/标注，二是部分结构注释绝对化表述过度，将some多用于肯定句的常见用法描述为只能用于肯定句，不符合语言实际使用情况，其余内容均符合面向中文母语成年人的英语解析要求。（非逐句人工审核）"
+}

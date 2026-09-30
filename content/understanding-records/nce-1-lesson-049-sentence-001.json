@@ -1,0 +1,172 @@
+{
+  "chinese": "伯德太太，您今天要买肉吗？",
+  "intent": "肉店店员问候顾客，询问对方当日是否想要买肉，是服务接待类的日常询问。",
+  "comparison": {
+    "chinese": "把称呼“伯德太太”放在句首，先点明询问对象，再说出今天是否买肉的问题；any在本句里不需要单独逐字翻译成“任何”，按购物语境理解为“一些”即可。",
+    "english": "称呼Mrs. Bird放在全句末尾，疑问结构Do提前到句首突出提问；you是询问对象，want any meat是核心问题内容，today放在问题末尾点明时间。",
+    "steps": [
+      {
+        "label": "先找主干动作",
+        "text": "you want any meat",
+        "explanation": "核心是围绕“您是否想要肉”提问，不单独把want生硬译成“想”，结合肉店场景自然对应“要买”。"
+      },
+      {
+        "label": "再看提问的时间",
+        "text": "Do...today",
+        "explanation": "Do放在句首构成一般疑问，today紧跟在meat后，说明问的是“今天”的购买需求，不是过去或将来的需求。"
+      },
+      {
+        "label": "最后看呼叫对象",
+        "text": "Mrs. Bird",
+        "explanation": "称呼放在句末，是店员对顾客的礼貌呼语，和前面的问题内容彼此独立，不改变问句的核心意思。"
+      }
+    ],
+    "takeaway": "英语的称呼可以放在问句末尾，中文习惯把称呼放句首；翻译时结合购物场景把want any meat自然处理为“要买肉”，不必逐字硬译。"
+  },
+  "backbone": {
+    "text": "Do you want any meat today?",
+    "meaning": "（店员询问）您今天要不要买肉？"
+  },
+  "structureNotes": [
+    {
+      "title": "一般疑问句的构成",
+      "text": "本句用助动词Do开头，配合主语you和实义动词want，构成询问对方意愿的一般疑问句，回答通常用Yes或No回应。"
+    },
+    {
+      "title": "any在疑问句中的用法",
+      "text": "any常用在疑问句中修饰不可数名词meat，指代“（一些）肉”，不需要生硬译成“任何”，符合日常购物的表达习惯。"
+    },
+    {
+      "title": "呼语的位置",
+      "text": "Mrs. Bird是对顾客的称呼，放在句末，和主句用停顿隔开，不参与句子的主干语法结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "助动词",
+      "explanation": "帮助构成一般现在时的疑问句式，放在句首提示这是一个问句，没有独立实义。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指被询问的顾客，是want这个动作的发出者。"
+    },
+    {
+      "text": "want",
+      "role": "谓语动词",
+      "explanation": "核心实义动词，在购物场景中表示“想要、需要（买）”。"
+    },
+    {
+      "text": "any meat",
+      "role": "宾语",
+      "explanation": "want的对象，meat为不可数名词，any在这里起限定作用，表示“一些（肉）”。"
+    },
+    {
+      "text": "today,",
+      "role": "时间状语",
+      "explanation": "说明询问的需求是针对当日的，限定动作发生的时间范围。"
+    },
+    {
+      "text": "Mrs. Bird?",
+      "role": "呼语",
+      "explanation": "对对话对象的礼貌称呼，点明店员正在和伯德太太说话。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "助动词，构成现在时疑问句式，无实义",
+      "pos": "助动词",
+      "phonetic": "/duː/",
+      "text": "Do"
+    },
+    {
+      "meaning": "你；您",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "想要；需要（买）",
+      "pos": "动词",
+      "phonetic": "/wɒnt/",
+      "text": "want"
+    },
+    {
+      "meaning": "一些（用于疑问句中修饰不可数名词）",
+      "pos": "限定词",
+      "phonetic": "/ˈeni/",
+      "text": "any"
+    },
+    {
+      "meaning": "肉",
+      "pos": "名词",
+      "phonetic": "/miːt/",
+      "text": "meat"
+    },
+    {
+      "meaning": "今天",
+      "pos": "副词",
+      "phonetic": "/təˈdeɪ/",
+      "text": "today,"
+    },
+    {
+      "meaning": "夫人；太太（对已婚女性的称呼）",
+      "pos": "缩写名词",
+      "phonetic": "/ˈmɪsɪz/",
+      "text": "Mrs."
+    },
+    {
+      "meaning": "伯德（姓氏）",
+      "pos": "名词",
+      "phonetic": "/bɜːd/",
+      "text": "Bird?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Do you want",
+      "meaning": "您想要……吗？",
+      "relation": "询问的核心动作框架，用Do开头构成提问，引出后续的需求内容。"
+    },
+    {
+      "text": "any meat",
+      "meaning": "一些肉",
+      "relation": "说明询问的具体内容，是want指向的对象。"
+    },
+    {
+      "text": "today,",
+      "meaning": "今天，",
+      "relation": "补充说明需求对应的时间范围。"
+    },
+    {
+      "text": "Mrs. Bird?",
+      "meaning": "伯德太太？",
+      "relation": "点明被询问的对象，是对话中对顾客的礼貌称呼。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-49",
+  "sentenceId": "nce-1-lesson-049-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Do you want any meat today, Mrs. Bird?",
+  "lesson": "Lesson 49 At the butcher's",
+  "notes": [
+    {
+      "title": "一般疑问句的构成",
+      "text": "本句用助动词Do开头，配合主语you和实义动词want，构成询问对方意愿的一般疑问句，回答通常用Yes或No回应。"
+    },
+    {
+      "title": "any在疑问句中的用法",
+      "text": "any常用在疑问句中修饰不可数名词meat，指代“（一些）肉”，不需要生硬译成“任何”，符合日常购物的表达习惯。"
+    },
+    {
+      "title": "呼语的位置",
+      "text": "Mrs. Bird是对顾客的称呼，放在句末，和主句用停顿隔开，不参与句子的主干语法结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合肉店场景，主干、句法角色、词义和呼语处理均正确。仅两处可优化：Bird 作为姓氏的音标不应带句末问号；parts 中 `Do you want` 的释义未体现助动词 Do 的提问功能，补充后更完整。（非逐句人工审核）"
+}

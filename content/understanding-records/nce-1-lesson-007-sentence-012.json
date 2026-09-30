@@ -1,0 +1,81 @@
+{
+  "chinese": "我是电脑录入员。",
+  "intent": "回答对方关于自己职业的提问，清晰说明自身的工作身份。",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm a keyboard operator",
+    "meaning": "我的身份是一名键盘操作员"
+  },
+  "parts": [
+    {
+      "text": "I'm",
+      "relation": "陈述主体和判断动词，引出后续的身份说明",
+      "meaning": "我是"
+    },
+    {
+      "text": "a keyboard operator.",
+      "relation": "补充说明主语的具体职业身份",
+      "meaning": "一名电脑录入员"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "职业身份的常用表达",
+      "text": "这是回答“What's your job?”这类询问职业问题的标准短句，用主系表结构直接亮明自身工作身份，表达简洁自然。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm",
+      "role": "主系缩合结构",
+      "explanation": "是I am的缩写形式，用来指代说话人自身并作出判断陈述"
+    },
+    {
+      "text": "a keyboard operator",
+      "role": "表语名词短语",
+      "explanation": "说明主语的具体职业，其中名词keyboard作定语修饰operator，明确岗位属性"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我是",
+      "pos": "代词+系动词缩写",
+      "phonetic": "/aɪm/",
+      "text": "I'm"
+    },
+    {
+      "meaning": "一个（名）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "键盘",
+      "pos": "名词",
+      "phonetic": "/ˈkiːbɔːd/",
+      "text": "keyboard"
+    },
+    {
+      "meaning": "操作员，工作者",
+      "pos": "名词",
+      "phonetic": "/ˈɒpəreɪtə(r)/",
+      "text": "operator."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-7",
+  "sentenceId": "nce-1-lesson-007-sentence-012",
+  "sentenceOrder": 12,
+  "english": "I'm a keyboard operator.",
+  "lesson": "Lesson 7 Are you a teacher?",
+  "notes": [
+    {
+      "title": "职业身份的常用表达",
+      "text": "这是回答“What's your job?”这类询问职业问题的标准短句，用主系表结构直接亮明自身工作身份，表达简洁自然。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，存在少量细节疏漏可修正，不影响核心语义理解（非逐句人工审核）"
+}

@@ -1,0 +1,75 @@
+{
+  "chinese": "不了，谢谢。",
+  "intent": "礼貌地拒绝对方的提议，同时表达感谢。",
+  "comparison": null,
+  "backbone": {
+    "text": "No, thank you.",
+    "meaning": "礼貌拒绝对方给出的鸡肉提议。"
+  },
+  "structureNotes": [
+    {
+      "title": "拒绝提议的礼貌用法",
+      "text": "No 直接回应并拒绝对方的提议，thank you 紧跟在后面，既表达了拒绝的态度，又保持了礼貌的语气，不会让对方感到被冒犯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No",
+      "role": "礼貌拒绝用语",
+      "explanation": "直接对对方的提议做出否定回应，表明不接受对方给出的鸡肉。"
+    },
+    {
+      "text": "thank you.",
+      "role": "礼貌致谢表达",
+      "explanation": "拒绝的同时表达对对方好意的感谢，保持对话的礼貌氛围。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（拒绝提议时）不，不了",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/",
+      "text": "No,"
+    },
+    {
+      "meaning": "感谢，谢谢",
+      "pos": "固定礼貌表达的组成部分",
+      "phonetic": "/θæŋk/",
+      "text": "thank"
+    },
+    {
+      "meaning": "你，您",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you."
+    }
+  ],
+  "parts": [
+    {
+      "text": "No,",
+      "relation": "拒绝对方的提议",
+      "meaning": "不了"
+    },
+    {
+      "text": "thank you.",
+      "relation": "拒绝的同时表达礼貌感谢",
+      "meaning": "谢谢"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-49",
+  "sentenceId": "nce-1-lesson-049-sentence-011",
+  "sentenceOrder": 11,
+  "english": "No, thank you.",
+  "lesson": "Lesson 49 At the butcher's",
+  "notes": [
+    {
+      "title": "拒绝提议的礼貌用法",
+      "text": "No 直接回应并拒绝对方的提议，thank you 紧跟在后面，既表达了拒绝的态度，又保持了礼貌的语气，不会让对方感到被冒犯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体贴合在肉店礼貌拒绝店员推荐鸡肉的语境，翻译、主干、结构解析、词义和分块关系基本准确，仅存在两处可明确修正的小问题：一是thank you中的thank标注为动词，但此处搭配you属于固定礼貌致谢的惯用表达，并非承担谓语功能的实义动词；二是No的释义“不，没有”不符合拒绝提议的语境，需补充该用法的语义。修正后内容更严谨。（非逐句人工审核）"
+}

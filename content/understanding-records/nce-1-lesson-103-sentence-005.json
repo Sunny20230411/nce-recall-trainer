@@ -1,0 +1,85 @@
+{
+  "chinese": "我答对了四十四道。",
+  "intent": "承接前后语境，说明自己本次考试取得的得分情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "I got forty-four.",
+    "meaning": "本句理解主干为：我拿到了四十四分，也就是我这次考试取得了四十四分的成绩。"
+  },
+  "structureNotes": [
+    {
+      "title": "语境中的got",
+      "text": "本句的got是在法语考试报分的语境里使用，不能按字面翻译成“得到、取来”，而是指考试拿到的分数。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话者本人，是取得考试分数的人。"
+    },
+    {
+      "text": "got",
+      "role": "谓语动词",
+      "explanation": "结合考试场景，表示“取得、获得（分数）”，用一般过去时说明考试结果已经出来。"
+    },
+    {
+      "text": "forty-four.",
+      "role": "宾语",
+      "explanation": "指四十四分，承接对话里的考试得分话题，句号表示陈述结束。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "got",
+      "meaning": "取得，获得（分数）",
+      "pos": "动词（get的过去式）",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "forty-four.",
+      "meaning": "四十四（分）",
+      "pos": "数词",
+      "phonetic": "/ˌfɔːti ˈfɔː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "句子的陈述主体，说明是谁报出自己的考试分数",
+      "meaning": "我"
+    },
+    {
+      "text": "got",
+      "relation": "连接主语和所得分数的动作，体现考试得分的动作",
+      "meaning": "拿到（分数）"
+    },
+    {
+      "text": "forty-four.",
+      "relation": "说明具体的得分数值，补充完整考试报分的信息并结束陈述",
+      "meaning": "四十四（分）。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-005",
+  "sentenceOrder": 5,
+  "english": "I got forty-four.",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "语境中的got",
+      "text": "本句的got是在法语考试报分的语境里使用，不能按字面翻译成“得到、取来”，而是指考试拿到的分数。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体可用，仅有两处细节需要修正：一是原英文句子“I got forty-four.”为一般过去时，而现有结构分析中将got描述为一般现在时，时态标注错误；二是单词音标误将forty-four的重音位置标错，原音标重音落在第二个音节fɔː上，不符合该词英式发音实际，应修正为/ˌfɔːti ˈfɔː/。其余翻译、句意、角色划分、分块释义与语境关联均符合要求。（非逐句人工审核）"
+}

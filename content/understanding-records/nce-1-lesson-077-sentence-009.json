@@ -1,0 +1,100 @@
+{
+  "chinese": "我牙疼得厉害。",
+  "intent": "说话人描述当前的身体不适状况，说明牙疼的剧烈程度，属于就医前的诉求表达。",
+  "comparison": null,
+  "backbone": {
+    "text": "I have a terrible toothache.",
+    "meaning": "说话人正承受剧烈的牙痛。"
+  },
+  "structureNotes": [
+    {
+      "title": "have 的常用身体不适表达",
+      "text": "表示生病或身体不适时，英语习惯用 have + 症状名词，而不用 be ill with 之类的搭配；have 不表示“拥有”，而是说明正处于某种不适状态中。"
+    },
+    {
+      "title": "定语前置的语序",
+      "text": "terrible 放在 toothache 前面修饰它，与中文“疼得厉害”的后置补充结构不同，英语把程度形容词直接放在名词前。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人本人。"
+    },
+    {
+      "text": "have a terrible toothache",
+      "role": "谓语+宾语",
+      "explanation": "表示处于牙痛的不适状态中；其中a terrible为定语，修饰宾语toothache，说明牙痛的程度。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "have",
+      "meaning": "有，患有（不适）",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "terrible",
+      "meaning": "剧烈的，严重的",
+      "pos": "形容词",
+      "phonetic": "/ˈterəbl/"
+    },
+    {
+      "text": "toothache.",
+      "meaning": "牙痛",
+      "pos": "名词",
+      "phonetic": "/ˈtuːθeɪk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "描述的主体",
+      "meaning": "我"
+    },
+    {
+      "text": "have",
+      "relation": "说明主体的状态",
+      "meaning": "正处于（不适状态）"
+    },
+    {
+      "text": "a terrible toothache.",
+      "relation": "补充说明不适的具体内容和程度",
+      "meaning": "剧烈的牙疼"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-77",
+  "sentenceId": "nce-1-lesson-077-sentence-009",
+  "sentenceOrder": 9,
+  "english": "I have a terrible toothache.",
+  "lesson": "Lesson 77 Terrible toothache",
+  "notes": [
+    {
+      "title": "have 的常用身体不适表达",
+      "text": "表示生病或身体不适时，英语习惯用 have + 症状名词，而不用 be ill with 之类的搭配；have 不表示“拥有”，而是说明正处于某种不适状态中。"
+    },
+    {
+      "title": "定语前置的语序",
+      "text": "terrible 放在 toothache 前面修饰它，与中文“疼得厉害”的后置补充结构不同，英语把程度形容词直接放在名词前。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，仅存在两处需要修正的问题：1. 单词条toothache的音标后误附带了句末句号，需移除；2. 结构条目中把a terrible单独列为定语，颗粒度过细，不符合句子主干拆分的常规要求，应整合为完整的宾语部分，将定语合并到宾语的解释中；其余释义、语序说明、主干提取、分词释义均符合规范。（非逐句人工审核）"
+}

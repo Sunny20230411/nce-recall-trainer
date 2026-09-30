@@ -1,0 +1,137 @@
+{
+  "chinese": "请您把它戴上好吗？",
+  "intent": "用礼貌委婉的语气向对方提出请求，让对方把指定的物品佩戴好。",
+  "comparison": {
+    "chinese": "请您把它戴上好吗？",
+    "english": "Would you put it on please?",
+    "steps": [
+      {
+        "label": "先理清核心动作",
+        "text": "put it on",
+        "explanation": "这是短语动词put on的具体用法，代词it作宾语时必须放在on前面，意思是把它穿上/戴上。"
+      },
+      {
+        "label": "再看礼貌包装",
+        "text": "Would you... please?",
+        "explanation": "用Would you开头比直接说Put it on更委婉客气，不是询问对方的意愿；please放在句末进一步缓和语气。"
+      },
+      {
+        "label": "最后对应中文语气",
+        "text": "把Would you... please? 译为“请您……好吗？”",
+        "explanation": "这种译法符合中文日常提出礼貌请求的表达习惯，贴合原句客气的说话分寸。"
+      }
+    ],
+    "takeaway": "put on的宾语若是代词it/them，必须放在put和on之间；Would you... please?是典型的礼貌请求句式，不是真实的是非问句。"
+  },
+  "backbone": {
+    "text": "Would you put it on?",
+    "meaning": "用礼貌语气请求你把它戴上。"
+  },
+  "structureNotes": [
+    {
+      "title": "短语动词的代词宾语位置",
+      "text": "put on是表示“穿上、戴上”的短语动词，当宾语是代词it时，it必须放在put和on之间，构成put it on，不能说成put on it。"
+    },
+    {
+      "title": "Would you...的礼貌用法",
+      "text": "这里的Would you并不是询问对方“会不会、愿不愿意”，而是和后面的please配合，构成比直接祈使句更委婉客气的请求。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Would",
+      "role": "助动词",
+      "explanation": "和you搭配构成委婉礼貌的请求开头，不表示过去时。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指代被请求的对方，是句子所问的对象。"
+    },
+    {
+      "text": "put it on",
+      "role": "谓语部分",
+      "explanation": "核心动作短语put on表示“戴上”，代词宾语it夹在put和on之间。"
+    },
+    {
+      "text": "please?",
+      "role": "礼貌缓和成分",
+      "explanation": "放在句末进一步软化请求语气，让说话更客气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Would",
+      "meaning": "（表示委婉请求）愿、会",
+      "pos": "情态动词（will的过去式，此处表委婉）",
+      "phonetic": "/wʊd/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；您",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "put",
+      "meaning": "放、使处于（某状态）",
+      "pos": "动词",
+      "phonetic": "/pʊt/"
+    },
+    {
+      "text": "it",
+      "meaning": "它",
+      "pos": "代词（宾格）",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "on",
+      "meaning": "（与put搭配表穿戴）上",
+      "pos": "副词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "please?",
+      "meaning": "请",
+      "pos": "感叹词/插入语",
+      "phonetic": "/pliːz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Would you",
+      "meaning": "请问您……（好吗）",
+      "relation": "礼貌的请求开头，指明请求的对象是you。"
+    },
+    {
+      "text": "put it on",
+      "meaning": "把它戴上",
+      "relation": "句子的核心动作，说明请求对方做的具体事。"
+    },
+    {
+      "text": "please?",
+      "meaning": "劳驾、麻烦您",
+      "relation": "放在句末，进一步缓和请求语气，让表达更客气。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-97",
+  "sentenceId": "nce-1-lesson-097-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Would you put it on please?",
+  "lesson": "Lesson 97 A small blue case",
+  "notes": [
+    {
+      "title": "短语动词的代词宾语位置",
+      "text": "put on是表示“穿上、戴上”的短语动词，当宾语是代词it时，it必须放在put和on之间，构成put it on，不能说成put on it。"
+    },
+    {
+      "title": "Would you...的礼貌用法",
+      "text": "这里的Would you并不是询问对方“会不会、愿不愿意”，而是和后面的please配合，构成比直接祈使句更委婉客气的请求。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体贴合语境，仅please?的词条标注为感叹词不准确：please在此处是缓和语气的插入成分，应标注为感叹词/插入语；其余结构、词义、翻译与比较逻辑均符合请求句的解析要求，无需额外改动。（非逐句人工审核）"
+}

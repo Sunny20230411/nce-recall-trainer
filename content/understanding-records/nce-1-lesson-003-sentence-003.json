@@ -1,0 +1,75 @@
+{
+  "chinese": "谢谢您，先生。",
+  "intent": "向对方表达正式的感谢，对长辈或身份较高的人使用恰当的尊称。",
+  "comparison": null,
+  "backbone": {
+    "text": "Thank you, sir.",
+    "meaning": "向被称呼为先生的对象表达谢意。"
+  },
+  "parts": [
+    {
+      "text": "Thank you,",
+      "relation": "核心表意内容",
+      "meaning": "感谢你"
+    },
+    {
+      "text": "sir.",
+      "relation": "称呼感谢的对象",
+      "meaning": "先生"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "称呼语的位置",
+      "text": "称呼对方的'sir'放在感谢语之后，前面用逗号隔开，这是英语日常对话里正式道谢的常用格式。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Thank you",
+      "role": "感谢表意主体",
+      "explanation": "用来向对方传递谢意的固定常用表达"
+    },
+    {
+      "text": "sir",
+      "role": "尊称称呼语",
+      "explanation": "用来礼貌称呼成年男性，体现对话的正式和客气"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "感谢",
+      "pos": "动词",
+      "phonetic": "/θæŋk/",
+      "text": "Thank"
+    },
+    {
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you,"
+    },
+    {
+      "meaning": "先生",
+      "pos": "名词",
+      "phonetic": "/sɜː(r)/",
+      "text": "sir."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-3",
+  "sentenceId": "nce-1-lesson-003-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Thank you, sir.",
+  "lesson": "Lesson 3 Sorry, sir.",
+  "notes": [
+    {
+      "title": "称呼语的位置",
+      "text": "称呼对方的'sir'放在感谢语之后，前面用逗号隔开，这是英语日常对话里正式道谢的常用格式。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容合规准确，仅局部细节存在可优化的表述与标注问题，修正后即可符合要求（非逐句人工审核）"
+}

@@ -1,0 +1,143 @@
+{
+  "chinese": "还不行。我必须先给花园浇水。",
+  "intent": "礼貌回绝对方“现在进来喝茶”的邀请，说明需要先完成浇花园的前置事务。",
+  "comparison": null,
+  "backbone": {
+    "text": "I must water the garden first.",
+    "meaning": "我必须先给花园浇水。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略回答Not yet",
+      "text": "Not yet是日常对话中常见的简略表达，完整含义是“I cannot come in and have tea yet（我还没法进来喝茶）”，承接对方的邀请直接回应，省去重复前文已提到的动作内容，简洁自然。"
+    },
+    {
+      "title": "first的表意功能",
+      "text": "句末的first不是修饰具体动作的方式，而是明确“浇花园”这个动作发生在“进来喝茶”之前，是必须先完成的前置事务。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Not yet.",
+      "role": "简略答语",
+      "explanation": "用于礼貌回应前文的邀请，表示“现在还没法过来”，省略了与前文重复的“I cannot come in and have tea”部分。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代正在说话的Peter，是浇花园这个动作的发出者。"
+    },
+    {
+      "text": "must water",
+      "role": "谓语",
+      "explanation": "情态动词must表示说话人主观上认为有必要、必须做某事，后接动词原形water共同构成句子的谓语核心。"
+    },
+    {
+      "text": "the garden",
+      "role": "宾语",
+      "explanation": "是动词water的作用对象，指自家的花园。"
+    },
+    {
+      "text": "first.",
+      "role": "状语",
+      "explanation": "说明“浇花园”这个动作需要优先完成，排在喝茶之前。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Not",
+      "meaning": "不",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "yet.",
+      "meaning": "还（没）",
+      "pos": "副词",
+      "phonetic": "/jet/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "must",
+      "meaning": "必须",
+      "pos": "情态动词",
+      "phonetic": "/mʌst/"
+    },
+    {
+      "text": "water",
+      "meaning": "给…浇水",
+      "pos": "动词",
+      "phonetic": "/ˈwɔːtə(r)/"
+    },
+    {
+      "text": "the",
+      "meaning": "（指说话人和听话人都知晓的那处花园，表示特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "garden",
+      "meaning": "花园",
+      "pos": "名词",
+      "phonetic": "/ˈɡɑːdn/"
+    },
+    {
+      "text": "first.",
+      "meaning": "首先，先",
+      "pos": "副词",
+      "phonetic": "/fɜːst/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Not yet.",
+      "relation": "回应前文的喝茶邀请，说明当下无法赴约",
+      "meaning": "还不行（还没法过来）"
+    },
+    {
+      "text": "I",
+      "relation": "说明后续动作的发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "must water",
+      "relation": "描述说话人需要完成的动作",
+      "meaning": "必须浇水"
+    },
+    {
+      "text": "the garden",
+      "relation": "说明浇水的对象",
+      "meaning": "花园"
+    },
+    {
+      "text": "first.",
+      "relation": "补充动作的先后顺序，说明要先浇完花园再去做别的事",
+      "meaning": "先"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-125",
+  "sentenceId": "nce-1-lesson-125-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Not yet. I must water the garden first.",
+  "lesson": "Lesson 125 Tea for two",
+  "notes": [
+    {
+      "title": "省略回答Not yet",
+      "text": "Not yet是日常对话中常见的简略表达，完整含义是“I cannot come in and have tea yet（我还没法进来喝茶）”，承接对方的邀请直接回应，省去重复前文已提到的动作内容，简洁自然。"
+    },
+    {
+      "title": "first的表意功能",
+      "text": "句末的first不是修饰具体动作的方式，而是明确“浇花园”这个动作发生在“进来喝茶”之前，是必须先完成的前置事务。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：核心释义、句子主干、结构分析、分词块关系均符合原文语义，仅词汇表存在2处标点或词性标注不够准确的小问题，其余内容无误。（非逐句人工审核）"
+}

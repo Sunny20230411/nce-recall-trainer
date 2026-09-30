@@ -1,0 +1,86 @@
+{
+  "chinese": "您好。",
+  "intent": "这是英语国家初次见面时正式的礼貌问候用语，用来向对方表达友好的致意，对方通常也会以同样的How do you do?回应。",
+  "comparison": null,
+  "backbone": {
+    "text": "How do you do?",
+    "meaning": "正式的初次见面问候，含义等同于中文的“您好”。"
+  },
+  "parts": [
+    {
+      "text": "How",
+      "relation": "疑问副词，在固定问候句式中用于引导交际表达，并非充当句子主语",
+      "meaning": "如何、怎样"
+    },
+    {
+      "text": "do",
+      "relation": "辅助构成疑问语序的助动词",
+      "meaning": "助动词，帮助构成问句"
+    },
+    {
+      "text": "you",
+      "relation": "问候的对象，句中第二人称指代",
+      "meaning": "你/您"
+    },
+    {
+      "text": "do?",
+      "relation": "构成固定问候表达的动词，无单独实义",
+      "meaning": "此处搭配前词构成固定问候句式，不指代实际动作行为"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "固定社交用语",
+      "text": "How do you do? 不是用来询问对方近况的特殊问句，而是初次见面时的正式礼貌问候，不需要如实回答具体状态，对方以同样语句回应即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "How do you do?",
+      "role": "完整交际问候句",
+      "explanation": "专门用于陌生人初次正式见面的致意场景，是约定俗成的固定表达，字面语义已经弱化，核心作用是传递礼貌友好的态度。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "如何、怎样",
+      "pos": "疑问副词",
+      "phonetic": "/haʊ/",
+      "text": "How"
+    },
+    {
+      "meaning": "助动词，用于构成疑问句",
+      "pos": "助动词",
+      "phonetic": "/duː/",
+      "text": "do"
+    },
+    {
+      "meaning": "你，您",
+      "pos": "人称代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "搭配构成固定问候表达，无单独实义",
+      "pos": "实义动词虚化用法",
+      "phonetic": "/duː/",
+      "text": "do?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-17",
+  "sentenceId": "nce-1-lesson-017-sentence-004",
+  "sentenceOrder": 4,
+  "english": "How do you do?",
+  "lesson": "Lesson 17 How do you do?",
+  "notes": [
+    {
+      "title": "固定社交用语",
+      "text": "How do you do? 不是用来询问对方近况的特殊问句，而是初次见面时的正式礼貌问候，不需要如实回答具体状态，对方以同样语句回应即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容合规，存在局部细节可修正：1. 最后一个单词项text字段包含问号不符合拆分要求；2. 原有comparison为空，需补充面向中文母语学习者的英汉表达差异说明；3. 修正过强语义断言，明确该问句并非用于询问动作行为；4. 调整非实义动词的词性说明更准确。（非逐句人工审核）"
+}

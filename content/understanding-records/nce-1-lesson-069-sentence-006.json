@@ -1,0 +1,143 @@
+{
+  "chinese": "比赛中有二十辆汽车。",
+  "intent": "描述赛车比赛现场的参赛车辆数量。",
+  "comparison": {
+    "chinese": "在比赛里面有二十辆车",
+    "english": "There were twenty cars in the race.",
+    "steps": [
+      {
+        "label": "中文存在表达",
+        "text": "“在比赛里”先说位置，再用“有”引出存在的事物“二十辆车”。",
+        "explanation": "中文把地点放在句首，先交代范围，再引出数量和事物。"
+      },
+      {
+        "label": "英语存在结构",
+        "text": "先用 There 引导 There were 表示“存在”，接着说核心事物“twenty cars（二十辆车）”，最后补地点“in the race（在比赛中）”。",
+        "explanation": "英语用 There 放在句首引导存在句，先说明“有”和存在的主体，再补充所在场景，和中文的语序相反。"
+      },
+      {
+        "label": "主谓一致",
+        "text": "后面是复数 twenty cars，所以 be 动词用过去式 were。",
+        "explanation": "There be 句型里，be 动词的单复数要和后面紧跟的名词保持一致，cars 是复数，因此用 were。"
+      }
+    ],
+    "takeaway": "中文先讲地点再说有什么，英语用 There be 先讲存在的事物再补地点，be 动词和后面的名词单复数一致。"
+  },
+  "backbone": {
+    "text": "There were twenty cars.",
+    "meaning": "有二十辆汽车（用于说明比赛中存在这么多参赛车辆）。"
+  },
+  "structureNotes": [
+    {
+      "title": "There be 存在句",
+      "text": "本句用 There were 引出“存在某物”的含义，真正的主语是后面的 twenty cars，be 动词用 were 是因为主语为复数，整体描述过去比赛场景中的客观情况。"
+    },
+    {
+      "title": "地点状语后置",
+      "text": "介词短语 in the race 放在句尾，限定二十辆汽车所处的场景是这场比赛，说明车辆是参赛车辆而非其他场景下的汽车。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There",
+      "role": "引导词",
+      "explanation": "There be 句型的形式引导词，没有实际词义，用来引出存在的事物。"
+    },
+    {
+      "text": "were",
+      "role": "be 动词（过去式）",
+      "explanation": "和后面复数主语 twenty cars 保持一致，表示过去存在的状态。"
+    },
+    {
+      "text": "twenty cars",
+      "role": "真正主语",
+      "explanation": "是句子描述的核心存在物，数量为二十辆汽车。"
+    },
+    {
+      "text": "in the race.",
+      "role": "地点状语",
+      "explanation": "说明这些汽车所处的范围是本次比赛。"
+    }
+  ],
+  "words": [
+    {
+      "text": "There",
+      "meaning": "（用于引导存在句，无实义）",
+      "pos": "引导词",
+      "phonetic": "/ðeə(r)/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（are 的过去式，表存在）",
+      "pos": "动词",
+      "phonetic": "/wɜː(r)/"
+    },
+    {
+      "text": "twenty",
+      "meaning": "二十",
+      "pos": "数词",
+      "phonetic": "/ˈtwenti/"
+    },
+    {
+      "text": "cars",
+      "meaning": "汽车（car 的复数）",
+      "pos": "名词",
+      "phonetic": "/kɑːz/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词（表特指本次比赛）",
+      "pos": "冠词",
+      "phonetic": "/ðə/ ，强读时读作 /ðiː/"
+    },
+    {
+      "text": "race.",
+      "meaning": "比赛",
+      "pos": "名词",
+      "phonetic": "/reɪs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "There were",
+      "relation": "引出存在状态，引导整个句子",
+      "meaning": "有（过去存在）"
+    },
+    {
+      "text": "twenty cars",
+      "relation": "说明存在的具体事物",
+      "meaning": "二十辆汽车"
+    },
+    {
+      "text": "in the race.",
+      "relation": "补充说明事物所处的场景范围。",
+      "meaning": "在这场比赛中"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-69",
+  "sentenceId": "nce-1-lesson-069-sentence-006",
+  "sentenceOrder": 6,
+  "english": "There were twenty cars in the race.",
+  "lesson": "Lesson 69 The car race",
+  "notes": [
+    {
+      "title": "There be 存在句",
+      "text": "本句用 There were 引出“存在某物”的含义，真正的主语是后面的 twenty cars，be 动词用 were 是因为主语为复数，整体描述过去比赛场景中的客观情况。"
+    },
+    {
+      "title": "地点状语后置",
+      "text": "介词短语 in the race 放在句尾，限定二十辆汽车所处的场景是这场比赛，说明车辆是参赛车辆而非其他场景下的汽车。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合There be存在句的语法规则，核心逻辑准确；仅两处单词音标拆分存在冗余标点，缺少英式常用弱读形式的补充说明，其余内容无需修正。（非逐句人工审核）"
+}

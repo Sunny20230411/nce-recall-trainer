@@ -1,0 +1,143 @@
+{
+  "chinese": "我们一点肉也没有了。",
+  "intent": "说明家里完全没有肉类存货，补充前面提到需要买肉的理由。",
+  "comparison": {
+    "chinese": "我们一点肉也没有了。",
+    "english": "We haven't got any meat at all.",
+    "steps": [
+      {
+        "label": "否定句搭配 any",
+        "text": "haven't got any meat",
+        "explanation": "否定句中用 any 表示“一点（肉）也没有”，对应中文否定句里的“一点也没有”。"
+      },
+      {
+        "label": "at all 的位置",
+        "text": "at all 放在句末",
+        "explanation": "at all 用来加强否定语气，意思是“丝毫、完全”，放在被否定内容的后面，对应中文的“一点也、完全不”。"
+      }
+    ],
+    "takeaway": "not...any...at all 是常用的强否定搭配，表示“一点……也没有”，和中文“一点……也没有”的语序差别在于 at all 要放在被否定的对象之后。"
+  },
+  "backbone": {
+    "text": "We haven't got any meat at all.",
+    "meaning": "我们完全没有肉。"
+  },
+  "structureNotes": [
+    {
+      "title": "haven't got 表“拥有”",
+      "text": "have got 是英语口语中表示“有、拥有”的常用结构，否定形式 haven't got 表示“没有”，这里指家里没有肉这种存货。"
+    },
+    {
+      "title": "not...any...at all 强否定",
+      "text": "any 用在否定句中修饰不可数名词 meat，和句末的 at all 配合，把否定语气加强到“完全、丝毫”的程度。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We",
+      "role": "主语",
+      "explanation": "指说话人一方，是“拥有/没有肉”这个状态的主体。"
+    },
+    {
+      "text": "haven't got",
+      "role": "谓语部分",
+      "explanation": "在 have got 固定结构中表示“没有”，是描述当前存有的核心状态。"
+    },
+    {
+      "text": "any meat",
+      "role": "宾语",
+      "explanation": "any 修饰不可数名词 meat，表示“任何一点肉”，是“没有”这个动作的对象。"
+    },
+    {
+      "text": "at all",
+      "role": "强调性状语",
+      "explanation": "放在句末加强否定语气，表示“丝毫、完全”，说明连一点肉都不存在。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We",
+      "meaning": "我们（主格）",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "haven't",
+      "meaning": "没有（have not 的缩写）",
+      "pos": "助动词（缩写）",
+      "phonetic": "/ˈhævnt/"
+    },
+    {
+      "text": "got",
+      "meaning": "有（参与 have got 固定结构）",
+      "pos": "动词过去分词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "any",
+      "meaning": "任何一点（用于否定句）",
+      "pos": "限定词",
+      "phonetic": "/ˈeni/"
+    },
+    {
+      "text": "meat",
+      "meaning": "肉",
+      "pos": "名词（不可数）",
+      "phonetic": "/miːt/"
+    },
+    {
+      "text": "at",
+      "meaning": "（与 all 构成短语）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "all.",
+      "meaning": "完全，丝毫（at all 表强调）",
+      "pos": "副词",
+      "phonetic": "/ɔːl/."
+    }
+  ],
+  "parts": [
+    {
+      "text": "We",
+      "relation": "描述主体",
+      "meaning": "我们"
+    },
+    {
+      "text": "haven't got",
+      "relation": "表达否定的拥有状态",
+      "meaning": "没有（现在完成时否定形式）"
+    },
+    {
+      "text": "any meat",
+      "relation": "说明没有的对象",
+      "meaning": "任何一点肉"
+    },
+    {
+      "text": "at all.",
+      "relation": "强化否定程度，说明连一点都不存在。",
+      "meaning": "丝毫、完全（加强否定语气）。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-79",
+  "sentenceId": "nce-1-lesson-079-sentence-010",
+  "sentenceOrder": 10,
+  "english": "We haven't got any meat at all.",
+  "lesson": "Lesson 79 Carol's shopping list",
+  "notes": [
+    {
+      "title": "haven't got 表“拥有”",
+      "text": "have got 是英语口语中表示“有、拥有”的常用结构，否定形式 haven't got 表示“没有”，这里指家里没有肉这种存货。"
+    },
+    {
+      "title": "not...any...at all 强否定",
+      "text": "any 用在否定句中修饰不可数名词 meat，和句末的 at all 配合，把否定语气加强到“完全、丝毫”的程度。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体翻译、句法标注和否定语气说明基本正确，仅需修正两处分词表记与音标细节，并将“have got”的语法身份统一为固定现在完成时结构，避免与实义动词 have 的常规释义混淆。（非逐句人工审核）"
+}

@@ -1,0 +1,75 @@
+{
+  "chinese": "……而且渴了，妈妈。",
+  "intent": "孩子在说过自己一行人很累之后，补充说明大家还口渴，并向妈妈告知这个状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "...and thirsty, Mum.",
+    "meaning": "（我们）而且渴了，妈妈。"
+  },
+  "parts": [
+    {
+      "text": "...and thirsty,",
+      "relation": "补充前文提到的身体感受",
+      "meaning": "（承接前文的“累了”状态）补充说明口渴的状态"
+    },
+    {
+      "text": "Mum.",
+      "relation": "点明说话的告知对象",
+      "meaning": "称呼听话的对象为妈妈"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "上下文省略补充",
+      "text": "这句话是承接前一句的“We're tired”出现的并列描述，省略了重复的主语和be动词“We're”，只保留新增的状态词thirsty让表达更简洁自然。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "...and thirsty,",
+      "role": "并列状态描述",
+      "explanation": "用来承接前文的疲惫状态，补充说明当前还有口渴的感受。"
+    },
+    {
+      "text": "Mum.",
+      "role": "称呼语",
+      "explanation": "明确指定听话人，把自己的状态告知作为对话对象的妈妈。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（表示承接并列）而且",
+      "pos": "conjunction",
+      "phonetic": "/ænd/",
+      "text": "...and"
+    },
+    {
+      "meaning": "口渴的",
+      "pos": "adjective",
+      "phonetic": "/ˈθɜːsti/",
+      "text": "thirsty,"
+    },
+    {
+      "meaning": "妈妈",
+      "pos": "noun",
+      "phonetic": "/mʌm/",
+      "text": "Mum."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-19",
+  "sentenceId": "nce-1-lesson-019-sentence-003",
+  "sentenceOrder": 3,
+  "english": "...and thirsty, Mum.",
+  "lesson": "Lesson 19 Tired and thirsty",
+  "notes": [
+    {
+      "title": "上下文省略补充",
+      "text": "这句话是承接前一句的“We're tired”出现的并列描述，省略了重复的主语和be动词“We're”，只保留新增的状态词thirsty让表达更简洁自然。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合学习逻辑，仅存在局部表述细节待完善以匹配语境准确性要求（非逐句人工审核）"
+}

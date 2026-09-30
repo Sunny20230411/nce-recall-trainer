@@ -1,0 +1,99 @@
+{
+  "chinese": "我喜欢黑咖啡。",
+  "intent": "陈述自己对不加奶或糖的清咖啡的喜好。",
+  "comparison": null,
+  "backbone": {
+    "text": "I like black coffee.",
+    "meaning": "我喜欢清咖啡。"
+  },
+  "parts": [
+    {
+      "text": "I",
+      "relation": "喜好的主体",
+      "meaning": "我"
+    },
+    {
+      "text": "like",
+      "relation": "主语的喜好动作",
+      "meaning": "喜欢"
+    },
+    {
+      "text": "black coffee.",
+      "relation": "喜好动作的对象",
+      "meaning": "黑咖啡；不加奶或糖的咖啡"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "简单主谓宾结构",
+      "text": "主语 I 后直接接一般现在时动词 like；black coffee 作为名词短语整体作宾语。"
+    },
+    {
+      "title": "black 修饰 coffee",
+      "text": "black 不是单独的颜色补语，而是与 coffee 构成固定名词短语，表示不加奶或糖的咖啡。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人自己，表达喜好的主体。"
+    },
+    {
+      "text": "like",
+      "role": "谓语动词",
+      "explanation": "用一般现在时表示当前的喜好，主语为第一人称，动词用原形。"
+    },
+    {
+      "text": "black coffee",
+      "role": "宾语",
+      "explanation": "名词短语，指不加奶或糖的清咖啡。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "喜欢",
+      "pos": "动词",
+      "phonetic": "/laɪk/",
+      "text": "like"
+    },
+    {
+      "meaning": "黑的；在black coffee中特指不加奶或糖的",
+      "pos": "形容词作定语",
+      "phonetic": "/blæk/",
+      "text": "black"
+    },
+    {
+      "meaning": "咖啡",
+      "pos": "名词",
+      "phonetic": "/ˈkɒfi/",
+      "text": "coffee."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-47",
+  "sentenceId": "nce-1-lesson-047-sentence-012",
+  "sentenceOrder": 12,
+  "english": "I like black coffee.",
+  "lesson": "Lesson 47 A cup of coffee",
+  "notes": [
+    {
+      "title": "简单主谓宾结构",
+      "text": "主语 I 后直接接一般现在时动词 like；black coffee 作为名词短语整体作宾语。"
+    },
+    {
+      "title": "black 修饰 coffee",
+      "text": "black 不是单独的颜色补语，而是与 coffee 构成固定名词短语，表示不加奶或糖的咖啡。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，主谓宾标注清晰，black coffee的语境释义符合固定搭配用法，英式音标规范，仅有两处不影响核心理解的可优化点：一是词汇表中coffee误带句点，二是black在该短语中的词性标注可更贴合短语功能。（非逐句人工审核）"
+}

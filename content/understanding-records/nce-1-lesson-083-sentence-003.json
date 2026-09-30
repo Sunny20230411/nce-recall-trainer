@@ -1,0 +1,101 @@
+{
+  "chinese": "我们要去度假。",
+  "intent": "回应对方提出的去向询问，告知自己一方将要开启一段假期的计划。",
+  "comparison": null,
+  "backbone": {
+    "text": "We're going to have a holiday.",
+    "meaning": "我们计划要去度假。"
+  },
+  "structureNotes": [
+    {
+      "title": "be going to 表计划",
+      "text": "We're going to 是 We are going to 的缩写，在这里表示已经计划好的将来打算，不是正在进行的‘正在去’。"
+    },
+    {
+      "title": "have a holiday 的搭配",
+      "text": "have a holiday 是英语常用固定搭配，表达‘度假’，对应中文里直接说‘去度假’的含义，不需要逐字直译为‘有一个假期’。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We're",
+      "role": "主语+助动词",
+      "explanation": "We 是主语，指对话中‘我们’这一方；'re 是 are 的缩写，和后面的 going to 搭配构成表将来的结构。"
+    },
+    {
+      "text": "going to have a holiday",
+      "role": "谓语部分",
+      "explanation": "be going to 引出打算做的事，have a holiday 是计划的具体内容，整体表示将要度假。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We're",
+      "meaning": "我们（we are 的缩写）",
+      "pos": "代词+动词缩写",
+      "phonetic": "/wɪə/"
+    },
+    {
+      "text": "going",
+      "meaning": "（与be动词连用构成将来时）将要",
+      "pos": "动词（现在分词）",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（与动词连用构成不定式）",
+      "pos": "不定式标记",
+      "phonetic": "/tuː; tə/"
+    },
+    {
+      "text": "have",
+      "meaning": "度过，进行（假期等活动）",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "holiday.",
+      "meaning": "假期",
+      "pos": "名词",
+      "phonetic": "/ˈhɒlədeɪ; ˈhɒlədi/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We're going to",
+      "relation": "表示主体的未来计划，引出后续要做的事",
+      "meaning": "我们将要（表示计划打算）"
+    },
+    {
+      "text": "have a holiday.",
+      "relation": "说明打算具体要做的事，也就是度假",
+      "meaning": "度过一个假期"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-83",
+  "sentenceId": "nce-1-lesson-083-sentence-003",
+  "sentenceOrder": 3,
+  "english": "We're going to have a holiday.",
+  "lesson": "Lesson 83 Going on holiday",
+  "notes": [
+    {
+      "title": "be going to 表计划",
+      "text": "We're going to 是 We are going to 的缩写，在这里表示已经计划好的将来打算，不是正在进行的‘正在去’。"
+    },
+    {
+      "title": "have a holiday 的搭配",
+      "text": "have a holiday 是英语常用固定搭配，表达‘度假’，对应中文里直接说‘去度假’的含义，不需要逐字直译为‘有一个假期’。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，be going to表计划的解释、have a holiday搭配说明均符合语境；仅存在两处小问题：1. have一词在该短语中的释义为“进行、从事”，未贴合语境对应“度过（假期）”的实际含义；2. 词汇表中holiday条目的音标错误混入了末尾标点，其余结构划分、词义、指代均无误。（非逐句人工审核）"
+}

@@ -1,0 +1,128 @@
+{
+  "chinese": "一些孩子正从楼里出来。",
+  "intent": "描述当下几个孩子正从建筑物里走出来的实时场景动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "Some children are coming out of the building.",
+    "meaning": "一些孩子正从楼里出来。"
+  },
+  "parts": [
+    {
+      "text": "Some children",
+      "relation": "动作的发出者",
+      "meaning": "一些孩子"
+    },
+    {
+      "text": "are coming",
+      "relation": "描述主体正在执行的动作",
+      "meaning": "正出来"
+    },
+    {
+      "text": "out of",
+      "relation": "补充动作的方向，说明动作从内部向外部进行",
+      "meaning": "从……里面出来"
+    },
+    {
+      "text": "the building.",
+      "relation": "说明动作起点对应的具体地点",
+      "meaning": "这栋楼"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "现在进行时表达",
+      "text": "are coming 搭配使用，用来描述此刻正在发生的动作，没有表示将来或者已经完成的含义。"
+    },
+    {
+      "title": "固定搭配用法",
+      "text": "come out of 是固定表达，整体表示“从……里面出来”，不能拆分单独理解out和of的孤立词义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Some children",
+      "role": "主语",
+      "explanation": "动作的发出者，明确执行“出来”这个动作的对象是一群孩子"
+    },
+    {
+      "text": "are coming",
+      "role": "谓语",
+      "explanation": "现在进行时的动词组合，表达此刻正在发生的出来这个动作"
+    },
+    {
+      "text": "out of the building",
+      "role": "地点状语",
+      "explanation": "补充说明动作是从楼的内部往外部进行的，交代动作的方位背景"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "一些",
+      "pos": "限定词",
+      "phonetic": "/sʌm/",
+      "text": "Some"
+    },
+    {
+      "meaning": "孩子们",
+      "pos": "名词",
+      "phonetic": "/ˈtʃɪldrən/",
+      "text": "children"
+    },
+    {
+      "meaning": "助动词（用于构成现在进行时）",
+      "pos": "动词",
+      "phonetic": "/ɑː/",
+      "text": "are"
+    },
+    {
+      "meaning": "来",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈkʌmɪŋ/",
+      "text": "coming"
+    },
+    {
+      "meaning": "在外",
+      "pos": "副词",
+      "phonetic": "/aʊt/",
+      "text": "out"
+    },
+    {
+      "meaning": "属于……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "这个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "楼，建筑物",
+      "pos": "名词",
+      "phonetic": "/ˈbɪldɪŋ/",
+      "text": "building."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-35",
+  "sentenceId": "nce-1-lesson-035-sentence-014",
+  "sentenceOrder": 14,
+  "english": "Some children are coming out of the building.",
+  "lesson": "Lesson 35 Our village",
+  "notes": [
+    {
+      "title": "现在进行时表达",
+      "text": "are coming 搭配使用，用来描述此刻正在发生的动作，没有表示将来或者已经完成的含义。"
+    },
+    {
+      "title": "固定搭配用法",
+      "text": "come out of 是固定表达，整体表示“从……里面出来”，不能拆分单独理解out和of的孤立词义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本符合要求，仅存在部分词义表述、内容重复及comparison缺失的可明确修正问题，未出现核心语法概念错误。（非逐句人工审核）"
+}

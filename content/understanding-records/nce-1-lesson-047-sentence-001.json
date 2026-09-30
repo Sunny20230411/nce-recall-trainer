@@ -1,0 +1,110 @@
+{
+  "chinese": "你喜欢咖啡吗，安？",
+  "intent": "询问安是否喜欢咖啡。",
+  "comparison": null,
+  "backbone": {
+    "text": "Do you like coffee",
+    "meaning": "你喜欢咖啡吗（理解用主干，疑问语气由Do承担）。"
+  },
+  "parts": [
+    {
+      "text": "Do",
+      "relation": "疑问标记，开启询问",
+      "meaning": "助动词，用于构成一般现在时的疑问句"
+    },
+    {
+      "text": "you",
+      "relation": "询问对象",
+      "meaning": "你"
+    },
+    {
+      "text": "like",
+      "relation": "描述喜好的核心动作",
+      "meaning": "喜欢"
+    },
+    {
+      "text": "coffee,",
+      "relation": "喜好的对象",
+      "meaning": "咖啡"
+    },
+    {
+      "text": "Ann?",
+      "relation": "呼语，指明对话对象",
+      "meaning": "安（人名）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般现在时疑问的语序",
+      "text": "实义动词like本身不能直接构成问句，要把助动词Do放在句首，主语you紧随其后；答语常为Yes, I do. 或No, I don't."
+    },
+    {
+      "title": "呼语的使用",
+      "text": "Ann放在句末并用逗号隔开，直接点明正在被问话的人；它不是句子成分，不参与主谓关系。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do you like coffee",
+      "role": "一般疑问句主干",
+      "explanation": "由助动词Do加主语you、谓语like和宾语coffee构成，询问对方的喜好。"
+    },
+    {
+      "text": "Ann",
+      "role": "呼语",
+      "explanation": "句末的人名，用来明确对话对象，与主句语法结构无关。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "用于构成一般现在时疑问句的助动词，本身无实义",
+      "pos": "auxiliary verb",
+      "phonetic": "/duː/",
+      "text": "Do"
+    },
+    {
+      "meaning": "你；你们",
+      "pos": "pronoun",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "喜欢",
+      "pos": "verb",
+      "phonetic": "/laɪk/",
+      "text": "like"
+    },
+    {
+      "meaning": "咖啡",
+      "pos": "noun",
+      "phonetic": "/ˈkɒfi/",
+      "text": "coffee,"
+    },
+    {
+      "meaning": "安（人名）",
+      "pos": "proper noun",
+      "phonetic": "/æn/",
+      "text": "Ann?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-47",
+  "sentenceId": "nce-1-lesson-047-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Do you like coffee, Ann?",
+  "lesson": "Lesson 47 A cup of coffee",
+  "notes": [
+    {
+      "title": "一般现在时疑问的语序",
+      "text": "实义动词like本身不能直接构成问句，要把助动词Do放在句首，主语you紧随其后；答语常为Yes, I do. 或No, I don't."
+    },
+    {
+      "title": "呼语的使用",
+      "text": "Ann放在句末并用逗号隔开，直接点明正在被问话的人；它不是句子成分，不参与主谓关系。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析与原文语境一致，主干切分、词性、英式音标和翻译均正确。仅两个词条附带了原文标点，影响词典学习的纯净性，因此作非阻断修正。（非逐句人工审核）"
+}

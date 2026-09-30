@@ -1,0 +1,101 @@
+{
+  "chinese": "有。",
+  "intent": "针对前一句“先生，您有帽子吗？”的询问给出肯定答复，明确确认自己持有帽子。",
+  "comparison": {
+    "chinese": "针对一般疑问句的简短肯定回复，中文可直说“是的，我有。”或更自然的“有。”",
+    "english": "Yes, I have.",
+    "steps": [
+      {
+        "label": "承前省略的助动词",
+        "text": "完整意思等于Yes, I have got a hat.",
+        "explanation": "口语回答时不必重复说完整的Have got结构，只保留和问句一致的助动词have即可。"
+      },
+      {
+        "label": "简短肯定答复的形式",
+        "text": "Yes, I have.",
+        "explanation": "用Yes配合主语I和助动词have，直接完成肯定确认，符合英语对have类一般疑问句的回答习惯。"
+      }
+    ],
+    "takeaway": "英语用“助动词+主语”就能完整回答一般疑问句，不需要把问句的全部内容重复一遍。"
+  },
+  "backbone": {
+    "text": "I have (got a hat).",
+    "meaning": "我确实有（一顶帽子）。"
+  },
+  "structureNotes": [
+    {
+      "title": "Have got疑问句的简答",
+      "text": "针对“Have you got...?”的提问，肯定回答用Yes, I have. 否定用No, I haven't. 这里的have不是单独表示“拥有”的实义动词，而是与got构成have got（表示拥有）固定结构的助动词，承前省略了后续的got a hat部分，避免和前面的问句重复。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "肯定答语的引导词",
+      "explanation": "用来直接回应前序的一般疑问句，明确给出肯定态度，语气直接自然。"
+    },
+    {
+      "text": "I",
+      "role": "回答的主语",
+      "explanation": "指代对话里的男性顾客，和前句问句的you所指对象一致。"
+    },
+    {
+      "text": "have.",
+      "role": "简略肯定谓语",
+      "explanation": "承前省略了got a hat，单独保留与got搭配的助动词have，完整表达“我有（一顶帽子）”的含义。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes,",
+      "meaning": "是的",
+      "pos": "感叹词",
+      "phonetic": "/jes/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "have.",
+      "meaning": "有（have got结构的助动词，此处承前省略got a hat）",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes,",
+      "meaning": "是的",
+      "relation": "肯定态度标记，直接回应前序的询问"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "明确答复的主体，对应问句里被询问的对方"
+    },
+    {
+      "text": "have.",
+      "meaning": "有",
+      "relation": "简略的肯定谓语，确认自己持有帽子的事实"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-97",
+  "sentenceId": "nce-1-lesson-097-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Yes, I have.",
+  "lesson": "Lesson 97 A small blue case",
+  "notes": [
+    {
+      "title": "Have got疑问句的简答",
+      "text": "针对“Have you got...?”的提问，肯定回答用Yes, I have. 否定用No, I haven't. 这里的have不是单独表示“拥有”的实义动词，而是与got构成have got（表示拥有）固定结构的助动词，承前省略了后续的got a hat部分，避免和前面的问句重复。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原内容整体通顺，仅存在一处可明确修正的表述问题：原结构笔记将“Have you got...?”中的have描述为现在完成时的助动词，表述不准确。在“have got”表示“拥有”的常见用法中，have属于与got搭配的固定结构助动词，并非严格语法意义上的现在完成时标记，修正该表述后即可完全符合解析规范。其余翻译、主干、分词释义、词法标注、指代关系均与上下文匹配，无需修改。（非逐句人工审核）"
+}

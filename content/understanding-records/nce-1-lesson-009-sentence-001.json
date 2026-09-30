@@ -1,0 +1,69 @@
+{
+  "chinese": "你好，海伦。",
+  "intent": "向名为海伦的人致以日常的问候，开启简短的日常对话。",
+  "comparison": null,
+  "backbone": {
+    "text": "Hello, Helen.",
+    "meaning": "向海伦问好"
+  },
+  "parts": [
+    {
+      "text": "Hello,",
+      "relation": "发出的问候内容",
+      "meaning": "你好"
+    },
+    {
+      "text": "Helen.",
+      "relation": "问候的对象",
+      "meaning": "海伦"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "称呼的标点分隔",
+      "text": "问候语Hello后用逗号和称呼人名Helen隔开，是日常口语表达的常规写法，清晰点明问候的对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Hello,",
+      "role": "问候语",
+      "explanation": "用于开启日常打招呼的表达，传递问好的意图"
+    },
+    {
+      "text": "Helen.",
+      "role": "称呼语",
+      "explanation": "明确本次问候指向的对象是海伦"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "你好",
+      "pos": "感叹词",
+      "phonetic": "/həˈləʊ/",
+      "text": "Hello,"
+    },
+    {
+      "meaning": "海伦",
+      "pos": "名词",
+      "phonetic": "/ˈhelən/",
+      "text": "Helen."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-9",
+  "sentenceId": "nce-1-lesson-009-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Hello, Helen.",
+  "lesson": "Lesson 9 How are you today?",
+  "notes": [
+    {
+      "title": "称呼的标点分隔",
+      "text": "问候语Hello后用逗号和称呼人名Helen隔开，是日常口语表达的常规写法，清晰点明问候的对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体符合面向中文母语成年人的英语学习解析要求，仅存在局部信息补充完善点（非逐句人工审核）"
+}

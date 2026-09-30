@@ -1,0 +1,95 @@
+{
+  "chinese": "‘怎么了，乔治？’它喊道。",
+  "intent": "呈现鹦鹉Henry模仿人类的口语，向George发问并发出声音的日常互动场景。",
+  "comparison": null,
+  "backbone": {
+    "text": "'What's up, George?' he called.",
+    "meaning": "鹦鹉对着George喊道：‘怎么了，乔治？’"
+  },
+  "structureNotes": [
+    {
+      "title": "引述语的位置",
+      "text": "直接引语置于句首时，后接主句he called来说明是谁发出了这句话；汉语常将引述动词放在引语前面，这里语序不同但功能一致。"
+    },
+    {
+      "title": "he的指代",
+      "text": "代词he指代前文提到的鹦鹉Henry，不能只凭he就认定是人类。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'What's up, George?'",
+      "role": "直接引语分句",
+      "explanation": "用引号标出鹦鹉所说的原话，What's up是口语中常用的打招呼或询问情况的表达，George是被呼唤的对象。"
+    },
+    {
+      "text": "he called.",
+      "role": "引述主句",
+      "explanation": "he指代前文出现的鹦鹉Henry，called表示它发出声音、说出这句话，用一般过去时叙述故事发生的动作。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（What's的缩略形式）是什么",
+      "pos": "缩写（疑问词+系动词）",
+      "phonetic": "/wɒts/",
+      "text": "'What's"
+    },
+    {
+      "meaning": "（what's up的up，表“近况、情况”）",
+      "pos": "副词",
+      "phonetic": "/ʌp/",
+      "text": "up,"
+    },
+    {
+      "meaning": "乔治（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈdʒɔːdʒ/",
+      "text": "George?'"
+    },
+    {
+      "meaning": "他（此处指代鹦鹉Henry）",
+      "pos": "代词",
+      "phonetic": "/hiː/",
+      "text": "he"
+    },
+    {
+      "meaning": "呼叫、说话",
+      "pos": "动词（过去式）",
+      "phonetic": "/kɔːld/",
+      "text": "called."
+    }
+  ],
+  "parts": [
+    {
+      "text": "'What's up, George?'",
+      "meaning": "‘怎么了，乔治？’",
+      "relation": "直接引语，是引述主句中called后面省略的直接宾语。"
+    },
+    {
+      "text": "he called.",
+      "meaning": "它（鹦鹉Henry）喊道。",
+      "relation": "引述主句；he指代鹦鹉Henry，called是谓语动词，后面省略了直接宾语，即前面的直接引语。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-119",
+  "sentenceId": "nce-1-lesson-119-sentence-014",
+  "sentenceOrder": 14,
+  "english": "'What's up, George?' he called.",
+  "lesson": "Lesson 119 A true story",
+  "notes": [
+    {
+      "title": "引述语的位置",
+      "text": "直接引语置于句首时，后接主句he called来说明是谁发出了这句话；汉语常将引述动词放在引语前面，这里语序不同但功能一致。"
+    },
+    {
+      "title": "he的指代",
+      "text": "代词he指代前文提到的鹦鹉Henry，不能只凭he就认定是人类。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：核心句意、指代、引述结构与词汇解释均可成立；仅需将引述主句中省略的引述宾语补入，使主句关系与意义更完整。（非逐句人工审核）"
+}

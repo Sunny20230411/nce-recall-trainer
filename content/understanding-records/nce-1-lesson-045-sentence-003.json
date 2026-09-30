@@ -1,0 +1,77 @@
+{
+  "chinese": "帕梅拉在哪里？",
+  "intent": "询问帕梅拉当前所在的位置",
+  "comparison": null,
+  "backbone": {
+    "text": "Where's Pamela?",
+    "meaning": "询问帕梅拉的所处位置"
+  },
+  "parts": [
+    {
+      "text": "Where's",
+      "relation": "询问的核心内容，点明要获取的信息类型是位置",
+      "meaning": "在哪里（Where is的缩合形式）"
+    },
+    {
+      "text": "Pamela?",
+      "relation": "询问的对象，指明要查询位置的人物",
+      "meaning": "帕梅拉（人名，句末带问号表疑问语气）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "特殊疑问句语法说明",
+      "text": "本句是询问人物位置的特殊疑问句，疑问副词Where作地点疑问状语，系动词is和Where缩合为Where's，句子真正的主语是Pamela，采用'疑问副词+be动词+主语'的疑问语序。"
+    },
+    {
+      "title": "缩合形式说明",
+      "text": "Where's是Where is的口语常用缩合，把疑问词和be动词合并，用于日常快速询问位置，不需要拆分理解成两个独立的强调成分。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Where's",
+      "role": "疑问引导状语部分",
+      "explanation": "由疑问副词Where和be动词is缩合而成，用来引出对地点信息的询问"
+    },
+    {
+      "text": "Pamela",
+      "role": "句子主语",
+      "explanation": "特指名叫帕梅拉的人，句末的问号标记整个句子的疑问属性"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "在哪里（是Where is的口语缩合形式）",
+      "pos": "contraction",
+      "phonetic": "/weəz/",
+      "text": "Where's"
+    },
+    {
+      "meaning": "帕梅拉（女子人名）",
+      "pos": "noun",
+      "phonetic": "/ˈpæmələ/",
+      "text": "Pamela?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-45",
+  "sentenceId": "nce-1-lesson-045-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Where's Pamela?",
+  "lesson": "Lesson 45 The boss's letter",
+  "notes": [
+    {
+      "title": "特殊疑问句语法说明",
+      "text": "本句是询问人物位置的特殊疑问句，疑问副词Where作地点疑问状语，系动词is和Where缩合为Where's，句子真正的主语是Pamela，采用'疑问副词+be动词+主语'的疑问语序。"
+    },
+    {
+      "title": "缩合形式说明",
+      "text": "Where's是Where is的口语常用缩合，把疑问词和be动词合并，用于日常快速询问位置，不需要拆分理解成两个独立的强调成分。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本合规，仅存在局部细节可修正优化的问题，无原则性错误（非逐句人工审核）"
+}

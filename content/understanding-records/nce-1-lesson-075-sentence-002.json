@@ -1,0 +1,88 @@
+{
+  "chinese": "多大尺码？",
+  "intent": "店员承接顾客的寻鞋需求，向顾客询问所需鞋子的尺码规格。",
+  "comparison": {
+    "chinese": "中文直接用短语提问“多大尺码？”，日常买鞋时双方清楚语境，无需额外补全完整句子。",
+    "english": "What size?",
+    "steps": [
+      {
+        "label": "先确认前情",
+        "text": "上一句顾客已经问“Do you have any shoes like these?”，双方的交流主题围绕这类鞋子展开。",
+        "explanation": "对话场景中，问尺码的默认对象就是正在找的鞋子，不需要反复重复“what size of shoes do you want”这类完整句式。"
+      },
+      {
+        "label": "英文用疑问词引出核心信息",
+        "text": "What size? 用疑问词What直接修饰要询问的核心对象size，问号提示这是一个问题。",
+        "explanation": "What在这里用来限定“要问的是哪方面的信息”，size就是被询问的核心对象，和中文的“多大尺码”表意直接对应。"
+      }
+    ],
+    "takeaway": "在购物、点餐这类双方都清楚交流主题的场景里，英语经常只保留核心疑问短语，不用每次都说出完整长句。"
+  },
+  "backbone": {
+    "text": "What size?",
+    "meaning": "（你要的这类鞋子）是多大尺码？"
+  },
+  "structureNotes": [
+    {
+      "title": "对话省略的逻辑",
+      "text": "本句承接上一句顾客询问是否有这类鞋子的上下文，省略了“do you wear”“of shoes”这类冗余部分，直接用疑问短语提问，符合日常口语简洁高效的表达习惯。"
+    },
+    {
+      "title": "What的修饰作用",
+      "text": "What在此处不是独立的疑问代词，而是修饰名词size，共同构成询问尺码的固定疑问表达，意思是“什么样的尺码/多大尺码”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What",
+      "role": "疑问限定词",
+      "explanation": "修饰后面的名词size，指明询问的维度是尺码，对应中文里“多大、什么样的”的限定作用。"
+    },
+    {
+      "text": "size?",
+      "role": "被询问的核心名词",
+      "explanation": "是本句提问指向的核心对象，在对话语境中默认指鞋子的尺码。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "什么样的、多大的",
+      "pos": "疑问限定词",
+      "phonetic": "/wɒt/",
+      "text": "What"
+    },
+    {
+      "meaning": "尺码、号",
+      "pos": "名词",
+      "phonetic": "/saɪz/",
+      "text": "size?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What size?",
+      "relation": "承接上文寻鞋的对话，向顾客询问所需鞋子的具体尺码。",
+      "meaning": "多大尺码？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-75",
+  "sentenceId": "nce-1-lesson-075-sentence-002",
+  "sentenceOrder": 2,
+  "english": "What size?",
+  "lesson": "Lesson 75 Uncomfortable shoes",
+  "notes": [
+    {
+      "title": "对话省略的逻辑",
+      "text": "本句承接上一句顾客询问是否有这类鞋子的上下文，省略了“do you wear”“of shoes”这类冗余部分，直接用疑问短语提问，符合日常口语简洁高效的表达习惯。"
+    },
+    {
+      "title": "What的修饰作用",
+      "text": "What在此处不是独立的疑问代词，而是修饰名词size，共同构成询问尺码的固定疑问表达，意思是“什么样的尺码/多大尺码”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：该句为承接上文的对话省略句，整体语义、省略逻辑、词性标注均准确，仅存在一处可优化的表述：结构说明中“do you want”的表述易产生歧义，修正为符合原文对话逻辑的“do you wear”即可，其余内容无需调整。（非逐句人工审核）"
+}

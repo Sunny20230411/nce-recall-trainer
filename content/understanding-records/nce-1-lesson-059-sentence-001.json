@@ -1,0 +1,110 @@
+{
+  "chinese": "包里有什么？",
+  "intent": "询问某个包内部盛放的物品内容物",
+  "comparison": {
+    "chinese": "在包里，有什么？",
+    "english": "What's in the bag?",
+    "steps": [
+      {
+        "label": "先交代地点",
+        "text": "中文会先问“包里”这个地点，再问“有什么”。",
+        "explanation": "中文说存在类问题时，通常把关心的地点放前面，再问有哪些东西。"
+      },
+      {
+        "label": "英语先抛出疑问词",
+        "text": "英语把 What's 放在句首，再用 in the bag 补充地点。",
+        "explanation": "What's 直接对应“有什么”，in the bag 说明这个“有”是在包里面的范围。"
+      },
+      {
+        "label": "地点信息的位置",
+        "text": "英文把地点放在 What's 后面的介词短语里。",
+        "explanation": "不需要逐字调整语序，按范围理解即可：先明确要问包里的东西，再回应里面有什么。"
+      }
+    ],
+    "takeaway": "英语说存在疑问句时，疑问部分先说，地点范围后接；中文先给地点，再问事物。"
+  },
+  "backbone": {
+    "text": "What's in the bag?",
+    "meaning": "这个包里面盛放了什么物品？"
+  },
+  "structureNotes": [
+    {
+      "title": "询问范围内事物",
+      "text": "What's 是 What is 的缩写，用来问“有什么事物”；in the bag 把询问范围限定在包的内部，而不是包外面。"
+    },
+    {
+      "title": "定冠词指向双方已知的包",
+      "text": "the bag 里的 the 表示这是说话人和听话人都知道的那一个包，不是随便哪个包。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's",
+      "role": "疑问引导与存在表达",
+      "explanation": "What's 是 What is 的缩写，核心作用是提出“有什么事物”的疑问，承载询问的核心语义。"
+    },
+    {
+      "text": "in the bag?",
+      "role": "地点范围修饰",
+      "explanation": "介词短语作地点范围限定，说明询问的存在范围是包的内部，不是其他地方。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What's",
+      "meaning": "是什么/有什么（What is 的缩写）",
+      "pos": "疑问代词+be动词缩写",
+      "phonetic": "wɒts"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "ɪn"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指双方都知道的事物）",
+      "pos": "定冠词",
+      "phonetic": "ðə"
+    },
+    {
+      "text": "bag?",
+      "meaning": "包",
+      "pos": "名词",
+      "phonetic": "bæɡ"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What's",
+      "relation": "询问核心",
+      "meaning": "是什么/有什么"
+    },
+    {
+      "text": "in the bag?",
+      "relation": "限定询问范围",
+      "meaning": "在包里？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-59",
+  "sentenceId": "nce-1-lesson-059-sentence-001",
+  "sentenceOrder": 1,
+  "english": "What's in the bag?",
+  "lesson": "Lesson 59 Is that all?",
+  "notes": [
+    {
+      "title": "询问范围内事物",
+      "text": "What's 是 What is 的缩写，用来问“有什么事物”；in the bag 把询问范围限定在包的内部，而不是包外面。"
+    },
+    {
+      "title": "定冠词指向双方已知的包",
+      "text": "the bag 里的 the 表示这是说话人和听话人都知道的那一个包，不是随便哪个包。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句意、主干、词性、短语范围与英式音标基本准确。仅需把 What's 的词性标注从“缩写代词+动词”改为“疑问代词+be动词缩写”，避免把缩写形式误写成独立的词性类别。（非逐句人工审核）"
+}

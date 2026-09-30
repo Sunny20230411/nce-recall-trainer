@@ -1,0 +1,105 @@
+{
+  "chinese": "吉尔十八岁了，汤姆。",
+  "intent": "向汤姆说明吉尔已经年满十八岁，回应前文提出的不许吉尔做某事的问题，说明吉尔已经不是小孩，不需要过度管束。",
+  "comparison": null,
+  "backbone": {
+    "text": "Jill is eighteen years old.",
+    "meaning": "吉尔已经十八岁了。"
+  },
+  "structureNotes": [
+    {
+      "title": "名词所有格与系动词的缩写形式",
+      "text": "Jill's在这里是Jill is的缩写，不是表示“吉尔的”的所有格，后面直接接年龄表语。"
+    },
+    {
+      "title": "呼语位置不影响句子主干",
+      "text": "Tom是说话时的呼语，放在句末用逗号隔开，不参与句子主干的构成，只是点明这句话是说给汤姆听的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Jill's",
+      "role": "主语+系动词（Jill is的缩写）",
+      "explanation": "Jill是被说明的对象，is作为系动词连接主语和后面的年龄描述。"
+    },
+    {
+      "text": "eighteen years old,",
+      "role": "表语",
+      "explanation": "用基数词加years old的结构说明主语的年龄，末尾逗号是句中停顿，不影响表语核心语义。"
+    },
+    {
+      "text": "Tom.",
+      "role": "呼语",
+      "explanation": "点明听话人是汤姆。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Jill's",
+      "meaning": "（这里是Jill is的缩写，意为“吉尔是”）",
+      "pos": "缩写（主语+系动词）",
+      "phonetic": "dʒɪlz"
+    },
+    {
+      "text": "eighteen",
+      "meaning": "十八",
+      "pos": "数词",
+      "phonetic": "ˌeɪˈtiːn"
+    },
+    {
+      "text": "years",
+      "meaning": "岁（years old搭配表示年龄）",
+      "pos": "名词复数",
+      "phonetic": "ˈjɪəz"
+    },
+    {
+      "text": "old,",
+      "meaning": "……岁的（old紧跟years组成年龄表达，末尾逗号是原句的句中停顿标点）",
+      "pos": "形容词",
+      "phonetic": "əʊld"
+    },
+    {
+      "text": "Tom.",
+      "meaning": "汤姆（男子名，此处是直接对汤姆说话的呼语）",
+      "pos": "名词（呼语）",
+      "phonetic": "tɒm"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Jill's",
+      "meaning": "吉尔是",
+      "relation": "句子的主语和系动词部分，引出被描述的对象吉尔"
+    },
+    {
+      "text": "eighteen years old,",
+      "meaning": "十八岁了，",
+      "relation": "说明吉尔的年龄，是句子的核心表语，末尾逗号承接后面的呼语"
+    },
+    {
+      "text": "Tom.",
+      "meaning": "汤姆。",
+      "relation": "呼语，点明这句话是直接对汤姆说的，承接前文对汤姆提出的质疑的回应。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-65",
+  "sentenceId": "nce-1-lesson-065-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Jill's eighteen years old, Tom.",
+  "lesson": "Lesson 65 Not a baby",
+  "notes": [
+    {
+      "title": "名词所有格与系动词的缩写形式",
+      "text": "Jill's在这里是Jill is的缩写，不是表示“吉尔的”的所有格，后面直接接年龄表语。"
+    },
+    {
+      "title": "呼语位置不影响句子主干",
+      "text": "Tom是说话时的呼语，放在句末用逗号隔开，不参与句子主干的构成，只是点明这句话是说给汤姆听的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体主干、结构与词义标注正确：正确区分了Jill's是Jill is的系动词缩写而非名词所有格，准确识别句末Tom是呼语不参与主干，年龄表语的词性与音标符合英式发音规范，各分块的语义和逻辑关系说明清晰。仅存在两处可优化的细节：一是old的标注文本自带的逗号属于原句标点，不属于单词本身内容，需要在释义中明确该逗号是紧随单词之后的句中停顿，避免学习者将标点误归为单词一部分；二是呼语Tom的释义可结合上下文补充说明是点明对话指向汤姆，和前文回应禁止事项的语境形成呼应。（非逐句人工审核）"
+}

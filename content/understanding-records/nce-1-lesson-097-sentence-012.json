@@ -1,0 +1,144 @@
+{
+  "chinese": "卡罗琳，这就是你接待过的那个人吗？",
+  "intent": "说话人向卡罗琳确认，眼前的人是不是她之前接待过的那位男士。",
+  "comparison": {
+    "chinese": "卡罗琳，这就是那个你接待过的人吗？",
+    "english": "Is this the man that you served, Caroline?",
+    "steps": [
+      {
+        "label": "先完成核心判断",
+        "text": "Is this the man",
+        "explanation": "对应中文先问“这就是那个人吗”，把待确认的核心判断放在最前面。"
+      },
+      {
+        "label": "再用从句限定是哪个人",
+        "text": "that you served",
+        "explanation": "that 指代前面的 the man，接在 man 后面说明“你接待过的”那个人，中文通常放在名词前面。"
+      },
+      {
+        "label": "呼语位置不同",
+        "text": "Caroline",
+        "explanation": "呼语 Caroline 在英文句末并用逗号隔开，中文习惯放在句首“卡罗琳，……”。"
+      }
+    ],
+    "takeaway": "英文把修饰从句放在被修饰的 man 后面，中文则把“你接待过的”提前到“人”之前。"
+  },
+  "backbone": {
+    "text": "Is this the man that you served?",
+    "meaning": "眼前这个人是不是你之前接待过的那位男士？"
+  },
+  "structureNotes": [
+    {
+      "title": "that 引导的限定定语从句",
+      "text": "that 指代先行词 the man，在从句中作 served 的宾语，说明是“你接待过的”那位男士，中文习惯把这类修饰放在名词前面。"
+    },
+    {
+      "title": "疑问句的倒装结构",
+      "text": "把 Is 提到主语 this 前面，构成一般疑问句，用来确认眼前的人是不是符合描述的那一位。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is this the man",
+      "role": "疑问主句核心",
+      "explanation": "系动词 Is 置于主语 this 之前，构成一般疑问句，核心判断“这是不是那位男士”。"
+    },
+    {
+      "text": "that you served",
+      "role": "限定性定语从句",
+      "explanation": "修饰 the man，that 在从句中作 served 的宾语，补充说明这位男士是“你接待过的”。"
+    },
+    {
+      "text": "Caroline",
+      "role": "呼语",
+      "explanation": "称呼对话对象卡罗琳，放在句末不参与主句的语法结构。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Is",
+      "meaning": "是（be动词第三人称单数）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "this",
+      "meaning": "这",
+      "pos": "代词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指）该，那个",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人，男士",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "that",
+      "meaning": "（关系代词，指代前文的人）",
+      "pos": "关系代词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "served,",
+      "meaning": "接待；服务",
+      "pos": "动词（serve 的过去式）",
+      "phonetic": "/sɜːvd/"
+    },
+    {
+      "text": "Caroline?",
+      "meaning": "卡罗琳（人名）",
+      "pos": "名词（呼语）",
+      "phonetic": "/ˈkærəlaɪn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Is this the man",
+      "meaning": "这就是那个人吗",
+      "relation": "提问的核心判断框架，给出待确认的核心对象"
+    },
+    {
+      "text": "that you served,",
+      "meaning": "你接待过的（那位）",
+      "relation": "修饰前面的 man，说明是符合“你接待过”这个条件的男士"
+    },
+    {
+      "text": "Caroline?",
+      "meaning": "卡罗琳",
+      "relation": "对话的对象呼语，用来点明问话的接收者"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-97",
+  "sentenceId": "nce-1-lesson-097-sentence-012",
+  "sentenceOrder": 12,
+  "english": "Is this the man that you served, Caroline?",
+  "lesson": "Lesson 97 A small blue case",
+  "notes": [
+    {
+      "title": "that 引导的限定定语从句",
+      "text": "that 指代先行词 the man，在从句中作 served 的宾语，说明是“你接待过的”那位男士，中文习惯把这类修饰放在名词前面。"
+    },
+    {
+      "title": "疑问句的倒装结构",
+      "text": "把 Is 提到主语 this 前面，构成一般疑问句，用来确认眼前的人是不是符合描述的那一位。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析与上下文一致，定语从句、倒装疑问结构、呼语的说明均无错误；仅词表中 served 的文本误带句末逗号、词性标注不够精确，呼语词 Caroline 带问号属于轻微调整。（非逐句人工审核）"
+}

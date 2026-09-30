@@ -1,0 +1,99 @@
+{
+  "chinese": "晚饭准备好了吗，卡罗尔？",
+  "intent": "询问晚餐是否已经准备妥当，属于日常用餐前的确认类提问。",
+  "comparison": null,
+  "backbone": {
+    "text": "Is dinner ready?",
+    "meaning": "确认晚餐是否处于准备好的状态。"
+  },
+  "structureNotes": [
+    {
+      "title": "一般疑问句构成",
+      "text": "把be动词Is放到主语dinner前面，就可以构成对状态的提问；ready作为表语，直接说明主语所处的状态。"
+    },
+    {
+      "title": "呼语的位置",
+      "text": "Carol是说话人对对话对象的称呼，放在句末用逗号隔开，不参与句子主干的主谓结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is",
+      "role": "be动词",
+      "explanation": "是be动词第三人称单数现在时形式，帮助构成一般疑问句，体现现在时的状态判断，和后面的形容词ready搭配。"
+    },
+    {
+      "text": "dinner",
+      "role": "主语",
+      "explanation": "指晚餐这件事物，是句子描述的核心对象。"
+    },
+    {
+      "text": "ready",
+      "role": "表语",
+      "explanation": "说明主语的状态，表示已经准备完毕。"
+    },
+    {
+      "text": "Carol",
+      "role": "呼语",
+      "explanation": "点明这句话是对卡罗尔说的称呼。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Is",
+      "meaning": "是（be动词第三人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "dinner",
+      "meaning": "晚餐；晚饭",
+      "pos": "名词",
+      "phonetic": "/ˈdɪnə/"
+    },
+    {
+      "text": "ready,",
+      "meaning": "准备好的",
+      "pos": "形容词",
+      "phonetic": "/ˈredi/"
+    },
+    {
+      "text": "Carol?",
+      "meaning": "卡罗尔（人名）",
+      "pos": "名词",
+      "phonetic": "/ˈkærəl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Is dinner ready,",
+      "meaning": "晚饭准备好了吗",
+      "relation": "句子主干疑问部分，询问晚饭的准备状态"
+    },
+    {
+      "text": "Carol?",
+      "meaning": "卡罗尔？",
+      "relation": "对话呼语，指明这句话的询问对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-81",
+  "sentenceId": "nce-1-lesson-081-sentence-012",
+  "sentenceOrder": 12,
+  "english": "Is dinner ready, Carol?",
+  "lesson": "Lesson 81 Roast beef and potatoes",
+  "notes": [
+    {
+      "title": "一般疑问句构成",
+      "text": "把be动词Is放到主语dinner前面，就可以构成对状态的提问；ready作为表语，直接说明主语所处的状态。"
+    },
+    {
+      "title": "呼语的位置",
+      "text": "Carol是说话人对对话对象的称呼，放在句末用逗号隔开，不参与句子主干的主谓结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：各字段语义、句法关系、语音标注均与原文一致，无需进行结构性修正，仅需对单词标注做细节优化。（非逐句人工审核）"
+}

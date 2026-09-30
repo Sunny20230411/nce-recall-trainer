@@ -1,0 +1,166 @@
+{
+  "chinese": "上星期三，我去树林散步。",
+  "intent": "陈述上个周三自己去树林散步这件事，作为后文描述所见景象的背景铺垫。",
+  "comparison": {
+    "chinese": "中文可以顺着时间、地点、动作依次表达：上星期三、去树林、散步。",
+    "english": "英文先把时间状语 Last Wednesday 放句首，主干 I went for a walk 表示“我去散步”，再用 in the woods 补充地点。",
+    "steps": [
+      {
+        "label": "时间位置",
+        "text": "Last Wednesday 放在句首作时间状语。",
+        "explanation": "它直接交代事件发生的时间，与中文“上星期三”的语序接近。"
+      },
+      {
+        "label": "动作主干",
+        "text": "I went for a walk 是固定搭配，表示“我去散步”。",
+        "explanation": "went for a walk 是习语化表达，不能逐字译成“去为了一次步行”。"
+      },
+      {
+        "label": "地点后置",
+        "text": "in the woods 放在句末，说明散步发生的地点。",
+        "explanation": "中文常说“在树林里散步”，英文则把地点补在主干之后。"
+      }
+    ],
+    "takeaway": "先掌握 I went for a walk 这个习语主干，再用 Last Wednesday 看时间、in the woods 看地点，避免逐词硬译。"
+  },
+  "backbone": {
+    "text": "I went for a walk in the woods.",
+    "meaning": "我在树林里散步。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语前置",
+      "text": "Last Wednesday 整体放在句首，明确整个动作发生的时间，和后文描述所见场景的叙事顺序一致。"
+    },
+    {
+      "title": "地点后置补充",
+      "text": "in the woods 放在动作主干之后，说明散步的场所，不改变“去散步”的核心意思。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Last Wednesday,",
+      "role": "时间状语",
+      "explanation": "交代去散步这件事发生在上个星期三。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "发出“去散步”这个动作的人。"
+    },
+    {
+      "text": "went for a walk",
+      "role": "谓语（固定表达）",
+      "explanation": "表示“去散步”的完整动作，是句子的核心表意部分。"
+    },
+    {
+      "text": "in the woods.",
+      "role": "地点状语",
+      "explanation": "说明散步这个动作发生在树林里。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Last",
+      "meaning": "上一个的；刚过去的",
+      "pos": "形容词",
+      "phonetic": "/lɑːst/"
+    },
+    {
+      "text": "Wednesday,",
+      "meaning": "星期三",
+      "pos": "名词",
+      "phonetic": "/ˈwenzdeɪ/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "went",
+      "meaning": "去（go 的过去式）",
+      "pos": "动词",
+      "phonetic": "/went/"
+    },
+    {
+      "text": "for",
+      "meaning": "为了；这里是 go for a walk 固定搭配的一部分",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（次）",
+      "pos": "冠词",
+      "phonetic": "/ə; eɪ/"
+    },
+    {
+      "text": "walk",
+      "meaning": "步行；散步",
+      "pos": "名词",
+      "phonetic": "/wɔːk/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（指双方都知道的树林）",
+      "pos": "冠词",
+      "phonetic": "/ðə; ði/"
+    },
+    {
+      "text": "woods.",
+      "meaning": "树林；林地",
+      "pos": "名词",
+      "phonetic": "/wʊdz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Last Wednesday,",
+      "relation": "动作发生的时间背景",
+      "meaning": "上星期三，"
+    },
+    {
+      "text": "I",
+      "relation": "动作的发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "went for a walk",
+      "relation": "核心动作",
+      "meaning": "去散步"
+    },
+    {
+      "text": "in the woods.",
+      "relation": "说明散步的地点",
+      "meaning": "在树林里"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-143",
+  "sentenceId": "nce-1-lesson-143-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Last Wednesday, I went for a walk in the woods.",
+  "lesson": "Lesson 143 A walk through the woods",
+  "notes": [
+    {
+      "title": "时间状语前置",
+      "text": "Last Wednesday 整体放在句首，明确整个动作发生的时间，和后文描述所见场景的叙事顺序一致。"
+    },
+    {
+      "title": "地点后置补充",
+      "text": "in the woods 放在动作主干之后，说明散步的场所，不改变“去散步”的核心意思。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体符合文本事实与语境，词义、句法关系和主干说明均无明显错误。仅需补充分词释义、补充短语习语说明并微调比较解释，使学习者能更准确地区分字面翻译与实际搭配。（非逐句人工审核）"
+}

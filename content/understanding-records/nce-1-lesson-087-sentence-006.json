@@ -1,0 +1,105 @@
+{
+  "chinese": "啊，是的，我现在想起来了。",
+  "intent": "说话人通过语气词呼应先前的相关线索，最终确认自己记起了和车有关的往事。",
+  "comparison": null,
+  "backbone": {
+    "text": "I remember.",
+    "meaning": "我记起来了。"
+  },
+  "structureNotes": [
+    {
+      "title": "句首语气独立成分",
+      "text": "Ah yes 是放在句首的感叹类成分，表达说话人恍然大悟的情绪，不充当句子的主谓核心成分，单独传达恍然确认的语气。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "时间状语 now 放在句末，点明“记起来”这个动作发生的当下时间节点，不改变句子主干。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Ah yes,",
+      "role": "感叹语",
+      "explanation": "放在句首表达恍然大悟的语气，不充当句子的主谓核心成分。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人本人，是句子动作的发出者。"
+    },
+    {
+      "text": "remember",
+      "role": "谓语",
+      "explanation": "表示“想起、记起”的动作，是句子的核心动词。"
+    },
+    {
+      "text": "now.",
+      "role": "时间状语",
+      "explanation": "修饰谓语 remember，说明动作发生在当下这个时间点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Ah",
+      "meaning": "啊",
+      "pos": "感叹词",
+      "phonetic": "/ɑː/"
+    },
+    {
+      "text": "yes,",
+      "meaning": "对，没错（也可译作：是的）",
+      "pos": "感叹词",
+      "phonetic": "/jes/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "remember",
+      "meaning": "想起，记起",
+      "pos": "动词",
+      "phonetic": "/rɪˈmembə/"
+    },
+    {
+      "text": "now.",
+      "meaning": "现在",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Ah yes,",
+      "meaning": "啊，对，没错",
+      "relation": "语气成分"
+    },
+    {
+      "text": "I remember now.",
+      "meaning": "我现在想起来了。",
+      "relation": "主句"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-87",
+  "sentenceId": "nce-1-lesson-087-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Ah yes, I remember now.",
+  "lesson": "Lesson 87 A car crash",
+  "notes": [
+    {
+      "title": "句首语气独立成分",
+      "text": "Ah yes 是放在句首的感叹类成分，表达说话人恍然大悟的情绪，不充当句子的主谓核心成分，单独传达恍然确认的语气。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "时间状语 now 放在句末，点明“记起来”这个动作发生的当下时间节点，不改变句子主干。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构划分、主干提取、翻译和释义准确，仅对yes的语义释义做精细化优化，将更适用于场景的“对，没错”作为首含义，兼顾“是的”的释义，无其他结构性错误。（非逐句人工审核）"
+}

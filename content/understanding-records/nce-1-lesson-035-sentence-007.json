@@ -1,0 +1,97 @@
+{
+  "chinese": "我们在左边。",
+  "intent": "说明说话者一行人所处的具体方位，交代当前相对于河岸路径的位置状态。",
+  "backbone": {
+    "text": "We are on the left.",
+    "meaning": "我们处于左侧的位置。"
+  },
+  "parts": [
+    {
+      "text": "We",
+      "relation": "描述谁",
+      "meaning": "我们，指代说话人和同行的人"
+    },
+    {
+      "text": "are",
+      "relation": "说明主语的存在状态",
+      "meaning": "处于，是"
+    },
+    {
+      "text": "on the left.",
+      "relation": "补充说明所处的具体位置",
+      "meaning": "在左边的方位上"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "方位表达逻辑",
+      "text": "本句不用动词直接表示位置，通过be动词搭配介词短语on the left就可以清晰说明主体所处的方位，省略额外的动作描述。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We",
+      "role": "主语",
+      "explanation": "指明要描述状态的主体，也就是说话者一行人。"
+    },
+    {
+      "text": "are",
+      "role": "系动词",
+      "explanation": "连接主语和后续的方位描述，说明主语的存在状态。"
+    },
+    {
+      "text": "on the left",
+      "role": "表语方位短语",
+      "explanation": "说明主语当下所在的具体方位，传递位置信息。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/",
+      "text": "We"
+    },
+    {
+      "meaning": "处于，是",
+      "pos": "系动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "在……之上",
+      "pos": "介词",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "这个，定冠词",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "左边，左侧",
+      "pos": "名词",
+      "phonetic": "/left/",
+      "text": "left."
+    }
+  ],
+  "comparison": null,
+  "courseId": "nce1",
+  "lessonId": "lesson-35",
+  "sentenceId": "nce-1-lesson-035-sentence-007",
+  "sentenceOrder": 7,
+  "english": "We are on the left.",
+  "lesson": "Lesson 35 Our village",
+  "notes": [
+    {
+      "title": "方位表达逻辑",
+      "text": "本句不用动词直接表示位置，通过be动词搭配介词短语on the left就可以清晰说明主体所处的方位，省略额外的动作描述。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本合规，仅存在少量细节疏漏可明确修正，不影响核心语义理解（非逐句人工审核）"
+}

@@ -1,0 +1,105 @@
+{
+  "chinese": "让我看看，迈克。",
+  "intent": "交际中请求对方把此前提到的照片递过来，以便自己查看。",
+  "comparison": null,
+  "backbone": {
+    "text": "Let me see it",
+    "meaning": "请（你）让我看一下它。"
+  },
+  "structureNotes": [
+    {
+      "title": "Let的祈使用法",
+      "text": "这是以Let开头的祈使句，用于礼貌请求允许自己做某事，不是命令对方做别的事。"
+    },
+    {
+      "title": "it的指代",
+      "text": "it指代前一句提到的photograph；Mike是句末呼语，称呼听话人，不参与主句核心结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Let me",
+      "role": "祈使引导部分",
+      "explanation": "Let为使役动词，me是Let的宾语，引出请求的动作主体。"
+    },
+    {
+      "text": "see it",
+      "role": "不带to的不定式补语",
+      "explanation": "补充说明me要执行的动作，it指代前文提到的照片。"
+    },
+    {
+      "text": "Mike",
+      "role": "呼语",
+      "explanation": "称呼对话的对方。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Let",
+      "meaning": "使让（用于祈使）",
+      "pos": "使役动词",
+      "phonetic": "/let/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词（宾格）",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "see",
+      "meaning": "看、查看",
+      "pos": "动词",
+      "phonetic": "/siː/"
+    },
+    {
+      "text": "it,",
+      "meaning": "它（指那张照片）；后接逗号表示停顿",
+      "pos": "代词；附带句内标点",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "Mike.",
+      "meaning": "迈克（人名）；后接句号表示句子结束",
+      "pos": "名词；附带句末标点",
+      "phonetic": "/maɪk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Let me see",
+      "relation": "提出请求的核心表达",
+      "meaning": "让我看看"
+    },
+    {
+      "text": "it,",
+      "relation": "动作的对象",
+      "meaning": "它（指那张照片）"
+    },
+    {
+      "text": "Mike.",
+      "relation": "称呼对话的对方",
+      "meaning": "迈克。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-123",
+  "sentenceId": "nce-1-lesson-123-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Let me see it, Mike.",
+  "lesson": "Lesson 123 A trip to Australia",
+  "notes": [
+    {
+      "title": "Let的祈使用法",
+      "text": "这是以Let开头的祈使句，用于礼貌请求允许自己做某事，不是命令对方做别的事。"
+    },
+    {
+      "title": "it的指代",
+      "text": "it指代前一句提到的photograph；Mike是句末呼语，称呼听话人，不参与主句核心结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合该句的交际功能与语法结构，主干、词块关系、呼语说明和 it 的指代均正确。仅需要把词表中已含标点的条目里的词性表述改为更规范的分类标签，避免把标点直接写成“标点”词性。（非逐句人工审核）"
+}

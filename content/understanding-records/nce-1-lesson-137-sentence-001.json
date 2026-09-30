@@ -1,0 +1,127 @@
+{
+  "chinese": "布赖恩，你在填足球彩票吗？",
+  "intent": "向对话对象布赖恩确认他当下是否正在参与足球彩票投注/填写的当下状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "Are you doing the football pools?",
+    "meaning": "询问对方当下是否正在填写足球彩票。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在进行时一般疑问句的构成",
+      "text": "本句为现在进行时的一般疑问句，将be动词Are提前至句首，后接主语you，再衔接现在分词doing，用来询问当下正在进行的动作。"
+    },
+    {
+      "title": "呼语的位置作用",
+      "text": "句末的Brian是呼语，用来明确对话的对象，英文中这类人名呼语可以放在句末，不影响句子主干的疑问结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Are",
+      "role": "助动词（现在进行时）",
+      "explanation": "放在句首，帮助构成现在进行时的一般疑问句，无实义，同时标识句子为疑问语气。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指代对话对象布赖恩，是句子询问的动作发出者。"
+    },
+    {
+      "text": "doing",
+      "role": "谓语核心（现在分词）",
+      "explanation": "和Are配合构成现在进行时，表示当下正在进行的动作，此处意为“填写、参与（彩票投注）”。"
+    },
+    {
+      "text": "the football pools",
+      "role": "宾语",
+      "explanation": "是动作doing的对象，指足球胜负彩这类博彩活动。"
+    },
+    {
+      "text": "Brian?",
+      "role": "呼语",
+      "explanation": "点明对话对象是布赖恩，和主干疑问结构相互独立。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Are",
+      "meaning": "是（be动词第二人称单数现在时形式）",
+      "pos": "v.（助动词）",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "pron.",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "doing",
+      "meaning": "做，从事（此处指填写彩票、参与投注）",
+      "pos": "v.（现在分词）",
+      "phonetic": "/ˈduːɪŋ/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，无实义，表特指）",
+      "pos": "art.",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "football",
+      "meaning": "足球",
+      "pos": "n.（定语）",
+      "phonetic": "/ˈfʊtbɔːl/"
+    },
+    {
+      "text": "pools,",
+      "meaning": "足球彩票，足球胜负博彩（常用复数 pools 指足球胜负彩）",
+      "pos": "n.",
+      "phonetic": "/puːlz/"
+    },
+    {
+      "text": "Brian?",
+      "meaning": "布赖恩（男子名，呼语）",
+      "pos": "n.（呼语）",
+      "phonetic": "/ˈbraɪən/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Are you doing",
+      "relation": "构成现在进行时疑问的主谓框架，标记询问的核心动作对象。",
+      "meaning": "你正在做……吗"
+    },
+    {
+      "text": "the football pools,",
+      "relation": "是动作doing的具体对象，说明填写的内容。",
+      "meaning": "足球彩票"
+    },
+    {
+      "text": "Brian?",
+      "relation": "点明对话的接收对象。",
+      "meaning": "布赖恩？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-137",
+  "sentenceId": "nce-1-lesson-137-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Are you doing the football pools, Brian?",
+  "lesson": "Lesson 137 A pleasant dream",
+  "notes": [
+    {
+      "title": "现在进行时一般疑问句的构成",
+      "text": "本句为现在进行时的一般疑问句，将be动词Are提前至句首，后接主语you，再衔接现在分词doing，用来询问当下正在进行的动作。"
+    },
+    {
+      "title": "呼语的位置作用",
+      "text": "句末的Brian是呼语，用来明确对话的对象，英文中这类人名呼语可以放在句末，不影响句子主干的疑问结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构、时态与语境解释基本可用；两处需要明确的是：词表中 pools 后误带逗号、Brian 后误带问号，词块应与正文中的单词 token 一致；其余部分忠实于原文且无关键语法错误。（非逐句人工审核）"
+}

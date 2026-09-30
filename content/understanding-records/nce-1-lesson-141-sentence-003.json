@@ -1,0 +1,187 @@
+{
+  "chinese": "萨莉非常兴奋，因为她以前从未坐过火车。",
+  "intent": "解释萨莉首次坐火车时情绪兴奋的原因。",
+  "comparison": {
+    "chinese": "中文把原因放在结果之后：先说明萨莉很兴奋，再补充她此前从未有过坐火车的经历。",
+    "english": "英文先给出结果主句Sally was very excited，再用because引导原因从句说明情绪的由来。",
+    "steps": [
+      {
+        "label": "结果主句",
+        "text": "Sally was very excited",
+        "explanation": "was是be动词的过去式，搭配excited（兴奋的）构成主系表结构，very修饰excited，说明兴奋的程度。"
+      },
+      {
+        "label": "原因从句",
+        "text": "because she had never travelled on a train before",
+        "explanation": "because引出原因，had travelled是过去完成时，never表示从未，on a train表示交通方式，before说明此前从未有过该经历。"
+      }
+    ],
+    "takeaway": "用because连接结果与原因，主从句时态形成呼应：主句描述当时的情绪，从句说明此前从未发生过的经历。"
+  },
+  "backbone": {
+    "text": "Sally was excited because she had never travelled on a train.",
+    "meaning": "萨莉很兴奋，因为她此前从未坐过火车。"
+  },
+  "structureNotes": [
+    {
+      "title": "because引导原因状语从句",
+      "text": "because是连词，连接主句和从句，直接说明情绪产生的原因，位置可以在主句之后。"
+    },
+    {
+      "title": "过去完成时的用法",
+      "text": "had never travelled表示在过去的动作（兴奋）发生之前，从未有过坐火车的经历，强调时间上的先后顺序。"
+    },
+    {
+      "title": "on a train的搭配",
+      "text": "表示乘坐火车出行时，常用介词on搭配a train，相当于by train，更强调身处火车上的状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Sally was very excited",
+      "role": "主句",
+      "explanation": "主系表结构，Sally是主语，was是be动词，excited是表语，very修饰excited说明程度。"
+    },
+    {
+      "text": "because she had never travelled on a train before",
+      "role": "原因状语从句",
+      "explanation": "because引导原因状语，说明萨莉兴奋的原因；had never travelled是过去完成时结构，before表示“此前、以前”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Sally",
+      "meaning": "萨莉（人名）",
+      "pos": "名词",
+      "phonetic": "/ˈsæli/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be动词的过去式，与主语搭配）",
+      "pos": "be动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "excited",
+      "meaning": "兴奋的",
+      "pos": "形容词",
+      "phonetic": "/ɪkˈsaɪtɪd/"
+    },
+    {
+      "text": "because",
+      "meaning": "因为",
+      "pos": "连词",
+      "phonetic": "/bɪˈkɒz/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词（主格）",
+      "phonetic": "/ʃi:/"
+    },
+    {
+      "text": "had",
+      "meaning": "已经（have的过去式，构成完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "never",
+      "meaning": "从未",
+      "pos": "副词",
+      "phonetic": "/ˈnevə(r)/"
+    },
+    {
+      "text": "travelled",
+      "meaning": "旅行、出行",
+      "pos": "动词（过去分词）",
+      "phonetic": "/ˈtrævld/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……之上（表示乘坐交通工具）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一辆",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "train",
+      "meaning": "火车",
+      "pos": "名词",
+      "phonetic": "/treɪn/"
+    },
+    {
+      "text": "before.",
+      "meaning": "以前、从前",
+      "pos": "副词",
+      "phonetic": "/bɪˈfɔː(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Sally was",
+      "meaning": "萨莉是",
+      "relation": "主句主语与be动词"
+    },
+    {
+      "text": "very excited",
+      "meaning": "非常兴奋",
+      "relation": "描述萨莉的情绪状态"
+    },
+    {
+      "text": "because",
+      "meaning": "因为",
+      "relation": "连接原因与结果"
+    },
+    {
+      "text": "she had never travelled",
+      "meaning": "她从未出行过（过去完成时结构）",
+      "relation": "原因从句的主语与谓语"
+    },
+    {
+      "text": "on a train",
+      "meaning": "在火车上",
+      "relation": "补充出行的交通方式"
+    },
+    {
+      "text": "before.",
+      "meaning": "以前。",
+      "relation": "补充说明从未出行的时间范围"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-141",
+  "sentenceId": "nce-1-lesson-141-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Sally was very excited because she had never travelled on a train before.",
+  "lesson": "Lesson 141 Sally's first train ride",
+  "notes": [
+    {
+      "title": "because引导原因状语从句",
+      "text": "because是连词，连接主句和从句，直接说明情绪产生的原因，位置可以在主句之后。"
+    },
+    {
+      "title": "过去完成时的用法",
+      "text": "had never travelled表示在过去的动作（兴奋）发生之前，从未有过坐火车的经历，强调时间上的先后顺序。"
+    },
+    {
+      "title": "on a train的搭配",
+      "text": "表示乘坐火车出行时，常用介词on搭配a train，相当于by train，更强调身处火车上的状态。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确，但存在两处需要修正的细节：一是单词travelled的音标不符合英式发音规则，英式英语中travelled发音为/ˈtrævld/，原/ˈtrævəld/多出了多余的/ə/音；二是单词词条before的text误带了句末句号，应与其他单词词条一致去掉标点。（非逐句人工审核）"
+}

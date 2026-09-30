@@ -1,0 +1,207 @@
+{
+  "chinese": "桑德拉，这是给你的一封信。我要你重新打一遍。",
+  "intent": "向同事桑德拉递上信件，并要求她重新打字处理，点明信件归属与后续工作要求。",
+  "comparison": {
+    "chinese": "中文的中文表达顺序为“呼唤对象→说明归属→提出任务”。",
+    "english": "英文原句顺序为“Sandra, here's a letter for you. I want you to type it again.”",
+    "steps": [
+      {
+        "label": "开头呼语",
+        "text": "Sandra,",
+        "explanation": "先叫出对方名字，明确后续内容的接收对象，和中文呼语前置的习惯完全一致。"
+      },
+      {
+        "label": "归属说明",
+        "text": "here's a letter for you",
+        "explanation": "用倒装把“here's（这是）”提前引出物品，再说明物品是给你的；中文习惯先点出物品“这是一封信”，再用“给你的”说明归属。"
+      },
+      {
+        "label": "任务要求",
+        "text": "I want you to type it again",
+        "explanation": "用I want you to表达要求，直接点出对象和动作要求，it指代前面刚提到的letter，形成前后自然衔接。"
+      }
+    ],
+    "takeaway": "英文用here's倒装引出递出的物品，后续要求里的代词直接承接前文刚出现的名词，逻辑衔接自然，不需要额外重复名词。"
+  },
+  "backbone": {
+    "text": "Here's a letter for you. I want you to type it again.",
+    "meaning": "这是给你的信，我要你重新打一遍。"
+  },
+  "structureNotes": [
+    {
+      "title": "倒装结构here's",
+      "text": "here's是here is的缩写，是将地点副词here提前形成的倒装结构，作用是引出当下递出的物品，日常口语中用于交付物品时非常自然。"
+    },
+    {
+      "title": "动词want的复合宾语结构",
+      "text": "want后面接宾语you，再用带to的不定式to type it again补充说明对宾语提出的具体动作要求，即“要求某人做某事”的结构，清晰表达指令。"
+    },
+    {
+      "title": "代词it的指代",
+      "text": "后半句中的it是代词，指代前一句刚提到的a letter，避免重复名词，让句子更简洁连贯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Sandra,",
+      "role": "呼语",
+      "explanation": "放在句首直接称呼对话对象桑德拉，明确话语的接收人。"
+    },
+    {
+      "text": "here's",
+      "role": "倒装引导语",
+      "explanation": "here's是here is的口语缩写形式，用于引出当前出示的物品，构成方位倒装结构，符合口语递物的表达习惯。"
+    },
+    {
+      "text": "a letter",
+      "role": "主语",
+      "explanation": "倒装句中的真正主语，指当前递出的信件。"
+    },
+    {
+      "text": "for you",
+      "role": "定语",
+      "explanation": "介词短语修饰a letter，说明这封信是归属桑德拉的。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "第二句的主语，即发出指令的说话人。"
+    },
+    {
+      "text": "want",
+      "role": "谓语动词",
+      "explanation": "表达说话人的意愿和要求，是第二句的核心动词。"
+    },
+    {
+      "text": "you",
+      "role": "宾语",
+      "explanation": "是want的对象，也就是接受指令的人桑德拉。"
+    },
+    {
+      "text": "to type it again",
+      "role": "宾语补足语",
+      "explanation": "补充说明对you提出的具体动作要求：重新把信打一遍。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Sandra,",
+      "meaning": "桑德拉（女子名）",
+      "pos": "名词呼语",
+      "phonetic": "/ˈsɑːndrə/"
+    },
+    {
+      "text": "here's",
+      "meaning": "这是（here is的缩写）",
+      "pos": "缩略语（副词+动词）",
+      "phonetic": "/hɪəz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一封",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "letter",
+      "meaning": "信；信件",
+      "pos": "名词",
+      "phonetic": "/ˈletə(r)/"
+    },
+    {
+      "text": "for",
+      "meaning": "给；为",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "you.",
+      "meaning": "你（宾格）",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "I",
+      "meaning": "我（主格）",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要；要求",
+      "pos": "动词",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "you",
+      "meaning": "你（宾格）",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "to",
+      "meaning": "不定式符号（无实义）",
+      "pos": "小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "type",
+      "meaning": "（用打字机或电脑）打字",
+      "pos": "动词",
+      "phonetic": "/taɪp/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代前文中的信件）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "again.",
+      "meaning": "再一次；重新",
+      "pos": "副词",
+      "phonetic": "/əˈɡen/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Sandra,",
+      "relation": "呼语，点明对话对象。",
+      "meaning": "桑德拉，"
+    },
+    {
+      "text": "here's a letter for you.",
+      "relation": "引出递出的物品，说明信件归属桑德拉。",
+      "meaning": "这是给你的一封信。"
+    },
+    {
+      "text": "I want you to type it again.",
+      "relation": "提出对桑德拉的具体工作要求，it指代前文中的信件。",
+      "meaning": "我要你重新打一遍。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-105",
+  "sentenceId": "nce-1-lesson-105-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Sandra, here's a letter for you. I want you to type it again.",
+  "lesson": "Lesson 105 Full of mistakes",
+  "notes": [
+    {
+      "title": "倒装结构here's",
+      "text": "here's是here is的缩写，是将地点副词here提前形成的倒装结构，作用是引出当下递出的物品，日常口语中用于交付物品时非常自然。"
+    },
+    {
+      "title": "动词want的复合宾语结构",
+      "text": "want后面接宾语you，再用带to的不定式to type it again补充说明对宾语提出的具体动作要求，即“要求某人做某事”的结构，清晰表达指令。"
+    },
+    {
+      "title": "代词it的指代",
+      "text": "后半句中的it是代词，指代前一句刚提到的a letter，避免重复名词，让句子更简洁连贯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体翻译、句子结构、词汇与语块分析准确，仅here's的音标不符合英式发音规范，修正该错误即可。（非逐句人工审核）"
+}

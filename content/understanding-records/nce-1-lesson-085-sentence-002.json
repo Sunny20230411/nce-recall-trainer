@@ -1,0 +1,85 @@
+{
+  "chinese": "是的，去过。",
+  "intent": "用简短肯定回答确认前面“是否刚去过电影院”的提问。",
+  "comparison": null,
+  "backbone": {
+    "text": "I have.",
+    "meaning": "我刚去过（电影院）。"
+  },
+  "structureNotes": [
+    {
+      "title": "简略肯定回答",
+      "text": "Yes, I have. 省略了 have just been to the cinema，其中 have 代替前面疑问句中已出现的现在完成时谓语部分，不把 have 单独翻译成“有”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "肯定应答语",
+      "explanation": "明确对前面一般疑问句给出肯定态度，起到收束提问的作用。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代对话中的答话人，说明是“我”刚去过电影院。"
+    },
+    {
+      "text": "have.",
+      "role": "现在完成时简略谓语",
+      "explanation": "替代前面提问中的完整谓语 have just been to the cinema，避免重复表述。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是的",
+      "pos": "感叹词",
+      "phonetic": "/jes/",
+      "text": "Yes,"
+    },
+    {
+      "meaning": "我",
+      "pos": "代词主格",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "已经（代替前问的完整现在完成时谓语）",
+      "pos": "助动词",
+      "phonetic": "/hæv/",
+      "text": "have."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes,",
+      "relation": "应答标记",
+      "meaning": "是的"
+    },
+    {
+      "text": "I",
+      "relation": "回答的主体",
+      "meaning": "我"
+    },
+    {
+      "text": "have.",
+      "relation": "确认去过电影院这件事",
+      "meaning": "去过（替代完整谓语）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-85",
+  "sentenceId": "nce-1-lesson-085-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Yes, I have.",
+  "lesson": "Lesson 85 Paris in the spring",
+  "notes": [
+    {
+      "title": "简略肯定回答",
+      "text": "Yes, I have. 省略了 have just been to the cinema，其中 have 代替前面疑问句中已出现的现在完成时谓语部分，不把 have 单独翻译成“有”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体准确解释了 Yes, I have. 作为现在完成时简略肯定回答的用法，正确指出 have 替代前文完整谓语、不单独翻译为“有”。仅需统一对话人称指代，避免混淆提问方与回答方。（非逐句人工审核）"
+}

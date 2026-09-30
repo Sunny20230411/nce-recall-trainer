@@ -1,0 +1,80 @@
+{
+  "chinese": "你们是游客吗？",
+  "intent": "向对方确认身份，询问对方是否属于游客群体",
+  "comparison": null,
+  "backbone": {
+    "text": "Are you tourists?",
+    "meaning": "询问对方是否是游客"
+  },
+  "parts": [
+    {
+      "text": "Are",
+      "relation": "引导身份确认的一般疑问的助动词前置成分",
+      "meaning": "是（be动词第二人称复数现在时的疑问引导形式）"
+    },
+    {
+      "text": "you",
+      "relation": "句子的主语，被询问的对象",
+      "meaning": "你们"
+    },
+    {
+      "text": "tourists?",
+      "relation": "句子的表语，描述询问对象的身份属性",
+      "meaning": "游客"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般疑问句结构",
+      "text": "本句是be动词引导的一般疑问句，将be动词Are放在句首，主语you紧随其后，最后接表语tourists，用来向对方确认身份情况。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Are you",
+      "role": "疑问引导部分",
+      "explanation": "由be动词前置加主语构成，用于开启针对对方身份或状态的确认询问"
+    },
+    {
+      "text": "tourists?",
+      "role": "身份表语部分",
+      "explanation": "点明要确认的身份内容，问号标识整句的疑问语气"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "Are"
+    },
+    {
+      "meaning": "你们",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "游客",
+      "pos": "名词（复数）",
+      "phonetic": "/ˈtʊərɪsts/",
+      "text": "tourists?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-15",
+  "sentenceId": "nce-1-lesson-015-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Are you tourists?",
+  "lesson": "Lesson 15 Your passports, please.",
+  "notes": [
+    {
+      "title": "一般疑问句结构",
+      "text": "本句是be动词引导的一般疑问句，将be动词Are放在句首，主语you紧随其后，最后接表语tourists，用来向对方确认身份情况。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，仅存在少量细节可规范修正，不影响核心学习效果（非逐句人工审核）"
+}

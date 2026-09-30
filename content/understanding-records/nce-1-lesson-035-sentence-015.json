@@ -1,0 +1,123 @@
+{
+  "chinese": "他们中的一些人正走进公园。",
+  "intent": "描述部分人群当下正在朝着公园内部移动的动作状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "Some of them are going into the park.",
+    "meaning": "他们中的一些人正走进公园。"
+  },
+  "parts": [
+    {
+      "text": "Some of them",
+      "relation": "动作的执行者（主语）",
+      "meaning": "他们中的一些人"
+    },
+    {
+      "text": "are going",
+      "relation": "说明正在进行的进入动作",
+      "meaning": "正走进"
+    },
+    {
+      "text": "into the park.",
+      "relation": "补充动作的目标地点",
+      "meaning": "公园"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "现在进行时表达",
+      "text": "are going 在这里不表示远途出行，搭配方向介词into用来描述当下正朝着地点内部移动的持续动作。"
+    },
+    {
+      "title": "Some of them的指代",
+      "text": "这个短语直接承接前一句提到的孩子们，明确指代其中的一部分人，不需要额外重复完整的名词主语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Some of them",
+      "role": "主语",
+      "explanation": "说明执行走进公园动作的主体，指代前文提到的部分孩子"
+    },
+    {
+      "text": "are going",
+      "role": "谓语",
+      "explanation": "现在进行时的动词搭配，体现动作当下正在发生的状态"
+    },
+    {
+      "text": "into the park",
+      "role": "地点状语",
+      "explanation": "说明移动的方向是进入公园内部，明确动作的目标场所"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "一些",
+      "pos": "代词",
+      "phonetic": "/sʌm/",
+      "text": "Some"
+    },
+    {
+      "meaning": "……之中的一部分",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "他们/她们/它们",
+      "pos": "代词",
+      "phonetic": "/ðəm/",
+      "text": "them"
+    },
+    {
+      "meaning": "助动词（构成现在进行时）",
+      "pos": "助动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "去、行进",
+      "pos": "动词",
+      "phonetic": "/ˈɡəʊɪŋ/",
+      "text": "going"
+    },
+    {
+      "meaning": "到……里面",
+      "pos": "介词",
+      "phonetic": "/ˈɪntuː/",
+      "text": "into"
+    },
+    {
+      "meaning": "这个、那个（定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "公园",
+      "pos": "名词",
+      "phonetic": "/pɑːk/",
+      "text": "park."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-35",
+  "sentenceId": "nce-1-lesson-035-sentence-015",
+  "sentenceOrder": 15,
+  "english": "Some of them are going into the park.",
+  "lesson": "Lesson 35 Our village",
+  "notes": [
+    {
+      "title": "现在进行时表达",
+      "text": "are going 在这里不表示远途出行，搭配方向介词into用来描述当下正朝着地点内部移动的持续动作。"
+    },
+    {
+      "title": "Some of them的指代",
+      "text": "这个短语直接承接前一句提到的孩子们，明确指代其中的一部分人，不需要额外重复完整的名词主语。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合教学要求，仅存在少量细节疏漏可修正（非逐句人工审核）"
+}

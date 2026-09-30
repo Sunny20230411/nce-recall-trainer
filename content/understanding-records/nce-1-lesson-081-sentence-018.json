@@ -1,0 +1,89 @@
+{
+  "chinese": "怎么了，卡罗尔？",
+  "intent": "看到对方状态不对，开口询问对方发生了什么状况、遇到了什么问题。",
+  "comparison": null,
+  "backbone": {
+    "text": "What's the matter?",
+    "meaning": "发生什么事了？（询问对方遇到了什么状况）"
+  },
+  "structureNotes": [
+    {
+      "title": "称呼语独立于问句主干",
+      "text": "句尾的Carol是被称呼的对象，不参与句子主干的语法构成，只是点明这句话是说给卡罗尔听的，和中文里把人名放在问句前后的用法一致。"
+    },
+    {
+      "title": "matter在这里的词义",
+      "text": "matter在这里是名词化的形容词，表示“麻烦、问题”，What's the matter是固定的日常询问用语，不是“这是什么物质”的字面意思。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's the matter",
+      "role": "问句主干",
+      "explanation": "What's是What is的缩写，What在句中作表语，the matter是主语，整体是询问发生了什么问题的固定表达。"
+    },
+    {
+      "text": "Carol",
+      "role": "呼语",
+      "explanation": "直接点明对话对象是卡罗尔，独立于问句主干之外。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What's",
+      "meaning": "（What's = What is）是什么",
+      "pos": "缩写形式",
+      "phonetic": "/wɒts/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，无实义",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "matter,",
+      "meaning": "麻烦；问题",
+      "pos": "名词化的形容词",
+      "phonetic": "/ˈmætə/"
+    },
+    {
+      "text": "Carol?",
+      "meaning": "卡罗尔（人名）",
+      "pos": "名词",
+      "phonetic": "/ˈkærəl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What's the matter,",
+      "meaning": "怎么了？",
+      "relation": "核心询问内容，是句子的主干"
+    },
+    {
+      "text": "Carol?",
+      "meaning": "卡罗尔？",
+      "relation": "点明对话的对象，是称呼语"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-81",
+  "sentenceId": "nce-1-lesson-081-sentence-018",
+  "sentenceOrder": 18,
+  "english": "What's the matter, Carol?",
+  "lesson": "Lesson 81 Roast beef and potatoes",
+  "notes": [
+    {
+      "title": "称呼语独立于问句主干",
+      "text": "句尾的Carol是被称呼的对象，不参与句子主干的语法构成，只是点明这句话是说给卡罗尔听的，和中文里把人名放在问句前后的用法一致。"
+    },
+    {
+      "title": "matter在这里的词义",
+      "text": "matter在这里是名词化的形容词，表示“麻烦、问题”，What's the matter是固定的日常询问用语，不是“这是什么物质”的字面意思。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体释义、语法结构讲解和主干提取符合本句语境，已正确说明Carol是独立的呼语、matter在本句表示问题/麻烦而非物质。仅两处英文表述需要修正：一是What在语法中的成分应写为表语而非主语；二是matter的词性可更明确为名词化的形容词，避免将the matter误解为普通可数名词。（非逐句人工审核）"
+}

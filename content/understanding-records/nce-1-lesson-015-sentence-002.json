@@ -1,0 +1,111 @@
+{
+  "chinese": "不，我们不是。我们是丹麦人。",
+  "intent": "回应前面询问是否是瑞典人的问题，先给出否定答复，再明确说明自己的国籍是丹麦。",
+  "comparison": null,
+  "backbone": {
+    "text": "No, we aren't. We are Danish.",
+    "meaning": "我们不是（瑞典人），我们的国籍是丹麦。"
+  },
+  "parts": [
+    {
+      "text": "No,",
+      "relation": "直接给出否定答复",
+      "meaning": "不"
+    },
+    {
+      "text": "we aren't.",
+      "relation": "补充说明否定的具体指代，回应前面的一般疑问句",
+      "meaning": "我们不是"
+    },
+    {
+      "text": "We are Danish.",
+      "relation": "进一步补充说明我们的实际国籍身份",
+      "meaning": "我们是丹麦人"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "否定省略",
+      "text": "we aren't 是对前文问句Are you Swedish?的简略否定回答，省略了重复的表语Swedish，避免表达冗余。"
+    },
+    {
+      "title": "国籍表达",
+      "text": "We are Danish直接用形容词指代国籍身份，不需要额外加表示“人”的名词，是场景里常用的简洁说明方式。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "否定应答语",
+      "explanation": "用于直接表明对前文问题的否定态度，开启答复内容"
+    },
+    {
+      "text": "we aren't.",
+      "role": "否定简略分句",
+      "explanation": "承接应答语，完整对应前文的一般疑问句的否定答复，省略重复内容"
+    },
+    {
+      "text": "We are Danish.",
+      "role": "主系表完整分句",
+      "explanation": "明确说明主语的国籍属性，给出准确的补充信息"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "不",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/",
+      "text": "No,"
+    },
+    {
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/",
+      "text": "we"
+    },
+    {
+      "meaning": "不是（are not的缩写）",
+      "pos": "系动词的否定形式",
+      "phonetic": "/ɑːnt/",
+      "text": "aren't."
+    },
+    {
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/",
+      "text": "We"
+    },
+    {
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "丹麦人/丹麦的",
+      "pos": "形容词/名词",
+      "phonetic": "/ˈdeɪnɪʃ/",
+      "text": "Danish."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-15",
+  "sentenceId": "nce-1-lesson-015-sentence-002",
+  "sentenceOrder": 2,
+  "english": "No, we aren't. We are Danish.",
+  "lesson": "Lesson 15 Your passports, please.",
+  "notes": [
+    {
+      "title": "否定省略",
+      "text": "we aren't 是对前文问句Are you Swedish?的简略否定回答，省略了重复的表语Swedish，避免表达冗余。"
+    },
+    {
+      "title": "国籍表达",
+      "text": "We are Danish直接用形容词指代国籍身份，不需要额外加表示“人”的名词，是场景里常用的简洁说明方式。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体符合面向中文母语成年人的英语解析要求，仅存在局部细节表述不准确和comparison字段缺失的可修正问题，不影响核心语义理解（非逐句人工审核）"
+}

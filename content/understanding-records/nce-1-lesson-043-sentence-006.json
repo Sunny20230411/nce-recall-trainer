@@ -1,0 +1,98 @@
+{
+  "chinese": "它在那边，茶壶后面。",
+  "intent": "明确告知茶所在的具体位置，用来回应前面询问茶在哪里的问题。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's over there",
+    "meaning": "它在那边"
+  },
+  "parts": [
+    {
+      "text": "It's",
+      "relation": "指代前文提到的茶，作为描述的主体",
+      "meaning": "它是/它在"
+    },
+    {
+      "text": "over there,",
+      "relation": "补充说明主体所处的大致方位",
+      "meaning": "在那边"
+    },
+    {
+      "text": "behind the teapot.",
+      "relation": "进一步补充精准位置，说明主体在大致方位内的具体落点",
+      "meaning": "在茶壶的后面"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "方位补充说明",
+      "text": "句末的behind the teapot是方位短语，直接补充说明前面的over there，把笼统的“那边”细化成茶壶后方的具体位置，不需要额外加连接词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's over there",
+      "role": "主句核心",
+      "explanation": "先点明事物的大致所在位置，传递基础位置信息"
+    },
+    {
+      "text": "behind the teapot",
+      "role": "后置方位修饰短语",
+      "explanation": "追加更精准的位置描述，帮听者快速定位到目标事物"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "它是/它在",
+      "pos": "contraction",
+      "phonetic": "/ɪts/",
+      "text": "It's"
+    },
+    {
+      "meaning": "在（某处）",
+      "pos": "preposition",
+      "phonetic": "/ˈəʊvə/",
+      "text": "over"
+    },
+    {
+      "meaning": "那里",
+      "pos": "adverb",
+      "phonetic": "/ðeə/",
+      "text": "there,"
+    },
+    {
+      "meaning": "在……后面",
+      "pos": "preposition",
+      "phonetic": "/bɪˈhaɪnd/",
+      "text": "behind"
+    },
+    {
+      "meaning": "这个/那个",
+      "pos": "determiner",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "茶壶",
+      "pos": "noun",
+      "phonetic": "/ˈtiːpɒt/",
+      "text": "teapot."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-43",
+  "sentenceId": "nce-1-lesson-043-sentence-006",
+  "sentenceOrder": 6,
+  "english": "It's over there, behind the teapot.",
+  "lesson": "Lesson 43 Hurry up!",
+  "notes": [
+    {
+      "title": "方位补充说明",
+      "text": "句末的behind the teapot是方位短语，直接补充说明前面的over there，把笼统的“那边”细化成茶壶后方的具体位置，不需要额外加连接词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本合规，仅存在部分细节表述、音标标注、comparison字段缺失的可修正问题，不影响核心语义理解，可补充完善。（非逐句人工审核）"
+}

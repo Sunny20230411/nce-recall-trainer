@@ -1,0 +1,105 @@
+{
+  "chinese": "上楼来看看吧。",
+  "intent": "发出邀请，让对方上楼去查看某个之前提到的物品。",
+  "comparison": null,
+  "backbone": {
+    "text": "Come upstairs and see it.",
+    "meaning": "上楼并查看它。"
+  },
+  "parts": [
+    {
+      "text": "Come upstairs",
+      "relation": "告知要求执行的第一个动作",
+      "meaning": "上楼来"
+    },
+    {
+      "text": "and",
+      "relation": "用来连接前后两个先后承接的动作",
+      "meaning": "然后、并且"
+    },
+    {
+      "text": "see it.",
+      "relation": "告知要求执行的第二个动作",
+      "meaning": "看看它"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "祈使句的并列用法",
+      "text": "这是一句祈使句，以动词原形开头直接发出指令，用and连接两个先后的动作，表示做完前一个动作就接着做后一个动作。"
+    },
+    {
+      "title": "it的指代关系",
+      "text": "句尾的it指代前文刚提到的那件绿色的新连衣裙，不需要额外说明具体名称，对话双方都清楚指代的对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Come upstairs",
+      "role": "祈使句起始谓语部分",
+      "explanation": "以动词原形开头，直接向听话人发出上楼的动作指令。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个动作，体现动作之间先后承接的逻辑关系。"
+    },
+    {
+      "text": "see it",
+      "role": "后续谓语部分",
+      "explanation": "承接前一个指令，要求听话人完成上楼后接着执行查看物品的动作。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "来，过来",
+      "pos": "动词",
+      "phonetic": "/kʌm/",
+      "text": "Come"
+    },
+    {
+      "meaning": "往楼上，在楼上",
+      "pos": "副词",
+      "phonetic": "/ˌʌpˈsteəz/",
+      "text": "upstairs"
+    },
+    {
+      "meaning": "和，然后",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "看，查看",
+      "pos": "动词",
+      "phonetic": "/siː/",
+      "text": "see"
+    },
+    {
+      "meaning": "它（指代前文提到的绿色物品，本课语境下为新连衣裙）",
+      "pos": "代词",
+      "phonetic": "/ɪt/",
+      "text": "it."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-13",
+  "sentenceId": "nce-1-lesson-013-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Come upstairs and see it.",
+  "lesson": "Lesson 13 A new dress",
+  "notes": [
+    {
+      "title": "祈使句的并列用法",
+      "text": "这是一句祈使句，以动词原形开头直接发出指令，用and连接两个先后的动作，表示做完前一个动作就接着做后一个动作。"
+    },
+    {
+      "title": "it的指代关系",
+      "text": "句尾的it指代前文刚提到的那件绿色的新连衣裙，不需要额外说明具体名称，对话双方都清楚指代的对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体合规，仅存在局部细节偏差，可明确修正（非逐句人工审核）"
+}

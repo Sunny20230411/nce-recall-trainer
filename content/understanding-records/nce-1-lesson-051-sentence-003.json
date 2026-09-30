@@ -1,0 +1,156 @@
+{
+  "chinese": "你们国家的气候怎么样？",
+  "intent": "向对方询问其所在国家的气候状况如何。",
+  "comparison": {
+    "chinese": "你所在国家的气候怎么样？",
+    "english": "What's the climate like in your country?",
+    "steps": [
+      {
+        "label": "先确定被描述对象",
+        "text": "the climate",
+        "explanation": "先说清楚要讨论的主体是“气候”，be动词提前构成疑问语序，表达“气候是……样的”。"
+      },
+      {
+        "label": "再接疑问引导和状态描述",
+        "text": "What's ... like",
+        "explanation": "用what提问具体状态，like在这里是介词，和be like搭配表示“是什么样的”，整体就是在问气候的具体情形。"
+      },
+      {
+        "label": "最后补充限定范围",
+        "text": "in your country",
+        "explanation": "用介词短语说明这个气候描述是针对“你们国家”的，不是其他地区。"
+      }
+    ],
+    "takeaway": "be like固定搭配专门用来询问人/事物的性质、状态、外貌等具体情况，不是“喜欢”的意思。"
+  },
+  "backbone": {
+    "text": "What's the climate like?",
+    "meaning": "询问气候是什么样的。"
+  },
+  "structureNotes": [
+    {
+      "title": "What's ... like 句式",
+      "text": "这是用来询问事物性质或状态的固定句式，like在这里作介词，意为“像……一样”，不要误读为动词“喜欢”。"
+    },
+    {
+      "title": "疑问倒装语序",
+      "text": "口语中What's是What is的缩写，is放在主语the climate前面构成疑问语序，符合特殊疑问句的倒装规则。"
+    },
+    {
+      "title": "地点修饰的位置",
+      "text": "in your country是介词短语作地点状语，修饰整个问句，点明被询问的气候所属的地域范围。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's",
+      "role": "疑问引导与be动词",
+      "explanation": "What引导特殊疑问句，'s是is的缩写，和后面的like构成be like结构。"
+    },
+    {
+      "text": "the climate",
+      "role": "句子主语",
+      "explanation": "被询问的核心对象是气候。"
+    },
+    {
+      "text": "like",
+      "role": "介词",
+      "explanation": "和be动词搭配构成be like结构，表“……是什么样的”。"
+    },
+    {
+      "text": "in your country",
+      "role": "地点状语",
+      "explanation": "限定了气候的所属范围，即对方的国家。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "什么（what is的缩写形式）",
+      "pos": "疑问词+动词缩写",
+      "phonetic": "wɒts",
+      "text": "What's"
+    },
+    {
+      "meaning": "这；那（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "ðə",
+      "text": "the"
+    },
+    {
+      "meaning": "气候",
+      "pos": "名词",
+      "phonetic": "ˈklaɪmət",
+      "text": "climate"
+    },
+    {
+      "meaning": "像；如同（此处为介词，搭配be like表询问状况）",
+      "pos": "介词",
+      "phonetic": "laɪk",
+      "text": "like"
+    },
+    {
+      "meaning": "在……里面（此处表所属范围）",
+      "pos": "介词",
+      "phonetic": "ɪn",
+      "text": "in"
+    },
+    {
+      "meaning": "你的；你们的",
+      "pos": "形容词性物主代词",
+      "phonetic": "jɔː",
+      "text": "your"
+    },
+    {
+      "meaning": "国家（本词所在的分句为疑问语气，句末问号体现询问语气）",
+      "pos": "名词",
+      "phonetic": "ˈkʌntri",
+      "text": "country?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What's",
+      "meaning": "是什么（what is的缩写）",
+      "relation": "引导特殊疑问句，引出对气候状态的询问"
+    },
+    {
+      "text": "the climate",
+      "meaning": "气候",
+      "relation": "句子的核心主语，是被询问的主体对象"
+    },
+    {
+      "text": "like",
+      "meaning": "像（介词，搭配be表“什么样的”）",
+      "relation": "和be动词搭配，说明询问的是主体的状态性质"
+    },
+    {
+      "text": "in your country?",
+      "meaning": "在你们国家（句末问号体现疑问语气）",
+      "relation": "补充说明气候所属的地域范围"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-51",
+  "sentenceId": "nce-1-lesson-051-sentence-003",
+  "sentenceOrder": 3,
+  "english": "What's the climate like in your country?",
+  "lesson": "Lesson 51 A pleasant climate",
+  "notes": [
+    {
+      "title": "What's ... like 句式",
+      "text": "这是用来询问事物性质或状态的固定句式，like在这里作介词，意为“像……一样”，不要误读为动词“喜欢”。"
+    },
+    {
+      "title": "疑问倒装语序",
+      "text": "口语中What's是What is的缩写，is放在主语the climate前面构成疑问语序，符合特殊疑问句的倒装规则。"
+    },
+    {
+      "title": "地点修饰的位置",
+      "text": "in your country是介词短语作地点状语，修饰整个问句，点明被询问的气候所属的地域范围。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干与结构分析整体准确，正确识别了特殊疑问句的倒装语序、be like固定搭配以及like的介词词性，未误将本句判定为状语从句。仅存在两处可优化细节：一是What's的释义冗余，缩写形式仅保留疑问含义即可；二是单词音标注释与parts的分块含义未覆盖句末问号对应的疑问语气，补充后释义更完整。（非逐句人工审核）"
+}

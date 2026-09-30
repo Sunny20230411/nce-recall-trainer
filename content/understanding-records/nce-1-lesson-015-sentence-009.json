@@ -1,0 +1,117 @@
+{
+  "chinese": "我们的箱子是棕色的。在这里。",
+  "intent": "向他人说明己方行李箱的外观颜色，同时直接指出这些箱子当前摆放的位置，方便对方快速辨认取拿。",
+  "comparison": null,
+  "backbone": {
+    "text": "Our cases are brown. Here they are.",
+    "meaning": "我们的箱子是棕色的，这些箱子就在这里。"
+  },
+  "parts": [
+    {
+      "text": "Our cases",
+      "relation": "描述被说明颜色的对象",
+      "meaning": "我们的箱子"
+    },
+    {
+      "text": "are brown.",
+      "relation": "补充说明箱子的外观颜色属性",
+      "meaning": "是棕色的。"
+    },
+    {
+      "text": "Here",
+      "relation": "指出所在的具体方位",
+      "meaning": "这里"
+    },
+    {
+      "text": "they are.",
+      "relation": "指代前面提到的箱子，说明其所处位置",
+      "meaning": "它们在。"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "第二句语序特点",
+      "text": "为了突出方位信息Here，把它放到句首，再跟上主语和系动词are，直接把“东西就在这里”的指向明确传递出来，不需要调整成复杂的倒装结构。"
+    },
+    {
+      "title": "指代关系说明",
+      "text": "第二句里的they直接复指前半句提到的our cases，两句的描述对象完全对应，读者能立刻明白方位指向的是前面说的棕色箱子。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Our cases are brown",
+      "role": "主系表完整陈述句",
+      "explanation": "核心作用是告知听话人己方箱子的颜色特征，方便后续和其他箱子做区分辨认。"
+    },
+    {
+      "text": "Here they are",
+      "role": "方位提示常用表达",
+      "explanation": "这是日常场景里指出物品位置的固定短句，不用逐词硬译成“这里它们是”，自然对应中文里“它们在这儿”的指向功能。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我们的",
+      "pos": "限定词",
+      "phonetic": "/ˈaʊə(r)/",
+      "text": "Our"
+    },
+    {
+      "meaning": "箱子（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈkeɪsɪz/",
+      "text": "cases"
+    },
+    {
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "棕色的",
+      "pos": "形容词",
+      "phonetic": "/braʊn/",
+      "text": "brown."
+    },
+    {
+      "meaning": "这里",
+      "pos": "副词",
+      "phonetic": "/hɪə(r)/",
+      "text": "Here"
+    },
+    {
+      "meaning": "它们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/",
+      "text": "they"
+    },
+    {
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-15",
+  "sentenceId": "nce-1-lesson-015-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Our cases are brown. Here they are.",
+  "lesson": "Lesson 15 Your passports, please.",
+  "notes": [
+    {
+      "title": "第二句语序特点",
+      "text": "为了突出方位信息Here，把它放到句首，再跟上主语和系动词are，直接把“东西就在这里”的指向明确传递出来，不需要调整成复杂的倒装结构。"
+    },
+    {
+      "title": "指代关系说明",
+      "text": "第二句里的they直接复指前半句提到的our cases，两句的描述对象完全对应，读者能立刻明白方位指向的是前面说的棕色箱子。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析内容基本准确，仅存在部分细节标注瑕疵，可明确修正后满足要求（非逐句人工审核）"
+}

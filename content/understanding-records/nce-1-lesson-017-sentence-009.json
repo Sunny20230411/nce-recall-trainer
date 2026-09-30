@@ -1,0 +1,99 @@
+{
+  "chinese": "他们不是很忙！",
+  "intent": "直观说明对方当下的状态，告知相关人员目前并不处于十分忙碌的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "They aren't busy!",
+    "meaning": "他们不忙。"
+  },
+  "parts": [
+    {
+      "text": "They",
+      "relation": "描述谁的状态",
+      "meaning": "他们"
+    },
+    {
+      "text": "aren't",
+      "relation": "说明核心状态的否定属性",
+      "meaning": "不是（表示否定）"
+    },
+    {
+      "text": "very busy!",
+      "relation": "补充描述具体的状态程度",
+      "meaning": "非常忙！"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "缩约形式aren't",
+      "text": "aren't是are not的口语常用缩约写法，直接对主语的状态进行否定，读起来更自然流畅。"
+    },
+    {
+      "title": "副词very的作用",
+      "text": "very用来修饰后面的形容词busy，正向强化忙碌的程度，本句结合否定整体语义表示忙碌的状态没有达到很高的强度。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They",
+      "role": "主语",
+      "explanation": "指代前文提到的多位人员，是整个状态描述的主体。"
+    },
+    {
+      "text": "aren't",
+      "role": "否定系动词",
+      "explanation": "承接主语和后续的状态描述，给出否定判断。"
+    },
+    {
+      "text": "very busy",
+      "role": "表语",
+      "explanation": "说明主语的状态，用very修饰busy来体现忙碌的程度。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "他们/她们/它们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/",
+      "text": "They"
+    },
+    {
+      "meaning": "不是（are not的缩约形式）",
+      "pos": "缩约形式（系动词are+否定副词not）",
+      "phonetic": "/ɑːnt/",
+      "text": "aren't"
+    },
+    {
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/",
+      "text": "very"
+    },
+    {
+      "meaning": "忙碌的",
+      "pos": "形容词",
+      "phonetic": "/ˈbɪzi/",
+      "text": "busy!"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-17",
+  "sentenceId": "nce-1-lesson-017-sentence-009",
+  "sentenceOrder": 9,
+  "english": "They aren't very busy!",
+  "lesson": "Lesson 17 How do you do?",
+  "notes": [
+    {
+      "title": "缩约形式aren't",
+      "text": "aren't是are not的口语常用缩约写法，直接对主语的状态进行否定，读起来更自然流畅。"
+    },
+    {
+      "title": "副词very的作用",
+      "text": "very用来修饰后面的形容词busy，正向强化忙碌的程度，本句结合否定整体语义表示忙碌的状态没有达到很高的强度。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体学习内容框架合规，仅存在少量细节误差可明确修正，未触及核心知识点错误规则。（非逐句人工审核）"
+}

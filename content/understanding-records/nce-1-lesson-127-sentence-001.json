@@ -1,0 +1,123 @@
+{
+  "chinese": "我想她那时四十三岁。",
+  "intent": "表达自己对某人过去年龄的主观推测，并非陈述确定的客观事实。",
+  "comparison": null,
+  "backbone": {
+    "text": "I think (that) she was forty-three.",
+    "meaning": "我认为她当时四十三岁，是理解本句核心意思的简化主干。"
+  },
+  "structureNotes": [
+    {
+      "title": "宾语从句的省略连接词",
+      "text": "动词think、believe、say后接that引导的宾语从句时，that通常会被省略，不影响从句作为动词内容的地位，理解时可先补上that看清结构。注意：动词为不及物动词并搭配介词后接宾语从句时，that不能省略，如think of that...的结构是错误的。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "at that time表示“在那个时候”，是指代过去某段时间的固定短语，放在句末修饰从句，说明年龄是当时的情况而非现在。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I think",
+      "role": "主句",
+      "explanation": "主语I搭配谓语think，说明说话人的看法，后接省略that的宾语从句。"
+    },
+    {
+      "text": "she was forty-three",
+      "role": "宾语从句",
+      "explanation": "作主句动词think的宾语，主语是she，系动词was搭配表语forty-three，描述主语当时的年龄。"
+    },
+    {
+      "text": "at that time.",
+      "role": "时间状语",
+      "explanation": "修饰宾语从句，说明“她四十三岁”是在那个时候的情况。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "think",
+      "meaning": "想；认为",
+      "pos": "动词",
+      "phonetic": "/θɪŋk/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be的过去式，搭配单数主语）",
+      "pos": "动词（be动词过去式）",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "forty-three",
+      "meaning": "四十三",
+      "pos": "数词",
+      "phonetic": "/ˌfɔːti ˈθriː/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（某个时间点）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "that",
+      "meaning": "那个",
+      "pos": "限定词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "time.",
+      "meaning": "时间",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I think",
+      "relation": "主句，引出后续的主观看法内容",
+      "meaning": "我想"
+    },
+    {
+      "text": "she was forty-three",
+      "relation": "主句think的宾语从句，说明看法的具体内容",
+      "meaning": "她（那时是）四十三岁"
+    },
+    {
+      "text": "at that time.",
+      "relation": "时间状语，说明上述年龄判断对应的是过去的某个时点",
+      "meaning": "在那个时候。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-127",
+  "sentenceId": "nce-1-lesson-127-sentence-001",
+  "sentenceOrder": 1,
+  "english": "I think she was forty-three at that time.",
+  "lesson": "Lesson 127 A famous actress",
+  "notes": [
+    {
+      "title": "宾语从句的省略连接词",
+      "text": "动词think、believe、say后接that引导的宾语从句时，that通常会被省略，不影响从句作为动词内容的地位，理解时可先补上that看清结构。注意：动词为不及物动词并搭配介词后接宾语从句时，that不能省略，如think of that...的结构是错误的。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "at that time表示“在那个时候”，是指代过去某段时间的固定短语，放在句末修饰从句，说明年龄是当时的情况而非现在。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体信息完整准确，仅存在两处需修正的内容：一是单词条目里time的音标错误附带了句末句号，二是宾语从句省略that的规则表述范围过宽，未区分及物动词后that省略与不及物动词加介词后从句that不可省的差异，其余翻译、主干、结构分析、分块释义、音标、语境说明均符合要求，无核心事实错误。（非逐句人工审核）"
+}

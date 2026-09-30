@@ -1,0 +1,75 @@
+{
+  "chinese": "是的，他们是。",
+  "intent": "直接回应前一句提出的一般疑问句，明确给出肯定答复，确认“他们是游客”这一信息成立。",
+  "comparison": null,
+  "backbone": {
+    "text": "they are",
+    "meaning": "确认前文提及的对象符合问句中描述的属性"
+  },
+  "parts": [
+    {
+      "text": "Yes,",
+      "relation": "表明整体答复的肯定性质",
+      "meaning": "用于引出肯定答复的应答标记"
+    },
+    {
+      "text": "they are.",
+      "relation": "回应前一句疑问的核心内容",
+      "meaning": "指代前文提到的“你的朋友们”，结合省略的表语完成肯定确认"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略式肯定答复",
+      "text": "本句是对前文一般疑问句的简略肯定回应，省略了问句中已经出现过的表语tourists，避免重复，日常对话里这类省略表达非常常用。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "肯定应答标记",
+      "explanation": "明确告知对话方接下来给出的是正向答复"
+    },
+    {
+      "text": "they are.",
+      "role": "简略主谓结构",
+      "explanation": "指代前文提到的复数对象，结合省略的已知表语完成完整语义的肯定确认"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是（用于引出肯定答复）",
+      "pos": "interjection",
+      "phonetic": "/jes/",
+      "text": "Yes,"
+    },
+    {
+      "meaning": "他们/她们/它们",
+      "pos": "pronoun",
+      "phonetic": "/ðeɪ/",
+      "text": "they"
+    },
+    {
+      "meaning": "是（be动词复数现在时第二/三人称形式）",
+      "pos": "verb",
+      "phonetic": "/ɑː(r)/",
+      "text": "are."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-15",
+  "sentenceId": "nce-1-lesson-015-sentence-013",
+  "sentenceOrder": 13,
+  "english": "Yes, they are.",
+  "lesson": "Lesson 15 Your passports, please.",
+  "notes": [
+    {
+      "title": "省略式肯定答复",
+      "text": "本句是对前文一般疑问句的简略肯定回应，省略了问句中已经出现过的表语tourists，避免重复，日常对话里这类省略表达非常常用。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，仅存在少量细节可规范优化，不影响核心语义理解（非逐句人工审核）"
+}

@@ -1,0 +1,131 @@
+{
+  "chinese": "你打算怎么处理它？",
+  "intent": "询问对方计划如何处置某件特定的物品",
+  "comparison": null,
+  "backbone": {
+    "text": "What are you going to do with it",
+    "meaning": "核心是询问对方针对前文指代的特定物品的处置计划，明确疑问焦点不是泛泛询问要做什么，而是限定动作关联的具体对象"
+  },
+  "parts": [
+    {
+      "text": "What",
+      "relation": "作为特殊疑问词，在句中作实义动词do的宾语，点明要询问的内容核心",
+      "meaning": "什么（此处指代处置某物品的方式）"
+    },
+    {
+      "text": "are you going to do",
+      "relation": "承载主语、助动词和表计划的谓语动作框架，描述动作发出者以及该动作属于预先打算的性质",
+      "meaning": "你打算做"
+    },
+    {
+      "text": "with it?",
+      "relation": "补充说明实义动词do所关联的具体动作对象，明确处置的目标",
+      "meaning": "针对它（指代前文提到的特定物品来做）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "be going to 表计划",
+      "text": "此处are you going to do 不表示正在前往，而是用来询问对方预先的打算，是日常问计划的常用表达"
+    },
+    {
+      "title": "what 提前的问句语序",
+      "text": "特殊疑问词What放在句首，随后把be动词are移到主语you前面，构成符合英语习惯的疑问语序，不需要额外加助动词do"
+    },
+    {
+      "title": "do with 的搭配含义",
+      "text": "do和with搭配在这里不是字面的“和它一起做”，而是固定表示“处置、处理某事物”，对应中文里的“怎么处理它”"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What",
+      "role": "特殊疑问词（作询问的核心宾语）",
+      "explanation": "用来指向要询问的具体内容，也就是处理物品的方式"
+    },
+    {
+      "text": "are you going to do",
+      "role": "带计划含义的疑问谓语结构",
+      "explanation": "由be动词+主语+be going to+实义动词原形组成，表达对对方计划动作的询问"
+    },
+    {
+      "text": "with it",
+      "role": "方式涉及对象的介词短语",
+      "explanation": "补充说明do这个动作所针对的具体物品，明确处置的目标"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "什么（此处指代处置方式）",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/",
+      "text": "What"
+    },
+    {
+      "meaning": "是（助动词，协助构成表计划的将来时疑问句结构）",
+      "pos": "助动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "你",
+      "pos": "人称代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "going，和be动词、不定式符号to搭配共同构成表“打算、计划”的半助动词结构",
+      "pos": "现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/",
+      "text": "going"
+    },
+    {
+      "meaning": "to，不定式符号，用于引出后续的实义动词原形",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "做（核心实义动词，和with搭配构成固定短语表示“处置、处理”）",
+      "pos": "实义动词",
+      "phonetic": "/duː/",
+      "text": "do"
+    },
+    {
+      "meaning": "针对、关于",
+      "pos": "介词",
+      "phonetic": "/wɪð/",
+      "text": "with"
+    },
+    {
+      "meaning": "它（指代前文对话里提到的特定物品）",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/",
+      "text": "it?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-39",
+  "sentenceId": "nce-1-lesson-039-sentence-004",
+  "sentenceOrder": 4,
+  "english": "What are you going to do with it?",
+  "lesson": "Lesson 39 Don't drop it!",
+  "notes": [
+    {
+      "title": "be going to 表计划",
+      "text": "此处are you going to do 不表示正在前往，而是用来询问对方预先的打算，是日常问计划的常用表达"
+    },
+    {
+      "title": "what 提前的问句语序",
+      "text": "特殊疑问词What放在句首，随后把be动词are移到主语you前面，构成符合英语习惯的疑问语序，不需要额外加助动词do"
+    },
+    {
+      "title": "do with 的搭配含义",
+      "text": "do和with搭配在这里不是字面的“和它一起做”，而是固定表示“处置、处理某事物”，对应中文里的“怎么处理它”"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本符合要求，仅存在局部指代、主干说明、词性细节等可明确修正的小问题，未出现核心规则冲突（非逐句人工审核）"
+}

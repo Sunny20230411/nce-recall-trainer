@@ -1,0 +1,69 @@
+{
+  "chinese": "喂，加里。",
+  "intent": "说话人用口语化的祈使表达直接招呼同行的加里，引出后续提醒内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "Look, Gary.",
+    "meaning": "说话人用口语化的祈使语气招呼同行的加里，引起他的注意，为后续的提醒做铺垫。"
+  },
+  "structureNotes": [
+    {
+      "title": "呼语的句法功能",
+      "text": "Gary是呼语，独立于祈使动词之外，作用是点明提醒的对象，放在祈使动词之后符合英语口语的自然表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Look",
+      "role": "祈使核心动词（感叹式招呼）",
+      "explanation": "构成无主语的祈使句，以短促的口语化表达发出招呼、唤起对方注意的动作。"
+    },
+    {
+      "text": "Gary",
+      "role": "呼语",
+      "explanation": "直接称呼被提醒的人，点明这条祈使指令的接收对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Look,",
+      "meaning": "喂、听着、注意（口语招呼用语）",
+      "pos": "动词（感叹式祈使用法）",
+      "phonetic": "/lʊk/"
+    },
+    {
+      "text": "Gary.",
+      "meaning": "加里（男子名）",
+      "pos": "名词",
+      "phonetic": "/ˈɡæri/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Look,",
+      "meaning": "喂、听着",
+      "relation": "祈使核心动作，发出口语化招呼以唤起对方注意"
+    },
+    {
+      "text": "Gary.",
+      "meaning": "加里。",
+      "relation": "呼语，点明招呼与后续提醒的接收对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-129",
+  "sentenceId": "nce-1-lesson-129-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Look, Gary.",
+  "lesson": "Lesson 129 Seventy miles an hour",
+  "notes": [
+    {
+      "title": "呼语的句法功能",
+      "text": "Gary是呼语，独立于祈使动词之外，作用是点明提醒的对象，放在祈使动词之后符合英语口语的自然表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句为简单祈使加呼语句，主干完整，结构标注、词义与译文基本准确。问题集中在：中文译文未体现Look的呼语提醒功能，仅直译为“看”过于生硬；intent超出该单句本身，混入了后续全句语境中才有的“行驶场景”“即将发生的状况”内容，违背单句解析范围；structureNotes与notes重复描述呼语功能，且表述冗余，未明确呼语的独立句法地位；part中Look的关系标注略模糊，仅称核心动作未点明祈使提醒属性。（非逐句人工审核）"
+}

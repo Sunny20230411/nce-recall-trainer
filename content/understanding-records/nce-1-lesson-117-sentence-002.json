@@ -1,0 +1,110 @@
+{
+  "chinese": "‘汤米怎么样？’他问。",
+  "intent": "对话中转述男方对汤米近况的问候询问。",
+  "comparison": {
+    "chinese": "他问：‘汤米怎么样？’",
+    "english": "'How's Tommy?' he asked.",
+    "steps": [
+      {
+        "label": "直接引语置于转述前",
+        "text": "'How's Tommy?' he asked.",
+        "explanation": "英文常把引语放在前面，再用he asked说明说话人；中文习惯先交代‘他问’，再放出具体问句。"
+      },
+      {
+        "label": "用缩写理解问句",
+        "text": "How's = How is",
+        "explanation": "How's Tommy是How is Tommy的口语缩写，意思是询问汤米的近况如何，不需要补成完整长句。"
+      }
+    ],
+    "takeaway": "先认出引语内容，再判断he asked是转述说话动作即可，不用机械调换中英文的语序。"
+  },
+  "backbone": {
+    "text": "He asked how Tommy was.",
+    "meaning": "他询问汤米的近况怎么样。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的转述",
+      "text": "整句用直接引语还原说话内容，引语本身是简略的问候问句，he asked放在引语后交代说话人。"
+    },
+    {
+      "title": "口语缩写",
+      "text": "How's是How is的缩写，属于日常口语里询问近况的常用简略说法。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'How's Tommy?'",
+      "role": "直接引语问句",
+      "explanation": "还原他说出的原话，是对汤米近况的问候询问。"
+    },
+    {
+      "text": "he",
+      "role": "主语",
+      "explanation": "指代前文中打来电话的丈夫。"
+    },
+    {
+      "text": "asked.",
+      "role": "谓语",
+      "explanation": "表示主语发出‘询问’这个说话动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'How's",
+      "meaning": "How is的缩写，怎么样",
+      "pos": "口语缩略疑问结构",
+      "phonetic": "/haʊz/"
+    },
+    {
+      "text": "Tommy?'",
+      "meaning": "汤米（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈtɒmi/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "asked.",
+      "meaning": "问；询问",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "'How's Tommy?'",
+      "relation": "转述的具体询问内容",
+      "meaning": "‘汤米怎么样？’"
+    },
+    {
+      "text": "he asked.",
+      "relation": "说明说话人和转述动作",
+      "meaning": "他问。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-117",
+  "sentenceId": "nce-1-lesson-117-sentence-002",
+  "sentenceOrder": 2,
+  "english": "'How's Tommy?' he asked.",
+  "lesson": "Lesson 117 Tommy's breakfast",
+  "notes": [
+    {
+      "title": "直接引语的转述",
+      "text": "整句用直接引语还原说话内容，引语本身是简略的问候问句，he asked放在引语后交代说话人。"
+    },
+    {
+      "title": "口语缩写",
+      "text": "How's是How is的缩写，属于日常口语里询问近况的常用简略说法。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析主干正确，直接引语、he asked的主语谓语关系及口语缩写说明符合语境。仅需微调词典条目：Tommy保留英式音标，'How's按实际书写形式处理缩略结构标注，其余内容与原文对应关系无误。（非逐句人工审核）"
+}

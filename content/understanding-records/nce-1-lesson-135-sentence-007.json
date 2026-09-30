@@ -1,0 +1,136 @@
+{
+  "chinese": "她会再拍一部电影吗？",
+  "intent": "询问对方是否有可能再次拍摄新的电影作品。",
+  "comparison": {
+    "chinese": "她会再拍一部电影吗？",
+    "english": "Will she make another film?",
+    "steps": [
+      {
+        "label": "先确定核心陈述内容",
+        "text": "She will make another film. 她会再拍一部电影。",
+        "explanation": "先把陈述句里“她拍另一部电影”这件事理清楚，再看要问什么。"
+      },
+      {
+        "label": "把助动词Will挪到句首构成疑问",
+        "text": "Will she make another film?",
+        "explanation": "英语要问“会不会/将要做什么”时，把Will放到主语she前面，句末用问号；中文不调换词序，靠“会……吗”和升调表示疑问。"
+      },
+      {
+        "label": "another film作宾语，指另一部电影",
+        "text": "make another film 拍另一部电影",
+        "explanation": "another修饰film，一起放在make后面，是拍摄的对象，不能拆成“另一个电影的”。"
+      }
+    ],
+    "takeaway": "英语一般疑问句把助动词/情态动词移到主语前，中文用“会……吗”对应；another film表示“另一部电影”。"
+  },
+  "backbone": {
+    "text": "Will she make another film?",
+    "meaning": "她会不会再拍一部电影？"
+  },
+  "structureNotes": [
+    {
+      "title": "一般疑问句的语序",
+      "text": "Will放在主语she前面，后面直接跟动词原形make，用来询问将来或意愿；句末问号表示这是疑问句。"
+    },
+    {
+      "title": "another film的搭配",
+      "text": "another修饰film，指“另一部电影”，作make的宾语，不能拆开理解为“另一个”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Will",
+      "role": "助动词（情态动词）",
+      "explanation": "放在句首帮助构成一般将来时的疑问句，表示“将要、会”；其后仍由make承担谓语。"
+    },
+    {
+      "text": "she",
+      "role": "主语",
+      "explanation": "指前文提到的女性（可能是记者笔下的人物），是“拍电影”这个动作的发出者。"
+    },
+    {
+      "text": "make",
+      "role": "谓语动词",
+      "explanation": "和film搭配表示“拍摄（电影）”，不是广义的“制作”。"
+    },
+    {
+      "text": "another film",
+      "role": "动词宾语",
+      "explanation": "make的对象，指“另一部电影”，another表示“另一个、再一个”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Will",
+      "meaning": "将要、会（构成将来时疑问）",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词（主格）",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "make",
+      "meaning": "拍摄（电影）",
+      "pos": "动词",
+      "phonetic": "/meɪk/"
+    },
+    {
+      "text": "another",
+      "meaning": "另一部、再一个",
+      "pos": "限定词/形容词",
+      "phonetic": "/əˈnʌðə/"
+    },
+    {
+      "text": "film?",
+      "meaning": "电影",
+      "pos": "名词",
+      "phonetic": "/fɪlm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Will",
+      "meaning": "Will（表将要、会）",
+      "relation": "疑问标记，帮助构成一般疑问句，不单独作谓语"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "relation": "动作的发出者，主语"
+    },
+    {
+      "text": "make",
+      "meaning": "拍摄（电影）",
+      "relation": "主语发出的动作，谓语"
+    },
+    {
+      "text": "another film?",
+      "meaning": "另一部电影？",
+      "relation": "动作的对象，作make的宾语"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-135",
+  "sentenceId": "nce-1-lesson-135-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Will she make another film?",
+  "lesson": "Lesson 135 The latest report",
+  "notes": [
+    {
+      "title": "一般疑问句的语序",
+      "text": "Will放在主语she前面，后面直接跟动词原形make，用来询问将来或意愿；句末问号表示这是疑问句。"
+    },
+    {
+      "title": "another film的搭配",
+      "text": "another修饰film，指“另一部电影”，作make的宾语，不能拆开理解为“另一个”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：词形、词性、关系主干、中英表达与上下文基本一致，仅个别说明需更明确：助动词构成疑问而非独立谓语，film 的释义去掉问号并使用英式音标。（非逐句人工审核）"
+}

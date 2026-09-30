@@ -1,0 +1,196 @@
+{
+  "chinese": "可是如果我们把所有的钱都花光了，我们又会变穷。那时我们怎么办？",
+  "intent": "说话者先提出一种假设情况及其带来的后果，再追问陷入这种处境后该如何应对。",
+  "comparison": {
+    "chinese": "可是如果我们把所有的钱都花光了，我们又会变穷。那时我们怎么办？",
+    "english": "But if we spend all that money we'll be poor again. What'll we do then?",
+    "steps": [
+      {
+        "label": "先理解假设条件",
+        "text": "But if we spend all that money",
+        "explanation": "But 承接前文美好设想并转折；if 引出假设条件，that money 特指前面提到的那笔钱。"
+      },
+      {
+        "label": "再讲条件成立的结果",
+        "text": "we'll be poor again.",
+        "explanation": "we'll = we will，说明如果花光那笔钱，结果是“我们又会变穷”。"
+      },
+      {
+        "label": "最后追问那时的应对",
+        "text": "What'll we do then?",
+        "explanation": "What'll = What will，then 指变穷之后的那个时候，句意是“那我们该怎么办？”。"
+      }
+    ],
+    "takeaway": "整句是“转折 + 假设条件 + 条件结果 + 时间性追问”：先由 if 提出假设，再由 will 给出结果，最后用 then 把疑问落到结果发生之后。"
+  },
+  "backbone": {
+    "text": "If we spend all that money, we'll be poor again. What will we do then?",
+    "meaning": "假设我们把那笔钱全部花光，就会又变穷；随后追问那时该怎么办。"
+  },
+  "structureNotes": [
+    {
+      "title": "if引导假设条件",
+      "text": "if we spend all that money 是条件，说明后面 be poor again 是在这个假设成立时才会出现的结果，不是已经发生的事实。"
+    },
+    {
+      "title": "then把疑问接到假设之后",
+      "text": "第二个问句中的then指“我们变穷之后那个时候”，让What'll we do和前面的后果形成时间上的承接。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "But",
+      "role": "转折连接词",
+      "explanation": "承接前面对美好未来的设想，引出对“钱花光后”的担忧。"
+    },
+    {
+      "text": "if we spend all that money",
+      "role": "条件状语从句",
+      "explanation": "提出假设性前提：如果我们把那笔钱全部花掉，从句用一般现在时spend表示假设。"
+    },
+    {
+      "text": "we'll be poor again.",
+      "role": "主句",
+      "explanation": "说明假设成立后的结果：我们会重新陷入贫穷。"
+    },
+    {
+      "text": "What'll we do then?",
+      "role": "特殊疑问句",
+      "explanation": "追问在假设情况发生后，我们该采取什么行动。"
+    }
+  ],
+  "words": [
+    {
+      "text": "But",
+      "meaning": "但是，可是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "if",
+      "meaning": "如果",
+      "pos": "连词",
+      "phonetic": "/ɪf/"
+    },
+    {
+      "text": "we",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "spend",
+      "meaning": "花费，花（钱）",
+      "pos": "动词",
+      "phonetic": "/spend/"
+    },
+    {
+      "text": "all",
+      "meaning": "全部，所有的",
+      "pos": "限定词",
+      "phonetic": "/ɔːl/"
+    },
+    {
+      "text": "that",
+      "meaning": "那，那些",
+      "pos": "限定词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "money",
+      "meaning": "钱",
+      "pos": "名词",
+      "phonetic": "/ˈmʌni/"
+    },
+    {
+      "text": "we'll",
+      "meaning": "我们将要",
+      "pos": "缩写（we will）",
+      "phonetic": "/wiː wɪl/"
+    },
+    {
+      "text": "be",
+      "meaning": "是，成为",
+      "pos": "be动词",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "poor",
+      "meaning": "贫穷的",
+      "pos": "形容词",
+      "phonetic": "/pɔː(r)/"
+    },
+    {
+      "text": "again.",
+      "meaning": "再一次，又",
+      "pos": "副词",
+      "phonetic": "/əˈɡen/"
+    },
+    {
+      "text": "What'll",
+      "meaning": "我们将要做什么",
+      "pos": "缩写（What will）",
+      "phonetic": "/wɒt wɪl/"
+    },
+    {
+      "text": "we",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "do",
+      "meaning": "做，采取行动",
+      "pos": "动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "then?",
+      "meaning": "那时",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "But",
+      "meaning": "可是，但是",
+      "relation": "转折关系，承接前文的美好设想，引出相反的担忧"
+    },
+    {
+      "text": "if we spend all that money",
+      "meaning": "如果我们把那笔钱全部花光",
+      "relation": "条件关系，提出假设的前提"
+    },
+    {
+      "text": "we'll be poor again.",
+      "meaning": "我们就会又变穷",
+      "relation": "结果关系，说明假设成立后带来的后果"
+    },
+    {
+      "text": "What'll we do then?",
+      "meaning": "那时我们怎么办？",
+      "relation": "时间承接关系，追问重新变穷之后该如何应对"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-137",
+  "sentenceId": "nce-1-lesson-137-sentence-010",
+  "sentenceOrder": 10,
+  "english": "But if we spend all that money we'll be poor again. What'll we do then?",
+  "lesson": "Lesson 137 A pleasant dream",
+  "notes": [
+    {
+      "title": "if引导假设条件",
+      "text": "if we spend all that money 是条件，说明后面 be poor again 是在这个假设成立时才会出现的结果，不是已经发生的事实。"
+    },
+    {
+      "title": "then把疑问接到假设之后",
+      "text": "第二个问句中的then指“我们变穷之后那个时候”，让What'll we do和前面的后果形成时间上的承接。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：全句语义、条件与结果关系以及整体主干解释基本成立。主要修正：backbone 中的“all the money”应还原为原文的“all that money”，否则会改变指代范围；words 中 we'll、What'll 的音标宜写为元音加 /wɪl/ 的连读形式，避免将缩约单独读作 /wiːl/、/wɒtl/；parts 中最后一块 relation 表述改为时间承接，而非“询问对象”。（非逐句人工审核）"
+}

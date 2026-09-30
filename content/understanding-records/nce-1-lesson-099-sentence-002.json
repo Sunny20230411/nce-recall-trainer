@@ -1,0 +1,110 @@
+{
+  "chinese": "我滑倒了，从楼梯上摔了下来。",
+  "intent": "陈述自身发生意外的经历，回应对方询问身体状况的问题。",
+  "comparison": null,
+  "backbone": {
+    "text": "I slipped and fell downstairs.",
+    "meaning": "讲述自己先是脚底打滑失去重心，继而从楼梯上摔下来的摔倒过程。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列的先后动作表达",
+      "text": "and连接两个先后发生的过去式动作slipped和fell，顺序对应滑倒在前、摔落楼梯在后，共同说明摔倒的完整过程，无需额外连接词就能体现动作承接关系。"
+    },
+    {
+      "title": "downstairs作地点副词",
+      "text": "downstairs在这里是副词，直接修饰动词fell，说明摔落的位置是朝楼下方向，不需要额外加介词to来引出地点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "句子主语",
+      "explanation": "指代说话者本人，是整个句子描述动作的发出者。"
+    },
+    {
+      "text": "slipped and fell",
+      "role": "并列谓语动词",
+      "explanation": "两个动词共用主语I，按动作先后排列：先打滑失去平衡，再摔倒坠落到楼下，都使用一般过去式描述已经发生的事。"
+    },
+    {
+      "text": "downstairs",
+      "role": "地点状语",
+      "explanation": "作副词说明fell这个动作的方向和地点，指向楼梯下方区域。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "slipped",
+      "meaning": "滑倒、失脚",
+      "pos": "动词过去式",
+      "phonetic": "/slɪpt/"
+    },
+    {
+      "text": "and",
+      "meaning": "并且、随即",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "fell",
+      "meaning": "摔倒、跌落",
+      "pos": "动词过去式",
+      "phonetic": "/fel/"
+    },
+    {
+      "text": "downstairs.",
+      "meaning": "向楼下、在楼下",
+      "pos": "副词",
+      "phonetic": "/ˌdaʊnˈsteəz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "描述事件的主体"
+    },
+    {
+      "text": "slipped",
+      "meaning": "滑倒",
+      "relation": "摔倒过程的第一步动作"
+    },
+    {
+      "text": "and",
+      "meaning": "接着、随即",
+      "relation": "连接先后两个动作"
+    },
+    {
+      "text": "fell downstairs.",
+      "meaning": "摔到了楼下",
+      "relation": "承接滑倒之后的最终落点与状态"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-99",
+  "sentenceId": "nce-1-lesson-099-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I slipped and fell downstairs.",
+  "lesson": "Lesson 99 Ow!",
+  "notes": [
+    {
+      "title": "并列的先后动作表达",
+      "text": "and连接两个先后发生的过去式动作slipped和fell，顺序对应滑倒在前、摔落楼梯在后，共同说明摔倒的完整过程，无需额外连接词就能体现动作承接关系。"
+    },
+    {
+      "title": "downstairs作地点副词",
+      "text": "downstairs在这里是副词，直接修饰动词fell，说明摔落的位置是朝楼下方向，不需要额外加介词to来引出地点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合句子语法事实与场景语义，存在两处可明确优化的小问题：一是连词and的短语释义生硬，没有结合语境体现其动作承接的功能；二是句末标点被误并入downstairs的词汇切分中，影响词汇单元的准确性，其余内容无误。（非逐句人工审核）"
+}

@@ -1,0 +1,53 @@
+{
+  "chinese": "汤姆！",
+  "intent": "在对话场景中呼叫汤姆，吸引他的注意，示意他自己有话要跟他说。",
+  "comparison": null,
+  "backbone": {
+    "text": "Tom!",
+    "meaning": "呼喊汤姆，示意他回应。"
+  },
+  "structureNotes": [
+    {
+      "title": "呼语的使用",
+      "text": "直接称呼对方姓名来呼叫注意，是英语日常对话中常见的呼唤方式之一，常用于需要对方回应时；在正式问候场景中也常放在问候语前。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Tom!",
+      "role": "呼语",
+      "explanation": "直接呼喊对方的名字，目的是唤起注意并引出接下来的对话，后文汤姆以Yes?（怎么了？）回应。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "汤姆（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/tɒm/",
+      "text": "Tom!"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Tom!",
+      "relation": "直接呼叫的呼语，用于唤起对方注意，引出后续对话。",
+      "meaning": "汤姆！"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-81",
+  "sentenceId": "nce-1-lesson-081-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Tom!",
+  "lesson": "Lesson 81 Roast beef and potatoes",
+  "notes": [
+    {
+      "title": "呼语的使用",
+      "text": "直接称呼对方姓名来呼叫注意，是英语日常对话中常见的呼唤方式之一，常用于需要对方回应时；在正式问候场景中也常放在问候语前。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：核心语义与呼语角色判断正确，仅需将呼语说明里泛化的“打招呼方式”收紧为呼叫注意，避免把呼唤回应误解为泛指问候。（非逐句人工审核）"
+}

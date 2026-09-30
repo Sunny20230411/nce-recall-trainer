@@ -1,0 +1,104 @@
+{
+  "chinese": "你呢？",
+  "intent": "承接前文话题，向对方询问同一类情况，引导对方针对前文的话题作出回应。",
+  "comparison": {
+    "chinese": "中文用省略说法直接问：“你呢？”",
+    "english": "英文常用固定省略表达 What about …?",
+    "steps": [
+      {
+        "label": "先理解省略框架",
+        "text": "What about…?",
+        "explanation": "What about 是英语口语里用来承接话题、提问同一类情况的固定表达，不表示字面的“什么关于”。"
+      },
+      {
+        "label": "再补出指向对象",
+        "text": "What about you?",
+        "explanation": "you 点明这次询问的对象是对方；结合前文语境，实际问的是对方是否也没带零钱。"
+      },
+      {
+        "label": "还原完整意思",
+        "text": "Have you got any small change?",
+        "explanation": "这是理解用的完整问句，原句在口语对话中省略了重复内容，只保留最必要的提问框架和指向对象。"
+      }
+    ],
+    "takeaway": "遇到 What about 引导的省略句时，要结合前文话题还原它实际询问的内容，不要把它按单词逐字生硬翻译。"
+  },
+  "backbone": {
+    "text": "What about you?",
+    "meaning": "承接前文话题，询问对方在同一话题下的情况是什么样。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略式提问承接话题",
+      "text": "本句不是独立的新话题提问，而是顺着上文“我没带零钱”的话头，用省略句式把同一问题抛给对方，避免重复说出前面已经出现过的内容。"
+    },
+    {
+      "title": "What about 的固定搭配用法",
+      "text": "What about 在这里不是两个独立单词的字面组合，而是英语口语中用来询问对方情况、提出参考的固定结构，后面直接跟上要指向的对象即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What about",
+      "role": "省略式提问的固定引导框架",
+      "explanation": "承接上文已经谈过的话题，用来引出针对同一话题的追问，不需要重复说出前面已经出现过的具体内容。"
+    },
+    {
+      "text": "you?",
+      "role": "提问的指向对象",
+      "explanation": "明确这次追问的对象是听话的对方，结合上下文实际是在询问对方有没有零钱。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What",
+      "meaning": "（用于口语省略提问）什么",
+      "pos": "pron.",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "about",
+      "meaning": "（与 what 构成固定省略提问结构，无独立字面义）",
+      "pos": "prep.",
+      "phonetic": "/əˈbaʊt/"
+    },
+    {
+      "text": "you?",
+      "meaning": "你",
+      "pos": "pron.",
+      "phonetic": "/juː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What about",
+      "relation": "省略提问的固定引导结构",
+      "meaning": "……怎么样？"
+    },
+    {
+      "text": "you?",
+      "relation": "提问指向的对象，承接前文话题询问对方情况",
+      "meaning": "你呢？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-113",
+  "sentenceId": "nce-1-lesson-113-sentence-005",
+  "sentenceOrder": 5,
+  "english": "What about you?",
+  "lesson": "Lesson 113 Small change",
+  "notes": [
+    {
+      "title": "省略式提问承接话题",
+      "text": "本句不是独立的新话题提问，而是顺着上文“我没带零钱”的话头，用省略句式把同一问题抛给对方，避免重复说出前面已经出现过的内容。"
+    },
+    {
+      "title": "What about 的固定搭配用法",
+      "text": "What about 在这里不是两个独立单词的字面组合，而是英语口语中用来询问对方情况、提出参考的固定结构，后面直接跟上要指向的对象即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体准确还原了口语省略问句的实际含义、固定搭配用法与上下文指向，仅存在两个可明确修正的小问题：1. 单词条中 about 的释义孤立标注为“关于，对于”，容易让学习者误认为此处是字面介词义，实际在 What about 固定省略结构中并不承担字面方位/关于的含义；2. 单词条将问号并入 you? 的释义，把标点符号和词汇含义混淆，不符合词条仅解释词汇本身的规范，其余内容均符合要求。（非逐句人工审核）"
+}

@@ -1,0 +1,105 @@
+{
+  "chinese": "你气色看起来很好，吉米。",
+  "intent": "医生查房时当面评价病人吉米的气色康复状态，作出健康状况好转的判断。",
+  "comparison": null,
+  "backbone": {
+    "text": "You look well.",
+    "meaning": "在省略修饰语very后，主干含义为你看起来气色健康。"
+  },
+  "structureNotes": [
+    {
+      "title": "well 作表语形容词",
+      "text": "look 在这里是系动词，后面接形容词 well 表示“身体状态健康、气色好”，不是 look well 表示“看得清楚”的意思。"
+    },
+    {
+      "title": "呼语 Jimmy 的位置",
+      "text": "Jimmy 放在句末逗号后，是对听话人的直接称呼，不参与句子主干的主谓结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "You",
+      "role": "主语",
+      "explanation": "句子描述的对象，指听话的吉米。"
+    },
+    {
+      "text": "look very well",
+      "role": "系表结构作谓语",
+      "explanation": "look 是表示“看起来”的系动词，very well 是表语，说明主语的气色状态。"
+    },
+    {
+      "text": "Jimmy",
+      "role": "呼语",
+      "explanation": "直接称呼听话者的名字，用于面对面交流，不参与主句的语法结构。"
+    }
+  ],
+  "words": [
+    {
+      "text": "You",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "look",
+      "meaning": "看起来；显得",
+      "pos": "系动词",
+      "phonetic": "/lʊk/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "well,",
+      "meaning": "健康的；气色好的",
+      "pos": "形容词",
+      "phonetic": "/wel/"
+    },
+    {
+      "text": "Jimmy.",
+      "meaning": "吉米",
+      "pos": "专有名词",
+      "phonetic": "/ˈdʒɪmi/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "You look",
+      "meaning": "你看起来",
+      "relation": "句子主干开头，引出描述对象和判断动作。"
+    },
+    {
+      "text": "very well,",
+      "meaning": "气色很好，",
+      "relation": "描述吉米的气色状态，说明看起来的具体情况。"
+    },
+    {
+      "text": "Jimmy.",
+      "meaning": "吉米。",
+      "relation": "直接称呼听话人，点明评价针对的对象。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-63",
+  "sentenceId": "nce-1-lesson-063-sentence-005",
+  "sentenceOrder": 5,
+  "english": "You look very well, Jimmy.",
+  "lesson": "Lesson 63 Thank you, doctor.",
+  "notes": [
+    {
+      "title": "well 作表语形容词",
+      "text": "look 在这里是系动词，后面接形容词 well 表示“身体状态健康、气色好”，不是 look well 表示“看得清楚”的意思。"
+    },
+    {
+      "title": "呼语 Jimmy 的位置",
+      "text": "Jimmy 放在句末逗号后，是对听话人的直接称呼，不参与句子主干的主谓结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构分析基本准确，仅个别细节表述可优化：well作表语形容词时应明确为描述身体状态健康；主干You look well.与原句的差异未说明是省略修饰语very；呼语解释应避免和句中主语You指代重复。这些不影响核心理解，属于可修正的瑕疵。（非逐句人工审核）"
+}

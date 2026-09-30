@@ -1,0 +1,203 @@
+{
+  "chinese": "在回家的路上，我妻子对我说：‘别开得那么快！你不是比利·斯图尔特！’",
+  "intent": "呈现回家途中妻子提醒开车过快的我不要飙车，暗示我模仿赛车手的行为需要收敛。",
+  "comparison": {
+    "chinese": "中文用连贯短句把场景、说话人和引用内容顺次说完。",
+    "english": "英文先交代路上的时间背景，再引出说话人，随后原样引用直接引语。",
+    "steps": [
+      {
+        "label": "时间背景",
+        "text": "On the way home",
+        "explanation": "先说明事情发生在回家途中，再接主句“我妻子说了话”。"
+      },
+      {
+        "label": "直接引语",
+        "text": "Don't drive so quickly! / You're not Billy Stewart!",
+        "explanation": "引号内是妻子说的原话，先用否定祈使句提醒慢开，再用评价句点出对象不是赛车手。"
+      }
+    ],
+    "takeaway": "把握“路上的场景—谁说话—原话内容”的顺序，就能完整理解这句话。"
+  },
+  "backbone": {
+    "text": "My wife said to me, 'Don't drive so quickly! You're not Billy Stewart!'",
+    "meaning": "妻子提醒我不要把车开得太快。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语",
+      "text": "引号内是妻子说出的原话，不需要改成间接转述。"
+    },
+    {
+      "title": "否定祈使句",
+      "text": "Don't drive so quickly 用来直接制止对方做某事，quickly 修饰 drive。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "On the way home",
+      "role": "时间状语",
+      "explanation": "说明说话这件事发生在回家途中，交代背景。"
+    },
+    {
+      "text": "my wife",
+      "role": "主语",
+      "explanation": "发出“说话”这个动作的人。"
+    },
+    {
+      "text": "said to me",
+      "role": "谓语",
+      "explanation": "动作是对我说出后面引号里的话。"
+    },
+    {
+      "text": "'Don't drive so quickly! You're not Billy Stewart!'",
+      "role": "直接引语",
+      "explanation": "妻子原话，前一句是否定祈使句用来提醒慢开，后一句是补充说明提醒的理由。"
+    }
+  ],
+  "words": [
+    {
+      "text": "On",
+      "meaning": "在（路途中）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，此处无实义",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "way",
+      "meaning": "路途",
+      "pos": "名词",
+      "phonetic": "/weɪ/"
+    },
+    {
+      "text": "home,",
+      "meaning": "回家",
+      "pos": "副词，末尾逗号为句中标点",
+      "phonetic": "/həʊm/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "wife",
+      "meaning": "妻子",
+      "pos": "名词",
+      "phonetic": "/waɪf/"
+    },
+    {
+      "text": "said",
+      "meaning": "说",
+      "pos": "动词过去式",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "to",
+      "meaning": "对",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "me,",
+      "meaning": "我（宾格）",
+      "pos": "代词，末尾逗号为句中标点",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "'Don't",
+      "meaning": "不要",
+      "pos": "助动词否定缩写式，开头单引号为直接引语标点",
+      "phonetic": "/dəʊnt/"
+    },
+    {
+      "text": "drive",
+      "meaning": "开车、驾驶",
+      "pos": "动词原形",
+      "phonetic": "/draɪv/"
+    },
+    {
+      "text": "so",
+      "meaning": "那么、如此",
+      "pos": "副词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "quickly!",
+      "meaning": "快速地",
+      "pos": "副词，末尾感叹号为句中标点",
+      "phonetic": "/ˈkwɪkli/"
+    },
+    {
+      "text": "You're",
+      "meaning": "你是",
+      "pos": "代词与be动词的缩写形式",
+      "phonetic": "/jʊə(r)/"
+    },
+    {
+      "text": "not",
+      "meaning": "不是",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "Billy",
+      "meaning": "比利（人名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈbɪli/"
+    },
+    {
+      "text": "Stewart!'",
+      "meaning": "斯图尔特（姓氏）",
+      "pos": "专有名词，末尾单引号和感叹号为直接引语标点",
+      "phonetic": "/ˈstjʊət/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "On the way home,",
+      "relation": "时间、地点背景，描述后面事情发生的场景",
+      "meaning": "在回家的路上"
+    },
+    {
+      "text": "my wife said to me,",
+      "relation": "主句主干，交代说话人和听话对象",
+      "meaning": "我妻子对我说"
+    },
+    {
+      "text": "'Don't drive so quickly!",
+      "relation": "直接引语内容，是妻子给出的直接提醒",
+      "meaning": "别开得那么快！"
+    },
+    {
+      "text": "You're not Billy Stewart!'",
+      "relation": "直接引语内容，补充说明提醒的理由",
+      "meaning": "你不是比利·斯图尔特！"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-69",
+  "sentenceId": "nce-1-lesson-069-sentence-012",
+  "sentenceOrder": 12,
+  "english": "On the way home, my wife said to me, 'Don't drive so quickly! You're not Billy Stewart!'",
+  "lesson": "Lesson 69 The car race",
+  "notes": [
+    {
+      "title": "直接引语",
+      "text": "引号内是妻子说出的原话，不需要改成间接转述。"
+    },
+    {
+      "title": "否定祈使句",
+      "text": "Don't drive so quickly 用来直接制止对方做某事，quickly 修饰 drive。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析主干、词汇、分块和中文翻译基本可用，直接引语与否定祈使句的说明也准确；但存在两处可明确修正的问题：一是部分词条将标点合并进单词释义，词性标注不够规范，把标点与单词混为一谈；二是结构说明中把“You're not Billy Stewart!”直接表述为“第一句是否定祈使句”，实际只有“Don't drive so quickly!”是否定祈使句，后一句是陈述性补充，属于表述混淆。（非逐句人工审核）"
+}

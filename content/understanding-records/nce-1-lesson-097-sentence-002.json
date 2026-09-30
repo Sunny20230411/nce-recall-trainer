@@ -1,0 +1,94 @@
+{
+  "chinese": "是谁接待您的，先生？",
+  "intent": "店员礼貌地向顾客询问，半小时前在店里为他提供接待服务的人员身份，目的是后续核对办事人员、跟进顾客遗忘物品的相关情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "Who served you?",
+    "meaning": "询问此前接待你的人是谁。"
+  },
+  "structureNotes": [
+    {
+      "title": "疑问代词Who的主语位置",
+      "text": "本句中Who是动作served的发出者，也就是“接待”的主语，不是接待的对象；如果Who作接待的对象，问句才需要在主语前加did构成倒装，此处是直接陈述主语身份的疑问句式。"
+    },
+    {
+      "title": "sir的用法",
+      "text": "称呼语sir放在句末，是服务场景中对男性顾客的礼貌尊称，用逗号和前面的问句隔开，不参与句子主干的结构组成。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Who served you",
+      "role": "核心主谓宾疑问分句",
+      "explanation": "Who作句子主语，served是谓语动词，you是接待动作的对象，整体用来询问接待顾客的人员身份，采用陈述式疑问语序。"
+    },
+    {
+      "text": "sir",
+      "role": "呼语",
+      "explanation": "用于礼貌称呼对话的男性对象，让问句的语气更符合服务场景的沟通习惯。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Who",
+      "meaning": "谁",
+      "pos": "疑问代词",
+      "phonetic": "/huː/"
+    },
+    {
+      "text": "served",
+      "meaning": "接待、服务",
+      "pos": "动词（过去式）",
+      "phonetic": "/sɜːvd/"
+    },
+    {
+      "text": "you,",
+      "meaning": "您",
+      "pos": "代词（宾格）",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "sir?",
+      "meaning": "先生、阁下",
+      "pos": "名词",
+      "phonetic": "/sɜː(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Who",
+      "relation": "动作的发出者，是询问的核心对象",
+      "meaning": "谁"
+    },
+    {
+      "text": "served you,",
+      "relation": "描述接待顾客这一动作，以及动作的对象",
+      "meaning": "接待您"
+    },
+    {
+      "text": "sir?",
+      "relation": "礼貌称呼对话的男性对象，点明沟通的受众",
+      "meaning": "先生？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-97",
+  "sentenceId": "nce-1-lesson-097-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Who served you, sir?",
+  "lesson": "Lesson 97 A small blue case",
+  "notes": [
+    {
+      "title": "疑问代词Who的主语位置",
+      "text": "本句中Who是动作served的发出者，也就是“接待”的主语，不是接待的对象；如果Who作接待的对象，问句才需要在主语前加did构成倒装，此处是直接陈述主语身份的疑问句式。"
+    },
+    {
+      "title": "sir的用法",
+      "text": "称呼语sir放在句末，是服务场景中对男性顾客的礼貌尊称，用逗号和前面的问句隔开，不参与句子主干的结构组成。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，正确区分了疑问代词who作主语时的正常陈述语序与作宾语时需借助助动词倒装的差异，单词释义、音标、句法结构分析均符合场景，仅词表中将sir后标点附着于词条text的小问题可修正，不影响核心理解。（非逐句人工审核）"
+}

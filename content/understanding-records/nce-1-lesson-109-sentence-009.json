@@ -1,0 +1,110 @@
+{
+  "chinese": "那咖啡很好喝。",
+  "intent": "表达对刚饮用的那杯咖啡的满意与认可。",
+  "comparison": {
+    "chinese": "那（咖啡）很好喝。",
+    "english": "That was very nice.",
+    "steps": [
+      {
+        "label": "还原指代对象",
+        "text": "That指刚喝的那杯咖啡，was用过去时对应刚结束的饮用体验。",
+        "explanation": "英文用独立代词That承接上文已经出现的咖啡，中文顺着语境补充指代对象“那咖啡”，符合中文表达习惯，无需生硬直译为“那是”。"
+      },
+      {
+        "label": "补充评价程度",
+        "text": "very是副词修饰形容词nice，加强评价程度，译为“很”。",
+        "explanation": "这里不是泛泛地说“不错”，而是带着刚喝完的满足感做出的评价，结合咖啡的语境译为“很好喝”比直译为“非常好”更自然。"
+      }
+    ],
+    "takeaway": "英文用代词That+系动词was起句承接前文提到的事物，中文无需硬译“那是”，顺着语境点明指代对象、补充语义即可。"
+  },
+  "backbone": {
+    "text": "That was very nice.",
+    "meaning": "那（刚喝的咖啡）很好喝。"
+  },
+  "structureNotes": [
+    {
+      "title": "指代与时态",
+      "text": "That承接上文中已经喝过的咖啡，was用一般过去时，对应刚结束的饮用体验，不需要生硬直译为“那是非常好的”。"
+    },
+    {
+      "title": "程度修饰",
+      "text": "very作为副词修饰形容词nice，加强评价的程度，在这里结合咖啡的语境译为“很好喝”比“非常好”更符合中文表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That",
+      "role": "主语",
+      "explanation": "指代刚喝完的那杯咖啡。"
+    },
+    {
+      "text": "was",
+      "role": "系动词",
+      "explanation": "表示过去的状态，连接主语和后面的表语。"
+    },
+    {
+      "text": "very nice.",
+      "role": "表语",
+      "explanation": "描述主语给人的感受，very修饰nice加强程度。"
+    }
+  ],
+  "words": [
+    {
+      "text": "That",
+      "meaning": "那（指代刚喝的咖啡）",
+      "pos": "代词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be动词am/is的过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常、很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "nice.",
+      "meaning": "好喝的、令人愉悦的（词块尾带句号）",
+      "pos": "形容词",
+      "phonetic": "/naɪs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "That was",
+      "meaning": "那（刚喝的咖啡）是",
+      "relation": "承接指代刚饮用的咖啡，作为引出评价的主语加系动词部分"
+    },
+    {
+      "text": "very nice.",
+      "meaning": "非常好喝。",
+      "relation": "描述这杯咖啡带来的愉悦体验"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-109",
+  "sentenceId": "nce-1-lesson-109-sentence-009",
+  "sentenceOrder": 9,
+  "english": "That was very nice.",
+  "lesson": "Lesson 109 A good idea",
+  "notes": [
+    {
+      "title": "指代与时态",
+      "text": "That承接上文中已经喝过的咖啡，was用一般过去时，对应刚结束的饮用体验，不需要生硬直译为“那是非常好的”。"
+    },
+    {
+      "title": "程度修饰",
+      "text": "very作为副词修饰形容词nice，加强评价的程度，在这里结合咖啡的语境译为“很好喝”比“非常好”更符合中文表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：英文句子“That was very nice.”的中文翻译、意图、结构分析和词义标注整体准确，符合喝咖啡的日常对话场景。仅存在两处分块标注的小问题：第一处将“That was”整体标注为句子主语，但实际上“That”是主语，“was”是系动词；第二处将“very nice.”的标点纳入形容词释义，与单词表中单独标注“nice”的词性、词义存在表述不一致。（非逐句人工审核）"
+}

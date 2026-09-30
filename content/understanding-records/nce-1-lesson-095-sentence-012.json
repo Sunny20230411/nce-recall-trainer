@@ -1,0 +1,143 @@
+{
+  "chinese": "火车什么时候开的？",
+  "intent": "询问火车过去出发的具体时间。",
+  "comparison": {
+    "chinese": "中文把疑问词“什么时候”放在动词“开”前面，整体语序和陈述句差别不大。",
+    "english": "英文用介词短语 At what time 引导疑问，并借助 did 把疑问标记放在句首。",
+    "steps": [
+      {
+        "label": "先确定问的是哪一个问题",
+        "text": "At what time",
+        "explanation": "相当于询问具体几点，先把要问的信息点提到句首。"
+      },
+      {
+        "label": "再说明这是过去的动作",
+        "text": "did the train leave",
+        "explanation": "did 是助动词，表示过去时，主语 the train 在 did 之后，实义动词 leave 用原形。"
+      }
+    ],
+    "takeaway": "英文问“什么时间”时，疑问短语前置，并通过 did 构成过去时疑问。"
+  },
+  "backbone": {
+    "text": "At what time did the train leave?",
+    "meaning": "询问火车离开的时间。"
+  },
+  "structureNotes": [
+    {
+      "title": "疑问短语前置",
+      "text": "At what time 放在句首，表示要问的是时间，而不是询问地点或原因。"
+    },
+    {
+      "title": "did 构成过去时疑问",
+      "text": "did 位于主语 the train 前，帮助构成一般过去时疑问；leave 用原形。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "At what time",
+      "role": "疑问短语",
+      "explanation": "由介词 At、疑问词 what 和名词 time 组成，表示询问具体时间。"
+    },
+    {
+      "text": "did",
+      "role": "助动词",
+      "explanation": "帮助构成一般过去时的疑问句，后接主语和动词原形。"
+    },
+    {
+      "text": "the train",
+      "role": "主语",
+      "explanation": "指被询问出发时间的火车。"
+    },
+    {
+      "text": "leave?",
+      "role": "谓语动词",
+      "explanation": "表示“离开、出发”，与 At what time 搭配构成完整问句。"
+    }
+  ],
+  "words": [
+    {
+      "text": "At",
+      "meaning": "在（表示时间点）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "what",
+      "meaning": "什么",
+      "pos": "疑问限定词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "time",
+      "meaning": "时间",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    },
+    {
+      "text": "did",
+      "meaning": "（构成过去时疑问句的助动词）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这/那",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "train",
+      "meaning": "火车",
+      "pos": "名词",
+      "phonetic": "/treɪn/"
+    },
+    {
+      "text": "leave?",
+      "meaning": "离开",
+      "pos": "动词",
+      "phonetic": "/liːv（原形）；/left/（过去式）"
+    }
+  ],
+  "parts": [
+    {
+      "text": "At what time",
+      "relation": "询问对象",
+      "meaning": "在几点"
+    },
+    {
+      "text": "did",
+      "relation": "疑问标记",
+      "meaning": "助动词did"
+    },
+    {
+      "text": "the train",
+      "relation": "被询问主体",
+      "meaning": "火车"
+    },
+    {
+      "text": "leave?",
+      "relation": "动作",
+      "meaning": "离开？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-95",
+  "sentenceId": "nce-1-lesson-095-sentence-012",
+  "sentenceOrder": 12,
+  "english": "At what time did the train leave?",
+  "lesson": "Lesson 95 Tickets, please.",
+  "notes": [
+    {
+      "title": "疑问短语前置",
+      "text": "At what time 放在句首，表示要问的是时间，而不是询问地点或原因。"
+    },
+    {
+      "title": "did 构成过去时疑问",
+      "text": "did 位于主语 the train 前，帮助构成一般过去时疑问；leave 用原形。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，主动语序与中文对比符合实际语言规律，所有语法标注、词义翻译、发音标注均正确。仅存在两处可明确修正的小问题：一是单词列表中 leave 条目误将末尾问号纳入文本，二是 leave 条目给出的英文音标未匹配其原形 /liːv/ 与过去式 /left/ 的形式。（非逐句人工审核）"
+}

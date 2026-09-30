@@ -1,0 +1,111 @@
+{
+  "chinese": "电视机靠近窗户。",
+  "intent": "说明室内电视机所在的具体位置",
+  "comparison": null,
+  "backbone": {
+    "text": "The television is near the window",
+    "meaning": "电视机位于窗户的附近"
+  },
+  "parts": [
+    {
+      "text": "The television",
+      "relation": "描述的主体",
+      "meaning": "前文提到过的那台电视机"
+    },
+    {
+      "text": "is",
+      "relation": "系动词，连接主体和表语",
+      "meaning": "表示所处的位置状态"
+    },
+    {
+      "text": "near the window.",
+      "relation": "表语，补充说明主体的具体位置",
+      "meaning": "在窗户的附近"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "定冠词The的指代",
+      "text": "句首的The指代前文已经提到过的那台电视机，不是泛指任意一台电视机，让前后语境衔接自然。"
+    },
+    {
+      "title": "near引导的位置表达",
+      "text": "near作为介词直接搭配名词短语说明位置，不需要额外加动词，简洁点明两个物体的相邻关系。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The television",
+      "role": "名词主语",
+      "explanation": "整句话描述的核心对象，特指前文出现过的电视机"
+    },
+    {
+      "text": "is near",
+      "role": "系表组合",
+      "explanation": "用来表达主体所处的相对位置状态"
+    },
+    {
+      "text": "the window",
+      "role": "介词宾语",
+      "explanation": "给出位置参照的物体，说明靠近的具体对象"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这个（特指前文提到的事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "电视机",
+      "pos": "名词",
+      "phonetic": "/ˈtelɪvɪʒn/",
+      "text": "television"
+    },
+    {
+      "meaning": "处于（某种状态）",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "在……附近",
+      "pos": "介词",
+      "phonetic": "/nɪə/",
+      "text": "near"
+    },
+    {
+      "meaning": "这个（特指谈话双方都知晓的事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "窗户",
+      "pos": "名词",
+      "phonetic": "/ˈwɪndəʊ/",
+      "text": "window."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-27",
+  "sentenceId": "nce-1-lesson-027-sentence-003",
+  "sentenceOrder": 3,
+  "english": "The television is near the window.",
+  "lesson": "Lesson 27 Mrs. Smith's living room",
+  "notes": [
+    {
+      "title": "定冠词The的指代",
+      "text": "句首的The指代前文已经提到过的那台电视机，不是泛指任意一台电视机，让前后语境衔接自然。"
+    },
+    {
+      "title": "near引导的位置表达",
+      "text": "near作为介词直接搭配名词短语说明位置，不需要额外加动词，简洁点明两个物体的相邻关系。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，仅存在局部细节瑕疵可修正，未出现核心语法、指代、语义错误（非逐句人工审核）"
+}

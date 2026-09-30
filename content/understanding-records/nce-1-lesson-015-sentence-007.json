@@ -1,0 +1,86 @@
+{
+  "chinese": "这些是你们的箱子吗？",
+  "intent": "向对方确认眼前的这些物品是否属于对方的箱子",
+  "comparison": null,
+  "backbone": {
+    "text": "Are these your cases?",
+    "meaning": "确认这些物品是否是对方的箱子"
+  },
+  "parts": [
+    {
+      "text": "Are",
+      "relation": "引导疑问，开启确认判断",
+      "meaning": "是（be动词复数现在时疑问式前置，对应指代物品的主语these）"
+    },
+    {
+      "text": "these",
+      "relation": "作句子主语，指代对话语境中眼前的待确认物品",
+      "meaning": "这些"
+    },
+    {
+      "text": "your cases?",
+      "relation": "作句子表语，说明询问的物品归属和具体所指",
+      "meaning": "你们的箱子吗？"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般疑问句结构",
+      "text": "本句将be动词Are放在句首，紧跟指代事物的these，再跟上表所属的your和对应的名词cases，用来直接提出是非确认的问题，不需要额外加助动词do。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Are these",
+      "role": "疑问引导部分",
+      "explanation": "由be动词的疑问形式和指示代词组成，用来发起对指定事物属性的确认"
+    },
+    {
+      "text": "your cases",
+      "role": "表语部分",
+      "explanation": "说明要确认的内容，即这些事物是不是对方的箱子"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是",
+      "pos": "verb",
+      "phonetic": "/ɑː(r)/",
+      "text": "Are"
+    },
+    {
+      "meaning": "这些",
+      "pos": "pron",
+      "phonetic": "/ðiːz/",
+      "text": "these"
+    },
+    {
+      "meaning": "你们的",
+      "pos": "det",
+      "phonetic": "/jɔː(r)/",
+      "text": "your"
+    },
+    {
+      "meaning": "箱子",
+      "pos": "noun",
+      "phonetic": "/ˈkeɪsɪz/",
+      "text": "cases?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-15",
+  "sentenceId": "nce-1-lesson-015-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Are these your cases?",
+  "lesson": "Lesson 15 Your passports, please.",
+  "notes": [
+    {
+      "title": "一般疑问句结构",
+      "text": "本句将be动词Are放在句首，紧跟指代事物的these，再跟上表所属的your和对应的名词cases，用来直接提出是非确认的问题，不需要额外加助动词do。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原学习数据基本符合要求，仅存在部分细节疏漏可明确修正（非逐句人工审核）"
+}

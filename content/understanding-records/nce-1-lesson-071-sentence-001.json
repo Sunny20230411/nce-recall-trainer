@@ -1,0 +1,126 @@
+{
+  "chinese": "罗恩·马斯顿怎么样，波琳？",
+  "intent": "向波琳询问罗恩·马斯顿的为人、性格或给人的总体印象。",
+  "comparison": {
+    "chinese": "你觉得罗恩·马斯顿是个什么样的人/怎么样？",
+    "english": "What's Ron Marston like, Pauline?",
+    "steps": [
+      {
+        "label": "先识别询问的对象",
+        "text": "What's Ron Marston like",
+        "explanation": "被询问的人是罗恩·马斯顿，人名在英语中放在句中询问结构的中间。"
+      },
+      {
+        "label": "理解固定疑问结构",
+        "text": "What + be + 某人 + like",
+        "explanation": "这个固定句式专门用来提问某人的性格、品质或给人的总体印象，like在这里是介词，不是动词“喜欢”。"
+      },
+      {
+        "label": "确认称呼位置",
+        "text": "Pauline",
+        "explanation": "波琳是对话的接收者，英语放在句末用逗号隔开，中文可放在句首呼告。"
+      }
+    ],
+    "takeaway": "What + be + sb. like 是询问他人性格、人品的固定表达，like在此作介词，不表示“喜欢”。"
+  },
+  "backbone": {
+    "text": "What's Ron Marston like?",
+    "meaning": "罗恩·马斯顿是个什么样的人？"
+  },
+  "structureNotes": [
+    {
+      "title": "What's sb. like 固定结构",
+      "text": "这是英语中询问某人性格、为人的常用句式：What 是疑问代词作表语，is 是系动词，like 是介词；句子整体属于“主系表”结构，What 作表语而非主语，不要误认为 like 是动词表示“喜欢”。"
+    },
+    {
+      "title": "呼语的位置",
+      "text": "Pauline 是直接对听话人的称呼，属于呼语，放在句末用逗号隔开，不参与句子主干的语法结构。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's Ron Marston like",
+      "role": "疑问引导+主语+介词搭配",
+      "explanation": "What 是疑问代词作表语，'s 是系动词 is 的缩写，Ron Marston 是主语，like 是介词；整个结构用于询问对方的性格或给人的总体印象。"
+    },
+    {
+      "text": "Pauline",
+      "role": "呼语",
+      "explanation": "直接称呼对话的对象波琳，不参与句子主干的语法结构。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是什么（what和is的缩写）",
+      "pos": "缩写（疑问代词+be动词）",
+      "phonetic": "/wɒts/",
+      "text": "What's"
+    },
+    {
+      "meaning": "罗恩（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/rɒn/",
+      "text": "Ron"
+    },
+    {
+      "meaning": "马斯顿（姓氏）",
+      "pos": "专有名词",
+      "phonetic": "/ˈmɑːstən/",
+      "text": "Marston"
+    },
+    {
+      "meaning": "像；……怎么样",
+      "pos": "介词",
+      "phonetic": "/laɪk/",
+      "text": "like,"
+    },
+    {
+      "meaning": "波琳（女子名）",
+      "pos": "呼语（专有名词）",
+      "phonetic": "/pɔːˈliːn/",
+      "text": "Pauline?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What's",
+      "meaning": "是什么（what 和 is 的缩写）",
+      "relation": "疑问引导，与主语 Ron Marston、介词 like 构成 What be sb. like 的主系表疑问结构，用来询问性格或总体印象"
+    },
+    {
+      "text": "Ron Marston",
+      "meaning": "罗恩·马斯顿",
+      "relation": "被询问的对象，作句子的主语"
+    },
+    {
+      "text": "like,",
+      "meaning": "怎么样，像",
+      "relation": "介词，和 be 动词搭配说明要询问对方的为人、性格特征"
+    },
+    {
+      "text": "Pauline?",
+      "meaning": "波琳",
+      "relation": "直接称呼听话人，补充说明这句话的交流对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-71",
+  "sentenceId": "nce-1-lesson-071-sentence-001",
+  "sentenceOrder": 1,
+  "english": "What's Ron Marston like, Pauline?",
+  "lesson": "Lesson 71 He's awful!",
+  "notes": [
+    {
+      "title": "What's sb. like 固定结构",
+      "text": "这是英语中询问某人性格、为人的常用句式：What 是疑问代词作表语，is 是系动词，like 是介词；句子整体属于“主系表”结构，What 作表语而非主语，不要误认为 like 是动词表示“喜欢”。"
+    },
+    {
+      "title": "呼语的位置",
+      "text": "Pauline 是直接对听话人的称呼，属于呼语，放在句末用逗号隔开，不参与句子主干的语法结构。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句主干、固定句式、呼语关系和整体中文翻译均正确。主要可优化点：原结构说明将 be 动词与介词 like 整体表述为谓语，不够清晰，容易削弱“主系表”句式的理解；同时原例句中 What's 被拆分为独立语块，未体现与 like 的搭配关系。词项音标均采用英式发音，词性标注符合成人学习者的语法学习需求，整体内容无需改动主干与译文。（非逐句人工审核）"
+}

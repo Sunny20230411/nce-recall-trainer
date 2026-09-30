@@ -1,0 +1,116 @@
+{
+  "chinese": "蒂姆也在花园里吗？",
+  "intent": "向听话人确认蒂姆是否同样处于花园这个地点",
+  "comparison": null,
+  "backbone": {
+    "text": "Is Tim in the garden too?",
+    "meaning": "蒂姆也在花园里吗？"
+  },
+  "parts": [
+    {
+      "text": "Is",
+      "relation": "系动词前置用于引导一般疑问句",
+      "meaning": "是（用于确认事物状态，前置发起疑问）"
+    },
+    {
+      "text": "Tim",
+      "relation": "句子的主语，被询问的主体",
+      "meaning": "蒂姆（人名）"
+    },
+    {
+      "text": "in the garden,",
+      "relation": "说明主语所处位置的地点状语",
+      "meaning": "在花园里"
+    },
+    {
+      "text": "too?",
+      "relation": "附加状语搭配疑问标点，表同样情况并标记疑问语气",
+      "meaning": "也（置于句末表情况相同）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般疑问语序",
+      "text": "本句把系动词Is放到句首，用来对原本陈述语序Tim is in the garden的内容发起确认，是英语be动词类陈述句改一般疑问句的典型操作。"
+    },
+    {
+      "title": "too的用法",
+      "text": "副词too放在句末，用来呼应前文提到的其他人（萨莉）在花园的情况，表示蒂姆是否也处于同样的状态，避免语义脱节。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is Tim",
+      "role": "系动词前置加主语",
+      "explanation": "将系动词Is置于句首发起状态确认，后续接被询问的主体蒂姆"
+    },
+    {
+      "text": "in the garden,",
+      "role": "地点状语",
+      "explanation": "说明蒂姆所处的具体位置"
+    },
+    {
+      "text": "too?",
+      "role": "附加副词与疑问标点",
+      "explanation": "补充和前文提及人物处境相同的含义，问号标记整句为独立一般疑问句"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是",
+      "pos": "be动词",
+      "phonetic": "/ɪz/",
+      "text": "Is"
+    },
+    {
+      "meaning": "蒂姆",
+      "pos": "人名（专有名词）",
+      "phonetic": "/tɪm/",
+      "text": "Tim"
+    },
+    {
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这个，定冠词",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "花园",
+      "pos": "名词",
+      "phonetic": "/ˈɡɑːdn/",
+      "text": "garden,"
+    },
+    {
+      "meaning": "也",
+      "pos": "副词",
+      "phonetic": "/tuː/",
+      "text": "too?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-31",
+  "sentenceId": "nce-1-lesson-031-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Is Tim in the garden, too?",
+  "lesson": "Lesson 31 Where's Sally?",
+  "notes": [
+    {
+      "title": "一般疑问语序",
+      "text": "本句把系动词Is放到句首，用来对原本陈述语序Tim is in the garden的内容发起确认，是英语be动词类陈述句改一般疑问句的典型操作。"
+    },
+    {
+      "title": "too的用法",
+      "text": "副词too放在句末，用来呼应前文提到的其他人（萨莉）在花园的情况，表示蒂姆是否也处于同样的状态，避免语义脱节。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原始内容整体合规，存在少量细节疏漏可明确修正（非逐句人工审核）"
+}

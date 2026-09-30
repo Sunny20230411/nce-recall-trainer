@@ -1,0 +1,111 @@
+{
+  "chinese": "我们每年都有这个问题。",
+  "intent": "陈述一个每年都会反复出现的固定情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "We have this problem every year.",
+    "meaning": "我们每年都会遇到这个问题。"
+  },
+  "structureNotes": [
+    {
+      "title": "every year 的位置",
+      "text": "every year 放在句末表示事件发生的频率，说明 have this problem 是每年都会重复发生的常规情况。"
+    },
+    {
+      "title": "一般现在时的用法",
+      "text": "本句使用一般现在时 have，描述长期存在、反复发生的客观事实，不是指此刻正在进行的动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We",
+      "role": "主语",
+      "explanation": "指代说话人一方的多人，是“有问题”这个情况的主体。"
+    },
+    {
+      "text": "have this problem",
+      "role": "谓语+宾语",
+      "explanation": "have 表示“遭遇、经历”，this problem 明确指前文提到的花园照看问题。"
+    },
+    {
+      "text": "every year",
+      "role": "时间状语",
+      "explanation": "修饰 have，说明这件事不是偶然一次，而是每年固定发生。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "have",
+      "meaning": "有，经历",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "this",
+      "meaning": "这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "problem",
+      "meaning": "问题，难题",
+      "pos": "名词",
+      "phonetic": "/ˈprɒbləm/"
+    },
+    {
+      "text": "every",
+      "meaning": "每个",
+      "pos": "限定词",
+      "phonetic": "/ˈevri/"
+    },
+    {
+      "text": "year.",
+      "meaning": "年",
+      "pos": "名词",
+      "phonetic": "/jɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "relation": "描述谁"
+    },
+    {
+      "text": "have this problem",
+      "meaning": "有这个问题",
+      "relation": "描述主体的动作和对象"
+    },
+    {
+      "text": "every year.",
+      "meaning": "每年。",
+      "relation": "说明动作发生的频率时间"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-131",
+  "sentenceId": "nce-1-lesson-131-sentence-017",
+  "sentenceOrder": 17,
+  "english": "We have this problem every year.",
+  "lesson": "Lesson 131 Don't be so sure!",
+  "notes": [
+    {
+      "title": "every year 的位置",
+      "text": "every year 放在句末表示事件发生的频率，说明 have this problem 是每年都会重复发生的常规情况。"
+    },
+    {
+      "title": "一般现在时的用法",
+      "text": "本句使用一般现在时 have，描述长期存在、反复发生的客观事实，不是指此刻正在进行的动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解释准确，仅year词条的词性标注和带句号的释义形式有误。（非逐句人工审核）"
+}

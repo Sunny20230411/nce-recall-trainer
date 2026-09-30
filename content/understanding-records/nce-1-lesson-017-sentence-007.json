@@ -1,0 +1,121 @@
+{
+  "chinese": "这是迈克尔·贝克，这是杰里米·肖特。",
+  "intent": "向在场的人依次介绍两位名叫迈克尔·贝克和杰里米·肖特的人，完成人物引荐的日常交流。",
+  "comparison": null,
+  "backbone": {
+    "text": "This is Michael Baker, and this is Jeremy Short.",
+    "meaning": "分别介绍两位人物的身份，说明当前指向的两个人分别是迈克尔·贝克和杰里米·肖特。"
+  },
+  "parts": [
+    {
+      "text": "This is Michael Baker,",
+      "relation": "介绍第一个人的完整信息",
+      "meaning": "当前指向的人是迈克尔·贝克"
+    },
+    {
+      "text": "and",
+      "relation": "衔接前后两个介绍分句",
+      "meaning": "起到连接作用"
+    },
+    {
+      "text": "this is Jeremy Short.",
+      "relation": "介绍第二个人的完整信息",
+      "meaning": "当前指向的人是杰里米·肖特"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "并列介绍结构",
+      "text": "本句用and连接两个完全对等的主系表介绍分句，无需调整语序，依次带出两位被介绍人的姓名，承接前文对键盘操作员群体的总述，符合当面引荐的日常交流表达习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "This is Michael Baker",
+      "role": "第一个介绍分句",
+      "explanation": "用于引出第一位被介绍的人物，说明当前指向的人是谁。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个语义平等的介绍分句，没有主次之分。"
+    },
+    {
+      "text": "this is Jeremy Short.",
+      "role": "第二个介绍分句",
+      "explanation": "用于引出第二位被介绍的人物，完成整个人物引荐的流程。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这",
+      "pos": "指示代词",
+      "phonetic": "/ðɪs/",
+      "text": "This"
+    },
+    {
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "迈克尔（男子人名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈmaɪkl/",
+      "text": "Michael"
+    },
+    {
+      "meaning": "贝克（姓氏，后接分句伴随逗号）",
+      "pos": "专有名词",
+      "phonetic": "/ˈbeɪkə(r)/",
+      "text": "Baker,"
+    },
+    {
+      "meaning": "和、并且",
+      "pos": "并列连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "这",
+      "pos": "指示代词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "杰里米（男子人名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈdʒerəmi/",
+      "text": "Jeremy"
+    },
+    {
+      "meaning": "肖特（姓氏，句末带句号）",
+      "pos": "专有名词",
+      "phonetic": "/ʃɔːt/",
+      "text": "Short."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-17",
+  "sentenceId": "nce-1-lesson-017-sentence-007",
+  "sentenceOrder": 7,
+  "english": "This is Michael Baker, and this is Jeremy Short.",
+  "lesson": "Lesson 17 How do you do?",
+  "notes": [
+    {
+      "title": "并列介绍结构",
+      "text": "本句用and连接两个完全对等的主系表介绍分句，无需调整语序，依次带出两位被介绍人的姓名，承接前文对键盘操作员群体的总述，符合当面引荐的日常交流表达习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析框架合规，仅存在局部细节表述瑕疵，可通过补丁修正完善内容准确性。（非逐句人工审核）"
+}

@@ -1,0 +1,117 @@
+{
+  "chinese": "我每天都得浇水。",
+  "intent": "说明过去日常必须给某对象浇水的情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "I had to water it.",
+    "meaning": "我得给它浇水。"
+  },
+  "structureNotes": [
+    {
+      "title": "had to 表过去必须",
+      "text": "had to 表示过去或转述中的“必须、不得不”，后接动词原形 water，说明当时每天都有浇水的义务。"
+    },
+    {
+      "title": "every day 说明频率",
+      "text": "every day 放在句末，说明浇水动作每天发生；it 指代前文提到的植物或需要浇水的对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "动作的发出者，指说话人自己。"
+    },
+    {
+      "text": "had to water it",
+      "role": "谓语",
+      "explanation": "had to 与动词原形 water 构成，表示过去必须做的动作；it 是 water 的对象。"
+    },
+    {
+      "text": "every day",
+      "role": "时间状语",
+      "explanation": "说明浇水动作的频率。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "had",
+      "meaning": "（have to 的过去式）不得不，必须",
+      "pos": "动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "to",
+      "meaning": "与 had 构成 have to",
+      "pos": "不定式符号",
+      "phonetic": "/tu:; tə/"
+    },
+    {
+      "text": "water",
+      "meaning": "浇水",
+      "pos": "动词",
+      "phonetic": "/ˈwɔːtə(r)/"
+    },
+    {
+      "text": "it",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "every",
+      "meaning": "每一",
+      "pos": "形容词",
+      "phonetic": "/ˈevri/"
+    },
+    {
+      "text": "day.",
+      "meaning": "天",
+      "pos": "名词",
+      "phonetic": "/deɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "主语",
+      "meaning": "我"
+    },
+    {
+      "text": "had to water it",
+      "relation": "谓语",
+      "meaning": "不得不给它浇水"
+    },
+    {
+      "text": "every day.",
+      "relation": "时间频率",
+      "meaning": "每天。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-125",
+  "sentenceId": "nce-1-lesson-125-sentence-010",
+  "sentenceOrder": 10,
+  "english": "I had to water it every day.",
+  "lesson": "Lesson 125 Tea for two",
+  "notes": [
+    {
+      "title": "had to 表过去必须",
+      "text": "had to 表示过去或转述中的“必须、不得不”，后接动词原形 water，说明当时每天都有浇水的义务。"
+    },
+    {
+      "title": "every day 说明频率",
+      "text": "every day 放在句末，说明浇水动作每天发生；it 指代前文提到的植物或需要浇水的对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句整体语义与主干分析基本正确，词表、结构拆分存在少量可明确修正的细节：动词water的英式音标缺失/r/卷舌标记，名词day的词条错误带上句末句号导致音标与文本不匹配，其余指代关系、语法成分划分均符合原句逻辑，无原则性错误。（非逐句人工审核）"
+}

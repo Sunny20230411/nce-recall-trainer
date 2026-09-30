@@ -1,0 +1,213 @@
+{
+  "chinese": "下午，她通常去见朋友。她们常常一起喝茶。",
+  "intent": "描述一天中的午后固定日常：她见朋友，二人结伴喝茶。",
+  "comparison": null,
+  "backbone": {
+    "text": "She usually sees her friends. They often drink tea together.",
+    "meaning": "她通常见朋友，她们常一起喝茶。"
+  },
+  "structureNotes": [
+    {
+      "title": "频度副词说明习惯",
+      "text": "usually和often都是频度副词，放在主语后、实义动词前，表示这是反复发生的日常行为，不是某一次偶然发生的动作。"
+    },
+    {
+      "title": "时间短语点明时段",
+      "text": "In the afternoon放在句首作时间状语，说明这一段日常活动发生在午间用餐之后的下午时段。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "In the afternoon",
+      "role": "时间状语",
+      "explanation": "介词短语放在句首，说明后一句动作发生在下午时段，呼应前文的“at noon”形成时间顺序。"
+    },
+    {
+      "text": "she",
+      "role": "前一句主语",
+      "explanation": "指代前文出现的女性，是“见朋友”这个动作的发出者。"
+    },
+    {
+      "text": "usually",
+      "role": "前一句频度状语",
+      "explanation": "表示“见朋友”是日常习惯性动作，并非偶尔为之。"
+    },
+    {
+      "text": "sees",
+      "role": "前一句谓语动词",
+      "explanation": "用一般现在时的第三人称单数形式，表达长期稳定的日常安排。"
+    },
+    {
+      "text": "her friends",
+      "role": "前一句宾语",
+      "explanation": "是“见”这个动作的对象，指代和她交好的友人。"
+    },
+    {
+      "text": "They",
+      "role": "后一句主语",
+      "explanation": "指代前一句的“she”和她的“her friends”，也就是她与她的朋友们一行人。"
+    },
+    {
+      "text": "often",
+      "role": "后一句频度状语",
+      "explanation": "表示“一起喝茶”是她们见面时经常进行的活动。"
+    },
+    {
+      "text": "drink",
+      "role": "后一句谓语动词",
+      "explanation": "用一般现在时表达习惯性的共同行为。"
+    },
+    {
+      "text": "tea",
+      "role": "后一句宾语",
+      "explanation": "是“喝”这个动作的对象，指饮茶这件事。"
+    },
+    {
+      "text": "together",
+      "role": "后一句伴随状语",
+      "explanation": "说明喝茶的动作是大家共同参与、结伴进行的，点明聚会的性质。"
+    }
+  ],
+  "words": [
+    {
+      "text": "In",
+      "meaning": "在……期间",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（表示特指，此处不单独译出）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "afternoon,",
+      "meaning": "下午",
+      "pos": "名词",
+      "phonetic": "/ˌɑːftəˈnuːn/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词（主格）",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "usually",
+      "meaning": "通常",
+      "pos": "副词",
+      "phonetic": "/ˈjuːʒuəli/"
+    },
+    {
+      "text": "sees",
+      "meaning": "见面、会见",
+      "pos": "动词（第三人称单数）",
+      "phonetic": "/siːz/"
+    },
+    {
+      "text": "her",
+      "meaning": "她的",
+      "pos": "代词（所有格）",
+      "phonetic": "/hə(r)/"
+    },
+    {
+      "text": "friends.",
+      "meaning": "朋友（复数）",
+      "pos": "名词（复数）",
+      "phonetic": "/frendz/"
+    },
+    {
+      "text": "They",
+      "meaning": "她们（主格）",
+      "pos": "代词（主格复数）",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "often",
+      "meaning": "经常、常常",
+      "pos": "副词",
+      "phonetic": "/ˈɒfn/"
+    },
+    {
+      "text": "drink",
+      "meaning": "喝、饮用",
+      "pos": "动词",
+      "phonetic": "/drɪŋk/"
+    },
+    {
+      "text": "tea",
+      "meaning": "茶",
+      "pos": "名词",
+      "phonetic": "/tiː/"
+    },
+    {
+      "text": "together.",
+      "meaning": "一起、一同",
+      "pos": "副词",
+      "phonetic": "/təˈɡeðə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "In the afternoon,",
+      "meaning": "在下午",
+      "relation": "时间"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "relation": "前一句主语"
+    },
+    {
+      "text": "usually",
+      "meaning": "通常",
+      "relation": "频度"
+    },
+    {
+      "text": "sees her friends.",
+      "meaning": "见她的朋友",
+      "relation": "前一句主谓宾核心内容"
+    },
+    {
+      "text": "They",
+      "meaning": "她们",
+      "relation": "后一句主语"
+    },
+    {
+      "text": "often",
+      "meaning": "常常",
+      "relation": "频度"
+    },
+    {
+      "text": "drink tea",
+      "meaning": "喝茶",
+      "relation": "后一句主谓宾核心内容"
+    },
+    {
+      "text": "together.",
+      "meaning": "一起",
+      "relation": "后一句伴随状态"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-55",
+  "sentenceId": "nce-1-lesson-055-sentence-006",
+  "sentenceOrder": 6,
+  "english": "In the afternoon, she usually sees her friends. They often drink tea together.",
+  "lesson": "Lesson 55 The Sawyer family",
+  "notes": [
+    {
+      "title": "频度副词说明习惯",
+      "text": "usually和often都是频度副词，放在主语后、实义动词前，表示这是反复发生的日常行为，不是某一次偶然发生的动作。"
+    },
+    {
+      "title": "时间短语点明时段",
+      "text": "In the afternoon放在句首作时间状语，说明这一段日常活动发生在午间用餐之后的下午时段。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析总体结构清晰、词义与语法角色基本准确。存在三处可精确修正的小问题：1. intent中错误提及人物为“母亲”，原文未明确指代其身份；2. 时间状语的解释多余关联了未出现在当前句子中的“傍晚孩子放学”内容；3. 拆分词汇中，afternoon与friends后附带了句中标点，未纯取单词文本，且词汇表遗漏对together的收录。以上修正不影响整体理解准确性。（非逐句人工审核）"
+}

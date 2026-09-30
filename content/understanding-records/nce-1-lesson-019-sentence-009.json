@@ -1,0 +1,81 @@
+{
+  "chinese": "给你们，孩子们。",
+  "intent": "说话人把物品递给面前的孩子们时，告知孩子们可以接过物品，同时对着孩子们发出称呼。",
+  "comparison": null,
+  "backbone": {
+    "text": "Here you are, children.",
+    "meaning": "把物品递给在场的孩子们，完成递物时的告知动作和对孩子们的称呼。"
+  },
+  "parts": [
+    {
+      "text": "Here you are,",
+      "relation": "传递物品时的告知内容",
+      "meaning": "这是你们的东西，递过去给你/你们"
+    },
+    {
+      "text": "children.",
+      "relation": "告知动作的面向对象",
+      "meaning": "孩子们，称呼在场的孩子们"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "递物常用表达",
+      "text": "\"Here you are\" 是英语口语里递东西给对方时的固定日常说法，不需要按字面直译成\"你在这儿\"，专门用于告知对方可以接过所递的物品。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Here you are",
+      "role": "递物告知常用语",
+      "explanation": "在递出物品的场景下直接使用，向接收物品的人传达物品已递出的信息。"
+    },
+    {
+      "text": "children",
+      "role": "称呼语",
+      "explanation": "用来点明这句话的说话对象是在场的孩子们，放在句末做称呼使用。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这里（本句搭配固定表示递物给对方）",
+      "pos": "adverb",
+      "phonetic": "/hɪə/",
+      "text": "Here"
+    },
+    {
+      "meaning": "你们",
+      "pos": "pronoun",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "是，存在（本句为固定搭配组成部分）",
+      "pos": "verb",
+      "phonetic": "/ɑː(r)/",
+      "text": "are,"
+    },
+    {
+      "meaning": "孩子们",
+      "pos": "noun",
+      "phonetic": "/ˈtʃɪldrən/",
+      "text": "children."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-19",
+  "sentenceId": "nce-1-lesson-019-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Here you are, children.",
+  "lesson": "Lesson 19 Tired and thirsty",
+  "notes": [
+    {
+      "title": "递物常用表达",
+      "text": "\"Here you are\" 是英语口语里递东西给对方时的固定日常说法，不需要按字面直译成\"你在这儿\"，专门用于告知对方可以接过所递的物品。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原始内容整体符合解析要求，仅存在部分细节疏漏与表述不够严谨的问题，可修正完善。（非逐句人工审核）"
+}

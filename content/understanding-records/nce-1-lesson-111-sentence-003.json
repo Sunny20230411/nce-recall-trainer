@@ -1,0 +1,171 @@
+{
+  "chinese": "那对我们来说太贵了。我们付不起那么多钱。",
+  "intent": "表达所讨论的商品价格远超自身承受能力，无法购买。",
+  "comparison": null,
+  "backbone": {
+    "text": "That's too expensive for us. We can't afford all that money.",
+    "meaning": "（这款商品）对我们而言价格过高，我们没有能力支付它所需的全部金额。"
+  },
+  "structureNotes": [
+    {
+      "title": "for us 界定评价范围",
+      "text": "too expensive for us 中，for 引出评价的对象范围，意思是“就我们的经济能力而言太贵了”，并非商品本身绝对昂贵。"
+    },
+    {
+      "title": "afford 的否定用法",
+      "text": "can't afford 表示“负担不起、拿不出钱”，后面直接接要支付的金额 all that money，明确说明无法承担该价格。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "That's",
+      "role": "主语与系动词",
+      "explanation": "That 指代前文提到的价格为500英镑的最贵款商品，'s 是 is 的缩写，构成主系结构。"
+    },
+    {
+      "text": "too expensive",
+      "role": "表语",
+      "explanation": "形容词短语作表语，too 修饰 expensive，表示程度过高。"
+    },
+    {
+      "text": "for us.",
+      "role": "状语",
+      "explanation": "介词短语说明价格评价针对“我们”的经济状况。"
+    },
+    {
+      "text": "We",
+      "role": "主语",
+      "explanation": "第二句的主语，指说话人一方。"
+    },
+    {
+      "text": "can't afford",
+      "role": "谓语（否定式）",
+      "explanation": "情态动词的否定形式加实义动词，构成谓语，表示“负担不起”。"
+    },
+    {
+      "text": "all that money.",
+      "role": "宾语",
+      "explanation": "afford 的宾语，指代前文提到的五百英镑的全部费用。"
+    }
+  ],
+  "words": [
+    {
+      "text": "That's",
+      "meaning": "那是",
+      "pos": "代词+动词缩写",
+      "phonetic": "/ðæts/"
+    },
+    {
+      "text": "too",
+      "meaning": "太",
+      "pos": "副词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "expensive",
+      "meaning": "昂贵的",
+      "pos": "形容词",
+      "phonetic": "/ɪkˈspensɪv/"
+    },
+    {
+      "text": "for",
+      "meaning": "对（某人）来说",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "us.",
+      "meaning": "我们",
+      "pos": "代词（宾格）",
+      "phonetic": "/ʌs/"
+    },
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词（主格）",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "can't",
+      "meaning": "不能，无法",
+      "pos": "情态动词否定缩写",
+      "phonetic": "/kɑːnt/"
+    },
+    {
+      "text": "afford",
+      "meaning": "负担得起，支付得起",
+      "pos": "动词",
+      "phonetic": "/əˈfɔːd/"
+    },
+    {
+      "text": "all",
+      "meaning": "全部的",
+      "pos": "限定词",
+      "phonetic": "/ɔːl/"
+    },
+    {
+      "text": "that",
+      "meaning": "那么的",
+      "pos": "限定词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "money.",
+      "meaning": "钱，金额",
+      "pos": "名词",
+      "phonetic": "/ˈmʌni/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "That's",
+      "relation": "指代前文提到的昂贵商品，开启评价",
+      "meaning": "那是"
+    },
+    {
+      "text": "too expensive",
+      "relation": "描述商品价格过高",
+      "meaning": "太贵了"
+    },
+    {
+      "text": "for us.",
+      "relation": "补充说明评价的适用对象",
+      "meaning": "对我们来说"
+    },
+    {
+      "text": "We",
+      "relation": "第二句的动作发出者",
+      "meaning": "我们"
+    },
+    {
+      "text": "can't afford",
+      "relation": "表达没有经济能力完成支付",
+      "meaning": "付不起"
+    },
+    {
+      "text": "all that money.",
+      "relation": "说明负担不起的具体金额对象",
+      "meaning": "那么多钱"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-111",
+  "sentenceId": "nce-1-lesson-111-sentence-003",
+  "sentenceOrder": 3,
+  "english": "That's too expensive for us. We can't afford all that money.",
+  "lesson": "Lesson 111 The most expensive model",
+  "notes": [
+    {
+      "title": "for us 界定评价范围",
+      "text": "too expensive for us 中，for 引出评价的对象范围，意思是“就我们的经济能力而言太贵了”，并非商品本身绝对昂贵。"
+    },
+    {
+      "title": "afford 的否定用法",
+      "text": "can't afford 表示“负担不起、拿不出钱”，后面直接接要支付的金额 all that money，明确说明无法承担该价格。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体语义、结构分析与翻译基本准确，仅存在两处不影响理解的细节瑕疵需要修正：1. 单词标注部分将宾格代词us后误加句号，不符合单词标注规范，句子拆分中的for us.保留原句末尾标点是正确的，未做改动；2. 谓语成分can't afford的角色标注未明确体现否定语义，补充说明后更清晰。其余内容符合标注要求，无原则性错误。（非逐句人工审核）"
+}

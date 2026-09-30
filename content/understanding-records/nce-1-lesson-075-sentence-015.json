@@ -1,0 +1,116 @@
+{
+  "chinese": "这些鞋现在很流行。",
+  "intent": "说明当前这类鞋处于流行样式的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "These shoes are in fashion.",
+    "meaning": "这些鞋是流行的样式。"
+  },
+  "structureNotes": [
+    {
+      "title": "in fashion 是固定表达",
+      "text": "be 动词后用介词短语 in fashion 作表语，表示“正在流行、合乎时尚”，不是“在时尚里面”的字面位置关系。"
+    },
+    {
+      "title": "时间状语 now",
+      "text": "now 放在句末修饰全句，说明“流行”是当前时段的状态，不描述鞋本身的物理位置。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "These shoes",
+      "role": "主语",
+      "explanation": "These 修饰复数名词 shoes，指说话双方都知道的那一类鞋。"
+    },
+    {
+      "text": "are",
+      "role": "系动词",
+      "explanation": "连接主语和后面的表语，说明主语当前的状态。"
+    },
+    {
+      "text": "in fashion",
+      "role": "表语",
+      "explanation": "固定介词短语，表示“流行、入时”。"
+    },
+    {
+      "text": "now",
+      "role": "时间状语",
+      "explanation": "说明这种流行状态是当前的。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这些",
+      "pos": "限定词",
+      "phonetic": "/ðiːz/",
+      "text": "These"
+    },
+    {
+      "meaning": "鞋子（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈʃuːz/",
+      "text": "shoes"
+    },
+    {
+      "meaning": "是（be 动词复数形式）",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "处于…状态",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "时尚；流行样式",
+      "pos": "名词",
+      "phonetic": "/ˈfæʃn/",
+      "text": "fashion"
+    },
+    {
+      "meaning": "现在。",
+      "pos": "副词",
+      "phonetic": "/naʊ/",
+      "text": "now."
+    }
+  ],
+  "parts": [
+    {
+      "text": "These shoes",
+      "relation": "句子描述的主体",
+      "meaning": "这些鞋"
+    },
+    {
+      "text": "are in fashion",
+      "relation": "说明主语的流行状态",
+      "meaning": "是流行的"
+    },
+    {
+      "text": "now.",
+      "relation": "补充说明状态所处的时间",
+      "meaning": "现在。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-75",
+  "sentenceId": "nce-1-lesson-075-sentence-015",
+  "sentenceOrder": 15,
+  "english": "These shoes are in fashion now.",
+  "lesson": "Lesson 75 Uncomfortable shoes",
+  "notes": [
+    {
+      "title": "in fashion 是固定表达",
+      "text": "be 动词后用介词短语 in fashion 作表语，表示“正在流行、合乎时尚”，不是“在时尚里面”的字面位置关系。"
+    },
+    {
+      "title": "时间状语 now",
+      "text": "now 放在句末修饰全句，说明“流行”是当前时段的状态，不描述鞋本身的物理位置。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干完整，系表结构标注正确，in fashion 作为固定介词短语作表语的解释清楚，时间状语 now 的修饰对象说明准确，未将其误认为位置描述，整体内容符合事实，可予通过。（非逐句人工审核）"
+}

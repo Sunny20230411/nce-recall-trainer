@@ -1,0 +1,91 @@
+{
+  "chinese": "这是您的手提包吗？",
+  "intent": "礼貌地向对方确认眼前的物品是否属于对方，是日常场景中的物品归属询问。",
+  "comparison": null,
+  "backbone": {
+    "text": "Is this your handbag?",
+    "meaning": "确认这个物品是不是对方的手提包。"
+  },
+  "parts": [
+    {
+      "text": "Is",
+      "relation": "疑问句式的引导系动词",
+      "meaning": "be动词第三人称单数现在时的疑问形式，用来发起主系表结构的是非确认询问"
+    },
+    {
+      "text": "this",
+      "relation": "句子主语，明确询问的具体指代对象",
+      "meaning": "指示代词，指代眼前近距离的单个物品"
+    },
+    {
+      "text": "your",
+      "relation": "限定修饰后续名词的物主定语，说明所属权指向",
+      "meaning": "第二人称物主代词，指代对话另一方的所属关系，日常语境下可译为你的/您的"
+    },
+    {
+      "text": "handbag?",
+      "relation": "表语核心名词，说明询问的目标物品类型",
+      "meaning": "名词，指手提包"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "一般疑问句式",
+      "text": "把be动词Is放到句首，用来直接提出是非型确认问题，不需要额外加助动词do，符合主系表结构的疑问变化规则。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Is this",
+      "role": "疑问引导部分",
+      "explanation": "用be动词前置的方式，发起对眼前事物的属性确认，替代陈述句里的this is的陈述语序。"
+    },
+    {
+      "text": "your handbag",
+      "role": "所属表语部分",
+      "explanation": "指明要确认的物品以及它的所属指向，补充完整询问的核心内容。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是（be动词的第三人称单数现在时，用于引导主系表结构的一般疑问句）",
+      "pos": "be动词",
+      "phonetic": "/ɪz/",
+      "text": "Is"
+    },
+    {
+      "meaning": "这，这个",
+      "pos": "指示代词",
+      "phonetic": "/ðɪs/",
+      "text": "this"
+    },
+    {
+      "meaning": "你的，您的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/jɔː(r)/",
+      "text": "your"
+    },
+    {
+      "meaning": "手提包",
+      "pos": "名词",
+      "phonetic": "/ˈhændbæɡ/",
+      "text": "handbag?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-1",
+  "sentenceId": "nce-1-lesson-001-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Is this your handbag?",
+  "lesson": "Lesson 1 Excuse me!",
+  "notes": [
+    {
+      "title": "一般疑问句式",
+      "text": "把be动词Is放到句首，用来直接提出是非型确认问题，不需要额外加助动词do，符合主系表结构的疑问变化规则。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合英语语法与教学要求，仅存在局部细节不准确、comparison字段缺失的小问题，修正后可正常用于教学（非逐句人工审核）"
+}

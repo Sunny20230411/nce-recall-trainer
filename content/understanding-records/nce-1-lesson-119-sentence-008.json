@@ -1,0 +1,105 @@
+{
+  "chinese": "“怎么回事？怎么回事？”有人喊道。",
+  "intent": "呈现故事情节：隐藏的小偷忽然听见身后有人出声询问出了什么事。",
+  "comparison": {
+    "chinese": "“怎么回事？怎么回事？”有人喊道。",
+    "english": "“What's up? What's up?” someone called.",
+    "steps": [
+      {
+        "label": "引语前置",
+        "text": "英文重复两次“What's up?”作为直接引语置于句首，后接引述分句 someone called。",
+        "explanation": "这种组织把呼喊内容先呈现出来，强调对方的反应和惊扰；中文保留两次重复，以体现连续呼喊。"
+      },
+      {
+        "label": "引述分句后置",
+        "text": "someone called 说明是谁在喊，但不说明具体身份。",
+        "explanation": "中文习惯把“有人喊道”放在引语之后，符合中文叙事对话的语序。"
+      }
+    ],
+    "takeaway": "英译时先保留连续引语“What's up? What's up?”，再用“有人喊道”交代说话人。"
+  },
+  "backbone": {
+    "text": "Someone called, “What's up?”",
+    "meaning": "有人喊了一句“怎么回事？”"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语放置的位置",
+      "text": "英文把角色说出的引语重复两次“What's up? What's up?”放在句首，后接引述分句 someone called；中文习惯先呈现话语内容，再交代谁说话，使引语和说话人关系清楚。"
+    },
+    {
+      "title": "call 的补语用法",
+      "text": "called 在这里表示“大声说出某句话”，直接引语就是它的内容，不需要再加宾语或介词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's up?'",
+      "role": "直接引语",
+      "explanation": "这是 someone 喊出的原话片段，等于问“怎么回事”。"
+    },
+    {
+      "text": "someone called.",
+      "role": "引述分句",
+      "explanation": "someone 是发出呼喊的人，called 交代动作，没有额外宾语；直接引语补充呼喊的内容。"
+    }
+  ],
+  "words": [
+    {
+      "text": "What's",
+      "meaning": "是什么（what is 的缩写）",
+      "pos": "疑问词组缩写",
+      "phonetic": "/wɒts/"
+    },
+    {
+      "text": "up?'",
+      "meaning": "用作“What's up?”的固定习语成分，表示“近况如何/出什么事”，不单独翻译为“向上”",
+      "pos": "副词（习语成分）",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "someone",
+      "meaning": "有人，某人",
+      "pos": "代词",
+      "phonetic": "/ˈsʌmwʌn/"
+    },
+    {
+      "text": "called.",
+      "meaning": "喊道；大声说出",
+      "pos": "动词过去式",
+      "phonetic": "/kɔːld/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What's up?'",
+      "meaning": "“怎么回事？’",
+      "relation": "直接引语片段，说明某人喊出的话语内容，后续还有重复的“What's up?”合并翻译。"
+    },
+    {
+      "text": "someone called.",
+      "meaning": "有人喊道。",
+      "relation": "引述分句，交代发出呼喊的主体和动作。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-119",
+  "sentenceId": "nce-1-lesson-119-sentence-008",
+  "sentenceOrder": 8,
+  "english": "What's up?' someone called.",
+  "lesson": "Lesson 119 A true story",
+  "notes": [
+    {
+      "title": "直接引语放置的位置",
+      "text": "英文把角色说出的引语重复两次“What's up? What's up?”放在句首，后接引述分句 someone called；中文习惯先呈现话语内容，再交代谁说话，使引语和说话人关系清楚。"
+    },
+    {
+      "title": "call 的补语用法",
+      "text": "called 在这里表示“大声说出某句话”，直接引语就是它的内容，不需要再加宾语或介词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构清晰，主干、引语位置、call 的用法说明基本可靠；存在个别释义误带尾引号、引语块释义不完整的可明确修正问题，且按约定保留分词与分块原文，仅更正词义、词性标签、结构说明和释义。（非逐句人工审核）"
+}

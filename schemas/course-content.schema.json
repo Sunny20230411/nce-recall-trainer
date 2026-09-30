@@ -71,6 +71,7 @@
         "analysisStatus": { "enum": ["pending", "generated", "reviewed", "approved"] },
         "analysisRuleVersion": { "type": ["string", "null"] },
         "reviewNote": { "type": ["string", "null"] },
+        "understanding": { "$ref": "sentence-understanding.schema.json#/$defs/understanding" },
         "tokens": { "type": "array", "items": { "$ref": "#/$defs/token" } },
         "groups": { "type": "array", "items": { "$ref": "#/$defs/group" } },
         "hints": { "$ref": "#/$defs/hints" }

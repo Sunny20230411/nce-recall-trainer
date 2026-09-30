@@ -1,0 +1,77 @@
+{
+  "chinese": "这是什么？",
+  "intent": "当面看着眼前的物品，向对方询问它的具体名称和类别。",
+  "comparison": null,
+  "backbone": {
+    "text": "这是什么？",
+    "meaning": "询问眼前近旁的事物是什么。"
+  },
+  "structureNotes": [
+    {
+      "title": "主语指向眼前近物",
+      "text": "代词this指代距离说话人很近的事物，说话时通常手指着对方刚递过来的字典，在语境里明确指向这份礼物。"
+    },
+    {
+      "title": "疑问结构固定",
+      "text": "这是英语最基础的疑问表达，What's=What is，用be动词的倒装结构询问事物是什么，搭配this就构成“这是什么”的日常问句。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "What's",
+      "role": "疑问结构（疑问代词+系动词）",
+      "explanation": "What's是What is的缩写形式，用来询问事物的内容、类别或名称。"
+    },
+    {
+      "text": "this?",
+      "role": "主语（近指代词）",
+      "explanation": "this是近指代词，指代说话人眼前的这个物品，是该疑问句的被询问主体。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是什么（What is的缩写）",
+      "pos": "疑问代词与be动词缩写",
+      "phonetic": "/wɒts/",
+      "text": "What's"
+    },
+    {
+      "meaning": "这个，这",
+      "pos": "指示代词",
+      "phonetic": "/ðɪs/",
+      "text": "this?"
+    }
+  ],
+  "parts": [
+    {
+      "text": "What's",
+      "relation": "发起疑问，询问眼前事物的属性",
+      "meaning": "是什么"
+    },
+    {
+      "text": "this?",
+      "relation": "限定疑问的指向，明确针对眼前近旁的物品提问",
+      "meaning": "这个？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-105",
+  "sentenceId": "nce-1-lesson-105-sentence-009",
+  "sentenceOrder": 9,
+  "english": "What's this?",
+  "lesson": "Lesson 105 Full of mistakes",
+  "notes": [
+    {
+      "title": "主语指向眼前近物",
+      "text": "代词this指代距离说话人很近的事物，说话时通常手指着对方刚递过来的字典，在语境里明确指向这份礼物。"
+    },
+    {
+      "title": "疑问结构固定",
+      "text": "这是英语最基础的疑问表达，What's=What is，用be动词的倒装结构询问事物是什么，搭配this就构成“这是什么”的日常问句。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合原句语义与语境，仅需微调结构标注的语法角色表述，明确指代成分在疑问句中的语法身份，其余内容均准确无误。（非逐句人工审核）"
+}

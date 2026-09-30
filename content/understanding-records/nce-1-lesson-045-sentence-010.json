@@ -1,0 +1,75 @@
+{
+  "chinese": "给你。",
+  "intent": "日常递出物品时，把东西交给对方的常用客套表达。",
+  "comparison": null,
+  "backbone": {
+    "text": "Here you are 是固定递物客套语，不按字面直译为“你在这里”。",
+    "meaning": "给你，喏。"
+  },
+  "parts": [
+    {
+      "text": "Here you are.",
+      "relation": "完整的递物用语，Here 前置置于句首表示交付事物",
+      "meaning": "给你。"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "固定递物表达",
+      "text": "Here you are 是日常会话中递东西给对方时的固定客套说法，不能按字面直译为“你在这里”，用来表示把对方要的东西递到手上。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Here",
+      "role": "句首副词",
+      "explanation": "用在日常固定习语里，配合语境表示把事物递向对方，不直接表达“你在这儿”的空间含义。"
+    },
+    {
+      "text": "you",
+      "role": "接收对象",
+      "explanation": "指代被递东西的听话人，是这个表达里的接收方。"
+    },
+    {
+      "text": "are",
+      "role": "句末系动词",
+      "explanation": "是这个固定递物习语里的常规搭配成分，不单独承担字面的“存在”含义。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这里，在这里",
+      "pos": "副词",
+      "phonetic": "/hɪə/",
+      "text": "Here"
+    },
+    {
+      "meaning": "你，您",
+      "pos": "代词",
+      "phonetic": "/juː/",
+      "text": "you"
+    },
+    {
+      "meaning": "是（固定表达搭配，无实义）",
+      "pos": "动词",
+      "phonetic": "/ɑː/",
+      "text": "are."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-45",
+  "sentenceId": "nce-1-lesson-045-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Here you are.",
+  "lesson": "Lesson 45 The boss's letter",
+  "notes": [
+    {
+      "title": "固定递物表达",
+      "text": "Here you are 是日常会话中递东西给对方时的固定客套说法，不能按字面直译为“你在这里”，用来表示把对方要的东西递到手上。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体教学解析清晰可用：该句作为递物场景的固定客套语，不按字面理解的说明到位，音标、词性与中文释义基本准确，仅存在两处需订正的小问题：一是words里Here的释义冗余、误加了不该有的场景限定，二是structures对Here和are的语法角色表述过度绝对，易将日常固定习语误判为规整的倒装句语法结论，二者修正后不影响整体使用。（非逐句人工审核）"
+}

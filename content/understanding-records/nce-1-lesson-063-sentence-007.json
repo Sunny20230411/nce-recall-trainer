@@ -1,0 +1,129 @@
+{
+  "chinese": "你还必须再卧床两天。",
+  "intent": "医生向病人传达强制健康建议，明确告知病人需要继续卧床静养，不可以提前下床。",
+  "comparison": null,
+  "backbone": {
+    "text": "You must stay in bed.",
+    "meaning": "你必须卧床，不可以起身下床。"
+  },
+  "structureNotes": [
+    {
+      "title": "情态动词must的强制含义",
+      "text": "must在这里不是表达猜测，而是传递医生基于病情提出的要求，语气带有必须遵守的约束力。"
+    },
+    {
+      "title": "another two days的时间表达",
+      "text": "for another two days整体表示持续的时间长度，another在这里指“额外的、再延续的”，说明病人之前已经卧床，这次需要在已有的基础上再多躺两天。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "You",
+      "role": "主语",
+      "explanation": "指代听话的病人，是执行“卧床”这个要求的人。"
+    },
+    {
+      "text": "must stay in bed",
+      "role": "谓语部分",
+      "explanation": "情态动词must和实义动词短语stay in bed结合，表达说话人提出的强制性要求。"
+    },
+    {
+      "text": "for another two days",
+      "role": "时间状语",
+      "explanation": "说明“stay in bed”这个状态需要持续的额外时长。"
+    }
+  ],
+  "words": [
+    {
+      "text": "You",
+      "meaning": "你（第二人称单数主格）",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "must",
+      "meaning": "必须（表义务、强制要求）",
+      "pos": "情态动词",
+      "phonetic": "/mʌst/"
+    },
+    {
+      "text": "stay",
+      "meaning": "保持（某种状态）",
+      "pos": "动词",
+      "phonetic": "/steɪ/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……内",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "bed",
+      "meaning": "床（卧床休息状态）",
+      "pos": "名词",
+      "phonetic": "/bed/"
+    },
+    {
+      "text": "for",
+      "meaning": "（表持续的时间段）",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "another",
+      "meaning": "再（额外的、另一轮的）",
+      "pos": "限定词",
+      "phonetic": "/əˈnʌðə(r)/"
+    },
+    {
+      "text": "two",
+      "meaning": "二",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "days.",
+      "meaning": "天（复数形式，指天数）",
+      "pos": "名词",
+      "phonetic": "/deɪz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "You",
+      "relation": "提出建议的指向对象",
+      "meaning": "你"
+    },
+    {
+      "text": "must stay in bed",
+      "relation": "向听话人提出的强制要求",
+      "meaning": "必须卧床"
+    },
+    {
+      "text": "for another two days.",
+      "relation": "补充说明卧床要求需要延续的时长",
+      "meaning": "再持续两天"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-63",
+  "sentenceId": "nce-1-lesson-063-sentence-007",
+  "sentenceOrder": 7,
+  "english": "You must stay in bed for another two days.",
+  "lesson": "Lesson 63 Thank you, doctor.",
+  "notes": [
+    {
+      "title": "情态动词must的强制含义",
+      "text": "must在这里不是表达猜测，而是传递医生基于病情提出的要求，语气带有必须遵守的约束力。"
+    },
+    {
+      "title": "another two days的时间表达",
+      "text": "for another two days整体表示持续的时间长度，another在这里指“额外的、再延续的”，说明病人之前已经卧床，这次需要在已有的基础上再多躺两天。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干、结构切分和词义解释整体正确；仅有一处词语注音的标点错误，去掉句号即可。（非逐句人工审核）"
+}

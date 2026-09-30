@@ -1,0 +1,184 @@
+{
+  "chinese": "小偷们扔下手电筒，尽快跑走了。",
+  "intent": "描述小偷被惊到之后接连做出的两个动作，以及跑走的速度程度。",
+  "comparison": {
+    "chinese": "中文先讲小偷扔东西，再讲他们尽快跑走，把速度描述放在“跑走”这个动作的前面。",
+    "english": "英文先描述两个先后动作，再在第二个动作后面用as quickly as they could补充速度。",
+    "steps": [
+      {
+        "label": "先说两个核心动作",
+        "text": "The thieves dropped the torch and ran away",
+        "explanation": "主语the thieves后面先出现两个并列动作dropped the torch和ran away，交代事件的先后顺序。"
+      },
+      {
+        "label": "再补充速度",
+        "text": "as quickly as they could",
+        "explanation": "这部分跟在ran away后面，说明“跑走”这个动作达到了小偷能力范围内最快的程度，相当于“尽他们所能地快”。"
+      }
+    ],
+    "takeaway": "As ... as ...结构可以把程度比较放在被修饰的动作后面，而不是像中文那样放在动作前面。"
+  },
+  "backbone": {
+    "text": "The thieves dropped the torch and ran away.",
+    "meaning": "小偷们扔下手电筒然后跑走了。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列谓语",
+      "text": "dropped the torch和ran away两个动作共用主语the thieves，由and连接，表示先后发生的连贯行为。"
+    },
+    {
+      "title": "as ... as ...比较结构",
+      "text": "as quickly as they could是固定表达，修饰ran away，意思是“以他们能达到的最快速度跑开”，不是比较两个不同的对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The thieves",
+      "role": "主语",
+      "explanation": "指代执行“扔手电筒”和“逃跑”两个动作的人。"
+    },
+    {
+      "text": "dropped the torch",
+      "role": "第一个谓语+宾语",
+      "explanation": "和ran away并列，表示小偷听到声音后先做出的反应。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个先后发生的动作。"
+    },
+    {
+      "text": "ran away",
+      "role": "第二个谓语",
+      "explanation": "表示第二个动作：逃离现场。"
+    },
+    {
+      "text": "as quickly as they could",
+      "role": "状语",
+      "explanation": "修饰ran away，说明逃跑的速度已经达到小偷自身能力的极限。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "（定冠词）这/那（指特定的小偷）",
+      "pos": "article",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "thieves",
+      "meaning": "小偷（复数）",
+      "pos": "noun",
+      "phonetic": "/ˈθiːvz/"
+    },
+    {
+      "text": "dropped",
+      "meaning": "扔下，掉落",
+      "pos": "verb",
+      "phonetic": "/drɒpt/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词）那（指他们拿着的手电筒）",
+      "pos": "article",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "torch",
+      "meaning": "手电筒",
+      "pos": "noun",
+      "phonetic": "/tɔːtʃ/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "conjunction",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "ran",
+      "meaning": "跑（run的过去式）",
+      "pos": "verb",
+      "phonetic": "/ræn/"
+    },
+    {
+      "text": "away",
+      "meaning": "离开",
+      "pos": "adverb",
+      "phonetic": "/əˈweɪ/"
+    },
+    {
+      "text": "as",
+      "meaning": "和……一样",
+      "pos": "adverb",
+      "phonetic": "/æz/"
+    },
+    {
+      "text": "quickly",
+      "meaning": "快地",
+      "pos": "adverb",
+      "phonetic": "/ˈkwɪkli/"
+    },
+    {
+      "text": "as",
+      "meaning": "像……一样",
+      "pos": "conjunction",
+      "phonetic": "/æz/"
+    },
+    {
+      "text": "they",
+      "meaning": "他们",
+      "pos": "pronoun",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "could.",
+      "meaning": "能够（can的过去式，这里指能力范围内）。",
+      "pos": "verb",
+      "phonetic": "/kʊd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The thieves dropped",
+      "meaning": "小偷们扔下",
+      "relation": "主语加第一个动作的开头，引出施事者。"
+    },
+    {
+      "text": "the torch and",
+      "meaning": "手电筒，然后",
+      "relation": "第一个动作的宾语，再用and连接下一个动作。"
+    },
+    {
+      "text": "ran away as",
+      "meaning": "跑走，和……一样",
+      "relation": "第二个核心动作，引出后面的速度修饰。"
+    },
+    {
+      "text": "quickly as they could.",
+      "meaning": "快，像他们能做到的那样。",
+      "relation": "补充说明跑走的速度达到了自身能力的极限。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-119",
+  "sentenceId": "nce-1-lesson-119-sentence-009",
+  "sentenceOrder": 9,
+  "english": "The thieves dropped the torch and ran away as quickly as they could.",
+  "lesson": "Lesson 119 A true story",
+  "notes": [
+    {
+      "title": "并列谓语",
+      "text": "dropped the torch和ran away两个动作共用主语the thieves，由and连接，表示先后发生的连贯行为。"
+    },
+    {
+      "title": "as ... as ...比较结构",
+      "text": "as quickly as they could是固定表达，修饰ran away，意思是“以他们能达到的最快速度跑开”，不是比较两个不同的对象。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体翻译、主干、句法标注和词义解释符合原文，as...as...程度修饰、并列谓语等说明清楚。主要问题是词表中could的音标后错误附带了原句句末的点号，以及部分拆分块的汉语意译略有润色性概括，需要按原文逐块校准。（非逐句人工审核）"
+}

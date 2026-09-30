@@ -1,0 +1,115 @@
+{
+  "chinese": "我没有多少钱。",
+  "intent": "回应对方关于是否有钱的询问，说明自己持有的钱款数量不多。",
+  "comparison": {
+    "chinese": "汉语把“多/少”直接放在名词前面修饰：“没有多少钱”；英文则先承接上一句的some money，后面用代词much指代不可数的钱款，避免重复。",
+    "english": "I haven't got much.",
+    "steps": [
+      {
+        "label": "先明确拥有关系",
+        "text": "haven't got",
+        "explanation": "have got是英语口语中表示“拥有”的常用说法，加not后表示“没有、不拥有”。"
+      },
+      {
+        "label": "再看持有数量",
+        "text": "much",
+        "explanation": "这里的much是代词，承接上文的不可数名词money，意思是“很多（钱）”；I haven't got much字面就是“我没有很多（钱）”。"
+      }
+    ],
+    "takeaway": "英语常用have got表达拥有，并用much直接指代上文提到的不可数名词，不需要重复把money说出来。"
+  },
+  "backbone": {
+    "text": "I haven't got much.",
+    "meaning": "我没有很多钱。"
+  },
+  "structureNotes": [
+    {
+      "title": "have got的用法",
+      "text": "have got是英语口语中表示“拥有”的常见结构，否定式haven't got就等于“没有、不拥有”。"
+    },
+    {
+      "title": "much的指代用法",
+      "text": "上文提到了some money，本句的much直接指代不可数的钱款，避免重复money，字面意思是“很多（钱）”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人本人，是“拥有”这一状态的主体。"
+    },
+    {
+      "text": "haven't got",
+      "role": "谓语",
+      "explanation": "have got的否定形式，表示“没有、不拥有”。"
+    },
+    {
+      "text": "much",
+      "role": "宾语",
+      "explanation": "代词，承接上文的不可数名词money，意思是“很多（钱）”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "haven't",
+      "meaning": "没有（have not的缩写）",
+      "pos": "助动词（have的否定缩略形式）",
+      "phonetic": "/ˈhævnt/"
+    },
+    {
+      "text": "got",
+      "meaning": "拥有（get的过去分词）",
+      "pos": "动词（过去分词）",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "much.",
+      "meaning": "很多（指代不可数的钱款）",
+      "pos": "代词",
+      "phonetic": "/mʌtʃ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "句子的陈述主体。",
+      "meaning": "我"
+    },
+    {
+      "text": "haven't got",
+      "relation": "描述主语所处的否定拥有状态，由haven't got构成。",
+      "meaning": "没有、不拥有"
+    },
+    {
+      "text": "much.",
+      "relation": "说明拥有的对象数量，指代上文提到的不可数钱款。",
+      "meaning": "很多（指代钱）"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-79",
+  "sentenceId": "nce-1-lesson-079-sentence-014",
+  "sentenceOrder": 14,
+  "english": "I haven't got much.",
+  "lesson": "Lesson 79 Carol's shopping list",
+  "notes": [
+    {
+      "title": "have got的用法",
+      "text": "have got是英语口语中表示“拥有”的常见结构，否定式haven't got就等于“没有、不拥有”。"
+    },
+    {
+      "title": "much的指代用法",
+      "text": "上文提到了some money，本句的much直接指代不可数的钱款，避免重复money，字面意思是“很多（钱）”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体标注符合原句和上下文，仅存在两处可明确修正的细节：1. 辅助表达「haven't」的词性标注为「缩略助词」不准确，haven't 是现在完成时的助动词 have 的否定缩略形式，用于构成否定谓语，不属于助词范畴，需修正词性；2. 单词表中 much 的音标后额外标注了句点，需移除多余标点。其余主干结构、指代说明、中英对比、分块关系与翻译释义均准确合理。（非逐句人工审核）"
+}

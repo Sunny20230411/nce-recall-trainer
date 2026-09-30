@@ -1,0 +1,92 @@
+{
+  "chinese": "今天天气很好。",
+  "intent": "告知他人当日的天气状况，说明这是一个晴朗宜人的好天气。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's a fine day",
+    "meaning": "今日是个好天气"
+  },
+  "parts": [
+    {
+      "text": "It's",
+      "relation": "作为句子的主体表述，引出天气的核心描述",
+      "meaning": "它是（此处指代天气）"
+    },
+    {
+      "text": "a fine day",
+      "relation": "补充说明天气的具体状态",
+      "meaning": "一个晴朗宜人的日子"
+    },
+    {
+      "text": "today.",
+      "relation": "限定描述的时间范围",
+      "meaning": "今天"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "It的指代用法",
+      "text": "本句里的It不指代具体实物，是英语里用来指代天气、日期、时间这类抽象概念的常用用法，无需直译成“它”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's a fine day",
+      "role": "主句核心表述",
+      "explanation": "用来直接说明当日天气状况的主干部分"
+    },
+    {
+      "text": "today",
+      "role": "时间状语",
+      "explanation": "明确这个好天气所对应的具体时间"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "它是（此处指代天气）",
+      "pos": "contraction of pronoun and verb (it + is)",
+      "phonetic": "/ɪts/",
+      "text": "It's"
+    },
+    {
+      "meaning": "一（个）",
+      "pos": "indefinite article",
+      "phonetic": "/ə; eɪ/",
+      "text": "a"
+    },
+    {
+      "meaning": "晴朗的，宜人的",
+      "pos": "adjective",
+      "phonetic": "/faɪn/",
+      "text": "fine"
+    },
+    {
+      "meaning": "日子，天",
+      "pos": "noun",
+      "phonetic": "/deɪ/",
+      "text": "day"
+    },
+    {
+      "meaning": "今天",
+      "pos": "adverb",
+      "phonetic": "/təˈdeɪ/",
+      "text": "today."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-33",
+  "sentenceId": "nce-1-lesson-033-sentence-001",
+  "sentenceOrder": 1,
+  "english": "It's a fine day today.",
+  "lesson": "Lesson 33 A fine day",
+  "notes": [
+    {
+      "title": "It的指代用法",
+      "text": "本句里的It不指代具体实物，是英语里用来指代天气、日期、时间这类抽象概念的常用用法，无需直译成“它”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，仅存在局部细节需要规范修正，无核心语法错误或概念偏差（非逐句人工审核）"
+}

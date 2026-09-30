@@ -1,0 +1,86 @@
+{
+  "chinese": "那是谁的衬衫？",
+  "intent": "询问面前指代的那件衬衫所属的人是谁",
+  "comparison": null,
+  "backbone": {
+    "text": "Whose shirt is that?",
+    "meaning": "询问特定指代的衬衫的归属"
+  },
+  "parts": [
+    {
+      "text": "Whose shirt",
+      "relation": "询问的核心对象，聚焦物品的所属关系",
+      "meaning": "谁的衬衫"
+    },
+    {
+      "text": "is",
+      "relation": "连接归属询问和指代事物的判断动词",
+      "meaning": "是"
+    },
+    {
+      "text": "that?",
+      "relation": "明确指向所谈论的具体物品",
+      "meaning": "那（指距离说话人稍远的那件衬衫）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "归属疑问词的语序",
+      "text": "Whose直接修饰后面的名词shirt，构成疑问短语放在句首，be动词is随后提前，最后用that指代远处的物品完成提问，无需额外借助助动词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Whose shirt",
+      "role": "疑问主语部分",
+      "explanation": "点明要询问归属的具体物品，是整个问句围绕的核心"
+    },
+    {
+      "text": "is that",
+      "role": "系动词+指示代词的疑问语序段",
+      "explanation": "将系动词提前到指示代词之前，构成完整的疑问句式，确认指代物品的属性归属"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "谁的",
+      "pos": "疑问代词",
+      "phonetic": "/huːz/",
+      "text": "Whose"
+    },
+    {
+      "meaning": "衬衫",
+      "pos": "名词",
+      "phonetic": "/ʃɜːt/",
+      "text": "shirt"
+    },
+    {
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "那个",
+      "pos": "指示代词",
+      "phonetic": "/ðæt/",
+      "text": "that?"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-11",
+  "sentenceId": "nce-1-lesson-011-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Whose shirt is that?",
+  "lesson": "Lesson 11 Is this your shirt?",
+  "notes": [
+    {
+      "title": "归属疑问词的语序",
+      "text": "Whose直接修饰后面的名词shirt，构成疑问短语放在句首，be动词is随后提前，最后用that指代远处的物品完成提问，无需额外借助助动词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原学习数据整体符合面向中文母语成年人的英语解析要求，仅存在少量细节偏差可明确修正（非逐句人工审核）"
+}

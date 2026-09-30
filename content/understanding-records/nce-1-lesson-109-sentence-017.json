@@ -1,0 +1,151 @@
+{
+  "chinese": "嗯，我的烟很少。我抽得很少。",
+  "intent": "陈述自身香烟存量不足、吸烟量很低的情况。",
+  "comparison": {
+    "chinese": "英语用 few 修饰可数复数名词 cigarettes，用 very little 作副词性短语修饰动词 smoke，来表示‘几乎没有/几乎不’；汉语直接说‘烟很少、抽得很少’，量词语义并置在两句中。",
+    "english": "English uses few with plural countable cigarettes and very little as an adverbial phrase modifying the verb smoke, so the second sentence doesn’t repeat a noun.",
+    "steps": [
+      {
+        "label": "区分可数复数与动词后程度",
+        "text": "very few cigarettes；smoke very little",
+        "explanation": "cigarettes 是可数复数，几乎没有用 few；smoke 后 very little 作状语，表示吸烟量极少。"
+      },
+      {
+        "label": "避免重复",
+        "text": "I smoke very little",
+        "explanation": "这里用 very little 直接说明吸烟量，不必重复量词或香烟名词。"
+      }
+    ],
+    "takeaway": "few 修饰可数复数，very little 修饰动词表示动作量很少；二者在口语里常形成对照。"
+  },
+  "backbone": {
+    "text": "I have very few cigarettes. I smoke very little.",
+    "meaning": "我手里几乎没有香烟，吸烟量也非常少。"
+  },
+  "structureNotes": [
+    {
+      "title": "few 与 little 的选择",
+      "text": "few 后接可数复数名词 cigarettes，表示数量少到几乎没有；very little 在此作副词性短语修饰动词 smoke，表示吸烟量极少。"
+    },
+    {
+      "title": "very 的强化作用",
+      "text": "very 放在 few/little 前，把‘少’强化为‘非常少、几乎没有/几乎不’，而不是完全没有。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Well,",
+      "role": "语气插入语",
+      "explanation": "Well 是口语中表示停顿、思忖或话题转折的语气词。"
+    },
+    {
+      "text": "I have very few cigarettes.",
+      "role": "主谓宾陈述句",
+      "explanation": "主语 I，谓语 have，宾语 very few cigarettes，说明拥有香烟的数量极少。"
+    },
+    {
+      "text": "I smoke very little.",
+      "role": "主谓状陈述句",
+      "explanation": "主语 I，谓语 smoke，very little 作状语说明吸烟量非常少。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Well,",
+      "meaning": "嗯（语气词）",
+      "pos": "感叹词",
+      "phonetic": "/wel/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "have",
+      "meaning": "有",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "few",
+      "meaning": "很少（修饰可数复数）",
+      "pos": "形容词",
+      "phonetic": "/fjuː/"
+    },
+    {
+      "text": "cigarettes.",
+      "meaning": "香烟",
+      "pos": "名词",
+      "phonetic": "/ˌsɪɡəˈretz/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "smoke",
+      "meaning": "吸烟",
+      "pos": "动词",
+      "phonetic": "/sməʊk/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "little.",
+      "meaning": "很少（修饰动词表示动作量）",
+      "pos": "副词",
+      "phonetic": "/ˈlɪtl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Well,",
+      "relation": "语气停顿",
+      "meaning": "嗯"
+    },
+    {
+      "text": "I have very few cigarettes.",
+      "relation": "第一句主干，说明香烟存量",
+      "meaning": "我的烟很少"
+    },
+    {
+      "text": "I smoke very little.",
+      "relation": "第二句主干，补充吸烟量",
+      "meaning": "我抽得很少"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-109",
+  "sentenceId": "nce-1-lesson-109-sentence-017",
+  "sentenceOrder": 17,
+  "english": "Well, I have very few cigarettes. I smoke very little.",
+  "lesson": "Lesson 109 A good idea",
+  "notes": [
+    {
+      "title": "few 与 little 的选择",
+      "text": "few 后接可数复数名词 cigarettes，表示数量少到几乎没有；very little 在此作副词性短语修饰动词 smoke，表示吸烟量极少。"
+    },
+    {
+      "title": "very 的强化作用",
+      "text": "very 放在 few/little 前，把‘少’强化为‘非常少、几乎没有/几乎不’，而不是完全没有。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原理解整体通顺，词块划分、主干与结构关系基本可用；但 little 的句法解释需更准确：第二句的 very little 是副词性程度短语，修饰 smoke，不能笼统说成替代不可数 smoke 作代词使用；cigarettes 的音标采用英式标准形式。（非逐句人工审核）"
+}

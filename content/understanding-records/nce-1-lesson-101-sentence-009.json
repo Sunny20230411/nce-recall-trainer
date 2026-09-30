@@ -1,0 +1,125 @@
+{
+  "chinese": "他说他很快会写信。他希望我们大家都好。‘爱你的，吉米。’",
+  "intent": "转述吉米在明信片中表达的个人计划，说明他近期会给家人写信。",
+  "comparison": null,
+  "backbone": {
+    "text": "He says he'll write a letter.",
+    "meaning": "他说自己会写信。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略that的宾语从句",
+      "text": "says后省略了引导宾语从句的that，直接衔接he'll write a letter，从句用来交代“说”的具体内容。"
+    },
+    {
+      "title": "he'll的时态含义",
+      "text": "he'll是he will的缩写，表将来的计划或承诺，说明写信是他打算近期做的事。"
+    },
+    {
+      "title": "soon的位置",
+      "text": "soon放在句末，修饰从句里的write，表示“很快”就会写信，不改变主句“他说”的转述性质。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主句主语",
+      "explanation": "指写信人吉米，是转述动作的发出者。"
+    },
+    {
+      "text": "says",
+      "role": "主句谓语",
+      "explanation": "表示转述某人说过的话，主语为第三人称单数，使用一般现在时。"
+    },
+    {
+      "text": "he'll write a letter soon",
+      "role": "宾语从句",
+      "explanation": "作says的宾语，省略that引导，从句主语he指代吉米，will write表将来动作，write a letter为“写信”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "says",
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/sez/"
+    },
+    {
+      "text": "he'll",
+      "meaning": "他将（he will的缩写）",
+      "pos": "缩写",
+      "phonetic": "/hiːl/"
+    },
+    {
+      "text": "write",
+      "meaning": "写",
+      "pos": "动词",
+      "phonetic": "/raɪt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一封",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "letter",
+      "meaning": "信",
+      "pos": "名词",
+      "phonetic": "/ˈletə(r)/"
+    },
+    {
+      "text": "soon.",
+      "meaning": "很快，不久",
+      "pos": "副词",
+      "phonetic": "/suːn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "主句主语，是转述动作的发出者。",
+      "meaning": "他"
+    },
+    {
+      "text": "says",
+      "relation": "主句谓语，引出后面的转述内容。",
+      "meaning": "说"
+    },
+    {
+      "text": "he'll write a letter soon.",
+      "relation": "作says的宾语，是他说话的具体内容。",
+      "meaning": "他很快会写信。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-101",
+  "sentenceId": "nce-1-lesson-101-sentence-009",
+  "sentenceOrder": 9,
+  "english": "He says he'll write a letter soon.",
+  "lesson": "Lesson 101 A card from Jimmy",
+  "notes": [
+    {
+      "title": "省略that的宾语从句",
+      "text": "says后省略了引导宾语从句的that，直接衔接he'll write a letter，从句用来交代“说”的具体内容。"
+    },
+    {
+      "title": "he'll的时态含义",
+      "text": "he'll是he will的缩写，表将来的计划或承诺，说明写信是他打算近期做的事。"
+    },
+    {
+      "title": "soon的位置",
+      "text": "soon放在句末，修饰从句里的write，表示“很快”就会写信，不改变主句“他说”的转述性质。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干与从句功能说明正确，soon的修饰对象无误。词表仅需去掉soon音标后的多余点号。（非逐句人工审核）"
+}

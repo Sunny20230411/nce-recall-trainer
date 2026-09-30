@@ -1,0 +1,148 @@
+{
+  "chinese": "我想和你谈谈你弟弟蒂姆的事。",
+  "intent": "说话人表达此前想要和对方进行沟通的意愿，并点明这次谈话的核心主题是对方的弟弟蒂姆。",
+  "comparison": null,
+  "backbone": {
+    "text": "I wanted to speak to you about Tim.",
+    "meaning": "我此前想和你聊聊蒂姆的事。"
+  },
+  "structureNotes": [
+    {
+      "title": "wanted to do 表过去的意愿",
+      "text": "wanted 用过去时，指的是说话人在见到对方之前就抱有的想要沟通的想法，而不是现在临时起意；结合上下文可理解为“我当时就想找你谈谈”。"
+    },
+    {
+      "title": "about your brother Tim 限定谈话主题",
+      "text": "about 介词短语紧跟在 speak to you 后面，明确划出这次谈话的范围，所有交流内容都围绕蒂姆展开，避免听者误解成要谈其他无关话题。"
+    },
+    {
+      "title": "同位语点明身份",
+      "text": "your brother 和 Tim 指同一个人，用同位结构直接把名字和亲属身份绑定，不用额外说成 your brother who is called Tim，表达更紧凑。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "句子动作的发出者，指代说话人本人。"
+    },
+    {
+      "text": "wanted to speak to you",
+      "role": "谓语部分",
+      "explanation": "表达主语过去的意愿是“想要和你交谈”，是句子的核心动作内容。"
+    },
+    {
+      "text": "about your brother Tim",
+      "role": "方面状语",
+      "explanation": "由 about 引出，补充说明这次交谈围绕的具体对象和话题。"
+    },
+    {
+      "text": "your brother Tim",
+      "role": "介词宾语（同位名词结构）",
+      "explanation": "your brother 是身份，Tim 是名字，二者同指一人，共同作为 about 的宾语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "wanted",
+      "meaning": "想要（want 的过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈwɒntɪd/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "speak",
+      "meaning": "谈话、交谈",
+      "pos": "动词",
+      "phonetic": "/spiːk/"
+    },
+    {
+      "text": "to",
+      "meaning": "和、对（引出交谈对象）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你（你们）",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "about",
+      "meaning": "关于、有关（引出谈话主题）",
+      "pos": "介词",
+      "phonetic": "/əˈbaʊt/"
+    },
+    {
+      "text": "your",
+      "meaning": "你的、你们的",
+      "pos": "代词所有格",
+      "phonetic": "/jɔː(r)/"
+    },
+    {
+      "text": "brother",
+      "meaning": "弟弟（或哥哥）",
+      "pos": "名词",
+      "phonetic": "/ˈbrʌðə(r)/"
+    },
+    {
+      "text": "Tim.",
+      "meaning": "蒂姆（人名）",
+      "pos": "专有名词",
+      "phonetic": "/tɪm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "动作的发出者，是整句话的主语。"
+    },
+    {
+      "text": "wanted to speak to you",
+      "meaning": "想要和你交谈",
+      "relation": "表达过去的意愿，是句子的核心动作内容。"
+    },
+    {
+      "text": "about your brother Tim.",
+      "meaning": "关于你弟弟蒂姆（的事）",
+      "relation": "补充说明这次交谈围绕的具体话题和对象。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-139",
+  "sentenceId": "nce-1-lesson-139-sentence-004",
+  "sentenceOrder": 4,
+  "english": "I wanted to speak to you about your brother Tim.",
+  "lesson": "Lesson 139 Is that you, John?",
+  "notes": [
+    {
+      "title": "wanted to do 表过去的意愿",
+      "text": "wanted 用过去时，指的是说话人在见到对方之前就抱有的想要沟通的想法，而不是现在临时起意；结合上下文可理解为“我当时就想找你谈谈”。"
+    },
+    {
+      "title": "about your brother Tim 限定谈话主题",
+      "text": "about 介词短语紧跟在 speak to you 后面，明确划出这次谈话的范围，所有交流内容都围绕蒂姆展开，避免听者误解成要谈其他无关话题。"
+    },
+    {
+      "title": "同位语点明身份",
+      "text": "your brother 和 Tim 指同一个人，用同位结构直接把名字和亲属身份绑定，不用额外说成 your brother who is called Tim，表达更紧凑。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析与原文功能相符，wanted 的过去时意愿、about 短语的话题限定、your brother 与 Tim 的同位关系均说明清楚；仅需把所有兄弟关系明确为“弟弟”，避免在已给出上下文的句中泛称。（非逐句人工审核）"
+}

@@ -1,0 +1,159 @@
+{
+  "chinese": "你们旅行是坐船还是坐飞机？",
+  "intent": "向对话对象询问出行时选择交通方式的两种可能选项。",
+  "comparison": {
+    "chinese": "你们旅行是坐船还是坐飞机？",
+    "english": "Will you travel by sea or by air?",
+    "steps": [
+      {
+        "label": "主干先定核心事件",
+        "text": "Will you travel...",
+        "explanation": "先确认双方讨论的核心是出行旅行这件事，Will提前到句首表示这是提出询问的疑问句式，指向对方的出行计划。"
+      },
+      {
+        "label": "并列选项后接",
+        "text": "by sea or by air",
+        "explanation": "用or连接两个对等的交通方式选项，by sea对应乘船走海路，by air对应乘飞机走空路，两个介词短语共用前面的travel，不需要重复说出travel。"
+      }
+    ],
+    "takeaway": "英语先抛出询问的出行核心事件，再在后半段用or并列两个交通方式选项；中文将选择项放在旅行的动作之前，更符合日常表达顺序。"
+  },
+  "backbone": {
+    "text": "Will you travel by sea or by air?",
+    "meaning": "询问对方打算选择乘船还是乘飞机的方式出行。"
+  },
+  "structureNotes": [
+    {
+      "title": "选择疑问句的倒装",
+      "text": "助动词Will移到句首放在主语you之前，构成询问出行意愿的选择疑问句式，句末用问号，对应中文带选择问句的语气。"
+    },
+    {
+      "title": "并列结构与省略",
+      "text": "or连接两个对等的介词交通方式短语by sea和by air，两个短语共用前面的谓语动词travel，第二个by air不需要重复说出travel即可保留完整语义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Will",
+      "role": "疑问助动词",
+      "explanation": "表示询问对方未来的出行意愿，位于句首构成选择疑问句的倒装结构。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "句子询问的对象，即对话中的对方。"
+    },
+    {
+      "text": "travel",
+      "role": "谓语动词",
+      "explanation": "核心动作，指出行旅行，两个交通方式短语都用来修饰这个动作。"
+    },
+    {
+      "text": "by sea",
+      "role": "交通方式状语（选择项一）",
+      "explanation": "表示乘船、走海路的出行方式，是or连接的第一个选择项。"
+    },
+    {
+      "text": "or",
+      "role": "并列选择连词",
+      "explanation": "连接两个对等的交通方式选项，构成选择疑问句的对比关系。"
+    },
+    {
+      "text": "by air",
+      "role": "交通方式状语（选择项二）",
+      "explanation": "表示乘飞机、走空路的出行方式，是or连接的第二个选择项，末尾的问号属于全句句末标点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Will",
+      "meaning": "将；会（用于疑问句询问意愿）",
+      "pos": "modal verb",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "pronoun",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "travel",
+      "meaning": "旅行；出行",
+      "pos": "verb",
+      "phonetic": "/ˈtrævl/"
+    },
+    {
+      "text": "by",
+      "meaning": "乘（某种交通工具）",
+      "pos": "preposition",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "sea",
+      "meaning": "海；海路",
+      "pos": "noun",
+      "phonetic": "/siː/"
+    },
+    {
+      "text": "or",
+      "meaning": "或者；还是",
+      "pos": "conjunction",
+      "phonetic": "/ɔː(r)/"
+    },
+    {
+      "text": "by",
+      "meaning": "乘（某种交通工具）",
+      "pos": "preposition",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "air?",
+      "meaning": "空气；航空",
+      "pos": "noun",
+      "phonetic": "/eə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Will you travel",
+      "meaning": "你们是打算出行旅行吗",
+      "relation": "发起询问的核心主体部分，点明讨论的核心出行事件，后续接选择项。"
+    },
+    {
+      "text": "by sea",
+      "meaning": "通过海路（乘船）",
+      "relation": "补充第一种可选的交通出行方式，后续接选择连词。"
+    },
+    {
+      "text": "or",
+      "meaning": "还是",
+      "relation": "连接前后两种对立的交通方式选项，表选择关系。"
+    },
+    {
+      "text": "by air?",
+      "meaning": "通过航空（坐飞机）",
+      "relation": "补充第二种可选的交通出行方式，和前一项构成并列选择。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-83",
+  "sentenceId": "nce-1-lesson-083-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Will you travel by sea or by air?",
+  "lesson": "Lesson 83 Going on holiday",
+  "notes": [
+    {
+      "title": "选择疑问句的倒装",
+      "text": "助动词Will移到句首放在主语you之前，构成询问出行意愿的选择疑问句式，句末用问号，对应中文带选择问句的语气。"
+    },
+    {
+      "title": "并列结构与省略",
+      "text": "or连接两个对等的介词交通方式短语by sea和by air，两个短语共用前面的谓语动词travel，第二个by air不需要重复说出travel即可保留完整语义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原整体解析可被理解，但存在三类可明确修正的小问题：一是将本句的语法类型表述为普通一般疑问句，未点明它属于选择疑问句；二是单词air的音标错误把句末问号纳入了音标范围，且标注的搭配说明不符合音标规则；三是前两个内容分块的中文释义缺少后续选择问的衔接提示，容易被误读为孤立的一般疑问片段。其余主干、成分角色、短语结构和语境词义均正确，无需改动。（非逐句人工审核）"
+}

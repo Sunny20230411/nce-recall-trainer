@@ -1,0 +1,202 @@
+{
+  "chinese": "当然可以。您可以先付三十英镑定金，然后三年内每月付十四英镑。",
+  "intent": "店员回应顾客能不能分期付款的询问，说明具体的付款方案：先支付一笔定金，之后按月持续支付，总周期为三年。",
+  "comparison": null,
+  "backbone": {
+    "text": "You can pay a deposit of thirty pounds, and then fourteen pounds a month for three years.",
+    "meaning": "顾客被允许先付30英镑定金，之后每月付14英镑，该付款方式持续三年。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列付款项的省略逻辑",
+      "text": "and then之后省略了重复的you can pay，因为前后都是描述付款的内容，并列时不必重复已出现的支付动作。"
+    },
+    {
+      "title": "for表持续时间",
+      "text": "for three years说明按月支付的动作要持续多久，不是指总共付三年的钱，也不是仅付三年。"
+    },
+    {
+      "title": "名词短语直接作修饰",
+      "text": "a month直接跟在fourteen pounds后，说明金额对应的频率是每月，不需要额外加介词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Of course.",
+      "role": "独立应答短句",
+      "explanation": "单独成句，直接回应上文中顾客提出的“能不能分期付款”的疑问，表示肯定同意。"
+    },
+    {
+      "text": "You can pay",
+      "role": "分句主干",
+      "explanation": "情态动词can表示许可，pay是本句的核心谓语动词，引出所有付款相关内容。"
+    },
+    {
+      "text": "a deposit of thirty pounds",
+      "role": "第一个付款宾语",
+      "explanation": "是pay的第一个直接宾语，指先支付的定金，of thirty pounds说明定金的金额。"
+    },
+    {
+      "text": "and then fourteen pounds a month for three years",
+      "role": "并列的第二组付款说明",
+      "explanation": "承接前面的pay，并列说明后续月供：每月十四英镑，持续三年。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Of",
+      "meaning": "与course构成固定表达，表示当然、可以",
+      "pos": "副词性习语成分",
+      "phonetic": "ɒv"
+    },
+    {
+      "text": "course.",
+      "meaning": "与of构成固定表达，表示当然、可以",
+      "pos": "名词",
+      "phonetic": "kɔːs"
+    },
+    {
+      "text": "You",
+      "meaning": "您（此处指顾客）",
+      "pos": "代词",
+      "phonetic": "juː"
+    },
+    {
+      "text": "can",
+      "meaning": "可以，能够（表示许可）",
+      "pos": "情态动词",
+      "phonetic": "kæn"
+    },
+    {
+      "text": "pay",
+      "meaning": "支付",
+      "pos": "动词",
+      "phonetic": "peɪ"
+    },
+    {
+      "text": "a",
+      "meaning": "一笔（修饰deposit）",
+      "pos": "冠词",
+      "phonetic": "ə"
+    },
+    {
+      "text": "deposit",
+      "meaning": "定金，押金",
+      "pos": "名词",
+      "phonetic": "dɪˈpɒzɪt"
+    },
+    {
+      "text": "of",
+      "meaning": "用于连接名词与具体金额，无实义",
+      "pos": "介词",
+      "phonetic": "ɒv"
+    },
+    {
+      "text": "thirty",
+      "meaning": "三十",
+      "pos": "数词",
+      "phonetic": "ˈθɜːti"
+    },
+    {
+      "text": "pounds,",
+      "meaning": "英镑（复数）",
+      "pos": "名词",
+      "phonetic": "paʊndz"
+    },
+    {
+      "text": "and",
+      "meaning": "然后，和（连接并列付款项）",
+      "pos": "连词",
+      "phonetic": "ænd"
+    },
+    {
+      "text": "then",
+      "meaning": "之后，然后",
+      "pos": "副词",
+      "phonetic": "ðen"
+    },
+    {
+      "text": "fourteen",
+      "meaning": "十四",
+      "pos": "数词",
+      "phonetic": "ˌfɔːˈtiːn"
+    },
+    {
+      "text": "pounds",
+      "meaning": "英镑（复数）",
+      "pos": "名词",
+      "phonetic": "paʊndz"
+    },
+    {
+      "text": "a",
+      "meaning": "无单独实义，与month结合表示每月",
+      "pos": "冠词",
+      "phonetic": "ə"
+    },
+    {
+      "text": "month",
+      "meaning": "月，月份",
+      "pos": "名词",
+      "phonetic": "mʌnθ"
+    },
+    {
+      "text": "for",
+      "meaning": "表动作持续的时长，长达……",
+      "pos": "介词",
+      "phonetic": "fɔː(r)"
+    },
+    {
+      "text": "three",
+      "meaning": "三",
+      "pos": "数词",
+      "phonetic": "θriː"
+    },
+    {
+      "text": "years.",
+      "meaning": "年（复数）",
+      "pos": "名词",
+      "phonetic": "ˈjɪəz"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Of course.",
+      "meaning": "当然可以。",
+      "relation": "直接回应顾客的询问，表示同意。"
+    },
+    {
+      "text": "You can pay a deposit of thirty pounds,",
+      "meaning": "您可以支付三十英镑的定金",
+      "relation": "说明付款方案的第一步：先付定金。"
+    },
+    {
+      "text": "and then fourteen pounds a month for three years.",
+      "meaning": "然后在三年里每月支付十四英镑。",
+      "relation": "并列说明付款方案的后续部分：月供金额、支付频率和总时长。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-111",
+  "sentenceId": "nce-1-lesson-111-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Of course. You can pay a deposit of thirty pounds, and then fourteen pounds a month for three years.",
+  "lesson": "Lesson 111 The most expensive model",
+  "notes": [
+    {
+      "title": "并列付款项的省略逻辑",
+      "text": "and then之后省略了重复的you can pay，因为前后都是描述付款的内容，并列时不必重复已出现的支付动作。"
+    },
+    {
+      "title": "for表持续时间",
+      "text": "for three years说明按月支付的动作要持续多久，不是指总共付三年的钱，也不是仅付三年。"
+    },
+    {
+      "title": "名词短语直接作修饰",
+      "text": "a month直接跟在fourteen pounds后，说明金额对应的频率是每月，不需要额外加介词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体主干、结构切分和语境释义基本可用。修正两个词汇切分错误：Of course 是固定习语，不应拆成两个单词单独标注意义；冠词 of 的释义错误，a 也不应标注为“每一”，此处只是直接表达“每月”。其余分句层级、省略说明、for 表持续时间与英式音标均可保留。（非逐句人工审核）"
+}

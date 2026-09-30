@@ -1,0 +1,129 @@
+{
+  "chinese": "突然，他们听见身后有个声音。",
+  "intent": "叙事：突然出现意外的听觉事件。",
+  "comparison": null,
+  "backbone": {
+    "text": "they heard a voice",
+    "meaning": "他们听到了声音"
+  },
+  "structureNotes": [
+    {
+      "title": "behind them",
+      "text": "behind them 放在 voice 后面，说明声音的位置是“在他们身后”，而不是他们在身后。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Suddenly,",
+      "role": "句首性状语",
+      "explanation": "说明事件发生得突然，修饰整个句子。"
+    },
+    {
+      "text": "they",
+      "role": "主语",
+      "explanation": "执行“听见”的人。"
+    },
+    {
+      "text": "heard",
+      "role": "谓语动词",
+      "explanation": "表示过去发生的动作“听见”。"
+    },
+    {
+      "text": "a voice",
+      "role": "宾语",
+      "explanation": "听见的对象是“声音”。"
+    },
+    {
+      "text": "behind them.",
+      "role": "后置修饰语",
+      "explanation": "说明声音的位置是“在他们身后”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Suddenly,",
+      "meaning": "突然",
+      "pos": "副词",
+      "phonetic": "/ˈsʌdnli/"
+    },
+    {
+      "text": "they",
+      "meaning": "他们",
+      "pos": "代词（主格）",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "heard",
+      "meaning": "听见（hear 的过去式）",
+      "pos": "动词",
+      "phonetic": "/hɜːd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个（此处为不定冠词，搭配不可数voice表示某类声音，中文无需直译）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "voice",
+      "meaning": "声音",
+      "pos": "名词",
+      "phonetic": "/vɔɪs/"
+    },
+    {
+      "text": "behind",
+      "meaning": "在……后面",
+      "pos": "介词",
+      "phonetic": "/bɪˈhaɪnd/"
+    },
+    {
+      "text": "them.",
+      "meaning": "他们（宾格）",
+      "pos": "代词",
+      "phonetic": "/ðem/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Suddenly,",
+      "meaning": "突然",
+      "relation": "全句的事件发生状态"
+    },
+    {
+      "text": "they",
+      "meaning": "他们",
+      "relation": "动作发出者"
+    },
+    {
+      "text": "heard",
+      "meaning": "听见",
+      "relation": "核心动作"
+    },
+    {
+      "text": "a voice",
+      "meaning": "声音",
+      "relation": "动作对象"
+    },
+    {
+      "text": "behind them.",
+      "meaning": "在他们身后",
+      "relation": "补充说明声音的位置"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-119",
+  "sentenceId": "nce-1-lesson-119-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Suddenly, they heard a voice behind them.",
+  "lesson": "Lesson 119 A true story",
+  "notes": [
+    {
+      "title": "behind them",
+      "text": "behind them 放在 voice 后面，说明声音的位置是“在他们身后”，而不是他们在身后。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，主干、结构说明和翻译无实质性错误，仅存在少量措辞优化空间：句首Suddenly的功能描述可更精准，a voice中不定冠词在中文无对应实义，释义无需刻意翻译出“一个”。（非逐句人工审核）"
+}

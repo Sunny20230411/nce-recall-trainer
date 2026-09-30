@@ -1,0 +1,131 @@
+{
+  "chinese": "哦，我已经看过了。",
+  "intent": "回应对方提及的电影《巴黎之春》，说明自己此前已经看过这部电影。",
+  "comparison": {
+    "chinese": "汉语说“我已经看过了”，“已经”直接放在动作前。",
+    "english": "Oh, I've already seen it.",
+    "steps": [
+      {
+        "label": "先交代主语和时间状态",
+        "text": "I've = I have，搭配 already 表示“已经”。",
+        "explanation": "英语通过 have seen 的现在完成时交代“看”这件事到现在为止已经发生，already 位于助动词和过去分词之间。"
+      },
+      {
+        "label": "再放回宾语",
+        "text": "seen it 指看过那部电影。",
+        "explanation": "it 承接上文提到的“Paris in the Spring”，不重复说电影名。"
+      }
+    ],
+    "takeaway": "already 的位置和 have seen 一起表达“到目前为止已经看过”，it 指代前面提到的那部电影。"
+  },
+  "backbone": {
+    "text": "I've seen it.",
+    "meaning": "我已经看过它了。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时的语气",
+      "text": "have seen 表示“看”这个动作在说话之前已经完成，结果是“现在知道内容、不必再看”，不是单纯描述过去某一次看的动作。"
+    },
+    {
+      "title": "代词 it 的指代",
+      "text": "it 指代上文提到的电影《Paris in the Spring》，避免重复电影名。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Oh",
+      "role": "感叹词",
+      "explanation": "表示说话人的轻反应，如“哦”。"
+    },
+    {
+      "text": "I've",
+      "role": "主语 + 助动词",
+      "explanation": "I 是主语，have 是现在完成时的助动词。"
+    },
+    {
+      "text": "already",
+      "role": "副词",
+      "explanation": "表示“已经”，放在助动词和过去分词之间。"
+    },
+    {
+      "text": "seen",
+      "role": "过去分词",
+      "explanation": "和 have 构成现在完成时，表示“看过”。"
+    },
+    {
+      "text": "it",
+      "role": "宾语",
+      "explanation": "指代上文提到的电影。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Oh,",
+      "meaning": "哦",
+      "pos": "感叹词",
+      "phonetic": "əʊ"
+    },
+    {
+      "text": "I've",
+      "meaning": "我已经（I have 的缩写）",
+      "pos": "代词+助动词",
+      "phonetic": "aɪv"
+    },
+    {
+      "text": "already",
+      "meaning": "已经",
+      "pos": "副词",
+      "phonetic": "ɔːlˈredi"
+    },
+    {
+      "text": "seen",
+      "meaning": "看过（see 的过去分词）",
+      "pos": "动词",
+      "phonetic": "siːn"
+    },
+    {
+      "text": "it.",
+      "meaning": "它（指那部电影）",
+      "pos": "代词",
+      "phonetic": "ɪt"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Oh,",
+      "meaning": "哦，",
+      "relation": "回应对方提及电影的轻感叹。"
+    },
+    {
+      "text": "I've already seen",
+      "meaning": "我已经看过",
+      "relation": "说明主语与动作的时间状态。"
+    },
+    {
+      "text": "it.",
+      "meaning": "它了。",
+      "relation": "动作的对象，指代对方提及的电影。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-85",
+  "sentenceId": "nce-1-lesson-085-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Oh, I've already seen it.",
+  "lesson": "Lesson 85 Paris in the spring",
+  "notes": [
+    {
+      "title": "现在完成时的语气",
+      "text": "have seen 表示“看”这个动作在说话之前已经完成，结果是“现在知道内容、不必再看”，不是单纯描述过去某一次看的动作。"
+    },
+    {
+      "title": "代词 it 的指代",
+      "text": "it 指代上文提到的电影《Paris in the Spring》，避免重复电影名。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：现有内容整体准确，仅存在几处可明确修正的细节问题：部分短语块的释义不完整，遗漏了核心语义；comparison的步骤顺序应贴合英语的线性组织逻辑；单词条目缺少对应标点。（非逐句人工审核）"
+}

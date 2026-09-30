@@ -1,0 +1,59 @@
+{
+  "chinese": "明天下午。",
+  "intent": "这是对话中的省略回答，承接前一句的否定答复，说明搬家这个事件具体发生的时间，让表达更简洁。",
+  "comparison": null,
+  "backbone": {
+    "text": "（He will move to his new house） tomorrow afternoon.",
+    "meaning": "（他将在）明天下午（搬去新家）。"
+  },
+  "structureNotes": [
+    {
+      "title": "省略式时间表达",
+      "text": "这是日常对话中的惯用省略形式，完整语义是“搬家这件事发生在明天下午”，因为上文已经用No回答了对方询问“他下周就要搬家了对吗”，所以回答里不需要重复“他下周搬家”这类冗余信息，直接点明正确时间即可，符合口语简洁的特点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Tomorrow afternoon.",
+      "role": "省略式时间短语",
+      "explanation": "在对话中直接用时间短语作答，省略了上文已经出现过的相关主谓部分，只保留核心时间信息，用来纠正或补充事件发生的具体时间。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "明天",
+      "pos": "名词",
+      "phonetic": "/təˈmɒrəʊ/",
+      "text": "Tomorrow"
+    },
+    {
+      "meaning": "下午",
+      "pos": "名词",
+      "phonetic": "/ˌɑːftəˈnuːn/",
+      "text": "afternoon."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Tomorrow afternoon.",
+      "relation": "点明事件发生的时间",
+      "meaning": "明天下午。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-91",
+  "sentenceId": "nce-1-lesson-091-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Tomorrow afternoon.",
+  "lesson": "Lesson 91 Poor Ian!",
+  "notes": [
+    {
+      "title": "省略式时间表达",
+      "text": "这是日常对话中的惯用省略形式，完整语义是“搬家这件事发生在明天下午”，因为上文已经用No回答了对方询问“他下周就要搬家了对吗”，所以回答里不需要重复“他下周搬家”这类冗余信息，直接点明正确时间即可，符合口语简洁的特点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：该句为日常对话中省略主谓的时间短句，现有释义、主干还原、结构说明、单词标注与分块逻辑均准确贴合上下文语境，不存在事实、语法或翻译类错误。（非逐句人工审核）"
+}

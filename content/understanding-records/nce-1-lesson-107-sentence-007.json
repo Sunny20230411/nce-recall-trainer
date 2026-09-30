@@ -1,0 +1,127 @@
+{
+  "chinese": "您想试试吗？",
+  "intent": "礼貌地向对方发出提议，询问对方是否想要试穿/试用当前讨论的衣物。",
+  "comparison": {
+    "chinese": "你想试试吗？",
+    "english": "Would you like to try it?",
+    "steps": [
+      {
+        "label": "用Would开头软化提议",
+        "text": "Would you like…",
+        "explanation": "Would放在句首，是把you would like…这个表达“想要”的结构变成礼貌问句，比直接说Do you want更客气，服务场景常用。"
+      },
+      {
+        "label": "like后接to try it",
+        "text": "to try it",
+        "explanation": "would like后面习惯接to do结构，这里it指代前文正在说的那件衣服，表示提议对方去试。"
+      }
+    ],
+    "takeaway": "Would you like to do…就是“礼貌地问对方想不想做某事”，比直接用Do you want更委婉客气。"
+  },
+  "backbone": {
+    "text": "Would you like to try it?",
+    "meaning": "礼貌地询问对方是否愿意试穿/试用它。"
+  },
+  "structureNotes": [
+    {
+      "title": "would like的礼貌用法",
+      "text": "would like后通常接带to的动词不定式，表示“想要/愿意做某事”；将would移到主语you前面，就构成了比Do you want更委婉的礼貌询问句式。"
+    },
+    {
+      "title": "代词it的指代",
+      "text": "句末的it指代语境中提到的那一件衣物，避免重复说出完整衣物名称。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Would",
+      "role": "情态动词",
+      "explanation": "此处是情态动词will的过去式形式，用于构成委婉的礼貌询问，放在句首提前表疑问。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "该疑问句的询问对象，指听话的顾客。"
+    },
+    {
+      "text": "like",
+      "role": "谓语动词",
+      "explanation": "和would搭配构成固定表达would like，表示“想要、愿意”，语气比want更客气。"
+    },
+    {
+      "text": "to try it",
+      "role": "动词不定式短语作宾语",
+      "explanation": "would like后面的宾语部分，其中it指代前文提到的衣物，表示提议对方去试穿。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Would",
+      "meaning": "（will的过去式，构成委婉语气）将、愿意",
+      "pos": "modal verb",
+      "phonetic": "/wʊd/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；您",
+      "pos": "pronoun",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "like",
+      "meaning": "想要；喜欢",
+      "pos": "verb",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "particle",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "try",
+      "meaning": "尝试；试穿",
+      "pos": "verb",
+      "phonetic": "/traɪ/"
+    },
+    {
+      "text": "it?",
+      "meaning": "它？（指代前文提到的衣物）",
+      "pos": "pronoun",
+      "phonetic": "/ɪt?/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Would you like",
+      "relation": "礼貌问句的主体框架，用Would提前构成委婉询问，引出核心提议",
+      "meaning": "您想要"
+    },
+    {
+      "text": "to try it?",
+      "relation": "补充说明like后面的具体提议内容，it指代前文提及的衣物",
+      "meaning": "试试它？"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-107",
+  "sentenceId": "nce-1-lesson-107-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Would you like to try it?",
+  "lesson": "Lesson 107 It's too small.",
+  "notes": [
+    {
+      "title": "would like的礼貌用法",
+      "text": "would like后通常接带to的动词不定式，表示“想要/愿意做某事”；将would移到主语you前面，就构成了比Do you want更委婉的礼貌询问句式。"
+    },
+    {
+      "title": "代词it的指代",
+      "text": "句末的it指代语境中提到的那一件衣物，避免重复说出完整衣物名称。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合句子语义和教学要求，仅存在两处表述细节可优化：1. words板块中it?单元的音标未包含句末问号，与拼写不一致；2. structures板块中将Would标注为助动词的表述不够精准，Would作为will的过去式属于情态动词范畴，与原文中would like的用法属性不符。其余翻译、句子主干、结构注释、对比说明、语块拆分等内容均准确合理。（非逐句人工审核）"
+}

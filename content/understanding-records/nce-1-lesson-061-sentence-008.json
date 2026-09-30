@@ -1,0 +1,100 @@
+{
+  "chinese": "因为他不喜欢上学！",
+  "intent": "解释前文“为什么这是好消息”的原因——孩子不喜欢上学，因此不用去学校让说话人觉得开心。",
+  "comparison": null,
+  "backbone": {
+    "text": "He doesn't like school!",
+    "meaning": "他不喜欢上学！这是整句的核心意思，用doesn't like表达明确的否定态度。"
+  },
+  "structureNotes": [
+    {
+      "title": "Because引出原因分句",
+      "text": "Because放在句首，直接承接上一句的why提问，说明前面这件事能成为好消息的原因，本句省略了前面的主句，只保留原因部分。"
+    },
+    {
+      "title": "一般现在时的否定构成",
+      "text": "主语he是第三人称单数，用doesn't（does not的缩写）+动词原形like构成一般现在时的否定句，表达他一贯的态度。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Because",
+      "role": "从属连词",
+      "explanation": "引导原因状语从句，解释前文现象的原因。"
+    },
+    {
+      "text": "he",
+      "role": "主语",
+      "explanation": "指代语境中提到的男孩，是动作的发出者。"
+    },
+    {
+      "text": "doesn't like school!",
+      "role": "谓语部分",
+      "explanation": "doesn't是助动词do的第三人称单数否定形式，和实义动词like一起构成否定谓语，school是like的宾语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Because",
+      "meaning": "因为",
+      "pos": "连词",
+      "phonetic": "/bɪˈkɒz/"
+    },
+    {
+      "text": "he",
+      "meaning": "他（主格）",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "doesn't",
+      "meaning": "不（does not的缩写，构成一般现在时第三人称单数的否定）",
+      "pos": "助动词缩写",
+      "phonetic": "/ˈdʌznt/"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢",
+      "pos": "动词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "school!",
+      "meaning": "学校；（此处指）上学",
+      "pos": "名词",
+      "phonetic": "/skuːl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Because",
+      "meaning": "因为",
+      "relation": "原因引导词，承接上文的why提问。"
+    },
+    {
+      "text": "he doesn't like school!",
+      "meaning": "他不喜欢上学！",
+      "relation": "核心的原因内容，说明他不喜欢上学的事实。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-61",
+  "sentenceId": "nce-1-lesson-061-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Because he doesn't like school!",
+  "lesson": "Lesson 61 A bad cold",
+  "notes": [
+    {
+      "title": "Because引出原因分句",
+      "text": "Because放在句首，直接承接上一句的why提问，说明前面这件事能成为好消息的原因，本句省略了前面的主句，只保留原因部分。"
+    },
+    {
+      "title": "一般现在时的否定构成",
+      "text": "主语he是第三人称单数，用doesn't（does not的缩写）+动词原形like构成一般现在时的否定句，表达他一贯的态度。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析主干完整，时态说明正确；只对指代和语境表述做更稳妥的限定。未提供课文前文，不能把 he 的所指固定为“生病的男孩”；school 在语境中泛指上学这件事，补充语境可避免误解为具体校舍。（非逐句人工审核）"
+}

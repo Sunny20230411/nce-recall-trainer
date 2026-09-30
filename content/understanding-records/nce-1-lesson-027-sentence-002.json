@@ -1,0 +1,117 @@
+{
+  "chinese": "房间里有一台电视机。",
+  "intent": "说明房间内存在一台电视机这个客观事实",
+  "comparison": null,
+  "backbone": {
+    "text": "There is a television",
+    "meaning": "存在一台电视机"
+  },
+  "parts": [
+    {
+      "text": "There is",
+      "relation": "引出存在句式的框架",
+      "meaning": "存在有"
+    },
+    {
+      "text": "a television",
+      "relation": "交代存在的主体事物",
+      "meaning": "一台电视机"
+    },
+    {
+      "text": "in the room.",
+      "relation": "补充说明电视机所在的位置",
+      "meaning": "在这个房间里"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "There be 存在句式",
+      "text": "这里的There没有实际语义，和后面的is配合表示“某地存在某物”，不需要按字面翻译为“那里”。"
+    },
+    {
+      "title": "地点状语的位置",
+      "text": "介词短语in the room放在句子末尾，用来明确说明前面提到的电视机所处的具体空间位置。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There is",
+      "role": "存在句引导框架",
+      "explanation": "用来开启说明某处有某物的表达，is和后面单数的主体名词保持数的一致"
+    },
+    {
+      "text": "a television",
+      "role": "存在主体",
+      "explanation": "是整个句子描述的存在对象，也是实际的语义核心"
+    },
+    {
+      "text": "in the room",
+      "role": "地点修饰状语",
+      "explanation": "限定说明电视机所在的具体空间范围"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "无实际语义，用于引导存在句",
+      "pos": "there",
+      "phonetic": "/ðeə(r)/",
+      "text": "There"
+    },
+    {
+      "meaning": "存在，是",
+      "pos": "系动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "一台（不定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "电视机",
+      "pos": "名词",
+      "phonetic": "/ˈtelɪvɪʒn/",
+      "text": "television"
+    },
+    {
+      "meaning": "在…里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这个（定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "房间",
+      "pos": "名词",
+      "phonetic": "/ruːm/",
+      "text": "room."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-27",
+  "sentenceId": "nce-1-lesson-027-sentence-002",
+  "sentenceOrder": 2,
+  "english": "There is a television in the room.",
+  "lesson": "Lesson 27 Mrs. Smith's living room",
+  "notes": [
+    {
+      "title": "There be 存在句式",
+      "text": "这里的There没有实际语义，和后面的is配合表示“某地存在某物”，不需要按字面翻译为“那里”。"
+    },
+    {
+      "title": "地点状语的位置",
+      "text": "介词短语in the room放在句子末尾，用来明确说明前面提到的电视机所处的具体空间位置。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体结构合规，仅存在局部细节瑕疵可明确修正，未触及核心错误规则（非逐句人工审核）"
+}

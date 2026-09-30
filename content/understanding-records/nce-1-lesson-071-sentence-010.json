@@ -1,0 +1,133 @@
+{
+  "chinese": "是的，打了。他九点打的。",
+  "intent": "回应对方关于“他昨晚有没有打电话”的提问，给出肯定答复，并补充打电话的具体时间。",
+  "comparison": null,
+  "backbone": {
+    "text": "Yes, he did. He telephoned.",
+    "meaning": "确认他昨晚打了电话。"
+  },
+  "structureNotes": [
+    {
+      "title": "简略答语Yes, he did.的构成",
+      "text": "did代指问句里的did he telephone last night，避免重复telephone的完整谓语，完整意思是“是的，他昨晚打电话了”。"
+    },
+    {
+      "title": "at nine o'clock的作用",
+      "text": "介词at加具体钟点表示动作发生的时间，放在telephoned之后，用来补充说明打电话是九点整发生的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes, he did.",
+      "role": "简略肯定答语",
+      "explanation": "对应一般过去时的问句Did he telephone last night?，用助动词did替代前面出现的完整谓语did he telephone last night，避免重复telephone的完整表达，用于给出肯定答复。"
+    },
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文提到的男性，是发出telephone动作的人。"
+    },
+    {
+      "text": "telephoned",
+      "role": "谓语动词",
+      "explanation": "telephone的过去式，表示过去发生的“打电话”的动作。"
+    },
+    {
+      "text": "at nine o'clock",
+      "role": "时间状语",
+      "explanation": "说明打电话这个动作发生的具体时间点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes,",
+      "meaning": "是的",
+      "pos": "感叹词",
+      "phonetic": "/jes/"
+    },
+    {
+      "text": "he",
+      "meaning": "他（主格，指代前文提到的男性）",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "did.",
+      "meaning": "（此处为代动词，代指前面问句里的telephoned last night，避免重复，无实义）",
+      "pos": "动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "He",
+      "meaning": "他（主格，指代前文提到的男性）",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "telephoned",
+      "meaning": "打电话（telephone的过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈtelɪfəʊnd/"
+    },
+    {
+      "text": "at",
+      "meaning": "（用于具体时刻前，表在某点钟）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "nine",
+      "meaning": "九（基数词）",
+      "pos": "数词",
+      "phonetic": "/naɪn/"
+    },
+    {
+      "text": "o'clock.",
+      "meaning": "……点钟",
+      "pos": "副词",
+      "phonetic": "/əˈklɒk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes, he did.",
+      "relation": "针对前文“他昨晚有没有打电话”的提问给出的肯定简略答复。",
+      "meaning": "是的，他打了。"
+    },
+    {
+      "text": "He",
+      "relation": "后半句的主语，指代前文提到的男性。",
+      "meaning": "他"
+    },
+    {
+      "text": "telephoned",
+      "relation": "后半句的核心动作，是主语发出的过去行为。",
+      "meaning": "打了电话"
+    },
+    {
+      "text": "at nine o'clock.",
+      "relation": "补充说明打电话这个动作发生的具体时间。",
+      "meaning": "在九点钟"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-71",
+  "sentenceId": "nce-1-lesson-071-sentence-010",
+  "sentenceOrder": 10,
+  "english": "Yes, he did. He telephoned at nine o'clock.",
+  "lesson": "Lesson 71 He's awful!",
+  "notes": [
+    {
+      "title": "简略答语Yes, he did.的构成",
+      "text": "did代指问句里的did he telephone last night，避免重复telephone的完整谓语，完整意思是“是的，他昨晚打电话了”。"
+    },
+    {
+      "title": "at nine o'clock的作用",
+      "text": "介词at加具体钟点表示动作发生的时间，放在telephoned之后，用来补充说明打电话是九点整发生的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，符合语境，结构、词义、主干与翻译基本一致。仅存在少量表述精度问题，经修正后可通过，无需改动原文及分块顺序。（非逐句人工审核）"
+}

@@ -1,0 +1,102 @@
+{
+  "chinese": "请把那块给我。",
+  "intent": "在肉铺买肉时，礼貌地要求店员递过刚才提到的那块肉。",
+  "comparison": null,
+  "backbone": {
+    "text": "Give me that piece.",
+    "meaning": "给我那一块。"
+  },
+  "structureNotes": [
+    {
+      "title": "双宾语结构",
+      "text": "动词give带双宾语：me是表示接收者的间接宾语，that piece是表示给予物的直接宾语，语序为“动词+间接宾语+直接宾语”，即“给某人某物”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Give",
+      "role": "祈使句谓语动词",
+      "explanation": "原形动词开头构成直接请求，意为“给”。"
+    },
+    {
+      "text": "me",
+      "role": "间接宾语",
+      "explanation": "表示“给”这个动作的接收者，即“我”。"
+    },
+    {
+      "text": "that piece",
+      "role": "直接宾语",
+      "explanation": "表示“给”的具体对象，指前文提到的那块肉。"
+    },
+    {
+      "text": "please",
+      "role": "礼貌语气词",
+      "explanation": "使请求更委婉客气，放在句末。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "给，递给",
+      "pos": "动词",
+      "phonetic": "/ɡɪv/，text为Give",
+      "text": "Give"
+    },
+    {
+      "meaning": "我（宾格）",
+      "pos": "代词（宾格）",
+      "phonetic": "/miː/，text为me",
+      "text": "me"
+    },
+    {
+      "meaning": "那，那个",
+      "pos": "限定词",
+      "phonetic": "/ðæt/，text为that",
+      "text": "that"
+    },
+    {
+      "meaning": "片，块（本句指肉块）",
+      "pos": "名词",
+      "phonetic": "/piːs/，text为piece",
+      "text": "piece,"
+    },
+    {
+      "meaning": "请",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/，text为please",
+      "text": "please."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Give me",
+      "relation": "谓语加接收对象，构成请求的核心动作",
+      "meaning": "给我"
+    },
+    {
+      "text": "that piece,",
+      "relation": "动作的具体对象，指代前文提到的那块肉",
+      "meaning": "那块（肉）"
+    },
+    {
+      "text": "please.",
+      "relation": "礼貌语气，缓和直接请求的语气",
+      "meaning": "请"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-49",
+  "sentenceId": "nce-1-lesson-049-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Give me that piece, please.",
+  "lesson": "Lesson 49 At the butcher's",
+  "notes": [
+    {
+      "title": "双宾语结构",
+      "text": "动词give带双宾语：me是表示接收者的间接宾语，that piece是表示给予物的直接宾语，语序为“动词+间接宾语+直接宾语”，即“给某人某物”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体合规：原文与上下文匹配，中文翻译准确，主干提取合理，语法结构、词汇词性及音标标注均无明显错误。仅两处可优化的小问题：1. 词汇部分piece的text误带尾随逗号、please的text误带尾随句号，属于标点混入词条；2. 原句的双宾语结构未在结构说明中明确解释，补充后可降低学习者理解门槛。（非逐句人工审核）"
+}

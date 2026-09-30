@@ -1,0 +1,161 @@
+{
+  "chinese": "好的，理查兹先生。它有什么问题？",
+  "intent": "先回应上级指令，再针对被要求重新打字的信件提出疑问，询问问题出在哪里。",
+  "comparison": {
+    "chinese": "中文先回应指令并称呼对方，再用“它有什么问题？”提出疑问；英文同样先应答称谓，再用 What's wrong with it? 提问，疑问词 What 位于特殊疑问句开头。",
+    "english": "Yes, Mr. Richards. What's wrong with it?",
+    "steps": [
+      {
+        "label": "应答称谓",
+        "text": "Yes, Mr. Richards.",
+        "explanation": "Yes 表示听到并接受上级要求，Mr. Richards 是对男士的尊称。"
+      },
+      {
+        "label": "询问问题",
+        "text": "What's wrong with it?",
+        "explanation": "What's 是 What is 的缩写；wrong 指“有毛病的、不对的”；with it 指明问题对象；it 指代上文提到的信件。"
+      }
+    ],
+    "takeaway": "What's wrong with it? 用来询问“它怎么了/哪里不对”，with 后接被问的事物。"
+  },
+  "backbone": {
+    "text": "What's wrong with it?",
+    "meaning": "它哪里不对？"
+  },
+  "structureNotes": [
+    {
+      "title": "应答与称谓",
+      "text": "Yes, Mr. Richards. 是对上级指令的简短回应，表示同意或听从。"
+    },
+    {
+      "title": "固定问句结构",
+      "text": "What's wrong with...? 是常用口语句型，用于询问某事物有什么问题或故障。"
+    },
+    {
+      "title": "it 的指代",
+      "text": "it 指代上文提到的“a letter”，避免重复，让对话连贯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "应答语",
+      "explanation": "表示肯定回应，接在上级要求之后。"
+    },
+    {
+      "text": "Mr. Richards.",
+      "role": "称谓",
+      "explanation": "对男性上级的尊称，与 Yes 连用构成完整应答。"
+    },
+    {
+      "text": "What's",
+      "role": "疑问引导",
+      "explanation": "What is 的缩写，置于句首引导特殊疑问句。"
+    },
+    {
+      "text": "wrong",
+      "role": "表语",
+      "explanation": "形容词，意为“出错的、有问题的”，说明状态。"
+    },
+    {
+      "text": "with it?",
+      "role": "介词短语",
+      "explanation": "with 引出问题的对象，it 指代上文的信件。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yes,",
+      "meaning": "是的",
+      "pos": "感叹词",
+      "phonetic": "/jes/"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生（Mister 的缩写）",
+      "pos": "名词（缩写）",
+      "phonetic": "/ˈmɪstə/"
+    },
+    {
+      "text": "Richards.",
+      "meaning": "理查兹（姓氏）",
+      "pos": "专有名词",
+      "phonetic": "/ˈrɪtʃədz/"
+    },
+    {
+      "text": "What's",
+      "meaning": "是什么（What is 的缩写）",
+      "pos": "疑问代词+be动词缩写",
+      "phonetic": "/wɒts/"
+    },
+    {
+      "text": "wrong",
+      "meaning": "有问题的；出错的",
+      "pos": "形容词",
+      "phonetic": "/rɒŋ/"
+    },
+    {
+      "text": "with",
+      "meaning": "关于；对于",
+      "pos": "介词",
+      "phonetic": "/wɪð/"
+    },
+    {
+      "text": "it?",
+      "meaning": "它（指代信件）？",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yes,",
+      "meaning": "好的",
+      "relation": "对上级指令的肯定应答"
+    },
+    {
+      "text": "Mr. Richards.",
+      "meaning": "理查兹先生",
+      "relation": "对话对象的尊称称谓"
+    },
+    {
+      "text": "What's",
+      "meaning": "是什么",
+      "relation": "引导特殊疑问句，构成疑问框架"
+    },
+    {
+      "text": "wrong",
+      "meaning": "不对的、有问题的",
+      "relation": "描述要询问的状态"
+    },
+    {
+      "text": "with it?",
+      "meaning": "它哪里不对？（it 指代上文提到的信件）",
+      "relation": "指明被询问的对象，回应上文信件"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-105",
+  "sentenceId": "nce-1-lesson-105-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Yes, Mr. Richards. What's wrong with it?",
+  "lesson": "Lesson 105 Full of mistakes",
+  "notes": [
+    {
+      "title": "应答与称谓",
+      "text": "Yes, Mr. Richards. 是对上级指令的简短回应，表示同意或听从。"
+    },
+    {
+      "title": "固定问句结构",
+      "text": "What's wrong with...? 是常用口语句型，用于询问某事物有什么问题或故障。"
+    },
+    {
+      "title": "it 的指代",
+      "text": "it 指代上文提到的“a letter”，避免重复，让对话连贯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体主干、翻译、结构说明和指代关系正确，无实质性错误。仅存在两处可明确修正的小问题：一是对比说明里的中文语序表述不够准确，实际英文是先应答称谓再提问，中文翻译也遵循相同顺序；二是it?的释义未体现原句询问“哪里不对”的语义，仅标注指代对象不够清晰。（非逐句人工审核）"
+}

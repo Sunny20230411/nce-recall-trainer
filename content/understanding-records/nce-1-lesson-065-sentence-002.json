@@ -1,0 +1,130 @@
+{
+  "chinese": "我打算去见几个朋友，爸爸。",
+  "intent": "回答父亲关于今晚计划的询问，告知自己打算外出见朋友。",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm going to meet some friends",
+    "meaning": "我打算见几个朋友。"
+  },
+  "structureNotes": [
+    {
+      "title": "be going to表打算",
+      "text": "本句中I'm going to是“主语 + be going to + 动词原形”的一般将来时结构，表示说话人事先计划好的、打算要做的事，并不表达正在进行的动作。"
+    },
+    {
+      "title": "some的用法",
+      "text": "本句中some后接复数可数名词friends，用来修饰可数名词的复数形式，表示“若干、几个”的数量含义，是肯定句的常规用法。"
+    },
+    {
+      "title": "Dad的称呼用法",
+      "text": "Dad放在句末，是女儿说话时对父亲的亲昵称呼，和句子主干用逗号隔开，不影响句子的核心表意。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm",
+      "role": "主语及助动词",
+      "explanation": "I是句子主语，指代说话的女儿Jill；'m是am的缩写形式，和going to搭配构成表示计划的结构。"
+    },
+    {
+      "text": "going to meet",
+      "role": "谓语",
+      "explanation": "整体和前面的am结合构成be going to结构，后接动词原形meet，表达“计划、打算去做某事”的含义，不是正在进行的动作。"
+    },
+    {
+      "text": "some friends",
+      "role": "宾语",
+      "explanation": "是及物动词meet的动作对象，some用来限定friends的数量，意为“几个朋友”。"
+    },
+    {
+      "text": "Dad",
+      "role": "呼语",
+      "explanation": "句末的称呼语，用来明确对话的对象是爸爸，和主句用逗号隔开。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I'm",
+      "meaning": "我（I am的缩写形式）",
+      "pos": "代词+动词缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "going",
+      "meaning": "（与to连用表将要）去",
+      "pos": "动词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（引出动词原形）去、来",
+      "pos": "不定式符号",
+      "phonetic": "/tə/"
+    },
+    {
+      "text": "meet",
+      "meaning": "会见、碰面",
+      "pos": "动词",
+      "phonetic": "/miːt/"
+    },
+    {
+      "text": "some",
+      "meaning": "一些、几个",
+      "pos": "限定词",
+      "phonetic": "/sʌm/"
+    },
+    {
+      "text": "friends,",
+      "meaning": "朋友（复数）",
+      "pos": "名词",
+      "phonetic": "/frendz/"
+    },
+    {
+      "text": "Dad.",
+      "meaning": "爸爸",
+      "pos": "名词",
+      "phonetic": "/dæd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I'm going to meet",
+      "meaning": "我打算去见",
+      "relation": "表达说话人的计划与要做的动作"
+    },
+    {
+      "text": "some friends,",
+      "meaning": "几个朋友",
+      "relation": "动作“见”的对象"
+    },
+    {
+      "text": "Dad.",
+      "meaning": "爸爸。",
+      "relation": "呼语，点明对话的听话对象"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-65",
+  "sentenceId": "nce-1-lesson-065-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I'm going to meet some friends, Dad.",
+  "lesson": "Lesson 65 Not a baby",
+  "notes": [
+    {
+      "title": "be going to表打算",
+      "text": "本句中I'm going to是“主语 + be going to + 动词原形”的一般将来时结构，表示说话人事先计划好的、打算要做的事，并不表达正在进行的动作。"
+    },
+    {
+      "title": "some的用法",
+      "text": "本句中some后接复数可数名词friends，用来修饰可数名词的复数形式，表示“若干、几个”的数量含义，是肯定句的常规用法。"
+    },
+    {
+      "title": "Dad的称呼用法",
+      "text": "Dad放在句末，是女儿说话时对父亲的亲昵称呼，和句子主干用逗号隔开，不影响句子的核心表意。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析主干正确，be going to 表计划将来、some 修饰复数可数名词、Dad 作句末呼语的说明均符合语境。整体表意清晰，无实质性理解错误。两处微调：一是修正单词表中 friends 词条的发音标注，仅去掉误标的复数词尾，不改动词性、释义、正文与音标基本形式；二是简化主干释义为更凝练的中文表达，提升翻译简洁性，核心语义不变。（非逐句人工审核）"
+}

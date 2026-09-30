@@ -1,0 +1,123 @@
+{
+  "chinese": "柜台上的那几本。",
+  "intent": "回应上文的选择疑问，点明自己买的是哪几本书，是口语里的名词性简略答语。",
+  "comparison": {
+    "chinese": "中文会直接把位置放在“的”前面：柜台上的那几本。",
+    "english": "The books which are on the counter.",
+    "steps": [
+      {
+        "label": "先确定指称对象",
+        "text": "The books",
+        "explanation": "先用定冠词+名词点明“是那些书”，没有直接接位置定语。"
+      },
+      {
+        "label": "再用关系从句说明范围",
+        "text": "which are on the counter",
+        "explanation": "which 指代前面的 books，从句补充说明是“在柜台上的那批书”，而不是别处的书。"
+      }
+    ],
+    "takeaway": "英语习惯先说出中心名词，再用 which 引导从句交代限定位置；中文常把位置放在“的”前面修饰名词。"
+  },
+  "backbone": {
+    "text": "The books (which are on the counter).",
+    "meaning": "（指）放在柜台上面的那几本书。"
+  },
+  "structureNotes": [
+    {
+      "title": "口语简略答语",
+      "text": "本句没有主句谓语动词，只保留带修饰的名词短语，用来回答 Which books did you buy? 这种选择疑问。"
+    },
+    {
+      "title": "which 的指代作用",
+      "text": "which are on the counter 是修饰 books 的定语从句，which 在从句里作主语，指代前面的 books。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The books",
+      "role": "被定语从句修饰的中心名词短语",
+      "explanation": "由定冠词 the 加复数可数名词 books 构成，是整个简略答语的核心，特指问句中提及的那几本书。"
+    },
+    {
+      "text": "which are on the counter",
+      "role": "修饰 books 的限制性定语从句",
+      "explanation": "关系代词 which 在从句中作主语，指代先行词 books；are 是系动词，介词短语 on the counter 作表语，说明书的位置。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "（定冠词，特指上文提及的事物）",
+      "pos": "art.",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "books",
+      "meaning": "书（book 的复数形式）",
+      "pos": "n.",
+      "phonetic": "/bʊks/"
+    },
+    {
+      "text": "which",
+      "meaning": "……的（关系代词，指代先行词 books，在从句中作主语）",
+      "pos": "pron.",
+      "phonetic": "/wɪtʃ/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（对应复数主语的 be 动词形式）",
+      "pos": "v. link.",
+      "phonetic": "/ɑː/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "prep.",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，特指双方都知晓的事物）",
+      "pos": "art.",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "counter.",
+      "meaning": "柜台",
+      "pos": "n.",
+      "phonetic": "/ˈkaʊntə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The books",
+      "meaning": "那几本书",
+      "relation": "是答语的核心指称，指代前文问句中涉及的书。"
+    },
+    {
+      "text": "which are on the counter.",
+      "meaning": "放在柜台上的",
+      "relation": "是修饰限定前面 books 的定语从句，圈定了符合条件的具体书的范围。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-121",
+  "sentenceId": "nce-1-lesson-121-sentence-005",
+  "sentenceOrder": 5,
+  "english": "The books which are on the counter.",
+  "lesson": "Lesson 121 The man in a hat",
+  "notes": [
+    {
+      "title": "口语简略答语",
+      "text": "本句没有主句谓语动词，只保留带修饰的名词短语，用来回答 Which books did you buy? 这种选择疑问。"
+    },
+    {
+      "title": "which 的指代作用",
+      "text": "which are on the counter 是修饰 books 的定语从句，which 在从句里作主语，指代前面的 books。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：核心解析与原文结构基本一致：which 明确作定语从句主语，系表结构和介词短语解释清楚，口语简略答语的属性也有说明。仅需微调词义、关系解释和部分术语表述。（非逐句人工审核）"
+}

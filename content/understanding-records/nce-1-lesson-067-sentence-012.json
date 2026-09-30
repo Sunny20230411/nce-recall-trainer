@@ -1,0 +1,140 @@
+{
+  "chinese": "我们打算去乡下住三天。",
+  "intent": "陈述将要进行的周末出行计划。",
+  "comparison": {
+    "chinese": "我们打算去乡下住三天。",
+    "english": "We're going to spend three days in the country.",
+    "steps": [
+      {
+        "label": "先明确计划主体",
+        "text": "We're going to spend three days...",
+        "explanation": "先讲我们打算做什么，即花费三天时间。"
+      },
+      {
+        "label": "再补充地点",
+        "text": "...in the country.",
+        "explanation": "再补充说明这三天是在乡下度过的。"
+      }
+    ],
+    "takeaway": "中文先交代去乡下，再说明住三天；英文先讲花费三天，再讲地点在乡下。"
+  },
+  "backbone": {
+    "text": "We're going to spend three days in the country.",
+    "meaning": "我们打算在乡下度过三天时间。"
+  },
+  "structureNotes": [
+    {
+      "title": "be going to表计划",
+      "text": "We're going to 表示“打算、计划”，是对未来安排的陈述，不是正在进行的动作。"
+    },
+    {
+      "title": "spend + 时间 + 地点",
+      "text": "spend three days in the country 表示“在乡下度过三天”，地点状语放在句末补充说明。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We're going to",
+      "role": "将来时助动词结构",
+      "explanation": "am/is/are going to 整体表示打算、计划做某事。"
+    },
+    {
+      "text": "spend three days in the country",
+      "role": "谓语+宾语+地点状语",
+      "explanation": "spend three days 表示“度过三天”，in the country 补充地点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We're",
+      "meaning": "我们是（we are的缩写）",
+      "pos": "代词+动词缩写",
+      "phonetic": "/wɪə/"
+    },
+    {
+      "text": "going",
+      "meaning": "与be going to搭配构成将来时，无实义“去”",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "不定式符号，无实义",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "spend",
+      "meaning": "度过",
+      "pos": "动词",
+      "phonetic": "/spend/"
+    },
+    {
+      "text": "three",
+      "meaning": "三个",
+      "pos": "数词",
+      "phonetic": "/θriː/"
+    },
+    {
+      "text": "days",
+      "meaning": "天",
+      "pos": "名词",
+      "phonetic": "/deɪz/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "country.",
+      "meaning": "乡下，乡村",
+      "pos": "名词",
+      "phonetic": "/ˈkʌntri/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We're going to spend",
+      "relation": "主语+谓语（表计划将来）",
+      "meaning": "我们打算度过"
+    },
+    {
+      "text": "three days",
+      "relation": "宾语（spend的对象）",
+      "meaning": "三天"
+    },
+    {
+      "text": "in the country.",
+      "relation": "地点（补充度过三天的地点）",
+      "meaning": "在乡下"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-67",
+  "sentenceId": "nce-1-lesson-067-sentence-012",
+  "sentenceOrder": 12,
+  "english": "We're going to spend three days in the country.",
+  "lesson": "Lesson 67 The weekend",
+  "notes": [
+    {
+      "title": "be going to表计划",
+      "text": "We're going to 表示“打算、计划”，是对未来安排的陈述，不是正在进行的动作。"
+    },
+    {
+      "title": "spend + 时间 + 地点",
+      "text": "spend three days in the country 表示“在乡下度过三天”，地点状语放在句末补充说明。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干和中文翻译整体正确，be going to表计划、spend接时间与地点的用法说明准确。仅需修正be going to的成分标注和不定式符号to的词义，避免将to本身误释为实义动词“去”。（非逐句人工审核）"
+}

@@ -1,0 +1,116 @@
+{
+  "chinese": "我在这里住了二十年。",
+  "intent": "回答上一句关于居住时长的提问，说明自己在当地已经住了二十年。",
+  "comparison": null,
+  "backbone": {
+    "text": "I've lived here for twenty years.",
+    "meaning": "我已经在这里住了二十年。"
+  },
+  "structureNotes": [
+    {
+      "title": "for引出动作持续的时间",
+      "text": "这里的for twenty years不是指二十年期间做了别的事，而是说明“住”这个动作从过去一直持续到现在，正好对应上一句how long提出的时长问题。"
+    },
+    {
+      "title": "现在完成时表示延续状态",
+      "text": "I've是I have的缩略形式，后面接过去分词lived，构成现在完成时，强调居住这个状态已经持续了很长时间。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I've",
+      "role": "主语加助动词缩略形式",
+      "explanation": "I是主语，have是现在完成时的助动词，和后面的过去分词lived配合使用。"
+    },
+    {
+      "text": "lived",
+      "role": "谓语动词（过去分词）",
+      "explanation": "live的过去分词，和have一起构成现在完成时，表示居住动作从过去延续至今。"
+    },
+    {
+      "text": "here",
+      "role": "地点状语",
+      "explanation": "说明居住的地点就是说话人当前所在的地方。"
+    },
+    {
+      "text": "for twenty years.",
+      "role": "时间状语",
+      "explanation": "for引出动作持续的时间段，准确回答前面how long提出的时长问题。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I've",
+      "meaning": "我（I have的缩略形式）",
+      "pos": "代词+助动词（缩写）",
+      "phonetic": "aɪv"
+    },
+    {
+      "text": "lived",
+      "meaning": "居住，住（live的过去分词）",
+      "pos": "动词",
+      "phonetic": "lɪvd"
+    },
+    {
+      "text": "here",
+      "meaning": "在这里，向这里",
+      "pos": "副词",
+      "phonetic": "hɪə(r)"
+    },
+    {
+      "text": "for",
+      "meaning": "（表示持续的时长）达，计",
+      "pos": "介词",
+      "phonetic": "fɔː(r)"
+    },
+    {
+      "text": "twenty",
+      "meaning": "二十",
+      "pos": "数词",
+      "phonetic": "ˈtwenti"
+    },
+    {
+      "text": "years.",
+      "meaning": "年（year的复数形式）",
+      "pos": "名词",
+      "phonetic": "ˈjɪəz"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I've lived",
+      "relation": "句子的主干动作，说明从过去到现在持续进行的居住行为",
+      "meaning": "我已经居住"
+    },
+    {
+      "text": "here",
+      "relation": "补充说明居住的地点位置",
+      "meaning": "在这里"
+    },
+    {
+      "text": "for twenty years.",
+      "relation": "补充说明居住这个状态总共持续了多长时间，对应前文对居住时长的提问",
+      "meaning": "长达二十年"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-89",
+  "sentenceId": "nce-1-lesson-089-sentence-006",
+  "sentenceOrder": 6,
+  "english": "I've lived here for twenty years.",
+  "lesson": "Lesson 89 For sale",
+  "notes": [
+    {
+      "title": "for引出动作持续的时间",
+      "text": "这里的for twenty years不是指二十年期间做了别的事，而是说明“住”这个动作从过去一直持续到现在，正好对应上一句how long提出的时长问题。"
+    },
+    {
+      "title": "现在完成时表示延续状态",
+      "text": "I've是I have的缩略形式，后面接过去分词lived，构成现在完成时，强调居住这个状态已经持续了很长时间。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句核心主干、释义、语法标注与语境匹配，整体可用。仅一处误将句末句号拆分进 years. 的音标条目，标点本身不属于单词发音，需移除文本中的尾随句号；其余内容无需调整。（非逐句人工审核）"
+}

@@ -1,0 +1,133 @@
+{
+  "chinese": "等一下。窗户那儿有人。",
+  "intent": "先示意同伴稍作停留，再说明当前在窗户边发现了人影，呼应前文屋内有人的判断。",
+  "comparison": null,
+  "backbone": {
+    "text": "稍等，窗户边有一个人。",
+    "meaning": "说话人先让对方暂停手头动作，随后点明窗户边出现了陌生人影的情况。"
+  },
+  "structureNotes": [
+    {
+      "title": "祈使省略结构",
+      "text": "Wait a minute 是口语常用祈使表达，省略了主语 you，语义上要求听者稍作等待，无复杂修饰成分。"
+    },
+    {
+      "title": "There be 存在句型的表意",
+      "text": "There's someone at the window 中，there 本身没有实际词义，真正表示存在主体的是 someone，at the window 补充说明这个人所在的方位，避免误解为某人主动来到窗边。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Wait",
+      "role": "祈使句核心动词",
+      "explanation": "要求对方停留，是第一句的动作核心。"
+    },
+    {
+      "text": "a minute",
+      "role": "宾语",
+      "explanation": "表示短暂的时间，是 Wait 这个动作持续的时长。"
+    },
+    {
+      "text": "There's",
+      "role": "存在句型引导结构",
+      "explanation": "引出存在的事物，本身不表示实际地点含义。"
+    },
+    {
+      "text": "someone",
+      "role": "存在的主体",
+      "explanation": "表示某个不确定的人，是句子表意的核心对象。"
+    },
+    {
+      "text": "at the window",
+      "role": "方位状语",
+      "explanation": "补充说明 someone 所在的位置。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Wait",
+      "meaning": "等",
+      "pos": "动词",
+      "phonetic": "/weɪt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "minute.",
+      "meaning": "片刻",
+      "pos": "名词",
+      "phonetic": "/ˈmɪnɪt/"
+    },
+    {
+      "text": "There's",
+      "meaning": "有（=there is）",
+      "pos": "缩略结构",
+      "phonetic": "/ðeəz/"
+    },
+    {
+      "text": "someone",
+      "meaning": "某人；有人",
+      "pos": "代词",
+      "phonetic": "/ˈsʌmwʌn/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（某处）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "定冠词，表特指",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "window.",
+      "meaning": "窗户",
+      "pos": "名词",
+      "phonetic": "/ˈwɪndəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Wait a minute.",
+      "relation": "独立祈使句，向听者发出稍作停留的请求",
+      "meaning": "等一下。"
+    },
+    {
+      "text": "There's someone",
+      "relation": "存在句的核心表意，点明当前存在的未知对象",
+      "meaning": "有某人"
+    },
+    {
+      "text": "at the window.",
+      "relation": "方位补充，说明前述未知人物所在的位置",
+      "meaning": "在窗户边"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-115",
+  "sentenceId": "nce-1-lesson-115-sentence-014",
+  "sentenceOrder": 14,
+  "english": "Wait a minute. There's someone at the window.",
+  "lesson": "Lesson 115 Knock, knock!",
+  "notes": [
+    {
+      "title": "祈使省略结构",
+      "text": "Wait a minute 是口语常用祈使表达，省略了主语 you，语义上要求听者稍作等待，无复杂修饰成分。"
+    },
+    {
+      "title": "There be 存在句型的表意",
+      "text": "There's someone at the window 中，there 本身没有实际词义，真正表示存在主体的是 someone，at the window 补充说明这个人所在的方位，避免误解为某人主动来到窗边。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合规则要求，无关键错误。仅minute词条存在标点归属不当、释义表述冗余的问题：原词条text为\"minute.\"混入了前一分句句末的句号，且释义\"片刻；分钟\"中核心义项\"分钟\"未完成语义适配，存在冗余表述，需微调。（非逐句人工审核）"
+}

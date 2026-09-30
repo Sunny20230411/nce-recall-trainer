@@ -1,0 +1,214 @@
+{
+  "chinese": "英语和数学试卷对我来说不够容易。我希望我没有不及格。",
+  "intent": "表达对英语、数学试卷难度的感受，并说出自己对考试结果的担忧与期许。",
+  "comparison": {
+    "chinese": "中文会先把核心对象放在句首：“英语和数学试卷”，再接“对我来说不够容易”；“我希望我没有不及格”。",
+    "english": "英文先说 The English and Maths papers weren't easy，再用 enough 放在形容词后修饰 easy，最后用 for me 点明适用对象。",
+    "steps": [
+      {
+        "label": "形容词与 enough 的顺序",
+        "text": "easy enough 不是 enough easy",
+        "explanation": "enough 修饰形容词时要放在形容词后面，表示“达到足够的程度”，不能放在形容词前。"
+      },
+      {
+        "label": "for me 的位置",
+        "text": "weren't easy enough for me",
+        "explanation": "for me 表示“对我而言”，放在 easy enough 之后，补充说明这个难度感受是针对说话者本人的。"
+      },
+      {
+        "label": "现在完成时表达担忧",
+        "text": "I hope I haven't failed",
+        "explanation": "haven't failed 是现在完成时，表达到目前考试结束这个时间点为止，担心自己是否已经不及格，而不是描述正在进行的动作。"
+      }
+    ],
+    "takeaway": "enough 修饰形容词时后置，for me 点明感受对象；现在完成时用来表达对考试结果的担忧。"
+  },
+  "backbone": {
+    "text": "试卷不够容易。我希望我没不及格。",
+    "meaning": "英语和数学试卷对说话者来说难度偏高，他担心自己考试没有通过。"
+  },
+  "structureNotes": [
+    {
+      "title": "形容词 + enough 的语序",
+      "text": "enough 修饰形容词 easy 时必须放在其后，构成 easy enough，表示“足够容易”，前面加否定词 weren't 就变成“不够容易”。"
+    },
+    {
+      "title": "for me 点明评价对象",
+      "text": "for me 放在句末，说明“试卷难度不够容易”是说话者的个人感受，不是所有人的普遍判断。"
+    },
+    {
+      "title": "hope 后接宾语从句表愿望",
+      "text": "I hope 后面直接跟从句 I haven't failed，表达说话者希望到目前为止自己没有不及格，从句用现在完成时呼应考试已结束的语境。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The English and Maths papers",
+      "role": "主语",
+      "explanation": "指英语和数学两门科目的试卷，是句子描述的核心对象，由 and 连接两个科目名词共同修饰 papers。"
+    },
+    {
+      "text": "weren't easy enough",
+      "role": "谓语+表语",
+      "explanation": "weren't 是系动词否定式，easy 是表语形容词，enough 后置修饰 easy，整体表示“不够容易”。"
+    },
+    {
+      "text": "for me",
+      "role": "介词短语",
+      "explanation": "补充说明这个难度评价是针对说话者本人的。"
+    },
+    {
+      "text": "I hope",
+      "role": "主句主语+谓语",
+      "explanation": "表达说话者的主观愿望与期盼。"
+    },
+    {
+      "text": "I haven't failed",
+      "role": "宾语从句",
+      "explanation": "作 hope 的宾语，用现在完成时表示到考试结束这个时间点为止，说话者希望自己没有不及格。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "（定冠词）这/那",
+      "pos": "art.",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "English",
+      "meaning": "英语；英语的",
+      "pos": "n./adj.",
+      "phonetic": "/ˈɪŋɡlɪʃ/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；与",
+      "pos": "conj.",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "Maths",
+      "meaning": "数学",
+      "pos": "n.",
+      "phonetic": "/mæθs/"
+    },
+    {
+      "text": "papers",
+      "meaning": "试卷；文件",
+      "pos": "n.",
+      "phonetic": "/ˈpeɪpəz/"
+    },
+    {
+      "text": "weren't",
+      "meaning": "不是（were not 的缩写）",
+      "pos": "v.",
+      "phonetic": "/wɜːnt/"
+    },
+    {
+      "text": "easy",
+      "meaning": "容易的；简单的",
+      "pos": "adj.",
+      "phonetic": "/ˈiːzi/"
+    },
+    {
+      "text": "enough",
+      "meaning": "足够地",
+      "pos": "adv.",
+      "phonetic": "/ɪˈnʌf/"
+    },
+    {
+      "text": "for",
+      "meaning": "对于；为了",
+      "pos": "prep.",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "me.",
+      "meaning": "我（宾格）。",
+      "pos": "pron.",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "pron.",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "hope",
+      "meaning": "希望；期盼",
+      "pos": "v.",
+      "phonetic": "/həʊp/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "pron.",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "haven't",
+      "meaning": "没有（have not 的缩写）",
+      "pos": "v.",
+      "phonetic": "/ˈhævnt/"
+    },
+    {
+      "text": "failed.",
+      "meaning": "不及格；失败。",
+      "pos": "v.",
+      "phonetic": "/feɪld/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The English and Maths papers",
+      "relation": "描述的核心对象，是句子的主语。",
+      "meaning": "英语和数学试卷"
+    },
+    {
+      "text": "weren't easy enough",
+      "relation": "描述主语的难度程度，说明试卷对说话者而言难度偏高。",
+      "meaning": "不够容易"
+    },
+    {
+      "text": "for me.",
+      "relation": "补充说明难度感受是针对说话者本人的。",
+      "meaning": "对我来说。"
+    },
+    {
+      "text": "I hope",
+      "relation": "引出说话者的主观愿望。",
+      "meaning": "我希望"
+    },
+    {
+      "text": "I haven't failed.",
+      "relation": "作 hope 的宾语，说明说话者期盼的考试结果。",
+      "meaning": "我没有不及格。"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-103",
+  "sentenceId": "nce-1-lesson-103-sentence-010",
+  "sentenceOrder": 10,
+  "english": "The English and Maths papers weren't easy enough for me. I hope I haven't failed.",
+  "lesson": "Lesson 103 The French test",
+  "notes": [
+    {
+      "title": "形容词 + enough 的语序",
+      "text": "enough 修饰形容词 easy 时必须放在其后，构成 easy enough，表示“足够容易”，前面加否定词 weren't 就变成“不够容易”。"
+    },
+    {
+      "title": "for me 点明评价对象",
+      "text": "for me 放在句末，说明“试卷难度不够容易”是说话者的个人感受，不是所有人的普遍判断。"
+    },
+    {
+      "title": "hope 后接宾语从句表愿望",
+      "text": "I hope 后面直接跟从句 I haven't failed，表达说话者希望到目前为止自己没有不及格，从句用现在完成时呼应考试已结束的语境。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整句主干、时态语境与中文意思基本正确；发现两处可明确修正的音标格式问题：Maths 的英式音标使用了美式 /æ/，failed. 的音标误把句号并入音标末尾。其余分块、结构分析、词义比较与语法说明均符合上下文。（非逐句人工审核）"
+}

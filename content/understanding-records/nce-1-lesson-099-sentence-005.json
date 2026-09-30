@@ -1,0 +1,91 @@
+{
+  "chinese": "试着站起来。",
+  "intent": "向腰背受伤的伤者发出行动建议，鼓励对方尝试站立，是关切的行动引导。",
+  "comparison": null,
+  "backbone": {
+    "text": "Try to stand up.",
+    "meaning": "还原为标准不定式结构“Try to stand up”，表达建议对方尝试完成站起的动作；原文用“Try and stand up”是口语中表尝试的常见并列结构，语义等同于“Try to stand up”。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列动词表单一尝试动作",
+      "text": "本句是祈使句，用 and 连接 Try 与 stand up，不表示两个先后独立的动作，而是把“试着做”和“站起来”合成一个完整的尝试性建议，语义等同于 Try to stand up。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Try",
+      "role": "谓语动词",
+      "explanation": "动词原形开头的祈使句，直接给对方行动建议，核心语义是“尝试”。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "口语中连接 Try 与后续动作，此处不表示动作先后，而是构成固定的“Try and do sth”表尝试的结构。"
+    },
+    {
+      "text": "stand up.",
+      "role": "并列谓语动词短语",
+      "explanation": "表示建议对方尝试完成的具体动作“站起来”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Try",
+      "meaning": "尝试，试着",
+      "pos": "动词",
+      "phonetic": "/traɪ/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且（此处构成Try and do固定结构，无实际并列含义）",
+      "pos": "连词",
+      "phonetic": "/ənd/"
+    },
+    {
+      "text": "stand",
+      "meaning": "站立，站起",
+      "pos": "动词",
+      "phonetic": "/stænd/"
+    },
+    {
+      "text": "up.",
+      "meaning": "向上，起来（与stand构成短语，表示起立）",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Try",
+      "meaning": "试着",
+      "relation": "给出建议的核心动词，表达尝试的意愿"
+    },
+    {
+      "text": "and",
+      "meaning": "（连词，无实义，连接Try与后续动作，构成表尝试的固定结构）",
+      "relation": "连接尝试动作与具体要完成的行为"
+    },
+    {
+      "text": "stand up.",
+      "meaning": "站起来。",
+      "relation": "具体要尝试完成的动作"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-99",
+  "sentenceId": "nce-1-lesson-099-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Try and stand up.",
+  "lesson": "Lesson 99 Ow!",
+  "notes": [
+    {
+      "title": "并列动词表单一尝试动作",
+      "text": "本句是祈使句，用 and 连接 Try 与 stand up，不表示两个先后独立的动作，而是把“试着做”和“站起来”合成一个完整的尝试性建议，语义等同于 Try to stand up。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容符合语境，主要需修正英文断句与中文翻译的错配：当前英文为单句“Try and stand up.”，但中文包含了下一句“Can you stand up?”及后续未给出的内容“来，让我帮你。”，仅保留本句对应翻译即可；词汇表中“up.”的音标附带句号不符合规范，需修正为去掉句号的正确音标与释义。其余语法分析、词义、分块关系均符合本句的语法与语境要求。（非逐句人工审核）"
+}

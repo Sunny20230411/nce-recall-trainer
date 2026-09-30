@@ -1,0 +1,224 @@
+{
+  "chinese": "我从没去过那里。肯，你去过那里吗？",
+  "intent": "先说明自身从未到访过某个地点，再向肯提问，确认对方是否有过到访该地点的经历。",
+  "comparison": {
+    "chinese": "中文先说“你”，再问“去过那里吗”，称呼“肯”放在问句末尾；英文的疑问语序和副词位置有固定习惯。",
+    "english": "I've never been there. Have you ever been there, Ken?",
+    "steps": [
+      {
+        "label": "肯定句先说主语",
+        "text": "I've never been there.",
+        "explanation": "英文把主语 I 放最前，紧跟 I have 的缩写 I've，否定副词 never 放在 have been 前面，再跟上地点副词 there。"
+      },
+      {
+        "label": "疑问句把 have 提前",
+        "text": "Have you ever been there?",
+        "explanation": "要问对方是否去过时，把助动词 have 提到主语 you 前面；ever 表示“曾经”，插在 you 和 been 之间，句末用问号。"
+      },
+      {
+        "label": "称呼放句末",
+        "text": "Have you ever been there, Ken?",
+        "explanation": "Ken 是对听话人的称呼，前面用逗号和前面的问句主体隔开，放在全句末尾，不参与句子主干结构。"
+      }
+    ],
+    "takeaway": "否定句用 never 放在 have 和 been 之间，疑问句把 have 提前到主语前，ever 用于询问对方是否有过某经历，称呼可放句末。"
+  },
+  "backbone": {
+    "text": "I've never been there. Have you ever been there?",
+    "meaning": "我从来没去过那里。你有没有去过那里？"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时表达经历",
+      "text": "have been there 表示“到过那里”的经历，不强调具体什么时候去、去了多久；have 和主语连写为 I've。"
+    },
+    {
+      "title": "两个副词的位置分工",
+      "text": "never 用在陈述句里，表示“从来没有”，放在助动词 have 和 been 之间；ever 用在疑问句里，表示“曾经”，同样放在 have 和 been 之间，二者不能随意互换。"
+    },
+    {
+      "title": "一般疑问语序",
+      "text": "询问对方是否有过相关经历时，直接把助动词 have 提到主语 you 前面，不需要额外加 do/does 类助动词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I've",
+      "role": "主语加现在完成时助动词的缩合形式",
+      "explanation": "是 I have 的口语缩写，和后面的过去分词 been 共同构成现在完成时的谓语部分。"
+    },
+    {
+      "text": "never",
+      "role": "频度副词",
+      "explanation": "放在助动词 have 和过去分词 been 之间，表达“从未、从来没有”的否定含义。"
+    },
+    {
+      "text": "been",
+      "role": "be 的过去分词",
+      "explanation": "和前面的 have 搭配，构成现在完成时，表示“曾在某处”的经历。"
+    },
+    {
+      "text": "there.",
+      "role": "地点副词加句号",
+      "explanation": "指代前文提到的巴黎，作为地点状语说明“那里”。"
+    },
+    {
+      "text": "Have",
+      "role": "现在完成时助动词（疑问句句首）",
+      "explanation": "提到主语 you 之前，构成一般疑问句，询问是否有过相关经历。"
+    },
+    {
+      "text": "you",
+      "role": "第二人称主语",
+      "explanation": "指代听话人肯，是这个疑问句的陈述主体。"
+    },
+    {
+      "text": "ever",
+      "role": "频度副词",
+      "explanation": "放在主语 you 和过去分词 been 之间，在疑问句里表示“曾经”。"
+    },
+    {
+      "text": "been",
+      "role": "be 的过去分词",
+      "explanation": "和句首的 Have 搭配，构成疑问形式的现在完成时谓语。"
+    },
+    {
+      "text": "there,",
+      "role": "地点副词加逗号",
+      "explanation": "同样指代前文提到的巴黎，作地点状语。"
+    },
+    {
+      "text": "Ken?",
+      "role": "呼语加问号",
+      "explanation": "直接称呼对话对象肯，前面用逗号和前面的问句主体隔开，问号标示全句疑问语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I've",
+      "meaning": "I have 的口语缩写",
+      "pos": "缩合式现在完成时助动词",
+      "phonetic": "/aɪv/"
+    },
+    {
+      "text": "never",
+      "meaning": "从未，从来没有",
+      "pos": "频度副词",
+      "phonetic": "/ˈnevə(r)/"
+    },
+    {
+      "text": "been",
+      "meaning": "be 的过去分词，此处表“在、去过”",
+      "pos": "动词（过去分词）",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "there.",
+      "meaning": "那里",
+      "pos": "地点副词",
+      "phonetic": "/ðeə(r)/"
+    },
+    {
+      "text": "Have",
+      "meaning": "用于构成现在完成时的助动词，此处表疑问提前",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "you",
+      "meaning": "你，你们",
+      "pos": "第二人称代词主格",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "ever",
+      "meaning": "曾经，在任何时候",
+      "pos": "频度副词",
+      "phonetic": "/ˈevə(r)/"
+    },
+    {
+      "text": "been",
+      "meaning": "be 的过去分词，此处表“在、去过”",
+      "pos": "动词（过去分词）",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "there,",
+      "meaning": "那里",
+      "pos": "地点副词",
+      "phonetic": "/ðeə(r)/"
+    },
+    {
+      "text": "Ken?",
+      "meaning": "肯（男子名）",
+      "pos": "呼语（专有名词）",
+      "phonetic": "/ken/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I've",
+      "meaning": "我（I have 的缩写形式）",
+      "relation": "陈述主体加现在完成时助动词，点明说话人本人"
+    },
+    {
+      "text": "never",
+      "meaning": "从来没有",
+      "relation": "修饰后续谓语，说明完全没有相关经历"
+    },
+    {
+      "text": "been there.",
+      "meaning": "去过那里。",
+      "relation": "核心谓语搭配地点副词，表明从未到访过前文提到的巴黎"
+    },
+    {
+      "text": "Have",
+      "meaning": "（助动词 have 置于句首表疑问）",
+      "relation": "引导一般疑问句，将现在完成时结构改为疑问语序"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "relation": "询问的对象，指代对话中的肯"
+    },
+    {
+      "text": "ever",
+      "meaning": "曾经",
+      "relation": "修饰后续谓语，询问是否有过相关经历"
+    },
+    {
+      "text": "been there,",
+      "meaning": "去过那里，",
+      "relation": "疑问部分的核心谓语搭配地点副词，指向同一个巴黎"
+    },
+    {
+      "text": "Ken?",
+      "meaning": "肯？",
+      "relation": "直接呼叫对话对象，明确这个问题是问肯的"
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-85",
+  "sentenceId": "nce-1-lesson-085-sentence-009",
+  "sentenceOrder": 9,
+  "english": "I've never been there. Have you ever been there, Ken?",
+  "lesson": "Lesson 85 Paris in the spring",
+  "notes": [
+    {
+      "title": "现在完成时表达经历",
+      "text": "have been there 表示“到过那里”的经历，不强调具体什么时候去、去了多久；have 和主语连写为 I've。"
+    },
+    {
+      "title": "两个副词的位置分工",
+      "text": "never 用在陈述句里，表示“从来没有”，放在助动词 have 和 been 之间；ever 用在疑问句里，表示“曾经”，同样放在 have 和 been 之间，二者不能随意互换。"
+    },
+    {
+      "title": "一般疑问语序",
+      "text": "询问对方是否有过相关经历时，直接把助动词 have 提到主语 you 前面，不需要额外加 do/does 类助动词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体分析符合原句语法与语境，主干、词汇释义、位置说明和指代表述均正确。仅需统一呼语 Ken 的逗号关系表述：原句为 Have you ever been there, Ken?，Ken 前是逗号、句末为问号，原结构与分块中部分描述将其写为用逗号隔开，应明确为地点状语后用逗号，Ken 为句末呼语。（非逐句人工审核）"
+}

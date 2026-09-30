@@ -1,0 +1,75 @@
+{
+  "chinese": "不，我不是。",
+  "intent": "针对前面的一般疑问句给出明确的否定回答，直接表明自身不符合问句所描述的情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm not",
+    "meaning": "我并不是（问句中提到的身份或状态）"
+  },
+  "parts": [
+    {
+      "text": "No,",
+      "relation": "回应前置提问",
+      "meaning": "用于直接否定前面的提问"
+    },
+    {
+      "text": "I'm not.",
+      "relation": "补充否定的具体对象，说明主体自身的实际情况",
+      "meaning": "我不是，承接前面的否定给出主体的明确状态说明"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "缩略表达",
+      "text": "I'm是I am的口语常用缩略形式，后面直接加not构成主系否定结构，无需额外添加冗余成分，对应前面一般疑问句的否定答语规范格式。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No,",
+      "role": "否定应答标记",
+      "explanation": "放在句首直接亮明否定态度，是对前置问句的第一时间回应"
+    },
+    {
+      "text": "I'm not.",
+      "role": "主系否定分句",
+      "explanation": "明确说明说话人自身不具备问句提及的属性，完成完整的否定表述"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "不，不是",
+      "pos": "interjection",
+      "phonetic": "/nəʊ/",
+      "text": "No,"
+    },
+    {
+      "meaning": "我是（I am的缩略形式）",
+      "pos": "pronoun + verb phrase",
+      "phonetic": "/aɪm/",
+      "text": "I'm"
+    },
+    {
+      "meaning": "不，表否定身份属性判断",
+      "pos": "adverb",
+      "phonetic": "/nɒt/",
+      "text": "not."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-7",
+  "sentenceId": "nce-1-lesson-007-sentence-010",
+  "sentenceOrder": 10,
+  "english": "No, I'm not.",
+  "lesson": "Lesson 7 Are you a teacher?",
+  "notes": [
+    {
+      "title": "缩略表达",
+      "text": "I'm是I am的口语常用缩略形式，后面直接加not构成主系否定结构，无需额外添加冗余成分，对应前面一般疑问句的否定答语规范格式。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容合规准确，仅存在局部细节可优化完善，不影响核心教学有效性（非逐句人工审核）"
+}

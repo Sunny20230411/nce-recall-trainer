@@ -1,0 +1,69 @@
+{
+  "chinese": "好的，请来一杯。",
+  "intent": "这是对对方提议（如“要不要来杯咖啡”）的礼貌肯定应答，表达接受提议的意愿，用简短的礼貌回应完成对方的询问。",
+  "comparison": null,
+  "backbone": {
+    "text": "Yes, please.",
+    "meaning": "这是日常交际里接受别人提供的咖啡、饮品等事物的标准礼貌应答，意思是接受这份好意。"
+  },
+  "parts": [
+    {
+      "text": "Yes,",
+      "relation": "礼貌应答的肯定部分，承接上文对方的提议",
+      "meaning": "是的"
+    },
+    {
+      "text": "please.",
+      "relation": "礼貌收尾，表达接受提议时的客气态度",
+      "meaning": "麻烦了/请拿吧"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "应答的省略逻辑",
+      "text": "日常交际中答语常省略上文已经提过的具体事物，不需要重复说“请来一杯咖啡”，只用Yes, please就可以完整表意，简洁自然。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yes,",
+      "role": "肯定应答",
+      "explanation": "直接回应对方的提议，给出明确的肯定态度"
+    },
+    {
+      "text": "please.",
+      "role": "礼貌标记",
+      "explanation": "弱化直接答应的生硬感，体现接受对方好意时的客气"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "是的，对",
+      "pos": "感叹词（此处用于表示肯定应答）",
+      "phonetic": "/jes/",
+      "text": "Yes,"
+    },
+    {
+      "meaning": "请，麻烦了",
+      "pos": "感叹词（此处作为礼貌交际用语，非动词“请”的指令义）",
+      "phonetic": "/pliːz/",
+      "text": "please."
+    }
+  ],
+  "courseId": "nce1",
+  "lessonId": "lesson-47",
+  "sentenceId": "nce-1-lesson-047-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Yes, please.",
+  "lesson": "Lesson 47 A cup of coffee",
+  "notes": [
+    {
+      "title": "应答的省略逻辑",
+      "text": "日常交际中答语常省略上文已经提过的具体事物，不需要重复说“请来一杯咖啡”，只用Yes, please就可以完整表意，简洁自然。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原句为承接上文咖啡邀约的礼貌接受类省略答语，各分块的角色、词义、结构说明整体符合语境，音标采用英式标注正确，无核心语义错误；仅两处词性说明需补充以贴合基础英语学习需求。（非逐句人工审核）"
+}
