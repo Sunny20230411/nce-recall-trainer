@@ -19,6 +19,7 @@ await copyFile("nce1-zh-supplement.js", "dist/nce1-zh-supplement.js");
 await copyFile("nce1-analysis.js", "dist/nce1-analysis.js");
 await copyFile("nce2-content.js", "dist/nce2-content.js");
 await mkdir("dist/assets/ui/home", { recursive: true });
+await copyFile("assets/ui/yuke-icon.png", "dist/assets/ui/yuke-icon.png");
 await cp("assets/ui/home/slices", "dist/assets/ui/home/slices", { recursive: true });
 
 console.log("Built static site to dist/");
