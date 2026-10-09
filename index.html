@@ -1715,9 +1715,9 @@
     .home-course-meta {
       min-height: clamp(34px, 2.05vw, 42px);
       padding: 0 clamp(10px, 1vw, 20px);
-      display: flex;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
       align-items: center;
-      justify-content: center;
       gap: clamp(8px, .7vw, 14px);
       color: #526070;
       border: 1px solid color-mix(in srgb, var(--course-accent) 22%, white);
@@ -1730,6 +1730,8 @@
     .home-course-meta span {
       display: inline-flex;
       align-items: center;
+      justify-content: center;
+      min-width: 0;
       gap: 6px;
     }
 

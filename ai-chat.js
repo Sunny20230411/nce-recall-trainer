@@ -1,8 +1,69 @@
 (() => {
   const entry = document.createElement('button');
   entry.className = 'ask-ai-entry'; entry.textContent = '问 AI'; entry.type = 'button';
-  entry.title = '打开 AI 学习助教'; entry.setAttribute('aria-haspopup', 'dialog');
+  entry.title = '打开 AI 学习助教；长按可拖动'; entry.setAttribute('aria-haspopup', 'dialog');
   document.body.append(entry);
+  let drag = null, entryPosition = null, suppressPointerClick = false;
+  function positionEntry(x, y) {
+    const viewport = window.visualViewport;
+    const left = viewport?.offsetLeft || 0, top = viewport?.offsetTop || 0;
+    const width = viewport?.width || document.documentElement.clientWidth;
+    const height = viewport?.height || innerHeight;
+    const rect = entry.getBoundingClientRect();
+    entryPosition = {
+      x: Math.max(left + 8, Math.min(x, left + width - rect.width - 8)),
+      y: Math.max(top + 8, Math.min(y, top + height - rect.height - 8))
+    };
+    entry.style.left = `${entryPosition.x}px`;
+    entry.style.top = `${entryPosition.y}px`;
+    entry.style.right = 'auto';
+  }
+  function finishDrag(event) {
+    if (!drag || (event?.pointerId !== undefined && event.pointerId !== drag.id)) return;
+    clearTimeout(drag.timer);
+    if (drag.active || drag.cancelled) suppressPointerClick = true;
+    const id = drag.id;
+    drag = null;
+    entry.classList.remove('is-dragging');
+    if (entry.hasPointerCapture(id)) entry.releasePointerCapture(id);
+  }
+  entry.addEventListener('pointerdown', event => {
+    if (!event.isPrimary || event.button !== 0 || drag) return;
+    suppressPointerClick = false;
+    const rect = entry.getBoundingClientRect();
+    drag = { id: event.pointerId, x: event.clientX, y: event.clientY, offsetX: event.clientX - rect.left, offsetY: event.clientY - rect.top, active: false, cancelled: false };
+    entry.setPointerCapture(event.pointerId);
+    drag.timer = setTimeout(() => {
+      if (!drag || drag.cancelled) return;
+      drag.active = true;
+      positionEntry(rect.left, rect.top);
+      entry.classList.add('is-dragging');
+    }, 400);
+  });
+  entry.addEventListener('pointermove', event => {
+    if (!drag || drag.id !== event.pointerId) return;
+    if (!drag.active && Math.hypot(event.clientX - drag.x, event.clientY - drag.y) > 8) {
+      drag.cancelled = true;
+      clearTimeout(drag.timer);
+    }
+    if (drag.active) positionEntry(event.clientX - drag.offsetX, event.clientY - drag.offsetY);
+  });
+  for (const type of ['pointerup', 'pointercancel', 'lostpointercapture']) entry.addEventListener(type, finishDrag);
+  entry.addEventListener('contextmenu', event => event.preventDefault());
+  entry.addEventListener('keydown', event => {
+    if (!['Enter', ' '].includes(event.key)) return;
+    event.preventDefault();
+    event.stopPropagation();
+    if (!event.repeat) entry.click();
+  });
+  window.addEventListener('blur', () => finishDrag());
+  const keepEntryVisible = () => {
+    if (entryPosition && entry.getClientRects().length) positionEntry(entryPosition.x, entryPosition.y);
+  };
+  window.addEventListener('resize', keepEntryVisible);
+  window.visualViewport?.addEventListener('resize', keepEntryVisible);
+  window.visualViewport?.addEventListener('scroll', keepEntryVisible);
+  new MutationObserver(keepEntryVisible).observe(document.body, { attributes: true, attributeFilter: ['class'] });
   const dialog = document.createElement('dialog');
   dialog.className = 'tutor-dialog'; dialog.setAttribute('aria-labelledby', 'tutorTitle');
   dialog.innerHTML = `<div class="tutor-layout"><header class="tutor-header"><strong id="tutorTitle">AI 学习助教</strong><button type="button" aria-label="关闭">×</button></header><p class="tutor-context"></p><div class="tutor-messages" role="log" aria-live="polite"></div><p class="tutor-status" role="status"></p><form class="tutor-form"><textarea aria-label="你的问题" placeholder="这句话哪里不理解？" maxlength="1500" rows="2" required></textarea><button type="submit">发送</button></form></div>`;
@@ -81,7 +142,8 @@
     answerNode.after(section);
     if (follow) messages.scrollTop = messages.scrollHeight;
   }
-  entry.addEventListener('click', () => {
+  entry.addEventListener('click', event => {
+    if (event.detail && suppressPointerClick) { suppressPointerClick = false; return; }
     if (!state.current) return;
     if (identity !== currentIdentity()) { clearEditing(); history = []; messages.replaceChildren(); input.value = ''; identity = currentIdentity(); }
     const context = dialog.querySelector('.tutor-context');
