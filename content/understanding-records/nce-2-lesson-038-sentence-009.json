@@ -1,0 +1,160 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-038",
+  "sentenceId": "nce-2-lesson-038-sentence-009",
+  "sentenceOrder": 9,
+  "english": "All the years he had lived abroad, he had forgotten all except the weather.",
+  "chinese": "在国外生活的那些年里，他忘记了一切，唯独没有忘记天气。",
+  "lesson": "Lesson 38 Everything except the weather",
+  "intent": "按当前原句说明忘记的范围及其中的例外。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "All the years he had lived abroad,",
+      "relation": "在国外生活的时段",
+      "meaning": "在国外生活的那些年里"
+    },
+    {
+      "text": "he had forgotten all",
+      "relation": "被忘记的范围",
+      "meaning": "他忘记了一切"
+    },
+    {
+      "text": "except the weather.",
+      "relation": "被排除的例外",
+      "meaning": "唯独天气没有忘记"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "except限定忘记的范围",
+      "text": "forgotten all except the weather 字面表示忘记了除天气之外的一切，不能译成只忘记天气。当前数据原句如此，解析不擅自改动原文。"
+    },
+    {
+      "title": "时间短语中的修饰",
+      "text": "he had lived abroad 修饰 years，说明是哪一些年份。句首整个名词短语提供时间背景，不把 lived 与 forgotten 强行排成两个不重叠的阶段。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "except限定忘记的范围",
+      "text": "forgotten all except the weather 字面表示忘记了除天气之外的一切，不能译成只忘记天气。当前数据原句如此，解析不擅自改动原文。"
+    },
+    {
+      "title": "时间短语中的修饰",
+      "text": "he had lived abroad 修饰 years，说明是哪一些年份。句首整个名词短语提供时间背景，不把 lived 与 forgotten 强行排成两个不重叠的阶段。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "All the years he had lived abroad,",
+      "role": "时间状语",
+      "explanation": "说明在国外生活的那些年里。"
+    },
+    {
+      "text": "he had lived abroad",
+      "role": "定语从句",
+      "explanation": "修饰years，省略了时间关系词。"
+    },
+    {
+      "text": "he had forgotten all",
+      "role": "主句",
+      "explanation": "说明已忘记的范围。"
+    },
+    {
+      "text": "except the weather.",
+      "role": "排除范围的介词短语",
+      "explanation": "说明天气不在被忘记的范围内。"
+    }
+  ],
+  "words": [
+    {
+      "text": "All",
+      "meaning": "所有那些",
+      "pos": "限定词",
+      "phonetic": "/ɔːl/"
+    },
+    {
+      "text": "the",
+      "meaning": "所指的",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "years",
+      "meaning": "年；那些年",
+      "pos": "名词",
+      "phonetic": "/jɪəz/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "had",
+      "meaning": "构成过去完成时",
+      "pos": "助动词",
+      "phonetic": "/hæd/ 或 /əd/"
+    },
+    {
+      "text": "lived",
+      "meaning": "生活；居住",
+      "pos": "动词过去分词",
+      "phonetic": "/lɪvd/"
+    },
+    {
+      "text": "abroad,",
+      "meaning": "在国外",
+      "pos": "副词",
+      "phonetic": "/əˈbrɔːd/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "had",
+      "meaning": "构成过去完成时",
+      "pos": "助动词",
+      "phonetic": "/hæd/ 或 /əd/"
+    },
+    {
+      "text": "forgotten",
+      "meaning": "忘记",
+      "pos": "动词过去分词",
+      "phonetic": "/fəˈɡɒtən/"
+    },
+    {
+      "text": "all",
+      "meaning": "一切",
+      "pos": "不定代词",
+      "phonetic": "/ɔːl/"
+    },
+    {
+      "text": "except",
+      "meaning": "除了……以外",
+      "pos": "介词",
+      "phonetic": "/ɪkˈsept/"
+    },
+    {
+      "text": "the",
+      "meaning": "当地的",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "weather.",
+      "meaning": "天气",
+      "pos": "名词",
+      "phonetic": "/ˈweðə(r)/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

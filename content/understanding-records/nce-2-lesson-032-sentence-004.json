@@ -1,0 +1,280 @@
+{
+  "chinese": "有一个星期一，那位妇女进来的时候，店里的人比平时少，因此侦探更容易监视她。",
+  "intent": "交代某个周一那名妇女进店时店铺里人少的背景，以及由此带来的结果——侦探更容易观察她。",
+  "comparison": {
+    "chinese": "中文常把时间状语放在最前面，先说“那位妇女进来的时候”，再讲“店里人比平时少”，最后说结果“所以侦探更容易盯她”；英文也是先给时间，再讲主句情况，用when插入“妇女进店”的时间点，最后用so引出结果。",
+    "english": "One Monday, there were fewer people in the shop than usual when the woman came in, so it was easier for the detective to watch her.",
+    "steps": [
+      {
+        "label": "第一步：先抓核心场景",
+        "text": "there were fewer people in the shop than usual",
+        "explanation": "先理解主干是“店里的人比平时少”，there be 句型表示“某地存在有某物/某人”，fewer...than 是比较级，说明人数少于往常。"
+      },
+      {
+        "label": "第二步：补上时间点",
+        "text": "when the woman came in",
+        "explanation": "when 引导的从句说明“人少”这个情况对应的具体时刻——就是那名妇女进来的时候，不是一整天都人少。"
+      },
+      {
+        "label": "第三步：接结果",
+        "text": "so it was easier for the detective to watch her",
+        "explanation": "so 引出因果结果，it 是形式上的主语，真正的内容是“侦探监视她”这件事更容易，英文习惯把这件事往后放，用it先占位。"
+      }
+    ],
+    "takeaway": "英文常用there be先交代场景，再用when限定时间点，最后用so衔接结果；it作形式主语可以避免“to do sth. 怎么样”这种结构头重脚轻。"
+  },
+  "backbone": {
+    "text": "There were fewer people in the shop than usual, so it was easier for the detective to watch her.",
+    "meaning": "店里的人比平时少，因此侦探监视她就更容易了。"
+  },
+  "structureNotes": [
+    {
+      "title": "when 引导时间状语从句",
+      "text": "when the woman came in 用来说明“店里人少”的具体时间点，是“在这名妇女进来的那个时刻”，而不是别的时候。"
+    },
+    {
+      "title": "so 连接并列句表因果",
+      "text": "so 在这里是连词，连接前后两个独立的句子，前一句是原因（人少），后一句是结果（更容易监视）。"
+    },
+    {
+      "title": "it 作形式主语",
+      "text": "it was easier for the detective to watch her 里真正的主语是 to watch her 这件事，it 只是占位，避免句子头重脚轻。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "One Monday,",
+      "role": "时间状语",
+      "explanation": "点明整个事件发生的时间是某个星期一。"
+    },
+    {
+      "text": "there were fewer people in the shop than usual",
+      "role": "主句（there be 句型）",
+      "explanation": "说明店里存在“比平时人数少”的情况，是句子的核心场景。"
+    },
+    {
+      "text": "when the woman came in,",
+      "role": "时间状语从句",
+      "explanation": "限定前面“人少”的情况发生在“那名妇女进来”的时刻。"
+    },
+    {
+      "text": "so",
+      "role": "并列连词",
+      "explanation": "表示因果关系，引出前面情况带来的结果。"
+    },
+    {
+      "text": "it was easier for the detective to watch her.",
+      "role": "结果分句",
+      "explanation": "it 是形式主语，真正的主语是 to watch her，说明“侦探监视她”这件事更容易。"
+    }
+  ],
+  "words": [
+    {
+      "text": "One",
+      "meaning": "一个（用于不确定的某一天）",
+      "pos": "限定词",
+      "phonetic": "/wʌn/"
+    },
+    {
+      "text": "Monday,",
+      "meaning": "星期一，",
+      "pos": "名词",
+      "phonetic": "/ˈmʌndeɪ/"
+    },
+    {
+      "text": "there",
+      "meaning": "（there be 句型引导词，无实义）",
+      "pos": "副词",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（are 的过去式，there were 表示“有”）",
+      "pos": "动词",
+      "phonetic": "/wɜː/"
+    },
+    {
+      "text": "fewer",
+      "meaning": "更少的（few 的比较级，修饰可数名词复数）",
+      "pos": "限定词",
+      "phonetic": "/ˈfjuːə/"
+    },
+    {
+      "text": "people",
+      "meaning": "人；人们",
+      "pos": "名词",
+      "phonetic": "/ˈpiːpl/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这；那（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "shop",
+      "meaning": "商店；店铺",
+      "pos": "名词",
+      "phonetic": "/ʃɒp/"
+    },
+    {
+      "text": "than",
+      "meaning": "比（用于比较级）",
+      "pos": "连词/介词",
+      "phonetic": "/ðæn/"
+    },
+    {
+      "text": "usual",
+      "meaning": "往常；平时",
+      "pos": "名词",
+      "phonetic": "/ˈjuːʒuəl/"
+    },
+    {
+      "text": "when",
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "the",
+      "meaning": "这；那（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "woman",
+      "meaning": "妇女；成年女子",
+      "pos": "名词",
+      "phonetic": "/ˈwʊmən/"
+    },
+    {
+      "text": "came",
+      "meaning": "来（come 的过去式）",
+      "pos": "动词",
+      "phonetic": "/keɪm/"
+    },
+    {
+      "text": "in,",
+      "meaning": "进入；在里面，",
+      "pos": "副词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "so",
+      "meaning": "所以；因此",
+      "pos": "连词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（此处作形式主语）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（is/am 的过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "easier",
+      "meaning": "更容易的（easy 的比较级）",
+      "pos": "形容词",
+      "phonetic": "/ˈiːziə/"
+    },
+    {
+      "text": "for",
+      "meaning": "对于；为了",
+      "pos": "介词",
+      "phonetic": "/fɔː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这；那（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "detective",
+      "meaning": "侦探",
+      "pos": "名词",
+      "phonetic": "/dɪˈtektɪv/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "watch",
+      "meaning": "注视；监视",
+      "pos": "动词",
+      "phonetic": "/wɒtʃ/"
+    },
+    {
+      "text": "her.",
+      "meaning": "她（宾格）。",
+      "pos": "代词",
+      "phonetic": "/hɜː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "One Monday,",
+      "relation": "时间",
+      "meaning": "某个星期一"
+    },
+    {
+      "text": "there were fewer people in the shop than usual",
+      "relation": "主句：描述场景",
+      "meaning": "店里的人比平时少"
+    },
+    {
+      "text": "when the woman came in,",
+      "relation": "时间：说明人少的时刻",
+      "meaning": "当那名妇女进来的时候"
+    },
+    {
+      "text": "so",
+      "relation": "连接：因果",
+      "meaning": "所以；因此"
+    },
+    {
+      "text": "it was easier for the detective to watch her.",
+      "relation": "结果：人少带来的后果",
+      "meaning": "对侦探来说监视她就更容易了"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-032",
+  "sentenceId": "nce-2-lesson-032-sentence-004",
+  "sentenceOrder": 4,
+  "english": "One Monday, there were fewer people in the shop than usual when the woman came in, so it was easier for the detective to watch her.",
+  "lesson": "Lesson 32 Shopping made easy",
+  "notes": [
+    {
+      "title": "when 引导时间状语从句",
+      "text": "when the woman came in 用来说明“店里人少”的具体时间点，是“在这名妇女进来的那个时刻”，而不是别的时候。"
+    },
+    {
+      "title": "so 连接并列句表因果",
+      "text": "so 在这里是连词，连接前后两个独立的句子，前一句是原因（人少），后一句是结果（更容易监视）。"
+    },
+    {
+      "title": "it 作形式主语",
+      "text": "it was easier for the detective to watch her 里真正的主语是 to watch her 这件事，it 只是占位，避免句子头重脚轻。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：翻译语序稍显生硬，usual词性标注错误，fewer的词性说明可更准确，其余内容基本准确。（非逐句人工审核）"
+}

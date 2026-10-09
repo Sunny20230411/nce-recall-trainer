@@ -1,0 +1,102 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-095",
+  "sentenceId": "nce-2-lesson-095-sentence-013",
+  "sentenceOrder": 13,
+  "english": "He thought I was on fire.",
+  "chinese": "他以为我身上着火了。",
+  "lesson": "Lesson 95 A fantasy",
+  "intent": "解释霍斯特把灭火器对准自己的误会。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "He thought",
+      "relation": "误判来源",
+      "meaning": "他以为"
+    },
+    {
+      "text": "I was on fire.",
+      "relation": "误判内容",
+      "meaning": "我身上着火了"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "认知与事实",
+      "text": "thought 的内容是人物当时的想法，真假由上下文判断。"
+    },
+    {
+      "title": "燃烧状态",
+      "text": "on fire 表处于着火状态。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "认知与事实",
+      "text": "thought 的内容是人物当时的想法，真假由上下文判断。"
+    },
+    {
+      "title": "燃烧状态",
+      "text": "on fire 表处于着火状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指霍斯特。"
+    },
+    {
+      "text": "thought",
+      "role": "谓语",
+      "explanation": "引出其判断。"
+    },
+    {
+      "text": "I was on fire",
+      "role": "宾语从句",
+      "explanation": "省略 that，说明误认的内容。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "thought",
+      "meaning": "以为",
+      "pos": "动词",
+      "phonetic": "/θɔːt/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "was",
+      "meaning": "处于",
+      "pos": "系动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "on",
+      "meaning": "着，组成on fire",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "fire.",
+      "meaning": "火，组成着火",
+      "pos": "名词",
+      "phonetic": "/ˈfaɪə/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

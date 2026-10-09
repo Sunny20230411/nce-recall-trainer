@@ -1,0 +1,111 @@
+{
+  "chinese": "他们一点也没理会。",
+  "intent": "说明那两个人对我生气的目光完全没有作出注意的反应。",
+  "comparison": null,
+  "backbone": {
+    "text": "They did not pay any attention.",
+    "meaning": "他们没有给予任何注意。"
+  },
+  "structureNotes": [
+    {
+      "title": "一般过去时的否定形式",
+      "text": "用 did not 加动词原形 pay 构成过去时的否定，说明这件事发生在过去，而且强调“没有做”这个事实。"
+    },
+    {
+      "title": "any 的语气作用",
+      "text": "any 用在否定句里修饰 attention，比直接说 not pay attention 语气更强，相当于“丝毫、一点（都没有）”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They",
+      "role": "主语",
+      "explanation": "指代前文提到的一男一女，是“没注意”这个动作的发出者。"
+    },
+    {
+      "text": "did not pay",
+      "role": "谓语",
+      "explanation": "是一般过去时的否定谓语，表达过去没有发生“给予、付出”的动作。"
+    },
+    {
+      "text": "any attention",
+      "role": "宾语",
+      "explanation": "是 pay 动作的对象，pay attention 是常用搭配，表示“注意、理会”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "They",
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "did",
+      "meaning": "（助动词，构成过去时否定，无实义）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有（构成否定）",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "pay",
+      "meaning": "给予（注意等）",
+      "pos": "动词",
+      "phonetic": "/peɪ/"
+    },
+    {
+      "text": "any",
+      "meaning": "任何的，丝毫的（用于否定句加强语气）",
+      "pos": "限定词",
+      "phonetic": "/ˈeni/"
+    },
+    {
+      "text": "attention.",
+      "meaning": "注意，理会",
+      "pos": "名词",
+      "phonetic": "/əˈtenʃn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "They",
+      "meaning": "他们",
+      "relation": "描述谁（动作发出者）"
+    },
+    {
+      "text": "did not pay",
+      "meaning": "没有给予",
+      "relation": "做了什么（动作）"
+    },
+    {
+      "text": "any attention.",
+      "meaning": "丝毫注意",
+      "relation": "动作的对象"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-001",
+  "sentenceId": "nce-2-lesson-001-sentence-011",
+  "sentenceOrder": 11,
+  "english": "They did not pay any attention.",
+  "lesson": "Lesson 1 A private conversation",
+  "notes": [
+    {
+      "title": "一般过去时的否定形式",
+      "text": "用 did not 加动词原形 pay 构成过去时的否定，说明这件事发生在过去，而且强调“没有做”这个事实。"
+    },
+    {
+      "title": "any 的语气作用",
+      "text": "any 用在否定句里修饰 attention，比直接说 not pay attention 语气更强，相当于“丝毫、一点（都没有）”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅存在细节问题：1. words数组中最后一项attention的释义末尾多余句号；2. parts数组中any attention块的中文释义未体现any在否定句中加强语气的作用，与整体语境贴合度不足；3. 各字段语法角色、指代关系、时态说明均正确，无核心错误。（非逐句人工审核）"
+}

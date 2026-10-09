@@ -1,0 +1,223 @@
+{
+  "chinese": "他注意到一条蛇的残骸，这条蛇曾缠绕在一根16000伏输电线路的电线上。",
+  "intent": "描述消防员发现的具体内容：一条蛇的残骸及其所处的位置状态，交代火灾原因的关键线索。",
+  "comparison": {
+    "chinese": "他注意到［一条曾缠绕在16000伏输电线电线上的蛇的残骸］。",
+    "english": "He noticed the remains of a snake which had been wrapped round the wires of a 16,000-volt power line.",
+    "steps": [
+      {
+        "label": "先抓主干信息",
+        "text": "He noticed the remains of a snake",
+        "explanation": "中文先说“他注意到蛇的残骸”，英文也是先给出主句核心：他注意到的对象是蛇的残骸。"
+      },
+      {
+        "label": "补充残骸对应的蛇的状态",
+        "text": "which had been wrapped round the wires",
+        "explanation": "英文用which引出从句放在snake后面，说明这条蛇当时处于“被缠在电线上”的状态；中文会把“被缠在电线上”作为修饰语，放在“蛇”或“残骸”前面。"
+      },
+      {
+        "label": "进一步说明电线所属",
+        "text": "of a 16,000-volt power line",
+        "explanation": "英文用of结构后置说明电线属于16000伏输电线；中文直接说“16000伏输电线的电线”，修饰语在前。"
+      }
+    ],
+    "takeaway": "英文习惯先抛出核心名词（snake、wires），再用从句或of结构后置补充细节；中文习惯把所有修饰、限定内容放在名词前面，再说出核心名词。"
+  },
+  "backbone": {
+    "text": "He noticed the remains of a snake.",
+    "meaning": "他注意到一条蛇的残骸。"
+  },
+  "structureNotes": [
+    {
+      "title": "which引导的定语从句",
+      "text": "which had been wrapped round the wires of a 16,000-volt power line 修饰前面的 a snake，which指代snake，在从句中作主语，说明蛇的状态是被缠在电线上。"
+    },
+    {
+      "title": "过去完成时被动语态",
+      "text": "had been wrapped 是过去完成时的被动形式，表示“被缠绕”这个动作发生在主句动作 noticed（过去的动作）之前，是更早已经存在的状态。"
+    },
+    {
+      "title": "of结构表所属关系",
+      "text": "两处of结构（the remains of a snake、the wires of a 16,000-volt power line）都表示所属，分别是“蛇的残骸”和“16000伏输电线的电线”，修饰语都后置。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He noticed",
+      "role": "主句主语+谓语",
+      "explanation": "He是动作发出者，noticed是谓语动词，表示“注意到”，引出后面看到的内容。"
+    },
+    {
+      "text": "the remains of a snake",
+      "role": "主句宾语",
+      "explanation": "noticed的对象，核心词是remains（残骸），of a snake 说明残骸属于一条蛇。"
+    },
+    {
+      "text": "which had been wrapped round the wires of a 16,000-volt power line.",
+      "role": "定语从句",
+      "explanation": "修饰a snake，which指代snake；had been wrapped是被动谓语，round引出地点（缠绕的位置），后面的of结构进一步说明电线的所属。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "noticed",
+      "meaning": "注意到",
+      "pos": "动词（过去式）",
+      "phonetic": "/ˈnəʊtɪst/"
+    },
+    {
+      "text": "the",
+      "meaning": "这/那（定冠词，表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "remains",
+      "meaning": "残骸，剩余物",
+      "pos": "名词（复数）",
+      "phonetic": "/rɪˈmeɪnz/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表所属）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（条）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "snake",
+      "meaning": "蛇",
+      "pos": "名词",
+      "phonetic": "/sneɪk/"
+    },
+    {
+      "text": "which",
+      "meaning": "……的（引导定语从句，指代snake）",
+      "pos": "关系代词",
+      "phonetic": "/wɪtʃ/"
+    },
+    {
+      "text": "had",
+      "meaning": "已经（过去完成时助动词）",
+      "pos": "助动词（过去式）",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "been",
+      "meaning": "被（被动语态助动词）",
+      "pos": "助动词（过去分词）",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "wrapped",
+      "meaning": "缠绕，裹",
+      "pos": "动词（过去分词）",
+      "phonetic": "/ræpt/"
+    },
+    {
+      "text": "round",
+      "meaning": "环绕，绕在",
+      "pos": "介词",
+      "phonetic": "/raʊnd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这/那（定冠词，表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "wires",
+      "meaning": "电线，导线",
+      "pos": "名词（复数）",
+      "phonetic": "/ˈwaɪəz/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表所属）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（根）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "16,000-volt",
+      "meaning": "16000伏的",
+      "pos": "复合形容词",
+      "phonetic": "/ˌsɪksˈtiːn ˈθaʊzənd vəʊlt/"
+    },
+    {
+      "text": "power",
+      "meaning": "电力，输电",
+      "pos": "名词（作定语）",
+      "phonetic": "/ˈpaʊə/"
+    },
+    {
+      "text": "line.",
+      "meaning": "线路",
+      "pos": "名词",
+      "phonetic": "/laɪn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He noticed",
+      "relation": "动作发出者+核心动作",
+      "meaning": "他注意到"
+    },
+    {
+      "text": "the remains of a snake",
+      "relation": "注意到的对象（主句宾语）",
+      "meaning": "一条蛇的残骸"
+    },
+    {
+      "text": "which had been wrapped round the wires",
+      "relation": "描述蛇的状态，补充说明snake",
+      "meaning": "（这条蛇）曾被缠绕在电线上"
+    },
+    {
+      "text": "of a 16,000-volt power line.",
+      "relation": "说明电线的所属，补充wires",
+      "meaning": "一根16000伏输电线路的（电线）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-053",
+  "sentenceId": "nce-2-lesson-053-sentence-007",
+  "sentenceOrder": 7,
+  "english": "He noticed the remains of a snake which had been wrapped round the wires of a 16,000-volt power line.",
+  "lesson": "Lesson 53 Hot snake",
+  "notes": [
+    {
+      "title": "which引导的定语从句",
+      "text": "which had been wrapped round the wires of a 16,000-volt power line 修饰前面的 a snake，which指代snake，在从句中作主语，说明蛇的状态是被缠在电线上。"
+    },
+    {
+      "title": "过去完成时被动语态",
+      "text": "had been wrapped 是过去完成时的被动形式，表示“被缠绕”这个动作发生在主句动作 noticed（过去的动作）之前，是更早已经存在的状态。"
+    },
+    {
+      "title": "of结构表所属关系",
+      "text": "两处of结构（the remains of a snake、the wires of a 16,000-volt power line）都表示所属，分别是“蛇的残骸”和“16000伏输电线的电线”，修饰语都后置。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需修正单词power的词性与释义标注错误，以及单词line.的释义中混入标点的问题。（非逐句人工审核）"
+}

@@ -1,0 +1,129 @@
+{
+  "chinese": "在那一刻，每个人都开始笑和唱歌。",
+  "intent": "描述某个特定时刻所有人同时开始说笑和唱歌的场景。",
+  "comparison": null,
+  "backbone": {
+    "text": "everybody began to laugh and sing",
+    "meaning": "所有人开始笑和唱歌"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语的位置",
+      "text": "句首的At that moment用逗号隔开，点明后面整件事发生的时间点，理解时先抓住主干动作，再对应到这个时间点即可。"
+    },
+    {
+      "title": "并列的不定式",
+      "text": "began后面接to laugh and sing，两个动词用and并列，共同表示开始做的两件事，to只出现一次就管到两个动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "At that moment,",
+      "role": "时间状语",
+      "explanation": "交代后面整件事发生的具体时间点，指前文提到的那个瞬间。"
+    },
+    {
+      "text": "everybody",
+      "role": "主语",
+      "explanation": "指在场的所有人，是发出后面“开始笑和唱”这个动作的主体。"
+    },
+    {
+      "text": "began to laugh and sing.",
+      "role": "谓语部分",
+      "explanation": "began是动词过去式表示“开始”，后面跟并列的不定式to laugh and sing，说明开始做的两个并列动作。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "在（某时间点）",
+      "pos": "介词",
+      "phonetic": "/æt/",
+      "text": "At"
+    },
+    {
+      "meaning": "那个",
+      "pos": "限定词",
+      "phonetic": "/ðæt/",
+      "text": "that"
+    },
+    {
+      "meaning": "时刻，瞬间",
+      "pos": "名词",
+      "phonetic": "/ˈməʊmənt/",
+      "text": "moment,"
+    },
+    {
+      "meaning": "每个人，所有人",
+      "pos": "不定代词",
+      "phonetic": "/ˈevribɒdi/",
+      "text": "everybody"
+    },
+    {
+      "meaning": "开始（begin的过去式）",
+      "pos": "动词",
+      "phonetic": "/bɪˈɡæn/",
+      "text": "began"
+    },
+    {
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "笑，发笑",
+      "pos": "动词",
+      "phonetic": "/lɑːf/",
+      "text": "laugh"
+    },
+    {
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "唱歌（sing的原形）",
+      "pos": "动词",
+      "phonetic": "/sɪŋ/",
+      "text": "sing."
+    }
+  ],
+  "parts": [
+    {
+      "text": "At that moment,",
+      "relation": "时间",
+      "meaning": "在那一刻"
+    },
+    {
+      "text": "everybody",
+      "relation": "谁做的动作",
+      "meaning": "每个人"
+    },
+    {
+      "text": "began to laugh and sing.",
+      "relation": "做了什么事",
+      "meaning": "开始笑和唱歌"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-009",
+  "sentenceId": "nce-2-lesson-009-sentence-012",
+  "sentenceOrder": 12,
+  "english": "At that moment, everybody began to laugh and sing.",
+  "lesson": "Lesson 9 A cold welcome",
+  "notes": [
+    {
+      "title": "时间状语的位置",
+      "text": "句首的At that moment用逗号隔开，点明后面整件事发生的时间点，理解时先抓住主干动作，再对应到这个时间点即可。"
+    },
+    {
+      "title": "并列的不定式",
+      "text": "began后面接to laugh and sing，两个动词用and并列，共同表示开始做的两件事，to只出现一次就管到两个动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文解析整体准确，仅存在一处小问题：words中moment,的释义未保留词项自带的逗号说明约定无需额外标注，但laugh的英式音标标注有误，应为/lɑːf/（原标注正确，实际检查发现moment词项后带逗号属于约定俗成的分词方式，无需修正；进一步核对发现所有内容均符合要求，仅需确认：原解析中所有字段均准确，词性、释义、结构说明均正确，翻译准确，主干完整，指代清晰，音标为英式发音，辅助表达说明清楚。因此approved为true，无需要修正的内容。（非逐句人工审核）"
+}

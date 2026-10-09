@@ -1,0 +1,85 @@
+{
+  "chinese": "它里面装有50英镑。",
+  "intent": "陈述前文提到的信封内所含的钱款金额。",
+  "comparison": null,
+  "backbone": {
+    "text": "It contained £50.",
+    "meaning": "它里面装有50英镑。"
+  },
+  "structureNotes": [
+    {
+      "title": "It的指代",
+      "text": "句首的It指代上一句中提到的envelope（信封），承接上下文说明信封里装的东西。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "主语",
+      "explanation": "指代前文出现的信封，是“装有”这个动作的发出者（这里表示容器内含有的状态）。"
+    },
+    {
+      "text": "contained",
+      "role": "谓语",
+      "explanation": "是contain的过去式，表示“里面装有、包含”，说明主语的内容物情况。"
+    },
+    {
+      "text": "£50.",
+      "role": "宾语",
+      "explanation": "表示具体的钱款数额，是contained这个动作涉及的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（指代前文的信封）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "contained",
+      "meaning": "包含，装有（过去式）",
+      "pos": "动词",
+      "phonetic": "/kənˈteɪnd/"
+    },
+    {
+      "text": "£50.",
+      "meaning": "50英镑",
+      "pos": "名词短语",
+      "phonetic": "/ˈfɪfti paʊndz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It",
+      "relation": "描述的对象，即什么东西里面有钱",
+      "meaning": "它（指信封）"
+    },
+    {
+      "text": "contained",
+      "relation": "核心动作，表示容器内有某物",
+      "meaning": "装有、包含"
+    },
+    {
+      "text": "£50.",
+      "relation": "装有的具体内容，是动作涉及的对象",
+      "meaning": "50英镑"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-024",
+  "sentenceId": "nce-2-lesson-024-sentence-008",
+  "sentenceOrder": 8,
+  "english": "It contained £50.",
+  "lesson": "Lesson 24 It could be worse",
+  "notes": [
+    {
+      "title": "It的指代",
+      "text": "句首的It指代上一句中提到的envelope（信封），承接上下文说明信封里装的东西。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，仅需修正contained的英式音标拼写错误。（非逐句人工审核）"
+}

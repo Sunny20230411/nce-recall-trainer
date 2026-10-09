@@ -1,0 +1,145 @@
+{
+  "chinese": "人们并不像过去那样诚实了。",
+  "intent": "通过与过去的对比，说明当下人们的诚实程度有所下降。",
+  "comparison": {
+    "chinese": "人们不像以前那么诚实了。",
+    "english": "People are not so honest as they once were.",
+    "steps": [
+      {
+        "label": "先提出核心判断",
+        "text": "People are not so honest",
+        "explanation": "中文先讲“人们不诚实”，英文也先交代主语和核心描述，只是用so honest先点出程度基准的方向。"
+      },
+      {
+        "label": "再接上对比对象",
+        "text": "as they once were",
+        "explanation": "中文用“不像以前那么”把对比放在形容词前面，英文则把对比分句放在honest后面，用as引出过去的情况，回答“和什么相比没那么诚实”的问题。"
+      }
+    ],
+    "takeaway": "表示“不如……那么……”的对比时，中文习惯把对比对象放在形容词之前，英文则是“not so + 形容词 + as + 对比对象”，对比内容放在形容词后面。"
+  },
+  "backbone": {
+    "text": "People are not so honest as they once were.",
+    "meaning": "现在的人们没有过去的人们诚实。"
+  },
+  "structureNotes": [
+    {
+      "title": "not so...as... 的对比作用",
+      "text": "not so honest as they once were 用 not so...as... 结构表示前者不如后者，连接现在的状态和过去的状态，说明两者在诚实程度上的差异。"
+    },
+    {
+      "title": "they once were 的省略",
+      "text": "they once were 后面省略了 honest，因为前文已经提到 honest，用 were 对应过去的状态，避免重复。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "People",
+      "role": "主语",
+      "explanation": "指被讨论的群体“人们”，是整句话描述的对象。"
+    },
+    {
+      "text": "are not so honest as they once were.",
+      "role": "谓语（系表结构）",
+      "explanation": "由系动词are、表语not so honest as they once were构成系表结构，说明主语“人们”的状态，其中包含与过去情况的对比，表达“不像过去那样诚实”的含义。"
+    },
+    {
+      "text": "as they once were",
+      "role": "比较状语从句",
+      "explanation": "引出对比的参照对象“过去的人们（的诚实程度）”，用来补充说明现在的诚实程度是和什么时期做比较。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "人们",
+      "pos": "名词",
+      "phonetic": "/ˈpiːpl/",
+      "text": "People"
+    },
+    {
+      "meaning": "是（be的第二人称单复数现在时、第一/三人称复数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/",
+      "text": "are"
+    },
+    {
+      "meaning": "不，没有（表示否定）",
+      "pos": "副词",
+      "phonetic": "/nɒt/",
+      "text": "not"
+    },
+    {
+      "meaning": "如此，这么（表示程度）",
+      "pos": "副词",
+      "phonetic": "/səʊ/",
+      "text": "so"
+    },
+    {
+      "meaning": "诚实的",
+      "pos": "形容词",
+      "phonetic": "/ˈɒnɪst/",
+      "text": "honest"
+    },
+    {
+      "meaning": "像……一样；如同",
+      "pos": "连词",
+      "phonetic": "/æz/",
+      "text": "as"
+    },
+    {
+      "meaning": "他们；她们；它们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/",
+      "text": "they"
+    },
+    {
+      "meaning": "曾经，一度",
+      "pos": "副词",
+      "phonetic": "/wʌns/",
+      "text": "once"
+    },
+    {
+      "meaning": "是（be的过去式复数及第二人称单复数）",
+      "pos": "动词",
+      "phonetic": "/wɜː(r)/",
+      "text": "were."
+    }
+  ],
+  "parts": [
+    {
+      "text": "People",
+      "relation": "描述对象",
+      "meaning": "人们"
+    },
+    {
+      "text": "are not so honest",
+      "relation": "核心状态描述",
+      "meaning": "并不那么诚实"
+    },
+    {
+      "text": "as they once were.",
+      "relation": "比较参照，补充说明是和什么时候的状态对比",
+      "meaning": "像他们过去那样（的诚实程度）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-032",
+  "sentenceId": "nce-2-lesson-032-sentence-001",
+  "sentenceOrder": 1,
+  "english": "People are not so honest as they once were.",
+  "lesson": "Lesson 32 Shopping made easy",
+  "notes": [
+    {
+      "title": "not so...as... 的对比作用",
+      "text": "not so honest as they once were 用 not so...as... 结构表示前者不如后者，连接现在的状态和过去的状态，说明两者在诚实程度上的差异。"
+    },
+    {
+      "title": "they once were 的省略",
+      "text": "they once were 后面省略了 honest，因为前文已经提到 honest，用 were 对应过去的状态，避免重复。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅结构划分中谓语的表述不够严谨，未明确区分系动词与表语，将完整谓语部分拆分为系动词+表语结构更符合语法规范，其余内容无误。（非逐句人工审核）"
+}

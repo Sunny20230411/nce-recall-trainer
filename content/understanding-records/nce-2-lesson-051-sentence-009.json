@@ -1,0 +1,228 @@
+{
+  "chinese": "当我问他在做什么的时候，他内疚地笑了笑，然后把包裹放到了桌子上。",
+  "intent": "描述过去某个时刻我向对方发问后，对方带着愧疚的反应和随后的动作。",
+  "comparison": {
+    "chinese": "我问他在做什么的时候，他内疚地笑了笑，接着把包裹放到桌上。",
+    "english": "When I asked him what he was doing, he smiled guiltily and then put the parcel on the desk.",
+    "steps": [
+      {
+        "label": "第一步：先抓主句核心动作",
+        "text": "he smiled guiltily and then put the parcel on the desk",
+        "explanation": "中文先讲背景再讲结果，英文可以先看到主句是两个先后发生的动作：先带着内疚笑，再放包裹，这是全句最主要的信息。"
+      },
+      {
+        "label": "第二步：理解时间背景",
+        "text": "When I asked him what he was doing",
+        "explanation": "When引出整个事件发生的时间点：在我问他“正在做什么”的那一刻。里面的what he was doing是asked的内容，不是单独的问句，所以不用倒装。"
+      },
+      {
+        "label": "第三步：串起时间与动作",
+        "text": "When…, he smiled… and then put…",
+        "explanation": "先有“我发问”这个时间点，马上跟着“他笑”，再接着“放包裹”；and then清晰地标明了两个动作的先后顺序。"
+      }
+    ],
+    "takeaway": "英文用When把时间背景放在句首或句尾都可以，主句按动作先后用and then衔接；内嵌的“问他在做什么”是asked的内容，用陈述语序。"
+  },
+  "backbone": {
+    "text": "He smiled guiltily and then put the parcel on the desk.",
+    "meaning": "他内疚地笑了笑，然后把包裹放到了桌子上。"
+  },
+  "structureNotes": [
+    {
+      "title": "When引导的时间状语",
+      "text": "When I asked him what he was doing 用来说明后面主句动作发生的时间点，意思是“在我问他……的时候”。"
+    },
+    {
+      "title": "ask后面的疑问词从句",
+      "text": "what he was doing 是 asked 的内容，也就是“问”的具体问题；因为它跟在动词后作宾语，所以用陈述语序，不说 what was he doing。"
+    },
+    {
+      "title": "and then 连接先后动作",
+      "text": "smiled guiltily 和 put the parcel on the desk 是同一个主语 he 发出的两个动作，and then 表明“先笑，随后放包裹”的先后顺序。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When I asked him what he was doing,",
+      "role": "时间状语分句",
+      "explanation": "交代主句动作发生的时间背景，引导词是When，整个分句表示“在我问他正在做什么的那一刻”。"
+    },
+    {
+      "text": "what he was doing",
+      "role": "动词asked的宾语从句",
+      "explanation": "表示“问”的具体内容，也就是被问到的问题；由what引导，用陈述语序。"
+    },
+    {
+      "text": "smiled guiltily",
+      "role": "第一个谓语部分",
+      "explanation": "描述主语he发出的第一个动作和状态：带着愧疚地笑了。"
+    },
+    {
+      "text": "and then put the parcel on the desk",
+      "role": "第二个并列谓语部分",
+      "explanation": "描述主语he在笑之后紧接着做的动作：把包裹放在桌上；and then表示动作先后。"
+    }
+  ],
+  "words": [
+    {
+      "text": "When",
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "asked",
+      "meaning": "问；询问",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "what",
+      "meaning": "什么",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be动词过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "doing,",
+      "meaning": "做（现在分词）",
+      "pos": "动词",
+      "phonetic": "/ˈduːɪŋ/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "smiled",
+      "meaning": "微笑；笑了",
+      "pos": "动词",
+      "phonetic": "/smaɪld/"
+    },
+    {
+      "text": "guiltily",
+      "meaning": "内疚地；愧疚地",
+      "pos": "副词",
+      "phonetic": "/ˈɡɪltɪli/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "then",
+      "meaning": "然后；接着",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    },
+    {
+      "text": "put",
+      "meaning": "放；放置",
+      "pos": "动词",
+      "phonetic": "/pʊt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个；那个（定冠词）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "parcel",
+      "meaning": "包裹；小包",
+      "pos": "名词",
+      "phonetic": "/ˈpɑːsl/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个；那个（定冠词）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "desk.",
+      "meaning": "书桌；桌子",
+      "pos": "名词",
+      "phonetic": "/desk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "When I asked him what he was doing,",
+      "relation": "时间背景，说明主句动作发生的时刻",
+      "meaning": "当我问他正在做什么的时候"
+    },
+    {
+      "text": "he smiled guiltily",
+      "relation": "主句第一个动作，描述主语的反应",
+      "meaning": "他内疚地笑了笑"
+    },
+    {
+      "text": "and then",
+      "relation": "连接词，标明两个动作的先后顺序",
+      "meaning": "然后"
+    },
+    {
+      "text": "put the parcel on the desk.",
+      "relation": "主句第二个动作，描述紧接着发生的行为",
+      "meaning": "把包裹放到了桌子上"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-051",
+  "sentenceId": "nce-2-lesson-051-sentence-009",
+  "sentenceOrder": 10,
+  "english": "When I asked him what he was doing, he smiled guiltily and then put the parcel on the desk.",
+  "lesson": "Lesson 51 Reward for virtue",
+  "notes": [
+    {
+      "title": "When引导的时间状语",
+      "text": "When I asked him what he was doing 用来说明后面主句动作发生的时间点，意思是“在我问他……的时候”。"
+    },
+    {
+      "title": "ask后面的疑问词从句",
+      "text": "what he was doing 是 asked 的内容，也就是“问”的具体问题；因为它跟在动词后作宾语，所以用陈述语序，不说 what was he doing。"
+    },
+    {
+      "title": "and then 连接先后动作",
+      "text": "smiled guiltily 和 put the parcel on the desk 是同一个主语 he 发出的两个动作，and then 表明“先笑，随后放包裹”的先后顺序。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：存在两处小问题：1. 单词释义中doing,和desk.错误标注了带标点，只需解释词义本身；2. asked标注美式发音，课程为英式体系，应改为英式发音。（非逐句人工审核）"
+}

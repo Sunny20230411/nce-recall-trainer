@@ -1,0 +1,137 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-043",
+  "sentenceId": "nce-2-lesson-043-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Byrd, successfully flew over the South Pole for the first time.",
+  "chinese": "伯德首次成功飞越了南极。",
+  "lesson": "Lesson 43 Over the South Pole",
+  "intent": "接续人物姓名并叙述首次成功飞越南极",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "Byrd,",
+      "relation": "接续姓名",
+      "meaning": "伯德"
+    },
+    {
+      "text": "successfully flew over the South Pole",
+      "relation": "成功的行动",
+      "meaning": "成功飞越南极"
+    },
+    {
+      "text": "for the first time.",
+      "relation": "首次发生",
+      "meaning": "第一次"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "接续前一片段",
+      "text": "Byrd是前一片段R.E.后的姓氏；原文逗号结束姓名的同位说明，不应把它删去或添入姓名前半。"
+    },
+    {
+      "title": "首次",
+      "text": "for the first time作时间状语，说明此前没有发生过这次所述的成就。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "接续前一片段",
+      "text": "Byrd是前一片段R.E.后的姓氏；原文逗号结束姓名的同位说明，不应把它删去或添入姓名前半。"
+    },
+    {
+      "title": "首次",
+      "text": "for the first time作时间状语，说明此前没有发生过这次所述的成就。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Byrd,",
+      "role": "接续的同位语姓名",
+      "explanation": "接前文the American explorer, R.E.，完成姓名。"
+    },
+    {
+      "text": "successfully flew over the South Pole",
+      "role": "谓语及路径状语",
+      "explanation": "叙述成功飞越南极。"
+    },
+    {
+      "text": "for the first time.",
+      "role": "时间状语",
+      "explanation": "标明首次完成。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Byrd,",
+      "meaning": "伯德，人名",
+      "pos": "专有名词",
+      "phonetic": "/bɜːd/"
+    },
+    {
+      "text": "successfully",
+      "meaning": "成功地",
+      "pos": "副词",
+      "phonetic": "/səkˈsesfəli/"
+    },
+    {
+      "text": "flew",
+      "meaning": "飞行",
+      "pos": "动词",
+      "phonetic": "/fluː/"
+    },
+    {
+      "text": "over",
+      "meaning": "越过……上空",
+      "pos": "介词",
+      "phonetic": "/ˈəʊvə/"
+    },
+    {
+      "text": "the",
+      "meaning": "特指南极",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "South",
+      "meaning": "南，地名组成部分",
+      "pos": "专有名词组成部分",
+      "phonetic": "/saʊθ/"
+    },
+    {
+      "text": "Pole",
+      "meaning": "极，地名组成部分",
+      "pos": "专有名词组成部分",
+      "phonetic": "/pəʊl/"
+    },
+    {
+      "text": "for",
+      "meaning": "表示次数场合",
+      "pos": "介词",
+      "phonetic": "/fɔː/ 或 /fər/"
+    },
+    {
+      "text": "the",
+      "meaning": "特指首次",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "first",
+      "meaning": "第一",
+      "pos": "序数词",
+      "phonetic": "/fɜːst/"
+    },
+    {
+      "text": "time.",
+      "meaning": "次",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

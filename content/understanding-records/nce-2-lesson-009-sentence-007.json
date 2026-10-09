@@ -1,0 +1,123 @@
+{
+  "chinese": "突然有人大喊：“现在是十二点过两分！”",
+  "intent": "描述在等待过程中突然有人喊出当前时间的情景。",
+  "comparison": null,
+  "backbone": {
+    "text": "someone shouted ‘It's two minutes past twelve!'",
+    "meaning": "有人喊道：“现在是十二点过两分！”"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的形式",
+      "text": "句中‘It's two minutes past twelve!’是直接引语，一字不差地转述了说话人喊出的内容，由shouted引出。"
+    },
+    {
+      "title": "时间表达法",
+      "text": "表达“几点过几分”用“分钟数 + past + 钟点数”，这里two minutes past twelve就是12点过2分。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Suddenly",
+      "role": "状语",
+      "explanation": "说明“大喊”这个动作发生得很突然，修饰整个主句。"
+    },
+    {
+      "text": "someone shouted,",
+      "role": "主句主谓",
+      "explanation": "交代动作的发出者是某个人，动作是大声喊。"
+    },
+    {
+      "text": "‘It's two minutes past twelve!",
+      "role": "直接引语（主句谓语shouted的宾语）",
+      "explanation": "是shouted的内容，直接引用说话人喊出的具体话语，本句只截取了引语的前半部分，左单引号为引语起始标记。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Suddenly",
+      "meaning": "突然，忽然",
+      "pos": "副词",
+      "phonetic": "/ˈsʌdənli/"
+    },
+    {
+      "text": "someone",
+      "meaning": "有人，某人",
+      "pos": "代词",
+      "phonetic": "/ˈsʌmwʌn/"
+    },
+    {
+      "text": "shouted,",
+      "meaning": "大声说，喊（shout的过去式和过去分词）",
+      "pos": "动词",
+      "phonetic": "/ˈʃaʊtɪd/"
+    },
+    {
+      "text": "‘It's",
+      "meaning": "它是；现在是（it is的缩写）",
+      "pos": "缩写形式（代词+be动词）",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "two",
+      "meaning": "二，两",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "minutes",
+      "meaning": "分钟（minute的复数形式）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪnɪts/"
+    },
+    {
+      "text": "past",
+      "meaning": "过，晚于",
+      "pos": "介词",
+      "phonetic": "/pɑːst/"
+    },
+    {
+      "text": "twelve!",
+      "meaning": "十二",
+      "pos": "数词",
+      "phonetic": "/twelv/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Suddenly",
+      "relation": "说明动作发生的状态",
+      "meaning": "突然"
+    },
+    {
+      "text": "someone shouted,",
+      "relation": "主句：谁做了什么",
+      "meaning": "有人大喊道"
+    },
+    {
+      "text": "‘It's two minutes past twelve!",
+      "relation": "补充大喊的具体内容",
+      "meaning": "“现在是十二点过两分！”"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-009",
+  "sentenceId": "nce-2-lesson-009-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Suddenly someone shouted, ‘It's two minutes past twelve!",
+  "lesson": "Lesson 9 A cold welcome",
+  "notes": [
+    {
+      "title": "直接引语的形式",
+      "text": "句中‘It's two minutes past twelve!’是直接引语，一字不差地转述了说话人喊出的内容，由shouted引出。"
+    },
+    {
+      "title": "时间表达法",
+      "text": "表达“几点过几分”用“分钟数 + past + 钟点数”，这里two minutes past twelve就是12点过2分。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本准确，但存在几处可修正的细节：1. 单词释义中混入了标点说明，违反约定；2. It's的词性标注将代词与be动词混合，不符合词性分离要求；3. structures中直接引语的角色表述不够严谨，且直接引语的左单引号未闭合的情况应说明；4. 中文翻译和主干含义准确，但部分表述可更规范。（非逐句人工审核）"
+}

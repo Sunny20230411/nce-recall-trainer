@@ -1,0 +1,141 @@
+{
+  "chinese": "我也喜欢花园，但我不喜欢辛苦的劳作。",
+  "intent": "用转折关系表达两种并列的喜好：一方面认可花园，另一方面不愿付出打理花园的辛苦。",
+  "comparison": null,
+  "backbone": {
+    "text": "I like gardens, but I do not like work.",
+    "meaning": "我喜欢花园，但我不喜欢劳作。"
+  },
+  "structureNotes": [
+    {
+      "title": "but连接转折分句",
+      "text": "but 连接前后两个意思相对的分句，先说对花园的喜爱，再转折说不愿付出辛苦，两句地位平等。"
+    },
+    {
+      "title": "do not构成否定",
+      "text": "在一般现在时的动词 like 前加 do not 构成否定，意思是“不喜欢”，do 在这里帮助构成否定，没有单独词义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I like gardens too,",
+      "role": "转折前的分句",
+      "explanation": "说明说话人的第一个态度：也喜欢花园，too 呼应前文提到的别人的花园。"
+    },
+    {
+      "text": "but",
+      "role": "转折连词",
+      "explanation": "连接前后两个分句，引出与前半句相对的意思。"
+    },
+    {
+      "text": "I do not like hard work.",
+      "role": "转折后的分句",
+      "explanation": "说明说话人的第二个态度：不喜欢辛苦的劳作，hard work 指打理花园这类费力的事。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢",
+      "pos": "动词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "gardens",
+      "meaning": "花园（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈɡɑːdənz/"
+    },
+    {
+      "text": "too,",
+      "meaning": "也",
+      "pos": "副词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "do",
+      "meaning": "（帮助构成否定，无实义）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "not",
+      "meaning": "不",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢",
+      "pos": "动词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "hard",
+      "meaning": "辛苦的，费力的",
+      "pos": "形容词",
+      "phonetic": "/hɑːd/"
+    },
+    {
+      "text": "work.",
+      "meaning": "工作，劳作",
+      "pos": "名词",
+      "phonetic": "/wɜːk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I like gardens too,",
+      "relation": "转折前的陈述，说明第一个喜好",
+      "meaning": "我也喜欢花园"
+    },
+    {
+      "text": "but",
+      "relation": "转折连接，引出相反态度",
+      "meaning": "但是"
+    },
+    {
+      "text": "I do not like hard work.",
+      "relation": "转折后的陈述，说明第二个态度",
+      "meaning": "我不喜欢辛苦的劳作"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-008",
+  "sentenceId": "nce-2-lesson-008-sentence-006",
+  "sentenceOrder": 6,
+  "english": "I like gardens too, but I do not like hard work.",
+  "lesson": "Lesson 8 The best and the worst",
+  "notes": [
+    {
+      "title": "but连接转折分句",
+      "text": "but 连接前后两个意思相对的分句，先说对花园的喜爱，再转折说不愿付出辛苦，两句地位平等。"
+    },
+    {
+      "title": "do not构成否定",
+      "text": "在一般现在时的动词 like 前加 do not 构成否定，意思是“不喜欢”，do 在这里帮助构成否定，没有单独词义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需修正两处小问题：1. 单词释义中不应添加“带句中逗号”“带句末句号”这类冗余的标点说明，符合词项标点随词保留的约定无需额外提示；2. 音标/hɑːd/为英式发音标注，需补充该说明以符合要求。其余翻译、结构分析、主干提取、指代与语法角色均正确。（非逐句人工审核）"
+}

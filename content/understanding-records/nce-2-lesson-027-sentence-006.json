@@ -1,0 +1,195 @@
+{
+  "chinese": "男孩们感到疲倦，所以他们扑灭了火，悄悄钻进了他们的帐篷。",
+  "intent": "叙述男孩们因疲倦而先后做出灭篝火、进帐篷两个连贯动作，说明前后的因果与并列关系。",
+  "comparison": null,
+  "backbone": {
+    "text": "The boys felt tired so they put out the fire and crept into their tent.",
+    "meaning": "男孩们感到疲倦，于是他们扑灭了火，钻进了帐篷。"
+  },
+  "structureNotes": [
+    {
+      "title": "so 引出因果结果",
+      "text": "so 连接前后两个分句，前半句交代原因“感到疲倦”，后半句说明由此产生的一连串行动，读的时候先理解原因，再顺接后面的动作。"
+    },
+    {
+      "title": "and 连接两个并列动作",
+      "text": "put out the fire 和 crept into their tent 由 and 连接，是同一主语 they 先后发出的两个并列动作，时态一致，都是过去发生的行为。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The boys felt tired",
+      "role": "原因分句",
+      "explanation": "说明“男孩们感到疲倦”这一状态，是后面一系列动作的原因，主语是 The boys，felt tired 表达感受。"
+    },
+    {
+      "text": "so",
+      "role": "并列连词（表因果）",
+      "explanation": "连接前后两个分句，引出由前面原因导致的结果，意为“所以、于是”。"
+    },
+    {
+      "text": "put out the fire",
+      "role": "第一个并列动作（结果分句的谓语+宾语）",
+      "explanation": "短语动词 put out 表示“扑灭”，宾语是 the fire，指男孩们做出的第一个动作。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词（表动作并列）",
+      "explanation": "连接两个先后发生的谓语动作，表示动作的承接与并列。"
+    },
+    {
+      "text": "crept into their tent",
+      "role": "第二个并列动作（结果分句的谓语+地点状语）",
+      "explanation": "crept 是 creep 的过去式，表示“蹑手蹑脚地走、缓慢行进”，into their tent 说明动作去向。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这（些），用于特指已知的人或事物",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "boys",
+      "meaning": "男孩们（boy 的复数形式）",
+      "pos": "名词",
+      "phonetic": "/bɔɪz/"
+    },
+    {
+      "text": "felt",
+      "meaning": "感到，觉得（feel 的过去式）",
+      "pos": "动词",
+      "phonetic": "/felt/"
+    },
+    {
+      "text": "tired",
+      "meaning": "疲倦的，累的",
+      "pos": "形容词",
+      "phonetic": "/ˈtaɪəd/"
+    },
+    {
+      "text": "so",
+      "meaning": "所以，因此",
+      "pos": "连词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "they",
+      "meaning": "他们（主格）",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "put",
+      "meaning": "放，使处于（put 的过去式，此处与 out 构成短语）",
+      "pos": "动词",
+      "phonetic": "/pʊt/"
+    },
+    {
+      "text": "out",
+      "meaning": "（与动词 put 搭配，构成短语 put out，表示扑灭）",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这（个），用于特指已知的事物",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "fire",
+      "meaning": "火，篝火",
+      "pos": "名词",
+      "phonetic": "/ˈfaɪə/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "crept",
+      "meaning": "蹑手蹑脚地走，缓慢行进（creep 的过去式）",
+      "pos": "动词",
+      "phonetic": "/krept/"
+    },
+    {
+      "text": "into",
+      "meaning": "到……里面，进入",
+      "pos": "介词",
+      "phonetic": "/ˈɪntuː/"
+    },
+    {
+      "text": "their",
+      "meaning": "他们的（they 的形容词性物主代词）",
+      "pos": "限定词",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "tent.",
+      "meaning": "帐篷",
+      "pos": "名词",
+      "phonetic": "/tent/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The boys",
+      "relation": "描述谁（状态的主体）",
+      "meaning": "男孩们"
+    },
+    {
+      "text": "felt tired",
+      "relation": "描述主体的状态，作为原因",
+      "meaning": "感到疲倦"
+    },
+    {
+      "text": "so",
+      "relation": "连接原因与结果",
+      "meaning": "所以"
+    },
+    {
+      "text": "they",
+      "relation": "结果分句中两个动作的发出者",
+      "meaning": "他们"
+    },
+    {
+      "text": "put out the fire",
+      "relation": "第一个结果动作",
+      "meaning": "扑灭了火"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列动作",
+      "meaning": "并且"
+    },
+    {
+      "text": "crept into their tent.",
+      "relation": "第二个结果动作",
+      "meaning": "悄悄钻进了他们的帐篷"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-027",
+  "sentenceId": "nce-2-lesson-027-sentence-006",
+  "sentenceOrder": 7,
+  "english": "The boys felt tired so they put out the fire and crept into their tent.",
+  "lesson": "Lesson 27 A wet night",
+  "notes": [
+    {
+      "title": "so 引出因果结果",
+      "text": "so 连接前后两个分句，前半句交代原因“感到疲倦”，后半句说明由此产生的一连串行动，读的时候先理解原因，再顺接后面的动作。"
+    },
+    {
+      "title": "and 连接两个并列动作",
+      "text": "put out the fire 和 crept into their tent 由 and 连接，是同一主语 they 先后发出的两个并列动作，时态一致，都是过去发生的行为。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需修正单词释义中冗余的标点说明。（非逐句人工审核）"
+}

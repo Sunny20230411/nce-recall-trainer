@@ -1,0 +1,161 @@
+{
+  "chinese": "在信里，她说她明年会来英国。",
+  "intent": "转述信中提到的对方明年要来英国的计划。",
+  "comparison": null,
+  "backbone": {
+    "text": "she said that she would come to England next year",
+    "meaning": "她说她明年会来英国"
+  },
+  "structureNotes": [
+    {
+      "title": "句首介词短语的作用",
+      "text": "In her letter 放在句首，说明“说”这个动作发生的信息载体，也就是这番话来自信里。"
+    },
+    {
+      "title": "that 引导的从句作用",
+      "text": "that 引出 said 的具体内容，整个从句说明“她”说了什么；that 本身没有实际词义，只起连接作用。"
+    },
+    {
+      "title": "would 的时态含义",
+      "text": "would 是 will 的过去形式，因为主句“说”是过去动作，从句里的将来也相应改用 would，表示从过去看将要发生的事。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "In her letter,",
+      "role": "地点/场景状语",
+      "explanation": "交代后面所说内容的来源是她的信件，修饰整个句子。"
+    },
+    {
+      "text": "she said",
+      "role": "主句主谓",
+      "explanation": "主句的核心，主语是 she，谓语是 said，表示“她说道”。"
+    },
+    {
+      "text": "that she would come to England next year",
+      "role": "宾语从句",
+      "explanation": "作 said 的宾语，说明说话的具体内容；that 是引导词，从句主语是 she，谓语是 would come。"
+    }
+  ],
+  "words": [
+    {
+      "text": "In",
+      "meaning": "在……里面",
+      "pos": "prep",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "her",
+      "meaning": "她的",
+      "pos": "det",
+      "phonetic": "/hɜː/"
+    },
+    {
+      "text": "letter,",
+      "meaning": "信",
+      "pos": "n",
+      "phonetic": "/ˈletə/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "pron",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "said",
+      "meaning": "说（过去式）",
+      "pos": "v",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导从句，无实义）",
+      "pos": "conj",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "pron",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "would",
+      "meaning": "将会（will的过去式，此处表示过去将来）",
+      "pos": "modal v",
+      "phonetic": "/wʊd/"
+    },
+    {
+      "text": "come",
+      "meaning": "来",
+      "pos": "v",
+      "phonetic": "/kʌm/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向",
+      "pos": "prep",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "England",
+      "meaning": "英格兰（英国）",
+      "pos": "n",
+      "phonetic": "/ˈɪŋɡlənd/"
+    },
+    {
+      "text": "next",
+      "meaning": "紧接的，下一个的",
+      "pos": "adj",
+      "phonetic": "/nekst/"
+    },
+    {
+      "text": "year.",
+      "meaning": "年",
+      "pos": "n",
+      "phonetic": "/jɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "In her letter,",
+      "relation": "交代说话内容的来源场景",
+      "meaning": "在她的信里"
+    },
+    {
+      "text": "she said",
+      "relation": "主句的主语和动作",
+      "meaning": "她说道"
+    },
+    {
+      "text": "that she would come to England next year.",
+      "relation": "补充说的具体内容",
+      "meaning": "她明年会来英国"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-023",
+  "sentenceId": "nce-2-lesson-023-sentence-003",
+  "sentenceOrder": 3,
+  "english": "In her letter, she said that she would come to England next year.",
+  "lesson": "Lesson 23 A new house",
+  "notes": [
+    {
+      "title": "句首介词短语的作用",
+      "text": "In her letter 放在句首，说明“说”这个动作发生的信息载体，也就是这番话来自信里。"
+    },
+    {
+      "title": "that 引导的从句作用",
+      "text": "that 引出 said 的具体内容，整个从句说明“她”说了什么；that 本身没有实际词义，只起连接作用。"
+    },
+    {
+      "title": "would 的时态含义",
+      "text": "would 是 will 的过去形式，因为主句“说”是过去动作，从句里的将来也相应改用 would，表示从过去看将要发生的事。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：单词项中letter、year的含义误带标点分隔，next的词性标注有误，would的释义表述可更准确，其余内容均正确。（非逐句人工审核）"
+}

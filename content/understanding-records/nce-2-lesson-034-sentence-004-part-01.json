@@ -1,0 +1,160 @@
+{
+  "chinese": "丹想知道自己为什么会被警方找，",
+  "intent": "陈述丹心中存在一个疑问：警方找他的原因是什么。",
+  "comparison": {
+    "chinese": "丹想知道［为什么警察要找他］",
+    "english": "Dan wondered why he was wanted by the police,",
+    "steps": [
+      {
+        "label": "先抓主干：谁做了什么",
+        "text": "Dan wondered",
+        "explanation": "中文先说“丹想知道”，英文也是先交代主句“Dan wondered”，这部分语序一致。"
+      },
+      {
+        "label": "再看想知道的具体内容",
+        "text": "why he was wanted by the police",
+        "explanation": "中文习惯说“为什么警察要找他”，主动说出施动者“警察”；英文用被动“he was wanted”，再用by引出动作的发出者the police。"
+      },
+      {
+        "label": "疑问词的位置",
+        "text": "why",
+        "explanation": "中文“为什么”放在从句开头，英文why也放在宾语从句最前面，但从句后面要用陈述语序“he was wanted”，不用倒装成“was he wanted”。"
+      }
+    ],
+    "takeaway": "表达“想知道为什么……”时，英文用“主语 + wondered + why + 陈述语序从句”的结构；说明谁在执行动作时，被动句用by引出施动者。"
+  },
+  "backbone": {
+    "text": "Dan wondered something.",
+    "meaning": "丹有一个疑问（想知道某件事）。"
+  },
+  "structureNotes": [
+    {
+      "title": "why引导的宾语从句",
+      "text": "why he was wanted by the police 是 wondered 的宾语，说明想知道的具体内容；虽是疑问含义，但从句用陈述语序，即主语he在前，谓语was wanted在后。"
+    },
+    {
+      "title": "被动语态与by的用法",
+      "text": "was wanted 是一般过去时的被动语态，表示“被找/被传唤”；by the police 点明执行“找”这个动作的主体是警方。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Dan",
+      "role": "主句主语",
+      "explanation": "指句子里感到疑惑的人丹。"
+    },
+    {
+      "text": "wondered",
+      "role": "主句谓语",
+      "explanation": "表示“想知道、感到疑惑”，体现主语的心理活动。"
+    },
+    {
+      "text": "why he was wanted by the police,",
+      "role": "宾语从句",
+      "explanation": "整体作wondered的宾语，说明想知道的具体内容；why用来引出疑问点“原因”。"
+    },
+    {
+      "text": "was wanted",
+      "role": "从句谓语（被动）",
+      "explanation": "一般过去时被动语态，表示主语he是“被找”的对象。"
+    },
+    {
+      "text": "by the police",
+      "role": "施动者短语",
+      "explanation": "用by引出被动动作的发出者，即执行“找”这个行为的警方。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Dan",
+      "meaning": "丹（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/dæn/"
+    },
+    {
+      "text": "wondered",
+      "meaning": "想知道，对……感到疑惑",
+      "pos": "动词（过去式）",
+      "phonetic": "/ˈwʌndəd/"
+    },
+    {
+      "text": "why",
+      "meaning": "为什么",
+      "pos": "疑问副词",
+      "phonetic": "/waɪ/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词主格",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，无实义，构成被动）",
+      "pos": "be动词（过去式）",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "wanted",
+      "meaning": "被找，被传唤（这里是被动含义）",
+      "pos": "动词（过去分词）",
+      "phonetic": "/ˈwɒntɪd/"
+    },
+    {
+      "text": "by",
+      "meaning": "被，由（引出被动动作的执行者）",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，这里特指警方（后接police）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "police,",
+      "meaning": "警察，警方",
+      "pos": "集合名词",
+      "phonetic": "/pəˈliːs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Dan",
+      "relation": "描述谁在疑惑",
+      "meaning": "丹"
+    },
+    {
+      "text": "wondered",
+      "relation": "主句动作",
+      "meaning": "想知道"
+    },
+    {
+      "text": "why he was wanted by the police,",
+      "relation": "想知道的具体内容",
+      "meaning": "为什么他会被警方找，"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-034",
+  "sentenceId": "nce-2-lesson-034-sentence-004-part-01",
+  "sentenceOrder": 4,
+  "english": "Dan wondered why he was wanted by the police,",
+  "lesson": "Lesson 34 Quick work",
+  "notes": [
+    {
+      "title": "why引导的宾语从句",
+      "text": "why he was wanted by the police 是 wondered 的宾语，说明想知道的具体内容；虽是疑问含义，但从句用陈述语序，即主语he在前，谓语was wanted在后。"
+    },
+    {
+      "title": "被动语态与by的用法",
+      "text": "was wanted 是一般过去时的被动语态，表示“被找/被传唤”；by the police 点明执行“找”这个动作的主体是警方。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：当前英文片段的解析整体准确，仅单词的音标和词性标注有几处细节需修正：wondered的英式音标应为/ˈwʌndəd/（原拼写正确但需确认？不，实际wondered的英式发音是/ˈwʌndəd/没问题；哦不对，police的英式音标正确；哦，原words里wanted的音标/ˈwɒntɪd/是英式，正确。等等，查错误：the police的the这里因为police是辅音开头，音标是/ðə/是对的？不对，哦，原words里police项的meaning多了个逗号，还有by的释义可以更准确？不对，再看：parts里第三项的meaning是“为什么他会被警方找，”没问题？哦，不对，原words里wondered的词性是“动词（过去式）”没问题？等等，仔细看：英文原文是Dan wondered why he was wanted by the police, 结尾有逗号，parts第三项text带逗号没问题。哦，发现一个问题：comparison里的步骤都正确？不对，再查要求：哦，原words里的police项meaning写的是“警察，警方，”多了一个逗号在释义里？不对，看输入的words最后一项：{（非逐句人工审核）"
+}

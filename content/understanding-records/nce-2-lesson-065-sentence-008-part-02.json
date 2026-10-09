@@ -1,0 +1,91 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-065",
+  "sentenceId": "nce-2-lesson-065-sentence-008-part-02",
+  "sentenceOrder": 9,
+  "english": "' said a policeman afterwards,",
+  "chinese": "”一名警察事后说，",
+  "lesson": "Lesson 65 Jumbo versus the police",
+  "intent": "在引语中间补充说话者和说话时间",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "' said a policeman afterwards,",
+      "relation": "引述补充",
+      "meaning": "一名警察事后说"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "保留引号token",
+      "text": "开头独立引号是既有空格切分的原文token，不删除。"
+    },
+    {
+      "title": "引述倒序",
+      "text": "said 在 a policeman 之前，是引述语中的倒序。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "保留引号token",
+      "text": "开头独立引号是既有空格切分的原文token，不删除。"
+    },
+    {
+      "title": "引述倒序",
+      "text": "said 在 a policeman 之前，是引述语中的倒序。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "said",
+      "role": "谓语",
+      "explanation": "引述说话动作。"
+    },
+    {
+      "text": "a policeman",
+      "role": "主语",
+      "explanation": "说这番话的警察。"
+    },
+    {
+      "text": "afterwards,",
+      "role": "时间状语",
+      "explanation": "说明事后说出。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'",
+      "meaning": "结束前段引语的引号",
+      "pos": "标点符号",
+      "phonetic": "/sɛd/"
+    },
+    {
+      "text": "said",
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "a",
+      "meaning": "一名",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "policeman",
+      "meaning": "警察",
+      "pos": "名词",
+      "phonetic": "/pəˈliːsmən/"
+    },
+    {
+      "text": "afterwards,",
+      "meaning": "事后",
+      "pos": "副词",
+      "phonetic": "/ˈɑːftəwədz/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

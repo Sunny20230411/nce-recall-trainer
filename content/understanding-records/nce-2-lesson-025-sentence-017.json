@@ -1,0 +1,125 @@
+{
+  "chinese": "他们说英语吗？",
+  "intent": "询问特定人群是否使用英语进行交流",
+  "comparison": {
+    "chinese": "他们说英语吗？",
+    "english": "Do they speak English?",
+    "steps": [
+      {
+        "label": "先明确核心内容",
+        "text": "they speak English",
+        "explanation": "中文和英文的核心信息都是“他们说英语”，这是陈述一件事的基本框架。"
+      },
+      {
+        "label": "转换成疑问的方式不同",
+        "text": "Do they speak English?",
+        "explanation": "中文只要在句尾加“吗”就构成疑问；英文需要在句首加助动词Do，同时动词speak保持原形，用来表示这是一个一般现在时的疑问。"
+      }
+    ],
+    "takeaway": "中文靠句末语气词“吗”表疑问，英文一般现在时的一般疑问句要在主语前加Do/Does，动词用原形。"
+  },
+  "backbone": {
+    "text": "Do they speak English?",
+    "meaning": "他们是否说英语？（这是原问句本身，理解时先抓住“他们说英语”这件事，再理解是在发问）"
+  },
+  "structureNotes": [
+    {
+      "title": "句首Do的作用",
+      "text": "Do是助动词，本身没有实际词义，用来帮助构成一般现在时的一般疑问句，放在主语they之前。"
+    },
+    {
+      "title": "动词speak的形式",
+      "text": "speak用原形，因为前面已经有助动词Do来体现时态和疑问语气，谓语动词不需要再变化。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "疑问助动词",
+      "explanation": "帮助构成一般现在时的一般疑问句，没有实际词义，放在句首引出疑问。"
+    },
+    {
+      "text": "they",
+      "role": "主语",
+      "explanation": "指代前文提到的那群人（英国人），是“说英语”这个动作的发出者。"
+    },
+    {
+      "text": "speak",
+      "role": "谓语动词",
+      "explanation": "表示“说、讲（某种语言）”的动作，因为有助动词Do，所以用原形。"
+    },
+    {
+      "text": "English?",
+      "role": "宾语",
+      "explanation": "指英语这门语言，是speak这个动作的对象，句末问号表示疑问语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Do",
+      "meaning": "（助动词，用于构成一般现在时疑问句，无实义）",
+      "pos": "auxiliary verb",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "they",
+      "meaning": "他们；她们；它们",
+      "pos": "pronoun",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "speak",
+      "meaning": "说，讲（语言）",
+      "pos": "verb",
+      "phonetic": "/spiːk/"
+    },
+    {
+      "text": "English?",
+      "meaning": "英语",
+      "pos": "noun",
+      "phonetic": "/ˈɪŋɡlɪʃ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Do",
+      "relation": "疑问标记",
+      "meaning": "（助动词，帮助构成疑问）"
+    },
+    {
+      "text": "they",
+      "relation": "动作的发出者（主语）",
+      "meaning": "他们"
+    },
+    {
+      "text": "speak",
+      "relation": "动作本身（谓语）",
+      "meaning": "说"
+    },
+    {
+      "text": "English?",
+      "relation": "动作的对象（宾语）",
+      "meaning": "英语？"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-025",
+  "sentenceId": "nce-2-lesson-025-sentence-017",
+  "sentenceOrder": 17,
+  "english": "Do they speak English?",
+  "lesson": "Lesson 25 Do the English speak English?",
+  "notes": [
+    {
+      "title": "句首Do的作用",
+      "text": "Do是助动词，本身没有实际词义，用来帮助构成一般现在时的一般疑问句，放在主语they之前。"
+    },
+    {
+      "title": "动词speak的形式",
+      "text": "speak用原形，因为前面已经有助动词Do来体现时态和疑问语气，谓语动词不需要再变化。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：仅words中English?的释义多余提及句末问号，其余内容准确符合要求，修正该问题后即可用。（非逐句人工审核）"
+}

@@ -1,0 +1,150 @@
+{
+  "chinese": "我把食品杂货放进厨房，然后开始做一些饼干。",
+  "intent": "讲述回家后连续做的两件事：放好杂货、开始做饼干。",
+  "comparison": null,
+  "backbone": {
+    "text": "I put the groceries in the kitchen and began to make some biscuits.",
+    "meaning": "我把杂货放进厨房，接着开始做饼干。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列谓语的先后动作",
+      "text": "put...和began...由and连接，是同一主语I先后发出的两个动作，先放好杂货，再开始做饼干。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "put the groceries in the kitchen",
+      "role": "第一个谓语部分（动作+宾语+地点）",
+      "explanation": "表示第一个动作“把杂货放在厨房”，put是动词，the groceries是宾语，in the kitchen说明放置的地点。"
+    },
+    {
+      "text": "began to make some biscuits",
+      "role": "第二个谓语部分（动作+宾语）",
+      "explanation": "表示第二个动作“开始做一些饼干”，began是动词，to make some biscuits是开始做的具体内容。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个谓语动作，说明两个动作先后相继发生，主语都是I。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "put",
+      "meaning": "放，放置",
+      "pos": "动词（过去式）",
+      "phonetic": "/pʊt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，这些（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "groceries",
+      "meaning": "食品杂货",
+      "pos": "名词（复数）",
+      "phonetic": "/ˈɡrəʊsəriz/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "kitchen",
+      "meaning": "厨房",
+      "pos": "名词",
+      "phonetic": "/ˈkɪtʃɪn/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，然后",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "began",
+      "meaning": "开始",
+      "pos": "动词（过去式）",
+      "phonetic": "/bɪˈɡæn/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "make",
+      "meaning": "制作，做",
+      "pos": "动词",
+      "phonetic": "/meɪk/"
+    },
+    {
+      "text": "some",
+      "meaning": "一些",
+      "pos": "限定词",
+      "phonetic": "/sʌm/"
+    },
+    {
+      "text": "biscuits.",
+      "meaning": "饼干",
+      "pos": "名词（复数）",
+      "phonetic": "/ˈbɪskɪts/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作的发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "put the groceries in the kitchen",
+      "relation": "第一个动作及相关内容",
+      "meaning": "把食品杂货放进厨房"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个先后动作",
+      "meaning": "然后"
+    },
+    {
+      "text": "began to make some biscuits.",
+      "relation": "第二个动作及相关内容",
+      "meaning": "开始做一些饼干"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-003",
+  "sentenceOrder": 3,
+  "english": "I put the groceries in the kitchen and began to make some biscuits.",
+  "lesson": "Lesson 54 Sticky fingers",
+  "notes": [
+    {
+      "title": "并列谓语的先后动作",
+      "text": "put...和began...由and连接，是同一主语I先后发出的两个动作，先放好杂货，再开始做饼干。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：仅词项biscuits.的释义混入句末标点，其余内容准确完整，符合要求。（非逐句人工审核）"
+}

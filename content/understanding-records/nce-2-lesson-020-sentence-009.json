@@ -1,0 +1,110 @@
+{
+  "chinese": "我的朋友们说：“这是浪费时间！”",
+  "intent": "转述朋友们对作者钓鱼行为的评价，表达他们认为这件事没有意义、不值得花费时间的看法。",
+  "comparison": null,
+  "backbone": {
+    "text": "My friends say something.",
+    "meaning": "我的朋友们说某句话（具体内容是后面的引语）。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的标记方式",
+      "text": "英文用逗号加左单引号引出直接引语，引语内部保持原句的独立结构和语气；本句里It's a waste of time!是朋友们说的原话，带感叹语气。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My friends say,",
+      "role": "主句（引出引语）",
+      "explanation": "由主语My friends和谓语say构成，交代说话的人以及“说”这个动作，逗号用来衔接后面的直接引语。"
+    },
+    {
+      "text": "‘It's a waste of time!’",
+      "role": "直接引语（宾语）",
+      "explanation": "是朋友们所说的原话，整体充当say的宾语；引语本身是主系表结构，It's是It is的缩写，a waste of time作表语说明内容。"
+    }
+  ],
+  "words": [
+    {
+      "text": "My",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "friends",
+      "meaning": "朋友们",
+      "pos": "名词",
+      "phonetic": "/frendz/"
+    },
+    {
+      "text": "say,",
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/sez/"
+    },
+    {
+      "text": "‘It's",
+      "meaning": "这是（It is的缩写）",
+      "pos": "代词+be动词缩写",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（种）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "waste",
+      "meaning": "浪费",
+      "pos": "名词",
+      "phonetic": "/weɪst/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表同位描述关系）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "time!’",
+      "meaning": "时间",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "My friends",
+      "relation": "描述谁在说话",
+      "meaning": "我的朋友们"
+    },
+    {
+      "text": "say,",
+      "relation": "表示主语发出的动作",
+      "meaning": "说"
+    },
+    {
+      "text": "‘It's a waste of time!’",
+      "relation": "说明说话的具体内容",
+      "meaning": "“这是浪费时间！”"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-020",
+  "sentenceId": "nce-2-lesson-020-sentence-009",
+  "sentenceOrder": 9,
+  "english": "My friends say, ‘It's a waste of time!’",
+  "lesson": "Lesson 20 One man in a boat",
+  "notes": [
+    {
+      "title": "直接引语的标记方式",
+      "text": "英文用逗号加左单引号引出直接引语，引语内部保持原句的独立结构和语气；本句里It's a waste of time!是朋友们说的原话，带感叹语气。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅词项的词性标注存在将标点附属说明混入释义、of的所属释义未结合语境、引语词项词性拆分不当的小问题，修正后可用。（非逐句人工审核）"
+}

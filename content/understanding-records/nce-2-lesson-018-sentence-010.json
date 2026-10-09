@@ -1,0 +1,133 @@
+{
+  "chinese": "“我的狗把它带到花园里了。”",
+  "intent": "引述狗把某个东西带进花园的过去行为，用于解释之前发生的相关情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "My dog had taken it into the garden.",
+    "meaning": "我的狗把它带进了花园。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去完成时的用法",
+      "text": "had taken 是过去完成时，表明“狗把东西带进花园”这个动作发生在对话里提到的另一个过去动作之前，用来交代更早的原因。"
+    },
+    {
+      "title": "into 的含义",
+      "text": "into 表示从外面进到某个空间内部，这里说明动作的终点是花园里面，而不只是在花园附近。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My dog",
+      "role": "主语",
+      "explanation": "动作的发出者，指“我的狗”。"
+    },
+    {
+      "text": "had taken",
+      "role": "谓语",
+      "explanation": "表示过去完成时的动作“已经带去”，说明发生在另一过去事件之前。"
+    },
+    {
+      "text": "it",
+      "role": "宾语",
+      "explanation": "被带去的某个东西，指代上下文提到的物品。"
+    },
+    {
+      "text": "into the garden",
+      "role": "地点方向状语",
+      "explanation": "说明动作的去向：进入花园里面。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘My",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "dog",
+      "meaning": "狗",
+      "pos": "名词",
+      "phonetic": "/dɒɡ/"
+    },
+    {
+      "text": "had",
+      "meaning": "（助动词，构成过去完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "taken",
+      "meaning": "拿，带（过去分词）",
+      "pos": "动词",
+      "phonetic": "/ˈteɪkən/"
+    },
+    {
+      "text": "it",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "into",
+      "meaning": "到……里面",
+      "pos": "介词",
+      "phonetic": "/ˈɪntuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指）这个、那个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "garden.",
+      "meaning": "花园",
+      "pos": "名词",
+      "phonetic": "/ˈɡɑːdn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘My dog",
+      "relation": "描述谁做的动作，即动作发出者",
+      "meaning": "我的狗"
+    },
+    {
+      "text": "had taken",
+      "relation": "主语发出的动作，表示过去完成的行为",
+      "meaning": "已经带去"
+    },
+    {
+      "text": "it",
+      "relation": "动作涉及的对象，即被带去的东西",
+      "meaning": "它"
+    },
+    {
+      "text": "into the garden.",
+      "relation": "补充说明动作的去向地点",
+      "meaning": "进入花园里"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-018",
+  "sentenceId": "nce-2-lesson-018-sentence-010",
+  "sentenceOrder": 10,
+  "english": "‘My dog had taken it into the garden.",
+  "lesson": "Lesson 18 He often does this!",
+  "notes": [
+    {
+      "title": "过去完成时的用法",
+      "text": "had taken 是过去完成时，表明“狗把东西带进花园”这个动作发生在对话里提到的另一个过去动作之前，用来交代更早的原因。"
+    },
+    {
+      "title": "into 的含义",
+      "text": "into 表示从外面进到某个空间内部，这里说明动作的终点是花园里面，而不只是在花园附近。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：中文翻译缺少句首左引号且未匹配原文引语格式；首个词项释义错误关联标点，末个词项将标点混入名词释义，需修正。（非逐句人工审核）"
+}

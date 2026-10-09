@@ -1,0 +1,127 @@
+{
+  "chinese": "房东笑了笑，立刻出去了。",
+  "intent": "描述房东连续做出的两个动作：微笑、马上走出去。",
+  "comparison": null,
+  "backbone": {
+    "text": "The landlord smiled and went out.",
+    "meaning": "房东笑了，然后走了出去。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列谓语的连接",
+      "text": "smiled 和 went out 是同一个主语 the landlord 先后发出的两个动作，用 and 连接，immediately 说明第二个动作发生得很快、紧跟第一个动作之后。"
+    },
+    {
+      "title": "immediately 的位置",
+      "text": "immediately 放在第二个谓语动词 went 前面，用来强调“马上、立刻”就做出出去的动作，修饰的是整个 went out 这个动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The landlord",
+      "role": "主语",
+      "explanation": "指动作的发出者，也就是这家店或房子的房东。"
+    },
+    {
+      "text": "smiled",
+      "role": "第一个谓语",
+      "explanation": "描述主语的第一个动作：微笑，用一般过去时表示已经发生。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个先后发生的谓语动作，表示“然后、并且”。"
+    },
+    {
+      "text": "immediately went out.",
+      "role": "第二个谓语",
+      "explanation": "描述主语紧接着的第二个动作，immediately 修饰 went out，说明动作发生得很快。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这个（定冠词，特指双方都知道的人）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "landlord",
+      "meaning": "房东，店主",
+      "pos": "名词",
+      "phonetic": "/ˈlændlɔːd/"
+    },
+    {
+      "text": "smiled",
+      "meaning": "微笑（过去式）",
+      "pos": "动词",
+      "phonetic": "/smaɪld/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且，然后",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "immediately",
+      "meaning": "立即，马上",
+      "pos": "副词",
+      "phonetic": "/ɪˈmiːdiətli/"
+    },
+    {
+      "text": "went",
+      "meaning": "去，走（过去式）",
+      "pos": "动词",
+      "phonetic": "/went/"
+    },
+    {
+      "text": "out.",
+      "meaning": "出去（副词，与went搭配表“外出”）",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The landlord",
+      "relation": "动作的发出者，描述谁",
+      "meaning": "这位房东"
+    },
+    {
+      "text": "smiled",
+      "relation": "第一个动作，补充主语做了什么",
+      "meaning": "笑了笑"
+    },
+    {
+      "text": "and",
+      "relation": "连接前后两个动作",
+      "meaning": "并且/然后"
+    },
+    {
+      "text": "immediately went out.",
+      "relation": "第二个动作，补充主语紧接着做了什么",
+      "meaning": "立刻走了出去"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-018",
+  "sentenceId": "nce-2-lesson-018-sentence-007",
+  "sentenceOrder": 7,
+  "english": "The landlord smiled and immediately went out.",
+  "lesson": "Lesson 18 He often does this!",
+  "notes": [
+    {
+      "title": "并列谓语的连接",
+      "text": "smiled 和 went out 是同一个主语 the landlord 先后发出的两个动作，用 and 连接，immediately 说明第二个动作发生得很快、紧跟第一个动作之后。"
+    },
+    {
+      "title": "immediately 的位置",
+      "text": "immediately 放在第二个谓语动词 went 前面，用来强调“马上、立刻”就做出出去的动作，修饰的是整个 went out 这个动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，仅单词释义中out的解释需删去句末标点的冗余说明。（非逐句人工审核）"
+}

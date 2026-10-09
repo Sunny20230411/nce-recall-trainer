@@ -1,0 +1,111 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-084",
+  "sentenceId": "nce-2-lesson-084-sentence-002",
+  "sentenceOrder": 2,
+  "english": "The strike is due to begin on Tuesday.",
+  "chinese": "罢工预定星期二开始。",
+  "lesson": "Lesson 84 On strike",
+  "intent": "说明预定开罢时间",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "The strike",
+      "relation": "事件",
+      "meaning": "这次罢工"
+    },
+    {
+      "text": "is due to begin",
+      "relation": "预定安排",
+      "meaning": "预定开始"
+    },
+    {
+      "text": "on Tuesday.",
+      "relation": "日期",
+      "meaning": "星期二"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "预定发生",
+      "text": "be due to do 表示按安排将做某事，to 引出不定式。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "预定发生",
+      "text": "be due to do 表示按安排将做某事，to 引出不定式。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The strike",
+      "role": "主语",
+      "explanation": "承接已宣布的罢工。"
+    },
+    {
+      "text": "is due to begin",
+      "role": "系表结构",
+      "explanation": "说明预定开始。"
+    },
+    {
+      "text": "on Tuesday.",
+      "role": "时间状语",
+      "explanation": "指定星期几。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这次",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "strike",
+      "meaning": "罢工",
+      "pos": "名词",
+      "phonetic": "/straɪk/"
+    },
+    {
+      "text": "is",
+      "meaning": "处于预定状态",
+      "pos": "系动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "due",
+      "meaning": "预定的",
+      "pos": "形容词",
+      "phonetic": "/djuː/"
+    },
+    {
+      "text": "to",
+      "meaning": "引出预定动作",
+      "pos": "不定式标记",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "begin",
+      "meaning": "开始",
+      "pos": "动词原形",
+      "phonetic": "/bɪˈɡɪn/"
+    },
+    {
+      "text": "on",
+      "meaning": "在（某日）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "Tuesday.",
+      "meaning": "星期二",
+      "pos": "专有名词",
+      "phonetic": "/ˈtjuːzdeɪ/ 或 /ˈtjuːzdi/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

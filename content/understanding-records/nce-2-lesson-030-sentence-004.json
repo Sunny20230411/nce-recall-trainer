@@ -1,0 +1,192 @@
+{
+  "chinese": "一些孩子正在河岸上玩游戏，河面上有一些人在划船。",
+  "intent": "描述某个时刻河边同时发生的两个场景：孩子在岸上玩游戏，人们在河上划船。",
+  "comparison": null,
+  "backbone": {
+    "text": "Some children were playing games on the bank and there were some people rowing on the river.",
+    "meaning": "一些孩子在岸上玩游戏，同时有一些人在河上划船。"
+  },
+  "structureNotes": [
+    {
+      "title": "and 连接两个并列场景",
+      "text": "前后两个分句由 and 连接，描述同一时间同一地点附近发生的两件事，地位平等，没有主次之分。"
+    },
+    {
+      "title": "there were ... rowing 表示“有人正在做某事”",
+      "text": "there were some people rowing 不是单纯说“有一些人”，而是说“有一些人正在划船”，rowing 补充说明这些人当时正在进行的动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Some children were playing games on the bank",
+      "role": "第一个并列分句",
+      "explanation": "说明岸边的孩子们当时正在做什么，用过去进行时描述过去某一时刻正在进行的动作。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个独立分句，表示两个场景同时存在。"
+    },
+    {
+      "text": "there were some people rowing on the river",
+      "role": "第二个并列分句",
+      "explanation": "用 there be 句型引出河面上的人物，rowing 补充说明这些人正在进行的动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Some",
+      "meaning": "一些",
+      "pos": "限定词",
+      "phonetic": "/sʌm/"
+    },
+    {
+      "text": "children",
+      "meaning": "孩子们（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈtʃɪldrən/"
+    },
+    {
+      "text": "were",
+      "meaning": "be动词are的过去式，用于构成过去进行时",
+      "pos": "助动词",
+      "phonetic": "/wɜː(r)/"
+    },
+    {
+      "text": "playing",
+      "meaning": "玩耍（play的现在分词）",
+      "pos": "动词",
+      "phonetic": "/ˈpleɪɪŋ/"
+    },
+    {
+      "text": "games",
+      "meaning": "游戏（复数）",
+      "pos": "名词",
+      "phonetic": "/ɡeɪmz/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（定冠词，特指河岸）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bank",
+      "meaning": "河岸；堤岸",
+      "pos": "名词",
+      "phonetic": "/bæŋk/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "there",
+      "meaning": "（there be句型引导词，无实义）",
+      "pos": "副词",
+      "phonetic": "/ðeə(r)/"
+    },
+    {
+      "text": "were",
+      "meaning": "be动词are的过去式，用于there be句型",
+      "pos": "动词",
+      "phonetic": "/wɜː(r)/"
+    },
+    {
+      "text": "some",
+      "meaning": "一些",
+      "pos": "限定词",
+      "phonetic": "/sʌm/"
+    },
+    {
+      "text": "people",
+      "meaning": "人；人们",
+      "pos": "名词",
+      "phonetic": "/ˈpiːpl/"
+    },
+    {
+      "text": "rowing",
+      "meaning": "划船（row的现在分词）",
+      "pos": "动词",
+      "phonetic": "/ˈrəʊɪŋ/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（定冠词，特指河）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "river.",
+      "meaning": "河；河流",
+      "pos": "名词",
+      "phonetic": "/ˈrɪvə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Some children were playing games",
+      "relation": "第一个场景的主体和动作",
+      "meaning": "一些孩子正在玩游戏"
+    },
+    {
+      "text": "on the bank",
+      "relation": "动作发生的地点",
+      "meaning": "在河岸上"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列场景",
+      "meaning": "和；并且"
+    },
+    {
+      "text": "there were some people",
+      "relation": "第二个场景的存在主体",
+      "meaning": "有一些人"
+    },
+    {
+      "text": "rowing",
+      "relation": "补充说明人们正在做的动作",
+      "meaning": "在划船"
+    },
+    {
+      "text": "on the river.",
+      "relation": "动作发生的地点",
+      "meaning": "在河面上"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-030",
+  "sentenceId": "nce-2-lesson-030-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Some children were playing games on the bank and there were some people rowing on the river.",
+  "lesson": "Lesson 30 Football or polo?",
+  "notes": [
+    {
+      "title": "and 连接两个并列场景",
+      "text": "前后两个分句由 and 连接，描述同一时间同一地点附近发生的两件事，地位平等，没有主次之分。"
+    },
+    {
+      "title": "there were ... rowing 表示“有人正在做某事”",
+      "text": "there were some people rowing 不是单纯说“有一些人”，而是说“有一些人正在划船”，rowing 补充说明这些人当时正在进行的动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析正确，仅个别词的词性存在偏差需修正；其他内容无需调整。（非逐句人工审核）"
+}

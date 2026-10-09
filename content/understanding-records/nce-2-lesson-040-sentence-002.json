@@ -1,0 +1,147 @@
+{
+  "chinese": "伦博尔德太太是一位身材魁梧、面无笑容的女士，身着一件紧身黑连衣裙。",
+  "intent": "对出场人物伦博尔德太太的外貌和着装进行静态描写，让读者快速建立人物印象。",
+  "comparison": null,
+  "backbone": {
+    "text": "Mrs Rumbold was a lady.",
+    "meaning": "伦博尔德太太是一位女士。"
+  },
+  "structureNotes": [
+    {
+      "title": "外貌描写的位置",
+      "text": "英文先交代核心身份「a lady」，再把身材、神态等修饰语放在lady前面，着装信息用介词短语放在后面，符合英语从核心到细节的描写顺序。"
+    },
+    {
+      "title": "in 引导的着装表达",
+      "text": "「in a tight black dress」是介词短语作补充说明，描述lady的穿着状态，意思是「身穿一件紧身黑连衣裙」，不是表示在裙子里面。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "large, unsmiling",
+      "role": "前置修饰语",
+      "explanation": "两个形容词用逗号连接，放在lady前面，分别从身材和神态两个角度描写这位女士的特征。"
+    },
+    {
+      "text": "in a tight black dress",
+      "role": "后置修饰语",
+      "explanation": "介词短语跟在lady后面，补充说明她的穿着打扮，tight和black按由版型到颜色的顺序修饰dress。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Mrs",
+      "meaning": "夫人，太太",
+      "pos": "名词（称呼）",
+      "phonetic": "/ˈmɪsɪz/"
+    },
+    {
+      "text": "Rumbold",
+      "meaning": "伦博尔德（姓氏）",
+      "pos": "专有名词",
+      "phonetic": "/ˈrʌmbəʊld/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（过去式）",
+      "pos": "be动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一位",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "large,",
+      "meaning": "身材高大的，魁梧的",
+      "pos": "形容词",
+      "phonetic": "/lɑːdʒ/"
+    },
+    {
+      "text": "unsmiling",
+      "meaning": "不笑的，面无笑容的",
+      "pos": "形容词",
+      "phonetic": "/ʌnˈsmaɪlɪŋ/"
+    },
+    {
+      "text": "lady",
+      "meaning": "女士，女子",
+      "pos": "名词",
+      "phonetic": "/ˈleɪdi/"
+    },
+    {
+      "text": "in",
+      "meaning": "穿着（某种服饰）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一件",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "tight",
+      "meaning": "紧身的，紧的",
+      "pos": "形容词",
+      "phonetic": "/taɪt/"
+    },
+    {
+      "text": "black",
+      "meaning": "黑色的",
+      "pos": "形容词",
+      "phonetic": "/blæk/"
+    },
+    {
+      "text": "dress.",
+      "meaning": "连衣裙",
+      "pos": "名词",
+      "phonetic": "/dres/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Mrs Rumbold",
+      "relation": "描述的对象",
+      "meaning": "伦博尔德太太"
+    },
+    {
+      "text": "was",
+      "relation": "连接主语和身份描述",
+      "meaning": "是"
+    },
+    {
+      "text": "a large, unsmiling lady",
+      "relation": "说明主语的身份和外貌特征",
+      "meaning": "一位身材魁梧、面无笑容的女士"
+    },
+    {
+      "text": "in a tight black dress.",
+      "relation": "补充说明这位女士的着装状态",
+      "meaning": "穿着一件紧身黑连衣裙"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-040",
+  "sentenceId": "nce-2-lesson-040-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Mrs Rumbold was a large, unsmiling lady in a tight black dress.",
+  "lesson": "Lesson 40 Food and talk",
+  "notes": [
+    {
+      "title": "外貌描写的位置",
+      "text": "英文先交代核心身份「a lady」，再把身材、神态等修饰语放在lady前面，着装信息用介词短语放在后面，符合英语从核心到细节的描写顺序。"
+    },
+    {
+      "title": "in 引导的着装表达",
+      "text": "「in a tight black dress」是介词短语作补充说明，描述lady的穿着状态，意思是「身穿一件紧身黑连衣裙」，不是表示在裙子里面。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅words中large, 项的text带逗号但符合分词约定，需补充说明该词项标点随词，其余内容无需调整。（非逐句人工审核）"
+}

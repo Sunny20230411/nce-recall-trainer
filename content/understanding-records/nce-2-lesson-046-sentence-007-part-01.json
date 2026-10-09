@@ -1,0 +1,89 @@
+{
+  "chinese": "在他被逮捕之后，",
+  "intent": "引出主句事件发生的时间背景，说明后续主句动作是在“他被逮捕”这个事件之后发生的（本内容为时间状语从句片段，不能独立成句）。",
+  "comparison": null,
+  "backbone": {
+    "text": "After he was arrested,",
+    "meaning": "在他被逮捕之后（这是一个时间状语从句片段，不能独立成句，用来交代主句的时间背景）"
+  },
+  "structureNotes": [
+    {
+      "title": "After引导的时间状语从句",
+      "text": "After放在句首引出时间事件，说明主句动作发生在“被捕”这件事之后；这是半句话，必须依附后面的主句才能表达完整含义。"
+    },
+    {
+      "title": "被动语态的用法",
+      "text": "was arrested是被动结构，表示“他”是被捕这个动作的承受者，而不是执行逮捕的人，符合中文“被逮捕”的表达逻辑。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "After",
+      "role": "时间从属连词",
+      "explanation": "用来引出后面的时间事件，标明主句和从句动作的先后顺序：从句动作先发生，主句动作后发生。"
+    },
+    {
+      "text": "he was arrested,",
+      "role": "时间状语从句（被动语态）",
+      "explanation": "从句主语是he，was arrested是被动形式的谓语，表示“他被逮捕”这个事件，整段用来交代时间背景。"
+    }
+  ],
+  "words": [
+    {
+      "text": "After",
+      "meaning": "在……之后",
+      "pos": "连词",
+      "phonetic": "/ˈɑːftə/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "（被动语态助动词，无实义）",
+      "pos": "be动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "arrested,",
+      "meaning": "被逮捕",
+      "pos": "动词过去分词",
+      "phonetic": "/əˈrestɪd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "After",
+      "relation": "标明时间先后关系的引导词",
+      "meaning": "在……之后"
+    },
+    {
+      "text": "he was arrested,",
+      "relation": "描述用作时间参照的事件",
+      "meaning": "他被逮捕"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-046",
+  "sentenceId": "nce-2-lesson-046-sentence-007-part-01",
+  "sentenceOrder": 8,
+  "english": "After he was arrested,",
+  "lesson": "Lesson 46 Expensive and uncomfortable",
+  "notes": [
+    {
+      "title": "After引导的时间状语从句",
+      "text": "After放在句首引出时间事件，说明主句动作发生在“被捕”这件事之后；这是半句话，必须依附后面的主句才能表达完整含义。"
+    },
+    {
+      "title": "被动语态的用法",
+      "text": "was arrested是被动结构，表示“他”是被捕这个动作的承受者，而不是执行逮捕的人，符合中文“被逮捕”的表达逻辑。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需修正中文翻译与片段对应关系：原翻译“在他被捕后，”虽语义正确，但应明确标注为片段且与英文逗号对应；同时words中arrested的释义表述可更规范，无需改词性。（非逐句人工审核）"
+}

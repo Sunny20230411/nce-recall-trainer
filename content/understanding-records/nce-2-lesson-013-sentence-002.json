@@ -1,0 +1,135 @@
+{
+  "chinese": "目前，他们正在访问全国各地。",
+  "intent": "说明绿林男孩这支流行歌手组合当下正在全国各地巡回演出的行程状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "they are visiting all parts of the country",
+    "meaning": "他们正在访问全国各地"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语的位置",
+      "text": "At present 放在句首用逗号隔开，明确后面整句话描述的是当下的时间阶段。"
+    },
+    {
+      "title": "all parts of the country 的含义",
+      "text": "这个短语整体表示“全国各地”，of 用来连接部分与整体，说明是国家范围之内的所有区域。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "At present,",
+      "role": "时间状语",
+      "explanation": "说明整个句子动作发生的时间是“目前、现阶段”，引出后面的当前状态。"
+    },
+    {
+      "text": "they are visiting",
+      "role": "主语+谓语（现在进行时）",
+      "explanation": "they 是动作的发出者，在句中作主语；are visiting 是现在进行时结构作谓语，表示现阶段正在持续进行的动作。"
+    },
+    {
+      "text": "all parts of the country.",
+      "role": "宾语",
+      "explanation": "是 visit 这个动作的对象，指国家的所有地区，也就是全国各地。"
+    }
+  ],
+  "words": [
+    {
+      "text": "At",
+      "meaning": "（与名词连用表示时间）在",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "present,",
+      "meaning": "现在，目前",
+      "pos": "名词",
+      "phonetic": "/ˈpreznt/"
+    },
+    {
+      "text": "they",
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "are",
+      "meaning": "（助动词，构成现在进行时）",
+      "pos": "助动词",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "visiting",
+      "meaning": "访问，参观",
+      "pos": "动词（现在分词）",
+      "phonetic": "/ˈvɪzɪtɪŋ/"
+    },
+    {
+      "text": "all",
+      "meaning": "所有的，全部的",
+      "pos": "限定词",
+      "phonetic": "/ɔːl/"
+    },
+    {
+      "text": "parts",
+      "meaning": "部分，地区",
+      "pos": "名词（复数）",
+      "phonetic": "/pɑːts/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表示所属/部分关系）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（特指双方都知道的国家）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "country.",
+      "meaning": "国家",
+      "pos": "名词",
+      "phonetic": "/ˈkʌntri/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "At present,",
+      "relation": "时间",
+      "meaning": "目前"
+    },
+    {
+      "text": "they are visiting",
+      "relation": "主干动作",
+      "meaning": "他们正在访问"
+    },
+    {
+      "text": "all parts of the country.",
+      "relation": "动作的对象",
+      "meaning": "全国各地"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-013",
+  "sentenceId": "nce-2-lesson-013-sentence-002",
+  "sentenceOrder": 2,
+  "english": "At present, they are visiting all parts of the country.",
+  "lesson": "Lesson 13 The Greenwood Boys",
+  "notes": [
+    {
+      "title": "时间状语的位置",
+      "text": "At present 放在句首用逗号隔开，明确后面整句话描述的是当下的时间阶段。"
+    },
+    {
+      "title": "all parts of the country 的含义",
+      "text": "这个短语整体表示“全国各地”，of 用来连接部分与整体，说明是国家范围之内的所有区域。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体可用，存在两处可修正问题：1. structures中“they are visiting”的角色将主语混入谓语，不符合语法角色划分规范；2. words中present的词性标注错误，在“at present”短语中present为名词，但单个词条标注需准确，同时修正后不影响原文理解。（非逐句人工审核）"
+}

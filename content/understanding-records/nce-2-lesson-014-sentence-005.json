@@ -1,0 +1,258 @@
+{
+  "chinese": "他一上车，我就用法语向他道早安，他也用同样的语言回答。",
+  "intent": "讲述两件先后发生的事：对方刚上车，我就用法语问好，对方也用法语回应。",
+  "comparison": {
+    "chinese": "他一上车，我就用法语向他道早安，他以同样的语言回答。",
+    "english": "As soon as he had got into the car, I said good morning to him in French and he replied in the same language.",
+    "steps": [
+      {
+        "label": "先理清事件先后顺序",
+        "text": "he had got into the car → I said good morning → he replied",
+        "explanation": "中文用“一…就…”承接前后动作，读者自然知道上车在前、问好在后；英文用 As soon as 明确引出“先发生的动作”，后面接主句的后发生动作。"
+      },
+      {
+        "label": "看“用法语”的位置",
+        "text": "said good morning to him in French / replied in the same language",
+        "explanation": "中文把“用法语”放在动词前面（“用法语道早安”“用同样的语言回答”），英文把“用某种语言”（in + 语言）放在动作和对象之后，作为补充说明。"
+      },
+      {
+        "label": "两个并列主句的连接",
+        "text": "I said good morning… and he replied…",
+        "explanation": "中文用逗号自然连接“我问好”和“他回答”两个分句；英文用 and 把两个独立的主谓结构连在一起，两者是先后顺承的并列关系。"
+      }
+    ],
+    "takeaway": "英文用 As soon as 标记“先发生的背景动作”，主句放后面；“用某种语言”的 in 短语习惯放在动作和对象之后。"
+  },
+  "backbone": {
+    "text": "I said good morning to him and he replied.",
+    "meaning": "我向他道了早安，他作了回答。"
+  },
+  "structureNotes": [
+    {
+      "title": "As soon as 引导的时间从句",
+      "text": "As soon as he had got into the car 表示“他刚一上车”这个时间点，用来交代后面两件事发生的时机。从句用过去完成时 had got，说明上车动作发生在主句的 said 和 replied 之前。"
+    },
+    {
+      "title": "in + 语言 的用法",
+      "text": "in French 和 in the same language 都表示“用某种语言”，放在动作后面说明说话使用的语种，不是“在法语里面”。"
+    },
+    {
+      "title": "and 连接两个并列主句",
+      "text": "and 前后分别是 I said… 和 he replied… 两个完整的主谓结构，地位平等，按时间先后顺承下来。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "As soon as he had got into the car,",
+      "role": "时间状语从句",
+      "explanation": "表示后面主句动作发生的时间节点，意思是“他一上车（就…）”，As soon as 引出时间条件，he had got into the car 是从句的主谓和地点补充。"
+    },
+    {
+      "text": "I said good morning to him in French",
+      "role": "第一个并列主句",
+      "explanation": "主语是 I，谓语是 said，good morning 是说的内容，to him 是打招呼的对象，in French 说明所用的语言。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个并列主句，表示动作顺承发生。"
+    },
+    {
+      "text": "he replied in the same language",
+      "role": "第二个并列主句",
+      "explanation": "主语是 he，谓语是 replied，in the same language 说明回答所用的语言，指代前面提到的法语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "As",
+      "meaning": "如同、一…（就…的开头部分）",
+      "pos": "连词",
+      "phonetic": "/æz/"
+    },
+    {
+      "text": "soon",
+      "meaning": "很快、不久",
+      "pos": "副词",
+      "phonetic": "/suːn/"
+    },
+    {
+      "text": "as",
+      "meaning": "像、如同（与as soon构成短语）",
+      "pos": "连词",
+      "phonetic": "/æz/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "had",
+      "meaning": "（have的过去式，构成过去完成时的助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "got",
+      "meaning": "进入、到达（get的过去分词）",
+      "pos": "动词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "into",
+      "meaning": "到…里面",
+      "pos": "介词",
+      "phonetic": "/ˈɪntuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个、那辆（定冠词）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "car,",
+      "meaning": "小汽车",
+      "pos": "名词",
+      "phonetic": "/kɑː/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "said",
+      "meaning": "说、讲（say的过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "good",
+      "meaning": "好的、令人愉快的",
+      "pos": "形容词",
+      "phonetic": "/ɡʊd/"
+    },
+    {
+      "text": "morning",
+      "meaning": "早晨、上午",
+      "pos": "名词",
+      "phonetic": "/ˈmɔːnɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "向、对",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "in",
+      "meaning": "用、以（某种语言）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "French",
+      "meaning": "法语",
+      "pos": "名词",
+      "phonetic": "/frentʃ/"
+    },
+    {
+      "text": "and",
+      "meaning": "和、并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "replied",
+      "meaning": "回答、答复（reply的过去式）",
+      "pos": "动词",
+      "phonetic": "/rɪˈplaɪd/"
+    },
+    {
+      "text": "in",
+      "meaning": "用、以（某种方式）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个、同样的（定冠词）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "same",
+      "meaning": "相同的、同样的",
+      "pos": "形容词",
+      "phonetic": "/seɪm/"
+    },
+    {
+      "text": "language.",
+      "meaning": "语言",
+      "pos": "名词",
+      "phonetic": "/ˈlæŋɡwɪdʒ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "As soon as he had got into the car,",
+      "relation": "时间：交代后面主句动作发生的时机",
+      "meaning": "他一上车，"
+    },
+    {
+      "text": "I said good morning to him in French",
+      "relation": "主句前半部分：描述我做的动作",
+      "meaning": "我用法语向他道早安"
+    },
+    {
+      "text": "and",
+      "relation": "连接：连接两个并列主句",
+      "meaning": "并且"
+    },
+    {
+      "text": "he replied in the same language.",
+      "relation": "主句后半部分：描述对方做的回应动作",
+      "meaning": "他用同样的语言回答。"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-014",
+  "sentenceId": "nce-2-lesson-014-sentence-005",
+  "sentenceOrder": 6,
+  "english": "As soon as he had got into the car, I said good morning to him in French and he replied in the same language.",
+  "lesson": "Lesson 14 Do you speak English?",
+  "notes": [
+    {
+      "title": "As soon as 引导的时间从句",
+      "text": "As soon as he had got into the car 表示“他刚一上车”这个时间点，用来交代后面两件事发生的时机。从句用过去完成时 had got，说明上车动作发生在主句的 said 和 replied 之前。"
+    },
+    {
+      "title": "in + 语言 的用法",
+      "text": "in French 和 in the same language 都表示“用某种语言”，放在动作后面说明说话使用的语种，不是“在法语里面”。"
+    },
+    {
+      "title": "and 连接两个并列主句",
+      "text": "and 前后分别是 I said… 和 he replied… 两个完整的主谓结构，地位平等，按时间先后顺承下来。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，存在以下可修正问题：1. 单词car,和language.的中文释义错误混入了句末标点与词内逗号，需去除标点只保留词本身含义；2. car的英式音标标注错误（混入美式卷舌音/r/），应改为/kɑː/；3. 单词same的词性标注错误，same通常与定冠词the搭配使用，此处为形容词修饰language，原标注误写为「定冠词」；4. had的释义表述不够精准，had是have的过去式，作为助动词构成过去完成时，原释义“已经”多余且易混淆词义。其余内容符合要求。（非逐句人工审核）"
+}

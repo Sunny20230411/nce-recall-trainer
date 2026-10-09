@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-052",
+  "sentenceId": "nce-2-lesson-052-sentence-006-part-01",
+  "english": "A short while ago,",
+  "text": "A short while ago 用来引出不久前发生的事，和 not long ago 一样自然，语体更口语化。说过去某个短时间之前的事，先拿这个短语垫一下时间背景，再接具体动作就行。",
+  "sourceDigest": "448766322a63ae1f2295eedaa3028981499e17128437ba988feca184f2ec2484",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：内容贴合表达意图，点明短语用法和适用场景，迁移具体，语言自然。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "修正了原tip隐含not long ago更复杂的不当暗示，补充语体差异更准确，迁移实用。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

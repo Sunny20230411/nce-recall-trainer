@@ -1,0 +1,95 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-056",
+  "sentenceId": "nce-2-lesson-056-sentence-009",
+  "sentenceOrder": 9,
+  "english": "The winner was a 1928 Austin Seven.",
+  "chinese": "获胜的是一辆1928年的奥斯汀‘七型’汽车。",
+  "lesson": "Lesson 56 Faster than sound!",
+  "intent": "公布获胜车辆的车型",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "The winner",
+      "relation": "获胜对象",
+      "meaning": "获胜的车"
+    },
+    {
+      "text": "was a 1928 Austin Seven.",
+      "relation": "具体车型",
+      "meaning": "是一辆1928年的奥斯汀‘七型’"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "车型名称",
+      "text": "Austin Seven 是完整车型名，1928 修饰这辆车的年份。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "车型名称",
+      "text": "Austin Seven 是完整车型名，1928 修饰这辆车的年份。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The winner",
+      "role": "主语",
+      "explanation": "指比赛获胜的车辆。"
+    },
+    {
+      "text": "was a 1928 Austin Seven.",
+      "role": "系表结构",
+      "explanation": "表明获胜车辆的身份。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "特指获胜者",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "winner",
+      "meaning": "获胜车辆",
+      "pos": "名词",
+      "phonetic": "/ˈwɪnə/"
+    },
+    {
+      "text": "was",
+      "meaning": "是",
+      "pos": "系动词过去式",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一辆",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "1928",
+      "meaning": "1928年的",
+      "pos": "数词作定语",
+      "phonetic": "/ˌnaɪnˈtiːn tuː eɪt/ 或 /ˌnaɪnˈtiːn ˈtuː ˈeɪt/"
+    },
+    {
+      "text": "Austin",
+      "meaning": "奥斯汀",
+      "pos": "专有名词",
+      "phonetic": "/ˈɒstɪn/"
+    },
+    {
+      "text": "Seven.",
+      "meaning": "七型（车型名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈsevən/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

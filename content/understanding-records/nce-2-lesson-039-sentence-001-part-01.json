@@ -1,0 +1,93 @@
+{
+  "chinese": "约翰·吉尔伯特住院期间，（本句为时间状语从句片段，交代主句事件的时间背景）",
+  "intent": "交代主句事件发生的时间背景，说明后续动作是在约翰·吉尔伯特住院这段时间里发生的。",
+  "comparison": null,
+  "backbone": {
+    "text": "John Gilbert was in hospital.",
+    "meaning": "约翰·吉尔伯特当时在住院。"
+  },
+  "structureNotes": [
+    {
+      "title": "While引导的时间状语从句",
+      "text": "While放在句首引出一段时间背景，意思是“在……期间”，后面接的是持续性的状态或动作，用来限定主句事件发生的时间范围。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "While John Gilbert was in hospital,",
+      "role": "时间状语分句",
+      "explanation": "用来交代主句动作发生的时间背景，While是引导词，引出“约翰·吉尔伯特住院”这段持续的时间。"
+    }
+  ],
+  "words": [
+    {
+      "text": "While",
+      "meaning": "在……期间；当……的时候",
+      "pos": "连词",
+      "phonetic": "/waɪl/"
+    },
+    {
+      "text": "John",
+      "meaning": "约翰（男子名）",
+      "pos": "名词",
+      "phonetic": "/dʒɒn/"
+    },
+    {
+      "text": "Gilbert",
+      "meaning": "吉尔伯特（姓氏）",
+      "pos": "名词",
+      "phonetic": "/ˈɡɪlbət/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be的过去式，此处表示处于某种状态）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面；处于（某种状态）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "hospital,",
+      "meaning": "医院（后接逗号，表句中停顿）",
+      "pos": "名词",
+      "phonetic": "/ˈhɒspɪtl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "While",
+      "relation": "时间引导词，引出后面的时间背景",
+      "meaning": "在……期间"
+    },
+    {
+      "text": "John Gilbert",
+      "relation": "描述的对象，即处于住院状态的人",
+      "meaning": "约翰·吉尔伯特"
+    },
+    {
+      "text": "was in hospital,",
+      "relation": "补充说明约翰·吉尔伯特当时所处的状态",
+      "meaning": "当时在住院"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-039",
+  "sentenceId": "nce-2-lesson-039-sentence-001-part-01",
+  "sentenceOrder": 1,
+  "english": "While John Gilbert was in hospital,",
+  "lesson": "Lesson 39 Am I all right?",
+  "notes": [
+    {
+      "title": "While引导的时间状语从句",
+      "text": "While放在句首引出一段时间背景，意思是“在……期间”，后面接的是持续性的状态或动作，用来限定主句事件发生的时间范围。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需修正words中hospital,的释义遗漏标点对应问题并明确该片段是时间状语从句、翻译补充完整性提示。（非逐句人工审核）"
+}

@@ -1,0 +1,93 @@
+{
+  "chinese": "“我是外国人。”我说道。",
+  "intent": "叙述“我”向对方告知自己是外国人的对话内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "I said, ‘I am a foreigner.’",
+    "meaning": "我说道：“我是外国人。”"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的位置",
+      "text": "这里把说话的具体内容放在句首，再交代说话人“I said”，是英语对话叙事的常见写法，读的时候先抓引语内容，再看是谁说的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘I am a foreigner,’",
+      "role": "直接引语（宾语）",
+      "explanation": "这是“我”说出的具体原话，在句中充当said的内容，也就是动词的宾语，前后用引号标出。"
+    },
+    {
+      "text": "I said.",
+      "role": "主句（主语+谓语）",
+      "explanation": "交代说话的人是“我”，以及动作是“说”，是整个句子的主干部分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘I",
+      "meaning": "我（引语开头，带左单引号）",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "am",
+      "meaning": "是（be动词第一人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/æm/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "foreigner,’",
+      "meaning": "外国人（引语结尾，带右单引号和逗号）",
+      "pos": "名词",
+      "phonetic": "/ˈfɒrənə(r)/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说（过去式，句末带句号）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘I am a foreigner,’",
+      "relation": "说出的具体内容",
+      "meaning": "“我是外国人，”"
+    },
+    {
+      "text": "I said.",
+      "relation": "说话人和说话动作",
+      "meaning": "我说道。"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-025",
+  "sentenceId": "nce-2-lesson-025-sentence-008",
+  "sentenceOrder": 8,
+  "english": "‘I am a foreigner,’ I said.",
+  "lesson": "Lesson 25 Do the English speak English?",
+  "notes": [
+    {
+      "title": "直接引语的位置",
+      "text": "这里把说话的具体内容放在句首，再交代说话人“I said”，是英语对话叙事的常见写法，读的时候先抓引语内容，再看是谁说的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：单词发音错误，foreigner的英式音标应为/ˈfɒrənə(r)/，其余内容准确无误。（非逐句人工审核）"
+}

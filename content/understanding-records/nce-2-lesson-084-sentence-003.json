@@ -1,0 +1,106 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-084",
+  "sentenceId": "nce-2-lesson-084-sentence-003",
+  "sentenceOrder": 3,
+  "english": "No one knows how long it will last.",
+  "chinese": "没人知道罢工会持续多久。",
+  "lesson": "Lesson 84 On strike",
+  "intent": "说明结束时间尚不确定",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "No one knows",
+      "relation": "无人知晓",
+      "meaning": "没有人知道"
+    },
+    {
+      "text": "how long it will last.",
+      "relation": "未知时长",
+      "meaning": "它将持续多久"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "间接疑问",
+      "text": "how long 引导 knows 的宾语从句，内部用 it will last 的陈述语序。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "间接疑问",
+      "text": "how long 引导 knows 的宾语从句，内部用 it will last 的陈述语序。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No one",
+      "role": "主语",
+      "explanation": "否定性不定代词短语。"
+    },
+    {
+      "text": "knows",
+      "role": "谓语",
+      "explanation": "主语按单数处理。"
+    },
+    {
+      "text": "how long it will last.",
+      "role": "宾语从句",
+      "explanation": "询问持续时长，it 指罢工。"
+    }
+  ],
+  "words": [
+    {
+      "text": "No",
+      "meaning": "没有",
+      "pos": "否定限定词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "one",
+      "meaning": "人（与 no 构成无人）",
+      "pos": "不定代词",
+      "phonetic": "/wʌn/"
+    },
+    {
+      "text": "knows",
+      "meaning": "知道",
+      "pos": "动词",
+      "phonetic": "/nəʊz/"
+    },
+    {
+      "text": "how",
+      "meaning": "多么（组成时长疑问）",
+      "pos": "疑问副词",
+      "phonetic": "/haʊ/"
+    },
+    {
+      "text": "long",
+      "meaning": "长时间",
+      "pos": "副词",
+      "phonetic": "/lɒŋ/"
+    },
+    {
+      "text": "it",
+      "meaning": "它；罢工",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "will",
+      "meaning": "将会",
+      "pos": "情态助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "last.",
+      "meaning": "持续",
+      "pos": "动词原形",
+      "phonetic": "/lɑːst/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

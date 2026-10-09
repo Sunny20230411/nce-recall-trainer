@@ -1,0 +1,129 @@
+{
+  "chinese": "他们都饿了，而且食物闻起来很香。",
+  "intent": "描述当时众人的状态和食物给人的感觉，交代两个并列的情境事实。",
+  "comparison": null,
+  "backbone": {
+    "text": "They were hungry and the food smelt good.",
+    "meaning": "他们饿了，而且食物闻起来很香。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列句的连接",
+      "text": "整句由and连接两个独立分句，前半句说人的状态，后半句说食物的感官特点，两个信息地位平等，共同描绘当时的就餐情境。"
+    },
+    {
+      "title": "smelt作为感官系动词",
+      "text": "smelt是smell的过去式，在这里表示“闻起来”，属于感官系动词，后面直接跟形容词good说明主语the food的特点，不是“主动去闻”的动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They were all hungry",
+      "role": "第一个并列分句",
+      "explanation": "说明“他们”当时的状态是饥饿的，all用来强调所有人都如此。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个独立分句，表示两个事实同时存在、并列相关。"
+    },
+    {
+      "text": "the food smelt good.",
+      "role": "第二个并列分句",
+      "explanation": "描述食物的气味闻起来很好，smelt作感官系动词，good作表语说明食物的特点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "They",
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（be的过去式，用于复数主语）",
+      "pos": "动词",
+      "phonetic": "/wɜː/"
+    },
+    {
+      "text": "all",
+      "meaning": "全部，都",
+      "pos": "副词",
+      "phonetic": "/ɔːl/"
+    },
+    {
+      "text": "hungry",
+      "meaning": "饥饿的",
+      "pos": "形容词",
+      "phonetic": "/ˈhʌŋɡri/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（定冠词，特指前面提到的食物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "food",
+      "meaning": "食物",
+      "pos": "名词",
+      "phonetic": "/fuːd/"
+    },
+    {
+      "text": "smelt",
+      "meaning": "闻起来（smell的过去式）",
+      "pos": "动词",
+      "phonetic": "/smelt/"
+    },
+    {
+      "text": "good.",
+      "meaning": "好的，香的",
+      "pos": "形容词",
+      "phonetic": "/ɡʊd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "They were all hungry",
+      "relation": "描述第一个并列事实：众人的状态",
+      "meaning": "他们都饿了"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列分句",
+      "meaning": "并且"
+    },
+    {
+      "text": "the food smelt good.",
+      "relation": "描述第二个并列事实：食物的气味特点",
+      "meaning": "食物闻起来很香"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-027",
+  "sentenceId": "nce-2-lesson-027-sentence-003",
+  "sentenceOrder": 4,
+  "english": "They were all hungry and the food smelt good.",
+  "lesson": "Lesson 27 A wet night",
+  "notes": [
+    {
+      "title": "并列句的连接",
+      "text": "整句由and连接两个独立分句，前半句说人的状态，后半句说食物的感官特点，两个信息地位平等，共同描绘当时的就餐情境。"
+    },
+    {
+      "title": "smelt作为感官系动词",
+      "text": "smelt是smell的过去式，在这里表示“闻起来”，属于感官系动词，后面直接跟形容词good说明主语the food的特点，不是“主动去闻”的动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅单词项good.的释义和音标需修正末尾标点关联问题，主干翻译可更贴合原文语气。（非逐句人工审核）"
+}

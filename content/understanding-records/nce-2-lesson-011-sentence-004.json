@@ -1,0 +1,156 @@
+{
+  "chinese": "托尼看见我，走过来并坐在同一张桌子旁。",
+  "intent": "陈述托尼看到说话人后接连做出的两个连贯动作：走过来、坐到同一张桌子边。",
+  "comparison": null,
+  "backbone": {
+    "text": "Tony saw me and came and sat at the same table.",
+    "meaning": "托尼看见了我，然后走过来，坐在同一张桌子旁。"
+  },
+  "structureNotes": [
+    {
+      "title": "三个并列的过去动作",
+      "text": "句中用and连接saw、came、sat三个过去式动词，表示托尼先后连续发生的三个动作，都属于主语Tony的行为。"
+    },
+    {
+      "title": "at the same table的含义",
+      "text": "这里用介词at表示在桌子旁边（就坐的位置），不是在桌子的平面上面；the same table指和说话人同一张桌子。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Tony",
+      "role": "主语",
+      "explanation": "指人托尼，是三个动作的发出者。"
+    },
+    {
+      "text": "saw me",
+      "role": "第一个并列谓语（含宾语）",
+      "explanation": "saw是see的过去式，意思是看见；me是动作的对象，指说话人。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个动作，表示动作相继发生。"
+    },
+    {
+      "text": "came",
+      "role": "第二个并列谓语",
+      "explanation": "come的过去式，意思是走过来，承接看见我之后的动作。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接came和sat两个动作，表示动作继续承接。"
+    },
+    {
+      "text": "sat at the same table.",
+      "role": "第三个并列谓语（含地点状语）",
+      "explanation": "sat是sit的过去式；at the same table说明坐下的位置是同一张桌子旁。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Tony",
+      "meaning": "托尼（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈtəʊni/"
+    },
+    {
+      "text": "saw",
+      "meaning": "看见（see的过去式）",
+      "pos": "动词",
+      "phonetic": "/sɔː/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（人称代词I的宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；然后（表示动作承接）",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "came",
+      "meaning": "来；过来（come的过去式）",
+      "pos": "动词",
+      "phonetic": "/keɪm/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；然后（表示动作承接）",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "sat",
+      "meaning": "坐（sit的过去式）",
+      "pos": "动词",
+      "phonetic": "/sæt/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（表示位置，在旁）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "same",
+      "meaning": "相同的，同一的",
+      "pos": "形容词",
+      "phonetic": "/seɪm/"
+    },
+    {
+      "text": "table.",
+      "meaning": "桌子",
+      "pos": "名词",
+      "phonetic": "/ˈteɪbl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Tony saw me",
+      "relation": "描述主语的第一个动作及对象",
+      "meaning": "托尼看见了我"
+    },
+    {
+      "text": "and came",
+      "relation": "承接上一个动作的第二个动作",
+      "meaning": "并且走了过来"
+    },
+    {
+      "text": "and sat at the same table.",
+      "relation": "承接前面动作的第三个动作，说明坐下的位置",
+      "meaning": "然后坐在同一张桌子旁"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-011",
+  "sentenceId": "nce-2-lesson-011-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Tony saw me and came and sat at the same table.",
+  "lesson": "Lesson 11 One good turn deserves another",
+  "notes": [
+    {
+      "title": "三个并列的过去动作",
+      "text": "句中用and连接saw、came、sat三个过去式动词，表示托尼先后连续发生的三个动作，都属于主语Tony的行为。"
+    },
+    {
+      "title": "at the same table的含义",
+      "text": "这里用介词at表示在桌子旁边（就坐的位置），不是在桌子的平面上面；the same table指和说话人同一张桌子。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确可用，仅单词释义中table项错误附带句末点号说明，且same的词性标注需修正（same此处修饰table作定语，但same可作形容词/代词，此处功能为形容词的说法无误？不对，检查：words里table的meaning写“桌子（带句末点号）”，违反规则“音标和释义仅解释词本身，不添加反复的标点说明”，需修正。其余内容：翻译、主干、结构分析、并列动作说明、at the same table的含义均正确。（非逐句人工审核）"
+}

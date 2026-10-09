@@ -1,0 +1,88 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-060",
+  "sentenceId": "nce-2-lesson-060-sentence-021",
+  "sentenceOrder": 22,
+  "english": "I remembered Madam Bellinsky's words.",
+  "chinese": "我想起了贝林斯基夫人的话。",
+  "lesson": "Lesson 60 The future",
+  "intent": "把刚发生的事情与先前的预言联系起来",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "I remembered",
+      "relation": "记忆恢复",
+      "meaning": "我想起了"
+    },
+    {
+      "text": "Madam Bellinsky's words.",
+      "relation": "记忆内容",
+      "meaning": "贝林斯基夫人的话"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "所有格",
+      "text": "Bellinsky's 修饰 words，说明是谁说的话。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "所有格",
+      "text": "Bellinsky's 修饰 words，说明是谁说的话。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "想起预言的人。"
+    },
+    {
+      "text": "remembered",
+      "role": "谓语",
+      "explanation": "表示当时想起。"
+    },
+    {
+      "text": "Madam Bellinsky's words.",
+      "role": "宾语",
+      "explanation": "被想起的话语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "remembered",
+      "meaning": "想起",
+      "pos": "动词",
+      "phonetic": "/rɪˈmembəd/"
+    },
+    {
+      "text": "Madam",
+      "meaning": "夫人",
+      "pos": "称谓名词",
+      "phonetic": "/ˈmædəm/"
+    },
+    {
+      "text": "Bellinsky's",
+      "meaning": "贝林斯基的",
+      "pos": "专有名词所有格",
+      "phonetic": "/bəˈlɪnskiz/"
+    },
+    {
+      "text": "words.",
+      "meaning": "话语",
+      "pos": "名词",
+      "phonetic": "/wɜːdz/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

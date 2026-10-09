@@ -1,0 +1,109 @@
+{
+  "chinese": "我转过身去看孩子们，",
+  "intent": "描述说话人转身的动作及该动作的目的。",
+  "comparison": null,
+  "backbone": {
+    "text": "I turned",
+    "meaning": "我转过身（主干动作）"
+  },
+  "structureNotes": [
+    {
+      "title": "不定式表目的",
+      "text": "“to look at the children” 用来说明转身的目的，也就是转身后要做的事是看孩子们。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "动作的发出者，指说话人。"
+    },
+    {
+      "text": "turned",
+      "role": "谓语动词",
+      "explanation": "表示主语的动作“转身”，是过去式。"
+    },
+    {
+      "text": "to look at the children,",
+      "role": "目的状语",
+      "explanation": "说明“转身”这个动作的目的是去看孩子们。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "turned",
+      "meaning": "转身（过去式）",
+      "pos": "动词",
+      "phonetic": "/tɜːnd/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，表目的）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "look",
+      "meaning": "看",
+      "pos": "动词",
+      "phonetic": "/lʊk/"
+    },
+    {
+      "text": "at",
+      "meaning": "朝（某方向看）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，指特定的孩子们）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "children,",
+      "meaning": "孩子们（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈtʃɪldrən/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "turned",
+      "relation": "主干动作",
+      "meaning": "转过身"
+    },
+    {
+      "text": "to look at the children,",
+      "relation": "动作的目的",
+      "meaning": "去看孩子们"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-030",
+  "sentenceId": "nce-2-lesson-030-sentence-008-part-01",
+  "sentenceOrder": 9,
+  "english": "I turned to look at the children,",
+  "lesson": "Lesson 30 Football or polo?",
+  "notes": [
+    {
+      "title": "不定式表目的",
+      "text": "“to look at the children” 用来说明转身的目的，也就是转身后要做的事是看孩子们。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：翻译漏译原句末尾逗号对应的停顿属性需明确，words中children的释义不应混入标点说明，其余内容符合要求。（非逐句人工审核）"
+}

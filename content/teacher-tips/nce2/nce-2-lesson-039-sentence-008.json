@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-039",
+  "sentenceId": "nce-2-lesson-039-sentence-008",
+  "english": "Then Dr Millington asked the caller if he was a relative of the patient.",
+  "text": "这里不说 asked him，而说 asked the caller，是因为医生还不知道对方的具体身份，用 the caller 按“打电话来的人”这个当前角色来指代，更符合情境。指代身份未定的人时，先按他当下的角色称呼，往往比直接用人称更自然。",
+  "sourceDigest": "0631e21138491afe11f8c0b8fefdc20df8a5134fdb12cb706095556588fb0c3f",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：点出了指代选择和人物已知信息的关联，贴合故事情境，解释有教学价值。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "点明了指代选择与情境的对应，解释合理且有迁移价值。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

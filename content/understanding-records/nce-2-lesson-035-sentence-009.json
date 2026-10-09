@@ -1,0 +1,131 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-035",
+  "sentenceId": "nce-2-lesson-035-sentence-009",
+  "sentenceOrder": 10,
+  "english": "The thieves' car was badly damaged and easy to recognize.",
+  "chinese": "小偷的汽车损坏严重，很容易辨认出来。",
+  "lesson": "Lesson 35 Stop thief!",
+  "intent": "说明车的损伤使它容易被辨认。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "The thieves' car",
+      "relation": "被描述的对象",
+      "meaning": "小偷的汽车"
+    },
+    {
+      "text": "was badly damaged",
+      "relation": "汽车受损的状态",
+      "meaning": "损坏严重"
+    },
+    {
+      "text": "and easy to recognize.",
+      "relation": "同一辆车的另一特点",
+      "meaning": "而且很容易辨认"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "并列描述车的状态",
+      "text": "badly damaged 与 easy to recognize 都接在 was 后说明车的状态或特点。后半部分不再重复 was。"
+    },
+    {
+      "title": "easy to recognize",
+      "text": "car 是 recognize 的理解对象，表达的是这辆车容易被人辨认。to recognize 说明 easy 是针对什么事情而言。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "并列描述车的状态",
+      "text": "badly damaged 与 easy to recognize 都接在 was 后说明车的状态或特点。后半部分不再重复 was。"
+    },
+    {
+      "title": "easy to recognize",
+      "text": "car 是 recognize 的理解对象，表达的是这辆车容易被人辨认。to recognize 说明 easy 是针对什么事情而言。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The thieves' car",
+      "role": "主语",
+      "explanation": "句子谈论小偷的汽车。"
+    },
+    {
+      "text": "was badly damaged",
+      "role": "谓语",
+      "explanation": "过去时被动，说明严重受损。"
+    },
+    {
+      "text": "easy to recognize.",
+      "role": "并列表语",
+      "explanation": "承接was，说明车容易辨认。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这些",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "thieves'",
+      "meaning": "小偷们的",
+      "pos": "名词所有格",
+      "phonetic": "/θiːvz/"
+    },
+    {
+      "text": "car",
+      "meaning": "汽车",
+      "pos": "名词",
+      "phonetic": "/kɑː/"
+    },
+    {
+      "text": "was",
+      "meaning": "过去的状态；构成被动",
+      "pos": "动词be",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "badly",
+      "meaning": "严重地",
+      "pos": "副词",
+      "phonetic": "/ˈbædli/"
+    },
+    {
+      "text": "damaged",
+      "meaning": "损坏的；被损坏",
+      "pos": "动词过去分词",
+      "phonetic": "/ˈdæmɪdʒd/"
+    },
+    {
+      "text": "and",
+      "meaning": "而且",
+      "pos": "并列连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "easy",
+      "meaning": "容易的",
+      "pos": "形容词",
+      "phonetic": "/ˈiːzi/"
+    },
+    {
+      "text": "to",
+      "meaning": "引出辨认这件事",
+      "pos": "不定式标记",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "recognize.",
+      "meaning": "辨认",
+      "pos": "动词",
+      "phonetic": "/ˈrekəɡnaɪz/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

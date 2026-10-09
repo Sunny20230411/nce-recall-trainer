@@ -1,0 +1,177 @@
+{
+  "chinese": "从那时起，福西特上尉就已经用飞机运送乘客到许多不同寻常的地方。",
+  "intent": "说明从首次载客之后到现在，福西特上尉的飞行载客经历，即他已经把乘客送往诸多不寻常的地点。",
+  "comparison": {
+    "chinese": "中文会先说“从那时起”这个时间背景，再讲“福西特上尉已经驾机送乘客到许多不寻常的地方”，语序和英文基本一致，容易有疑问的是flown passengers的意思。",
+    "english": "Since then, Captain Fawcett has flown passengers to many unusual places.",
+    "steps": [
+      {
+        "label": "第一步：先抓主干动作",
+        "text": "Captain Fawcett has flown passengers",
+        "explanation": "这里的flown是fly的过去分词，不是“自己飞”，而是“驾驶飞机运送（乘客）”，宾语是passengers，相当于“载着乘客飞行/运送乘客”。"
+      },
+      {
+        "label": "第二步：补出地点去向",
+        "text": "to many unusual places",
+        "explanation": "to引出飞行的目的地，说明把乘客送到了哪里，是“许多不寻常的地方”。"
+      },
+      {
+        "label": "第三步：加上时间范围",
+        "text": "Since then",
+        "explanation": "since then点明“从那时（指第一次载客）起一直到现在”，和现在完成时has flown搭配，表示这段时间里累积发生的情况。"
+      }
+    ],
+    "takeaway": "fly后面接人作宾语时，常表示“用飞机运送某人”，不一定是“乘客自己飞”；since then用来承接前面提到的某个时间起点，和现在完成时配合说明从那之后到现在的经历。"
+  },
+  "backbone": {
+    "text": "Captain Fawcett has flown passengers to many unusual places.",
+    "meaning": "福西特上尉已经用飞机把乘客送到了许多不寻常的地方。"
+  },
+  "structureNotes": [
+    {
+      "title": "since then的作用",
+      "text": "Since then是时间状语，指代上文中“第一次载客”那个时间点往后直到现在，引出现在完成时描述的累计经历。"
+    },
+    {
+      "title": "现在完成时has flown的含义",
+      "text": "has flown是现在完成时，表示从过去某个起点（首次载客）到目前为止已经发生并留下结果的动作，强调累积的经历而非单次飞行。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Since then,",
+      "role": "时间状语",
+      "explanation": "表示从前面提到的某个过去时间点起直到现在，为全句提供时间范围，常与现在完成时搭配。"
+    },
+    {
+      "text": "Captain Fawcett",
+      "role": "主语",
+      "explanation": "句子的动作发出者，指福西特上尉。"
+    },
+    {
+      "text": "has flown",
+      "role": "谓语",
+      "explanation": "现在完成时的谓语动词，fly在这里是及物用法，意为“驾驶飞机运送”。"
+    },
+    {
+      "text": "passengers",
+      "role": "宾语",
+      "explanation": "是flown的动作对象，即被运送的人。"
+    },
+    {
+      "text": "to many unusual places",
+      "role": "目的地状语",
+      "explanation": "用介词to引出飞行运送的目的地，说明乘客被送到哪里。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Since",
+      "meaning": "自从，自……以来",
+      "pos": "介词",
+      "phonetic": "/sɪns/"
+    },
+    {
+      "text": "then,",
+      "meaning": "那时",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    },
+    {
+      "text": "Captain",
+      "meaning": "上尉，队长",
+      "pos": "名词",
+      "phonetic": "/ˈkæptɪn/"
+    },
+    {
+      "text": "Fawcett",
+      "meaning": "福西特（人名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈfɔːsɪt/"
+    },
+    {
+      "text": "has",
+      "meaning": "（助动词，构成现在完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "flown",
+      "meaning": "飞行，驾驶飞机运送（fly的过去分词）",
+      "pos": "动词",
+      "phonetic": "/fləʊn/"
+    },
+    {
+      "text": "passengers",
+      "meaning": "乘客（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈpæsɪndʒəz/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向（表示方向）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "many",
+      "meaning": "许多",
+      "pos": "限定词",
+      "phonetic": "/ˈmeni/"
+    },
+    {
+      "text": "unusual",
+      "meaning": "不寻常的，特别的",
+      "pos": "形容词",
+      "phonetic": "/ʌnˈjuːʒuəl/"
+    },
+    {
+      "text": "places.",
+      "meaning": "地方（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈpleɪsɪz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Since then,",
+      "meaning": "从那时起，",
+      "relation": "时间"
+    },
+    {
+      "text": "Captain Fawcett",
+      "meaning": "福西特上尉",
+      "relation": "动作发出者"
+    },
+    {
+      "text": "has flown passengers",
+      "meaning": "已经驾机运送乘客",
+      "relation": "主干动作和对象"
+    },
+    {
+      "text": "to many unusual places.",
+      "meaning": "到许多不寻常的地方",
+      "relation": "目的地"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-029",
+  "sentenceId": "nce-2-lesson-029-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Since then, Captain Fawcett has flown passengers to many unusual places.",
+  "lesson": "Lesson 29 Taxi!",
+  "notes": [
+    {
+      "title": "since then的作用",
+      "text": "Since then是时间状语，指代上文中“第一次载客”那个时间点往后直到现在，引出现在完成时描述的累计经历。"
+    },
+    {
+      "title": "现在完成时has flown的含义",
+      "text": "has flown是现在完成时，表示从过去某个起点（首次载客）到目前为止已经发生并留下结果的动作，强调累积的经历而非单次飞行。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需修正 words 中个别项的释义冗余与词性标注问题，以及 parts 中一处表述顺序不影响理解但可优化。（非逐句人工审核）"
+}

@@ -1,0 +1,121 @@
+{
+  "chinese": "途中，一个年轻人向我挥了挥手。",
+  "intent": "陈述旅途中发生的一件小事：有位年轻人向说话者招手示意。",
+  "comparison": null,
+  "backbone": {
+    "text": "a young man waved to me",
+    "meaning": "一个年轻人向我挥手"
+  },
+  "structureNotes": [
+    {
+      "title": "句首介词短语表时间/场景",
+      "text": "On the way 放在句首，用逗号隔开，交代后面这件事发生的背景是“在去往下一处的路途中”，让读者先知道场景，再看核心事件。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "On the way,",
+      "role": "场景状语",
+      "explanation": "说明后面挥手这件事发生的背景，是在赶路的途中，不是在家或到了目的地。"
+    },
+    {
+      "text": "a young man",
+      "role": "主语",
+      "explanation": "执行“挥手”这个动作的人，是一名年轻男子。"
+    },
+    {
+      "text": "waved to me.",
+      "role": "谓语",
+      "explanation": "表示主语发出的动作是“向我挥手”，wave to 是固定搭配，引出挥手的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "On",
+      "meaning": "在……之上；（搭配way构成短语表途中）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "way,",
+      "meaning": "路，路途",
+      "pos": "名词",
+      "phonetic": "/weɪ/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个（用于辅音开头的单数可数名词前）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "young",
+      "meaning": "年轻的",
+      "pos": "形容词",
+      "phonetic": "/jʌŋ/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人，男子",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "waved",
+      "meaning": "挥手（过去式）",
+      "pos": "动词",
+      "phonetic": "/weɪvd/"
+    },
+    {
+      "text": "to",
+      "meaning": "朝，向（引出动作对象）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "me.",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "On the way,",
+      "relation": "时间/场景",
+      "meaning": "在途中"
+    },
+    {
+      "text": "a young man",
+      "relation": "做动作的人",
+      "meaning": "一个年轻男子"
+    },
+    {
+      "text": "waved to me.",
+      "relation": "核心动作及对象",
+      "meaning": "向我挥了挥手"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-014",
+  "sentenceId": "nce-2-lesson-014-sentence-003",
+  "sentenceOrder": 4,
+  "english": "On the way, a young man waved to me.",
+  "lesson": "Lesson 14 Do you speak English?",
+  "notes": [
+    {
+      "title": "句首介词短语表时间/场景",
+      "text": "On the way 放在句首，用逗号隔开，交代后面这件事发生的背景是“在去往下一处的路途中”，让读者先知道场景，再看核心事件。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析正确，但存在两处可修正问题：1. words数组中way、和me.的释义额外标注了“带逗号”“带句号”，不符合仅解释词本身、不重复说明标点的规则；2. words中On的释义侧重“在……期间”，结合固定搭配on the way，补充“on the way为固定短语，意为‘在路上、在途中’”更贴合语境但不改动word本身释义，仅去除多余标点说明。其余内容（主干、结构、分块、翻译）均准确。（非逐句人工审核）"
+}

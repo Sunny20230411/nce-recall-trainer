@@ -1,0 +1,117 @@
+{
+  "chinese": "他们会试图维持秩序",
+  "intent": "说明他们在将来某段时间里将会忙着努力维持秩序",
+  "comparison": null,
+  "backbone": {
+    "text": "They will be trying to keep order.",
+    "meaning": "他们会忙着努力维持秩序。"
+  },
+  "structureNotes": [
+    {
+      "title": "将来进行时的含义",
+      "text": "will be trying 是将来进行时，表示将来某个时段里正在持续进行的动作，这里侧重描述届时他们会处于忙着努力维持秩序的状态，比一般将来时更有画面感。"
+    },
+    {
+      "title": "to keep order 的作用",
+      "text": "to keep order 是动词不定式短语，接在 trying 后面，说明努力的具体内容是维持秩序。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They",
+      "role": "主语",
+      "explanation": "指代前文中的 the police，是句子里做“努力维持秩序”这个动作的主体。"
+    },
+    {
+      "text": "will be trying",
+      "role": "谓语",
+      "explanation": "用将来进行时的结构，说明将来某段时间内会持续处于“努力、设法做某事”的状态中。"
+    },
+    {
+      "text": "to keep order",
+      "role": "宾语",
+      "explanation": "是动词 try 的宾语，说明努力要达成的具体事是维持秩序。"
+    }
+  ],
+  "words": [
+    {
+      "text": "They",
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "will",
+      "meaning": "将要；会",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "be",
+      "meaning": "（进行时助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "trying",
+      "meaning": "努力；试图",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈtraɪɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "keep",
+      "meaning": "保持；维持",
+      "pos": "动词",
+      "phonetic": "/kiːp/"
+    },
+    {
+      "text": "order.",
+      "meaning": "秩序；次序（句末点号为原文标点，不属词本身）",
+      "pos": "名词",
+      "phonetic": "/ˈɔːdə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "They",
+      "relation": "动作主体",
+      "meaning": "他们"
+    },
+    {
+      "text": "will be trying",
+      "relation": "描述主体的将来持续动作",
+      "meaning": "将会一直在努力"
+    },
+    {
+      "text": "to keep order.",
+      "relation": "努力的具体内容",
+      "meaning": "维持秩序"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-013",
+  "sentenceId": "nce-2-lesson-013-sentence-009",
+  "sentenceOrder": 9,
+  "english": "They will be trying to keep order.",
+  "lesson": "Lesson 13 The Greenwood Boys",
+  "notes": [
+    {
+      "title": "将来进行时的含义",
+      "text": "will be trying 是将来进行时，表示将来某个时段里正在持续进行的动作，这里侧重描述届时他们会处于忙着努力维持秩序的状态，比一般将来时更有画面感。"
+    },
+    {
+      "title": "to keep order 的作用",
+      "text": "to keep order 是动词不定式短语，接在 trying 后面，说明努力的具体内容是维持秩序。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅存在一处小瑕疵：words数组中最后一个词项text为\"order.\"（带句末点号），但其释义仅解释了order的词义，未明确说明标点仅为原文附着不参与词义；另外structures里不定式的角色表述可更严谨，try to do中不定式是宾语，无需额外加注\"努力的内容\"的冗余表述，统一角色命名更规范。（非逐句人工审核）"
+}

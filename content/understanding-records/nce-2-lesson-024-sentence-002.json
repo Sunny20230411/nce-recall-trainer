@@ -1,0 +1,145 @@
+{
+  "chinese": "我刚丢了50英镑，心里特别难受。",
+  "intent": "叙述两件先后相关的事：自己刚丢失五十英镑，以及因此产生的懊恼情绪。",
+  "comparison": null,
+  "backbone": {
+    "text": "I had lost £50 and I felt upset.",
+    "meaning": "我丢了50英镑，并且我感到难过。"
+  },
+  "structureNotes": [
+    {
+      "title": "and 连接的并列句",
+      "text": "全句由 and 连接两个并列分句，前一分句讲发生的事（丢钱），后一分句讲人的感受，两者在语义上是因果相关的并列关系。"
+    },
+    {
+      "title": "过去完成时 had just lost 的含义",
+      "text": "had just lost 是过去完成时，强调“丢钱”这件事发生在过去某个参照时间（进入经理办公室、坐下）之前刚刚结束，just 加强“刚、才”的时间意味。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I had just lost £50",
+      "role": "第一个并列分句",
+      "explanation": "说明过去较早发生的一件事：我刚丢失了50英镑，用过去完成时体现动作先于后面的参照时间。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个分句，表示两个信息并列、相继或因果相关。"
+    },
+    {
+      "text": "I felt very upset.",
+      "role": "第二个并列分句",
+      "explanation": "说明丢钱之后我的情绪状态，felt 是系动词，后接形容词 upset 描述感受。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "had",
+      "meaning": "（过去完成时助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "just",
+      "meaning": "刚刚，刚才",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "lost",
+      "meaning": "丢失，遗失（lose的过去分词）",
+      "pos": "动词",
+      "phonetic": "/lɒst/"
+    },
+    {
+      "text": "£50",
+      "meaning": "50英镑",
+      "pos": "名词短语",
+      "phonetic": "/ˈfɪfti paʊndz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "felt",
+      "meaning": "感到，觉得（feel的过去式）",
+      "pos": "系动词",
+      "phonetic": "/felt/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "upset.",
+      "meaning": "心烦的，苦恼的",
+      "pos": "形容词",
+      "phonetic": "/ʌpˈset/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者（丢钱的人）",
+      "meaning": "我"
+    },
+    {
+      "text": "had just lost £50",
+      "relation": "描述第一个事件：先发生的丢钱动作",
+      "meaning": "刚刚丢了50英镑"
+    },
+    {
+      "text": "and",
+      "relation": "连接前后两个并列分句",
+      "meaning": "并且"
+    },
+    {
+      "text": "I",
+      "relation": "感受的主体（感到难过的人）",
+      "meaning": "我"
+    },
+    {
+      "text": "felt very upset.",
+      "relation": "描述第二个事件：丢钱后的情绪状态",
+      "meaning": "感到非常难过"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-024",
+  "sentenceId": "nce-2-lesson-024-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I had just lost £50 and I felt very upset.",
+  "lesson": "Lesson 24 It could be worse",
+  "notes": [
+    {
+      "title": "and 连接的并列句",
+      "text": "全句由 and 连接两个并列分句，前一分句讲发生的事（丢钱），后一分句讲人的感受，两者在语义上是因果相关的并列关系。"
+    },
+    {
+      "title": "过去完成时 had just lost 的含义",
+      "text": "had just lost 是过去完成时，强调“丢钱”这件事发生在过去某个参照时间（进入经理办公室、坐下）之前刚刚结束，just 加强“刚、才”的时间意味。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅words项中upset.的释义未点明其在句中作表语的属性且原释义略显平淡，其余内容均符合要求，无需大幅调整。（非逐句人工审核）"
+}

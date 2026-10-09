@@ -1,0 +1,145 @@
+{
+  "chinese": "它现在正由火车送往他的家。",
+  "intent": "说明当前某件物品正通过火车被运往失主家中的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "It is being sent to his home by train.",
+    "meaning": "它正由火车送往他的家（去掉时间副词now后保留完整被动进行时主干）。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在进行时的被动语态",
+      "text": "is now being sent 是现在进行时的被动结构，表示“此刻正在被运送”；形式是 am/is/are + being + 过去分词，强调动作正在发生且主语是动作的承受者。"
+    },
+    {
+      "title": "by 引出动作执行者/方式",
+      "text": "by train 用来说明运送的方式是火车；被动句中 by 后常接动作的发出者或所用的工具、方式。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "主语",
+      "explanation": "指代上文提到的 the bicycle，是“被运送”的对象。"
+    },
+    {
+      "text": "is now being sent",
+      "role": "谓语（现在进行时被动）",
+      "explanation": "表示此刻正在发生的被动动作，核心含义是“正在被运送”。"
+    },
+    {
+      "text": "to his home",
+      "role": "目的地状语",
+      "explanation": "说明运送的目的地是他的家。"
+    },
+    {
+      "text": "by train.",
+      "role": "方式状语",
+      "explanation": "说明运送所使用的交通方式是火车。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（指代前文的自行车）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（助动词，构成进行时被动）",
+      "pos": "助动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "now",
+      "meaning": "现在",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    },
+    {
+      "text": "being",
+      "meaning": "助动词，构成进行时被动，无实义",
+      "pos": "助动词",
+      "phonetic": "/ˈbiːɪŋ/"
+    },
+    {
+      "text": "sent",
+      "meaning": "运送，发送（过去分词）",
+      "pos": "动词",
+      "phonetic": "/sent/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "home",
+      "meaning": "家",
+      "pos": "名词",
+      "phonetic": "/həʊm/"
+    },
+    {
+      "text": "by",
+      "meaning": "由，通过（表方式）",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "train.",
+      "meaning": "火车",
+      "pos": "名词",
+      "phonetic": "/treɪn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It",
+      "relation": "被运送的对象，是句子主语",
+      "meaning": "它（指代那辆自行车）"
+    },
+    {
+      "text": "is now being sent",
+      "relation": "描述主语正在承受的动作，作谓语",
+      "meaning": "现在正被运送"
+    },
+    {
+      "text": "to his home",
+      "relation": "说明运送的目的地",
+      "meaning": "到他的家"
+    },
+    {
+      "text": "by train.",
+      "relation": "说明运送的方式",
+      "meaning": "通过火车"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-034",
+  "sentenceId": "nce-2-lesson-034-sentence-007",
+  "sentenceOrder": 11,
+  "english": "It is now being sent to his home by train.",
+  "lesson": "Lesson 34 Quick work",
+  "notes": [
+    {
+      "title": "现在进行时的被动语态",
+      "text": "is now being sent 是现在进行时的被动结构，表示“此刻正在被运送”；形式是 am/is/are + being + 过去分词，强调动作正在发生且主语是动作的承受者。"
+    },
+    {
+      "title": "by 引出动作执行者/方式",
+      "text": "by train 用来说明运送的方式是火车；被动句中 by 后常接动作的发出者或所用的工具、方式。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需将is的词性修正为助动词，being的含义表述调整为更符合被动进行时构词功能的说明，其余内容无误。（非逐句人工审核）"
+}

@@ -1,0 +1,100 @@
+{
+  "chinese": "“真可惜！”苏珊喊道。",
+  "intent": "转述苏珊因得知票已售完而发出的遗憾感叹，同时说明这句话是苏珊喊出来的。",
+  "comparison": null,
+  "backbone": {
+    "text": "Susan exclaimed. ‘What a pity!’",
+    "meaning": "苏珊喊出了“真可惜”这句话。"
+  },
+  "structureNotes": [
+    {
+      "title": "感叹句的引述语序",
+      "text": "英文先写直接引语‘What a pity!’，再交代说话人Susan exclaimed；中文通常也可以先说引语再说说话人，两种语言在这里语序相近。"
+    },
+    {
+      "title": "What引导的感叹句",
+      "text": "What a pity! 是针对名词pity的感叹，结构为What + a/an + 可数名词单数，用来表达强烈的遗憾、可惜等情绪，不需要额外加主谓。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘What a pity!’",
+      "role": "直接引语（感叹句）",
+      "explanation": "这是苏珊说出的具体内容，是一个由What引导的感叹句，用来表达遗憾、可惜的情绪。"
+    },
+    {
+      "text": "Susan exclaimed.",
+      "role": "主句（说话人+动作）",
+      "explanation": "交代说话的人是Susan，动作是exclaimed（呼喊、惊叫），说明前面引语的来源和说话的语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘What",
+      "meaning": "多么（用于引导感叹句，后接名词短语）",
+      "pos": "感叹限定词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（件/个），用于感叹句中修饰单数可数名词",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "pity!’",
+      "meaning": "可惜的事；遗憾",
+      "pos": "名词",
+      "phonetic": "/ˈpɪti/"
+    },
+    {
+      "text": "Susan",
+      "meaning": "苏珊（女子名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈsuːzən/"
+    },
+    {
+      "text": "exclaimed.",
+      "meaning": "呼喊；惊叫；大声说",
+      "pos": "动词（过去式）",
+      "phonetic": "/ɪkˈskleɪmd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘What a pity!’",
+      "relation": "苏珊喊出的具体内容（直接引语）",
+      "meaning": "真可惜！"
+    },
+    {
+      "text": "Susan",
+      "relation": "说话的人（动作发出者）",
+      "meaning": "苏珊"
+    },
+    {
+      "text": "exclaimed.",
+      "relation": "苏珊发出的动作",
+      "meaning": "喊道"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-019",
+  "sentenceId": "nce-2-lesson-019-sentence-006",
+  "sentenceOrder": 6,
+  "english": "‘What a pity!’ Susan exclaimed.",
+  "lesson": "Lesson 19 Sold out",
+  "notes": [
+    {
+      "title": "感叹句的引述语序",
+      "text": "英文先写直接引语‘What a pity!’，再交代说话人Susan exclaimed；中文通常也可以先说引语再说说话人，两种语言在这里语序相近。"
+    },
+    {
+      "title": "What引导的感叹句",
+      "text": "What a pity! 是针对名词pity的感叹，结构为What + a/an + 可数名词单数，用来表达强烈的遗憾、可惜等情绪，不需要额外加主谓。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，仅需修正words中What的词性标注（感叹句中What为感叹限定词，原标注表述可优化），以及words第一项text包含前引号无需额外说明，其余符合要求。（非逐句人工审核）"
+}

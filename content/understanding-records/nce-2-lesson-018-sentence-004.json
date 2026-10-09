@@ -1,0 +1,134 @@
+{
+  "chinese": "“你吃得好吗？”他问道。",
+  "intent": "转述他人向说话者询问用餐是否满意的问答场景，是引述别人的问话。",
+  "comparison": {
+    "chinese": "中文会把“他问”放在引语前面或后面都可以，问句本身不需要调整词序，比如“他问道：‘你吃得好吗？’”",
+    "english": "英文这里把直接引语放在句首，主语he和谓语asked用正常顺序，问句内部用助动词did开头构成疑问语序。",
+    "steps": [
+      {
+        "label": "第一步：先抓对话核心信息",
+        "text": "you have a good meal",
+        "explanation": "核心是“你这顿饭吃得不错”，先理解成陈述的意思：你用餐愉快。"
+      },
+      {
+        "label": "第二步：认出疑问形式",
+        "text": "Did you have a good meal?",
+        "explanation": "句首加Did是一般过去时的疑问标记，问的是已经吃过的那顿饭，have在这里表示“享用（一顿饭）”，不是“拥有”。"
+      },
+      {
+        "label": "第三步：确认是谁说的",
+        "text": "he asked",
+        "explanation": "放在引语后面，说明前面整句话是“他”提出的问题，作用是交代说话人。"
+      }
+    ],
+    "takeaway": "直接引语放在前面时，后面的“某人说/问”常用正常语序；have a meal里的have表示进行某个动作，不是所有关系。"
+  },
+  "backbone": {
+    "text": "He asked, ‘Did you have a good meal?’",
+    "meaning": "他问对方这顿饭吃得好不好。（为方便理解把说话人移到前面，原文引语在前）"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把引语放在句首，he asked放在引语之后，依然表示“他问道”，不改变引语是直接原话的性质。"
+    },
+    {
+      "title": "have a good meal的含义",
+      "text": "have在这里不表示“有”，而是“享用、吃”的意思，a good meal指一顿满意的饭、吃得好。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘Did you have a good meal?’",
+      "role": "直接引语（一般疑问句）",
+      "explanation": "是he问出的原话，用一般过去时询问对方刚才用餐是否愉快。"
+    },
+    {
+      "text": "he asked.",
+      "role": "主句：主语+谓语",
+      "explanation": "交代说话人是he，动作是“问”，用来说明前面引语的来源。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘Did",
+      "meaning": "（引语开头）助动词do的过去式，用于构成过去时疑问句",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "you",
+      "meaning": "你，你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "have",
+      "meaning": "享用，进行（某事）",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（顿）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "good",
+      "meaning": "好的，令人满意的",
+      "pos": "形容词",
+      "phonetic": "/ɡʊd/"
+    },
+    {
+      "text": "meal?’",
+      "meaning": "一顿饭",
+      "pos": "名词",
+      "phonetic": "/miːl/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "asked.",
+      "meaning": "问，询问",
+      "pos": "动词（过去式）",
+      "phonetic": "/ɑːskt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘Did you have a good meal?’",
+      "relation": "被问到的具体内容，即直接引语",
+      "meaning": "你吃得好吗？"
+    },
+    {
+      "text": "he asked.",
+      "relation": "说话人及其动作，说明前面引语由谁说出",
+      "meaning": "他问道"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-018",
+  "sentenceId": "nce-2-lesson-018-sentence-004",
+  "sentenceOrder": 4,
+  "english": "‘Did you have a good meal?’ he asked.",
+  "lesson": "Lesson 18 He often does this!",
+  "notes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把引语放在句首，he asked放在引语之后，依然表示“他问道”，不改变引语是直接原话的性质。"
+    },
+    {
+      "title": "have a good meal的含义",
+      "text": "have在这里不表示“有”，而是“享用、吃”的意思，a good meal指一顿满意的饭、吃得好。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析正确，仅words的部分词性描述混进了标点说明，需修正为仅标注词性本身；comparison中“主语he和谓语asked用正常顺序”表述准确无需改动，其余内容均符合要求。（非逐句人工审核）"
+}

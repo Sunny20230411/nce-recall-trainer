@@ -1,0 +1,130 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-020",
+  "sentenceId": "nce-2-lesson-020-sentence-007",
+  "sentenceOrder": 7,
+  "english": "I never catch anything — not even old boots.",
+  "chinese": "我从来什么都钓不到——连旧靴子也钓不到。",
+  "lesson": "Lesson 20 One man in a boat",
+  "intent": "以连旧靴子也钓不到自嘲钓鱼运气更差。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "I",
+      "relation": "行为者",
+      "meaning": "我"
+    },
+    {
+      "text": "never catch anything",
+      "relation": "否定的惯常结果",
+      "meaning": "从来什么都钓不到"
+    },
+    {
+      "text": "—",
+      "relation": "补充引出",
+      "meaning": "破折号引出进一步说明"
+    },
+    {
+      "text": "not even old boots.",
+      "relation": "极低参照的补充",
+      "meaning": "连旧靴子也钓不到"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "否定范围",
+      "text": "never 已经否定整个钓到东西的情况，anything 在这里指任何东西。"
+    },
+    {
+      "title": "省略补充",
+      "text": "not even old boots 省去与前面相同的主语和动作，用连旧靴子都没有加强自嘲。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "否定范围",
+      "text": "never 已经否定整个钓到东西的情况，anything 在这里指任何东西。"
+    },
+    {
+      "title": "省略补充",
+      "text": "not even old boots 省去与前面相同的主语和动作，用连旧靴子都没有加强自嘲。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "第一人称，指叙述者。"
+    },
+    {
+      "text": "never catch anything",
+      "role": "谓语部分",
+      "explanation": "never 否定惯常动作，anything 作 catch 的宾语。"
+    },
+    {
+      "text": "not even old boots.",
+      "role": "省略式补充",
+      "explanation": "承接钓不到的否定判断，old boots 是补出的最低参照。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "never",
+      "meaning": "从来不",
+      "pos": "频度副词",
+      "phonetic": "/ˈnevə/"
+    },
+    {
+      "text": "catch",
+      "meaning": "钓到",
+      "pos": "及物动词",
+      "phonetic": "/kætʃ/"
+    },
+    {
+      "text": "anything",
+      "meaning": "任何东西",
+      "pos": "不定代词",
+      "phonetic": "/ˈeniθɪŋ/"
+    },
+    {
+      "text": "—",
+      "meaning": "标点",
+      "pos": "标点符号",
+      "phonetic": "/—/"
+    },
+    {
+      "text": "not",
+      "meaning": "不",
+      "pos": "否定副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "even",
+      "meaning": "连……也",
+      "pos": "强调副词",
+      "phonetic": "/ˈiːvən/"
+    },
+    {
+      "text": "old",
+      "meaning": "旧的",
+      "pos": "形容词",
+      "phonetic": "/əʊld/"
+    },
+    {
+      "text": "boots.",
+      "meaning": "靴子",
+      "pos": "复数名词",
+      "phonetic": "/buːts/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

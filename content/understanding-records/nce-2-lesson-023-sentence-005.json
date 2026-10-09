@@ -1,0 +1,152 @@
+{
+  "chinese": "我们现在住在乡下一栋漂亮的新房子里。",
+  "intent": "说明说话人目前的居住状态，交代住在乡下一栋漂亮新房子里的事实。",
+  "comparison": null,
+  "backbone": {
+    "text": "We are living in a house.",
+    "meaning": "我们住在一栋房子里。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在进行时表当前状态",
+      "text": "句中are living用现在进行时，配合now表示现阶段正在持续的居住状态，不是瞬间正在进行的动作。"
+    },
+    {
+      "title": "两个in短语的层次",
+      "text": "in a beautiful new house说明居住的具体场所，in the country进一步说明房子所在的大范围位置，修饰对象是前面的house。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "are now living",
+      "role": "谓语",
+      "explanation": "由be动词are加现在分词living构成现在进行时，now说明时间是现在，整体表示“目前正居住”的状态。"
+    },
+    {
+      "text": "in a beautiful new house",
+      "role": "地点状语",
+      "explanation": "说明居住的具体地点是一栋漂亮的新房子，是live这个动作发生的场所。"
+    },
+    {
+      "text": "in the country",
+      "role": "后置定语",
+      "explanation": "修饰前面的house，说明这栋房子位于乡下，补充房子的位置属性。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "are",
+      "meaning": "（助动词，构成进行时）",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "now",
+      "meaning": "现在",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    },
+    {
+      "text": "living",
+      "meaning": "居住；生活",
+      "pos": "动词",
+      "phonetic": "/ˈlɪvɪŋ/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（栋）",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "beautiful",
+      "meaning": "漂亮的；美丽的",
+      "pos": "形容词",
+      "phonetic": "/ˈbjuːtɪfl/"
+    },
+    {
+      "text": "new",
+      "meaning": "新的",
+      "pos": "形容词",
+      "phonetic": "/njuː/"
+    },
+    {
+      "text": "house",
+      "meaning": "房子；住宅",
+      "pos": "名词",
+      "phonetic": "/haʊs/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……（范围）里",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "country.",
+      "meaning": "乡下；乡村",
+      "pos": "名词",
+      "phonetic": "/ˈkʌntri/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We",
+      "relation": "动作的发出者，即居住的人",
+      "meaning": "我们"
+    },
+    {
+      "text": "are now living",
+      "relation": "描述主语的状态和动作",
+      "meaning": "现在正居住"
+    },
+    {
+      "text": "in a beautiful new house",
+      "relation": "说明居住的具体场所",
+      "meaning": "在一栋漂亮的新房子里"
+    },
+    {
+      "text": "in the country.",
+      "relation": "补充说明房子所在的大位置",
+      "meaning": "在乡下"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-023",
+  "sentenceId": "nce-2-lesson-023-sentence-005",
+  "sentenceOrder": 5,
+  "english": "We are now living in a beautiful new house in the country.",
+  "lesson": "Lesson 23 A new house",
+  "notes": [
+    {
+      "title": "现在进行时表当前状态",
+      "text": "句中are living用现在进行时，配合now表示现阶段正在持续的居住状态，不是瞬间正在进行的动作。"
+    },
+    {
+      "title": "两个in短语的层次",
+      "text": "in a beautiful new house说明居住的具体场所，in the country进一步说明房子所在的大范围位置，修饰对象是前面的house。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，仅末尾词项标点附着的释义需修正，其他字段符合要求。（非逐句人工审核）"
+}

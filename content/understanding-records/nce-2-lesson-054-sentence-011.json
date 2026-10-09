@@ -1,0 +1,97 @@
+{
+  "chinese": "就在这时，门铃响了。",
+  "intent": "描述某个时间点突然发生的事件，承接上文的情境。",
+  "comparison": null,
+  "backbone": {
+    "text": "the doorbell rang",
+    "meaning": "门铃响了"
+  },
+  "structureNotes": [
+    {
+      "title": "Just then 的作用",
+      "text": "Just then 是时间状语，意思是“就在这时、恰好那时候”，用来引出与上文情境同时发生的突发事情，让前后情节衔接更自然。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Just then,",
+      "role": "时间状语",
+      "explanation": "说明后面事情发生的时间点，指上文描述的情形正在进行的那一刻。"
+    },
+    {
+      "text": "the doorbell",
+      "role": "主语",
+      "explanation": "指发出“响”这个动作的事物，即门铃。"
+    },
+    {
+      "text": "rang.",
+      "role": "谓语",
+      "explanation": "是动词 ring 的过去式，表示“（铃）响”，说明主语的动作。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "正好，刚刚",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/",
+      "text": "Just"
+    },
+    {
+      "meaning": "（用于刚说过的时间点）那时，当时",
+      "pos": "副词",
+      "phonetic": "/ðen/",
+      "text": "then,"
+    },
+    {
+      "meaning": "（特指已知的事物）这个，那个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "门铃",
+      "pos": "名词",
+      "phonetic": "/ˈdɔːbel/",
+      "text": "doorbell"
+    },
+    {
+      "meaning": "（铃、钟等）鸣，响（过去式）",
+      "pos": "动词",
+      "phonetic": "/ræŋ/",
+      "text": "rang."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Just then,",
+      "relation": "时间（说明事情发生的时点）",
+      "meaning": "就在这时"
+    },
+    {
+      "text": "the doorbell",
+      "relation": "描述谁/什么（动作的发出者）",
+      "meaning": "门铃"
+    },
+    {
+      "text": "rang.",
+      "relation": "补充什么（主语发生的动作）",
+      "meaning": "响了"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Just then, the doorbell rang.",
+  "lesson": "Lesson 54 Sticky fingers",
+  "notes": [
+    {
+      "title": "Just then 的作用",
+      "text": "Just then 是时间状语，意思是“就在这时、恰好那时候”，用来引出与上文情境同时发生的突发事情，让前后情节衔接更自然。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析整体准确，仅单词部分的分写符合原文存储约定，语法成分、翻译、主干均正确，无需修改核心内容。（非逐句人工审核）"
+}

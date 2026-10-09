@@ -1,0 +1,185 @@
+{
+  "chinese": "他成了一张配有弹簧和床垫的床的得意主人。",
+  "intent": "陈述某人拥有了一张带弹簧与床垫的床，并带有自得的情绪状态。",
+  "comparison": {
+    "chinese": "他成了一张［配有弹簧和床垫的］床的得意主人。",
+    "english": "he became the proud owner of a bed which had springs and a mattress.",
+    "steps": [
+      {
+        "label": "先抓主干事件",
+        "text": "he became the proud owner of a bed",
+        "explanation": "中文先理解核心：他成为了一张床的主人，还带着得意的心情；英文把proud放在owner前面直接修饰主人的状态。"
+      },
+      {
+        "label": "再补充床的特征",
+        "text": "which had springs and a mattress",
+        "explanation": "中文会把“配有弹簧和床垫”放在“床”前面当定语，英文则用which引导的从句接在bed后面，回答“这是一张什么样的床”。"
+      }
+    ],
+    "takeaway": "描述事物属性时，中文习惯把修饰语放名词前，英文常用从句跟在名词后补充说明，which指代前面的bed并在从句里当主语。"
+  },
+  "backbone": {
+    "text": "he became the owner of a bed",
+    "meaning": "他成为了一张床的主人。"
+  },
+  "structureNotes": [
+    {
+      "title": "which引导的定语从句",
+      "text": "which had springs and a mattress 紧跟在 bed 后面，which 指代前面的 a bed，在从句中作主语，用来说明这张床具备弹簧和床垫。"
+    },
+    {
+      "title": "proud 的修饰作用",
+      "text": "proud 修饰 owner，不是修饰床，表达主人拥有这张床时得意、自豪的心情，翻译时可理解为“得意的主人”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "he",
+      "role": "主语",
+      "explanation": "指代句子描述的男性人物，是“成为主人”这个状态变化的主体。"
+    },
+    {
+      "text": "became",
+      "role": "系动词",
+      "explanation": "表示状态的变化，意思是“变得、成为”，连接主语和后面的身份描述。"
+    },
+    {
+      "text": "the proud owner of a bed",
+      "role": "表语",
+      "explanation": "说明主语变成的身份：一位拥有床的得意主人，of a bed 表示所属关系。"
+    },
+    {
+      "text": "which had springs and a mattress.",
+      "role": "定语从句",
+      "explanation": "修饰前面的 a bed，补充说明这张床的构造特点，which 在从句中作主语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "became",
+      "meaning": "成为，变得",
+      "pos": "动词",
+      "phonetic": "/bɪˈkeɪm/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "proud",
+      "meaning": "得意的，自豪的",
+      "pos": "形容词",
+      "phonetic": "/praʊd/"
+    },
+    {
+      "text": "owner",
+      "meaning": "主人，所有者",
+      "pos": "名词",
+      "phonetic": "/ˈəʊnə/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表所属）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "a",
+      "meaning": "一张（表泛指）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "bed",
+      "meaning": "床",
+      "pos": "名词",
+      "phonetic": "/bed/"
+    },
+    {
+      "text": "which",
+      "meaning": "……的那张床（关系代词，指代bed）",
+      "pos": "关系代词",
+      "phonetic": "/wɪtʃ/"
+    },
+    {
+      "text": "had",
+      "meaning": "有，配有",
+      "pos": "动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "springs",
+      "meaning": "弹簧",
+      "pos": "名词",
+      "phonetic": "/sprɪŋz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，与",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个（表泛指）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "mattress.",
+      "meaning": "床垫",
+      "pos": "名词",
+      "phonetic": "/ˈmætrəs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "he",
+      "relation": "描述谁",
+      "meaning": "他"
+    },
+    {
+      "text": "became the proud owner",
+      "relation": "主干动作与身份",
+      "meaning": "成了得意的主人"
+    },
+    {
+      "text": "of a bed",
+      "relation": "说明主人拥有什么",
+      "meaning": "一张床的"
+    },
+    {
+      "text": "which had springs and a mattress.",
+      "relation": "补充描述这张床的特点",
+      "meaning": "配有弹簧和床垫的"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-049",
+  "sentenceId": "nce-2-lesson-049-sentence-002-part-02",
+  "sentenceOrder": 3,
+  "english": "he became the proud owner of a bed which had springs and a mattress.",
+  "lesson": "Lesson 49 The end of a dream",
+  "notes": [
+    {
+      "title": "which引导的定语从句",
+      "text": "which had springs and a mattress 紧跟在 bed 后面，which 指代前面的 a bed，在从句中作主语，用来说明这张床具备弹簧和床垫。"
+    },
+    {
+      "title": "proud 的修饰作用",
+      "text": "proud 修饰 owner，不是修饰床，表达主人拥有这张床时得意、自豪的心情，翻译时可理解为“得意的主人”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析整体正确，仅words中mattress.的释义误带句末句号，需修正；其余内容符合要求。（非逐句人工审核）"
+}

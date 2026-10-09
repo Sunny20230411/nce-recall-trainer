@@ -1,0 +1,103 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-068",
+  "sentenceId": "nce-2-lesson-068-sentence-011",
+  "sentenceOrder": 11,
+  "english": "You're not busy doing anything, are you?'",
+  "chinese": "你没在忙什么吧？”",
+  "lesson": "Lesson 68 Persistent",
+  "intent": "带着对方有空的预期确认忙碌情况",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "You're not busy doing anything,",
+      "relation": "预设判断",
+      "meaning": "你没在忙什么"
+    },
+    {
+      "text": "are you?'",
+      "relation": "寻求确认",
+      "meaning": "是吧"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "附加问句",
+      "text": "前面否定判断，后面肯定附加问句寻求确认。"
+    },
+    {
+      "title": "忙于活动",
+      "text": "busy doing 说明正在忙什么。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "附加问句",
+      "text": "前面否定判断，后面肯定附加问句寻求确认。"
+    },
+    {
+      "title": "忙于活动",
+      "text": "busy doing 说明正在忙什么。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "You're not busy doing anything,",
+      "role": "陈述部分",
+      "explanation": "提出对方不忙的预期。"
+    },
+    {
+      "text": "are you?",
+      "role": "附加疑问部分",
+      "explanation": "邀请确认或纠正预期。"
+    }
+  ],
+  "words": [
+    {
+      "text": "You're",
+      "meaning": "你是；you are缩写",
+      "pos": "代词与系动词缩写",
+      "phonetic": "/jɔː/ 或 /jʊə/"
+    },
+    {
+      "text": "not",
+      "meaning": "没有",
+      "pos": "否定副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "busy",
+      "meaning": "忙碌的",
+      "pos": "形容词",
+      "phonetic": "/ˈbɪzi/"
+    },
+    {
+      "text": "doing",
+      "meaning": "做",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈduːɪŋ/"
+    },
+    {
+      "text": "anything,",
+      "meaning": "任何事",
+      "pos": "不定代词",
+      "phonetic": "/ˈeniθɪŋ/"
+    },
+    {
+      "text": "are",
+      "meaning": "是吗；附加问句动词",
+      "pos": "助动词",
+      "phonetic": "/ɑː/ 或 /ɑːr/"
+    },
+    {
+      "text": "you?'",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/ 或 /jʊ/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

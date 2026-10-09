@@ -1,0 +1,139 @@
+{
+  "chinese": "里面装有五大块巧克力和三袋糖果！",
+  "intent": "说明前文提到的包裹里装着的具体物品。",
+  "comparison": null,
+  "backbone": {
+    "text": "It contained five large bars of chocolate and three bags of sweets.",
+    "meaning": "它（那个包裹）里面有五大块巧克力和三袋糖果。"
+  },
+  "structureNotes": [
+    {
+      "title": "不可数名词的量化表达",
+      "text": "chocolate和sweets在这里分别用bars of、bags of来表示具体数量，英文习惯用“数词+计量单位+of+名词”的结构表达不可数或成组物品的量。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "five large bars of chocolate",
+      "role": "并列宾语1",
+      "explanation": "表示包裹里装的第一类物品，用bars作为巧克力的计量单位，large修饰bars说明块的大小。"
+    },
+    {
+      "text": "three bags of sweets",
+      "role": "并列宾语2",
+      "explanation": "表示包裹里装的第二类物品，用bags作为糖果的计量单位，和前一个宾语由and连接。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（指代前文的包裹）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "contained",
+      "meaning": "装有、包含",
+      "pos": "动词",
+      "phonetic": "/kənˈteɪnd/"
+    },
+    {
+      "text": "five",
+      "meaning": "五（个）",
+      "pos": "数词",
+      "phonetic": "/faɪv/"
+    },
+    {
+      "text": "large",
+      "meaning": "大的",
+      "pos": "形容词",
+      "phonetic": "/lɑːdʒ/"
+    },
+    {
+      "text": "bars",
+      "meaning": "条、块",
+      "pos": "名词",
+      "phonetic": "/bɑːz/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表示所属/计量关系）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "chocolate",
+      "meaning": "巧克力",
+      "pos": "名词",
+      "phonetic": "/ˈtʃɒklət/"
+    },
+    {
+      "text": "and",
+      "meaning": "和、以及",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "three",
+      "meaning": "三（个）",
+      "pos": "数词",
+      "phonetic": "/θriː/"
+    },
+    {
+      "text": "bags",
+      "meaning": "袋、包",
+      "pos": "名词",
+      "phonetic": "/bæɡz/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表示所属/计量关系）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "sweets!",
+      "meaning": "糖果（复数）",
+      "pos": "名词",
+      "phonetic": "/swiːts/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It contained",
+      "relation": "主体与动作",
+      "meaning": "它（包裹）装有"
+    },
+    {
+      "text": "five large bars of chocolate",
+      "relation": "装有什么（第一类物品）",
+      "meaning": "五大块巧克力"
+    },
+    {
+      "text": "and",
+      "relation": "并列连接",
+      "meaning": "和"
+    },
+    {
+      "text": "three bags of sweets!",
+      "relation": "装有什么（第二类物品）",
+      "meaning": "三袋糖果"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-051",
+  "sentenceId": "nce-2-lesson-051-sentence-010",
+  "sentenceOrder": 11,
+  "english": "It contained five large bars of chocolate and three bags of sweets!",
+  "lesson": "Lesson 51 Reward for virtue",
+  "notes": [
+    {
+      "title": "不可数名词的量化表达",
+      "text": "chocolate和sweets在这里分别用bars of、bags of来表示具体数量，英文习惯用“数词+计量单位+of+名词”的结构表达不可数或成组物品的量。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：words中sweets!的释义错误将感叹号纳入词义说明，违反仅解释词本身的约定，其余内容正确，修正该问题即可。（非逐句人工审核）"
+}

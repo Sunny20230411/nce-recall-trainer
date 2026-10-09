@@ -1,0 +1,261 @@
+{
+  "chinese": "他们将乘火车来，镇上的大部分年轻人会到车站迎接他们。",
+  "intent": "说明绿林少年乐队的到来方式，以及镇上年轻人准备去车站迎接的安排。",
+  "comparison": {
+    "chinese": "他们坐火车来，镇上的大多数年轻人会在车站和他们见面。",
+    "english": "They will be coming by train and most of the young people in the town will be meeting them at the station.",
+    "steps": [
+      {
+        "label": "先承接前句的事件主体",
+        "text": "They will be coming by train",
+        "explanation": "前一句已经提到“他们明天抵达这里”，这句先补充说明来的交通方式是坐火车，读者先知道“谁、怎么来”。"
+      },
+      {
+        "label": "再引出相关的另一群人和动作",
+        "text": "and most of the young people in the town will be meeting them at the station",
+        "explanation": "用and连接另一件相关的事：镇上的年轻人会去车站接他们。中文也可以按这个先后顺序说，但中文更习惯把“在车站”放在“见面/迎接”前面。"
+      },
+      {
+        "label": "地点的位置差异",
+        "text": "at the station / 在车站",
+        "explanation": "英文里地点“at the station”放在“meeting them”之后；中文常说“在车站迎接他们”，地点放在动词前面。理解时不用硬调语序，先抓“迎接他们”，再补地点是车站。"
+      }
+    ],
+    "takeaway": "这句话是两个并列的将来事件，先讲到达方式，再讲迎接安排；英文地点常放句末，中文可提前到动词前，但不影响核心意思的理解。"
+  },
+  "backbone": {
+    "text": "They will be coming by train and most of the young people will be meeting them at the station.",
+    "meaning": "他们将乘火车来，大多数年轻人会在车站迎接他们。"
+  },
+  "structureNotes": [
+    {
+      "title": "and 连接两个并列分句",
+      "text": "and 前后是两个独立的完整分句，分别讲“他们来的方式”和“年轻人迎接的安排”，两件事时间相关、地位平等。第二个分句里的 them 指代第一个分句的 They。"
+    },
+    {
+      "title": "will be doing 表示将来进行",
+      "text": "will be coming / will be meeting 都用了将来进行时，强调将来某个时间点正在进行的动作，或者按计划预计会发生的事，语气比单纯 will do 更生动、更有画面感。"
+    },
+    {
+      "title": "介词短语作后置修饰",
+      "text": "in the town 跟在 young people 后面，说明是“镇上的”年轻人；by train 说明出行方式；at the station 说明见面的地点。这些介词短语都是对前面名词或动作的补充。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They will be coming by train",
+      "role": "第一个并列分句",
+      "explanation": "主语是They，谓语是will be coming，by train说明出行方式，整句讲“他们将乘火车来”。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个并列分句，表示两个事件并列相关。"
+    },
+    {
+      "text": "most of the young people in the town",
+      "role": "第二个并列分句的主语",
+      "explanation": "中心词是young people，most of 表示“大多数”，in the town 限定范围是镇上的年轻人。"
+    },
+    {
+      "text": "will be meeting them at the station",
+      "role": "第二个并列分句的谓语及状语",
+      "explanation": "will be meeting 是将来进行时的谓语，them 是迎接的对象，at the station 说明迎接的地点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "They",
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "will",
+      "meaning": "将要；会",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "be",
+      "meaning": "（助动词，用于进行时）",
+      "pos": "助动词",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "coming",
+      "meaning": "来；到来",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈkʌmɪŋ/"
+    },
+    {
+      "text": "by",
+      "meaning": "乘；通过（某种方式）",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "train",
+      "meaning": "火车",
+      "pos": "名词",
+      "phonetic": "/treɪn/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "most",
+      "meaning": "大多数的；大部分的",
+      "pos": "形容词",
+      "phonetic": "/məʊst/"
+    },
+    {
+      "text": "of",
+      "meaning": "……当中的（表部分与整体关系）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（特指young people）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "young",
+      "meaning": "年轻的",
+      "pos": "形容词",
+      "phonetic": "/jʌŋ/"
+    },
+    {
+      "text": "people",
+      "meaning": "人；人们",
+      "pos": "名词",
+      "phonetic": "/ˈpiːpl/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "town",
+      "meaning": "城镇；镇子",
+      "pos": "名词",
+      "phonetic": "/taʊn/"
+    },
+    {
+      "text": "will",
+      "meaning": "将要；会",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "be",
+      "meaning": "（助动词，用于进行时）",
+      "pos": "助动词",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "meeting",
+      "meaning": "迎接；会面",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈmiːtɪŋ/"
+    },
+    {
+      "text": "them",
+      "meaning": "他们（宾格）",
+      "pos": "代词",
+      "phonetic": "/ðem/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（某个地点）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "station.",
+      "meaning": "车站",
+      "pos": "名词",
+      "phonetic": "/ˈsteɪʃn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "They will be coming",
+      "meaning": "他们将动身前来",
+      "relation": "第一分句的主语和谓语"
+    },
+    {
+      "text": "by train",
+      "meaning": "乘火车",
+      "relation": "补充来的交通方式"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "relation": "连接两个并列分句"
+    },
+    {
+      "text": "most of the young people in the town",
+      "meaning": "镇上的大多数年轻人",
+      "relation": "第二分句的主语，描述谁要做动作"
+    },
+    {
+      "text": "will be meeting",
+      "meaning": "将会迎接",
+      "relation": "第二分句的谓语"
+    },
+    {
+      "text": "them",
+      "meaning": "他们",
+      "relation": "迎接的对象"
+    },
+    {
+      "text": "at the station.",
+      "meaning": "在车站",
+      "relation": "补充迎接的地点"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-013",
+  "sentenceId": "nce-2-lesson-013-sentence-004",
+  "sentenceOrder": 4,
+  "english": "They will be coming by train and most of the young people in the town will be meeting them at the station.",
+  "lesson": "Lesson 13 The Greenwood Boys",
+  "notes": [
+    {
+      "title": "and 连接两个并列分句",
+      "text": "and 前后是两个独立的完整分句，分别讲“他们来的方式”和“年轻人迎接的安排”，两件事时间相关、地位平等。第二个分句里的 them 指代第一个分句的 They。"
+    },
+    {
+      "title": "will be doing 表示将来进行",
+      "text": "will be coming / will be meeting 都用了将来进行时，强调将来某个时间点正在进行的动作，或者按计划预计会发生的事，语气比单纯 will do 更生动、更有画面感。"
+    },
+    {
+      "title": "介词短语作后置修饰",
+      "text": "in the town 跟在 young people 后面，说明是“镇上的”年轻人；by train 说明出行方式；at the station 说明见面的地点。这些介词短语都是对前面名词或动作的补充。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确可用，仅存在几处可明确修正的小问题：1. 单词释义与词性中，most此处为形容词（修饰代词性结构表“大多数的”，原标注代词不准确），of释义可更贴合语境，第一个the释义未贴合语境特指；2. parts中第一分句谓语直译“将正在赶来”稍显生硬，不符合将来进行时表计划安排的语境译法；3. 主干及部分结构说明可更贴合中文表达习惯。（非逐句人工审核）"
+}

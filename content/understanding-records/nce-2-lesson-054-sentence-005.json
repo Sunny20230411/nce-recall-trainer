@@ -1,0 +1,152 @@
+{
+  "chinese": "我正忙着搅拌黄油和糖，这时电话铃响了。",
+  "intent": "描述过去某个正在进行的动作被另一个突然发生的动作打断的场景。",
+  "comparison": {
+    "chinese": "电话响的时候，我正忙着拌黄油和糖。",
+    "english": "I was busy mixing butter and sugar when the telephone rang.",
+    "steps": [
+      {
+        "label": "先抓主句核心动作",
+        "text": "I was busy mixing butter and sugar",
+        "explanation": "中文先说“电话响的时候”这个时间背景，英文先把主句“我正忙着拌黄油和糖”放在前面，交代当时正在做的事。"
+      },
+      {
+        "label": "再补打断的事件",
+        "text": "when the telephone rang",
+        "explanation": "when 在这里不是单纯“当……时候”，而是引出一个突然发生的打断性事件，放在主句后面，对应中文里前置的时间分句。"
+      }
+    ],
+    "takeaway": "英文常用“主句（进行中动作）+ when + 短暂动作”的顺序表达“正做某事这时突然……”，中文习惯把时间背景放前面。"
+  },
+  "backbone": {
+    "text": "I was busy mixing butter and sugar when the telephone rang.",
+    "meaning": "我正忙着搅拌黄油和糖，就在这时电话铃响了。"
+  },
+  "structureNotes": [
+    {
+      "title": "when 引导的时间分句作用",
+      "text": "when the telephone rang 不是单纯同步的时间背景，而是表示在主句动作进行过程中突然发生的另一件事，有“就在这时”的含义。"
+    },
+    {
+      "title": "be busy doing 结构",
+      "text": "was busy mixing 表示“正忙着做某事”，mixing 用动名词形式接在 busy 后面，说明忙于做的具体事情。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I was busy mixing butter and sugar",
+      "role": "主句",
+      "explanation": "描述过去某一时刻正在持续的状态和动作，是句子的核心信息。"
+    },
+    {
+      "text": "when the telephone rang.",
+      "role": "时间状语分句",
+      "explanation": "由 when 引导，交代主句动作正在进行时突然发生的另一个短暂动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，与I连用）是/正处于",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "busy",
+      "meaning": "忙的，忙碌的",
+      "pos": "形容词",
+      "phonetic": "/ˈbɪzi/"
+    },
+    {
+      "text": "mixing",
+      "meaning": "搅拌，混合",
+      "pos": "动词（动名词）",
+      "phonetic": "/ˈmɪksɪŋ/"
+    },
+    {
+      "text": "butter",
+      "meaning": "黄油",
+      "pos": "名词",
+      "phonetic": "/ˈbʌtə/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，与",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "sugar",
+      "meaning": "糖",
+      "pos": "名词",
+      "phonetic": "/ˈʃʊɡə/"
+    },
+    {
+      "text": "when",
+      "meaning": "当……的时候，就在这时",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "telephone",
+      "meaning": "电话",
+      "pos": "名词",
+      "phonetic": "/ˈtelɪfəʊn/"
+    },
+    {
+      "text": "rang.",
+      "meaning": "（铃）响",
+      "pos": "动词",
+      "phonetic": "/ræŋ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者（主语）",
+      "meaning": "我"
+    },
+    {
+      "text": "was busy mixing butter and sugar",
+      "relation": "描述主语当时的状态和正在做的事（谓语部分）",
+      "meaning": "正忙着搅拌黄油和糖"
+    },
+    {
+      "text": "when the telephone rang.",
+      "relation": "时间背景，引出打断主句动作的事件",
+      "meaning": "就在这时电话铃响了"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-005",
+  "sentenceOrder": 5,
+  "english": "I was busy mixing butter and sugar when the telephone rang.",
+  "lesson": "Lesson 54 Sticky fingers",
+  "notes": [
+    {
+      "title": "when 引导的时间分句作用",
+      "text": "when the telephone rang 不是单纯同步的时间背景，而是表示在主句动作进行过程中突然发生的另一件事，有“就在这时”的含义。"
+    },
+    {
+      "title": "be busy doing 结构",
+      "text": "was busy mixing 表示“正忙着做某事”，mixing 用动名词形式接在 busy 后面，说明忙于做的具体事情。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确合规，仅words中mixing的词性标注不规范，需修正为动名词的标准词性表述。（非逐句人工审核）"
+}

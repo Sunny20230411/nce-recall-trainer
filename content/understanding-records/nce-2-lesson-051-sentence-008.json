@@ -1,0 +1,134 @@
+{
+  "chinese": "显然他当时非常尴尬。",
+  "intent": "说明上文提到的那名男子局促不安的状态是显而易见的。",
+  "comparison": {
+    "chinese": "显然他当时非常尴尬。",
+    "english": "It was obvious that he was very embarrassed.",
+    "steps": [
+      {
+        "label": "先看中文的表达习惯",
+        "text": "显然他当时非常尴尬。",
+        "explanation": "中文会直接把‘显然’放在句首或主语前，用来修饰整个判断，句子的核心主体是‘他’。"
+      },
+      {
+        "label": "再看英文的结构安排",
+        "text": "It was obvious that he was very embarrassed.",
+        "explanation": "英文先用 It was obvious 摆出‘这件事很明显’的框架，再用 that 引出真正要说的具体内容——‘他很尴尬’。"
+      },
+      {
+        "label": "两种说法怎么对应",
+        "text": "that he was very embarrassed = 他当时非常尴尬（这件事）",
+        "explanation": "句首的 It 没有实际词义，只是占位用，真正充当‘很明显’的描述对象的，是 that 后面的整件事。"
+      }
+    ],
+    "takeaway": "英文常用 It is/was + 形容词 + that… 的结构把‘某件事如何’先说出来，再补那件事是什么；中文则习惯把具体事件放在前面或直接作为主语。"
+  },
+  "backbone": {
+    "text": "（那件事）是显而易见的：他非常尴尬。",
+    "meaning": "他当时非常尴尬这件事是显而易见的。"
+  },
+  "structureNotes": [
+    {
+      "title": "句首 It 的作用",
+      "text": "这里的 It 是形式上的主语，没有具体指代对象，真正被说‘很明显’的是 that 引导的整件事。这样安排可以避免把太长的内容放在句首当主语。"
+    },
+    {
+      "title": "that 从句的功能",
+      "text": "that he was very embarrassed 用来说明‘什么事很明显’，是句子真正的主语内容；that 只起连接作用，本身没有词义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It was obvious",
+      "role": "形式主语句部分",
+      "explanation": "用 It 充当形式上的主语，was obvious 是系表结构，表达‘（某件事）是显而易见的’，真正的事件内容在后面的 that 从句里。"
+    },
+    {
+      "text": "that he was very embarrassed.",
+      "role": "真正主语从句",
+      "explanation": "that 引导的从句是句子真正要说的那件事，也就是‘很明显’的具体内容；从句内部 he 是主语，was very embarrassed 是系表结构描述他的状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（此处为形式主语，无实义）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be动词第一、三人称单数过去式）",
+      "pos": "be动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "obvious",
+      "meaning": "明显的，显而易见的",
+      "pos": "形容词",
+      "phonetic": "/ˈɒbviəs/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导主语从句，无实义）",
+      "pos": "从属连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be动词第一、三人称单数过去式）",
+      "pos": "be动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "very",
+      "meaning": "很，非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "embarrassed.",
+      "meaning": "尴尬的，难堪的",
+      "pos": "形容词",
+      "phonetic": "/ɪmˈbærəst/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It was obvious",
+      "relation": "主句，提出整体判断",
+      "meaning": "（某件事）是显而易见的"
+    },
+    {
+      "text": "that he was very embarrassed.",
+      "relation": "真正的主语内容，说明‘什么事’是显而易见的",
+      "meaning": "他当时非常尴尬"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-051",
+  "sentenceId": "nce-2-lesson-051-sentence-008",
+  "sentenceOrder": 9,
+  "english": "It was obvious that he was very embarrassed.",
+  "lesson": "Lesson 51 Reward for virtue",
+  "notes": [
+    {
+      "title": "句首 It 的作用",
+      "text": "这里的 It 是形式上的主语，没有具体指代对象，真正被说‘很明显’的是 that 引导的整件事。这样安排可以避免把太长的内容放在句首当主语。"
+    },
+    {
+      "title": "that 从句的功能",
+      "text": "that he was very embarrassed 用来说明‘什么事很明显’，是句子真正的主语内容；that 只起连接作用，本身没有词义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需修正最后一个单词条目中文本附带句号导致的音标对应说明偏差，以及统一be动词释义的准确性。（非逐句人工审核）"
+}

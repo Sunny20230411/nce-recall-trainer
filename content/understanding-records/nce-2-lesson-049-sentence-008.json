@@ -1,0 +1,132 @@
+{
+  "chinese": "当他醒来时，他仍然在床垫上。",
+  "intent": "说明男子醒来那一刻的状态，交代他仍待在床垫上的事实。",
+  "comparison": null,
+  "backbone": {
+    "text": "he was still on the mattress",
+    "meaning": "他仍然在床垫上"
+  },
+  "structureNotes": [
+    {
+      "title": "When引导的时间状语",
+      "text": "When he woke up 用来点明主句状态发生的时间点，指“在他醒来的那个时刻”，主句描述当时的实际情况。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When he woke up,",
+      "role": "时间状语分句",
+      "explanation": "用when引出事情发生的时间点，说明后面主句的状态是在“他醒来”这个时刻下的情况。"
+    },
+    {
+      "text": "he was still on the mattress.",
+      "role": "主句",
+      "explanation": "是句子的核心信息，说明主语“他”在醒来时所处的位置和状态，still 强调状态和之前一样没有改变。"
+    }
+  ],
+  "words": [
+    {
+      "text": "When",
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "woke",
+      "meaning": "醒来（wake的过去式）",
+      "pos": "动词",
+      "phonetic": "/wəʊk/"
+    },
+    {
+      "text": "up,",
+      "meaning": "（与wake构成短语wake up，表示醒来）",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be的过去式，此处表示处于某种状态）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "still",
+      "meaning": "仍然，还",
+      "pos": "副词",
+      "phonetic": "/stɪl/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（表示特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "mattress.",
+      "meaning": "床垫",
+      "pos": "名词",
+      "phonetic": "/ˈmætrəs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "When he woke up,",
+      "meaning": "当他醒来时",
+      "relation": "时间状语"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "relation": "主句主语"
+    },
+    {
+      "text": "was",
+      "meaning": "（表示处于某种状态）",
+      "relation": "系动词（构成谓语）"
+    },
+    {
+      "text": "still",
+      "meaning": "仍然",
+      "relation": "状语（修饰状态，表持续）"
+    },
+    {
+      "text": "on the mattress.",
+      "meaning": "在床垫上",
+      "relation": "表语（说明主语位置状态）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-049",
+  "sentenceId": "nce-2-lesson-049-sentence-008",
+  "sentenceOrder": 9,
+  "english": "When he woke up, he was still on the mattress.",
+  "lesson": "Lesson 49 The end of a dream",
+  "notes": [
+    {
+      "title": "When引导的时间状语",
+      "text": "When he woke up 用来点明主句状态发生的时间点，指“在他醒来的那个时刻”，主句描述当时的实际情况。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：存在两处可修正问题：1. 第4个词“up,”的释义误将标点纳入词义说明，且wake up为短语动词，up本身不表示“向上”；2. 第2个分块的relation“描述谁”表述不规范，应明确为“主句主语”。（非逐句人工审核）"
+}

@@ -1,0 +1,123 @@
+{
+  "chinese": "他经历了一段漫长又难受的旅程，",
+  "intent": "陈述某人此前已经度过了一段漫长且不舒适的旅行经历，承接上下文交代旅程的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "He had had a trip.",
+    "meaning": "他已经经历了一次旅程。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去完成时 had had 的含义",
+      "text": "这里两个had连用，第一个had是过去完成时的助动词，第二个had是实义动词“经历、遭受”的过去分词，说明这段旅行发生在过去某个动作（如承认藏在箱子里）之前，且已经完成。"
+    },
+    {
+      "title": "并列形容词修饰名词",
+      "text": "long and uncomfortable 两个形容词由and连接，共同修饰后面的名词trip，同时说明旅程的两个特点：时间长、不舒服。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文提到的那名藏在箱子里的男子，是句子描述的对象。"
+    },
+    {
+      "text": "had had",
+      "role": "谓语",
+      "explanation": "过去完成时结构，第一个had是助动词，第二个had是实义动词，共同表示“已经经历/遭受”，动作发生在过去的过去。"
+    },
+    {
+      "text": "a long and uncomfortable trip,",
+      "role": "宾语",
+      "explanation": "是谓语had had的承受对象，指一段漫长又不舒服的旅程，其中long和uncomfortable并列修饰trip。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "had",
+      "meaning": "（过去完成时助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "had",
+      "meaning": "经历，遭受（have的过去分词）",
+      "pos": "动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（段），用于单数可数名词前",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "long",
+      "meaning": "长的，漫长的",
+      "pos": "形容词",
+      "phonetic": "/lɒŋ/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，又（连接并列成分）",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "uncomfortable",
+      "meaning": "不舒服的，难受的",
+      "pos": "形容词",
+      "phonetic": "/ʌnˈkʌmftəbl/"
+    },
+    {
+      "text": "trip,",
+      "meaning": "旅行，旅程",
+      "pos": "名词",
+      "phonetic": "/trɪp/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "描述谁的经历",
+      "meaning": "他"
+    },
+    {
+      "text": "had had",
+      "relation": "主语的动作（过去完成时）",
+      "meaning": "已经经历了"
+    },
+    {
+      "text": "a long and uncomfortable trip,",
+      "relation": "动作的对象，即经历的内容",
+      "meaning": "一段漫长又不舒服的旅程，"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-046",
+  "sentenceId": "nce-2-lesson-046-sentence-008-part-01",
+  "sentenceOrder": 10,
+  "english": "He had had a long and uncomfortable trip,",
+  "lesson": "Lesson 46 Expensive and uncomfortable",
+  "notes": [
+    {
+      "title": "过去完成时 had had 的含义",
+      "text": "这里两个had连用，第一个had是过去完成时的助动词，第二个had是实义动词“经历、遭受”的过去分词，说明这段旅行发生在过去某个动作（如承认藏在箱子里）之前，且已经完成。"
+    },
+    {
+      "title": "并列形容词修饰名词",
+      "text": "long and uncomfortable 两个形容词由and连接，共同修饰后面的名词trip，同时说明旅程的两个特点：时间长、不舒服。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅 words 中 trip 的释义多余标注句末逗号，属于非必要补充说明，修正后即可使用。（非逐句人工审核）"
+}

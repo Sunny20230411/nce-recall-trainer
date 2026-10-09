@@ -1,0 +1,66 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-068",
+  "sentenceId": "nce-2-lesson-068-sentence-013",
+  "sentenceOrder": 13,
+  "english": "'I'm going to...'",
+  "chinese": "“我打算……”",
+  "lesson": "Lesson 68 Persistent",
+  "intent": "开始说明自己的打算但未能说完",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "'I'm going to...'",
+      "relation": "未完打算",
+      "meaning": "我打算……"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "保留未完结构",
+      "text": "going to 后的动作没有提供，不补写牙医等后文内容。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "保留未完结构",
+      "text": "going to 后的动作没有提供，不补写牙医等后文内容。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'I'm",
+      "role": "主语及助动词缩写",
+      "explanation": "开始以自己为主语发言。"
+    },
+    {
+      "text": "going to...",
+      "role": "未完成谓语片段",
+      "explanation": "准备交代打算，句子在此断开。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'I'm",
+      "meaning": "我；I am缩写",
+      "pos": "代词与助动词缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "going",
+      "meaning": "与am和to组成打算",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to...'",
+      "meaning": "引出未说完的打算",
+      "pos": "不定式标记",
+      "phonetic": "/tə/ 或 /tuː/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

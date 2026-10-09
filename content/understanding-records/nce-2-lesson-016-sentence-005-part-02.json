@@ -1,0 +1,128 @@
+{
+  "chinese": "我在我的车上发现了这个便条：“先生，",
+  "intent": "叙述自己在车身上发现一张便条，并引出便条开头的称呼内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "I found this note.",
+    "meaning": "我发现了这张便条。"
+  },
+  "structureNotes": [
+    {
+      "title": "地点介词短语的作用",
+      "text": "on my car 说明发现便条的位置，补充交代“在哪里发现”，读的时候先抓主干“发现便条”，再接地点信息即可。"
+    },
+    {
+      "title": "冒号加引号的作用",
+      "text": "car: 后面的 ‘Sir, 是便条上的直接引语开头，冒号引出便条内容，单引号标记这是别人写的原话。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I found this note",
+      "role": "主句主干",
+      "explanation": "由主语I、谓语found、宾语this note构成，表达“我发现了这张便条”这个核心事件。"
+    },
+    {
+      "text": "on my car:",
+      "role": "地点状语加引语提示",
+      "explanation": "on my car 说明便条所在的位置，冒号提示后面将引出便条上的具体文字内容。"
+    },
+    {
+      "text": "‘Sir,",
+      "role": "直接引语开头",
+      "explanation": "是便条内容的第一个词，作为对收条人的称呼，单引号标示这是引用的原文。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "found",
+      "meaning": "发现（find的过去式）",
+      "pos": "动词",
+      "phonetic": "/faʊnd/"
+    },
+    {
+      "text": "this",
+      "meaning": "这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "note",
+      "meaning": "便条；字条",
+      "pos": "名词",
+      "phonetic": "/nəʊt/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "物主限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "car:",
+      "meaning": "小汽车；句中后接冒号，引出后面的引语内容",
+      "pos": "名词",
+      "phonetic": "/kɑː/"
+    },
+    {
+      "text": "‘Sir,",
+      "meaning": "先生；前带左单引号、后带逗号，是直接引语里的称呼语",
+      "pos": "名词",
+      "phonetic": "/sɜː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "动作发出者"
+    },
+    {
+      "text": "found this note",
+      "meaning": "发现了这张便条",
+      "relation": "核心动作和对象"
+    },
+    {
+      "text": "on my car:",
+      "meaning": "在我的车上（冒号提示后面是便条上的内容）",
+      "relation": "发现便条的地点，兼引语提示"
+    },
+    {
+      "text": "‘Sir,",
+      "meaning": "“先生，",
+      "relation": "便条上引语的开头称呼"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-016",
+  "sentenceId": "nce-2-lesson-016-sentence-005-part-02",
+  "sentenceOrder": 6,
+  "english": "I found this note on my car: ‘Sir,",
+  "lesson": "Lesson 16 A polite request",
+  "notes": [
+    {
+      "title": "地点介词短语的作用",
+      "text": "on my car 说明发现便条的位置，补充交代“在哪里发现”，读的时候先抓主干“发现便条”，再接地点信息即可。"
+    },
+    {
+      "title": "冒号加引号的作用",
+      "text": "car: 后面的 ‘Sir, 是便条上的直接引语开头，冒号引出便条内容，单引号标记这是别人写的原话。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析逻辑正确，主干、成分划分、引语说明均符合要求；仅需修正两处小问题：1. 单词项的词性栏混入了标点说明，违反词性与词义分离要求，标点相关说明应移至meaning中；2. parts的第三个分块meaning未包含冒号的引语提示作用，补充后更准确。（非逐句人工审核）"
+}

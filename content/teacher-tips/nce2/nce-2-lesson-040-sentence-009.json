@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-040",
+  "sentenceId": "nce-2-lesson-040-sentence-009",
+  "english": "‘Will you be spending your holidays abroad this year?’ I asked.",
+  "text": "表达“在国外度假”常用 spend your holidays abroad，have a holiday abroad 也正确，但 spend 更侧重“度过假期”的整体安排。说在哪里度过假期，常用 spend + 假期类名词 + 地点。",
+  "sourceDigest": "11919f56db529f8f48513adc340686fa00e70060b1fb255e7b2d64c7b678945d",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：原提示准确讲清了常用搭配和迁移用法，表述准确。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "修正原tip对have a holiday abroad的误判，保留可迁移的常用搭配。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

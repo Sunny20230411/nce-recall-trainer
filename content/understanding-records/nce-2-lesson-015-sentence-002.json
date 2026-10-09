@@ -1,0 +1,91 @@
+{
+  "chinese": "哈姆斯沃斯先生将会见我。",
+  "intent": "陈述从过去视角看的安排：哈姆斯沃斯先生将会见我。",
+  "comparison": null,
+  "backbone": {
+    "text": "Harmsworth would see me.",
+    "meaning": "哈姆斯沃斯先生将会见我。"
+  },
+  "structureNotes": [
+    {
+      "title": "would的含义",
+      "text": "would在这里表示过去将来的安排，是从过去某个时点看将要发生的事，不是“会、愿意”的普通意思。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Harmsworth",
+      "role": "主语",
+      "explanation": "指哈姆斯沃斯先生，是“见”这个动作的发出者。"
+    },
+    {
+      "text": "would see",
+      "role": "谓语",
+      "explanation": "由情态动词would加动词原形see构成，表达过去视角下将要发生的动作，意思是“将会见（我）”。"
+    },
+    {
+      "text": "me.",
+      "role": "宾语",
+      "explanation": "是动作see的对象，指说话人“我”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Harmsworth",
+      "meaning": "哈姆斯沃斯（姓氏，文中指哈姆斯沃斯先生）",
+      "pos": "专有名词",
+      "phonetic": "/ˈhɑːmzwɜːθ/"
+    },
+    {
+      "text": "would",
+      "meaning": "将；会（表示过去将来）",
+      "pos": "情态动词",
+      "phonetic": "/wʊd/"
+    },
+    {
+      "text": "see",
+      "meaning": "会见；见",
+      "pos": "动词",
+      "phonetic": "/siː/"
+    },
+    {
+      "text": "me.",
+      "meaning": "我（宾格）",
+      "pos": "人称代词",
+      "phonetic": "/miː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Harmsworth",
+      "meaning": "哈姆斯沃斯先生",
+      "relation": "动作的发出者"
+    },
+    {
+      "text": "would see",
+      "meaning": "将会见",
+      "relation": "描述主语的动作"
+    },
+    {
+      "text": "me.",
+      "meaning": "我",
+      "relation": "动作的对象"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-015",
+  "sentenceId": "nce-2-lesson-015-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Harmsworth would see me.",
+  "lesson": "Lesson 15 Good news",
+  "notes": [
+    {
+      "title": "would的含义",
+      "text": "would在这里表示过去将来的安排，是从过去某个时点看将要发生的事，不是“会、愿意”的普通意思。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析框架正确，但存在与上下文语境匹配的细节问题：1. 整体中文翻译未体现原句的过去将来视角以及人物身份，和语境中“秘书告知”的背景脱节；2. 主干译文缺少礼貌称呼“先生”，且未明确过去将来的视角；3. 结构、词块、单词层面对Harmsworth的释义均未完整对应原文语境中的“哈姆斯沃斯先生”身份，谓语的释义重复冗余。（非逐句人工审核）"
+}

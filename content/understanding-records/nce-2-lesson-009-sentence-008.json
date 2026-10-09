@@ -1,0 +1,81 @@
+{
+  "chinese": "钟停了！",
+  "intent": "感叹并告知他人时钟已经停止不走的情况",
+  "comparison": null,
+  "backbone": {
+    "text": "The clock has stopped!",
+    "meaning": "钟已经停了"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时的表意",
+      "text": "has stopped 表示钟已经处于停下的状态，和现在相关，不是单纯说过去某一刻停了。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The clock",
+      "role": "主语",
+      "explanation": "指谈话双方都知道的那座钟，是句子描述的对象。"
+    },
+    {
+      "text": "has stopped",
+      "role": "谓语",
+      "explanation": "用现在完成时表达钟已经停止运行的状态，说明当前的结果。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这个（用于特指双方都知道的事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "clock",
+      "meaning": "时钟，钟",
+      "pos": "名词",
+      "phonetic": "/klɒk/"
+    },
+    {
+      "text": "has",
+      "meaning": "（助动词，构成现在完成时，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "stopped!’",
+      "meaning": "停止了",
+      "pos": "动词过去分词",
+      "phonetic": "/stɒpt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The clock",
+      "relation": "描述的对象",
+      "meaning": "那座钟"
+    },
+    {
+      "text": "has stopped!’",
+      "relation": "描述钟的状态",
+      "meaning": "已经停了"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-009",
+  "sentenceId": "nce-2-lesson-009-sentence-008",
+  "sentenceOrder": 8,
+  "english": "The clock has stopped!’",
+  "lesson": "Lesson 9 A cold welcome",
+  "notes": [
+    {
+      "title": "现在完成时的表意",
+      "text": "has stopped 表示钟已经处于停下的状态，和现在相关，不是单纯说过去某一刻停了。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本正确，仅需修正词项的词性标注问题：词的词性应仅标注词汇本身的语法属性，不应附带句末标点说明，标点随词项保留为约定格式无需在词性中说明；同时stopped的释义需去掉无关的标点描述，保持词义解释纯粹。（非逐句人工审核）"
+}

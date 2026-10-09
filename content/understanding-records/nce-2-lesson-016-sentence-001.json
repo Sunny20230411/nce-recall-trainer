@@ -1,0 +1,187 @@
+{
+  "chinese": "如果你把车停在错误的地方，交通警察很快就会发现它。",
+  "intent": "说明一种交通违规后的常见结果：违章停车会很快被交警发现。",
+  "comparison": {
+    "chinese": "如果你把车停错地方，交警很快就会查到。",
+    "english": "If you park your car in the wrong place, a traffic policeman will soon find it.",
+    "steps": [
+      {
+        "label": "先抓主干结果",
+        "text": "a traffic policeman will soon find it",
+        "explanation": "中文常把条件放前面，英文也能把条件放前面，但读的时候可以先看懂后半句的核心：交警很快会发现（你的车）。"
+      },
+      {
+        "label": "再看触发条件",
+        "text": "If you park your car in the wrong place",
+        "explanation": "if 引出整件事成立的前提，回答“在什么情况下会被发现”，接回前面的主干结论。"
+      }
+    ],
+    "takeaway": "if引导的条件句可前可后，关键是区分前提和结果：if只引出假设前提，主句才是核心结论。"
+  },
+  "backbone": {
+    "text": "If you park your car in the wrong place, a traffic policeman will soon find it.",
+    "meaning": "如果你把车停在不该停的地方，交警很快会发现它。"
+  },
+  "structureNotes": [
+    {
+      "title": "if 引导的条件",
+      "text": "if 从句提出一个假设的前提（车停错地方），主句说明在这个前提下会发生的结果（交警会发现）；if 只是“如果”，不表示这件事一定会发生。"
+    },
+    {
+      "title": "will 表示将来结果",
+      "text": "主句用 will + 动词原形，说明这是条件满足后将要发生的事，不是已经发生的事实。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "If you park your car in the wrong place,",
+      "role": "条件分句",
+      "explanation": "由 If 引导，说明主句事件发生的前提：你把车停在了错误的地点。"
+    },
+    {
+      "text": "a traffic policeman",
+      "role": "主句主语",
+      "explanation": "表示执行“发现”这个动作的人，即交通警察。"
+    },
+    {
+      "text": "will soon find it.",
+      "role": "主句谓语 + 宾语",
+      "explanation": "说明主语将要发出的动作：很快会发现它；it 指代前面提到的 your car。"
+    }
+  ],
+  "words": [
+    {
+      "text": "If",
+      "meaning": "如果",
+      "pos": "连词",
+      "phonetic": "/ɪf/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "park",
+      "meaning": "停放（车辆）",
+      "pos": "动词",
+      "phonetic": "/pɑːk/"
+    },
+    {
+      "text": "your",
+      "meaning": "你的",
+      "pos": "限定词",
+      "phonetic": "/jɔː/"
+    },
+    {
+      "text": "car",
+      "meaning": "汽车",
+      "pos": "名词",
+      "phonetic": "/kɑː/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（某地）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "wrong",
+      "meaning": "错误的",
+      "pos": "形容词",
+      "phonetic": "/rɒŋ/"
+    },
+    {
+      "text": "place,",
+      "meaning": "地方",
+      "pos": "名词",
+      "phonetic": "/pleɪs/"
+    },
+    {
+      "text": "a",
+      "meaning": "一名",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "traffic",
+      "meaning": "交通",
+      "pos": "名词",
+      "phonetic": "/ˈtræfɪk/"
+    },
+    {
+      "text": "policeman",
+      "meaning": "警察",
+      "pos": "名词",
+      "phonetic": "/pəˈliːsmən/"
+    },
+    {
+      "text": "will",
+      "meaning": "将要",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "soon",
+      "meaning": "很快，不久",
+      "pos": "副词",
+      "phonetic": "/suːn/"
+    },
+    {
+      "text": "find",
+      "meaning": "发现，找到",
+      "pos": "动词",
+      "phonetic": "/faɪnd/"
+    },
+    {
+      "text": "it.",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "If you park your car in the wrong place,",
+      "relation": "条件，说明后面事情发生的前提",
+      "meaning": "如果你把车停在错误的地方"
+    },
+    {
+      "text": "a traffic policeman",
+      "relation": "动作的发出者，描述谁会发现",
+      "meaning": "一名交通警察"
+    },
+    {
+      "text": "will soon find it.",
+      "relation": "主句的核心内容，说明会发生什么结果；“很快”补充发现的时间快慢",
+      "meaning": "很快就会发现它"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-016",
+  "sentenceId": "nce-2-lesson-016-sentence-001",
+  "sentenceOrder": 1,
+  "english": "If you park your car in the wrong place, a traffic policeman will soon find it.",
+  "lesson": "Lesson 16 A polite request",
+  "notes": [
+    {
+      "title": "if 引导的条件",
+      "text": "if 从句提出一个假设的前提（车停错地方），主句说明在这个前提下会发生的结果（交警会发现）；if 只是“如果”，不表示这件事一定会发生。"
+    },
+    {
+      "title": "will 表示将来结果",
+      "text": "主句用 will + 动词原形，说明这是条件满足后将要发生的事，不是已经发生的事实。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，存在三处可修正问题：1. words中place,和it.的释义错误夹带了标点；2. backbone的text遗漏traffic和soon两个原句核心成分，主干信息不全；3. comparison的takeaway表述冗余且逻辑不够准确，未明确if条件句的核心识别要点。其余内容符合要求。（非逐句人工审核）"
+}

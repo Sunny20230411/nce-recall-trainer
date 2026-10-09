@@ -1,0 +1,142 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-032",
+  "sentenceId": "nce-2-lesson-032-sentence-009-part-02",
+  "sentenceOrder": 10,
+  "english": "the detective found out that the shop assistant was her daughter.",
+  "chinese": "侦探查明那位店员是她的女儿。",
+  "lesson": "Lesson 32 Shopping made easy",
+  "intent": "揭晓店员与被捕女子之间的母女关系。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "the detective",
+      "relation": "获知者",
+      "meaning": "那位侦探"
+    },
+    {
+      "text": "found out",
+      "relation": "获知动作",
+      "meaning": "查明了"
+    },
+    {
+      "text": "that the shop assistant was her daughter.",
+      "relation": "获知内容",
+      "meaning": "那位店员是她的女儿"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "获知事实",
+      "text": "found out 是 find out 的过去式，that 引出所获知的事实，而不是找到一个物品。"
+    },
+    {
+      "title": "关系与指代",
+      "text": "her 指前文被捕的女子，店员是这位女子的女儿；was 随过去叙述交代当时获知的关系，不暗示后来关系消失。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "获知事实",
+      "text": "found out 是 find out 的过去式，that 引出所获知的事实，而不是找到一个物品。"
+    },
+    {
+      "title": "关系与指代",
+      "text": "her 指前文被捕的女子，店员是这位女子的女儿；was 随过去叙述交代当时获知的关系，不暗示后来关系消失。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "the detective",
+      "role": "主语",
+      "explanation": "特指一直监视女子的侦探。"
+    },
+    {
+      "text": "found out",
+      "role": "谓语",
+      "explanation": "动词短语表示查明或得知。"
+    },
+    {
+      "text": "that the shop assistant was her daughter.",
+      "role": "宾语从句",
+      "explanation": "说明侦探查明的事实，使用陈述语序。"
+    },
+    {
+      "text": "her daughter.",
+      "role": "从句表语",
+      "explanation": "与 was 相接，说明店员的身份是被捕女子的女儿。"
+    }
+  ],
+  "words": [
+    {
+      "text": "the",
+      "meaning": "前文的那位",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "detective",
+      "meaning": "侦探",
+      "pos": "名词",
+      "phonetic": "/dɪˈtektɪv/"
+    },
+    {
+      "text": "found",
+      "meaning": "查明，与 out 组成短语",
+      "pos": "及物动词过去式",
+      "phonetic": "/faʊnd/"
+    },
+    {
+      "text": "out",
+      "meaning": "与 found 合成查明之意",
+      "pos": "副词性小品词",
+      "phonetic": "/aʊt/"
+    },
+    {
+      "text": "that",
+      "meaning": "引出查明的事实",
+      "pos": "从属连词",
+      "phonetic": "/ðæt/ 或 /ðət/"
+    },
+    {
+      "text": "the",
+      "meaning": "前文的那位",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "shop",
+      "meaning": "商店，修饰 assistant",
+      "pos": "名词",
+      "phonetic": "/ʃɒp/"
+    },
+    {
+      "text": "assistant",
+      "meaning": "店员",
+      "pos": "名词",
+      "phonetic": "/əˈsɪstənt/"
+    },
+    {
+      "text": "was",
+      "meaning": "是，说明当时获知的身份关系",
+      "pos": "系动词过去式",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "her",
+      "meaning": "她的，指被捕女子的",
+      "pos": "物主限定词",
+      "phonetic": "/hɜː(r)/ 或 /hə(r)/"
+    },
+    {
+      "text": "daughter.",
+      "meaning": "女儿",
+      "pos": "名词",
+      "phonetic": "/ˈdɔːtə(r)/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

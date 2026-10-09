@@ -1,0 +1,97 @@
+{
+  "chinese": "“天又下雨了。”就在这时，电话响了。",
+  "intent": "承接前文下雨的情境，叙述就在那个时刻电话铃响起的事件。",
+  "comparison": null,
+  "backbone": {
+    "text": "The telephone rang.",
+    "meaning": "电话响了。"
+  },
+  "structureNotes": [
+    {
+      "title": "Just then 的作用",
+      "text": "Just then 放在句首，用逗号和主句隔开，用来点明事情发生的时间点，相当于“就在这时”，承接前文的情境。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Just then,",
+      "role": "时间状语",
+      "explanation": "用来标示事件发生的具体时点，承接上文正在发生的状况，引出接下来突然发生的事。"
+    },
+    {
+      "text": "the telephone",
+      "role": "主语",
+      "explanation": "表示“电话”这个事物，是发出“响”这个动作的主体。"
+    },
+    {
+      "text": "rang.",
+      "role": "谓语",
+      "explanation": "是动词 ring 的过去式，表示“（铃、电话等）响起”，说明主语过去发生的动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Just",
+      "meaning": "正好、就",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "then,",
+      "meaning": "那时，当时",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，此处用于特指双方都知道的那部电话",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "telephone",
+      "meaning": "电话",
+      "pos": "名词",
+      "phonetic": "/ˈtelɪfəʊn/"
+    },
+    {
+      "text": "rang.",
+      "meaning": "（铃、电话等）响（过去式）",
+      "pos": "动词",
+      "phonetic": "/ræŋ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Just then,",
+      "relation": "时间",
+      "meaning": "就在这时"
+    },
+    {
+      "text": "the telephone",
+      "relation": "描述谁/什么（动作的发出者）",
+      "meaning": "那部电话"
+    },
+    {
+      "text": "rang.",
+      "relation": "补充什么动作（主语发出的动作）",
+      "meaning": "响了"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-002",
+  "sentenceId": "nce-2-lesson-002-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Just then, the telephone rang.",
+  "lesson": "Lesson 2 Breakfast or lunch?",
+  "notes": [
+    {
+      "title": "Just then 的作用",
+      "text": "Just then 放在句首，用逗号和主句隔开，用来点明事情发生的时间点，相当于“就在这时”，承接前文的情境。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，仅需补充前文语境对应翻译、调整then的释义和telephone的音标为英式标准写法，修正表述细节。（非逐句人工审核）"
+}

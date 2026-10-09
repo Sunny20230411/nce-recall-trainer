@@ -1,0 +1,89 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-083",
+  "sentenceId": "nce-2-lesson-083-sentence-010-part-02",
+  "sentenceOrder": 11,
+  "english": "when Patrick asked the same question.",
+  "chinese": "这时帕特里克又问了同一个问题。",
+  "lesson": "Lesson 83 After the elections",
+  "intent": "引入背景动作中发生的问话",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "when Patrick asked",
+      "relation": "此时事件",
+      "meaning": "这时帕特里克问了"
+    },
+    {
+      "text": "the same question.",
+      "relation": "重复内容",
+      "meaning": "同一个问题"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "此时发生",
+      "text": "when 接前文过去进行时背景，带出当时发生的事件。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "此时发生",
+      "text": "when 接前文过去进行时背景，带出当时发生的事件。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "when Patrick asked the same question.",
+      "role": "时间从句",
+      "explanation": "说明警察走过入口时发生的问话。"
+    },
+    {
+      "text": "the same question.",
+      "role": "宾语",
+      "explanation": "指上次提出的问题。"
+    }
+  ],
+  "words": [
+    {
+      "text": "when",
+      "meaning": "这时",
+      "pos": "从属连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "Patrick",
+      "meaning": "帕特里克",
+      "pos": "专有名词",
+      "phonetic": "/ˈpætrɪk/"
+    },
+    {
+      "text": "asked",
+      "meaning": "问了",
+      "pos": "动词过去式",
+      "phonetic": "/ɑːskt/"
+    },
+    {
+      "text": "the",
+      "meaning": "那个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "same",
+      "meaning": "相同的",
+      "pos": "形容词",
+      "phonetic": "/seɪm/"
+    },
+    {
+      "text": "question.",
+      "meaning": "问题",
+      "pos": "名词",
+      "phonetic": "/ˈkwestʃən/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

@@ -1,0 +1,87 @@
+{
+  "chinese": "二十个人已经离开了。",
+  "intent": "陈述在过去某个时间点之前，已有二十人完成离开的动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "Twenty people had left.",
+    "meaning": "二十人已经离开了。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去完成时的含义",
+      "text": "had left 是过去完成时，表示“离开”这个动作发生在过去语境里提到的某个时间点之前，也就是在公司付不起薪水这件事被说出来之前，人就已经走了。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Twenty people",
+      "role": "主语",
+      "explanation": "表示动作的发出者，即二十个人。"
+    },
+    {
+      "text": "had already left",
+      "role": "谓语",
+      "explanation": "表示主语已经完成的动作，其中 already 强调动作早已发生，had left 构成过去完成时。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Twenty",
+      "meaning": "二十",
+      "pos": "数词",
+      "phonetic": "/ˈtwenti/"
+    },
+    {
+      "text": "people",
+      "meaning": "人们",
+      "pos": "名词",
+      "phonetic": "/ˈpiːpl/"
+    },
+    {
+      "text": "had",
+      "meaning": "（助动词，与过去分词连用构成过去完成时，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "already",
+      "meaning": "已经",
+      "pos": "副词",
+      "phonetic": "/ɔːlˈredi/"
+    },
+    {
+      "text": "left.",
+      "meaning": "离开（leave的过去分词）",
+      "pos": "动词",
+      "phonetic": "/left/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Twenty people",
+      "relation": "动作的发出者",
+      "meaning": "二十个人"
+    },
+    {
+      "text": "had already left.",
+      "relation": "描述主语的动作",
+      "meaning": "已经离开了"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-015",
+  "sentenceId": "nce-2-lesson-015-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Twenty people had already left.",
+  "lesson": "Lesson 15 Good news",
+  "notes": [
+    {
+      "title": "过去完成时的含义",
+      "text": "had left 是过去完成时，表示“离开”这个动作发生在过去语境里提到的某个时间点之前，也就是在公司付不起薪水这件事被说出来之前，人就已经走了。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析正确，但存在两处小问题：1. had的词性标注错误，had是助动词，但释义里混入了“已经”的语义，had本身不表“已经”，仅用于构成过去完成时，already才表“已经”；2. left的释义中虽说明是过去分词，但原句末标点属于文本约定，词性释义无错但had的释义需修正。（非逐句人工审核）"
+}

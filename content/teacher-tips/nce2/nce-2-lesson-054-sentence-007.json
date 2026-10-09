@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-007",
+  "english": "It took me ten minutes to persuade her to ring back later.",
+  "text": "中文说“我花了十分钟”，很容易先想到 I spent ten minutes。这句用 It took me ten minutes 开头，是先把“做这件事耗时”作为信息重心说出来，再补充具体是说服她晚点回电。想表达“做某事花了多少时间”，可以先判断是侧重“某人花时间”（用 spend），还是侧重“这件事本身耗时”（用 It takes sb... to do...）。",
+  "sourceDigest": "f4b3f1e0b7f3a47f969e41a3b407ed204f2d370554cc69a162087dde9e606555",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：选点精准，讲清了spend和It takes的表达角度差异，迁移判断具体可用。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "对比了spend和It takes的表达角度差异，迁移判断具体实用。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

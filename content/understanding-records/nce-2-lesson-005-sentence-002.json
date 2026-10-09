@@ -1,0 +1,227 @@
+{
+  "chinese": "詹姆斯·斯科特在锡尔伯里有一个车库，现在他刚在平赫斯特又买了一个车库。",
+  "intent": "介绍詹姆斯·斯科特拥有两个车库的情况，以及第二个车库是新近购买的。",
+  "comparison": null,
+  "backbone": {
+    "text": "James Scott has a garage in Silbury and he has bought another garage in Pinhurst.",
+    "meaning": "詹姆斯·斯科特在锡尔伯里有一个车库，并且他在平赫斯特买了另一个车库。"
+  },
+  "structureNotes": [
+    {
+      "title": "and连接的并列句",
+      "text": "and 前后是两个独立完整的分句，分别说明詹姆斯·斯科特的两个车库情况，地位平等，不分主次。"
+    },
+    {
+      "title": "现在完成时has just bought的含义",
+      "text": "has just bought 表示“刚买完”，强调“买”这个动作刚刚完成，和现在的情况（现在有两个车库）有关。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "James Scott has a garage in Silbury",
+      "role": "第一个并列分句",
+      "explanation": "说明詹姆斯·斯科特在锡尔伯里拥有一个车库的现有状态。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个分句，表示两个事实并列存在。"
+    },
+    {
+      "text": "now he has just bought another garage in Pinhurst",
+      "role": "第二个并列分句",
+      "explanation": "说明詹姆斯·斯科特现在刚在平赫斯特买了另一个车库的新情况。"
+    },
+    {
+      "text": "now",
+      "role": "时间状语",
+      "explanation": "点明第二个分句说的是现在的新情况。"
+    },
+    {
+      "text": "he",
+      "role": "第二个分句的主语",
+      "explanation": "指代詹姆斯·斯科特，是第二个分句动作的发出者。"
+    },
+    {
+      "text": "has just bought",
+      "role": "第二个分句的谓语",
+      "explanation": "用现在完成时表达“刚买了”，just 加强“刚刚”的时间意味。"
+    },
+    {
+      "text": "another garage in Pinhurst",
+      "role": "第二个分句的宾语及地点修饰",
+      "explanation": "说明买的是什么，以及这个车库所在的地点。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "詹姆斯（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/dʒeɪmz/",
+      "text": "James"
+    },
+    {
+      "meaning": "斯科特（姓氏）",
+      "pos": "专有名词",
+      "phonetic": "/skɒt/",
+      "text": "Scott"
+    },
+    {
+      "meaning": "有",
+      "pos": "动词",
+      "phonetic": "/hæz/",
+      "text": "has"
+    },
+    {
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "车库；汽车修理厂",
+      "pos": "名词",
+      "phonetic": "/ˈɡærɑːʒ/",
+      "text": "garage"
+    },
+    {
+      "meaning": "在（某地）",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "锡尔伯里（地名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈsɪlbəri/",
+      "text": "Silbury"
+    },
+    {
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "现在",
+      "pos": "副词",
+      "phonetic": "/naʊ/",
+      "text": "now"
+    },
+    {
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/",
+      "text": "he"
+    },
+    {
+      "meaning": "（助动词，构成现在完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæz/",
+      "text": "has"
+    },
+    {
+      "meaning": "刚刚，刚才",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/",
+      "text": "just"
+    },
+    {
+      "meaning": "买（buy的过去分词）",
+      "pos": "动词",
+      "phonetic": "/bɔːt/",
+      "text": "bought"
+    },
+    {
+      "meaning": "另一个",
+      "pos": "限定词",
+      "phonetic": "/əˈnʌðə(r)/",
+      "text": "another"
+    },
+    {
+      "meaning": "车库；汽车修理厂",
+      "pos": "名词",
+      "phonetic": "/ˈɡærɑːʒ/",
+      "text": "garage"
+    },
+    {
+      "meaning": "在（某地）",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "平赫斯特（地名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈpɪnhɜːst/",
+      "text": "Pinhurst."
+    }
+  ],
+  "parts": [
+    {
+      "text": "James Scott",
+      "relation": "陈述的对象1",
+      "meaning": "詹姆斯·斯科特"
+    },
+    {
+      "text": "has a garage",
+      "relation": "描述詹姆斯·斯科特的拥有物",
+      "meaning": "有一个车库"
+    },
+    {
+      "text": "in Silbury",
+      "relation": "说明第一个车库的地点",
+      "meaning": "在锡尔伯里"
+    },
+    {
+      "text": "and",
+      "relation": "连接前后两件事",
+      "meaning": "并且"
+    },
+    {
+      "text": "now",
+      "relation": "说明后一件事的时间背景",
+      "meaning": "现在"
+    },
+    {
+      "text": "he",
+      "relation": "陈述的对象2，指詹姆斯·斯科特",
+      "meaning": "他"
+    },
+    {
+      "text": "has just bought",
+      "relation": "描述他的动作",
+      "meaning": "刚买了"
+    },
+    {
+      "text": "another garage",
+      "relation": "买的对象",
+      "meaning": "另一个车库"
+    },
+    {
+      "text": "in Pinhurst.",
+      "relation": "说明第二个车库的地点",
+      "meaning": "在平赫斯特"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-005",
+  "sentenceId": "nce-2-lesson-005-sentence-002",
+  "sentenceOrder": 2,
+  "english": "James Scott has a garage in Silbury and now he has just bought another garage in Pinhurst.",
+  "lesson": "Lesson 5 No wrong numbers",
+  "notes": [
+    {
+      "title": "and连接的并列句",
+      "text": "and 前后是两个独立完整的分句，分别说明詹姆斯·斯科特的两个车库情况，地位平等，不分主次。"
+    },
+    {
+      "title": "现在完成时has just bought的含义",
+      "text": "has just bought 表示“刚买完”，强调“买”这个动作刚刚完成，和现在的情况（现在有两个车库）有关。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅存在几处可修正的细节问题：1. 第二个并列分句的主语he在structures中缺失，谓语描述未包含主语不符合分句完整性；2. 单词Pinhurst.的释义混入了句末标点的隐含说明，且原文context中出现的Mr.未在本句覆盖的情况下无需额外处理，仅修正单词项的释义规范；3. 单词has（实义动词）的音标使用强式合理，但需确认词性标注准确，此处实义动词标注正确；4. 原主干表述准确无需改动。（非逐句人工审核）"
+}

@@ -1,0 +1,150 @@
+{
+  "chinese": "我的手上和电话机上到处都是面团。",
+  "intent": "描述当时一团糟的状态，说明面团沾得到处都是。",
+  "comparison": null,
+  "backbone": {
+    "text": "There was dough all over my hands and the telephone.",
+    "meaning": "面团遍布在我的双手和电话机上。"
+  },
+  "structureNotes": [
+    {
+      "title": "There be句型的存在含义",
+      "text": "本句用There was引出“某处存在某物”的场景，重点在后面出现的dough以及它分布的位置，而不是强调“谁有面团”。"
+    },
+    {
+      "title": "all over表示遍布的范围",
+      "text": "all over接地点或物体表面，意思是“到处都是、遍布”，这里同时覆盖my hands和the telephone两个地方。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There was",
+      "role": "存在句引导结构",
+      "explanation": "用来引出后面存在的事物dough，不表示“那里”这个具体地点，只是开启存在描述。"
+    },
+    {
+      "text": "dough",
+      "role": "句子真正的主语",
+      "explanation": "指存在的事物，是不可数名词，所以用was。"
+    },
+    {
+      "text": "all over my hands and the telephone.",
+      "role": "地点范围状语",
+      "explanation": "说明面团分布的两个位置：手上和电话机上，用and并列两个地点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "There",
+      "meaning": "（存在句引导词，无实义）",
+      "pos": "代词",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，存在）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "dough",
+      "meaning": "面团",
+      "pos": "名词",
+      "phonetic": "/dəʊ/"
+    },
+    {
+      "text": "all",
+      "meaning": "全部，到处",
+      "pos": "副词",
+      "phonetic": "/ɔːl/"
+    },
+    {
+      "text": "over",
+      "meaning": "遍及，在……各处",
+      "pos": "介词",
+      "phonetic": "/ˈəʊvə/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "hands",
+      "meaning": "手（复数）",
+      "pos": "名词",
+      "phonetic": "/hændz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，与",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定冠词）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "telephone.",
+      "meaning": "电话机",
+      "pos": "名词",
+      "phonetic": "/ˈtelɪfəʊn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "There was",
+      "relation": "引出存在的事物",
+      "meaning": "（存在）有"
+    },
+    {
+      "text": "dough",
+      "relation": "描述存在的主体",
+      "meaning": "面团"
+    },
+    {
+      "text": "all over",
+      "relation": "说明分布状态",
+      "meaning": "到处都是、遍布"
+    },
+    {
+      "text": "my hands",
+      "relation": "第一个分布位置",
+      "meaning": "我的手上"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个位置",
+      "meaning": "和"
+    },
+    {
+      "text": "the telephone.",
+      "relation": "第二个分布位置",
+      "meaning": "电话机上"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-010",
+  "sentenceOrder": 10,
+  "english": "There was dough all over my hands and the telephone.",
+  "lesson": "Lesson 54 Sticky fingers",
+  "notes": [
+    {
+      "title": "There be句型的存在含义",
+      "text": "本句用There was引出“某处存在某物”的场景，重点在后面出现的dough以及它分布的位置，而不是强调“谁有面团”。"
+    },
+    {
+      "title": "all over表示遍布的范围",
+      "text": "all over接地点或物体表面，意思是“到处都是、遍布”，这里同时覆盖my hands和the telephone两个地方。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅一处细节需修正：单词telephone的释义混入了句号，应仅解释单词本身，其余字段无误。（非逐句人工审核）"
+}

@@ -1,0 +1,161 @@
+{
+  "chinese": "这个女孩每周给她妈妈一件免费的连衣裙！",
+  "intent": "陈述女孩定期将免费连衣裙送给她母亲这一事实，补充上文侦探发现的店员身份相关的真相。",
+  "comparison": null,
+  "backbone": {
+    "text": "The girl gave her mother a free dress",
+    "meaning": "这个女孩给了她妈妈一件免费的连衣裙"
+  },
+  "structureNotes": [
+    {
+      "title": "双宾语结构",
+      "text": "gave 后接两个宾语，her mother 是接受物品的人，a free dress 是被给予的物品，表达“把某物给某人”的含义。"
+    },
+    {
+      "title": "频率状语的位置",
+      "text": "once a week 放在句末，说明“给连衣裙”这个动作发生的频率是每周一次。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The girl",
+      "role": "主语",
+      "explanation": "指上文提到的店员女孩，是“给连衣裙”这个动作的发出者。"
+    },
+    {
+      "text": "gave",
+      "role": "谓语动词",
+      "explanation": "是 give 的过去式，表达“给予”的动作，作主句的谓语。"
+    },
+    {
+      "text": "her mother",
+      "role": "间接宾语",
+      "explanation": "表示接受连衣裙的人，是动作的接收对象。"
+    },
+    {
+      "text": "a free dress",
+      "role": "直接宾语",
+      "explanation": "表示被给予的具体物品，是动作的直接作用对象。"
+    },
+    {
+      "text": "once a week",
+      "role": "频率状语",
+      "explanation": "说明“给连衣裙”这个动作发生的频率，意为“每周一次”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这个（用于特指双方都知道的人或物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "girl",
+      "meaning": "女孩",
+      "pos": "名词",
+      "phonetic": "/ɡɜːl/"
+    },
+    {
+      "text": "gave",
+      "meaning": "给（give的过去式）",
+      "pos": "动词",
+      "phonetic": "/ɡeɪv/"
+    },
+    {
+      "text": "her",
+      "meaning": "她的（指代女孩的）",
+      "pos": "形容词性物主代词",
+      "phonetic": "/hɜː/"
+    },
+    {
+      "text": "mother",
+      "meaning": "母亲，妈妈",
+      "pos": "名词",
+      "phonetic": "/ˈmʌðə/"
+    },
+    {
+      "text": "a",
+      "meaning": "一件（用于可数名词单数前）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "free",
+      "meaning": "免费的",
+      "pos": "形容词",
+      "phonetic": "/friː/"
+    },
+    {
+      "text": "dress",
+      "meaning": "连衣裙",
+      "pos": "名词",
+      "phonetic": "/dres/"
+    },
+    {
+      "text": "once",
+      "meaning": "一次",
+      "pos": "副词",
+      "phonetic": "/wʌns/"
+    },
+    {
+      "text": "a",
+      "meaning": "每一（用于表示频率）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "week!",
+      "meaning": "周，星期",
+      "pos": "名词",
+      "phonetic": "/wiːk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The girl",
+      "relation": "动作的发出者，描述谁",
+      "meaning": "这个女孩"
+    },
+    {
+      "text": "gave",
+      "relation": "主语发出的动作",
+      "meaning": "给了"
+    },
+    {
+      "text": "her mother",
+      "relation": "动作的接收对象，给谁",
+      "meaning": "她的妈妈"
+    },
+    {
+      "text": "a free dress",
+      "relation": "动作的直接对象，给的什么",
+      "meaning": "一件免费的连衣裙"
+    },
+    {
+      "text": "once a week!",
+      "relation": "动作发生的频率",
+      "meaning": "每周一次"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-032",
+  "sentenceId": "nce-2-lesson-032-sentence-010",
+  "sentenceOrder": 11,
+  "english": "The girl gave her mother a free dress once a week!",
+  "lesson": "Lesson 32 Shopping made easy",
+  "notes": [
+    {
+      "title": "双宾语结构",
+      "text": "gave 后接两个宾语，her mother 是接受物品的人，a free dress 是被给予的物品，表达“把某物给某人”的含义。"
+    },
+    {
+      "title": "频率状语的位置",
+      "text": "once a week 放在句末，说明“给连衣裙”这个动作发生的频率是每周一次。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：存在两处可修正问题：1. 单词week!的释义错误添加了“带感叹号”的表述，不符合约定；2. 单词her的释义仅标注“她的”过于笼统，未结合语境说明指代对象，其余内容准确。（非逐句人工审核）"
+}

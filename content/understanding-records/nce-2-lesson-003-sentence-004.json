@@ -1,0 +1,145 @@
+{
+  "chinese": "一位友善的服务员教了我几句意大利语",
+  "intent": "讲述过去发生的一件小事：一位友善的服务员教了“我”几句意大利语的单词。",
+  "comparison": null,
+  "backbone": {
+    "text": "A waiter taught me words.",
+    "meaning": "一位服务员教了我一些词。"
+  },
+  "structureNotes": [
+    {
+      "title": "双宾语结构",
+      "text": "taught 后面接了两个宾语：me 是接受动作的人，a few words of Italian 是教的内容，也就是“教某人某事”的常见表达。"
+    },
+    {
+      "title": "a few words of Italian 的含义",
+      "text": "of Italian 用来限定 words，说明这些词属于意大利语，整体意思是“几句意大利语单词”。注意 word 指语言中的“词、单词”，不要和表示书写单位的“字（character）”混淆。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A friendly waiter",
+      "role": "主语",
+      "explanation": "表示执行“教”这个动作的人，friendly 用来描述 waiter 的特点。"
+    },
+    {
+      "text": "taught",
+      "role": "谓语动词",
+      "explanation": "teach 的过去式，表示过去发生的“教”的动作。"
+    },
+    {
+      "text": "me",
+      "role": "间接宾语",
+      "explanation": "表示“教”这个动作的对象，也就是被教的人。"
+    },
+    {
+      "text": "a few words of Italian.",
+      "role": "直接宾语",
+      "explanation": "表示“教”的具体内容，of Italian 说明这些单词所属的语言。"
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "meaning": "一个（位）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "friendly",
+      "meaning": "友善的，友好的",
+      "pos": "形容词",
+      "phonetic": "/ˈfrendli/"
+    },
+    {
+      "text": "waiter",
+      "meaning": "服务员，侍者",
+      "pos": "名词",
+      "phonetic": "/ˈweɪtə/"
+    },
+    {
+      "text": "taught",
+      "meaning": "教（teach的过去式）",
+      "pos": "动词",
+      "phonetic": "/tɔːt/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "人称代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "a",
+      "meaning": "（与few构成短语a few，表示几个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "few",
+      "meaning": "几个，一些（与a连用表肯定，修饰可数名词复数）",
+      "pos": "形容词",
+      "phonetic": "/fjuː/"
+    },
+    {
+      "text": "words",
+      "meaning": "单词，词（复数）",
+      "pos": "名词",
+      "phonetic": "/wɜːdz/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表示所属关系）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "Italian.",
+      "meaning": "意大利语",
+      "pos": "名词",
+      "phonetic": "/ɪˈtæliən/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "A friendly waiter",
+      "relation": "描述谁做了动作",
+      "meaning": "一位友善的服务员"
+    },
+    {
+      "text": "taught",
+      "relation": "表示主语发出的动作",
+      "meaning": "教了"
+    },
+    {
+      "text": "me",
+      "relation": "动作的对象（被教的人）",
+      "meaning": "我"
+    },
+    {
+      "text": "a few words of Italian.",
+      "relation": "动作的内容（教的东西）",
+      "meaning": "几句意大利语的单词"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-003",
+  "sentenceId": "nce-2-lesson-003-sentence-004",
+  "sentenceOrder": 4,
+  "english": "A friendly waiter taught me a few words of Italian.",
+  "lesson": "Lesson 3 Please send me a card",
+  "notes": [
+    {
+      "title": "双宾语结构",
+      "text": "taught 后面接了两个宾语：me 是接受动作的人，a few words of Italian 是教的内容，也就是“教某人某事”的常见表达。"
+    },
+    {
+      "title": "a few words of Italian 的含义",
+      "text": "of Italian 用来限定 words，说明这些词属于意大利语，整体意思是“几句意大利语单词”。注意 word 指语言中的“词、单词”，不要和表示书写单位的“字（character）”混淆。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，存在几处可修正的细节：1. 单词a few的词性标注有误，few此处为形容词修饰复数名词，但前面的a是构成a few短语的组成部分，a单独标注为不定冠词易混淆，且words的音标应为英式/wɜːdz/（原标注正确，需确认）；2. structureNotes第二条“不要理解成‘几个意大利语的字’”的表述不够清晰，word表示语言中的“词、单词”，中文“字”对应character，该说明方向正确但可更明确；3. 主干text中waiter前原句有friendly，主干提取核心成分省略修饰词是合理的，但主干meaning应对应主干text翻译为“一位服务员教了我一些词”（原正确）；4. 所有分块和结构分析的双宾语逻辑正确，parts的meaning和relation均准确。修正点：将words中a few相关说明补充准确，把structureNotes第二条的误导性反向说明调整得更精准，同时确认Italian的标点随词项符合约定无需修改。（非逐句人工审核）"
+}

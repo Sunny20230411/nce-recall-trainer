@@ -1,0 +1,93 @@
+{
+  "chinese": "帐篷里满是水！",
+  "intent": "描述帐篷内部的状态，说明帐篷里全是水的突发状况。",
+  "comparison": null,
+  "backbone": {
+    "text": "The tent was full of water!",
+    "meaning": "帐篷里满是水。"
+  },
+  "structureNotes": [
+    {
+      "title": "be full of 的用法",
+      "text": "be full of 是常用固定表达，用来表示某个空间或容器里充满了某物，主语是被充满的容器或空间，of 后面接里面装的东西。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The tent",
+      "role": "主语",
+      "explanation": "指上下文提到的那顶帐篷，是描述状态的对象。"
+    },
+    {
+      "text": "was full of water",
+      "role": "系表结构作谓语（表状态）",
+      "explanation": "用 be full of 结构说明主语所处的状态，was 是 be 动词的过去式，full of water 整体作表语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这，那（定冠词，特指已知的事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "tent",
+      "meaning": "帐篷",
+      "pos": "名词",
+      "phonetic": "/tent/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be动词过去式，单数）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "full",
+      "meaning": "满的，充满的",
+      "pos": "形容词",
+      "phonetic": "/fʊl/"
+    },
+    {
+      "text": "of",
+      "meaning": "引出被充满的事物，相当于“装满……的”",
+      "pos": "介词",
+      "phonetic": "/əv/"
+    },
+    {
+      "text": "water!",
+      "meaning": "水",
+      "pos": "名词",
+      "phonetic": "/ˈwɔːtə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The tent",
+      "relation": "描述谁/什么的状态",
+      "meaning": "那顶帐篷"
+    },
+    {
+      "text": "was full of water!",
+      "relation": "描述主语的状态",
+      "meaning": "里面全是水"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-027",
+  "sentenceId": "nce-2-lesson-027-sentence-009",
+  "sentenceOrder": 10,
+  "english": "The tent was full of water!",
+  "lesson": "Lesson 27 A wet night",
+  "notes": [
+    {
+      "title": "be full of 的用法",
+      "text": "be full of 是常用固定表达，用来表示某个空间或容器里充满了某物，主语是被充满的容器或空间，of 后面接里面装的东西。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文翻译、主干、结构分析基本准确，仅需修正of的词义表述、water的释义标点，及structures中谓语表述规范。（非逐句人工审核）"
+}

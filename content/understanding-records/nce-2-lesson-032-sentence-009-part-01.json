@@ -1,0 +1,94 @@
+{
+  "chinese": "当她被捕时，",
+  "intent": "交代主句事件发生的时间背景，引出后续侦探查明真相的情节",
+  "comparison": null,
+  "backbone": {
+    "text": "she was arrested",
+    "meaning": "她被捕了（此处为时间从句的核心内容，用于提供主句事件的时间参照）"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语从句的功能",
+      "text": "以When开头的这个分句不是完整独立的句子，它只负责说明后面主句事件发生的时间，需要和主句搭配使用才有完整表意。"
+    },
+    {
+      "title": "被动语态的表意",
+      "text": "was arrested是被动表达，意思是“被逮捕”，主语she是动作的承受者，不是她去逮捕别人，符合中文“被捕”的语感。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When",
+      "role": "时间从句引导词",
+      "explanation": "用来引出时间背景，说明后面主句的事情发生在“她被捕”这个时间点上。"
+    },
+    {
+      "text": "was arrested,",
+      "role": "被动语态谓语",
+      "explanation": "由be动词was加过去分词arrested构成，表示“被逮捕”的被动含义，逗号提示这是从句的结尾，后面接主句。"
+    }
+  ],
+  "words": [
+    {
+      "text": "When",
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，第三人称单数）是/被",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "arrested,",
+      "meaning": "被逮捕（arrest的过去分词）",
+      "pos": "动词（过去分词）",
+      "phonetic": "/əˈrestɪd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "When",
+      "relation": "引出时间背景的引导词",
+      "meaning": "当……的时候"
+    },
+    {
+      "text": "she",
+      "relation": "描述谁被捕",
+      "meaning": "她"
+    },
+    {
+      "text": "was arrested,",
+      "relation": "表示发生的被动事件，构成时间从句的核心内容",
+      "meaning": "被捕了，"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-032",
+  "sentenceId": "nce-2-lesson-032-sentence-009-part-01",
+  "sentenceOrder": 9,
+  "english": "When she was arrested,",
+  "lesson": "Lesson 32 Shopping made easy",
+  "notes": [
+    {
+      "title": "时间状语从句的功能",
+      "text": "以When开头的这个分句不是完整独立的句子，它只负责说明后面主句事件发生的时间，需要和主句搭配使用才有完整表意。"
+    },
+    {
+      "title": "被动语态的表意",
+      "text": "was arrested是被动表达，意思是“被逮捕”，主语she是动作的承受者，不是她去逮捕别人，符合中文“被捕”的语感。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：基本内容正确，仅词项arrested,的释义重复标注逗号且词性表述可更精准，修正后可使用。（非逐句人工审核）"
+}

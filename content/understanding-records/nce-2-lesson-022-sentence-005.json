@@ -1,0 +1,133 @@
+{
+  "chinese": "两个女孩现在都经常互相写信。",
+  "intent": "说明两位女孩目前保持定期互相通信的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "Both girls write to each other.",
+    "meaning": "两个女孩互相写信。"
+  },
+  "structureNotes": [
+    {
+      "title": "each other 的含义",
+      "text": "each other 表示双方互相做同一个动作，这里指你给我写、我也给你写，和 write to 搭配表示互相写信给对方。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "regularly 和 now 都修饰 write，分别说明动作的频率和当前的时间状态，放在句末符合英语习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Both girls",
+      "role": "主语",
+      "explanation": "指前文提到的两个女孩，both 强调两者都。"
+    },
+    {
+      "text": "write to each other",
+      "role": "谓语部分",
+      "explanation": "表示互相写信的动作，write to 后接通信对象。"
+    },
+    {
+      "text": "regularly now",
+      "role": "时间/频率状语",
+      "explanation": "regularly 说明动作是定期、经常的，now 点明这种状态是现在的情况。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Both",
+      "meaning": "两个……都",
+      "pos": "限定词",
+      "phonetic": "/bəʊθ/"
+    },
+    {
+      "text": "girls",
+      "meaning": "女孩（复数）",
+      "pos": "名词",
+      "phonetic": "/ɡɜːlz/"
+    },
+    {
+      "text": "write",
+      "meaning": "写（信）",
+      "pos": "动词",
+      "phonetic": "/raɪt/"
+    },
+    {
+      "text": "to",
+      "meaning": "朝、给（引出对象）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "each",
+      "meaning": "每一个",
+      "pos": "代词",
+      "phonetic": "/iːtʃ/"
+    },
+    {
+      "text": "other",
+      "meaning": "另一个（人）",
+      "pos": "形容词/代词（此处与each构成相互代词短语）",
+      "phonetic": "/ˈʌðə/"
+    },
+    {
+      "text": "regularly",
+      "meaning": "定期地、经常地",
+      "pos": "副词",
+      "phonetic": "/ˈreɡjələli/"
+    },
+    {
+      "text": "now.",
+      "meaning": "现在",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Both girls",
+      "relation": "动作的发出者",
+      "meaning": "两个女孩"
+    },
+    {
+      "text": "write",
+      "relation": "主要动作",
+      "meaning": "写信"
+    },
+    {
+      "text": "to each other",
+      "relation": "动作的对象",
+      "meaning": "给对方、互相"
+    },
+    {
+      "text": "regularly",
+      "relation": "说明动作的频率",
+      "meaning": "定期地、经常"
+    },
+    {
+      "text": "now.",
+      "relation": "说明动作发生的时间",
+      "meaning": "现在"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-022",
+  "sentenceId": "nce-2-lesson-022-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Both girls write to each other regularly now.",
+  "lesson": "Lesson 22 A glass envelope",
+  "notes": [
+    {
+      "title": "each other 的含义",
+      "text": "each other 表示双方互相做同一个动作，这里指你给我写、我也给你写，和 write to 搭配表示互相写信给对方。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "regularly 和 now 都修饰 write，分别说明动作的频率和当前的时间状态，放在句末符合英语习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需修正words中other的词性标注，避免混淆each other作为相互代词的整体用法中单个词的词性问题。（非逐句人工审核）"
+}

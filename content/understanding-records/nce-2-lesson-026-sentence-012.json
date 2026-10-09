@@ -1,0 +1,129 @@
+{
+  "chinese": "“我正把这幅画挂到墙上去，”我回答道。",
+  "intent": "回应对方的问题，说明自己正在做的动作，并交代这是“我”给出的回答。",
+  "comparison": null,
+  "backbone": {
+    "text": "‘I'm hanging this picture on the wall,’ I answered.",
+    "meaning": "我回答说，我正在把这幅画挂在墙上。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语与转述主体的位置",
+      "text": "英文把直接引语放在前面，再补充说话人 I answered；中文也可以先放引语再补“我回答道”，语序习惯相近。引语内是现在进行时，描述当下正在进行的动作。"
+    },
+    {
+      "title": "hang sth on sth 的搭配",
+      "text": "hang this picture on the wall 表示把画挂在墙的表面上，on 点明悬挂的接触面与位置，不是嵌在墙里或靠在墙边。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘I'm hanging this picture on the wall,’",
+      "role": "直接引语分句",
+      "explanation": "是“我”回答的具体内容，用现在进行时说明此刻正在做的事，整体作 answered 的内容。"
+    },
+    {
+      "text": "I answered.",
+      "role": "主句主谓",
+      "explanation": "交代说话人和动作，I 是说话人，answered 表示“回答”这个动作，引语是回答的具体内容。"
+    },
+    {
+      "text": "'m hanging",
+      "role": "引语分句的谓语",
+      "explanation": "由 am + 现在分词 hanging 构成现在进行时，主语是 I，表示正在悬挂的动作。"
+    },
+    {
+      "text": "on the wall",
+      "role": "地点状语",
+      "explanation": "说明挂画的位置，在墙的表面上。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘I'm",
+      "meaning": "（左引号）我是（I am 的缩写，后接现在分词构成进行时）",
+      "pos": "代词+be动词缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "hanging",
+      "meaning": "悬挂，吊（现在分词形式）",
+      "pos": "动词",
+      "phonetic": "/ˈhæŋɪŋ/"
+    },
+    {
+      "text": "this",
+      "meaning": "这，这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "picture",
+      "meaning": "画，图画，照片",
+      "pos": "名词",
+      "phonetic": "/ˈpɪktʃə(r)/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……之上（接触表面）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（定冠词，表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "wall,’",
+      "meaning": "墙，（右引号）",
+      "pos": "名词（带句内标点）",
+      "phonetic": "/wɔːl/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "answered.",
+      "meaning": "回答，答复（过去式，句末带句号）",
+      "pos": "动词",
+      "phonetic": "/ˈɑːnsəd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘I'm hanging this picture on the wall,’",
+      "relation": "回答的具体内容（直接引语）",
+      "meaning": "“我正把这幅画挂在墙上，”"
+    },
+    {
+      "text": "I answered.",
+      "relation": "说话人及动作（主句）",
+      "meaning": "我回答道。"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-026",
+  "sentenceId": "nce-2-lesson-026-sentence-012",
+  "sentenceOrder": 12,
+  "english": "‘I'm hanging this picture on the wall,’ I answered.",
+  "lesson": "Lesson 26 The best art critics",
+  "notes": [
+    {
+      "title": "直接引语与转述主体的位置",
+      "text": "英文把直接引语放在前面，再补充说话人 I answered；中文也可以先放引语再补“我回答道”，语序习惯相近。引语内是现在进行时，描述当下正在进行的动作。"
+    },
+    {
+      "title": "hang sth on sth 的搭配",
+      "text": "hang this picture on the wall 表示把画挂在墙的表面上，on 点明悬挂的接触面与位置，不是嵌在墙里或靠在墙边。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：单词'picture'的英式音标标注为美式读法，需修正为英式标准读音，其余内容准确无误。（非逐句人工审核）"
+}

@@ -1,0 +1,103 @@
+{
+  "chinese": "去年夏天，我去了意大利。",
+  "intent": "说明过去某个时间发生的一次出行，交代自己去年夏天的去向。",
+  "comparison": null,
+  "backbone": {
+    "text": "I went to Italy.",
+    "meaning": "我去了意大利。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语的位置",
+      "text": "句首的Last summer是过去时间标记，说明整个动作发生在去年夏天，读的时候先抓住主干“我去了意大利”，再补充时间背景即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Last summer,",
+      "role": "时间状语",
+      "explanation": "点明动作发生的时间是去年夏天，放在句首引出过去发生的事。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话人自己，是“去意大利”这个动作的发出者。"
+    },
+    {
+      "text": "went to Italy.",
+      "role": "谓语 + 地点状语",
+      "explanation": "went是不及物动词go的过去式，在句中作谓语，表示过去发生的“去”这个动作；to Italy是地点状语，说明去的目的地是意大利。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Last",
+      "meaning": "刚过去的、上一个的",
+      "pos": "形容词",
+      "phonetic": "/lɑːst/"
+    },
+    {
+      "text": "summer,",
+      "meaning": "夏天",
+      "pos": "名词",
+      "phonetic": "/ˈsʌmə(r)/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "went",
+      "meaning": "去（go的过去式）",
+      "pos": "动词",
+      "phonetic": "/went/"
+    },
+    {
+      "text": "to",
+      "meaning": "到、向",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "Italy.",
+      "meaning": "意大利",
+      "pos": "名词",
+      "phonetic": "/ˈɪtəli/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Last summer,",
+      "relation": "时间",
+      "meaning": "去年夏天，"
+    },
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "went to Italy.",
+      "relation": "做的事及目的地",
+      "meaning": "去了意大利。"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-003",
+  "sentenceId": "nce-2-lesson-003-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Last summer, I went to Italy.",
+  "lesson": "Lesson 3 Please send me a card",
+  "notes": [
+    {
+      "title": "时间状语的位置",
+      "text": "句首的Last summer是过去时间标记，说明整个动作发生在去年夏天，读的时候先抓住主干“我去了意大利”，再补充时间背景即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析正确，仅存在两处可修正的小问题：1. words中summer,和Italy.的释义错误添加了“带句中逗号”“带句末句号”的表述，按规则标点随词项是约定，无需在词义中说明；2. structures中第三块的role表述不够精准，went是谓语动词，to Italy是地点状语，整体应明确为“谓语（含不及物动词过去式）+ 地点状语”。（非逐句人工审核）"
+}

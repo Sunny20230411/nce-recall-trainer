@@ -1,0 +1,244 @@
+{
+  "chinese": "由于厌倦了睡地板，德黑兰的一名年轻人攒了多年钱，想买一张真正的床。",
+  "intent": "介绍故事的背景：德黑兰的一名年轻人因厌倦睡地板，攒钱多年买了一张真正的床，引出后续故事。",
+  "comparison": {
+    "chinese": "德黑兰有个年轻人，因为厌倦睡地板，攒了多年钱买一张真正的床。",
+    "english": "Tired of sleeping on the floor, a young man in Teheran saved up for years to buy a real bed.",
+    "steps": [
+      {
+        "label": "第一步：先抓核心事件",
+        "text": "a young man in Teheran saved up for years",
+        "explanation": "中文和英文都先交代主体和核心动作——德黑兰的一个年轻人攒钱攒了很多年，这是句子的主干。"
+      },
+      {
+        "label": "第二步：补充原因（句首的形容词短语）",
+        "text": "Tired of sleeping on the floor",
+        "explanation": "英文把原因放在句首，用形容词短语直接说明主语的状态；中文会先说原因“因为厌倦了睡地板”，语序更符合因果先后的习惯。"
+      },
+      {
+        "label": "第三步：补充目的（句尾的不定式）",
+        "text": "to buy a real bed",
+        "explanation": "英文用不定式放在动作后面表示目的；中文会说“来买一张真正的床”或“为了买一张真正的床”，目的同样放在动作之后。"
+      }
+    ],
+    "takeaway": "英文可以用形容词短语放在句首直接说明主语的状态或原因，不一定非要用 because 引导从句；目的常用 to do 结构放在主干之后。"
+  },
+  "backbone": {
+    "text": "a young man saved up to buy a bed.",
+    "meaning": "一个年轻人攒钱买床。（辅助理解用，省略了地点、时间、原因和修饰词）"
+  },
+  "structureNotes": [
+    {
+      "title": "句首形容词短语作原因状语",
+      "text": "Tired of sleeping on the floor, 省略了主语和 be 动词，完整逻辑是 He was tired of sleeping on the floor。它直接描述主语 a young man 的状态，说明他攒钱的原因，位置灵活，常放在句首。读的时候先找到主语，就能知道这个“累/厌倦”说的是谁。"
+    },
+    {
+      "title": "不定式表目的",
+      "text": "to buy a real bed 用在 saved up 后面，表示攒钱的目的是买床。to do 结构用来表达“为了做某事”时，本身不强调事情是否已经做成，只说明动作的目标。"
+    },
+    {
+      "title": "save up 的含义",
+      "text": "save up 是短语动词，意思是“攒钱、积蓄”，up 加强了“积攒起来”的意味；for years 表示动作持续的时间长度，说明攒钱持续了很多年。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Tired of sleeping on the floor,",
+      "role": "原因状语（形容词短语）",
+      "explanation": "说明主语 a young man 攒钱的原因，省略了 He was，直接用形容词短语放在句首修饰主语。"
+    },
+    {
+      "text": "a young man in Teheran",
+      "role": "主语",
+      "explanation": "句子的核心主体，in Teheran 是介词短语作后置定语，说明这个年轻人所在的城市。"
+    },
+    {
+      "text": "saved up",
+      "role": "谓语",
+      "explanation": "短语动词，表示“攒钱、积蓄”，是主语发出的核心动作。"
+    },
+    {
+      "text": "for years",
+      "role": "时间状语",
+      "explanation": "说明 saved up 这个动作持续的时间长度，即“持续了多年”。"
+    },
+    {
+      "text": "to buy a real bed.",
+      "role": "目的状语",
+      "explanation": "用不定式说明攒钱的目的是买一张真正的床。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Tired",
+      "meaning": "厌倦的、疲惫的",
+      "pos": "形容词",
+      "phonetic": "/ˈtaɪəd/"
+    },
+    {
+      "text": "of",
+      "meaning": "对……（厌倦）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "sleeping",
+      "meaning": "睡觉（动名词形式）",
+      "pos": "动名词",
+      "phonetic": "/ˈsliːpɪŋ/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "floor,",
+      "meaning": "地板",
+      "pos": "名词",
+      "phonetic": "/flɔː/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个（表泛指）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "young",
+      "meaning": "年轻的",
+      "pos": "形容词",
+      "phonetic": "/jʌŋ/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人、人",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……（城市/地点）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "Teheran",
+      "meaning": "德黑兰（伊朗首都，英式也常作Tehran）",
+      "pos": "专有名词",
+      "phonetic": "/ˌtehəˈræn/"
+    },
+    {
+      "text": "saved",
+      "meaning": "攒、储蓄（过去式）",
+      "pos": "动词",
+      "phonetic": "/seɪvd/"
+    },
+    {
+      "text": "up",
+      "meaning": "（与save搭配）积攒起来",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "for",
+      "meaning": "长达、计（表持续时间）",
+      "pos": "介词",
+      "phonetic": "/fɔː/"
+    },
+    {
+      "text": "years",
+      "meaning": "年（复数）",
+      "pos": "名词",
+      "phonetic": "/jɪəz/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，表目的）为了",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "buy",
+      "meaning": "买",
+      "pos": "动词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "a",
+      "meaning": "一张",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "real",
+      "meaning": "真正的、真的",
+      "pos": "形容词",
+      "phonetic": "/ˈriːəl/"
+    },
+    {
+      "text": "bed.",
+      "meaning": "床。",
+      "pos": "名词",
+      "phonetic": "/bed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Tired of sleeping on the floor,",
+      "relation": "说明后面主语的状态和攒钱的原因",
+      "meaning": "由于厌倦了睡在地板上，"
+    },
+    {
+      "text": "a young man in Teheran",
+      "relation": "描述动作的发出者，即谁在攒钱",
+      "meaning": "德黑兰的一名年轻人"
+    },
+    {
+      "text": "saved up",
+      "relation": "核心动作，主语发出的行为",
+      "meaning": "攒了钱/积蓄"
+    },
+    {
+      "text": "for years",
+      "relation": "补充攒钱这个动作持续的时间",
+      "meaning": "长达多年"
+    },
+    {
+      "text": "to buy a real bed.",
+      "relation": "说明攒钱的目的",
+      "meaning": "来买一张真正的床。"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-049",
+  "sentenceId": "nce-2-lesson-049-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Tired of sleeping on the floor, a young man in Teheran saved up for years to buy a real bed.",
+  "lesson": "Lesson 49 The end of a dream",
+  "notes": [
+    {
+      "title": "句首形容词短语作原因状语",
+      "text": "Tired of sleeping on the floor, 省略了主语和 be 动词，完整逻辑是 He was tired of sleeping on the floor。它直接描述主语 a young man 的状态，说明他攒钱的原因，位置灵活，常放在句首。读的时候先找到主语，就能知道这个“累/厌倦”说的是谁。"
+    },
+    {
+      "title": "不定式表目的",
+      "text": "to buy a real bed 用在 saved up 后面，表示攒钱的目的是买床。to do 结构用来表达“为了做某事”时，本身不强调事情是否已经做成，只说明动作的目标。"
+    },
+    {
+      "title": "save up 的含义",
+      "text": "save up 是短语动词，意思是“攒钱、积蓄”，up 加强了“积攒起来”的意味；for years 表示动作持续的时间长度，说明攒钱持续了很多年。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正两处小问题：一是words中floor的释义混入逗号，二是英式音标中sleeping的标注有误，同时补充Teheran常见英式拼写发音参考以更严谨。（非逐句人工审核）"
+}

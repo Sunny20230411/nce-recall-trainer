@@ -1,0 +1,103 @@
+{
+  "chinese": "我向窗外望去",
+  "intent": "描述说话人过去做出的朝窗外看的动作",
+  "comparison": null,
+  "backbone": {
+    "text": "I looked out of the window.",
+    "meaning": "我朝窗外看"
+  },
+  "structureNotes": [
+    {
+      "title": "look out of的搭配含义",
+      "text": "look out of 合在一起表示“从……朝外看”，of 引出视线的来源边界也就是窗户，不能拆开按“向外的/属于”硬译。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "表示做出“看”这个动作的人是说话者自己。"
+    },
+    {
+      "text": "looked out of",
+      "role": "谓语",
+      "explanation": "是动词短语的过去式形式，整体表达“从……朝外看”的动作，说明主语的行为。"
+    },
+    {
+      "text": "the window",
+      "role": "介词宾语",
+      "explanation": "跟在介词 of 后面，指明是从窗户这个位置朝外看。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "looked",
+      "meaning": "看（过去式）",
+      "pos": "动词",
+      "phonetic": "/lʊkt/"
+    },
+    {
+      "text": "out",
+      "meaning": "向外",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    },
+    {
+      "text": "of",
+      "meaning": "（引出视线的边界参照）从……的边界",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（定指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "window.",
+      "meaning": "窗户",
+      "pos": "名词",
+      "phonetic": "/ˈwɪndəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "动作发出者"
+    },
+    {
+      "text": "looked out of",
+      "meaning": "从……朝外看",
+      "relation": "描述主语的动作"
+    },
+    {
+      "text": "the window.",
+      "meaning": "窗户",
+      "relation": "介词of的宾语，指明朝外看的边界位置"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-002",
+  "sentenceId": "nce-2-lesson-002-sentence-005",
+  "sentenceOrder": 5,
+  "english": "I looked out of the window.",
+  "lesson": "Lesson 2 Breakfast or lunch?",
+  "notes": [
+    {
+      "title": "look out of的搭配含义",
+      "text": "look out of 合在一起表示“从……朝外看”，of 引出视线的来源边界也就是窗户，不能拆开按“向外的/属于”硬译。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，存在两处可修正问题：1. 词项拆分中of的释义标注为“从（表示来源、所属）”不够精准，本句中of是引出视线的边界参照，不表所属；2. parts中“the window.”的释义“那扇窗户”不符合语境，应为“窗户”，且对应关系说明可更准确。其余内容符合要求。（非逐句人工审核）"
+}

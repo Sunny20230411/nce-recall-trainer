@@ -1,0 +1,136 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-084",
+  "sentenceId": "nce-2-lesson-084-sentence-007",
+  "sentenceOrder": 7,
+  "english": "This will relieve pressure on the trains to some extent.",
+  "chinese": "这会在一定程度上减轻火车的客运压力。",
+  "lesson": "Lesson 84 On strike",
+  "intent": "评估免费搭车计划的有限效果",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "This will relieve",
+      "relation": "措施效果",
+      "meaning": "这会减轻"
+    },
+    {
+      "text": "pressure on the trains",
+      "relation": "受影响负担",
+      "meaning": "火车的客运压力"
+    },
+    {
+      "text": "to some extent.",
+      "relation": "程度限制",
+      "meaning": "在一定程度上"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "整体回指",
+      "text": "This 指前面免费搭车的安排。"
+    },
+    {
+      "title": "压力所在",
+      "text": "on the trains 修饰 pressure，说明压力由什么承担。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "整体回指",
+      "text": "This 指前面免费搭车的安排。"
+    },
+    {
+      "title": "压力所在",
+      "text": "on the trains 修饰 pressure，说明压力由什么承担。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "This",
+      "role": "主语",
+      "explanation": "回指前述措施。"
+    },
+    {
+      "text": "will relieve",
+      "role": "谓语",
+      "explanation": "预测减轻作用。"
+    },
+    {
+      "text": "pressure on the trains",
+      "role": "宾语",
+      "explanation": "指出被减轻的负担。"
+    },
+    {
+      "text": "to some extent.",
+      "role": "程度状语",
+      "explanation": "限制效果的大小。"
+    }
+  ],
+  "words": [
+    {
+      "text": "This",
+      "meaning": "这项安排",
+      "pos": "指示代词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "will",
+      "meaning": "将会",
+      "pos": "情态助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "relieve",
+      "meaning": "减轻",
+      "pos": "动词原形",
+      "phonetic": "/rɪˈliːv/"
+    },
+    {
+      "text": "pressure",
+      "meaning": "压力",
+      "pos": "名词",
+      "phonetic": "/ˈpreʃə/"
+    },
+    {
+      "text": "on",
+      "meaning": "由……承担的",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这些",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "trains",
+      "meaning": "火车",
+      "pos": "名词复数",
+      "phonetic": "/treɪnz/"
+    },
+    {
+      "text": "to",
+      "meaning": "达到（某种程度）",
+      "pos": "介词",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "some",
+      "meaning": "一定的",
+      "pos": "限定词",
+      "phonetic": "/səm/ 或 /sʌm/"
+    },
+    {
+      "text": "extent.",
+      "meaning": "程度",
+      "pos": "名词",
+      "phonetic": "/ɪkˈstent/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

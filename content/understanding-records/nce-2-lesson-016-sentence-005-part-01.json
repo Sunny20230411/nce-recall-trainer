@@ -1,0 +1,90 @@
+{
+  "chinese": "在瑞典度假期间，",
+  "intent": "交代主句事件发生的时间背景，说明是在瑞典的一次度假时段里。",
+  "comparison": null,
+  "backbone": {
+    "text": "During a holiday in Sweden,",
+    "meaning": "在瑞典的一次假期期间（本部分是时间状语，没有独立主干，仅表时间背景）"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语的构成",
+      "text": "“During + 名词短语”用来引出整段时间，说明后面主句事件发生在这段时间之内。"
+    },
+    {
+      "title": "地点修饰的位置",
+      "text": "“in Sweden”放在holiday后面，补充说明假期是在瑞典度过的，属于后置的地点限定。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "During a holiday in Sweden,",
+      "role": "时间状语",
+      "explanation": "整体用来交代后续主句事件发生的时间范围，是一个介词短语作状语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "During",
+      "meaning": "在……期间",
+      "pos": "介词",
+      "phonetic": "/ˈdjʊərɪŋ/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个（泛指某次假期）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "holiday",
+      "meaning": "假期；假日",
+      "pos": "名词",
+      "phonetic": "/ˈhɒlədeɪ/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（某个国家/地点）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "Sweden,",
+      "meaning": "瑞典（国家名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈswiːdən/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "During a holiday",
+      "relation": "时间主体",
+      "meaning": "在一次假期期间"
+    },
+    {
+      "text": "in Sweden,",
+      "relation": "补充说明假期所在的地点",
+      "meaning": "在瑞典"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-016",
+  "sentenceId": "nce-2-lesson-016-sentence-005-part-01",
+  "sentenceOrder": 5,
+  "english": "During a holiday in Sweden,",
+  "lesson": "Lesson 16 A polite request",
+  "notes": [
+    {
+      "title": "时间状语的构成",
+      "text": "“During + 名词短语”用来引出整段时间，说明后面主句事件发生在这段时间之内。"
+    },
+    {
+      "title": "地点修饰的位置",
+      "text": "“in Sweden”放在holiday后面，补充说明假期是在瑞典度过的，属于后置的地点限定。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，需修正两处小问题：1. words中Sweden的英式音标标注不规范且缺少尾音清晰呈现；2. parts中第二块标点随原文保留但释义无需额外调整，另主干说明准确。（非逐句人工审核）"
+}

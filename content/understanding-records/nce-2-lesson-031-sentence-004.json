@@ -1,0 +1,212 @@
+{
+  "chinese": "他攒了多年的钱，1958年他买下了一间属于自己的小车间。",
+  "intent": "叙述主人公先后完成的两件事：长期攒钱，以及在1958年用积蓄买下自己的小车间。",
+  "comparison": {
+    "chinese": "他攒了好几年的钱，到1958年就有了自己的小车间。",
+    "english": "He saved money for years and in 1958 he bought a small workshop of his own.",
+    "steps": [
+      {
+        "label": "第一步：先抓两件并列的事",
+        "text": "He saved money... and... he bought a small workshop",
+        "explanation": "中文会自然觉得“攒钱”是原因、“买车间”是结果，但英文先用and把两件事并列摆出来，时间先后已经能体现因果关系。"
+      },
+      {
+        "label": "第二步：把时间信息放到对应动作旁边",
+        "text": "for years 修饰 saved money；in 1958 修饰 bought a small workshop",
+        "explanation": "中文可以把“好几年”“1958年”都放在前面总说，英文习惯把时间长度紧跟第一个动作，把具体年份紧跟第二个动作。"
+      },
+      {
+        "label": "第三步：理解“属于自己的”怎么放在名词后面",
+        "text": "a small workshop of his own",
+        "explanation": "中文说“自己的小车间”，把“自己的”放在名词前面；英文用 of his own 放在 workshop 后面，表达“归他本人所有”的意思。"
+      }
+    ],
+    "takeaway": "英语常用and连接先后发生的两件事来体现承接关系，时间信息和所属关系习惯放在所修饰的名词或动作后面。"
+  },
+  "backbone": {
+    "text": "He saved money and he bought a small workshop.",
+    "meaning": "他攒了钱，并且买了一间小车间。"
+  },
+  "structureNotes": [
+    {
+      "title": "and连接的并列句",
+      "text": "and前后是两个各自完整的分句，分别讲“攒钱”和“买车间”两件事，既有并列关系，也暗含时间上的先后承接。"
+    },
+    {
+      "title": "of his own的用法",
+      "text": "of his own 放在名词workshop后面，表示“属于他自己的”，相当于修饰workshop的所属说明，不是“他自己的（人）”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He saved money for years",
+      "role": "第一个并列分句",
+      "explanation": "说明主人公做的第一件事：长期攒钱，for years补充攒钱持续的时间长度。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个分句，表示两个动作在内容上并列、时间上先后承接。"
+    },
+    {
+      "text": "in 1958",
+      "role": "时间状语",
+      "explanation": "说明第二个动作“买车间”发生的具体年份。"
+    },
+    {
+      "text": "he bought a small workshop of his own",
+      "role": "第二个并列分句",
+      "explanation": "说明主人公做的第二件事：买下一间属于自己的小车间，of his own补充说明车间的所属。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "saved",
+      "meaning": "储蓄，积攒",
+      "pos": "动词",
+      "phonetic": "/seɪvd/"
+    },
+    {
+      "text": "money",
+      "meaning": "钱",
+      "pos": "名词",
+      "phonetic": "/ˈmʌni/"
+    },
+    {
+      "text": "for",
+      "meaning": "（表示一段时间）计，达",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "years",
+      "meaning": "多年，好几年",
+      "pos": "名词",
+      "phonetic": "/jɪəz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（某一年）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "1958",
+      "meaning": "1958年",
+      "pos": "数词",
+      "phonetic": "/ˌnaɪnˈtiːn ˈfɪfti eɪt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "bought",
+      "meaning": "买，买下",
+      "pos": "动词",
+      "phonetic": "/bɔːt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（间）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "small",
+      "meaning": "小的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/"
+    },
+    {
+      "text": "workshop",
+      "meaning": "车间，作坊",
+      "pos": "名词",
+      "phonetic": "/ˈwɜːkʃɒp/"
+    },
+    {
+      "text": "of",
+      "meaning": "（表示所属）……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "own.",
+      "meaning": "自己的",
+      "pos": "形容词",
+      "phonetic": "/əʊn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He saved money",
+      "relation": "第一个动作主体和动作",
+      "meaning": "他攒钱"
+    },
+    {
+      "text": "for years",
+      "relation": "补充说明攒钱的时间长度",
+      "meaning": "持续了多年"
+    },
+    {
+      "text": "and",
+      "relation": "连接前后两件事",
+      "meaning": "并且"
+    },
+    {
+      "text": "in 1958",
+      "relation": "说明第二个动作发生的时间",
+      "meaning": "在1958年"
+    },
+    {
+      "text": "he bought a small workshop",
+      "relation": "第二个动作主体和动作",
+      "meaning": "他买了一间小车间"
+    },
+    {
+      "text": "of his own.",
+      "relation": "补充说明小车间的所属",
+      "meaning": "属于他自己的"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-031",
+  "sentenceId": "nce-2-lesson-031-sentence-004",
+  "sentenceOrder": 4,
+  "english": "He saved money for years and in 1958 he bought a small workshop of his own.",
+  "lesson": "Lesson 31 Success story",
+  "notes": [
+    {
+      "title": "and连接的并列句",
+      "text": "and前后是两个各自完整的分句，分别讲“攒钱”和“买车间”两件事，既有并列关系，也暗含时间上的先后承接。"
+    },
+    {
+      "title": "of his own的用法",
+      "text": "of his own 放在名词workshop后面，表示“属于他自己的”，相当于修饰workshop的所属说明，不是“他自己的（人）”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：仅单词列表中最后一项`own.`的词性标注不够准确，且原文标点附在词项后无需额外调整，其余内容均符合规范，可修正后通过。（非逐句人工审核）"
+}

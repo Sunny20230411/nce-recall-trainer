@@ -1,0 +1,126 @@
+{
+  "chinese": "一张票的正常价格是两千英镑！",
+  "intent": "说明一张票的正常售价金额，用来和前文提到的旅行费用做对比。",
+  "comparison": {
+    "chinese": "该男子被责令支付3500英镑的旅行费用。一张票的正常价格是2000英镑！",
+    "english": "The man was ordered to pay £3,500 for the cost of the trip. The normal price of a ticket is £2,000!",
+    "steps": [
+      {
+        "label": "提取前文金额",
+        "text": "The man was ordered to pay £3,500 for the cost of the trip.",
+        "explanation": "前文提到男子需要支付的旅行总费用为3500英镑，是被责令支付的金额。"
+      },
+      {
+        "label": "提取本句金额",
+        "text": "The normal price of a ticket is £2,000!",
+        "explanation": "本句说明一张票的正常售价是2000英镑，是常规票价标准。"
+      },
+      {
+        "label": "对比两者差异",
+        "text": "£3,500 与 £2,000 的差额",
+        "explanation": "实际支付的旅行费用比正常票价高出1500英镑，突出旅行费用的高昂。"
+      }
+    ],
+    "takeaway": "通过实际支付费用和正常票价的对比，凸显本次旅行成本远超常规水平。"
+  },
+  "backbone": {
+    "text": "The price is £2,000!",
+    "meaning": "价格是两千英镑！"
+  },
+  "structureNotes": [
+    {
+      "title": "of 引出价格所属对象",
+      "text": "“of a ticket” 接在 price 后面，说明这个价格是属于一张票的，也就是票价。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The normal price of a ticket",
+      "role": "句子主语",
+      "explanation": "整体表示“一张票的正常价格”，是句子要说的主体事物。"
+    },
+    {
+      "text": "is £2,000!",
+      "role": "谓语+表语",
+      "explanation": "is 是系动词，£2,000 用来说明主语的具体金额。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这个（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "正常的",
+      "pos": "形容词",
+      "phonetic": "/ˈnɔːml/",
+      "text": "normal"
+    },
+    {
+      "meaning": "价格",
+      "pos": "名词",
+      "phonetic": "/praɪs/",
+      "text": "price"
+    },
+    {
+      "meaning": "……的（表示所属）",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "一张（不定冠词）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "票",
+      "pos": "名词",
+      "phonetic": "/ˈtɪkɪt/",
+      "text": "ticket"
+    },
+    {
+      "meaning": "是",
+      "pos": "动词（be动词第三人称单数现在时）",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "两千英镑",
+      "pos": "名词短语（货币金额）",
+      "phonetic": "/tuː ˈθaʊzənd paʊndz/",
+      "text": "£2,000!"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The normal price of a ticket",
+      "relation": "描述的主体事物",
+      "meaning": "一张票的正常价格"
+    },
+    {
+      "text": "is £2,000!",
+      "relation": "说明主体的金额",
+      "meaning": "是两千英镑"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-046",
+  "sentenceId": "nce-2-lesson-046-sentence-010",
+  "sentenceOrder": 13,
+  "english": "The normal price of a ticket is £2,000!",
+  "lesson": "Lesson 46 Expensive and uncomfortable",
+  "notes": [
+    {
+      "title": "of 引出价格所属对象",
+      "text": "“of a ticket” 接在 price 后面，说明这个价格是属于一张票的，也就是票价。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，补充前后文对比模块以体现该句与前文旅行费用的对照功能，符合教学意图。（非逐句人工审核）"
+}

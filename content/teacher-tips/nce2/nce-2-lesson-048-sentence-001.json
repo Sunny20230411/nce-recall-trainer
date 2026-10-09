@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 3,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-048",
+  "sentenceId": "nce-2-lesson-048-sentence-001",
+  "english": "Dentists always ask questions when it is impossible for you to answer.",
+  "text": "这句在说牙医提问的时机让人无奈：偏偏是在你没法开口回答的时候。when 把提问和这种处境联系起来，传达的是“什么时候问”，不是“为什么问”。when you can't answer 也自然，can't 在这里说的是客观处境受限，不是能力差。",
+  "editorialReviewNote": "Codex抽检修订：纠正can't只能指能力不足的误导，突出时机与原因的区别。",
+  "sourceDigest": "06a762e209e9ec11544f1c722c2d0f89f012cc49e8ecc13a2cb3bdafe8a5933c",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：准确抓住了两种表达的视角差异：you can't偏能力，it's impossible for you to do偏客观处境，迁移具体。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "澄清了can't的常见误解，点明when的表意功能，符合教学要求。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

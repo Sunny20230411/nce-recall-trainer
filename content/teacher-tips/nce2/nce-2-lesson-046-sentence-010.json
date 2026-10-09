@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-046",
+  "sentenceId": "nce-2-lesson-046-sentence-010",
+  "english": "The normal price of a ticket is £2,000!",
+  "text": "前面讲的都是过去发生的事，这句却用一般现在时 is，因为正常票价是客观、长期的事实，不随那次事件改变。说明固定价格、常规规则这类稳定事实时，即使夹在往事叙述里，也常用一般现在时。",
+  "sourceDigest": "9594e05e1b52c56d6c8f6dd5f9462d21be7f58bab037bee6c964cb453152a259",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：点透了时态选择的依据是事实的稳定程度，不是整段时态必须统一，能纠正学习者“前后时态一致”的误区。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "点透叙事中穿插一般现在时的原因，规律准确且有迁移价值。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

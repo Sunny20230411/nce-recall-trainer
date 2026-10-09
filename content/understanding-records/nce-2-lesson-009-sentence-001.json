@@ -1,0 +1,139 @@
+{
+  "chinese": "星期三晚上，我们去了市政厅。",
+  "intent": "陈述过去某次出行的时间和目的地，交代故事发生的背景时间与地点。",
+  "comparison": null,
+  "backbone": {
+    "text": "we went to the Town Hall",
+    "meaning": "我们去了市政厅"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语的位置",
+      "text": "句首的On Wednesday evening用逗号与主句隔开，明确说明整件事发生的时间，中文习惯把时间放在句首，英文也可以放在句首起强调背景的作用。"
+    },
+    {
+      "title": "went to的理解",
+      "text": "went是go的过去式，后面接地点名词时加to，表示“去往某处”，此处说明动作已经发生在过去。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "On Wednesday evening,",
+      "role": "时间状语",
+      "explanation": "说明“我们去市政厅”这件事发生的具体时间，位于句首用逗号分隔。"
+    },
+    {
+      "text": "we",
+      "role": "主语",
+      "explanation": "指说话人在内的一群人，是“去”这个动作的发出者。"
+    },
+    {
+      "text": "went to",
+      "role": "谓语",
+      "explanation": "由go的过去式went加介词to构成，共同表示“去往”的过去动作。"
+    },
+    {
+      "text": "the Town Hall.",
+      "role": "介词宾语（介词to的宾语，整体短语作地点状语）",
+      "explanation": "指动作去往的具体地点，即市政厅，the表示特指这处建筑。"
+    }
+  ],
+  "words": [
+    {
+      "text": "On",
+      "meaning": "在（用于具体某一天的早中晚等时间前）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "Wednesday",
+      "meaning": "星期三",
+      "pos": "名词",
+      "phonetic": "/ˈwenzdeɪ/"
+    },
+    {
+      "text": "evening,",
+      "meaning": "晚上，傍晚",
+      "pos": "名词",
+      "phonetic": "/ˈiːvnɪŋ/"
+    },
+    {
+      "text": "we",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "went",
+      "meaning": "去（go的过去式）",
+      "pos": "动词",
+      "phonetic": "/went/"
+    },
+    {
+      "text": "to",
+      "meaning": "向，到（后接地点名词）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（表示特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "Town",
+      "meaning": "城镇，市镇",
+      "pos": "名词",
+      "phonetic": "/taʊn/"
+    },
+    {
+      "text": "Hall.",
+      "meaning": "大厅，礼堂",
+      "pos": "名词",
+      "phonetic": "/hɔːl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "On Wednesday evening,",
+      "relation": "时间",
+      "meaning": "在星期三晚上"
+    },
+    {
+      "text": "we",
+      "relation": "动作发出者",
+      "meaning": "我们"
+    },
+    {
+      "text": "went to",
+      "relation": "动作",
+      "meaning": "去了（到某地）"
+    },
+    {
+      "text": "the Town Hall.",
+      "relation": "去往的地点",
+      "meaning": "市政厅"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-009",
+  "sentenceId": "nce-2-lesson-009-sentence-001",
+  "sentenceOrder": 1,
+  "english": "On Wednesday evening, we went to the Town Hall.",
+  "lesson": "Lesson 9 A cold welcome",
+  "notes": [
+    {
+      "title": "时间状语的位置",
+      "text": "句首的On Wednesday evening用逗号与主句隔开，明确说明整件事发生的时间，中文习惯把时间放在句首，英文也可以放在句首起强调背景的作用。"
+    },
+    {
+      "title": "went to的理解",
+      "text": "went是go的过去式，后面接地点名词时加to，表示“去往某处”，此处说明动作已经发生在过去。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，仅存在两处小问题：1. 单词evening,和Hall.的释义多余添加了标点说明，不符合仅解释词本身的要求；2. the Town Hall的语法角色标注为“地点宾语”不准确，went to是“不及物动词+介词”结构，the Town Hall是介词to的宾语，整体介词短语作地点状语。其余内容符合要求。（非逐句人工审核）"
+}

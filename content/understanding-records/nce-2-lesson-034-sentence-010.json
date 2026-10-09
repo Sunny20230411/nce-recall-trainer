@@ -1,0 +1,158 @@
+{
+  "chinese": "那是二十年前丹还是个十五岁男孩的时候被偷走的！",
+  "intent": "说明某件物品（上文的自行车）被盗的时间，以及当时丹的年龄情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "It was stolen twenty years ago.",
+    "meaning": "它在二十年前被偷走了。"
+  },
+  "structureNotes": [
+    {
+      "title": "when引导的时间从句作用",
+      "text": "when 在这里承接“二十年前”这个时间点，进一步说明被盗发生时丹的年龄状态，不是普通的“当…时候”并列两件事，而是补充交代那个时间点的背景。"
+    },
+    {
+      "title": "被动语态的表意",
+      "text": "It was stolen 用被动结构，重点在“东西被盗”这件事本身，不需要也没说具体是谁偷的，符合上下文只讲自行车失而复得、不提偷盗者的叙述角度。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It was stolen",
+      "role": "主句谓语与主语",
+      "explanation": "It 指代上文提到的自行车，was stolen 是一般过去时被动语态，表示过去发生的“被偷”动作。"
+    },
+    {
+      "text": "twenty years ago",
+      "role": "时间状语",
+      "explanation": "说明被盗这件事发生在多久以前，修饰主句的动作。"
+    },
+    {
+      "text": "when Dan was a boy of fifteen",
+      "role": "时间定语从句",
+      "explanation": "when 指代 twenty years ago 那个时间，补充说明当时丹的身份和年龄，进一步锁定被盗的时间背景。"
+    },
+    {
+      "text": "of fifteen",
+      "role": "后置修饰语",
+      "explanation": "放在 boy 后面，说明男孩的年龄是十五岁。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，构成被动）是/被",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "stolen",
+      "meaning": "偷（过去分词，表被动）",
+      "pos": "动词",
+      "phonetic": "/ˈstəʊlən/"
+    },
+    {
+      "text": "twenty",
+      "meaning": "二十",
+      "pos": "数词",
+      "phonetic": "/ˈtwenti/"
+    },
+    {
+      "text": "years",
+      "meaning": "年（复数）",
+      "pos": "名词",
+      "phonetic": "/jɪəz/"
+    },
+    {
+      "text": "ago",
+      "meaning": "以前",
+      "pos": "副词",
+      "phonetic": "/əˈɡəʊ/"
+    },
+    {
+      "text": "when",
+      "meaning": "在那时；当…时候",
+      "pos": "关系副词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "Dan",
+      "meaning": "丹（男子名）",
+      "pos": "名词",
+      "phonetic": "/dæn/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式）是",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "boy",
+      "meaning": "男孩",
+      "pos": "名词",
+      "phonetic": "/bɔɪ/"
+    },
+    {
+      "text": "of",
+      "meaning": "（表示属性、年龄等）的",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "fifteen!",
+      "meaning": "十五",
+      "pos": "数词",
+      "phonetic": "/ˌfɪfˈtiːn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It was stolen",
+      "relation": "核心事件",
+      "meaning": "它被偷走了"
+    },
+    {
+      "text": "twenty years ago",
+      "relation": "事件发生的时间",
+      "meaning": "二十年前"
+    },
+    {
+      "text": "when Dan was a boy of fifteen!",
+      "relation": "补充说明二十年前那个时间点的背景",
+      "meaning": "当时丹还是个十五岁的男孩"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-034",
+  "sentenceId": "nce-2-lesson-034-sentence-010",
+  "sentenceOrder": 14,
+  "english": "It was stolen twenty years ago when Dan was a boy of fifteen!",
+  "lesson": "Lesson 34 Quick work",
+  "notes": [
+    {
+      "title": "when引导的时间从句作用",
+      "text": "when 在这里承接“二十年前”这个时间点，进一步说明被盗发生时丹的年龄状态，不是普通的“当…时候”并列两件事，而是补充交代那个时间点的背景。"
+    },
+    {
+      "title": "被动语态的表意",
+      "text": "It was stolen 用被动结构，重点在“东西被盗”这件事本身，不需要也没说具体是谁偷的，符合上下文只讲自行车失而复得、不提偷盗者的叙述角度。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅words中fifteen的英式音标有误且标点不应混入释义，需修正。（非逐句人工审核）"
+}

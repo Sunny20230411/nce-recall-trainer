@@ -1,0 +1,161 @@
+{
+  "chinese": "\"不关你的事，\"那个年轻人粗鲁地说。",
+  "intent": "转述年轻人用不客气的语气说出的一句表态，表明某事与听话人无关。",
+  "comparison": {
+    "chinese": "年轻人粗鲁地说：“不关你的事。”",
+    "english": "‘It's none of your business,’ the young man said rudely.",
+    "steps": [
+      {
+        "label": "第一步：先抓引语内容",
+        "text": "‘It's none of your business,’",
+        "explanation": "英文把直接引语放在句首，读者先看到说话内容，中文也可以先引话再交代说话人，但更常见的是先交代“谁怎么说”再引出话语。"
+      },
+      {
+        "label": "第二步：再接说话人和方式",
+        "text": "the young man said rudely.",
+        "explanation": "这部分交代是谁说的、说话的语气；英文把它放在引语后面作为补充，中文则常把“年轻人粗鲁地说”放在引语前面。"
+      }
+    ],
+    "takeaway": "中文习惯先说“谁怎么说”再说内容，英文可以把引语提前，再交代说话人和说话方式；理解时先把引语当一句话，再把后面的“谁说、怎么说”接回去。"
+  },
+  "backbone": {
+    "text": "‘It's none of your business,’ the young man said.",
+    "meaning": "年轻人说了“不关你的事”这句话。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把直接引语放在句首，后面再交代说话人和语气；引语本身是完整的句子，用引号标出。"
+    },
+    {
+      "title": "It's none of your business 的理解",
+      "text": "这是常用固定表达，意思是“不关你的事”，用来表示某事与对方无关，语气通常比较生硬。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘It's none of your business,’",
+      "role": "直接引语（宾语）",
+      "explanation": "这是年轻人说出的原话，是 said 的内容，整体作 said 的宾语。"
+    },
+    {
+      "text": "the young man",
+      "role": "主语",
+      "explanation": "指发出“说”这个动作的人，即那个年轻人。"
+    },
+    {
+      "text": "said",
+      "role": "谓语动词",
+      "explanation": "表示“说”的动作，是句子的核心谓语。"
+    },
+    {
+      "text": "rudely.",
+      "role": "方式状语",
+      "explanation": "说明“说”这个动作的方式是粗鲁的、不客气的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘It's",
+      "meaning": "它是（it is的缩写）",
+      "pos": "代词+be动词缩写",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "none",
+      "meaning": "没有一个；毫无",
+      "pos": "代词",
+      "phonetic": "/nʌn/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表示所属或关联）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "your",
+      "meaning": "你的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/jɔː/"
+    },
+    {
+      "text": "business,’",
+      "meaning": "事，事务",
+      "pos": "名词",
+      "phonetic": "/ˈbɪznəs/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个；那个（特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "young",
+      "meaning": "年轻的",
+      "pos": "形容词",
+      "phonetic": "/jʌŋ/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人；人",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "said",
+      "meaning": "说（过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "rudely.",
+      "meaning": "粗鲁地；无礼地",
+      "pos": "副词",
+      "phonetic": "/ˈruːdli/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘It's none of your business,’",
+      "relation": "说话内容",
+      "meaning": "“不关你的事，”"
+    },
+    {
+      "text": "the young man",
+      "relation": "动作发出者，描述谁在说",
+      "meaning": "那个年轻人"
+    },
+    {
+      "text": "said",
+      "relation": "核心动作",
+      "meaning": "说"
+    },
+    {
+      "text": "rudely.",
+      "relation": "补充说话的方式",
+      "meaning": "粗鲁地"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-001",
+  "sentenceId": "nce-2-lesson-001-sentence-015",
+  "sentenceOrder": 15,
+  "english": "‘It's none of your business,’ the young man said rudely.",
+  "lesson": "Lesson 1 A private conversation",
+  "notes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把直接引语放在句首，后面再交代说话人和语气；引语本身是完整的句子，用引号标出。"
+    },
+    {
+      "title": "It's none of your business 的理解",
+      "text": "这是常用固定表达，意思是“不关你的事”，用来表示某事与对方无关，语气通常比较生硬。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅存在词项释义、词性标注的小问题：1. 首个词项“It's”的释义混入标点说明且词性标注不规范；2. “your”为英式音标，“of”的英式音标应为/ɒv/（弱读/əv/）但原标注基本可接受，主要修正首个词项的释义与词性，以及“business”词项的释义冗余标点说明；3. 比较模块逻辑合理，主干、结构说明等均无错误。（非逐句人工审核）"
+}

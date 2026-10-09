@@ -1,0 +1,196 @@
+{
+  "chinese": "他甚至一次都没能把自己的车开进车库。",
+  "intent": "说明某个人从过去到现在始终没达成把自己的车开进车库这件事，强调一次成功的情况都没有。",
+  "comparison": {
+    "chinese": "他甚至一次都没能把自己的车开进车库",
+    "english": "he has not been able to get his own car into his garage even once",
+    "steps": [
+      {
+        "label": "第一步：先抓主干事件",
+        "text": "he has not been able to get his own car into his garage",
+        "explanation": "中文先说核心动作“没能把车开进车库”，英文也是先交代主语和核心事件，这部分语序和中文“把”字句的逻辑相近。"
+      },
+      {
+        "label": "第二步：看强调语气的位置",
+        "text": "even once",
+        "explanation": "中文习惯把“甚至一次都”放在动词前面加强否定，英文把 even once 放在句末，用来补充说明“成功开进车库”这件事发生的次数为零。"
+      }
+    ],
+    "takeaway": "英文表“一次都没”的强调成分常放句末，中文会把这类强调插在否定词和动词之间，阅读时先找到核心事件，再补入次数强调即可。"
+  },
+  "backbone": {
+    "text": "he has not been able to get his car into his garage",
+    "meaning": "他没能把自己的车开进车库"
+  },
+  "structureNotes": [
+    {
+      "title": "has not been able to 的含义",
+      "text": "has not been able to 是 be able to 的现在完成时否定形式，强调从过去到现在一直都没能力/没机会做成这件事，不是单指某一次失败。"
+    },
+    {
+      "title": "even once 的作用",
+      "text": "even once 放在句末修饰整个事件，用“哪怕一次”的语气加强否定，说明成功开进车库的次数是零。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "has not been able to",
+      "role": "谓语部分（表能力的完成时否定）",
+      "explanation": "由 have + been + able to 构成现在完成时结构，后接动词原形，表示从过去到现在一直能够/没能做某事。"
+    },
+    {
+      "text": "get his own car into his garage",
+      "role": "动作及结果补语",
+      "explanation": "get 在这里表示“使……处于某个位置”，into his garage 说明车被挪动到的目的地是车库里。"
+    },
+    {
+      "text": "even once",
+      "role": "频度强调状语",
+      "explanation": "even 加强语气，once 表示一次，整体用来强调“成功开进车库”这件事一次都没发生过。"
+    }
+  ],
+  "words": [
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "has",
+      "meaning": "（助动词，构成现在完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有（表否定）",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "been",
+      "meaning": "（be的过去分词，构成完成时）",
+      "pos": "动词",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "able",
+      "meaning": "能够的，有能力的",
+      "pos": "形容词",
+      "phonetic": "/ˈeɪbl/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "get",
+      "meaning": "使……移动，弄",
+      "pos": "动词",
+      "phonetic": "/ɡet/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "own",
+      "meaning": "自己的",
+      "pos": "形容词",
+      "phonetic": "/əʊn/"
+    },
+    {
+      "text": "car",
+      "meaning": "汽车，轿车",
+      "pos": "名词",
+      "phonetic": "/kɑː(r)/"
+    },
+    {
+      "text": "into",
+      "meaning": "到……里面，进入",
+      "pos": "介词",
+      "phonetic": "/ˈɪntuː/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "garage",
+      "meaning": "车库",
+      "pos": "名词",
+      "phonetic": "/ˈɡærɑːʒ/"
+    },
+    {
+      "text": "even",
+      "meaning": "甚至，连",
+      "pos": "副词",
+      "phonetic": "/ˈiːvn/"
+    },
+    {
+      "text": "once.",
+      "meaning": "一次",
+      "pos": "副词",
+      "phonetic": "/wʌns/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "he",
+      "relation": "描述谁",
+      "meaning": "他"
+    },
+    {
+      "text": "has not been able to",
+      "relation": "表述主语的能力状态（现在完成时否定）",
+      "meaning": "一直没能"
+    },
+    {
+      "text": "get",
+      "relation": "具体动作",
+      "meaning": "使……移动/弄"
+    },
+    {
+      "text": "his own car",
+      "relation": "动作的对象",
+      "meaning": "他自己的车"
+    },
+    {
+      "text": "into his garage",
+      "relation": "动作的去向地点",
+      "meaning": "进他的车库"
+    },
+    {
+      "text": "even once.",
+      "relation": "补充强调发生的次数为零",
+      "meaning": "甚至一次（都没有）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-028",
+  "sentenceId": "nce-2-lesson-028-sentence-004-part-02",
+  "sentenceOrder": 8,
+  "english": "he has not been able to get his own car into his garage even once.",
+  "lesson": "Lesson 28 No parking",
+  "notes": [
+    {
+      "title": "has not been able to 的含义",
+      "text": "has not been able to 是 be able to 的现在完成时否定形式，强调从过去到现在一直都没能力/没机会做成这件事，不是单指某一次失败。"
+    },
+    {
+      "title": "even once 的作用",
+      "text": "even once 放在句末修饰整个事件，用“哪怕一次”的语气加强否定，说明成功开进车库的次数是零。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅words中最后一项once.的释义额外提及句末句号不符合词项解释约定，需修正，其余字段无需改动。（非逐句人工审核）"
+}

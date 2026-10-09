@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-039",
+  "sentenceId": "nce-2-lesson-039-sentence-005",
+  "english": "Gilbert said he was inquiring about a certain patient, a Mr John Gilbert.",
+  "text": "a certain patient 后面接 a Mr John Gilbert，不是在重复名字，而是先说“有那么一位病人”，再补出具体是谁，带一点不便直报身份的委婉口吻。如果直接说 Mr John Gilbert 也对，但就少了这种故意绕一层的表达效果。",
+  "sourceDigest": "db9e58b9f4d8ab434812c4649bf80b6275b48f05ffdc32ae3f43abd49c993791",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：准确点透了a certain加姓名的委婉语气，对比说明两种表达的差异，没有误判正误。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "准确解释a certain与同位语的委婉语气，对比自然表达的差异，符合语境。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

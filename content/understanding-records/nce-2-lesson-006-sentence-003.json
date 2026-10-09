@@ -1,0 +1,156 @@
+{
+  "chinese": "他向我要了一顿饭和一杯啤酒。",
+  "intent": "叙述乞丐向说话人索要食物和啤酒这一过往行为。",
+  "comparison": null,
+  "backbone": {
+    "text": "He asked me for a meal and a glass of beer.",
+    "meaning": "他向我索要一顿饭和一杯啤酒。"
+  },
+  "structureNotes": [
+    {
+      "title": "ask sb for sth 的表意",
+      "text": "ask 后接人再接 for 加事物，表示向某人索要某物，me 是索要的对象，for 引出所要的东西。"
+    },
+    {
+      "title": "and 连接两个索要的事物",
+      "text": "a meal 和 a glass of beer 由 and 并列，都是乞丐索要的物品，地位平等。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文出现的乞丐，是发出“索要”动作的人。"
+    },
+    {
+      "text": "asked",
+      "role": "谓语动词",
+      "explanation": "是 ask 的过去式，表示过去发生的“索要、请求”动作。"
+    },
+    {
+      "text": "me",
+      "role": "间接宾语",
+      "explanation": "是被索要的对象，即说话人。"
+    },
+    {
+      "text": "for a meal and a glass of beer",
+      "role": "直接宾语（介词for引出索要内容）",
+      "explanation": "由 for 引出，说明向对方索要的具体东西，包含两个并列的事物，整体构成谓语动词asked的直接宾语部分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "asked",
+      "meaning": "请求，索要（ask的过去式）",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "for",
+      "meaning": "为了，要（引出索要的对象）",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（顿）",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "meal",
+      "meaning": "一餐，一顿饭",
+      "pos": "名词",
+      "phonetic": "/miːl/"
+    },
+    {
+      "text": "and",
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（杯）",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "glass",
+      "meaning": "玻璃杯，一杯（的量）",
+      "pos": "名词",
+      "phonetic": "/ɡlɑːs/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表示所属或含量）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "beer.",
+      "meaning": "啤酒",
+      "pos": "名词",
+      "phonetic": "/bɪə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "动作发出者",
+      "meaning": "他（指代乞丐）"
+    },
+    {
+      "text": "asked me",
+      "relation": "核心动作及索要对象",
+      "meaning": "向我索要"
+    },
+    {
+      "text": "for a meal",
+      "relation": "索要的第一个事物",
+      "meaning": "一顿饭"
+    },
+    {
+      "text": "and",
+      "relation": "并列连接",
+      "meaning": "和"
+    },
+    {
+      "text": "a glass of beer.",
+      "relation": "索要的第二个事物",
+      "meaning": "一杯啤酒"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-006",
+  "sentenceId": "nce-2-lesson-006-sentence-003",
+  "sentenceOrder": 3,
+  "english": "He asked me for a meal and a glass of beer.",
+  "lesson": "Lesson 6 Percy Buttons",
+  "notes": [
+    {
+      "title": "ask sb for sth 的表意",
+      "text": "ask 后接人再接 for 加事物，表示向某人索要某物，me 是索要的对象，for 引出所要的东西。"
+    },
+    {
+      "title": "and 连接两个索要的事物",
+      "text": "a meal 和 a glass of beer 由 and 并列，都是乞丐索要的物品，地位平等。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅两处小问题需修正：1. 单词 beer. 的释义误加句末标点，需去除标点使释义仅对应词本身；2. 结构成分中 \"for a meal and a glass of beer\" 的角色标注不够规范，应明确为直接宾语（由介词for引出的索要对象，整体作ask的直接宾语相关补足成分，更正为更准确的语法角色表述）。（非逐句人工审核）"
+}

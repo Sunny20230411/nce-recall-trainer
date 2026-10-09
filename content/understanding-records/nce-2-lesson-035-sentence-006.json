@@ -1,0 +1,156 @@
+{
+  "chinese": "罗伊行动迅速，开着公交车径直朝小偷冲去。",
+  "intent": "讲述罗伊在发现小偷后的两个连续快速动作：立刻行动并驾车冲向小偷。",
+  "comparison": null,
+  "backbone": {
+    "text": "Roy acted quickly and drove the bus straight at the thieves.",
+    "meaning": "罗伊迅速行动，开公交车径直冲向小偷。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列的两个动作",
+      "text": "句中用and连接acted quickly和drove the bus straight at the thieves，是主语Roy先后发出的两个动作，都表现出他反应快、行动果断。"
+    },
+    {
+      "title": "straight at的含义",
+      "text": "straight在这里修饰drove，表示“径直地”，at指向动作的目标the thieves，合起来表示开车径直朝着小偷的方向冲过去，带有明确的针对性。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Roy",
+      "role": "主语",
+      "explanation": "句子两个动作的发出者，指名叫罗伊的人。"
+    },
+    {
+      "text": "acted quickly",
+      "role": "第一个谓语部分",
+      "explanation": "描述罗伊的第一个动作：行动得很快，quickly修饰动作的速度。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个并列的谓语动作，表示动作先后或同时发生。"
+    },
+    {
+      "text": "drove the bus straight at the thieves.",
+      "role": "第二个谓语部分",
+      "explanation": "描述罗伊的第二个动作：驾驶公交车径直冲向小偷，the bus是drove的宾语，straight at the thieves说明开车的方向和目标。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Roy",
+      "meaning": "罗伊（男子名）",
+      "pos": "名词",
+      "phonetic": "/rɔɪ/"
+    },
+    {
+      "text": "acted",
+      "meaning": "行动；做事（act的过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈæktɪd/"
+    },
+    {
+      "text": "quickly",
+      "meaning": "迅速地；很快地",
+      "pos": "副词",
+      "phonetic": "/ˈkwɪkli/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "drove",
+      "meaning": "驾驶（drive的过去式）",
+      "pos": "动词",
+      "phonetic": "/drəʊv/"
+    },
+    {
+      "text": "the",
+      "meaning": "这；那（定冠词，表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bus",
+      "meaning": "公交车；公共汽车",
+      "pos": "名词",
+      "phonetic": "/bʌs/"
+    },
+    {
+      "text": "straight",
+      "meaning": "径直地；直接地",
+      "pos": "副词",
+      "phonetic": "/streɪt/"
+    },
+    {
+      "text": "at",
+      "meaning": "朝；向（表示方向或目标）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这；那（定冠词，表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "thieves.",
+      "meaning": "小偷（thief的复数形式）",
+      "pos": "名词",
+      "phonetic": "/θiːvz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Roy",
+      "relation": "动作发出者（主语）",
+      "meaning": "罗伊"
+    },
+    {
+      "text": "acted quickly",
+      "relation": "第一个动作及状态",
+      "meaning": "行动迅速"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列动作",
+      "meaning": "并且"
+    },
+    {
+      "text": "drove the bus",
+      "relation": "第二个动作及宾语",
+      "meaning": "驾驶公交车"
+    },
+    {
+      "text": "straight at the thieves.",
+      "relation": "补充说明开车的方向和目标",
+      "meaning": "径直朝小偷（冲去）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-035",
+  "sentenceId": "nce-2-lesson-035-sentence-006",
+  "sentenceOrder": 7,
+  "english": "Roy acted quickly and drove the bus straight at the thieves.",
+  "lesson": "Lesson 35 Stop thief!",
+  "notes": [
+    {
+      "title": "并列的两个动作",
+      "text": "句中用and连接acted quickly和drove the bus straight at the thieves，是主语Roy先后发出的两个动作，都表现出他反应快、行动果断。"
+    },
+    {
+      "title": "straight at的含义",
+      "text": "straight在这里修饰drove，表示“径直地”，at指向动作的目标the thieves，合起来表示开车径直朝着小偷的方向冲过去，带有明确的针对性。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需修正单词释义中多余的句末标点说明，其余内容符合要求。（非逐句人工审核）"
+}

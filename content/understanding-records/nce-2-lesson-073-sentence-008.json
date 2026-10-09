@@ -1,0 +1,180 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-073",
+  "sentenceId": "nce-2-lesson-073-sentence-008",
+  "sentenceOrder": 10,
+  "english": "The driver gave him a few biscuits and a cup of coffee and left him just outside the city.",
+  "chinese": "司机给了他几块饼干和一杯咖啡，然后把他留在紧挨城外的地方。",
+  "lesson": "Lesson 73 The record-holder",
+  "intent": "交代司机提供食物后在城外放下男孩",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "The driver gave him a few biscuits and a cup of coffee",
+      "relation": "给予食物",
+      "meaning": "司机给他几块饼干和一杯咖啡"
+    },
+    {
+      "text": "and left him just outside the city.",
+      "relation": "下车位置",
+      "meaning": "把他留在紧挨城外的地方"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "双宾语",
+      "text": "gave 后的 him 是接受者，biscuits 和 coffee 是给予物。"
+    },
+    {
+      "title": "位置补足",
+      "text": "left him 后的地点说明他被留下的位置。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "双宾语",
+      "text": "gave 后的 him 是接受者，biscuits 和 coffee 是给予物。"
+    },
+    {
+      "title": "位置补足",
+      "text": "left him 后的地点说明他被留下的位置。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The driver",
+      "role": "主语",
+      "explanation": "两个动作的执行者。"
+    },
+    {
+      "text": "gave him a few biscuits and a cup of coffee",
+      "role": "第一并列谓语及双宾语",
+      "explanation": "交代所给食物与接受者。"
+    },
+    {
+      "text": "and left him just outside the city.",
+      "role": "第二并列谓语及补足内容",
+      "explanation": "交代留人位置。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这位",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "driver",
+      "meaning": "司机",
+      "pos": "名词",
+      "phonetic": "/ˈdraɪvə/"
+    },
+    {
+      "text": "gave",
+      "meaning": "给",
+      "pos": "动词",
+      "phonetic": "/ɡeɪv/"
+    },
+    {
+      "text": "him",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hɪm/ 或 /ɪm/"
+    },
+    {
+      "text": "a",
+      "meaning": "与few组成几个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "few",
+      "meaning": "几个",
+      "pos": "数量限定词",
+      "phonetic": "/fjuː/"
+    },
+    {
+      "text": "biscuits",
+      "meaning": "饼干",
+      "pos": "复数名词",
+      "phonetic": "/ˈbɪskɪts/"
+    },
+    {
+      "text": "and",
+      "meaning": "和",
+      "pos": "并列连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "cup",
+      "meaning": "杯",
+      "pos": "名词",
+      "phonetic": "/kʌp/"
+    },
+    {
+      "text": "of",
+      "meaning": "装有",
+      "pos": "介词",
+      "phonetic": "/ɒv/ 或 /əv/"
+    },
+    {
+      "text": "coffee",
+      "meaning": "咖啡",
+      "pos": "不可数名词",
+      "phonetic": "/ˈkɒfi/"
+    },
+    {
+      "text": "and",
+      "meaning": "然后",
+      "pos": "并列连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "left",
+      "meaning": "留下",
+      "pos": "动词",
+      "phonetic": "/left/"
+    },
+    {
+      "text": "him",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hɪm/ 或 /ɪm/"
+    },
+    {
+      "text": "just",
+      "meaning": "就在；表示距离很近",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "outside",
+      "meaning": "在……外",
+      "pos": "介词",
+      "phonetic": "/ˌaʊtˈsaɪd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这座",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "city.",
+      "meaning": "城市",
+      "pos": "名词",
+      "phonetic": "/ˈsɪti/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

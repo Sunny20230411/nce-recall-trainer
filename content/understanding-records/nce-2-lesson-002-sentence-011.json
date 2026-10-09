@@ -1,0 +1,112 @@
+{
+  "chinese": "「我刚乘火车抵达，」她说。",
+  "intent": "转述某人刚乘火车到达的这句话。",
+  "comparison": null,
+  "backbone": {
+    "text": "‘I've just arrived by train,’ she said.",
+    "meaning": "她说了“我刚乘火车到”这句话"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把所说的话放在前面，再说“她说”，和中文常把“某人说”放前面的习惯不同，但意思一样，都是引出直接引语。"
+    },
+    {
+      "title": "by train 的含义",
+      "text": "by 加上交通工具名词，表示采用某种交通方式，这里 by train 就是“乘火车”，不需要在 train 前加冠词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘I've just arrived by train,’",
+      "role": "直接引语（宾语）",
+      "explanation": "这是 she 所说的具体内容，整段引语充当 said 的宾语，引语内部是完整的现在完成时句子。"
+    },
+    {
+      "text": "she said.",
+      "role": "主句（主语+谓语）",
+      "explanation": "she 是说话人，said 是 say 的过去式，表示“说”这个动作发生在过去。"
+    },
+    {
+      "text": "by train",
+      "role": "方式状语",
+      "explanation": "说明 arrived 这个动作是通过火车这种方式完成的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘I've",
+      "meaning": "我已经（I have的缩写）",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/aɪv/"
+    },
+    {
+      "text": "just",
+      "meaning": "刚刚，刚才",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "arrived",
+      "meaning": "到达，抵达（arrive的过去分词）",
+      "pos": "动词",
+      "phonetic": "/əˈraɪvd/"
+    },
+    {
+      "text": "by",
+      "meaning": "通过，以……方式",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "train,’",
+      "meaning": "火车",
+      "pos": "名词",
+      "phonetic": "/treɪn/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说（say的过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘I've just arrived by train,’",
+      "relation": "所说的具体内容",
+      "meaning": "「我刚乘火车抵达，」"
+    },
+    {
+      "text": "she said.",
+      "relation": "说话的人与动作",
+      "meaning": "她说。"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-002",
+  "sentenceId": "nce-2-lesson-002-sentence-011",
+  "sentenceOrder": 11,
+  "english": "‘I've just arrived by train,’ she said.",
+  "lesson": "Lesson 2 Breakfast or lunch?",
+  "notes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把所说的话放在前面，再说“她说”，和中文常把“某人说”放前面的习惯不同，但意思一样，都是引出直接引语。"
+    },
+    {
+      "title": "by train 的含义",
+      "text": "by 加上交通工具名词，表示采用某种交通方式，这里 by train 就是“乘火车”，不需要在 train 前加冠词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：存在几处可修正问题：1. 部分单词释义混入了标点符号的说明，不符合词项仅解释词本身的要求；2. 单词‘I've的释义表述不完整，漏了“有”之外的功能说明，且词性标注不够准确；3. 直接引语结构中说明是“现在完成时句子”表述不够严谨，应明确是直接引语内部为现在完成时；4. 句子主干的英文文本标点位置可调整得更规范。其余内容基本准确可用。（非逐句人工审核）"
+}

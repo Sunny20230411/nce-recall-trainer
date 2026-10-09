@@ -1,0 +1,86 @@
+{
+  "chinese": "他在澳大利亚。",
+  "intent": "说明某人当前所处的地理位置。",
+  "comparison": null,
+  "backbone": {
+    "text": "He is in Australia.",
+    "meaning": "他在澳大利亚。"
+  },
+  "structureNotes": [
+    {
+      "title": "介词短语表地点",
+      "text": "in Australia 跟在 be 动词 is 后面，直接说明主语 he 所在的地点，意思是“在澳大利亚”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文提到的男性，也就是作者的弟弟 Tim，是句子描述的对象。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "表示主语当前的状态，连接主语和后面的地点表语，不能单独作谓语，需和表语共同构成谓语部分。"
+    },
+    {
+      "text": "in Australia.",
+      "role": "表语（地点说明）",
+      "explanation": "用介词 in 加上国家名 Australia，说明主语所在的具体地点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（表示存在、处于某种状态）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（某个范围或地点内）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "Australia.",
+      "meaning": "澳大利亚（国家名）",
+      "pos": "专有名词",
+      "phonetic": "/ɒˈstreɪliə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "描述谁",
+      "meaning": "他"
+    },
+    {
+      "text": "is in Australia.",
+      "relation": "补充说明主语所处的地点状态",
+      "meaning": "在澳大利亚"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-004",
+  "sentenceId": "nce-2-lesson-004-sentence-002",
+  "sentenceOrder": 2,
+  "english": "He is in Australia.",
+  "lesson": "Lesson 4 An exciting trip",
+  "notes": [
+    {
+      "title": "介词短语表地点",
+      "text": "in Australia 跟在 be 动词 is 后面，直接说明主语 he 所在的地点，意思是“在澳大利亚”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需微调：1. 系动词不能单独作谓语，应明确是系动词，与表语共同构成谓语部分；2. Australia 词项标点随词是约定，无需额外处理，修正其音标为通用英式规范读法；3. 各成分指代、翻译、结构说明均符合要求。（非逐句人工审核）"
+}

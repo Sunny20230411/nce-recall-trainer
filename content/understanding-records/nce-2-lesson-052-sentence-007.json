@@ -1,0 +1,248 @@
+{
+  "chinese": "她走进我的房间，看到地板上全是那些书时，大吃了一惊。",
+  "intent": "叙述作者的姐姐走进房间后，因看到地板上堆满书而感到意外的经过。",
+  "comparison": {
+    "chinese": "她走进我的房间，看到地板上全是那些书时，大吃了一惊。",
+    "english": "She went into my room and got a big surprise when she saw all those books on the floor.",
+    "steps": [
+      {
+        "label": "第一步：先抓主干两件事",
+        "text": "She went into my room and got a big surprise",
+        "explanation": "中文先说“走进房间”，再说“大吃一惊”，和英文这里的两个并列动作顺序一致，可以直接顺着理解。"
+      },
+      {
+        "label": "第二步：补上吃惊的时间/原因",
+        "text": "when she saw all those books on the floor",
+        "explanation": "英文把时间从句放在句末，先讲结果再讲触发时机；中文习惯把“当……时”放到前面或者插在中间，先说看到的情形，再说因此吃惊。"
+      },
+      {
+        "label": "第三步：调整“书的位置”的语序",
+        "text": "all those books on the floor",
+        "explanation": "英文“on the floor”放在名词后面说明书在哪里；中文说“地板上全是那些书”或“所有那些放在地板上的书”，把地点放到前面更自然。"
+      }
+    ],
+    "takeaway": "英文常先讲主句的两个连续动作，再用when引出触发事件；中文更习惯把“看到某情形”作为前提，顺势带出“吃惊”的结果。"
+  },
+  "backbone": {
+    "text": "She went into my room and got a big surprise.",
+    "meaning": "她走进我的房间，并且大吃一惊。"
+  },
+  "structureNotes": [
+    {
+      "title": "when引导的时间从句",
+      "text": "when在这里引出“大吃一惊”的时间点，意思是“就在她看到……的时候”，同时也隐含了吃惊的原因。它连接前后两件事，不是在问问题。"
+    },
+    {
+      "title": "两个并列的过去动作",
+      "text": "went into my room 和 got a big surprise 用 and 连接，是同一人先后发生的两个动作，都用过去式，表示这是已经发生的事。"
+    },
+    {
+      "title": "on the floor 的作用",
+      "text": "on the floor 放在 all those books 后面，补充说明书的位置是在地板上，读的时候可以理解为“（放在）地板上的所有那些书”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She went into my room and got a big surprise",
+      "role": "主句（并列谓语）",
+      "explanation": "由and连接两个过去式动作，说明主语she先后做了什么、有什么反应，是句子的主干部分。"
+    },
+    {
+      "text": "when she saw all those books on the floor.",
+      "role": "时间状语从句",
+      "explanation": "when引导从句，交代主句中“大吃一惊”发生的时间和触发场景，从句里也有完整的主语she和谓语saw。"
+    },
+    {
+      "text": "on the floor",
+      "role": "介词短语（地点修饰）",
+      "explanation": "修饰前面的all those books，说明书所在的位置，相当于“在地板上的”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "went",
+      "meaning": "去（过去式）",
+      "pos": "动词",
+      "phonetic": "/went/"
+    },
+    {
+      "text": "into",
+      "meaning": "到……里面；进入",
+      "pos": "介词",
+      "phonetic": "/ˈɪntuː/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "room",
+      "meaning": "房间",
+      "pos": "名词",
+      "phonetic": "/ruːm/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "got",
+      "meaning": "得到；感到（过去式）",
+      "pos": "动词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "big",
+      "meaning": "大的；巨大的",
+      "pos": "形容词",
+      "phonetic": "/bɪɡ/"
+    },
+    {
+      "text": "surprise",
+      "meaning": "惊奇；惊喜",
+      "pos": "名词",
+      "phonetic": "/səˈpraɪz/"
+    },
+    {
+      "text": "when",
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "saw",
+      "meaning": "看见（过去式）",
+      "pos": "动词",
+      "phonetic": "/sɔː/"
+    },
+    {
+      "text": "all",
+      "meaning": "所有的；全部的",
+      "pos": "限定词",
+      "phonetic": "/ɔːl/"
+    },
+    {
+      "text": "those",
+      "meaning": "那些",
+      "pos": "限定词",
+      "phonetic": "/ðəʊz/"
+    },
+    {
+      "text": "books",
+      "meaning": "书（复数）",
+      "pos": "名词",
+      "phonetic": "/bʊks/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个；那个（定冠词）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "floor.",
+      "meaning": "地板；地面",
+      "pos": "名词",
+      "phonetic": "/flɔː(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She",
+      "relation": "描述谁",
+      "meaning": "她"
+    },
+    {
+      "text": "went into my room",
+      "relation": "第一个动作",
+      "meaning": "走进了我的房间"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个动作",
+      "meaning": "并且"
+    },
+    {
+      "text": "got a big surprise",
+      "relation": "第二个动作/结果",
+      "meaning": "大吃一惊"
+    },
+    {
+      "text": "when",
+      "relation": "引出时间",
+      "meaning": "当……的时候"
+    },
+    {
+      "text": "she",
+      "relation": "从句里描述谁",
+      "meaning": "她"
+    },
+    {
+      "text": "saw",
+      "relation": "从句里的动作",
+      "meaning": "看见"
+    },
+    {
+      "text": "all those books",
+      "relation": "看见的对象",
+      "meaning": "所有那些书"
+    },
+    {
+      "text": "on the floor.",
+      "relation": "说明书所在的地点",
+      "meaning": "在地板上"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-052",
+  "sentenceId": "nce-2-lesson-052-sentence-007",
+  "sentenceOrder": 8,
+  "english": "She went into my room and got a big surprise when she saw all those books on the floor.",
+  "lesson": "Lesson 52 A pretty carpet",
+  "notes": [
+    {
+      "title": "when引导的时间从句",
+      "text": "when在这里引出“大吃一惊”的时间点，意思是“就在她看到……的时候”，同时也隐含了吃惊的原因。它连接前后两件事，不是在问问题。"
+    },
+    {
+      "title": "两个并列的过去动作",
+      "text": "went into my room 和 got a big surprise 用 and 连接，是同一人先后发生的两个动作，都用过去式，表示这是已经发生的事。"
+    },
+    {
+      "title": "on the floor 的作用",
+      "text": "on the floor 放在 all those books 后面，补充说明书的位置是在地板上，读的时候可以理解为“（放在）地板上的所有那些书”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正 words 中 floor. 的词类标注（不应因标点改为定冠词，原词仍为名词），其余解析均符合要求。（非逐句人工审核）"
+}

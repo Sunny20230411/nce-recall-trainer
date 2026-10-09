@@ -1,0 +1,102 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-068",
+  "sentenceId": "nce-2-lesson-068-sentence-004",
+  "sentenceOrder": 4,
+  "english": "He never has anything to do.",
+  "chinese": "他总是无事可做。",
+  "lesson": "Lesson 68 Persistent",
+  "intent": "概括伯特总是闲着的习惯状态",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "He never has",
+      "relation": "习惯否定",
+      "meaning": "他从来没有"
+    },
+    {
+      "text": "anything to do.",
+      "relation": "可做事项",
+      "meaning": "什么事可做"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "否定中的 anything",
+      "text": "never 提供否定，anything 指任何可做的事。"
+    },
+    {
+      "title": "不定式修饰",
+      "text": "to do 修饰 anything，说明可做的事情。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "否定中的 anything",
+      "text": "never 提供否定，anything 指任何可做的事。"
+    },
+    {
+      "title": "不定式修饰",
+      "text": "to do 修饰 anything，说明可做的事情。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指伯特。"
+    },
+    {
+      "text": "never has",
+      "role": "谓语",
+      "explanation": "说明一贯没有。"
+    },
+    {
+      "text": "anything to do.",
+      "role": "宾语及定语",
+      "explanation": "指可做的事情。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "never",
+      "meaning": "从来不",
+      "pos": "副词",
+      "phonetic": "/ˈnevə/"
+    },
+    {
+      "text": "has",
+      "meaning": "有",
+      "pos": "动词",
+      "phonetic": "/hæz/ 或 /həz/"
+    },
+    {
+      "text": "anything",
+      "meaning": "任何事情",
+      "pos": "不定代词",
+      "phonetic": "/ˈeniθɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "引出可做的动作",
+      "pos": "不定式标记",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "do.",
+      "meaning": "做",
+      "pos": "动词",
+      "phonetic": "/duː/ 或 /də/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

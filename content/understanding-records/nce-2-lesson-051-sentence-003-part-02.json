@@ -1,0 +1,184 @@
+{
+  "chinese": "他列了一份长长的、所有被禁止食物的清单。",
+  "intent": "说明他具体做了什么：列出全部被禁止的食物清单。",
+  "comparison": {
+    "chinese": "他列出了一长串被禁止的食物清单。",
+    "english": "he wrote out a long list of all the foods which were forbidden.",
+    "steps": [
+      {
+        "label": "第一步：先抓主干动作",
+        "text": "he wrote out a long list",
+        "explanation": "中文先说核心信息是“他写出了一份长长的清单”，读者先知道他做了什么事。"
+      },
+      {
+        "label": "第二步：补充清单内容范围",
+        "text": "of all the foods",
+        "explanation": "接着说明清单是关于“所有食物”的清单，回答“清单上是什么”的问题。"
+      },
+      {
+        "label": "第三步：限定食物的属性",
+        "text": "which were forbidden",
+        "explanation": "最后用从句补充这些食物是“被禁止的”，which指代前面的foods，说明是哪些食物。"
+      }
+    ],
+    "takeaway": "中文习惯把修饰食物的限定词放在“清单”前面连成一串，英文则先讲“写出清单”，再依次交代清单内容和食物的限定属性。"
+  },
+  "backbone": {
+    "text": "he wrote out a list of foods",
+    "meaning": "他写出了一份食物清单"
+  },
+  "structureNotes": [
+    {
+      "title": "write out 的含义",
+      "text": "wrote out 是短语动词，表示“详细写出来、开列”，比单独的write更强调完整地写出完整内容。"
+    },
+    {
+      "title": "which 引导的定语从句",
+      "text": "which were forbidden 修饰前面的 all the foods，which指代foods，说明这些食物的性质是被禁止的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "wrote out",
+      "role": "谓语动词短语",
+      "explanation": "由动词wrote加副词out构成的短语动词，表示“开列、写出”，表达完整的动作含义。"
+    },
+    {
+      "text": "a long list of all the foods",
+      "role": "宾语",
+      "explanation": "是wrote out的对象，核心是a long list，of all the foods说明清单的内容是所有食物。"
+    },
+    {
+      "text": "which were forbidden.",
+      "role": "定语从句",
+      "explanation": "修饰前面的all the foods，which在从句中作主语，用被动语态说明食物是被禁止的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "wrote",
+      "meaning": "写（write的过去式）",
+      "pos": "动词",
+      "phonetic": "/rəʊt/"
+    },
+    {
+      "text": "out",
+      "meaning": "（与动词搭配构成短语，表示完整地写出）",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（份）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "long",
+      "meaning": "长的",
+      "pos": "形容词",
+      "phonetic": "/lɒŋ/"
+    },
+    {
+      "text": "list",
+      "meaning": "清单，列表",
+      "pos": "名词",
+      "phonetic": "/lɪst/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表示所属或内容）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "all",
+      "meaning": "所有的",
+      "pos": "限定词",
+      "phonetic": "/ɔːl/"
+    },
+    {
+      "text": "the",
+      "meaning": "这（些），特指前面提到的相关事物",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "foods",
+      "meaning": "食物（food的复数形式）",
+      "pos": "名词",
+      "phonetic": "/fuːdz/"
+    },
+    {
+      "text": "which",
+      "meaning": "……的那些（引导定语从句，指代foods）",
+      "pos": "关系代词",
+      "phonetic": "/wɪtʃ/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（be的复数过去式，构成被动语态）",
+      "pos": "助动词",
+      "phonetic": "/wɜː/"
+    },
+    {
+      "text": "forbidden.",
+      "meaning": "被禁止的",
+      "pos": "形容词（过去分词作形容词用）",
+      "phonetic": "/fəˈbɪdn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "he",
+      "relation": "动作的发出者",
+      "meaning": "他"
+    },
+    {
+      "text": "wrote out",
+      "relation": "主语发出的动作",
+      "meaning": "开列、写出"
+    },
+    {
+      "text": "a long list",
+      "relation": "动作的直接对象",
+      "meaning": "一份长长的清单"
+    },
+    {
+      "text": "of all the foods",
+      "relation": "补充说明清单的内容",
+      "meaning": "所有的食物（的）"
+    },
+    {
+      "text": "which were forbidden.",
+      "relation": "描述这些食物的属性",
+      "meaning": "被禁止的"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-051",
+  "sentenceId": "nce-2-lesson-051-sentence-003-part-02",
+  "sentenceOrder": 4,
+  "english": "he wrote out a long list of all the foods which were forbidden.",
+  "lesson": "Lesson 51 Reward for virtue",
+  "notes": [
+    {
+      "title": "write out 的含义",
+      "text": "wrote out 是短语动词，表示“详细写出来、开列”，比单独的write更强调完整地写出完整内容。"
+    },
+    {
+      "title": "which 引导的定语从句",
+      "text": "which were forbidden 修饰前面的 all the foods，which指代foods，说明这些食物的性质是被禁止的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：基本正确，仅words中out的释义存在左括号未闭合的小问题，修正后可使用。（非逐句人工审核）"
+}

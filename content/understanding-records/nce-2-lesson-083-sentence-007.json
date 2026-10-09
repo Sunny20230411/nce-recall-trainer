@@ -1,0 +1,83 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-083",
+  "sentenceId": "nce-2-lesson-083-sentence-007",
+  "sentenceOrder": 7,
+  "english": "When he asked if Mr.",
+  "chinese": "当他问……先生是否……时（话未完），",
+  "lesson": "Lesson 83 After the elections",
+  "intent": "引出询问发生的时刻",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "When he asked",
+      "relation": "时间框架",
+      "meaning": "当他询问时"
+    },
+    {
+      "text": "if Mr.",
+      "relation": "问题开头",
+      "meaning": "是否……先生（内容待续）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "间接问题",
+      "text": "if 在 asked 后引导是否疑问的宾语从句，此处从句未完。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "间接问题",
+      "text": "if 在 asked 后引导是否疑问的宾语从句，此处从句未完。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When he asked",
+      "role": "时间从句开头",
+      "explanation": "说明后文警察回答的时机。"
+    },
+    {
+      "text": "if Mr.",
+      "role": "宾语从句开头",
+      "explanation": "询问内容跨片段继续。"
+    }
+  ],
+  "words": [
+    {
+      "text": "When",
+      "meaning": "当……时",
+      "pos": "从属连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "asked",
+      "meaning": "问",
+      "pos": "动词过去式",
+      "phonetic": "/ɑːskt/"
+    },
+    {
+      "text": "if",
+      "meaning": "是否",
+      "pos": "从属连词",
+      "phonetic": "/ɪf/"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生",
+      "pos": "称谓名词",
+      "phonetic": "/ˈmɪstə/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

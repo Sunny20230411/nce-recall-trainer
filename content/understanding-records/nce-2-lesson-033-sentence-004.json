@@ -1,0 +1,183 @@
+{
+  "chinese": "她游了一程又一程，好几英里远，然后她看见了一盏灯光。",
+  "intent": "叙述女孩在海中长时间游泳后，终于看到一盏灯光的先后经历。",
+  "comparison": {
+    "chinese": "她游了一程又一程，好几英里，随后看见了一盏灯光。",
+    "english": "She swam for miles and miles, and then she saw a light.",
+    "steps": [
+      {
+        "label": "先抓前半段动作",
+        "text": "She swam for miles and miles",
+        "explanation": "中文先说人做了什么，再用“一程又一程、好几英里”补充距离之长；英文用“for miles and miles”直接接在动词后说明游泳的距离跨度。"
+      },
+      {
+        "label": "再接后续事件",
+        "text": "and then she saw a light",
+        "explanation": "中英文都用“然后/and then”承接先后两件事，中文可以承前省略主语“她”，英文两个分句一般都保留主语。"
+      }
+    ],
+    "takeaway": "“for miles and miles”是强调距离很远的习惯说法，不是字面的“英里和英里”，翻译时要转化为中文自然的叠用表达，如“一程又一程”“好多好多英里”。"
+  },
+  "backbone": {
+    "text": "She swam far, and then she saw a light.",
+    "meaning": "她游了很远，之后看到了一盏灯光。（这是理解用的简化主干，保留前后两个先后发生的核心动作）"
+  },
+  "structureNotes": [
+    {
+      "title": "miles and miles 的含义",
+      "text": "“miles and miles”是叠用表达，用来强调距离非常远，不是指两次数英里，相当于中文的“好几英里、一程又一程”。"
+    },
+    {
+      "title": "and then 的承接作用",
+      "text": "“and then”连接前后两个并列分句，明确表示动作有先后顺序：先游了很远，之后才看到灯光，突出时间上的承接。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She swam for miles and miles,",
+      "role": "第一个并列分句",
+      "explanation": "交代第一个动作和距离：主语是She，谓语是swam，for miles and miles用来说明游泳持续的距离长度。"
+    },
+    {
+      "text": "and then",
+      "role": "并列承接连词",
+      "explanation": "连接两个分句，标明后面的动作发生在前面动作之后，有时间先后关系。"
+    },
+    {
+      "text": "she saw a light.",
+      "role": "第二个并列分句",
+      "explanation": "交代后续发生的动作：主语是she，谓语是saw，a light是看到的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "swam",
+      "meaning": "游泳（swim的过去式）",
+      "pos": "动词",
+      "phonetic": "/swɒm/"
+    },
+    {
+      "text": "for",
+      "meaning": "（表示距离、时间持续）达，计",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "miles",
+      "meaning": "英里（复数）",
+      "pos": "名词",
+      "phonetic": "/maɪlz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，与",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "miles,",
+      "meaning": "英里（复数，后带逗号）",
+      "pos": "名词",
+      "phonetic": "/maɪlz/"
+    },
+    {
+      "text": "and",
+      "meaning": "而且，于是",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "then",
+      "meaning": "然后，接着",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "saw",
+      "meaning": "看见（see的过去式）",
+      "pos": "动词",
+      "phonetic": "/sɔː/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个，一盏",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "light.",
+      "meaning": "灯光，灯（后带句号）",
+      "pos": "名词",
+      "phonetic": "/laɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She",
+      "relation": "动作执行者，描述谁在游泳",
+      "meaning": "她"
+    },
+    {
+      "text": "swam",
+      "relation": "第一个主要动作",
+      "meaning": "游泳"
+    },
+    {
+      "text": "for miles and miles,",
+      "relation": "补充说明游泳的距离长度",
+      "meaning": "持续了好多好多英里"
+    },
+    {
+      "text": "and then",
+      "relation": "连接前后动作，表示时间先后",
+      "meaning": "之后，然后"
+    },
+    {
+      "text": "she",
+      "relation": "第二个动作的执行者",
+      "meaning": "她"
+    },
+    {
+      "text": "saw",
+      "relation": "第二个主要动作",
+      "meaning": "看见了"
+    },
+    {
+      "text": "a light.",
+      "relation": "看见的对象",
+      "meaning": "一盏灯光"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-033",
+  "sentenceId": "nce-2-lesson-033-sentence-004",
+  "sentenceOrder": 4,
+  "english": "She swam for miles and miles, and then she saw a light.",
+  "lesson": "Lesson 33 Out of the darkness",
+  "notes": [
+    {
+      "title": "miles and miles 的含义",
+      "text": "“miles and miles”是叠用表达，用来强调距离非常远，不是指两次数英里，相当于中文的“好几英里、一程又一程”。"
+    },
+    {
+      "title": "and then 的承接作用",
+      "text": "“and then”连接前后两个并列分句，明确表示动作有先后顺序：先游了很远，之后才看到灯光，突出时间上的承接。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：单词「swam」的英式音标标注错误，应为英式发音/swɒm/，其余内容符合要求。（非逐句人工审核）"
+}

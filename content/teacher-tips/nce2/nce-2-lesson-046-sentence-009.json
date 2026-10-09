@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-046",
+  "sentenceId": "nce-2-lesson-046-sentence-009",
+  "english": "The man was ordered to pay £3,500 for the cost of the trip.",
+  "text": "was ordered to pay 说的是被有关方面要求付款，重点落在这名男子受到的处置上，而不是强调谁下的命令。想表达“被要求/责令做某事”且不需说出施动者时，可以用 be ordered to do。",
+  "sourceDigest": "9d8332cb1bc60a800700185ae11a2d2fb7921f38766a7f2dfa6404deef34b63c",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：讲清了被动句式在这里的表达意图：突出受事的处置结果，弱化施动者，迁移也具体。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "准确指出被动句的信息焦点在受事处置上，迁移具体实用。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

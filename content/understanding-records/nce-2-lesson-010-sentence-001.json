@@ -1,0 +1,103 @@
+{
+  "chinese": "我们有一件古老的乐器。它被称作击弦古钢琴（clavichord）。",
+  "intent": "陈述说话人一方拥有一件古老的乐器这一事实。",
+  "comparison": null,
+  "backbone": {
+    "text": "We have an instrument.",
+    "meaning": "我们有一件乐器。"
+  },
+  "structureNotes": [
+    {
+      "title": "前置定语的顺序",
+      "text": "本句里 old 和 musical 都修饰 instrument，英文把表示新旧的 old 放在表示属性的 musical 前面，中文表达为“古老的乐器”时也符合习惯，不需要调换顺序。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We",
+      "role": "主语",
+      "explanation": "指代说话人一方，是“拥有”这个动作的发出者。"
+    },
+    {
+      "text": "have",
+      "role": "谓语",
+      "explanation": "表示“拥有”的状态，说明主语和后面物品的所属关系。"
+    },
+    {
+      "text": "an old musical instrument.",
+      "role": "宾语",
+      "explanation": "是拥有的对象，其中 old 和 musical 都修饰 instrument，说明乐器的特点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "have",
+      "meaning": "有，拥有",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "an",
+      "meaning": "一件（用于元音开头的单词前）",
+      "pos": "冠词",
+      "phonetic": "/æn/"
+    },
+    {
+      "text": "old",
+      "meaning": "古老的，旧的",
+      "pos": "形容词",
+      "phonetic": "/əʊld/"
+    },
+    {
+      "text": "musical",
+      "meaning": "音乐的，和音乐相关的",
+      "pos": "形容词",
+      "phonetic": "/ˈmjuːzɪkl/"
+    },
+    {
+      "text": "instrument.",
+      "meaning": "乐器；仪器",
+      "pos": "名词",
+      "phonetic": "/ˈɪnstrəmənt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We",
+      "relation": "谁拥有",
+      "meaning": "我们"
+    },
+    {
+      "text": "have",
+      "relation": "主干动作",
+      "meaning": "拥有"
+    },
+    {
+      "text": "an old musical instrument.",
+      "relation": "拥有的对象",
+      "meaning": "一件古老的乐器"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-010",
+  "sentenceId": "nce-2-lesson-010-sentence-001",
+  "sentenceOrder": 1,
+  "english": "We have an old musical instrument.",
+  "lesson": "Lesson 10 Not for jazz",
+  "notes": [
+    {
+      "title": "前置定语的顺序",
+      "text": "本句里 old 和 musical 都修饰 instrument，英文把表示新旧的 old 放在表示属性的 musical 前面，中文表达为“古老的乐器”时也符合习惯，不需要调换顺序。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需补充上下文第二句的翻译、修正musical音标为英式标准发音、完善instrument词义标注的语境优先级。（非逐句人工审核）"
+}

@@ -1,0 +1,158 @@
+{
+  "chinese": "我留在了公交车上，随后车开回了镇中心。",
+  "intent": "叙述前后连贯的两件事：说话人留在公交车上，以及公交车随后返回镇中心。",
+  "comparison": null,
+  "backbone": {
+    "text": "I stayed on the bus and it went back to the town centre.",
+    "meaning": "我留在公交车上，车开回了镇中心。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列句的承接关系",
+      "text": "全句由 and 连接两个独立分句，前一分句说“我留在车上”的状态，后一分句说“车返回镇中心”的后续动作，二者在时间和事理上顺承发生。"
+    },
+    {
+      "title": "it 的指代对象",
+      "text": "第二分句的 it 指代前一分句里的 the bus，避免重复提到公交车，读者顺着前文自然知道说的是同一辆车。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I stayed on the bus",
+      "role": "第一并列分句",
+      "explanation": "说明说话人的行为：留在公交车上，是整句话叙述的前半件事。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个独立分句，表示动作或事件的顺承关系。"
+    },
+    {
+      "text": "it went back to the town centre.",
+      "role": "第二并列分句",
+      "explanation": "说明公交车的后续动作：返回镇中心，是整句话叙述的后半件事。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "stayed",
+      "meaning": "停留，逗留",
+      "pos": "动词（过去式）",
+      "phonetic": "/steɪd/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（表示特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bus",
+      "meaning": "公交车",
+      "pos": "名词",
+      "phonetic": "/bʌs/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，然后",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代公交车）",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "went",
+      "meaning": "去，行进（过去式）",
+      "pos": "动词",
+      "phonetic": "/went/"
+    },
+    {
+      "text": "back",
+      "meaning": "回原处",
+      "pos": "副词",
+      "phonetic": "/bæk/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（表示特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "town",
+      "meaning": "城镇",
+      "pos": "名词（作定语）",
+      "phonetic": "/taʊn/"
+    },
+    {
+      "text": "centre.",
+      "meaning": "中心",
+      "pos": "名词",
+      "phonetic": "/ˈsentə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I stayed on the bus",
+      "relation": "前半件事：叙述说话人的行为",
+      "meaning": "我留在了公交车上"
+    },
+    {
+      "text": "and",
+      "relation": "连接前后两件事，表示顺承",
+      "meaning": "然后/并且"
+    },
+    {
+      "text": "it went back",
+      "relation": "后半件事：叙述公交车的动作",
+      "meaning": "它（公交车）往回开"
+    },
+    {
+      "text": "to the town centre.",
+      "relation": "补充说明公交车返回的地点",
+      "meaning": "到镇中心"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-016",
+  "sentenceOrder": 19,
+  "english": "I stayed on the bus and it went back to the town centre.",
+  "lesson": "Lesson 50 Taken for a ride",
+  "notes": [
+    {
+      "title": "并列句的承接关系",
+      "text": "全句由 and 连接两个独立分句，前一分句说“我留在车上”的状态，后一分句说“车返回镇中心”的后续动作，二者在时间和事理上顺承发生。"
+    },
+    {
+      "title": "it 的指代对象",
+      "text": "第二分句的 it 指代前一分句里的 the bus，避免重复提到公交车，读者顺着前文自然知道说的是同一辆车。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：单词部分的phonetic采用英式音标，centre一词的英式音标拼写为/ˈsentə(r)/，原音标漏写弱读的(r)，需修正；其余内容准确合规。（非逐句人工审核）"
+}

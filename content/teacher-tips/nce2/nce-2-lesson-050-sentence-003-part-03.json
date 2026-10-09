@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-003-part-03",
+  "english": "‘but I don't know where it is.’",
+  "text": "这里的 it 指代的是前文提到的目的地 Woodford Green，并不是“车”。对话里刚提过的地点，直接用 it 承接就很自然，双方都清楚指什么，不必重复地名。",
+  "sourceDigest": "09d909712bb825be21297a4899fa5ec68be8884a8d3f80b02a8e2fbfcbd52f00",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：纠正了中文译文带来的指代误解，点出了对话中指代的承接习惯。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "原提点基本准确，调整表述更贴合上下文，更简洁。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

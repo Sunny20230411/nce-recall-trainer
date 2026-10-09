@@ -1,0 +1,111 @@
+{
+  "chinese": "我听不到演员的声音",
+  "intent": "描述过去作者因周围环境干扰，无法听清戏中演员说话的状态",
+  "comparison": null,
+  "backbone": {
+    "text": "I could not hear the actors.",
+    "meaning": "我听不到演员（的声音）。"
+  },
+  "structureNotes": [
+    {
+      "title": "could not hear 的含义",
+      "text": "could 是 can 的过去式，在这里表示“有能力做到”的过去状态，加上 not 表示过去做不到、无法听清；hear 在这里不是泛指“听见”，结合看戏的语境是听清演员说的话。"
+    },
+    {
+      "title": "the actors 的理解",
+      "text": "the actors 特指正在台上演出的演员们，中文翻译时补出“声音”是因为 hear 实际指向听到的内容，英文里直接用 hear sb. 就可以表示听清某人说话，不用额外加 words 或 voice。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "动作的发出者，指叙述者自己。"
+    },
+    {
+      "text": "could not hear",
+      "role": "谓语",
+      "explanation": "表示过去“无法听清”的状态，could 是情态动词的过去式，和 not、实义动词 hear 共同构成否定的谓语。"
+    },
+    {
+      "text": "the actors.",
+      "role": "宾语",
+      "explanation": "hear 这个动作的对象，指看戏时台上的演员们。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/（英式）"
+    },
+    {
+      "text": "could",
+      "meaning": "能够（can 的过去式，此处表过去的能力）",
+      "pos": "情态动词",
+      "phonetic": "/kʊd/（英式）"
+    },
+    {
+      "text": "not",
+      "meaning": "不（构成否定）",
+      "pos": "副词",
+      "phonetic": "/nɒt/（英式）"
+    },
+    {
+      "text": "hear",
+      "meaning": "听见，听清",
+      "pos": "动词",
+      "phonetic": "/hɪə/（英式）"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，这些（特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/（英式）"
+    },
+    {
+      "text": "actors.",
+      "meaning": "演员们（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈæktəz/（英式）"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作主体",
+      "meaning": "我"
+    },
+    {
+      "text": "could not hear",
+      "relation": "描述主体的动作状态（过去否定）",
+      "meaning": "无法听清"
+    },
+    {
+      "text": "the actors.",
+      "relation": "动作的对象",
+      "meaning": "（台上的）演员们"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-001",
+  "sentenceId": "nce-2-lesson-001-sentence-008",
+  "sentenceOrder": 8,
+  "english": "I could not hear the actors.",
+  "lesson": "Lesson 1 A private conversation",
+  "notes": [
+    {
+      "title": "could not hear 的含义",
+      "text": "could 是 can 的过去式，在这里表示“有能力做到”的过去状态，加上 not 表示过去做不到、无法听清；hear 在这里不是泛指“听见”，结合看戏的语境是听清演员说的话。"
+    },
+    {
+      "title": "the actors 的理解",
+      "text": "the actors 特指正在台上演出的演员们，中文翻译时补出“声音”是因为 hear 实际指向听到的内容，英文里直接用 hear sb. 就可以表示听清某人说话，不用额外加 words 或 voice。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确合理，仅存在两处需修正的细节：1. 单词 could 的释义中误将“能够”作为核心词义，could 作为 can 的过去式本身仅表“能够”的语法属性，结合语境的实义应落实在 hear 上，此处释义偏离词本身的功能；2. 所有词的音标默认是英式发音体系，但未明确标注为英式音标，不符合要求；其余如翻译、句子结构、成分分析、语境释义均正确。（非逐句人工审核）"
+}

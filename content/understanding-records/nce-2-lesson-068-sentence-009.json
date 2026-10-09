@@ -1,0 +1,90 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-068",
+  "sentenceId": "nce-2-lesson-068-sentence-009",
+  "sentenceOrder": 9,
+  "english": "'Hi, Elizabeth,' Bert answered.",
+  "chinese": "“嗨，伊丽莎白，”伯特回答。",
+  "lesson": "Lesson 68 Persistent",
+  "intent": "以随意招呼回应叙述者",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "'Hi, Elizabeth,'",
+      "relation": "回应招呼",
+      "meaning": "嗨伊丽莎白"
+    },
+    {
+      "text": "Bert answered.",
+      "relation": "说话者",
+      "meaning": "伯特回答"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "名字呼语",
+      "text": "Elizabeth 是被称呼的人。"
+    },
+    {
+      "title": "回应动作",
+      "text": "answered 表明这句话回应前面的招呼。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "名字呼语",
+      "text": "Elizabeth 是被称呼的人。"
+    },
+    {
+      "title": "回应动作",
+      "text": "answered 表明这句话回应前面的招呼。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'Hi,",
+      "role": "独立招呼语",
+      "explanation": "随意回应招呼。"
+    },
+    {
+      "text": "Elizabeth,'",
+      "role": "呼语",
+      "explanation": "称呼对方。"
+    },
+    {
+      "text": "Bert answered.",
+      "role": "引述分句",
+      "explanation": "交代回应者。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'Hi,",
+      "meaning": "嗨",
+      "pos": "感叹词",
+      "phonetic": "/haɪ/"
+    },
+    {
+      "text": "Elizabeth,'",
+      "meaning": "伊丽莎白",
+      "pos": "专有名词",
+      "phonetic": "/ɪˈlɪzəbəθ/"
+    },
+    {
+      "text": "Bert",
+      "meaning": "伯特",
+      "pos": "专有名词",
+      "phonetic": "/bɜːt/"
+    },
+    {
+      "text": "answered.",
+      "meaning": "回答",
+      "pos": "动词",
+      "phonetic": "/ˈɑːnsəd/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

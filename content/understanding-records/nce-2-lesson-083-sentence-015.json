@@ -1,0 +1,99 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-083",
+  "sentenceId": "nce-2-lesson-083-sentence-015",
+  "sentenceOrder": 16,
+  "english": "Lane was defeated in the elections.",
+  "chinese": "莱恩在选举中落败了。",
+  "lesson": "Lesson 83 After the elections",
+  "intent": "重申败选事实",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "Lane",
+      "relation": "人物承接",
+      "meaning": "莱恩"
+    },
+    {
+      "text": "was defeated",
+      "relation": "结果",
+      "meaning": "落败了"
+    },
+    {
+      "text": "in the elections.",
+      "relation": "事件范围",
+      "meaning": "在选举中"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "被动陈述",
+      "text": "was defeated 是一般过去时被动，报告过去的败选结果。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "被动陈述",
+      "text": "was defeated 是一般过去时被动，报告过去的败选结果。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Lane",
+      "role": "主语姓名续段",
+      "explanation": "承接上一片段 Mr.。"
+    },
+    {
+      "text": "was defeated",
+      "role": "谓语",
+      "explanation": "以落选者为叙述对象。"
+    },
+    {
+      "text": "in the elections.",
+      "role": "状语",
+      "explanation": "说明落败的事件。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Lane",
+      "meaning": "莱恩",
+      "pos": "专有名词",
+      "phonetic": "/leɪn/"
+    },
+    {
+      "text": "was",
+      "meaning": "构成过去时被动",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "defeated",
+      "meaning": "击败",
+      "pos": "动词过去分词",
+      "phonetic": "/dɪˈfiːtɪd/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……中",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "此次",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "elections.",
+      "meaning": "选举",
+      "pos": "名词复数",
+      "phonetic": "/ɪˈlekʃənz/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

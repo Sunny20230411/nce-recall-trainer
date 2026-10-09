@@ -1,0 +1,164 @@
+{
+  "chinese": "它正在被我父亲的一位朋友修理。",
+  "intent": "说明某件物品当下正由父亲的一位朋友负责修理，交代动作的执行者和当前正在进行的状态。",
+  "comparison": {
+    "chinese": "我父亲的一个朋友在修理它",
+    "english": "It is being repaired by a friend of my father's.",
+    "steps": [
+      {
+        "label": "先抓中文主干动作",
+        "text": "我父亲的一个朋友在修理它",
+        "explanation": "中文习惯先说执行者“我父亲的一个朋友”，再讲正在做的动作“在修理”，最后说修理的对象“它”。"
+      },
+      {
+        "label": "看英文怎么调整语序",
+        "text": "It is being repaired by a friend of my father's.",
+        "explanation": "英文把被修理的对象“It”放在句首当话题，用被动语态先讲“正在被修理”，再用by引出执行者。"
+      },
+      {
+        "label": "对应回主干信息",
+        "text": "a friend of my father's = 我父亲的一个朋友",
+        "explanation": "英文用 of + 名词所有格，表示“……当中的一个”，整体还是修饰friend，说明是谁的朋友。"
+      }
+    ],
+    "takeaway": "中文主动句先说人再说事，英文被动句先说被修理的东西再说修理的人；双重所有格强调是父亲众多朋友里的一位。"
+  },
+  "backbone": {
+    "text": "It is being repaired by a friend.",
+    "meaning": "它正由一位朋友修理。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在进行时的被动语态",
+      "text": "is being repaired 表示“正在被修理”，既体现动作正在进行，又说明主语是承受动作的一方。"
+    },
+    {
+      "title": "by 引出动作执行者",
+      "text": "by a friend of my father's 用来交代是谁在做修理这个动作，翻译时常转回主动句的主语。"
+    },
+    {
+      "title": "双重所有格的含义",
+      "text": "a friend of my father's 意思是“我父亲的一位朋友”，暗指父亲不止一个朋友，这是其中一位。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "主语",
+      "explanation": "指代前文提到的物品，是“被修理”的对象。"
+    },
+    {
+      "text": "is being repaired",
+      "role": "谓语",
+      "explanation": "是现在进行时的被动结构，说明主语此刻正承受“修理”这个动作。"
+    },
+    {
+      "text": "by a friend of my father's.",
+      "role": "动作执行者状语",
+      "explanation": "用介词by引出修理动作的实际执行者，补充说明实施修理动作的主体。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（助动词，构成进行时和被动）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "being",
+      "meaning": "正在（助动词，构成进行时被动）",
+      "pos": "动词",
+      "phonetic": "/ˈbiːɪŋ/"
+    },
+    {
+      "text": "repaired",
+      "meaning": "修理（过去分词）",
+      "pos": "动词",
+      "phonetic": "/rɪˈpeəd/"
+    },
+    {
+      "text": "by",
+      "meaning": "被，由（引出执行者）",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "friend",
+      "meaning": "朋友",
+      "pos": "名词",
+      "phonetic": "/frend/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "father's.",
+      "meaning": "父亲的（名词所有格）",
+      "pos": "名词所有格",
+      "phonetic": "/ˈfɑːðəz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It",
+      "relation": "描述对象（被修理的事物）",
+      "meaning": "它"
+    },
+    {
+      "text": "is being repaired",
+      "relation": "核心动作（正在进行的被动动作）",
+      "meaning": "正在被修理"
+    },
+    {
+      "text": "by a friend of my father's.",
+      "relation": "动作执行者",
+      "meaning": "由我父亲的一位朋友（来做）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-010",
+  "sentenceId": "nce-2-lesson-010-sentence-012",
+  "sentenceOrder": 12,
+  "english": "It is being repaired by a friend of my father's.",
+  "lesson": "Lesson 10 Not for jazz",
+  "notes": [
+    {
+      "title": "现在进行时的被动语态",
+      "text": "is being repaired 表示“正在被修理”，既体现动作正在进行，又说明主语是承受动作的一方。"
+    },
+    {
+      "title": "by 引出动作执行者",
+      "text": "by a friend of my father's 用来交代是谁在做修理这个动作，翻译时常转回主动句的主语。"
+    },
+    {
+      "title": "双重所有格的含义",
+      "text": "a friend of my father's 意思是“我父亲的一位朋友”，暗指父亲不止一个朋友，这是其中一位。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，存在三处可修正的细节：1. 单词father's.的释义冗余提及句末点，且词性标注为名词不准确，应明确是名词所有格形式；2. 结构成分中“动作执行者状语”表述不规范，标准语法角色为“动作执行者（由介词by引出的状语）”更清晰，且原text包含句末点无需特殊说明；3. comparison的步骤说明符合要求但可更明确组织逻辑的核心是被动语态的信息焦点差异，当前表述基本准确无需大改。（非逐句人工审核）"
+}

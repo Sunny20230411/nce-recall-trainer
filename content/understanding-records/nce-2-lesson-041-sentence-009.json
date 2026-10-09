@@ -1,0 +1,99 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-041",
+  "sentenceId": "nce-2-lesson-041-sentence-009",
+  "sentenceOrder": 9,
+  "english": "‘I find it beautiful,’ I said.",
+  "chinese": "“我觉得它很好看。”我说。",
+  "lesson": "Lesson 41 Do you call that a hat?",
+  "intent": "丈夫为自己买的领带辩护",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "‘I find it beautiful,’",
+      "relation": "个人评价",
+      "meaning": "我觉得那条领带好看"
+    },
+    {
+      "text": "I said.",
+      "relation": "说话者与动作",
+      "meaning": "我说"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "觉得某物如何",
+      "text": "find it beautiful中it指领带，beautiful是宾语补足语，说明对它的评价。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "觉得某物如何",
+      "text": "find it beautiful中it指领带，beautiful是宾语补足语，说明对它的评价。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I find it beautiful,",
+      "role": "直接引语",
+      "explanation": "表达对领带的个人看法。"
+    },
+    {
+      "text": "it",
+      "role": "宾语",
+      "explanation": "指上文提到的领带，不是形式宾语。"
+    },
+    {
+      "text": "beautiful,",
+      "role": "宾语补足语",
+      "explanation": "说明领带在说话人看来很好看。"
+    },
+    {
+      "text": "I said.",
+      "role": "引述主句",
+      "explanation": "交代发言者。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "find",
+      "meaning": "觉得",
+      "pos": "动词",
+      "phonetic": "/faɪnd/"
+    },
+    {
+      "text": "it",
+      "meaning": "那条领带",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "beautiful,’",
+      "meaning": "好看的",
+      "pos": "形容词",
+      "phonetic": "/ˈbjuːtɪfl/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

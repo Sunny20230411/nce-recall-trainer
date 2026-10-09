@@ -1,0 +1,134 @@
+{
+  "chinese": "我喜欢在天气晴朗的午后坐在韦尔河边上。",
+  "intent": "说明个人的日常喜好，即喜欢在晴好的午后坐在韦尔河畔。",
+  "comparison": null,
+  "backbone": {
+    "text": "I like sitting by the Wayle.",
+    "meaning": "我喜欢坐在韦尔河旁边。"
+  },
+  "structureNotes": [
+    {
+      "title": "like 后接动名词的含义",
+      "text": "like sitting 表示“喜欢坐着”这件事，是长期的喜好，不是当下一次的动作。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "on fine afternoons 放在句末，说明“喜欢坐着”这个习惯发生的时间条件。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "like sitting",
+      "role": "谓语+宾语",
+      "explanation": "like 是动词表示“喜欢”，sitting 是动名词作宾语，指“坐着”这种行为。"
+    },
+    {
+      "text": "by the Wayle",
+      "role": "地点状语",
+      "explanation": "by 表示“在……旁边”，说明坐着的具体位置是在韦尔河畔。"
+    },
+    {
+      "text": "on fine afternoons",
+      "role": "时间状语",
+      "explanation": "on 用于有修饰的下午前，fine 修饰 afternoons，指天气晴好的午后。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢",
+      "pos": "动词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "sitting",
+      "meaning": "坐着（动名词形式）",
+      "pos": "动名词",
+      "phonetic": "/ˈsɪtɪŋ/"
+    },
+    {
+      "text": "by",
+      "meaning": "在……旁边",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（定冠词，特指河流）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "Wayle",
+      "meaning": "韦尔（河流名）",
+      "pos": "专有名词",
+      "phonetic": "/weɪl/"
+    },
+    {
+      "text": "on",
+      "meaning": "在（具体某天/某类时段前）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "fine",
+      "meaning": "晴朗的，美好的",
+      "pos": "形容词",
+      "phonetic": "/faɪn/"
+    },
+    {
+      "text": "afternoons.",
+      "meaning": "下午（复数）",
+      "pos": "名词",
+      "phonetic": "/ˌɑːftəˈnuːnz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作的发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "like sitting",
+      "relation": "主语的喜好行为",
+      "meaning": "喜欢坐着"
+    },
+    {
+      "text": "by the Wayle",
+      "relation": "坐着的地点",
+      "meaning": "在韦尔河旁边"
+    },
+    {
+      "text": "on fine afternoons.",
+      "relation": "喜好发生的时间",
+      "meaning": "在晴朗的午后"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-030",
+  "sentenceId": "nce-2-lesson-030-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I like sitting by the Wayle on fine afternoons.",
+  "lesson": "Lesson 30 Football or polo?",
+  "notes": [
+    {
+      "title": "like 后接动名词的含义",
+      "text": "like sitting 表示“喜欢坐着”这件事，是长期的喜好，不是当下一次的动作。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "on fine afternoons 放在句末，说明“喜欢坐着”这个习惯发生的时间条件。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：afternoons的英式音标标注正确；仅需修正words中afternoons.的释义冗余句号说明、structures中on fine afternoons.的text多带句号与约定不符，其余内容准确。（非逐句人工审核）"
+}

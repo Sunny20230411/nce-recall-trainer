@@ -37,11 +37,12 @@ try {
         renderWordSlots({ correctAll: true });
       }, record);
       assert.equal(await page.locator('.understanding-original').textContent(), record.english);
-      assert.equal(await page.locator('.understanding-parts .understanding-part').count(), record.parts.length > 1 ? record.parts.length : 0);
+      const isTipPilot = await page.evaluate(id => window.SENTENCE_UNDERSTANDING.teacherTips.records.some(tip => tip.sentenceId === id), record.sentenceId);
+      assert.equal(await page.locator(isTipPilot ? '.understanding-relations-table tbody tr' : '.understanding-parts .understanding-part').count(), record.parts.length > 1 ? record.parts.length : 0);
       assert.equal(await page.locator('.understanding-details[open]').count(), 0);
       assert.equal(await page.locator('.sentence-understanding > :last-child summary').textContent(), '单词详情');
       const sections = await page.locator('.sentence-understanding > section').evaluateAll(nodes => nodes.map(node => node.dataset.section));
-      assert.deepEqual(sections, ['translation', ...(record.comparison ? ['comparison'] : []), 'backbone', ...(record.parts.length > 1 ? ['relations'] : []), 'structure']);
+      assert.deepEqual(sections, ['translation', ...(record.comparison && !isTipPilot ? ['comparison'] : []), isTipPilot ? 'teacher-tip' : 'backbone', ...(record.parts.length > 1 ? ['relations'] : []), 'structure']);
       await page.locator('.understanding-word-details summary').click();
       assert.equal(await page.locator('.understanding-word-table tbody tr').count(), record.words.length);
       const wordButton = page.locator('.understanding-word-play').first();
@@ -67,6 +68,15 @@ try {
       }
     }
     await page.evaluate(() => {
+      const catalog = window.SENTENCE_UNDERSTANDING.records;
+      const original = catalog[0];
+      const duplicate = { ...original, sentenceId: 'stable-id-regression', sentenceOrder: 999, chinese: '按稳定编号选择的解析' };
+      catalog.push(duplicate);
+      try {
+        const html = renderSentenceUnderstanding({ sentence: { id: duplicate.sentenceId, english: duplicate.english }, courseId: duplicate.courseId, lessonId: duplicate.lessonId, sentenceOrder: original.sentenceOrder, legacyAnalysis: { tokens: [], groups: [] }, manualStructure: false });
+        const template = document.createElement('template'); template.innerHTML = html;
+        if (template.content.querySelector('.understanding-translation').textContent !== duplicate.chinese) throw Error('Stable sentence ID did not take priority over repeated text/order');
+      } finally { catalog.pop(); }
       const sentence = courseCatalog.nce1.lessons.find(lesson => lesson.id === 'lesson-3').sentences[0];
       const before = JSON.stringify(sentenceAnalysisFor(sentence));
       const html = renderSentenceUnderstanding({ sentence, courseId: 'nce1', lessonId: 'lesson-3', sentenceOrder: 1, legacyAnalysis: sentenceAnalysisFor(sentence), manualStructure: true });

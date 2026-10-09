@@ -1,0 +1,123 @@
+{
+  "chinese": "“对不起，我们已经卖光了。” 女孩说道。",
+  "intent": "转述售票女孩向问话者表达歉意并说明票已售罄的直接引语内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "the girl said: 'I'm sorry, we've sold out.'",
+    "meaning": "女孩说：“对不起，我们已经卖完了。”"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把说话内容放在句首，再以“the girl said”交代说话人，是对话转述中的常见语序，不影响核心信息的理解。"
+    },
+    {
+      "title": "sold out 的含义",
+      "text": "短语 sold out 表示“售罄、卖光了”，这里用现在完成时 we've sold out，强调当前已经没有票的结果。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘I'm sorry, we've sold out,’",
+      "role": "直接引语（宾语）",
+      "explanation": "这是女孩说出的原话内容，整体作 said 的宾语，包含致歉和说明售罄两层信息。"
+    },
+    {
+      "text": "the girl said.",
+      "role": "主句主谓",
+      "explanation": "交代说话人是女孩，said 是“说”的过去式，引出前面的直接引语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘I'm",
+      "meaning": "我是（I am的缩写）",
+      "pos": "代词+be动词缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "sorry,",
+      "meaning": "抱歉的，对不起的",
+      "pos": "形容词",
+      "phonetic": "/ˈsɒri/"
+    },
+    {
+      "text": "we've",
+      "meaning": "我们已经（we have的缩写）",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/wiːv/"
+    },
+    {
+      "text": "sold",
+      "meaning": "卖，出售（sell的过去分词）",
+      "pos": "动词过去分词",
+      "phonetic": "/səʊld/"
+    },
+    {
+      "text": "out,’",
+      "meaning": "完，光",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "girl",
+      "meaning": "女孩",
+      "pos": "名词",
+      "phonetic": "/ɡɜːl/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说（say的过去式）",
+      "pos": "动词过去式",
+      "phonetic": "/sed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘I'm sorry,",
+      "relation": "引语中的致歉内容",
+      "meaning": "对不起，"
+    },
+    {
+      "text": "we've sold out,’",
+      "relation": "引语中说明售罄的内容",
+      "meaning": "我们已经卖光了，”"
+    },
+    {
+      "text": "the girl",
+      "relation": "描述说话人是谁",
+      "meaning": "女孩"
+    },
+    {
+      "text": "said.",
+      "relation": "补充说话的动作",
+      "meaning": "说道。"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-019",
+  "sentenceId": "nce-2-lesson-019-sentence-005",
+  "sentenceOrder": 5,
+  "english": "‘I'm sorry, we've sold out,’ the girl said.",
+  "lesson": "Lesson 19 Sold out",
+  "notes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把说话内容放在句首，再以“the girl said”交代说话人，是对话转述中的常见语序，不影响核心信息的理解。"
+    },
+    {
+      "title": "sold out 的含义",
+      "text": "短语 sold out 表示“售罄、卖光了”，这里用现在完成时 we've sold out，强调当前已经没有票的结果。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，仅需修正words中词性混入标点、部分词义不够地道的问题，其余字段符合要求。（非逐句人工审核）"
+}

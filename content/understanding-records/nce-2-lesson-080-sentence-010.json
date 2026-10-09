@@ -1,0 +1,122 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-080",
+  "sentenceId": "nce-2-lesson-080-sentence-010",
+  "sentenceOrder": 13,
+  "english": "Later, the Crystal Palace was moved to South London.",
+  "chinese": "后来，水晶宫被迁到了伦敦南部。",
+  "lesson": "Lesson 80 The Crystal Palace",
+  "intent": "交代建筑后来的迁址",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "Later,",
+      "relation": "后续时间",
+      "meaning": "后来"
+    },
+    {
+      "text": "the Crystal Palace was moved",
+      "relation": "迁移事件",
+      "meaning": "水晶宫被迁移"
+    },
+    {
+      "text": "to South London.",
+      "relation": "目的地",
+      "meaning": "到伦敦南部"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "被动迁移",
+      "text": "was moved 表示建筑受到迁移动作。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "被动迁移",
+      "text": "was moved 表示建筑受到迁移动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Later,",
+      "role": "时间状语",
+      "explanation": "推进历史。"
+    },
+    {
+      "text": "the Crystal Palace",
+      "role": "主语",
+      "explanation": "被迁移的建筑。"
+    },
+    {
+      "text": "was moved",
+      "role": "谓语",
+      "explanation": "过去时被动。"
+    },
+    {
+      "text": "to South London.",
+      "role": "方向状语",
+      "explanation": "说明新址。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Later,",
+      "meaning": "后来",
+      "pos": "副词",
+      "phonetic": "/ˈleɪtə/"
+    },
+    {
+      "text": "the",
+      "meaning": "这座",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "Crystal",
+      "meaning": "水晶",
+      "pos": "专有名词",
+      "phonetic": "/ˈkrɪstl/"
+    },
+    {
+      "text": "Palace",
+      "meaning": "宫",
+      "pos": "专有名词",
+      "phonetic": "/ˈpæləs/"
+    },
+    {
+      "text": "was",
+      "meaning": "构成被动",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "moved",
+      "meaning": "迁移",
+      "pos": "动词过去分词",
+      "phonetic": "/muːvd/"
+    },
+    {
+      "text": "to",
+      "meaning": "到",
+      "pos": "介词",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "South",
+      "meaning": "南（地区名称组成）",
+      "pos": "专有名词",
+      "phonetic": "/saʊθ/"
+    },
+    {
+      "text": "London.",
+      "meaning": "伦敦",
+      "pos": "专有名词",
+      "phonetic": "/ˈlʌndən/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

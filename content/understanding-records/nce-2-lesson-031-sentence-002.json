@@ -1,0 +1,274 @@
+{
+  "chinese": "退休前，弗兰克是一家大型商业公司的负责人；但他小时候曾在一家小商店工作。",
+  "intent": "对比弗兰克退休前的高管身份与年少时的普通工作，突出前后经历的反差。",
+  "comparison": {
+    "chinese": "中文先说时间背景“退休前”，再讲身份，接着用“但小时候”顺承转折，重心落在前后经历的对比上。",
+    "english": "英文先用Before引导时间从句交代背景，主句讲退休前的职位，再用but引出并列分句，分句开头用as a boy点明另一个时间阶段。",
+    "steps": [
+      {
+        "label": "第一步：抓取前半句核心信息",
+        "text": "Before he retired, Frank was the head of a very large business company",
+        "explanation": "先理解主句“弗兰克是大型公司负责人”，Before从句补充说明这个身份对应的时间是退休之前。"
+      },
+      {
+        "label": "第二步：识别转折关系与后半句背景",
+        "text": "but as a boy he used to work in a small shop",
+        "explanation": "but表示前后内容对比转折，as a boy是“还是个男孩的时候”即小时候，用来引出另一个人生阶段的经历。"
+      },
+      {
+        "label": "第三步：体会used to的含义",
+        "text": "used to work",
+        "explanation": "used to表示过去曾经做、现在不做了，对应中文“曾在……工作”，强调今昔对比。"
+      }
+    ],
+    "takeaway": "英文用before从句+主句+but+时间短语+主句的结构串联两个阶段的对比，中文则用更松散的流水句承接，核心都是突出前后身份与工作的反差。"
+  },
+  "backbone": {
+    "text": "Frank was the head of a company, but he used to work in a shop.",
+    "meaning": "弗兰克曾是一家公司的负责人，但他曾在一家商店工作。（理解用简化句，保留前后对比核心）"
+  },
+  "structureNotes": [
+    {
+      "title": "Before引导的时间状语",
+      "text": "Before he retired 放在句首，用来限定后面主句描述的状态发生的时间范围，也就是“退休之前”这段时期。"
+    },
+    {
+      "title": "but连接的并列转折",
+      "text": "but 连接两个并列分句，前后都是完整的句子，语义上形成退休前高管身份与少年时期普通工作的反差对比。"
+    },
+    {
+      "title": "as a boy的作用",
+      "text": "as a boy 是介词短语作时间背景，意思是“当他还是个男孩的时候”，相当于简化的时间状语，交代后半句经历的时期。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Before he retired,",
+      "role": "时间状语从句",
+      "explanation": "引导时间背景，说明后面主句描述的身份状态存在于退休之前。"
+    },
+    {
+      "text": "Frank was the head of a very large business company,",
+      "role": "第一个并列主句",
+      "explanation": "说明弗兰克退休前的职位与所在公司规模。"
+    },
+    {
+      "text": "but",
+      "role": "并列连词",
+      "explanation": "连接两个并列分句，表示语义上的转折对比。"
+    },
+    {
+      "text": "as a boy",
+      "role": "时间状语短语",
+      "explanation": "交代后半句动作发生的人生阶段，即少年时期。"
+    },
+    {
+      "text": "he used to work in a small shop.",
+      "role": "第二个并列主句",
+      "explanation": "说明弗兰克少年时期曾经的工作地点与状态，used to强调过去的经历。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Before",
+      "meaning": "在……之前",
+      "pos": "连词",
+      "phonetic": "/bɪˈfɔː(r)/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "retired,",
+      "meaning": "退休（retire的过去式）",
+      "pos": "动词",
+      "phonetic": "/rɪˈtaɪəd/"
+    },
+    {
+      "text": "Frank",
+      "meaning": "弗兰克（人名）",
+      "pos": "名词",
+      "phonetic": "/fræŋk/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（am/is的过去式）",
+      "pos": "动词",
+      "phonetic": "/wəz/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个；那位（定冠词）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "head",
+      "meaning": "负责人；首领",
+      "pos": "名词",
+      "phonetic": "/hed/"
+    },
+    {
+      "text": "of",
+      "meaning": "属于；关于（表示所属）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（家）",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常；很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "large",
+      "meaning": "大的；大型的",
+      "pos": "形容词",
+      "phonetic": "/lɑːdʒ/"
+    },
+    {
+      "text": "business",
+      "meaning": "商业；业务",
+      "pos": "名词作定语",
+      "phonetic": "/ˈbɪznəs/"
+    },
+    {
+      "text": "company,",
+      "meaning": "公司",
+      "pos": "名词",
+      "phonetic": "/ˈkʌmpəni/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是；可是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "as",
+      "meaning": "当……时；作为",
+      "pos": "介词",
+      "phonetic": "/æz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "boy",
+      "meaning": "男孩；少年",
+      "pos": "名词",
+      "phonetic": "/bɔɪ/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "used",
+      "meaning": "过去常常（与to连用）",
+      "pos": "动词",
+      "phonetic": "/juːst/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "work",
+      "meaning": "工作；干活",
+      "pos": "动词",
+      "phonetic": "/wɜːk/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（家）",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "small",
+      "meaning": "小的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/"
+    },
+    {
+      "text": "shop.",
+      "meaning": "商店",
+      "pos": "名词",
+      "phonetic": "/ʃɒp/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Before he retired,",
+      "relation": "时间背景，修饰前半句的状态",
+      "meaning": "在他退休之前"
+    },
+    {
+      "text": "Frank was the head of a very large business company,",
+      "relation": "前半句核心内容，描述退休前的身份",
+      "meaning": "弗兰克是一家非常大的商业公司的负责人"
+    },
+    {
+      "text": "but",
+      "relation": "转折连接，引出对比内容",
+      "meaning": "但是"
+    },
+    {
+      "text": "as a boy",
+      "relation": "时间背景，修饰后半句的工作经历",
+      "meaning": "当他还是个男孩的时候"
+    },
+    {
+      "text": "he used to work in a small shop.",
+      "relation": "后半句核心内容，描述少年时期的工作经历",
+      "meaning": "他曾在一家小商店工作"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-031",
+  "sentenceId": "nce-2-lesson-031-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Before he retired, Frank was the head of a very large business company, but as a boy he used to work in a small shop.",
+  "lesson": "Lesson 31 Success story",
+  "notes": [
+    {
+      "title": "Before引导的时间状语",
+      "text": "Before he retired 放在句首，用来限定后面主句描述的状态发生的时间范围，也就是“退休之前”这段时期。"
+    },
+    {
+      "title": "but连接的并列转折",
+      "text": "but 连接两个并列分句，前后都是完整的句子，语义上形成退休前高管身份与少年时期普通工作的反差对比。"
+    },
+    {
+      "title": "as a boy的作用",
+      "text": "as a boy 是介词短语作时间背景，意思是“当他还是个男孩的时候”，相当于简化的时间状语，交代后半句经历的时期。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确可用，仅词项释义中多余标注了标点相关说明，需修正以符合词项释义仅解释词本身的要求。（非逐句人工审核）"
+}

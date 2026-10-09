@@ -1,0 +1,129 @@
+{
+  "chinese": "“不，”病人回答说，“我是约翰·吉尔伯特先生。”",
+  "intent": "病人直接回应医生的问题，否认自己是病人的亲属，同时表明自己就是约翰·吉尔伯特本人。",
+  "comparison": null,
+  "backbone": {
+    "text": "‘No,’ the patient answered, ‘I am Mr John Gilbert.’",
+    "meaning": "病人回答“不”，并说明自己是约翰·吉尔伯特先生。"
+  },
+  "structureNotes": [
+    {
+      "title": "引语的插入式排布",
+      "text": "这句话把说话人“the patient answered”插在前后两段直接引语中间，前后引号内的内容连起来是病人完整的回答：先否定，再说明自己的身份。"
+    },
+    {
+      "title": "称呼的构成",
+      "text": "“Mr John Gilbert”是完整的男子称呼加姓名，Mr 是尊称，放在全名或姓氏前，用来表示对男性的礼貌称呼。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘No,’",
+      "role": "直接引语（前半部分）",
+      "explanation": "这是病人回答的前半段，用来否定前面的提问，放在说话人之前。"
+    },
+    {
+      "text": "the patient answered,",
+      "role": "主句（说话人+动作）",
+      "explanation": "交代是谁在说话以及动作是“回答”，插在两段引语中间。"
+    },
+    {
+      "text": "‘I am Mr John Gilbert.’",
+      "role": "直接引语（后半部分）",
+      "explanation": "这是病人回答的后半段，补充说明自己的真实身份，放在说话人之后。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘No,’",
+      "meaning": "不（表否定回答）",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（定冠词，特指前文提到的病人）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "patient",
+      "meaning": "病人",
+      "pos": "名词",
+      "phonetic": "/ˈpeɪʃnt/"
+    },
+    {
+      "text": "answered,",
+      "meaning": "回答道（answer的过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈɑːnsəd/"
+    },
+    {
+      "text": "‘I",
+      "meaning": "我（第一人称单数主格）",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "am",
+      "meaning": "是（be动词第一人称单数现在时形式）",
+      "pos": "be动词",
+      "phonetic": "/æm/"
+    },
+    {
+      "text": "Mr",
+      "meaning": "先生（对男子的尊称）",
+      "pos": "名词（尊称）",
+      "phonetic": "/ˈmɪstə(r)/"
+    },
+    {
+      "text": "John",
+      "meaning": "约翰（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/dʒɒn/"
+    },
+    {
+      "text": "Gilbert.’",
+      "meaning": "吉尔伯特（姓氏）",
+      "pos": "专有名词",
+      "phonetic": "/ˈɡɪlbət/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘No,’",
+      "relation": "回答的前半段（否定内容）",
+      "meaning": "“不，”"
+    },
+    {
+      "text": "the patient answered,",
+      "relation": "说话人与说话动作",
+      "meaning": "病人回答道，"
+    },
+    {
+      "text": "‘I am Mr John Gilbert.’",
+      "relation": "回答的后半段（说明身份）",
+      "meaning": "“我是约翰·吉尔伯特先生。”"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-039",
+  "sentenceId": "nce-2-lesson-039-sentence-009",
+  "sentenceOrder": 11,
+  "english": "‘No,’ the patient answered, ‘I am Mr John Gilbert.’",
+  "lesson": "Lesson 39 Am I all right?",
+  "notes": [
+    {
+      "title": "引语的插入式排布",
+      "text": "这句话把说话人“the patient answered”插在前后两段直接引语中间，前后引号内的内容连起来是病人完整的回答：先否定，再说明自己的身份。"
+    },
+    {
+      "title": "称呼的构成",
+      "text": "“Mr John Gilbert”是完整的男子称呼加姓名，Mr 是尊称，放在全名或姓氏前，用来表示对男性的礼貌称呼。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正单词部分的词性标注不规范问题（不应将标点、引号纳入词性描述，词性仅说明词本身的语法属性），以及个别释义的冗余表述。（非逐句人工审核）"
+}

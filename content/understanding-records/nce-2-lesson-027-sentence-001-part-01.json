@@ -1,0 +1,76 @@
+{
+  "chinese": "傍晚时分，",
+  "intent": "交代后续事件发生的时间背景",
+  "comparison": null,
+  "backbone": {
+    "text": "Late in the afternoon",
+    "meaning": "下午较晚的时候，即傍晚（本片段为句首时间状语短语，无主句）"
+  },
+  "structureNotes": [
+    {
+      "title": "时间短语的构成",
+      "text": "本片段是一个时间状语短语，用 Late 起头强调“晚”的状态，后面用 in the afternoon 限定时间范围，整体说明事情发生在下午的晚段。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Late in the afternoon,",
+      "role": "时间状语（短语）",
+      "explanation": "整体用来引出后面主句事件发生的时间，逗号表示它是句首的时间背景成分，和后面的主句分开。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Late",
+      "meaning": "晚的；接近末期的",
+      "pos": "形容词",
+      "phonetic": "/leɪt/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（某段时间）内",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（表示特定的时段）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "afternoon,",
+      "meaning": "下午",
+      "pos": "名词",
+      "phonetic": "/ˌɑːftəˈnuːn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Late",
+      "meaning": "晚的、靠后的",
+      "relation": "描述时间的早晚属性"
+    },
+    {
+      "text": "in the afternoon,",
+      "meaning": "在下午",
+      "relation": "指明时间所属的时段范围"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-027",
+  "sentenceId": "nce-2-lesson-027-sentence-001-part-01",
+  "sentenceOrder": 1,
+  "english": "Late in the afternoon,",
+  "lesson": "Lesson 27 A wet night",
+  "notes": [
+    {
+      "title": "时间短语的构成",
+      "text": "本片段是一个时间状语短语，用 Late 起头强调“晚”的状态，后面用 in the afternoon 限定时间范围，整体说明事情发生在下午的晚段。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：单词afternoon的释义遗漏尾部逗号说明不符合约定，主干未标注是片段，Chinese译法略生硬，其余内容准确。（非逐句人工审核）"
+}

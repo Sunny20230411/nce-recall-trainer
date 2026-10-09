@@ -1,0 +1,163 @@
+{
+  "chinese": "该男子被责令支付3500英镑的行程费用。",
+  "intent": "说明这名男子收到的命令内容，即需要支付的金额及款项用途。",
+  "comparison": null,
+  "backbone": {
+    "text": "The man was ordered to pay £3,500.",
+    "meaning": "这名男子被责令支付3500英镑。"
+  },
+  "structureNotes": [
+    {
+      "title": "被动语态的动作命令",
+      "text": "was ordered to pay 表示“被责令/被命令支付”，发出命令的一方没有明确说出，重点落在男子需要履行的义务上。"
+    },
+    {
+      "title": "for 引出款项用途",
+      "text": "for the cost of the trip 用来说明3500英镑是用来支付行程费用的，回答“这笔钱是付什么的”这个问题。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The man",
+      "role": "主语",
+      "explanation": "指前文提到的藏在木箱里的男子，是被下达命令的对象。"
+    },
+    {
+      "text": "was ordered",
+      "role": "谓语（被动语态）",
+      "explanation": "表示“被命令、被责令”，用一般过去时被动语态，说明动作的承受者是the man。"
+    },
+    {
+      "text": "to pay £3,500",
+      "role": "主语补足语（命令的具体内容）",
+      "explanation": "补充说明男子被命令要做的事：支付3500英镑。"
+    },
+    {
+      "text": "for the cost of the trip",
+      "role": "状语（款项用途）",
+      "explanation": "说明付款的用途是行程费用，the cost of the trip 是“行程的费用”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这个（定冠词，特指前文提到的男子）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "man",
+      "meaning": "男子，男人",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，构成被动语态）被……",
+      "pos": "be动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "ordered",
+      "meaning": "命令，责令（过去分词，构成被动）",
+      "pos": "动词过去分词",
+      "phonetic": "/ˈɔːdəd/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，引出后续动作）",
+      "pos": "不定式小品词",
+      "phonetic": "/tə/"
+    },
+    {
+      "text": "pay",
+      "meaning": "支付，付款",
+      "pos": "动词",
+      "phonetic": "/peɪ/"
+    },
+    {
+      "text": "£3,500",
+      "meaning": "3500英镑",
+      "pos": "名词短语",
+      "phonetic": "/θriː ˈθaʊzənd faɪv ˈhʌndrəd paʊndz/"
+    },
+    {
+      "text": "for",
+      "meaning": "用于，为了（表示用途）",
+      "pos": "介词",
+      "phonetic": "/fɔː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（定冠词，特指行程的费用）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "cost",
+      "meaning": "费用，花费",
+      "pos": "名词",
+      "phonetic": "/kɒst/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表示所属关系）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（定冠词，特指这次行程）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "trip.",
+      "meaning": "旅行，行程",
+      "pos": "名词",
+      "phonetic": "/trɪp/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The man",
+      "relation": "描述谁被下达命令",
+      "meaning": "这名男子"
+    },
+    {
+      "text": "was ordered",
+      "relation": "核心动作（被动）",
+      "meaning": "被责令"
+    },
+    {
+      "text": "to pay £3,500",
+      "relation": "被命令要做的具体事",
+      "meaning": "支付3500英镑"
+    },
+    {
+      "text": "for the cost of the trip.",
+      "relation": "说明付款的用途",
+      "meaning": "用于这次行程的费用"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-046",
+  "sentenceId": "nce-2-lesson-046-sentence-009",
+  "sentenceOrder": 12,
+  "english": "The man was ordered to pay £3,500 for the cost of the trip.",
+  "lesson": "Lesson 46 Expensive and uncomfortable",
+  "notes": [
+    {
+      "title": "被动语态的动作命令",
+      "text": "was ordered to pay 表示“被责令/被命令支付”，发出命令的一方没有明确说出，重点落在男子需要履行的义务上。"
+    },
+    {
+      "title": "for 引出款项用途",
+      "text": "for the cost of the trip 用来说明3500英镑是用来支付行程费用的，回答“这笔钱是付什么的”这个问题。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅词项trip.的释义冗余提及句末标点，需修正。（非逐句人工审核）"
+}

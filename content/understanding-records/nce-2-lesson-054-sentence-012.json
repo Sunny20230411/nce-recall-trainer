@@ -1,0 +1,91 @@
+{
+  "chinese": "是邮递员。",
+  "intent": "确认门外按门铃的人的身份，说明来者是邮递员。",
+  "comparison": null,
+  "backbone": {
+    "text": "It was the postman.",
+    "meaning": "来的人是邮递员。"
+  },
+  "structureNotes": [
+    {
+      "title": "It的指代作用",
+      "text": "这里的It不指事物，而是用来指代门外身份未明的人，是英语中确认来人是谁的常用说法，不翻译为“它”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "主语（指代身份不明的来人）",
+      "explanation": "用来指代门外按门铃、身份尚未确认的人，是英语中确认来人的习惯用法。"
+    },
+    {
+      "text": "was",
+      "role": "系动词",
+      "explanation": "表示“是”的含义，连接主语和后面说明身份的表语，用过去式呼应上下文的过去场景。"
+    },
+    {
+      "text": "the postman",
+      "role": "表语",
+      "explanation": "说明主语的身份，the特指当前上门的那位邮递员。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（此处指代身份未明的来人）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（am/is/are的过去式，be动词第一、三人称单数过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那位（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "postman.",
+      "meaning": "邮递员",
+      "pos": "名词",
+      "phonetic": "/ˈpəʊsmən/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It",
+      "relation": "被说明身份的对象",
+      "meaning": "（指代门外来人）"
+    },
+    {
+      "text": "was",
+      "relation": "连接主语和身份说明",
+      "meaning": "是"
+    },
+    {
+      "text": "the postman.",
+      "relation": "说明主语的身份",
+      "meaning": "邮递员"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-012",
+  "sentenceOrder": 12,
+  "english": "It was the postman.",
+  "lesson": "Lesson 54 Sticky fingers",
+  "notes": [
+    {
+      "title": "It的指代作用",
+      "text": "这里的It不指事物，而是用来指代门外身份未明的人，是英语中确认来人是谁的常用说法，不翻译为“它”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅单词释义含多余标点、was的be动词范围表述可补全，需修正。（非逐句人工审核）"
+}

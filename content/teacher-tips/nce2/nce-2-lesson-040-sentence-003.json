@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-040",
+  "sentenceId": "nce-2-lesson-040-sentence-003",
+  "english": "She did not even look up when I took my seat beside her.",
+  "text": "主句说她连头都没抬，when 从句只交代“我坐下”这个触发动作。重点在她的冷淡反应，所以把 She did not even look up 放前面，坐下的动作只是衬托态度的背景。",
+  "sourceDigest": "55791f5de9d53011e9bfa56b832c8352b97eb26701595980ede97823f240270a",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：准确区分主从信息的轻重，点明主句承载焦点、从句交代背景的表达逻辑，有教学价值。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "点拨了主从信息的轻重安排，符合表达意图，表述自然。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "chinese": "但他们当中还没有一个人被变成石头呢！",
+  "intent": "承接上一句贾斯珀的幻想，用转折说明现实情况——到目前为止，那些车主和车都还没有被美杜莎变成石头，带有出人意料的调侃意味。",
+  "comparison": null,
+  "backbone": {
+    "text": "none of them have been turned to stone",
+    "meaning": "它们当中没有一个被变成石头"
+  },
+  "structureNotes": [
+    {
+      "title": "none of them 的指代",
+      "text": "句中的 them 承接上一句语境，指代“那些开车进来的人和他们的车”，none of them 表示在这批对象里一个都没有发生后面的情况。"
+    },
+    {
+      "title": "现在完成时被动 + yet 的含义",
+      "text": "have been turned 是现在完成时的被动形式，搭配句尾的 yet，强调“到目前为止还没发生”，带有“照理可能会发生、但至今没出现”的语气。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "But",
+      "role": "转折连接词",
+      "explanation": "引出与上文预期相反的事实，承接上一句贾斯珀希望美杜莎把人和车都变成石头的想法。"
+    },
+    {
+      "text": "none of them",
+      "role": "主语",
+      "explanation": "表示“它们当中没有一个”，是句子描述的对象，指代语境里的车主和车辆。"
+    },
+    {
+      "text": "have been turned",
+      "role": "谓语（现在完成时被动）",
+      "explanation": "表示“已经被变成”，动作的承受者是主语，动作发出者在本句未直接说出。"
+    },
+    {
+      "text": "to stone",
+      "role": "主语补足语（介词短语）",
+      "explanation": "补充说明主语被转变后的结果是石头，与被动语态的turn搭配说明转变的结果。"
+    },
+    {
+      "text": "yet!",
+      "role": "时间/语气副词",
+      "explanation": "用在否定句句尾，强调“到现在为止还没有”，暗含后续仍有可能的意味。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "但是；不过",
+      "pos": "连词",
+      "phonetic": "/bʌt/",
+      "text": "But"
+    },
+    {
+      "meaning": "没有一个；毫无",
+      "pos": "代词",
+      "phonetic": "/nʌn/",
+      "text": "none"
+    },
+    {
+      "meaning": "……的（表所属范围）",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "他们；它们（宾格）",
+      "pos": "代词",
+      "phonetic": "/ðem/",
+      "text": "them"
+    },
+    {
+      "meaning": "（助动词，构成完成时）已经",
+      "pos": "助动词",
+      "phonetic": "/hæv/",
+      "text": "have"
+    },
+    {
+      "meaning": "（be的过去分词，构成被动/完成）被；已经",
+      "pos": "助动词",
+      "phonetic": "/biːn/",
+      "text": "been"
+    },
+    {
+      "meaning": "（使）变成；转动",
+      "pos": "动词（过去分词）",
+      "phonetic": "/tɜːnd/",
+      "text": "turned"
+    },
+    {
+      "meaning": "到；向；变成（表结果）",
+      "pos": "介词",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "石头",
+      "pos": "名词",
+      "phonetic": "/stəʊn/",
+      "text": "stone"
+    },
+    {
+      "meaning": "还；尚；至今（用于否定句尾）",
+      "pos": "副词",
+      "phonetic": "/jet/",
+      "text": "yet!"
+    }
+  ],
+  "parts": [
+    {
+      "text": "But",
+      "meaning": "但是",
+      "relation": "转折衔接，连接上文的预期"
+    },
+    {
+      "text": "none of them",
+      "meaning": "它们当中没有一个",
+      "relation": "描述对象，是句子的主语"
+    },
+    {
+      "text": "have been turned to stone",
+      "meaning": "已经被变成石头",
+      "relation": "描述主语发生的动作及结果"
+    },
+    {
+      "text": "yet!",
+      "meaning": "至今还（没发生）",
+      "relation": "补充时间范围和语气，强调到目前为止尚未出现"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-028",
+  "sentenceId": "nce-2-lesson-028-sentence-010",
+  "sentenceOrder": 14,
+  "english": "But none of them have been turned to stone yet!",
+  "lesson": "Lesson 28 No parking",
+  "notes": [
+    {
+      "title": "none of them 的指代",
+      "text": "句中的 them 承接上一句语境，指代“那些开车进来的人和他们的车”，none of them 表示在这批对象里一个都没有发生后面的情况。"
+    },
+    {
+      "title": "现在完成时被动 + yet 的含义",
+      "text": "have been turned 是现在完成时的被动形式，搭配句尾的 yet，强调“到目前为止还没发生”，带有“照理可能会发生、但至今没出现”的语气。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需调整“to stone”的语法角色为介词短语作主语补足语，并修正对应说明，同时完善backbone的被动语义表达。（非逐句人工审核）"
+}

@@ -1,0 +1,141 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-084",
+  "sentenceId": "nce-2-lesson-084-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Most people believe that the strike will last for at least a week.",
+  "chinese": "大多数人认为罢工至少会持续一周。",
+  "lesson": "Lesson 84 On strike",
+  "intent": "报告多数人对罢工时长的估计",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "Most people believe",
+      "relation": "判断来源",
+      "meaning": "大多数人认为"
+    },
+    {
+      "text": "that the strike will last",
+      "relation": "预测",
+      "meaning": "罢工将持续"
+    },
+    {
+      "text": "for at least a week.",
+      "relation": "时长下限",
+      "meaning": "至少一周"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "持续长度",
+      "text": "for 引出一段时间，at least 对这一时长设下限。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "持续长度",
+      "text": "for 引出一段时间，at least 对这一时长设下限。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Most people",
+      "role": "主语",
+      "explanation": "持此判断的多数人。"
+    },
+    {
+      "text": "believe",
+      "role": "谓语",
+      "explanation": "表达看法而非保证。"
+    },
+    {
+      "text": "that the strike will last for at least a week.",
+      "role": "宾语从句",
+      "explanation": "报告对时长的预测。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Most",
+      "meaning": "大多数",
+      "pos": "数量限定词",
+      "phonetic": "/məʊst/"
+    },
+    {
+      "text": "people",
+      "meaning": "人们",
+      "pos": "名词复数",
+      "phonetic": "/ˈpiːpl/"
+    },
+    {
+      "text": "believe",
+      "meaning": "认为",
+      "pos": "动词",
+      "phonetic": "/bɪˈliːv/"
+    },
+    {
+      "text": "that",
+      "meaning": "引出看法",
+      "pos": "从属连词",
+      "phonetic": "/ðæt/ 或 /ðət/"
+    },
+    {
+      "text": "the",
+      "meaning": "此次",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "strike",
+      "meaning": "罢工",
+      "pos": "名词",
+      "phonetic": "/straɪk/"
+    },
+    {
+      "text": "will",
+      "meaning": "将会",
+      "pos": "情态助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "last",
+      "meaning": "持续",
+      "pos": "动词原形",
+      "phonetic": "/lɑːst/"
+    },
+    {
+      "text": "for",
+      "meaning": "长达",
+      "pos": "介词",
+      "phonetic": "/fɔː/ 或 /fər/"
+    },
+    {
+      "text": "at",
+      "meaning": "至少（短语组成）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "least",
+      "meaning": "最少（与 at 连用）",
+      "pos": "副词",
+      "phonetic": "/liːst/"
+    },
+    {
+      "text": "a",
+      "meaning": "一",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "week.",
+      "meaning": "周",
+      "pos": "名词",
+      "phonetic": "/wiːk/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

@@ -1,0 +1,76 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-090",
+  "sentenceId": "nce-2-lesson-090-sentence-007-part-02",
+  "sentenceOrder": 9,
+  "english": "cars are unnecessary.",
+  "chinese": "汽车是没有必要的。",
+  "lesson": "Lesson 90 What's for supper?",
+  "intent": "补足前文步行购物的原因。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "cars",
+      "relation": "判断对象",
+      "meaning": "汽车"
+    },
+    {
+      "text": "are unnecessary.",
+      "relation": "必要性判断",
+      "meaning": "没有必要"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "上下文",
+      "text": "这是前一片段 for 引出的原因主体，不另加新连接词。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "上下文",
+      "text": "这是前一片段 for 引出的原因主体，不另加新连接词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "cars",
+      "role": "主语",
+      "explanation": "泛指汽车。"
+    },
+    {
+      "text": "are",
+      "role": "系动词",
+      "explanation": "连接对象和评价。"
+    },
+    {
+      "text": "unnecessary",
+      "role": "表语",
+      "explanation": "说明无需依赖汽车。"
+    }
+  ],
+  "words": [
+    {
+      "text": "cars",
+      "meaning": "汽车",
+      "pos": "名词",
+      "phonetic": "/kɑːz/"
+    },
+    {
+      "text": "are",
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɑː/ 或 /ɑːr/"
+    },
+    {
+      "text": "unnecessary.",
+      "meaning": "不必要的",
+      "pos": "形容词",
+      "phonetic": "/ʌnˈnesəsəri/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

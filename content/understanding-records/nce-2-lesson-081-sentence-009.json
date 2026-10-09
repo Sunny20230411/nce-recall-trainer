@@ -1,0 +1,94 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-081",
+  "sentenceId": "nce-2-lesson-081-sentence-009",
+  "sentenceOrder": 12,
+  "english": "The man obviously wanted to talk.",
+  "chinese": "那人显然想聊聊。",
+  "lesson": "Lesson 81 Escape",
+  "intent": "判断司机接近的意图",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "The man",
+      "relation": "人物",
+      "meaning": "那人"
+    },
+    {
+      "text": "obviously wanted to talk.",
+      "relation": "意图判断",
+      "meaning": "显然想说话"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "意愿内容",
+      "text": "to talk 作 wanted 的补足内容。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "意愿内容",
+      "text": "to talk 作 wanted 的补足内容。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The man",
+      "role": "主语",
+      "explanation": "指司机。"
+    },
+    {
+      "text": "obviously",
+      "role": "评注状语",
+      "explanation": "表明叙述者的确信。"
+    },
+    {
+      "text": "wanted to talk.",
+      "role": "谓语部分",
+      "explanation": "说明想交谈。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "那个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "obviously",
+      "meaning": "显然",
+      "pos": "副词",
+      "phonetic": "/ˈɒbviəsli/"
+    },
+    {
+      "text": "wanted",
+      "meaning": "想要",
+      "pos": "动词过去式",
+      "phonetic": "/ˈwɒntɪd/"
+    },
+    {
+      "text": "to",
+      "meaning": "引出意愿动作",
+      "pos": "不定式标记",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "talk.",
+      "meaning": "交谈",
+      "pos": "动词",
+      "phonetic": "/tɔːk/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

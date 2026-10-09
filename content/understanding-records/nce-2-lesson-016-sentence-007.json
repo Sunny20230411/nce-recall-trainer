@@ -1,0 +1,165 @@
+{
+  "chinese": "如果你注意我们的街牌，你会在这里过得愉快。",
+  "intent": "告知对方只要留意当地的街牌指示，在此停留期间就会顺利愉快，暗含提醒遵守标识规则的意味。",
+  "comparison": {
+    "chinese": "如果你注意我们的街牌，你会在这里过得愉快。",
+    "english": "You will enjoy your stay here if you pay attention to our street signs.",
+    "steps": [
+      {
+        "label": "先说核心结果",
+        "text": "You will enjoy your stay here",
+        "explanation": "中文常把假设条件放在前面，英文先直接给出主句的核心信息：你会享受在此停留的时光。"
+      },
+      {
+        "label": "再补前提条件",
+        "text": "if you pay attention to our street signs",
+        "explanation": "用if引出实现前面结果的前提，回答“在什么情况下会enjoy your stay”的问题。"
+      }
+    ],
+    "takeaway": "英文习惯先讲主句结论，再用if从句补充条件；中文则更常见“如果…就…”的前因后果语序。"
+  },
+  "backbone": {
+    "text": "You will enjoy your stay here if you pay attention to our street signs.",
+    "meaning": "在你留意我们街牌的前提下，你会在此停留期间过得愉快。"
+  },
+  "structureNotes": [
+    {
+      "title": "if引导的条件从句",
+      "text": "if在这里引出真实条件，表示“只要满足后面的情况，前面的事就会成立”，不是断言必然发生，也不等于only if。"
+    },
+    {
+      "title": "pay attention to的搭配",
+      "text": "pay attention to是固定表达，整体表示“注意、留意”，后面直接接要注意的对象，本句中是our street signs。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "You will enjoy your stay here",
+      "role": "主句",
+      "explanation": "陈述在某种条件下会出现的结果，是句子的核心信息。"
+    },
+    {
+      "text": "if you pay attention to our street signs",
+      "role": "条件状语从句",
+      "explanation": "用if引导，说明主句情况成立的前提条件，从句用一般现在时表将来条件。"
+    }
+  ],
+  "words": [
+    {
+      "text": "You",
+      "meaning": "你，你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "will",
+      "meaning": "将，会",
+      "pos": "情态动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "enjoy",
+      "meaning": "享受，过得愉快",
+      "pos": "动词",
+      "phonetic": "/ɪnˈdʒɔɪ/"
+    },
+    {
+      "text": "your",
+      "meaning": "你的，你们的",
+      "pos": "限定词",
+      "phonetic": "/jɔː/"
+    },
+    {
+      "text": "stay",
+      "meaning": "停留，逗留",
+      "pos": "名词",
+      "phonetic": "/steɪ/"
+    },
+    {
+      "text": "here",
+      "meaning": "在这里",
+      "pos": "副词",
+      "phonetic": "/hɪə/"
+    },
+    {
+      "text": "if",
+      "meaning": "如果",
+      "pos": "连词",
+      "phonetic": "/ɪf/"
+    },
+    {
+      "text": "you",
+      "meaning": "你，你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "pay",
+      "meaning": "给予（注意力）",
+      "pos": "动词",
+      "phonetic": "/peɪ/"
+    },
+    {
+      "text": "attention",
+      "meaning": "注意力",
+      "pos": "名词",
+      "phonetic": "/əˈtenʃən/"
+    },
+    {
+      "text": "to",
+      "meaning": "对，向",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "our",
+      "meaning": "我们的",
+      "pos": "限定词",
+      "phonetic": "/ˈaʊə/"
+    },
+    {
+      "text": "street",
+      "meaning": "街道",
+      "pos": "名词",
+      "phonetic": "/striːt/"
+    },
+    {
+      "text": "signs.",
+      "meaning": "标识，标牌（复数）",
+      "pos": "名词",
+      "phonetic": "/saɪnz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "You will enjoy your stay here",
+      "relation": "主句，说明条件满足时会发生的结果",
+      "meaning": "你会享受在此停留的时光"
+    },
+    {
+      "text": "if you pay attention to our street signs.",
+      "relation": "条件，说明主句成立的前提",
+      "meaning": "如果你留意我们的街牌"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-016",
+  "sentenceId": "nce-2-lesson-016-sentence-007",
+  "sentenceOrder": 9,
+  "english": "You will enjoy your stay here if you pay attention to our street signs.",
+  "lesson": "Lesson 16 A polite request",
+  "notes": [
+    {
+      "title": "if引导的条件从句",
+      "text": "if在这里引出真实条件，表示“只要满足后面的情况，前面的事就会成立”，不是断言必然发生，也不等于only if。"
+    },
+    {
+      "title": "pay attention to的搭配",
+      "text": "pay attention to是固定表达，整体表示“注意、留意”，后面直接接要注意的对象，本句中是our street signs。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅两处细节需修正：1. 单词words中street的词性标注为名词但释义补充“作定语”易被误解为形容词，应明确是名词作定语，词性仍为名词；signs.的释义额外说明句末带句号属于冗余，按约定无需标注标点说明。2. 条件从句的structures项text末尾多余句号，与原文分块不一致需修正。（非逐句人工审核）"
+}

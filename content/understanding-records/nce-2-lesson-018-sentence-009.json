@@ -1,0 +1,87 @@
+{
+  "chinese": "“我很抱歉，”他说道。",
+  "intent": "转述某人说的一句道歉的话，呈现直接引语与说话人的关系。",
+  "comparison": null,
+  "backbone": {
+    "text": "‘I'm very sorry,’ he said.",
+    "meaning": "他说了“我很抱歉”这句话。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把引语放在句首，说话人he said放在句末，是英语叙述中常见的引语写法，中文也常用类似顺序，翻译时只需调整引号位置符合中文习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘I'm very sorry,’",
+      "role": "直接引语（说的内容）",
+      "explanation": "这是he说话的具体内容，是一个完整的主系表句子，用引号标出，作said的宾语。"
+    },
+    {
+      "text": "he said.",
+      "role": "主句（说话人+动作）",
+      "explanation": "he是说话的人，said是“说”这个动作，整体交代谁说出了前面引语里的话。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘I'm",
+      "meaning": "我是（I am的缩写）",
+      "pos": "代词+动词缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "sorry,’",
+      "meaning": "抱歉的，遗憾的",
+      "pos": "形容词",
+      "phonetic": "/ˈsɒri/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说（过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘I'm very sorry,’",
+      "meaning": "“我很抱歉，”",
+      "relation": "所说的具体内容"
+    },
+    {
+      "text": "he said.",
+      "meaning": "他说道。",
+      "relation": "说话人和动作"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-018",
+  "sentenceId": "nce-2-lesson-018-sentence-009",
+  "sentenceOrder": 9,
+  "english": "‘I'm very sorry,’ he said.",
+  "lesson": "Lesson 18 He often does this!",
+  "notes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把引语放在句首，说话人he said放在句末，是英语叙述中常见的引语写法，中文也常用类似顺序，翻译时只需调整引号位置符合中文习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：单词项的标点混入释义与词性说明不规范，主干文本未保留原句结尾句点，其余内容符合要求。（非逐句人工审核）"
+}

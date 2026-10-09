@@ -1,0 +1,91 @@
+{
+  "chinese": "我又转过身了。",
+  "intent": "描述说话人再一次做出转身的动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "I turned round again.",
+    "meaning": "我又转过身了。"
+  },
+  "structureNotes": [
+    {
+      "title": "turn round 的含义",
+      "text": "turn round 是固定短语，意思是“转身、转过头”，这里 round 表示方向的回转。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指做出转身动作的人，也就是说话者。"
+    },
+    {
+      "text": "turned round",
+      "role": "谓语",
+      "explanation": "是短语动词，整体表示“转身”这个动作；turned 是 turn 的过去式，说明动作发生在过去。"
+    },
+    {
+      "text": "again.",
+      "role": "状语",
+      "explanation": "说明这个转身动作是再一次发生的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "turned",
+      "meaning": "（与round构成短语turn round，表转身动作）转动（过去式）",
+      "pos": "动词",
+      "phonetic": "/tɜːnd/"
+    },
+    {
+      "text": "round",
+      "meaning": "旋转地；回转地",
+      "pos": "副词",
+      "phonetic": "/raʊnd/"
+    },
+    {
+      "text": "again.",
+      "meaning": "又；再一次",
+      "pos": "副词",
+      "phonetic": "/əˈɡen/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "turned round",
+      "relation": "主语的动作",
+      "meaning": "转过身"
+    },
+    {
+      "text": "again.",
+      "relation": "补充说明动作发生的次数",
+      "meaning": "又/再一次"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-001",
+  "sentenceId": "nce-2-lesson-001-sentence-013",
+  "sentenceOrder": 13,
+  "english": "I turned round again.",
+  "lesson": "Lesson 1 A private conversation",
+  "notes": [
+    {
+      "title": "turn round 的含义",
+      "text": "turn round 是固定短语，意思是“转身、转过头”，这里 round 表示方向的回转。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需修正两处细节：1. 单词“turned”的释义不应仅标注核心义“转动”，需结合短语“turn round”的语境明确为短语内的动作义，避免歧义；2. 结构成分“turned round”作为谓语的解释需明确是短语动词整体作谓语，原表述未强调短语动词属性，易让学习者误以为turned单独作谓语。其余字段均符合要求。（非逐句人工审核）"
+}

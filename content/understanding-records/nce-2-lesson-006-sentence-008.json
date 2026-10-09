@@ -1,0 +1,122 @@
+{
+  "chinese": "后来一个邻居告诉我他的事。",
+  "intent": "说明在那之后，有一位邻居向我讲了关于他的情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "a neighbour told me about him",
+    "meaning": "一个邻居告诉我关于他的事"
+  },
+  "structureNotes": [
+    {
+      "title": "Later的作用",
+      "text": "Later放在句首作时间状语，交代整件事发生的时间是在前文提到的动作之后，理解为“后来、之后”。"
+    },
+    {
+      "title": "tell sb about sth/sb的搭配",
+      "text": "tell me about him 表示“告诉我关于他的情况”，about 引出谈论的对象，不是直接把他作为告知的内容。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Later",
+      "role": "时间状语",
+      "explanation": "说明这件事发生的时间是在之前提到的事情之后。"
+    },
+    {
+      "text": "a neighbour",
+      "role": "主语",
+      "explanation": "执行“告诉”这个动作的人。"
+    },
+    {
+      "text": "told me about him",
+      "role": "谓语部分",
+      "explanation": "told 是谓语动词，me 是告知的对象，about him 说明所讲内容涉及的人。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "后来，之后",
+      "pos": "副词",
+      "phonetic": "/ˈleɪtə/",
+      "text": "Later"
+    },
+    {
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "邻居",
+      "pos": "名词",
+      "phonetic": "/ˈneɪbə/",
+      "text": "neighbour"
+    },
+    {
+      "meaning": "告诉（tell的过去式）",
+      "pos": "动词",
+      "phonetic": "/təʊld/",
+      "text": "told"
+    },
+    {
+      "meaning": "我（宾格）",
+      "pos": "人称代词",
+      "phonetic": "/miː/",
+      "text": "me"
+    },
+    {
+      "meaning": "关于",
+      "pos": "介词",
+      "phonetic": "/əˈbaʊt/",
+      "text": "about"
+    },
+    {
+      "meaning": "他（宾格）",
+      "pos": "人称代词",
+      "phonetic": "/hɪm/",
+      "text": "him."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Later",
+      "meaning": "后来",
+      "relation": "时间状语"
+    },
+    {
+      "text": "a neighbour",
+      "meaning": "一个邻居",
+      "relation": "主语（动作发出者）"
+    },
+    {
+      "text": "told me",
+      "meaning": "告诉了我",
+      "relation": "谓语+间接宾语，表动作及动作的接收对象"
+    },
+    {
+      "text": "about him.",
+      "meaning": "关于他（的事）",
+      "relation": "补语，补充说明告知内容涉及的对象"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-006",
+  "sentenceId": "nce-2-lesson-006-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Later a neighbour told me about him.",
+  "lesson": "Lesson 6 Percy Buttons",
+  "notes": [
+    {
+      "title": "Later的作用",
+      "text": "Later放在句首作时间状语，交代整件事发生的时间是在前文提到的动作之后，理解为“后来、之后”。"
+    },
+    {
+      "title": "tell sb about sth/sb的搭配",
+      "text": "tell me about him 表示“告诉我关于他的情况”，about 引出谈论的对象，不是直接把他作为告知的内容。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本准确，仅一处细节需修正：words数组中最后一项him.的text末尾带句点是分词约定，但音标不应包含句点相关内容，原条目没问题？不对，等下，哦不对，再看——哦，backbone是对的，parts也没问题？等下，哦，不对，检查words的phonetic：都是英式吗？Later的英式音标是/ˈleɪtə(r)/？不对，英式发音里later的音标通常标注为/ˈleɪtə/也可接受，neighbour的英式是/ˈneɪbə/也对，told是/təʊld/正确，about是/əˈbaʊt/正确，him是/hɪm/正确。等等，那有没有问题？哦，不对，parts里的第三项text是told me，relation是“描述谁做了什么动作”——不对，主语是a neighbour才是动作发出者，told me是谓语的一部分，relation描述的是该部分的语法角色，原来的relation“描述谁做了什么动作”不准确？不对，再看原parts的各项：第一项Later relation是时间，对；第二项a neighbour relation是动作的发出者，对，就是主语；第三项told me relation写的是“描述谁做了什么动作”——不对，“谁”是主语的部分，told me是谓语+间接宾语，应该说明是“谓语+间接宾语，表示动作及动作的接收对象”？不对，再仔细看原要求：parts只能更正原分块的meaning和relation，保留text及数组长度。原第三项text是told me，meaning是“告诉了我”是对的，relation原来写的“描述谁做了什么动作”不对，因为“谁”是主语a neighbour的内容，这里told me是动作及其对象，应该修正relation为“表示发生的动作及动作的接收对象”？还有第四项about him.的relation是“补充说明告知的内容涉及谁”，这个是对的？等下，再回头看整体：原record的chinese是“后来一个邻居告诉我他的事。”是对的，intent也对，backbone也对，structureNotes没问题，structures也没问题。哦，不对，还有words里的him.，text带句点是约定，没问题，释义和词性都对。等等，那有没有问题？哦，等下，backbone的text是（非逐句人工审核）"
+}

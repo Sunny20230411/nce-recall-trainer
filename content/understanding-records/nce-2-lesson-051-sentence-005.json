@@ -1,0 +1,98 @@
+{
+  "chinese": "昨天我去看望了他。",
+  "intent": "告知过去某天自己对某人进行了一次拜访这一过去发生的动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "I paid him a visit.",
+    "meaning": "我去拜访了他。"
+  },
+  "structureNotes": [
+    {
+      "title": "pay sb a visit 的用法",
+      "text": "pay sb a visit 是固定搭配，意思是“拜访某人”，相当于 visit sb，pay在这里不表示“付钱”，而是表达进行一次拜访的动作，动作对象是人用间接宾语him，拜访这件事用直接宾语a visit。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yesterday",
+      "role": "时间状语",
+      "explanation": "交代动作发生的时间是昨天，说明句子是一般过去时。"
+    },
+    {
+      "text": "paid him a visit",
+      "role": "谓语和双宾语",
+      "explanation": "paid是pay的过去式作谓语，him是间接宾语指拜访的对象，a visit是直接宾语指具体的拜访行为，合起来表示“拜访他”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yesterday",
+      "meaning": "昨天",
+      "pos": "副词",
+      "phonetic": "/ˈjestədeɪ/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "paid",
+      "meaning": "进行（拜访等动作）",
+      "pos": "动词",
+      "phonetic": "/peɪd/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（次）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "visit.",
+      "meaning": "拜访；访问",
+      "pos": "名词",
+      "phonetic": "/ˈvɪzɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yesterday",
+      "relation": "时间",
+      "meaning": "昨天"
+    },
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "paid him a visit.",
+      "relation": "描述主语的动作和对象",
+      "meaning": "去拜访了他"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-051",
+  "sentenceId": "nce-2-lesson-051-sentence-005",
+  "sentenceOrder": 6,
+  "english": "Yesterday I paid him a visit.",
+  "lesson": "Lesson 51 Reward for virtue",
+  "notes": [
+    {
+      "title": "pay sb a visit 的用法",
+      "text": "pay sb a visit 是固定搭配，意思是“拜访某人”，相当于 visit sb，pay在这里不表示“付钱”，而是表达进行一次拜访的动作，动作对象是人用间接宾语him，拜访这件事用直接宾语a visit。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：最后一个词visit带句点是存储约定，整体解析基本准确，但a的释义不够准确、paid的中文释义过于泛化，需修正。（非逐句人工审核）"
+}

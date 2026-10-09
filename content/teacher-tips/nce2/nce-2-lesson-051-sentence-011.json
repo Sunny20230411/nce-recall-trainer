@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-051",
+  "sentenceId": "nce-2-lesson-051-sentence-011",
+  "english": "He explained that his diet was so strict that he had to reward himself occasionally.",
+  "text": "这里用 so strict that... 把“饮食严格”和“不得不奖励自己”绑成因果程度关系，比分开说两句更能突出严格到了需要补偿的地步。想表达“某事到了某种程度，所以产生某个结果”，可以用 so + 形容词 + that 引出结果。",
+  "sourceDigest": "6954f5b77bc999178d559830d2a1a9c4b4d389bd077f1e7fcbecfe7b837817ea",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：选点准确，讲清so...that的程度因果功能，迁移具体可用。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "点出so...that的程度因果语义，不是单纯讲结构，迁移清晰。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-081",
+  "sentenceId": "nce-2-lesson-081-sentence-001-part-01",
+  "sentenceOrder": 1,
+  "english": "When he had killed the guard,",
+  "chinese": "他杀死哨兵后，",
+  "lesson": "Lesson 81 Escape",
+  "intent": "设定拖走哨兵之前的事件",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "When he had killed the guard,",
+      "relation": "先行事件",
+      "meaning": "他杀死哨兵之后"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "未完的时间从句",
+      "text": "当前片段的主句在后文，had killed 表示先已完成。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "未完的时间从句",
+      "text": "当前片段的主句在后文，had killed 表示先已完成。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When he had killed the guard,",
+      "role": "时间状语从句",
+      "explanation": "为下一片段的行动提供时间背景。"
+    },
+    {
+      "text": "he",
+      "role": "从句主语",
+      "explanation": "指战俘。"
+    },
+    {
+      "text": "had killed the guard",
+      "role": "从句谓语部分",
+      "explanation": "过去完成时及宾语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "When",
+      "meaning": "当……之后",
+      "pos": "从属连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "had",
+      "meaning": "构成过去完成时",
+      "pos": "助动词",
+      "phonetic": "/hæd/ 或 /əd/"
+    },
+    {
+      "text": "killed",
+      "meaning": "杀死",
+      "pos": "动词过去分词",
+      "phonetic": "/kɪld/"
+    },
+    {
+      "text": "the",
+      "meaning": "那名",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "guard,",
+      "meaning": "哨兵",
+      "pos": "名词",
+      "phonetic": "/ɡɑːd/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

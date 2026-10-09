@@ -1,0 +1,137 @@
+{
+  "chinese": "她必须穿着亮红色的连衣裙和黑色长袜出场。",
+  "intent": "说明她在剧中出场时需要穿戴的服装要求。",
+  "comparison": null,
+  "backbone": {
+    "text": "she must appear in a bright red dress and long black stockings.",
+    "meaning": "她必须穿着亮红色连衣裙和黑色长袜出场。"
+  },
+  "structureNotes": [
+    {
+      "title": "in 引出穿戴的服装",
+      "text": "appear in a bright red dress and long black stockings 里的 in 不是表示位置，而是说明出场时身上穿戴的衣物，后面直接接服装类名词。"
+    },
+    {
+      "title": "多个形容词修饰名词的顺序",
+      "text": "bright red dress 是“亮+红+连衣裙”，long black stockings 是“长+黑+长袜”，英语里描述衣物时通常先说观感/长短，再说颜色，最后说衣物本身。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "appear in a bright red dress and long black stockings",
+      "role": "谓语及穿戴状语部分",
+      "explanation": "核心动作是 appear（出场、亮相），in 引出的整组服装名词说明出场时的穿戴状态，and 连接两套并列的穿戴物品。"
+    }
+  ],
+  "words": [
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "must",
+      "meaning": "必须",
+      "pos": "情态动词",
+      "phonetic": "/mʌst/"
+    },
+    {
+      "text": "appear",
+      "meaning": "出场，露面",
+      "pos": "动词",
+      "phonetic": "/əˈpɪə/"
+    },
+    {
+      "text": "in",
+      "meaning": "穿着（表穿戴状态）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一件",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "bright",
+      "meaning": "鲜亮的",
+      "pos": "形容词",
+      "phonetic": "/braɪt/"
+    },
+    {
+      "text": "red",
+      "meaning": "红色的",
+      "pos": "形容词",
+      "phonetic": "/red/"
+    },
+    {
+      "text": "dress",
+      "meaning": "连衣裙",
+      "pos": "名词",
+      "phonetic": "/dres/"
+    },
+    {
+      "text": "and",
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "long",
+      "meaning": "长的",
+      "pos": "形容词",
+      "phonetic": "/lɒŋ/"
+    },
+    {
+      "text": "black",
+      "meaning": "黑色的",
+      "pos": "形容词",
+      "phonetic": "/blæk/"
+    },
+    {
+      "text": "stockings.",
+      "meaning": "长袜",
+      "pos": "名词",
+      "phonetic": "/ˈstɒkɪŋz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "she must appear",
+      "relation": "主干：人物和核心动作要求",
+      "meaning": "她必须出场"
+    },
+    {
+      "text": "in a bright red dress",
+      "relation": "补充出场时的第一项穿戴",
+      "meaning": "穿着一件亮红色的连衣裙"
+    },
+    {
+      "text": "and long black stockings.",
+      "relation": "并列的第二项穿戴",
+      "meaning": "和黑色长袜"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-017",
+  "sentenceId": "nce-2-lesson-017-sentence-006-part-02",
+  "sentenceOrder": 7,
+  "english": "she must appear in a bright red dress and long black stockings.",
+  "lesson": "Lesson 17 Always young",
+  "notes": [
+    {
+      "title": "in 引出穿戴的服装",
+      "text": "appear in a bright red dress and long black stockings 里的 in 不是表示位置，而是说明出场时身上穿戴的衣物，后面直接接服装类名词。"
+    },
+    {
+      "title": "多个形容词修饰名词的顺序",
+      "text": "bright red dress 是“亮+红+连衣裙”，long black stockings 是“长+黑+长袜”，英语里描述衣物时通常先说观感/长短，再说颜色，最后说衣物本身。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅词项 stockings. 的释义混入句末标点，且应明确本句为剧场景点下的片段；其余字段无需修改。（非逐句人工审核）"
+}

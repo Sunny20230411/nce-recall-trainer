@@ -1,0 +1,75 @@
+{
+  "chinese": "我转过身来。",
+  "intent": "描述说话人做出了转身的动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "I turned round.",
+    "meaning": "我转过身了。"
+  },
+  "structureNotes": [
+    {
+      "title": "turn round 的含义",
+      "text": "turn round 是固定短语，表示“转过身来”，描述身体朝向发生转变的动作，整体作谓语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "表示做出转身动作的人，即说话者自己。"
+    },
+    {
+      "text": "turned round",
+      "role": "谓语",
+      "explanation": "表示主语发出的动作，其中 turned 是 turn 的过去式，round 补充说明动作的方向和结果，整体意为“转过身”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "turned",
+      "meaning": "转动，转（身）",
+      "pos": "动词（turn的过去式）",
+      "phonetic": "/tɜːnd/"
+    },
+    {
+      "text": "round.",
+      "meaning": "转过来，环绕地（此处与turn搭配表转身）",
+      "pos": "副词",
+      "phonetic": "/raʊnd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作的发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "turned round.",
+      "relation": "描述主语发出的动作",
+      "meaning": "转过身来"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-001",
+  "sentenceId": "nce-2-lesson-001-sentence-009",
+  "sentenceOrder": 9,
+  "english": "I turned round.",
+  "lesson": "Lesson 1 A private conversation",
+  "notes": [
+    {
+      "title": "turn round 的含义",
+      "text": "turn round 是固定短语，表示“转过身来”，描述身体朝向发生转变的动作，整体作谓语。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅单词round的text附带句末标点，对应的释义无需加入冗余语义，且上下文前句为“我听不见演员说话”，本句译文已准确，仅需修正words中round.的释义更贴合语境，同时修正turned的pos表述更规范。（非逐句人工审核）"
+}

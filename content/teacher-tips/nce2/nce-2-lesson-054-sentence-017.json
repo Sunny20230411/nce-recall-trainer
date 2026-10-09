@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-017",
+  "english": "I took it and signed for it.",
+  "text": "“签字签收”不要直译成 sign name，英语说 signed for it 就够了，for it 明确是为这件东西（挂号信）签字。表示为某件物品/事务签收，直接用 sign for + 事物，不用额外加 name 之类的词。",
+  "sourceDigest": "d74dc685d89773bf5acde4716130d97a1f69cbf0cf8fa9c14f48378cf8e01fa0",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：纠正了常见的直译误区，讲清了sign for的用法，实用性强。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "点出了中文母语者容易冗余直译的点，搭配说明实用。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

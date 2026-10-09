@@ -1,0 +1,138 @@
+{
+  "chinese": "当他最近驾车沿凯特福德街行驶时，（本句为时间状语从句片段，修饰后续主句的事件时间）",
+  "intent": "交代主句事件发生的时间背景，说明是在他近期沿Catford街开车的过程中发生了后续的事，本句为时间状语从句片段，不包含主句。",
+  "comparison": null,
+  "backbone": {
+    "text": "When he was driving along Catford Street recently",
+    "meaning": "当他最近正沿凯特福德街开车的时候（本句是时间状语从句片段，用于提供主句事件的时间背景）"
+  },
+  "structureNotes": [
+    {
+      "title": "When引导的时间状语从句（片段）",
+      "text": "本句是由When引导的时间状语从句片段，没有独立主句，用来限定后面主句事件发生的时间范围，说明主句动作发生在“开车沿街行驶”这个过程当中。"
+    },
+    {
+      "title": "过去进行时表过去某段时间正在进行的动作",
+      "text": "was driving是过去进行时，突出过去某个时间段里“开车”这个动作正在持续进行，为后面突然看到小偷的情节提供时间背景。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When",
+      "role": "时间从句引导词",
+      "explanation": "用来引出后面描述的时间段，表明整个从句是主句事件的时间背景。"
+    },
+    {
+      "text": "was driving",
+      "role": "过去进行时谓语",
+      "explanation": "由be动词was加现在分词driving构成，表示过去某个时间正在持续进行的开车动作。"
+    },
+    {
+      "text": "along Catford Street",
+      "role": "地点状语",
+      "explanation": "说明开车行驶的路线是沿着凯特福德街。"
+    },
+    {
+      "text": "recently,",
+      "role": "时间状语",
+      "explanation": "说明这次开车事件发生在不久之前，即“最近”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "When",
+      "meaning": "当……时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，无实义，构成过去进行时）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "driving",
+      "meaning": "驾驶，开车",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈdraɪvɪŋ/"
+    },
+    {
+      "text": "along",
+      "meaning": "沿着，顺着",
+      "pos": "介词",
+      "phonetic": "/əˈlɒŋ/"
+    },
+    {
+      "text": "Catford",
+      "meaning": "凯特福德（地名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈkætfəd/"
+    },
+    {
+      "text": "Street",
+      "meaning": "街，街道",
+      "pos": "名词",
+      "phonetic": "/striːt/"
+    },
+    {
+      "text": "recently,",
+      "meaning": "最近，不久前",
+      "pos": "副词",
+      "phonetic": "/ˈriːsntli/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "When",
+      "meaning": "当……时候",
+      "relation": "引出时间背景的引导词，引导时间状语从句"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "relation": "动作的发出者，即开车的人，从句的主语"
+    },
+    {
+      "text": "was driving",
+      "meaning": "正在开车",
+      "relation": "描述主语过去正在进行的动作，从句的谓语"
+    },
+    {
+      "text": "along Catford Street",
+      "meaning": "沿着凯特福德街",
+      "relation": "说明开车行驶的路线和地点，地点状语"
+    },
+    {
+      "text": "recently,",
+      "meaning": "最近",
+      "relation": "补充说明这件事发生的时间远近，时间状语"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-035",
+  "sentenceId": "nce-2-lesson-035-sentence-004-part-01",
+  "sentenceOrder": 4,
+  "english": "When he was driving along Catford Street recently,",
+  "lesson": "Lesson 35 Stop thief!",
+  "notes": [
+    {
+      "title": "When引导的时间状语从句（片段）",
+      "text": "本句是由When引导的时间状语从句片段，没有独立主句，用来限定后面主句事件发生的时间范围，说明主句动作发生在“开车沿街行驶”这个过程当中。"
+    },
+    {
+      "title": "过去进行时表过去某段时间正在进行的动作",
+      "text": "was driving是过去进行时，突出过去某个时间段里“开车”这个动作正在持续进行，为后面突然看到小偷的情节提供时间背景。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需补充说明这是时间状语从句片段，无独立主句，并修正Street的词性标注。（非逐句人工审核）"
+}

@@ -1,0 +1,157 @@
+{
+  "chinese": "信件会贵一点，但肯定会更快送达。",
+  "intent": "对比说明寄信这种方式的优缺点：花费稍高，但速度更快。",
+  "comparison": null,
+  "backbone": {
+    "text": "Letters will cost a little more, but they will travel faster.",
+    "meaning": "信件花费会多一点，但它们肯定会行进得更快。"
+  },
+  "structureNotes": [
+    {
+      "title": "but连接的并列句",
+      "text": "全句由but连接两个独立分句，前后语义形成转折：前半句讲寄信的缺点（花费更高），后半句讲优点（速度更快）。"
+    },
+    {
+      "title": "比较级的用法",
+      "text": "more和faster都是比较级，分别表示“更多（花费）”和“更快（速度）”，暗含和前文提到的其他寄递方式做对比。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Letters will cost a little more,",
+      "role": "前一分句",
+      "explanation": "说明寄信的花费情况，主语是Letters，谓语是will cost，a little more作程度状语（修饰谓语cost）。"
+    },
+    {
+      "text": "but",
+      "role": "并列连词",
+      "explanation": "连接前后两个分句，体现转折逻辑。"
+    },
+    {
+      "text": "they will certainly travel faster.",
+      "role": "后一分句",
+      "explanation": "说明寄信的速度优势，they指代Letters，certainly是副词作语气状语，faster是副词比较级作方式/程度状语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Letters",
+      "meaning": "信件",
+      "pos": "名词复数",
+      "phonetic": "/ˈletəz/"
+    },
+    {
+      "text": "will",
+      "meaning": "将会",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "cost",
+      "meaning": "花费",
+      "pos": "动词",
+      "phonetic": "/kɒst/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（些）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "little",
+      "meaning": "少量的",
+      "pos": "形容词",
+      "phonetic": "/ˈlɪtl/"
+    },
+    {
+      "text": "more,",
+      "meaning": "更多（地）",
+      "pos": "副词比较级",
+      "phonetic": "/mɔː(r)/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "they",
+      "meaning": "它们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "will",
+      "meaning": "将会",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "certainly",
+      "meaning": "肯定，当然",
+      "pos": "副词",
+      "phonetic": "/ˈsɜːtnli/"
+    },
+    {
+      "text": "travel",
+      "meaning": "行进，传送",
+      "pos": "动词",
+      "phonetic": "/ˈtrævl/"
+    },
+    {
+      "text": "faster.",
+      "meaning": "更快地",
+      "pos": "副词比较级",
+      "phonetic": "/ˈfɑːstə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Letters",
+      "relation": "描述对象（前半句主语）",
+      "meaning": "信件"
+    },
+    {
+      "text": "will cost a little more,",
+      "relation": "前半句谓语，说明花费情况",
+      "meaning": "会贵一点"
+    },
+    {
+      "text": "but",
+      "relation": "转折连接词",
+      "meaning": "但是"
+    },
+    {
+      "text": "they",
+      "relation": "描述对象（后半句主语）",
+      "meaning": "它们（指信件）"
+    },
+    {
+      "text": "will certainly travel faster.",
+      "relation": "后半句谓语，说明速度情况",
+      "meaning": "肯定会更快送达"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-022",
+  "sentenceId": "nce-2-lesson-022-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Letters will cost a little more, but they will certainly travel faster.",
+  "lesson": "Lesson 22 A glass envelope",
+  "notes": [
+    {
+      "title": "but连接的并列句",
+      "text": "全句由but连接两个独立分句，前后语义形成转折：前半句讲寄信的缺点（花费更高），后半句讲优点（速度更快）。"
+    },
+    {
+      "title": "比较级的用法",
+      "text": "more和faster都是比较级，分别表示“更多（花费）”和“更快（速度）”，暗含和前文提到的其他寄递方式做对比。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：主干漏译certainly，部分词语词性与语法角色标注需修正，其余内容基本准确。（非逐句人工审核）"
+}

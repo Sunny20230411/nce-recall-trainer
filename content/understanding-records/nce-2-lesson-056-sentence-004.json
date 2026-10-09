@@ -1,0 +1,114 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-056",
+  "sentenceId": "nce-2-lesson-056-sentence-004",
+  "sentenceOrder": 4,
+  "english": "The cars began their race at 8 a.m.",
+  "chinese": "汽车于上午八点开始比赛。",
+  "lesson": "Lesson 56 Faster than sound!",
+  "intent": "交代参赛车辆的出发时间",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "The cars began their race",
+      "relation": "比赛开始",
+      "meaning": "汽车开始了比赛"
+    },
+    {
+      "text": "at 8 a.m.",
+      "relation": "具体时间",
+      "meaning": "在上午八点"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "具体时刻",
+      "text": "at 用于具体钟点，a.m. 表示上午。"
+    },
+    {
+      "title": "所属关系",
+      "text": "their 指参赛车辆，修饰 race。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "具体时刻",
+      "text": "at 用于具体钟点，a.m. 表示上午。"
+    },
+    {
+      "title": "所属关系",
+      "text": "their 指参赛车辆，修饰 race。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The cars",
+      "role": "主语",
+      "explanation": "参赛车辆是叙述对象。"
+    },
+    {
+      "text": "began their race",
+      "role": "谓语与宾语",
+      "explanation": "began 是 begin 的过去式。"
+    },
+    {
+      "text": "at 8 a.m.",
+      "role": "时间状语",
+      "explanation": "说明开始比赛的时刻。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "前述的",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "cars",
+      "meaning": "汽车",
+      "pos": "名词复数",
+      "phonetic": "/kɑːz/"
+    },
+    {
+      "text": "began",
+      "meaning": "开始",
+      "pos": "及物动词过去式",
+      "phonetic": "/bɪˈɡæn/"
+    },
+    {
+      "text": "their",
+      "meaning": "它们的",
+      "pos": "物主限定词",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "race",
+      "meaning": "比赛",
+      "pos": "名词",
+      "phonetic": "/reɪs/"
+    },
+    {
+      "text": "at",
+      "meaning": "在……时刻",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "8",
+      "meaning": "八",
+      "pos": "数词",
+      "phonetic": "/eɪt/"
+    },
+    {
+      "text": "a.m.",
+      "meaning": "上午",
+      "pos": "副词性缩略语",
+      "phonetic": "/ˌeɪ ˈem/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

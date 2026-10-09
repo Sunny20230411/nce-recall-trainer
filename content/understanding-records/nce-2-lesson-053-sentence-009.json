@@ -1,0 +1,119 @@
+{
+  "chinese": "这解释很简单，却非常不寻常。",
+  "intent": "描述前文提到的谜题解释的特点：既简单又不同寻常。",
+  "comparison": null,
+  "backbone": {
+    "text": "The explanation was simple but very unusual.",
+    "meaning": "这个解释简单，却非常不寻常。"
+  },
+  "structureNotes": [
+    {
+      "title": "but 连接并列表语",
+      "text": "本句用 but 连接两个表语 simple 与 very unusual，前后语义形成转折，说明同一个主语 explanation 同时具备两种反差的特点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The explanation",
+      "role": "主语",
+      "explanation": "指上文提到的对谜题的解释，是句子描述的对象。"
+    },
+    {
+      "text": "was",
+      "role": "系动词",
+      "explanation": "连接主语和表语，表示主语具备某种性质。"
+    },
+    {
+      "text": "simple but very unusual",
+      "role": "并列表语",
+      "explanation": "共同说明主语的特点，but 表示前后两个形容词语义转折。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这（用于特指前面提到的事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "explanation",
+      "meaning": "解释，说明",
+      "pos": "名词",
+      "phonetic": "/ˌekspləˈneɪʃn/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be的第三人称单数过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "simple",
+      "meaning": "简单的",
+      "pos": "形容词",
+      "phonetic": "/ˈsɪmpl/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是，却",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "unusual.",
+      "meaning": "不寻常的，罕见的",
+      "pos": "形容词",
+      "phonetic": "/ʌnˈjuːʒuəl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The explanation",
+      "relation": "描述对象",
+      "meaning": "这个解释"
+    },
+    {
+      "text": "was",
+      "relation": "连接主语和特点",
+      "meaning": "是"
+    },
+    {
+      "text": "simple",
+      "relation": "第一个特点",
+      "meaning": "简单的"
+    },
+    {
+      "text": "but",
+      "relation": "转折连接",
+      "meaning": "但是"
+    },
+    {
+      "text": "very unusual.",
+      "relation": "第二个反差特点",
+      "meaning": "非常不寻常的"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-053",
+  "sentenceId": "nce-2-lesson-053-sentence-009",
+  "sentenceOrder": 9,
+  "english": "The explanation was simple but very unusual.",
+  "lesson": "Lesson 53 Hot snake",
+  "notes": [
+    {
+      "title": "but 连接并列表语",
+      "text": "本句用 but 连接两个表语 simple 与 very unusual，前后语义形成转折，说明同一个主语 explanation 同时具备两种反差的特点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正 words 中 unusual. 的词性标注，原词性写为形容词但词项带句末点号不影响词性判定，以及将主干的中文表达调整得更符合中文习惯，同时确认各分块完整覆盖原文。（非逐句人工审核）"
+}

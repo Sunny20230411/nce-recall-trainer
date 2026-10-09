@@ -1,0 +1,81 @@
+{
+  "chinese": "“这是一幅新的（画）。”",
+  "intent": "说明眼前的事物是新近的、不是旧的，承接上文提到的画，用one避免重复提到picture。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's a new one.",
+    "meaning": "它是一件新的（东西）。"
+  },
+  "structureNotes": [
+    {
+      "title": "one的指代作用",
+      "text": "这里的one不是数字“一”，而是用来代替上文出现过的可数单数名词picture，避免重复说“a new picture”，中文常直接说“新的”或补出“一幅（画）”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's",
+      "role": "主语加系动词",
+      "explanation": "It指代上文提到的那幅画，'s是is的缩写，一起构成“它是”的判断主干。"
+    },
+    {
+      "text": "a new one",
+      "role": "表语",
+      "explanation": "说明主语的属性：是一件新的（画），其中new修饰one，one代替前面的picture。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘It's",
+      "meaning": "它是",
+      "pos": "代词+动词缩写",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个，一件",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "new",
+      "meaning": "新的",
+      "pos": "形容词",
+      "phonetic": "/njuː/"
+    },
+    {
+      "text": "one.",
+      "meaning": "一个（指代前面提到的画）",
+      "pos": "代词",
+      "phonetic": "/wʌn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘It's",
+      "relation": "提出判断的主体和判断动词",
+      "meaning": "它是"
+    },
+    {
+      "text": "a new one.",
+      "relation": "说明它是什么样的事物",
+      "meaning": "一件新的（东西，此处指画）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-026",
+  "sentenceId": "nce-2-lesson-026-sentence-013",
+  "sentenceOrder": 13,
+  "english": "‘It's a new one.",
+  "lesson": "Lesson 26 The best art critics",
+  "notes": [
+    {
+      "title": "one的指代作用",
+      "text": "这里的one不是数字“一”，而是用来代替上文出现过的可数单数名词picture，避免重复说“a new picture”，中文常直接说“新的”或补出“一幅（画）”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：中文翻译缺引语闭合引号且未补出明确指代；words首项meaning混入引语说明、末项meaning混入句末标点说明，其余内容基本准确。（非逐句人工审核）"
+}

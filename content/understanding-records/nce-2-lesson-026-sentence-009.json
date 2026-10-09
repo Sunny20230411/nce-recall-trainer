@@ -1,0 +1,208 @@
+{
+  "chinese": "我妹妹才七岁，可她总对我说我的画好不好看。",
+  "intent": "用转折的语气说明妹妹年纪虽小，却总会评价“我”的画好不好。",
+  "comparison": {
+    "chinese": "我妹妹才七岁，可她总告诉我［我的画好不好］。",
+    "english": "My sister is only seven, but she always tells me whether my pictures are good or not.",
+    "steps": [
+      {
+        "label": "先抓主干事实",
+        "text": "she always tells me",
+        "explanation": "中文和英文在这里顺序一致：先交代“她总跟我说”这件事。"
+      },
+      {
+        "label": "再看说的内容",
+        "text": "whether my pictures are good or not",
+        "explanation": "中文把“好不好”放在画的后面当问题内容；英文用 whether…or not 引出一整个疑问内容，作 tells 的直接宾语，整体接在 me 后面。"
+      },
+      {
+        "label": "前后分句的转折关系",
+        "text": "My sister is only seven, but …",
+        "explanation": "中文用“才七岁，可……”体现转折；英文用 but 连接两个独立分句，前半句说年龄小，后半句说她却会做评价。"
+      }
+    ],
+    "takeaway": "whether…or not 是一整块表示“是否”的疑问内容，作 tell 的直接宾语；but 连接两个分句，突出“年纪小却会评价”的转折。"
+  },
+  "backbone": {
+    "text": "My sister is seven, but she tells me whether my pictures are good or not.",
+    "meaning": "我妹妹七岁，但她会告诉我我的画好不好。（去掉 only、always 等修饰后的核心意思，辅助理解用）"
+  },
+  "structureNotes": [
+    {
+      "title": "but 连接的转折关系",
+      "text": "but 前后是两个独立完整的分句，前半句说明妹妹年纪小，后半句转折说她却常评价画的好坏，突出年龄和行为的反差。"
+    },
+    {
+      "title": "whether…or not 作 tell 的直接宾语",
+      "text": "whether my pictures are good or not 整体是 tells 的直接宾语，用来表示“是否”的疑问内容，不是一个独立问句，所以用陈述语序 my pictures are。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My sister is only seven",
+      "role": "转折前分句",
+      "explanation": "说明妹妹的年龄，为后半句的转折作铺垫。"
+    },
+    {
+      "text": "but",
+      "role": "并列连词",
+      "explanation": "连接前后两个分句，表示转折关系。"
+    },
+    {
+      "text": "she always tells me",
+      "role": "转折后主句主干",
+      "explanation": "说明妹妹常做的动作，me 是 tells 的间接宾语，后面接具体说的内容。"
+    },
+    {
+      "text": "whether my pictures are good or not",
+      "role": "直接宾语（名词性从句）",
+      "explanation": "整体作 tells 的直接宾语，表示“我的画好不好”这件事；whether…or not 用来引出二选一的疑问内容。"
+    }
+  ],
+  "words": [
+    {
+      "text": "My",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "sister",
+      "meaning": "妹妹；姐姐",
+      "pos": "名词",
+      "phonetic": "/ˈsɪstə/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be的第三人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "only",
+      "meaning": "仅仅，才",
+      "pos": "副词",
+      "phonetic": "/ˈəʊnli/"
+    },
+    {
+      "text": "seven,",
+      "meaning": "七",
+      "pos": "数词",
+      "phonetic": "/ˈsevn/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是，可是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "人称代词主格",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是，一直",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "tells",
+      "meaning": "告诉，说",
+      "pos": "动词",
+      "phonetic": "/telz/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "人称代词宾格",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "whether",
+      "meaning": "是否",
+      "pos": "连词",
+      "phonetic": "/ˈweðə/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "pictures",
+      "meaning": "图画，画",
+      "pos": "名词复数",
+      "phonetic": "/ˈpɪktʃəz/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（be的复数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɑː/"
+    },
+    {
+      "text": "good",
+      "meaning": "好的，好看的",
+      "pos": "形容词",
+      "phonetic": "/ɡʊd/"
+    },
+    {
+      "text": "or",
+      "meaning": "或者，还是",
+      "pos": "连词",
+      "phonetic": "/ɔː/"
+    },
+    {
+      "text": "not.",
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "My sister is only seven,",
+      "relation": "转折前的事实，描述妹妹的年龄",
+      "meaning": "我妹妹才七岁"
+    },
+    {
+      "text": "but",
+      "relation": "连接前后分句，表示转折",
+      "meaning": "但是"
+    },
+    {
+      "text": "she always tells me",
+      "relation": "转折后的主句主干，说明动作和对象",
+      "meaning": "她总是告诉我"
+    },
+    {
+      "text": "whether my pictures are good or not.",
+      "relation": "告诉的具体内容，作直接宾语",
+      "meaning": "我的画好不好"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-026",
+  "sentenceId": "nce-2-lesson-026-sentence-009",
+  "sentenceOrder": 9,
+  "english": "My sister is only seven, but she always tells me whether my pictures are good or not.",
+  "lesson": "Lesson 26 The best art critics",
+  "notes": [
+    {
+      "title": "but 连接的转折关系",
+      "text": "but 前后是两个独立完整的分句，前半句说明妹妹年纪小，后半句转折说她却常评价画的好坏，突出年龄和行为的反差。"
+    },
+    {
+      "title": "whether…or not 作 tell 的直接宾语",
+      "text": "whether my pictures are good or not 整体是 tells 的直接宾语，用来表示“是否”的疑问内容，不是一个独立问句，所以用陈述语序 my pictures are。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅单词seven,的释义混入了逗号说明、not.的释义额外补充搭配说明不符合仅解释词本身的要求，修正后可用。（非逐句人工审核）"
+}

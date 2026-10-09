@@ -1,0 +1,182 @@
+{
+  "chinese": "一名面带微笑的警察告诉他，他的自行车已经被找到了。",
+  "intent": "转述警察告知某人的消息：他丢失的自行车已被找到。",
+  "comparison": {
+    "chinese": "一名面带微笑的警察告诉他，他的自行车已经找到了。",
+    "english": "he was told by a smiling policeman that his bicycle had been found.",
+    "steps": [
+      {
+        "label": "第一步：先抓主干事件",
+        "text": "he was told",
+        "explanation": "中文先说主动者“警察”，英文先从“他”的视角切入，说“他被告知”，突出接收消息的人。"
+      },
+      {
+        "label": "第二步：补出消息来源",
+        "text": "by a smiling policeman",
+        "explanation": "用 by 引出告诉他的人是谁，相当于中文里放在句首的主语“一名面带微笑的警察”。"
+      },
+      {
+        "label": "第三步：接出告知的具体内容",
+        "text": "that his bicycle had been found",
+        "explanation": "that 引导完整的句子，说明被告知的具体消息；自行车是“被找到”的，用过去完成时体现“找到”发生在“被告知”之前。"
+      }
+    ],
+    "takeaway": "中文习惯把动作发出者放前面、主动表达，英文可以从受事者开头用被动，再用 by 补出施动者，用 that 引出整段消息内容。"
+  },
+  "backbone": {
+    "text": "he was told that his bicycle had been found.",
+    "meaning": "他被告知他的自行车已经被找到了。"
+  },
+  "structureNotes": [
+    {
+      "title": "被动语态与 by 引出施动者",
+      "text": "was told by a smiling policeman 是一般过去时被动，by 后面的名词才是“告诉”这个动作的发出者，句子从“他”的受事视角出发。"
+    },
+    {
+      "title": "that 引导宾语从句",
+      "text": "that 引导的从句跟在 told 后，说明被告知的具体内容；从句本身也是被动，并且用过去完成时表示“找到”发生在“被告知”之前。"
+    },
+    {
+      "title": "smiling 作前置修饰",
+      "text": "smiling 放在 policeman 前，描述警察当时的状态是“面带微笑的”，相当于形容词的作用。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "he was told",
+      "role": "主句主谓（被动）",
+      "explanation": "表示“他被告知”，是全句的核心事件，用一般过去时被动语态。"
+    },
+    {
+      "text": "by a smiling policeman",
+      "role": "施动者状语",
+      "explanation": "由 by 引出动作“告诉”的实际发出者，说明是谁告诉他的。"
+    },
+    {
+      "text": "that his bicycle had been found.",
+      "role": "宾语从句",
+      "explanation": "that 引导的从句作 told 的宾语，说明被告知的具体内容；从句用过去完成时被动，表示“被找到”发生在“被告知”之前。"
+    }
+  ],
+  "words": [
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，构成被动）",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "told",
+      "meaning": "告知，告诉（过去分词）",
+      "pos": "动词",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "by",
+      "meaning": "被，由（引出施动者）",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "a",
+      "meaning": "一名",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "smiling",
+      "meaning": "微笑的，面带笑容的",
+      "pos": "现在分词",
+      "phonetic": "/ˈsmaɪlɪŋ/"
+    },
+    {
+      "text": "policeman",
+      "meaning": "警察",
+      "pos": "名词",
+      "phonetic": "/pəˈliːsmən/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导宾语从句，无实义）",
+      "pos": "从属连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "物主代词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "bicycle",
+      "meaning": "自行车",
+      "pos": "名词",
+      "phonetic": "/ˈbaɪsɪkl/"
+    },
+    {
+      "text": "had",
+      "meaning": "（have的过去式，构成过去完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "been",
+      "meaning": "（be的过去分词，构成完成被动）",
+      "pos": "助动词",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "found.",
+      "meaning": "找到，发现（过去分词）",
+      "pos": "动词",
+      "phonetic": "/faʊnd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "he was told",
+      "relation": "核心事件",
+      "meaning": "他被告知"
+    },
+    {
+      "text": "by a smiling policeman",
+      "relation": "补充动作的发出者",
+      "meaning": "由一名面带微笑的警察"
+    },
+    {
+      "text": "that his bicycle had been found.",
+      "relation": "被告知的具体内容",
+      "meaning": "他的自行车已经被找到了"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-034",
+  "sentenceId": "nce-2-lesson-034-sentence-005-part-02",
+  "sentenceOrder": 7,
+  "english": "he was told by a smiling policeman that his bicycle had been found.",
+  "lesson": "Lesson 34 Quick work",
+  "notes": [
+    {
+      "title": "被动语态与 by 引出施动者",
+      "text": "was told by a smiling policeman 是一般过去时被动，by 后面的名词才是“告诉”这个动作的发出者，句子从“他”的受事视角出发。"
+    },
+    {
+      "title": "that 引导宾语从句",
+      "text": "that 引导的从句跟在 told 后，说明被告知的具体内容；从句本身也是被动，并且用过去完成时表示“找到”发生在“被告知”之前。"
+    },
+    {
+      "title": "smiling 作前置修饰",
+      "text": "smiling 放在 policeman 前，描述警察当时的状态是“面带微笑的”，相当于形容词的作用。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：smiling的词性标注应为现在分词而非“现在分词作定语”，且found.末尾标点不应随词义混入，其余内容准确。（非逐句人工审核）"
+}

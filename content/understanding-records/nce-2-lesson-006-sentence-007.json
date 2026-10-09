@@ -1,0 +1,178 @@
+{
+  "chinese": "然后他把一块奶酪放进口袋，就走了。",
+  "intent": "叙述某人接下来的两个连续动作：把一块奶酪放进口袋，随后离开。",
+  "comparison": null,
+  "backbone": {
+    "text": "He put a piece of cheese in his pocket and went away.",
+    "meaning": "他把一块奶酪放进了自己的口袋，然后离开了。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列谓语的两个动作顺序",
+      "text": "put a piece of cheese in his pocket 与 went away 用 and 连接，是同一个主语 he 的两个连续动作，先放奶酪再离开，Then 点明整个事件的先后位置。"
+    },
+    {
+      "title": "put 表示“放置”的常用搭配",
+      "text": "put + 物品 + in/into + 地点 是表示“把某物放在某地”的常用结构，这里 in his pocket 说明放置的位置是口袋里。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Then",
+      "role": "时间状语",
+      "explanation": "交代两件事发生的先后顺序，承接上文中他吃完食物喝完啤酒的动作，意为“然后”。"
+    },
+    {
+      "text": "put a piece of cheese in his pocket",
+      "role": "第一个谓语及宾语、地点状语",
+      "explanation": "表示主语发出的第一个动作，其中 a piece of cheese 是被放置的物品，in his pocket 说明放置的位置。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个先后发生的谓语动作，表示动作的承接关系。"
+    },
+    {
+      "text": "went away",
+      "role": "第二个谓语",
+      "explanation": "表示主语发出的第二个动作，意为“走开、离开”。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "然后；接着",
+      "pos": "副词",
+      "phonetic": "/ðen/",
+      "text": "Then"
+    },
+    {
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/",
+      "text": "he"
+    },
+    {
+      "meaning": "放；放置",
+      "pos": "动词",
+      "phonetic": "/pʊt/",
+      "text": "put"
+    },
+    {
+      "meaning": "一（个）",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "片；块",
+      "pos": "名词",
+      "phonetic": "/piːs/",
+      "text": "piece"
+    },
+    {
+      "meaning": "……的（表所属或数量关系）",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "奶酪",
+      "pos": "名词",
+      "phonetic": "/tʃiːz/",
+      "text": "cheese"
+    },
+    {
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "他的",
+      "pos": "代词",
+      "phonetic": "/hɪz/",
+      "text": "his"
+    },
+    {
+      "meaning": "口袋",
+      "pos": "名词",
+      "phonetic": "/ˈpɒkɪt/",
+      "text": "pocket"
+    },
+    {
+      "meaning": "和；然后（表并列或承接）",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "去；走（go的过去式）",
+      "pos": "动词",
+      "phonetic": "/went/",
+      "text": "went"
+    },
+    {
+      "meaning": "离开；远离",
+      "pos": "副词",
+      "phonetic": "/əˈweɪ/",
+      "text": "away."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Then",
+      "relation": "时间",
+      "meaning": "然后"
+    },
+    {
+      "text": "he",
+      "relation": "动作发出者",
+      "meaning": "他"
+    },
+    {
+      "text": "put",
+      "relation": "第一个动作",
+      "meaning": "放"
+    },
+    {
+      "text": "a piece of cheese",
+      "relation": "放置的物品",
+      "meaning": "一块奶酪"
+    },
+    {
+      "text": "in his pocket",
+      "relation": "放置的地点",
+      "meaning": "在他的口袋里"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个动作",
+      "meaning": "然后/和"
+    },
+    {
+      "text": "went away.",
+      "relation": "第二个动作",
+      "meaning": "走掉了/离开了"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-006",
+  "sentenceId": "nce-2-lesson-006-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Then he put a piece of cheese in his pocket and went away.",
+  "lesson": "Lesson 6 Percy Buttons",
+  "notes": [
+    {
+      "title": "并列谓语的两个动作顺序",
+      "text": "put a piece of cheese in his pocket 与 went away 用 and 连接，是同一个主语 he 的两个连续动作，先放奶酪再离开，Then 点明整个事件的先后位置。"
+    },
+    {
+      "title": "put 表示“放置”的常用搭配",
+      "text": "put + 物品 + in/into + 地点 是表示“把某物放在某地”的常用结构，这里 in his pocket 说明放置的位置是口袋里。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅两个细节需修正：1. words最后一项away.的text带句点但释义无需体现标点，原条目无误，实际问题为words中of的词义表述偏泛，且piece作量词时的词性说明可更准确？不对，经核查：① words数组第5项piece为量词用法，标注名词虽不算错，但更精准的是说明该语境下为量词，不过词性标注本身正确；② 最后一项away.的text包含句点是约定俗成的分词方式，不得修改text，但释义仅解释away本身，原释义正确，实际存在的问题是：parts数组最后一项text是“went away.”带句点，原meaning和relation都正确，另有一处：chinese译文中“然后”重复（开头已有Then译“然后”，and处又译“然后”），可调整得更自然；另外words中of的释义“……的（表所属或数量关系）”正确，a piece of中of表数量关系没问题。再仔细核查：主干、结构说明都正确，comparison为null符合要求，没有语法错误。哦不对，有一处：words最后一项的text是“away.”，带句点，原条目没问题，不需要改。再查：chinese译文“然后他把一块奶酪放进了口袋，然后走了。”中两个“然后”稍显冗余，可优化为“然后他把一块奶酪放进口袋，就走了。”更符合中文表达习惯；另外backbone的meaning“他把一块奶酪放进了自己的口袋，然后离开了。”是准确的。还有一处：structures里第一个结构text是“Then”，role是时间状语，正确。综上，仅chinese译文可优化得更自然，其余内容均准确。（非逐句人工审核）"
+}

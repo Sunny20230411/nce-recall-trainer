@@ -1,0 +1,123 @@
+{
+  "chinese": "我昨天收到了姐姐寄来的一封信。",
+  "intent": "陈述过去发生的一件事：说话人在昨天收到了来自姐姐的信。",
+  "comparison": null,
+  "backbone": {
+    "text": "I had a letter from my sister yesterday.",
+    "meaning": "我昨天收到了一封我姐姐寄来的信"
+  },
+  "structureNotes": [
+    {
+      "title": "had 的含义",
+      "text": "这里 had 不表示“拥有”，而是表示“收到”，是 have 的过去式，对应中文的“收到信”。"
+    },
+    {
+      "title": "from 的作用",
+      "text": "from my sister 说明信的来源，即信是谁寄来的，修饰前面的 a letter。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "had a letter from my sister",
+      "role": "谓语部分",
+      "explanation": "had a letter 是核心动作“收到一封信”，from my sister 补充说明信的来源是姐姐。"
+    },
+    {
+      "text": "yesterday.",
+      "role": "时间状语",
+      "explanation": "说明整件事发生的时间是昨天，位于句末。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "收到（have的过去式）",
+      "pos": "动词",
+      "phonetic": "/hæd/",
+      "text": "had"
+    },
+    {
+      "meaning": "一封",
+      "pos": "冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "信",
+      "pos": "名词",
+      "phonetic": "/ˈletə(r)/",
+      "text": "letter"
+    },
+    {
+      "meaning": "来自",
+      "pos": "介词",
+      "phonetic": "/frɒm/",
+      "text": "from"
+    },
+    {
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/",
+      "text": "my"
+    },
+    {
+      "meaning": "姐姐/妹妹",
+      "pos": "名词",
+      "phonetic": "/ˈsɪstə(r)/",
+      "text": "sister"
+    },
+    {
+      "meaning": "昨天",
+      "pos": "副词",
+      "phonetic": "/ˈjestədeɪ/",
+      "text": "yesterday."
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作的发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "had a letter",
+      "relation": "核心动作和对象",
+      "meaning": "收到了一封信"
+    },
+    {
+      "text": "from my sister",
+      "relation": "补充说明信的来源",
+      "meaning": "来自我的姐姐"
+    },
+    {
+      "text": "yesterday.",
+      "relation": "说明事情发生的时间",
+      "meaning": "昨天"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-023",
+  "sentenceId": "nce-2-lesson-023-sentence-001",
+  "sentenceOrder": 1,
+  "english": "I had a letter from my sister yesterday.",
+  "lesson": "Lesson 23 A new house",
+  "notes": [
+    {
+      "title": "had 的含义",
+      "text": "这里 had 不表示“拥有”，而是表示“收到”，是 have 的过去式，对应中文的“收到信”。"
+    },
+    {
+      "title": "from 的作用",
+      "text": "from my sister 说明信的来源，即信是谁寄来的，修饰前面的 a letter。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需补充主干的句末标点以完整对应原文核心信息，其余内容无误。（非逐句人工审核）"
+}

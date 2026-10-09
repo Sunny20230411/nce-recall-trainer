@@ -1,0 +1,184 @@
+{
+  "chinese": "有个工人突然想到可以打开箱子。",
+  "intent": "叙述一名工人在箱子很重的情况下，突然萌生了打开箱子的想法。",
+  "comparison": {
+    "chinese": "一个工人突然想到打开箱子。",
+    "english": "It suddenly occurred to one of the workers to open up the box.",
+    "steps": [
+      {
+        "label": "中文先说想到的人，再说想法内容",
+        "text": "一个工人突然想到打开箱子",
+        "explanation": "中文习惯把人放在主语位置，直接说“某人想到某事”，想法内容紧跟在“想到”后面。"
+      },
+      {
+        "label": "英文用形式主语It引出真正的想法内容",
+        "text": "It suddenly occurred to one of the workers to open up the box.",
+        "explanation": "英文先放形式主语It占住主语位置，把“打开箱子”这件事（真正的主语）放在句末，用occurred to sb引出“某人想到”的含义。"
+      },
+      {
+        "label": "理解时的转换方向",
+        "text": "It occurred to sb to do sth → 某人突然想到要做某事",
+        "explanation": "读到It occurred to sb时，先明白是“某人冒出了某个念头”，再往后看to do的内容，就是念头的具体内容。"
+      }
+    ],
+    "takeaway": "中文用“人+想到+事”的顺序，英文常用“It occurs to sb + 真正的事”结构，It只是形式上的主语，真正的主语是后面的不定式短语。"
+  },
+  "backbone": {
+    "text": "It occurred to one of the workers to open up the box.",
+    "meaning": "其中一名工人想到要打开箱子（去掉修饰副词suddenly后的核心语义）。"
+  },
+  "structureNotes": [
+    {
+      "title": "形式主语It的作用",
+      "text": "句首的It没有实际含义，只是用来占住主语的位置，把真正的主语“to open up the box”放到句末，避免句子头重脚轻。"
+    },
+    {
+      "title": "occur to的含义",
+      "text": "sth occur to sb在这里不是“发生在某人身上”，而是“某人想到某个主意/念头”，主语是念头本身，人用to引出。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "形式主语",
+      "explanation": "在句中充当语法上的主语，没有实际语义，用来代替后面真正的主语to open up the box。"
+    },
+    {
+      "text": "suddenly",
+      "role": "状语（表方式/状态）",
+      "explanation": "修饰动词occurred，说明这个念头出现的状态是“突然地”。"
+    },
+    {
+      "text": "occurred to one of the workers",
+      "role": "谓语+对象",
+      "explanation": "occurred是谓语动词，to one of the workers表示“想到”这个动作涉及的对象，也就是产生念头的人。"
+    },
+    {
+      "text": "to open up the box",
+      "role": "真正主语",
+      "explanation": "是句子真正要表达的主语内容，即“打开箱子”这件事，被句首的It所指代。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "它（此处为形式主语，无实义）",
+      "pos": "代词",
+      "phonetic": "/ɪt/",
+      "text": "It"
+    },
+    {
+      "meaning": "突然地",
+      "pos": "副词",
+      "phonetic": "/ˈsʌdənli/",
+      "text": "suddenly"
+    },
+    {
+      "meaning": "（主意、念头）被想到",
+      "pos": "动词（过去式）",
+      "phonetic": "/əˈkɜːd/",
+      "text": "occurred"
+    },
+    {
+      "meaning": "对（某人），引出对象",
+      "pos": "介词",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "一个（人）",
+      "pos": "代词",
+      "phonetic": "/wʌn/",
+      "text": "one"
+    },
+    {
+      "meaning": "……的（表所属范围）",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "这个，这些（特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "工人（复数）",
+      "pos": "名词（复数）",
+      "phonetic": "/ˈwɜːkəz/",
+      "text": "workers"
+    },
+    {
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式标记",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "打开",
+      "pos": "动词（原形）",
+      "phonetic": "/ˈəʊpən/",
+      "text": "open"
+    },
+    {
+      "meaning": "（与open构成短语open up，表“打开、开启”）",
+      "pos": "副词",
+      "phonetic": "/ʌp/",
+      "text": "up"
+    },
+    {
+      "meaning": "这个（特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "箱子，盒子",
+      "pos": "名词",
+      "phonetic": "/bɒks/",
+      "text": "box."
+    }
+  ],
+  "parts": [
+    {
+      "text": "It",
+      "meaning": "它（形式主语，无实义）",
+      "relation": "语法主语，指代后面的真正主语"
+    },
+    {
+      "text": "suddenly",
+      "meaning": "突然地",
+      "relation": "修饰谓语，描述念头出现的状态"
+    },
+    {
+      "text": "occurred to one of the workers",
+      "meaning": "被其中一名工人想到",
+      "relation": "谓语动作+动作涉及的对象"
+    },
+    {
+      "text": "to open up the box.",
+      "meaning": "打开箱子（句末点号为句子标点）",
+      "relation": "句子真正的主语，即被想到的内容"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-046",
+  "sentenceId": "nce-2-lesson-046-sentence-003",
+  "sentenceOrder": 4,
+  "english": "It suddenly occurred to one of the workers to open up the box.",
+  "lesson": "Lesson 46 Expensive and uncomfortable",
+  "notes": [
+    {
+      "title": "形式主语It的作用",
+      "text": "句首的It没有实际含义，只是用来占住主语的位置，把真正的主语“to open up the box”放到句末，避免句子头重脚轻。"
+    },
+    {
+      "title": "occur to的含义",
+      "text": "sth occur to sb在这里不是“发生在某人身上”，而是“某人想到某个主意/念头”，主语是念头本身，人用to引出。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体准确，仅需修正parts第四项的标点归属说明、结构中suddenly的状语类型，以及backbone译文更贴合核心语义。（非逐句人工审核）"
+}

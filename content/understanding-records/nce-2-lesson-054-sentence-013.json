@@ -1,0 +1,201 @@
+{
+  "chinese": "我不想用粘糊糊的手开门，就用脚踢门，可门卡住了。",
+  "intent": "描述自己因手指发黏不愿用手开门，改用脚踢却反而卡住门的经过。",
+  "comparison": null,
+  "backbone": {
+    "text": "I didn't want to open the door, so I kicked the door, but it stuck.",
+    "meaning": "我不想开门，所以我踢了门，但门卡住了。"
+  },
+  "structureNotes": [
+    {
+      "title": "三个分句的逻辑连接",
+      "text": "本句由三个分句串成：先讲不愿用手开门的原因，用so引出随之采取的踢门动作，再用but转折说明踢门反而导致门卡住的结果。"
+    },
+    {
+      "title": "with 引出做动作的方式",
+      "text": "with sticky fingers 和 with my foot 都修饰前面的动作，说明开门、踢门分别是用什么身体部位来做的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I didn't want to open the door with sticky fingers,",
+      "role": "原因分句",
+      "explanation": "交代最初的想法和原因：手指黏，不想用手开门。"
+    },
+    {
+      "text": "so I kicked the door with my foot,",
+      "role": "结果/顺承分句",
+      "explanation": "由 so 连接，承接前句的不愿意，说明采取的替代动作是用脚踢门。"
+    },
+    {
+      "text": "but it stuck.",
+      "role": "转折分句",
+      "explanation": "由 but 连接，转折指出踢门后的意外结果是门卡住了，it 指代 the door。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "didn't",
+      "meaning": "不（过去式否定助动词）",
+      "pos": "助动词",
+      "phonetic": "/ˈdɪdnt/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要",
+      "pos": "动词",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "open",
+      "meaning": "打开",
+      "pos": "动词",
+      "phonetic": "/ˈəʊpən/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（定冠词，特指门）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "door",
+      "meaning": "门",
+      "pos": "名词",
+      "phonetic": "/dɔː(r)/"
+    },
+    {
+      "text": "with",
+      "meaning": "用（某种工具或部位）",
+      "pos": "介词",
+      "phonetic": "/wɪð/"
+    },
+    {
+      "text": "sticky",
+      "meaning": "黏的；粘糊糊的",
+      "pos": "形容词",
+      "phonetic": "/ˈstɪki/"
+    },
+    {
+      "text": "fingers,",
+      "meaning": "手指（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈfɪŋɡəz/"
+    },
+    {
+      "text": "so",
+      "meaning": "所以；于是",
+      "pos": "连词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "kicked",
+      "meaning": "踢（过去式）",
+      "pos": "动词",
+      "phonetic": "/kɪkt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（定冠词，特指门）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "door",
+      "meaning": "门",
+      "pos": "名词",
+      "phonetic": "/dɔː(r)/"
+    },
+    {
+      "text": "with",
+      "meaning": "用（某种工具或部位）",
+      "pos": "介词",
+      "phonetic": "/wɪð/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "foot,",
+      "meaning": "脚（单数）",
+      "pos": "名词",
+      "phonetic": "/fʊt/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是；可是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代门）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "stuck.",
+      "meaning": "卡住；粘住（过去式）",
+      "pos": "动词",
+      "phonetic": "/stʌk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I didn't want to open the door with sticky fingers,",
+      "relation": "事件起因：说明不愿用手开门的想法和原因",
+      "meaning": "我不想用粘糊糊的手指开门"
+    },
+    {
+      "text": "so I kicked the door with my foot,",
+      "relation": "顺承动作：由so引出，是替代用手开门的做法",
+      "meaning": "于是我用脚踢了那扇门"
+    },
+    {
+      "text": "but it stuck.",
+      "relation": "转折结果：由but引出，是踢门后的意外情况",
+      "meaning": "但门卡住了"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-013",
+  "sentenceOrder": 13,
+  "english": "I didn't want to open the door with sticky fingers, so I kicked the door with my foot, but it stuck.",
+  "lesson": "Lesson 54 Sticky fingers",
+  "notes": [
+    {
+      "title": "三个分句的逻辑连接",
+      "text": "本句由三个分句串成：先讲不愿用手开门的原因，用so引出随之采取的踢门动作，再用but转折说明踢门反而导致门卡住的结果。"
+    },
+    {
+      "title": "with 引出做动作的方式",
+      "text": "with sticky fingers 和 with my foot 都修饰前面的动作，说明开门、踢门分别是用什么身体部位来做的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：单词释义中不应附加标点说明，且stuck的词性标注有误，需修正；其余内容符合要求。（非逐句人工审核）"
+}

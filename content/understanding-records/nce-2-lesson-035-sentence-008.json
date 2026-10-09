@@ -1,0 +1,166 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-035",
+  "sentenceId": "nce-2-lesson-035-sentence-008",
+  "sentenceOrder": 9,
+  "english": "While the battered car was moving away, Roy stopped his bus and telephoned the police.",
+  "chinese": "那辆撞坏的车继续驶离时，罗伊停下公交车，给警方打了电话。",
+  "lesson": "Lesson 35 Stop thief!",
+  "intent": "描述汽车驶离期间罗伊停车报警的行动。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "While the battered car was moving away,",
+      "relation": "同时进行的背景",
+      "meaning": "当撞坏的车正在驶离时"
+    },
+    {
+      "text": "Roy stopped his bus",
+      "relation": "罗伊采取的行动",
+      "meaning": "罗伊停下公交车"
+    },
+    {
+      "text": "and telephoned the police.",
+      "relation": "接着采取的行动",
+      "meaning": "并给警方打了电话"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "while与同时发生",
+      "text": "while 引出背景动作，was moving away 表示当时正在驶离；后面的停车和打电话发生在这段过程中。"
+    },
+    {
+      "title": "battered描述受损状态",
+      "text": "battered 放在 car 前作修饰语，指已经被撞坏的车。telephoned the police 直接以警方作联系对象，不需要额外介词。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "while与同时发生",
+      "text": "while 引出背景动作，was moving away 表示当时正在驶离；后面的停车和打电话发生在这段过程中。"
+    },
+    {
+      "title": "battered描述受损状态",
+      "text": "battered 放在 car 前作修饰语，指已经被撞坏的车。telephoned the police 直接以警方作联系对象，不需要额外介词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "While the battered car was moving away,",
+      "role": "时间状语从句",
+      "explanation": "提供罗伊行动发生时的同时背景。"
+    },
+    {
+      "text": "Roy",
+      "role": "主语",
+      "explanation": "后两个动作的实施者。"
+    },
+    {
+      "text": "stopped his bus",
+      "role": "谓语及宾语",
+      "explanation": "罗伊停下自己驾驶的公交车。"
+    },
+    {
+      "text": "telephoned the police.",
+      "role": "并列谓语及宾语",
+      "explanation": "与stopped并列，共用主语Roy。"
+    }
+  ],
+  "words": [
+    {
+      "text": "While",
+      "meaning": "在……的时候",
+      "pos": "连词",
+      "phonetic": "/waɪl/"
+    },
+    {
+      "text": "the",
+      "meaning": "那辆",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "battered",
+      "meaning": "被撞坏的",
+      "pos": "过去分词作形容词",
+      "phonetic": "/ˈbætəd/"
+    },
+    {
+      "text": "car",
+      "meaning": "汽车",
+      "pos": "名词",
+      "phonetic": "/kɑː/"
+    },
+    {
+      "text": "was",
+      "meaning": "构成过去进行时",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "moving",
+      "meaning": "移动；行驶",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈmuːvɪŋ/"
+    },
+    {
+      "text": "away,",
+      "meaning": "离开",
+      "pos": "副词",
+      "phonetic": "/əˈweɪ/"
+    },
+    {
+      "text": "Roy",
+      "meaning": "罗伊",
+      "pos": "专有名词",
+      "phonetic": "/rɔɪ/"
+    },
+    {
+      "text": "stopped",
+      "meaning": "停下",
+      "pos": "动词",
+      "phonetic": "/stɒpt/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "物主限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "bus",
+      "meaning": "公交车",
+      "pos": "名词",
+      "phonetic": "/bʌs/"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "pos": "并列连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "telephoned",
+      "meaning": "打电话联系",
+      "pos": "动词",
+      "phonetic": "/ˈtelɪfəʊnd/"
+    },
+    {
+      "text": "the",
+      "meaning": "当地的",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "police.",
+      "meaning": "警方",
+      "pos": "名词",
+      "phonetic": "/pəˈliːs/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

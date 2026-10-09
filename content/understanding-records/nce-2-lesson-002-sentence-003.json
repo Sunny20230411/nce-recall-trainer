@@ -1,0 +1,122 @@
+{
+  "chinese": "我有时一直躺到午饭时间。",
+  "intent": "说明自己在周日的起床习惯，有时会赖床到午饭时间才起来。",
+  "comparison": null,
+  "backbone": {
+    "text": "I stay in bed until lunchtime.",
+    "meaning": "我赖在床上一直到午饭时间。"
+  },
+  "structureNotes": [
+    {
+      "title": "until的作用",
+      "text": "until lunchtime 表示“一直到午饭时间”，说明 stay in bed 这个状态持续的终点，不是某个动作发生的点。"
+    },
+    {
+      "title": "sometimes的位置",
+      "text": "sometimes 放在主语 I 和动词 stay 之间，用来修饰整个动作发生的频率，意思是“有时候”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "sometimes",
+      "role": "频率状语",
+      "explanation": "说明“待在床上到午饭点”这件事发生的频率，不是每次都这样。"
+    },
+    {
+      "text": "stay in bed",
+      "role": "谓语短语",
+      "explanation": "表示“待在床上、赖床”的状态，是句子的核心动作。"
+    },
+    {
+      "text": "until lunchtime.",
+      "role": "时间状语",
+      "explanation": "表示 stay in bed 这个状态持续到的时间终点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "sometimes",
+      "meaning": "有时，偶尔",
+      "pos": "副词",
+      "phonetic": "/ˈsʌmtaɪmz/"
+    },
+    {
+      "text": "stay",
+      "meaning": "停留，待着",
+      "pos": "动词",
+      "phonetic": "/steɪ/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "bed",
+      "meaning": "床",
+      "pos": "名词",
+      "phonetic": "/bed/"
+    },
+    {
+      "text": "until",
+      "meaning": "直到……为止",
+      "pos": "介词",
+      "phonetic": "/ənˈtɪl/"
+    },
+    {
+      "text": "lunchtime.",
+      "meaning": "午餐时间",
+      "pos": "名词",
+      "phonetic": "/ˈlʌntʃtaɪm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "动作的主体"
+    },
+    {
+      "text": "sometimes",
+      "meaning": "有时候",
+      "relation": "说明动作发生的频率"
+    },
+    {
+      "text": "stay in bed",
+      "meaning": "赖在床上",
+      "relation": "主体的动作和所处状态"
+    },
+    {
+      "text": "until lunchtime.",
+      "meaning": "直到午饭时间",
+      "relation": "说明状态持续到的时间终点"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-002",
+  "sentenceId": "nce-2-lesson-002-sentence-003",
+  "sentenceOrder": 3,
+  "english": "I sometimes stay in bed until lunchtime.",
+  "lesson": "Lesson 2 Breakfast or lunch?",
+  "notes": [
+    {
+      "title": "until的作用",
+      "text": "until lunchtime 表示“一直到午饭时间”，说明 stay in bed 这个状态持续的终点，不是某个动作发生的点。"
+    },
+    {
+      "title": "sometimes的位置",
+      "text": "sometimes 放在主语 I 和动词 stay 之间，用来修饰整个动作发生的频率，意思是“有时候”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅存在小问题：1. words中lunchtime的释义误带句末标点，需调整；2. 部分表述可更贴合母语学习者的常用表达；3. 主干语义可更贴合语境（体现赖床的含义）。（非逐句人工审核）"
+}

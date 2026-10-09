@@ -1,0 +1,140 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-080",
+  "sentenceId": "nce-2-lesson-080-sentence-001-part-02",
+  "sentenceOrder": 2,
+  "english": "which was built in Hyde Park for the Great Exhibition of 1851.",
+  "chinese": "它是为1851年的世界博览会在海德公园建造的。",
+  "lesson": "Lesson 80 The Crystal Palace",
+  "intent": "补充水晶宫的建造地点和用途",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "which was built",
+      "relation": "承接建筑",
+      "meaning": "它被建造"
+    },
+    {
+      "text": "in Hyde Park",
+      "relation": "地点",
+      "meaning": "在海德公园"
+    },
+    {
+      "text": "for the Great Exhibition of 1851.",
+      "relation": "用途与年份",
+      "meaning": "为1851年的世界博览会"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "承接上段",
+      "text": "which 指上一片段的水晶宫，当前不是独立句。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "承接上段",
+      "text": "which 指上一片段的水晶宫，当前不是独立句。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "which",
+      "role": "关系代词作主语",
+      "explanation": "指水晶宫。"
+    },
+    {
+      "text": "was built",
+      "role": "谓语",
+      "explanation": "过去时被动。"
+    },
+    {
+      "text": "in Hyde Park",
+      "role": "地点状语",
+      "explanation": "说明建造地点。"
+    },
+    {
+      "text": "for the Great Exhibition of 1851.",
+      "role": "目的状语",
+      "explanation": "说明建造用途。"
+    }
+  ],
+  "words": [
+    {
+      "text": "which",
+      "meaning": "它（指水晶宫）",
+      "pos": "关系代词",
+      "phonetic": "/wɪtʃ/"
+    },
+    {
+      "text": "was",
+      "meaning": "构成被动",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "built",
+      "meaning": "建造",
+      "pos": "动词过去分词",
+      "phonetic": "/bɪlt/"
+    },
+    {
+      "text": "in",
+      "meaning": "在",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "Hyde",
+      "meaning": "海德",
+      "pos": "专有名词",
+      "phonetic": "/haɪd/"
+    },
+    {
+      "text": "Park",
+      "meaning": "公园",
+      "pos": "专有名词",
+      "phonetic": "/pɑːk/"
+    },
+    {
+      "text": "for",
+      "meaning": "为了",
+      "pos": "介词",
+      "phonetic": "/fɔː/ 或 /fər/"
+    },
+    {
+      "text": "the",
+      "meaning": "该",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "Great",
+      "meaning": "大（展会名称组成）",
+      "pos": "专有名词",
+      "phonetic": "/ɡreɪt/"
+    },
+    {
+      "text": "Exhibition",
+      "meaning": "博览会",
+      "pos": "专有名词",
+      "phonetic": "/ˌeksɪˈbɪʃn/"
+    },
+    {
+      "text": "of",
+      "meaning": "在……年的",
+      "pos": "介词",
+      "phonetic": "/ɒv/ 或 /əv/"
+    },
+    {
+      "text": "1851.",
+      "meaning": "1851年",
+      "pos": "数词",
+      "phonetic": "/ˌeɪˈtiːn ˈfɪfti wʌn/ 或 /wʌn ˈeɪt iː ˈfaɪv wʌn/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

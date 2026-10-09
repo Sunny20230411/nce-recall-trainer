@@ -1,0 +1,153 @@
+{
+  "chinese": "这是一栋非常现代的房子，所以在有些人看来它显得很奇怪。",
+  "intent": "说明这栋房子风格很现代，并解释因此会让部分人觉得怪异；结合上下文，它是在介绍完房子的大房间、可爱花园之后，补充点明其现代属性带来的反差感受，后续还会提到它是本区唯一的现代住宅。",
+  "comparison": null,
+  "backbone": {
+    "text": "It is a modern house, so it looks strange.",
+    "meaning": "这是一栋现代风格的房子，因此它看起来怪异。"
+  },
+  "structureNotes": [
+    {
+      "title": "so 连接的并列句逻辑",
+      "text": "so 在这里是并列连词，连接前后两个独立分句，前半句说明房子的属性是非常现代，后半句给出由此产生的结果——有些人觉得它奇怪。"
+    },
+    {
+      "title": "look + 形容词 + to sb 的含义",
+      "text": "looks strange to some people 表示“在某些人看来显得奇怪”，to 引出评价的主体，look 是系动词，后面接形容词 strange 描述主语给人的观感。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It is a very modern house,",
+      "role": "前一分句（原因）",
+      "explanation": "交代讨论对象是这栋房子，并说明它的特点是非常现代，为后半句的结果做铺垫。"
+    },
+    {
+      "text": "so",
+      "role": "并列连词",
+      "explanation": "表示因果逻辑，连接前后两个分句，说明“现代”是“有人觉得怪”的原因。"
+    },
+    {
+      "text": "it looks strange to some people.",
+      "role": "后一分句（结果）",
+      "explanation": "说明这栋房子给部分人的观感是奇怪的，to some people 点明评价的主体。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（指代上文提到的房子）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "is",
+      "meaning": "是",
+      "pos": "be动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（栋）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "modern",
+      "meaning": "现代的",
+      "pos": "形容词",
+      "phonetic": "/ˈmɒdən/"
+    },
+    {
+      "text": "house,",
+      "meaning": "房子",
+      "pos": "名词",
+      "phonetic": "/haʊs/"
+    },
+    {
+      "text": "so",
+      "meaning": "所以，因此",
+      "pos": "连词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（仍指代那栋房子）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "looks",
+      "meaning": "看起来，显得",
+      "pos": "系动词",
+      "phonetic": "/lʊks/"
+    },
+    {
+      "text": "strange",
+      "meaning": "奇怪的，怪异的",
+      "pos": "形容词",
+      "phonetic": "/streɪndʒ/"
+    },
+    {
+      "text": "to",
+      "meaning": "对……来说，在……看来",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "some",
+      "meaning": "一些，某些",
+      "pos": "限定词",
+      "phonetic": "/sʌm/"
+    },
+    {
+      "text": "people.",
+      "meaning": "人（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈpiːpl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It is a very modern house,",
+      "relation": "陈述事实，说明房子的风格属性（原因）",
+      "meaning": "它是一栋非常现代的房子，"
+    },
+    {
+      "text": "so",
+      "relation": "表示因果逻辑，连接原因和结果",
+      "meaning": "所以"
+    },
+    {
+      "text": "it looks strange to some people.",
+      "relation": "说明因房子现代而产生的结果，补充人们对它的观感",
+      "meaning": "它在有些人看来显得奇怪。"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-023",
+  "sentenceId": "nce-2-lesson-023-sentence-010",
+  "sentenceOrder": 10,
+  "english": "It is a very modern house, so it looks strange to some people.",
+  "lesson": "Lesson 23 A new house",
+  "notes": [
+    {
+      "title": "so 连接的并列句逻辑",
+      "text": "so 在这里是并列连词，连接前后两个独立分句，前半句说明房子的属性是非常现代，后半句给出由此产生的结果——有些人觉得它奇怪。"
+    },
+    {
+      "title": "look + 形容词 + to sb 的含义",
+      "text": "looks strange to some people 表示“在某些人看来显得奇怪”，to 引出评价的主体，look 是系动词，后面接形容词 strange 描述主语给人的观感。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅 house 词条的词义标点随词项存储的约定下，释义末尾无需加逗号，修正该小问题即可。（非逐句人工审核）"
+}

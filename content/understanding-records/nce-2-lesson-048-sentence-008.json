@@ -1,0 +1,132 @@
+{
+  "chinese": "我突然感到很担心，但什么也不能说。",
+  "intent": "描述说话人当时突然产生的担忧情绪，以及无法开口表达的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "I felt worried, but could not say anything.",
+    "meaning": "我感到担忧，但说不出任何话。"
+  },
+  "structureNotes": [
+    {
+      "title": "but连接并列谓语",
+      "text": "句子主语都是I，but连接前后两个并列的谓语部分，前半部分描述感受，后半部分说明对应的行为限制，两者形成转折关系。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "suddenly felt very worried",
+      "role": "第一个并列谓语（表感受）",
+      "explanation": "描述主语I的情绪状态，felt是系动词，worried是表语，suddenly说明情绪出现的突然性，very加强担忧的程度。"
+    },
+    {
+      "text": "but",
+      "role": "并列连词",
+      "explanation": "连接前后两个谓语部分，引出与前半句感受相对的情况，即心里担心却无法说出来。"
+    },
+    {
+      "text": "could not say anything",
+      "role": "第二个并列谓语（表行为能力限制）",
+      "explanation": "说明主语I在当时没有能力说出任何话，could not表示过去的能力否定，anything用于否定句中指代“任何话语/内容”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "suddenly",
+      "meaning": "突然地",
+      "pos": "副词",
+      "phonetic": "/ˈsʌdənli/"
+    },
+    {
+      "text": "felt",
+      "meaning": "感到，觉得",
+      "pos": "系动词（过去式）",
+      "phonetic": "/felt/"
+    },
+    {
+      "text": "very",
+      "meaning": "很，非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "worried,",
+      "meaning": "担忧的，担心的",
+      "pos": "形容词",
+      "phonetic": "/ˈwʌrid/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是，然而",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "could",
+      "meaning": "能够（can的过去式）",
+      "pos": "情态动词",
+      "phonetic": "/kʊd/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "say",
+      "meaning": "说，讲",
+      "pos": "动词",
+      "phonetic": "/seɪ/"
+    },
+    {
+      "text": "anything.",
+      "meaning": "任何事物，任何话",
+      "pos": "不定代词",
+      "phonetic": "/ˈeniθɪŋ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "描述的对象",
+      "meaning": "我"
+    },
+    {
+      "text": "suddenly felt very worried,",
+      "relation": "描述主语的情绪状态",
+      "meaning": "突然感到非常担心"
+    },
+    {
+      "text": "but",
+      "relation": "转折连接",
+      "meaning": "但是"
+    },
+    {
+      "text": "could not say anything.",
+      "relation": "描述主语的行为能力限制",
+      "meaning": "什么也不能说"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-048",
+  "sentenceId": "nce-2-lesson-048-sentence-008",
+  "sentenceOrder": 8,
+  "english": "I suddenly felt very worried, but could not say anything.",
+  "lesson": "Lesson 48 Did you want to tell me something?",
+  "notes": [
+    {
+      "title": "but连接并列谓语",
+      "text": "句子主语都是I，but连接前后两个并列的谓语部分，前半部分描述感受，后半部分说明对应的行为限制，两者形成转折关系。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：单词worried后附带的逗号不应放在释义的词性中，修正后内容准确符合教学要求。（非逐句人工审核）"
+}

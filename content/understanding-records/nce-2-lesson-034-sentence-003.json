@@ -1,0 +1,154 @@
+{
+  "chinese": "在这封信里，他被要求到警察局去一趟。",
+  "intent": "说明信件的核心内容：有关方面要求收信人前往警察局。",
+  "comparison": null,
+  "backbone": {
+    "text": "he was asked to call at the station.",
+    "meaning": "他被要求到警察局去一趟。"
+  },
+  "structureNotes": [
+    {
+      "title": "句首的地点状语说明信息出处",
+      "text": "In the letter, 引出后面内容的来源，说明“被要求”这件事是信里写的，不是当面通知。"
+    },
+    {
+      "title": "被动语态隐去动作发出者",
+      "text": "he was asked 没有点明是谁要求他，结合上下文可知是警方，重点落在“他收到了要求”这件事上。"
+    },
+    {
+      "title": "call at 的含义",
+      "text": "call at 后接地点，表示短时间拜访、前往某处，不是“打电话”的意思。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "In the letter,",
+      "role": "地点状语",
+      "explanation": "说明后面整件事的信息出处，指内容来自这封信。"
+    },
+    {
+      "text": "he",
+      "role": "主语",
+      "explanation": "指代前文提到的Dan，是“被要求”的对象。"
+    },
+    {
+      "text": "was asked",
+      "role": "谓语（被动语态）",
+      "explanation": "表示主语承受“被要求”这个动作，动作发出者未明说。"
+    },
+    {
+      "text": "to call at the station.",
+      "role": "主语补足语",
+      "explanation": "补充说明他被要求去做的具体事：前往警察局。"
+    }
+  ],
+  "words": [
+    {
+      "text": "In",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定冠词，特指已知的信）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "letter,",
+      "meaning": "信（带句中停顿逗号）",
+      "pos": "名词",
+      "phonetic": "/ˈletə(r)/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，构成被动语态）",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "asked",
+      "meaning": "要求，请求（过去分词）",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，引出要做的动作）",
+      "pos": "不定式标记",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "call",
+      "meaning": "拜访，前往",
+      "pos": "动词",
+      "phonetic": "/kɔːl/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（某处）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定冠词，特指警察局）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "station.",
+      "meaning": "警察局（带句末句号）",
+      "pos": "名词",
+      "phonetic": "/ˈsteɪʃn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "In the letter,",
+      "relation": "信息出处",
+      "meaning": "在这封信里"
+    },
+    {
+      "text": "he was asked",
+      "relation": "核心动作与承受者",
+      "meaning": "他被要求"
+    },
+    {
+      "text": "to call at the station.",
+      "relation": "被要求做的具体内容",
+      "meaning": "到警察局去一趟"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-034",
+  "sentenceId": "nce-2-lesson-034-sentence-003",
+  "sentenceOrder": 3,
+  "english": "In the letter, he was asked to call at the station.",
+  "lesson": "Lesson 34 Quick work",
+  "notes": [
+    {
+      "title": "句首的地点状语说明信息出处",
+      "text": "In the letter, 引出后面内容的来源，说明“被要求”这件事是信里写的，不是当面通知。"
+    },
+    {
+      "title": "被动语态隐去动作发出者",
+      "text": "he was asked 没有点明是谁要求他，结合上下文可知是警方，重点落在“他收到了要求”这件事上。"
+    },
+    {
+      "title": "call at 的含义",
+      "text": "call at 后接地点，表示短时间拜访、前往某处，不是“打电话”的意思。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅部分单词的英式音标不符合通用标准，需修正。（非逐句人工审核）"
+}

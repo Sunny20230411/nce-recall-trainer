@@ -1,0 +1,228 @@
+{
+  "chinese": "一名侦探最近观察了一位穿着考究的女士，她总是在星期一上午走进一家大商店。",
+  "intent": "讲述一名侦探近期在留意一位有固定进店习惯的穿着讲究的女士，交代背景人物的行为特征。",
+  "comparison": {
+    "chinese": "一名侦探最近观察了一位［总是在周一上午走进一家大商店的、穿着考究的］女士。",
+    "english": "A detective recently watched a well-dressed woman who always went into a large store on Monday mornings.",
+    "steps": [
+      {
+        "label": "第一步：先抓主干信息",
+        "text": "A detective recently watched a well-dressed woman",
+        "explanation": "中文和英文一样，先讲核心事件：谁（侦探）、什么时候（最近）、做了什么（观察一位穿着考究的女士）。到这里读者已经知道句子主要讲什么。"
+      },
+      {
+        "label": "第二步：补充说明这位女士的特点",
+        "text": "who always went into a large store on Monday mornings",
+        "explanation": "英文用who接在woman后面，回头补充说明这位女士有什么固定行为；中文习惯把“穿着考究”和“总是周一上午去大商店”都放在“女士”前面作修饰，或者拆成小句接在后头。"
+      }
+    ],
+    "takeaway": "遇到who引导的从句，先确定它指的是前面刚提到的人，再把它理解成对这个人的补充描述，不用死记“定语从句”的标签，先知道主干事件，再补人物特征就行。"
+  },
+  "backbone": {
+    "text": "A detective watched a well-dressed woman.",
+    "meaning": "一名侦探观察了一位穿着考究的女士。"
+  },
+  "structureNotes": [
+    {
+      "title": "who 从句的作用",
+      "text": "who 紧跟在 woman 后面，指代这位女士，用来补充她的固定行为习惯，相当于告诉读者“这是个什么样的女人”。"
+    },
+    {
+      "title": "on Monday mornings 的含义",
+      "text": "用 on 搭配具体某天的上午（Monday mornings），这里是复数，说明不是某一个周一上午，而是每逢周一上午，强调规律性。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A detective",
+      "role": "主语",
+      "explanation": "动作“观察”的发出者，指一名侦探。"
+    },
+    {
+      "text": "recently",
+      "role": "时间状语",
+      "explanation": "说明 watched 这个动作发生的时间是“最近”。"
+    },
+    {
+      "text": "watched",
+      "role": "谓语动词",
+      "explanation": "表示主语发出的动作：观察、留意（过去式，说明是过去发生的事）。"
+    },
+    {
+      "text": "a well-dressed woman",
+      "role": "宾语",
+      "explanation": "是 watched 的对象，也就是被观察的人；well-dressed 用来描述 woman 的穿着状态。"
+    },
+    {
+      "text": "who always went into a large store on Monday mornings",
+      "role": "定语从句",
+      "explanation": "修饰前面的 woman，who 指代 woman，在从句中作主语；整个从句补充说明这位女士一贯的行为：总是在周一上午走进一家大商店。"
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "meaning": "一个；一名（不定冠词，泛指）",
+      "pos": "article",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "detective",
+      "meaning": "侦探",
+      "pos": "noun",
+      "phonetic": "/dɪˈtektɪv/"
+    },
+    {
+      "text": "recently",
+      "meaning": "最近；近来",
+      "pos": "adverb",
+      "phonetic": "/ˈriːsntli/"
+    },
+    {
+      "text": "watched",
+      "meaning": "观察；注视（watch的过去式）",
+      "pos": "verb",
+      "phonetic": "/wɒtʃt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个；一位（不定冠词，泛指）",
+      "pos": "article",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "well-dressed",
+      "meaning": "穿着讲究的；衣着体面的",
+      "pos": "adjective",
+      "phonetic": "/ˌwel ˈdrest/"
+    },
+    {
+      "text": "woman",
+      "meaning": "妇女；女士",
+      "pos": "noun",
+      "phonetic": "/ˈwʊmən/"
+    },
+    {
+      "text": "who",
+      "meaning": "……的人（关系代词，指代前面的woman）",
+      "pos": "pronoun",
+      "phonetic": "/huː/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是；一直",
+      "pos": "adverb",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "went",
+      "meaning": "去；走（go的过去式）",
+      "pos": "verb",
+      "phonetic": "/went/"
+    },
+    {
+      "text": "into",
+      "meaning": "到……里面；进入",
+      "pos": "preposition",
+      "phonetic": "/ˈɪntuː/"
+    },
+    {
+      "text": "a",
+      "meaning": "一家（不定冠词，泛指）",
+      "pos": "article",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "large",
+      "meaning": "大的；大型的",
+      "pos": "adjective",
+      "phonetic": "/lɑːdʒ/"
+    },
+    {
+      "text": "store",
+      "meaning": "商店；店铺",
+      "pos": "noun",
+      "phonetic": "/stɔː/"
+    },
+    {
+      "text": "on",
+      "meaning": "在（具体某天或某天的某段时间）",
+      "pos": "preposition",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "Monday",
+      "meaning": "星期一",
+      "pos": "noun",
+      "phonetic": "/ˈmʌndeɪ/"
+    },
+    {
+      "text": "mornings.",
+      "meaning": "上午（morning的复数，句末带句号）",
+      "pos": "noun",
+      "phonetic": "/ˈmɔːnɪŋz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "A detective",
+      "relation": "动作的发出者（描述谁）",
+      "meaning": "一名侦探"
+    },
+    {
+      "text": "recently",
+      "relation": "时间（说明动作发生的时间）",
+      "meaning": "最近"
+    },
+    {
+      "text": "watched",
+      "relation": "主干动作",
+      "meaning": "观察了"
+    },
+    {
+      "text": "a well-dressed woman",
+      "relation": "动作的对象（观察谁）",
+      "meaning": "一位穿着考究的女士"
+    },
+    {
+      "text": "who",
+      "relation": "连接指代（引出对女士的补充说明）",
+      "meaning": "（指代前面的女士）"
+    },
+    {
+      "text": "always went",
+      "relation": "从句的动作（描述女士的行为）",
+      "meaning": "总是去"
+    },
+    {
+      "text": "into a large store",
+      "relation": "去向地点（说明去哪里）",
+      "meaning": "走进一家大商店"
+    },
+    {
+      "text": "on Monday mornings.",
+      "relation": "时间（说明动作发生的规律时间）",
+      "meaning": "在星期一上午"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-032",
+  "sentenceId": "nce-2-lesson-032-sentence-003",
+  "sentenceOrder": 3,
+  "english": "A detective recently watched a well-dressed woman who always went into a large store on Monday mornings.",
+  "lesson": "Lesson 32 Shopping made easy",
+  "notes": [
+    {
+      "title": "who 从句的作用",
+      "text": "who 紧跟在 woman 后面，指代这位女士，用来补充她的固定行为习惯，相当于告诉读者“这是个什么样的女人”。"
+    },
+    {
+      "title": "on Monday mornings 的含义",
+      "text": "用 on 搭配具体某天的上午（Monday mornings），这里是复数，说明不是某一个周一上午，而是每逢周一上午，强调规律性。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅store的英式音标存在错误，需修正为英式发音。（非逐句人工审核）"
+}

@@ -1,0 +1,141 @@
+{
+  "chinese": "这架“出租车”是一架小型瑞士飞机，名叫皮拉图斯·波特号。",
+  "intent": "介绍上文提到的那辆特殊“出租车”的真实身份、属性和具体名称。",
+  "comparison": null,
+  "backbone": {
+    "text": "The taxi is a small Swiss aeroplane called a Pilatus Porter.",
+    "meaning": "那辆“出租车”是一架名叫皮拉图斯·波特号的小型瑞士飞机。"
+  },
+  "structureNotes": [
+    {
+      "title": "called引导的后置修饰",
+      "text": "called a Pilatus Porter 放在 aeroplane 后面，作用是补充说明这架飞机的名称，意思是“被叫做……”。"
+    },
+    {
+      "title": "多个形容词修饰名词的顺序",
+      "text": "small Swiss aeroplane 中，先说大小 small，再说国籍 Swiss，最后说中心名词 aeroplane，符合英语形容词排列习惯。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The taxi",
+      "role": "句子主语",
+      "explanation": "指代上文中 Captain Ben Fawcett 新买的那辆不寻常的“出租车”，是本句介绍的对象。"
+    },
+    {
+      "text": "is a small Swiss aeroplane",
+      "role": "系表结构作谓语",
+      "explanation": "用 be 动词说明主语的身份，表语部分交代它本质上是一架小型瑞士飞机。"
+    },
+    {
+      "text": "called a Pilatus Porter",
+      "role": "后置定语",
+      "explanation": "过去分词短语修饰前面的 aeroplane，补充说明这架飞机的具体型号名称。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这（个/架），定冠词，特指上文提到的事物",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "taxi",
+      "meaning": "出租车；此处指被当作出租车用的飞机",
+      "pos": "名词",
+      "phonetic": "/ˈtæksi/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be动词第三人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（架），不定冠词",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "small",
+      "meaning": "小的，小型的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/"
+    },
+    {
+      "text": "Swiss",
+      "meaning": "瑞士的",
+      "pos": "形容词",
+      "phonetic": "/swɪs/"
+    },
+    {
+      "text": "aeroplane",
+      "meaning": "飞机",
+      "pos": "名词",
+      "phonetic": "/ˈeərəpleɪn/"
+    },
+    {
+      "text": "called",
+      "meaning": "被叫做，被称为",
+      "pos": "动词过去分词",
+      "phonetic": "/kɔːld/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个/种），不定冠词",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "Pilatus",
+      "meaning": "皮拉图斯（飞机品牌/型号名称的一部分）",
+      "pos": "专有名词",
+      "phonetic": "/ˈpɪlətəs/"
+    },
+    {
+      "text": "Porter.",
+      "meaning": "波特（飞机型号名称的一部分）",
+      "pos": "专有名词",
+      "phonetic": "/ˈpɔːtə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The taxi",
+      "relation": "描述的对象，即句子主语",
+      "meaning": "那辆（被当作出租车的）飞机"
+    },
+    {
+      "text": "is a small Swiss aeroplane",
+      "relation": "说明主语的身份和基本属性",
+      "meaning": "是一架小型瑞士飞机"
+    },
+    {
+      "text": "called a Pilatus Porter.",
+      "relation": "补充说明这架飞机的具体型号名称",
+      "meaning": "名叫皮拉图斯·波特"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-029",
+  "sentenceId": "nce-2-lesson-029-sentence-002",
+  "sentenceOrder": 2,
+  "english": "The taxi is a small Swiss aeroplane called a Pilatus Porter.",
+  "lesson": "Lesson 29 Taxi!",
+  "notes": [
+    {
+      "title": "called引导的后置修饰",
+      "text": "called a Pilatus Porter 放在 aeroplane 后面，作用是补充说明这架飞机的名称，意思是“被叫做……”。"
+    },
+    {
+      "title": "多个形容词修饰名词的顺序",
+      "text": "small Swiss aeroplane 中，先说大小 small，再说国籍 Swiss，最后说中心名词 aeroplane，符合英语形容词排列习惯。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：核心内容准确，仅需修正Porter的英式音标、Porter.词条末尾多余的句号、backbone译文漏译“号”以及backbone中taxi未体现特殊指代这几处细节。（非逐句人工审核）"
+}

@@ -1,0 +1,151 @@
+{
+  "chinese": "大家都说我一定是疯了，而且他们很可能是对的。",
+  "intent": "转述众人对“我”的看法，同时承认这种看法多半是对的。",
+  "comparison": null,
+  "backbone": {
+    "text": "Everybody says I must be mad and they are probably right.",
+    "meaning": "大家说我肯定疯了，而且他们很可能是对的。"
+  },
+  "structureNotes": [
+    {
+      "title": "and连接两个并列分句",
+      "text": "全句由and连接两个并列分句，前一分句讲大家的说法，后一分句对这个说法作出判断，两者地位平等、语义递进。"
+    },
+    {
+      "title": "must be表示很有把握的推测",
+      "text": "must be 在这里不是表示“必须”，而是对当前状态作出很肯定的推测，理解为“肯定是、想必是”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Everybody says",
+      "role": "主句主谓语",
+      "explanation": "引出后面的内容，说明信息来源是“大家”的说法。"
+    },
+    {
+      "text": "I must be mad",
+      "role": "宾语从句",
+      "explanation": "作says的宾语，是大家所说的具体内容。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个独立分句，表示语义上的承接与递进。"
+    },
+    {
+      "text": "they are probably right.",
+      "role": "并列分句",
+      "explanation": "表达说话人对前一种看法的态度，承认对方多半是对的。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "每个人，大家",
+      "pos": "代词",
+      "phonetic": "/ˈevribɒdi/",
+      "text": "Everybody"
+    },
+    {
+      "meaning": "说，讲",
+      "pos": "动词",
+      "phonetic": "/sez/",
+      "text": "says"
+    },
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "肯定，一定（表推测）",
+      "pos": "情态动词",
+      "phonetic": "/mʌst/",
+      "text": "must"
+    },
+    {
+      "meaning": "是（be动词原形）",
+      "pos": "动词",
+      "phonetic": "/biː/",
+      "text": "be"
+    },
+    {
+      "meaning": "发疯的，疯狂的",
+      "pos": "形容词",
+      "phonetic": "/mæd/",
+      "text": "mad"
+    },
+    {
+      "meaning": "和，而且",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/",
+      "text": "they"
+    },
+    {
+      "meaning": "是",
+      "pos": "动词",
+      "phonetic": "/ɑː/",
+      "text": "are"
+    },
+    {
+      "meaning": "很可能，大概",
+      "pos": "副词",
+      "phonetic": "/ˈprɒbəbli/",
+      "text": "probably"
+    },
+    {
+      "meaning": "对的，正确的",
+      "pos": "形容词",
+      "phonetic": "/raɪt/",
+      "text": "right."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Everybody says",
+      "relation": "引出后续说法的主体和动作",
+      "meaning": "大家都说"
+    },
+    {
+      "text": "I must be mad",
+      "relation": "“说”的具体内容",
+      "meaning": "我一定是疯了"
+    },
+    {
+      "text": "and",
+      "relation": "连接前后两个并列分句",
+      "meaning": "而且"
+    },
+    {
+      "text": "they are probably right.",
+      "relation": "对前一种说法的判断",
+      "meaning": "他们很可能是对的"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-021",
+  "sentenceId": "nce-2-lesson-021-sentence-009",
+  "sentenceOrder": 11,
+  "english": "Everybody says I must be mad and they are probably right.",
+  "lesson": "Lesson 21 Mad or not?",
+  "notes": [
+    {
+      "title": "and连接两个并列分句",
+      "text": "全句由and连接两个并列分句，前一分句讲大家的说法，后一分句对这个说法作出判断，两者地位平等、语义递进。"
+    },
+    {
+      "title": "must be表示很有把握的推测",
+      "text": "must be 在这里不是表示“必须”，而是对当前状态作出很肯定的推测，理解为“肯定是、想必是”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容准确覆盖原文，翻译无误，语法说明恰当，仅需将probably纳入主干以保持原句核心语义完整。（非逐句人工审核）"
+}

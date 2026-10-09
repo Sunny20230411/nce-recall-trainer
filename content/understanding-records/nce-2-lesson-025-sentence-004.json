@@ -1,0 +1,188 @@
+{
+  "chinese": "我不仅讲英语讲得非常小心，而且也讲得非常清楚。",
+  "intent": "说明自己说英语时同时做到了两点：态度小心、发音清晰，为后文搬运工仍听不懂做铺垫。",
+  "comparison": {
+    "chinese": "我不但英语说得非常小心，而且也说得十分清楚。",
+    "english": "I not only spoke English very carefully, but very clearly as well.",
+    "steps": [
+      {
+        "label": "第一步：抓住主干动作",
+        "text": "I spoke English",
+        "explanation": "先理解核心信息是“我讲英语”，中英文语序一致，都是主语在前、动作和宾语在后。"
+      },
+      {
+        "label": "第二步：叠加两个并列的修饰",
+        "text": "not only very carefully, but very clearly as well",
+        "explanation": "中文会说“不但…而且…”来连接两个修饰“说英语”的状态；英文用 not only… but… as well 连接两个副词短语，都修饰“讲英语”的方式，as well 进一步强调后一项也是成立的。"
+      },
+      {
+        "label": "第三步：还原省略的部分",
+        "text": "but very clearly as well",
+        "explanation": "英文这里省略了重复的 I spoke，避免啰嗦；中文如果补全是“而且也讲得非常清楚”，日常也常简化成“而且也十分清楚”，听者自然知道指的是说英语这件事。"
+      }
+    ],
+    "takeaway": "not only… but… as well 是并列结构，连接的两个成分都修饰同一个动作，后半句常省略与前半句重复的主语和动词，阅读时要自动对应回前面的动作上。"
+  },
+  "backbone": {
+    "text": "I spoke English very carefully and very clearly.",
+    "meaning": "我讲英语既非常小心又非常清楚。（辅助理解用：把并列结构改写成普通并列，突出两个状态并列）"
+  },
+  "structureNotes": [
+    {
+      "title": "not only… but… as well 的并列作用",
+      "text": "not only… but… as well 用来连接两个并列的方式状语，强调两个特点同时存在，这里两个副词短语都修饰 spoke English。"
+    },
+    {
+      "title": "后半句的省略",
+      "text": "but very clearly as well 省略了与前半句重复的 I spoke，因为前后主语和动词一致，无需重复，阅读时要把 clearly 对应到“讲英语”的方式上。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "not only",
+      "role": "并列连词前半部分",
+      "explanation": "引出第一个并列的修饰内容，和后面的 but…as well 配合，表示“不仅…而且…”。"
+    },
+    {
+      "text": "spoke English very carefully",
+      "role": "第一个并列的谓语加方式状语部分",
+      "explanation": "说明“我”的动作是讲英语，以及讲英语的第一个特点：非常小心，核心谓语是 spoke English，very carefully 是方式状语。"
+    },
+    {
+      "text": "but very clearly as well",
+      "role": "第二个并列的方式状语（省略了重复的主语和谓语）",
+      "explanation": "承接前文的 spoke English，补充第二个特点：也非常清楚，but 是并列连词后半部分，as well 加强“也、同样”的语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "not",
+      "meaning": "不（与 only 搭配构成 not only）",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "only",
+      "meaning": "只，仅仅（与 not 搭配构成 not only）",
+      "pos": "副词",
+      "phonetic": "/ˈəʊnli/"
+    },
+    {
+      "text": "spoke",
+      "meaning": "说，讲（speak 的过去式）",
+      "pos": "动词",
+      "phonetic": "/spəʊk/"
+    },
+    {
+      "text": "English",
+      "meaning": "英语",
+      "pos": "名词",
+      "phonetic": "/ˈɪŋɡlɪʃ/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "carefully,",
+      "meaning": "小心地，仔细地",
+      "pos": "副词",
+      "phonetic": "/ˈkeəfəli/"
+    },
+    {
+      "text": "but",
+      "meaning": "而且（与 not only 搭配构成并列结构）",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "clearly",
+      "meaning": "清楚地，清晰地",
+      "pos": "副词",
+      "phonetic": "/ˈklɪəli/"
+    },
+    {
+      "text": "as",
+      "meaning": "（与 well 搭配构成 as well，意为“也”）",
+      "pos": "副词",
+      "phonetic": "/æz/"
+    },
+    {
+      "text": "well.",
+      "meaning": "（与 as 搭配构成 as well，意为“也”）",
+      "pos": "副词",
+      "phonetic": "/wel/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者，描述谁",
+      "meaning": "我"
+    },
+    {
+      "text": "not only",
+      "relation": "并列结构引导词，引出第一个特点",
+      "meaning": "不仅"
+    },
+    {
+      "text": "spoke English",
+      "relation": "核心动作和对象，句子主干",
+      "meaning": "讲英语"
+    },
+    {
+      "text": "very carefully,",
+      "relation": "补充说明讲英语的第一个方式",
+      "meaning": "非常小心地"
+    },
+    {
+      "text": "but",
+      "relation": "并列连词，引出第二个特点",
+      "meaning": "而且"
+    },
+    {
+      "text": "very clearly",
+      "relation": "补充说明讲英语的第二个方式",
+      "meaning": "非常清楚地"
+    },
+    {
+      "text": "as well.",
+      "relation": "加强并列语气，补充说明第二个特点同样成立",
+      "meaning": "也"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-025",
+  "sentenceId": "nce-2-lesson-025-sentence-004",
+  "sentenceOrder": 4,
+  "english": "I not only spoke English very carefully, but very clearly as well.",
+  "lesson": "Lesson 25 Do the English speak English?",
+  "notes": [
+    {
+      "title": "not only… but… as well 的并列作用",
+      "text": "not only… but… as well 用来连接两个并列的方式状语，强调两个特点同时存在，这里两个副词短语都修饰 spoke English。"
+    },
+    {
+      "title": "后半句的省略",
+      "text": "but very clearly as well 省略了与前半句重复的 I spoke，因为前后主语和动词一致，无需重复，阅读时要把 clearly 对应到“讲英语”的方式上。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：个别单词释义、词性标注及结构角色存在小问题，修正后可使用。（非逐句人工审核）"
+}

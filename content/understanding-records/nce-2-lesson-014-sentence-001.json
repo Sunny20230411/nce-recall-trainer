@@ -1,0 +1,127 @@
+{
+  "chinese": "去年我有过一次有趣的经历。",
+  "intent": "陈述过去发生的一件有趣经历，引出下文的具体故事。",
+  "comparison": null,
+  "backbone": {
+    "text": "I had an experience.",
+    "meaning": "我有过一次经历。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去时间的表达位置",
+      "text": "英语里表过去的时间短语last year通常放在句末，中文习惯把时间“去年”放在句首，位置不同但不影响核心意思。"
+    },
+    {
+      "title": "amusing的修饰作用",
+      "text": "amusing放在名词experience前面，用来描述经历的性质是“有趣的、好笑的”，属于前置修饰。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话人本人，是“有经历”这个动作的发出者。"
+    },
+    {
+      "text": "had",
+      "role": "谓语动词",
+      "explanation": "是have的过去式，在这里表示“经历过、有过”的意思，构成一般过去时的谓语核心。"
+    },
+    {
+      "text": "an amusing experience",
+      "role": "宾语",
+      "explanation": "是谓语动词had的作用对象，说明“有过”的具体内容是一次有趣的经历。"
+    },
+    {
+      "text": "last year.",
+      "role": "时间状语",
+      "explanation": "说明“有过这次经历”发生的时间是去年。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "有过（have的过去式）",
+      "pos": "动词",
+      "phonetic": "/hæd/",
+      "text": "had"
+    },
+    {
+      "meaning": "一（次）",
+      "pos": "冠词",
+      "phonetic": "/ən/",
+      "text": "an"
+    },
+    {
+      "meaning": "有趣的，引人发笑的",
+      "pos": "形容词",
+      "phonetic": "/əˈmjuːzɪŋ/",
+      "text": "amusing"
+    },
+    {
+      "meaning": "经历",
+      "pos": "名词",
+      "phonetic": "/ɪkˈspɪəriəns/",
+      "text": "experience"
+    },
+    {
+      "meaning": "上一个的，刚过去的",
+      "pos": "形容词",
+      "phonetic": "/lɑːst/",
+      "text": "last"
+    },
+    {
+      "meaning": "年，年份",
+      "pos": "名词",
+      "phonetic": "/jɪə/",
+      "text": "year."
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "描述谁有过经历",
+      "meaning": "我"
+    },
+    {
+      "text": "had",
+      "relation": "核心动作",
+      "meaning": "有过"
+    },
+    {
+      "text": "an amusing experience",
+      "relation": "动作的对象，即有过的内容",
+      "meaning": "一次有趣的经历"
+    },
+    {
+      "text": "last year.",
+      "relation": "动作发生的时间",
+      "meaning": "去年"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-014",
+  "sentenceId": "nce-2-lesson-014-sentence-001",
+  "sentenceOrder": 1,
+  "english": "I had an amusing experience last year.",
+  "lesson": "Lesson 14 Do you speak English?",
+  "notes": [
+    {
+      "title": "过去时间的表达位置",
+      "text": "英语里表过去的时间短语last year通常放在句末，中文习惯把时间“去年”放在句首，位置不同但不影响核心意思。"
+    },
+    {
+      "title": "amusing的修饰作用",
+      "text": "amusing放在名词experience前面，用来描述经历的性质是“有趣的、好笑的”，属于前置修饰。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，仅存在一处细节问题：words数组中year.（带句末标点）的词性标注与释义未结合词项本身的标点约定，无需单独说明标点，仅需确保释义和词性对应核心词；另外检查发现当前解析未遗漏内容、语法角色划分正确，翻译准确，仅需确认words项的规范性。经核对，现有内容无核心错误，仅可补充/修正：原words中year.的词性为名词正确，释义正确，音标正确，标点随词项是约定无需调整；所有结构划分、主干、翻译均符合要求。（非逐句人工审核）"
+}

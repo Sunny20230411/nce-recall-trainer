@@ -1,0 +1,142 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-041",
+  "sentenceId": "nce-2-lesson-041-sentence-008",
+  "sentenceOrder": 8,
+  "english": "‘I needn't remind you of that terrible tie you bought yesterday.’",
+  "chinese": "“我用不着提醒你，你昨天买的那条难看的领带吧。”",
+  "lesson": "Lesson 41 Do you call that a hat?",
+  "intent": "妻子以丈夫买的领带反驳他的批评",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "‘I needn't remind you",
+      "relation": "提醒的态度",
+      "meaning": "我用不着提醒你"
+    },
+    {
+      "text": "of that terrible tie",
+      "relation": "提醒内容",
+      "meaning": "那条难看的领带"
+    },
+    {
+      "text": "you bought yesterday.’",
+      "relation": "限定领带",
+      "meaning": "你昨天买的"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "提醒的内容",
+      "text": "remind someone of something用of连接被提醒的事情。"
+    },
+    {
+      "title": "省略关系词",
+      "text": "you bought yesterday修饰tie，省略作bought宾语的关系代词。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "提醒的内容",
+      "text": "remind someone of something用of连接被提醒的事情。"
+    },
+    {
+      "title": "省略关系词",
+      "text": "you bought yesterday修饰tie，省略作bought宾语的关系代词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指妻子。"
+    },
+    {
+      "text": "needn't remind",
+      "role": "谓语",
+      "explanation": "表示用不着提醒，语境中带责备意味。"
+    },
+    {
+      "text": "of that terrible tie",
+      "role": "介词短语补足语",
+      "explanation": "说明提醒所涉及的领带。"
+    },
+    {
+      "text": "you bought yesterday.",
+      "role": "定语从句",
+      "explanation": "说明领带是丈夫昨天买的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "needn't",
+      "meaning": "没有必要",
+      "pos": "情态动词否定缩合形式",
+      "phonetic": "/ˈniːdnt/"
+    },
+    {
+      "text": "remind",
+      "meaning": "提醒",
+      "pos": "动词",
+      "phonetic": "/rɪˈmaɪnd/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "人称代词",
+      "phonetic": "/juː/ 或 /jʊ/"
+    },
+    {
+      "text": "of",
+      "meaning": "关于，表示提醒内容",
+      "pos": "介词",
+      "phonetic": "/ɒv/ 或 /əv/"
+    },
+    {
+      "text": "that",
+      "meaning": "那条",
+      "pos": "指示限定词",
+      "phonetic": "/ðæt/ 或 /ðət/"
+    },
+    {
+      "text": "terrible",
+      "meaning": "难看的，糟糕的",
+      "pos": "形容词",
+      "phonetic": "/ˈterəbl/"
+    },
+    {
+      "text": "tie",
+      "meaning": "领带",
+      "pos": "名词",
+      "phonetic": "/taɪ/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "人称代词",
+      "phonetic": "/juː/ 或 /jʊ/"
+    },
+    {
+      "text": "bought",
+      "meaning": "买了",
+      "pos": "动词",
+      "phonetic": "/bɔːt/"
+    },
+    {
+      "text": "yesterday.’",
+      "meaning": "昨天",
+      "pos": "时间副词",
+      "phonetic": "/ˈjestədeɪ/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

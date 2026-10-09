@@ -1,0 +1,158 @@
+{
+  "chinese": "我正在一家餐馆吃晚饭，这时托尼·斯蒂尔走了进来。",
+  "intent": "描述过去某个时刻正在进行的吃饭动作，被另一个刚发生的进门动作打断，交代故事的开场场景。",
+  "comparison": {
+    "chinese": "托尼·斯蒂尔进来的时候，我在一家餐馆吃晚饭。",
+    "english": "I was having dinner at a restaurant when Tony Steele came in.",
+    "steps": [
+      {
+        "label": "先抓主句的主要场景",
+        "text": "I was having dinner at a restaurant",
+        "explanation": "英文先把核心持续动作“我正在吃晚饭”放在前面作为主要叙述内容，先交代正在发生的背景事件；中文若先讲时间背景，会把短动作放在句首当引子。"
+      },
+      {
+        "label": "再用when引出穿插的短动作",
+        "text": "when Tony Steele came in",
+        "explanation": "这里的when不是单纯引导时间状语的“当……时”，而是引出一个突然发生的短动作，插在正在进行的长动作中间，功能接近“就在这时”，是对前一持续动作的突发性补充；中文习惯把这个触发短动作放在句首当时间背景。"
+      }
+    ],
+    "takeaway": "英文常用“过去进行时（长动作） + when + 一般过去时（短动作）”的结构，先讲持续的背景动作，再补充突然插入的新事件；中文常反过来，先讲触发的短事件，再说当时正在做什么。"
+  },
+  "backbone": {
+    "text": "I was having dinner when Tony Steele came in.",
+    "meaning": "我正吃着晚饭，这时托尼·斯蒂尔进来了。"
+  },
+  "structureNotes": [
+    {
+      "title": "when在这里的特殊作用",
+      "text": "when连接两个动作，前面用过去进行时表示正在持续的吃饭动作，后面用一般过去时表示突然发生的进门动作，when的意思接近“就在这时”，并不是单纯引导普通时间状语从句的连词。"
+    },
+    {
+      "title": "地点状语的位置",
+      "text": "at a restaurant放在having dinner后面，说明吃饭的地点，直接跟在动作后面补充场景，不需要换到句首。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I was having dinner at a restaurant",
+      "role": "主句（过去进行时）",
+      "explanation": "描述过去某一时刻正在持续进行的动作，是整个句子的主要叙述场景。"
+    },
+    {
+      "text": "at a restaurant",
+      "role": "地点状语",
+      "explanation": "说明“吃晚饭”这个动作发生的具体地点。"
+    },
+    {
+      "text": "when Tony Steele came in.",
+      "role": "并列分句（表突然插入的事件）",
+      "explanation": "由when引导，交代一个突然发生的短动作，打断或插入到主句的持续动作中，when此处义为“就在这时”。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "（be动词过去式，与I搭配）正处于（进行某动作的状态）",
+      "pos": "动词",
+      "phonetic": "/wɒz/",
+      "text": "was"
+    },
+    {
+      "meaning": "吃（饭）；进行（餐食活动）",
+      "pos": "动词（现在分词）",
+      "phonetic": "/ˈhævɪŋ/",
+      "text": "having"
+    },
+    {
+      "meaning": "晚饭，晚餐",
+      "pos": "名词",
+      "phonetic": "/ˈdɪnə(r)/",
+      "text": "dinner"
+    },
+    {
+      "meaning": "在（某个地点场所）",
+      "pos": "介词",
+      "phonetic": "/æt/",
+      "text": "at"
+    },
+    {
+      "meaning": "一（家），不定冠词表泛指",
+      "pos": "限定词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "餐馆，餐厅",
+      "pos": "名词",
+      "phonetic": "/ˈrestrɒnt/",
+      "text": "restaurant"
+    },
+    {
+      "meaning": "就在这时，当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/",
+      "text": "when"
+    },
+    {
+      "meaning": "托尼（男子名）",
+      "pos": "名词（人名）",
+      "phonetic": "/ˈtəʊni/",
+      "text": "Tony"
+    },
+    {
+      "meaning": "斯蒂尔（姓氏）",
+      "pos": "名词（人名）",
+      "phonetic": "/stiːl/",
+      "text": "Steele"
+    },
+    {
+      "meaning": "来，进入的动作",
+      "pos": "动词（过去式）",
+      "phonetic": "/keɪm/",
+      "text": "came"
+    },
+    {
+      "meaning": "进入；在内（与came搭配表示进来）",
+      "pos": "副词",
+      "phonetic": "/ɪn/",
+      "text": "in."
+    }
+  ],
+  "parts": [
+    {
+      "text": "I was having dinner at a restaurant",
+      "relation": "描述主要的持续动作及发生地点",
+      "meaning": "我正在一家餐馆吃晚饭"
+    },
+    {
+      "text": "when Tony Steele came in.",
+      "relation": "交代穿插发生的短动作，提供时间节点",
+      "meaning": "这时托尼·斯蒂尔走了进来"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-011",
+  "sentenceId": "nce-2-lesson-011-sentence-001",
+  "sentenceOrder": 1,
+  "english": "I was having dinner at a restaurant when Tony Steele came in.",
+  "lesson": "Lesson 11 One good turn deserves another",
+  "notes": [
+    {
+      "title": "when在这里的特殊作用",
+      "text": "when连接两个动作，前面用过去进行时表示正在持续的吃饭动作，后面用一般过去时表示突然发生的进门动作，when的意思接近“就在这时”，并不是单纯引导普通时间状语从句的连词。"
+    },
+    {
+      "title": "地点状语的位置",
+      "text": "at a restaurant放在having dinner后面，说明吃饭的地点，直接跟在动作后面补充场景，不需要换到句首。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析正确，仅需修正一处细节：when引导的是并列分句（表“就在这时”的突然插入义），并非时间状语从句/状语分句，需修正语法角色表述；另外comparison的说明需明确补充原句结构的组织逻辑而非仅语序对比，其余内容均符合要求。（非逐句人工审核）"
+}

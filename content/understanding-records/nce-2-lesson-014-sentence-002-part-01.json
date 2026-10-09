@@ -1,0 +1,181 @@
+{
+  "chinese": "在我离开法国南部的一个小村庄之后，",
+  "intent": "交代主句动作发生的时间背景，说明主句行为是在“离开法国南部小村庄”这个更早的动作完成之后才发生的。",
+  "comparison": {
+    "chinese": "在我离开法国南部的一个小村庄之后，",
+    "english": "After I had left a small village in the south of France,",
+    "steps": [
+      {
+        "label": "第一步：先抓时间关系标记的组织逻辑",
+        "text": "After",
+        "explanation": "中英都把时间先后标记放在分句最开头，中文用“在……之后”、英文用After先点明“先发生的事在前”的时间逻辑，再引出具体事件，这部分的信息组织顺序和中文一致。"
+      },
+      {
+        "label": "第二步：看地点修饰的组织逻辑",
+        "text": "a small village in the south of France",
+        "explanation": "中文表达地点修饰时从大范围到小范围再落到核心事物，说“法国南部的一个小村庄”；英文先抛出核心名词a small village，再用in the south of France后置补充位置，是“核心事物+位置补充”的组织方式，和中文语序相反。"
+      }
+    ],
+    "takeaway": "时间从句的整体信息组织和中文接近，主要差异在地点修饰：英文先讲核心事物“小村庄”，再补充其所在的大范围地点，中文则反过来从大地点往小事物说。"
+  },
+  "backbone": {
+    "text": "I had left a small village.",
+    "meaning": "我已经离开了一个小村庄。（这是一个时间分句的主干，描述一件先发生的事）"
+  },
+  "structureNotes": [
+    {
+      "title": "After 引导的时间分句作用",
+      "text": "After 引出一整件已经完成的事，用来标明后面主句动作发生的时间起点，也就是“等这件事做完之后”。"
+    },
+    {
+      "title": "had left 的时间含义",
+      "text": "had left 表示“离开”这个动作发生得比主句的动作更早，是“过去的过去”，用来明确两件事的先后顺序。"
+    },
+    {
+      "title": "in the south of France 的修饰对象",
+      "text": "这个介词短语紧跟在 a small village 后面，是补充说明村庄的位置，不是修饰离开这个动作本身。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "After",
+      "role": "时间从属连词",
+      "explanation": "用来引出后面的时间分句，表示“在……之后”，标志这一整句是主句的时间背景。"
+    },
+    {
+      "text": "had left",
+      "role": "时间分句的谓语",
+      "explanation": "是过去完成时结构，表示“离开”这个动作在主句动作之前就已经完成了。"
+    },
+    {
+      "text": "a small village in the south of France,",
+      "role": "时间分句的宾语（含地点修饰）",
+      "explanation": "核心是 a small village，in the south of France 放在后面补充说明村庄所处的位置。"
+    }
+  ],
+  "words": [
+    {
+      "text": "After",
+      "meaning": "在……之后",
+      "pos": "连词",
+      "phonetic": "/ˈɑːftə/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "had",
+      "meaning": "（过去完成时助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "left",
+      "meaning": "离开",
+      "pos": "动词（过去分词）",
+      "phonetic": "/left/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "small",
+      "meaning": "小的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/"
+    },
+    {
+      "text": "village",
+      "meaning": "村庄",
+      "pos": "名词",
+      "phonetic": "/ˈvɪlɪdʒ/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……（范围）里",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（表特指，无实义）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "south",
+      "meaning": "南部，南边",
+      "pos": "名词",
+      "phonetic": "/saʊθ/"
+    },
+    {
+      "text": "of",
+      "meaning": "（表所属关系，无独立实义）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "France,",
+      "meaning": "法国",
+      "pos": "专有名词",
+      "phonetic": "/ˈfrɑːns/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "After",
+      "relation": "时间关系标记，引出后面的时间背景事件",
+      "meaning": "在……之后"
+    },
+    {
+      "text": "I",
+      "relation": "时间分句里的动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "had left",
+      "relation": "时间分句里的动作，描述已经完成的行为",
+      "meaning": "已经离开"
+    },
+    {
+      "text": "a small village",
+      "relation": "离开的对象",
+      "meaning": "一个小村庄"
+    },
+    {
+      "text": "in the south of France,",
+      "relation": "补充说明小村庄的位置",
+      "meaning": "在法国南部（的）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-014",
+  "sentenceId": "nce-2-lesson-014-sentence-002-part-01",
+  "sentenceOrder": 2,
+  "english": "After I had left a small village in the south of France,",
+  "lesson": "Lesson 14 Do you speak English?",
+  "notes": [
+    {
+      "title": "After 引导的时间分句作用",
+      "text": "After 引出一整件已经完成的事，用来标明后面主句动作发生的时间起点，也就是“等这件事做完之后”。"
+    },
+    {
+      "title": "had left 的时间含义",
+      "text": "had left 表示“离开”这个动作发生得比主句的动作更早，是“过去的过去”，用来明确两件事的先后顺序。"
+    },
+    {
+      "title": "in the south of France 的修饰对象",
+      "text": "这个介词短语紧跟在 a small village 后面，是补充说明村庄的位置，不是修饰离开这个动作本身。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅存在两处可修正的细节问题：1. 单词列表中末尾的France, 将逗号纳入词条text，释义和词性仅对应France本身，符合约定，但of的词性标注为介词、释义为“……的”不够严谨，of作为介词本身无独立的“……的”实义，是构成所属关系的功能介词；2. comparison的第一步说明不够准确，未明确该比较是补充中英时间标记语序的异同，且结构说明中未突出为什么这么组织——英文用after先锚定时间先后逻辑，再交代先发生的事件。其余内容如主干、结构、成分划分均符合语法规范，翻译准确。（非逐句人工审核）"
+}

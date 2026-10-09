@@ -1,0 +1,275 @@
+{
+  "chinese": "此刻，它们铺满了每一寸地面，我实际上不得不踩着它们走才能进出房间。",
+  "intent": "描述当前地面被书本铺满的状态，以及由此带来的进出房间的不便。",
+  "comparison": {
+    "chinese": "我进出房间甚至不得不踩着它们走",
+    "english": "I actually have to walk on them to get in or out of the room",
+    "steps": [
+      {
+        "label": "先抓主干动作",
+        "text": "I actually have to walk on them",
+        "explanation": "先理解核心事实：我不得不踩在它们上面走，actually 加强“确实如此、没想到会这样”的语气。"
+      },
+      {
+        "label": "再看动作目的",
+        "text": "to get in or out of the room",
+        "explanation": "to get... 说明踩书走的目的是进出房间，中文会把“进出房间”提前说成“进出房间得踩着走”，英文把目的放后面。"
+      }
+    ],
+    "takeaway": "英文先说主要动作，再用 to do 补充动作的目的；中文常把目的或场景放在前面，动作放后面。"
+  },
+  "backbone": {
+    "text": "they cover floor space and I have to walk on them",
+    "meaning": "它们占满了地面，我不得不踩在它们上面走"
+  },
+  "structureNotes": [
+    {
+      "title": "At the moment 的作用",
+      "text": "At the moment 放在句首，点明整个句子描述的是“此刻、目前”的临时状态，对应上文提到的暂时把书放地上的情况。"
+    },
+    {
+      "title": "and 连接的两个分句",
+      "text": "and 前后是两个并列分句，前一句讲书的状态（铺满地面），后一句讲对“我”造成的实际影响（得踩着走），是因果相关的并列事实。"
+    },
+    {
+      "title": "to get in or out 的含义",
+      "text": "to get in or out of the room 是目的状语，说明 walk on them 的目的是进出房间，不是已经完成的结果。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "At the moment,",
+      "role": "时间状语",
+      "explanation": "说明后面描述的两件事都发生在当前这个时间点。"
+    },
+    {
+      "text": "they cover every inch of floor space",
+      "role": "第一个并列分句",
+      "explanation": "主语是 they（指代前文的书），谓语是 cover，宾语是 every inch of floor space，描述书铺满地面的状态。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个事实分句，隐含前因后果的关联。"
+    },
+    {
+      "text": "I actually have to walk on them",
+      "role": "第二个并列分句的主干",
+      "explanation": "主语是 I，谓语是 have to walk，on them 说明行走的接触面。"
+    },
+    {
+      "text": "to get in or out of the room",
+      "role": "目的状语",
+      "explanation": "说明踩着书走的目的是进出房间。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "在（某时间/地点）",
+      "pos": "介词",
+      "phonetic": "/æt/",
+      "text": "At"
+    },
+    {
+      "meaning": "这，那个（定指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "时刻，片刻",
+      "pos": "名词",
+      "phonetic": "/ˈməʊmənt/",
+      "text": "moment,"
+    },
+    {
+      "meaning": "它们，他们，她们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/",
+      "text": "they"
+    },
+    {
+      "meaning": "覆盖，占满",
+      "pos": "动词",
+      "phonetic": "/ˈkʌvə/",
+      "text": "cover"
+    },
+    {
+      "meaning": "每一，每个",
+      "pos": "限定词",
+      "phonetic": "/ˈevri/",
+      "text": "every"
+    },
+    {
+      "meaning": "英寸；（距离或面积的）一点",
+      "pos": "名词",
+      "phonetic": "/ɪntʃ/",
+      "text": "inch"
+    },
+    {
+      "meaning": "……的（表所属）",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "地板，地面",
+      "pos": "名词",
+      "phonetic": "/flɔː/",
+      "text": "floor"
+    },
+    {
+      "meaning": "空间，地方",
+      "pos": "名词",
+      "phonetic": "/speɪs/",
+      "text": "space"
+    },
+    {
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "实际上，居然",
+      "pos": "副词",
+      "phonetic": "/ˈæktʃuəli/",
+      "text": "actually"
+    },
+    {
+      "meaning": "必须，不得不（与to连用）",
+      "pos": "动词",
+      "phonetic": "/hæv/",
+      "text": "have"
+    },
+    {
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "走，步行",
+      "pos": "动词",
+      "phonetic": "/wɔːk/",
+      "text": "walk"
+    },
+    {
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "它们，他们，她们（宾格）",
+      "pos": "代词",
+      "phonetic": "/ðem/",
+      "text": "them"
+    },
+    {
+      "meaning": "（不定式符号，表目的）为了",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "进入，到达",
+      "pos": "动词",
+      "phonetic": "/ɡet/",
+      "text": "get"
+    },
+    {
+      "meaning": "进入，在里面",
+      "pos": "副词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "或者",
+      "pos": "连词",
+      "phonetic": "/ɔː/",
+      "text": "or"
+    },
+    {
+      "meaning": "出去，在外",
+      "pos": "副词",
+      "phonetic": "/aʊt/",
+      "text": "out"
+    },
+    {
+      "meaning": "从……出来，离开",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "这，那个（定指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "房间",
+      "pos": "名词",
+      "phonetic": "/ruːm/",
+      "text": "room."
+    }
+  ],
+  "parts": [
+    {
+      "text": "At the moment,",
+      "meaning": "此刻，目前",
+      "relation": "时间"
+    },
+    {
+      "text": "they cover every inch of floor space",
+      "meaning": "它们铺满了每一寸地面",
+      "relation": "第一个并列事实"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "relation": "连接两个并列分句"
+    },
+    {
+      "text": "I actually have to walk on them",
+      "meaning": "我实际上不得不踩在它们上面走",
+      "relation": "第二个并列事实（主干）"
+    },
+    {
+      "text": "to get in or out of the room.",
+      "meaning": "以便进出房间",
+      "relation": "目的"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-052",
+  "sentenceId": "nce-2-lesson-052-sentence-005",
+  "sentenceOrder": 5,
+  "english": "At the moment, they cover every inch of floor space and I actually have to walk on them to get in or out of the room.",
+  "lesson": "Lesson 52 A pretty carpet",
+  "notes": [
+    {
+      "title": "At the moment 的作用",
+      "text": "At the moment 放在句首，点明整个句子描述的是“此刻、目前”的临时状态，对应上文提到的暂时把书放地上的情况。"
+    },
+    {
+      "title": "and 连接的两个分句",
+      "text": "and 前后是两个并列分句，前一句讲书的状态（铺满地面），后一句讲对“我”造成的实际影响（得踩着走），是因果相关的并列事实。"
+    },
+    {
+      "title": "to get in or out 的含义",
+      "text": "to get in or out of the room 是目的状语，说明 walk on them 的目的是进出房间，不是已经完成的结果。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：译文、结构分析、单词释义与分块基本准确，仅目的状语分块的释义表述稍生硬，需微调使中文更自然。（非逐句人工审核）"
+}

@@ -1,0 +1,226 @@
+{
+  "chinese": "飞机抵达时，一些侦探在主楼内等待，另一些人在机场等候。",
+  "intent": "描述飞机抵达的那一刻，两拨侦探分别在不同地点同时守候的场景。",
+  "comparison": null,
+  "backbone": {
+    "text": "some of the detectives were waiting inside the main building while others were waiting on the airfield.",
+    "meaning": "一些侦探在主楼里等候，与此同时另一些在机场上等候。"
+  },
+  "structureNotes": [
+    {
+      "title": "When引导的时间从句",
+      "text": "When the plane arrived 点明主句两件事同时发生的时间点，意思是“就在飞机抵达的那个时刻”，主句用过去进行时体现当时正在进行的动作。"
+    },
+    {
+      "title": "while的并列对比作用",
+      "text": "while 在这里连接两个过去进行时的分句，不是“虽然”，而是表示“与此同时”，对比同一时间里两组人不同的等候地点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When the plane arrived,",
+      "role": "时间状语从句",
+      "explanation": "交代后面两拨人等候动作发生的时间背景，when 是引导词，从句用一般过去时表示先发生或同步发生的时点。"
+    },
+    {
+      "text": "some of the detectives were waiting inside the main building",
+      "role": "主句前半部分",
+      "explanation": "说明其中一部分侦探当时正在进行的动作和所在位置，some of the detectives 是主语，were waiting 是过去进行时谓语，inside the main building 是地点。"
+    },
+    {
+      "text": "while others were waiting on the airfield.",
+      "role": "并列对比分句",
+      "explanation": "while 作并列连词，引出另一组人的同时动作，others 指代其他侦探，on the airfield 是这组人的等候地点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "When",
+      "meaning": "当……时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定指）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "plane",
+      "meaning": "飞机",
+      "pos": "名词",
+      "phonetic": "/pleɪn/"
+    },
+    {
+      "text": "arrived,",
+      "meaning": "到达（过去式）",
+      "pos": "动词",
+      "phonetic": "/əˈraɪvd/"
+    },
+    {
+      "text": "some",
+      "meaning": "一些",
+      "pos": "代词",
+      "phonetic": "/sʌm/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表部分）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定指）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "detectives",
+      "meaning": "侦探（复数）",
+      "pos": "名词",
+      "phonetic": "/dɪˈtektɪvz/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（be动词过去式复数，助动词用）",
+      "pos": "动词",
+      "phonetic": "/wɜː/"
+    },
+    {
+      "text": "waiting",
+      "meaning": "等候，等待（现在分词）",
+      "pos": "动词",
+      "phonetic": "/ˈweɪtɪŋ/"
+    },
+    {
+      "text": "inside",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ˌɪnˈsaɪd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定指）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "main",
+      "meaning": "主要的",
+      "pos": "形容词",
+      "phonetic": "/meɪn/"
+    },
+    {
+      "text": "building",
+      "meaning": "建筑物，大楼",
+      "pos": "名词",
+      "phonetic": "/ˈbɪldɪŋ/"
+    },
+    {
+      "text": "while",
+      "meaning": "而，与此同时",
+      "pos": "连词",
+      "phonetic": "/waɪl/"
+    },
+    {
+      "text": "others",
+      "meaning": "其他人/物",
+      "pos": "代词",
+      "phonetic": "/ˈʌðəz/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（be动词过去式复数，助动词用）",
+      "pos": "动词",
+      "phonetic": "/wɜː/"
+    },
+    {
+      "text": "waiting",
+      "meaning": "等候，等待（现在分词）",
+      "pos": "动词",
+      "phonetic": "/ˈweɪtɪŋ/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定指）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "airfield.",
+      "meaning": "机场",
+      "pos": "名词",
+      "phonetic": "/ˈeəfiːld/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "When the plane arrived,",
+      "relation": "时间",
+      "meaning": "当飞机抵达时"
+    },
+    {
+      "text": "some of the detectives",
+      "relation": "描述谁（前一组）",
+      "meaning": "一些侦探"
+    },
+    {
+      "text": "were waiting",
+      "relation": "前一组的动作",
+      "meaning": "正在等候"
+    },
+    {
+      "text": "inside the main building",
+      "relation": "前一组的等候地点",
+      "meaning": "在主楼里面"
+    },
+    {
+      "text": "while",
+      "relation": "对比连接",
+      "meaning": "而/与此同时"
+    },
+    {
+      "text": "others",
+      "relation": "描述谁（后一组）",
+      "meaning": "另一些（侦探）"
+    },
+    {
+      "text": "were waiting",
+      "relation": "后一组的动作",
+      "meaning": "正在等候"
+    },
+    {
+      "text": "on the airfield.",
+      "relation": "后一组的等候地点",
+      "meaning": "在机场上"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-007",
+  "sentenceId": "nce-2-lesson-007-sentence-004",
+  "sentenceOrder": 5,
+  "english": "When the plane arrived, some of the detectives were waiting inside the main building while others were waiting on the airfield.",
+  "lesson": "Lesson 7 Too late",
+  "notes": [
+    {
+      "title": "When引导的时间从句",
+      "text": "When the plane arrived 点明主句两件事同时发生的时间点，意思是“就在飞机抵达的那个时刻”，主句用过去进行时体现当时正在进行的动作。"
+    },
+    {
+      "title": "while的并列对比作用",
+      "text": "while 在这里连接两个过去进行时的分句，不是“虽然”，而是表示“与此同时”，对比同一时间里两组人不同的等候地点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅存在两处可修正问题：1. 部分带标点的单词释义多余添加了「带逗号/带句号」的说明，不符合音标和释义仅解释词本身的要求；2. inside 在此处为介词，释义和词性正确无需改动，其余内容均符合规范。（非逐句人工审核）"
+}

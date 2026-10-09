@@ -1,0 +1,127 @@
+{
+  "chinese": "他从未向我借过钱。",
+  "intent": "陈述过去到现在为止，他都没有向我借过钱的经历。",
+  "comparison": null,
+  "backbone": {
+    "text": "He has never borrowed money from me.",
+    "meaning": "他从未向我借过钱。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时与never连用",
+      "text": "has never borrowed 用现在完成时搭配never，强调从过去到说话时为止，一次借钱的经历都没有。"
+    },
+    {
+      "title": "borrow与from的搭配",
+      "text": "borrowed money from me 表示“从我这里借钱”，borrow是“借入”，引出借钱的来源（即借出方）要用介词from。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文提到的男性，也就是Tony，是“借钱”这个动作的发出者。"
+    },
+    {
+      "text": "has never borrowed",
+      "role": "谓语",
+      "explanation": "现在完成时的否定形式，never放在助动词has和过去分词borrowed之间，强调到现在为止从未有过向我借钱的行为。"
+    },
+    {
+      "text": "money",
+      "role": "宾语",
+      "explanation": "是borrowed的对象，指借入的东西是钱。"
+    },
+    {
+      "text": "from me",
+      "role": "状语",
+      "explanation": "用介词from引出借钱的来源，说明钱是从“我”这里借入的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "has",
+      "meaning": "（助动词，构成现在完成时，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "never",
+      "meaning": "从未，从不",
+      "pos": "副词",
+      "phonetic": "/ˈnevə(r)/"
+    },
+    {
+      "text": "borrowed",
+      "meaning": "借（入），是borrow的过去分词",
+      "pos": "动词",
+      "phonetic": "/ˈbɒrəʊd/"
+    },
+    {
+      "text": "money",
+      "meaning": "钱",
+      "pos": "名词",
+      "phonetic": "/ˈmʌni/"
+    },
+    {
+      "text": "from",
+      "meaning": "从（某处/某人处）",
+      "pos": "介词",
+      "phonetic": "/frɒm/"
+    },
+    {
+      "text": "me.",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "动作发出者",
+      "meaning": "他"
+    },
+    {
+      "text": "has never borrowed",
+      "relation": "描述主语的动作",
+      "meaning": "从未借过"
+    },
+    {
+      "text": "money",
+      "relation": "借的对象",
+      "meaning": "钱"
+    },
+    {
+      "text": "from me.",
+      "relation": "借钱的来源",
+      "meaning": "从我（这里）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-011",
+  "sentenceId": "nce-2-lesson-011-sentence-005",
+  "sentenceOrder": 5,
+  "english": "He has never borrowed money from me.",
+  "lesson": "Lesson 11 One good turn deserves another",
+  "notes": [
+    {
+      "title": "现在完成时与never连用",
+      "text": "has never borrowed 用现在完成时搭配never，强调从过去到说话时为止，一次借钱的经历都没有。"
+    },
+    {
+      "title": "borrow与from的搭配",
+      "text": "borrowed money from me 表示“从我这里借钱”，borrow是“借入”，引出借钱的来源（即借出方）要用介词from。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅存在两处细节问题需修正：1. 单词列表中最后一项\"me.\"的音标标注错误，不应遗漏末尾的句点相关约定（原约定标点随词项但音标仅标注词本身，原数据音标正确但需确认释义无误，实际检查发现单词\"borrowed\"的英式音标正确，\"never\"音标正确，主要问题是structureNotes中第二条表述存在歧义，\"引出借钱的对象\"表述不准确，borrow from后接的是借出方即来源，而非borrow的对象；2. 结构说明第二条的表述易混淆动作对象与来源。其余翻译、主干、成分划分均正确。（非逐句人工审核）"
+}

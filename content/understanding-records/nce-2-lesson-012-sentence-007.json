@@ -1,0 +1,89 @@
+{
+  "chinese": "我们将为他送行。",
+  "intent": "说话人表示将来会去给要出发的人送行。",
+  "comparison": null,
+  "backbone": {
+    "text": "We'll see him off.",
+    "meaning": "我们会为他送行。"
+  },
+  "structureNotes": [
+    {
+      "title": "see sb off 的含义",
+      "text": "see sb off 是固定短语，意思是“为某人送行”，指到出发的地点跟即将离开的人告别。off 在这里表示“离开、出发”的方向，和see组合后整体表达送行的动作，不是字面的“看见某人离开”。"
+    },
+    {
+      "title": "We'll 的时态含义",
+      "text": "We'll 是 We will 的缩写，用来表示将来要做的事，说明送行这件事还没发生，是计划好的将来动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We'll",
+      "role": "主语 + 助动词（表将来）",
+      "explanation": "We 是人称代词主格，作句子主语，是动作的发出者“我们”；'ll 是 will 的缩写，作助动词，和后面的实义动词一起构成一般将来时，表示将来会做的事。"
+    },
+    {
+      "text": "see him off",
+      "role": "谓语（短语动词+宾语）",
+      "explanation": "这是一个短语动词作谓语的结构，him 是人称代词宾格，作see off的宾语，指被送行的人；“see+宾语+off”整体表达“为某人送行”的意思。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We'll",
+      "meaning": "我们将要（we will 的缩写）",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/wiːl/"
+    },
+    {
+      "text": "see",
+      "meaning": "送行（与off构成短语see off）",
+      "pos": "动词",
+      "phonetic": "/siː/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格，指被送行的人）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "off.",
+      "meaning": "（与see构成短语，表示送行、离开）",
+      "pos": "副词",
+      "phonetic": "/ɒf/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We'll",
+      "meaning": "我们将要",
+      "relation": "句子的主语+将来时助动词，说明动作发出者和动作的时间属性"
+    },
+    {
+      "text": "see him off.",
+      "meaning": "给他送行",
+      "relation": "句子的谓语部分，说明主语要做的具体动作"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-012",
+  "sentenceId": "nce-2-lesson-012-sentence-007",
+  "sentenceOrder": 7,
+  "english": "We'll see him off.",
+  "lesson": "Lesson 12 Goodbye and good luck",
+  "notes": [
+    {
+      "title": "see sb off 的含义",
+      "text": "see sb off 是固定短语，意思是“为某人送行”，指到出发的地点跟即将离开的人告别。off 在这里表示“离开、出发”的方向，和see组合后整体表达送行的动作，不是字面的“看见某人离开”。"
+    },
+    {
+      "title": "We'll 的时态含义",
+      "text": "We'll 是 We will 的缩写，用来表示将来要做的事，说明送行这件事还没发生，是计划好的将来动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，存在几处可修正的细节问题：1.主干释义表述不够通顺自然；2.off词的释义末尾多了不必要的句号；3.structures中We'll的角色将语法角色与时态标记混放，表述可更规范；4.parts的第一块关系表述不够严谨，未明确主语属性。（非逐句人工审核）"
+}

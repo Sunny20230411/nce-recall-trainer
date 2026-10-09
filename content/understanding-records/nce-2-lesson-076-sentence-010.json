@@ -1,0 +1,83 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-076",
+  "sentenceId": "nce-2-lesson-076-sentence-010",
+  "sentenceOrder": 10,
+  "english": "'Thank you, Tom,' said Alan.",
+  "chinese": "“谢谢你，汤姆，”艾伦说。",
+  "lesson": "Lesson 76 April Fools' Day",
+  "intent": "让现场记者回应主持人的交接",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "'Thank you, Tom,'",
+      "relation": "回应",
+      "meaning": "谢谢你，汤姆"
+    },
+    {
+      "text": "said Alan.",
+      "relation": "引述",
+      "meaning": "艾伦说"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "称呼",
+      "text": "Tom 是被感谢者的呼语，不是 thank 的第二个宾语。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "称呼",
+      "text": "Tom 是被感谢者的呼语，不是 thank 的第二个宾语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'Thank you, Tom,'",
+      "role": "引语",
+      "explanation": "表达礼貌回应。"
+    },
+    {
+      "text": "said Alan.",
+      "role": "引述分句",
+      "explanation": "标明回应者。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'Thank",
+      "meaning": "感谢",
+      "pos": "动词",
+      "phonetic": "/θæŋk/"
+    },
+    {
+      "text": "you,",
+      "meaning": "你",
+      "pos": "人称代词",
+      "phonetic": "/juː/ 或 /jʊ/"
+    },
+    {
+      "text": "Tom,'",
+      "meaning": "汤姆",
+      "pos": "专有名词",
+      "phonetic": "/tɒm/"
+    },
+    {
+      "text": "said",
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "Alan.",
+      "meaning": "艾伦",
+      "pos": "专有名词",
+      "phonetic": "/ˈælən/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

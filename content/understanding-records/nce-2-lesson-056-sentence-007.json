@@ -1,0 +1,144 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-056",
+  "sentenceId": "nce-2-lesson-056-sentence-007",
+  "sentenceOrder": 7,
+  "english": "The most unusual car was a 1904 Mercedes which had only three wheels.",
+  "chinese": "最不寻常的是一辆1904年的奔驰车，它只有三个轮子。",
+  "lesson": "Lesson 56 Faster than sound!",
+  "intent": "用车轮数量说明一辆老车的特别之处",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "The most unusual car was a 1904 Mercedes",
+      "relation": "车型识别",
+      "meaning": "最不寻常的是一辆1904年的奔驰车"
+    },
+    {
+      "text": "which had only three wheels.",
+      "relation": "特别之处",
+      "meaning": "它只有三个轮子"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "关系代词指代",
+      "text": "which 指 a 1904 Mercedes，在定语从句中作主语。"
+    },
+    {
+      "title": "数量限定",
+      "text": "only 限定 three wheels，强调仅有三个。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "关系代词指代",
+      "text": "which 指 a 1904 Mercedes，在定语从句中作主语。"
+    },
+    {
+      "title": "数量限定",
+      "text": "only 限定 three wheels，强调仅有三个。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The most unusual car",
+      "role": "主语",
+      "explanation": "最高级限定最不寻常的车辆。"
+    },
+    {
+      "text": "was a 1904 Mercedes",
+      "role": "系表结构",
+      "explanation": "交代车辆的年份和品牌。"
+    },
+    {
+      "text": "which had only three wheels.",
+      "role": "定语从句",
+      "explanation": "说明该车的特殊构造。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "限定最高级对象",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "most",
+      "meaning": "最",
+      "pos": "程度副词",
+      "phonetic": "/məʊst/"
+    },
+    {
+      "text": "unusual",
+      "meaning": "不寻常的",
+      "pos": "形容词",
+      "phonetic": "/ʌnˈjuːʒuəl/"
+    },
+    {
+      "text": "car",
+      "meaning": "汽车",
+      "pos": "名词",
+      "phonetic": "/kɑː/"
+    },
+    {
+      "text": "was",
+      "meaning": "是",
+      "pos": "系动词过去式",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一辆",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "1904",
+      "meaning": "1904年的",
+      "pos": "数词作定语",
+      "phonetic": "/ˌnaɪnˈtiːn əʊ əʊ fɔː/ 或 /ˌnaɪnˈtiːn ˈəʊ əʊ ˈfɔː/"
+    },
+    {
+      "text": "Mercedes",
+      "meaning": "奔驰车",
+      "pos": "专有名词",
+      "phonetic": "/ˈmɜːsɪdiːz/"
+    },
+    {
+      "text": "which",
+      "meaning": "指这辆奔驰车",
+      "pos": "关系代词",
+      "phonetic": "/wɪtʃ/"
+    },
+    {
+      "text": "had",
+      "meaning": "有",
+      "pos": "及物动词过去式",
+      "phonetic": "/hæd/ 或 /əd/"
+    },
+    {
+      "text": "only",
+      "meaning": "仅仅",
+      "pos": "副词",
+      "phonetic": "/ˈəʊnli/"
+    },
+    {
+      "text": "three",
+      "meaning": "三",
+      "pos": "数词",
+      "phonetic": "/θriː/"
+    },
+    {
+      "text": "wheels.",
+      "meaning": "轮子",
+      "pos": "名词复数",
+      "phonetic": "/wiːlz/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

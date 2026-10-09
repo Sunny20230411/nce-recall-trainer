@@ -1,0 +1,71 @@
+{
+  "chinese": "不久前，",
+  "intent": "交代后续事件发生的时间，为句子主干提供时间背景。",
+  "comparison": null,
+  "backbone": {
+    "text": "A short while ago,",
+    "meaning": "（这是一个时间状语片段，本身没有句子主干，作用是说明后面事情发生在不久之前。）"
+  },
+  "structureNotes": [
+    {
+      "title": "片段的功能定位",
+      "text": "这不是完整句子，只是一个时间状语短语，用来引出后面主句的事件时间，读的时候知道它在说“什么时候”即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A short while ago,",
+      "role": "时间状语短语",
+      "explanation": "整体用来表示“不久前”这个时间点，修饰后面将要出现的主句动作，说明动作发生的时间。"
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "meaning": "一（个），用于辅音开头的单数可数名词前",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "short",
+      "meaning": "短的，短暂的",
+      "pos": "形容词",
+      "phonetic": "/ʃɔːt/"
+    },
+    {
+      "text": "while",
+      "meaning": "一段时间，一会儿",
+      "pos": "名词",
+      "phonetic": "/waɪl/"
+    },
+    {
+      "text": "ago,",
+      "meaning": "以前，之前",
+      "pos": "副词",
+      "phonetic": "/əˈɡəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "A short while ago,",
+      "relation": "时间（说明后续事件发生的时间）",
+      "meaning": "不久前，"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-052",
+  "sentenceId": "nce-2-lesson-052-sentence-006-part-01",
+  "sentenceOrder": 6,
+  "english": "A short while ago,",
+  "lesson": "Lesson 52 A pretty carpet",
+  "notes": [
+    {
+      "title": "片段的功能定位",
+      "text": "这不是完整句子，只是一个时间状语短语，用来引出后面主句的事件时间，读的时候知道它在说“什么时候”即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：单词ago的释义错误附带了逗号说明，且while词性标注不精准，其余内容符合片段解析要求。（非逐句人工审核）"
+}

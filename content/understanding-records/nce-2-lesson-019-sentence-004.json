@@ -1,0 +1,113 @@
+{
+  "chinese": "“请问能给我两张票吗？”我问道。",
+  "intent": "记录说话人向售票处提出购票请求的直接引语，以及引出这句话的动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "I asked, ‘May I have two tickets?’",
+    "meaning": "我问道：“能给我两张票吗？”"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的位置",
+      "text": "引语放在前面，后面用I asked交代是谁说的，引语里的please是礼貌请求的常用表达，不影响核心句意。"
+    },
+    {
+      "title": "May I…请求句式",
+      "text": "May I 用于礼貌地请求许可或索要某物，意思是“我可以……吗”，have在这里表示“拿到、买到”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘May I have two tickets please?’",
+      "role": "直接引语",
+      "explanation": "这是asked的具体内容，在句中充当宾语，是说话人当面提出的购票请求，用疑问句形式表达礼貌。"
+    },
+    {
+      "text": "I asked.",
+      "role": "主句",
+      "explanation": "交代说话的人是“我”，动作是“问、说道”，引出前面的直接引语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘May",
+      "meaning": "可以",
+      "pos": "情态动词",
+      "phonetic": "/meɪ/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "have",
+      "meaning": "得到，买到",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "two",
+      "meaning": "两张",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "tickets",
+      "meaning": "票",
+      "pos": "名词",
+      "phonetic": "/ˈtɪkɪts/"
+    },
+    {
+      "text": "please?’",
+      "meaning": "请（礼貌用语）",
+      "pos": "感叹词",
+      "phonetic": "/pliːz/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "asked.",
+      "meaning": "问，说道",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘May I have two tickets please?’",
+      "relation": "询问的具体内容",
+      "meaning": "“请问能给我两张票吗？”"
+    },
+    {
+      "text": "I asked.",
+      "relation": "谁做了什么动作",
+      "meaning": "我问道"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-019",
+  "sentenceId": "nce-2-lesson-019-sentence-004",
+  "sentenceOrder": 4,
+  "english": "‘May I have two tickets please?’ I asked.",
+  "lesson": "Lesson 19 Sold out",
+  "notes": [
+    {
+      "title": "直接引语的位置",
+      "text": "引语放在前面，后面用I asked交代是谁说的，引语里的please是礼貌请求的常用表达，不影响核心句意。"
+    },
+    {
+      "title": "May I…请求句式",
+      "text": "May I 用于礼貌地请求许可或索要某物，意思是“我可以……吗”，have在这里表示“拿到、买到”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：词语释义中引语开头和结尾的多余说明可简化，且直接引语的语法角色表述需更规范，其余内容准确。（非逐句人工审核）"
+}

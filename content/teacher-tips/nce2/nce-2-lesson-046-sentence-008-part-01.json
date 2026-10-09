@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-046",
+  "sentenceId": "nce-2-lesson-046-sentence-008-part-01",
+  "english": "He had had a long and uncomfortable trip,",
+  "text": "这里用 He had had a trip 而不是 He had a trip，是因为叙述站在“他被捕后承认”这个过去时点，回看在那之前已经结束的旅程。讲过去某件事之前发生的另一件事，先找准回看的参照点，再选一般过去时还是过去完成时。",
+  "sourceDigest": "e1380183949bc4a6cf3c0edffa8d49f21ade01f8b01b32adcd24fa770b1fd3b1",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：选点准确，把过去完成时的核心讲成“找过去参照点再回看”，比死记“过去的过去”更具体可操作，没有冗余拆解。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "明确了参照时点是承认而非旅程本身，时态判断准确，迁移具体。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

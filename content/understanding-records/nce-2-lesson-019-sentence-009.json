@@ -1,0 +1,86 @@
+{
+  "chinese": "「当然可以，」女孩说。",
+  "intent": "转述女孩对退票请求的肯定答复，说明她同意了对方的退票要求。",
+  "comparison": null,
+  "backbone": {
+    "text": "‘Certainly,’ the girl said.",
+    "meaning": "女孩说了「当然可以」这句话。"
+  },
+  "structureNotes": [
+    {
+      "title": "引语在前的对话写法",
+      "text": "本句把说话内容‘Certainly,’放在句首，后面再交代说话人the girl said，是对话叙述的常见语序，作用是先呈现直接答复，再说明是谁说的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘Certainly,’",
+      "role": "直接引语（说话内容）",
+      "explanation": "用引号标出女孩实际说出的原话，是句子的核心信息，也就是said的具体内容。"
+    },
+    {
+      "text": "the girl said.",
+      "role": "主句（说话人+动作）",
+      "explanation": "交代说话的人是女孩，动作是“说”；因为引语已经放在前面，这里主语the girl在动词said之前，是正常陈述语序。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "「当然，」",
+      "pos": "感叹词",
+      "phonetic": "/ˈsɜːtnli/",
+      "text": "‘Certainly,’"
+    },
+    {
+      "meaning": "这个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "女孩",
+      "pos": "名词",
+      "phonetic": "/ɡɜːl/",
+      "text": "girl"
+    },
+    {
+      "meaning": "说。",
+      "pos": "动词（过去式）",
+      "phonetic": "/sed/",
+      "text": "said."
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘Certainly,’",
+      "relation": "所说的具体内容",
+      "meaning": "「当然可以，」"
+    },
+    {
+      "text": "the girl",
+      "relation": "动作“说”的发出者",
+      "meaning": "女孩"
+    },
+    {
+      "text": "said.",
+      "relation": "描述女孩的动作",
+      "meaning": "说"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-019",
+  "sentenceId": "nce-2-lesson-019-sentence-009",
+  "sentenceOrder": 9,
+  "english": "‘Certainly,’ the girl said.",
+  "lesson": "Lesson 19 Sold out",
+  "notes": [
+    {
+      "title": "引语在前的对话写法",
+      "text": "本句把说话内容‘Certainly,’放在句首，后面再交代说话人the girl said，是对话叙述的常见语序，作用是先呈现直接答复，再说明是谁说的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：翻译准确，结构分析清晰，仅需将backbone的文本调整为与原文标点完全一致，并补全主干说明的引号对应。（非逐句人工审核）"
+}

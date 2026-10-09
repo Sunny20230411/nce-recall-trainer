@@ -1,0 +1,130 @@
+{
+  "chinese": "就在我找它的时候，房东走了进来。",
+  "intent": "叙述过去两个同时发生的动作：“我正在找东西”的过程中，“房东进来”这件事发生了。",
+  "comparison": null,
+  "backbone": {
+    "text": "the landlord came in",
+    "meaning": "房东走了进来。"
+  },
+  "structureNotes": [
+    {
+      "title": "As引导的时间从句",
+      "text": "As I was looking for it 用来说明主句动作发生的背景时间，意思是“就在我做某事的时候”，从句里常用过去进行时表示当时正在持续的动作。"
+    },
+    {
+      "title": "过去进行时的作用",
+      "text": "was looking for 表示过去某个时刻正在进行的动作，它不是句子的核心事件，只是给“房东进来”提供时间背景。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "As I was looking for it,",
+      "role": "时间状语从句",
+      "explanation": "交代主句动作发生的时间背景，as 表示“当……的时候、正值……之际”，从句动作在过去正在持续进行。"
+    },
+    {
+      "text": "the landlord came in.",
+      "role": "主句",
+      "explanation": "是全句的核心事件，说明在找东西的这段时间里发生了什么事。"
+    }
+  ],
+  "words": [
+    {
+      "text": "As",
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/æz/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，辅助构成过去进行时）",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "looking",
+      "meaning": "看（现在分词形式；look for 为固定搭配表“寻找”）",
+      "pos": "动词",
+      "phonetic": "/ˈlʊkɪŋ/"
+    },
+    {
+      "text": "for",
+      "meaning": "（与look构成固定搭配look for，表“寻找”）",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "it,",
+      "meaning": "它（指代前文提到的物品）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，特指已知的房东）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "landlord",
+      "meaning": "房东，店主",
+      "pos": "名词",
+      "phonetic": "/ˈlændlɔːd/"
+    },
+    {
+      "text": "came",
+      "meaning": "来（过去式；come in 为固定搭配表“进来”）",
+      "pos": "动词",
+      "phonetic": "/keɪm/"
+    },
+    {
+      "text": "in.",
+      "meaning": "进入",
+      "pos": "副词",
+      "phonetic": "/ɪn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "As I was looking for it,",
+      "relation": "时间（说明主句发生的背景时间）",
+      "meaning": "当我正在找它的时候"
+    },
+    {
+      "text": "the landlord",
+      "relation": "动作发出者（谁进来了）",
+      "meaning": "房东"
+    },
+    {
+      "text": "came in.",
+      "relation": "核心动作（发生了什么事）",
+      "meaning": "走了进来"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-018",
+  "sentenceId": "nce-2-lesson-018-sentence-003",
+  "sentenceOrder": 3,
+  "english": "As I was looking for it, the landlord came in.",
+  "lesson": "Lesson 18 He often does this!",
+  "notes": [
+    {
+      "title": "As引导的时间从句",
+      "text": "As I was looking for it 用来说明主句动作发生的背景时间，意思是“就在我做某事的时候”，从句里常用过去进行时表示当时正在持续的动作。"
+    },
+    {
+      "title": "过去进行时的作用",
+      "text": "was looking for 表示过去某个时刻正在进行的动作，它不是句子的核心事件，只是给“房东进来”提供时间背景。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅个别词项释义与词性表述可优化。（非逐句人工审核）"
+}

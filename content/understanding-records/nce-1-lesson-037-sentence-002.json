@@ -99,5 +99,10 @@
   "analysisSource": "ai",
   "analysisStatus": "approved",
   "ruleVersion": "understanding-zh-adult-1.1.0",
-  "reviewNote": "模型独立复核后通过：原始内容整体符合解析要求，存在部分细节可规范修正，不影响核心语义理解（非逐句人工审核）"
+  "reviewNote": "模型独立复核后通过：原始内容整体符合解析要求，存在部分细节可规范修正，不影响核心语义理解（非逐句人工审核）",
+  "teacherTip": {
+    "text": "回应对方“打算做什么”的问题时，直接在be going to后面接具体动作和对象，先抛动作paint，再补对象this bookcase，重点先落在对方关心的“做什么”上。",
+    "ruleVersion": "intent-driven-expression-1.0.2",
+    "reviewNote": "独立模型复核：符合要求，针对答句的信息组织思路提炼，对应问句的核心需求，不是单纯拆句。（非逐句人工审核）"
+  }
 }

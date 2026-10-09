@@ -1,0 +1,147 @@
+{
+  "chinese": "我读了几行，但一个字也看不懂。",
+  "intent": "说明自己读了某本书的几行内容，却完全没读懂。",
+  "comparison": null,
+  "backbone": {
+    "text": "I read a few lines, but I did not understand a word.",
+    "meaning": "我读了几行，可我一个字都没懂。"
+  },
+  "structureNotes": [
+    {
+      "title": "but连接的转折关系",
+      "text": "but前后是两个完整的分句，先说“读了几行”这个动作，再转折说出“一个字都没懂”的结果，语义上形成对照。"
+    },
+    {
+      "title": "一般过去时的否定形式",
+      "text": "过去时的否定用 did not + 动词原形 understand，read 本身是过去式（拼写同原形，读音不同）。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I read a few lines,",
+      "role": "转折前的分句",
+      "explanation": "陈述已经发生的动作：我读了几行。"
+    },
+    {
+      "text": "but",
+      "role": "并列连词",
+      "explanation": "连接前后两个分句，引出转折的内容。"
+    },
+    {
+      "text": "I did not understand a word.",
+      "role": "转折后的分句",
+      "explanation": "说明与前半句相对的结果：我一个字都没懂。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "read",
+      "meaning": "读（过去式）",
+      "pos": "动词",
+      "phonetic": "/red/"
+    },
+    {
+      "text": "a",
+      "meaning": "一",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "few",
+      "meaning": "几个，少数的",
+      "pos": "形容词",
+      "phonetic": "/fjuː/"
+    },
+    {
+      "text": "lines,",
+      "meaning": "行（文字的行，复数）",
+      "pos": "名词",
+      "phonetic": "/laɪnz/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是，可是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "did",
+      "meaning": "（助动词，do的过去式，构成否定）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "understand",
+      "meaning": "理解，明白",
+      "pos": "动词",
+      "phonetic": "/ˌʌndəˈstænd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "word.",
+      "meaning": "单词，字",
+      "pos": "名词",
+      "phonetic": "/wɜːd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I read a few lines,",
+      "relation": "转折前的事实",
+      "meaning": "我读了几行"
+    },
+    {
+      "text": "but",
+      "relation": "转折连接",
+      "meaning": "但是"
+    },
+    {
+      "text": "I did not understand a word.",
+      "relation": "转折后的结果",
+      "meaning": "我一个字都没懂"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-003",
+  "sentenceId": "nce-2-lesson-003-sentence-006",
+  "sentenceOrder": 6,
+  "english": "I read a few lines, but I did not understand a word.",
+  "lesson": "Lesson 3 Please send me a card",
+  "notes": [
+    {
+      "title": "but连接的转折关系",
+      "text": "but前后是两个完整的分句，先说“读了几行”这个动作，再转折说出“一个字都没懂”的结果，语义上形成对照。"
+    },
+    {
+      "title": "一般过去时的否定形式",
+      "text": "过去时的否定用 did not + 动词原形 understand，read 本身是过去式（拼写同原形，读音不同）。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，仅存在几处细节问题需修正：1. words中lines,、word.的释义未剥离尾随标点，且lines的词性标注有误；2. 部分结构说明中‘完全没懂’表述过强，原文not understand a word字面是一个字都不懂，应准确对应。（非逐句人工审核）"
+}

@@ -49,5 +49,10 @@
   "analysisSource": "ai",
   "analysisStatus": "approved",
   "ruleVersion": "understanding-zh-adult-1.1.0",
-  "reviewNote": "模型独立复核后通过：整体解析框架合规，仅存在局部细节瑕疵可修正（非逐句人工审核）"
+  "reviewNote": "模型独立复核后通过：整体解析框架合规，仅存在局部细节瑕疵可修正（非逐句人工审核）",
+  "teacherTip": {
+    "text": "只说一个Pink!是把对方最关心的颜色信息单独拎出来，带着意外的语气，上下文已经补足了“书架刷粉色”的完整意思，不用补全句子。",
+    "ruleVersion": "intent-driven-expression-1.0.2",
+    "reviewNote": "独立模型复核：符合要求，点明省略短句的交际功能和语境基础，没有错误概括。（非逐句人工审核）"
+  }
 }

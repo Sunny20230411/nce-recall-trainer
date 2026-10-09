@@ -1,0 +1,156 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-011",
+  "sentenceOrder": 14,
+  "english": "‘Oh dear,’ said the conductor suddenly, ‘I forgot to put you off.’",
+  "chinese": "“哎呀，”售票员突然说，“我忘了叫你下车了。”",
+  "lesson": "Lesson 50 Taken for a ride",
+  "intent": "售票员突然意识到自己忘了让乘客在目的地下车，懊恼地说明失误。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "‘Oh dear,’",
+      "relation": "表达懊恼",
+      "meaning": "哎呀"
+    },
+    {
+      "text": "said the conductor suddenly,",
+      "relation": "交代说话的人和方式",
+      "meaning": "售票员突然说"
+    },
+    {
+      "text": "‘I forgot to put you off.’",
+      "relation": "说明忘记做的事",
+      "meaning": "我忘了叫你下车了"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "忘了做，而不是忘了做过",
+      "text": "forgot to put you off 表示该做的下车提醒没有做；forget doing 通常是忘记做过某事，这里不能换成同一个意思。"
+    },
+    {
+      "title": "乘车语境决定短语意思",
+      "text": "put you off 在这里指让你下车，不能按其他语境译成推迟或使你反感。you 是代词，放在 put 和 off 之间。"
+    },
+    {
+      "title": "插入说话说明",
+      "text": "said the conductor suddenly 插在两段引语之间。这里用 said 后接说话者，是叙事中引述话语的一种写法。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "忘了做，而不是忘了做过",
+      "text": "forgot to put you off 表示该做的下车提醒没有做；forget doing 通常是忘记做过某事，这里不能换成同一个意思。"
+    },
+    {
+      "title": "乘车语境决定短语意思",
+      "text": "put you off 在这里指让你下车，不能按其他语境译成推迟或使你反感。you 是代词，放在 put 和 off 之间。"
+    },
+    {
+      "title": "插入说话说明",
+      "text": "said the conductor suddenly 插在两段引语之间。这里用 said 后接说话者，是叙事中引述话语的一种写法。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘Oh dear,’",
+      "role": "感叹语",
+      "explanation": "表达突然意识到失误时的懊恼。"
+    },
+    {
+      "text": "said the conductor suddenly,",
+      "role": "引述说明",
+      "explanation": "交代售票员突然说话，said 是动词，the conductor 是说话者，suddenly 修饰说。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "说话者指自己。"
+    },
+    {
+      "text": "forgot to put you off",
+      "role": "谓语及补充内容",
+      "explanation": "forgot 说明忘记，to put you off 说明原本应做而没有做的事。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘Oh",
+      "meaning": "哎",
+      "pos": "感叹词",
+      "phonetic": "/əʊ/"
+    },
+    {
+      "text": "dear,’",
+      "meaning": "呀，天哪",
+      "pos": "感叹词",
+      "phonetic": "/dɪə/"
+    },
+    {
+      "text": "said",
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "the",
+      "meaning": "这位",
+      "pos": "冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "conductor",
+      "meaning": "售票员",
+      "pos": "名词",
+      "phonetic": "/kənˈdʌktə/"
+    },
+    {
+      "text": "suddenly,",
+      "meaning": "突然",
+      "pos": "副词",
+      "phonetic": "/ˈsʌdənli/"
+    },
+    {
+      "text": "‘I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "forgot",
+      "meaning": "忘记了",
+      "pos": "动词",
+      "phonetic": "/fəˈɡɒt/"
+    },
+    {
+      "text": "to",
+      "meaning": "引出忘记做的事",
+      "pos": "不定式标记",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "put",
+      "meaning": "使，在此与 off 连用表示让下车",
+      "pos": "动词",
+      "phonetic": "/pʊt/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/ 或 /jʊ/"
+    },
+    {
+      "text": "off.’",
+      "meaning": "下车，离开车内",
+      "pos": "副词",
+      "phonetic": "/ɒf/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

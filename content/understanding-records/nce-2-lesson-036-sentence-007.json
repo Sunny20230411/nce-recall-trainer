@@ -1,0 +1,113 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-036",
+  "sentenceId": "nce-2-lesson-036-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Hart has trained his daughter for years.",
+  "chinese": "哈特先生已经训练自己的女儿多年。",
+  "lesson": "Lesson 36 Across the Channel",
+  "intent": "说明女儿挑战背后的多年训练。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "Hart has trained his daughter",
+      "relation": "多年来的训练",
+      "meaning": "哈特训练自己的女儿"
+    },
+    {
+      "text": "for years.",
+      "relation": "训练持续的时长",
+      "meaning": "已有多年"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "姓名承接上一片段",
+      "text": "Hart 与前一练习中的 Mr. 构成 Mr. Hart，即哈特先生。当前保留原练习边界。"
+    },
+    {
+      "title": "现在完成时与时长",
+      "text": "has trained 联系过去的训练与当前情况，for years 说明持续多年。daughter 是受训练的对象。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "姓名承接上一片段",
+      "text": "Hart 与前一练习中的 Mr. 构成 Mr. Hart，即哈特先生。当前保留原练习边界。"
+    },
+    {
+      "title": "现在完成时与时长",
+      "text": "has trained 联系过去的训练与当前情况，for years 说明持续多年。daughter 是受训练的对象。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Hart",
+      "role": "主语",
+      "explanation": "指哈特先生。"
+    },
+    {
+      "text": "has trained",
+      "role": "谓语",
+      "explanation": "现在完成时，回顾训练经历。"
+    },
+    {
+      "text": "his daughter",
+      "role": "宾语",
+      "explanation": "被训练的女儿。"
+    },
+    {
+      "text": "for years.",
+      "role": "时间状语",
+      "explanation": "说明历时多年。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Hart",
+      "meaning": "哈特",
+      "pos": "专有名词",
+      "phonetic": "/hɑːt/"
+    },
+    {
+      "text": "has",
+      "meaning": "构成现在完成时",
+      "pos": "助动词",
+      "phonetic": "/hæz/ 或 /həz/"
+    },
+    {
+      "text": "trained",
+      "meaning": "训练",
+      "pos": "动词过去分词",
+      "phonetic": "/treɪnd/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "物主限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "daughter",
+      "meaning": "女儿",
+      "pos": "名词",
+      "phonetic": "/ˈdɔːtə(r)/"
+    },
+    {
+      "text": "for",
+      "meaning": "持续",
+      "pos": "介词",
+      "phonetic": "/fɔː/ 或 /fər/"
+    },
+    {
+      "text": "years.",
+      "meaning": "多年",
+      "pos": "名词",
+      "phonetic": "/jɪəz/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

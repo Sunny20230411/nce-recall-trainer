@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-021",
+  "sentenceId": "nce-2-lesson-021-sentence-009",
+  "english": "Everybody says I must be mad and they are probably right.",
+  "text": "这里的 I must be mad 不是“我必须疯”，而是旁人根据“不肯走”这件事推断出“我准是疯了”。must 用来表示很有把握的推测时，后面常接 be + 形容词/名词，比如 You must be tired。下次想说“照理看一定是这样”，可以用 must 来下判断。",
+  "sourceDigest": "cbee877682c9e7c446b014eceb5aa3fc7e59fce47a2ca189fc6ab4a5900be023",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：精准点出must最容易被中文母语者误解的“必须”义与“推测”义的区别，结合语境说明推断依据，迁移场景明确，避免了常见直译错误。",
+  "editorialAuthor": "Codex",
+  "editorialDigest": "eb880ca6d2127c9c40c94fb8fd6f822f594f5738fb7e95375a9ee56cbe752647",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "Codex",
+    "method": "codex-editorial-self-review-not-human-verification",
+    "note": "按完整名师提点标准复查表达意图、中英差异、信息组织、表达选择和迁移价值。"
+  }
+}

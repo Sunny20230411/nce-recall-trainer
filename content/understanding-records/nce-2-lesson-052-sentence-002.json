@@ -1,0 +1,167 @@
+{
+  "chinese": "我一直想把我的新房间整理整齐。",
+  "intent": "说明说话人从过去持续到现在、仍在进行的努力：把新房间整理妥当。",
+  "comparison": {
+    "chinese": "我一直想把我的新房间整理整齐。",
+    "english": "I have been trying to get my new room in order.",
+    "steps": [
+      {
+        "label": "先抓主干动作",
+        "text": "I have been trying",
+        "explanation": "中文先说“我一直在努力/一直想”，英文也是主语I在前，接着用have been trying表达“从之前持续到现在仍在做”的状态。"
+      },
+      {
+        "label": "接努力的具体内容",
+        "text": "to get my new room in order",
+        "explanation": "中文用“把房间整理整齐”这种“把+对象+结果”的语序；英文是get + 房间 + in order，先讲要做什么(get)、再讲对象(my new room)、最后补充状态要求(in order)。"
+      }
+    ],
+    "takeaway": "表达“把某物弄成某种状态”时，中文常用“把”字句把宾语提前到结果前；英文常用get + 宾语 + 状态短语的顺序，状态放在宾语后面。"
+  },
+  "backbone": {
+    "text": "I have been trying to get my room in order.",
+    "meaning": "我一直努力把房间整理妥当。（去掉new这层修饰，保留完整的动作和目标）"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成进行时的含义",
+      "text": "have been trying 表示“从过去某时开始一直做，到现在还在做或刚停下”，强调动作的持续性和努力的过程，而不是一次性完成。"
+    },
+    {
+      "title": "get sth in order 的用法",
+      "text": "get my new room in order 是“使我的新房间整齐/有条理”，get在这里表示“使……变得”，in order是介词短语作补充说明，表示“整齐、秩序井然”的状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "动作的发出者，指说话人自己。"
+    },
+    {
+      "text": "have been trying",
+      "role": "谓语",
+      "explanation": "现在完成进行时，表达“一直努力、一直在尝试”的持续动作。"
+    },
+    {
+      "text": "to get my new room in order",
+      "role": "目的/尝试的内容",
+      "explanation": "是trying的具体内容，说明一直在努力做什么事；其中get是使役含义，my new room是对象，in order说明要达成的状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "have",
+      "meaning": "（助动词，构成完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "been",
+      "meaning": "（be的过去分词，构成进行/完成结构）",
+      "pos": "助动词",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "trying",
+      "meaning": "努力，试图",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈtraɪɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "get",
+      "meaning": "使，弄",
+      "pos": "动词",
+      "phonetic": "/ɡet/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "new",
+      "meaning": "新的",
+      "pos": "形容词",
+      "phonetic": "/njuː/"
+    },
+    {
+      "text": "room",
+      "meaning": "房间",
+      "pos": "名词",
+      "phonetic": "/ruːm/"
+    },
+    {
+      "text": "in",
+      "meaning": "（表示处于某种状态）在…中",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "order.",
+      "meaning": "整齐，秩序",
+      "pos": "名词",
+      "phonetic": "/ˈɔːdə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作主体",
+      "meaning": "我"
+    },
+    {
+      "text": "have been trying",
+      "relation": "谓语动作",
+      "meaning": "一直在努力/一直试图"
+    },
+    {
+      "text": "to get",
+      "relation": "引出努力要做的动作",
+      "meaning": "（为了）使/把"
+    },
+    {
+      "text": "my new room",
+      "relation": "被整理的对象",
+      "meaning": "我的新房间"
+    },
+    {
+      "text": "in order.",
+      "relation": "补充说明房间要达到的状态",
+      "meaning": "整齐、有条理"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-052",
+  "sentenceId": "nce-2-lesson-052-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I have been trying to get my new room in order.",
+  "lesson": "Lesson 52 A pretty carpet",
+  "notes": [
+    {
+      "title": "现在完成进行时的含义",
+      "text": "have been trying 表示“从过去某时开始一直做，到现在还在做或刚停下”，强调动作的持续性和努力的过程，而不是一次性完成。"
+    },
+    {
+      "title": "get sth in order 的用法",
+      "text": "get my new room in order 是“使我的新房间整齐/有条理”，get在这里表示“使……变得”，in order是介词短语作补充说明，表示“整齐、秩序井然”的状态。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅words中order.的释义多了不必要的句末标点说明，需修正。（非逐句人工审核）"
+}

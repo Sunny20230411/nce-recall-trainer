@@ -1,0 +1,209 @@
+{
+  "chinese": "一阵风把床从屋顶刮了下去，床径直坠落到了下面的院子里。",
+  "intent": "描述一阵狂风引发的连续动作：将床从屋顶扫落并使其砸落至下方院子。",
+  "comparison": {
+    "chinese": "一阵风［把床从屋顶刮下去，还让它砸落到下面的院子里］",
+    "english": "A gust of wind swept the bed off the roof and sent it crashing into the courtyard below.",
+    "steps": [
+      {
+        "label": "先抓主语与第一个动作",
+        "text": "A gust of wind swept the bed off the roof",
+        "explanation": "中文先说“一阵风”，接着说“把床从屋顶刮下去”；英文语序一致，都是主语+动作+对象+去向，只是不用“把”字，直接说 swept the bed off the roof。"
+      },
+      {
+        "label": "再看并列的第二个动作",
+        "text": "and sent it crashing into the courtyard below",
+        "explanation": "中文用“还让它……”承接后续结果；英文用 and 连接第二个谓语 sent，it 指代床，crashing 补充说明床坠落时的状态是“撞击着落下”，最后再接地点 the courtyard below。"
+      }
+    ],
+    "takeaway": "这句话两个动作由 and 并列，都是风发出的动作；crashing 不是谓语，而是用来补充说明 it（床）被送出去时的状态——伴随着撞击坠落。"
+  },
+  "backbone": {
+    "text": "A gust of wind swept the bed off the roof and sent it crashing into the courtyard below.",
+    "meaning": "一阵风把床从屋顶扫落，并使它坠落撞击到下方的院子里。"
+  },
+  "structureNotes": [
+    {
+      "title": "and 连接两个并列谓语",
+      "text": "swept... and sent... 都是主语 A gust of wind 发出的动作，前后时态一致（一般过去时），说明风先后或同时造成了两个结果：先把床扫离屋顶，又使其坠向院子。"
+    },
+    {
+      "title": "sent it crashing 的含义",
+      "text": "sent 在这里表示“使……处于某种运动状态”，crashing 是现在分词，补充说明 it（床）在被推送过程中的状态——带着撞击、轰然坠落的样子，不是“已经发送成功”的意思。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A gust of wind",
+      "role": "主语",
+      "explanation": "表示动作的发出者，是“一阵风”这个整体概念。"
+    },
+    {
+      "text": "swept the bed off the roof",
+      "role": "第一个谓语部分",
+      "explanation": "描述第一个动作：把床从屋顶扫落；swept 是谓语动词，the bed 是宾语，off the roof 说明动作的方向和起点。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个并列的谓语部分，表示动作的承接或并列。"
+    },
+    {
+      "text": "sent it crashing into the courtyard below",
+      "role": "第二个谓语部分",
+      "explanation": "描述第二个结果：使床坠落撞击到下方院子；sent 是谓语动词，it 指代 the bed 作宾语，crashing 补充说明床坠落的状态，into the courtyard below 说明坠落的目的地。"
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "meaning": "一（个、阵等，用于可数名词单数前）",
+      "pos": "冠词",
+      "phonetic": "/ə/,"
+    },
+    {
+      "text": "gust",
+      "meaning": "一阵（风）",
+      "pos": "名词",
+      "phonetic": "/ɡʌst/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（用于表示量的搭配）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "wind",
+      "meaning": "风",
+      "pos": "名词",
+      "phonetic": "/wɪnd/"
+    },
+    {
+      "text": "swept",
+      "meaning": "扫，刮（sweep的过去式）",
+      "pos": "动词",
+      "phonetic": "/swept/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那张（定指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bed",
+      "meaning": "床",
+      "pos": "名词",
+      "phonetic": "/bed/"
+    },
+    {
+      "text": "off",
+      "meaning": "从……离开，向下离开",
+      "pos": "介词",
+      "phonetic": "/ɒf/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那座（定指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "roof",
+      "meaning": "屋顶",
+      "pos": "名词",
+      "phonetic": "/ruːf/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "sent",
+      "meaning": "送，使（处于某种状态，send的过去式）",
+      "pos": "动词",
+      "phonetic": "/sent/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代床）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "crashing",
+      "meaning": "哗啦作响地坠落，撞击着（crash的现在分词）",
+      "pos": "现在分词",
+      "phonetic": "/ˈkræʃɪŋ/"
+    },
+    {
+      "text": "into",
+      "meaning": "到……里面，进入",
+      "pos": "介词",
+      "phonetic": "/ˈɪntuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那座（定指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "courtyard",
+      "meaning": "院子，庭院",
+      "pos": "名词",
+      "phonetic": "/ˈkɔːtjɑːd/"
+    },
+    {
+      "text": "below.",
+      "meaning": "在下面的（位于名词后作定语，修饰courtyard）",
+      "pos": "形容词",
+      "phonetic": "/bɪˈləʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "A gust of wind",
+      "relation": "动作的发出者（主语）",
+      "meaning": "一阵风"
+    },
+    {
+      "text": "swept the bed off the roof",
+      "relation": "第一个动作及结果",
+      "meaning": "把床从屋顶扫落"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列动作",
+      "meaning": "并且"
+    },
+    {
+      "text": "sent it crashing into the courtyard below.",
+      "relation": "第二个动作及结果",
+      "meaning": "使它撞击着坠落到下面的院子里"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-049",
+  "sentenceId": "nce-2-lesson-049-sentence-005",
+  "sentenceOrder": 6,
+  "english": "A gust of wind swept the bed off the roof and sent it crashing into the courtyard below.",
+  "lesson": "Lesson 49 The end of a dream",
+  "notes": [
+    {
+      "title": "and 连接两个并列谓语",
+      "text": "swept... and sent... 都是主语 A gust of wind 发出的动作，前后时态一致（一般过去时），说明风先后或同时造成了两个结果：先把床扫离屋顶，又使其坠向院子。"
+    },
+    {
+      "title": "sent it crashing 的含义",
+      "text": "sent 在这里表示“使……处于某种运动状态”，crashing 是现在分词，补充说明 it（床）在被推送过程中的状态——带着撞击、轰然坠落的样子，不是“已经发送成功”的意思。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅below的词性标注有误，副词作定语的说法不当，below在此是后置定语修饰courtyard，词性应为形容词更准确；其余翻译、结构、比较均符合要求。（非逐句人工审核）"
+}

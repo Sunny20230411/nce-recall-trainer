@@ -1,0 +1,148 @@
+{
+  "chinese": "“你总是起得这么晚吗？”",
+  "intent": "向对方确认其是否一直保持很晚起床的习惯，带有惊讶语气。",
+  "comparison": {
+    "chinese": "“你总是起得这么晚吗？”",
+    "english": "‘Do you always get up so late?’",
+    "steps": [
+      {
+        "label": "第一步：先抓核心动作",
+        "text": "get up / 起床",
+        "explanation": "中英文的核心动作都是“起床”，先明确句子围绕“起床”这个行为展开。"
+      },
+      {
+        "label": "第二步：看修饰信息的位置组织",
+        "text": "always get up so late / 总是起得这么晚",
+        "explanation": "英文把频率副词always放在实义动词短语get up之前，程度时间状语so late放在动词短语之后补充说明；中文把频率副词“总是”放在动词“起”前面，程度补语“这么晚”用“得”连接放在动词后面作补语，二者修饰逻辑一致，只是语序和语法结构不同。"
+      },
+      {
+        "label": "第三步：看疑问句的构成方式",
+        "text": "Do you always get up so late? / 你总是起得这么晚吗？",
+        "explanation": "中文一般疑问句通过句末加语气词“吗”构成，主语“你”放在句首；英文一般现在时实义动词的疑问句需要把助动词Do移到句首，主语you放在助动词之后，靠句首助动词体现疑问语气。"
+      }
+    ],
+    "takeaway": "英文一般现在时实义动词的一般疑问句，需将助动词Do/Does置于句首构成疑问语序；频率副词通常放在实义动词之前，时间/程度修饰语常放在动词短语之后。"
+  },
+  "backbone": {
+    "text": "Do you get up late?",
+    "meaning": "你起床晚吗？（为理解核心去掉了频率和程度修饰，辅助提炼主干）"
+  },
+  "structureNotes": [
+    {
+      "title": "一般现在时的一般疑问句",
+      "text": "这句话是一般现在时的一般疑问句，用来询问习惯性动作；因为谓语是实义动词短语get up，所以在句首加助动词Do来构成疑问语序，主语you紧跟在Do之后。"
+    },
+    {
+      "title": "频率副词always的位置",
+      "text": "always是表示频率的副词，意思是“总是、一直”，在句子里放在实义动词（短语）的前面，用来修饰整个动作的发生频率。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘Do",
+      "role": "疑问助动词（引导一般疑问句）",
+      "explanation": "放在句首的助动词Do，用来帮助构成一般现在时第二人称的疑问句，本身没有实际词义，只起语法作用，句首带左单引号表示这是直接引语的开头。"
+    },
+    {
+      "text": "you",
+      "role": "句子主语",
+      "explanation": "指代说话的对方，是“起床”这个动作的发出者。"
+    },
+    {
+      "text": "always",
+      "role": "频率状语",
+      "explanation": "说明“起床晚”是经常性、习惯性的情况，修饰后面的动词短语。"
+    },
+    {
+      "text": "get up",
+      "role": "谓语动词短语",
+      "explanation": "是固定短语动词，意思是“起床”，在句中作谓语，表示主语的动作。"
+    },
+    {
+      "text": "so late?",
+      "role": "程度+时间状语（带疑问标点）",
+      "explanation": "so用来加强late的程度，late说明起床的时间晚，整体补充说明get up的时间状态，句末的问号和句首的Do配合表示疑问语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘Do",
+      "meaning": "（助动词，引导一般疑问句，无实义）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你，你们",
+      "pos": "人称代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是，一直",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "get",
+      "meaning": "（与up构成固定短语get up，表示起床）",
+      "pos": "动词",
+      "phonetic": "/ɡet/"
+    },
+    {
+      "text": "up",
+      "meaning": "（与get构成固定短语get up，表示起床）",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "so",
+      "meaning": "如此，这么",
+      "pos": "副词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "late?",
+      "meaning": "晚，迟",
+      "pos": "副词",
+      "phonetic": "/leɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘Do you",
+      "meaning": "你……吗？（助动词引导疑问+主语）",
+      "relation": "疑问标记+询问对象"
+    },
+    {
+      "text": "always get up",
+      "meaning": "总是起床",
+      "relation": "频率状语+谓语动词短语"
+    },
+    {
+      "text": "so late?",
+      "meaning": "这么晚",
+      "relation": "程度+时间状语，补充说明起床的时间状态"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-002",
+  "sentenceId": "nce-2-lesson-002-sentence-017",
+  "sentenceOrder": 17,
+  "english": "‘Do you always get up so late?",
+  "lesson": "Lesson 2 Breakfast or lunch?",
+  "notes": [
+    {
+      "title": "一般现在时的一般疑问句",
+      "text": "这句话是一般现在时的一般疑问句，用来询问习惯性动作；因为谓语是实义动词短语get up，所以在句首加助动词Do来构成疑问语序，主语you紧跟在Do之后。"
+    },
+    {
+      "title": "频率副词always的位置",
+      "text": "always是表示频率的副词，意思是“总是、一直”，在句子里放在实义动词（短语）的前面，用来修饰整个动作的发生频率。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，但存在几处可修正问题：1. 中文译文漏译句首直接引语的左引号，且未匹配原句疑问标点的完整表达；2. comparison的英文原文左引号位置错误，误放在句首单词前的标注逻辑混乱，且步骤中对语序对比的说明未明确补充中文隐含的主语对应关系；3. words中“‘Do”的释义混入标点说明，“get”的释义未准确体现短语动词中核心义的作用，“late?”的释义混入标点说明；4. parts第一个分块的meaning表述模糊，未明确体现疑问引导功能。修正后内容符合教学要求。（非逐句人工审核）"
+}

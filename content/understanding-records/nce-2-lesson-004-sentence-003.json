@@ -1,0 +1,117 @@
+{
+  "chinese": "他在那里呆了六个月",
+  "intent": "说明某人在某地停留的时长已经达到六个月，强调从过去持续到现在的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "He has been there for six months.",
+    "meaning": "他在那里已经待了六个月。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时表持续状态",
+      "text": "has been there 用现在完成时，表示“待在那里”这个状态从过去开始，一直延续到说话时，还可能继续下去。"
+    },
+    {
+      "title": "for 引出时长",
+      "text": "for six months 用来补充说明动作或状态持续了多久，回答“多长时间”的问题。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文提到的男性，是句子描述的对象。"
+    },
+    {
+      "text": "has been there",
+      "role": "谓语部分",
+      "explanation": "表示“一直在那里”的持续状态，是现在完成时结构。"
+    },
+    {
+      "text": "for six months.",
+      "role": "时间状语",
+      "explanation": "说明状态持续的时长为六个月。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "has",
+      "meaning": "助动词，构成现在完成时",
+      "pos": "助动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "been",
+      "meaning": "是；存在（be的过去分词）",
+      "pos": "动词",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "there",
+      "meaning": "在那里",
+      "pos": "副词",
+      "phonetic": "/ðeə(r)/"
+    },
+    {
+      "text": "for",
+      "meaning": "达，计（后接一段时间）",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "six",
+      "meaning": "六",
+      "pos": "数词",
+      "phonetic": "/sɪks/"
+    },
+    {
+      "text": "months.",
+      "meaning": "月（复数）",
+      "pos": "名词",
+      "phonetic": "/mʌnθs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "描述谁",
+      "meaning": "他"
+    },
+    {
+      "text": "has been there",
+      "relation": "主干状态",
+      "meaning": "一直在那里"
+    },
+    {
+      "text": "for six months.",
+      "relation": "补充持续时间",
+      "meaning": "长达六个月"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-004",
+  "sentenceId": "nce-2-lesson-004-sentence-003",
+  "sentenceOrder": 3,
+  "english": "He has been there for six months.",
+  "lesson": "Lesson 4 An exciting trip",
+  "notes": [
+    {
+      "title": "现在完成时表持续状态",
+      "text": "has been there 用现在完成时，表示“待在那里”这个状态从过去开始，一直延续到说话时，还可能继续下去。"
+    },
+    {
+      "title": "for 引出时长",
+      "text": "for six months 用来补充说明动作或状态持续了多久，回答“多长时间”的问题。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本准确，存在两处可修正的细节：1. 单词释义中months额外添加了句末标点的说明，不符合仅解释词本身的要求；2. 结构划分中将表语there归入谓语部分虽可接受，但更严谨的表述应明确be动词为系动词、there为表语，现仅修正单词释义的冗余说明，其余内容符合要求。（非逐句人工审核）"
+}

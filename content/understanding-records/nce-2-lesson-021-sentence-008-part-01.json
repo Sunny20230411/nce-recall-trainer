@@ -1,0 +1,173 @@
+{
+  "chinese": "有人曾向我提供一大笔钱让我搬走，",
+  "intent": "陈述说话人收到了一笔数额不小的钱款邀约，条件是离开此地。",
+  "comparison": {
+    "chinese": "有人给我一大笔钱，让我搬走。",
+    "english": "I have been offered a large sum of money to go away,",
+    "steps": [
+      {
+        "label": "第一步：先抓核心事件——钱被提供给我",
+        "text": "I have been offered a large sum of money",
+        "explanation": "中文习惯先说“有人给我钱”，把动作发出者“有人”补出来；英文用被动语态“I have been offered”，重点落在“我”是接收方，不强调是谁给的。"
+      },
+      {
+        "label": "第二步：再接这笔钱的用途/条件",
+        "text": "to go away",
+        "explanation": "中文会说“让我搬走”，把目的说成别人的要求；英文用不定式to go away直接跟在money后面，说明这笔钱对应的条件或目的是“离开”。"
+      }
+    ],
+    "takeaway": "中文表达被动事件时常补出“有人”作主语，英文常用被动突出受事者；说明钱款用途时，中文习惯拆成小句，英文常用不定式直接接在名词后。"
+  },
+  "backbone": {
+    "text": "I have been offered a large sum of money to go away",
+    "meaning": "我（被人）提供了一大笔钱，条件是离开。"
+  },
+  "structureNotes": [
+    {
+      "title": "被动语态的用法",
+      "text": "have been offered是现在完成时的被动形式，表示“到目前为止已经被提供”，不强调动作的发出者，重点在说话人是接收钱款的一方。"
+    },
+    {
+      "title": "不定式作后置修饰",
+      "text": "to go away跟在a large sum of money后面，说明这笔钱的用途或附加条件，相当于“用来让我搬走的（钱）”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话人本人，是“被提供钱”这个动作的承受者。"
+    },
+    {
+      "text": "have been offered",
+      "role": "谓语（现在完成时被动语态）",
+      "explanation": "表示“已经被提供”，动作从过去发生并和现在有关，主语是动作的承受者。"
+    },
+    {
+      "text": "a large sum of money",
+      "role": "直接宾语（被动句中保留的宾语）",
+      "explanation": "表示提供的具体东西是“一大笔钱”，a large sum of是修饰money的数量短语。"
+    },
+    {
+      "text": "to go away,",
+      "role": "后置定语（修饰a large sum of money）",
+      "explanation": "用不定式作后置定语修饰前面的名词，说明这笔钱对应的要求或用途，即“搬走、离开此地”。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "（助动词，构成现在完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæv/",
+      "text": "have"
+    },
+    {
+      "meaning": "（助动词，构成被动语态）",
+      "pos": "助动词",
+      "phonetic": "/biːn/",
+      "text": "been"
+    },
+    {
+      "meaning": "提供，出价",
+      "pos": "动词（过去分词）",
+      "phonetic": "/ˈɒfəd/",
+      "text": "offered"
+    },
+    {
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "大的，数额大的",
+      "pos": "形容词",
+      "phonetic": "/lɑːdʒ/",
+      "text": "large"
+    },
+    {
+      "meaning": "金额，款项",
+      "pos": "名词",
+      "phonetic": "/sʌm/",
+      "text": "sum"
+    },
+    {
+      "meaning": "……的（表示所属/数量关系）",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "钱，金钱",
+      "pos": "名词",
+      "phonetic": "/ˈmʌni/",
+      "text": "money"
+    },
+    {
+      "meaning": "（不定式符号，引出目的）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "去，走",
+      "pos": "动词",
+      "phonetic": "/ɡəʊ/",
+      "text": "go"
+    },
+    {
+      "meaning": "离开，走开",
+      "pos": "副词",
+      "phonetic": "/əˈweɪ/",
+      "text": "away,"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作承受者（被提供钱的人）",
+      "meaning": "我"
+    },
+    {
+      "text": "have been offered",
+      "relation": "核心动作（被动）",
+      "meaning": "已经被提供"
+    },
+    {
+      "text": "a large sum of money",
+      "relation": "被提供的事物（直接宾语）",
+      "meaning": "一大笔钱"
+    },
+    {
+      "text": "to go away,",
+      "relation": "这笔钱对应的条件或目的",
+      "meaning": "搬走/离开"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-021",
+  "sentenceId": "nce-2-lesson-021-sentence-008-part-01",
+  "sentenceOrder": 9,
+  "english": "I have been offered a large sum of money to go away,",
+  "lesson": "Lesson 21 Mad or not?",
+  "notes": [
+    {
+      "title": "被动语态的用法",
+      "text": "have been offered是现在完成时的被动形式，表示“到目前为止已经被提供”，不强调动作的发出者，重点在说话人是接收钱款的一方。"
+    },
+    {
+      "title": "不定式作后置修饰",
+      "text": "to go away跟在a large sum of money后面，说明这笔钱的用途或附加条件，相当于“用来让我搬走的（钱）”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需将不定式的语法角色从状语修正为后置定语，贴合其修饰名词说明用途的语法功能。（非逐句人工审核）"
+}

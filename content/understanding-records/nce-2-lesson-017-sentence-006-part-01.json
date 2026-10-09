@@ -1,0 +1,65 @@
+{
+  "chinese": "在剧中，",
+  "intent": "交代后续描述的场景范围，说明事件发生的场合是在戏剧表演当中。",
+  "comparison": null,
+  "backbone": {
+    "text": "In the play,",
+    "meaning": "在这部戏剧当中（作场景铺垫）"
+  },
+  "structureNotes": [
+    {
+      "title": "介词短语作场景状语",
+      "text": "In the play 是介词短语，放在句首用逗号隔开，用来点明后面要讲的内容发生的场合是戏剧表演里。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "In the play,",
+      "role": "场景状语",
+      "explanation": "由介词in加名词短语the play构成，说明后续内容所属的场景是在戏剧当中，用逗号和后面的主句分隔。"
+    }
+  ],
+  "words": [
+    {
+      "text": "In",
+      "meaning": "在……之中；在……里",
+      "pos": "preposition",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个；那个（定冠词，特指双方都知道的那部戏剧）",
+      "pos": "determiner",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "play,",
+      "meaning": "戏剧，剧本",
+      "pos": "noun",
+      "phonetic": "/pleɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "In the play,",
+      "relation": "场景",
+      "meaning": "在这部戏剧里，"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-017",
+  "sentenceId": "nce-2-lesson-017-sentence-006-part-01",
+  "sentenceOrder": 6,
+  "english": "In the play,",
+  "lesson": "Lesson 17 Always young",
+  "notes": [
+    {
+      "title": "介词短语作场景状语",
+      "text": "In the play 是介词短语，放在句首用逗号隔开，用来点明后面要讲的内容发生的场合是戏剧表演里。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体正确，仅需修正单词释义中冗余的标点说明，明确play本身的词义，删除不必要的逗号相关表述，其余分析符合要求。（非逐句人工审核）"
+}

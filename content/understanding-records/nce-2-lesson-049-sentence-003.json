@@ -1,0 +1,206 @@
+{
+  "chinese": "因为天气非常热，他把床搬到了自己房子的屋顶上。",
+  "intent": "解释他把床搬到屋顶的原因是天气炎热。",
+  "comparison": {
+    "chinese": "因为天气很热，他把床搬到了房顶。",
+    "english": "Because the weather was very hot, he carried the bed on to the roof of his house.",
+    "steps": [
+      {
+        "label": "先抓主干动作",
+        "text": "he carried the bed on to the roof of his house",
+        "explanation": "先理解核心信息：他把床搬到了房子的屋顶上，这是句子主要说的事。"
+      },
+      {
+        "label": "再看开头的原因",
+        "text": "Because the weather was very hot",
+        "explanation": "Because 引出整件事的原因，说明“搬床”这个动作是在天气很热的前提下发生的。"
+      },
+      {
+        "label": "对应中文表达习惯",
+        "text": "因为……，……",
+        "explanation": "中文也习惯把原因放在前面说，和这句英文的语序一致，理解时可以顺着读，不需要大幅调整顺序。"
+      }
+    ],
+    "takeaway": "英文用 Because 放在句首引出原因状语，先讲原因再讲结果，和中文“因为……所以……”的常规语序对应，直接顺着理解即可。"
+  },
+  "backbone": {
+    "text": "He carried the bed on to the roof.",
+    "meaning": "他把床搬到了屋顶上。"
+  },
+  "structureNotes": [
+    {
+      "title": "Because 引导的原因状语",
+      "text": "Because the weather was very hot 用来说明后面主句动作发生的原因，回答“为什么搬床”的问题。"
+    },
+    {
+      "title": "on to 表示动作方向",
+      "text": "on to 合起来表示“到……上面”，强调床从低处被搬到屋顶这个平面上的动态过程。"
+    },
+    {
+      "title": "of 表示所属关系",
+      "text": "the roof of his house 意思是“他房子的屋顶”，of 用来连接整体和它的一部分。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Because the weather was very hot,",
+      "role": "原因状语从句",
+      "explanation": "由 Because 引导，交代主句动作发生的原因，修饰整个主句。"
+    },
+    {
+      "text": "he carried the bed",
+      "role": "主句主谓宾",
+      "explanation": "he 是动作执行者，carried 是动作“搬、抬”，the bed 是被搬的对象。"
+    },
+    {
+      "text": "on to the roof of his house",
+      "role": "地点方向状语",
+      "explanation": "说明床被搬到的目的地是房子的屋顶，of his house 修饰 roof，表明是谁的屋顶。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Because",
+      "meaning": "因为",
+      "pos": "连词",
+      "phonetic": "/bɪˈkɒz/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "weather",
+      "meaning": "天气",
+      "pos": "名词",
+      "phonetic": "/ˈweðə/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be的过去式，主语为单数）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "hot,",
+      "meaning": "热的，炎热的（词后逗号为句中标点）",
+      "pos": "形容词",
+      "phonetic": "/hɒt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "carried",
+      "meaning": "搬，抬，扛（carry的过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈkærid/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bed",
+      "meaning": "床",
+      "pos": "名词",
+      "phonetic": "/bed/"
+    },
+    {
+      "text": "on",
+      "meaning": "（与to连用）到……之上",
+      "pos": "副词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "roof",
+      "meaning": "屋顶，房顶",
+      "pos": "名词",
+      "phonetic": "/ruːf/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表所属）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "代词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "house.",
+      "meaning": "房子，住宅（词后句号为句末标点）",
+      "pos": "名词",
+      "phonetic": "/haʊs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Because the weather was very hot,",
+      "relation": "说明后面动作发生的原因",
+      "meaning": "因为天气非常热"
+    },
+    {
+      "text": "he carried the bed",
+      "relation": "句子主干，交代谁做了什么事",
+      "meaning": "他搬床"
+    },
+    {
+      "text": "on to the roof of his house.",
+      "relation": "补充说明搬床的目的地",
+      "meaning": "到他房子的屋顶上"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-049",
+  "sentenceId": "nce-2-lesson-049-sentence-003",
+  "sentenceOrder": 4,
+  "english": "Because the weather was very hot, he carried the bed on to the roof of his house.",
+  "lesson": "Lesson 49 The end of a dream",
+  "notes": [
+    {
+      "title": "Because 引导的原因状语",
+      "text": "Because the weather was very hot 用来说明后面主句动作发生的原因，回答“为什么搬床”的问题。"
+    },
+    {
+      "title": "on to 表示动作方向",
+      "text": "on to 合起来表示“到……上面”，强调床从低处被搬到屋顶这个平面上的动态过程。"
+    },
+    {
+      "title": "of 表示所属关系",
+      "text": "the roof of his house 意思是“他房子的屋顶”，of 用来连接整体和它的一部分。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析正确，仅words中hot和house的text附带标点，需将标点从词义、词性、音标对应项中剥离说明并修正对应释义项的准确性，其余内容符合要求。（非逐句人工审核）"
+}

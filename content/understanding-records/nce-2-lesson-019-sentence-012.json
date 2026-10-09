@@ -1,0 +1,146 @@
+{
+  "chinese": "“当然可以，”女孩说，“不过这两张是下周三演出的票。”",
+  "intent": "女孩先肯定答复对方的求票请求，再补充说明票对应的演出场次。",
+  "comparison": null,
+  "backbone": {
+    "text": "‘Certainly,’ the girl said, ‘but they are for next Wednesday's performance.’",
+    "meaning": "女孩说了两部分内容：先是同意，再说明票属于下周三的场次。"
+  },
+  "structureNotes": [
+    {
+      "title": "引语拆分的说话人位置",
+      "text": "本句把直接引语拆成前后两半，说话人“the girl said”插在中间。前半是简短答复，后半补充转折信息，阅读时要把两段引语合起来看作女孩说的完整内容。"
+    },
+    {
+      "title": "for 表示对应用途/所属场次",
+      "text": "这里 for 不表示“为了”，而是说明票对应的演出场次，意思是“是……场次的票”，相当于中文说“这两张是下周三那场的”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘Certainly,’",
+      "role": "直接引语前半段",
+      "explanation": "女孩对买票请求给出的肯定答复，是说话内容的第一部分。"
+    },
+    {
+      "text": "the girl said,",
+      "role": "说话人与引述动词",
+      "explanation": "交代是谁在说话，位置在前后两段引语中间。"
+    },
+    {
+      "text": "‘but they are for next Wednesday's performance.",
+      "role": "直接引语后半段",
+      "explanation": "承接前半的肯定答复，用 but 转折补充说明票对应的具体场次，they 指代前面提到的两张票。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘Certainly,’",
+      "meaning": "“当然可以，”",
+      "pos": "感叹词（引语）",
+      "phonetic": "/ˈsɜːtnli/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "girl",
+      "meaning": "女孩",
+      "pos": "名词",
+      "phonetic": "/ɡɜːl/"
+    },
+    {
+      "text": "said,",
+      "meaning": "说，",
+      "pos": "动词（过去式）",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "‘but",
+      "meaning": "“但是",
+      "pos": "连词（引语内）",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "they",
+      "meaning": "它们（指票）",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "are",
+      "meaning": "是",
+      "pos": "be动词（一般现在时，复数）",
+      "phonetic": "/ɑː/"
+    },
+    {
+      "text": "for",
+      "meaning": "属于、对应（场次）",
+      "pos": "介词",
+      "phonetic": "/fɔː/"
+    },
+    {
+      "text": "next",
+      "meaning": "下一个的、紧接的",
+      "pos": "形容词",
+      "phonetic": "/nekst/"
+    },
+    {
+      "text": "Wednesday's",
+      "meaning": "星期三的",
+      "pos": "名词所有格",
+      "phonetic": "/ˈwenzdeɪz/"
+    },
+    {
+      "text": "performance.",
+      "meaning": "演出。”",
+      "pos": "名词",
+      "phonetic": "/pəˈfɔːməns/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘Certainly,’",
+      "relation": "女孩说的前半句话，用于答复请求",
+      "meaning": "“当然可以，”"
+    },
+    {
+      "text": "the girl said,",
+      "relation": "交代说话人及动作",
+      "meaning": "女孩说，"
+    },
+    {
+      "text": "‘but they are",
+      "relation": "女孩说的后半句主干，转折引出补充说明",
+      "meaning": "但它们是"
+    },
+    {
+      "text": "for next Wednesday's performance.",
+      "relation": "说明票对应的场次，补充“它们是”的具体内容",
+      "meaning": "下周三演出的（票）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-019",
+  "sentenceId": "nce-2-lesson-019-sentence-012",
+  "sentenceOrder": 12,
+  "english": "‘Certainly,’ the girl said, ‘but they are for next Wednesday's performance.",
+  "lesson": "Lesson 19 Sold out",
+  "notes": [
+    {
+      "title": "引语拆分的说话人位置",
+      "text": "本句把直接引语拆成前后两半，说话人“the girl said”插在中间。前半是简短答复，后半补充转折信息，阅读时要把两段引语合起来看作女孩说的完整内容。"
+    },
+    {
+      "title": "for 表示对应用途/所属场次",
+      "text": "这里 for 不表示“为了”，而是说明票对应的演出场次，意思是“是……场次的票”，相当于中文说“这两张是下周三那场的”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文是带中间插入说话人的直接引语片段，整体解析方向正确，存在少数细节问题：backbone引语文本标点格式不规范、words中be动词时态人称未明确、performance和but的释义未完整对应原文引号标点、Wednesday's音标不准确，修正后可用。（非逐句人工审核）"
+}

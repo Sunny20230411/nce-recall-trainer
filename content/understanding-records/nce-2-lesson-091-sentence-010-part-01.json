@@ -1,0 +1,83 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-091",
+  "sentenceId": "nce-2-lesson-091-sentence-010-part-01",
+  "sentenceOrder": 11,
+  "english": "The police were called in,",
+  "chinese": "警方被召来介入，",
+  "lesson": "Lesson 91 Three men in a basket",
+  "intent": "交代警方被召来介入。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "The police",
+      "relation": "被召者",
+      "meaning": "警方"
+    },
+    {
+      "text": "were called in,",
+      "relation": "介入安排",
+      "meaning": "被召来"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "短语被动",
+      "text": "call in 表召来处理事务，were called in 不说明召唤者。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "短语被动",
+      "text": "call in 表召来处理事务，were called in 不说明召唤者。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The police",
+      "role": "主语",
+      "explanation": "集合名词 police 与复数谓语搭配。"
+    },
+    {
+      "text": "were called in",
+      "role": "谓语",
+      "explanation": "过去时被动，表示召警方介入。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "特指警方",
+      "pos": "冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "police",
+      "meaning": "警察",
+      "pos": "名词",
+      "phonetic": "/pəˈliːs/"
+    },
+    {
+      "text": "were",
+      "meaning": "被动助动词",
+      "pos": "助动词",
+      "phonetic": "/wɜː/ 或 /wə/"
+    },
+    {
+      "text": "called",
+      "meaning": "召唤",
+      "pos": "动词",
+      "phonetic": "/kɔːld/"
+    },
+    {
+      "text": "in,",
+      "meaning": "前来，组成call in",
+      "pos": "副词",
+      "phonetic": "/ɪn/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

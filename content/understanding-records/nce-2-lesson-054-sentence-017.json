@@ -1,0 +1,122 @@
+{
+  "chinese": "我接过它，然后签了收。",
+  "intent": "描述说话人先后做出的两个连续动作：接过物品和签字确认。",
+  "comparison": null,
+  "backbone": {
+    "text": "I took it and signed for it.",
+    "meaning": "我接了它，并且为它签了字（即签收）。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列谓语的衔接",
+      "text": "and 连接两个先后发生的动作 took it 和 signed for it，两个动作的主语都是 I，读的时候可以理解成“先接过，再签字”，有时间上的先后顺序，不只是单纯并列。"
+    },
+    {
+      "title": "sign for 的搭配含义",
+      "text": "sign for sth 是固定搭配，表示“为某件物品/邮件签字确认收到”，不是单纯的“签字”，这里对应挂号信的签收动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "took it",
+      "role": "第一个谓语（动作+宾语）",
+      "explanation": "表示“接过它”，主语是 I，it 指代上文提到的挂号信。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个并列的谓语动作，体现动作的先后承接。"
+    },
+    {
+      "text": "signed for it.",
+      "role": "第二个谓语（短语动词+宾语）",
+      "explanation": "表示“为它签收/签字确认”，it 和前一个宾语指代同一事物。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "took",
+      "meaning": "拿，接",
+      "pos": "动词（过去式）",
+      "phonetic": "/tʊk/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代挂号信）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，然后",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "signed",
+      "meaning": "签字，签名",
+      "pos": "动词（过去式）",
+      "phonetic": "/saɪnd/"
+    },
+    {
+      "text": "for",
+      "meaning": "为了，给（与 sign 构成搭配）",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "it.",
+      "meaning": "它（指代挂号信）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者，描述谁",
+      "meaning": "我"
+    },
+    {
+      "text": "took it",
+      "relation": "第一个动作，先发生的行为",
+      "meaning": "接过了它"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个动作，表承接",
+      "meaning": "并且/然后"
+    },
+    {
+      "text": "signed for it.",
+      "relation": "第二个动作，后发生的行为",
+      "meaning": "为它签了字（签收）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-017",
+  "sentenceOrder": 17,
+  "english": "I took it and signed for it.",
+  "lesson": "Lesson 54 Sticky fingers",
+  "notes": [
+    {
+      "title": "并列谓语的衔接",
+      "text": "and 连接两个先后发生的动作 took it 和 signed for it，两个动作的主语都是 I，读的时候可以理解成“先接过，再签字”，有时间上的先后顺序，不只是单纯并列。"
+    },
+    {
+      "title": "sign for 的搭配含义",
+      "text": "sign for sth 是固定搭配，表示“为某件物品/邮件签字确认收到”，不是单纯的“签字”，这里对应挂号信的签收动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：words 最后一项的词性误将标点归入，其余内容准确；修正词性字段即可。（非逐句人工审核）"
+}

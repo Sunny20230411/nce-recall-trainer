@@ -1,0 +1,115 @@
+{
+  "chinese": "火车站又大又黑又暗。",
+  "intent": "描述作者刚抵达时看到的伦敦火车站外观与内部给人的整体印象。",
+  "comparison": null,
+  "backbone": {
+    "text": "The railway station was big, black and dark.",
+    "meaning": "那座火车站规模大、颜色发黑、光线昏暗。"
+  },
+  "structureNotes": [
+    {
+      "title": "三个并列表语的排列",
+      "text": "句中用 big, black and dark 三个形容词并列描述火车站，前两个用逗号分隔，最后一个前加 and，是英文并列形容词的常见写法。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The railway station",
+      "role": "主语",
+      "explanation": "指句中被描述的对象，即那座火车站。"
+    },
+    {
+      "text": "was",
+      "role": "系动词",
+      "explanation": "用来连接主语和后面的描述，表示主语具有后面形容词所说的特征。"
+    },
+    {
+      "text": "big, black and dark",
+      "role": "并列表语",
+      "explanation": "从规模、外观颜色、光线明暗三个方面共同描述火车站的样子。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这个（用于特指前面提到或双方都知道的事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "railway",
+      "meaning": "铁路",
+      "pos": "名词（此处作定语，修饰station）",
+      "phonetic": "/ˈreɪlweɪ/"
+    },
+    {
+      "text": "station",
+      "meaning": "车站",
+      "pos": "名词",
+      "phonetic": "/ˈsteɪʃn/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be的过去式单数）",
+      "pos": "动词（系动词）",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "big,",
+      "meaning": "大的",
+      "pos": "形容词",
+      "phonetic": "/bɪɡ/"
+    },
+    {
+      "text": "black",
+      "meaning": "黑色的",
+      "pos": "形容词",
+      "phonetic": "/blæk/"
+    },
+    {
+      "text": "and",
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "dark.",
+      "meaning": "昏暗的",
+      "pos": "形容词",
+      "phonetic": "/dɑːk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The railway station",
+      "relation": "描述对象",
+      "meaning": "那座火车站"
+    },
+    {
+      "text": "was",
+      "relation": "连接主语和特征",
+      "meaning": "是（过去）"
+    },
+    {
+      "text": "big, black and dark.",
+      "relation": "描述火车站的特征",
+      "meaning": "又大又黑又暗"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-025",
+  "sentenceId": "nce-2-lesson-025-sentence-002",
+  "sentenceOrder": 2,
+  "english": "The railway station was big, black and dark.",
+  "lesson": "Lesson 25 Do the English speak English?",
+  "notes": [
+    {
+      "title": "三个并列表语的排列",
+      "text": "句中用 big, black and dark 三个形容词并列描述火车站，前两个用逗号分隔，最后一个前加 and，是英文并列形容词的常见写法。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正words项中带标点词的释义不应包含标点说明、railway作为定语的词性标注补充语境说明，及完善并列表语的逻辑说明。（非逐句人工审核）"
+}

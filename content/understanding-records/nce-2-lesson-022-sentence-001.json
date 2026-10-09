@@ -1,0 +1,222 @@
+{
+  "chinese": "我的女儿简从未想过会收到荷兰一位同龄女孩的来信。",
+  "intent": "陈述说话人的女儿简之前完全没有预料到自己会收到来自荷兰同龄女孩的信件，引出后续故事背景。",
+  "comparison": {
+    "chinese": "我的女儿简从未想过会收到一封［来自荷兰一位和她同龄的女孩的］信。",
+    "english": "My daughter, Jane, never dreamed of receiving a letter from a girl of her own age in Holland.",
+    "steps": [
+      {
+        "label": "第一步：先抓主干事件",
+        "text": "My daughter, Jane, never dreamed of receiving a letter",
+        "explanation": "中文先交代人物‘我的女儿简’，再讲核心动作‘从未想过会收到一封信’，和英文的语序基本一致，都把人和核心行为放在前面。"
+      },
+      {
+        "label": "第二步：补充说明这封信的来源",
+        "text": "from a girl of her own age in Holland",
+        "explanation": "英文把信的全部修饰都放在letter后面，顺着‘来自谁→什么样的女孩→在哪里’依次补充；中文习惯把修饰语集中放到‘信’的前面，说成‘来自荷兰一位同龄女孩的信’。"
+      }
+    ],
+    "takeaway": "英文修饰名词的短语常放在名词后面，按‘来源→特征→地点’的顺序往后接；中文会把这些修饰都挪到名词前面，先说清楚是什么样的信。"
+  },
+  "backbone": {
+    "text": "My daughter never dreamed of receiving a letter from a girl.",
+    "meaning": "我的女儿从未想过会收到一位女孩的来信。"
+  },
+  "structureNotes": [
+    {
+      "title": "同位语补充人名",
+      "text": "My daughter, Jane, 中Jane前后用逗号隔开，是对my daughter的补充说明，明确女儿的名字叫简，去掉也不影响句子主干意思。"
+    },
+    {
+      "title": "dreamed of 的用法",
+      "text": "dreamed of 后面接动词的-ing形式（receiving），表示‘梦想/想到做某事’，这里和never搭配表示‘从未想到过’，是过去的想法。"
+    },
+    {
+      "title": "多个短语修饰 a girl",
+      "text": "of her own age 说明女孩的年龄和简相同，in Holland 说明女孩所在的地点，两个短语都放在girl后面，依次补充女孩的特征和位置。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My daughter, Jane,",
+      "role": "主语（含同位语）",
+      "explanation": "整体指句子的主人公，my daughter是核心主语，Jane用逗号隔开，补充说明女儿的名字，属于同位语。"
+    },
+    {
+      "text": "never dreamed of",
+      "role": "谓语部分",
+      "explanation": "表达主语‘从未想到过’的心理状态，dreamed是动词过去式，of是介词，引出想到的具体内容。"
+    },
+    {
+      "text": "receiving a letter from a girl of her own age in Holland",
+      "role": "介词of的宾语（动名词短语）",
+      "explanation": "整体作of的宾语，说明‘想到’的具体内容是收到一封信；后面的from...到结尾都是修饰letter的短语，补充信的来源和写信人的信息。"
+    }
+  ],
+  "words": [
+    {
+      "text": "My",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "daughter,",
+      "meaning": "女儿",
+      "pos": "名词",
+      "phonetic": "/ˈdɔːtə/"
+    },
+    {
+      "text": "Jane,",
+      "meaning": "简（人名）",
+      "pos": "专有名词",
+      "phonetic": "/dʒeɪn/"
+    },
+    {
+      "text": "never",
+      "meaning": "从未，从来没有",
+      "pos": "副词",
+      "phonetic": "/ˈnevə/"
+    },
+    {
+      "text": "dreamed",
+      "meaning": "梦想；想到（过去式）",
+      "pos": "动词",
+      "phonetic": "/driːmd/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（介词，搭配dream）",
+      "pos": "介词",
+      "phonetic": "/əv/"
+    },
+    {
+      "text": "receiving",
+      "meaning": "收到（动名词形式）",
+      "pos": "动名词",
+      "phonetic": "/rɪˈsiːvɪŋ/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "letter",
+      "meaning": "信，信件",
+      "pos": "名词",
+      "phonetic": "/ˈletə/"
+    },
+    {
+      "text": "from",
+      "meaning": "来自",
+      "pos": "介词",
+      "phonetic": "/frɒm/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "girl",
+      "meaning": "女孩",
+      "pos": "名词",
+      "phonetic": "/ɡɜːl/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（介词，表属性）",
+      "pos": "介词",
+      "phonetic": "/əv/"
+    },
+    {
+      "text": "her",
+      "meaning": "她的",
+      "pos": "限定词",
+      "phonetic": "/hɜː/"
+    },
+    {
+      "text": "own",
+      "meaning": "自己的",
+      "pos": "形容词",
+      "phonetic": "/əʊn/"
+    },
+    {
+      "text": "age",
+      "meaning": "年龄",
+      "pos": "名词",
+      "phonetic": "/eɪdʒ/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（某地）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "Holland.",
+      "meaning": "荷兰（国名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈhɒlənd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "My daughter, Jane,",
+      "relation": "句子描述的人物，作主语",
+      "meaning": "我的女儿简"
+    },
+    {
+      "text": "never dreamed of",
+      "relation": "主语的动作/心理状态，作谓语",
+      "meaning": "从未想过"
+    },
+    {
+      "text": "receiving a letter",
+      "relation": "‘想到’的具体内容，是介词of的宾语核心",
+      "meaning": "收到一封信"
+    },
+    {
+      "text": "from a girl",
+      "relation": "补充说明信的来源",
+      "meaning": "来自一个女孩"
+    },
+    {
+      "text": "of her own age",
+      "relation": "描述女孩的年龄特征",
+      "meaning": "和她同龄的"
+    },
+    {
+      "text": "in Holland.",
+      "relation": "说明女孩所在的地点",
+      "meaning": "在荷兰"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-022",
+  "sentenceId": "nce-2-lesson-022-sentence-001",
+  "sentenceOrder": 1,
+  "english": "My daughter, Jane, never dreamed of receiving a letter from a girl of her own age in Holland.",
+  "lesson": "Lesson 22 A glass envelope",
+  "notes": [
+    {
+      "title": "同位语补充人名",
+      "text": "My daughter, Jane, 中Jane前后用逗号隔开，是对my daughter的补充说明，明确女儿的名字叫简，去掉也不影响句子主干意思。"
+    },
+    {
+      "title": "dreamed of 的用法",
+      "text": "dreamed of 后面接动词的-ing形式（receiving），表示‘梦想/想到做某事’，这里和never搭配表示‘从未想到过’，是过去的想法。"
+    },
+    {
+      "title": "多个短语修饰 a girl",
+      "text": "of her own age 说明女孩的年龄和简相同，in Holland 说明女孩所在的地点，两个短语都放在girl后面，依次补充女孩的特征和位置。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅单词释义中多余标注了标点相关描述，按约定去除即可，其余内容符合要求。（非逐句人工审核）"
+}

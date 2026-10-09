@@ -1,0 +1,122 @@
+{
+  "chinese": "我们等啊等，可是什么事都没发生。",
+  "intent": "描述一群人持续等待却没有任何结果的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "We waited and waited, but nothing happened.",
+    "meaning": "我们等了又等，但没有任何事情发生。"
+  },
+  "structureNotes": [
+    {
+      "title": "waited and waited 的表达效果",
+      "text": "用and连接两个相同的动词过去式waited，强调等待动作持续了很久，带有“等了又等”的语感，不是指两次独立的等待。"
+    },
+    {
+      "title": "but 连接的转折关系",
+      "text": "but是并列连词，连接前后两个分句，表达“持续等待”和“毫无结果”之间的转折对比。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We waited and waited,",
+      "role": "转折前的分句",
+      "explanation": "主语是We，谓语是waited and waited，描述人们反复、持续等待的动作。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "连接前后两个分句，引出与前文预期相反的结果。"
+    },
+    {
+      "text": "nothing happened.",
+      "role": "转折后的分句",
+      "explanation": "主语是nothing，谓语是happened，说明等待之后没有任何事件发生。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "人称代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "waited",
+      "meaning": "等待（过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈweɪtɪd/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，又",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "waited,",
+      "meaning": "等待（过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈweɪtɪd/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是，可是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "nothing",
+      "meaning": "没有什么，没有一件事",
+      "pos": "不定代词",
+      "phonetic": "/ˈnʌθɪŋ/"
+    },
+    {
+      "text": "happened.",
+      "meaning": "发生（过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈhæpənd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We",
+      "relation": "动作的发出者",
+      "meaning": "我们"
+    },
+    {
+      "text": "waited and waited,",
+      "relation": "描述主语的动作，强调持续很久",
+      "meaning": "等了又等"
+    },
+    {
+      "text": "but",
+      "relation": "转折连接",
+      "meaning": "但是"
+    },
+    {
+      "text": "nothing happened.",
+      "relation": "转折后的结果",
+      "meaning": "什么事都没发生"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-009",
+  "sentenceId": "nce-2-lesson-009-sentence-006",
+  "sentenceOrder": 6,
+  "english": "We waited and waited, but nothing happened.",
+  "lesson": "Lesson 9 A cold welcome",
+  "notes": [
+    {
+      "title": "waited and waited 的表达效果",
+      "text": "用and连接两个相同的动词过去式waited，强调等待动作持续了很久，带有“等了又等”的语感，不是指两次独立的等待。"
+    },
+    {
+      "title": "but 连接的转折关系",
+      "text": "but是并列连词，连接前后两个分句，表达“持续等待”和“毫无结果”之间的转折对比。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅词项释义存在冗余说明：waited,与happened.的meaning额外标注“带逗号/带句号”不符合要求（标点随词项是约定，无需在释义中说明），其余内容（翻译、主干、结构、短语说明、成分关系）均正确。（非逐句人工审核）"
+}

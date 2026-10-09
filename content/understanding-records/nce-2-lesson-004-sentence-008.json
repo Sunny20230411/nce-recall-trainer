@@ -1,0 +1,109 @@
+{
+  "chinese": "从那里，他会飞到珀斯。",
+  "intent": "说明他接下来的行程：从当前地点飞往珀斯。",
+  "comparison": null,
+  "backbone": {
+    "text": "he will fly to Perth.",
+    "meaning": "他将飞往珀斯"
+  },
+  "structureNotes": [
+    {
+      "title": "句首的地点状语",
+      "text": "From there 放在句首，用逗号隔开，交代“飞”这个动作的出发地点，there 指代前文提到的 Darwin。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "From there,",
+      "role": "地点状语",
+      "explanation": "说明动作出发的地点，there 指代上一句中的 Darwin，放在句首补充行程的起点。"
+    },
+    {
+      "text": "will fly",
+      "role": "谓语",
+      "explanation": "由助动词 will 和实义动词 fly 构成，表达将来要发生的动作“将要乘飞机前往”。"
+    },
+    {
+      "text": "to Perth",
+      "role": "方向状语",
+      "explanation": "用介词 to 引出飞行的目的地，说明 fly 这个动作去往的地方是珀斯。"
+    }
+  ],
+  "words": [
+    {
+      "text": "From",
+      "meaning": "从",
+      "pos": "介词",
+      "phonetic": "/frɒm/"
+    },
+    {
+      "text": "there,",
+      "meaning": "那里",
+      "pos": "代词",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "will",
+      "meaning": "将，会",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "fly",
+      "meaning": "飞，乘飞机",
+      "pos": "动词",
+      "phonetic": "/flaɪ/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "Perth.",
+      "meaning": "珀斯",
+      "pos": "专有名词",
+      "phonetic": "/pɜːθ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "From there,",
+      "relation": "出发地点",
+      "meaning": "从那里"
+    },
+    {
+      "text": "he will fly",
+      "relation": "主干的主语和动作",
+      "meaning": "他将飞"
+    },
+    {
+      "text": "to Perth.",
+      "relation": "飞行的目的地",
+      "meaning": "到珀斯"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-004",
+  "sentenceId": "nce-2-lesson-004-sentence-008",
+  "sentenceOrder": 9,
+  "english": "From there, he will fly to Perth.",
+  "lesson": "Lesson 4 An exciting trip",
+  "notes": [
+    {
+      "title": "句首的地点状语",
+      "text": "From there 放在句首，用逗号隔开，交代“飞”这个动作的出发地点，there 指代前文提到的 Darwin。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅存在两处小问题：1. 单词释义中混入了句末标点（there,的逗号、Perth.的句号不应包含在词义里）；2. 主干的英文文本遗漏了句末句号，需与原文保持一致。其余翻译、结构分析、指代说明均符合要求。（非逐句人工审核）"
+}

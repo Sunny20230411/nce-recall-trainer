@@ -1,0 +1,101 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-076",
+  "sentenceId": "nce-2-lesson-076-sentence-014",
+  "sentenceOrder": 14,
+  "english": "And now, back to Tom in the studio.'",
+  "chinese": "现在回到演播室里的汤姆那里。”",
+  "lesson": "Lesson 76 April Fools' Day",
+  "intent": "把报道从现场切回演播室",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "And now,",
+      "relation": "转场时间",
+      "meaning": "现在"
+    },
+    {
+      "text": "back to Tom in the studio.'",
+      "relation": "交接目标",
+      "meaning": "回到演播室里的汤姆"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "省略转场语",
+      "text": "back to 后接交还发言的对象，in the studio 修饰 Tom 的位置。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "省略转场语",
+      "text": "back to 后接交还发言的对象，in the studio 修饰 Tom 的位置。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "And now,",
+      "role": "连接及时间状语",
+      "explanation": "标记当前转场。"
+    },
+    {
+      "text": "back to Tom in the studio.'",
+      "role": "独立交接语",
+      "explanation": "把节目交回演播室主持人。"
+    }
+  ],
+  "words": [
+    {
+      "text": "And",
+      "meaning": "接着",
+      "pos": "并列连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "now,",
+      "meaning": "现在",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    },
+    {
+      "text": "back",
+      "meaning": "回到",
+      "pos": "副词",
+      "phonetic": "/bæk/"
+    },
+    {
+      "text": "to",
+      "meaning": "交给",
+      "pos": "介词",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "Tom",
+      "meaning": "汤姆",
+      "pos": "专有名词",
+      "phonetic": "/tɒm/"
+    },
+    {
+      "text": "in",
+      "meaning": "在",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "studio.'",
+      "meaning": "演播室",
+      "pos": "名词",
+      "phonetic": "/ˈstjuːdiəʊ/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

@@ -1,0 +1,204 @@
+{
+  "chinese": "托尼几年前在一家律师事务所工作，但他现在在一家银行上班。",
+  "intent": "对比说明托尼过去和现在的工作单位变化，用转折关系突出前后状态的不同。",
+  "comparison": null,
+  "backbone": {
+    "text": "Tony worked in a lawyer's office years ago, but he is now working at a bank.",
+    "meaning": "托尼几年前在律师事务所工作，而他现在在银行工作。"
+  },
+  "structureNotes": [
+    {
+      "title": "but连接的并列转折句",
+      "text": "整句由but连接两个独立分句，前半句讲过去的工作情况，后半句讲现在的工作情况，两者形成工作地点和时间上的对比转折。"
+    },
+    {
+      "title": "时间状语体现时态差异",
+      "text": "前半句用years ago搭配一般过去时worked，表示过去的经历；后半句用now搭配现在进行时is working，表示当前正在持续的状态。"
+    },
+    {
+      "title": "地点介词in/at的选用",
+      "text": "表示在某个办公场所工作时，in a lawyer's office和at a bank都可以表示工作地点，in更侧重在空间内部，at侧重在某个机构地点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Tony worked in a lawyer's office years ago,",
+      "role": "第一个并列分句（过去情况）",
+      "explanation": "说明托尼过去的工作地点和时间，用一般过去时表示已经过去的状态。"
+    },
+    {
+      "text": "but",
+      "role": "并列转折连词",
+      "explanation": "连接前后两个分句，体现过去工作和现在工作的对比转折关系。"
+    },
+    {
+      "text": "he is now working at a bank.",
+      "role": "第二个并列分句（现在情况）",
+      "explanation": "说明托尼当前的工作状态，用现在进行时表示现阶段正在持续的工作情况。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Tony",
+      "meaning": "托尼（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈtəʊni/"
+    },
+    {
+      "text": "worked",
+      "meaning": "工作（work的过去式）",
+      "pos": "动词（过去式）",
+      "phonetic": "/wɜːkt/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（家）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "lawyer's",
+      "meaning": "律师的",
+      "pos": "名词所有格",
+      "phonetic": "/ˈlɔːjəz/"
+    },
+    {
+      "text": "office",
+      "meaning": "办公室，事务所",
+      "pos": "名词",
+      "phonetic": "/ˈɒfɪs/"
+    },
+    {
+      "text": "years",
+      "meaning": "年（year的复数）",
+      "pos": "名词",
+      "phonetic": "/jɪəz/"
+    },
+    {
+      "text": "ago,",
+      "meaning": "以前",
+      "pos": "副词",
+      "phonetic": "/əˈɡəʊ/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be动词第三人称单数现在时，与现在分词构成进行时）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "now",
+      "meaning": "现在",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    },
+    {
+      "text": "working",
+      "meaning": "工作（work的现在分词）",
+      "pos": "动词（现在分词）",
+      "phonetic": "/ˈwɜːkɪŋ/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（某地点）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（家）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "bank.",
+      "meaning": "银行",
+      "pos": "名词",
+      "phonetic": "/bæŋk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Tony",
+      "meaning": "托尼",
+      "relation": "前半句主语（描述对象）"
+    },
+    {
+      "text": "worked",
+      "meaning": "工作过",
+      "relation": "前半句谓语（表示过去的动作）"
+    },
+    {
+      "text": "in a lawyer's office",
+      "meaning": "在一家律师事务所里",
+      "relation": "地点状语，说明工作的场所"
+    },
+    {
+      "text": "years ago,",
+      "meaning": "几年前，",
+      "relation": "时间状语，说明动作发生的过去时间"
+    },
+    {
+      "text": "but",
+      "meaning": "但",
+      "relation": "并列转折连词，连接前后两个分句"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "relation": "后半句主语（描述对象）"
+    },
+    {
+      "text": "is now working",
+      "meaning": "现在正在工作",
+      "relation": "后半句谓语（含时间状语now，表示现阶段正在进行的动作）"
+    },
+    {
+      "text": "at a bank.",
+      "meaning": "在一家银行。",
+      "relation": "地点状语，说明当前工作的场所"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-011",
+  "sentenceId": "nce-2-lesson-011-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Tony worked in a lawyer's office years ago, but he is now working at a bank.",
+  "lesson": "Lesson 11 One good turn deserves another",
+  "notes": [
+    {
+      "title": "but连接的并列转折句",
+      "text": "整句由but连接两个独立分句，前半句讲过去的工作情况，后半句讲现在的工作情况，两者形成工作地点和时间上的对比转折。"
+    },
+    {
+      "title": "时间状语体现时态差异",
+      "text": "前半句用years ago搭配一般过去时worked，表示过去的经历；后半句用now搭配现在进行时is working，表示当前正在持续的状态。"
+    },
+    {
+      "title": "地点介词in/at的选用",
+      "text": "表示在某个办公场所工作时，in a lawyer's office和at a bank都可以表示工作地点，in更侧重在空间内部，at侧重在某个机构地点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，存在几处需修正的细节：1. words中ago和bank的meaning误带句末标点；2. worked的词性标注未明确是动词过去式，working未明确是现在分词作谓语的一部分；3. parts中is now working的relation表述可更规范，明确为后半句谓语（含时间状语）；4. 其余语法、翻译、结构分析均符合要求。（非逐句人工审核）"
+}

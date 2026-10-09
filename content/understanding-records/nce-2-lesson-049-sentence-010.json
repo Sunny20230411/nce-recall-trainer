@@ -1,0 +1,139 @@
+{
+  "chinese": "在那之后，他再也没有睡在屋顶上了。",
+  "intent": "说明前文的事发生后，他之后不再在屋顶睡觉这个结果。",
+  "comparison": null,
+  "backbone": {
+    "text": "he never slept on the roof again.",
+    "meaning": "他再也没有睡在屋顶上。"
+  },
+  "structureNotes": [
+    {
+      "title": "After that的指代作用",
+      "text": "After that是时间短语，that指代上一句提到的“他捡起床垫搬进屋”这件事，用来引出后续的结果。"
+    },
+    {
+      "title": "never + 过去式的含义",
+      "text": "never修饰过去式动词slept，表示在过去那个时间点之后，再也没有发生过睡屋顶的行为，不是“永远不”的现在判断。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "After that,",
+      "role": "时间状语",
+      "explanation": "指明主句动作发生的时间起点，承接上文发生的事件。"
+    },
+    {
+      "text": "never slept",
+      "role": "谓语",
+      "explanation": "由否定副词never和动词过去式slept构成，表示“从未睡过、再也没睡”的状态。"
+    },
+    {
+      "text": "on the roof",
+      "role": "地点状语",
+      "explanation": "说明睡觉这个动作发生的地点是屋顶。"
+    }
+  ],
+  "words": [
+    {
+      "text": "After",
+      "meaning": "在……之后",
+      "pos": "介词",
+      "phonetic": "/ˈɑːftə(r)/"
+    },
+    {
+      "text": "that,",
+      "meaning": "那件事",
+      "pos": "代词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "never",
+      "meaning": "从不，再也不",
+      "pos": "副词",
+      "phonetic": "/ˈnevə(r)/"
+    },
+    {
+      "text": "slept",
+      "meaning": "睡觉（sleep的过去式）",
+      "pos": "动词",
+      "phonetic": "/slept/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "roof",
+      "meaning": "屋顶",
+      "pos": "名词",
+      "phonetic": "/ruːf/"
+    },
+    {
+      "text": "again.",
+      "meaning": "再一次，又",
+      "pos": "副词",
+      "phonetic": "/əˈɡen/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "After that,",
+      "meaning": "在那之后",
+      "relation": "时间"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "relation": "动作发出者"
+    },
+    {
+      "text": "never slept",
+      "meaning": "再也没睡过",
+      "relation": "动作"
+    },
+    {
+      "text": "on the roof",
+      "meaning": "在屋顶上",
+      "relation": "地点"
+    },
+    {
+      "text": "again.",
+      "meaning": "再，又",
+      "relation": "补充频率"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-049",
+  "sentenceId": "nce-2-lesson-049-sentence-010",
+  "sentenceOrder": 11,
+  "english": "After that, he never slept on the roof again.",
+  "lesson": "Lesson 49 The end of a dream",
+  "notes": [
+    {
+      "title": "After that的指代作用",
+      "text": "After that是时间短语，that指代上一句提到的“他捡起床垫搬进屋”这件事，用来引出后续的结果。"
+    },
+    {
+      "title": "never + 过去式的含义",
+      "text": "never修饰过去式动词slept，表示在过去那个时间点之后，再也没有发生过睡屋顶的行为，不是“永远不”的现在判断。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅个别词项的释义含冗余标点说明，且again的词义与语境内含义需细化，修正后可用。（非逐句人工审核）"
+}

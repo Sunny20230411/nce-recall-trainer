@@ -1,0 +1,115 @@
+{
+  "chinese": "我是剩下的少数人之一。",
+  "intent": "说明说话者属于少数没有离开的人，呼应上文多数人被噪音逼走的背景。",
+  "comparison": null,
+  "backbone": {
+    "text": "I am one of the few people left.",
+    "meaning": "我是剩下的少数人之一。"
+  },
+  "structureNotes": [
+    {
+      "title": "left 的后置修饰作用",
+      "text": "left 放在 people 后面，表示“剩下的、留下的”，是从被动含义来的形容词，这里修饰前面的 people，说明这些人是被剩下、没走的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话者本人，是句子描述的对象。"
+    },
+    {
+      "text": "am",
+      "role": "系动词",
+      "explanation": "连接主语和后面的表语，表达“是”的含义。"
+    },
+    {
+      "text": "one of the few people left.",
+      "role": "表语",
+      "explanation": "整体说明主语的身份：是少数留下的人当中的一个；其中 of the few people left 修饰 one，left 后置修饰 people。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "am",
+      "meaning": "是（be的第一人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/æm/"
+    },
+    {
+      "text": "one",
+      "meaning": "一个（人/事物）",
+      "pos": "代词",
+      "phonetic": "/wʌn/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（用于表示所属或范围）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（这里特指后面提到的少数人）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "few",
+      "meaning": "很少的，少数的",
+      "pos": "形容词",
+      "phonetic": "/fjuː/"
+    },
+    {
+      "text": "people",
+      "meaning": "人们",
+      "pos": "名词",
+      "phonetic": "/ˈpiːpl/"
+    },
+    {
+      "text": "left.",
+      "meaning": "剩下的，留下的",
+      "pos": "形容词",
+      "phonetic": "/left/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I am",
+      "relation": "引出陈述的主体和判断",
+      "meaning": "我是"
+    },
+    {
+      "text": "one of the few people",
+      "relation": "说明主语的身份范围",
+      "meaning": "少数人当中的一个"
+    },
+    {
+      "text": "left.",
+      "relation": "补充描述前面的“少数人”是没走、留下的",
+      "meaning": "剩下的"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-021",
+  "sentenceId": "nce-2-lesson-021-sentence-006",
+  "sentenceOrder": 7,
+  "english": "I am one of the few people left.",
+  "lesson": "Lesson 21 Mad or not?",
+  "notes": [
+    {
+      "title": "left 的后置修饰作用",
+      "text": "left 放在 people 后面，表示“剩下的、留下的”，是从被动含义来的形容词，这里修饰前面的 people，说明这些人是被剩下、没走的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，仅需修正words数组中left.的词性标注，left此处为作后置定语的形容词，标注正确，但标点不影响词类，无需额外调整；其余字段均符合要求。（非逐句人工审核）"
+}

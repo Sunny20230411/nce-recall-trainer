@@ -1,0 +1,198 @@
+{
+  "chinese": "他开始抱怨这个世道险恶，但话被一阵敲门声打断了。",
+  "intent": "叙述他刚要抱怨世道，就被敲门声打断的经过。",
+  "comparison": {
+    "chinese": "他开始抱怨这个邪恶的世界，但被敲门声打断了",
+    "english": "He started to complain about this wicked world but was interrupted by a knock at the door.",
+    "steps": [
+      {
+        "label": "先抓前半段主干",
+        "text": "He started to complain about this wicked world",
+        "explanation": "中文说“开始抱怨某件事”，英文用 start to complain about 引出抱怨的对象，语序和中文一致，直接顺读即可。"
+      },
+      {
+        "label": "再接转折后半段",
+        "text": "but was interrupted by a knock at the door",
+        "explanation": "中文说“被敲门声打断”，英文用被动语态 was interrupted by 引出打断的来源，主语承接前面的 he，不用重复说“他被打断”。"
+      }
+    ],
+    "takeaway": "这句话是两个并列的谓语用 but 转折相连，前主动后被动，主语始终是 he，读的时候顺着 but 一转就能理解，不用调整大语序。"
+  },
+  "backbone": {
+    "text": "He started to complain about this wicked world but was interrupted by a knock at the door.",
+    "meaning": "他开始抱怨这个邪恶的世界，但被一阵敲门声打断了。"
+  },
+  "structureNotes": [
+    {
+      "title": "but 连接并列谓语",
+      "text": "but 前后都是说明主语 he 的动作：前面是主动“开始抱怨”，后面是被动“被打断”，两个谓语共享同一个主语 he，属于转折并列。"
+    },
+    {
+      "title": "被动语态 by 引出施动者",
+      "text": "was interrupted by a knock 中，by 用来引出“打断”这个动作的发出者，也就是敲门声，翻译为“被敲门声打断”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "started to complain about this wicked world",
+      "role": "前半部分谓语+宾语",
+      "explanation": "表示主语发出的动作是“开始抱怨这个邪恶的世界”，to complain about... 是 start 的宾语，说明开始做的具体事情。"
+    },
+    {
+      "text": "but",
+      "role": "并列连词",
+      "explanation": "连接前后两个谓语部分，表示语义转折，即“正要做某事，但是发生了另一件事”。"
+    },
+    {
+      "text": "was interrupted by a knock at the door",
+      "role": "后半部分谓语（被动）",
+      "explanation": "主语 he 是“打断”这个动作的承受者，by 引出打断的来源 a knock at the door。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "started",
+      "meaning": "开始",
+      "pos": "动词",
+      "phonetic": "/ˈstɑːtɪd/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "complain",
+      "meaning": "抱怨",
+      "pos": "动词",
+      "phonetic": "/kəmˈpleɪn/"
+    },
+    {
+      "text": "about",
+      "meaning": "关于",
+      "pos": "介词",
+      "phonetic": "/əˈbaʊt/"
+    },
+    {
+      "text": "this",
+      "meaning": "这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "wicked",
+      "meaning": "邪恶的，坏的",
+      "pos": "形容词",
+      "phonetic": "/ˈwɪkɪd/"
+    },
+    {
+      "text": "world",
+      "meaning": "世界",
+      "pos": "名词",
+      "phonetic": "/wɜːld/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，构成被动）",
+      "pos": "助动词",
+      "phonetic": "/wəz/"
+    },
+    {
+      "text": "interrupted",
+      "meaning": "被打断",
+      "pos": "动词过去分词",
+      "phonetic": "/ˌɪntəˈrʌptɪd/"
+    },
+    {
+      "text": "by",
+      "meaning": "被，由",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "a",
+      "meaning": "一阵，一个",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "knock",
+      "meaning": "敲（门声）",
+      "pos": "名词",
+      "phonetic": "/nɒk/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（某处）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（指门）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "door.",
+      "meaning": "门",
+      "pos": "名词",
+      "phonetic": "/dɔː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "动作的发出者，整句话的主语",
+      "meaning": "他"
+    },
+    {
+      "text": "started to complain about this wicked world",
+      "relation": "主语发出的第一个动作及对象",
+      "meaning": "开始抱怨这个邪恶的世界"
+    },
+    {
+      "text": "but",
+      "relation": "表示前后两个动作的转折关系",
+      "meaning": "但是"
+    },
+    {
+      "text": "was interrupted by a knock at the door.",
+      "relation": "主语承受的第二个动作，及打断的来源",
+      "meaning": "被一阵敲门声打断了"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-024",
+  "sentenceId": "nce-2-lesson-024-sentence-006",
+  "sentenceOrder": 6,
+  "english": "He started to complain about this wicked world but was interrupted by a knock at the door.",
+  "lesson": "Lesson 24 It could be worse",
+  "notes": [
+    {
+      "title": "but 连接并列谓语",
+      "text": "but 前后都是说明主语 he 的动作：前面是主动“开始抱怨”，后面是被动“被打断”，两个谓语共享同一个主语 he，属于转折并列。"
+    },
+    {
+      "title": "被动语态 by 引出施动者",
+      "text": "was interrupted by a knock 中，by 用来引出“打断”这个动作的发出者，也就是敲门声，翻译为“被敲门声打断”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅words中door.的meaning误带句末标点，需修正。（非逐句人工审核）"
+}

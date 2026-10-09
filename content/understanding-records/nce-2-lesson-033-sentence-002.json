@@ -1,0 +1,244 @@
+{
+  "chinese": "一天下午，她乘小船从海岸出发，遇上了暴风雨。",
+  "intent": "叙述女主角某天下午驾船出海后遭遇暴风雨的经历。",
+  "comparison": {
+    "chinese": "中文会说“乘小船从海岸出发”，先讲交通方式再讲出发点；英文把“from the coast”放在“in a small boat”前面，先讲出发地点，再讲乘坐的交通工具。",
+    "english": "One afternoon she set out from the coast in a small boat and was caught in a storm.",
+    "steps": [
+      {
+        "label": "第一步：抓住核心动作",
+        "text": "she set out",
+        "explanation": "先读出主干：“她出发了”，这是整句话的第一个主要事件。"
+      },
+      {
+        "label": "第二步：补充出发的相关信息",
+        "text": "from the coast in a small boat",
+        "explanation": "英文先交代“从海岸”这个出发地点，再交代“乘小船”这个出行方式，信息按“地点→方式”排列；中文习惯先说“乘小船”再说“从海岸”，按“方式→地点”排列更顺。"
+      },
+      {
+        "label": "第三步：接上后续发生的事",
+        "text": "and was caught in a storm",
+        "explanation": "and引出第二个事件“遇上暴风雨”，用被动形式表示她是被暴风雨困住，不是主动做的动作。"
+      }
+    ],
+    "takeaway": "描述出行时，英文常把地点状语放在方式状语前面，中文则相反；遇到被动结构可以自然转换成“遇上/遭到”等主动说法，不必硬译“被”字。"
+  },
+  "backbone": {
+    "text": "she set out and was caught in a storm.",
+    "meaning": "她出发了，并且遇上了暴风雨。"
+  },
+  "structureNotes": [
+    {
+      "title": "and连接两个并列的过去事件",
+      "text": "and连接set out与was caught in a storm两个谓语部分，按时间顺序交代先后发生的两件事：先出发，后遭遇暴风雨。"
+    },
+    {
+      "title": "be caught in表示“遇上、陷入”某种坏天气",
+      "text": "was caught in a storm用被动结构表达“被暴风雨困住、遇上暴风雨”的含义，不是“被抓住”的字面意思。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "One afternoon",
+      "role": "时间状语",
+      "explanation": "交代整句话事件发生的时间是某一天的下午。"
+    },
+    {
+      "text": "she",
+      "role": "主语",
+      "explanation": "指句子的动作发出者，也就是故事里的女孩。"
+    },
+    {
+      "text": "set out",
+      "role": "谓语（第一个并列动作）",
+      "explanation": "表示“出发、动身”，是过去时的动作短语。"
+    },
+    {
+      "text": "from the coast",
+      "role": "地点状语",
+      "explanation": "说明出发的地点是海岸。"
+    },
+    {
+      "text": "in a small boat",
+      "role": "方式状语",
+      "explanation": "说明出发时乘坐的交通工具是一艘小船。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个并列的谓语部分，表示动作或事件的承接。"
+    },
+    {
+      "text": "was caught in a storm.",
+      "role": "谓语（第二个并列部分）",
+      "explanation": "表示“遇上了暴风雨”，用被动结构说明主语被暴风雨困住的状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "One",
+      "meaning": "一个",
+      "pos": "数词",
+      "phonetic": "/wʌn/"
+    },
+    {
+      "text": "afternoon",
+      "meaning": "下午",
+      "pos": "名词",
+      "phonetic": "/ˌɑːftəˈnuːn/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "set",
+      "meaning": "放置，使处于（set的过去式，此处与out构成短语）",
+      "pos": "动词",
+      "phonetic": "/set/"
+    },
+    {
+      "text": "out",
+      "meaning": "向外（此处与set构成短语set out，表示出发）",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    },
+    {
+      "text": "from",
+      "meaning": "从",
+      "pos": "介词",
+      "phonetic": "/frəm/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定冠词，此处特指说话双方知晓的海岸）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "coast",
+      "meaning": "海岸",
+      "pos": "名词",
+      "phonetic": "/kəʊst/"
+    },
+    {
+      "text": "in",
+      "meaning": "乘坐（交通工具）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（艘）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "small",
+      "meaning": "小的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/"
+    },
+    {
+      "text": "boat",
+      "meaning": "小船",
+      "pos": "名词",
+      "phonetic": "/bəʊt/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be的第一、三人称单数过去式，此处构成被动语态）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "caught",
+      "meaning": "被困住（catch的过去分词，此处与in搭配表示遇上坏天气）",
+      "pos": "动词过去分词",
+      "phonetic": "/kɔːt/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……之中",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（场）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "storm.",
+      "meaning": "暴风雨",
+      "pos": "名词",
+      "phonetic": "/stɔːm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "One afternoon",
+      "relation": "时间",
+      "meaning": "一天下午"
+    },
+    {
+      "text": "she",
+      "relation": "动作发出者",
+      "meaning": "她"
+    },
+    {
+      "text": "set out",
+      "relation": "第一个动作",
+      "meaning": "出发"
+    },
+    {
+      "text": "from the coast",
+      "relation": "出发地点",
+      "meaning": "从海岸"
+    },
+    {
+      "text": "in a small boat",
+      "relation": "出行方式",
+      "meaning": "乘一艘小船"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个事件",
+      "meaning": "并且"
+    },
+    {
+      "text": "was caught in a storm.",
+      "relation": "第二个事件（遭遇的情况）",
+      "meaning": "遇上了一场暴风雨"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-033",
+  "sentenceId": "nce-2-lesson-033-sentence-002",
+  "sentenceOrder": 2,
+  "english": "One afternoon she set out from the coast in a small boat and was caught in a storm.",
+  "lesson": "Lesson 33 Out of the darkness",
+  "notes": [
+    {
+      "title": "and连接两个并列的过去事件",
+      "text": "and连接set out与was caught in a storm两个谓语部分，按时间顺序交代先后发生的两件事：先出发，后遭遇暴风雨。"
+    },
+    {
+      "title": "be caught in表示“遇上、陷入”某种坏天气",
+      "text": "was caught in a storm用被动结构表达“被暴风雨困住、遇上暴风雨”的含义，不是“被抓住”的字面意思。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：个别词项释义需修正，整体解析准确可用。（非逐句人工审核）"
+}

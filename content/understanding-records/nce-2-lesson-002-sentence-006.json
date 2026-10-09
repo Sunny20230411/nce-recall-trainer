@@ -1,0 +1,91 @@
+{
+  "chinese": "外面一片漆黑。",
+  "intent": "描述窗外当时的环境光线状况，交代天色很黑的事实。",
+  "comparison": null,
+  "backbone": {
+    "text": "It was dark outside.",
+    "meaning": "外面天色很黑。"
+  },
+  "structureNotes": [
+    {
+      "title": "It 的作用",
+      "text": "这里 It 不指代具体事物，用来引出天气、光线这类环境状况，是英文里谈论环境时常用的主语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "主语（指代环境状况）",
+      "explanation": "用来引出光线、天气等无具体主体的环境描述，没有实际的“它”的含义。"
+    },
+    {
+      "text": "was dark",
+      "role": "谓语（系表结构）",
+      "explanation": "was 是 be 动词过去式，dark 是形容词作表语，共同说明环境处于黑暗的状态。"
+    },
+    {
+      "text": "outside.",
+      "role": "地点状语",
+      "explanation": "说明黑暗的范围是在外面、室外。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "它（此处指代环境状况，无实义）",
+      "pos": "代词",
+      "phonetic": "/ɪt/",
+      "text": "It"
+    },
+    {
+      "meaning": "是（be动词过去式）",
+      "pos": "动词",
+      "phonetic": "/wəz/",
+      "text": "was"
+    },
+    {
+      "meaning": "黑暗的",
+      "pos": "形容词",
+      "phonetic": "/dɑːk/",
+      "text": "dark"
+    },
+    {
+      "meaning": "在外面",
+      "pos": "副词",
+      "phonetic": "/ˌaʊtˈsaɪd/",
+      "text": "outside."
+    }
+  ],
+  "parts": [
+    {
+      "text": "It",
+      "relation": "描述对象",
+      "meaning": "（指代外面的环境）"
+    },
+    {
+      "text": "was dark",
+      "relation": "描述状态",
+      "meaning": "是黑暗的"
+    },
+    {
+      "text": "outside.",
+      "relation": "地点",
+      "meaning": "在外面"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-002",
+  "sentenceId": "nce-2-lesson-002-sentence-006",
+  "sentenceOrder": 6,
+  "english": "It was dark outside.",
+  "lesson": "Lesson 2 Breakfast or lunch?",
+  "notes": [
+    {
+      "title": "It 的作用",
+      "text": "这里 It 不指代具体事物，用来引出天气、光线这类环境状况，是英文里谈论环境时常用的主语。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，仅一处语法术语需修正：It 在此类谈论天气/光线等环境状况的句子中是实义主语（指代环境），不属于形式主语（形式主语仅用于替代后置的真正主语如不定式/从句），其余内容符合要求。（非逐句人工审核）"
+}

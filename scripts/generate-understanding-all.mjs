@@ -16,8 +16,11 @@ await mkdir(root, { recursive: true });
 await mkdir('reports/understanding-all', { recursive: true });
 const pilot = JSON.parse(await readFile('content/sentence-understanding.pilot.v1.json', 'utf8'));
 const protectedKeys = new Set(pilot.records.map(recordKey));
-const browser = await chromium.launch({ headless: true, executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe' });
 let sources;
+if (process.argv.includes('--stored-source')) {
+  sources = JSON.parse(await readFile('content/understanding-source-index.v1.json', 'utf8')).records;
+} else {
+const browser = await chromium.launch({ headless: true, executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe' });
 try {
   const page = await browser.newPage();
   await page.goto(pathToFileURL(resolve('index.html')).href);
@@ -28,6 +31,7 @@ try {
   })))));
 } finally { await browser.close(); }
 await writeFile('content/understanding-source-index.v1.json', JSON.stringify({ schemaVersion: '1.0.0', revision: 4, records: sources }, null, 2) + '\n');
+}
 console.log(`Source inventory: ${sources.length}; ${JSON.stringify(sources.reduce((counts, source) => ({ ...counts, [source.courseId]: (counts[source.courseId] || 0) + 1 }), {}))}; concurrency ${concurrency}`);
 
 async function model(rules, data, budget, format) {
@@ -37,6 +41,14 @@ async function model(rules, data, budget, format) {
     body: JSON.stringify({ model: process.env.ARK_MODEL || 'doubao-seed-2-0-lite-260428', store: false, thinking: { type: 'disabled' }, max_output_tokens: budget, text: { format },
       input: [{ role: 'system', content: rules }, { role: 'user', content: JSON.stringify(data) }] })
   });
+  if (response.status === 429) {
+    const details = await response.clone().json().catch(() => ({}));
+    if (details.error?.code === 'SetLimitExceeded') {
+      const error = Error('Model HTTP 429: SetLimitExceeded (account usage cap; completed records preserved)');
+      error.fatal = true;
+      throw error;
+    }
+  }
   if (response.status === 429 || response.status >= 500) {
     await new Promise(resolve => setTimeout(resolve, Math.min(60000, 5000 * (retry + 1))));
     continue;
@@ -65,7 +77,7 @@ async function generate(source) {
   try {
     const prior = JSON.parse(await readFile(path, 'utf8'));
     if (prior.analysisSource === 'human') { skipped++; return; }
-    if (prior.english === source.english && !validateUnderstanding(prior).length && prior.analysisStatus === 'approved') { skipped++; return; }
+    if (prior.english === source.english && !validateUnderstanding(prior).length && /[\u3400-\u9fff]/u.test(prior.chinese) && /[\u3400-\u9fff]/u.test(prior.intent) && prior.analysisStatus === 'approved') { skipped++; return; }
   } catch (error) { if (error.code !== 'ENOENT' && !(error instanceof SyntaxError)) throw error; }
   let problem = '';
   for (let attempt = 0; attempt < 3; attempt++) {
@@ -74,7 +86,7 @@ async function generate(source) {
       const format = structuredClone(generationFormat);
       format.schema.properties.words.minItems = sourceTokens.length;
       format.schema.properties.words.maxItems = sourceTokens.length;
-      if (sourceTokens.length <= 60) {
+      if (sourceTokens.length <= 60 && !process.argv.includes('--no-span-enum')) {
         const phrases = sourceTokens.flatMap((_, start) => sourceTokens.slice(start).map((_, offset) => sourceTokens.slice(start, start + offset + 1).join(' ')));
         format.schema.properties.structures.items.properties.text.enum = phrases;
       }
@@ -98,7 +110,7 @@ async function generate(source) {
       const partArray = reviewSchema.schema.properties.patch.properties.parts.anyOf[0];
       partArray.minItems = draft.parts.length;
       partArray.maxItems = draft.parts.length;
-      if (sourceTokens.length <= 60) reviewSchema.schema.properties.patch.properties.structures.anyOf[0].items.properties.text.enum = format.schema.properties.structures.items.properties.text.enum;
+      if (format.schema.properties.structures.items.properties.text.enum) reviewSchema.schema.properties.patch.properties.structures.anyOf[0].items.properties.text.enum = format.schema.properties.structures.items.properties.text.enum;
       const review = await model(reviewRules + '\n结构化patch字段：无需修改的字段填null；comparison为null时保留原值，需要删除比较时在reason说明并使用空chinese和english。parts只能更正原分块的meaning和relation，保留text及数组长度。', { context: source.context, record }, 5500, reviewSchema);
       if (review.approved !== true) throw Error(`Reviewer: ${review.reason}`);
       const allowed = ['chinese', 'intent', 'comparison', 'backbone', 'parts', 'structureNotes', 'structures', 'words'];
@@ -115,6 +127,9 @@ async function generate(source) {
       record.analysisStatus = 'approved';
       record.reviewNote = `模型独立复核后通过：${review.reason || '核对翻译、主干、关系、结构和词义。'}（非逐句人工审核）`;
       errors = validateUnderstanding(record);
+      for (const value of [record.chinese, record.intent, record.backbone?.meaning, ...(record.structureNotes || []).map(note => note.text), ...(record.parts || []).flatMap(part => [part.meaning, part.relation])]) {
+        if (typeof value !== 'string' || !/[\u3400-\u9fff]/u.test(value)) errors.push('Teaching explanation must contain Chinese');
+      }
       if (errors.length) {
         await writeFile(`reports/understanding-all/${source.sentenceId}-rejected.json`, JSON.stringify({ source, draft, review, errors }, null, 2));
         throw Error(errors.join('; '));

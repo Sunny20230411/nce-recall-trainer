@@ -1,0 +1,79 @@
+{
+  "chinese": "几小时前，",
+  "intent": "交代后续事件发生的相对时间背景，说明事情是在比前面提到的时刻更早几个小时的时候发生的。",
+  "comparison": null,
+  "backbone": {
+    "text": "A few hours earlier,",
+    "meaning": "比某个参照时间早几个小时的时候。"
+  },
+  "structureNotes": [
+    {
+      "title": "earlier的时间参照",
+      "text": "这里的earlier不是泛指“更早”，是相对于前文提到的警方等待包裹等事件的时间往前推几小时，理解时要结合上下文找参照时间点。"
+    },
+    {
+      "title": "时间短语的位置",
+      "text": "这个时间短语放在句首，后面用逗号和主句隔开，作用是先给全句定下时间背景，再讲具体发生了什么事。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A few hours earlier,",
+      "role": "时间状语",
+      "explanation": "整个短语用来表示事件发生的相对时间，意思是“几小时前”，以语境里某个过去的时间点为参照往前算几个小时。"
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "meaning": "一（用于固定短语a few中，表示“几个”）",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "few",
+      "meaning": "少量的，几个的",
+      "pos": "形容词",
+      "phonetic": "/fjuː/"
+    },
+    {
+      "text": "hours",
+      "meaning": "小时",
+      "pos": "名词",
+      "phonetic": "/ˈaʊəz/"
+    },
+    {
+      "text": "earlier,",
+      "meaning": "更早地，较早地",
+      "pos": "副词",
+      "phonetic": "/ˈɜːliə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "A few hours earlier,",
+      "relation": "时间（交代后续主句事件的相对发生时间）",
+      "meaning": "几小时前，"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-007",
+  "sentenceId": "nce-2-lesson-007-sentence-003-part-01",
+  "sentenceOrder": 3,
+  "english": "A few hours earlier,",
+  "lesson": "Lesson 7 Too late",
+  "notes": [
+    {
+      "title": "earlier的时间参照",
+      "text": "这里的earlier不是泛指“更早”，是相对于前文提到的警方等待包裹等事件的时间往前推几小时，理解时要结合上下文找参照时间点。"
+    },
+    {
+      "title": "时间短语的位置",
+      "text": "这个时间短语放在句首，后面用逗号和主句隔开，作用是先给全句定下时间背景，再讲具体发生了什么事。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：存在两处可修正问题：1. 单词earlier的英式音标标注不规范，缺少对应音节的重音标识，标准英式音标应为/ˈɜːliə(r)/；2. 单词hours的词性标注表述不严谨，词性本身为名词，“复数”属于词形变化范畴，不应并入词性栏。其余内容符合要求。（非逐句人工审核）"
+}

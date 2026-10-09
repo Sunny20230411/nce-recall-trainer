@@ -1,0 +1,118 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-060",
+  "sentenceId": "nce-2-lesson-060-sentence-010",
+  "sentenceOrder": 11,
+  "english": "My sister was waiting for me when I got home.",
+  "chinese": "我到家时，姐姐正在等我。",
+  "lesson": "Lesson 60 The future",
+  "intent": "描述到家那一刻姐姐正在进行的活动",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "My sister was waiting for me",
+      "relation": "持续情形",
+      "meaning": "姐姐正在等我"
+    },
+    {
+      "text": "when I got home.",
+      "relation": "观察时点",
+      "meaning": "当我到家时"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "进行与时点",
+      "text": "was waiting 是过去正在进行的动作，got home 提供观察它的时点。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "进行与时点",
+      "text": "was waiting 是过去正在进行的动作，got home 提供观察它的时点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My sister",
+      "role": "主语",
+      "explanation": "等待的人。"
+    },
+    {
+      "text": "was waiting for me",
+      "role": "谓语及对象",
+      "explanation": "说明正在等待我。"
+    },
+    {
+      "text": "when I got home.",
+      "role": "时间状语从句",
+      "explanation": "说明等待发生的叙事时点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "My",
+      "meaning": "我的",
+      "pos": "物主限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "sister",
+      "meaning": "姐姐",
+      "pos": "名词",
+      "phonetic": "/ˈsɪstə/"
+    },
+    {
+      "text": "was",
+      "meaning": "当时正在",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "waiting",
+      "meaning": "等候",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈweɪtɪŋ/"
+    },
+    {
+      "text": "for",
+      "meaning": "等候的对象是",
+      "pos": "介词",
+      "phonetic": "/fɔː/ 或 /fər/"
+    },
+    {
+      "text": "me",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/miː/ 或 /mɪ/"
+    },
+    {
+      "text": "when",
+      "meaning": "当……时",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "got",
+      "meaning": "到达",
+      "pos": "动词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "home.",
+      "meaning": "家",
+      "pos": "副词",
+      "phonetic": "/həʊm/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

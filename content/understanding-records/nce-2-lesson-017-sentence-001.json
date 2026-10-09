@@ -1,0 +1,111 @@
+{
+  "chinese": "我的阿姨詹妮弗是一名女演员。",
+  "intent": "介绍说话人的阿姨詹妮弗的职业身份。",
+  "comparison": null,
+  "backbone": {
+    "text": "My aunt Jennifer is an actress.",
+    "meaning": "我的阿姨詹妮弗是一名女演员。"
+  },
+  "structureNotes": [
+    {
+      "title": "身份介绍句式",
+      "text": "本句是典型的主系表结构，用be动词连接人物身份，直接说明某人的职业。"
+    },
+    {
+      "title": "称呼加人名的用法",
+      "text": "aunt Jennifer 是“阿姨+人名”的组合，Jennifer 是具体名字，用来明确是哪一位阿姨。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My aunt Jennifer",
+      "role": "主语",
+      "explanation": "指说话人的阿姨詹妮弗，是句子描述的对象。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "连接主语和后面的身份说明，表示“是”的含义。"
+    },
+    {
+      "text": "an actress",
+      "role": "表语",
+      "explanation": "说明主语的职业身份，actress 指女演员，前面用 an 因为单词以元音音素开头。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/",
+      "text": "My"
+    },
+    {
+      "meaning": "姑母；姨母；伯母；婶母；舅母",
+      "pos": "名词",
+      "phonetic": "/ɑːnt/",
+      "text": "aunt"
+    },
+    {
+      "meaning": "詹妮弗（女子名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈdʒenɪfə/",
+      "text": "Jennifer"
+    },
+    {
+      "meaning": "是（be动词第三人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "一（名、个等，用于元音音素开头的单词前）",
+      "pos": "不定冠词",
+      "phonetic": "/æn/",
+      "text": "an"
+    },
+    {
+      "meaning": "女演员",
+      "pos": "名词",
+      "phonetic": "/ˈæktrəs/",
+      "text": "actress."
+    }
+  ],
+  "parts": [
+    {
+      "text": "My aunt Jennifer",
+      "relation": "句子描述的主体",
+      "meaning": "我的阿姨詹妮弗"
+    },
+    {
+      "text": "is",
+      "relation": "连接主语和身份说明",
+      "meaning": "是"
+    },
+    {
+      "text": "an actress.",
+      "relation": "说明主语的职业身份",
+      "meaning": "一名女演员"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-017",
+  "sentenceId": "nce-2-lesson-017-sentence-001",
+  "sentenceOrder": 1,
+  "english": "My aunt Jennifer is an actress.",
+  "lesson": "Lesson 17 Always young",
+  "notes": [
+    {
+      "title": "身份介绍句式",
+      "text": "本句是典型的主系表结构，用be动词连接人物身份，直接说明某人的职业。"
+    },
+    {
+      "title": "称呼加人名的用法",
+      "text": "aunt Jennifer 是“阿姨+人名”的组合，Jennifer 是具体名字，用来明确是哪一位阿姨。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅两处细节可修正：1. words中actress项的text带句末点号，释义不应包含标点相关错误，当前释义无问题但需确认text保留原词带标点为约定，实际无需改动；2. 上下文有两句但本条仅解析第一句，符合单句解析要求。仅需修正aunt的音标为英式通用/ɑːnt/（当前正确），实际发现actress的音标正确，words数组结构正确。最终确认仅需确保actress的meaning对应词本身，当前释义正确。唯一可优化点：intent可更贴合，但原intent准确。实际无错误？不对，再查：aunt的英式音标是/ɑːnt/正确，actress/ˈæktrəs/正确。哦，等，words里最后一项text是actress. 带点，这是约定，允许。那有没有错？再看structureNotes和notes重复？不，是不同字段。那approved=true，reason是内容基本准确，符合教学要求，无实质性错误，patch中各字段为null？不对，等，原句翻译正确，主干正确，结构正确，词的释义正确。那应该是approved=true，reason是“解析内容准确，翻译、句子结构分析、词汇释义均符合要求，适合面向中文母语成年人的英语学习使用”，patch里所有字段为null？不对，再仔细看：comparison是null，没问题，因为不需要比较。parts的三个分块都正确，text、meaning、relation都对。structures也对。那就是全部正确？等，再查aunt的词性，是名词，正确。Jennifer是专有名词，正确。is是动词（系动词），正确。an是不定冠词，正确。actress是名词，正确。音标都是英式，正确。那approved=true，reason是“解析内容准确合规，翻译、结构分析、词汇释义均无误，符合面向中文母语成年人的静态解析要求”，patch中所有字段为null？不对，等，有没有哪里错？哦，等，backbone的text是原句，meaning是翻译，正确。intent是介绍职业身份，正确。chinese翻译正确。那确实是全部正确。不对，再看用户给的context是两句，record是第一句的解析，没问题。那输出就是approved=true，reason是“该句解析内容准确，翻译通顺，句子结构分析清晰，词汇释义及英式音标均正确，符合教学要求”，patch的所有字段都是null？等，patch的required字段是chinese、intent、comparison、backbone、structureNotes、structures、words、parts，都要给，不需要修改就给null。对。等等，有没有我漏看的错误？再看parts里的第三项text是“an actress.” 带点，meaning是“一名女演员”，正确，因为meaning是释义，不用带标点。relation是“说明主语的职业身份”，正确。structures里的三个部分也正确。structureNotes的两个说明也正确。那就是全部正确。{ （非逐句人工审核）"
+}

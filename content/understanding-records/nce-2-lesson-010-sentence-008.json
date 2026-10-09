@@ -1,0 +1,132 @@
+{
+  "chinese": "她试着在那架乐器上演奏爵士乐！",
+  "intent": "说明那位访客做出的动作：尝试用这件乐器弹奏爵士乐。",
+  "comparison": null,
+  "backbone": {
+    "text": "She tried to play jazz on it.",
+    "meaning": "她试图用它演奏爵士乐。"
+  },
+  "structureNotes": [
+    {
+      "title": "try to do 的含义",
+      "text": "tried to play 表示“努力/尝试做某事”，不强调结果是否成功，只说明有尝试弹奏的动作。"
+    },
+    {
+      "title": "it 的指代",
+      "text": "句尾的 it 指代上文中提到的被损坏的乐器（古钢琴），on it 说明弹奏的载体。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "主语",
+      "explanation": "动作的发出者，指前文提到的访客。"
+    },
+    {
+      "text": "tried",
+      "role": "谓语动词",
+      "explanation": "表示“尝试、试图”，是句子的核心动作。"
+    },
+    {
+      "text": "to play jazz on it",
+      "role": "不定式短语作宾语",
+      "explanation": "整体说明 tried 的具体内容，即尝试做的事是什么。"
+    },
+    {
+      "text": "jazz",
+      "role": "play的宾语",
+      "explanation": "指被演奏的音乐类型——爵士乐。"
+    },
+    {
+      "text": "on it",
+      "role": "地点/方式状语",
+      "explanation": "说明演奏爵士乐所用的乐器载体，it 指代上文的乐器。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "tried",
+      "meaning": "尝试；试图（过去式）",
+      "pos": "动词",
+      "phonetic": "/traɪd/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "play",
+      "meaning": "演奏；弹奏",
+      "pos": "动词",
+      "phonetic": "/pleɪ/"
+    },
+    {
+      "text": "jazz",
+      "meaning": "爵士乐",
+      "pos": "名词",
+      "phonetic": "/dʒæz/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……之上；用（某种乐器）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "it!",
+      "meaning": "它（指代前文的乐器）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "relation": "描述谁"
+    },
+    {
+      "text": "tried",
+      "meaning": "尝试",
+      "relation": "核心动作"
+    },
+    {
+      "text": "to play jazz",
+      "meaning": "演奏爵士乐",
+      "relation": "尝试的具体内容"
+    },
+    {
+      "text": "on it!",
+      "meaning": "用它（指乐器）",
+      "relation": "演奏的载体"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-010",
+  "sentenceId": "nce-2-lesson-010-sentence-008",
+  "sentenceOrder": 8,
+  "english": "She tried to play jazz on it!",
+  "lesson": "Lesson 10 Not for jazz",
+  "notes": [
+    {
+      "title": "try to do 的含义",
+      "text": "tried to play 表示“努力/尝试做某事”，不强调结果是否成功，只说明有尝试弹奏的动作。"
+    },
+    {
+      "title": "it 的指代",
+      "text": "句尾的 it 指代上文中提到的被损坏的乐器（古钢琴），on it 说明弹奏的载体。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，仅存在2处可明确修正的问题：1. words数组最后一项词性标注错误，将感叹号混入词性，感叹号是标点不属于词性，it本身为代词；2. parts中“on it!”的直译不够贴合乐器语境，应明确表示“用它（演奏）”更准确。（非逐句人工审核）"
+}

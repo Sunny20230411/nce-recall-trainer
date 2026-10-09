@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-039",
+  "sentenceId": "nce-2-lesson-039-sentence-004",
+  "english": "When the doctor answered the phone, Mr.",
+  "text": "这句用 When the doctor answered the phone 先把场景切到医生接起电话的瞬间，再准备引出吉尔伯特的话。它的作用是把前后两个动作衔接起来，不是重点描述医生怎么接电话。写连贯叙事时，也可以用“when + 对方动作”切换到下一个对话回合。",
+  "sourceDigest": "6eda24f03a0ba581144459b1c167a3cd317022703240d487649f2fdc6b84f8e6",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：点出了场景切换的叙事功能，不是单纯讲时间状语，迁移贴合叙事写作需求。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "准确点出when分句的场景切换与衔接功能，贴合叙事语境，迁移实用。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

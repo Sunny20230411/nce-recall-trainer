@@ -1,0 +1,179 @@
+{
+  "chinese": "艾莉森船长将于八点出发，所以我们的时间很充裕。",
+  "intent": "说明艾莉森船长的出发时间，并由此推出我们有充足时间。",
+  "comparison": null,
+  "backbone": {
+    "text": "Captain Alison will set out, so we'll have plenty of time.",
+    "meaning": "艾莉森船长将要出发，所以我们有充足的时间。"
+  },
+  "structureNotes": [
+    {
+      "title": "so连接的并列句",
+      "text": "so在这里是并列连词，连接两个独立分句，表示后一句是前一句带来的结果。"
+    },
+    {
+      "title": "set out的含义",
+      "text": "set out是固定短语，意为“出发、动身”，和will搭配表示将来的动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Captain Alison will set out at eight o'clock,",
+      "role": "原因分句",
+      "explanation": "陈述艾莉森船长八点出发这件事，作为后面结论的原因。"
+    },
+    {
+      "text": "so",
+      "role": "并列连词",
+      "explanation": "连接前后两个分句，表明因果关系。"
+    },
+    {
+      "text": "we'll have plenty of time.",
+      "role": "结果分句",
+      "explanation": "说明由前面出发时间晚带来的结果：我们时间充足。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Captain",
+      "meaning": "船长，上尉",
+      "pos": "名词",
+      "phonetic": "/ˈkæptɪn/"
+    },
+    {
+      "text": "Alison",
+      "meaning": "艾莉森（人名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈælɪsən/"
+    },
+    {
+      "text": "will",
+      "meaning": "将要，会",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "set",
+      "meaning": "（与out构成短语set out，意为出发）",
+      "pos": "动词",
+      "phonetic": "/set/"
+    },
+    {
+      "text": "out",
+      "meaning": "（与set构成短语set out，意为出发）",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（某时间点）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "eight",
+      "meaning": "八，八个",
+      "pos": "数词",
+      "phonetic": "/eɪt/"
+    },
+    {
+      "text": "o'clock,",
+      "meaning": "……点钟",
+      "pos": "副词",
+      "phonetic": "/əˈklɒk/"
+    },
+    {
+      "text": "so",
+      "meaning": "所以，因此",
+      "pos": "连词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "we'll",
+      "meaning": "我们将，我们会",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/wiːl/"
+    },
+    {
+      "text": "have",
+      "meaning": "有，拥有",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "plenty",
+      "meaning": "大量，充足",
+      "pos": "名词",
+      "phonetic": "/ˈplenti/"
+    },
+    {
+      "text": "of",
+      "meaning": "（用于构成plenty of短语，表示大量的）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "time.",
+      "meaning": "时间",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Captain Alison",
+      "meaning": "艾莉森船长",
+      "relation": "主语（出发动作的发出者）"
+    },
+    {
+      "text": "will set out",
+      "meaning": "将要出发",
+      "relation": "谓语（描述主语的动作）"
+    },
+    {
+      "text": "at eight o'clock,",
+      "meaning": "在八点钟",
+      "relation": "时间状语（说明出发的时间）"
+    },
+    {
+      "text": "so",
+      "meaning": "所以",
+      "relation": "并列连词（连接前后分句，表因果关系）"
+    },
+    {
+      "text": "we'll",
+      "meaning": "我们会",
+      "relation": "主语（有时间的主体）+助动词（构成将来时）"
+    },
+    {
+      "text": "have",
+      "meaning": "有",
+      "relation": "谓语（描述主语的状态）"
+    },
+    {
+      "text": "plenty of time.",
+      "meaning": "大量的时间",
+      "relation": "宾语（说明拥有的事物）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-012",
+  "sentenceId": "nce-2-lesson-012-sentence-006",
+  "sentenceOrder": 6,
+  "english": "Captain Alison will set out at eight o'clock, so we'll have plenty of time.",
+  "lesson": "Lesson 12 Goodbye and good luck",
+  "notes": [
+    {
+      "title": "so连接的并列句",
+      "text": "so在这里是并列连词，连接两个独立分句，表示后一句是前一句带来的结果。"
+    },
+    {
+      "title": "set out的含义",
+      "text": "set out是固定短语，意为“出发、动身”，和will搭配表示将来的动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析逻辑正确，存在几处可修正的细节：1. 词汇部分set的释义未结合短语语境，plenty词性标注有误，of标注为“……的”不准确，o'clock和time项末尾标点不应混入释义或词性说明；2. 主干中“要出发”的表述不够贴合原文将来时的准确语气；3. 部分结构关系的表述可更严谨。（非逐句人工审核）"
+}

@@ -1,0 +1,125 @@
+{
+  "chinese": "她朝那束光游去，但光线消失了。",
+  "intent": "叙述连续发生的两个转折动作：人物向光源游去，光源却随即消失。",
+  "comparison": null,
+  "backbone": {
+    "text": "She swam towards it, but the light disappeared.",
+    "meaning": "她朝它游去，但光线消失了。"
+  },
+  "structureNotes": [
+    {
+      "title": "but连接的转折并列句",
+      "text": "but是并列连词，连接前后两个独立分句，后一句表达的结果和前一句的动作预期形成转折。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She swam towards it,",
+      "role": "前一个并列分句",
+      "explanation": "交代人物发出的动作及方向，主语是She，谓语是swam，towards it说明游动的方向目标。"
+    },
+    {
+      "text": "but",
+      "role": "转折并列连词",
+      "explanation": "连接两个独立分句，表明后一分句的情况和前一分句的预期相反。"
+    },
+    {
+      "text": "the light disappeared.",
+      "role": "后一个并列分句",
+      "explanation": "陈述转折后的结果，主语是the light，谓语是disappeared，表示光线消失这个动作。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "她",
+      "pos": "人称代词",
+      "phonetic": "/ʃiː/",
+      "text": "She"
+    },
+    {
+      "meaning": "游泳（swim的过去式）",
+      "pos": "动词",
+      "phonetic": "/swæm/",
+      "text": "swam"
+    },
+    {
+      "meaning": "朝，向",
+      "pos": "介词",
+      "phonetic": "/təˈwɔːdz/",
+      "text": "towards"
+    },
+    {
+      "meaning": "它（指代前文的光）",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/",
+      "text": "it,"
+    },
+    {
+      "meaning": "但是，然而",
+      "pos": "连词",
+      "phonetic": "/bʌt/",
+      "text": "but"
+    },
+    {
+      "meaning": "这，那（定冠词，特指前文提到的光）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "光，光线",
+      "pos": "名词",
+      "phonetic": "/laɪt/",
+      "text": "light"
+    },
+    {
+      "meaning": "消失（disappear的过去式）",
+      "pos": "动词",
+      "phonetic": "/ˌdɪsəˈpɪəd/",
+      "text": "disappeared."
+    }
+  ],
+  "parts": [
+    {
+      "text": "She",
+      "relation": "动作发出者",
+      "meaning": "她"
+    },
+    {
+      "text": "swam towards it,",
+      "relation": "描述她的动作及方向",
+      "meaning": "朝它游去"
+    },
+    {
+      "text": "but",
+      "relation": "转折连接",
+      "meaning": "但是"
+    },
+    {
+      "text": "the light",
+      "relation": "后一分句的动作发出者",
+      "meaning": "那束光线"
+    },
+    {
+      "text": "disappeared.",
+      "relation": "描述光线的动作",
+      "meaning": "消失了"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-033",
+  "sentenceId": "nce-2-lesson-033-sentence-005",
+  "sentenceOrder": 5,
+  "english": "She swam towards it, but the light disappeared.",
+  "lesson": "Lesson 33 Out of the darkness",
+  "notes": [
+    {
+      "title": "but连接的转折并列句",
+      "text": "but是并列连词，连接前后两个独立分句，后一句表达的结果和前一句的动作预期形成转折。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅单词部分的it和disappeared附带标点不影响词义理解，音标和释义无误，语法分析正确，翻译准确。（非逐句人工审核）"
+}

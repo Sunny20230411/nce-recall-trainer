@@ -1,0 +1,140 @@
+{
+  "chinese": "明晚他们将在工人俱乐部演唱。",
+  "intent": "告知对方绿林男孩乐队明晚的演出安排，说明演出的时间和地点。",
+  "comparison": null,
+  "backbone": {
+    "text": "they will be singing",
+    "meaning": "他们将要进行演唱"
+  },
+  "structureNotes": [
+    {
+      "title": "将来进行时的含义",
+      "text": "will be singing 是将来进行时，用来表示将来某一特定时间正在进行的动作，这里指明晚那段时间他们会处于演唱的状态，比一般将来时更强调当时正在进行的画面感。"
+    },
+    {
+      "title": "地点状语的位置",
+      "text": "at the Workers' Club 放在句末说明演唱的地点，英语中通常把时间、地点这类补充信息放在句子末尾，中文习惯把时间地点放在主语前面。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Tomorrow evening",
+      "role": "时间状语",
+      "explanation": "说明唱歌这件事发生的时间是明天晚上。"
+    },
+    {
+      "text": "will be singing",
+      "role": "谓语",
+      "explanation": "由 will + be + 现在分词构成将来进行时，表达将来某段时间正在进行的动作，主语是 they。"
+    },
+    {
+      "text": "at the Workers' Club",
+      "role": "地点状语",
+      "explanation": "用介词 at 引出具体的小地点，说明演唱的场所是工人俱乐部。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Tomorrow",
+      "meaning": "明天",
+      "pos": "名词",
+      "phonetic": "/təˈmɒrəʊ/"
+    },
+    {
+      "text": "evening",
+      "meaning": "晚上，傍晚",
+      "pos": "名词",
+      "phonetic": "/ˈiːvnɪŋ/"
+    },
+    {
+      "text": "they",
+      "meaning": "他们，她们，它们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "will",
+      "meaning": "将要，会（助动词，构成将来时）",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "be",
+      "meaning": "（助动词，与singing构成进行时）",
+      "pos": "助动词",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "singing",
+      "meaning": "唱歌，演唱（现在分词）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈsɪŋɪŋ/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（表示地点、场所）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那家（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "Workers'",
+      "meaning": "工人们的（所有格）",
+      "pos": "名词所有格",
+      "phonetic": "/ˈwɜːkəz/"
+    },
+    {
+      "text": "Club.",
+      "meaning": "俱乐部",
+      "pos": "名词",
+      "phonetic": "/klʌb/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Tomorrow evening",
+      "meaning": "明天晚上",
+      "relation": "时间"
+    },
+    {
+      "text": "they",
+      "meaning": "他们",
+      "relation": "动作的发出者"
+    },
+    {
+      "text": "will be singing",
+      "meaning": "将会正在演唱",
+      "relation": "主语的动作"
+    },
+    {
+      "text": "at the Workers' Club.",
+      "meaning": "在工人俱乐部",
+      "relation": "动作发生的地点"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-013",
+  "sentenceId": "nce-2-lesson-013-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Tomorrow evening they will be singing at the Workers' Club.",
+  "lesson": "Lesson 13 The Greenwood Boys",
+  "notes": [
+    {
+      "title": "将来进行时的含义",
+      "text": "will be singing 是将来进行时，用来表示将来某一特定时间正在进行的动作，这里指明晚那段时间他们会处于演唱的状态，比一般将来时更强调当时正在进行的画面感。"
+    },
+    {
+      "title": "地点状语的位置",
+      "text": "at the Workers' Club 放在句末说明演唱的地点，英语中通常把时间、地点这类补充信息放在句子末尾，中文习惯把时间地点放在主语前面。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，存在两处可修正的小问题：1. words中Club.的释义额外标注了句末带句号的冗余说明，不符合仅解释词本身的要求；2. parts中will be singing的译文「将要在演唱」表述不够自然规范，其余内容均符合要求。（非逐句人工审核）"
+}

@@ -1,0 +1,138 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-056",
+  "sentenceId": "nce-2-lesson-056-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Some of the cars went very fast, but others moved very slowly.",
+  "chinese": "有些汽车开得很快，另一些却行驶得很慢。",
+  "lesson": "Lesson 56 Faster than sound!",
+  "intent": "对比参赛车辆的速度差异",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "Some of the cars went very fast,",
+      "relation": "一部分车辆",
+      "meaning": "有些汽车开得很快"
+    },
+    {
+      "text": "but others moved very slowly.",
+      "relation": "另一部分的对比",
+      "meaning": "另一些却开得很慢"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "群体中的一部分",
+      "text": "Some of the cars 从已知车辆中取出一部分。"
+    },
+    {
+      "title": "替代名词",
+      "text": "others 在这里指另外一些汽车；fast 和 slowly 都修饰动作。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "群体中的一部分",
+      "text": "Some of the cars 从已知车辆中取出一部分。"
+    },
+    {
+      "title": "替代名词",
+      "text": "others 在这里指另外一些汽车；fast 和 slowly 都修饰动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Some of the cars",
+      "role": "第一分句主语",
+      "explanation": "Some 指已知车群中的一部分。"
+    },
+    {
+      "text": "went very fast,",
+      "role": "第一分句谓语及状语",
+      "explanation": "very fast 描述行驶速度。"
+    },
+    {
+      "text": "but others moved very slowly.",
+      "role": "转折并列分句",
+      "explanation": "与前半句形成快慢对比。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Some",
+      "meaning": "一些",
+      "pos": "不定代词",
+      "phonetic": "/səm/ 或 /sʌm/"
+    },
+    {
+      "text": "of",
+      "meaning": "……之中的",
+      "pos": "介词",
+      "phonetic": "/ɒv/ 或 /əv/"
+    },
+    {
+      "text": "the",
+      "meaning": "前述的",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "cars",
+      "meaning": "汽车",
+      "pos": "名词复数",
+      "phonetic": "/kɑːz/"
+    },
+    {
+      "text": "went",
+      "meaning": "行驶",
+      "pos": "不及物动词过去式",
+      "phonetic": "/went/"
+    },
+    {
+      "text": "very",
+      "meaning": "很",
+      "pos": "程度副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "fast,",
+      "meaning": "快地",
+      "pos": "副词",
+      "phonetic": "/fɑːst/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "并列连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "others",
+      "meaning": "另一些车",
+      "pos": "不定代词",
+      "phonetic": "/ˈʌðəz/"
+    },
+    {
+      "text": "moved",
+      "meaning": "行驶",
+      "pos": "不及物动词过去式",
+      "phonetic": "/muːvd/"
+    },
+    {
+      "text": "very",
+      "meaning": "很",
+      "pos": "程度副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "slowly.",
+      "meaning": "慢地",
+      "pos": "副词",
+      "phonetic": "/ˈsləʊli/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

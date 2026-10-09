@@ -1,0 +1,130 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-087",
+  "sentenceId": "nce-2-lesson-087-sentence-018",
+  "sentenceOrder": 18,
+  "english": "It broke down at Ferngreen station and was taken off the line.'",
+  "chinese": "它在芬格林车站出了故障，被撤出了运行线路。”",
+  "lesson": "Lesson 87 A perfect alibi",
+  "intent": "解释八点班车未开行的原因",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "It broke down at Ferngreen station",
+      "relation": "车辆故障",
+      "meaning": "它在芬格林站出了故障"
+    },
+    {
+      "text": "and was taken off the line.'",
+      "relation": "后续处置",
+      "meaning": "并被撤出运行线路"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "共享主语",
+      "text": "broke down 与 was taken 的主语同为 It。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "共享主语",
+      "text": "broke down 与 was taken 的主语同为 It。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "主语",
+      "explanation": "八点的火车。"
+    },
+    {
+      "text": "broke down at Ferngreen station",
+      "role": "并列谓语之一",
+      "explanation": "故障及地点。"
+    },
+    {
+      "text": "was taken off the line.",
+      "role": "并列谓语之二",
+      "explanation": "过去时被动交代撤出。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "broke",
+      "meaning": "出故障（短语组成）",
+      "pos": "动词过去式",
+      "phonetic": "/brəʊk/"
+    },
+    {
+      "text": "down",
+      "meaning": "失灵（短语组成）",
+      "pos": "副词",
+      "phonetic": "/daʊn/"
+    },
+    {
+      "text": "at",
+      "meaning": "在",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "Ferngreen",
+      "meaning": "芬格林",
+      "pos": "专有名词",
+      "phonetic": "/ˈfɜːnɡriːn/"
+    },
+    {
+      "text": "station",
+      "meaning": "车站",
+      "pos": "名词",
+      "phonetic": "/ˈsteɪʃən/"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "pos": "并列连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "was",
+      "meaning": "构成被动",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "taken",
+      "meaning": "撤走",
+      "pos": "动词过去分词",
+      "phonetic": "/ˈteɪkən/"
+    },
+    {
+      "text": "off",
+      "meaning": "离开",
+      "pos": "介词",
+      "phonetic": "/ɒf/"
+    },
+    {
+      "text": "the",
+      "meaning": "该",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "line.'",
+      "meaning": "运行线路",
+      "pos": "名词",
+      "phonetic": "/laɪn/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

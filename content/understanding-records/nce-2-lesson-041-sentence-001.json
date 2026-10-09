@@ -1,0 +1,137 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-041",
+  "sentenceId": "nce-2-lesson-041-sentence-001",
+  "sentenceOrder": 1,
+  "english": "‘Do you call that a hat?’ I said to my wife.",
+  "chinese": "“你把那叫作帽子？”我对妻子说。",
+  "lesson": "Lesson 41 Do you call that a hat?",
+  "intent": "质疑妻子所选帽子的样式",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "‘Do you call that a hat?’",
+      "relation": "说话内容",
+      "meaning": "你把那叫作帽子？"
+    },
+    {
+      "text": "I said",
+      "relation": "说话者与动作",
+      "meaning": "我说"
+    },
+    {
+      "text": "to my wife.",
+      "relation": "说话对象",
+      "meaning": "对我的妻子"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "称作什么",
+      "text": "call that a hat中，that指眼前的物品，a hat说明把它称作什么。"
+    },
+    {
+      "title": "向谁说",
+      "text": "say后可用to引出听话人，不能按tell someone的形式直接接人。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "称作什么",
+      "text": "call that a hat中，that指眼前的物品，a hat说明把它称作什么。"
+    },
+    {
+      "title": "向谁说",
+      "text": "say后可用to引出听话人，不能按tell someone的形式直接接人。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do you call that a hat?",
+      "role": "一般疑问句",
+      "explanation": "借询问名称表达对帽子样式的质疑。"
+    },
+    {
+      "text": "a hat",
+      "role": "宾语补足语",
+      "explanation": "说明that被称作的事物类别。"
+    },
+    {
+      "text": "to my wife.",
+      "role": "介词短语作状语",
+      "explanation": "说明这句话是对妻子说的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘Do",
+      "meaning": "构成疑问",
+      "pos": "助动词",
+      "phonetic": "/duː/ 或 /də/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "人称代词",
+      "phonetic": "/juː/ 或 /jʊ/"
+    },
+    {
+      "text": "call",
+      "meaning": "称作",
+      "pos": "动词",
+      "phonetic": "/kɔːl/"
+    },
+    {
+      "text": "that",
+      "meaning": "那个东西",
+      "pos": "指示代词",
+      "phonetic": "/ðæt/ 或 /ðət/"
+    },
+    {
+      "text": "a",
+      "meaning": "一顶，表示类别",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "hat?’",
+      "meaning": "帽子",
+      "pos": "名词",
+      "phonetic": "/hæt/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "said",
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "to",
+      "meaning": "向，对",
+      "pos": "介词",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "物主限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "wife.",
+      "meaning": "妻子",
+      "pos": "名词",
+      "phonetic": "/waɪf/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

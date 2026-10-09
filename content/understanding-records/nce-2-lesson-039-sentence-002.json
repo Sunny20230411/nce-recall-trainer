@@ -1,0 +1,137 @@
+{
+  "chinese": "第二天，这位病人要了一部床边电话。",
+  "intent": "叙述次日病人提出索要床边电话的行为。",
+  "comparison": null,
+  "backbone": {
+    "text": "the patient asked for a bedside telephone",
+    "meaning": "这位病人索要了一部床边电话"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语的位置",
+      "text": "句首的 The following day 作为时间状语，交代整句话发生的时间，翻译时可直接放在句首，和中文表达习惯一致。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The following day,",
+      "role": "时间状语",
+      "explanation": "说明整件事发生在第二天，修饰后面整个句子。"
+    },
+    {
+      "text": "the patient",
+      "role": "主语",
+      "explanation": "指正在医院里的这位病人，是发出“索要”这个动作的人。"
+    },
+    {
+      "text": "asked for",
+      "role": "谓语",
+      "explanation": "是固定短语，意思是“索要、要求得到”，后接想要的东西。"
+    },
+    {
+      "text": "a bedside telephone",
+      "role": "宾语",
+      "explanation": "是病人索要的对象，bedside 说明是放在床边的电话。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这；那（定冠词，指特定的）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "following",
+      "meaning": "接下来的，紧接着的",
+      "pos": "形容词",
+      "phonetic": "/ˈfɒləʊɪŋ/"
+    },
+    {
+      "text": "day,",
+      "meaning": "一天，白昼",
+      "pos": "名词",
+      "phonetic": "/deɪ/"
+    },
+    {
+      "text": "the",
+      "meaning": "这；那（定冠词，指特定的）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "patient",
+      "meaning": "病人",
+      "pos": "名词",
+      "phonetic": "/ˈpeɪʃnt/"
+    },
+    {
+      "text": "asked",
+      "meaning": "问；要求（过去式）",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    },
+    {
+      "text": "for",
+      "meaning": "为了；（与ask搭配表示索要）",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个，部）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "bedside",
+      "meaning": "床边",
+      "pos": "名词",
+      "phonetic": "/ˈbedsaɪd/"
+    },
+    {
+      "text": "telephone.",
+      "meaning": "电话",
+      "pos": "名词",
+      "phonetic": "/ˈtelɪfəʊn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The following day,",
+      "relation": "时间",
+      "meaning": "第二天"
+    },
+    {
+      "text": "the patient",
+      "relation": "动作发出者",
+      "meaning": "这位病人"
+    },
+    {
+      "text": "asked for",
+      "relation": "动作",
+      "meaning": "索要"
+    },
+    {
+      "text": "a bedside telephone.",
+      "relation": "索要的对象",
+      "meaning": "一部床边电话"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-039",
+  "sentenceId": "nce-2-lesson-039-sentence-002",
+  "sentenceOrder": 4,
+  "english": "The following day, the patient asked for a bedside telephone.",
+  "lesson": "Lesson 39 Am I all right?",
+  "notes": [
+    {
+      "title": "时间状语的位置",
+      "text": "句首的 The following day 作为时间状语，交代整句话发生的时间，翻译时可直接放在句首，和中文表达习惯一致。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，仅需修正bedside的词性标注，将‘名词作定语’改为‘名词’，定语是语法功能非词性。（非逐句人工审核）"
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-052",
+  "sentenceId": "nce-2-lesson-052-sentence-001",
+  "english": "We have just moved into a new house and I have been working hard all morning.",
+  "text": "have just moved 说的是刚完成的搬家结果，have been working hard 说的是从早上到现在一直在忙活的状态。一个讲刚落定的事，一个讲持续在做的事，两个现在完成时并在一起，先交代背景再讲眼下的忙碌。",
+  "sourceDigest": "fb2119fce46f3424f24d562a0499795c20300a724a74687b46fc9617a1a65fb6",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：区分两种现在完成时的表意角度，贴合句子信息安排，有实用价值。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "区分两种现在完成时的表意侧重，讲清信息安排的作用，没有错误。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

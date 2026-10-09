@@ -1,0 +1,256 @@
+{
+  "chinese": "他告诉我，有天晚上他睡不着，因为他听到酒吧里传来一阵奇怪的响声。",
+  "intent": "转述他人告知的内容：某晚无法入睡的原因是听到酒吧传来奇怪响声。",
+  "comparison": {
+    "chinese": "他告诉我，有天晚上他睡不着，因为听到从酒吧传来的奇怪响声。",
+    "english": "He told me that he could not go to sleep one night because he heard a strange noise coming from the bar.",
+    "steps": [
+      {
+        "label": "先抓主干事件",
+        "text": "He told me that…",
+        "explanation": "开头先交代“他告诉我”这件事，后面整个内容都是告诉我的具体信息，中文也习惯先说“他告诉我”再接内容。"
+      },
+      {
+        "label": "再看被告诉的核心情况",
+        "text": "he could not go to sleep one night",
+        "explanation": "that 引出的内容先说结果“有天晚上睡不着”，时间“one night”放在句末补充说明是哪晚，中文习惯把时间“有天晚上”往前放。"
+      },
+      {
+        "label": "最后接原因和细节",
+        "text": "because he heard a strange noise coming from the bar",
+        "explanation": "because 引出睡不着的原因；“coming from the bar”直接跟在 noise 后面，说明响声是从酒吧来的，中文会说“从酒吧传来的奇怪响声”，把来源放在名词前面。"
+      }
+    ],
+    "takeaway": "英文习惯把“谁告诉谁”放最前，再讲事情结果，最后用从句补原因和名词的细节；中文常把时间、修饰名词的来源往前挪，但逻辑顺序都是“事件→原因”。"
+  },
+  "backbone": {
+    "text": "He told me that he could not go to sleep one night because he heard a strange noise.",
+    "meaning": "他告诉我，有天晚上他睡不着，因为他听到了一阵奇怪的响声。"
+  },
+  "structureNotes": [
+    {
+      "title": "that 引导的宾语从句",
+      "text": "that 后面整段都是 told 告诉我的具体内容，that 只起连接作用，没有实际词义，可以理解成“（说）……这件事”。"
+    },
+    {
+      "title": "because 引出原因",
+      "text": "because 从句说明“睡不着”的直接原因，不是随便补充的信息，读的时候要和前面“could not go to sleep”连起来理解。"
+    },
+    {
+      "title": "coming from the bar 的作用",
+      "text": "coming from the bar 跟在 noise 后面，描述响声的来源，意思是“从酒吧传来的”，相当于在补充 noise 是怎样的响声。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He told me",
+      "role": "主句主谓宾",
+      "explanation": "交代说话人和听话人，是整个句子的主干动作“他告诉我”。"
+    },
+    {
+      "text": "that he could not go to sleep one night",
+      "role": "宾语从句（被告诉的内容）",
+      "explanation": "由 that 引导，作 told 的宾语，说明告诉我的具体事情：有天晚上他睡不着。"
+    },
+    {
+      "text": "because he heard a strange noise coming from the bar.",
+      "role": "原因状语从句",
+      "explanation": "说明前面“睡不着”的原因，其中 coming from the bar 补充 noise 的来源。"
+    },
+    {
+      "text": "coming from the bar",
+      "role": "现在分词短语作定语",
+      "explanation": "修饰前面的 a strange noise，表示响声是从酒吧方向传来的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉",
+      "pos": "动词（过去式）",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "could",
+      "meaning": "能够（can的过去式）",
+      "pos": "情态动词",
+      "phonetic": "/kʊd/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "go",
+      "meaning": "去；进行",
+      "pos": "动词",
+      "phonetic": "/ɡəʊ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "sleep",
+      "meaning": "睡觉；睡眠",
+      "pos": "动词/名词",
+      "phonetic": "/sliːp/"
+    },
+    {
+      "text": "one",
+      "meaning": "一个；某一",
+      "pos": "限定词",
+      "phonetic": "/wʌn/"
+    },
+    {
+      "text": "night",
+      "meaning": "晚上，夜晚",
+      "pos": "名词",
+      "phonetic": "/naɪt/"
+    },
+    {
+      "text": "because",
+      "meaning": "因为",
+      "pos": "连词",
+      "phonetic": "/bɪˈkɒz/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "heard",
+      "meaning": "听到（hear的过去式）",
+      "pos": "动词",
+      "phonetic": "/hɜːd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个（用于辅音前）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "strange",
+      "meaning": "奇怪的；陌生的",
+      "pos": "形容词",
+      "phonetic": "/streɪndʒ/"
+    },
+    {
+      "text": "noise",
+      "meaning": "响声；噪音",
+      "pos": "名词",
+      "phonetic": "/nɔɪz/"
+    },
+    {
+      "text": "coming",
+      "meaning": "来（come的现在分词，此处与from搭配表“传来”）",
+      "pos": "动词（现在分词）",
+      "phonetic": "/ˈkʌmɪŋ/"
+    },
+    {
+      "text": "from",
+      "meaning": "从……来",
+      "pos": "介词",
+      "phonetic": "/frɒm/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（定冠词）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bar.",
+      "meaning": "酒吧；吧台",
+      "pos": "名词",
+      "phonetic": "/bɑː(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He told me",
+      "relation": "主句主干，交代说话双方和动作",
+      "meaning": "他告诉我"
+    },
+    {
+      "text": "that",
+      "relation": "连接主句和被告诉的内容",
+      "meaning": "（连接词，引出后面的内容）"
+    },
+    {
+      "text": "he could not go to sleep one night",
+      "relation": "被告诉的事情，即告知的核心内容",
+      "meaning": "有天晚上他睡不着"
+    },
+    {
+      "text": "because",
+      "relation": "引出前面睡不着的原因",
+      "meaning": "因为"
+    },
+    {
+      "text": "he heard a strange noise",
+      "relation": "原因从句的主干",
+      "meaning": "他听到一阵奇怪的响声"
+    },
+    {
+      "text": "coming from the bar.",
+      "relation": "补充说明响声的来源，修饰noise",
+      "meaning": "从酒吧传来的"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-047",
+  "sentenceId": "nce-2-lesson-047-sentence-005",
+  "sentenceOrder": 5,
+  "english": "He told me that he could not go to sleep one night because he heard a strange noise coming from the bar.",
+  "lesson": "Lesson 47 A thirsty ghost",
+  "notes": [
+    {
+      "title": "that 引导的宾语从句",
+      "text": "that 后面整段都是 told 告诉我的具体内容，that 只起连接作用，没有实际词义，可以理解成“（说）……这件事”。"
+    },
+    {
+      "title": "because 引出原因",
+      "text": "because 从句说明“睡不着”的直接原因，不是随便补充的信息，读的时候要和前面“could not go to sleep”连起来理解。"
+    },
+    {
+      "title": "coming from the bar 的作用",
+      "text": "coming from the bar 跟在 noise 后面，描述响声的来源，意思是“从酒吧传来的”，相当于在补充 noise 是怎样的响声。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析整体合格，仅to的词性标注不当、words末项标点随词无需额外说明，且backbone的text与原文短语略有出入，予以修正。（非逐句人工审核）"
+}

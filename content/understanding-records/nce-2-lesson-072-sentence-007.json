@@ -1,0 +1,112 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-072",
+  "sentenceId": "nce-2-lesson-072-sentence-007",
+  "sentenceOrder": 7,
+  "english": "His average speed had been 301 miles per hour.",
+  "chinese": "他当时的平均时速其实是301英里。",
+  "lesson": "Lesson 72 A car called Bluebird “",
+  "intent": "给出纠正后的原次试跑平均速度",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "His average speed",
+      "relation": "测量对象",
+      "meaning": "他的平均速度"
+    },
+    {
+      "text": "had been 301 miles per hour.",
+      "relation": "更正数值",
+      "meaning": "当时是每小时301英里"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "过去完成时的回指",
+      "text": "had been 回指先前那次试跑，不表示后来新增一次试跑。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "过去完成时的回指",
+      "text": "had been 回指先前那次试跑，不表示后来新增一次试跑。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "His average speed",
+      "role": "主语",
+      "explanation": "被纠正的测量指标。"
+    },
+    {
+      "text": "had been",
+      "role": "系动词完成式",
+      "explanation": "定位在后续通知之前。"
+    },
+    {
+      "text": "301 miles per hour.",
+      "role": "表语",
+      "explanation": "给出实际平均速度。"
+    }
+  ],
+  "words": [
+    {
+      "text": "His",
+      "meaning": "他的",
+      "pos": "物主限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "average",
+      "meaning": "平均的",
+      "pos": "形容词",
+      "phonetic": "/ˈævərɪdʒ/"
+    },
+    {
+      "text": "speed",
+      "meaning": "速度",
+      "pos": "名词",
+      "phonetic": "/spiːd/"
+    },
+    {
+      "text": "had",
+      "meaning": "此前；构成完成式",
+      "pos": "助动词",
+      "phonetic": "/hæd/ 或 /əd/"
+    },
+    {
+      "text": "been",
+      "meaning": "是",
+      "pos": "系动词过去分词",
+      "phonetic": "/biːn/ 或 /bɪn/"
+    },
+    {
+      "text": "301",
+      "meaning": "三百零一",
+      "pos": "数词",
+      "phonetic": "/ˌθriː əʊ ˈwʌn/"
+    },
+    {
+      "text": "miles",
+      "meaning": "英里",
+      "pos": "复数名词",
+      "phonetic": "/maɪlz/"
+    },
+    {
+      "text": "per",
+      "meaning": "每",
+      "pos": "介词",
+      "phonetic": "/pɜː/"
+    },
+    {
+      "text": "hour.",
+      "meaning": "小时",
+      "pos": "名词",
+      "phonetic": "/ˈaʊə/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

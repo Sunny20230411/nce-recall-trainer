@@ -1,0 +1,111 @@
+{
+  "chinese": "这座机场是多年前建造的，",
+  "intent": "陈述机场的建造时间，为后文说明它曾无法投入使用做铺垫。",
+  "comparison": null,
+  "backbone": {
+    "text": "The airport was built years ago.",
+    "meaning": "这座机场建于多年以前。"
+  },
+  "structureNotes": [
+    {
+      "title": "被动语态说明事实",
+      "text": "用 was built 表示“被建造”，不需要说出建造者，重点在机场本身的建造事实，符合客观介绍事物的语气。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "years ago 放在句末，说明动作发生的时间，意思是“多年以前”，对应中文里“是多年前建造的”的时间表达。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The airport",
+      "role": "句子主语",
+      "explanation": "指说话人附近的那座机场，是全句谈论的对象。"
+    },
+    {
+      "text": "was built",
+      "role": "被动语态谓语",
+      "explanation": "表示主语“机场”是“建造”这个动作的承受者，时态为一般过去时，说明建造发生在过去。"
+    },
+    {
+      "text": "years ago,",
+      "role": "时间状语",
+      "explanation": "说明建造这个动作发生的时间是多年以前，逗号表示句子未完，后面还有衔接的内容。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这（个），那（个）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "airport",
+      "meaning": "机场",
+      "pos": "名词",
+      "phonetic": "/ˈeəpɔːt/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，构成被动）",
+      "pos": "动词",
+      "phonetic": "/wəz/"
+    },
+    {
+      "text": "built",
+      "meaning": "建造（build的过去分词）",
+      "pos": "动词",
+      "phonetic": "/bɪlt/"
+    },
+    {
+      "text": "years",
+      "meaning": "年（复数）",
+      "pos": "名词",
+      "phonetic": "/jɪəz/"
+    },
+    {
+      "text": "ago,",
+      "meaning": "以前，",
+      "pos": "副词",
+      "phonetic": "/əˈɡəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The airport",
+      "relation": "描述的对象",
+      "meaning": "这座机场"
+    },
+    {
+      "text": "was built",
+      "relation": "说明主语的动作（被动）",
+      "meaning": "被建造"
+    },
+    {
+      "text": "years ago,",
+      "relation": "说明动作发生的时间",
+      "meaning": "多年前，"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-021",
+  "sentenceId": "nce-2-lesson-021-sentence-003-part-01",
+  "sentenceOrder": 3,
+  "english": "The airport was built years ago,",
+  "lesson": "Lesson 21 Mad or not?",
+  "notes": [
+    {
+      "title": "被动语态说明事实",
+      "text": "用 was built 表示“被建造”，不需要说出建造者，重点在机场本身的建造事实，符合客观介绍事物的语气。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "years ago 放在句末，说明动作发生的时间，意思是“多年以前”，对应中文里“是多年前建造的”的时间表达。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：译文和主干内容准确；仅单词ago的音标存在旧版写法偏差需修正为/əˈɡəʊ/，其余结构、分块均符合片段要求。（非逐句人工审核）"
+}

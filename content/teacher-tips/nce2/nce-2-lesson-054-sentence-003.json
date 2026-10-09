@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-003",
+  "english": "I put the groceries in the kitchen and began to make some biscuits.",
+  "text": "中文说“把菜放在厨房”，容易先想到“把”对应什么结构。英语这里直接用 put the groceries in the kitchen 说明放置的位置，再接下一步动作，两个并列动作顺下来就很自然。遇到表示放置的“把”字句，先想“放什么、放哪里”，用 put + 物品 + 地点就够用。",
+  "sourceDigest": "60d5508d3d70996b65ade1ffc05b9607fd739ed6c5afcea50fa63c9d961f3a9e",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：点出中文“把”字句的直译误区，说明英语常用的动宾加状语表达，贴合学习者难点。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "补充了具体迁移判断，修正原提点收尾稍弱的问题，更贴合中文学习者的直译疑问。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

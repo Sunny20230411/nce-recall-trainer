@@ -1,0 +1,209 @@
+{
+  "chinese": "这条小溪蜿蜒穿过田野，然后正好从他们的帐篷底下流过！",
+  "intent": "描述小溪的行进路线和最终流向，突出其路径蜿蜒且恰好穿过帐篷下方的状态。",
+  "comparison": {
+    "chinese": "这条小溪蜿蜒着穿过田野，接着正好流到他们的帐篷底下。",
+    "english": "The stream wound its way across the field and then flowed right under their tent!",
+    "steps": [
+      {
+        "label": "第一步：先抓住主干动作",
+        "text": "The stream wound... and then flowed...",
+        "explanation": "中文先说“小溪怎么样”，英文也是先交代主语the stream，接着给出两个先后发生的动作“蜿蜒前行”和“流淌”，这部分中英文语序基本一致。"
+      },
+      {
+        "label": "第二步：补充动作的路径细节",
+        "text": "wound its way across the field / flowed right under their tent",
+        "explanation": "描述“怎么蜿蜒”时，英文用its way搭配wound，再用across the field说明穿过的区域；描述“流到哪里”时，用right under their tent说明位置，right加强“正好、恰好”的语气，对应中文的“正好从……底下”。"
+      }
+    ],
+    "takeaway": "英文用wound its way这种“动词+one's way”的结构表达“蜿蜒前行”，路径用介词短语接在后面；right放在方位介词前可以强调“正好、刚好”的语气，翻译时要把这种强调感体现出来。"
+  },
+  "backbone": {
+    "text": "The stream wound its way across the field and then flowed under their tent.",
+    "meaning": "小溪蜿蜒穿过田野，然后从他们的帐篷底下流过。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列谓语的先后顺序",
+      "text": "句中wound its way...和flowed...是两个并列的谓语动作，由and then连接，then明确体现出“先蜿蜒穿过田野，之后流到帐篷下”的先后顺序。"
+    },
+    {
+      "title": "wind one's way的含义",
+      "text": "wind one's way是固定表达，意思是“蜿蜒前行、曲折延伸”，用来形容河流、道路等路线弯曲地向前延伸，比单纯的go更有画面感。"
+    },
+    {
+      "title": "right的强调作用",
+      "text": "right在这里是副词，修饰后面的介词短语under their tent，用来加强语气，表示“正好、恰好就在……下面”，突出溪流位置刚好在帐篷底下的意外感。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The stream",
+      "role": "主语",
+      "explanation": "指前文提到的在田野里形成的那条小溪，是整个句子描述的对象。"
+    },
+    {
+      "text": "wound its way across the field",
+      "role": "第一个谓语部分（含路径状语）",
+      "explanation": "用wind one's way的结构描述小溪蜿蜒前行的状态，across the field说明穿行的区域是田野。"
+    },
+    {
+      "text": "and then",
+      "role": "并列连接成分",
+      "explanation": "连接两个先后发生的动作，and表并列，then强调动作的先后顺序。"
+    },
+    {
+      "text": "flowed right under their tent!",
+      "role": "第二个谓语部分（含方位状语）",
+      "explanation": "描述小溪后续的动作是流淌，right under their tent说明流淌的位置正好在帐篷下方，带感叹语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这个（用于特指双方都知道的事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "stream",
+      "meaning": "小溪，溪流",
+      "pos": "名词",
+      "phonetic": "/striːm/"
+    },
+    {
+      "text": "wound",
+      "meaning": "蜿蜒，曲折而行（wind的过去式）",
+      "pos": "动词",
+      "phonetic": "/waʊnd/"
+    },
+    {
+      "text": "its",
+      "meaning": "它的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "way",
+      "meaning": "路，路线",
+      "pos": "名词",
+      "phonetic": "/weɪ/"
+    },
+    {
+      "text": "across",
+      "meaning": "穿过，横过",
+      "pos": "介词",
+      "phonetic": "/əˈkrɒs/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（用于特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "field",
+      "meaning": "田野，田地",
+      "pos": "名词",
+      "phonetic": "/fiːld/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，然后（表并列）",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "then",
+      "meaning": "然后，接着",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    },
+    {
+      "text": "flowed",
+      "meaning": "流动，流淌（flow的过去式）",
+      "pos": "动词",
+      "phonetic": "/fləʊd/"
+    },
+    {
+      "text": "right",
+      "meaning": "正好，恰好（加强语气）",
+      "pos": "副词",
+      "phonetic": "/raɪt/"
+    },
+    {
+      "text": "under",
+      "meaning": "在……下面",
+      "pos": "介词",
+      "phonetic": "/ˈʌndə/"
+    },
+    {
+      "text": "their",
+      "meaning": "他们的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "tent!",
+      "meaning": "帐篷",
+      "pos": "名词",
+      "phonetic": "/tent/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The stream",
+      "relation": "描述的对象（主语）",
+      "meaning": "这条小溪"
+    },
+    {
+      "text": "wound its way",
+      "relation": "第一个动作（谓语核心）",
+      "meaning": "蜿蜒着前行"
+    },
+    {
+      "text": "across the field",
+      "relation": "补充说明蜿蜒前行的路径区域",
+      "meaning": "穿过田野"
+    },
+    {
+      "text": "and then",
+      "relation": "连接前后两个动作，表先后顺序",
+      "meaning": "然后"
+    },
+    {
+      "text": "flowed",
+      "relation": "第二个动作（谓语核心）",
+      "meaning": "流淌"
+    },
+    {
+      "text": "right under their tent!",
+      "relation": "补充说明流淌的具体位置，带强调和感叹语气",
+      "meaning": "正好从他们的帐篷底下（流过）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-027",
+  "sentenceId": "nce-2-lesson-027-sentence-012",
+  "sentenceOrder": 13,
+  "english": "The stream wound its way across the field and then flowed right under their tent!",
+  "lesson": "Lesson 27 A wet night",
+  "notes": [
+    {
+      "title": "并列谓语的先后顺序",
+      "text": "句中wound its way...和flowed...是两个并列的谓语动作，由and then连接，then明确体现出“先蜿蜒穿过田野，之后流到帐篷下”的先后顺序。"
+    },
+    {
+      "title": "wind one's way的含义",
+      "text": "wind one's way是固定表达，意思是“蜿蜒前行、曲折延伸”，用来形容河流、道路等路线弯曲地向前延伸，比单纯的go更有画面感。"
+    },
+    {
+      "title": "right的强调作用",
+      "text": "right在这里是副词，修饰后面的介词短语under their tent，用来加强语气，表示“正好、恰好就在……下面”，突出溪流位置刚好在帐篷底下的意外感。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅单词项中tent的词性标注错误（不应将感叹号归入词性描述），其余字段均符合要求。（非逐句人工审核）"
+}

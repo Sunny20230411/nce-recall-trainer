@@ -1,0 +1,144 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-057",
+  "sentenceId": "nce-2-lesson-057-sentence-002",
+  "sentenceOrder": 2,
+  "english": "The assistant who served her did not like the way she was dressed.",
+  "chinese": "接待她的店员不喜欢她的打扮。",
+  "lesson": "Lesson 57 Can I help you, madam?",
+  "intent": "说明店员对顾客装束的偏见",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "The assistant who served her",
+      "relation": "特定人物",
+      "meaning": "接待她的店员"
+    },
+    {
+      "text": "did not like the way she was dressed.",
+      "relation": "对装束的态度",
+      "meaning": "不喜欢她的打扮"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "限定店员",
+      "text": "who served her 修饰 assistant，who 在从句中作主语。"
+    },
+    {
+      "title": "方式修饰",
+      "text": "she was dressed 修饰 the way，说明打扮方式；way 后省略了关系引导词。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "限定店员",
+      "text": "who served her 修饰 assistant，who 在从句中作主语。"
+    },
+    {
+      "title": "方式修饰",
+      "text": "she was dressed 修饰 the way，说明打扮方式；way 后省略了关系引导词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The assistant who served her",
+      "role": "主语名词短语",
+      "explanation": "包含限定店员身份的定语从句。"
+    },
+    {
+      "text": "did not like the way she was dressed.",
+      "role": "谓语及宾语",
+      "explanation": "the way 是宾语的中心词。"
+    },
+    {
+      "text": "she was dressed.",
+      "role": "修饰方式的定语从句",
+      "explanation": "说明她穿着打扮的方式。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "特指该店员",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "assistant",
+      "meaning": "店员",
+      "pos": "名词",
+      "phonetic": "/əˈsɪstənt/"
+    },
+    {
+      "text": "who",
+      "meaning": "指接待她的店员",
+      "pos": "关系代词",
+      "phonetic": "/huː/"
+    },
+    {
+      "text": "served",
+      "meaning": "接待",
+      "pos": "及物动词过去式",
+      "phonetic": "/sɜːvd/"
+    },
+    {
+      "text": "her",
+      "meaning": "她",
+      "pos": "人称代词",
+      "phonetic": "/hɜː(r)/ 或 /hə(r)/"
+    },
+    {
+      "text": "did",
+      "meaning": "构成过去时否定",
+      "pos": "助动词过去式",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "not",
+      "meaning": "不",
+      "pos": "否定副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢",
+      "pos": "及物动词原形",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "the",
+      "meaning": "特指她的方式",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "way",
+      "meaning": "方式",
+      "pos": "名词",
+      "phonetic": "/weɪ/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "人称代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "处于穿着状态",
+      "pos": "系动词过去式",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "dressed.",
+      "meaning": "穿着打扮的",
+      "pos": "过去分词作表语",
+      "phonetic": "/drest/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

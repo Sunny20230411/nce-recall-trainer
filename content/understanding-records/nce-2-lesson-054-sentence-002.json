@@ -1,0 +1,113 @@
+{
+  "chinese": "我回到家的时候，天还早。",
+  "intent": "说明自己到家时所处的时间状态，交代后续动作发生的时间背景。",
+  "comparison": null,
+  "backbone": {
+    "text": "It was early when I returned home.",
+    "meaning": "我回到家时时间尚早。"
+  },
+  "structureNotes": [
+    {
+      "title": "it 指代时间",
+      "text": "句首的 It 没有实际指代的具体事物，只是用来引出“时间”这个话题，相当于说“当时的时间”。"
+    },
+    {
+      "title": "when 引导的时间从句",
+      "text": "when I returned home 用来交代主句情况发生的时间点，说明“还早”是在我到家的那个时刻。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It was still early",
+      "role": "主句",
+      "explanation": "用 It 指代时间，描述某个时刻处于“还早”的状态，是句子的核心信息。"
+    },
+    {
+      "text": "when I returned home",
+      "role": "时间状语从句",
+      "explanation": "由 when 引导，说明主句描述的“时间还早”发生在“我回到家”这个时间点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（此处指代时间，无实义）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be动词第一/第三人称单数过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "still",
+      "meaning": "仍然，还",
+      "pos": "副词",
+      "phonetic": "/stɪl/"
+    },
+    {
+      "text": "early",
+      "meaning": "早的",
+      "pos": "形容词",
+      "phonetic": "/ˈɜːli/"
+    },
+    {
+      "text": "when",
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "returned",
+      "meaning": "返回（过去式）",
+      "pos": "动词",
+      "phonetic": "/rɪˈtɜːnd/"
+    },
+    {
+      "text": "home.",
+      "meaning": "在家；到家（副词，此处表示方向）",
+      "pos": "副词",
+      "phonetic": "/həʊm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It was still early",
+      "meaning": "时间还早",
+      "relation": "核心描述（说明时间状态）"
+    },
+    {
+      "text": "when I returned home.",
+      "meaning": "当我回到家时",
+      "relation": "时间状语（说明主句状态发生的时间点）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-002",
+  "sentenceOrder": 2,
+  "english": "It was still early when I returned home.",
+  "lesson": "Lesson 54 Sticky fingers",
+  "notes": [
+    {
+      "title": "it 指代时间",
+      "text": "句首的 It 没有实际指代的具体事物，只是用来引出“时间”这个话题，相当于说“当时的时间”。"
+    },
+    {
+      "title": "when 引导的时间从句",
+      "text": "when I returned home 用来交代主句情况发生的时间点，说明“还早”是在我到家的那个时刻。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需修正home的词性标注（此处home为副词，原有释义正确但词性标注的表述可更规范，且末词标点无需纳入释义逻辑，同时调整结构中从句标点的处理一致性，补充主干的准确性核对后仅微调words中home的释义表述更贴合副词用法）（非逐句人工审核）"
+}

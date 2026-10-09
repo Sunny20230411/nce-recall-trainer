@@ -1,0 +1,161 @@
+{
+  "chinese": "昨天，一只鸽子把第一则消息从平赫斯特送到了西尔伯里。",
+  "intent": "说明过去某一时间一只鸽子完成了首次两地之间的消息传递。",
+  "comparison": null,
+  "backbone": {
+    "text": "a pigeon carried the first message from Pinhurst to Silbury",
+    "meaning": "一只鸽子把第一则消息从平赫斯特送到西尔伯里"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语的位置",
+      "text": "Yesterday, 放在句首，点明整件事发生的时间是昨天，属于过去时间，提示句子说的是已经发生的事。"
+    },
+    {
+      "title": "from...to... 表示路线",
+      "text": "from Pinhurst to Silbury 说明消息传递的起点和终点，用来补充交代运送消息的完整路线。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yesterday,",
+      "role": "时间状语",
+      "explanation": "点明整个事件发生在过去的昨天，修饰全句。"
+    },
+    {
+      "text": "a pigeon",
+      "role": "主语",
+      "explanation": "执行“携带、运送”这个动作的主体。"
+    },
+    {
+      "text": "carried",
+      "role": "谓语动词",
+      "explanation": "表示主语发出的动作：携带、运送。"
+    },
+    {
+      "text": "the first message",
+      "role": "宾语",
+      "explanation": "是被鸽子运送的对象。"
+    },
+    {
+      "text": "from Pinhurst to Silbury",
+      "role": "地点/路线状语",
+      "explanation": "说明消息运送的起点是平赫斯特，终点是西尔伯里。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "昨天",
+      "pos": "副词",
+      "phonetic": "/ˈjestədeɪ/",
+      "text": "Yesterday,"
+    },
+    {
+      "meaning": "一（只）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "鸽子",
+      "pos": "名词",
+      "phonetic": "/ˈpɪdʒɪn/",
+      "text": "pigeon"
+    },
+    {
+      "meaning": "携带，运送",
+      "pos": "动词（过去式）",
+      "phonetic": "/ˈkærid/",
+      "text": "carried"
+    },
+    {
+      "meaning": "这，那（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "第一的，首次的",
+      "pos": "序数词",
+      "phonetic": "/fɜːst/",
+      "text": "first"
+    },
+    {
+      "meaning": "消息，信息",
+      "pos": "名词",
+      "phonetic": "/ˈmesɪdʒ/",
+      "text": "message"
+    },
+    {
+      "meaning": "从……（出发）",
+      "pos": "介词",
+      "phonetic": "/frɒm/",
+      "text": "from"
+    },
+    {
+      "meaning": "平赫斯特（地名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈpɪnhɜːst/",
+      "text": "Pinhurst"
+    },
+    {
+      "meaning": "到，往",
+      "pos": "介词",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "西尔伯里（地名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈsɪlbəri/",
+      "text": "Silbury."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yesterday,",
+      "relation": "时间",
+      "meaning": "昨天"
+    },
+    {
+      "text": "a pigeon",
+      "relation": "动作的发出者",
+      "meaning": "一只鸽子"
+    },
+    {
+      "text": "carried",
+      "relation": "主语发出的动作",
+      "meaning": "运送了"
+    },
+    {
+      "text": "the first message",
+      "relation": "被运送的对象",
+      "meaning": "第一则消息"
+    },
+    {
+      "text": "from Pinhurst to Silbury.",
+      "relation": "补充运送的路线",
+      "meaning": "从平赫斯特到西尔伯里"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-005",
+  "sentenceId": "nce-2-lesson-005-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Yesterday, a pigeon carried the first message from Pinhurst to Silbury.",
+  "lesson": "Lesson 5 No wrong numbers",
+  "notes": [
+    {
+      "title": "时间状语的位置",
+      "text": "Yesterday, 放在句首，点明整件事发生的时间是昨天，属于过去时间，提示句子说的是已经发生的事。"
+    },
+    {
+      "title": "from...to... 表示路线",
+      "text": "from Pinhurst to Silbury 说明消息传递的起点和终点，用来补充交代运送消息的完整路线。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确合理，仅一处需修正：words数组中first的词性标注为“序数词”属于词的功能分类，应明确为“序数词（形容词性/限定词用法）”不符合要求？不对，等下，原标注是序数词，其实序数词属于限定词范畴？不对，再检查：哦，不对，看要求是词性与语法角色分离，first的词性准确来说是序数词，常作限定词/定语，但原标注“序数词”是词类的一种，没问题？不对，再仔细看所有内容：哦，等下，backbone的text有没有问题？原句主干是a pigeon carried the first message，from...to...是状语，原backbone把状语也放进去了？不对，看backbone的定义，主干是主谓宾核心，原backbone的text包含了from Pinhurst to Silbury，这部分是状语，不属于主干？等下，用户输入的backbone是{（非逐句人工审核）"
+}

@@ -1,0 +1,215 @@
+{
+  "chinese": "他吃惊到被人发现了都没试图逃跑。",
+  "intent": "描述一个人被发现时的反应，强调惊讶程度之深以至于忘了逃跑。",
+  "comparison": {
+    "chinese": "他吃惊到连逃跑都不想试了。",
+    "english": "He was so surprised at being discovered that he did not even try to run away.",
+    "steps": [
+      {
+        "label": "先讲核心感受",
+        "text": "He was so surprised",
+        "explanation": "中文会先说“他特别吃惊”，英文也是先交代主语和“惊讶”这个核心状态，so用来加重程度。"
+      },
+      {
+        "label": "补充惊讶的原因",
+        "text": "at being discovered",
+        "explanation": "中文可以说“因为被发现了”，英文用at引出惊讶的原因，being discovered是被动含义，表示“被发现”这件事。"
+      },
+      {
+        "label": "说出惊讶带来的结果",
+        "text": "that he did not even try to run away",
+        "explanation": "中文用“到…都…”连接结果，英文用so…that…结构，that后面接结果从句，表示惊讶程度到了“连逃跑都不试”的地步。"
+      }
+    ],
+    "takeaway": "so…that…用来连接“程度”和“结果”，英文先讲状态再补原因最后给结果；中文可以灵活调整成“吃惊到…都…”的语序，不用硬套“如此…以至于…”。"
+  },
+  "backbone": {
+    "text": "He was so surprised that he did not try to run away.",
+    "meaning": "他非常吃惊，以至于没试图逃跑。"
+  },
+  "structureNotes": [
+    {
+      "title": "so…that…的逻辑关系",
+      "text": "so修饰surprised的程度，that引出结果从句，整句是“惊讶程度深 → 导致没逃跑”的因果逻辑，不是并列两件事。"
+    },
+    {
+      "title": "at being discovered的含义",
+      "text": "be surprised at 是固定搭配，表示“对…感到吃惊”；at后面接事件，being discovered是被动的动名词，指“被发现”这件事。"
+    },
+    {
+      "title": "动名词被动形式的作用",
+      "text": "being discovered在介词at后面，不能直接用过去分词，要变成动名词被动形式，才能表示“被发现”这个事件。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "so surprised at being discovered that",
+      "role": "程度结果连接结构",
+      "explanation": "so修饰形容词surprised，at引出惊讶的对象，that引导结果状语从句，整体表示“惊讶到了某种程度，以至于发生后面的事”。"
+    },
+    {
+      "text": "being discovered",
+      "role": "介词宾语（动名词被动短语）",
+      "explanation": "是动名词的被动形式，作介词at的宾语，表示“被发现”这件事，逻辑上主语he是被发现的对象。"
+    },
+    {
+      "text": "did not even try to run away",
+      "role": "结果从句的谓语部分",
+      "explanation": "try to do 表示“试图做某事”，run away是“逃跑”，even用来加强语气，强调“连逃跑都没试”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be动词过去式）",
+      "pos": "动词",
+      "phonetic": "/wəz/"
+    },
+    {
+      "text": "so",
+      "meaning": "如此，这么",
+      "pos": "副词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "surprised",
+      "meaning": "感到惊讶的",
+      "pos": "形容词",
+      "phonetic": "/səˈpraɪzd/"
+    },
+    {
+      "text": "at",
+      "meaning": "对（引出对象）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "being",
+      "meaning": "（动名词被动助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/ˈbiːɪŋ/"
+    },
+    {
+      "text": "discovered",
+      "meaning": "发现（过去分词）",
+      "pos": "动词",
+      "phonetic": "/dɪˈskʌvəd/"
+    },
+    {
+      "text": "that",
+      "meaning": "以至于",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "did",
+      "meaning": "（助动词过去式，构成否定）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "not",
+      "meaning": "不",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "even",
+      "meaning": "甚至",
+      "pos": "副词",
+      "phonetic": "/ˈiːvən/"
+    },
+    {
+      "text": "try",
+      "meaning": "试图，尝试",
+      "pos": "动词",
+      "phonetic": "/traɪ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "run",
+      "meaning": "跑",
+      "pos": "动词",
+      "phonetic": "/rʌn/"
+    },
+    {
+      "text": "away.",
+      "meaning": "离开，向远处（与run构成短语run away表示逃跑）",
+      "pos": "副词",
+      "phonetic": "/əˈweɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "描述谁",
+      "meaning": "他"
+    },
+    {
+      "text": "was so surprised",
+      "relation": "核心状态",
+      "meaning": "非常吃惊"
+    },
+    {
+      "text": "at being discovered",
+      "relation": "惊讶的原因",
+      "meaning": "对被发现（这件事）"
+    },
+    {
+      "text": "that",
+      "relation": "连接程度和结果",
+      "meaning": "以至于"
+    },
+    {
+      "text": "he",
+      "relation": "结果分句的主语",
+      "meaning": "他"
+    },
+    {
+      "text": "did not even try to run away.",
+      "relation": "惊讶带来的结果",
+      "meaning": "甚至没有试图逃跑"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-046",
+  "sentenceId": "nce-2-lesson-046-sentence-006",
+  "sentenceOrder": 7,
+  "english": "He was so surprised at being discovered that he did not even try to run away.",
+  "lesson": "Lesson 46 Expensive and uncomfortable",
+  "notes": [
+    {
+      "title": "so…that…的逻辑关系",
+      "text": "so修饰surprised的程度，that引出结果从句，整句是“惊讶程度深 → 导致没逃跑”的因果逻辑，不是并列两件事。"
+    },
+    {
+      "title": "at being discovered的含义",
+      "text": "be surprised at 是固定搭配，表示“对…感到吃惊”；at后面接事件，being discovered是被动的动名词，指“被发现”这件事。"
+    },
+    {
+      "title": "动名词被动形式的作用",
+      "text": "being discovered在介词at后面，不能直接用过去分词，要变成动名词被动形式，才能表示“被发现”这个事件。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅单词条目里away.的释义未准确对应短语中含义，需修正该词项释义与对应部分的释义细节，其余内容无误。（非逐句人工审核）"
+}

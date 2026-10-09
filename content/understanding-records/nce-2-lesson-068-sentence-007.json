@@ -1,0 +1,82 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-068",
+  "sentenceId": "nce-2-lesson-068-sentence-007",
+  "sentenceOrder": 7,
+  "english": "'Hello, Bert,' I said.",
+  "chinese": "“你好，伯特，”我说。",
+  "lesson": "Lesson 68 Persistent",
+  "intent": "表面礼貌地向伯特打招呼",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "'Hello, Bert,'",
+      "relation": "招呼",
+      "meaning": "你好伯特"
+    },
+    {
+      "text": "I said.",
+      "relation": "引述",
+      "meaning": "我说"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "呼语",
+      "text": "Bert 是招呼对象，不是动作主语。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "呼语",
+      "text": "Bert 是招呼对象，不是动作主语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'Hello,",
+      "role": "独立招呼语",
+      "explanation": "开启交谈。"
+    },
+    {
+      "text": "Bert,'",
+      "role": "呼语",
+      "explanation": "称呼听者。"
+    },
+    {
+      "text": "I said.",
+      "role": "引述分句",
+      "explanation": "交代说话人。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'Hello,",
+      "meaning": "你好",
+      "pos": "感叹词",
+      "phonetic": "/həˈləʊ/"
+    },
+    {
+      "text": "Bert,'",
+      "meaning": "伯特",
+      "pos": "专有名词",
+      "phonetic": "/bɜːt/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

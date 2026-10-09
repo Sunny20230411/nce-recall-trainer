@@ -1,0 +1,199 @@
+{
+  "chinese": "他解释说，他的饮食控制得非常严格，以至于不得不偶尔奖励一下自己。",
+  "intent": "说明他给出的解释内容：饮食过于严格，因此需要偶尔自我奖励。",
+  "comparison": {
+    "chinese": "他解释说，因为饮食控制得太严，所以得偶尔奖励自己。",
+    "english": "He explained that his diet was so strict that he had to reward himself occasionally.",
+    "steps": [
+      {
+        "label": "先抓住主句核心",
+        "text": "He explained that…",
+        "explanation": "先交代“他解释了某件事”，后面用that引出解释的具体内容，中文说“他解释说……”即可。"
+      },
+      {
+        "label": "理解so…that的因果递进",
+        "text": "so strict that he had to reward himself occasionally",
+        "explanation": "英文用so+形容词+that的结构，先讲程度“严格到什么地步”，再带出结果“不得不偶尔奖励自己”；中文习惯说“太严了，所以……”或“严到不得不……”。"
+      }
+    ],
+    "takeaway": "so…that结构表达“程度高到引发某个结果”，英文把程度放在中间、结果放在that后；中文可以用“太……所以……”或“如此……以至于……”来对应。"
+  },
+  "backbone": {
+    "text": "He explained that his diet was so strict that he had to reward himself occasionally.",
+    "meaning": "他解释了一件事：他的饮食严格到了必须偶尔自我奖励的程度。"
+  },
+  "structureNotes": [
+    {
+      "title": "that引导的宾语从句",
+      "text": "that his diet was so strict…occasionally. 跟在explained后面，是explain的具体内容，回答“解释了什么”。"
+    },
+    {
+      "title": "so…that 结果结构",
+      "text": "so strict that he had to reward himself occasionally 用so表示程度，that引出程度带来的结果，意为“严格到了必须偶尔奖励自己的地步”。"
+    },
+    {
+      "title": "反身代词himself",
+      "text": "reward himself 中反身代词作宾语，指奖励的对象就是主语he本人，即“奖励他自己”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He explained",
+      "role": "主句主谓",
+      "explanation": "主语是He，谓语是explained，构成句子的主干动作“他解释道”。"
+    },
+    {
+      "text": "that his diet was so strict that he had to reward himself occasionally.",
+      "role": "宾语从句（解释的内容）",
+      "explanation": "整体作explained的宾语，说明解释的具体内容；从句内部又包含so…that结果结构。"
+    },
+    {
+      "text": "his diet",
+      "role": "从句主语",
+      "explanation": "从句里的主语，指“他的饮食（控制）”。"
+    },
+    {
+      "text": "was so strict",
+      "role": "从句系表部分（表程度）",
+      "explanation": "用was加形容词strict描述diet的性质，so用来加强“严格”的程度。"
+    },
+    {
+      "text": "that he had to reward himself occasionally.",
+      "role": "结果状语分句",
+      "explanation": "由第二个that引导，说明“严格”带来的结果：他不得不偶尔奖励自己。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "explained",
+      "meaning": "解释；说明",
+      "pos": "动词",
+      "phonetic": "/ɪkˈspleɪnd/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "diet",
+      "meaning": "饮食；日常饮食",
+      "pos": "名词",
+      "phonetic": "/ˈdaɪət/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be的过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "so",
+      "meaning": "如此；这么",
+      "pos": "副词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "strict",
+      "meaning": "严格的",
+      "pos": "形容词",
+      "phonetic": "/strɪkt/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引出结果）以至于",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "had",
+      "meaning": "有；必须（have的过去式）",
+      "pos": "动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "to",
+      "meaning": "（与have连用构成have to，表示不得不）",
+      "pos": "小品词（不定式符号）",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "reward",
+      "meaning": "奖励；奖赏",
+      "pos": "动词",
+      "phonetic": "/rɪˈwɔːd/"
+    },
+    {
+      "text": "himself",
+      "meaning": "他自己",
+      "pos": "反身代词",
+      "phonetic": "/hɪmˈself/"
+    },
+    {
+      "text": "occasionally.",
+      "meaning": "偶尔；间或",
+      "pos": "副词",
+      "phonetic": "/əˈkeɪʒnəli/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He explained",
+      "relation": "主句的动作发出者和动作",
+      "meaning": "他解释说"
+    },
+    {
+      "text": "that his diet was so strict",
+      "relation": "解释的内容核心，描述饮食的程度",
+      "meaning": "（说的内容里）他的饮食非常严格"
+    },
+    {
+      "text": "that he had to reward himself occasionally.",
+      "relation": "严格所导致的结果",
+      "meaning": "以至于他不得不偶尔奖励自己"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-051",
+  "sentenceId": "nce-2-lesson-051-sentence-011",
+  "sentenceOrder": 12,
+  "english": "He explained that his diet was so strict that he had to reward himself occasionally.",
+  "lesson": "Lesson 51 Reward for virtue",
+  "notes": [
+    {
+      "title": "that引导的宾语从句",
+      "text": "that his diet was so strict…occasionally. 跟在explained后面，是explain的具体内容，回答“解释了什么”。"
+    },
+    {
+      "title": "so…that 结果结构",
+      "text": "so strict that he had to reward himself occasionally 用so表示程度，that引出程度带来的结果，意为“严格到了必须偶尔奖励自己的地步”。"
+    },
+    {
+      "title": "反身代词himself",
+      "text": "reward himself 中反身代词作宾语，指奖励的对象就是主语he本人，即“奖励他自己”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，仅words项中to的词性标注有误，to在此为不定式符号而非不定式符号（原标注表述不当，应为小品词/不定式标记），且occasionally.的释义未带多余标点说明但text保留标点符合约定，修正to的词性标注即可。（非逐句人工审核）"
+}

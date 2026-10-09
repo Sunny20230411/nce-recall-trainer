@@ -1,0 +1,121 @@
+{
+  "chinese": "然后他借给我一本书。",
+  "intent": "陈述前一件事之后发生的动作：某位男性把一本书借出给说话人。",
+  "comparison": null,
+  "backbone": {
+    "text": "he lent me a book",
+    "meaning": "他借给我一本书"
+  },
+  "structureNotes": [
+    {
+      "title": "Then的作用",
+      "text": "Then放在句首，用来表示这件事发生在前文提到的“服务员教我几句意大利语”之后，是时间顺序的衔接词。"
+    },
+    {
+      "title": "lend接双宾语",
+      "text": "lent后面同时有me和a book两个宾语：me是借出的对象，a book是借出的物品，意思是“把某物借给某人”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Then",
+      "role": "时间衔接状语",
+      "explanation": "表示动作发生的时间顺序，承接上文的事件，意思是“然后、之后”。"
+    },
+    {
+      "text": "he",
+      "role": "主语",
+      "explanation": "指代前文提到的那位友好的服务员，是“借出”这个动作的发出者。"
+    },
+    {
+      "text": "lent me a book",
+      "role": "谓语及双宾语",
+      "explanation": "lent是动词lend的过去式，作谓语；me是间接宾语（借出对象），a book是直接宾语（借出的物品）。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Then",
+      "meaning": "然后；接下来",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "lent",
+      "meaning": "借出（lend的过去式）",
+      "pos": "动词",
+      "phonetic": "/lent/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "人称代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（本）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "book.",
+      "meaning": "书",
+      "pos": "名词",
+      "phonetic": "/bʊk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Then",
+      "relation": "时间顺序",
+      "meaning": "然后"
+    },
+    {
+      "text": "he",
+      "relation": "描述谁（动作发出者）",
+      "meaning": "他"
+    },
+    {
+      "text": "lent",
+      "relation": "主干动作",
+      "meaning": "借给"
+    },
+    {
+      "text": "me",
+      "relation": "动作的对象（借出给谁）",
+      "meaning": "我"
+    },
+    {
+      "text": "a book.",
+      "relation": "动作的内容（借出什么）",
+      "meaning": "一本书"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-003",
+  "sentenceId": "nce-2-lesson-003-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Then he lent me a book.",
+  "lesson": "Lesson 3 Please send me a card",
+  "notes": [
+    {
+      "title": "Then的作用",
+      "text": "Then放在句首，用来表示这件事发生在前文提到的“服务员教我几句意大利语”之后，是时间顺序的衔接词。"
+    },
+    {
+      "title": "lend接双宾语",
+      "text": "lent后面同时有me和a book两个宾语：me是借出的对象，a book是借出的物品，意思是“把某物借给某人”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本准确，仅两处小问题需修正：1. words数组中book.的释义多余标注句末带句号，不符合仅解释词本身的要求；2. structures中lent me a book的role表述为“谓语加双宾语”不严谨，谓语仅包含动词lent，me和a book是宾语部分，应调整表述。（非逐句人工审核）"
+}

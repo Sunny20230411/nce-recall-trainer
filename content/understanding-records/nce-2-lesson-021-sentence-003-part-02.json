@@ -1,0 +1,169 @@
+{
+  "chinese": "但由于某种原因，它当时无法被使用。",
+  "intent": "补充说明前文提到的机场在建成时没能投入使用的原因与时间背景。",
+  "comparison": {
+    "chinese": "但由于某种原因，它当时没法用。",
+    "english": "but for some reason it could not be used then.",
+    "steps": [
+      {
+        "label": "先抓主干事实",
+        "text": "it could not be used",
+        "explanation": "中文先说“它没法用”，英文也是先交代核心情况：某个东西不能被使用，这里的it指代前文的机场。"
+      },
+      {
+        "label": "再接原因和时间",
+        "text": "for some reason / then",
+        "explanation": "中文把“由于某种原因”放在前面引出，“当时”放在句中或句尾；英文用for引出原因放在主干前，then放在句尾点明时间，都属于补充信息，不影响主干语序。"
+      }
+    ],
+    "takeaway": "中英文表达“某事不能做+原因+时间”时，核心事实的位置相近，区别在于中文习惯把原因提前，英文可把原因短语放在主干前或后，时间副词常置于句尾。"
+  },
+  "backbone": {
+    "text": "it could not be used",
+    "meaning": "它无法被使用。"
+  },
+  "structureNotes": [
+    {
+      "title": "but的转折作用",
+      "text": "but位于句首，承接前一句“机场多年前建成”的内容，引出与预期相反的结果：建成了却没能投入使用。"
+    },
+    {
+      "title": "被动语态的含义",
+      "text": "could not be used是带情态动词的被动结构，表示“没法被使用”，重点在事物的状态，不强调是谁不用它。"
+    },
+    {
+      "title": "for some reason的功能",
+      "text": "for some reason是介词短语作原因状语，说明“无法使用”的原因是某种未具体说明的理由。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "but",
+      "role": "转折连词",
+      "explanation": "连接前文内容与本句，表达转折关系，意思是“但是、然而”。"
+    },
+    {
+      "text": "for some reason",
+      "role": "原因状语",
+      "explanation": "由介词for引导的短语，说明后面事情发生的原因，意为“由于某种原因”。"
+    },
+    {
+      "text": "it could not be used",
+      "role": "主句（主语+谓语）",
+      "explanation": "it是主语，指代前文提到的机场；could not be used是带情态动词的被动谓语，表示“不能被使用”。"
+    },
+    {
+      "text": "then.",
+      "role": "时间状语",
+      "explanation": "副词then放在句尾，点明动作发生的时间是“当时、那时候”，指机场刚建成的那段时间。"
+    }
+  ],
+  "words": [
+    {
+      "text": "but",
+      "meaning": "但是，然而",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "for",
+      "meaning": "由于，因为",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "some",
+      "meaning": "某种，一些",
+      "pos": "限定词",
+      "phonetic": "/sʌm/"
+    },
+    {
+      "text": "reason",
+      "meaning": "原因，理由",
+      "pos": "名词",
+      "phonetic": "/ˈriːzn/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代前文的机场）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "could",
+      "meaning": "能够（can的过去式，此处表可能性）",
+      "pos": "情态动词",
+      "phonetic": "/kʊd/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "be",
+      "meaning": "是（被动语态助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "used",
+      "meaning": "使用（use的过去分词）",
+      "pos": "动词（过去分词）",
+      "phonetic": "/juːzd/"
+    },
+    {
+      "text": "then.",
+      "meaning": "当时，那时",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "but",
+      "relation": "转折连接，衔接前文内容",
+      "meaning": "但是"
+    },
+    {
+      "text": "for some reason",
+      "relation": "说明后面事件发生的原因",
+      "meaning": "由于某种原因"
+    },
+    {
+      "text": "it could not be used",
+      "relation": "句子主干，描述核心事实",
+      "meaning": "它无法被使用"
+    },
+    {
+      "text": "then.",
+      "relation": "点明事件发生的时间",
+      "meaning": "那时"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-021",
+  "sentenceId": "nce-2-lesson-021-sentence-003-part-02",
+  "sentenceOrder": 4,
+  "english": "but for some reason it could not be used then.",
+  "lesson": "Lesson 21 Mad or not?",
+  "notes": [
+    {
+      "title": "but的转折作用",
+      "text": "but位于句首，承接前一句“机场多年前建成”的内容，引出与预期相反的结果：建成了却没能投入使用。"
+    },
+    {
+      "title": "被动语态的含义",
+      "text": "could not be used是带情态动词的被动结构，表示“没法被使用”，重点在事物的状态，不强调是谁不用它。"
+    },
+    {
+      "title": "for some reason的功能",
+      "text": "for some reason是介词短语作原因状语，说明“无法使用”的原因是某种未具体说明的理由。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子解析整体准确，仅存在used的音标词性标注错误、部分语法角色表述可优化，修正后符合要求。（非逐句人工审核）"
+}

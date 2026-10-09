@@ -1,0 +1,146 @@
+{
+  "chinese": "他将参加一场横跨大西洋的重要比赛。",
+  "intent": "陈述某人将要参与一场横跨大西洋的重要赛事。",
+  "comparison": null,
+  "backbone": {
+    "text": "He will take part in a race.",
+    "meaning": "他将参加一场比赛。"
+  },
+  "structureNotes": [
+    {
+      "title": "take part in的含义",
+      "text": "take part in是固定短语，意思是“参加（活动、比赛等）”，整体相当于一个及物动词，后面直接接参加的对象。"
+    },
+    {
+      "title": "across the Atlantic的作用",
+      "text": "across the Atlantic是介词短语，放在名词race后面，用来补充说明这场比赛的路线是横跨大西洋的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "take part in",
+      "role": "谓语短语",
+      "explanation": "固定动词短语，表示“参与、参加”，后接参与的活动或赛事。"
+    },
+    {
+      "text": "an important race across the Atlantic",
+      "role": "宾语",
+      "explanation": "是take part in的对象，核心词是race，前面的important描述比赛的性质，后面的across the Atlantic说明比赛的路线范围。"
+    },
+    {
+      "text": "across the Atlantic",
+      "role": "后置定语",
+      "explanation": "介词短语，放在race后面，补充说明比赛是横跨大西洋的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "will",
+      "meaning": "将要",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "take",
+      "meaning": "参加（和part、in构成短语）",
+      "pos": "动词",
+      "phonetic": "/teɪk/"
+    },
+    {
+      "text": "part",
+      "meaning": "部分（和take、in构成短语）",
+      "pos": "名词",
+      "phonetic": "/pɑːt/"
+    },
+    {
+      "text": "in",
+      "meaning": "在…之中（和take part构成短语）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "an",
+      "meaning": "一场",
+      "pos": "冠词",
+      "phonetic": "/ən/"
+    },
+    {
+      "text": "important",
+      "meaning": "重要的",
+      "pos": "形容词",
+      "phonetic": "/ɪmˈpɔːtənt/"
+    },
+    {
+      "text": "race",
+      "meaning": "比赛",
+      "pos": "名词",
+      "phonetic": "/reɪs/"
+    },
+    {
+      "text": "across",
+      "meaning": "横跨",
+      "pos": "介词",
+      "phonetic": "/əˈkrɒs/"
+    },
+    {
+      "text": "the",
+      "meaning": "（用于专有名词前）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "Atlantic.",
+      "meaning": "大西洋（本词项附带句末点号）",
+      "pos": "名词",
+      "phonetic": "/ətˈlæntɪk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "动作的发出者",
+      "meaning": "他"
+    },
+    {
+      "text": "will take part in",
+      "relation": "主语发出的动作",
+      "meaning": "将要参加"
+    },
+    {
+      "text": "an important race",
+      "relation": "参加的对象",
+      "meaning": "一场重要的比赛"
+    },
+    {
+      "text": "across the Atlantic.",
+      "relation": "补充说明比赛的路线范围",
+      "meaning": "横跨大西洋的"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-012",
+  "sentenceId": "nce-2-lesson-012-sentence-008",
+  "sentenceOrder": 8,
+  "english": "He will take part in an important race across the Atlantic.",
+  "lesson": "Lesson 12 Goodbye and good luck",
+  "notes": [
+    {
+      "title": "take part in的含义",
+      "text": "take part in是固定短语，意思是“参加（活动、比赛等）”，整体相当于一个及物动词，后面直接接参加的对象。"
+    },
+    {
+      "title": "across the Atlantic的作用",
+      "text": "across the Atlantic是介词短语，放在名词race后面，用来补充说明这场比赛的路线是横跨大西洋的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅存在两处细节问题：1. 单词 Atlantic 后带有句末标点，释义未体现标点随词的约定属性，且需统一说明标点为词项附带的句末标点；2. 宾语结构的文本包含句末点号，边界不严谨。其余语法分析、翻译、主干、短语释义均符合要求。（非逐句人工审核）"
+}

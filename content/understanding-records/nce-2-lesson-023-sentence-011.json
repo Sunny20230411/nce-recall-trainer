@@ -1,0 +1,145 @@
+{
+  "chinese": "这肯定是这个地区唯一的现代化住宅。",
+  "intent": "对前文提到的那栋房子做出肯定推测，判断它是该地区仅有的现代住宅。",
+  "comparison": null,
+  "backbone": {
+    "text": "It must be the only modern house in the district.",
+    "meaning": "它肯定是该地区唯一的现代住宅。"
+  },
+  "structureNotes": [
+    {
+      "title": "must be 的推测用法",
+      "text": "must 在这里表示说话人根据已有信息做出的肯定推测，意思是“肯定、想必”，不是“必须”；后接动词原形 be，共同说明主语的身份或属性。"
+    },
+    {
+      "title": "介词短语作后置修饰",
+      "text": "in the district 放在 house 后面，说明房子所在的区域范围，用来限定“唯一的现代住宅”是在哪个范围内成立。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "主语",
+      "explanation": "指代前文提到的那栋新房子，是句子谈论的对象。"
+    },
+    {
+      "text": "must be",
+      "role": "谓语",
+      "explanation": "表示肯定推测的判断结构，说明主语具有后面描述的属性。"
+    },
+    {
+      "text": "the only modern house",
+      "role": "表语",
+      "explanation": "说明主语的身份，指“唯一的现代住宅”，其中 only 强调唯一性。"
+    },
+    {
+      "text": "in the district",
+      "role": "地点范围修饰语",
+      "explanation": "修饰前面的 house，说明是“这个地区内”的房子。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（指代前文提到的房子）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "must",
+      "meaning": "肯定、想必（表推测）",
+      "pos": "情态动词",
+      "phonetic": "/mʌst/"
+    },
+    {
+      "text": "be",
+      "meaning": "是（be 动词原形）",
+      "pos": "动词",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "only",
+      "meaning": "唯一的",
+      "pos": "形容词",
+      "phonetic": "/ˈəʊnli/"
+    },
+    {
+      "text": "modern",
+      "meaning": "现代的、现代化的",
+      "pos": "形容词",
+      "phonetic": "/ˈmɒdən/"
+    },
+    {
+      "text": "house",
+      "meaning": "房子、住宅",
+      "pos": "名词",
+      "phonetic": "/haʊs/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……之内",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "district.",
+      "meaning": "地区、行政区（句末带句号）",
+      "pos": "名词",
+      "phonetic": "/ˈdɪstrɪkt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It",
+      "meaning": "它（指那栋新房子）",
+      "relation": "描述对象"
+    },
+    {
+      "text": "must be",
+      "meaning": "肯定是",
+      "relation": "判断谓语（表推测）"
+    },
+    {
+      "text": "the only modern house",
+      "meaning": "唯一的现代化住宅",
+      "relation": "判断的内容（表语）"
+    },
+    {
+      "text": "in the district.",
+      "meaning": "在这个地区",
+      "relation": "地点范围"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-023",
+  "sentenceId": "nce-2-lesson-023-sentence-011",
+  "sentenceOrder": 11,
+  "english": "It must be the only modern house in the district.",
+  "lesson": "Lesson 23 A new house",
+  "notes": [
+    {
+      "title": "must be 的推测用法",
+      "text": "must 在这里表示说话人根据已有信息做出的肯定推测，意思是“肯定、想必”，不是“必须”；后接动词原形 be，共同说明主语的身份或属性。"
+    },
+    {
+      "title": "介词短语作后置修饰",
+      "text": "in the district 放在 house 后面，说明房子所在的区域范围，用来限定“唯一的现代住宅”是在哪个范围内成立。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：译文与语法解析整体准确，仅末尾单词district的text携带句点，释义未明确说明该标点为句末标点，且需统一modern的中文译法为“现代化的”与译文一致，另修正only的标准英式音标，其余内容符合要求。（非逐句人工审核）"
+}

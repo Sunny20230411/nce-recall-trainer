@@ -1,0 +1,211 @@
+{
+  "chinese": "他薪水很高，但他总是向朋友借钱，而且从来不还。",
+  "intent": "说明某人虽然收入不错，却有向朋友借钱不还的习惯。",
+  "comparison": null,
+  "backbone": {
+    "text": "He gets a good salary, but he borrows money from his friends and never pays it back.",
+    "meaning": "他收入不错，但他会向朋友借钱并且从不归还。"
+  },
+  "structureNotes": [
+    {
+      "title": "but连接的转折并列句",
+      "text": "前后两个分句由but连接，先说他工资高的事实，再转折说他反而常向朋友借钱不还，形成反差。"
+    },
+    {
+      "title": "and连接的并列谓语",
+      "text": "第二个分句里he有两个并列动作：borrows money…和never pays it back，用and相连，描述他借钱和不还的连续行为。"
+    },
+    {
+      "title": "pay it back中的指代",
+      "text": "it指代前面提到的money，pay back是“偿还”的意思，it放在pay和back中间。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He gets a good salary",
+      "role": "第一个并列分句",
+      "explanation": "陈述他薪水不错的事实，作为转折前的背景。"
+    },
+    {
+      "text": "but",
+      "role": "并列连词",
+      "explanation": "连接前后两个分句，表示转折关系。"
+    },
+    {
+      "text": "he always borrows money from his friends",
+      "role": "第二个并列分句的前半部分",
+      "explanation": "说明他经常做的行为：向朋友借钱。"
+    },
+    {
+      "text": "and never pays it back",
+      "role": "第二个并列分句的并列谓语部分",
+      "explanation": "与borrows并列，补充说明他借钱后的结果：从不还钱。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "gets",
+      "meaning": "获得，领到",
+      "pos": "动词",
+      "phonetic": "/ɡets/"
+    },
+    {
+      "text": "a",
+      "meaning": "一份",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "good",
+      "meaning": "不错的，可观的",
+      "pos": "形容词",
+      "phonetic": "/ɡʊd/"
+    },
+    {
+      "text": "salary,",
+      "meaning": "薪水，工资",
+      "pos": "名词",
+      "phonetic": "/ˈsæləri/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是，一直",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "borrows",
+      "meaning": "借（入）",
+      "pos": "动词",
+      "phonetic": "/ˈbɒrəʊz/"
+    },
+    {
+      "text": "money",
+      "meaning": "钱",
+      "pos": "名词",
+      "phonetic": "/ˈmʌni/"
+    },
+    {
+      "text": "from",
+      "meaning": "从，向",
+      "pos": "介词",
+      "phonetic": "/frɒm/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "物主代词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "friends",
+      "meaning": "朋友们",
+      "pos": "名词",
+      "phonetic": "/frendz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "never",
+      "meaning": "从不，绝不",
+      "pos": "副词",
+      "phonetic": "/ˈnevə/"
+    },
+    {
+      "text": "pays",
+      "meaning": "支付，偿还",
+      "pos": "动词",
+      "phonetic": "/peɪz/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代钱）",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "back.",
+      "meaning": "回，归还",
+      "pos": "副词",
+      "phonetic": "/bæk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He gets a good salary,",
+      "meaning": "他领着一份可观的薪水",
+      "relation": "转折前的事实陈述"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "relation": "转折连接"
+    },
+    {
+      "text": "he always",
+      "meaning": "他总是",
+      "relation": "描述谁及行为频率"
+    },
+    {
+      "text": "borrows money from his friends",
+      "meaning": "向他的朋友们借钱",
+      "relation": "第一个并列动作"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "relation": "并列连接"
+    },
+    {
+      "text": "never pays it back.",
+      "meaning": "从不归还",
+      "relation": "第二个并列动作，补充借钱后的行为"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-011",
+  "sentenceId": "nce-2-lesson-011-sentence-003",
+  "sentenceOrder": 3,
+  "english": "He gets a good salary, but he always borrows money from his friends and never pays it back.",
+  "lesson": "Lesson 11 One good turn deserves another",
+  "notes": [
+    {
+      "title": "but连接的转折并列句",
+      "text": "前后两个分句由but连接，先说他工资高的事实，再转折说他反而常向朋友借钱不还，形成反差。"
+    },
+    {
+      "title": "and连接的并列谓语",
+      "text": "第二个分句里he有两个并列动作：borrows money…和never pays it back，用and相连，描述他借钱和不还的连续行为。"
+    },
+    {
+      "title": "pay it back中的指代",
+      "text": "it指代前面提到的money，pay back是“偿还”的意思，it放在pay和back中间。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅存在两处可修正问题：1. 单词salary,的text带逗号，释义不应混入标点；2. 最后一个分块的翻译“从不把它还回去”过于直译，可优化为符合中文表达习惯的“从不归还”，其余内容均符合要求。（非逐句人工审核）"
+}

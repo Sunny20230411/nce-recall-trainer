@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-049",
+  "sentenceId": "nce-2-lesson-049-sentence-003",
+  "english": "Because the weather was very hot, he carried the bed on to the roof of his house.",
+  "text": "Because the weather was very hot 放在句首，是先把抬床的原因摆明，再讲后面的动作。如果原因是已知信息，也可以说 He carried the bed on to the roof because it was very hot，重点就落在动作上。",
+  "sourceDigest": "141e2fac4852b69ac6175472e490248e60aa3503020b935bbfe2ea84783df7ad",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：通过语序对比说明信息焦点差异，讲清了原因前置与后置的表意区别，不是单纯讲语法结构。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "清晰对比原因位置不同带来的焦点差异，不是单纯讲语序，符合表达思路教学。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

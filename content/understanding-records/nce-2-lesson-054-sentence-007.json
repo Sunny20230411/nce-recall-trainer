@@ -1,0 +1,168 @@
+{
+  "chinese": "我花了十分钟说服她晚点再回电。",
+  "intent": "说明说服对方稍后回电这件事花费了自己十分钟时间。",
+  "comparison": {
+    "chinese": "我花了十分钟说服她晚点再回电。",
+    "english": "It took me ten minutes to persuade her to ring back later.",
+    "steps": [
+      {
+        "label": "第一步：先抓主句框架",
+        "text": "It took me ten minutes",
+        "explanation": "中文习惯把人放在开头当主语，说“我花了…时间”；英文这里先用 It 引出整件事，交代“这件事花费了我十分钟”，先说明耗时的量和对象，再讲具体是什么事。"
+      },
+      {
+        "label": "第二步：补出真正的主语内容",
+        "text": "to persuade her to ring back later",
+        "explanation": "这个不定式短语才是真正的“那件事”——说服她晚点回电。It 只是形式上占住主语的位置，把真正要讲的事放在后面，避免句子头重脚轻。"
+      },
+      {
+        "label": "第三步：理顺动作链",
+        "text": "persuade her to ring back later",
+        "explanation": "persuade 后面接的是说服的对象 her，再用 to ring back later 说明说服她去做的具体动作：稍后回电。"
+      }
+    ],
+    "takeaway": "英文常用 It takes sb + 时间 + to do 的结构表达“某人花多少时间做某事”，It 是形式主语，真正主语是后面的不定式；中文直接以人作主语起句。"
+  },
+  "backbone": {
+    "text": "It took me ten minutes to persuade her to ring back later.",
+    "meaning": "说服她晚点再回电这件事花了我十分钟。"
+  },
+  "structureNotes": [
+    {
+      "title": "形式主语 It 的作用",
+      "text": "句首的 It 没有实际词义，只是形式上的主语，用来替代后面较长的不定式短语 to persuade her to ring back later，让句子结构更平衡。"
+    },
+    {
+      "title": "persuade 后的两层不定式",
+      "text": "第一层 to persuade… 是真正主语，说明花时间做的事；第二层 to ring back later 是宾语 her 的补足语，说明说服她去做的具体动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "形式主语",
+      "explanation": "无实际词义，替代后面真正的主语不定式短语，避免句子头重脚轻。"
+    },
+    {
+      "text": "took me ten minutes",
+      "role": "谓语+间接宾语+直接宾语",
+      "explanation": "took 是谓语动词，表示“花费”；me 是间接宾语，指花费的对象；ten minutes 是直接宾语，指花费的时间量。"
+    },
+    {
+      "text": "to persuade her to ring back later",
+      "role": "真正主语",
+      "explanation": "整个不定式短语是句子真正的主语，说明“花十分钟”对应的具体事件。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（此处为形式主语，无实义）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "took",
+      "meaning": "花费（时间）",
+      "pos": "动词",
+      "phonetic": "/tʊk/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "ten",
+      "meaning": "十",
+      "pos": "数词",
+      "phonetic": "/ten/"
+    },
+    {
+      "text": "minutes",
+      "meaning": "分钟",
+      "pos": "名词",
+      "phonetic": "/ˈmɪnɪts/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "persuade",
+      "meaning": "说服，劝说",
+      "pos": "动词",
+      "phonetic": "/pəˈsweɪd/"
+    },
+    {
+      "text": "her",
+      "meaning": "她（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɜː/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "ring",
+      "meaning": "打（电话）",
+      "pos": "动词",
+      "phonetic": "/rɪŋ/"
+    },
+    {
+      "text": "back",
+      "meaning": "回（电话）",
+      "pos": "副词",
+      "phonetic": "/bæk/"
+    },
+    {
+      "text": "later.",
+      "meaning": "稍后，以后",
+      "pos": "副词",
+      "phonetic": "/ˈleɪtə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It",
+      "relation": "指代后面整件事，作形式上的主语",
+      "meaning": "它（形式主语）"
+    },
+    {
+      "text": "took me ten minutes",
+      "relation": "主干谓语部分，说明时间花费的对象与数量",
+      "meaning": "花了我十分钟"
+    },
+    {
+      "text": "to persuade her to ring back later.",
+      "relation": "真正主语，说明花费十分钟所做的具体事情",
+      "meaning": "说服她晚点再回电"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-007",
+  "sentenceOrder": 7,
+  "english": "It took me ten minutes to persuade her to ring back later.",
+  "lesson": "Lesson 54 Sticky fingers",
+  "notes": [
+    {
+      "title": "形式主语 It 的作用",
+      "text": "句首的 It 没有实际词义，只是形式上的主语，用来替代后面较长的不定式短语 to persuade her to ring back later，让句子结构更平衡。"
+    },
+    {
+      "title": "persuade 后的两层不定式",
+      "text": "第一层 to persuade… 是真正主语，说明花时间做的事；第二层 to ring back later 是宾语 her 的补足语，说明说服她去做的具体动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅个别细节需修正：later的释义多余句号、音标多标点；comparison中文翻译漏句末句号。（非逐句人工审核）"
+}

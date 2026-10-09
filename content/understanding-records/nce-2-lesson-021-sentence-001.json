@@ -1,0 +1,117 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-021",
+  "sentenceId": "nce-2-lesson-021-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Aeroplanes are slowly driving me mad.",
+  "chinese": "飞机正慢慢把我逼疯。",
+  "lesson": "Lesson 21 Mad or not?",
+  "intent": "抱怨飞机造成持续加剧的烦扰。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "Aeroplanes",
+      "relation": "烦扰来源",
+      "meaning": "飞机"
+    },
+    {
+      "text": "are slowly driving",
+      "relation": "正在发展的影响",
+      "meaning": "正慢慢把……逼得"
+    },
+    {
+      "text": "me",
+      "relation": "受影响者",
+      "meaning": "我"
+    },
+    {
+      "text": "mad.",
+      "relation": "造成的状态",
+      "meaning": "发疯"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "使人成为某种状态",
+      "text": "drive 在这里不是驾驶，而是使人陷入某种状态，mad 描写 me 被逼到的状态。"
+    },
+    {
+      "title": "持续变化",
+      "text": "are driving 用现在进行时呈现当前持续的影响，slowly 说明变化逐渐发生。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "使人成为某种状态",
+      "text": "drive 在这里不是驾驶，而是使人陷入某种状态，mad 描写 me 被逼到的状态。"
+    },
+    {
+      "title": "持续变化",
+      "text": "are driving 用现在进行时呈现当前持续的影响，slowly 说明变化逐渐发生。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Aeroplanes",
+      "role": "主语",
+      "explanation": "复数名词泛指带来烦扰的飞机。"
+    },
+    {
+      "text": "are slowly driving",
+      "role": "谓语",
+      "explanation": "进行时谓语中插入 slowly，说明作用在逐渐发生。"
+    },
+    {
+      "text": "me",
+      "role": "宾语",
+      "explanation": "指受到飞机影响的叙述者。"
+    },
+    {
+      "text": "mad.",
+      "role": "宾语补足语",
+      "explanation": "形容词说明 me 被逼成的状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Aeroplanes",
+      "meaning": "飞机",
+      "pos": "复数名词",
+      "phonetic": "/ˈeərəpleɪnz/"
+    },
+    {
+      "text": "are",
+      "meaning": "表示正在发生，与 driving 构成进行时",
+      "pos": "助动词",
+      "phonetic": "/ɑː/ 或 /ɑːr/"
+    },
+    {
+      "text": "slowly",
+      "meaning": "逐渐地",
+      "pos": "方式副词",
+      "phonetic": "/ˈsləʊli/"
+    },
+    {
+      "text": "driving",
+      "meaning": "逼得",
+      "pos": "及物动词的现在分词",
+      "phonetic": "/ˈdraɪvɪŋ/"
+    },
+    {
+      "text": "me",
+      "meaning": "我",
+      "pos": "宾格人称代词",
+      "phonetic": "/miː/ 或 /mɪ/"
+    },
+    {
+      "text": "mad.",
+      "meaning": "发疯的",
+      "pos": "形容词",
+      "phonetic": "/mæd/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

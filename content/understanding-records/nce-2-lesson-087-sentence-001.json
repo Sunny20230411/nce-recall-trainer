@@ -1,0 +1,196 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-087",
+  "sentenceId": "nce-2-lesson-087-sentence-001",
+  "sentenceOrder": 1,
+  "english": "'At the time the murder was committed, I was travelling on the 8 o'clock train to London,' said the man.",
+  "chinese": "“谋杀发生时，我正乘八点的火车去伦敦，”那人说。",
+  "lesson": "Lesson 87 A perfect alibi",
+  "intent": "陈述案发时的不在场说法",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "'At the time the murder was committed,",
+      "relation": "案发时间",
+      "meaning": "在谋杀发生时"
+    },
+    {
+      "text": "I was travelling on the 8 o'clock train to London,'",
+      "relation": "行踪陈述",
+      "meaning": "我正乘八点的火车去伦敦"
+    },
+    {
+      "text": "said the man.",
+      "relation": "说话者",
+      "meaning": "那人说"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "时间修饰",
+      "text": "the murder was committed 修饰 time，省略了关系词。"
+    },
+    {
+      "title": "引语报道",
+      "text": "said the man 采用引语后常见的名词主语倒装。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "时间修饰",
+      "text": "the murder was committed 修饰 time，省略了关系词。"
+    },
+    {
+      "title": "引语报道",
+      "text": "said the man 采用引语后常见的名词主语倒装。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "At the time the murder was committed,",
+      "role": "时间状语",
+      "explanation": "锚定案发时间。"
+    },
+    {
+      "text": "the murder was committed",
+      "role": "定语从句",
+      "explanation": "说明所指的时刻。"
+    },
+    {
+      "text": "I was travelling on the 8 o'clock train to London,",
+      "role": "引语主句",
+      "explanation": "过去进行时陈述行踪。"
+    },
+    {
+      "text": "said the man.",
+      "role": "报道句",
+      "explanation": "标明说话者。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'At",
+      "meaning": "在",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "那个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "time",
+      "meaning": "时刻",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    },
+    {
+      "text": "the",
+      "meaning": "该起",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "murder",
+      "meaning": "谋杀",
+      "pos": "名词",
+      "phonetic": "/ˈmɜːdə/"
+    },
+    {
+      "text": "was",
+      "meaning": "构成被动",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "committed,",
+      "meaning": "实施；犯下",
+      "pos": "动词过去分词",
+      "phonetic": "/kəˈmɪtɪd/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "was",
+      "meaning": "构成过去进行时",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "travelling",
+      "meaning": "旅行；乘车途中",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈtrævlɪŋ/"
+    },
+    {
+      "text": "on",
+      "meaning": "乘坐",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "那班",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "8",
+      "meaning": "八",
+      "pos": "数词",
+      "phonetic": "/eɪt/"
+    },
+    {
+      "text": "o'clock",
+      "meaning": "点钟",
+      "pos": "副词",
+      "phonetic": "/əˈklɒk/"
+    },
+    {
+      "text": "train",
+      "meaning": "火车",
+      "pos": "名词",
+      "phonetic": "/treɪn/"
+    },
+    {
+      "text": "to",
+      "meaning": "到",
+      "pos": "介词",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "London,'",
+      "meaning": "伦敦",
+      "pos": "专有名词",
+      "phonetic": "/ˈlʌndən/"
+    },
+    {
+      "text": "said",
+      "meaning": "说",
+      "pos": "动词过去式",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "the",
+      "meaning": "那个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "man.",
+      "meaning": "男人",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

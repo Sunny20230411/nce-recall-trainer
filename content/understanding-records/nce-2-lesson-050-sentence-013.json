@@ -1,0 +1,99 @@
+{
+  "chinese": "“我要在这里下车。”",
+  "intent": "说话人告知对方自己即将在此处下车的决定。",
+  "comparison": null,
+  "backbone": {
+    "text": "I'll get off here.",
+    "meaning": "我将在这里下车。"
+  },
+  "structureNotes": [
+    {
+      "title": "get off 的含义",
+      "text": "get off 是常用短语动词，在这里表示“下（车、船等交通工具）”，符合对话中乘车的上下文。"
+    },
+    {
+      "title": "I'll 的用法",
+      "text": "I'll 是 I will 的缩写，will 在这里表示即时的决定或意愿，说明说话人当下决定在此下车。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘I'll",
+      "role": "主语加助动词（引出将来动作）",
+      "explanation": "I 是句子主语，指说话人；'ll 是 will 的缩写，构成将来时，表示将要发生的动作。"
+    },
+    {
+      "text": "get off",
+      "role": "谓语（短语动词）",
+      "explanation": "get off 是短语动词，整体作谓语，表示“下车”这个动作。"
+    },
+    {
+      "text": "here.’",
+      "role": "地点状语加句末标点引号",
+      "explanation": "here 是地点副词，说明下车的地点是“这里”；句末的句号和引号结束直接引语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘I'll",
+      "meaning": "我将（I will的缩写，句首带左单引号）",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/aɪl/"
+    },
+    {
+      "text": "get",
+      "meaning": "（与off构成短语动词）做，进行",
+      "pos": "动词",
+      "phonetic": "/ɡet/"
+    },
+    {
+      "text": "off",
+      "meaning": "（与get构成短语动词get off，表示下车）离开，下来",
+      "pos": "副词",
+      "phonetic": "/ɒf/"
+    },
+    {
+      "text": "here.’",
+      "meaning": "这里（句末带句号和右单引号）",
+      "pos": "副词",
+      "phonetic": "/hɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘I'll",
+      "meaning": "我将（句首为直接引语左引号）",
+      "relation": "主语 + 将来时助动词（引语开头）"
+    },
+    {
+      "text": "get off",
+      "meaning": "下车",
+      "relation": "谓语（短语动词，核心动作）"
+    },
+    {
+      "text": "here.’",
+      "meaning": "在这里。（句末为直接引语右引号和句号）",
+      "relation": "地点状语（引语句末）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-013",
+  "sentenceOrder": 16,
+  "english": "‘I'll get off here.’",
+  "lesson": "Lesson 50 Taken for a ride",
+  "notes": [
+    {
+      "title": "get off 的含义",
+      "text": "get off 是常用短语动词，在这里表示“下（车、船等交通工具）”，符合对话中乘车的上下文。"
+    },
+    {
+      "title": "I'll 的用法",
+      "text": "I'll 是 I will 的缩写，will 在这里表示即时的决定或意愿，说明说话人当下决定在此下车。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文为直接引语片段，整体解析基本准确；仅部分词项释义、词性标注及结构描述可优化，补充说明引语属性更规范。（非逐句人工审核）"
+}

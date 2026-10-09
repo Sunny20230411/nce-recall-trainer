@@ -1,0 +1,194 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-094",
+  "sentenceId": "nce-2-lesson-094-sentence-011",
+  "sentenceOrder": 12,
+  "english": "Meanwhile, they should encourage those among us who cannot swim five yards before they are gasping for air.",
+  "chinese": "与此同时，他们应该能鼓舞我们这些还游不到五码就气喘吁吁的人。",
+  "lesson": "Lesson 94 Future champions",
+  "intent": "以成人自嘲收束幼儿游泳表现的介绍。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "Meanwhile, they should encourage",
+      "relation": "当下意义",
+      "meaning": "与此同时他们应能鼓舞"
+    },
+    {
+      "text": "those among us",
+      "relation": "受鼓舞者",
+      "meaning": "我们之中的那些人"
+    },
+    {
+      "text": "who cannot swim five yards",
+      "relation": "能力不足",
+      "meaning": "游不到五码"
+    },
+    {
+      "text": "before they are gasping for air.",
+      "relation": "很快出现的反应",
+      "meaning": "就已气喘吁吁"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "距离阈值",
+      "text": "cannot ... before 表未达到某一距离就出现后面情况。"
+    },
+    {
+      "title": "情态含义",
+      "text": "should 在此表示合理预期的鼓舞作用，不是给儿童下命令。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "距离阈值",
+      "text": "cannot ... before 表未达到某一距离就出现后面情况。"
+    },
+    {
+      "title": "情态含义",
+      "text": "should 在此表示合理预期的鼓舞作用，不是给儿童下命令。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Meanwhile",
+      "role": "衔接状语",
+      "explanation": "从未来冠军转向眼下的启发。"
+    },
+    {
+      "text": "they",
+      "role": "主语",
+      "explanation": "指这些儿童。"
+    },
+    {
+      "text": "should encourage",
+      "role": "谓语",
+      "explanation": "表达预期的鼓舞作用。"
+    },
+    {
+      "text": "those among us who cannot swim five yards before they are gasping for air",
+      "role": "宾语",
+      "explanation": "指我们之中能力有限的人。"
+    },
+    {
+      "text": "who cannot swim five yards before they are gasping for air",
+      "role": "定语从句",
+      "explanation": "限定 those，内含 before 时间从句。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Meanwhile,",
+      "meaning": "与此同时",
+      "pos": "副词",
+      "phonetic": "/ˈmiːnwaɪl/"
+    },
+    {
+      "text": "they",
+      "meaning": "他们，指儿童",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "should",
+      "meaning": "应该会",
+      "pos": "情态动词",
+      "phonetic": "/ʃʊd/ 或 /ʃəd/"
+    },
+    {
+      "text": "encourage",
+      "meaning": "鼓舞",
+      "pos": "动词",
+      "phonetic": "/ɪnˈkʌrɪdʒ/"
+    },
+    {
+      "text": "those",
+      "meaning": "那些人",
+      "pos": "代词",
+      "phonetic": "/ðəʊz/"
+    },
+    {
+      "text": "among",
+      "meaning": "在……之中",
+      "pos": "介词",
+      "phonetic": "/əˈmʌŋ/"
+    },
+    {
+      "text": "us",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/əs/ 或 /ʌs/"
+    },
+    {
+      "text": "who",
+      "meaning": "这些人",
+      "pos": "关系代词",
+      "phonetic": "/huː/"
+    },
+    {
+      "text": "cannot",
+      "meaning": "不能",
+      "pos": "情态动词",
+      "phonetic": "/ˈkænɒt/"
+    },
+    {
+      "text": "swim",
+      "meaning": "游泳",
+      "pos": "动词",
+      "phonetic": "/swɪm/"
+    },
+    {
+      "text": "five",
+      "meaning": "五",
+      "pos": "数词",
+      "phonetic": "/faɪv/"
+    },
+    {
+      "text": "yards",
+      "meaning": "码",
+      "pos": "名词",
+      "phonetic": "/jɑːdz/"
+    },
+    {
+      "text": "before",
+      "meaning": "还没……就",
+      "pos": "连词",
+      "phonetic": "/bɪˈfɔː/"
+    },
+    {
+      "text": "they",
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "are",
+      "meaning": "进行体助动词",
+      "pos": "助动词",
+      "phonetic": "/ɑː/ 或 /ɑːr/"
+    },
+    {
+      "text": "gasping",
+      "meaning": "喘息",
+      "pos": "动词",
+      "phonetic": "/ˈɡɑːspɪŋ/"
+    },
+    {
+      "text": "for",
+      "meaning": "为获得",
+      "pos": "介词",
+      "phonetic": "/fɔː/ 或 /fər/"
+    },
+    {
+      "text": "air.",
+      "meaning": "空气",
+      "pos": "名词",
+      "phonetic": "/eə/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

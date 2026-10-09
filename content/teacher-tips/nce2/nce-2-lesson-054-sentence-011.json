@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-011",
+  "english": "Just then, the doorbell rang.",
+  "text": "just then 不是“刚才”，而是“就在这时”，用来把两件紧接发生的事连在一起——正看着手上的面糊呢，门铃恰好响了。如果说 just now 才是“刚才”，指离现在不远的过去时间，不要和 just then 弄混。",
+  "sourceDigest": "5b45a6d980dde7a765c3f2956c9c4002741ee97ac1d2714e6cace1476d14c8e8",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：纠正了中文翻译容易造成的词义误解，对比just now清晰有用。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "点拨准确澄清了中文翻译的误区，对比了易混淆的表达，实用价值高。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

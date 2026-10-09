@@ -1,0 +1,128 @@
+{
+  "chinese": "那条蛇随后缠住了电线。",
+  "intent": "描述蛇在被鸟丢到电线上之后，做出缠绕电线的动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "The snake wound itself round the wires.",
+    "meaning": "蛇把自己缠绕在电线上。"
+  },
+  "structureNotes": [
+    {
+      "title": "wound itself round 的含义",
+      "text": "wound 是动词 wind（缠绕）的过去式，不是表示“受伤”的 wound；wound itself round 是“把自己缠绕在……上”，反身代词 itself 强调动作作用在蛇自己身上。"
+    },
+    {
+      "title": "then 的位置和作用",
+      "text": "then 放在主语和谓语之间，体现动作的先后顺序，承接上文“鸟把蛇丢到电线上”的前序事件，说明这是之后发生的动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The snake",
+      "role": "主语",
+      "explanation": "指前文中被鸟叼起又丢下的那条蛇，是句子动作的发出者。"
+    },
+    {
+      "text": "then",
+      "role": "时间状语",
+      "explanation": "表示“然后、随后”，点明这个动作发生在鸟把蛇丢到电线之后。"
+    },
+    {
+      "text": "wound itself round the wires.",
+      "role": "谓语部分（含宾语和地点状语）",
+      "explanation": "wound 是谓语动词“缠绕”，itself 是反身代词作宾语，round the wires 说明缠绕的位置是“围绕着电线”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这，那（定冠词，特指）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "snake",
+      "meaning": "蛇",
+      "pos": "名词",
+      "phonetic": "/sneɪk/"
+    },
+    {
+      "text": "then",
+      "meaning": "然后，随后",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    },
+    {
+      "text": "wound",
+      "meaning": "缠绕（wind的过去式）",
+      "pos": "动词",
+      "phonetic": "/waʊnd/"
+    },
+    {
+      "text": "itself",
+      "meaning": "它自己（反身代词）",
+      "pos": "代词",
+      "phonetic": "/ɪtˈself/"
+    },
+    {
+      "text": "round",
+      "meaning": "围绕，绕着",
+      "pos": "介词",
+      "phonetic": "/raʊnd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定冠词，特指）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "wires.",
+      "meaning": "电线（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈwaɪəz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The snake",
+      "meaning": "那条蛇",
+      "relation": "动作的发出者（描述谁）"
+    },
+    {
+      "text": "then",
+      "meaning": "随后",
+      "relation": "时间（说明动作发生的先后）"
+    },
+    {
+      "text": "wound itself",
+      "meaning": "把自己缠绕起来",
+      "relation": "核心动作"
+    },
+    {
+      "text": "round the wires.",
+      "meaning": "绕着电线",
+      "relation": "地点/方位（补充缠绕的位置）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-053",
+  "sentenceId": "nce-2-lesson-053-sentence-011",
+  "sentenceOrder": 11,
+  "english": "The snake then wound itself round the wires.",
+  "lesson": "Lesson 53 Hot snake",
+  "notes": [
+    {
+      "title": "wound itself round 的含义",
+      "text": "wound 是动词 wind（缠绕）的过去式，不是表示“受伤”的 wound；wound itself round 是“把自己缠绕在……上”，反身代词 itself 强调动作作用在蛇自己身上。"
+    },
+    {
+      "title": "then 的位置和作用",
+      "text": "then 放在主语和谓语之间，体现动作的先后顺序，承接上文“鸟把蛇丢到电线上”的前序事件，说明这是之后发生的动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：单词 wires. 的释义错误附带句点说明，parts 第三块 meaning 表述生硬，其余内容符合要求，修正后可通过。（非逐句人工审核）"
+}

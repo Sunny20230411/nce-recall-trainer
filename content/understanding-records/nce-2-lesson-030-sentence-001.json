@@ -1,0 +1,180 @@
+{
+  "chinese": "韦勒河是一条横穿我家附近公园的小河。",
+  "intent": "介绍韦勒河的基本属性和地理位置，让读者对这条河有初步认识。",
+  "comparison": {
+    "chinese": "韦勒河是一条［横穿我家附近公园的］小河",
+    "english": "The Wayle is a small river that cuts across the park near my home.",
+    "steps": [
+      {
+        "label": "第一步：先抓主干信息",
+        "text": "The Wayle is a small river",
+        "explanation": "英文先直接给出核心结论：韦勒河是一条小河，中文也会先交代事物的基本身份。"
+      },
+      {
+        "label": "第二步：补充说明河流的特征",
+        "text": "that cuts across the park near my home",
+        "explanation": "英文用that引出后续内容修饰river，回答“这是怎样的一条河”；中文会把这整段修饰语放在“小河”前面，不用单独的连接词。"
+      }
+    ],
+    "takeaway": "描述事物的属性时，英文习惯先抛出核心事物，再用从句在后面补充细节；中文习惯把修饰事物的内容都放在名词前面。"
+  },
+  "backbone": {
+    "text": "The Wayle is a small river.",
+    "meaning": "韦勒河是一条小河。"
+  },
+  "structureNotes": [
+    {
+      "title": "that引导的定语从句",
+      "text": "that cuts across the park near my home 修饰前面的 a small river，that指代river，在从句里作主语，说明河流的走向特征。"
+    },
+    {
+      "title": "介词短语表位置",
+      "text": "near my home 放在 the park 后面，用来补充说明公园的位置是“在我家附近”，不是修饰整条河。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The Wayle",
+      "role": "主语",
+      "explanation": "句子的描述对象，指具体的一条河流名称。"
+    },
+    {
+      "text": "is a small river",
+      "role": "谓语部分（系表结构）",
+      "explanation": "说明主语的身份和基本属性，给出核心定义。"
+    },
+    {
+      "text": "that cuts across the park near my home",
+      "role": "定语从句",
+      "explanation": "修饰前面的a small river，补充说明这条河的走向和相关位置。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这，这个（用于特指已知的人或事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "Wayle",
+      "meaning": "韦勒（河流名称）",
+      "pos": "专有名词",
+      "phonetic": "/weɪl/"
+    },
+    {
+      "text": "is",
+      "meaning": "是",
+      "pos": "be动词（第三人称单数现在时）",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（条）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "small",
+      "meaning": "小的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/"
+    },
+    {
+      "text": "river",
+      "meaning": "河，河流",
+      "pos": "名词",
+      "phonetic": "/ˈrɪvə(r)/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引出从句，指代前面的river）",
+      "pos": "关系代词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "cuts",
+      "meaning": "切，划，这里指（河流）横穿",
+      "pos": "动词（第三人称单数现在时）",
+      "phonetic": "/kʌts/"
+    },
+    {
+      "text": "across",
+      "meaning": "穿过，横过",
+      "pos": "介词",
+      "phonetic": "/əˈkrɒs/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（用于特指已知的公园）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "park",
+      "meaning": "公园",
+      "pos": "名词",
+      "phonetic": "/pɑːk/"
+    },
+    {
+      "text": "near",
+      "meaning": "在……附近",
+      "pos": "介词",
+      "phonetic": "/nɪə(r)/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "home.",
+      "meaning": "家",
+      "pos": "名词",
+      "phonetic": "/həʊm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The Wayle",
+      "relation": "描述的对象",
+      "meaning": "韦勒河"
+    },
+    {
+      "text": "is a small river",
+      "relation": "说明主语的基本身份",
+      "meaning": "是一条小河"
+    },
+    {
+      "text": "that cuts across the park",
+      "relation": "补充说明小河的走向特征",
+      "meaning": "横穿公园"
+    },
+    {
+      "text": "near my home.",
+      "relation": "补充说明公园的位置",
+      "meaning": "在我家附近"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-030",
+  "sentenceId": "nce-2-lesson-030-sentence-001",
+  "sentenceOrder": 1,
+  "english": "The Wayle is a small river that cuts across the park near my home.",
+  "lesson": "Lesson 30 Football or polo?",
+  "notes": [
+    {
+      "title": "that引导的定语从句",
+      "text": "that cuts across the park near my home 修饰前面的 a small river，that指代river，在从句里作主语，说明河流的走向特征。"
+    },
+    {
+      "title": "介词短语表位置",
+      "text": "near my home 放在 the park 后面，用来补充说明公园的位置是“在我家附近”，不是修饰整条河。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需修正个别词的词性标注规范与音标英式写法，以及structures中第三项的句末标点冗余问题。（非逐句人工审核）"
+}

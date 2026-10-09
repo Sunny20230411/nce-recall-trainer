@@ -1,0 +1,147 @@
+{
+  "chinese": "我上车时对售票员说，",
+  "intent": "交代说话的对象以及“说”这件事发生的时间背景，承接前文的引语内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "I said to the conductor",
+    "meaning": "我对售票员说"
+  },
+  "structureNotes": [
+    {
+      "title": "句首的单引号作用",
+      "text": "句首的’是前半段直接引语的结束引号，说明前面的内容是我所说的话，本句先交代说话对象和时机，后面还会接续引语的后半部分。"
+    },
+    {
+      "title": "as引导的时间说明",
+      "text": "as I got on the bus 用来说明“我对售票员说话”这件事发生的时间，是和上车动作同时或紧接着发生的背景，意思是“就在我上车的时候”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "’",
+      "role": "引语结束标记",
+      "explanation": "标示前面的直接引语到此结束，属于标点功能，不是句子的句法成分。"
+    },
+    {
+      "text": "I said to the conductor",
+      "role": "主句",
+      "explanation": "是句子的核心部分，说明动作的发出者是“我”，动作是“说”，说话的对象是售票员。"
+    },
+    {
+      "text": "as I got on the bus,",
+      "role": "时间状语分句",
+      "explanation": "由as引导，交代主句动作发生的时间背景，和主句动作几乎同时发生。"
+    }
+  ],
+  "words": [
+    {
+      "text": "’",
+      "meaning": "（单引号，标示引语结束）",
+      "pos": "punctuation",
+      "phonetic": "/əˈpɒstrəfi/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "said",
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "to",
+      "meaning": "对（引出说话对象）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "conductor",
+      "meaning": "售票员",
+      "pos": "名词",
+      "phonetic": "/kənˈdʌktə/"
+    },
+    {
+      "text": "as",
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/æz/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "got",
+      "meaning": "登上（get的过去式）",
+      "pos": "动词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "on",
+      "meaning": "到……上面",
+      "pos": "副词/介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bus,",
+      "meaning": "公共汽车",
+      "pos": "名词",
+      "phonetic": "/bʌs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "’",
+      "relation": "标点标记，承接前文引语",
+      "meaning": "（引语结束的单引号）"
+    },
+    {
+      "text": "I said to the conductor",
+      "relation": "核心事件，交代说话者和说话对象",
+      "meaning": "我对售票员说"
+    },
+    {
+      "text": "as I got on the bus,",
+      "relation": "时间背景，说明说话发生的时机",
+      "meaning": "当我上公交车时，"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-003-part-02",
+  "sentenceOrder": 5,
+  "english": "’ I said to the conductor as I got on the bus,",
+  "lesson": "Lesson 50 Taken for a ride",
+  "notes": [
+    {
+      "title": "句首的单引号作用",
+      "text": "句首的’是前半段直接引语的结束引号，说明前面的内容是我所说的话，本句先交代说话对象和时机，后面还会接续引语的后半部分。"
+    },
+    {
+      "title": "as引导的时间说明",
+      "text": "as I got on the bus 用来说明“我对售票员说话”这件事发生的时间，是和上车动作同时或紧接着发生的背景，意思是“就在我上车的时候”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：中文翻译漏译句末逗号且句首多余反引号，单词bus的释义混入逗号，其余内容符合要求。（非逐句人工审核）"
+}

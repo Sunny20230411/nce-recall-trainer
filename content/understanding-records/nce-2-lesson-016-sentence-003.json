@@ -1,0 +1,111 @@
+{
+  "chinese": "然而，这种情况并不总是发生。",
+  "intent": "对前面提到的“幸运免开罚单”的情况补充说明，指出并非每次都会这样。",
+  "comparison": null,
+  "backbone": {
+    "text": "this does not always happen.",
+    "meaning": "这种事并非总会发生。"
+  },
+  "structureNotes": [
+    {
+      "title": "句首转折词的作用",
+      "text": "However 放在句首并用逗号隔开，是为了把本句和前一句的意思转过来，说明前面说的“幸运没被开罚单”不是次次都出现。"
+    },
+    {
+      "title": "否定句里的频率副词位置",
+      "text": "does not 是构成一般现在时否定的助动词部分，always 放在 does not 和实义动词 happen 之间，表示“并不总是”，不是“永远不”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "However,",
+      "role": "转折连接副词",
+      "explanation": "放在句首用逗号隔开，承接上文引出相反的陈述，意思是“然而、不过”。"
+    },
+    {
+      "text": "this",
+      "role": "主语",
+      "explanation": "指代上文提到的“交警不开罚单就放人”这类幸运情况。"
+    },
+    {
+      "text": "does not always happen.",
+      "role": "谓语（一般现在时第三人称单数否定形式）",
+      "explanation": "由助动词does + not构成否定，频率副词always置于助动词否定式和实义动词happen之间，happen是核心动作“发生”，整体表示“并不总是发生”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "However,",
+      "meaning": "然而，可是",
+      "pos": "副词",
+      "phonetic": "/haʊˈevə(r)/"
+    },
+    {
+      "text": "this",
+      "meaning": "这，这种情况",
+      "pos": "代词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "does",
+      "meaning": "（助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/dʌz/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是，一直",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "happen.",
+      "meaning": "发生",
+      "pos": "动词",
+      "phonetic": "/ˈhæpən/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "However,",
+      "relation": "转折语气，衔接前一句",
+      "meaning": "然而"
+    },
+    {
+      "text": "this",
+      "relation": "描述的对象，即句子主语",
+      "meaning": "这种情况（指上文没被开罚单的事）"
+    },
+    {
+      "text": "does not always happen.",
+      "relation": "描述主语的实际出现频率",
+      "meaning": "并不总是发生"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-016",
+  "sentenceId": "nce-2-lesson-016-sentence-003",
+  "sentenceOrder": 3,
+  "english": "However, this does not always happen.",
+  "lesson": "Lesson 16 A polite request",
+  "notes": [
+    {
+      "title": "句首转折词的作用",
+      "text": "However 放在句首并用逗号隔开，是为了把本句和前一句的意思转过来，说明前面说的“幸运没被开罚单”不是次次都出现。"
+    },
+    {
+      "title": "否定句里的频率副词位置",
+      "text": "does not 是构成一般现在时否定的助动词部分，always 放在 does not 和实义动词 happen 之间，表示“并不总是”，不是“永远不”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需修正音标标注（统一为英式音标且符合规范）、补充however的词性说明（同时为连接副词），以及明确does not always happen谓语结构的说明，不影响核心理解。（非逐句人工审核）"
+}

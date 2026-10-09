@@ -1,0 +1,135 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-095",
+  "sentenceId": "nce-2-lesson-095-sentence-006",
+  "sentenceOrder": 6,
+  "english": "'University students set the Embassy on fire this morning.'",
+  "chinese": "“今天上午大学生们放火烧了大使馆。”",
+  "lesson": "Lesson 95 A fantasy",
+  "intent": "交代火灾发生的起因与时间。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "'University students",
+      "relation": "行为者",
+      "meaning": "大学生们"
+    },
+    {
+      "text": "set the Embassy on fire",
+      "relation": "纵火行为",
+      "meaning": "使大使馆着火"
+    },
+    {
+      "text": "this morning.'",
+      "relation": "时间",
+      "meaning": "今天上午"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "结果补语",
+      "text": "set ... on fire 中 on fire 说明宾语被置于燃烧状态。"
+    },
+    {
+      "title": "过去形式",
+      "text": "set 的过去式仍是 set。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "结果补语",
+      "text": "set ... on fire 中 on fire 说明宾语被置于燃烧状态。"
+    },
+    {
+      "title": "过去形式",
+      "text": "set 的过去式仍是 set。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "University students",
+      "role": "主语",
+      "explanation": "引火者。"
+    },
+    {
+      "text": "set",
+      "role": "谓语",
+      "explanation": "表示使处于某种状态。"
+    },
+    {
+      "text": "the Embassy",
+      "role": "宾语",
+      "explanation": "被点燃的大使馆。"
+    },
+    {
+      "text": "on fire",
+      "role": "宾语补足语",
+      "explanation": "说明造成的燃烧状态。"
+    },
+    {
+      "text": "this morning",
+      "role": "时间状语",
+      "explanation": "交代发生时间。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'University",
+      "meaning": "大学，修饰学生",
+      "pos": "名词",
+      "phonetic": "/ˌjuːnɪˈvɜːsəti/"
+    },
+    {
+      "text": "students",
+      "meaning": "学生",
+      "pos": "名词",
+      "phonetic": "/ˈstjuːdənts/"
+    },
+    {
+      "text": "set",
+      "meaning": "使处于",
+      "pos": "动词",
+      "phonetic": "/set/"
+    },
+    {
+      "text": "the",
+      "meaning": "该",
+      "pos": "冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "Embassy",
+      "meaning": "大使馆",
+      "pos": "名词",
+      "phonetic": "/ˈembəsi/"
+    },
+    {
+      "text": "on",
+      "meaning": "处于，组成on fire",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "fire",
+      "meaning": "燃烧，组成on fire",
+      "pos": "名词",
+      "phonetic": "/ˈfaɪə/"
+    },
+    {
+      "text": "this",
+      "meaning": "今天这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "morning.'",
+      "meaning": "上午",
+      "pos": "名词",
+      "phonetic": "/ˈmɔːnɪŋ/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

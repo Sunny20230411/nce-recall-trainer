@@ -1,0 +1,149 @@
+{
+  "chinese": "可一个也看不见：他们全都跑开了！不对，修正为“但是一个也看不见：他们全都跑开了！”",
+  "intent": "说明视野里没有孩子们，并补充原因是他们都跑走了",
+  "comparison": null,
+  "backbone": {
+    "text": "there weren't any; they had all run away",
+    "meaning": "没有任何人（指孩子）；他们全都跑掉了"
+  },
+  "structureNotes": [
+    {
+      "title": "冒号连接两个分句的作用",
+      "text": "冒号前后是两个独立完整的分句，后一句解释前一句“看不见人”的原因，相当于补充说明因果关系。"
+    },
+    {
+      "title": "in sight的含义",
+      "text": "in sight是固定表达，意思是“在视野内、看得见”，本句为否定句，any表示“任何一个”，整体即“一个都看不到”。"
+    },
+    {
+      "title": "过去完成时的时间先后",
+      "text": "had all run away是过去完成时，说明“跑走”这个动作发生在“转头看不见人”之前，是更早发生的过去动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "there weren't any in sight",
+      "role": "there be存在句的否定形式",
+      "explanation": "表示在说话人视野范围内不存在要找的对象（孩子们），any指代前文提到的children。"
+    },
+    {
+      "text": "in sight:",
+      "role": "介词短语作地点状语（说明存在的范围），冒号为句末标点用于引出解释",
+      "explanation": "说明“不存在”的范围是在视野之内，冒号起引出原因解释的作用，不属于in sight短语。"
+    },
+    {
+      "text": "they had all run away!",
+      "role": "解释原因的分句",
+      "explanation": "用过去完成时说明前一句“看不到人”的原因：所有人早已跑开。"
+    }
+  ],
+  "words": [
+    {
+      "text": "but",
+      "meaning": "但是、可是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "there",
+      "meaning": "（there be句型引导词，无实义）",
+      "pos": "代词",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "weren't",
+      "meaning": "不是、没有（were not的缩写）",
+      "pos": "动词",
+      "phonetic": "/wɜːnt/"
+    },
+    {
+      "text": "any",
+      "meaning": "任何一个、一些（此处指代人）",
+      "pos": "代词",
+      "phonetic": "/ˈeni/"
+    },
+    {
+      "text": "in",
+      "meaning": "在…之中",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "sight:",
+      "meaning": "视野；视线",
+      "pos": "名词",
+      "phonetic": "/saɪt/"
+    },
+    {
+      "text": "they",
+      "meaning": "他们、它们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "had",
+      "meaning": "（助动词，构成过去完成时）有；已经",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "all",
+      "meaning": "全部、都",
+      "pos": "副词",
+      "phonetic": "/ɔːl/"
+    },
+    {
+      "text": "run",
+      "meaning": "跑、奔跑（run的过去分词）",
+      "pos": "动词",
+      "phonetic": "/rʌn/"
+    },
+    {
+      "text": "away!",
+      "meaning": "离开、远离",
+      "pos": "副词",
+      "phonetic": "/əˈweɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "but",
+      "meaning": "但是、可是",
+      "relation": "转折连接，引出与预期相反的情况"
+    },
+    {
+      "text": "there weren't any in sight:",
+      "meaning": "视野里一个也没有：",
+      "relation": "主句，陈述眼前看不到人的事实"
+    },
+    {
+      "text": "they had all run away!",
+      "meaning": "他们全都跑开了！",
+      "relation": "补充说明前一句事实的原因"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-030",
+  "sentenceId": "nce-2-lesson-030-sentence-008-part-02",
+  "sentenceOrder": 10,
+  "english": "but there weren't any in sight: they had all run away!",
+  "lesson": "Lesson 30 Football or polo?",
+  "notes": [
+    {
+      "title": "冒号连接两个分句的作用",
+      "text": "冒号前后是两个独立完整的分句，后一句解释前一句“看不见人”的原因，相当于补充说明因果关系。"
+    },
+    {
+      "title": "in sight的含义",
+      "text": "in sight是固定表达，意思是“在视野内、看得见”，本句为否定句，any表示“任何一个”，整体即“一个都看不到”。"
+    },
+    {
+      "title": "过去完成时的时间先后",
+      "text": "had all run away是过去完成时，说明“跑走”这个动作发生在“转头看不见人”之前，是更早发生的过去动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：存在几处可修正问题：中文翻译漏译开头but的转折义；there的词性标注错误，其在there be句型中为引导词（形式主语属性，归为代词更准确，而非副词）；sight和away的词性不应标注「带标点」，标点是词项附带的存储约定，不影响词性；structures中in sight:的角色表述不准确，它是there be句的地点状语/表语的范围限定，且冒号不属于in sight短语本身；structureNotes中「否定any」的表述有歧义，any本身无否定义，是否定句中用any表“任何一个”。（非逐句人工审核）"
+}

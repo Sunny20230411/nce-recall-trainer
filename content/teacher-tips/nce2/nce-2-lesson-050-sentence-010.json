@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-010",
+  "english": "‘Is this Woodford Green?’ I asked.",
+  "text": "当场核对是不是某个地点时，用 Is this...? 直接把疑问焦点落在“这是不是此地”上。英语先端出眼前的判断对象 this，再跟上要确认的名称，贴合即时核对的干脆口气。",
+  "sourceDigest": "2a18fc48a5d5bb726bba161b51879a694d227a207693694eb3c75660f3cd0a6e",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：选点准确，点明即时核对的表达思路，删掉了不必要的直译对比判断。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "从交际意图出发解释问句焦点与信息安排，自然贴切，无过度拆解。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

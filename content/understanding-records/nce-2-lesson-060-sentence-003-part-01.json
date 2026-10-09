@@ -1,0 +1,98 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-060",
+  "sentenceId": "nce-2-lesson-060-sentence-003-part-01",
+  "sentenceOrder": 3,
+  "english": "After I had given her some money,",
+  "chinese": "我给了她一些钱之后，",
+  "lesson": "Lesson 60 The future",
+  "intent": "以先前付钱的事情为后续行为提供时间背景",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "After I had given her some money,",
+      "relation": "时间背景",
+      "meaning": "我给了她一些钱之后"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "保留从句边界",
+      "text": "这是以 After 引导的时间从句，主句在下一片段。"
+    },
+    {
+      "title": "先行事件",
+      "text": "had given 表示付钱先于后文看水晶球。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "保留从句边界",
+      "text": "这是以 After 引导的时间从句，主句在下一片段。"
+    },
+    {
+      "title": "先行事件",
+      "text": "had given 表示付钱先于后文看水晶球。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "After I had given her some money,",
+      "role": "时间状语从句",
+      "explanation": "交代主句行为之前完成的动作。"
+    },
+    {
+      "text": "her some money",
+      "role": "双宾语",
+      "explanation": "her 是收钱的人，some money 是所给的东西。"
+    }
+  ],
+  "words": [
+    {
+      "text": "After",
+      "meaning": "在……之后",
+      "pos": "连词",
+      "phonetic": "/ˈɑːftə/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "had",
+      "meaning": "此前已经",
+      "pos": "助动词",
+      "phonetic": "/hæd/ 或 /əd/"
+    },
+    {
+      "text": "given",
+      "meaning": "给",
+      "pos": "动词过去分词",
+      "phonetic": "/ˈɡɪvn/"
+    },
+    {
+      "text": "her",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/hɜː(r)/ 或 /hə(r)/"
+    },
+    {
+      "text": "some",
+      "meaning": "一些",
+      "pos": "限定词",
+      "phonetic": "/səm/ 或 /sʌm/"
+    },
+    {
+      "text": "money,",
+      "meaning": "钱",
+      "pos": "名词",
+      "phonetic": "/ˈmʌni/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

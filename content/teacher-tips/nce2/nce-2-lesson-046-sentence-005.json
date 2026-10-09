@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-046",
+  "sentenceId": "nce-2-lesson-046-sentence-005",
+  "english": "A man was lying in the box on top of a pile of woollen goods.",
+  "text": "描述这个意外场景时，英语先给出核心画面 A man was lying，再用 in the box 缩小范围，最后用 on top of a pile of woollen goods 落到具体位置。介绍场景里的人和位置，可以先把主体动作说出来，再从大到小补细节，读者更容易跟着画面走。",
+  "sourceDigest": "dcc01fabe8d9032967b4a702a4a9dd71a341b99cd57a10a8abdeb278a3e7dcc2",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：点透了中英位置描述的语序差异，思路可迁移。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "讲清了场景描述的信息组织顺序，有具体可复用的思路，没有机械讲语序。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

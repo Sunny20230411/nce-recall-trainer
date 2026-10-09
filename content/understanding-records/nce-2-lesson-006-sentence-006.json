@@ -1,0 +1,125 @@
+{
+  "chinese": "他吃了食物，喝了啤酒。",
+  "intent": "陈述他先后完成的两个动作：吃下食物、喝下啤酒。",
+  "comparison": null,
+  "backbone": {
+    "text": "He ate the food and drank the beer.",
+    "meaning": "他吃了食物，还喝了啤酒。"
+  },
+  "structureNotes": [
+    {
+      "title": "and连接并列动作",
+      "text": "and 连接两个先后发生的过去动作“ate the food”和“drank the beer”，两个动作的主语都是 he，是他连续做的两件事。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指前文提到的那个人，是两个动作的发出者。"
+    },
+    {
+      "text": "ate the food",
+      "role": "第一个谓语+宾语",
+      "explanation": "表示“吃了食物”这个已完成的过去动作。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "用来连接两个并列的过去动作。"
+    },
+    {
+      "text": "drank the beer.",
+      "role": "第二个谓语+宾语",
+      "explanation": "表示“喝了啤酒”这个已完成的过去动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "ate",
+      "meaning": "吃（eat的过去式）",
+      "pos": "动词",
+      "phonetic": "/eɪt/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指前面提到的）这、那",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "food",
+      "meaning": "食物",
+      "pos": "名词",
+      "phonetic": "/fuːd/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "drank",
+      "meaning": "喝（drink的过去式）",
+      "pos": "动词",
+      "phonetic": "/dræŋk/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指前面提到的）这、那",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "beer.",
+      "meaning": "啤酒",
+      "pos": "名词",
+      "phonetic": "/bɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "动作发出者",
+      "meaning": "他"
+    },
+    {
+      "text": "ate the food",
+      "relation": "第一个动作",
+      "meaning": "吃了食物"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列动作",
+      "meaning": "并且"
+    },
+    {
+      "text": "drank the beer.",
+      "relation": "第二个动作",
+      "meaning": "喝了啤酒"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-006",
+  "sentenceId": "nce-2-lesson-006-sentence-006",
+  "sentenceOrder": 6,
+  "english": "He ate the food and drank the beer.",
+  "lesson": "Lesson 6 Percy Buttons",
+  "notes": [
+    {
+      "title": "and连接并列动作",
+      "text": "and 连接两个先后发生的过去动作“ate the food”和“drank the beer”，两个动作的主语都是 he，是他连续做的两件事。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，存在3处可修正问题：1. 单词ate的英式音标错误，正确应为/eɪt/；2. 单词beer的释义未体现语境中的特指含义，且音标后不应随标点（标点随词项是约定，释义需匹配语境）；3. backbone的meaning表述与chinese重复且无差异，应统一为符合语境的准确译法。（非逐句人工审核）"
+}

@@ -1,0 +1,115 @@
+{
+  "chinese": "我又看了一遍。",
+  "intent": "陈述说话人再次查看某个物品的动作",
+  "comparison": null,
+  "backbone": {
+    "text": "I looked at it again.",
+    "meaning": "我又看了一遍它"
+  },
+  "structureNotes": [
+    {
+      "title": "look at 的用法",
+      "text": "look 是不及物动词，接看的对象时需要加介词 at，构成 look at 短语，后接被看的事物。"
+    },
+    {
+      "title": "again 的位置",
+      "text": "again 表示“又、再一次”，放在句末修饰整个动作，说明看这个行为是重复发生的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "动作“看”的发出者，指代说话人。"
+    },
+    {
+      "text": "looked at",
+      "role": "谓语",
+      "explanation": "表示“看……”的动作短语，looked 是 look 的过去式，说明动作发生在过去。"
+    },
+    {
+      "text": "it",
+      "role": "宾语",
+      "explanation": "指代上文提到的某件物品，是“看”这个动作的对象。"
+    },
+    {
+      "text": "again.",
+      "role": "频率/重复状语",
+      "explanation": "修饰整个动作，说明“看”的行为是再一次发生的。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "看（过去式）",
+      "pos": "动词",
+      "phonetic": "/lʊkt/",
+      "text": "looked"
+    },
+    {
+      "meaning": "（与look搭配，引出看的对象）",
+      "pos": "介词",
+      "phonetic": "/æt/",
+      "text": "at"
+    },
+    {
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/",
+      "text": "it"
+    },
+    {
+      "meaning": "又，再一次",
+      "pos": "副词",
+      "phonetic": "/əˈɡen/",
+      "text": "again."
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "动作发出者"
+    },
+    {
+      "text": "looked",
+      "meaning": "看",
+      "relation": "主语发出的动作"
+    },
+    {
+      "text": "at it",
+      "meaning": "朝着它（看）",
+      "relation": "介词at引出动作look的对象"
+    },
+    {
+      "text": "again.",
+      "meaning": "又一次",
+      "relation": "说明动作重复发生"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-026",
+  "sentenceId": "nce-2-lesson-026-sentence-017",
+  "sentenceOrder": 17,
+  "english": "I looked at it again.",
+  "lesson": "Lesson 26 The best art critics",
+  "notes": [
+    {
+      "title": "look at 的用法",
+      "text": "look 是不及物动词，接看的对象时需要加介词 at，构成 look at 短语，后接被看的事物。"
+    },
+    {
+      "title": "again 的位置",
+      "text": "again 表示“又、再一次”，放在句末修饰整个动作，说明看这个行为是重复发生的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需补全主干译文的完整性、修正parts中动作对象的关系说明。（非逐句人工审核）"
+}

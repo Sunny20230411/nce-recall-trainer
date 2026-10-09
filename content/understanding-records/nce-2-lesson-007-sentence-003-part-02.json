@@ -1,0 +1,179 @@
+{
+  "chinese": "之前已经有人告诉警方，小偷会试图偷那些钻石。",
+  "intent": "转述在过去某个时间点之前，有人向警方通报的盗窃预谋内容。",
+  "comparison": {
+    "chinese": "有人告诉警方［小偷会试图偷钻石这件事］",
+    "english": "someone had told the police that thieves would try to steal the diamonds",
+    "steps": [
+      {
+        "label": "第一步：先抓主干动作",
+        "text": "someone had told the police",
+        "explanation": "中文和英文一样，先交代“谁、做了什么、告诉了谁”：有人告诉了警方。"
+      },
+      {
+        "label": "第二步：再接被告诉的具体内容",
+        "text": "that thieves would try to steal the diamonds",
+        "explanation": "英文用that引出完整的一句话当“告诉”的内容；中文可以直接把这件事接在“告诉警方”后面，不需要加额外的引导词。"
+      }
+    ],
+    "takeaway": "that在这里没有实际词义，只起标记作用，提醒后面是一整件被转述的事。"
+  },
+  "backbone": {
+    "text": "someone had told the police that thieves would try to steal the diamonds",
+    "meaning": "有人已经告知警方，小偷将会设法盗取钻石。"
+  },
+  "structureNotes": [
+    {
+      "title": "that引导的宾语从句",
+      "text": "that thieves would try to steal the diamonds 是 told 的内容，说明告诉警方的具体是什么事；that只起连接作用，不充当从句里的成分。"
+    },
+    {
+      "title": "过去完成时与过去将来时的配合",
+      "text": "had told 站在过去的时间点往更早看，表示“在此之前已经告诉”；would try 站在过去的角度说将来要发生的事，表示“（当时看来）会试图”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "someone",
+      "role": "主语",
+      "explanation": "动作“告诉”的发出者，因为不知道具体是谁，所以用someone指代。"
+    },
+    {
+      "text": "had told",
+      "role": "谓语",
+      "explanation": "表示过去某个时间之前已经完成的“告知”动作。"
+    },
+    {
+      "text": "the police",
+      "role": "间接宾语",
+      "explanation": "“告诉”这个动作的接收方，也就是被告知的对象。"
+    },
+    {
+      "text": "that thieves would try to steal the diamonds.",
+      "role": "直接宾语（宾语从句）",
+      "explanation": "“告诉”的具体内容，是一件完整的事：小偷会设法偷钻石。"
+    }
+  ],
+  "words": [
+    {
+      "text": "someone",
+      "meaning": "某人，有人",
+      "pos": "代词",
+      "phonetic": "/ˈsʌmwʌn/"
+    },
+    {
+      "text": "had",
+      "meaning": "（过去完成时助动词，无实义，表动作发生在过去某时间之前）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉，告知",
+      "pos": "动词（过去分词）",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指警方，无实义）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "police",
+      "meaning": "警察，警方",
+      "pos": "名词（集合名词）",
+      "phonetic": "/pəˈliːs/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "thieves",
+      "meaning": "小偷，盗贼",
+      "pos": "名词（复数）",
+      "phonetic": "/θiːvz/"
+    },
+    {
+      "text": "would",
+      "meaning": "（过去将来时助动词，站在过去角度看将会）",
+      "pos": "情态动词",
+      "phonetic": "/wʊd/"
+    },
+    {
+      "text": "try",
+      "meaning": "试图，努力",
+      "pos": "动词",
+      "phonetic": "/traɪ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "steal",
+      "meaning": "偷，窃取",
+      "pos": "动词",
+      "phonetic": "/stiːl/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指这批钻石，无实义）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "diamonds.",
+      "meaning": "钻石",
+      "pos": "名词（复数）",
+      "phonetic": "/ˈdaɪəməndz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "someone",
+      "meaning": "有人",
+      "relation": "动作发出者"
+    },
+    {
+      "text": "had told",
+      "meaning": "之前已经告诉",
+      "relation": "主语的动作"
+    },
+    {
+      "text": "the police",
+      "meaning": "警方",
+      "relation": "被告知的对象"
+    },
+    {
+      "text": "that thieves would try to steal the diamonds.",
+      "meaning": "小偷会试图偷那些钻石",
+      "relation": "补充说明“告诉”的具体内容"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-007",
+  "sentenceId": "nce-2-lesson-007-sentence-003-part-02",
+  "sentenceOrder": 4,
+  "english": "someone had told the police that thieves would try to steal the diamonds.",
+  "lesson": "Lesson 7 Too late",
+  "notes": [
+    {
+      "title": "that引导的宾语从句",
+      "text": "that thieves would try to steal the diamonds 是 told 的内容，说明告诉警方的具体是什么事；that只起连接作用，不充当从句里的成分。"
+    },
+    {
+      "title": "过去完成时与过去将来时的配合",
+      "text": "had told 站在过去的时间点往更早看，表示“在此之前已经告诉”；would try 站在过去的角度说将来要发生的事，表示“（当时看来）会试图”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：1. 原中文翻译未体现原句的过去完成时态，遗漏“之前已经”的时间先后含义，与“站在过去时间点看更早的动作”的语法说明不匹配；2. would的释义未明确是站在过去视角的将来，容易被误解为普通的将来含义；3. 其余内容符合要求，结构、成分分析准确，comparison逻辑清晰。（非逐句人工审核）"
+}

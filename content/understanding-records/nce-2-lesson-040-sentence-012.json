@@ -1,0 +1,75 @@
+{
+  "chinese": "“不，”她回答道。",
+  "intent": "转述她对前文问题给出的否定回答，说明她回应的内容和说话人。",
+  "comparison": null,
+  "backbone": {
+    "text": "she answered 'No,'",
+    "meaning": "她回答说“不”。"
+  },
+  "structureNotes": [
+    {
+      "title": "引语前置的对话写法",
+      "text": "这里把她说的话‘No,’放在句首，再交代说话人she answered，是英语对话里常见的表达顺序，中文翻译时也可以保留引语在前的形式，符合对话语感。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘No,’",
+      "role": "直接引语（回答内容）",
+      "explanation": "是she回答的具体内容，用来对前文的问题给出否定回应，被引号包裹，属于直接引语。"
+    },
+    {
+      "text": "she answered.",
+      "role": "主句（说话主体和动作）",
+      "explanation": "she是说话的人，answered是说话的动作，整个部分交代了是谁做出了回答。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘No,’",
+      "meaning": "不，（用于否定回答）",
+      "pos": "感叹词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "人称代词主格",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "answered.",
+      "meaning": "回答，答复（answer的过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈɑːnsəd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘No,’",
+      "relation": "回答的内容",
+      "meaning": "“不，”"
+    },
+    {
+      "text": "she answered.",
+      "relation": "谁做了什么动作（给出回答）",
+      "meaning": "她回答道。"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-040",
+  "sentenceId": "nce-2-lesson-040-sentence-012",
+  "sentenceOrder": 13,
+  "english": "‘No,’ she answered.",
+  "lesson": "Lesson 40 Food and talk",
+  "notes": [
+    {
+      "title": "引语前置的对话写法",
+      "text": "这里把她说的话‘No,’放在句首，再交代说话人she answered，是英语对话里常见的表达顺序，中文翻译时也可以保留引语在前的形式，符合对话语感。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅“answered.”的英式音标拼写不符合规范，需修正。（非逐句人工审核）"
+}

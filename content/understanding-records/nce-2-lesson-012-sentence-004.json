@@ -1,0 +1,111 @@
+{
+  "chinese": "托普赛是一艘著名的小船",
+  "intent": "说明小船“托普赛”的名气，补充介绍这艘船的基本属性。",
+  "comparison": null,
+  "backbone": {
+    "text": "Topsail is a boat.",
+    "meaning": "托普赛是一艘船。"
+  },
+  "structureNotes": [
+    {
+      "title": "描述事物的基本句",
+      "text": "这句话先点明主体Topsail，再用is连接它的身份boat，最后用famous和little两个形容词给boat补充特征。"
+    },
+    {
+      "title": "多个形容词的顺序",
+      "text": "中文说“著名的小船”，英文对应famous little boat，限定词a在前，然后是表示名气的famous，再是表示大小的little，最后是名词boat。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Topsail",
+      "role": "句子主语",
+      "explanation": "指被介绍的那艘船的名字，是整句话谈论的主体。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "用来连接主语和后面的身份说明，表示“是”的含义。"
+    },
+    {
+      "text": "a famous little boat.",
+      "role": "表语",
+      "explanation": "说明主语Topsail的身份和特征，a是泛指的限定词，famous和little共同修饰boat。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Topsail",
+      "meaning": "托普赛（船名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈtɒpseɪl/"
+    },
+    {
+      "text": "is",
+      "meaning": "是",
+      "pos": "系动词（be动词第三人称单数现在时）",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（艘）",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "famous",
+      "meaning": "著名的",
+      "pos": "形容词",
+      "phonetic": "/ˈfeɪməs/"
+    },
+    {
+      "text": "little",
+      "meaning": "小的",
+      "pos": "形容词",
+      "phonetic": "/ˈlɪtl/"
+    },
+    {
+      "text": "boat.",
+      "meaning": "船",
+      "pos": "名词",
+      "phonetic": "/bəʊt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Topsail",
+      "relation": "被描述的对象",
+      "meaning": "托普赛"
+    },
+    {
+      "text": "is",
+      "relation": "连接主体和身份说明",
+      "meaning": "是"
+    },
+    {
+      "text": "a famous little boat.",
+      "relation": "说明主体是什么、有什么特征",
+      "meaning": "一艘著名的小船"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-012",
+  "sentenceId": "nce-2-lesson-012-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Topsail is a famous little boat.",
+  "lesson": "Lesson 12 Goodbye and good luck",
+  "notes": [
+    {
+      "title": "描述事物的基本句",
+      "text": "这句话先点明主体Topsail，再用is连接它的身份boat，最后用famous和little两个形容词给boat补充特征。"
+    },
+    {
+      "title": "多个形容词的顺序",
+      "text": "中文说“著名的小船”，英文对应famous little boat，限定词a在前，然后是表示名气的famous，再是表示大小的little，最后是名词boat。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需补充两点修正：1. 单词is的词性应明确为系动词（be动词的第三人称单数现在时形式），原标注仅写动词过于宽泛，不符合词性标注的精度要求；2. 结构说明中关于多个形容词顺序的表述可补充说明为何这样排列，符合理解逻辑，其余内容均正确。（非逐句人工审核）"
+}

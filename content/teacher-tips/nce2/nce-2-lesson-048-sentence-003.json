@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-048",
+  "sentenceId": "nce-2-lesson-048-sentence-003",
+  "english": "I tried to say something, but my mouth was full of cotton wool.",
+  "text": "中文说“嘴里满是棉花”很容易想到 full of，这里 be full of cotton wool 正好对应塞了东西、没法开口的状态。要表达“嘴被堵住说不出话”，不用特意翻成 can't speak，把嘴里面的状态说出来，读者自然能懂为什么说不了。",
+  "sourceDigest": "cdb96c5d7ac9e6d88a3e21ff851f64bab8cb571e8205f9b1ca54e3498609aeaf",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：选点准确，抓住了中文学习者容易直译“说不出话”的误区，给出了更自然的表达思路，迁移具体可用。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "点出用状态描写替代直接陈述结果的表达思路，符合教学目标，无错误。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

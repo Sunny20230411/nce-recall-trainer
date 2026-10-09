@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-049",
+  "sentenceId": "nce-2-lesson-049-sentence-006",
+  "english": "The young man did not wake up until the bed had struck the ground.",
+  "text": "这里的重点不是“青年醒了”，而是醒的时间点特别晚——晚到床已经落地。用 did not wake up until... 把“直到某个时刻才发生”的反差说出来。想强调事情发生得比预期晚，就可以用 not...until 把那个临界时间点亮出来。",
+  "sourceDigest": "bcb33eebc497c7d2ea3bd9ab18d2e6a696685532f134f941895b6f022be44ae7",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：抓住not...until的表意核心，提炼出强调晚发生的实用思路，符合要求。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "抓住 not...until 的表意核心，讲清强调晚发生的用法，迁移明确。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

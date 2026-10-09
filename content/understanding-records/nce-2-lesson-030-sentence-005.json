@@ -1,0 +1,222 @@
+{
+  "chinese": "突然，其中一个孩子狠狠踢了一脚球，球便朝一艘正在驶过的小船飞去。",
+  "intent": "叙述两个接连发生的事件：孩子猛踢一脚球，球朝着路过的小船飞去。",
+  "comparison": null,
+  "backbone": {
+    "text": "one of the children kicked a ball and it went towards a boat.",
+    "meaning": "其中一个孩子踢了球，球朝一艘船飞去。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列句承接动作结果",
+      "text": "前后两个分句用 and 连接，前半句讲孩子踢球的动作，后半句讲球飞出的去向，两个事件在时间和因果上紧接发生。"
+    },
+    {
+      "title": "passing作前置修饰",
+      "text": "passing 是动词pass的现在分词形式，放在名词boat前面，描述船“正在驶过的、经过中的”状态，不是被动含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Suddenly,",
+      "role": "状语（时间/情景）",
+      "explanation": "修饰整个句子，说明这件事发生得很突然，没有预先料到。"
+    },
+    {
+      "text": "one of the children",
+      "role": "主语（第一个分句）",
+      "explanation": "指一群孩子里的其中一个，of the children 限定范围。"
+    },
+    {
+      "text": "kicked a ball very hard",
+      "role": "谓语（第一个分句）",
+      "explanation": "kicked a ball 是动作和对象，very hard 补充说明踢球的力度很大。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个独立分句，表示动作连续发生、有承接关系。"
+    },
+    {
+      "text": "it",
+      "role": "主语（第二个分句）",
+      "explanation": "指代前面提到的 a ball，避免重复。"
+    },
+    {
+      "text": "went towards a passing boat",
+      "role": "谓语（第二个分句）",
+      "explanation": "went 表示移动，towards 指明方向，a passing boat 是移动的目标方向。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Suddenly,",
+      "meaning": "突然地",
+      "pos": "副词",
+      "phonetic": "/ˈsʌdənli/"
+    },
+    {
+      "text": "one",
+      "meaning": "一个（人/物）",
+      "pos": "数词",
+      "phonetic": "/wʌn/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表所属范围）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "children",
+      "meaning": "孩子们（child的复数）",
+      "pos": "名词",
+      "phonetic": "/ˈtʃɪldrən/"
+    },
+    {
+      "text": "kicked",
+      "meaning": "踢（kick的过去式）",
+      "pos": "动词",
+      "phonetic": "/kɪkt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个（不定指）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "ball",
+      "meaning": "球",
+      "pos": "名词",
+      "phonetic": "/bɔːl/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "hard",
+      "meaning": "用力地，猛烈地",
+      "pos": "副词",
+      "phonetic": "/hɑːd/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代球）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "went",
+      "meaning": "去，移动（go的过去式）",
+      "pos": "动词",
+      "phonetic": "/went/"
+    },
+    {
+      "text": "towards",
+      "meaning": "朝，向",
+      "pos": "介词",
+      "phonetic": "/təˈwɔːdz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一艘（不定指）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "passing",
+      "meaning": "经过的，驶过的",
+      "pos": "现在分词（作定语）",
+      "phonetic": "/ˈpɑːsɪŋ/"
+    },
+    {
+      "text": "boat.",
+      "meaning": "小船，船",
+      "pos": "名词",
+      "phonetic": "/bəʊt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Suddenly,",
+      "meaning": "突然",
+      "relation": "情景状语"
+    },
+    {
+      "text": "one of the children",
+      "meaning": "其中一个孩子",
+      "relation": "主语（第一个分句）"
+    },
+    {
+      "text": "kicked",
+      "meaning": "踢了",
+      "relation": "谓语动词（第一个分句）"
+    },
+    {
+      "text": "a ball",
+      "meaning": "一只球",
+      "relation": "宾语（动作对象）"
+    },
+    {
+      "text": "very hard",
+      "meaning": "非常用力地",
+      "relation": "状语（动作方式）"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "relation": "并列连词"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指球）",
+      "relation": "主语（第二个分句）"
+    },
+    {
+      "text": "went",
+      "meaning": "飞过去，移动",
+      "relation": "谓语动词（第二个分句）"
+    },
+    {
+      "text": "towards a passing boat.",
+      "meaning": "朝着一艘经过的船",
+      "relation": "状语（方向）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-030",
+  "sentenceId": "nce-2-lesson-030-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Suddenly, one of the children kicked a ball very hard and it went towards a passing boat.",
+  "lesson": "Lesson 30 Football or polo?",
+  "notes": [
+    {
+      "title": "并列句承接动作结果",
+      "text": "前后两个分句用 and 连接，前半句讲孩子踢球的动作，后半句讲球飞出的去向，两个事件在时间和因果上紧接发生。"
+    },
+    {
+      "title": "passing作前置修饰",
+      "text": "passing 是动词pass的现在分词形式，放在名词boat前面，描述船“正在驶过的、经过中的”状态，不是被动含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需修正个别词的词性表述、短语词义及分块表述的准确性。（非逐句人工审核）"
+}

@@ -1,0 +1,92 @@
+{
+  "chinese": "“我没带我的包。”",
+  "intent": "说明自己无法付账的原因是包不在身上。",
+  "comparison": null,
+  "backbone": {
+    "text": "I haven't got my bag.",
+    "meaning": "我没有拿到/带着我的包。"
+  },
+  "structureNotes": [
+    {
+      "title": "have got的含义",
+      "text": "haven't got 是英式口语常用的现在完成时形式，在这里表示“没有（随身带着）”，相当于don't have，不是强调“得到”这个动作的完成。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "haven't got",
+      "role": "谓语",
+      "explanation": "由have的否定缩写形式加过去分词got构成，整体表示“没有、没带着”的状态。"
+    },
+    {
+      "text": "my bag.",
+      "role": "宾语",
+      "explanation": "是动词got的对象，说明没有的具体事物是“我的包”，句末带引语结束的引号和句号。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "haven't",
+      "meaning": "没有（have not的缩写，与got搭配表“没有”的状态）",
+      "pos": "助动词否定缩写",
+      "phonetic": "/ˈhævənt/"
+    },
+    {
+      "text": "got",
+      "meaning": "（get的过去分词，与have搭配构成口语常用结构，表“拥有、带着”，不单独表动作）",
+      "pos": "动词过去分词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "bag.’",
+      "meaning": "包",
+      "pos": "名词",
+      "phonetic": "/bæɡ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作的发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "haven't got",
+      "relation": "描述主语的状态",
+      "meaning": "没有带着"
+    },
+    {
+      "text": "my bag.’",
+      "relation": "没有带着的事物",
+      "meaning": "我的包"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-018",
+  "sentenceId": "nce-2-lesson-018-sentence-006",
+  "sentenceOrder": 6,
+  "english": "I haven't got my bag.’",
+  "lesson": "Lesson 18 He often does this!",
+  "notes": [
+    {
+      "title": "have got的含义",
+      "text": "haven't got 是英式口语常用的现在完成时形式，在这里表示“没有（随身带着）”，相当于don't have，不是强调“得到”这个动作的完成。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：本句为引语片段的后半截，核心语义解析正确；仅词项的词性标注、释义需调整，明确引语标点不影响词本身词性，且got在此结构中不单独表“得到”实义。（非逐句人工审核）"
+}

@@ -1,0 +1,155 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-057",
+  "sentenceId": "nce-2-lesson-057-sentence-009",
+  "sentenceOrder": 9,
+  "english": "As soon as she saw it, the woman said, ‘I don't want this dress.",
+  "chinese": "她一看到裙子就说：‘我不要这条裙子。",
+  "lesson": "Lesson 57 Can I help you, madam?",
+  "intent": "写出女士立即拒绝拿来的裙子",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "As soon as she saw it,",
+      "relation": "即时触发",
+      "meaning": "她一看到裙子"
+    },
+    {
+      "text": "the woman said,",
+      "relation": "言语回应",
+      "meaning": "女士就说"
+    },
+    {
+      "text": "‘I don't want this dress.",
+      "relation": "拒绝内容",
+      "meaning": "我不要这条裙子"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "即时关系",
+      "text": "As soon as 引导时间从句，说明两个动作紧接发生。"
+    },
+    {
+      "title": "保留引语片段",
+      "text": "原文引语在下一条继续，本片段不补闭引号。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "即时关系",
+      "text": "As soon as 引导时间从句，说明两个动作紧接发生。"
+    },
+    {
+      "title": "保留引语片段",
+      "text": "原文引语在下一条继续，本片段不补闭引号。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "As soon as she saw it,",
+      "role": "时间状语从句",
+      "explanation": "it 指店员取来的裙子。"
+    },
+    {
+      "text": "the woman said,",
+      "role": "引述主句",
+      "explanation": "引出女士的原话。"
+    },
+    {
+      "text": "‘I don't want this dress.",
+      "role": "直接引语片段",
+      "explanation": "don't 表示现在时否定，this 指拿到面前的裙子。"
+    }
+  ],
+  "words": [
+    {
+      "text": "As",
+      "meaning": "与soon as构成一……就",
+      "pos": "连词成分",
+      "phonetic": "/æz/ 或 /əz/"
+    },
+    {
+      "text": "soon",
+      "meaning": "与as … as构成立即关系",
+      "pos": "副词",
+      "phonetic": "/suːn/"
+    },
+    {
+      "text": "as",
+      "meaning": "引出时间从句",
+      "pos": "连词成分",
+      "phonetic": "/æz/ 或 /əz/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "人称代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "saw",
+      "meaning": "看见",
+      "pos": "及物动词过去式",
+      "phonetic": "/sɔː/"
+    },
+    {
+      "text": "it,",
+      "meaning": "它（裙子）",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "the",
+      "meaning": "前述的",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "woman",
+      "meaning": "女士",
+      "pos": "名词",
+      "phonetic": "/ˈwʊmən/"
+    },
+    {
+      "text": "said,",
+      "meaning": "说",
+      "pos": "及物动词过去式",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "‘I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "don't",
+      "meaning": "不（do not的缩写）",
+      "pos": "助动词及否定词缩写",
+      "phonetic": "/dəʊnt/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要",
+      "pos": "及物动词原形",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "this",
+      "meaning": "这条",
+      "pos": "指示限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "dress.",
+      "meaning": "连衣裙",
+      "pos": "名词",
+      "phonetic": "/dres/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

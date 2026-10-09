@@ -1,0 +1,146 @@
+{
+  "chinese": "我进去的时候，他连头都没从写字台上抬起来。",
+  "intent": "描述过去某个时刻的动作状态：我进入房间时，对方正忙着看桌上的东西，没有抬头。",
+  "comparison": null,
+  "backbone": {
+    "text": "He did not look up.",
+    "meaning": "他没有抬头。"
+  },
+  "structureNotes": [
+    {
+      "title": "when引导的时间说明",
+      "text": "when I entered 交代前面“没抬头”这件事发生的时间点，就是我进来的那一刻。"
+    },
+    {
+      "title": "look up from 的含义",
+      "text": "look up 是“抬头看”，加上 from his desk 说明原本视线在书桌上，要从书桌方向抬起头，不是单纯向上看。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "did not look up",
+      "role": "谓语部分",
+      "explanation": "表示过去的否定动作“没有抬头”，用 did + not + 动词原形构成一般过去时的否定。"
+    },
+    {
+      "text": "from his desk",
+      "role": "方位状语",
+      "explanation": "说明“抬头”这个动作的参照起点，即原本低头看着书桌，头要从书桌那边抬起来。"
+    },
+    {
+      "text": "when I entered.",
+      "role": "时间状语从句",
+      "explanation": "交代主句动作发生的时间点，指“在我进来的那一刻”，从句动作也是过去发生的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "did",
+      "meaning": "（助动词，构成过去时否定）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "not",
+      "meaning": "不（构成否定）",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "look",
+      "meaning": "看；（与up搭配构成短语表抬头的动作）",
+      "pos": "动词",
+      "phonetic": "/lʊk/"
+    },
+    {
+      "text": "up",
+      "meaning": "向上；朝上",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "from",
+      "meaning": "从……（地方）",
+      "pos": "介词",
+      "phonetic": "/frɒm/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "desk",
+      "meaning": "书桌，写字台",
+      "pos": "名词",
+      "phonetic": "/desk/"
+    },
+    {
+      "text": "when",
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "entered.",
+      "meaning": "进来；进入",
+      "pos": "动词",
+      "phonetic": "/ˈentəd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "relation": "动作主体，描述谁没抬头"
+    },
+    {
+      "text": "did not look up",
+      "meaning": "没有抬头",
+      "relation": "主要动作，描述主体做了什么（否定）"
+    },
+    {
+      "text": "from his desk",
+      "meaning": "从他的书桌那里",
+      "relation": "补充说明“抬头”的参照方位，原本低着头看书桌"
+    },
+    {
+      "text": "when I entered.",
+      "meaning": "当我进来的时候",
+      "relation": "时间，说明“没抬头”发生在哪个时刻"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-015",
+  "sentenceId": "nce-2-lesson-015-sentence-004",
+  "sentenceOrder": 4,
+  "english": "He did not look up from his desk when I entered.",
+  "lesson": "Lesson 15 Good news",
+  "notes": [
+    {
+      "title": "when引导的时间说明",
+      "text": "when I entered 交代前面“没抬头”这件事发生的时间点，就是我进来的那一刻。"
+    },
+    {
+      "title": "look up from 的含义",
+      "text": "look up 是“抬头看”，加上 from his desk 说明原本视线在书桌上，要从书桌方向抬起头，不是单纯向上看。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析正确，仅两处细节可修正：1. 单词look的语境义应补充‘抬头（相关动作）’的指向，避免仅释为泛义‘看，瞧’无法呼应短语；2. parts中from his desk的译文‘从他的书桌上’稍显生硬，调整为更符合中文表达的‘从书桌那里’更贴合语境，其余字段均准确。（非逐句人工审核）"
+}

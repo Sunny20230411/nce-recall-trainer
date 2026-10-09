@@ -1,0 +1,114 @@
+{
+  "chinese": "他一周前开始节食了。",
+  "intent": "说明某人开始节食这件事发生的时间是一周前。",
+  "comparison": null,
+  "backbone": {
+    "text": "He began his diet.",
+    "meaning": "他开始了他的节食计划。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间表达的位置",
+      "text": "英语中表示过去时间的 a week ago 通常放在句末，中文则常把时间放在句首或动词前，比如“他一周前开始节食”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文提到的Hugh，是“开始节食”这个动作的发出者。"
+    },
+    {
+      "text": "began",
+      "role": "谓语动词",
+      "explanation": "是begin的过去式，表示过去发生的“开始”这个动作。"
+    },
+    {
+      "text": "his diet",
+      "role": "宾语",
+      "explanation": "指他的节食计划，是began这个动作的对象。"
+    },
+    {
+      "text": "a week ago.",
+      "role": "时间状语",
+      "explanation": "说明began his diet这件事发生在一周以前，用于过去时态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "began",
+      "meaning": "开始（过去式）",
+      "pos": "动词",
+      "phonetic": "/bɪˈɡæn/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "物主代词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "diet",
+      "meaning": "节食；规定饮食",
+      "pos": "名词",
+      "phonetic": "/ˈdaɪət/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "week",
+      "meaning": "周；星期",
+      "pos": "名词",
+      "phonetic": "/wiːk/"
+    },
+    {
+      "text": "ago.",
+      "meaning": "以前",
+      "pos": "副词",
+      "phonetic": "/əˈɡəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "动作发出者",
+      "meaning": "他"
+    },
+    {
+      "text": "began his diet",
+      "relation": "核心动作及对象",
+      "meaning": "开始了他的节食计划"
+    },
+    {
+      "text": "a week ago.",
+      "relation": "动作发生的时间",
+      "meaning": "一周前"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-051",
+  "sentenceId": "nce-2-lesson-051-sentence-002",
+  "sentenceOrder": 2,
+  "english": "He began his diet a week ago.",
+  "lesson": "Lesson 51 Reward for virtue",
+  "notes": [
+    {
+      "title": "时间表达的位置",
+      "text": "英语中表示过去时间的 a week ago 通常放在句末，中文则常把时间放在句首或动词前，比如“他一周前开始节食”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅单词ago项的text包含句末标点但音标未标注，需统一为仅解释单词本身，修正音标即可。（非逐句人工审核）"
+}

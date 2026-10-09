@@ -1,0 +1,123 @@
+{
+  "chinese": "这只鸟在三分钟内飞完了这段距离。",
+  "intent": "说明这只鸟完成这段路程所用的时间。",
+  "comparison": null,
+  "backbone": {
+    "text": "The bird covered the distance.",
+    "meaning": "这只鸟飞完了这段距离。"
+  },
+  "structureNotes": [
+    {
+      "title": "cover 的含义",
+      "text": "cover 在这里不是“覆盖”，而是表示“走完、飞完（一段路程）”，用来描述完成一段距离的移动。"
+    },
+    {
+      "title": "in + 时间的作用",
+      "text": "in three minutes 表示“在三分钟之内”，用来说明完成整个动作所花费的时长。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The bird",
+      "role": "主语",
+      "explanation": "指前一句提到的那只鸽子，是动作的发出者。"
+    },
+    {
+      "text": "covered the distance",
+      "role": "谓语和宾语",
+      "explanation": "covered 是谓语动词，表示完成了这段路程；the distance 是宾语，指从 Pinhurst 到 Silbury 的这段距离。"
+    },
+    {
+      "text": "in three minutes",
+      "role": "时间状语",
+      "explanation": "说明飞完这段路程总共用了三分钟的时间。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这；那（定冠词，特指前面提到的）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bird",
+      "meaning": "鸟；这里指前文的鸽子",
+      "pos": "名词",
+      "phonetic": "/bɜːd/"
+    },
+    {
+      "text": "covered",
+      "meaning": "走完，飞完（一段距离）",
+      "pos": "动词过去式",
+      "phonetic": "/ˈkʌvəd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这；那（定冠词，特指两地之间的）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "distance",
+      "meaning": "距离，路程",
+      "pos": "名词",
+      "phonetic": "/ˈdɪstəns/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（一段时间）之内",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "three",
+      "meaning": "三（个）",
+      "pos": "数词",
+      "phonetic": "/θriː/"
+    },
+    {
+      "text": "minutes.",
+      "meaning": "分钟（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪnɪts/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The bird",
+      "relation": "描述谁（动作的发出者）",
+      "meaning": "这只鸟"
+    },
+    {
+      "text": "covered the distance",
+      "relation": "补充做了什么事",
+      "meaning": "飞完了这段距离"
+    },
+    {
+      "text": "in three minutes.",
+      "relation": "说明动作花费的时间",
+      "meaning": "在三分钟之内"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-005",
+  "sentenceId": "nce-2-lesson-005-sentence-006",
+  "sentenceOrder": 6,
+  "english": "The bird covered the distance in three minutes.",
+  "lesson": "Lesson 5 No wrong numbers",
+  "notes": [
+    {
+      "title": "cover 的含义",
+      "text": "cover 在这里不是“覆盖”，而是表示“走完、飞完（一段路程）”，用来描述完成一段距离的移动。"
+    },
+    {
+      "title": "in + 时间的作用",
+      "text": "in three minutes 表示“在三分钟之内”，用来说明完成整个动作所花费的时长。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确可用，仅存在一处细节问题：words数组中minutes.的释义额外添加了“句末带句号”的冗余说明，不符合“音标和释义仅解释词本身，不添加反复的标点说明”的要求，需修正该词的释义。其余内容（翻译、主干、结构分析、成分划分、分块含义与关系等）均准确合规。（非逐句人工审核）"
+}

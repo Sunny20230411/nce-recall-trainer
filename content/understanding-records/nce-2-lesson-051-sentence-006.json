@@ -1,0 +1,247 @@
+{
+  "chinese": "我按了铃，看到休仍然像往常一样胖，并不觉得惊讶。",
+  "intent": "叙述过去一次拜访时按铃见到休的状态，说明自己对休依旧肥胖这一点毫不意外。",
+  "comparison": {
+    "chinese": "我按了铃，看到休还是跟以前一样胖，一点也不奇怪。",
+    "english": "I rang the bell and was not surprised to see that Hugh was still as fat as ever.",
+    "steps": [
+      {
+        "label": "第一步：先抓住两个并列的过去动作",
+        "text": "I rang the bell and was not surprised",
+        "explanation": "中文先说“按了铃”，再带出“不惊讶”的感受；英文用 and 直接把“按铃”和“不惊讶”连成并列谓语，主语都是 I，读者顺下来就懂是同一个人先后做的事。"
+      },
+      {
+        "label": "第二步：理解“不惊讶”的具体内容",
+        "text": "to see that Hugh was still as fat as ever",
+        "explanation": "中文习惯把“看到……”放在前面，再说“不惊讶”；英文把 to see… 放在 surprised 后面，说明是“因为看到某件事而不惊讶”，that 引出看到的具体内容。"
+      },
+      {
+        "label": "第三步：理解同级比较的说法",
+        "text": "as fat as ever",
+        "explanation": "中文说“跟往常一样胖”；英文用 as + 形容词 + as ever 的结构，表示程度和往常相同，ever 在这里指“以往任何时候”，强调状态没变。"
+      }
+    ],
+    "takeaway": "英文习惯先讲主语的动作与感受，再用不定式说明感受的原因、用从句说明看到的具体内容；中文则常把“看到什么”提前，再说自己的反应。"
+  },
+  "backbone": {
+    "text": "I rang the bell and was not surprised to see that Hugh was still fat.",
+    "meaning": "我按了铃，并且看到休仍然很胖，并不感到惊讶。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列谓语共享主语 I",
+      "text": "rang the bell 和 was not surprised 由 and 连接，都是主语 I 的过去动作/状态，第二个谓语省略了重复的主语 I。"
+    },
+    {
+      "title": "to see 说明惊讶的原因",
+      "text": "surprised 后接不定式 to see…，表示“因为看到某事而产生惊讶这种情绪”，这里 not surprised 就是“看到某事并不惊讶”。"
+    },
+    {
+      "title": "that 从句作 see 的宾语",
+      "text": "that Hugh was still as fat as ever 是 see 的宾语从句，说明看到的具体内容；that 只起连接作用，没有实际词义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I rang the bell",
+      "role": "第一谓语部分（主谓宾）",
+      "explanation": "叙述过去发生的第一个动作：我按了铃；主语是 I，谓语是 rang，宾语是 the bell。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个并列的谓语部分，表示动作/状态顺承发生。"
+    },
+    {
+      "text": "was not surprised to see that Hugh was still as fat as ever.",
+      "role": "第二谓语部分（系表结构+原因状语+宾语从句）",
+      "explanation": "说明主语 I 的状态：并不惊讶；to see… 解释不惊讶的原因，that 从句是 see 的具体内容。"
+    },
+    {
+      "text": "that Hugh was still as fat as ever",
+      "role": "宾语从句",
+      "explanation": "跟在 see 后面，说明看到的事实：休仍然和以往一样胖。"
+    },
+    {
+      "text": "as fat as ever",
+      "role": "同级比较结构（作表语的一部分）",
+      "explanation": "用 as…as ever 表示“胖的程度和往常一样”，强调状态没有变化。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "rang",
+      "meaning": "按（铃）；敲（钟）（ring的过去式）",
+      "pos": "动词",
+      "phonetic": "/ræŋ/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（定冠词，特指bell）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bell",
+      "meaning": "铃；门铃",
+      "pos": "名词",
+      "phonetic": "/bel/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be的过去式）是；处于",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "not",
+      "meaning": "不；没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "surprised",
+      "meaning": "感到惊讶的",
+      "pos": "形容词",
+      "phonetic": "/səˈpraɪzd/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式标记",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "see",
+      "meaning": "看见；看到",
+      "pos": "动词",
+      "phonetic": "/siː/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导宾语从句，无实义）",
+      "pos": "从属连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "Hugh",
+      "meaning": "休（男子名）",
+      "pos": "名词",
+      "phonetic": "/hjuː/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be的过去式）是",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "still",
+      "meaning": "仍然；依旧",
+      "pos": "副词",
+      "phonetic": "/stɪl/"
+    },
+    {
+      "text": "as",
+      "meaning": "像……一样（同级比较第一个as）",
+      "pos": "副词",
+      "phonetic": "/æz/"
+    },
+    {
+      "text": "fat",
+      "meaning": "胖的；肥胖的",
+      "pos": "形容词",
+      "phonetic": "/fæt/"
+    },
+    {
+      "text": "as",
+      "meaning": "像……一样（同级比较第二个as）",
+      "pos": "连词",
+      "phonetic": "/æz/"
+    },
+    {
+      "text": "ever.",
+      "meaning": "曾经；以往任何时候",
+      "pos": "副词",
+      "phonetic": "/ˈevə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "rang the bell",
+      "relation": "第一个动作",
+      "meaning": "按了铃"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列谓语",
+      "meaning": "并且"
+    },
+    {
+      "text": "was not surprised",
+      "relation": "第二个状态（主语的感受）",
+      "meaning": "并不感到惊讶"
+    },
+    {
+      "text": "to see",
+      "relation": "说明不惊讶的原因/事由",
+      "meaning": "看到……"
+    },
+    {
+      "text": "that",
+      "relation": "引出看到的具体内容",
+      "meaning": "（引导从句，无实义）"
+    },
+    {
+      "text": "Hugh",
+      "relation": "从句中描述的对象",
+      "meaning": "休"
+    },
+    {
+      "text": "was still as fat as ever.",
+      "relation": "描述休的状态",
+      "meaning": "仍然像往常一样胖"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-051",
+  "sentenceId": "nce-2-lesson-051-sentence-006",
+  "sentenceOrder": 7,
+  "english": "I rang the bell and was not surprised to see that Hugh was still as fat as ever.",
+  "lesson": "Lesson 51 Reward for virtue",
+  "notes": [
+    {
+      "title": "并列谓语共享主语 I",
+      "text": "rang the bell 和 was not surprised 由 and 连接，都是主语 I 的过去动作/状态，第二个谓语省略了重复的主语 I。"
+    },
+    {
+      "title": "to see 说明惊讶的原因",
+      "text": "surprised 后接不定式 to see…，表示“因为看到某事而产生惊讶这种情绪”，这里 not surprised 就是“看到某事并不惊讶”。"
+    },
+    {
+      "title": "that 从句作 see 的宾语",
+      "text": "that Hugh was still as fat as ever 是 see 的宾语从句，说明看到的具体内容；that 只起连接作用，没有实际词义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需修正单词ever的text尾随标点的释义冗余、音标重音位置及第二谓语结构描述的表述严谨性。（非逐句人工审核）"
+}

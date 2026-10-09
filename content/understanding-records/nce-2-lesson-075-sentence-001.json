@@ -1,0 +1,197 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-075",
+  "sentenceId": "nce-2-lesson-075-sentence-001",
+  "sentenceOrder": 1,
+  "english": "When a light passenger plane flew off course some time ago, it crashed in the mountains and its pilot was killed.",
+  "chinese": "前些时候，一架轻型客机偏离了航线，坠毁在山区，飞行员遇难。",
+  "lesson": "Lesson 75 SOS",
+  "intent": "交代飞机偏航失事及人员伤亡",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "When a light passenger plane flew off course some time ago,",
+      "relation": "事故背景",
+      "meaning": "前些时候一架轻型客机偏航"
+    },
+    {
+      "text": "it crashed in the mountains",
+      "relation": "坠毁",
+      "meaning": "飞机坠毁在山区"
+    },
+    {
+      "text": "and its pilot was killed.",
+      "relation": "人员后果",
+      "meaning": "飞行员遇难"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "航线偏离",
+      "text": "off course 表示不在预定航线上。"
+    },
+    {
+      "title": "被动结果",
+      "text": "was killed 报告死亡结果，未说明具体致死机制。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "航线偏离",
+      "text": "off course 表示不在预定航线上。"
+    },
+    {
+      "title": "被动结果",
+      "text": "was killed 报告死亡结果，未说明具体致死机制。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When a light passenger plane flew off course some time ago,",
+      "role": "时间状语从句",
+      "explanation": "交代偏航背景。"
+    },
+    {
+      "text": "it crashed in the mountains",
+      "role": "主句",
+      "explanation": "报告坠毁事件。"
+    },
+    {
+      "text": "and its pilot was killed.",
+      "role": "并列分句",
+      "explanation": "报告飞行员遇难。"
+    }
+  ],
+  "words": [
+    {
+      "text": "When",
+      "meaning": "当……时",
+      "pos": "从属连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "a",
+      "meaning": "一架",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "light",
+      "meaning": "轻型的",
+      "pos": "形容词",
+      "phonetic": "/laɪt/"
+    },
+    {
+      "text": "passenger",
+      "meaning": "客运的",
+      "pos": "名词作定语",
+      "phonetic": "/ˈpæsɪndʒə/"
+    },
+    {
+      "text": "plane",
+      "meaning": "飞机",
+      "pos": "名词",
+      "phonetic": "/pleɪn/"
+    },
+    {
+      "text": "flew",
+      "meaning": "飞行",
+      "pos": "动词",
+      "phonetic": "/fluː/"
+    },
+    {
+      "text": "off",
+      "meaning": "偏离",
+      "pos": "介词",
+      "phonetic": "/ɒf/"
+    },
+    {
+      "text": "course",
+      "meaning": "航线",
+      "pos": "名词",
+      "phonetic": "/kɔːs/"
+    },
+    {
+      "text": "some",
+      "meaning": "一段",
+      "pos": "限定词",
+      "phonetic": "/səm/ 或 /sʌm/"
+    },
+    {
+      "text": "time",
+      "meaning": "时间",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    },
+    {
+      "text": "ago,",
+      "meaning": "以前",
+      "pos": "副词",
+      "phonetic": "/əˈɡəʊ/"
+    },
+    {
+      "text": "it",
+      "meaning": "它",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "crashed",
+      "meaning": "坠毁",
+      "pos": "动词",
+      "phonetic": "/kræʃt/"
+    },
+    {
+      "text": "in",
+      "meaning": "在",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "该片",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "mountains",
+      "meaning": "山区",
+      "pos": "复数名词",
+      "phonetic": "/ˈmaʊntənz/"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "pos": "并列连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "its",
+      "meaning": "它的",
+      "pos": "物主限定词",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "pilot",
+      "meaning": "飞行员",
+      "pos": "名词",
+      "phonetic": "/ˈpaɪlət/"
+    },
+    {
+      "text": "was",
+      "meaning": "被",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "killed.",
+      "meaning": "致死",
+      "pos": "动词过去分词",
+      "phonetic": "/kɪld/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

@@ -1,0 +1,141 @@
+{
+  "chinese": "一位年轻男子和一位年轻女子坐在我身后。",
+  "intent": "描述当时在作者身后坐着两个人的状态，交代场景中的人物位置。",
+  "comparison": null,
+  "backbone": {
+    "text": "A young man and a young woman were sitting behind me.",
+    "meaning": "一名年轻男子和一名年轻女子当时正坐在我后面。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去进行时表当时状态",
+      "text": "were sitting 用“be动词+动词-ing”的过去进行时形式，描述过去某个时刻正在持续的动作或状态，这里指作者看剧时那两个人一直坐在身后的状态。"
+    },
+    {
+      "title": "并列主语",
+      "text": "A young man and a young woman 由 and 连接两个名词短语共同作主语，指两个人，所以后面的 be 动词用复数形式 were。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A young man and a young woman",
+      "role": "主语",
+      "explanation": "由 and 连接的两个并列名词短语，共同表示句子描述的对象是一男一女两个人。"
+    },
+    {
+      "text": "were sitting",
+      "role": "谓语",
+      "explanation": "过去进行时结构，表示过去某个时间点正在持续的动作，这里指“正坐着”的状态。"
+    },
+    {
+      "text": "behind me.",
+      "role": "地点状语",
+      "explanation": "核心由介词 behind 加宾语 me 构成，说明坐着的位置是在说话人身后，句末的句号是全句标点，不属于地点状语的语义成分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "meaning": "一个（用于辅音开头的单数可数名词前）",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "young",
+      "meaning": "年轻的",
+      "pos": "形容词",
+      "phonetic": "/jʌŋ/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人；男子",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；与",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个（用于辅音开头的单数可数名词前）",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "young",
+      "meaning": "年轻的",
+      "pos": "形容词",
+      "phonetic": "/jʌŋ/"
+    },
+    {
+      "text": "woman",
+      "meaning": "女人；女子",
+      "pos": "名词",
+      "phonetic": "/ˈwʊmən/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（are的过去式，复数主语用）",
+      "pos": "动词",
+      "phonetic": "/wɜː(r)/"
+    },
+    {
+      "text": "sitting",
+      "meaning": "坐（sit的现在分词形式）",
+      "pos": "动词",
+      "phonetic": "/ˈsɪtɪŋ/"
+    },
+    {
+      "text": "behind",
+      "meaning": "在……后面",
+      "pos": "介词",
+      "phonetic": "/bɪˈhaɪnd/"
+    },
+    {
+      "text": "me.",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "A young man and a young woman",
+      "relation": "描述谁",
+      "meaning": "一名年轻男子和一名年轻女子"
+    },
+    {
+      "text": "were sitting",
+      "relation": "做什么（状态）",
+      "meaning": "当时正坐着"
+    },
+    {
+      "text": "behind me.",
+      "relation": "位置",
+      "meaning": "在我身后"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-001",
+  "sentenceId": "nce-2-lesson-001-sentence-005",
+  "sentenceOrder": 5,
+  "english": "A young man and a young woman were sitting behind me.",
+  "lesson": "Lesson 1 A private conversation",
+  "notes": [
+    {
+      "title": "过去进行时表当时状态",
+      "text": "were sitting 用“be动词+动词-ing”的过去进行时形式，描述过去某个时刻正在持续的动作或状态，这里指作者看剧时那两个人一直坐在身后的状态。"
+    },
+    {
+      "title": "并列主语",
+      "text": "A young man and a young woman 由 and 连接两个名词短语共同作主语，指两个人，所以后面的 be 动词用复数形式 were。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅两处细节问题：1. were的英音标标注重复，仅需保留对应本身的标注即可，且were的英式音标应为/wɜː(r)/更规范；2. 地点状语的文本包含句末句号，解释说明时需明确句末标点属于全句标点，不影响状语结构。其余翻译、语法分析、主干、词汇释义均符合要求。（非逐句人工审核）"
+}

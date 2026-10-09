@@ -1,0 +1,83 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-083",
+  "sentenceId": "nce-2-lesson-083-sentence-001",
+  "sentenceOrder": 1,
+  "english": "The former Prime Minister, Mr.",
+  "chinese": "前首相，……先生",
+  "lesson": "Lesson 83 After the elections",
+  "intent": "以过去的职务引出人物",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "The former Prime Minister,",
+      "relation": "人物身份",
+      "meaning": "这位前首相"
+    },
+    {
+      "text": "Mr.",
+      "relation": "称呼起始",
+      "meaning": "先生（姓名待续）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "称呼未完",
+      "text": "Mr. 是称谓缩写，句点不代表整个句子已经结束。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "称呼未完",
+      "text": "Mr. 是称谓缩写，句点不代表整个句子已经结束。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The former Prime Minister,",
+      "role": "名词短语",
+      "explanation": "指称人物，完整句中作主语。"
+    },
+    {
+      "text": "Mr.",
+      "role": "同位说明的开头",
+      "explanation": "姓名接在下一片段中。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这位",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "former",
+      "meaning": "前任的",
+      "pos": "形容词",
+      "phonetic": "/ˈfɔːmə/"
+    },
+    {
+      "text": "Prime",
+      "meaning": "首相（职务组成词）",
+      "pos": "形容词",
+      "phonetic": "/praɪm/"
+    },
+    {
+      "text": "Minister,",
+      "meaning": "首相（职务中心词）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪnɪstə(r)/"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生",
+      "pos": "称谓名词",
+      "phonetic": "/ˈmɪstə/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

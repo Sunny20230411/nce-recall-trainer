@@ -1,0 +1,223 @@
+{
+  "chinese": "森林火灾常常由碎玻璃或者人们随手丢弃的烟头引起。",
+  "intent": "说明森林火灾常见的两类起因，补充烟头是被人随意丢弃的。",
+  "comparison": {
+    "chinese": "森林火灾常常由［碎玻璃］或者［人们随手丢弃的烟头］引起。",
+    "english": "Forest fires are often caused by broken glass or by cigarette ends which people carelessly throw away.",
+    "steps": [
+      {
+        "label": "先抓主干事实",
+        "text": "Forest fires are often caused by... or by...",
+        "explanation": "中文先说“森林火灾由……引起”，英文也是先点明主语和被动的“被引起”，再引出两个原因。"
+      },
+      {
+        "label": "第一个原因直接用名词短语",
+        "text": "by broken glass",
+        "explanation": "中文说“碎玻璃”，英文把broken放在glass前面直接修饰，理解时直接合成为“碎玻璃”即可。"
+      },
+      {
+        "label": "第二个原因后接从句补充",
+        "text": "by cigarette ends which people carelessly throw away",
+        "explanation": "中文会把“人们随手丢弃的”放在“烟头”前面当定语；英文先说出“烟头”，再用which从句交代烟头是怎么来的，which指cigarette ends，同时在从句里作throw away的宾语。"
+      }
+    ],
+    "takeaway": "英文在解释事物成因时，可以先给出核心名词，再用从句补充这个名词的相关背景；中文习惯把修饰语统统放到名词前面。"
+  },
+  "backbone": {
+    "text": "Forest fires are caused by broken glass or by cigarette ends.",
+    "meaning": "森林火灾由碎玻璃或烟头引起。"
+  },
+  "structureNotes": [
+    {
+      "title": "被动语态引出原因",
+      "text": "句子用are caused by的被动形式，把动作的承受者forest fires放在句首作主语，原因则由by引出，重点落在“火灾由什么导致”而不是“谁导致了火灾”。"
+    },
+    {
+      "title": "which引导的定语从句",
+      "text": "which people carelessly throw away修饰cigarette ends，which指代烟头，在从句里充当throw away的宾语，说明这些烟头是被人随手丢掉的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Forest fires",
+      "role": "主语",
+      "explanation": "表示句子讨论的主体是森林火灾。"
+    },
+    {
+      "text": "are often caused",
+      "role": "被动语态谓语",
+      "explanation": "表示“被引起”，often说明发生频率，整体描述主语的成因属性。"
+    },
+    {
+      "text": "by broken glass",
+      "role": "第一个原因状语（by引出的施事短语）",
+      "explanation": "用by引出造成火灾的第一个事物：碎玻璃。"
+    },
+    {
+      "text": "or by cigarette ends",
+      "role": "第二个原因状语（与前者并列的by施事短语）",
+      "explanation": "or连接并列的by施事短语，引出第二个造成火灾的事物：烟头。"
+    },
+    {
+      "text": "which people carelessly throw away.",
+      "role": "定语从句",
+      "explanation": "修饰cigarette ends，补充说明烟头是人们随手丢弃的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Forest",
+      "meaning": "森林",
+      "pos": "名词",
+      "phonetic": "/ˈfɒrɪst/"
+    },
+    {
+      "text": "fires",
+      "meaning": "火灾（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈfaɪəz/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（be的复数现在时形式，此处为被动语态的构成动词）",
+      "pos": "主动词（be动词）",
+      "phonetic": "/ɑː/"
+    },
+    {
+      "text": "often",
+      "meaning": "常常，经常",
+      "pos": "副词",
+      "phonetic": "/ˈɒfn/"
+    },
+    {
+      "text": "caused",
+      "meaning": "引起，导致（过去分词）",
+      "pos": "动词",
+      "phonetic": "/kɔːzd/"
+    },
+    {
+      "text": "by",
+      "meaning": "由，被",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "broken",
+      "meaning": "破碎的",
+      "pos": "形容词",
+      "phonetic": "/ˈbrəʊkən/"
+    },
+    {
+      "text": "glass",
+      "meaning": "玻璃",
+      "pos": "名词",
+      "phonetic": "/ɡlɑːs/"
+    },
+    {
+      "text": "or",
+      "meaning": "或者",
+      "pos": "连词",
+      "phonetic": "/ɔː/"
+    },
+    {
+      "text": "by",
+      "meaning": "由，被",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "cigarette",
+      "meaning": "香烟",
+      "pos": "名词",
+      "phonetic": "/ˌsɪɡəˈret/"
+    },
+    {
+      "text": "ends",
+      "meaning": "末端，烟头（复数）",
+      "pos": "名词",
+      "phonetic": "/endz/"
+    },
+    {
+      "text": "which",
+      "meaning": "……的东西（关系代词，指代烟头）",
+      "pos": "关系代词",
+      "phonetic": "/wɪtʃ/"
+    },
+    {
+      "text": "people",
+      "meaning": "人们",
+      "pos": "名词",
+      "phonetic": "/ˈpiːpl/"
+    },
+    {
+      "text": "carelessly",
+      "meaning": "粗心地，漫不经心地",
+      "pos": "副词",
+      "phonetic": "/ˈkeələsli/"
+    },
+    {
+      "text": "throw",
+      "meaning": "扔，丢",
+      "pos": "动词",
+      "phonetic": "/θrəʊ/"
+    },
+    {
+      "text": "away.",
+      "meaning": "扔掉，丢弃",
+      "pos": "副词",
+      "phonetic": "/əˈweɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Forest fires",
+      "relation": "描述的主体",
+      "meaning": "森林火灾"
+    },
+    {
+      "text": "are often caused",
+      "relation": "说明主体的成因",
+      "meaning": "常常由……引起"
+    },
+    {
+      "text": "by broken glass",
+      "relation": "第一个起因",
+      "meaning": "碎玻璃"
+    },
+    {
+      "text": "or",
+      "relation": "连接两个并列的起因",
+      "meaning": "或者"
+    },
+    {
+      "text": "by cigarette ends",
+      "relation": "第二个起因",
+      "meaning": "烟头"
+    },
+    {
+      "text": "which people carelessly throw away.",
+      "relation": "补充说明烟头的来源",
+      "meaning": "人们随手丢弃的"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-053",
+  "sentenceId": "nce-2-lesson-053-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Forest fires are often caused by broken glass or by cigarette ends which people carelessly throw away.",
+  "lesson": "Lesson 53 Hot snake",
+  "notes": [
+    {
+      "title": "被动语态引出原因",
+      "text": "句子用are caused by的被动形式，把动作的承受者forest fires放在句首作主语，原因则由by引出，重点落在“火灾由什么导致”而不是“谁导致了火灾”。"
+    },
+    {
+      "title": "which引导的定语从句",
+      "text": "which people carelessly throw away修饰cigarette ends，which指代烟头，在从句里充当throw away的宾语，说明这些烟头是被人随手丢掉的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需修正一个词性标注和一处结构角色的表述问题：are的词性应为主动词（be动词）而非助动词，第二个原因状语的角色表述需明确并列的是by介词短语。（非逐句人工审核）"
+}

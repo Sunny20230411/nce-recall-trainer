@@ -1,0 +1,133 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-060",
+  "sentenceId": "nce-2-lesson-060-sentence-017",
+  "sentenceOrder": 18,
+  "english": "She got out of the car and said, ‘I'm sorry I'm late.",
+  "chinese": "她下了车，说：“抱歉，我来晚了。",
+  "lesson": "Lesson 60 The future",
+  "intent": "叙述来人下车并直接为迟到道歉",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "She got out of the car and said,",
+      "relation": "动作及发言",
+      "meaning": "她下车说道"
+    },
+    {
+      "text": "‘I'm sorry I'm late.",
+      "relation": "道歉",
+      "meaning": "抱歉我来晚了"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "下车",
+      "text": "get out of the car 表示从小汽车内出来。"
+    },
+    {
+      "title": "道歉内容",
+      "text": "sorry 后省略 that，I'm late 说明歉意所针对的情况。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "下车",
+      "text": "get out of the car 表示从小汽车内出来。"
+    },
+    {
+      "title": "道歉内容",
+      "text": "sorry 后省略 that，I'm late 说明歉意所针对的情况。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She got out of the car and said,",
+      "role": "叙述主句",
+      "explanation": "连接下车和说话。"
+    },
+    {
+      "text": "‘I'm sorry I'm late.",
+      "role": "直接引语",
+      "explanation": "表达对当前迟到的歉意。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "got",
+      "meaning": "出来；与out of连用",
+      "pos": "动词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "out",
+      "meaning": "向外",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    },
+    {
+      "text": "of",
+      "meaning": "从",
+      "pos": "介词",
+      "phonetic": "/ɒv/ 或 /əv/"
+    },
+    {
+      "text": "the",
+      "meaning": "那辆",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "car",
+      "meaning": "汽车",
+      "pos": "名词",
+      "phonetic": "/kɑː/"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "pos": "连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "said,",
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "‘I'm",
+      "meaning": "我感到；I am缩写",
+      "pos": "代词与系动词缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "sorry",
+      "meaning": "抱歉的",
+      "pos": "形容词",
+      "phonetic": "/ˈsɒri/"
+    },
+    {
+      "text": "I'm",
+      "meaning": "我处于；I am缩写",
+      "pos": "代词与系动词缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "late.",
+      "meaning": "迟到的",
+      "pos": "形容词",
+      "phonetic": "/leɪt/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

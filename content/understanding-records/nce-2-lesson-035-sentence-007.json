@@ -1,0 +1,184 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-035",
+  "sentenceId": "nce-2-lesson-035-sentence-007",
+  "sentenceOrder": 8,
+  "english": "The car with the thieves was going fast, but Roy drove his bus into the back of it.",
+  "chinese": "载着小偷的汽车开得很快，但罗伊开着公交车撞上了它的尾部。",
+  "lesson": "Lesson 35 Stop thief!",
+  "intent": "对比小偷逃跑的速度与罗伊追撞汽车的行动。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "The car with the thieves was going fast,",
+      "relation": "小偷逃跑的情形",
+      "meaning": "载着小偷的车开得很快"
+    },
+    {
+      "text": "but Roy drove his bus",
+      "relation": "与逃跑预期相反的行动",
+      "meaning": "但罗伊开着公交车"
+    },
+    {
+      "text": "into the back of it.",
+      "relation": "冲撞目标",
+      "meaning": "撞上那辆车的尾部"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "with补充是哪辆车",
+      "text": "with the thieves 修饰 car，指载着小偷的汽车，不是所有权关系。it 回指这辆车。"
+    },
+    {
+      "title": "into与碰撞",
+      "text": "drive a vehicle into something 在这里表示把车撞向某物。the back of it 指汽车尾部，不只是车后方的一片区域。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "with补充是哪辆车",
+      "text": "with the thieves 修饰 car，指载着小偷的汽车，不是所有权关系。it 回指这辆车。"
+    },
+    {
+      "title": "into与碰撞",
+      "text": "drive a vehicle into something 在这里表示把车撞向某物。the back of it 指汽车尾部，不只是车后方的一片区域。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The car with the thieves",
+      "role": "主语",
+      "explanation": "第一分句谈论载着小偷的汽车。"
+    },
+    {
+      "text": "was going fast,",
+      "role": "谓语及状语",
+      "explanation": "过去进行时描述当时车正在快速行驶。"
+    },
+    {
+      "text": "Roy drove his bus",
+      "role": "主谓宾结构",
+      "explanation": "罗伊开着公交车采取行动。"
+    },
+    {
+      "text": "into the back of it.",
+      "role": "方向状语",
+      "explanation": "交代公交车撞向汽车尾部。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "那辆",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "car",
+      "meaning": "汽车",
+      "pos": "名词",
+      "phonetic": "/kɑː/"
+    },
+    {
+      "text": "with",
+      "meaning": "载着",
+      "pos": "介词",
+      "phonetic": "/wɪð/"
+    },
+    {
+      "text": "the",
+      "meaning": "这些",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "thieves",
+      "meaning": "小偷",
+      "pos": "名词",
+      "phonetic": "/θiːvz/"
+    },
+    {
+      "text": "was",
+      "meaning": "构成过去进行时",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "going",
+      "meaning": "行驶",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "fast,",
+      "meaning": "快速地",
+      "pos": "副词",
+      "phonetic": "/fɑːst/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "并列连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "Roy",
+      "meaning": "罗伊",
+      "pos": "专有名词",
+      "phonetic": "/rɔɪ/"
+    },
+    {
+      "text": "drove",
+      "meaning": "驾驶",
+      "pos": "动词",
+      "phonetic": "/drəʊv/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "物主限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "bus",
+      "meaning": "公交车",
+      "pos": "名词",
+      "phonetic": "/bʌs/"
+    },
+    {
+      "text": "into",
+      "meaning": "撞向",
+      "pos": "介词",
+      "phonetic": "/ˈɪntuː/ 或 /ˈɪntə/"
+    },
+    {
+      "text": "the",
+      "meaning": "它的那个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "back",
+      "meaning": "后部",
+      "pos": "名词",
+      "phonetic": "/bæk/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/ 或 /əv/"
+    },
+    {
+      "text": "it.",
+      "meaning": "那辆汽车",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

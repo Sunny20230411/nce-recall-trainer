@@ -1,0 +1,240 @@
+{
+  "chinese": "我问他那是什么，他告诉我那是戈耳工之一的美杜莎。",
+  "intent": "转述连续发生的两组对话：我向他人询问某事物的身份，对方给出答案并补充说明该事物的称谓。",
+  "comparison": {
+    "chinese": "我问他那是什么，他告诉我那是戈耳工美杜莎。",
+    "english": "I asked him what it was and he told me that it was Medusa, the Gorgon.",
+    "steps": [
+      {
+        "label": "第一步：先抓两个并列的主句动作",
+        "text": "I asked him... and he told me...",
+        "explanation": "中文也会按时间顺序说“我问了他……然后他告诉我……”，这一层语序和逻辑和中文一致，先明确是一先一后两件事。"
+      },
+      {
+        "label": "第二步：处理两个内嵌的问答内容",
+        "text": "what it was / that it was Medusa, the Gorgon.",
+        "explanation": "英文把问句改成陈述语序放在动词后作宾语：原本的“What was it?”变成“what it was”；陈述句则加that引出。中文不用改语序，直接说“那是什么”“那是美杜莎”就行。"
+      },
+      {
+        "label": "第三步：理解末尾同位语的补充作用",
+        "text": "Medusa, the Gorgon.",
+        "explanation": "英文把身份说明“the Gorgon”放在名字后面，用逗号隔开补充美杜莎的类别。中文习惯把类别放前面，说成“戈耳工美杜莎”或“美杜莎，也就是戈耳工”，不用硬翻成“那个戈耳工”。"
+      }
+    ],
+    "takeaway": "碰到“问/说 + 内容”的句子，先抓主句的人跟动作，再看后面跟的是疑问内容还是陈述内容；疑问内容在英文里会变回陈述语序，不用照着倒装理解。"
+  },
+  "backbone": {
+    "text": "I asked him what it was and he told me that it was Medusa.",
+    "meaning": "我问他那是什么，他告诉我那是美杜莎。（为方便理解省略了补充身份的the Gorgon）"
+  },
+  "structureNotes": [
+    {
+      "title": "what引导的名词性从句作宾语",
+      "text": "what it was跟在asked后面，是asked的内容，相当于“那件事是什么”的答案。注意它用了陈述语序it was，不是疑问句式was it，因为它已经不是独立问句。"
+    },
+    {
+      "title": "that引导的宾语从句",
+      "text": "that it was Medusa...跟在told me后面，说明告诉我的具体内容；that在这里只起连接作用，本身没有实义，口语里常可省略。"
+    },
+    {
+      "title": "同位语补充身份",
+      "text": "the Gorgon放在Medusa后面，和Medusa指的是同一个对象，作用是补充说明美杜莎属于戈耳工这一身份，相当于“美杜莎，也就是那位戈耳工”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I asked him what it was",
+      "role": "并列分句1",
+      "explanation": "表示前半段事件：我向他询问某事物是什么。主语是I，谓语是asked，间接宾语是him，直接宾语是what引导的从句。"
+    },
+    {
+      "text": "what it was",
+      "role": "宾语从句（疑问内容）",
+      "explanation": "是asked的直接宾语，用陈述语序表达疑问内容“它是什么”，what在从句中作表语。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个并列分句，体现动作的先后承接关系：先问，之后对方回答。"
+    },
+    {
+      "text": "he told me that it was Medusa, the Gorgon.",
+      "role": "并列分句2",
+      "explanation": "表示后半段事件：他把答案告诉我。主语是he，谓语是told，间接宾语是me，直接宾语是that引导的从句。"
+    },
+    {
+      "text": "that it was Medusa, the Gorgon.",
+      "role": "宾语从句（陈述内容）",
+      "explanation": "是told的直接宾语，说明告知的具体内容；that是连接词，从句为主系表结构。"
+    },
+    {
+      "text": "the Gorgon.",
+      "role": "同位语",
+      "explanation": "与Medusa指同一人，补充说明美杜莎的身份类别——她是戈耳工之一。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "asked",
+      "meaning": "询问",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "what",
+      "meaning": "什么",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "it",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（am/is的过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；然后",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉",
+      "pos": "动词",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "it",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（am/is的过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "Medusa,",
+      "meaning": "美杜莎（女子名，希腊神话人物）",
+      "pos": "专有名词",
+      "phonetic": "/mɪˈdjuːzə/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个；那位",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "Gorgon.",
+      "meaning": "戈耳工（希腊神话中的蛇发女妖）",
+      "pos": "专有名词",
+      "phonetic": "/ˈɡɔːɡən/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者（前半句主语）",
+      "meaning": "我"
+    },
+    {
+      "text": "asked him",
+      "relation": "前半句核心动作及询问对象",
+      "meaning": "问他"
+    },
+    {
+      "text": "what it was",
+      "relation": "询问的内容（asked的宾语）",
+      "meaning": "那是什么"
+    },
+    {
+      "text": "and",
+      "relation": "连接前后两件事",
+      "meaning": "然后"
+    },
+    {
+      "text": "he told me",
+      "relation": "后半句主语、动作及告知对象",
+      "meaning": "他告诉我"
+    },
+    {
+      "text": "that it was",
+      "relation": "告知内容的主干（从句的主系部分）",
+      "meaning": "那是"
+    },
+    {
+      "text": "Medusa,",
+      "relation": "告知内容里的身份名称（从句表语）",
+      "meaning": "美杜莎"
+    },
+    {
+      "text": "the Gorgon.",
+      "relation": "补充说明美杜莎的身份（同位语）",
+      "meaning": "戈耳工"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-028",
+  "sentenceId": "nce-2-lesson-028-sentence-008",
+  "sentenceOrder": 12,
+  "english": "I asked him what it was and he told me that it was Medusa, the Gorgon.",
+  "lesson": "Lesson 28 No parking",
+  "notes": [
+    {
+      "title": "what引导的名词性从句作宾语",
+      "text": "what it was跟在asked后面，是asked的内容，相当于“那件事是什么”的答案。注意它用了陈述语序it was，不是疑问句式was it，因为它已经不是独立问句。"
+    },
+    {
+      "title": "that引导的宾语从句",
+      "text": "that it was Medusa...跟在told me后面，说明告诉我的具体内容；that在这里只起连接作用，本身没有实义，口语里常可省略。"
+    },
+    {
+      "title": "同位语补充身份",
+      "text": "the Gorgon放在Medusa后面，和Medusa指的是同一个对象，作用是补充说明美杜莎属于戈耳工这一身份，相当于“美杜莎，也就是那位戈耳工”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：英音音标中asked的元音标注有误，且words里Medusa项未标注后缀逗号仅为书写附属标点，修正后其余内容均符合要求。（非逐句人工审核）"
+}

@@ -1,0 +1,128 @@
+{
+  "chinese": "她肯定至少有三十五岁了。",
+  "intent": "说话人根据已有信息，对一位女性的年龄作出有把握的推测，认为她的年龄不低于三十五岁。",
+  "comparison": null,
+  "backbone": {
+    "text": "She must be at least thirty-five years old.",
+    "meaning": "她肯定至少有三十五岁了。"
+  },
+  "structureNotes": [
+    {
+      "title": "must be 表推测",
+      "text": "must be 在这里不表示“必须是”，而是表示对现在情况的肯定推测，意思是“肯定、想必”，是说话人基于前文信息作出的较有把握的判断。"
+    },
+    {
+      "title": "at least 的作用",
+      "text": "at least 是固定短语，放在年龄前表示“至少”，说明年龄的下限是三十五岁，实际年龄可能更高。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "主语",
+      "explanation": "指代前文提到的女性（珍妮弗姨妈），是整个判断的描述对象。"
+    },
+    {
+      "text": "must be",
+      "role": "谓语（表推测的系动词结构）",
+      "explanation": "must 是情态动词表肯定推测，和 be 动词一起构成谓语，后接年龄描述表示对年龄的判断。"
+    },
+    {
+      "text": "at least thirty-five years old",
+      "role": "表语",
+      "explanation": "说明主语的年龄情况，at least 限定年龄下限，thirty-five years old 是具体的年龄表达。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/,"
+    },
+    {
+      "text": "must",
+      "meaning": "肯定，想必（表推测）",
+      "pos": "情态动词",
+      "phonetic": "/mʌst/"
+    },
+    {
+      "text": "be",
+      "meaning": "是（系动词原形）",
+      "pos": "动词",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "at",
+      "meaning": "（与least构成短语）至少",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "least",
+      "meaning": "最少，最小",
+      "pos": "限定词",
+      "phonetic": "/liːst/"
+    },
+    {
+      "text": "thirty-five",
+      "meaning": "三十五",
+      "pos": "数词",
+      "phonetic": "/ˌθɜːti ˈfaɪv/"
+    },
+    {
+      "text": "years",
+      "meaning": "岁，年（复数）",
+      "pos": "名词",
+      "phonetic": "/jɪəz/"
+    },
+    {
+      "text": "old.",
+      "meaning": "……岁的",
+      "pos": "形容词",
+      "phonetic": "/əʊld/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "relation": "描述对象"
+    },
+    {
+      "text": "must be",
+      "meaning": "肯定是",
+      "relation": "表示对年龄的推测判断"
+    },
+    {
+      "text": "at least",
+      "meaning": "至少",
+      "relation": "补充说明年龄的下限"
+    },
+    {
+      "text": "thirty-five years old.",
+      "meaning": "三十五岁",
+      "relation": "具体的年龄内容"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-017",
+  "sentenceId": "nce-2-lesson-017-sentence-002",
+  "sentenceOrder": 2,
+  "english": "She must be at least thirty-five years old.",
+  "lesson": "Lesson 17 Always young",
+  "notes": [
+    {
+      "title": "must be 表推测",
+      "text": "must be 在这里不表示“必须是”，而是表示对现在情况的肯定推测，意思是“肯定、想必”，是说话人基于前文信息作出的较有把握的判断。"
+    },
+    {
+      "title": "at least 的作用",
+      "text": "at least 是固定短语，放在年龄前表示“至少”，说明年龄的下限是三十五岁，实际年龄可能更高。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅存在两处小问题需修正：1. words数组中old项携带句末标点，但释义误写为“……岁的（旧的）”，需明确是句中old的词义，标点属词项附带的句末标记无需在释义中体现，且词义表述可更贴合语境；同时least的词性标注为“代词（限定词）”不规范，应统一为限定词。2. parts数组中must be的meaning写为“肯定是”，结合语境表年龄推测，表述可更贴合原句语气，当前也可接受，另核查主干、结构说明等均正确，翻译、指代、语法角色均无错误。（非逐句人工审核）"
+}

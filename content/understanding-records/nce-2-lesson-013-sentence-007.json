@@ -1,0 +1,118 @@
+{
+  "chinese": "在此期间，他们将进行五次表演。",
+  "intent": "说明绿林少年在停留的这段时间内的演出安排。",
+  "comparison": null,
+  "backbone": {
+    "text": "they will give five performances",
+    "meaning": "他们将献上五场演出"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语的位置与作用",
+      "text": "句首的During this time是时间状语，指代前面提到的他们停留的五天，用来限定后面整句话发生的时间范围。"
+    },
+    {
+      "title": "give performances的含义",
+      "text": "give在这里不是“给”的意思，和performances搭配表示“进行演出、献上表演”，是常用表达。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "During this time,",
+      "role": "时间状语",
+      "explanation": "说明整句话动作发生的时间段，指代上文提到的停留期。"
+    },
+    {
+      "text": "they will give five performances.",
+      "role": "主句",
+      "explanation": "交代主语they将要做的事情：进行五场演出。"
+    }
+  ],
+  "words": [
+    {
+      "text": "During",
+      "meaning": "在…期间",
+      "pos": "介词",
+      "phonetic": "/ˈdjʊərɪŋ/"
+    },
+    {
+      "text": "this",
+      "meaning": "这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "time,",
+      "meaning": "时间，时期",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    },
+    {
+      "text": "they",
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "will",
+      "meaning": "将，将要",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "give",
+      "meaning": "进行，献上",
+      "pos": "动词",
+      "phonetic": "/ɡɪv/"
+    },
+    {
+      "text": "five",
+      "meaning": "五（个/场）",
+      "pos": "数词",
+      "phonetic": "/faɪv/"
+    },
+    {
+      "text": "performances.",
+      "meaning": "演出，表演（复数）",
+      "pos": "名词",
+      "phonetic": "/pəˈfɔːmənsɪz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "During this time,",
+      "relation": "时间",
+      "meaning": "在这段时间里"
+    },
+    {
+      "text": "they will give",
+      "relation": "谁做什么",
+      "meaning": "他们将进行"
+    },
+    {
+      "text": "five performances.",
+      "relation": "动作的内容",
+      "meaning": "五场表演"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-013",
+  "sentenceId": "nce-2-lesson-013-sentence-007",
+  "sentenceOrder": 7,
+  "english": "During this time, they will give five performances.",
+  "lesson": "Lesson 13 The Greenwood Boys",
+  "notes": [
+    {
+      "title": "时间状语的位置与作用",
+      "text": "句首的During this time是时间状语，指代前面提到的他们停留的五天，用来限定后面整句话发生的时间范围。"
+    },
+    {
+      "title": "give performances的含义",
+      "text": "give在这里不是“给”的意思，和performances搭配表示“进行演出、献上表演”，是常用表达。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅存在两处小问题：1. words中time和performances的释义重复添加了标点相关说明，违反约定；2. words中performances的英式音标有误，正确应为/pəˈfɔːmənsɪz/（原拼写少了一个m）。其余字段均符合要求。（非逐句人工审核）"
+}

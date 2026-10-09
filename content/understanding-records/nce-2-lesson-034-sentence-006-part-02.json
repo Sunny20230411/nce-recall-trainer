@@ -1,0 +1,91 @@
+{
+  "chinese": "警察告诉他，",
+  "intent": "交代句子的信息发出者和动作，引出后续警察告知的具体内容，作为长句中间的插入性引语框架。",
+  "comparison": null,
+  "backbone": {
+    "text": "the policeman told him,",
+    "meaning": "警察告诉了他（某件事）。"
+  },
+  "structureNotes": [
+    {
+      "title": "片段在长句中的作用",
+      "text": "这是引语的主谓部分，插在告知内容“the bicycle was picked up…”的前后之间，用来点明信息来源是警察，逗号表示后续还会接告知的具体内容。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "the policeman",
+      "role": "主语",
+      "explanation": "指执行“告诉”这个动作的人，也就是警察。"
+    },
+    {
+      "text": "told",
+      "role": "谓语动词",
+      "explanation": "是tell的过去式，表示过去发生的“告知”动作。"
+    },
+    {
+      "text": "him,",
+      "role": "间接宾语",
+      "explanation": "指代被告知信息的那个人，逗号是句子停顿标记，引出后续的直接内容。"
+    }
+  ],
+  "words": [
+    {
+      "text": "the",
+      "meaning": "这个（用于特指已知的人或事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "policeman",
+      "meaning": "警察",
+      "pos": "名词",
+      "phonetic": "/pəˈliːsmən/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉（tell的过去式）",
+      "pos": "动词",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "him,",
+      "meaning": "他（宾格）",
+      "pos": "人称代词（宾格）",
+      "phonetic": "/hɪm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "the policeman",
+      "relation": "描述谁发出了动作",
+      "meaning": "这名警察"
+    },
+    {
+      "text": "told",
+      "relation": "核心动作",
+      "meaning": "告诉"
+    },
+    {
+      "text": "him,",
+      "relation": "动作的告知对象",
+      "meaning": "他，"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-034",
+  "sentenceId": "nce-2-lesson-034-sentence-006-part-02",
+  "sentenceOrder": 9,
+  "english": "the policeman told him,",
+  "lesson": "Lesson 34 Quick work",
+  "notes": [
+    {
+      "title": "片段在长句中的作用",
+      "text": "这是引语的主谓部分，插在告知内容“the bicycle was picked up…”的前后之间，用来点明信息来源是警察，逗号表示后续还会接告知的具体内容。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，仅需修正words中him,的词性标注，去掉冗余的逗号描述说明，其余字段无误。（非逐句人工审核）"
+}

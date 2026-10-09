@@ -1,0 +1,119 @@
+{
+  "chinese": "“我有一封给你的挂号信，”他说道。",
+  "intent": "转述某人说的一句直接引语，内容是告知对方有一封挂号信是给他的。",
+  "comparison": null,
+  "backbone": {
+    "text": "he said",
+    "meaning": "他说（后面引语是所说的具体内容）"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把引语放在句首，再用he said交代说话人，和中文“‘……，’他说”的语序一致，理解时直接按先后顺序读即可。"
+    },
+    {
+      "title": "registered letter 的含义",
+      "text": "registered 在这里修饰 letter，表示“登记过的、挂号的”，registered letter 就是邮局办理过登记手续的挂号信。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘I have a registered letter for you,’",
+      "role": "直接引语分句",
+      "explanation": "这是说话人原话的完整内容，用引号标出，作主句动词 said 的内容，也就是“说”的具体话是什么。"
+    },
+    {
+      "text": "he said.",
+      "role": "主句（主谓结构）",
+      "explanation": "交代说话人和动作，he 是说话的人，said 是“说”这个动作，引出前面的直接引语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘I",
+      "meaning": "（引语开头）我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "have",
+      "meaning": "有",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "a",
+      "meaning": "一封（不定冠词）",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "registered",
+      "meaning": "挂号的、已登记的",
+      "pos": "形容词",
+      "phonetic": "/ˈredʒɪstəd/"
+    },
+    {
+      "text": "letter",
+      "meaning": "信、信件",
+      "pos": "名词",
+      "phonetic": "/ˈletə(r)/"
+    },
+    {
+      "text": "for",
+      "meaning": "给、为了",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "you,’",
+      "meaning": "你（引语结尾）",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说（过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘I have a registered letter for you,’",
+      "meaning": "“我有一封给你的挂号信，”",
+      "relation": "所说的具体内容，作主句谓语said的宾语"
+    },
+    {
+      "text": "he said.",
+      "meaning": "他说道",
+      "relation": "主句，交代说话人和动作"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-016",
+  "sentenceOrder": 16,
+  "english": "‘I have a registered letter for you,’ he said.",
+  "lesson": "Lesson 54 Sticky fingers",
+  "notes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把引语放在句首，再用he said交代说话人，和中文“‘……，’他说”的语序一致，理解时直接按先后顺序读即可。"
+    },
+    {
+      "title": "registered letter 的含义",
+      "text": "registered 在这里修饰 letter，表示“登记过的、挂号的”，registered letter 就是邮局办理过登记手续的挂号信。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正英式音标中registered的重音位置、letter的英式音标规范写法，以及补充说明本句是上下文语境中的直接引语片段。（非逐句人工审核）"
+}

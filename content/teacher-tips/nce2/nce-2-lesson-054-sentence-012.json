@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-012",
+  "english": "It was the postman.",
+  "text": "听到门铃响，英语常用 It was... 来说明门外是谁，it 在这里指代门外按铃的人，不用硬说 The person at the door was...。下次回应敲门声、电话声，想说是谁，直接用 It's/It was + 人 就自然。",
+  "sourceDigest": "d1742365f2e3fe9fedb362e0a873e77e898febc8a9c1508845b20b135199ee39",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：点出it指代不明身份来人的用法，纠正了直译误解，迁移具体。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "原句提点准确，仅删去重复原句翻译的冗余表述，符合要求。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

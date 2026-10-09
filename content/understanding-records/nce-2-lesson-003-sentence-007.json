@@ -1,0 +1,108 @@
+{
+  "chinese": "我每天都想着明信片。",
+  "intent": "描述过去每天反复想着明信片的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "I thought about postcards.",
+    "meaning": "我想着明信片。"
+  },
+  "structureNotes": [
+    {
+      "title": "Every day的作用",
+      "text": "Every day放在句首，交代后面动作发生的频率，指过去那段时间里每一天都会发生这件事。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Every day",
+      "role": "时间状语",
+      "explanation": "表示动作发生的频率，说明“想明信片”这件事每天都会发生。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "句子的动作发出者，指说话人自己。"
+    },
+    {
+      "text": "thought about postcards.",
+      "role": "谓语和宾语",
+      "explanation": "thought about是think about的过去式，整体表示“想着、考虑”；postcards是想着的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Every",
+      "meaning": "每一，每个",
+      "pos": "形容词",
+      "phonetic": "/ˈevri/"
+    },
+    {
+      "text": "day",
+      "meaning": "一天，日子",
+      "pos": "名词",
+      "phonetic": "/deɪ/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "thought",
+      "meaning": "想，思考（think的过去式）",
+      "pos": "动词",
+      "phonetic": "/θɔːt/"
+    },
+    {
+      "text": "about",
+      "meaning": "关于，对于",
+      "pos": "介词",
+      "phonetic": "/əˈbaʊt/"
+    },
+    {
+      "text": "postcards.",
+      "meaning": "明信片（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈpəʊstkɑːdz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Every day",
+      "relation": "时间",
+      "meaning": "每天"
+    },
+    {
+      "text": "I",
+      "relation": "描述谁",
+      "meaning": "我"
+    },
+    {
+      "text": "thought about",
+      "relation": "动作",
+      "meaning": "想着"
+    },
+    {
+      "text": "postcards.",
+      "relation": "动作的对象",
+      "meaning": "明信片"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-003",
+  "sentenceId": "nce-2-lesson-003-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Every day I thought about postcards.",
+  "lesson": "Lesson 3 Please send me a card",
+  "notes": [
+    {
+      "title": "Every day的作用",
+      "text": "Every day放在句首，交代后面动作发生的频率，指过去那段时间里每一天都会发生这件事。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确可用，仅两处小问题需修正：1. 单词postcards.的释义多余添加了句末标点的说明，不符合仅解释词本身的要求；2. 词项顺序中Every为首词应大写首字母，原音标对应正确但无需额外标点说明。其余翻译、结构分析、成分划分均符合要求。（非逐句人工审核）"
+}

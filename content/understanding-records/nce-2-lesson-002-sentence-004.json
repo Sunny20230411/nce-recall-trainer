@@ -1,0 +1,122 @@
+{
+  "chinese": "上星期天我起得很晚。",
+  "intent": "陈述过去某个具体周日的起床时间很晚这件事。",
+  "comparison": null,
+  "backbone": {
+    "text": "I got up late.",
+    "meaning": "我起床起晚了。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语的位置",
+      "text": "Last Sunday放在句首，点明整句话描述的是过去的具体时间，说明后面的动作发生在上周日。"
+    },
+    {
+      "title": "get up的含义",
+      "text": "get up是固定短语，意思是起床，不是单纯的“向上得到”，late在这里修饰起床这个动作的时间晚。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Last Sunday",
+      "role": "时间状语",
+      "explanation": "指明动作发生的具体时间是上个周日，放在句首引出过去的事件。"
+    },
+    {
+      "text": "got up",
+      "role": "谓语",
+      "explanation": "是get up的过去式形式，作句子的谓语，表示“起床”这个动作。"
+    },
+    {
+      "text": "very late",
+      "role": "程度+时间状语",
+      "explanation": "very用来加强程度，late说明起床的时间晚，共同修饰got up这个动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Last",
+      "meaning": "上一个的，刚过去的",
+      "pos": "形容词",
+      "phonetic": "/lɑːst/"
+    },
+    {
+      "text": "Sunday",
+      "meaning": "星期日，星期天",
+      "pos": "名词",
+      "phonetic": "/ˈsʌndeɪ/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "got",
+      "meaning": "得到，（与up搭配构成短语）",
+      "pos": "动词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "up",
+      "meaning": "向上，（与get搭配构成短语）",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "late.",
+      "meaning": "晚，迟",
+      "pos": "副词",
+      "phonetic": "/leɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Last Sunday",
+      "relation": "时间",
+      "meaning": "上周日"
+    },
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "got up",
+      "relation": "主要动作",
+      "meaning": "起床"
+    },
+    {
+      "text": "very late.",
+      "relation": "补充说明起床的时间程度",
+      "meaning": "很晚"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-002",
+  "sentenceId": "nce-2-lesson-002-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Last Sunday I got up very late.",
+  "lesson": "Lesson 2 Breakfast or lunch?",
+  "notes": [
+    {
+      "title": "时间状语的位置",
+      "text": "Last Sunday放在句首，点明整句话描述的是过去的具体时间，说明后面的动作发生在上周日。"
+    },
+    {
+      "title": "get up的含义",
+      "text": "get up是固定短语，意思是起床，不是单纯的“向上得到”，late在这里修饰起床这个动作的时间晚。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：翻译、主干、结构说明整体正确，存在两处可修正的小问题：1. words中late.的释义错误添加了“句末带句号”的冗余说明，标点随词项是约定无需额外解释；2. structures中very late的状语角色表述不够规范，应为程度状语修饰方式/时间状语的结构，统一表述为程度+时间状语更准确，因为late此处表时间晚。（非逐句人工审核）"
+}

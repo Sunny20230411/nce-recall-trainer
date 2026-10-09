@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-039",
+  "sentenceId": "nce-2-lesson-039-sentence-009",
+  "english": "‘No,’ the patient answered, ‘I am Mr John Gilbert.’",
+  "text": "病人不是在简单否认亲属关系，而是直接亮出自己就是当事人。先给短答 No 纠正误解，再用 I am Mr John Gilbert 补出真实身份，信息节奏清楚利落。",
+  "sourceDigest": "71afb38f4a187d8df0070621949d56d8fb12b69e8a01b8696ebf57f6d5ac9348",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：点拨贴合对话意图，简洁点明先否定再亮身份的表达节奏，符合教学标准。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "抓住了答话的信息节奏和交际意图，点拨到位。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

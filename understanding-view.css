@@ -22,6 +22,13 @@
 .understanding-notes section { margin: 14px 0; }
 .understanding-notes h3 { margin: 0 0 4px; font-size: 15px; }
 .understanding-notes p { margin: 0; white-space: pre-line; }
+.understanding-preview-table { width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 14px; line-height: 1.6; margin: 0 0 14px; }
+.understanding-preview-table th, .understanding-preview-table td { padding: 9px 8px; text-align: left; vertical-align: top; border-bottom: 1px solid #cad4e0; white-space: pre-line; overflow-wrap: anywhere; }
+.understanding-preview-table th + th, .understanding-preview-table th + td, .understanding-preview-table td + th, .understanding-preview-table td + td { border-left: 1px solid #cad4e0; }
+.understanding-preview-table thead th { font-size: 12px; font-weight: 500; color: #526173; background: #8495b00a; }
+.understanding-preview-table tbody th { font-weight: 600; }
+body[data-theme=dark] .understanding-preview-table th, body[data-theme=dark] .understanding-preview-table td { border-color: #3b485b; }
+body[data-theme=dark] .understanding-preview-table thead th { color: #bbc7d6; }
 .understanding-details { border-top: 1px solid #cad4e0; padding: 10px 0; }
 .understanding-details summary { cursor: pointer; font-size: 14px; font-weight: 600; }
 .understanding-word-table { width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 13px; margin-top: 10px; }

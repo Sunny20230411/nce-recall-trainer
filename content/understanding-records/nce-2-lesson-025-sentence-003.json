@@ -1,0 +1,169 @@
+{
+  "chinese": "我不知道去我住的旅馆的路，所以问了一个搬运工。",
+  "intent": "说明因为不认识回旅馆的路，所以向搬运工求助的因果关系。",
+  "comparison": null,
+  "backbone": {
+    "text": "I did not know the way, so I asked a porter.",
+    "meaning": "我不知道路，所以问了一个搬运工。"
+  },
+  "structureNotes": [
+    {
+      "title": "so连接的因果并列句",
+      "text": "前后两个完整分句用so连接，so表示“所以”，引出前一件事导致的结果。"
+    },
+    {
+      "title": "the way to... 的含义",
+      "text": "the way to my hotel 表示“去我旅馆的路”，to在这里指向目的地，用来补充说明way的去向。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I did not know the way to my hotel,",
+      "role": "原因分句",
+      "explanation": "陈述“我不认识去旅馆的路”这个事实，作为后面行动的原因。"
+    },
+    {
+      "text": "so",
+      "role": "并列连词",
+      "explanation": "连接前后两个分句，表示因果关系，意为“所以、因此”。"
+    },
+    {
+      "text": "I asked a porter.",
+      "role": "结果分句",
+      "explanation": "陈述由前面的原因引发的行动，即向搬运工问路。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "did",
+      "meaning": "（助动词，构成过去时否定）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "not",
+      "meaning": "不（构成否定）",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "know",
+      "meaning": "知道；认识",
+      "pos": "动词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "the",
+      "meaning": "这（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "way",
+      "meaning": "路；路线",
+      "pos": "名词",
+      "phonetic": "/weɪ/"
+    },
+    {
+      "text": "to",
+      "meaning": "去往（表方向）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "hotel,",
+      "meaning": "旅馆",
+      "pos": "名词",
+      "phonetic": "/həʊˈtel/"
+    },
+    {
+      "text": "so",
+      "meaning": "所以，因此",
+      "pos": "连词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "asked",
+      "meaning": "问；询问",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个（泛指）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "porter.",
+      "meaning": "搬运工",
+      "pos": "名词",
+      "phonetic": "/ˈpɔːtə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I did not know",
+      "relation": "主句的主语和否定谓语",
+      "meaning": "我不知道"
+    },
+    {
+      "text": "the way to my hotel,",
+      "relation": "know的宾语，说明不知道的内容",
+      "meaning": "去我旅馆的路"
+    },
+    {
+      "text": "so",
+      "relation": "连接原因和结果的并列连词",
+      "meaning": "所以"
+    },
+    {
+      "text": "I asked",
+      "relation": "结果分句的主语和谓语",
+      "meaning": "我问了"
+    },
+    {
+      "text": "a porter.",
+      "relation": "asked的宾语，说明询问的对象",
+      "meaning": "一个搬运工"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-025",
+  "sentenceId": "nce-2-lesson-025-sentence-003",
+  "sentenceOrder": 3,
+  "english": "I did not know the way to my hotel, so I asked a porter.",
+  "lesson": "Lesson 25 Do the English speak English?",
+  "notes": [
+    {
+      "title": "so连接的因果并列句",
+      "text": "前后两个完整分句用so连接，so表示“所以”，引出前一件事导致的结果。"
+    },
+    {
+      "title": "the way to... 的含义",
+      "text": "the way to my hotel 表示“去我旅馆的路”，to在这里指向目的地，用来补充说明way的去向。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅存在少量细节问题：单词释义中混入标点，asked的英式音标不准确，名词hotel的释义未统一标点处理规范，其余内容符合要求。（非逐句人工审核）"
+}

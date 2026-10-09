@@ -1,0 +1,117 @@
+{
+  "chinese": "我终于挂断了听筒。",
+  "intent": "叙述说话人最终结束通话、挂好听筒的动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "I hung up the receiver.",
+    "meaning": "我挂断了听筒。"
+  },
+  "structureNotes": [
+    {
+      "title": "at last 的含义与位置",
+      "text": "at last 放在句首作时间状语，强调经过一番周折后“终于”发生后面的动作，呼应前一句劝说对方晚些再打过来花了十分钟。"
+    },
+    {
+      "title": "hang up 的用法",
+      "text": "hang up 是短语动词，意为“挂断电话”，后接被挂断的对象 the receiver（听筒）；这里用过去式 hung，表示动作已经完成。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "At last",
+      "role": "时间状语",
+      "explanation": "说明“挂断听筒”这件事是经过等待或努力之后最终发生的，修饰整个句子。"
+    },
+    {
+      "text": "hung up the receiver",
+      "role": "谓语 + 宾语",
+      "explanation": "hung up 是短语动词作谓语，表示“挂断”这一动作；the receiver 是动作的对象，作宾语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "At",
+      "meaning": "在（此处与last构成固定短语at last）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "last",
+      "meaning": "最后，最终（与at构成短语at last，意为终于）",
+      "pos": "副词",
+      "phonetic": "/lɑːst/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "hung",
+      "meaning": "（hang的过去式）挂，悬挂",
+      "pos": "动词",
+      "phonetic": "/hʌŋ/"
+    },
+    {
+      "text": "up",
+      "meaning": "（与hung构成短语动词hang up，挂断电话）",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "receiver.",
+      "meaning": "听筒，电话听筒",
+      "pos": "名词",
+      "phonetic": "/rɪˈsiːvə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "At last",
+      "relation": "时间：说明动作发生的时机，带有经过一番过程后的意味",
+      "meaning": "终于，最后"
+    },
+    {
+      "text": "I",
+      "relation": "动作执行者",
+      "meaning": "我"
+    },
+    {
+      "text": "hung up",
+      "relation": "主语发出的动作",
+      "meaning": "挂断"
+    },
+    {
+      "text": "the receiver.",
+      "relation": "动作的对象",
+      "meaning": "听筒"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-008",
+  "sentenceOrder": 8,
+  "english": "At last I hung up the receiver.",
+  "lesson": "Lesson 54 Sticky fingers",
+  "notes": [
+    {
+      "title": "at last 的含义与位置",
+      "text": "at last 放在句首作时间状语，强调经过一番周折后“终于”发生后面的动作，呼应前一句劝说对方晚些再打过来花了十分钟。"
+    },
+    {
+      "title": "hang up 的用法",
+      "text": "hang up 是短语动词，意为“挂断电话”，后接被挂断的对象 the receiver（听筒）；这里用过去式 hung，表示动作已经完成。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需修正last的词性标注（at last中last为副词而非名词），其余内容符合要求。（非逐句人工审核）"
+}

@@ -1,0 +1,124 @@
+{
+  "chinese": "“你得在这儿下车，”售票员说道。",
+  "intent": "转述售票员对乘客说的话，告知对方必须在此处下车。",
+  "comparison": null,
+  "backbone": {
+    "text": "The conductor said something.",
+    "meaning": "售票员说了某句话（即引语里的内容）。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的语序",
+      "text": "本句把引语内容放在句首，说话人“the conductor said”置于引语之后，属于英语中直接引语的常见摆放方式，中文翻译时一般把说话人放前面更符合日常表达习惯。"
+    },
+    {
+      "title": "have to 的含义",
+      "text": "have to 表示“必须、得”，侧重因客观要求或规定而需要做某事，这里指按行车规则乘客必须在此下车。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘You'll have to get off here,’",
+      "role": "直接引语分句",
+      "explanation": "这是售票员所说的原话，是句子的核心转述内容，整体作 said 的宾语。"
+    },
+    {
+      "text": "the conductor said.",
+      "role": "主句主谓结构",
+      "explanation": "说明说话人是谁，the conductor 是主语，said 是谓语动词。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘You'll",
+      "meaning": "你将（you will 的缩写，引语句首带左单引号）",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/juːl/"
+    },
+    {
+      "text": "have",
+      "meaning": "有；和to搭配表示必须",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "to",
+      "meaning": "（与have连用构成have to，表示必须）",
+      "pos": "不定式符号",
+      "phonetic": "/tə/"
+    },
+    {
+      "text": "get",
+      "meaning": "去，走；（get off 整体表示下车）",
+      "pos": "动词",
+      "phonetic": "/ɡet/"
+    },
+    {
+      "text": "off",
+      "meaning": "离开；（与get搭配指下车）",
+      "pos": "介词/副词",
+      "phonetic": "/ɒf/"
+    },
+    {
+      "text": "here,’",
+      "meaning": "这里（带右单引号和逗号）",
+      "pos": "副词",
+      "phonetic": "/hɪə/"
+    },
+    {
+      "text": "the",
+      "meaning": "这；那（定冠词，特指售票员）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "conductor",
+      "meaning": "（公交）售票员；列车员",
+      "pos": "名词",
+      "phonetic": "/kənˈdʌktə/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说（say的过去式，句末带句号）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘You'll have to get off here,’",
+      "relation": "直接引语内容，即说话的具体内容",
+      "meaning": "“你得在这儿下车，”"
+    },
+    {
+      "text": "the conductor",
+      "relation": "描述谁在说话（说话人）",
+      "meaning": "售票员"
+    },
+    {
+      "text": "said.",
+      "relation": "主句动作，表示说出引语的行为",
+      "meaning": "说道"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-008",
+  "sentenceOrder": 11,
+  "english": "‘You'll have to get off here,’ the conductor said.",
+  "lesson": "Lesson 50 Taken for a ride",
+  "notes": [
+    {
+      "title": "直接引语的语序",
+      "text": "本句把引语内容放在句首，说话人“the conductor said”置于引语之后，属于英语中直接引语的常见摆放方式，中文翻译时一般把说话人放前面更符合日常表达习惯。"
+    },
+    {
+      "title": "have to 的含义",
+      "text": "have to 表示“必须、得”，侧重因客观要求或规定而需要做某事，这里指按行车规则乘客必须在此下车。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：单词释义中get的基础义不准确，off的词性判定错误，其余内容基本符合要求。（非逐句人工审核）"
+}

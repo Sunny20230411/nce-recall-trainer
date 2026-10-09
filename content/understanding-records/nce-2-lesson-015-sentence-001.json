@@ -1,0 +1,116 @@
+{
+  "chinese": "秘书告诉我，哈姆斯沃思先生要见我。（注：本句记录截取到Mr.，完整原句后接Harmsworth would see me）",
+  "intent": "转述秘书告知的内容开头，引出后续将提到的人物及相关消息主体。",
+  "comparison": null,
+  "backbone": {
+    "text": "The secretary told me that Mr.",
+    "meaning": "秘书告诉我说，……先生（后接具体姓氏与后续从句内容，本句为截取的不完整片段）"
+  },
+  "structureNotes": [
+    {
+      "title": "that 引出说话内容",
+      "text": "that 在这里是宾语从句的引导词，引出后面要讲的具体告知内容，本身没有实际词义，只起连接作用，在口语或非正式文体中常可省略。"
+    },
+    {
+      "title": "Mr. 的用法",
+      "text": "Mr. 是对男性的尊称，是Mister的缩写，后面通常接姓氏，本句只说到 Mr. 是内容未完结的片段，不是完整的信息单元。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The secretary",
+      "role": "主语",
+      "explanation": "指做“告诉”这个动作的人，是主句的主语。"
+    },
+    {
+      "text": "told",
+      "role": "谓语动词",
+      "explanation": "表示“告诉”的动作，是 tell 的过去式，说明事情发生在过去。"
+    },
+    {
+      "text": "me",
+      "role": "间接宾语",
+      "explanation": "是告诉的对象，也就是听话的人，作主句谓语told的间接宾语。"
+    },
+    {
+      "text": "that Mr.",
+      "role": "宾语从句开头",
+      "explanation": "that 引出作主句直接宾语的从句，Mr. 是从句里提到的人的称呼，从句后续还会接名字和具体事件，本句仅截取到此处。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这，那（定冠词，特指某个秘书）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "secretary",
+      "meaning": "秘书",
+      "pos": "名词",
+      "phonetic": "/ˈsekrətri/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉（tell 的过去式）",
+      "pos": "动词",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引出宾语从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生（称呼，用于姓氏前）",
+      "pos": "名词（缩写，Mister的缩写）",
+      "phonetic": "/ˈmɪstə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The secretary",
+      "meaning": "这位秘书",
+      "relation": "主句主语（动作发出者）"
+    },
+    {
+      "text": "told me",
+      "meaning": "告诉我",
+      "relation": "主句谓语及间接宾语（核心动作及告知对象）"
+    },
+    {
+      "text": "that Mr.",
+      "meaning": "（说）……先生……",
+      "relation": "宾语从句的开头（告知内容的起始部分）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-015",
+  "sentenceId": "nce-2-lesson-015-sentence-001",
+  "sentenceOrder": 1,
+  "english": "The secretary told me that Mr.",
+  "lesson": "Lesson 15 Good news",
+  "notes": [
+    {
+      "title": "that 引出说话内容",
+      "text": "that 在这里是宾语从句的引导词，引出后面要讲的具体告知内容，本身没有实际词义，只起连接作用，在口语或非正式文体中常可省略。"
+    },
+    {
+      "title": "Mr. 的用法",
+      "text": "Mr. 是对男性的尊称，是Mister的缩写，后面通常接姓氏，本句只说到 Mr. 是内容未完结的片段，不是完整的信息单元。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原中文翻译不完整，漏了原文的Harmsworth和would see me部分（原记录截取到Mr.，但翻译仅写“秘书告诉我，先生”未体现未说完的从句内容的含义；主干释义、部分结构说明的表述可修正以准确匹配截取的句子状态，同时修正词性标注的不规范处。（非逐句人工审核）"
+}

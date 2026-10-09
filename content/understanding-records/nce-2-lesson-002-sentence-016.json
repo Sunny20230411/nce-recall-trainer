@@ -1,0 +1,86 @@
+{
+  "chinese": "“天哪，”她说。",
+  "intent": "转述她发出的一句惊讶感叹，同时交代说话人。",
+  "comparison": null,
+  "backbone": {
+    "text": "she said ‘Dear me,’",
+    "meaning": "她说出了“天哪”这句话。"
+  },
+  "structureNotes": [
+    {
+      "title": "引语位置说明",
+      "text": "英文把直接引语放在句首时，说话人“she said”放在引语之后，中文通常会把说话人放在前面或中间，意思不受影响。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘Dear me,’",
+      "role": "直接引语（感叹句）",
+      "explanation": "是她实际说出来的原话，用来表达惊讶、意外的情绪。"
+    },
+    {
+      "text": "she",
+      "role": "主语",
+      "explanation": "指说话的女性，是“说”这个动作的发出者。"
+    },
+    {
+      "text": "said.",
+      "role": "谓语（带句末标点）",
+      "explanation": "核心动词said表示“说”的动作，说明引语的发出者，句末点号是全句的标点符号。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘Dear",
+      "meaning": "（用于感叹语开头，构成固定感叹）",
+      "pos": "感叹词",
+      "phonetic": "/dɪə/"
+    },
+    {
+      "text": "me,’",
+      "meaning": "我（此处为感叹语的固定组成部分）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说（过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘Dear me,’",
+      "relation": "说出的内容（直接引语）",
+      "meaning": "天哪/哎呀"
+    },
+    {
+      "text": "she said.",
+      "relation": "动作主体+动作，交代是谁说的话",
+      "meaning": "她说道"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-002",
+  "sentenceId": "nce-2-lesson-002-sentence-016",
+  "sentenceOrder": 16,
+  "english": "‘Dear me,’ she said.",
+  "lesson": "Lesson 2 Breakfast or lunch?",
+  "notes": [
+    {
+      "title": "引语位置说明",
+      "text": "英文把直接引语放在句首时，说话人“she said”放在引语之后，中文通常会把说话人放在前面或中间，意思不受影响。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，存在少量可修正问题：1. words首项Dear的词性标注不当，dear在Dear me这一感叹语中为感叹词，不应并列形容词；2. structures第三项text为\"said.\"，但谓语应为said，句末点号是全句标点，应修正role的对应说明，且原explanation表述略冗余；3. 修正细节不影响核心理解。（非逐句人工审核）"
+}

@@ -1,0 +1,179 @@
+{
+  "chinese": "她按键太用力，结果有两根琴弦断了。",
+  "intent": "说明她弹钢琴时按键用力过猛，导致两根琴弦断裂的前后关联事件。",
+  "comparison": {
+    "chinese": "她按键太用力，两根琴弦就断了",
+    "english": "She struck the keys too hard and two of the strings were broken",
+    "steps": [
+      {
+        "label": "先抓前半句动作与程度",
+        "text": "She struck the keys too hard",
+        "explanation": "中文说“按键太用力”，英文先说主语she发出struck（击打、按）的动作，对象是the keys（琴键），再用too hard补充说明用力的程度过头了。"
+      },
+      {
+        "label": "再看后半句结果与被动表达",
+        "text": "two of the strings were broken",
+        "explanation": "中文直接说“琴弦断了”，英文这里用were broken表达“被弄断了”的状态，突出是前面用力按键造成的结果，而不是琴弦自己主动断。"
+      }
+    ],
+    "takeaway": "中文靠语意自然承接因果，英文用and连接两个分句也能体现先后因果；后半句用被动语态更清楚说明琴弦断裂是外力导致的。"
+  },
+  "backbone": {
+    "text": "She struck the keys too hard and two of the strings were broken.",
+    "meaning": "她按键太用力，两根琴弦断了。"
+  },
+  "structureNotes": [
+    {
+      "title": "and连接的并列分句",
+      "text": "and连接前后两个独立分句，前半句讲原因性的动作，后半句讲随之发生的结果，两句在逻辑上有先后和因果关联。"
+    },
+    {
+      "title": "被动语态表结果状态",
+      "text": "were broken是一般过去时的被动结构，说明琴弦不是自己断掉，而是受到前面按键过猛的外力作用而断裂。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She struck the keys too hard",
+      "role": "第一分句（表原因的动作）",
+      "explanation": "主语是She，谓语是struck，宾语是the keys，too hard修饰动作，说明按键用力的程度过头。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个分句，体现动作的先后承接和隐含的因果关系。"
+    },
+    {
+      "text": "two of the strings were broken.",
+      "role": "第二分句（表结果的状态）",
+      "explanation": "主语是two of the strings，were broken是被动语态的谓语，说明两根琴弦处于断裂的结果状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "struck",
+      "meaning": "（用力）按，击，打",
+      "pos": "动词（strike的过去式）",
+      "phonetic": "/strʌk/"
+    },
+    {
+      "text": "the",
+      "meaning": "这（些），特指琴键",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "keys",
+      "meaning": "（钢琴等的）琴键",
+      "pos": "名词复数",
+      "phonetic": "/kiːz/"
+    },
+    {
+      "text": "too",
+      "meaning": "太，过于",
+      "pos": "副词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "hard",
+      "meaning": "用力地，猛烈地",
+      "pos": "副词",
+      "phonetic": "/hɑːd/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，然后，于是",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "two",
+      "meaning": "两个，两根",
+      "pos": "数词（限定词）",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "of",
+      "meaning": "……当中的",
+      "pos": "介词",
+      "phonetic": "/əv/"
+    },
+    {
+      "text": "the",
+      "meaning": "这（些），特指琴弦",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "strings",
+      "meaning": "（乐器的）弦",
+      "pos": "名词复数",
+      "phonetic": "/strɪŋz/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（be动词的过去式复数形式，此处与过去分词构成被动语态）",
+      "pos": "be动词（过去式复数）",
+      "phonetic": "/wɜː/"
+    },
+    {
+      "text": "broken.",
+      "meaning": "断了的，被弄断的",
+      "pos": "过去分词",
+      "phonetic": "/ˈbrəʊkən/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She",
+      "relation": "动作发出者",
+      "meaning": "她"
+    },
+    {
+      "text": "struck the keys too hard",
+      "relation": "前半句的核心动作及程度",
+      "meaning": "按键太用力"
+    },
+    {
+      "text": "and",
+      "relation": "连接前后两个事件",
+      "meaning": "并且/于是"
+    },
+    {
+      "text": "two of the strings",
+      "relation": "后半句描述的对象",
+      "meaning": "其中两根琴弦"
+    },
+    {
+      "text": "were broken.",
+      "relation": "描述琴弦的结果状态",
+      "meaning": "断了"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-010",
+  "sentenceId": "nce-2-lesson-010-sentence-009",
+  "sentenceOrder": 9,
+  "english": "She struck the keys too hard and two of the strings were broken.",
+  "lesson": "Lesson 10 Not for jazz",
+  "notes": [
+    {
+      "title": "and连接的并列分句",
+      "text": "and连接前后两个独立分句，前半句讲原因性的动作，后半句讲随之发生的结果，两句在逻辑上有先后和因果关联。"
+    },
+    {
+      "title": "被动语态表结果状态",
+      "text": "were broken是一般过去时的被动结构，说明琴弦不是自己断掉，而是受到前面按键过猛的外力作用而断裂。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅单词部分的词性标注和释义存在可修正点：1. two的词性标注不规范，应明确为数词（限定词子类）而非单纯数词作成分说明；2. were的词性未明确是be动词过去式复数，且被动构成的说明可更精准；3. broken的词性标注中「作被动谓语一部分」属于语法功能说明，不应混入词性栏，词性应为过去分词。其余内容（翻译、主干、结构分析、比较模块、分块）均符合要求。（非逐句人工审核）"
+}

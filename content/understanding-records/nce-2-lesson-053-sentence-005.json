@@ -1,0 +1,193 @@
+{
+  "chinese": "他们也相当肯定，一个烟头并不是引起这场火灾的原因。",
+  "intent": "陈述消防员在排查后得出的判断：火灾并非由烟头引发。",
+  "comparison": {
+    "chinese": "他们也相当肯定，一个烟头并不是引起这场火灾的原因。",
+    "english": "They were also quite sure that a cigarette end did not start the fire.",
+    "steps": [
+      {
+        "label": "第一步：先抓主干判断",
+        "text": "They were also quite sure",
+        "explanation": "中文先说‘他们也相当肯定’，英文同样把主句放在前面，交代谁、持什么态度。"
+      },
+      {
+        "label": "第二步：补充肯定的具体内容",
+        "text": "that a cigarette end did not start the fire",
+        "explanation": "中文用‘（那就是）一个烟头并不是引起这场火灾的原因’接在后面；英文用that引出从句，直接说明sure的具体内容，that本身没有实际词义，只起连接作用。"
+      },
+      {
+        "label": "第三步：核对特指与泛指",
+        "text": "a cigarette end / the fire",
+        "explanation": "a cigarette end是泛指‘任意一个烟头’，不是特指某一个找到的烟头；the fire特指上下文正在讨论的这场火灾，翻译时可体现‘这场’以对应定冠词的特指功能。"
+      }
+    ],
+    "takeaway": "英文用that从句接在be sure后面说明确信的内容，语序和中文‘肯定……’基本一致；注意a表泛指‘一个/某类’、the表特指‘这场’的区别。"
+  },
+  "backbone": {
+    "text": "They were sure that a cigarette end did not start the fire.",
+    "meaning": "他们确信，一个烟头并没有引起这场火灾。"
+  },
+  "structureNotes": [
+    {
+      "title": "that 引导的从句作用",
+      "text": "that a cigarette end did not start the fire 跟在 sure 后面，说明‘确信’的具体内容，that 只起连接作用，没有实际词义，可以省略而不影响句意。"
+    },
+    {
+      "title": "a 与 the 的指称差异",
+      "text": "a cigarette end 是泛指‘某一个烟头、烟头这类东西’，不是特指现场发现的某一个；the fire 特指上文提到的那起火灾，读者知道指的是哪一场。"
+    },
+    {
+      "title": "过去时与否定的表达",
+      "text": "整句用 were 和 did not 表示过去的判断；start the fire 字面是‘启动/引发火灾’，这里理解为‘引起火灾、造成火灾’更自然。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They",
+      "role": "主语",
+      "explanation": "指代上文提到的消防员，是作出‘确信’这个判断的人。"
+    },
+    {
+      "text": "were also quite sure",
+      "role": "主句谓语（系表结构）",
+      "explanation": "由be动词were加表语sure构成，also和quite是副词，分别表示‘也’和‘相当、很’，修饰sure的语气。"
+    },
+    {
+      "text": "that a cigarette end did not start the fire.",
+      "role": "宾语从句（形容词后的补语从句）",
+      "explanation": "跟在sure后面，说明确信的具体内容；that是连词，从句自身有完整的主谓宾：a cigarette end是主语，did not start是否定谓语，the fire是宾语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "They",
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/，text\":\"They\"},{"
+    },
+    {
+      "text": "were",
+      "meaning": "是（be的过去式复数形式）",
+      "pos": "动词",
+      "phonetic": "/wɜː/，text\":\"were\"},{"
+    },
+    {
+      "text": "also",
+      "meaning": "也，还",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlsəʊ/，text\":\"also\"},{"
+    },
+    {
+      "text": "quite",
+      "meaning": "相当，很",
+      "pos": "副词",
+      "phonetic": "/kwaɪt/，text\":\"quite\"},{"
+    },
+    {
+      "text": "sure",
+      "meaning": "确信的，肯定的",
+      "pos": "形容词",
+      "phonetic": "/ʃʊə/，text\":\"sure\"},{"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/，text\":\"that\"},{"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个），任一（个）",
+      "pos": "冠词",
+      "phonetic": "/ə/，text\":\"a\"},{"
+    },
+    {
+      "text": "cigarette",
+      "meaning": "香烟，卷烟",
+      "pos": "名词",
+      "phonetic": "/ˌsɪɡəˈret/，text\":\"cigarette\"},{"
+    },
+    {
+      "text": "end",
+      "meaning": "末端，头",
+      "pos": "名词",
+      "phonetic": "/end/，text\":\"end\"},{"
+    },
+    {
+      "text": "did",
+      "meaning": "（do的过去式，构成否定，无实义）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/，text\":\"did\"},{"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/，text\":\"not\"},{"
+    },
+    {
+      "text": "start",
+      "meaning": "引起，使开始",
+      "pos": "动词",
+      "phonetic": "/stɑːt/，text\":\"start\"},{"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定冠词，表特指）",
+      "pos": "冠词",
+      "phonetic": "/ðə/，text\":\"the\"},{"
+    },
+    {
+      "text": "fire.",
+      "meaning": "火灾",
+      "pos": "名词",
+      "phonetic": "/ˈfaɪə/，text\":\"fire.\"}]} ,{"
+    }
+  ],
+  "parts": [
+    {
+      "text": "They were also quite sure",
+      "relation": "主句，说明谁、持什么判断态度",
+      "meaning": "他们也相当肯定"
+    },
+    {
+      "text": "that a cigarette end",
+      "relation": "从句的主语，即被判断为不是起火原因的事物",
+      "meaning": "（确信的内容里的主语）一个烟头"
+    },
+    {
+      "text": "did not start",
+      "relation": "从句的否定谓语，表达否定的因果判断",
+      "meaning": "并没有引起"
+    },
+    {
+      "text": "the fire.",
+      "relation": "从句的宾语，指被引发的对象",
+      "meaning": "这场火灾。"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-053",
+  "sentenceId": "nce-2-lesson-053-sentence-005",
+  "sentenceOrder": 5,
+  "english": "They were also quite sure that a cigarette end did not start the fire.",
+  "lesson": "Lesson 53 Hot snake",
+  "notes": [
+    {
+      "title": "that 引导的从句作用",
+      "text": "that a cigarette end did not start the fire 跟在 sure 后面，说明‘确信’的具体内容，that 只起连接作用，没有实际词义，可以省略而不影响句意。"
+    },
+    {
+      "title": "a 与 the 的指称差异",
+      "text": "a cigarette end 是泛指‘某一个烟头、烟头这类东西’，不是特指现场发现的某一个；the fire 特指上文提到的那起火灾，读者知道指的是哪一场。"
+    },
+    {
+      "title": "过去时与否定的表达",
+      "text": "整句用 were 和 did not 表示过去的判断；start the fire 字面是‘启动/引发火灾’，这里理解为‘引起火灾、造成火灾’更自然。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅单词fire的释义末尾多余标注句末带句号，需修正。（非逐句人工审核）"
+}

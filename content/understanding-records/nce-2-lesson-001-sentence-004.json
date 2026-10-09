@@ -1,0 +1,97 @@
+{
+  "chinese": "我并没有从中得到乐趣。",
+  "intent": "陈述自己对前文提到的那出戏的感受——并不欣赏、觉得没意思。",
+  "comparison": null,
+  "backbone": {
+    "text": "I did not enjoy it.",
+    "meaning": "我不喜欢/不欣赏它（指前文的戏）。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去时的否定构成",
+      "text": "一般过去时的实义动词否定，要借助助动词did + not，后面的实义动词用原形enjoy，而不是直接在enjoy后加not或变成enjoyed not。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "动作的发出者，指说话人“我”。"
+    },
+    {
+      "text": "did not enjoy",
+      "role": "谓语",
+      "explanation": "表示“不享受、不欣赏”的过去时否定动作，由助动词did、否定词not和实义动词原形enjoy共同构成。"
+    },
+    {
+      "text": "it.",
+      "role": "宾语",
+      "explanation": "指代前文提到的the play（那出戏），是enjoy的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "did",
+      "meaning": "（助动词，构成过去时否定/疑问，无实义）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "enjoy",
+      "meaning": "享受，欣赏，喜欢",
+      "pos": "动词",
+      "phonetic": "/ɪnˈdʒɔɪ/"
+    },
+    {
+      "text": "it.",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "描述谁的感受",
+      "meaning": "我"
+    },
+    {
+      "text": "did not enjoy",
+      "relation": "主语的动作（否定的过去状态）",
+      "meaning": "过去并不享受/欣赏"
+    },
+    {
+      "text": "it.",
+      "relation": "动作的对象",
+      "meaning": "它（指那出戏）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-001",
+  "sentenceId": "nce-2-lesson-001-sentence-004",
+  "sentenceOrder": 4,
+  "english": "I did not enjoy it.",
+  "lesson": "Lesson 1 A private conversation",
+  "notes": [
+    {
+      "title": "过去时的否定构成",
+      "text": "一般过去时的实义动词否定，要借助助动词did + not，后面的实义动词用原形enjoy，而不是直接在enjoy后加not或变成enjoyed not。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析整体准确，仅需补充词项级说明并统一表述细节：1. 代词it的词项级释义应保留词本身的通用义，指代前文戏的内容属于语境指代，归入结构/分块说明更合适；2. 谓语表述补充‘及物动作’更准确。其余内容均符合要求。（非逐句人工审核）"
+}

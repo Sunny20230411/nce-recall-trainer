@@ -1,0 +1,139 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-096",
+  "sentenceId": "nce-2-lesson-096-sentence-007-part-02",
+  "sentenceOrder": 11,
+  "english": "the tiny lanterns which had been hung in the streets the night before,",
+  "chinese": "前一晚挂在街上的那些小灯笼，",
+  "lesson": "Lesson 96 The dead return",
+  "intent": "确定接下来放入水中的灯笼是哪一批。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "the tiny lanterns",
+      "relation": "处理对象",
+      "meaning": "那些小灯笼"
+    },
+    {
+      "text": "which had been hung in the streets the night before,",
+      "relation": "先前经历",
+      "meaning": "前一晚挂在街上的"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "主语未完句",
+      "text": "整体是后续 are placed 的主语，保留原有逗号和边界。"
+    },
+    {
+      "title": "过去参照",
+      "text": "the night before 指所述放灯之前一晚，配合 had been hung 回看。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "主语未完句",
+      "text": "整体是后续 are placed 的主语，保留原有逗号和边界。"
+    },
+    {
+      "title": "过去参照",
+      "text": "the night before 指所述放灯之前一晚，配合 had been hung 回看。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "the tiny lanterns which had been hung in the streets the night before",
+      "role": "主语片段",
+      "explanation": "完整谓语在下一记录。"
+    },
+    {
+      "text": "which had been hung in the streets the night before",
+      "role": "定语从句",
+      "explanation": "说明这批灯笼的先前位置和时间。"
+    }
+  ],
+  "words": [
+    {
+      "text": "the",
+      "meaning": "那些",
+      "pos": "冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "tiny",
+      "meaning": "小小的",
+      "pos": "形容词",
+      "phonetic": "/ˈtaɪni/"
+    },
+    {
+      "text": "lanterns",
+      "meaning": "灯笼",
+      "pos": "名词",
+      "phonetic": "/ˈlæntənz/"
+    },
+    {
+      "text": "which",
+      "meaning": "这些灯笼",
+      "pos": "关系代词",
+      "phonetic": "/wɪtʃ/"
+    },
+    {
+      "text": "had",
+      "meaning": "过去完成时助动词",
+      "pos": "助动词",
+      "phonetic": "/hæd/ 或 /əd/"
+    },
+    {
+      "text": "been",
+      "meaning": "被动助动词",
+      "pos": "助动词",
+      "phonetic": "/biːn/ 或 /bɪn/"
+    },
+    {
+      "text": "hung",
+      "meaning": "悬挂",
+      "pos": "动词",
+      "phonetic": "/hʌŋ/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……中",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "那些",
+      "pos": "冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "streets",
+      "meaning": "街道",
+      "pos": "名词",
+      "phonetic": "/striːts/"
+    },
+    {
+      "text": "the",
+      "meaning": "特指前一晚",
+      "pos": "冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "night",
+      "meaning": "夜晚",
+      "pos": "名词",
+      "phonetic": "/naɪt/"
+    },
+    {
+      "text": "before,",
+      "meaning": "之前",
+      "pos": "副词",
+      "phonetic": "/bɪˈfɔː/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

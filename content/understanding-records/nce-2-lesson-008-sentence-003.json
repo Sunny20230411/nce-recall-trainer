@@ -1,0 +1,112 @@
+{
+  "chinese": "比尔·弗里斯的花园比乔的大。",
+  "intent": "比较比尔·弗里斯和乔两人的花园面积，说明前者的花园更大。",
+  "comparison": null,
+  "backbone": {
+    "text": "Bill Frith's garden is larger than Joe's.",
+    "meaning": "比尔·弗里斯的花园比乔的（花园）大。"
+  },
+  "structureNotes": [
+    {
+      "title": "名词所有格的省略用法",
+      "text": "句尾的Joe's 是 Joe's garden 的省略说法，避免重复前面已经提到的garden，在比较句式里很常见。"
+    },
+    {
+      "title": "比较级的搭配",
+      "text": "larger 是 large 的比较级，后面接 than 引出被比较的对象，用来表示两者之间“更……”的关系。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Bill Frith's garden",
+      "role": "主语",
+      "explanation": "表示被描述的对象，即“比尔·弗里斯的花园”，其中Bill Frith's是名词所有格，修饰garden。"
+    },
+    {
+      "text": "is larger than Joe's",
+      "role": "谓语（含比较结构）",
+      "explanation": "说明主语的特征：比乔的花园更大；is是系动词，larger是表语核心，than Joe's引出比较对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Bill",
+      "meaning": "比尔（男子名）",
+      "pos": "名词",
+      "phonetic": "/bɪl/"
+    },
+    {
+      "text": "Frith's",
+      "meaning": "弗里斯的（名词所有格）",
+      "pos": "名词所有格",
+      "phonetic": "/frɪθs/"
+    },
+    {
+      "text": "garden",
+      "meaning": "花园",
+      "pos": "名词",
+      "phonetic": "/ˈɡɑːdn/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be动词第三人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "larger",
+      "meaning": "更大的（large的比较级）",
+      "pos": "形容词",
+      "phonetic": "/ˈlɑːdʒə/"
+    },
+    {
+      "text": "than",
+      "meaning": "比（用于引出比较对象）",
+      "pos": "连词",
+      "phonetic": "/ðæn/"
+    },
+    {
+      "text": "Joe's.",
+      "meaning": "乔的（名词所有格）",
+      "pos": "名词所有格",
+      "phonetic": "/dʒəʊz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Bill Frith's garden",
+      "relation": "描述的对象",
+      "meaning": "比尔·弗里斯的花园"
+    },
+    {
+      "text": "is larger",
+      "relation": "描述对象的特征（比较级）",
+      "meaning": "更大"
+    },
+    {
+      "text": "than Joe's.",
+      "relation": "比较的对象",
+      "meaning": "比乔的（花园）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-008",
+  "sentenceId": "nce-2-lesson-008-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Bill Frith's garden is larger than Joe's.",
+  "lesson": "Lesson 8 The best and the worst",
+  "notes": [
+    {
+      "title": "名词所有格的省略用法",
+      "text": "句尾的Joe's 是 Joe's garden 的省略说法，避免重复前面已经提到的garden，在比较句式里很常见。"
+    },
+    {
+      "title": "比较级的搭配",
+      "text": "larger 是 large 的比较级，后面接 than 引出被比较的对象，用来表示两者之间“更……”的关系。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需修正一处细节：than在形容词/副词比较级后常作连词而非介词，且words中Joe's.的释义多余提及句末句号，不符合约定。（非逐句人工审核）"
+}

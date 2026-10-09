@@ -1,0 +1,205 @@
+{
+  "chinese": "他告诉我，公司付不起这么大数额的工资。",
+  "intent": "转述他告知我的内容：公司承担不起支付这么高工资的费用。",
+  "comparison": {
+    "chinese": "他告诉我，公司付不起这么多工资。",
+    "english": "He told me that the firm could not afford to pay such large salaries.",
+    "steps": [
+      {
+        "label": "第一步：先抓主干动作",
+        "text": "He told me",
+        "explanation": "中文先说“他告诉我”，英文开头也是一样，先交代谁、做了什么、告诉的对象是谁。"
+      },
+      {
+        "label": "第二步：引出告诉的具体内容",
+        "text": "that the firm could not afford…",
+        "explanation": "中文直接接“公司付不起…”，英文用that引出后面一整句内容，说明“告诉我的是什么事”，that只起连接作用，没有实际词义。"
+      },
+      {
+        "label": "第三步：理解“付不起”的表达",
+        "text": "could not afford to pay such large salaries",
+        "explanation": "中文说“付不起工资”，英文用could not afford to do表示“承担不起做某事的成本”，后面接to pay（支付），再说明是salaries（工资），such large用来强调工资数额大。"
+      }
+    ],
+    "takeaway": "中文可以直接把两件事连起来说，英文用that引出被转述的具体内容；afford to do是固定表达，意思是“承担得起做某事”，否定就是“付不起、做不起”。"
+  },
+  "backbone": {
+    "text": "He told me that the firm could not afford to pay such large salaries.",
+    "meaning": "他向我告知了一件事：公司承担不起支付这么高的工资。"
+  },
+  "structureNotes": [
+    {
+      "title": "that引导的宾语从句",
+      "text": "that the firm could not afford to pay such large salaries 跟在told me后面，说明“告诉我的内容”是什么，that只起连接作用，没有实际意思，可以理解为“（这件事：）公司付不起…“。"
+    },
+    {
+      "title": "afford to do的含义",
+      "text": "could not afford to pay 表示“承担不起支付（的费用）”，afford常和can/could连用，后接to do，意思是“有足够的钱/能力做某事”，否定形式就是“负担不起”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "动作told的发出者，指前文提到的男性。"
+    },
+    {
+      "text": "told",
+      "role": "谓语动词",
+      "explanation": "表示“告诉”这个动作，是tell的过去式。"
+    },
+    {
+      "text": "me",
+      "role": "间接宾语",
+      "explanation": "是told的对象，即“被告知的人”。"
+    },
+    {
+      "text": "that the firm could not afford to pay such large salaries.",
+      "role": "直接宾语（宾语从句）",
+      "explanation": "是told的具体内容，说明告诉了我什么事，由that引出一整句话作宾语。"
+    },
+    {
+      "text": "the firm",
+      "role": "从句主语",
+      "explanation": "从句里动作的发出者，指“这家公司”。"
+    },
+    {
+      "text": "could not afford to pay",
+      "role": "从句谓语",
+      "explanation": "表示“承担不起支付”，是情态动词加动词短语构成的谓语。"
+    },
+    {
+      "text": "such large salaries.",
+      "role": "从句宾语",
+      "explanation": "是pay的对象，指“这么大数额的工资”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉",
+      "pos": "动词",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引出从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那家（特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "firm",
+      "meaning": "公司，商行",
+      "pos": "名词",
+      "phonetic": "/fɜːm/"
+    },
+    {
+      "text": "could",
+      "meaning": "能够（can的过去式）",
+      "pos": "情态动词",
+      "phonetic": "/kʊd/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "afford",
+      "meaning": "负担得起，承担得起",
+      "pos": "动词",
+      "phonetic": "/əˈfɔːd/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "pay",
+      "meaning": "支付，付给",
+      "pos": "动词",
+      "phonetic": "/peɪ/"
+    },
+    {
+      "text": "such",
+      "meaning": "这样的，如此的",
+      "pos": "形容词",
+      "phonetic": "/sʌtʃ/"
+    },
+    {
+      "text": "large",
+      "meaning": "大的，数额大的",
+      "pos": "形容词",
+      "phonetic": "/lɑːdʒ/"
+    },
+    {
+      "text": "salaries.",
+      "meaning": "工资（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈsæləriz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He told me",
+      "relation": "主干动作和对象，交代谁做了什么、告诉了谁",
+      "meaning": "他告诉了我"
+    },
+    {
+      "text": "that the firm",
+      "relation": "引出告知内容的开头，说明后面讲的主体是公司",
+      "meaning": "那家公司（作为后面内容的主语）"
+    },
+    {
+      "text": "could not afford to pay",
+      "relation": "告知内容里的动作，说明公司做不到什么",
+      "meaning": "承担不起支付…"
+    },
+    {
+      "text": "such large salaries.",
+      "relation": "支付的对象，补充说明付不起的是什么",
+      "meaning": "这么大数额的工资"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-015",
+  "sentenceId": "nce-2-lesson-015-sentence-006",
+  "sentenceOrder": 6,
+  "english": "He told me that the firm could not afford to pay such large salaries.",
+  "lesson": "Lesson 15 Good news",
+  "notes": [
+    {
+      "title": "that引导的宾语从句",
+      "text": "that the firm could not afford to pay such large salaries 跟在told me后面，说明“告诉我的内容”是什么，that只起连接作用，没有实际意思，可以理解为“（这件事：）公司付不起…“。"
+    },
+    {
+      "title": "afford to do的含义",
+      "text": "could not afford to pay 表示“承担不起支付（的费用）”，afford常和can/could连用，后接to do，意思是“有足够的钱/能力做某事”，否定形式就是“负担不起”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅存在1处细节可修正：such的词性标注为“限定词”不够精准，该语境中such修饰形容词large后接复数名词，词性应为形容词；其余翻译、结构分析、对比说明均符合要求，无事实性错误。（非逐句人工审核）"
+}

@@ -1,0 +1,127 @@
+{
+  "chinese": "乔·桑德斯拥有我们镇上最美丽的花园",
+  "intent": "说明乔·桑德斯的花园是我们镇上最美的",
+  "comparison": null,
+  "backbone": {
+    "text": "Joe Sanders has the most beautiful garden",
+    "meaning": "乔·桑德斯拥有最美丽的花园"
+  },
+  "structureNotes": [
+    {
+      "title": "最高级的范围表达",
+      "text": "the most beautiful garden 的中心词是名词 garden，most beautiful 是形容词 beautiful 的最高级形式，作定语修饰 garden；后面用 in our town 说明比较的范围是“在我们镇上”，用来限定这个“最美”是针对全镇而言。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "the most beautiful garden",
+      "role": "宾语",
+      "explanation": "是动词 has 的宾语，其中 most beautiful 是 beautiful 的最高级形式，用来描述花园的美丽程度达到最高。"
+    },
+    {
+      "text": "in our town",
+      "role": "范围状语",
+      "explanation": "用来限定最高级的比较范围，说明“最美丽的花园”这个评价是在我们镇这个范围内成立的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Joe",
+      "meaning": "乔（男子名）",
+      "pos": "名词",
+      "phonetic": "/dʒəʊ/"
+    },
+    {
+      "text": "Sanders",
+      "meaning": "桑德斯（姓氏）",
+      "pos": "名词",
+      "phonetic": "/ˈsɑːndəz/"
+    },
+    {
+      "text": "has",
+      "meaning": "拥有",
+      "pos": "动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "the",
+      "meaning": "（用于形容词最高级前，表特指，无实义）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "most",
+      "meaning": "最（构成多音节形容词最高级）",
+      "pos": "副词",
+      "phonetic": "/məʊst/"
+    },
+    {
+      "text": "beautiful",
+      "meaning": "美丽的",
+      "pos": "形容词",
+      "phonetic": "/ˈbjuːtɪfl/"
+    },
+    {
+      "text": "garden",
+      "meaning": "花园",
+      "pos": "名词",
+      "phonetic": "/ˈɡɑːdn/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……之内",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "our",
+      "meaning": "我们的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/ˈaʊə/"
+    },
+    {
+      "text": "town.",
+      "meaning": "城镇",
+      "pos": "名词",
+      "phonetic": "/taʊn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Joe Sanders",
+      "relation": "描述谁（主语）",
+      "meaning": "乔·桑德斯"
+    },
+    {
+      "text": "has",
+      "relation": "主语的动作（谓语）",
+      "meaning": "拥有"
+    },
+    {
+      "text": "the most beautiful garden",
+      "relation": "动作的对象（宾语）",
+      "meaning": "最美丽的花园"
+    },
+    {
+      "text": "in our town.",
+      "relation": "补充最高级的比较范围",
+      "meaning": "在我们镇上"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-008",
+  "sentenceId": "nce-2-lesson-008-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Joe Sanders has the most beautiful garden in our town.",
+  "lesson": "Lesson 8 The best and the worst",
+  "notes": [
+    {
+      "title": "最高级的范围表达",
+      "text": "the most beautiful garden 的中心词是名词 garden，most beautiful 是形容词 beautiful 的最高级形式，作定语修饰 garden；后面用 in our town 说明比较的范围是“在我们镇上”，用来限定这个“最美”是针对全镇而言。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅两处细节问题：1. words 中末项 town. 的释义误带句号，需修正词义表述；2. structureNotes 与 notes 存在内容重复冗余，原说明将 the most beautiful garden 整体称为形容词最高级形式不够严谨，应明确中心词是名词 garden，beautiful 的最高级作定语。其余翻译、主干、成分划分、词性、音标均正确。（非逐句人工审核）"
+}

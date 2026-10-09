@@ -1,0 +1,192 @@
+{
+  "chinese": "因为他被困在木箱里超过十八个小时。（注：本句是原因分句片段，补充说明前句旅途漫长难受的原因）",
+  "intent": "补充说明前文中旅途漫长又难受的原因，解释他被限制在木箱里的状态及持续时长。",
+  "comparison": {
+    "chinese": "他被困在木箱里已经超过十八小时了",
+    "english": "he had been confined to the wooden box for over eighteen hours",
+    "steps": [
+      {
+        "label": "先抓住被动状态",
+        "text": "had been confined to the wooden box",
+        "explanation": "中文说“被困在木箱里”，英文用被动结构 be confined to 表示“被限制在某处”，前面加 had been 说明这个状态在过去的更早时间就已经存在。"
+      },
+      {
+        "label": "再接持续时长",
+        "text": "for over eighteen hours",
+        "explanation": "中文把“超过十八小时”放在“被困”后面表时长，英文也用 for 引出时间段，位置在句末，说明被困状态持续了多久。"
+      }
+    ],
+    "takeaway": "这句话核心是“过去更早开始的被动状态 + 持续时长”，中英文语序相近；注意句首的for是并列连词表原因，句末的for才是引出时间段的介词。"
+  },
+  "backbone": {
+    "text": "he had been confined to the wooden box",
+    "meaning": "他被关在木箱里（理解用：核心是他处于被限制在木箱中的状态）"
+  },
+  "structureNotes": [
+    {
+      "title": "句首 for 的作用",
+      "text": "这里的 for 是并列连词，引出对前一句内容的补充说明，解释“旅途又长又难受”的原因，语气比 because 弱；在完整句子中不能放在句首单独成句，本句是截取的原因分句片段。"
+    },
+    {
+      "title": "过去完成时被动的含义",
+      "text": "had been confined 是过去完成时的被动形式，表示“被困”这个状态在过去某个时间点之前就已经开始并持续了一段时间，对应上下文里的“旅途结束”这个过去参照点。"
+    },
+    {
+      "title": "for + 时间段的功能",
+      "text": "句末的 for over eighteen hours 是时间长度状语，说明“被困在木箱里”这个状态持续了多久，over 在这里表示“超过、多于”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "for",
+      "role": "原因并列连词",
+      "explanation": "连接前后两个分句，引出补充说明前一句情况的原因，意为“因为、由于”。"
+    },
+    {
+      "text": "had been confined",
+      "role": "过去完成时被动谓语",
+      "explanation": "表示主语 he 是动作“限制、关押”的承受者，且这个被动状态发生在过去某个参照时间之前并持续着。"
+    },
+    {
+      "text": "to the wooden box",
+      "role": "地点限制状语",
+      "explanation": "和 confined 搭配，说明被限制的具体范围是木箱里，to 在这里表“被限制到/在某个空间”；wooden 是名词 wood 加后缀-en 构成的形容词，作定语修饰 box。"
+    },
+    {
+      "text": "for over eighteen hours.",
+      "role": "时长状语",
+      "explanation": "说明被困在木箱里这个状态持续的时间长度，超过十八个小时。"
+    }
+  ],
+  "words": [
+    {
+      "text": "for",
+      "meaning": "因为，由于",
+      "pos": "连词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "had",
+      "meaning": "（过去完成时助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "been",
+      "meaning": "（被动语态助动词，be的过去分词）",
+      "pos": "助动词",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "confined",
+      "meaning": "被限制的，被关押的",
+      "pos": "动词过去分词",
+      "phonetic": "/kənˈfaɪnd/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，在（表限制范围）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "wooden",
+      "meaning": "木制的",
+      "pos": "形容词",
+      "phonetic": "/ˈwʊdn/"
+    },
+    {
+      "text": "box",
+      "meaning": "箱子，盒子",
+      "pos": "名词",
+      "phonetic": "/bɒks/"
+    },
+    {
+      "text": "for",
+      "meaning": "（表示一段时间）达，计",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "over",
+      "meaning": "超过，多于",
+      "pos": "介词",
+      "phonetic": "/ˈəʊvə(r)/"
+    },
+    {
+      "text": "eighteen",
+      "meaning": "十八",
+      "pos": "数词",
+      "phonetic": "/ˌeɪˈtiːn/"
+    },
+    {
+      "text": "hours.",
+      "meaning": "小时（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈaʊəz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "for",
+      "relation": "引出原因，连接前文中的主句",
+      "meaning": "因为"
+    },
+    {
+      "text": "he",
+      "relation": "描述谁处于被困的状态",
+      "meaning": "他"
+    },
+    {
+      "text": "had been confined",
+      "relation": "说明主语的被动状态，用过去完成时表更早的过去",
+      "meaning": "一直被限制着"
+    },
+    {
+      "text": "to the wooden box",
+      "relation": "补充说明被限制的具体位置",
+      "meaning": "在木箱里"
+    },
+    {
+      "text": "for over eighteen hours.",
+      "relation": "说明被困状态持续的时间长度",
+      "meaning": "超过十八个小时"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-046",
+  "sentenceId": "nce-2-lesson-046-sentence-008-part-02",
+  "sentenceOrder": 11,
+  "english": "for he had been confined to the wooden box for over eighteen hours.",
+  "lesson": "Lesson 46 Expensive and uncomfortable",
+  "notes": [
+    {
+      "title": "句首 for 的作用",
+      "text": "这里的 for 是并列连词，引出对前一句内容的补充说明，解释“旅途又长又难受”的原因，语气比 because 弱；在完整句子中不能放在句首单独成句，本句是截取的原因分句片段。"
+    },
+    {
+      "title": "过去完成时被动的含义",
+      "text": "had been confined 是过去完成时的被动形式，表示“被困”这个状态在过去某个时间点之前就已经开始并持续了一段时间，对应上下文里的“旅途结束”这个过去参照点。"
+    },
+    {
+      "title": "for + 时间段的功能",
+      "text": "句末的 for over eighteen hours 是时间长度状语，说明“被困在木箱里”这个状态持续了多久，over 在这里表示“超过、多于”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，存在少量可修正问题：中文翻译缺句首对应提示、比较部分takeaway混淆两个for的功能、words中hours.的释义混入句号、wooden的词性与功能描述需修正、结构说明里for不能句首的表述和片段语境冲突需补充说明。（非逐句人工审核）"
+}

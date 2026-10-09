@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-048",
+  "sentenceId": "nce-2-lesson-048-sentence-005",
+  "english": "He then asked me how my brother was and whether I liked my new job in London.",
+  "text": "对方接连问两个问题，英语用 and 把 how my brother was 和 whether I liked my new job 串起来，都接在 asked me 后面。转述一连串问题时，可以先总起“问了我…”，再把问题一个个接在后面，不用每次都重复 he asked me。",
+  "sourceDigest": "89a81911f72fe97c43355bbd379f959adb6aaedbccee28f39d1487a197ff6fd4",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：提炼了转述多个问题时的信息组织技巧，避免重复，符合表达效率的教学目标，迁移具体。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "点出转述多个问题时避免重复的信息组织方式，实用且贴合本句。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

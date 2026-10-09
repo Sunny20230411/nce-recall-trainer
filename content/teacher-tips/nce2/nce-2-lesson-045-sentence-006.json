@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-045",
+  "sentenceId": "nce-2-lesson-045-sentence-006",
+  "english": "My husband decided to buy a new car, so he put the old car up for sale.",
+  "text": "很多人看到“把旧车卖了”会直接译成 sold the old car，其实 put the old car up for sale 说的是“把车拿出来待售”，还没真正成交。后面紧接着就提到收到了出价，这个表达刚好承接后续情节。以后说“挂出去卖、准备出售”，可以用 put sth up for sale。",
+  "sourceDigest": "163b034b2d59ce06404367dd3185fa22efdc57c09f35c77ca5b0a59324a38f7e",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：选点准确，点出了中文“卖了”容易误译为已成交的sold，明确put up for sale是待售状态，贴合上下文承接关系，迁移具体实用。",
+  "editorialAuthor": "Codex",
+  "editorialDigest": "437b2ed9235e05724acd7a1ccca235c103500bd92f36d931aeb4737b0ff62497",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "Codex",
+    "method": "codex-editorial-self-review-not-human-verification",
+    "note": "按完整名师提点标准复查表达意图、中英差异、信息组织、表达选择和迁移价值。"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "chinese": "我环顾四周，震惊地意识到自己是公交车上唯一剩下的乘客。",
+  "intent": "叙述作者在公交车停下后环顾四周，惊讶地发现车上只剩自己一名乘客的经历。",
+  "comparison": {
+    "chinese": "我震惊地意识到［我是车上唯一剩下的乘客］",
+    "english": "I realized with a shock that I was the only passenger left on the bus",
+    "steps": [
+      {
+        "label": "先抓主干动作",
+        "text": "I realized...",
+        "explanation": "中文先说“我意识到”，英文也是主语I加谓语realized开头，主干顺序一致。"
+      },
+      {
+        "label": "情绪的位置不同",
+        "text": "with a shock",
+        "explanation": "中文把“震惊地”放在动词“意识到”前面作状语；英文用with a shock放在realized后面，说明意识到时的情绪状态。"
+      },
+      {
+        "label": "意识到的内容放后面",
+        "text": "that I was the only passenger left on the bus",
+        "explanation": "中英文都把意识到的具体内容放在后面，但英文用that引出整个从句；中文“剩下的乘客”定语在前，英文left on the bus放在passenger后面修饰。"
+      }
+    ],
+    "takeaway": "表达“带着某种情绪意识到某事”时，英文常用with+名词放在动词后，意识到的内容由that引导跟在后面；名词的修饰成分常后置。"
+  },
+  "backbone": {
+    "text": "I looked round and realized that I was the only passenger left on the bus.",
+    "meaning": "我环顾四周，并且意识到我是车上唯一剩下的乘客。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列谓语",
+      "text": "looked round and realized 是两个并列的过去式动作，由 and 连接，主语都是 I，表示先环顾四周、继而意识到某件事。"
+    },
+    {
+      "title": "宾语从句的引导",
+      "text": "that 引出 realized 的具体内容，也就是“我是唯一剩下的乘客”这件事；that 在这里只起连接作用，不充当从句里的成分。"
+    },
+    {
+      "title": "过去分词作后置定语",
+      "text": "left 是过去分词，放在 passenger 后面修饰它，意思是“剩下的、留下的”，相当于一个后置的形容词，位置在被修饰名词之后。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "looked round",
+      "role": "谓语动词短语",
+      "explanation": "第一个并列动作，表示“环顾四周”，用过去式描述当时的行为。"
+    },
+    {
+      "text": "and realized",
+      "role": "并列谓语引导词+谓语动词",
+      "explanation": "and 连接第二个并列动作 realized，意为“意识到”，时态与前面的 looked 一致。"
+    },
+    {
+      "text": "with a shock",
+      "role": "方式/伴随状语",
+      "explanation": "说明 realized 时的状态是“震惊地、猛然一惊地”，用 with 加名词表达情绪方式。"
+    },
+    {
+      "text": "that I was the only passenger left on the bus.",
+      "role": "宾语从句",
+      "explanation": "作 realized 的宾语，说明意识到的具体内容；that 是引导词，从句主系表结构完整。"
+    },
+    {
+      "text": "left",
+      "role": "后置定语",
+      "explanation": "过去分词修饰 passenger，表示“被剩下的、留下的”，位于被修饰名词之后。"
+    },
+    {
+      "text": "on the bus.",
+      "role": "地点状语",
+      "explanation": "说明“剩下的乘客”所在的地点是在公交车上。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "looked",
+      "meaning": "看（过去式）",
+      "pos": "动词",
+      "phonetic": "/lʊkt/"
+    },
+    {
+      "text": "round",
+      "meaning": "到处，四处",
+      "pos": "副词",
+      "phonetic": "/raʊnd/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "realized",
+      "meaning": "意识到（过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈriːəlaɪzd/"
+    },
+    {
+      "text": "with",
+      "meaning": "带着，以（某种方式）",
+      "pos": "介词",
+      "phonetic": "/wɪð/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个（不定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "shock",
+      "meaning": "震惊，冲击",
+      "pos": "名词",
+      "phonetic": "/ʃɒk/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（am的过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "only",
+      "meaning": "唯一的，仅有的",
+      "pos": "形容词",
+      "phonetic": "/ˈəʊnli/"
+    },
+    {
+      "text": "passenger",
+      "meaning": "乘客",
+      "pos": "名词",
+      "phonetic": "/ˈpæsɪndʒə/"
+    },
+    {
+      "text": "left",
+      "meaning": "剩下的，留下的（过去分词作定语）",
+      "pos": "过去分词",
+      "phonetic": "/left/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bus.",
+      "meaning": "公交车",
+      "pos": "名词",
+      "phonetic": "/bʌs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者（主语）",
+      "meaning": "我"
+    },
+    {
+      "text": "looked round",
+      "relation": "第一个动作（并列谓语1）",
+      "meaning": "环顾四周"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列动作",
+      "meaning": "并且"
+    },
+    {
+      "text": "realized",
+      "relation": "第二个动作（并列谓语2）",
+      "meaning": "意识到"
+    },
+    {
+      "text": "with a shock",
+      "relation": "说明意识到时的情绪状态",
+      "meaning": "震惊地、猛地一惊"
+    },
+    {
+      "text": "that I was the only passenger left on the bus.",
+      "relation": "意识到的具体内容（宾语从句）",
+      "meaning": "我是公交车上唯一剩下的乘客"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-007",
+  "sentenceOrder": 10,
+  "english": "I looked round and realized with a shock that I was the only passenger left on the bus.",
+  "lesson": "Lesson 50 Taken for a ride",
+  "notes": [
+    {
+      "title": "并列谓语",
+      "text": "looked round and realized 是两个并列的过去式动作，由 and 连接，主语都是 I，表示先环顾四周、继而意识到某件事。"
+    },
+    {
+      "title": "宾语从句的引导",
+      "text": "that 引出 realized 的具体内容，也就是“我是唯一剩下的乘客”这件事；that 在这里只起连接作用，不充当从句里的成分。"
+    },
+    {
+      "title": "过去分词作后置定语",
+      "text": "left 是过去分词，放在 passenger 后面修饰它，意思是“剩下的、留下的”，相当于一个后置的形容词，位置在被修饰名词之后。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅words最后一项的中文释义混入句末标点，需修正；其余字段无误。（非逐句人工审核）"
+}

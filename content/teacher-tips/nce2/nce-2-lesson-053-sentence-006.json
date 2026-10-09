@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-053",
+  "sentenceId": "nce-2-lesson-053-sentence-006",
+  "english": "This morning, however, a fireman accidentally discovered the cause.",
+  "text": "however 放在 this morning 之后、主句之前，用逗号隔开，是把“今天早上发现原因”和前文“都已排除”的反差直接落在事件本身。若放句首说 However, this morning... 也对，只是转折感更偏向整句和上文的对比。",
+  "sourceDigest": "f103340e8643fdd00c5ef7c5ee7c3e71f37183e1541f7e7aa9ff0bb7afc05ce3",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：对比了however不同位置的语气差异，说明准确，不机械判对错。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "原提点准确，微调表述，不夸大位置差异。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

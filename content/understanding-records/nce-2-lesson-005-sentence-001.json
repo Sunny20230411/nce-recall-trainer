@@ -1,0 +1,53 @@
+{
+  "chinese": "先生（加在男子姓氏或姓名前的尊称）",
+  "intent": "作为对男性的尊称前缀，用于男子的姓氏或姓名前。",
+  "comparison": null,
+  "backbone": {
+    "text": "Mr.",
+    "meaning": "先生（男子尊称）"
+  },
+  "structureNotes": [
+    {
+      "title": "Mr.的用法",
+      "text": "Mr.是Mister的缩写形式，用于男子的姓氏或姓名前，是对男性的正式尊称，英式英语中也可写作Mr（不带句点），本句带句点为美式或常见缩写写法。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Mr.",
+      "role": "称呼头衔（尊称缩写）",
+      "explanation": "对男性的尊称前缀，是Mister的缩写，通常加在姓氏或全名前表示礼貌与正式。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "先生（对男子的尊称）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪstə(r)/",
+      "text": "Mr."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Mr.",
+      "meaning": "先生（对男子的尊称）",
+      "relation": "称呼前缀"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-005",
+  "sentenceId": "nce-2-lesson-005-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Mr.",
+  "lesson": "Lesson 5 No wrong numbers",
+  "notes": [
+    {
+      "title": "Mr.的用法",
+      "text": "Mr.是Mister的缩写形式，用于男子的姓氏或姓名前，是对男性的正式尊称，英式英语中也可写作Mr（不带句点），本句带句点为美式或常见缩写写法。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需补充chinese和parts的meaning以契合原文语境，修正role的表述准确性。原chinese仅写‘先生’未明确是带姓氏的尊称语境；原structures里的role写‘尊称名词’不够精准，Mr.是称呼性头衔缩写；parts的meaning可补充完整以匹配词汇释义。（非逐句人工审核）"
+}

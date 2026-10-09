@@ -1,0 +1,196 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-092",
+  "sentenceId": "nce-2-lesson-092-sentence-008",
+  "sentenceOrder": 15,
+  "english": "I hate to interrupt a man when he's busy working, but would you mind coming with me to the station?'",
+  "chinese": "我不愿打扰一个正在忙的人，不过您介意跟我去一趟警局吗？”",
+  "lesson": "Lesson 92 Asking for trouble",
+  "intent": "用礼貌铺垫提出去警局的要求。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "I hate to interrupt a man",
+      "relation": "礼貌铺垫",
+      "meaning": "我不愿打扰一个人"
+    },
+    {
+      "text": "when he's busy working,",
+      "relation": "打扰情境",
+      "meaning": "当他正忙于工作时"
+    },
+    {
+      "text": "but would you mind coming with me to the station?'",
+      "relation": "实际要求",
+      "meaning": "但您介意跟我去警局吗"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "礼貌问句",
+      "text": "would you mind 后用动名词 coming，问是否介意此行为。"
+    },
+    {
+      "title": "地点词义",
+      "text": "station 在此指警局，与故事中的警察身份对应。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "礼貌问句",
+      "text": "would you mind 后用动名词 coming，问是否介意此行为。"
+    },
+    {
+      "title": "地点词义",
+      "text": "station 在此指警局，与故事中的警察身份对应。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I hate to interrupt a man when he's busy working",
+      "role": "主句",
+      "explanation": "先表达不愿打扰，含时间从句。"
+    },
+    {
+      "text": "when he's busy working",
+      "role": "时间状语从句",
+      "explanation": "working 补足 busy 的活动内容。"
+    },
+    {
+      "text": "but would you mind coming with me to the station",
+      "role": "并列疑问句",
+      "explanation": "委婉提出同行去警局的要求。"
+    },
+    {
+      "text": "coming with me to the station",
+      "role": "宾语",
+      "explanation": "作为 mind 所询问的行为。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "hate",
+      "meaning": "不愿",
+      "pos": "动词",
+      "phonetic": "/heɪt/"
+    },
+    {
+      "text": "to",
+      "meaning": "不定式标记",
+      "pos": "不定式标记",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "interrupt",
+      "meaning": "打扰",
+      "pos": "动词",
+      "phonetic": "/ˌɪntəˈrʌpt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "man",
+      "meaning": "人",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "when",
+      "meaning": "当……时",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "he's",
+      "meaning": "他正，he is缩写",
+      "pos": "代词与系动词",
+      "phonetic": "/hiːz/"
+    },
+    {
+      "text": "busy",
+      "meaning": "忙碌的",
+      "pos": "形容词",
+      "phonetic": "/ˈbɪzi/"
+    },
+    {
+      "text": "working,",
+      "meaning": "工作",
+      "pos": "动词",
+      "phonetic": "/ˈwɜːkɪŋ/"
+    },
+    {
+      "text": "but",
+      "meaning": "不过",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "would",
+      "meaning": "礼貌询问",
+      "pos": "情态动词",
+      "phonetic": "/wʊd/ 或 /wəd/"
+    },
+    {
+      "text": "you",
+      "meaning": "您",
+      "pos": "代词",
+      "phonetic": "/juː/ 或 /jʊ/"
+    },
+    {
+      "text": "mind",
+      "meaning": "介意",
+      "pos": "动词",
+      "phonetic": "/maɪnd/"
+    },
+    {
+      "text": "coming",
+      "meaning": "来，同行",
+      "pos": "动词",
+      "phonetic": "/ˈkʌmɪŋ/"
+    },
+    {
+      "text": "with",
+      "meaning": "和",
+      "pos": "介词",
+      "phonetic": "/wɪð/"
+    },
+    {
+      "text": "me",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/miː/ 或 /mɪ/"
+    },
+    {
+      "text": "to",
+      "meaning": "到",
+      "pos": "介词",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "该",
+      "pos": "冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "station?'",
+      "meaning": "警察局",
+      "pos": "名词",
+      "phonetic": "/ˈsteɪʃən/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

@@ -1,0 +1,119 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-083",
+  "sentenceId": "nce-2-lesson-083-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Wentworth Lane, was defeated in the recent elections.",
+  "chinese": "文特沃斯·莱恩，在最近的选举中落败了。",
+  "lesson": "Lesson 83 After the elections",
+  "intent": "交代前首相的选举失利",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "Wentworth Lane,",
+      "relation": "姓名承接",
+      "meaning": "文特沃斯·莱恩"
+    },
+    {
+      "text": "was defeated",
+      "relation": "遭遇",
+      "meaning": "落败了"
+    },
+    {
+      "text": "in the recent elections.",
+      "relation": "事件范围",
+      "meaning": "在最近的选举中"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "姓名承接",
+      "text": "姓名承接上一片段的称谓，是对前首相的同位说明。"
+    },
+    {
+      "title": "被动视角",
+      "text": "was defeated 描述受到击败，施事没有明说。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "姓名承接",
+      "text": "姓名承接上一片段的称谓，是对前首相的同位说明。"
+    },
+    {
+      "title": "被动视角",
+      "text": "was defeated 描述受到击败，施事没有明说。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Wentworth Lane,",
+      "role": "同位语续段",
+      "explanation": "接前文 Mr.，补全人物姓名。"
+    },
+    {
+      "text": "was defeated",
+      "role": "谓语",
+      "explanation": "一般过去时被动语态。"
+    },
+    {
+      "text": "in the recent elections.",
+      "role": "状语",
+      "explanation": "限定落败的事件。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Wentworth",
+      "meaning": "文特沃斯",
+      "pos": "专有名词",
+      "phonetic": "/ˈwentwəθ/"
+    },
+    {
+      "text": "Lane,",
+      "meaning": "莱恩",
+      "pos": "专有名词",
+      "phonetic": "/leɪn/"
+    },
+    {
+      "text": "was",
+      "meaning": "构成过去时被动",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "defeated",
+      "meaning": "击败",
+      "pos": "动词过去分词",
+      "phonetic": "/dɪˈfiːtɪd/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……中",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这些",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "recent",
+      "meaning": "最近的",
+      "pos": "形容词",
+      "phonetic": "/ˈriːsnt/"
+    },
+    {
+      "text": "elections.",
+      "meaning": "选举",
+      "pos": "名词复数",
+      "phonetic": "/ɪˈlekʃənz/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

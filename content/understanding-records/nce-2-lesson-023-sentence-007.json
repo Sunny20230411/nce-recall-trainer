@@ -1,0 +1,117 @@
+{
+  "chinese": "这座房子是五个月前建成的。",
+  "intent": "说明这栋房子的完工时间。",
+  "comparison": null,
+  "backbone": {
+    "text": "The house was completed five months ago.",
+    "meaning": "这栋房子在五个月前完工了。"
+  },
+  "structureNotes": [
+    {
+      "title": "被动语态的表意",
+      "text": "was completed 是一般过去时的被动形式，主语 The house 是“被建成”的对象，不用强调建造者时常用这种说法，和中文“房子建成了”的表意一致。"
+    },
+    {
+      "title": "ago 表过去时间",
+      "text": "“时间段 + ago”表示从现在往回算的多久以前，搭配一般过去时，用来明确动作发生的过去时间点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The house",
+      "role": "主语",
+      "explanation": "指对话中双方都知道的那栋房子，是句子描述的对象。"
+    },
+    {
+      "text": "was completed",
+      "role": "谓语（一般过去时被动）",
+      "explanation": "表示“被建成、完工”，主语是动作的承受者。"
+    },
+    {
+      "text": "five months ago",
+      "role": "时间状语",
+      "explanation": "说明房子完工的时间是在五个月以前。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这、那（定冠词，特指已知的事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "house",
+      "meaning": "房子，房屋",
+      "pos": "名词",
+      "phonetic": "/haʊs/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，用于第三人称单数）是/被",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "completed",
+      "meaning": "完成的，竣工的（此处为过去分词）",
+      "pos": "动词过去分词",
+      "phonetic": "/kəmˈpliːtɪd/"
+    },
+    {
+      "text": "five",
+      "meaning": "五，五个",
+      "pos": "数词",
+      "phonetic": "/faɪv/"
+    },
+    {
+      "text": "months",
+      "meaning": "月，月份（复数形式）",
+      "pos": "名词",
+      "phonetic": "/mʌnθs/"
+    },
+    {
+      "text": "ago.",
+      "meaning": "以前（句末带句号，为单词加句末标点的存储形式）",
+      "pos": "副词",
+      "phonetic": "/əˈɡəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The house",
+      "meaning": "这座房子",
+      "relation": "描述对象（主语）"
+    },
+    {
+      "text": "was completed",
+      "meaning": "被建成/完工",
+      "relation": "描述房子的状态变化（谓语）"
+    },
+    {
+      "text": "five months ago.",
+      "meaning": "五个月前",
+      "relation": "说明完工的时间（时间状语）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-023",
+  "sentenceId": "nce-2-lesson-023-sentence-007",
+  "sentenceOrder": 7,
+  "english": "The house was completed five months ago.",
+  "lesson": "Lesson 23 A new house",
+  "notes": [
+    {
+      "title": "被动语态的表意",
+      "text": "was completed 是一般过去时的被动形式，主语 The house 是“被建成”的对象，不用强调建造者时常用这种说法，和中文“房子建成了”的表意一致。"
+    },
+    {
+      "title": "ago 表过去时间",
+      "text": "“时间段 + ago”表示从现在往回算的多久以前，搭配一般过去时，用来明确动作发生的过去时间点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：除单词ago的text末尾标点与释义匹配、parts第三项text标点一致的小问题外，其余内容准确，修正后可用。（非逐句人工审核）"
+}

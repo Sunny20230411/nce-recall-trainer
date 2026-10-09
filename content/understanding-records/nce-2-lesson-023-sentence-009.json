@@ -1,0 +1,152 @@
+{
+  "chinese": "这栋房子有许多大房间，还有一个很漂亮的花园。",
+  "intent": "介绍房子的配套设施，说明房屋空间充足且带有宜人的花园。",
+  "comparison": null,
+  "backbone": {
+    "text": "The house has many large rooms and there is a lovely garden.",
+    "meaning": "这栋房子有很多大房间，并且有一个可爱的花园。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列句的连接关系",
+      "text": "and 连接两个独立的分句，前半句讲房子本身拥有的房间，后半句补充房屋附带的花园，二者是并列的配套说明关系。"
+    },
+    {
+      "title": "there be 结构的作用",
+      "text": "there is a lovely garden 用 there be 结构表示“存在有”，不强调所属的主人，只说明花园是存在的配套设施。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The house has many large rooms",
+      "role": "第一个并列分句",
+      "explanation": "以 The house 为主语，说明房子本身拥有许多大房间，侧重“所属”关系。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个分句，表示信息是并列补充的关系。"
+    },
+    {
+      "text": "there is a lovely garden",
+      "role": "第二个并列分句",
+      "explanation": "用 there be 结构说明花园的存在，侧重“存在有”，补充房屋的配套环境。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这（个/栋）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "house",
+      "meaning": "房子",
+      "pos": "名词",
+      "phonetic": "/haʊs/"
+    },
+    {
+      "text": "has",
+      "meaning": "有",
+      "pos": "动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "many",
+      "meaning": "许多",
+      "pos": "限定词",
+      "phonetic": "/ˈmeni/"
+    },
+    {
+      "text": "large",
+      "meaning": "大的",
+      "pos": "形容词",
+      "phonetic": "/lɑːdʒ/"
+    },
+    {
+      "text": "rooms",
+      "meaning": "房间",
+      "pos": "名词",
+      "phonetic": "/ruːmz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "there",
+      "meaning": "（存在句引导词，无实义）",
+      "pos": "存在句引导词",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "is",
+      "meaning": "是；存在",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "lovely",
+      "meaning": "可爱的；宜人的",
+      "pos": "形容词",
+      "phonetic": "/ˈlʌvli/"
+    },
+    {
+      "text": "garden.",
+      "meaning": "花园",
+      "pos": "名词",
+      "phonetic": "/ˈɡɑːdn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The house",
+      "relation": "描述对象",
+      "meaning": "这栋房子"
+    },
+    {
+      "text": "has many large rooms",
+      "relation": "说明房子拥有的设施",
+      "meaning": "有许多大房间"
+    },
+    {
+      "text": "and",
+      "relation": "连接前后两个并列信息",
+      "meaning": "并且"
+    },
+    {
+      "text": "there is a lovely garden.",
+      "relation": "补充说明房屋附带的配套环境",
+      "meaning": "有一个可爱的花园"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-023",
+  "sentenceId": "nce-2-lesson-023-sentence-009",
+  "sentenceOrder": 9,
+  "english": "The house has many large rooms and there is a lovely garden.",
+  "lesson": "Lesson 23 A new house",
+  "notes": [
+    {
+      "title": "并列句的连接关系",
+      "text": "and 连接两个独立的分句，前半句讲房子本身拥有的房间，后半句补充房屋附带的花园，二者是并列的配套说明关系。"
+    },
+    {
+      "title": "there be 结构的作用",
+      "text": "there is a lovely garden 用 there be 结构表示“存在有”，不强调所属的主人，只说明花园是存在的配套设施。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：存在两处需要修正的问题：1. there be 结构中 there 的词性标注错误，应为引导词而非副词；2. garden 一项的释义混入了句末句号，需修正词义与词性，其余内容准确可用。（非逐句人工审核）"
+}

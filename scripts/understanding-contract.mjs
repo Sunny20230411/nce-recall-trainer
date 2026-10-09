@@ -11,6 +11,7 @@ export function validateUnderstanding(record) {
   if (record.comparison?.steps && (!Array.isArray(record.comparison.steps) || record.comparison.steps.some(step => !text(step.label) || !text(step.text) || !text(step.explanation)))) errors.push('invalid comparison steps');
   if (record.comparison?.takeaway !== undefined && !text(record.comparison.takeaway)) errors.push('invalid comparison takeaway');
   if (record.backbone && (!text(record.backbone.text) || !text(record.backbone.meaning))) errors.push('backbone requires text and meaning');
+  if (record.teacherTip && (!text(record.teacherTip.text) || !text(record.teacherTip.ruleVersion) || !text(record.teacherTip.reviewNote))) errors.push('teacherTip requires text, ruleVersion and reviewNote');
   if (record.structureNotes && (!Array.isArray(record.structureNotes) || record.structureNotes.some(note => !text(note.title) || !text(note.text)))) errors.push('invalid structureNotes');
   for (const [name, fields] of Object.entries({ parts: ['text', 'meaning', 'relation'], notes: ['title', 'text'], structures: ['text', 'role', 'explanation'], words: ['text', 'meaning', 'pos', 'phonetic'] })) {
     if (!Array.isArray(record[name])) { errors.push(`${name} must be an array`); continue; }

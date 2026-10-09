@@ -1,0 +1,85 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-092",
+  "sentenceId": "nce-2-lesson-092-sentence-007",
+  "sentenceOrder": 14,
+  "english": "'Excuse my interrupting you.",
+  "chinese": "“请原谅我打扰您。",
+  "lesson": "Lesson 92 Asking for trouble",
+  "intent": "为接下来提出要求作礼貌铺垫。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "'Excuse",
+      "relation": "请求谅解",
+      "meaning": "请原谅"
+    },
+    {
+      "text": "my interrupting you.",
+      "relation": "谅解对象",
+      "meaning": "我打扰您的行为"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "动名词主体",
+      "text": "my 表示 interrupting 这一行为由我实施。"
+    },
+    {
+      "title": "引语边界",
+      "text": "引号在后续原文才结束，本条保留现有边界。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "动名词主体",
+      "text": "my 表示 interrupting 这一行为由我实施。"
+    },
+    {
+      "title": "引语边界",
+      "text": "引号在后续原文才结束，本条保留现有边界。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Excuse",
+      "role": "祈使谓语",
+      "explanation": "省略主语 you，请对方谅解。"
+    },
+    {
+      "text": "my interrupting you",
+      "role": "宾语",
+      "explanation": "动名词短语，you 是 interrupting 的宾语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'Excuse",
+      "meaning": "原谅",
+      "pos": "动词",
+      "phonetic": "/ɪkˈskjuːz/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的，标记行为者",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "interrupting",
+      "meaning": "打扰",
+      "pos": "动词",
+      "phonetic": "/ˌɪntəˈrʌptɪŋ/"
+    },
+    {
+      "text": "you.",
+      "meaning": "您",
+      "pos": "代词",
+      "phonetic": "/juː/ 或 /jʊ/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

@@ -1,0 +1,138 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-072",
+  "sentenceId": "nce-2-lesson-072-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Bluebird, his famous racing car, was powered by a 2,000 horse-power engine.",
+  "chinese": "他那辆著名的“蓝鸟”赛车，由一台2000马力的发动机提供动力。",
+  "lesson": "Lesson 72 A car called Bluebird “",
+  "intent": "说明蓝鸟赛车的发动机功率",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "Bluebird, his famous racing car,",
+      "relation": "对象及身份",
+      "meaning": "他那辆著名的蓝鸟赛车"
+    },
+    {
+      "text": "was powered by a 2,000 horse-power engine.",
+      "relation": "动力来源",
+      "meaning": "由一台2000马力发动机驱动"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "同位说明",
+      "text": "his famous racing car 与 Bluebird 指同一辆车。"
+    },
+    {
+      "title": "动力被动表达",
+      "text": "was powered by 表示动力由后面的发动机提供。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "同位说明",
+      "text": "his famous racing car 与 Bluebird 指同一辆车。"
+    },
+    {
+      "title": "动力被动表达",
+      "text": "was powered by 表示动力由后面的发动机提供。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Bluebird, his famous racing car,",
+      "role": "主语及同位语",
+      "explanation": "给出车名并解释身份。"
+    },
+    {
+      "text": "was powered",
+      "role": "被动谓语",
+      "explanation": "说明接受动力。"
+    },
+    {
+      "text": "by a 2,000 horse-power engine.",
+      "role": "动力来源状语",
+      "explanation": "交代发动机规格。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Bluebird,",
+      "meaning": "蓝鸟；车名",
+      "pos": "专有名词",
+      "phonetic": "/ˈbluːbɜːd/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "物主限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "famous",
+      "meaning": "著名的",
+      "pos": "形容词",
+      "phonetic": "/ˈfeɪməs/"
+    },
+    {
+      "text": "racing",
+      "meaning": "赛车的",
+      "pos": "名词性修饰语",
+      "phonetic": "/ˈreɪsɪŋ/"
+    },
+    {
+      "text": "car,",
+      "meaning": "汽车",
+      "pos": "名词",
+      "phonetic": "/kɑː/"
+    },
+    {
+      "text": "was",
+      "meaning": "构成过去被动",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "powered",
+      "meaning": "提供动力",
+      "pos": "动词过去分词",
+      "phonetic": "/ˈpaʊəd/"
+    },
+    {
+      "text": "by",
+      "meaning": "由",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "a",
+      "meaning": "一台",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "2,000",
+      "meaning": "两千",
+      "pos": "数词",
+      "phonetic": "/tuː ˈθaʊzənd/"
+    },
+    {
+      "text": "horse-power",
+      "meaning": "马力",
+      "pos": "名词",
+      "phonetic": "/ˈhɔːsˌpaʊə/"
+    },
+    {
+      "text": "engine.",
+      "meaning": "发动机",
+      "pos": "名词",
+      "phonetic": "/ˈendʒɪn/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

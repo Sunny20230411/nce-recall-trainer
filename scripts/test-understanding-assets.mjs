@@ -34,7 +34,7 @@ try {
         host.innerHTML = renderSentenceUnderstanding({ sentence: record, courseId: record.courseId, lessonId: record.lessonId, sentenceOrder: record.sentenceOrder, legacyAnalysis: { tokens: [], groups: [] }, manualStructure: false });
         if (host.querySelector('.understanding-original').textContent !== record.english) throw Error('Source display changed');
         host.querySelector('.understanding-word-details').open = true;
-        if (host.querySelectorAll('tbody tr').length !== record.words.length) throw Error('Missing word rows');
+        if (host.querySelectorAll('.understanding-word-table tbody tr').length !== record.words.length) throw Error('Missing word rows');
         if (document.documentElement.scrollWidth > innerWidth) throw Error(`Overflow: ${record.sentenceId}`);
       }
     }, records);

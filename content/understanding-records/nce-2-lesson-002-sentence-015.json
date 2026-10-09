@@ -1,0 +1,95 @@
+{
+  "chinese": "“我正在吃早饭，”我重复道。",
+  "intent": "陈述“我”重复了自己正在吃早餐这句话。",
+  "comparison": null,
+  "backbone": {
+    "text": "I repeated, \"I'm having breakfast.\"",
+    "meaning": "我重复说了“我正在吃早餐”这句话。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把说的内容放在前面，后面交代说话人是“我”、动作是“重复”，和中文常把“某人说”放前面或插中间的习惯略有不同，但不影响理解。"
+    },
+    {
+      "title": "I'm having breakfast 的时态含义",
+      "text": "这里用进行时表示说话当下正在进行的动作，have breakfast 是固定表达，意思是吃早饭。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘I'm having breakfast,’",
+      "role": "直接引语",
+      "explanation": "是“我”重复说出来的原话，内容是自己正在吃早餐，用单引号标出引用部分。"
+    },
+    {
+      "text": "I repeated.",
+      "role": "主句",
+      "explanation": "交代说话人是“我”，动作是重复（前面说过的话），是整句的主干。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘I'm",
+      "meaning": "我是（I am的口语缩写）",
+      "pos": "代词+be动词缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "having",
+      "meaning": "吃、进行（have的现在分词形式）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈhævɪŋ/"
+    },
+    {
+      "text": "breakfast,’",
+      "meaning": "早餐",
+      "pos": "名词",
+      "phonetic": "/ˈbrekfəst/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词主格",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "repeated.",
+      "meaning": "重复说",
+      "pos": "动词过去式",
+      "phonetic": "/rɪˈpiːtɪd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘I'm having breakfast,’",
+      "relation": "被重复的说话内容",
+      "meaning": "‘我正在吃早餐，’"
+    },
+    {
+      "text": "I repeated.",
+      "relation": "主干：谁做了什么",
+      "meaning": "我重复道。"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-002",
+  "sentenceId": "nce-2-lesson-002-sentence-015",
+  "sentenceOrder": 15,
+  "english": "‘I'm having breakfast,’ I repeated.",
+  "lesson": "Lesson 2 Breakfast or lunch?",
+  "notes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把说的内容放在前面，后面交代说话人是“我”、动作是“重复”，和中文常把“某人说”放前面或插中间的习惯略有不同，但不影响理解。"
+    },
+    {
+      "title": "I'm having breakfast 的时态含义",
+      "text": "这里用进行时表示说话当下正在进行的动作，have breakfast 是固定表达，意思是吃早饭。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：1. words词项释义混入相邻标点，且‘I'm、breakfast,’的释义未准确对应词本身；2. 其余内容（翻译、主干、结构说明、parts语义与关系）基本准确，修正标点混入问题后可用。（非逐句人工审核）"
+}

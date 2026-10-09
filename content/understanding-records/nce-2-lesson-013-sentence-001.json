@@ -1,0 +1,121 @@
+{
+  "chinese": "“格林伍德男孩”是一群流行歌手。",
+  "intent": "介绍一个名为“格林伍德男孩”的组合的身份，说明他们是流行歌手团体。",
+  "comparison": null,
+  "backbone": {
+    "text": "The Greenwood Boys are a group of pop singers.",
+    "meaning": "“格林伍德男孩”是一群流行歌手。"
+  },
+  "structureNotes": [
+    {
+      "title": "a group of 的含义",
+      "text": "a group of 表示“一群、一组”，后面接复数名词，用来指由多个成员组成的整体。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The Greenwood Boys",
+      "role": "主语",
+      "explanation": "指一个特定的演唱组合名称，作为被说明的对象。"
+    },
+    {
+      "text": "are",
+      "role": "系动词",
+      "explanation": "用于连接主语和后面的身份说明，表示“是”。"
+    },
+    {
+      "text": "a group of pop singers.",
+      "role": "表语",
+      "explanation": "说明主语的身份，指“一群流行歌手”，解释这个组合是什么。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这（用于特指的人或事物前）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "Greenwood",
+      "meaning": "格林伍德（组合名称一部分）",
+      "pos": "专有名词",
+      "phonetic": "/ˈɡriːnwʊd/"
+    },
+    {
+      "text": "Boys",
+      "meaning": "男孩们（组合名称一部分）",
+      "pos": "专有名词复数",
+      "phonetic": "/bɔɪz/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（复数主语用）",
+      "pos": "be动词",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个、一群（后接group表示整体）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "group",
+      "meaning": "组、群",
+      "pos": "名词",
+      "phonetic": "/ɡruːp/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表所属或构成）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "pop",
+      "meaning": "流行音乐",
+      "pos": "名词（作定语）",
+      "phonetic": "/pɒp/"
+    },
+    {
+      "text": "singers.",
+      "meaning": "歌手（复数）",
+      "pos": "名词复数",
+      "phonetic": "/ˈsɪŋəz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The Greenwood Boys",
+      "relation": "被说明的对象（主语）",
+      "meaning": "“格林伍德男孩”（一个组合名）"
+    },
+    {
+      "text": "are",
+      "relation": "连接主语和身份说明（系动词）",
+      "meaning": "是"
+    },
+    {
+      "text": "a group of pop singers.",
+      "relation": "说明主语的身份（表语）",
+      "meaning": "一群流行歌手"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-013",
+  "sentenceId": "nce-2-lesson-013-sentence-001",
+  "sentenceOrder": 1,
+  "english": "The Greenwood Boys are a group of pop singers.",
+  "lesson": "Lesson 13 The Greenwood Boys",
+  "notes": [
+    {
+      "title": "a group of 的含义",
+      "text": "a group of 表示“一群、一组”，后面接复数名词，用来指由多个成员组成的整体。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，存在两处可修正细节：1. pop在此处是名词作定语修饰singers，不是形容词；2. singer的英式音标应标注尾音z而非z（符合规范写法），同时修正对应词性表述。（非逐句人工审核）"
+}

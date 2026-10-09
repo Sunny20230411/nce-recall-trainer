@@ -1,0 +1,134 @@
+{
+  "chinese": "我立刻回到了售票处。",
+  "intent": "陈述说话人听完女孩的答复后，马上返回售票处的动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "I went back to the ticket office.",
+    "meaning": "我回到了售票处。"
+  },
+  "structureNotes": [
+    {
+      "title": "back to 表示返回的去向",
+      "text": "went back 表示“回去”，后面接 to 加地点，说明回到哪个具体地方。"
+    },
+    {
+      "title": "at once 作时间状语",
+      "text": "at once 放在句末，说明动作发生的紧迫程度，意思是“立刻、马上”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "went back to",
+      "role": "谓语短语",
+      "explanation": "表示“回到（某地）”，由动词 went + 副词 back + 介词 to 构成，引出返回的地点。"
+    },
+    {
+      "text": "the ticket office",
+      "role": "介词to的宾语（地点宾语）",
+      "explanation": "指“售票处”，是 went back to 中介词 to 指向的具体地点。"
+    },
+    {
+      "text": "at once.",
+      "role": "时间状语",
+      "explanation": "修饰整个动作，说明返回是立刻发生的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "went",
+      "meaning": "去（go的过去式）",
+      "pos": "动词",
+      "phonetic": "/went/"
+    },
+    {
+      "text": "back",
+      "meaning": "回原处",
+      "pos": "副词",
+      "phonetic": "/bæk/"
+    },
+    {
+      "text": "to",
+      "meaning": "朝、到",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "ticket",
+      "meaning": "票",
+      "pos": "名词",
+      "phonetic": "/ˈtɪkɪt/"
+    },
+    {
+      "text": "office",
+      "meaning": "办公室、办事处",
+      "pos": "名词",
+      "phonetic": "/ˈɒfɪs/"
+    },
+    {
+      "text": "at",
+      "meaning": "在",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "once.",
+      "meaning": "一次；曾经",
+      "pos": "副词",
+      "phonetic": "/wʌns/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "went back to",
+      "relation": "主要动作",
+      "meaning": "回到"
+    },
+    {
+      "text": "the ticket office",
+      "relation": "返回的地点",
+      "meaning": "售票处"
+    },
+    {
+      "text": "at once.",
+      "relation": "动作发生的时间/紧迫程度",
+      "meaning": "立刻"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-019",
+  "sentenceId": "nce-2-lesson-019-sentence-010",
+  "sentenceOrder": 10,
+  "english": "I went back to the ticket office at once.",
+  "lesson": "Lesson 19 Sold out",
+  "notes": [
+    {
+      "title": "back to 表示返回的去向",
+      "text": "went back 表示“回去”，后面接 to 加地点，说明回到哪个具体地方。"
+    },
+    {
+      "title": "at once 作时间状语",
+      "text": "at once 放在句末，说明动作发生的紧迫程度，意思是“立刻、马上”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析可用，仅需修正 once 的词性与释义、the ticket office 的语法角色，以及 words 项的部分释义，使其更准确。（非逐句人工审核）"
+}

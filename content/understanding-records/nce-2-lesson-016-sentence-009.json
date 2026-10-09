@@ -1,0 +1,177 @@
+{
+  "chinese": "如果你收到这样的请求，你一定得服从它！",
+  "intent": "用假设条件说明收到这类礼貌请求时，结果必然是会照做，强调要求的委婉但有效。",
+  "comparison": {
+    "chinese": "你要是收到这样的请求，不可能不照着做。",
+    "english": "If you receive a request like this, you cannot fail to obey it!",
+    "steps": [
+      {
+        "label": "先抓主句的核心意思",
+        "text": "you cannot fail to obey it",
+        "explanation": "补充主句优先是因为这句话的核心信息是“必定服从”这个结论，条件只是前提限定；中文会直接说“一定会服从”或“不可能不服从”，英文用 cannot fail to 这种双重否定表达“必定、肯定会”，语气比直接说 must obey 更委婉但结论很确定。"
+      },
+      {
+        "label": "再看前提条件放在哪里",
+        "text": "If you receive a request like this",
+        "explanation": "中英文都可以把“如果”的条件放在前面；这里 like this 不是“喜欢这个”，是介词短语作后置定语修饰 request，说明是“像这样的”请求。"
+      },
+      {
+        "label": "把条件接回主句",
+        "text": "If ..., you cannot fail to obey it",
+        "explanation": "先交代“在什么情况下”，再给出“结果一定是什么”，符合中文常见的“先条件后结论”表达习惯；it 指前面的 a request，也就是要服从的对象。"
+      }
+    ],
+    "takeaway": "cannot fail to do 是用“不会做某事失败”的双重否定表达“必定会做”，语气比直接肯定更强烈；if 引导的是真实条件状语从句，描述假设的前提情况，不是已经发生的事实。"
+  },
+  "backbone": {
+    "text": "If you receive a request like this, you cannot fail to obey it!",
+    "meaning": "在收到这类请求的前提下，你必定会服从它。"
+  },
+  "structureNotes": [
+    {
+      "title": "If 引导条件从句",
+      "text": "If you receive a request like this 是整句话的前提，说明后面主句的情况是在这个条件下才成立，不是无条件的断言。"
+    },
+    {
+      "title": "cannot fail to 的含义",
+      "text": "cannot fail to obey 不是“不能失败地服从”，而是“不可能不服从、必定服从”，用双重否定加强肯定语气。"
+    },
+    {
+      "title": "like this 的修饰对象",
+      "text": "like this 修饰前面的 a request，表示“像这样的请求”，不是谓语动词 receive 的一部分。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "If you receive a request like this,",
+      "role": "条件状语分句",
+      "explanation": "引出主句成立的假设前提，说明后面所说的“必定服从”是针对“收到这类请求”这种情况。"
+    },
+    {
+      "text": "you cannot fail to obey it!",
+      "role": "主句",
+      "explanation": "表达在上述条件下的必然结果，cannot fail to obey 用双重否定表示肯定含义“必定服从”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "If",
+      "meaning": "如果",
+      "pos": "连词",
+      "phonetic": "/ɪf/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "receive",
+      "meaning": "收到",
+      "pos": "动词",
+      "phonetic": "/rɪˈsiːv/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "request",
+      "meaning": "请求；要求",
+      "pos": "名词",
+      "phonetic": "/rɪˈkwest/"
+    },
+    {
+      "text": "like",
+      "meaning": "像；如同",
+      "pos": "介词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "this,",
+      "meaning": "这样（的人/事物）",
+      "pos": "代词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "cannot",
+      "meaning": "不能；不可能",
+      "pos": "情态动词否定式",
+      "phonetic": "/ˈkænɒt/"
+    },
+    {
+      "text": "fail",
+      "meaning": "未能；失败",
+      "pos": "动词",
+      "phonetic": "/feɪl/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "obey",
+      "meaning": "服从；遵守",
+      "pos": "动词",
+      "phonetic": "/əˈbeɪ/"
+    },
+    {
+      "text": "it!",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "If you receive a request like this,",
+      "relation": "条件：说明后面结论成立的前提情况",
+      "meaning": "如果你收到像这样的一个请求"
+    },
+    {
+      "text": "you",
+      "relation": "主句的动作主体",
+      "meaning": "你"
+    },
+    {
+      "text": "cannot fail to obey it!",
+      "relation": "描述主体在条件下的必然结果",
+      "meaning": "不可能不服从它"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-016",
+  "sentenceId": "nce-2-lesson-016-sentence-009",
+  "sentenceOrder": 11,
+  "english": "If you receive a request like this, you cannot fail to obey it!",
+  "lesson": "Lesson 16 A polite request",
+  "notes": [
+    {
+      "title": "If 引导条件从句",
+      "text": "If you receive a request like this 是整句话的前提，说明后面主句的情况是在这个条件下才成立，不是无条件的断言。"
+    },
+    {
+      "title": "cannot fail to 的含义",
+      "text": "cannot fail to obey 不是“不能失败地服从”，而是“不可能不服从、必定服从”，用双重否定加强肯定语气。"
+    },
+    {
+      "title": "like this 的修饰对象",
+      "text": "like this 修饰前面的 a request，表示“像这样的请求”，不是谓语动词 receive 的一部分。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确可用，仅两处细节需修正：1. 单词项中“this,”和“it!”带句末标点，原词性标注为代词未说明标点归属属约定俗成，但音标对应单词本身无问题，更关键的是“this”在“like this”中介词宾语的义项标注更稳妥；2. comparison步骤中“先抓主句核心意思”的组织逻辑说明不足，应明确为何先主后从的讲解逻辑，且takeaway未补充if条件句的真实条件属性细节。（非逐句人工审核）"
+}

@@ -1,0 +1,119 @@
+{
+  "chinese": "她把瓶子扔进了海里。",
+  "intent": "描述一位女性将瓶子扔入海中的动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "She threw the bottle into the sea.",
+    "meaning": "她把瓶子扔进海里。"
+  },
+  "structureNotes": [
+    {
+      "title": "throw + 宾语 + into + 地点",
+      "text": "动词threw后接被扔的物品the bottle，再用into the sea说明扔的去向，整体表达“把某物扔进某地”的完整动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "主语",
+      "explanation": "动作的发出者，指代前文提到的女性。"
+    },
+    {
+      "text": "threw",
+      "role": "谓语动词",
+      "explanation": "throw的过去式，表示“扔、投”这个动作，是句子的核心动作。"
+    },
+    {
+      "text": "the bottle",
+      "role": "宾语",
+      "explanation": "被扔的对象，特指之前提到的那只瓶子。"
+    },
+    {
+      "text": "into the sea",
+      "role": "地点方向状语",
+      "explanation": "说明扔这个动作的去向，即瓶子进入的地方是海里。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/",
+      "text": "She"
+    },
+    {
+      "meaning": "扔，投（throw的过去式）",
+      "pos": "动词",
+      "phonetic": "/θruː/",
+      "text": "threw"
+    },
+    {
+      "meaning": "（定冠词，特指双方都知道的事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "瓶子",
+      "pos": "名词",
+      "phonetic": "/ˈbɒtl/",
+      "text": "bottle"
+    },
+    {
+      "meaning": "到……里面，进入",
+      "pos": "介词",
+      "phonetic": "/ˈɪntuː/",
+      "text": "into"
+    },
+    {
+      "meaning": "（定冠词，特指海洋）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "海，海洋",
+      "pos": "名词",
+      "phonetic": "/siː/",
+      "text": "sea."
+    }
+  ],
+  "parts": [
+    {
+      "text": "She",
+      "relation": "动作发出者",
+      "meaning": "她"
+    },
+    {
+      "text": "threw",
+      "relation": "核心动作",
+      "meaning": "扔了"
+    },
+    {
+      "text": "the bottle",
+      "relation": "被扔的对象",
+      "meaning": "那只瓶子"
+    },
+    {
+      "text": "into the sea.",
+      "relation": "动作的去向地点",
+      "meaning": "进入海里"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-022",
+  "sentenceId": "nce-2-lesson-022-sentence-003",
+  "sentenceOrder": 3,
+  "english": "She threw the bottle into the sea.",
+  "lesson": "Lesson 22 A glass envelope",
+  "notes": [
+    {
+      "title": "throw + 宾语 + into + 地点",
+      "text": "动词threw后接被扔的物品the bottle，再用into the sea说明扔的去向，整体表达“把某物扔进某地”的完整动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：末尾词项sea.的释义未体现句末标点属于存储约定，无需改动语义，仅修正words中sea.的pos标注错误（将定冠词误写的项修正，原词项the标注正确，sea.的pos应为名词，仅需统一sea.的释义说明标点为存储约定？不对，原words里第6项是the（正确），第7项是sea.，其pos是名词正确，meaning里没说标点，按规则标点随词项是约定，无需改meaning？等下仔细看：原words第7项text是sea.，meaning是“海，海洋”，pos是名词，phonetic是/siː/，是对的，因为标点随词是约定。那再检查所有内容：chinese正确，intent正确，backbone正确，structureNotes正确，structures正确，parts正确，words全部正确？不对，再看：原句是She threw the bottle into the sea. 分词是She, threw, the, bottle, into, the, sea. 共7项，和words长度一致。每项text都对，meaning、pos、phonetic都对。那approved为true？但有没有问题？哦，parts里第4项text是into the sea.，meaning是进入海里，relation是动作的去向地点，正确。那reason怎么写？哦，再仔细看：words中的the有两个，第一个是the bottle里的the，meaning是（定冠词，特指双方都知道的事物），正确；第二个是the sea里的the，meaning是（定冠词，特指海洋），也可以，没问题。那整体正确？不对，等下，题目说“words是按原文空格分词的完整词项列表，标点随词项保存是约定，不得因text含标点而拒绝或改写词项。音标和释义仅解释词本身，不添加反复的标点说明。” 所以sea.的释义没问题。那approved=true，reason是“句子解析内容准确，各模块符合要求，无需修正”？然后patch的所有字段都是null？不对，patch里的字段都要写吗？schema说patch里的required字段是chinese、intent、comparison、backbone、structureNotes、structures、words、parts，每个都可以是null或对应类型。如果无需修改，就都设为null？等下看schema：patch的properties里每个字段都是anyOf: [对应类型, null]，required是这些字段都要有。所以如果全部正确，patch里的每个字段都是null。那reason就是“本次解析内容准确，翻译、主干、成分、词项等均符合要求，无需修正。” 不对，再检查一遍：structures里的成分，She是主语，threw是谓语动词，the bottle是宾语，into the sea是地点方向状语，正确。parts的四个分块text都对，meaning和relation都对。backbone正确。chinese正确。intent正确。structureNotes正确。comparison是null，符合要求。那approved=true，reason是“句子各模块解析准确，符合面向中文母语成年人的静态解析要求。” 然后patch的所有字段都是null？等下，有没有漏的？哦，原record里的english是“She threw the bottle into the sea.”，parts里的最后一个text是“into the sea.”，包含了句末点，正确，因为前面的分块到the bottle，最后一块是into the sea.，完整覆盖原文，对的。words里的最后一个text是sea.，带点，是按空格分词的结果，因为into the sea. 空格分开是into, the, sea.，正确。所以没问题。那输出就是：{（非逐句人工审核）"
+}

@@ -1,0 +1,117 @@
+{
+  "chinese": "我们的击弦古钢琴被放在客厅里。",
+  "intent": "说明家里这架古钢琴的存放位置。",
+  "comparison": null,
+  "backbone": {
+    "text": "Our clavichord is kept in the living-room.",
+    "meaning": "我们的击弦古钢琴被放置在客厅里。"
+  },
+  "structureNotes": [
+    {
+      "title": "被动语态的表意",
+      "text": "is kept 表示古钢琴是“被存放、被放置”的，主语是承受动作的事物，不需要说出具体是谁放的。"
+    },
+    {
+      "title": "地点状语的位置",
+      "text": "in the living-room 用来说明古钢琴所在的地点，接在被动谓语之后补充存放位置。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Our clavichord",
+      "role": "主语",
+      "explanation": "指我们家的这架击弦古钢琴，是句子谈论的对象，也是“被存放”这个动作的承受者。"
+    },
+    {
+      "text": "is kept",
+      "role": "被动语态谓语",
+      "explanation": "由be动词is加过去分词kept构成，表示“被存放、被保存”的状态。"
+    },
+    {
+      "text": "in the living-room.",
+      "role": "地点状语",
+      "explanation": "说明击弦古钢琴被放置的具体地点是客厅。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Our",
+      "meaning": "我们的",
+      "pos": "限定词",
+      "phonetic": "/ˈaʊə/"
+    },
+    {
+      "text": "clavichord",
+      "meaning": "击弦古钢琴，古钢琴",
+      "pos": "名词",
+      "phonetic": "/ˈklævɪkɔːd/"
+    },
+    {
+      "text": "is",
+      "meaning": "（被动助动词，无实义）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "kept",
+      "meaning": "被存放，被保存",
+      "pos": "动词过去分词",
+      "phonetic": "/kept/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（特指已知的客厅）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "living-room.",
+      "meaning": "客厅",
+      "pos": "名词",
+      "phonetic": "/ˈlɪvɪŋ ruːm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Our clavichord",
+      "meaning": "我们的击弦古钢琴",
+      "relation": "描述的主体"
+    },
+    {
+      "text": "is kept",
+      "meaning": "被存放着",
+      "relation": "主体的状态/被动动作"
+    },
+    {
+      "text": "in the living-room.",
+      "meaning": "在客厅里",
+      "relation": "存放的地点"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-010",
+  "sentenceId": "nce-2-lesson-010-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Our clavichord is kept in the living-room.",
+  "lesson": "Lesson 10 Not for jazz",
+  "notes": [
+    {
+      "title": "被动语态的表意",
+      "text": "is kept 表示古钢琴是“被存放、被放置”的，主语是承受动作的事物，不需要说出具体是谁放的。"
+    },
+    {
+      "title": "地点状语的位置",
+      "text": "in the living-room 用来说明古钢琴所在的地点，接在被动谓语之后补充存放位置。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确合格，仅单词释义和分块释义存在两处可修正问题：1. living-room. 的释义不应包含句末句号，需删除标点；2. 第三部分的meaning末尾的句号多余，需删除以统一风格。其余内容均符合要求。（非逐句人工审核）"
+}

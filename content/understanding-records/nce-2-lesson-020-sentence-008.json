@@ -1,0 +1,192 @@
+{
+  "chinese": "在河边耗了整整一上午之后，我总是拎着空包回家。",
+  "intent": "讲述自己长期在河边钓鱼却毫无收获、每次都空包回家的惯常经历。",
+  "comparison": {
+    "chinese": "我总在河边待上整整一上午，结果每次都拎着空包回家。",
+    "english": "After having spent whole mornings on the river, I always go home with an empty bag.",
+    "steps": [
+      {
+        "label": "先抓主干动作",
+        "text": "I always go home with an empty bag.",
+        "explanation": "先理解核心信息：我一贯的回家状态是带着空包，这是句子要交代的主要事实。"
+      },
+      {
+        "label": "再看前面的时间背景",
+        "text": "After having spent whole mornings on the river",
+        "explanation": "这部分说明“回家”这个动作发生的时间前提——是在河边度过了一整个上午之后，先发生的事放句首用after引出。"
+      },
+      {
+        "label": "理解having spent的含义",
+        "text": "having spent",
+        "explanation": "它表示“花费时间”这件事发生在主句动作之前，并且是已完成的状态，对应中文“已经待了一上午之后”。"
+      }
+    ],
+    "takeaway": "英文习惯把时间背景放句首或句尾，核心动作先说；中文常按时间先后顺序说，先讲做了什么，再讲结果。"
+  },
+  "backbone": {
+    "text": "I go home with an empty bag.",
+    "meaning": "我带着空包回家。"
+  },
+  "structureNotes": [
+    {
+      "title": "After having done的作用",
+      "text": "After having spent whole mornings on the river 是介词短语作时间状语，表示主句动作发生在“花时间待在河边”这件事完成之后。having spent是完成式的动名词，强调动作先于主句发生。"
+    },
+    {
+      "title": "with an empty bag的含义",
+      "text": "with an empty bag 是伴随状语，说明回家时的状态：身上带着一个空包，暗指什么也没钓到。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "After having spent whole mornings on the river,",
+      "role": "时间状语",
+      "explanation": "由介词After引导，后面跟动名词的完成式having spent，说明主句动作发生的时间背景：在河边度过一整个上午之后。"
+    },
+    {
+      "text": "I always go home",
+      "role": "主句主干",
+      "explanation": "I是主语，go是谓语动词，home是地点状语，表示“我回家”，always修饰动词表示这是惯常行为。"
+    },
+    {
+      "text": "with an empty bag.",
+      "role": "伴随状语",
+      "explanation": "用with引出伴随的状态，说明回家时带着空包，补充说明go home的状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "After",
+      "meaning": "在……之后",
+      "pos": "介词",
+      "phonetic": "/ˈɑːftə/"
+    },
+    {
+      "text": "having",
+      "meaning": "（动名词完成式助动词，无实义）",
+      "pos": "助动词（动名词形式）",
+      "phonetic": "/ˈhævɪŋ/"
+    },
+    {
+      "text": "spent",
+      "meaning": "花费（时间）",
+      "pos": "动词（过去分词）",
+      "phonetic": "/spent/"
+    },
+    {
+      "text": "whole",
+      "meaning": "整个的",
+      "pos": "形容词",
+      "phonetic": "/həʊl/"
+    },
+    {
+      "text": "mornings",
+      "meaning": "上午（复数，指多个上午，表屡次）",
+      "pos": "名词",
+      "phonetic": "/ˈmɔːnɪŋz/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……（地方）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "river,",
+      "meaning": "河，河边",
+      "pos": "名词",
+      "phonetic": "/ˈrɪvə/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是，一直",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "go",
+      "meaning": "去",
+      "pos": "动词",
+      "phonetic": "/ɡəʊ/"
+    },
+    {
+      "text": "home",
+      "meaning": "家，回家",
+      "pos": "副词",
+      "phonetic": "/həʊm/"
+    },
+    {
+      "text": "with",
+      "meaning": "带着，有",
+      "pos": "介词",
+      "phonetic": "/wɪð/"
+    },
+    {
+      "text": "an",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/æn/"
+    },
+    {
+      "text": "empty",
+      "meaning": "空的",
+      "pos": "形容词",
+      "phonetic": "/ˈempti/"
+    },
+    {
+      "text": "bag.",
+      "meaning": "包，袋子",
+      "pos": "名词",
+      "phonetic": "/bæɡ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "After having spent whole mornings on the river,",
+      "meaning": "在河边度过了一个个上午之后",
+      "relation": "时间背景"
+    },
+    {
+      "text": "I always go home",
+      "meaning": "我总是回家",
+      "relation": "主句主干（谁做什么）"
+    },
+    {
+      "text": "with an empty bag.",
+      "meaning": "带着一个空包",
+      "relation": "补充回家时的伴随状态"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-020",
+  "sentenceId": "nce-2-lesson-020-sentence-008",
+  "sentenceOrder": 8,
+  "english": "After having spent whole mornings on the river, I always go home with an empty bag.",
+  "lesson": "Lesson 20 One man in a boat",
+  "notes": [
+    {
+      "title": "After having done的作用",
+      "text": "After having spent whole mornings on the river 是介词短语作时间状语，表示主句动作发生在“花时间待在河边”这件事完成之后。having spent是完成式的动名词，强调动作先于主句发生。"
+    },
+    {
+      "title": "with an empty bag的含义",
+      "text": "with an empty bag 是伴随状语，说明回家时的状态：身上带着一个空包，暗指什么也没钓到。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文为片段，解析基本准确，仅需修正原翻译中冗余表述、parts中mornings的复数含义体现、words中river的标点归属说明（此处保留原text，修正mornings释义和parts时间状语的复数含义，同时修正chinese的冗余“空着手拎着包”问题）。（非逐句人工审核）"
+}

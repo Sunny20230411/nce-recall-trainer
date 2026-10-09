@@ -1,0 +1,103 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-059",
+  "sentenceId": "nce-2-lesson-059-sentence-010",
+  "sentenceOrder": 11,
+  "english": "We have tried everything, but nothing works.",
+  "chinese": "我们什么办法都试过了，可是什么都不管用。",
+  "lesson": "Lesson 59 In or out?",
+  "intent": "表达尝试很多但仍无法解决的无奈",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "We have tried everything,",
+      "relation": "已有尝试",
+      "meaning": "我们什么办法都试过了"
+    },
+    {
+      "text": "but nothing works.",
+      "relation": "当前结果",
+      "meaning": "可是没有一种奏效"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "两个时间视角",
+      "text": "have tried 盘点过去至今的尝试，works 描述当前效果。"
+    },
+    {
+      "title": "否定主语",
+      "text": "nothing 本身具有否定意义，works 用单数形式。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "两个时间视角",
+      "text": "have tried 盘点过去至今的尝试，works 描述当前效果。"
+    },
+    {
+      "title": "否定主语",
+      "text": "nothing 本身具有否定意义，works 用单数形式。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We have tried everything,",
+      "role": "第一并列分句",
+      "explanation": "everything 泛指所能想到的办法。"
+    },
+    {
+      "text": "but nothing works.",
+      "role": "转折并列分句",
+      "explanation": "work 在此是不及物动词，表示奏效。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We",
+      "meaning": "我们",
+      "pos": "人称代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "have",
+      "meaning": "构成现在完成时",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "tried",
+      "meaning": "尝试",
+      "pos": "过去分词",
+      "phonetic": "/traɪd/"
+    },
+    {
+      "text": "everything,",
+      "meaning": "一切办法",
+      "pos": "不定代词",
+      "phonetic": "/ˈevriθɪŋ/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "并列连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "nothing",
+      "meaning": "没有任何办法",
+      "pos": "否定不定代词",
+      "phonetic": "/ˈnʌθɪŋ/"
+    },
+    {
+      "text": "works.",
+      "meaning": "奏效",
+      "pos": "不及物动词第三人称单数",
+      "phonetic": "/wɜːks/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

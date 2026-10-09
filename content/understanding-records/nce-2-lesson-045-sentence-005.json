@@ -1,0 +1,166 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-045",
+  "sentenceId": "nce-2-lesson-045-sentence-005",
+  "sentenceOrder": 5,
+  "english": "The mechanic examined it and told him that a lot of parts were worn out.",
+  "chinese": "修理工检查了汽车，告诉他很多零件都磨损严重。",
+  "lesson": "Lesson 45 A clear conscience",
+  "intent": "转述修理工检查后的车辆状况判断",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "The mechanic examined it",
+      "relation": "检查行为",
+      "meaning": "修理工检查了车"
+    },
+    {
+      "text": "and told him",
+      "relation": "告知行为",
+      "meaning": "并告诉丈夫"
+    },
+    {
+      "text": "that a lot of parts were worn out.",
+      "relation": "告知内容",
+      "meaning": "很多零件已磨损严重"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "告诉谁什么",
+      "text": "told的宾语him是接收信息的人，that从句是信息内容。"
+    },
+    {
+      "title": "磨损状态",
+      "text": "were worn out在此着重描述零件磨损严重的状态。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "告诉谁什么",
+      "text": "told的宾语him是接收信息的人，that从句是信息内容。"
+    },
+    {
+      "title": "磨损状态",
+      "text": "were worn out在此着重描述零件磨损严重的状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The mechanic",
+      "role": "主语",
+      "explanation": "进行检查并告知结果的修理工。"
+    },
+    {
+      "text": "examined it",
+      "role": "第一个谓语与宾语",
+      "explanation": "it指汽车。"
+    },
+    {
+      "text": "and told him that a lot of parts were worn out.",
+      "role": "并列谓语部分",
+      "explanation": "转述检查结论。"
+    },
+    {
+      "text": "that a lot of parts were worn out.",
+      "role": "宾语从句",
+      "explanation": "说明许多零件磨损严重。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这位",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "mechanic",
+      "meaning": "修理工",
+      "pos": "名词",
+      "phonetic": "/mɪˈkænɪk/"
+    },
+    {
+      "text": "examined",
+      "meaning": "检查",
+      "pos": "动词",
+      "phonetic": "/ɪɡˈzæmɪnd/"
+    },
+    {
+      "text": "it",
+      "meaning": "这辆车",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "pos": "并列连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉",
+      "pos": "动词",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "him",
+      "meaning": "他，丈夫",
+      "pos": "人称代词",
+      "phonetic": "/hɪm/ 或 /ɪm/"
+    },
+    {
+      "text": "that",
+      "meaning": "引出告知内容",
+      "pos": "从属连词",
+      "phonetic": "/ðæt/ 或 /ðət/"
+    },
+    {
+      "text": "a",
+      "meaning": "与lot of组成许多",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "lot",
+      "meaning": "大量",
+      "pos": "名词",
+      "phonetic": "/lɒt/"
+    },
+    {
+      "text": "of",
+      "meaning": "组成a lot of",
+      "pos": "介词",
+      "phonetic": "/ɒv/ 或 /əv/"
+    },
+    {
+      "text": "parts",
+      "meaning": "零件",
+      "pos": "名词",
+      "phonetic": "/pɑːts/"
+    },
+    {
+      "text": "were",
+      "meaning": "处于磨损状态",
+      "pos": "系动词",
+      "phonetic": "/wɜː/ 或 /wə/"
+    },
+    {
+      "text": "worn",
+      "meaning": "磨损的，组成worn out",
+      "pos": "分词形容词",
+      "phonetic": "/wɔːn/"
+    },
+    {
+      "text": "out.",
+      "meaning": "严重，组成worn out",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

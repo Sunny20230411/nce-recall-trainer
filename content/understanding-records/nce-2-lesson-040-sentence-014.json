@@ -1,0 +1,216 @@
+{
+  "chinese": "“年轻人，”她回答道，“如果你多吃点、少说话，我们俩都会好好享用晚餐的！”",
+  "intent": "她用略带不满的语气回应对方的提问，暗示对方话太多影响了用餐，通过假设句提出让两人都能好好吃饭的条件。",
+  "comparison": {
+    "chinese": "中文习惯把说话人放在引语前面或者后面一整句说完，引语内部先讲条件再讲结果；英文这里把“she answered”插在两句引语中间，条件句和主句都用过去相关的形式来表达与现实相反的假设。",
+    "english": "‘Young man,’ she answered, ‘if you ate more and talked less, we would both enjoy our dinner!’",
+    "steps": [
+      {
+        "label": "第一步：先抓对话框架",
+        "text": "‘Young man,’ she answered,",
+        "explanation": "先看到这是她的答话，开头是对听话人的称呼“年轻人”，说话人“she answered”插在引语中间，中文可以调整成“她回答道：‘年轻人啊，……’”更顺。"
+      },
+      {
+        "label": "第二步：理解条件句的假设意味",
+        "text": "if you ate more and talked less",
+        "explanation": "这里ate和talked都是过去式，但不是讲过去的事，而是说“假如你（现在/眼下）多吃少说”，是和当前实际情况相反的假设——实际对方吃得不多、说得多。"
+      },
+      {
+        "label": "第三步：接上假设的结果",
+        "text": "we would both enjoy our dinner!",
+        "explanation": "would enjoy表示在刚才那个假设成立的情况下，“我们俩就都会好好享用晚餐了”，不是已经发生，也不是肯定会发生，只是顺着假设推出的结果。"
+      }
+    ],
+    "takeaway": "英文中引语可以被“某某说”从中间断开；if + 过去式 + would + 动词原形常用来表示和现在现实相反的假设，不是在讲过去的事情。"
+  },
+  "backbone": {
+    "text": "She answered that if you ate more and talked less, we would both enjoy our dinner.（理解用还原：她回答说，如果你多吃少说，我们俩都会好好享用晚餐。）",
+    "meaning": "核心信息是：她给出了一个回应，内容是“在你多吃少说的前提下，两人都能好好吃晚餐”，其中“Young man”是对听话人的称呼。"
+  },
+  "structureNotes": [
+    {
+      "title": "插入式引语的理解",
+      "text": "“she answered”插在前后两段引语中间，只是标明说话人，不打断引语内容的连贯性，阅读时可以把前后引号里的内容连起来当成一句完整的话来理解。"
+    },
+    {
+      "title": "非真实条件句的含义",
+      "text": "if从句用过去式ate、talked，主句用would enjoy，这是第二类条件句，表示和现在实际情况相反的假设：现实是你吃得少、说得多，所以我们没能好好享用晚餐。"
+    },
+    {
+      "title": "both的位置和作用",
+      "text": "both放在would和enjoy之间，强调“我们两个人都”，也就是说话人和听话人双方都会享受晚餐，不是只针对其中一方。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘Young man,’",
+      "role": "呼语（引语开头的称呼）",
+      "explanation": "是她对听话人的称呼，用来引起对方注意、指明说话对象，属于引语的一部分，不是句子的主语或宾语。"
+    },
+    {
+      "text": "she answered,",
+      "role": "主句（说话人+说话动作）",
+      "explanation": "交代这句话是谁说的、动作是“回答”，因为前后都是引语，所以这个主句插在中间起标识作用。"
+    },
+    {
+      "text": "if you ate more and talked less,",
+      "role": "条件状语从句",
+      "explanation": "提出一个假设的条件：“如果你多吃点、少说话”，用过去式表示和当前现实不符的假设，是后面主句成立的前提。"
+    },
+    {
+      "text": "we would both enjoy our dinner!",
+      "role": "引语中的主句",
+      "explanation": "表示在前面假设条件成立时会出现的结果：“我们俩都会好好享用晚餐的”，would体现出这是假设下的结果，不是事实。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘Young",
+      "meaning": "（引语开头）年轻的",
+      "pos": "形容词",
+      "phonetic": "/jʌŋ/"
+    },
+    {
+      "text": "man,’",
+      "meaning": "男人，（称呼）人、小伙子",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "answered,",
+      "meaning": "回答说",
+      "pos": "动词（过去式）",
+      "phonetic": "/ˈɑːnsəd/"
+    },
+    {
+      "text": "‘if",
+      "meaning": "如果，假如",
+      "pos": "连词",
+      "phonetic": "/ɪf/"
+    },
+    {
+      "text": "you",
+      "meaning": "你，你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "ate",
+      "meaning": "吃（eat的过去式）",
+      "pos": "动词",
+      "phonetic": "/eɪt/"
+    },
+    {
+      "text": "more",
+      "meaning": "更多（地）",
+      "pos": "副词",
+      "phonetic": "/mɔː(r)/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "talked",
+      "meaning": "说话，交谈（talk的过去式）",
+      "pos": "动词",
+      "phonetic": "/tɔːkt/"
+    },
+    {
+      "text": "less,",
+      "meaning": "更少（地）",
+      "pos": "副词",
+      "phonetic": "/les/"
+    },
+    {
+      "text": "we",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "would",
+      "meaning": "将会（will的过去式，表假设）",
+      "pos": "情态动词",
+      "phonetic": "/wʊd/"
+    },
+    {
+      "text": "both",
+      "meaning": "两个都，双方都",
+      "pos": "限定词",
+      "phonetic": "/bəʊθ/"
+    },
+    {
+      "text": "enjoy",
+      "meaning": "享受，享用",
+      "pos": "动词",
+      "phonetic": "/ɪnˈdʒɔɪ/"
+    },
+    {
+      "text": "our",
+      "meaning": "我们的",
+      "pos": "限定词",
+      "phonetic": "/ˈaʊə(r)/"
+    },
+    {
+      "text": "dinner!’",
+      "meaning": "晚餐，正餐",
+      "pos": "名词",
+      "phonetic": "/ˈdɪnə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘Young man,’",
+      "relation": "称呼对方，是引语的开头呼语",
+      "meaning": "“年轻人，”"
+    },
+    {
+      "text": "she answered,",
+      "relation": "交代说话人和说话动作，是整句的主句",
+      "meaning": "她回答道，"
+    },
+    {
+      "text": "‘if you ate more and talked less,",
+      "relation": "引语中的条件分句，说明后面结果成立的假设前提",
+      "meaning": "“如果你多吃点、少说话，”"
+    },
+    {
+      "text": "we would both enjoy our dinner!’",
+      "relation": "引语中的主句，说明假设条件下会出现的结果",
+      "meaning": "我们俩都会好好享用晚餐的！”"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-040",
+  "sentenceId": "nce-2-lesson-040-sentence-014",
+  "sentenceOrder": 15,
+  "english": "‘Young man,’ she answered, ‘if you ate more and talked less, we would both enjoy our dinner!’",
+  "lesson": "Lesson 40 Food and talk",
+  "notes": [
+    {
+      "title": "插入式引语的理解",
+      "text": "“she answered”插在前后两段引语中间，只是标明说话人，不打断引语内容的连贯性，阅读时可以把前后引号里的内容连起来当成一句完整的话来理解。"
+    },
+    {
+      "title": "非真实条件句的含义",
+      "text": "if从句用过去式ate、talked，主句用would enjoy，这是第二类条件句，表示和现在实际情况相反的假设：现实是你吃得少、说得多，所以我们没能好好享用晚餐。"
+    },
+    {
+      "title": "both的位置和作用",
+      "text": "both放在would和enjoy之间，强调“我们两个人都”，也就是说话人和听话人双方都会享受晚餐，不是只针对其中一方。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确可用，仅两处细节需修正：words中answered的英式音标标注错误，both的词性标注应为限定词而非代词，其余内容符合要求。（非逐句人工审核）"
+}

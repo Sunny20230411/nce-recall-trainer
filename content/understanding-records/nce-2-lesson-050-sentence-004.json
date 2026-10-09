@@ -1,0 +1,130 @@
+{
+  "chinese": "“我会告诉你在哪下车，” 售票员回答说。",
+  "intent": "引用售票员的回答，说明售票员主动告知对方下车的地点，承接前文对方不知道目的地位置的情境。",
+  "comparison": null,
+  "backbone": {
+    "text": "The conductor answered, 'I'll tell you where to get off.'",
+    "meaning": "售票员回答说：“我会告诉你在哪下车。”（为便于理解将倒装的引述句调整为常见语序，原句是引语在前、说话人在后的倒装形式）"
+  },
+  "structureNotes": [
+    {
+      "title": "引语在前的倒装语序",
+      "text": "整句把直接引语放在句首，后面用“answered the conductor”说明说话人，属于引述句的常见倒装写法，作用是突出引语内容，并不改变“售票员说这番话”的基本意思。"
+    },
+    {
+      "title": "where to get off 的含义和作用",
+      "text": "“where to get off” 是 tell 的直接宾语，整体表示“在哪里下车”；它由疑问词 where 加不定式构成，相当于一个简化的宾语从句，不需要额外加主语就能表达完整的疑问含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘I'll tell you where to get off,’",
+      "role": "直接引语（句子的前置宾语）",
+      "explanation": "这是售票员说的原话，作为 answered 的宾语；引语内部是一个主句加疑问词不定式结构的双宾语句，you 是间接宾语，where to get off 是直接宾语。"
+    },
+    {
+      "text": "where to get off",
+      "role": "引语中的直接宾语（疑问词+不定式结构）",
+      "explanation": "用来表示“下车的地点”，紧跟 tell 说明要告诉对方的具体内容，功能相当于一个名词性成分。"
+    },
+    {
+      "text": "answered the conductor.",
+      "role": "主句（引述句，主谓全部倒装）",
+      "explanation": "正常语序是 the conductor answered，这里因为直接引语放在句首，把谓语动词 answered 移到主语 the conductor 前面，用来衔接引语和说话人。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘I'll",
+      "meaning": "“我将要（引语开头，带左引号）",
+      "pos": "代词+助动词缩写（I will 的口语缩约形式）",
+      "phonetic": "/aɪl/"
+    },
+    {
+      "text": "tell",
+      "meaning": "告诉",
+      "pos": "动词",
+      "phonetic": "/tel/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "where",
+      "meaning": "在哪里",
+      "pos": "疑问副词",
+      "phonetic": "/weə(r)/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "get",
+      "meaning": "到达；（与off搭配）下车",
+      "pos": "动词",
+      "phonetic": "/ɡet/"
+    },
+    {
+      "text": "off,’",
+      "meaning": "下车，”（带右引号和逗号）",
+      "pos": "副词",
+      "phonetic": "/ɒf/"
+    },
+    {
+      "text": "answered",
+      "meaning": "回答说",
+      "pos": "动词（过去式）",
+      "phonetic": "/ˈɑːnsəd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个；那位（定冠词）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "conductor.",
+      "meaning": "售票员。（句末带句号）",
+      "pos": "名词",
+      "phonetic": "/kənˈdʌktə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘I'll tell you where to get off,’",
+      "meaning": "“我会告诉你在哪下车，”",
+      "relation": "被引用的说话内容，是 answered 的宾语，说明回答了什么"
+    },
+    {
+      "text": "answered the conductor.",
+      "meaning": "售票员回答说",
+      "relation": "主句，说明是谁说出了前面的话"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-004",
+  "sentenceOrder": 7,
+  "english": "‘I'll tell you where to get off,’ answered the conductor.",
+  "lesson": "Lesson 50 Taken for a ride",
+  "notes": [
+    {
+      "title": "引语在前的倒装语序",
+      "text": "整句把直接引语放在句首，后面用“answered the conductor”说明说话人，属于引述句的常见倒装写法，作用是突出引语内容，并不改变“售票员说这番话”的基本意思。"
+    },
+    {
+      "title": "where to get off 的含义和作用",
+      "text": "“where to get off” 是 tell 的直接宾语，整体表示“在哪里下车”；它由疑问词 where 加不定式构成，相当于一个简化的宾语从句，不需要额外加主语就能表达完整的疑问含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：词项词性、释义和引语结构角色存在小问题，修正后可用。（非逐句人工审核）"
+}

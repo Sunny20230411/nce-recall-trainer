@@ -1,0 +1,108 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-095",
+  "sentenceId": "nce-2-lesson-095-sentence-011",
+  "sentenceOrder": 11,
+  "english": "'The fire broke out in the basement.",
+  "chinese": "“火是从地下室烧起来的。",
+  "lesson": "Lesson 95 A fantasy",
+  "intent": "开始说明火灾发生及自己的后续遭遇。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "'The fire broke out",
+      "relation": "突发事件",
+      "meaning": "火灾发生了"
+    },
+    {
+      "text": "in the basement.",
+      "relation": "起火地点",
+      "meaning": "在地下室"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "事件短语",
+      "text": "break out 用于火灾等事件突然发生。"
+    },
+    {
+      "title": "引语边界",
+      "text": "本条只有开引号，后续仍是同一段发言。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "事件短语",
+      "text": "break out 用于火灾等事件突然发生。"
+    },
+    {
+      "title": "引语边界",
+      "text": "本条只有开引号，后续仍是同一段发言。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The fire",
+      "role": "主语",
+      "explanation": "前面提到的火灾。"
+    },
+    {
+      "text": "broke out",
+      "role": "谓语",
+      "explanation": "表示突然发生。"
+    },
+    {
+      "text": "in the basement",
+      "role": "地点状语",
+      "explanation": "说明起火地点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'The",
+      "meaning": "这场",
+      "pos": "冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "fire",
+      "meaning": "火灾",
+      "pos": "名词",
+      "phonetic": "/ˈfaɪə/"
+    },
+    {
+      "text": "broke",
+      "meaning": "爆发，组成break out",
+      "pos": "动词",
+      "phonetic": "/brəʊk/"
+    },
+    {
+      "text": "out",
+      "meaning": "发生，组成break out",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "该",
+      "pos": "冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "basement.",
+      "meaning": "地下室",
+      "pos": "名词",
+      "phonetic": "/ˈbeɪsmənt/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

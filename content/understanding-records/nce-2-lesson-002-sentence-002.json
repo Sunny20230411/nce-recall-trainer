@@ -1,0 +1,122 @@
+{
+  "chinese": "我星期天从不早起。",
+  "intent": "说明自己在周日的一贯作息习惯，即不会很早起床。",
+  "comparison": null,
+  "backbone": {
+    "text": "I never get up early on Sundays.",
+    "meaning": "我在周日从不早起。"
+  },
+  "structureNotes": [
+    {
+      "title": "on Sundays的含义",
+      "text": "Sundays用复数搭配介词on，指每个星期日、每逢周日，表达长期重复的习惯，不是单指某一个周日。"
+    },
+    {
+      "title": "never的位置和作用",
+      "text": "never是表示频率的否定词，放在谓语动词短语get up前面，用来强调“完全没有、从不”的习惯，比一般的否定语气更强。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话人自己，是“起床”这个动作的发出者。"
+    },
+    {
+      "text": "never get up early",
+      "role": "谓语部分",
+      "explanation": "描述主语的惯常行为，never表示从不，get up是起床的动作，early说明起床的时间早。"
+    },
+    {
+      "text": "on Sundays.",
+      "role": "时间状语",
+      "explanation": "说明动作发生的时间范围是每逢周日。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "never",
+      "meaning": "从不，从未",
+      "pos": "副词",
+      "phonetic": "/ˈnevə(r)/"
+    },
+    {
+      "text": "get",
+      "meaning": "（与up构成固定短语get up，表起床）",
+      "pos": "动词",
+      "phonetic": "/ɡet/"
+    },
+    {
+      "text": "up",
+      "meaning": "（与get构成固定短语get up，表起床）",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "early",
+      "meaning": "早，提早",
+      "pos": "副词",
+      "phonetic": "/ˈɜːli/"
+    },
+    {
+      "text": "on",
+      "meaning": "在（具体某天）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "Sundays.",
+      "meaning": "星期日（复数，表每逢周日）",
+      "pos": "名词",
+      "phonetic": "/ˈsʌndeɪz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "动作主体"
+    },
+    {
+      "text": "never",
+      "meaning": "从不",
+      "relation": "描述动作发生的频率"
+    },
+    {
+      "text": "get up early",
+      "meaning": "早起",
+      "relation": "主语发出的动作"
+    },
+    {
+      "text": "on Sundays.",
+      "meaning": "每逢周日",
+      "relation": "动作发生的时间"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-002",
+  "sentenceId": "nce-2-lesson-002-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I never get up early on Sundays.",
+  "lesson": "Lesson 2 Breakfast or lunch?",
+  "notes": [
+    {
+      "title": "on Sundays的含义",
+      "text": "Sundays用复数搭配介词on，指每个星期日、每逢周日，表达长期重复的习惯，不是单指某一个周日。"
+    },
+    {
+      "title": "never的位置和作用",
+      "text": "never是表示频率的否定词，放在谓语动词短语get up前面，用来强调“完全没有、从不”的习惯，比一般的否定语气更强。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，仅两处可修正细节：1. get的词义不应仅标注为“变得，来到”，不符合此处语境，应明确get up是固定短语“起床”中get的功能义；2. parts中时间状语的中文“在每逢周日的时候”存在语义重复，可调整得更通顺自然。其余内容（主干、结构、语法角色、音标等均符合要求。（非逐句人工审核）"
+}

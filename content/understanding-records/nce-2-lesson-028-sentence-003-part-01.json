@@ -1,0 +1,103 @@
+{
+  "chinese": "当他晚上回到家时，（本句为时间状语从句片段，需依附主句才有完整含义）",
+  "intent": "交代后续主句事件发生的时间背景，引出主句描述的常态情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "When he returns home at night,",
+    "meaning": "在他晚上回家的这个时间点上（用于引出后面发生的事）。"
+  },
+  "structureNotes": [
+    {
+      "title": "When引导的时间状语从句",
+      "text": "When在这里引出一个具体的时间场景，说明后面主句的事情是发生在“他晚上回家”这个时间点，本身不是完整独立的句子，必须依附主句才有完整含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When he returns home at night,",
+      "role": "时间状语从句（片段）",
+      "explanation": "用来交代后面主句动作发生的时间背景，由从属连词When引导；从句主语是he，谓语是returns，home为副词作地点状语修饰returns，说明返回的目的地；at night为时间状语，补充说明动作发生的时段。"
+    },
+    {
+      "text": "returns home",
+      "role": "从句的谓语+地点状语部分",
+      "explanation": "表示“回到家”的动作；returns是动词第三人称单数现在时作谓语，home在这里是副词，直接修饰returns，说明返回的目的地。"
+    },
+    {
+      "text": "at night,",
+      "role": "时间状语",
+      "explanation": "说明returns home这个动作发生的时段是晚上，放在从句句末补充时间信息。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/",
+      "text": "When"
+    },
+    {
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/",
+      "text": "he"
+    },
+    {
+      "meaning": "返回，回来",
+      "pos": "动词（第三人称单数现在时）",
+      "phonetic": "/rɪˈtɜːnz/",
+      "text": "returns"
+    },
+    {
+      "meaning": "到家，在家",
+      "pos": "副词",
+      "phonetic": "/həʊm/",
+      "text": "home"
+    },
+    {
+      "meaning": "在（某时间/地点）",
+      "pos": "介词",
+      "phonetic": "/æt/",
+      "text": "at"
+    },
+    {
+      "meaning": "夜晚，晚上",
+      "pos": "名词",
+      "phonetic": "/naɪt/",
+      "text": "night,"
+    }
+  ],
+  "parts": [
+    {
+      "text": "When",
+      "relation": "引导时间关系，标记后续内容为时间背景",
+      "meaning": "当……的时候"
+    },
+    {
+      "text": "he returns home",
+      "relation": "时间场景中的主体和核心动作",
+      "meaning": "他回到家"
+    },
+    {
+      "text": "at night,",
+      "relation": "补充说明回家动作发生的具体时段",
+      "meaning": "在晚上"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-028",
+  "sentenceId": "nce-2-lesson-028-sentence-003-part-01",
+  "sentenceOrder": 5,
+  "english": "When he returns home at night,",
+  "lesson": "Lesson 28 No parking",
+  "notes": [
+    {
+      "title": "When引导的时间状语从句",
+      "text": "When在这里引出一个具体的时间场景，说明后面主句的事情是发生在“他晚上回家”这个时间点，本身不是完整独立的句子，必须依附主句才有完整含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，仅需明确标注本句为时间状语从句片段、修正翻译不完整问题，并调整结构说明的表述严谨性。（非逐句人工审核）"
+}

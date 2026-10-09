@@ -1,0 +1,123 @@
+{
+  "chinese": "在这些场合，情况总是一样的。",
+  "intent": "说明每逢这类情形，状况往往都是相同的。",
+  "comparison": null,
+  "backbone": {
+    "text": "It is the same on these occasions.",
+    "meaning": "在这些场合下，情况是一样的。"
+  },
+  "structureNotes": [
+    {
+      "title": "It的指代作用",
+      "text": "句首的It并不指某个具体事物，而是泛指当前的情况、局面，不需要特意译出“它”，中文自然说成“情况”或“情形”。"
+    },
+    {
+      "title": "on these occasions的含义",
+      "text": "on用于表示“在某种场合/时机”，on these occasions指“在这些情形下、每逢这种场合”，用来限定句子成立的场景。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "主语（泛指情况）",
+      "explanation": "作句子的主语，不指代具体某个东西，而是泛指当下的局面或状况。"
+    },
+    {
+      "text": "is always the same",
+      "role": "谓语部分",
+      "explanation": "说明主语的状态，always表示“总是”，the same表示“一样的、相同的”，整体表达“总是如此”。"
+    },
+    {
+      "text": "on these occasions",
+      "role": "场景状语",
+      "explanation": "说明前面说的“总是一样”发生在什么场景下，即“在这些场合/情形中”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（此处泛指情况）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be的第三人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是，一直",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（此处与same连用表“同样的”）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "same",
+      "meaning": "同样的，一样的",
+      "pos": "形容词",
+      "phonetic": "/seɪm/"
+    },
+    {
+      "text": "on",
+      "meaning": "在（某种场合/时间）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "these",
+      "meaning": "这些",
+      "pos": "限定词",
+      "phonetic": "/ðiːz/"
+    },
+    {
+      "text": "occasions.",
+      "meaning": "场合，情形（复数）",
+      "pos": "名词",
+      "phonetic": "/əˈkeɪʒənz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It",
+      "relation": "描述对象",
+      "meaning": "它（泛指情况）"
+    },
+    {
+      "text": "is always the same",
+      "relation": "描述对象的状态",
+      "meaning": "总是一样的"
+    },
+    {
+      "text": "on these occasions.",
+      "relation": "时间/场景范围",
+      "meaning": "在这些场合"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-013",
+  "sentenceId": "nce-2-lesson-013-sentence-010",
+  "sentenceOrder": 10,
+  "english": "It is always the same on these occasions.",
+  "lesson": "Lesson 13 The Greenwood Boys",
+  "notes": [
+    {
+      "title": "It的指代作用",
+      "text": "句首的It并不指某个具体事物，而是泛指当前的情况、局面，不需要特意译出“它”，中文自然说成“情况”或“情形”。"
+    },
+    {
+      "title": "on these occasions的含义",
+      "text": "on用于表示“在某种场合/时机”，on these occasions指“在这些情形下、每逢这种场合”，用来限定句子成立的场景。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅两处小问题需修正：1. same的词性标注为代词不准确，此处为形容词，与定冠词the连用构成形容词短语作表语；2. words数组最后一项text为occasions.（带句点），释义无需调整，但需确认词性与词义匹配（原词义正确）。其余字段如翻译、结构分析、指代说明、状语功能均符合要求，comparison为空符合语境无需补充。（非逐句人工审核）"
+}

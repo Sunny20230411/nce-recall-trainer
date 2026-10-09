@@ -1,0 +1,148 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-045",
+  "sentenceId": "nce-2-lesson-045-sentence-002",
+  "sentenceOrder": 2,
+  "english": "He bought it from a man who lived in a small village.",
+  "chinese": "他是从一个住在小村庄的男子那里买的这辆车。",
+  "lesson": "Lesson 45 A clear conscience",
+  "intent": "说明旧车的购买来源",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "He bought it",
+      "relation": "购买行为",
+      "meaning": "他买了这辆车"
+    },
+    {
+      "text": "from a man",
+      "relation": "来源",
+      "meaning": "从一名男子那里"
+    },
+    {
+      "text": "who lived in a small village.",
+      "relation": "人物说明",
+      "meaning": "那人住在一个小村庄"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "指回卖车人",
+      "text": "who修饰man并作lived的主语，不能指汽车。"
+    },
+    {
+      "title": "购买来源",
+      "text": "from引出卖方，与表示为谁购买的for不同。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "指回卖车人",
+      "text": "who修饰man并作lived的主语，不能指汽车。"
+    },
+    {
+      "title": "购买来源",
+      "text": "from引出卖方，与表示为谁购买的for不同。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指丈夫。"
+    },
+    {
+      "text": "bought it",
+      "role": "谓语与宾语",
+      "explanation": "it指旧车。"
+    },
+    {
+      "text": "from a man who lived in a small village.",
+      "role": "来源状语",
+      "explanation": "说明从谁那里买车。"
+    },
+    {
+      "text": "who lived in a small village.",
+      "role": "定语从句",
+      "explanation": "补充卖车人的居住地。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "bought",
+      "meaning": "买了",
+      "pos": "动词",
+      "phonetic": "/bɔːt/"
+    },
+    {
+      "text": "it",
+      "meaning": "这辆车",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "from",
+      "meaning": "从……那里",
+      "pos": "介词",
+      "phonetic": "/frəm/ 或 /frɒm/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "man",
+      "meaning": "男子",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "who",
+      "meaning": "指男子，引出修饰",
+      "pos": "关系代词",
+      "phonetic": "/huː/"
+    },
+    {
+      "text": "lived",
+      "meaning": "居住",
+      "pos": "动词",
+      "phonetic": "/lɪvd/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "small",
+      "meaning": "小的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/"
+    },
+    {
+      "text": "village.",
+      "meaning": "村庄",
+      "pos": "名词",
+      "phonetic": "/ˈvɪlɪdʒ/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

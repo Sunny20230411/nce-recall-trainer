@@ -1,0 +1,168 @@
+{
+  "chinese": "我坐在公共汽车的前部，以便欣赏风景。",
+  "intent": "说明自己坐在公交车前部的动作及这样做的目的是欣赏沿途风景。",
+  "comparison": {
+    "chinese": "我坐在公交车前部看风景。",
+    "english": "I sat at the front of the bus to enjoy the view.",
+    "steps": [
+      {
+        "label": "先抓主干动作",
+        "text": "I sat at the front of the bus",
+        "explanation": "中文先说“我坐在公交车前部”，英文也是先交代主语、动作和地点，这部分语序和中文基本一致。"
+      },
+      {
+        "label": "再接目的",
+        "text": "to enjoy the view",
+        "explanation": "中文可以把“看风景”直接连在动作后面，暗含目的；英文用to do放在句末明确说明坐前面的目的，读者自然明白是为了做这件事。"
+      }
+    ],
+    "takeaway": "英文用to do放在句末表动作目的，中文常靠语序和逻辑自然暗含目的，不一定需要明显的“为了”。"
+  },
+  "backbone": {
+    "text": "I sat at the front of the bus to enjoy the view.",
+    "meaning": "我坐在公交车前部，目的是欣赏风景。"
+  },
+  "structureNotes": [
+    {
+      "title": "at the front of 的含义",
+      "text": "at the front of the bus 指在公交车内部的前部区域，区别于 in front of（在物体外部的前面）。"
+    },
+    {
+      "title": "to enjoy 表目的",
+      "text": "to enjoy the view 是目的状语，说明坐在前面的原因是为了看风景，to 在这里引出要达成的目标。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "动作的发出者，指说话人自己。"
+    },
+    {
+      "text": "sat",
+      "role": "谓语动词",
+      "explanation": "sit 的过去式，表示“坐”这个已经发生的动作。"
+    },
+    {
+      "text": "at the front of the bus",
+      "role": "地点状语",
+      "explanation": "说明坐的位置是在公交车内部的前部。"
+    },
+    {
+      "text": "to enjoy the view",
+      "role": "目的状语",
+      "explanation": "说明坐在前面是为了欣赏风景。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "sat",
+      "meaning": "坐（sit的过去式）",
+      "pos": "动词",
+      "phonetic": "/sæt/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（某处）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "front",
+      "meaning": "前部，前面",
+      "pos": "名词",
+      "phonetic": "/frʌnt/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bus",
+      "meaning": "公共汽车",
+      "pos": "名词",
+      "phonetic": "/bʌs/"
+    },
+    {
+      "text": "to",
+      "meaning": "（引出目的）为了",
+      "pos": "不定式符号",
+      "phonetic": "/tə; tuː/"
+    },
+    {
+      "text": "enjoy",
+      "meaning": "欣赏，享受",
+      "pos": "动词",
+      "phonetic": "/ɪnˈdʒɔɪ/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "view.",
+      "meaning": "风景，景色",
+      "pos": "名词",
+      "phonetic": "/vjuː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I sat",
+      "relation": "主语加动作，是句子的核心",
+      "meaning": "我坐"
+    },
+    {
+      "text": "at the front of the bus",
+      "relation": "地点，说明坐的位置",
+      "meaning": "在公共汽车的前部"
+    },
+    {
+      "text": "to enjoy the view.",
+      "relation": "目的，说明坐在前面是为了做什么",
+      "meaning": "来欣赏风景"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-005",
+  "sentenceOrder": 8,
+  "english": "I sat at the front of the bus to enjoy the view.",
+  "lesson": "Lesson 50 Taken for a ride",
+  "notes": [
+    {
+      "title": "at the front of 的含义",
+      "text": "at the front of the bus 指在公交车内部的前部区域，区别于 in front of（在物体外部的前面）。"
+    },
+    {
+      "title": "to enjoy 表目的",
+      "text": "to enjoy the view 是目的状语，说明坐在前面的原因是为了看风景，to 在这里引出要达成的目标。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅words中view.的释义多余附带句末点号的说明无需调整，但需修正to的音标标注不统一问题，同时完善view词项的释义表述；其余字段符合要求。（非逐句人工审核）"
+}

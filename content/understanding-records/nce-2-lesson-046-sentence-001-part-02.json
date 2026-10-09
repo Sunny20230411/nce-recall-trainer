@@ -1,0 +1,173 @@
+{
+  "chinese": "工人们开始卸下一些装有衣物的木箱。",
+  "intent": "说明工人们开展的卸货动作，以及所卸木箱的内部装物。",
+  "comparison": {
+    "chinese": "工人们开始卸下一些［装有衣物的］木箱。",
+    "english": "workers began to unload a number of wooden boxes which contained clothing.",
+    "steps": [
+      {
+        "label": "第一步：抓住主干动作",
+        "text": "workers began to unload a number of wooden boxes",
+        "explanation": "先理解核心信息：主语是工人们，动作是开始卸，对象是一些木箱。中文和英文这部分语序基本一致。"
+      },
+      {
+        "label": "第二步：补充木箱的属性",
+        "text": "which contained clothing",
+        "explanation": "which 指前面的 wooden boxes，用来回答“这些木箱是怎样的/装了什么”的问题。中文习惯把这个说明放在“木箱”前面作定语，英文则放在名词后面用从句补充。"
+      }
+    ],
+    "takeaway": "英文习惯先把“卸木箱”这件事说完，再用 which 引出从句补充木箱里装的东西；中文会把“装有衣物的”直接放在“木箱”前面。"
+  },
+  "backbone": {
+    "text": "workers began to unload wooden boxes",
+    "meaning": "工人们开始卸木箱。"
+  },
+  "structureNotes": [
+    {
+      "title": "which 引导的从句作用",
+      "text": "which contained clothing 紧跟在 wooden boxes 后面，which 指的就是这些木箱，用来补充说明木箱里面装的是衣物。"
+    },
+    {
+      "title": "a number of 的含义",
+      "text": "a number of 意思是“一些、若干”，后面接可数名词复数，在这里修饰 wooden boxes，表示数量不止一个。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "workers",
+      "role": "主语",
+      "explanation": "执行“开始卸货”这个动作的人。"
+    },
+    {
+      "text": "began to unload",
+      "role": "谓语",
+      "explanation": "表示主语发出的动作：开始做卸下某物的动作，began 是过去式，to unload 是 begin 的具体内容。"
+    },
+    {
+      "text": "a number of wooden boxes",
+      "role": "宾语",
+      "explanation": "是“卸下”这个动作的对象，也就是被卸的东西。"
+    },
+    {
+      "text": "which contained clothing.",
+      "role": "定语从句",
+      "explanation": "修饰前面的 wooden boxes，说明这些木箱里面装着衣物，which 在从句中作主语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "workers",
+      "meaning": "工人（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈwɜːkəz/"
+    },
+    {
+      "text": "began",
+      "meaning": "开始（begin的过去式）",
+      "pos": "动词",
+      "phonetic": "/bɪˈɡæn/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "unload",
+      "meaning": "卸下，卸货",
+      "pos": "动词",
+      "phonetic": "/ˌʌnˈləʊd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "number",
+      "meaning": "数量，数目",
+      "pos": "名词",
+      "phonetic": "/ˈnʌmbə/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表所属/数量关系）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "wooden",
+      "meaning": "木制的",
+      "pos": "形容词",
+      "phonetic": "/ˈwʊdən/"
+    },
+    {
+      "text": "boxes",
+      "meaning": "箱子，盒子（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈbɒksɪz/"
+    },
+    {
+      "text": "which",
+      "meaning": "……的那些（引导从句，指代boxes）",
+      "pos": "关系代词",
+      "phonetic": "/wɪtʃ/"
+    },
+    {
+      "text": "contained",
+      "meaning": "装有，包含（contain的过去式）",
+      "pos": "动词",
+      "phonetic": "/kənˈteɪnd/"
+    },
+    {
+      "text": "clothing.",
+      "meaning": "衣物，服装（总称）",
+      "pos": "名词",
+      "phonetic": "/ˈkləʊðɪŋ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "workers",
+      "relation": "动作的发出者",
+      "meaning": "工人们"
+    },
+    {
+      "text": "began to unload",
+      "relation": "描述主语发出的动作",
+      "meaning": "开始卸下"
+    },
+    {
+      "text": "a number of wooden boxes",
+      "relation": "被卸下的对象",
+      "meaning": "一些木制的箱子"
+    },
+    {
+      "text": "which contained clothing.",
+      "relation": "补充说明木箱里装的是什么",
+      "meaning": "（这些箱子）装着衣物"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-046",
+  "sentenceId": "nce-2-lesson-046-sentence-001-part-02",
+  "sentenceOrder": 2,
+  "english": "workers began to unload a number of wooden boxes which contained clothing.",
+  "lesson": "Lesson 46 Expensive and uncomfortable",
+  "notes": [
+    {
+      "title": "which 引导的从句作用",
+      "text": "which contained clothing 紧跟在 wooden boxes 后面，which 指的就是这些木箱，用来补充说明木箱里面装的是衣物。"
+    },
+    {
+      "title": "a number of 的含义",
+      "text": "a number of 意思是“一些、若干”，后面接可数名词复数，在这里修饰 wooden boxes，表示数量不止一个。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文内容覆盖完整，仅单词clothing释义末尾多余句号，主干宾语未对应原文a number of的数量信息，需修正。（非逐句人工审核）"
+}

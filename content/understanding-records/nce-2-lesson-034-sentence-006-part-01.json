@@ -1,0 +1,73 @@
+{
+  "chinese": "五天前，",
+  "intent": "交代后续事件发生的具体过去时间点，为下文主句内容提供时间参照。",
+  "comparison": null,
+  "backbone": {
+    "text": "Five days ago,",
+    "meaning": "（事情发生在）五天前"
+  },
+  "structureNotes": [
+    {
+      "title": "片段性质说明",
+      "text": "这是一个仅由时间短语构成的片段，不是完整句子，作用是引出后面主句所述事件的时间背景，本身没有主语和谓语。"
+    },
+    {
+      "title": "ago的用法",
+      "text": "ago 放在表示时间段的词语后面，指从现在往回数的过去时间，搭配一般过去时使用。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Five days ago,",
+      "role": "时间状语",
+      "explanation": "整体表示“五天前”这个过去时间点，用来限定后面主句动作发生的时间，属于句首的时间状语片段。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Five",
+      "meaning": "五",
+      "pos": "数词",
+      "phonetic": "/faɪv/"
+    },
+    {
+      "text": "days",
+      "meaning": "天（复数）",
+      "pos": "名词",
+      "phonetic": "/deɪz/"
+    },
+    {
+      "text": "ago,",
+      "meaning": "以前（用于时间段后表示过去时间）",
+      "pos": "副词",
+      "phonetic": "/əˈɡəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Five days ago,",
+      "relation": "时间（说明后续事件发生的时间）",
+      "meaning": "五天前，"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-034",
+  "sentenceId": "nce-2-lesson-034-sentence-006-part-01",
+  "sentenceOrder": 8,
+  "english": "Five days ago,",
+  "lesson": "Lesson 34 Quick work",
+  "notes": [
+    {
+      "title": "片段性质说明",
+      "text": "这是一个仅由时间短语构成的片段，不是完整句子，作用是引出后面主句所述事件的时间背景，本身没有主语和谓语。"
+    },
+    {
+      "title": "ago的用法",
+      "text": "ago 放在表示时间段的词语后面，指从现在往回数的过去时间，搭配一般过去时使用。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，仅需修正words中ago的释义冗余（不必附带句内停顿逗号说明）及词性表述的严谨性，其余符合要求。（非逐句人工审核）"
+}

@@ -1,0 +1,95 @@
+{
+  "chinese": "“没关系，”我说。",
+  "intent": "回应售票员忘记让自己下车的事，表示自己并不介意。",
+  "comparison": null,
+  "backbone": {
+    "text": "I said, ‘It doesn't matter.’",
+    "meaning": "我说了“没关系”这句话。"
+  },
+  "structureNotes": [
+    {
+      "title": "引语在前的对话结构",
+      "text": "本句把直接引语放在句首，后面才交代说话人“I said”，是英文对话里常见的语序，用来突出所说的内容，中文翻译时可以灵活调整为“我说：……”或保留“……，我说”的顺序。"
+    },
+    {
+      "title": "It doesn't matter 的用法",
+      "text": "这是口语里常用的回应，用来表示某事不重要、自己不介意，通常用来回答别人的道歉或疏忽，这里就是针对售票员忘让“我”下车的道歉。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘It doesn't matter,’",
+      "role": "直接引语（宾语）",
+      "explanation": "这是“我”说的具体内容，在句子里作said的宾语，因为是直接引语，所以保留原句的样子和标点。"
+    },
+    {
+      "text": "I said.",
+      "role": "主句主谓语",
+      "explanation": "交代说话的人是“我”，以及动作是“说”，是整个句子的主干部分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘It",
+      "meaning": "它（此处为形式主语，构成“It doesn't matter”固定表达，意为没关系）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "doesn't",
+      "meaning": "不（does not的缩写，构成一般现在时否定）",
+      "pos": "助动词否定式",
+      "phonetic": "/ˈdʌznt/"
+    },
+    {
+      "text": "matter,’",
+      "meaning": "要紧，有重大关系",
+      "pos": "动词",
+      "phonetic": "/ˈmætə(r)/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说（say的过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘It doesn't matter,’",
+      "relation": "说出的具体内容",
+      "meaning": "“没关系，”"
+    },
+    {
+      "text": "I said.",
+      "relation": "说话的人和动作",
+      "meaning": "我说。"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-012",
+  "sentenceOrder": 15,
+  "english": "‘It doesn't matter,’ I said.",
+  "lesson": "Lesson 50 Taken for a ride",
+  "notes": [
+    {
+      "title": "引语在前的对话结构",
+      "text": "本句把直接引语放在句首，后面才交代说话人“I said”，是英文对话里常见的语序，用来突出所说的内容，中文翻译时可以灵活调整为“我说：……”或保留“……，我说”的顺序。"
+    },
+    {
+      "title": "It doesn't matter 的用法",
+      "text": "这是口语里常用的回应，用来表示某事不重要、自己不介意，通常用来回答别人的道歉或疏忽，这里就是针对售票员忘让“我”下车的道歉。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：词项与分块的标点保留符合约定，整体解析准确，仅单词音标注释的格式与词义表述有小瑕疵，可修正后使用。（非逐句人工审核）"
+}

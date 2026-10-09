@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-029",
+  "sentenceId": "nce-2-lesson-029-sentence-002",
+  "english": "The taxi is a small Swiss aeroplane called a Pilatus Porter.",
+  "text": "中文会说“叫…的飞机”，把名字放在前面。英语先讲 The taxi is a small Swiss aeroplane 说清是什么，再用 called a Pilatus Porter 补充名字和称呼。以后介绍“叫什么的东西”，可以先交代事物本身，再用 called... 补名字，不必都挤成带“的”的长定语。",
+  "sourceDigest": "f8b3cbd9a1d613273d1409e68c26c095b68349d7a4f18d652bb85d932517c11a",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：准确抓住了中英定语位置差异带来的直译误区，给出了具体可复用的表达思路，符合从意图出发组织信息的教学方向。",
+  "editorialAuthor": "Codex",
+  "editorialDigest": "687e8e6be0d83c9ba3c0e37f13697fc85a556bee350ad15979ef8b09e068fdcf",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "Codex",
+    "method": "codex-editorial-self-review-not-human-verification",
+    "note": "按完整名师提点标准复查表达意图、中英差异、信息组织、表达选择和迁移价值。"
+  }
+}

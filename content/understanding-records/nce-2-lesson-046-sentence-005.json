@@ -1,0 +1,201 @@
+{
+  "chinese": "一个男人正躺在箱子里，箱子压在一堆羊毛制品上面。",
+  "intent": "描述发现的现场状况，说明箱子里有人以及他所处的具体位置。",
+  "comparison": {
+    "chinese": "中文习惯从大到小、从下到上说位置：“一堆羊毛制品上面的箱子里”，把落脚点“箱子里”放最后；英文先讲核心事件“男人躺在箱子里”，再用后置短语补充箱子在什么上面。",
+    "english": "A man was lying in the box on top of a pile of woollen goods.",
+    "steps": [
+      {
+        "label": "第一步：抓住主干事件",
+        "text": "A man was lying in the box",
+        "explanation": "先理解最主要的信息：有个男人正躺在箱子里，这是全句的核心。"
+      },
+      {
+        "label": "第二步：补充箱子的位置",
+        "text": "on top of a pile of woollen goods",
+        "explanation": "紧跟在the box后面，说明箱子所在的位置——在一堆羊毛制品的上面，修饰前面的box。"
+      }
+    ],
+    "takeaway": "英文多个地点状语通常按“由近及远、先小后大”的顺序排列，离动作最近的地点先说，更远的背景位置后补；中文则相反，习惯从大背景说到小落点。"
+  },
+  "backbone": {
+    "text": "A man was lying in the box.",
+    "meaning": "一个男人正躺在箱子里。"
+  },
+  "structureNotes": [
+    {
+      "title": "地点短语的叠加修饰",
+      "text": "in the box 直接说明lie的位置，后面的 on top of a pile of woollen goods 进一步修饰 the box，说明箱子放在什么上面，两层地点信息从近到远排列。"
+    },
+    {
+      "title": "过去进行时的用法",
+      "text": "was lying 是过去进行时，强调在被发现的那个时刻，男人正处于躺在箱子里的状态，而不是一次性的动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A man",
+      "role": "主语",
+      "explanation": "句子描述的对象，指躺在箱子里的那个男人。"
+    },
+    {
+      "text": "was lying",
+      "role": "谓语",
+      "explanation": "过去进行时，表示过去某个时刻正在进行的状态“正躺着”。"
+    },
+    {
+      "text": "in the box",
+      "role": "地点状语（近）",
+      "explanation": "说明lie这个动作发生的具体位置，即在箱子里面。"
+    },
+    {
+      "text": "on top of a pile of woollen goods.",
+      "role": "地点定语（修饰box）",
+      "explanation": "补充说明箱子所处的位置，也就是箱子放在一堆羊毛制品的上面。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "A"
+    },
+    {
+      "meaning": "男人，人",
+      "pos": "名词",
+      "phonetic": "/mæn/",
+      "text": "man"
+    },
+    {
+      "meaning": "（be动词过去式，构成进行时）",
+      "pos": "be动词",
+      "phonetic": "/wɒz/",
+      "text": "was"
+    },
+    {
+      "meaning": "躺，平卧（现在分词）",
+      "pos": "动词",
+      "phonetic": "/ˈlaɪɪŋ/",
+      "text": "lying"
+    },
+    {
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这个，那个（定指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "箱子，盒子",
+      "pos": "名词",
+      "phonetic": "/bɒks/",
+      "text": "box"
+    },
+    {
+      "meaning": "在……之上",
+      "pos": "介词",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "顶部，顶端",
+      "pos": "名词",
+      "phonetic": "/tɒp/",
+      "text": "top"
+    },
+    {
+      "meaning": "……的（表所属）",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "堆，叠",
+      "pos": "名词",
+      "phonetic": "/paɪl/",
+      "text": "pile"
+    },
+    {
+      "meaning": "……的（表所属）",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "羊毛的，毛纺的",
+      "pos": "形容词",
+      "phonetic": "/ˈwʊlən/",
+      "text": "woollen"
+    },
+    {
+      "meaning": "货物，商品",
+      "pos": "名词",
+      "phonetic": "/ɡʊdz/",
+      "text": "goods."
+    }
+  ],
+  "parts": [
+    {
+      "text": "A man",
+      "relation": "描述谁",
+      "meaning": "一个男人"
+    },
+    {
+      "text": "was lying",
+      "relation": "做什么（处于什么状态）",
+      "meaning": "正躺着"
+    },
+    {
+      "text": "in the box",
+      "relation": "动作发生的地点",
+      "meaning": "在箱子里"
+    },
+    {
+      "text": "on top of",
+      "relation": "补充说明箱子的位置",
+      "meaning": "在……的顶部"
+    },
+    {
+      "text": "a pile",
+      "relation": "说明数量",
+      "meaning": "一堆"
+    },
+    {
+      "text": "of woollen goods.",
+      "relation": "描述这堆东西是什么",
+      "meaning": "羊毛制品"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-046",
+  "sentenceId": "nce-2-lesson-046-sentence-005",
+  "sentenceOrder": 6,
+  "english": "A man was lying in the box on top of a pile of woollen goods.",
+  "lesson": "Lesson 46 Expensive and uncomfortable",
+  "notes": [
+    {
+      "title": "地点短语的叠加修饰",
+      "text": "in the box 直接说明lie的位置，后面的 on top of a pile of woollen goods 进一步修饰 the box，说明箱子放在什么上面，两层地点信息从近到远排列。"
+    },
+    {
+      "title": "过去进行时的用法",
+      "text": "was lying 是过去进行时，强调在被发现的那个时刻，男人正处于躺在箱子里的状态，而不是一次性的动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅parts最后一项的meaning表述略生硬，words中第11个词a的meaning需修正，其余信息均符合要求。（非逐句人工审核）"
+}

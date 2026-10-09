@@ -1,0 +1,109 @@
+{
+  "chinese": "他经常这样做！’",
+  "intent": "说话人指出前文提到的那只狗常做出类似的行为，略带无奈或吐槽的语气。",
+  "comparison": null,
+  "backbone": {
+    "text": "He does this!",
+    "meaning": "他做这种事！"
+  },
+  "structureNotes": [
+    {
+      "title": "often的位置",
+      "text": "often是表示频率的副词，放在主语和谓语动词之间，说明动作发生的频繁程度。"
+    },
+    {
+      "title": "this的指代",
+      "text": "this指代上文提到的“把东西叼进花园”这件事，不需要重复说完整动作，读者能从前文明白所指。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代前文提到的那只狗，是做动作的主体。"
+    },
+    {
+      "text": "often",
+      "role": "频率状语",
+      "explanation": "说明“做这事”的发生频率很高，不是偶尔一次。"
+    },
+    {
+      "text": "does",
+      "role": "谓语动词",
+      "explanation": "是实义动词do的第三人称单数现在时形式，意思是“做、干”。"
+    },
+    {
+      "text": "this!",
+      "role": "宾语",
+      "explanation": "指代前文提到的具体行为，作does的宾语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他（本句指代那只狗）",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "often",
+      "meaning": "经常，常常",
+      "pos": "副词",
+      "phonetic": "/ˈɒfn/"
+    },
+    {
+      "text": "does",
+      "meaning": "做，干（do的第三人称单数现在时形式）",
+      "pos": "动词",
+      "phonetic": "/dʌz/"
+    },
+    {
+      "text": "this!’",
+      "meaning": "这个（指代前文提到的行为）",
+      "pos": "代词",
+      "phonetic": "/ðɪs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "动作的发出者",
+      "meaning": "他（指代那只狗）"
+    },
+    {
+      "text": "often",
+      "relation": "说明动作发生的频率",
+      "meaning": "经常"
+    },
+    {
+      "text": "does",
+      "relation": "主语发出的动作",
+      "meaning": "做"
+    },
+    {
+      "text": "this!’",
+      "relation": "动作的对象，指代前文提到的行为",
+      "meaning": "这事！’"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-018",
+  "sentenceId": "nce-2-lesson-018-sentence-011",
+  "sentenceOrder": 11,
+  "english": "He often does this!’",
+  "lesson": "Lesson 18 He often does this!",
+  "notes": [
+    {
+      "title": "often的位置",
+      "text": "often是表示频率的副词，放在主语和谓语动词之间，说明动作发生的频繁程度。"
+    },
+    {
+      "title": "this的指代",
+      "text": "this指代上文提到的“把东西叼进花园”这件事，不需要重复说完整动作，读者能从前文明白所指。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：译文中的起始引号与原文末尾的闭合引号不匹配，且words项中this的pos标注错误混入了标点说明，其余内容准确。（非逐句人工审核）"
+}

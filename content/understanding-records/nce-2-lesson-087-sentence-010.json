@@ -1,0 +1,112 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-087",
+  "sentenceId": "nce-2-lesson-087-sentence-010",
+  "sentenceOrder": 10,
+  "english": "'At what time did you arrive at the station?'",
+  "chinese": "“你几点到达车站的？”",
+  "lesson": "Lesson 87 A perfect alibi",
+  "intent": "核对当天到站时刻",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "'At what time",
+      "relation": "未知时刻",
+      "meaning": "在几点"
+    },
+    {
+      "text": "did you arrive at the station?'",
+      "relation": "待核实事件",
+      "meaning": "你到达车站"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "两处 at",
+      "text": "第一处引时间，第二处引到达地点。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "两处 at",
+      "text": "第一处引时间，第二处引到达地点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "At what time",
+      "role": "疑问时间状语",
+      "explanation": "所问焦点。"
+    },
+    {
+      "text": "did you arrive",
+      "role": "疑问主干",
+      "explanation": "一般过去时核对事件。"
+    },
+    {
+      "text": "at the station",
+      "role": "地点状语",
+      "explanation": "说明到达处。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'At",
+      "meaning": "在",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "what",
+      "meaning": "什么",
+      "pos": "疑问限定词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "time",
+      "meaning": "时间",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    },
+    {
+      "text": "did",
+      "meaning": "构成过去时疑问",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "人称代词",
+      "phonetic": "/juː/ 或 /jʊ/"
+    },
+    {
+      "text": "arrive",
+      "meaning": "到达",
+      "pos": "动词",
+      "phonetic": "/əˈraɪv/"
+    },
+    {
+      "text": "at",
+      "meaning": "在；到",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "该",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "station?'",
+      "meaning": "车站",
+      "pos": "名词",
+      "phonetic": "/ˈsteɪʃən/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

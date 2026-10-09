@@ -1,0 +1,183 @@
+{
+  "chinese": "牙医总在你没法回答的时候问问题。",
+  "intent": "描述一种常见的场景：牙医往往趁你没法开口回答的时候提出问题，带有一点调侃意味，引出下文的经历。",
+  "comparison": {
+    "chinese": "牙医总在你没法回答的时候问问题。",
+    "english": "Dentists always ask questions when it is impossible for you to answer.",
+    "steps": [
+      {
+        "label": "先抓主干：谁做什么",
+        "text": "Dentists always ask questions",
+        "explanation": "中文和英文一样，先讲核心事实：牙医总是问问题。这是句子的主要信息。"
+      },
+      {
+        "label": "再看时间背景：什么时候问",
+        "text": "when it is impossible for you to answer",
+        "explanation": "英文把时间背景放在句尾，中文习惯把“在……的时候”放在动作前面。先知道主干，再补充“在什么情况下发生”。"
+      },
+      {
+        "label": "弄清 it 指代什么",
+        "text": "it is impossible for you to answer",
+        "explanation": "这里的 it 不是“它”，只是形式上的主语，真正的事情是“你回答（问题）”。中文直接说“你没法回答”，不需要加一个虚的主语。"
+      }
+    ],
+    "takeaway": "英文习惯先说主干动作，再用 when 交代时间背景；it is + 形容词 + for sb to do 结构里，it 是虚主语，真正的事是后面的 to do，中文不用这个虚主语，直接说“某人做某事是怎样的”或“某人没法做某事”。"
+  },
+  "backbone": {
+    "text": "Dentists ask questions.",
+    "meaning": "牙医问问题。"
+  },
+  "structureNotes": [
+    {
+      "title": "when 引导的时间状语",
+      "text": "when it is impossible for you to answer 说明主句动作发生的时间，意思是“当你没法回答的时候”，修饰前面的“问问题”。"
+    },
+    {
+      "title": "it 作形式主语",
+      "text": "it is impossible for you to answer 里 it 没有实际词义，只是放在主语位置撑结构，真正的主语是后面的 for you to answer（你回答这件事）。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Dentists always ask questions",
+      "role": "主句",
+      "explanation": "句子的核心信息，说明“牙医总是问问题”这件事。"
+    },
+    {
+      "text": "when it is impossible for you to answer.",
+      "role": "时间状语从句",
+      "explanation": "用 when 引出主句动作发生的时间背景：在你无法回答的时候。"
+    },
+    {
+      "text": "it is impossible for you to answer",
+      "role": "从句主干（含形式主语）",
+      "explanation": "it 是形式主语，真正表示“不可能”的事情是“你回答（问题）”；for you 说明动作是谁做的，to answer 是真正的主语部分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Dentists",
+      "meaning": "牙医（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈdentɪsts/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是，一直",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "ask",
+      "meaning": "问，询问",
+      "pos": "动词",
+      "phonetic": "/ɑːsk/"
+    },
+    {
+      "text": "questions",
+      "meaning": "问题（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈkwestʃənz/"
+    },
+    {
+      "text": "when",
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（此处作形式主语，无实义）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be动词第三人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "impossible",
+      "meaning": "不可能的",
+      "pos": "形容词",
+      "phonetic": "/ɪmˈpɒsəbl/"
+    },
+    {
+      "text": "for",
+      "meaning": "对……来说，给",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "you",
+      "meaning": "你，你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "answer.",
+      "meaning": "回答",
+      "pos": "动词",
+      "phonetic": "/ˈɑːnsə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Dentists",
+      "meaning": "牙医们",
+      "relation": "动作的发出者，描述谁在做"
+    },
+    {
+      "text": "always",
+      "meaning": "总是",
+      "relation": "说明动作发生的频率"
+    },
+    {
+      "text": "ask questions",
+      "meaning": "问问题",
+      "relation": "主干动作和内容"
+    },
+    {
+      "text": "when",
+      "meaning": "当……的时候",
+      "relation": "引出时间背景，连接主句和从句"
+    },
+    {
+      "text": "it is impossible",
+      "meaning": "……是不可能的",
+      "relation": "从句的主系表部分，it是形式主语"
+    },
+    {
+      "text": "for you to answer.",
+      "meaning": "对你来说去回答（问题）",
+      "relation": "从句真正的主语，说明“不可能”的具体是什么事"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-048",
+  "sentenceId": "nce-2-lesson-048-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Dentists always ask questions when it is impossible for you to answer.",
+  "lesson": "Lesson 48 Did you want to tell me something?",
+  "notes": [
+    {
+      "title": "when 引导的时间状语",
+      "text": "when it is impossible for you to answer 说明主句动作发生的时间，意思是“当你没法回答的时候”，修饰前面的“问问题”。"
+    },
+    {
+      "title": "it 作形式主语",
+      "text": "it is impossible for you to answer 里 it 没有实际词义，只是放在主语位置撑结构，真正的主语是后面的 for you to answer（你回答这件事）。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅单词answer.的释义末尾多余句号、to的词性标注偏长，parts中it is impossible的meaning可更贴合形式主语的无实义特点，做小幅修正。（非逐句人工审核）"
+}

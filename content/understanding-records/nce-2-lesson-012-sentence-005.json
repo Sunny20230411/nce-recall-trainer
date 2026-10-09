@@ -1,0 +1,133 @@
+{
+  "chinese": "它已经多次横渡大西洋。",
+  "intent": "说明这艘叫Topsail的小船有过多次横渡大西洋的航行经历。",
+  "comparison": null,
+  "backbone": {
+    "text": "It has sailed across the Atlantic many times.",
+    "meaning": "它（指Topsail小船）已经多次航行穿越大西洋。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时表示过往经历",
+      "text": "has sailed 是现在完成时，说明从过去到现在累计有过多次横渡大西洋的经历，不特指某一次具体航行。"
+    },
+    {
+      "title": "across 表示穿越的路径",
+      "text": "across the Atlantic 里的 across 表示从大洋的一边到另一边的横穿，和 sail 搭配说明航行的路线范围。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "主语",
+      "explanation": "指代前文提到的Topsail号小船，是句子描述的对象。"
+    },
+    {
+      "text": "has sailed",
+      "role": "谓语",
+      "explanation": "现在完成时的谓语动词，表达“已经航行过”的经历含义。"
+    },
+    {
+      "text": "across the Atlantic",
+      "role": "地点/路径状语",
+      "explanation": "说明航行的路径是横穿大西洋，补充航行的范围与方向。"
+    },
+    {
+      "text": "many times",
+      "role": "频率状语",
+      "explanation": "说明这类航行发生的次数很多，补充谓语的发生频率。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（指代前文的小船Topsail）",
+      "pos": "代词",
+      "phonetic": "/ɪt/ "
+    },
+    {
+      "text": "has",
+      "meaning": "（助动词，构成现在完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "sailed",
+      "meaning": "航行（sail的过去分词）",
+      "pos": "动词过去分词",
+      "phonetic": "/seɪld/"
+    },
+    {
+      "text": "across",
+      "meaning": "横过、从一边到另一边",
+      "pos": "介词",
+      "phonetic": "/əˈkrɒs/"
+    },
+    {
+      "text": "the",
+      "meaning": "（用于专有名词前，无实义）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "Atlantic",
+      "meaning": "大西洋",
+      "pos": "专有名词",
+      "phonetic": "/ətˈlæntɪk/"
+    },
+    {
+      "text": "many",
+      "meaning": "许多的",
+      "pos": "形容词",
+      "phonetic": "/ˈmeni/"
+    },
+    {
+      "text": "times.",
+      "meaning": "次；回（复数）",
+      "pos": "名词",
+      "phonetic": "/taɪmz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It",
+      "relation": "描述对象",
+      "meaning": "它（指Topsail号小船）"
+    },
+    {
+      "text": "has sailed",
+      "relation": "主语的动作",
+      "meaning": "已经航行过"
+    },
+    {
+      "text": "across the Atlantic",
+      "relation": "航行的路径范围",
+      "meaning": "横穿大西洋"
+    },
+    {
+      "text": "many times.",
+      "relation": "航行发生的频率",
+      "meaning": "许多次"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-012",
+  "sentenceId": "nce-2-lesson-012-sentence-005",
+  "sentenceOrder": 5,
+  "english": "It has sailed across the Atlantic many times.",
+  "lesson": "Lesson 12 Goodbye and good luck",
+  "notes": [
+    {
+      "title": "现在完成时表示过往经历",
+      "text": "has sailed 是现在完成时，说明从过去到现在累计有过多次横渡大西洋的经历，不特指某一次具体航行。"
+    },
+    {
+      "title": "across 表示穿越的路径",
+      "text": "across the Atlantic 里的 across 表示从大洋的一边到另一边的横穿，和 sail 搭配说明航行的路线范围。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅一处英式音标有误，Atlantic的标准英式音标应为/ətˈlæntɪk/，原标注重音位置偏差，其余均符合要求。（非逐句人工审核）"
+}

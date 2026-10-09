@@ -1,0 +1,155 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-056",
+  "sentenceId": "nce-2-lesson-056-sentence-012",
+  "sentenceOrder": 12,
+  "english": "After the race, the driver said, ‘The old car can go faster than that.’",
+  "chinese": "赛后，司机说：‘这辆老车还能开得比那更快。’",
+  "lesson": "Lesson 56 Faster than sound!",
+  "intent": "引用司机对老车潜力的评价",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "After the race,",
+      "relation": "说话时间",
+      "meaning": "赛后"
+    },
+    {
+      "text": "the driver said,",
+      "relation": "引述来源",
+      "meaning": "司机说"
+    },
+    {
+      "text": "‘The old car can go faster than that.’",
+      "relation": "原话内容",
+      "meaning": "这辆老车还能开得更快"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "直接引语",
+      "text": "引号内保留司机说话时的 can，不随 said 改成过去式。"
+    },
+    {
+      "title": "比较参照",
+      "text": "that 指前文提到的速度，than 引出比较标准。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "直接引语",
+      "text": "引号内保留司机说话时的 can，不随 said 改成过去式。"
+    },
+    {
+      "title": "比较参照",
+      "text": "that 指前文提到的速度，than 引出比较标准。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "After the race,",
+      "role": "时间状语",
+      "explanation": "说明司机说话的时间。"
+    },
+    {
+      "text": "the driver said,",
+      "role": "引述主句",
+      "explanation": "交代说话者。"
+    },
+    {
+      "text": "‘The old car can go faster than that.’",
+      "role": "直接引语",
+      "explanation": "can 表能力，faster 带出速度比较。"
+    }
+  ],
+  "words": [
+    {
+      "text": "After",
+      "meaning": "在……之后",
+      "pos": "介词",
+      "phonetic": "/ˈɑːftə/"
+    },
+    {
+      "text": "the",
+      "meaning": "前述的",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "race,",
+      "meaning": "比赛",
+      "pos": "名词",
+      "phonetic": "/reɪs/"
+    },
+    {
+      "text": "the",
+      "meaning": "特指司机",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "driver",
+      "meaning": "司机",
+      "pos": "名词",
+      "phonetic": "/ˈdraɪvə/"
+    },
+    {
+      "text": "said,",
+      "meaning": "说",
+      "pos": "及物动词过去式",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "‘The",
+      "meaning": "特指这辆车",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "old",
+      "meaning": "老式的",
+      "pos": "形容词",
+      "phonetic": "/əʊld/"
+    },
+    {
+      "text": "car",
+      "meaning": "汽车",
+      "pos": "名词",
+      "phonetic": "/kɑː/"
+    },
+    {
+      "text": "can",
+      "meaning": "能够",
+      "pos": "情态助动词",
+      "phonetic": "/kæn/ 或 /kən/"
+    },
+    {
+      "text": "go",
+      "meaning": "行驶",
+      "pos": "不及物动词原形",
+      "phonetic": "/ɡəʊ/"
+    },
+    {
+      "text": "faster",
+      "meaning": "更快地",
+      "pos": "副词比较级",
+      "phonetic": "/ˈfɑːstə/"
+    },
+    {
+      "text": "than",
+      "meaning": "比",
+      "pos": "介词",
+      "phonetic": "/ðæn/ 或 /ðən/"
+    },
+    {
+      "text": "that.’",
+      "meaning": "那个速度",
+      "pos": "指示代词",
+      "phonetic": "/ðæt/ 或 /ðət/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

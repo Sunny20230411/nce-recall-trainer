@@ -1,0 +1,207 @@
+{
+  "chinese": "我的牙医刚拔掉了我的一颗牙，还让我休息一会儿。",
+  "intent": "叙述过去某一时间之前，牙医连续完成的两个动作：拔牙和嘱咐休息。",
+  "comparison": null,
+  "backbone": {
+    "text": "My dentist had pulled out one of my teeth and had told me to rest.",
+    "meaning": "我的牙医拔掉了我的一颗牙，并且让我休息。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去完成时的并列动作",
+      "text": "句中两个谓语都用had + 过去分词的形式，由and连接，说明拔牙和嘱咐休息都发生在故事主线的过去动作之前，是“过去的过去”接连发生的两件事。"
+    },
+    {
+      "title": "tell sb to do 的含义",
+      "text": "told me to rest 是“让我休息、嘱咐我休息”的意思，to rest 是宾语me的补足内容，说明牙医要求我做的具体动作，不表示休息已经完成。"
+    },
+    {
+      "title": "时间副词just的位置",
+      "text": "just放在第一个had和pulled之间，强调“刚刚”做完拔牙这件事，贴合语境里紧接着就发生下一件事的节奏。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "had just pulled out one of my teeth",
+      "role": "第一个谓语部分（过去完成时）",
+      "explanation": "表示“刚刚拔掉了我的一颗牙”，是牙医发出的第一个过去完成的动作，had pulled out 是动词短语的过去完成形式，one of my teeth 是动作的对象。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个过去完成时的谓语，说明两个动作都是牙医在同一过去时间之前先后做的。"
+    },
+    {
+      "text": "had told me to rest for a while.",
+      "role": "第二个谓语部分（过去完成时）",
+      "explanation": "表示“让我休息一会儿”，had told 是过去完成时，me 是告知的对象，to rest for a while 是要求做的具体事。"
+    }
+  ],
+  "words": [
+    {
+      "text": "My",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "dentist",
+      "meaning": "牙医",
+      "pos": "名词",
+      "phonetic": "/ˈdentɪst/"
+    },
+    {
+      "text": "had",
+      "meaning": "（过去完成时助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "just",
+      "meaning": "刚刚，刚才",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "pulled",
+      "meaning": "拉，拔（过去分词）",
+      "pos": "动词",
+      "phonetic": "/pʊld/"
+    },
+    {
+      "text": "out",
+      "meaning": "（与pull构成短语，表示拔出）",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    },
+    {
+      "text": "one",
+      "meaning": "一个（人/物）",
+      "pos": "代词",
+      "phonetic": "/wʌn/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表所属中的一个）",
+      "pos": "介词",
+      "phonetic": "/əv/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "teeth",
+      "meaning": "牙齿（tooth的复数）",
+      "pos": "名词",
+      "phonetic": "/tiːθ/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "had",
+      "meaning": "（过去完成时助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉，嘱咐（过去分词）",
+      "pos": "动词",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "rest",
+      "meaning": "休息",
+      "pos": "动词",
+      "phonetic": "/rest/"
+    },
+    {
+      "text": "for",
+      "meaning": "（表示时间持续）计，达",
+      "pos": "介词",
+      "phonetic": "/fɔː/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "while.",
+      "meaning": "一会儿，一段时间",
+      "pos": "名词",
+      "phonetic": "/waɪl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "My dentist",
+      "relation": "动作的发出者（描述谁）",
+      "meaning": "我的牙医"
+    },
+    {
+      "text": "had just pulled out one of my teeth",
+      "relation": "牙医做的第一个动作",
+      "meaning": "刚刚拔掉了我的一颗牙"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列动作",
+      "meaning": "并且"
+    },
+    {
+      "text": "had told me to rest",
+      "relation": "牙医做的第二个动作",
+      "meaning": "让我休息"
+    },
+    {
+      "text": "for a while.",
+      "relation": "补充说明休息的时长",
+      "meaning": "一会儿"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-048",
+  "sentenceId": "nce-2-lesson-048-sentence-002",
+  "sentenceOrder": 2,
+  "english": "My dentist had just pulled out one of my teeth and had told me to rest for a while.",
+  "lesson": "Lesson 48 Did you want to tell me something?",
+  "notes": [
+    {
+      "title": "过去完成时的并列动作",
+      "text": "句中两个谓语都用had + 过去分词的形式，由and连接，说明拔牙和嘱咐休息都发生在故事主线的过去动作之前，是“过去的过去”接连发生的两件事。"
+    },
+    {
+      "title": "tell sb to do 的含义",
+      "text": "told me to rest 是“让我休息、嘱咐我休息”的意思，to rest 是宾语me的补足内容，说明牙医要求我做的具体动作，不表示休息已经完成。"
+    },
+    {
+      "title": "时间副词just的位置",
+      "text": "just放在第一个had和pulled之间，强调“刚刚”做完拔牙这件事，贴合语境里紧接着就发生下一件事的节奏。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需修正words中for的词义与词性标注，使其符合语境中表时长的用法。（非逐句人工审核）"
+}

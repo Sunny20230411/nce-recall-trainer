@@ -1,0 +1,137 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-077",
+  "sentenceId": "nce-2-lesson-077-sentence-006",
+  "sentenceOrder": 7,
+  "english": "The doctors removed a section of the mummy and sent it to a laboratory.",
+  "chinese": "医生们从木乃伊身上取下一部分，把它送到实验室。",
+  "lesson": "Lesson 77 A successful operation",
+  "intent": "交代取样并送检的步骤",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "The doctors removed a section of the mummy",
+      "relation": "取样",
+      "meaning": "医生取下木乃伊的一部分"
+    },
+    {
+      "text": "and sent it to a laboratory.",
+      "relation": "送检",
+      "meaning": "把它送到实验室"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "指代范围",
+      "text": "it 指 a section，而不是整具木乃伊。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "指代范围",
+      "text": "it 指 a section，而不是整具木乃伊。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The doctors removed a section of the mummy",
+      "role": "主句第一谓语",
+      "explanation": "说明取样。"
+    },
+    {
+      "text": "and sent it to a laboratory.",
+      "role": "并列谓语",
+      "explanation": "说明样本去向。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这些",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "doctors",
+      "meaning": "医生",
+      "pos": "复数名词",
+      "phonetic": "/ˈdɒktəz/"
+    },
+    {
+      "text": "removed",
+      "meaning": "取下",
+      "pos": "动词",
+      "phonetic": "/rɪˈmuːvd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一块",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "section",
+      "meaning": "部分",
+      "pos": "名词",
+      "phonetic": "/ˈsekʃən/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/ 或 /əv/"
+    },
+    {
+      "text": "the",
+      "meaning": "这具",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "mummy",
+      "meaning": "木乃伊",
+      "pos": "名词",
+      "phonetic": "/ˈmʌmi/"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "pos": "并列连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "sent",
+      "meaning": "送",
+      "pos": "动词",
+      "phonetic": "/sent/"
+    },
+    {
+      "text": "it",
+      "meaning": "它；样本",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "to",
+      "meaning": "到",
+      "pos": "介词",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "a",
+      "meaning": "一家",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "laboratory.",
+      "meaning": "实验室",
+      "pos": "名词",
+      "phonetic": "/ləˈbɒrətri/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

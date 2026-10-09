@@ -1,0 +1,203 @@
+{
+  "chinese": "我只对坐在船上、什么都不做感兴趣！",
+  "intent": "陈述自己唯一感兴趣的事是坐在船上无所事事，强调与钓鱼无关的轻松状态。",
+  "comparison": {
+    "chinese": "我只对［坐在船上、什么都不做］感兴趣",
+    "english": "I am only interested in sitting in a boat and doing nothing at all!",
+    "steps": [
+      {
+        "label": "先抓住主干态度",
+        "text": "I am only interested",
+        "explanation": "中文说“我只感兴趣”先讲人，但兴趣的具体内容放在后面；英文同样先交代“我有兴趣”且用only限定范围，再用in引出兴趣对象。"
+      },
+      {
+        "label": "再接兴趣的具体内容",
+        "text": "in sitting in a boat and doing nothing at all",
+        "explanation": "中文把兴趣内容放在“对……”的中间，是两个并列动作“坐船、什么都不做”；英文把内容放在interested in后面，用and连接两个ing形式的动作。"
+      }
+    ],
+    "takeaway": "中英文都先讲“我感兴趣”再补具体内容，但中文说“对……感兴趣”把对象嵌在中间，英文用interested in接在后面，对象是两个并列的动名词短语。"
+  },
+  "backbone": {
+    "text": "I am interested in sitting in a boat and doing nothing",
+    "meaning": "我对坐在船上和什么都不做这件事感兴趣。"
+  },
+  "structureNotes": [
+    {
+      "title": "only的位置与作用",
+      "text": "only放在interested前面，限定“感兴趣”的范围，说明除此之外没有别的兴趣点，呼应前一句说对钓鱼没兴趣。"
+    },
+    {
+      "title": "be interested in 后的动词形式",
+      "text": "介词in后面的动词要变成动名词，sitting和doing都是动名词，用and并列，共同作in的宾语。"
+    },
+    {
+      "title": "nothing at all 的强调",
+      "text": "at all放在nothing后面加强否定语气，意思是“什么都不做、完全没事做”，比单纯nothing语气更强。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I am only interested",
+      "role": "主句谓语部分（含主语）",
+      "explanation": "主语是I，am interested是系表结构作谓语，only是副词修饰interested，表“仅、只”的限定。"
+    },
+    {
+      "text": "in sitting in a boat and doing nothing at all!",
+      "role": "介词短语作兴趣的对象",
+      "explanation": "in是介词，后面接两个并列的动名词短语sitting in a boat和doing nothing at all，说明对什么事情感兴趣。"
+    },
+    {
+      "text": "sitting in a boat",
+      "role": "第一个动名词短语",
+      "explanation": "sitting是动名词，in a boat是地点状语，说明坐的位置是在船上。"
+    },
+    {
+      "text": "doing nothing at all",
+      "role": "第二个动名词短语",
+      "explanation": "doing是动名词，nothing是宾语，at all加强否定，意思是完全什么都不做。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "am",
+      "meaning": "是（be的第一人称单数现在时形式）",
+      "pos": "动词",
+      "phonetic": "/æm/"
+    },
+    {
+      "text": "only",
+      "meaning": "只，仅仅",
+      "pos": "副词",
+      "phonetic": "/ˈəʊnli/"
+    },
+    {
+      "text": "interested",
+      "meaning": "感兴趣的",
+      "pos": "形容词",
+      "phonetic": "/ˈɪntrəstɪd/"
+    },
+    {
+      "text": "in",
+      "meaning": "对……（表示对象）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "sitting",
+      "meaning": "坐（动名词形式）",
+      "pos": "动名词",
+      "phonetic": "/ˈsɪtɪŋ/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（艘）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "boat",
+      "meaning": "船，小船",
+      "pos": "名词",
+      "phonetic": "/bəʊt/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "doing",
+      "meaning": "做，干（动名词形式）",
+      "pos": "动名词",
+      "phonetic": "/ˈduːɪŋ/"
+    },
+    {
+      "text": "nothing",
+      "meaning": "没有什么，没有东西",
+      "pos": "代词",
+      "phonetic": "/ˈnʌθɪŋ/"
+    },
+    {
+      "text": "at",
+      "meaning": "（用于固定短语at all中加强语气）根本",
+      "pos": "副词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "all!",
+      "meaning": "（用于否定句加强语气）全然；（句末带感叹语气）啊",
+      "pos": "副词/感叹语气",
+      "phonetic": "/ɔːl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "描述谁的状态"
+    },
+    {
+      "text": "am only interested",
+      "meaning": "只感兴趣",
+      "relation": "主句的状态表达"
+    },
+    {
+      "text": "in",
+      "meaning": "引出兴趣对象",
+      "relation": "连接对象的介词"
+    },
+    {
+      "text": "sitting in a boat",
+      "meaning": "坐在一艘船上",
+      "relation": "感兴趣的第一件事"
+    },
+    {
+      "text": "and",
+      "meaning": "和",
+      "relation": "连接两个并列的兴趣内容"
+    },
+    {
+      "text": "doing nothing at all!",
+      "meaning": "完全什么都不做",
+      "relation": "感兴趣的第二件事"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-020",
+  "sentenceId": "nce-2-lesson-020-sentence-012",
+  "sentenceOrder": 12,
+  "english": "I am only interested in sitting in a boat and doing nothing at all!",
+  "lesson": "Lesson 20 One man in a boat",
+  "notes": [
+    {
+      "title": "only的位置与作用",
+      "text": "only放在interested前面，限定“感兴趣”的范围，说明除此之外没有别的兴趣点，呼应前一句说对钓鱼没兴趣。"
+    },
+    {
+      "title": "be interested in 后的动词形式",
+      "text": "介词in后面的动词要变成动名词，sitting和doing都是动名词，用and并列，共同作in的宾语。"
+    },
+    {
+      "title": "nothing at all 的强调",
+      "text": "at all放在nothing后面加强否定语气，意思是“什么都不做、完全没事做”，比单纯nothing语气更强。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：存在两处小问题：1. at标注为介词错误，此处是副词，参与短语at all表加强语气；2. parts中doing nothing at all的译文语序稍生硬，可调整更符合中文表达。（非逐句人工审核）"
+}

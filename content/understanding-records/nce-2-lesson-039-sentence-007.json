@@ -1,0 +1,303 @@
+{
+  "chinese": "接着他问吉尔伯特先生什么时候可以获准回家，医生告诉他还得在医院再住两周。",
+  "intent": "叙述接连发生的两件事：一人询问吉尔伯特先生的出院时间，医生答复他仍需住院两周。",
+  "comparison": {
+    "chinese": "他接着问［吉尔伯特先生什么时候能回家］，医生告诉他［还得再住两周院］。",
+    "english": "He then asked when Mr Gilbert would be allowed to go home and the doctor told him that he would have to stay in hospital for another two weeks.",
+    "steps": [
+      {
+        "label": "第一步：先抓住两个并列的主干动作",
+        "text": "He then asked... and the doctor told him...",
+        "explanation": "中文和英文都先说“他问”，再说“医生告诉他”，由and连接两件先后发生的事，整体顺序一致。"
+      },
+      {
+        "label": "第二步：看“问的内容”怎么安放",
+        "text": "when Mr Gilbert would be allowed to go home",
+        "explanation": "中文把“什么时候可以回家”直接跟在“问”后面；英文用when引出一个完整从句放在asked后面，when同时是疑问词和从句的引导词，从句用陈述语序，不用倒装。"
+      },
+      {
+        "label": "第三步：看“告诉的内容”怎么安放",
+        "text": "that he would have to stay in hospital for another two weeks",
+        "explanation": "中文把“还得再住两周院”直接放在“告诉他”后面；英文用that引出一个陈述句作为told的内容，that只起连接作用，没有实际词义。"
+      }
+    ],
+    "takeaway": "两个“说/告诉”的内容都嵌在动词后面，中文靠语意衔接，英文靠when、that这类引导词明确标出内容从哪里开始；从句里都用正常陈述语序。"
+  },
+  "backbone": {
+    "text": "He asked when Mr Gilbert would be allowed to go home and the doctor told him that he would have to stay in hospital.",
+    "meaning": "他询问吉尔伯特先生何时可以出院，医生告诉他得留在医院。"
+  },
+  "structureNotes": [
+    {
+      "title": "and连接两个并列分句",
+      "text": "and前后各是一个主谓宾完整的句子，分别讲“他提问”和“医生回答”两件事，时间上一先一后。"
+    },
+    {
+      "title": "when引导的是asked的宾语从句",
+      "text": "when在这里不是“当……时候”，而是“什么时候”，引出要问的具体问题；从句用陈述语序，也就是主语Mr Gilbert在前，动词在后。"
+    },
+    {
+      "title": "that引导的是told的宾语从句",
+      "text": "that只用来引出医生告知的具体内容，本身没有词义，口语中常可省略；for another two weeks说明住院持续的时长。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He then asked",
+      "role": "第一分句主语+状语+谓语",
+      "explanation": "He是动作发出者，then说明时间在前面那件事之后，asked是第一个主干动作“问”。"
+    },
+    {
+      "text": "when Mr Gilbert would be allowed to go home",
+      "role": "第一分句的宾语从句",
+      "explanation": "when是疑问副词，引出“问的内容”；Mr Gilbert是从句主语，would be allowed是过去将来时被动，表示“将会被准许”；to go home是被准许做的事。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个独立的分句，表示两件事并列或先后承接。"
+    },
+    {
+      "text": "the doctor told him",
+      "role": "第二分句主语+谓语+间接宾语",
+      "explanation": "the doctor是第二个动作的发出者，told是“告诉”，him是告诉的对象，也就是前面提问的那个人。"
+    },
+    {
+      "text": "that he would have to stay in hospital for another two weeks.",
+      "role": "第二分句的宾语从句",
+      "explanation": "that引出告知的具体内容；he指代Mr Gilbert；would have to stay表示“将必须停留”；in hospital表示“住院”；for another two weeks说明时长。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "then",
+      "meaning": "然后，接着",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    },
+    {
+      "text": "asked",
+      "meaning": "问，询问",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    },
+    {
+      "text": "when",
+      "meaning": "什么时候",
+      "pos": "疑问副词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "Mr",
+      "meaning": "先生",
+      "pos": "名词",
+      "phonetic": "/ˈmɪstə(r)/"
+    },
+    {
+      "text": "Gilbert",
+      "meaning": "吉尔伯特（人名）",
+      "pos": "名词",
+      "phonetic": "/ˈɡɪlbət/"
+    },
+    {
+      "text": "would",
+      "meaning": "将会，将要（will的过去式，此处表示过去将来）",
+      "pos": "情态动词",
+      "phonetic": "/wʊd/"
+    },
+    {
+      "text": "be",
+      "meaning": "是（be动词原形）",
+      "pos": "动词",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "allowed",
+      "meaning": "被允许，被准许",
+      "pos": "动词过去分词",
+      "phonetic": "/əˈlaʊd/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "go",
+      "meaning": "去，走",
+      "pos": "动词",
+      "phonetic": "/ɡəʊ/"
+    },
+    {
+      "text": "home",
+      "meaning": "家，回家",
+      "pos": "名词",
+      "phonetic": "/həʊm/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定冠词）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "doctor",
+      "meaning": "医生",
+      "pos": "名词",
+      "phonetic": "/ˈdɒktə(r)/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉，讲述（tell的过去式）",
+      "pos": "动词",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导宾语从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "would",
+      "meaning": "将会，将要（will的过去式，此处表示过去将来）",
+      "pos": "情态动词",
+      "phonetic": "/wʊd/"
+    },
+    {
+      "text": "have",
+      "meaning": "有，必须（与to连用）",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，与have to连用表示必须）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "stay",
+      "meaning": "停留，待",
+      "pos": "动词",
+      "phonetic": "/steɪ/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "hospital",
+      "meaning": "医院",
+      "pos": "名词",
+      "phonetic": "/ˈhɒspɪtl/"
+    },
+    {
+      "text": "for",
+      "meaning": "（表示一段时间）达，计",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "another",
+      "meaning": "再一个，又一个",
+      "pos": "限定词",
+      "phonetic": "/əˈnʌðə(r)/"
+    },
+    {
+      "text": "two",
+      "meaning": "二，两个",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "weeks.",
+      "meaning": "星期，周",
+      "pos": "名词",
+      "phonetic": "/wiːks/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He then asked",
+      "relation": "第一个事件的主语与谓语",
+      "meaning": "他接着问"
+    },
+    {
+      "text": "when Mr Gilbert would be allowed to go home",
+      "relation": "询问的具体内容",
+      "meaning": "吉尔伯特先生什么时候会被准许回家"
+    },
+    {
+      "text": "and",
+      "relation": "连接前后两个并列事件",
+      "meaning": "并且"
+    },
+    {
+      "text": "the doctor told him",
+      "relation": "第二个事件的主语、谓语与告知对象",
+      "meaning": "医生告诉他"
+    },
+    {
+      "text": "that he would have to stay in hospital",
+      "relation": "医生告知的核心内容",
+      "meaning": "他将必须留在医院里"
+    },
+    {
+      "text": "for another two weeks.",
+      "relation": "补充说明住院的时长",
+      "meaning": "还要再住两周"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-039",
+  "sentenceId": "nce-2-lesson-039-sentence-007",
+  "sentenceOrder": 9,
+  "english": "He then asked when Mr Gilbert would be allowed to go home and the doctor told him that he would have to stay in hospital for another two weeks.",
+  "lesson": "Lesson 39 Am I all right?",
+  "notes": [
+    {
+      "title": "and连接两个并列分句",
+      "text": "and前后各是一个主谓宾完整的句子，分别讲“他提问”和“医生回答”两件事，时间上一先一后。"
+    },
+    {
+      "title": "when引导的是asked的宾语从句",
+      "text": "when在这里不是“当……时候”，而是“什么时候”，引出要问的具体问题；从句用陈述语序，也就是主语Mr Gilbert在前，动词在后。"
+    },
+    {
+      "title": "that引导的是told的宾语从句",
+      "text": "that只用来引出医生告知的具体内容，本身没有词义，口语中常可省略；for another two weeks说明住院持续的时长。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅个别细节表述可优化：主干译文语气稍硬，词汇中home的词性及would的时态说明需修正，部分结构解释的准确性可提升。（非逐句人工审核）"
+}

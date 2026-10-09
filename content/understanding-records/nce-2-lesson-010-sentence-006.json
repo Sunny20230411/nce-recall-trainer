@@ -1,0 +1,145 @@
+{
+  "chinese": "这件乐器是我祖父多年前买的",
+  "intent": "说明这件乐器的购置来源和购买时间",
+  "comparison": null,
+  "backbone": {
+    "text": "The instrument was bought by my grandfather",
+    "meaning": "这件乐器是我祖父买的"
+  },
+  "structureNotes": [
+    {
+      "title": "被动语态的动作发出者",
+      "text": "by my grandfather 引出买乐器的人，说明动作是谁做的。中文习惯说“我祖父买的乐器”，把人放前面；英文先讲乐器被买，再用 by 交代是谁做的。"
+    },
+    {
+      "title": "时间表达的位置",
+      "text": "many years ago 放在句末，说明整件事发生的时间，读的时候先抓“乐器被祖父买”这个核心，再补上时间信息。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The instrument",
+      "role": "主语",
+      "explanation": "句子谈论的对象，指前面提到的那件乐器"
+    },
+    {
+      "text": "was bought",
+      "role": "被动语态谓语",
+      "explanation": "表示“被买”这个动作，说明主语的遭遇"
+    },
+    {
+      "text": "by my grandfather",
+      "role": "动作发出者短语",
+      "explanation": "用 by 引出购买这件乐器的人，补充说明动作是谁做的"
+    },
+    {
+      "text": "many years ago",
+      "role": "时间状语",
+      "explanation": "说明购买这件事发生在多久以前"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这个；那个（特指前面提到的）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "instrument",
+      "meaning": "乐器（本句语境中）；仪器，器具",
+      "pos": "名词",
+      "phonetic": "/ˈɪnstrəmənt/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，构成被动语态）被",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "bought",
+      "meaning": "买（buy的过去分词）",
+      "pos": "动词过去分词",
+      "phonetic": "/bɔːt/"
+    },
+    {
+      "text": "by",
+      "meaning": "被；由（引出动作发出者）",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "grandfather",
+      "meaning": "祖父；外祖父",
+      "pos": "名词",
+      "phonetic": "/ˈɡrænfɑːðə/"
+    },
+    {
+      "text": "many",
+      "meaning": "许多",
+      "pos": "形容词",
+      "phonetic": "/ˈmeni/"
+    },
+    {
+      "text": "years",
+      "meaning": "年；岁",
+      "pos": "名词（复数形式）",
+      "phonetic": "/jɪəz/"
+    },
+    {
+      "text": "ago.",
+      "meaning": "以前",
+      "pos": "副词",
+      "phonetic": "/əˈɡəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The instrument",
+      "relation": "描述对象",
+      "meaning": "这件乐器"
+    },
+    {
+      "text": "was bought",
+      "relation": "主体的动作遭遇",
+      "meaning": "被买了"
+    },
+    {
+      "text": "by my grandfather",
+      "relation": "补充动作是谁做的",
+      "meaning": "由我祖父（做的）"
+    },
+    {
+      "text": "many years ago.",
+      "relation": "时间",
+      "meaning": "很多年以前"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-010",
+  "sentenceId": "nce-2-lesson-010-sentence-006",
+  "sentenceOrder": 6,
+  "english": "The instrument was bought by my grandfather many years ago.",
+  "lesson": "Lesson 10 Not for jazz",
+  "notes": [
+    {
+      "title": "被动语态的动作发出者",
+      "text": "by my grandfather 引出买乐器的人，说明动作是谁做的。中文习惯说“我祖父买的乐器”，把人放前面；英文先讲乐器被买，再用 by 交代是谁做的。"
+    },
+    {
+      "title": "时间表达的位置",
+      "text": "many years ago 放在句末，说明整件事发生的时间，读的时候先抓“乐器被祖父买”这个核心，再补上时间信息。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅存在一处细节问题：words数组中ago项的text尾随句点，但对应释义未明确是词本身的含义，且按照约定标点随词项保存无需额外说明，此处无需改动释义；另外backbone的含义未完整对应主干文本的被动发出者，原表述基本准确，仅需确保主干含义清晰。实际核查发现核心问题为：words里years的词性标注为“名词复数”不规范，应标注为“名词（复数形式）”；ago的text包含句点但释义正确，符合约定无需修改。其余内容如翻译、结构划分、被动语态说明均准确。（非逐句人工审核）"
+}

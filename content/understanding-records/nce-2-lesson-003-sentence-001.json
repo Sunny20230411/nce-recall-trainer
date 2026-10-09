@@ -1,0 +1,97 @@
+{
+  "chinese": "明信片总是破坏我的假期。",
+  "intent": "说明明信片这一事物惯常给“我的假期”带来扫兴的影响，引出后续相关经历。",
+  "comparison": null,
+  "backbone": {
+    "text": "Postcards spoil my holidays.",
+    "meaning": "明信片破坏我的假期。"
+  },
+  "structureNotes": [
+    {
+      "title": "always的位置与含义",
+      "text": "频度副词always放在行为动词spoil前面，表示“总是、一向”，说明这是经常性的情况，不是某次特例。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Postcards",
+      "role": "句子主语",
+      "explanation": "表示动作的发出者，是“破坏假期”这件事的主体，用复数泛指明信片这类事物。"
+    },
+    {
+      "text": "always spoil",
+      "role": "谓语",
+      "explanation": "表达主语发出的经常性动作，always修饰spoil，说明动作发生的频度。"
+    },
+    {
+      "text": "my holidays.",
+      "role": "宾语",
+      "explanation": "是动作spoil的承受对象，说明被破坏的是什么。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Postcards",
+      "meaning": "明信片（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈpəʊstkɑːdz/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是，一直",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "spoil",
+      "meaning": "破坏，使扫兴",
+      "pos": "动词",
+      "phonetic": "/spɔɪl/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "holidays.",
+      "meaning": "假期（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈhɒlədeɪz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Postcards",
+      "relation": "描述谁/什么发出动作",
+      "meaning": "明信片（泛指这类事物）"
+    },
+    {
+      "text": "always spoil",
+      "relation": "说明主语的经常性动作",
+      "meaning": "总是破坏"
+    },
+    {
+      "text": "my holidays.",
+      "relation": "补充动作的作用对象",
+      "meaning": "我的假期"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-003",
+  "sentenceId": "nce-2-lesson-003-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Postcards always spoil my holidays.",
+  "lesson": "Lesson 3 Please send me a card",
+  "notes": [
+    {
+      "title": "always的位置与含义",
+      "text": "频度副词always放在行为动词spoil前面，表示“总是、一向”，说明这是经常性的情况，不是某次特例。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅words中holidays.的释义多余标注了句末点号，不符合“音标和释义仅解释词本身”的要求，予以修正。其余字段（主干、结构说明、成分划分、翻译等）均正确，无语法或事实错误。（非逐句人工审核）"
+}

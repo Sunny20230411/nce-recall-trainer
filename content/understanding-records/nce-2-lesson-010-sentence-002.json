@@ -1,0 +1,97 @@
+{
+  "chinese": "它被称作古钢琴（击弦古钢琴）。",
+  "intent": "说明前文提到的那件旧乐器的名称。",
+  "comparison": null,
+  "backbone": {
+    "text": "It is called a clavichord.",
+    "meaning": "它的名称是古钢琴。"
+  },
+  "structureNotes": [
+    {
+      "title": "被动语态的表意",
+      "text": "is called 用被动形式表达“被人们叫做、名称是”的意思，不说出具体是谁称呼，重点落在事物的名称上。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "主语",
+      "explanation": "指代上一句提到的 old musical instrument（那件旧乐器）。"
+    },
+    {
+      "text": "is called",
+      "role": "被动语态谓语",
+      "explanation": "表示“被称为、被叫做”，主语是被称呼的对象。"
+    },
+    {
+      "text": "a clavichord.",
+      "role": "主语补足语",
+      "explanation": "补充说明主语 It 的名称，说明它是什么乐器。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（指代前文的旧乐器）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "is",
+      "meaning": "（助动词，构成被动语态）",
+      "pos": "系动词（be动词第三人称单数现在时）",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "called",
+      "meaning": "被称为、被叫做",
+      "pos": "动词过去分词",
+      "phonetic": "/kɔːld/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（件/种，不定冠词）",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "clavichord.",
+      "meaning": "古钢琴，击弦古钢琴",
+      "pos": "名词",
+      "phonetic": "/ˈklævɪkɔːd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It",
+      "relation": "描述对象",
+      "meaning": "它（指那件旧乐器）"
+    },
+    {
+      "text": "is called",
+      "relation": "描述动作（被动）",
+      "meaning": "被称为"
+    },
+    {
+      "text": "a clavichord.",
+      "relation": "补充说明名称是什么",
+      "meaning": "一种古钢琴"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-010",
+  "sentenceId": "nce-2-lesson-010-sentence-002",
+  "sentenceOrder": 2,
+  "english": "It is called a clavichord.",
+  "lesson": "Lesson 10 Not for jazz",
+  "notes": [
+    {
+      "title": "被动语态的表意",
+      "text": "is called 用被动形式表达“被人们叫做、名称是”的意思，不说出具体是谁称呼，重点落在事物的名称上。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正两处细节：1. 单词 called 的英式音标使用了美式发音，需替换为标准英式音标；2. 单词 is 的词性标注不够精准，应明确为系动词（be动词的第三人称单数现在时形式），而非笼统的动词。其余字段均符合要求。（非逐句人工审核）"
+}

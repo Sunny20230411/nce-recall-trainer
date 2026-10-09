@@ -1,0 +1,165 @@
+{
+  "chinese": "那男人意识到发生了什么事，就笑了起来。",
+  "intent": "叙述一名男子在明白事情原委后发笑的经过，交代发笑的触发时机。",
+  "comparison": {
+    "chinese": "那男人意识到发生了什么事，就笑了起来。",
+    "english": "The man laughed when he realized what had happened.",
+    "steps": [
+      {
+        "label": "先说核心事件",
+        "text": "The man laughed",
+        "explanation": "英文先把主句“男人笑了”放在最前面，直接交代主要发生了什么。"
+      },
+      {
+        "label": "补充笑的时机",
+        "text": "when he realized",
+        "explanation": "用when引出时间背景，说明笑发生在“他意识到”的那一刻，回答“什么时候笑的”。"
+      },
+      {
+        "label": "说明意识到的内容",
+        "text": "what had happened",
+        "explanation": "what引导的从句接在realized后面，回答“意识到了什么”，是更早发生的事，所以用过去完成时。"
+      }
+    ],
+    "takeaway": "中文习惯按时间先后说“先意识到，后笑”，英文可以先讲主句结果，再用when从句补时间和原因意味的背景。"
+  },
+  "backbone": {
+    "text": "The man laughed.",
+    "meaning": "那男人笑了。"
+  },
+  "structureNotes": [
+    {
+      "title": "when引导时间从句",
+      "text": "when he realized what had happened 说明主句 laughed 发生的时间点，即“在意识到的那一刻”，同时带有“因为明白过来所以笑”的隐含逻辑。"
+    },
+    {
+      "title": "what引导的宾语从句",
+      "text": "what had happened 作 realized 的宾语，本身用陈述语序；事情发生在“意识到”之前，所以用过去完成时 had happened。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The man laughed",
+      "role": "主句",
+      "explanation": "交代句子的核心事件：那个男人笑了。"
+    },
+    {
+      "text": "when he realized what had happened",
+      "role": "时间状语从句",
+      "explanation": "说明主句动作发生的时间，由when引导；从句里还包含一个宾语从句说明意识到的内容。"
+    },
+    {
+      "text": "what had happened",
+      "role": "宾语从句",
+      "explanation": "作realized的宾语，陈述“所发生的事”，用过去完成时体现动作先于realized发生。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这个，那个（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人，人",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "laughed",
+      "meaning": "笑，发笑",
+      "pos": "动词（过去式）",
+      "phonetic": "/lɑːft/"
+    },
+    {
+      "text": "when",
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词（主格）",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "realized",
+      "meaning": "意识到，明白",
+      "pos": "动词（过去式）",
+      "phonetic": "/ˈrɪəlaɪzd/"
+    },
+    {
+      "text": "what",
+      "meaning": "什么，……的事",
+      "pos": "疑问代词（引导从句）",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "had",
+      "meaning": "已经（助动词，构成过去完成时）",
+      "pos": "助动词（过去式）",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "happened.",
+      "meaning": "发生",
+      "pos": "动词（过去分词）",
+      "phonetic": "/ˈhæpənd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The man",
+      "relation": "描述谁，主句的主语",
+      "meaning": "那个男人"
+    },
+    {
+      "text": "laughed",
+      "relation": "主句的动作",
+      "meaning": "笑了"
+    },
+    {
+      "text": "when",
+      "relation": "引出时间背景",
+      "meaning": "当……的时候"
+    },
+    {
+      "text": "he",
+      "relation": "时间从句里的主语",
+      "meaning": "他"
+    },
+    {
+      "text": "realized",
+      "relation": "时间从句里的动作",
+      "meaning": "意识到"
+    },
+    {
+      "text": "what had happened.",
+      "relation": "补充意识到的内容，作realized的宾语",
+      "meaning": "发生了什么事"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-030",
+  "sentenceId": "nce-2-lesson-030-sentence-009",
+  "sentenceOrder": 11,
+  "english": "The man laughed when he realized what had happened.",
+  "lesson": "Lesson 30 Football or polo?",
+  "notes": [
+    {
+      "title": "when引导时间从句",
+      "text": "when he realized what had happened 说明主句 laughed 发生的时间点，即“在意识到的那一刻”，同时带有“因为明白过来所以笑”的隐含逻辑。"
+    },
+    {
+      "title": "what引导的宾语从句",
+      "text": "what had happened 作 realized 的宾语，本身用陈述语序；事情发生在“意识到”之前，所以用过去完成时 had happened。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅两处需微调：words中had的词性标注有误，应为助动词过去式而非过去分词；structures中时间状语从句、宾语从句的text多带句末点号，应与原文分块一致去除多余标点。（非逐句人工审核）"
+}

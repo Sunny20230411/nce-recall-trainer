@@ -1,0 +1,157 @@
+{
+  "chinese": "十五分钟过去了，接着在十一点五十五分的时候，钟停了。",
+  "intent": "叙述两件先后发生的事：一段时间流逝后，钟在具体时刻停止走动。",
+  "comparison": null,
+  "backbone": {
+    "text": "Fifteen minutes passed and then the clock stopped.",
+    "meaning": "十五分钟过去了，接着钟停了。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间表达 five to twelve",
+      "text": "介词 to 在这里表示“差多少到下一个整点”，five to twelve 即差五分十二点，也就是十一点五十五分；中文习惯直接说几点几分，英文常用 past/to 按半小时分界表述。"
+    },
+    {
+      "title": "and then 连接先后动作",
+      "text": "and then 用来连接两个先后发生的独立事件，前一句是时间流逝，后一句是钟停，then 进一步强调顺序上的“之后、接着”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Fifteen minutes passed",
+      "role": "第一分句",
+      "explanation": "说明先发生的情况：十五分钟的时间过去了。"
+    },
+    {
+      "text": "and then",
+      "role": "连接成分",
+      "explanation": "连接两个并列分句，then 表明后一件事发生在前一件事之后。"
+    },
+    {
+      "text": "at five to twelve",
+      "role": "时间状语",
+      "explanation": "点明后一件事（钟停）发生的具体时刻。"
+    },
+    {
+      "text": "the clock stopped.",
+      "role": "第二分句",
+      "explanation": "说明后发生的结果：钟停了。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Fifteen",
+      "meaning": "十五",
+      "pos": "数词",
+      "phonetic": "/ˌfɪfˈtiːn/"
+    },
+    {
+      "text": "minutes",
+      "meaning": "分钟（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈmɪnɪts/"
+    },
+    {
+      "text": "passed",
+      "meaning": "（时间）流逝；过去",
+      "pos": "动词过去式",
+      "phonetic": "/pɑːst/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；然后",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "then,",
+      "meaning": "然后，接着",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（某时刻）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "five",
+      "meaning": "五（分钟）",
+      "pos": "数词",
+      "phonetic": "/faɪv/"
+    },
+    {
+      "text": "to",
+      "meaning": "（表示时间）差……到",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "twelve,",
+      "meaning": "十二（点）",
+      "pos": "数词",
+      "phonetic": "/twelv/"
+    },
+    {
+      "text": "the",
+      "meaning": "这（个，特指前面提到的钟）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "clock",
+      "meaning": "钟；时钟",
+      "pos": "名词",
+      "phonetic": "/klɒk/"
+    },
+    {
+      "text": "stopped.",
+      "meaning": "停止",
+      "pos": "动词过去式",
+      "phonetic": "/stɒpt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Fifteen minutes passed",
+      "relation": "第一个事件",
+      "meaning": "十五分钟过去了"
+    },
+    {
+      "text": "and then,",
+      "relation": "连接两个先后事件，表顺序",
+      "meaning": "然后，接着"
+    },
+    {
+      "text": "at five to twelve,",
+      "relation": "钟停的时间",
+      "meaning": "在十一点五十五分"
+    },
+    {
+      "text": "the clock stopped.",
+      "relation": "第二个事件",
+      "meaning": "钟停了"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-009",
+  "sentenceId": "nce-2-lesson-009-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Fifteen minutes passed and then, at five to twelve, the clock stopped.",
+  "lesson": "Lesson 9 A cold welcome",
+  "notes": [
+    {
+      "title": "时间表达 five to twelve",
+      "text": "介词 to 在这里表示“差多少到下一个整点”，five to twelve 即差五分十二点，也就是十一点五十五分；中文习惯直接说几点几分，英文常用 past/to 按半小时分界表述。"
+    },
+    {
+      "title": "and then 连接先后动作",
+      "text": "and then 用来连接两个先后发生的独立事件，前一句是时间流逝，后一句是钟停，then 进一步强调顺序上的“之后、接着”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，仅需修正2处：1. passed的英式音标错误，混淆了同形异音词past的读音，应使用动词pass过去式的正确发音/pɑːst/；2. 个别单词释义附带了不必要的标点说明（后接逗号、句末带句号），不符合“音标和释义仅解释词本身，不添加反复的标点说明”的要求，需删除这类冗余表述，其余内容均符合规范。（非逐句人工审核）"
+}

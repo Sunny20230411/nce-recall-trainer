@@ -1,0 +1,101 @@
+{
+  "chinese": "“你在做什么？”她问道。",
+  "intent": "转述她向对方询问当下正在做的事的对话内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "‘What are you doing?’ she asked.",
+    "meaning": "她问了一个问题：你正在做什么"
+  },
+  "structureNotes": [
+    {
+      "title": "对话转述的语序",
+      "text": "英文把直接引语放在句首，后接说话人和“asked”；中文更习惯先说“她问”，再带出问题内容。理解时先抓住“she asked”是主干，引语是被问的具体内容。"
+    },
+    {
+      "title": "现在进行时的疑问句",
+      "text": "What are you doing? 用 be 动词 are 提到 you 前构成疑问，doing 表示“正在做”，整句问的是当下正在进行的动作，不是过去或将来。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘What are you doing?’",
+      "role": "直接引语（宾语）",
+      "explanation": "这是 she asked 的具体内容，也就是被询问的问题，用引号标出原话。"
+    },
+    {
+      "text": "she asked.",
+      "role": "主句主谓语",
+      "explanation": "she 是说话的人，asked 是“问”这个动作，构成整个句子的主干。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘What",
+      "meaning": "什么（引导特殊疑问句）",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（be动词第二人称现在时形式，用于构成疑问句和进行时）",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "doing?’",
+      "meaning": "做（do的现在分词形式）",
+      "pos": "动词",
+      "phonetic": "/ˈduːɪŋ/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "asked.",
+      "meaning": "问；询问（ask的过去式）",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘What are you doing?’",
+      "relation": "询问内容",
+      "meaning": "“你在做什么？”"
+    },
+    {
+      "text": "she asked.",
+      "relation": "说话人及动作",
+      "meaning": "她问道。"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-002",
+  "sentenceId": "nce-2-lesson-002-sentence-014",
+  "sentenceOrder": 14,
+  "english": "‘What are you doing?’ she asked.",
+  "lesson": "Lesson 2 Breakfast or lunch?",
+  "notes": [
+    {
+      "title": "对话转述的语序",
+      "text": "英文把直接引语放在句首，后接说话人和“asked”；中文更习惯先说“她问”，再带出问题内容。理解时先抓住“she asked”是主干，引语是被问的具体内容。"
+    },
+    {
+      "title": "现在进行时的疑问句",
+      "text": "What are you doing? 用 be 动词 are 提到 you 前构成疑问，doing 表示“正在做”，整句问的是当下正在进行的动作，不是过去或将来。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确可用，仅需修正几处细节：1. 词汇释义中不应附带引号、标点的描述，按约定标点随词项保留无需额外说明；2. 主干英文原句的标点与原文不统一，原文为单引号包裹直接引语后接主句，需修正；3. words项的英式音标需确认规范，asked的英式音标为/ɑːskt/正确，其余音标无误，仅需清理标点相关的冗余释义表述。（非逐句人工审核）"
+}

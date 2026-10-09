@@ -1,0 +1,92 @@
+{
+  "chinese": "她不停地游啊游。",
+  "intent": "描述她持续不断地游泳的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "She swam on and on.",
+    "meaning": "她不停地游泳。"
+  },
+  "structureNotes": [
+    {
+      "title": "on and on 的作用",
+      "text": "“on and on”是固定短语，放在动词swam后面，强调动作持续不断、没有停顿的状态，相当于“不停地、一直”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "主语",
+      "explanation": "指代做游泳动作的女性，是句子描述的对象。"
+    },
+    {
+      "text": "swam on and on.",
+      "role": "谓语",
+      "explanation": "说明主语发出的动作及动作持续的状态，swam是“游泳”的过去式，on and on补充强调动作一直延续。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "swam",
+      "meaning": "游泳（swim的过去式）",
+      "pos": "动词",
+      "phonetic": "/swæm/"
+    },
+    {
+      "text": "on",
+      "meaning": "（表示动作持续）继续着",
+      "pos": "副词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，与（此处连接两个on构成固定短语）",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "on.",
+      "meaning": "（表示动作持续）继续着",
+      "pos": "副词",
+      "phonetic": "/ɒn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She",
+      "relation": "动作的发出者",
+      "meaning": "她"
+    },
+    {
+      "text": "swam",
+      "relation": "主语发出的动作",
+      "meaning": "游泳（过去发生）"
+    },
+    {
+      "text": "on and on.",
+      "relation": "补充说明游泳动作持续不断的状态",
+      "meaning": "不停地、一直"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-033",
+  "sentenceId": "nce-2-lesson-033-sentence-006",
+  "sentenceOrder": 6,
+  "english": "She swam on and on.",
+  "lesson": "Lesson 33 Out of the darkness",
+  "notes": [
+    {
+      "title": "on and on 的作用",
+      "text": "“on and on”是固定短语，放在动词swam后面，强调动作持续不断、没有停顿的状态，相当于“不停地、一直”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需修正words中最后一个on.的释义重复说明句末点号的问题，其余内容符合要求。（非逐句人工审核）"
+}

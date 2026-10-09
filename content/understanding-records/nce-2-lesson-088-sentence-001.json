@@ -1,0 +1,134 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-088",
+  "sentenceId": "nce-2-lesson-088-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Six men have been trapped in a mine for seventeen hours.",
+  "chinese": "六个人被困在矿井里已经十七小时了。",
+  "lesson": "Lesson 88 Trapped in a mine",
+  "intent": "交代持续至今的被困险情",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "Six men have been trapped",
+      "relation": "被困人员与状态",
+      "meaning": "六个人一直被困"
+    },
+    {
+      "text": "in a mine",
+      "relation": "位置",
+      "meaning": "在一座矿井里"
+    },
+    {
+      "text": "for seventeen hours.",
+      "relation": "持续时长",
+      "meaning": "已有十七小时"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "持续状态",
+      "text": "现在完成时结合 for 时段说明被困延续至今。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "持续状态",
+      "text": "现在完成时结合 for 时段说明被困延续至今。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Six men",
+      "role": "主语",
+      "explanation": "被困人员。"
+    },
+    {
+      "text": "have been trapped",
+      "role": "谓语",
+      "explanation": "现在完成时被动，呈现持续状态。"
+    },
+    {
+      "text": "in a mine",
+      "role": "地点状语",
+      "explanation": "被困位置。"
+    },
+    {
+      "text": "for seventeen hours.",
+      "role": "时间状语",
+      "explanation": "持续时长。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Six",
+      "meaning": "六名",
+      "pos": "数词",
+      "phonetic": "/sɪks/"
+    },
+    {
+      "text": "men",
+      "meaning": "男子",
+      "pos": "名词复数",
+      "phonetic": "/men/"
+    },
+    {
+      "text": "have",
+      "meaning": "构成现在完成时",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "been",
+      "meaning": "构成被动",
+      "pos": "助动词过去分词",
+      "phonetic": "/biːn/ 或 /bɪn/"
+    },
+    {
+      "text": "trapped",
+      "meaning": "困住",
+      "pos": "动词过去分词",
+      "phonetic": "/træpt/"
+    },
+    {
+      "text": "in",
+      "meaning": "在",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一座",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "mine",
+      "meaning": "矿井",
+      "pos": "名词",
+      "phonetic": "/maɪn/"
+    },
+    {
+      "text": "for",
+      "meaning": "持续",
+      "pos": "介词",
+      "phonetic": "/fɔː/ 或 /fər/"
+    },
+    {
+      "text": "seventeen",
+      "meaning": "十七",
+      "pos": "数词",
+      "phonetic": "/ˌsevnˈtiːn/"
+    },
+    {
+      "text": "hours.",
+      "meaning": "小时",
+      "pos": "名词复数",
+      "phonetic": "/ˈaʊəz/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

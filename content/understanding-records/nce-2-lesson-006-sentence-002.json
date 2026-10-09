@@ -1,0 +1,127 @@
+{
+  "chinese": "昨天有个乞丐敲我的门。",
+  "intent": "陈述过去某一天发生的一件事：一名乞丐敲了说话者的门。",
+  "comparison": null,
+  "backbone": {
+    "text": "a beggar knocked at my door",
+    "meaning": "一名乞丐敲我的门"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语的位置",
+      "text": "Yesterday 放在句首，明确整个句子描述的是过去发生的动作，所以动词用过去式 knocked。"
+    },
+    {
+      "title": "knock at 的用法",
+      "text": "表示“敲击（门、窗等）”时，knock 后面常接介词 at 再接被敲的对象，这里 at my door 说明敲的是门。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Yesterday",
+      "role": "时间状语",
+      "explanation": "点明动作发生的时间是昨天，放在句首修饰整个句子。"
+    },
+    {
+      "text": "a beggar",
+      "role": "主语",
+      "explanation": "指一名乞丐，是发出“敲门”这个动作的人。"
+    },
+    {
+      "text": "knocked at",
+      "role": "谓语",
+      "explanation": "短语动词knock at表示“敲击（门、窗等）”，knocked是knock的过去式，整体在句中作谓语，说明动作发生在过去。"
+    },
+    {
+      "text": "my door.",
+      "role": "宾语",
+      "explanation": "指我的门，是被敲击的对象，作介词at的宾语，也是短语动词knock at的宾语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Yesterday",
+      "meaning": "昨天",
+      "pos": "副词",
+      "phonetic": "/ˈjestədeɪ/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个（用于辅音开头的单数可数名词前）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "beggar",
+      "meaning": "乞丐",
+      "pos": "名词",
+      "phonetic": "/ˈbeɡə(r)/"
+    },
+    {
+      "text": "knocked",
+      "meaning": "敲（过去式）",
+      "pos": "动词",
+      "phonetic": "/nɒkt/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（此处与knock搭配表示敲击对象）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "door.",
+      "meaning": "门",
+      "pos": "名词",
+      "phonetic": "/dɔː(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Yesterday",
+      "relation": "时间",
+      "meaning": "昨天"
+    },
+    {
+      "text": "a beggar",
+      "relation": "描述谁（动作发出者）",
+      "meaning": "一名乞丐"
+    },
+    {
+      "text": "knocked at",
+      "relation": "动作",
+      "meaning": "敲"
+    },
+    {
+      "text": "my door.",
+      "relation": "动作对象",
+      "meaning": "我的门"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-006",
+  "sentenceId": "nce-2-lesson-006-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Yesterday a beggar knocked at my door.",
+  "lesson": "Lesson 6 Percy Buttons",
+  "notes": [
+    {
+      "title": "时间状语的位置",
+      "text": "Yesterday 放在句首，明确整个句子描述的是过去发生的动作，所以动词用过去式 knocked。"
+    },
+    {
+      "title": "knock at 的用法",
+      "text": "表示“敲击（门、窗等）”时，knock 后面常接介词 at 再接被敲的对象，这里 at my door 说明敲的是门。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确可用，仅存在几处可修正的细节问题：1. beggar的英式音标拼写有误，应为/ˈbeɡə(r)/；2. door的释义包含句末标点，应仅解释词本身的含义，标点属句末约定无需写入释义；3. structures中knocked at的谓语说明可更准确，明确是“及物短语动词knock at的过去式”作谓语，且my door是介词at的宾语同时也是短语动词的宾语，解释需对应。（非逐句人工审核）"
+}

@@ -1,0 +1,191 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-073",
+  "sentenceId": "nce-2-lesson-073-sentence-009-part-01",
+  "sentenceOrder": 11,
+  "english": "The next car the boy stopped did not take him into the centre of Paris as he hoped it would,",
+  "chinese": "男孩拦下的下一辆车，并没有像他希望的那样把他送到巴黎市中心，",
+  "lesson": "Lesson 73 The record-holder",
+  "intent": "否定男孩预期中的目的地",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "The next car the boy stopped",
+      "relation": "车辆识别",
+      "meaning": "男孩拦下的下一辆车"
+    },
+    {
+      "text": "did not take him into the centre of Paris",
+      "relation": "实际未发生的事",
+      "meaning": "没有把他送进巴黎市中心"
+    },
+    {
+      "text": "as he hoped it would,",
+      "relation": "预期对照",
+      "meaning": "像他原本希望的那样"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "两个从句",
+      "text": "the boy stopped 修饰 car，省略作宾语的关系代词；as 从句说明预期。"
+    },
+    {
+      "title": "省略重复动作",
+      "text": "would 后省略 take him into the centre of Paris。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "两个从句",
+      "text": "the boy stopped 修饰 car，省略作宾语的关系代词；as 从句说明预期。"
+    },
+    {
+      "title": "省略重复动作",
+      "text": "would 后省略 take him into the centre of Paris。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The next car the boy stopped",
+      "role": "主语",
+      "explanation": "含省略关系代词的定语从句。"
+    },
+    {
+      "text": "did not take him into the centre of Paris",
+      "role": "谓语及补足内容",
+      "explanation": "否定预期路线。"
+    },
+    {
+      "text": "as he hoped it would,",
+      "role": "方式比较状语从句",
+      "explanation": "对照男孩原先的希望。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这辆",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "next",
+      "meaning": "下一",
+      "pos": "形容词",
+      "phonetic": "/nekst/"
+    },
+    {
+      "text": "car",
+      "meaning": "汽车",
+      "pos": "名词",
+      "phonetic": "/kɑː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "boy",
+      "meaning": "男孩",
+      "pos": "名词",
+      "phonetic": "/bɔɪ/"
+    },
+    {
+      "text": "stopped",
+      "meaning": "拦停",
+      "pos": "动词",
+      "phonetic": "/stɒpt/"
+    },
+    {
+      "text": "did",
+      "meaning": "构成过去否定",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "not",
+      "meaning": "没有",
+      "pos": "否定副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "take",
+      "meaning": "带去",
+      "pos": "动词",
+      "phonetic": "/teɪk/"
+    },
+    {
+      "text": "him",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hɪm/ 或 /ɪm/"
+    },
+    {
+      "text": "into",
+      "meaning": "进入",
+      "pos": "介词",
+      "phonetic": "/ˈɪntuː/ 或 /ˈɪntə/"
+    },
+    {
+      "text": "the",
+      "meaning": "特指市中心",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "centre",
+      "meaning": "中心",
+      "pos": "名词",
+      "phonetic": "/ˈsentə/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/ 或 /əv/"
+    },
+    {
+      "text": "Paris",
+      "meaning": "巴黎；地名",
+      "pos": "专有名词",
+      "phonetic": "/ˈpærɪs/"
+    },
+    {
+      "text": "as",
+      "meaning": "如……一样",
+      "pos": "从属连词",
+      "phonetic": "/æz/ 或 /əz/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "hoped",
+      "meaning": "希望",
+      "pos": "动词",
+      "phonetic": "/həʊpt/"
+    },
+    {
+      "text": "it",
+      "meaning": "它；指汽车",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "would,",
+      "meaning": "会；回指预期动作",
+      "pos": "情态助动词",
+      "phonetic": "/wʊd/ 或 /wəd/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

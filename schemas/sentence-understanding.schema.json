@@ -17,6 +17,7 @@
       "properties": {
         "comparison": { "type": ["object", "null"], "required": ["chinese", "english"], "properties": { "chinese": { "$ref": "#/$defs/text" }, "english": { "$ref": "#/$defs/text" }, "takeaway": { "$ref": "#/$defs/text" }, "steps": { "type": "array", "items": { "type": "object", "required": ["label", "text", "explanation"], "properties": { "label": { "$ref": "#/$defs/text" }, "text": { "$ref": "#/$defs/text" }, "explanation": { "$ref": "#/$defs/text" } } } } } },
         "backbone": { "type": "object", "required": ["text", "meaning"], "properties": { "text": { "$ref": "#/$defs/text" }, "meaning": { "$ref": "#/$defs/text" } } },
+        "teacherTip": { "type": "object", "additionalProperties": false, "required": ["text", "ruleVersion", "reviewNote"], "properties": { "text": { "$ref": "#/$defs/text" }, "ruleVersion": { "$ref": "#/$defs/text" }, "reviewNote": { "$ref": "#/$defs/text" } } },
         "structureNotes": { "type": "array", "items": { "type": "object", "required": ["title", "text"], "properties": { "title": { "$ref": "#/$defs/text" }, "text": { "$ref": "#/$defs/text" } } } },
         "english": { "$ref": "#/$defs/text" }, "chinese": { "$ref": "#/$defs/text" }, "intent": { "$ref": "#/$defs/text" },
         "analysisSource": { "enum": ["ai", "human"] }, "analysisStatus": { "enum": ["generated", "reviewed", "approved"] },

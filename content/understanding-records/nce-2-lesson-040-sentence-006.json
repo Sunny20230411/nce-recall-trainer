@@ -1,0 +1,156 @@
+{
+  "chinese": "“有一出新戏很快要在‘环球剧场’上演了，”我说道。",
+  "intent": "转述“我”向对方提到一出新戏即将在环球剧场上演的直接引语内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "I said a new play was coming to \"The Globe\" soon.",
+    "meaning": "我说，一出新戏很快要到环球剧场上演了。（理解用还原：把直接引语纳入主句说明说的内容，还原为间接引语时态与主句过去时一致）"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语与主句的位置",
+      "text": "本句把说的话放在前面，后跟主句“I said.”，属于直接引语的常见倒装语序，作用是先呈现说话内容，再交代说话人。"
+    },
+    {
+      "title": "现在进行时表将来",
+      "text": "“is coming” 用现在进行时表示按安排很快会发生的事，不是“正在来”，结合地点“The Globe”可理解为即将上演。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘A new play is coming to \"The Globe\" soon,’",
+      "role": "直接引语分句",
+      "explanation": "用单引号标出的完整句子，是“我”所说的原话内容，作主句动词 said 的宾语。"
+    },
+    {
+      "text": "I said.",
+      "role": "主句",
+      "explanation": "交代说话人是“我”以及说话这个动作，位于引语之后。"
+    },
+    {
+      "text": "is coming",
+      "role": "引语分句的谓语",
+      "explanation": "现在进行时结构，此处表示按安排即将发生的将来动作。"
+    },
+    {
+      "text": "to \"The Globe\"",
+      "role": "地点介词短语",
+      "explanation": "表示新戏上演的地点，Globe 是剧场名称，用双引号标注专有名称。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘A",
+      "meaning": "（引语开头）一出",
+      "pos": "不定冠词（带左单引号）",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "new",
+      "meaning": "新的",
+      "pos": "形容词",
+      "phonetic": "/njuː/"
+    },
+    {
+      "text": "play",
+      "meaning": "戏剧；戏",
+      "pos": "名词",
+      "phonetic": "/pleɪ/"
+    },
+    {
+      "text": "is",
+      "meaning": "（助动词，构成进行时）",
+      "pos": "be动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "coming",
+      "meaning": "即将到来；即将上演",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈkʌmɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "到；向",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "\"The",
+      "meaning": "（名称开头）这个",
+      "pos": "定冠词（带左双引号）",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "Globe\"",
+      "meaning": "环球（剧场名，带右双引号）",
+      "pos": "专有名词",
+      "phonetic": "/ɡləʊb/"
+    },
+    {
+      "text": "soon,’",
+      "meaning": "很快，不久（带逗号和右单引号）",
+      "pos": "副词",
+      "phonetic": "/suːn/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说（带句号）",
+      "pos": "动词过去式",
+      "phonetic": "/sed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘A new play",
+      "relation": "引语中句子的主语，描述上演的对象",
+      "meaning": "一出新戏"
+    },
+    {
+      "text": "is coming",
+      "relation": "引语中句子的谓语，表示将要发生的动作",
+      "meaning": "即将到来/上演"
+    },
+    {
+      "text": "to \"The Globe\"",
+      "relation": "动作的目的地，说明上演的地点",
+      "meaning": "到“环球剧场”"
+    },
+    {
+      "text": "soon,’",
+      "relation": "动作发生的时间",
+      "meaning": "很快，不久"
+    },
+    {
+      "text": "I said.",
+      "relation": "主句，交代说话人和说话动作",
+      "meaning": "我说道"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-040",
+  "sentenceId": "nce-2-lesson-040-sentence-006",
+  "sentenceOrder": 7,
+  "english": "‘A new play is coming to \"The Globe\" soon,’ I said.",
+  "lesson": "Lesson 40 Food and talk",
+  "notes": [
+    {
+      "title": "直接引语与主句的位置",
+      "text": "本句把说的话放在前面，后跟主句“I said.”，属于直接引语的常见倒装语序，作用是先呈现说话内容，再交代说话人。"
+    },
+    {
+      "title": "现在进行时表将来",
+      "text": "“is coming” 用现在进行时表示按安排很快会发生的事，不是“正在来”，结合地点“The Globe”可理解为即将上演。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需修正‘A的词性标注并将backbone引语时态统一为与said一致的过去将来时，其余内容可用。（非逐句人工审核）"
+}

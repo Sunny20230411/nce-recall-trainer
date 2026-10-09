@@ -1,0 +1,109 @@
+{
+  "chinese": "罗伊·特伦顿以前是开出租车的。",
+  "intent": "说明Roy Trenton过去的职业情况，交代他现在已不再开出租车。",
+  "comparison": null,
+  "backbone": {
+    "text": "Roy Trenton used to drive a taxi.",
+    "meaning": "罗伊·特伦顿过去常以开出租车为业（现在不做了）。"
+  },
+  "structureNotes": [
+    {
+      "title": "used to 的含义",
+      "text": "used to 后接动词原形，专门表示过去经常性、习惯性的动作或状态，暗含“现在已经不是这样了”的对比意味，是交代人物过往经历的常用表达。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Roy Trenton",
+      "role": "主语",
+      "explanation": "句子描述的对象，是一个人的全名。"
+    },
+    {
+      "text": "used to drive",
+      "role": "谓语",
+      "explanation": "表示过去习惯性的动作，used to 整体表达“过去曾经、过去常常”的含义，后接实义动词drive原形。"
+    },
+    {
+      "text": "a taxi",
+      "role": "宾语",
+      "explanation": "是drive动作的对象，说明过去开的是什么车，代指出租车这一职业工具。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Roy",
+      "meaning": "罗伊（男子名）",
+      "pos": "名词",
+      "phonetic": "/rɔɪ/"
+    },
+    {
+      "text": "Trenton",
+      "meaning": "特伦顿（姓氏）",
+      "pos": "名词",
+      "phonetic": "/ˈtrentən/"
+    },
+    {
+      "text": "used",
+      "meaning": "（与to连用）过去常常",
+      "pos": "形容词",
+      "phonetic": "/juːzd/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tə/"
+    },
+    {
+      "text": "drive",
+      "meaning": "驾驶，开（车）",
+      "pos": "动词",
+      "phonetic": "/draɪv/"
+    },
+    {
+      "text": "a",
+      "meaning": "一辆（泛指）",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "taxi.",
+      "meaning": "出租车",
+      "pos": "名词",
+      "phonetic": "/ˈtæksi/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Roy Trenton",
+      "meaning": "罗伊·特伦顿",
+      "relation": "描述对象（句子主语）"
+    },
+    {
+      "text": "used to drive",
+      "meaning": "过去常常开（以……为业）",
+      "relation": "过去习惯性动作（谓语）"
+    },
+    {
+      "text": "a taxi.",
+      "meaning": "出租车（职业工具）",
+      "relation": "驾驶的对象（宾语）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-035",
+  "sentenceId": "nce-2-lesson-035-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Roy Trenton used to drive a taxi.",
+  "lesson": "Lesson 35 Stop thief!",
+  "notes": [
+    {
+      "title": "used to 的含义",
+      "text": "used to 后接动词原形，专门表示过去经常性、习惯性的动作或状态，暗含“现在已经不是这样了”的对比意味，是交代人物过往经历的常用表达。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析正确，仅需修正words中used的词性标注（used to中used为形容词性，此处原标注动词不够准确）以及taxi.的释义需保留原词项标点但释义去标点，同时parts中a taxi.的语义表述可结合职业语境更贴合原意。（非逐句人工审核）"
+}

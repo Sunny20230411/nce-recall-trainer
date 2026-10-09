@@ -1,0 +1,85 @@
+{
+  "chinese": "人人都认识他。",
+  "intent": "陈述一个大家普遍认识某人的事实。",
+  "comparison": null,
+  "backbone": {
+    "text": "Everybody knows him.",
+    "meaning": "所有人都认识他。"
+  },
+  "structureNotes": [
+    {
+      "title": "句子基本结构",
+      "text": "这是一个典型的主谓宾结构，主语是Everybody，谓语是knows，宾语是him，表示“所有人都认识他”这一普遍事实。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Everybody",
+      "role": "主语",
+      "explanation": "指所有的人，是句子中动作的发出者，不定代词作主语视为单数。"
+    },
+    {
+      "text": "knows",
+      "role": "谓语动词",
+      "explanation": "表示“认识、了解”的动作，因为主语是不定代词Everybody，动词用第三人称单数形式。"
+    },
+    {
+      "text": "him.",
+      "role": "宾语",
+      "explanation": "指代前文提到的男性Percy Buttons，是“认识”这个动作的对象，句末点号为句子标点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Everybody",
+      "meaning": "每个人，所有人",
+      "pos": "代词",
+      "phonetic": "/ˈevribɒdi/"
+    },
+    {
+      "text": "knows",
+      "meaning": "认识，知道（第三人称单数形式）",
+      "pos": "动词",
+      "phonetic": "/nəʊz/"
+    },
+    {
+      "text": "him.",
+      "meaning": "他（宾格，句末带句号，释义核心为代词him）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Everybody",
+      "relation": "动作的发出者",
+      "meaning": "每个人、所有人"
+    },
+    {
+      "text": "knows",
+      "relation": "主语发出的动作",
+      "meaning": "认识"
+    },
+    {
+      "text": "him.",
+      "relation": "动作的对象",
+      "meaning": "他"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-006",
+  "sentenceId": "nce-2-lesson-006-sentence-009",
+  "sentenceOrder": 9,
+  "english": "Everybody knows him.",
+  "lesson": "Lesson 6 Percy Buttons",
+  "notes": [
+    {
+      "title": "句子基本结构",
+      "text": "这是一个典型的主谓宾结构，主语是Everybody，谓语是knows，宾语是him，表示“所有人都认识他”这一普遍事实。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析符合要求，仅words数组中第三个词项text为him.（带句点）但音标对应him，需统一解释范围明确是代词him，句末点号是句子标点约定；同时补充him的指代语境更贴合上下文。（非逐句人工审核）"
+}

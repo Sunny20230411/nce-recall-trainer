@@ -1,0 +1,103 @@
+{
+  "chinese": "这里是“禁止停车”区域。",
+  "intent": "告知对方当前所在区域的管制规定，即此处不允许停车。",
+  "comparison": null,
+  "backbone": {
+    "text": "This is a \"No Parking\" area.",
+    "meaning": "这是一处“禁止停车”区域。"
+  },
+  "structureNotes": [
+    {
+      "title": "标识类前置修饰语",
+      "text": "\"No Parking\" 整体放在 area 前面，相当于中文“禁止停车的区域”里的定语，用引号标出是交通标识原文，说明区域的管制性质。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "This",
+      "role": "主语",
+      "explanation": "指代眼前或当前所处的这片区域，是句子说明的对象。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "连接主语和后面的身份说明，起判断作用。"
+    },
+    {
+      "text": "a \"No Parking\" area",
+      "role": "表语",
+      "explanation": "说明主语的属性，指一片名为“禁止停车”的区域。"
+    }
+  ],
+  "words": [
+    {
+      "text": "This",
+      "meaning": "这，这个",
+      "pos": "代词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "is",
+      "meaning": "是",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（处）",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "\"No",
+      "meaning": "禁止（交通标识用语，no的大写形式，引号为标识原文符号）",
+      "pos": "限定词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "Parking\"",
+      "meaning": "停车（park的动名词形式，引号为标识原文符号）",
+      "pos": "名词",
+      "phonetic": "/ˈpɑːkɪŋ/"
+    },
+    {
+      "text": "area.",
+      "meaning": "区域",
+      "pos": "名词",
+      "phonetic": "/ˈeəriə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "This",
+      "relation": "描述对象",
+      "meaning": "这（指代当前地点）"
+    },
+    {
+      "text": "is",
+      "relation": "判断连接",
+      "meaning": "是"
+    },
+    {
+      "text": "a \"No Parking\" area.",
+      "relation": "说明对象是什么",
+      "meaning": "一处“禁止停车”区域"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-016",
+  "sentenceId": "nce-2-lesson-016-sentence-006",
+  "sentenceOrder": 8,
+  "english": "This is a \"No Parking\" area.",
+  "lesson": "Lesson 16 A polite request",
+  "notes": [
+    {
+      "title": "标识类前置修饰语",
+      "text": "\"No Parking\" 整体放在 area 前面，相当于中文“禁止停车的区域”里的定语，用引号标出是交通标识原文，说明区域的管制性质。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅词项部分存在词性与释义小问题：1. \"No 词性标注为限定词不当，此处No是修饰动名词parking的限定词，但“No Parking”是标识整体，单词层面No作为no的大写，义为“禁止；不许（标识用语）”，原释义截断不完整且词性虽可归为限定词但释义不对；2. Parking\" 词性标为名词正确，但释义含右引号且未完整对应，且area.释义带句末标点不符合约定（仅解释词本身）；3. 修正words中错误的释义、词性匹配问题，保留原text不变。（非逐句人工审核）"
+}

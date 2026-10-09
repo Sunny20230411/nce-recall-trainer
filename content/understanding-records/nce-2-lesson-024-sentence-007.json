@@ -1,0 +1,148 @@
+{
+  "chinese": "一个女孩走了进来，把一个信封放在了他的桌上。",
+  "intent": "叙述两个连续发生的动作：女孩进入房间，然后将信封放到他的桌上。",
+  "comparison": null,
+  "backbone": {
+    "text": "A girl came in and put an envelope on his desk.",
+    "meaning": "一个女孩进来，并把一个信封放在他的桌子上。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列谓语",
+      "text": "句中用 and 连接 came in 和 put an envelope on his desk 两个谓语部分，两个动作的主语都是 a girl，表示先后连续发生的两个行为。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A girl",
+      "role": "主语",
+      "explanation": "指发出“进来”和“放信封”这两个动作的人。"
+    },
+    {
+      "text": "came in",
+      "role": "第一个谓语（短语动词）",
+      "explanation": "表示“进入房间/进来”的动作，是主语发出的第一个行为。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个谓语动作，表示动作的承接关系。"
+    },
+    {
+      "text": "put an envelope on his desk.",
+      "role": "第二个谓语部分（含谓语动词、宾语和地点状语）",
+      "explanation": "表示“把信封放在他的桌上”的动作，put 是谓语动词（及物），an envelope 是宾语，on his desk 是地点状语，说明放置的地点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "girl",
+      "meaning": "女孩",
+      "pos": "名词",
+      "phonetic": "/ɡɜːl/"
+    },
+    {
+      "text": "came",
+      "meaning": "来（come的过去式）",
+      "pos": "动词",
+      "phonetic": "/keɪm/"
+    },
+    {
+      "text": "in",
+      "meaning": "进入（与come构成短语动词come in）",
+      "pos": "副词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "put",
+      "meaning": "放；放置（put的过去式，形与原形相同）",
+      "pos": "动词",
+      "phonetic": "/pʊt/"
+    },
+    {
+      "text": "an",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ən/"
+    },
+    {
+      "text": "envelope",
+      "meaning": "信封",
+      "pos": "名词",
+      "phonetic": "/ˈenvələʊp/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "物主限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "desk.",
+      "meaning": "书桌；办公桌",
+      "pos": "名词",
+      "phonetic": "/desk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "A girl",
+      "relation": "动作的发出者（主语）",
+      "meaning": "一个女孩"
+    },
+    {
+      "text": "came in",
+      "relation": "第一个动作（谓语）",
+      "meaning": "走了进来"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个动作",
+      "meaning": "并且"
+    },
+    {
+      "text": "put an envelope",
+      "relation": "第二个动作及其对象（谓语+宾语）",
+      "meaning": "放了一个信封"
+    },
+    {
+      "text": "on his desk.",
+      "relation": "放置的地点",
+      "meaning": "在他的桌子上"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-024",
+  "sentenceId": "nce-2-lesson-024-sentence-007",
+  "sentenceOrder": 7,
+  "english": "A girl came in and put an envelope on his desk.",
+  "lesson": "Lesson 24 It could be worse",
+  "notes": [
+    {
+      "title": "并列谓语",
+      "text": "句中用 and 连接 came in 和 put an envelope on his desk 两个谓语部分，两个动作的主语都是 a girl，表示先后连续发生的两个行为。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅部分表述可优化：words中put的释义应明确为过去式且形相同，in作为短语动词的副词小品词释义更贴合语境；structures中第二个谓语的角色表述可更准确区分谓语核心与附属成分。（非逐句人工审核）"
+}

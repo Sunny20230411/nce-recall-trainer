@@ -1,0 +1,213 @@
+{
+  "chinese": "比尔干活比乔更卖力，种的花和蔬菜也更多，但乔的花园更有意思。",
+  "intent": "对比比尔和乔打理花园的不同特点：比尔更勤奋、产出更多，乔的花园更有趣。",
+  "comparison": {
+    "chinese": "中文可以把两个人的对比放在同一句里，先说‘比尔比乔努力’，顺着说‘种的东西更多’，再用‘但’转去说乔花园的优点。",
+    "english": "Bill works harder than Joe and grows more flowers and vegetables, but Joe's garden is more interesting.",
+    "steps": [
+      {
+        "label": "先抓前半部分的两层对比",
+        "text": "Bill works harder than Joe and grows more flowers and vegetables",
+        "explanation": "先交代‘比尔干活比乔努力’，接着用and连上同主语的第二个动作‘种的花和蔬菜更多’，两个都是比尔胜过乔的地方。"
+      },
+      {
+        "label": "再看转折后的新对象",
+        "text": "but Joe's garden is more interesting",
+        "explanation": "用but转成反向对比，这次比较的对象换成了‘乔的花园’，说它在趣味性上更胜一筹，不再继续说比尔。"
+      }
+    ],
+    "takeaway": "英文里比较句可以并列多个同主语的比较项，转折后也可以更换比较的主体，中文顺着意思分层说即可。"
+  },
+  "backbone": {
+    "text": "Bill works harder and grows more, but Joe's garden is more interesting.",
+    "meaning": "比尔更努力、种得更多，但乔的花园更有趣。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列加转折的复合关系",
+      "text": "前半句用and并列比尔的两个比较优势，后半句用but转折，引出乔花园的优点，前后形成反向对比。"
+    },
+    {
+      "title": "比较级的搭配方式",
+      "text": "harder than Joe 用than引出比较对象Joe；more flowers 用more修饰名词表数量更多，more interesting 用more和多音节形容词原级构成比较级，用法不同。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "works harder than Joe",
+      "role": "比较级谓语（表动作程度）",
+      "explanation": "说明work这个动作的程度，用harder than引出比较对象乔，意思是比乔干得更努力。"
+    },
+    {
+      "text": "grows more flowers and vegetables",
+      "role": "并列谓语（带比较级宾语）",
+      "explanation": "和前面的works并列，同属比尔的动作；more修饰flowers and vegetables，表示数量比乔多。"
+    },
+    {
+      "text": "but Joe's garden is more interesting",
+      "role": "转折分句",
+      "explanation": "用but转折，主语换成乔的花园，用more interesting说明它在趣味性上更强。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Bill",
+      "meaning": "比尔（男子名）",
+      "pos": "名词",
+      "phonetic": "/bɪl/"
+    },
+    {
+      "text": "works",
+      "meaning": "工作，干活",
+      "pos": "动词",
+      "phonetic": "/wɜːks/"
+    },
+    {
+      "text": "harder",
+      "meaning": "更努力地（hard的比较级）",
+      "pos": "副词",
+      "phonetic": "/ˈhɑːdə/"
+    },
+    {
+      "text": "than",
+      "meaning": "比（用于比较级）",
+      "pos": "介词",
+      "phonetic": "/ðæn/"
+    },
+    {
+      "text": "Joe",
+      "meaning": "乔（男子名）",
+      "pos": "名词",
+      "phonetic": "/dʒəʊ/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "grows",
+      "meaning": "种植；生长",
+      "pos": "动词",
+      "phonetic": "/ɡrəʊz/"
+    },
+    {
+      "text": "more",
+      "meaning": "更多的（many/much的比较级）",
+      "pos": "限定词",
+      "phonetic": "/mɔː/"
+    },
+    {
+      "text": "flowers",
+      "meaning": "花，花卉",
+      "pos": "名词",
+      "phonetic": "/ˈflaʊəz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "vegetables,",
+      "meaning": "蔬菜（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈvedʒtəblz/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "Joe's",
+      "meaning": "乔的（所有格）",
+      "pos": "名词所有格",
+      "phonetic": "/dʒəʊz/"
+    },
+    {
+      "text": "garden",
+      "meaning": "花园",
+      "pos": "名词",
+      "phonetic": "/ˈɡɑːdn/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be的第三人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "more",
+      "meaning": "更（构成多音节形容词比较级）",
+      "pos": "副词",
+      "phonetic": "/mɔː/"
+    },
+    {
+      "text": "interesting.",
+      "meaning": "有趣的",
+      "pos": "形容词",
+      "phonetic": "/ˈɪntrəstɪŋ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Bill",
+      "relation": "描述谁（前半句主语）",
+      "meaning": "比尔"
+    },
+    {
+      "text": "works harder than Joe",
+      "relation": "比尔的第一个动作及程度对比",
+      "meaning": "干活比乔更努力"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列动作",
+      "meaning": "并且"
+    },
+    {
+      "text": "grows more flowers and vegetables,",
+      "relation": "比尔的第二个动作及数量对比",
+      "meaning": "种更多的花和蔬菜"
+    },
+    {
+      "text": "but",
+      "relation": "转折连接前后两个分句",
+      "meaning": "但是"
+    },
+    {
+      "text": "Joe's garden",
+      "relation": "描述谁（后半句主语）",
+      "meaning": "乔的花园"
+    },
+    {
+      "text": "is more interesting.",
+      "relation": "乔的花园的特点及程度对比",
+      "meaning": "更有趣"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-008",
+  "sentenceId": "nce-2-lesson-008-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Bill works harder than Joe and grows more flowers and vegetables, but Joe's garden is more interesting.",
+  "lesson": "Lesson 8 The best and the worst",
+  "notes": [
+    {
+      "title": "并列加转折的复合关系",
+      "text": "前半句用and并列比尔的两个比较优势，后半句用but转折，引出乔花园的优点，前后形成反向对比。"
+    },
+    {
+      "title": "比较级的搭配方式",
+      "text": "harder than Joe 用than引出比较对象Joe；more flowers 用more修饰名词表数量更多，more interesting 用more和多音节形容词原级构成比较级，用法不同。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅存在两处可修正的小问题：1. 单词释义中错误标注标点归属（vegetables的逗号、interesting的句号为句中标点，不属于单词本身含义）；2. 比较级结构说明里more interesting的more是修饰形容词原级构成比较级，原描述表述不够严谨。（非逐句人工审核）"
+}

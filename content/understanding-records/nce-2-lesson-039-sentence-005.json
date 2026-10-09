@@ -1,0 +1,153 @@
+{
+  "chinese": "吉尔伯特说，他正在打听一位病人，一位叫约翰·吉尔伯特的先生。",
+  "intent": "转述吉尔伯特所说的内容，说明他打电话的目的是询问某位特定病人的情况，并点明这位病人的身份。",
+  "comparison": null,
+  "backbone": {
+    "text": "Gilbert said he was inquiring about a certain patient.",
+    "meaning": "吉尔伯特说他正在打听一位病人的情况。"
+  },
+  "structureNotes": [
+    {
+      "title": "间接引语的用法",
+      "text": "said 后面跟着一整句话作为“说”的内容，属于间接引语，用来转述别人说过的话，不需要加引号，引语里的时态要和主句的过去时保持一致，所以用 was inquiring。"
+    },
+    {
+      "title": "同位语补充身份",
+      "text": "句末的 a Mr John Gilbert 是前面 a certain patient 的同位语，用来具体说明这位病人是谁，相当于“也就是一位名叫约翰·吉尔伯特的先生”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Gilbert said",
+      "role": "主句（主谓结构）",
+      "explanation": "交代说话人是吉尔伯特，以及动作“说”，引出后面转述的内容。"
+    },
+    {
+      "text": "he was inquiring about a certain patient",
+      "role": "宾语从句（间接引语）",
+      "explanation": "整句话作 said 的宾语，转述吉尔伯特说话的具体内容，用过去进行时表示当时正在做的事。"
+    },
+    {
+      "text": "a Mr John Gilbert.",
+      "role": "同位语",
+      "explanation": "对前面的 a certain patient 做补充说明，点明这位病人的具体姓名和身份。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Gilbert",
+      "meaning": "吉尔伯特（人名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈɡɪlbət/"
+    },
+    {
+      "text": "said",
+      "meaning": "说（say 的过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be 的过去式，与he连用）",
+      "pos": "be动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "inquiring",
+      "meaning": "打听，询问（inquire的现在分词）",
+      "pos": "动词（现在分词）",
+      "phonetic": "/ɪnˈkwaɪərɪŋ/"
+    },
+    {
+      "text": "about",
+      "meaning": "关于，对于",
+      "pos": "介词",
+      "phonetic": "/əˈbaʊt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "certain",
+      "meaning": "某一，某位",
+      "pos": "形容词",
+      "phonetic": "/ˈsɜːtn/"
+    },
+    {
+      "text": "patient,",
+      "meaning": "病人",
+      "pos": "名词",
+      "phonetic": "/ˈpeɪʃnt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一位",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "Mr",
+      "meaning": "先生（称呼）",
+      "pos": "名词（尊称）",
+      "phonetic": "/ˈmɪstə/"
+    },
+    {
+      "text": "John",
+      "meaning": "约翰（人名）",
+      "pos": "专有名词",
+      "phonetic": "/dʒɒn/"
+    },
+    {
+      "text": "Gilbert.",
+      "meaning": "吉尔伯特（人名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈɡɪlbət/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Gilbert said",
+      "relation": "说话人和动作，引出后面的内容",
+      "meaning": "吉尔伯特说"
+    },
+    {
+      "text": "he was inquiring about a certain patient,",
+      "relation": "说的具体内容，是转述的核心信息",
+      "meaning": "他正在打听一位病人"
+    },
+    {
+      "text": "a Mr John Gilbert.",
+      "relation": "补充说明前面“一位病人”的具体身份",
+      "meaning": "一位约翰·吉尔伯特先生"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-039",
+  "sentenceId": "nce-2-lesson-039-sentence-005",
+  "sentenceOrder": 7,
+  "english": "Gilbert said he was inquiring about a certain patient, a Mr John Gilbert.",
+  "lesson": "Lesson 39 Am I all right?",
+  "notes": [
+    {
+      "title": "间接引语的用法",
+      "text": "said 后面跟着一整句话作为“说”的内容，属于间接引语，用来转述别人说过的话，不需要加引号，引语里的时态要和主句的过去时保持一致，所以用 was inquiring。"
+    },
+    {
+      "title": "同位语补充身份",
+      "text": "句末的 a Mr John Gilbert 是前面 a certain patient 的同位语，用来具体说明这位病人是谁，相当于“也就是一位名叫约翰·吉尔伯特的先生”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析正确，仅需修正词项中随词标点混入释义、分词性标注不当以及从句中was的语法角色说明问题，其余内容符合要求。（非逐句人工审核）"
+}

@@ -1,0 +1,108 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-095",
+  "sentenceId": "nce-2-lesson-095-sentence-009",
+  "sentenceOrder": 9,
+  "english": "'And where were you at the time?'",
+  "chinese": "“那你当时在哪里？”",
+  "lesson": "Lesson 95 A fantasy",
+  "intent": "继续确认丈夫在火灾中的位置。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "'And where were you",
+      "relation": "接续追问位置",
+      "meaning": "那你在哪里"
+    },
+    {
+      "text": "at the time?'",
+      "relation": "事件时间",
+      "meaning": "在当时"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "话题衔接",
+      "text": "And 引入相关追问。"
+    },
+    {
+      "title": "时间回指",
+      "text": "the time 回指火灾发生时。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "话题衔接",
+      "text": "And 引入相关追问。"
+    },
+    {
+      "title": "时间回指",
+      "text": "the time 回指火灾发生时。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "And",
+      "role": "话语连接词",
+      "explanation": "接续上一话题。"
+    },
+    {
+      "text": "where were you",
+      "role": "疑问主干",
+      "explanation": "询问所在位置。"
+    },
+    {
+      "text": "at the time",
+      "role": "时间状语",
+      "explanation": "限定所问时刻。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'And",
+      "meaning": "那，接续追问",
+      "pos": "连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "where",
+      "meaning": "哪里",
+      "pos": "疑问副词",
+      "phonetic": "/weə/"
+    },
+    {
+      "text": "were",
+      "meaning": "处于",
+      "pos": "系动词",
+      "phonetic": "/wɜː/ 或 /wə/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/ 或 /jʊ/"
+    },
+    {
+      "text": "at",
+      "meaning": "在",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "那个",
+      "pos": "冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "time?'",
+      "meaning": "时候",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

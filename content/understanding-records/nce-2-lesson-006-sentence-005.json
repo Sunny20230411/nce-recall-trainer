@@ -1,0 +1,107 @@
+{
+  "chinese": "我给了他一顿饭。",
+  "intent": "陈述过去的一个给予行为，说明说话人把一顿饭给了那个乞丐。",
+  "comparison": null,
+  "backbone": {
+    "text": "I gave him a meal.",
+    "meaning": "我给了他一顿饭。"
+  },
+  "structureNotes": [
+    {
+      "title": "双宾语结构",
+      "text": "gave 后面带两个宾语：him 是接受东西的人，a meal 是给的具体东西。两个宾语挨在一起说时，人在前、物在后，不需要加介词。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "动作的发出者，指说话人。"
+    },
+    {
+      "text": "gave",
+      "role": "谓语动词",
+      "explanation": "give 的过去式，表示“给予”这个已经发生的动作。"
+    },
+    {
+      "text": "him",
+      "role": "间接宾语",
+      "explanation": "接受物品的人，指代前文提到的乞丐。"
+    },
+    {
+      "text": "a meal",
+      "role": "直接宾语",
+      "explanation": "被给予的具体东西，指一顿饭食。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "gave",
+      "meaning": "给（过去式）",
+      "pos": "动词",
+      "phonetic": "/ɡeɪv/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格）",
+      "pos": "人称代词",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个、份等）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "meal.",
+      "meaning": "一餐，一顿饭",
+      "pos": "名词",
+      "phonetic": "/miːl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "gave",
+      "relation": "主干动作",
+      "meaning": "给了"
+    },
+    {
+      "text": "him",
+      "relation": "接受东西的人",
+      "meaning": "他"
+    },
+    {
+      "text": "a meal.",
+      "relation": "给的东西",
+      "meaning": "一顿饭"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-006",
+  "sentenceId": "nce-2-lesson-006-sentence-005",
+  "sentenceOrder": 5,
+  "english": "I gave him a meal.",
+  "lesson": "Lesson 6 Percy Buttons",
+  "notes": [
+    {
+      "title": "双宾语结构",
+      "text": "gave 后面带两个宾语：him 是接受东西的人，a meal 是给的具体东西。两个宾语挨在一起说时，人在前、物在后，不需要加介词。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确合规，仅单词meal.的释义需去除句末标点带来的多余适配表述，保持词本身的释义即可，其余字段均符合要求。（非逐句人工审核）"
+}

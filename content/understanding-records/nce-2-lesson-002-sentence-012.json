@@ -1,0 +1,95 @@
+{
+  "chinese": "“我要来看你。”",
+  "intent": "说话人告知对方自己即将动身前去见对方。",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm coming to see you.",
+    "meaning": "我要来看你。"
+  },
+  "structureNotes": [
+    {
+      "title": "进行时表将来",
+      "text": "“I'm coming” 用现在进行时表达即将发生的计划，意思是“我马上要来/就要来了”，不是正在来的路上这一瞬间动作。"
+    },
+    {
+      "title": "to see 表目的",
+      "text": "“to see you” 说明来的目的是见对方，to 引出动作的目的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I'm coming",
+      "role": "主语 + 谓语",
+      "explanation": "用现在进行时表示近期确定的将来计划，意思是“我就要来了”，主语是 I，谓语是 am coming。"
+    },
+    {
+      "text": "to see you",
+      "role": "目的状语",
+      "explanation": "说明“来”这个动作的目的是见对方，you 是 see 的宾语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘I'm",
+      "meaning": "我是（I am 的缩写）",
+      "pos": "代词+be动词第一人称单数现在时缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "coming",
+      "meaning": "来（现在分词形式）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈkʌmɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，引出目的）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "see",
+      "meaning": "看见，拜访",
+      "pos": "动词",
+      "phonetic": "/siː/"
+    },
+    {
+      "text": "you.’",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘I'm coming",
+      "relation": "主句，交代即将发生的动作",
+      "meaning": "我就要来了"
+    },
+    {
+      "text": "to see you.’",
+      "relation": "动作的目的，说明来是为了见对方",
+      "meaning": "来看你"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-002",
+  "sentenceId": "nce-2-lesson-002-sentence-012",
+  "sentenceOrder": 12,
+  "english": "‘I'm coming to see you.’",
+  "lesson": "Lesson 2 Breakfast or lunch?",
+  "notes": [
+    {
+      "title": "进行时表将来",
+      "text": "“I'm coming” 用现在进行时表达即将发生的计划，意思是“我马上要来/就要来了”，不是正在来的路上这一瞬间动作。"
+    },
+    {
+      "title": "to see 表目的",
+      "text": "“to see you” 说明来的目的是见对方，to 引出动作的目的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，有几处需修正：1. structures中“I'm coming”的role标注为“谓语（含主语）”不规范，主语和谓语是不同语法成分，需明确区分；2. words第一个词项单引号位置错误导致释义歧义，且pos标注不规范，需修正释义和词性说明；3. 第一个words词项的phonetic音标对应I'm，但text带前引号，需保证释义清晰，同时you.’的pos不应包含标点说明，标点随词项是约定无需额外说明；4. parts第一个分块text带前引号，释义准确但无需改动text，仅确认无误。（非逐句人工审核）"
+}

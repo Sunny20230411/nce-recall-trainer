@@ -1,0 +1,144 @@
+{
+  "chinese": "不过，今天早上一名消防员意外发现了起火原因。",
+  "intent": "补充说明与前文预期不同的新进展：火灾原因在今早被一名消防员意外发现。",
+  "comparison": null,
+  "backbone": {
+    "text": "a fireman discovered the cause",
+    "meaning": "一名消防员发现了原因"
+  },
+  "structureNotes": [
+    {
+      "title": "however的位置与作用",
+      "text": "however放在句中两个逗号之间，作用是转折整句话和上文的逻辑，说明这一发现和之前“没找到原因”的情况形成反差，翻译时可灵活放在句首或句中。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "This morning放在句首，用逗号和主句隔开，交代事件发生的时间，不影响句子主干的识别。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "This morning,",
+      "role": "时间状语",
+      "explanation": "交代主句动作发生的时间是今天早上。"
+    },
+    {
+      "text": "however,",
+      "role": "转折连接性状语",
+      "explanation": "表示本句内容和前文语义形成转折，即虽然之前没确定原因，但今早有了新发现。"
+    },
+    {
+      "text": "accidentally",
+      "role": "方式状语",
+      "explanation": "修饰动词discovered，说明发现原因是意外发生的，不是刻意排查得到的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "This",
+      "meaning": "这，这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "morning,",
+      "meaning": "早晨，上午",
+      "pos": "名词",
+      "phonetic": "/ˈmɔːnɪŋ/"
+    },
+    {
+      "text": "however,",
+      "meaning": "然而，可是",
+      "pos": "副词",
+      "phonetic": "/haʊˈevə/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（名/个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "fireman",
+      "meaning": "消防员",
+      "pos": "名词",
+      "phonetic": "/ˈfaɪəmən/"
+    },
+    {
+      "text": "accidentally",
+      "meaning": "意外地，偶然地",
+      "pos": "副词",
+      "phonetic": "/ˌæksɪˈdentəli/"
+    },
+    {
+      "text": "discovered",
+      "meaning": "发现，找到（过去式）",
+      "pos": "动词",
+      "phonetic": "/dɪˈskʌvəd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "cause.",
+      "meaning": "原因，起因",
+      "pos": "名词",
+      "phonetic": "/kɔːz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "This morning,",
+      "relation": "时间",
+      "meaning": "今天早上"
+    },
+    {
+      "text": "however,",
+      "relation": "转折衔接",
+      "meaning": "然而/不过"
+    },
+    {
+      "text": "a fireman",
+      "relation": "动作发出者",
+      "meaning": "一名消防员"
+    },
+    {
+      "text": "accidentally",
+      "relation": "描述发现的方式",
+      "meaning": "意外地"
+    },
+    {
+      "text": "discovered",
+      "relation": "主要动作",
+      "meaning": "发现了"
+    },
+    {
+      "text": "the cause.",
+      "relation": "动作的对象",
+      "meaning": "原因"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-053",
+  "sentenceId": "nce-2-lesson-053-sentence-006",
+  "sentenceOrder": 6,
+  "english": "This morning, however, a fireman accidentally discovered the cause.",
+  "lesson": "Lesson 53 Hot snake",
+  "notes": [
+    {
+      "title": "however的位置与作用",
+      "text": "however放在句中两个逗号之间，作用是转折整句话和上文的逻辑，说明这一发现和之前“没找到原因”的情况形成反差，翻译时可灵活放在句首或句中。"
+    },
+    {
+      "title": "时间状语的位置",
+      "text": "This morning放在句首，用逗号和主句隔开，交代事件发生的时间，不影响句子主干的识别。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：words 中部分词项标注了带标点的说明，不符合仅解释词本身的要求；其余内容准确。（非逐句人工审核）"
+}

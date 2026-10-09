@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-016",
+  "english": "‘I have a registered letter for you,’ he said.",
+  "text": "中文说“有一封挂号信给你”，容易想到 give you，英语常用 I have sth for you 说明某物是给对方的。这里 for you 表预定接收者，不用说成 give to you。下次递东西或通知有某人的物件，直接用 I have + 物品 + for sb 更地道。",
+  "sourceDigest": "0e168261be4edfd2d5b64c615dcf4a7c634a80e276646679d42a92adeb9d8cf1",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：点出了中英文表达视角的差异，迁移场景明确。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "选点准确，区分了中文直译倾向与英语常用表达，迁移具体可用。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

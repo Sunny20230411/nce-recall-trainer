@@ -1,0 +1,140 @@
+{
+  "chinese": "我刚搬进了大桥街的一栋房子。",
+  "intent": "陈述说话人近期刚刚完成搬家、现在住处位于大桥街一栋房子里的情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "I have moved to a house in Bridge Street.",
+    "meaning": "我已经搬到了大桥街的一栋房子里。"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时与just的搭配",
+      "text": "have just moved 用“have + 过去分词”构成现在完成时，just 放在助动词和实义动词之间，表示“刚刚”完成的动作，强调动作和现在的联系——人现在已经在新住处了。"
+    },
+    {
+      "title": "地点的两层信息",
+      "text": "动词 move 后用 to 引出搬家的目的地 a house，再用 in Bridge Street 补充说明这栋房子所在的街道；读的时候先抓住“搬到房子”，再理解是哪条街上的房子。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "have just moved",
+      "role": "谓语",
+      "explanation": "由助动词 have、副词 just 和过去分词 moved 共同构成现在完成时的谓语，表示“刚刚已经搬家”这个已完成的动作。"
+    },
+    {
+      "text": "to a house",
+      "role": "地点目的地状语",
+      "explanation": "介词 to 引出动作 move 的目的地，说明搬家去往的处所是一栋房子。"
+    },
+    {
+      "text": "in Bridge Street.",
+      "role": "后置地点修饰语",
+      "explanation": "介词短语修饰 a house，说明这栋房子位于大桥街，补充房子的具体位置。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "have",
+      "meaning": "（助动词，构成现在完成时，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "just",
+      "meaning": "刚刚，刚才",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "moved",
+      "meaning": "搬家；移动",
+      "pos": "动词（过去分词）",
+      "phonetic": "/muːvd/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向（表示方向）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（栋）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "house",
+      "meaning": "房子，住宅",
+      "pos": "名词",
+      "phonetic": "/haʊs/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里（表示地点）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "Bridge",
+      "meaning": "大桥（街道专有名词的一部分）",
+      "pos": "名词（专有名词）",
+      "phonetic": "/brɪdʒ/"
+    },
+    {
+      "text": "Street.",
+      "meaning": "街，街道（句末标点随词保留）",
+      "pos": "名词（专有名词）",
+      "phonetic": "/striːt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "have just moved",
+      "relation": "主语的动作",
+      "meaning": "刚刚已经搬家"
+    },
+    {
+      "text": "to a house",
+      "relation": "搬家的目的地",
+      "meaning": "到一栋房子"
+    },
+    {
+      "text": "in Bridge Street.",
+      "relation": "补充说明房子所在的位置",
+      "meaning": "在大桥街"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-006",
+  "sentenceId": "nce-2-lesson-006-sentence-001",
+  "sentenceOrder": 1,
+  "english": "I have just moved to a house in Bridge Street.",
+  "lesson": "Lesson 6 Percy Buttons",
+  "notes": [
+    {
+      "title": "现在完成时与just的搭配",
+      "text": "have just moved 用“have + 过去分词”构成现在完成时，just 放在助动词和实义动词之间，表示“刚刚”完成的动作，强调动作和现在的联系——人现在已经在新住处了。"
+    },
+    {
+      "title": "地点的两层信息",
+      "text": "动词 move 后用 to 引出搬家的目的地 a house，再用 in Bridge Street 补充说明这栋房子所在的街道；读的时候先抓住“搬到房子”，再理解是哪条街上的房子。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅存在两处小问题需修正：1. 词汇部分 Street 项的 text 自带句点，原释义未明确是英式拼写的 Street 并保留标点约定；且 Bridge Street 作为街道名通用译法为“大桥街”，原 Bridge 释义单独译“布里奇”易造成误解，应说明是街道专名，整体常译“大桥街”。2. 结构说明里“a house 后面先用 to 引出搬家的目的地”表述不严谨，to 是和动词 move 搭配的介词，并非 a house 的修饰开头，需修正逻辑。3. 主干释义准确，无需修改。（非逐句人工审核）"
+}

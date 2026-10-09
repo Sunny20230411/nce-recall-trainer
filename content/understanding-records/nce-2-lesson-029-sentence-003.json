@@ -1,0 +1,109 @@
+{
+  "chinese": "这架很棒的飞机可以搭载七名乘客。",
+  "intent": "介绍上文提到的这架飞机的载客能力。",
+  "comparison": null,
+  "backbone": {
+    "text": "This plane can carry seven passengers.",
+    "meaning": "这架飞机可以搭载七名乘客。"
+  },
+  "structureNotes": [
+    {
+      "title": "can + 实义动词的作用",
+      "text": "本句中 can carry 共同作谓语，can 表示“有能力做某事”，后接动词原形 carry，说明飞机具备搭载乘客的能力。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "This wonderful plane",
+      "role": "主语",
+      "explanation": "指上文提到的那架飞机，wonderful 修饰 plane，说明这架飞机性能出色。"
+    },
+    {
+      "text": "can carry",
+      "role": "谓语",
+      "explanation": "由情态动词 can 和实义动词 carry 组成，表达“有能力搭载”的含义。"
+    },
+    {
+      "text": "seven passengers",
+      "role": "宾语",
+      "explanation": "是 carry 的对象，说明搭载的人数和身份是七名乘客。"
+    }
+  ],
+  "words": [
+    {
+      "text": "This",
+      "meaning": "这（个/架）",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "wonderful",
+      "meaning": "极好的，很棒的",
+      "pos": "形容词",
+      "phonetic": "/ˈwʌndəfl/"
+    },
+    {
+      "text": "plane",
+      "meaning": "飞机",
+      "pos": "名词",
+      "phonetic": "/pleɪn/"
+    },
+    {
+      "text": "can",
+      "meaning": "能够，可以",
+      "pos": "情态动词",
+      "phonetic": "/kæn/"
+    },
+    {
+      "text": "carry",
+      "meaning": "运载，搭载",
+      "pos": "动词",
+      "phonetic": "/ˈkæri/"
+    },
+    {
+      "text": "seven",
+      "meaning": "七（个/名）",
+      "pos": "数词",
+      "phonetic": "/ˈsevn/"
+    },
+    {
+      "text": "passengers.",
+      "meaning": "乘客（passenger的复数形式）",
+      "pos": "名词",
+      "phonetic": "/ˈpæsɪndʒəz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "This wonderful plane",
+      "relation": "描述的对象",
+      "meaning": "这架很棒的飞机"
+    },
+    {
+      "text": "can carry",
+      "relation": "主语具备的能力动作",
+      "meaning": "可以搭载"
+    },
+    {
+      "text": "seven passengers.",
+      "relation": "搭载的对象",
+      "meaning": "七名乘客"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-029",
+  "sentenceId": "nce-2-lesson-029-sentence-003",
+  "sentenceOrder": 3,
+  "english": "This wonderful plane can carry seven passengers.",
+  "lesson": "Lesson 29 Taxi!",
+  "notes": [
+    {
+      "title": "can + 实义动词的作用",
+      "text": "本句中 can carry 共同作谓语，can 表示“有能力做某事”，后接动词原形 carry，说明飞机具备搭载乘客的能力。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅单词passengers.的释义表述可规范为对应复数形式的标准说法，其余字段无需修改。（非逐句人工审核）"
+}

@@ -1,0 +1,190 @@
+{
+  "chinese": "两名警探在门口值守的时候，另外两人打开了包裹。",
+  "intent": "说明两件事同时发生：一组警探守在门口，另一组打开包裹。",
+  "comparison": {
+    "chinese": "两名警探在门口值守的时候，另外两人打开了包裹。",
+    "english": "While two detectives were keeping guard at the door, two others opened the parcel.",
+    "steps": [
+      {
+        "label": "先抓主句核心事件",
+        "text": "two others opened the parcel",
+        "explanation": "中文先说“在…的时候”，英文可以先交代背景从句也可以先说主句，这里从句在前，不过理解上先抓主句“另外两人打开包裹”更清楚。"
+      },
+      {
+        "label": "再读while引导的同时背景",
+        "text": "While two detectives were keeping guard at the door",
+        "explanation": "while引出“在…期间”的同步动作，说明开包裹的同时，门口有人值守，是时间背景，不是先后发生。"
+      },
+      {
+        "label": "对应中文语序习惯",
+        "text": "把while从句放到前面说“在…的时候”",
+        "explanation": "中文习惯先讲背景时间再讲主句，英文这里从句在前其实和中文顺序一致，只是while放在从句最前面标记“同时”。"
+      }
+    ],
+    "takeaway": "while在这里表示两个动作在同一时间段内同时进行，主句是真正要交代的主要事件，从句提供同步背景。"
+  },
+  "backbone": {
+    "text": "two others opened the parcel",
+    "meaning": "另外两个人打开了包裹（这是句子的主要事件）。"
+  },
+  "structureNotes": [
+    {
+      "title": "while引导时间背景",
+      "text": "While 引出的从句说明主句动作发生的同时背景，两个动作“守在门口”和“打开包裹”是并行发生的，没有先后因果。"
+    },
+    {
+      "title": "were keeping guard 是过去进行时",
+      "text": "were keeping guard 表示过去某个时刻正在进行的动作，说明“当时正守在门口”，和主句一般过去时 opened 搭配，突出长动作背景中发生了某个具体动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "While two detectives were keeping guard at the door,",
+      "role": "时间状语从句",
+      "explanation": "由while引导，交代主句动作发生的同步背景：两名警探当时正守在门口。"
+    },
+    {
+      "text": "two others",
+      "role": "主句主语",
+      "explanation": "指另外两名（警探），是执行“打开包裹”这个动作的人。"
+    },
+    {
+      "text": "opened",
+      "role": "主句谓语",
+      "explanation": "表示过去发生的动作“打开”。"
+    },
+    {
+      "text": "the parcel.",
+      "role": "主句宾语",
+      "explanation": "是“打开”这个动作的对象，即那个包裹。"
+    }
+  ],
+  "words": [
+    {
+      "text": "While",
+      "meaning": "在……期间；当……的时候",
+      "pos": "连词",
+      "phonetic": "/waɪl/"
+    },
+    {
+      "text": "two",
+      "meaning": "两个；两名",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "detectives",
+      "meaning": "侦探；警探",
+      "pos": "名词",
+      "phonetic": "/dɪˈtektɪvz/"
+    },
+    {
+      "text": "were",
+      "meaning": "（be动词过去式复数，辅助构成进行时）",
+      "pos": "助动词",
+      "phonetic": "/wɜː/"
+    },
+    {
+      "text": "keeping",
+      "meaning": "保持；维持（与guard构成固定短语keep guard表示“值守、站岗”）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈkiːpɪŋ/"
+    },
+    {
+      "text": "guard",
+      "meaning": "守卫；警戒",
+      "pos": "名词",
+      "phonetic": "/ɡɑːd/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（某个地点）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "door,",
+      "meaning": "门",
+      "pos": "名词",
+      "phonetic": "/dɔː/"
+    },
+    {
+      "text": "two",
+      "meaning": "两个；另外两个",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "others",
+      "meaning": "其他人/物（此处指另外两名警探）",
+      "pos": "代词",
+      "phonetic": "/ˈʌðəz/"
+    },
+    {
+      "text": "opened",
+      "meaning": "打开（过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈəʊpənd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "parcel.",
+      "meaning": "包裹",
+      "pos": "名词",
+      "phonetic": "/ˈpɑːsl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "While two detectives were keeping guard at the door,",
+      "relation": "时间（同步背景）",
+      "meaning": "当两名警探在门口值守的时候"
+    },
+    {
+      "text": "two others",
+      "relation": "动作执行者（主句主语）",
+      "meaning": "另外两人（指另外两名警探）"
+    },
+    {
+      "text": "opened",
+      "relation": "主句动作（谓语）",
+      "meaning": "打开了"
+    },
+    {
+      "text": "the parcel.",
+      "relation": "动作对象（宾语）",
+      "meaning": "那个包裹"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-007",
+  "sentenceId": "nce-2-lesson-007-sentence-006",
+  "sentenceOrder": 7,
+  "english": "While two detectives were keeping guard at the door, two others opened the parcel.",
+  "lesson": "Lesson 7 Too late",
+  "notes": [
+    {
+      "title": "while引导时间背景",
+      "text": "While 引出的从句说明主句动作发生的同时背景，两个动作“守在门口”和“打开包裹”是并行发生的，没有先后因果。"
+    },
+    {
+      "title": "were keeping guard 是过去进行时",
+      "text": "were keeping guard 表示过去某个时刻正在进行的动作，说明“当时正守在门口”，和主句一般过去时 opened 搭配，突出长动作背景中发生了某个具体动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅存在小问题：1. 部分单词的释义带了句中标点（door,、parcel.），应剥离标点仅解释词义；2. keeping的释义表述稍可优化，更贴合短语搭配。其余内容符合要求。（非逐句人工审核）"
+}

@@ -1,0 +1,161 @@
+{
+  "chinese": "现在他把一个丑陋的石头脑袋安在了大门上方。",
+  "intent": "说明Jasper目前最新的行动：在大门上方放置了一个丑陋的石头头像。",
+  "comparison": null,
+  "backbone": {
+    "text": "he has put an ugly stone head over the gate",
+    "meaning": "他把一个丑陋的石头脑袋放在了大门上方"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时的表意",
+      "text": "has put 表示到现在为止已经完成的动作，重点在“目前已经放上了”这个结果，而不是强调放置的过程。"
+    },
+    {
+      "title": "over的空间含义",
+      "text": "over the gate 里的over表示“在……上方（覆盖或悬在上方）”，不是紧贴在门的表面，更符合把头像装在门上方墙体上的场景。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Now",
+      "role": "时间状语",
+      "explanation": "点明说的是现在这个阶段的情况，引出最新的变化。"
+    },
+    {
+      "text": "he",
+      "role": "主语",
+      "explanation": "指代上文提到的Jasper，是做“放置”这个动作的人。"
+    },
+    {
+      "text": "has put",
+      "role": "谓语",
+      "explanation": "现在完成时结构，has是助动词，put是实义动词“放置”，合起来表示“已经放置”。"
+    },
+    {
+      "text": "an ugly stone head",
+      "role": "宾语",
+      "explanation": "是被放置的东西；ugly和stone都是修饰head的，分别说明外观丑和材质是石头。"
+    },
+    {
+      "text": "over the gate",
+      "role": "地点状语",
+      "explanation": "说明放置的位置在大门的上方。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Now",
+      "meaning": "现在；如今",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "has",
+      "meaning": "（助动词，构成现在完成时）已经",
+      "pos": "助动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "put",
+      "meaning": "放；放置（过去分词）",
+      "pos": "动词",
+      "phonetic": "/pʊt/"
+    },
+    {
+      "text": "an",
+      "meaning": "一个",
+      "pos": "限定词",
+      "phonetic": "/ən/"
+    },
+    {
+      "text": "ugly",
+      "meaning": "丑陋的；难看的",
+      "pos": "形容词",
+      "phonetic": "/ˈʌɡli/"
+    },
+    {
+      "text": "stone",
+      "meaning": "石头",
+      "pos": "名词",
+      "phonetic": "/stəʊn/"
+    },
+    {
+      "text": "head",
+      "meaning": "头；头像",
+      "pos": "名词",
+      "phonetic": "/hed/"
+    },
+    {
+      "text": "over",
+      "meaning": "在……上方",
+      "pos": "介词",
+      "phonetic": "/ˈəʊvə/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个；那个（定指）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "gate.",
+      "meaning": "大门；门口",
+      "pos": "名词",
+      "phonetic": "/ɡeɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Now",
+      "relation": "时间",
+      "meaning": "现在"
+    },
+    {
+      "text": "he",
+      "relation": "动作的发出者",
+      "meaning": "他"
+    },
+    {
+      "text": "has put",
+      "relation": "主语的动作",
+      "meaning": "已经放置"
+    },
+    {
+      "text": "an ugly stone head",
+      "relation": "动作的对象（被放置的东西）",
+      "meaning": "一个丑陋的石头脑袋"
+    },
+    {
+      "text": "over the gate.",
+      "relation": "动作的位置",
+      "meaning": "在大门上方"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-028",
+  "sentenceId": "nce-2-lesson-028-sentence-006",
+  "sentenceOrder": 10,
+  "english": "Now he has put an ugly stone head over the gate.",
+  "lesson": "Lesson 28 No parking",
+  "notes": [
+    {
+      "title": "现在完成时的表意",
+      "text": "has put 表示到现在为止已经完成的动作，重点在“目前已经放上了”这个结果，而不是强调放置的过程。"
+    },
+    {
+      "title": "over的空间含义",
+      "text": "over the gate 里的over表示“在……上方（覆盖或悬在上方）”，不是紧贴在门的表面，更符合把头像装在门上方墙体上的场景。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正stone的词性标注（名词作定语而非形容词），其余翻译、结构解析及词义均符合要求。（非逐句人工审核）"
+}

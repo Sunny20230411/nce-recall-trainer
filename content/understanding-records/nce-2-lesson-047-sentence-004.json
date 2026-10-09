@@ -1,0 +1,143 @@
+{
+  "chinese": "汤普森打算把它卖掉，因为这地方闹鬼。",
+  "intent": "说明汤普森要出售某物的原因是该处所闹鬼。",
+  "comparison": null,
+  "backbone": {
+    "text": "Thompson is going to sell it because it is haunted.",
+    "meaning": "汤普森打算卖掉它，原因是它闹鬼。"
+  },
+  "structureNotes": [
+    {
+      "title": "be going to 的含义",
+      "text": "is going to sell 表示将来的打算，不是“正在去卖”，而是“准备/打算出售”。"
+    },
+    {
+      "title": "because 引导原因从句",
+      "text": "because 引出的从句用来说明主句动作发生的原因，回答“为什么要卖掉”。"
+    },
+    {
+      "title": "haunted 的被动含义",
+      "text": "it is haunted 是被动结构，直译是“它被鬼魂缠住”，日常说“闹鬼”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Thompson",
+      "role": "主语",
+      "explanation": "指句子里的人物汤普森，是打算卖房的人。"
+    },
+    {
+      "text": "is going to sell",
+      "role": "谓语",
+      "explanation": "表示将来打算做的动作“打算出售”，由 be going to 加动词原形 sell 构成。"
+    },
+    {
+      "text": "it",
+      "role": "宾语",
+      "explanation": "指代前文提到的要出售的事物（这里指房子/酒馆）。"
+    },
+    {
+      "text": "because it is haunted.",
+      "role": "原因状语从句",
+      "explanation": "说明要卖掉它的原因，其中 it 同指被出售的事物，is haunted 表示“闹鬼”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Thompson",
+      "meaning": "汤普森（人名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈtɒmpsən/"
+    },
+    {
+      "text": "is",
+      "meaning": "（助动词，构成进行/将来时结构）",
+      "pos": "be动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "going",
+      "meaning": "去；（与be going to连用表将来）打算",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "sell",
+      "meaning": "出售，卖",
+      "pos": "动词",
+      "phonetic": "/sel/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代前文提到的事物）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "because",
+      "meaning": "因为",
+      "pos": "连词",
+      "phonetic": "/bɪˈkɒz/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代前文提到的事物）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "is",
+      "meaning": "（助动词，构成被动/系表结构）",
+      "pos": "be动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "haunted.",
+      "meaning": "闹鬼的，被鬼魂萦绕的",
+      "pos": "形容词（过去分词转化而来）",
+      "phonetic": "/ˈhɔːntɪd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Thompson is going to sell it",
+      "relation": "主句，交代核心事件",
+      "meaning": "汤普森打算把它卖掉"
+    },
+    {
+      "text": "because it is haunted.",
+      "relation": "原因，说明卖掉的理由",
+      "meaning": "因为它闹鬼"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-047",
+  "sentenceId": "nce-2-lesson-047-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Thompson is going to sell it because it is haunted.",
+  "lesson": "Lesson 47 A thirsty ghost",
+  "notes": [
+    {
+      "title": "be going to 的含义",
+      "text": "is going to sell 表示将来的打算，不是“正在去卖”，而是“准备/打算出售”。"
+    },
+    {
+      "title": "because 引导原因从句",
+      "text": "because 引出的从句用来说明主句动作发生的原因，回答“为什么要卖掉”。"
+    },
+    {
+      "title": "haunted 的被动含义",
+      "text": "it is haunted 是被动结构，直译是“它被鬼魂缠住”，日常说“闹鬼”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正haunted的词性标注和对应结构说明的一致性，以及is的释义补充，其余内容符合要求。（非逐句人工审核）"
+}

@@ -1,0 +1,81 @@
+{
+  "chinese": "汤普森先生摇了摇头。",
+  "intent": "陈述汤普森先生做出摇头的动作，表达否定或不认同的态度。",
+  "comparison": null,
+  "backbone": {
+    "text": "Thompson shook his head.",
+    "meaning": "汤普森先生摇了摇头。"
+  },
+  "structureNotes": [
+    {
+      "title": "动词过去式表示已发生动作",
+      "text": "shook 是 shake 的过去式，表明摇头这个动作已经发生，是对过去事件的客观陈述。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Thompson",
+      "role": "主语",
+      "explanation": "句子动作的发出者，指做出摇头动作的人，即汤普森先生。"
+    },
+    {
+      "text": "shook his head",
+      "role": "谓语部分",
+      "explanation": "表示主语发出的具体动作，“shake one's head”是常用搭配，意思是摇头，常用来表示否定、不同意等。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Thompson",
+      "meaning": "汤普森（姓氏，文中指汤普森先生）",
+      "pos": "名词",
+      "phonetic": "/ˈtɒmpsən/"
+    },
+    {
+      "text": "shook",
+      "meaning": "摇（shake的过去式）",
+      "pos": "动词",
+      "phonetic": "/ʃʊk/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "head.",
+      "meaning": "头",
+      "pos": "名词",
+      "phonetic": "/hed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Thompson",
+      "meaning": "汤普森先生",
+      "relation": "动作发出者"
+    },
+    {
+      "text": "shook his head.",
+      "meaning": "摇了摇头",
+      "relation": "描述主语发出的动作"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-047",
+  "sentenceId": "nce-2-lesson-047-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Thompson shook his head.",
+  "lesson": "Lesson 47 A thirsty ghost",
+  "notes": [
+    {
+      "title": "动词过去式表示已发生动作",
+      "text": "shook 是 shake 的过去式，表明摇头这个动作已经发生，是对过去事件的客观陈述。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：句子解析基本准确，仅存在Mr.缺失导致翻译不完整、主语指代不全的问题，修正后可用。（非逐句人工审核）"
+}

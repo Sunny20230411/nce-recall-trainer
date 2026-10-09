@@ -1,0 +1,170 @@
+{
+  "chinese": "这个年轻人直到床撞到地面才醒过来。",
+  "intent": "说明年轻人醒来的时间节点——床落地之后才醒，强调此前一直没醒。",
+  "comparison": {
+    "chinese": "这个年轻人直到床撞到地上才醒。",
+    "english": "The young man did not wake up until the bed had struck the ground.",
+    "steps": [
+      {
+        "label": "先抓主干事实",
+        "text": "The young man did not wake up",
+        "explanation": "先交代核心情况：年轻人没醒，是一个否定的状态。"
+      },
+      {
+        "label": "再补时间界限",
+        "text": "until the bed had struck the ground",
+        "explanation": "用until引出「没醒」这个状态结束的时间点：床撞到地面。中文习惯说成「直到…才…」，把否定藏在「才」的语气里。"
+      }
+    ],
+    "takeaway": "英文先说“没醒”这个否定事实，再用until补出截止的时间点；中文常用“直到…才…”把前后两部分合在一起表达，语序和否定位置都不同。"
+  },
+  "backbone": {
+    "text": "The young man did not wake up until the bed struck the ground.",
+    "meaning": "年轻人在床落地之前一直没醒，到床落地时才醒。（注：理解用简化表达，原句过去完成时强调床落地先发生）"
+  },
+  "structureNotes": [
+    {
+      "title": "not…until…的含义",
+      "text": "not…until…表示“直到…才…”，until引出的是前面否定状态结束的时间点，不是动作开始的时间点。"
+    },
+    {
+      "title": "过去完成时的时间先后",
+      "text": "从句用had struck（过去完成时），说明“床撞到地面”发生在“醒来”之前，先有床落地，之后年轻人才醒。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "did not wake up",
+      "role": "谓语",
+      "explanation": "是一般过去时的否定形式，表示过去某个时间段里“没有醒来”这个状态。"
+    },
+    {
+      "text": "until the bed had struck the ground.",
+      "role": "时间状语从句",
+      "explanation": "由until引导，说明前面“没醒”这个状态持续到什么时候结束；从句用过去完成时，体现床撞地发生在醒来之前。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这个（特指双方知道的年轻人）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "young",
+      "meaning": "年轻的",
+      "pos": "形容词",
+      "phonetic": "/jʌŋ/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人，人",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "did",
+      "meaning": "（助动词，构成过去时否定）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "wake",
+      "meaning": "醒，醒来",
+      "pos": "动词",
+      "phonetic": "/weɪk/"
+    },
+    {
+      "text": "up",
+      "meaning": "（与wake构成短语wake up，表醒来）",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "until",
+      "meaning": "直到…为止",
+      "pos": "连词",
+      "phonetic": "/ənˈtɪl/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（特指那床）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bed",
+      "meaning": "床",
+      "pos": "名词",
+      "phonetic": "/bed/"
+    },
+    {
+      "text": "had",
+      "meaning": "（助动词，构成过去完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "struck",
+      "meaning": "撞击，碰撞",
+      "pos": "动词",
+      "phonetic": "/strʌk/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（特指地面）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "ground.",
+      "meaning": "地面",
+      "pos": "名词",
+      "phonetic": "/ɡraʊnd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The young man",
+      "relation": "描述谁（句子主语）",
+      "meaning": "这个年轻人"
+    },
+    {
+      "text": "did not wake up",
+      "relation": "主语的动作/状态（谓语）",
+      "meaning": "没有醒来"
+    },
+    {
+      "text": "until the bed had struck the ground.",
+      "relation": "时间（说明没醒的状态截止到什么时候）",
+      "meaning": "直到床撞到地面"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-049",
+  "sentenceId": "nce-2-lesson-049-sentence-006",
+  "sentenceOrder": 7,
+  "english": "The young man did not wake up until the bed had struck the ground.",
+  "lesson": "Lesson 49 The end of a dream",
+  "notes": [
+    {
+      "title": "not…until…的含义",
+      "text": "not…until…表示“直到…才…”，until引出的是前面否定状态结束的时间点，不是动作开始的时间点。"
+    },
+    {
+      "title": "过去完成时的时间先后",
+      "text": "从句用had struck（过去完成时），说明“床撞到地面”发生在“醒来”之前，先有床落地，之后年轻人才醒。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅words中第14项ground.的释义末尾多带了句号，需修正。（非逐句人工审核）"
+}

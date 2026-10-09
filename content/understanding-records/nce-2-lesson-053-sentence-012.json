@@ -1,0 +1,246 @@
+{
+  "chinese": "当它这样做时，它把火花溅落到地面上，这些火花随即引发了一场火灾。",
+  "intent": "描述蛇缠住电线这一动作导致火花落地、进而起火的连续因果过程。",
+  "comparison": {
+    "chinese": "当蛇缠住电线时，先把火花弄到地上，接着火花就点着了火。",
+    "english": "When it did so, it sent sparks down to the ground and these immediately started a fire.",
+    "steps": [
+      {
+        "label": "第一步：先用时间从句交代触发动作",
+        "text": "When it did so",
+        "explanation": "英文用did so指代上文已经出现的wound itself round the wires这个动作，避免重复说整件事；中文会说“当它这么做的时候”或直接重复动作，读者也能理解是承接上文。"
+      },
+      {
+        "label": "第二步：讲第一个结果——火花落地",
+        "text": "it sent sparks down to the ground",
+        "explanation": "主语it还是那只蛇，send sparks down表示“把火花往下送、溅落”，到地面用to the ground点明落点；中文习惯说“溅出火花落到地上”，不用刻意强调“送”这个动作。"
+      },
+      {
+        "label": "第三步：讲第二个结果——起火",
+        "text": "and these immediately started a fire",
+        "explanation": "these指代前面的sparks，不是新的主语；英文用and把前后两个连续发生的结果连起来，读者自然能看出因果。中文会顺着说“这些火花随即引发了火灾”，不用特意点明指代。"
+      }
+    ],
+    "takeaway": "英文常用do so代替前文整段动作、用these/they承接前面的复数名词，减少重复；中文要么重复名词要么靠语序承接，读起来更自然。"
+  },
+  "backbone": {
+    "text": "it sent sparks down and these started a fire.",
+    "meaning": "它溅落火花，火花引发了火灾。（辅助理解：去掉时间修饰和地点、程度细节后保留两个连续的核心动作与因果关联）"
+  },
+  "structureNotes": [
+    {
+      "title": "When it did so 的指代作用",
+      "text": "When引导时间状语从句，did so用来代替上文中“wound itself round the wires（缠住电线）”这整个动作，既避免重复又明确时间点是“做这件事的同时/之后”。"
+    },
+    {
+      "title": "and 连接两个并列结果句",
+      "text": "本句是由and连接的并列句，前后都是完整分句；前半句讲蛇造成火花落地，后半句讲这些火花引发火灾，语义上是先后相继的因果链条。"
+    },
+    {
+      "title": "these 的指代对象",
+      "text": "these是复数指示代词，在这里指代前半句里的sparks（火花），因为是复数概念，所以用these而不是this。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When it did so,",
+      "role": "时间状语从句",
+      "explanation": "交代主句动作发生的时间背景，did so指代上文提到的蛇缠住电线的动作。"
+    },
+    {
+      "text": "it sent sparks down to the ground",
+      "role": "第一个主句（并列前半部分）",
+      "explanation": "主语it指那条蛇，sent是谓语，sparks是宾语，down to the ground说明火花下落的方向和落点。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个并列分句，表示动作先后相继、结果递进。"
+    },
+    {
+      "text": "these immediately started a fire.",
+      "role": "第二个主句（并列后半部分）",
+      "explanation": "主语these指代前面的sparks，started是谓语，a fire是宾语，immediately说明动作发生得很快。"
+    }
+  ],
+  "words": [
+    {
+      "text": "When",
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代蛇）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "did",
+      "meaning": "做（do的过去式）",
+      "pos": "动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "so,",
+      "meaning": "如此，这样",
+      "pos": "副词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代蛇）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "sent",
+      "meaning": "发送，使……移动（send的过去式）",
+      "pos": "动词",
+      "phonetic": "/sent/"
+    },
+    {
+      "text": "sparks",
+      "meaning": "火花，火星（复数）",
+      "pos": "名词",
+      "phonetic": "/spɑːks/"
+    },
+    {
+      "text": "down",
+      "meaning": "向下",
+      "pos": "副词",
+      "phonetic": "/daʊn/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（定冠词，表特指）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "ground",
+      "meaning": "地面",
+      "pos": "名词",
+      "phonetic": "/ɡraʊnd/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "these",
+      "meaning": "这些",
+      "pos": "代词",
+      "phonetic": "/ðiːz/"
+    },
+    {
+      "text": "immediately",
+      "meaning": "立即，立刻",
+      "pos": "副词",
+      "phonetic": "/ɪˈmiːdiətli/"
+    },
+    {
+      "text": "started",
+      "meaning": "开始，引发（start的过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈstɑːtɪd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一场（不定冠词）",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "fire.",
+      "meaning": "火，火灾",
+      "pos": "名词",
+      "phonetic": "/ˈfaɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "When it did so,",
+      "meaning": "当它这样做时",
+      "relation": "时间"
+    },
+    {
+      "text": "it",
+      "meaning": "它（蛇）",
+      "relation": "动作发出者"
+    },
+    {
+      "text": "sent",
+      "meaning": "使……溅落",
+      "relation": "动作"
+    },
+    {
+      "text": "sparks",
+      "meaning": "火花",
+      "relation": "动作对象"
+    },
+    {
+      "text": "down to the ground",
+      "meaning": "向下落到地面",
+      "relation": "方向和落点"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "relation": "连接并列结果"
+    },
+    {
+      "text": "these",
+      "meaning": "这些（火花）",
+      "relation": "第二个动作的发出者"
+    },
+    {
+      "text": "immediately",
+      "meaning": "立即",
+      "relation": "时间/程度"
+    },
+    {
+      "text": "started",
+      "meaning": "引发",
+      "relation": "第二个动作"
+    },
+    {
+      "text": "a fire.",
+      "meaning": "一场火灾",
+      "relation": "第二个动作的对象"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-053",
+  "sentenceId": "nce-2-lesson-053-sentence-012",
+  "sentenceOrder": 12,
+  "english": "When it did so, it sent sparks down to the ground and these immediately started a fire.",
+  "lesson": "Lesson 53 Hot snake",
+  "notes": [
+    {
+      "title": "When it did so 的指代作用",
+      "text": "When引导时间状语从句，did so用来代替上文中“wound itself round the wires（缠住电线）”这整个动作，既避免重复又明确时间点是“做这件事的同时/之后”。"
+    },
+    {
+      "title": "and 连接两个并列结果句",
+      "text": "本句是由and连接的并列句，前后都是完整分句；前半句讲蛇造成火花落地，后半句讲这些火花引发火灾，语义上是先后相继的因果链条。"
+    },
+    {
+      "title": "these 的指代对象",
+      "text": "these是复数指示代词，在这里指代前半句里的sparks（火花），因为是复数概念，所以用these而不是this。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正words中so,和fire.的释义不应带标点说明、the的释义更准确，以及parts中a fire.的关系表述。（非逐句人工审核）"
+}

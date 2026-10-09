@@ -1,0 +1,135 @@
+{
+  "chinese": "“没关系，”她说，“但它难道不是挂倒了吗？”",
+  "intent": "叙述她先表示画作没问题，随后又提出疑问，觉得画可能挂倒了。",
+  "comparison": null,
+  "backbone": {
+    "text": "‘It's all right,’ she said, ‘but isn't it upside down?’",
+    "meaning": "她先说东西没问题，接着反问它是不是倒过来了。"
+  },
+  "structureNotes": [
+    {
+      "title": "引语被插入语打断的结构",
+      "text": "直接引语被“she said”从中间断开，前后两部分都是她说出的内容，整体是转折关系的两个分句。"
+    },
+    {
+      "title": "否定疑问句的语气",
+      "text": "“isn't it upside down?”是否定形式的一般疑问句，带有说话人倾向于认为“画是倒的”的推测语气，不是单纯的反问。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘It's all right,’",
+      "role": "直接引语前半部分",
+      "explanation": "她所说的第一句话，表达她认为眼前的东西没有问题。"
+    },
+    {
+      "text": "she said,",
+      "role": "主谓插入语",
+      "explanation": "交代说话人是“她”，放在两段引语中间，说明前后引号里的内容都出自她之口。"
+    },
+    {
+      "text": "‘but isn't it upside down?’",
+      "role": "直接引语后半部分",
+      "explanation": "她接着说的转折反问句，提出画可能倒了的疑问。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘It's",
+      "meaning": "“它是（引语开头）",
+      "pos": "缩写（it is）",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "all",
+      "meaning": "完全地",
+      "pos": "副词",
+      "phonetic": "/ɔːl/"
+    },
+    {
+      "text": "right,’",
+      "meaning": "没问题，”（引语结尾）",
+      "pos": "形容词",
+      "phonetic": "/raɪt/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "said,",
+      "meaning": "说（过去式，后接逗号）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "‘but",
+      "meaning": "“但是（引语开头）",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "isn't",
+      "meaning": "不是（is not的缩写）",
+      "pos": "缩写（动词）",
+      "phonetic": "/ˈɪznt/"
+    },
+    {
+      "text": "it",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "upside",
+      "meaning": "上部，上边",
+      "pos": "名词",
+      "phonetic": "/ˈʌpsaɪd/"
+    },
+    {
+      "text": "down?’",
+      "meaning": "向下？”（引语结尾，与upside构成短语upside down，意为“颠倒地”）",
+      "pos": "副词",
+      "phonetic": "/daʊn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘It's all right,’",
+      "relation": "她说的前半句话",
+      "meaning": "“没关系，”"
+    },
+    {
+      "text": "she said,",
+      "relation": "交代说话人，插入在两段引语之间",
+      "meaning": "她说道，"
+    },
+    {
+      "text": "‘but isn't it upside down?’",
+      "relation": "她说的后半句话，对前半句的判断提出转折疑问",
+      "meaning": "“但它难道不是倒着的吗？”"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-026",
+  "sentenceId": "nce-2-lesson-026-sentence-016",
+  "sentenceOrder": 16,
+  "english": "‘It's all right,’ she said, ‘but isn't it upside down?’",
+  "lesson": "Lesson 26 The best art critics",
+  "notes": [
+    {
+      "title": "引语被插入语打断的结构",
+      "text": "直接引语被“she said”从中间断开，前后两部分都是她说出的内容，整体是转折关系的两个分句。"
+    },
+    {
+      "title": "否定疑问句的语气",
+      "text": "“isn't it upside down?”是否定形式的一般疑问句，带有说话人倾向于认为“画是倒的”的推测语气，不是单纯的反问。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：基本正确，仅需修正单词upside的释义与词性，以及对应短语说明的准确性。（非逐句人工审核）"
+}

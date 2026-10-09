@@ -1,0 +1,98 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-064",
+  "sentenceId": "nce-2-lesson-064-sentence-007-part-02",
+  "sentenceOrder": 8,
+  "english": "for if a train entered this tunnel,",
+  "chinese": "因为如果一列火车驶入这条隧道，",
+  "lesson": "Lesson 64 The Channel Tunnel",
+  "intent": "在原因说明中提出火车驶入的假设条件",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "for if a train entered this tunnel,",
+      "relation": "解释中的条件",
+      "meaning": "因为如果火车进入这条隧道"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "嵌套关系",
+      "text": "for 承接解释前句，if 引导的条件从句其结果在下一片段。"
+    },
+    {
+      "title": "假设用法",
+      "text": "entered 在此是设想条件，不是记录一次实际进入。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "嵌套关系",
+      "text": "for 承接解释前句，if 引导的条件从句其结果在下一片段。"
+    },
+    {
+      "title": "假设用法",
+      "text": "entered 在此是设想条件，不是记录一次实际进入。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "for",
+      "role": "原因连接词",
+      "explanation": "解释前述效果。"
+    },
+    {
+      "text": "if a train entered this tunnel,",
+      "role": "条件状语从句",
+      "explanation": "提出设想中的运行条件。"
+    }
+  ],
+  "words": [
+    {
+      "text": "for",
+      "meaning": "因为",
+      "pos": "连词",
+      "phonetic": "/fɔː/ 或 /fər/"
+    },
+    {
+      "text": "if",
+      "meaning": "如果",
+      "pos": "连词",
+      "phonetic": "/ɪf/"
+    },
+    {
+      "text": "a",
+      "meaning": "一列",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "train",
+      "meaning": "火车",
+      "pos": "名词",
+      "phonetic": "/treɪn/"
+    },
+    {
+      "text": "entered",
+      "meaning": "驶入",
+      "pos": "动词",
+      "phonetic": "/ˈentəd/"
+    },
+    {
+      "text": "this",
+      "meaning": "这条",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "tunnel,",
+      "meaning": "隧道",
+      "pos": "名词",
+      "phonetic": "/ˈtʌnl/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

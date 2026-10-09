@@ -1,0 +1,158 @@
+{
+  "chinese": "但我的旅行比我预期的要长。",
+  "intent": "说明这次旅行实际花费的时间超出了自己原本的预计。",
+  "comparison": {
+    "chinese": "但我的旅行比我预期的要长。",
+    "english": "but my trip took me longer than I expected.",
+    "steps": [
+      {
+        "label": "先抓住主干信息",
+        "text": "my trip took me longer",
+        "explanation": "先讲清楚核心事实：我的这场旅行花了更长时间，这里take表示“花费（时间）”，对象是me。"
+      },
+      {
+        "label": "再补充比较的参照",
+        "text": "than I expected",
+        "explanation": "用than引出比较的基准，说明是和“我之前预期的情况”相比，时间更长。"
+      }
+    ],
+    "takeaway": "中文习惯把“比我预期的”放在“长”前面作修饰；英文先说出核心结果“旅行花了更长时间”，再用than引出比较的对象。"
+  },
+  "backbone": {
+    "text": "my trip took me longer than I expected.",
+    "meaning": "我的旅行花费的时间比我预期的更长。"
+  },
+  "structureNotes": [
+    {
+      "title": "but的转折作用",
+      "text": "but放在句首，承接上一句的出行经历，引出和预期不符的实际情况，构成语义转折。"
+    },
+    {
+      "title": "than引导比较状语",
+      "text": "than I expected用来和前面的longer呼应，说明“更长”是相对于“我原本的预期”而言，expected用过去式表示是出行前的预想。"
+    },
+    {
+      "title": "take表示花费时间",
+      "text": "took me longer中take表示某事占用某人的时间，me是时间花费的承受对象，longer说明时间长度超出常规或预期。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "but",
+      "role": "转折连词",
+      "explanation": "连接上文内容，引出与前文情况相对的转折信息。"
+    },
+    {
+      "text": "my trip took me longer",
+      "role": "主句",
+      "explanation": "交代核心事实：我的旅行花费了我更长的时间，是句子的主要表意部分。"
+    },
+    {
+      "text": "than I expected.",
+      "role": "比较状语从句",
+      "explanation": "引出比较的基准，说明“更长”是相对于我之前的预期而言。"
+    }
+  ],
+  "words": [
+    {
+      "text": "but",
+      "meaning": "但是，然而",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "trip",
+      "meaning": "旅行，行程",
+      "pos": "名词",
+      "phonetic": "/trɪp/"
+    },
+    {
+      "text": "took",
+      "meaning": "花费（时间）",
+      "pos": "动词",
+      "phonetic": "/tʊk/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "longer",
+      "meaning": "更长的（时间）",
+      "pos": "形容词（比较级）",
+      "phonetic": "/ˈlɒŋɡə/"
+    },
+    {
+      "text": "than",
+      "meaning": "比",
+      "pos": "连词/介词",
+      "phonetic": "/ðæn/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "expected.",
+      "meaning": "预期，预料",
+      "pos": "动词",
+      "phonetic": "/ɪkˈspektɪd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "but",
+      "relation": "转折连接，引出和上文不同的情况",
+      "meaning": "但是"
+    },
+    {
+      "text": "my trip",
+      "relation": "描述的主体，即花费时间的事物",
+      "meaning": "我的旅行"
+    },
+    {
+      "text": "took me longer",
+      "relation": "说明主体的情况：占用了更多时间",
+      "meaning": "花了我更长的时间"
+    },
+    {
+      "text": "than I expected.",
+      "relation": "补充比较的参照标准",
+      "meaning": "比我预期的"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-002-part-02",
+  "sentenceOrder": 3,
+  "english": "but my trip took me longer than I expected.",
+  "lesson": "Lesson 50 Taken for a ride",
+  "notes": [
+    {
+      "title": "but的转折作用",
+      "text": "but放在句首，承接上一句的出行经历，引出和预期不符的实际情况，构成语义转折。"
+    },
+    {
+      "title": "than引导比较状语",
+      "text": "than I expected用来和前面的longer呼应，说明“更长”是相对于“我原本的预期”而言，expected用过去式表示是出行前的预想。"
+    },
+    {
+      "title": "take表示花费时间",
+      "text": "took me longer中take表示某事占用某人的时间，me是时间花费的承受对象，longer说明时间长度超出常规或预期。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅longer的词性标注错误，其为形容词的比较级作宾语补足语，不是副词，需修正。（非逐句人工审核）"
+}

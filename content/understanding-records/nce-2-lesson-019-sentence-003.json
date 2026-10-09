@@ -1,0 +1,98 @@
+{
+  "chinese": "我匆忙赶到售票处。",
+  "intent": "叙述说话人之前匆忙前往售票处的动作，承接上文对话，为下文买票的情节做铺垫。",
+  "comparison": null,
+  "backbone": {
+    "text": "I hurried to the ticket office.",
+    "meaning": "我匆忙赶往售票处。"
+  },
+  "structureNotes": [
+    {
+      "title": "hurry to 表示匆忙去往某地",
+      "text": "hurry to + 地点，表示「匆忙前往某地」，to 是介词引出目的地，整句用一般过去时说明已经发生的动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "hurried",
+      "role": "谓语动词",
+      "explanation": "hurry 的过去式，作句子谓语，表示「赶紧、匆忙行动」，体现动作的急促状态。"
+    },
+    {
+      "text": "to the ticket office",
+      "role": "地点方向状语",
+      "explanation": "由介词 to 引导的介词短语，说明 hurried 这个动作的去向，即赶往的地点是售票处。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "hurried",
+      "meaning": "匆忙行动；赶紧（过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈhʌrid/"
+    },
+    {
+      "text": "to",
+      "meaning": "到；向（表示方向）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（定指特定的地点）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "ticket",
+      "meaning": "票",
+      "pos": "名词",
+      "phonetic": "/ˈtɪkɪt/"
+    },
+    {
+      "text": "office.",
+      "meaning": "办公室；办事处（此处与ticket搭配指售票处）",
+      "pos": "名词",
+      "phonetic": "/ˈɒfɪs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作的发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "hurried",
+      "relation": "主语发出的动作",
+      "meaning": "匆忙地赶去"
+    },
+    {
+      "text": "to the ticket office.",
+      "relation": "动作赶往的目的地",
+      "meaning": "到售票处"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-019",
+  "sentenceId": "nce-2-lesson-019-sentence-003",
+  "sentenceOrder": 3,
+  "english": "I hurried to the ticket office.",
+  "lesson": "Lesson 19 Sold out",
+  "notes": [
+    {
+      "title": "hurry to 表示匆忙去往某地",
+      "text": "hurry to + 地点，表示「匆忙前往某地」，to 是介词引出目的地，整句用一般过去时说明已经发生的动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：单词office末尾标点属于分词存储约定，但释义需匹配语境为“售票处”的办公场所义；hurried的英式音标拼写有误，需修正。其余内容准确，覆盖全句。（非逐句人工审核）"
+}

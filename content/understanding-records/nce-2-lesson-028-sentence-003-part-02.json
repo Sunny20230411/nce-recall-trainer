@@ -1,0 +1,147 @@
+{
+  "chinese": "他总是发现有人把一辆车停在了他家大门外。",
+  "intent": "描述一种反复出现的情况：某人每次都发现有车停在自家门外。",
+  "comparison": null,
+  "backbone": {
+    "text": "he finds that someone has parked a car outside his gate.",
+    "meaning": "他发现有人把一辆车停在了他家大门外。"
+  },
+  "structureNotes": [
+    {
+      "title": "that引导的宾语从句",
+      "text": "finds后面接that引出的从句，用来交代「发现」的具体内容；that在这里只起连接作用，没有实际词义，也可以省略。"
+    },
+    {
+      "title": "现在完成时的含义",
+      "text": "has parked是现在完成时，强调在他发现的时候，「停车」这件事已经发生了，并且车还停在门外的状态和现在有关。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "he always finds",
+      "role": "主句主干",
+      "explanation": "交代主语「他」的经常性动作「发现」，always说明这个情况反复出现。"
+    },
+    {
+      "text": "that someone has parked a car outside his gate.",
+      "role": "宾语从句",
+      "explanation": "跟在finds后面，说明他发现的具体内容是「有人把车停在他家大门外」。"
+    }
+  ],
+  "words": [
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是，一直",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "finds",
+      "meaning": "发现，发觉",
+      "pos": "动词",
+      "phonetic": "/faɪndz/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引出从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "someone",
+      "meaning": "某人，有人",
+      "pos": "代词",
+      "phonetic": "/ˈsʌmwʌn/"
+    },
+    {
+      "text": "has",
+      "meaning": "（助动词，构成现在完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "parked",
+      "meaning": "停放（车辆）",
+      "pos": "动词",
+      "phonetic": "/pɑːkt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（辆）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "car",
+      "meaning": "汽车，轿车",
+      "pos": "名词",
+      "phonetic": "/kɑː(r)/"
+    },
+    {
+      "text": "outside",
+      "meaning": "在……外面",
+      "pos": "介词",
+      "phonetic": "/ˌaʊtˈsaɪd/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "gate.",
+      "meaning": "大门",
+      "pos": "名词",
+      "phonetic": "/ɡeɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "he always finds",
+      "relation": "主句，说明主语的经常性动作",
+      "meaning": "他总是发现"
+    },
+    {
+      "text": "that",
+      "relation": "连接主句和后面的发现内容",
+      "meaning": "（引出从句的连接词）"
+    },
+    {
+      "text": "someone has parked a car",
+      "relation": "从句的主干，说明发现的事件",
+      "meaning": "有人已经停放了一辆车"
+    },
+    {
+      "text": "outside his gate.",
+      "relation": "地点，说明停车的位置",
+      "meaning": "在他家大门外"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-028",
+  "sentenceId": "nce-2-lesson-028-sentence-003-part-02",
+  "sentenceOrder": 6,
+  "english": "he always finds that someone has parked a car outside his gate.",
+  "lesson": "Lesson 28 No parking",
+  "notes": [
+    {
+      "title": "that引导的宾语从句",
+      "text": "finds后面接that引出的从句，用来交代「发现」的具体内容；that在这里只起连接作用，没有实际词义，也可以省略。"
+    },
+    {
+      "title": "现在完成时的含义",
+      "text": "has parked是现在完成时，强调在他发现的时候，「停车」这件事已经发生了，并且车还停在门外的状态和现在有关。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容正确，仅需修正words中gate.的释义混入句号的小问题。（非逐句人工审核）"
+}

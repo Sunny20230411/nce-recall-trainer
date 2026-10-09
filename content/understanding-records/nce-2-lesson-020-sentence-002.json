@@ -1,0 +1,133 @@
+{
+  "chinese": "我经常一钓就是好几个小时，却什么也钓不到。",
+  "intent": "描述自己钓鱼时常花很长时间却毫无收获的情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "I fish for hours without catching anything.",
+    "meaning": "我钓鱼钓了数小时，没有任何收获。"
+  },
+  "structureNotes": [
+    {
+      "title": "without 引出的伴随情况",
+      "text": "without catching anything 用在主句后面，表示在前面说的钓鱼过程中，一直伴随“没钓到任何东西”的结果；without 是介词，后面要接动词的 -ing 形式。"
+    },
+    {
+      "title": "for 表示时长",
+      "text": "for hours 里的 for 用来引出一段持续的时间，说明钓鱼这个动作持续了多久。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "often",
+      "role": "频度副词",
+      "explanation": "放在动词 fish 前面，说明钓鱼“经常”是这种状态。"
+    },
+    {
+      "text": "fish",
+      "role": "谓语动词",
+      "explanation": "表示“钓鱼”这个动作，是句子的核心行为。"
+    },
+    {
+      "text": "for hours",
+      "role": "时间长度状语",
+      "explanation": "说明钓鱼动作持续的时间是数小时。"
+    },
+    {
+      "text": "without catching anything",
+      "role": "伴随状语",
+      "explanation": "补充说明在钓鱼的整个过程中，始终没有钓到任何东西的情况。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "经常，常常",
+      "pos": "副词",
+      "phonetic": "/ˈɒfn/",
+      "text": "often"
+    },
+    {
+      "meaning": "钓鱼",
+      "pos": "动词",
+      "phonetic": "/fɪʃ/",
+      "text": "fish"
+    },
+    {
+      "meaning": "（表示一段时间）计，达",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/",
+      "text": "for"
+    },
+    {
+      "meaning": "小时（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈaʊəz/",
+      "text": "hours"
+    },
+    {
+      "meaning": "没有，不（伴随缺少某事）",
+      "pos": "介词",
+      "phonetic": "/wɪˈðaʊt/",
+      "text": "without"
+    },
+    {
+      "meaning": "抓住，钓到（catch 的 -ing 形式）",
+      "pos": "动名词",
+      "phonetic": "/ˈkætʃɪŋ/",
+      "text": "catching"
+    },
+    {
+      "meaning": "任何事物，什么都（不）",
+      "pos": "代词",
+      "phonetic": "/ˈeniθɪŋ/",
+      "text": "anything."
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "often fish",
+      "relation": "核心动作及发生频率",
+      "meaning": "经常钓鱼"
+    },
+    {
+      "text": "for hours",
+      "relation": "说明动作持续的时间",
+      "meaning": "长达数小时"
+    },
+    {
+      "text": "without catching anything.",
+      "relation": "补充说明动作伴随的结果",
+      "meaning": "却什么也没钓到"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-020",
+  "sentenceId": "nce-2-lesson-020-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I often fish for hours without catching anything.",
+  "lesson": "Lesson 20 One man in a boat",
+  "notes": [
+    {
+      "title": "without 引出的伴随情况",
+      "text": "without catching anything 用在主句后面，表示在前面说的钓鱼过程中，一直伴随“没钓到任何东西”的结果；without 是介词，后面要接动词的 -ing 形式。"
+    },
+    {
+      "title": "for 表示时长",
+      "text": "for hours 里的 for 用来引出一段持续的时间，说明钓鱼这个动作持续了多久。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文覆盖完整，语法解析正确，仅最后一个词项text带句点但释义无额外说明不影响理解，整体内容准确符合要求。（非逐句人工审核）"
+}

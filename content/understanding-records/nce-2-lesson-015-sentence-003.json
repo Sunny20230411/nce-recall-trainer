@@ -1,0 +1,146 @@
+{
+  "chinese": "我走进他的办公室时，觉得非常紧张。",
+  "intent": "描述自己在进入对方办公室那一刻的紧张感受，交代当时的状态与触发场景。",
+  "comparison": {
+    "chinese": "我走进他办公室的时候，心里特别紧张。",
+    "english": "I felt very nervous when I went into his office.",
+    "steps": [
+      {
+        "label": "先抓主干感受",
+        "text": "I felt very nervous",
+        "explanation": "中文也可以先说“我当时很紧张”，这是句子最核心的信息：主语是“我”，状态是“紧张”。"
+      },
+      {
+        "label": "再补时间场景",
+        "text": "when I went into his office",
+        "explanation": "英文用 when 接在后面说明“什么时候”紧张；中文可以把“的时候”放在前面或中间，都先讲事情再讲状态，只是词序不同。"
+      }
+    ],
+    "takeaway": "英文先讲主感受，再用 when 引出时间场景；中文常把“当……时”放在前面或中间，两种语言的信息重点顺序不一样，理解时先抓感受再看时间即可。"
+  },
+  "backbone": {
+    "text": "I felt nervous when I went into his office.",
+    "meaning": "我走进他办公室时感到紧张。"
+  },
+  "structureNotes": [
+    {
+      "title": "when 引导时间说明",
+      "text": "when I went into his office 用来说明主句感受发生的时间，指“在走进办公室的那个时刻”。"
+    },
+    {
+      "title": "felt 表示感受",
+      "text": "felt 是 feel 的过去式，后面接 nervous 描述主语的感受，意思是“觉得、感到”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I felt very nervous",
+      "role": "主句",
+      "explanation": "说明主语“我”的感受，是句子的核心信息。"
+    },
+    {
+      "text": "when I went into his office",
+      "role": "时间从句",
+      "explanation": "由 when 引导，交代主句感受发生的具体时间场景。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "感到，觉得（feel的过去式）",
+      "pos": "动词",
+      "phonetic": "/felt/",
+      "text": "felt"
+    },
+    {
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/",
+      "text": "very"
+    },
+    {
+      "meaning": "紧张的",
+      "pos": "形容词",
+      "phonetic": "/ˈnɜːvəs/",
+      "text": "nervous"
+    },
+    {
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/",
+      "text": "when"
+    },
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "去，走（go的过去式）",
+      "pos": "动词",
+      "phonetic": "/went/",
+      "text": "went"
+    },
+    {
+      "meaning": "到……里面",
+      "pos": "介词",
+      "phonetic": "/ˈɪntuː/",
+      "text": "into"
+    },
+    {
+      "meaning": "他的",
+      "pos": "限定词",
+      "phonetic": "/hɪz/",
+      "text": "his"
+    },
+    {
+      "meaning": "办公室",
+      "pos": "名词",
+      "phonetic": "/ˈɒfɪs/",
+      "text": "office."
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "描述谁的感受",
+      "meaning": "我"
+    },
+    {
+      "text": "felt very nervous",
+      "relation": "描述主语的状态",
+      "meaning": "感到非常紧张"
+    },
+    {
+      "text": "when I went into his office.",
+      "relation": "说明感受发生的时间",
+      "meaning": "当我走进他的办公室时"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-015",
+  "sentenceId": "nce-2-lesson-015-sentence-003",
+  "sentenceOrder": 3,
+  "english": "I felt very nervous when I went into his office.",
+  "lesson": "Lesson 15 Good news",
+  "notes": [
+    {
+      "title": "when 引导时间说明",
+      "text": "when I went into his office 用来说明主句感受发生的时间，指“在走进办公室的那个时刻”。"
+    },
+    {
+      "title": "felt 表示感受",
+      "text": "felt 是 feel 的过去式，后面接 nervous 描述主语的感受，意思是“觉得、感到”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：仅结构数组中时间从句的text多余结尾句点，与原文分块不匹配，其余内容准确合规。（非逐句人工审核）"
+}

@@ -1,0 +1,129 @@
+{
+  "chinese": "澳大利亚中部的一座小镇。",
+  "intent": "补充说明前文提到的 Alice Springs 是什么样的地方，交代它的位置属性。",
+  "comparison": {
+    "chinese": "澳大利亚中部的一座小镇",
+    "english": "a small town in the centre of Australia",
+    "steps": [
+      {
+        "label": "先抓核心事物",
+        "text": "a small town",
+        "explanation": "先知道说的是“一座小镇”，这是整个短语要介绍的核心对象。"
+      },
+      {
+        "label": "再接位置信息",
+        "text": "in the centre of Australia",
+        "explanation": "后面用介词短语回答“这座小镇在哪里”，说明它处于澳大利亚的中部。"
+      }
+    ],
+    "takeaway": "中文习惯把地点修饰放在名词前面说“澳大利亚中部的小镇”，英文先把名词说出来，再用介词短语接在后面补充位置。"
+  },
+  "backbone": {
+    "text": "a small town",
+    "meaning": "一座小镇（这是本短语的核心事物）"
+  },
+  "structureNotes": [
+    {
+      "title": "同位语的作用",
+      "text": "本片段是前文 Alice Springs 的同位语，作用是换一种说法解释 Alice Springs 就是这样一座小镇，让读者明白它的规模和位置。"
+    },
+    {
+      "title": "两层介词表位置",
+      "text": "in the centre 表示“在中部”，后面加 of Australia 进一步说明是“澳大利亚的”中部，两层介词叠加把位置说具体。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "a small town",
+      "role": "核心名词短语（同位语主体）",
+      "explanation": "用来指代并说明前文的 Alice Springs，指出它是一座小镇。"
+    },
+    {
+      "text": "in the centre of Australia.",
+      "role": "后置地点定语",
+      "explanation": "接在 town 后面，补充说明这座小镇所处的地理位置。"
+    }
+  ],
+  "words": [
+    {
+      "text": "a",
+      "meaning": "一（座）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "small",
+      "meaning": "小的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/"
+    },
+    {
+      "text": "town",
+      "meaning": "城镇，小镇",
+      "pos": "名词",
+      "phonetic": "/taʊn/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面/处于",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "centre",
+      "meaning": "中心，中部",
+      "pos": "名词",
+      "phonetic": "/ˈsentə/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表所属）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "Australia.",
+      "meaning": "澳大利亚（词后点号为原文句末标点，随词项保留）",
+      "pos": "名词",
+      "phonetic": "/ɒˈstreɪliə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "a small town",
+      "meaning": "一座小镇",
+      "relation": "核心描述对象，是前文 Alice Springs 的同位语主体，说明其属性"
+    },
+    {
+      "text": "in the centre of Australia.",
+      "meaning": "在澳大利亚中部",
+      "relation": "后置地点修饰成分，补充说明这座小镇的地理位置"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-004",
+  "sentenceId": "nce-2-lesson-004-sentence-006-part-02",
+  "sentenceOrder": 7,
+  "english": "a small town in the centre of Australia.",
+  "lesson": "Lesson 4 An exciting trip",
+  "notes": [
+    {
+      "title": "同位语的作用",
+      "text": "本片段是前文 Alice Springs 的同位语，作用是换一种说法解释 Alice Springs 就是这样一座小镇，让读者明白它的规模和位置。"
+    },
+    {
+      "title": "两层介词表位置",
+      "text": "in the centre 表示“在中部”，后面加 of Australia 进一步说明是“澳大利亚的”中部，两层介词叠加把位置说具体。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅存在几处可修正的小问题：1. words中Australia项的text带句末点号，释义不应仅作名词“澳大利亚”，需说明标点是句末标点的附带约定；2. structures里in the centre of Australia.的text包含末尾句号，与短语范围略有出入，且role表述可更精准为“后置地点定语”；3. 翻译缺少与核心名词结合的完整同位语译法，当前仅给出地点部分的独立译法，需对应补充完整短语的中文；4. parts中第二个分块的text带句号，语义呈现自然但需保持原分块不变，仅优化relation表述。（非逐句人工审核）"
+}

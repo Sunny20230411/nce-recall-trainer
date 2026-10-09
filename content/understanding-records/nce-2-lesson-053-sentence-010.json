@@ -1,0 +1,231 @@
+{
+  "chinese": "一只鸟从地上叼起了蛇，然后把它扔到了电线上。",
+  "intent": "陈述一只鸟先后做出的两个动作：把蛇从地上叼起来，再丢到电线上，解释蛇出现在电线上的原因。",
+  "comparison": null,
+  "backbone": {
+    "text": "A bird had snatched up the snake and then dropped it on to the wires.",
+    "meaning": "一只鸟叼起了蛇，随后把它扔到了电线上。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去完成时的作用",
+      "text": "句中用 had snatched 和 (had) dropped 构成过去完成时，说明这两个动作都发生在下文“蛇缠到电线上”之前，是更早的过去事件。"
+    },
+    {
+      "title": "并列动作的时间顺序",
+      "text": "and then 连接两个先后发生的动作，先叼起蛇，再扔到电线上；then 明确了动作的先后次序。"
+    },
+    {
+      "title": "介词短语补充动作细节",
+      "text": "from the ground 说明叼起蛇的地点来源，on to the wires 说明扔下后的落点，两个短语分别补充两个动作的位置信息。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A bird",
+      "role": "主语",
+      "explanation": "动作的发出者，指做“叼起”和“扔下”这两个动作的主体。"
+    },
+    {
+      "text": "had snatched up",
+      "role": "第一个谓语（过去完成时短语动词）",
+      "explanation": "表示过去已经完成的“叼起、夺走”的动作，snatch up 是短语动词，had 帮助构成过去完成时。"
+    },
+    {
+      "text": "the snake",
+      "role": "第一个宾语",
+      "explanation": "被鸟叼起来的对象。"
+    },
+    {
+      "text": "from the ground",
+      "role": "地点状语",
+      "explanation": "说明 snatch up 这个动作的起点，也就是蛇原本所在的位置。"
+    },
+    {
+      "text": "and then dropped",
+      "role": "第二个谓语（并列，过去完成时省略had）",
+      "explanation": "承接前一个动作，表示随后发生的“扔下”的动作，与 had snatched up 并列，共同的助动词是 had。"
+    },
+    {
+      "text": "it",
+      "role": "第二个宾语",
+      "explanation": "指代前面提到的 the snake，是被扔下的对象。"
+    },
+    {
+      "text": "on to the wires.",
+      "role": "地点状语",
+      "explanation": "说明 dropped 这个动作的落点，也就是蛇被扔到的地方。"
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "meaning": "一只（不定冠词，泛指）",
+      "pos": "article",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "bird",
+      "meaning": "鸟",
+      "pos": "noun",
+      "phonetic": "/bɜːd/"
+    },
+    {
+      "text": "had",
+      "meaning": "已经（帮助构成过去完成时）",
+      "pos": "auxiliary verb",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "snatched",
+      "meaning": "一把抓住，抓起（此处指鸟叼起）",
+      "pos": "verb",
+      "phonetic": "/snætʃt/"
+    },
+    {
+      "text": "up",
+      "meaning": "向上（与snatch构成短语动词snatch up：抓起，叼起）",
+      "pos": "adverb",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定冠词，特指）",
+      "pos": "article",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "snake",
+      "meaning": "蛇",
+      "pos": "noun",
+      "phonetic": "/sneɪk/"
+    },
+    {
+      "text": "from",
+      "meaning": "从……（地方）",
+      "pos": "preposition",
+      "phonetic": "/frɒm/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定冠词，特指）",
+      "pos": "article",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "ground",
+      "meaning": "地面，地上",
+      "pos": "noun",
+      "phonetic": "/ɡraʊnd/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且（连接并列成分）",
+      "pos": "conjunction",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "then",
+      "meaning": "然后，接着",
+      "pos": "adverb",
+      "phonetic": "/ðen/"
+    },
+    {
+      "text": "dropped",
+      "meaning": "扔下，使落下",
+      "pos": "verb",
+      "phonetic": "/drɒpt/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代蛇）",
+      "pos": "pronoun",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "on",
+      "meaning": "（放、靠）在……上",
+      "pos": "preposition",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向（与on连用，表落到……上面）",
+      "pos": "preposition",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定冠词，特指）",
+      "pos": "article",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "wires.",
+      "meaning": "电线，金属线（复数）",
+      "pos": "noun",
+      "phonetic": "/ˈwaɪəz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "A bird",
+      "meaning": "一只鸟",
+      "relation": "动作发出者，描述谁"
+    },
+    {
+      "text": "had snatched up",
+      "meaning": "已经叼起",
+      "relation": "第一个动作，补充主语做了什么"
+    },
+    {
+      "text": "the snake",
+      "meaning": "那条蛇",
+      "relation": "叼起的对象"
+    },
+    {
+      "text": "from the ground",
+      "meaning": "从地上",
+      "relation": "叼起动作的地点来源"
+    },
+    {
+      "text": "and then dropped",
+      "meaning": "然后扔下",
+      "relation": "第二个并列动作，承接前一个动作"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指蛇）",
+      "relation": "扔下的对象"
+    },
+    {
+      "text": "on to the wires.",
+      "meaning": "到电线上。",
+      "relation": "扔下动作的落点"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-053",
+  "sentenceId": "nce-2-lesson-053-sentence-010",
+  "sentenceOrder": 10,
+  "english": "A bird had snatched up the snake from the ground and then dropped it on to the wires.",
+  "lesson": "Lesson 53 Hot snake",
+  "notes": [
+    {
+      "title": "过去完成时的作用",
+      "text": "句中用 had snatched 和 (had) dropped 构成过去完成时，说明这两个动作都发生在下文“蛇缠到电线上”之前，是更早的过去事件。"
+    },
+    {
+      "title": "并列动作的时间顺序",
+      "text": "and then 连接两个先后发生的动作，先叼起蛇，再扔到电线上；then 明确了动作的先后次序。"
+    },
+    {
+      "title": "介词短语补充动作细节",
+      "text": "from the ground 说明叼起蛇的地点来源，on to the wires 说明扔下后的落点，两个短语分别补充两个动作的位置信息。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅个别词汇释义和部分标注细节可优化。（非逐句人工审核）"
+}

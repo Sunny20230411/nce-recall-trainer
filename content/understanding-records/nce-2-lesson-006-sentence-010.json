@@ -1,0 +1,105 @@
+{
+  "chinese": "他的名字叫珀西·巴顿斯。",
+  "intent": "说明前文提到的那个人的具体姓名。",
+  "comparison": null,
+  "backbone": {
+    "text": "His name is Percy Buttons.",
+    "meaning": "他的名字是珀西·巴顿斯。"
+  },
+  "structureNotes": [
+    {
+      "title": "主系表结构说明姓名",
+      "text": "这是典型的主系表句子，用His name作主语，is连接主语和姓名，Percy Buttons是人名，直接作表语说明名字内容。"
+    },
+    {
+      "title": "英文姓名的顺序",
+      "text": "英文姓名先说名Percy，再说姓Buttons，和中文先姓后名的习惯相反，读的时候把两部分连起来当作全名理解即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "His name",
+      "role": "主语",
+      "explanation": "指前文提到的那名男子的名字，是句子要说的主体。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "起连接作用，把主语和后面的姓名信息连起来，没有实际动作含义。"
+    },
+    {
+      "text": "Percy Buttons.",
+      "role": "表语",
+      "explanation": "具体的人名，用来说明主语的内容，也就是他叫什么。"
+    }
+  ],
+  "words": [
+    {
+      "text": "His",
+      "meaning": "他的",
+      "pos": "限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "name",
+      "meaning": "名字",
+      "pos": "名词",
+      "phonetic": "/neɪm/"
+    },
+    {
+      "text": "is",
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "Percy",
+      "meaning": "珀西（男子名，此处为名字）",
+      "pos": "专有名词",
+      "phonetic": "/ˈpɜːsi/"
+    },
+    {
+      "text": "Buttons.",
+      "meaning": "巴顿斯（姓氏，此处为姓氏）",
+      "pos": "专有名词",
+      "phonetic": "/ˈbʌtnz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "His name",
+      "relation": "描述的主体",
+      "meaning": "他的名字"
+    },
+    {
+      "text": "is",
+      "relation": "连接主体和身份信息",
+      "meaning": "是"
+    },
+    {
+      "text": "Percy Buttons.",
+      "relation": "补充说明名字的具体内容",
+      "meaning": "珀西·巴顿斯"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-006",
+  "sentenceId": "nce-2-lesson-006-sentence-010",
+  "sentenceOrder": 10,
+  "english": "His name is Percy Buttons.",
+  "lesson": "Lesson 6 Percy Buttons",
+  "notes": [
+    {
+      "title": "主系表结构说明姓名",
+      "text": "这是典型的主系表句子，用His name作主语，is连接主语和姓名，Percy Buttons是人名，直接作表语说明名字内容。"
+    },
+    {
+      "title": "英文姓名的顺序",
+      "text": "英文姓名先说名Percy，再说姓Buttons，和中文先姓后名的习惯相反，读的时候把两部分连起来当作全名理解即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅存在细节问题：1. 系动词is的词性标注未明确细分到系动词子类，仅标“动词”不够精准；2. 单词Buttons.的释义标注为姓氏，补充说明“此处为姓氏”更准确，且标点属约定随词项保留无需额外调整；3. 所有结构分析、翻译、指代关系均符合要求。（非逐句人工审核）"
+}

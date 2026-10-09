@@ -1,0 +1,92 @@
+{
+  "chinese": "是我姨妈露西。不对，正确的是：那是我姨妈露西。",
+  "intent": "在电话响起的情境下，说明来电话的人是自己的姨妈露西。",
+  "comparison": null,
+  "backbone": {
+    "text": "It was my aunt Lucy.",
+    "meaning": "那是我姨妈露西。"
+  },
+  "structureNotes": [
+    {
+      "title": "It指代前文的电话来电人",
+      "text": "这里的it不是指事物，而是用来指代身份尚不明确的人，承接前一句“电话响了”，说明电话那头的人是谁。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "主语",
+      "explanation": "用来指代身份未明的人（此处指电话里的人），起引出身份的作用。"
+    },
+    {
+      "text": "was",
+      "role": "系动词",
+      "explanation": "be动词的过去式，连接主语和后面的身份说明，表示“是”。"
+    },
+    {
+      "text": "my aunt Lucy.",
+      "role": "表语",
+      "explanation": "说明主语的具体身份，整体表示“我的姨妈露西”。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "它（此处指代身份不明的人）",
+      "pos": "代词",
+      "phonetic": "/ɪt/",
+      "text": "It"
+    },
+    {
+      "meaning": "是（be的过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/",
+      "text": "was"
+    },
+    {
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/",
+      "text": "my"
+    },
+    {
+      "meaning": "姨妈；姑妈；伯母；舅妈",
+      "pos": "名词",
+      "phonetic": "/ɑːnt/",
+      "text": "aunt"
+    },
+    {
+      "meaning": "露西（女子名）",
+      "pos": "名词",
+      "phonetic": "/ˈluːsi/",
+      "text": "Lucy."
+    }
+  ],
+  "parts": [
+    {
+      "text": "It was",
+      "relation": "引出身份判断",
+      "meaning": "那是"
+    },
+    {
+      "text": "my aunt Lucy.",
+      "relation": "说明判断的具体内容，即对方的身份",
+      "meaning": "我姨妈露西"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-002",
+  "sentenceId": "nce-2-lesson-002-sentence-010",
+  "sentenceOrder": 10,
+  "english": "It was my aunt Lucy.",
+  "lesson": "Lesson 2 Breakfast or lunch?",
+  "notes": [
+    {
+      "title": "It指代前文的电话来电人",
+      "text": "这里的it不是指事物，而是用来指代身份尚不明确的人，承接前一句“电话响了”，说明电话那头的人是谁。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅chinese翻译缺少指示语气，与backbone、译文的一致性可优化；其余指代说明、语法结构、音标释义、分块均符合要求。（非逐句人工审核）"
+}

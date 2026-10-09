@@ -1,0 +1,111 @@
+{
+  "chinese": "可自从他搬进去以来，",
+  "intent": "引出后续主句描述的时间段起点，承接前文转折，说明后续麻烦开始的时间背景",
+  "comparison": null,
+  "backbone": {
+    "text": "ever since he moved in",
+    "meaning": "自从他搬进去以来"
+  },
+  "structureNotes": [
+    {
+      "title": "ever since 引导时间背景",
+      "text": "ever since 用来引出过去某个起始事件，说明主句的情况从那个时间点一直持续到现在，语气比单用 since 更强调“从那时起一直”。"
+    },
+    {
+      "title": "but 的转折作用",
+      "text": "but 承接前文“刚买了新房子”的内容，转折引出后面不太顺利的情况，本片段只是转折后的时间状语部分。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "but",
+      "role": "转折连词",
+      "explanation": "连接前文的主句和后文的内容，表示语义上的转折，意思是“但是、可”。"
+    },
+    {
+      "text": "ever since",
+      "role": "时间从属连词短语",
+      "explanation": "引导时间状语从句，标明主句动作或状态的起始时间点，含义是“自从…以来”。"
+    },
+    {
+      "text": "he moved in,",
+      "role": "时间状语从句的主谓状部分",
+      "explanation": "是 ever since 引导的从句里的核心内容，说明起始事件是“他搬进去”，moved 是 move 的过去式，in 为地点副词作状语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "but",
+      "meaning": "但是；可是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "ever",
+      "meaning": "（与since连用加强语气）从那时到现在",
+      "pos": "副词",
+      "phonetic": "/ˈevə(r)/"
+    },
+    {
+      "text": "since",
+      "meaning": "自从；自…以来",
+      "pos": "连词",
+      "phonetic": "/sɪns/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "moved",
+      "meaning": "搬；移动（过去式）",
+      "pos": "动词",
+      "phonetic": "/muːvd/"
+    },
+    {
+      "text": "in,",
+      "meaning": "进入；在里面",
+      "pos": "副词",
+      "phonetic": "/ɪn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "but",
+      "meaning": "但是；可",
+      "relation": "转折连接，承接前文内容"
+    },
+    {
+      "text": "ever since",
+      "meaning": "自从…以来",
+      "relation": "引出时间起点的连接成分"
+    },
+    {
+      "text": "he moved in,",
+      "meaning": "他搬进去",
+      "relation": "描述作为时间起点的事件"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-028",
+  "sentenceId": "nce-2-lesson-028-sentence-002-part-02",
+  "sentenceOrder": 3,
+  "english": "but ever since he moved in,",
+  "lesson": "Lesson 28 No parking",
+  "notes": [
+    {
+      "title": "ever since 引导时间背景",
+      "text": "ever since 用来引出过去某个起始事件，说明主句的情况从那个时间点一直持续到现在，语气比单用 since 更强调“从那时起一直”。"
+    },
+    {
+      "title": "but 的转折作用",
+      "text": "but 承接前文“刚买了新房子”的内容，转折引出后面不太顺利的情况，本片段只是转折后的时间状语部分。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正第3个结构项的角色表述，以及补充单词in的词性说明和parts中第三项的meaning标点逻辑，确保语法角色准确、标点说明不混入词义。（非逐句人工审核）"
+}

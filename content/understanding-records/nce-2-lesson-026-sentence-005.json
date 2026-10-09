@@ -1,0 +1,102 @@
+{
+  "chinese": "它们只不过是好看的图案而已。",
+  "intent": "说明前文提到的那些画作并没有特别的含义，只是好看的图案。",
+  "comparison": null,
+  "backbone": {
+    "text": "They are patterns.",
+    "meaning": "它们是图案。"
+  },
+  "structureNotes": [
+    {
+      "title": "just的语气作用",
+      "text": "句中just放在be动词后，用来弱化事物的重要性，表达“只不过、仅仅”的含义，说明这些画没有更深内涵，只是外观好看。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They",
+      "role": "主语",
+      "explanation": "指代上文提到的many pictures，也就是那些没有特定含义的画作。"
+    },
+    {
+      "text": "are",
+      "role": "系动词",
+      "explanation": "连接主语和后面的表语，说明主语的属性。"
+    },
+    {
+      "text": "just pretty patterns.",
+      "role": "表语",
+      "explanation": "说明主语的本质，其中just表“只不过”的语气，pretty修饰patterns，表示“好看的图案”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "They",
+      "meaning": "它们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "are",
+      "meaning": "是",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "just",
+      "meaning": "只不过，仅仅",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "pretty",
+      "meaning": "漂亮的，好看的",
+      "pos": "形容词",
+      "phonetic": "/ˈprɪti/"
+    },
+    {
+      "text": "patterns.",
+      "meaning": "图案",
+      "pos": "名词",
+      "phonetic": "/ˈpætnz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "They",
+      "relation": "描述对象",
+      "meaning": "它们（指代前文的画作）"
+    },
+    {
+      "text": "are",
+      "relation": "连接主语和属性",
+      "meaning": "是"
+    },
+    {
+      "text": "just",
+      "relation": "弱化语气，说明没有更深含义",
+      "meaning": "只不过"
+    },
+    {
+      "text": "pretty patterns.",
+      "relation": "描述主语的属性",
+      "meaning": "好看的图案"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-026",
+  "sentenceId": "nce-2-lesson-026-sentence-005",
+  "sentenceOrder": 5,
+  "english": "They are just pretty patterns.",
+  "lesson": "Lesson 26 The best art critics",
+  "notes": [
+    {
+      "title": "just的语气作用",
+      "text": "句中just放在be动词后，用来弱化事物的重要性，表达“只不过、仅仅”的含义，说明这些画没有更深内涵，只是外观好看。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需修正words中patterns.的英式音标采用标准DJ音标，并确认所有分块和语法分析无误。（非逐句人工审核）"
+}

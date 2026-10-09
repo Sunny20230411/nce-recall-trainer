@@ -1,0 +1,101 @@
+{
+  "chinese": "伊恩·汤普森（的酒馆）正待售。",
+  "intent": "陈述伊恩·汤普森名下的酒馆处于待售状态（原句为上下文承接的缩略表述，字面直接指向该人名）",
+  "comparison": null,
+  "backbone": {
+    "text": "Ian Thompson is up for sale.",
+    "meaning": "伊恩·汤普森（的酒馆）正处于待售状态。"
+  },
+  "structureNotes": [
+    {
+      "title": "be up for sale 的含义",
+      "text": "固定搭配 be up for sale 表示“处于待售、供出售”的状态，up 在这里体现“在（交易）议程中、可供（处理）”的含义，for sale 点明用途是出售。"
+    },
+    {
+      "title": "上下文承接的省略理解",
+      "text": "本句承接前一句的核心事物a public house（酒馆），此处用Mr. Ian Thompson承接语境代指他刚买的那家酒馆，属于叙事中的借代省略，并非指人本身被出售。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Ian Thompson",
+      "role": "主语",
+      "explanation": "句子的陈述对象，是人名；结合上下文实际指代他买下的酒馆。"
+    },
+    {
+      "text": "is up for sale.",
+      "role": "谓语（表语结构）",
+      "explanation": "由be动词加固定表语短语构成，说明主语处于“待售”的状态。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "伊恩（男子名）",
+      "pos": "名词",
+      "phonetic": "/ˈiːən/",
+      "text": "Ian"
+    },
+    {
+      "meaning": "汤普森（姓氏）",
+      "pos": "名词",
+      "phonetic": "/ˈtɒmpsən/",
+      "text": "Thompson"
+    },
+    {
+      "meaning": "是（be动词第三人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "处于（某状态）",
+      "pos": "副词",
+      "phonetic": "/ʌp/",
+      "text": "up"
+    },
+    {
+      "meaning": "为了，用于",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/",
+      "text": "for"
+    },
+    {
+      "meaning": "出售，销售",
+      "pos": "名词",
+      "phonetic": "/seɪl/",
+      "text": "sale."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Ian Thompson",
+      "meaning": "伊恩·汤普森（借指其名下的酒馆）",
+      "relation": "描述对象（借代前文的酒馆）"
+    },
+    {
+      "text": "is up for sale.",
+      "meaning": "正处于待售状态",
+      "relation": "说明对象的状态"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-047",
+  "sentenceId": "nce-2-lesson-047-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Ian Thompson is up for sale.",
+  "lesson": "Lesson 47 A thirsty ghost",
+  "notes": [
+    {
+      "title": "be up for sale 的含义",
+      "text": "固定搭配 be up for sale 表示“处于待售、供出售”的状态，up 在这里体现“在（交易）议程中、可供（处理）”的含义，for sale 点明用途是出售。"
+    },
+    {
+      "title": "上下文承接的省略理解",
+      "text": "本句承接前一句的核心事物a public house（酒馆），此处用Mr. Ian Thompson承接语境代指他刚买的那家酒馆，属于叙事中的借代省略，并非指人本身被出售。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原中文翻译未明确上下文借代关系易引发歧义，结构说明中借代主体表述不够准确，需修正以符合原文省略逻辑。（非逐句人工审核）"
+}

@@ -1,0 +1,139 @@
+{
+  "chinese": "我愤怒地看着那名男子和那名女子。",
+  "intent": "描述说话人当时以愤怒的情绪看向一男一女的动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "I looked at the man and the woman.",
+    "meaning": "我看着那名男子和那名女子。"
+  },
+  "structureNotes": [
+    {
+      "title": "look 与介词 at 搭配的含义",
+      "text": "look 表示“看向（具体的人或物）”时是不及物动词，不能直接接看的对象，需要加介词 at 引出具体要看的人或物，意思是“看……”。"
+    },
+    {
+      "title": "angrily 的作用",
+      "text": "angrily 放在句末作方式状语，用来描述“看”这个动作的情绪状态，说明是带着怒气看的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "表示发出“看”这个动作的人，是句子的主体。"
+    },
+    {
+      "text": "looked at",
+      "role": "谓语（短语动词）",
+      "explanation": "表示“看”的动作，looked 是 look 的过去式，说明事情发生在过去；at 是搭配介词，用来引出看的对象，二者共同构成及物的短语谓语。"
+    },
+    {
+      "text": "the man and the woman",
+      "role": "宾语",
+      "explanation": "是“看”的对象，指特定的一男一女，the 表示双方都知道指的是谁。"
+    },
+    {
+      "text": "angrily.",
+      "role": "方式状语",
+      "explanation": "修饰“looked at”这个动作，说明看的方式是愤怒地。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "看（过去式）",
+      "pos": "动词",
+      "phonetic": "/lʊkt/",
+      "text": "looked"
+    },
+    {
+      "meaning": "（介词，引出看的对象）",
+      "pos": "介词",
+      "phonetic": "/æt/",
+      "text": "at"
+    },
+    {
+      "meaning": "这个，那个（定冠词，表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "男人，男子",
+      "pos": "名词",
+      "phonetic": "/mæn/",
+      "text": "man"
+    },
+    {
+      "meaning": "和，与",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "这个，那个（定冠词，表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "女人，女子",
+      "pos": "名词",
+      "phonetic": "/ˈwʊmən/",
+      "text": "woman"
+    },
+    {
+      "meaning": "愤怒地，生气地",
+      "pos": "副词",
+      "phonetic": "/ˈæŋɡrəli/",
+      "text": "angrily."
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "looked at",
+      "relation": "主语发出的动作",
+      "meaning": "看"
+    },
+    {
+      "text": "the man and the woman",
+      "relation": "看的对象",
+      "meaning": "那名男子和那名女子"
+    },
+    {
+      "text": "angrily.",
+      "relation": "描述动作的情绪状态",
+      "meaning": "愤怒地"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-001",
+  "sentenceId": "nce-2-lesson-001-sentence-010",
+  "sentenceOrder": 10,
+  "english": "I looked at the man and the woman angrily.",
+  "lesson": "Lesson 1 A private conversation",
+  "notes": [
+    {
+      "title": "look 与介词 at 搭配的含义",
+      "text": "look 表示“看向（具体的人或物）”时是不及物动词，不能直接接看的对象，需要加介词 at 引出具体要看的人或物，意思是“看……”。"
+    },
+    {
+      "title": "angrily 的作用",
+      "text": "angrily 放在句末作方式状语，用来描述“看”这个动作的情绪状态，说明是带着怒气看的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，仅两处需修正：1. 谓语部分将介词at归入谓语核心不准确，at是搭配介词，不属于谓语动词本身的核心组成，结构说明中应明确looked是动词过去式、at为搭配介词，共同构成及物的短语谓语；2. 补充单词phonetic的英式规范：woman的英式音标应为/ˈwʊmən/（原标注正确但需确认是英式，angrily英式也正确；at弱读式/ət/也常见但标注强读/æt/可接受，暂保留）；3. 修正过强断言：原结构笔记称look“后面不能直接接看的对象”表述绝对，look作及物动词时也可接表神态的宾语等，但此处表“看向某人/某物”需加at，表述需更严谨。（非逐句人工审核）"
+}

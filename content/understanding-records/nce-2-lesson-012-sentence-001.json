@@ -1,0 +1,145 @@
+{
+  "chinese": "我们的邻居查尔斯·艾莉森船长明天将从朴次茅斯启航。",
+  "intent": "告知读者一位邻居的身份以及他明天的航行出发安排。",
+  "comparison": null,
+  "backbone": {
+    "text": "Captain Charles Alison will sail from Portsmouth tomorrow.",
+    "meaning": "查尔斯·艾莉森船长明天将从朴次茅斯启航。"
+  },
+  "structureNotes": [
+    {
+      "title": "同位语补充身份",
+      "text": "句中“Captain Charles Alison”紧跟在“Our neighbour”后面，用逗号隔开，是在补充说明这位邻居的具体身份和姓名，不是另一个人。"
+    },
+    {
+      "title": "will 表将来安排",
+      "text": "这里用 will sail 表示未来确定会发生的行程，不是此刻正在航行，时间状语 tomorrow 也点明了是明天的动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Our neighbour, Captain Charles Alison,",
+      "role": "主语（带同位语）",
+      "explanation": "核心主语是 Our neighbour，Captain Charles Alison 是同位语，具体说明这位邻居是谁，前后用逗号分隔做插入说明。"
+    },
+    {
+      "text": "will sail",
+      "role": "谓语",
+      "explanation": "由情态动词 will 加实义动词 sail 构成，表将来的航行动作。"
+    },
+    {
+      "text": "from Portsmouth",
+      "role": "出发地点状语",
+      "explanation": "用介词 from 引出航行的出发港口是朴次茅斯。"
+    },
+    {
+      "text": "tomorrow.",
+      "role": "时间状语",
+      "explanation": "说明整个动作发生的时间是明天。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Our",
+      "meaning": "我们的",
+      "pos": "限定词",
+      "phonetic": "/ˈaʊə/"
+    },
+    {
+      "text": "neighbour,",
+      "meaning": "邻居",
+      "pos": "名词",
+      "phonetic": "/ˈneɪbə/"
+    },
+    {
+      "text": "Captain",
+      "meaning": "船长",
+      "pos": "名词",
+      "phonetic": "/ˈkæptɪn/"
+    },
+    {
+      "text": "Charles",
+      "meaning": "查尔斯（人名）",
+      "pos": "专有名词",
+      "phonetic": "/tʃɑːlz/"
+    },
+    {
+      "text": "Alison,",
+      "meaning": "艾莉森（人名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈælɪsən/"
+    },
+    {
+      "text": "will",
+      "meaning": "将，会",
+      "pos": "情态动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "sail",
+      "meaning": "航行，启航",
+      "pos": "动词",
+      "phonetic": "/seɪl/"
+    },
+    {
+      "text": "from",
+      "meaning": "从……（地方）",
+      "pos": "介词",
+      "phonetic": "/frɒm/"
+    },
+    {
+      "text": "Portsmouth",
+      "meaning": "朴次茅斯（港口城市）",
+      "pos": "专有名词",
+      "phonetic": "/ˈpɔːtsməθ/"
+    },
+    {
+      "text": "tomorrow.",
+      "meaning": "明天",
+      "pos": "副词",
+      "phonetic": "/təˈmɒrəʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Our neighbour, Captain Charles Alison,",
+      "relation": "描述动作的发出者是谁",
+      "meaning": "我们的邻居查尔斯·艾莉森船长"
+    },
+    {
+      "text": "will sail",
+      "relation": "说明主语要做什么动作",
+      "meaning": "将要启航"
+    },
+    {
+      "text": "from Portsmouth",
+      "relation": "补充动作的出发地点",
+      "meaning": "从朴次茅斯"
+    },
+    {
+      "text": "tomorrow.",
+      "relation": "补充动作发生的时间",
+      "meaning": "明天"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-012",
+  "sentenceId": "nce-2-lesson-012-sentence-001",
+  "sentenceOrder": 1,
+  "english": "Our neighbour, Captain Charles Alison, will sail from Portsmouth tomorrow.",
+  "lesson": "Lesson 12 Goodbye and good luck",
+  "notes": [
+    {
+      "title": "同位语补充身份",
+      "text": "句中“Captain Charles Alison”紧跟在“Our neighbour”后面，用逗号隔开，是在补充说明这位邻居的具体身份和姓名，不是另一个人。"
+    },
+    {
+      "title": "will 表将来安排",
+      "text": "这里用 will sail 表示未来确定会发生的行程，不是此刻正在航行，时间状语 tomorrow 也点明了是明天的动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确可用，仅单词释义中混入了尾随标点，需修正释义内容使其仅对应单词本身；其余字段（翻译、主干、结构分析、成分划分等）均符合要求。（非逐句人工审核）"
+}

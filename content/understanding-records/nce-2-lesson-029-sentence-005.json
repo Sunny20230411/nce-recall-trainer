@@ -1,0 +1,243 @@
+{
+  "chinese": "福西特上尉的第一位乘客是一名医生，他从伯明翰飞往威尔士山区一个偏僻的村庄。",
+  "intent": "介绍福西特上尉的首位乘客身份，以及这位乘客搭乘飞机的行程信息。",
+  "comparison": {
+    "chinese": "福西特上尉的第一位乘客是一名［从伯明翰飞往威尔士山区偏僻村庄的］医生。",
+    "english": "Captain Fawcett's first passenger was a doctor who flew from Birmingham to a lonely village in the Welsh mountains.",
+    "steps": [
+      {
+        "label": "先抓主干信息",
+        "text": "Captain Fawcett's first passenger was a doctor",
+        "explanation": "英文先直接点明核心事实：福西特上尉的第一位乘客是一名医生，让读者先掌握最关键的人物身份。"
+      },
+      {
+        "label": "补充医生的行程细节",
+        "text": "who flew from Birmingham to a lonely village in the Welsh mountains",
+        "explanation": "用who引出后续内容，专门回答“这名医生做了什么/有什么行程”的问题，把医生的飞行路线、目的地全部补充完整。"
+      },
+      {
+        "label": "中文整合修饰的习惯",
+        "text": "从伯明翰飞往威尔士山区偏僻村庄的医生",
+        "explanation": "中文习惯把描述人的相关信息放在“医生”前面，用“的”连成一个长修饰语，不会分成两个小分句说。"
+      }
+    ],
+    "takeaway": "英文先抛出核心身份“a doctor”，再用who从句补具体信息；中文则习惯把所有和“医生”相关的修饰内容都放到“医生”前面。"
+  },
+  "backbone": {
+    "text": "Captain Fawcett's first passenger was a doctor.",
+    "meaning": "福西特上尉的第一位乘客是一名医生。"
+  },
+  "structureNotes": [
+    {
+      "title": "who引导的从句作用",
+      "text": "who紧跟在a doctor后面，指代前面的doctor，用来补充说明这名医生的具体行程，相当于回答“这名医生是谁/做了什么”的问题。"
+    },
+    {
+      "title": "from...to...的含义",
+      "text": "from Birmingham to a lonely village 表示飞行的起止路线，from后面接出发地，to后面接目的地，清晰说明整段行程的两端。"
+    },
+    {
+      "title": "in the Welsh mountains的修饰作用",
+      "text": "这个短语放在a lonely village后面，用来明确村庄的位置，说明村庄坐落在威尔士山区里，是对village地点的补充。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Captain Fawcett's first passenger",
+      "role": "句子主语",
+      "explanation": "指整个句子描述的主体，也就是福西特上尉的第一位乘客，是后面was a doctor说明的对象。"
+    },
+    {
+      "text": "was a doctor",
+      "role": "系表结构作谓语",
+      "explanation": "用was连接主语和身份a doctor，说明主语的身份是一名医生。"
+    },
+    {
+      "text": "who flew from Birmingham to a lonely village in the Welsh mountains",
+      "role": "修饰doctor的定语从句",
+      "explanation": "who指代前面的a doctor，整个从句用来补充这名医生的飞行行程，让读者知道这位乘客的具体飞行情况。"
+    },
+    {
+      "text": "from Birmingham to a lonely village",
+      "role": "行程的起止状语",
+      "explanation": "搭配动词flew，说明飞行的出发地是伯明翰，目的地是一个偏僻村庄，交代路线的两端。"
+    },
+    {
+      "text": "in the Welsh mountains",
+      "role": "地点修饰语",
+      "explanation": "修饰a lonely village，说明这个偏僻村庄的位置在威尔士山区里。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Captain",
+      "meaning": "上尉",
+      "pos": "名词",
+      "phonetic": "/ˈkæptɪn/"
+    },
+    {
+      "text": "Fawcett's",
+      "meaning": "福西特的（名词所有格）",
+      "pos": "名词所有格",
+      "phonetic": "/ˈfɔːsɪts/"
+    },
+    {
+      "text": "first",
+      "meaning": "第一个的，首位的",
+      "pos": "序数词",
+      "phonetic": "/fɜːst/"
+    },
+    {
+      "text": "passenger",
+      "meaning": "乘客",
+      "pos": "名词",
+      "phonetic": "/ˈpæsɪndʒə/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（is的过去式）",
+      "pos": "be动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一名",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "doctor",
+      "meaning": "医生",
+      "pos": "名词",
+      "phonetic": "/ˈdɒktə/"
+    },
+    {
+      "text": "who",
+      "meaning": "……的人（引导从句，指代前面的doctor）",
+      "pos": "关系代词",
+      "phonetic": "/huː/"
+    },
+    {
+      "text": "flew",
+      "meaning": "飞行，乘飞机飞行（fly的过去式）",
+      "pos": "动词",
+      "phonetic": "/fluː/"
+    },
+    {
+      "text": "from",
+      "meaning": "从……（表示起点）",
+      "pos": "介词",
+      "phonetic": "/frɒm/"
+    },
+    {
+      "text": "Birmingham",
+      "meaning": "伯明翰（英国城市名）",
+      "pos": "名词",
+      "phonetic": "/ˈbɜːmɪŋəm/"
+    },
+    {
+      "text": "to",
+      "meaning": "到……（表示目的地）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "lonely",
+      "meaning": "偏僻的，孤单的",
+      "pos": "形容词",
+      "phonetic": "/ˈləʊnli/"
+    },
+    {
+      "text": "village",
+      "meaning": "村庄",
+      "pos": "名词",
+      "phonetic": "/ˈvɪlɪdʒ/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定冠词，表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "Welsh",
+      "meaning": "威尔士的",
+      "pos": "形容词",
+      "phonetic": "/welʃ/"
+    },
+    {
+      "text": "mountains.",
+      "meaning": "山区，山脉（mountain的复数）",
+      "pos": "名词",
+      "phonetic": "/ˈmaʊntɪnz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Captain Fawcett's first passenger",
+      "meaning": "福西特上尉的第一位乘客",
+      "relation": "描述的主体，即句子要说的对象"
+    },
+    {
+      "text": "was a doctor",
+      "meaning": "是一名医生",
+      "relation": "说明主语的身份"
+    },
+    {
+      "text": "who flew",
+      "meaning": "（这名医生）乘飞机飞行",
+      "relation": "补充医生的动作"
+    },
+    {
+      "text": "from Birmingham",
+      "meaning": "从伯明翰",
+      "relation": "说明飞行的出发地"
+    },
+    {
+      "text": "to a lonely village",
+      "meaning": "到一个偏僻的村庄",
+      "relation": "说明飞行的目的地"
+    },
+    {
+      "text": "in the Welsh mountains.",
+      "meaning": "在威尔士山区。",
+      "relation": "补充说明村庄的位置"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-029",
+  "sentenceId": "nce-2-lesson-029-sentence-005",
+  "sentenceOrder": 5,
+  "english": "Captain Fawcett's first passenger was a doctor who flew from Birmingham to a lonely village in the Welsh mountains.",
+  "lesson": "Lesson 29 Taxi!",
+  "notes": [
+    {
+      "title": "who引导的从句作用",
+      "text": "who紧跟在a doctor后面，指代前面的doctor，用来补充说明这名医生的具体行程，相当于回答“这名医生是谁/做了什么”的问题。"
+    },
+    {
+      "title": "from...to...的含义",
+      "text": "from Birmingham to a lonely village 表示飞行的起止路线，from后面接出发地，to后面接目的地，清晰说明整段行程的两端。"
+    },
+    {
+      "title": "in the Welsh mountains的修饰作用",
+      "text": "这个短语放在a lonely village后面，用来明确村庄的位置，说明村庄坐落在威尔士山区里，是对village地点的补充。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正单词音标、词性标注的小错误及parts末项的标点对应问题。（非逐句人工审核）"
+}

@@ -1,0 +1,100 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-085",
+  "sentenceId": "nce-2-lesson-085-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Stuart Page, will be retiring next week.",
+  "chinese": "斯图尔特·佩奇，将于下周退休。",
+  "lesson": "Lesson 85 Never too old to learn",
+  "intent": "补全校长姓名及退休安排",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "Stuart Page,",
+      "relation": "姓名续段",
+      "meaning": "斯图尔特·佩奇"
+    },
+    {
+      "text": "will be retiring next week.",
+      "relation": "未来安排",
+      "meaning": "将于下周退休"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "将来进行时",
+      "text": "will be retiring 在此陈述预期将发生的退休安排。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "将来进行时",
+      "text": "will be retiring 在此陈述预期将发生的退休安排。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Stuart Page,",
+      "role": "同位语续段",
+      "explanation": "承接前文 Mr.，补全校长姓名。"
+    },
+    {
+      "text": "will be retiring",
+      "role": "谓语",
+      "explanation": "属于前文 that 引出的内容从句。"
+    },
+    {
+      "text": "next week.",
+      "role": "时间状语",
+      "explanation": "指定退休时间。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Stuart",
+      "meaning": "斯图尔特",
+      "pos": "专有名词",
+      "phonetic": "/ˈstjuːət/"
+    },
+    {
+      "text": "Page,",
+      "meaning": "佩奇",
+      "pos": "专有名词",
+      "phonetic": "/peɪdʒ/"
+    },
+    {
+      "text": "will",
+      "meaning": "将",
+      "pos": "情态助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "be",
+      "meaning": "构成将来进行时",
+      "pos": "助动词原形",
+      "phonetic": "/biː/ 或 /bi/"
+    },
+    {
+      "text": "retiring",
+      "meaning": "退休",
+      "pos": "动词现在分词",
+      "phonetic": "/rɪˈtaɪərɪŋ/"
+    },
+    {
+      "text": "next",
+      "meaning": "下一个",
+      "pos": "形容词",
+      "phonetic": "/nekst/"
+    },
+    {
+      "text": "week.",
+      "meaning": "星期",
+      "pos": "名词",
+      "phonetic": "/wiːk/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

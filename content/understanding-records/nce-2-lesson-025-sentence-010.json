@@ -1,0 +1,117 @@
+{
+  "chinese": "我的老师从来不会像那样说英语！",
+  "intent": "表达说话人觉得当前听到的英语说法和自己老师以前的教学方式不一样，带有惊讶或诧异的语气。",
+  "comparison": null,
+  "backbone": {
+    "text": "My teacher never spoke English like that!",
+    "meaning": "我的老师从来不会像那样说英语。"
+  },
+  "structureNotes": [
+    {
+      "title": "never的语气作用",
+      "text": "never放在动词spoke前面，强调“从来没有、从来不会”，比普通的not语气更强，带出说话人觉得眼前的说法和以往印象完全不符的感觉。"
+    },
+    {
+      "title": "like that的指代",
+      "text": "like that是介词短语，指“像那样（的方式）”，这里的that承接上文提到的对方说话的方式，用来补充说明说英语的具体方式。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My teacher",
+      "role": "主语",
+      "explanation": "指动作的发出者，也就是“我的老师”，后面接说英语这个动作。"
+    },
+    {
+      "text": "never spoke English",
+      "role": "状语+谓语+宾语",
+      "explanation": "spoke是“说”的过去式，作谓语；English是说的内容，作宾语；never是频率副词作状语，用来否定这个动作，整体表示“从来不说英语 / 从来不会这样说英语”。"
+    },
+    {
+      "text": "like that!",
+      "role": "方式状语",
+      "explanation": "用来说明说英语的方式是“像那样”，that指代上文提到的说话方式。"
+    }
+  ],
+  "words": [
+    {
+      "text": "My",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "teacher",
+      "meaning": "老师",
+      "pos": "名词",
+      "phonetic": "/ˈtiːtʃə/"
+    },
+    {
+      "text": "never",
+      "meaning": "从来没有，从不",
+      "pos": "副词",
+      "phonetic": "/ˈnevə/"
+    },
+    {
+      "text": "spoke",
+      "meaning": "说（某种语言）；讲话",
+      "pos": "动词（过去式）",
+      "phonetic": "/spəʊk/"
+    },
+    {
+      "text": "English",
+      "meaning": "英语",
+      "pos": "名词",
+      "phonetic": "/ˈɪŋɡlɪʃ/"
+    },
+    {
+      "text": "like",
+      "meaning": "像，如同",
+      "pos": "介词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "that!",
+      "meaning": "那样（指代上文提到的方式）",
+      "pos": "代词",
+      "phonetic": "/ðæt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "My teacher",
+      "meaning": "我的老师",
+      "relation": "动作的发出者，描述谁在做后面的动作"
+    },
+    {
+      "text": "never spoke English",
+      "meaning": "从来不说英语",
+      "relation": "核心动作和内容，说明主语发出的行为"
+    },
+    {
+      "text": "like that!",
+      "meaning": "像那样",
+      "relation": "补充说英语的方式，指代前面提到的说话方式"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-025",
+  "sentenceId": "nce-2-lesson-025-sentence-010",
+  "sentenceOrder": 10,
+  "english": "My teacher never spoke English like that!",
+  "lesson": "Lesson 25 Do the English speak English?",
+  "notes": [
+    {
+      "title": "never的语气作用",
+      "text": "never放在动词spoke前面，强调“从来没有、从来不会”，比普通的not语气更强，带出说话人觉得眼前的说法和以往印象完全不符的感觉。"
+    },
+    {
+      "title": "like that的指代",
+      "text": "like that是介词短语，指“像那样（的方式）”，这里的that承接上文提到的对方说话的方式，用来补充说明说英语的具体方式。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正2处细节：structures中谓语宾语的划分应将never归入状语而非谓语部分，words里that的音标标注不规范（标点随词但音标本音不应带感叹号提示偏差，实际是拼写text带标点属于约定，仅需修正部分释义的表述一致性）。（非逐句人工审核）"
+}

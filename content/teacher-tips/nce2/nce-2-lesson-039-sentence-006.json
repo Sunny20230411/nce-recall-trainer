@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-039",
+  "sentenceId": "nce-2-lesson-039-sentence-006",
+  "english": "He asked if Mr Gilbert's operation had been successful and the doctor told him that it had been.",
+  "text": "回答“手术是否成功”时，英语不用再把 successful 整句重复一遍，用 it had been 就够了，双方都知道指的是手术成功这件事。以后回应对方刚提过的形容词或状态，可以直接用 be 动词的对应形式收尾，省掉重复的表语。",
+  "sourceDigest": "002112da5476ab34e0b11a232f60781fdd27a6bb130c64f74b3cdc5dc96c0ca8",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：讲清了省略重复表语的表达习惯，迁移具体，符合对话中避免冗余的表达思路。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "点透省略重复表语的答话习惯，迁移具体，符合对话省略的表达逻辑。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

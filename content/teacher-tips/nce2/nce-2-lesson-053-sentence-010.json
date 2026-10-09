@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-053",
+  "sentenceId": "nce-2-lesson-053-sentence-010",
+  "english": "A bird had snatched up the snake from the ground and then dropped it on to the wires.",
+  "text": "had snatched up 是站在“掉到电线上”这个过去时间点往更早看，先发生的抓蛇动作用过去完成时。讲一串过去的先后动作时，先找准你站在哪个动作往回看，更早的就用 had done。",
+  "sourceDigest": "de13ce7a1c968412f3720a45e0af6c5c55d5fc2dbcf2f1a35482ce68936d389f",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：原提点把过去完成时的参照关系讲得具体，避免了死记公式。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "准确解释了过去完成时的参照视角，不是机械讲公式，有具体判断方法。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

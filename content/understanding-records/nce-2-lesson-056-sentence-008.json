@@ -1,0 +1,121 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-056",
+  "sentenceId": "nce-2-lesson-056-sentence-008",
+  "sentenceOrder": 8,
+  "english": "It finished the race in 9 hours and 15 minutes.",
+  "chinese": "这辆车用了九小时十五分钟跑完比赛。",
+  "lesson": "Lesson 56 Faster than sound!",
+  "intent": "说明三轮奔驰的完赛用时",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "It finished the race",
+      "relation": "完成事件",
+      "meaning": "这辆车跑完比赛"
+    },
+    {
+      "text": "in 9 hours and 15 minutes.",
+      "relation": "完成用时",
+      "meaning": "用了九小时十五分钟"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "代词所指",
+      "text": "It 指前文的1904年奔驰车。"
+    },
+    {
+      "title": "完成用时",
+      "text": "in 后接时长，在这里说明完成比赛所需的时间。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "代词所指",
+      "text": "It 指前文的1904年奔驰车。"
+    },
+    {
+      "title": "完成用时",
+      "text": "in 后接时长，在这里说明完成比赛所需的时间。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It finished the race",
+      "role": "主语、谓语和宾语",
+      "explanation": "finish 表示完成比赛。"
+    },
+    {
+      "text": "in 9 hours and 15 minutes.",
+      "role": "时间状语",
+      "explanation": "说明完成比赛的用时。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（奔驰车）",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "finished",
+      "meaning": "完成",
+      "pos": "及物动词过去式",
+      "phonetic": "/ˈfɪnɪʃt/"
+    },
+    {
+      "text": "the",
+      "meaning": "前述的",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "race",
+      "meaning": "比赛",
+      "pos": "名词",
+      "phonetic": "/reɪs/"
+    },
+    {
+      "text": "in",
+      "meaning": "用……时间",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "9",
+      "meaning": "九",
+      "pos": "数词",
+      "phonetic": "/naɪn/"
+    },
+    {
+      "text": "hours",
+      "meaning": "小时",
+      "pos": "名词复数",
+      "phonetic": "/ˈaʊəz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和",
+      "pos": "并列连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "15",
+      "meaning": "十五",
+      "pos": "数词",
+      "phonetic": "/ˌfɪfˈtiːn/"
+    },
+    {
+      "text": "minutes.",
+      "meaning": "分钟",
+      "pos": "名词复数",
+      "phonetic": "/ˈmɪnɪts/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

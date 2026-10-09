@@ -1,0 +1,114 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-095",
+  "sentenceId": "nce-2-lesson-095-sentence-016",
+  "sentenceOrder": 17,
+  "english": "'And how can you explain that?' she asked.",
+  "chinese": "“那这个你又怎么解释？”她问。",
+  "lesson": "Lesson 95 A fantasy",
+  "intent": "针对帽子上的洞要求进一步解释。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "'And how can you explain that?'",
+      "relation": "追问",
+      "meaning": "那你又怎么解释这个"
+    },
+    {
+      "text": "she asked.",
+      "relation": "报告",
+      "meaning": "她问"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "指代",
+      "text": "that 指刚发现的帽子破洞。"
+    },
+    {
+      "title": "情态语气",
+      "text": "can 询问能否给出解释，结合情境带质疑意味。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "指代",
+      "text": "that 指刚发现的帽子破洞。"
+    },
+    {
+      "title": "情态语气",
+      "text": "can 询问能否给出解释，结合情境带质疑意味。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "And",
+      "role": "话语连接词",
+      "explanation": "继续追问新的异常。"
+    },
+    {
+      "text": "how can you explain that",
+      "role": "疑问句",
+      "explanation": "how 问解释方式，that 作 explain 的宾语。"
+    },
+    {
+      "text": "she asked",
+      "role": "报告分句",
+      "explanation": "交代发问者。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'And",
+      "meaning": "那，接续追问",
+      "pos": "连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "how",
+      "meaning": "怎么",
+      "pos": "疑问副词",
+      "phonetic": "/haʊ/"
+    },
+    {
+      "text": "can",
+      "meaning": "能够",
+      "pos": "情态动词",
+      "phonetic": "/kæn/ 或 /kən/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "代词",
+      "phonetic": "/juː/ 或 /jʊ/"
+    },
+    {
+      "text": "explain",
+      "meaning": "解释",
+      "pos": "动词",
+      "phonetic": "/ɪkˈspleɪn/"
+    },
+    {
+      "text": "that?'",
+      "meaning": "那个洞",
+      "pos": "代词",
+      "phonetic": "/ðæt/ 或 /ðət/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "asked.",
+      "meaning": "问",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

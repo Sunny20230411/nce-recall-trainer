@@ -1,0 +1,306 @@
+{
+  "chinese": "那个人想飞往罗科尔——大西洋上的一座孤岛，但福西特机长没有载他去，因为这趟行程太危险了。",
+  "intent": "说明一名男子提出飞往罗科尔岛的请求，以及福西特机长拒绝该请求的原因。",
+  "comparison": {
+    "chinese": "那个人想飞往［大西洋上的一座孤岛］罗科尔，但福西特机长没有载他去，因为这趟行程太危险。",
+    "english": "The man wanted to fly to Rockall, a lonely island in the Atlantic Ocean, but Captain Fawcett did not take him because the trip was too dangerous.",
+    "steps": [
+      {
+        "label": "先抓主句动作",
+        "text": "The man wanted to fly to Rockall",
+        "explanation": "先读到核心信息：这个人的目的地是罗科尔，想飞到那里。"
+      },
+      {
+        "label": "补充地点属性",
+        "text": "a lonely island in the Atlantic Ocean",
+        "explanation": "英文把地名放在前面，再用逗号隔开的短语补充说明罗科尔是一座孤岛、位于大西洋中；中文习惯把修饰地名的描述放在地名前面。"
+      },
+      {
+        "label": "转折与原因收尾",
+        "text": "but Captain Fawcett did not take him because the trip was too dangerous",
+        "explanation": "先用but转去结果（机长拒绝），再用because交代原因；中文也常用“但是……因为……”的顺序，逻辑基本一致。"
+      }
+    ],
+    "takeaway": "英文常把同位语放在专有名词之后作补充说明，中文更习惯把修饰性描述前置到专有名词前面；转折与原因的语序两种语言较接近。"
+  },
+  "backbone": {
+    "text": "The man wanted to fly to Rockall, but Captain Fawcett did not take him because the trip was too dangerous.",
+    "meaning": "那个人想飞往罗科尔，但福西特机长没有载他去，因为这趟行程太危险。"
+  },
+  "structureNotes": [
+    {
+      "title": "同位语补充说明地名",
+      "text": "a lonely island in the Atlantic Ocean 紧跟在 Rockall 之后，由逗号隔开，作用是解释 Rockall 是一座什么样的岛、位于哪里，和 Rockall 指同一个地方。"
+    },
+    {
+      "title": "but 连接转折分句",
+      "text": "but 连接前后两个并列分句，前一分句讲男子的愿望，后一分句讲机长的实际做法，形成转折关系。"
+    },
+    {
+      "title": "because 引导原因状语",
+      "text": "because 用来说明福西特机长不带他去的原因，回答“为什么没有载他”的问题。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The man",
+      "role": "主语（前一分句）",
+      "explanation": "指前文提到的那名提出请求的男子，是“想要飞往某地”这个动作的发出者。"
+    },
+    {
+      "text": "wanted to fly to Rockall,",
+      "role": "谓语与宾语（前一分句）",
+      "explanation": "wanted 是主要动词，to fly to Rockall 是 wanted 的内容，整体表达“想要飞往罗科尔”的愿望。"
+    },
+    {
+      "text": "a lonely island in the Atlantic Ocean,",
+      "role": "同位语",
+      "explanation": "对 Rockall 进行补充说明，说明它是大西洋上的一座孤岛，和 Rockall 指同一事物。"
+    },
+    {
+      "text": "but",
+      "role": "并列连词",
+      "explanation": "连接前后两个分句，表示转折关系。"
+    },
+    {
+      "text": "Captain Fawcett",
+      "role": "主语（后一分句）",
+      "explanation": "指福西特机长，是“没有载他去”这个动作的发出者。"
+    },
+    {
+      "text": "did not take him",
+      "role": "谓语与宾语（后一分句主句）",
+      "explanation": "表示“没有载他、没有带他去”，用 did not 构成过去时的否定。"
+    },
+    {
+      "text": "because the trip was too dangerous.",
+      "role": "原因状语从句",
+      "explanation": "用来解释机长没有载他的原因，说明行程太危险。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这，那（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "男人，人",
+      "pos": "名词",
+      "phonetic": "/mæn/",
+      "text": "man"
+    },
+    {
+      "meaning": "想要（过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈwɒntɪd/",
+      "text": "wanted"
+    },
+    {
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式标记",
+      "phonetic": "/tə/",
+      "text": "to"
+    },
+    {
+      "meaning": "飞，飞行",
+      "pos": "动词",
+      "phonetic": "/flaɪ/",
+      "text": "fly"
+    },
+    {
+      "meaning": "到，向",
+      "pos": "介词",
+      "phonetic": "/tuː/",
+      "text": "to"
+    },
+    {
+      "meaning": "罗科尔（地名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈrɒkɔːl/",
+      "text": "Rockall,"
+    },
+    {
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "偏僻的，孤寂的",
+      "pos": "形容词",
+      "phonetic": "/ˈləʊnli/",
+      "text": "lonely"
+    },
+    {
+      "meaning": "岛，岛屿",
+      "pos": "名词",
+      "phonetic": "/ˈaɪlənd/",
+      "text": "island"
+    },
+    {
+      "meaning": "在……里，在……中",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这，那（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "大西洋的",
+      "pos": "形容词",
+      "phonetic": "/ætˈlæntɪk/",
+      "text": "Atlantic"
+    },
+    {
+      "meaning": "海洋，洋",
+      "pos": "名词",
+      "phonetic": "/ˈəʊʃən/",
+      "text": "Ocean,"
+    },
+    {
+      "meaning": "但是，可是",
+      "pos": "连词",
+      "phonetic": "/bʌt/",
+      "text": "but"
+    },
+    {
+      "meaning": "机长，上尉，船长",
+      "pos": "名词",
+      "phonetic": "/ˈkæptɪn/",
+      "text": "Captain"
+    },
+    {
+      "meaning": "福西特（人名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈfɔːsɪt/",
+      "text": "Fawcett"
+    },
+    {
+      "meaning": "（助动词，构成过去时否定/疑问）",
+      "pos": "助动词",
+      "phonetic": "/dɪd/",
+      "text": "did"
+    },
+    {
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/",
+      "text": "not"
+    },
+    {
+      "meaning": "带，载，运送",
+      "pos": "动词",
+      "phonetic": "/teɪk/",
+      "text": "take"
+    },
+    {
+      "meaning": "他（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɪm/",
+      "text": "him"
+    },
+    {
+      "meaning": "因为",
+      "pos": "连词",
+      "phonetic": "/bɪˈkɒz/",
+      "text": "because"
+    },
+    {
+      "meaning": "这，那（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "行程，旅行",
+      "pos": "名词",
+      "phonetic": "/trɪp/",
+      "text": "trip"
+    },
+    {
+      "meaning": "是（be动词过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/",
+      "text": "was"
+    },
+    {
+      "meaning": "太，过于",
+      "pos": "副词",
+      "phonetic": "/tuː/",
+      "text": "too"
+    },
+    {
+      "meaning": "危险的",
+      "pos": "形容词",
+      "phonetic": "/ˈdeɪndʒərəs/",
+      "text": "dangerous."
+    }
+  ],
+  "parts": [
+    {
+      "text": "The man",
+      "meaning": "那名男子",
+      "relation": "动作发出者（前一分句主语）"
+    },
+    {
+      "text": "wanted to fly to Rockall,",
+      "meaning": "想要飞往罗科尔",
+      "relation": "前一分句的谓语与目的地"
+    },
+    {
+      "text": "a lonely island in the Atlantic Ocean,",
+      "meaning": "大西洋上一座偏僻的孤岛",
+      "relation": "补充说明罗科尔是什么地方（同位语）"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "relation": "连接前后两个分句，表示转折"
+    },
+    {
+      "text": "Captain Fawcett",
+      "meaning": "福西特机长",
+      "relation": "动作发出者（后一分句主语）"
+    },
+    {
+      "text": "did not take him",
+      "meaning": "没有载他",
+      "relation": "后一分句主句的谓语与宾语"
+    },
+    {
+      "text": "because the trip was too dangerous.",
+      "meaning": "因为这趟行程太危险",
+      "relation": "说明后一分句动作的原因"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-029",
+  "sentenceId": "nce-2-lesson-029-sentence-009",
+  "sentenceOrder": 10,
+  "english": "The man wanted to fly to Rockall, a lonely island in the Atlantic Ocean, but Captain Fawcett did not take him because the trip was too dangerous.",
+  "lesson": "Lesson 29 Taxi!",
+  "notes": [
+    {
+      "title": "同位语补充说明地名",
+      "text": "a lonely island in the Atlantic Ocean 紧跟在 Rockall 之后，由逗号隔开，作用是解释 Rockall 是一座什么样的岛、位于哪里，和 Rockall 指同一个地方。"
+    },
+    {
+      "title": "but 连接转折分句",
+      "text": "but 连接前后两个并列分句，前一分句讲男子的愿望，后一分句讲机长的实际做法，形成转折关系。"
+    },
+    {
+      "title": "because 引导原因状语",
+      "text": "because 用来说明福西特机长不带他去的原因，回答“为什么没有载他”的问题。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅存在同位语分块中文释义与原文lonely词义对应稍弱、comparison步骤中地点属性补充说明可更贴合“孤岛”原文的小问题，修正后可用。（非逐句人工审核）"
+}

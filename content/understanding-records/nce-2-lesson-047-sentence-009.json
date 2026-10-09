@@ -1,0 +1,224 @@
+{
+  "chinese": "他还说，他发现了五只空威士忌酒瓶，肯定是鬼在前一天晚上喝光的。",
+  "intent": "转述某人提到的一项发现，并对空酒瓶的来由做出推测。",
+  "comparison": {
+    "chinese": "他还说，他发现了五只［肯定是鬼在前一天晚上喝光的］空威士忌酒瓶。",
+    "english": "He also said that he had found five empty whisky bottles which the ghost must have drunk the night before.",
+    "steps": [
+      {
+        "label": "第一步：抓主句核心",
+        "text": "He also said that…",
+        "explanation": "先知道主干是“他还说了某件事”，that 引出说的具体内容，中文可以直接说“他还说……”。"
+      },
+      {
+        "label": "第二步：明确发现的对象",
+        "text": "he had found five empty whisky bottles",
+        "explanation": "从句先交代“他发现了五只空威士忌酒瓶”，中文和英文语序一致，都是先说动作，再说发现了什么。"
+      },
+      {
+        "label": "第三步：补充酒瓶的相关推测",
+        "text": "which the ghost must have drunk the night before",
+        "explanation": "which 指前面的酒瓶，用一句话补充“这些酒肯定是鬼前一晚喝的”。中文习惯把这个修饰放在“空威士忌酒瓶”前面，英文则放在名词后面。"
+      }
+    ],
+    "takeaway": "英文习惯先把主句说完，再用 which 引出对前面名词的补充说明；中文常把这类补充信息放到被修饰的名词前面。"
+  },
+  "backbone": {
+    "text": "He also said that he had found five empty whisky bottles.",
+    "meaning": "他还说，他发现了五只空威士忌酒瓶。"
+  },
+  "structureNotes": [
+    {
+      "title": "that 引导宾语从句",
+      "text": "that 承接 said，引出“说”的具体内容，整个从句在句中充当 said 的宾语。"
+    },
+    {
+      "title": "which 引导定语从句",
+      "text": "which 指代前面的 five empty whisky bottles，补充说明这些酒瓶与“鬼喝酒”的关系；从句里 must have drunk 是对过去事情的推测。"
+    },
+    {
+      "title": "must have + 过去分词",
+      "text": "表示对过去已经发生的事作出肯定推测，意思是“肯定已经……了”，不表示必须做。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He also said",
+      "role": "主句主谓语",
+      "explanation": "句子的核心主干部分，He 是主语，said 是谓语动词，also 表示“也、还”，修饰 said。"
+    },
+    {
+      "text": "that he had found five empty whisky bottles",
+      "role": "宾语从句",
+      "explanation": "that 引导的从句作 said 的宾语，说明他说的具体内容；he 是从句主语，had found 是从句的过去完成时谓语。"
+    },
+    {
+      "text": "which the ghost must have drunk the night before.",
+      "role": "定语从句",
+      "explanation": "which 指代 five empty whisky bottles，在从句中作 drunk 的宾语；the ghost 是从句主语，must have drunk 表示对过去的推测，the night before 是时间。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/",
+      "text": "He"
+    },
+    {
+      "meaning": "也，还",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlsəʊ/",
+      "text": "also"
+    },
+    {
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/sed/",
+      "text": "said"
+    },
+    {
+      "meaning": "（引导从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/",
+      "text": "that"
+    },
+    {
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/",
+      "text": "he"
+    },
+    {
+      "meaning": "（助动词，构成过去完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæd/",
+      "text": "had"
+    },
+    {
+      "meaning": "发现，找到",
+      "pos": "动词",
+      "phonetic": "/faʊnd/",
+      "text": "found"
+    },
+    {
+      "meaning": "五",
+      "pos": "数词",
+      "phonetic": "/faɪv/",
+      "text": "five"
+    },
+    {
+      "meaning": "空的",
+      "pos": "形容词",
+      "phonetic": "/ˈempti/",
+      "text": "empty"
+    },
+    {
+      "meaning": "威士忌（酒）",
+      "pos": "名词",
+      "phonetic": "/ˈwɪski/",
+      "text": "whisky"
+    },
+    {
+      "meaning": "瓶子",
+      "pos": "名词",
+      "phonetic": "/ˈbɒtlz/",
+      "text": "bottles"
+    },
+    {
+      "meaning": "……的那个（指代前面的酒瓶）",
+      "pos": "关系代词",
+      "phonetic": "/wɪtʃ/",
+      "text": "which"
+    },
+    {
+      "meaning": "这个，那个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "鬼，幽灵",
+      "pos": "名词",
+      "phonetic": "/ɡəʊst/",
+      "text": "ghost"
+    },
+    {
+      "meaning": "肯定，想必",
+      "pos": "情态动词",
+      "phonetic": "/mʌst/",
+      "text": "must"
+    },
+    {
+      "meaning": "（助动词，与must搭配表对过去的推测）",
+      "pos": "助动词",
+      "phonetic": "/hæv/",
+      "text": "have"
+    },
+    {
+      "meaning": "喝（过去分词）",
+      "pos": "动词",
+      "phonetic": "/drʌŋk/",
+      "text": "drunk"
+    },
+    {
+      "meaning": "（定冠词，指特定的夜晚）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "夜晚",
+      "pos": "名词",
+      "phonetic": "/naɪt/",
+      "text": "night"
+    },
+    {
+      "meaning": "以前，之前（句末）",
+      "pos": "副词",
+      "phonetic": "/bɪˈfɔː(r)/",
+      "text": "before."
+    }
+  ],
+  "parts": [
+    {
+      "text": "He also said",
+      "meaning": "他还说",
+      "relation": "主句主语和谓语，引出后面所说的内容"
+    },
+    {
+      "text": "that he had found five empty whisky bottles",
+      "meaning": "他发现了五只空威士忌酒瓶",
+      "relation": "说话的具体内容，作said的宾语"
+    },
+    {
+      "text": "which the ghost must have drunk the night before.",
+      "meaning": "这些瓶里的酒肯定是鬼在前一天晚上喝的",
+      "relation": "补充说明前面的空酒瓶，描述酒瓶空掉的推测原因"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-047",
+  "sentenceId": "nce-2-lesson-047-sentence-009",
+  "sentenceOrder": 9,
+  "english": "He also said that he had found five empty whisky bottles which the ghost must have drunk the night before.",
+  "lesson": "Lesson 47 A thirsty ghost",
+  "notes": [
+    {
+      "title": "that 引导宾语从句",
+      "text": "that 承接 said，引出“说”的具体内容，整个从句在句中充当 said 的宾语。"
+    },
+    {
+      "title": "which 引导定语从句",
+      "text": "which 指代前面的 five empty whisky bottles，补充说明这些酒瓶与“鬼喝酒”的关系；从句里 must have drunk 是对过去事情的推测。"
+    },
+    {
+      "title": "must have + 过去分词",
+      "text": "表示对过去已经发生的事作出肯定推测，意思是“肯定已经……了”，不表示必须做。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：第三部分分块的meaning存在逻辑偏差，将which指代的酒瓶误表述为“这些酒”，需修正为符合指代关系的表述；其余内容准确。（非逐句人工审核）"
+}

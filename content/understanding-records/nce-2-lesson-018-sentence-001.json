@@ -1,0 +1,175 @@
+{
+  "chinese": "我在一家乡村小酒馆吃完午饭后，找了我的包。",
+  "intent": "讲述过去在乡村酒馆吃完午饭之后发生的找包动作，交代两个动作的先后顺序。",
+  "comparison": {
+    "chinese": "我在一家乡村小酒馆吃完午饭后，找了我的包。",
+    "english": "After I had had lunch at a village pub, I looked for my bag.",
+    "steps": [
+      {
+        "label": "第一步：先抓主干动作",
+        "text": "I looked for my bag.",
+        "explanation": "中文先想“找包”这件事也可以，但英文会先把主句核心动作放在后面或前面都可以，这里主句是“我找包”，是全句主要交代的事。"
+      },
+      {
+        "label": "第二步：补充前面的时间背景",
+        "text": "After I had had lunch at a village pub",
+        "explanation": "中文用“吃完午饭后”放在前面表时间顺序很自然；英文用After引导从句放在句首，并用had had（过去完成时）明确“吃午饭”发生在“找包”之前。"
+      }
+    ],
+    "takeaway": "中英文都可以先说时间背景再说主要动作，但英文会通过After + 过去完成时的形式，明确标出更早发生的那个过去动作。"
+  },
+  "backbone": {
+    "text": "I looked for my bag.",
+    "meaning": "我找我的包。"
+  },
+  "structureNotes": [
+    {
+      "title": "After引导的时间从句",
+      "text": "After I had had lunch at a village pub 用来说明主句动作发生的时间背景，After本身就是“在……之后”的意思，明确前后动作的先后。"
+    },
+    {
+      "title": "两个had的含义",
+      "text": "第一个had是构成过去完成时的助动词，第二个had是实义动词，意思是“吃（饭）”，合起来表示“（过去某时之前）已经吃过”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "After I had had lunch at a village pub,",
+      "role": "时间状语从句",
+      "explanation": "交代主句动作“找包”发生的时间背景，说明“吃午饭”是更早发生的过去动作。"
+    },
+    {
+      "text": "I looked for my bag.",
+      "role": "主句",
+      "explanation": "全句的核心内容，说明主语“我”发出的主要动作是寻找自己的包。"
+    }
+  ],
+  "words": [
+    {
+      "text": "After",
+      "meaning": "在……之后",
+      "pos": "连词",
+      "phonetic": "/ˈɑːftə/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "had",
+      "meaning": "（过去完成时助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "had",
+      "meaning": "吃（饭）",
+      "pos": "动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "lunch",
+      "meaning": "午餐",
+      "pos": "名词",
+      "phonetic": "/lʌntʃ/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（某处）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一家",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "village",
+      "meaning": "乡村（此处作定语修饰pub）",
+      "pos": "名词",
+      "phonetic": "/ˈvɪlɪdʒ/"
+    },
+    {
+      "text": "pub,",
+      "meaning": "酒馆，小酒吧",
+      "pos": "名词",
+      "phonetic": "/pʌb/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "looked",
+      "meaning": "看，寻找（与for搭配）",
+      "pos": "动词",
+      "phonetic": "/lʊkt/"
+    },
+    {
+      "text": "for",
+      "meaning": "（look for短语中的介词，表对象）",
+      "pos": "介词",
+      "phonetic": "/fɔː/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "bag.",
+      "meaning": "包，手提包",
+      "pos": "名词",
+      "phonetic": "/bæɡ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "After I had had lunch at a village pub,",
+      "relation": "时间背景",
+      "meaning": "在我于一家乡村小酒馆吃完午饭之后"
+    },
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "looked for",
+      "relation": "主要动作",
+      "meaning": "寻找"
+    },
+    {
+      "text": "my bag.",
+      "relation": "寻找的对象",
+      "meaning": "我的包"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-018",
+  "sentenceId": "nce-2-lesson-018-sentence-001",
+  "sentenceOrder": 1,
+  "english": "After I had had lunch at a village pub, I looked for my bag.",
+  "lesson": "Lesson 18 He often does this!",
+  "notes": [
+    {
+      "title": "After引导的时间从句",
+      "text": "After I had had lunch at a village pub 用来说明主句动作发生的时间背景，After本身就是“在……之后”的意思，明确前后动作的先后。"
+    },
+    {
+      "title": "两个had的含义",
+      "text": "第一个had是构成过去完成时的助动词，第二个had是实义动词，意思是“吃（饭）”，合起来表示“（过去某时之前）已经吃过”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅words中第8项village的词性标注为“名词作定语”是语法角色而非词性，需修正为名词并补充定语说明；第9项pub的text带逗号，释义需保留词本身，无需带标点说明，现统一修正词性标注规范。（非逐句人工审核）"
+}

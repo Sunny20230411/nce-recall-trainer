@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-040",
+  "sentenceId": "nce-2-lesson-040-sentence-011",
+  "english": "‘Will you be staying in England?’ I asked.",
+  "text": "这里用 Will you be staying 是在打听对方接下来一段时间的行程安排，语气比 Will you stay 更平缓、更像随口问计划，不带催促对方做决定的意味。下次想问对方某段时间会不会在某地，用将来进行时会更自然。",
+  "sourceDigest": "a58aac1d30c9a94113260f38e2e463e2f94e2520d6d6cbe919db2cec1a6f22ca",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：选点准确，点透了将来进行时用于询问行程安排的语感差异，迁移具体可用，符合教学标准。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "补充语气差异的合理性，避免绝对化表述，迁移点明确。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

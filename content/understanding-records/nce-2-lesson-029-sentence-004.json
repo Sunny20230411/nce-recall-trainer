@@ -1,0 +1,256 @@
+{
+  "chinese": "不过，最令人惊奇的一点是，它能在任何地方降落：雪地上、水面上，甚至刚耕过的田地里。",
+  "intent": "说明这架飞机最让人意外的特点——可以在各类场地降落。",
+  "comparison": {
+    "chinese": "最令人吃惊的是它能到处降落：雪地、水面、甚至犁过的田里。",
+    "english": "The most surprising thing about it, however, is that it can land anywhere: on snow, water, or even on a ploughed field.",
+    "steps": [
+      {
+        "label": "先抓句子主干话题",
+        "text": "The most surprising thing about it… is that…",
+        "explanation": "先提出“关于它最惊人的一点”这个话题，中文常直接说“最让人吃惊的是”，英文习惯先点明“thing”是什么范畴，再用that引出具体内容。"
+      },
+      {
+        "label": "再看that引出的核心事实",
+        "text": "it can land anywhere",
+        "explanation": "that后面完整交代“它能在任何地方降落”，是前面“最惊人的一点”的具体内容，不是修饰某个名词。"
+      },
+      {
+        "label": "最后看冒号后的举例",
+        "text": "on snow, water, or even on a ploughed field",
+        "explanation": "冒号后是对anywhere的具体举例，中文可以直接列地点，英文用on带出每个降落表面，even用来强调最后一项更出乎意料。"
+      }
+    ],
+    "takeaway": "英文用“名词+be+that从句”先给话题再给事实；中文更习惯直接说“令人吃惊的是……”。冒号后的介词短语是对anywhere的举例展开，不是主句的动作。"
+  },
+  "backbone": {
+    "text": "The most surprising thing about it is that it can land anywhere.",
+    "meaning": "关于它最令人吃惊的一点是，它能在任何地方降落。"
+  },
+  "structureNotes": [
+    {
+      "title": "however的位置与作用",
+      "text": "however 插在主语和谓语之间，前后用逗号隔开，意思是“不过、然而”，表示这句话和上文内容形成转折。"
+    },
+    {
+      "title": "that 引导表语从句",
+      "text": "that it can land anywhere 跟在系动词 is 后面，完整说明前面 “最惊人的事” 具体是什么，that 只起连接作用，不充当句子成分。"
+    },
+    {
+      "title": "冒号后的举例作用",
+      "text": "冒号后 on snow, water, or even on a ploughed field 是对 anywhere 的具体展开，列举几种有代表性的降落表面，even 加强最后一项的意外语气。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The most surprising thing about it",
+      "role": "主语",
+      "explanation": "表示“关于它最令人吃惊的一点”，介词短语about it修饰thing，说明是针对哪件事物的特点。"
+    },
+    {
+      "text": "however,",
+      "role": "连接性状语（插入语）",
+      "explanation": "表示转折“不过”，以插入语形式放在主谓之间，不影响主句结构，只体现和上文的逻辑转折关系。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "连接主语和后面的表语从句，说明主语的内容是什么。"
+    },
+    {
+      "text": "that it can land anywhere",
+      "role": "表语从句",
+      "explanation": "跟在系动词is后，完整陈述“最令人吃惊的事”的具体内容：它能在任何地方降落。"
+    },
+    {
+      "text": "on snow, water, or even on a ploughed field",
+      "role": "举例补充语",
+      "explanation": "用冒号引出，具体举例说明anywhere包含哪些降落地点；由on snow、(on) water、or even on a ploughed field三个并列的介词短语构成，第二项承前省略介词on。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这；那（定冠词，特指）",
+      "pos": "determiner",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "most",
+      "meaning": "最（用于构成多音节形容词最高级）",
+      "pos": "adverb",
+      "phonetic": "/məʊst/"
+    },
+    {
+      "text": "surprising",
+      "meaning": "令人惊讶的，出人意料的",
+      "pos": "adjective",
+      "phonetic": "/səˈpraɪzɪŋ/"
+    },
+    {
+      "text": "thing",
+      "meaning": "事情，事物",
+      "pos": "noun",
+      "phonetic": "/θɪŋ/"
+    },
+    {
+      "text": "about",
+      "meaning": "关于",
+      "pos": "preposition",
+      "phonetic": "/əˈbaʊt/"
+    },
+    {
+      "text": "it,",
+      "meaning": "它（指代前文的飞机）",
+      "pos": "pronoun",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "however,",
+      "meaning": "然而，不过",
+      "pos": "adverb",
+      "phonetic": "/haʊˈevə/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be的第三人称单数现在式）",
+      "pos": "verb",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导表语从句，无实义）",
+      "pos": "conjunction",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "it",
+      "meaning": "它",
+      "pos": "pronoun",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "can",
+      "meaning": "能够，可以",
+      "pos": "modal verb",
+      "phonetic": "/kæn/"
+    },
+    {
+      "text": "land",
+      "meaning": "降落，着陆",
+      "pos": "verb",
+      "phonetic": "/lænd/"
+    },
+    {
+      "text": "anywhere:",
+      "meaning": "任何地方",
+      "pos": "adverb",
+      "phonetic": "/ˈeniweə/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "preposition",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "snow,",
+      "meaning": "雪，积雪",
+      "pos": "noun",
+      "phonetic": "/snəʊ/"
+    },
+    {
+      "text": "water,",
+      "meaning": "水，水面",
+      "pos": "noun",
+      "phonetic": "/ˈwɔːtə/"
+    },
+    {
+      "text": "or",
+      "meaning": "或者",
+      "pos": "conjunction",
+      "phonetic": "/ɔː/"
+    },
+    {
+      "text": "even",
+      "meaning": "甚至",
+      "pos": "adverb",
+      "phonetic": "/ˈiːvən/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "preposition",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（片），一个",
+      "pos": "determiner",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "ploughed",
+      "meaning": "犁过的，耕过的",
+      "pos": "adjective",
+      "phonetic": "/plaʊd/"
+    },
+    {
+      "text": "field.",
+      "meaning": "田地，田野",
+      "pos": "noun",
+      "phonetic": "/fiːld/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The most surprising thing about it,",
+      "meaning": "关于它最令人吃惊的一点",
+      "relation": "句子的主语，是描述的主体"
+    },
+    {
+      "text": "however,",
+      "meaning": "然而，不过",
+      "relation": "转折插入语，体现本句与上文的对比关系"
+    },
+    {
+      "text": "is",
+      "meaning": "是",
+      "relation": "系动词，连接主语和后续的表语内容"
+    },
+    {
+      "text": "that it can land anywhere:",
+      "meaning": "它能在任何地方降落",
+      "relation": "表语从句，说明主语的具体内容"
+    },
+    {
+      "text": "on snow, water, or even on a ploughed field.",
+      "meaning": "在雪地上、水面上，甚至在一片耕过的田地里",
+      "relation": "补充举例，具体说明“任何地方”包含的降落场景"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-029",
+  "sentenceId": "nce-2-lesson-029-sentence-004",
+  "sentenceOrder": 4,
+  "english": "The most surprising thing about it, however, is that it can land anywhere: on snow, water, or even on a ploughed field.",
+  "lesson": "Lesson 29 Taxi!",
+  "notes": [
+    {
+      "title": "however的位置与作用",
+      "text": "however 插在主语和谓语之间，前后用逗号隔开，意思是“不过、然而”，表示这句话和上文内容形成转折。"
+    },
+    {
+      "title": "that 引导表语从句",
+      "text": "that it can land anywhere 跟在系动词 is 后面，完整说明前面 “最惊人的事” 具体是什么，that 只起连接作用，不充当句子成分。"
+    },
+    {
+      "title": "冒号后的举例作用",
+      "text": "冒号后 on snow, water, or even on a ploughed field 是对 anywhere 的具体展开，列举几种有代表性的降落表面，even 加强最后一项的意外语气。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅部分词项标点归属、however插入语的成分表述及举例结构的并列说明有细微可优化处，修正后可直接使用。（非逐句人工审核）"
+}

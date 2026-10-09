@@ -1,0 +1,99 @@
+{
+  "chinese": "我非常生气。",
+  "intent": "表达说话人当时变得很生气的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "I got very angry.",
+    "meaning": "我变得很生气。"
+  },
+  "structureNotes": [
+    {
+      "title": "got的含义",
+      "text": "本句got是系动词，表示“变得”，后接形容词angry说明主语的状态变化，不是“得到”的意思。"
+    },
+    {
+      "title": "very的作用",
+      "text": "very是程度副词，放在形容词angry前面，用来加强生气的程度。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话人本人，是状态变化的主体。"
+    },
+    {
+      "text": "got",
+      "role": "系动词",
+      "explanation": "表示“变得”，体现从某种状态进入生气状态的变化，在句中构成系动词谓语的核心。"
+    },
+    {
+      "text": "very angry",
+      "role": "表语",
+      "explanation": "说明主语的状态，very加强angry的程度，整体表示“非常生气”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "got",
+      "meaning": "变得",
+      "pos": "动词（get的过去式，系动词用法）",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "very",
+      "meaning": "非常，很",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "angry.",
+      "meaning": "生气的",
+      "pos": "形容词",
+      "phonetic": "/ˈæŋɡri/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "描述谁的状态",
+      "meaning": "我"
+    },
+    {
+      "text": "got",
+      "relation": "表示状态变化",
+      "meaning": "变得"
+    },
+    {
+      "text": "very angry.",
+      "relation": "补充说明变成什么状态",
+      "meaning": "非常生气"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-001",
+  "sentenceId": "nce-2-lesson-001-sentence-007",
+  "sentenceOrder": 7,
+  "english": "I got very angry.",
+  "lesson": "Lesson 1 A private conversation",
+  "notes": [
+    {
+      "title": "got的含义",
+      "text": "本句got是系动词，表示“变得”，后接形容词angry说明主语的状态变化，不是“得到”的意思。"
+    },
+    {
+      "title": "very的作用",
+      "text": "very是程度副词，放在形容词angry前面，用来加强生气的程度。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需补充中文翻译对应上下文语境、修正词性标注的规范表述，以及优化系动词谓语的表述，确保术语准确。（非逐句人工审核）"
+}

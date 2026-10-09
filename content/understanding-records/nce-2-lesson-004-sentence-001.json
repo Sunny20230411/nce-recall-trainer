@@ -1,0 +1,145 @@
+{
+  "chinese": "我刚收到我哥哥蒂姆的一封信。",
+  "intent": "告知对方自己刚刚收到哥哥蒂姆寄来的信。",
+  "comparison": null,
+  "backbone": {
+    "text": "I have received a letter from my brother, Tim.",
+    "meaning": "我收到了来自我哥哥蒂姆的一封信。"
+  },
+  "structureNotes": [
+    {
+      "title": "have just received的含义",
+      "text": "have received是现在完成时，表示过去发生的“收到信”这个动作和现在有关（刚收到，现在知道这件事）；just加在中间，强调“刚刚、才”的时间感。"
+    },
+    {
+      "title": "Tim是对my brother的补充说明",
+      "text": "my brother后面用逗号隔开Tim，是在补充说明哥哥的名字，读的时候稍作停顿即可，意思是“我哥哥，也就是蒂姆”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "动作“收到”的发出者，指说话人自己。"
+    },
+    {
+      "text": "have just received",
+      "role": "谓语",
+      "explanation": "表示“刚刚收到”的动作，have和received共同构成现在完成时的谓语，just用来强调时间上是刚刚发生。"
+    },
+    {
+      "text": "a letter",
+      "role": "宾语",
+      "explanation": "“收到”这个动作的对象，是一封信。"
+    },
+    {
+      "text": "from my brother, Tim.",
+      "role": "后置定语（修饰a letter）",
+      "explanation": "用from引出信的来源，说明信是哥哥寄来的，Tim补充说明哥哥的名字。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "have",
+      "meaning": "（助动词，构成完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "just",
+      "meaning": "刚刚，才",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "received",
+      "meaning": "收到（过去分词）",
+      "pos": "动词",
+      "phonetic": "/rɪˈsiːvd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（封）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "letter",
+      "meaning": "信，信件",
+      "pos": "名词",
+      "phonetic": "/ˈletə(r)/"
+    },
+    {
+      "text": "from",
+      "meaning": "来自，从…来",
+      "pos": "介词",
+      "phonetic": "/frɒm/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "brother,",
+      "meaning": "哥哥",
+      "pos": "名词",
+      "phonetic": "/ˈbrʌðə(r)/"
+    },
+    {
+      "text": "Tim.",
+      "meaning": "蒂姆（人名）",
+      "pos": "专有名词",
+      "phonetic": "/tɪm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "have just received",
+      "relation": "主语的动作",
+      "meaning": "刚刚收到"
+    },
+    {
+      "text": "a letter",
+      "relation": "收到的对象",
+      "meaning": "一封信"
+    },
+    {
+      "text": "from my brother, Tim.",
+      "relation": "说明信的来源",
+      "meaning": "来自我哥哥蒂姆"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-004",
+  "sentenceId": "nce-2-lesson-004-sentence-001",
+  "sentenceOrder": 1,
+  "english": "I have just received a letter from my brother, Tim.",
+  "lesson": "Lesson 4 An exciting trip",
+  "notes": [
+    {
+      "title": "have just received的含义",
+      "text": "have received是现在完成时，表示过去发生的“收到信”这个动作和现在有关（刚收到，现在知道这件事）；just加在中间，强调“刚刚、才”的时间感。"
+    },
+    {
+      "title": "Tim是对my brother的补充说明",
+      "text": "my brother后面用逗号隔开Tim，是在补充说明哥哥的名字，读的时候稍作停顿即可，意思是“我哥哥，也就是蒂姆”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本准确，仅两处小问题需修正：1. brother,和Tim.的词条释义不应混入标点功能说明，词的释义仅解释词本身，标点为书写约定无需在词义中体现；2. structures中from my brother, Tim.的角色表述可更规范，明确为后置定语修饰a letter。（非逐句人工审核）"
+}

@@ -1,0 +1,133 @@
+{
+  "chinese": "他会在他的小船“托普赛号”上。",
+  "intent": "说明说话时所指的男性未来某个时间会身处自己的小船上，并点明船的名字是Topsail。",
+  "comparison": null,
+  "backbone": {
+    "text": "He will be in his small boat.",
+    "meaning": "他会在自己的小船上。"
+  },
+  "structureNotes": [
+    {
+      "title": "句末专有名词的作用",
+      "text": "Topsail放在逗号后，是对前面his small boat的补充说明，直接点明这艘小船的名字。"
+    },
+    {
+      "title": "will be表示未来的状态",
+      "text": "will be用来描述未来某个时间的状态，这里指将来他处于“在船上”的状态，不是正在做某个动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指句子描述的对象，即前文提到的那名男性。"
+    },
+    {
+      "text": "will be",
+      "role": "谓语",
+      "explanation": "由助动词will加be动词原形构成，表示将来会处于某种状态。"
+    },
+    {
+      "text": "in his small boat,",
+      "role": "表语",
+      "explanation": "说明主语所处的位置，即身在他的小船里/上。"
+    },
+    {
+      "text": "Topsail.",
+      "role": "同位语",
+      "explanation": "是his small boat的同位语，补充说明这艘小船的名称。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "will",
+      "meaning": "将要、会",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "be",
+      "meaning": "处于（某种状态/位置）",
+      "pos": "动词",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面/上",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "small",
+      "meaning": "小的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/"
+    },
+    {
+      "text": "boat,",
+      "meaning": "船",
+      "pos": "名词",
+      "phonetic": "/bəʊt/"
+    },
+    {
+      "text": "Topsail.",
+      "meaning": "托普赛（船名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈtɒpseɪl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "描述谁",
+      "meaning": "他"
+    },
+    {
+      "text": "will be",
+      "relation": "表示将来的状态",
+      "meaning": "将会处于"
+    },
+    {
+      "text": "in his small boat,",
+      "relation": "说明所处的位置",
+      "meaning": "在他的小船上"
+    },
+    {
+      "text": "Topsail.",
+      "relation": "补充说明小船的名字",
+      "meaning": "托普赛号"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-012",
+  "sentenceId": "nce-2-lesson-012-sentence-003",
+  "sentenceOrder": 3,
+  "english": "He will be in his small boat, Topsail.",
+  "lesson": "Lesson 12 Goodbye and good luck",
+  "notes": [
+    {
+      "title": "句末专有名词的作用",
+      "text": "Topsail放在逗号后，是对前面his small boat的补充说明，直接点明这艘小船的名字。"
+    },
+    {
+      "title": "will be表示未来的状态",
+      "text": "will be用来描述未来某个时间的状态，这里指将来他处于“在船上”的状态，不是正在做某个动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，符合面向中文母语成年人的学习需求；仅words词条的释义中混入了无需说明的标点描述，属于冗余内容，需修正；其余字段（翻译、主干、结构说明、成分划分、parts等）均准确，无语法错误或概念偏差。（非逐句人工审核）"
+}

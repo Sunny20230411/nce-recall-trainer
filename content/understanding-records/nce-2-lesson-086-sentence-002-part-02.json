@@ -1,0 +1,121 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-086",
+  "sentenceId": "nce-2-lesson-086-sentence-002-part-02",
+  "sentenceOrder": 3,
+  "english": "who had been water skiing for the last fifteen minutes.",
+  "chinese": "这位同伴此前已经连续滑水十五分钟了。",
+  "lesson": "Lesson 86 Out of control",
+  "intent": "补充同伴当时的活动及持续时长",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "who had been water skiing",
+      "relation": "同伴活动",
+      "meaning": "这位同伴此前一直在滑水"
+    },
+    {
+      "text": "for the last fifteen minutes.",
+      "relation": "持续时长",
+      "meaning": "已经持续十五分钟"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "补充人物信息",
+      "text": "who 引导非限制性定语从句，指前文 companion。"
+    },
+    {
+      "title": "过去持续",
+      "text": "过去完成进行时以示警时刻为参照，强调此前持续的滑水。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "补充人物信息",
+      "text": "who 引导非限制性定语从句，指前文 companion。"
+    },
+    {
+      "title": "过去持续",
+      "text": "过去完成进行时以示警时刻为参照，强调此前持续的滑水。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "who had been water skiing for the last fifteen minutes.",
+      "role": "非限制性定语从句",
+      "explanation": "补充说明同伴的活动。"
+    },
+    {
+      "text": "for the last fifteen minutes.",
+      "role": "时长状语",
+      "explanation": "指截至当时的十五分钟。"
+    }
+  ],
+  "words": [
+    {
+      "text": "who",
+      "meaning": "这位同伴",
+      "pos": "关系代词",
+      "phonetic": "/huː/"
+    },
+    {
+      "text": "had",
+      "meaning": "构成过去完成时",
+      "pos": "助动词",
+      "phonetic": "/hæd/ 或 /əd/"
+    },
+    {
+      "text": "been",
+      "meaning": "构成完成进行时",
+      "pos": "助动词过去分词",
+      "phonetic": "/biːn/ 或 /bɪn/"
+    },
+    {
+      "text": "water",
+      "meaning": "水上（滑水活动组成）",
+      "pos": "名词作定语",
+      "phonetic": "/ˈwɔːtə(r)/"
+    },
+    {
+      "text": "skiing",
+      "meaning": "滑行（与 water 组成滑水）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈskiːɪŋ/"
+    },
+    {
+      "text": "for",
+      "meaning": "持续",
+      "pos": "介词",
+      "phonetic": "/fɔː/ 或 /fər/"
+    },
+    {
+      "text": "the",
+      "meaning": "这段",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "last",
+      "meaning": "此前紧接的",
+      "pos": "形容词",
+      "phonetic": "/lɑːst/"
+    },
+    {
+      "text": "fifteen",
+      "meaning": "十五",
+      "pos": "数词",
+      "phonetic": "/ˌfɪfˈtiːn/"
+    },
+    {
+      "text": "minutes.",
+      "meaning": "分钟",
+      "pos": "名词复数",
+      "phonetic": "/ˈmɪnɪts/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

@@ -1,0 +1,105 @@
+{
+  "chinese": "“我要去伍德福德格林，",
+  "intent": "告知售票员自己的目的地，是直接引语的前半部分。",
+  "comparison": null,
+  "backbone": {
+    "text": "I'm going to Woodford Green",
+    "meaning": "我打算前往伍德福德格林。"
+  },
+  "structureNotes": [
+    {
+      "title": "be going to 表出行计划",
+      "text": "这里 I'm going to 后面接地点，表示打算前往某地，不是正在进行的动作，是口语里说出行计划的常用说法。"
+    },
+    {
+      "title": "直接引语开头",
+      "text": "句首的左单引号说明这是引用说话人当时的原话，后半句引语和说话主体在下文的片段里。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘I'm",
+      "role": "引语开头 + 主语和be动词",
+      "explanation": "左单引号标记直接引语开始；I'm 是 I am 的缩写，I 是说话人自己，am 配合 going 构成将来含义的进行时形式。"
+    },
+    {
+      "text": "going to",
+      "role": "表计划前往的谓语部分",
+      "explanation": "和前面的 am 连在一起，用 be going to + 地点 的结构，表示打算去某个地方。"
+    },
+    {
+      "text": "Woodford Green,",
+      "role": "目的地地名",
+      "explanation": "是要前往的地点名称，逗号表示引语在这里暂时停顿，后面还有说话的内容或引出说话人。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘I'm",
+      "meaning": "（引语开头）我是",
+      "pos": "代词+动词缩写",
+      "phonetic": "/aɪm/"
+    },
+    {
+      "text": "going",
+      "meaning": "去；打算去",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "to",
+      "meaning": "到；向（某地）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "Woodford",
+      "meaning": "伍德福德（地名组成部分）",
+      "pos": "专有名词",
+      "phonetic": "/ˈwʊdfəd/"
+    },
+    {
+      "text": "Green,",
+      "meaning": "格林（地名组成部分）",
+      "pos": "专有名词",
+      "phonetic": "/ɡriːn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘I'm",
+      "relation": "说话人自己，是引语里的主语",
+      "meaning": "（引语起头）我"
+    },
+    {
+      "text": "going to",
+      "relation": "表示出行计划的动作",
+      "meaning": "打算去"
+    },
+    {
+      "text": "Woodford Green,",
+      "relation": "前往的目的地",
+      "meaning": "伍德福德格林（地名）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-003-part-01",
+  "sentenceOrder": 4,
+  "english": "‘I'm going to Woodford Green,",
+  "lesson": "Lesson 50 Taken for a ride",
+  "notes": [
+    {
+      "title": "be going to 表出行计划",
+      "text": "这里 I'm going to 后面接地点，表示打算前往某地，不是正在进行的动作，是口语里说出行计划的常用说法。"
+    },
+    {
+      "title": "直接引语开头",
+      "text": "句首的左单引号说明这是引用说话人当时的原话，后半句引语和说话主体在下文的片段里。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容正确，仅中文翻译漏了引语前半的前引号表述，且词汇项中Green,的释义无需额外强调逗号，微调即可。（非逐句人工审核）"
+}

@@ -1,0 +1,108 @@
+{
+  "chinese": "她昨天进了我的房间。",
+  "intent": "陈述过去发生的一件事：某位女性昨天进入说话人的房间。",
+  "comparison": null,
+  "backbone": {
+    "text": "She came into my room.",
+    "meaning": "她进了我的房间。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语的位置",
+      "text": "yesterday 放在句末说明整件事发生的时间，中文习惯把时间词放在主语后、动作前，英文常放在句末也可放句首。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She",
+      "role": "主语",
+      "explanation": "指代前文提到的女性，这里是作者的妹妹，是“进入房间”这个动作的发出者。"
+    },
+    {
+      "text": "came",
+      "role": "谓语动词",
+      "explanation": "是 come 的过去式，表示“来”的动作，作主句的谓语。"
+    },
+    {
+      "text": "into my room",
+      "role": "地点状语",
+      "explanation": "说明动作的方向和目的地，意为“进入我的房间”，补充说明 came 的去向。"
+    },
+    {
+      "text": "yesterday.",
+      "role": "时间状语",
+      "explanation": "说明整件事发生在昨天，用来确定动作的时间背景。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/",
+      "text": "She"
+    },
+    {
+      "meaning": "来（come的过去式）",
+      "pos": "动词",
+      "phonetic": "/keɪm/",
+      "text": "came"
+    },
+    {
+      "meaning": "到……里面，进入",
+      "pos": "介词",
+      "phonetic": "/ˈɪntuː/",
+      "text": "into"
+    },
+    {
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/",
+      "text": "my"
+    },
+    {
+      "meaning": "房间",
+      "pos": "名词",
+      "phonetic": "/ruːm/",
+      "text": "room"
+    },
+    {
+      "meaning": "昨天",
+      "pos": "副词",
+      "phonetic": "/ˈjestədeɪ/",
+      "text": "yesterday."
+    }
+  ],
+  "parts": [
+    {
+      "text": "She",
+      "relation": "动作的发出者",
+      "meaning": "她"
+    },
+    {
+      "text": "came into my room",
+      "relation": "描述主语做了什么",
+      "meaning": "进入了我的房间"
+    },
+    {
+      "text": "yesterday.",
+      "relation": "说明动作发生的时间",
+      "meaning": "昨天"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-026",
+  "sentenceId": "nce-2-lesson-026-sentence-010",
+  "sentenceOrder": 10,
+  "english": "She came into my room yesterday.",
+  "lesson": "Lesson 26 The best art critics",
+  "notes": [
+    {
+      "title": "时间状语的位置",
+      "text": "yesterday 放在句末说明整件事发生的时间，中文习惯把时间词放在主语后、动作前，英文常放在句末也可放句首。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅谓语与状语的角色划分需更严谨，修正后符合要求。（非逐句人工审核）"
+}

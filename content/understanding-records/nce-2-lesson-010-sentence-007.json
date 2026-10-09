@@ -1,0 +1,148 @@
+{
+  "chinese": "最近它被一位访客损坏了。",
+  "intent": "说明这件乐器近期受损的事实以及施动者是谁。",
+  "comparison": {
+    "chinese": "最近它被一位访客损坏了",
+    "english": "Recently it was damaged by a visitor.",
+    "steps": [
+      {
+        "label": "先抓核心事件",
+        "text": "it was damaged",
+        "explanation": "中文先说“被损坏了”也能懂，但英文习惯先把“它受损了”这件事作为主干说出来，it 指上文提到的乐器。"
+      },
+      {
+        "label": "再补出是谁造成的",
+        "text": "by a visitor",
+        "explanation": "用 by 引出施动者“一位访客”，回答“被谁损坏”的问题，放在动作后面。"
+      },
+      {
+        "label": "最后看时间",
+        "text": "Recently",
+        "explanation": "时间“最近”放在句首，和中文“最近……”语序一致，没有理解障碍。"
+      }
+    ],
+    "takeaway": "中文和英文都可以先说时间，再说“某物被某人怎么样”；英文用 by 专门引出动作的施动者，放在被动动词之后。"
+  },
+  "backbone": {
+    "text": "it was damaged by a visitor",
+    "meaning": "它被一位访客损坏了"
+  },
+  "structureNotes": [
+    {
+      "title": "被动语态与施动者",
+      "text": "was damaged 是被动形式，表示“被损坏”；by a visitor 用来说明损坏的施动者是一位访客，回答“被谁”的问题。"
+    },
+    {
+      "title": "it 的指代",
+      "text": "句首的 it 指代上文中提到的那台乐器，翻译时可根据中文习惯补充为“它”或具体事物。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Recently",
+      "role": "时间状语",
+      "explanation": "说明整件事发生的时间是“最近”。"
+    },
+    {
+      "text": "it",
+      "role": "主语",
+      "explanation": "被动句中承受动作的对象，指代上文提到的乐器。"
+    },
+    {
+      "text": "was damaged",
+      "role": "被动谓语",
+      "explanation": "表示主语it承受“损坏”这个动作，而不是发出这个动作。"
+    },
+    {
+      "text": "by a visitor",
+      "role": "施动者状语",
+      "explanation": "用by引出被动动作的执行者，说明损坏是由一位访客造成的。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Recently",
+      "meaning": "最近，不久前",
+      "pos": "副词",
+      "phonetic": "/ˈriːsntli/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代上文的乐器）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "was",
+      "meaning": "be动词的过去式，与过去分词搭配构成被动语态",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "damaged",
+      "meaning": "损坏（damage的过去分词，与was共同构成被动语态）",
+      "pos": "动词过去分词",
+      "phonetic": "/ˈdæmɪdʒd/"
+    },
+    {
+      "text": "by",
+      "meaning": "被，由（引出施动者）",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个，一位",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "visitor.",
+      "meaning": "访客",
+      "pos": "名词",
+      "phonetic": "/ˈvɪzɪtə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Recently",
+      "meaning": "最近",
+      "relation": "时间"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指乐器）",
+      "relation": "描述谁（被动句中承受动作的对象）"
+    },
+    {
+      "text": "was damaged",
+      "meaning": "被损坏了",
+      "relation": "主干动作"
+    },
+    {
+      "text": "by a visitor.",
+      "meaning": "被一位访客（造成的）",
+      "relation": "补充说明施动者是谁"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-010",
+  "sentenceId": "nce-2-lesson-010-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Recently it was damaged by a visitor.",
+  "lesson": "Lesson 10 Not for jazz",
+  "notes": [
+    {
+      "title": "被动语态与施动者",
+      "text": "was damaged 是被动形式，表示“被损坏”；by a visitor 用来说明损坏的施动者是一位访客，回答“被谁”的问题。"
+    },
+    {
+      "title": "it 的指代",
+      "text": "句首的 it 指代上文中提到的那台乐器，翻译时可根据中文习惯补充为“它”或具体事物。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本正确，存在几处可修正问题：1. 单词visitor的英式音标标注不准确，尾音应为/ə(r)/且需对应尾字母r的发音；2. 单词释义中额外添加了句末标点的说明，不符合仅解释词本身的要求；3. 被动语态谓语拆分不规范，was damaged是完整的被动谓语，不应单独将was标为助动词且damaged的释义表述有误；4. parts中最后一块的meaning未体现句末标点对应的完整句意语气，且结构划分中缺少主语it的结构项。（非逐句人工审核）"
+}

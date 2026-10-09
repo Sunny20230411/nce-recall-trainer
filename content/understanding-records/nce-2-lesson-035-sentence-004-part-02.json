@@ -1,0 +1,196 @@
+{
+  "chinese": "他看见两个小偷从一家商店冲出来，朝一辆等候着的汽车跑去。",
+  "intent": "描述某人亲眼目睹两个小偷连贯的逃跑动作，突出动作的完整过程。",
+  "comparison": {
+    "chinese": "他看见两个小偷［从商店冲出来、朝一辆等在那儿的车跑去］。",
+    "english": "he saw two thieves rush out of a shop and run towards a waiting car.",
+    "steps": [
+      {
+        "label": "先抓主干动作",
+        "text": "he saw two thieves",
+        "explanation": "中文和英文这里顺序一致：先交代“他看见两个小偷”，听者先知道事件的核心是目击。"
+      },
+      {
+        "label": "再接小偷的两个连续动作",
+        "text": "rush out of a shop and run towards a waiting car",
+        "explanation": "英文把两个动作直接放在宾语后面，用原形动词连接，表示看到了动作的全过程；中文会顺着说“冲出来，朝……跑去”，语序逻辑也一致。"
+      }
+    ],
+    "takeaway": "see sb do sth 结构里，do 是宾语发出的完整动作，不是“正在做”的片段；翻译时顺着宾语往后接动作即可，不用额外加“正在”。"
+  },
+  "backbone": {
+    "text": "he saw two thieves rush out and run towards a car.",
+    "meaning": "他看见两个小偷冲出去并朝一辆车跑去（理解用简化表达，保留主干动作）。"
+  },
+  "structureNotes": [
+    {
+      "title": "see 后接不带to的不定式",
+      "text": "saw two thieves rush… and run… 里的rush和run都是原形，说明看到的是动作从头到尾的全过程；如果是rushing/running则侧重看到时动作正在进行。"
+    },
+    {
+      "title": "并列的动作方向短语",
+      "text": "out of a shop 表示“从商店里出来”的出处，towards a waiting car 表示“朝汽车去”的方向，用and连接两个连贯动作，顺序就是动作发生的先后。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "saw two thieves rush out of a shop and run towards a waiting car.",
+      "role": "谓语+宾语+宾语补足语",
+      "explanation": "saw 是谓语动词，two thieves 是saw的宾语，后面的rush… and run… 补充说明小偷发出的动作，整体表达“看见某人做了某事”。"
+    },
+    {
+      "text": "rush out of a shop",
+      "role": "第一个宾语补足语动作",
+      "explanation": "说明小偷的第一个动作：从商店里冲出来，out of 指明动作的出处是商店内部。"
+    },
+    {
+      "text": "run towards a waiting car",
+      "role": "第二个宾语补足语动作",
+      "explanation": "说明小偷的第二个动作：朝一辆等候的汽车跑去，towards 指明动作的方向，waiting 修饰car，表示车正等着。"
+    },
+    {
+      "text": "a waiting car",
+      "role": "名词短语（方向的目标）",
+      "explanation": "waiting 是动名词/现在分词作定语，修饰car，意思是“在等候的、停着等的汽车”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "saw",
+      "meaning": "看见（过去式）",
+      "pos": "动词",
+      "phonetic": "/sɔː/"
+    },
+    {
+      "text": "two",
+      "meaning": "两个",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "thieves",
+      "meaning": "小偷（复数）",
+      "pos": "名词",
+      "phonetic": "/θiːvz/"
+    },
+    {
+      "text": "rush",
+      "meaning": "冲，奔",
+      "pos": "动词",
+      "phonetic": "/rʌʃ/"
+    },
+    {
+      "text": "out",
+      "meaning": "向外",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    },
+    {
+      "text": "of",
+      "meaning": "从……（里面出来）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "a",
+      "meaning": "一家",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "shop",
+      "meaning": "商店",
+      "pos": "名词",
+      "phonetic": "/ʃɒp/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "run",
+      "meaning": "跑",
+      "pos": "动词",
+      "phonetic": "/rʌn/"
+    },
+    {
+      "text": "towards",
+      "meaning": "朝，向",
+      "pos": "介词",
+      "phonetic": "/təˈwɔːdz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一辆",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "waiting",
+      "meaning": "等候着的",
+      "pos": "现在分词作定语",
+      "phonetic": "/ˈweɪtɪŋ/"
+    },
+    {
+      "text": "car.",
+      "meaning": "汽车",
+      "pos": "名词",
+      "phonetic": "/kɑː/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "he saw",
+      "relation": "主语+谓语，交代谁做了什么动作",
+      "meaning": "他看见"
+    },
+    {
+      "text": "two thieves",
+      "relation": "saw的宾语，被看见的人",
+      "meaning": "两个小偷"
+    },
+    {
+      "text": "rush out of a shop",
+      "relation": "补充说明小偷的第一个动作，作宾语补足语",
+      "meaning": "从一家商店冲出来"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列的动作",
+      "meaning": "并且"
+    },
+    {
+      "text": "run towards a waiting car.",
+      "relation": "补充说明小偷的第二个动作，作宾语补足语",
+      "meaning": "朝一辆等候着的汽车跑去"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-035",
+  "sentenceId": "nce-2-lesson-035-sentence-004-part-02",
+  "sentenceOrder": 5,
+  "english": "he saw two thieves rush out of a shop and run towards a waiting car.",
+  "lesson": "Lesson 35 Stop thief!",
+  "notes": [
+    {
+      "title": "see 后接不带to的不定式",
+      "text": "saw two thieves rush… and run… 里的rush和run都是原形，说明看到的是动作从头到尾的全过程；如果是rushing/running则侧重看到时动作正在进行。"
+    },
+    {
+      "title": "并列的动作方向短语",
+      "text": "out of a shop 表示“从商店里出来”的出处，towards a waiting car 表示“朝汽车去”的方向，用and连接两个连贯动作，顺序就是动作发生的先后。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：仅存在少量需修正的细节：words中car.的释义不应附带句号说明，waiting的词性标注需统一为现在分词作定语而非形容词；整体内容准确覆盖原文，逻辑清晰。（非逐句人工审核）"
+}

@@ -1,0 +1,174 @@
+{
+  "chinese": "美餐一顿之后，他们在营火旁讲故事、唱歌。",
+  "intent": "描述一群人在吃完一顿美餐后，在营火边进行的两项休闲活动。",
+  "comparison": null,
+  "backbone": {
+    "text": "they told stories and sang songs",
+    "meaning": "他们讲故事，还唱歌"
+  },
+  "structureNotes": [
+    {
+      "title": "句首的时间提示",
+      "text": "After a wonderful meal 放在句首，明确说明后面两个动作发生的时间点，是在吃完饭之后。"
+    },
+    {
+      "title": "地点的位置",
+      "text": "by the camp fire 放在两个并列动作的末尾，交代做这些事的地点，在营火旁边。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "After a wonderful meal,",
+      "role": "时间状语",
+      "explanation": "说明后面讲述的活动发生在一顿美餐结束之后。"
+    },
+    {
+      "text": "told stories and sang songs",
+      "role": "并列谓语",
+      "explanation": "由 and 连接两个动作，都是主语 they 同时或先后做的事。"
+    },
+    {
+      "text": "by the camp fire.",
+      "role": "地点状语",
+      "explanation": "说明讲故事和唱歌的地点是在营火旁边。"
+    }
+  ],
+  "words": [
+    {
+      "text": "After",
+      "meaning": "在……之后",
+      "pos": "介词",
+      "phonetic": "/ˈɑːftə/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（顿）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "wonderful",
+      "meaning": "美妙的，很棒的",
+      "pos": "形容词",
+      "phonetic": "/ˈwʌndəfl/"
+    },
+    {
+      "text": "meal,",
+      "meaning": "一餐，一顿饭",
+      "pos": "名词",
+      "phonetic": "/miːl/"
+    },
+    {
+      "text": "they",
+      "meaning": "他们",
+      "pos": "人称代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "told",
+      "meaning": "讲述，说",
+      "pos": "动词",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "stories",
+      "meaning": "故事",
+      "pos": "名词",
+      "phonetic": "/ˈstɔːriz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "sang",
+      "meaning": "唱（歌）",
+      "pos": "动词",
+      "phonetic": "/sæŋ/"
+    },
+    {
+      "text": "songs",
+      "meaning": "歌曲",
+      "pos": "名词",
+      "phonetic": "/sɒŋz/"
+    },
+    {
+      "text": "by",
+      "meaning": "在……旁边",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "camp",
+      "meaning": "营地，野营（此处作定语修饰fire）",
+      "pos": "名词",
+      "phonetic": "/kæmp/"
+    },
+    {
+      "text": "fire.",
+      "meaning": "火，炉火",
+      "pos": "名词",
+      "phonetic": "/ˈfaɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "After a wonderful meal,",
+      "relation": "时间",
+      "meaning": "在一顿美餐之后"
+    },
+    {
+      "text": "they",
+      "relation": "动作发出者",
+      "meaning": "他们"
+    },
+    {
+      "text": "told stories",
+      "relation": "第一个动作",
+      "meaning": "讲故事"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个动作",
+      "meaning": "和，并且"
+    },
+    {
+      "text": "sang songs",
+      "relation": "第二个动作",
+      "meaning": "唱歌"
+    },
+    {
+      "text": "by the camp fire.",
+      "relation": "地点",
+      "meaning": "在营火旁"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-027",
+  "sentenceId": "nce-2-lesson-027-sentence-004",
+  "sentenceOrder": 5,
+  "english": "After a wonderful meal, they told stories and sang songs by the camp fire.",
+  "lesson": "Lesson 27 A wet night",
+  "notes": [
+    {
+      "title": "句首的时间提示",
+      "text": "After a wonderful meal 放在句首，明确说明后面两个动作发生的时间点，是在吃完饭之后。"
+    },
+    {
+      "title": "地点的位置",
+      "text": "by the camp fire 放在两个并列动作的末尾，交代做这些事的地点，在营火旁边。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅words中meal和fire词项标点随词，需移除meaning里的多余标点关联，同时camp作定语仍为名词，释义补充营火的构词说明即可。（非逐句人工审核）"
+}

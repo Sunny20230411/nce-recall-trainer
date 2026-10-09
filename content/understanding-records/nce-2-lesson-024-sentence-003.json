@@ -1,0 +1,180 @@
+{
+  "chinese": "“我把钱落在房间里了，”我说，“可现在它不在那儿了。”",
+  "intent": "讲述自己把钱落在房间、现在钱不见了的情况，向对方说明遭遇。",
+  "comparison": {
+    "chinese": "中文会把说话人“我说”放在引语最前面或最后面，中间一般不打断；英文常把“I said”插在两段引语中间，分开前后两句相关的话。",
+    "english": "‘I left the money in my room,’ I said, ‘and it's not there now.’",
+    "steps": [
+      {
+        "label": "先读前半段引语",
+        "text": "‘I left the money in my room,’",
+        "explanation": "这是说话内容的第一部分，交代之前做了什么：把钱留在了房间里。"
+      },
+      {
+        "label": "再看中间的提示",
+        "text": "I said,",
+        "explanation": "指明这句话是谁说的，插在两句引语中间，不影响引语本身的意思连贯。"
+      },
+      {
+        "label": "接回后半段引语",
+        "text": "‘and it's not there now.’",
+        "explanation": "用and承接前半句，补充现在的结果：钱现在不在那儿了，前后是同一段话的连续内容。"
+      }
+    ],
+    "takeaway": "英文对话里“某人说”可以插在引语中间，前后引号里的内容仍是连续的同一段话，阅读时要把两段引语连起来理解。"
+  },
+  "backbone": {
+    "text": "I said (that) I left the money in my room and it's not there now.",
+    "meaning": "我说我把钱落在房间里了，现在钱不在那儿了。（为理解还原成连贯的间接叙述，原句是直接引语的插入形式）"
+  },
+  "structureNotes": [
+    {
+      "title": "插入式引语的结构",
+      "text": "原句把直接引语拆成前后两段，中间插入“I said,”；前后引号内的内容由and连接，是并列的两个分句，整体是同一句说话内容。"
+    },
+    {
+      "title": "and的承接作用",
+      "text": "and连接前后两个事实：之前把钱留在房间，现在钱不在了；暗含前后对比和因果关联，引出“钱不见了”的核心情况。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘I left the money in my room,’",
+      "role": "直接引语（前半部分）",
+      "explanation": "说话内容的第一分句，陈述过去发生的动作：把钱留在房间里。"
+    },
+    {
+      "text": "I said,",
+      "role": "主句（说话提示语）",
+      "explanation": "交代说话人是“我”，插在两段引语中间，表明前后引号内都是“我”说的话。"
+    },
+    {
+      "text": "‘and it's not there now.’",
+      "role": "直接引语（后半部分）",
+      "explanation": "说话内容的第二分句，用and承接前半句，陈述现在的状态：钱现在不在那儿了。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘I",
+      "meaning": "（引语开头）我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "left",
+      "meaning": "把（某物）留在（某处）",
+      "pos": "动词（leave的过去式）",
+      "phonetic": "/left/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（指双方知道的那笔钱）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "money",
+      "meaning": "钱",
+      "pos": "名词",
+      "phonetic": "/ˈmʌni/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "room,’",
+      "meaning": "房间，（引语前半段结束）",
+      "pos": "名词",
+      "phonetic": "/ruːm/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "said,",
+      "meaning": "说，（后接逗号）",
+      "pos": "动词（say的过去式）",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "‘and",
+      "meaning": "（引语后半段开头）和，而且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "it's",
+      "meaning": "它是（it is的缩写）",
+      "pos": "“it（代词）+ is（be动词）”的缩写形式",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "not",
+      "meaning": "不（构成否定）",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "there",
+      "meaning": "在那里，往那里",
+      "pos": "副词",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "now.’",
+      "meaning": "现在，（引语结束）",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘I left the money in my room,’",
+      "relation": "所说的前半句话，交代过去的动作",
+      "meaning": "“我把钱落在我的房间里，”"
+    },
+    {
+      "text": "I said,",
+      "relation": "提示说话人，插入在两段引语之间",
+      "meaning": "我说，"
+    },
+    {
+      "text": "‘and it's not there now.’",
+      "relation": "所说的后半句话，承接前半句说明现在的结果",
+      "meaning": "“而且现在它不在那儿了。”"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-024",
+  "sentenceId": "nce-2-lesson-024-sentence-003",
+  "sentenceOrder": 3,
+  "english": "‘I left the money in my room,’ I said, ‘and it's not there now.’",
+  "lesson": "Lesson 24 It could be worse",
+  "notes": [
+    {
+      "title": "插入式引语的结构",
+      "text": "原句把直接引语拆成前后两段，中间插入“I said,”；前后引号内的内容由and连接，是并列的两个分句，整体是同一句说话内容。"
+    },
+    {
+      "title": "and的承接作用",
+      "text": "and连接前后两个事实：之前把钱留在房间，现在钱不在了；暗含前后对比和因果关联，引出“钱不见了”的核心情况。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅词项词性存在小问题：it's的词性标注把代词和be动词合并不符合词性分离要求，需修正。（非逐句人工审核）"
+}

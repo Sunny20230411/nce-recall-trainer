@@ -1,0 +1,185 @@
+{
+  "chinese": "我先把黄油和糖混合，接着加入面粉和牛奶，最后加了一个鸡蛋。",
+  "intent": "按先后顺序描述制作饼干时依次加入原料的三个操作步骤。",
+  "comparison": null,
+  "backbone": {
+    "text": "I mixed butter and sugar, then added flour and milk and finally an egg.",
+    "meaning": "我混合了黄油和糖，接着加了面粉、牛奶，最后加了一个鸡蛋。"
+  },
+  "structureNotes": [
+    {
+      "title": "连贯动作的时间顺序标记",
+      "text": "句中用 first、then、finally 三个词明确标出三个动作的先后顺序，后两个动作省略了重复的主语 I，读者自然能理解是同一个人连续操作。"
+    },
+    {
+      "title": "并列宾语的连接方式",
+      "text": "added 后面带了两个并列宾语：flour and milk、an egg，前者是两种放在一起添加的原料，后者前加 finally 强调是最后一项原料，读起来层次很清楚。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "first,",
+      "role": "时间顺序副词（第一步标记）",
+      "explanation": "说明 mixed butter and sugar 是整个操作序列里的第一个步骤。"
+    },
+    {
+      "text": "then",
+      "role": "时间顺序副词（第二步标记）",
+      "explanation": "引出 added flour and milk 这个紧接在后的第二步动作。"
+    },
+    {
+      "text": "finally",
+      "role": "时间顺序副词（最后一步标记）",
+      "explanation": "修饰省略的动词 added，说明加鸡蛋是加料顺序里的最后一步。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "mixed",
+      "meaning": "混合（过去式）",
+      "pos": "动词",
+      "phonetic": "/mɪkst/"
+    },
+    {
+      "text": "butter",
+      "meaning": "黄油",
+      "pos": "名词",
+      "phonetic": "/ˈbʌtə(r)/"
+    },
+    {
+      "text": "and",
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "sugar",
+      "meaning": "食糖，糖",
+      "pos": "名词",
+      "phonetic": "/ˈʃʊɡə(r)/"
+    },
+    {
+      "text": "first,",
+      "meaning": "首先，第一",
+      "pos": "副词",
+      "phonetic": "/fɜːst/"
+    },
+    {
+      "text": "then",
+      "meaning": "然后，接着",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    },
+    {
+      "text": "added",
+      "meaning": "加入，添加（过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈædɪd/"
+    },
+    {
+      "text": "flour",
+      "meaning": "面粉",
+      "pos": "名词",
+      "phonetic": "/ˈflaʊə(r)/"
+    },
+    {
+      "text": "and",
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "milk",
+      "meaning": "牛奶",
+      "pos": "名词",
+      "phonetic": "/mɪlk/"
+    },
+    {
+      "text": "and",
+      "meaning": "然后，接着",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "finally",
+      "meaning": "最后，终于",
+      "pos": "副词",
+      "phonetic": "/ˈfaɪnəli/"
+    },
+    {
+      "text": "an",
+      "meaning": "一个（后接元音开头的词）",
+      "pos": "冠词",
+      "phonetic": "/æn/"
+    },
+    {
+      "text": "egg.",
+      "meaning": "鸡蛋",
+      "pos": "名词",
+      "phonetic": "/eɡ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I mixed",
+      "meaning": "我混合了",
+      "relation": "主语+第一个动作"
+    },
+    {
+      "text": "butter and sugar",
+      "meaning": "黄油和糖",
+      "relation": "混合的对象"
+    },
+    {
+      "text": "first,",
+      "meaning": "首先",
+      "relation": "说明第一步的时间顺序"
+    },
+    {
+      "text": "then added",
+      "meaning": "然后加入",
+      "relation": "引出第二个动作及顺序"
+    },
+    {
+      "text": "flour and milk",
+      "meaning": "面粉和牛奶",
+      "relation": "加入的前两样原料"
+    },
+    {
+      "text": "and finally",
+      "meaning": "最后",
+      "relation": "连接最后一步并说明顺序"
+    },
+    {
+      "text": "an egg.",
+      "meaning": "一个鸡蛋",
+      "relation": "最后加入的原料"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-004",
+  "sentenceOrder": 4,
+  "english": "I mixed butter and sugar first, then added flour and milk and finally an egg.",
+  "lesson": "Lesson 54 Sticky fingers",
+  "notes": [
+    {
+      "title": "连贯动作的时间顺序标记",
+      "text": "句中用 first、then、finally 三个词明确标出三个动作的先后顺序，后两个动作省略了重复的主语 I，读者自然能理解是同一个人连续操作。"
+    },
+    {
+      "title": "并列宾语的连接方式",
+      "text": "added 后面带了两个并列宾语：flour and milk、an egg，前者是两种放在一起添加的原料，后者前加 finally 强调是最后一项原料，读起来层次很清楚。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：存在词义误注、并列宾语数与角色表述不准确、短语语义不通顺的问题，修正后可使用。（非逐句人工审核）"
+}

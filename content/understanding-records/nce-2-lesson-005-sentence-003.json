@@ -1,0 +1,139 @@
+{
+  "chinese": "平赫斯特离席伯里只有五英里，但是先生……",
+  "intent": "说明平赫斯特与席伯里两地的距离很近，并用but引出转折内容（当前句子不完整，仅到Mr.就中断）。",
+  "comparison": null,
+  "backbone": {
+    "text": "Pinhurst is five miles from Silbury, but Mr.",
+    "meaning": "平赫斯特距离席伯里五英里，但是先生……（句子不完整，转折后内容缺失）"
+  },
+  "structureNotes": [
+    {
+      "title": "句子完整性说明",
+      "text": "当前给定的英文是半截句，到Mr.就中断了，but后面本该接完整的转折分句，这里只出现了对男子的尊称开头，没有后续内容，无法分析完整的转折逻辑。"
+    },
+    {
+      "title": "距离表达的结构",
+      "text": "表示A地离B地有多远，可以用“A is + 距离 + from B”的结构，这里five miles是具体距离，from Silbury点明参照的地点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Pinhurst",
+      "role": "前一分句主语",
+      "explanation": "指平赫斯特这个地点，是前半句描述距离的主体。"
+    },
+    {
+      "text": "is only five miles from Silbury,",
+      "role": "前一分句谓语部分",
+      "explanation": "说明主语Pinhurst的位置距离情况，only用来强调距离很近。"
+    },
+    {
+      "text": "but",
+      "role": "并列连词",
+      "explanation": "用于引出转折关系的后半句，表明前后内容存在反差。"
+    },
+    {
+      "text": "Mr.",
+      "role": "转折分句主语的称呼部分",
+      "explanation": "是对男性的尊称，后面本该接姓氏和完整分句，当前句子在此中断。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Pinhurst",
+      "meaning": "平赫斯特（地名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈpɪnhɜːst/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（be动词第三人称单数现在时）",
+      "pos": "动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "only",
+      "meaning": "只有，仅仅",
+      "pos": "副词",
+      "phonetic": "/ˈəʊnli/"
+    },
+    {
+      "text": "five",
+      "meaning": "五（个）",
+      "pos": "数词",
+      "phonetic": "/faɪv/"
+    },
+    {
+      "text": "miles",
+      "meaning": "英里（复数形式）",
+      "pos": "名词",
+      "phonetic": "/maɪlz/"
+    },
+    {
+      "text": "from",
+      "meaning": "离，从",
+      "pos": "介词",
+      "phonetic": "/frɒm/"
+    },
+    {
+      "text": "Silbury,",
+      "meaning": "席伯里（地名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈsɪlbəri/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生（称呼缩写，句尾未完）",
+      "pos": "名词（缩写）",
+      "phonetic": "/ˈmɪstə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Pinhurst",
+      "relation": "描述的地点主体",
+      "meaning": "平赫斯特"
+    },
+    {
+      "text": "is only five miles from Silbury,",
+      "relation": "说明主体的距离情况",
+      "meaning": "离席伯里只有五英里，"
+    },
+    {
+      "text": "but",
+      "relation": "引出转折关系",
+      "meaning": "但是"
+    },
+    {
+      "text": "Mr.",
+      "relation": "转折内容里的称呼开头，句子在此中断",
+      "meaning": "先生"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-005",
+  "sentenceId": "nce-2-lesson-005-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Pinhurst is only five miles from Silbury, but Mr.",
+  "lesson": "Lesson 5 No wrong numbers",
+  "notes": [
+    {
+      "title": "句子完整性说明",
+      "text": "当前给定的英文是半截句，到Mr.就中断了，but后面本该接完整的转折分句，这里只出现了对男子的尊称开头，没有后续内容，无法分析完整的转折逻辑。"
+    },
+    {
+      "title": "距离表达的结构",
+      "text": "表示A地离B地有多远，可以用“A is + 距离 + from B”的结构，这里five miles是具体距离，from Silbury点明参照的地点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，但存在一处需修正的问题：单词列表中第7项Silbury,的释义错误添加了“带逗号”的说明，不符合「音标和释义仅解释词本身，标点随词项为约定、不额外说明」的要求；其余内容符合规范，句子不完整的说明、距离结构的讲解、各成分的划分均正确。（非逐句人工审核）"
+}

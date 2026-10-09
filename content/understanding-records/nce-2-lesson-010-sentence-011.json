@@ -1,0 +1,133 @@
+{
+  "chinese": "现在不允许我们碰它。",
+  "intent": "说明当前的规定：我们被禁止触碰这件物品。",
+  "comparison": null,
+  "backbone": {
+    "text": "We are not allowed to touch it.",
+    "meaning": "我们不被允许碰它。"
+  },
+  "structureNotes": [
+    {
+      "title": "被动语态的含义",
+      "text": "are not allowed 是被动结构，表示“我们”是被他人（这里指父亲等相关人）禁止做某事，不是我们自己不允许。"
+    },
+    {
+      "title": "不定式的作用",
+      "text": "to touch it 用在 allowed 后面，说明被允许/禁止的具体动作内容。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Now",
+      "role": "时间状语",
+      "explanation": "点明这条规定生效的时间是现在，和过去的情况形成对比。"
+    },
+    {
+      "text": "we",
+      "role": "主语",
+      "explanation": "指说话人加上家人等，是“被禁止触碰”的对象。"
+    },
+    {
+      "text": "are not allowed",
+      "role": "被动语态谓语",
+      "explanation": "表示“不被允许”的状态，是否定的被动结构。"
+    },
+    {
+      "text": "to touch it.",
+      "role": "主语补足语（补充说明被允许做的事）",
+      "explanation": "补充说明被禁止的具体动作是触碰它，it指代前文提到的那件物品。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Now",
+      "meaning": "现在",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    },
+    {
+      "text": "we",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "are",
+      "meaning": "（助动词，与过去分词连用构成被动语态）",
+      "pos": "助动词",
+      "phonetic": "/ɑː/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有（表否定）",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "allowed",
+      "meaning": "允许（allow的过去分词，与are构成被动语态）",
+      "pos": "动词过去分词",
+      "phonetic": "/əˈlaʊd/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "touch",
+      "meaning": "触摸，碰",
+      "pos": "动词",
+      "phonetic": "/tʌtʃ/"
+    },
+    {
+      "text": "it.",
+      "meaning": "它（指代前文的物品）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Now",
+      "relation": "时间",
+      "meaning": "现在"
+    },
+    {
+      "text": "we",
+      "relation": "描述谁",
+      "meaning": "我们"
+    },
+    {
+      "text": "are not allowed",
+      "relation": "主干动作（状态）",
+      "meaning": "不被允许"
+    },
+    {
+      "text": "to touch it.",
+      "relation": "补充被禁止的具体行为",
+      "meaning": "碰它"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-010",
+  "sentenceId": "nce-2-lesson-010-sentence-011",
+  "sentenceOrder": 11,
+  "english": "Now we are not allowed to touch it.",
+  "lesson": "Lesson 10 Not for jazz",
+  "notes": [
+    {
+      "title": "被动语态的含义",
+      "text": "are not allowed 是被动结构，表示“我们”是被他人（这里指父亲等相关人）禁止做某事，不是我们自己不允许。"
+    },
+    {
+      "title": "不定式的作用",
+      "text": "to touch it 用在 allowed 后面，说明被允许/禁止的具体动作内容。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析正确，需修正两处细节：1. 单词are的释义未体现否定语境下的功能，且音标应补充英式弱读常见形式的说明？不，实际是allowed的释义表述稍欠准确，且are作为被动语态的助动词，释义应明确是与过去分词构成被动；另外words中it.的标点随词是约定，无需修改，但需检查：实际问题是structures里to touch it的角色是主语补足语，表述正确；但words中are的释义仅说“构成被动和进行时”，本句是构成被动语态，可更精准；另外allowed的释义“被允许的”是形容词性表述，但其词性是动词过去分词，释义应贴合词性，改为“允许（allow的过去分词，与are构成被动语态）”更准确？不对，再仔细核对：原解析核心正确，仅需微调单词释义的准确性，以及确认无其他错误。哦，还有：原chinese翻译“现在不允许我们碰它”符合中文表达习惯，是正确的。backbone正确。structureNotes正确。structures正确。parts正确。主要问题是words中are的释义不够精准，以及allowed的释义表述可优化。另外，音标都是英式，正确。（非逐句人工审核）"
+}

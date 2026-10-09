@@ -1,0 +1,91 @@
+{
+  "chinese": "蒂姆是一名工程师。",
+  "intent": "说明蒂姆的职业身份。",
+  "comparison": null,
+  "backbone": {
+    "text": "Tim is an engineer.",
+    "meaning": "蒂姆的职业是工程师。"
+  },
+  "structureNotes": [
+    {
+      "title": "职业介绍的基本句式",
+      "text": "这是典型的主系表结构，用 be 动词连接人名和职业名词，直接说明某人的身份；engineer是可数名词单数且以元音音素开头，所以前面的不定冠词用an不用a。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Tim",
+      "role": "主语",
+      "explanation": "句子描述的对象，指名叫蒂姆的人。"
+    },
+    {
+      "text": "is",
+      "role": "系动词",
+      "explanation": "起连接作用，表明主语和后面身份的等同关系。"
+    },
+    {
+      "text": "an engineer.",
+      "role": "表语",
+      "explanation": "说明主语的职业身份，an 是不定冠词表泛指“一名”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Tim",
+      "meaning": "蒂姆（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/tɪm/"
+    },
+    {
+      "text": "is",
+      "meaning": "是（第三人称单数现在时）",
+      "pos": "be动词",
+      "phonetic": "/ɪz/"
+    },
+    {
+      "text": "an",
+      "meaning": "一名（用于元音音素开头的可数名词单数前）",
+      "pos": "不定冠词",
+      "phonetic": "/ən/"
+    },
+    {
+      "text": "engineer.",
+      "meaning": "工程师",
+      "pos": "名词",
+      "phonetic": "/ˌendʒɪˈnɪə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Tim",
+      "relation": "描述对象",
+      "meaning": "蒂姆"
+    },
+    {
+      "text": "is",
+      "relation": "连接主语和身份",
+      "meaning": "是"
+    },
+    {
+      "text": "an engineer.",
+      "relation": "说明职业身份",
+      "meaning": "一名工程师"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-004",
+  "sentenceId": "nce-2-lesson-004-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Tim is an engineer.",
+  "lesson": "Lesson 4 An exciting trip",
+  "notes": [
+    {
+      "title": "职业介绍的基本句式",
+      "text": "这是典型的主系表结构，用 be 动词连接人名和职业名词，直接说明某人的身份；engineer是可数名词单数且以元音音素开头，所以前面的不定冠词用an不用a。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅存在两处可修正问题：1. 单词engineer的音标为美式标注，需统一为符合要求的英式音标；2. structureNotes和notes中的表述存在歧义，未明确说明an用在元音音素开头的可数名词单数前，易被误解为所有元音音素开头的单词前都用an。（非逐句人工审核）"
+}

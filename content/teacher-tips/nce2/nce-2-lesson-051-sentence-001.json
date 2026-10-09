@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-051",
+  "sentenceId": "nce-2-lesson-051-sentence-001",
+  "english": "My friend, Hugh, has always been fat, but things got so bad recently that he decided to go on a diet.",
+  "text": "这里 go on a diet 是“开始节食”，不是“继续减肥”，中文容易把 go on 理解成“继续”。想表达“正在节食”常用 be on a diet，想表达“开始节食”才用 go on a diet，别只看单个短语直译。",
+  "sourceDigest": "18667d54435f09b6eeb6d18ce6ff334467eb5341362d7f5bd5e83f2281cca3ee",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：点透了中文母语者易误解的go on短语含义，给出了明确的区分和迁移判断，符合标准。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "抓住了中文学习者最容易误解的短语含义，对比清晰，迁移实用。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "chinese": "我起得很早，买了三十七张明信片。",
+  "intent": "叙述过去某一天自己连续做的两个动作：早起和买卡片。",
+  "comparison": null,
+  "backbone": {
+    "text": "I got up early and bought thirty-seven cards.",
+    "meaning": "我早起并且买了三十七张卡片。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列谓语",
+      "text": "and 连接两个过去式的动作 got up 和 bought，主语都是 I，表示过去先后或并列发生的两个行为。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "got up early",
+      "role": "第一个谓语短语",
+      "explanation": "表示过去发生的“起床”动作，early 说明起床的时间早。"
+    },
+    {
+      "text": "bought thirty-seven cards.",
+      "role": "第二个谓语加宾语",
+      "explanation": "表示过去发生的“购买”动作，thirty-seven cards 是购买的对象。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个谓语，说明两个动作都由主语 I 发出，且都发生在过去。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "got",
+      "meaning": "（get的过去式，与up构成短语动词）进入（某种状态）",
+      "pos": "动词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "up",
+      "meaning": "向上，起来",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "early",
+      "meaning": "早地",
+      "pos": "副词",
+      "phonetic": "/ˈɜːli/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "bought",
+      "meaning": "（buy的过去式）买",
+      "pos": "动词",
+      "phonetic": "/bɔːt/"
+    },
+    {
+      "text": "thirty-seven",
+      "meaning": "三十七",
+      "pos": "数词",
+      "phonetic": "/ˌθɜːti ˈsevn/"
+    },
+    {
+      "text": "cards.",
+      "meaning": "卡片（此处指明信片，复数）",
+      "pos": "名词",
+      "phonetic": "/kɑːdz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "got up early",
+      "relation": "第一个过去动作",
+      "meaning": "起得很早"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列动作",
+      "meaning": "并且"
+    },
+    {
+      "text": "bought thirty-seven cards.",
+      "relation": "第二个过去动作及其对象",
+      "meaning": "买了三十七张卡片"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-003",
+  "sentenceId": "nce-2-lesson-003-sentence-010",
+  "sentenceOrder": 10,
+  "english": "I got up early and bought thirty-seven cards.",
+  "lesson": "Lesson 3 Please send me a card",
+  "notes": [
+    {
+      "title": "并列谓语",
+      "text": "and 连接两个过去式的动作 got up 和 bought，主语都是 I，表示过去先后或并列发生的两个行为。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体结构正确，但存在两处可修正的小问题：1. 单词got的释义不准确，got up是短语动词表示“起床”，got此处作为get的过去式，在该短语中核心义为“变得/进入（某种状态）”，原释义“做，进行”不符合语境；2. cards单词项的text末尾带句点，但释义仅解释cards本身，虽为约定但释义中“复数”的标注可保留，不过got的释义需修正以匹配短语语境。（非逐句人工审核）"
+}

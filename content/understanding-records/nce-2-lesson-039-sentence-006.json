@@ -1,0 +1,232 @@
+{
+  "chinese": "他问吉尔伯特先生的手术是否成功，医生告诉他手术是成功的。",
+  "intent": "转述前后连贯的两件事：某人询问手术结果，以及医生给出的肯定答复。",
+  "comparison": {
+    "chinese": "他问吉尔伯特先生的手术是否成功，医生告诉他是成功的。",
+    "english": "He asked if Mr Gilbert's operation had been successful and the doctor told him that it had been.",
+    "steps": [
+      {
+        "label": "第一步：先抓两个并列的主干动作",
+        "text": "He asked... and the doctor told him...",
+        "explanation": "中文也先说“他问……然后医生告诉他……”，这一层和英文语序一致，先明确是两件事用“和/然后”连起来。"
+      },
+      {
+        "label": "第二步：看“问的内容”怎么接",
+        "text": "if Mr Gilbert's operation had been successful",
+        "explanation": "中文把“是否成功”直接放在“手术”后面，说成“手术是否成功”；英文用 if 引出整个问句内容，放在 asked 后面，if 相当于“是否”，不是“如果”。"
+      },
+      {
+        "label": "第三步：看“答复内容”的省略",
+        "text": "that it had been.",
+        "explanation": "中文会说“是成功的”或重复“手术很成功”；英文这里 it 指前面的 operation，had been 后面省略了 successful，因为刚提过不用重复，读者自然能补上。"
+      }
+    ],
+    "takeaway": "这句的重点不是单词，而是两个由 and 连接的转述分句：前一句用 if 带“是否”的疑问内容，后一句用 that 带陈述内容，并且结尾为了避免重复把形容词省掉了。"
+  },
+  "backbone": {
+    "text": "He asked if the operation had been successful and the doctor told him that it had been.",
+    "meaning": "他询问手术是否成功，医生答复他手术成功了。"
+  },
+  "structureNotes": [
+    {
+      "title": "if 在这里表示“是否”，不是条件",
+      "text": "if 紧跟在 asked 后面，用来引出一个一般疑问句的转述内容，意思是“是否”，相当于 whether，不引导条件状语从句。"
+    },
+    {
+      "title": "and 连接两个并列的转述分句",
+      "text": "整句话由 and 连接前后两个独立的主谓结构：前面是“他问……”，后面是“医生告诉他……”，两者是先后发生、并列叙述的两件事。"
+    },
+    {
+      "title": "that 从句末尾的省略",
+      "text": "it had been 后面省略了 successful，因为上文刚提到过 successful，英语习惯避免重复；it 指代前面的 Mr Gilbert's operation。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He asked if Mr Gilbert's operation had been successful",
+      "role": "第一个并列分句（询问）",
+      "explanation": "主语是 He，谓语是 asked，if 引导的从句是 asked 的内容，也就是“问的具体问题”。"
+    },
+    {
+      "text": "if Mr Gilbert's operation had been successful",
+      "role": "宾语从句（疑问内容）",
+      "explanation": "if 表示“是否”，从句用陈述语序；had been successful 是过去完成时，说明“手术成功”这件事发生在 asked 之前。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个并列分句，表示两个动作先后相继、并列叙述。"
+    },
+    {
+      "text": "the doctor told him that it had been.",
+      "role": "第二个并列分句（答复）",
+      "explanation": "主语是 the doctor，谓语是 told，间接宾语是 him，that 引导的从句是直接宾语，也就是“告诉他的内容”。"
+    },
+    {
+      "text": "that it had been.",
+      "role": "宾语从句（答复内容）",
+      "explanation": "that 只起连接作用，本身没有实义；it 指代手术；had been 后省略了 successful，避免重复。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "asked",
+      "meaning": "询问；问",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    },
+    {
+      "text": "if",
+      "meaning": "是否",
+      "pos": "连词",
+      "phonetic": "/ɪf/"
+    },
+    {
+      "text": "Mr",
+      "meaning": "先生",
+      "pos": "名词（尊称）",
+      "phonetic": "/ˈmɪstə(r)/"
+    },
+    {
+      "text": "Gilbert's",
+      "meaning": "吉尔伯特的",
+      "pos": "名词所有格",
+      "phonetic": "/ˈɡɪlbəts/"
+    },
+    {
+      "text": "operation",
+      "meaning": "手术",
+      "pos": "名词",
+      "phonetic": "/ˌɒpəˈreɪʃn/"
+    },
+    {
+      "text": "had",
+      "meaning": "（助动词，构成过去完成时）已经",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "been",
+      "meaning": "（be的过去分词，构成完成时的系表结构）",
+      "pos": "动词（be的过去分词）",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "successful",
+      "meaning": "成功的",
+      "pos": "形容词",
+      "phonetic": "/səkˈsesfl/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；然后；并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这；那（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "doctor",
+      "meaning": "医生",
+      "pos": "名词",
+      "phonetic": "/ˈdɒktə(r)/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉",
+      "pos": "动词",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引出从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代手术）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "had",
+      "meaning": "（助动词，构成过去完成时）已经",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "been.",
+      "meaning": "（be的过去分词，后省略表语successful）",
+      "pos": "动词（be的过去分词）",
+      "phonetic": "/biːn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He asked",
+      "relation": "第一个动作的发出者和动作本身",
+      "meaning": "他询问"
+    },
+    {
+      "text": "if Mr Gilbert's operation had been successful",
+      "relation": "询问的具体内容",
+      "meaning": "吉尔伯特先生的手术是否已经成功"
+    },
+    {
+      "text": "and",
+      "relation": "连接前后两个并列事件",
+      "meaning": "并且/然后"
+    },
+    {
+      "text": "the doctor told him",
+      "relation": "第二个动作的发出者、动作和告知对象",
+      "meaning": "医生告诉他"
+    },
+    {
+      "text": "that it had been.",
+      "relation": "医生告知的具体内容，末尾省略了successful",
+      "meaning": "（手术）是成功的"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-039",
+  "sentenceId": "nce-2-lesson-039-sentence-006",
+  "sentenceOrder": 8,
+  "english": "He asked if Mr Gilbert's operation had been successful and the doctor told him that it had been.",
+  "lesson": "Lesson 39 Am I all right?",
+  "notes": [
+    {
+      "title": "if 在这里表示“是否”，不是条件",
+      "text": "if 紧跟在 asked 后面，用来引出一个一般疑问句的转述内容，意思是“是否”，相当于 whether，不引导条件状语从句。"
+    },
+    {
+      "title": "and 连接两个并列的转述分句",
+      "text": "整句话由 and 连接前后两个独立的主谓结构：前面是“他问……”，后面是“医生告诉他……”，两者是先后发生、并列叙述的两件事。"
+    },
+    {
+      "title": "that 从句末尾的省略",
+      "text": "it had been 后面省略了 successful，因为上文刚提到过 successful，英语习惯避免重复；it 指代前面的 Mr Gilbert's operation。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：翻译和语法解析基本准确，仅需修正asked的英式音标标注，以及明确been在系表结构中的词性归类。（非逐句人工审核）"
+}

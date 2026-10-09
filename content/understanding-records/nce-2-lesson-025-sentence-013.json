@@ -1,0 +1,101 @@
+{
+  "chinese": "“你很快就会学会英语的！”他说。",
+  "intent": "转述某人说的一句鼓励对方学英语的直接引语。",
+  "comparison": null,
+  "backbone": {
+    "text": "he said ‘You'll soon learn English!’",
+    "meaning": "他说了「你很快就能学会英语」这句话。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的倒装语序",
+      "text": "本句把说话人 he said 放在引语后面，属于直接引语的常见位置，不会改变核心意思，依然是“他说某句话”。"
+    },
+    {
+      "title": "You'll 的将来含义",
+      "text": "You'll 是 You will 的缩写，用在这里表示对将来情况的预测，意思是“你会、你将会”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘You'll soon learn English!’",
+      "role": "直接引语（宾语）",
+      "explanation": "这是被引用的原话，是谓语动词 said 的具体内容，整体充当句子的宾语，本身是一个完整的陈述句。"
+    },
+    {
+      "text": "he said.",
+      "role": "主谓结构",
+      "explanation": "he 是主语，指说话人；said 是谓语动词，表示“说”的动作，用来交代引语的出处。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘You'll",
+      "meaning": "你会（You will 的缩写）",
+      "pos": "代词+助动词（缩写形式）",
+      "phonetic": "/juːl/"
+    },
+    {
+      "text": "soon",
+      "meaning": "很快，不久",
+      "pos": "副词",
+      "phonetic": "/suːn/"
+    },
+    {
+      "text": "learn",
+      "meaning": "学习，学会",
+      "pos": "动词",
+      "phonetic": "/lɜːn/"
+    },
+    {
+      "text": "English!’",
+      "meaning": "英语",
+      "pos": "名词",
+      "phonetic": "/ˈɪŋɡlɪʃ/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘You'll soon learn English!’",
+      "relation": "他所说的具体内容",
+      "meaning": "“你很快就会学会英语！”"
+    },
+    {
+      "text": "he said.",
+      "relation": "动作发出者和动作",
+      "meaning": "他说"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-025",
+  "sentenceId": "nce-2-lesson-025-sentence-013",
+  "sentenceOrder": 13,
+  "english": "‘You'll soon learn English!’ he said.",
+  "lesson": "Lesson 25 Do the English speak English?",
+  "notes": [
+    {
+      "title": "直接引语的倒装语序",
+      "text": "本句把说话人 he said 放在引语后面，属于直接引语的常见位置，不会改变核心意思，依然是“他说某句话”。"
+    },
+    {
+      "title": "You'll 的将来含义",
+      "text": "You'll 是 You will 的缩写，用在这里表示对将来情况的预测，意思是“你会、你将会”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析正确，仅需修正两处细节：1. 单词词性标注不够严谨，带前后标点的词项词类应为核心词的词性而非短语组合；2. 结构标注中“主语加谓语”的表述更规范为“主谓结构”，且直接引语的语法角色说明可更准确。（非逐句人工审核）"
+}

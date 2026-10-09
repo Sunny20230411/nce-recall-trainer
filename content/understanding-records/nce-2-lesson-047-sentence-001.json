@@ -1,0 +1,135 @@
+{
+  "chinese": "一所最近被某先生买下的小酒馆（本片段为人名不完整的片段，Mr. 后姓氏未给出）",
+  "intent": "用名词短语介绍某酒馆的收购相关背景，是完整句子的前半段主语部分。",
+  "comparison": {
+    "chinese": "中文会说“一所［最近被某位先生买下的］小酒馆”，把修饰语放在名词前面；遇到不完整的称呼也会保留“某先生”的模糊对应。",
+    "english": "英文先说“A public house”，再用 which 引导的从句接在后面说明这所酒馆的情况；本片段截断在 Mr.，人名尚未完整。",
+    "steps": [
+      {
+        "label": "第一步：先抓核心名词",
+        "text": "A public house",
+        "explanation": "先知道说的是“一所小酒馆（公共酒馆）”，这是整个短语的核心。"
+      },
+      {
+        "label": "第二步：用which补充酒馆的信息",
+        "text": "which was recently bought by Mr.",
+        "explanation": "which 指前面的 public house，接在后面回答“这是一所什么样的酒馆”——是最近被某位先生买下的；注意本片段只到称呼 Mr.，后面的姓氏被截断，并未给出。"
+      }
+    ],
+    "takeaway": "英文修饰名词的长信息常放在名词后面，由 which 这类词连接，读的时候要先找到核心名词，再往后看补充内容；遇到截断的片段要注意信息是否完整。"
+  },
+  "backbone": {
+    "text": "A public house",
+    "meaning": "一所小酒馆（本片段只有核心名词和它的修饰从句，没有完整主句谓语）"
+  },
+  "structureNotes": [
+    {
+      "title": "which 引导的定语从句",
+      "text": "which 指代前面的 a public house，在从句中作主语，用来补充说明这所酒馆的收购背景。"
+    },
+    {
+      "title": "被动语态与动作发出者",
+      "text": "was recently bought by Mr. 是被动结构，by 引出买酒馆的人；因为只是片段，人名 Mr. 后面还没写完。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "A public house",
+      "role": "核心名词短语",
+      "explanation": "整个片段围绕它展开，是后面从句所修饰的对象。"
+    },
+    {
+      "text": "which was recently bought by Mr.",
+      "role": "定语从句（被动）",
+      "explanation": "which 指代 a public house，说明这所酒馆“最近被某位先生买下”；bought 是 buy 的过去分词，和 was 构成被动谓语。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "一（所）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "A"
+    },
+    {
+      "meaning": "公共的，公众的",
+      "pos": "形容词",
+      "phonetic": "/ˈpʌblɪk/",
+      "text": "public"
+    },
+    {
+      "meaning": "房屋，酒馆（与public连用指小酒馆）",
+      "pos": "名词",
+      "phonetic": "/haʊs/",
+      "text": "house"
+    },
+    {
+      "meaning": "……的那个（引导从句，指前面的酒馆）",
+      "pos": "关系代词",
+      "phonetic": "/wɪtʃ/",
+      "text": "which"
+    },
+    {
+      "meaning": "（助动词，构成被动语态）",
+      "pos": "be动词过去式",
+      "phonetic": "/wɒz/",
+      "text": "was"
+    },
+    {
+      "meaning": "最近，不久前",
+      "pos": "副词",
+      "phonetic": "/ˈriːsntli/",
+      "text": "recently"
+    },
+    {
+      "meaning": "买（buy的过去分词）",
+      "pos": "动词过去分词",
+      "phonetic": "/bɔːt/",
+      "text": "bought"
+    },
+    {
+      "meaning": "被，由（引出动作发出者）",
+      "pos": "介词",
+      "phonetic": "/baɪ/",
+      "text": "by"
+    },
+    {
+      "meaning": "先生（称呼，用于男子姓氏前）",
+      "pos": "名词（缩写）",
+      "phonetic": "/ˈmɪstə(r)/",
+      "text": "Mr."
+    }
+  ],
+  "parts": [
+    {
+      "text": "A public house",
+      "meaning": "一所公共酒馆（小酒馆）",
+      "relation": "被描述的核心事物"
+    },
+    {
+      "text": "which was recently bought by Mr.",
+      "meaning": "最近被某先生买下的（本片段称呼不完整，Mr. 后姓氏未给出）",
+      "relation": "补充说明酒馆的收购背景"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-047",
+  "sentenceId": "nce-2-lesson-047-sentence-001",
+  "sentenceOrder": 1,
+  "english": "A public house which was recently bought by Mr.",
+  "lesson": "Lesson 47 A thirsty ghost",
+  "notes": [
+    {
+      "title": "which 引导的定语从句",
+      "text": "which 指代前面的 a public house，在从句中作主语，用来补充说明这所酒馆的收购背景。"
+    },
+    {
+      "title": "被动语态与动作发出者",
+      "text": "was recently bought by Mr. 是被动结构，by 引出买酒馆的人；因为只是片段，人名 Mr. 后面还没写完。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：基本可用，需修正中文翻译对Mr.的不完整译法，以及定语从句解释中“某位先生”的表述与片段实际内容不符的问题，明确本片段仅到Mr.为止、姓氏未给出。（非逐句人工审核）"
+}

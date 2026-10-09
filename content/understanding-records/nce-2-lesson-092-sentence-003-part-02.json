@@ -1,0 +1,154 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-092",
+  "sentenceId": "nce-2-lesson-092-sentence-003-part-02",
+  "sentenceOrder": 8,
+  "english": "'I don't think the windows need cleaning at this time of the night.'",
+  "chinese": "“我看，窗户不需要在夜里这个时候擦吧。”",
+  "lesson": "Lesson 92 Asking for trouble",
+  "intent": "借清洗窗户的说法讥讽深夜攀爬。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "'I don't think",
+      "relation": "判断引入",
+      "meaning": "我不认为"
+    },
+    {
+      "text": "the windows need cleaning",
+      "relation": "判断内容",
+      "meaning": "窗户需要清洗"
+    },
+    {
+      "text": "at this time of the night.'",
+      "relation": "时间限定",
+      "meaning": "在夜里这个时候"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "否定转移",
+      "text": "I don't think 在此自然理解为认为后面的情况并不成立。"
+    },
+    {
+      "title": "主动形式被动含义",
+      "text": "need cleaning 表需要被清洗，等于 need to be cleaned。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "否定转移",
+      "text": "I don't think 在此自然理解为认为后面的情况并不成立。"
+    },
+    {
+      "title": "主动形式被动含义",
+      "text": "need cleaning 表需要被清洗，等于 need to be cleaned。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "说话者。"
+    },
+    {
+      "text": "don't think",
+      "role": "谓语",
+      "explanation": "否定自己的肯定判断。"
+    },
+    {
+      "text": "the windows need cleaning at this time of the night",
+      "role": "宾语从句",
+      "explanation": "省略 that，包含清洗需要与时间限定。"
+    },
+    {
+      "text": "cleaning",
+      "role": "从句宾语",
+      "explanation": "在 need 后表示接受清洗。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "don't",
+      "meaning": "不，含助动词",
+      "pos": "助动词",
+      "phonetic": "/dəʊnt/"
+    },
+    {
+      "text": "think",
+      "meaning": "认为",
+      "pos": "动词",
+      "phonetic": "/θɪŋk/"
+    },
+    {
+      "text": "the",
+      "meaning": "这些",
+      "pos": "冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "windows",
+      "meaning": "窗户",
+      "pos": "名词",
+      "phonetic": "/ˈwɪndəʊz/"
+    },
+    {
+      "text": "need",
+      "meaning": "需要",
+      "pos": "动词",
+      "phonetic": "/niːd/"
+    },
+    {
+      "text": "cleaning",
+      "meaning": "清洗",
+      "pos": "动词",
+      "phonetic": "/ˈkliːnɪŋ/"
+    },
+    {
+      "text": "at",
+      "meaning": "在",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "this",
+      "meaning": "这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "time",
+      "meaning": "时候",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/ 或 /əv/"
+    },
+    {
+      "text": "the",
+      "meaning": "特指夜间",
+      "pos": "冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "night.'",
+      "meaning": "夜晚",
+      "pos": "名词",
+      "phonetic": "/naɪt/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

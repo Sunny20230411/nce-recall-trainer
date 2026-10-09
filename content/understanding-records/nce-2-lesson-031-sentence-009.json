@@ -1,0 +1,158 @@
+{
+  "chinese": "他正依旧笑着，这时门开了，他的妻子走了进来。",
+  "intent": "描述过去某个时刻，一个持续的动作正在进行时，突然接连发生了另外两个动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "He was smiling when the door opened and his wife came in.",
+    "meaning": "他正笑着，这时门开了，他妻子走了进来。"
+  },
+  "structureNotes": [
+    {
+      "title": "when的时间含义",
+      "text": "这里when不单纯表示“当……的时候”，而是引出一个突然插入的新动作，前面的主句用过去进行时表示动作正在持续，when引导的分句用一般过去时表示此刻发生的新事件。"
+    },
+    {
+      "title": "并列的时间触发动作",
+      "text": "the door opened和his wife came in由and连接，是先后或同时发生的两个短动作，共同作为打断前面微笑状态的触发事件。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He was still smiling",
+      "role": "主句（过去进行时）",
+      "explanation": "表示过去某一时刻正在持续的状态或动作，still强调微笑的状态在当时仍然保持着。"
+    },
+    {
+      "text": "when the door opened and his wife came in.",
+      "role": "时间状语分句",
+      "explanation": "由when引导，交代主句动作正在进行时出现的新情况；里面包含两个并列的一般过去时动作，说明先后发生的两件事。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，构成进行时）",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "still",
+      "meaning": "仍然，依旧",
+      "pos": "副词",
+      "phonetic": "/stɪl/"
+    },
+    {
+      "text": "smiling",
+      "meaning": "微笑（现在分词形式）",
+      "pos": "动词",
+      "phonetic": "/ˈsmaɪlɪŋ/"
+    },
+    {
+      "text": "when",
+      "meaning": "这时；当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "the",
+      "meaning": "（特指门）这个",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "door",
+      "meaning": "门",
+      "pos": "名词",
+      "phonetic": "/dɔː(r)/"
+    },
+    {
+      "text": "opened",
+      "meaning": "开了（过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈəʊpənd/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "物主限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "wife",
+      "meaning": "妻子",
+      "pos": "名词",
+      "phonetic": "/waɪf/"
+    },
+    {
+      "text": "came",
+      "meaning": "来（过去式）",
+      "pos": "动词",
+      "phonetic": "/keɪm/"
+    },
+    {
+      "text": "in.",
+      "meaning": "进入；在里面",
+      "pos": "副词",
+      "phonetic": "/ɪn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He was still smiling",
+      "relation": "主句，描述过去正在持续的动作",
+      "meaning": "他仍然在微笑"
+    },
+    {
+      "text": "when",
+      "relation": "时间连接词，引出后续发生的事",
+      "meaning": "这时/当……时"
+    },
+    {
+      "text": "the door opened",
+      "relation": "第一个时间触发动作",
+      "meaning": "门开了"
+    },
+    {
+      "text": "and",
+      "relation": "并列连接，连接两个动作",
+      "meaning": "并且"
+    },
+    {
+      "text": "his wife came in.",
+      "relation": "第二个时间触发动作",
+      "meaning": "他的妻子走了进来"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-031",
+  "sentenceId": "nce-2-lesson-031-sentence-009",
+  "sentenceOrder": 9,
+  "english": "He was still smiling when the door opened and his wife came in.",
+  "lesson": "Lesson 31 Success story",
+  "notes": [
+    {
+      "title": "when的时间含义",
+      "text": "这里when不单纯表示“当……的时候”，而是引出一个突然插入的新动作，前面的主句用过去进行时表示动作正在持续，when引导的分句用一般过去时表示此刻发生的新事件。"
+    },
+    {
+      "title": "并列的时间触发动作",
+      "text": "the door opened和his wife came in由and连接，是先后或同时发生的两个短动作，共同作为打断前面微笑状态的触发事件。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：单词door的音标标注为美式发音，应改为英式发音，其余内容准确合规。（非逐句人工审核）"
+}

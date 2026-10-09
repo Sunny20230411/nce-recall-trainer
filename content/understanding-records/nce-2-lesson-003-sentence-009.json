@@ -1,0 +1,134 @@
+{
+  "chinese": "最后一天我做了一个重大决定。",
+  "intent": "说明在假期最后一天，“我”做出了一项重要决定。",
+  "comparison": null,
+  "backbone": {
+    "text": "I made a big decision.",
+    "meaning": "我做了一个重大决定。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语前置",
+      "text": "句首的“On the last day”是表示时间的介词短语，用来交代整件事发生的时间，放在句首有强调时间的作用。"
+    },
+    {
+      "title": "made a decision的含义",
+      "text": "made a decision 是固定搭配，意思是“做出决定”，这里 made 是 make 的过去式，和 decision 搭配表示“做出”这个动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "On the last day",
+      "role": "时间状语",
+      "explanation": "表示“在最后一天”，说明句子动作发生的时间。"
+    },
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "动作“做决定”的发出者。"
+    },
+    {
+      "text": "made",
+      "role": "谓语动词",
+      "explanation": "是 make 的过去式，意思是“做出”。"
+    },
+    {
+      "text": "a big decision",
+      "role": "宾语",
+      "explanation": "是 made 的对象，指“一个重大的决定”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "On",
+      "meaning": "在（某一天）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（表示特指）这个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "last",
+      "meaning": "最后的",
+      "pos": "形容词",
+      "phonetic": "/lɑːst/"
+    },
+    {
+      "text": "day",
+      "meaning": "天；日子",
+      "pos": "名词",
+      "phonetic": "/deɪ/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "made",
+      "meaning": "做出（make的过去式）",
+      "pos": "动词",
+      "phonetic": "/meɪd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "big",
+      "meaning": "重大的；大的",
+      "pos": "形容词",
+      "phonetic": "/bɪɡ/"
+    },
+    {
+      "text": "decision.",
+      "meaning": "决定",
+      "pos": "名词",
+      "phonetic": "/dɪˈsɪʒn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "On the last day",
+      "meaning": "在最后一天",
+      "relation": "时间状语"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "主语（动作发出者）"
+    },
+    {
+      "text": "made a big decision.",
+      "meaning": "做了一个重大决定",
+      "relation": "谓语+宾语（补充做了什么）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-003",
+  "sentenceId": "nce-2-lesson-003-sentence-009",
+  "sentenceOrder": 9,
+  "english": "On the last day I made a big decision.",
+  "lesson": "Lesson 3 Please send me a card",
+  "notes": [
+    {
+      "title": "时间状语前置",
+      "text": "句首的“On the last day”是表示时间的介词短语，用来交代整件事发生的时间，放在句首有强调时间的作用。"
+    },
+    {
+      "title": "made a decision的含义",
+      "text": "made a decision 是固定搭配，意思是“做出决定”，这里 made 是 make 的过去式，和 decision 搭配表示“做出”这个动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析正确，仅存在两处可修正的小问题：1. words数组中最后一项“decision.”的meaning误带句末标点，需去除；2. parts数组中主语“I”的relation表述“描述谁”不够专业规范，应明确为动作发出者即主语相关的角色说明。（非逐句人工审核）"
+}

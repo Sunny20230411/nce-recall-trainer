@@ -1,0 +1,97 @@
+{
+  "chinese": "我看了看我的手表。",
+  "intent": "陈述过去发生的一个动作：说话者做出了看自己手表的行为。",
+  "comparison": null,
+  "backbone": {
+    "text": "I looked at my watch.",
+    "meaning": "我看了我的手表。"
+  },
+  "structureNotes": [
+    {
+      "title": "look是不及物动词，接宾语需加介词at",
+      "text": "look本身表示“看”这个动作，要说明看的具体对象时，需要搭配介词at，再接被看的事物。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "动作的发出者，指说话人自己。"
+    },
+    {
+      "text": "looked at",
+      "role": "谓语",
+      "explanation": "表示“看……”的动作，looked是look的过去式，说明动作发生在过去；at用来引出看的对象。"
+    },
+    {
+      "text": "my watch.",
+      "role": "宾语",
+      "explanation": "看的对象，my说明手表属于说话人，watch是被看的事物。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "looked",
+      "meaning": "看（过去式）",
+      "pos": "动词",
+      "phonetic": "/lʊkt/"
+    },
+    {
+      "text": "at",
+      "meaning": "（引出看的对象）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "watch.",
+      "meaning": "手表",
+      "pos": "名词",
+      "phonetic": "/wɒtʃ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "looked at",
+      "relation": "描述主语的动作",
+      "meaning": "看……"
+    },
+    {
+      "text": "my watch.",
+      "relation": "动作的对象",
+      "meaning": "我的手表"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-009",
+  "sentenceId": "nce-2-lesson-009-sentence-009",
+  "sentenceOrder": 9,
+  "english": "I looked at my watch.",
+  "lesson": "Lesson 9 A cold welcome",
+  "notes": [
+    {
+      "title": "look是不及物动词，接宾语需加介词at",
+      "text": "look本身表示“看”这个动作，要说明看的具体对象时，需要搭配介词at，再接被看的事物。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文翻译和主干基本正确，仅有词义细节需调整：watch. 的词项释义不应带句末标点，需修正以符合词项解释仅说明词本身的要求；其余内容符合规范。（非逐句人工审核）"
+}

@@ -1,0 +1,243 @@
+{
+  "chinese": "修理自行车曾是他的工作，而且在那段时期他常常一天工作十四个小时。",
+  "intent": "说明弗兰克早年的工作内容和工作时长，描述他过去的工作状态。",
+  "comparison": {
+    "chinese": "他的工作是修理自行车，那时候他每天干14小时",
+    "english": "It was his job to repair bicycles and at that time he used to work fourteen hours a day.",
+    "steps": [
+      {
+        "label": "第一步：先抓前半句真正想说的事",
+        "text": "It was his job to repair bicycles",
+        "explanation": "中文习惯直接说“他的工作是修自行车”，英文先用 It 引出句子，把真正的核心内容“修自行车”用 to repair bicycles 放在后面，避免句首太长显得头重脚轻。"
+      },
+      {
+        "label": "第二步：理解后半句的时间与状态",
+        "text": "at that time he used to work fourteen hours a day",
+        "explanation": "中文会说“那时候他每天工作14小时”，英文用 at that time 点明是过往的那段日子，used to work 强调是过去经常如此、现在已经不是这样的状态。"
+      }
+    ],
+    "takeaway": "英文用 It 作形式主语把真正的主语后置，中文常直接把工作内容放在“是”的后面；used to 专门表达“过去常常、现在不这样”的含义，中文常用“那时候、曾经”来体现这种过去常态。"
+  },
+  "backbone": {
+    "text": "Repairing bicycles was his job, and he used to work long hours then.",
+    "meaning": "修理自行车是他的工作，并且他过去那段时间经常长时间工作。（注：为理解还原形式主语 It 指代的真实内容，以及并列句的两个核心信息）"
+  },
+  "structureNotes": [
+    {
+      "title": "It作形式主语的用法",
+      "text": "句首的 It 没有实际语义，真正的主语是后面的 to repair bicycles。英文这样安排是因为不定式短语较长，放在句首会显得头重脚轻，用 It 占位让句子更平衡。"
+    },
+    {
+      "title": "used to 表达过去常态",
+      "text": "used to work 表示过去经常发生、现在已经不再持续的动作，专门用来回顾过去的习惯或状态，和一般过去时单纯说“做过”不同，带有“过去常常”的意味。"
+    },
+    {
+      "title": "and 连接两个并列分句",
+      "text": "and 前后是两个各自完整的分句，分别讲“工作内容”和“工作时长”，地位平等，共同描述他过去的工作情况。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "形式主语",
+      "explanation": "代词作形式主语，指代后面真正的主语 to repair bicycles，本身没有具体词义，只起句子结构上的占位作用。"
+    },
+    {
+      "text": "was his job",
+      "role": "系表谓语",
+      "explanation": "由be动词was加名词短语his job构成，说明真正主语的属性是“他的工作”。"
+    },
+    {
+      "text": "to repair bicycles",
+      "role": "真正主语",
+      "explanation": "不定式短语作句子真正的主语，说明具体是什么事情是他的工作。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个并列分句，表并列关系，引出关于过去工作的另一个信息。"
+    },
+    {
+      "text": "at that time",
+      "role": "时间状语",
+      "explanation": "介词短语作时间状语，指明后半句描述的情况发生在过去的那段时期。"
+    },
+    {
+      "text": "used to work",
+      "role": "谓语",
+      "explanation": "半情态动词短语used to加实义动词work，表过去常常做某事（现在已不如此）。"
+    },
+    {
+      "text": "fourteen hours a day",
+      "role": "时间状语",
+      "explanation": "表示工作的时长和频率，说明一天工作十四个小时。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（此句作形式主语，无实义）",
+      "pos": "pronoun",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be动词过去式）",
+      "pos": "verb",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "determiner",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "job",
+      "meaning": "工作；职业",
+      "pos": "noun",
+      "phonetic": "/dʒɒb/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "infinitive marker",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "repair",
+      "meaning": "修理；修补",
+      "pos": "verb",
+      "phonetic": "/rɪˈpeə(r)/"
+    },
+    {
+      "text": "bicycles",
+      "meaning": "自行车（复数）",
+      "pos": "noun",
+      "phonetic": "/ˈbaɪsɪklz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；并且",
+      "pos": "conjunction",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（某时间）",
+      "pos": "preposition",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "that",
+      "meaning": "那个",
+      "pos": "determiner",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "time",
+      "meaning": "时间；时期",
+      "pos": "noun",
+      "phonetic": "/taɪm/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "pronoun",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "used",
+      "meaning": "过去常常",
+      "pos": "semi-modal verb",
+      "phonetic": "/juːst/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "infinitive marker",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "work",
+      "meaning": "工作",
+      "pos": "verb",
+      "phonetic": "/wɜːk/"
+    },
+    {
+      "text": "fourteen",
+      "meaning": "十四",
+      "pos": "number",
+      "phonetic": "/ˌfɔːˈtiːn/"
+    },
+    {
+      "text": "hours",
+      "meaning": "小时（复数）",
+      "pos": "noun",
+      "phonetic": "/ˈaʊəz/"
+    },
+    {
+      "text": "a",
+      "meaning": "每一（个）",
+      "pos": "determiner",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "day.",
+      "meaning": "一天；一日",
+      "pos": "noun",
+      "phonetic": "/deɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It was his job to repair bicycles",
+      "relation": "描述过去的工作内容",
+      "meaning": "修理自行车曾是他的工作"
+    },
+    {
+      "text": "and",
+      "relation": "连接前后两个并列的分句",
+      "meaning": "并且"
+    },
+    {
+      "text": "at that time",
+      "relation": "交代后半句的时间背景",
+      "meaning": "在那段时期"
+    },
+    {
+      "text": "he used to work",
+      "relation": "描述他过去的经常性动作",
+      "meaning": "他过去常常工作"
+    },
+    {
+      "text": "fourteen hours a day.",
+      "relation": "补充说明工作的时长与频率",
+      "meaning": "一天十四个小时"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-031",
+  "sentenceId": "nce-2-lesson-031-sentence-003",
+  "sentenceOrder": 3,
+  "english": "It was his job to repair bicycles and at that time he used to work fourteen hours a day.",
+  "lesson": "Lesson 31 Success story",
+  "notes": [
+    {
+      "title": "It作形式主语的用法",
+      "text": "句首的 It 没有实际语义，真正的主语是后面的 to repair bicycles。英文这样安排是因为不定式短语较长，放在句首会显得头重脚轻，用 It 占位让句子更平衡。"
+    },
+    {
+      "title": "used to 表达过去常态",
+      "text": "used to work 表示过去经常发生、现在已经不再持续的动作，专门用来回顾过去的习惯或状态，和一般过去时单纯说“做过”不同，带有“过去常常”的意味。"
+    },
+    {
+      "title": "and 连接两个并列分句",
+      "text": "and 前后是两个各自完整的分句，分别讲“工作内容”和“工作时长”，地位平等，共同描述他过去的工作情况。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需修正used to的词性表述，以及部分词项的英式音标准确性，其他符合要求。（非逐句人工审核）"
+}

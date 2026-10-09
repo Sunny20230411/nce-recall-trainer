@@ -1,0 +1,112 @@
+{
+  "chinese": "我知道轮到我了。",
+  "intent": "陈述说话人在过去某个时刻意识到，自己的轮次已经到来。",
+  "comparison": null,
+  "backbone": {
+    "text": "I knew that my turn had come.",
+    "meaning": "我知道轮到我了。"
+  },
+  "structureNotes": [
+    {
+      "title": "that引导的从句作用",
+      "text": "that my turn had come 放在knew后面，用来回答“知道了什么事”，是整个句子的核心信息内容，that只起连接作用，没有实际词义。"
+    },
+    {
+      "title": "过去完成时的含义",
+      "text": "had come 表示“轮到我”这件事，发生在knew（当时知道）这个过去动作之前，是“已经到来”的状态，不是现在才来。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "表示产生“知道”这个想法的人，也就是说话者本人。"
+    },
+    {
+      "text": "knew",
+      "role": "主句谓语",
+      "explanation": "表达主语在过去的认知状态，意思是“知道、意识到”。"
+    },
+    {
+      "text": "that my turn had come.",
+      "role": "宾语从句",
+      "explanation": "作为knew的内容，说明“知道”的具体是什么事；从句里my turn是主语，had come是从句的谓语，描述轮次的状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "knew",
+      "meaning": "知道（过去式）",
+      "pos": "动词",
+      "phonetic": "/njuː/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "turn",
+      "meaning": "轮次，轮到的机会",
+      "pos": "名词",
+      "phonetic": "/tɜːn/"
+    },
+    {
+      "text": "had",
+      "meaning": "（过去完成时助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "come.",
+      "meaning": "到来（过去分词）",
+      "pos": "动词",
+      "phonetic": "/kʌm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I knew",
+      "relation": "主句主语和动作",
+      "meaning": "我知道"
+    },
+    {
+      "text": "that my turn had come.",
+      "relation": "知道的具体内容",
+      "meaning": "轮到我了"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-015",
+  "sentenceId": "nce-2-lesson-015-sentence-008",
+  "sentenceOrder": 8,
+  "english": "I knew that my turn had come.",
+  "lesson": "Lesson 15 Good news",
+  "notes": [
+    {
+      "title": "that引导的从句作用",
+      "text": "that my turn had come 放在knew后面，用来回答“知道了什么事”，是整个句子的核心信息内容，that只起连接作用，没有实际词义。"
+    },
+    {
+      "title": "过去完成时的含义",
+      "text": "had come 表示“轮到我”这件事，发生在knew（当时知道）这个过去动作之前，是“已经到来”的状态，不是现在才来。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，仅两处细节需修正：1. 单词turn的英式音标原标注为美式发音，需改为英式标准音标；2. 最后一个词项text含句末点号，但释义未对应完整词形的说明问题较小，同时确认音标修正。其余语法分析、结构拆分、翻译均符合要求。（非逐句人工审核）"
+}

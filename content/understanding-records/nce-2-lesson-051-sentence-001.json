@@ -1,0 +1,260 @@
+{
+  "chinese": "我的朋友休一直都很胖，但最近情况变得实在太糟，以至于他决定开始节食。",
+  "intent": "交代朋友休长期偏胖，以及近期体重问题严重到让他决定节食的背景。",
+  "comparison": {
+    "chinese": "我的朋友休一直很胖，可最近情况坏到这种程度，他都决定要节食了。",
+    "english": "My friend, Hugh, has always been fat, but things got so bad recently that he decided to go on a diet.",
+    "steps": [
+      {
+        "label": "先抓前半句的事实",
+        "text": "My friend, Hugh, has always been fat",
+        "explanation": "中文先说「我的朋友休」，再讲「一直很胖」，英文语序一致，Hugh放在两个逗号中间是补充说明朋友是谁。"
+      },
+      {
+        "label": "再看后半句的程度与结果",
+        "text": "things got so bad recently that he decided to go on a diet",
+        "explanation": "中文可以说「情况坏到……的地步，所以他决定节食」，英文用so...that把「程度」和「结果」连起来，that后面接整件事的结果。"
+      }
+    ],
+    "takeaway": "so...that不是简单的“所以”，而是先把程度说足（so bad），再用that引出达到这个程度后产生的结果。"
+  },
+  "backbone": {
+    "text": "My friend has always been fat, but things got so bad that he decided to go on a diet.",
+    "meaning": "我朋友一直很胖，但情况变得很糟，因此他决定节食。"
+  },
+  "structureNotes": [
+    {
+      "title": "插入语Hugh的作用",
+      "text": "Hugh前后用逗号隔开，是对my friend的补充说明，指明这位朋友的名字，去掉后句子主干仍然完整。"
+    },
+    {
+      "title": "so...that引导的结果",
+      "text": "so bad修饰情况糟的程度，that后面的分句说明“糟到什么程度”的具体结果，即他决定节食。"
+    },
+    {
+      "title": "but连接的并列关系",
+      "text": "but前后是两个独立完整的分句，前一句讲长期状况，后一句讲近期新的发展，两句形成转折对比。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My friend, Hugh,",
+      "role": "主语+插入呼名",
+      "explanation": "My friend是句子主语，Hugh是插入的同位语，用逗号隔开，说明朋友的具体姓名。"
+    },
+    {
+      "text": "has always been fat",
+      "role": "谓语（系表结构）",
+      "explanation": "has been是现在完成时的系动词形式，fat是表语，always强调从过去到现在一直如此。"
+    },
+    {
+      "text": "but",
+      "role": "并列连词",
+      "explanation": "连接前后两个分句，表示转折关系，引出与前半部分相对的新情况。"
+    },
+    {
+      "text": "things got so bad recently that he decided to go on a diet.",
+      "role": "并列分句（含结果状语从句）",
+      "explanation": "这是but连接的第二个并列分句，其中things got so bad recently是分句的主句，that引导结果状语从句，说明糟糕程度带来的后续决定。"
+    },
+    {
+      "text": "to go on a diet",
+      "role": "动词decided的宾语",
+      "explanation": "decide后面接带to的不定式，表示决定要做的具体事情，也就是节食。"
+    }
+  ],
+  "words": [
+    {
+      "text": "My",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "friend,",
+      "meaning": "朋友",
+      "pos": "名词",
+      "phonetic": "/frend/"
+    },
+    {
+      "text": "Hugh,",
+      "meaning": "休",
+      "pos": "名词（人名）",
+      "phonetic": "/hjuː/"
+    },
+    {
+      "text": "has",
+      "meaning": "有（助动词，构成完成时，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是，一直",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "been",
+      "meaning": "是（be的过去分词，此处与has连用构成现在完成时）",
+      "pos": "动词",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "fat,",
+      "meaning": "胖的",
+      "pos": "形容词",
+      "phonetic": "/fæt/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "things",
+      "meaning": "情况，情形",
+      "pos": "名词",
+      "phonetic": "/θɪŋz/"
+    },
+    {
+      "text": "got",
+      "meaning": "变得",
+      "pos": "动词",
+      "phonetic": "/ɡɒt/"
+    },
+    {
+      "text": "so",
+      "meaning": "如此，这么",
+      "pos": "副词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "bad",
+      "meaning": "糟糕的",
+      "pos": "形容词",
+      "phonetic": "/bæd/"
+    },
+    {
+      "text": "recently",
+      "meaning": "最近",
+      "pos": "副词",
+      "phonetic": "/ˈriːsntli/"
+    },
+    {
+      "text": "that",
+      "meaning": "以至于",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "decided",
+      "meaning": "决定",
+      "pos": "动词",
+      "phonetic": "/dɪˈsaɪdɪd/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "go",
+      "meaning": "去，进行",
+      "pos": "动词",
+      "phonetic": "/ɡəʊ/"
+    },
+    {
+      "text": "on",
+      "meaning": "（构成短语go on a diet，无单独实义）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "diet.",
+      "meaning": "节食",
+      "pos": "名词",
+      "phonetic": "/ˈdaɪət/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "My friend, Hugh,",
+      "relation": "描述谁（句子主语）",
+      "meaning": "我的朋友休"
+    },
+    {
+      "text": "has always been fat,",
+      "relation": "说明主语的长期状态",
+      "meaning": "一直都很胖"
+    },
+    {
+      "text": "but",
+      "relation": "转折连接",
+      "meaning": "但是"
+    },
+    {
+      "text": "things",
+      "relation": "后半句的主语",
+      "meaning": "情况"
+    },
+    {
+      "text": "got so bad recently",
+      "relation": "说明情况的变化及程度",
+      "meaning": "最近变得如此糟糕"
+    },
+    {
+      "text": "that",
+      "relation": "引出结果",
+      "meaning": "以至于"
+    },
+    {
+      "text": "he decided",
+      "relation": "结果分句的主语和谓语",
+      "meaning": "他决定"
+    },
+    {
+      "text": "to go on a diet.",
+      "relation": "决定的具体内容（宾语）",
+      "meaning": "开始节食"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-051",
+  "sentenceId": "nce-2-lesson-051-sentence-001",
+  "sentenceOrder": 1,
+  "english": "My friend, Hugh, has always been fat, but things got so bad recently that he decided to go on a diet.",
+  "lesson": "Lesson 51 Reward for virtue",
+  "notes": [
+    {
+      "title": "插入语Hugh的作用",
+      "text": "Hugh前后用逗号隔开，是对my friend的补充说明，指明这位朋友的名字，去掉后句子主干仍然完整。"
+    },
+    {
+      "title": "so...that引导的结果",
+      "text": "so bad修饰情况糟的程度，that后面的分句说明“糟到什么程度”的具体结果，即他决定节食。"
+    },
+    {
+      "title": "but连接的并列关系",
+      "text": "but前后是两个独立完整的分句，前一句讲长期状况，后一句讲近期新的发展，两句形成转折对比。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需修正words中个别词条的释义（将附在词后的逗号移至释义外、修正been的时态说明、so的词性说明更准确、on的释义贴合短语），以及structures中一处结构表述的小问题，其余无需改动。（非逐句人工审核）"
+}

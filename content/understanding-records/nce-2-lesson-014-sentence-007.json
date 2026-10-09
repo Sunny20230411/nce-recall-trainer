@@ -1,0 +1,117 @@
+{
+  "chinese": "我们两人在旅途中都没说话。",
+  "intent": "说明旅途中两个人都没有开口说话的状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "Neither of us spoke.",
+    "meaning": "我们俩都没说话。"
+  },
+  "structureNotes": [
+    {
+      "title": "neither of 的范围含义",
+      "text": "neither of 后面接复数的人/物，表示“两者当中都不”，作主语时谓语按单数看待，这里用来限定我们两个人都没做“说话”这个动作。"
+    },
+    {
+      "title": "during 引出时间范围",
+      "text": "during the journey 说明动作发生的时间段是整段旅途当中，不是某一个时间点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Neither of us",
+      "role": "主语",
+      "explanation": "指代“我们两个人”，并否定全部，说明两个主体都没发出后面的动作。"
+    },
+    {
+      "text": "spoke",
+      "role": "谓语",
+      "explanation": "表示“说话”这个动作，用过去式说明是过去发生的事。"
+    },
+    {
+      "text": "during the journey",
+      "role": "时间状语",
+      "explanation": "说明“没说话”这件事发生的时间范围是在旅途期间。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "两者都不",
+      "pos": "代词",
+      "phonetic": "/ˈnaɪðə(r)/",
+      "text": "Neither"
+    },
+    {
+      "meaning": "……当中的（表所属范围）",
+      "pos": "介词",
+      "phonetic": "/əv/",
+      "text": "of"
+    },
+    {
+      "meaning": "我们（宾格）",
+      "pos": "代词",
+      "phonetic": "/ʌs/",
+      "text": "us"
+    },
+    {
+      "meaning": "说话（speak的过去式）",
+      "pos": "动词",
+      "phonetic": "/spəʊk/",
+      "text": "spoke"
+    },
+    {
+      "meaning": "在……期间",
+      "pos": "介词",
+      "phonetic": "/ˈdjʊərɪŋ/",
+      "text": "during"
+    },
+    {
+      "meaning": "这个（特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "旅程，旅途",
+      "pos": "名词",
+      "phonetic": "/ˈdʒɜːni/",
+      "text": "journey."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Neither of us",
+      "meaning": "我们两人都不",
+      "relation": "描述谁（没做动作的主体）"
+    },
+    {
+      "text": "spoke",
+      "meaning": "说话（speak的过去式，此处因主语否定表“没说话”）",
+      "relation": "主语的动作"
+    },
+    {
+      "text": "during the journey.",
+      "meaning": "在旅途期间",
+      "relation": "时间（动作发生的时间段）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-014",
+  "sentenceId": "nce-2-lesson-014-sentence-007",
+  "sentenceOrder": 8,
+  "english": "Neither of us spoke during the journey.",
+  "lesson": "Lesson 14 Do you speak English?",
+  "notes": [
+    {
+      "title": "neither of 的范围含义",
+      "text": "neither of 后面接复数的人/物，表示“两者当中都不”，作主语时谓语按单数看待，这里用来限定我们两个人都没做“说话”这个动作。"
+    },
+    {
+      "title": "during 引出时间范围",
+      "text": "during the journey 说明动作发生的时间段是整段旅途当中，不是某一个时间点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅1处小问题需要修正：words数组中最后一项text保留原句末尾句号是约定俗成的，但释义未对应journey本身的含义（当前释义正确，但需确保phonetic为journey的标准英式音标，经核对无误）；另检查到parts第三项meaning表述准确，spoke的meaning补充了“这里表没说话”符合语境，不过neither作代词的词性标注、neither of作主语时谓语用单数的说明均符合语法。唯一可优化点：backbone的meaning表述简洁准确无需改动，comparison为空符合预期，句子的结构拆分、角色说明均正确，无语法错误。（非逐句人工审核）"
+}

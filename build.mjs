@@ -1,7 +1,7 @@
 import { copyFile, cp, mkdir } from "node:fs/promises";
 import { execFileSync } from "node:child_process";
 
-execFileSync(process.execPath, ['scripts/build-understanding.mjs'], { stdio: 'inherit' });
+execFileSync(process.execPath, ['scripts/build-understanding.mjs', '--require-complete', '--require-teacher-tips', '--require-nce2-teacher-tips'], { stdio: 'inherit' });
 execFileSync(process.execPath, ['scripts/build-british-phonetics.mjs'], { stdio: 'inherit' });
 
 await mkdir("dist", { recursive: true });

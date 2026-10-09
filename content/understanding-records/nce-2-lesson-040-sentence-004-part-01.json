@@ -1,0 +1,147 @@
+{
+  "chinese": "她的眼睛盯着自己的盘子，不一会儿，（为叙述片段，后续接她忙着吃东西的内容）",
+  "intent": "描述她当时的状态：目光紧盯餐盘，并且很快就有后续动作，本句是未完结的叙述片段。",
+  "comparison": null,
+  "backbone": {
+    "text": "Her eyes were fixed on her plate, and in a short time,",
+    "meaning": "她的眼睛盯着盘子，而且很快（后文会接发生的事）。"
+  },
+  "structureNotes": [
+    {
+      "title": "be fixed on 的含义",
+      "text": "were fixed on 字面是“被固定在……上”，实际描述目光紧盯、注意力落在某处的状态，不是真的被物理固定。"
+    },
+    {
+      "title": "and 连接的内容",
+      "text": "这里 and 前是一个完整的状态分句，and 后先给出时间状语 in a short time，真正的后续动作要接下一部分，不能把 and 当成只连接两个介词短语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Her eyes were fixed on her plate",
+      "role": "状态分句",
+      "explanation": "说明“她的眼睛盯着盘子”这个持续的状态，是句子的前半部分主要信息。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "用来连接前面的状态和后面即将发生的动作，表明两件事先后承接。"
+    },
+    {
+      "text": "in a short time,",
+      "role": "时间状语",
+      "explanation": "交代后面动作距离前面状态出现的时间很短，意思是“没过多久、很快”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Her",
+      "meaning": "她的",
+      "pos": "限定词",
+      "phonetic": "/hɜː(r)/"
+    },
+    {
+      "text": "eyes",
+      "meaning": "眼睛",
+      "pos": "名词复数",
+      "phonetic": "/aɪz/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（be动词过去式复数）",
+      "pos": "动词",
+      "phonetic": "/wɜː(r)/"
+    },
+    {
+      "text": "fixed",
+      "meaning": "被固定的；盯住的",
+      "pos": "过去分词",
+      "phonetic": "/fɪkst/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……之上；朝向",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "her",
+      "meaning": "她的",
+      "pos": "限定词",
+      "phonetic": "/hɜː(r)/"
+    },
+    {
+      "text": "plate",
+      "meaning": "盘子",
+      "pos": "名词单数",
+      "phonetic": "/pleɪt/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（一段时间）内",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "short",
+      "meaning": "短的",
+      "pos": "形容词",
+      "phonetic": "/ʃɔːt/"
+    },
+    {
+      "text": "time,",
+      "meaning": "时间，",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Her eyes were fixed on her plate",
+      "relation": "描述的核心状态",
+      "meaning": "她的眼睛盯着她的盘子"
+    },
+    {
+      "text": "and",
+      "relation": "连接前后两部分内容",
+      "meaning": "并且"
+    },
+    {
+      "text": "in a short time,",
+      "relation": "补充后续事情发生的时间",
+      "meaning": "在很短的时间里 / 不一会儿，"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-040",
+  "sentenceId": "nce-2-lesson-040-sentence-004-part-01",
+  "sentenceOrder": 4,
+  "english": "Her eyes were fixed on her plate and in a short time,",
+  "lesson": "Lesson 40 Food and talk",
+  "notes": [
+    {
+      "title": "be fixed on 的含义",
+      "text": "were fixed on 字面是“被固定在……上”，实际描述目光紧盯、注意力落在某处的状态，不是真的被物理固定。"
+    },
+    {
+      "title": "and 连接的内容",
+      "text": "这里 and 前是一个完整的状态分句，and 后先给出时间状语 in a short time，真正的后续动作要接下一部分，不能把 and 当成只连接两个介词短语。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：基本内容准确，仅需修正intent中关于“很快就要做另一件事”的表述偏差（原文片段后已给出she was busy eating的语境，且本片段是已发生叙事的半截，另外chinese翻译需补全与原文一致的片段完整性提示，words中fixed的词性说明可更准确）（非逐句人工审核）"
+}

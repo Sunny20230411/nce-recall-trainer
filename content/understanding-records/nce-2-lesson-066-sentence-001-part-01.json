@@ -1,0 +1,125 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-066",
+  "sentenceId": "nce-2-lesson-066-sentence-001-part-01",
+  "sentenceOrder": 1,
+  "english": "In 1963 a Lancaster bomber crashed on Wallis Island,",
+  "chinese": "1963年，一架兰开斯特轰炸机在瓦利斯岛坠毁，",
+  "lesson": "Lesson 66 Sweet as honey!",
+  "intent": "交代飞机坠毁的时间和地点",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "In 1963",
+      "relation": "时间",
+      "meaning": "1963年"
+    },
+    {
+      "text": "a Lancaster bomber crashed on Wallis Island,",
+      "relation": "事故",
+      "meaning": "一架兰开斯特轰炸机在瓦利斯岛坠毁"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "名词语境",
+      "text": "bomber 在此指飞机。"
+    },
+    {
+      "title": "片段边界",
+      "text": "后续片段继续说明岛屿位置。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "名词语境",
+      "text": "bomber 在此指飞机。"
+    },
+    {
+      "title": "片段边界",
+      "text": "后续片段继续说明岛屿位置。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "In 1963",
+      "role": "时间状语",
+      "explanation": "交代事故年份。"
+    },
+    {
+      "text": "a Lancaster bomber",
+      "role": "主语",
+      "explanation": "坠毁的飞机。"
+    },
+    {
+      "text": "crashed",
+      "role": "谓语",
+      "explanation": "说明坠毁。"
+    },
+    {
+      "text": "on Wallis Island,",
+      "role": "地点状语",
+      "explanation": "说明坠毁所在地。"
+    }
+  ],
+  "words": [
+    {
+      "text": "In",
+      "meaning": "在",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "1963",
+      "meaning": "一九六三年",
+      "pos": "数词",
+      "phonetic": "/ˌnaɪnˈtiːn ˈsɪksti θriː/"
+    },
+    {
+      "text": "a",
+      "meaning": "一架",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "Lancaster",
+      "meaning": "兰开斯特；机型",
+      "pos": "专有名词",
+      "phonetic": "/ˈlæŋkəstə/"
+    },
+    {
+      "text": "bomber",
+      "meaning": "轰炸机",
+      "pos": "名词",
+      "phonetic": "/ˈbɒmə(r)/"
+    },
+    {
+      "text": "crashed",
+      "meaning": "坠毁",
+      "pos": "动词",
+      "phonetic": "/kræʃt/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……岛上",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "Wallis",
+      "meaning": "瓦利斯",
+      "pos": "专有名词",
+      "phonetic": "/ˈwɒlɪs/"
+    },
+    {
+      "text": "Island,",
+      "meaning": "岛",
+      "pos": "专有名词",
+      "phonetic": "/ˈaɪlənd/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

@@ -1,0 +1,95 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-057",
+  "sentenceId": "nce-2-lesson-057-sentence-010",
+  "sentenceOrder": 10,
+  "english": "I want a dress from the window.’",
+  "chinese": "我要一条橱窗里的裙子。’",
+  "lesson": "Lesson 57 Can I help you, madam?",
+  "intent": "要求店员再次去橱窗取裙子",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "I want a dress",
+      "relation": "提出需求",
+      "meaning": "我要一条裙子"
+    },
+    {
+      "text": "from the window.’",
+      "relation": "指定来源",
+      "meaning": "从橱窗里取的"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "来源而非外部",
+      "text": "from 引出所需衣服取出的地点，window 指橱窗。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "来源而非外部",
+      "text": "from 引出所需衣服取出的地点，window 指橱窗。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I want a dress",
+      "role": "主语、谓语和宾语",
+      "explanation": "want 表想要某物。"
+    },
+    {
+      "text": "from the window.’",
+      "role": "后置定语",
+      "explanation": "修饰 dress，指定要从哪里取来。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要",
+      "pos": "及物动词",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一条",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "dress",
+      "meaning": "连衣裙",
+      "pos": "名词",
+      "phonetic": "/dres/"
+    },
+    {
+      "text": "from",
+      "meaning": "来自",
+      "pos": "介词",
+      "phonetic": "/frəm/ 或 /frɒm/"
+    },
+    {
+      "text": "the",
+      "meaning": "特指该橱窗",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "window.’",
+      "meaning": "橱窗",
+      "pos": "名词",
+      "phonetic": "/ˈwɪndəʊ/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

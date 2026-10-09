@@ -1,0 +1,173 @@
+{
+  "chinese": "该男子承认在飞机离开伦敦之前藏在箱子里。",
+  "intent": "说明这名男子承认的具体行为，以及该行为发生的时间背景。",
+  "comparison": {
+    "chinese": "该男子承认［在飞机离开伦敦之前］藏在箱子里。",
+    "english": "the man admitted hiding in the box before the plane left London.",
+    "steps": [
+      {
+        "label": "先抓主干动作",
+        "text": "the man admitted hiding in the box",
+        "explanation": "中文先讲“该男子承认藏在箱子里”，这是句子的核心信息，英文也先把主语和承认的内容放在前面。"
+      },
+      {
+        "label": "再补时间背景",
+        "text": "before the plane left London",
+        "explanation": "中英文都把时间背景放在动作相关位置，中文常放在动词前，英文可以放在句末补充说明“藏箱子”这件事发生在什么时候。"
+      }
+    ],
+    "takeaway": "admit 后直接跟动名词表示“承认做过某事”，before 引导的从句说明前面动作发生的时间先后。"
+  },
+  "backbone": {
+    "text": "the man admitted hiding in the box",
+    "meaning": "这名男子承认藏在箱子里。"
+  },
+  "structureNotes": [
+    {
+      "title": "admit 后接动名词的用法",
+      "text": "admitted 后面直接跟 hiding，是动名词作宾语，表示“承认做了某事”，这里指承认藏起来这件已经发生的事。"
+    },
+    {
+      "title": "before 引导时间从句",
+      "text": "before the plane left London 是时间状语从句，说明“藏在箱子里”这个动作发生在“飞机离开伦敦”之前。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "the man",
+      "role": "主语",
+      "explanation": "指句子里谈论的这名男子，是“承认”这个动作的发出者。"
+    },
+    {
+      "text": "admitted",
+      "role": "谓语动词",
+      "explanation": "是 admit 的过去式，表示“承认”，引出后面承认的内容。"
+    },
+    {
+      "text": "hiding in the box",
+      "role": "动名词短语作宾语",
+      "explanation": "是 admitted 的宾语，说明男子承认的具体行为是藏在箱子里。"
+    },
+    {
+      "text": "before the plane left London.",
+      "role": "时间状语从句",
+      "explanation": "说明 hiding in the box 这件事发生的时间，在飞机离开伦敦之前。"
+    }
+  ],
+  "words": [
+    {
+      "text": "the",
+      "meaning": "这个，那个（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人，男子",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "admitted",
+      "meaning": "承认（admit的过去式）",
+      "pos": "动词",
+      "phonetic": "/ədˈmɪtɪd/"
+    },
+    {
+      "text": "hiding",
+      "meaning": "隐藏，躲藏（hide的动名词形式）",
+      "pos": "动名词",
+      "phonetic": "/ˈhaɪdɪŋ/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "box",
+      "meaning": "箱子，盒子",
+      "pos": "名词",
+      "phonetic": "/bɒks/"
+    },
+    {
+      "text": "before",
+      "meaning": "在……之前",
+      "pos": "连词",
+      "phonetic": "/bɪˈfɔː(r)/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "plane",
+      "meaning": "飞机",
+      "pos": "名词",
+      "phonetic": "/pleɪn/"
+    },
+    {
+      "text": "left",
+      "meaning": "离开（leave的过去式）",
+      "pos": "动词",
+      "phonetic": "/left/"
+    },
+    {
+      "text": "London.",
+      "meaning": "伦敦（英国城市）；句末句号",
+      "pos": "名词；句末标点",
+      "phonetic": "/ˈlʌndən/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "the man",
+      "relation": "动作的发出者，描述谁",
+      "meaning": "这名男子"
+    },
+    {
+      "text": "admitted",
+      "relation": "主语发出的动作",
+      "meaning": "承认"
+    },
+    {
+      "text": "hiding in the box",
+      "relation": "承认的内容，补充承认了什么",
+      "meaning": "藏在箱子里"
+    },
+    {
+      "text": "before the plane left London.",
+      "relation": "时间，说明藏箱子发生的时间",
+      "meaning": "在飞机离开伦敦之前"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-046",
+  "sentenceId": "nce-2-lesson-046-sentence-007-part-02",
+  "sentenceOrder": 9,
+  "english": "the man admitted hiding in the box before the plane left London.",
+  "lesson": "Lesson 46 Expensive and uncomfortable",
+  "notes": [
+    {
+      "title": "admit 后接动名词的用法",
+      "text": "admitted 后面直接跟 hiding，是动名词作宾语，表示“承认做了某事”，这里指承认藏起来这件已经发生的事。"
+    },
+    {
+      "title": "before 引导时间从句",
+      "text": "before the plane left London 是时间状语从句，说明“藏在箱子里”这个动作发生在“飞机离开伦敦”之前。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅words中London.的释义未区分标点，需补充分号说明标点，其余字段无误。（非逐句人工审核）"
+}

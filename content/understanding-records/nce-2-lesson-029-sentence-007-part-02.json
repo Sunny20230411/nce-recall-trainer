@@ -1,0 +1,117 @@
+{
+  "chinese": "他降落在一个废弃的停车场里。",
+  "intent": "叙述某次飞行器着陆的具体地点。",
+  "comparison": null,
+  "backbone": {
+    "text": "he landed in a deserted car park.",
+    "meaning": "他降落在一个废弃的停车场。"
+  },
+  "structureNotes": [
+    {
+      "title": "介词in表示降落位置",
+      "text": "landed in 后接具体地点，说明着陆的位置范围在停车场内部。"
+    },
+    {
+      "title": "deserted作定语修饰地点",
+      "text": "deserted放在car park前，说明这个停车场是无人使用、废弃的状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "he",
+      "role": "主语",
+      "explanation": "指代前文提到的Captain Fawcett，是降落动作的发出者。"
+    },
+    {
+      "text": "landed",
+      "role": "谓语动词",
+      "explanation": "表示“降落、着陆”的动作，是一般过去时。"
+    },
+    {
+      "text": "in a deserted car park.",
+      "role": "地点状语",
+      "explanation": "说明降落发生的具体地点是一个废弃的停车场。"
+    }
+  ],
+  "words": [
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "landed",
+      "meaning": "降落，着陆",
+      "pos": "动词过去式",
+      "phonetic": "/ˈlændɪd/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "deserted",
+      "meaning": "废弃的，无人的",
+      "pos": "形容词",
+      "phonetic": "/dɪˈzɜːtɪd/"
+    },
+    {
+      "text": "car",
+      "meaning": "汽车",
+      "pos": "名词",
+      "phonetic": "/kɑː/"
+    },
+    {
+      "text": "park.",
+      "meaning": "停车场",
+      "pos": "名词",
+      "phonetic": "/pɑːk/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "he",
+      "relation": "动作发出者",
+      "meaning": "他"
+    },
+    {
+      "text": "landed",
+      "relation": "主语的动作",
+      "meaning": "降落"
+    },
+    {
+      "text": "in a deserted car park.",
+      "relation": "降落的地点",
+      "meaning": "在一个废弃的停车场里"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-029",
+  "sentenceId": "nce-2-lesson-029-sentence-007-part-02",
+  "sentenceOrder": 8,
+  "english": "he landed in a deserted car park.",
+  "lesson": "Lesson 29 Taxi!",
+  "notes": [
+    {
+      "title": "介词in表示降落位置",
+      "text": "landed in 后接具体地点，说明着陆的位置范围在停车场内部。"
+    },
+    {
+      "title": "deserted作定语修饰地点",
+      "text": "deserted放在car park前，说明这个停车场是无人使用、废弃的状态。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本正确，仅需修正words中park.的释义标点冗余问题，其余内容符合要求。（非逐句人工审核）"
+}

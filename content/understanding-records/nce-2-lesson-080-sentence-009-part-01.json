@@ -1,0 +1,100 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-080",
+  "sentenceId": "nce-2-lesson-080-sentence-009-part-01",
+  "sentenceOrder": 11,
+  "english": "There were six million visitors in all,",
+  "chinese": "参观者总共有六百万人，",
+  "lesson": "Lesson 80 The Crystal Palace",
+  "intent": "汇总参观人数",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "There were six million visitors",
+      "relation": "人数统计",
+      "meaning": "有六百万参观者"
+    },
+    {
+      "text": "in all,",
+      "relation": "总计限定",
+      "meaning": "总共"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "总数表达",
+      "text": "in all 表示合计；million 在具体数词后不加复数词尾。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "总数表达",
+      "text": "in all 表示合计；million 在具体数词后不加复数词尾。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "There were",
+      "role": "存在句框架",
+      "explanation": "报告人数。"
+    },
+    {
+      "text": "six million visitors",
+      "role": "存在对象",
+      "explanation": "六百万游客。"
+    },
+    {
+      "text": "in all,",
+      "role": "状语",
+      "explanation": "说明为合计数。"
+    }
+  ],
+  "words": [
+    {
+      "text": "There",
+      "meaning": "引出存在",
+      "pos": "形式主语",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "were",
+      "meaning": "有",
+      "pos": "动词过去式",
+      "phonetic": "/wɜː/ 或 /wə/"
+    },
+    {
+      "text": "six",
+      "meaning": "六",
+      "pos": "数词",
+      "phonetic": "/sɪks/"
+    },
+    {
+      "text": "million",
+      "meaning": "百万",
+      "pos": "数词",
+      "phonetic": "/ˈmɪljən/"
+    },
+    {
+      "text": "visitors",
+      "meaning": "游客",
+      "pos": "名词复数",
+      "phonetic": "/ˈvɪzɪtəz/"
+    },
+    {
+      "text": "in",
+      "meaning": "合计（短语组成）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "all,",
+      "meaning": "全部",
+      "pos": "代词",
+      "phonetic": "/ɔːl/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

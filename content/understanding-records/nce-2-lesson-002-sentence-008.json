@@ -1,0 +1,83 @@
+{
+  "chinese": "“又下雨了。”",
+  "intent": "告知此刻正在下雨，带有重复发生的感慨意味。",
+  "comparison": null,
+  "backbone": {
+    "text": "It's raining.",
+    "meaning": "正在下雨。"
+  },
+  "structureNotes": [
+    {
+      "title": "It 指代天气",
+      "text": "英文说天气常用 it 作主语，不直接说“雨在下”；It's raining 就是“在下雨”的意思。"
+    },
+    {
+      "title": "again 的位置",
+      "text": "again 放在句末，说明下雨这件事又一次发生了，对应中文里放在前面的“又”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It's raining",
+      "role": "主句（主谓结构）",
+      "explanation": "it 是指代天气的主语，'s 是 is 的缩写，和现在分词 raining 一起构成现在进行时的谓语，表示此刻正在下雨。"
+    },
+    {
+      "text": "again",
+      "role": "频率副词",
+      "explanation": "修饰整个下雨的事件，说明这是再一次发生的情况。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘It's",
+      "meaning": "天正在（此处it指代天气，'s是is的缩写，整体为“它是/天是”，结合语境表天气状态）",
+      "pos": "代词+be动词（缩写形式）",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "raining",
+      "meaning": "下雨（动词rain的现在分词形式）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈreɪnɪŋ/"
+    },
+    {
+      "text": "again.’",
+      "meaning": "又，再一次",
+      "pos": "副词",
+      "phonetic": "/əˈɡen/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘It's raining",
+      "relation": "核心事件",
+      "meaning": "正在下雨（it指代天气）"
+    },
+    {
+      "text": "again.’",
+      "relation": "补充说明事件重复发生",
+      "meaning": "又一次"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-002",
+  "sentenceId": "nce-2-lesson-002-sentence-008",
+  "sentenceOrder": 8,
+  "english": "‘It's raining again.’",
+  "lesson": "Lesson 2 Breakfast or lunch?",
+  "notes": [
+    {
+      "title": "It 指代天气",
+      "text": "英文说天气常用 it 作主语，不直接说“雨在下”；It's raining 就是“在下雨”的意思。"
+    },
+    {
+      "title": "again 的位置",
+      "text": "again 放在句末，说明下雨这件事又一次发生了，对应中文里放在前面的“又”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容基本准确，但存在几处可修正问题：1. words数组中第一项的text包含前引号，释义和词性表述不规范，且phonetic应为英式音标/ɪts/（此处音标本身正确，但词性拆分混淆了词项属性，且text带引号不影响词义说明，不过原释义把it和is的含义混写，词性标注也不符合要求——应明确该缩写形式的词义，词性标注更准确；另外第一项text是‘It's，原释义没问题，但需注意第二个词raining的text不含标点，第三个是again.’带后引号，原释义基本准确。2. structures中第一个结构的role描述有误，It's raining是完整的主句（主谓结构），不是‘主句谓语部分（含主语）’，表述不够准确。3. backbone的text正确，meaning准确。4. parts的relation和meaning基本合理，但需确认。修正后内容更严谨。（非逐句人工审核）"
+}

@@ -1,0 +1,129 @@
+{
+  "chinese": "格林伍德男孩乐队将停留五天。",
+  "intent": "说明格林伍德男孩乐队未来一段时间的停留安排",
+  "comparison": null,
+  "backbone": {
+    "text": "The Greenwood Boys will be staying for five days.",
+    "meaning": "格林伍德男孩乐队将会停留五天"
+  },
+  "structureNotes": [
+    {
+      "title": "将来进行时的含义",
+      "text": "will be staying 是将来进行时，用来表示将来某段时间内持续存在的状态或正在进行的动作，这里强调未来五天里他们处于停留的状态。"
+    },
+    {
+      "title": "for 引出时间长度",
+      "text": "for five days 用 for 加时间段，说明动作持续的时长，回答“停留多久”的问题。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The Greenwood Boys",
+      "role": "主语",
+      "explanation": "指格林伍德男孩乐队，是句子描述的对象。"
+    },
+    {
+      "text": "will be staying",
+      "role": "谓语",
+      "explanation": "将来进行时结构，表示未来将会持续处于停留的状态。"
+    },
+    {
+      "text": "for five days",
+      "role": "时间状语",
+      "explanation": "说明停留这个状态持续的时长是五天。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这（个），用于特指",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "Greenwood",
+      "meaning": "格林伍德（乐队名称部分）",
+      "pos": "专有名词",
+      "phonetic": "/ˈɡriːnwʊd/"
+    },
+    {
+      "text": "Boys",
+      "meaning": "男孩们（乐队名称部分）",
+      "pos": "专有名词",
+      "phonetic": "/bɔɪz/"
+    },
+    {
+      "text": "will",
+      "meaning": "将要，会",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "be",
+      "meaning": "（助动词，构成进行时）",
+      "pos": "助动词",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "staying",
+      "meaning": "停留，逗留",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈsteɪɪŋ/"
+    },
+    {
+      "text": "for",
+      "meaning": "（表示持续的时间）达，计",
+      "pos": "介词",
+      "phonetic": "/fə(r)/"
+    },
+    {
+      "text": "five",
+      "meaning": "五",
+      "pos": "数词",
+      "phonetic": "/faɪv/"
+    },
+    {
+      "text": "days.",
+      "meaning": "天，日子",
+      "pos": "名词",
+      "phonetic": "/deɪz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The Greenwood Boys",
+      "relation": "描述谁",
+      "meaning": "格林伍德男孩乐队"
+    },
+    {
+      "text": "will be staying",
+      "relation": "做什么/处于什么状态",
+      "meaning": "将会停留"
+    },
+    {
+      "text": "for five days.",
+      "relation": "停留的时长",
+      "meaning": "持续五天"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-013",
+  "sentenceId": "nce-2-lesson-013-sentence-006",
+  "sentenceOrder": 6,
+  "english": "The Greenwood Boys will be staying for five days.",
+  "lesson": "Lesson 13 The Greenwood Boys",
+  "notes": [
+    {
+      "title": "将来进行时的含义",
+      "text": "will be staying 是将来进行时，用来表示将来某段时间内持续存在的状态或正在进行的动作，这里强调未来五天里他们处于停留的状态。"
+    },
+    {
+      "title": "for 引出时间长度",
+      "text": "for five days 用 for 加时间段，说明动作持续的时长，回答“停留多久”的问题。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅存在2处细节待修正：1. 单词for的音标应标注弱读式/fə(r)/，其在句中通常弱读而非重读/fɔː/；2. 结构块的时间状语text多带句末句号，与主语、谓语块的无标点划分逻辑不一致，需移除句号保持分块统一。其余字段（翻译、主干、结构说明、短语含义等）均正确无误。（非逐句人工审核）"
+}

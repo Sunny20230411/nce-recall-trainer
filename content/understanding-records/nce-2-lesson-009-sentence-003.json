@@ -1,0 +1,118 @@
+{
+  "chinese": "再过二十分钟，它就会敲十二下了。",
+  "intent": "说明市政厅大钟预计敲响十二点的剩余时间，交代事件的时间背景。",
+  "comparison": null,
+  "backbone": {
+    "text": "It would strike twelve",
+    "meaning": "它（指钟）会敲十二下。"
+  },
+  "structureNotes": [
+    {
+      "title": "would 的含义",
+      "text": "would 在这里表示过去视角下对将来的预计，不是“愿意”；因为故事背景是过去的某一天，所以用过去将来的说法。"
+    },
+    {
+      "title": "in + 时间段的用法",
+      "text": "in twenty minutes' time 表示从说话的那个时点算起“再过二十分钟”，用所有格 minutes' 修饰 time，说明是多长的一段时间之后。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "would strike twelve",
+      "role": "谓语与宾语",
+      "explanation": "would 加动词原形 strike 构成过去将来时的谓语，表示过去预计将会发生的动作；twelve 是 strike 的宾语，这里指敲十二下（报十二点）。"
+    },
+    {
+      "text": "in twenty minutes' time",
+      "role": "时间状语",
+      "explanation": "说明“敲十二下”这件事发生在多久之后，以故事里的那个时间点为参照，再过二十分钟。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（指代大钟）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "would",
+      "meaning": "将会（过去将来时助动词）",
+      "pos": "助动词",
+      "phonetic": "/wʊd/"
+    },
+    {
+      "text": "strike",
+      "meaning": "敲（钟），打",
+      "pos": "动词",
+      "phonetic": "/straɪk/"
+    },
+    {
+      "text": "twelve",
+      "meaning": "十二（此处指十二下/十二点）",
+      "pos": "数词",
+      "phonetic": "/twelv/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……之后",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "twenty",
+      "meaning": "二十",
+      "pos": "数词",
+      "phonetic": "/ˈtwenti/"
+    },
+    {
+      "text": "minutes'",
+      "meaning": "分钟的（复数所有格）",
+      "pos": "名词所有格",
+      "phonetic": "/ˈmɪnɪts/"
+    },
+    {
+      "text": "time.",
+      "meaning": "时间",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It",
+      "relation": "动作执行者（描述谁/什么）",
+      "meaning": "它（指市政厅的钟）"
+    },
+    {
+      "text": "would strike twelve",
+      "relation": "主干动作与结果",
+      "meaning": "将会敲十二下"
+    },
+    {
+      "text": "in twenty minutes' time.",
+      "relation": "时间",
+      "meaning": "在二十分钟之后"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-009",
+  "sentenceId": "nce-2-lesson-009-sentence-003",
+  "sentenceOrder": 3,
+  "english": "It would strike twelve in twenty minutes' time.",
+  "lesson": "Lesson 9 A cold welcome",
+  "notes": [
+    {
+      "title": "would 的含义",
+      "text": "would 在这里表示过去视角下对将来的预计，不是“愿意”；因为故事背景是过去的某一天，所以用过去将来的说法。"
+    },
+    {
+      "title": "in + 时间段的用法",
+      "text": "in twenty minutes' time 表示从说话的那个时点算起“再过二十分钟”，用所有格 minutes' 修饰 time，说明是多长的一段时间之后。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正一处词性表述和一处词项标点问题：1. would 是助动词而非情态助动词；2. time. 的释义中不应夹带句号标点；其余主干、结构、翻译、分块均符合要求。（非逐句人工审核）"
+}

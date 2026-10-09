@@ -1,0 +1,107 @@
+{
+  "chinese": "“我们现在要返程了，”售票员说道。",
+  "intent": "转述售票员说的话，告知车上的人车辆此刻要往回开了。",
+  "comparison": null,
+  "backbone": {
+    "text": "the conductor said ‘We're going back now,’",
+    "meaning": "售票员说了“我们现在要往回走了”这句话。"
+  },
+  "structureNotes": [
+    {
+      "title": "引语在前的倒装语序",
+      "text": "这句话把说话内容放在最前面，然后才出现“said + 说话人”，属于引语前置的常见写法，目的是突出所说的内容，不影响“售票员说了这句话”的核心意思。"
+    },
+    {
+      "title": "We're going back的含义",
+      "text": "这里用现在进行时表示马上要发生的动作，意思是“我们要往回走/返程了”，不是正在走的过程，是当下告知即将出发的安排。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘We're going back now,’",
+      "role": "直接引语（说话内容）",
+      "explanation": "这是售票员实际说出的原话，用引号标出，放在句首用来突出告知的信息。"
+    },
+    {
+      "text": "said the conductor.",
+      "role": "主句（引出说话人）",
+      "explanation": "说明上面那句话是谁说的，因为引语前置，谓语said放到了主语the conductor前面，属于引语句的倒装形式。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘We're",
+      "meaning": "我们是（we are的缩写，词首带左单引号）",
+      "pos": "代词+be动词缩写",
+      "phonetic": "/wɪə(r)/"
+    },
+    {
+      "text": "going",
+      "meaning": "去，行进（go的现在分词形式）",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈɡəʊɪŋ/"
+    },
+    {
+      "text": "back",
+      "meaning": "回原处，返回",
+      "pos": "副词",
+      "phonetic": "/bæk/"
+    },
+    {
+      "text": "now,’",
+      "meaning": "现在（词末带右单引号和逗号）",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    },
+    {
+      "text": "said",
+      "meaning": "说，讲（say的过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那位（定冠词，特指说话的售票员）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "conductor.",
+      "meaning": "售票员（词末带句号）",
+      "pos": "名词",
+      "phonetic": "/kənˈdʌktə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘We're going back now,’",
+      "relation": "说话的具体内容",
+      "meaning": "“我们现在要返程了，”"
+    },
+    {
+      "text": "said the conductor.",
+      "relation": "说明这句话是谁说的",
+      "meaning": "售票员说道"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-014",
+  "sentenceOrder": 17,
+  "english": "‘We're going back now,’ said the conductor.",
+  "lesson": "Lesson 50 Taken for a ride",
+  "notes": [
+    {
+      "title": "引语在前的倒装语序",
+      "text": "这句话把说话内容放在最前面，然后才出现“said + 说话人”，属于引语前置的常见写法，目的是突出所说的内容，不影响“售票员说了这句话”的核心意思。"
+    },
+    {
+      "title": "We're going back的含义",
+      "text": "这里用现在进行时表示马上要发生的动作，意思是“我们要往回走/返程了”，不是正在走的过程，是当下告知即将出发的安排。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅单词项的词性、释义表述可优化，统一规范并修正个别不严谨描述。（非逐句人工审核）"
+}

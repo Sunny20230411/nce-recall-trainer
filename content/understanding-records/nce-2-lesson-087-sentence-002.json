@@ -1,0 +1,101 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-087",
+  "sentenceId": "nce-2-lesson-087-sentence-002",
+  "sentenceOrder": 2,
+  "english": "'Do you always catch such an early train?'",
+  "chinese": "“你总是乘这么早的火车吗？”",
+  "lesson": "Lesson 87 A perfect alibi",
+  "intent": "追问早班车是否为日常习惯",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "'Do you always catch",
+      "relation": "习惯询问",
+      "meaning": "你总是乘坐吗"
+    },
+    {
+      "text": "such an early train?'",
+      "relation": "所乘班次",
+      "meaning": "这么早的一班火车"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "程度描述",
+      "text": "such 修饰整个 an early train 名词短语。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "程度描述",
+      "text": "such 修饰整个 an early train 名词短语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do you always catch",
+      "role": "疑问主干",
+      "explanation": "一般现在时询问习惯。"
+    },
+    {
+      "text": "such an early train",
+      "role": "宾语",
+      "explanation": "强调班次很早。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'Do",
+      "meaning": "构成疑问",
+      "pos": "助动词",
+      "phonetic": "/duː/ 或 /də/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "人称代词",
+      "phonetic": "/juː/ 或 /jʊ/"
+    },
+    {
+      "text": "always",
+      "meaning": "总是",
+      "pos": "频率副词",
+      "phonetic": "/ˈɔːlweɪz/"
+    },
+    {
+      "text": "catch",
+      "meaning": "赶上；乘坐",
+      "pos": "动词",
+      "phonetic": "/kætʃ/"
+    },
+    {
+      "text": "such",
+      "meaning": "如此的",
+      "pos": "限定词",
+      "phonetic": "/sʌtʃ/"
+    },
+    {
+      "text": "an",
+      "meaning": "一班",
+      "pos": "不定冠词",
+      "phonetic": "/æn/ 或 /ən/"
+    },
+    {
+      "text": "early",
+      "meaning": "早的",
+      "pos": "形容词",
+      "phonetic": "/ˈɜːli/"
+    },
+    {
+      "text": "train?'",
+      "meaning": "火车",
+      "pos": "名词",
+      "phonetic": "/treɪn/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

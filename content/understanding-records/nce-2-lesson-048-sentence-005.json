@@ -1,0 +1,221 @@
+{
+  "chinese": "然后他问我哥哥身体怎么样，以及我是否喜欢在伦敦的新工作。",
+  "intent": "叙述他接连向我提出的两个问题，分别关于我哥哥的近况和我对伦敦新工作的喜好。",
+  "comparison": {
+    "chinese": "他接着问了我两件事：我哥哥怎么样，还有我喜不喜欢伦敦的新工作。",
+    "english": "He then asked me how my brother was and whether I liked my new job in London.",
+    "steps": [
+      {
+        "label": "先抓住主干动作",
+        "text": "He then asked me",
+        "explanation": "中文先说“接着他问我”，英文也是先交代人物、时间和动作对象，这部分语序基本一致。"
+      },
+      {
+        "label": "再看两个并列的问题内容",
+        "text": "how my brother was and whether I liked my new job in London",
+        "explanation": "中文会说“问了两件事：A和B”，把问题放在后面；英文用how和whether引导的从句直接放在asked me后面，不用冒号分隔，两个问句都改成陈述语序（was在brother后，liked在I后）。"
+      },
+      {
+        "label": "地点修饰的位置",
+        "text": "my new job in London",
+        "explanation": "中文说“在伦敦的新工作”，“在伦敦”放在“新工作”前面；英文in London放在job后面，补充说明是哪里的工作。"
+      }
+    ],
+    "takeaway": "当一个动词后面带两个疑问词引导的宾语从句时，英文会把两个从句都放在动词+宾语之后，用and连接，并且疑问词后面的句子要用陈述语序，不用倒装。"
+  },
+  "backbone": {
+    "text": "He asked me two things: how my brother was, and whether I liked my new job in London.",
+    "meaning": "他问了我两件事：我哥哥近况如何，以及我是否喜欢我在伦敦的新工作。（注：为方便理解补充了“两件事”的概括，原句没有显式写出）"
+  },
+  "structureNotes": [
+    {
+      "title": "两个并列的宾语从句",
+      "text": "asked me后面跟着how和whether引导的两个从句，它们都是“问”的具体内容，由and并列连接，共同作asked的直接宾语。"
+    },
+    {
+      "title": "宾语从句用陈述语序",
+      "text": "本来的特殊问句是“How was my brother?”，一般问句是“Did I like my new job?”；放在ask后面变成宾语从句后，都改成主语在前、动词在后的陈述语序，不再用助动词do/does/did。"
+    },
+    {
+      "title": "in London的修饰作用",
+      "text": "in London是介词短语，放在名词job后面，补充说明工作所在的地点，相当于中文“在伦敦的新工作”里的定语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He then asked me",
+      "role": "主句主干",
+      "explanation": "交代动作发出者是He，时间是then，动作是asked，动作对象是me，构成整个句子的主要框架。"
+    },
+    {
+      "text": "how my brother was",
+      "role": "第一个宾语从句（直接宾语）",
+      "explanation": "由how引导，是asked的第一个问题内容，询问我哥哥的状态，使用陈述语序。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个宾语从句，表示两个问题是并列提出的。"
+    },
+    {
+      "text": "whether I liked my new job in London",
+      "role": "第二个宾语从句（直接宾语）",
+      "explanation": "由whether引导，是asked的第二个问题内容，询问我是否喜欢新工作，同样使用陈述语序。"
+    },
+    {
+      "text": "in London",
+      "role": "地点定语（介词短语）",
+      "explanation": "修饰前面的my new job，说明工作的地点在伦敦。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "then",
+      "meaning": "然后，接着",
+      "pos": "副词",
+      "phonetic": "/ðen/"
+    },
+    {
+      "text": "asked",
+      "meaning": "问，询问",
+      "pos": "动词（过去式）",
+      "phonetic": "/ɑːskt/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "how",
+      "meaning": "怎样，如何",
+      "pos": "疑问副词",
+      "phonetic": "/haʊ/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "brother",
+      "meaning": "兄弟，哥哥/弟弟",
+      "pos": "名词",
+      "phonetic": "/ˈbrʌðə/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be的第三人称单数过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "whether",
+      "meaning": "是否",
+      "pos": "连词",
+      "phonetic": "/ˈweðə/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "liked",
+      "meaning": "喜欢（过去式）",
+      "pos": "动词",
+      "phonetic": "/laɪkt/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "new",
+      "meaning": "新的",
+      "pos": "形容词",
+      "phonetic": "/njuː/"
+    },
+    {
+      "text": "job",
+      "meaning": "工作",
+      "pos": "名词",
+      "phonetic": "/dʒɒb/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "London.",
+      "meaning": "伦敦（城市名，句末带句号）",
+      "pos": "名词",
+      "phonetic": "/ˈlʌndən/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He then asked me",
+      "relation": "主句：交代动作发出者、时间和动作对象",
+      "meaning": "然后他问我"
+    },
+    {
+      "text": "how my brother was",
+      "relation": "第一个询问内容：问的第一个问题",
+      "meaning": "我哥哥（身体/近况）怎么样"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列的问题",
+      "meaning": "以及"
+    },
+    {
+      "text": "whether I liked my new job in London.",
+      "relation": "第二个询问内容：问的第二个问题",
+      "meaning": "我是否喜欢我在伦敦的新工作"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-048",
+  "sentenceId": "nce-2-lesson-048-sentence-005",
+  "sentenceOrder": 5,
+  "english": "He then asked me how my brother was and whether I liked my new job in London.",
+  "lesson": "Lesson 48 Did you want to tell me something?",
+  "notes": [
+    {
+      "title": "两个并列的宾语从句",
+      "text": "asked me后面跟着how和whether引导的两个从句，它们都是“问”的具体内容，由and并列连接，共同作asked的直接宾语。"
+    },
+    {
+      "title": "宾语从句用陈述语序",
+      "text": "本来的特殊问句是“How was my brother?”，一般问句是“Did I like my new job?”；放在ask后面变成宾语从句后，都改成主语在前、动词在后的陈述语序，不再用助动词do/does/did。"
+    },
+    {
+      "title": "in London的修饰作用",
+      "text": "in London是介词短语，放在名词job后面，补充说明工作所在的地点，相当于中文“在伦敦的新工作”里的定语。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：仅words中最后一项London.的释义和音标存在小问题，整体内容准确可用。（非逐句人工审核）"
+}

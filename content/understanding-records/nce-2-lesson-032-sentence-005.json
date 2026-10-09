@@ -1,0 +1,133 @@
+{
+  "chinese": "这位妇女首先买了几件小商品。",
+  "intent": "叙述这位妇女在店里的第一个购物动作，说明她先选购了少量小件物品。",
+  "comparison": null,
+  "backbone": {
+    "text": "The woman first bought articles.",
+    "meaning": "这位妇女首先买了物品。"
+  },
+  "structureNotes": [
+    {
+      "title": "first的位置与作用",
+      "text": "first放在主语The woman和谓语bought之间，用来强调动作发生的先后顺序，说明这是她做的第一件事。"
+    },
+    {
+      "title": "a few small articles的修饰层次",
+      "text": "冠词a和few搭配表示“少量、几个”，small进一步修饰articles，整体指数量不多的小件物品。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The woman",
+      "role": "动作主体/主语",
+      "explanation": "指句子里执行“买”这个动作的人，也就是那位妇女。"
+    },
+    {
+      "text": "first",
+      "role": "顺序状语",
+      "explanation": "说明“买”这个动作是先后顺序里的第一个，发生在其他动作之前。"
+    },
+    {
+      "text": "bought",
+      "role": "谓语动词",
+      "explanation": "表示主语发出的动作，是buy的过去式，意思是“购买”。"
+    },
+    {
+      "text": "a few small articles.",
+      "role": "动作对象/宾语",
+      "explanation": "是“买”的具体内容，指几件小型的物品。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这个、那位（定冠词，特指已知的人）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "妇女，女子",
+      "pos": "名词",
+      "phonetic": "/ˈwʊmən/",
+      "text": "woman"
+    },
+    {
+      "meaning": "首先，最初",
+      "pos": "副词",
+      "phonetic": "/fɜːst/",
+      "text": "first"
+    },
+    {
+      "meaning": "买（buy的过去式）",
+      "pos": "动词",
+      "phonetic": "/bɔːt/",
+      "text": "bought"
+    },
+    {
+      "meaning": "一（个、件等，和few搭配表示“几个”）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "一些，几个",
+      "pos": "限定词",
+      "phonetic": "/fjuː/",
+      "text": "few"
+    },
+    {
+      "meaning": "小的，小型的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/",
+      "text": "small"
+    },
+    {
+      "meaning": "物品，商品（article的复数形式）",
+      "pos": "名词",
+      "phonetic": "/ˈɑːtɪklz/",
+      "text": "articles."
+    }
+  ],
+  "parts": [
+    {
+      "text": "The woman",
+      "relation": "动作是谁做的",
+      "meaning": "这位妇女"
+    },
+    {
+      "text": "first",
+      "relation": "说明动作的先后顺序",
+      "meaning": "首先"
+    },
+    {
+      "text": "bought",
+      "relation": "做了什么动作",
+      "meaning": "买了"
+    },
+    {
+      "text": "a few small articles.",
+      "relation": "动作的对象，买了什么",
+      "meaning": "几件小商品"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-032",
+  "sentenceId": "nce-2-lesson-032-sentence-005",
+  "sentenceOrder": 5,
+  "english": "The woman first bought a few small articles.",
+  "lesson": "Lesson 32 Shopping made easy",
+  "notes": [
+    {
+      "title": "first的位置与作用",
+      "text": "first放在主语The woman和谓语bought之间，用来强调动作发生的先后顺序，说明这是她做的第一件事。"
+    },
+    {
+      "title": "a few small articles的修饰层次",
+      "text": "冠词a和few搭配表示“少量、几个”，small进一步修饰articles，整体指数量不多的小件物品。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需补全backbone中first的含义以避免主干语义偏差，其余内容符合要求。（非逐句人工审核）"
+}

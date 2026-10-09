@@ -117,5 +117,10 @@
   "analysisSource": "ai",
   "analysisStatus": "approved",
   "ruleVersion": "understanding-zh-adult-1.1.0",
-  "reviewNote": "模型独立复核后通过：整体解析符合面向中文母语成年人的英语学习要求，仅存在局部细节疏漏需要修正补充，不影响核心语义理解（非逐句人工审核）"
+  "reviewNote": "模型独立复核后通过：整体解析符合面向中文母语成年人的英语学习要求，仅存在局部细节疏漏需要修正补充，不影响核心语义理解（非逐句人工审核）",
+  "teacherTip": {
+    "text": "回答颜色问题时，把颜色词pink直接放在动作和宾语后面，说明动作的结果状态，it承接上文的书架，避免重复啰嗦。",
+    "ruleVersion": "intent-driven-expression-1.0.2",
+    "reviewNote": "独立模型复核：符合要求，点明颜色信息在答句中的位置和表意作用，提炼了表达动作结果的思路。（非逐句人工审核）"
+  }
 }

@@ -1,0 +1,89 @@
+{
+  "chinese": "到目前为止，……先生（注：原文本片段仅出现“Mr.”，完整姓氏Scott及后续内容未在本片段范围内）",
+  "intent": "用时间状语引出后文关于斯科特先生的相关叙述，点明所讲情况的时间范围",
+  "comparison": null,
+  "backbone": {
+    "text": "Up to now, Mr.",
+    "meaning": "到目前为止，……先生（本句为不完整片段，仅给出时间状语和主语的称呼前缀，完整主语及谓语内容未包含在本片段内）"
+  },
+  "structureNotes": [
+    {
+      "title": "句首时间短语的作用",
+      "text": "Up to now 放在句首，用于交代后面所讲内容的时间跨度，意思是“到现在为止”，常和说明从过去持续到当下的情况搭配。"
+    },
+    {
+      "title": "Mr. 的用法",
+      "text": "Mr. 是对男性的尊称，后面通常接姓氏，本片段里只出现了 Mr.，完整的姓氏 Scott 出现在上下文的下一部分。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Up to now,",
+      "role": "时间状语",
+      "explanation": "表示时间范围，说明后面所叙述的事件是从过去一直到现在的这段时间里发生的。"
+    },
+    {
+      "text": "Mr.",
+      "role": "主语的称呼前缀（句子不完整，未出现完整主语）",
+      "explanation": "用于成年男性姓氏前的尊称，本片段仅出现该前缀，完整主语未在本句片段内。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Up",
+      "meaning": "到（某程度、某点）",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "to",
+      "meaning": "到；直到",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "now,",
+      "meaning": "现在，此刻",
+      "pos": "名词",
+      "phonetic": "/naʊ/"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生（用于男子姓氏前的尊称）",
+      "pos": "名词（缩写）",
+      "phonetic": "/ˈmɪstə(r)/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Up to now,",
+      "meaning": "到目前为止",
+      "relation": "时间"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生",
+      "relation": "主语的称呼部分（本句未完整出现主语）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-005",
+  "sentenceId": "nce-2-lesson-005-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Up to now, Mr.",
+  "lesson": "Lesson 5 No wrong numbers",
+  "notes": [
+    {
+      "title": "句首时间短语的作用",
+      "text": "Up to now 放在句首，用于交代后面所讲内容的时间跨度，意思是“到现在为止”，常和说明从过去持续到当下的情况搭配。"
+    },
+    {
+      "title": "Mr. 的用法",
+      "text": "Mr. 是对男性的尊称，后面通常接姓氏，本片段里只出现了 Mr.，完整的姓氏 Scott 出现在上下文的下一部分。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：基本解析方向正确，但存在几处可修正问题：1. 中文翻译未完整对应原文的“Up to now, Mr.”，漏了“先生”相关表述，注释位置可调整得更清晰；2. 主干的text仅写“Up to now, Mr.”虽与原文一致，但主干说明可更准确对应片段属性；3. 单词“now,”的释义额外标注了逗号的作用，不符合单词释义仅解释词本身的要求，逗号随词保留是约定，无需额外说明；4. 结构中“Mr.”的角色表述可更精准，明确是主语的称呼前缀部分，而非模糊的称呼前缀。（非逐句人工审核）"
+}

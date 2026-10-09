@@ -1,0 +1,115 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-095",
+  "sentenceId": "nce-2-lesson-095-sentence-004",
+  "sentenceOrder": 4,
+  "english": "'How did your clothes get into such a mess?'",
+  "chinese": "“你的衣服怎么弄得这么乱？”",
+  "lesson": "Lesson 95 A fantasy",
+  "intent": "针对衣服的狼狈状况追问经过。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "'How did your clothes get",
+      "relation": "变化经过追问",
+      "meaning": "你的衣服怎么变得"
+    },
+    {
+      "text": "into such a mess?'",
+      "relation": "结果状态",
+      "meaning": "如此狼狈"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "变化短语",
+      "text": "get into 描述进入某种状态，不是空间进入。"
+    },
+    {
+      "title": "程度搭配",
+      "text": "such a mess 表这样糟糕的状况。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "变化短语",
+      "text": "get into 描述进入某种状态，不是空间进入。"
+    },
+    {
+      "title": "程度搭配",
+      "text": "such a mess 表这样糟糕的状况。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "How",
+      "role": "疑问状语",
+      "explanation": "询问形成现状的方式或经过。"
+    },
+    {
+      "text": "did your clothes get into such a mess",
+      "role": "疑问主干",
+      "explanation": "did 引出过去时问题，into 短语说明结果状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'How",
+      "meaning": "怎么",
+      "pos": "疑问副词",
+      "phonetic": "/haʊ/"
+    },
+    {
+      "text": "did",
+      "meaning": "过去时疑问助动词",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "your",
+      "meaning": "你的",
+      "pos": "限定词",
+      "phonetic": "/jɔː/"
+    },
+    {
+      "text": "clothes",
+      "meaning": "衣服",
+      "pos": "名词",
+      "phonetic": "/kləʊðz/"
+    },
+    {
+      "text": "get",
+      "meaning": "变得",
+      "pos": "动词",
+      "phonetic": "/ɡet/"
+    },
+    {
+      "text": "into",
+      "meaning": "进入……状态",
+      "pos": "介词",
+      "phonetic": "/ˈɪntuː/ 或 /ˈɪntə/"
+    },
+    {
+      "text": "such",
+      "meaning": "这样",
+      "pos": "限定词",
+      "phonetic": "/sʌtʃ/"
+    },
+    {
+      "text": "a",
+      "meaning": "一种",
+      "pos": "冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "mess?'",
+      "meaning": "凌乱状态",
+      "pos": "名词",
+      "phonetic": "/mes/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

@@ -1,0 +1,187 @@
+{
+  "chinese": "斯科特没法给他的新车库装一部电话，所以他刚买了十二只鸽子。",
+  "intent": "说明斯科特因为新车库装不了电话，于是买了十二只鸽子作为替代通信方式。",
+  "comparison": {
+    "chinese": "斯科特没法给他的新车库装电话，所以刚买了十二只鸽子。",
+    "english": "Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.",
+    "steps": [
+      {
+        "label": "先讲前半段事实",
+        "text": "Scott cannot get a telephone for his new garage",
+        "explanation": "中文说“给新车库装电话”，英文用get a telephone for his new garage表达“为车库弄到/装上电话”，用for引出服务的对象（车库）。"
+      },
+      {
+        "label": "再用so衔接结果",
+        "text": "so he has just bought twelve pigeons",
+        "explanation": "中英文都用“所以/so”接后续动作，中文常省略重复的主语“他”，英文保留主语he；has just bought对应“刚买了”，强调动作刚完成。"
+      }
+    ],
+    "takeaway": "中英文因果语序基本一致，都可以先说原因再说结果；get a telephone for...不是“拿到电话”，而是“给某地装/办电话”。"
+  },
+  "backbone": {
+    "text": "Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.",
+    "meaning": "斯科特没法给新车库装电话，因此刚买了十二只鸽子。"
+  },
+  "structureNotes": [
+    {
+      "title": "so 连接并列分句表因果",
+      "text": "so 在这里是并列连词，连接前后两个独立完整的句子，前半句说明原因，后半句引出结果。"
+    },
+    {
+      "title": "has just bought 的含义",
+      "text": "has + 过去分词bought 构成现在完成时，加上just表示“刚刚做完”，强调和现在的关联（鸽子刚买到手）。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Scott cannot get a telephone for his new garage",
+      "role": "原因分句",
+      "explanation": "说明导致后面买鸽子的前提事实：斯科特没能给新车库装上电话。"
+    },
+    {
+      "text": "so",
+      "role": "因果并列连词",
+      "explanation": "连接前后两个分句，表明后半句是前半句情况带来的结果。"
+    },
+    {
+      "text": "he has just bought twelve pigeons",
+      "role": "结果分句",
+      "explanation": "说斯科特采取的行动：刚刚买了十二只鸽子，作为无法装电话的应对办法。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Scott",
+      "meaning": "斯科特（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/skɒt/"
+    },
+    {
+      "text": "cannot",
+      "meaning": "不能，无法",
+      "pos": "情态动词否定式",
+      "phonetic": "/ˈkænɒt/"
+    },
+    {
+      "text": "get",
+      "meaning": "获得，弄到（此处指安装/办理）",
+      "pos": "动词",
+      "phonetic": "/ɡet/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（部）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "telephone",
+      "meaning": "电话",
+      "pos": "名词",
+      "phonetic": "/ˈtelɪfəʊn/"
+    },
+    {
+      "text": "for",
+      "meaning": "给，为了",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "物主限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "new",
+      "meaning": "新的",
+      "pos": "形容词",
+      "phonetic": "/njuː/"
+    },
+    {
+      "text": "garage,",
+      "meaning": "车库",
+      "pos": "名词",
+      "phonetic": "/ˈɡærɑːʒ/"
+    },
+    {
+      "text": "so",
+      "meaning": "所以，因此",
+      "pos": "连词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "has",
+      "meaning": "（助动词，构成完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "just",
+      "meaning": "刚刚，刚才",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "bought",
+      "meaning": "买（buy的过去分词）",
+      "pos": "动词",
+      "phonetic": "/bɔːt/"
+    },
+    {
+      "text": "twelve",
+      "meaning": "十二（只）",
+      "pos": "数词",
+      "phonetic": "/twelv/"
+    },
+    {
+      "text": "pigeons.",
+      "meaning": "鸽子（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈpɪdʒɪnz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Scott cannot get a telephone for his new garage,",
+      "relation": "原因分句",
+      "meaning": "斯科特没法给他的新车库装一部电话"
+    },
+    {
+      "text": "so",
+      "relation": "因果连接词",
+      "meaning": "所以"
+    },
+    {
+      "text": "he has just bought twelve pigeons.",
+      "relation": "结果分句",
+      "meaning": "他刚买了十二只鸽子"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-005",
+  "sentenceId": "nce-2-lesson-005-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Scott cannot get a telephone for his new garage, so he has just bought twelve pigeons.",
+  "lesson": "Lesson 5 No wrong numbers",
+  "notes": [
+    {
+      "title": "so 连接并列分句表因果",
+      "text": "so 在这里是并列连词，连接前后两个独立完整的句子，前半句说明原因，后半句引出结果。"
+    },
+    {
+      "title": "has just bought 的含义",
+      "text": "has + 过去分词bought 构成现在完成时，加上just表示“刚刚做完”，强调和现在的关联（鸽子刚买到手）。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅两处细节需修正：1. words中garage,与pigeons.的释义冗余标注标点，按规则移除；2. backbone文本遗漏just，与原文强调“刚买”的语义不符，需补全。（非逐句人工审核）"
+}

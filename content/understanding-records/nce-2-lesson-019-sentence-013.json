@@ -1,0 +1,125 @@
+{
+  "chinese": "“你还想要它们吗？”",
+  "intent": "询问对方是否仍然想要前面提到的那几张票",
+  "comparison": null,
+  "backbone": {
+    "text": "Do you want them?",
+    "meaning": "你想要它们吗？（辅助还原的一般疑问主干，去掉了语气副词still）"
+  },
+  "structureNotes": [
+    {
+      "title": "一般现在时的一般疑问构成",
+      "text": "谓语是实义动词want时，要在主语you前加助动词Do来构成疑问句，本身没有额外词义，只帮助体现疑问语气和现在时间。"
+    },
+    {
+      "title": "still的位置和作用",
+      "text": "still放在主语后、实义动词want前，用来强调“到现在这个时候仍然、还”，修饰整个“想要”的状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "疑问助动词",
+      "explanation": "无实义，帮助构成一般现在时第二人称的一般疑问句，放在句首。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指对话里的听话人，也就是“我”，是“想要”这个动作的发出者。"
+    },
+    {
+      "text": "still",
+      "role": "语气副词",
+      "explanation": "表示“仍然、还”，修饰后面的实义动词want，体现时间上的延续。"
+    },
+    {
+      "text": "want",
+      "role": "谓语动词",
+      "explanation": "表示“想要”，是句子的核心动作，用一般现在时表达当下的意愿。"
+    },
+    {
+      "text": "them?’",
+      "role": "宾语（带句末引号和问号）",
+      "explanation": "指代前面提到的那几张演出票，是want的对象；标点是直接引语的结束和疑问语气标记。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Do",
+      "meaning": "（用于构成一般现在时第二人称疑问句的助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "still",
+      "meaning": "还，仍然",
+      "pos": "副词",
+      "phonetic": "/stɪl/"
+    },
+    {
+      "text": "want",
+      "meaning": "想要，要",
+      "pos": "动词",
+      "phonetic": "/wɒnt/"
+    },
+    {
+      "text": "them?’",
+      "meaning": "它们？’（宾格指代前文的票，带问号和引语结束引号）",
+      "pos": "代词",
+      "phonetic": "/ðem/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Do",
+      "relation": "语法标记",
+      "meaning": "（疑问助动词，无实义，帮助构成疑问句）"
+    },
+    {
+      "text": "you",
+      "relation": "询问对象，即动作发出者",
+      "meaning": "你"
+    },
+    {
+      "text": "still",
+      "relation": "补充“想要”的时间状态",
+      "meaning": "还、仍然"
+    },
+    {
+      "text": "want",
+      "relation": "核心动作",
+      "meaning": "想要"
+    },
+    {
+      "text": "them?’",
+      "relation": "想要的对象",
+      "meaning": "它们（指票）？’"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-019",
+  "sentenceId": "nce-2-lesson-019-sentence-013",
+  "sentenceOrder": 13,
+  "english": "Do you still want them?’",
+  "lesson": "Lesson 19 Sold out",
+  "notes": [
+    {
+      "title": "一般现在时的一般疑问构成",
+      "text": "谓语是实义动词want时，要在主语you前加助动词Do来构成疑问句，本身没有额外词义，只帮助体现疑问语气和现在时间。"
+    },
+    {
+      "title": "still的位置和作用",
+      "text": "still放在主语后、实义动词want前，用来强调“到现在这个时候仍然、还”，修饰整个“想要”的状态。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需修正words中最后一项的词性标注，不应将标点纳入词性描述；其余内容符合要求。（非逐句人工审核）"
+}

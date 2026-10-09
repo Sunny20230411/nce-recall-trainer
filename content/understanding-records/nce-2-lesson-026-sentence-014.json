@@ -1,0 +1,101 @@
+{
+  "chinese": "“你喜欢它吗？”",
+  "intent": "询问对方是否喜欢当前提到的某件事物（结合上文是那幅新画）。",
+  "comparison": null,
+  "backbone": {
+    "text": "Do you like it?",
+    "meaning": "你喜欢它吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "一般现在时的一般疑问句",
+      "text": "句子以助动词Do开头，把主语you放在Do和实义动词like之间，用来询问对方当下的喜好。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Do",
+      "role": "疑问助动词",
+      "explanation": "构成一般现在时的一般疑问句，没有实际词义，只用来帮助提前发出疑问信号，对应主语you用原形do。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "指说话的对象，也就是被问的人。"
+    },
+    {
+      "text": "like",
+      "role": "谓语动词",
+      "explanation": "表示“喜欢”，是句子的核心动作。"
+    },
+    {
+      "text": "it?’",
+      "role": "宾语+句末标点",
+      "explanation": "it指代上文提到的新物品（新画），是like的对象；问号和右引号表示这是引语里的疑问句。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Do",
+      "meaning": "（构成一般现在时疑问句的助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你，你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢",
+      "pos": "动词",
+      "phonetic": "/laɪk/"
+    },
+    {
+      "text": "it?’",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Do",
+      "meaning": "（疑问助动词，引出问句）",
+      "relation": "疑问助动词"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "relation": "主语（询问对象）"
+    },
+    {
+      "text": "like",
+      "meaning": "喜欢",
+      "relation": "谓语（核心动作）"
+    },
+    {
+      "text": "it?’",
+      "meaning": "它（指上文的新画）",
+      "relation": "宾语（喜欢的对象）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-026",
+  "sentenceId": "nce-2-lesson-026-sentence-014",
+  "sentenceOrder": 14,
+  "english": "Do you like it?’",
+  "lesson": "Lesson 26 The best art critics",
+  "notes": [
+    {
+      "title": "一般现在时的一般疑问句",
+      "text": "句子以助动词Do开头，把主语you放在Do和实义动词like之间，用来询问对方当下的喜好。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原解析基本正确，仅需修正中文翻译的引号格式、words项里it的释义多余标点说明，以及调整parts中Do的relation表述更规范。（非逐句人工审核）"
+}

@@ -1,0 +1,121 @@
+{
+  "chinese": "我终于抵达了伦敦。",
+  "intent": "陈述说话人经过行程后最终到达伦敦这件事。",
+  "comparison": null,
+  "backbone": {
+    "text": "I arrived in London.",
+    "meaning": "我到了伦敦。"
+  },
+  "structureNotes": [
+    {
+      "title": "at last 的语气作用",
+      "text": "at last 放在句末，强调经过一段时间或波折后终于达成，相当于中文的“终于、到底”。"
+    },
+    {
+      "title": "arrive 与地点介词的搭配",
+      "text": "表示到达大的城市、国家等地点时，arrive 后接介词 in；到达车站、机场等小地点时用 at。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话人本人，是“到达”这个动作的发出者。"
+    },
+    {
+      "text": "arrived in",
+      "role": "谓语",
+      "explanation": "表示“抵达”的动作，arrived 是 arrive 的过去式，in 引出到达的大地点，与 arrive 共同构成谓语部分。"
+    },
+    {
+      "text": "London",
+      "role": "介词宾语（作地点状语的一部分）",
+      "explanation": "是介词 in 的宾语，与 in 共同构成地点状语，指明到达的具体城市是伦敦。"
+    },
+    {
+      "text": "at last.",
+      "role": "时间/语气状语",
+      "explanation": "说明这件事是最终发生的，带有“好不容易才达成”的语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "arrived",
+      "meaning": "抵达，到达",
+      "pos": "动词（过去式）",
+      "phonetic": "/əˈraɪvd/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（大地点内）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "London",
+      "meaning": "伦敦（英国首都）",
+      "pos": "专有名词",
+      "phonetic": "/ˈlʌndən/"
+    },
+    {
+      "text": "at",
+      "meaning": "（用于固定短语）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "last.",
+      "meaning": "最后，终于",
+      "pos": "副词",
+      "phonetic": "/lɑːst/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "动作发出者"
+    },
+    {
+      "text": "arrived",
+      "meaning": "抵达了",
+      "relation": "主要动作"
+    },
+    {
+      "text": "in London",
+      "meaning": "在伦敦",
+      "relation": "到达的地点"
+    },
+    {
+      "text": "at last.",
+      "meaning": "终于",
+      "relation": "补充说明这件事最终发生的语气"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-025",
+  "sentenceId": "nce-2-lesson-025-sentence-001",
+  "sentenceOrder": 1,
+  "english": "I arrived in London at last.",
+  "lesson": "Lesson 25 Do the English speak English?",
+  "notes": [
+    {
+      "title": "at last 的语气作用",
+      "text": "at last 放在句末，强调经过一段时间或波折后终于达成，相当于中文的“终于、到底”。"
+    },
+    {
+      "title": "arrive 与地点介词的搭配",
+      "text": "表示到达大的城市、国家等地点时，arrive 后接介词 in；到达车站、机场等小地点时用 at。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，仅需修正语法角色表述、介词搭配说明的严谨性及分词项词性标注问题。（非逐句人工审核）"
+}

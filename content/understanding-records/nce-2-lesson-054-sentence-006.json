@@ -1,0 +1,239 @@
+{
+  "chinese": "我用两根粘糊糊的手指拿起听筒，一认出是贝茨夫人的声音就感到沮丧。",
+  "intent": "描述作者在手指发粘的状态下接电话，听出来电者是贝茨夫人时的懊恼心情。",
+  "comparison": {
+    "chinese": "我用两根粘糊糊的手指拿起听筒，一认出是贝茨夫人的声音就感到沮丧。",
+    "english": "I picked up the receiver between two sticky fingers and was dismayed when I recognized the voice of Mrs Bates.",
+    "steps": [
+      {
+        "label": "先抓主干动作与感受",
+        "text": "I picked up the receiver... and was dismayed",
+        "explanation": "中文先理解为“我拿起听筒……并且感到沮丧”，两个都是主语“我”的动作和状态，前后并列。"
+      },
+      {
+        "label": "补充拿听筒的方式",
+        "text": "between two sticky fingers",
+        "explanation": "英文直接放在receiver后面说明拿取的状态；中文会转成“用两根粘糊糊的手指”放到动词前面，更符合汉语表达习惯。"
+      },
+      {
+        "label": "说明沮丧的触发时间",
+        "text": "when I recognized the voice of Mrs Bates",
+        "explanation": "英文把时间从句放在句末；中文常先说“一认出……”再引出“感到沮丧”，时间在前、结果在后。"
+      }
+    ],
+    "takeaway": "英文习惯先讲主干动作，再用介词短语补方式、用when从句补时间；中文更常把方式和时间提前，再讲主要事件与感受。"
+  },
+  "backbone": {
+    "text": "I picked up the receiver and was dismayed.",
+    "meaning": "我拿起听筒，并且感到沮丧。"
+  },
+  "structureNotes": [
+    {
+      "title": "between two sticky fingers 的作用",
+      "text": "between two sticky fingers 放在宾语 the receiver 后面，补充说明拿起听筒时手指的状态，是方式状语，不是修饰receiver的定语。"
+    },
+    {
+      "title": "when 引导的时间从句",
+      "text": "when I recognized the voice of Mrs Bates 说明“感到沮丧”发生的时间点，即一认出声音就产生了沮丧的情绪。"
+    },
+    {
+      "title": "the voice of Mrs Bates 的所属关系",
+      "text": "of Mrs Bates 用来表示 voice 的所属，意思是“贝茨夫人的声音”，相当于把修饰语放在被修饰名词后面。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "picked up the receiver",
+      "role": "第一个谓语加宾语",
+      "explanation": "表示“拿起听筒”这个动作，pick up 是短语动词，the receiver 是它的宾语。"
+    },
+    {
+      "text": "between two sticky fingers",
+      "role": "方式状语",
+      "explanation": "说明拿起听筒时是用两根发粘的手指夹着的状态，修饰前面的 picked up。"
+    },
+    {
+      "text": "was dismayed",
+      "role": "第二个谓语（系表结构）",
+      "explanation": "表示主语“我”处于沮丧、惊愕的状态，和前面的 picked up 并列。"
+    },
+    {
+      "text": "when I recognized the voice of Mrs Bates",
+      "role": "时间状语从句",
+      "explanation": "交代感到沮丧的时间触发点，即认出对方声音的那一刻。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "picked",
+      "meaning": "采摘；拾取（与up构成短语pick up表示“拿起”）",
+      "pos": "动词",
+      "phonetic": "/pɪkt/"
+    },
+    {
+      "text": "up",
+      "meaning": "……起来（与pick构成短语动词pick up）",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（特指听筒）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "receiver",
+      "meaning": "听筒，电话话筒",
+      "pos": "名词",
+      "phonetic": "/rɪˈsiːvə(r)/"
+    },
+    {
+      "text": "between",
+      "meaning": "在……之间",
+      "pos": "介词",
+      "phonetic": "/bɪˈtwiːn/"
+    },
+    {
+      "text": "two",
+      "meaning": "两个，两根",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "sticky",
+      "meaning": "粘的，黏糊糊的",
+      "pos": "形容词",
+      "phonetic": "/ˈstɪki/"
+    },
+    {
+      "text": "fingers",
+      "meaning": "手指",
+      "pos": "名词",
+      "phonetic": "/ˈfɪŋɡəz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be的过去式）是，处于",
+      "pos": "动词",
+      "phonetic": "/wəz/"
+    },
+    {
+      "text": "dismayed",
+      "meaning": "沮丧的，惊愕的",
+      "pos": "形容词",
+      "phonetic": "/dɪsˈmeɪd/"
+    },
+    {
+      "text": "when",
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "recognized",
+      "meaning": "认出，听出",
+      "pos": "动词",
+      "phonetic": "/ˈrekəɡnaɪzd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（特指声音）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "voice",
+      "meaning": "声音",
+      "pos": "名词",
+      "phonetic": "/vɔɪs/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表所属）",
+      "pos": "介词",
+      "phonetic": "/əv/"
+    },
+    {
+      "text": "Mrs",
+      "meaning": "夫人，太太（称呼）",
+      "pos": "名词（称呼）",
+      "phonetic": "/ˈmɪsɪz/"
+    },
+    {
+      "text": "Bates.",
+      "meaning": "贝茨（姓氏）",
+      "pos": "名词（人名）",
+      "phonetic": "/beɪts/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "picked up the receiver",
+      "relation": "第一个动作及对象",
+      "meaning": "拿起听筒"
+    },
+    {
+      "text": "between two sticky fingers",
+      "relation": "补充拿听筒的方式",
+      "meaning": "用两根粘糊糊的手指（夹着）"
+    },
+    {
+      "text": "and was dismayed",
+      "relation": "第二个并列的状态",
+      "meaning": "并且感到沮丧"
+    },
+    {
+      "text": "when I recognized the voice of Mrs Bates.",
+      "relation": "说明感到沮丧的时间点",
+      "meaning": "当我认出贝茨夫人的声音时"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-006",
+  "sentenceOrder": 6,
+  "english": "I picked up the receiver between two sticky fingers and was dismayed when I recognized the voice of Mrs Bates.",
+  "lesson": "Lesson 54 Sticky fingers",
+  "notes": [
+    {
+      "title": "between two sticky fingers 的作用",
+      "text": "between two sticky fingers 放在宾语 the receiver 后面，补充说明拿起听筒时手指的状态，是方式状语，不是修饰receiver的定语。"
+    },
+    {
+      "title": "when 引导的时间从句",
+      "text": "when I recognized the voice of Mrs Bates 说明“感到沮丧”发生的时间点，即一认出声音就产生了沮丧的情绪。"
+    },
+    {
+      "title": "the voice of Mrs Bates 的所属关系",
+      "text": "of Mrs Bates 用来表示 voice 的所属，意思是“贝茨夫人的声音”，相当于把修饰语放在被修饰名词后面。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅单词picked的释义表述不够精准，调整为符合词义解析规范的说法，其余字段无需修改。（非逐句人工审核）"
+}

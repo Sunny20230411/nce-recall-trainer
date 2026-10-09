@@ -1,0 +1,284 @@
+{
+  "chinese": "去年，我们横渡英吉利海峡时，简把一张写有她姓名和地址的纸条装进了瓶子里。",
+  "intent": "讲述去年横渡英吉利海峡期间发生的两件相关事：我们正在旅行，简把写有姓名地址的纸条放进了瓶子。",
+  "comparison": {
+    "chinese": "去年，我们横渡英吉利海峡时，简把一张写着她姓名和地址的纸条装进瓶子里。",
+    "english": "Last year, we were travelling across the Channel and Jane put a piece of paper with her name and address on it into a bottle.",
+    "steps": [
+      {
+        "label": "先抓时间背景和并列的两件事",
+        "text": "Last year, we were travelling across the Channel and Jane put... into a bottle",
+        "explanation": "中文会先说“横渡海峡时”作为时间背景，再讲主句“简把纸条装进瓶子”；英文用and并列两个分句，前一个用过去进行时体现“当时正在旅行”的背景，后一个是发生的具体动作。"
+      },
+      {
+        "label": "再看纸条的修饰方式",
+        "text": "a piece of paper with her name and address on it",
+        "explanation": "中文把修饰放在名词前面：“写有姓名地址的纸条”；英文把修饰语with... on it放在paper后面，补充说明纸上有什么内容，it指代前面的paper。"
+      }
+    ],
+    "takeaway": "英文习惯把长修饰放在名词后面，用with引出附带内容；中文习惯把修饰集中放在名词前面。并列句中过去进行时可以提供动作发生的背景时间。"
+  },
+  "backbone": {
+    "text": "We were travelling across the Channel and Jane put a piece of paper into a bottle.",
+    "meaning": "我们当时正在横渡海峡，简把一张纸放进了一个瓶子里。"
+  },
+  "structureNotes": [
+    {
+      "title": "and连接的并列句",
+      "text": "and连接两个并列分句，前一分句用过去进行时交代背景时间“当时我们正在横渡海峡”，后一分句用一般过去时叙述在这个背景下发生的具体动作。"
+    },
+    {
+      "title": "with复合结构作定语",
+      "text": "with her name and address on it 修饰前面的a piece of paper，说明纸上附带的内容，it指代paper，避免重复。"
+    },
+    {
+      "title": "put的宾语与地点状语语序",
+      "text": "put sth into sth 表示“把某物放进某处”，本句中sth部分较长（a piece of paper with...on it），仍保持 put + 宾语 + into + 地点 的语序。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Last year,",
+      "role": "时间状语",
+      "explanation": "说明整个句子动作发生的时间是去年。"
+    },
+    {
+      "text": "we were travelling across the Channel",
+      "role": "第一个并列分句",
+      "explanation": "过去进行时，交代过去某个时间正在进行的动作，作事件背景。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个并列分句，表示两个动作同时或相继发生。"
+    },
+    {
+      "text": "Jane put a piece of paper with her name and address on it into a bottle.",
+      "role": "第二个并列分句",
+      "explanation": "一般过去时，叙述在旅行背景下发生的具体事件，主语是Jane，谓语是put，宾语是a piece of paper，into a bottle是地点状语。"
+    },
+    {
+      "text": "with her name and address on it",
+      "role": "后置定语/伴随修饰",
+      "explanation": "修饰a piece of paper，说明纸上写有她的姓名和地址，it指代paper。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Last",
+      "meaning": "上一个的，刚过去的",
+      "pos": "形容词",
+      "phonetic": "/lɑːst/"
+    },
+    {
+      "text": "year,",
+      "meaning": "年",
+      "pos": "名词",
+      "phonetic": "/jɪə/"
+    },
+    {
+      "text": "we",
+      "meaning": "我们",
+      "pos": "代词",
+      "phonetic": "/wiː/"
+    },
+    {
+      "text": "were",
+      "meaning": "be动词过去式复数，与travelling构成过去进行时",
+      "pos": "助动词",
+      "phonetic": "/wɜː/"
+    },
+    {
+      "text": "travelling",
+      "meaning": "旅行，行进（现在分词）",
+      "pos": "动词",
+      "phonetic": "/ˈtrævəlɪŋ/"
+    },
+    {
+      "text": "across",
+      "meaning": "横跨，穿过",
+      "pos": "介词",
+      "phonetic": "/əˈkrɒs/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定冠词，特指）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "Channel",
+      "meaning": "海峡，英吉利海峡（首字母大写）",
+      "pos": "名词",
+      "phonetic": "/ˈtʃænl/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "Jane",
+      "meaning": "简（女子名）",
+      "pos": "名词",
+      "phonetic": "/dʒeɪn/"
+    },
+    {
+      "text": "put",
+      "meaning": "放，放置（过去式）",
+      "pos": "动词",
+      "phonetic": "/pʊt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（张），不定冠词",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "piece",
+      "meaning": "片，张，块",
+      "pos": "名词",
+      "phonetic": "/piːs/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表示所属或数量单位）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "paper",
+      "meaning": "纸",
+      "pos": "名词",
+      "phonetic": "/ˈpeɪpə/"
+    },
+    {
+      "text": "with",
+      "meaning": "带有，附有",
+      "pos": "介词",
+      "phonetic": "/wɪð/"
+    },
+    {
+      "text": "her",
+      "meaning": "她的",
+      "pos": "物主形容词",
+      "phonetic": "/hɜː/"
+    },
+    {
+      "text": "name",
+      "meaning": "名字，姓名",
+      "pos": "名词",
+      "phonetic": "/neɪm/"
+    },
+    {
+      "text": "and",
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "address",
+      "meaning": "地址",
+      "pos": "名词",
+      "phonetic": "/əˈdres/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指代纸条）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "into",
+      "meaning": "到……里面，进入",
+      "pos": "介词",
+      "phonetic": "/ˈɪntuː/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个，不定冠词",
+      "pos": "限定词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "bottle.",
+      "meaning": "瓶子",
+      "pos": "名词",
+      "phonetic": "/ˈbɒtl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Last year,",
+      "relation": "时间",
+      "meaning": "去年"
+    },
+    {
+      "text": "we were travelling across the Channel",
+      "relation": "第一个并列事件，作背景",
+      "meaning": "我们当时正在横渡英吉利海峡"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列分句",
+      "meaning": "并且"
+    },
+    {
+      "text": "Jane",
+      "relation": "第二个分句的动作发出者",
+      "meaning": "简"
+    },
+    {
+      "text": "put",
+      "relation": "第二个分句的动作",
+      "meaning": "把……放进"
+    },
+    {
+      "text": "a piece of paper",
+      "relation": "动作的对象",
+      "meaning": "一张纸"
+    },
+    {
+      "text": "with her name and address on it",
+      "relation": "补充说明这张纸附带的内容，修饰“纸”",
+      "meaning": "上面有她的姓名和地址（的）"
+    },
+    {
+      "text": "into a bottle.",
+      "relation": "动作的去向/地点",
+      "meaning": "进入一个瓶子里"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-022",
+  "sentenceId": "nce-2-lesson-022-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Last year, we were travelling across the Channel and Jane put a piece of paper with her name and address on it into a bottle.",
+  "lesson": "Lesson 22 A glass envelope",
+  "notes": [
+    {
+      "title": "and连接的并列句",
+      "text": "and连接两个并列分句，前一分句用过去进行时交代背景时间“当时我们正在横渡海峡”，后一分句用一般过去时叙述在这个背景下发生的具体动作。"
+    },
+    {
+      "title": "with复合结构作定语",
+      "text": "with her name and address on it 修饰前面的a piece of paper，说明纸上附带的内容，it指代paper，避免重复。"
+    },
+    {
+      "title": "put的宾语与地点状语语序",
+      "text": "put sth into sth 表示“把某物放进某处”，本句中sth部分较长（a piece of paper with...on it），仍保持 put + 宾语 + into + 地点 的语序。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：仅单词释义、词性、结构说明存在少量小问题：词项不应将标点纳入释义与词性说明，put sth into sth 不是双宾语结构，其余内容基本准确。（非逐句人工审核）"
+}

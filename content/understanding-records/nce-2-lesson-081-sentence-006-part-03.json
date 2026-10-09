@@ -1,0 +1,83 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-081",
+  "sentenceId": "nce-2-lesson-081-sentence-006-part-03",
+  "sentenceOrder": 9,
+  "english": "stopped at the camp gates.",
+  "chinese": "停在了营地大门口。",
+  "lesson": "Lesson 81 Escape",
+  "intent": "补全车辆到来的动作",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "stopped",
+      "relation": "车辆动作",
+      "meaning": "停下"
+    },
+    {
+      "text": "at the camp gates.",
+      "relation": "停靠位置",
+      "meaning": "在营地大门处"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "主语在前段",
+      "text": "stopped 的主语是前段的大黑车。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "主语在前段",
+      "text": "stopped 的主语是前段的大黑车。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "stopped",
+      "role": "谓语",
+      "explanation": "一般过去时，承接前段主语。"
+    },
+    {
+      "text": "at the camp gates.",
+      "role": "地点状语",
+      "explanation": "说明停车位置。"
+    }
+  ],
+  "words": [
+    {
+      "text": "stopped",
+      "meaning": "停下",
+      "pos": "动词过去式",
+      "phonetic": "/stɒpt/"
+    },
+    {
+      "text": "at",
+      "meaning": "在",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "该",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "camp",
+      "meaning": "营地",
+      "pos": "名词作定语",
+      "phonetic": "/kæmp/"
+    },
+    {
+      "text": "gates.",
+      "meaning": "大门",
+      "pos": "名词复数",
+      "phonetic": "/ɡeɪts/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

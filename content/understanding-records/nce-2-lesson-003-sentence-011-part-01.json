@@ -1,0 +1,125 @@
+{
+  "chinese": "我在自己的房间里待了一整天，",
+  "intent": "陈述自己一整天都在房间里度过的情况，交代该分句事实，为后文说一张明信片都没写做铺垫。",
+  "comparison": null,
+  "backbone": {
+    "text": "I spent the whole day in my room",
+    "meaning": "我一整天都在房间里度过。"
+  },
+  "structureNotes": [
+    {
+      "title": "spend 的用法",
+      "text": "spend 在这里表示“花费（时间）”，宾语是 the whole day，后面用 in my room 说明花时间的地点。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指代说话人本人，是动作 spent 的发出者。"
+    },
+    {
+      "text": "spent",
+      "role": "谓语动词",
+      "explanation": "spend 的过去式，表达过去花费时间的行为。"
+    },
+    {
+      "text": "the whole day",
+      "role": "宾语",
+      "explanation": "表示被花费的对象，也就是一整天的时间。"
+    },
+    {
+      "text": "in my room,",
+      "role": "地点状语",
+      "explanation": "说明花费一整天时间所在的地点是自己的房间，句末逗号表示分句未完，后面还有内容。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "spent",
+      "meaning": "花费（时间），度过",
+      "pos": "动词",
+      "phonetic": "/spent/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（指特定的一天）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "whole",
+      "meaning": "整个的，全部的",
+      "pos": "形容词",
+      "phonetic": "/həʊl/"
+    },
+    {
+      "text": "day",
+      "meaning": "一天，白天",
+      "pos": "名词",
+      "phonetic": "/deɪ/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "room,",
+      "meaning": "房间",
+      "pos": "名词",
+      "phonetic": "/ruːm/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "spent",
+      "relation": "主干动作",
+      "meaning": "花费、度过"
+    },
+    {
+      "text": "the whole day",
+      "relation": "被花费的时间",
+      "meaning": "一整天"
+    },
+    {
+      "text": "in my room,",
+      "relation": "地点（在哪里度过）",
+      "meaning": "在我的房间里，"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-003",
+  "sentenceId": "nce-2-lesson-003-sentence-011-part-01",
+  "sentenceOrder": 11,
+  "english": "I spent the whole day in my room,",
+  "lesson": "Lesson 3 Please send me a card",
+  "notes": [
+    {
+      "title": "spend 的用法",
+      "text": "spend 在这里表示“花费（时间）”，宾语是 the whole day，后面用 in my room 说明花时间的地点。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：1. 中文翻译遗漏了原文核心动作spent，仅说“在我的房间”没有体现“花费时间度过”的含义，且结合上下文分句关系表意不完整；2. 词项room的释义末尾误带逗号，标点是text的约定附带内容，不应写入词义；3. 主干表意与翻译存在重复表达问题，需统一准确表述；其余内容符合规范。（非逐句人工审核）"
+}

@@ -1,0 +1,118 @@
+{
+  "chinese": "“你会留在英国吗？”我问道。",
+  "intent": "我向对方询问对方是否将要留在英国。",
+  "comparison": null,
+  "backbone": {
+    "text": "I asked, ‘Will you be staying in England?’",
+    "meaning": "我询问对方：你是否将要留在英国？"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语疑问句的语序",
+      "text": "引语里是一般将来进行时的一般疑问句，把助动词Will放到主语you前面，用来礼貌地询问对方接下来的安排。"
+    },
+    {
+      "title": "引语与说话人的位置",
+      "text": "英文里引语在前、说话人在后时，说话人“I asked”放在句末，中文也可以按同样顺序表达，不需要调整前后。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘Will you be staying in England?’",
+      "role": "直接引语（宾语）",
+      "explanation": "这是asked的具体内容，是一个完整的一般疑问句，直接引用我说出的问话。"
+    },
+    {
+      "text": "Will you be staying",
+      "role": "引语里的谓语部分",
+      "explanation": "由will + be + staying构成将来进行时，用来询问对方将来一段时间内的停留安排，语气比一般将来时更委婉自然。"
+    },
+    {
+      "text": "I asked.",
+      "role": "主句（主谓结构）",
+      "explanation": "交代说话人和“问”这个动作，是整句话的主干动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘Will",
+      "meaning": "将要（助动词，引出将来时疑问句）",
+      "pos": "modal verb",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "pronoun",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "be",
+      "meaning": "是（be动词原形，与staying搭配构成进行时）",
+      "pos": "verb",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "staying",
+      "meaning": "停留；逗留",
+      "pos": "verb",
+      "phonetic": "/ˈsteɪɪŋ/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（某地）",
+      "pos": "preposition",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "England?’",
+      "meaning": "英格兰",
+      "pos": "proper noun",
+      "phonetic": "/ˈɪŋɡlənd/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "pronoun",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "asked.",
+      "meaning": "问；询问",
+      "pos": "verb",
+      "phonetic": "/ɑːskt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘Will you be staying in England?’",
+      "relation": "询问的具体内容（直接引语）",
+      "meaning": "“你会留在英国吗？”"
+    },
+    {
+      "text": "I asked.",
+      "relation": "发出询问动作的人和动作本身",
+      "meaning": "我问道。"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-040",
+  "sentenceId": "nce-2-lesson-040-sentence-011",
+  "sentenceOrder": 12,
+  "english": "‘Will you be staying in England?’ I asked.",
+  "lesson": "Lesson 40 Food and talk",
+  "notes": [
+    {
+      "title": "直接引语疑问句的语序",
+      "text": "引语里是一般将来进行时的一般疑问句，把助动词Will放到主语you前面，用来礼貌地询问对方接下来的安排。"
+    },
+    {
+      "title": "引语与说话人的位置",
+      "text": "英文里引语在前、说话人在后时，说话人“I asked”放在句末，中文也可以按同样顺序表达，不需要调整前后。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本正确，需修正少量单词的词性标注格式、音标标注规范及释义标点，其余内容无需改动。（非逐句人工审核）"
+}

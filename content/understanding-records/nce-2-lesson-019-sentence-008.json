@@ -1,0 +1,113 @@
+{
+  "chinese": "“我能退这两张票吗？”他问道。",
+  "intent": "转述一名男子向售票处提出的退票请求，记录他的问话内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "he asked a question: can I return these two tickets?",
+    "meaning": "他问了一个问题：我能不能退掉这两张票。（为理解主干还原，不是原文改写）"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语与引述句的位置",
+      "text": "本句先把说话的具体内容用引号放在前面，再交代说话人 he asked，属于直接引语的常见倒装语序之一，重点先突出问话内容。"
+    },
+    {
+      "title": "Can 开头的一般疑问句",
+      "text": "Can I return…? 是请求许可的问句，can 提在主语 I 前面，意思是“我能不能……”，用来客气地询问是否允许退票。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘Can I return these two tickets?’",
+      "role": "直接引语（宾语）",
+      "explanation": "这是 he asked 的具体内容，是一句完整的一般疑问句，充当 asked 的引述内容。"
+    },
+    {
+      "text": "he asked.",
+      "role": "主句主谓语",
+      "explanation": "交代说话的人是“他”，动作是“问”，是整句话的主干叙述部分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘Can",
+      "meaning": "能、可以",
+      "pos": "情态动词",
+      "phonetic": "/kæn/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "return",
+      "meaning": "退还，退回",
+      "pos": "动词",
+      "phonetic": "/rɪˈtɜːn/"
+    },
+    {
+      "text": "these",
+      "meaning": "这些",
+      "pos": "限定词",
+      "phonetic": "/ðiːz/"
+    },
+    {
+      "text": "two",
+      "meaning": "两张，两个",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "tickets?’",
+      "meaning": "票",
+      "pos": "名词",
+      "phonetic": "/ˈtɪkɪts/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "asked.",
+      "meaning": "问道，问了",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘Can I return these two tickets?’",
+      "relation": "说话的具体内容",
+      "meaning": "“我能退这两张票吗？”"
+    },
+    {
+      "text": "he asked.",
+      "relation": "叙述说话人和说话动作",
+      "meaning": "他问道。"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-019",
+  "sentenceId": "nce-2-lesson-019-sentence-008",
+  "sentenceOrder": 8,
+  "english": "‘Can I return these two tickets?’ he asked.",
+  "lesson": "Lesson 19 Sold out",
+  "notes": [
+    {
+      "title": "直接引语与引述句的位置",
+      "text": "本句先把说话的具体内容用引号放在前面，再交代说话人 he asked，属于直接引语的常见倒装语序之一，重点先突出问话内容。"
+    },
+    {
+      "title": "Can 开头的一般疑问句",
+      "text": "Can I return…? 是请求许可的问句，can 提在主语 I 前面，意思是“我能不能……”，用来客气地询问是否允许退票。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅单词释义中带有不必要的标点说明，且音标需注意规范；修正后即可使用。（非逐句人工审核）"
+}

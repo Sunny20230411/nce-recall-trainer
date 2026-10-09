@@ -1,0 +1,128 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-041",
+  "sentenceId": "nce-2-lesson-041-sentence-011",
+  "sentenceOrder": 11,
+  "english": "‘And a woman can't have too many hats,’ she answered.",
+  "chinese": "“那么女人的帽子也再多不嫌多。”她回答。",
+  "lesson": "Lesson 41 Do you call that a hat?",
+  "intent": "妻子沿用丈夫的理由为买帽子辩护",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "‘And a woman",
+      "relation": "承接与对应对象",
+      "meaning": "而女人也一样"
+    },
+    {
+      "text": "can't have too many hats,’",
+      "relation": "对应的观点",
+      "meaning": "帽子再多也不嫌多"
+    },
+    {
+      "text": "she answered.",
+      "relation": "回答者与动作",
+      "meaning": "她回答"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "否定范围",
+      "text": "can't have too many在此意为不可能多到过分，因此表达不嫌多；需结合这一争辩语境理解。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "否定范围",
+      "text": "can't have too many在此意为不可能多到过分，因此表达不嫌多；需结合这一争辩语境理解。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "And",
+      "role": "承接连词",
+      "explanation": "把本句与丈夫关于领带的说法联系起来。"
+    },
+    {
+      "text": "a woman",
+      "role": "引语中的主语",
+      "explanation": "泛指女人，与a man形成对应。"
+    },
+    {
+      "text": "can't have too many hats,",
+      "role": "引语中的谓语与宾语",
+      "explanation": "沿用丈夫的逻辑说帽子不嫌多。"
+    },
+    {
+      "text": "she answered.",
+      "role": "引述主句",
+      "explanation": "说明妻子作出回应。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘And",
+      "meaning": "而且，也",
+      "pos": "并列连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "a",
+      "meaning": "泛指一类中的个体",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "woman",
+      "meaning": "女人",
+      "pos": "名词",
+      "phonetic": "/ˈwʊmən/"
+    },
+    {
+      "text": "can't",
+      "meaning": "不可能",
+      "pos": "情态动词否定缩合形式",
+      "phonetic": "/kɑːnt/"
+    },
+    {
+      "text": "have",
+      "meaning": "拥有",
+      "pos": "动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "too",
+      "meaning": "过于",
+      "pos": "程度副词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "many",
+      "meaning": "许多",
+      "pos": "数量限定词",
+      "phonetic": "/ˈmeni/"
+    },
+    {
+      "text": "hats,’",
+      "meaning": "帽子",
+      "pos": "名词",
+      "phonetic": "/hæts/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "人称代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "answered.",
+      "meaning": "回答",
+      "pos": "动词",
+      "phonetic": "/ˈɑːnsəd/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

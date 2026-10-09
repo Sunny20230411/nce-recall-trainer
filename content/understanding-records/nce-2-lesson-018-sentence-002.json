@@ -1,0 +1,170 @@
+{
+  "chinese": "我之前把它落在门边的椅子上，可现在它不在那儿了！",
+  "intent": "说明两个先后关联的情况：先前把包落在椅子上，现在找不到了，交代丢包的经过。",
+  "comparison": null,
+  "backbone": {
+    "text": "I had left it on a chair and it wasn't there.",
+    "meaning": "我把它落在椅子上，而它不在那儿了。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去完成时的时间参照",
+      "text": "前半句用had left，表示“落下”这个动作发生在过去更早的时间，参照点是后文“现在找不到”的那个过去时刻。"
+    },
+    {
+      "title": "beside 表示位置关系",
+      "text": "beside the door 是介词短语，说明椅子的位置在门旁边，用来补充修饰chair。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "had left",
+      "role": "过去完成时谓语",
+      "explanation": "表示在过去某个时间点之前已经发生的动作，这里指在发现包不见之前，已经把包落下了。"
+    },
+    {
+      "text": "on a chair beside the door",
+      "role": "地点状语",
+      "explanation": "说明落下东西的具体位置，其中beside the door进一步限定是哪一把椅子。"
+    },
+    {
+      "text": "and now it wasn't there!",
+      "role": "并列分句",
+      "explanation": "由and连接，转折性地说明现在的结果，和前一句的过去动作形成时间上的对照。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "had",
+      "meaning": "（助动词，构成过去完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "left",
+      "meaning": "落下，忘带",
+      "pos": "动词（过去分词）",
+      "phonetic": "/left/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指包）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "on",
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一把",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "chair",
+      "meaning": "椅子",
+      "pos": "名词",
+      "phonetic": "/tʃeə(r)/"
+    },
+    {
+      "text": "beside",
+      "meaning": "在……旁边",
+      "pos": "介词",
+      "phonetic": "/bɪˈsaɪd/"
+    },
+    {
+      "text": "the",
+      "meaning": "（表特指）这个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "door",
+      "meaning": "门",
+      "pos": "名词",
+      "phonetic": "/dɔː(r)/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，而",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "now",
+      "meaning": "现在",
+      "pos": "副词",
+      "phonetic": "/naʊ/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指包）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "wasn't",
+      "meaning": "不在",
+      "pos": "动词短语（was not的缩写）",
+      "phonetic": "/ˈwɒznt/"
+    },
+    {
+      "text": "there!",
+      "meaning": "在那里",
+      "pos": "副词（地点副词）",
+      "phonetic": "/ðeə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I had left it",
+      "relation": "前半句话的主干：主语+过去完成时谓语+宾语",
+      "meaning": "我已经把它落下了"
+    },
+    {
+      "text": "on a chair beside the door",
+      "relation": "地点：说明落下东西的位置",
+      "meaning": "在门旁边的一把椅子上"
+    },
+    {
+      "text": "and",
+      "relation": "连接：把前后两种情况连起来",
+      "meaning": "而，并且"
+    },
+    {
+      "text": "now it wasn't there!",
+      "relation": "后半句话：说明现在的结果",
+      "meaning": "现在它不在那儿了"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-018",
+  "sentenceId": "nce-2-lesson-018-sentence-002",
+  "sentenceOrder": 2,
+  "english": "I had left it on a chair beside the door and now it wasn't there!",
+  "lesson": "Lesson 18 He often does this!",
+  "notes": [
+    {
+      "title": "过去完成时的时间参照",
+      "text": "前半句用had left，表示“落下”这个动作发生在过去更早的时间，参照点是后文“现在找不到”的那个过去时刻。"
+    },
+    {
+      "title": "beside 表示位置关系",
+      "text": "beside the door 是介词短语，说明椅子的位置在门旁边，用来补充修饰chair。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅单词项中there的词性标注需细化、且标点不应归入词义，其余内容符合要求。（非逐句人工审核）"
+}

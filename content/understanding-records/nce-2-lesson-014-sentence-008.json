@@ -1,0 +1,222 @@
+{
+  "chinese": "我快到镇上时，那个年轻人突然开口，慢吞吞地说：「你会讲英语吗？」",
+  "intent": "叙述旅途中临近城镇时，同行年轻人突然用英语提问的一个突发场景。",
+  "comparison": {
+    "chinese": "我快到镇上的时候，那个年轻人突然慢吞吞地说：「你会讲英语吗？」",
+    "english": "I had nearly reached the town, when the young man suddenly said, very slowly, ‘Do you speak English?’",
+    "steps": [
+      {
+        "label": "先抓主句背景",
+        "text": "I had nearly reached the town",
+        "explanation": "先交代“我差不多到达城镇”这一即将发生的进展，这是故事当时已经推进到的背景。"
+      },
+      {
+        "label": "再用when引出突发动作",
+        "text": "when the young man suddenly said",
+        "explanation": "when在这里不是单纯“当…时”，而是引出一件在前面那个时间点突然发生的事，相当于“就在这时”。"
+      },
+      {
+        "label": "补充说话方式和引语",
+        "text": "very slowly, ‘Do you speak English?’",
+        "explanation": "先插入说话的速度，再直接给出问话内容，符合英文把引语放在动作后面的习惯。"
+      }
+    ],
+    "takeaway": "中文习惯先说“在…的时候”再讲发生了什么；这句英文先讲主句的进展，再用when带出突然发生的新事件，when接近“就在这时”的感觉。"
+  },
+  "backbone": {
+    "text": "I had nearly reached the town, when the young man said ‘Do you speak English?’",
+    "meaning": "我快到镇上时，那个年轻人问我会不会讲英语。"
+  },
+  "structureNotes": [
+    {
+      "title": "when的特殊用法",
+      "text": "这里when不是引导普通时间状语表示“每当”，而是接在一个过去进展的主句后，引出突然发生的并列事件，意思接近“就在这时、突然”。"
+    },
+    {
+      "title": "插入语说明说话方式",
+      "text": "very slowly放在said和引语之间，是插入性状语，补充说明说话的速度，不影响主句“年轻人说了某句话”的主干。"
+    },
+    {
+      "title": "直接引语的疑问句",
+      "text": "引语‘Do you speak English?’是完整的一般疑问句，作said的内容；助动词do提前用来构成疑问，问对方是否具备说英语的能力。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I had nearly reached the town",
+      "role": "主句",
+      "explanation": "交代过去某个时间点之前几乎完成的动作：我快到城镇了，提供事件发生的时间背景。"
+    },
+    {
+      "text": "when the young man suddenly said",
+      "role": "并列分句（引出突发事件）",
+      "explanation": "when在这里连接前后两件事，表示在前面所述的时间点上，突然发生了年轻人说话这件事。"
+    },
+    {
+      "text": "very slowly",
+      "role": "方式状语（插入语）",
+      "explanation": "修饰said，说明年轻人说话的方式很慢，插在谓语和引语之间。"
+    },
+    {
+      "text": "‘Do you speak English?’",
+      "role": "直接引语（宾语）",
+      "explanation": "是said的具体内容，为直接引语，本身是一个一般疑问句。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "had",
+      "meaning": "（构成过去完成时的助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "nearly",
+      "meaning": "几乎，差不多",
+      "pos": "副词",
+      "phonetic": "/ˈnɪəli/"
+    },
+    {
+      "text": "reached",
+      "meaning": "到达，抵达",
+      "pos": "动词（过去分词，与had构成过去完成时）",
+      "phonetic": "/riːtʃt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "town,",
+      "meaning": "城镇，镇子",
+      "pos": "名词",
+      "phonetic": "/taʊn/"
+    },
+    {
+      "text": "when",
+      "meaning": "就在这时；当…的时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "young",
+      "meaning": "年轻的",
+      "pos": "形容词",
+      "phonetic": "/jʌŋ/"
+    },
+    {
+      "text": "man",
+      "meaning": "男人，男子",
+      "pos": "名词",
+      "phonetic": "/mæn/"
+    },
+    {
+      "text": "suddenly",
+      "meaning": "突然地",
+      "pos": "副词",
+      "phonetic": "/ˈsʌdənli/"
+    },
+    {
+      "text": "said,",
+      "meaning": "说，讲",
+      "pos": "动词（过去式）",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "very",
+      "meaning": "很，非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "slowly,",
+      "meaning": "缓慢地",
+      "pos": "副词",
+      "phonetic": "/ˈsləʊli/"
+    },
+    {
+      "text": "‘Do",
+      "meaning": "（构成疑问句的助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/duː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你，你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "speak",
+      "meaning": "说，讲（语言）",
+      "pos": "动词",
+      "phonetic": "/spiːk/"
+    },
+    {
+      "text": "English?’",
+      "meaning": "英语",
+      "pos": "名词",
+      "phonetic": "/ˈɪŋɡlɪʃ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I had nearly reached the town,",
+      "meaning": "我快到镇上了",
+      "relation": "事件发生的背景（主句）"
+    },
+    {
+      "text": "when the young man suddenly said,",
+      "meaning": "就在这时那个年轻人突然说道",
+      "relation": "引出突发动作"
+    },
+    {
+      "text": "very slowly,",
+      "meaning": "非常缓慢地",
+      "relation": "补充说话的方式"
+    },
+    {
+      "text": "‘Do you speak English?’",
+      "meaning": "「你会讲英语吗？」",
+      "relation": "说话的具体内容"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-014",
+  "sentenceId": "nce-2-lesson-014-sentence-008",
+  "sentenceOrder": 9,
+  "english": "I had nearly reached the town, when the young man suddenly said, very slowly, ‘Do you speak English?’",
+  "lesson": "Lesson 14 Do you speak English?",
+  "notes": [
+    {
+      "title": "when的特殊用法",
+      "text": "这里when不是引导普通时间状语表示“每当”，而是接在一个过去进展的主句后，引出突然发生的并列事件，意思接近“就在这时、突然”。"
+    },
+    {
+      "title": "插入语说明说话方式",
+      "text": "very slowly放在said和引语之间，是插入性状语，补充说明说话的速度，不影响主句“年轻人说了某句话”的主干。"
+    },
+    {
+      "title": "直接引语的疑问句",
+      "text": "引语‘Do you speak English?’是完整的一般疑问句，作said的内容；助动词do提前用来构成疑问，问对方是否具备说英语的能力。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文解析整体逻辑正确，仅存在音标、单词语义及部分表述的小问题需修正：1. 单词nearly的英式音标标注错误，应为/ˈnɪəli/（原标注拼写不规范）；2. 单词reached的词性标注不准确，过去完成时中had为助动词，reached是实义动词的过去分词，需明确说明；3. 单词man的释义仅写“男人，人”不够精准，结合语境指“年轻人”里的男性个体，补充更贴合的语境说明；4. 单词‘Do的text保留原文前引号是约定，但其音标和释义正确，无需修改；5. parts中第一部分的meaning“我几乎已经到达城镇”可调整为更符合中文表达的“我快到镇上了”，更贴合语境；6. comparison的steps组织合理，无需改动，但takeaway表述可更精准。（非逐句人工审核）"
+}

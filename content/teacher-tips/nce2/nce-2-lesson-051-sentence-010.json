@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-051",
+  "sentenceId": "nce-2-lesson-051-sentence-010",
+  "english": "It contained five large bars of chocolate and three bags of sweets!",
+  "text": "中文说“里面有”很容易想到 there were，这里用 It contained... 更顺，因为 it 直接承接前面的 parcel，焦点还在包裹上。介绍容器里装的东西，用 contain 比 there be 更自然地把话题接回这个容器本身。",
+  "sourceDigest": "6c29c332a2cfd803c23578d1b67452d94833a73de89c07351ebbbbff331167eb",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：点透了 contain 与 there be 的焦点差异，解决了中文“有”对应的常见选择困惑。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "选点准确，对比contain和there be的表达角度差异，迁移具体实用。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

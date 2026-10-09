@@ -1,0 +1,121 @@
+{
+  "chinese": "那座大钟不肯迎接新年。",
+  "intent": "陈述大钟没有做出迎接新年的动作，暗含一种拟人化的冷淡态度。",
+  "comparison": null,
+  "backbone": {
+    "text": "The big clock refused to welcome the New Year.",
+    "meaning": "大钟拒绝迎接新年。"
+  },
+  "structureNotes": [
+    {
+      "title": "refuse 后接不定式的用法",
+      "text": "refused 后面跟 to welcome the New Year，用来表示拒绝做的具体事情，也就是“不肯去做迎接新年这件事”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The big clock",
+      "role": "主语",
+      "explanation": "指句子描述的主体，也就是那座大钟。"
+    },
+    {
+      "text": "refused to welcome the New Year",
+      "role": "谓语部分",
+      "explanation": "表示主语做出的动作：拒绝迎接新年；refused 是核心动词，to welcome the New Year 说明拒绝的具体内容。"
+    },
+    {
+      "text": "to welcome the New Year",
+      "role": "动词 refuse 的宾语（不定式短语）",
+      "explanation": "用来说明 refused 的具体内容，即被拒绝去做的那件事是迎接新年。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这个，那个（用于特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "big",
+      "meaning": "大的",
+      "pos": "形容词",
+      "phonetic": "/bɪɡ/"
+    },
+    {
+      "text": "clock",
+      "meaning": "钟，时钟",
+      "pos": "名词",
+      "phonetic": "/klɒk/"
+    },
+    {
+      "text": "refused",
+      "meaning": "拒绝，不肯（过去式）",
+      "pos": "动词",
+      "phonetic": "/rɪˈfjuːzd/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式标记",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "welcome",
+      "meaning": "欢迎，迎接",
+      "pos": "动词",
+      "phonetic": "/ˈwelkəm/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（用于特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "New",
+      "meaning": "新的",
+      "pos": "形容词",
+      "phonetic": "/njuː/"
+    },
+    {
+      "text": "Year.",
+      "meaning": "年",
+      "pos": "名词",
+      "phonetic": "/jɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The big clock",
+      "relation": "描述的主体",
+      "meaning": "那座大钟"
+    },
+    {
+      "text": "refused",
+      "relation": "主体的动作",
+      "meaning": "拒绝、不肯"
+    },
+    {
+      "text": "to welcome the New Year.",
+      "relation": "补充说明拒绝的具体内容",
+      "meaning": "迎接新年"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-009",
+  "sentenceId": "nce-2-lesson-009-sentence-011",
+  "sentenceOrder": 11,
+  "english": "The big clock refused to welcome the New Year.",
+  "lesson": "Lesson 9 A cold welcome",
+  "notes": [
+    {
+      "title": "refuse 后接不定式的用法",
+      "text": "refused 后面跟 to welcome the New Year，用来表示拒绝做的具体事情，也就是“不肯去做迎接新年这件事”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：有两处可修正的细节问题：1. 单词Year.的释义末尾误带句点，需删除标点仅保留词义；2. 不定式短语to welcome the New Year的语法角色是动词refuse的宾语，属于宾语（不定式短语），原structures中第三项的role表述准确但parts的relation表述无语法错误，整体内容基本可用，修正后符合要求。（非逐句人工审核）"
+}

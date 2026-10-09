@@ -1,0 +1,69 @@
+{
+  "chinese": "虽然先生（…，片段，语义不完整）",
+  "intent": "这是一个不完整的让步状语从句开头，用于引出与后文情况相反的前提。",
+  "comparison": null,
+  "backbone": {
+    "text": "Though Mr.",
+    "meaning": "（辅助理解：这只是让步分句的起始部分，语义不完整，仅给出让步关系标记和对人物的尊称开头，后续通常接姓氏和完整陈述内容）"
+  },
+  "structureNotes": [
+    {
+      "title": "片段属性说明",
+      "text": "这是原文句子的前两个词，仅构成让步从句的开头部分，没有完整语义，需结合后文的人物姓氏和陈述内容才能表达完整的“虽然某人做了某事”的让步含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Though",
+      "role": "让步关系标记词",
+      "explanation": "用于引导让步状语从句，提示后续陈述的内容是和主句情况相反的前提，相当于中文的“虽然、尽管”。"
+    },
+    {
+      "text": "Mr.",
+      "role": "人物尊称前缀",
+      "explanation": "是对男性的礼貌称呼，全称是Mister，后面必须接姓氏才能完整指代具体的人，这里只出现了称呼前缀。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "虽然，尽管",
+      "pos": "连词",
+      "phonetic": "/ðəʊ/",
+      "text": "Though"
+    },
+    {
+      "meaning": "先生（称呼语，接姓氏前使用）",
+      "pos": "名词（尊称缩写）",
+      "phonetic": "/ˈmɪstə(r)/",
+      "text": "Mr."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Though",
+      "meaning": "虽然，尽管",
+      "relation": "让步状语从句引导标记"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生（男性尊称，需接姓氏完整指代）",
+      "relation": "从句中待补充姓氏的人物称呼开头"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-047",
+  "sentenceId": "nce-2-lesson-047-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Though Mr.",
+  "lesson": "Lesson 47 A thirsty ghost",
+  "notes": [
+    {
+      "title": "片段属性说明",
+      "text": "这是原文句子的前两个词，仅构成让步从句的开头部分，没有完整语义，需结合后文的人物姓氏和陈述内容才能表达完整的“虽然某人做了某事”的让步含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文为片段，整体方向正确，但中文翻译、主干文本、部分关系表述存在偏差，需修正。（非逐句人工审核）"
+}

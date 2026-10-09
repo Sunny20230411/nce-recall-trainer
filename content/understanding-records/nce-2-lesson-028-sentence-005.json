@@ -1,0 +1,202 @@
+{
+  "chinese": "贾斯珀在自家大门外张贴了“禁止停车”的标志，但这些标志丝毫没有起作用。",
+  "intent": "讲述贾斯珀为解决停车问题采取的张贴标志措施，以及该措施完全没有效果的结果。",
+  "comparison": null,
+  "backbone": {
+    "text": "Jasper has put up ‘No Parking’ signs, but these have not had any effect.",
+    "meaning": "贾斯珀张贴了“禁止停车”标志，但这些标志没有任何效果。"
+  },
+  "structureNotes": [
+    {
+      "title": "转折并列句的逻辑",
+      "text": "整句由 but 连接两个并列分句，前一分句说明采取的行动，后一分句说明行动没有成效，前后形成转折对比。"
+    },
+    {
+      "title": "现在完成时的含义",
+      "text": "两个分句都用现在完成时，分别强调“已经张贴”这个完成的动作，以及“到目前为止没有效果”这个持续到现在的结果。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Jasper has put up ‘No Parking’ signs outside his gate,",
+      "role": "转折前的分句",
+      "explanation": "交代主语贾斯珀做了什么事，以及做这件事的地点，是整个句子的前半部分事实。"
+    },
+    {
+      "text": "but",
+      "role": "转折连词",
+      "explanation": "连接前后两个分句，表明后半句内容和前半句的预期相反。"
+    },
+    {
+      "text": "these have not had any effect.",
+      "role": "转折后的分句",
+      "explanation": "说明前面张贴标志的行动没有产生作用，these 指代前面的 ‘No Parking’ signs。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Jasper",
+      "meaning": "贾斯珀（男子名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈdʒæspə/"
+    },
+    {
+      "text": "has",
+      "meaning": "（助动词，构成现在完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "put",
+      "meaning": "放，放置",
+      "pos": "动词",
+      "phonetic": "/pʊt/"
+    },
+    {
+      "text": "up",
+      "meaning": "（与put构成短语动词put up，意为张贴）",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "‘No",
+      "meaning": "禁止（用于标识）",
+      "pos": "限定词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "Parking’",
+      "meaning": "停车（用于标识）",
+      "pos": "名词",
+      "phonetic": "/ˈpɑːkɪŋ/"
+    },
+    {
+      "text": "signs",
+      "meaning": "标志，标牌",
+      "pos": "名词",
+      "phonetic": "/saɪnz/"
+    },
+    {
+      "text": "outside",
+      "meaning": "在……外面",
+      "pos": "介词",
+      "phonetic": "/ˌaʊtˈsaɪd/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "物主限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "gate,",
+      "meaning": "大门",
+      "pos": "名词",
+      "phonetic": "/ɡeɪt/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "these",
+      "meaning": "这些（指标志）",
+      "pos": "代词",
+      "phonetic": "/ðiːz/"
+    },
+    {
+      "text": "have",
+      "meaning": "（助动词，构成现在完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "had",
+      "meaning": "有，产生",
+      "pos": "动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "any",
+      "meaning": "任何的",
+      "pos": "限定词",
+      "phonetic": "/ˈeni/"
+    },
+    {
+      "text": "effect.",
+      "meaning": "效果，作用",
+      "pos": "名词",
+      "phonetic": "/ɪˈfekt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Jasper",
+      "meaning": "贾斯珀",
+      "relation": "动作的发出者（前一分句主语）"
+    },
+    {
+      "text": "has put up",
+      "meaning": "已经张贴了",
+      "relation": "前一分句的谓语"
+    },
+    {
+      "text": "‘No Parking’ signs",
+      "meaning": "“禁止停车”标志",
+      "relation": "张贴的对象（前一分句宾语）"
+    },
+    {
+      "text": "outside his gate,",
+      "meaning": "在他的大门外",
+      "relation": "张贴的地点（地点状语）"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "relation": "转折连词，连接两个并列分句"
+    },
+    {
+      "text": "these",
+      "meaning": "这些（标志）",
+      "relation": "后一分句的主语"
+    },
+    {
+      "text": "have not had",
+      "meaning": "没有产生过",
+      "relation": "后一分句的谓语"
+    },
+    {
+      "text": "any effect.",
+      "meaning": "任何效果",
+      "relation": "产生的内容（后一分句宾语）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-028",
+  "sentenceId": "nce-2-lesson-028-sentence-005",
+  "sentenceOrder": 9,
+  "english": "Jasper has put up ‘No Parking’ signs outside his gate, but these have not had any effect.",
+  "lesson": "Lesson 28 No parking",
+  "notes": [
+    {
+      "title": "转折并列句的逻辑",
+      "text": "整句由 but 连接两个并列分句，前一分句说明采取的行动，后一分句说明行动没有成效，前后形成转折对比。"
+    },
+    {
+      "title": "现在完成时的含义",
+      "text": "两个分句都用现在完成时，分别强调“已经张贴”这个完成的动作，以及“到目前为止没有效果”这个持续到现在的结果。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：存在几处小问题：单词词性和释义有偏差，“No Parking”作为固定标识短语的词性标注不当，“put up”中up的词性应为副词性小品词（归为副词短语构成部分此处可优化说明但核心是No和Parking的词性及释义），还有单词中的标点混入释义问题，另外“have not had”的relation表述不够精准。（非逐句人工审核）"
+}

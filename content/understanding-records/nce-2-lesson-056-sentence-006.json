@@ -1,0 +1,119 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-056",
+  "sentenceId": "nce-2-lesson-056-sentence-006",
+  "sentenceOrder": 6,
+  "english": "One of the most handsome cars was a Rolls-Royce Silver Ghost.",
+  "chinese": "最漂亮的汽车之一是一辆劳斯莱斯‘银魅’。",
+  "lesson": "Lesson 56 Faster than sound!",
+  "intent": "举出外形出众的一辆参赛车",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "One of the most handsome cars",
+      "relation": "选出的对象",
+      "meaning": "最漂亮的汽车之一"
+    },
+    {
+      "text": "was a Rolls-Royce Silver Ghost.",
+      "relation": "具体车型",
+      "meaning": "是一辆劳斯莱斯‘银魅’"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "从复数范围选一个",
+      "text": "one of 后接复数名词范围，整个主语以 One 为中心，谓语用 was。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "从复数范围选一个",
+      "text": "one of 后接复数名词范围，整个主语以 One 为中心，谓语用 was。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "One of the most handsome cars",
+      "role": "主语名词短语",
+      "explanation": "One 是中心词，of 短语交代选择范围。"
+    },
+    {
+      "text": "was a Rolls-Royce Silver Ghost.",
+      "role": "系表结构",
+      "explanation": "表明所选车辆的车型。"
+    }
+  ],
+  "words": [
+    {
+      "text": "One",
+      "meaning": "一辆",
+      "pos": "数词作代词",
+      "phonetic": "/wʌn/"
+    },
+    {
+      "text": "of",
+      "meaning": "……之中的",
+      "pos": "介词",
+      "phonetic": "/ɒv/ 或 /əv/"
+    },
+    {
+      "text": "the",
+      "meaning": "限定最高级范围",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "most",
+      "meaning": "最",
+      "pos": "程度副词",
+      "phonetic": "/məʊst/"
+    },
+    {
+      "text": "handsome",
+      "meaning": "漂亮的",
+      "pos": "形容词",
+      "phonetic": "/ˈhænsəm/"
+    },
+    {
+      "text": "cars",
+      "meaning": "汽车",
+      "pos": "名词复数",
+      "phonetic": "/kɑːz/"
+    },
+    {
+      "text": "was",
+      "meaning": "是",
+      "pos": "系动词过去式",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一辆",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "Rolls-Royce",
+      "meaning": "劳斯莱斯",
+      "pos": "专有名词",
+      "phonetic": "/ˈrəʊlz rɔɪs/"
+    },
+    {
+      "text": "Silver",
+      "meaning": "银（车型名的一部分）",
+      "pos": "专有名词",
+      "phonetic": "/ˈsɪlvə/"
+    },
+    {
+      "text": "Ghost.",
+      "meaning": "魅（车型名的一部分）",
+      "pos": "专有名词",
+      "phonetic": "/ɡəʊst/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

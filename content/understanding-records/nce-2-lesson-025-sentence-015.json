@@ -1,0 +1,133 @@
+{
+  "chinese": "在英格兰，每个人说的方言都不一样。",
+  "intent": "陈述英格兰地区每个人所使用的方言存在差异这一事实。",
+  "comparison": null,
+  "backbone": {
+    "text": "each person speaks a different dialect",
+    "meaning": "每个人都说一种不同的方言"
+  },
+  "structureNotes": [
+    {
+      "title": "句首介词短语的作用",
+      "text": "句首的“In England,”是地点范围状语，说明后面整句话描述的情况发生在英格兰这个地域内，不修饰单个动词，而是限定整个陈述的适用范围。"
+    },
+    {
+      "title": "each作主语限定词",
+      "text": "each放在person前面，强调整体中的每一个个体，作主语时谓语动词要用第三人称单数形式，本句中speaks就是与之对应的单数形式。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "In England,",
+      "role": "地点状语",
+      "explanation": "说明后面陈述的事实所适用的地理范围，位于句首起限定语境的作用。"
+    },
+    {
+      "text": "each person",
+      "role": "主语",
+      "explanation": "指英格兰范围内的每一个人，each强调整体中的单个个体，作主语时谓语用第三人称单数。"
+    },
+    {
+      "text": "speaks",
+      "role": "谓语动词",
+      "explanation": "是speak的第三人称单数形式，表示“说（某种语言/方言）”，与主语each person在数上保持一致。"
+    },
+    {
+      "text": "a different dialect",
+      "role": "宾语",
+      "explanation": "是动词speaks的对象，表示“一种不同的方言”，说明每个人所说的具体内容存在差异。"
+    }
+  ],
+  "words": [
+    {
+      "text": "In",
+      "meaning": "在（某个地点、范围等里面）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "England,",
+      "meaning": "英格兰（地名）",
+      "pos": "专有名词",
+      "phonetic": "/ˈɪŋɡlənd/"
+    },
+    {
+      "text": "each",
+      "meaning": "每一个；各个",
+      "pos": "限定词",
+      "phonetic": "/iːtʃ/"
+    },
+    {
+      "text": "person",
+      "meaning": "人",
+      "pos": "名词",
+      "phonetic": "/ˈpɜːsn/"
+    },
+    {
+      "text": "speaks",
+      "meaning": "说；讲（某种语言、方言等）",
+      "pos": "动词（第三人称单数现在时）",
+      "phonetic": "/spiːks/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个、种等）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "different",
+      "meaning": "不同的；不一样的",
+      "pos": "形容词",
+      "phonetic": "/ˈdɪfrənt/"
+    },
+    {
+      "text": "dialect.",
+      "meaning": "方言；地方话",
+      "pos": "名词",
+      "phonetic": "/ˈdaɪəlekt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "In England,",
+      "relation": "地点范围，说明后面陈述的适用地域",
+      "meaning": "在英格兰"
+    },
+    {
+      "text": "each person",
+      "relation": "描述对象，即句子的主语",
+      "meaning": "每个人"
+    },
+    {
+      "text": "speaks",
+      "relation": "主语发出的动作",
+      "meaning": "说"
+    },
+    {
+      "text": "a different dialect.",
+      "relation": "动作的对象，即说的内容",
+      "meaning": "一种不同的方言"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-025",
+  "sentenceId": "nce-2-lesson-025-sentence-015",
+  "sentenceOrder": 15,
+  "english": "In England, each person speaks a different dialect.",
+  "lesson": "Lesson 25 Do the English speak English?",
+  "notes": [
+    {
+      "title": "句首介词短语的作用",
+      "text": "句首的“In England,”是地点范围状语，说明后面整句话描述的情况发生在英格兰这个地域内，不修饰单个动词，而是限定整个陈述的适用范围。"
+    },
+    {
+      "title": "each作主语限定词",
+      "text": "each放在person前面，强调整体中的每一个个体，作主语时谓语动词要用第三人称单数形式，本句中speaks就是与之对应的单数形式。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析整体准确，仅单词 England, 带有句内逗号，应在音标和词性说明中明确仅解释单词本身（标点随词项为存储约定），其余内容符合要求。（非逐句人工审核）"
+}

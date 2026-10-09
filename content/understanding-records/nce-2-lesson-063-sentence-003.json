@@ -1,0 +1,76 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-063",
+  "sentenceId": "nce-2-lesson-063-sentence-003",
+  "sentenceOrder": 3,
+  "english": "Recently, Jeremy was",
+  "chinese": "最近，杰里米……",
+  "lesson": "Lesson 63 She was not amused",
+  "intent": "开始引出最近的一段经历但原文尚未说完",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "Recently,",
+      "relation": "时间背景",
+      "meaning": "最近"
+    },
+    {
+      "text": "Jeremy was",
+      "relation": "未完成叙述",
+      "meaning": "杰里米当时……"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "保留原文碎片",
+      "text": "was 后内容缺失，不能据此确定是系表结构、进行时还是被动语态。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "保留原文碎片",
+      "text": "was 后内容缺失，不能据此确定是系表结构、进行时还是被动语态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Recently,",
+      "role": "时间状语",
+      "explanation": "提示近期背景。"
+    },
+    {
+      "text": "Jeremy",
+      "role": "主语",
+      "explanation": "经历中的人物。"
+    },
+    {
+      "text": "was",
+      "role": "未完成谓语片段",
+      "explanation": "be 的过去式，后续结构未提供。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Recently,",
+      "meaning": "最近",
+      "pos": "副词",
+      "phonetic": "/ˈriːsntli/"
+    },
+    {
+      "text": "Jeremy",
+      "meaning": "杰里米",
+      "pos": "专有名词",
+      "phonetic": "/ˈdʒerəmi/"
+    },
+    {
+      "text": "was",
+      "meaning": "当时是；结构未完",
+      "pos": "动词be过去式",
+      "phonetic": "/wɒz/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

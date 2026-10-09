@@ -1,0 +1,188 @@
+{
+  "chinese": "这件事刚做完，他们就架起篝火煮了一顿饭。",
+  "intent": "描述两个接连发生的动作：搭好帐篷后立刻做饭，同时说明做饭的地点方式。",
+  "comparison": {
+    "chinese": "中文说“刚一做完这件事，他们就…做饭”，把先后两个动作按时间顺序顺着讲，常用“一…就…”衔接。",
+    "english": "英文用“As soon as”引出先发生的动作，再讲主句的动作，并且先做的事用被动“this was done”，不说出具体是谁做。",
+    "steps": [
+      {
+        "label": "先抓主句核心动作",
+        "text": "they cooked a meal",
+        "explanation": "先明白句子主要在说“他们煮了一顿饭”，这是后半段的主句。"
+      },
+      {
+        "label": "再看时间触发条件",
+        "text": "As soon as this was done",
+        "explanation": "这个部分回答“什么时候开始做饭”——前面那件事（搭帐篷）一完成，做饭就开始了。"
+      },
+      {
+        "label": "补充做饭的方式地点",
+        "text": "over an open fire",
+        "explanation": "说明饭是在篝火上方煮的，补充做饭的具体方式。"
+      }
+    ],
+    "takeaway": "英文常用“as soon as + 先发生的事”放在句首表“一…就…”，主句讲后发生的事；如果前文刚提过某个动作，后半句可以用被动“this was done”代替重复说动作内容。"
+  },
+  "backbone": {
+    "text": "They cooked a meal after this was done.",
+    "meaning": "这件事做完之后，他们煮了一顿饭。（理解用主干，还原了时间先后关系）"
+  },
+  "structureNotes": [
+    {
+      "title": "as soon as 引导的时间从句",
+      "text": "As soon as this was done 放在句首，引出“紧接着的时间点”，意思是“刚一…就…”，说明后面主句的动作紧接着发生。"
+    },
+    {
+      "title": "this was done 的指代和被动用法",
+      "text": "this 指上一句“搭帐篷”这件事，用被动 was done 是因为重点在“事情完成了”，不需要重复说谁搭的帐篷。"
+    },
+    {
+      "title": "over an open fire 的含义",
+      "text": "over 在这里表示“在…上方（有悬空接触火苗/热气的意思）”，open fire 指户外没有围炉的篝火、明火。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "As soon as this was done,",
+      "role": "时间状语从句",
+      "explanation": "由 as soon as 引导，说明主句动作发生的时间：这件事一完成，后面的动作就立刻开始。"
+    },
+    {
+      "text": "they cooked a meal",
+      "role": "主句主谓宾",
+      "explanation": "交代句子的核心内容：他们做了一顿饭。"
+    },
+    {
+      "text": "over an open fire.",
+      "role": "方式/地点状语",
+      "explanation": "说明做饭的位置和方式，是在篝火的上方架着煮。"
+    }
+  ],
+  "words": [
+    {
+      "text": "As",
+      "meaning": "如同，当（与soon as构成短语）",
+      "pos": "连词",
+      "phonetic": "/æz/"
+    },
+    {
+      "text": "soon",
+      "meaning": "很快，不久",
+      "pos": "副词",
+      "phonetic": "/suːn/"
+    },
+    {
+      "text": "as",
+      "meaning": "像，如同（与as soon构成短语）",
+      "pos": "连词",
+      "phonetic": "/æz/"
+    },
+    {
+      "text": "this",
+      "meaning": "这，这件事",
+      "pos": "代词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be动词过去式，单数）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "done,",
+      "meaning": "做完了（do的过去分词）",
+      "pos": "动词过去分词",
+      "phonetic": "/dʌn/"
+    },
+    {
+      "text": "they",
+      "meaning": "他们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "cooked",
+      "meaning": "烹饪，煮（过去式）",
+      "pos": "动词",
+      "phonetic": "/kʊkt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "meal",
+      "meaning": "一餐，一顿饭",
+      "pos": "名词",
+      "phonetic": "/miːl/"
+    },
+    {
+      "text": "over",
+      "meaning": "在…上方",
+      "pos": "介词",
+      "phonetic": "/ˈəʊvə/"
+    },
+    {
+      "text": "an",
+      "meaning": "一（个，用于元音前）",
+      "pos": "不定冠词",
+      "phonetic": "/æn/"
+    },
+    {
+      "text": "open",
+      "meaning": "露天的，敞开的",
+      "pos": "形容词",
+      "phonetic": "/ˈəʊpən/"
+    },
+    {
+      "text": "fire.",
+      "meaning": "火，篝火",
+      "pos": "名词",
+      "phonetic": "/ˈfaɪə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "As soon as this was done,",
+      "relation": "时间（主句动作发生的时间点）",
+      "meaning": "刚一做完这件事"
+    },
+    {
+      "text": "they cooked a meal",
+      "relation": "核心事件（主句）",
+      "meaning": "他们煮了一顿饭"
+    },
+    {
+      "text": "over an open fire.",
+      "relation": "方式地点（说明做饭的方式和位置）",
+      "meaning": "在篝火上方"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-027",
+  "sentenceId": "nce-2-lesson-027-sentence-002",
+  "sentenceOrder": 3,
+  "english": "As soon as this was done, they cooked a meal over an open fire.",
+  "lesson": "Lesson 27 A wet night",
+  "notes": [
+    {
+      "title": "as soon as 引导的时间从句",
+      "text": "As soon as this was done 放在句首，引出“紧接着的时间点”，意思是“刚一…就…”，说明后面主句的动作紧接着发生。"
+    },
+    {
+      "title": "this was done 的指代和被动用法",
+      "text": "this 指上一句“搭帐篷”这件事，用被动 was done 是因为重点在“事情完成了”，不需要重复说谁搭的帐篷。"
+    },
+    {
+      "title": "over an open fire 的含义",
+      "text": "over 在这里表示“在…上方（有悬空接触火苗/热气的意思）”，open fire 指户外没有围炉的篝火、明火。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：单词项done,、fire.的释义不应附带标点说明，其余内容准确符合要求。（非逐句人工审核）"
+}

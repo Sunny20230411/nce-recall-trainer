@@ -108,5 +108,10 @@
   "analysisSource": "ai",
   "analysisStatus": "approved",
   "ruleVersion": "understanding-zh-adult-1.1.0",
-  "reviewNote": "模型独立复核后通过：整体内容基本合规，存在少量标点归类、comparison缺失及重复笔记的可明确修正问题，未涉及核心错误。（非逐句人工审核）"
+  "reviewNote": "模型独立复核后通过：整体内容基本合规，存在少量标点归类、comparison缺失及重复笔记的可明确修正问题，未涉及核心错误。（非逐句人工审核）",
+  "teacherTip": {
+    "text": "你想知道对方准备做什么，就用What把未知的事情点出来，再接上询问打算的表达。组织这类问题时，先想清楚自己缺的是哪一条信息，而不是先把中文逐字翻过去。",
+    "ruleVersion": "intent-driven-expression-1.0.2",
+    "reviewNote": "独立模型复核后编辑校正：去掉直接将What替换为Where的错误迁移说法，保留定位未知信息的表达思路。（非逐句人工审核）"
+  }
 }

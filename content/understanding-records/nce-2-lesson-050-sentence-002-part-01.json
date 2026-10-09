@@ -1,0 +1,98 @@
+{
+  "chinese": "我最近去远足，",
+  "intent": "说明自己近期进行了一次远足出行，引出后续行程相关的内容。",
+  "comparison": null,
+  "backbone": {
+    "text": "I went on an excursion recently",
+    "meaning": "我最近进行了一次远足"
+  },
+  "structureNotes": [
+    {
+      "title": "go on an excursion 的固定搭配",
+      "text": "go on 加上表示出行、活动的名词（如excursion、trip、holiday），整体表示“进行/参加某次出行活动”，不是字面的“在……上面走”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "went on an excursion",
+      "role": "谓语部分",
+      "explanation": "由go on的固定搭配加宾语an excursion构成，整体表示“进行远足”这个动作，是句子的核心行为。"
+    },
+    {
+      "text": "recently,",
+      "role": "时间状语",
+      "explanation": "说明这次远足发生的时间是不久前，修饰整个出行动作。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "去（进行）",
+      "pos": "动词（go的过去式）",
+      "phonetic": "/went/",
+      "text": "went"
+    },
+    {
+      "meaning": "（与go搭配表从事某活动）",
+      "pos": "介词",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "一次（用于元音开头的单数可数名词前）",
+      "pos": "不定冠词",
+      "phonetic": "/æn/",
+      "text": "an"
+    },
+    {
+      "meaning": "远足，短途出游",
+      "pos": "名词",
+      "phonetic": "/ɪkˈskɜːʃn/",
+      "text": "excursion"
+    },
+    {
+      "meaning": "最近，不久前",
+      "pos": "副词",
+      "phonetic": "/ˈriːsntli/",
+      "text": "recently,"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作的发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "went on an excursion",
+      "relation": "主语发出的动作及内容",
+      "meaning": "进行了一次远足"
+    },
+    {
+      "text": "recently,",
+      "relation": "动作发生的时间",
+      "meaning": "最近"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-002-part-01",
+  "sentenceOrder": 2,
+  "english": "I went on an excursion recently,",
+  "lesson": "Lesson 50 Taken for a ride",
+  "notes": [
+    {
+      "title": "go on an excursion 的固定搭配",
+      "text": "go on 加上表示出行、活动的名词（如excursion、trip、holiday），整体表示“进行/参加某次出行活动”，不是字面的“在……上面走”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析整体准确，仅中文翻译漏译句末逗号的停顿、且未完整对应原文陈述语气的完整性，需补全中文翻译使其与原文片段匹配，其余内容无需调整。（非逐句人工审核）"
+}

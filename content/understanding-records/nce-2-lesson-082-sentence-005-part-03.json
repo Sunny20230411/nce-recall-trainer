@@ -1,0 +1,112 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-082",
+  "sentenceId": "nce-2-lesson-082-sentence-005-part-03",
+  "sentenceOrder": 7,
+  "english": "it was found to be over thirteen feet long.",
+  "chinese": "发现它有十三英尺多长。",
+  "lesson": "Lesson 82 Monster or fish?",
+  "intent": "报告生物的实测长度",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "it was found to be",
+      "relation": "查验结果引入",
+      "meaning": "发现它是"
+    },
+    {
+      "text": "over thirteen feet long.",
+      "relation": "长度数据",
+      "meaning": "十三英尺多长"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "实际主语",
+      "text": "it 指生物，不是形式主语。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "实际主语",
+      "text": "it 指生物，不是形式主语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "it",
+      "role": "主语",
+      "explanation": "被查看的生物。"
+    },
+    {
+      "text": "was found",
+      "role": "谓语",
+      "explanation": "过去时被动。"
+    },
+    {
+      "text": "to be over thirteen feet long.",
+      "role": "主语补足语",
+      "explanation": "报告被发现具有的长度。"
+    }
+  ],
+  "words": [
+    {
+      "text": "it",
+      "meaning": "它",
+      "pos": "人称代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "was",
+      "meaning": "构成被动",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "found",
+      "meaning": "发现",
+      "pos": "动词过去分词",
+      "phonetic": "/faʊnd/"
+    },
+    {
+      "text": "to",
+      "meaning": "引出发现的状态",
+      "pos": "不定式标记",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "be",
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/biː/ 或 /bi/"
+    },
+    {
+      "text": "over",
+      "meaning": "超过",
+      "pos": "副词",
+      "phonetic": "/ˈəʊvə/"
+    },
+    {
+      "text": "thirteen",
+      "meaning": "十三",
+      "pos": "数词",
+      "phonetic": "/ˌθɜːˈtiːn/"
+    },
+    {
+      "text": "feet",
+      "meaning": "英尺",
+      "pos": "名词复数",
+      "phonetic": "/fiːt/"
+    },
+    {
+      "text": "long.",
+      "meaning": "长的",
+      "pos": "形容词",
+      "phonetic": "/lɒŋ/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

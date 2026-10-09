@@ -1,0 +1,121 @@
+{
+  "chinese": "我停了下来，接着他向我提出搭便车的请求。",
+  "intent": "叙述先后发生的两个动作：我停车，以及年轻男子向我请求搭便车。",
+  "comparison": null,
+  "backbone": {
+    "text": "I stopped and he asked me for a lift.",
+    "meaning": "我停了下来，他向我请求搭便车。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列句的先后关系",
+      "text": "全句由 and 连接两个独立分句，前半句讲“我停下”，后半句讲“他请求搭便车”，两件事按时间顺序接连发生。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I stopped",
+      "role": "第一个并列分句",
+      "explanation": "叙述主语I的动作“停下来”，是整件事的前半部分。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个独立分句，表示动作先后承接。"
+    },
+    {
+      "text": "he asked me for a lift.",
+      "role": "第二个并列分句",
+      "explanation": "说明he向“我”提出的请求，核心结构是ask sb for sth，即向某人索要/请求某物。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "stopped",
+      "meaning": "停下；停止",
+      "pos": "动词（过去式）",
+      "phonetic": "/stɒpt/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；然后（表承接）",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "asked",
+      "meaning": "询问；请求",
+      "pos": "动词（过去式）",
+      "phonetic": "/ɑːskt/"
+    },
+    {
+      "text": "me",
+      "meaning": "我（宾格）",
+      "pos": "人称代词",
+      "phonetic": "/miː/"
+    },
+    {
+      "text": "for",
+      "meaning": "为了；要（与ask搭配表请求对象）",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（次/个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "lift.",
+      "meaning": "搭便车；搭车",
+      "pos": "名词",
+      "phonetic": "/lɪft/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I stopped",
+      "relation": "前一件发生的事",
+      "meaning": "我停了下来"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个先后动作",
+      "meaning": "然后/接着"
+    },
+    {
+      "text": "he asked me for a lift.",
+      "relation": "后一件发生的事",
+      "meaning": "他向我请求搭便车"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-014",
+  "sentenceId": "nce-2-lesson-014-sentence-004",
+  "sentenceOrder": 5,
+  "english": "I stopped and he asked me for a lift.",
+  "lesson": "Lesson 14 Do you speak English?",
+  "notes": [
+    {
+      "title": "并列句的先后关系",
+      "text": "全句由 and 连接两个独立分句，前半句讲“我停下”，后半句讲“他请求搭便车”，两件事按时间顺序接连发生。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需将lift的英式音标补充为/lɪft/，修正words最后一项标点随词的约定无需额外说明，其余内容符合要求。（非逐句人工审核）"
+}

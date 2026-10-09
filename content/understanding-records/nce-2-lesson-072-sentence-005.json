@@ -1,0 +1,179 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-072",
+  "sentenceId": "nce-2-lesson-072-sentence-005",
+  "sentenceOrder": 5,
+  "english": "After his attempt, Campbell was disappointed to learn that his average speed had been 299 miles per hour.",
+  "chinese": "试跑结束后，坎贝尔得知自己的平均时速是299英里，感到很失望。",
+  "lesson": "Lesson 72 A car called Bluebird “",
+  "intent": "说明得知平均速度未达目标后的失望",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "After his attempt,",
+      "relation": "时间",
+      "meaning": "试跑结束后"
+    },
+    {
+      "text": "Campbell was disappointed to learn",
+      "relation": "情绪与触发",
+      "meaning": "坎贝尔失望地得知"
+    },
+    {
+      "text": "that his average speed had been 299 miles per hour.",
+      "relation": "消息内容",
+      "meaning": "自己的平均时速是299英里"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "情绪触发",
+      "text": "to learn 说明 disappointed 的触发原因。"
+    },
+    {
+      "title": "过去的测量结果",
+      "text": "had been 回指得知消息前那次试跑的平均速度。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "情绪触发",
+      "text": "to learn 说明 disappointed 的触发原因。"
+    },
+    {
+      "title": "过去的测量结果",
+      "text": "had been 回指得知消息前那次试跑的平均速度。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "After his attempt,",
+      "role": "时间状语",
+      "explanation": "定位在试跑之后。"
+    },
+    {
+      "text": "Campbell was disappointed to learn",
+      "role": "主句及原因不定式",
+      "explanation": "描述获知消息后的情绪。"
+    },
+    {
+      "text": "that his average speed had been 299 miles per hour.",
+      "role": "宾语从句",
+      "explanation": "说明 learn 的内容。"
+    }
+  ],
+  "words": [
+    {
+      "text": "After",
+      "meaning": "在……之后",
+      "pos": "介词",
+      "phonetic": "/ˈɑːftə/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "物主限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "attempt,",
+      "meaning": "尝试；此处指试跑",
+      "pos": "名词",
+      "phonetic": "/əˈtempt/"
+    },
+    {
+      "text": "Campbell",
+      "meaning": "坎贝尔；人名",
+      "pos": "专有名词",
+      "phonetic": "/ˈkæmbəl/"
+    },
+    {
+      "text": "was",
+      "meaning": "感到",
+      "pos": "系动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "disappointed",
+      "meaning": "失望的",
+      "pos": "形容词",
+      "phonetic": "/ˌdɪsəˈpɔɪntɪd/"
+    },
+    {
+      "text": "to",
+      "meaning": "引出情绪原因",
+      "pos": "不定式标记",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "learn",
+      "meaning": "得知",
+      "pos": "动词",
+      "phonetic": "/lɜːn/"
+    },
+    {
+      "text": "that",
+      "meaning": "引出消息内容",
+      "pos": "从属连词",
+      "phonetic": "/ðæt/ 或 /ðət/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "物主限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "average",
+      "meaning": "平均的",
+      "pos": "形容词",
+      "phonetic": "/ˈævərɪdʒ/"
+    },
+    {
+      "text": "speed",
+      "meaning": "速度",
+      "pos": "名词",
+      "phonetic": "/spiːd/"
+    },
+    {
+      "text": "had",
+      "meaning": "此前；构成完成式",
+      "pos": "助动词",
+      "phonetic": "/hæd/ 或 /əd/"
+    },
+    {
+      "text": "been",
+      "meaning": "是",
+      "pos": "系动词过去分词",
+      "phonetic": "/biːn/ 或 /bɪn/"
+    },
+    {
+      "text": "299",
+      "meaning": "二百九十九",
+      "pos": "数词",
+      "phonetic": "/ˌtuː ˈhʌndrəd ənd ˈnaɪn ti ˈnaɪn/"
+    },
+    {
+      "text": "miles",
+      "meaning": "英里",
+      "pos": "复数名词",
+      "phonetic": "/maɪlz/"
+    },
+    {
+      "text": "per",
+      "meaning": "每",
+      "pos": "介词",
+      "phonetic": "/pɜː/"
+    },
+    {
+      "text": "hour.",
+      "meaning": "小时",
+      "pos": "名词",
+      "phonetic": "/ˈaʊə/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

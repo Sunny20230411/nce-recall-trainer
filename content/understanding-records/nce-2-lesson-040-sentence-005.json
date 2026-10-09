@@ -1,0 +1,121 @@
+{
+  "chinese": "我试着搭话。",
+  "intent": "描述说话人在对方忙着吃东西时，主动尝试开启闲聊、打破沉默的行为。",
+  "comparison": {
+    "chinese": "我试着找话题聊天。",
+    "english": "I tried to make conversation.",
+    "steps": [
+      {
+        "label": "先抓住主干动作",
+        "text": "I tried",
+        "explanation": "中文先说‘我试着’，英文也是把主语和‘尝试’这个核心动作放在最前面，这部分语序一致。"
+      },
+      {
+        "label": "再看尝试的具体内容",
+        "text": "to make conversation",
+        "explanation": "英文用 to 引出要做的事，直译为‘制造交谈’，中文自然说成‘搭话/找话题聊天’，是固定搭配，不是真的‘制作’什么东西。"
+      }
+    ],
+    "takeaway": "make conversation 是固定表达，指主动找话聊、开启闲聊，不能按字面‘制造对话’理解；to 在这里说明 tried 的具体内容。"
+  },
+  "backbone": {
+    "text": "I tried to make conversation.",
+    "meaning": "我尝试开启交谈/搭话。"
+  },
+  "structureNotes": [
+    {
+      "title": "try to do 的含义",
+      "text": "try 后面接 to 加动词原形，表示努力去做某件事，结果不一定成功，这里就是试着搭话，不保证聊得起来。"
+    },
+    {
+      "title": "make conversation 是固定搭配",
+      "text": "make conversation 不是字面的‘制作对话’，而是特指主动找话题、与人闲聊，常用于打破沉默或应付社交场合。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "动作的发出者，指说话人自己。"
+    },
+    {
+      "text": "tried",
+      "role": "谓语动词",
+      "explanation": "是 try 的过去式，表示过去发生的‘尝试’这个动作。"
+    },
+    {
+      "text": "to make conversation.",
+      "role": "尝试的具体内容（宾语）",
+      "explanation": "用 to 引出的短语，说明 tried 要做的具体事情，就是开启交谈。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "tried",
+      "meaning": "尝试，努力（try的过去式）",
+      "pos": "动词",
+      "phonetic": "/traɪd/"
+    },
+    {
+      "text": "to",
+      "meaning": "（用于构成不定式，引出要做的事）",
+      "pos": "不定式符号",
+      "phonetic": "/tə/"
+    },
+    {
+      "text": "make",
+      "meaning": "（与 conversation 构成固定搭配，不表制作）进行、发起",
+      "pos": "动词",
+      "phonetic": "/meɪk/"
+    },
+    {
+      "text": "conversation.",
+      "meaning": "交谈，谈话",
+      "pos": "名词",
+      "phonetic": "/ˌkɒnvəˈseɪʃn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "tried",
+      "relation": "核心动作",
+      "meaning": "试着"
+    },
+    {
+      "text": "to make conversation.",
+      "relation": "尝试的具体内容",
+      "meaning": "搭话/开启交谈"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-040",
+  "sentenceId": "nce-2-lesson-040-sentence-005",
+  "sentenceOrder": 6,
+  "english": "I tried to make conversation.",
+  "lesson": "Lesson 40 Food and talk",
+  "notes": [
+    {
+      "title": "try to do 的含义",
+      "text": "try 后面接 to 加动词原形，表示努力去做某件事，结果不一定成功，这里就是试着搭话，不保证聊得起来。"
+    },
+    {
+      "title": "make conversation 是固定搭配",
+      "text": "make conversation 不是字面的‘制作对话’，而是特指主动找话题、与人闲聊，常用于打破沉默或应付社交场合。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：基本准确，仅需修正 make 的语境词义，使其符合固定搭配 make conversation 的实际用法，其余内容无误。（非逐句人工审核）"
+}

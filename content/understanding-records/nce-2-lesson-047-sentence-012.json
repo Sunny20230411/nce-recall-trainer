@@ -1,0 +1,237 @@
+{
+  "chinese": "村民们已经告诉他，即使他把酒馆白送出去，他们也不会接手这家酒馆。",
+  "intent": "转述村民对他的明确态度：无论酒馆是否免费相送，他们都不愿接受这家酒馆。",
+  "comparison": {
+    "chinese": "村民告诉他，哪怕他把酒馆白送，人家也不要。",
+    "english": "The villagers have told him that they will not accept the pub even if he gives it away.",
+    "steps": [
+      {
+        "label": "第一步：先抓主句核心信息",
+        "text": "The villagers have told him",
+        "explanation": "中文先说“村民告诉他”，英文也是把“谁告诉了他”放在最前面，这部分语序和中文一致。"
+      },
+      {
+        "label": "第二步：接转告的具体内容",
+        "text": "that they will not accept the pub",
+        "explanation": "英文用that引出转告的内容，先讲核心结论“他们不接受酒馆”；中文也会先把态度说出来，再补充条件。"
+      },
+      {
+        "label": "第三步：补充让步条件",
+        "text": "even if he gives it away",
+        "explanation": "英文把“白送也不接”的条件放在句尾；中文常把“哪怕白送”提前到态度前面，先说让步条件再说结果，更符合中文语感。"
+      }
+    ],
+    "takeaway": "英文习惯先主后从（主句在前，让步从句在后），中文常把“哪怕/即使”这类让步条件提前；理解时先抓“谁告诉谁什么事”，再补条件。"
+  },
+  "backbone": {
+    "text": "The villagers have told him that they will not accept the pub.",
+    "meaning": "村民们已经告诉他，他们不会接受这家酒馆。"
+  },
+  "structureNotes": [
+    {
+      "title": "that 引出宾语从句",
+      "text": "that they will not accept the pub even if he gives it away 整句是 told 的直接内容，回答“告诉了他什么”；that 只起连接作用，没有实际词义。"
+    },
+    {
+      "title": "even if 引导让步状语",
+      "text": "even if he gives it away 表示“就算出现白送的情况”，是一种让步假设，用来强调前面“不接受”的态度很坚决。"
+    },
+    {
+      "title": "give away 的含义",
+      "text": "give it away 里 it 指代 the pub；give away 在这里表示“免费赠送、白送出去”，不是普通的“给”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The villagers",
+      "role": "主句主语",
+      "explanation": "指村里的居民们，是“告诉”这个动作的发出者。"
+    },
+    {
+      "text": "have told",
+      "role": "主句谓语",
+      "explanation": "现在完成时，表示“已经告诉过”，强调过去说的话对现在有影响。"
+    },
+    {
+      "text": "him",
+      "role": "主句间接宾语",
+      "explanation": "指被告知的人，也就是汤普森先生。"
+    },
+    {
+      "text": "that they will not accept the pub even if he gives it away.",
+      "role": "宾语从句（直接宾语）",
+      "explanation": "整段是 told 的具体内容，说明村民转告了什么话。"
+    },
+    {
+      "text": "they will not accept the pub",
+      "role": "宾语从句主句",
+      "explanation": "从句里的核心结论，说明村民的态度：不接受酒馆。"
+    },
+    {
+      "text": "even if he gives it away",
+      "role": "让步状语从句",
+      "explanation": "表示退一步说的假设条件——就算白送也不接受，用来加强语气。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这（些），用于特指",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "villagers",
+      "meaning": "村民，乡村居民",
+      "pos": "名词复数",
+      "phonetic": "/ˈvɪlɪdʒəz/"
+    },
+    {
+      "text": "have",
+      "meaning": "（助动词，构成现在完成时）已经",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉，告知",
+      "pos": "动词过去分词",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导从句，无实义）",
+      "pos": "从属连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "they",
+      "meaning": "他们，她们，它们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "will",
+      "meaning": "将要，会",
+      "pos": "情态动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "not",
+      "meaning": "不，没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "accept",
+      "meaning": "接受，收下",
+      "pos": "动词原形",
+      "phonetic": "/əkˈsept/"
+    },
+    {
+      "text": "the",
+      "meaning": "这（个），用于特指",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "pub",
+      "meaning": "酒馆，酒吧",
+      "pos": "名词",
+      "phonetic": "/pʌb/"
+    },
+    {
+      "text": "even",
+      "meaning": "甚至，即使",
+      "pos": "副词",
+      "phonetic": "/ˈiːvn/"
+    },
+    {
+      "text": "if",
+      "meaning": "如果，假如",
+      "pos": "从属连词",
+      "phonetic": "/ɪf/"
+    },
+    {
+      "text": "he",
+      "meaning": "他（主格）",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "gives",
+      "meaning": "给，赠送",
+      "pos": "动词第三人称单数",
+      "phonetic": "/ɡɪvz/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（宾格，指代酒馆）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "away.",
+      "meaning": "赠送出去（与give搭配，表示“免费送出”）",
+      "pos": "副词",
+      "phonetic": "/əˈweɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The villagers",
+      "relation": "动作发出者，描述谁在说话",
+      "meaning": "村民们"
+    },
+    {
+      "text": "have told",
+      "relation": "主句动作",
+      "meaning": "已经告诉"
+    },
+    {
+      "text": "him",
+      "relation": "被告知的对象",
+      "meaning": "他"
+    },
+    {
+      "text": "that they will not accept the pub",
+      "relation": "告诉的具体内容（核心结论）",
+      "meaning": "他们不会接受这家酒馆"
+    },
+    {
+      "text": "even if he gives it away.",
+      "relation": "让步条件，补充说明在什么极端情况下仍然不接受",
+      "meaning": "即使他把它白送出去"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-047",
+  "sentenceId": "nce-2-lesson-047-sentence-012",
+  "sentenceOrder": 12,
+  "english": "The villagers have told him that they will not accept the pub even if he gives it away.",
+  "lesson": "Lesson 47 A thirsty ghost",
+  "notes": [
+    {
+      "title": "that 引出宾语从句",
+      "text": "that they will not accept the pub even if he gives it away 整句是 told 的直接内容，回答“告诉了他什么”；that 只起连接作用，没有实际词义。"
+    },
+    {
+      "title": "even if 引导让步状语",
+      "text": "even if he gives it away 表示“就算出现白送的情况”，是一种让步假设，用来强调前面“不接受”的态度很坚决。"
+    },
+    {
+      "title": "give away 的含义",
+      "text": "give it away 里 it 指代 the pub；give away 在这里表示“免费赠送、白送出去”，不是普通的“给”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：仅单词away.的释义中冗余提及句末标点、词性标注错误混入标点说明，其余内容准确合规。（非逐句人工审核）"
+}

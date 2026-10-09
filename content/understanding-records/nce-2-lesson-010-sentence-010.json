@@ -1,0 +1,81 @@
+{
+  "chinese": "我父亲感到震惊。",
+  "intent": "陈述父亲在琴弦被弄断的状况下受到冲击的情绪状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "My father was shocked.",
+    "meaning": "我的父亲感到震惊。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去分词作表语表状态",
+      "text": "shocked在这里跟在be动词was后，说明主语“我父亲”处于受震惊的情绪状态，不是被动的动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "My father",
+      "role": "主语",
+      "explanation": "指句子描述的对象，也就是感到震惊的人。"
+    },
+    {
+      "text": "was shocked",
+      "role": "谓语（系表结构）",
+      "explanation": "由be动词was加过去分词shocked构成，说明主语的情绪状态。"
+    }
+  ],
+  "words": [
+    {
+      "text": "My",
+      "meaning": "我的",
+      "pos": "限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "father",
+      "meaning": "父亲",
+      "pos": "名词",
+      "phonetic": "/ˈfɑːðə(r)/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，单数）处于某种状态",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "shocked.",
+      "meaning": "震惊的；受冲击的",
+      "pos": "形容词（过去分词转化）",
+      "phonetic": "/ʃɒkt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "My father",
+      "relation": "描述谁",
+      "meaning": "我的父亲"
+    },
+    {
+      "text": "was shocked.",
+      "relation": "补充说明主语的状态",
+      "meaning": "感到震惊"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-010",
+  "sentenceId": "nce-2-lesson-010-sentence-010",
+  "sentenceOrder": 10,
+  "english": "My father was shocked.",
+  "lesson": "Lesson 10 Not for jazz",
+  "notes": [
+    {
+      "title": "过去分词作表语表状态",
+      "text": "shocked在这里跟在be动词was后，说明主语“我父亲”处于受震惊的情绪状态，不是被动的动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅音标存在一处可修正的细节：英式发音中father的长元音后应带r的卷舌提示吗？不对，英式RP发音father的音标是/ˈfɑːðə/ 但完整形式应为/ˈfɑːðə(r)/，同时shocked作为形容词的词性标注、结构分析、翻译均正确，仅需补充father音标末尾的(r)以符合规范的英式音标标注习惯。其余翻译、主干、结构、分词块、词汇释义均符合要求，无事实错误。（非逐句人工审核）"
+}

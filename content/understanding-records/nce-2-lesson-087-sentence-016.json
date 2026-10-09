@@ -1,0 +1,232 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-087",
+  "sentenceId": "nce-2-lesson-087-sentence-016",
+  "sentenceOrder": 16,
+  "english": "I suggest that you did not catch the 8 o'clock train, but that you caught the 8.25 which would still get you to work on time.",
+  "chinese": "我认为你没有乘八点的火车，而是乘了八点二十五那班，它仍能让你准时到岗。",
+  "lesson": "Lesson 87 A perfect alibi",
+  "intent": "以晚班车推断替换原有供述",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "I suggest that you did not catch the 8 o'clock train,",
+      "relation": "否定原说法",
+      "meaning": "我认为你没乘八点的火车"
+    },
+    {
+      "text": "but that you caught the 8.25",
+      "relation": "替代判断",
+      "meaning": "而是乘了八点二十五那班"
+    },
+    {
+      "text": "which would still get you to work on time.",
+      "relation": "可行性说明",
+      "meaning": "那班仍能让你准时到岗"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "并列内容",
+      "text": "两个 that 从句均接 suggest。"
+    },
+    {
+      "title": "省略名词",
+      "text": "the 8.25 指八点二十五的火车。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "并列内容",
+      "text": "两个 that 从句均接 suggest。"
+    },
+    {
+      "title": "省略名词",
+      "text": "the 8.25 指八点二十五的火车。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I suggest",
+      "role": "主句",
+      "explanation": "提出推断。"
+    },
+    {
+      "text": "that you did not catch the 8 o'clock train,",
+      "role": "宾语从句之一",
+      "explanation": "否定原班次。"
+    },
+    {
+      "text": "that you caught the 8.25 which would still get you to work on time.",
+      "role": "宾语从句之二",
+      "explanation": "提出替代班次。"
+    },
+    {
+      "text": "which would still get you to work on time.",
+      "role": "定语从句",
+      "explanation": "说明该班次仍可准时送达。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "suggest",
+      "meaning": "认为",
+      "pos": "动词",
+      "phonetic": "/səˈdʒest/"
+    },
+    {
+      "text": "that",
+      "meaning": "引出判断",
+      "pos": "从属连词",
+      "phonetic": "/ðæt/ 或 /ðət/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "人称代词",
+      "phonetic": "/juː/ 或 /jʊ/"
+    },
+    {
+      "text": "did",
+      "meaning": "构成过去时否定",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "not",
+      "meaning": "没有",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "catch",
+      "meaning": "乘坐",
+      "pos": "动词",
+      "phonetic": "/kætʃ/"
+    },
+    {
+      "text": "the",
+      "meaning": "那班",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "8",
+      "meaning": "八",
+      "pos": "数词",
+      "phonetic": "/eɪt/"
+    },
+    {
+      "text": "o'clock",
+      "meaning": "点钟",
+      "pos": "副词",
+      "phonetic": "/əˈklɒk/"
+    },
+    {
+      "text": "train,",
+      "meaning": "火车",
+      "pos": "名词",
+      "phonetic": "/treɪn/"
+    },
+    {
+      "text": "but",
+      "meaning": "而是",
+      "pos": "并列连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "that",
+      "meaning": "引出替代判断",
+      "pos": "从属连词",
+      "phonetic": "/ðæt/ 或 /ðət/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "人称代词",
+      "phonetic": "/juː/ 或 /jʊ/"
+    },
+    {
+      "text": "caught",
+      "meaning": "乘了",
+      "pos": "动词过去式",
+      "phonetic": "/kɔːt/"
+    },
+    {
+      "text": "the",
+      "meaning": "那班",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "8.25",
+      "meaning": "八点二十五的火车",
+      "pos": "数词",
+      "phonetic": "/eɪt ˈtwentiˈfaɪv/ 或 /eɪt ə ˈkwɔːtə/"
+    },
+    {
+      "text": "which",
+      "meaning": "那班火车",
+      "pos": "关系代词",
+      "phonetic": "/wɪtʃ/"
+    },
+    {
+      "text": "would",
+      "meaning": "会",
+      "pos": "情态动词",
+      "phonetic": "/wʊd/ 或 /wəd/"
+    },
+    {
+      "text": "still",
+      "meaning": "仍然",
+      "pos": "副词",
+      "phonetic": "/stɪl/"
+    },
+    {
+      "text": "get",
+      "meaning": "让……到达",
+      "pos": "动词",
+      "phonetic": "/ɡet/"
+    },
+    {
+      "text": "you",
+      "meaning": "你",
+      "pos": "人称代词",
+      "phonetic": "/juː/ 或 /jʊ/"
+    },
+    {
+      "text": "to",
+      "meaning": "到",
+      "pos": "介词",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "work",
+      "meaning": "工作地点",
+      "pos": "名词",
+      "phonetic": "/wɜːk/"
+    },
+    {
+      "text": "on",
+      "meaning": "准时（短语组成）",
+      "pos": "介词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "time.",
+      "meaning": "规定时间",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

@@ -1,0 +1,260 @@
+{
+  "chinese": "当牙医终于把我嘴里的药棉取出来时，我才得以告诉他，他拔错了牙。",
+  "intent": "叙述在牙医取出嘴内药棉的时间点，“我”终于能开口告知对方拔错牙的经过。",
+  "comparison": {
+    "chinese": "牙医终于从我嘴里取出棉花后，我才告诉他，他拔错了牙。",
+    "english": "When the dentist at last removed the cotton wool from my mouth, I was able to tell him that he had pulled out the wrong tooth.",
+    "steps": [
+      {
+        "label": "第一步：先抓主句核心事件",
+        "text": "I was able to tell him that he had pulled out the wrong tooth.",
+        "explanation": "中文先说“牙医取棉花”这个背景，再讲结果；英文把核心事件“我能告诉他一件事”放在主句，先交代主要动作。"
+      },
+      {
+        "label": "第二步：理解时间从句的位置和作用",
+        "text": "When the dentist at last removed the cotton wool from my mouth",
+        "explanation": "when 引导的从句放在句首，说明主句事件发生的时间点，对应中文的“当……时/在……之后”。"
+      },
+      {
+        "label": "第三步：理解嵌套的宾语从句",
+        "text": "that he had pulled out the wrong tooth",
+        "explanation": "tell 后面带两个信息：告诉的对象是 him，告诉的内容是 that 引出的整件事，这件事发生在“告诉”之前，所以用过去完成时。"
+      }
+    ],
+    "takeaway": "英文习惯先讲核心主句，再用从句补充时间和内容；中文常按时间先后顺序排列事件。"
+  },
+  "backbone": {
+    "text": "I was able to tell him that he had pulled out the wrong tooth.",
+    "meaning": "我能够告诉他，他拔错了牙。（前面的when从句用来限定这件事发生的时间）"
+  },
+  "structureNotes": [
+    {
+      "title": "when 引导的时间状语从句",
+      "text": "When the dentist at last removed the cotton wool from my mouth 放在句首，明确主句动作“能开口告诉”发生的时间背景，是“取出药棉”之后才能做到。"
+    },
+    {
+      "title": "be able to 在这里的含义",
+      "text": "was able to 不只是“有能力”，在本语境里表示“终于得以做到、终于有机会做到”，暗含之前因为嘴被堵住做不到。"
+    },
+    {
+      "title": "that 引导的宾语从句",
+      "text": "that he had pulled out the wrong tooth 是 tell 的内容，动作“拔错牙”发生在“告诉”之前，所以用过去完成时 had pulled out。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When the dentist at last removed the cotton wool from my mouth,",
+      "role": "时间状语从句",
+      "explanation": "由 When 引导，说明主句动作发生的时间；从句主语是 the dentist，谓语是 removed，宾语是 the cotton wool，from my mouth 表示“从哪里取出”。"
+    },
+    {
+      "text": "I was able to tell him",
+      "role": "主句主干",
+      "explanation": "主语是 I，was able to tell 合起来作谓语（表示“得以告诉”），him 是告诉的对象。"
+    },
+    {
+      "text": "that he had pulled out the wrong tooth.",
+      "role": "宾语从句",
+      "explanation": "由 that 引导，作 tell 的直接宾语，也就是告诉的具体内容；从句用过去完成时，体现“拔错牙”发生在“告诉”这个过去动作之前。"
+    }
+  ],
+  "words": [
+    {
+      "text": "When",
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "dentist",
+      "meaning": "牙医",
+      "pos": "名词",
+      "phonetic": "/ˈdentɪst/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（此处构成固定短语）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "last",
+      "meaning": "最后，终于",
+      "pos": "副词",
+      "phonetic": "/lɑːst/"
+    },
+    {
+      "text": "removed",
+      "meaning": "取出，拿掉",
+      "pos": "动词（过去式）",
+      "phonetic": "/rɪˈmuːvd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "cotton",
+      "meaning": "棉（此处作定语修饰wool）",
+      "pos": "名词",
+      "phonetic": "/ˈkɒtn/"
+    },
+    {
+      "text": "wool",
+      "meaning": "羊毛；药棉（此处cotton wool指牙科用棉）",
+      "pos": "名词",
+      "phonetic": "/wʊl/"
+    },
+    {
+      "text": "from",
+      "meaning": "从……（表示来源/出处）",
+      "pos": "介词",
+      "phonetic": "/frɒm/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "mouth,",
+      "meaning": "嘴，嘴巴",
+      "pos": "名词",
+      "phonetic": "/maʊθ/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词（主格）",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（am的过去式，此处构成be able to）",
+      "pos": "be动词（过去式）",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "able",
+      "meaning": "能够的",
+      "pos": "形容词",
+      "phonetic": "/ˈeɪbl/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式小品词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "tell",
+      "meaning": "告诉",
+      "pos": "动词（原形）",
+      "phonetic": "/tel/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格）",
+      "pos": "人称代词（宾格）",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导宾语从句，无实义）",
+      "pos": "从属连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词（主格）",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "had",
+      "meaning": "（have的过去式，构成过去完成时）",
+      "pos": "助动词（过去式）",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "pulled",
+      "meaning": "拉，拔（过去分词）",
+      "pos": "动词（过去分词）",
+      "phonetic": "/pʊld/"
+    },
+    {
+      "text": "out",
+      "meaning": "出来，向外",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "wrong",
+      "meaning": "错误的，不对的",
+      "pos": "形容词",
+      "phonetic": "/rɒŋ/"
+    },
+    {
+      "text": "tooth.",
+      "meaning": "牙齿",
+      "pos": "名词",
+      "phonetic": "/tuːθ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "When the dentist at last removed the cotton wool from my mouth,",
+      "relation": "时间",
+      "meaning": "当牙医终于把我嘴里的药棉取出来时"
+    },
+    {
+      "text": "I was able to tell him",
+      "relation": "主句主干：谁做了什么",
+      "meaning": "我才得以告诉他"
+    },
+    {
+      "text": "that he had pulled out the wrong tooth.",
+      "relation": "告诉的内容",
+      "meaning": "他拔错了牙"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-048",
+  "sentenceId": "nce-2-lesson-048-sentence-009",
+  "sentenceOrder": 9,
+  "english": "When the dentist at last removed the cotton wool from my mouth, I was able to tell him that he had pulled out the wrong tooth.",
+  "lesson": "Lesson 48 Did you want to tell me something?",
+  "notes": [
+    {
+      "title": "when 引导的时间状语从句",
+      "text": "When the dentist at last removed the cotton wool from my mouth 放在句首，明确主句动作“能开口告诉”发生的时间背景，是“取出药棉”之后才能做到。"
+    },
+    {
+      "title": "be able to 在这里的含义",
+      "text": "was able to 不只是“有能力”，在本语境里表示“终于得以做到、终于有机会做到”，暗含之前因为嘴被堵住做不到。"
+    },
+    {
+      "title": "that 引导的宾语从句",
+      "text": "that he had pulled out the wrong tooth 是 tell 的内容，动作“拔错牙”发生在“告诉”之前，所以用过去完成时 had pulled out。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析正确，仅存在少量细节问题需修正：structureNotes和notes首条文本有多余后引号及小瑕疵，word中mouth,的释义遗漏单词本身，cotton wool的单词语境说明可更准确。（非逐句人工审核）"
+}

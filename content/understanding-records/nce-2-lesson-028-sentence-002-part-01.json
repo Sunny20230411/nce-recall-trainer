@@ -1,0 +1,145 @@
+{
+  "chinese": "他刚在城里买了一栋新房子，",
+  "intent": "陈述主人公近期完成的一项动作——在城里购置了一栋新房子，交代故事背景信息。",
+  "comparison": null,
+  "backbone": {
+    "text": "He has bought a new house",
+    "meaning": "他买了一栋新房子"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时的用法",
+      "text": "has just bought 用现在完成时搭配 just，表示动作刚刚完成，和现在的情况有关联，即他目前已经是这栋新房子的所有者。"
+    },
+    {
+      "title": "地点状语的位置",
+      "text": "in the city 放在句末作地点状语，说明买房子的地点是在城里。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指代句子的动作发出者，也就是前文中提到的 Jasper White。"
+    },
+    {
+      "text": "has just bought",
+      "role": "谓语",
+      "explanation": "表示“刚刚买了”这个已经完成的动作，has bought 是现在完成时结构，just 用来强调动作刚发生不久。"
+    },
+    {
+      "text": "a new house",
+      "role": "宾语",
+      "explanation": "是“买”这个动作的对象，说明买的东西是一栋新房子。"
+    },
+    {
+      "text": "in the city,",
+      "role": "地点状语",
+      "explanation": "补充说明买房子的地点是在城市里。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "has",
+      "meaning": "（助动词，构成现在完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæz/"
+    },
+    {
+      "text": "just",
+      "meaning": "刚刚，刚才",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "bought",
+      "meaning": "买（buy的过去分词）",
+      "pos": "动词",
+      "phonetic": "/bɔːt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一（栋）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "new",
+      "meaning": "新的",
+      "pos": "形容词",
+      "phonetic": "/njuː/"
+    },
+    {
+      "text": "house",
+      "meaning": "房子，住宅",
+      "pos": "名词",
+      "phonetic": "/haʊs/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "（定冠词，这里指双方都知晓的城市范围）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "city,",
+      "meaning": "城市，城里",
+      "pos": "名词",
+      "phonetic": "/ˈsɪti/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "动作的发出者",
+      "meaning": "他"
+    },
+    {
+      "text": "has just bought",
+      "relation": "主语发出的动作",
+      "meaning": "刚刚买了"
+    },
+    {
+      "text": "a new house",
+      "relation": "动作的对象，买的是什么",
+      "meaning": "一栋新房子"
+    },
+    {
+      "text": "in the city,",
+      "relation": "补充说明买房子的地点",
+      "meaning": "在城里"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-028",
+  "sentenceId": "nce-2-lesson-028-sentence-002-part-01",
+  "sentenceOrder": 2,
+  "english": "He has just bought a new house in the city,",
+  "lesson": "Lesson 28 No parking",
+  "notes": [
+    {
+      "title": "现在完成时的用法",
+      "text": "has just bought 用现在完成时搭配 just，表示动作刚刚完成，和现在的情况有关联，即他目前已经是这栋新房子的所有者。"
+    },
+    {
+      "title": "地点状语的位置",
+      "text": "in the city 放在句末作地点状语，说明买房子的地点是在城里。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅词项city的释义错误附带逗号说明，需修正为仅解释名词词义，逗号属于原文标点约定无需纳入释义。（非逐句人工审核）"
+}

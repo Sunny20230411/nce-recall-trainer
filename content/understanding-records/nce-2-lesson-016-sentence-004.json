@@ -1,0 +1,111 @@
+{
+  "chinese": "交通警察有时很有礼貌。",
+  "intent": "陈述交通警察偶尔会表现得很有礼貌这一情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "Traffic police are polite.",
+    "meaning": "交通警察是有礼貌的。"
+  },
+  "structureNotes": [
+    {
+      "title": "频率副词的位置",
+      "text": "sometimes放在be动词are之后，用来修饰整个句子的频率，表示“有时候”是这种情况，不是每次都这样。"
+    },
+    {
+      "title": "程度副词的作用",
+      "text": "very放在形容词polite前面，用来加强“有礼貌”的程度，说明不是一般的有礼貌，而是挺有礼貌的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Traffic police",
+      "role": "主语",
+      "explanation": "指交通警察这个群体，是句子描述的对象。"
+    },
+    {
+      "text": "are sometimes very polite",
+      "role": "谓语",
+      "explanation": "说明主语的特征，由系动词are和表语polite共同构成系表结构作谓语；sometimes从频率上修饰整个系表结构，very从程度上修饰形容词polite。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Traffic",
+      "meaning": "交通",
+      "pos": "名词",
+      "phonetic": "/ˈtræfɪk/"
+    },
+    {
+      "text": "police",
+      "meaning": "警察（集合名词）",
+      "pos": "名词",
+      "phonetic": "/pəˈliːs/"
+    },
+    {
+      "text": "are",
+      "meaning": "是（be动词复数形式）",
+      "pos": "动词",
+      "phonetic": "/ɑː(r)/"
+    },
+    {
+      "text": "sometimes",
+      "meaning": "有时，偶尔",
+      "pos": "副词",
+      "phonetic": "/ˈsʌmtaɪmz/"
+    },
+    {
+      "text": "very",
+      "meaning": "很，非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "polite.",
+      "meaning": "有礼貌的",
+      "pos": "形容词",
+      "phonetic": "/pəˈlaɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Traffic police",
+      "relation": "描述对象",
+      "meaning": "交通警察"
+    },
+    {
+      "text": "are",
+      "relation": "连接主语和特征",
+      "meaning": "是"
+    },
+    {
+      "text": "sometimes",
+      "relation": "补充频率",
+      "meaning": "有时"
+    },
+    {
+      "text": "very polite.",
+      "relation": "描述主语的特征",
+      "meaning": "很有礼貌"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-016",
+  "sentenceId": "nce-2-lesson-016-sentence-004",
+  "sentenceOrder": 4,
+  "english": "Traffic police are sometimes very polite.",
+  "lesson": "Lesson 16 A polite request",
+  "notes": [
+    {
+      "title": "频率副词的位置",
+      "text": "sometimes放在be动词are之后，用来修饰整个句子的频率，表示“有时候”是这种情况，不是每次都这样。"
+    },
+    {
+      "title": "程度副词的作用",
+      "text": "very放在形容词polite前面，用来加强“有礼貌”的程度，说明不是一般的有礼貌，而是挺有礼貌的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅存在两处可修正的小问题：1. words中polite.的释义多余添加了「结尾带句号」的说明，不符合仅解释词本身的要求；2. structures中将系表结构整体标注为谓语的表述不够准确，系动词+表语共同构成谓语的说明需更规范，同时修正修饰对象的表述，sometimes修饰的是整个系表结构表频率，而非直接修饰polite。其余内容符合要求。（非逐句人工审核）"
+}

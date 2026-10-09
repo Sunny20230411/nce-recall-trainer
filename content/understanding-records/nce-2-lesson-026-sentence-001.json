@@ -1,0 +1,139 @@
+{
+  "chinese": "我是一名美术专业的学生，我画很多画。",
+  "intent": "说话人介绍自己的身份和常做的事，交代背景引出下文关于艺术评论的话题。",
+  "comparison": null,
+  "backbone": {
+    "text": "I am an art student and I paint a lot of pictures.",
+    "meaning": "我是美术学生，并且我画很多画。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列句的连接",
+      "text": "and 连接两个各自完整的简单句，前一句说明身份，后一句说明相关的行为，二者是并列补充关系。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I am an art student",
+      "role": "第一分句",
+      "explanation": "主系表结构，说明说话人的身份是美术专业学生。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接前后两个独立分句，表示并列递进关系，引出与身份相关的行为。"
+    },
+    {
+      "text": "I paint a lot of pictures.",
+      "role": "第二分句",
+      "explanation": "主谓宾结构，说明说话人常做的事是画很多画。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "am",
+      "meaning": "是（第一人称单数现在时）",
+      "pos": "be动词",
+      "phonetic": "/æm/"
+    },
+    {
+      "text": "an",
+      "meaning": "一个（后接元音开头的词）",
+      "pos": "不定冠词",
+      "phonetic": "/ən/"
+    },
+    {
+      "text": "art",
+      "meaning": "美术；艺术",
+      "pos": "名词",
+      "phonetic": "/ɑːt/"
+    },
+    {
+      "text": "student",
+      "meaning": "学生",
+      "pos": "名词",
+      "phonetic": "/ˈstjuːdnt/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "paint",
+      "meaning": "画；绘画",
+      "pos": "动词",
+      "phonetic": "/peɪnt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "lot",
+      "meaning": "许多；大量",
+      "pos": "名词",
+      "phonetic": "/lɒt/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的（表示所属或数量相关）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "pictures.",
+      "meaning": "画；图画（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈpɪktʃəz/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I am an art student",
+      "relation": "介绍说话人的身份",
+      "meaning": "我是一名美术专业学生"
+    },
+    {
+      "text": "and",
+      "relation": "连接前后两个并列的内容",
+      "meaning": "并且"
+    },
+    {
+      "text": "I paint a lot of pictures.",
+      "relation": "补充说明与身份相关的行为",
+      "meaning": "我画很多画"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-026",
+  "sentenceId": "nce-2-lesson-026-sentence-001",
+  "sentenceOrder": 1,
+  "english": "I am an art student and I paint a lot of pictures.",
+  "lesson": "Lesson 26 The best art critics",
+  "notes": [
+    {
+      "title": "并列句的连接",
+      "text": "and 连接两个各自完整的简单句，前一句说明身份，后一句说明相关的行为，二者是并列补充关系。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正 art 的词性标注及 pictures 的音标，其余符合要求。（非逐句人工审核）"
+}

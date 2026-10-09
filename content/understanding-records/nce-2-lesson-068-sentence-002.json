@@ -1,0 +1,162 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-068",
+  "sentenceId": "nce-2-lesson-068-sentence-002",
+  "sentenceOrder": 2,
+  "english": "It was no use pretending that I had not seen him, so I waved to him.",
+  "chinese": "装作没看见他已经没用了，所以我朝他挥了挥手。",
+  "lesson": "Lesson 68 Persistent",
+  "intent": "说明伪装无效后改为打招呼",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "It was no use pretending that I had not seen him,",
+      "relation": "无效判断",
+      "meaning": "装作没看见他已无用"
+    },
+    {
+      "text": "so I waved to him.",
+      "relation": "相应行动",
+      "meaning": "所以我朝他挥手"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "形式主语",
+      "text": "it 占主语位置，pretending… 是被评价的活动。"
+    },
+    {
+      "title": "假装内容",
+      "text": "had not seen 是假装声称此前没看见，并非事实未见。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "形式主语",
+      "text": "it 占主语位置，pretending… 是被评价的活动。"
+    },
+    {
+      "title": "假装内容",
+      "text": "had not seen 是假装声称此前没看见，并非事实未见。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It was no use pretending that I had not seen him,",
+      "role": "第一分句",
+      "explanation": "判断继续假装无效。"
+    },
+    {
+      "text": "pretending that I had not seen him",
+      "role": "实际主语",
+      "explanation": "说明无效的行为。"
+    },
+    {
+      "text": "so I waved to him.",
+      "role": "结果分句",
+      "explanation": "说明因而作出的招呼。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "形式主语",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "was",
+      "meaning": "是",
+      "pos": "系动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "no",
+      "meaning": "没有",
+      "pos": "限定词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "use",
+      "meaning": "用处",
+      "pos": "名词",
+      "phonetic": "/juːs/"
+    },
+    {
+      "text": "pretending",
+      "meaning": "假装",
+      "pos": "动名词",
+      "phonetic": "/prɪˈtendɪŋ/"
+    },
+    {
+      "text": "that",
+      "meaning": "引出假装内容",
+      "pos": "连词",
+      "phonetic": "/ðæt/ 或 /ðət/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "had",
+      "meaning": "此前已经",
+      "pos": "助动词",
+      "phonetic": "/hæd/ 或 /əd/"
+    },
+    {
+      "text": "not",
+      "meaning": "没有",
+      "pos": "否定副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "seen",
+      "meaning": "看见",
+      "pos": "动词过去分词",
+      "phonetic": "/siːn/"
+    },
+    {
+      "text": "him,",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hɪm/ 或 /ɪm/"
+    },
+    {
+      "text": "so",
+      "meaning": "所以",
+      "pos": "连词",
+      "phonetic": "/səʊ/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "waved",
+      "meaning": "挥手",
+      "pos": "动词",
+      "phonetic": "/weɪvd/"
+    },
+    {
+      "text": "to",
+      "meaning": "向",
+      "pos": "介词",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "him.",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hɪm/ 或 /ɪm/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

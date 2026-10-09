@@ -1,0 +1,97 @@
+{
+  "chinese": "那出戏很有意思。",
+  "intent": "描述当时那部戏剧的内容很有趣。",
+  "comparison": null,
+  "backbone": {
+    "text": "The play was interesting.",
+    "meaning": "那部戏是有意思的。"
+  },
+  "structureNotes": [
+    {
+      "title": "very的作用",
+      "text": "very 放在形容词 interesting 前面，用来加强程度，表示“很、非常”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The play",
+      "role": "主语",
+      "explanation": "指语境里正在看的那部戏剧，是句子描述的对象。"
+    },
+    {
+      "text": "was",
+      "role": "系动词",
+      "explanation": "be 动词的第三人称单数过去式，起连接主语和表语的作用，表示过去的状态。"
+    },
+    {
+      "text": "very interesting",
+      "role": "表语",
+      "explanation": "用来说明主语 The play 的性质：很有意思；very 是副词，修饰形容词 interesting，加强程度。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "这；那（用于特指双方都知道的人或事物）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "The"
+    },
+    {
+      "meaning": "戏剧；戏",
+      "pos": "名词",
+      "phonetic": "/pleɪ/",
+      "text": "play"
+    },
+    {
+      "meaning": "是（be的第一/第三人称单数过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/",
+      "text": "was"
+    },
+    {
+      "meaning": "很；非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/",
+      "text": "very"
+    },
+    {
+      "meaning": "有趣的；有意思的",
+      "pos": "形容词",
+      "phonetic": "/ˈɪntrəstɪŋ/",
+      "text": "interesting."
+    }
+  ],
+  "parts": [
+    {
+      "text": "The play",
+      "relation": "描述对象",
+      "meaning": "那部戏"
+    },
+    {
+      "text": "was",
+      "relation": "连接主语和性质描述",
+      "meaning": "是"
+    },
+    {
+      "text": "very interesting.",
+      "relation": "补充说明主语的性质",
+      "meaning": "很有意思"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-001",
+  "sentenceId": "nce-2-lesson-001-sentence-003",
+  "sentenceOrder": 3,
+  "english": "The play was very interesting.",
+  "lesson": "Lesson 1 A private conversation",
+  "notes": [
+    {
+      "title": "very的作用",
+      "text": "very 放在形容词 interesting 前面，用来加强程度，表示“很、非常”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅存在一处结构划分错误：原structures将系动词was归入表语部分，不符合系表结构的标准划分，系动词需单独作为谓语（系动词）部分，表语仅为形容词短语部分；其余翻译、词义、音标、成分解释均符合要求。（非逐句人工审核）"
+}

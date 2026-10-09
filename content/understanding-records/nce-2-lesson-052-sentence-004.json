@@ -1,0 +1,233 @@
+{
+  "chinese": "更糟糕的是，房间相当小，所以我暂时把我的书放在了地板上。",
+  "intent": "说明房间偏小这一雪上加霜的情况，以及由此导致的“我”暂时把书堆在地板上的结果。",
+  "comparison": {
+    "chinese": "更糟糕的是，房间相当小，所以我暂时把书放在地板上。",
+    "english": "To make matters worse, the room is rather small, so I have temporarily put my books on the floor.",
+    "steps": [
+      {
+        "label": "第一步：先抓句子主干逻辑",
+        "text": "the room is rather small, so I have temporarily put my books on the floor",
+        "explanation": "中文和英文在这里的因果顺序一致：先说原因“房间很小”，再说结果“我把书放地板上”，中间用“所以/so”连接，阅读时可以顺着直接理解。"
+      },
+      {
+        "label": "第二步：理解句首短语的作用",
+        "text": "To make matters worse",
+        "explanation": "这个短语放在句首，不是句子的主语或动作，而是用来承接上文、补充说明“情况变得更糟”。中文会说“更糟糕的是”，也是独立放在句首作评注，两种语言的位置和功能一致。"
+      },
+      {
+        "label": "第三步：体会temporarily的修饰位置",
+        "text": "have temporarily put",
+        "explanation": "英文把“暂时”放在have和put之间，修饰整个“放书”的动作；中文会说“暂时把书放在地板上”，把副词放在动词前面。理解时不用调换语序，直接对应到“暂时放”即可。"
+      }
+    ],
+    "takeaway": "这句话的难点不在语序，而在于句首的To make matters worse是评注性状语，用来递进糟糕的程度，不参与句子的主谓结构；so连接两个并列分句表因果关系。"
+  },
+  "backbone": {
+    "text": "The room is small, so I have put my books on the floor.",
+    "meaning": "房间很小，所以我把书放在了地板上。"
+  },
+  "structureNotes": [
+    {
+      "title": "To make matters worse 的作用",
+      "text": "这是一个不定式短语作评注性状语，放在句首用来衔接上文，说明接下来要说的事会让情况更糟，不修饰句中某个动词，而是对全句内容做语气上的递进。"
+    },
+    {
+      "title": "so 连接的并列因果句",
+      "text": "so 是并列连词，连接前后两个独立分句，前一分句说明原因（房间小），后一分句说明由此产生的结果（把书放地板上），两句地位平等。"
+    },
+    {
+      "title": "现在完成时 have put 的含义",
+      "text": "have temporarily put 是现在完成时，表示“放书”这个动作已经完成，并且和现在的情况有关——现在书还在地板上，不是单纯说过去放过。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "To make matters worse,",
+      "role": "评注性状语",
+      "explanation": "位于句首，用来承接上文并递进语气，说明后面的情况让事情变得更糟，不修饰句中某个具体动词。"
+    },
+    {
+      "text": "the room is rather small,",
+      "role": "原因分句",
+      "explanation": "主系表结构，说明“房间相当小”这一事实，作为后面结果分句的原因。"
+    },
+    {
+      "text": "so",
+      "role": "并列连词",
+      "explanation": "连接前后两个分句，表示因果关系，引出由前一分句导致的结果。"
+    },
+    {
+      "text": "I have temporarily put my books on the floor.",
+      "role": "结果分句",
+      "explanation": "主谓宾加地点状语结构，说明“我暂时把书放在地板上”这一结果。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式标记",
+      "phonetic": "/tuː/",
+      "text": "To"
+    },
+    {
+      "meaning": "使得，让",
+      "pos": "动词",
+      "phonetic": "/meɪk/",
+      "text": "make"
+    },
+    {
+      "meaning": "事情，情况（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈmætəz/",
+      "text": "matters"
+    },
+    {
+      "meaning": "更糟的，更坏的",
+      "pos": "形容词比较级",
+      "phonetic": "/wɜːs/",
+      "text": "worse,"
+    },
+    {
+      "meaning": "这个，那个（定冠词）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "房间",
+      "pos": "名词",
+      "phonetic": "/ruːm/",
+      "text": "room"
+    },
+    {
+      "meaning": "是（be动词第三人称单数现在时）",
+      "pos": "be动词",
+      "phonetic": "/ɪz/",
+      "text": "is"
+    },
+    {
+      "meaning": "相当，颇",
+      "pos": "副词",
+      "phonetic": "/ˈrɑːðə/",
+      "text": "rather"
+    },
+    {
+      "meaning": "小的",
+      "pos": "形容词",
+      "phonetic": "/smɔːl/",
+      "text": "small,"
+    },
+    {
+      "meaning": "所以，因此",
+      "pos": "连词",
+      "phonetic": "/səʊ/",
+      "text": "so"
+    },
+    {
+      "meaning": "我",
+      "pos": "人称代词主格",
+      "phonetic": "/aɪ/",
+      "text": "I"
+    },
+    {
+      "meaning": "（助动词，构成现在完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæv/",
+      "text": "have"
+    },
+    {
+      "meaning": "暂时地，临时地",
+      "pos": "副词",
+      "phonetic": "/ˈtemprərəli/",
+      "text": "temporarily"
+    },
+    {
+      "meaning": "放，放置（过去分词）",
+      "pos": "动词过去分词",
+      "phonetic": "/pʊt/",
+      "text": "put"
+    },
+    {
+      "meaning": "我的",
+      "pos": "物主代词",
+      "phonetic": "/maɪ/",
+      "text": "my"
+    },
+    {
+      "meaning": "书（复数）",
+      "pos": "名词",
+      "phonetic": "/bʊks/",
+      "text": "books"
+    },
+    {
+      "meaning": "在……上面",
+      "pos": "介词",
+      "phonetic": "/ɒn/",
+      "text": "on"
+    },
+    {
+      "meaning": "这个，那个（定冠词）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "地板，地面",
+      "pos": "名词",
+      "phonetic": "/flɔː/",
+      "text": "floor."
+    }
+  ],
+  "parts": [
+    {
+      "text": "To make matters worse,",
+      "meaning": "更糟糕的是",
+      "relation": "评注递进，引出更坏的情况"
+    },
+    {
+      "text": "the room is rather small,",
+      "meaning": "房间相当小",
+      "relation": "说明原因，描述房间的状态"
+    },
+    {
+      "text": "so",
+      "meaning": "所以",
+      "relation": "连接因果，引出结果"
+    },
+    {
+      "text": "I have temporarily put my books",
+      "meaning": "我暂时放了我的书",
+      "relation": "结果分句的主谓宾部分，说明主语的动作"
+    },
+    {
+      "text": "on the floor.",
+      "meaning": "在地板上",
+      "relation": "补充放书的地点"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-052",
+  "sentenceId": "nce-2-lesson-052-sentence-004",
+  "sentenceOrder": 4,
+  "english": "To make matters worse, the room is rather small, so I have temporarily put my books on the floor.",
+  "lesson": "Lesson 52 A pretty carpet",
+  "notes": [
+    {
+      "title": "To make matters worse 的作用",
+      "text": "这是一个不定式短语作评注性状语，放在句首用来衔接上文，说明接下来要说的事会让情况更糟，不修饰句中某个动词，而是对全句内容做语气上的递进。"
+    },
+    {
+      "title": "so 连接的并列因果句",
+      "text": "so 是并列连词，连接前后两个独立分句，前一分句说明原因（房间小），后一分句说明由此产生的结果（把书放地板上），两句地位平等。"
+    },
+    {
+      "title": "现在完成时 have put 的含义",
+      "text": "have temporarily put 是现在完成时，表示“放书”这个动作已经完成，并且和现在的情况有关——现在书还在地板上，不是单纯说过去放过。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，仅parts第四块的relation表述不够精准，需修正为结果分句的主谓宾部分，其余字段均符合要求。（非逐句人工审核）"
+}

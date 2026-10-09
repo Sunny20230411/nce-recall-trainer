@@ -1,0 +1,114 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-038",
+  "sentenceId": "nce-2-lesson-038-sentence-008",
+  "sentenceOrder": 8,
+  "english": "He sold his house and left the country.",
+  "chinese": "他卖掉了房子，离开了这个国家。",
+  "lesson": "Lesson 38 Everything except the weather",
+  "intent": "以卖房离国交代计划的结局。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "He sold his house",
+      "relation": "采取的第一项行动",
+      "meaning": "他卖掉了自己的房子"
+    },
+    {
+      "text": "and left the country.",
+      "relation": "离开的行动",
+      "meaning": "并离开了这个国家"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "并列动作共用主语",
+      "text": "sold 与 left 都是过去式，共用主语 He。后半句不需要重复主语。"
+    },
+    {
+      "title": "country承接国家",
+      "text": "the country 在这里指英国这个国家，不能沿用前文 in the country 的乡间义。词义由具体搭配和上下文确定。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "并列动作共用主语",
+      "text": "sold 与 left 都是过去式，共用主语 He。后半句不需要重复主语。"
+    },
+    {
+      "title": "country承接国家",
+      "text": "the country 在这里指英国这个国家，不能沿用前文 in the country 的乡间义。词义由具体搭配和上下文确定。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "卖房和离开的人。"
+    },
+    {
+      "text": "sold his house",
+      "role": "第一项谓语及宾语",
+      "explanation": "说明卖房。"
+    },
+    {
+      "text": "left the country.",
+      "role": "并列谓语及宾语",
+      "explanation": "说明离国，与sold共用主语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "sold",
+      "meaning": "卖掉",
+      "pos": "动词",
+      "phonetic": "/səʊld/"
+    },
+    {
+      "text": "his",
+      "meaning": "他的",
+      "pos": "物主限定词",
+      "phonetic": "/hɪz/"
+    },
+    {
+      "text": "house",
+      "meaning": "房子",
+      "pos": "名词",
+      "phonetic": "/haʊs/"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "pos": "并列连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "left",
+      "meaning": "离开",
+      "pos": "动词",
+      "phonetic": "/left/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "country.",
+      "meaning": "国家；指英国",
+      "pos": "名词",
+      "phonetic": "/ˈkʌntri/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

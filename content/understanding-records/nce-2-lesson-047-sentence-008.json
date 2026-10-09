@@ -1,0 +1,208 @@
+{
+  "chinese": "汤普森上床睡觉前已经把灯关了，可早上灯却是亮着的。",
+  "intent": "陈述两件先后发生且结果反常的事：睡前已关灯，早上灯却开着，为后续“闹鬼”的情节做事实铺垫。",
+  "comparison": {
+    "chinese": "汤普森睡前就把灯关了，结果早上灯还亮着。",
+    "english": "Thompson had turned the lights off before he went to bed, they were on in the morning.",
+    "steps": [
+      {
+        "label": "第一步：先抓前半件事的核心动作",
+        "text": "Thompson had turned the lights off",
+        "explanation": "中文会说“汤普森把灯关了”，英文先说主语Thompson，再用had turned...off表达“已经关掉”的完成含义，宾语the lights夹在turn和off中间。"
+      },
+      {
+        "label": "第二步：补出动作发生的时间背景",
+        "text": "before he went to bed",
+        "explanation": "中文习惯把“睡前”放在动作前面说，英文把before引导的时间背景放在主句后面，说明“关灯”这个动作是在“上床睡觉”之前完成的。"
+      },
+      {
+        "label": "第三步：接后半句的反常结果",
+        "text": "they were on in the morning",
+        "explanation": "中文用“可早上灯还亮着”转折，英文用并列分句承接，they指前面的the lights，on在这里表示“亮着、处于开启状态”，in the morning说明时间。"
+      }
+    ],
+    "takeaway": "英文先讲主句动作，再用before交代更早的时间参照；描述灯“亮着”不用动词“开”，而用be on这种“状态+be动词”的表达。"
+  },
+  "backbone": {
+    "text": "Thompson had turned the lights off; they were on.",
+    "meaning": "汤普森已经把灯关了；灯却亮着。（去掉时间修饰后的核心对比，前后两句为转折关系）"
+  },
+  "structureNotes": [
+    {
+      "title": "过去完成时表“更早的过去”",
+      "text": "前半句用had turned（过去完成时），后半句用went、were（一般过去时），说明“关灯”发生在“上床睡觉”和“早上灯亮着”这两个过去时间点之前。"
+    },
+    {
+      "title": "on表电器处于开启状态",
+      "text": "they were on里的on是形容词性，意思是“开着的、亮着的”，和前面的turned...off（关掉）形成状态对比。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "had turned the lights off",
+      "role": "前半句谓语+宾语",
+      "explanation": "由“had+过去分词turned”构成过去完成时短语动词turn off，宾语the lights放在中间，表示“已经把灯关掉”。"
+    },
+    {
+      "text": "before he went to bed",
+      "role": "时间状语从句",
+      "explanation": "before是连词，引导过去时间背景，说明主句“关灯”的动作发生在“上床睡觉”之前。"
+    },
+    {
+      "text": "were on",
+      "role": "后半句系表谓语",
+      "explanation": "were是be动词过去式，on作表语表示“开启、亮着”的状态，主语they指代前面的the lights。"
+    },
+    {
+      "text": "in the morning",
+      "role": "时间状语",
+      "explanation": "说明后半句“灯亮着”的时间是在早上。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Thompson",
+      "meaning": "汤普森（人名）",
+      "pos": "名词",
+      "phonetic": "/ˈtɒmpsən/"
+    },
+    {
+      "text": "had",
+      "meaning": "（过去完成时助动词，无实义）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "turned",
+      "meaning": "转动；（与off搭配）关掉",
+      "pos": "动词过去分词",
+      "phonetic": "/tɜːnd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "lights",
+      "meaning": "灯（复数）",
+      "pos": "名词",
+      "phonetic": "/laɪts/"
+    },
+    {
+      "text": "off",
+      "meaning": "（与turn搭配）关掉",
+      "pos": "副词",
+      "phonetic": "/ɒf/"
+    },
+    {
+      "text": "before",
+      "meaning": "在……之前",
+      "pos": "连词",
+      "phonetic": "/bɪˈfɔː/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "went",
+      "meaning": "去（过去式）",
+      "pos": "动词过去式",
+      "phonetic": "/went/"
+    },
+    {
+      "text": "to",
+      "meaning": "（不定式符号，无实义）",
+      "pos": "不定式符号",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "bed,",
+      "meaning": "床，床铺",
+      "pos": "名词",
+      "phonetic": "/bed/"
+    },
+    {
+      "text": "they",
+      "meaning": "它们（指代灯）",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "were",
+      "meaning": "是（be动词过去式复数）",
+      "pos": "动词过去式",
+      "phonetic": "/wɜː/"
+    },
+    {
+      "text": "on",
+      "meaning": "开着的，亮着的",
+      "pos": "形容词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（某段时间）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "morning.",
+      "meaning": "早晨，上午",
+      "pos": "名词",
+      "phonetic": "/ˈmɔːnɪŋ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Thompson had turned the lights off",
+      "relation": "前半句主句，陈述更早发生的动作",
+      "meaning": "汤普森已经把灯关掉了"
+    },
+    {
+      "text": "before he went to bed,",
+      "relation": "时间背景，说明关灯动作发生的时间参照",
+      "meaning": "在他上床睡觉之前"
+    },
+    {
+      "text": "they were on",
+      "relation": "后半句主句，陈述后来的反常结果",
+      "meaning": "它们（灯）是亮着的"
+    },
+    {
+      "text": "in the morning.",
+      "relation": "时间背景，说明灯亮着的时间",
+      "meaning": "在早上"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-047",
+  "sentenceId": "nce-2-lesson-047-sentence-008",
+  "sentenceOrder": 8,
+  "english": "Thompson had turned the lights off before he went to bed, they were on in the morning.",
+  "lesson": "Lesson 47 A thirsty ghost",
+  "notes": [
+    {
+      "title": "过去完成时表“更早的过去”",
+      "text": "前半句用had turned（过去完成时），后半句用went、were（一般过去时），说明“关灯”发生在“上床睡觉”和“早上灯亮着”这两个过去时间点之前。"
+    },
+    {
+      "title": "on表电器处于开启状态",
+      "text": "they were on里的on是形容词性，意思是“开着的、亮着的”，和前面的turned...off（关掉）形成状态对比。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文内容覆盖完整，翻译准确，仅需修正两处小问题：一是words中to的词性标注错误，go to bed里的to是不定式符号而非介词；二是bed词项带标点但释义无需额外说明，保持原有约定即可。（非逐句人工审核）"
+}

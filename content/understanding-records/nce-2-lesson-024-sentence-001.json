@@ -1,0 +1,131 @@
+{
+  "chinese": "我走进酒店经理的办公室，坐了下来。",
+  "intent": "叙述说话人先后做的两个连续动作：进入经理办公室、坐下。",
+  "comparison": null,
+  "backbone": {
+    "text": "I entered the office and sat down.",
+    "meaning": "我进了办公室并坐下。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列动作的连接",
+      "text": "and 连接 entered 与 sat down 两个过去式动词短语，表示两个动作先后发生、主语都是 I。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话人本人，是两个动作的发出者。"
+    },
+    {
+      "text": "entered the hotel manager's office",
+      "role": "第一个谓语部分",
+      "explanation": "表示“走进酒店经理的办公室”，entered 是及物动词，后面直接跟地点宾语。"
+    },
+    {
+      "text": "and",
+      "role": "并列连词",
+      "explanation": "连接两个并列的谓语动作，暗示动作有先后顺序。"
+    },
+    {
+      "text": "sat down.",
+      "role": "第二个谓语部分",
+      "explanation": "表示“坐下”，是与 entered 并列的过去式动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "entered",
+      "meaning": "进入，走进",
+      "pos": "动词（过去式）",
+      "phonetic": "/ˈentəd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这，那（定指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "hotel",
+      "meaning": "酒店，旅馆",
+      "pos": "名词",
+      "phonetic": "/həʊˈtel/"
+    },
+    {
+      "text": "manager's",
+      "meaning": "经理的",
+      "pos": "名词所有格",
+      "phonetic": "/ˈmænɪdʒəz/"
+    },
+    {
+      "text": "office",
+      "meaning": "办公室",
+      "pos": "名词",
+      "phonetic": "/ˈɒfɪs/"
+    },
+    {
+      "text": "and",
+      "meaning": "和，并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "sat",
+      "meaning": "坐",
+      "pos": "动词（过去式）",
+      "phonetic": "/sæt/"
+    },
+    {
+      "text": "down.",
+      "meaning": "向下；坐下（与sat连用）",
+      "pos": "副词",
+      "phonetic": "/daʊn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "relation": "动作发出者",
+      "meaning": "我"
+    },
+    {
+      "text": "entered the hotel manager's office",
+      "relation": "第一个动作",
+      "meaning": "走进酒店经理的办公室"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列动作",
+      "meaning": "并且"
+    },
+    {
+      "text": "sat down.",
+      "relation": "第二个动作",
+      "meaning": "坐了下来"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-024",
+  "sentenceId": "nce-2-lesson-024-sentence-001",
+  "sentenceOrder": 1,
+  "english": "I entered the hotel manager's office and sat down.",
+  "lesson": "Lesson 24 It could be worse",
+  "notes": [
+    {
+      "title": "并列动作的连接",
+      "text": "and 连接 entered 与 sat down 两个过去式动词短语，表示两个动作先后发生、主语都是 I。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需修正 hotel 的重音标注位置，以及 manager's 的音标规范。（非逐句人工审核）"
+}

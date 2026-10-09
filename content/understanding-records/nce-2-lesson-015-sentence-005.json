@@ -1,0 +1,168 @@
+{
+  "chinese": "我坐下之后，他说生意很不景气。",
+  "intent": "交代过去两件事的先后顺序：先发生“我坐下”，之后发生“他说生意很差”这件事，并转述说话的内容。",
+  "comparison": {
+    "chinese": "我坐下之后，他说生意很不好。",
+    "english": "After I had sat down, he said that business was very bad.",
+    "steps": [
+      {
+        "label": "第一步：先抓主句核心事件",
+        "text": "he said that business was very bad",
+        "explanation": "中文先讲“我坐下”再讲“他说”，英文先把主句“他说生意不好”作为核心摆出来，前面的时间信息只是交代背景。"
+      },
+      {
+        "label": "第二步：补充时间先后",
+        "text": "After I had sat down",
+        "explanation": "中文用“之后”接在“我坐下”后面表先后，英文把After放在从句最前面，并且用had sat这种“已经完成”的形式，明确“坐下”发生在“他说”之前。"
+      },
+      {
+        "label": "第三步：转述说话内容",
+        "text": "that business was very bad",
+        "explanation": "中文“说生意不好”可以直接把内容接在“说”后面，英文用that引出转述的内容，让句子层次更清楚。"
+      }
+    ],
+    "takeaway": "英文习惯先讲核心事件（他说…），再用After从句补时间先后；had done用来明确两个过去动作哪个更早发生。"
+  },
+  "backbone": {
+    "text": "he said that business was very bad",
+    "meaning": "他说生意很不好。（前面的“我坐下后”仅说明这件事发生的时间背景）"
+  },
+  "structureNotes": [
+    {
+      "title": "时间先后的表达",
+      "text": "After I had sat down 用 After 引出更早的动作，had sat 是过去完成时，明确“坐下”发生在主句“他说”之前，两件事都在过去。"
+    },
+    {
+      "title": "转述说话内容的从句",
+      "text": "that business was very bad 跟在 said 后面，用来交代“说”的具体内容，that 只起连接作用，本身没有实际含义。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "After I had sat down,",
+      "role": "时间状语从句",
+      "explanation": "说明主句动作发生的时间背景，即“我坐下”这件事完成之后。"
+    },
+    {
+      "text": "he said",
+      "role": "主句的主语和谓语",
+      "explanation": "句子核心框架的主谓部分，交代说话的人是“他”，动作是“说”，后续宾语从句补充说话的具体内容。"
+    },
+    {
+      "text": "that business was very bad.",
+      "role": "宾语从句",
+      "explanation": "跟在 said 后面，说明“说”的具体内容；business 是从句的主语，was 是从句的系动词，very bad 是从句的表语，描述生意的状况。"
+    }
+  ],
+  "words": [
+    {
+      "text": "After",
+      "meaning": "在……之后",
+      "pos": "连词",
+      "phonetic": "/ˈɑːftə(r)/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "had",
+      "meaning": "（have的过去式，构成过去完成时）已经",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "sat",
+      "meaning": "坐（sit的过去分词）",
+      "pos": "动词",
+      "phonetic": "/sæt/"
+    },
+    {
+      "text": "down,",
+      "meaning": "向下",
+      "pos": "副词",
+      "phonetic": "/daʊn/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "said",
+      "meaning": "说（say的过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导宾语从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "business",
+      "meaning": "生意，业务",
+      "pos": "名词",
+      "phonetic": "/ˈbɪznəs/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be的过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "very",
+      "meaning": "很，非常",
+      "pos": "副词",
+      "phonetic": "/ˈveri/"
+    },
+    {
+      "text": "bad.",
+      "meaning": "坏的，不好的",
+      "pos": "形容词",
+      "phonetic": "/bæd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "After I had sat down,",
+      "relation": "时间",
+      "meaning": "在我坐下之后"
+    },
+    {
+      "text": "he said",
+      "relation": "主干动作（谁做了什么）",
+      "meaning": "他说"
+    },
+    {
+      "text": "that business was very bad.",
+      "relation": "说的内容（补充“说”的具体信息）",
+      "meaning": "生意很不好"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-015",
+  "sentenceId": "nce-2-lesson-015-sentence-005",
+  "sentenceOrder": 5,
+  "english": "After I had sat down, he said that business was very bad.",
+  "lesson": "Lesson 15 Good news",
+  "notes": [
+    {
+      "title": "时间先后的表达",
+      "text": "After I had sat down 用 After 引出更早的动作，had sat 是过去完成时，明确“坐下”发生在主句“他说”之前，两件事都在过去。"
+    },
+    {
+      "title": "转述说话内容的从句",
+      "text": "that business was very bad 跟在 said 后面，用来交代“说”的具体内容，that 只起连接作用，本身没有实际含义。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析正确，仅存在几处可修正的细节：1. 单词的释义中混入了标点相关的冗余说明，不符合「音标和释义仅解释词本身」的要求；2. 主句结构标注「主谓语」遗漏了宾语从句，主句完整应包含主谓宾；3. 单词down的释义中额外添加短语搭配说明属于冗余，应仅解释词本身含义。（非逐句人工审核）"
+}

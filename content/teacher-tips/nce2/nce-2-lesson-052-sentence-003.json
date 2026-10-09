@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-052",
+  "sentenceId": "nce-2-lesson-052-sentence-003",
+  "english": "This has not been easy because I own over a thousand books.",
+  "text": "这里用 has not been easy 是站在现在回头看，从开始整理到目前这段时间里都不容易；后面用一般现在时 own，是因为“我有一千多本书”是不变的常态事实，不受整理这件事的时间影响。遇到说“做某事不容易”，先想你是在说至今的感受，还是单纯讲不变的事实，时态就不容易混。",
+  "sourceDigest": "e074253dc0b226ae0019c6ba3b416ce2cbd9abda59dd26224a94fe933b83f2a6",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：点拨准确区分了现在完成时与一般现在时在本句的时间视角差异，迁移判断具体实用，符合教学标准。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "提点准确区分了现在完成时与一般现在时的表意差异，迁移具体有用，无错误。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

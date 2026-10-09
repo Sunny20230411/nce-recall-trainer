@@ -1,0 +1,147 @@
+{
+  "chinese": "在我的信里，我告诉她她可以和我们住在一起。",
+  "intent": "说明写信时向对方传递的一项信息：对方可与我方同住。",
+  "comparison": null,
+  "backbone": {
+    "text": "I told her that she could stay with us.",
+    "meaning": "我告诉她，她可以和我们住在一起。"
+  },
+  "structureNotes": [
+    {
+      "title": "that引导的宾语从句",
+      "text": "that she could stay with us 是 told 的直接内容，说明告诉对方的具体消息，that 只起连接作用，没有实际词义。"
+    },
+    {
+      "title": "句首介词短语表场合",
+      "text": "In my letter 放在句首，交代“告诉她”这件事发生的场合是在信里，不是当面说的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "In my letter,",
+      "role": "地点/场合状语",
+      "explanation": "说明后面“告诉她”这件事的发生场合，是在信件内容当中。"
+    },
+    {
+      "text": "I told her",
+      "role": "主句主谓宾",
+      "explanation": "I 是动作发出者，told 是“告诉”这个动作，her 是被告知的对象。"
+    },
+    {
+      "text": "that she could stay with us.",
+      "role": "宾语从句",
+      "explanation": "整段作 told 的直接宾语，说明告知的具体内容；she 是从句主语，could stay 是从句谓语，with us 说明同住的对象。"
+    }
+  ],
+  "words": [
+    {
+      "text": "In",
+      "meaning": "在……之中；在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "letter,",
+      "meaning": "信",
+      "pos": "名词",
+      "phonetic": "/ˈletə/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词主格",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "told",
+      "meaning": "告诉（tell的过去式）",
+      "pos": "动词",
+      "phonetic": "/təʊld/"
+    },
+    {
+      "text": "her",
+      "meaning": "她（宾格）",
+      "pos": "人称代词宾格",
+      "phonetic": "/hɜː/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导从句，无实义）",
+      "pos": "从属连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "人称代词主格",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "could",
+      "meaning": "可以（can的过去式）",
+      "pos": "情态动词",
+      "phonetic": "/kʊd/"
+    },
+    {
+      "text": "stay",
+      "meaning": "停留；暂住",
+      "pos": "动词",
+      "phonetic": "/steɪ/"
+    },
+    {
+      "text": "with",
+      "meaning": "和……一起",
+      "pos": "介词",
+      "phonetic": "/wɪð/"
+    },
+    {
+      "text": "us.",
+      "meaning": "我们（宾格）",
+      "pos": "人称代词宾格",
+      "phonetic": "/ʌs/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "In my letter,",
+      "relation": "交代动作发生的场合",
+      "meaning": "在我的信里"
+    },
+    {
+      "text": "I told her",
+      "relation": "主句主干：谁、做了什么、对象是谁",
+      "meaning": "我告诉她"
+    },
+    {
+      "text": "that she could stay with us.",
+      "relation": "补充说明“告诉她”的具体内容",
+      "meaning": "她可以和我们住在一起"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-023",
+  "sentenceId": "nce-2-lesson-023-sentence-008",
+  "sentenceOrder": 8,
+  "english": "In my letter, I told her that she could stay with us.",
+  "lesson": "Lesson 23 A new house",
+  "notes": [
+    {
+      "title": "that引导的宾语从句",
+      "text": "that she could stay with us 是 told 的直接内容，说明告诉对方的具体消息，that 只起连接作用，没有实际词义。"
+    },
+    {
+      "title": "句首介词短语表场合",
+      "text": "In my letter 放在句首，交代“告诉她”这件事发生的场合是在信里，不是当面说的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：存在两处小问题：1. words中letter,与us.的释义额外标注了后接标点的说明，不符合约定；2. my的词性标注存在笔误，应改为形容词性物主代词（原标注中“形容性”为漏字的不规范表述）；其余内容准确。（非逐句人工审核）"
+}

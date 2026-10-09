@@ -1,0 +1,117 @@
+{
+  "chinese": "我继续开车前往下一个城镇。",
+  "intent": "陈述说话人在离开法国南部的小村庄后，继续驾车驶向下一座城镇的动作。",
+  "comparison": null,
+  "backbone": {
+    "text": "I drove on to the next town.",
+    "meaning": "我继续开车前往下一个城镇。"
+  },
+  "structureNotes": [
+    {
+      "title": "drove on 的含义",
+      "text": "drove 是 drive 的过去式，加上副词 on 后表示“继续往前开”，强调动作的延续，而不是单纯“驾驶”。"
+    },
+    {
+      "title": "to 引出目的地",
+      "text": "介词 to 后面接地点名词 the next town，用来指明行车的目的地，也就是“前往下一个城镇”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "指说话人本人，是发出“开车”这个动作的主体。"
+    },
+    {
+      "text": "drove on",
+      "role": "谓语",
+      "explanation": "表示“继续驾车行驶”的动作，drove 是动词过去式，on 作为副词补充“继续向前”的意味。"
+    },
+    {
+      "text": "to the next town",
+      "role": "目的地状语",
+      "explanation": "用介词 to 引出行车的目的地，说明开车去往的地点是下一个城镇。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "drove",
+      "meaning": "驾驶（drive的过去式）",
+      "pos": "动词",
+      "phonetic": "/drəʊv/"
+    },
+    {
+      "text": "on",
+      "meaning": "继续（向前）",
+      "pos": "副词",
+      "phonetic": "/ɒn/"
+    },
+    {
+      "text": "to",
+      "meaning": "到，向（表示方向）",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（此处表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "next",
+      "meaning": "紧接在后的，下一个的",
+      "pos": "形容词",
+      "phonetic": "/nekst/"
+    },
+    {
+      "text": "town.",
+      "meaning": "城镇",
+      "pos": "名词",
+      "phonetic": "/taʊn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "主语，动作发出者"
+    },
+    {
+      "text": "drove on",
+      "meaning": "继续开车",
+      "relation": "谓语，主语发出的动作"
+    },
+    {
+      "text": "to the next town.",
+      "meaning": "到下一个城镇",
+      "relation": "状语，说明动作的目的地"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-014",
+  "sentenceId": "nce-2-lesson-014-sentence-002-part-02",
+  "sentenceOrder": 3,
+  "english": "I drove on to the next town.",
+  "lesson": "Lesson 14 Do you speak English?",
+  "notes": [
+    {
+      "title": "drove on 的含义",
+      "text": "drove 是 drive 的过去式，加上副词 on 后表示“继续往前开”，强调动作的延续，而不是单纯“驾驶”。"
+    },
+    {
+      "title": "to 引出目的地",
+      "text": "介词 to 后面接地点名词 the next town，用来指明行车的目的地，也就是“前往下一个城镇”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本正确，存在3处可修正问题：1. 原中文翻译遗漏了drove on所含的「继续」语义，与主干释义不一致；2. 单词next此处修饰名词town作定语，标注为形容词不准确，应明确为名词作定语的功能？不，next本身可作形容词，实际问题是town.的释义多余添加了「句末带句号」的说明，违反释义仅解释词本身的要求；3. 主干、翻译的语义统一度需优化，同时parts的首块relation表述可更规范。（非逐句人工审核）"
+}

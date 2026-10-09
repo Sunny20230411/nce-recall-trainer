@@ -1,0 +1,212 @@
+{
+  "chinese": "她再也没有想过这件事，但十个月后，她收到了一封来自荷兰一个女孩的信。",
+  "intent": "陈述前后两件相关的往事：扔瓶后不再想它，以及十个月后收到荷兰女孩的来信。",
+  "comparison": null,
+  "backbone": {
+    "text": "She never thought of it again, but she received a letter.",
+    "meaning": "她再也没想起过它，但她收到了一封信。"
+  },
+  "structureNotes": [
+    {
+      "title": "but连接并列分句",
+      "text": "but前后是两个独立完整的分句，分别讲过去的两件事，语义上形成转折对比：本以为事情结束了，却有了后续。"
+    },
+    {
+      "title": "from和in修饰信的来源",
+      "text": "from a girl说明信是谁寄来的，in Holland补充说明这个女孩所在的地点，两个介词短语都顺着letter往后接，交代信的背景。"
+    },
+    {
+      "title": "ten months later作时间状语",
+      "text": "ten months later放在第二个分句前面，说明收到信的时间是在扔瓶那件事的十个月之后，属于时间参照。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She never thought of it again,",
+      "role": "第一个并列分句",
+      "explanation": "说明过去她不再想起那件事的情况，是前半段的主句。"
+    },
+    {
+      "text": "but",
+      "role": "并列连词",
+      "explanation": "连接前后两个分句，语义上表示转折，引出和前半段预期不同的后续事件。"
+    },
+    {
+      "text": "ten months later,",
+      "role": "时间状语",
+      "explanation": "指明第二个分句动作发生的时间点，即扔瓶事件过去十个月之后。"
+    },
+    {
+      "text": "she received a letter from a girl in Holland.",
+      "role": "第二个并列分句",
+      "explanation": "讲述转折后的核心事件：她收到了信；from a girl说明来信者，in Holland补充女孩的所在地。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "never",
+      "meaning": "从不，再也不",
+      "pos": "副词",
+      "phonetic": "/ˈnevə(r)/"
+    },
+    {
+      "text": "thought",
+      "meaning": "想，思考（过去式）",
+      "pos": "动词",
+      "phonetic": "/θɔːt/"
+    },
+    {
+      "text": "of",
+      "meaning": "关于，对",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "it",
+      "meaning": "它（指漂流瓶那件事）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "again,",
+      "meaning": "又，再",
+      "pos": "副词",
+      "phonetic": "/əˈɡen/"
+    },
+    {
+      "text": "but",
+      "meaning": "但是",
+      "pos": "连词",
+      "phonetic": "/bʌt/"
+    },
+    {
+      "text": "ten",
+      "meaning": "十",
+      "pos": "数词",
+      "phonetic": "/ten/"
+    },
+    {
+      "text": "months",
+      "meaning": "月（复数）",
+      "pos": "名词",
+      "phonetic": "/mʌnθs/"
+    },
+    {
+      "text": "later,",
+      "meaning": "之后",
+      "pos": "副词",
+      "phonetic": "/ˈleɪtə(r)/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "received",
+      "meaning": "收到（过去式）",
+      "pos": "动词",
+      "phonetic": "/rɪˈsiːvd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一封",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "letter",
+      "meaning": "信",
+      "pos": "名词",
+      "phonetic": "/ˈletə(r)/"
+    },
+    {
+      "text": "from",
+      "meaning": "来自",
+      "pos": "介词",
+      "phonetic": "/frɒm/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "girl",
+      "meaning": "女孩",
+      "pos": "名词",
+      "phonetic": "/ɡɜːl/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "Holland.",
+      "meaning": "荷兰",
+      "pos": "名词",
+      "phonetic": "/ˈhɒlənd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She never thought of it again,",
+      "relation": "第一个并列分句，描述前半段情况",
+      "meaning": "她再也没有想起过这件事"
+    },
+    {
+      "text": "but",
+      "relation": "转折连接词，引出第二个分句",
+      "meaning": "但是"
+    },
+    {
+      "text": "ten months later,",
+      "relation": "时间，说明第二个分句动作发生的时间",
+      "meaning": "十个月后"
+    },
+    {
+      "text": "she received a letter",
+      "relation": "第二个并列分句的主干",
+      "meaning": "她收到了一封信"
+    },
+    {
+      "text": "from a girl in Holland.",
+      "relation": "补充说明信的来源和女孩的所在地",
+      "meaning": "来自荷兰一个女孩的"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-022",
+  "sentenceId": "nce-2-lesson-022-sentence-004",
+  "sentenceOrder": 4,
+  "english": "She never thought of it again, but ten months later, she received a letter from a girl in Holland.",
+  "lesson": "Lesson 22 A glass envelope",
+  "notes": [
+    {
+      "title": "but连接并列分句",
+      "text": "but前后是两个独立完整的分句，分别讲过去的两件事，语义上形成转折对比：本以为事情结束了，却有了后续。"
+    },
+    {
+      "title": "from和in修饰信的来源",
+      "text": "from a girl说明信是谁寄来的，in Holland补充说明这个女孩所在的地点，两个介词短语都顺着letter往后接，交代信的背景。"
+    },
+    {
+      "title": "ten months later作时间状语",
+      "text": "ten months later放在第二个分句前面，说明收到信的时间是在扔瓶那件事的十个月之后，属于时间参照。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体准确，仅两处小问题需修正：again,和later,、Holland.的释义多余标注“带逗号/带句号”，且never的英式音标拼写不规范，缺少末尾的(r)。（非逐句人工审核）"
+}

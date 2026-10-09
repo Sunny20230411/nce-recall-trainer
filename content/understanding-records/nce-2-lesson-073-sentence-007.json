@@ -1,0 +1,117 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-073",
+  "sentenceId": "nce-2-lesson-073-sentence-007",
+  "sentenceOrder": 9,
+  "english": "From there, he hitchhiked to Paris in a lorry.",
+  "chinese": "他从那里搭上一辆卡车，去了巴黎。",
+  "lesson": "Lesson 73 The record-holder",
+  "intent": "接续从加莱搭卡车前往巴黎的行程",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "From there,",
+      "relation": "起点",
+      "meaning": "从那里"
+    },
+    {
+      "text": "he hitchhiked to Paris",
+      "relation": "行程方式与终点",
+      "meaning": "他搭便车前往巴黎"
+    },
+    {
+      "text": "in a lorry.",
+      "relation": "具体交通工具",
+      "meaning": "乘坐一辆卡车"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "路线与载具",
+      "text": "from 给出起点，to 给出终点，in a lorry 说明乘坐的具体车辆。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "路线与载具",
+      "text": "from 给出起点，to 给出终点，in a lorry 说明乘坐的具体车辆。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "From there,",
+      "role": "地点起点状语",
+      "explanation": "there 回指加莱。"
+    },
+    {
+      "text": "he hitchhiked to Paris",
+      "role": "主句",
+      "explanation": "说明搭便车到巴黎。"
+    },
+    {
+      "text": "in a lorry.",
+      "role": "方式状语",
+      "explanation": "说明具体载具。"
+    }
+  ],
+  "words": [
+    {
+      "text": "From",
+      "meaning": "从",
+      "pos": "介词",
+      "phonetic": "/frəm/ 或 /frɒm/"
+    },
+    {
+      "text": "there,",
+      "meaning": "那里",
+      "pos": "地点副词",
+      "phonetic": "/ðeə/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "hitchhiked",
+      "meaning": "搭便车",
+      "pos": "动词",
+      "phonetic": "/ˈhɪtʃhaɪkt/"
+    },
+    {
+      "text": "to",
+      "meaning": "到",
+      "pos": "介词",
+      "phonetic": "/tə/ 或 /tuː/"
+    },
+    {
+      "text": "Paris",
+      "meaning": "巴黎；地名",
+      "pos": "专有名词",
+      "phonetic": "/ˈpærɪs/"
+    },
+    {
+      "text": "in",
+      "meaning": "乘坐在……里",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "a",
+      "meaning": "一辆",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "lorry.",
+      "meaning": "卡车",
+      "pos": "名词",
+      "phonetic": "/ˈlɒri/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

@@ -1,0 +1,140 @@
+{
+  "chinese": "上周二他收到了当地警方寄来的一封信。",
+  "intent": "陈述过去某个时间他收到来自当地警方信件的事实。",
+  "comparison": null,
+  "backbone": {
+    "text": "he received a letter",
+    "meaning": "他收到了一封信"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语的位置",
+      "text": "Last Tuesday 放在句首，明确整件事发生的时间是上周二，属于过去时间，提示句子用一般过去时。"
+    },
+    {
+      "title": "from 引出信件来源",
+      "text": "from the local police 补充说明 a letter 的发出方，意思是“来自当地警方的”，用来描述信是谁寄来的。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Last Tuesday",
+      "role": "时间状语",
+      "explanation": "说明动作 received 发生的具体时间，指过去的上周二。"
+    },
+    {
+      "text": "received a letter",
+      "role": "谓语加宾语",
+      "explanation": "表示句子的核心动作和对象：收到一封信；received 是动词过去式，a letter 是动作的承受者。"
+    },
+    {
+      "text": "from the local police",
+      "role": "后置定语/来源状语",
+      "explanation": "修饰 a letter，说明这封信的发出方是当地警方。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "上一个的，刚过去的",
+      "pos": "形容词",
+      "phonetic": "/lɑːst/",
+      "text": "Last"
+    },
+    {
+      "meaning": "星期二",
+      "pos": "名词",
+      "phonetic": "/ˈtjuːzdeɪ/",
+      "text": "Tuesday"
+    },
+    {
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/",
+      "text": "he"
+    },
+    {
+      "meaning": "收到，接到",
+      "pos": "动词（过去式）",
+      "phonetic": "/rɪˈsiːvd/",
+      "text": "received"
+    },
+    {
+      "meaning": "一（个、封等）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "信，信件",
+      "pos": "名词",
+      "phonetic": "/ˈletə/",
+      "text": "letter"
+    },
+    {
+      "meaning": "来自，从",
+      "pos": "介词",
+      "phonetic": "/frɒm/",
+      "text": "from"
+    },
+    {
+      "meaning": "这，那（定指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "当地的，本地的",
+      "pos": "形容词",
+      "phonetic": "/ˈləʊkl/",
+      "text": "local"
+    },
+    {
+      "meaning": "警方，警察部门",
+      "pos": "名词",
+      "phonetic": "/pəˈliːs/",
+      "text": "police."
+    }
+  ],
+  "parts": [
+    {
+      "text": "Last Tuesday",
+      "meaning": "上周二",
+      "relation": "时间"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "relation": "动作发出者"
+    },
+    {
+      "text": "received a letter",
+      "meaning": "收到了一封信",
+      "relation": "核心动作与对象"
+    },
+    {
+      "text": "from the local police.",
+      "meaning": "来自当地警方",
+      "relation": "补充说明信的来源"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-034",
+  "sentenceId": "nce-2-lesson-034-sentence-002",
+  "sentenceOrder": 2,
+  "english": "Last Tuesday he received a letter from the local police.",
+  "lesson": "Lesson 34 Quick work",
+  "notes": [
+    {
+      "title": "时间状语的位置",
+      "text": "Last Tuesday 放在句首，明确整件事发生的时间是上周二，属于过去时间，提示句子用一般过去时。"
+    },
+    {
+      "title": "from 引出信件来源",
+      "text": "from the local police 补充说明 a letter 的发出方，意思是“来自当地警方的”，用来描述信是谁寄来的。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅末尾police词条的text附带句末点号不影响释义，但需修正parts第4项meaning表述不完整的问题，其余字段无误。（非逐句人工审核）"
+}

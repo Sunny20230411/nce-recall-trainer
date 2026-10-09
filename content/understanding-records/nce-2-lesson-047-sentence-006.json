@@ -1,0 +1,243 @@
+{
+  "chinese": "第二天早上，他发现门被椅子堵住了，家具也被挪动过。",
+  "intent": "叙述第二天早上主人公发现的两处异常状况：门被椅子挡住、家具被移动。",
+  "comparison": {
+    "chinese": "第二天早上，他发现［门被椅子堵住了，家具也被挪动过］。",
+    "english": "The next morning, he found that the doors had been blocked by chairs and the furniture had been moved.",
+    "steps": [
+      {
+        "label": "第一步：先抓主干动作",
+        "text": "he found",
+        "explanation": "中文先说“他发现”，英文也是主语+动词开头，这部分语序一致，先确定核心是“他发现了某件事”。"
+      },
+      {
+        "label": "第二步：看清发现的内容是两件并列的事",
+        "text": "that the doors had been blocked by chairs and the furniture had been moved",
+        "explanation": "中文可以直接把两件事并排说“门被堵了，家具被挪了”，英文用that引出宾语从句，再用and连接两个并列的被动分句，都属于“发现”的内容。"
+      },
+      {
+        "label": "第三步：体会时间先后",
+        "text": "had been blocked / had been moved",
+        "explanation": "中文用“了”就可以表达动作已经发生，英文用过去完成时的被动，强调“被堵住、被挪动”都发生在“他发现”之前。"
+      }
+    ],
+    "takeaway": "英文用that引出宾语从句，再用and并列两个被动分句来承载“发现的全部内容”；中文不必译出that，直接把两件发现的事接在“发现”后面即可。"
+  },
+  "backbone": {
+    "text": "he found that the doors had been blocked and the furniture had been moved",
+    "meaning": "他发现门被堵住了，家具被挪动了。"
+  },
+  "structureNotes": [
+    {
+      "title": "that 引导宾语从句",
+      "text": "found 后面的 that 引出“发现”的具体内容，that 本身没有实际词义，只起连接作用，后面是一整套完整的陈述内容。"
+    },
+    {
+      "title": "and 连接两个并列的被动分句",
+      "text": "the doors had been blocked by chairs 和 the furniture had been moved 由 and 并列，两者地位相同，都属于 that 从句里的内容，共同说明发现的异常。"
+    },
+    {
+      "title": "过去完成时的被动",
+      "text": "had been blocked / had been moved 表示“被堵住、被移动”这两个动作都发生在 found（发现）之前，是过去的过去。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The next morning,",
+      "role": "时间状语",
+      "explanation": "交代整个句子动作发生的时间，也就是“他发现”这件事发生在第二天早上。"
+    },
+    {
+      "text": "he found",
+      "role": "主句主语+谓语",
+      "explanation": "主句的核心，主语是he，谓语是found，表示“他发现”。"
+    },
+    {
+      "text": "that the doors had been blocked by chairs and the furniture had been moved.",
+      "role": "宾语从句",
+      "explanation": "整体作found的宾语，说明发现的具体内容；从句内部由and连接两个并列的被动分句。"
+    },
+    {
+      "text": "had been blocked by chairs",
+      "role": "过去完成时被动谓语（第一个分句）",
+      "explanation": "表示门“被椅子堵住”，动作发生在“发现”之前；by chairs 引出动作的执行者。"
+    },
+    {
+      "text": "had been moved",
+      "role": "过去完成时被动谓语（第二个分句）",
+      "explanation": "表示家具“被移动”，同样发生在“发现”之前，与前一个谓语并列。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这；那个（定冠词，表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "next",
+      "meaning": "下一个的；其次的",
+      "pos": "形容词",
+      "phonetic": "/nekst/"
+    },
+    {
+      "text": "morning,",
+      "meaning": "早晨，上午",
+      "pos": "名词",
+      "phonetic": "/ˈmɔːnɪŋ/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "found",
+      "meaning": "发现；找到（find的过去式）",
+      "pos": "动词",
+      "phonetic": "/faʊnd/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这；那些（定冠词，表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "doors",
+      "meaning": "门（复数）",
+      "pos": "名词",
+      "phonetic": "/dɔːz/"
+    },
+    {
+      "text": "had",
+      "meaning": "有；（助动词，构成过去完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "been",
+      "meaning": "（be的过去分词，构成被动）",
+      "pos": "助动词",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "blocked",
+      "meaning": "堵住；封锁（block的过去分词）",
+      "pos": "动词",
+      "phonetic": "/blɒkt/"
+    },
+    {
+      "text": "by",
+      "meaning": "被；由（引出施动者）",
+      "pos": "介词",
+      "phonetic": "/baɪ/"
+    },
+    {
+      "text": "chairs",
+      "meaning": "椅子（复数）",
+      "pos": "名词",
+      "phonetic": "/tʃeəz/"
+    },
+    {
+      "text": "and",
+      "meaning": "和；并且",
+      "pos": "连词",
+      "phonetic": "/ænd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这；那个（定冠词，表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "furniture",
+      "meaning": "家具（总称，不可数）",
+      "pos": "名词",
+      "phonetic": "/ˈfɜːnɪtʃə/"
+    },
+    {
+      "text": "had",
+      "meaning": "有；（助动词，构成过去完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "been",
+      "meaning": "（be的过去分词，构成被动）",
+      "pos": "助动词",
+      "phonetic": "/biːn/"
+    },
+    {
+      "text": "moved.",
+      "meaning": "移动；搬动（move的过去分词）",
+      "pos": "动词",
+      "phonetic": "/muːvd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The next morning,",
+      "meaning": "第二天早上",
+      "relation": "时间，说明动作发生的时间"
+    },
+    {
+      "text": "he found",
+      "meaning": "他发现",
+      "relation": "主句的主语和谓语，是句子的核心动作"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导从句，无实义）",
+      "relation": "连接词，引出后面“发现”的具体内容"
+    },
+    {
+      "text": "the doors had been blocked by chairs",
+      "meaning": "门被椅子堵住了",
+      "relation": "发现的第一件事，描述门的状态"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "relation": "并列连词，连接前后两件发现的事"
+    },
+    {
+      "text": "the furniture had been moved.",
+      "meaning": "家具被挪动了。",
+      "relation": "发现的第二件事，描述家具的状态"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-047",
+  "sentenceId": "nce-2-lesson-047-sentence-006",
+  "sentenceOrder": 6,
+  "english": "The next morning, he found that the doors had been blocked by chairs and the furniture had been moved.",
+  "lesson": "Lesson 47 A thirsty ghost",
+  "notes": [
+    {
+      "title": "that 引导宾语从句",
+      "text": "found 后面的 that 引出“发现”的具体内容，that 本身没有实际词义，只起连接作用，后面是一整套完整的陈述内容。"
+    },
+    {
+      "title": "and 连接两个并列的被动分句",
+      "text": "the doors had been blocked by chairs 和 the furniture had been moved 由 and 并列，两者地位相同，都属于 that 从句里的内容，共同说明发现的异常。"
+    },
+    {
+      "title": "过去完成时的被动",
+      "text": "had been blocked / had been moved 表示“被堵住、被移动”这两个动作都发生在 found（发现）之前，是过去的过去。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅需修正单词释义中附带的标点说明及一处结构分块的标点归属问题，符合解析规范。（非逐句人工审核）"
+}

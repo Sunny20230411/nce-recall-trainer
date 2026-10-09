@@ -1,0 +1,132 @@
+{
+  "chinese": "我们将一大早在港口和他碰面。",
+  "intent": "告知碰面的对象、地点与时间，说明明天一早去港口见查尔斯·艾利森船长的安排。",
+  "comparison": null,
+  "backbone": {
+    "text": "We'll meet him.",
+    "meaning": "我们会和他碰面。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间地点的排列顺序",
+      "text": "英文先说小地点at the harbour，再说时间early in the morning；中文习惯把时间放前面，地点紧随其后，再说动作，读的时候顺着英文先抓“碰面”这件事，再补地点和时间即可。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "We'll",
+      "role": "主语+助动词缩写",
+      "explanation": "是We will的缩写，We是动作的发出者，will表示将来的打算。"
+    },
+    {
+      "text": "meet him",
+      "role": "谓语+宾语",
+      "explanation": "meet是核心动作“碰面、会见”，him是动作的对象，指代前文的Captain Charles Alison。"
+    },
+    {
+      "text": "at the harbour",
+      "role": "地点状语",
+      "explanation": "说明碰面的具体地点是港口，用at引出较小的具体地点。"
+    },
+    {
+      "text": "early in the morning",
+      "role": "时间状语",
+      "explanation": "说明碰面的时间是一大早，early修饰in the morning，进一步明确时间较早。"
+    }
+  ],
+  "words": [
+    {
+      "text": "We'll",
+      "meaning": "我们将（we will的缩写）",
+      "pos": "代词+助动词缩写",
+      "phonetic": "/wiːl/"
+    },
+    {
+      "text": "meet",
+      "meaning": "会面，碰面",
+      "pos": "动词",
+      "phonetic": "/miːt/"
+    },
+    {
+      "text": "him",
+      "meaning": "他（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɪm/"
+    },
+    {
+      "text": "at",
+      "meaning": "在（某处）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "harbour",
+      "meaning": "港口",
+      "pos": "名词",
+      "phonetic": "/ˈhɑːbə(r)/"
+    },
+    {
+      "text": "early",
+      "meaning": "提早，早些",
+      "pos": "副词",
+      "phonetic": "/ˈɜːli/"
+    },
+    {
+      "text": "in",
+      "meaning": "在（某段时间内）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "morning.",
+      "meaning": "早晨，上午",
+      "pos": "名词",
+      "phonetic": "/ˈmɔːnɪŋ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "We'll meet him",
+      "relation": "核心事件",
+      "meaning": "我们会和他碰面"
+    },
+    {
+      "text": "at the harbour",
+      "relation": "碰面的地点",
+      "meaning": "在港口"
+    },
+    {
+      "text": "early in the morning.",
+      "relation": "碰面的时间",
+      "meaning": "一大早"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-012",
+  "sentenceId": "nce-2-lesson-012-sentence-002",
+  "sentenceOrder": 2,
+  "english": "We'll meet him at the harbour early in the morning.",
+  "lesson": "Lesson 12 Goodbye and good luck",
+  "notes": [
+    {
+      "title": "时间地点的排列顺序",
+      "text": "英文先说小地点at the harbour，再说时间early in the morning；中文习惯把时间放前面，地点紧随其后，再说动作，读的时候顺着英文先抓“碰面”这件事，再补地点和时间即可。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需修正两处小问题：1. words中morning.的释义额外标注了「带句末点号」，按约定标点随词项保留无需额外说明；2. parts第三项的text与原文一致含句末点号，无需改动，仅修正words项的释义冗余。（非逐句人工审核）"
+}

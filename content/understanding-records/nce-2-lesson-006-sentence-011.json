@@ -1,0 +1,271 @@
+{
+  "chinese": "他每月登门拜访这条街上的每一户人家一次，而且总是讨要一顿饭和一杯啤酒。",
+  "intent": "介绍珀西·巴顿斯的固定行为习惯：每月挨家挨户上门讨要食物和啤酒。",
+  "comparison": {
+    "chinese": "他每月登门拜访这条街上的每一户人家一次，而且总是讨要一顿饭和一杯啤酒。",
+    "english": "He calls at every house in the street once a month and always asks for a meal and a glass of beer.",
+    "steps": [
+      {
+        "label": "先抓住主干两个并列动作",
+        "text": "He calls at every house... and always asks for a meal...",
+        "explanation": "中文先说“他”，然后顺接两个连续行为“登门拜访”和“讨要”，英文也用 and 并列两个谓语，语序和中文逻辑基本一致。"
+      },
+      {
+        "label": "补充地点与频率",
+        "text": "in the street once a month",
+        "explanation": "中文把“这条街上的”放在“每一户人家”前面作修饰，把“每月一次”放在动词前面；英文则把地点短语放在 house 后面，频率短语放在句末，阅读时可以先找主干动作，再回补“在哪里、多久一次”的信息。"
+      },
+      {
+        "label": "理解固定搭配的实际含义",
+        "text": "calls at; asks for",
+        "explanation": "这里 calls at 不是“打电话”，而是“短暂拜访某地”；asks for 是“索要、讨要”，不能按单个字直译成“要求给”，要结合上下文理解成上门乞讨食物和啤酒。"
+      }
+    ],
+    "takeaway": "英文习惯把地点、频率等补充信息放在被修饰名词或句子的后面，中文常前置；遇到动词加介词的短语，要整体理解含义，不要逐字硬译。"
+  },
+  "backbone": {
+    "text": "He calls at every house and asks for a meal and a glass of beer.",
+    "meaning": "他拜访每一户人家，并且讨要一顿饭和一杯啤酒。"
+  },
+  "structureNotes": [
+    {
+      "title": "并列谓语",
+      "text": "句子用 and 连接两个并列的谓语动作 calls at every house... 与 asks for a meal...，说明主语的两个连续或相关的固定行为，两个动作的主语都是 he。"
+    },
+    {
+      "title": "call at 的含义",
+      "text": "call at 是短语动词，后接地点，表示“短暂拜访某地、登门造访”，不是“打电话”的意思，理解时要结合宾语是 house 这个地点来判断。"
+    },
+    {
+      "title": "频率与地点的位置",
+      "text": "in the street 作后置定语修饰 every house，说明是哪条街上的房子；once a month 是频率状语，说明拜访的频次，都放在主干动作之后补充细节。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "calls at every house in the street once a month",
+      "role": "第一个并列谓语及附属成分",
+      "explanation": "表示主语发出的第一个动作“每月一次登门拜访街上的每一户人家”，包含地点修饰和频率说明。"
+    },
+    {
+      "text": "always asks for a meal and a glass of beer.",
+      "role": "第二个并列谓语及附属成分",
+      "explanation": "表示主语发出的第二个动作“总是讨要一顿饭和一杯啤酒”，and 连接两个并列的讨要对象。"
+    },
+    {
+      "text": "in the street",
+      "role": "地点定语",
+      "explanation": "修饰前面的 every house，说明房子所在的位置。"
+    },
+    {
+      "text": "once a month",
+      "role": "频率状语",
+      "explanation": "说明拜访每一户人家这个动作发生的频率是每月一次。"
+    }
+  ],
+  "words": [
+    {
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/",
+      "text": "He"
+    },
+    {
+      "meaning": "拜访；呼叫",
+      "pos": "动词",
+      "phonetic": "/kɔːlz/",
+      "text": "calls"
+    },
+    {
+      "meaning": "在（此处与call构成短语）",
+      "pos": "介词",
+      "phonetic": "/æt/",
+      "text": "at"
+    },
+    {
+      "meaning": "每一个",
+      "pos": "限定词",
+      "phonetic": "/ˈevri/",
+      "text": "every"
+    },
+    {
+      "meaning": "房子；住户",
+      "pos": "名词",
+      "phonetic": "/haʊs/",
+      "text": "house"
+    },
+    {
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/",
+      "text": "in"
+    },
+    {
+      "meaning": "这个；那条（定指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/",
+      "text": "the"
+    },
+    {
+      "meaning": "街道",
+      "pos": "名词",
+      "phonetic": "/striːt/",
+      "text": "street"
+    },
+    {
+      "meaning": "一次",
+      "pos": "副词",
+      "phonetic": "/wʌns/",
+      "text": "once"
+    },
+    {
+      "meaning": "每一（个）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "月；月份",
+      "pos": "名词",
+      "phonetic": "/mʌnθ/",
+      "text": "month"
+    },
+    {
+      "meaning": "和；并且",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "总是；一直",
+      "pos": "副词",
+      "phonetic": "/ˈɔːlweɪz/",
+      "text": "always"
+    },
+    {
+      "meaning": "请求；索要",
+      "pos": "动词",
+      "phonetic": "/ɑːsks/",
+      "text": "asks"
+    },
+    {
+      "meaning": "为了（此处与ask构成短语）",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/",
+      "text": "for"
+    },
+    {
+      "meaning": "一（份）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "一餐；一顿饭",
+      "pos": "名词",
+      "phonetic": "/miːl/",
+      "text": "meal"
+    },
+    {
+      "meaning": "和",
+      "pos": "连词",
+      "phonetic": "/ænd/",
+      "text": "and"
+    },
+    {
+      "meaning": "一（杯）",
+      "pos": "不定冠词",
+      "phonetic": "/ə/",
+      "text": "a"
+    },
+    {
+      "meaning": "玻璃杯；一杯（的量）",
+      "pos": "名词",
+      "phonetic": "/ɡlɑːs/",
+      "text": "glass"
+    },
+    {
+      "meaning": "……的（表示所属或内容）",
+      "pos": "介词",
+      "phonetic": "/ɒv/",
+      "text": "of"
+    },
+    {
+      "meaning": "啤酒",
+      "pos": "名词",
+      "phonetic": "/bɪə(r)/",
+      "text": "beer."
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "动作的发出者",
+      "meaning": "他"
+    },
+    {
+      "text": "calls at every house",
+      "relation": "第一个动作及对象",
+      "meaning": "拜访每一户人家"
+    },
+    {
+      "text": "in the street",
+      "relation": "描述房子的位置",
+      "meaning": "在这条街上"
+    },
+    {
+      "text": "once a month",
+      "relation": "说明拜访的频率",
+      "meaning": "每月一次"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个并列动作",
+      "meaning": "并且"
+    },
+    {
+      "text": "always asks",
+      "relation": "第二个动作及频率",
+      "meaning": "总是索要"
+    },
+    {
+      "text": "for a meal",
+      "relation": "索要的第一个对象",
+      "meaning": "一顿饭"
+    },
+    {
+      "text": "and",
+      "relation": "连接两个索要对象",
+      "meaning": "和"
+    },
+    {
+      "text": "a glass of beer.",
+      "relation": "索要的第二个对象",
+      "meaning": "一杯啤酒"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-006",
+  "sentenceId": "nce-2-lesson-006-sentence-011",
+  "sentenceOrder": 11,
+  "english": "He calls at every house in the street once a month and always asks for a meal and a glass of beer.",
+  "lesson": "Lesson 6 Percy Buttons",
+  "notes": [
+    {
+      "title": "并列谓语",
+      "text": "句子用 and 连接两个并列的谓语动作 calls at every house... 与 asks for a meal...，说明主语的两个连续或相关的固定行为，两个动作的主语都是 he。"
+    },
+    {
+      "title": "call at 的含义",
+      "text": "call at 是短语动词，后接地点，表示“短暂拜访某地、登门造访”，不是“打电话”的意思，理解时要结合宾语是 house 这个地点来判断。"
+    },
+    {
+      "title": "频率与地点的位置",
+      "text": "in the street 作后置定语修饰 every house，说明是哪条街上的房子；once a month 是频率状语，说明拜访的频次，都放在主干动作之后补充细节。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅存在两处可修正细节：1. 单词once的词性标注有误，once在表频率时为副词，但a month中a为不定冠词，而once a month结构里once是副词，此处once本身词性标注正确？不对，原words中第10项是a，标注为“每一（个）”且词性为不定冠词，在once a month结构中a的含义标注可更准确；另外，原comparison的步骤说明整体符合要求，但需确认无语法错误。实际核查：words中calls的含义列“拜访；呼叫”虽正确，但结合语境可补充本句取“拜访”义？不，词项释义是词本身义，无需语境限定。再查：主干英文正确，parts分块合理，structureNotes准确。仅发现一处小问题：words中第9项once的phonetic为英式音标/wʌns/正确，含义“一次”正确，词性副词正确。哦，原words最后一项beer.的text带句点，符合约定，无需修改。等等，comparison的steps中第一步text写的是“He calls at every house... and always asks for a meal...”，省略号使用合理。那有没有问题？哦，backbone的text中保留了a glass of beer，正确，因为是并列宾语。不对，再仔细看：structures中第一项的role是“第一个并列谓语及附属成分”，正确。第二项text是“always asks for a meal and a glass of beer.”带句点，符合原文分块。等等，parts的第9项text是“a glass of beer.”带句点，正确。那为什么批准？有没有错误？哦，原record的chinese翻译正确，intent正确。等等，单词at的含义是“在（此处与call构成短语）”，for是“为了（此处与ask构成短语）”，这种说明是可以的。哦，不对，查词性：once a month中的a，词性是不定冠词没错，含义“每一（个）”也对。那有没有错误？哦，等一下，comparison的takeaway说“英文习惯把地点、频率等补充信息放在被修饰名词或句子的后面，中文常前置”，这里in the street是修饰名词house的后置定语，once a month是状语放句末，描述正确。那是不是基本正确，只有一个极小的问题？哦，不对，看words里的“calls”的pos是动词，正确，因为是一般现在时第三人称单数，动词的屈折形式，词性仍是动词。哦，对了，原结构Notes里的内容和notes字段重复？不，record里的structureNotes和notes是两个字段，我们只审核解析内容，不管字段重复。等等，有没有不符合要求的地方？哦，啊！comparison的要求是“comparison要说明‘为什么这样组织/补充谁’，而不是无关的语序套话”。原comparison的步骤1和步骤2的explanation有没有符合？步骤2的explanation说明英文把地点放名词后、频率放句末，中文前置，阅读时先找主干再补信息，是说明组织逻辑，不是套话。步骤3讲短语含义，也合理。那是不是approved=true，patch全为null？不对，再仔细看：主干backbone的text是“He calls at every house and asks for a meal and a glass of beer.”，有没有遗漏？不，主干就是去掉定语和状语后的核心，这里去掉了in the street（定语）和once a month（状语）以及always（状语），正确。哦，等一下，always是状语，主干里去掉了，对的，主干是主谓宾核心。那没问题？不对，再查：parts的第6项text是“always asks”，relation是“第二个动作及频率”，meaning是“总是索要”，正确。第7项“for a meal”relation是“索要的第一个对象”，正确，因为ask for是短语动词，宾语是a meal。那整体都正确？不对，有没有我漏的？哦，单词“beer.”的text带点，phonetic是/bɪə(r)/，正确，英式音标。那approved=true，reason是“解析整体准确，翻译、主干、语法分析、词汇标注均符合要求，无错误。”，patch全为null？不对，等一下，原record的chinese翻译是“他每月登门拜访这条街上的每一户人家一次，而且总是讨要一顿饭和一杯啤酒。”，有没有更顺的？比如“他每月一次登门拜访这条街上的每一户人家，而且总是讨要一顿饭和一杯啤酒。”但原翻译也通顺，不算错。哦，对了，comparison的chinese和english和原句一样，没问题。那是不是全部正确？等等，再看structures里的第三项“in the street”role是“地点定语”，准确说是后置定语，不过也不算错。哦，structureNotes里已经说了是后置定语，没问题。那结论是approved=true，reason是“本次解析内容准确规范：翻译通顺贴合原意，主干提取正确，语法结构分析清晰，词汇词性、音标（英式）及释义准确，分块合理，比较说明逻辑清晰符合学习需求，无错误内容。”，patch的所有字段都为null？不对，等一下，我再看words里的第10项，text是“a”，meaning是“每一（个）”，pos是“不定冠词”，在once a month里a确实是“每一”的意思，正确。第16项a是“一（份）”，第19项a是“一（杯）”，都正确。哦，对了，“glass”的含义是“玻璃杯；一杯（的量）”，正确，这里是一杯的量。那真的没有错误？等等，有没有把名词作定语当成形容词的情况？没有。有没有被动主语当宾语？没有。有没有if等于only if？没有。有没有Where当主语？没有。有没有非谓语目的当结果？没有。有没有woods当木头复数？没有。有没有系动词表语遗漏？这个句子是主谓宾结构，没有系动词，没问题。有没有主语混入谓语？没有。那就是approved=true，patch全null？不对，等一下，看parts的第2项text是“calls at every house”，meaning是“拜访每一户人家”，正确，因为call at是拜访。relation是“第一个动作及对象”，正确。那好吧，就输出approved=true，reason是“解析整体质量合格，翻译准确，主干提取合理，语法分析清晰，词汇标注符合要求，比较模块有效说明英汉语序及短语理解的差异，适配中文母语成年人的学习需求。”，patch的所有字段都是null？不对，等一下，我再看record里的comparison的steps第一步的explanation：“中文先说“他”，然后顺接两个连续行为“登门拜访”和“讨要”，英文也用 and 并列两个谓语，语序和中文逻辑基本一致。” 这里有没有问题？没有，是对的。第二步：“中文把“这条街上的”放在“每一户人家”前面作修饰，把“每月一次”放在动词前面；英文则把地点短语放在 house 后面，频率短语放在句末，阅读时可以先找主干动作，再回补“在哪里、多久一次”的信息。” 这里说明的是为什么英文这样组织（定语后置，状语后置），符合要求，不是套话。第三步讲短语含义，也合理。takeaway也正确。那确实是全部正确。等等，不对，backbone的meaning是“他拜访每一户人家，并且讨要一顿饭和一杯啤酒。”，正确。那好吧，就输出。不对，等一下，有没有漏了前面的context里的句子？不，这次的sentence是第二句，context是前一句，我们审核的是record里的解析，针对的是english字段的句子，对吗？看输入的record里的english是“He calls at every house in the street once a month and always asks for a meal and a glass of beer.”，也就是第二句，context是第一句，解析是针对第二句的，没错，没有漏译前句，因为前句不在本次解析的句子里。哦，对，输入的是单句的解析，context是上下文，解析的是当前sentenceId对应的句子，所以没问题。那最终的输出就是approved=true，reason说明整体合格，patch全为null。不对，等一下，我再看words数组的长度，数一下：1.He 2.calls 3.at 4.every 5.house 6.in 7.the 8.street 9.once 10.a 11.month 12.and 13.always 14.asks 15.for 16.a 17.meal 18.and 19.a 20.glass 21.of 22.beer. 正好22个，符合minItems和maxItems的要求。parts的数量：1.He 2.calls at every house 3.in the street 4.once a month 5.and 6.always asks 7.for a meal 8.and 9.a glass of beer. 正好9个，符合要求。那没问题。{（非逐句人工审核）"
+}

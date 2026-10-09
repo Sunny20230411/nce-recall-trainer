@@ -1,0 +1,117 @@
+{
+  "chinese": "我其实对钓鱼并不感兴趣。",
+  "intent": "说明说话者对钓鱼这件事本身没有真正的兴趣。",
+  "comparison": null,
+  "backbone": {
+    "text": "I am not interested in fishing.",
+    "meaning": "我对钓鱼不感兴趣。"
+  },
+  "structureNotes": [
+    {
+      "title": "interested in 的用法",
+      "text": "interested 是形容词，表示“感兴趣的”，后面接介词 in 引出感兴趣的对象，in 之后的动词要变成 -ing 形式。"
+    },
+    {
+      "title": "really 的语气作用",
+      "text": "really 放在 interested 前面，用来加强语气，说明“并不是真的、其实”感兴趣，暗含表面或别人以为有兴趣的意味。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "第一人称单数主格代词，指说话者本人。"
+    },
+    {
+      "text": "am not really interested in",
+      "role": "谓语部分",
+      "explanation": "由be动词am + 否定词not + 副词really + 形容词短语interested in构成，整体表示“对……并不真的感兴趣”，后接感兴趣的对象。"
+    },
+    {
+      "text": "fishing.",
+      "role": "介词宾语",
+      "explanation": "是动词fish的动名词形式，作介词in的宾语，表示感兴趣的具体对象是“钓鱼”这件事。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "am",
+      "meaning": "是（be的第一人称单数现在时形式）",
+      "pos": "动词",
+      "phonetic": "/æm/"
+    },
+    {
+      "text": "not",
+      "meaning": "不（构成否定）",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "really",
+      "meaning": "真正地，其实",
+      "pos": "副词",
+      "phonetic": "/ˈriːəli/"
+    },
+    {
+      "text": "interested",
+      "meaning": "感兴趣的",
+      "pos": "形容词",
+      "phonetic": "/ˈɪntrəstɪd/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……方面（引出对象）",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "fishing.",
+      "meaning": "钓鱼（fish的动名词形式）",
+      "pos": "名词",
+      "phonetic": "/ˈfɪʃɪŋ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "relation": "描述谁的状态"
+    },
+    {
+      "text": "am not really interested",
+      "meaning": "其实并不感兴趣",
+      "relation": "说明主语的状态"
+    },
+    {
+      "text": "in fishing.",
+      "meaning": "在钓鱼这件事上",
+      "relation": "指明感兴趣的对象"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-020",
+  "sentenceId": "nce-2-lesson-020-sentence-011",
+  "sentenceOrder": 11,
+  "english": "I am not really interested in fishing.",
+  "lesson": "Lesson 20 One man in a boat",
+  "notes": [
+    {
+      "title": "interested in 的用法",
+      "text": "interested 是形容词，表示“感兴趣的”，后面接介词 in 引出感兴趣的对象，in 之后的动词要变成 -ing 形式。"
+    },
+    {
+      "title": "really 的语气作用",
+      "text": "really 放在 interested 前面，用来加强语气，说明“并不是真的、其实”感兴趣，暗含表面或别人以为有兴趣的意味。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：解析整体准确，仅需修正结构划分将介词in纳入宾语相关表述、统一fishing的词性标注规范，其余内容符合要求。（非逐句人工审核）"
+}

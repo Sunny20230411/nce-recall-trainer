@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-005",
+  "english": "I sat at the front of the bus to enjoy the view.",
+  "text": "to enjoy the view 不是并列的动作，而是坐前排的目的。英语常先讲具体动作，再用 to 引出做这件事的目的。以后想说“做某事是为了什么”，可以先讲动作，再用 to 带出目的。",
+  "sourceDigest": "8768b07eb96a8b56e3e98675acace496a441d60e5693d785e1bc00fcdbf7f10a",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：点出目的状语的表达顺序，迁移具体可用，符合教学要求。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "原提点方向正确，微调表述使意图更清晰，避免误解为单纯讲语序。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "chinese": "邮差当时正拿着一个大包裹。",
+  "intent": "描述过去某个时刻邮差的动作状态，说明他手里正拿着一个大包裹。",
+  "comparison": null,
+  "backbone": {
+    "text": "The postman was holding a large parcel.",
+    "meaning": "邮差当时正拿着一个大包裹。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去进行时的用法",
+      "text": "was holding 是过去进行时结构，表示过去某个时间点正在进行的动作，这里强调邮差在说话人注意到的那个时刻正处于拿着包裹的状态。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The postman",
+      "role": "主语",
+      "explanation": "指句子描述的动作发出者，也就是邮差。"
+    },
+    {
+      "text": "was holding",
+      "role": "谓语",
+      "explanation": "由be动词过去式was加现在分词holding构成过去进行时，表示过去正在进行的拿的动作。"
+    },
+    {
+      "text": "a large parcel.",
+      "role": "宾语",
+      "explanation": "是动作holding的对象，说明拿着的东西是一个大包裹。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这个（用于特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "postman",
+      "meaning": "邮递员，邮差",
+      "pos": "名词",
+      "phonetic": "/ˈpəʊstmən/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，单数）是/正在",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "holding",
+      "meaning": "拿着，握着（hold的现在分词）",
+      "pos": "动词",
+      "phonetic": "/ˈhəʊldɪŋ/"
+    },
+    {
+      "text": "a",
+      "meaning": "一个",
+      "pos": "不定冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "large",
+      "meaning": "大的",
+      "pos": "形容词",
+      "phonetic": "/lɑːdʒ/"
+    },
+    {
+      "text": "parcel.",
+      "meaning": "包裹",
+      "pos": "名词",
+      "phonetic": "/ˈpɑːsl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "The postman",
+      "relation": "动作的发出者，描述的对象",
+      "meaning": "这个邮差"
+    },
+    {
+      "text": "was holding",
+      "relation": "主语的动作，描述主语正在做什么",
+      "meaning": "正拿着"
+    },
+    {
+      "text": "a large parcel.",
+      "relation": "动作的对象，补充说明拿着的东西是什么",
+      "meaning": "一个大包裹"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-015",
+  "sentenceOrder": 15,
+  "english": "The postman was holding a large parcel.",
+  "lesson": "Lesson 54 Sticky fingers",
+  "notes": [
+    {
+      "title": "过去进行时的用法",
+      "text": "was holding 是过去进行时结构，表示过去某个时间点正在进行的动作，这里强调邮差在说话人注意到的那个时刻正处于拿着包裹的状态。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：单词释义中parcel的释义混入句号，主干翻译未体现过去时态，其余内容符合要求。（非逐句人工审核）"
+}

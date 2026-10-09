@@ -1,0 +1,178 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-085",
+  "sentenceId": "nce-2-lesson-085-sentence-001",
+  "sentenceOrder": 1,
+  "english": "I have just received a letter from my old school informing me that my former headmaster, Mr.",
+  "chinese": "我刚收到母校的一封信，通知我，我从前的校长，……先生（消息待续）。",
+  "lesson": "Lesson 85 Never too old to learn",
+  "intent": "引出母校来信中的退休消息",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "I have just received a letter",
+      "relation": "刚收到的消息载体",
+      "meaning": "我刚收到一封信"
+    },
+    {
+      "text": "from my old school",
+      "relation": "来源",
+      "meaning": "来自母校"
+    },
+    {
+      "text": "informing me that my former headmaster, Mr.",
+      "relation": "告知内容起始",
+      "meaning": "通知我，我从前的校长……先生（待续）"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "信的内容",
+      "text": "informing me 修饰 a letter，表示这封信告知我。"
+    },
+    {
+      "title": "内容未完",
+      "text": "that 后的从句在 Mr. 处尚未结束。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "信的内容",
+      "text": "informing me 修饰 a letter，表示这封信告知我。"
+    },
+    {
+      "title": "内容未完",
+      "text": "that 后的从句在 Mr. 处尚未结束。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "收信者。"
+    },
+    {
+      "text": "have just received a letter",
+      "role": "谓语及宾语",
+      "explanation": "现在完成时说明刚收到信。"
+    },
+    {
+      "text": "from my old school",
+      "role": "后置定语",
+      "explanation": "说明信的来源。"
+    },
+    {
+      "text": "informing me that my former headmaster, Mr.",
+      "role": "分词后置定语片段",
+      "explanation": "补充信的内容，跨片段延续。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "have",
+      "meaning": "构成现在完成时",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "just",
+      "meaning": "刚刚",
+      "pos": "副词",
+      "phonetic": "/dʒʌst/"
+    },
+    {
+      "text": "received",
+      "meaning": "收到",
+      "pos": "动词过去分词",
+      "phonetic": "/rɪˈsiːvd/"
+    },
+    {
+      "text": "a",
+      "meaning": "一封",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "letter",
+      "meaning": "信",
+      "pos": "名词",
+      "phonetic": "/ˈletə/"
+    },
+    {
+      "text": "from",
+      "meaning": "来自",
+      "pos": "介词",
+      "phonetic": "/frəm/ 或 /frɒm/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "物主限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "old",
+      "meaning": "从前就读的",
+      "pos": "形容词",
+      "phonetic": "/əʊld/"
+    },
+    {
+      "text": "school",
+      "meaning": "学校",
+      "pos": "名词",
+      "phonetic": "/skuːl/"
+    },
+    {
+      "text": "informing",
+      "meaning": "通知",
+      "pos": "动词现在分词",
+      "phonetic": "/ɪnˈfɔːmɪŋ/"
+    },
+    {
+      "text": "me",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/miː/ 或 /mɪ/"
+    },
+    {
+      "text": "that",
+      "meaning": "引出通知内容",
+      "pos": "从属连词",
+      "phonetic": "/ðæt/ 或 /ðət/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "物主限定词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "former",
+      "meaning": "从前的",
+      "pos": "形容词",
+      "phonetic": "/ˈfɔːmə/"
+    },
+    {
+      "text": "headmaster,",
+      "meaning": "校长",
+      "pos": "名词",
+      "phonetic": "/ˈhedˈmɑːstə/"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生",
+      "pos": "称谓名词",
+      "phonetic": "/ˈmɪstə/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

@@ -1,0 +1,85 @@
+{
+  "chinese": "那是个星期天。",
+  "intent": "交代故事发生的时间背景，点明当天是周日。",
+  "comparison": null,
+  "backbone": {
+    "text": "It was Sunday.",
+    "meaning": "那天是星期天。"
+  },
+  "structureNotes": [
+    {
+      "title": "It的指代作用",
+      "text": "这里的It用来指代时间，不指代具体的人或物，是英语里说明“某天是星期几”的常用开头。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "It",
+      "role": "主语",
+      "explanation": "用来指代时间，作为句子的形式上的主语，引出后面关于星期的说明。"
+    },
+    {
+      "text": "was",
+      "role": "系动词",
+      "explanation": "是be动词的过去式，连接主语和表示时间的表语，说明过去某一天的属性。"
+    },
+    {
+      "text": "Sunday.",
+      "role": "表语",
+      "explanation": "说明主语It所指代的那天是星期天，补充句子的核心信息。"
+    }
+  ],
+  "words": [
+    {
+      "text": "It",
+      "meaning": "它（此处指代时间）",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be的第一/第三人称单数过去式）",
+      "pos": "系动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "Sunday.",
+      "meaning": "星期天",
+      "pos": "名词",
+      "phonetic": "/ˈsʌndeɪ/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "It",
+      "relation": "被描述的对象",
+      "meaning": "它（指代时间）"
+    },
+    {
+      "text": "was",
+      "relation": "连接主语和说明内容",
+      "meaning": "是（过去）"
+    },
+    {
+      "text": "Sunday.",
+      "relation": "补充说明当天是什么日子",
+      "meaning": "星期天"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-002",
+  "sentenceId": "nce-2-lesson-002-sentence-001",
+  "sentenceOrder": 1,
+  "english": "It was Sunday.",
+  "lesson": "Lesson 2 Breakfast or lunch?",
+  "notes": [
+    {
+      "title": "It的指代作用",
+      "text": "这里的It用来指代时间，不指代具体的人或物，是英语里说明“某天是星期几”的常用开头。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅存在一处细节可修正：was的词类应明确为系动词而非笼统的动词，以贴合本句的主系表结构说明逻辑；其余内容如It指代时间的说明、表语界定、句意翻译、分块含义与关系均符合要求。（非逐句人工审核）"
+}

@@ -1,0 +1,107 @@
+{
+  "chinese": "当医生接听电话时，先生（称呼，后接姓氏，本句为片段）。",
+  "intent": "交代后续事件发生的时间背景，引出将出现的男性说话人称呼（本片段仅给出称呼前缀Mr.，完整语境中后接姓氏Gilbert）。",
+  "comparison": null,
+  "backbone": {
+    "text": "When the doctor answered the phone, Mr.",
+    "meaning": "在医生接电话这个时间点，（称呼）先生。（本片段为半句话，Mr. 后省略了具体姓氏，完整语境中是 Gilbert 先生，Mr.本身是称呼缩写不是完整主语）"
+  },
+  "structureNotes": [
+    {
+      "title": "When引导的时间状语",
+      "text": "When 在这里引出“医生接电话”这个事件，用来标明后面主句内容发生的时间，不是用来提问“什么时候”。"
+    },
+    {
+      "title": "Mr. 的作用",
+      "text": "Mr. 是对男性的尊称，后面通常跟姓氏；本句到此截断，完整上下文中是 Mr. Gilbert，在主句里作主语，本片段仅给出称呼部分。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "When the doctor answered the phone,",
+      "role": "时间状语分句",
+      "explanation": "由 When 引导，描述一个具体的事件场景，说明后面主句内容发生在“医生接电话”这个时刻。"
+    },
+    {
+      "text": "Mr.",
+      "role": "称呼性名词（主句主语的前半部分）",
+      "explanation": "是 mister 的缩写，用于男子姓氏前表尊称，本片段只给出称呼开头，完整主语需结合后文姓氏。"
+    }
+  ],
+  "words": [
+    {
+      "text": "When",
+      "meaning": "当……的时候",
+      "pos": "连词",
+      "phonetic": "/wen/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个；那位（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "doctor",
+      "meaning": "医生",
+      "pos": "名词",
+      "phonetic": "/ˈdɒktə/"
+    },
+    {
+      "text": "answered",
+      "meaning": "接听；回答（answer的过去式）",
+      "pos": "动词",
+      "phonetic": "/ˈɑːnsəd/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（表特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "phone,",
+      "meaning": "电话",
+      "pos": "名词",
+      "phonetic": "/fəʊn/"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生（称呼用缩写）",
+      "pos": "名词（缩写）",
+      "phonetic": "/ˈmɪstə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "When the doctor answered the phone,",
+      "meaning": "当医生接听电话时，",
+      "relation": "时间背景"
+    },
+    {
+      "text": "Mr.",
+      "meaning": "先生（称呼前缀，后接姓氏，本片段为不完整称呼）",
+      "relation": "即将出场的人物称呼（主句主语的一部分）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-039",
+  "sentenceId": "nce-2-lesson-039-sentence-004",
+  "sentenceOrder": 6,
+  "english": "When the doctor answered the phone, Mr.",
+  "lesson": "Lesson 39 Am I all right?",
+  "notes": [
+    {
+      "title": "When引导的时间状语",
+      "text": "When 在这里引出“医生接电话”这个事件，用来标明后面主句内容发生的时间，不是用来提问“什么时候”。"
+    },
+    {
+      "title": "Mr. 的作用",
+      "text": "Mr. 是对男性的尊称，后面通常跟姓氏；本句到此截断，完整上下文中是 Mr. Gilbert，在主句里作主语，本片段仅给出称呼部分。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：翻译不完整且Mr.后误加句号，部分释义与表述需修正，整体可用需调整。（非逐句人工审核）"
+}

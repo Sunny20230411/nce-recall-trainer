@@ -1,0 +1,81 @@
+{
+  "chinese": "“别打断，”他说道。",
+  "intent": "转述某人制止他人打断说话的话语",
+  "comparison": null,
+  "backbone": {
+    "text": "he said ‘Don't interrupt,’",
+    "meaning": "他说了“别打断”这句话"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把引语部分放在句首，后面交代说话人，中文表达时可以保留“某某说”在前或在后，都符合日常语感。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘Don't interrupt,’",
+      "role": "直接引语（祈使句的否定形式）",
+      "explanation": "这是he说的具体内容，用祈使句的否定形式表达禁止、制止的语气，告诉对方不要做打断这个动作。"
+    },
+    {
+      "text": "he said.",
+      "role": "主句（主谓结构）",
+      "explanation": "交代这句话是谁说的，he是说话人，said是“说”这个动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘Don't",
+      "meaning": "（用于祈使句否定）不要",
+      "pos": "助动词缩写（do not的缩写）",
+      "phonetic": "/dəʊnt/"
+    },
+    {
+      "text": "interrupt,’",
+      "meaning": "打断（别人说话），插嘴",
+      "pos": "动词",
+      "phonetic": "/ˌɪntəˈrʌpt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说（say的过去式）",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘Don't interrupt,’",
+      "relation": "说出的具体内容",
+      "meaning": "“别打断，”"
+    },
+    {
+      "text": "he said.",
+      "relation": "动作发出者和动作本身",
+      "meaning": "他说道"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-015",
+  "sentenceId": "nce-2-lesson-015-sentence-011",
+  "sentenceOrder": 11,
+  "english": "‘Don't interrupt,’ he said.",
+  "lesson": "Lesson 15 Good news",
+  "notes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把引语部分放在句首，后面交代说话人，中文表达时可以保留“某某说”在前或在后，都符合日常语感。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：原文对应单句内容准确，结构划分和翻译基本合理，仅词项的词性描述因将标点纳入词性说明不符合要求，需修正为仅说明词本身的词性与语法属性，标点属于文本附带格式不写入词性栏；其余内容无误。（非逐句人工审核）"
+}

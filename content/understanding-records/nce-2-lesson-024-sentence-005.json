@@ -1,0 +1,107 @@
+{
+  "chinese": "“这些日子大家都在赔钱，”他说。",
+  "intent": "转述某人说出的一句抱怨现状的直接引语，说明当下人们普遍亏损的情况。",
+  "comparison": null,
+  "backbone": {
+    "text": "He said, ‘Everyone's losing money these days.’",
+    "meaning": "他说“大家最近都在亏钱”。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把引语放在前面，主句“he said”放在句末，引语内部的逗号放在右引号前，这是英语直接引语的常见写法，作用是先呈现说的内容，再交代说话人。"
+    },
+    {
+      "title": "Everyone's 的含义",
+      "text": "Everyone's 是 Everyone is 的缩写，和后面的 losing 一起构成现在进行时，表示“目前一段时间内正在发生的情况”，不是指所有人此刻正在亏钱这个瞬间动作。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘Everyone's losing money these days,’",
+      "role": "直接引语（被转述的原话）",
+      "explanation": "这是说话人原原本本说的内容，作为 said 的宾语，用引号标出，句末用逗号连接后面的主句。"
+    },
+    {
+      "text": "he said.",
+      "role": "主句（引述句）",
+      "explanation": "交代说话人是谁，he 是主语，said 是谓语，表示“说”这个动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘Everyone's",
+      "meaning": "人人（everyone is 的缩写形式，词首带左引号）",
+      "pos": "代词+be动词（缩写）",
+      "phonetic": "/ˈevriwʌnz/"
+    },
+    {
+      "text": "losing",
+      "meaning": "亏损，失去（动词现在分词）",
+      "pos": "动词（现在分词）",
+      "phonetic": "/ˈluːzɪŋ/"
+    },
+    {
+      "text": "money",
+      "meaning": "钱，金钱",
+      "pos": "名词",
+      "phonetic": "/ˈmʌni/"
+    },
+    {
+      "text": "these",
+      "meaning": "这些",
+      "pos": "限定词",
+      "phonetic": "/ðiːz/"
+    },
+    {
+      "text": "days,’",
+      "meaning": "日子（复数，词尾带右引号和逗号）",
+      "pos": "名词（复数）",
+      "phonetic": "/deɪz/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说（say的过去式，词尾带句号）",
+      "pos": "动词（过去式）",
+      "phonetic": "/sed/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘Everyone's losing money these days,’",
+      "relation": "所说的具体内容（直接引语）",
+      "meaning": "“这些日子大家都在赔钱，”"
+    },
+    {
+      "text": "he said.",
+      "relation": "动作发出者和动作本身（引述主句）",
+      "meaning": "他说。"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-024",
+  "sentenceId": "nce-2-lesson-024-sentence-005",
+  "sentenceOrder": 5,
+  "english": "‘Everyone's losing money these days,’ he said.",
+  "lesson": "Lesson 24 It could be worse",
+  "notes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把引语放在前面，主句“he said”放在句末，引语内部的逗号放在右引号前，这是英语直接引语的常见写法，作用是先呈现说的内容，再交代说话人。"
+    },
+    {
+      "title": "Everyone's 的含义",
+      "text": "Everyone's 是 Everyone is 的缩写，和后面的 losing 一起构成现在进行时，表示“目前一段时间内正在发生的情况”，不是指所有人此刻正在亏钱这个瞬间动作。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容基本准确，仅需修正words中两项的词性标注，避免将带标点的格式说明混入词性，同时补全Everyone's的词义表述与词性对应规则。（非逐句人工审核）"
+}

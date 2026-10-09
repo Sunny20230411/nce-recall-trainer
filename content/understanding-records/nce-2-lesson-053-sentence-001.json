@@ -1,0 +1,167 @@
+{
+  "chinese": "消防员终于扑灭了加州的一场森林大火。",
+  "intent": "陈述一项已完成的事件：消防员最终扑灭了加州的一场大型森林火灾。",
+  "comparison": null,
+  "backbone": {
+    "text": "firemen have put out a big forest fire",
+    "meaning": "消防员扑灭了一场森林大火"
+  },
+  "structureNotes": [
+    {
+      "title": "现在完成时的用法",
+      "text": "have put out 是现在完成时，表示过去发生的动作（灭火）对现在有结果或影响，即火灾现在已经被扑灭了。"
+    },
+    {
+      "title": "短语动词 put out",
+      "text": "put out 是一个短语动词，意思是“扑灭（火）”，宾语可以放在 put 和 out 之间，也可以放在 out 之后。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "At last",
+      "role": "时间状语",
+      "explanation": "表示经过一段时间或努力后最终发生，修饰整个句子。"
+    },
+    {
+      "text": "firemen",
+      "role": "主语",
+      "explanation": "执行“扑灭”这个动作的人。"
+    },
+    {
+      "text": "have put out",
+      "role": "谓语",
+      "explanation": "表示主语发出的动作，是现在完成时的短语动词。"
+    },
+    {
+      "text": "a big forest fire",
+      "role": "宾语",
+      "explanation": "动作“扑灭”的对象。"
+    },
+    {
+      "text": "in California.",
+      "role": "地点状语",
+      "explanation": "说明火灾发生的地点。"
+    }
+  ],
+  "words": [
+    {
+      "text": "At",
+      "meaning": "在（某处/某时）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "last",
+      "meaning": "最后，最终",
+      "pos": "副词",
+      "phonetic": "/lɑːst/"
+    },
+    {
+      "text": "firemen",
+      "meaning": "消防员",
+      "pos": "名词复数",
+      "phonetic": "/ˈfaɪəmən/"
+    },
+    {
+      "text": "have",
+      "meaning": "已经（助动词，构成完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "put",
+      "meaning": "放，放置（此处与out构成短语）",
+      "pos": "动词过去分词",
+      "phonetic": "/pʊt/"
+    },
+    {
+      "text": "out",
+      "meaning": "（与put搭配）熄灭",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一场（不定冠词）",
+      "pos": "冠词",
+      "phonetic": "/ə/"
+    },
+    {
+      "text": "big",
+      "meaning": "大的",
+      "pos": "形容词",
+      "phonetic": "/bɪɡ/"
+    },
+    {
+      "text": "forest",
+      "meaning": "森林（此处作定语）",
+      "pos": "名词",
+      "phonetic": "/ˈfɒrɪst/"
+    },
+    {
+      "text": "fire",
+      "meaning": "火，火灾",
+      "pos": "名词",
+      "phonetic": "/ˈfaɪə/"
+    },
+    {
+      "text": "in",
+      "meaning": "在……里面",
+      "pos": "介词",
+      "phonetic": "/ɪn/"
+    },
+    {
+      "text": "California.",
+      "meaning": "加利福尼亚州",
+      "pos": "专有名词",
+      "phonetic": "/ˌkælɪˈfɔːniə/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "At last",
+      "relation": "时间",
+      "meaning": "终于，最后"
+    },
+    {
+      "text": "firemen",
+      "relation": "动作执行者",
+      "meaning": "消防员"
+    },
+    {
+      "text": "have put out",
+      "relation": "描述动作",
+      "meaning": "已经扑灭了"
+    },
+    {
+      "text": "a big forest fire",
+      "relation": "动作对象",
+      "meaning": "一场大型森林火灾"
+    },
+    {
+      "text": "in California.",
+      "relation": "地点",
+      "meaning": "在加州"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-053",
+  "sentenceId": "nce-2-lesson-053-sentence-001",
+  "sentenceOrder": 1,
+  "english": "At last firemen have put out a big forest fire in California.",
+  "lesson": "Lesson 53 Hot snake",
+  "notes": [
+    {
+      "title": "现在完成时的用法",
+      "text": "have put out 是现在完成时，表示过去发生的动作（灭火）对现在有结果或影响，即火灾现在已经被扑灭了。"
+    },
+    {
+      "title": "短语动词 put out",
+      "text": "put out 是一个短语动词，意思是“扑灭（火）”，宾语可以放在 put 和 out 之间，也可以放在 out 之后。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析合格，仅需修正last的词性标注错误（应为副词而非形容词）。（非逐句人工审核）"
+}

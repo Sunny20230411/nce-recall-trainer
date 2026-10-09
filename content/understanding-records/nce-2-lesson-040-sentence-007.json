@@ -1,0 +1,136 @@
+{
+  "chinese": "“你会去看它吗？”",
+  "intent": "询问对方将来是否会去看那部新剧。",
+  "comparison": {
+    "chinese": "你会去看那部剧吗？",
+    "english": "Will you be seeing it?",
+    "steps": [
+      {
+        "label": "先抓住核心事件",
+        "text": "you be seeing it",
+        "explanation": "先理解是“你看它（指上文提到的新剧）”这件事。"
+      },
+      {
+        "label": "确认时间和语气",
+        "text": "Will…be seeing",
+        "explanation": "will加上be doing，表示将来某个时间会在做这件事，是将来进行时，用来礼貌地询问对方将来的安排，比一般将来时更委婉自然。"
+      },
+      {
+        "label": "调整为疑问语序",
+        "text": "Will you be seeing it?",
+        "explanation": "英文把will放到主语you前面构成问句，中文不需要改变语序，靠句末语气和“吗”来表达疑问。"
+      }
+    ],
+    "takeaway": "将来进行时用来礼貌询问对方将来的安排，中文没有对应的时态变化，只用“会……吗”就可以表达。"
+  },
+  "backbone": {
+    "text": "Will you be seeing it?",
+    "meaning": "你会看它吗？"
+  },
+  "structureNotes": [
+    {
+      "title": "将来进行时表询问",
+      "text": "Will you be seeing it? 用将来进行时询问对方将来的计划，语气比Will you see it? 更委婉、更自然，不带有催促或要求对方回答的意味。"
+    },
+    {
+      "title": "it的指代",
+      "text": "it 指代上文提到的即将在“环球剧院”上演的新剧，承接前面的话题。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Will",
+      "role": "助动词（将来时标记）",
+      "explanation": "帮助构成将来时的疑问形式，放在主语前面。"
+    },
+    {
+      "text": "you",
+      "role": "主语",
+      "explanation": "句子询问的对象，即“你”。"
+    },
+    {
+      "text": "be seeing",
+      "role": "谓语（将来进行时的主要部分）",
+      "explanation": "由be和现在分词seeing构成，和前面的Will一起表示将来正在进行的动作“看（剧）”。"
+    },
+    {
+      "text": "it?",
+      "role": "宾语",
+      "explanation": "是seeing的对象，指代上文提到的新剧。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘Will",
+      "meaning": "将要（用于构成将来时疑问）",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "be",
+      "meaning": "（助动词，帮助构成进行时）是",
+      "pos": "动词",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "seeing",
+      "meaning": "观看（see的现在分词形式）",
+      "pos": "动词",
+      "phonetic": "/ˈsiːɪŋ/"
+    },
+    {
+      "text": "it?’",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘Will",
+      "relation": "时态标记/疑问引导",
+      "meaning": "会（放在句首构成疑问）"
+    },
+    {
+      "text": "you",
+      "relation": "动作发出者（询问对象）",
+      "meaning": "你"
+    },
+    {
+      "text": "be seeing",
+      "relation": "动作（谓语）",
+      "meaning": "在看（与will搭配表示将来会在做）"
+    },
+    {
+      "text": "it?’",
+      "relation": "动作的对象（宾语）",
+      "meaning": "它（指新剧）"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-040",
+  "sentenceId": "nce-2-lesson-040-sentence-007",
+  "sentenceOrder": 8,
+  "english": "‘Will you be seeing it?’",
+  "lesson": "Lesson 40 Food and talk",
+  "notes": [
+    {
+      "title": "将来进行时表询问",
+      "text": "Will you be seeing it? 用将来进行时询问对方将来的计划，语气比Will you see it? 更委婉、更自然，不带有催促或要求对方回答的意味。"
+    },
+    {
+      "title": "it的指代",
+      "text": "it 指代上文提到的即将在“环球剧院”上演的新剧，承接前面的话题。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：基本符合要求，仅需修正第一个词的meaning表述，去掉冗余的引号说明，其余字段准确。（非逐句人工审核）"
+}

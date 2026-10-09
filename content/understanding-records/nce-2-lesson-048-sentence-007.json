@@ -1,0 +1,208 @@
+{
+  "chinese": "与此同时，我的舌头正忙着找出那颗牙齿原来所在的洞。",
+  "intent": "描述拔牙后舌头的动作，说明舌头在寻找牙齿拔除后留下的空洞位置。",
+  "comparison": {
+    "chinese": "我的舌头忙着找［那颗牙原来所在的］洞",
+    "english": "my tongue was busy searching out the hole where the tooth had been",
+    "steps": [
+      {
+        "label": "第一步：抓住主干动作",
+        "text": "my tongue was busy searching out the hole",
+        "explanation": "先理解核心信息：舌头正忙着找出那个洞，这是句子的主要内容。"
+      },
+      {
+        "label": "第二步：补充洞的位置信息",
+        "text": "where the tooth had been",
+        "explanation": "where 指代前面的 the hole，说明这个洞是牙齿之前所在的位置，也就是拔牙后留下的洞。"
+      },
+      {
+        "label": "第三步：调整中文语序",
+        "text": "那颗牙齿原来所在的洞",
+        "explanation": "中文习惯把修饰名词的内容放在名词前面，所以把“牙齿原来所在的”放到“洞”的前面，读起来更自然。"
+      }
+    ],
+    "takeaway": "英文先讲“找洞”这个动作，再用 where 补充说明是哪个位置的洞；中文则把洞的位置说明放在“洞”的前面，先讲清楚是什么样的洞，再讲动作。"
+  },
+  "backbone": {
+    "text": "my tongue was busy searching out the hole",
+    "meaning": "我的舌头忙着找出那个洞"
+  },
+  "structureNotes": [
+    {
+      "title": "where 引导的从句作用",
+      "text": "where the tooth had been 是修饰 the hole 的从句，用来说明这个洞的位置——也就是之前牙齿所在的地方。where 在这里指代“在那个洞里”的位置，不是疑问词。"
+    },
+    {
+      "title": "be busy doing 的含义",
+      "text": "was busy searching 表示“正忙着做某事”，busy 后面接动词的 -ing 形式，说明舌头当时正在进行寻找的动作。"
+    },
+    {
+      "title": "search out 的意思",
+      "text": "search out 是短语动词，意思是“找出、搜寻到”，比单纯的 search 更强调找到目标的结果。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Meanwhile,",
+      "role": "时间状语",
+      "explanation": "表示“与此同时”，连接上文的动作，说明两件事同时发生。"
+    },
+    {
+      "text": "my tongue",
+      "role": "句子主语",
+      "explanation": "动作的发出者，指“我的舌头”。"
+    },
+    {
+      "text": "was busy searching out",
+      "role": "谓语部分",
+      "explanation": "表示“正忙着找出”，was busy 是系表结构，searching out 是具体忙着做的动作。"
+    },
+    {
+      "text": "the hole",
+      "role": "宾语",
+      "explanation": "“找出”这个动作的对象，也就是舌头要找的东西。"
+    },
+    {
+      "text": "where the tooth had been",
+      "role": "定语从句",
+      "explanation": "修饰 the hole，说明这个洞是之前牙齿所在的位置；where 在从句中充当地点状语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Meanwhile,",
+      "meaning": "与此同时",
+      "pos": "副词",
+      "phonetic": "/ˈmiːnwaɪl/"
+    },
+    {
+      "text": "my",
+      "meaning": "我的",
+      "pos": "形容词性物主代词",
+      "phonetic": "/maɪ/"
+    },
+    {
+      "text": "tongue",
+      "meaning": "舌头",
+      "pos": "名词",
+      "phonetic": "/tʌŋ/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be动词过去式，主语为单数时用）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "busy",
+      "meaning": "忙碌的",
+      "pos": "形容词",
+      "phonetic": "/ˈbɪzi/"
+    },
+    {
+      "text": "searching",
+      "meaning": "搜寻，查找",
+      "pos": "动词（现在分词形式）",
+      "phonetic": "/ˈsɜːtʃɪŋ/"
+    },
+    {
+      "text": "out",
+      "meaning": "（与search构成短语search out，意为找出）",
+      "pos": "副词",
+      "phonetic": "/aʊt/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "hole",
+      "meaning": "洞，孔",
+      "pos": "名词",
+      "phonetic": "/həʊl/"
+    },
+    {
+      "text": "where",
+      "meaning": "（关系副词，引导定语从句，指代地点）",
+      "pos": "关系副词",
+      "phonetic": "/weə/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个，那个（定冠词，特指）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "tooth",
+      "meaning": "牙齿",
+      "pos": "名词",
+      "phonetic": "/tuːθ/"
+    },
+    {
+      "text": "had",
+      "meaning": "（have的过去式，构成过去完成时）",
+      "pos": "助动词",
+      "phonetic": "/hæd/"
+    },
+    {
+      "text": "been.",
+      "meaning": "（be的过去分词，此处表示存在于某处）",
+      "pos": "动词",
+      "phonetic": "/biːn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "Meanwhile,",
+      "meaning": "与此同时",
+      "relation": "时间背景，说明动作发生的时间节点"
+    },
+    {
+      "text": "my tongue",
+      "meaning": "我的舌头",
+      "relation": "动作的发出者，描述谁在做动作"
+    },
+    {
+      "text": "was busy searching out",
+      "meaning": "正忙着找出",
+      "relation": "主语的动作和状态"
+    },
+    {
+      "text": "the hole",
+      "meaning": "那个洞",
+      "relation": "动作的对象，寻找的目标"
+    },
+    {
+      "text": "where the tooth had been.",
+      "meaning": "那颗牙齿原来所在的",
+      "relation": "补充说明洞的位置，描述是哪个洞"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-048",
+  "sentenceId": "nce-2-lesson-048-sentence-007",
+  "sentenceOrder": 7,
+  "english": "Meanwhile, my tongue was busy searching out the hole where the tooth had been.",
+  "lesson": "Lesson 48 Did you want to tell me something?",
+  "notes": [
+    {
+      "title": "where 引导的从句作用",
+      "text": "where the tooth had been 是修饰 the hole 的从句，用来说明这个洞的位置——也就是之前牙齿所在的地方。where 在这里指代“在那个洞里”的位置，不是疑问词。"
+    },
+    {
+      "title": "be busy doing 的含义",
+      "text": "was busy searching 表示“正忙着做某事”，busy 后面接动词的 -ing 形式，说明舌头当时正在进行寻找的动作。"
+    },
+    {
+      "title": "search out 的意思",
+      "text": "search out 是短语动词，意思是“找出、搜寻到”，比单纯的 search 更强调找到目标的结果。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需修正单词been的英式音标、关系副词where的词义表述，以及最后一个part的meaning使其准确对应定语从句的功能。（非逐句人工审核）"
+}

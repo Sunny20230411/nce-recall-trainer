@@ -1,0 +1,141 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-075",
+  "sentenceId": "nce-2-lesson-075-sentence-002",
+  "sentenceOrder": 2,
+  "english": "The only passengers, a young woman and her two baby daughters, were unhurt.",
+  "chinese": "机上仅有的乘客——一位年轻妇女和她两个年幼的女儿——都没有受伤。",
+  "lesson": "Lesson 75 SOS",
+  "intent": "说明三名乘客安然无恙",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "The only passengers,",
+      "relation": "乘客范围",
+      "meaning": "仅有的乘客"
+    },
+    {
+      "text": "a young woman and her two baby daughters,",
+      "relation": "身份说明",
+      "meaning": "一位年轻妇女和两个幼女"
+    },
+    {
+      "text": "were unhurt.",
+      "relation": "状态结果",
+      "meaning": "都没有受伤"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "同位说明",
+      "text": "a young woman and her two baby daughters 解释 passengers 的具体身份。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "同位说明",
+      "text": "a young woman and her two baby daughters 解释 passengers 的具体身份。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "The only passengers,",
+      "role": "主语",
+      "explanation": "圈定所有乘客。"
+    },
+    {
+      "text": "a young woman and her two baby daughters,",
+      "role": "同位语",
+      "explanation": "说明乘客是谁。"
+    },
+    {
+      "text": "were unhurt.",
+      "role": "系表谓语",
+      "explanation": "报告没有受伤。"
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "meaning": "这些",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "only",
+      "meaning": "仅有的",
+      "pos": "形容词",
+      "phonetic": "/ˈəʊnli/"
+    },
+    {
+      "text": "passengers,",
+      "meaning": "乘客",
+      "pos": "复数名词",
+      "phonetic": "/ˈpæsɪndʒəz/"
+    },
+    {
+      "text": "a",
+      "meaning": "一位",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "young",
+      "meaning": "年轻的",
+      "pos": "形容词",
+      "phonetic": "/jʌŋ/"
+    },
+    {
+      "text": "woman",
+      "meaning": "妇女",
+      "pos": "名词",
+      "phonetic": "/ˈwʊmən/"
+    },
+    {
+      "text": "and",
+      "meaning": "和",
+      "pos": "并列连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "her",
+      "meaning": "她的",
+      "pos": "物主限定词",
+      "phonetic": "/hɜː(r)/ 或 /hə(r)/"
+    },
+    {
+      "text": "two",
+      "meaning": "两个",
+      "pos": "数词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "baby",
+      "meaning": "年幼的",
+      "pos": "名词作定语",
+      "phonetic": "/ˈbeɪbi/"
+    },
+    {
+      "text": "daughters,",
+      "meaning": "女儿",
+      "pos": "复数名词",
+      "phonetic": "/ˈdɔːtəz/"
+    },
+    {
+      "text": "were",
+      "meaning": "处于",
+      "pos": "系动词",
+      "phonetic": "/wɜː/ 或 /wə/"
+    },
+    {
+      "text": "unhurt.",
+      "meaning": "未受伤的",
+      "pos": "形容词",
+      "phonetic": "/ʌnˈhɜːt/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

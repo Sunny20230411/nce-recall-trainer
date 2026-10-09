@@ -1,0 +1,143 @@
+{
+  "chinese": "他对自己发现的情况感到十分惊讶。",
+  "intent": "描述某人因所发现的事物而产生惊讶的情绪，交代他打开箱子后的反应。",
+  "comparison": {
+    "chinese": "他对自己发现的东西感到很惊讶",
+    "english": "He was astonished at what he found.",
+    "steps": [
+      {
+        "label": "先抓主干情绪",
+        "text": "He was astonished",
+        "explanation": "中文先讲“他感到惊讶”，英文同样先点明主语和核心状态，这部分语序和中文基本一致。"
+      },
+      {
+        "label": "再接惊讶的对象",
+        "text": "at what he found",
+        "explanation": "中文用“对……”引出惊讶的对象，英文用介词at引出；中文可以直接说“对自己发现的东西”，英文用what引导的从句整体当作at的宾语，相当于“他所发现的那件事/那样东西”。"
+      }
+    ],
+    "takeaway": "be astonished at 整体表示“对……感到惊讶”，what 引导的从句可以直接当介词的宾语，指“所……的事物”，不用额外再加名词。"
+  },
+  "backbone": {
+    "text": "He was astonished at what he found.",
+    "meaning": "他对自己发现的事物感到惊讶。"
+  },
+  "structureNotes": [
+    {
+      "title": "be astonished at 的搭配",
+      "text": "be astonished 后接介词 at 引出引发惊讶的对象，意思是“因……而吃惊”，at 不能换成别的介词来表达同样的含义。"
+    },
+    {
+      "title": "what 引导的宾语从句",
+      "text": "what he found 整体作介词 at 的宾语，其中 what 在从句里充当 found 的宾语，相当于“the thing that he found”，也就是“他找到/发现的东西”。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "句子的主体，指前文提到的一名工人。"
+    },
+    {
+      "text": "was astonished",
+      "role": "谓语（表情绪的系表结构）",
+      "explanation": "由be动词加过去分词转化的形容词astonished构成，表达“感到惊讶”的状态。"
+    },
+    {
+      "text": "at what he found.",
+      "role": "情绪的对象状语",
+      "explanation": "用介词at引出惊讶的原因和对象，内部包含what引导的名词性从句作at的宾语。"
+    },
+    {
+      "text": "what he found.",
+      "role": "介词的宾语从句",
+      "explanation": "从句作at的宾语，what在从句中作found的宾语，指发现的具体内容。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "was",
+      "meaning": "（be的过去式，用于第三人称单数）是，处于（某种状态）",
+      "pos": "动词",
+      "phonetic": "/wəz/"
+    },
+    {
+      "text": "astonished",
+      "meaning": "感到十分惊讶的",
+      "pos": "形容词",
+      "phonetic": "/əˈstɒnɪʃt/"
+    },
+    {
+      "text": "at",
+      "meaning": "对，针对（引出情绪的对象）",
+      "pos": "介词",
+      "phonetic": "/æt/"
+    },
+    {
+      "text": "what",
+      "meaning": "……的事物，所……的东西",
+      "pos": "代词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "found.",
+      "meaning": "发现，找到（find的过去式）",
+      "pos": "动词",
+      "phonetic": "/faʊnd/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "relation": "描述谁感到惊讶",
+      "meaning": "他"
+    },
+    {
+      "text": "was astonished",
+      "relation": "核心状态",
+      "meaning": "感到十分惊讶"
+    },
+    {
+      "text": "at",
+      "relation": "连接情绪和引发情绪的事物",
+      "meaning": "对（引出对象）"
+    },
+    {
+      "text": "what he found.",
+      "relation": "惊讶的对象",
+      "meaning": "他所发现的事物"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-046",
+  "sentenceId": "nce-2-lesson-046-sentence-004",
+  "sentenceOrder": 5,
+  "english": "He was astonished at what he found.",
+  "lesson": "Lesson 46 Expensive and uncomfortable",
+  "notes": [
+    {
+      "title": "be astonished at 的搭配",
+      "text": "be astonished 后接介词 at 引出引发惊讶的对象，意思是“因……而吃惊”，at 不能换成别的介词来表达同样的含义。"
+    },
+    {
+      "title": "what 引导的宾语从句",
+      "text": "what he found 整体作介词 at 的宾语，其中 what 在从句里充当 found 的宾语，相当于“the thing that he found”，也就是“他找到/发现的东西”。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅found的释义多余提及句末标点，修正后可使用。（非逐句人工审核）"
+}

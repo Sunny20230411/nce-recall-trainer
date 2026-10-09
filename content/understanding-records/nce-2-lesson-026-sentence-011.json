@@ -1,0 +1,101 @@
+{
+  "chinese": "“你在做什么？”她问道。",
+  "intent": "转述她向对方提出的、询问对方当前正在做什么的问题。",
+  "comparison": null,
+  "backbone": {
+    "text": "she asked a question: What are you doing?",
+    "meaning": "她提出了一个问题：你正在做什么。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把引语放在句首，后面再交代说话人“she asked”，是叙事中常见的写法，和中文“‘你在做什么？’她问道”的语序一致。"
+    },
+    {
+      "title": "现在进行时的问句",
+      "text": "引语是现在进行时的特殊疑问句，用“What”询问动作内容，“are you doing”表示“你正在做”，be动词are提到主语you前面构成疑问语序。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘What are you doing?’",
+      "role": "直接引语（宾语）",
+      "explanation": "这是asked的具体内容，是被完整引用的原话，作用是说明她问的是什么问题。"
+    },
+    {
+      "text": "she asked.",
+      "role": "主句（主谓结构）",
+      "explanation": "交代说话的人是“她”，动作是“问”，是整个句子的主干陈述部分。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘What",
+      "meaning": "什么",
+      "pos": "疑问代词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "are",
+      "meaning": "（be动词，用于第二人称单/复数现在时，构成进行时疑问）",
+      "pos": "动词",
+      "phonetic": "/ɑː/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "doing?’",
+      "meaning": "正在做",
+      "pos": "动词现在分词",
+      "phonetic": "/ˈduːɪŋ/"
+    },
+    {
+      "text": "she",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "asked.",
+      "meaning": "问；询问（过去式）",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘What are you doing?’",
+      "relation": "询问内容，是她所问的原话",
+      "meaning": "“你在做什么？”"
+    },
+    {
+      "text": "she asked.",
+      "relation": "描述谁发出了提问的动作",
+      "meaning": "她问道"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-026",
+  "sentenceId": "nce-2-lesson-026-sentence-011",
+  "sentenceOrder": 11,
+  "english": "‘What are you doing?’ she asked.",
+  "lesson": "Lesson 26 The best art critics",
+  "notes": [
+    {
+      "title": "直接引语的位置",
+      "text": "本句把引语放在句首，后面再交代说话人“she asked”，是叙事中常见的写法，和中文“‘你在做什么？’她问道”的语序一致。"
+    },
+    {
+      "title": "现在进行时的问句",
+      "text": "引语是现在进行时的特殊疑问句，用“What”询问动作内容，“are you doing”表示“你正在做”，be动词are提到主语you前面构成疑问语序。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析基本准确，仅部分单词释义冗余提及标点、asked的音标有误，修正后可使用。（非逐句人工审核）"
+}

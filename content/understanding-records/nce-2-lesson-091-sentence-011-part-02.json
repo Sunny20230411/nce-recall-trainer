@@ -1,0 +1,155 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-091",
+  "sentenceId": "nce-2-lesson-091-sentence-011-part-02",
+  "sentenceOrder": 15,
+  "english": "one half of the station did not know what the other half was doing!",
+  "chinese": "基地的一半人竟不知道另一半人在做什么！",
+  "lesson": "Lesson 91 Three men in a basket",
+  "intent": "用内部信息不通解释整场误会。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "one half of the station",
+      "relation": "不知情的一方",
+      "meaning": "基地的一半人员"
+    },
+    {
+      "text": "did not know",
+      "relation": "信息缺失",
+      "meaning": "不知道"
+    },
+    {
+      "text": "what the other half was doing!",
+      "relation": "未知内容",
+      "meaning": "另一半人在做什么"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "借代",
+      "text": "station 指基地人员，half 在此按集合的一部分理解。"
+    },
+    {
+      "title": "嵌入问句",
+      "text": "what 从句作 know 的宾语，用陈述语序。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "借代",
+      "text": "station 指基地人员，half 在此按集合的一部分理解。"
+    },
+    {
+      "title": "嵌入问句",
+      "text": "what 从句作 know 的宾语，用陈述语序。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "one half of the station",
+      "role": "主语",
+      "explanation": "基地的一部分人员。"
+    },
+    {
+      "text": "did not know",
+      "role": "谓语",
+      "explanation": "表达不知情。"
+    },
+    {
+      "text": "what the other half was doing",
+      "role": "宾语从句",
+      "explanation": "what 在从句内作 doing 的宾语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "one",
+      "meaning": "一",
+      "pos": "数词",
+      "phonetic": "/wʌn/"
+    },
+    {
+      "text": "half",
+      "meaning": "半",
+      "pos": "名词",
+      "phonetic": "/hɑːf/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/ 或 /əv/"
+    },
+    {
+      "text": "the",
+      "meaning": "该",
+      "pos": "冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "station",
+      "meaning": "基地人员",
+      "pos": "名词",
+      "phonetic": "/ˈsteɪʃən/"
+    },
+    {
+      "text": "did",
+      "meaning": "过去时否定助动词",
+      "pos": "助动词",
+      "phonetic": "/dɪd/"
+    },
+    {
+      "text": "not",
+      "meaning": "不",
+      "pos": "副词",
+      "phonetic": "/nɒt/"
+    },
+    {
+      "text": "know",
+      "meaning": "知道",
+      "pos": "动词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "what",
+      "meaning": "什么",
+      "pos": "连接代词",
+      "phonetic": "/wɒt/"
+    },
+    {
+      "text": "the",
+      "meaning": "另一半中的限定",
+      "pos": "冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "other",
+      "meaning": "另一",
+      "pos": "限定词",
+      "phonetic": "/ˈʌðə/"
+    },
+    {
+      "text": "half",
+      "meaning": "半",
+      "pos": "名词",
+      "phonetic": "/hɑːf/"
+    },
+    {
+      "text": "was",
+      "meaning": "进行体助动词",
+      "pos": "助动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "doing!",
+      "meaning": "做",
+      "pos": "动词",
+      "phonetic": "/ˈduːɪŋ/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

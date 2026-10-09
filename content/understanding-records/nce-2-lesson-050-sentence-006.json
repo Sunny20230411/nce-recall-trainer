@@ -1,0 +1,111 @@
+{
+  "chinese": "过了一段时间，公共汽车停了下来。",
+  "intent": "叙述一件过去发生的事：公共汽车在行驶一段时间后停下了。",
+  "comparison": null,
+  "backbone": {
+    "text": "the bus stopped",
+    "meaning": "公共汽车停了下来。"
+  },
+  "structureNotes": [
+    {
+      "title": "时间状语的位置",
+      "text": "句首的After some time是时间状语，用逗号和主句隔开，说明后面事件发生的时间点。"
+    },
+    {
+      "title": "stop的用法",
+      "text": "本句中stop是不及物动词，意思是“停下”，主语the bus是动作的发出者，不需要接宾语。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "After some time,",
+      "role": "时间状语",
+      "explanation": "表示“过了一段时间之后”，交代主句事件发生的时间背景，放在句首起铺垫作用。"
+    },
+    {
+      "text": "the bus",
+      "role": "主语",
+      "explanation": "指句子描述的对象——公共汽车，是发出“停下”这个动作的主体。"
+    },
+    {
+      "text": "stopped.",
+      "role": "谓语",
+      "explanation": "是动词stop的过去式，表示过去发生的“停下”这个动作。"
+    }
+  ],
+  "words": [
+    {
+      "text": "After",
+      "meaning": "在……之后",
+      "pos": "介词",
+      "phonetic": "/ˈɑːftə(r)/"
+    },
+    {
+      "text": "some",
+      "meaning": "一些，若干",
+      "pos": "限定词",
+      "phonetic": "/sʌm/"
+    },
+    {
+      "text": "time,",
+      "meaning": "时间",
+      "pos": "名词",
+      "phonetic": "/taɪm/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个（指特定的那辆公交车）",
+      "pos": "定冠词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "bus",
+      "meaning": "公共汽车",
+      "pos": "名词",
+      "phonetic": "/bʌs/"
+    },
+    {
+      "text": "stopped.",
+      "meaning": "停下了",
+      "pos": "动词",
+      "phonetic": "/stɒpt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "After some time,",
+      "relation": "时间：说明后面事件发生的时间",
+      "meaning": "过了一段时间"
+    },
+    {
+      "text": "the bus",
+      "relation": "描述谁/什么：句子的主体",
+      "meaning": "那辆公共汽车"
+    },
+    {
+      "text": "stopped.",
+      "relation": "补充什么：主体发生的动作",
+      "meaning": "停了下来"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-006",
+  "sentenceOrder": 9,
+  "english": "After some time, the bus stopped.",
+  "lesson": "Lesson 50 Taken for a ride",
+  "notes": [
+    {
+      "title": "时间状语的位置",
+      "text": "句首的After some time是时间状语，用逗号和主句隔开，说明后面事件发生的时间点。"
+    },
+    {
+      "title": "stop的用法",
+      "text": "本句中stop是不及物动词，意思是“停下”，主语the bus是动作的发出者，不需要接宾语。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：本次解析基本合格，仅词项释义中冗余附带标点说明，需修正以符合仅解释词本身的要求。（非逐句人工审核）"
+}

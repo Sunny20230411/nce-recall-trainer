@@ -1,0 +1,112 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-087",
+  "sentenceId": "nce-2-lesson-087-sentence-012",
+  "sentenceOrder": 12,
+  "english": "I bought a paper and waited for the train.'",
+  "chinese": "我买了一份报纸，等着火车。”",
+  "lesson": "Lesson 87 A perfect alibi",
+  "intent": "补充到站后的行为",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "I bought a paper",
+      "relation": "先行动作",
+      "meaning": "我买了一份报纸"
+    },
+    {
+      "text": "and waited for the train.'",
+      "relation": "后续动作",
+      "meaning": "然后等火车"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "共享主语",
+      "text": "bought 和 waited 的主语都是 I。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "共享主语",
+      "text": "bought 和 waited 的主语都是 I。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "I",
+      "role": "主语",
+      "explanation": "说话男子。"
+    },
+    {
+      "text": "bought a paper",
+      "role": "并列谓语之一",
+      "explanation": "买报纸。"
+    },
+    {
+      "text": "waited for the train.",
+      "role": "并列谓语之二",
+      "explanation": "等候指定火车。"
+    }
+  ],
+  "words": [
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "人称代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "bought",
+      "meaning": "买了",
+      "pos": "动词过去式",
+      "phonetic": "/bɔːt/"
+    },
+    {
+      "text": "a",
+      "meaning": "一份",
+      "pos": "不定冠词",
+      "phonetic": "/ə/ 或 /eɪ/"
+    },
+    {
+      "text": "paper",
+      "meaning": "报纸",
+      "pos": "名词",
+      "phonetic": "/ˈpeɪpə/"
+    },
+    {
+      "text": "and",
+      "meaning": "并且",
+      "pos": "并列连词",
+      "phonetic": "/ænd/ 或 /ənd/"
+    },
+    {
+      "text": "waited",
+      "meaning": "等待",
+      "pos": "动词过去式",
+      "phonetic": "/ˈweɪtɪd/"
+    },
+    {
+      "text": "for",
+      "meaning": "等候对象为",
+      "pos": "介词",
+      "phonetic": "/fɔː/ 或 /fər/"
+    },
+    {
+      "text": "the",
+      "meaning": "那班",
+      "pos": "定冠词",
+      "phonetic": "/ðə/ 或 /ðiː/"
+    },
+    {
+      "text": "train.'",
+      "meaning": "火车",
+      "pos": "名词",
+      "phonetic": "/treɪn/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

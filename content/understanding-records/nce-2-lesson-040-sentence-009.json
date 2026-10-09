@@ -1,0 +1,151 @@
+{
+  "chinese": "“你今年会在国外度假吗？”我问道。",
+  "intent": "直接引述我向对方提出的关于对方今年是否在国外度假的疑问。",
+  "comparison": null,
+  "backbone": {
+    "text": "I asked, ‘Will you be spending your holidays abroad this year?’",
+    "meaning": "我提出了一个问题：你今年是不是要在国外度假。"
+  },
+  "structureNotes": [
+    {
+      "title": "直接引语的疑问句形式",
+      "text": "引号内是完整的一般疑问句，will 提前到主语 you 前构成疑问语序，整个引语作为 asked 的内容。"
+    },
+    {
+      "title": "将来进行时的用法",
+      "text": "will be spending 是将来进行时，用来委婉询问对方将来的计划安排，比一般将来时更自然客气。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "‘Will you be spending your holidays abroad this year?’",
+      "role": "直接引语（宾语）",
+      "explanation": "这是我说话的全部内容，作为 asked 的具体询问对象，本身是一个将来进行时的一般疑问句。"
+    },
+    {
+      "text": "Will you be spending",
+      "role": "将来进行时疑问谓语",
+      "explanation": "由 will + 主语 you + be + 现在分词 spending 构成疑问语序，用来询问将来正在进行或计划中的动作。"
+    },
+    {
+      "text": "your holidays",
+      "role": "spending 的宾语",
+      "explanation": "是 spend 动作的对象，表示“度假”这件事。"
+    },
+    {
+      "text": "abroad",
+      "role": "地点状语",
+      "explanation": "说明度假的地点是在国外。"
+    },
+    {
+      "text": "this year",
+      "role": "时间状语",
+      "explanation": "说明度假动作发生的时间是今年。"
+    },
+    {
+      "text": "I asked.",
+      "role": "主句主谓",
+      "explanation": "交代说话人和动作，即“我问道”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "‘Will",
+      "meaning": "会；将（用于构成将来时疑问句）",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "you",
+      "meaning": "你；你们",
+      "pos": "代词",
+      "phonetic": "/juː/"
+    },
+    {
+      "text": "be",
+      "meaning": "（助动词，与现在分词构成进行时）",
+      "pos": "助动词",
+      "phonetic": "/biː/"
+    },
+    {
+      "text": "spending",
+      "meaning": "度过（时光）；花费（现在分词形式）",
+      "pos": "动词",
+      "phonetic": "/ˈspendɪŋ/"
+    },
+    {
+      "text": "your",
+      "meaning": "你的；你们的",
+      "pos": "限定词",
+      "phonetic": "/jɔː/"
+    },
+    {
+      "text": "holidays",
+      "meaning": "假期（复数形式）",
+      "pos": "名词",
+      "phonetic": "/ˈhɒlədeɪz/"
+    },
+    {
+      "text": "abroad",
+      "meaning": "在国外；到国外",
+      "pos": "副词",
+      "phonetic": "/əˈbrɔːd/"
+    },
+    {
+      "text": "this",
+      "meaning": "这；这个",
+      "pos": "限定词",
+      "phonetic": "/ðɪs/"
+    },
+    {
+      "text": "year?’",
+      "meaning": "年",
+      "pos": "名词",
+      "phonetic": "/jɪə/"
+    },
+    {
+      "text": "I",
+      "meaning": "我",
+      "pos": "代词",
+      "phonetic": "/aɪ/"
+    },
+    {
+      "text": "asked.",
+      "meaning": "问；询问（过去式）",
+      "pos": "动词",
+      "phonetic": "/ɑːskt/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "‘Will you be spending your holidays abroad this year?’",
+      "relation": "询问内容（直接引语）",
+      "meaning": "你今年会在国外度假吗？"
+    },
+    {
+      "text": "I asked.",
+      "relation": "说话人与动作",
+      "meaning": "我问道"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-040",
+  "sentenceId": "nce-2-lesson-040-sentence-009",
+  "sentenceOrder": 10,
+  "english": "‘Will you be spending your holidays abroad this year?’ I asked.",
+  "lesson": "Lesson 40 Food and talk",
+  "notes": [
+    {
+      "title": "直接引语的疑问句形式",
+      "text": "引号内是完整的一般疑问句，will 提前到主语 you 前构成疑问语序，整个引语作为 asked 的内容。"
+    },
+    {
+      "title": "将来进行时的用法",
+      "text": "will be spending 是将来进行时，用来委婉询问对方将来的计划安排，比一般将来时更自然客气。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：词项释义中混入了标点说明，且year的释义未准确对应词义，修正后符合要求，其余内容准确。（非逐句人工审核）"
+}

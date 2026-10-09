@@ -1,0 +1,173 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-090",
+  "sentenceId": "nce-2-lesson-090-sentence-005",
+  "sentenceOrder": 6,
+  "english": "Its wide roads, which can take fourteen lanes of traffic, have been kept away from living areas.",
+  "chinese": "其宽阔道路可容纳十四条车道的车辆通行，而且与居住区保持距离。",
+  "lesson": "Lesson 90 What's for supper?",
+  "intent": "用道路布局说明新城如何照顾居民生活。",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "Its wide roads,",
+      "relation": "对象",
+      "meaning": "它的宽阔道路"
+    },
+    {
+      "text": "which can take fourteen lanes of traffic,",
+      "relation": "补充容量",
+      "meaning": "可容纳十四条车道的交通"
+    },
+    {
+      "text": "have been kept away from living areas.",
+      "relation": "布局结果",
+      "meaning": "一直与居住区分隔开"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "非限定补充",
+      "text": "which 从句补充 roads 的容量，不筛选某几条道路。"
+    },
+    {
+      "title": "被动布局",
+      "text": "have been kept away 描述人为规划带来的现有安排。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "非限定补充",
+      "text": "which 从句补充 roads 的容量，不筛选某几条道路。"
+    },
+    {
+      "title": "被动布局",
+      "text": "have been kept away 描述人为规划带来的现有安排。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "Its wide roads",
+      "role": "主语",
+      "explanation": "新城的宽阔道路。"
+    },
+    {
+      "text": "which can take fourteen lanes of traffic",
+      "role": "非限定性定语从句",
+      "explanation": "补充道路容纳交通的能力。"
+    },
+    {
+      "text": "have been kept away from living areas",
+      "role": "谓语",
+      "explanation": "完成时被动说明与居住区隔离的安排。"
+    }
+  ],
+  "words": [
+    {
+      "text": "Its",
+      "meaning": "它的",
+      "pos": "限定词",
+      "phonetic": "/ɪts/"
+    },
+    {
+      "text": "wide",
+      "meaning": "宽阔的",
+      "pos": "形容词",
+      "phonetic": "/waɪd/"
+    },
+    {
+      "text": "roads,",
+      "meaning": "道路",
+      "pos": "名词",
+      "phonetic": "/rəʊdz/"
+    },
+    {
+      "text": "which",
+      "meaning": "这些道路",
+      "pos": "关系代词",
+      "phonetic": "/wɪtʃ/"
+    },
+    {
+      "text": "can",
+      "meaning": "能够",
+      "pos": "情态动词",
+      "phonetic": "/kæn/ 或 /kən/"
+    },
+    {
+      "text": "take",
+      "meaning": "容纳",
+      "pos": "动词",
+      "phonetic": "/teɪk/"
+    },
+    {
+      "text": "fourteen",
+      "meaning": "十四",
+      "pos": "数词",
+      "phonetic": "/ˌfɔːˈtiːn/"
+    },
+    {
+      "text": "lanes",
+      "meaning": "车道",
+      "pos": "名词",
+      "phonetic": "/leɪnz/"
+    },
+    {
+      "text": "of",
+      "meaning": "……的",
+      "pos": "介词",
+      "phonetic": "/ɒv/ 或 /əv/"
+    },
+    {
+      "text": "traffic,",
+      "meaning": "交通车流",
+      "pos": "名词",
+      "phonetic": "/ˈtræfɪk/"
+    },
+    {
+      "text": "have",
+      "meaning": "完成时助动词",
+      "pos": "助动词",
+      "phonetic": "/hæv/"
+    },
+    {
+      "text": "been",
+      "meaning": "被动助动词",
+      "pos": "助动词",
+      "phonetic": "/biːn/ 或 /bɪn/"
+    },
+    {
+      "text": "kept",
+      "meaning": "保持",
+      "pos": "动词",
+      "phonetic": "/kept/"
+    },
+    {
+      "text": "away",
+      "meaning": "远离",
+      "pos": "副词",
+      "phonetic": "/əˈweɪ/"
+    },
+    {
+      "text": "from",
+      "meaning": "与……分开",
+      "pos": "介词",
+      "phonetic": "/frəm/ 或 /frɒm/"
+    },
+    {
+      "text": "living",
+      "meaning": "居住的",
+      "pos": "形容词",
+      "phonetic": "/ˈlɪvɪŋ/"
+    },
+    {
+      "text": "areas.",
+      "meaning": "区域",
+      "pos": "名词",
+      "phonetic": "/ˈeəriəz/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

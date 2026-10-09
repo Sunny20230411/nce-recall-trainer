@@ -1,0 +1,66 @@
+{
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-074",
+  "sentenceId": "nce-2-lesson-074-sentence-019-part-02",
+  "sentenceOrder": 20,
+  "english": "' he said.",
+  "chinese": "”他说。",
+  "lesson": "Lesson 74 Out of the limelight",
+  "intent": "闭合上一条引语并注明说话人",
+  "comparison": null,
+  "parts": [
+    {
+      "text": "' he said.",
+      "relation": "引述收尾",
+      "meaning": "他说"
+    }
+  ],
+  "structureNotes": [
+    {
+      "title": "既有碎片",
+      "text": "开头单引号属于上一条引语的闭合符号，不是单词；保留逐空格词项。"
+    }
+  ],
+  "notes": [
+    {
+      "title": "既有碎片",
+      "text": "开头单引号属于上一条引语的闭合符号，不是单词；保留逐空格词项。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "'",
+      "role": "独立标点",
+      "explanation": "闭合前面的引语。"
+    },
+    {
+      "text": "he said.",
+      "role": "引述分句",
+      "explanation": "he 指治安官。"
+    }
+  ],
+  "words": [
+    {
+      "text": "'",
+      "meaning": "闭合引语",
+      "pos": "标点符号",
+      "phonetic": "/ˈkwəʊt/"
+    },
+    {
+      "text": "he",
+      "meaning": "他",
+      "pos": "人称代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "said.",
+      "meaning": "说",
+      "pos": "动词",
+      "phonetic": "/sed/"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+  "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+}

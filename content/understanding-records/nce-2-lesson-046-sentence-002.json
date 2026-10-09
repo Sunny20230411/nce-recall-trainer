@@ -1,0 +1,196 @@
+{
+  "chinese": "没有人能解释其中一个箱子格外重这一事实。",
+  "intent": "说明工人们卸货时发现了一个难以解释的反常情况：有个箱子异常重，为后续开箱的情节做铺垫。",
+  "comparison": {
+    "chinese": "没有人能解释「其中一个箱子格外重」这个事实。",
+    "english": "No one could account for the fact that one of the boxes was extremely heavy.",
+    "steps": [
+      {
+        "label": "第一步：先抓主干事件",
+        "text": "No one could account for the fact",
+        "explanation": "中文先听懂核心：没人能解释这个事实。对应英文前半部分，交代主句的动作和对象。"
+      },
+      {
+        "label": "第二步：补充说明“事实”的具体内容",
+        "text": "that one of the boxes was extremely heavy",
+        "explanation": "中文把事实内容放在“事实”前面，用“……的事实”表达；英文把具体内容放在 fact 后面，用 that 引出，说明 fact 到底是什么。"
+      },
+      {
+        "label": "第三步：理顺信息顺序",
+        "text": "the fact that one of the boxes was extremely heavy",
+        "explanation": "英文先说“事实”这个词，再补内容；中文先讲事实内容，再说“这个事实”。理解时不用硬套“定语从句”，只要知道 that 后面是在解释 fact 的内容即可。"
+      }
+    ],
+    "takeaway": "英文常用 that 从句跟在名词后面补充该名词的具体内容，中文习惯把内容放前面修饰名词；阅读时看到 the fact that 可以先往后读，弄清事实是什么再回接主干。"
+  },
+  "backbone": {
+    "text": "No one could account for the fact.",
+    "meaning": "没有人能解释这个事实。"
+  },
+  "structureNotes": [
+    {
+      "title": "account for 的含义",
+      "text": "account for 在这里不是“账户”的意思，而是固定短语，表示“解释、说明……的原因”，后面直接跟要解释的事物。"
+    },
+    {
+      "title": "that 引导的同位语从句",
+      "text": "that one of the boxes was extremely heavy 跟在 the fact 后面，作用是说明 fact 的具体内容，that 本身没有实际词义，只起连接作用。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "No one",
+      "role": "主语",
+      "explanation": "表示“没有人”，是句子动作的发出者。"
+    },
+    {
+      "text": "could account for",
+      "role": "谓语",
+      "explanation": "情态动词 could 加短语动词 account for，共同表示“能够解释”。"
+    },
+    {
+      "text": "the fact that one of the boxes was extremely heavy.",
+      "role": "宾语（含同位语从句）",
+      "explanation": "the fact 是 account for 的宾语；that 从句跟在 fact 后面，具体说明这个事实的内容。"
+    },
+    {
+      "text": "that one of the boxes was extremely heavy",
+      "role": "同位语从句",
+      "explanation": "用来解释 the fact 的具体内容，从句本身是主系表结构：one of the boxes 是主语，was 是系动词，extremely heavy 是表语。"
+    }
+  ],
+  "words": [
+    {
+      "text": "No",
+      "meaning": "没有",
+      "pos": "限定词",
+      "phonetic": "/nəʊ/"
+    },
+    {
+      "text": "one",
+      "meaning": "一个人",
+      "pos": "代词",
+      "phonetic": "/wʌn/"
+    },
+    {
+      "text": "could",
+      "meaning": "能够（can的过去式）",
+      "pos": "情态动词",
+      "phonetic": "/kʊd/"
+    },
+    {
+      "text": "account",
+      "meaning": "认为；解释（与for搭配）",
+      "pos": "动词",
+      "phonetic": "/əˈkaʊnt/"
+    },
+    {
+      "text": "for",
+      "meaning": "对于；为了（与account搭配成短语）",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "the",
+      "meaning": "这个；那个（定冠词）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "fact",
+      "meaning": "事实",
+      "pos": "名词",
+      "phonetic": "/fækt/"
+    },
+    {
+      "text": "that",
+      "meaning": "（引导从句，无实义）",
+      "pos": "连词",
+      "phonetic": "/ðæt/"
+    },
+    {
+      "text": "one",
+      "meaning": "一个",
+      "pos": "代词",
+      "phonetic": "/wʌn/"
+    },
+    {
+      "text": "of",
+      "meaning": "……之中的（表示范围）",
+      "pos": "介词",
+      "phonetic": "/ɒv/"
+    },
+    {
+      "text": "the",
+      "meaning": "这些；那些（定冠词）",
+      "pos": "限定词",
+      "phonetic": "/ðə/"
+    },
+    {
+      "text": "boxes",
+      "meaning": "箱子（复数）",
+      "pos": "名词",
+      "phonetic": "/ˈbɒksɪz/"
+    },
+    {
+      "text": "was",
+      "meaning": "是（be的过去式）",
+      "pos": "动词",
+      "phonetic": "/wɒz/"
+    },
+    {
+      "text": "extremely",
+      "meaning": "极其；非常",
+      "pos": "副词",
+      "phonetic": "/ɪkˈstriːmli/"
+    },
+    {
+      "text": "heavy.",
+      "meaning": "重的",
+      "pos": "形容词",
+      "phonetic": "/ˈhevi/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "No one",
+      "relation": "动作发出者（谁不能解释）",
+      "meaning": "没有人"
+    },
+    {
+      "text": "could account for",
+      "relation": "主语的动作",
+      "meaning": "能够解释"
+    },
+    {
+      "text": "the fact",
+      "relation": "动作的对象（解释什么）",
+      "meaning": "这个事实"
+    },
+    {
+      "text": "that one of the boxes was extremely heavy.",
+      "relation": "补充说明“事实”的具体内容",
+      "meaning": "其中一个箱子格外重"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-046",
+  "sentenceId": "nce-2-lesson-046-sentence-002",
+  "sentenceOrder": 3,
+  "english": "No one could account for the fact that one of the boxes was extremely heavy.",
+  "lesson": "Lesson 46 Expensive and uncomfortable",
+  "notes": [
+    {
+      "title": "account for 的含义",
+      "text": "account for 在这里不是“账户”的意思，而是固定短语，表示“解释、说明……的原因”，后面直接跟要解释的事物。"
+    },
+    {
+      "title": "that 引导的同位语从句",
+      "text": "that one of the boxes was extremely heavy 跟在 the fact 后面，作用是说明 fact 的具体内容，that 本身没有实际词义，只起连接作用。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体解析准确，仅需修正words中heavy.的释义标点问题和of的词性释义准确性。（非逐句人工审核）"
+}

@@ -1,0 +1,105 @@
+{
+  "chinese": "他不久将访问达尔文。",
+  "intent": "说明他近期会去达尔文市这一将来的动作安排。",
+  "comparison": null,
+  "backbone": {
+    "text": "He will visit Darwin.",
+    "meaning": "他将要访问达尔文。"
+  },
+  "structureNotes": [
+    {
+      "title": "soon的位置与作用",
+      "text": "soon放在will和visit之间，用来修饰整个将来动作，说明动作发生的时间是“不久之后”，不是离现在很远的将来。"
+    },
+    {
+      "title": "will表示将来的安排",
+      "text": "will在这里用于陈述将来会发生的动作，不侧重主观打算，只是客观说明接下来的行程安排。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "He",
+      "role": "主语",
+      "explanation": "指句子里说的那个人，是“访问”这个动作的发出者。"
+    },
+    {
+      "text": "will soon visit",
+      "role": "谓语",
+      "explanation": "表示将要发生的动作，其中will构成将来时，soon补充说明动作发生的时间，visit是核心动作。"
+    },
+    {
+      "text": "Darwin.",
+      "role": "宾语",
+      "explanation": "是visit这个动作的对象，指澳大利亚的达尔文市。"
+    }
+  ],
+  "words": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "pos": "代词",
+      "phonetic": "/hiː/"
+    },
+    {
+      "text": "will",
+      "meaning": "将，会（构成将来时）",
+      "pos": "助动词",
+      "phonetic": "/wɪl/"
+    },
+    {
+      "text": "soon",
+      "meaning": "不久，很快",
+      "pos": "副词",
+      "phonetic": "/suːn/"
+    },
+    {
+      "text": "visit",
+      "meaning": "访问，参观",
+      "pos": "动词",
+      "phonetic": "/ˈvɪzɪt/"
+    },
+    {
+      "text": "Darwin.",
+      "meaning": "达尔文（澳大利亚城市名）",
+      "pos": "名词（后接句末句号）",
+      "phonetic": "/ˈdɑːwɪn/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "He",
+      "meaning": "他",
+      "relation": "动作发出者"
+    },
+    {
+      "text": "will soon visit",
+      "meaning": "不久将要访问",
+      "relation": "描述主语的动作及时间"
+    },
+    {
+      "text": "Darwin.",
+      "meaning": "达尔文（澳大利亚城市）",
+      "relation": "访问的对象"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-004",
+  "sentenceId": "nce-2-lesson-004-sentence-007",
+  "sentenceOrder": 8,
+  "english": "He will soon visit Darwin.",
+  "lesson": "Lesson 4 An exciting trip",
+  "notes": [
+    {
+      "title": "soon的位置与作用",
+      "text": "soon放在will和visit之间，用来修饰整个将来动作，说明动作发生的时间是“不久之后”，不是离现在很远的将来。"
+    },
+    {
+      "title": "will表示将来的安排",
+      "text": "will在这里用于陈述将来会发生的动作，不侧重主观打算，只是客观说明接下来的行程安排。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：内容整体准确，仅需修正words数组中Darwin.的词性表述（原表述为名词，但词项text带句末标点，需明确词性仅对应Darwin本身，标点为句末标点不影响词性判定，原释义已正确说明是城市名，仅需统一规范；另外parts第三项meaning可补全为「达尔文（澳大利亚城市）」与上下文呼应，其余内容均符合要求。（非逐句人工审核）"
+}

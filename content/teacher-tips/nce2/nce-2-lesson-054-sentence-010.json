@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-054",
+  "sentenceId": "nce-2-lesson-054-sentence-010",
+  "english": "There was dough all over my hands and the telephone.",
+  "text": "中文说“手上和电话上到处都是面糊”，容易先想到 My hands and the telephone were covered with dough。这句用 There was dough... 先点出存在的东西（面糊），再说明它分布的范围，更能突出“弄得哪里都是”的乱糟糟感。介绍某处布满某物时，想强调东西本身的存在感，可以选 there be 加地点范围的表达。",
+  "sourceDigest": "ca1810d36ba4246d6f4aa621cea94c7021a263a6578fb32350247ba4c434671f",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：区分了两种表达的信息重心，点出there be在此处突出乱糟糟感的作用，迁移明确。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "点拨抓住了信息组织角度的差异，迁移判断具体有用。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

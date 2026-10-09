@@ -77,5 +77,10 @@
   "analysisSource": "ai",
   "analysisStatus": "approved",
   "ruleVersion": "understanding-zh-adult-1.1.0",
-  "reviewNote": "模型独立复核后通过：内容整体合规，仅存在局部标注细节错误，可明确修正。（非逐句人工审核）"
+  "reviewNote": "模型独立复核后通过：内容整体合规，仅存在局部标注细节错误，可明确修正。（非逐句人工审核）",
+  "teacherTip": {
+    "text": "说完书架是给女儿的，接着补一句粉色是她最喜欢的颜色，就把前面选粉色的原因自然接上了，不用特意加“因为”之类的连接词，上下文逻辑已经很明确。",
+    "ruleVersion": "intent-driven-expression-1.0.2",
+    "reviewNote": "独立模型复核：符合要求，点明隐含因果的信息组织方式，提炼了自然补充原因的表达思路，没有机械套结构。（非逐句人工审核）"
+  }
 }

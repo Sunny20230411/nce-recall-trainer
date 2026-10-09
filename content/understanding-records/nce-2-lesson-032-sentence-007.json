@@ -1,0 +1,220 @@
+{
+  "chinese": "她把它交给一位助理，那位助理尽快为她把它包好了。",
+  "intent": "叙述女性把物品交给助理后，助理快速为她包装物品的先后两个关联动作。",
+  "comparison": {
+    "chinese": "她把它交给一位［立刻帮她把东西包好的］助理。",
+    "english": "She handed it to an assistant who wrapped it up for her as quickly as possible.",
+    "steps": [
+      {
+        "label": "第一步：先抓住主干动作",
+        "text": "She handed it to an assistant",
+        "explanation": "先理解核心事件：她把东西递交给一位助理，交代清楚动作、物品和接收对象。"
+      },
+      {
+        "label": "第二步：补充说明这位助理做了什么",
+        "text": "who wrapped it up for her as quickly as possible",
+        "explanation": "who 指前面的 an assistant，接在后面补充说明这位助理的后续动作：尽快替她把物品包起来。"
+      },
+      {
+        "label": "第三步：调整成自然中文语序",
+        "text": "把“who…quickly as possible”放到“助理”前面或拆成短句",
+        "explanation": "中文习惯要么把修饰语放在名词前面，要么拆成两个小句顺承说；英文习惯先说完主干，再用从句补在名词后面。"
+      }
+    ],
+    "takeaway": "英文用 who 引导从句接在名词后补充人物的动作，中文可拆成两句顺叙，或把修饰语挪到名词前面。"
+  },
+  "backbone": {
+    "text": "She handed it to an assistant. The assistant wrapped it up for her.",
+    "meaning": "她把它交给一位助理，这位助理为她把它包好。（辅助理解用还原表达，拆出从句隐含的独立动作）"
+  },
+  "structureNotes": [
+    {
+      "title": "who 引导的从句作用",
+      "text": "who 指代前面的 an assistant，在从句中作主语，用来补充说明这位助理做了什么事，不是用来提问。"
+    },
+    {
+      "title": "wrap it up 的搭配",
+      "text": "wrap up 是固定短语，表示“包好、裹起来”，宾语是代词 it 时，it 放在 wrap 和 up 中间。"
+    },
+    {
+      "title": "as quickly as possible 的含义",
+      "text": "这是表示速度程度的常用结构，意思是“尽可能快地”，说明包装动作的速度上限。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "She handed it to an assistant",
+      "role": "主句",
+      "explanation": "交代核心事件：她把物品递交给一位助理，hand sth to sb 表示“把某物递给某人”。"
+    },
+    {
+      "text": "who wrapped it up for her as quickly as possible",
+      "role": "定语从句",
+      "explanation": "修饰 an assistant，who 指代那位助理，说明助理随后做的动作：尽快替她把物品包好。"
+    },
+    {
+      "text": "as quickly as possible",
+      "role": "方式状语",
+      "explanation": "修饰动词 wrapped，说明包装动作执行的速度是“尽可能快”。"
+    }
+  ],
+  "words": [
+    {
+      "text": "She",
+      "meaning": "她",
+      "pos": "代词",
+      "phonetic": "/ʃiː/"
+    },
+    {
+      "text": "handed",
+      "meaning": "递；交",
+      "pos": "动词",
+      "phonetic": "/ˈhændɪd/"
+    },
+    {
+      "text": "it",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "to",
+      "meaning": "给；向",
+      "pos": "介词",
+      "phonetic": "/tuː/"
+    },
+    {
+      "text": "an",
+      "meaning": "一位",
+      "pos": "限定词",
+      "phonetic": "/ən/"
+    },
+    {
+      "text": "assistant",
+      "meaning": "助理；售货员",
+      "pos": "名词",
+      "phonetic": "/əˈsɪstənt/"
+    },
+    {
+      "text": "who",
+      "meaning": "……的人（引导从句，指代助理）",
+      "pos": "关系代词",
+      "phonetic": "/huː/"
+    },
+    {
+      "text": "wrapped",
+      "meaning": "包；裹",
+      "pos": "动词",
+      "phonetic": "/ræpt/"
+    },
+    {
+      "text": "it",
+      "meaning": "它",
+      "pos": "代词",
+      "phonetic": "/ɪt/"
+    },
+    {
+      "text": "up",
+      "meaning": "……起来（与wrap构成短语）",
+      "pos": "副词",
+      "phonetic": "/ʌp/"
+    },
+    {
+      "text": "for",
+      "meaning": "为；替",
+      "pos": "介词",
+      "phonetic": "/fɔː(r)/"
+    },
+    {
+      "text": "her",
+      "meaning": "她（宾格）",
+      "pos": "代词",
+      "phonetic": "/hɜː(r)/"
+    },
+    {
+      "text": "as",
+      "meaning": "和……一样（同级比较开头）",
+      "pos": "副词",
+      "phonetic": "/æz/"
+    },
+    {
+      "text": "quickly",
+      "meaning": "迅速地；快地",
+      "pos": "副词",
+      "phonetic": "/ˈkwɪkli/"
+    },
+    {
+      "text": "as",
+      "meaning": "和……一样（同级比较结尾）",
+      "pos": "连词",
+      "phonetic": "/æz/"
+    },
+    {
+      "text": "possible.",
+      "meaning": "可能的；尽量的",
+      "pos": "形容词",
+      "phonetic": "/ˈpɒsəbl/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "She",
+      "relation": "动作发出者（谁递）",
+      "meaning": "她"
+    },
+    {
+      "text": "handed it",
+      "relation": "主干动作（做了什么）",
+      "meaning": "把它递了"
+    },
+    {
+      "text": "to an assistant",
+      "relation": "接收对象（递给谁）",
+      "meaning": "给一位助理"
+    },
+    {
+      "text": "who",
+      "relation": "从句主语，指代前面的助理",
+      "meaning": "（那位助理）"
+    },
+    {
+      "text": "wrapped it up",
+      "relation": "从句主干动作（助理做了什么）",
+      "meaning": "把它包好"
+    },
+    {
+      "text": "for her",
+      "relation": "服务对象（为谁包）",
+      "meaning": "为她"
+    },
+    {
+      "text": "as quickly as possible.",
+      "relation": "动作方式（包得有多快）",
+      "meaning": "尽可能快地"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-032",
+  "sentenceId": "nce-2-lesson-032-sentence-007",
+  "sentenceOrder": 7,
+  "english": "She handed it to an assistant who wrapped it up for her as quickly as possible.",
+  "lesson": "Lesson 32 Shopping made easy",
+  "notes": [
+    {
+      "title": "who 引导的从句作用",
+      "text": "who 指代前面的 an assistant，在从句中作主语，用来补充说明这位助理做了什么事，不是用来提问。"
+    },
+    {
+      "title": "wrap it up 的搭配",
+      "text": "wrap up 是固定短语，表示“包好、裹起来”，宾语是代词 it 时，it 放在 wrap 和 up 中间。"
+    },
+    {
+      "title": "as quickly as possible 的含义",
+      "text": "这是表示速度程度的常用结构，意思是“尽可能快地”，说明包装动作的速度上限。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：末位单词的text携带句点属于存储约定，无需修改text，仅需修正其词性和词义；其余内容准确覆盖原文，主干、定语从句及短语解释均符合要求。（非逐句人工审核）"
+}

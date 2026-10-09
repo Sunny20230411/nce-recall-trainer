@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 2,
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-050",
+  "sentenceId": "nce-2-lesson-050-sentence-013",
+  "english": "‘I'll get off here.’",
+  "text": "临时决定就在这里下车，用 I'll get off here 很自然。will 在这里不是远期计划，是当下刚拿定的主意；如果是早就打算好在这站下，常说 I'm getting off here。",
+  "sourceDigest": "6935aa771b2700f92c9e33c909554cad50a11c72667850b850ac4ca8d01d2b99",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "独立请求模型复核，非逐句人工审核：准确区分了临时决定与既定计划对应的表达，迁移具体有用。",
+  "accuracyReview": {
+    "version": "nce2-expression-accuracy-1.0.0",
+    "model": "doubao-seed-2-1-turbo-260628",
+    "note": "准确区分了will表即时决定与进行时表既定安排的差异，迁移清晰。",
+    "method": "separate-model-request-not-human-verification"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "chinese": "他们当时正在大声交谈。",
+  "intent": "描述过去某一时刻一群人正在进行的动作状态。",
+  "comparison": null,
+  "backbone": {
+    "text": "They were talking loudly.",
+    "meaning": "他们当时正在大声交谈。"
+  },
+  "structureNotes": [
+    {
+      "title": "过去进行时的表达",
+      "text": "“were talking”是过去进行时结构，由be动词过去式were加动词现在分词talking构成，用来表示过去某个时间段内正在发生的动作。"
+    },
+    {
+      "title": "副词的位置",
+      "text": "副词loudly放在动词短语talking的后面，用来修饰说话的方式，说明交谈的声音很大。"
+    }
+  ],
+  "structures": [
+    {
+      "text": "They",
+      "role": "主语",
+      "explanation": "指代前文提到的人，是“交谈”这个动作的发出者。"
+    },
+    {
+      "text": "were talking",
+      "role": "谓语",
+      "explanation": "过去进行时的谓语结构，表示过去正在进行的交谈动作。"
+    },
+    {
+      "text": "loudly.",
+      "role": "方式状语",
+      "explanation": "修饰谓语动词talking，说明交谈时声音大的方式。"
+    }
+  ],
+  "words": [
+    {
+      "text": "They",
+      "meaning": "他们；她们；它们",
+      "pos": "代词",
+      "phonetic": "/ðeɪ/"
+    },
+    {
+      "text": "were",
+      "meaning": "be动词are的过去式，用于复数主语",
+      "pos": "动词",
+      "phonetic": "/wɜː/"
+    },
+    {
+      "text": "talking",
+      "meaning": "交谈；说话（talk的现在分词形式）",
+      "pos": "动词",
+      "phonetic": "/ˈtɔːkɪŋ/"
+    },
+    {
+      "text": "loudly.",
+      "meaning": "大声地；响亮地",
+      "pos": "副词",
+      "phonetic": "/ˈlaʊdli/"
+    }
+  ],
+  "parts": [
+    {
+      "text": "They",
+      "relation": "动作的发出者",
+      "meaning": "他们"
+    },
+    {
+      "text": "were talking",
+      "relation": "主语发出的动作",
+      "meaning": "正在交谈"
+    },
+    {
+      "text": "loudly.",
+      "relation": "描述动作的方式",
+      "meaning": "大声地"
+    }
+  ],
+  "courseId": "nce2",
+  "lessonId": "nce-2-lesson-001",
+  "sentenceId": "nce-2-lesson-001-sentence-006",
+  "sentenceOrder": 6,
+  "english": "They were talking loudly.",
+  "lesson": "Lesson 1 A private conversation",
+  "notes": [
+    {
+      "title": "过去进行时的表达",
+      "text": "“were talking”是过去进行时结构，由be动词过去式were加动词现在分词talking构成，用来表示过去某个时间段内正在发生的动作。"
+    },
+    {
+      "title": "副词的位置",
+      "text": "副词loudly放在动词短语talking的后面，用来修饰说话的方式，说明交谈的声音很大。"
+    }
+  ],
+  "analysisSource": "ai",
+  "analysisStatus": "approved",
+  "ruleVersion": "understanding-zh-adult-1.1.0",
+  "reviewNote": "模型独立复核后通过：整体内容准确，仅存在两处细节需修正：1. 主干释义未体现过去时态，与原文过去进行时的语义不符；2. 单词were的英式音标标注不规范，缺少数的正确英式写法。其余字段均符合要求。（非逐句人工审核）"
+}
