@@ -41,6 +41,24 @@ await page.evaluate(async () => {
 });
 await page.reload({ waitUntil: "load" });
 
+async function assertCardContentAlignment() {
+  const cards = await page.locator('.home-course-card').evaluateAll(nodes => nodes.map(card => {
+    const rect = card.getBoundingClientRect();
+    return { top: rect.top, height: rect.height, rows: ['.home-course-title', '.home-course-summary', '.home-course-meta', '.home-course-status', '.home-course-cta'].map(selector => {
+      const row = card.querySelector(selector).getBoundingClientRect();
+      return { top: row.top - rect.top, bottom: row.bottom - rect.top };
+    }) };
+  }));
+  for (const card of cards) {
+    const peer = cards[0];
+    for (const [index, row] of card.rows.entries()) {
+      assert.ok(Math.abs(row.top - peer.rows[index].top) < 1, `Course card row ${index} is misaligned`);
+      assert.ok(row.bottom <= card.height + 1, `Course card row ${index} is clipped`);
+    }
+  }
+}
+await assertCardContentAlignment();
+
 const desktop = await page.evaluate(() => {
   const cards = Array.from(document.querySelectorAll(".home-course-card"));
   const clickableCards = Array.from(document.querySelectorAll("button.home-course-card"));
@@ -86,6 +104,7 @@ await page.screenshot({
 });
 
 await page.setViewportSize({ width: 1647, height: 794 });
+await assertCardContentAlignment();
 const compactDesktop = await page.evaluate(() => {
   const cards = Array.from(document.querySelectorAll(".home-course-card"));
   const rects = cards.map((card) => {
@@ -111,6 +130,10 @@ await page.screenshot({
   fullPage: true
 });
 
+await page.setViewportSize({ width: 1280, height: 932 });
+await assertCardContentAlignment();
+await page.screenshot({ path: path.join(reportDir, 'home-card-alignment-tablet.png'), fullPage: true });
+
 await page.setViewportSize({ width: 2048, height: 1152 });
 await page.click("#themeToggleBtn");
 assert.equal(await page.evaluate(() => document.body.dataset.theme), "dark");
@@ -132,6 +155,7 @@ await page.click("#homeBtn");
 await page.setViewportSize({ width: 390, height: 844 });
 await page.evaluate(() => localStorage.setItem("nce_theme", "light"));
 await page.reload({ waitUntil: "load" });
+await assertCardContentAlignment();
 const mobile = await page.evaluate(() => {
   const cards = Array.from(document.querySelectorAll(".home-course-card"));
   const rects = cards.map((card) => {
