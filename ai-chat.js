@@ -1,5 +1,5 @@
 (() => {
-  const tutorContext = () => window.getReadOnlyAnalysisContext?.() || state;
+  const tutorContext = () => window.getVocabularyTutorContext?.() || window.getReadOnlyAnalysisContext?.() || state;
   const entry = document.createElement('button');
   entry.className = 'ask-ai-entry'; entry.textContent = '问 AI'; entry.type = 'button';
   entry.title = '打开 AI 学习助教；长按可拖动'; entry.setAttribute('aria-haspopup', 'dialog');
@@ -97,9 +97,14 @@
     suggestions.replaceChildren();
     suggestions.hidden = messages.childElementCount > 0;
     const title = document.createElement('h3'); title.textContent = '你是否想问'; suggestions.append(title);
-    const questions = ['帮我分析这句话', '这句话有哪些常用表达？', '先给我一点提示，不要直接给答案', '用相似句型再举两个例子'];
-    if (state.current.sentence.english.includes('?')) questions[1] = '这句话的疑问句语序为什么这样安排？';
-    else if (/\b(can|could|must|should|may)\b/i.test(state.current.sentence.english)) questions[1] = '这里的情态动词表达了什么含义？';
+    const word = state.vocabulary;
+    const revealed = state.current.correct || state.current.viewedAnswer;
+    const questions = word ? revealed
+      ? [`${word.text} 在原课文里是什么意思？`, `怎样记住 ${word.text} 的拼写？`, `请用 ${word.text} 举两个常见用法的例子`, `这个词作为 ${word.pos} 时怎么用？`]
+      : ['根据这个词的中文意思给我一点提示，不要透露完整拼写', '给我一个不含答案的词义辨析提示', '这个词有什么使用场景？先不要显示英文答案']
+      : ['帮我分析这句话', '这句话有哪些常用表达？', '先给我一点提示，不要直接给答案', '用相似句型再举两个例子'];
+    if (!word && state.current.sentence.english.includes('?')) questions[1] = '这句话的疑问句语序为什么这样安排？';
+    else if (!word && /\b(can|could|must|should|may)\b/i.test(state.current.sentence.english)) questions[1] = '这里的情态动词表达了什么含义？';
     if (state.current.wrongIndexes?.length) questions.splice(1, 0, '我填写的单词哪里错了？为什么？');
     for (const question of questions) {
       const button = document.createElement('button'); button.type = 'button'; button.textContent = question;
@@ -109,7 +114,7 @@
   }
   const currentIdentity = () => {
     const state = tutorContext();
-    return `${document.body.classList.contains('analysis-active') ? 'analysis' : 'practice'}:${state.selectedCourseId}:${state.selectedLesson.id}:${state.currentIndex}:${state.current?.sentence?.english}`;
+    return `${state.kind || (document.body.classList.contains('analysis-active') ? 'analysis' : 'practice')}:${state.selectedCourseId}:${state.selectedLesson.id}:${state.currentIndex}:${state.current?.sentence?.english}`;
   };
   newChat.onclick = () => {
     if (controller) return;
@@ -150,13 +155,14 @@
   entry.addEventListener('click', event => {
     const state = tutorContext();
     if (event.detail && suppressPointerClick) { suppressPointerClick = false; return; }
+    if (document.body.classList.contains('vocab-practice-active') && !state.vocabulary) return;
     if (!state.current) return;
     if (identity !== currentIdentity()) { clearEditing(); history = []; messages.replaceChildren(); input.value = ''; identity = currentIdentity(); }
     const context = dialog.querySelector('.tutor-context');
     context.replaceChildren();
     for (const [className, text] of [
-      ['tutor-context-meta', `${state.selectedLesson.title} · 第 ${state.currentIndex + 1} 句`],
-      ['tutor-context-english', state.current.sentence.english],
+      ['tutor-context-meta', `${state.selectedLesson.title} · 第 ${state.currentIndex + 1} ${state.vocabulary ? '个单词' : '句'}`],
+      ['tutor-context-english', state.vocabulary && !state.current.correct && !state.current.viewedAnswer ? '单词默写 · 提示模式' : state.current.sentence.english],
       ['tutor-context-chinese', state.current.sentence.chinese]
     ]) {
       const line = document.createElement('span');
@@ -174,7 +180,8 @@
   dialog.querySelector('.tutor-header button').onclick = () => dialog.close();
   dialog.addEventListener('close', () => { controller?.abort(); });
   for (const event of ['keydown', 'keyup']) dialog.addEventListener(event, e => e.stopPropagation());
-  new MutationObserver(() => { if (dialog.open && ((!document.body.classList.contains('practice-active') && !document.body.classList.contains('analysis-active')) || identity !== currentIdentity())) dialog.close(); }).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+  window.addEventListener('vocabulary-context-change', () => { if (dialog.open) dialog.close(); });
+  new MutationObserver(() => { if (dialog.open && ((!document.body.classList.contains('practice-active') && !document.body.classList.contains('analysis-active') && !document.body.classList.contains('vocab-practice-active')) || identity !== currentIdentity())) dialog.close(); }).observe(document.body, { attributes: true, attributeFilter: ['class'] });
   dialog.querySelector('form').addEventListener('submit', async event => {
     const state = tutorContext();
     event.preventDefault();
@@ -195,6 +202,8 @@
       draft: document.body.classList.contains('analysis-active') ? '' : Array.from(document.querySelectorAll('#wordSlots input')).map(node => node.value).join(' '),
       errors: JSON.stringify(state.current.wrongIndexes || []), answerVisible: state.current.correct || state.current.viewedAnswer,
       analysis: JSON.stringify(sentence.analysis || sentenceAnalysisCatalog[normalizeForAccepted(sentence.english)] || (window.NCE1_SENTENCE_ANALYSIS || {})[normalizeForAccepted(sentence.english)] || {}).slice(0, 4000) };
+    if (state.vocabulary) Object.assign(context, { kind: 'vocabulary', draft: state.vocabulary.value,
+      wordPos: state.vocabulary.pos, sourceSentence: state.vocabulary.english, analysis: '', wordStatus: state.vocabulary.status });
     controller = new AbortController(); send.disabled = true; newChat.disabled = true; status.textContent = '';
     suggestions.hidden = true;
     messages.querySelectorAll('.tutor-followups').forEach(node => node.remove());

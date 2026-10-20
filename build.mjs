@@ -8,6 +8,7 @@ await mkdir("dist", { recursive: true });
 await copyFile("index.html", "dist/index.html");
 await copyFile("sentence-splits.js", "dist/sentence-splits.js");
 await copyFile("ai-chat.js", "dist/ai-chat.js");
+await copyFile("assets/vocabulary.js", "dist/assets/vocabulary.js");
 await copyFile("stream-events.js", "dist/stream-events.js");
 await copyFile("tutor-markdown.js", "dist/tutor-markdown.js");
 for (const file of ["understanding-content.js", "understanding-view.js", "understanding-view.css"]) await copyFile(file, `dist/${file}`);

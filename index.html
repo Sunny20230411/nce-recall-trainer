@@ -7255,6 +7255,7 @@ window.NCE_ZH_OVERRIDES = [
         <span class="badge">${formatLastStudy(record.lastStudiedAt)}</span>
       `;
       renderHistoricalMistakes(lesson);
+      window.refreshVocabulary?.();
       $("englishText").innerHTML = lesson.sentences.map((item, index) => `<li><div class="preview-sentence"><span>${escapeHtml(item.english)}</span><div class="preview-sentence-actions"><button class="preview-play" type="button" data-sentence="${index}" title="播放第 ${index + 1} 句" aria-label="播放第 ${index + 1} 句" aria-pressed="false">播放</button><button class="preview-play" type="button" data-analysis="${index}" aria-label="解析第 ${index + 1} 句">解析</button></div></div></li>`).join("");
       $("englishText").querySelectorAll("[data-analysis]").forEach(button => {
         button.onclick = () => openSentenceAnalysis(Number(button.dataset.analysis));
@@ -7925,6 +7926,7 @@ window.NCE_ZH_OVERRIDES = [
       renderWordSlots();
       updateControls();
       state.isChecking = false;
+      window.offerVocabularyMistakes?.();
       ensureSentenceFocus();
     }
 
@@ -9086,6 +9088,7 @@ window.NCE_ZH_OVERRIDES = [
     $("themeToggleBtn").addEventListener("click", toggleTheme);
     $("homeBtn").addEventListener("click", () => {
       const activeView = document.querySelector(".view.active")?.id;
+      if (window.handleVocabularyBack?.(activeView)) return;
       if (activeView === "analysisView") {
         ++analysisRequest;
         stopSentenceAudio();
@@ -9234,6 +9237,7 @@ window.NCE_ZH_OVERRIDES = [
     refreshHomeStats();
     updateImportNote();
   </script>
+  <script src="assets/vocabulary.js"></script>
   <script src="ai-chat.js"></script>
 </body>
 </html>

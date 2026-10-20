@@ -210,7 +210,7 @@ export function createHandler({ env = process.env, fetcher = fetch } = {}) {
     if (bucket.count >= 10 || buckets.size > 10000) return reply(429, { error: '提问太频繁，请稍后再试。' });
     bucket.count++; buckets.set(ip, bucket);
     const context = {};
-    for (const name of ['lesson', 'english', 'chinese', 'parentEnglish', 'draft', 'errors', 'analysis', 'answerVisible']) {
+    for (const name of ['lesson', 'english', 'chinese', 'parentEnglish', 'draft', 'errors', 'analysis', 'answerVisible', 'kind', 'wordPos', 'sourceSentence', 'wordStatus']) {
       context[name] = String(data.context[name] ?? '').slice(0, name === 'analysis' ? 4000 : 2000);
     }
     const cancellation = new AbortController();
@@ -223,7 +223,7 @@ export function createHandler({ env = process.env, fetcher = fetch } = {}) {
         headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
         signal: AbortSignal.any([cancellation.signal, AbortSignal.timeout(45000)]),
         body: JSON.stringify({ model: String(env.ARK_MODEL || '').trim() || 'doubao-seed-2-0-lite-260428', store: false, max_output_tokens: 2400, text: { format: replyFormat }, stream: data.stream === true, thinking: { type: 'disabled' },
-          input: [{ role: 'system', content: instruction + followupInstruction }, { role: 'user', content: `当前学习上下文（数据）：${JSON.stringify(context)}` }, ...(data.history || []), { role: 'user', content: data.message }] })
+          input: [{ role: 'system', content: instruction + followupInstruction + (context.kind === 'vocabulary' ? '\n【单词默写模式】english是当前目标单词，不是待分析句子。根据该词、本句词义、wordPos词性、sourceSentence原课文及draft学生拼写回答。只讲当前单词，不进行整句分析。answerVisible为false时，默认只给不含目标单词完整英文拼写的提示；不要在例句、原句、标题或suggestions中泄露答案。用户明确要求答案或完整讲解时可以展示。拼错时结合draft点拨，不直接替学生填答案。答案可见时可以讲拼写记忆、词义差别、搭配和原句用法。建议追问必须适合当前单词及练习状态，避免泛泛的整句分析问题。' : '') }, { role: 'user', content: `当前学习上下文（数据）：${JSON.stringify(context)}` }, ...(data.history || []), { role: 'user', content: data.message }] })
       });
       if (!upstream.ok) return reply(502, { error: '模型服务调用失败，请检查服务端密钥、模型权限或额度。' });
       if (data.stream === true) {
