@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，两个子句功能独立；提点分别点明礼貌拒绝的表达习惯与never表长期习惯的交际作用，教学点清晰；parts拼回与原文一致，notes、structures归属正确无错漏。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-109-sentence-015",
+      "parentEnglish": "No, thanks. I never smoke.",
+      "children": [
+        {
+          "english": "No, thanks.",
+          "chinese": "不用，谢谢。",
+          "tip": "拒绝别人好意时先讲 No 再补 thanks，既明确态度又不失礼貌，是英语里很常用的回应方式。",
+          "intent": "礼貌拒绝对方递烟的提议。",
+          "parts": [
+            [
+              "No,",
+              "明确表示拒绝",
+              "不用，"
+            ],
+            [
+              "thanks.",
+              "对对方的好意表示感谢",
+              "谢谢。"
+            ]
+          ],
+          "notes": [
+            [
+              "拒绝用语",
+              "No, thanks. 是礼貌拒绝时的常用说法，No 表示拒绝，thanks 表示对对方好意的感谢。"
+            ]
+          ],
+          "structures": [
+            [
+              "No,",
+              "简短拒绝",
+              "直接回应对方递烟的提议，表示不要。"
+            ],
+            [
+              "thanks.",
+              "礼貌致谢",
+              "在拒绝的同时表达对对方好意的感谢。"
+            ]
+          ]
+        },
+        {
+          "english": "I never smoke.",
+          "chinese": "我从不抽烟。",
+          "tip": "never 说的是长期习惯里完全不做这件事，不是当下不想。拒绝提议时补一句习惯，能让拒绝显得更自然，不是不给对方面子。",
+          "intent": "说明自己从不吸烟的习惯，作为拒绝递烟的理由。",
+          "parts": [
+            [
+              "I",
+              "说明行为习惯的主体",
+              "我"
+            ],
+            [
+              "never",
+              "说明抽烟行为的发生频率为零",
+              "从不"
+            ],
+            [
+              "smoke.",
+              "说明主体的行为习惯",
+              "抽烟。"
+            ]
+          ],
+          "notes": [
+            [
+              "频度副词位置",
+              "never 放在主语 I 和实义动词 smoke 之间，表示动作完全不发生。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主语",
+              "指说话人自己，说明抽烟相关行为的主体。"
+            ],
+            [
+              "never",
+              "频度副词",
+              "修饰动词 smoke，说明抽烟这个动作从来不会发生。"
+            ],
+            [
+              "smoke.",
+              "谓语动词",
+              "实义动词，表示抽烟的行为，描述主语的日常习惯。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

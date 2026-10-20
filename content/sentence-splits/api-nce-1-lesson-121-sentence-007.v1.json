@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，子句内容与边界一致；提点区分了穿戴状态与动作的表达选择，信息关系和句法角色描述准确，无错误概括。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-121-sentence-007",
+      "parentEnglish": "I can't remember. The man who I served was wearing a hat.",
+      "children": [
+        {
+          "english": "I can't remember.",
+          "chinese": "我记不起来了。",
+          "tip": "先直接给出“记不清”的结论，回应前面的确认询问。简短表态后再补充线索，是口语里回答不确定问题的自然顺序。",
+          "intent": "表明自己记不清相关情况。",
+          "parts": [
+            [
+              "I can't remember.",
+              "说明自身的记忆状态",
+              "我记不起来了。"
+            ]
+          ],
+          "notes": [
+            [
+              "can't的表意",
+              "can't 在这里表示“做不到、没法”，不是指能力缺失，而是指当下没法回忆起来。"
+            ]
+          ],
+          "structures": [
+            [
+              "I can't remember.",
+              "主谓结构的否定陈述句",
+              "表达否定的记忆状态，can't是情态动词can的否定形式，后接动词原形remember，整体表示“我记不起来”。"
+            ]
+          ]
+        },
+        {
+          "english": "The man who I served was wearing a hat.",
+          "chinese": "我接待的那个男人戴着一顶帽子。",
+          "tip": "was wearing 呈现接待当时的穿戴状态，不是“戴帽子”这个瞬间动作。说当时人是什么样的外观，用 wear 的进行时；要说把帽子戴上的动作，才用 put on。",
+          "intent": "回忆并描述当时接待的那位男士的穿戴特征，作为辨认的线索。",
+          "parts": [
+            [
+              "The man",
+              "整个句子的核心描述对象",
+              "那位男士"
+            ],
+            [
+              "who I served",
+              "修饰前面的man，说明该男士的身份",
+              "我接待的"
+            ],
+            [
+              "was wearing",
+              "描述男士当时的穿戴状态",
+              "当时戴着"
+            ],
+            [
+              "a hat.",
+              "说明穿戴的具体物品，是wear的对象",
+              "一顶帽子。"
+            ]
+          ],
+          "notes": [
+            [
+              "关系代词作从句宾语",
+              "who在定语从句中是served的宾语，指代先行词the man，从句里保留主语I和谓语served的自然语序，意思是“我接待了那位男士”；书面正式文体中可使用宾格whom替代who。"
+            ],
+            [
+              "过去进行时表过去状态",
+              "was wearing a hat表示过去某一时间点（接待男士时）正持续存在的穿戴状态，对应回忆当时的外形特征，并非指“戴帽子”的瞬时动作。"
+            ]
+          ],
+          "structures": [
+            [
+              "The man",
+              "主句的主语",
+              "是整个句子描述的核心对象，指对话中正在讨论的、被卡罗琳接待过的男士。"
+            ],
+            [
+              "who I served",
+              "修饰主语的限制性定语从句",
+              "限定说明这个man的身份：是被“我（卡罗琳）”接待过的那位，而非其他男士；关系代词who在从句中充当served的宾语。"
+            ],
+            [
+              "was wearing",
+              "主句的谓语",
+              "是过去进行时结构，表示过去当时正处于“穿戴”的状态，和后面的宾语a hat搭配。"
+            ],
+            [
+              "a hat",
+              "主句的宾语",
+              "说明当时男士穿戴的具体物品是一顶帽子。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

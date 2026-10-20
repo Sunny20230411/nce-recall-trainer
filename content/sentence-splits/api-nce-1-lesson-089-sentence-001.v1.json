@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，子句中文对应正确；提点分别落在问候习惯与委婉确认意图，教学价值明确；parts 拼回与原文一致，notes、structures 分配合理，无夸大表达差异或无依据比较。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-089-sentence-001",
+      "parentEnglish": "Good afternoon. I believe that this house is for sale.",
+      "children": [
+        {
+          "english": "Good afternoon.",
+          "chinese": "下午好。",
+          "tip": "见面先补一句时段问候，是英语开启陌生对话的自然习惯，既能拉近距离也显得得体。",
+          "intent": "用午后礼貌问候开启与房主的对话，作为上门沟通的开场。",
+          "parts": [
+            [
+              "Good afternoon.",
+              "开场的礼貌问候，开启和房主的对话",
+              "下午好。"
+            ]
+          ],
+          "notes": [
+            [
+              "Good afternoon. 的使用场景",
+              "Good afternoon. 是午后时段的通用礼貌问候语，不分正式或非正式场合，类似中文见面先说“下午好”的打招呼习惯。"
+            ]
+          ],
+          "structures": [
+            [
+              "Good afternoon.",
+              "问候语",
+              "独立使用的日间礼貌问候，用于午后见面打招呼，不承担主句的表意功能。"
+            ]
+          ]
+        },
+        {
+          "english": "I believe that this house is for sale.",
+          "chinese": "我想这所房子是要出售的。",
+          "tip": "用 I believe 引出自己得到的售房信息，语气留有余地，方便对方确认。for sale 表示待售；on sale 也可指在售，在促销语境里才常指减价，别一律当成打折。",
+          "intent": "以委婉的主观判断说出来访事由，向房主确认房子是否待售。",
+          "parts": [
+            [
+              "I believe",
+              "主句核心框架，交代说话人的主观判断态度",
+              "我认为"
+            ],
+            [
+              "that this house is for sale.",
+              "补充说明“我认为”的具体内容，是说话人确认来意的核心信息",
+              "这所房子是要出售的。"
+            ]
+          ],
+          "notes": [
+            [
+              "that 引导的宾语从句",
+              "that 仅起连接主从句的语法作用，不充当从句的句子成分，也没有独立词义，口语中常常可以省略，后面紧跟完整的陈述句，说明 believe 的具体内容。"
+            ],
+            [
+              "for sale 的固定搭配",
+              "for sale 是固定介词短语，专门表示物品或房产处于“待售、供人购买”的状态，不要和 on sale（打折促销）混淆。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主句主语",
+              "指代说话人本人，也就是上门的访客。"
+            ],
+            [
+              "believe",
+              "主句谓语",
+              "表达“认为、猜想”的主观态度，后面接说出的具体想法内容。"
+            ],
+            [
+              "that this house is for sale",
+              "宾语从句",
+              "作 believe 的宾语，完整说明说话人猜想的内容，本身是“这房子待售”的主系表判断结构，that 是无实义的连接词。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

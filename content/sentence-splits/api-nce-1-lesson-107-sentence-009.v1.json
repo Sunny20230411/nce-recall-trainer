@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "已修正原有全部占位错误内容，子句拆分边界准确；提点、信息关系、结构与笔记均贴合句意与教学标准，比较级和 one 指代的解释准确，迁移思路清晰实用。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-107-sentence-009",
+      "parentEnglish": "I'm afraid this green dress is too small for me as well. It's smaller than the blue one.",
+      "children": [
+        {
+          "english": "I'm afraid this green dress is too small for me as well.",
+          "chinese": "恐怕这件绿色的连衣裙我穿也太小了。",
+          "tip": "I'm afraid 用来缓和不理想的反馈，比直接说 it's too small 更客气。as well 承接前文“蓝裙太小”的信息，说明绿裙也有同样的问题。",
+          "intent": "委婉指出这件绿色连衣裙同样尺寸不合适，回应店员拿新裙子的建议。",
+          "parts": [
+            [
+              "I'm afraid",
+              "引出不理想消息的委婉开头，缓和语气",
+              "恐怕"
+            ],
+            [
+              "this green dress",
+              "说明谈论的具体对象是这件绿色连衣裙",
+              "这件绿色的连衣裙"
+            ],
+            [
+              "is too small",
+              "句子的核心内容，指出尺寸不合适",
+              "太小了"
+            ],
+            [
+              "for me",
+              "补充说明尺寸不合适针对的是说话人自己",
+              "对我来说"
+            ],
+            [
+              "as well.",
+              "承接前文，表明这个问题与之前的裙子相同",
+              "也"
+            ]
+          ],
+          "notes": [
+            [
+              "I'm afraid 的委婉用法",
+              "I'm afraid 常用来引出不好的消息或拒绝、不满，语气比直接陈述更礼貌客气。"
+            ],
+            [
+              "as well 表示“也”",
+              "as well 多用于句末，补充说明同样的情况也适用于当前对象，这里指绿裙和之前的裙子一样太小。"
+            ]
+          ],
+          "structures": [
+            [
+              "I'm afraid",
+              "主句的主系表结构",
+              "主语 I + 系动词 am + 表语 afraid，整体用于引出后续的宾语从句，起缓和语气的作用。"
+            ],
+            [
+              "this green dress is too small for me as well",
+              "宾语从句",
+              "主语 this green dress + 系动词 is + 表语 too small，for me 作范围状语，as well 作状语表“也”。"
+            ]
+          ]
+        },
+        {
+          "english": "It's smaller than the blue one.",
+          "chinese": "它比那件蓝色的还要小。",
+          "tip": "说两件同类物品的尺寸差异时，把比较对象放在 than 后面，用 one 代替前面提过的 dress 避免重复。想表达“A比B更…“就可以用 A is + 比较级 + than B 的结构。",
+          "intent": "通过和之前蓝色连衣裙的比较，具体说明绿裙尺寸更小的情况。",
+          "parts": [
+            [
+              "It's smaller",
+              "句子的核心内容，说明当前裙子尺寸更小",
+              "它更小"
+            ],
+            [
+              "than",
+              "引出比较的对象",
+              "比"
+            ],
+            [
+              "the blue one.",
+              "比较的另一方，指代蓝色的那件连衣裙",
+              "那件蓝色的（连衣裙）"
+            ]
+          ],
+          "notes": [
+            [
+              "形容词比较级的结构",
+              "smaller 是 small 的比较级，用于两者之间的比较；“A + be + 比较级 + than + B”表示“A比B更…”。"
+            ],
+            [
+              "one 替代可数名词",
+              "句中的 one 替代前面出现过的 dress，避免重复；指代单数可数名词时用 one。"
+            ]
+          ],
+          "structures": [
+            [
+              "It's smaller than the blue one",
+              "主系表结构的比较句",
+              "主语 It + 系动词 is + 表语 smaller，than the blue one 作比较状语，其中 one 指代前文的 dress。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

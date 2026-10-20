@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "已修正第二子句tip和对应时态笔记，去掉“保留现在时更自然”的绝对表述，说明两种时态选择均成立，符合要求。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-073-sentence-001",
+      "parentEnglish": "Last week Mrs. Mills went to London. She does not know London very well, and she lost her way.",
+      "children": [
+        {
+          "english": "Last week Mrs. Mills went to London.",
+          "chinese": "上星期米尔斯太太去了伦敦。",
+          "tip": "叙事开端先把时间 Last week 放句首，直接划定整个故事的过去时间范围，再交代人物和去向。以后讲一件过去发生的事，也可以先用时间状语锚定背景，再进入具体动作。",
+          "intent": "交代故事发生的时间背景和核心起始事件，引出后续情节。",
+          "parts": [
+            [
+              "Last week",
+              "时间背景，交代事件发生的时间",
+              "上星期"
+            ],
+            [
+              "Mrs. Mills",
+              "动作发出者，故事主角",
+              "米尔斯太太"
+            ],
+            [
+              "went to London.",
+              "描述主角上周完成的核心动作",
+              "去了伦敦。"
+            ]
+          ],
+          "notes": [
+            [
+              "last week的位置作用",
+              "Last week放在句首，直接点明整个事件发生的时间范围，同时提示谓语动词went属于这个过去时间内的行为。"
+            ],
+            [
+              "一般过去时的叙事功能",
+              "went为一般过去时，说明“去伦敦”是上周发生的、已经结束的单次动作，是故事的起始事件。"
+            ]
+          ],
+          "structures": [
+            [
+              "Last week",
+              "时间状语",
+              "点明叙事发生的时间为上星期，放在句首明确事件的时间背景。"
+            ],
+            [
+              "Mrs. Mills",
+              "主语",
+              "句子的动作发出者，即米尔斯太太。"
+            ],
+            [
+              "went to London.",
+              "谓语+状语",
+              "表达“前往伦敦”的已完成动作，是句子的核心内容。"
+            ]
+          ]
+        },
+        {
+          "english": "She does not know London very well, and she lost her way.",
+          "chinese": "她不太熟悉伦敦，迷了路。",
+          "tip": "这里不用把所有动词都改成过去式：does not know 站在叙述当下交代她对伦敦不熟的事实作为背景，lost her way 讲那次具体的迷路事件。换成 did not know 也能把背景放在过去，两种时态选择都自然，不必机械追求时态完全统一。",
+          "intent": "补充主角不熟悉伦敦的背景，并交代她在伦敦迷路的具体遭遇，形成因果承接。",
+          "parts": [
+            [
+              "She does not know London very well,",
+              "前一分句，说明主角对伦敦的熟悉程度，作为原因背景",
+              "她不太熟悉伦敦，"
+            ],
+            [
+              "and",
+              "连接前后分句，体现因果承接关系",
+              "于是，并且"
+            ],
+            [
+              "she lost her way.",
+              "后一分句，承接前文的结果，说明发生的事件",
+              "她迷了路。"
+            ]
+          ],
+          "notes": [
+            [
+              "动词时态的表意分工",
+              "lost为一般过去时，说明“迷路”是上次去伦敦时发生的已结束动作；does not know用一般现在时，是站在叙述当下说明米尔斯太太不熟悉伦敦的事实，作为她迷路的原因背景。也可改用过去时did not know，将背景统一放在过去视角。"
+            ],
+            [
+              "并列连词and的逻辑作用",
+              "and在这里不是简单罗列两个事实，而是承接前后分句的因果关系：正因为她不太熟悉伦敦，才发生了迷路的结果。"
+            ]
+          ],
+          "structures": [
+            [
+              "She",
+              "分句主语",
+              "指代米尔斯太太，是两个并列分句的共同主语。"
+            ],
+            [
+              "does not know London very well,",
+              "并列分句1",
+              "说明她对伦敦的熟悉程度不高，是后一个“迷路”结果的原因。"
+            ],
+            [
+              "and",
+              "并列连词",
+              "连接两个语义关联的分句，体现前后内容的因果承接关系。"
+            ],
+            [
+              "she lost her way.",
+              "并列分句2",
+              "说明最终发生的结果——她迷了路。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

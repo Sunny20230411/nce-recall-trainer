@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "已核对拆分边界、信息关系与提点准确性，have a bath 的词义点拨符合教学要求，无过度概括。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-081-sentence-003",
+      "parentEnglish": "He's upstairs. He's having a bath.",
+      "children": [
+        {
+          "english": "He's upstairs.",
+          "chinese": "他在楼上。",
+          "tip": "回答“人在哪里”时，直接用 upstairs 这类地点副词给出位置，简洁清楚，不需要加介词。",
+          "intent": "回答关于 Tom 位置的提问，给出他所在的楼层位置。",
+          "parts": [
+            [
+              "He's upstairs.",
+              "回答关于汤姆位置的提问",
+              "他在楼上。"
+            ]
+          ],
+          "notes": [
+            [
+              "地点副词直接作表语",
+              "upstairs 是表示位置的副词，放在 He's 后面直接说明人所在的位置，不需要额外的介词来引导地点。"
+            ]
+          ],
+          "structures": [
+            [
+              "He's upstairs.",
+              "陈述句",
+              "回答前文 Where's Tom? 的问题，直接给出 Tom 所在的位置。"
+            ]
+          ]
+        },
+        {
+          "english": "He's having a bath.",
+          "chinese": "他正在洗澡。",
+          "tip": "have a bath 整体表示洗澡这项活动，这里的 have 不是“拥有”浴缸，而是指进行一项日常动作。",
+          "intent": "补充说明 Tom 此刻正在做的事，解释他在楼上的原因。",
+          "parts": [
+            [
+              "He's having a bath.",
+              "补充说明他此刻正在做的动作",
+              "他正在洗澡。"
+            ]
+          ],
+          "notes": [
+            [
+              "现在进行时描述当下动作",
+              "用 He's having a bath 表示说话当下他正在洗澡，am/is/are + 动词-ing 是现在进行时的标准形式。"
+            ]
+          ],
+          "structures": [
+            [
+              "He's having a bath.",
+              "陈述句",
+              "用现在进行时补充说明 Tom 当下正在进行的动作。"
+            ],
+            [
+              "having a bath",
+              "谓语核心",
+              "由现在分词 having 和宾语 a bath 构成，搭配后表示“洗澡”这一日常动作。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

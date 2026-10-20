@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，tip突出对话衔接的表达思路，无错误比较，各字段与对应英文单句匹配，表述准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-007-sentence-002",
+      "parentEnglish": "Nice to meet you. My name's Sophie.",
+      "children": [
+        {
+          "english": "Nice to meet you.",
+          "chinese": "很高兴见到你。",
+          "tip": "对方介绍完自己，先用 Nice to meet you 接住，是礼貌的社交回应。这句是 It's nice to meet you 的常用省略，初次见面直接说就自然。",
+          "intent": "回应对方的自我介绍，表达初次见面的友好与愉悦。",
+          "parts": [
+            [
+              "Nice to meet you.",
+              "向对方传递初次见面的愉悦感受",
+              "很高兴见到你"
+            ]
+          ],
+          "notes": [
+            [
+              "见面问候的省略结构",
+              "Nice to meet you是It is nice to meet you的常用口语省略形式，日常初次见面直接使用，不需要补全完整主语也能清晰传递意思。"
+            ]
+          ],
+          "structures": [
+            [
+              "Nice to meet you.",
+              "初次见面礼貌问候语",
+              "用于刚结识对方时传递见面的愉悦感，是通用的社交打招呼表达。"
+            ]
+          ]
+        },
+        {
+          "english": "My name's Sophie.",
+          "chinese": "我的名字叫索菲。",
+          "tip": "先回应对方的介绍，再报自己的名字，符合对话一来一往的节奏。这不是只顾说自己，而是先接话、再交换信息。",
+          "intent": "在友好回应之后告知对方自己的姓名，完成自我介绍的信息交换。",
+          "parts": [
+            [
+              "My name's",
+              "主语My name和系动词is的缩约形式，引出姓名信息",
+              "我的名字是"
+            ],
+            [
+              "Sophie.",
+              "作表语，说明姓名的具体内容",
+              "索菲"
+            ]
+          ],
+          "notes": [
+            [
+              "name's的缩写指代",
+              "name's是name is的口语缩略写法，自我介绍场景里很常用，不用额外补加内容就可以清晰表示“名字是”的含义。"
+            ]
+          ],
+          "structures": [
+            [
+              "My name's Sophie.",
+              "自我介绍说明句",
+              "直接告知对方自己的姓名，完成简单清晰的身份信息传递。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

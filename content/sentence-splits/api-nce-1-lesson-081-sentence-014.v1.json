@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "两句拆分准确，中文翻译贴合原意；提点分别讲了用餐表达习惯和信息顺承逻辑，没有夸大差异或错误规律，notes 与 structures 各司其职，符合教学标准。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-081-sentence-014",
+      "parentEnglish": "Sam and I had lunch together today. We went to a restaurant.",
+      "children": [
+        {
+          "english": "Sam and I had lunch together today.",
+          "chinese": "萨姆和我今天一起吃了午饭。",
+          "tip": "说“吃午饭”自然用 have lunch，不必硬翻成 eat lunch。先交代谁、做了什么、一起和时间，给对方一个完整的事件轮廓。",
+          "intent": "陈述今天和萨姆一起吃午饭这件事，引出相关经历。",
+          "parts": [
+            [
+              "Sam and I",
+              "并列主语，交代一同就餐的两个人",
+              "萨姆和我"
+            ],
+            [
+              "had lunch",
+              "谓语加宾语，说明主语完成的动作",
+              "吃了午饭"
+            ],
+            [
+              "together today.",
+              "修饰成分，说明动作的状态和发生时间",
+              "今天一起。"
+            ]
+          ],
+          "notes": [
+            [
+              "并列主语的表达",
+              "英语中并列主语通常把他人放在前面，说 Sam and I，对应中文“萨姆和我”，I 作主语用主格；承担责任等特殊语境也可将 I 前置。"
+            ],
+            [
+              "have lunch 的用法",
+              "表示“吃午饭”常用 have lunch，是自然的固定搭配，不必用 eat lunch。"
+            ]
+          ],
+          "structures": [
+            [
+              "Sam and I",
+              "并列主语",
+              "由 Sam 和 I 通过 and 连接，共同作为“吃午饭”的动作发出者。"
+            ],
+            [
+              "had lunch",
+              "谓语+宾语",
+              "had 是 have 的过去式，lunch 作宾语，合起来表示“吃午饭”。"
+            ],
+            [
+              "together today",
+              "状语",
+              "together 补充说明两人一同就餐，today 点明发生在当天。"
+            ]
+          ]
+        },
+        {
+          "english": "We went to a restaurant.",
+          "chinese": "我们去了一家餐馆。",
+          "tip": "前一句说了一起吃午饭，这句补地点，顺承下来很自然。用 We 指代前面的 Sam and I，不用重复人名，也把话题从“吃饭”落到“在哪儿吃”。",
+          "intent": "补充说明吃午饭的地点是餐馆，进一步交代就餐场景。",
+          "parts": [
+            [
+              "We",
+              "主语，指代前文的萨姆和我",
+              "我们"
+            ],
+            [
+              "went to a restaurant.",
+              "谓语加地点，补充说明吃午饭的具体地点",
+              "去了一家餐馆。"
+            ]
+          ],
+          "notes": [
+            [
+              "过去动作的关联",
+              "这句和前一句都用一般过去时，承接“吃午饭”这件事，补充说明就餐的地点。"
+            ]
+          ],
+          "structures": [
+            [
+              "We",
+              "主语",
+              "指代前一句的“萨姆和我”，避免重复。"
+            ],
+            [
+              "went to a restaurant",
+              "谓语+地点状语",
+              "went 是 go 的过去式，to a restaurant 说明去的地点是餐馆。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

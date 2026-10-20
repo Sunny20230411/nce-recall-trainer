@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界清晰，各子句的tip、intent、parts、notes、structures均准确对应，无重复或越界内容，符合教学标准。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-125-sentence-002",
+      "parentEnglish": "Not yet. I must water the garden first.",
+      "children": [
+        {
+          "english": "Not yet.",
+          "chinese": "还不行。",
+          "tip": "Not yet 是礼貌拒绝当前时机，不是拒绝整件事；对方听了就知道你只是暂时走不开，稍后还有可能。",
+          "intent": "回应对方进来喝茶的邀请，说明当下暂时无法赴约",
+          "parts": [
+            [
+              "Not yet.",
+              "回应前文的喝茶邀请，说明当下无法赴约",
+              "还不行（还没法过来）"
+            ]
+          ],
+          "notes": [
+            [
+              "省略回答Not yet",
+              "Not yet是日常对话中常见的简略表达，完整含义是“I cannot come in and have tea yet（我还没法进来喝茶）”，承接对方的邀请直接回应，省去重复前文已提到的动作内容，简洁自然。"
+            ]
+          ],
+          "structures": [
+            [
+              "Not yet.",
+              "简略答语",
+              "用于礼貌回应前文的邀请，表示“现在还没法过来”，省略了与前文重复的“I cannot come in and have tea”部分。"
+            ]
+          ]
+        },
+        {
+          "english": "I must water the garden first.",
+          "chinese": "我必须先给花园浇水。",
+          "tip": "first 放在句末不是修饰浇水这个动作，而是点明浇花园要排在喝茶前面，给对方留了“之后再来”的余地，语气比直接拒绝软很多。",
+          "intent": "说明眼下必须先完成的任务，解释暂时不能赴约的原因",
+          "parts": [
+            [
+              "I",
+              "说明后续动作的发出者",
+              "我"
+            ],
+            [
+              "must water",
+              "描述说话人需要完成的动作",
+              "必须浇水"
+            ],
+            [
+              "the garden",
+              "说明浇水的对象",
+              "花园"
+            ],
+            [
+              "first.",
+              "补充动作的先后顺序，说明要先浇完花园再去做别的事",
+              "先"
+            ]
+          ],
+          "notes": [
+            [
+              "first的表意功能",
+              "句末的first不是修饰具体动作的方式，而是明确“浇花园”这个动作发生在“进来喝茶”之前，是必须先完成的前置事务。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主语",
+              "指代正在说话的人，是浇花园这个动作的发出者。"
+            ],
+            [
+              "must water",
+              "谓语",
+              "情态动词must表示说话人认为有必要、必须做某事，后接动词原形water共同构成谓语核心。"
+            ],
+            [
+              "the garden",
+              "宾语",
+              "是动词water的作用对象，指需要浇水的花园。"
+            ],
+            [
+              "first.",
+              "状语",
+              "说明“浇花园”这个动作需要优先完成，排在喝茶之前。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

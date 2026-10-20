@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "子句拆分边界准确，各字段符合要求；tip聚焦交际意图与表达选择，无语法错误与不当规律总结，信息关系、结构角色对应正确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-073-sentence-003",
+      "parentEnglish": "'Excuse me,' she said. 'Can you tell me the way to King Street, please?'",
+      "children": [
+        {
+          "english": "'Excuse me,' she said.",
+          "chinese": "“对不起，”她说。",
+          "tip": "向陌生人求助先用 Excuse me 礼貌搭话，再讲具体请求，是英语里很自然的开场顺序。这里不是真的道歉，只是用来引起对方注意、避免唐突。",
+          "intent": "用礼貌搭话引起陌生路人的注意，为后续问路做铺垫。",
+          "parts": [
+            [
+              "'Excuse me,'",
+              "女士开口的礼貌打扰语，用于引起陌生男士的注意，为接下来问路做铺垫。",
+              "“对不起，”"
+            ],
+            [
+              "she said.",
+              "提示说明前面的礼貌语是女士所说的原话，表明说话人身份。",
+              "她说。"
+            ]
+          ],
+          "notes": [
+            [
+              "直接引语的提示语位置",
+              "she said 放在引语之后，用来提示前面的话是女士说出的原话；引语本身用单引号包裹，保持独立完整。"
+            ],
+            [
+              "Excuse me 的交际功能",
+              "Excuse me 在这里不是表达歉意，而是用来礼貌地引起陌生人注意，是向路人求助前的常用开场套语。"
+            ]
+          ],
+          "structures": [
+            [
+              "'Excuse me,'",
+              "直接引语（礼貌开场语）",
+              "是女士用来引起对方注意的礼貌套语，放在说话内容的最前面。"
+            ],
+            [
+              "she said.",
+              "直接引语提示分句",
+              "主语she指代迷路的女士，谓语said说明引语是她说出的内容。"
+            ]
+          ]
+        },
+        {
+          "english": "'Can you tell me the way to King Street, please?'",
+          "chinese": "“请问去国王街怎么走？”",
+          "tip": "问路时用 Can you tell me 提出请求，重点不是考认路能力，而是请对方提供信息。the way to 加目的地，把模糊的“怎么走”收束成一条具体路线，句末please再软化语气。",
+          "intent": "礼貌地向陌生路人询问前往国王街的具体路线。",
+          "parts": [
+            [
+              "'Can you tell me the",
+              "问路问句的开头，用 Can you tell me 礼貌提出请求，引出后续要询问的路线内容。",
+              "“你能不能告诉我"
+            ],
+            [
+              "way to King Street,",
+              "说明询问的核心是通往国王街的路线，明确问路的目的地指向。",
+              "去国王街的路，"
+            ],
+            [
+              "please?'",
+              "句末礼貌收尾的 please，弱化请求的生硬感，让问路语气更客气得体。",
+              "好吗？”"
+            ]
+          ],
+          "notes": [
+            [
+              "问路的固定句式",
+              "Can you tell me... 是请求他人提供信息的常用句式，tell后面接双宾语：间接宾语me指代听话的人，直接宾语the way to King Street是询问的核心内容。"
+            ],
+            [
+              "礼貌收尾please",
+              "please放在问句末尾，弱化请求的生硬感，让问路显得更客气，符合向陌生人求助的语境。"
+            ]
+          ],
+          "structures": [
+            [
+              "'Can you tell me the way to King Street, please?'",
+              "直接引语（问路核心问句）",
+              "是包含情态动词Can的一般疑问句形式，用来礼貌请求对方提供前往国王街的路线信息。"
+            ],
+            [
+              "Can you tell me",
+              "请求句式的主干部分",
+              "用情态动词can引导一般疑问句，礼貌地请求对方提供信息。"
+            ],
+            [
+              "the way to King Street",
+              "直接宾语",
+              "说明请求告知的具体内容是通往国王街的路线。"
+            ],
+            [
+              "please",
+              "礼貌标记语",
+              "放在句末使请求语气更委婉客气。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "已拆分两句并各自配齐教学数据；提点分别突出致电范围的表达逻辑和answer的多义判断，无机械重复；修正了parts/notes/structures的归属，确保每句拼回与原文一致，信息准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-071-sentence-003",
+      "parentEnglish": "He telephoned the office yesterday morning and yesterday afternoon. My boss answered the telephone.",
+      "children": [
+        {
+          "english": "He telephoned the office yesterday morning and yesterday afternoon.",
+          "chinese": "他昨天上午和昨天下午都给办公室打了电话。",
+          "tip": "顺着前文继续交代这名男子的致电范围，先点明拨打对象是办公室，再补两个过去时段。遇到“给某地打电话”直接用telephone+地点，不用多加call to。",
+          "intent": "承接前文，补充说明男子昨天还打到办公室的两个时段，进一步体现他频繁来电。",
+          "parts": [
+            [
+              "He telephoned",
+              "交代核心动作的发出者与动作",
+              "他打了电话"
+            ],
+            [
+              "the office",
+              "补充动作对象，说明拨打的是办公方",
+              "给办公室"
+            ],
+            [
+              "yesterday morning and yesterday afternoon.",
+              "补充动作发生的两个具体过去时间",
+              "在昨天上午和昨天下午"
+            ]
+          ],
+          "notes": [
+            [
+              "并列时间状语的表意",
+              "用连词and并列yesterday morning与yesterday afternoon两个时间状语，直接表明两次致电分别发生在昨天的上午和下午，不是其他日期，也不包含其他时段。"
+            ],
+            [
+              "简单过去时的使用",
+              "telephoned是规则动词的过去式，说明打电话是在说话之前已经完成的过去动作，没有延续到说话时的含义。"
+            ]
+          ],
+          "structures": [
+            [
+              "He",
+              "主语",
+              "指前文反复来电的男子，是动作的发出者。"
+            ],
+            [
+              "telephoned",
+              "谓语",
+              "一般过去时，表示过去发生的“打电话”动作。"
+            ],
+            [
+              "the office",
+              "宾语",
+              "是telephoned的动作对象，此处指办公室的相关联络方。"
+            ],
+            [
+              "yesterday morning and yesterday afternoon.",
+              "时间状语",
+              "用and并列两个过去的时间，说明两次打电话分别在这两个时段。"
+            ]
+          ]
+        },
+        {
+          "english": "My boss answered the telephone.",
+          "chinese": "我的老板接了电话。",
+          "tip": "answer the telephone是固定说“接电话”，这里的answer不是回答某个问题，而是回应打来的电话。同一单词要结合后面的对象判断意思。",
+          "intent": "交代上一句那两通办公室来电的接听人，为后面引述老板的话做铺垫。",
+          "parts": [
+            [
+              "My boss answered",
+              "引出核心动作的发出者与动作",
+              "我的老板接起"
+            ],
+            [
+              "the telephone.",
+              "补充动作对象，明确接听的是打来的电话",
+              "电话"
+            ]
+          ],
+          "notes": [
+            [
+              "简单过去时的使用",
+              "answered是规则动词的过去式，说明接电话是在说话之前已经完成的过去动作。"
+            ]
+          ],
+          "structures": [
+            [
+              "My boss",
+              "主语",
+              "指说话人所在公司的老板，是接电话的动作发出者。"
+            ],
+            [
+              "answered",
+              "谓语",
+              "一般过去时，表示过去发生的“接听”动作。"
+            ],
+            [
+              "the telephone.",
+              "宾语",
+              "是answered的动作对象，这里特指之前拨打进来的电话。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

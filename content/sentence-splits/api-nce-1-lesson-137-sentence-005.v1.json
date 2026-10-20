@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，两句的tip分别对应拒绝和补充愿望的不同表达意图，信息关系、句法角色无误，符合教学价值要求。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-137-sentence-005",
+      "parentEnglish": "I don't want a mink coat! I want to see the world.",
+      "children": [
+        {
+          "english": "I don't want a mink coat!",
+          "chinese": "我不想要水貂皮大衣！",
+          "tip": "先直接回绝对方的提议，语气明确。纠正别人的提议时，先把“不要什么”说清楚，再补自己真正想要的，对方更容易接住。",
+          "intent": "明确拒绝对方提出的“买水貂皮大衣”的设想。",
+          "parts": [
+            [
+              "I don't want",
+              "主语加否定谓语，表达拒绝的态度",
+              "我不想要"
+            ],
+            [
+              "a mink coat!",
+              "拒绝的具体对象",
+              "一件水貂皮大衣！"
+            ]
+          ],
+          "notes": [
+            [
+              "don't 的否定对象",
+              "don't 放在实义动词 want 前面，否定的是“想要水貂皮大衣”这个意愿，不是否定“大衣”本身。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主语",
+              "说话人，发出“不想要”的意愿。"
+            ],
+            [
+              "don't want",
+              "谓语",
+              "带否定助动词 don't 的谓语，表示“不想要”。"
+            ],
+            [
+              "a mink coat",
+              "宾语",
+              "不想要的对象，即水貂皮大衣。"
+            ]
+          ]
+        },
+        {
+          "english": "I want to see the world.",
+          "chinese": "我想去看看世界。",
+          "tip": "see the world 是固定说法，指到各地旅行、增长见闻，不是盯着世界地图看。拒绝提议后补出自己的真实愿望，比只说“不”更礼貌，也把对话引向你想要的方向。",
+          "intent": "转而说明自己真正想要的体验，给出替代愿望。",
+          "parts": [
+            [
+              "I want",
+              "主语加肯定谓语，引出真正的愿望",
+              "我想要"
+            ],
+            [
+              "to see the world.",
+              "想要做的具体事情",
+              "去看看世界。"
+            ]
+          ],
+          "notes": [
+            [
+              "want to do 结构",
+              "want 后面接带 to 的不定式 to see，说明想要做的具体事情，不是描述正在做的动作。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主语",
+              "说话人，同样是“我”。"
+            ],
+            [
+              "want",
+              "谓语",
+              "表达肯定的意愿“想要”。"
+            ],
+            [
+              "to see the world",
+              "宾语",
+              "动词 want 的具体内容，即“去看看世界”。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

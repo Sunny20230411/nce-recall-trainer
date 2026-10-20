@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，提点结合语境讲清表达功能和信息节奏，结构与笔记无误，未出现不当的自然度比较或错误概括。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-115-sentence-014",
+      "parentEnglish": "Wait a minute. There's someone at the window.",
+      "children": [
+        {
+          "english": "Wait a minute.",
+          "chinese": "等一下。",
+          "tip": "Wait a minute 不只是让人等候，也常用在发现新线索时打断当下的讨论，把注意力引向新情况，相当于口语里的“哎等一下”。",
+          "intent": "叫停当下的争论，引导对方注意即将说出的新发现。",
+          "parts": [
+            [
+              "Wait a minute.",
+              "独立祈使句，向听者发出稍作停留的请求",
+              "等一下。"
+            ]
+          ],
+          "notes": [
+            [
+              "祈使省略结构",
+              "Wait a minute 是口语常用祈使表达，省略了主语 you，语义上要求听者稍作等待，无复杂修饰成分。"
+            ]
+          ],
+          "structures": [
+            [
+              "Wait",
+              "祈使句核心动词",
+              "要求对方停留，是句子的动作核心。"
+            ],
+            [
+              "a minute",
+              "宾语",
+              "表示短暂的时间，是 Wait 这个动作持续的时长。"
+            ]
+          ]
+        },
+        {
+          "english": "There's someone at the window.",
+          "chinese": "窗户那儿有人。",
+          "tip": "先说 there's someone 抛出“有人”这个核心发现，再补 at the window 说明位置，重点先落在“发现了人”这件事上，符合突然看到情况时的表达节奏。",
+          "intent": "陈述刚发现的新情况，指出窗边有人。",
+          "parts": [
+            [
+              "There's someone",
+              "存在句的核心表意，点明当前存在的未知对象",
+              "有某人"
+            ],
+            [
+              "at the window.",
+              "方位补充，说明前述未知人物所在的位置",
+              "在窗户边"
+            ]
+          ],
+          "notes": [
+            [
+              "There be 存在句型的表意",
+              "There's someone at the window 中，there 本身没有实际词义，真正表示存在主体的是 someone，at the window 补充说明这个人所在的方位。"
+            ]
+          ],
+          "structures": [
+            [
+              "There's",
+              "存在句型引导结构",
+              "引出存在的事物，本身不表示实际地点含义。"
+            ],
+            [
+              "someone",
+              "存在的主体",
+              "表示某个不确定的人，是句子表意的核心对象。"
+            ],
+            [
+              "at the window",
+              "方位状语",
+              "补充说明 someone 所在的位置。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

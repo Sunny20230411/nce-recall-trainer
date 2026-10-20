@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分后两子句边界准确，中文对应自然；名师提点各有侧重，第一句讲转折铺垫的表达思路，第二句澄清all the time的语境范围，无重复无机械套用；信息关系、句法角色及笔记均准确对应各自子句，未交叉混淆。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-085-sentence-012",
+      "parentEnglish": "It was spring, but the weather was awful. It rained all the time.",
+      "children": [
+        {
+          "english": "It was spring, but the weather was awful.",
+          "chinese": "当时是春天，但天气糟透了。",
+          "tip": "先说季节背景，再用but转到与春天预期相反的糟糕天气，形成自然的反差感。这种先铺垫事实再转折的说法，很适合讲旅行里不符合预期的状况。",
+          "intent": "先交代故事发生的季节背景，再转折引出实际天气很糟糕的核心信息，形成预期与现实的反差。",
+          "parts": [
+            [
+              "It was spring,",
+              "转折前的事实铺垫，说明故事发生的季节背景",
+              "当时是春天"
+            ],
+            [
+              "but the weather was awful.",
+              "用转折关系引出与春季预期不符的恶劣天气",
+              "但天气糟透了"
+            ]
+          ],
+          "notes": [
+            [
+              "并列转折句",
+              "but 连接两个独立分句，先给出“是春天”这一季节事实，再转折引出“天气糟透”的实际状况，形成自然的反差。"
+            ]
+          ],
+          "structures": [
+            [
+              "It was spring,",
+              "并列转折句前分句",
+              "it 作非人称主语指代时间，过去时表示当时的季节属性，作为后句转折的对照起点。"
+            ],
+            [
+              "but",
+              "并列转折连词",
+              "连接前后两个语义相反的分句，体现季节预期与实际天气的反差。"
+            ],
+            [
+              "the weather was awful.",
+              "并列转折句后分句",
+              "是前句转折的核心内容，直接点明天气的糟糕状态。"
+            ]
+          ]
+        },
+        {
+          "english": "It rained all the time.",
+          "chinese": "一直在下雨。",
+          "tip": "all the time 在这里强调那次旅行期间雨一直下，不是说那个地方全年都下雨；具体的时间范围由前面的旅行语境限定。",
+          "intent": "补充说明天气糟糕的具体表现，描述下雨的持续状态，强化天气恶劣的印象。",
+          "parts": [
+            [
+              "It rained",
+              "句子主干，说明天气的具体状况是下雨",
+              "下雨了"
+            ],
+            [
+              "all the time.",
+              "时间状语，补充说明下雨持续不断的状态",
+              "一直。"
+            ]
+          ],
+          "notes": [
+            [
+              "频率表达短语",
+              "all the time 是固定常用短语，作状语修饰 rained，表示“一直、始终”，说明下雨没有间断，强化天气糟糕的程度。"
+            ]
+          ],
+          "structures": [
+            [
+              "It rained all the time.",
+              "独立简单句",
+              "主语 it 指代天气，过去时叙述当时的天气状况，补充说明天气糟糕的具体表现。"
+            ],
+            [
+              "all the time.",
+              "时间频率状语",
+              "修饰动词 rained，说明下雨的持续状态。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

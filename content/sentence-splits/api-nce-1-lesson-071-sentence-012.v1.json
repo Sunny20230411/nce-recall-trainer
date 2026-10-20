@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "引语拆分保留原引号边界，中文对应准确，提点分别点出电话自报身份的用法和否定祈使句中again的语气作用，结构与知识点说明准确，无错误表述。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-071-sentence-012",
+      "parentEnglish": "I said, 'This is Pauline's mother. Please don't telephone my daughter again!'",
+      "children": [
+        {
+          "english": "I said, 'This is Pauline's mother.",
+          "chinese": "我说：‘我是波琳的母亲。",
+          "tip": "This is ... 是电话里自报身份的固定说法，不是在面对面介绍别人。注意这里是引语里的自称，要结合语境理解是谁在说、用什么身份说。",
+          "intent": "引出直接引语的第一部分，交代说话人自报的身份。",
+          "parts": [
+            [
+              "I said,",
+              "全句主干，交代后面引号里的内容是“我”当时亲口说出的原话。",
+              "我说："
+            ],
+            [
+              "'This is Pauline's mother.",
+              "直接引语的第一部分，是电话里自报身份的陈述句。",
+              "‘我是波琳的母亲。"
+            ]
+          ],
+          "notes": [
+            [
+              "said后的单引号是直接引语",
+              "said后面紧跟的单引号包裹的内容，是一字不差还原当时说出的原话，不是转述。"
+            ]
+          ],
+          "structures": [
+            [
+              "I said",
+              "主句主谓",
+              "交代句子核心动作是“我说出了某番话”，是全句的主干，后面的引语全部是said的具体内容。"
+            ],
+            [
+              "This is Pauline's mother.",
+              "直接引语第一分句（陈述句）",
+              "引语里的第一句话，是电话中自报身份的常用表达，用所有格Pauline's表示所属关系。"
+            ]
+          ]
+        },
+        {
+          "english": "Please don't telephone my daughter again!'",
+          "chinese": "请不要再给我女儿打电话！’",
+          "tip": "Please don't ... again 是直接对听话人提出的严正要求，语气比单纯 don't 更明确：不仅这次不要，以后也别再做。提禁止类请求时，again 能强化“别重复”的意思。",
+          "intent": "用否定祈使句向对方提出明确的禁止要求，不要再给自己的女儿打电话。",
+          "parts": [
+            [
+              "Please don't telephone my daughter again!'",
+              "直接引语的第二部分，是否定祈使句，提出严正要求。",
+              "请不要再给我女儿打电话！’"
+            ]
+          ],
+          "notes": [
+            [
+              "否定祈使句的构成",
+              "Please don't + 动词原形 是第二人称否定祈使句，逻辑主语是听话人“你”，不需要额外加you；again表示“再、又”，强调不要再重复这个动作。"
+            ]
+          ],
+          "structures": [
+            [
+              "Please don't telephone my daughter again!",
+              "直接引语第二分句（否定祈使句）",
+              "引语里的第二句话，直接对听话人发出严正要求；my daughter 是telephone的对象，again加强“不要再一次”的语气。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

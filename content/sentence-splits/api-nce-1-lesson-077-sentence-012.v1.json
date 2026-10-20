@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分正确，各子句边界、翻译、信息关系、句法角色与提点均符合要求，教学点贴合表达意图且可迁移。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-077-sentence-012",
+      "parentEnglish": "The dentist is very busy at the moment. Can you come at two p.m.?",
+      "children": [
+        {
+          "english": "The dentist is very busy at the moment.",
+          "chinese": "牙医现在很忙。",
+          "tip": "at the moment 只限定眼下这一阵忙，不代表牙医全天都没空。给人解释安排冲突时，先说当前客观障碍，更容易让对方接受后续的替代方案。",
+          "intent": "说明牙医当前忙碌的状态，作为无法立即接诊的原因。",
+          "parts": [
+            [
+              "The dentist",
+              "句子描述的对象",
+              "牙医"
+            ],
+            [
+              "is very busy",
+              "描述牙医的状态",
+              "非常忙"
+            ],
+            [
+              "at the moment.",
+              "时间，说明忙碌的时段",
+              "现在"
+            ]
+          ],
+          "notes": [
+            [
+              "时间短语",
+              "at the moment 表示现在、此刻，用来限定忙碌状态的时间范围，只针对当下。"
+            ]
+          ],
+          "structures": [
+            [
+              "The dentist",
+              "主语",
+              "说明描述的对象是牙医。"
+            ],
+            [
+              "is",
+              "系动词",
+              "连接主语和表语 busy。"
+            ],
+            [
+              "very busy",
+              "表语",
+              "very 修饰 busy，说明牙医非常忙。"
+            ],
+            [
+              "at the moment.",
+              "时间状语",
+              "表示当前、此刻。"
+            ]
+          ]
+        },
+        {
+          "english": "Can you come at two p.m.?",
+          "chinese": "您下午两点能来吗？",
+          "tip": "用 Can you... 提出可选时间，语气是商量而不是命令。给出替代时段时，直接把时间放在句末的 at... 位置，换别的时间只要替换 two p.m. 就行。",
+          "intent": "向求诊者提出下午两点的替代就诊时间，询问对方是否可行。",
+          "parts": [
+            [
+              "Can you come",
+              "疑问句主干，询问对方是否能来",
+              "你能来吗"
+            ],
+            [
+              "at two p.m.?",
+              "时间，说明来的具体时刻",
+              "下午两点"
+            ]
+          ],
+          "notes": [
+            [
+              "Can 疑问句",
+              "Can 放在句首，后面接主语 you 和动词 come，用来礼貌询问对方是否可以或能否来。"
+            ]
+          ],
+          "structures": [
+            [
+              "Can",
+              "情态动词",
+              "构成一般疑问句，表示请求或询问可能性。"
+            ],
+            [
+              "you",
+              "主语",
+              "指对方。"
+            ],
+            [
+              "come",
+              "谓语动词",
+              "表示来这里、来就诊。"
+            ],
+            [
+              "at two p.m.?",
+              "时间状语",
+              "表示下午两点这个时间。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

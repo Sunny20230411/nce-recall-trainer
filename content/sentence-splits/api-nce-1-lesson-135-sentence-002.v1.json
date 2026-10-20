@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确；两个子句提点分别聚焦口语答复习惯和yet的含义，各有教学价值；修正了“最自然”“别漏了”这类绝对或强制表述；parts、notes、structures均与对应子句匹配，信息准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-135-sentence-002",
+      "parentEnglish": "I don't know. She hasn't told reporters yet.",
+      "children": [
+        {
+          "english": "I don't know.",
+          "chinese": "我不知道。",
+          "tip": "回答自己不清楚的事，直接说 I don't know 很自然，不用绕着说“我没这方面信息”。后面补原因时跟上独立短句即可，不必硬加连词。",
+          "intent": "直接回应对话方的询问，表明自己不清楚相关情况。",
+          "parts": [
+            [
+              "I don't know.",
+              "对询问给出否定答复，说明自己不掌握相关信息",
+              "我不知道。"
+            ]
+          ],
+          "notes": [
+            [
+              "一般现在时的否定答复",
+              "用一般现在时的don't know直接回应问题，表达说话当下“不知道”这一状态，是口语里常见的明确答复方式。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主语",
+              "指说话人本人，是“不知道”这个状态的主体。"
+            ],
+            [
+              "don't know.",
+              "谓语",
+              "don't是do not的缩写，对实义动词know进行否定，表达说话人不了解相关情况。"
+            ]
+          ]
+        },
+        {
+          "english": "She hasn't told reporters yet.",
+          "chinese": "她还没有告诉记者。",
+          "tip": "yet 放在否定句末尾，是说“到现在为止还没”，暗含以后有可能告诉的意味，不代表永远不说。想表达“目前尚未发生”可以在否定句末加 yet。",
+          "intent": "补充说明自己不知道的原因，即当事人尚未向记者透露消息。",
+          "parts": [
+            [
+              "She hasn't told reporters yet.",
+              "补充前一句不知道的原因，说明相关情况尚未被当事人告知媒体",
+              "她还没有告诉记者。"
+            ]
+          ],
+          "notes": [
+            [
+              "现在完成时的否定与yet",
+              "本句使用has not told构成现在完成时的否定，搭配句末的yet，表达从过去到说话的当下，“告诉记者”这个动作始终没有发生，暗含后续可能会告知的意思。"
+            ]
+          ],
+          "structures": [
+            [
+              "She",
+              "主语",
+              "指代前文提到的Karen Marsh，是“告知记者”这个动作的发出者。"
+            ],
+            [
+              "hasn't told",
+              "现在完成时否定谓语",
+              "hasn't是has not的缩写，和过去分词told构成否定的现在完成时，表示动作到目前为止尚未发生。"
+            ],
+            [
+              "reporters",
+              "直接宾语",
+              "是told动作的对象，指记者群体。"
+            ],
+            [
+              "yet.",
+              "时间状语",
+              "放在否定句句末，说明这个未完成的状态持续到说话当下。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正了notes中绝对化的语序表述，校准了第一句structures的角色名称，拆分后两子句的tip、parts、notes、structures均对应各自边界，教学点准确无过度引申。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-049-sentence-010",
+      "parentEnglish": "Do you want a chicken, Mrs. Bird? They're very nice.",
+      "children": [
+        {
+          "english": "Do you want a chicken, Mrs. Bird?",
+          "chinese": "您要一只鸡吗，伯德太太？",
+          "tip": "Do you want a chicken? 问的是要不要一整只鸡；如果说 some chicken 则指一些鸡肉，不一定是整只。",
+          "intent": "肉店店员询问顾客是否想要购买一只整鸡",
+          "parts": [
+            [
+              "Do you want a chicken,",
+              "核心推销问句，询问顾客的购买意愿",
+              "您想要一只鸡吗"
+            ],
+            [
+              "Mrs. Bird?",
+              "对话对象称呼，放在句尾明确招呼的人",
+              "伯德太太"
+            ]
+          ],
+          "notes": [
+            [
+              "询问句的语序",
+              "实义动词want的一般现在时疑问句需要把助动词Do放到句首，再依次接主语you和谓语want。"
+            ]
+          ],
+          "structures": [
+            [
+              "Do you want a chicken, Mrs. Bird?",
+              "一般疑问句+称呼",
+              "Do是构成一般现在时疑问句的助动词，you是主语，want是谓语动词，a chicken是want的宾语，Mrs. Bird是对话的对象称呼。"
+            ]
+          ]
+        },
+        {
+          "english": "They're very nice.",
+          "chinese": "这些鸡很好。",
+          "tip": "这句紧跟着推销问句，是补充商品优点、促成购买的常用话术，They 指店里这类鸡。",
+          "intent": "补充说明鸡肉品质好，辅助推销",
+          "parts": [
+            [
+              "They're very nice.",
+              "补充说明鸡肉的优点，辅助推销",
+              "这些鸡非常好（指鸡肉品质佳）"
+            ]
+          ],
+          "notes": [
+            [
+              "指代与缩写",
+              "本句用They代指前一句提到的chicken，避免重复；They're是They are的口语缩写，very放在nice之前加强语气。"
+            ]
+          ],
+          "structures": [
+            [
+              "They're very nice.",
+              "主语+系动词+表语",
+              "They是主语，指代前文提到的chicken，'re是are的缩写作系动词，very nice是表语，描述鸡肉的品质。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

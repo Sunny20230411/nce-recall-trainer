@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，提点围绕人物介绍的信息展开顺序展开，未夸大语序或表达的唯一合理性，各字段对应正确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-093-sentence-001",
+      "parentEnglish": "Nigel is our new next-door neighbour. He's a pilot.",
+      "children": [
+        {
+          "english": "Nigel is our new next-door neighbour.",
+          "chinese": "奈杰尔是我们的新隔壁邻居。",
+          "tip": "介绍一个人时，先把他和听者的关系说清楚，对方立刻就知道这人是谁、为什么值得提。这里先点明“我们的新隔壁邻居”，能快速建立人物的场景定位。",
+          "intent": "介绍新人物奈杰尔，并说明他与说话人的邻里关系，确立听者对人物的基本认知。",
+          "parts": [
+            [
+              "Nigel",
+              "整个句子的描述主体，是被介绍的核心人物。",
+              "奈杰尔"
+            ],
+            [
+              "is our new next-door neighbour.",
+              "说明奈杰尔的身份，多个修饰语依次限定核心名词neighbour。",
+              "是我们的新隔壁邻居。"
+            ]
+          ],
+          "notes": [
+            [
+              "身份修饰语的语序",
+              "在介绍邻居身份时，多个修饰语按所属（our）→新旧（new）→居住关系（next-door）的顺序排列，中文对应“我们的新隔壁邻居”，语序符合中文表达习惯。"
+            ]
+          ],
+          "structures": [
+            [
+              "Nigel",
+              "主语",
+              "指人奈杰尔，是本句描述的核心对象，是谓语动词is描述的主体。"
+            ],
+            [
+              "is our new next-door neighbour",
+              "系表结构（谓语+表语）",
+              "系动词is连接主语Nigel与表语our new next-door neighbour，表明奈杰尔的身份；多个定语依次修饰核心名词neighbour。"
+            ]
+          ]
+        },
+        {
+          "english": "He's a pilot.",
+          "chinese": "他是个飞行员。",
+          "tip": "人物关系已经讲清后，第二句用He承接，补一个职业身份，既丰富信息，也为后面讲他的飞行经历埋下伏笔。介绍人时常先交代关系、再补职业或特征。",
+          "intent": "补充说明奈杰尔的职业身份，提供人物的背景特征。",
+          "parts": [
+            [
+              "He's",
+              "承接前文指代奈杰尔，引出他的职业信息。",
+              "他是"
+            ],
+            [
+              "a pilot.",
+              "说明奈杰尔的职业，补充他的身份特征。",
+              "一名飞行员。"
+            ]
+          ],
+          "notes": [
+            [
+              "缩略形式的理解",
+              "本句中He's是He is的缩略形式，在一般现在时中用来陈述职业事实，相当于完整的He is a pilot。"
+            ]
+          ],
+          "structures": [
+            [
+              "He's a pilot",
+              "主系表结构的缩略形式",
+              "He's是He is的缩写，He指代前文的Nigel，a pilot作表语说明他的职业身份。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

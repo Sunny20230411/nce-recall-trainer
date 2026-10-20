@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正了身份边界混淆问题，拆分后两句的提点、结构、注释均与各自英文边界对应；原有关联内容保留合理，未夸大表达差异；提点突出表达选择，符合教学标准。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-109-sentence-003",
+      "parentEnglish": "It's ready. Do you want any milk?",
+      "children": [
+        {
+          "english": "It's ready.",
+          "chinese": "（咖啡）好了。",
+          "tip": "It's ready 侧重告知对方饮品已经可以享用，不用复述制作过程。说食物或物品准备完毕都可以直接用这句，对方自然会结合上下文明白所指。",
+          "intent": "告知对方前文提到的饮品已经准备完成，可以饮用。",
+          "parts": [
+            [
+              "It's ready.",
+              "说明指代事物的状态，告知已准备完毕",
+              "（它）好了。"
+            ]
+          ],
+          "notes": [
+            [
+              "代词指代",
+              "句中的It指代上文提到的coffee，是英语口语中避免重复前文名词的常见用法，翻译时不需要逐字译作“它”，可结合语境补出具体事物或直接说“好了”。"
+            ]
+          ],
+          "structures": [
+            [
+              "It's ready.",
+              "主系表结构的陈述句",
+              "It指代前文提到的coffee，系动词is与形容词ready共同构成谓语部分，说明事物已经准备完成的状态。"
+            ]
+          ]
+        },
+        {
+          "english": "Do you want any milk?",
+          "chinese": "你要加牛奶吗？",
+          "tip": "询问对方是否需要添加某种配料时，用Do you want any...? 语气自然委婉。这里的any不强调“任何”，只是配合疑问句表示不确定对方是否需要，提供选项时常用这种问法。",
+          "intent": "委婉询问对方是否需要在饮品中加入牛奶。",
+          "parts": [
+            [
+              "Do you",
+              "构成一般疑问句的引导部分，引出对对方的询问",
+              "你……吗？"
+            ],
+            [
+              "want any milk?",
+              "说明询问的核心内容，询问对方是否需要牛奶",
+              "想要牛奶吗？"
+            ]
+          ],
+          "notes": [
+            [
+              "any的疑问用法",
+              "在一般疑问句Do you want...?中，any用来修饰不可数名词milk，表示不确定对方是否需要，带有委婉征询的语气，不强调“任何”的含义。"
+            ]
+          ],
+          "structures": [
+            [
+              "Do you want any milk?",
+              "一般疑问句",
+              "助动词Do放在主语you之前构成疑问语序，实义动词want作谓语，any milk是want的宾语，用于询问对方是否需要牛奶。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

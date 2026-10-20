@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，提点突出表达意图与语气，无错误对比；parts、notes、structures均与子句匹配，信息关系准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-069-sentence-012",
+      "parentEnglish": "On the way home, my wife said to me, 'Don't drive so quickly! You're not Billy Stewart!'",
+      "children": [
+        {
+          "english": "On the way home, my wife said to me, 'Don't drive so quickly!",
+          "chinese": "在回家的路上，我妻子对我说：‘别开得那么快！",
+          "tip": "On the way home 先把场景落到返程途中，再引述妻子的制止。Don't drive so quickly 是直接的要求，用否定祈使句当下劝阻对方正在做的动作。",
+          "intent": "交代说话的背景，并引述妻子对丈夫开车速度的直接制止。",
+          "parts": [
+            [
+              "On the way home,",
+              "时间、地点背景，描述后面事情发生的场景",
+              "在回家的路上"
+            ],
+            [
+              "my wife said to me,",
+              "主句主干，交代说话人和听话对象",
+              "我妻子对我说"
+            ],
+            [
+              "'Don't drive so quickly!",
+              "直接引语内容，是妻子给出的直接提醒",
+              "‘别开得那么快！"
+            ]
+          ],
+          "notes": [
+            [
+              "直接引语",
+              "引号内是妻子说出的原话，这里只截取到第一句制止的内容。"
+            ],
+            [
+              "否定祈使句",
+              "Don't drive so quickly 用来直接制止对方做某事，quickly 修饰 drive。"
+            ]
+          ],
+          "structures": [
+            [
+              "On the way home",
+              "时间状语",
+              "说明说话这件事发生在回家途中，交代背景。"
+            ],
+            [
+              "my wife",
+              "主语",
+              "发出“说话”这个动作的人。"
+            ],
+            [
+              "said to me",
+              "谓语",
+              "动作是对我说出后面引号里的话。"
+            ],
+            [
+              "'Don't drive so quickly!",
+              "直接引语",
+              "妻子原话的前半句，是否定祈使句，用来提醒对方慢开。"
+            ]
+          ]
+        },
+        {
+          "english": "You're not Billy Stewart!'",
+          "chinese": "你不是比利·斯图尔特！’",
+          "tip": "这句不是真的在核对身份，而是顺着赛车话题补的打趣话，给前面的制止添了点轻松语气。日常劝阻时先把要求说在前，再补理由或调侃，诉求更直接清楚。",
+          "intent": "承接上一句的制止，用打趣的方式补充提醒的理由。",
+          "parts": [
+            [
+              "You're not Billy Stewart!'",
+              "直接引语内容，补充说明提醒的理由",
+              "你不是比利·斯图尔特！’"
+            ]
+          ],
+          "notes": [
+            [
+              "直接引语的延续",
+              "这是引号内原话的第二句，承接前一句 Don't drive so quickly，补充提醒的理由。"
+            ]
+          ],
+          "structures": [
+            [
+              "You're not Billy Stewart!'",
+              "直接引语",
+              "妻子原话的后半句，用否定陈述补充说明为什么不该开那么快，带有调侃意味。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

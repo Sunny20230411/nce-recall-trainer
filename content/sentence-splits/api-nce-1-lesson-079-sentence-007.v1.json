@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正了原parts拆分错误（将but we've与got a lot of potatoes错误拆分导致语义断裂），调整为以but引导的完整转折分句为单位；统一信息关系表述，提点更贴合表达选择与可迁移判断，结构与注释准确对应子句边界。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-079-sentence-007",
+      "parentEnglish": "I must go to the greengrocer's. We haven't got many tomatoes, but we've got a lot of potatoes.",
+      "children": [
+        {
+          "english": "I must go to the greengrocer's.",
+          "chinese": "我必须去蔬菜水果店。",
+          "tip": "口语里说要去某类店铺，常用 the + 店主身份 + 's，比如 the greengrocer's，不用完整说 shop。前句先亮必要行动，后句再补原因，符合日常说明的顺序。",
+          "intent": "说明自己必须去蔬果店的必要行动，作为后续给出采购理由的前提。",
+          "parts": [
+            [
+              "I must go",
+              "主干动作：主语加情态动词加核心动词，说明说话人的必要行动。",
+              "我必须去"
+            ],
+            [
+              "to the greengrocer's.",
+              "动作目的地：说明要去的具体店铺类型。",
+              "蔬菜水果店"
+            ]
+          ],
+          "notes": [
+            [
+              "名词所有格表店铺",
+              "greengrocer's 是省略用法，完整指 greengrocer's shop，也就是蔬菜水果店，类似用法还有 butcher's（肉铺）、baker's（面包店）。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主语",
+              "指代说话人，是“去”这个动作的发出者。"
+            ],
+            [
+              "must go to the greengrocer's.",
+              "谓语部分",
+              "must 是情态动词表示“必须”，后接动词原形 go，go to 表示“去某地”，the greengrocer's 是地点宾语。"
+            ]
+          ]
+        },
+        {
+          "english": "We haven't got many tomatoes, but we've got a lot of potatoes.",
+          "chinese": "我们的西红柿不多了，但土豆很多。",
+          "tip": "用 but 对照两种食材的库存，是在给采购理由划范围：只补不够的，不补够的。many 接可数名词、a lot of 可接可数或不可数名词，这里都用来描述当前存量。",
+          "intent": "通过西红柿不足、土豆充足的对比，说明去蔬果店的具体原因和采购范围。",
+          "parts": [
+            [
+              "We haven't got many tomatoes,",
+              "原因说明1：说明库存不足的食材，解释为什么需要去采购。",
+              "我们的西红柿不多了"
+            ],
+            [
+              "but we've got a lot of potatoes.",
+              "转折对比：引出库存充足的食材，和前一分句形成对照。",
+              "但是我们有很多土豆"
+            ]
+          ],
+          "notes": [
+            [
+              "have got 的用法",
+              "have got 是英式口语中表示“拥有”的常用表达，haven't got 表示“没有、不多”，have got a lot of 表示“有很多”，用来描述当前的库存状态。"
+            ],
+            [
+              "but 表转折",
+              "but 连接两个并列分句，前后形成库存的对比：西红柿不够，土豆很多，逻辑转折清晰。"
+            ]
+          ],
+          "structures": [
+            [
+              "We haven't got many tomatoes,",
+              "并列分句1",
+              "主语是 We，谓语是 haven't got（have got 的否定形式），宾语是 many tomatoes，说明西红柿存量不足。"
+            ],
+            [
+              "but",
+              "转折连词",
+              "连接前后两个分句，表转折对比。"
+            ],
+            [
+              "we've got a lot of potatoes.",
+              "并列分句2",
+              "主语是 we，谓语是 have got（缩写为 we've got），宾语是 a lot of potatoes，说明土豆存量充足。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

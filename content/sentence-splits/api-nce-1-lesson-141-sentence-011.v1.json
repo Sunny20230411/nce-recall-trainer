@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分后两句提点清晰，第一句点出why问句的不定式简答习惯及主客观效果差异，第二句讲and顺承动作的表达效果；移除了不准确的“倒装”表述，信息关系、结构均准确，parts拼接与原文一致。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-141-sentence-011",
+      "parentEnglish": "'To make myself beautiful,' the lady answered. She put away her compact and smiled kindly.",
+      "children": [
+        {
+          "english": "'To make myself beautiful,' the lady answered.",
+          "chinese": "“为了让我自己漂亮，”那位女士回答。",
+          "tip": "回答 why 的提问，直接用 To… 开头说目的就够自然，不必补出完整句子。make myself beautiful 说的是主观想达成的效果，不等于已经变美，这正是后面孩子接话的切入点。",
+          "intent": "直接引述女士对萨莉提问的回答，说明她补妆的目的。",
+          "parts": [
+            [
+              "'To make myself beautiful,'",
+              "直接引语，说明女士化妆的目的。",
+              "“为了让我自己漂亮，”"
+            ],
+            [
+              "the lady answered.",
+              "引出说话人和答话动作。",
+              "那位女士回答。"
+            ]
+          ],
+          "notes": [
+            [
+              "不定式表目的",
+              "To make myself beautiful 用动词不定式说明女士补妆的目的，myself 指代女士本人，使动作的承受者明确指向自己。"
+            ]
+          ],
+          "structures": [
+            [
+              "'To make myself beautiful,'",
+              "直接引语",
+              "完整引述女士说的话，其中 To make myself beautiful 是不定式短语，说明行为目的。"
+            ],
+            [
+              "the lady answered.",
+              "主句",
+              "说明引语的说话人和动作，主谓结构放在引语之后。"
+            ]
+          ]
+        },
+        {
+          "english": "She put away her compact and smiled kindly.",
+          "chinese": "她收起粉盒，亲切地笑了笑。",
+          "tip": "and 在这里顺承两个动作：先收粉盒，再微笑，顺序跟实际发生的先后一致。描写一连串小动作时，用 and 衔接会显得动作自然连贯，不用额外加表示先后的词。",
+          "intent": "描写女士回答后的连续动作，体现她和善的态度。",
+          "parts": [
+            [
+              "She",
+              "句子主语，指代那位女士。",
+              "她"
+            ],
+            [
+              "put away her compact",
+              "第一个并列动作及对象。",
+              "收起粉盒"
+            ],
+            [
+              "and",
+              "连接两个并列谓语。",
+              "并且"
+            ],
+            [
+              "smiled kindly.",
+              "第二个并列动作及伴随神态。",
+              "亲切地笑了笑。"
+            ]
+          ],
+          "notes": [
+            [
+              "并列谓语",
+              "put away her compact 与 smiled kindly 用 and 连接，共同描述主语 She 先后做出的两个动作。"
+            ]
+          ],
+          "structures": [
+            [
+              "She",
+              "主语",
+              "指代前文的 the lady，是后面两个动作的发出者。"
+            ],
+            [
+              "put away her compact",
+              "谓语部分",
+              "由短语动词 put away 和宾语 her compact 构成，表示收起粉盒。"
+            ],
+            [
+              "and",
+              "并列连词",
+              "连接 put away her compact 和 smiled kindly 两个并列谓语。"
+            ],
+            [
+              "smiled kindly.",
+              "谓语部分",
+              "表示女士温和地笑了笑，副词 kindly 修饰 smiled。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

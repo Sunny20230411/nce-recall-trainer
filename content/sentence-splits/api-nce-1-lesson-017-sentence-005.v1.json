@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正了原parts、notes、structures未按子句拆分的问题，移除了无依据的自然度比较，提点分别聚焦陈述评价与疑问焦点，信息分配准确，符合教学要求。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-017-sentence-005",
+      "parentEnglish": "Those women are very hard-working. What are their jobs?",
+      "children": [
+        {
+          "english": "Those women are very hard-working.",
+          "chinese": "那些女士工作非常努力。",
+          "tip": "先点明谈论的对象“那些女士”，再给出对她们工作状态的评价，信息围绕同一群人展开。",
+          "intent": "对特定女性群体的工作状态作出正面评价。",
+          "parts": [
+            [
+              "Those women",
+              "描述的主体对象",
+              "那些女士"
+            ],
+            [
+              "are very hard-working.",
+              "描述主体的工作状态特质",
+              "工作非常努力。"
+            ]
+          ],
+          "notes": [
+            [
+              "hard-working 的含义",
+              "这是一个合成形容词，用来形容人工作勤奋、努力，常放在系动词后作表语。"
+            ]
+          ],
+          "structures": [
+            [
+              "Those women",
+              "主语",
+              "明确指代语境中特定的多位女性，是整句话描述的对象。"
+            ],
+            [
+              "are very hard-working",
+              "系表谓语",
+              "由系动词are加形容词短语构成，very用来加强努力的程度。"
+            ]
+          ]
+        },
+        {
+          "english": "What are their jobs?",
+          "chinese": "她们是做什么工作的？",
+          "tip": "用What把未知的职业信息点亮出来，their承接上一句的those women，问的是这群人各自的职业，不是问某份工作怎么样。",
+          "intent": "询问前文提到的女性群体的职业。",
+          "parts": [
+            [
+              "What",
+              "询问的核心未知内容",
+              "什么"
+            ],
+            [
+              "are their jobs?",
+              "将疑问焦点落到她们的职业上",
+              "是她们的工作？"
+            ]
+          ],
+          "notes": [
+            [
+              "特殊疑问句语序",
+              "询问职业的特殊疑问句，把疑问词What放在句首，再把be动词are提前到主语their jobs之前。"
+            ]
+          ],
+          "structures": [
+            [
+              "What",
+              "疑问代词（表语）",
+              "直接针对“职业是什么”这个未知信息发起提问。"
+            ],
+            [
+              "are their jobs",
+              "疑问语序的主系结构",
+              "主语是their jobs，are提前构成疑问语序，与What共同组成完整问句。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，charge 语境义点拨贴合学习者易混点，you'd better 语气定位准确，信息关系、结构与笔记均适配单句，无跨句错误。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-129-sentence-007",
+      "parentEnglish": "I won't charge you this time. But you'd better not do it again.",
+      "children": [
+        {
+          "english": "I won't charge you this time.",
+          "chinese": "这次我就不罚你了。",
+          "tip": "这里的 charge 不是日常购物“收钱”，而是执法语境里的罚款、处罚。说 I won't charge you 是当场宣布本次不予处罚的决定，不是在谈费用。",
+          "intent": "执法者当场告知对方本次不予处罚的决定",
+          "parts": [
+            [
+              "I won't charge you",
+              "陈述本次不处罚的决定",
+              "我不会罚你"
+            ],
+            [
+              "this time.",
+              "限定动作适用的时间范围",
+              "这一次"
+            ]
+          ],
+          "notes": [
+            [
+              "won't 的含义",
+              "won't 是 will not 的缩写，在这里表示说话人明确作出‘本次不罚款’的决定，体现的是当下的意愿和决断。"
+            ],
+            [
+              "charge 的语境义",
+              "charge 常见义是“收费、指控”，在交通执法语境里指“罚款、处罚”，要根据场景判断具体含义。"
+            ]
+          ],
+          "structures": [
+            [
+              "I won't charge you this time.",
+              "陈述句",
+              "主句表达本次不罚款的决定。"
+            ],
+            [
+              "won't",
+              "情态式缩写",
+              "是 will not 的缩写，表示意愿/决定，后接动词原形。"
+            ],
+            [
+              "charge you",
+              "动宾短语",
+              "charge 在这里指‘罚款、处罚’，you 是动作对象。"
+            ],
+            [
+              "this time",
+              "时间状语",
+              "限定本次不罚款，暗示下次可能会处罚。"
+            ]
+          ]
+        },
+        {
+          "english": "But you'd better not do it again.",
+          "chinese": "但你最好别再这么做。",
+          "tip": "you'd better not 不是普通建议，是带后果意味的强烈劝告，用来警告对方别再违规。句首的 But 把“这次放过”立刻转到“下不为例”的警告上。",
+          "intent": "转折引出警告，劝告对方不要再做违规的事",
+          "parts": [
+            [
+              "But",
+              "转折连词，引出与前句相反的警告要求",
+              "但是"
+            ],
+            [
+              "you'd better not",
+              "给出带有警告意味的劝告语气结构",
+              "你最好不要"
+            ],
+            [
+              "do it again.",
+              "说明劝告的具体内容",
+              "再做这件事"
+            ]
+          ],
+          "notes": [
+            [
+              "you'd better 与否定形式",
+              "you'd better 是 you had better 的缩写，整体用来提出带有警告意味的劝告；否定形式直接在 better 后加 not，再接动词原形 do。"
+            ]
+          ],
+          "structures": [
+            [
+              "But",
+              "转折连词",
+              "连接前后语义，从‘本次不罚’转到‘以后不许再犯’。"
+            ],
+            [
+              "you'd better not do it again.",
+              "劝告分句",
+              "you had better not 表示强烈劝告，do it 指代前文超速这件事，again 表示‘再一次’。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正第二句parts拆分错误（原拆分把behind归入动作部分），移除tip中“英语先说在做什么、再说在哪里做”的绝对化表述，其余内容准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-115-sentence-015",
+      "parentEnglish": "It's Tom! He's hiding behind the door.",
+      "children": [
+        {
+          "english": "It's Tom!",
+          "chinese": "是汤姆！",
+          "tip": "看到并认出来者时，可以用 It's Tom! 直接揭晓身份。这里的 it 用于辨认眼前的人，并非把人当作物品；回答电话里“是谁”时，也有同样的用法。",
+          "intent": "辨认并说出眼前人的身份，揭晓未知对象是谁。",
+          "parts": [
+            [
+              "It's Tom!",
+              "核心身份判断",
+              "是汤姆！"
+            ]
+          ],
+          "notes": [
+            [
+              "it 用于辨认身份",
+              "当不清楚眼前或门外的人是谁时，先用 it 指代未知对象，确认身份后说 It's + 姓名，是口语里很自然的表达。"
+            ]
+          ],
+          "structures": [
+            [
+              "It's",
+              "主语+系动词",
+              "It指代看到人影或听到动静的未知对象，'s是is的缩写，系动词连接身份判断。"
+            ],
+            [
+              "Tom",
+              "表语",
+              "Tom是对It所指对象的身份判断，说明来人的名字是汤姆。"
+            ]
+          ]
+        },
+        {
+          "english": "He's hiding behind the door.",
+          "chinese": "他正躲在门后面。",
+          "tip": "描述此刻看到的场景时，用现在进行时把画面定格在当下。这里先说在做什么，再补在哪里做，信息重心放在当前动作上。",
+          "intent": "描述汤姆当前正在进行的动作及所在位置。",
+          "parts": [
+            [
+              "He's hiding",
+              "描述主语当前的动作",
+              "他正躲着"
+            ],
+            [
+              "behind the door.",
+              "补充说明躲藏的具体位置",
+              "在门后面。"
+            ]
+          ],
+          "notes": [
+            [
+              "现在进行时表当前动作",
+              "He's hiding 是现在进行时，强调此刻他正处于躲藏的状态，而不是习惯性躲在门后。"
+            ],
+            [
+              "behind表位置",
+              "behind the door 是介词短语作地点状语，说明躲藏的具体位置在门的后方。"
+            ]
+          ],
+          "structures": [
+            [
+              "He's",
+              "主语+助动词",
+              "He指代Tom，'s是is的缩写，与现在分词hiding构成现在进行时。"
+            ],
+            [
+              "hiding",
+              "现在分词作谓语的一部分",
+              "与is搭配表示正在躲藏的动作，说明当前的行为状态。"
+            ],
+            [
+              "behind the door",
+              "介词短语作地点状语",
+              "behind是介词，the door是宾语，共同说明躲藏的具体位置。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

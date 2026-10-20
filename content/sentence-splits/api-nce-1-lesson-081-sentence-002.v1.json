@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "已校准提点语气，删除“最常见”这类绝对化表述，信息边界、结构与内容均准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-081-sentence-002",
+      "parentEnglish": "Hi, Carol. Where's Tom?",
+      "children": [
+        {
+          "english": "Hi, Carol.",
+          "chinese": "嗨，卡罗尔。",
+          "tip": "熟人见面用 Hi 加名字打招呼，语气随意亲切，是开启对话的常见方式。",
+          "intent": "向 Carol 打招呼，开启对话。",
+          "parts": [
+            [
+              "Hi, Carol.",
+              "见面打招呼",
+              "嗨，卡罗尔。"
+            ]
+          ],
+          "notes": [
+            [
+              "问候语的称呼位置",
+              "Hi 后接对方名字，是口语中很常见的打招呼形式，语气比较随意亲切。"
+            ]
+          ],
+          "structures": [
+            [
+              "Hi, Carol.",
+              "日常问候语",
+              "向 Carol 打招呼，引出后续的对话内容。"
+            ]
+          ]
+        },
+        {
+          "english": "Where's Tom?",
+          "chinese": "汤姆在哪里？",
+          "tip": "Where's 直接用来找人，想知道对方所在位置就可以这么问，不用先铺垫他在不在家。",
+          "intent": "询问 Tom 当前所在的位置。",
+          "parts": [
+            [
+              "Where's Tom?",
+              "询问汤姆的所在位置",
+              "汤姆在哪里？"
+            ]
+          ],
+          "notes": [
+            [
+              "Where's 的缩写形式",
+              "Where's = Where is，口语中常用缩写来表达“……在哪里”。"
+            ]
+          ],
+          "structures": [
+            [
+              "Where's Tom?",
+              "询问位置的疑问句",
+              "Where 是疑问词，用于询问地点，Tom 是句子的主语，是被询问位置的对象，'s 是 is 的缩写。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

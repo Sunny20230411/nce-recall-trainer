@@ -1,10 +1,11 @@
-import { readFile, writeFile, mkdir, rename } from 'node:fs/promises';
-import { loadTeacherTips } from './teacher-tip-content.mjs';
+import { writeFile, mkdir, rename } from 'node:fs/promises';
 import { validateUnderstanding } from './understanding-contract.mjs';
+import { loadPublishedUnderstanding } from './sentence-split-content.mjs';
 
-const { records: sources } = JSON.parse(await readFile('content/understanding-source-index.v1.json', 'utf8'));
-const pilot = JSON.parse(await readFile('content/sentence-understanding.pilot.v1.json', 'utf8'));
-const tips = (await loadTeacherTips(sources, { requireComplete: true })).records.filter(tip => tip.courseId === 'nce2');
+const published = await loadPublishedUnderstanding();
+const sources = published.sources;
+const analysesById = new Map(published.records.map(record => [record.sentenceId, record]));
+const tips = published.teacherTips.records.filter(tip => tip.courseId === 'nce2');
 const byId = new Map(tips.map(tip => [tip.sentenceId, tip]));
 const selected = sources.filter(source => source.courseId === 'nce2');
 const missingAnalyses = [], missingTips = [], missingAccuracyReview = [], invalidAnalyses = [];
@@ -13,11 +14,7 @@ for (const source of selected) {
   const tip = byId.get(source.sentenceId);
   if (!tip) missingTips.push(source.sentenceId);
   else if (tip.author !== 'human' && tip.accuracyReview?.version !== 'nce2-expression-accuracy-1.0.0') missingAccuracyReview.push(source.sentenceId);
-  let record = pilot.records.find(record => record.sentenceId === source.sentenceId);
-  if (!record) {
-    try { record = JSON.parse(await readFile(`content/understanding-records/${source.sentenceId}.json`, 'utf8')); }
-    catch (error) { if (error.code !== 'ENOENT') throw error; }
-  }
+  const record = analysesById.get(source.sentenceId);
   if (!record) { missingAnalyses.push(source.sentenceId); continue; }
   const errors = validateUnderstanding(record);
   if (record.english !== source.english || record.analysisStatus !== 'approved' || !/[\u3400-\u9fff]/u.test(record.chinese)) errors.push('source or approval mismatch');

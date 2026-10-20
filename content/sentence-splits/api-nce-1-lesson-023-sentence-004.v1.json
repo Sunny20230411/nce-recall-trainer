@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，提点点明复数指代与后置定语的信息组织思路，信息关系与结构拆分匹配子句内容，无不准确表述。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-023-sentence-004",
+      "parentEnglish": "No, not those. The ones on the shelf.",
+      "children": [
+        {
+          "english": "No, not those.",
+          "chinese": "不，不是那些。",
+          "tip": "先用 not those 排除对方指的那组杯子，those 直接对应复数物品，比只说 No 更清楚在否定哪一组。",
+          "intent": "否定对方刚刚指向的那组杯子。",
+          "parts": [
+            [
+              "No,",
+              "直接给出否定答复",
+              "不"
+            ],
+            [
+              "not those.",
+              "补充说明否定的具体对象",
+              "不是那些物品"
+            ]
+          ],
+          "notes": [
+            [
+              "省略的语境指代",
+              "这句是口语里的省略表达，省去了上文中重复出现的指代对象glasses，听话人可以直接通过上下文补全完整语义。"
+            ],
+            [
+              "those的指代作用",
+              "这里的those用来代替前面提到过的复数物品glasses，避免把同样的名词再说一遍，让口语表达更简洁。"
+            ]
+          ],
+          "structures": [
+            [
+              "No,",
+              "否定应答语",
+              "用于快速对对方刚刚的指向给出否定反应，是日常口语里高频的简短否定表达。"
+            ],
+            [
+              "not those.",
+              "否定性代词短语",
+              "说明被否定的是此前指向的那一组物品，those替代前文提到的glasses"
+            ]
+          ]
+        },
+        {
+          "english": "The ones on the shelf.",
+          "chinese": "架子上的那几个。",
+          "tip": "先用 ones 接回前面的杯子，再把位置 on the shelf 放在后面补充；描述稍长时不用都挤到名词前，信息更顺。",
+          "intent": "通过位置特征指明正确的那组杯子。",
+          "parts": [
+            [
+              "The ones",
+              "承接前文的复数物品",
+              "那几个物品"
+            ],
+            [
+              "on the shelf.",
+              "补充说明物品所在的位置",
+              "在架子上的"
+            ]
+          ],
+          "notes": [
+            [
+              "省略的语境指代",
+              "这句是口语里的省略表达，省去了重复的主语和be动词，听话人可通过上下文理解完整语义。"
+            ],
+            [
+              "ones的指代作用",
+              "这里的ones用来代替前面提到过的复数物品glasses，避免把同样的名词再说一遍，让口语表达更简洁自然。"
+            ]
+          ],
+          "structures": [
+            [
+              "The ones",
+              "中心名词短语",
+              "用ones代指前文提到的复数物品glasses"
+            ],
+            [
+              "on the shelf.",
+              "方位介词短语作后置定语",
+              "说明物品所在的位置，清晰限定正确的指代对象"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

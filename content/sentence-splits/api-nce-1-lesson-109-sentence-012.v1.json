@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆句合理，两句提点分别聚焦余量表达和委婉语气，无过度解读，结构与信息关系准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-109-sentence-012",
+      "parentEnglish": "There are only a few left. I'm afraid the tin's nearly empty.",
+      "children": [
+        {
+          "english": "There are only a few left.",
+          "chinese": "只剩下几块了。",
+          "tip": "用 There are 说现存余量，only 加在 a few 前强调数量很少，left 后置说明是“剩下的”；描述剩余可数物品可以套用 there are only + 数量 + left 的思路。",
+          "intent": "告知对方饼干所剩数量不多。",
+          "parts": [
+            [
+              "There are only",
+              "引导存在状态，限定剩余数量很少。",
+              "（存在句开头）只有"
+            ],
+            [
+              "a few",
+              "句子真正主语，指剩余的少量饼干。",
+              "几块（代指前文饼干）"
+            ],
+            [
+              "left.",
+              "修饰a few，说明饼干是剩余状态。",
+              "剩下。"
+            ]
+          ],
+          "notes": [
+            [
+              "There be 句型",
+              "There are 表示“有、存在”，真正的主语是后面的 a few，代指前文提到的可数事物，left 作后置定语表示“剩余的”。"
+            ]
+          ],
+          "structures": [
+            [
+              "There are only a few left.",
+              "存在句",
+              "There are 引导存在句，a few 是真正主语，left 修饰 a few 表示剩余，说明剩余数量很少。"
+            ]
+          ]
+        },
+        {
+          "english": "I'm afraid the tin's nearly empty.",
+          "chinese": "恐怕盒子快空了。",
+          "tip": "I'm afraid 不是真的害怕，是口语里委婉带出不太好消息的开头；nearly empty 是“几乎空了”，说明还有一点、并非完全没有，程度要区分清楚。",
+          "intent": "委婉解释饼干少的原因，说明罐子快空了。",
+          "parts": [
+            [
+              "I'm afraid",
+              "委婉插入语，引出后面不太好的消息。",
+              "恐怕"
+            ],
+            [
+              "the tin's nearly",
+              "说明罐子的状态接近空了。",
+              "盒子快"
+            ],
+            [
+              "empty.",
+              "描述罐子最终状态，解释剩余少的原因。",
+              "空了。"
+            ]
+          ],
+          "notes": [
+            [
+              "I'm afraid 的用法",
+              "I'm afraid 在这里不是“我害怕”，而是口语中用来委婉引出不好的消息，相当于“恐怕、很遗憾”。"
+            ],
+            [
+              "缩写形式",
+              "I'm 是 I am 的缩写，tin's 是 tin is 的缩写，nearly 是副词修饰形容词 empty，表示程度“几乎、差不多”。"
+            ]
+          ],
+          "structures": [
+            [
+              "I'm afraid",
+              "委婉插入语",
+              "用来委婉引出后文不好的消息，不单独表示害怕的情绪。"
+            ],
+            [
+              "the tin's nearly empty.",
+              "宾语从句",
+              "跟在 I'm afraid 后面表示委婉判断的具体内容，the tin 是从句主语，nearly empty 是表语说明状态。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

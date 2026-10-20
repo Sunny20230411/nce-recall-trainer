@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "各子句切分清晰，教学点选择准确，see与meet的区分对学习者有实用价值，结构与信息关系无误。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-009-sentence-010",
+      "parentEnglish": "Goodbye, Helen. Nice to see you.",
+      "children": [
+        {
+          "english": "Goodbye, Helen.",
+          "chinese": "再见，海伦。",
+          "tip": "当面道别时先说道别语再带出人名，是英语口语的自然习惯，让人直接听出问候和对象。",
+          "intent": "向海伦当面道别。",
+          "parts": [
+            [
+              "Goodbye,",
+              "直接表达道别的意图",
+              "再见"
+            ],
+            [
+              "Helen.",
+              "点明道别的对象",
+              "海伦"
+            ]
+          ],
+          "notes": [
+            [
+              "称呼的位置",
+              "英文里把人名Helen放在道别问候语之后，用逗号隔开，符合口语里先送出问候再点明对方身份的表达习惯。"
+            ]
+          ],
+          "structures": [
+            [
+              "Goodbye, Helen.",
+              "道别祈使短句",
+              "用于当面告别，直接点明告别的对象是海伦"
+            ]
+          ]
+        },
+        {
+          "english": "Nice to see you.",
+          "chinese": "很高兴见到你。",
+          "tip": "道别时说 Nice to see you 是在表达这次见面很愉快，双方已经认识就用 see，初次结识才常用 meet。",
+          "intent": "在道别时表达见到对方的愉悦感受。",
+          "parts": [
+            [
+              "Nice to see you.",
+              "补充道别的友好感受",
+              "很高兴见到你"
+            ]
+          ],
+          "notes": [
+            [
+              "省略的常用口语句",
+              "Nice to see you 是It is nice to see you的日常省略形式，日常交流不需要补全主语也能让对方轻松理解意思。"
+            ]
+          ],
+          "structures": [
+            [
+              "Nice to see you.",
+              "表达感受的常用口语短句",
+              "用于见面或告别时表达见到对方的愉悦情绪，是日常社交的固定友好表达"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

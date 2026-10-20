@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，两句分别讲假设推导和后续追问，tip点出了then的具体所指和假设表达的推进作用，信息关系、句法角色均正确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-137-sentence-010",
+      "parentEnglish": "But if we spend all that money we'll be poor again. What'll we do then?",
+      "children": [
+        {
+          "english": "But if we spend all that money we'll be poor again.",
+          "chinese": "可是如果我们把那笔钱全部花光，我们就会又变穷。",
+          "tip": "用 But 一转，从前面的美梦转到花钱的后果。先讲假设前提再讲结果，顺着对方的设想往下推，更能引出对方对后续问题的思考。",
+          "intent": "承接前文的美好设想，提出钱花光后会重新变穷的担忧。",
+          "parts": [
+            [
+              "But",
+              "转折关系，承接前文的美好设想，引出相反的担忧",
+              "可是，但是"
+            ],
+            [
+              "if we spend all that money",
+              "条件关系，提出假设的前提",
+              "如果我们把那笔钱全部花光"
+            ],
+            [
+              "we'll be poor again.",
+              "结果关系，说明假设成立后带来的后果",
+              "我们就会又变穷"
+            ]
+          ],
+          "notes": [
+            [
+              "if引导假设条件",
+              "if we spend all that money 是条件，说明后面 be poor again 是在这个假设成立时才会出现的结果，不是已经发生的事实。"
+            ]
+          ],
+          "structures": [
+            [
+              "But",
+              "转折连接词",
+              "承接前面对美好未来的设想，引出对“钱花光后”的担忧。"
+            ],
+            [
+              "if we spend all that money",
+              "条件状语从句",
+              "提出假设性前提：如果我们把那笔钱全部花掉，从句用一般现在时spend表示假设。"
+            ],
+            [
+              "we'll be poor again.",
+              "主句",
+              "说明假设成立后的结果：我们会重新陷入贫穷。"
+            ]
+          ]
+        },
+        {
+          "english": "What'll we do then?",
+          "chinese": "那时我们怎么办？",
+          "tip": "这里的 then 不是泛指“以后”，而是专门接前面“变穷之后”那个时间点。顺着假设的结果往下追问下一步，能把讨论从设想拉到实际应对。",
+          "intent": "追问在重新变穷的假设结果之后该如何应对。",
+          "parts": [
+            [
+              "What'll we do",
+              "疑问主干，询问应对办法",
+              "我们该怎么办"
+            ],
+            [
+              "then?",
+              "时间限定，指向假设情况发生之后",
+              "到那时？"
+            ]
+          ],
+          "notes": [
+            [
+              "then把疑问接到假设之后",
+              "问句中的then指“我们变穷之后那个时候”，让疑问和前面的假设后果形成时间上的承接。"
+            ]
+          ],
+          "structures": [
+            [
+              "What'll we do then?",
+              "特殊疑问句",
+              "追问在假设情况发生后，我们该采取什么行动。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

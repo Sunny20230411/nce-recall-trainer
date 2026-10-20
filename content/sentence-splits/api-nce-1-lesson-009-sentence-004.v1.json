@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分后各子句边界准确，中文对应一致，提点符合表达意图且无过度比较，信息关系、句法角色均正确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-009-sentence-004",
+      "parentEnglish": "I'm very well, thank you. And you?",
+      "children": [
+        {
+          "english": "I'm very well, thank you.",
+          "chinese": "我很好，谢谢。",
+          "tip": "回答近况时先直接说自己的状态，再补一句礼貌的谢意，是英语问候回应的常见顺序。",
+          "intent": "回应对方的问候，说明自己的近况并表达谢意。",
+          "parts": [
+            [
+              "I'm very well,",
+              "说明自身当下的状态",
+              "我身体状态非常好"
+            ],
+            [
+              "thank you.",
+              "补充回应问候的礼貌态度",
+              "向对方表达谢意"
+            ]
+          ],
+          "notes": [
+            [
+              "well的用法",
+              "本句里well不表示“好地”这类副词含义，专门用来描述人的身体、精神状态良好，是日常问候场景里的常用表达"
+            ]
+          ],
+          "structures": [
+            [
+              "I'm very well",
+              "主系表结构主句",
+              "用来直接陈述自身当下的身体或精神状态"
+            ],
+            [
+              "thank you",
+              "独立礼貌用语分句",
+              "用来对对方的关心和问候表达感谢"
+            ]
+          ]
+        },
+        {
+          "english": "And you?",
+          "chinese": "你呢？",
+          "tip": "用 And you? 把同样的关心转回对方，是很自然的对话接续方式，顺着语境省略了重复的问候内容。",
+          "intent": "回问对方的近况，将问候话题转向对方。",
+          "parts": [
+            [
+              "And you?",
+              "转向询问对方的状态",
+              "反问对方的情况"
+            ]
+          ],
+          "notes": [
+            [
+              "And you?的省略",
+              "这是口语里的简洁说法，顺着前面的问候语境，省略了重复的“Are you well?”，直接用来反问对方的近况，符合日常对话习惯"
+            ]
+          ],
+          "structures": [
+            [
+              "And you?",
+              "省略式反问短句",
+              "承接前文语境，向对方回问相同的问候内容，简化对话表达"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

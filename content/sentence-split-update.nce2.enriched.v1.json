@@ -1,0 +1,4157 @@
+{
+  "schemaVersion": "1.0.0",
+  "stage": "enriched",
+  "generatorVersion": "reviewed-sentence-boundaries-1.0.0",
+  "course": {
+    "courseId": "nce2",
+    "title": "新概念英语第二册",
+    "language": "en",
+    "translationLanguage": "zh-CN",
+    "revision": 5,
+    "sourceName": "Boundary revision: complete revised lessons only; unchanged lessons omitted",
+    "sourceLicense": null
+  },
+  "lessons": [
+    {
+      "lessonId": "nce-2-lesson-069",
+      "lessonNo": 69,
+      "title": "Lesson 69 But not murder!",
+      "order": 1,
+      "sourceText": "I was being tested for a driving licence for the third time. I had been asked to drive in heavy traffic and had done so successfully. After having been instructed to drive out of town, I began to acquire confidence. Sure that I had passed, I was almost beginning to enjoy my test. The examiner must have been pleased with my performance, for he smiled and said, 'Just one more thing, Mr. Eames. Let us suppose that a child suddenly crosses the road in front of you. As soon as I tap on the window, you must stop within five feet.' I continued driving and after some time, the examiner tapped loudly. Though the sound could be heard clearly, it took me a long time to react. I suddenly pressed the brake pedal hard and we were both thrown forward. The examiner looked at me sadly. 'Mr. Eames,' he said, in a mournful voice, 'you have just killed that child!'",
+      "sentences": [
+        {
+          "sentenceId": "nce-2-lesson-069-sentence-001",
+          "order": 1,
+          "sourceParagraphOrder": 1,
+          "sourceSentenceOrder": 1,
+          "english": "I was being tested for a driving licence for the third time.",
+          "chinese": "我当时正在第三次参加驾驶执照考试。",
+          "translationStatus": "approved",
+          "acceptedAnswers": [],
+          "audioUrl": null,
+          "analysisSource": "ai",
+          "analysisStatus": "approved",
+          "analysisRuleVersion": "understanding-zh-adult-codex-1.0.0",
+          "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。",
+          "understanding": {
+            "courseId": "nce2",
+            "lessonId": "nce-2-lesson-069",
+            "sentenceId": "nce-2-lesson-069-sentence-001",
+            "sentenceOrder": 1,
+            "english": "I was being tested for a driving licence for the third time.",
+            "chinese": "我当时正在第三次参加驾驶执照考试。",
+            "lesson": "Lesson 69 But not murder!",
+            "intent": "交代第三次驾照考试正在进行的背景",
+            "comparison": null,
+            "parts": [
+              {
+                "text": "I was being tested",
+                "relation": "考试处境",
+                "meaning": "我当时正在接受考核"
+              },
+              {
+                "text": "for a driving licence",
+                "relation": "考核目的",
+                "meaning": "为了取得驾驶执照"
+              },
+              {
+                "text": "for the third time.",
+                "relation": "次数",
+                "meaning": "第三次"
+              }
+            ],
+            "structureNotes": [
+              {
+                "title": "进行中的被动",
+                "text": "was being tested 表示过去某时正在接受考核。"
+              },
+              {
+                "title": "次数表达",
+                "text": "for the third time 表示第三次发生，不表示持续时间。"
+              }
+            ],
+            "notes": [
+              {
+                "title": "进行中的被动",
+                "text": "was being tested 表示过去某时正在接受考核。"
+              },
+              {
+                "title": "次数表达",
+                "text": "for the third time 表示第三次发生，不表示持续时间。"
+              }
+            ],
+            "structures": [
+              {
+                "text": "I",
+                "role": "主语",
+                "explanation": "接受考核的人。"
+              },
+              {
+                "text": "was being tested",
+                "role": "谓语",
+                "explanation": "过去进行时的被动语态。"
+              },
+              {
+                "text": "for a driving licence",
+                "role": "目的状语",
+                "explanation": "说明参加考核所求的资格。"
+              },
+              {
+                "text": "for the third time.",
+                "role": "次数状语",
+                "explanation": "说明这是第三次考试。"
+              }
+            ],
+            "words": [
+              {
+                "text": "I",
+                "meaning": "我",
+                "pos": "人称代词",
+                "phonetic": "/aɪ/"
+              },
+              {
+                "text": "was",
+                "meaning": "当时正在",
+                "pos": "助动词",
+                "phonetic": "/wɒz/"
+              },
+              {
+                "text": "being",
+                "meaning": "被；构成进行被动",
+                "pos": "助动词",
+                "phonetic": "/ˈbiːɪŋ/"
+              },
+              {
+                "text": "tested",
+                "meaning": "考核",
+                "pos": "动词过去分词",
+                "phonetic": "/ˈtestɪd/"
+              },
+              {
+                "text": "for",
+                "meaning": "为了取得",
+                "pos": "介词",
+                "phonetic": "/fɔː/ 或 /fər/"
+              },
+              {
+                "text": "a",
+                "meaning": "一份",
+                "pos": "不定冠词",
+                "phonetic": "/ə/ 或 /eɪ/"
+              },
+              {
+                "text": "driving",
+                "meaning": "驾驶",
+                "pos": "动名词",
+                "phonetic": "/ˈdraɪvɪŋ/"
+              },
+              {
+                "text": "licence",
+                "meaning": "执照",
+                "pos": "名词",
+                "phonetic": "/ˈlaɪsəns/"
+              },
+              {
+                "text": "for",
+                "meaning": "表示发生次数",
+                "pos": "介词",
+                "phonetic": "/fɔː/ 或 /fər/"
+              },
+              {
+                "text": "the",
+                "meaning": "限定第三次",
+                "pos": "定冠词",
+                "phonetic": "/ðə/ 或 /ðiː/"
+              },
+              {
+                "text": "third",
+                "meaning": "第三",
+                "pos": "序数词",
+                "phonetic": "/θɜːd/"
+              },
+              {
+                "text": "time.",
+                "meaning": "次",
+                "pos": "名词",
+                "phonetic": "/taɪm/"
+              }
+            ],
+            "analysisSource": "ai",
+            "analysisStatus": "approved",
+            "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+            "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+          },
+          "tokens": [
+            {
+              "tokenId": "nce-2-lesson-069-sentence-001-token-000",
+              "tokenIndex": 0,
+              "displayText": "I",
+              "normalizedText": "i",
+              "punctuation": "",
+              "phonetic": "/aɪ/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "我"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-001-token-001",
+              "tokenIndex": 1,
+              "displayText": "was",
+              "normalizedText": "was",
+              "punctuation": "",
+              "phonetic": "/wɒz/",
+              "posCode": "verb",
+              "posLabel": "助动词",
+              "contextMeaning": "当时正在"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-001-token-002",
+              "tokenIndex": 2,
+              "displayText": "being",
+              "normalizedText": "being",
+              "punctuation": "",
+              "phonetic": "/ˈbiːɪŋ/",
+              "posCode": "verb",
+              "posLabel": "助动词",
+              "contextMeaning": "被；构成进行被动"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-001-token-003",
+              "tokenIndex": 3,
+              "displayText": "tested",
+              "normalizedText": "tested",
+              "punctuation": "",
+              "phonetic": "/ˈtestɪd/",
+              "posCode": "verb",
+              "posLabel": "动词过去分词",
+              "contextMeaning": "考核"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-001-token-004",
+              "tokenIndex": 4,
+              "displayText": "for",
+              "normalizedText": "for",
+              "punctuation": "",
+              "phonetic": "/fɔː/ 或 /fər/",
+              "posCode": "preposition",
+              "posLabel": "介词",
+              "contextMeaning": "为了取得"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-001-token-005",
+              "tokenIndex": 5,
+              "displayText": "a",
+              "normalizedText": "a",
+              "punctuation": "",
+              "phonetic": "/ə/ 或 /eɪ/",
+              "posCode": "determiner",
+              "posLabel": "不定冠词",
+              "contextMeaning": "一份"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-001-token-006",
+              "tokenIndex": 6,
+              "displayText": "driving",
+              "normalizedText": "driving",
+              "punctuation": "",
+              "phonetic": "/ˈdraɪvɪŋ/",
+              "posCode": "noun",
+              "posLabel": "动名词",
+              "contextMeaning": "驾驶"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-001-token-007",
+              "tokenIndex": 7,
+              "displayText": "licence",
+              "normalizedText": "licence",
+              "punctuation": "",
+              "phonetic": "/ˈlaɪsəns/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "执照"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-001-token-008",
+              "tokenIndex": 8,
+              "displayText": "for",
+              "normalizedText": "for",
+              "punctuation": "",
+              "phonetic": "/fɔː/ 或 /fər/",
+              "posCode": "preposition",
+              "posLabel": "介词",
+              "contextMeaning": "表示发生次数"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-001-token-009",
+              "tokenIndex": 9,
+              "displayText": "the",
+              "normalizedText": "the",
+              "punctuation": "",
+              "phonetic": "/ðə/ 或 /ðiː/",
+              "posCode": "determiner",
+              "posLabel": "定冠词",
+              "contextMeaning": "限定第三次"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-001-token-010",
+              "tokenIndex": 10,
+              "displayText": "third",
+              "normalizedText": "third",
+              "punctuation": "",
+              "phonetic": "/θɜːd/",
+              "posCode": "numeral",
+              "posLabel": "序数词",
+              "contextMeaning": "第三"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-001-token-011",
+              "tokenIndex": 11,
+              "displayText": "time",
+              "normalizedText": "time",
+              "punctuation": ".",
+              "phonetic": "/taɪm/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "次"
+            }
+          ],
+          "groups": [
+            {
+              "groupId": "nce-2-lesson-069-sentence-001-root",
+              "type": "independent_element",
+              "label": "结构见详细解析",
+              "startToken": 0,
+              "endToken": 11,
+              "parentGroupId": null
+            }
+          ],
+          "hints": {
+            "memoryNote": "交代第三次驾照考试正在进行的背景",
+            "letterShape": "I w__ b____ t_____ f__ a d______ l______ f__ t__ t____ t___.",
+            "answerNote": "交代第三次驾照考试正在进行的背景"
+          }
+        },
+        {
+          "sentenceId": "nce-2-lesson-069-sentence-002",
+          "order": 2,
+          "sourceParagraphOrder": 1,
+          "sourceSentenceOrder": 2,
+          "english": "I had been asked to drive in heavy traffic and had done so successfully.",
+          "chinese": "我先前被要求在车流密集的路段驾驶，而且已经顺利做到了。",
+          "translationStatus": "approved",
+          "acceptedAnswers": [],
+          "audioUrl": null,
+          "analysisSource": "ai",
+          "analysisStatus": "approved",
+          "analysisRuleVersion": "understanding-zh-adult-codex-1.0.0",
+          "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。",
+          "understanding": {
+            "courseId": "nce2",
+            "lessonId": "nce-2-lesson-069",
+            "sentenceId": "nce-2-lesson-069-sentence-002",
+            "sentenceOrder": 2,
+            "english": "I had been asked to drive in heavy traffic and had done so successfully.",
+            "chinese": "我先前被要求在车流密集的路段驾驶，而且已经顺利做到了。",
+            "lesson": "Lesson 69 But not murder!",
+            "intent": "回顾已经顺利完成的考核任务",
+            "comparison": null,
+            "parts": [
+              {
+                "text": "I had been asked",
+                "relation": "先前要求",
+                "meaning": "我已经被要求"
+              },
+              {
+                "text": "to drive in heavy traffic",
+                "relation": "任务内容",
+                "meaning": "在车流密集的路段驾驶"
+              },
+              {
+                "text": "and had done so successfully.",
+                "relation": "完成情况",
+                "meaning": "而且已经成功做到了"
+              }
+            ],
+            "structureNotes": [
+              {
+                "title": "先于考试中的叙述时点",
+                "text": "had been asked 和 had done 都把事情放在当时叙述时点之前。"
+              },
+              {
+                "title": "回指动作",
+                "text": "so 代指前面的在繁忙交通中驾驶。"
+              }
+            ],
+            "notes": [
+              {
+                "title": "先于考试中的叙述时点",
+                "text": "had been asked 和 had done 都把事情放在当时叙述时点之前。"
+              },
+              {
+                "title": "回指动作",
+                "text": "so 代指前面的在繁忙交通中驾驶。"
+              }
+            ],
+            "structures": [
+              {
+                "text": "I",
+                "role": "主语",
+                "explanation": "承担任务的人。"
+              },
+              {
+                "text": "had been asked to drive in heavy traffic",
+                "role": "谓语及补足内容",
+                "explanation": "被要求完成驾驶任务。"
+              },
+              {
+                "text": "and had done so successfully.",
+                "role": "并列谓语",
+                "explanation": "说明同一个人已顺利完成该任务。"
+              }
+            ],
+            "words": [
+              {
+                "text": "I",
+                "meaning": "我",
+                "pos": "人称代词",
+                "phonetic": "/aɪ/"
+              },
+              {
+                "text": "had",
+                "meaning": "此前已经",
+                "pos": "助动词",
+                "phonetic": "/hæd/ 或 /əd/"
+              },
+              {
+                "text": "been",
+                "meaning": "构成被动",
+                "pos": "助动词",
+                "phonetic": "/biːn/ 或 /bɪn/"
+              },
+              {
+                "text": "asked",
+                "meaning": "要求",
+                "pos": "动词过去分词",
+                "phonetic": "/ɑːskt/"
+              },
+              {
+                "text": "to",
+                "meaning": "引出要求做的事",
+                "pos": "不定式标记",
+                "phonetic": "/tə/ 或 /tuː/"
+              },
+              {
+                "text": "drive",
+                "meaning": "驾驶",
+                "pos": "动词",
+                "phonetic": "/draɪv/"
+              },
+              {
+                "text": "in",
+                "meaning": "在……中",
+                "pos": "介词",
+                "phonetic": "/ɪn/"
+              },
+              {
+                "text": "heavy",
+                "meaning": "密集的",
+                "pos": "形容词",
+                "phonetic": "/ˈhevi/"
+              },
+              {
+                "text": "traffic",
+                "meaning": "车流",
+                "pos": "不可数名词",
+                "phonetic": "/ˈtræfɪk/"
+              },
+              {
+                "text": "and",
+                "meaning": "而且",
+                "pos": "并列连词",
+                "phonetic": "/ænd/ 或 /ənd/"
+              },
+              {
+                "text": "had",
+                "meaning": "此前已经",
+                "pos": "助动词",
+                "phonetic": "/hæd/ 或 /əd/"
+              },
+              {
+                "text": "done",
+                "meaning": "做到",
+                "pos": "动词过去分词",
+                "phonetic": "/dʌn/"
+              },
+              {
+                "text": "so",
+                "meaning": "这样；指上述任务",
+                "pos": "副词",
+                "phonetic": "/səʊ/"
+              },
+              {
+                "text": "successfully.",
+                "meaning": "成功地",
+                "pos": "副词",
+                "phonetic": "/səkˈsesfəli/"
+              }
+            ],
+            "analysisSource": "ai",
+            "analysisStatus": "approved",
+            "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+            "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+          },
+          "tokens": [
+            {
+              "tokenId": "nce-2-lesson-069-sentence-002-token-000",
+              "tokenIndex": 0,
+              "displayText": "I",
+              "normalizedText": "i",
+              "punctuation": "",
+              "phonetic": "/aɪ/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "我"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-002-token-001",
+              "tokenIndex": 1,
+              "displayText": "had",
+              "normalizedText": "had",
+              "punctuation": "",
+              "phonetic": "/hæd/ 或 /əd/",
+              "posCode": "verb",
+              "posLabel": "助动词",
+              "contextMeaning": "此前已经"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-002-token-002",
+              "tokenIndex": 2,
+              "displayText": "been",
+              "normalizedText": "been",
+              "punctuation": "",
+              "phonetic": "/biːn/ 或 /bɪn/",
+              "posCode": "verb",
+              "posLabel": "助动词",
+              "contextMeaning": "构成被动"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-002-token-003",
+              "tokenIndex": 3,
+              "displayText": "asked",
+              "normalizedText": "asked",
+              "punctuation": "",
+              "phonetic": "/ɑːskt/",
+              "posCode": "verb",
+              "posLabel": "动词过去分词",
+              "contextMeaning": "要求"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-002-token-004",
+              "tokenIndex": 4,
+              "displayText": "to",
+              "normalizedText": "to",
+              "punctuation": "",
+              "phonetic": "/tə/ 或 /tuː/",
+              "posCode": "particle",
+              "posLabel": "不定式标记",
+              "contextMeaning": "引出要求做的事"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-002-token-005",
+              "tokenIndex": 5,
+              "displayText": "drive",
+              "normalizedText": "drive",
+              "punctuation": "",
+              "phonetic": "/draɪv/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "驾驶"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-002-token-006",
+              "tokenIndex": 6,
+              "displayText": "in",
+              "normalizedText": "in",
+              "punctuation": "",
+              "phonetic": "/ɪn/",
+              "posCode": "preposition",
+              "posLabel": "介词",
+              "contextMeaning": "在……中"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-002-token-007",
+              "tokenIndex": 7,
+              "displayText": "heavy",
+              "normalizedText": "heavy",
+              "punctuation": "",
+              "phonetic": "/ˈhevi/",
+              "posCode": "adjective",
+              "posLabel": "形容词",
+              "contextMeaning": "密集的"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-002-token-008",
+              "tokenIndex": 8,
+              "displayText": "traffic",
+              "normalizedText": "traffic",
+              "punctuation": "",
+              "phonetic": "/ˈtræfɪk/",
+              "posCode": "noun",
+              "posLabel": "不可数名词",
+              "contextMeaning": "车流"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-002-token-009",
+              "tokenIndex": 9,
+              "displayText": "and",
+              "normalizedText": "and",
+              "punctuation": "",
+              "phonetic": "/ænd/ 或 /ənd/",
+              "posCode": "conjunction",
+              "posLabel": "并列连词",
+              "contextMeaning": "而且"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-002-token-010",
+              "tokenIndex": 10,
+              "displayText": "had",
+              "normalizedText": "had",
+              "punctuation": "",
+              "phonetic": "/hæd/ 或 /əd/",
+              "posCode": "verb",
+              "posLabel": "助动词",
+              "contextMeaning": "此前已经"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-002-token-011",
+              "tokenIndex": 11,
+              "displayText": "done",
+              "normalizedText": "done",
+              "punctuation": "",
+              "phonetic": "/dʌn/",
+              "posCode": "verb",
+              "posLabel": "动词过去分词",
+              "contextMeaning": "做到"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-002-token-012",
+              "tokenIndex": 12,
+              "displayText": "so",
+              "normalizedText": "so",
+              "punctuation": "",
+              "phonetic": "/səʊ/",
+              "posCode": "adverb",
+              "posLabel": "副词",
+              "contextMeaning": "这样；指上述任务"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-002-token-013",
+              "tokenIndex": 13,
+              "displayText": "successfully",
+              "normalizedText": "successfully",
+              "punctuation": ".",
+              "phonetic": "/səkˈsesfəli/",
+              "posCode": "adverb",
+              "posLabel": "副词",
+              "contextMeaning": "成功地"
+            }
+          ],
+          "groups": [
+            {
+              "groupId": "nce-2-lesson-069-sentence-002-root",
+              "type": "independent_element",
+              "label": "结构见详细解析",
+              "startToken": 0,
+              "endToken": 13,
+              "parentGroupId": null
+            }
+          ],
+          "hints": {
+            "memoryNote": "回顾已经顺利完成的考核任务",
+            "letterShape": "I h__ b___ a____ t_ d____ i_ h____ t______ a__ h__ d___ s_ s___________.",
+            "answerNote": "回顾已经顺利完成的考核任务"
+          }
+        },
+        {
+          "sentenceId": "nce-2-lesson-069-sentence-003",
+          "order": 3,
+          "sourceParagraphOrder": 1,
+          "sourceSentenceOrder": 3,
+          "english": "After having been instructed to drive out of town, I began to acquire confidence.",
+          "chinese": "接到开车出城的指示后，我开始有了信心。",
+          "translationStatus": "approved",
+          "acceptedAnswers": [],
+          "audioUrl": null,
+          "analysisSource": "ai",
+          "analysisStatus": "approved",
+          "analysisRuleVersion": "understanding-zh-adult-codex-1.0.0",
+          "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。",
+          "understanding": {
+            "courseId": "nce2",
+            "lessonId": "nce-2-lesson-069",
+            "sentenceId": "nce-2-lesson-069-sentence-003",
+            "sentenceOrder": 3,
+            "english": "After having been instructed to drive out of town, I began to acquire confidence.",
+            "chinese": "接到开车出城的指示后，我开始有了信心。",
+            "lesson": "Lesson 69 But not murder!",
+            "intent": "说明下一项指示之后信心开始增强",
+            "comparison": null,
+            "parts": [
+              {
+                "text": "After having been instructed to drive out of town,",
+                "relation": "先行事件",
+                "meaning": "接到开车出城的指示后"
+              },
+              {
+                "text": "I began to acquire confidence.",
+                "relation": "心理变化",
+                "meaning": "我开始有了信心"
+              }
+            ],
+            "structureNotes": [
+              {
+                "title": "完成式被动动名词",
+                "text": "After 后的 having been instructed 表示先接受指示，其逻辑主语是 I。"
+              },
+              {
+                "title": "离开城镇",
+                "text": "out of town 在 drive 后说明驶出城镇的方向。"
+              }
+            ],
+            "notes": [
+              {
+                "title": "完成式被动动名词",
+                "text": "After 后的 having been instructed 表示先接受指示，其逻辑主语是 I。"
+              },
+              {
+                "title": "离开城镇",
+                "text": "out of town 在 drive 后说明驶出城镇的方向。"
+              }
+            ],
+            "structures": [
+              {
+                "text": "After having been instructed to drive out of town,",
+                "role": "时间状语",
+                "explanation": "说明开始有信心之前发生的事。"
+              },
+              {
+                "text": "I",
+                "role": "主语",
+                "explanation": "接受指示并产生信心的人。"
+              },
+              {
+                "text": "began to acquire confidence.",
+                "role": "谓语及补足内容",
+                "explanation": "表示信心开始形成。"
+              }
+            ],
+            "words": [
+              {
+                "text": "After",
+                "meaning": "在……之后",
+                "pos": "介词",
+                "phonetic": "/ˈɑːftə/"
+              },
+              {
+                "text": "having",
+                "meaning": "已经；构成完成式",
+                "pos": "助动词现在分词",
+                "phonetic": "/ˈhævɪŋ/"
+              },
+              {
+                "text": "been",
+                "meaning": "构成被动",
+                "pos": "助动词过去分词",
+                "phonetic": "/biːn/ 或 /bɪn/"
+              },
+              {
+                "text": "instructed",
+                "meaning": "指示",
+                "pos": "动词过去分词",
+                "phonetic": "/ɪnˈstrʌktɪd/"
+              },
+              {
+                "text": "to",
+                "meaning": "引出指示内容",
+                "pos": "不定式标记",
+                "phonetic": "/tə/ 或 /tuː/"
+              },
+              {
+                "text": "drive",
+                "meaning": "开车",
+                "pos": "动词",
+                "phonetic": "/draɪv/"
+              },
+              {
+                "text": "out",
+                "meaning": "向外",
+                "pos": "副词",
+                "phonetic": "/aʊt/"
+              },
+              {
+                "text": "of",
+                "meaning": "离开；与out连用",
+                "pos": "介词",
+                "phonetic": "/ɒv/ 或 /əv/"
+              },
+              {
+                "text": "town,",
+                "meaning": "城镇",
+                "pos": "名词",
+                "phonetic": "/taʊn/"
+              },
+              {
+                "text": "I",
+                "meaning": "我",
+                "pos": "人称代词",
+                "phonetic": "/aɪ/"
+              },
+              {
+                "text": "began",
+                "meaning": "开始",
+                "pos": "动词",
+                "phonetic": "/bɪˈɡæn/"
+              },
+              {
+                "text": "to",
+                "meaning": "引出开始的变化",
+                "pos": "不定式标记",
+                "phonetic": "/tə/ 或 /tuː/"
+              },
+              {
+                "text": "acquire",
+                "meaning": "获得",
+                "pos": "动词",
+                "phonetic": "/əˈkwaɪə/"
+              },
+              {
+                "text": "confidence.",
+                "meaning": "信心",
+                "pos": "不可数名词",
+                "phonetic": "/ˈkɒnfɪdəns/"
+              }
+            ],
+            "analysisSource": "ai",
+            "analysisStatus": "approved",
+            "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+            "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+          },
+          "tokens": [
+            {
+              "tokenId": "nce-2-lesson-069-sentence-003-token-000",
+              "tokenIndex": 0,
+              "displayText": "After",
+              "normalizedText": "after",
+              "punctuation": "",
+              "phonetic": "/ˈɑːftə/",
+              "posCode": "preposition",
+              "posLabel": "介词",
+              "contextMeaning": "在……之后"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-003-token-001",
+              "tokenIndex": 1,
+              "displayText": "having",
+              "normalizedText": "having",
+              "punctuation": "",
+              "phonetic": "/ˈhævɪŋ/",
+              "posCode": "verb",
+              "posLabel": "助动词现在分词",
+              "contextMeaning": "已经；构成完成式"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-003-token-002",
+              "tokenIndex": 2,
+              "displayText": "been",
+              "normalizedText": "been",
+              "punctuation": "",
+              "phonetic": "/biːn/ 或 /bɪn/",
+              "posCode": "verb",
+              "posLabel": "助动词过去分词",
+              "contextMeaning": "构成被动"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-003-token-003",
+              "tokenIndex": 3,
+              "displayText": "instructed",
+              "normalizedText": "instructed",
+              "punctuation": "",
+              "phonetic": "/ɪnˈstrʌktɪd/",
+              "posCode": "verb",
+              "posLabel": "动词过去分词",
+              "contextMeaning": "指示"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-003-token-004",
+              "tokenIndex": 4,
+              "displayText": "to",
+              "normalizedText": "to",
+              "punctuation": "",
+              "phonetic": "/tə/ 或 /tuː/",
+              "posCode": "particle",
+              "posLabel": "不定式标记",
+              "contextMeaning": "引出指示内容"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-003-token-005",
+              "tokenIndex": 5,
+              "displayText": "drive",
+              "normalizedText": "drive",
+              "punctuation": "",
+              "phonetic": "/draɪv/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "开车"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-003-token-006",
+              "tokenIndex": 6,
+              "displayText": "out",
+              "normalizedText": "out",
+              "punctuation": "",
+              "phonetic": "/aʊt/",
+              "posCode": "adverb",
+              "posLabel": "副词",
+              "contextMeaning": "向外"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-003-token-007",
+              "tokenIndex": 7,
+              "displayText": "of",
+              "normalizedText": "of",
+              "punctuation": "",
+              "phonetic": "/ɒv/ 或 /əv/",
+              "posCode": "preposition",
+              "posLabel": "介词",
+              "contextMeaning": "离开；与out连用"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-003-token-008",
+              "tokenIndex": 8,
+              "displayText": "town",
+              "normalizedText": "town",
+              "punctuation": ",",
+              "phonetic": "/taʊn/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "城镇"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-003-token-009",
+              "tokenIndex": 9,
+              "displayText": "I",
+              "normalizedText": "i",
+              "punctuation": "",
+              "phonetic": "/aɪ/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "我"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-003-token-010",
+              "tokenIndex": 10,
+              "displayText": "began",
+              "normalizedText": "began",
+              "punctuation": "",
+              "phonetic": "/bɪˈɡæn/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "开始"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-003-token-011",
+              "tokenIndex": 11,
+              "displayText": "to",
+              "normalizedText": "to",
+              "punctuation": "",
+              "phonetic": "/tə/ 或 /tuː/",
+              "posCode": "particle",
+              "posLabel": "不定式标记",
+              "contextMeaning": "引出开始的变化"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-003-token-012",
+              "tokenIndex": 12,
+              "displayText": "acquire",
+              "normalizedText": "acquire",
+              "punctuation": "",
+              "phonetic": "/əˈkwaɪə/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "获得"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-003-token-013",
+              "tokenIndex": 13,
+              "displayText": "confidence",
+              "normalizedText": "confidence",
+              "punctuation": ".",
+              "phonetic": "/ˈkɒnfɪdəns/",
+              "posCode": "noun",
+              "posLabel": "不可数名词",
+              "contextMeaning": "信心"
+            }
+          ],
+          "groups": [
+            {
+              "groupId": "nce-2-lesson-069-sentence-003-root",
+              "type": "independent_element",
+              "label": "结构见详细解析",
+              "startToken": 0,
+              "endToken": 13,
+              "parentGroupId": null
+            }
+          ],
+          "hints": {
+            "memoryNote": "说明下一项指示之后信心开始增强",
+            "letterShape": "A____ h_____ b___ i_________ t_ d____ o__ o_ t___, I b____ t_ a______ c_________.",
+            "answerNote": "说明下一项指示之后信心开始增强"
+          }
+        },
+        {
+          "sentenceId": "nce-2-lesson-069-sentence-004",
+          "order": 4,
+          "sourceParagraphOrder": 1,
+          "sourceSentenceOrder": 4,
+          "english": "Sure that I had passed, I was almost beginning to enjoy my test.",
+          "chinese": "确信自己已经通过了，我几乎开始享受这场考试了。",
+          "translationStatus": "approved",
+          "acceptedAnswers": [],
+          "audioUrl": null,
+          "analysisSource": "ai",
+          "analysisStatus": "approved",
+          "analysisRuleVersion": "understanding-zh-adult-codex-1.0.0",
+          "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。",
+          "understanding": {
+            "courseId": "nce2",
+            "lessonId": "nce-2-lesson-069",
+            "sentenceId": "nce-2-lesson-069-sentence-004",
+            "sentenceOrder": 4,
+            "english": "Sure that I had passed, I was almost beginning to enjoy my test.",
+            "chinese": "确信自己已经通过了，我几乎开始享受这场考试了。",
+            "lesson": "Lesson 69 But not murder!",
+            "intent": "描写自以为通过后逐渐放松的心态",
+            "comparison": null,
+            "parts": [
+              {
+                "text": "Sure that I had passed,",
+                "relation": "心理背景",
+                "meaning": "确信自己已经通过了"
+              },
+              {
+                "text": "I was almost beginning to enjoy my test.",
+                "relation": "接近发生的变化",
+                "meaning": "我几乎开始享受考试了"
+              }
+            ],
+            "structureNotes": [
+              {
+                "title": "形容词短语作状语",
+                "text": "Sure 描述主语 I 的心理状态，that 从句补充确信的内容。"
+              },
+              {
+                "title": "过去完成时",
+                "text": "had passed 表示在当时看来通过已经发生，并非叙述者确认最终结果。"
+              }
+            ],
+            "notes": [
+              {
+                "title": "形容词短语作状语",
+                "text": "Sure 描述主语 I 的心理状态，that 从句补充确信的内容。"
+              },
+              {
+                "title": "过去完成时",
+                "text": "had passed 表示在当时看来通过已经发生，并非叙述者确认最终结果。"
+              }
+            ],
+            "structures": [
+              {
+                "text": "Sure that I had passed,",
+                "role": "伴随心理状态状语",
+                "explanation": "交代主句人物当时的确信。"
+              },
+              {
+                "text": "I",
+                "role": "主语",
+                "explanation": "参加考试的人。"
+              },
+              {
+                "text": "was almost beginning to enjoy my test.",
+                "role": "谓语及补足内容",
+                "explanation": "表示几乎开始享受考试。"
+              }
+            ],
+            "words": [
+              {
+                "text": "Sure",
+                "meaning": "确信的",
+                "pos": "形容词",
+                "phonetic": "/ʃʊə/"
+              },
+              {
+                "text": "that",
+                "meaning": "引出确信内容",
+                "pos": "从属连词",
+                "phonetic": "/ðæt/ 或 /ðət/"
+              },
+              {
+                "text": "I",
+                "meaning": "我",
+                "pos": "人称代词",
+                "phonetic": "/aɪ/"
+              },
+              {
+                "text": "had",
+                "meaning": "此前已经",
+                "pos": "助动词",
+                "phonetic": "/hæd/ 或 /əd/"
+              },
+              {
+                "text": "passed,",
+                "meaning": "通过考试",
+                "pos": "动词过去分词",
+                "phonetic": "/pɑːst/"
+              },
+              {
+                "text": "I",
+                "meaning": "我",
+                "pos": "人称代词",
+                "phonetic": "/aɪ/"
+              },
+              {
+                "text": "was",
+                "meaning": "当时正在",
+                "pos": "助动词",
+                "phonetic": "/wɒz/"
+              },
+              {
+                "text": "almost",
+                "meaning": "几乎",
+                "pos": "副词",
+                "phonetic": "/ˈɔːlməʊst/"
+              },
+              {
+                "text": "beginning",
+                "meaning": "开始",
+                "pos": "动词现在分词",
+                "phonetic": "/bɪˈɡɪnɪŋ/"
+              },
+              {
+                "text": "to",
+                "meaning": "引出开始做的事",
+                "pos": "不定式标记",
+                "phonetic": "/tə/ 或 /tuː/"
+              },
+              {
+                "text": "enjoy",
+                "meaning": "享受",
+                "pos": "动词",
+                "phonetic": "/ɪnˈdʒɔɪ/"
+              },
+              {
+                "text": "my",
+                "meaning": "我的",
+                "pos": "物主限定词",
+                "phonetic": "/maɪ/"
+              },
+              {
+                "text": "test.",
+                "meaning": "考试",
+                "pos": "名词",
+                "phonetic": "/test/"
+              }
+            ],
+            "analysisSource": "ai",
+            "analysisStatus": "approved",
+            "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+            "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+          },
+          "tokens": [
+            {
+              "tokenId": "nce-2-lesson-069-sentence-004-token-000",
+              "tokenIndex": 0,
+              "displayText": "Sure",
+              "normalizedText": "sure",
+              "punctuation": "",
+              "phonetic": "/ʃʊə/",
+              "posCode": "adjective",
+              "posLabel": "形容词",
+              "contextMeaning": "确信的"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-004-token-001",
+              "tokenIndex": 1,
+              "displayText": "that",
+              "normalizedText": "that",
+              "punctuation": "",
+              "phonetic": "/ðæt/ 或 /ðət/",
+              "posCode": "conjunction",
+              "posLabel": "从属连词",
+              "contextMeaning": "引出确信内容"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-004-token-002",
+              "tokenIndex": 2,
+              "displayText": "I",
+              "normalizedText": "i",
+              "punctuation": "",
+              "phonetic": "/aɪ/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "我"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-004-token-003",
+              "tokenIndex": 3,
+              "displayText": "had",
+              "normalizedText": "had",
+              "punctuation": "",
+              "phonetic": "/hæd/ 或 /əd/",
+              "posCode": "verb",
+              "posLabel": "助动词",
+              "contextMeaning": "此前已经"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-004-token-004",
+              "tokenIndex": 4,
+              "displayText": "passed",
+              "normalizedText": "passed",
+              "punctuation": ",",
+              "phonetic": "/pɑːst/",
+              "posCode": "verb",
+              "posLabel": "动词过去分词",
+              "contextMeaning": "通过考试"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-004-token-005",
+              "tokenIndex": 5,
+              "displayText": "I",
+              "normalizedText": "i",
+              "punctuation": "",
+              "phonetic": "/aɪ/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "我"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-004-token-006",
+              "tokenIndex": 6,
+              "displayText": "was",
+              "normalizedText": "was",
+              "punctuation": "",
+              "phonetic": "/wɒz/",
+              "posCode": "verb",
+              "posLabel": "助动词",
+              "contextMeaning": "当时正在"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-004-token-007",
+              "tokenIndex": 7,
+              "displayText": "almost",
+              "normalizedText": "almost",
+              "punctuation": "",
+              "phonetic": "/ˈɔːlməʊst/",
+              "posCode": "adverb",
+              "posLabel": "副词",
+              "contextMeaning": "几乎"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-004-token-008",
+              "tokenIndex": 8,
+              "displayText": "beginning",
+              "normalizedText": "beginning",
+              "punctuation": "",
+              "phonetic": "/bɪˈɡɪnɪŋ/",
+              "posCode": "verb",
+              "posLabel": "动词现在分词",
+              "contextMeaning": "开始"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-004-token-009",
+              "tokenIndex": 9,
+              "displayText": "to",
+              "normalizedText": "to",
+              "punctuation": "",
+              "phonetic": "/tə/ 或 /tuː/",
+              "posCode": "particle",
+              "posLabel": "不定式标记",
+              "contextMeaning": "引出开始做的事"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-004-token-010",
+              "tokenIndex": 10,
+              "displayText": "enjoy",
+              "normalizedText": "enjoy",
+              "punctuation": "",
+              "phonetic": "/ɪnˈdʒɔɪ/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "享受"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-004-token-011",
+              "tokenIndex": 11,
+              "displayText": "my",
+              "normalizedText": "my",
+              "punctuation": "",
+              "phonetic": "/maɪ/",
+              "posCode": "determiner",
+              "posLabel": "物主限定词",
+              "contextMeaning": "我的"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-004-token-012",
+              "tokenIndex": 12,
+              "displayText": "test",
+              "normalizedText": "test",
+              "punctuation": ".",
+              "phonetic": "/test/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "考试"
+            }
+          ],
+          "groups": [
+            {
+              "groupId": "nce-2-lesson-069-sentence-004-root",
+              "type": "independent_element",
+              "label": "结构见详细解析",
+              "startToken": 0,
+              "endToken": 12,
+              "parentGroupId": null
+            }
+          ],
+          "hints": {
+            "memoryNote": "描写自以为通过后逐渐放松的心态",
+            "letterShape": "S___ t___ I h__ p_____, I w__ a_____ b________ t_ e____ m_ t___.",
+            "answerNote": "描写自以为通过后逐渐放松的心态"
+          }
+        },
+        {
+          "sentenceId": "nce-2-lesson-069-sentence-005",
+          "order": 5,
+          "sourceParagraphOrder": 1,
+          "sourceSentenceOrder": 5,
+          "english": "The examiner must have been pleased with my performance, for he smiled and said, 'Just one more thing, Mr.",
+          "chinese": "考官当时一定对我的表现很满意，因为他微笑着说：“只剩一件事了，先生……",
+          "translationStatus": "approved",
+          "acceptedAnswers": [],
+          "audioUrl": null,
+          "analysisSource": "ai",
+          "analysisStatus": "approved",
+          "analysisRuleVersion": "understanding-zh-adult-codex-1.0.0",
+          "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。",
+          "understanding": {
+            "courseId": "nce2",
+            "lessonId": "nce-2-lesson-069",
+            "sentenceId": "nce-2-lesson-069-sentence-005",
+            "sentenceOrder": 5,
+            "english": "The examiner must have been pleased with my performance, for he smiled and said, 'Just one more thing, Mr.",
+            "chinese": "考官当时一定对我的表现很满意，因为他微笑着说：“只剩一件事了，先生……",
+            "lesson": "Lesson 69 But not murder!",
+            "intent": "根据考官的反应推测他满意并引出追加要求",
+            "comparison": null,
+            "parts": [
+              {
+                "text": "The examiner must have been pleased with my performance,",
+                "relation": "对过去状态的推断",
+                "meaning": "考官当时一定对我的表现很满意"
+              },
+              {
+                "text": "for he smiled and said,",
+                "relation": "推断依据",
+                "meaning": "因为他微笑着说"
+              },
+              {
+                "text": "'Just one more thing, Mr.",
+                "relation": "引语片段",
+                "meaning": "只剩一件事了，先生"
+              }
+            ],
+            "structureNotes": [
+              {
+                "title": "过去推断",
+                "text": "must have been pleased 推测过去的心情，不表示义务。"
+              },
+              {
+                "title": "引语边界",
+                "text": "Mr. 是称呼的一部分，姓氏在下一练习片段中，不能把它补进当前原文。"
+              }
+            ],
+            "notes": [
+              {
+                "title": "过去推断",
+                "text": "must have been pleased 推测过去的心情，不表示义务。"
+              },
+              {
+                "title": "引语边界",
+                "text": "Mr. 是称呼的一部分，姓氏在下一练习片段中，不能把它补进当前原文。"
+              }
+            ],
+            "structures": [
+              {
+                "text": "The examiner must have been pleased with my performance,",
+                "role": "主句",
+                "explanation": "以推测语气描述考官满意。"
+              },
+              {
+                "text": "for he smiled and said,",
+                "role": "原因并列分句",
+                "explanation": "提供微笑和说话这一判断依据。"
+              },
+              {
+                "text": "'Just one more thing, Mr.",
+                "role": "直接引语片段",
+                "explanation": "省略式追加要求及尚未完整的称呼。"
+              }
+            ],
+            "words": [
+              {
+                "text": "The",
+                "meaning": "这位",
+                "pos": "定冠词",
+                "phonetic": "/ðə/ 或 /ðiː/"
+              },
+              {
+                "text": "examiner",
+                "meaning": "考官",
+                "pos": "名词",
+                "phonetic": "/ɪɡˈzæmɪnə/"
+              },
+              {
+                "text": "must",
+                "meaning": "一定；推断",
+                "pos": "情态动词",
+                "phonetic": "/mʌst/ 或 /məst/"
+              },
+              {
+                "text": "have",
+                "meaning": "构成完成式",
+                "pos": "助动词",
+                "phonetic": "/hæv/"
+              },
+              {
+                "text": "been",
+                "meaning": "处于某状态",
+                "pos": "系动词过去分词",
+                "phonetic": "/biːn/ 或 /bɪn/"
+              },
+              {
+                "text": "pleased",
+                "meaning": "满意的",
+                "pos": "形容词",
+                "phonetic": "/pliːzd/"
+              },
+              {
+                "text": "with",
+                "meaning": "对",
+                "pos": "介词",
+                "phonetic": "/wɪð/"
+              },
+              {
+                "text": "my",
+                "meaning": "我的",
+                "pos": "物主限定词",
+                "phonetic": "/maɪ/"
+              },
+              {
+                "text": "performance,",
+                "meaning": "表现",
+                "pos": "名词",
+                "phonetic": "/pəˈfɔːməns/"
+              },
+              {
+                "text": "for",
+                "meaning": "因为",
+                "pos": "并列连词",
+                "phonetic": "/fɔː/ 或 /fər/"
+              },
+              {
+                "text": "he",
+                "meaning": "他",
+                "pos": "人称代词",
+                "phonetic": "/hiː/"
+              },
+              {
+                "text": "smiled",
+                "meaning": "微笑",
+                "pos": "动词",
+                "phonetic": "/smaɪld/"
+              },
+              {
+                "text": "and",
+                "meaning": "并且",
+                "pos": "并列连词",
+                "phonetic": "/ænd/ 或 /ənd/"
+              },
+              {
+                "text": "said,",
+                "meaning": "说",
+                "pos": "动词",
+                "phonetic": "/sed/"
+              },
+              {
+                "text": "'Just",
+                "meaning": "仅仅",
+                "pos": "副词",
+                "phonetic": "/dʒʌst/"
+              },
+              {
+                "text": "one",
+                "meaning": "一",
+                "pos": "数词",
+                "phonetic": "/wʌn/"
+              },
+              {
+                "text": "more",
+                "meaning": "另外的",
+                "pos": "形容词",
+                "phonetic": "/mɔː/"
+              },
+              {
+                "text": "thing,",
+                "meaning": "一件事",
+                "pos": "名词",
+                "phonetic": "/θɪŋ/"
+              },
+              {
+                "text": "Mr.",
+                "meaning": "先生",
+                "pos": "称谓名词",
+                "phonetic": "/ˈmɪstə/"
+              }
+            ],
+            "analysisSource": "ai",
+            "analysisStatus": "approved",
+            "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+            "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+          },
+          "tokens": [
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-000",
+              "tokenIndex": 0,
+              "displayText": "The",
+              "normalizedText": "the",
+              "punctuation": "",
+              "phonetic": "/ðə/ 或 /ðiː/",
+              "posCode": "determiner",
+              "posLabel": "定冠词",
+              "contextMeaning": "这位"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-001",
+              "tokenIndex": 1,
+              "displayText": "examiner",
+              "normalizedText": "examiner",
+              "punctuation": "",
+              "phonetic": "/ɪɡˈzæmɪnə/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "考官"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-002",
+              "tokenIndex": 2,
+              "displayText": "must",
+              "normalizedText": "must",
+              "punctuation": "",
+              "phonetic": "/mʌst/ 或 /məst/",
+              "posCode": "verb",
+              "posLabel": "情态动词",
+              "contextMeaning": "一定；推断"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-003",
+              "tokenIndex": 3,
+              "displayText": "have",
+              "normalizedText": "have",
+              "punctuation": "",
+              "phonetic": "/hæv/",
+              "posCode": "verb",
+              "posLabel": "助动词",
+              "contextMeaning": "构成完成式"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-004",
+              "tokenIndex": 4,
+              "displayText": "been",
+              "normalizedText": "been",
+              "punctuation": "",
+              "phonetic": "/biːn/ 或 /bɪn/",
+              "posCode": "verb",
+              "posLabel": "系动词过去分词",
+              "contextMeaning": "处于某状态"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-005",
+              "tokenIndex": 5,
+              "displayText": "pleased",
+              "normalizedText": "pleased",
+              "punctuation": "",
+              "phonetic": "/pliːzd/",
+              "posCode": "adjective",
+              "posLabel": "形容词",
+              "contextMeaning": "满意的"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-006",
+              "tokenIndex": 6,
+              "displayText": "with",
+              "normalizedText": "with",
+              "punctuation": "",
+              "phonetic": "/wɪð/",
+              "posCode": "preposition",
+              "posLabel": "介词",
+              "contextMeaning": "对"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-007",
+              "tokenIndex": 7,
+              "displayText": "my",
+              "normalizedText": "my",
+              "punctuation": "",
+              "phonetic": "/maɪ/",
+              "posCode": "determiner",
+              "posLabel": "物主限定词",
+              "contextMeaning": "我的"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-008",
+              "tokenIndex": 8,
+              "displayText": "performance",
+              "normalizedText": "performance",
+              "punctuation": ",",
+              "phonetic": "/pəˈfɔːməns/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "表现"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-009",
+              "tokenIndex": 9,
+              "displayText": "for",
+              "normalizedText": "for",
+              "punctuation": "",
+              "phonetic": "/fɔː/ 或 /fər/",
+              "posCode": "conjunction",
+              "posLabel": "并列连词",
+              "contextMeaning": "因为"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-010",
+              "tokenIndex": 10,
+              "displayText": "he",
+              "normalizedText": "he",
+              "punctuation": "",
+              "phonetic": "/hiː/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "他"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-011",
+              "tokenIndex": 11,
+              "displayText": "smiled",
+              "normalizedText": "smiled",
+              "punctuation": "",
+              "phonetic": "/smaɪld/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "微笑"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-012",
+              "tokenIndex": 12,
+              "displayText": "and",
+              "normalizedText": "and",
+              "punctuation": "",
+              "phonetic": "/ænd/ 或 /ənd/",
+              "posCode": "conjunction",
+              "posLabel": "并列连词",
+              "contextMeaning": "并且"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-013",
+              "tokenIndex": 13,
+              "displayText": "said",
+              "normalizedText": "said",
+              "punctuation": ",",
+              "phonetic": "/sed/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "说"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-014",
+              "tokenIndex": 14,
+              "displayText": "'Just",
+              "normalizedText": "just",
+              "punctuation": "",
+              "phonetic": "/dʒʌst/",
+              "posCode": "adverb",
+              "posLabel": "副词",
+              "contextMeaning": "仅仅"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-015",
+              "tokenIndex": 15,
+              "displayText": "one",
+              "normalizedText": "one",
+              "punctuation": "",
+              "phonetic": "/wʌn/",
+              "posCode": "numeral",
+              "posLabel": "数词",
+              "contextMeaning": "一"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-016",
+              "tokenIndex": 16,
+              "displayText": "more",
+              "normalizedText": "more",
+              "punctuation": "",
+              "phonetic": "/mɔː/",
+              "posCode": "adjective",
+              "posLabel": "形容词",
+              "contextMeaning": "另外的"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-017",
+              "tokenIndex": 17,
+              "displayText": "thing",
+              "normalizedText": "thing",
+              "punctuation": ",",
+              "phonetic": "/θɪŋ/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "一件事"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-005-token-018",
+              "tokenIndex": 18,
+              "displayText": "Mr",
+              "normalizedText": "mr",
+              "punctuation": ".",
+              "phonetic": "/ˈmɪstə/",
+              "posCode": "noun",
+              "posLabel": "称谓名词",
+              "contextMeaning": "先生"
+            }
+          ],
+          "groups": [
+            {
+              "groupId": "nce-2-lesson-069-sentence-005-root",
+              "type": "independent_element",
+              "label": "结构见详细解析",
+              "startToken": 0,
+              "endToken": 18,
+              "parentGroupId": null
+            }
+          ],
+          "hints": {
+            "memoryNote": "根据考官的反应推测他满意并引出追加要求",
+            "letterShape": "T__ e_______ m___ h___ b___ p______ w___ m_ p__________, f__ h_ s_____ a__ s___, 'J___ o__ m___ t____, M_.",
+            "answerNote": "根据考官的反应推测他满意并引出追加要求"
+          }
+        },
+        {
+          "sentenceId": "nce-2-lesson-069-sentence-006",
+          "order": 6,
+          "sourceParagraphOrder": 1,
+          "sourceSentenceOrder": 6,
+          "english": "Eames.",
+          "chinese": "伊姆斯。",
+          "translationStatus": "approved",
+          "acceptedAnswers": [],
+          "audioUrl": null,
+          "analysisSource": "ai",
+          "analysisStatus": "approved",
+          "analysisRuleVersion": "understanding-zh-adult-codex-1.0.0",
+          "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。",
+          "understanding": {
+            "courseId": "nce2",
+            "lessonId": "nce-2-lesson-069",
+            "sentenceId": "nce-2-lesson-069-sentence-006",
+            "sentenceOrder": 6,
+            "english": "Eames.",
+            "chinese": "伊姆斯。",
+            "lesson": "Lesson 69 But not murder!",
+            "intent": "接续前一片段中的姓氏称呼",
+            "comparison": null,
+            "parts": [
+              {
+                "text": "Eames.",
+                "relation": "称呼续接",
+                "meaning": "伊姆斯"
+              }
+            ],
+            "structureNotes": [
+              {
+                "title": "姓名片段",
+                "text": "Eames 接续前面的 Mr.，当前片段只有姓氏。"
+              }
+            ],
+            "notes": [
+              {
+                "title": "姓名片段",
+                "text": "Eames 接续前面的 Mr.，当前片段只有姓氏。"
+              }
+            ],
+            "structures": [
+              {
+                "text": "Eames.",
+                "role": "呼语片段",
+                "explanation": "与前文称谓组成对考生的称呼。"
+              }
+            ],
+            "words": [
+              {
+                "text": "Eames.",
+                "meaning": "伊姆斯；人名",
+                "pos": "专有名词",
+                "phonetic": "/iːmz/"
+              }
+            ],
+            "analysisSource": "ai",
+            "analysisStatus": "approved",
+            "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+            "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+          },
+          "tokens": [
+            {
+              "tokenId": "nce-2-lesson-069-sentence-006-token-000",
+              "tokenIndex": 0,
+              "displayText": "Eames",
+              "normalizedText": "eames",
+              "punctuation": ".",
+              "phonetic": "/iːmz/",
+              "posCode": "noun",
+              "posLabel": "专有名词",
+              "contextMeaning": "伊姆斯；人名"
+            }
+          ],
+          "groups": [
+            {
+              "groupId": "nce-2-lesson-069-sentence-006-root",
+              "type": "independent_element",
+              "label": "呼语片段",
+              "startToken": 0,
+              "endToken": 0,
+              "parentGroupId": null
+            }
+          ],
+          "hints": {
+            "memoryNote": "接续前一片段中的姓氏称呼",
+            "letterShape": "E____.",
+            "answerNote": "接续前一片段中的姓氏称呼"
+          }
+        },
+        {
+          "sentenceId": "nce-2-lesson-069-sentence-007",
+          "order": 7,
+          "sourceParagraphOrder": 1,
+          "sourceSentenceOrder": 7,
+          "english": "Let us suppose that a child suddenly crosses the road in front of you.",
+          "chinese": "我们假设有个孩子突然在你面前横穿马路。",
+          "translationStatus": "approved",
+          "acceptedAnswers": [],
+          "audioUrl": null,
+          "analysisSource": "ai",
+          "analysisStatus": "approved",
+          "analysisRuleVersion": "understanding-zh-adult-codex-1.0.0",
+          "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。",
+          "understanding": {
+            "courseId": "nce2",
+            "lessonId": "nce-2-lesson-069",
+            "sentenceId": "nce-2-lesson-069-sentence-007",
+            "sentenceOrder": 7,
+            "english": "Let us suppose that a child suddenly crosses the road in front of you.",
+            "chinese": "我们假设有个孩子突然在你面前横穿马路。",
+            "lesson": "Lesson 69 But not murder!",
+            "intent": "设定紧急停车测试的假想情境",
+            "comparison": null,
+            "parts": [
+              {
+                "text": "Let us suppose",
+                "relation": "共同设想",
+                "meaning": "我们来假设"
+              },
+              {
+                "text": "that a child suddenly crosses the road in front of you.",
+                "relation": "假设内容",
+                "meaning": "一个孩子突然在你面前横穿马路"
+              }
+            ],
+            "structureNotes": [
+              {
+                "title": "使役结构",
+                "text": "Let 后接 us 和动词原形 suppose，提出共同设想。"
+              },
+              {
+                "title": "假设内容",
+                "text": "that 引出的宾语从句用一般现在时描绘设定的场景。"
+              }
+            ],
+            "notes": [
+              {
+                "title": "使役结构",
+                "text": "Let 后接 us 和动词原形 suppose，提出共同设想。"
+              },
+              {
+                "title": "假设内容",
+                "text": "that 引出的宾语从句用一般现在时描绘设定的场景。"
+              }
+            ],
+            "structures": [
+              {
+                "text": "Let us suppose",
+                "role": "祈使句谓语及宾补",
+                "explanation": "提出共同设想的建议。"
+              },
+              {
+                "text": "that a child suddenly crosses the road in front of you.",
+                "role": "宾语从句",
+                "explanation": "说明 suppose 的具体内容。"
+              }
+            ],
+            "words": [
+              {
+                "text": "Let",
+                "meaning": "让",
+                "pos": "动词",
+                "phonetic": "/let/"
+              },
+              {
+                "text": "us",
+                "meaning": "我们",
+                "pos": "人称代词",
+                "phonetic": "/əs/ 或 /ʌs/"
+              },
+              {
+                "text": "suppose",
+                "meaning": "假设",
+                "pos": "动词",
+                "phonetic": "/səˈpəʊz/"
+              },
+              {
+                "text": "that",
+                "meaning": "引出假设内容",
+                "pos": "从属连词",
+                "phonetic": "/ðæt/ 或 /ðət/"
+              },
+              {
+                "text": "a",
+                "meaning": "一个",
+                "pos": "不定冠词",
+                "phonetic": "/ə/ 或 /eɪ/"
+              },
+              {
+                "text": "child",
+                "meaning": "孩子",
+                "pos": "名词",
+                "phonetic": "/tʃaɪld/"
+              },
+              {
+                "text": "suddenly",
+                "meaning": "突然",
+                "pos": "副词",
+                "phonetic": "/ˈsʌdənli/"
+              },
+              {
+                "text": "crosses",
+                "meaning": "横穿",
+                "pos": "动词",
+                "phonetic": "/ˈkrɒsɪz/"
+              },
+              {
+                "text": "the",
+                "meaning": "这条",
+                "pos": "定冠词",
+                "phonetic": "/ðə/ 或 /ðiː/"
+              },
+              {
+                "text": "road",
+                "meaning": "马路",
+                "pos": "名词",
+                "phonetic": "/rəʊd/"
+              },
+              {
+                "text": "in",
+                "meaning": "在",
+                "pos": "介词",
+                "phonetic": "/ɪn/"
+              },
+              {
+                "text": "front",
+                "meaning": "前方；构成in front of",
+                "pos": "名词",
+                "phonetic": "/frʌnt/"
+              },
+              {
+                "text": "of",
+                "meaning": "属于；构成位置短语",
+                "pos": "介词",
+                "phonetic": "/ɒv/ 或 /əv/"
+              },
+              {
+                "text": "you.",
+                "meaning": "你",
+                "pos": "人称代词",
+                "phonetic": "/juː/ 或 /jʊ/"
+              }
+            ],
+            "analysisSource": "ai",
+            "analysisStatus": "approved",
+            "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+            "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+          },
+          "tokens": [
+            {
+              "tokenId": "nce-2-lesson-069-sentence-007-token-000",
+              "tokenIndex": 0,
+              "displayText": "Let",
+              "normalizedText": "let",
+              "punctuation": "",
+              "phonetic": "/let/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "让"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-007-token-001",
+              "tokenIndex": 1,
+              "displayText": "us",
+              "normalizedText": "us",
+              "punctuation": "",
+              "phonetic": "/əs/ 或 /ʌs/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "我们"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-007-token-002",
+              "tokenIndex": 2,
+              "displayText": "suppose",
+              "normalizedText": "suppose",
+              "punctuation": "",
+              "phonetic": "/səˈpəʊz/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "假设"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-007-token-003",
+              "tokenIndex": 3,
+              "displayText": "that",
+              "normalizedText": "that",
+              "punctuation": "",
+              "phonetic": "/ðæt/ 或 /ðət/",
+              "posCode": "conjunction",
+              "posLabel": "从属连词",
+              "contextMeaning": "引出假设内容"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-007-token-004",
+              "tokenIndex": 4,
+              "displayText": "a",
+              "normalizedText": "a",
+              "punctuation": "",
+              "phonetic": "/ə/ 或 /eɪ/",
+              "posCode": "determiner",
+              "posLabel": "不定冠词",
+              "contextMeaning": "一个"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-007-token-005",
+              "tokenIndex": 5,
+              "displayText": "child",
+              "normalizedText": "child",
+              "punctuation": "",
+              "phonetic": "/tʃaɪld/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "孩子"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-007-token-006",
+              "tokenIndex": 6,
+              "displayText": "suddenly",
+              "normalizedText": "suddenly",
+              "punctuation": "",
+              "phonetic": "/ˈsʌdənli/",
+              "posCode": "adverb",
+              "posLabel": "副词",
+              "contextMeaning": "突然"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-007-token-007",
+              "tokenIndex": 7,
+              "displayText": "crosses",
+              "normalizedText": "crosses",
+              "punctuation": "",
+              "phonetic": "/ˈkrɒsɪz/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "横穿"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-007-token-008",
+              "tokenIndex": 8,
+              "displayText": "the",
+              "normalizedText": "the",
+              "punctuation": "",
+              "phonetic": "/ðə/ 或 /ðiː/",
+              "posCode": "determiner",
+              "posLabel": "定冠词",
+              "contextMeaning": "这条"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-007-token-009",
+              "tokenIndex": 9,
+              "displayText": "road",
+              "normalizedText": "road",
+              "punctuation": "",
+              "phonetic": "/rəʊd/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "马路"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-007-token-010",
+              "tokenIndex": 10,
+              "displayText": "in",
+              "normalizedText": "in",
+              "punctuation": "",
+              "phonetic": "/ɪn/",
+              "posCode": "preposition",
+              "posLabel": "介词",
+              "contextMeaning": "在"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-007-token-011",
+              "tokenIndex": 11,
+              "displayText": "front",
+              "normalizedText": "front",
+              "punctuation": "",
+              "phonetic": "/frʌnt/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "前方；构成in front of"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-007-token-012",
+              "tokenIndex": 12,
+              "displayText": "of",
+              "normalizedText": "of",
+              "punctuation": "",
+              "phonetic": "/ɒv/ 或 /əv/",
+              "posCode": "preposition",
+              "posLabel": "介词",
+              "contextMeaning": "属于；构成位置短语"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-007-token-013",
+              "tokenIndex": 13,
+              "displayText": "you",
+              "normalizedText": "you",
+              "punctuation": ".",
+              "phonetic": "/juː/ 或 /jʊ/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "你"
+            }
+          ],
+          "groups": [
+            {
+              "groupId": "nce-2-lesson-069-sentence-007-root",
+              "type": "independent_element",
+              "label": "结构见详细解析",
+              "startToken": 0,
+              "endToken": 13,
+              "parentGroupId": null
+            }
+          ],
+          "hints": {
+            "memoryNote": "设定紧急停车测试的假想情境",
+            "letterShape": "L__ u_ s______ t___ a c____ s_______ c______ t__ r___ i_ f____ o_ y__.",
+            "answerNote": "设定紧急停车测试的假想情境"
+          }
+        },
+        {
+          "sentenceId": "nce-2-lesson-069-sentence-008-part-01",
+          "order": 8,
+          "sourceParagraphOrder": 1,
+          "sourceSentenceOrder": 8,
+          "english": "As soon as I tap on the window, you must stop within five feet.'",
+          "chinese": "“我一敲车窗，你就必须在五英尺内停下。”",
+          "translationStatus": "approved",
+          "acceptedAnswers": [],
+          "audioUrl": null,
+          "analysisSource": "ai",
+          "analysisStatus": "approved",
+          "analysisRuleVersion": "reviewed-sentence-boundaries-1.0.0",
+          "reviewNote": "豆包依据已有内容调整并独立请求复核；非人工核验。拆分边界正确，中文翻译贴合语境，提点抓住易误解的距离上限与叙事顺序，结构与信息关系均准确；已修正第二句parts拼接的空格，确保拼回与原句一致。",
+          "understanding": {
+            "courseId": "nce2",
+            "lessonId": "nce-2-lesson-069",
+            "sentenceId": "nce-2-lesson-069-sentence-008-part-01",
+            "sentenceOrder": 8,
+            "english": "As soon as I tap on the window, you must stop within five feet.'",
+            "chinese": "“我一敲车窗，你就必须在五英尺内停下。”",
+            "lesson": "Lesson 69 But not murder!",
+            "parentSentenceId": "nce-2-lesson-069-sentence-008",
+            "parentEnglish": "As soon as I tap on the window, you must stop within five feet.' I continued driving and after some time, the examiner tapped loudly.",
+            "tokenOffset": 0,
+            "segmentOrder": 1,
+            "segmentCount": 2,
+            "contentRevision": 5,
+            "intent": "说明考官给出的停车指令，明确触发信号和距离要求。",
+            "comparison": null,
+            "parts": [
+              {
+                "text": "As soon as I tap on the window,",
+                "relation": "触发停车动作的时间条件",
+                "meaning": "我一敲车窗，"
+              },
+              {
+                "text": "you must stop within five feet.'",
+                "relation": "停车的具体要求",
+                "meaning": "你就必须在五英尺内停下。”"
+              }
+            ],
+            "notes": [
+              {
+                "title": "时间从句的时态",
+                "text": "As soon as 引导将来触发的动作时，从句用一般现在时 tap 表示将来条件。"
+              },
+              {
+                "title": "距离上限表达",
+                "text": "within five feet 表示从信号触发开始算，停车距离不得超过五英尺，是上限要求。"
+              }
+            ],
+            "structureNotes": [
+              {
+                "title": "时间从句的时态",
+                "text": "As soon as 引导将来触发的动作时，从句用一般现在时 tap 表示将来条件。"
+              },
+              {
+                "title": "距离上限表达",
+                "text": "within five feet 表示从信号触发开始算，停车距离不得超过五英尺，是上限要求。"
+              }
+            ],
+            "structures": [
+              {
+                "text": "As soon as I tap on the window,",
+                "role": "时间状语从句",
+                "explanation": "说明停车指令的触发时点。"
+              },
+              {
+                "text": "you must stop within five feet.'",
+                "role": "主句",
+                "explanation": "规定停车动作及距离上限。"
+              }
+            ],
+            "words": [
+              {
+                "text": "As",
+                "meaning": "与soon as组成一……就",
+                "pos": "连词",
+                "phonetic": "/æz/ 或 /əz/"
+              },
+              {
+                "text": "soon",
+                "meaning": "立即；构成as soon as",
+                "pos": "副词",
+                "phonetic": "/suːn/"
+              },
+              {
+                "text": "as",
+                "meaning": "与as soon组成时间连词",
+                "pos": "连词",
+                "phonetic": "/æz/ 或 /əz/"
+              },
+              {
+                "text": "I",
+                "meaning": "我",
+                "pos": "人称代词",
+                "phonetic": "/aɪ/"
+              },
+              {
+                "text": "tap",
+                "meaning": "轻敲",
+                "pos": "动词",
+                "phonetic": "/tæp/"
+              },
+              {
+                "text": "on",
+                "meaning": "在……上",
+                "pos": "介词",
+                "phonetic": "/ɒn/"
+              },
+              {
+                "text": "the",
+                "meaning": "这扇",
+                "pos": "定冠词",
+                "phonetic": "/ðə/ 或 /ðiː/"
+              },
+              {
+                "text": "window,",
+                "meaning": "车窗",
+                "pos": "名词",
+                "phonetic": "/ˈwɪndəʊ/"
+              },
+              {
+                "text": "you",
+                "meaning": "你",
+                "pos": "人称代词",
+                "phonetic": "/juː/ 或 /jʊ/"
+              },
+              {
+                "text": "must",
+                "meaning": "必须",
+                "pos": "情态动词",
+                "phonetic": "/mʌst/ 或 /məst/"
+              },
+              {
+                "text": "stop",
+                "meaning": "停下",
+                "pos": "动词",
+                "phonetic": "/stɒp/"
+              },
+              {
+                "text": "within",
+                "meaning": "在……范围内",
+                "pos": "介词",
+                "phonetic": "/wɪðˈɪn/ 或 /wɪˈðɪn/"
+              },
+              {
+                "text": "five",
+                "meaning": "五",
+                "pos": "数词",
+                "phonetic": "/faɪv/"
+              },
+              {
+                "text": "feet.'",
+                "meaning": "英尺",
+                "pos": "名词",
+                "phonetic": "/fiːt/"
+              }
+            ],
+            "analysisSource": "ai",
+            "analysisStatus": "approved",
+            "ruleVersion": "reviewed-sentence-boundaries-1.0.0",
+            "reviewNote": "豆包依据已有内容调整并独立请求复核；非人工核验。拆分边界正确，中文翻译贴合语境，提点抓住易误解的距离上限与叙事顺序，结构与信息关系均准确；已修正第二句parts拼接的空格，确保拼回与原句一致。",
+            "hints": {
+              "memoryNote": "说明考官给出的停车指令，明确触发信号和距离要求。",
+              "letterShape": "A_ s___ a_ I t__ o_ t__ w_____, y__ m___ s___ w_____ f___ f___.'",
+              "answerNote": "停车要求有两个清晰边界：as soon as 规定何时开始反应，within five feet 规定停车距离上限，不是要停满五英尺。"
+            }
+          },
+          "tokens": [
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-000",
+              "tokenIndex": 0,
+              "displayText": "As",
+              "normalizedText": "as",
+              "punctuation": "",
+              "phonetic": "/æz/ 或 /əz/",
+              "posCode": "conjunction",
+              "posLabel": "连词",
+              "contextMeaning": "与soon as组成一……就"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-001",
+              "tokenIndex": 1,
+              "displayText": "soon",
+              "normalizedText": "soon",
+              "punctuation": "",
+              "phonetic": "/suːn/",
+              "posCode": "adverb",
+              "posLabel": "副词",
+              "contextMeaning": "立即；构成as soon as"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-002",
+              "tokenIndex": 2,
+              "displayText": "as",
+              "normalizedText": "as",
+              "punctuation": "",
+              "phonetic": "/æz/ 或 /əz/",
+              "posCode": "conjunction",
+              "posLabel": "连词",
+              "contextMeaning": "与as soon组成时间连词"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-003",
+              "tokenIndex": 3,
+              "displayText": "I",
+              "normalizedText": "i",
+              "punctuation": "",
+              "phonetic": "/aɪ/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "我"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-004",
+              "tokenIndex": 4,
+              "displayText": "tap",
+              "normalizedText": "tap",
+              "punctuation": "",
+              "phonetic": "/tæp/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "轻敲"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-005",
+              "tokenIndex": 5,
+              "displayText": "on",
+              "normalizedText": "on",
+              "punctuation": "",
+              "phonetic": "/ɒn/",
+              "posCode": "preposition",
+              "posLabel": "介词",
+              "contextMeaning": "在……上"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-006",
+              "tokenIndex": 6,
+              "displayText": "the",
+              "normalizedText": "the",
+              "punctuation": "",
+              "phonetic": "/ðə/ 或 /ðiː/",
+              "posCode": "determiner",
+              "posLabel": "定冠词",
+              "contextMeaning": "这扇"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-007",
+              "tokenIndex": 7,
+              "displayText": "window",
+              "normalizedText": "window",
+              "punctuation": ",",
+              "phonetic": "/ˈwɪndəʊ/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "车窗"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-008",
+              "tokenIndex": 8,
+              "displayText": "you",
+              "normalizedText": "you",
+              "punctuation": "",
+              "phonetic": "/juː/ 或 /jʊ/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "你"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-009",
+              "tokenIndex": 9,
+              "displayText": "must",
+              "normalizedText": "must",
+              "punctuation": "",
+              "phonetic": "/mʌst/ 或 /məst/",
+              "posCode": "verb",
+              "posLabel": "情态动词",
+              "contextMeaning": "必须"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-010",
+              "tokenIndex": 10,
+              "displayText": "stop",
+              "normalizedText": "stop",
+              "punctuation": "",
+              "phonetic": "/stɒp/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "停下"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-011",
+              "tokenIndex": 11,
+              "displayText": "within",
+              "normalizedText": "within",
+              "punctuation": "",
+              "phonetic": "/wɪðˈɪn/ 或 /wɪˈðɪn/",
+              "posCode": "preposition",
+              "posLabel": "介词",
+              "contextMeaning": "在……范围内"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-012",
+              "tokenIndex": 12,
+              "displayText": "five",
+              "normalizedText": "five",
+              "punctuation": "",
+              "phonetic": "/faɪv/",
+              "posCode": "numeral",
+              "posLabel": "数词",
+              "contextMeaning": "五"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-013",
+              "tokenIndex": 13,
+              "displayText": "feet",
+              "normalizedText": "feet",
+              "punctuation": ".'",
+              "phonetic": "/fiːt/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "英尺"
+            }
+          ],
+          "groups": [
+            {
+              "groupId": "nce-2-lesson-069-sentence-008-part-01-root",
+              "type": "independent_element",
+              "label": "结构见详细解析",
+              "startToken": 0,
+              "endToken": 13,
+              "parentGroupId": null
+            }
+          ],
+          "hints": {
+            "memoryNote": "说明考官给出的停车指令，明确触发信号和距离要求。",
+            "letterShape": "A_ s___ a_ I t__ o_ t__ w_____, y__ m___ s___ w_____ f___ f___.'",
+            "answerNote": "停车要求有两个清晰边界：as soon as 规定何时开始反应，within five feet 规定停车距离上限，不是要停满五英尺。"
+          }
+        },
+        {
+          "sentenceId": "nce-2-lesson-069-sentence-008-part-02",
+          "order": 9,
+          "sourceParagraphOrder": 1,
+          "sourceSentenceOrder": 9,
+          "english": "I continued driving and after some time, the examiner tapped loudly.",
+          "chinese": "我继续开车，过了一会儿，考官重重地敲了车窗。",
+          "translationStatus": "approved",
+          "acceptedAnswers": [],
+          "audioUrl": null,
+          "analysisSource": "ai",
+          "analysisStatus": "approved",
+          "analysisRuleVersion": "reviewed-sentence-boundaries-1.0.0",
+          "reviewNote": "豆包依据已有内容调整并独立请求复核；非人工核验。拆分边界正确，中文翻译贴合语境，提点抓住易误解的距离上限与叙事顺序，结构与信息关系均准确；已修正第二句parts拼接的空格，确保拼回与原句一致。",
+          "understanding": {
+            "courseId": "nce2",
+            "lessonId": "nce-2-lesson-069",
+            "sentenceId": "nce-2-lesson-069-sentence-008-part-02",
+            "sentenceOrder": 9,
+            "english": "I continued driving and after some time, the examiner tapped loudly.",
+            "chinese": "我继续开车，过了一会儿，考官重重地敲了车窗。",
+            "lesson": "Lesson 69 But not murder!",
+            "parentSentenceId": "nce-2-lesson-069-sentence-008",
+            "parentEnglish": "As soon as I tap on the window, you must stop within five feet.' I continued driving and after some time, the examiner tapped loudly.",
+            "tokenOffset": 14,
+            "segmentOrder": 2,
+            "segmentCount": 2,
+            "contentRevision": 5,
+            "intent": "转回实际驾驶经过，叙述我继续行驶后考官发出敲击信号的过程。",
+            "comparison": null,
+            "parts": [
+              {
+                "text": "I continued driving",
+                "relation": "叙事主句，说明我当时的持续动作",
+                "meaning": "我继续开车"
+              },
+              {
+                "text": " and after some time, the examiner tapped loudly.",
+                "relation": "并列分句，叙述随后发生的信号事件",
+                "meaning": "，过了一会儿，考官重重地敲了车窗。"
+              }
+            ],
+            "notes": [
+              {
+                "title": "叙事的时间顺序",
+                "text": "and 连接两个先后发生的叙事动作，after some time 明确标出两个动作之间的时间间隔。"
+              }
+            ],
+            "structureNotes": [
+              {
+                "title": "叙事的时间顺序",
+                "text": "and 连接两个先后发生的叙事动作，after some time 明确标出两个动作之间的时间间隔。"
+              }
+            ],
+            "structures": [
+              {
+                "text": "I continued driving",
+                "role": "叙事主句",
+                "explanation": "转回当时的实际驾驶：I 是主语，continued 是谓语，driving 是动名词作宾语。"
+              },
+              {
+                "text": "and after some time, the examiner tapped loudly.",
+                "role": "并列分句",
+                "explanation": "叙述随后出现的敲击信号：after some time 是时间状语，the examiner 是主语，tapped 是谓语，loudly 是副词修饰 tapped。"
+              }
+            ],
+            "words": [
+              {
+                "text": "I",
+                "meaning": "我",
+                "pos": "人称代词",
+                "phonetic": "/aɪ/"
+              },
+              {
+                "text": "continued",
+                "meaning": "继续",
+                "pos": "动词",
+                "phonetic": "/kənˈtɪnjuːd/"
+              },
+              {
+                "text": "driving",
+                "meaning": "驾驶",
+                "pos": "动名词",
+                "phonetic": "/ˈdraɪvɪŋ/"
+              },
+              {
+                "text": "and",
+                "meaning": "然后",
+                "pos": "并列连词",
+                "phonetic": "/ænd/ 或 /ənd/"
+              },
+              {
+                "text": "after",
+                "meaning": "在……之后",
+                "pos": "介词",
+                "phonetic": "/ˈɑːftə/"
+              },
+              {
+                "text": "some",
+                "meaning": "一些",
+                "pos": "不定限定词",
+                "phonetic": "/səm/ 或 /sʌm/"
+              },
+              {
+                "text": "time,",
+                "meaning": "时间",
+                "pos": "名词",
+                "phonetic": "/taɪm/"
+              },
+              {
+                "text": "the",
+                "meaning": "这位",
+                "pos": "定冠词",
+                "phonetic": "/ðə/ 或 /ðiː/"
+              },
+              {
+                "text": "examiner",
+                "meaning": "考官",
+                "pos": "名词",
+                "phonetic": "/ɪɡˈzæmɪnə/"
+              },
+              {
+                "text": "tapped",
+                "meaning": "敲击",
+                "pos": "动词",
+                "phonetic": "/tæpt/"
+              },
+              {
+                "text": "loudly.",
+                "meaning": "响亮地",
+                "pos": "副词",
+                "phonetic": "/ˈlaʊdli/"
+              }
+            ],
+            "analysisSource": "ai",
+            "analysisStatus": "approved",
+            "ruleVersion": "reviewed-sentence-boundaries-1.0.0",
+            "reviewNote": "豆包依据已有内容调整并独立请求复核；非人工核验。拆分边界正确，中文翻译贴合语境，提点抓住易误解的距离上限与叙事顺序，结构与信息关系均准确；已修正第二句parts拼接的空格，确保拼回与原句一致。",
+            "hints": {
+              "memoryNote": "转回实际驾驶经过，叙述我继续行驶后考官发出敲击信号的过程。",
+              "letterShape": "I c________ d______ a__ a____ s___ t___, t__ e_______ t_____ l_____.",
+              "answerNote": "前半句说我继续行驶，是在等待信号；后半句接考官敲窗，把要求落到实际场景里。叙述时先讲持续的动作，再讲触发事件，符合事情推进的顺序。"
+            }
+          },
+          "tokens": [
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-014",
+              "tokenIndex": 0,
+              "displayText": "I",
+              "normalizedText": "i",
+              "punctuation": "",
+              "phonetic": "/aɪ/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "我"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-015",
+              "tokenIndex": 1,
+              "displayText": "continued",
+              "normalizedText": "continued",
+              "punctuation": "",
+              "phonetic": "/kənˈtɪnjuːd/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "继续"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-016",
+              "tokenIndex": 2,
+              "displayText": "driving",
+              "normalizedText": "driving",
+              "punctuation": "",
+              "phonetic": "/ˈdraɪvɪŋ/",
+              "posCode": "noun",
+              "posLabel": "动名词",
+              "contextMeaning": "驾驶"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-017",
+              "tokenIndex": 3,
+              "displayText": "and",
+              "normalizedText": "and",
+              "punctuation": "",
+              "phonetic": "/ænd/ 或 /ənd/",
+              "posCode": "conjunction",
+              "posLabel": "并列连词",
+              "contextMeaning": "然后"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-018",
+              "tokenIndex": 4,
+              "displayText": "after",
+              "normalizedText": "after",
+              "punctuation": "",
+              "phonetic": "/ˈɑːftə/",
+              "posCode": "preposition",
+              "posLabel": "介词",
+              "contextMeaning": "在……之后"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-019",
+              "tokenIndex": 5,
+              "displayText": "some",
+              "normalizedText": "some",
+              "punctuation": "",
+              "phonetic": "/səm/ 或 /sʌm/",
+              "posCode": "determiner",
+              "posLabel": "不定限定词",
+              "contextMeaning": "一些"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-020",
+              "tokenIndex": 6,
+              "displayText": "time",
+              "normalizedText": "time",
+              "punctuation": ",",
+              "phonetic": "/taɪm/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "时间"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-021",
+              "tokenIndex": 7,
+              "displayText": "the",
+              "normalizedText": "the",
+              "punctuation": "",
+              "phonetic": "/ðə/ 或 /ðiː/",
+              "posCode": "determiner",
+              "posLabel": "定冠词",
+              "contextMeaning": "这位"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-022",
+              "tokenIndex": 8,
+              "displayText": "examiner",
+              "normalizedText": "examiner",
+              "punctuation": "",
+              "phonetic": "/ɪɡˈzæmɪnə/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "考官"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-023",
+              "tokenIndex": 9,
+              "displayText": "tapped",
+              "normalizedText": "tapped",
+              "punctuation": "",
+              "phonetic": "/tæpt/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "敲击"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-008-token-024",
+              "tokenIndex": 10,
+              "displayText": "loudly",
+              "normalizedText": "loudly",
+              "punctuation": ".",
+              "phonetic": "/ˈlaʊdli/",
+              "posCode": "adverb",
+              "posLabel": "副词",
+              "contextMeaning": "响亮地"
+            }
+          ],
+          "groups": [
+            {
+              "groupId": "nce-2-lesson-069-sentence-008-part-02-root",
+              "type": "independent_element",
+              "label": "结构见详细解析",
+              "startToken": 0,
+              "endToken": 10,
+              "parentGroupId": null
+            }
+          ],
+          "hints": {
+            "memoryNote": "转回实际驾驶经过，叙述我继续行驶后考官发出敲击信号的过程。",
+            "letterShape": "I c________ d______ a__ a____ s___ t___, t__ e_______ t_____ l_____.",
+            "answerNote": "前半句说我继续行驶，是在等待信号；后半句接考官敲窗，把要求落到实际场景里。叙述时先讲持续的动作，再讲触发事件，符合事情推进的顺序。"
+          }
+        },
+        {
+          "sentenceId": "nce-2-lesson-069-sentence-009-part-01",
+          "order": 10,
+          "sourceParagraphOrder": 1,
+          "sourceSentenceOrder": 10,
+          "english": "Though the sound could be heard clearly,",
+          "chinese": "虽然那声音听得很清楚，",
+          "translationStatus": "approved",
+          "acceptedAnswers": [],
+          "audioUrl": null,
+          "analysisSource": "ai",
+          "analysisStatus": "approved",
+          "analysisRuleVersion": "understanding-zh-adult-codex-1.0.0",
+          "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。",
+          "understanding": {
+            "courseId": "nce2",
+            "lessonId": "nce-2-lesson-069",
+            "sentenceId": "nce-2-lesson-069-sentence-009-part-01",
+            "sentenceOrder": 10,
+            "english": "Though the sound could be heard clearly,",
+            "chinese": "虽然那声音听得很清楚，",
+            "lesson": "Lesson 69 But not murder!",
+            "intent": "承认信号清楚以衬托后面的反应迟缓",
+            "comparison": null,
+            "parts": [
+              {
+                "text": "Though the sound could be heard clearly,",
+                "relation": "让步背景",
+                "meaning": "虽然那声音听得很清楚"
+              }
+            ],
+            "structureNotes": [
+              {
+                "title": "让步片段",
+                "text": "Though 引导让步从句，结果在后一练习片段中。"
+              },
+              {
+                "title": "被动感知",
+                "text": "could be heard 表示声音能够被听到，不强调谁听。"
+              }
+            ],
+            "notes": [
+              {
+                "title": "让步片段",
+                "text": "Though 引导让步从句，结果在后一练习片段中。"
+              },
+              {
+                "title": "被动感知",
+                "text": "could be heard 表示声音能够被听到，不强调谁听。"
+              }
+            ],
+            "structures": [
+              {
+                "text": "Though the sound could be heard clearly,",
+                "role": "让步状语从句",
+                "explanation": "承认声音清楚这一事实。"
+              }
+            ],
+            "words": [
+              {
+                "text": "Though",
+                "meaning": "虽然",
+                "pos": "从属连词",
+                "phonetic": "/ðəʊ/"
+              },
+              {
+                "text": "the",
+                "meaning": "那",
+                "pos": "定冠词",
+                "phonetic": "/ðə/ 或 /ðiː/"
+              },
+              {
+                "text": "sound",
+                "meaning": "声音",
+                "pos": "名词",
+                "phonetic": "/saʊnd/"
+              },
+              {
+                "text": "could",
+                "meaning": "能够",
+                "pos": "情态动词",
+                "phonetic": "/kʊd/"
+              },
+              {
+                "text": "be",
+                "meaning": "构成被动",
+                "pos": "助动词",
+                "phonetic": "/biː/ 或 /bi/"
+              },
+              {
+                "text": "heard",
+                "meaning": "听到",
+                "pos": "动词过去分词",
+                "phonetic": "/hɜːd/"
+              },
+              {
+                "text": "clearly,",
+                "meaning": "清楚地",
+                "pos": "副词",
+                "phonetic": "/ˈklɪəli/"
+              }
+            ],
+            "analysisSource": "ai",
+            "analysisStatus": "approved",
+            "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+            "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+          },
+          "tokens": [
+            {
+              "tokenId": "nce-2-lesson-069-sentence-009-part-01-token-000",
+              "tokenIndex": 0,
+              "displayText": "Though",
+              "normalizedText": "though",
+              "punctuation": "",
+              "phonetic": "/ðəʊ/",
+              "posCode": "conjunction",
+              "posLabel": "从属连词",
+              "contextMeaning": "虽然"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-009-part-01-token-001",
+              "tokenIndex": 1,
+              "displayText": "the",
+              "normalizedText": "the",
+              "punctuation": "",
+              "phonetic": "/ðə/ 或 /ðiː/",
+              "posCode": "determiner",
+              "posLabel": "定冠词",
+              "contextMeaning": "那"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-009-part-01-token-002",
+              "tokenIndex": 2,
+              "displayText": "sound",
+              "normalizedText": "sound",
+              "punctuation": "",
+              "phonetic": "/saʊnd/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "声音"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-009-part-01-token-003",
+              "tokenIndex": 3,
+              "displayText": "could",
+              "normalizedText": "could",
+              "punctuation": "",
+              "phonetic": "/kʊd/",
+              "posCode": "verb",
+              "posLabel": "情态动词",
+              "contextMeaning": "能够"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-009-part-01-token-004",
+              "tokenIndex": 4,
+              "displayText": "be",
+              "normalizedText": "be",
+              "punctuation": "",
+              "phonetic": "/biː/ 或 /bi/",
+              "posCode": "verb",
+              "posLabel": "助动词",
+              "contextMeaning": "构成被动"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-009-part-01-token-005",
+              "tokenIndex": 5,
+              "displayText": "heard",
+              "normalizedText": "heard",
+              "punctuation": "",
+              "phonetic": "/hɜːd/",
+              "posCode": "verb",
+              "posLabel": "动词过去分词",
+              "contextMeaning": "听到"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-009-part-01-token-006",
+              "tokenIndex": 6,
+              "displayText": "clearly",
+              "normalizedText": "clearly",
+              "punctuation": ",",
+              "phonetic": "/ˈklɪəli/",
+              "posCode": "adverb",
+              "posLabel": "副词",
+              "contextMeaning": "清楚地"
+            }
+          ],
+          "groups": [
+            {
+              "groupId": "nce-2-lesson-069-sentence-009-part-01-root",
+              "type": "independent_element",
+              "label": "让步状语从句",
+              "startToken": 0,
+              "endToken": 6,
+              "parentGroupId": null
+            }
+          ],
+          "hints": {
+            "memoryNote": "承认信号清楚以衬托后面的反应迟缓",
+            "letterShape": "T_____ t__ s____ c____ b_ h____ c______,",
+            "answerNote": "承认信号清楚以衬托后面的反应迟缓"
+          }
+        },
+        {
+          "sentenceId": "nce-2-lesson-069-sentence-009-part-02",
+          "order": 11,
+          "sourceParagraphOrder": 1,
+          "sourceSentenceOrder": 11,
+          "english": "it took me a long time to react.",
+          "chinese": "我过了很久才作出反应。",
+          "translationStatus": "approved",
+          "acceptedAnswers": [],
+          "audioUrl": null,
+          "analysisSource": "ai",
+          "analysisStatus": "approved",
+          "analysisRuleVersion": "understanding-zh-adult-codex-1.0.0",
+          "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。",
+          "understanding": {
+            "courseId": "nce2",
+            "lessonId": "nce-2-lesson-069",
+            "sentenceId": "nce-2-lesson-069-sentence-009-part-02",
+            "sentenceOrder": 11,
+            "english": "it took me a long time to react.",
+            "chinese": "我过了很久才作出反应。",
+            "lesson": "Lesson 69 But not murder!",
+            "intent": "突出作出反应所花的时间很长",
+            "comparison": null,
+            "parts": [
+              {
+                "text": "it took me a long time",
+                "relation": "耗时",
+                "meaning": "我花了很长时间"
+              },
+              {
+                "text": "to react.",
+                "relation": "所做的事",
+                "meaning": "才作出反应"
+              }
+            ],
+            "structureNotes": [
+              {
+                "title": "形式主语",
+                "text": "it 占主语位置，真正说明耗时的事情是 to react。"
+              }
+            ],
+            "notes": [
+              {
+                "title": "形式主语",
+                "text": "it 占主语位置，真正说明耗时的事情是 to react。"
+              }
+            ],
+            "structures": [
+              {
+                "text": "it",
+                "role": "形式主语",
+                "explanation": "指向后面的反应这件事。"
+              },
+              {
+                "text": "took me a long time",
+                "role": "谓语及宾语",
+                "explanation": "说明某人所花的时间。"
+              },
+              {
+                "text": "to react.",
+                "role": "不定式实际主语",
+                "explanation": "说明耗时的是作出反应。"
+              }
+            ],
+            "words": [
+              {
+                "text": "it",
+                "meaning": "形式主语；指反应这件事",
+                "pos": "代词",
+                "phonetic": "/ɪt/"
+              },
+              {
+                "text": "took",
+                "meaning": "花费",
+                "pos": "动词",
+                "phonetic": "/tʊk/"
+              },
+              {
+                "text": "me",
+                "meaning": "我",
+                "pos": "人称代词",
+                "phonetic": "/miː/ 或 /mɪ/"
+              },
+              {
+                "text": "a",
+                "meaning": "一段",
+                "pos": "不定冠词",
+                "phonetic": "/ə/ 或 /eɪ/"
+              },
+              {
+                "text": "long",
+                "meaning": "长的",
+                "pos": "形容词",
+                "phonetic": "/lɒŋ/"
+              },
+              {
+                "text": "time",
+                "meaning": "时间",
+                "pos": "名词",
+                "phonetic": "/taɪm/"
+              },
+              {
+                "text": "to",
+                "meaning": "引出耗时的事情",
+                "pos": "不定式标记",
+                "phonetic": "/tə/ 或 /tuː/"
+              },
+              {
+                "text": "react.",
+                "meaning": "作出反应",
+                "pos": "动词",
+                "phonetic": "/riːˈækt/"
+              }
+            ],
+            "analysisSource": "ai",
+            "analysisStatus": "approved",
+            "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+            "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+          },
+          "tokens": [
+            {
+              "tokenId": "nce-2-lesson-069-sentence-009-part-02-token-000",
+              "tokenIndex": 0,
+              "displayText": "it",
+              "normalizedText": "it",
+              "punctuation": "",
+              "phonetic": "/ɪt/",
+              "posCode": "pronoun",
+              "posLabel": "代词",
+              "contextMeaning": "形式主语；指反应这件事"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-009-part-02-token-001",
+              "tokenIndex": 1,
+              "displayText": "took",
+              "normalizedText": "took",
+              "punctuation": "",
+              "phonetic": "/tʊk/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "花费"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-009-part-02-token-002",
+              "tokenIndex": 2,
+              "displayText": "me",
+              "normalizedText": "me",
+              "punctuation": "",
+              "phonetic": "/miː/ 或 /mɪ/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "我"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-009-part-02-token-003",
+              "tokenIndex": 3,
+              "displayText": "a",
+              "normalizedText": "a",
+              "punctuation": "",
+              "phonetic": "/ə/ 或 /eɪ/",
+              "posCode": "determiner",
+              "posLabel": "不定冠词",
+              "contextMeaning": "一段"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-009-part-02-token-004",
+              "tokenIndex": 4,
+              "displayText": "long",
+              "normalizedText": "long",
+              "punctuation": "",
+              "phonetic": "/lɒŋ/",
+              "posCode": "adjective",
+              "posLabel": "形容词",
+              "contextMeaning": "长的"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-009-part-02-token-005",
+              "tokenIndex": 5,
+              "displayText": "time",
+              "normalizedText": "time",
+              "punctuation": "",
+              "phonetic": "/taɪm/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "时间"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-009-part-02-token-006",
+              "tokenIndex": 6,
+              "displayText": "to",
+              "normalizedText": "to",
+              "punctuation": "",
+              "phonetic": "/tə/ 或 /tuː/",
+              "posCode": "particle",
+              "posLabel": "不定式标记",
+              "contextMeaning": "引出耗时的事情"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-009-part-02-token-007",
+              "tokenIndex": 7,
+              "displayText": "react",
+              "normalizedText": "react",
+              "punctuation": ".",
+              "phonetic": "/riːˈækt/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "作出反应"
+            }
+          ],
+          "groups": [
+            {
+              "groupId": "nce-2-lesson-069-sentence-009-part-02-root",
+              "type": "independent_element",
+              "label": "结构见详细解析",
+              "startToken": 0,
+              "endToken": 7,
+              "parentGroupId": null
+            }
+          ],
+          "hints": {
+            "memoryNote": "突出作出反应所花的时间很长",
+            "letterShape": "i_ t___ m_ a l___ t___ t_ r____.",
+            "answerNote": "突出作出反应所花的时间很长"
+          }
+        },
+        {
+          "sentenceId": "nce-2-lesson-069-sentence-010",
+          "order": 12,
+          "sourceParagraphOrder": 1,
+          "sourceSentenceOrder": 12,
+          "english": "I suddenly pressed the brake pedal hard and we were both thrown forward.",
+          "chinese": "我突然猛踩刹车踏板，我们两人都被甩向前方。",
+          "translationStatus": "approved",
+          "acceptedAnswers": [],
+          "audioUrl": null,
+          "analysisSource": "ai",
+          "analysisStatus": "approved",
+          "analysisRuleVersion": "understanding-zh-adult-codex-1.0.0",
+          "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。",
+          "understanding": {
+            "courseId": "nce2",
+            "lessonId": "nce-2-lesson-069",
+            "sentenceId": "nce-2-lesson-069-sentence-010",
+            "sentenceOrder": 12,
+            "english": "I suddenly pressed the brake pedal hard and we were both thrown forward.",
+            "chinese": "我突然猛踩刹车踏板，我们两人都被甩向前方。",
+            "lesson": "Lesson 69 But not murder!",
+            "intent": "描述猛踩刹车及其造成的身体冲击",
+            "comparison": null,
+            "parts": [
+              {
+                "text": "I suddenly pressed the brake pedal hard",
+                "relation": "突然动作",
+                "meaning": "我突然猛踩刹车踏板"
+              },
+              {
+                "text": "and we were both thrown forward.",
+                "relation": "动作后果",
+                "meaning": "我们两人都被甩向前方"
+              }
+            ],
+            "structureNotes": [
+              {
+                "title": "力度与方向",
+                "text": "hard 修饰 pressed 表示力度；forward 修饰 thrown 表示方向。"
+              },
+              {
+                "title": "被动结果",
+                "text": "were thrown 表示两人受到外力影响。"
+              }
+            ],
+            "notes": [
+              {
+                "title": "力度与方向",
+                "text": "hard 修饰 pressed 表示力度；forward 修饰 thrown 表示方向。"
+              },
+              {
+                "title": "被动结果",
+                "text": "were thrown 表示两人受到外力影响。"
+              }
+            ],
+            "structures": [
+              {
+                "text": "I suddenly pressed the brake pedal hard",
+                "role": "并列第一分句",
+                "explanation": "叙述突然用力踩刹车。"
+              },
+              {
+                "text": "and we were both thrown forward.",
+                "role": "并列第二分句",
+                "explanation": "叙述紧接着发生的后果。"
+              }
+            ],
+            "words": [
+              {
+                "text": "I",
+                "meaning": "我",
+                "pos": "人称代词",
+                "phonetic": "/aɪ/"
+              },
+              {
+                "text": "suddenly",
+                "meaning": "突然",
+                "pos": "副词",
+                "phonetic": "/ˈsʌdənli/"
+              },
+              {
+                "text": "pressed",
+                "meaning": "踩压",
+                "pos": "动词",
+                "phonetic": "/prest/"
+              },
+              {
+                "text": "the",
+                "meaning": "这块",
+                "pos": "定冠词",
+                "phonetic": "/ðə/ 或 /ðiː/"
+              },
+              {
+                "text": "brake",
+                "meaning": "刹车",
+                "pos": "名词",
+                "phonetic": "/breɪk/"
+              },
+              {
+                "text": "pedal",
+                "meaning": "踏板",
+                "pos": "名词",
+                "phonetic": "/ˈpedəl/"
+              },
+              {
+                "text": "hard",
+                "meaning": "用力地",
+                "pos": "副词",
+                "phonetic": "/hɑːd/"
+              },
+              {
+                "text": "and",
+                "meaning": "并且",
+                "pos": "并列连词",
+                "phonetic": "/ænd/ 或 /ənd/"
+              },
+              {
+                "text": "we",
+                "meaning": "我们",
+                "pos": "人称代词",
+                "phonetic": "/wiː/"
+              },
+              {
+                "text": "were",
+                "meaning": "构成过去被动",
+                "pos": "助动词",
+                "phonetic": "/wɜː/ 或 /wə/"
+              },
+              {
+                "text": "both",
+                "meaning": "两人都",
+                "pos": "代词",
+                "phonetic": "/bəʊθ/"
+              },
+              {
+                "text": "thrown",
+                "meaning": "甩出",
+                "pos": "动词过去分词",
+                "phonetic": "/θrəʊn/"
+              },
+              {
+                "text": "forward.",
+                "meaning": "向前",
+                "pos": "副词",
+                "phonetic": "/ˈfɔːwəd/"
+              }
+            ],
+            "analysisSource": "ai",
+            "analysisStatus": "approved",
+            "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+            "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+          },
+          "tokens": [
+            {
+              "tokenId": "nce-2-lesson-069-sentence-010-token-000",
+              "tokenIndex": 0,
+              "displayText": "I",
+              "normalizedText": "i",
+              "punctuation": "",
+              "phonetic": "/aɪ/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "我"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-010-token-001",
+              "tokenIndex": 1,
+              "displayText": "suddenly",
+              "normalizedText": "suddenly",
+              "punctuation": "",
+              "phonetic": "/ˈsʌdənli/",
+              "posCode": "adverb",
+              "posLabel": "副词",
+              "contextMeaning": "突然"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-010-token-002",
+              "tokenIndex": 2,
+              "displayText": "pressed",
+              "normalizedText": "pressed",
+              "punctuation": "",
+              "phonetic": "/prest/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "踩压"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-010-token-003",
+              "tokenIndex": 3,
+              "displayText": "the",
+              "normalizedText": "the",
+              "punctuation": "",
+              "phonetic": "/ðə/ 或 /ðiː/",
+              "posCode": "determiner",
+              "posLabel": "定冠词",
+              "contextMeaning": "这块"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-010-token-004",
+              "tokenIndex": 4,
+              "displayText": "brake",
+              "normalizedText": "brake",
+              "punctuation": "",
+              "phonetic": "/breɪk/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "刹车"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-010-token-005",
+              "tokenIndex": 5,
+              "displayText": "pedal",
+              "normalizedText": "pedal",
+              "punctuation": "",
+              "phonetic": "/ˈpedəl/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "踏板"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-010-token-006",
+              "tokenIndex": 6,
+              "displayText": "hard",
+              "normalizedText": "hard",
+              "punctuation": "",
+              "phonetic": "/hɑːd/",
+              "posCode": "adverb",
+              "posLabel": "副词",
+              "contextMeaning": "用力地"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-010-token-007",
+              "tokenIndex": 7,
+              "displayText": "and",
+              "normalizedText": "and",
+              "punctuation": "",
+              "phonetic": "/ænd/ 或 /ənd/",
+              "posCode": "conjunction",
+              "posLabel": "并列连词",
+              "contextMeaning": "并且"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-010-token-008",
+              "tokenIndex": 8,
+              "displayText": "we",
+              "normalizedText": "we",
+              "punctuation": "",
+              "phonetic": "/wiː/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "我们"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-010-token-009",
+              "tokenIndex": 9,
+              "displayText": "were",
+              "normalizedText": "were",
+              "punctuation": "",
+              "phonetic": "/wɜː/ 或 /wə/",
+              "posCode": "verb",
+              "posLabel": "助动词",
+              "contextMeaning": "构成过去被动"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-010-token-010",
+              "tokenIndex": 10,
+              "displayText": "both",
+              "normalizedText": "both",
+              "punctuation": "",
+              "phonetic": "/bəʊθ/",
+              "posCode": "pronoun",
+              "posLabel": "代词",
+              "contextMeaning": "两人都"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-010-token-011",
+              "tokenIndex": 11,
+              "displayText": "thrown",
+              "normalizedText": "thrown",
+              "punctuation": "",
+              "phonetic": "/θrəʊn/",
+              "posCode": "verb",
+              "posLabel": "动词过去分词",
+              "contextMeaning": "甩出"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-010-token-012",
+              "tokenIndex": 12,
+              "displayText": "forward",
+              "normalizedText": "forward",
+              "punctuation": ".",
+              "phonetic": "/ˈfɔːwəd/",
+              "posCode": "adverb",
+              "posLabel": "副词",
+              "contextMeaning": "向前"
+            }
+          ],
+          "groups": [
+            {
+              "groupId": "nce-2-lesson-069-sentence-010-root",
+              "type": "independent_element",
+              "label": "结构见详细解析",
+              "startToken": 0,
+              "endToken": 12,
+              "parentGroupId": null
+            }
+          ],
+          "hints": {
+            "memoryNote": "描述猛踩刹车及其造成的身体冲击",
+            "letterShape": "I s_______ p______ t__ b____ p____ h___ a__ w_ w___ b___ t_____ f______.",
+            "answerNote": "描述猛踩刹车及其造成的身体冲击"
+          }
+        },
+        {
+          "sentenceId": "nce-2-lesson-069-sentence-011",
+          "order": 13,
+          "sourceParagraphOrder": 1,
+          "sourceSentenceOrder": 13,
+          "english": "The examiner looked at me sadly.",
+          "chinese": "考官难过地看着我。",
+          "translationStatus": "approved",
+          "acceptedAnswers": [],
+          "audioUrl": null,
+          "analysisSource": "ai",
+          "analysisStatus": "approved",
+          "analysisRuleVersion": "understanding-zh-adult-codex-1.0.0",
+          "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。",
+          "understanding": {
+            "courseId": "nce2",
+            "lessonId": "nce-2-lesson-069",
+            "sentenceId": "nce-2-lesson-069-sentence-011",
+            "sentenceOrder": 13,
+            "english": "The examiner looked at me sadly.",
+            "chinese": "考官难过地看着我。",
+            "lesson": "Lesson 69 But not murder!",
+            "intent": "以考官的神情呈现对刚才表现的反应",
+            "comparison": null,
+            "parts": [
+              {
+                "text": "The examiner looked at me",
+                "relation": "目光动作",
+                "meaning": "考官看着我"
+              },
+              {
+                "text": "sadly.",
+                "relation": "神情方式",
+                "meaning": "难过地"
+              }
+            ],
+            "structureNotes": [
+              {
+                "title": "看向与看起来",
+                "text": "look at 是看向某人，sadly 修饰这一动作；这里 look 不是系动词。"
+              }
+            ],
+            "notes": [
+              {
+                "title": "看向与看起来",
+                "text": "look at 是看向某人，sadly 修饰这一动作；这里 look 不是系动词。"
+              }
+            ],
+            "structures": [
+              {
+                "text": "The examiner",
+                "role": "主语",
+                "explanation": "执行观看动作的考官。"
+              },
+              {
+                "text": "looked at me",
+                "role": "谓语及介词补语",
+                "explanation": "说明考官看向我。"
+              },
+              {
+                "text": "sadly.",
+                "role": "方式状语",
+                "explanation": "描写目光带出的难过神情。"
+              }
+            ],
+            "words": [
+              {
+                "text": "The",
+                "meaning": "这位",
+                "pos": "定冠词",
+                "phonetic": "/ðə/ 或 /ðiː/"
+              },
+              {
+                "text": "examiner",
+                "meaning": "考官",
+                "pos": "名词",
+                "phonetic": "/ɪɡˈzæmɪnə/"
+              },
+              {
+                "text": "looked",
+                "meaning": "看",
+                "pos": "动词",
+                "phonetic": "/lʊkt/"
+              },
+              {
+                "text": "at",
+                "meaning": "朝向",
+                "pos": "介词",
+                "phonetic": "/æt/"
+              },
+              {
+                "text": "me",
+                "meaning": "我",
+                "pos": "人称代词",
+                "phonetic": "/miː/ 或 /mɪ/"
+              },
+              {
+                "text": "sadly.",
+                "meaning": "难过地",
+                "pos": "副词",
+                "phonetic": "/ˈsædli/"
+              }
+            ],
+            "analysisSource": "ai",
+            "analysisStatus": "approved",
+            "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+            "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+          },
+          "tokens": [
+            {
+              "tokenId": "nce-2-lesson-069-sentence-011-token-000",
+              "tokenIndex": 0,
+              "displayText": "The",
+              "normalizedText": "the",
+              "punctuation": "",
+              "phonetic": "/ðə/ 或 /ðiː/",
+              "posCode": "determiner",
+              "posLabel": "定冠词",
+              "contextMeaning": "这位"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-011-token-001",
+              "tokenIndex": 1,
+              "displayText": "examiner",
+              "normalizedText": "examiner",
+              "punctuation": "",
+              "phonetic": "/ɪɡˈzæmɪnə/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "考官"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-011-token-002",
+              "tokenIndex": 2,
+              "displayText": "looked",
+              "normalizedText": "looked",
+              "punctuation": "",
+              "phonetic": "/lʊkt/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "看"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-011-token-003",
+              "tokenIndex": 3,
+              "displayText": "at",
+              "normalizedText": "at",
+              "punctuation": "",
+              "phonetic": "/æt/",
+              "posCode": "preposition",
+              "posLabel": "介词",
+              "contextMeaning": "朝向"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-011-token-004",
+              "tokenIndex": 4,
+              "displayText": "me",
+              "normalizedText": "me",
+              "punctuation": "",
+              "phonetic": "/miː/ 或 /mɪ/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "我"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-011-token-005",
+              "tokenIndex": 5,
+              "displayText": "sadly",
+              "normalizedText": "sadly",
+              "punctuation": ".",
+              "phonetic": "/ˈsædli/",
+              "posCode": "adverb",
+              "posLabel": "副词",
+              "contextMeaning": "难过地"
+            }
+          ],
+          "groups": [
+            {
+              "groupId": "nce-2-lesson-069-sentence-011-root",
+              "type": "independent_element",
+              "label": "结构见详细解析",
+              "startToken": 0,
+              "endToken": 5,
+              "parentGroupId": null
+            }
+          ],
+          "hints": {
+            "memoryNote": "以考官的神情呈现对刚才表现的反应",
+            "letterShape": "T__ e_______ l_____ a_ m_ s____.",
+            "answerNote": "以考官的神情呈现对刚才表现的反应"
+          }
+        },
+        {
+          "sentenceId": "nce-2-lesson-069-sentence-012",
+          "order": 14,
+          "sourceParagraphOrder": 1,
+          "sourceSentenceOrder": 14,
+          "english": "'Mr.",
+          "chinese": "“先生……",
+          "translationStatus": "approved",
+          "acceptedAnswers": [],
+          "audioUrl": null,
+          "analysisSource": "ai",
+          "analysisStatus": "approved",
+          "analysisRuleVersion": "understanding-zh-adult-codex-1.0.0",
+          "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。",
+          "understanding": {
+            "courseId": "nce2",
+            "lessonId": "nce-2-lesson-069",
+            "sentenceId": "nce-2-lesson-069-sentence-012",
+            "sentenceOrder": 14,
+            "english": "'Mr.",
+            "chinese": "“先生……",
+            "lesson": "Lesson 69 But not murder!",
+            "intent": "开始对考生的正式称呼",
+            "comparison": null,
+            "parts": [
+              {
+                "text": "'Mr.",
+                "relation": "称呼开头",
+                "meaning": "先生"
+              }
+            ],
+            "structureNotes": [
+              {
+                "title": "称谓缩写",
+                "text": "Mr. 的句点属于缩写；当前原文只保留称谓，姓名在下文。"
+              }
+            ],
+            "notes": [
+              {
+                "title": "称谓缩写",
+                "text": "Mr. 的句点属于缩写；当前原文只保留称谓，姓名在下文。"
+              }
+            ],
+            "structures": [
+              {
+                "text": "'Mr.",
+                "role": "呼语片段",
+                "explanation": "对话中的正式称呼开头。"
+              }
+            ],
+            "words": [
+              {
+                "text": "'Mr.",
+                "meaning": "先生",
+                "pos": "称谓名词",
+                "phonetic": "/ˈmɪstə/"
+              }
+            ],
+            "analysisSource": "ai",
+            "analysisStatus": "approved",
+            "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+            "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+          },
+          "tokens": [
+            {
+              "tokenId": "nce-2-lesson-069-sentence-012-token-000",
+              "tokenIndex": 0,
+              "displayText": "'Mr",
+              "normalizedText": "mr",
+              "punctuation": ".",
+              "phonetic": "/ˈmɪstə/",
+              "posCode": "noun",
+              "posLabel": "称谓名词",
+              "contextMeaning": "先生"
+            }
+          ],
+          "groups": [
+            {
+              "groupId": "nce-2-lesson-069-sentence-012-root",
+              "type": "independent_element",
+              "label": "呼语片段",
+              "startToken": 0,
+              "endToken": 0,
+              "parentGroupId": null
+            }
+          ],
+          "hints": {
+            "memoryNote": "开始对考生的正式称呼",
+            "letterShape": "'M_.",
+            "answerNote": "开始对考生的正式称呼"
+          }
+        },
+        {
+          "sentenceId": "nce-2-lesson-069-sentence-013",
+          "order": 15,
+          "sourceParagraphOrder": 1,
+          "sourceSentenceOrder": 15,
+          "english": "Eames,' he said, in a mournful voice, 'you have just killed that child!'",
+          "chinese": "“伊姆斯，”他用悲伤的语调说，“你刚刚把那个孩子撞死了！”",
+          "translationStatus": "approved",
+          "acceptedAnswers": [],
+          "audioUrl": null,
+          "analysisSource": "ai",
+          "analysisStatus": "approved",
+          "analysisRuleVersion": "understanding-zh-adult-codex-1.0.0",
+          "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。",
+          "understanding": {
+            "courseId": "nce2",
+            "lessonId": "nce-2-lesson-069",
+            "sentenceId": "nce-2-lesson-069-sentence-013",
+            "sentenceOrder": 15,
+            "english": "Eames,' he said, in a mournful voice, 'you have just killed that child!'",
+            "chinese": "“伊姆斯，”他用悲伤的语调说，“你刚刚把那个孩子撞死了！”",
+            "lesson": "Lesson 69 But not murder!",
+            "intent": "以假设中的严重后果指出考生停车太迟",
+            "comparison": null,
+            "parts": [
+              {
+                "text": "Eames,'",
+                "relation": "称呼续接",
+                "meaning": "伊姆斯"
+              },
+              {
+                "text": "he said, in a mournful voice,",
+                "relation": "说话及语气",
+                "meaning": "他用悲伤的语调说"
+              },
+              {
+                "text": "'you have just killed that child!'",
+                "relation": "警告内容",
+                "meaning": "你刚刚把那个孩子撞死了"
+              }
+            ],
+            "structureNotes": [
+              {
+                "title": "现在完成时的当下结果",
+                "text": "have just killed 把刚发生的假想事故结果带到说话当下。"
+              },
+              {
+                "title": "声音方式",
+                "text": "in a mournful voice 描述说话的语调，不是所处地点。"
+              }
+            ],
+            "notes": [
+              {
+                "title": "现在完成时的当下结果",
+                "text": "have just killed 把刚发生的假想事故结果带到说话当下。"
+              },
+              {
+                "title": "声音方式",
+                "text": "in a mournful voice 描述说话的语调，不是所处地点。"
+              }
+            ],
+            "structures": [
+              {
+                "text": "Eames,'",
+                "role": "呼语片段",
+                "explanation": "接续前面的 Mr.。"
+              },
+              {
+                "text": "he said, in a mournful voice,",
+                "role": "引述分句",
+                "explanation": "说明说话者及语调。"
+              },
+              {
+                "text": "'you have just killed that child!'",
+                "role": "直接引语",
+                "explanation": "指出紧急停车失败的假想后果。"
+              }
+            ],
+            "words": [
+              {
+                "text": "Eames,'",
+                "meaning": "伊姆斯；人名",
+                "pos": "专有名词",
+                "phonetic": "/iːmz/"
+              },
+              {
+                "text": "he",
+                "meaning": "他",
+                "pos": "人称代词",
+                "phonetic": "/hiː/"
+              },
+              {
+                "text": "said,",
+                "meaning": "说",
+                "pos": "动词",
+                "phonetic": "/sed/"
+              },
+              {
+                "text": "in",
+                "meaning": "用……语调",
+                "pos": "介词",
+                "phonetic": "/ɪn/"
+              },
+              {
+                "text": "a",
+                "meaning": "一种",
+                "pos": "不定冠词",
+                "phonetic": "/ə/ 或 /eɪ/"
+              },
+              {
+                "text": "mournful",
+                "meaning": "悲伤的",
+                "pos": "形容词",
+                "phonetic": "/ˈmɔːnfəl/"
+              },
+              {
+                "text": "voice,",
+                "meaning": "语调",
+                "pos": "名词",
+                "phonetic": "/vɔɪs/"
+              },
+              {
+                "text": "'you",
+                "meaning": "你",
+                "pos": "人称代词",
+                "phonetic": "/juː/ 或 /jʊ/"
+              },
+              {
+                "text": "have",
+                "meaning": "已经；构成完成式",
+                "pos": "助动词",
+                "phonetic": "/hæv/"
+              },
+              {
+                "text": "just",
+                "meaning": "刚刚",
+                "pos": "副词",
+                "phonetic": "/dʒʌst/"
+              },
+              {
+                "text": "killed",
+                "meaning": "使死亡；此处指撞死",
+                "pos": "动词过去分词",
+                "phonetic": "/kɪld/"
+              },
+              {
+                "text": "that",
+                "meaning": "那个",
+                "pos": "指示限定词",
+                "phonetic": "/ðæt/ 或 /ðət/"
+              },
+              {
+                "text": "child!'",
+                "meaning": "孩子",
+                "pos": "名词",
+                "phonetic": "/tʃaɪld/"
+              }
+            ],
+            "analysisSource": "ai",
+            "analysisStatus": "approved",
+            "ruleVersion": "understanding-zh-adult-codex-1.0.0",
+            "reviewNote": "Codex逐句撰写并自检，非外部API生成、非逐句人工核验。"
+          },
+          "tokens": [
+            {
+              "tokenId": "nce-2-lesson-069-sentence-013-token-000",
+              "tokenIndex": 0,
+              "displayText": "Eames",
+              "normalizedText": "eames",
+              "punctuation": ",'",
+              "phonetic": "/iːmz/",
+              "posCode": "noun",
+              "posLabel": "专有名词",
+              "contextMeaning": "伊姆斯；人名"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-013-token-001",
+              "tokenIndex": 1,
+              "displayText": "he",
+              "normalizedText": "he",
+              "punctuation": "",
+              "phonetic": "/hiː/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "他"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-013-token-002",
+              "tokenIndex": 2,
+              "displayText": "said",
+              "normalizedText": "said",
+              "punctuation": ",",
+              "phonetic": "/sed/",
+              "posCode": "verb",
+              "posLabel": "动词",
+              "contextMeaning": "说"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-013-token-003",
+              "tokenIndex": 3,
+              "displayText": "in",
+              "normalizedText": "in",
+              "punctuation": "",
+              "phonetic": "/ɪn/",
+              "posCode": "preposition",
+              "posLabel": "介词",
+              "contextMeaning": "用……语调"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-013-token-004",
+              "tokenIndex": 4,
+              "displayText": "a",
+              "normalizedText": "a",
+              "punctuation": "",
+              "phonetic": "/ə/ 或 /eɪ/",
+              "posCode": "determiner",
+              "posLabel": "不定冠词",
+              "contextMeaning": "一种"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-013-token-005",
+              "tokenIndex": 5,
+              "displayText": "mournful",
+              "normalizedText": "mournful",
+              "punctuation": "",
+              "phonetic": "/ˈmɔːnfəl/",
+              "posCode": "adjective",
+              "posLabel": "形容词",
+              "contextMeaning": "悲伤的"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-013-token-006",
+              "tokenIndex": 6,
+              "displayText": "voice",
+              "normalizedText": "voice",
+              "punctuation": ",",
+              "phonetic": "/vɔɪs/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "语调"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-013-token-007",
+              "tokenIndex": 7,
+              "displayText": "'you",
+              "normalizedText": "you",
+              "punctuation": "",
+              "phonetic": "/juː/ 或 /jʊ/",
+              "posCode": "pronoun",
+              "posLabel": "人称代词",
+              "contextMeaning": "你"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-013-token-008",
+              "tokenIndex": 8,
+              "displayText": "have",
+              "normalizedText": "have",
+              "punctuation": "",
+              "phonetic": "/hæv/",
+              "posCode": "verb",
+              "posLabel": "助动词",
+              "contextMeaning": "已经；构成完成式"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-013-token-009",
+              "tokenIndex": 9,
+              "displayText": "just",
+              "normalizedText": "just",
+              "punctuation": "",
+              "phonetic": "/dʒʌst/",
+              "posCode": "adverb",
+              "posLabel": "副词",
+              "contextMeaning": "刚刚"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-013-token-010",
+              "tokenIndex": 10,
+              "displayText": "killed",
+              "normalizedText": "killed",
+              "punctuation": "",
+              "phonetic": "/kɪld/",
+              "posCode": "verb",
+              "posLabel": "动词过去分词",
+              "contextMeaning": "使死亡；此处指撞死"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-013-token-011",
+              "tokenIndex": 11,
+              "displayText": "that",
+              "normalizedText": "that",
+              "punctuation": "",
+              "phonetic": "/ðæt/ 或 /ðət/",
+              "posCode": "determiner",
+              "posLabel": "指示限定词",
+              "contextMeaning": "那个"
+            },
+            {
+              "tokenId": "nce-2-lesson-069-sentence-013-token-012",
+              "tokenIndex": 12,
+              "displayText": "child",
+              "normalizedText": "child",
+              "punctuation": "!'",
+              "phonetic": "/tʃaɪld/",
+              "posCode": "noun",
+              "posLabel": "名词",
+              "contextMeaning": "孩子"
+            }
+          ],
+          "groups": [
+            {
+              "groupId": "nce-2-lesson-069-sentence-013-root",
+              "type": "independent_element",
+              "label": "结构见详细解析",
+              "startToken": 0,
+              "endToken": 12,
+              "parentGroupId": null
+            }
+          ],
+          "hints": {
+            "memoryNote": "以假设中的严重后果指出考生停车太迟",
+            "letterShape": "E____,' h_ s___, i_ a m_______ v____, 'y__ h___ j___ k_____ t___ c____!'",
+            "answerNote": "以假设中的严重后果指出考生停车太迟"
+          }
+        }
+      ]
+    }
+  ]
+}

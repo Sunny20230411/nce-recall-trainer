@@ -2,6 +2,7 @@ import { readEvents } from '../stream-events.js';
 import { createStructuredReply, followupInstruction, replyFormat } from './reply-parts.js';
 const buckets = new Map();
 const instruction = `你是一位善于给中文母语学习者讲解《新概念英语》的英语老师。你的任务是帮助用户真正读懂句子，理解英语如何组织意思，而不是展示语法知识。
+上下文english是当前练习单元；parentEnglish如有提供，仅帮助理解拆分前的指代和语境，不把另一句当成本题一起重新分析，也不将它当成历史对话。
 
 【讲解风格】
 准确、自然、容易理解，像一位经验丰富的老师面对面答疑。精简指删掉重复和无关内容，不是压缩讲解步骤；不要把整句分析压成三条语法结论。
@@ -209,7 +210,7 @@ export function createHandler({ env = process.env, fetcher = fetch } = {}) {
     if (bucket.count >= 10 || buckets.size > 10000) return reply(429, { error: '提问太频繁，请稍后再试。' });
     bucket.count++; buckets.set(ip, bucket);
     const context = {};
-    for (const name of ['lesson', 'english', 'chinese', 'draft', 'errors', 'analysis', 'answerVisible']) {
+    for (const name of ['lesson', 'english', 'chinese', 'parentEnglish', 'draft', 'errors', 'analysis', 'answerVisible']) {
       context[name] = String(data.context[name] ?? '').slice(0, name === 'analysis' ? 4000 : 2000);
     }
     const cancellation = new AbortController();

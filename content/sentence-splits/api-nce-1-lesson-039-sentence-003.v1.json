@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "核对后内容准确，提点突出先制止再给出替代行动的表达思路，无错误判断，结构与信息拆分均符合标准。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-039-sentence-003",
+      "parentEnglish": "Don't do that. Give it to me.",
+      "children": [
+        {
+          "english": "Don't do that.",
+          "chinese": "别那样做。",
+          "tip": "看到对方要做不合适的事，先用Don't do that.立刻制止，这里的that指“把花瓶放到桌上”这个计划，不是另一件物品。",
+          "intent": "直接制止听话人正在准备进行的不当动作。",
+          "parts": [
+            [
+              "Don't do that.",
+              "独立的第一句指令，用来制止对方的动作",
+              "不要做出那样的行为"
+            ]
+          ],
+          "notes": [
+            [
+              "否定祈使句的构成",
+              "用Don't加动词原形do开头，直接表示禁止对方执行后续的动作，不需要添加主语you也能明确指向听话人。"
+            ]
+          ],
+          "structures": [
+            [
+              "Don't do that.",
+              "否定式祈使句",
+              "用于直接制止听话人正在进行或准备进行的不当行为，语气直接明确。"
+            ]
+          ]
+        },
+        {
+          "english": "Give it to me.",
+          "chinese": "把它给我。",
+          "tip": "制止之后紧接着说你希望对方怎么做，用Give it to me.给出明确的替代行动，比只说制止的话更清楚。",
+          "intent": "在制止对方动作后，提出具体的替代要求，让对方把物品递过来。",
+          "parts": [
+            [
+              "Give it to me.",
+              "承接上一句的制止动作，补充发出下一步的具体要求",
+              "把手中的物品递给我"
+            ]
+          ],
+          "notes": [
+            [
+              "双宾语的递出表达",
+              "Give it to me把传递的物品it放在前面，用to引出接收对象me，清晰说明传递的物品和接收人。"
+            ]
+          ],
+          "structures": [
+            [
+              "Give it to me.",
+              "肯定式祈使句",
+              "用于向听话人提出明确的动作要求，交代传递物品的具体对象是说话人自己。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

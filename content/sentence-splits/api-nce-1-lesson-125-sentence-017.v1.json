@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "两个子句拆分边界正确，提点各有侧重：第一句讲过去时的触发语境，第二句讲instead的信息承接功能，均符合表达意图导向，无重复语法拆解，notes和structures分配准确，无跨句残留内容。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-125-sentence-017",
+      "parentEnglish": "That was a pleasant surprise. It means I can have tea, instead.",
+      "children": [
+        {
+          "english": "That was a pleasant surprise.",
+          "chinese": "那真是个令人愉快的惊喜。",
+          "tip": "这里用过去时 was，是因为惊喜来自刚刚得知“不用浇花”这件刚发生的事，不是在说现在才觉得惊喜。评价刚得知的意外好消息时，常用一般过去时承接刚才的触发事件。",
+          "intent": "承接前文不用浇花的意外情况，抒发惊喜的心情。",
+          "parts": [
+            [
+              "That was a pleasant surprise.",
+              "对前文不用浇花的意外做出评价，抒发惊喜心情。",
+              "那真是个令人愉快的惊喜。"
+            ]
+          ],
+          "notes": [
+            [
+              "时态选择",
+              "用一般过去时 was，是因为这份惊喜来自刚才发现“不用浇花”这件刚发生的事，反应的是刚得知消息时的感受。"
+            ]
+          ],
+          "structures": [
+            [
+              "That",
+              "主语",
+              "指代上文刚提到的“不用浇花园”这件事。"
+            ],
+            [
+              "was",
+              "系动词（过去式）",
+              "用一般过去时，呼应刚才得知意外消息的时间点。"
+            ],
+            [
+              "a pleasant surprise.",
+              "表语",
+              "描述主语 That 的性质，说明这是一份让人愉快的意外。"
+            ]
+          ]
+        },
+        {
+          "english": "It means I can have tea, instead.",
+          "chinese": "这意味着我可以转而喝茶了。",
+          "tip": "instead 放在句末，是说喝茶替代了原本要做的浇花，不是额外再加一件事。说“取而代之做某事”时，把 instead 放句末自然承接前文已明确的被替代动作，不用重复说“不浇花了”。",
+          "intent": "承接前文不用浇花的情况，说明这件事带来的结果：自己可以改做喝茶这件事。",
+          "parts": [
+            [
+              "It means ",
+              "承接前文的情况，引出其带来的意义。",
+              "这意味着"
+            ],
+            [
+              "I can have tea, instead.",
+              "说明具体的结果：用喝茶替代原本的任务。",
+              "我可以转而喝茶了。"
+            ]
+          ],
+          "notes": [
+            [
+              "代词指代",
+              "句首的 It 指代前文刚提到的“不用浇花园”这件事，不是前一句的 surprise，这样能避免重复说完整句子。"
+            ],
+            [
+              "instead 的位置与含义",
+              "instead 放在句末，承接前文“本来要浇花”的预期，表示“不用做那件事了，转而做喝茶这件事”，不是在原有事之外再加一件。"
+            ]
+          ],
+          "structures": [
+            [
+              "It",
+              "主语",
+              "指代前文刚提到的“不用浇花园”这件事，避免重复完整句子。"
+            ],
+            [
+              "means",
+              "谓语动词",
+              "用一般现在时，表示这件事此刻意味着什么。"
+            ],
+            [
+              "I can have tea, instead",
+              "宾语从句",
+              "省略引导词 that，解释 means 的具体内容，说明这件事带来的结果。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

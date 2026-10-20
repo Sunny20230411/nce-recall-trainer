@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "已修正Here they are的倒装说明，不再概括为所有方位副词放句首、名词主语必须全倒装，改为结合here指物场景对比常见语序，其余合格内容保留。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-043-sentence-013",
+      "parentEnglish": "Yes. Here they are.",
+      "children": [
+        {
+          "english": "Yes.",
+          "chinese": "能。",
+          "tip": "这里的 Yes 是回应前面 Can you find them? 的简短肯定，直接确认“找到了”。",
+          "intent": "对前文的一般疑问句给出肯定答复，确认已经找到目标。",
+          "parts": [
+            [
+              "Yes.",
+              "回应前置问题",
+              "对前文提出的疑问给出肯定的答复"
+            ]
+          ],
+          "notes": [
+            [
+              "独立应答语Yes",
+              "Yes可以单独成句，用来快速回应一般疑问句，直接传递肯定、确认的态度。"
+            ]
+          ],
+          "structures": [
+            [
+              "Yes.",
+              "独立肯定应答语",
+              "专门用于快速回应前文提出的一般疑问句，直接传递同意、可行的态度。"
+            ]
+          ]
+        },
+        {
+          "english": "Here they are.",
+          "chinese": "它们在这儿。",
+          "tip": "Here they are 用来指眼前的物品就在这儿；如果是把东西递给对方，常用 Here you are。先看是指物还是交付，再选表达。",
+          "intent": "明确指出所找物品的位置，告知对方杯子就在眼前。",
+          "parts": [
+            [
+              "Here they are.",
+              "补充说明答复对应的实际情况",
+              "表明所指代的事物就在当前所处的位置"
+            ]
+          ],
+          "notes": [
+            [
+              "Here开头的指物常用表达",
+              "Here they are 是指出物品位置的常用说法。可以对比：主语是具体事物时常用 Here is the book 这类语序；主语是人称代词时用 Here they are 这类语序。这是here指物场景下的常见习惯，不必扩大到所有方位副词。"
+            ]
+          ],
+          "structures": [
+            [
+              "Here they are.",
+              "方位指代表达句",
+              "用来明确告知对方所寻找或者询问的物品、人就在眼前的位置，是日常找物场景下的常用表述。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

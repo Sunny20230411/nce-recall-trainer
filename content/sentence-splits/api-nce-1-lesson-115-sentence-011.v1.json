@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，第一句聚焦灯亮这一视觉线索与on的易混点，第二句聚焦进行时观察与knock at搭配，提点各有侧重，信息关系、句法角色与笔记均贴合子句，无跨句内容。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-115-sentence-011",
+      "parentEnglish": "But, look, there's a light on. Someone's knocking at the door.",
+      "children": [
+        {
+          "english": "But, look, there's a light on.",
+          "chinese": "可是，看，灯亮着。",
+          "tip": "用 there's a light on 描述眼前观察到的异常状态，为推翻“没人”的判断提供第一条线索。on 在这里是副词表开启状态，不要理解成介词“在上面”。",
+          "intent": "转折引出眼前看到的反常线索，通过灯亮着的状态对前文“没人”的结论提出怀疑。",
+          "parts": [
+            [
+              "But, look,",
+              "转折并提醒听者注意后续的新情况",
+              "可是，看"
+            ],
+            [
+              "there's a light on.",
+              "描述当下观察到的第一种状态",
+              "有一盏灯亮着"
+            ]
+          ],
+          "notes": [
+            [
+              "there's a light on 的语义逻辑",
+              "句末的 on 是副词，表示“处于开启、亮着的状态”，there's a light on 等价于有一盏灯正亮着，不能把 on 理解成地点介词“在……上面”。"
+            ]
+          ],
+          "structures": [
+            [
+              "But,",
+              "转折连接词",
+              "承接前文“没人、大家都外出了”的结论，转折引出接下来的意外发现。"
+            ],
+            [
+              "look,",
+              "提醒用语",
+              "唤起听者注意接下来要描述的眼前景象，类似中文里的“你看”。"
+            ],
+            [
+              "there's",
+              "存在句引导结构",
+              "引出“某地存在某物/某种状态”的核心句式，本句表示“有……（处于开启状态）”。"
+            ],
+            [
+              "a light",
+              "存在的主体",
+              "表示“一盏灯”，是存在句描述的核心事物。"
+            ],
+            [
+              "on.",
+              "状态副词",
+              "补充说明灯的状态是“亮着、开着”。"
+            ]
+          ]
+        },
+        {
+          "english": "Someone's knocking at the door.",
+          "chinese": "有人在敲门。",
+          "tip": "用现在进行时描述此刻正在发生的动作，和灯亮的状态并列，共同作为“屋里可能有人”的依据。knock at 是固定搭配，不要漏掉 at。",
+          "intent": "补充第二个正在发生的反常现象，进一步支撑对“没人在家”的怀疑。",
+          "parts": [
+            [
+              "Someone's",
+              "动作的发出者与时态助动词",
+              "有人（正在）"
+            ],
+            [
+              "knocking",
+              "正在发生的核心动作",
+              "敲"
+            ],
+            [
+              "at the door.",
+              "指明敲击的对象",
+              "门"
+            ]
+          ],
+          "notes": [
+            [
+              "knock at 的固定搭配",
+              "knock 作“敲”这个动作时，要和介词 at 搭配指向敲击的对象，knock at the door 就是“敲门”，不能漏掉 at 直接说 knock the door。"
+            ],
+            [
+              "现在进行时的场景用法",
+              "本句使用现在进行时，描述说话当下正在被观察到的敲门动作，和前文“没人、大家都出去了”形成意外的反差。"
+            ]
+          ],
+          "structures": [
+            [
+              "Someone's",
+              "现在进行时的主语与助动词",
+              "Someone 是动作的发出者，Someone's 是 Someone is 的缩写，搭配后面的现在分词构成现在进行时。"
+            ],
+            [
+              "knocking",
+              "现在分词",
+              "表示“敲击”这个动作，和助动词一起构成谓语，表示此刻正在发生。"
+            ],
+            [
+              "at the door.",
+              "介词短语",
+              "用介词 at 指明敲击的对象是门。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

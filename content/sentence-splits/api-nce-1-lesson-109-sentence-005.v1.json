@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "已按要求修正第一子句some相关笔记，移除了过度推断语气的表述，明确为提议/提供语境下的常见用法；保留了What about承接话题及第二子句计量表达的原有合格内容。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-109-sentence-005",
+      "parentEnglish": "What about some sugar? Two teaspoonfuls?",
+      "children": [
+        {
+          "english": "What about some sugar?",
+          "chinese": "加点糖怎么样？",
+          "tip": "对话里刚说完加牛奶，接着用What about提出加糖的新选项，比重复用Do you want更有承接感，像顺着话题往下聊。提议补充内容时，都可以用What about承接上文。",
+          "intent": "承接上文加牛奶的话题，提议添加糖并征询对方意见。",
+          "parts": [
+            [
+              "What about",
+              "发起提议并征询意见的引导短语",
+              "……怎么样？"
+            ],
+            [
+              "some sugar?",
+              "说明提议征询的具体内容",
+              "（加）点糖"
+            ]
+          ],
+          "notes": [
+            [
+              "What about的征询用法",
+              "What about 用于提议或征询意见时，后面可直接接名词或动名词，这里接some sugar，意思是“加糖怎么样？”，常用于在已有选项之外补充新的提议。"
+            ],
+            [
+              "疑问句中的some",
+              "这里是在主动提供或提议某物的语境，所以用some sugar；some 常见于提供、提议或邀请类表达，用来把“一点糖”作为一个可选择的提议提出来，不能仅凭some就断定说话人真心程度更高，也不能说any天然不够主动或不客气。"
+            ]
+          ],
+          "structures": [
+            [
+              "What about",
+              "提议征询短语",
+              "用于引出建议或询问对方是否同意某件事，是日常对话里承接话题、发起新提议的常用表达。"
+            ],
+            [
+              "some sugar?",
+              "提议的内容",
+              "指代“添加糖”这件事，是What about要征询的核心对象。"
+            ]
+          ]
+        },
+        {
+          "english": "Two teaspoonfuls?",
+          "chinese": "（放）两茶匙（够吗）？",
+          "tip": "这句不是问“要两把茶匙吗”，而是问“两茶匙的量行不行”。-ful结尾的词表示“一……的量”，直接用量词升调提问，就能在对话里快速确认数量，不用补完整句子。",
+          "intent": "承接加糖的提议，进一步确认对方需要的糖的具体用量。",
+          "parts": [
+            [
+              "Two teaspoonfuls?",
+              "用省略问句确认糖的具体用量",
+              "（放）两茶匙（够吗）？"
+            ]
+          ],
+          "notes": [
+            [
+              "承接上文的省略问句",
+              "Two teaspoonfuls? 是承接上一句加糖提议的省略说法，完整逻辑是“加两茶匙糖可以吗？”，依靠上下文就能传递确认用量的含义，不需要额外添加动词。"
+            ],
+            [
+              "teaspoonful的含义",
+              "teaspoonful 表示“一茶匙的量”，不是“茶匙”这个物品，复数形式是teaspoonfuls，用来计量粉末或液体的多少。"
+            ]
+          ],
+          "structures": [
+            [
+              "Two teaspoonfuls?",
+              "追问用量的省略问句",
+              "承接上一句的加糖提议，用名词短语直接构成省略疑问句，进一步确认具体添加量，完整语义是“两茶匙可以吗？”。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

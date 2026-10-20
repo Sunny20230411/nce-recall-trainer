@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分后两句边界准确，tip分别点明单疑问词追问、名词短语升调确认的两种口语思路，信息关系与结构分配对应单句内容，无冗余或错误。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-091-sentence-007",
+      "parentEnglish": "When? Tomorrow morning?",
+      "children": [
+        {
+          "english": "When?",
+          "chinese": "什么时候？",
+          "tip": "承接上文刚说的搬家时间，用单个疑问词直接追问更具体的时间点，不用重复整件事。对话里信息双方都清楚时，单说疑问词就足够。",
+          "intent": "针对上文提到的搬家计划，追问具体的执行时间。",
+          "parts": [
+            [
+              "When?",
+              "承接上文提到的搬家计划，直接追问具体的执行时间。",
+              "什么时候？"
+            ]
+          ],
+          "notes": [
+            [
+              "省略结构适配口语场景",
+              "这是承接上文的口语省略形式，完整含义是When is he going to move? 对话双方都清楚讨论的话题时，只保留疑问词就能传达追问时间的意图，简洁自然。"
+            ]
+          ],
+          "structures": [
+            [
+              "When?",
+              "省略式特殊疑问句",
+              "承接上文搬家计划，省略问句其余部分，仅用疑问副词When直接追问具体时间。"
+            ]
+          ]
+        },
+        {
+          "english": "Tomorrow morning?",
+          "chinese": "明天上午吗？",
+          "tip": "先问了宽泛的时间，再用自己猜的上午时间段来确认，把问题从“什么时候”收窄到具体候选。用升调的名词短语直接提问，是口语里常见的核对方式。",
+          "intent": "就自己猜测的具体时间点向对方确认，等待肯定或否定的答复。",
+          "parts": [
+            [
+              "Tomorrow morning?",
+              "就自己猜测的时间点向对方确认，等待对方给出肯定或否定的答复。",
+              "明天上午吗？"
+            ]
+          ],
+          "notes": [
+            [
+              "省略结构适配口语场景",
+              "这是承接前文的口语省略形式，完整含义是Is he going to move tomorrow morning? 用升调的问号表达确认语气，没有照搬完整疑问句式，符合日常对话的简洁特点。"
+            ]
+          ],
+          "structures": [
+            [
+              "Tomorrow morning?",
+              "省略式一般疑问句",
+              "承接前文的特殊疑问，省略主语和谓语部分，仅给出猜测的时间状语，以问号升调表达确认、核对的语气。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

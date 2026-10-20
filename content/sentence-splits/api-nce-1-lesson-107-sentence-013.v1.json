@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界清晰，子句内容分配准确；提点区分了比较级的相对含义与适用判断，迁移实用；结构、信息关系均与子句对应，无跨句混杂。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-107-sentence-013",
+      "parentEnglish": "But the blue one's longer than the green one. I'm afraid the green dress is too short for me.",
+      "children": [
+        {
+          "english": "But the blue one's longer than the green one.",
+          "chinese": "可是那件蓝色的比这件绿色的长。",
+          "tip": "longer 只是两件相比“更长”，是相对比较结果，不等于“长度合适”。别把比较级直接当成适用判断，要说明合不合身得另外加条件。",
+          "intent": "承接上文对蓝裙的正面评价，转折指出蓝裙比绿裙更长这一长度对比事实。",
+          "parts": [
+            [
+              "But",
+              "转折连接前一句对蓝色裙子的正面评价",
+              "可是"
+            ],
+            [
+              "the blue one's",
+              "主语加系动词，指代前文提到的蓝色连衣裙",
+              "那件蓝色的（连衣裙）是"
+            ],
+            [
+              "longer than the green one.",
+              "表语，用比较级说明两件连衣裙的长度对比",
+              "比这件绿色的更长。"
+            ]
+          ],
+          "notes": [
+            [
+              "one 的指代",
+              "one's 中 one 指代上文提到的 dress，'s 是 is 的缩写，避免重复出现 dress。"
+            ],
+            [
+              "比较结构",
+              "longer 是 long 的比较级，意思是“更长的”；than 后接比较对象，直接对照两件连衣裙的长度。"
+            ]
+          ],
+          "structures": [
+            [
+              "But",
+              "转折连词",
+              "承接上文“蓝色连衣裙更好看”，转折引出长度对比的内容。"
+            ],
+            [
+              "the blue one",
+              "主语",
+              "one 指代前文的 dress，说明主语是那件蓝色连衣裙。"
+            ],
+            [
+              "'s",
+              "系动词缩略",
+              "是 is 的缩写，和后面的 longer 构成“主语＋系动词＋表语”结构。"
+            ],
+            [
+              "longer than the green one",
+              "比较结构表语",
+              "longer 是形容词 long 的比较级，than the green one 引出比较对象绿色连衣裙。"
+            ]
+          ]
+        },
+        {
+          "english": "I'm afraid the green dress is too short for me.",
+          "chinese": "恐怕这件绿色连衣裙对我来说太短了。",
+          "tip": "too short for me 不是单纯说绿裙短，而是短得不合自己的穿着要求。I'm afraid 用来委婉说出顾虑，不是真的害怕。",
+          "intent": "委婉表达自己的顾虑，说明绿色连衣裙长度不合身。",
+          "parts": [
+            [
+              "I'm afraid",
+              "委婉引出说话人的顾虑和判断",
+              "恐怕"
+            ],
+            [
+              "the green dress",
+              "主语",
+              "这件绿色连衣裙"
+            ],
+            [
+              "is too short for me.",
+              "表语，说明绿色连衣裙的长度不合穿着需求",
+              "对我来说太短了。"
+            ]
+          ],
+          "notes": [
+            [
+              "I'm afraid 的委婉语气",
+              "I'm afraid 在这里用来委婉表达担忧，意思是“恐怕、担心”，后面接说明具体顾虑的内容。"
+            ]
+          ],
+          "structures": [
+            [
+              "I'm afraid",
+              "委婉表达短语",
+              "用来引出说话人对绿色连衣裙的顾虑，不是表达“我害怕”的实际情绪。"
+            ],
+            [
+              "the green dress",
+              "主语",
+              "指代前句里的 green one，也就是绿色连衣裙。"
+            ],
+            [
+              "is too short for me",
+              "主系表结构表语",
+              "too 修饰 short，表示“太短”，for me 说明短是相对于“我”的穿着感受而言。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

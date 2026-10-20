@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，子句内容完整对应；提点分别围绕当前状态交代与过去出行时间线展开，无无依据表达优劣比较；信息关系、句法角色及注释均准确，符合教学标准。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-093-sentence-005",
+      "parentEnglish": "At the moment, he's in Madrid. He flew to Spain a week ago.",
+      "children": [
+        {
+          "english": "At the moment, he's in Madrid.",
+          "chinese": "此刻，他在马德里。",
+          "tip": "先点明当前时间 at the moment，再给出他所在的城市，是在交代人物的当前位置状态。说当下地点时，把时间标记放句首能快速把语境锚定到“现在”。",
+          "intent": "说明人物当前所处的地点状态。",
+          "parts": [
+            [
+              "At the moment,",
+              "点明所述状态的当前时间。",
+              "此刻"
+            ],
+            [
+              "he's in Madrid.",
+              "核心陈述当前所处的地点状态。",
+              "他在马德里。"
+            ]
+          ],
+          "notes": [
+            [
+              "一般现在时表当前状态",
+              "he's 是 he is 的缩写，用一般现在时配合 at the moment，说明说话当下他正处于马德里这个地点，是稳定的当前状态。"
+            ],
+            [
+              "时间短语的句首位置",
+              "at the moment 放在句首，用来明确句子所述事实的时间点，不改变句子主干的意思。"
+            ]
+          ],
+          "structures": [
+            [
+              "At the moment",
+              "句首时间状语",
+              "用介词短语说明句子所述状态发生的当前时间，意思是“此刻、现在”。"
+            ],
+            [
+              "he's in Madrid",
+              "句子主干",
+              "he's 是 he is 的缩写，be 动词接地点介词短语 in Madrid，构成主系表结构，说明他当前所在的地点是马德里。"
+            ]
+          ]
+        },
+        {
+          "english": "He flew to Spain a week ago.",
+          "chinese": "他一星期前飞往西班牙。",
+          "tip": "flew 是已经发生的飞行，a week ago 把动作的时间点明确落在一周前，和上一句的“此刻在马德里”形成前后时间线。说过去的出行时，把时间状语放句末，重点先落在动作和目的地。",
+          "intent": "陈述过去某个时间发生的出行动作。",
+          "parts": [
+            [
+              "He flew to Spain",
+              "核心陈述发生的飞行出行动作与目的地。",
+              "他飞往西班牙"
+            ],
+            [
+              "a week ago.",
+              "说明飞行动作发生的具体过去时间。",
+              "一星期前。"
+            ]
+          ],
+          "notes": [
+            [
+              "一般过去时的时间参照",
+              "flew 是动词 fly 的过去式，用一般过去时配合 a week ago，说明一周前已经发生的出行动作，时间标记帮助明确动作发生在过去。"
+            ],
+            [
+              "时间短语的句末位置",
+              "a week ago 放在句末，用来明确 fly 这个动作发生的过去时间点，是过去时间状语的常见位置。"
+            ]
+          ],
+          "structures": [
+            [
+              "He flew to Spain",
+              "句子主干",
+              "flew 是动词 fly 的过去式，to Spain 表示飞往的目的地，陈述过去发生的飞行出行动作。"
+            ],
+            [
+              "a week ago",
+              "句末时间状语",
+              "用 ago 搭配时间段，说明 flew 这个动作发生在距离说话时间一星期之前。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

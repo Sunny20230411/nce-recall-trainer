@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，中文对应正确；提点分别抓住社交开场习惯和指示词指代画面的实用点，无过度比较；信息关系、句法角色与笔记均贴合单句范围，无跨句混杂。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-123-sentence-003",
+      "parentEnglish": "This is a good photograph. Who are these people?",
+      "children": [
+        {
+          "english": "This is a good photograph.",
+          "chinese": "这是一张好照片。",
+          "tip": "先评价照片，是英语里聊到别人分享的图片时常见的开场，先给正面反馈再切入具体问题，显得自然。",
+          "intent": "对对方展示的照片给出正面评价，开启关于这张照片的话题。",
+          "parts": [
+            [
+              "This",
+              "陈述句的描述主体，指代眼前正在被查看的照片",
+              "这"
+            ],
+            [
+              "is",
+              "连接描述主体和后续对照片的评价",
+              "是"
+            ],
+            [
+              "a good photograph.",
+              "说明主体的属性，给出对照片质量的正面评价",
+              "一张好照片。"
+            ]
+          ],
+          "notes": [
+            [
+              "近指代词的语境指向",
+              "This 是近指代词，指代眼前对方正拿给说话人看的那张照片，不是泛指任意一张好照片，理解时要绑定当前对话场景。"
+            ]
+          ],
+          "structures": [
+            [
+              "This",
+              "陈述句主语",
+              "近指代词，指代正被查看的那张照片，是句子描述的核心对象。"
+            ],
+            [
+              "is",
+              "系动词",
+              "连接主语 This 和后面的表语，说明主语的性质属性。"
+            ],
+            [
+              "a good photograph",
+              "表语",
+              "说明主语 This 所指代的照片是拍得不错的作品。"
+            ]
+          ]
+        },
+        {
+          "english": "Who are these people?",
+          "chinese": "这些人是谁？",
+          "tip": "these people 指眼前照片里的多人，并不要求真人站在身边；指示词可以顺着双方正在看的画面来指。聊图片内容时，想问画面里的人都可以用 these/those people。",
+          "intent": "询问照片中人物的身份，把话题从照片本身转向画面里的人。",
+          "parts": [
+            [
+              "Who",
+              "明确询问的核心方向，即人物的身份",
+              "谁"
+            ],
+            [
+              "are",
+              "连接疑问词和被询问的对象",
+              "是"
+            ],
+            [
+              "these people?",
+              "询问的具体对象，即照片里出现的那群人",
+              "这些人？"
+            ]
+          ],
+          "notes": [
+            [
+              "指代照片内容时的these",
+              "these people 指画面中正被关注的照片人物，these 在这里不是形容物理空间上站在近处的真人，而是顺着观看照片的视线锁定画面里的人群。"
+            ]
+          ],
+          "structures": [
+            [
+              "Who",
+              "疑问词",
+              "用来发起身份询问，是整个问句要确认的核心未知信息。"
+            ],
+            [
+              "are",
+              "问句中的系动词",
+              "将疑问词 Who 和主语 these people 连接起来，构成询问身份的疑问结构。"
+            ],
+            [
+              "these people",
+              "问句主语",
+              "指代照片里拍到的那群人，是被询问身份的对象。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

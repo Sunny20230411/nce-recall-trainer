@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "两个子句边界清晰，中文对应准确。归属判断与拥有关系的区分讲得清楚，提点有迁移价值；信息关系和句法角色均无误，未误判时态或表达习惯。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-011-sentence-003",
+      "parentEnglish": "No, sir. It's not my shirt.",
+      "children": [
+        {
+          "english": "No, sir.",
+          "chinese": "不是，先生。",
+          "tip": "回答一般疑问句先给 Yes/No 定方向，再加 sir 表示礼貌。对长辈或上级作简短答复，可用“答复+称呼”的口语顺序。",
+          "intent": "礼貌地给出否定答复，回应对方的提问。",
+          "parts": [
+            [
+              "No,",
+              "核心否定答复",
+              "不是"
+            ],
+            [
+              "sir.",
+              "礼貌称呼对方",
+              "先生"
+            ]
+          ],
+          "notes": [
+            [
+              "应答的礼貌格式",
+              "先给出明确的Yes/No答复，再用称呼表达礼貌，是口语回应疑问句的常见顺序。"
+            ]
+          ],
+          "structures": [
+            [
+              "No",
+              "否定应答核心词",
+              "用于直接回应一般疑问句，给出否定方向。"
+            ],
+            [
+              "sir",
+              "礼貌称呼语",
+              "对男士表示尊敬的称呼，常附在简短应答之后。"
+            ]
+          ]
+        },
+        {
+          "english": "It's not my shirt.",
+          "chinese": "这不是我的衬衫。",
+          "tip": "这里否定的是“这件衬衫属于我”的归属判断，不是“我没有衬衫”，所以不用 I don't have a shirt。遇到“这不是我的某物”，先想归属判断再选 be 动词否定更准。",
+          "intent": "具体说明否定的内容，否认衬衫属于自己。",
+          "parts": [
+            [
+              "It's not",
+              "对事物归属进行否定判断",
+              "这不是"
+            ],
+            [
+              "my shirt.",
+              "被判断归属的具体物品",
+              "我的衬衫"
+            ]
+          ],
+          "notes": [
+            [
+              "指代明确",
+              "句中的It直接指代上文提问里的那件衬衫，无需额外重复完整名词，指代关系清晰。"
+            ],
+            [
+              "否定表达",
+              "It's not 是It is not的常用口语缩略形式，把否定词not放在be动词后面，直接对所属关系进行否定。"
+            ]
+          ],
+          "structures": [
+            [
+              "It's not my shirt",
+              "否定陈述句主干",
+              "用代词It指代上文提到的衬衫，通过be动词加否定词，清晰说明该物品的所属人不是说话者。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

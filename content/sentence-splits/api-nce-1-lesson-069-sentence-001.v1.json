@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，子句中文对应正确；提点分别聚焦常规事件的表达组织和话题切换的时间状语用法，无泛泛的语序优劣比较；parts、notes、structures均对应各自子句，无交叉混淆，语法表述准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-069-sentence-001",
+      "parentEnglish": "There is a car race near our town every year. In 1995, there was a very big race.",
+      "children": [
+        {
+          "english": "There is a car race near our town every year.",
+          "chinese": "我们镇附近每年都有一场汽车比赛。",
+          "tip": "用 there is 介绍当地长期存在的常规赛事，先给出事件再补充地点和频率。要讲清楚“某地常有某事”，可以先用 there is 引出事件，再补地点和时间频率。",
+          "intent": "介绍当地每年固定举办汽车比赛这一常规情况，交代背景信息。",
+          "parts": [
+            [
+              "There is",
+              "引导存在句，引出后面的核心事物",
+              "存在句引导结构，表「有、存在」"
+            ],
+            [
+              "a car race",
+              "存在句的核心主语，是句子描述的对象",
+              "一场汽车比赛"
+            ],
+            [
+              "near our town",
+              "补充说明汽车比赛举办的具体地点",
+              "在我们镇附近"
+            ],
+            [
+              "every year.",
+              "补充说明汽车比赛的举办频率",
+              "每年。"
+            ]
+          ],
+          "notes": [
+            [
+              "there be 句型的表达逻辑",
+              "英文用 there be 句型表示「某地/某时存在某事物」，there 仅为形式引导词、无实际词义，be 动词的单复数与后面紧跟的真实主语保持一致；本句真实主语是 a car race，因此用 is。"
+            ],
+            [
+              "时间和地点状语的位置",
+              "表地点的 near our town 和表频率的 every year 在句中均作状语，英文中可置于句尾，中文习惯将这类背景状语放在句首，符合中文先交代背景再讲内容的表达习惯。"
+            ]
+          ],
+          "structures": [
+            [
+              "There is",
+              "存在句引导结构",
+              "there为引导词，无实际词义，is是be动词的一般现在时第三人称单数形式，与后面的单数名词a car race保持一致，整体表示「存在、有」的含义。"
+            ],
+            [
+              "a car race",
+              "存在句主语",
+              "car是名词作定语修饰race，核心名词是race，是句子描述的核心事物。"
+            ],
+            [
+              "near our town",
+              "地点状语",
+              "介词短语near our town修饰a car race，说明比赛举办的地点在我们镇附近。"
+            ],
+            [
+              "every year.",
+              "时间状语",
+              "频率短语作状语，说明这场汽车比赛是每年都会举办的常规活动。"
+            ]
+          ]
+        },
+        {
+          "english": "In 1995, there was a very big race.",
+          "chinese": "1995年有一场规模很大的比赛。",
+          "tip": "把具体年份 In 1995 放在句首，自然从常年常规赛事切换到某一次特定比赛。there was 对应过去的时间，说明是已经发生过的赛事；叙述回忆时可以先给时间背景，再引出当时的事件。",
+          "intent": "把话题从常规赛事转到1995年那次规模很大的具体比赛，引出下文的回忆内容。",
+          "parts": [
+            [
+              "In 1995,",
+              "交代本句描述赛事的具体时间背景",
+              "在1995年，"
+            ],
+            [
+              "there was",
+              "引导过去时态的存在句，引出后面的核心事物",
+              "存在句引导结构（过去时），表「有、存在」"
+            ],
+            [
+              "a very big race.",
+              "存在句的核心主语，承接上文的汽车比赛，描述1995年赛事的规模特点",
+              "一场规模很大的比赛。"
+            ]
+          ],
+          "notes": [
+            [
+              "there be 句型的过去时",
+              "当描述过去某一时间存在的事物时，there be 中的be动词要变为过去式，本句真实主语是 a very big race 为单数，因此用 was，和句首的过去时间 In 1995 相对应。"
+            ],
+            [
+              "句首时间状语的作用",
+              "把 In 1995 放在句首，既明确了本句的时间背景，也起到了话题转换的作用，从上文的常规年度赛事过渡到1995年这一次具体的比赛。"
+            ]
+          ],
+          "structures": [
+            [
+              "In 1995,",
+              "时间状语",
+              "介词短语作状语，交代本句描述的赛事对应的年份背景。"
+            ],
+            [
+              "there was",
+              "存在句引导结构",
+              "there为引导词，was是be动词的一般过去时第三人称单数形式，与后面的单数名词a very big race保持一致。"
+            ],
+            [
+              "a very big race.",
+              "存在句主语",
+              "very是副词修饰形容词big，共同修饰race，突出这场比赛的规模很大，承接上文的汽车比赛。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

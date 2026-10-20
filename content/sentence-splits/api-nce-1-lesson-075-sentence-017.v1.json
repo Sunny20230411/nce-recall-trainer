@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界清晰，两句的tip分别聚焦确认语气与转折夸张的表达意图，信息关系、句法角色准确，无错误的自然度比较或泛化规律。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-075-sentence-017",
+      "parentEnglish": "They are very uncomfortable. But women always wear uncomfortable shoes!",
+      "children": [
+        {
+          "english": "They are very uncomfortable.",
+          "chinese": "它们非常不舒服。",
+          "tip": "这句是顺着对方的话直接确认鞋子的穿着感受，用 very 加强“不舒服”的程度，不是轻描淡写的评价。",
+          "intent": "承接上文，确认并强调鞋子穿着非常不舒服。",
+          "parts": [
+            [
+              "They are very uncomfortable.",
+              "独立陈述句，承接上文说明鞋子的穿着感受",
+              "它们非常不舒服。"
+            ]
+          ],
+          "notes": [
+            [
+              "主语的指代衔接",
+              "句首的They承接上文，指代之前提到的鞋子，不需要重复说明是什么东西，上下文已经足够明确。"
+            ],
+            [
+              "副词very的位置",
+              "very放在形容词uncomfortable前面，用来加强程度，表示“非常、确实”。"
+            ]
+          ],
+          "structures": [
+            [
+              "They",
+              "主语",
+              "指代上文提到的鞋子。"
+            ],
+            [
+              "are very uncomfortable.",
+              "系表结构作谓语",
+              "描述主语They的状态，very修饰形容词uncomfortable，加强“不舒服”的程度。"
+            ]
+          ]
+        },
+        {
+          "english": "But women always wear uncomfortable shoes!",
+          "chinese": "但女人总是穿不舒服的鞋！",
+          "tip": "这里的 always 带夸张语气，是说话人对女性穿鞋习惯的感慨，不是严谨的普遍事实。用来转折时，先承认事实再引出反预期的习惯，能突出不解或调侃的语气。",
+          "intent": "用转折引出对女性穿鞋习惯的感慨，表达不解或略带调侃的态度。",
+          "parts": [
+            [
+              "But",
+              "转折连词，衔接前一句并引出相反的情况",
+              "但"
+            ],
+            [
+              "women always wear uncomfortable shoes!",
+              "转折后的核心陈述，指出女性常穿不舒服鞋子的现象",
+              "女人总是穿不舒服的鞋！"
+            ]
+          ],
+          "notes": [
+            [
+              "But的转折作用",
+              "But放在句首引出转折，和前一句形成“鞋子确实难受—可女性还总穿这种鞋”的对照。"
+            ],
+            [
+              "副词always的位置",
+              "always放在实义动词wear前面，表示动作“总是”发生，不是偶尔一次，这里带一定的夸张语气。"
+            ]
+          ],
+          "structures": [
+            [
+              "But",
+              "转折连词",
+              "连接前后两句，引出与前句预期相反的情况。"
+            ],
+            [
+              "women",
+              "主语",
+              "指一般的女性群体。"
+            ],
+            [
+              "always wear uncomfortable shoes!",
+              "谓语加宾语",
+              "always修饰实义动词wear，表示这个动作总是发生；uncomfortable修饰名词shoes，说明鞋子的属性。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

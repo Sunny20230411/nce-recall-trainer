@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界正确，中文翻译贴合语境，提点抓住易误解的距离上限与叙事顺序，结构与信息关系均准确；已修正第二句parts拼接的空格，确保拼回与原句一致。",
+  "records": [
+    {
+      "parentSentenceId": "nce-2-lesson-069-sentence-008",
+      "parentEnglish": "As soon as I tap on the window, you must stop within five feet.' I continued driving and after some time, the examiner tapped loudly.",
+      "children": [
+        {
+          "english": "As soon as I tap on the window, you must stop within five feet.'",
+          "chinese": "“我一敲车窗，你就必须在五英尺内停下。”",
+          "tip": "停车要求有两个清晰边界：as soon as 规定何时开始反应，within five feet 规定停车距离上限，不是要停满五英尺。",
+          "intent": "说明考官给出的停车指令，明确触发信号和距离要求。",
+          "parts": [
+            [
+              "As soon as I tap on the window,",
+              "触发停车动作的时间条件",
+              "我一敲车窗，"
+            ],
+            [
+              "you must stop within five feet.'",
+              "停车的具体要求",
+              "你就必须在五英尺内停下。”"
+            ]
+          ],
+          "notes": [
+            [
+              "时间从句的时态",
+              "As soon as 引导将来触发的动作时，从句用一般现在时 tap 表示将来条件。"
+            ],
+            [
+              "距离上限表达",
+              "within five feet 表示从信号触发开始算，停车距离不得超过五英尺，是上限要求。"
+            ]
+          ],
+          "structures": [
+            [
+              "As soon as I tap on the window,",
+              "时间状语从句",
+              "说明停车指令的触发时点。"
+            ],
+            [
+              "you must stop within five feet.'",
+              "主句",
+              "规定停车动作及距离上限。"
+            ]
+          ]
+        },
+        {
+          "english": "I continued driving and after some time, the examiner tapped loudly.",
+          "chinese": "我继续开车，过了一会儿，考官重重地敲了车窗。",
+          "tip": "前半句说我继续行驶，是在等待信号；后半句接考官敲窗，把要求落到实际场景里。叙述时先讲持续的动作，再讲触发事件，符合事情推进的顺序。",
+          "intent": "转回实际驾驶经过，叙述我继续行驶后考官发出敲击信号的过程。",
+          "parts": [
+            [
+              "I continued driving",
+              "叙事主句，说明我当时的持续动作",
+              "我继续开车"
+            ],
+            [
+              " and after some time, the examiner tapped loudly.",
+              "并列分句，叙述随后发生的信号事件",
+              "，过了一会儿，考官重重地敲了车窗。"
+            ]
+          ],
+          "notes": [
+            [
+              "叙事的时间顺序",
+              "and 连接两个先后发生的叙事动作，after some time 明确标出两个动作之间的时间间隔。"
+            ]
+          ],
+          "structures": [
+            [
+              "I continued driving",
+              "叙事主句",
+              "转回当时的实际驾驶：I 是主语，continued 是谓语，driving 是动名词作宾语。"
+            ],
+            [
+              "and after some time, the examiner tapped loudly.",
+              "并列分句",
+              "叙述随后出现的敲击信号：after some time 是时间状语，the examiner 是主语，tapped 是谓语，loudly 是副词修饰 tapped。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

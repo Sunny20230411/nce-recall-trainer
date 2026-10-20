@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，子句信息完整；提点突出建议语气与 will 的即时决定含义，无不准确的表达优劣比较。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-099-sentence-010",
+      "parentEnglish": "I think that the doctor had better see you. I'll phone Dr. Carter.",
+      "children": [
+        {
+          "english": "I think that the doctor had better see you.",
+          "chinese": "我想最好让医生看看你。",
+          "tip": "the doctor had better see you 是从“医生来查看伤者”的角度提建议，重点不是让对方自己去医院。I think 把建议包装成个人判断，语气更缓和，不显得命令。",
+          "intent": "提出让医生查看伤者的建议",
+          "parts": [
+            [
+              "I think",
+              "主句，引出后面的想法",
+              "我认为"
+            ],
+            [
+              "that the doctor had better see you.",
+              "作 think 的宾语，具体说明想法内容",
+              "最好让医生看看你。"
+            ]
+          ],
+          "notes": [
+            [
+              "宾语从句用 that 引出",
+              "that 引导的从句跟在 think 后面，作“想”的内容；that 本身没有实际词义，只起连接作用。"
+            ],
+            [
+              "had better 表建议",
+              "had better 后接动词原形 see，表示“最好做某事”，不是过去时态，也不表示完成。"
+            ]
+          ],
+          "structures": [
+            [
+              "I think",
+              "主句",
+              "表明这是说话人的想法，后接完整的宾语从句。"
+            ],
+            [
+              "that the doctor had better see you",
+              "宾语从句",
+              "作 think 的宾语，说明具体想法是“医生最好看看你”。"
+            ]
+          ]
+        },
+        {
+          "english": "I'll phone Dr. Carter.",
+          "chinese": "我会给卡特医生打电话。",
+          "tip": "I'll phone 用 will 表达说话当下刚作出的行动决定，不是早安排好的计划。说完建议马上接自己要做的事，衔接自然，也给对方确定的帮助。",
+          "intent": "告知对方自己将联系卡特医生的决定",
+          "parts": [
+            [
+              "I'll phone",
+              "主语和谓语，表示将要做的动作",
+              "我会给……打电话"
+            ],
+            [
+              "Dr. Carter.",
+              "电话的对象，作 phone 的宾语",
+              "卡特医生。"
+            ]
+          ],
+          "notes": [
+            [
+              "I'll 表将来时",
+              "I'll = I will，表示说话人马上要做的动作，这里指当下作出的打电话找医生的决定。"
+            ]
+          ],
+          "structures": [
+            [
+              "I'll phone Dr. Carter",
+              "主谓宾结构",
+              "主语 I，谓语 will phone，宾语 Dr. Carter，表示“我将给卡特医生打电话”。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分正确，各子句信息完整，提点突出祈使句组合的表达逻辑，呼语与地点状语说明准确，已修正原身份标识问题。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-039-sentence-007",
+      "parentEnglish": "Don't put it there, Sam. Put it on the shelf.",
+      "children": [
+        {
+          "english": "Don't put it there, Sam.",
+          "chinese": "别把它放在那里，萨姆。",
+          "tip": "指出错误位置时，先用there指代对方刚打算放的地方，不用重复描述具体位置，对话更简洁。加呼语Sam是特意把指令对准他。",
+          "intent": "制止萨姆把物品放在当前不合适的位置。",
+          "parts": [
+            [
+              "Don't put it there, Sam.",
+              "完整的否定祈使指令，点明执行指令的对象是萨姆",
+              "别把它放在那里，萨姆。"
+            ]
+          ],
+          "notes": [
+            [
+              "祈使句的否定形式",
+              "祈使句直接用Don't加动词原形开头，表示禁止对方做某事，默认指令面向听话人，不需要额外加主语you。"
+            ],
+            [
+              "呼语的位置",
+              "Sam是呼语，用逗号和主句隔开，放在句末可以在制止动作之后再明确指令的接收对象。"
+            ]
+          ],
+          "structures": [
+            [
+              "Don't put it there",
+              "否定祈使主句",
+              "直接发出禁止放置的指令，涵盖动作、对象和错误位置"
+            ],
+            [
+              "Sam",
+              "呼语",
+              "点明指令的接收者，确保萨姆明确是在对他说话"
+            ]
+          ]
+        },
+        {
+          "english": "Put it on the shelf.",
+          "chinese": "把它放在架子上。",
+          "tip": "只说“别放那儿”对方未必知道该放哪儿，跟上一句肯定祈使句直接给出正确位置。一禁一引导，指令才完整可执行。",
+          "intent": "向萨姆给出正确的放置位置，提供可执行的操作指令。",
+          "parts": [
+            [
+              "Put it on the shelf.",
+              "补充说明正确的放置位置",
+              "把它放在架子上。"
+            ]
+          ],
+          "notes": [
+            [
+              "地点状语作落点",
+              "on the shelf是地点状语，说明放置动作的目的地，放在句末补充动作的具体位置信息。"
+            ]
+          ],
+          "structures": [
+            [
+              "Put it on the shelf",
+              "肯定祈使主句",
+              "给出正确的操作指令，明确告知物品应放置的位置"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

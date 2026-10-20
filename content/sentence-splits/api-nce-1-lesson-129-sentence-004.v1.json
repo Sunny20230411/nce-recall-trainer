@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，两子句分工清晰，提点抓住反问的交际功能与省略反问的用法，语法与信息关系标注无误，符合教学标准与校准要求。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-129-sentence-004",
+      "parentEnglish": "Where do you think you are? On a race track?",
+      "children": [
+        {
+          "english": "Where do you think you are?",
+          "chinese": "你以为你在哪里？",
+          "tip": "这句不是真的在问路在何方，而是借“你以为这是什么地方”反问对方行为出格。do you think 已经完成疑问倒装，后面的 you are 保持陈述语序，别再说成 do you think are you。",
+          "intent": "用反问责备对方行为不当，质疑对方是否搞错了当下的处境。",
+          "parts": [
+            [
+              "Where",
+              "作为宾语从句的表语，点明疑问的核心是地点。",
+              "在哪里"
+            ],
+            [
+              "do you think",
+              "构成疑问主句，助动词 do 帮助完成疑问倒装，表明问题指向对方的主观想法。",
+              "你认为，你以为"
+            ],
+            [
+              "you are?",
+              "跟在 think 后面的宾语从句，使用陈述语序，指代对方当下所处的位置，末尾问号体现反问语气。",
+              "你在……"
+            ]
+          ],
+          "notes": [
+            [
+              "嵌套疑问语序",
+              "do you think 已经通过助动词 do 实现疑问倒装，后面的宾语从句 you are 保持陈述语序，不能说成 do you think are you。"
+            ]
+          ],
+          "structures": [
+            [
+              "Where",
+              "疑问副词",
+              "在宾语从句 you are 中作表语，引导整个特殊疑问句，询问地点，并不是主句的主语。"
+            ],
+            [
+              "do you think",
+              "疑问主句",
+              "表示“你认为、你以为”，助动词 do 提前构成疑问语序，you 是主语，think 是谓语动词。"
+            ],
+            [
+              "you are?",
+              "宾语从句",
+              "跟在 think 后面，使用陈述语序，意思是“你在（某个地方）”，从句缺少的表语由 Where 补充。"
+            ]
+          ]
+        },
+        {
+          "english": "On a race track?",
+          "chinese": "在赛车场上吗？",
+          "tip": "这是承接前一句的省略反问，不是新问题，目的是把对方的不当行为和“赛车场”对照，强化责备语气。遇到想顺着反问点出对方错误想法时，不用重复整句，直接抛出那个荒谬的假设场景即可。",
+          "intent": "用省略的反问点出对方把普通道路当成赛车场的错误认知，进一步批评超速行为。",
+          "parts": [
+            [
+              "On a race track?",
+              "承接前一句的省略反问，进一步质疑对方是否把公共道路当成了赛车赛道。",
+              "在赛车场上吗？"
+            ]
+          ],
+          "notes": [
+            [
+              "省略的反问句",
+              "On a race track? 是完整反问句 Do you think you are on a race track? 的省略形式，承接前一句的责备语气，反问司机是否以为自己在赛车场。"
+            ],
+            [
+              "race 作定语",
+              "race track 中 race 是名词作定语，修饰 track，指供赛车使用的赛道，不是动词。"
+            ]
+          ],
+          "structures": [
+            [
+              "On a race track?",
+              "省略式反问句",
+              "承接前句省略了 Do you think you are，用介词短语直接反问，语气强烈，指出司机误以为自己身处赛车场的错误认知。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

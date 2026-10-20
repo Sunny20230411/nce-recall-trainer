@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "两句拆分合理，分别对应委婉回应与坦率建议两个表达意图；提点抓住try to do的委婉语气和插入语的缓冲功能，迁移具体有用；各字段分配准确，无与另一句混杂的内容，语法与语义均准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-087-sentence-013",
+      "parentEnglish": "Well, they're trying to repair it, sir. But to tell you the truth, you need a new car.",
+      "children": [
+        {
+          "english": "Well, they're trying to repair it, sir.",
+          "chinese": "嗯，他们正在努力维修，先生。",
+          "tip": "trying to repair 只说“在努力修”，不打包票能修好，是留有余地的回答。回应“能不能修好”这类问题时，用 try to do 比直接说 can 或 can't 更委婉，先给事实再等下文。",
+          "intent": "委婉回应顾客关于能否修车的提问，说明维修人员正在尝试修理。",
+          "parts": [
+            [
+              "Well,",
+              "承接上一句提问的语气铺垫",
+              "嗯"
+            ],
+            [
+              "they're trying to repair it,",
+              "直接回应顾客提出的“能不能修车”的问题，说明正在开展的修车动作",
+              "他们正在努力维修（它）"
+            ],
+            [
+              "sir.",
+              "对顾客的礼貌称呼，补充对话的称呼信息",
+              "先生"
+            ]
+          ],
+          "notes": [
+            [
+              "trying to repair it 的理解",
+              "现在进行时结构 be trying to do sth. 表示此刻正在“努力尝试做某事”，强调修车的动作正在进行，并不代表肯定能修好；it指代上文提到的事故损坏的车。"
+            ],
+            [
+              "称呼语sir的位置",
+              "sir是对男顾客的礼貌称呼，放在句末，英语中这类称呼常放在句首或句尾，不打断核心意思的表达。"
+            ]
+          ],
+          "structures": [
+            [
+              "Well,",
+              "语气感叹词",
+              "用于缓和语气，承接前文顾客关于“能不能修车”的提问。"
+            ],
+            [
+              "they're trying to repair it,",
+              "主句（现在进行时）",
+              "回应顾客的提问，说明修车人员正在尝试维修车辆，不代表最终一定能修好。"
+            ],
+            [
+              "sir.",
+              "呼语",
+              "对对话中男性顾客的礼貌称呼。"
+            ]
+          ]
+        },
+        {
+          "english": "But to tell you the truth, you need a new car.",
+          "chinese": "但说实话，您需要换一辆新车。",
+          "tip": "to tell you the truth 不是句子主干，而是提前给对方打个招呼：下面要说的是不好直接开口的实话。英语里说坏消息或逆耳建议前，常加这类插入语缓冲语气，让对方有心理准备。",
+          "intent": "转折引出坦率的实际判断，建议顾客更换新车。",
+          "parts": [
+            [
+              "But",
+              "转折引出与“正在修车”的预期不同的建议结论",
+              "但"
+            ],
+            [
+              "to tell you the truth,",
+              "引入坦诚判断的过渡语，弱化直白建议的生硬感",
+              "说实话"
+            ],
+            [
+              "you need a new car.",
+              "给出核心建议：结合车辆损坏情况，建议顾客购置新车",
+              "您需要换一辆新车"
+            ]
+          ],
+          "notes": [
+            [
+              "句首插入语的作用",
+              "to tell you the truth 是固定插入语，可位于分句开头或句中用来引出直白的大实话，不承担句子主干成分，翻译为“说实话、跟您说实话”。"
+            ],
+            [
+              "need 的含义",
+              "这里 need 表示“有必要、需要”，侧重从车辆损坏程度判断更换的必要性，不是在说顾客的购买意愿。"
+            ]
+          ],
+          "structures": [
+            [
+              "But",
+              "转折连词",
+              "承接前一句的内容，从“正在修车”转到“建议换新车”的实际结论。"
+            ],
+            [
+              "to tell you the truth,",
+              "评注性状语/插入语",
+              "固定习语，用来引出坦诚直白的判断，弱化直白建议的突兀感。"
+            ],
+            [
+              "you need a new car.",
+              "主句",
+              "给出专业建议：根据车辆损坏程度，建议顾客更换新车。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正了 Better 句末标点缺失问题；拆分准确，提点区分了比较级与原级表达的语义侧重，称呼语的说明符合口语习惯，无不当比较。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-063-sentence-002",
+      "parentEnglish": "Better. Thank you, doctor.",
+      "children": [
+        {
+          "english": "Better.",
+          "chinese": "好多了。",
+          "tip": "Better 用比较级回答健康状况，参照的是之前的状态，天然带有“好转”的变化感；如果说 Very well，则是在说现在很好，不突出和之前的对比。",
+          "intent": "回答医生对健康状态的询问，说明情况比之前有所好转。",
+          "parts": [
+            [
+              "Better.",
+              "回答医生此前的健康状态询问，省略了完整的主语和系动词",
+              "好多了。"
+            ]
+          ],
+          "notes": [
+            [
+              "Better 承接前文询问",
+              "完整理解时可补出 I'm feeling 或 He's feeling；口语直接用 Better，是对询问身体状况的简短回答。"
+            ]
+          ],
+          "structures": [
+            [
+              "Better.",
+              "简短健康回答",
+              "表达身体状况比之前好转，承接医生对健康状态的询问。"
+            ]
+          ]
+        },
+        {
+          "english": "Thank you, doctor.",
+          "chinese": "谢谢您，医生。",
+          "tip": "口语里道谢后带称呼，既能明确道谢对象，也显得更礼貌得体；称呼放在句尾用逗号隔开，是很自然的说法。",
+          "intent": "向医生表达感谢，并点明道谢的对象。",
+          "parts": [
+            [
+              "Thank you,",
+              "向对方表达谢意",
+              "谢谢您，"
+            ],
+            [
+              "doctor.",
+              "称呼语，点明道谢的对象是医生",
+              "医生"
+            ]
+          ],
+          "notes": [
+            [
+              "doctor 在句尾作称呼语",
+              "Thank you, doctor 先表达感谢，再用逗号引出称呼语 doctor，指明道谢的对象。"
+            ]
+          ],
+          "structures": [
+            [
+              "Thank you,",
+              "感谢表达",
+              "向对方表达谢意。"
+            ],
+            [
+              "doctor.",
+              "称呼语",
+              "指明道谢的对象是医生。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

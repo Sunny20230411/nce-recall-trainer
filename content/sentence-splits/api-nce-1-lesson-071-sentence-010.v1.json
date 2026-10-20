@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分符合原句边界，子句中文对应准确，提点分别聚焦简略答语习惯和补充信息的表达逻辑，信息关系、句法角色均正确，无过度解读或错误比较。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-071-sentence-010",
+      "parentEnglish": "Yes, he did. He telephoned at nine o'clock.",
+      "children": [
+        {
+          "english": "Yes, he did.",
+          "chinese": "是的，他打了。",
+          "tip": "对方问“有没有打过电话”，先用 Yes, he did. 给一个干脆的肯定答复，不需要重复整句动词。回答一般疑问句时，这种简略答语最常用，显得自然不啰嗦。",
+          "intent": "针对前文“他昨晚有没有打电话”的一般疑问句，给出明确的肯定简略答复。",
+          "parts": [
+            [
+              "Yes, he did.",
+              "针对前文一般疑问句的肯定简略答复，用did替代问句里的完整谓语，避免重复。",
+              "是的，他打了。"
+            ]
+          ],
+          "notes": [
+            [
+              "简略答语中did的指代作用",
+              "did代指问句里的did he telephone last night，避免重复telephone的完整谓语，完整意思是“是的，他昨晚打电话了”。"
+            ]
+          ],
+          "structures": [
+            [
+              "Yes, he did.",
+              "简略肯定答语",
+              "对应一般过去时的问句Did he telephone last night?，用助动词did替代前面出现的完整谓语，避免重复，用于给出肯定答复。"
+            ]
+          ]
+        },
+        {
+          "english": "He telephoned at nine o'clock.",
+          "chinese": "他九点钟打的电话。",
+          "tip": "在肯定答复之后补出具体时间 at nine o'clock，是顺着对方关心的“打电话”这件事追加有用细节。补充信息放在动作后面，听者先接住事实，再知道具体时点。",
+          "intent": "承接前面的简略答复，补充说明打电话发生的具体时间。",
+          "parts": [
+            [
+              "He",
+              "句子的主语，指代前文提到的男性。",
+              "他"
+            ],
+            [
+              "telephoned",
+              "句子的核心动作，是主语发出的过去行为。",
+              "打了电话"
+            ],
+            [
+              "at nine o'clock.",
+              "补充说明打电话这个动作发生的具体时间。",
+              "在九点钟"
+            ]
+          ],
+          "notes": [
+            [
+              "at nine o'clock的用法",
+              "介词at加具体钟点表示动作发生的时间，放在telephoned之后，用来补充说明打电话是九点整发生的。"
+            ]
+          ],
+          "structures": [
+            [
+              "He",
+              "主语",
+              "指代前文提到的男性，是发出telephone动作的人。"
+            ],
+            [
+              "telephoned",
+              "谓语动词",
+              "telephone的过去式，表示过去发生的“打电话”的动作。"
+            ],
+            [
+              "at nine o'clock",
+              "时间状语",
+              "说明打电话这个动作发生的具体时间点。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

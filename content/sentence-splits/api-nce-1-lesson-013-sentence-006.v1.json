@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正了提示中无依据的“开场节奏”表述，校准为客观的口语开场方式；完善了子句各字段，边界清晰，parts 拼回与原文一致，教学点准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-013-sentence-006",
+      "parentEnglish": "That's a nice dress. It's very smart.",
+      "children": [
+        {
+          "english": "That's a nice dress.",
+          "chinese": "那是一件漂亮的连衣裙。",
+          "tip": "先用 That's 点出眼前评价的对象，再用 nice dress 给出第一层夸赞。评价眼前物品时，先明确指代再讲属性，是口语里自然的开场方式。",
+          "intent": "指向眼前的连衣裙并作出第一层正面评价。",
+          "parts": [
+            [
+              "That's",
+              "指代并引出评价对象的主体",
+              "那是"
+            ],
+            [
+              "a nice dress.",
+              "说明评价对象及整体观感",
+              "一件漂亮的连衣裙。"
+            ]
+          ],
+          "notes": [
+            [
+              "That's 的指代用法",
+              "That's 用来指眼前的物品，先把评价对象明确出来，让对方立刻知道说的是什么。"
+            ]
+          ],
+          "structures": [
+            [
+              "That's a nice dress.",
+              "主系表完整陈述句",
+              "That 作主语指代眼前的连衣裙，is 是系动词，a nice dress 作表语说明对象及评价，构成完整的评价句。"
+            ]
+          ]
+        },
+        {
+          "english": "It's very smart.",
+          "chinese": "它很时髦。",
+          "tip": "smart 在这里形容衣物漂亮时髦，不是“聪明”；描述穿着类事物的词要跟着对象调整词义理解。承接上句用 It 指代，不用重复名词，评价更连贯。",
+          "intent": "承接前面对连衣裙的评价，补充夸赞其款式时髦。",
+          "parts": [
+            [
+              "It's",
+              "承接前文物品的陈述主体",
+              "它是"
+            ],
+            [
+              "very smart.",
+              "描述连衣裙的风格特点",
+              "非常时髦。"
+            ]
+          ],
+          "notes": [
+            [
+              "指代衔接",
+              "It 直接指代前一句的 dress，避免重复名词，让两句衔接更简洁自然。"
+            ],
+            [
+              "smart 的多义",
+              "smart 形容人时可表示聪明，形容衣物或穿着时常表示漂亮、时髦，词义随描述对象变化。"
+            ]
+          ],
+          "structures": [
+            [
+              "It's very smart.",
+              "主系表完整陈述句",
+              "It 作主语指代连衣裙，is 是系动词，very smart 作表语补充说明款式特点，延伸评价维度。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

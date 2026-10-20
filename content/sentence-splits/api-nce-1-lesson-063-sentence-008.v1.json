@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分符合英文原句边界，tip准确点出mustn't与yet配合的时间限定及And并列医嘱的表达作用，parts拼回一致，notes和structures内容准确，intent贴合语境。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-063-sentence-008",
+      "parentEnglish": "The boy mustn't go to school yet, Mr. Williams. And he mustn't eat rich food.",
+      "children": [
+        {
+          "english": "The boy mustn't go to school yet, Mr. Williams.",
+          "chinese": "这个男孩还不能去上学，威廉斯先生。",
+          "tip": "mustn't 加 yet 不是说永远不能，而是强调眼下时机还没到，留着之后可以返校的余地，适合医嘱这种有时间性的要求。",
+          "intent": "向威廉斯先生告知第一条医嘱：男孩目前还不能上学。",
+          "parts": [
+            [
+              "The boy",
+              "句子主语，指代患病的孩子",
+              "这个男孩"
+            ],
+            [
+              "mustn't go to school yet,",
+              "针对主语的禁止性要求，yet补充“目前还不行”的时间限定",
+              "还不能去上学，"
+            ],
+            [
+              "Mr. Williams.",
+              "呼语，点明医嘱的告知对象",
+              "威廉斯先生。"
+            ]
+          ],
+          "notes": [
+            [
+              "yet在否定句中的用法",
+              "yet 用在否定句句末，表示“还、尚未”，说明某件事目前还不可以做，暗含之后可能可以，对应中文“还没/还不能”。"
+            ],
+            [
+              "句末呼语",
+              "Mr. Williams 放在句末是呼语，用来点明说话对象，不充当句子的主语或宾语。"
+            ],
+            [
+              "mustn't表禁止",
+              "mustn't 是情态动词must的否定形式，在这里表示医嘱上的禁止、不允许，语气较强。"
+            ]
+          ],
+          "structures": [
+            [
+              "The boy",
+              "主语",
+              "指句子描述的对象，也就是生病的男孩。"
+            ],
+            [
+              "mustn't go to school yet",
+              "谓语部分",
+              "mustn't 表禁止，go to school 是动作内容，yet 补充说明“目前还不行”的状态。"
+            ],
+            [
+              "Mr. Williams",
+              "呼语",
+              "放在句末，点明这番话是对威廉斯先生说的。"
+            ]
+          ]
+        },
+        {
+          "english": "And he mustn't eat rich food.",
+          "chinese": "而且他不能吃油腻的食物。",
+          "tip": "用 And 承接上一条医嘱，保持 mustn't 的一致语气，是在同一份告诫里平行补充另一项禁忌，让听者清楚两条要求同样重要。",
+          "intent": "并列补充第二条医嘱：男孩不能吃油腻食物。",
+          "parts": [
+            [
+              "And",
+              "并列连接词，承接上一条医嘱引出新的要求",
+              "而且"
+            ],
+            [
+              "he",
+              "句子主语，指代前文的男孩",
+              "他"
+            ],
+            [
+              "mustn't eat rich food.",
+              "第二项禁止性要求，说明饮食方面的禁忌",
+              "不能吃油腻的食物。"
+            ]
+          ],
+          "notes": [
+            [
+              "And衔接平行禁忌",
+              "And 连接前后两条同属医嘱的禁止要求，两句都用 mustn't，语气一致，强化了需要共同遵守的事项。"
+            ],
+            [
+              "rich food的含义",
+              "rich 修饰 food 时表示“油腻的、味浓的、不易消化的”，不是“富裕的”意思。"
+            ]
+          ],
+          "structures": [
+            [
+              "And",
+              "并列连词",
+              "连接上一句和本句，引出同属医嘱的另一项禁止要求。"
+            ],
+            [
+              "he",
+              "主语",
+              "指代前文提到的 the boy。"
+            ],
+            [
+              "mustn't eat rich food",
+              "谓语部分",
+              "mustn't 表禁止，eat rich food 是动作内容，rich 修饰 food 说明是油腻的食物。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

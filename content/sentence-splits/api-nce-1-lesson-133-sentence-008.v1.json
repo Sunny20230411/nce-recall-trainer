@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确；修正了原呼语笔记中“最自然”的无依据比较表述；两个子句的提点分别聚焦提议用法和预指用法，各有侧重且符合教学要求；parts、notes、structures均与对应子句匹配，信息准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-133-sentence-008",
+      "parentEnglish": "Let's buy a newspaper, Liz. Listen to this!",
+      "children": [
+        {
+          "english": "Let's buy a newspaper, Liz.",
+          "chinese": "我们买份报纸吧，莉兹。",
+          "tip": "Let's 是拉着对方一起做的提议，不是单方面让对方去做。想邀请同伴共同行动时，直接用 Let's 加动作就行，不用再说“you and I”。",
+          "intent": "向莉兹提出一起买报纸的共同行动建议。",
+          "parts": [
+            [
+              "Let's buy a newspaper,",
+              "提出包含说话人和听话人的共同行动建议，含提议标记、动作和对象",
+              "我们买份报纸吧"
+            ],
+            [
+              "Liz.",
+              "点明建议的交流对象，句末呼语",
+              "莉兹"
+            ]
+          ],
+          "notes": [
+            [
+              "Let's的含义与用法",
+              "Let's是Let us的缩写形式，后面接不带to的动词原形，用于第一人称复数的提议、号召，意为“我们（包括听话人）一起做某事吧”，和只对听话人下达指令、不包含说话人的祈使句有明显区别。"
+            ],
+            [
+              "呼语的位置",
+              "人名Liz放在祈使句句末，作为对听话人的呼语，明确这条买报纸的提议是说给莉兹的，是口语中常见的呼语位置。"
+            ]
+          ],
+          "structures": [
+            [
+              "Let's",
+              "提议引导标记",
+              "是Let us的缩写，用来引出向听话人发出的、包含双方的共同行动提议，自带提议邀约的语气。"
+            ],
+            [
+              "buy a newspaper",
+              "祈使句核心谓语加宾语",
+              "表示提议的具体行动，buy是动词原形，a newspaper是buy这个动作的对象。"
+            ],
+            [
+              "Liz.",
+              "呼语",
+              "点明这条买报纸的提议的听话人是莉兹，属于口语中对交流对象的直接称呼。"
+            ]
+          ]
+        },
+        {
+          "english": "Listen to this!",
+          "chinese": "听听这个！",
+          "tip": "这里的 this 可以预指接下来要读的内容，不一定指已经出现过的事物。展示信息前想先引起对方注意，就可以说 Listen to this 或 Look at this。",
+          "intent": "招呼莉兹留意听接下来要读的报纸内容。",
+          "parts": [
+            [
+              "Listen to this!",
+              "简短祈使句，示意对方留意即将呈现的内容",
+              "听听这个！"
+            ]
+          ],
+          "notes": [
+            [
+              "Listen to this的指代特点",
+              "本句中的this指代下文即将读到的报纸上的新闻内容，是预指用法，用来自然引出后续要展示的信息。"
+            ]
+          ],
+          "structures": [
+            [
+              "Listen to",
+              "祈使句核心短语动词",
+              "由不及物动词listen加介词to构成，后面接听的对象，表示“留心听……”。"
+            ],
+            [
+              "this",
+              "介词宾语",
+              "指代下文即将读到的报纸新闻，是引起对方注意的具体目标。"
+            ],
+            [
+              "!",
+              "句末标点",
+              "感叹号体现说话人招呼对方留意的急切或强调语气。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

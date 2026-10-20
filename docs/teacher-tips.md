@@ -1,5 +1,16 @@
 # Teacher Tips Pilot
 
+## Published Boundary Revision 5
+
+See `sentence-split-maintenance.md` for the current boundary overlay. The original
+956 NCE 1 / 1,217 NCE 2 records below remain historical inputs. Publication now
+contains 1,127 / 1,218 units: 172 combined records are replaced by 344 separately
+aligned units, with the configured Doubao model retaining usable content and
+separately reviewing necessary changes. Original tips remain on disk; child tips
+carry their own model provenance. Neither model review nor Codex self-review is
+independent human verification. The generated effective index is authoritative
+for current exports and counts; the original index remains the legacy baseline.
+
 ## Editorial Standard 1.2.0
 
 ### NCE 2 Direct Editorial Completion

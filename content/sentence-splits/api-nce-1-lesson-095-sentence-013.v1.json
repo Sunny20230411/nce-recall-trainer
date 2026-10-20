@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界清晰，子句中文、信息关系、结构角色准确；名师提点分别突出信息顺序和miss的语境用法，无机械重复，符合教学标准。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-095-sentence-013",
+      "parentEnglish": "It left five minutes ago! We missed the train!",
+      "children": [
+        {
+          "english": "It left five minutes ago!",
+          "chinese": "它五分钟前开走了！",
+          "tip": "先给出火车已经开走的事实，再补具体时间 five minutes ago，听话人能立刻明白为什么赶不上。说“某班车刚走”时，可以先说动作再说时间点，突出已成事实。",
+          "intent": "陈述火车已经驶离的事实并点明具体时间，解释当前无法乘车的原因。",
+          "parts": [
+            [
+              "It left",
+              "句子核心主谓部分，说明火车驶出的动作。",
+              "它（指火车）开走了"
+            ],
+            [
+              "five minutes ago!",
+              "补充说明火车驶离的具体时间点。",
+              "五分钟前"
+            ]
+          ],
+          "notes": [
+            [
+              "代词It的指代逻辑",
+              "句首的It指代前文语境中提到的the train，不需要补出完整名词，符合英语指代简洁性的表达习惯。"
+            ],
+            [
+              "ago的时间搭配",
+              "“five minutes ago”是时间状语，意为“五分钟前”，和一般过去时搭配，明确说明火车驶离的时间点距离说话时刻已经过去了五分钟。"
+            ]
+          ],
+          "structures": [
+            [
+              "It left five minutes ago!",
+              "独立感叹句",
+              "陈述火车已经开走的客观事实，点明发车时间，独立成句传递紧迫感。"
+            ],
+            [
+              "It",
+              "主语",
+              "指代前文提到的the train，承接上下文避免重复。"
+            ],
+            [
+              "left",
+              "谓语动词（一般过去时）",
+              "表示“驶离、开出”的动作，是火车执行的过去动作。"
+            ],
+            [
+              "five minutes ago",
+              "时间状语",
+              "说明left这个动作发生在说话时刻的五分钟之前。"
+            ]
+          ]
+        },
+        {
+          "english": "We missed the train!",
+          "chinese": "我们错过了这班火车！",
+          "tip": "missed the train 直接点出没赶上的结果，承接上一句火车已开走的事实。这里 miss 不是“想念”，表示没赶上某个班次时，直接说 miss + 交通工具即可。",
+          "intent": "点明说话人没能赶上刚开走的火车，传递懊恼的情绪。",
+          "parts": [
+            [
+              "We missed",
+              "句子核心主谓部分，点明没赶上火车的主体和动作。",
+              "我们错过了"
+            ],
+            [
+              "the train!",
+              "补充说明错过的对象是特指那班刚开走的火车。",
+              "这班火车"
+            ]
+          ],
+          "notes": [
+            [
+              "missed的语境语义",
+              "miss在此处不是“想念”的含义，结合赶火车的场景，意为“错过、没赶上”；末尾的the train指代前文提到的、五分钟前开走的那趟列车，避免重复。"
+            ]
+          ],
+          "structures": [
+            [
+              "We missed the train!",
+              "独立感叹句",
+              "在“火车已经开走”的事实基础上，点明说话人没能赶上火车的结果，传递懊恼情绪。"
+            ],
+            [
+              "We",
+              "主语",
+              "指说话人和同行的人，是“错过火车”这个动作的执行者。"
+            ],
+            [
+              "missed",
+              "谓语动词（一般过去时）",
+              "意为“错过、没赶上”，是描述过去发生的结果的核心动词。"
+            ],
+            [
+              "the train",
+              "宾语",
+              "指前文提到的五分钟前开走的那班火车。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

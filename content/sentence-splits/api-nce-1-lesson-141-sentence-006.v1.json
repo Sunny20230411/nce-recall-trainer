@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正原笔记中“引语后置”表述为“引语前置”以准确对应结构；拆分后两句提点各有侧重，第一句讲引语位置的节奏作用，第二句讲but的对照用法，信息关系和结构均准确，符合教学标准。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-141-sentence-006",
+      "parentEnglish": "'Hello, little girl,' she said. Sally did not answer, but looked at her curiously.",
+      "children": [
+        {
+          "english": "'Hello, little girl,' she said.",
+          "chinese": "“你好，小姑娘，”她说。",
+          "tip": "先把说的话亮出来，再补说话人，读者的注意力先落在问候内容上，符合人物刚开口的场景节奏。口语引语放在句首很常见，不一定非要先说谁说的。",
+          "intent": "转述中年女士对萨莉的问候，交代她主动搭话的行为。",
+          "parts": [
+            [
+              "'Hello, little girl,'",
+              "女士对萨莉说的问候内容，用单引号标示为直接引语。",
+              "“你好，小姑娘，”"
+            ],
+            [
+              "she said.",
+              "交代前面引语的说话人，she指代刚上车的中年女士。",
+              "她说。"
+            ]
+          ],
+          "notes": [
+            [
+              "引语前置的标点规则",
+              "直接引语放在句首，引述分句 she said 跟在后面，引语内部仍用逗号；这种结构让读者先看到台词，再明确说话人归属。"
+            ]
+          ],
+          "structures": [
+            [
+              "'Hello, little girl,'",
+              "直接引语",
+              "女士对萨莉说的问候台词，前后用单引号标出，内容是招呼语“你好，小姑娘”。"
+            ],
+            [
+              "she said.",
+              "主句，引述说话人",
+              "交代前面的引语是谁说的，she 指代前文刚上车的中年女士。"
+            ]
+          ]
+        },
+        {
+          "english": "Sally did not answer, but looked at her curiously.",
+          "chinese": "萨莉没有回答，只是好奇地看着她。",
+          "tip": "这里的 but 不是反对什么，而是把“没做什么”和“实际做了什么”对照着说：先打破对方预期的“回答”，再给出真实反应“好奇打量”。描写人物反应时，这种“否定+but+实际行为”的写法能自然突出反差。",
+          "intent": "描写萨莉对问候的反应，突出她没有口头回应、而是好奇打量的状态。",
+          "parts": [
+            [
+              "Sally",
+              "句子主语，后面两个动作的发出者。",
+              "萨莉"
+            ],
+            [
+              "did not answer,",
+              "萨莉的第一个动作行为，对女士的问候未作语言回应。",
+              "没有回答，"
+            ],
+            [
+              "but looked at her curiously.",
+              "转折后萨莉实际做出的动作，说明她以好奇打量的方式代替了口头回答。",
+              "只是好奇地看着她。"
+            ]
+          ],
+          "notes": [
+            [
+              "did not...but...连接并行动作",
+              "but 在这里连接萨莉的两个并行动作：没有做“回答”，转而做“看着她”，转折的是行为的选择，不是完全否定前文。"
+            ],
+            [
+              "不及物动词加介词构成的短语",
+              "look 是不及物动词，接看的对象时要加介词 at，即 look at her；curiously 放在句末修饰 looked，说明看的方式是带着好奇。"
+            ]
+          ],
+          "structures": [
+            [
+              "Sally",
+              "主语",
+              "是本句两个并列动作的发出者，也就是没有回答、好奇打量对方的人。"
+            ],
+            [
+              "did not answer",
+              "谓语1，否定动作",
+              "说明萨莉没有对女士的问候给出语言回应，did not 构成一般过去时的否定。"
+            ],
+            [
+              "but looked at her curiously",
+              "谓语2，转折后的实际动作",
+              "but 连接实际发生的动作：萨莉没有说话，而是用好奇的眼神打量这位陌生的女士。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

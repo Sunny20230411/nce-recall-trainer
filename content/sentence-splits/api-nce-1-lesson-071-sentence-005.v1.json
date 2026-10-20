@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "已按原引号边界拆分两句；各自的tip分别点透直接引语的时态视角和临时限制的表达，教学点不同且有迁移价值；parts、notes、structures均对应到单句，拼回与原文一致，表述准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-071-sentence-005",
+      "parentEnglish": "He said, 'Pauline is typing letters. She can't speak to you now!'",
+      "children": [
+        {
+          "english": "He said, 'Pauline is typing letters.",
+          "chinese": "他说：“波琳正在打信件。",
+          "tip": "直接引语里用is typing，是站在老板当时说话的视角说“此刻正在做”，不是站在现在回忆过去。引述原话时，里面的时态要按说话当时的时间来理解。",
+          "intent": "用直接引语先给出波琳当下正在做的事，作为她不能接电话的原因。",
+          "parts": [
+            [
+              "He said,",
+              "引出后面引号内的直接引语",
+              "他说"
+            ],
+            [
+              "'Pauline is typing letters.",
+              "引语里说明波琳当下正在做的事",
+              "波琳正在打信"
+            ]
+          ],
+          "notes": [
+            [
+              "引号直接引语",
+              "主句He said后用单引号引出老板当场说的原话，不是间接转述；引号内保留当时的时态与语气。"
+            ],
+            [
+              "现在进行时表正在进行",
+              "is typing表示“正在打字”，说明波琳当下在做的事，不是已经打完或将要打。"
+            ]
+          ],
+          "structures": [
+            [
+              "He said,",
+              "转述提示",
+              "引出后面引号内的直接引语，说明说话的人和动作。"
+            ],
+            [
+              "'Pauline is typing letters.",
+              "直接引语分句1",
+              "说明波琳此刻正在进行的动作，是她不能通话的原因。"
+            ]
+          ]
+        },
+        {
+          "english": "She can't speak to you now!'",
+          "chinese": "她现在不能和你讲话！”",
+          "tip": "引语里的can't和now都对应老板说话的那一刻，意思是“这会儿没空”，不是永久不能和对方说话。说当下因忙碌无法接应，常用can't加now点明临时限制。",
+          "intent": "承接上半句的原因，直接给出波琳无法通话的结论，带感叹语气强化当下不便。",
+          "parts": [
+            [
+              "She can't speak to you now!'",
+              "引语里说明波琳当下无法通话的结果，带感叹语气",
+              "她现在不能和你讲话"
+            ]
+          ],
+          "notes": [
+            [
+              "can't表当前能力/许可限制",
+              "She can't speak说明因正在工作，当下无法接听，不是永久不说话。"
+            ]
+          ],
+          "structures": [
+            [
+              "She can't speak to you now!'",
+              "直接引语分句2",
+              "说明结果：她现在没法和你说话，带感叹语气强化当下忙碌。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，提点点明语境词义与称呼语序的实用差异，结构与信息关系对应正确，符合教学要求。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-105-sentence-001",
+      "parentEnglish": "Where's Sandra, Bob? I want her.",
+      "children": [
+        {
+          "english": "Where's Sandra, Bob?",
+          "chinese": "鲍勃，桑德拉在哪里？",
+          "tip": "称呼 Bob 放在问句末尾是英语口语常见安排，先抛核心问题再点明听话人，重点落在找桑德拉这件事上。",
+          "intent": "向鲍勃询问桑德拉的位置，点明说话对象。",
+          "parts": [
+            [
+              "Where's Sandra,",
+              "询问的核心内容",
+              "桑德拉在哪里"
+            ],
+            [
+              "Bob?",
+              "称呼语，点明说话对象",
+              "鲍勃？"
+            ]
+          ],
+          "notes": [
+            [
+              "称呼语的位置",
+              "人名 Bob 放在问句末尾，用逗号与前面的问题隔开；汉语常把称呼语放在句首。"
+            ],
+            [
+              "Where's 的构成",
+              "Where's 是 Where is 的缩写，Where 是地点疑问副词作状语，is 为连系动词，Sandra 是句子主语。"
+            ]
+          ],
+          "structures": [
+            [
+              "Where's",
+              "疑问引导成分",
+              "Where 是地点疑问副词作状语，'s 是 is 的缩写，和主语 Sandra 构成疑问语序下的连系动词部分，用来询问地点。"
+            ],
+            [
+              "Sandra",
+              "主语",
+              "人名 Sandra 是被询问位置的对象，在问句中作主语。"
+            ],
+            [
+              "Bob",
+              "称呼语",
+              "呼语，标明这句话是对鲍勃说的，用逗号与主句隔开。"
+            ]
+          ]
+        },
+        {
+          "english": "I want her.",
+          "chinese": "我要找她。",
+          "tip": "这里的 want 不是“喜欢”或“占有”，而是办公场景里“要找某人（来谈话/安排事）”的常用短句，具体意图会靠后面的话补明。",
+          "intent": "说明自己找桑德拉的需求，引出后续安排。",
+          "parts": [
+            [
+              "I want",
+              "说明自己的意愿",
+              "我要（找）"
+            ],
+            [
+              "her.",
+              "补充意愿的对象是桑德拉",
+              "她。"
+            ]
+          ],
+          "notes": [
+            [
+              "I want her 的语境含义",
+              "动词 want 后接宾格 her，在找人事宜的语境中表示“要找她”，并非“想要她”的其他含义。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主语",
+              "代词 I 是动作的发出者。"
+            ],
+            [
+              "want",
+              "谓语动词",
+              "及物动词 want，在找人事宜的语境中表示“想要（和某人见面、谈话）”。"
+            ],
+            [
+              "her",
+              "宾语",
+              "宾格代词 her 作 want 的宾语，指代 Sandra。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

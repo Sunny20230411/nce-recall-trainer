@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正了子句parts拼写格式，确保各子句parts文本拼回与原句一致，提点符合教学要求，结构和注释准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-121-sentence-013",
+      "parentEnglish": "Yes. I recognize him now.",
+      "children": [
+        {
+          "english": "Yes.",
+          "chinese": "是的。",
+          "tip": "简短的Yes先接住对方的问句，给出明确肯定，再补充具体说明，符合口语应答的自然节奏。",
+          "intent": "对对方的确认问句给出肯定答复。",
+          "parts": [
+            [
+              "Yes.",
+              "肯定回答",
+              "是的"
+            ]
+          ],
+          "notes": [
+            [
+              "独立答语的用法",
+              "Yes. 是独立的肯定答语，用于回应一般疑问句，先明确表态，后续句子再补充细节。"
+            ]
+          ],
+          "structures": [
+            [
+              "Yes.",
+              "独立答语",
+              "直接回应前文的一般疑问句，表示肯定确认。"
+            ]
+          ]
+        },
+        {
+          "english": "I recognize him now.",
+          "chinese": "我现在认出他来了。",
+          "tip": "recognize 是“辨认出身份”，区别于侧重记得经历的 remember；句末的 now 标出和刚才没认出来的变化，不是泛指“现在”。",
+          "intent": "说明自己此刻已经认出对方所指的人。",
+          "parts": [
+            [
+              "I",
+              "主语",
+              "我"
+            ],
+            [
+              "recognize",
+              "谓语动词",
+              "认出"
+            ],
+            [
+              "him",
+              "宾语",
+              "他"
+            ],
+            [
+              "now.",
+              "时间状语",
+              "现在"
+            ]
+          ],
+          "notes": [
+            [
+              "now 的位置与含义",
+              "now 放在句末，强调“此刻”才认出对方，和之前没认出的状态形成对比，不影响句子主干。"
+            ],
+            [
+              "him 的指代",
+              "him 指代前文问句中的 the man，作 recognize 的宾语，说明认出的对象。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主语",
+              "指说话人自己。"
+            ],
+            [
+              "recognize",
+              "谓语动词",
+              "表示“认出、辨认出”。"
+            ],
+            [
+              "him",
+              "宾语",
+              "指代前文提到的那个男人。"
+            ],
+            [
+              "now",
+              "时间副词",
+              "表示“此刻、现在”，突出刚认出的变化。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

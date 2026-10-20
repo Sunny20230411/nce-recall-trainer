@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分后两句边界清晰，提点分别覆盖并列安排的信息组织和同一目的地的不同表达视角，教学点明确不重复；parts、notes、structures均对应单句内容，无跨句混杂。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-055-sentence-002",
+      "parentEnglish": "In the morning, Mr. Sawyer goes to work and the children go to school. Their father takes them to school every day.",
+      "children": [
+        {
+          "english": "In the morning, Mr. Sawyer goes to work and the children go to school.",
+          "chinese": "早上，索耶先生去上班，孩子们去上学。",
+          "tip": "先点出时间背景，再用 and 并列讲一家人早晨各自的去向，两个分句结构对称，适合同时说不同人的常规安排。",
+          "intent": "介绍索耶一家早晨的两项常规出行安排。",
+          "parts": [
+            [
+              "In the morning,",
+              "点明后续上班、上学动作发生的时间。",
+              "在早上"
+            ],
+            [
+              "Mr. Sawyer goes to work",
+              "第一个并列分句，说明索耶先生早上的去向。",
+              "索耶先生去上班"
+            ],
+            [
+              "and",
+              "连接两个同时发生的并列分句。",
+              "并且"
+            ],
+            [
+              "the children go to school.",
+              "第二个并列分句，说明孩子们早上的去向。",
+              "孩子们去上学"
+            ]
+          ],
+          "notes": [
+            [
+              "and连接两个并列独立分句",
+              "第一个分句中Mr. Sawyer是第三人称单数，一般现在时动词go用goes；and后的第二个分句主语the children是复数，动词用原形go，保持句式对称。"
+            ],
+            [
+              "时间状语的位置",
+              "In the morning 放在句首，限定了后面两个动作发生的时段，先给时间背景再讲具体事件。"
+            ]
+          ],
+          "structures": [
+            [
+              "In the morning",
+              "时间状语",
+              "说明后面两个并列分句的动作发生在早晨时段。"
+            ],
+            [
+              "Mr. Sawyer",
+              "第一个并列分句的主语",
+              "指代索耶先生，是“去上班”这一动作的发出者。"
+            ],
+            [
+              "goes to work",
+              "第一个并列分句的谓语",
+              "主语是第三人称单数，一般现在时动词go变为goes，表示日常去上班的固定行为。"
+            ],
+            [
+              "and",
+              "并列连词",
+              "连接两个地位平等的独立分句，共同描述早上同一时段发生的两件事。"
+            ],
+            [
+              "the children",
+              "第二个并列分句的主语",
+              "指代索耶家的孩子们，是“去上学”这一动作的发出者。"
+            ],
+            [
+              "go to school",
+              "第二个并列分句的谓语",
+              "主语是复数，一般现在时动词用原形go，表示日常去上学的行为。"
+            ]
+          ]
+        },
+        {
+          "english": "Their father takes them to school every day.",
+          "chinese": "他们的父亲每天送他们去学校。",
+          "tip": "同样是去学校，前一句从孩子的角度说 go to school，这一句从父亲的角度说 takes them to school，突出“陪同送学”的角色。讲同一目的地可以切换出行视角，表达不同的行动角色。",
+          "intent": "补充说明父亲每日送孩子上学的日常习惯，明确孩子上学的出行方式。",
+          "parts": [
+            [
+              "Their father",
+              "本句主语，指代前面提到的索耶先生，明确动作发出者。",
+              "他们的父亲"
+            ],
+            [
+              "takes them to school",
+              "核心动作，说明父亲带孩子前往学校。",
+              "送他们去学校"
+            ],
+            [
+              "every day.",
+              "说明送学动作是每日重复的日常习惯。",
+              "每天"
+            ]
+          ],
+          "notes": [
+            [
+              "take sb to sp的含义",
+              "takes them to school中take不是简单的“去”，而是“带领、陪同某人前往某处”，对应中文“送某人上学”的表达。"
+            ],
+            [
+              "时间状语的位置",
+              "every day放在句尾，说明“送孩子上学”是每天重复的日常习惯，而非单次行为。"
+            ]
+          ],
+          "structures": [
+            [
+              "Their father",
+              "主语",
+              "指代前文提到的索耶先生，即孩子们的父亲，呼应前一句的人物关系。"
+            ],
+            [
+              "takes",
+              "谓语动词",
+              "主语是第三人称单数，一般现在时用takes，表示“带领、陪同前往”。"
+            ],
+            [
+              "them",
+              "宾语",
+              "指代前面提到的孩子们，作takes的动作对象。"
+            ],
+            [
+              "to school",
+              "方向状语",
+              "表示take这个动作的目的地是学校。"
+            ],
+            [
+              "every day",
+              "时间状语",
+              "说明送孩子上学是每日重复的习惯，而非单次行为。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

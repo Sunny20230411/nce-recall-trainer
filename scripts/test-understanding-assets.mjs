@@ -3,7 +3,8 @@ import { readFile } from 'node:fs/promises';
 import { chromium } from 'playwright-core';
 import { validateUnderstanding, recordKey } from './understanding-contract.mjs';
 
-const source = JSON.parse(await readFile('content/understanding-source-index.v1.json', 'utf8'));
+const source = JSON.parse(await readFile('content/understanding-source-index.effective.v1.json', 'utf8'));
+assert.equal(source.complete, true, 'Published sentence split coverage must be complete');
 const identities = new Map(source.records.map(record => [recordKey(record), record]));
 const browser = await chromium.launch({ headless: true, executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe' });
 try {

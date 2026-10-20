@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，parts拼回与原文一致；提点突出转折评价的表达逻辑，worth的语义区分清晰，句法角色与注释无误。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-111-sentence-007",
+      "parentEnglish": "I don't like this model. The other model's more expensive, but it's worth the money.",
+      "children": [
+        {
+          "english": "I don't like this model.",
+          "chinese": "我不喜欢这个型号。",
+          "tip": "说不喜欢当前这款，是为了把话题转向另一款作比较。先明确否定眼前的选择，后面再提备选就很自然。",
+          "intent": "明确表达对当前讨论的这款型号的否定喜好，为后续提出另一款作铺垫。",
+          "parts": [
+            [
+              "I don't like",
+              "主谓部分，发出否定喜好的动作",
+              "我不喜欢"
+            ],
+            [
+              "this model.",
+              "宾语，说明不喜欢的具体对象",
+              "这个型号。"
+            ]
+          ],
+          "notes": [
+            [
+              "指代的一致性",
+              "句中的 this model 指眼前正在讨论的较便宜的这一款，和下一句的 the other model 形成“这一款/另一款”的对应关系。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主语",
+              "指代说话人本人，是表达喜好这一动作的发出者。"
+            ],
+            [
+              "don't like",
+              "谓语（否定式及物动词短语）",
+              "表达“不喜欢”的态度，由助动词do的否定式+实义动词原形like构成。"
+            ],
+            [
+              "this model.",
+              "宾语",
+              "是like的对象，指当前正在讨论的这一款型号。"
+            ]
+          ]
+        },
+        {
+          "english": "The other model's more expensive, but it's worth the money.",
+          "chinese": "另一个型号更贵，但它值这个价。",
+          "tip": "but it's worth the money 先承认价格更高，再转去说价值匹配花费。worth 说的是所得和价钱相称，不等于便宜；选东西时“贵不贵”和“值不值”是两回事。",
+          "intent": "先承认另一款型号价格更高，再通过转折强调它的价值与价格相称，给出倾向选择它的理由。",
+          "parts": [
+            [
+              "The other model's more expensive,",
+              "转折前的已知信息，说明另一款的价格特点",
+              "另一个型号更贵，"
+            ],
+            [
+              "but it's worth the money.",
+              "转折后的核心评价，回应前半句的“更贵”说明它的价值匹配价格",
+              "但它值这个价。"
+            ]
+          ],
+          "notes": [
+            [
+              "指代的一致性",
+              "分句里的it明确指代前文刚提到的the other model，避免重复啰嗦，读者可以顺着前文自然找到it对应的对象。"
+            ],
+            [
+              "worth的用法特点",
+              "worth是表语形容词，不能单独放在名词前作定语，后面可直接接表示金额、价值的名词，搭配结构为be worth + 金额/对应价值，用来表达“价值等同于该金额/匹配对应价值”。"
+            ]
+          ],
+          "structures": [
+            [
+              "The other model",
+              "主语",
+              "指代和前面this model相对的另一款型号，是后面描述其价格属性的主体。"
+            ],
+            [
+              "'s more expensive,",
+              "系动词与表语",
+              "'s 是 is 的缩写，more expensive 是形容词比较级作表语，描述这款价格比前面的更高。"
+            ],
+            [
+              "but",
+              "转折并列连词",
+              "连接前后两个语义存在转折关系的分句，从“价格更高”转到“但有对应的价值”。"
+            ],
+            [
+              "it",
+              "主语",
+              "指代前面刚提到的the other model，避免重复使用名词。"
+            ],
+            [
+              "'s worth the money.",
+              "系动词与表语（形容词短语）",
+              "'s 是 is 的缩写，worth作形容词接名词短语the money，说明这款产品的价值和它的售价匹配，物有所值。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

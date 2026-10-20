@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界正确，中文对应准确，提点聚焦表达差异与用词理解，信息关系、句法角色均无误。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-141-sentence-012",
+      "parentEnglish": "'But you are still ugly,' Sally said. Sally was amused, but I was very embarrassed!",
+      "children": [
+        {
+          "english": "'But you are still ugly,' Sally said.",
+          "chinese": "‘可是你还是很丑，’萨莉说。",
+          "tip": "But 与女士补妆变美的表述形成反差，still 强调在 Sally 眼里外貌没有变化。这是孩子的直白评价，不是礼貌的成人表达，不要直接照搬来评价他人。",
+          "intent": "引用萨莉对女士外貌的直白评价，交代孩子童言无忌的发言内容。",
+          "parts": [
+            [
+              "'But you are still ugly,'",
+              "萨莉说出的直接引语内容，承接上文形成转折",
+              "‘可是你还是很丑，’"
+            ],
+            [
+              "Sally said.",
+              "说明引语的说话人，整体为主句",
+              "萨莉说。"
+            ]
+          ],
+          "notes": [
+            [
+              "引号与对话归属",
+              "引语放在句首，Sally said 放在引语后，引语末尾标点属于引语内容。这里引语是直接引语，引语内的 are 是说话当下的即时表述，不随主句 said 的过去时改成过去时；若改为间接引语才需要调整为 she was still ugly。"
+            ],
+            [
+              "but 的转折作用",
+              "句首的 but 表示萨莉不认同“化妆会变美”的前提，直接给出相反的判断。"
+            ]
+          ],
+          "structures": [
+            [
+              "'But you are still ugly,'",
+              "直接引语（及物动词 said 的宾语）",
+              "Sally said 的宾语内容，引号内保持直接引语原样；其中 you 是引语内的主语，are 是引语内的系动词，still ugly 是引语内的表语，are 不随主句时态改为过去式。"
+            ],
+            [
+              "Sally said.",
+              "主句",
+              "说明这句话是谁说的；said 的宾语就是前面的直接引语。"
+            ]
+          ]
+        },
+        {
+          "english": "Sally was amused, but I was very embarrassed!",
+          "chinese": "萨莉觉得挺有意思，可我当时尴尬极了！",
+          "tip": "用 but 把两种感受并置对照：孩子觉得好玩，大人觉得难堪。amused 只是觉得有趣，不等于认可这话得体。",
+          "intent": "对照描述萨莉和叙事者对同一句话的不同反应，突出童言造成的尴尬。",
+          "parts": [
+            [
+              "Sally was amused,",
+              "独立分句，描述萨莉当时的轻松心态",
+              "萨莉觉得挺有意思，"
+            ],
+            [
+              "but I was very embarrassed!",
+              "转折连接的独立分句，描述叙事者的窘迫",
+              "可我当时尴尬极了！"
+            ]
+          ],
+          "notes": [
+            [
+              "but 转折对照",
+              "这里的 but 连接两个描述感受的分句，突出孩子与在场成人对同一句话的不同反应，形成对比效果。"
+            ]
+          ],
+          "structures": [
+            [
+              "Sally was amused,",
+              "并列独立分句",
+              "描述萨莉当时的感受：Sally 是主语，was 是系动词，amused 是表语，分句结构完整。"
+            ],
+            [
+              "but I was very embarrassed!",
+              "转折并列独立分句",
+              "用 but 把萨莉的轻松与“我”的窘迫对照起来：I 是主语，was 是系动词，very embarrassed 是表语，very 作副词修饰 embarrassed。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，提点聚焦表达语气和判断语气的差异，信息关系、句法角色均正确，无夸大或错误表述。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-115-sentence-013",
+      "parentEnglish": "Don't be silly, Polly. I know there's someone in.",
+      "children": [
+        {
+          "english": "Don't be silly, Polly.",
+          "chinese": "别傻了，波莉。",
+          "tip": "Don't be silly 是很直接的劝阻，语气并不客气，只适合熟人之间驳回对方的想法，不能当作普遍的礼貌纠正用语。",
+          "intent": "直接劝阻对方，驳回对方认为屋里没人的判断。",
+          "parts": [
+            [
+              "Don't be silly,",
+              "劝阻语的核心内容",
+              "别傻了"
+            ],
+            [
+              "Polly.",
+              "说话的对象，呼语",
+              "波莉"
+            ]
+          ],
+          "notes": [
+            [
+              "否定祈使句结构",
+              "Don't放在be动词前构成否定祈使句，意思是\"不要做某事\"，直接向听话人发出劝阻。"
+            ]
+          ],
+          "structures": [
+            [
+              "Don't be silly, Polly.",
+              "否定祈使句",
+              "直接劝阻对方，Polly是呼语，点明说话对象。"
+            ]
+          ]
+        },
+        {
+          "english": "I know there's someone in.",
+          "chinese": "我知道里面有人。",
+          "tip": "用 I know 引出确信的事实，比直接说 there's someone in 更强调“我认定是这样”的判断语气，适合用来反驳不同意见。",
+          "intent": "表达说话人确信屋里有人的判断，回应前面的不同意见。",
+          "parts": [
+            [
+              "I know",
+              "主句，表达说话人的判断",
+              "我知道"
+            ],
+            [
+              "there's someone in.",
+              "宾语从句，作know的内容，陈述确信的事实",
+              "里面有人"
+            ]
+          ],
+          "notes": [
+            [
+              "there be句型的宾语从句",
+              "there's someone in作know的宾语，表示存在性的事实，in是副词表示\"在里面\"，修饰someone的位置。"
+            ]
+          ],
+          "structures": [
+            [
+              "I know there's someone in.",
+              "主谓宾主从复合句",
+              "I是主语，know是谓语，后面整个there be从句作宾语，表达说话人确信的内容。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

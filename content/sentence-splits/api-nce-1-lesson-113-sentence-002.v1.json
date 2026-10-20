@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界正确，子句内容与原句一致；提点聚焦表达选择，无过度比较；信息关系、结构角色准确，迁移点具体实用。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-113-sentence-002",
+      "parentEnglish": "I'm sorry. I've got none.",
+      "children": [
+        {
+          "english": "I'm sorry.",
+          "chinese": "对不起。",
+          "tip": "这里的 I'm sorry 不是为做错事道歉，是回应别人请求时表示“没法帮到你”的礼貌铺垫，先给软缓冲再说明原因。",
+          "intent": "以礼貌致歉回应对方的换零钱请求，为后续说明无法帮忙做铺垫。",
+          "parts": [
+            [
+              "I'm sorry.",
+              "礼貌致歉",
+              "对不起。"
+            ]
+          ],
+          "notes": [
+            [
+              "I'm sorry 的交际用法",
+              "I'm sorry 可用于多种道歉场景，此处是回应他人请求时表达无法提供帮助的礼貌铺垫，并非因犯错致歉。"
+            ]
+          ],
+          "structures": [
+            [
+              "I'm sorry.",
+              "交际礼貌用语",
+              "用于回应他人请求时的礼貌铺垫，表达无法帮忙的歉意。"
+            ]
+          ]
+        },
+        {
+          "english": "I've got none.",
+          "chinese": "我一点零钱也没有。",
+          "tip": "none 直接指代前面提到的 small change，不用重复名词，既简洁又清楚。它只说明当前没零钱，不是说自己身无分文。",
+          "intent": "陈述自身没有零钱的状态，明确说明无法帮忙的原因。",
+          "parts": [
+            [
+              "I've got none.",
+              "陈述自身没有零钱的状态",
+              "我一点零钱也没有。"
+            ]
+          ],
+          "notes": [
+            [
+              "have got 表拥有",
+              "I've got 是 I have got 的缩写形式，在日常口语中表示“有”，等同于 I have。"
+            ],
+            [
+              "none 的指代用法",
+              "none 单独使用时，指代前文提到的不可数名词 small change（零钱），表示“全无、一点也没有”，不需要重复名词。"
+            ]
+          ],
+          "structures": [
+            [
+              "I've got",
+              "谓语部分",
+              "have got 的缩约形式，表示“拥有”，在口语中常用来替代 have 表所属。"
+            ],
+            [
+              "none.",
+              "宾语",
+              "代词，指代前文提到的零钱，表示“一点也没有”。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

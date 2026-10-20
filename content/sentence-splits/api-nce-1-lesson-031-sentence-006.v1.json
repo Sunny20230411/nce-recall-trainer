@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "核对后内容准确，提点聚焦表达选择，无不当自然程度比较，信息拆分与结构标注均符合要求。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-031-sentence-006",
+      "parentEnglish": "Yes, he is. He's climbing the tree.",
+      "children": [
+        {
+          "english": "Yes, he is.",
+          "chinese": "是的，他在。",
+          "tip": "对方问的是Tim是否也在花园，先用Yes, he is.直接接住问题给出肯定答复，不用重复地点信息，回应简洁利落。",
+          "intent": "对前文“Tim是否也在花园”的一般疑问句给出明确肯定的简短回应。",
+          "parts": [
+            [
+              "Yes, he is.",
+              "给出前文询问的明确肯定回应",
+              "对前文一般疑问句给出肯定答复，确认他处于提问中提到的场所"
+            ]
+          ],
+          "notes": [
+            [
+              "简略答句的省略逻辑",
+              "he is承接前文问句，省略了重复的地点内容in the garden，直接确认主语的状态，避免冗余。"
+            ]
+          ],
+          "structures": [
+            [
+              "Yes, he is.",
+              "肯定简略答句",
+              "直接回应前文的一般疑问句，给出明确的肯定答复，不需要重复问句里的全部内容。"
+            ]
+          ]
+        },
+        {
+          "english": "He's climbing the tree.",
+          "chinese": "他正在爬树。",
+          "tip": "确认完在场后，补充他此刻正在做的事，给对方多一点相关信息，比只答“在”更自然。",
+          "intent": "在确认Tim在场的基础上，补充说明他此刻正在进行的具体动作。",
+          "parts": [
+            [
+              "He's climbing the tree.",
+              "补充他在场时正在做的具体行为",
+              "补充说明他此刻正在执行的动作是爬这棵树"
+            ]
+          ],
+          "notes": [
+            [
+              "现在进行时的缩合形式",
+              "He's是He is的缩合形式，和后面的现在分词climbing搭配，明确表示当下正在进行的爬树动作。"
+            ]
+          ],
+          "structures": [
+            [
+              "He's climbing the tree.",
+              "现在进行时陈述句",
+              "以He作为主语，搭配现在进行时的谓语结构，说明主语此刻正在执行的具体动作。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "两个子句的边界、中文翻译、信息关系、句法角色均准确。提点贴合口语回应思路，迁移实用；未夸大表达差异，未做无依据的自然度比较。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-009-sentence-011",
+      "parentEnglish": "Nice to see you, too, Steven. Goodbye.",
+      "children": [
+        {
+          "english": "Nice to see you, too, Steven.",
+          "chinese": "我也很高兴见到你，史蒂文。",
+          "tip": "对方说过 Nice to see you 后，用 too 接住相同感受，不用特意说 I also。下次回应感受类客套话，直接在原表达后加 too 就自然。",
+          "intent": "回应对方的见面问候，同时点明称呼对象。",
+          "parts": [
+            [
+              "Nice to see you,",
+              "核心的见面问候回应表达",
+              "很高兴见到你"
+            ],
+            [
+              "too,",
+              "补充说明这份愉悦感受和对方此前表达的感受相同",
+              "也"
+            ],
+            [
+              "Steven.",
+              "点明本次问候回应的指向对象",
+              "史蒂文"
+            ]
+          ],
+          "notes": [
+            [
+              "问候回应的语序",
+              "副词too放在问候语的末尾，用来表示和对方的感受一致，不需要插入到句子中间调整语序。"
+            ],
+            [
+              "呼语的位置",
+              "人名Steven放在问候语之后单独用逗号隔开，明确这句话是专门说给史蒂文听的。"
+            ]
+          ],
+          "structures": [
+            [
+              "Nice to see you",
+              "见面问候固定表达",
+              "日常用于表达见到对方的愉悦心情，是熟人见面的常用客套语。"
+            ],
+            [
+              "too",
+              "副词补充成分",
+              "表明这份愉悦的感受和之前对方表达的感受完全一致。"
+            ],
+            [
+              "Steven",
+              "称呼语",
+              "指明当前这句问候的接收对象。"
+            ]
+          ]
+        },
+        {
+          "english": "Goodbye.",
+          "chinese": "再见。",
+          "tip": "道别时直接说 Goodbye 就够，不用再加多余的人称或句子。这是结束对话的标准客套语，熟人、正式场合都能用。",
+          "intent": "向对方道别，结束当前对话。",
+          "parts": [
+            [
+              "Goodbye.",
+              "收尾的道别用语",
+              "再见"
+            ]
+          ],
+          "notes": [
+            [
+              "道别语的独立性",
+              "Goodbye可以单独成句，不需要搭配主语或其他补充成分，上下文已经明确道别对象。"
+            ]
+          ],
+          "structures": [
+            [
+              "Goodbye",
+              "道别固定表达",
+              "日常分别时使用的标准客套道别语。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

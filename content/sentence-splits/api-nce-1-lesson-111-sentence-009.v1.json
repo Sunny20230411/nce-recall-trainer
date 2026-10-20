@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正了无依据的语气比较（将“比Yes更显理所当然”改为客观描述），调整了for表持续时间的说明使其更准确，其余内容符合教学标准。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-111-sentence-009",
+      "parentEnglish": "Of course. You can pay a deposit of thirty pounds, and then fourteen pounds a month for three years.",
+      "children": [
+        {
+          "english": "Of course.",
+          "chinese": "当然可以。",
+          "tip": "Of course 是干脆的肯定回应，直接承接对方“能不能分期付款”的疑问，语气明确肯定。答复顾客请求时常用这类短句先给结论，再补具体细节。",
+          "intent": "对顾客的分期付款请求表示同意，给出明确肯定的回应。",
+          "parts": [
+            [
+              "Of course.",
+              "直接回应顾客的询问，表示同意。",
+              "当然可以。"
+            ]
+          ],
+          "notes": [
+            [
+              "应答短句的交际功能",
+              "Of course 独立成句，是日常对话中对请求或疑问的肯定答复，语气明确爽快。"
+            ]
+          ],
+          "structures": [
+            [
+              "Of course.",
+              "独立应答短句",
+              "单独成句，直接回应上文中顾客提出的“能不能分期付款”的疑问，表示肯定同意。"
+            ]
+          ]
+        },
+        {
+          "english": "You can pay a deposit of thirty pounds, and then fourteen pounds a month for three years.",
+          "chinese": "您可以先付三十英镑定金，然后三年内每月付十四英镑。",
+          "tip": "说明分期付款安排时，要把首付金额、每期金额、频率和期限一起交代清楚：thirty pounds 是定金，fourteen pounds a month 是月供，for three years 确定总时长，缺一项对方都没法判断方案。",
+          "intent": "向顾客说明具体的分期付款方案，包含首付款和后续月供的金额、频率与期限。",
+          "parts": [
+            [
+              "You can pay a deposit of thirty pounds,",
+              "说明付款方案的第一步：先付定金。",
+              "您可以支付三十英镑的定金"
+            ],
+            [
+              "and then fourteen pounds a month for three years.",
+              "并列说明付款方案的后续部分：月供金额、支付频率和总时长。",
+              "然后在三年里每月支付十四英镑。"
+            ]
+          ],
+          "notes": [
+            [
+              "并列付款项的省略逻辑",
+              "and then之后省略了重复的you can pay，因为前后都是描述付款的内容，并列时不必重复已出现的支付动作。"
+            ],
+            [
+              "for表持续时间",
+              "for three years说明按月支付的动作要持续多久，指月供需要连续付满三年。"
+            ],
+            [
+              "名词短语直接表频率",
+              "a month直接跟在fourteen pounds后，说明金额对应的频率是每月，不需要额外加介词。"
+            ]
+          ],
+          "structures": [
+            [
+              "You can pay",
+              "分句主干",
+              "情态动词can表示许可，pay是本句的核心谓语动词，引出所有付款相关内容。"
+            ],
+            [
+              "a deposit of thirty pounds",
+              "第一个付款宾语",
+              "是pay的第一个直接宾语，指先支付的定金，of thirty pounds说明定金的金额。"
+            ],
+            [
+              "and then fourteen pounds a month for three years",
+              "并列的第二组付款说明",
+              "承接前面的pay，并列说明后续月供：每月十四英镑，持续三年。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

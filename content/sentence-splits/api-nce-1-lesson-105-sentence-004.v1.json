@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分后两句职责分明：前句讲递物与归属，后句讲返工指令；提点点出 again 的“同一件事重来”这一易混点，信息关系和结构分析准确，无过度比较或错误归因。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-105-sentence-004",
+      "parentEnglish": "Sandra, here's a letter for you. I want you to type it again.",
+      "children": [
+        {
+          "english": "Sandra, here's a letter for you.",
+          "chinese": "桑德拉，这是给你的一封信。",
+          "tip": "here's a letter 先把要处理的物件递到对方面前，同时点明归属，方便后面用 it 指代。给人布置任务时先交物品，是很自然的口语顺序。",
+          "intent": "称呼桑德拉并向她递出信件，说明信件是给她的。",
+          "parts": [
+            [
+              "Sandra,",
+              "呼语，点明对话对象",
+              "桑德拉，"
+            ],
+            [
+              "here's a letter for you.",
+              "引出递出的物品，说明信件归属桑德拉",
+              "这是给你的一封信"
+            ]
+          ],
+          "notes": [
+            [
+              "倒装结构 here's",
+              "here's 是 here is 的缩写，是将地点副词 here 提前形成的倒装结构，作用是引出当下递出的物品，日常口语中用于交付物品时非常自然。"
+            ],
+            [
+              "for you 表归属",
+              "for you 修饰 a letter，说明这封信的接收者是桑德拉。"
+            ]
+          ],
+          "structures": [
+            [
+              "Sandra,",
+              "呼语",
+              "放在句首直接称呼对话对象桑德拉，明确话语的接收人。"
+            ],
+            [
+              "here's",
+              "倒装引导语",
+              "here's 是 here is 的口语缩写形式，用于引出当前出示的物品，构成方位倒装结构，符合口语递物的表达习惯。"
+            ],
+            [
+              "a letter",
+              "主语",
+              "倒装句中的真正主语，指当前递出的信件。"
+            ],
+            [
+              "for you",
+              "定语",
+              "介词短语修饰 a letter，说明这封信的接收者是桑德拉。"
+            ]
+          ]
+        },
+        {
+          "english": "I want you to type it again.",
+          "chinese": "我要你重新打一遍。",
+          "tip": "again 表示就同一封信重新打字，不是再写一封新的。布置返工类任务时，用 again 就能表达“重来一遍”的意思，不用额外说“重新”。",
+          "intent": "向桑德拉提出具体工作要求，让她把信件重新打一遍。",
+          "parts": [
+            [
+              "I want you to type it again.",
+              "提出对桑德拉的具体工作要求，it 指代前文中的信件",
+              "我要你重新打一遍"
+            ]
+          ],
+          "notes": [
+            [
+              "want 的复合宾语结构",
+              "want 后面接宾语 you，再用带 to 的不定式 to type it again 补充说明对宾语提出的具体动作要求，即“要求某人做某事”的结构。"
+            ],
+            [
+              "代词 it 的指代",
+              "句中的 it 是代词，指代前一句刚提到的 a letter，避免重复名词，让句子更简洁连贯。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主语",
+              "句子的主语，即发出指令的说话人。"
+            ],
+            [
+              "want",
+              "谓语动词",
+              "表达说话人的意愿和要求，是句子的核心动词。"
+            ],
+            [
+              "you",
+              "宾语",
+              "是 want 的对象，也就是接受指令的桑德拉。"
+            ],
+            [
+              "to type it again",
+              "宾语补足语",
+              "补充说明对 you 提出的具体动作要求：重新把信打一遍。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

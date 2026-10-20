@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界清晰，子句中文对应准确，提点聚焦对话回应逻辑，信息关系与结构标注均符合要求，无夸大表达自然度的表述。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-067-sentence-004",
+      "parentEnglish": "No, I wasn't. I was at the greengrocer's.",
+      "children": [
+        {
+          "english": "No, I wasn't.",
+          "chinese": "不，我不在。",
+          "tip": "纠正对方的猜测时，先说 No 给出否定态度，再用简略答句呼应问句，既明确又不重复。对方能立刻知道“在肉店”这个假设不成立。",
+          "intent": "直接否定对方关于“我在肉店”的猜测，给出明确的否定回应。",
+          "parts": [
+            [
+              "No,",
+              "否定态度引导词，先给出整体判断。",
+              "不，"
+            ],
+            [
+              "I wasn't.",
+              "简略主谓结构，呼应前文问句，省略重复的地点。",
+              "我不在（肉店）。"
+            ]
+          ],
+          "notes": [
+            [
+              "否定回答的省略结构",
+              "No, I wasn't. 是针对前文 Were you...? 的简略否定回答，wasn't 后省略了与问句重复的 at the butcher's，避免重复啰嗦。"
+            ]
+          ],
+          "structures": [
+            [
+              "No,",
+              "答句引导词",
+              "直接对前文的一般疑问句给出否定态度，呼应提问的是非判断。"
+            ],
+            [
+              "I wasn't.",
+              "主谓结构的简略答句",
+              "完整含义为 I wasn't at the butcher's，省略了问句中已提及的地点成分。"
+            ]
+          ]
+        },
+        {
+          "english": "I was at the greengrocer's.",
+          "chinese": "我当时在蔬菜水果店。",
+          "tip": "否定之后马上补出真实地点，是对话里自然的信息补充。只说 No 对方还会疑惑你到底在哪，补上具体场所才能让对话继续下去。",
+          "intent": "补充说明自己过去实际所在的地点，给对方准确的行程信息。",
+          "parts": [
+            [
+              "I was",
+              "主谓核心，说明主语过去的所处状态。",
+              "我当时在"
+            ],
+            [
+              "at the greengrocer's.",
+              "地点表语，补充具体所在的场所。",
+              "蔬菜水果店。"
+            ]
+          ],
+          "notes": [
+            [
+              "'s 所有格表店铺",
+              "greengrocer's 是名词所有格用法，后面省略了 shop，指蔬菜水果店这类营业场所，同类表达还有 the butcher's（肉店）、the baker's（面包店）。"
+            ]
+          ],
+          "structures": [
+            [
+              "I was",
+              "主谓核心",
+              "主语 I 搭配系动词 was，表明过去处于某一状态，和后面的地点表语搭配。"
+            ],
+            [
+              "at the greengrocer's.",
+              "地点表语",
+              "说明主语当时所在的具体场所，补充否定回答后的真实位置。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

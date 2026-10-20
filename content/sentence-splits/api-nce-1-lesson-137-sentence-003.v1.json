@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，两句分别对应转折反驳与假设提问；提点分别提炼对照结构和假设问句的信息组织逻辑，迁移具体；各字段与子句对应，语法说明无误。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-137-sentence-003",
+      "parentEnglish": "You always say that, but we never win anything! What will you do if you win a lot of money?",
+      "children": [
+        {
+          "english": "You always say that, but we never win anything!",
+          "chinese": "你总是这么说，可我们从没赢过什么！",
+          "tip": "前半句点出对方“总这么说”，后半句用but一转，拿“从没赢过”的事实对照，语气里带着不以为然。想反驳别人反复说的话没兑现，就可以用always… but never… 这种对照结构。",
+          "intent": "通过对照对方的说法和实际结果，表达对中奖预期的不以为然。",
+          "parts": [
+            [
+              "You always say that,",
+              "说话人指出对方反复讲同样的话，是整个反驳的前半部分。",
+              "你总是这么说"
+            ],
+            [
+              "but we never win anything!",
+              "由but转折，和前半句形成反差，说明对方的话从来没有兑现过，表实际情况。",
+              "可我们从没赢过什么"
+            ]
+          ],
+          "notes": [
+            [
+              "but连接的并列分句",
+              "but是转折连词，连接前后两个意思对立的分句：前半句讲对方反复说同样的话，后半句用never、anything点明从未有中奖的实际结果，带有不以为然的语气。"
+            ],
+            [
+              "不定代词的用法适配",
+              "that指代前文对方说过的话，anything用在否定句never之后表示“任何东西”，和肯定句中的something形成对应。"
+            ]
+          ],
+          "structures": [
+            [
+              "You always say that",
+              "并列分句1",
+              "由but连接的第一个分句，主语是You，always修饰say的频率，that指代对方之前说过的许愿内容。"
+            ],
+            [
+              "but we never win anything!",
+              "转折并列分句2",
+              "由but引出的转折分句，主语we，never表否定，anything作win的宾语，表达“从来没赢过任何东西”的实际结果。"
+            ]
+          ]
+        },
+        {
+          "english": "What will you do if you win a lot of money?",
+          "chinese": "如果你赢了很多钱，你会做什么？",
+          "tip": "先问“会做什么”，再用if补出假设前提，焦点落在未知的行动上。这类假设问句不是在说事情一定会发生，只是顺着话题探索设想。",
+          "intent": "提出假设性问题，询问对方中奖后的打算。",
+          "parts": [
+            [
+              "What will you do",
+              "整句的核心疑问部分，点明要向对方询问的核心问题。",
+              "你会做什么"
+            ],
+            [
+              "if you win a lot of money?",
+              "用if引出假设的前提条件，说明这个问题成立的前提是赢到了一大笔钱。",
+              "如果你赢了很多钱"
+            ]
+          ],
+          "notes": [
+            [
+              "条件从句的时态选择",
+              "在if引出的假设条件句中，描述将来可能发生的假设时，条件分句用一般现在时win，主句用将来时will you do，不要在if分句里使用will win。"
+            ]
+          ],
+          "structures": [
+            [
+              "What will you do",
+              "疑问主句",
+              "特殊疑问句的核心部分，疑问代词What是do的逻辑宾语，will置于主语you前构成疑问语序，询问对方要采取的行动。"
+            ],
+            [
+              "if you win a lot of money",
+              "条件状语从句",
+              "if引导的假设条件分句，说明“赢钱”是询问“你会做什么”的前提，a lot of修饰money表示数额很大。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

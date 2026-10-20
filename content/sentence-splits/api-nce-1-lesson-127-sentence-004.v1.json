@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分符合边界要求，各子句的中译、意图、提点、信息成分、语法结构均准确，提点聚焦表达意图与推测语气的区分，迁移实用，无违背校准规则的表述。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-127-sentence-004",
+      "parentEnglish": "She can't have been twenty-nine in 1970. She must have been thirty-nine.",
+      "children": [
+        {
+          "english": "She can't have been twenty-nine in 1970.",
+          "chinese": "她在1970年不可能是二十九岁。",
+          "tip": "can't have been 是对过去状态做否定推断，只表示说话人逻辑上认为不可能，不等于事实已被证实。遇到要推翻过去某条信息时，用这个结构先给出否定判断，再补时间锚点让争议落在同一件事上。",
+          "intent": "否定“她1970年二十九岁”这一说法，给出把握很强的反向判断。",
+          "parts": [
+            [
+              "She",
+              "推断的主体。",
+              "她"
+            ],
+            [
+              "can't have been",
+              "对过去状态的否定判断。",
+              "不可能是"
+            ],
+            [
+              "twenty-nine",
+              "被否定的年龄内容。",
+              "二十九岁"
+            ],
+            [
+              "in 1970.",
+              "补充判断对应的时间。",
+              "在1970年。"
+            ]
+          ],
+          "notes": [
+            [
+              "对过去情况的否定推测结构",
+              "can't have been 是对过去已经发生的状态做逻辑推断，不是描述现在的动作；can't 在这里表“不可能”，把握很强。"
+            ],
+            [
+              "时间状语的位置",
+              "介词短语 in 1970 用来说明判断对应的时间范围，本句放在年龄表语后面；这是本句常见语序，并不表示所有时间状语都只能放在句末。"
+            ]
+          ],
+          "structures": [
+            [
+              "She",
+              "主语",
+              "指代上下文提到的人，是后面年龄判断的对象。"
+            ],
+            [
+              "can't have been",
+              "谓语（对过去状态的否定推测）",
+              "表示说话人逻辑上否定“她当时二十九岁”的可能性。"
+            ],
+            [
+              "twenty-nine",
+              "表语",
+              "说明被否定的年龄内容，作 be 动词的表语。"
+            ],
+            [
+              "in 1970.",
+              "时间状语",
+              "限定这个年龄判断对应的是1970年的时间点。"
+            ]
+          ]
+        },
+        {
+          "english": "She must have been thirty-nine.",
+          "chinese": "她那时一定是三十九岁。",
+          "tip": "must have been 是对过去状态的肯定推断，承接前一句的否定，给出说话人认为最合理的结论。它只体现说话人把握很大，不代表有官方记录支撑；反驳旧猜测时常用“先否掉一个、再推出另一个”的节奏。",
+          "intent": "承接前句的否定，对她1970年的年龄给出肯定性的推测结论。",
+          "parts": [
+            [
+              "She",
+              "推断的主体，和前句是同一人。",
+              "她"
+            ],
+            [
+              "must have been",
+              "对过去状态的肯定推断。",
+              "一定是"
+            ],
+            [
+              "thirty-nine.",
+              "推断出的合理年龄结论。",
+              "三十九岁。"
+            ]
+          ],
+          "notes": [
+            [
+              "对过去情况的肯定推测结构",
+              "must have been 是对过去已经发生的状态做逻辑推断，不是描述现在的动作；must 在这里表“一定、肯定”，把握很强。"
+            ]
+          ],
+          "structures": [
+            [
+              "She",
+              "主语",
+              "和前句指代同一人，保持主语一致。"
+            ],
+            [
+              "must have been",
+              "谓语（对过去状态的肯定推测）",
+              "表示说话人根据前文否定，推出最合理的年龄结论。"
+            ],
+            [
+              "thirty-nine.",
+              "表语",
+              "说明推断出的年龄是三十九岁，作 be 动词的表语。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

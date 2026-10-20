@@ -14,9 +14,10 @@ const mock = http.createServer(handler);
 await new Promise(resolve => mock.listen(0, '127.0.0.1', resolve));
 const base = `http://127.0.0.1:${mock.address().port}`;
 try {
-  const result = await fetch(base, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ message: 'Explain', context: { english: 'Excuse me!' }, history: [] }) });
+  const result = await fetch(base, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ message: 'Explain', context: { english: 'Excuse me!', parentEnglish: 'Excuse me! Yes?' }, history: [] }) });
   assert.equal(result.status, 200); assert.equal((await result.json()).answer, 'Mock explanation');
   assert.equal(payload.store, false); assert.equal(payload.model, 'doubao-seed-2-0-lite-260428');
+  assert.ok(payload.input[1].content.includes('"parentEnglish":"Excuse me! Yes?"'));
   const teachingRules = payload.input[0].content;
   assert.match(teachingRules, /中文母语学习者/);
   assert.match(teachingRules, /不要逐词罗列词性/);

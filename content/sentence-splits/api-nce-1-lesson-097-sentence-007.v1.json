@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界清晰，提点分别对应短答的交际功能和过去进行时用于辨认线索的表达作用；修正了第二句结构角色标注（原为“主句”，改为“包含定语从句的复合句”）更准确，其余分配无误。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-097-sentence-007",
+      "parentEnglish": "I can't remember. The man who I served was wearing a hat.",
+      "children": [
+        {
+          "english": "I can't remember.",
+          "chinese": "我记不起来了。",
+          "tip": "I can't remember 是口语里直接回应“无法确认”的常用短句，先给明确结论，再接后续补充的线索。",
+          "intent": "表明说话人当下无法回忆起相关细节。",
+          "parts": [
+            [
+              "I can't remember.",
+              "独立分句，表达说话人当下无法回忆起相关细节的状态",
+              "我记不起来了。"
+            ]
+          ],
+          "notes": [
+            [
+              "简短的否定陈述",
+              "can't是can not的缩写，后接动词原形remember，直接表达“没有办法记起”的意思，结构直白，没有额外修饰成分。"
+            ]
+          ],
+          "structures": [
+            [
+              "I can't remember.",
+              "独立简单句",
+              "主谓结构的否定陈述句，表达说话人当下无法回忆起相关细节的状态。"
+            ]
+          ]
+        },
+        {
+          "english": "The man who I served was wearing a hat.",
+          "chinese": "我接待的那个男人戴着一顶帽子。",
+          "tip": "先把要描述的人The man限定为who I served（我接待过的那位），再用was wearing给出当时的穿戴特征。过去进行时这里强调接待当下的状态，不是戴帽子的动作过程，正好用来给辨认提供线索。",
+          "intent": "描述记忆中接待过的那位男士的穿戴特征，作为辨认线索。",
+          "parts": [
+            [
+              "The man",
+              "整个主句的描述主体，后文所有内容都围绕这个人物展开",
+              "那个男人"
+            ],
+            [
+              "who I served",
+              "修饰前面的the man，限定清楚是哪一位男士，也就是曾经被说话人接待过的对象",
+              "我接待过的"
+            ],
+            [
+              "was wearing a hat.",
+              "描述前面这位男士当时的穿戴状态，用来补充说话人关于这位客人的模糊印象细节",
+              "戴着一顶帽子"
+            ]
+          ],
+          "notes": [
+            [
+              "定语从句的引导与指代",
+              "who用来指代前面的先行词the man，同时在从句中充当served的宾语，完整从句who I served的意思就是“我接待过的（那个男人）”，限定了被描述的男人的范围。"
+            ],
+            [
+              "过去进行时表示当时的状态",
+              "was wearing是过去进行时，描述在过去那个时间点，那个男人正处于“戴着帽子”的状态，而不是说他过去“戴过”帽子的一次性动作，是用来勾勒人物样貌的细节。"
+            ]
+          ],
+          "structures": [
+            [
+              "The man who I served was wearing a hat.",
+              "包含定语从句的复合句",
+              "主句的核心是The man was wearing a hat，用来描述核心对象的穿戴状态；who I served是修饰the man的定语从句，明确是哪一位男士。"
+            ],
+            [
+              "who I served",
+              "限制性定语从句",
+              "关系代词who指代先行词the man，同时在从句中作served的宾语，限定“我接待过的这位男士”，帮助说话人缩小回忆里的人物范围。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

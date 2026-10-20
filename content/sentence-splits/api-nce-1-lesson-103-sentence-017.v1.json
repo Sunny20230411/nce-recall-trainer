@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正了首句提点中“更自然”的无依据比较表述，调整第二句提点避免隐含直接说分数不自然的误判；拆分后各子句信息边界准确，结构、notes对应正确，中文翻译贴合语境。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-103-sentence-017",
+      "parentEnglish": "I hate them. I'm sure I've got a low mark.",
+      "children": [
+        {
+          "english": "I hate them.",
+          "chinese": "我讨厌它们。",
+          "tip": "them承接上一句的French tests，上下文明确时英语常用代词回指，避免重复提及同一事物。",
+          "intent": "表达说话人对法语考试的强烈厌恶情绪。",
+          "parts": [
+            [
+              "I hate them.",
+              "表达说话人对前文提到的法语考试的厌恶情绪。",
+              "我讨厌它们。"
+            ]
+          ],
+          "notes": [
+            [
+              "指代them的所指",
+              "them在这里承接上一句提到的French tests（法语考试），指代前面说的那些令人难受的考试，不是泛指别的东西。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主语",
+              "指说话人自己，是发出“讨厌”这个动作的人。"
+            ],
+            [
+              "hate",
+              "谓语",
+              "表达说话人强烈的厌恶情绪，是本句的核心动作。"
+            ],
+            [
+              "them",
+              "宾语",
+              "指代前文提到的法语考试，是hate的对象。"
+            ]
+          ]
+        },
+        {
+          "english": "I'm sure I've got a low mark.",
+          "chinese": "我肯定我考了低分。",
+          "tip": "I'm sure 比 I think 更显确信，但仍是考后的个人判断，确信程度不等于已有正式结果。说自己的预判时，用I'm sure引出内容能明确体现这是主观判断。",
+          "intent": "表达说话人对自己考试得分偏低的主观确信判断。",
+          "parts": [
+            [
+              "I'm sure",
+              "引出说话人对自身考试成绩的主观判断态度。",
+              "我肯定"
+            ],
+            [
+              "I've got a low mark.",
+              "补充说明说话人确信的具体内容，即自己预估拿到了偏低的考试分数。",
+              "我考了低分。"
+            ]
+          ],
+          "notes": [
+            [
+              "I've got的口语用法",
+              "I've got是口语里非常常用的现在完成时形式，既可以表示“已经得到（分数）”的动作结果，也可以表示“拥有”的状态；结合本段刚考完法语试、还没正式出成绩的语境，这里是说话人对自己考试得分偏低的主观预判。"
+            ]
+          ],
+          "structures": [
+            [
+              "I'm sure",
+              "主句",
+              "表达说话人的主观确信态度，后面引出确信的具体内容。"
+            ],
+            [
+              "I've got a low mark",
+              "表语从句（省略that）",
+              "说明sure的具体内容，是说话人对自身考试成绩的预判；从句用现在完成时，结合语境表达对当前已经结束的考试的结果判断。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，提点分别覆盖口语答因习惯和词义/修饰关系的易混点，结构与信息关系均正确，无错误规律或无依据比较。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-089-sentence-010",
+      "parentEnglish": "Because I've just retired. I want to buy a small house in the country.",
+      "children": [
+        {
+          "english": "Because I've just retired.",
+          "chinese": "因为我刚退休。",
+          "tip": "口语里回答 why 提问，常直接用 Because 开头说原因，不用重复对方刚问过的整件事。这里用现在完成时加 just，突出退休是刚发生、和当前卖房决定直接相关的事。",
+          "intent": "回答前文关于卖房原因的提问，说明自己卖房的直接背景是近期刚退休。",
+          "parts": [
+            [
+              "Because",
+              "引出原因，回应前文的 why 提问。",
+              "因为"
+            ],
+            [
+              "I've just retired.",
+              "原因分句主体，说明刚退休这一近期事件。",
+              "我刚退休。"
+            ]
+          ],
+          "notes": [
+            [
+              "省略主句的because原因分句",
+              "Because I've just retired 用来回应上文「你为什么想卖掉它」的提问，没有重复完整的主句 I want to sell it；口语对话中这种省略很常见，because 直接引出背后的原因。"
+            ],
+            [
+              "just与现在完成时",
+              "现在完成时 I've retired 搭配 just，意思是「刚刚退休」；just 放在助动词 have 的后面、过去分词 retired 的前面，强调退休是刚刚发生的近期事件。"
+            ]
+          ],
+          "structures": [
+            [
+              "Because I've just retired.",
+              "原因状语分句",
+              "作为对前文 why 提问的回答，由 because 引导，直接说明卖房的直接原因。"
+            ],
+            [
+              "Because",
+              "从属连词",
+              "引出原因关系，连接后文的内容和前面提问中「卖房」这件事的因果逻辑。"
+            ],
+            [
+              "I've",
+              "主语与现在完成时助动词",
+              "I 是分句主语，'ve 是 have 的缩写，和过去分词 retired 共同构成现在完成时结构。"
+            ],
+            [
+              "just",
+              "程度副词",
+              "修饰整个现在完成时的谓语，强调退休是最近刚发生的事。"
+            ],
+            [
+              "retired.",
+              "过去分词（现在完成时）",
+              "和 have 一起构成现在完成时，表示「退休」这个已经完成、并和现在状态相关的动作；retired 本身也可表示「已退休的」状态。"
+            ]
+          ]
+        },
+        {
+          "english": "I want to buy a small house in the country.",
+          "chinese": "我想在乡下买一所小房子。",
+          "tip": "in the country 在这里指乡下，不是“在那个国家”；说买房打算时把地点放在房屋后面，是在说明目标房子的位置属性，而不是单讲买房的地点。",
+          "intent": "承接退休的背景，说明卖房后的具体打算，交代自己的购房需求。",
+          "parts": [
+            [
+              "I want to buy a small house",
+              "主句核心，说明自己的购房打算与需求。",
+              "我想买一所小房子"
+            ],
+            [
+              "in the country.",
+              "后置定语，补充说明目标房子的位置在乡下。",
+              "在乡下。"
+            ]
+          ],
+          "notes": [
+            [
+              "地点介词短语作后置定语",
+              "in the country 放在名词 house 后面修饰它，用来限定这栋房子的位置，说明不是任何小房子，而是地处乡下的小房子，区别于城市里的住房。"
+            ],
+            [
+              "country 的词义",
+              "the country 可以表示「乡下、乡村」，和定冠词 the 搭配使用，不指某个具体的国家。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主句主语",
+              "是句子的主语，指代说话人本人。"
+            ],
+            [
+              "want",
+              "谓语动词",
+              "表示主语的意愿，后接不定式 to buy 作为动词宾语。"
+            ],
+            [
+              "to buy a small house",
+              "动词宾语",
+              "不定式短语 to buy 是 want 的宾语；a small house 是 buy 的动作对象，即想要购买的目标。"
+            ],
+            [
+              "in the country.",
+              "后置地点定语",
+              "修饰前面的 a small house，说明这栋房子的位置在乡下，补充房子的具体位置属性。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

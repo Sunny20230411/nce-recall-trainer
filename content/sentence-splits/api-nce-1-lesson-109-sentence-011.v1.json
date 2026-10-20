@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆句边界准确，提点各有侧重且无重复，信息关系与结构均对应正确，中文翻译符合单句边界。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-109-sentence-011",
+      "parentEnglish": "Yes, please. I'd like a biscuit too.",
+      "children": [
+        {
+          "english": "Yes, please.",
+          "chinese": "好的，请（再来一杯）。",
+          "tip": "Yes, please 是同意对方提议的标准礼貌应答，先接住对方的邀约，再补自己额外的需求，是日常对话里自然的顺序。",
+          "intent": "礼貌接受对方“再来一杯”的提议。",
+          "parts": [
+            [
+              "Yes, please.",
+              "对对方递来饮品的邀约作出礼貌肯定回应",
+              "好的，请（再来一杯）。"
+            ]
+          ],
+          "notes": [
+            [
+              "Yes, please 的交际用途",
+              "Yes, please 是口语中回应对方好意、邀约或提议时的常用礼貌短句，表示同意并带感谢语气，适用于点餐、做客等场景。"
+            ]
+          ],
+          "structures": [
+            [
+              "Yes, please.",
+              "礼貌应答短句",
+              "回应对方“要不要再来一杯”的询问，表示礼貌地同意该提议。"
+            ]
+          ]
+        },
+        {
+          "english": "I'd like a biscuit too.",
+          "chinese": "我还想要一块饼干。",
+          "tip": "I'd like 用来委婉提需求，too 放在句末表示这是饮品之外额外想要的东西；追加同类请求时，先说物品再加 too 就能体现“再加一样”的意思。",
+          "intent": "在接受饮品的基础上，委婉追加一块饼干的请求。",
+          "parts": [
+            [
+              "I'd like",
+              "表达委婉的索要意愿，是句子的核心动词部分",
+              "我想要"
+            ],
+            [
+              "a biscuit",
+              "说明想要的具体物品",
+              "一块饼干"
+            ],
+            [
+              "too.",
+              "补充说明这是在饮品之外额外想要的东西",
+              "也，还。"
+            ]
+          ],
+          "notes": [
+            [
+              "I'd like 的用法",
+              "I'd like 是 I would like 的缩写形式，用于委婉礼貌地表达自己想要某物，比直接说 I want 更客气，是日常点餐、索要物品时的常用表达。"
+            ],
+            [
+              "too 的位置",
+              "too 放在句末，表示“也、还”，说明除了前面已经同意的再来一杯饮品之外，说话人还额外想要一块饼干，符合追加请求的语境。"
+            ]
+          ],
+          "structures": [
+            [
+              "I'd",
+              "主语加助动词缩写",
+              "是 I would 的缩写，和后面的 like 共同构成委婉表达想要的谓语部分。"
+            ],
+            [
+              "like",
+              "谓语动词",
+              "和 would 搭配，表达“想要、希望得到”的含义，语气委婉客气。"
+            ],
+            [
+              "a biscuit",
+              "宾语",
+              "是 like 想要的对象，指一块饼干。"
+            ],
+            [
+              "too.",
+              "状语",
+              "放在句末，说明这个想要饼干的请求是在同意要饮品的基础上额外追加的。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

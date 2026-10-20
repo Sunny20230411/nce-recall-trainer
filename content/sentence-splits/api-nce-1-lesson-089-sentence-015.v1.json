@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，子句信息完整；提点分别抓住先肯后转折的表达效果和must表必要条件的易错点，无夸大比较；parts、notes、structures均对应各自子句，无交叉混杂。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-089-sentence-015",
+      "parentEnglish": "Well, I like the house, but I can't decide yet. My wife must see it first.",
+      "children": [
+        {
+          "english": "Well, I like the house, but I can't decide yet.",
+          "chinese": "嗯，我喜欢这所房子，但我还不能做决定。",
+          "tip": "先说明好感，再用 but 转折带出决策限制，yet 把“未定”的状态锁定在当下。这种先肯定后转折的说法，能让犹豫显得不那么生硬。",
+          "intent": "表达对房子的认可，同时说明自己目前还无法做出决定。",
+          "parts": [
+            [
+              "Well,",
+              "语气铺垫",
+              "嗯"
+            ],
+            [
+              "I like the house,",
+              "表达对房子的正面态度",
+              "我喜欢这所房子"
+            ],
+            [
+              "but I can't decide yet.",
+              "转折说明决策状态",
+              "但我还不能决定。"
+            ]
+          ],
+          "notes": [
+            [
+              "yet的用法",
+              "yet用在否定句末尾，表示“还、尚未”，呼应前面的can't decide，说明决策目前没有完成。"
+            ],
+            [
+              "but的转折逻辑",
+              "but连接两个独立分句，形成“喜欢房子”与“暂不决定”的转折，突出客观认可与决策限制的反差。"
+            ]
+          ],
+          "structures": [
+            [
+              "Well,",
+              "语气词",
+              "说话前的语气缓冲，相当于“嗯、这个嘛”，用来引出思考或转折的内容。"
+            ],
+            [
+              "I like the house",
+              "独立分句",
+              "主谓宾结构，陈述自己对房子的正面态度，是后半句转折的基础。"
+            ],
+            [
+              "but",
+              "转折连词",
+              "连接前后两个分句，表达“虽然喜欢，但仍有顾虑/限制”的转折关系。"
+            ],
+            [
+              "I can't decide yet",
+              "独立分句",
+              "表达自己尚未做出决定的状态，yet强化“目前还没定”的含义。"
+            ]
+          ]
+        },
+        {
+          "english": "My wife must see it first.",
+          "chinese": "得先让我妻子看看。",
+          "tip": "这里的 must 不是在说妻子的义务，而是说“她先看过”是做决定前的必要条件。first 点明顺序上的优先级，自然承接上一句“还不能决定”。",
+          "intent": "解释不能马上做决定的原因，说明妻子需要先看房。",
+          "parts": [
+            [
+              "My wife must see it first.",
+              "说明不能决定的原因",
+              "得先让我妻子看看。"
+            ]
+          ],
+          "notes": [
+            [
+              "must表示必要条件",
+              "这里的must不表示命令，而是说明“妻子先看房”是做出决定之前的必要前提。"
+            ],
+            [
+              "first的顺序含义",
+              "first放在句尾，强调“看房”这件事在顺序上要先于做决定。"
+            ]
+          ],
+          "structures": [
+            [
+              "My wife",
+              "主语",
+              "指说话人的妻子，是“看房”这个动作的发出者。"
+            ],
+            [
+              "must see",
+              "谓语",
+              "情态动词must加动词原形see，表达“必须/得先看”的必要性。"
+            ],
+            [
+              "it",
+              "宾语",
+              "指代前文提到的房子，避免重复。"
+            ],
+            [
+              "first.",
+              "状语",
+              "说明动作在顺序上是“首先”发生的。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

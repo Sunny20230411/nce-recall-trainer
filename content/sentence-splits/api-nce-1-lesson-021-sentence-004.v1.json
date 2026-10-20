@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，提点分别聚焦否定澄清与特征指明的表达思路，信息关系和结构拆分贴合子句语义，无过度比较或事实错误。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-021-sentence-004",
+      "parentEnglish": "No, not that one. The red one.",
+      "children": [
+        {
+          "english": "No, not that one.",
+          "chinese": "不，不是那一个。",
+          "tip": "先用 not that one 排除对方选的那本书，而不是只说“不对”；one 保留物品类别，让否定指向具体候选。",
+          "intent": "否定对方刚刚指向的那本书，把排除对象说清楚。",
+          "parts": [
+            [
+              "No,",
+              "直接回应对方之前的询问",
+              "单独表示否定的应答"
+            ],
+            [
+              "not that one.",
+              "补充说明否定的具体内容",
+              "否定对方提及的那一个物品"
+            ]
+          ],
+          "notes": [
+            [
+              "口语省略表达",
+              "这句是日常对话里的省略形式，完整理解可以是It is not that one，省略了对话里双方默认的主语和be动词，符合口语简洁的特点。"
+            ],
+            [
+              "one的指代作用",
+              "句中的one是代词，用来指代前文提到的可数物品，这里承接上下文指代对方正在询问的物品，避免重复说出具体物品名称。"
+            ]
+          ],
+          "structures": [
+            [
+              "No,",
+              "否定应答语",
+              "直接对对方的询问给出否定的第一反应"
+            ],
+            [
+              "not that one.",
+              "否定性名词短语",
+              "说明被选中的不是此前指向的那一件物品，用代词one替代前文提到的书"
+            ]
+          ]
+        },
+        {
+          "english": "The red one.",
+          "chinese": "红色的那一个。",
+          "tip": "用 one 接回前面说到的书，再把颜色作为区分特征放前面，重点落在能帮对方找准的信息上。",
+          "intent": "通过颜色特征指明正确的那本书。",
+          "parts": [
+            [
+              "The red one.",
+              "明确给出正确的指代对象",
+              "指出目标是红色的那一个物品"
+            ]
+          ],
+          "notes": [
+            [
+              "口语省略表达",
+              "这句是日常对话里的省略形式，完整理解可以是It is the red one，省略了对话里双方默认的主语和be动词。"
+            ],
+            [
+              "one的指代作用",
+              "句中的one是代词，用来指代前文提到的可数物品，这里承接上文指代对方正在选的书，避免重复名词。"
+            ]
+          ],
+          "structures": [
+            [
+              "The red one.",
+              "指代性名词短语",
+              "通过颜色限定明确指出正确的目标物品，one依然指代前文提到的书"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

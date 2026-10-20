@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分后两句各司其职：确认应答与解释变化分别点拨，未将but连接的复合句随意拆断；提点点明but对照的表达目的和when的时间语义，没有夸大语气或强加唯一动机；各部分结构、信息关系与笔记准确对应子句边界。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-123-sentence-014",
+      "parentEnglish": "That's right. I grew a beard during the trip, but I shaved it off when I came home.",
+      "children": [
+        {
+          "english": "That's right.",
+          "chinese": "没错。",
+          "tip": "这里的That's right 是在回应前面的反义疑问句，确认“你说的对，就是我”，并不是单纯同意某个观点，紧跟着就要解释外貌为什么不一样。",
+          "intent": "直接确认对方的猜测正确，为后面解释外貌变化做承接。",
+          "parts": [
+            [
+              "That's right.",
+              "确认应答，对前文猜测表示肯定。",
+              "没错。"
+            ]
+          ],
+          "notes": [
+            [
+              "That's right的交际作用",
+              "That's right常用来回应对方的猜测、判断或说法，表示“你说得对，正是这样”，在对话里属于简短肯定的承接语。"
+            ]
+          ],
+          "structures": [
+            [
+              "That's",
+              "代词+系动词缩写",
+              "That作主语，is是系动词，缩写为That's，指代前文提到的内容。"
+            ],
+            [
+              "right.",
+              "表语",
+              "形容词right作表语，意思是“正确的”，和That's组成常用的确认表达。"
+            ]
+          ]
+        },
+        {
+          "english": "I grew a beard during the trip, but I shaved it off when I came home.",
+          "chinese": "旅行期间我留了胡子，但回家的时候把它刮掉了。",
+          "tip": "这句话用but前后对照，把“旅行时留胡子”和“回家后刮掉”两个相反的状态并置，目的是解释照片和现在外貌为什么不同。when I came home 不是强调“一回家就”，只交代刮胡子的时间背景。",
+          "intent": "通过前后两个相反的行为，解释自己外貌变化的原因，回应对方的疑问。",
+          "parts": [
+            [
+              "I grew a beard during the trip,",
+              "第一个并列分句，说明旅行时的行为及发生时段。",
+              "旅行期间我留了胡子，"
+            ],
+            [
+              "but I shaved it off",
+              "转折的第二个并列分句，说明相反的后续行为。",
+              "但我把它刮掉了"
+            ],
+            [
+              "when I came home.",
+              "时间状语从句，说明刮胡子这件事发生的时间。",
+              "在我回家的时候。"
+            ]
+          ],
+          "notes": [
+            [
+              "but连接转折的两个并列分句",
+              "but前后是两个独立的过去时分句，形成行为上的反差：旅途中留胡须，回家后刮掉胡须，用对比来解释外貌变化。"
+            ],
+            [
+              "when引导的时间状语从句",
+              "when I came home修饰shaved it off，表示刮胡子发生在“回到家”这个时间点或之后不久，不一定是“一……就”的紧接含义。"
+            ],
+            [
+              "it指代前文的beard",
+              "后一分句里的it指代前面刚提到的a beard，避免重复说出the beard，让表达更简洁自然。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主语",
+              "第一个分句的主语，是留胡须这个动作的发出者。"
+            ],
+            [
+              "grew",
+              "谓语动词",
+              "grow的过去式，此处为及物动词，搭配a beard表示“留（胡须）”。"
+            ],
+            [
+              "a beard",
+              "宾语",
+              "grew的动作对象，指下巴等处的胡须。"
+            ],
+            [
+              "during the trip,",
+              "时间状语",
+              "介词短语说明grew a beard发生的时段，即在旅行期间。"
+            ],
+            [
+              "but",
+              "并列转折连词",
+              "连接前后两个意思相反的并列分句，表示转折关系。"
+            ],
+            [
+              "I",
+              "主语",
+              "第二个分句的主语，仍然是说话人自己。"
+            ],
+            [
+              "shaved",
+              "谓语动词",
+              "shave的过去式，意思是“刮（胡须）”。"
+            ],
+            [
+              "it",
+              "宾语",
+              "指代前面提到的a beard，作shaved的宾语。"
+            ],
+            [
+              "off",
+              "副词小品词",
+              "和shave组成短语动词shave off，表示“刮掉、剃掉”的完整意思。"
+            ],
+            [
+              "when I came home.",
+              "时间状语从句",
+              "由when引导，说明shaved it off这个动作发生的时间背景。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

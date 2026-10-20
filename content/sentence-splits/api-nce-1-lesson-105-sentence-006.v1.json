@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "校准了原previousStructures里主语、宾语指代颠倒的错误，明确I是提出要求的Mr. Richards、you是下属Sandra；tip聚焦表达思路，无过度比较；各部分边界与上下文一致。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-105-sentence-006",
+      "parentEnglish": "It's full of mistakes. I want you to correct them.",
+      "children": [
+        {
+          "english": "It's full of mistakes.",
+          "chinese": "里面全是错误。",
+          "tip": "It's full of mistakes 不只是说“有错误”，还强调错误数量多，用来支撑后面“要修改”的要求，先给原因再提要求会更有说服力。",
+          "intent": "说明信件的问题，给出需要修改的理由",
+          "parts": [
+            [
+              "It's",
+              "前句问题的回应：说明所指对象的状态",
+              "它是（指代前面提到的信件）"
+            ],
+            [
+              "full of mistakes.",
+              "描述这份信件的具体状态：到处都是错误",
+              "满是错误"
+            ]
+          ],
+          "notes": [
+            [
+              "be full of 固定搭配",
+              "It's 是 It is 的缩写，be full of 是固定表达，表示“充满、满是”，后接所充满的事物，本句中 It 指代前面提到的信件。"
+            ]
+          ],
+          "structures": [
+            [
+              "It's",
+              "分句主语 + 系动词",
+              "It 指代前面提到的信件，is 是系动词，缩写为 It's。"
+            ],
+            [
+              "full of mistakes",
+              "表语",
+              "be full of 为固定形容词短语，说明主语“充满错误”的状态。"
+            ]
+          ]
+        },
+        {
+          "english": "I want you to correct them.",
+          "chinese": "我要你把它们改正。",
+          "tip": "want sb to do sth 是直接提出工作要求的常用表达，them 就近指代前一句的 mistakes，把问题和修改动作自然连在一起，不用重复名词。",
+          "intent": "向对方提出具体的修改要求",
+          "parts": [
+            [
+              "I",
+              "发出要求的主体",
+              "我"
+            ],
+            [
+              "want you",
+              "向听话人提出要求",
+              "我要你"
+            ],
+            [
+              "to correct them.",
+              "要求对方完成的具体动作，them 指代前面的 mistakes",
+              "改正它们"
+            ]
+          ],
+          "notes": [
+            [
+              "want sb to do sth 结构",
+              "want 后接宾语 you，再接带 to 的不定式 to correct them 作宾语补足语，表示“想要某人做某事”，to 不能省略。"
+            ],
+            [
+              "代词指代",
+              "them 指代前一句提到的 mistakes，避免重复，保持前后语义连贯。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "分句主语",
+              "指提出要求的人，也就是 Mr. Richards。"
+            ],
+            [
+              "want",
+              "谓语动词",
+              "表示“要求、想要”。"
+            ],
+            [
+              "you",
+              "宾语",
+              "指听话的下属 Sandra。"
+            ],
+            [
+              "to correct them",
+              "宾语补足语",
+              "补充说明 want 的具体内容：要求对方做的事是改正这些错误。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分与边界正确，中文翻译准确；提点分别点出唤起共同记忆的表达选择和短问句的口语功能，无贬低完整形式的表述；结构与笔记均对应单句，信息关系清晰。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-123-sentence-008",
+      "parentEnglish": "That's the man I told you about. Remember?",
+      "children": [
+        {
+          "english": "That's the man I told you about.",
+          "chinese": "那就是我跟你说过的那个人。",
+          "tip": "the man I told you about 借之前的谈话唤起共同记忆，不用再从头介绍这个人。tell you about sb 是“跟你说起过某人”，区别于 tell you sth“告诉你一件事”。",
+          "intent": "指向画面中的人物，并用以前聊过的背景帮对方认出这个人。",
+          "parts": [
+            [
+              "That's the man",
+              "主句的辨认核心，点明当前指向的人物对象",
+              "那就是那个男人"
+            ],
+            [
+              "I told you about.",
+              "修饰the man，补充说明这个男人的背景来历",
+              "我之前跟你提起过的"
+            ]
+          ],
+          "notes": [
+            [
+              "省略关系词的定语从句",
+              "I told you about 是修饰 the man 的定语从句，关系代词 whom/that 在从句中作 about 的宾语，因此可以被省略；told 是从句的谓语，you 是 told 的间接宾语。"
+            ]
+          ],
+          "structures": [
+            [
+              "That's the man",
+              "主句核心辨认结构",
+              "用 be 动词连接指示主语 that 和表语 the man，直接确认眼前的人物身份。"
+            ],
+            [
+              "I told you about",
+              "修饰the man的定语从句",
+              "从句省略了指代 the man 的关系代词（whom/that），关系代词在从句中同时作 about 的介词宾语，用来说明这个男人是说话人之前向对方提及过的人。"
+            ]
+          ]
+        },
+        {
+          "english": "Remember?",
+          "chinese": "记得吗？",
+          "tip": "这种只有一个动词的短问句，默认主语是 you，用来立刻确认对方有没有想起刚才提到的事，口语里很常用，比完整的 Do you remember? 更随意自然。",
+          "intent": "向对方确认是否还记得之前聊过的这个人，引导对方回忆。",
+          "parts": [
+            [
+              "Remember?",
+              "独立的确认问句，向对方确认是否还记得之前聊过的相关内容",
+              "记得吗？"
+            ]
+          ],
+          "notes": [
+            [
+              "简短确认问句",
+              "Remember? 是独立的一般疑问句，省略了主语 you，用来向对方确认是否还记起之前聊过的相关内容，并非前面主句的从句部分。"
+            ]
+          ],
+          "structures": [
+            [
+              "Remember?",
+              "独立的确认问句",
+              "以省略主语 you 的简短问句形式，向对方确认是否还能记起之前谈论过的相关经历。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

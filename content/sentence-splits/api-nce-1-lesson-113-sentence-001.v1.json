@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "内容准确，教学点清晰，无不当比较或错误表述，符合名师提点质量标准。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-113-sentence-001",
+      "parentEnglish": "Excuse me. Have you got any small change?",
+      "children": [
+        {
+          "english": "Excuse me.",
+          "chinese": "打扰一下。",
+          "tip": "向陌生人搭话或求助前，用 Excuse me 先礼貌引起对方注意，避免突兀。问路、问事、借过都可以用它开场，后面再接具体请求。",
+          "intent": "礼貌地引起对方注意，为后续求助提问做铺垫。",
+          "parts": [
+            [
+              "Excuse me.",
+              "礼貌引起注意",
+              "打扰一下。"
+            ]
+          ],
+          "notes": [
+            [
+              "礼貌开场的用途",
+              "Excuse me 是日常英语中向陌生人搭话、求助或打断他人前的常用礼貌语，用于缓和语气、避免突兀。"
+            ]
+          ],
+          "structures": [
+            [
+              "Excuse me.",
+              "礼貌引起注意语",
+              "在提问前先礼貌打扰对方，符合日常英语请求的开场习惯。"
+            ]
+          ]
+        },
+        {
+          "english": "Have you got any small change?",
+          "chinese": "你有零钱吗？",
+          "tip": "Have you got... 是口语里问“你有没有……”的常用说法，这里不是在问“你得到了吗”。向人求助先确认对方有没有帮忙的条件，比直接提出要求更自然。",
+          "intent": "询问对方是否有零钱，为后续换钞请求确认条件。",
+          "parts": [
+            [
+              "Have you got",
+              "提问框架",
+              "你有没有……"
+            ],
+            [
+              "any small change?",
+              "询问对象（拥有的东西）",
+              "一些零钱？"
+            ]
+          ],
+          "notes": [
+            [
+              "Have you got 的提问结构",
+              "Have you got... 把 Have 放在主语 you 前，构成英语口语中“你有没有……”的一般疑问句；这里不是“你已经得到了什么”的叙事句。"
+            ],
+            [
+              "any 与 small change 的搭配",
+              "疑问句中常用 any 修饰 small change，表示“一些零钱”；small change 是固定搭配，指可用于找零的小额钱币。"
+            ]
+          ],
+          "structures": [
+            [
+              "Have",
+              "助动词（提问标记）",
+              "放在主语 you 前，帮助构成 Have you got... 的疑问结构。"
+            ],
+            [
+              "you",
+              "询问对象（主语）",
+              "指被询问的人“你”。"
+            ],
+            [
+              "got",
+              "过去分词（与 Have 连用）",
+              "和 Have 一起表示“有、拥有”，在 Have you got... 中不单独强调“得到”的动作。"
+            ],
+            [
+              "any small change",
+              "询问对象（宾语）",
+              "表示“一些零钱”，是整句要确认是否拥有的东西。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

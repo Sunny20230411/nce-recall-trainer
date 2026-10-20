@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界清晰，提点聚焦表达效果与反差铺垫，信息关系和结构角色准确，无夸大或错误判断。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-103-sentence-021",
+      "parentEnglish": "Then he sat there and looked at it for three hours! He didn't write a word!",
+      "children": [
+        {
+          "english": "Then he sat there and looked at it for three hours!",
+          "chinese": "然后他坐在那里盯着它看了三个小时！",
+          "tip": "Then 承接叙事引出后续动作，for three hours 放在动作后突出持续之久，用“坐着看”的连续状态铺垫反差。",
+          "intent": "描述考生在考场上长时间坐着盯试卷、不动笔的状态，为后一句的结果做铺垫。",
+          "parts": [
+            [
+              "Then",
+              "叙事衔接标记，引出接下来发生的后续动作",
+              "然后"
+            ],
+            [
+              "he sat there",
+              "描述第一个核心动作与状态",
+              "他坐在那里"
+            ],
+            [
+              "and looked",
+              "并列连词连接第二个连续动作",
+              "并且看"
+            ],
+            [
+              "at it",
+              "说明“看”的对象，指代试卷",
+              "它（指试卷）"
+            ],
+            [
+              "for three hours!",
+              "补充说明动作持续的总时长",
+              "长达三个小时！"
+            ]
+          ],
+          "notes": [
+            [
+              "and 连接的并列谓语",
+              "and 连接 sat there 和 looked at it 两个并列动作，主语都是 he，共同描述考场上连续的状态，没有从属关系。"
+            ],
+            [
+              "for 引出动作持续的时长",
+              "for three hours 放在 looked at it 之后，用介词 for 明确表示动作持续了整整三个小时，而非某一时刻的短暂动作。"
+            ]
+          ],
+          "structures": [
+            [
+              "Then",
+              "句首时间副词",
+              "承接前文考试场景，说明动作顺序，是叙事连贯性标记。"
+            ],
+            [
+              "he",
+              "主语",
+              "指代参加法语考试的男孩，是两个并列动作的发出者。"
+            ],
+            [
+              "sat there",
+              "并列谓语1",
+              "描述男孩坐在考场座位上的状态。"
+            ],
+            [
+              "and",
+              "并列连词",
+              "连接两个谓语动作，表示动作先后或同时发生，共享主语 he。"
+            ],
+            [
+              "looked at it",
+              "并列谓语2",
+              "it 指代前文提到的法语试卷，描述男孩盯着试卷迟迟不动笔的状态。"
+            ],
+            [
+              "for three hours!",
+              "动作时长状语",
+              "用 for 短语说明状态持续的总时长，突出耗了很久没有进展。"
+            ]
+          ]
+        },
+        {
+          "english": "He didn't write a word!",
+          "chinese": "他一个字也没写！",
+          "tip": "didn't write a word 用最低数量“一个字”强化完全否定，承接前一句的长时间发呆，突出交白卷的反差效果。",
+          "intent": "用强烈的否定语气点出考试结果，和前一句的长时间等待形成反差。",
+          "parts": [
+            [
+              "He didn't write",
+              "描述与前一句形成反差的核心动作",
+              "他没有写"
+            ],
+            [
+              "a word!",
+              "补充说明“没写”的程度，强化完全否定",
+              "哪怕一个字！"
+            ]
+          ],
+          "notes": [
+            [
+              "完全否定的强调表达",
+              "didn't write a word 是口语化的否定表达，意思是“一个字也没写”；a word 在否定语境下并非字面的“一个”，而是表“任何字”的强调语气，比 didn't write anything 更生动。"
+            ]
+          ],
+          "structures": [
+            [
+              "He",
+              "主语",
+              "和前一句的 he 是同一个人，仍指代参加考试的男孩。"
+            ],
+            [
+              "didn't write",
+              "否定谓语",
+              "一般过去时的否定形式，说明考试全程没有进行书写动作；didn't 是 did not 的缩写，后接动词原形 write。"
+            ],
+            [
+              "a word!",
+              "宾语",
+              "否定语境下的强调用法，相当于 anything，整体表达“连任何一个字都没写”，强化交白卷的结果。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

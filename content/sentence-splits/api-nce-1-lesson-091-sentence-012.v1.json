@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "两句拆分清晰，tip分别讲人品评价的铺垫作用和all的范围强调，符合表达意图；parts、notes、structures分配到对应单句，内容准确无交叉冗余。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-091-sentence-012",
+      "parentEnglish": "He's a very nice person. We'll all miss him.",
+      "children": [
+        {
+          "english": "He's a very nice person.",
+          "chinese": "他是个很好的人。",
+          "tip": "先给出对他人品的评价，为后面说“会想念他”铺垫理由。评价他人时先说对象，再用程度副词加强正面描述，语气更真诚。",
+          "intent": "对Ian的为人作出正面评价，说明他受人喜欢的原因。",
+          "parts": [
+            [
+              "He's",
+              "引出被评价的对象",
+              "他是"
+            ],
+            [
+              "a very nice person.",
+              "描述他的性格特质",
+              "一个非常好的人。"
+            ]
+          ],
+          "notes": [
+            [
+              "副词修饰形容词作定语",
+              "very nice两个词在句中共同修饰person，very是程度副词，用来加强nice的程度；整体说明这个人性格和善、容易相处。"
+            ]
+          ],
+          "structures": [
+            [
+              "He's",
+              "主语加系动词缩写",
+              "He指代前文提到的邻居Ian，是句子的描述对象，'s是is的缩写，构成主系表结构的前半部分。"
+            ],
+            [
+              "a very nice person.",
+              "表语",
+              "整体说明主语He的身份和性格特质，是对他的正面评价。"
+            ]
+          ]
+        },
+        {
+          "english": "We'll all miss him.",
+          "chinese": "我们都会想念他的。",
+          "tip": "从个人感受扩展到所有人的共同感受，all放在主语和动词之间，强调没有例外。说想念之前先夸人品，这份不舍就有了具体依据，不只是客套。",
+          "intent": "表达说话人和在场众人对Ian离开的不舍，说明大家都会思念他。",
+          "parts": [
+            [
+              "We'll",
+              "引出后续未来动作的主语和时态标记",
+              "我们将会"
+            ],
+            [
+              "all",
+              "补充动作覆盖的范围是所有人",
+              "所有人都"
+            ],
+            [
+              "miss him.",
+              "说明未来将要发生的动作和动作对象",
+              "想念他。"
+            ]
+          ],
+          "notes": [
+            [
+              "助动词缩写表将来",
+              "We'll是We will的缩写形式，will后接动词原形miss，表达未来将会发生的想念动作，不是当下正在进行的动作。"
+            ],
+            [
+              "all作同位语表范围",
+              "代词all放在主语We和谓语miss之间，强调“我们这群人当中的每一个人”都会产生想念的情绪，没有例外。"
+            ]
+          ],
+          "structures": [
+            [
+              "We'll",
+              "主语加将来时助动词缩写",
+              "We指说话人和其他在场的相关邻居，'ll是will的缩写，标记后续动作是未来会发生的。"
+            ],
+            [
+              "all",
+              "主语同位语",
+              "修饰主语We，明确后续想念的情绪覆盖在场所有人，没有被遗漏的成员。"
+            ],
+            [
+              "miss",
+              "谓语动词",
+              "表达“因对方不在而思念”的动作，原形形式跟在will之后符合将来时的搭配要求。"
+            ],
+            [
+              "him.",
+              "宾语",
+              "指代被评价的He，是miss这个动作的对象，用宾格形式作动词宾语。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

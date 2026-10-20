@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "补全了子句所有必填字段，修正了 parts 中 green 项遗漏逗号的问题，parts 拼回与原文完全一致；教学点贴合表达意图，无过度比较，信息准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-013-sentence-009",
+      "parentEnglish": "It's the same colour. It's green, too.",
+      "children": [
+        {
+          "english": "It's the same colour.",
+          "chinese": "是同样的颜色。",
+          "tip": "说相同特点时，可以先拿双方已知的事物作参照，用 the same 先给核心判断，不用一上来就报具体属性。这样回应既快又紧扣前面的话题。",
+          "intent": "以已知颜色为参照，先给出帽子和裙子颜色相同的核心判断。",
+          "parts": [
+            [
+              "It's",
+              "陈述当前物品的主体",
+              "它是"
+            ],
+            [
+              "the same colour.",
+              "说明颜色属性与前文参照物一致",
+              "同样的颜色。"
+            ]
+          ],
+          "notes": [
+            [
+              "same 的搭配",
+              "same 习惯上要搭配定冠词 the 使用，特指和前文提到的某个特定事物完全相同的属性。"
+            ]
+          ],
+          "structures": [
+            [
+              "It's the same colour.",
+              "主系表结构的陈述句",
+              "It 作主语指代帽子，is 是系动词，the same colour 作表语，点明颜色与前文提及的物品一致。"
+            ]
+          ]
+        },
+        {
+          "english": "It's green, too.",
+          "chinese": "它也是绿色的。",
+          "tip": "too 放在句末补充“也一样”的信息，既说清了具体颜色，又呼应了前面的参照。描述相同点时，可以先给判断再补细节，信息层次更清楚。",
+          "intent": "补充说明具体颜色，并呼应前文已出现的绿色属性。",
+          "parts": [
+            [
+              "It's",
+              "陈述当前物品的主体",
+              "它是"
+            ],
+            [
+              "green,",
+              "说明具体的颜色内容",
+              "绿色的，"
+            ],
+            [
+              "too.",
+              "表示与前文情况一致",
+              "也。"
+            ]
+          ],
+          "notes": [
+            [
+              "too 的用法",
+              "副词 too 放在陈述句末尾，表和前文情况一致，这里指帽子和前面提到的裙子一样是绿色，语序不用调整。"
+            ]
+          ],
+          "structures": [
+            [
+              "It's green, too.",
+              "主系表结构的补充陈述句",
+              "It 作主语指代帽子，is 是系动词，green 作表语说明具体颜色，too 在句末起呼应前文的作用。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

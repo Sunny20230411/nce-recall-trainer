@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界正确，tip聚焦表达选择与节奏，未夸大表述自然度差异，parts/notes/structures均与单句匹配，信息准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-007-sentence-001",
+      "parentEnglish": "I'm a new student. My name's Robert.",
+      "children": [
+        {
+          "english": "I'm a new student.",
+          "chinese": "我是一名新学生。",
+          "tip": "自我介绍开口先讲身份，能让对方马上知道你是谁、为什么出现在这里。a new student 说明的是身份类别，不是特指某一个学生。",
+          "intent": "向初次见面的人说明自己的新学生身份，开启自我介绍。",
+          "parts": [
+            [
+              "I'm",
+              "主语I和系动词am的缩约形式，引出自我介绍的主体",
+              "我是"
+            ],
+            [
+              "a new student.",
+              "作表语，说明主体的身份",
+              "一名新学生"
+            ]
+          ],
+          "notes": [
+            [
+              "缩约形式说明",
+              "I'm是I am的常用口语缩约，日常自我介绍场景使用更自然流畅。"
+            ],
+            [
+              "冠词使用逻辑",
+              "a new student里的不定冠词a表示“一名”，用来引出首次提到的身份类别，不需要强调数量。"
+            ]
+          ],
+          "structures": [
+            [
+              "I'm a new student",
+              "主系表完整分句",
+              "用来直接说明自己的身份，是自我介绍的常见开篇表述。"
+            ]
+          ]
+        },
+        {
+          "english": "My name's Robert.",
+          "chinese": "我的名字叫罗伯特。",
+          "tip": "先讲身份再报姓名，是一步步让对方认识你的自然节奏。想更简洁也可以说 I'm Robert；My name's… 是从“名字”这个角度介绍，两种都自然。",
+          "intent": "在身份介绍之后告知对方自己的姓名，完成初步自我介绍。",
+          "parts": [
+            [
+              "My name's",
+              "主语My name和系动词is的缩约形式，引出姓名相关的描述",
+              "我的名字是"
+            ],
+            [
+              "Robert.",
+              "作表语，说明姓名的具体内容",
+              "罗伯特"
+            ]
+          ],
+          "notes": [
+            [
+              "缩约形式说明",
+              "name's是name is的口语缩略写法，在自我介绍场景里很常用，不用补全也能清楚表示“名字是”。"
+            ]
+          ],
+          "structures": [
+            [
+              "My name's Robert",
+              "主系表完整分句",
+              "用来告知对方自己的姓名，承接上一句的身份介绍。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

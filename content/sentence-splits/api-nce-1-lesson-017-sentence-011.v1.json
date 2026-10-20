@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "按子句拆分了内容，提点分别对应职业回答与补充评价，明确区分身份与评价两层信息，结构与注释分配准确，无不当比较。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-017-sentence-011",
+      "parentEnglish": "They're sales reps. They're very lazy.",
+      "children": [
+        {
+          "english": "They're sales reps.",
+          "chinese": "他们是销售代表。",
+          "tip": "直接回应上文的职业提问，用They're承接前面的那群人，把身份信息说清楚。",
+          "intent": "说明所指群体的职业身份。",
+          "parts": [
+            [
+              "They're sales reps.",
+              "说明主体的职业身份",
+              "他们是销售代表。"
+            ]
+          ],
+          "notes": [
+            [
+              "They're 的缩读形式",
+              "They're是They are的口语缩读，用来指代前文提到的人，避免重复。"
+            ]
+          ],
+          "structures": [
+            [
+              "They",
+              "主语",
+              "指代前文提到的多位从业者。"
+            ],
+            [
+              "'re sales reps",
+              "系表谓语",
+              "'re是are的缩读，sales reps说明主语的职业身份。"
+            ]
+          ]
+        },
+        {
+          "english": "They're very lazy.",
+          "chinese": "他们非常懒。",
+          "tip": "这是对同一群人的额外评价，不是销售代表这个职业的特点，别把职业身份和个人评价混在一起。",
+          "intent": "对所指群体的工作状态作出负面评价。",
+          "parts": [
+            [
+              "They're very lazy.",
+              "描述主体的状态特点",
+              "他们非常懒。"
+            ]
+          ],
+          "notes": [
+            [
+              "程度副词very",
+              "very放在形容词lazy前，用来加强评价的程度。"
+            ]
+          ],
+          "structures": [
+            [
+              "They",
+              "主语",
+              "仍指代前文提到的同一群人。"
+            ],
+            [
+              "'re very lazy",
+              "系表谓语",
+              "用形容词lazy描述主语的状态，very起强化程度的作用。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

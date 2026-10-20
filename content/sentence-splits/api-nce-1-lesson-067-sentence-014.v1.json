@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分合理，两句分别对应提炼感叹与赞叹表达，提点准确点出反问表感叹的交际功能，结构与信息关系标注无误，符合教学标准。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-067-sentence-014",
+      "parentEnglish": "Friday, Saturday and Sunday in the country! Aren't you lucky!",
+      "children": [
+        {
+          "english": "Friday, Saturday and Sunday in the country!",
+          "chinese": "星期五、星期六和星期天都在乡下！",
+          "tip": "把对方说的周末安排提炼成“三天加地点”的短语，是抓住了最让人羡慕的核心信息。不用完整句子，用感叹语气直接带出情绪，更自然。",
+          "intent": "重复并强调对方周末三天在乡下的安排，引出后续的赞叹。",
+          "parts": [
+            [
+              "Friday, Saturday and Sunday",
+              "被强调的核心时段，是安排的全部时间范围。",
+              "星期五、星期六和星期天"
+            ],
+            [
+              "in the country!",
+              "补充说明这三天所处的地点。",
+              "在乡下！"
+            ]
+          ],
+          "notes": [
+            [
+              "省略式感叹短语",
+              "承接上一句“准备周末去母亲家住”的内容，此处只保留时间和地点短语，省略了主语和谓语，通过感叹语气强化对三天乡下假期的羡慕情绪。"
+            ]
+          ],
+          "structures": [
+            [
+              "Friday, Saturday and Sunday",
+              "并列时间名词短语",
+              "作为省略表达中被强调的核心时间主体，直接点明横跨三天的完整假期时段，在句中作时间状语。"
+            ],
+            [
+              "in the country!",
+              "地点状语",
+              "补充说明这三天所处的地点，与前面的时间短语共同构成承接上下文的省略感叹表达。"
+            ]
+          ]
+        },
+        {
+          "english": "Aren't you lucky!",
+          "chinese": "你们真幸运！",
+          "tip": "Aren't you lucky! 形式上像反问，其实是在表达强烈的赞叹，不是真的在问你幸不幸运。用反问句说感叹，语气比直陈句更有情绪。",
+          "intent": "用反问形式的感叹句表达对对方安排的羡慕与赞叹。",
+          "parts": [
+            [
+              "Aren't you lucky!",
+              "主系表结构的感叹表达，传递强烈的肯定评价。",
+              "你们真幸运！"
+            ]
+          ],
+          "notes": [
+            [
+              "否定反问句表强烈感叹",
+              "Aren't you lucky! 不是真正的疑问句，不需要回答，而是用否定形式的反问语气表达极强的肯定感叹，意思是“你可太幸运了”，用来传递羡慕与称赞。"
+            ]
+          ],
+          "structures": [
+            [
+              "Aren't you lucky!",
+              "主系表结构的反问感叹句",
+              "主语为you，系动词为are的否定缩写形式aren't，表语为形容词lucky，形式上是be动词前置的疑问结构，实际无疑问含义，用来表达强烈的赞叹。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

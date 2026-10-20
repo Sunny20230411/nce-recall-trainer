@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正了第二句tip中无依据的“比直接问更自然礼貌”比较，校准为聚焦本句型不预设错误的表达特点；parts、notes、structures边界与指代均符合上下文，信息准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-105-sentence-005",
+      "parentEnglish": "Yes, Mr. Richards. What's wrong with it?",
+      "children": [
+        {
+          "english": "Yes, Mr. Richards.",
+          "chinese": "好的，理查兹先生。",
+          "tip": "对上级的指令先以“Yes, + 姓氏尊称”应答，是职场对话里先接下安排、再听后续说明的常见习惯。",
+          "intent": "回应上级的指令，表示同意听从安排",
+          "parts": [
+            [
+              "Yes,",
+              "对上级指令的肯定应答",
+              "好的"
+            ],
+            [
+              "Mr. Richards.",
+              "对话对象的尊称称谓",
+              "理查兹先生"
+            ]
+          ],
+          "notes": [
+            [
+              "应答与称谓",
+              "Yes, Mr. Richards. 是对上级指令的简短回应，表示同意或听从，后接姓氏加 Mr. 是职场对男性上级的标准尊称。"
+            ]
+          ],
+          "structures": [
+            [
+              "Yes,",
+              "应答语",
+              "表示肯定回应，接在上级要求之后。"
+            ],
+            [
+              "Mr. Richards.",
+              "称谓",
+              "对男性上级的尊称，与 Yes 连用构成完整应答。"
+            ]
+          ]
+        },
+        {
+          "english": "What's wrong with it?",
+          "chinese": "它有什么问题？",
+          "tip": "What's wrong with it? 不预设具体错误，先把“问题”作为未知点提出来，给对方留出充分说明的空间。",
+          "intent": "询问信件存在什么问题，弄清需要重打的原因",
+          "parts": [
+            [
+              "What's",
+              "引导特殊疑问句，构成疑问框架",
+              "是什么"
+            ],
+            [
+              "wrong",
+              "描述要询问的状态",
+              "不对的、有问题的"
+            ],
+            [
+              "with it?",
+              "指明被询问的对象，指代上文提到的信件",
+              "就它而言"
+            ]
+          ],
+          "notes": [
+            [
+              "固定问句结构",
+              "What's wrong with...? 是常用口语句型，用于询问某事物有什么问题或故障。"
+            ],
+            [
+              "it 的指代",
+              "it 指代上文提到的“a letter”，避免重复，让对话连贯。"
+            ]
+          ],
+          "structures": [
+            [
+              "What's",
+              "疑问引导",
+              "What is 的缩写，置于句首引导特殊疑问句。"
+            ],
+            [
+              "wrong",
+              "表语",
+              "形容词，意为“出错的、有问题的”，说明状态。"
+            ],
+            [
+              "with it?",
+              "介词短语",
+              "with 引出问题的对象，it 指代上文的信件。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

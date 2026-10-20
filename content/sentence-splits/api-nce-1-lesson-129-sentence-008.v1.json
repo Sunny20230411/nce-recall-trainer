@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，感谢的语境义、will 表承诺的用法点拨到位，信息关系与结构拆解均贴合单句，无夸大表达差异或错误结论。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-129-sentence-008",
+      "parentEnglish": "Thank you. I'll certainly be more careful.",
+      "children": [
+        {
+          "english": "Thank you.",
+          "chinese": "谢谢您。",
+          "tip": "这里的感谢是回应警察本次免于处罚的决定，不是普通客气。直接用 Thank you. 就够，不用再完整说 I thank you。",
+          "intent": "向对方表达免于处罚的谢意",
+          "parts": [
+            [
+              "Thank you.",
+              "表达谢意的惯用短句",
+              "谢谢您"
+            ]
+          ],
+          "notes": [
+            [
+              "感谢短句的省略",
+              "Thank you. 是日常对话里直接向对方表达谢意的惯用短句，完整逻辑是 I thank you，口语中常省略主语 I。"
+            ]
+          ],
+          "structures": [
+            [
+              "Thank you.",
+              "感谢用语独立短句",
+              "是日常对话里直接向对方表达谢意的惯用短句，完整的逻辑形式是 I thank you，口语中常省略 I。"
+            ]
+          ]
+        },
+        {
+          "english": "I'll certainly be more careful.",
+          "chinese": "我一定会更加小心。",
+          "tip": "这里的 will 不是单纯预测未来，而是在对方提出警告后，当场作出自己以后会更谨慎的承诺。certainly 放在 I'll 和 be 之间，用来加强承诺的确定感。",
+          "intent": "针对对方的警告作出未来会更谨慎的承诺",
+          "parts": [
+            [
+              "I'll",
+              "给出主语与将来时承诺框架",
+              "我会、我将要"
+            ],
+            [
+              "certainly",
+              "强化承诺的确定语气",
+              "当然、一定"
+            ],
+            [
+              "be more careful.",
+              "说明主语未来的状态：会比之前更加谨慎",
+              "更加小心"
+            ]
+          ],
+          "notes": [
+            [
+              "副词 certainly 的位置",
+              "副词 certainly 放在 will（缩写为 'll）之后、动词 be 之前，用来强化承诺的确定语气，相当于“必定、一定会”。"
+            ],
+            [
+              "形容词 careful 的比较级",
+              "多音节形容词 careful 表示比较时，在前面加 more 构成 more careful，意思是“比之前更加小心”，不能加 -er 变比较级。"
+            ]
+          ],
+          "structures": [
+            [
+              "I'll",
+              "主语加将来时助动词",
+              "I'll 是 I will 的缩写形式，will 搭配后续动词表示说话人当下做出的未来承诺。"
+            ],
+            [
+              "certainly",
+              "强化语气的副词",
+              "放在助动词和系动词之间，增强承诺的确定性。"
+            ],
+            [
+              "be more careful",
+              "系动词加形容词比较级表语",
+              "be 是系动词，more careful 作表语，说明主语 I 未来的状态是比当下更小心谨慎。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

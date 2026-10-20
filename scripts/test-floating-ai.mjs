@@ -5,7 +5,7 @@ import { pathToFileURL } from 'node:url';
 
 const browser = await chromium.launch({ headless: true, executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe' });
 try {
-  for (const width of [375, 430, 1280]) {
+  for (const width of [320, 375, 430, 1280]) {
     const page = await browser.newPage({ viewport: { width, height: 932 }, hasTouch: true });
     const errors = [];
     let calls = 0;

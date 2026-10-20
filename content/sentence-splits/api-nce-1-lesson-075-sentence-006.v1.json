@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "子句拆分准确，tip紧扣服务场景的表达策略与any的指代误解，无过度概括；信息关系、结构角色与笔记均贴合本句内容。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-075-sentence-006",
+      "parentEnglish": "I'm sorry. We don't have any.",
+      "children": [
+        {
+          "english": "I'm sorry.",
+          "chinese": "对不起。",
+          "tip": "服务场景里先说 I'm sorry，不是真的认错，是提前为无法满足对方需求铺垫歉意，让后面的拒绝听起来不生硬。",
+          "intent": "先礼貌表达歉意，为后续告知无货的拒绝内容做缓冲。",
+          "parts": [
+            [
+              "I'm sorry.",
+              "礼貌铺垫，表达歉意，为后续拒绝做缓冲。",
+              "对不起。"
+            ]
+          ],
+          "notes": [
+            [
+              "服务场景的礼貌致歉",
+              "I'm sorry 放在否定答复前，是服务场景常用的委婉说法，用来提前缓冲拒绝的语气，避免显得生硬无礼。"
+            ]
+          ],
+          "structures": [
+            [
+              "I'm sorry.",
+              "礼貌致歉短句",
+              "用于提前表达歉意，缓冲后面的拒绝内容。"
+            ]
+          ]
+        },
+        {
+          "english": "We don't have any.",
+          "chinese": "我们没有（货）。",
+          "tip": "句里的 any 不是泛指“任何”，是接回顾客刚才问的那款黑色鞋，避免重复说 the black shoes。否定范围只对应正在询问的款式、尺码，不是全店什么都没有。",
+          "intent": "明确告知顾客店内没有其询问的对应商品。",
+          "parts": [
+            [
+              "We don't have any.",
+              "核心陈述，说明没有对应商品。",
+              "我们没有（货）。"
+            ]
+          ],
+          "notes": [
+            [
+              "any的指代用法",
+              "any在这里不是泛指「任何」，而是指代上文提到的黑色的鞋，避免重复说the black shoes，符合上下文的省略习惯。"
+            ]
+          ],
+          "structures": [
+            [
+              "We don't have any.",
+              "主谓宾结构的否定陈述句",
+              "陈述店内没有对应商品的事实。"
+            ],
+            [
+              "any",
+              "代词",
+              "指代前文提到的黑色的鞋。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

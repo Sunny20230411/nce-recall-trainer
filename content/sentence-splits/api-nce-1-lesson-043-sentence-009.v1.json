@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，tip 区分了指认目标与介绍新事物的差异，并点明找东西场景的信息展开顺序，各字段内容与单句对应，无错误。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-043-sentence-009",
+      "parentEnglish": "There it is! It's in front of you!",
+      "children": [
+        {
+          "english": "There it is!",
+          "chinese": "就在那儿！",
+          "tip": "There it is! 是找到东西时的指认，不是用 there is 介绍新事物。找东西场景里先说这句点出目标，再补具体方位更自然。",
+          "intent": "快速向对方指认刚刚找到的目标物品位置",
+          "parts": [
+            [
+              "There it is!",
+              "直接点明事物所在的地点",
+              "就在那儿！"
+            ]
+          ],
+          "notes": [
+            [
+              "there 前置语序",
+              "There it is 是把地点副词 there 放到句首的强调语序，不用倒装成 There is it，用来快速向对方指认事物位置。"
+            ]
+          ],
+          "structures": [
+            [
+              "There it is!",
+              "强调性指认句",
+              "用来快速向对方指出已经找到的事物所在位置，语气直接醒目。"
+            ]
+          ]
+        },
+        {
+          "english": "It's in front of you!",
+          "chinese": "在你前面！",
+          "tip": "这句顺着前面的指认补充更具体的方位，用 in front of you 把位置和听话人联系起来，方便对方立刻找到。",
+          "intent": "补充说明物品相对于听话人的具体方位，帮助对方快速定位",
+          "parts": [
+            [
+              "It's in front of you!",
+              "补充说明事物相对于对方的具体方位",
+              "在你前面！"
+            ]
+          ],
+          "notes": [
+            [
+              "in front of 方位表达",
+              "这是固定方位短语，用来描述一物处在另一物的前方位置，本句里说明物品处于听话人的前方区域。"
+            ]
+          ],
+          "structures": [
+            [
+              "It's in front of you!",
+              "方位说明句",
+              "明确说明事物相对于听话人的具体方位，帮对方快速定位目标。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

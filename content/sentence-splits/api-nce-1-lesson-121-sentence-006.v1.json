@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，各子句的翻译、提点、信息块、笔记和句法结构均匹配对应英文边界；提点聚焦表达思路，无不当自然度比较，内容准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-121-sentence-006",
+      "parentEnglish": "Did you serve this gentleman half an hour ago, Caroline? He says he's the man who bought these books.",
+      "children": [
+        {
+          "english": "Did you serve this gentleman half an hour ago, Caroline?",
+          "chinese": "卡罗琳，半小时前你接待过这位先生吗？",
+          "tip": "这句是在向店员核实过去的接待经历，核心疑问是“你有没有接待过这位先生”，时间和呼语放在后面补充。转述信息前先核对事实，是对话中确认信息的自然思路。",
+          "intent": "询问店员卡罗琳是否在半小时前接待过这位先生。",
+          "parts": [
+            [
+              "Did you serve",
+              "问句的助动词、主语与核心动作",
+              "你是否接待过"
+            ],
+            [
+              "this gentleman",
+              "接待的对象",
+              "这位先生"
+            ],
+            [
+              "half an hour ago,",
+              "说明动作发生的时间",
+              "半小时前"
+            ],
+            [
+              "Caroline?",
+              "对话中的呼语，指明问话对象",
+              "卡罗琳？"
+            ]
+          ],
+          "notes": [
+            [
+              "称呼放在句末",
+              "Caroline用逗号隔开放在句末，是对话中对对方的称呼；不参与句子主干，主干仍是Did you serve this gentleman?"
+            ]
+          ],
+          "structures": [
+            [
+              "Did you serve this gentleman half an hour ago, Caroline?",
+              "疑问句",
+              "询问对方过去是否做过“接待这位先生”这件事。"
+            ],
+            [
+              "half an hour ago",
+              "时间状语",
+              "说明 serve 发生在半小时前。"
+            ],
+            [
+              "Caroline",
+              "呼语",
+              "对话称呼，指明问话对象。"
+            ]
+          ]
+        },
+        {
+          "english": "He says he's the man who bought these books.",
+          "chinese": "他说他就是买这些书的人。",
+          "tip": "用 He says 先标明信息来源，说明后面是顾客的说法，还不是店员确认的事实。转述他人声称的内容时，先带出说话人，能分清“对方说的”和“自己确认的”。",
+          "intent": "转述这位男士的自我陈述，说明他声称自己是买这些书的人。",
+          "parts": [
+            [
+              "He says",
+              "主句，引出男士的自我陈述",
+              "他（向店员）说"
+            ],
+            [
+              "he's the man",
+              "says 后宾语从句的主句",
+              "他就是那个人"
+            ],
+            [
+              "who bought these books.",
+              "定语从句，修饰 the man",
+              "买过这些书的（那个人）"
+            ]
+          ],
+          "notes": [
+            [
+              "who从句限定身份",
+              "who bought these books紧跟the man，who指the man并作从句主语；从句说明“什么样的男人”，即买过这些书的人。"
+            ],
+            [
+              "says后接陈述内容",
+              "He says后面省略that，整个句子he's the man...是“他说”的内容，不是直接引语。"
+            ]
+          ],
+          "structures": [
+            [
+              "He says he's the man who bought these books.",
+              "主句 + 宾语从句",
+              "He says 是主句，he's the man... 是宾语从句（that 省略）；从句中再用 who bought these books 修饰 the man。"
+            ],
+            [
+              "who bought these books",
+              "定语从句",
+              "who 指代 the man，作从句主语，限定“买过这些书的人”。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

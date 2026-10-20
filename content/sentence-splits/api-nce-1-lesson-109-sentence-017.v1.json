@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，子句边界清晰；修正了few/little释义中易被误解的“几乎没有”表述，避免绝对化；tip分别对应可数存量与动作量的表达选择，教学点明确；各字段与单句匹配准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-109-sentence-017",
+      "parentEnglish": "Well, I have very few cigarettes. I smoke very little.",
+      "children": [
+        {
+          "english": "Well, I have very few cigarettes.",
+          "chinese": "嗯，我的烟很少。",
+          "tip": "说可数物品数量少时用 few，接在名词前；very 放在前面进一步强调数量少，是对存量的描述。",
+          "intent": "说明自己手头的香烟数量非常少。",
+          "parts": [
+            [
+              "Well,",
+              "语气停顿",
+              "嗯"
+            ],
+            [
+              "I have very few cigarettes.",
+              "句子主干，说明香烟存量",
+              "我的烟很少"
+            ]
+          ],
+          "notes": [
+            [
+              "few 修饰可数名词",
+              "few 后接可数复数名词 cigarettes，表示数量少；very 放在 few 前，把“少”的程度加强，指数量非常少，但不是完全没有。"
+            ]
+          ],
+          "structures": [
+            [
+              "Well,",
+              "语气插入语",
+              "Well 是口语中表示停顿、思忖或话题转折的语气词。"
+            ],
+            [
+              "I",
+              "主语",
+              "指说话者本人。"
+            ],
+            [
+              "have",
+              "谓语",
+              "表示“拥有”这个状态，是句子的核心谓语动词。"
+            ],
+            [
+              "very few cigarettes.",
+              "宾语",
+              "说明主语拥有的香烟数量非常少。"
+            ]
+          ]
+        },
+        {
+          "english": "I smoke very little.",
+          "chinese": "我抽得很少。",
+          "tip": "描述动作量少时用 very little 放在动词后作状语，这里衡量的是吸烟整体的量，不再重复香烟这个对象。",
+          "intent": "说明自己吸烟的量非常少。",
+          "parts": [
+            [
+              "I smoke",
+              "主谓结构，核心动作是抽烟",
+              "我抽烟"
+            ],
+            [
+              "very little.",
+              "程度状语，补充说明吸烟量非常少",
+              "抽得很少"
+            ]
+          ],
+          "notes": [
+            [
+              "very little 作状语",
+              "very little 在此作副词性短语修饰动词 smoke，表示吸烟量非常少；very 强化了“少”的程度，指抽得很少，但不是完全不抽。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主语",
+              "同样指说话者本人，和前一句主语一致。"
+            ],
+            [
+              "smoke",
+              "谓语",
+              "表示“抽烟”这个动作，是句子的核心谓语动词。"
+            ],
+            [
+              "very little.",
+              "程度状语",
+              "修饰动词 smoke，说明吸烟量非常少。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "已按要求修正第二子句tip：not much改为表示数量不多、不保证有剩余，不再固定解释为还有一些；同步修正对应structure解释中的“但还有”表述，其余合格内容保留。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-079-sentence-005",
+      "parentEnglish": "I must go to the grocer's. We haven't got much tea or coffee, and we haven't got any sugar or jam.",
+      "children": [
+        {
+          "english": "I must go to the grocer's.",
+          "chinese": "我必须去食品杂货店。",
+          "tip": "先说要去食品杂货店的结论，后面再补缺物资的原因，是日常说购物安排的常见思路。这里的must是说话人基于实际需求觉得有必要去，不是义务或规定。",
+          "intent": "直接给出必须去食品杂货店采购的行动结论。",
+          "parts": [
+            [
+              "I must go to the grocer's.",
+              "主句，给出必须执行的购物行动结论",
+              "我必须去食品杂货店。"
+            ]
+          ],
+          "notes": [
+            [
+              "grocer's的省略用法",
+              "grocer's是所有格形式，后面省略了名词shop，直接指代“食品杂货店”，属于日常说话中常见的店铺省略表达。"
+            ],
+            [
+              "must表基于实际情况的必要",
+              "这里的must不表示纪律或义务上的“必须”，而是说话人根据家里物资不足的实际情况，认为有去采购的必要。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主语",
+              "第一人称单数主格代词，指代发出“去杂货店”这个动作的人。"
+            ],
+            [
+              "must go to the grocer's.",
+              "谓语部分",
+              "情态动词must后接动词原形go，说明说话人认为有必要去食品杂货店采购。"
+            ]
+          ]
+        },
+        {
+          "english": "We haven't got much tea or coffee, and we haven't got any sugar or jam.",
+          "chinese": "我们的茶和咖啡不多了，也没有糖和果酱了。",
+          "tip": "讲缺货程度时不用一概说“没有了”：not much 表示数量不多，不保证还有剩余；not any 明确一点也没有。说采购理由时区分这两种程度，信息更清楚。",
+          "intent": "用两种不同程度的库存不足，共同解释为什么必须去杂货店。",
+          "parts": [
+            [
+              "We haven't got much tea or coffee,",
+              "并列分句一，说明茶和咖啡存量不足",
+              "我们的茶和咖啡都不多了。"
+            ],
+            [
+              "and we haven't got any sugar or jam.",
+              "并列分句二，补充说明糖和果酱完全没有储备",
+              "而且我们一点糖和果酱都没有了。"
+            ]
+          ],
+          "notes": [
+            [
+              "have got表示“有/拥有”",
+              "haven't got是英语口语里表示“没有”的常用说法，相当于don't have；much修饰不可数的tea和coffee，说明存量不多；any用在否定句里，修饰不可数的sugar和jam，表示“一点也没有”。"
+            ],
+            [
+              "并列否定结构",
+              "and连接两个并列的否定分句，分句内部的两个并列名词用or连接，分别说明不同食品的储备情况，共同构成要去杂货店采购的理由。"
+            ]
+          ],
+          "structures": [
+            [
+              "We",
+              "第一个并列分句主语",
+              "第一人称复数主格代词，指代说话人所在的家庭或同住群体。"
+            ],
+            [
+              "haven't got much tea or coffee,",
+              "第一个并列分句",
+              "haven't got表否定拥有，much修饰不可数的茶和咖啡，说明这两样东西存量不多。"
+            ],
+            [
+              "and",
+              "并列连词",
+              "连接两个表库存不足的否定分句，前后都是解释为什么要去杂货店的原因。"
+            ],
+            [
+              "we haven't got any sugar or jam.",
+              "第二个并列分句",
+              "同样用haven't got表否定拥有，any用在否定句中，说明糖和果酱完全没有存量。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

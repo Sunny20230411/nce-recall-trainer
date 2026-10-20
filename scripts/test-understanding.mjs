@@ -4,9 +4,13 @@ import { resolve } from 'node:path';
 import { chromium } from 'playwright-core';
 import { readFile } from 'node:fs/promises';
 import { validateUnderstanding } from './understanding-contract.mjs';
+import { loadPublishedUnderstanding } from './sentence-split-content.mjs';
 
 const content = JSON.parse(await readFile('content/sentence-understanding.pilot.v1.json', 'utf8'));
 assert.equal(content.records.length, 8);
+const published = await loadPublishedUnderstanding();
+const originalPilotIds = new Set(content.records.map(record => record.sentenceId));
+content.records = published.records.filter(record => originalPilotIds.has(record.parentSentenceId || record.sentenceId));
 for (const record of content.records) {
   assert.deepEqual(validateUnderstanding(record), []);
   assert.equal(record.analysisStatus, 'approved');
@@ -88,5 +92,5 @@ try {
     assert.equal(calls, 0); assert.deepEqual(errors, []);
     await page.close();
   }
-  console.log('Eight reviewed examples render without API calls or horizontal overflow; manual groups preserved.');
+  console.log('Reviewed examples and their split children render without API calls or horizontal overflow; manual groups preserved.');
 } finally { await browser.close(); }

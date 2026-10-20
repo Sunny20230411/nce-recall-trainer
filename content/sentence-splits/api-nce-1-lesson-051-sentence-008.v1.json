@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "子句拆分准确，中英对应一致；提点从表达意图出发，区分了气温与日照两个描述角度，every day 与 all day 的对比实用；信息关系、结构角色及笔记均符合内容边界，无过度解读或错误判断。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-051-sentence-008",
+      "parentEnglish": "It's always hot in June, July and August. The sun shines every day.",
+      "children": [
+        {
+          "english": "It's always hot in June, July and August.",
+          "chinese": "六月、七月和八月总是很热。",
+          "tip": "回答夏季天气，先直接给出热的整体感受，再补出具体月份范围。描述季节气候时，先说核心特征、再限定时间，符合英语回答的常见思路。",
+          "intent": "回答夏季的气温特征，给出整体高温的时间范围。",
+          "parts": [
+            [
+              "It's always hot",
+              "核心判断，交代夏季天气的整体感受",
+              "天气总是炎热"
+            ],
+            [
+              "in June, July and August.",
+              "补充炎热状态持续的具体时间范围，说明这是夏季三个月的常态",
+              "在六月、七月和八月"
+            ]
+          ],
+          "notes": [
+            [
+              "非人称 It 指代天气",
+              "It's hot 里的 It 不指代具体的人或物，只用来描述天气状态，中文不需要把这个 It 翻译出来。"
+            ],
+            [
+              "时间状语的位置",
+              "英文把月份时间状语 in June, July and August 放在句尾，先讲天气特征再交代时间范围；中文习惯先点明时间再说天气情况。"
+            ]
+          ],
+          "structures": [
+            [
+              "It's",
+              "非人称主语与系动词",
+              "It 指代天气，无实义；'s 是 is 的缩写，和后面的形容词 hot 构成描述天气的主系表核心。"
+            ],
+            [
+              "always",
+              "频度状语",
+              "放在 be 动词后、形容词前，表示炎热的状态贯穿整个夏季三个月，没有间断。"
+            ],
+            [
+              "hot",
+              "表语",
+              "描述天气的核心特征是炎热，是整句要传递的主要天气信息。"
+            ],
+            [
+              "in June, July and August",
+              "时间状语",
+              "说明炎热状态覆盖的三个夏季月份，点明高温持续的时间范围。"
+            ]
+          ]
+        },
+        {
+          "english": "The sun shines every day.",
+          "chinese": "每天阳光灿烂。",
+          "tip": "前一句讲气温，这一句补日照，从两个角度共同说明夏季气候。every day 表每日的频率；想说“一整天”则用 all day，两者一个讲频次、一个讲时长，不要混。",
+          "intent": "补充夏季的日照情况，进一步说明天气晴热的特点。",
+          "parts": [
+            [
+              "The sun shines",
+              "核心动作，描述夏季的日照状态",
+              "太阳照耀"
+            ],
+            [
+              "every day.",
+              "补充日照的频率，说明夏季每日晴好的常态",
+              "每天"
+            ]
+          ],
+          "notes": [
+            [
+              "一般现在时表常态气候",
+              "shines 用一般现在时第三人称单数形式，表示夏季日照是规律性的常态现象，不是某一天的偶然情况。"
+            ]
+          ],
+          "structures": [
+            [
+              "The sun",
+              "主语",
+              "指太阳，是后面“照耀”这个动作的发出者。"
+            ],
+            [
+              "shines",
+              "谓语",
+              "用一般现在时表示常规日照状态，意思是太阳照耀、放晴。"
+            ],
+            [
+              "every day",
+              "频度时间状语",
+              "说明日照的频率是每一天，进一步补充夏季晴好无阴的天气特点。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

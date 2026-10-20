@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "已修正第二子句tip与对应note，不再断言is going是已定计划且不是正在路上，改为说明两种解读均可能，突出usually与this morning的习惯与当次对比。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-057-sentence-002",
+      "parentEnglish": "It is ten o'clock. Mrs. Sawyer usually stays at home in the morning, but this morning, she is going to the shops.",
+      "children": [
+        {
+          "english": "It is ten o'clock.",
+          "chinese": "现在是十点。",
+          "tip": "说当前时刻先用 It is ... 把时间点引出来，为后面讲人物此刻的状态或安排铺垫背景。不用纠结“谁是十点”，这是英语报时的固定起句方式。",
+          "intent": "交代当前的具体时刻，为后续描述人物活动提供时间背景。",
+          "parts": [
+            [
+              "It is ten o'clock.",
+              "当前时刻说明。",
+              "现在是十点。"
+            ]
+          ],
+          "notes": [
+            [
+              "报时的常用句式",
+              "It is ten o'clock 是英语说当前整点时间的常用表达，it 用来指代时间，o'clock 表示“……点钟”。"
+            ]
+          ],
+          "structures": [
+            [
+              "It is ten o'clock.",
+              "时间说明句",
+              "用来交代当前的时刻，it 无实义仅指代时间，为后文人物的活动提供时间背景。"
+            ]
+          ]
+        },
+        {
+          "english": "Mrs. Sawyer usually stays at home in the morning, but this morning, she is going to the shops.",
+          "chinese": "索耶太太上午通常待在家里，但今天上午她要去商店。",
+          "tip": "把 usually 的日常习惯和 this morning 的当次情况用 but 对举，重点落在今天的不同上。is going to the shops 可理解为正要去或已安排去，不必强行断定一定不是在路上。",
+          "intent": "对照索耶太太的日常习惯与今天上午的反常安排，突出今天的不同。",
+          "parts": [
+            [
+              "Mrs. Sawyer usually stays at home in the morning,",
+              "索耶太太的日常习惯说明。",
+              "索耶太太上午通常待在家里，"
+            ],
+            [
+              "but",
+              "转折，引出和日常相反的情况。",
+              "但"
+            ],
+            [
+              "this morning, she is going to the shops.",
+              "说明今天上午的反常安排。",
+              "今天上午她要去商店。"
+            ]
+          ],
+          "notes": [
+            [
+              "通常与反常的对比",
+              "but 连接两个并列分句，前句讲 usually 体现的日常习惯，后句讲 this morning 的反常情况。"
+            ],
+            [
+              "现在进行时表近期安排或正在行进",
+              "is going to the shops 用现在进行时，可表示近期已安排的动作，也可指正在前往的途中，需结合语境理解。"
+            ]
+          ],
+          "structures": [
+            [
+              "Mrs. Sawyer usually stays at home in the morning",
+              "表示日常习惯的分句",
+              "主语是 Mrs. Sawyer，usually 说明这是平时的常规状态，in the morning 限定习惯发生的时间范围。"
+            ],
+            [
+              "but",
+              "转折连词",
+              "连接前后两个分句，引出与日常习惯不同的情况。"
+            ],
+            [
+              "this morning, she is going to the shops.",
+              "表示今天反常行为的分句",
+              "this morning 把时间限定为今天上午，she 指代 Mrs. Sawyer，is going to the shops 表示她今天要去商店。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

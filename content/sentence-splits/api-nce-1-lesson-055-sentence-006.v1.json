@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分后两句边界清晰，中文对应准确，名师提点分别侧重时间线叙事安排和指代衔接的表达逻辑，信息关系、句法角色准确，无过度解读或错误规律。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-055-sentence-006",
+      "parentEnglish": "In the afternoon, she usually sees her friends. They often drink tea together.",
+      "children": [
+        {
+          "english": "In the afternoon, she usually sees her friends.",
+          "chinese": "下午，她通常去见朋友。",
+          "tip": "先把时间范围“In the afternoon”放在句首，再接她的惯常活动，是顺着一天时间线推进叙事的常见安排。sees her friends 这里指和朋友见面、会面，不只是单纯看见。",
+          "intent": "说明这位女性下午的日常活动之一是会见朋友。",
+          "parts": [
+            [
+              "In the afternoon,",
+              "时间",
+              "在下午"
+            ],
+            [
+              "she",
+              "主语",
+              "她"
+            ],
+            [
+              "usually",
+              "频度",
+              "通常"
+            ],
+            [
+              "sees her friends.",
+              "主谓宾核心内容",
+              "见她的朋友"
+            ]
+          ],
+          "notes": [
+            [
+              "频度副词说明习惯",
+              "usually是频度副词，放在主语后、实义动词前，表示见朋友是反复发生的日常行为，不是某一次偶然动作。"
+            ],
+            [
+              "时间短语点明时段",
+              "In the afternoon放在句首作时间状语，说明这项日常活动发生在午后时段。"
+            ]
+          ],
+          "structures": [
+            [
+              "In the afternoon",
+              "时间状语",
+              "介词短语放在句首，说明动作发生在下午时段，承接前文的at noon形成时间顺序。"
+            ],
+            [
+              "she",
+              "主语",
+              "指代前文出现的女性，是“见朋友”这个动作的发出者。"
+            ],
+            [
+              "usually",
+              "频度状语",
+              "表示“见朋友”是日常习惯性动作，并非偶尔为之。"
+            ],
+            [
+              "sees",
+              "谓语动词",
+              "用一般现在时的第三人称单数形式，表达长期稳定的日常安排。"
+            ],
+            [
+              "her friends",
+              "宾语",
+              "是“见”这个动作的对象，指和她交好的友人。"
+            ]
+          ]
+        },
+        {
+          "english": "They often drink tea together.",
+          "chinese": "她们常常一起喝茶。",
+          "tip": "用They顺接上一句的她和朋友们，接着讲见面后常做的事，前后两句自然连成一次完整的日常活动。together点出这是结伴活动，也反向说明前一句的see是会面而非单纯看见。",
+          "intent": "描述她与朋友们见面时经常一起进行的活动。",
+          "parts": [
+            [
+              "They",
+              "主语",
+              "她们"
+            ],
+            [
+              "often",
+              "频度",
+              "常常"
+            ],
+            [
+              "drink tea",
+              "主谓宾核心内容",
+              "喝茶"
+            ],
+            [
+              "together.",
+              "伴随状态",
+              "一起"
+            ]
+          ],
+          "notes": [
+            [
+              "频度副词说明习惯",
+              "often是频度副词，放在主语后、实义动词前，表示一起喝茶是见面时反复出现的日常活动。"
+            ]
+          ],
+          "structures": [
+            [
+              "They",
+              "主语",
+              "指代前一句的she和her friends，也就是她与她的朋友们一行人。"
+            ],
+            [
+              "often",
+              "频度状语",
+              "表示“一起喝茶”是她们见面时经常进行的活动。"
+            ],
+            [
+              "drink",
+              "谓语动词",
+              "用一般现在时表达习惯性的共同行为。"
+            ],
+            [
+              "tea",
+              "宾语",
+              "是“喝”这个动作的对象，指饮茶这件事。"
+            ],
+            [
+              "together",
+              "伴随状语",
+              "说明喝茶的动作是大家共同参与、结伴进行的，点明聚会的性质。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

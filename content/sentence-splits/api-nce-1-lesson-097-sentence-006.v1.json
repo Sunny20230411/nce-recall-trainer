@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分后两句边界准确，提点分别聚焦问话的信息组织和转述身份的表达视角，迁移具体；parts、notes、structures分配正确，无跨句内容。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-097-sentence-006",
+      "parentEnglish": "Did you serve this gentleman half an hour ago, Caroline? He says he's the man who bought these books.",
+      "children": [
+        {
+          "english": "Did you serve this gentleman half an hour ago, Caroline?",
+          "chinese": "卡罗琳，半小时前你接待过这位先生吗？",
+          "tip": "这句是向店员核实过去的接待行为，把时间half an hour ago放在宾语后，先点明要核实的动作和对象，再补时间背景，符合问话先抓核心事件的习惯。",
+          "intent": "向Caroline核实半小时前是否接待过这位先生。",
+          "parts": [
+            [
+              "Did you serve",
+              "疑问句的引导和主干部分，Did帮助构成过去时疑问。",
+              "你……接待过……吗？"
+            ],
+            [
+              "this gentleman",
+              "接待的对象。",
+              "这位先生"
+            ],
+            [
+              "half an hour ago,",
+              "补充说明接待发生的时间。",
+              "半小时前"
+            ],
+            [
+              "Caroline?",
+              "问话的对象。",
+              "卡罗琳？"
+            ]
+          ],
+          "notes": [
+            [
+              "过去时间的一般疑问句",
+              "half an hour ago 表示“半小时前”，是明确的过去时间状语；句首 Did 帮助构成一般过去时的疑问句，后面用动词原形 serve。"
+            ]
+          ],
+          "structures": [
+            [
+              "Did you serve this gentleman half an hour ago, Caroline?",
+              "一般疑问句",
+              "句首 Did 构成一般过去时疑问，主语 you，谓语 serve，宾语 this gentleman，时间状语 half an hour ago，句末称呼语 Caroline 用逗号隔开。"
+            ],
+            [
+              "half an hour ago",
+              "时间状语",
+              "说明 serve 这个动作发生的时间是“半小时前”。"
+            ]
+          ]
+        },
+        {
+          "english": "He says he's the man who bought these books.",
+          "chinese": "他说他就是买这些书的人。",
+          "tip": "He says 先交代信息来源是对方自己的说法，再用the man who bought these books以购书经历指认身份，并不代表说话人已确认此事。转述他人声称的身份时，可先用say/says引出来源，再补限定内容。",
+          "intent": "转述这位先生对自己身份的声称。",
+          "parts": [
+            [
+              "He says",
+              "引出他自己的说法。",
+              "他说"
+            ],
+            [
+              "he's the man",
+              "说明他的身份。",
+              "他就是那个人"
+            ],
+            [
+              "who bought these books.",
+              "修饰“那个人”，说明具体是哪个人。",
+              "买这些书的"
+            ]
+          ],
+          "notes": [
+            [
+              "who 引导的定语从句",
+              "who bought these books 接在 the man 后面，who 指代 the man，在从句中作主语，说明“这个男人”的具体身份和行为。"
+            ]
+          ],
+          "structures": [
+            [
+              "He says he's the man who bought these books.",
+              "复合句",
+              "主句 He says 后接省略 that 的宾语从句 he's the man...；the man 后接 who 引导的定语从句，修饰 the man。"
+            ],
+            [
+              "who bought these books",
+              "定语从句",
+              "who 指代 the man，在从句中作主语，bought 是从句谓语，these books 是从句宾语。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

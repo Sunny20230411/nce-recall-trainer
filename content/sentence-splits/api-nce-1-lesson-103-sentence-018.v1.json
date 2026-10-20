@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正了首句提点中隐含“不用绕弯”的不当比较，调整第二句提点将“更自然”改为贴合情境的表述，避免无依据的自然度评判；拆分后各子句信息、结构、notes边界准确，内容符合教学标准。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-103-sentence-018",
+      "parentEnglish": "Oh, cheer up! Perhaps we didn't do too badly.",
+      "children": [
+        {
+          "english": "Oh, cheer up!",
+          "chinese": "哦，振作点！",
+          "tip": "cheer up是口语里常用的劝慰祈使，直接以动词原形开头，听的人立刻能接收到鼓励安慰的意图。",
+          "intent": "用祈使语气劝慰情绪低落的同伴振作起来。",
+          "parts": [
+            [
+              "Oh,",
+              "引出劝慰语气",
+              "哦"
+            ],
+            [
+              "cheer up!",
+              "祈使劝慰的核心内容",
+              "振作点！"
+            ]
+          ],
+          "notes": [
+            [
+              "固定短语 cheer up",
+              "cheer 为不及物动词，与小品副词 up 构成固定短语，用作鼓励他人的祈使表达，语义等同于“振作起来、别灰心”；祈使句省略第二人称主语，直接以动词原形开头发起劝慰。"
+            ]
+          ],
+          "structures": [
+            [
+              "Oh,",
+              "感叹词",
+              "引出劝慰语气，无实际语义，起语气缓和的作用。"
+            ],
+            [
+              "cheer up!",
+              "祈使分句",
+              "以动词原形开头的祈使句，直接对听话人发出鼓励指令，要求对方振作情绪。"
+            ]
+          ]
+        },
+        {
+          "english": "Perhaps we didn't do too badly.",
+          "chinese": "也许我们考得并不太差。",
+          "tip": "didn't do too badly 比说“考得很好”克制，适合结果还没出来时鼓励人；安慰不一定非要给过度肯定的保证，留有余地反而更贴合这种情境。",
+          "intent": "用委婉的推测给情绪低落的同伴提供安慰依据。",
+          "parts": [
+            [
+              "Perhaps",
+              "给出推测的语气修饰",
+              "也许"
+            ],
+            [
+              "we didn't do too badly.",
+              "补充劝慰的依据",
+              "我们考得并不太差。"
+            ]
+          ],
+          "notes": [
+            [
+              "程度表达 didn't do too badly",
+              "didn't 是 did not 的缩写，用于一般过去时的否定句；too 修饰副词 badly，否定形式下直译是“没有做得太差”，在考试语境里自然对应“考得并不太差”，是委婉表达成绩尚可的安慰说法。"
+            ]
+          ],
+          "structures": [
+            [
+              "Perhaps",
+              "评注性状语",
+              "表达说话人的推测语气，意为“也许、说不定”，弱化后文判断的确定性。"
+            ],
+            [
+              "we didn't do too badly.",
+              "陈述分句",
+              "说明劝慰的依据：说话人推测两人考试的表现不算很差。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

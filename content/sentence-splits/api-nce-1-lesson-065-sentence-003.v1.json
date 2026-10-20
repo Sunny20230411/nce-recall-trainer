@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "已修正第二子句时间介词笔记的绝对说法，说明标准用法加at，同时补充非正式口语有省略场景，符合要求且未扩展无关内容。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-065-sentence-003",
+      "parentEnglish": "You mustn't come home late. You must be home at half past ten.",
+      "children": [
+        {
+          "english": "You mustn't come home late.",
+          "chinese": "你不能回家太晚。",
+          "tip": "用 mustn't 划禁止的红线，语气强硬，是在明确“绝对不可以”做的事。come home 关注回家这个动作的早晚，不是到家的状态。",
+          "intent": "对孩子提出禁止性要求，不许晚回家。",
+          "parts": [
+            [
+              "You",
+              "句子主语，指代对话中要外出的孩子。",
+              "你"
+            ],
+            [
+              "mustn't come home late.",
+              "句子的核心谓语部分，用强硬的禁止语气划定行为红线。",
+              "绝对不能太晚回家。"
+            ]
+          ],
+          "notes": [
+            [
+              "mustn't 的禁止语气",
+              "mustn't 是 must not 的缩写，语气强硬，意为“绝对不可以、严禁”，用来明确禁止某种行为，划清行为红线。"
+            ]
+          ],
+          "structures": [
+            [
+              "You",
+              "第二人称主语",
+              "指代对话中的孩子，是被提出要求的对象。"
+            ],
+            [
+              "mustn't come home late",
+              "谓语，表达被禁止的行为",
+              "mustn't 是表禁止的情态动词，后接动词原形 come；home 是地点副词，直接跟在 come 后表示“回到家”，无需加介词 to；late 是副词修饰 come，说明回家不能太晚。"
+            ]
+          ]
+        },
+        {
+          "english": "You must be home at half past ten.",
+          "chinese": "你必须十点半到家。",
+          "tip": "用 must 给出硬性的时间要求，be home 侧重“届时已经在家”的状态，不是十点半才动身回家。遇到“几点必须到/在某处”的要求，都可以用 must be + 地点 + 时间来组织。",
+          "intent": "明确要求孩子必须在十点半前到家，给出具体的时间期限。",
+          "parts": [
+            [
+              "You",
+              "句子主语，和前一句指代同一对象。",
+              "你"
+            ],
+            [
+              "must be home",
+              "句子的核心要求，明确必须达成在家的状态。",
+              "必须在家、必须到家"
+            ],
+            [
+              "at half past ten.",
+              "时间状语，补充说明必须在家的具体时刻。",
+              "在十点半。"
+            ]
+          ],
+          "notes": [
+            [
+              "时间表达的介词搭配",
+              "表示具体钟点的标准表达通常在时间短语前加介词 at，比如 at half past ten；本句使用的是规范用法，日常非正式口语中偶有无 at 的省略场景，但初学阶段先掌握加 at 的形式。"
+            ]
+          ],
+          "structures": [
+            [
+              "You",
+              "第二人称主语",
+              "指代对话中的孩子，是被提出要求的对象。"
+            ],
+            [
+              "must be home",
+              "核心谓语，表达必须达到的状态",
+              "must 是表强制的情态动词，后接 be 动词原形；home 是地点副词作表语，意为“在家”。"
+            ],
+            [
+              "at half past ten",
+              "时间状语",
+              "用 at 引出具体时刻，说明必须达到在家状态的时间是十点半。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

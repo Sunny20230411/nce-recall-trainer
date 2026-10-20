@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，提点聚焦Poor的感叹用法与didn't want的否定对象两个易混点，信息关系、句法角色均正确，无自然度误判。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-091-sentence-018",
+      "parentEnglish": "Poor Ian! He didn't want to leave this house.",
+      "children": [
+        {
+          "english": "Poor Ian!",
+          "chinese": "可怜的伊恩！",
+          "tip": "Poor 放在人名前表达替对方感到遗憾或难过，不是在说他贫穷。口语里常先用这句短感叹带出共情，再接着说具体原因。",
+          "intent": "以简短感叹表达对伊恩处境的同情与遗憾。",
+          "parts": [
+            [
+              "Poor Ian!",
+              "独立感叹语，表达对伊恩的共情。",
+              "可怜的伊恩！"
+            ]
+          ],
+          "notes": [
+            [
+              "Poor 的感叹用法",
+              "Poor 置于人名前构成感叹语，用来表达说话人对对方处境的同情、遗憾或难过，不涉及对经济状况的评价。"
+            ]
+          ],
+          "structures": [
+            [
+              "Poor Ian!",
+              "独立感叹语",
+              "由形容词Poor加人名构成的简短感叹，不承担句子主干叙事功能，只传递情绪态度。"
+            ]
+          ]
+        },
+        {
+          "english": "He didn't want to leave this house.",
+          "chinese": "他不想离开这所房子。",
+          "tip": "这里否定的是“想要离开”的意愿，不是“离开”这个动作本身——伊恩最后还是走了，只是心里不愿意。说过去的意愿用 didn't want，别误认为过去不想就等于没离开。",
+          "intent": "说明伊恩过去并不愿意离开这所房子，用以解释前一句同情的缘由。",
+          "parts": [
+            [
+              "He",
+              "指代伊恩，作为句子的主语。",
+              "他"
+            ],
+            [
+              "didn't want",
+              "说明主语过去的意愿状态，否定“产生想要做某事的想法”。",
+              "不想"
+            ],
+            [
+              "to leave",
+              "说明想要做的具体动作，跟在want后作宾语。",
+              "离开"
+            ],
+            [
+              "this house.",
+              "补充离开的对象是双方都知晓的当前住所。",
+              "这所房子。"
+            ]
+          ],
+          "notes": [
+            [
+              "陈述句的否定结构",
+              "本句是一般过去时的否定陈述句，didn't放在主语He和实义动词want之间，帮助表达过去没有产生“想要离开”的意愿，不是对离开这个动作本身的否定。"
+            ],
+            [
+              "动词搭配的语义范围",
+              "want后面接to leave这个动词不定式，说明想要的具体内容是离开房子的行为；this house是leave的宾语，指代当下双方都知道的、伊恩住的那所房子。"
+            ]
+          ],
+          "structures": [
+            [
+              "He",
+              "句子主语",
+              "指代前文提到的伊恩，是整个意愿描述的主体。"
+            ],
+            [
+              "didn't want",
+              "谓语动词部分",
+              "didn't是did not的缩写，和实义动词want搭配，表示过去没有产生某种意愿。"
+            ],
+            [
+              "to leave this house",
+              "动词宾语",
+              "说明want的具体内容是离开这所房子，其中this house是及物动词leave的宾语。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

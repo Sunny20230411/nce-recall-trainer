@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分后两句边界准确，中文对应、信息关系、句法角色均正确；提点分别抓住转述来源与判断语气的表达思路，符合教学要求，无夸大或错误比较。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-099-sentence-011",
+      "parentEnglish": "The doctor says that he will come at once. I'm sure that you need an X-ray, Andy.",
+      "children": [
+        {
+          "english": "The doctor says that he will come at once.",
+          "chinese": "医生说他马上就来。",
+          "tip": "转述他人的消息时，把信息来源 The doctor says 放在句首，再用从句带出具体内容，能先让听者知道消息是谁说的。",
+          "intent": "向听话人转述医生的答复，说明医生会立刻赶来。",
+          "parts": [
+            [
+              "The doctor says",
+              "说明转述动作的发出者",
+              "医生说"
+            ],
+            [
+              "that he will come at once.",
+              "说明医生说出的具体内容",
+              "他马上就来"
+            ]
+          ],
+          "notes": [
+            [
+              "that引导宾语从句",
+              "that接在says后面，用来引导转述的内容，本身无实际词义，口语中常可省略。"
+            ],
+            [
+              "at once作时间说明",
+              "这是固定短语，用在will come后面说明动作的时间紧迫性，表示“立刻、马上”。"
+            ]
+          ],
+          "structures": [
+            [
+              "The doctor",
+              "主句主语",
+              "指接诊的医生，是发出“说”这个动作的主体。"
+            ],
+            [
+              "says",
+              "主句谓语",
+              "表示转述医生的陈述内容，后接that引导的宾语从句。"
+            ],
+            [
+              "that he will come at once",
+              "宾语从句",
+              "作says的宾语，转述医生说的具体内容，he指代前文的the doctor。"
+            ]
+          ]
+        },
+        {
+          "english": "I'm sure that you need an X-ray, Andy.",
+          "chinese": "安迪，我肯定你需要拍一张X光片。",
+          "tip": "表达个人判断时，用 I'm sure 先把确定语气摆出来，再用从句说出判断的内容，能让对方先感受到你对结论的把握程度。",
+          "intent": "向安迪表达说话人自己的判断，认为他需要拍X光片。",
+          "parts": [
+            [
+              "I'm sure",
+              "引出说话人做出判断的语气",
+              "我肯定"
+            ],
+            [
+              "that you need an X-ray,",
+              "说明“我肯定”的具体内容",
+              "你需要拍一张X光片"
+            ],
+            [
+              "Andy.",
+              "直接呼告听话对象",
+              "安迪"
+            ]
+          ],
+          "notes": [
+            [
+              "that引导形容词补语从句",
+              "that接在sure后面，用来说明确信的具体内容，本身无实际词义，常可省略。"
+            ],
+            [
+              "呼语Andy的位置",
+              "Andy放在句末逗号之后，是直接对听话人说话的称呼，不充当句子成分，读译时前置到句首符合中文习惯。"
+            ]
+          ],
+          "structures": [
+            [
+              "I'm sure",
+              "主句",
+              "表达说话人对后续内容的确定语气，后接that引导的从句说明确定的具体事项。"
+            ],
+            [
+              "that you need an X-ray",
+              "形容词补语从句",
+              "用来说明“我确信”的具体内容：Andy需要拍X光片。"
+            ],
+            [
+              "Andy",
+              "呼语",
+              "直接称呼对话对象，不参与句子主干结构。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

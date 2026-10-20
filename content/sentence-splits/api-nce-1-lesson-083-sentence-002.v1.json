@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，提点符合教学要求，信息关系、句法角色均正确，未夸大表达差异。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-083-sentence-002",
+      "parentEnglish": "Hello, Carol. Where are you going?",
+      "children": [
+        {
+          "english": "Hello, Carol.",
+          "chinese": "你好，卡罗尔。",
+          "tip": "熟人碰面先喊名字再加问候，是口语里自然的打招呼方式，先点明交流对象再开启对话。",
+          "intent": "向卡罗尔打招呼，开启对话。",
+          "parts": [
+            [
+              "Hello, Carol.",
+              "打招呼加称呼，独立成义。",
+              "你好，卡罗尔。"
+            ]
+          ],
+          "notes": [
+            [
+              "问候语加称呼的位置",
+              "Hello 是常用问候语，后面接称呼 Carol，中间用逗号隔开，用于见面时主动打招呼。"
+            ]
+          ],
+          "structures": [
+            [
+              "Hello, Carol.",
+              "问候语加呼语",
+              "对话开头的打招呼表达，Hello 是问候内容，Carol 是称呼对象，整体独立成句。"
+            ]
+          ]
+        },
+        {
+          "english": "Where are you going?",
+          "chinese": "你们要去哪里？",
+          "tip": "Where are you going 用现在进行时问计划好的去向，本身不限定远途或短途，只问对方接下来要去的地方。",
+          "intent": "询问对方一行人即将前往的目的地。",
+          "parts": [
+            [
+              "Where",
+              "疑问焦点，指向未知的目的地地点。",
+              "哪里"
+            ],
+            [
+              "are you going?",
+              "疑问句的主谓结构，表示计划中的出行。",
+              "你们要去？"
+            ]
+          ],
+          "notes": [
+            [
+              "现在进行时表计划安排",
+              "句中 are going 并非表示“正在走路”，而是结合语境表示已经计划好的行程，对应中文“要去”。"
+            ],
+            [
+              "特殊疑问句的词序",
+              "用 Where 提问地点时，Where 放在句首作地点状语，助动词 are 提到主语 you 之前，后接现在分词 going。"
+            ]
+          ],
+          "structures": [
+            [
+              "Where",
+              "疑问副词（地点状语）",
+              "引导特殊疑问句，在句中作地点状语，询问未知的目的地信息。"
+            ],
+            [
+              "are",
+              "助动词",
+              "帮助构成现在进行时的疑问结构，疑问句中放在主语 you 之前。"
+            ],
+            [
+              "you",
+              "主语",
+              "指对话的接收方卡罗尔一行人。"
+            ],
+            [
+              "going?",
+              "谓语核心",
+              "go 的现在分词形式，与 are 搭配构成现在进行时，表示“前往、出行”的动作。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

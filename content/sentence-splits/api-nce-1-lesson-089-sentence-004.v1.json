@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分清晰，子句翻译准确；提点分别落在回应语气与 come 的视角差异，贴合母语学习者易忽略的点；parts、notes、structures 均匹配对应子句，无跨句混杂。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-089-sentence-004",
+      "parentEnglish": "Yes, of course. Come in.",
+      "children": [
+        {
+          "english": "Yes, of course.",
+          "chinese": "当然可以。",
+          "tip": "先用 Yes 直接答应请求，再用 of course 加强语气，显得爽快没有顾虑，比单独说 Yes 更热情。",
+          "intent": "明确肯定对方的看房请求，传达完全同意的态度。",
+          "parts": [
+            [
+              "Yes, of course.",
+              "肯定回应对方的看房请求",
+              "当然可以。"
+            ]
+          ],
+          "notes": [
+            [
+              "对请求的肯定回应",
+              "Yes 直接回应上一句的 May I... 请求，of course 加强肯定语气，表示完全同意、没有问题。"
+            ]
+          ],
+          "structures": [
+            [
+              "Yes, of course.",
+              "肯定回应",
+              "Yes 表示同意，of course 加强语气，意为当然可以。"
+            ]
+          ]
+        },
+        {
+          "english": "Come in.",
+          "chinese": "请进。",
+          "tip": "come 的方向以屋内说话人为参照，邀请对方向自己这边走，很符合主人接待的视角。",
+          "intent": "以祈使句的形式发出邀请，示意对方进入屋内。",
+          "parts": [
+            [
+              "Come in.",
+              "发出邀请进入的指令",
+              "请进。"
+            ]
+          ],
+          "notes": [
+            [
+              "祈使句表邀请",
+              "Come in 是祈使句，默认省略了第二人称主语 you，直接发出进入邀请，用于日常接待场景。"
+            ]
+          ],
+          "structures": [
+            [
+              "Come in.",
+              "祈使句",
+              "邀请对方进入。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

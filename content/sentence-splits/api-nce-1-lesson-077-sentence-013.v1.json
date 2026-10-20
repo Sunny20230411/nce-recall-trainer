@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，子句内容、翻译、信息关系与句法分析均无误，提点聚焦实用表达差异与信息组织，符合教学标准。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-077-sentence-013",
+      "parentEnglish": "That's too late. Can the dentist see me now?",
+      "children": [
+        {
+          "english": "That's too late.",
+          "chinese": "那太晚了。",
+          "tip": "That 直接指代对方刚提的“下午两点”这个时间，不用重复整句话。too late 是说晚到没法接受，不是单纯描述时间很晚。",
+          "intent": "评价对方提出的下午两点就诊时间太晚，表明无法接受。",
+          "parts": [
+            [
+              "That's",
+              "指代前文的就诊提议，作主语和系动词",
+              "那是"
+            ],
+            [
+              "too late.",
+              "作表语，说明时间晚得不能接受",
+              "太晚了"
+            ]
+          ],
+          "notes": [
+            [
+              "评价时间的主系表结构",
+              "That's too late 中 That's 是 That is 的缩写，指代前面对方提议的下午两点就诊时间，too 修饰 late，直接表达这个时间不符合求诊者的急迫需求。"
+            ]
+          ],
+          "structures": [
+            [
+              "That's",
+              "主语加系动词缩写",
+              "That 指代前文提议的下午两点就诊时间，'s 是 is 的缩写，引出对该时间的评价。"
+            ],
+            [
+              "too late.",
+              "表语",
+              "too 是程度副词，修饰形容词 late，说明这个就诊时间太晚，求诊者无法接受。"
+            ]
+          ]
+        },
+        {
+          "english": "Can the dentist see me now?",
+          "chinese": "牙医现在能看我吗？",
+          "tip": "这里 see 是“接诊、看病”的意思，不是普通的看见。问能不能立刻看病时，把时间 now 放句末点明诉求是当下就诊，焦点落在牙医能不能做这件事上。",
+          "intent": "询问牙医当下能否为自己接诊看病，提出即时就诊的诉求。",
+          "parts": [
+            [
+              "Can",
+              "引导一般疑问句，询问可能性",
+              "能，可以"
+            ],
+            [
+              "the dentist",
+              "问句的主语，即接诊的人",
+              "牙医"
+            ],
+            [
+              "see me",
+              "谓语加宾语，表示接诊、诊治的动作",
+              "给我看病"
+            ],
+            [
+              "now?",
+              "时间，说明希望就诊的时间是当下",
+              "现在吗？"
+            ]
+          ],
+          "notes": [
+            [
+              "can 引导的一般疑问句",
+              "询问“牙医现在能否接诊我”时，把情态动词 Can 放在句首，主语是 the dentist，核心动作是 see me（接诊、给我看病），时间状语 now 放句末，点明询问的是当下的可能性。"
+            ]
+          ],
+          "structures": [
+            [
+              "Can",
+              "情态动词引导疑问",
+              "放在句首帮助构成一般疑问句，询问当下“能不能、是否可以”接诊。"
+            ],
+            [
+              "the dentist",
+              "疑问句主语",
+              "指诊所的牙医，是发出“接诊”这个动作的人。"
+            ],
+            [
+              "see me",
+              "谓语加宾语",
+              "这里 see 不是普通的“看见”，而是接诊、给病人诊治的意思，me 是接诊动作的对象。"
+            ],
+            [
+              "now?",
+              "时间状语",
+              "now 说明询问的是当下能不能立刻接诊，问号标示这是一般疑问句。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

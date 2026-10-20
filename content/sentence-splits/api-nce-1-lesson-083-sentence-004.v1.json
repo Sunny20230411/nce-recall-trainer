@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分与各项内容准确，提点抓住了 spend 与 be going to 的常见误解，符合不求讲全、只求点透的原则。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-083-sentence-004",
+      "parentEnglish": "Lucky you! Where are you going to spend your holidays this year, Carol?",
+      "children": [
+        {
+          "english": "Lucky you!",
+          "chinese": "你们真幸运！",
+          "tip": "Lucky you 是口语里常用的短感叹，直接把感受先说出来，带着羡慕的语气，不用补全 You are lucky 也自然。",
+          "intent": "对对方即将度假表示羡慕与感叹。",
+          "parts": [
+            [
+              "Lucky you!",
+              "表达羡慕的感叹，独立成义。",
+              "你们真幸运！"
+            ]
+          ],
+          "notes": [
+            [
+              "省略式感叹句",
+              "口语中常用“形容词 + 人称代词”构成省略感叹，省略了 You are，语气更简洁自然。"
+            ]
+          ],
+          "structures": [
+            [
+              "Lucky you!",
+              "感叹省略句",
+              "口语中用形容词 lucky 加 you，省略 (You are)，直接表达羡慕情绪。"
+            ]
+          ]
+        },
+        {
+          "english": "Where are you going to spend your holidays this year, Carol?",
+          "chinese": "卡罗尔，你们今年打算去哪儿度假？",
+          "tip": "spend your holidays 以假期这段时间为对象，重点在“怎么安排假期”，不要只把 spend 理解成花钱。be going to 带出的是已有打算的计划。",
+          "intent": "询问卡罗尔今年假期打算在哪里度过。",
+          "parts": [
+            [
+              "Where",
+              "疑问焦点，指向度假的地点。",
+              "在哪里"
+            ],
+            [
+              "are you going to spend",
+              "疑问句的谓语结构，表将来的打算。",
+              "你们打算度过"
+            ],
+            [
+              "your holidays",
+              "动词 spend 的宾语，指要度过的假期时光。",
+              "你们的假期"
+            ],
+            [
+              "this year,",
+              "时间状语，限定度假的时间。",
+              "今年"
+            ],
+            [
+              "Carol?",
+              "呼语，点明说话对象。",
+              "卡罗尔？"
+            ]
+          ],
+          "notes": [
+            [
+              "be going to 表打算",
+              "are you going to spend 不是“正在花费”，而是“打算度过”，be going to 后接动词原形 spend。"
+            ],
+            [
+              "呼语的位置",
+              "Carol 是对听话人的称呼，放在句末用逗号隔开，不充当句子的主语或宾语。"
+            ]
+          ],
+          "structures": [
+            [
+              "Where",
+              "疑问副词",
+              "引导特殊疑问句，对度假的地点进行提问。"
+            ],
+            [
+              "are you going to spend",
+              "谓语（表打算）",
+              "be going to + 动词原形 spend，表示将来的计划或打算。"
+            ],
+            [
+              "your holidays",
+              "动词宾语",
+              "spend 的宾语，表示要度过的假期时光。"
+            ],
+            [
+              "this year",
+              "时间状语",
+              "限定动作发生的时间是今年。"
+            ],
+            [
+              "Carol",
+              "呼语",
+              "说话对象的名字，起呼唤、点明对象的作用。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "子句拆分边界准确，中文译法对应自然；名师提点分别聚焦回应逻辑和 can 的语义区分，无无端比较，信息组织与结构拆解均符合要求，迁移点具体可用。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-081-sentence-013",
+      "parentEnglish": "It's nearly ready. We can have dinner at seven o'clock.",
+      "children": [
+        {
+          "english": "It's nearly ready.",
+          "chinese": "快好了。",
+          "tip": "这句是对上一句“饭做好了吗”的直接回应，用 It 指代晚饭，nearly 说明还差一点完成。中文也会先说“快好了”给个准信，再补具体时间。",
+          "intent": "回应对方关于晚饭准备进度的询问，告知晚饭即将准备完成。",
+          "parts": [
+            [
+              "It's nearly ready.",
+              "状态描述，回应上文关于晚饭是否准备好的提问，说明晚饭即将准备完成。",
+              "晚饭快准备好了。"
+            ]
+          ],
+          "notes": [
+            [
+              "It's nearly ready",
+              "It 在这里指代正在准备的晚饭，nearly 表示“几乎、差不多”，说明晚饭即将准备完成。"
+            ]
+          ],
+          "structures": [
+            [
+              "It's nearly ready.",
+              "状态判断",
+              "说明晚饭的当前准备进度，It 指代晚饭，nearly ready 表示快准备完成了。"
+            ]
+          ]
+        },
+        {
+          "english": "We can have dinner at seven o'clock.",
+          "chinese": "我们七点钟可以吃晚饭。",
+          "tip": "这里的 can 不是“会不会吃饭”的能力，而是“到时条件具备、可以安排”。说安排时先讲能做什么，再把具体钟点放在句末补足信息。",
+          "intent": "告知晚饭的具体安排时间，说明七点钟具备开饭的条件。",
+          "parts": [
+            [
+              "We can have dinner",
+              "动作主体和行为，说明具备开饭的条件。",
+              "我们可以吃晚饭。"
+            ],
+            [
+              "at seven o'clock.",
+              "时间补充，说明吃晚饭的具体时刻。",
+              "时间是七点钟。"
+            ]
+          ],
+          "notes": [
+            [
+              "时间表达位置",
+              "句末的 at seven o'clock 用介词 at 引出具体钟点，补充说明 have dinner 的时间。"
+            ],
+            [
+              "can 表条件",
+              "这里的 can 不表示能力，而是表示届时具备开饭的条件、可以做某事。"
+            ]
+          ],
+          "structures": [
+            [
+              "We",
+              "主语",
+              "指代对话双方，是吃晚饭这个动作的发出者。"
+            ],
+            [
+              "can have dinner",
+              "谓语部分",
+              "can 表示具备做某事的条件，have dinner 是固定的用餐表达。"
+            ],
+            [
+              "at seven o'clock",
+              "时间状语",
+              "说明吃晚饭的具体钟点，用介词 at 引出具体时刻。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正了子句parts格式，确保各子句英文拼回完整且标点正确，提点、注释和结构均准确合规。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-123-sentence-001",
+      "parentEnglish": "Look, Scott. This is a photograph I took during my trip to Australia.",
+      "children": [
+        {
+          "english": "Look, Scott.",
+          "chinese": "看，斯科特。",
+          "tip": "用 Look 加称呼先拉对方注意力，再展示物品，是口语里引人注意的常用开场。",
+          "intent": "招呼斯科特注意，引出后续要展示的内容。",
+          "parts": [
+            [
+              "Look,",
+              "祈使语，吸引注意",
+              "看"
+            ],
+            [
+              "Scott.",
+              "呼格",
+              "斯科特"
+            ]
+          ],
+          "notes": [
+            [
+              "呼语的位置",
+              "称呼Scott放在Look后面，用逗号隔开，明确是在对斯科特说话，同时吸引他的注意。"
+            ]
+          ],
+          "structures": [
+            [
+              "Look",
+              "呼告祈使语",
+              "吸引听话人的注意，引出后续要展示的事物。"
+            ],
+            [
+              "Scott",
+              "呼格",
+              "直接称呼对话对象斯科特，明确交流对象。"
+            ]
+          ]
+        },
+        {
+          "english": "This is a photograph I took during my trip to Australia.",
+          "chinese": "这是一张我在澳大利亚旅行期间拍的照片。",
+          "tip": "介绍照片时把拍摄经历直接接在 photograph 后面，不用另起一句，能马上让对方明白这张照片和旅行话题的关联。",
+          "intent": "向对方展示一张照片，并说明它的拍摄背景。",
+          "parts": [
+            [
+              "This is a photograph",
+              "主句主干，说明核心展示对象",
+              "这是一张照片"
+            ],
+            [
+              "I took during my trip to Australia.",
+              "定语从句，补充照片来历",
+              "我在澳大利亚旅行期间拍摄的"
+            ]
+          ],
+          "notes": [
+            [
+              "定语从句省略关系词的理解",
+              "photograph后省略了在从句中作宾语的关系代词that/which，完整结构为This is a photograph that/which I took…。"
+            ],
+            [
+              "take a photograph 的搭配",
+              "took此处意为“拍摄”，与photograph构成动宾搭配；during my trip to Australia是时间状语，修饰took，说明拍照的时段。"
+            ],
+            [
+              "to Australia 的修饰对象",
+              "trip to Australia表示“去澳大利亚的旅行”，介词to指向旅行的目的地，不表示“来自”。"
+            ]
+          ],
+          "structures": [
+            [
+              "This",
+              "主语",
+              "指代说话人此刻展示的照片，是描述的核心对象。"
+            ],
+            [
+              "is",
+              "系动词",
+              "连接主语This和表语a photograph，表示判断关系。"
+            ],
+            [
+              "a photograph",
+              "表语",
+              "说明主语的身份类别，即这是一张照片。"
+            ],
+            [
+              "I took during my trip to Australia",
+              "省略关系代词的限定性定语从句",
+              "修饰先行词a photograph，补充照片的拍摄者与拍摄时间；省略的that/which在从句中作took的宾语。"
+            ],
+            [
+              "during my trip to Australia",
+              "时间状语",
+              "修饰从句谓语took，说明拍照动作发生的时段。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，两句分别对应站台应答与路线补充；提点贴合车站指路的口语场景，突出实用表达习惯；信息关系、结构与注释均无误，未出现不当优劣判定。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-095-sentence-005",
+      "parentEnglish": "Platform Two. Over the bridge.",
+      "children": [
+        {
+          "english": "Platform Two.",
+          "chinese": "二号站台。",
+          "tip": "对方问哪个站台，直接报出 Platform Two 就是核心答案，不用补完整句子。车站问路时，用名词短语直接给目标编号，最干脆清楚。",
+          "intent": "直接回应站台编号的询问，给出核心答案。",
+          "parts": [
+            [
+              "Platform Two.",
+              "回应询问的核心答案，告知对应的站台编号。",
+              "二号站台。"
+            ]
+          ],
+          "notes": [
+            [
+              "口语应答省略",
+              "这是车站场景下的短句应答，直接说出站台编号，省略了“它是对应的站台”这类冗余表述，符合口语效率。"
+            ]
+          ],
+          "structures": [
+            [
+              "Platform Two.",
+              "名词短语（省略主系成分的独立应答句）",
+              "完整对应问句 Which platform，直接给出站台编号，承载完整应答功能。"
+            ]
+          ]
+        },
+        {
+          "english": "Over the bridge.",
+          "chinese": "过天桥。",
+          "tip": "指路时只说站台还不够，补一句 Over the bridge 是告诉对方怎么过去。这里用介词短语直接给路线关键节点，省略了 you need to go 之类的话，口语指路常这么说。",
+          "intent": "补充通往站台的路线指引，帮助对方找到位置。",
+          "parts": [
+            [
+              "Over the bridge.",
+              "补充说明通往该站台的路线指引。",
+              "过天桥。"
+            ]
+          ],
+          "notes": [
+            [
+              "路线指引省略",
+              "用介词短语 Over the bridge 直接指路，省略了“You need to go”之类的动作成分，符合口语指路时简洁明了的表达习惯。"
+            ]
+          ],
+          "structures": [
+            [
+              "Over the bridge.",
+              "介词短语（省略核心动词的简略指路表达）",
+              "Over 表示从上方穿过，the bridge 此处特指车站人行天桥，省略了 go across 这类动作动词，是口语指路的常见简略形式。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

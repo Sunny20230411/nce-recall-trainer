@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分后边界清晰，中文翻译贴合卡片留言语境；提点各有侧重，第一句讲确认类表达的适用场景，第二句区分信息量评价与写作评价并点明附加问句的语气，无重复；信息关系、结构和笔记均按子句对应归并，准确无误。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-101-sentence-012",
+      "parentEnglish": "Is that all? He doesn't say very much, does he?",
+      "children": [
+        {
+          "english": "Is that all?",
+          "chinese": "就这些吗？",
+          "tip": "Is that all? 用来确认眼前的内容是不是全部，all 指代刚才看到的卡片留言，不是泛指任何东西。读信、看清单时想确认“没了吗”都可以这么问。",
+          "intent": "确认 Jimmy 卡片上的留言内容是否已经全部读完。",
+          "parts": [
+            [
+              "Is that all?",
+              "对上文 Jimmy 卡片的留言内容提出确认疑问。",
+              "就这些了吗？"
+            ]
+          ],
+          "notes": [
+            [
+              "Is that all? 的疑问指向",
+              "Is 放在句首，让 that 是否等于 all 成为疑问焦点；all 指上文 Jimmy 寄来的卡片上写的全部内容，that 指代卡片上 Jimmy 的留言，不是泛指别的东西。"
+            ]
+          ],
+          "structures": [
+            [
+              "Is",
+              "系动词（疑问形式）",
+              "放在句首构成一般疑问，表示“是不是”。"
+            ],
+            [
+              "that",
+              "主语",
+              "指代上文 Jimmy 卡片上的留言内容。"
+            ],
+            [
+              "all?",
+              "表语",
+              "表示“全部内容”，和 Is that 一起构成“就这些吗”的疑问。"
+            ]
+          ]
+        },
+        {
+          "english": "He doesn't say very much, does he?",
+          "chinese": "他没写多少东西，是吧？",
+          "tip": "doesn't say very much 说的是卡片上的信息量少，不是评价写作水平。句尾 does he? 用附加问句邀请对方认同自己的观察，语气比直接问更委婉。",
+          "intent": "说出“吉米在卡片上写得少”的观察，并向对方确认这个判断。",
+          "parts": [
+            [
+              "He doesn't say very much,",
+              "先给出关于 Jimmy 写得多少的否定判断。",
+              "他没写多少东西，"
+            ],
+            [
+              "does he?",
+              "用句尾附加问句向对方确认上一句的判断。",
+              "是吧？"
+            ]
+          ],
+          "notes": [
+            [
+              "否定句加附加问句的确认功能",
+              "主句 He doesn't say very much 已表否定，句尾 does he? 用肯定形式呼应主句的助动词和主语 he，向对方确认“他在卡片上写得很少”这一判断。"
+            ]
+          ],
+          "structures": [
+            [
+              "He",
+              "主语",
+              "指 Jimmy。"
+            ],
+            [
+              "doesn't say",
+              "谓语（否定式）",
+              "doesn't 是 does not 的缩写，此处 say 指在卡片上写字，不是口头说话。"
+            ],
+            [
+              "very much",
+              "状语（修饰 say）",
+              "表示“很多”，和否定连用表示“不多”。"
+            ],
+            [
+              "does he?",
+              "附加问句",
+              "呼应主句的助动词 does 和主语 he，用肯定形式确认否定主句的内容，向对方寻求认同。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

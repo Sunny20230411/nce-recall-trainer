@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，子句信息完整；提点分别聚焦进度表达和确信语气的表达选择，无不当比较；parts、notes、structures均与对应子句匹配，语法说明准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-137-sentence-002",
+      "parentEnglish": "Yes, I've nearly finished, Julie. I'm sure we'll win something this week.",
+      "children": [
+        {
+          "english": "Yes, I've nearly finished, Julie.",
+          "chinese": "是的，我快填完了，朱莉。",
+          "tip": "用现在完成时加nearly回答进度，是在说“眼下已经接近做完”，不是已经全部完成。想表达“快好了”不用将来时，I've nearly finished就很自然。",
+          "intent": "回应对方的询问，说明足球彩票投注的进度接近完成。",
+          "parts": [
+            [
+              "Yes,",
+              "回应上文的询问，给出肯定答复。",
+              "是的，对"
+            ],
+            [
+              "I've nearly finished,",
+              "说明投注操作的进度状态。",
+              "我快完成了"
+            ],
+            [
+              "Julie.",
+              "称呼对话对象，点明交流的对象。",
+              "朱莉"
+            ]
+          ],
+          "notes": [
+            [
+              "现在完成时表临近完成",
+              "I've finished是现在完成时，搭配nearly表示动作已经接近结束，强调当前处于即将完成的状态，并不代表已经全部做完。"
+            ]
+          ],
+          "structures": [
+            [
+              "Yes,",
+              "肯定回应",
+              "用来直接回应上文Julie提出的询问，表明Brian正在做足球彩票投注这件事。"
+            ],
+            [
+              "I've nearly finished,",
+              "主谓结构",
+              "现在完成时的句子，主语是I，nearly修饰finished，说明投注的进度接近完成。"
+            ],
+            [
+              "Julie.",
+              "呼语",
+              "直接称呼对话对象Julie，点明说话的交流对象。"
+            ]
+          ]
+        },
+        {
+          "english": "I'm sure we'll win something this week.",
+          "chinese": "我确信我们这个星期会赢点什么。",
+          "tip": "I'm sure先亮出自己的判断语气，再说出确信的内容；这是说话人的主观信心，不等于中奖事实。想表达“我觉得肯定会……”都可以用I'm sure引出后续想法。",
+          "intent": "表达自己对本周足球彩票中奖的信心和预期。",
+          "parts": [
+            [
+              "I'm sure",
+              "引出自己接下来的判断与预期。",
+              "我确信"
+            ],
+            [
+              "we'll win something",
+              "说明确信的具体内容，说明预期的结果。",
+              "我们会赢点什么"
+            ],
+            [
+              "this week.",
+              "补充说明赢奖预期发生的时间范围。",
+              "这个星期"
+            ]
+          ],
+          "notes": [
+            [
+              "形容词后接that补语从句",
+              "I'm sure后省略了引导词that，后面接完整陈述从句，作形容词sure的补足语，表达确信的具体内容；this week是时间状语，放在从句末尾限定赢奖的时间。"
+            ],
+            [
+              "something与anything的用法倾向",
+              "something多用于肯定陈述句，表示“某样东西、一些（奖励）”；对比后文否定句we never win anything中使用anything，二者在肯定、否定语境中的搭配区别明确。"
+            ]
+          ],
+          "structures": [
+            [
+              "I'm sure",
+              "主句主系表结构",
+              "主语I，系动词am，形容词sure作表语，引出后面的that补语从句表达确信的具体判断。"
+            ],
+            [
+              "we'll win something this week.",
+              "形容词补足从句（省略that的that从句）",
+              "作形容词sure的补足成分，从句内是将来时，主语we，谓语will win，宾语something，时间状语this week说明赢奖的时间范围。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

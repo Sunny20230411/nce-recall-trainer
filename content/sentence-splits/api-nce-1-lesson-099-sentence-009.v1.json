@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "边界与内容准确，提点聚焦表达意图和语境义，无错误比较；拆分后各子句部件完整且拼回一致。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-099-sentence-009",
+      "parentEnglish": "I'm sorry, Lucy. I'm afraid that I can't get up.",
+      "children": [
+        {
+          "english": "I'm sorry, Lucy.",
+          "chinese": "对不起，露西。",
+          "tip": "I'm sorry 在这里不是为犯错道歉，是回应对方要帮忙、自己却没法配合起身的礼貌歉意。",
+          "intent": "向露西表达无法配合起身的歉意",
+          "parts": [
+            [
+              "I'm sorry,",
+              "致歉表达",
+              "对不起"
+            ],
+            [
+              "Lucy.",
+              "致歉的对象",
+              "露西。"
+            ]
+          ],
+          "notes": [
+            [
+              "I'm sorry 的用法",
+              "I'm sorry 可用于无法满足对方好意、配合对方行动时的礼貌致歉，不只用于承认错误。"
+            ]
+          ],
+          "structures": [
+            [
+              "I'm sorry",
+              "致歉表达",
+              "向对方表达歉意的固定说法，用于无法配合对方好意或提供帮助时的礼貌回应。"
+            ],
+            [
+              "Lucy",
+              "呼语",
+              "直接称呼对话对象，明确致歉的接收人。"
+            ]
+          ]
+        },
+        {
+          "english": "I'm afraid that I can't get up.",
+          "chinese": "恐怕我起不来。",
+          "tip": "I'm afraid 用来委婉引出不如愿的消息，这里 afraid 不是“害怕起身”，是缓和“起不来”这个让人担心的事实。can't get up 指此刻站不起身，不是通常说的起床。",
+          "intent": "委婉告知对方自己此刻无法起身的状况",
+          "parts": [
+            [
+              "I'm afraid",
+              "引导委婉告知的语气框架",
+              "恐怕"
+            ],
+            [
+              "that I can't get up.",
+              "说明无法起身的具体状况",
+              "我起不来。"
+            ]
+          ],
+          "notes": [
+            [
+              "that 引导的宾语从句",
+              "that 在 I'm afraid 后引导从句，说明担忧的具体内容，此处 that 口语中常可省略，不改变核心意思。"
+            ],
+            [
+              "get up 短语动词",
+              "get up 在这里表示“站起来、起身”，不是单纯表示起床，需要结合语境理解动作含义。"
+            ]
+          ],
+          "structures": [
+            [
+              "I'm afraid",
+              "委婉表达框架",
+              "用来委婉引出坏消息或不便情况，弱化语气。"
+            ],
+            [
+              "that I can't get up",
+              "宾语从句",
+              "作 afraid 的内容，说明“恐怕”的具体事由：自己没办法起身。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

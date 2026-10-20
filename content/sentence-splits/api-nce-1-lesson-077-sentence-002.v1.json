@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分合理，前一句聚焦问候交际顺序，后一句点透see the dentist的就诊含义与门诊请求思路；修正了原parts中“想要就诊”的词义偏差，信息与结构均准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-077-sentence-002",
+      "parentEnglish": "Good morning, nurse. I want to see the dentist, please.",
+      "children": [
+        {
+          "english": "Good morning, nurse.",
+          "chinese": "早上好，护士。",
+          "tip": "见面先问候再讲正事，是诊所这类服务场景的常见交际顺序；称呼放在问候后面，直接点明说话对象。",
+          "intent": "向诊所护士道早安，开启对话。",
+          "parts": [
+            [
+              "Good morning,",
+              "问候内容，表达早安的礼貌用语",
+              "早上好，"
+            ],
+            [
+              "nurse.",
+              "称呼对象，指明问候的人",
+              "护士。"
+            ]
+          ],
+          "notes": [
+            [
+              "问候语独立成块",
+              "“Good morning, nurse.” 是独立的日常问候，后面接诉求时不需要揉成一个长句，分开说更自然。"
+            ],
+            [
+              "称呼的位置",
+              "nurse是呼语，放在问候语后面，指明说话的对象是诊所的护士。"
+            ]
+          ],
+          "structures": [
+            [
+              "Good morning",
+              "问候表达",
+              "日常固定早安问候语，独立使用，不充当后续句子的语法成分。"
+            ],
+            [
+              "nurse",
+              "呼语",
+              "指明问候的对象是诊所的护士。"
+            ]
+          ]
+        },
+        {
+          "english": "I want to see the dentist, please.",
+          "chinese": "麻烦您，我想看牙医。",
+          "tip": "see the dentist 在这里是看牙就诊，不是单纯“看见牙医”。说求诊目的时直接讲 want to see + 专业人员，再加 please 柔化语气，就是很自然的门诊请求。",
+          "intent": "向护士说明就诊来意，礼貌提出看牙医的请求。",
+          "parts": [
+            [
+              "I",
+              "句子主语，指代说话的病人",
+              "我"
+            ],
+            [
+              "want to see",
+              "表达自身就诊意愿，衔接就诊对象",
+              "想要看"
+            ],
+            [
+              "the dentist,",
+              "就诊的具体对象",
+              "牙医，"
+            ],
+            [
+              "please.",
+              "柔化语气，体现礼貌请求的态度",
+              "麻烦您。"
+            ]
+          ],
+          "notes": [
+            [
+              "to see 表意愿内容",
+              "动词 want 表示“想要”，后面的 to see the dentist 是不定式短语，说明想要做的具体事。"
+            ],
+            [
+              "句末 please 的作用",
+              "please 放在句末，让原本直接的诉求语气变得礼貌，对应中文里客气的“麻烦、劳驾”的语气。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主语",
+              "指说话的病人本人。"
+            ],
+            [
+              "want",
+              "谓语动词",
+              "表达主语的意愿“想要”。"
+            ],
+            [
+              "to see the dentist",
+              "want 的宾语（不定式短语）",
+              "说明想要做出的具体动作是去看牙医，the dentist 是 see 的宾语。"
+            ],
+            [
+              "please",
+              "礼貌修饰语",
+              "放在句末软化语气，让请求更委婉客气。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

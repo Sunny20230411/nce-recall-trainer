@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界正确，各子句的中文翻译、提点、信息关系、结构和笔记均贴合原句语境，无夸大表达自然度或误判语法的问题，教学点聚焦回应习惯与国籍表达，符合要求。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-015-sentence-002",
+      "parentEnglish": "No, we aren't. We are Danish.",
+      "children": [
+        {
+          "english": "No, we aren't.",
+          "chinese": "不，我们不是。",
+          "tip": "针对对方“你们是瑞典人吗”的猜测先直接否定，用we承接问句里的you，说明说话人代表自己这一方作答。简略回答省掉重复的Swedish，是英语对话里避免啰嗦的常用方式。",
+          "intent": "对前文一般疑问句作出否定答复，确认己方不是瑞典人。",
+          "parts": [
+            [
+              "No,",
+              "直接给出否定答复",
+              "不"
+            ],
+            [
+              "we aren't.",
+              "补充说明否定的具体指代，回应前面的一般疑问句",
+              "我们不是"
+            ]
+          ],
+          "notes": [
+            [
+              "否定省略",
+              "we aren't 是对前文问句 Are you Swedish? 的简略否定回答，省略了重复的表语 Swedish，避免表达冗余。"
+            ]
+          ],
+          "structures": [
+            [
+              "No,",
+              "否定应答语",
+              "用于直接表明对前文问题的否定态度，开启答复内容"
+            ],
+            [
+              "we aren't.",
+              "否定简略分句",
+              "承接应答语，完整对应前文一般疑问句的否定答复，省略重复内容"
+            ]
+          ]
+        },
+        {
+          "english": "We are Danish.",
+          "chinese": "我们是丹麦人。",
+          "tip": "否定完错误猜测后，马上给出正确国籍，让回答完整清楚。Danish直接当表语用，不用额外加“人”的名词，是说国籍的常见简洁说法。",
+          "intent": "补充说明己方的实际国籍，给出准确的身份信息。",
+          "parts": [
+            [
+              "We are Danish.",
+              "补充说明我们的实际国籍身份",
+              "我们是丹麦人"
+            ]
+          ],
+          "notes": [
+            [
+              "国籍表达",
+              "We are Danish 直接用形容词指代国籍身份，不需要额外加表示“人”的名词，是场景里常用的简洁说明方式。"
+            ]
+          ],
+          "structures": [
+            [
+              "We are Danish.",
+              "主系表完整分句",
+              "明确说明主语的国籍属性，给出准确的补充信息"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

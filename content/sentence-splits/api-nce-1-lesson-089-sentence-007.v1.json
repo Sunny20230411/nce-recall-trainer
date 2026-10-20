@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，提点聚焦表达反应与指代策略，信息关系和句法角色均正确，无过度比较或错误结论。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-089-sentence-007",
+      "parentEnglish": "Twenty years! That's a long time.",
+      "children": [
+        {
+          "english": "Twenty years!",
+          "chinese": "二十年！",
+          "tip": "听到一个出乎意料的数量时，直接重复那个数字加单位，是英语里很自然的即时反应，用来带出惊讶或感慨。",
+          "intent": "重复上文刚提到的居住时长，表达惊讶与感慨。",
+          "parts": [
+            [
+              "Twenty years!",
+              "承接上文的感叹片段，引出后续评价。",
+              "二十年！"
+            ]
+          ],
+          "notes": [
+            [
+              "名词短语的感叹功能",
+              "Twenty years! 不是完整主谓句，而是承接上文重复刚听到的时长，用来抒发惊讶或感慨情绪。"
+            ]
+          ],
+          "structures": [
+            [
+              "Twenty years!",
+              "名词短语感叹片段",
+              "它不是完整主谓句，而是承接上文重复 twenty years，用来抒发惊讶或感慨情绪。"
+            ]
+          ]
+        },
+        {
+          "english": "That's a long time.",
+          "chinese": "那可真长。",
+          "tip": "用 That 指代刚说过的二十年，再接评价，信息落点自然落在“时间很长”这个判断上，不用重复整段时长。",
+          "intent": "对前面提到的二十年时长做出评价，呼应前面的感叹。",
+          "parts": [
+            [
+              "That's",
+              "指代前文的时长，引出评价的主语与系动词。",
+              "那是"
+            ],
+            [
+              "a long time.",
+              "表语，说明被指代的时长很长。",
+              "很长的一段时间。"
+            ]
+          ],
+          "notes": [
+            [
+              "That 的指代对象",
+              "That 指代前文刚提到的 twenty years，使评价直接指向被感叹的时长，避免重复完整表达。"
+            ]
+          ],
+          "structures": [
+            [
+              "That's",
+              "主语 + 系动词",
+              "That 是指示代词作主语，指代前文刚提到的 twenty years；is 是系动词，That's 是 that is 的缩写。"
+            ],
+            [
+              "a long time.",
+              "表语",
+              "a long time 是名词短语作表语，说明前面被指代的时长“很长”。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

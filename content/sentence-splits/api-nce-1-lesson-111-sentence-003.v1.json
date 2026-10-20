@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分正确，各字段边界清晰；提点聚焦表达意图与差异，无过度比较或错误规则，信息关系、句法角色准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-111-sentence-003",
+      "parentEnglish": "That's too expensive for us. We can't afford all that money.",
+      "children": [
+        {
+          "english": "That's too expensive for us.",
+          "chinese": "那对我们来说太贵了。",
+          "tip": "too expensive for us 把价格和自身承受能力绑定，不是说商品绝对昂贵。评价价格时，加 for sb 就能说明这是站在自己经济状况下的判断。",
+          "intent": "针对前文提到的商品价格，从说话人一方的经济能力出发作出“过高”的评价。",
+          "parts": [
+            [
+              "That's",
+              "指代前文提到的昂贵商品，开启评价",
+              "那是"
+            ],
+            [
+              "too expensive",
+              "描述商品价格过高",
+              "太贵了"
+            ],
+            [
+              "for us.",
+              "补充说明评价的适用对象",
+              "对我们来说"
+            ]
+          ],
+          "notes": [
+            [
+              "for us 界定评价范围",
+              "too expensive for us 中，for 引出评价的对象范围，意思是“就我们的经济能力而言太贵了”，并非商品本身绝对昂贵。"
+            ]
+          ],
+          "structures": [
+            [
+              "That's",
+              "主语与系动词",
+              "That 指代前文提到的价格为500英镑的最贵款商品，'s 是 is 的缩写，构成主系结构。"
+            ],
+            [
+              "too expensive",
+              "表语",
+              "形容词短语作表语，too 修饰 expensive，表示程度过高。"
+            ],
+            [
+              "for us.",
+              "状语",
+              "介词短语说明价格评价针对“我们”的经济状况。"
+            ]
+          ]
+        },
+        {
+          "english": "We can't afford all that money.",
+          "chinese": "我们付不起那么多钱。",
+          "tip": "can't afford 不是单纯觉得贵，而是明确说经济上承担不了这笔支出。说金额负担不起，比只说贵更直接地给出买不了的原因。",
+          "intent": "承接上一句的价格评价，明确说明说话人一方没有足够的经济能力支付该笔金额。",
+          "parts": [
+            [
+              "We",
+              "动作发出者",
+              "我们"
+            ],
+            [
+              "can't afford",
+              "表达没有经济能力完成支付",
+              "付不起"
+            ],
+            [
+              "all that money.",
+              "说明负担不起的具体金额对象",
+              "那么多钱"
+            ]
+          ],
+          "notes": [
+            [
+              "afford 的否定用法",
+              "can't afford 表示“负担不起、拿不出钱”，后面直接接要支付的金额 all that money，明确说明无法承担该价格。"
+            ]
+          ],
+          "structures": [
+            [
+              "We",
+              "主语",
+              "句子的主语，指说话人一方。"
+            ],
+            [
+              "can't afford",
+              "谓语（否定式）",
+              "情态动词的否定形式加实义动词，构成谓语，表示“负担不起”。"
+            ],
+            [
+              "all that money.",
+              "宾语",
+              "afford 的宾语，指代前文提到的五百英镑的全部费用。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

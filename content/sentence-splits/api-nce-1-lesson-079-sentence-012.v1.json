@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正了原短答中文过度补充（原译夹带啤酒葡萄酒，改为对应英文省略的简洁译法）；澄清have got时态表述准确性（原误写为现在完成时，调整为have got的口语用法）；提点突出表达选择与语境词义，子句边界拆分正确，结构与注释均匹配对应句子。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-079-sentence-012",
+      "parentEnglish": "No, we haven't. And I'm not going to get any!",
+      "children": [
+        {
+          "english": "No, we haven't.",
+          "chinese": "不，我们没有。",
+          "tip": "这是针对 Have we got... 提问的短答，省掉了双方都知道的 beer and wine，只留否定语气词和助动词，口语里最省力自然。",
+          "intent": "对前文关于是否有啤酒和葡萄酒的提问给出简短否定答复。",
+          "parts": [
+            [
+              "No, we haven't.",
+              "否定短答：直接回应前文的一般疑问句。",
+              "不，我们没有。"
+            ]
+          ],
+          "notes": [
+            [
+              "省略答语还原",
+              "No, we haven't. 是对前文Have we got any beer and wine?的简短否定回答，完整形式为We haven't got any beer and wine，口语中直接用have got的否定缩写回应，避免重复前文已提及的信息。"
+            ]
+          ],
+          "structures": [
+            [
+              "No,",
+              "否定应答叹词",
+              "以简短语气词直接承接前文的一般疑问句，给出否定回应的态度。"
+            ],
+            [
+              "we haven't.",
+              "省略谓语的否定分句",
+              "省略了前文出现过的got any beer and wine，完整表意是我们没有任何啤酒和葡萄酒了。"
+            ]
+          ]
+        },
+        {
+          "english": "And I'm not going to get any!",
+          "chinese": "而且我也不打算去买！",
+          "tip": "And 顺着上一句的否定再补一层：不仅现在没有，这次也不打算买。get 在采购语境就是“买来、置办”的意思，不用硬译成“拿到”。",
+          "intent": "在否定现有库存的基础上，进一步说明自己没有采购酒类的打算。",
+          "parts": [
+            [
+              "And",
+              "递进连接：承接前一句的否定，补充新的否定信息。",
+              "而且"
+            ],
+            [
+              "I'm not going to get any!",
+              "核心信息：说明当下不打算购买的计划。",
+              "我也不打算去买！"
+            ]
+          ],
+          "notes": [
+            [
+              "be going to表计划",
+              "I'm not going to get any使用be going to结构表示主语当下明确的打算，get指代前文提到的buy/obtain beer and wine，any指代前文的beer and wine，避免重复赘述。"
+            ]
+          ],
+          "structures": [
+            [
+              "And",
+              "并列连词",
+              "连接前后两个独立分句，补充进一层的否定计划信息，在本句中起到递进补充的作用。"
+            ],
+            [
+              "I'm not going to get any!",
+              "一般将来时否定分句",
+              "使用be going to结构表达主语的计划打算，not对计划行为进行否定，any指代前文提到的beer and wine。"
+            ],
+            [
+              "any",
+              "不定代词",
+              "在分句中作get的宾语，指代前文提到的beer and wine，属于语境省略后的指代用法。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

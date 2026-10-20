@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界清晰，提点分别对应引语语序和go back to的实用用法，无夸大表达顺序优劣的问题，结构与信息分配均准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-119-sentence-015",
+      "parentEnglish": "'Nothing, Henry,' George said and smiled. 'Go back to sleep.'",
+      "children": [
+        {
+          "english": "'Nothing, Henry,' George said and smiled.",
+          "chinese": "“没什么，亨利，”乔治笑着说。",
+          "tip": "直接引语放句首时，把回答内容先抛出来，对方一听就知道结论，再补说话人和伴随动作，符合口语先给重点的习惯。",
+          "intent": "引述乔治对亨利的简短回答，并补充说话时的神态。",
+          "parts": [
+            [
+              "'Nothing, Henry,'",
+              "直接引语，是乔治对亨利询问的回答内容。",
+              "“没什么，亨利，”"
+            ],
+            [
+              "George said and smiled.",
+              "引述分句，说明说话人及伴随动作。",
+              "乔治笑着说。"
+            ]
+          ],
+          "notes": [
+            [
+              "引述分句放在直接引语后",
+              "直接引语 'Nothing, Henry,' 在前，George said and smiled 在后；said 是引述动词，and smiled 是伴随动作。"
+            ]
+          ],
+          "structures": [
+            [
+              "'Nothing, Henry,'",
+              "直接引语",
+              "George 回答 Henry 的问句，表示没有什么事。"
+            ],
+            [
+              "George",
+              "主语",
+              "引述分句的主语，指说话人 George。"
+            ],
+            [
+              "said and smiled.",
+              "引述谓语与伴随动作",
+              "said 引出直接引语，and smiled 表示 George 说话时同时微笑。"
+            ]
+          ]
+        },
+        {
+          "english": "'Go back to sleep.'",
+          "chinese": "“回去睡吧。”",
+          "tip": "go back to 后面接名词性的活动，表示回到之前正在做的事；这里 sleep 是名词，指睡觉这件事，不是动词。想让别人接着做之前的事，就可以用 go back to 加相应活动。",
+          "intent": "乔治让亨利返回并继续睡觉，给出明确指令。",
+          "parts": [
+            [
+              "'Go back to sleep.'",
+              "直接引语，是乔治对亨利发出的指令。",
+              "“回去睡吧。”"
+            ]
+          ],
+          "notes": [
+            [
+              "sleep 在 go back to 后作名词",
+              "Go back to sleep 中 sleep 表示睡眠状态，不是动词；to 是介词，表示回到睡觉这件事。"
+            ]
+          ],
+          "structures": [
+            [
+              "'Go back to sleep.'",
+              "直接引语/祈使句",
+              "George 对 Henry 发出的指令，让他回去继续睡觉。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

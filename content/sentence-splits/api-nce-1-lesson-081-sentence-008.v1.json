@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分合理，各子句内容完整准确；提点突出表达选择，notes无缺失，结构与信息关系对应正确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-081-sentence-008",
+      "parentEnglish": "Hello, Sam. Have a cigarette.",
+      "children": [
+        {
+          "english": "Hello, Sam.",
+          "chinese": "你好，萨姆。",
+          "tip": "见面时先打招呼再提具体事，是很自然的开场节奏。叫对方名字能快速拉近距离，也表明招呼的对象。",
+          "intent": "向萨姆打招呼，开启对话。",
+          "parts": [
+            [
+              "Hello, Sam.",
+              "日常见面打招呼的问候语，直接点明打招呼的对象是萨姆",
+              "你好，萨姆。"
+            ]
+          ],
+          "notes": [
+            [
+              "问候语的使用",
+              "Hello 是常见的见面问候，后接对方名字可以明确招呼的对象，语气亲切自然。"
+            ]
+          ],
+          "structures": [
+            [
+              "Hello, Sam.",
+              "呼语与问候",
+              "用Hello和对方名字直接打招呼，是见面问候。"
+            ]
+          ]
+        },
+        {
+          "english": "Have a cigarette.",
+          "chinese": "抽支烟吧。",
+          "tip": "招待别人取用东西常用 Have + 名词，这里不是在问“有没有”，而是发出邀请。招待饮食也可以说 Have some coffee。",
+          "intent": "邀请萨姆抽一支烟，表达招待的好意。",
+          "parts": [
+            [
+              "Have a cigarette.",
+              "以动词原形Have开头的招待祈使句，向对方发出抽香烟的邀请",
+              "抽支烟吧。"
+            ]
+          ],
+          "notes": [
+            [
+              "祈使句的表意",
+              "Have在这里是日常招待用语，不是现在完成时的构成；Have a cigarette 表示请对方抽烟，而不是陈述“拥有”这个事实。"
+            ]
+          ],
+          "structures": [
+            [
+              "Have a cigarette.",
+              "祈使句",
+              "动词原形Have开头，向听话人发出邀请或建议；省略了第二人称you。"
+            ],
+            [
+              "a cigarette",
+              "Have的宾语",
+              "a修饰cigarette，表示“一支香烟”，是Have涉及的具体事物。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

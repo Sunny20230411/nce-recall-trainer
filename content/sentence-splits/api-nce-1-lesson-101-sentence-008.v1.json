@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分后两句边界准确，中文对应与结构分析无误；提点分别点明称呼位置与简称解释的口语表达习惯，教学点清晰，无不当比较。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-101-sentence-008",
+      "parentEnglish": "The Y.H.A., Mum. The Youth Hostels Association.",
+      "children": [
+        {
+          "english": "The Y.H.A., Mum.",
+          "chinese": "青年旅舍协会，妈妈。",
+          "tip": "口语里先说出缩写再带上称呼Mum，是日常对话中回应家人提问的自然方式，称呼不用一定放在句首。",
+          "intent": "回应妈妈的疑问，先给出机构的缩写称呼。",
+          "parts": [
+            [
+              "The Y.H.A.,",
+              "回应的核心内容",
+              "青年旅舍协会（缩写）"
+            ],
+            [
+              "Mum.",
+              "补充对话的听话对象",
+              "妈妈"
+            ]
+          ],
+          "notes": [
+            [
+              "称呼语的位置",
+              "Mum放在句末，是口语对话中对听话人的称呼，读起来自然亲切，不影响核心信息的表达。"
+            ]
+          ],
+          "structures": [
+            [
+              "The Y.H.A.",
+              "专有机构缩写",
+              "是Youth Hostels Association（青年旅舍协会）的缩写，单独成句用来回应妈妈的提问。"
+            ],
+            [
+              "Mum",
+              "称呼语",
+              "放在句末，是口语对话中对妈妈的称呼。"
+            ]
+          ]
+        },
+        {
+          "english": "The Youth Hostels Association.",
+          "chinese": "青年旅舍协会。",
+          "tip": "对方没听懂缩写时，紧跟一句补出全名，是口语里解释简称的常用办法，比重复缩写更直接。",
+          "intent": "补充解释前面缩写的完整名称，让妈妈听懂含义。",
+          "parts": [
+            [
+              "The Youth Hostels Association.",
+              "补充解释前面缩写的完整含义",
+              "青年旅舍协会（全称）"
+            ]
+          ],
+          "notes": [
+            [
+              "名词短语单独成句",
+              "口语里可以只用一个名词短语成句，用来补充解释前面提到的缩写，不需要补全主谓结构。"
+            ]
+          ],
+          "structures": [
+            [
+              "The Youth Hostels Association",
+              "机构专有名词短语",
+              "是前面Y.H.A.的完整正式名称，用来向妈妈解释缩写的具体含义。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

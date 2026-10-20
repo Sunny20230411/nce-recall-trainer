@@ -2413,10 +2413,16 @@
         background-color: #0a1220;
       }
     }
+    @media (max-width: 360px) {
+      .home-course-meta { gap: 4px; font-size: 12px; }
+      .home-course-meta span { gap: 4px; }
+      .home-course-meta img { width: 12px; height: 12px; }
+    }
   </style>
   <link rel="stylesheet" href="ai-chat.css">
   <link rel="stylesheet" href="understanding-view.css">
   <script src="understanding-content.js"></script>
+  <script src="sentence-splits.js"></script>
   <script src="assets/british-phonetics-data.js"></script>
   <script src="assets/british-english.js"></script>
   <script src="understanding-view.js"></script>
@@ -6842,6 +6848,7 @@ window.NCE_ZH_OVERRIDES = [
         importNote: () => `已写入第二册英文原文，共 <strong>${nce2Lessons.length}</strong> 课、<strong>${nce2Lessons.reduce((sum, lesson) => sum + lesson.sentences.length, 0)}</strong> 句。中文提示、音标、词性、句子结构和三层提示已生成并通过内容校验。`
       }
     };
+    for (const course of Object.values(courseCatalog)) window.applyReviewedSentenceSplits(course.id, course.lessons);
     let activeCourse = courseCatalog.nce1;
     lessons = activeCourse.lessons;
 
@@ -6904,7 +6911,7 @@ window.NCE_ZH_OVERRIDES = [
     }
 
     function learningRecordFor(lesson) {
-      return { ...defaultLearningRecord(lesson), ...(learningRecords[lesson.id] || {}) };
+      return window.migrateSentenceSplitLearningRecord({ ...defaultLearningRecord(lesson), ...(learningRecords[lesson.id] || {}) }, lesson);
     }
 
     function courseHomeStats(course) {
@@ -7193,9 +7200,9 @@ window.NCE_ZH_OVERRIDES = [
           <div class="history-mistake-copy">
             <strong>${escapeHtml(item.sentence.english)}</strong>
             <span>${escapeHtml(item.sentence.chinese)}</span>
-            <span>上次输入：${escapeHtml(item.lastInput || "空提交")}</span>
+            <span>${item.inheritedFromParent ? '上次整题输入' : '上次输入'}：${escapeHtml(item.lastInput || "空提交")}</span>
           </div>
-          <span class="history-mistake-meta">错 ${Math.max(1, Number(item.wrongCount) || 1)} 次<br>${formatLastStudy(item.lastWrongAt)}</span>
+          <span class="history-mistake-meta">${item.inheritedFromParent ? '原题错' : '错'} ${Math.max(1, Number(item.wrongCount) || 1)} 次${!item.inheritedFromParent && item.inheritedWrongCount ? `<br>原题 ${Number(item.inheritedWrongCount)} 次` : ''}<br>${formatLastStudy(item.lastWrongAt)}</span>
         </div>
       `).join("");
 
@@ -7423,7 +7430,9 @@ window.NCE_ZH_OVERRIDES = [
         const entry = {
           english: state.current.sentence.english,
           chinese: state.current.sentence.chinese,
-          wrongCount: index >= 0 ? (wrongSentences[index].wrongCount || 0) + 1 : 1,
+          inheritedFromParent: false,
+          wrongCount: index >= 0 && !wrongSentences[index].inheritedFromParent ? (wrongSentences[index].wrongCount || 0) + 1 : 1,
+          inheritedWrongCount: index >= 0 ? (wrongSentences[index].inheritedFromParent ? wrongSentences[index].wrongCount : wrongSentences[index].inheritedWrongCount) || 0 : 0,
           lastInput: state.current.lastInput,
           lastWrongAt: new Date().toISOString()
         };
@@ -7475,6 +7484,7 @@ window.NCE_ZH_OVERRIDES = [
         sessionCorrectCount: state.sessionCorrectCount,
         learningRecordSnapshot: state.sessionRecordSnapshot,
         practiceEnglish: state.practiceSentences.map((sentence) => sentence.english),
+        contentRevision: state.selectedLesson.boundaryRevision || 4,
         results: state.results.map(serializeResult)
       };
       localStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(payload));
@@ -7485,8 +7495,18 @@ window.NCE_ZH_OVERRIDES = [
       try {
         const raw = localStorage.getItem(SESSION_STORAGE_KEY);
         if (!raw) return false;
-        const saved = JSON.parse(raw);
+        let saved = JSON.parse(raw);
         if (saved.lessonId !== state.selectedLesson.id || !Array.isArray(saved.results)) return false;
+        const migrated = window.migrateSentenceSplitSession(saved, state.selectedLesson);
+        if (migrated !== saved) {
+          saved = migrated;
+          try {
+            localStorage.setItem(`${SESSION_STORAGE_KEY}_before_boundary_r5`, raw);
+            localStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(saved));
+          } catch (error) {
+            // Continue restoring in memory when browser storage is unavailable.
+          }
+        }
         const sentenceByEnglish = new Map(sentences.map((sentence) => [sentence.english, sentence]));
         const restoredResults = saved.results
           .map((item) => {
@@ -7663,9 +7683,10 @@ window.NCE_ZH_OVERRIDES = [
         if (loading) void loading.then(() => {
           if (state.current?.sentence === sentence && state.selectedCourseId === courseId && state.selectedLesson.id === lessonId && state.phase === "correct") renderWordSlots();
         }).catch(() => {});
+        const exactIndex = state.selectedLesson.sentences.findIndex(item => item === sentence || (sentence.id && item.id === sentence.id));
         $("wordSlots").innerHTML = window.renderSentenceUnderstanding({
           sentence, courseId: state.selectedCourseId, lessonId: state.selectedLesson.id,
-          sentenceOrder: state.selectedLesson.sentences.findIndex(item => item === sentence || (sentence.id && item.id === sentence.id) || item.english === sentence.english) + 1,
+          sentenceOrder: (exactIndex >= 0 ? exactIndex : state.selectedLesson.sentences.findIndex(item => item.english === sentence.english)) + 1,
           legacyAnalysis: sentenceAnalysisFor(sentence),
           manualStructure: state.selectedCourseId === "nce1" && state.selectedLesson.id === "lesson-3",
           roleLabels: structureRoleConfig
@@ -8028,7 +8049,7 @@ window.NCE_ZH_OVERRIDES = [
     function phoneticFor(word, index) {
       const key = String(word).toLowerCase().replace(/[^a-z']/g, "").replace(/'s$/, "").replace(/^mr$/, "mister");
       if (!key) return "";
-      return window.britishPhoneticFor(word, ipaMap[key] || '', state.current?.sentence?.english || '', index);
+      return window.britishPhoneticFor(word, ipaMap[key] || '', state.current?.sentence?.parentEnglish || state.current?.sentence?.english || '', (state.current?.sentence?.tokenOffset || 0) + (index || 0));
     }
 
     const wordInfoMap = {
@@ -8295,7 +8316,7 @@ window.NCE_ZH_OVERRIDES = [
       const lineWidth = Math.max(30, Math.min(210, Array.from(String(token.displayText || token.text || "")).length * 18 + 10));
       return `
         <div class="analysis-word pos-${escapeHtml(token.posFamily || "particle")}">
-          <span class="analysis-ipa">${escapeHtml(window.britishPhoneticFor(token.displayText || token.text, token.phonetic || "", state.current?.sentence?.english || "", token.displayIndex))}</span>
+          <span class="analysis-ipa">${escapeHtml(window.britishPhoneticFor(token.displayText || token.text, token.phonetic || "", state.current?.sentence?.parentEnglish || state.current?.sentence?.english || "", (state.current?.sentence?.tokenOffset || 0) + token.displayIndex))}</span>
           <span class="analysis-word-main">
             <span>${escapeHtml(token.displayText || token.text || "")}</span>
             ${token.punctuation ? `<span class="analysis-punctuation">${escapeHtml(token.punctuation)}</span>` : ""}
@@ -8363,7 +8384,7 @@ window.NCE_ZH_OVERRIDES = [
         <div class="answer-card" aria-label="正确答案解析">
           ${analysis.tokens.map((token) => `
               <div class="answer-word">
-                <span class="slot-ipa">${escapeHtml(window.britishPhoneticFor(token.displayText || token.text, token.phonetic || "", sentence.english, token.displayIndex))}</span>
+                <span class="slot-ipa">${escapeHtml(window.britishPhoneticFor(token.displayText || token.text, token.phonetic || "", sentence.parentEnglish || sentence.english, (sentence.tokenOffset || 0) + token.displayIndex))}</span>
                 <span class="answer-word-text">${escapeHtml(token.displayText || "")}${escapeHtml(token.punctuation || "")}</span>
                 <span class="slot-meta">
                   ${token.posLabel ? `<span class="pos-tag">${escapeHtml(token.posLabel)}</span>` : ""}

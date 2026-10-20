@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "已修正提点中无依据的比较表述，将“比直接说位置更清晰”调整为客观说明特征描述的作用，其余内容准确符合要求。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-015-sentence-009",
+      "parentEnglish": "Our cases are brown. Here they are.",
+      "children": [
+        {
+          "english": "Our cases are brown.",
+          "chinese": "我们的箱子是棕色的。",
+          "tip": "先给出箱子的颜色特征，方便对方在一堆箱子里快速对应辨认，而不是只做否定。遇到需要指认物品的场景，先说区分特征能帮对方快速锁定目标。",
+          "intent": "说明己方箱子的颜色，提供辨认特征以区分其他箱子。",
+          "parts": [
+            [
+              "Our cases",
+              "描述被说明颜色的对象",
+              "我们的箱子"
+            ],
+            [
+              "are brown.",
+              "补充说明箱子的外观颜色属性",
+              "是棕色的。"
+            ]
+          ],
+          "notes": [
+            [
+              "颜色描述的作用",
+              "在需要辨认物品的场景里，先说明颜色等外在特征，能帮助对方快速锁定目标，比单纯否定更有信息量。"
+            ]
+          ],
+          "structures": [
+            [
+              "Our cases are brown",
+              "主系表完整陈述句",
+              "核心作用是告知听话人己方箱子的颜色特征，方便后续和其他箱子做区分辨认。"
+            ]
+          ]
+        },
+        {
+          "english": "Here they are.",
+          "chinese": "它们在这儿。",
+          "tip": "把Here放句首突出方位指向，they直接承接前面的our cases，不用再重复名词。指认近旁物品时可以用“Here + 代词 + be”的短句，自然干脆。",
+          "intent": "指出箱子的具体位置，完成指认。",
+          "parts": [
+            [
+              "Here",
+              "指出所在的具体方位",
+              "这里"
+            ],
+            [
+              "they are.",
+              "指代前面提到的箱子，说明其所处位置",
+              "它们在。"
+            ]
+          ],
+          "notes": [
+            [
+              "Here前置的语序特点",
+              "为了突出方位信息Here，把它放到句首，再跟上主语代词和系动词are，直接传递“东西就在这里”的指向，主语是代词时不用完全倒装。"
+            ],
+            [
+              "指代关系说明",
+              "句中的they直接复指前一句提到的our cases，两句描述对象一致，读者能立刻明白方位指向的是前面说的棕色箱子。"
+            ]
+          ],
+          "structures": [
+            [
+              "Here they are",
+              "方位提示常用表达",
+              "这是日常场景里指出物品位置的固定短句，不用逐词硬译成“这里它们是”，自然对应中文里“它们在这儿”的指向功能。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

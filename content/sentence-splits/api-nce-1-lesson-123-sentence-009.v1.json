@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界清晰，两个子句的教学点各有侧重；提点从交际意图出发，点出口语快速指认的习惯和offered的语义边界，无机械重复；信息关系、句法角色及笔记均准确对应各自子句，未出现跨句混淆。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-123-sentence-009",
+      "parentEnglish": "Ah yes. The one who offered you a job in Australia.",
+      "children": [
+        {
+          "english": "Ah yes.",
+          "chinese": "啊，对了。",
+          "tip": "Ah yes 不是简单的“是的”，而是在对话里表示忽然想起了对方说的人或事，带一点恍然的语气，常用来引出后面补充的回忆内容。",
+          "intent": "用短促的应答表达自己终于想起了前文提到的对象，为后续的身份说明做铺垫。",
+          "parts": [
+            [
+              "Ah yes.",
+              "感叹式应答，表达恍然想起的反应。",
+              "啊，对了。"
+            ]
+          ],
+          "notes": [
+            [
+              "口语中的Ah yes",
+              "当对方提醒了一件事或一个人，你过了一下才想起来，就可以说Ah yes，相当于中文的“啊对了/哦是啊”，比单纯的yes多了一层“刚刚想起”的意味。"
+            ]
+          ],
+          "structures": [
+            [
+              "Ah yes.",
+              "感叹应答语",
+              "由语气词Ah和肯定词yes组成，是日常对话中表示恍然记起的短句。"
+            ]
+          ]
+        },
+        {
+          "english": "The one who offered you a job in Australia.",
+          "chinese": "就是那个在澳大利亚给你提供一份工作的人。",
+          "tip": "这里不说完整的He is the one...，直接用The one who...接线索，是口语里快速指认的习惯：先把人接住，再用定语从句补出识别特征。offered只表示过去提供过，不涉及对方有没有接受。",
+          "intent": "通过一个具体的过往事件，点明自己想起的那个人是谁，确认与对方的记忆一致。",
+          "parts": [
+            [
+              "The one",
+              "指代前文提到的男士，是被修饰的核心对象。",
+              "那个人"
+            ],
+            [
+              "who offered you a job",
+              "修饰the one的定语从句，说明此人的相关行为。",
+              "给你提供了一份工作的"
+            ],
+            [
+              "in Australia.",
+              "地点状语，补充提供工作这件事发生的地点。",
+              "在澳大利亚。"
+            ]
+          ],
+          "notes": [
+            [
+              "省略句的日常用法",
+              "结合上下文完整表达可以是That is the one who offered you a job in Australia.，口语中省略重复的主语和be动词，直接用“The one who...”指认，更符合对话的快速反应。"
+            ],
+            [
+              "who引导的定语从句",
+              "先行词the one指代人，所以用who引导限制性定语从句；who在从句中作主语，不能省略。"
+            ],
+            [
+              "双宾语结构与地点状语",
+              "offer后面接双宾语：you是间接宾语，指动作的对象；a job是直接宾语，指提供的事物。in Australia是地点状语，修饰从句谓语offered。"
+            ]
+          ],
+          "structures": [
+            [
+              "The one",
+              "先行词（被定语从句修饰的核心）",
+              "指代前文提到的那位男士，是后面定语从句所限定的对象。"
+            ],
+            [
+              "who offered you a job in Australia.",
+              "限制性定语从句",
+              "紧跟在the one后面，用来限定说明这是哪一位，让对方清楚指认的对象。"
+            ],
+            [
+              "who",
+              "关系代词（从句主语）",
+              "指代先行词the one，同时在定语从句中充当主语，连接先行词和从句内容。"
+            ],
+            [
+              "offered",
+              "从句谓语动词",
+              "用一般过去时，表示“提供工作”是过去发生的动作。"
+            ],
+            [
+              "you",
+              "间接宾语",
+              "是offer动作的指向对象，也就是被提供工作的人。"
+            ],
+            [
+              "a job",
+              "直接宾语",
+              "是offer动作的直接内容，即被提供的事物。"
+            ],
+            [
+              "in Australia.",
+              "地点状语",
+              "修饰从句谓语动词offered，说明提供工作这件事发生的地点。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

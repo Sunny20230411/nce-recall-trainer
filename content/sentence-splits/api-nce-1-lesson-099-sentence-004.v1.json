@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分合理，中英对应准确，提点突出答语省略规则和表达语气差异，结构与知识点标注准确，无错误表述。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-099-sentence-004",
+      "parentEnglish": "Yes, I have. I think that I've hurt my back.",
+      "children": [
+        {
+          "english": "Yes, I have.",
+          "chinese": "是的，我受伤了。",
+          "tip": "对方用 Have you hurt yourself? 提问，回答时保留助动词 have 就够了，不用把 hurt yourself 再说一遍。这种简略答语既清楚又自然。",
+          "intent": "用现在完成时的简略肯定形式，回应前文关于是否受伤的提问。",
+          "parts": [
+            [
+              "Yes, I have.",
+              "用现在完成时的简略肯定形式，回应前文的提问 Have you hurt yourself?",
+              "是的，我（受伤）了。"
+            ]
+          ],
+          "notes": [
+            [
+              "Yes, I have. 的简短回答",
+              "have 是助动词，保留它就能完成现在完成时的简略回答，不必重复完整问句。"
+            ]
+          ],
+          "structures": [
+            [
+              "Yes,",
+              "肯定答语",
+              "用 Yes 对前面的一般疑问句作出肯定回应。"
+            ],
+            [
+              "I",
+              "简略回答中的主语",
+              "指说话人本人，承接前面提问中的 you。"
+            ],
+            [
+              "have.",
+              "现在完成时简略回答的助动词",
+              "完整回答为 I have hurt myself；此处省略重复的 hurt myself，只保留主语和助动词 have。"
+            ]
+          ]
+        },
+        {
+          "english": "I think that I've hurt my back.",
+          "chinese": "我想我伤到背了。",
+          "tip": "先说 I think 再讲伤情，是在留有余地——表示这是自己的判断，还没完全确定。说受伤用 I've hurt my back，说现在背疼则用 My back hurts，一个侧重受伤经过，一个侧重当下感觉。",
+          "intent": "引出个人判断，说明自己认为伤到了背部。",
+          "parts": [
+            [
+              "I think",
+              "主句，引出后面的判断内容",
+              "我想"
+            ],
+            [
+              "that I've hurt my back.",
+              "由 that 引导的宾语从句，补充说明 think 的具体内容",
+              "我伤到背了。"
+            ]
+          ],
+          "notes": [
+            [
+              "that 从句说明“想”的内容",
+              "that I've hurt my back 是 think 的宾语从句；that 在口语中常可省略，但语法上标示后面是陈述内容。"
+            ],
+            [
+              "I've hurt 仍是现在完成时",
+              "have + hurt 的过去分词表示已经发生并对现在有影响的伤情；hurt 形式不变。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主句主语",
+              "指说话人本人。"
+            ],
+            [
+              "think",
+              "主句谓语",
+              "表示说话人的判断或想法。"
+            ],
+            [
+              "that",
+              "宾语从句引导词",
+              "引导后面的宾语从句，标示从句为 think 的内容。"
+            ],
+            [
+              "I've",
+              "从句主语加助动词",
+              "I have 的缩写，从句内与 hurt 构成现在完成时。"
+            ],
+            [
+              "hurt",
+              "从句谓语核心",
+              "过去分词形式，与 have 搭配表示已经受伤。"
+            ],
+            [
+              "my back",
+              "从句宾语",
+              "说明受伤的部位是背部。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分正确，提点聚焦信息组织思路，修正了笔记中关于缩略形式自然度的不当比较，其余内容准确合规。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-045-sentence-004",
+      "parentEnglish": "She's next door. She's in her office, sir.",
+      "children": [
+        {
+          "english": "She's next door.",
+          "chinese": "她在隔壁。",
+          "tip": "回答别人找人时，先说大致方位next door，能让对方快速有方向感，不用一上来就说很长的具体地点。",
+          "intent": "告知问话人帕梅拉的大致位置。",
+          "parts": [
+            [
+              "She's",
+              "描述主体的状态",
+              "她在"
+            ],
+            [
+              "next door.",
+              "补充说明她所处的位置",
+              "隔壁"
+            ]
+          ],
+          "notes": [
+            [
+              "She's的缩略含义",
+              "这里She's是She is的口语缩略形式，用来表示“她处于某个位置”的状态，日常对话中很常用。"
+            ]
+          ],
+          "structures": [
+            [
+              "She's next door",
+              "主句（位置说明）",
+              "主系表结构的短句，直接交代她的大致所在位置。"
+            ]
+          ]
+        },
+        {
+          "english": "She's in her office, sir.",
+          "chinese": "她在自己的办公室里，先生。",
+          "tip": "在大致方位之后补充具体房间in her office，是按寻找路径逐步缩小范围的思路。sir放句末是职场回应上级的礼貌说法，不影响核心信息。",
+          "intent": "进一步说明具体位置，并礼貌地面向问话的男士作答。",
+          "parts": [
+            [
+              "She's",
+              "描述主体的状态",
+              "她在"
+            ],
+            [
+              "in her office,",
+              "补充说明她所处的具体地点",
+              "在她的办公室里"
+            ],
+            [
+              "sir.",
+              "点明这句话的告知对象",
+              "先生"
+            ]
+          ],
+          "notes": [
+            [
+              "称呼语sir的位置",
+              "称呼语sir放在句末，用来明确对话的受众，是面向问话的男士做出回应，语气符合职场下属对上级的恭敬态度。"
+            ]
+          ],
+          "structures": [
+            [
+              "She's in her office",
+              "主句（具体位置补充）",
+              "主系表结构的短句，进一步补充她所在的更精确地点。"
+            ],
+            [
+              "sir",
+              "对话称呼语",
+              "放在句末，指明回应的对象，属于口语里的礼貌称呼用法。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

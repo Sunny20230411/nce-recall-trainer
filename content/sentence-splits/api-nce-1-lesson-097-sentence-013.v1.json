@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "内容边界准确，中英对应一致，提点聚焦词义辨析与时态表意，信息关系和句法角色标注正确，符合教学标准。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-097-sentence-013",
+      "parentEnglish": "Yes. I recognize him now.",
+      "children": [
+        {
+          "english": "Yes.",
+          "chinese": "是的。",
+          "tip": "对方问是不是你接待过的那个人，先用 Yes 给一个明确的肯定答复，让对方立刻知道结果。",
+          "intent": "对前文的确认类一般疑问句给出直接的肯定回应。",
+          "parts": [
+            [
+              "Yes.",
+              "直接回应前文的确认类提问",
+              "是的。"
+            ]
+          ],
+          "notes": [
+            [
+              "独立肯定答语",
+              "Yes 可以单独成句，用来直接回应一般疑问句，表示同意或确认对方的说法。"
+            ]
+          ],
+          "structures": [
+            [
+              "Yes.",
+              "独立答语",
+              "直接回应前文的一般疑问句，给出肯定答复。"
+            ]
+          ]
+        },
+        {
+          "english": "I recognize him now.",
+          "chinese": "我现在认出他来了。",
+          "tip": "recognize 是“认出”，不是笼统的“记得”——指把眼前的人和之前见过的对上号。句末的 now 突出这是当下才辨认成功的，之前可能没认出来。",
+          "intent": "补充说明自己此刻已经辨认出对方所指的人。",
+          "parts": [
+            [
+              "I",
+              "句子的主语，指执行认出动作的人",
+              "我"
+            ],
+            [
+              "recognize him",
+              "核心动作与动作对象，说明主语对“他”完成辨认",
+              "认出他"
+            ],
+            [
+              "now.",
+              "补充动作发生的时间，说明辨认是当下此刻发生的",
+              "现在。"
+            ]
+          ],
+          "notes": [
+            [
+              "时间副词的位置",
+              "时间副词 now 放在句末，点明认出这个动作是此刻发生的，而非过去就已经完成的动作。"
+            ],
+            [
+              "及物动词的宾语衔接",
+              "recognize 是及物动词，后面直接接宾格代词 him 作宾语，him 指代前文问句里提到的 the man。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "分句主语",
+              "执行 recognize 这个动作的人，即对话中的 Caroline。"
+            ],
+            [
+              "recognize",
+              "分句谓语动词",
+              "表示辨认出、认出的动作，是句子的核心动词。"
+            ],
+            [
+              "him",
+              "谓语动词的宾语",
+              "指代前文问句提到的 the man，作 recognize 的作用对象。"
+            ],
+            [
+              "now.",
+              "时间状语",
+              "说明 recognize 这个动作发生的时间是当下此刻。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

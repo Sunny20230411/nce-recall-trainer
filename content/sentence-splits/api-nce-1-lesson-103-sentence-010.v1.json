@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分后两句边界准确，内容各自独立；提点分别聚焦 enough 结构的个人评价用法和 hope 搭配现在完成时的时间视角，迁移具体实用；parts、notes、structures 均按子句合理分配，解释准确且不重复。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-103-sentence-010",
+      "parentEnglish": "The English and Maths papers weren't easy enough for me. I hope I haven't failed.",
+      "children": [
+        {
+          "english": "The English and Maths papers weren't easy enough for me.",
+          "chinese": "英语和数学试卷对我来说不够容易。",
+          "tip": "weren't easy enough for me 说难度没低到自己能应付的程度，for me 把评价标准落在个人感受上。想表达“对我来说不够…（达不到需要）”，就用 形容词 + enough for sb 的结构。",
+          "intent": "说明英语和数学试卷对自己而言难度偏高，不够容易。",
+          "parts": [
+            [
+              "The English and Maths papers",
+              "描述的核心对象，是句子的主语。",
+              "英语和数学试卷"
+            ],
+            [
+              "weren't easy enough",
+              "描述主语的难度程度，说明试卷对说话者而言难度偏高。",
+              "不够容易"
+            ],
+            [
+              "for me.",
+              "补充说明难度感受是针对说话者本人的。",
+              "对我来说。"
+            ]
+          ],
+          "notes": [
+            [
+              "形容词 + enough 的语序",
+              "enough 修饰形容词 easy 时必须放在其后，构成 easy enough，表示“足够容易”，前面加否定词 weren't 就变成“不够容易”。"
+            ],
+            [
+              "for me 点明评价对象",
+              "for me 放在句末，说明“试卷难度不够容易”是说话者的个人感受，不是所有人的普遍判断。"
+            ]
+          ],
+          "structures": [
+            [
+              "The English and Maths papers",
+              "主语",
+              "指英语和数学两门科目的试卷，是句子描述的核心对象，由 and 连接两个科目名词共同修饰 papers。"
+            ],
+            [
+              "weren't easy enough",
+              "谓语+表语",
+              "weren't 是系动词否定式，easy 是表语形容词，enough 后置修饰 easy，整体表示“不够容易”。"
+            ],
+            [
+              "for me",
+              "介词短语",
+              "补充说明这个难度评价是针对说话者本人的。"
+            ]
+          ]
+        },
+        {
+          "english": "I hope I haven't failed.",
+          "chinese": "我希望我没有不及格。",
+          "tip": "I hope 后面接还不确定的结果，用 I haven't failed 是站在考试结束后的当下，期盼到目前为止没有不及格。说对已发生的事抱希望，常用现在完成时接在 hope 后面。",
+          "intent": "表达说话者对考试结果的期盼，希望自己没有不及格。",
+          "parts": [
+            [
+              "I hope",
+              "引出说话者的主观愿望。",
+              "我希望"
+            ],
+            [
+              "I haven't failed.",
+              "作 hope 的宾语，说明说话者期盼的考试结果。",
+              "我没有不及格。"
+            ]
+          ],
+          "notes": [
+            [
+              "hope 后接宾语从句表愿望",
+              "I hope 后面直接跟从句 I haven't failed，表达说话者希望到目前为止自己没有不及格，从句用现在完成时呼应考试已结束的语境。"
+            ]
+          ],
+          "structures": [
+            [
+              "I hope",
+              "主句主语+谓语",
+              "表达说话者的主观愿望与期盼。"
+            ],
+            [
+              "I haven't failed",
+              "宾语从句",
+              "作 hope 的宾语，用现在完成时表示到考试结束这个时间点为止，说话者希望自己没有不及格。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

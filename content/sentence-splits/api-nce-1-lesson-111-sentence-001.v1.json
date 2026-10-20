@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "子句拆分边界准确，中文翻译对应自然；提点分别覆盖程度表达位置与价格提问角度，有实用迁移；信息关系、句法角色及笔记均贴合单句内容，无明显错误。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-111-sentence-001",
+      "parentEnglish": "I like this television very much. How much does it cost?",
+      "children": [
+        {
+          "english": "I like this television very much.",
+          "chinese": "我很喜欢这台电视。",
+          "tip": "very much 放在句末补充喜欢的程度，是表达喜好强弱的自然位置。换说“我很喜欢这部电影”，也可以说 I like this film very much。",
+          "intent": "表达说话人对眼前这台电视的喜爱程度。",
+          "parts": [
+            [
+              "I like",
+              "陈述分句的主语与谓语",
+              "我喜欢"
+            ],
+            [
+              "this television",
+              "喜欢的对象",
+              "这台电视"
+            ],
+            [
+              "very much.",
+              "补充喜欢的程度",
+              "非常。"
+            ]
+          ],
+          "notes": [
+            [
+              "程度修饰的语序",
+              "very much 放在句末，表示“非常、很”，用来加强 like 的程度。"
+            ]
+          ],
+          "structures": [
+            [
+              "I like this television very much.",
+              "陈述分句",
+              "表达说话人对这台电视的喜好，very much 作程度修饰。"
+            ]
+          ]
+        },
+        {
+          "english": "How much does it cost?",
+          "chinese": "它多少钱？",
+          "tip": "How much does it cost? 从商品出发问它要花多少钱。也可以问 How much is it?；若想问某个人实际花了多少，则换成 How much did you pay for it?，把关注点转到那次购买。",
+          "intent": "询问前面提到的这台电视的售价。",
+          "parts": [
+            [
+              "How much",
+              "询问价格的疑问引导",
+              "多少钱"
+            ],
+            [
+              "does it",
+              "询问对象，does 为疑问助动词",
+              "它（这台电视）"
+            ],
+            [
+              "cost?",
+              "询问对象对应的动作，问价格",
+              "花费？"
+            ]
+          ],
+          "notes": [
+            [
+              "价格疑问句的结构",
+              "How much 用来询问价格，does 放在 it 前面帮助构成疑问，it 指代前面提到的 television。"
+            ]
+          ],
+          "structures": [
+            [
+              "How much does it cost?",
+              "价格疑问句",
+              "询问电视价格，it 指代前文的 television，does 为助动词帮助构成现在时疑问。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -184,7 +184,7 @@
     const historyIndex = history.length;
     const snapshot = identity;
     const sentence = state.current.sentence;
-    const context = { lesson: state.selectedLesson.title, english: sentence.english, chinese: sentence.chinese,
+    const context = { lesson: state.selectedLesson.title, english: sentence.english, chinese: sentence.chinese, parentEnglish: sentence.parentEnglish || '',
       draft: Array.from(document.querySelectorAll('#wordSlots input')).map(node => node.value).join(' '),
       errors: JSON.stringify(state.current.wrongIndexes || []), answerVisible: state.current.correct || state.current.viewedAnswer,
       analysis: JSON.stringify(sentence.analysis || sentenceAnalysisCatalog[normalizeForAccepted(sentence.english)] || (window.NCE1_SENTENCE_ANALYSIS || {})[normalizeForAccepted(sentence.english)] || {}).slice(0, 4000) };

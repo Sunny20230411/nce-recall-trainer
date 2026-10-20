@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，道别语独立处理恰当；提点结合上下文回应关系，反身代词搭配点得清楚；呼语、频度副词等结构归属正确，无跨句冗余。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-065-sentence-020",
+      "parentEnglish": "We always enjoy ourselves, Mum. Bye-bye.",
+      "children": [
+        {
+          "english": "We always enjoy ourselves, Mum.",
+          "chinese": "我们总是玩得很开心，妈妈。",
+          "tip": "这句话接住母亲的 Enjoy yourself!，把单数的祝愿换成复数的一贯体验来回应。说一群人玩得开心，反身代词要和主语一致，用 enjoy ourselves，不能说成 enjoy us。",
+          "intent": "回应母亲的祝愿，说明自己和同伴总是玩得开心，让母亲放心。",
+          "parts": [
+            [
+              "We always enjoy",
+              "句子主干的主语与动作部分",
+              "我们总是享受"
+            ],
+            [
+              "ourselves,",
+              "反身代词作宾语，和 enjoy 构成固定搭配，附带句中停顿逗号。",
+              "我们自己（与enjoy共同构成“玩得开心”的固定搭配），"
+            ],
+            [
+              "Mum.",
+              "呼语，点明说话的对象，附带句末句号。",
+              "妈妈。"
+            ]
+          ],
+          "notes": [
+            [
+              "反身代词作enjoy的宾语",
+              "enjoy oneself 是固定搭配，表示“过得愉快、玩得开心”，反身代词要和主语保持人称和数的一致，主语是 we 时用 ourselves，不能换成普通代词 us。"
+            ],
+            [
+              "呼语的位置",
+              "Mum 是当面对妈妈的称呼，放在陈述句末尾，不参与句子主干的主谓结构，仅用于点明说话的对象。"
+            ]
+          ],
+          "structures": [
+            [
+              "We",
+              "主语",
+              "指代说话的孩子和同行的伙伴，是执行 enjoy 这个动作的主体。"
+            ],
+            [
+              "always",
+              "频度副词",
+              "修饰动词 enjoy，表示玩得开心是常常发生的一贯情况。"
+            ],
+            [
+              "enjoy",
+              "谓语动词",
+              "是句子的核心动作，表示“享受、从中获得乐趣”。"
+            ],
+            [
+              "ourselves",
+              "反身代词作宾语",
+              "和主语 we 同指，是 enjoy 的固定搭配部分，构成 enjoy oneself “玩得开心”的表达。"
+            ],
+            [
+              "Mum",
+              "呼语",
+              "当面称呼妈妈，点明对话对象，独立于句子主干。"
+            ]
+          ]
+        },
+        {
+          "english": "Bye-bye.",
+          "chinese": "再见。",
+          "tip": "Bye-bye 是口语里常用的道别语，独立成句就够了，不用再补完整句子。当面告别时对长辈、平辈都可以用。",
+          "intent": "向母亲道别。",
+          "parts": [
+            [
+              "Bye-bye.",
+              "独立的道别表达，附带句末句号。",
+              "再见。"
+            ]
+          ],
+          "notes": [
+            [
+              "道别语的独立性",
+              "Bye-bye 是英语口语中常用的道别感叹语，本身就能独立成句，不需要搭配主语谓语，多用于非正式的日常告别。"
+            ]
+          ],
+          "structures": [
+            [
+              "Bye-bye.",
+              "感叹道别语",
+              "独立成句，是告别时的常用口语表达。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "子句拆分正确，中文翻译准确；提点分别讲清最高级的范围限定和 cost 表售价的表达视角，教学点清晰；修正了 notes 中冗余及表述稍欠准确处，structures 角色定义与句法功能一致，整体符合要求。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-111-sentence-002",
+      "parentEnglish": "It's the most expensive model in the shop. It costs five hundred pounds.",
+      "children": [
+        {
+          "english": "It's the most expensive model in the shop.",
+          "chinese": "这是店里最贵的型号。",
+          "tip": "the most expensive 把这台放在店内所有型号中定位，in the shop 明确比较范围，最高价只在这个范围内成立，不是在宣称它是市场上最贵的电视。",
+          "intent": "说明这台电视是店内价格最高的型号。",
+          "parts": [
+            [
+              "It's the most expensive model",
+              "句子的核心判断：点明这台机器在同类里价格最高",
+              "这是最贵的型号"
+            ],
+            [
+              "in the shop.",
+              "补充说明最贵这个结论的比较范围是本店铺",
+              "在这家店里。"
+            ]
+          ],
+          "notes": [
+            [
+              "最高级修饰名词的语序",
+              "the most expensive 整体修饰 model，表达“最贵的”，形容词最高级修饰单数可数名词时前面通常带定冠词 the，明确指特定范围内价位最高的那一台。"
+            ],
+            [
+              "范围短语的作用",
+              "in the shop 跟在 model 后面，补充说明“最贵”这个最高级结论的比较范围限于这家店铺。"
+            ]
+          ],
+          "structures": [
+            [
+              "It's",
+              "主句主谓结构",
+              "It 指代上文中提到的那台电视机，is 是系动词，引出对这台机器属性的说明。"
+            ],
+            [
+              "the most expensive model",
+              "主句表语",
+              "用形容词最高级描述这台机器是价格最高的型号。"
+            ],
+            [
+              "in the shop",
+              "范围修饰语",
+              "限定最高级的比较范围是这家商店。"
+            ]
+          ]
+        },
+        {
+          "english": "It costs five hundred pounds.",
+          "chinese": "它要五百英镑。",
+          "tip": "cost 在这里表示商品的标价，主语直接是商品本身，后面接金额就够了，不用额外说“价格是”。",
+          "intent": "给出这台电视的具体售价。",
+          "parts": [
+            [
+              "It costs",
+              "引出价格信息的主谓部分",
+              "它售价为"
+            ],
+            [
+              "five hundred pounds.",
+              "说明该型号电视的具体售卖价格",
+              "五百英镑。"
+            ]
+          ],
+          "notes": [
+            [
+              "cost表示售价的用法",
+              "cost 在这里表示商品“标价为、售价是”，后面直接接金额，主语是商品本身，不需要额外说“它值多少钱”。"
+            ]
+          ],
+          "structures": [
+            [
+              "It",
+              "主语",
+              "仍然指代前面那台最贵的电视机。"
+            ],
+            [
+              "costs five hundred pounds",
+              "谓语加宾语",
+              "costs 为及物动词作谓语，后面直接接金额作宾语，说明这台电视机的售价是五百英镑。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

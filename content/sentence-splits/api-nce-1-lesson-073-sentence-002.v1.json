@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，suddenly的叙事作用和内心独白的区分点教学价值高，结构与语义说明均正确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-073-sentence-002",
+      "parentEnglish": "Suddenly, she saw a man near a bus stop. 'I can ask him the way,' she said to herself.",
+      "children": [
+        {
+          "english": "Suddenly, she saw a man near a bus stop.",
+          "chinese": "突然，她在公共汽车站附近看见一个男人。",
+          "tip": "句首用 Suddenly 把叙事从“迷路”的困境转到出现转机的新画面，自然推进情节。以后想在故事里引出意外出现的人或事，也可以把 suddenly 放在句首，先给读者一个节奏上的提示。",
+          "intent": "用突然的转折引出新出现的人物，推动故事情节发展。",
+          "parts": [
+            [
+              "Suddenly,",
+              "语气状语，提示后续事件发生得突兀",
+              "突然，"
+            ],
+            [
+              "she saw a man",
+              "句子主干，交代核心动作与对象",
+              "她看见一个男人"
+            ],
+            [
+              "near a bus stop.",
+              "补充说明看见男子的具体地点",
+              "在一个公共汽车站附近。"
+            ]
+          ],
+          "notes": [
+            [
+              "suddenly的叙事作用",
+              "Suddenly放在句首，修饰整个后续事件，表明看到男子这个情况出现得很突然，让叙事节奏出现转折，引出新的情节线索。"
+            ],
+            [
+              "地点状语的位置",
+              "near a bus stop是地点状语，放在宾语a man之后，补充说明看见这名男子的具体位置，让场景更清晰。"
+            ]
+          ],
+          "structures": [
+            [
+              "Suddenly,",
+              "句首状语",
+              "修饰整个后续事件，表明看到男子这个动作发生得很突然、毫无预兆。"
+            ],
+            [
+              "she",
+              "主语",
+              "指代米尔斯太太，是“看见”这个动作的发出者。"
+            ],
+            [
+              "saw a man near a bus stop.",
+              "谓语+宾语+地点状语",
+              "核心动作是“看见”，宾语是a man，near a bus stop补充说明看见男子的具体位置。"
+            ]
+          ]
+        },
+        {
+          "english": "'I can ask him the way,' she said to herself.",
+          "chinese": "‘我可以向他问路，’她自言自语道。",
+          "tip": "said to herself 不是对着别人说话，而是心里盘算、自言自语，说明 I can ask him the way 只是她当时的想法，还没真的开口。区分人物内心想法和实际对话时，可以看引语后面有没有类似 said to herself 的提示。",
+          "intent": "通过直接引语展现主角的内心想法，交代她看到男子后萌生的解决办法。",
+          "parts": [
+            [
+              "'I can ask him the way,'",
+              "直接引语，是主角内心的想法",
+              "“我可以向他问路，”"
+            ],
+            [
+              "she said to herself.",
+              "引述分句，说明引语是自言自语、没有对外说出",
+              "她自言自语道。"
+            ]
+          ],
+          "notes": [
+            [
+              "直接引语的位置标记",
+              "直接引语'I can ask him the way'放在she said to herself之前，用引号包裹，提示引号内是人物的内心想法，she said to herself是引述动作，说明这句话的发出者就是主语she。"
+            ],
+            [
+              "双宾动词ask的搭配逻辑",
+              "ask可以接双宾语，间接宾语him指向被询问的对象，直接宾语the way指向询问的内容，不需要额外加介词就能表达“向某人问某事”。"
+            ]
+          ],
+          "structures": [
+            [
+              "'I can ask him the way,'",
+              "直接引语",
+              "放在引号内，是she的内心想法；引语中I是主语，can ask是情态动词加动词原形的谓语，him是间接宾语，the way是直接宾语，内容为她打算向这名男子问路。"
+            ],
+            [
+              "she said to herself.",
+              "引述分句",
+              "交代前面引语的发出者，说明这句话是她对自己说的、没有出声。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

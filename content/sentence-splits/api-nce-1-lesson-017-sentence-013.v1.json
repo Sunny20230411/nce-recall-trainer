@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，各子句中文对应、信息关系、提点和结构均符合要求，无自然度误判或知识点错误。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-017-sentence-013",
+      "parentEnglish": "This is Jim. He's our office assistant.",
+      "children": [
+        {
+          "english": "This is Jim.",
+          "chinese": "这是吉姆。",
+          "tip": "当面引荐时先用This is报出对方姓名，是把眼前这位陌生人明确介绍给听者的标准开场。",
+          "intent": "当面引荐人物，先告知被介绍者的姓名。",
+          "parts": [
+            [
+              "This is Jim.",
+              "介绍当前指向的人的姓名",
+              "这是吉姆。"
+            ]
+          ],
+          "notes": [
+            [
+              "日常介绍的常用句式",
+              "用This is直接介绍人物姓名，不需要额外加指代的修饰成分，是当面引荐时的标准表达。"
+            ]
+          ],
+          "structures": [
+            [
+              "This is Jim.",
+              "介绍性主句",
+              "当面引荐人物时的标准开场表达，直接点明被介绍者的姓名。"
+            ]
+          ]
+        },
+        {
+          "english": "He's our office assistant.",
+          "chinese": "他是我们的办公室助理。",
+          "tip": "our在这里不是“拥有这个人”，而是说明他属于我们这个团队、和我们是同事关系，用所属表达讲组织身份很常见。",
+          "intent": "补充说明被介绍者的工作身份，让听者了解其角色。",
+          "parts": [
+            [
+              "He's our office assistant.",
+              "补充说明吉姆的具体工作身份",
+              "他是我们的办公室助理。"
+            ]
+          ],
+          "notes": [
+            [
+              "He's的缩写形式",
+              "这里的He's是He is的常用口语缩写，不是He has的缩写，用来表达“他是”的含义，符合介绍他人身份的语境。"
+            ]
+          ],
+          "structures": [
+            [
+              "He's our office assistant.",
+              "身份补充主句",
+              "承接前一句的人物，说明对方的工作岗位，让听者快速了解相关信息。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

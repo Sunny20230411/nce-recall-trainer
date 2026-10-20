@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "已按要求修正Look!子句的tip，删除“专用来提示刚出现”的过度限制，改为说明其核心是吸引注意值得看的内容；其余合格内容保留。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-019-sentence-007",
+      "parentEnglish": "Look! There's an ice cream man.",
+      "children": [
+        {
+          "english": "Look!",
+          "chinese": "看！",
+          "tip": "单独用Look!是口语里立刻拉对方注意力的常用说法，用来提示眼前值得马上看的内容，不一定是刚出现的新事物。",
+          "intent": "提醒听者将注意力转向眼前的事物。",
+          "parts": [
+            [
+              "Look!",
+              "独立的提醒指令",
+              "看！"
+            ]
+          ],
+          "notes": [
+            [
+              "提醒类感叹语",
+              "Look!作为独立感叹语，用来立刻吸引听者注意，引出紧接着要展示或指出的事物。"
+            ]
+          ],
+          "structures": [
+            [
+              "Look!",
+              "提醒感叹语",
+              "用来立刻吸引听者的注意力，指向接下来要让对方看到的事物。"
+            ]
+          ]
+        },
+        {
+          "english": "There's an ice cream man.",
+          "chinese": "有个卖冰淇淋的人。",
+          "tip": "介绍场景里出现的人或物，用 there be 引出存在的对象很自然；have 也可以表示场所具备设施，不只用于“我拥有”，别只按中文的“有”硬套。",
+          "intent": "告知听者现场存在一位卖冰淇淋的人，点明提醒对方看的具体内容。",
+          "parts": [
+            [
+              "There's an ice cream man.",
+              "补充说明提醒对方看的具体内容",
+              "有个卖冰淇淋的人。"
+            ]
+          ],
+          "notes": [
+            [
+              "There's 存在句型",
+              "这里使用There's引出在场的人，直接传递“某处存在某物/某人”的信息，不需要调整词序提前主语。"
+            ],
+            [
+              "名词组合修饰",
+              "ice cream两个名词连在man前面，直接说明这个男子的身份是卖冰淇淋的，不需要额外加动词来解释。"
+            ]
+          ],
+          "structures": [
+            [
+              "There's an ice cream man",
+              "存现陈述句",
+              "以There's开头说明现场存在某个人物，交代说话人发现的具体对象。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

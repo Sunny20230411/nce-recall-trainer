@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，子句内容对应正确；存在句用法与just/one的点拨贴合表达意图，无错误的自然度比较或机械总结，符合质量校准要求。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-095-sentence-014",
+      "parentEnglish": "There's a train every hour. You just missed this one.",
+      "children": [
+        {
+          "english": "There's a train every hour.",
+          "chinese": "每小时都有一班火车。",
+          "tip": "用 there's 引出固定存在的班次情况，再补 every hour 说明频率，先给“有车”的信息再给间隔，对方立刻知道还有机会。说固定班次频率时，常用 There's + 交通方式 + 频率状语。",
+          "intent": "告知火车的发车频率，说明后续仍有车可乘。",
+          "parts": [
+            [
+              "There's",
+              "存在句引导结构，引出后文存在的主体。",
+              "存在句引导结构There's"
+            ],
+            [
+              "a train",
+              "句子的核心主语，说明存在的事物。",
+              "一班火车"
+            ],
+            [
+              "every hour.",
+              "修饰全句，补充说明火车的发车频率。",
+              "每小时（一班）"
+            ]
+          ],
+          "notes": [
+            [
+              "存在句的用法",
+              "There's 是 There is 的缩写，用于引出某处或某时段存在的事物，这里表示在时刻表中固定存在一班火车，侧重“有”这个事实。"
+            ]
+          ],
+          "structures": [
+            [
+              "There's a train every hour.",
+              "陈述句",
+              "介绍火车的发车频率，给对方提供后续乘车的信息。"
+            ],
+            [
+              "There's",
+              "存在句引导结构",
+              "There与is缩写为There's，用于引出存在的事物，本身没有独立实义。"
+            ],
+            [
+              "a train",
+              "存在句的真实主语",
+              "表示存在的对象是一趟火车，是句子的核心主体。"
+            ],
+            [
+              "every hour.",
+              "频率时间状语",
+              "修饰全句，说明火车出现的频率是每小时一次，补充发车间隔。"
+            ]
+          ]
+        },
+        {
+          "english": "You just missed this one.",
+          "chinese": "你们刚好错过了这一班。",
+          "tip": "just 在这里强调“刚刚、刚好”错过，不是说错过了所有班次；this one 用 one 替代重复的 train，只指刚开走的这班。下次说“刚错过某一个”，可以用 just missed + this/that one 避免重复名词。",
+          "intent": "明确对方只是没赶上刚开走的这一班，承接上一句还有后续车次的信息。",
+          "parts": [
+            [
+              "You",
+              "句子的主语，描述行为的发出者。",
+              "你们"
+            ],
+            [
+              "just",
+              "修饰错过的时机，说明动作刚刚发生。",
+              "刚才、刚好"
+            ],
+            [
+              "missed",
+              "描述主语发出的动作。",
+              "错过了"
+            ],
+            [
+              "this one.",
+              "说明错过的具体对象，代词one指代前文的train。",
+              "这一班（火车）"
+            ]
+          ],
+          "notes": [
+            [
+              "one的指代",
+              "this one里的one替代前面已经提到的train，this one指当前刚开走的这一班火车，避免重复说train。"
+            ],
+            [
+              "just的语义",
+              "just修饰missed，表示“刚才、刚好”，强调错过刚发生，也暗含只是错过这一班、还有下一班的语气。"
+            ]
+          ],
+          "structures": [
+            [
+              "You just missed this one.",
+              "陈述句",
+              "在说明还有后续车次的前提下，点明对方只是没赶上刚走的这一班。"
+            ],
+            [
+              "You",
+              "第二人称主语",
+              "指代对话中赶车的你们。"
+            ],
+            [
+              "just",
+              "时间副词",
+              "修饰错过这个动作，说明动作刚刚发生。"
+            ],
+            [
+              "missed",
+              "谓语动词（一般过去时）",
+              "表示“错过、没赶上”，是主语发出的动作。"
+            ],
+            [
+              "this one.",
+              "动词宾语",
+              "this one指代刚开走的这一班火车，是missed的对象。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

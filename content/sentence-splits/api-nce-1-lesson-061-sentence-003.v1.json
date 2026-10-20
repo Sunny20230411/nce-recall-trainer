@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "两句拆分合理，提点分别抓住 show me 的表达选择与检查场景下的拟声指令习惯，结构与笔记对应准确，未出现无依据的自然度比较或语义误判。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-061-sentence-003",
+      "parentEnglish": "Show me your tongue. Say, Ah.",
+      "children": [
+        {
+          "english": "Show me your tongue.",
+          "chinese": "让我看看你的舌头。",
+          "tip": "要表达“让我看某物”直接用 show me ...，不用绕成 let me look at 或 give me。show 本身就包含“展示给我看”的意思，是检查、展示场景下的常用指令。",
+          "intent": "医生向患者下达指令，要求其展示舌头以便检查。",
+          "parts": [
+            [
+              "Show me your tongue.",
+              "祈使指令，要求展示舌头。",
+              "让我看看你的舌头。"
+            ]
+          ],
+          "notes": [
+            [
+              "祈使句的直接指令表达",
+              "以动词原形 Show 开头，面向听话者直接下达指令，省略主语 you，符合口语中简洁明确的要求。"
+            ],
+            [
+              "双宾语结构的语义逻辑",
+              "Show 后先接间接宾语 me 说明动作的接收者，再接直接宾语 your tongue 说明要展示的对象。"
+            ]
+          ],
+          "structures": [
+            [
+              "Show",
+              "祈使谓语动词",
+              "用原形开头下达指令，含义为“出示、给……看”，是整个祈使句的动作核心。"
+            ],
+            [
+              "me",
+              "间接宾语",
+              "指代说话人（医生），说明“展示”这个动作是朝向医生完成的。"
+            ],
+            [
+              "your tongue.",
+              "直接宾语",
+              "指代要展示的具体对象是患者的舌头，是 Show 动作指向的内容。"
+            ]
+          ]
+        },
+        {
+          "english": "Say, Ah.",
+          "chinese": "说，啊。",
+          "tip": "检查场景下用 Say, Ah. 直接指示发音，是固定的简短指令。Ah 直接用拟声词当宾语，不用额外解释发什么音、怎么发，双方都能明白。",
+          "intent": "医生向患者下达指令，要求其发“啊”音以配合检查。",
+          "parts": [
+            [
+              "Say, Ah.",
+              "祈使指令，要求发出指定声音。",
+              "说，啊。"
+            ]
+          ],
+          "notes": [
+            [
+              "祈使句的直接指令表达",
+              "以动词原形 Say 开头下达指令，省略主语 you，语气直接明确，符合医疗检查场景的口语习惯。"
+            ],
+            [
+              "拟声短句的口语功能",
+              "Ah 是检查咽喉时需发出的开口音，直接用拟声词作宾语，简洁清晰，无需多余解释。"
+            ]
+          ],
+          "structures": [
+            [
+              "Say,",
+              "祈使谓语动词",
+              "用原形开头下达指令，含义为“说出、发出”，是祈使句的动作核心。"
+            ],
+            [
+              "Ah.",
+              "直接宾语（拟声内容）",
+              "是要求发出的具体发音，对应检查时需要的开口“啊”音，说明 Say 这个动作的具体内容。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

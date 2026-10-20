@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，时间背景句与转折对比句分工清晰，名师提点分别点明时间场景起句的表达作用和时态对照的表意功能，未出现错误规律或不当比较，所有结构与信息关系校验正确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-057-sentence-001",
+      "parentEnglish": "It is eight o'clock. The children go to school by car every day, but today, they are going to school on foot.",
+      "children": [
+        {
+          "english": "It is eight o'clock.",
+          "chinese": "现在是八点钟。",
+          "tip": "讲当下时间场景时常用“It is ... o'clock”起头，it在这里指代时间，不用译成“它”。先把时间点摆出来，后面的事件就有了明确的当下参照。",
+          "intent": "交代当前具体时间，为后续事件提供时间背景。",
+          "parts": [
+            [
+              "It is eight o'clock.",
+              "整句交代当前时间背景",
+              "现在是八点钟。"
+            ]
+          ],
+          "notes": [
+            [
+              "时间表达 It is ... o'clock",
+              "英语用 It is eight o'clock 表示现在八点钟；it 在这里指时间，不译作“它”。"
+            ]
+          ],
+          "structures": [
+            [
+              "It",
+              "主语（时间主语）",
+              "在 It is eight o'clock 中表示时间，没有实际“它”的含义。"
+            ],
+            [
+              "is",
+              "系动词",
+              "连接主语It与表语eight o'clock。"
+            ],
+            [
+              "eight o'clock.",
+              "表语",
+              "说明当前时间是八点钟。"
+            ]
+          ]
+        },
+        {
+          "english": "The children go to school by car every day, but today, they are going to school on foot.",
+          "chinese": "孩子们每天都坐车去上学，但今天他们步行去学校。",
+          "tip": "前半句用every day加一般现在时讲日常惯例，后半句用today加现在进行时讲此刻的特殊情况，用but一对照，反常的感觉立刻就出来了。are going to school在这里描述此刻正在去学校的途中，不是将来打算。",
+          "intent": "通过日常惯例与今天当下情况的对比，突出今天的反常。",
+          "parts": [
+            [
+              "The children go to school by car every day,",
+              "描述日常重复的上学习惯，用一般现在时体现规律性。",
+              "孩子们每天都坐车去上学。"
+            ],
+            [
+              "but today,",
+              "转折标记，引出与日常惯例不同的今天的情况。",
+              "但是今天，"
+            ],
+            [
+              "they are going to school on foot.",
+              "描述今天此刻正在发生的反常行为，用现在进行时突出当下的特殊状态，和前文乘车上学的惯例形成对比。",
+              "他们正步行去学校。"
+            ]
+          ],
+          "notes": [
+            [
+              "一般现在时与现在进行时对比",
+              "go ... every day 是每天重复的习惯，因此用一般现在时；today 正在步行前往学校，因此用 are going，强调此刻正在进行。"
+            ],
+            [
+              "by car 与 on foot",
+              "by car 表示乘车这种交通方式；on foot 是固定搭配，表示步行，中间不加冠词。"
+            ]
+          ],
+          "structures": [
+            [
+              "The children",
+              "并列分句一的主语",
+              "指上学的孩子们，是go和后面they的所指对象。"
+            ],
+            [
+              "go to school",
+              "谓语短语",
+              "表示去上学这一动作。"
+            ],
+            [
+              "by car",
+              "方式状语",
+              "说明日常上学的交通方式是乘车。"
+            ],
+            [
+              "every day,",
+              "时间状语",
+              "表示每天重复，决定该分句用一般现在时。"
+            ],
+            [
+              "but",
+              "并列连词",
+              "连接日常习惯与今天反常情况两个分句，形成转折。"
+            ],
+            [
+              "today,",
+              "时间状语",
+              "指今天，提示第二个分句描述当下正在发生的情况。"
+            ],
+            [
+              "they",
+              "并列分句二的主语",
+              "指代the children。"
+            ],
+            [
+              "are going to school",
+              "谓语短语",
+              "用现在进行时表示此刻正步行去学校。"
+            ],
+            [
+              "on foot.",
+              "方式状语",
+              "说明今天的交通方式是步行，与by car形成对比。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分后两句各司其职，提点明确区分简略回应经历与补充具体往事的时态视角差异，结构、笔记均对应子句内容，无错误或越界表述。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-085-sentence-010",
+      "parentEnglish": "Yes, I have. I was there in April.",
+      "children": [
+        {
+          "english": "Yes, I have.",
+          "chinese": "是的，去过。",
+          "tip": "回答 Have you ever been...? 这种问经历的问句，先用 Yes, I have. 简洁确认有过经历，不用重复说 been there。后面要补具体细节时再换过去时。",
+          "intent": "用简略答语直接肯定对方的提问，确认自己有去过该地的经历。",
+          "parts": [
+            [
+              "Yes, I have.",
+              "回应对方的询问，确认自己有去过巴黎的经历",
+              "是的，我去过。"
+            ]
+          ],
+          "notes": [
+            [
+              "简略答语的构成",
+              "Yes, I have.是对现在完成时一般疑问句Have you ever been there?的省略回答，保留主语I和助动词have，替代完整表述I have been there，避免和前文重复。"
+            ]
+          ],
+          "structures": [
+            [
+              "Yes,",
+              "肯定答语标记",
+              "表示对对方问题的肯定答复，语气直白明确。"
+            ],
+            [
+              "I have.",
+              "简略主句",
+              "是I have been there的省略形式，其中have为助动词，替代完整表述中的been there部分，说明主语“我”有去过巴黎的经历。"
+            ]
+          ]
+        },
+        {
+          "english": "I was there in April.",
+          "chinese": "我四月在那里。",
+          "tip": "确认有过经历之后，补充具体某次行程的时间，就换成过去时 I was there in April。不用因为前面是完成时就一直沿用同一时态，换视角才能把“累计经历”和“具体往事”分开说。",
+          "intent": "补充说明自己那次到访的具体时间，给出过去某段时间身处该地的事实。",
+          "parts": [
+            [
+              "I was there",
+              "说明自己过去身处巴黎这个事实",
+              "我在那里"
+            ],
+            [
+              "in April.",
+              "补充说明身处巴黎的具体时间",
+              "在四月。"
+            ]
+          ],
+          "notes": [
+            [
+              "时间状语的表达",
+              "in April表示“在四月”，属于一般过去时的时间状语，和be动词过去式was搭配，说明过去的所处状态，介词in用于月份前。"
+            ]
+          ],
+          "structures": [
+            [
+              "I was there",
+              "主句",
+              "主系表结构，描述主语“我”过去的所处状态，was是be动词的第一人称单数过去式。"
+            ],
+            [
+              "in April.",
+              "时间状语",
+              "补充说明“在那里”这个状态发生的具体时间是四月。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

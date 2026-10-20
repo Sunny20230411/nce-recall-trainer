@@ -1,22 +1,14 @@
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { chromium } from 'playwright-core';
-import { loadTeacherTips } from './teacher-tip-content.mjs';
+import { loadPublishedUnderstanding } from './sentence-split-content.mjs';
 
-const sourceIndex = JSON.parse(await readFile('content/understanding-source-index.v1.json', 'utf8'));
-const pilot = await loadTeacherTips(sourceIndex.records, { requireComplete: process.argv.includes('--require-complete') });
+const published = await loadPublishedUnderstanding();
+const pilot = published.teacherTips;
 const course = process.argv.find(value => value.startsWith('--course='))?.split('=')[1];
 if (course) pilot.records = pilot.records.filter(tip => tip.courseId === course);
-const existingPilot = JSON.parse(await readFile('content/sentence-understanding.pilot.v1.json', 'utf8'));
-if (process.argv.includes('--available-only')) {
-  const fs = await import('node:fs/promises');
-  const available = new Set((await fs.readdir('content/understanding-records')).map(name => name.replace(/\.json$/, '')));
-  for (const record of existingPilot.records) available.add(record.sentenceId);
-  pilot.records = pilot.records.filter(tip => available.has(tip.sentenceId));
-}
-const records = await Promise.all(pilot.records.map(tip => existingPilot.records.find(record => record.sentenceId === tip.sentenceId) || readFile(`content/understanding-records/${tip.sentenceId}.json`, 'utf8').then(JSON.parse)));
+const records = pilot.records.map(tip => published.records.find(record => record.sentenceId === tip.sentenceId));
 const browser = await chromium.launch({ headless: true, executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe' });
 try {
   for (const width of [375, 430, 1280]) {

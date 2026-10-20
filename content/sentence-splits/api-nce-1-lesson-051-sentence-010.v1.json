@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "子句拆分与原文一致，中文翻译准确；提点分别点出“分时段保留季节差异”和“用and合并同月两种天气特征”的表达思路，教学价值明确；parts拼回完整匹配英文，notes与structures内容准确，无越界或错误表述。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-051-sentence-010",
+      "parentEnglish": "It's always warm in September and October. It's often cold in November and it rains sometimes.",
+      "children": [
+        {
+          "english": "It's always warm in September and October.",
+          "chinese": "九月和十月总是很暖和。",
+          "tip": "回答秋季天气时把九、十月单独拿出来说，避免一个温度词覆盖整个秋天。描述跨度较长的季节，按月份拆分着说，能保留不同时段的气候差异。",
+          "intent": "交代秋季前两个月的气温特征，说明这一时段温暖的常态。",
+          "parts": [
+            [
+              "It's always warm",
+              "核心判断，描述天气的温度特征",
+              "天气总是暖和"
+            ],
+            [
+              "in September and October.",
+              "交代该天气特征出现的月份范围",
+              "在九月和十月"
+            ]
+          ],
+          "notes": [
+            [
+              "虚义It指代天气",
+              "It在描述天气的句子中作形式主语，不指代前文具体事物，直接理解为“天气”，be动词后接warm/cold等形容词说明天气状态。"
+            ],
+            [
+              "频率副词的位置",
+              "always 这类频率副词放在 be 动词之后：It's always warm 中 always 位于 is 后，修饰整体的温暖状态。"
+            ]
+          ],
+          "structures": [
+            [
+              "It's",
+              "主语+系动词",
+              "It是描述天气的虚义主语，对应中文的“天气”，is是系动词，和前面的It缩合为It's书写。"
+            ],
+            [
+              "always",
+              "频率状语",
+              "表示状态总是发生，放在系动词is之后，修饰整体的温暖状态。"
+            ],
+            [
+              "warm",
+              "表语",
+              "形容词作表语，说明天气的特征是暖和的。"
+            ],
+            [
+              "in September and October.",
+              "时间状语",
+              "介词in加两个月份名词，说明暖和这种状态所处的时间段。"
+            ]
+          ]
+        },
+        {
+          "english": "It's often cold in November and it rains sometimes.",
+          "chinese": "十一月常常很冷，有时下雨。",
+          "tip": "同一句里先说十一月的气温，再用 and 接上降雨情况，把同一时段的两种天气特征并在一起说。描述某个月的气候，可以用 and 同时补充气温和降水，信息更紧凑。",
+          "intent": "交代十一月的气温和降雨特征，呈现秋季后期的天气变化。",
+          "parts": [
+            [
+              "It's often cold",
+              "前半分句的核心判断，描述十一月的气温特征",
+              "天气常常寒冷"
+            ],
+            [
+              "in November",
+              "交代寒冷状态出现的月份",
+              "在十一月"
+            ],
+            [
+              "and",
+              "连接并列分句，引出十一月的另一项天气特征",
+              "并且"
+            ],
+            [
+              "it rains sometimes.",
+              "后半分句的核心内容，补充十一月的降雨情况及频率",
+              "有时下雨"
+            ]
+          ],
+          "notes": [
+            [
+              "虚义It指代天气",
+              "两个分句里的 it 都指代天气，不作具体事物讲；前半句接形容词 cold 说气温，后半句接实义动词 rains 说降雨。"
+            ],
+            [
+              "频率副词的位置",
+              "often 放在 be 动词之后修饰状态；sometimes 可放在句末修饰实义动词 rains，表达降雨的频率。"
+            ],
+            [
+              "并列分句衔接",
+              "用 and 连接两个并列分句，前半句讲十一月的气温特征，后半句补充同期的降雨情况，都围绕十一月的天气展开。"
+            ]
+          ],
+          "structures": [
+            [
+              "It's",
+              "主语+系动词",
+              "指代天气的虚义主语加系动词，引导十一月气温的描述。"
+            ],
+            [
+              "often",
+              "频率状语",
+              "表示常常、多数时候，放在系动词is之后，修饰寒冷的状态。"
+            ],
+            [
+              "cold",
+              "表语",
+              "形容词作表语，说明十一月的天气特征是寒冷的。"
+            ],
+            [
+              "in November",
+              "时间状语",
+              "介词in加月份名词，说明寒冷状态所处的时间段。"
+            ],
+            [
+              "and",
+              "并列连词",
+              "连接前后两个独立分句，补充说明十一月同时会出现的降雨情况。"
+            ],
+            [
+              "it",
+              "主语",
+              "仍是指代天气的虚义形式主语，作rains的形式主语。"
+            ],
+            [
+              "rains",
+              "谓语",
+              "实义动词rain的第三人称单数形式，表示下雨，独立作后半句的谓语。"
+            ],
+            [
+              "sometimes.",
+              "频率状语",
+              "表示有时、偶尔，放在句末修饰rains，说明降雨的频率。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

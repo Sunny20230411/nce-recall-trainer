@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "内容准确，符合教学标准，结构、信息关系及提点均无误。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-117-sentence-003",
+      "parentEnglish": "'I'm sorry,' I said. 'He's eating breakfast.'",
+      "children": [
+        {
+          "english": "'I'm sorry,' I said.",
+          "chinese": "“对不起，”我说。",
+          "tip": "叙述对话时，先把致歉的直接引语放前面，再补 I said，能先带出说话内容和语气，比先说“我说”更有现场感。",
+          "intent": "叙述过去对话中说话人的致歉内容，同时点明说话人身份。",
+          "parts": [
+            [
+              "'I'm sorry,'",
+              "说话人说出的致歉内容，直接引语",
+              "“对不起，”"
+            ],
+            [
+              "I said.",
+              "说明引语的说话人及过去的说话动作",
+              "我说。"
+            ]
+          ],
+          "notes": [
+            [
+              "直接引语的位置",
+              "口语化的叙述常把直接引语放在前面，再用 I said / he asked 之类的引导分句点明说话人，读起来更有现场感。"
+            ]
+          ],
+          "structures": [
+            [
+              "'I'm sorry,'",
+              "直接引语",
+              "放在引导分句之前，是说话人向对方表达歉意的语句。"
+            ],
+            [
+              "I said.",
+              "说话引导分句",
+              "说明引语的说话人是I，用一般过去时said体现这是叙述已经发生的对话。"
+            ]
+          ]
+        },
+        {
+          "english": "'He's eating breakfast.'",
+          "chinese": "“他正在吃早饭。”",
+          "tip": "引语里的现在进行时，站的是当时说话那一刻的视角——说这句话的时候，吃早饭的动作正在进行。外层叙述用过去时，里外时态各跟各自的时间点走。",
+          "intent": "直接引述说话人当时告知的内容，说明对方此刻正在做的事。",
+          "parts": [
+            [
+              "'He's eating breakfast.'",
+              "说话人补充给出的说明信息，直接引语",
+              "“他正在吃早饭。”"
+            ]
+          ],
+          "notes": [
+            [
+              "直接引语里的时态",
+              "直接引语原样保留说话当时的时态，所以这里用现在进行时 He's eating breakfast，描述说话当下正在发生的动作。"
+            ]
+          ],
+          "structures": [
+            [
+              "'He's eating breakfast.'",
+              "直接引语",
+              "是说话人补充告知的内容，用现在进行时描述说话当下正在发生的动作。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

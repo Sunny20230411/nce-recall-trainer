@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分正确，各子句边界、中文翻译、提点意图及知识点均符合要求，无重复或错误表述，已修正原身份标识问题。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-039-sentence-006",
+      "parentEnglish": "Be careful! Don't drop it!",
+      "children": [
+        {
+          "english": "Be careful!",
+          "chinese": "小心！",
+          "tip": "这是最常用的即时提醒，用来唤起对方注意当下的风险。后面再补具体要避免什么，对方更容易立刻反应过来。",
+          "intent": "向听话人发出即时的谨慎提醒，唤起对方注意。",
+          "parts": [
+            [
+              "Be careful!",
+              "直接向听话人发出的提醒指令",
+              "小心！"
+            ]
+          ],
+          "notes": [
+            [
+              "肯定祈使句用法",
+              "这是面向听话人的直接提醒指令，以be动词原形开头，搭配形容词构成，默认主语是you，不需要明确写出。"
+            ]
+          ],
+          "structures": [
+            [
+              "Be careful!",
+              "肯定祈使句",
+              "用于直接提醒他人注意，以be动词原形开头搭配形容词构成指令。"
+            ]
+          ]
+        },
+        {
+          "english": "Don't drop it!",
+          "chinese": "别把它摔了！",
+          "tip": "只说“小心”对方可能不知道防什么，这句直接点出要避免的具体动作。给出具体风险，比单纯重复“小心”更有指导作用。",
+          "intent": "告诫对方避免摔坏手中物品的具体风险。",
+          "parts": [
+            [
+              "Don't drop it!",
+              "补充说明需要避免的具体行为",
+              "别把它摔了！"
+            ]
+          ],
+          "notes": [
+            [
+              "否定祈使句用法",
+              "这句是告诫他人不要做某事的否定祈使句，直接在句首加Don't，再接动词原形drop，默认主语you不需要写出。"
+            ]
+          ],
+          "structures": [
+            [
+              "Don't drop it!",
+              "否定祈使句",
+              "用于告诫他人不要做某事，以Don't加动词原形开头，后接动作涉及的对象it。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

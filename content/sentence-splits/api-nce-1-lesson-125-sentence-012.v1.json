@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，already语气差异的点拨到位，信息组织与结构拆解均符合规范，无错误表述。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-125-sentence-012",
+      "parentEnglish": "That was quick! Have you finished already?",
+      "children": [
+        {
+          "english": "That was quick!",
+          "chinese": "这么快！",
+          "tip": "That was quick 里的 that 不用细说是什么事，双方都知道指浇花园这件事；口语里先甩一句感叹，比完整说“你浇得真快”更自然。",
+          "intent": "对对方刚完成浇花的速度发出惊叹",
+          "parts": [
+            [
+              "That was quick!",
+              "对刚结束的浇花行为发出速度惊叹，指代前文发生的浇花事件。",
+              "（你这动作）太快了！"
+            ]
+          ],
+          "notes": [
+            [
+              "口语中的感叹句省略",
+              "That was quick! 是日常口语中省略了具体行为的感叹表达，代词 That 直接指代刚刚发生的浇花行为，无需重复前文细节就能让对话双方理解所指内容。"
+            ]
+          ],
+          "structures": [
+            [
+              "That",
+              "主语",
+              "代词 that 指代刚刚发生的浇花完成这一整件事，是句子描述的对象。"
+            ],
+            [
+              "was",
+              "系动词",
+              "be 动词的一般过去时形式，连接主语和后面的表语，说明这件事当时呈现出的特点。"
+            ],
+            [
+              "quick!",
+              "表语",
+              "形容词 quick 作表语，描述主语指代的动作速度非常快，末尾感叹号强化了说话人的惊叹情绪。"
+            ]
+          ]
+        },
+        {
+          "english": "Have you finished already?",
+          "chinese": "你已经浇完了吗？",
+          "tip": "already 放在疑问句里不是单纯问“有没有完”，而是带着“居然这么快就完了”的意外感；换成 yet 就只是普通询问，没有这层惊讶。",
+          "intent": "带着惊讶语气向对方确认是否已经完成浇花任务",
+          "parts": [
+            [
+              "Have you finished already?",
+              "带惊讶语气的疑问，向对方确认是否已经完成浇花这项工作。",
+              "你已经浇完了吗？"
+            ]
+          ],
+          "notes": [
+            [
+              "现在完成时的疑问语序",
+              "现在完成时的一般疑问句把助动词 Have 放在主语 you 的前面，和陈述句 You have finished 的语序形成区别，用来询问动作是否已经达成完成状态。"
+            ],
+            [
+              "疑问句式中的 already",
+              "already 通常用于肯定句，当它出现在疑问句中时，往往附带说话人的意外情绪，表示“居然都已经……”，强化了说话人对对方快速完成动作的惊讶感受。"
+            ]
+          ],
+          "structures": [
+            [
+              "Have",
+              "助动词",
+              "构成现在完成时的助动词，放在句首帮助将句子变为疑问句式。"
+            ],
+            [
+              "you",
+              "主语",
+              "人称代词主格，是后面完成动作的发出者。"
+            ],
+            [
+              "finished",
+              "谓语核心动词",
+              "是 finish 的过去分词形式，和助动词 Have 一起构成现在完成时，表示动作已经完成。"
+            ],
+            [
+              "already?",
+              "状语",
+              "副词 already 修饰谓语，表示动作发生的时间远早于说话人预期，附带惊讶语气。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

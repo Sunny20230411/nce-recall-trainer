@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分准确，两子句分别对应回应与询问两个独立交际功能；名师提点各有价值，第一句讲服务场景的礼貌回应方式，第二句澄清number的多义语境判断，迁移具体实用；信息关系、句法角色及笔记均准确归属于对应子句，表述准确无夸大。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-087-sentence-002",
+      "parentEnglish": "I don't know, sir. What's the number of your car?",
+      "children": [
+        {
+          "english": "I don't know, sir.",
+          "chinese": "我不知道，先生。",
+          "tip": "服务场景里先说I don't know直接回应对方的问题，再带上sir显得礼貌得体，不是生硬地拒绝回答。",
+          "intent": "回应顾客此前关于车辆是否就绪的询问，明确表示目前没有相关信息，同时保持服务场合的礼貌语气。",
+          "parts": [
+            [
+              "I don't know,",
+              "句子主干，回应顾客的询问，说明自己暂时不了解车辆的相关情况",
+              "我不知道，"
+            ],
+            [
+              "sir.",
+              "服务场景的礼貌称呼，补充说明对话的对象身份",
+              "先生。"
+            ]
+          ],
+          "notes": [
+            [
+              "称呼语的位置",
+              "sir 是服务场景中对男性顾客的礼貌称呼，放在句末语气自然得体，兼顾明确回应与礼貌分寸。"
+            ]
+          ],
+          "structures": [
+            [
+              "I don't know, sir.",
+              "否定陈述句（回应前文）",
+              "用于回应顾客之前提出的车辆是否准备好的问题，明确表达当前没有相关信息。"
+            ],
+            [
+              "sir.",
+              "称呼语",
+              "服务场景中对男性顾客的礼貌称呼，放在句末兼顾得体与自然。"
+            ]
+          ]
+        },
+        {
+          "english": "What's the number of your car?",
+          "chinese": "您的车牌号是多少？",
+          "tip": "这里的the number of your car指识别车辆的编号，不是问汽车的数量；问数量才会用How many cars。遇到number先看语境是“编号”还是“数量”。",
+          "intent": "询问顾客车辆的车牌号，以便核对车辆信息、查询对应的维修进度。",
+          "parts": [
+            [
+              "What's the number",
+              "问句核心，用于询问车辆的登记编号",
+              "（您的）号码是多少"
+            ],
+            [
+              "of your car?",
+              "限定说明，明确这个号码归属于顾客的车辆，整体指向车辆牌照编号",
+              "您的车（的）？"
+            ]
+          ],
+          "notes": [
+            [
+              "英语所属关系表达",
+              "短语the number of your car用of引出number的所属对象，对应中文“你的车的号码”，在本语境中整体指车辆的登记编号即车牌号。"
+            ],
+            [
+              "英文疑问语序",
+              "问句中be动词is置于主语the number of your car之前，疑问词What作表语引导整个问题，用于询问具体的号码信息，属于特殊疑问句的标准倒装结构。"
+            ]
+          ],
+          "structures": [
+            [
+              "What's the number of your car?",
+              "特殊疑问句",
+              "核心交际目的是询问顾客车辆的车牌号，以便后续核对车辆信息、查询维修进度。"
+            ],
+            [
+              "the number of your car",
+              "介词短语作后置定语修饰number",
+              "用介词of明确number的归属，把抽象的“号码”和具体的“你的车”绑定，避免指代模糊。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

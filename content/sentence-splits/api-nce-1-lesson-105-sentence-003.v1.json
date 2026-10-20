@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分后两句边界清晰，中文对应准确，提点各有侧重：前句点透 want sb to do 的执行者差异，后句点透 tell sb to do 的转达功能；信息关系、结构角色均无误，迁移实用。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-105-sentence-003",
+      "parentEnglish": "Yes, I want her to come to my office. Tell her to come at once.",
+      "children": [
+        {
+          "english": "Yes, I want her to come to my office.",
+          "chinese": "是的，我要她到我的办公室来。",
+          "tip": "I want her to come 说的是希望桑德拉来，不是自己想去；表达“想让某人做某事”时，要把执行动作的人说清，再接 to do。",
+          "intent": "肯定回应对方的提问，并说明自己希望桑德拉来办公室的意愿。",
+          "parts": [
+            [
+              "Yes,",
+              "回应上文提问，表示肯定",
+              "是的"
+            ],
+            [
+              "I want her to come",
+              "主句核心，说明说话人的要求",
+              "我要她来"
+            ],
+            [
+              "to my office.",
+              "补充说明 come 的目的地",
+              "到我的办公室"
+            ]
+          ],
+          "notes": [
+            [
+              "want 后接复合宾语",
+              "want 可接“人 + to do”，表示希望某人做某事；这里 her 是被要求的对象，to come 是要执行的动作。"
+            ],
+            [
+              "地点状语跟在动作后",
+              "to my office 说明 come 的目的地，是补充信息，不改变核心动作 come。"
+            ]
+          ],
+          "structures": [
+            [
+              "I want her to come",
+              "主谓宾宾补结构",
+              "I 是主语，want 是谓语，her 是宾语，to come 是宾语补足语，说明希望她做的动作。"
+            ],
+            [
+              "to my office",
+              "地点状语",
+              "说明 come 这个动作要到达的地点是办公室。"
+            ]
+          ]
+        },
+        {
+          "english": "Tell her to come at once.",
+          "chinese": "告诉她马上来。",
+          "tip": "这一句把个人意愿转成对听话人的直接转达指令，语气更干脆。要让别人传话时，用 tell sb to do 比再重复一遍 I want 更利落。",
+          "intent": "对听话人发出指令，要求其向桑德拉转达立刻来办公室的要求。",
+          "parts": [
+            [
+              "Tell her to come",
+              "对听话人发出的指令，要求向对方转达要求",
+              "告诉她来"
+            ],
+            [
+              "at once.",
+              "补充说明 come 的时间要求",
+              "马上"
+            ]
+          ],
+          "notes": [
+            [
+              "tell 后接复合宾语",
+              "tell 可接“人 + to do”，表示吩咐某人做某事；这里 her 是被转达要求的对象，to come 是要执行的动作。"
+            ],
+            [
+              "时间状语表紧迫程度",
+              "at once 说明 come 的时间要求，强调动作要立刻发生。"
+            ]
+          ],
+          "structures": [
+            [
+              "Tell her to come",
+              "祈使句主谓宾宾补结构",
+              "省略了第二人称主语 you，Tell 是谓语，her 是宾语，to come 是宾语补足语，是对听话人发出的指令。"
+            ],
+            [
+              "at once",
+              "时间状语",
+              "修饰 come，要求这个动作立刻发生。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

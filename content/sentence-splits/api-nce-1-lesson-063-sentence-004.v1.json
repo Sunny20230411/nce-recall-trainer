@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界清晰，tip聚焦表达选择无不当比较，parts拼回一致，notes与structures内容准确且各归其位，intent符合语境。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-063-sentence-004",
+      "parentEnglish": "Certainly, doctor. Come upstairs.",
+      "children": [
+        {
+          "english": "Certainly, doctor.",
+          "chinese": "当然可以，医生。",
+          "tip": "口语里回应对方的请求，用 Certainly 比 Yes 更显爽快、客气，加上称呼更符合当面交谈的礼貌习惯。",
+          "intent": "爽快应允医生看望病人的请求，同时以呼语明确回应对象。",
+          "parts": [
+            [
+              "Certainly,",
+              "对请求的应允应答",
+              "当然可以，"
+            ],
+            [
+              "doctor.",
+              "呼语，称呼对话的对象",
+              "医生。"
+            ]
+          ],
+          "notes": [
+            [
+              "独立应答短句",
+              "Certainly 可单独成句回应请求，表示完全同意，语气比单纯的 yes 更肯定、更客气。"
+            ],
+            [
+              "句中呼语的位置",
+              "doctor 是当面称呼对方的呼语，放在应答词之后，用逗号隔开，不充当句子主干成分。"
+            ]
+          ],
+          "structures": [
+            [
+              "Certainly",
+              "应答短句",
+              "单独使用表示爽快同意对方的请求，是句子的核心表意部分。"
+            ],
+            [
+              "doctor",
+              "呼语",
+              "当面称呼对话对象，指正在交流的医生。"
+            ]
+          ]
+        },
+        {
+          "english": "Come upstairs.",
+          "chinese": "请上楼。",
+          "tip": "同意请求后直接用祈使句给行动指引，简洁自然，接待来访者时常用这种方式引导对方移动。",
+          "intent": "给出行动指引，引导医生前往楼上。",
+          "parts": [
+            [
+              "Come",
+              "祈使句的核心动作指令",
+              "来"
+            ],
+            [
+              "upstairs.",
+              "方向状语，指明动作的去向",
+              "往楼上。"
+            ]
+          ],
+          "notes": [
+            [
+              "祈使句表引导",
+              "这是省略主语 you 的祈使句，用来直接发出行动指令，在接待、引导场景下语气自然客气。"
+            ],
+            [
+              "upstairs作副词",
+              "upstairs 在这里是副词，修饰 come，说明动作方向是往楼上，不是名词。"
+            ]
+          ],
+          "structures": [
+            [
+              "Come",
+              "祈使句谓语动词",
+              "表示让听话者做出“来”的动作，省略了主语 you。"
+            ],
+            [
+              "upstairs",
+              "方向状语",
+              "修饰 come，指明动作的方向是往楼上。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

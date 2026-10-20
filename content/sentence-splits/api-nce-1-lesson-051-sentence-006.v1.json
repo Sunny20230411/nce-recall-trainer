@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "已按要求调整两条tip：第一条提炼了天气状态与天气事件的表达选择，未否定其他正确说法；第二条澄清but是预期转折，未暗示下雨与温暖互斥。其余内容保持对齐。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-051-sentence-006",
+      "parentEnglish": "It's often windy in March. It's always warm in April and May, but it rains sometimes.",
+      "children": [
+        {
+          "english": "It's often windy in March.",
+          "chinese": "三月经常刮风。",
+          "tip": "描述持续的天气状态常用 It's + 形容词，比如 It's windy；说下雨这类天气事件常用 it + 动词，比如 it rains。The wind blows 也对，只是更侧重风在吹动的动作。",
+          "intent": "描述三月的常见天气状况",
+          "parts": [
+            [
+              "It's often windy",
+              "描述天气的核心谓语部分",
+              "天气经常是多风的"
+            ],
+            [
+              "in March.",
+              "说明刮风这个天气发生的时间",
+              "在三月"
+            ]
+          ],
+          "notes": [
+            [
+              "英语描述天气的常用结构",
+              "描述天气时常用It's + 天气形容词的结构，这里It指代天气，不指具体事物；often这类频率副词通常放在be动词之后、形容词之前。"
+            ],
+            [
+              "月份前的介词",
+              "在某个月份用介词in引出时间状语，说明天气状况发生的时间范围。"
+            ]
+          ],
+          "structures": [
+            [
+              "It's",
+              "主语+系动词",
+              "It指代天气；is是系动词，与表语一起说明天气属性；缩写形式为It's。"
+            ],
+            [
+              "often windy",
+              "频率副词+表语",
+              "windy是形容词作表语，描述天气多风；often放在be动词和形容词之间，表示频率。"
+            ],
+            [
+              "in March.",
+              "时间状语",
+              "介词in引出月份，说明“刮风”这个天气发生的时间范围。"
+            ]
+          ]
+        },
+        {
+          "english": "It's always warm in April and May, but it rains sometimes.",
+          "chinese": "四月和五月总是很暖和，但有时会下雨。",
+          "tip": "but 不是否定温暖，而是转折补充：在整体暖和的预期之外，偶尔也会下雨。暖和与下雨可以同时成立，不要理解成一下雨就不暖和了。",
+          "intent": "描述四月和五月的整体气候，并转折补充偶尔下雨的情况",
+          "parts": [
+            [
+              "It's always warm",
+              "描述后续月份天气的核心谓语部分",
+              "天气总是暖和的"
+            ],
+            [
+              "in April and May,",
+              "说明温暖这个天气发生的时间范围",
+              "在四月和五月"
+            ],
+            [
+              "but it rains sometimes.",
+              "转折补充四五月偶尔出现的天气情况",
+              "但有时会下雨"
+            ]
+          ],
+          "notes": [
+            [
+              "英语描述天气的常用结构",
+              "描述天气时常用It's + 天气形容词的结构，这里It指代天气；always这类频率副词通常放在be动词之后、形容词之前。"
+            ],
+            [
+              "月份前的介词与频率副词",
+              "在某个月份用介词in引出时间状语；sometimes可放在句末修饰实义动词rains，表示下雨的频率。"
+            ],
+            [
+              "转折并列的两个分句",
+              "but连接两个独立分句，先说明四五月普遍温暖，再转折补充也会出现下雨的情况，前后是对比转折关系。"
+            ]
+          ],
+          "structures": [
+            [
+              "It's",
+              "主语+系动词",
+              "It指代天气，is是系动词，缩写形式为It's。"
+            ],
+            [
+              "always warm",
+              "频率副词+表语",
+              "warm作表语描述天气温暖；always放在be动词和形容词之间，表示频率。"
+            ],
+            [
+              "in April and May,",
+              "时间状语",
+              "介词in引出两个并列月份，说明“温暖”的时间范围。"
+            ],
+            [
+              "but",
+              "并列转折连词",
+              "连接前后两个分句，表转折对比：前面说普遍温暖，后面补充存在下雨的情况。"
+            ],
+            [
+              "it",
+              "主语",
+              "同样指代天气，在转折后的分句中作主语。"
+            ],
+            [
+              "rains",
+              "谓语",
+              "实义动词rain的第三人称单数形式，表示“下雨”这个动作。"
+            ],
+            [
+              "sometimes.",
+              "频率副词状语",
+              "放在句末修饰动词rains，说明下雨这个动作的发生频率是“有时”。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

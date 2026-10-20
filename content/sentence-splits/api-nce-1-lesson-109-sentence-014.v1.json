@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，子句内容各自独立；提点分别聚焦安抚语的虚指用法与邀请类have的表达功能，符合教学要求；parts、notes、structures与对应子句匹配，无错配。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-109-sentence-014",
+      "parentEnglish": "It doesn't matter. Have a cigarette.",
+      "children": [
+        {
+          "english": "It doesn't matter.",
+          "chinese": "没关系。",
+          "tip": "这是回应小遗憾或小失误的常用安抚语，用 it 虚指前文提到的事，不必追究具体指代什么。",
+          "intent": "安抚对方，表示之前的小遗憾不值得在意。",
+          "parts": [
+            [
+              "It doesn't matter.",
+              "整体是安抚对方的固定表达，说明前文提及的遗憾或小失误不要紧。",
+              "没关系，不要紧。"
+            ]
+          ],
+          "notes": [
+            [
+              "It doesn't matter 的固定用法",
+              "matter 在此为动词，表示“要紧、有重要影响”，It doesn't matter 是日常回应小失误时的常用安抚语，不必把 it 译成具体事物。"
+            ]
+          ],
+          "structures": [
+            [
+              "It",
+              "形式主语",
+              "此处为固定习惯表达里的虚指主语，不指代前文具体事件。"
+            ],
+            [
+              "doesn't",
+              "助动词构成否定",
+              "和动词 matter 搭配，构成一般现在时的否定形式。"
+            ],
+            [
+              "matter.",
+              "谓语核心动词",
+              "作不及物动词，表示“要紧、有重大影响”，和否定搭配表示“不要紧”。"
+            ]
+          ]
+        },
+        {
+          "english": "Have a cigarette.",
+          "chinese": "抽支烟吧。",
+          "tip": "have 在这里是邀请对方享用，不是“拥有”的意思。遇到表示吃、喝、抽的邀请，都可以用 Have + 食物或饮品的结构。",
+          "intent": "承接安抚语气，向对方提出递烟的缓和提议。",
+          "parts": [
+            [
+              "Have",
+              "发起邀请或提议的动作",
+              "请享用、来"
+            ],
+            [
+              "a cigarette.",
+              "提议享用的具体对象",
+              "一支烟。"
+            ]
+          ],
+          "notes": [
+            [
+              "祈使句的开头动词",
+              "Have a cigarette 是直接以动词 Have 开头的祈使句，省略了第二人称 you；have 在这里不是“有”，而是口语中表“食用/吸食”的搭配。"
+            ]
+          ],
+          "structures": [
+            [
+              "Have",
+              "祈使句主动词",
+              "原形动词开头，向对方发出邀请或提议。"
+            ],
+            [
+              "a cigarette.",
+              "动词宾语",
+              "限定单数的名词短语，说明提议享用的对象是一支香烟。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

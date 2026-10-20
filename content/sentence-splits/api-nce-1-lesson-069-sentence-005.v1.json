@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，子句中文对应正确；提点分别聚焦引导找画面人物的表达思路和描述画面用现在时的视角选择，有实际迁移价值；parts、notes、structures均对应各自子句，角色和解释准确，无误导性表述。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-069-sentence-005",
+      "parentEnglish": "You can see us in the crowd. We are standing on the left.",
+      "children": [
+        {
+          "english": "You can see us in the crowd.",
+          "chinese": "你可以在人群中看到我们。",
+          "tip": "用 You can see us 把听者的注意力引到画面里的“我们”身上，先讲“能看到我们”，再补出地点 in the crowd。如果想引导对方在画面里找人，可以先说 You can see... 再补位置范围。",
+          "intent": "引导对方在人群的画面里找到说话人一行人，给出大致的位置范围。",
+          "parts": [
+            [
+              "You can see us",
+              "主干，说明对方具备看见“我们”的可能性",
+              "你可以看到我们"
+            ],
+            [
+              "in the crowd.",
+              "补充说明能看到我们的具体场景位置",
+              "在人群之中。"
+            ]
+          ],
+          "notes": [
+            [
+              "情态动词can的用法",
+              "can是情态动词，本身有“能够、可以”的含义，后面接实义动词see的原形，不需要再添加其他助动词就能表达“可以看到”的含义。"
+            ],
+            [
+              "方位介词短语作位置说明",
+              "in the crowd 用介词in引出“在人群之中”的位置，说明看到我们的场景范围，是补充说明动作发生位置的状语，不充当句子主干。"
+            ]
+          ],
+          "structures": [
+            [
+              "You",
+              "主语",
+              "动作see的发出者，指对话的接收方“你”。"
+            ],
+            [
+              "can see",
+              "谓语部分",
+              "由情态动词can和实义动词see组成，表达“能够看见”的含义。"
+            ],
+            [
+              "us",
+              "宾语",
+              "动作see的承受者，是第一人称复数的宾格形式，指代说话人和同行的人“我们”。"
+            ],
+            [
+              "in the crowd.",
+              "地点状语",
+              "补充说明看到我们的具体环境是在人群当中。"
+            ]
+          ]
+        },
+        {
+          "english": "We are standing on the left.",
+          "chinese": "我们站在左边。",
+          "tip": "这里用现在进行时 are standing，是因为在指着眼前的照片或画面介绍，不是在回忆当时的动作。看照片指位置时，即使事情发生在过去，也常用现在时描述画面里的状态。",
+          "intent": "进一步说明说话人一行人在画面里的具体站位，方便对方准确找到。",
+          "parts": [
+            [
+              "We are standing",
+              "主干，说明我们当前在画面中的状态",
+              "我们正站着"
+            ],
+            [
+              "on the left.",
+              "补充说明我们站立的具体方位",
+              "在左边。"
+            ]
+          ],
+          "notes": [
+            [
+              "现在进行时描述画面内容",
+              "本句使用现在进行时 are standing，不是因为动作正在当下发生，而是因为在介绍眼前照片或画面里的人物状态，描述图像内容时常用现在时态。"
+            ],
+            [
+              "方位介词短语作位置说明",
+              "on the left 用介词on引出“在左侧”的站位，是补充说明站立具体位置的状语，不充当句子主干。"
+            ]
+          ],
+          "structures": [
+            [
+              "We",
+              "主语",
+              "动作stand的发出者，指代说话人一行人“我们”。"
+            ],
+            [
+              "are standing",
+              "谓语部分",
+              "现在进行时结构，表示当前画面中正处于站立的状态。"
+            ],
+            [
+              "on the left.",
+              "方位状语",
+              "补充说明站立的具体位置是在左侧。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

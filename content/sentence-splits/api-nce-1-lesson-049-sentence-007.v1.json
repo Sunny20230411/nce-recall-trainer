@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正了第一句tip中“最自然”的绝对化表述，其余内容准确，教学点清晰，符合表达思维引导要求。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-049-sentence-007",
+      "parentEnglish": "What about some steak? This is a nice piece.",
+      "children": [
+        {
+          "english": "What about some steak?",
+          "chinese": "来点牛排怎么样？",
+          "tip": "What about在这里不是问对方“对牛排了解多少”，而是用来顺势提出另一种选择、征询对方意愿。前面聊过的肉不合适时，可以用What about接新品类来提议。",
+          "intent": "向顾客提出选购牛排的提议，承接前文语境",
+          "parts": [
+            [
+              "What about some steak?",
+              "向顾客提出的选购提议，承接前文羊肉不适合的对话语境",
+              "来点牛排怎么样？"
+            ]
+          ],
+          "notes": [
+            [
+              "What about的提议用法",
+              "What about是用来向对方提出建议、征询意见的常用固定表达，后面直接接名词短语，不需要再加助动词构成疑问句。"
+            ]
+          ],
+          "structures": [
+            [
+              "What about some steak?",
+              "提议征询句式",
+              "用固定结构What about + 名词向对方提出购买牛排的建议，征询对方是否接受这个提议。"
+            ]
+          ]
+        },
+        {
+          "english": "This is a nice piece.",
+          "chinese": "这块（牛排）不错。",
+          "tip": "刚提议完牛排种类，紧接着用This is a nice piece把推荐落到眼前具体的一块肉上。用piece代替重复的steak，既简洁又符合卖肉场景的说法。",
+          "intent": "评价眼前这块牛排的品质，为提议提供具体依据",
+          "parts": [
+            [
+              "This is a nice piece.",
+              "对刚提到的牛排的品质评价，具体说明这块肉很好",
+              "这块（牛排）不错。"
+            ]
+          ],
+          "notes": [
+            [
+              "piece的指代",
+              "句中的a nice piece里的piece指代前文刚提到的steak，在牛排售卖语境里指“一块牛排”，避免重复说steak。"
+            ]
+          ],
+          "structures": [
+            [
+              "This",
+              "指示代词作主语",
+              "指代眼前正拿给顾客看的这块牛排，明确评价的对象就是当下展示的这块肉。"
+            ],
+            [
+              "is",
+              "系动词",
+              "连接主语和表语，构成主系表结构，说明主语的属性特征。"
+            ],
+            [
+              "a nice piece",
+              "表语",
+              "描述这块牛排的品质很好，其中nice说明品质出色，piece指代一整块牛排。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界正确，子句各司其职；提点分别讲应答习惯和场景词义，无泛化规律；信息关系、句法角色均准确，符合教学要求。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-115-sentence-010",
+      "parentEnglish": "No, there's no one. Everyone's out.",
+      "children": [
+        {
+          "english": "No, there's no one.",
+          "chinese": "没有，一个人也没有。",
+          "tip": "先直接用 No 回应“有没有人”的询问，再用 there's no one 把“屋里没人”这个事实说清楚，符合英语先给明确答复、再补细节的应答习惯。",
+          "intent": "直接回答对方关于是否有人的询问，否定屋内存人的情况。",
+          "parts": [
+            [
+              "No,",
+              "回应前文的询问，直接给出否定答复",
+              "没有，"
+            ],
+            [
+              "there's no one.",
+              "陈述当前屋里不存在任何人的事实",
+              "一个人也没有。"
+            ]
+          ],
+          "notes": [
+            [
+              "缩约形式还原",
+              "there's 是 there is 的缩约形式，用一般现在时说明当前状态。"
+            ],
+            [
+              "there be 表存在",
+              "there's no one 用 there be 结构表达“存在某人”的否定，no one 合起来指“没有任何人”，而不是分开的 no 与 one。"
+            ]
+          ],
+          "structures": [
+            [
+              "No",
+              "否定回应",
+              "直接回应上一句的询问，否定“屋里有人”的可能性。"
+            ],
+            [
+              "there's",
+              "存在句引导结构",
+              "there is 的缩约形式，用来引出“某地存在/不存在某人/某物”，本身无实际词义。"
+            ],
+            [
+              "no one.",
+              "存在句真正主语",
+              "合指“没有任何人”，是 there be 句中被描述存在状态的对象。"
+            ]
+          ]
+        },
+        {
+          "english": "Everyone's out.",
+          "chinese": "大家都出去了。",
+          "tip": "找人场景里的 out 就是“不在屋里、外出了”，不是站在门外的意思；和 in 相对，常用来表示在不在家。",
+          "intent": "补充说明屋里无人的原因，说明所有人都外出不在屋内。",
+          "parts": [
+            [
+              "Everyone's out.",
+              "补充说明无人的原因：所有人都已外出，不在屋内",
+              "大家都出去了。"
+            ]
+          ],
+          "notes": [
+            [
+              "缩约形式还原",
+              "Everyone's 是 Everyone is 的缩约形式，用一般现在时说明当前状态。"
+            ],
+            [
+              "everyone 的主谓一致",
+              "everyone 虽指“每个人”，但作单数处理，搭配 is；out 此处是副词，作表语表示“不在家、外出”。"
+            ]
+          ],
+          "structures": [
+            [
+              "Everyone's",
+              "主谓缩约结构",
+              "Everyone is 的缩约形式，everyone 是句子主语，is 是系动词。"
+            ],
+            [
+              "out.",
+              "表语",
+              "副词作表语，说明主语“外出、不在家”的状态。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

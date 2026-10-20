@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "已校准：修正了原笔记中“省略了系动词is”的错误表述，明确shirt's是缩合而非省略；两种's的区分方法具体可迁移；子句边界、parts拼接、结构角色均准确，tip无夸大差异或机械步骤。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-011-sentence-006",
+      "parentEnglish": "Perhaps it is, sir. Tim's shirt's white.",
+      "children": [
+        {
+          "english": "Perhaps it is, sir.",
+          "chinese": "也许是，先生。",
+          "tip": "先用 Perhaps it is 保留不确定性，不把话说死，sir 是对对方的礼貌称呼。这里的 it 承接问句“衬衫是不是蒂姆的”，不用重复整句。",
+          "intent": "礼貌地给出不确定的推测性回答。",
+          "parts": [
+            [
+              "Perhaps",
+              "修饰后续整句，体现推测态度",
+              "也许、大概，用来表示不确定的推测语气"
+            ],
+            [
+              "it is,",
+              "回应对方关于衬衫归属的询问",
+              "它是，其中it指代前文问句中提到的「这件衬衫是蒂姆的」这件事，承接问句给出推测性回答"
+            ],
+            [
+              "sir.",
+              "标注这句话的礼貌称呼对象",
+              "先生，对对话对象的礼貌尊称"
+            ]
+          ],
+          "notes": [
+            [
+              "指代承接",
+              "it 指代前文问句的核心内容，避免重复整句问题，让回答更简洁自然。"
+            ]
+          ],
+          "structures": [
+            [
+              "Perhaps it is",
+              "推测性主句",
+              "承接前文的归属问句，给出不肯定的回应，用it指代问句中的核心内容，避免重复整句。"
+            ]
+          ]
+        },
+        {
+          "english": "Tim's shirt's white.",
+          "chinese": "蒂姆的衬衫是白色的。",
+          "tip": "第一个 's 表归属（蒂姆的），第二个是 is（是）；不要只看外形认缩写，要看它后面接的是名词还是形容词，是在说“谁的”还是“是什么样的”。",
+          "intent": "给出判断依据，说明蒂姆衬衫的颜色特征。",
+          "parts": [
+            [
+              "Tim's",
+              "限定后面名词shirt的归属",
+              "蒂姆的，是名词所有格形式，表明所属关系，说明衬衫归蒂姆所有"
+            ],
+            [
+              "shirt's",
+              "陈述的主体及系动词",
+              "衬衫是，是shirt is的缩略形式，带出后续的颜色属性描述"
+            ],
+            [
+              "white.",
+              "补充描述蒂姆衬衫的外观颜色特征",
+              "白色的，说明蒂姆衬衫的颜色属性"
+            ]
+          ],
+          "notes": [
+            [
+              "两种 's 的区分",
+              "Tim's 是名词所有格，表示“蒂姆的”；shirt's 是 shirt is 的口语缩合，表示“衬衫是”。可以通过后面接名词还是形容词来快速判断。"
+            ]
+          ],
+          "structures": [
+            [
+              "Tim's shirt's white",
+              "属性说明主句",
+              "明确告知蒂姆的衬衫的颜色特征，为判断衬衫真正归属提供事实依据。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分正确，提点聚焦表达选择，parts/notes/structures均符合对应子句边界，无错误。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-043-sentence-014",
+      "parentEnglish": "Hurry up, Sam. The kettle's boiling!",
+      "children": [
+        {
+          "english": "Hurry up, Sam.",
+          "chinese": "快点，萨姆。",
+          "tip": "Hurry up 是口语里最常用的催促说法，直接对着听话人说，后面带上名字能明确催促对象，语气自然不生硬。",
+          "intent": "向萨姆发出催促，让他加快动作。",
+          "parts": [
+            [
+              "Hurry up,",
+              "发出的催促指令",
+              "快点、抓紧时间"
+            ],
+            [
+              "Sam.",
+              "指令的接收对象",
+              "萨姆，人名"
+            ]
+          ],
+          "notes": [
+            [
+              "祈使句用法",
+              "Hurry up 是省略主语you的祈使句，直接用来向听话人发出催促的指令，语气直接简洁，口语中非常常见。"
+            ]
+          ],
+          "structures": [
+            [
+              "Hurry up",
+              "祈使性动词短语",
+              "单独构成祈使句，用于直接催促听话人加快动作。"
+            ],
+            [
+              "Sam",
+              "呼语",
+              "点明催促的对象是萨姆，明确指令的接收人。"
+            ]
+          ]
+        },
+        {
+          "english": "The kettle's boiling!",
+          "chinese": "水壶里的水开了！",
+          "tip": "The kettle's boiling 用壶代指里面的水，是生活场景里的自然说法，不是在说壶本身沸腾了。这类借容器指代内容物的表达，日常描述烧水、煮汤等场景都很常用。",
+          "intent": "说明催促的原因，告知当下水已经沸腾的即时状况。",
+          "parts": [
+            [
+              "The kettle's boiling!",
+              "描述当下正在发生的状况",
+              "水壶里的水正在沸腾"
+            ]
+          ],
+          "notes": [
+            [
+              "名词's的缩略形式",
+              "kettle's 是kettle is的口语缩略，不是所有格，和后面的现在分词boiling构成现在进行时，描述水正在沸腾的状态。"
+            ]
+          ],
+          "structures": [
+            [
+              "The kettle's boiling",
+              "主谓结构（现在进行时）",
+              "描述当下水壶里的水正在沸腾的实时状态，用来解释前面催促的原因。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

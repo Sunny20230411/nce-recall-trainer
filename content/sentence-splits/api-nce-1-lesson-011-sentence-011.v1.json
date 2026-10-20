@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "拆分边界准确，中文对应恰当，提点聚焦交际动作判断而非逐字直译，信息关系、结构说明均匹配单句，无过度比较或错误表述。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-011-sentence-011",
+      "parentEnglish": "Here you are. Catch!",
+      "children": [
+        {
+          "english": "Here you are.",
+          "chinese": "给你。",
+          "tip": "Here you are 是递东西给对方的常用语，不是在说位置“你在这里”。遇到简短固定表达，先判断它在完成什么交际动作，别只按单词顺序猜意思。",
+          "intent": "在把物品交到对方手上时，告知对方物品已递到，完成交接动作。",
+          "parts": [
+            [
+              "Here you are.",
+              "告知对方物品交接完成的状态",
+              "给你，物品已递到你面前"
+            ]
+          ],
+          "notes": [
+            [
+              "Here you are的语序",
+              "这是递东西时的常用固定表达，没有用普通陈述句的正常顺序you are here，专门用来表示物品已交到对方手里，不是描述“你在这里”的位置状态"
+            ]
+          ],
+          "structures": [
+            [
+              "Here you are.",
+              "递东西的常用交际语句",
+              "用于把物品交到对方手上时的告知，不需要按照字面直译为“你在这里”，是口语里的固定惯用表达"
+            ]
+          ]
+        },
+        {
+          "english": "Catch!",
+          "chinese": "接住！",
+          "tip": "Catch! 是当面提醒对方接住物品的短指令，直接用动词原形开口，符合即时提醒的场景。",
+          "intent": "向对方发出即时提醒，让对方做出接住物品的动作。",
+          "parts": [
+            [
+              "Catch!",
+              "提醒对方要做出的动作",
+              "接住"
+            ]
+          ],
+          "notes": [
+            [
+              "单独使用的祈使句Catch!",
+              "直接用动词原形开头，省略了听话人you，用来面对面发出简短的提醒指令，不需要多余的助词铺垫，符合即时提醒的场景需求"
+            ]
+          ],
+          "structures": [
+            [
+              "Catch!",
+              "祈使短句",
+              "直接用动词原形开头，向听话人发出即时接住物品的动作指令"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

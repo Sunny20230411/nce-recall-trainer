@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 5,
+  "author": "doubao-seed-2-1-turbo-260628",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "reviewStatus": "model-reviewed-awaiting-user-review",
+  "reviewNote": "修正了第二句tip中“比用of更简洁自然”的无依据比较，其余内容符合教学标准，中英对应、信息关系和结构拆解均准确。",
+  "records": [
+    {
+      "parentSentenceId": "nce-1-lesson-045-sentence-017",
+      "parentEnglish": "I can't read it! The boss's handwriting is terrible!",
+      "children": [
+        {
+          "english": "I can't read it!",
+          "chinese": "我看不懂它！",
+          "tip": "这里的read不是泛指“不会阅读”，而是针对眼前的手写信件“辨认不出内容”。遇到can't加具体对象，先判断困难出在哪个动作环节，再选合适的中文表达。",
+          "intent": "直接回应前文疑问，说明自己无法辨认信件内容",
+          "parts": [
+            [
+              "I can't read it!",
+              "直接回应前文的疑问，说明自己无法辨认信件内容",
+              "我看不懂它！"
+            ]
+          ],
+          "notes": [
+            [
+              "can't do it的语境义",
+              "这里的can't read it不是完全不认字，it指代前面的老板信件，因为字迹潦草无法辨认内容，属于特定对象下的困难。"
+            ]
+          ],
+          "structures": [
+            [
+              "I",
+              "主语",
+              "指代说话人本人，是阅读动作的发出者。"
+            ],
+            [
+              "can't read",
+              "谓语",
+              "由情态动词否定式can't加实义动词原形read构成，表示“不能够读懂”。"
+            ],
+            [
+              "it",
+              "宾语",
+              "指代上下文里老板的信件，是阅读动作的对象。"
+            ]
+          ]
+        },
+        {
+          "english": "The boss's handwriting is terrible!",
+          "chinese": "老板的字迹太糟糕了！",
+          "tip": "这句话用来解释上一句“看不懂”的原因，把问题落到字迹本身的质量上。用名词所有格the boss's直接修饰字迹，所属关系清楚。",
+          "intent": "解释读不懂的原因，描述字迹难以辨认的状态",
+          "parts": [
+            [
+              "The boss's handwriting is terrible!",
+              "解释上一句读不懂的原因，用主语+表语描述字迹的状态",
+              "老板的字迹太糟糕了！"
+            ]
+          ],
+          "notes": [
+            [
+              "所有格与核心表意",
+              "这里的the boss's是名词所有格，直接修饰handwriting，限定字迹的所有者，不需要额外加of也能清楚表达所属关系。"
+            ]
+          ],
+          "structures": [
+            [
+              "The boss's handwriting",
+              "主语",
+              "the boss's为名词所有格修饰handwriting，意为“老板的字迹”，是句子描述的主体。"
+            ],
+            [
+              "is",
+              "系动词",
+              "起到连接主语和表语的作用。"
+            ],
+            [
+              "terrible",
+              "表语",
+              "形容词作表语，描述字迹“难以辨认、非常糟糕”的状态。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,12 +1,11 @@
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
-import { loadTeacherTips } from './teacher-tip-content.mjs';
 import { validateUnderstanding } from './understanding-contract.mjs';
 import { TEACHER_TIP_VERSION } from './teacher-tip-rules.mjs';
+import { loadPublishedUnderstanding } from './sentence-split-content.mjs';
 
-const { records: sources } = JSON.parse(await readFile('content/understanding-source-index.v1.json', 'utf8'));
-const pilot = JSON.parse(await readFile('content/sentence-understanding.pilot.v1.json', 'utf8'));
-const catalog = await loadTeacherTips(sources, { requireComplete: true });
+const published = await loadPublishedUnderstanding({ requireComplete: !process.argv.includes('--allow-partial') });
+const sources = published.sources;
+const catalog = published.teacherTips;
 const selected = sources.filter(source => source.courseId === 'nce2');
 const tips = catalog.records.filter(tip => tip.courseId === 'nce2');
 const partial = process.argv.includes('--allow-partial');
@@ -23,11 +22,7 @@ for (const source of selected) {
   if (!partial) assert.equal(tip.accuracyReview?.version, 'nce2-expression-accuracy-1.0.0', source.sentenceId);
   if (tip.editorialAuthor === 'Codex') assert.equal(tip.accuracyReview?.method, 'codex-editorial-self-review-not-human-verification', source.sentenceId);
   } else if (!partial) assert.fail(`Missing teacher tip: ${source.sentenceId}`);
-  let record = pilot.records.find(record => record.sentenceId === source.sentenceId);
-  if (!record) {
-    try { record = JSON.parse(await readFile(`content/understanding-records/${source.sentenceId}.json`, 'utf8')); }
-    catch (error) { if (partial && error.code === 'ENOENT') continue; throw error; }
-  }
+  const record = published.records.find(record => record.sentenceId === source.sentenceId);
   assert.deepEqual(validateUnderstanding(record), [], source.sentenceId);
   assert.equal(record.english, source.english);
   assert.equal(record.analysisStatus, 'approved');
