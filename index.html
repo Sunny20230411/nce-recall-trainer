@@ -664,6 +664,9 @@
     .preview-sentence { display: flex; align-items: baseline; gap: 8px; }
     .preview-sentence span { flex: 1; min-width: 0; overflow-wrap: anywhere; }
     .preview-sentence button { flex: none; }
+    .preview-sentence-actions { display: flex; gap: 4px; flex: none; }
+    #analysisView { max-width: 900px; margin: auto; padding-bottom: 84px; }
+    .analysis-navigation { position: sticky; bottom: 8px; display: flex; justify-content: center; gap: 8px; padding: 10px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
     .practice {
       min-height: calc(100dvh - 128px);
       display: flex;
@@ -2624,6 +2627,15 @@
         </div>
       </section>
 
+      <section id="analysisView" class="view" aria-label="句子解析">
+        <p id="analysisPosition" class="sentence-order"></p>
+        <div id="analysisContent" aria-live="polite"></div>
+        <div class="analysis-navigation">
+          <button type="button" class="btn secondary" id="analysisPrev">上一句</button>
+          <button type="button" class="btn secondary" id="analysisSpeak">发音</button>
+          <button type="button" class="btn secondary" id="analysisNext">下一句</button>
+        </div>
+      </section>
       <section id="practiceView" class="view">
         <div class="practice">
           <div class="practice-status">
@@ -7036,6 +7048,7 @@ window.NCE_ZH_OVERRIDES = [
       if (id === "listView") renderLessons();
       if (id === "previewView") renderPreview();
       document.body.classList.toggle("practice-active", id === "practiceView");
+      document.body.classList.toggle("analysis-active", id === "analysisView");
       document.querySelectorAll(".view").forEach((view) => view.classList.remove("active"));
       $(id).classList.add("active");
       const titleMap = {
@@ -7045,7 +7058,8 @@ window.NCE_ZH_OVERRIDES = [
         practiceView: state.mode === "review"
           ? `复习本次错题  (${state.currentIndex + 1}/${state.practiceSentences.length})`
           : `${state.selectedLesson.title}  (${state.currentIndex + 1}/${state.practiceSentences.length})`,
-        resultView: `${state.selectedLesson.title} 完成`
+        resultView: `${state.selectedLesson.title} 完成`,
+        analysisView: `${state.selectedLesson.title} · 解析`
       };
       $("topTitle").textContent = titleMap[id] || "新概念课文默写训练";
       const backButton = $("homeBtn");
@@ -7055,7 +7069,7 @@ window.NCE_ZH_OVERRIDES = [
       if (isHome) refreshHomeStats();
       backButton.classList.toggle("hidden", isHome);
       if (!isHome) {
-        const label = goesHome ? "返回首页" : "返回课程列表";
+        const label = id === "analysisView" ? "返回课文" : goesHome ? "返回首页" : "返回课程列表";
         backButton.title = label;
         backButton.setAttribute("aria-label", label);
       }
@@ -7241,7 +7255,10 @@ window.NCE_ZH_OVERRIDES = [
         <span class="badge">${formatLastStudy(record.lastStudiedAt)}</span>
       `;
       renderHistoricalMistakes(lesson);
-      $("englishText").innerHTML = lesson.sentences.map((item, index) => `<li><div class="preview-sentence"><span>${escapeHtml(item.english)}</span><button class="preview-play" type="button" data-sentence="${index}" title="播放第 ${index + 1} 句" aria-label="播放第 ${index + 1} 句" aria-pressed="false">播放</button></div></li>`).join("");
+      $("englishText").innerHTML = lesson.sentences.map((item, index) => `<li><div class="preview-sentence"><span>${escapeHtml(item.english)}</span><div class="preview-sentence-actions"><button class="preview-play" type="button" data-sentence="${index}" title="播放第 ${index + 1} 句" aria-label="播放第 ${index + 1} 句" aria-pressed="false">播放</button><button class="preview-play" type="button" data-analysis="${index}" aria-label="解析第 ${index + 1} 句">解析</button></div></div></li>`).join("");
+      $("englishText").querySelectorAll("[data-analysis]").forEach(button => {
+        button.onclick = () => openSentenceAnalysis(Number(button.dataset.analysis));
+      });
       $("englishText").querySelectorAll("[data-sentence]").forEach((button) => {
         button.onclick = () => playPreviewAudio(Number(button.dataset.sentence), false);
       });
@@ -7262,6 +7279,48 @@ window.NCE_ZH_OVERRIDES = [
       $("startBtn").disabled = !lesson.sentences.length;
       $("startBtn").textContent = lesson.sentences.length ? "开始练习" : "待导入课文数据";
     }
+    let analysisSelection = null, analysisRequest = 0;
+    window.getReadOnlyAnalysisContext = () => document.body.classList.contains("analysis-active") && analysisSelection
+      ? { selectedCourseId: analysisSelection.courseId, selectedLesson: analysisSelection.lesson,
+          currentIndex: analysisSelection.index, current: { sentence: analysisSelection.lesson.sentences[analysisSelection.index], correct: true, wrongIndexes: [] } }
+      : null;
+    function openSentenceAnalysis(index) {
+      analysisSelection = { courseId: state.selectedCourseId, lesson: state.selectedLesson, index, scrollY: window.scrollY };
+      showView("analysisView");
+      void renderReadOnlyAnalysis();
+    }
+    async function renderReadOnlyAnalysis() {
+      const request = ++analysisRequest;
+      const { courseId, lesson, index } = analysisSelection;
+      stopSentenceAudio();
+      $("analysisPosition").textContent = `第 ${index + 1} 句 / ${lesson.sentences.length}`;
+      $("analysisPrev").disabled = index === 0;
+      $("analysisNext").disabled = index === lesson.sentences.length - 1;
+      $("analysisContent").textContent = "正在加载解析…";
+      window.scrollTo(0, 0);
+      try {
+        await window.ensureLessonUnderstanding(courseId, lesson.id);
+        if (request !== analysisRequest || !$("analysisView").classList.contains("active")) return;
+        const sentence = lesson.sentences[index];
+        $("analysisContent").innerHTML = window.renderSentenceUnderstanding({ sentence, courseId, lessonId: lesson.id,
+          sentenceOrder: index + 1, legacyAnalysis: sentenceAnalysisFor(sentence),
+          manualStructure: courseId === "nce1" && lesson.id === "lesson-3", roleLabels: structureRoleConfig });
+      } catch {
+        if (request !== analysisRequest || !$("analysisView").classList.contains("active")) return;
+        $("analysisContent").innerHTML = '<p role="alert">解析加载失败，请重试。</p><button type="button" class="btn secondary">重试</button>';
+        $("analysisContent").querySelector("button").onclick = renderReadOnlyAnalysis;
+      }
+    }
+    for (const [id, offset] of [["analysisPrev", -1], ["analysisNext", 1]]) $(id).onclick = () => {
+      const next = analysisSelection.index + offset;
+      if (next < 0 || next >= analysisSelection.lesson.sentences.length) return;
+      analysisSelection.index = next;
+      void renderReadOnlyAnalysis();
+    };
+    $("analysisSpeak").onclick = () => {
+      stopSentenceAudio();
+      speakSentence(analysisSelection.lesson.sentences[analysisSelection.index].english, false);
+    };
     function normalize(text) {
       return String(text || "")
         .trim()
@@ -9027,6 +9086,17 @@ window.NCE_ZH_OVERRIDES = [
     $("themeToggleBtn").addEventListener("click", toggleTheme);
     $("homeBtn").addEventListener("click", () => {
       const activeView = document.querySelector(".view.active")?.id;
+      if (activeView === "analysisView") {
+        ++analysisRequest;
+        stopSentenceAudio();
+        const { scrollY, index } = analysisSelection;
+        showView("previewView");
+        requestAnimationFrame(() => {
+          $("englishText").querySelector(`[data-analysis="${index}"]`)?.focus({ preventScroll: true });
+          window.scrollTo({ top: scrollY, behavior: "auto" });
+        });
+        return;
+      }
       if (activeView === "practiceView") {
         openExitConfirmation();
         return;

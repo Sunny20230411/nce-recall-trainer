@@ -1,4 +1,5 @@
 (() => {
+  const tutorContext = () => window.getReadOnlyAnalysisContext?.() || state;
   const entry = document.createElement('button');
   entry.className = 'ask-ai-entry'; entry.textContent = '问 AI'; entry.type = 'button';
   entry.title = '打开 AI 学习助教；长按可拖动'; entry.setAttribute('aria-haspopup', 'dialog');
@@ -92,6 +93,7 @@
   const note = document.createElement('p'); note.className = 'tutor-note'; note.textContent = '回答由 AI 生成，仅供学习参考';
   dialog.querySelector('.tutor-form').after(note);
   function suggest() {
+    const state = tutorContext();
     suggestions.replaceChildren();
     suggestions.hidden = messages.childElementCount > 0;
     const title = document.createElement('h3'); title.textContent = '你是否想问'; suggestions.append(title);
@@ -105,7 +107,10 @@
       suggestions.append(button);
     }
   }
-  const currentIdentity = () => `${state.selectedCourseId}:${state.selectedLesson.id}:${state.currentIndex}:${state.current?.sentence?.english}`;
+  const currentIdentity = () => {
+    const state = tutorContext();
+    return `${document.body.classList.contains('analysis-active') ? 'analysis' : 'practice'}:${state.selectedCourseId}:${state.selectedLesson.id}:${state.currentIndex}:${state.current?.sentence?.english}`;
+  };
   newChat.onclick = () => {
     if (controller) return;
     clearEditing();
@@ -143,6 +148,7 @@
     if (follow) messages.scrollTop = messages.scrollHeight;
   }
   entry.addEventListener('click', event => {
+    const state = tutorContext();
     if (event.detail && suppressPointerClick) { suppressPointerClick = false; return; }
     if (!state.current) return;
     if (identity !== currentIdentity()) { clearEditing(); history = []; messages.replaceChildren(); input.value = ''; identity = currentIdentity(); }
@@ -168,8 +174,9 @@
   dialog.querySelector('.tutor-header button').onclick = () => dialog.close();
   dialog.addEventListener('close', () => { controller?.abort(); });
   for (const event of ['keydown', 'keyup']) dialog.addEventListener(event, e => e.stopPropagation());
-  new MutationObserver(() => { if (dialog.open && (!document.body.classList.contains('practice-active') || identity !== currentIdentity())) dialog.close(); }).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+  new MutationObserver(() => { if (dialog.open && ((!document.body.classList.contains('practice-active') && !document.body.classList.contains('analysis-active')) || identity !== currentIdentity())) dialog.close(); }).observe(document.body, { attributes: true, attributeFilter: ['class'] });
   dialog.querySelector('form').addEventListener('submit', async event => {
+    const state = tutorContext();
     event.preventDefault();
     const question = input.value.trim();
     if (!question || controller || location.protocol === 'file:') return;
@@ -185,7 +192,7 @@
     const snapshot = identity;
     const sentence = state.current.sentence;
     const context = { lesson: state.selectedLesson.title, english: sentence.english, chinese: sentence.chinese, parentEnglish: sentence.parentEnglish || '',
-      draft: Array.from(document.querySelectorAll('#wordSlots input')).map(node => node.value).join(' '),
+      draft: document.body.classList.contains('analysis-active') ? '' : Array.from(document.querySelectorAll('#wordSlots input')).map(node => node.value).join(' '),
       errors: JSON.stringify(state.current.wrongIndexes || []), answerVisible: state.current.correct || state.current.viewedAnswer,
       analysis: JSON.stringify(sentence.analysis || sentenceAnalysisCatalog[normalizeForAccepted(sentence.english)] || (window.NCE1_SENTENCE_ANALYSIS || {})[normalizeForAccepted(sentence.english)] || {}).slice(0, 4000) };
     controller = new AbortController(); send.disabled = true; newChat.disabled = true; status.textContent = '';
