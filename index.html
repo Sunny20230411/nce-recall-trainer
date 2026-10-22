@@ -789,6 +789,8 @@
 
     .answer-word {
       min-width: 72px;
+      max-width: 140px;
+      overflow-wrap: anywhere;
       text-align: center;
       color: var(--text);
     }
@@ -799,9 +801,9 @@
 
     .answer-word-text {
       display: block;
-      border-bottom: 2px solid var(--brand-2);
+      border-bottom: 1px solid var(--brand-2);
       padding: 4px 4px 5px;
-      font-size: clamp(20px, 2.4vw, 30px);
+      font-size: 24px;
       font-weight: 800;
       line-height: 1.05;
     }
@@ -2263,7 +2265,7 @@
       .slot-input { font-size: 18px; padding: 8px 2px; scroll-margin-block: 80px; }
       .answer-card { padding: 8px; gap: 8px 5px; border-radius: 8px; }
       .answer-word { min-width: 36px; }
-      .answer-word-text { font-size: 15px; padding: 3px 2px 4px; }
+      .answer-word-text { font-size: 14px; padding: 3px 2px 4px; }
       .answer-card .slot-ipa { font-size: 10px; min-height: 14px; }
       .answer-card .slot-meta { min-height: 0; margin-top: 5px; gap: 3px; }
       .answer-card .pos-tag { font-size: 10px; padding: 2px 5px; }
@@ -8441,15 +8443,23 @@ window.NCE_ZH_OVERRIDES = [
 
     function renderAnswerCard(sentence) {
       const analysis = sentenceAnalysisFor(sentence);
+      const sentenceOrder = state.selectedLesson.sentences.findIndex(item => item === sentence || (sentence.id && item.id === sentence.id)) + 1;
+      const record = window.getSentenceUnderstandingRecord({ sentence, courseId: state.selectedCourseId, lessonId: state.selectedLesson.id, sentenceOrder });
+      const words = (record?.words || analysis.tokens.map(token => ({ text: `${token.displayText || token.text || ''}${token.punctuation || ''}`, meaning: token.translation }))).map(word => {
+        let meaning = String(word.meaning || ''), previous;
+        do {
+          previous = meaning;
+          meaning = meaning.replace(/（[^（）]*）|\([^()]*\)/g, '');
+        } while (meaning !== previous);
+        return { ...word, meaning: meaning.trim() };
+      });
       return `
         <div class="answer-card" aria-label="正确答案解析">
-          ${analysis.tokens.map((token) => `
+          ${words.map((word) => `
               <div class="answer-word">
-                <span class="slot-ipa">${escapeHtml(window.britishPhoneticFor(token.displayText || token.text, token.phonetic || "", sentence.parentEnglish || sentence.english, (sentence.tokenOffset || 0) + token.displayIndex))}</span>
-                <span class="answer-word-text">${escapeHtml(token.displayText || "")}${escapeHtml(token.punctuation || "")}</span>
+                <span class="answer-word-text">${escapeHtml(word.text)}</span>
                 <span class="slot-meta">
-                  ${token.posLabel ? `<span class="pos-tag">${escapeHtml(token.posLabel)}</span>` : ""}
-                  ${token.translation ? `<span class="word-meaning">${escapeHtml(token.translation)}</span>` : ""}
+                  ${word.meaning ? `<span class="word-meaning">${escapeHtml(word.meaning)}</span>` : ""}
                 </span>
               </div>
             `).join("")}
@@ -8462,6 +8472,12 @@ window.NCE_ZH_OVERRIDES = [
         retryCurrentQuestion();
         return;
       }
+      const activeInput = $("wordSlots").querySelector(`.slot-input[data-index="${state.activeWordIndex}"]`);
+      const selection = activeInput ? { start: activeInput.selectionStart, end: activeInput.selectionEnd, direction: activeInput.selectionDirection } : null;
+      const restoreSelection = () => {
+        const input = $("wordSlots").querySelector(`.slot-input[data-index="${state.activeWordIndex}"]`);
+        if (input && selection) input.setSelectionRange(selection.start, selection.end, selection.direction);
+      };
       if (state.phase === "answerRevealed") {
         const hasInput = state.current.wordValues.some((value) => normalizeInputWord(value));
         state.phase = state.current.answerReturnPhase || (hasInput ? "inputting" : "ready");
@@ -8470,6 +8486,7 @@ window.NCE_ZH_OVERRIDES = [
         renderWordSlots();
         updateControls();
         ensureSentenceFocus();
+        restoreSelection();
         return;
       }
       updateDraftFromInput();
@@ -8480,11 +8497,17 @@ window.NCE_ZH_OVERRIDES = [
       state.wrongIndex = -1;
       $("answerReveal").classList.remove("hidden");
       $("answerReveal").innerHTML = renderAnswerCard(state.current.sentence);
+      const answerSentence = state.current.sentence, answerCourse = state.selectedCourseId, answerLesson = state.selectedLesson.id;
+      const loading = window.ensureLessonUnderstanding(answerCourse, answerLesson);
+      if (loading) void loading.then(() => {
+        if (state.phase === "answerRevealed" && state.current?.sentence === answerSentence && state.selectedCourseId === answerCourse && state.selectedLesson.id === answerLesson) $("answerReveal").innerHTML = renderAnswerCard(answerSentence);
+      }).catch(() => {});
       $("feedback").className = "feedback";
       $("feedback").innerHTML = "";
       renderWordSlots();
       updateControls();
       focusSentenceInput();
+      restoreSelection();
     }
 
     function retryCurrentQuestion() {

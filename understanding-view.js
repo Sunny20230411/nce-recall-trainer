@@ -37,10 +37,13 @@
     event.stopPropagation();
     if (!event.repeat) button.click();
   }, true);
-  window.renderSentenceUnderstanding = function ({ sentence, courseId, lessonId, sentenceOrder, legacyAnalysis, manualStructure, roleLabels = {} }) {
+  window.getSentenceUnderstandingRecord = function ({ sentence, courseId, lessonId, sentenceOrder }) {
     const candidates = (window.SENTENCE_UNDERSTANDING?.records || []).filter(item => item.courseId === courseId && item.lessonId === lessonId && item.english === sentence.english && item.analysisStatus === 'approved');
     // Practice grouping can differ from the stored source order; never guess between repeated sentences.
-    const record = candidates.find(item => item.sentenceId === sentence.id) || candidates.find(item => item.sentenceOrder === sentenceOrder) || (candidates.length === 1 ? candidates[0] : undefined);
+    return candidates.find(item => item.sentenceId === sentence.id) || candidates.find(item => item.sentenceOrder === sentenceOrder) || (candidates.length === 1 ? candidates[0] : undefined);
+  };
+  window.renderSentenceUnderstanding = function ({ sentence, courseId, lessonId, sentenceOrder, legacyAnalysis, manualStructure, roleLabels = {} }) {
+    const record = window.getSentenceUnderstandingRecord({ sentence, courseId, lessonId, sentenceOrder });
     const words = (record?.words || legacyAnalysis.tokens.map(token => ({ text: `${token.displayText || token.text || ''}${token.punctuation || ''}`, phonetic: token.phonetic, meaning: token.translation, pos: token.posLabel }))).map((word, index) => ({ ...word, phonetic: window.britishPhoneticFor(word.text, word.phonetic, record?.parentEnglish || sentence.parentEnglish || sentence.english, (record?.tokenOffset || sentence.tokenOffset || 0) + index) || '待确认' }));
     const structures = manualStructure ? legacyAnalysis.groups.map(group => ({ text: legacyAnalysis.tokens.slice(group.startToken, group.endToken + 1).map(token => `${token.displayText || token.text || ''}${token.punctuation || ''}`).join(' '), role: group.label || roleLabels[group.type]?.[0] || group.type, explanation: '' })) : record?.structures || [];
     const editorialTip = window.SENTENCE_UNDERSTANDING?.teacherTips?.records.find(tip => tip.courseId === courseId && tip.lessonId === lessonId && tip.sentenceId === record?.sentenceId && tip.english === sentence.english);
