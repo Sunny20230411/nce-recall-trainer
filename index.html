@@ -518,7 +518,7 @@
     }
 
     .preview-main h2 {
-      font-size: 34px;
+      font-size: 26px;
       margin-bottom: 8px;
     }
 
@@ -531,6 +531,12 @@
 
     button.badge {
       font: inherit;
+    }
+    #lessonInfo .badge {
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 1.4;
     }
 
     .history-mistake-trigger {
@@ -617,16 +623,14 @@
 
     .text-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
       gap: 16px;
       margin: 22px 0;
     }
 
     .text-box {
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: rgba(255, 255, 255, .03);
-      padding: 18px;
+      min-width: 0;
+      padding: 0;
     }
 
     .text-box h3 {
@@ -664,7 +668,7 @@
     .preview-sentence { display: flex; align-items: baseline; gap: 8px; }
     .preview-sentence span { flex: 1; min-width: 0; overflow-wrap: anywhere; }
     .preview-sentence button { flex: none; }
-    .preview-sentence-actions { display: flex; gap: 4px; flex: none; }
+    .preview-sentence-actions { display: flex; gap: 4px; flex: none; margin-right: -8px; }
     #analysisView { max-width: 900px; margin: auto; padding-bottom: 84px; }
     .analysis-navigation { position: sticky; bottom: 8px; display: flex; justify-content: center; gap: 8px; padding: 10px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
     .practice {
@@ -2033,7 +2037,6 @@
 
     body[data-theme="light"] .panel,
     body[data-theme="light"] .stat,
-    body[data-theme="light"] .text-box,
     body[data-theme="light"] .summary-item,
     body[data-theme="light"] .mistake {
       background: rgba(255, 255, 255, .82);
@@ -2598,7 +2601,6 @@
           </aside>
           <div class="panel preview-main">
             <h2 id="previewTitle"></h2>
-            <p class="preview-copy" id="previewIntro"></p>
             <div class="lesson-info" id="lessonInfo"></div>
             <section class="history-mistakes hidden" id="historyMistakesPanel" aria-labelledby="historyMistakesTitle">
               <div class="history-mistake-head">
@@ -7246,7 +7248,6 @@ window.NCE_ZH_OVERRIDES = [
       renderLessonDirectory();
       const status = record.completed ? "已完成" : record.progress > 0 ? "学习中" : "未开始";
       $("previewTitle").textContent = lesson.title;
-      $("previewIntro").textContent = lesson.intro;
       $("lessonInfo").innerHTML = `
         <span class="badge">${lesson.sentences.length} 句</span>
         <span class="badge ${record.completed ? "done" : record.progress > 0 ? "active" : ""}">${status}</span>
@@ -7258,7 +7259,7 @@ window.NCE_ZH_OVERRIDES = [
       `;
       renderHistoricalMistakes(lesson);
       window.refreshVocabulary?.();
-      $("englishText").innerHTML = lesson.sentences.map((item, index) => `<li><div class="preview-sentence"><span>${escapeHtml(item.english)}</span><div class="preview-sentence-actions"><button class="preview-play" type="button" data-sentence="${index}" title="播放第 ${index + 1} 句" aria-label="播放第 ${index + 1} 句" aria-pressed="false">播放</button><button class="preview-play" type="button" data-analysis="${index}" aria-label="解析第 ${index + 1} 句">解析</button></div></div></li>`).join("");
+      $("englishText").innerHTML = lesson.sentences.map((item, index) => `<li><div class="preview-sentence"><span>${escapeHtml(item.english)}</span><div class="preview-sentence-actions"><button class="preview-play" type="button" data-analysis="${index}" aria-label="解析第 ${index + 1} 句">解析</button><button class="preview-play" type="button" data-sentence="${index}" title="播放第 ${index + 1} 句" aria-label="播放第 ${index + 1} 句" aria-pressed="false">播放</button></div></div></li>`).join("");
       $("englishText").querySelectorAll("[data-analysis]").forEach(button => {
         button.onclick = () => openSentenceAnalysis(Number(button.dataset.analysis));
       });
