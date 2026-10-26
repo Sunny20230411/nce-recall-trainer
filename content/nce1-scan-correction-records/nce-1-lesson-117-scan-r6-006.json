@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-117",
+    "sentenceId": "nce-1-lesson-117-scan-r6-006",
+    "sentenceOrder": 6,
+    "english": "We both tried to get the coins, but it was too late.",
+    "chinese": "我们俩都试着把硬币拿出来，但已经太晚了。",
+    "intent": "叙述父母试图阻止却未能成功",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "We both",
+        "relation": "参与者",
+        "meaning": "我们俩都"
+      },
+      {
+        "text": "tried to get the coins,",
+        "relation": "补救尝试",
+        "meaning": "试着拿出硬币"
+      },
+      {
+        "text": "but it was too late.",
+        "relation": "转折结果",
+        "meaning": "但已经太晚了"
+      }
+    ],
+    "notes": [
+      {
+        "title": "努力做某事",
+        "text": "try to do 表示努力或试图完成动作；both 此处总括主语 we。"
+      },
+      {
+        "title": "情境代词",
+        "text": "it 指当时的情势，不指某一枚硬币。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "努力做某事",
+        "text": "try to do 表示努力或试图完成动作；both 此处总括主语 we。"
+      },
+      {
+        "title": "情境代词",
+        "text": "it 指当时的情势，不指某一枚硬币。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "We",
+        "role": "主语",
+        "explanation": "父母二人"
+      },
+      {
+        "text": "both",
+        "role": "主语范围补充",
+        "explanation": "both 强调两个人都参与"
+      },
+      {
+        "text": "tried",
+        "role": "谓语",
+        "explanation": "尝试"
+      },
+      {
+        "text": "to get the coins,",
+        "role": "宾语",
+        "explanation": "不定式说明尝试做的事"
+      },
+      {
+        "text": "the coins,",
+        "role": "不定式宾语",
+        "explanation": "想拿出的硬币"
+      },
+      {
+        "text": "but",
+        "role": "连接成分",
+        "explanation": "引出相反结果"
+      },
+      {
+        "text": "it",
+        "role": "主语",
+        "explanation": "指当时情势"
+      },
+      {
+        "text": "was",
+        "role": "系动词",
+        "explanation": "连接情势与判断"
+      },
+      {
+        "text": "too late.",
+        "role": "表语",
+        "explanation": "表示为时过晚"
+      }
+    ],
+    "words": [
+      {
+        "text": "We",
+        "meaning": "我们",
+        "pos": "代词",
+        "phonetic": "/wiː/"
+      },
+      {
+        "text": "both",
+        "meaning": "两人都",
+        "pos": "代词",
+        "phonetic": "/bəʊθ/"
+      },
+      {
+        "text": "tried",
+        "meaning": "试图；努力",
+        "pos": "动词",
+        "phonetic": "/traɪd/"
+      },
+      {
+        "text": "to",
+        "meaning": "（引出不定式）",
+        "pos": "不定式标记",
+        "phonetic": "/tə/"
+      },
+      {
+        "text": "get",
+        "meaning": "拿到；取出",
+        "pos": "动词",
+        "phonetic": "/ɡet/"
+      },
+      {
+        "text": "the",
+        "meaning": "这些",
+        "pos": "冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "coins,",
+        "meaning": "硬币",
+        "pos": "名词",
+        "phonetic": "/kɔɪnz/"
+      },
+      {
+        "text": "but",
+        "meaning": "但是",
+        "pos": "连词",
+        "phonetic": "/bət/"
+      },
+      {
+        "text": "it",
+        "meaning": "（指当时情势）",
+        "pos": "代词",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "text": "was",
+        "meaning": "是；处于",
+        "pos": "系动词",
+        "phonetic": "/wəz/"
+      },
+      {
+        "text": "too",
+        "meaning": "太；过于",
+        "pos": "副词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "late.",
+        "meaning": "迟的；晚的",
+        "pos": "形容词",
+        "phonetic": "/leɪt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "两人都努力取硬币，转折说为时已晚。",
+      "letterShape": "W_ b___ t____ t_ g__ t__ c____, b__ i_ w__ t__ l___.",
+      "answerNote": "try 后用不定式；too late 说明来不及。"
+    },
+    "teacherTip": {
+      "text": "tried to get 说明确实作了努力，却不保证拿到了。紧接的 too late 告诉读者补救已来不及；叙述尝试失败时，不必把‘失败’另说一遍。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

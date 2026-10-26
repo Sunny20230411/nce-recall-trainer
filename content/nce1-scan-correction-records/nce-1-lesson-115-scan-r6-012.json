@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-115",
+    "sentenceId": "nce-1-lesson-115-scan-r6-012",
+    "sentenceOrder": 12,
+    "english": "Everyone's in the garden.",
+    "chinese": "大家都在花园里。",
+    "intent": "指出原来众人都在花园",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Everyone's",
+        "relation": "全体人员",
+        "meaning": "大家都在"
+      },
+      {
+        "text": "in the garden.",
+        "relation": "发现的地点",
+        "meaning": "花园里"
+      }
+    ],
+    "notes": [
+      {
+        "title": "单数形式",
+        "text": "Everyone's 是 Everyone is；everyone 指所有人，但语法上按单数使用。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "单数形式",
+        "text": "Everyone's 是 Everyone is；everyone 指所有人，但语法上按单数使用。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Everyone's",
+        "role": "主语与系动词",
+        "explanation": "everyone 为单数主语，is 连接所在位置"
+      },
+      {
+        "text": "in the garden.",
+        "role": "表语",
+        "explanation": "说明所有人所在的地点"
+      }
+    ],
+    "words": [
+      {
+        "text": "Everyone's",
+        "meaning": "每个人（含 is）",
+        "pos": "不定代词与系动词缩写",
+        "phonetic": "/ˈevriwʌnz/"
+      },
+      {
+        "text": "in",
+        "meaning": "在……里面",
+        "pos": "介词",
+        "phonetic": "/ɪn/"
+      },
+      {
+        "text": "the",
+        "meaning": "这个（特指）",
+        "pos": "冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "garden.",
+        "meaning": "花园",
+        "pos": "名词",
+        "phonetic": "/ˈɡɑːdən/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "发现每个人原来都在花园，主语按单数连接位置。",
+      "letterShape": "E_______'_ i_ t__ g_____.",
+      "answerNote": "everyone 后用 is，缩写与后面的地点短语构成完整句。"
+    },
+    "teacherTip": {
+      "text": "前面误以为没人，现在发现的是“人都在哪里”，所以直接用 everyone 作主语交代位置。说大家都在某处，不必再额外加 all，everyone 本身已包含每一个人。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

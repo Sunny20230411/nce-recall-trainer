@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-37",
+    "sentenceId": "nce-1-lesson-037-sentence-002",
+    "sentenceOrder": 12,
+    "english": "I'm going to paint it.",
+    "chinese": "我打算给它刷漆。",
+    "intent": "回答对方关于下一步打算的问题，说明即将进行的动作",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I'm going to",
+        "relation": "主语+打算的表达",
+        "meaning": "我打算"
+      },
+      {
+        "text": "paint it.",
+        "relation": "动作+对象",
+        "meaning": "给它刷漆"
+      }
+    ],
+    "notes": [
+      {
+        "title": "be going to 陈述句",
+        "text": "I'm going to 后接动词原形paint，说明自己的打算。"
+      },
+      {
+        "title": "it的指代",
+        "text": "it指代前面提到的bookcase，避免重复。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "be going to 陈述句",
+        "text": "I'm going to 后接动词原形paint，说明自己的打算。"
+      },
+      {
+        "title": "it的指代",
+        "text": "it指代前面提到的bookcase，避免重复。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I'm going to paint it.",
+        "role": "陈述句主干",
+        "explanation": "主语I + be going to + 动词原形paint + 宾语it"
+      },
+      {
+        "text": "I'm going to",
+        "role": "主语与将来表达",
+        "explanation": "I'm going to 表示说话人当下的打算"
+      },
+      {
+        "text": "paint it.",
+        "role": "谓语与宾语",
+        "explanation": "paint是动作，it是动作的对象"
+      }
+    ],
+    "words": [
+      {
+        "text": "I'm",
+        "meaning": "我是（I am的缩写）",
+        "pos": "人称代词+助动词",
+        "phonetic": "/aɪm/"
+      },
+      {
+        "text": "going",
+        "meaning": "将要，打算",
+        "pos": "动词现在分词",
+        "phonetic": "/ˈɡəʊɪŋ/"
+      },
+      {
+        "text": "to",
+        "meaning": "（不定式符号，无实义）",
+        "pos": "不定式小品词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "paint",
+        "meaning": "给……刷漆",
+        "pos": "动词",
+        "phonetic": "/peɪnt/"
+      },
+      {
+        "text": "it.",
+        "meaning": "它",
+        "pos": "人称代词",
+        "phonetic": "/ɪt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说“我打算”，再接动作，对象用it代替前面说过的书架。",
+      "letterShape": "I'_ g____ t_ p____ i_.",
+      "answerNote": "be going to表示打算，it指代上文的书架，避免重复。"
+    },
+    "teacherTip": {
+      "text": "上文刚提到bookcase，这里用it指代，不用重复名词，对话里更简洁自然。回答打算类问题时，只要对象双方都清楚，直接用it/them代替就行。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "原文符合新概念英语第37课内容，各字段校验无误。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。原文符合新概念英语第37课内容，各字段校验无误。"
+  }
+}

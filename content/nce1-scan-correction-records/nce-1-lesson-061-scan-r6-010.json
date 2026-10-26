@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-61",
+    "sentenceId": "nce-1-lesson-061-scan-r6-010",
+    "sentenceOrder": 10,
+    "english": "It's 09754.",
+    "chinese": "是09754。",
+    "intent": "报出医生的电话号码，回应对方关于电话号码的询问。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "It's 09754.",
+        "relation": "核心答句，给出电话号码",
+        "meaning": "是09754。"
+      }
+    ],
+    "notes": [
+      {
+        "title": "简略回答",
+        "text": "承接上文“医生的电话号码”的问题，用It's直接报出号码，省略重复的名词短语。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "简略回答",
+        "text": "承接上文“医生的电话号码”的问题，用It's直接报出号码，省略重复的名词短语。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "It's 09754.",
+        "role": "主系表结构",
+        "explanation": "It指代上文提到的电话号码，'s是is的缩写，09754作表语。"
+      }
+    ],
+    "words": [
+      {
+        "text": "It's",
+        "meaning": "（it is的缩写）它是",
+        "pos": "代词+be动词缩写",
+        "phonetic": "/ɪts/"
+      },
+      {
+        "text": "09754.",
+        "meaning": "09754（电话号码）",
+        "pos": "数词",
+        "phonetic": "/ˈzɪərəʊ ˈnaɪn ˈsevn ˈfaɪv fɔː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "回答号码时用It's直接接数字，不用重复问句里的名词。",
+      "letterShape": "I_'_ 0____.",
+      "answerNote": "It's用来承接上文提到的事物，这里直接报电话号码。"
+    },
+    "teacherTip": {
+      "text": "回答号码这类简短信息时用It's承接上文，因为电话号码已经在问句里提过，不用重复the doctor's telephone number。以后报门牌号、房间号也可以用It's直接带出数字。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "复核通过，原文、词义、结构均准确，名师提点符合表达逻辑。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。复核通过，原文、词义、结构均准确，名师提点符合表达逻辑。"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-117",
+    "sentenceId": "nce-1-lesson-117-scan-r6-007",
+    "sentenceOrder": 7,
+    "english": "Tommy had already swallowed them!",
+    "chinese": "汤米已经把它们吞下去了！",
+    "intent": "揭示为何补救太迟",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Tommy",
+        "relation": "行动者",
+        "meaning": "汤米"
+      },
+      {
+        "text": "had already swallowed them!",
+        "relation": "先发生的结果",
+        "meaning": "已经把它们吞下去了"
+      }
+    ],
+    "notes": [
+      {
+        "title": "过去完成时",
+        "text": "had swallowed 以父母试图取硬币时为过去参照点，说明吞咽更早发生。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "过去完成时",
+        "text": "had swallowed 以父母试图取硬币时为过去参照点，说明吞咽更早发生。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Tommy",
+        "role": "主语",
+        "explanation": "吞下硬币的人"
+      },
+      {
+        "text": "had already swallowed",
+        "role": "谓语",
+        "explanation": "过去完成时，already 加强已完成的意义"
+      },
+      {
+        "text": "them!",
+        "role": "宾语",
+        "explanation": "指那两枚硬币"
+      }
+    ],
+    "words": [
+      {
+        "text": "Tommy",
+        "meaning": "汤米",
+        "pos": "专有名词",
+        "phonetic": "/ˈtɒmi/"
+      },
+      {
+        "text": "had",
+        "meaning": "（构成过去完成时）",
+        "pos": "助动词",
+        "phonetic": "/həd/"
+      },
+      {
+        "text": "already",
+        "meaning": "已经",
+        "pos": "副词",
+        "phonetic": "/ɔːlˈredi/"
+      },
+      {
+        "text": "swallowed",
+        "meaning": "吞下",
+        "pos": "动词",
+        "phonetic": "/ˈswɒləʊd/"
+      },
+      {
+        "text": "them!",
+        "meaning": "它们",
+        "pos": "代词",
+        "phonetic": "/ðəm/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "回看父母补救之前，吞硬币这件事已经完成。",
+      "letterShape": "T____ h__ a______ s________ t___!",
+      "answerNote": "had 加过去分词表示过去参照点之前的事。"
+    },
+    "teacherTip": {
+      "text": "故事已经讲到父母伸手补救，这句再回头揭示：在那个时刻之前，硬币就吞下去了。had swallowed 标出‘过去的那个时刻以前’，不是单纯把‘已经’换成英文。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-63",
+    "sentenceId": "nce-1-lesson-063-sentence-008-part-01",
+    "sentenceOrder": 10,
+    "english": "The boy mustn't go to school yet, Mrs. Williams.",
+    "chinese": "这个男孩还不能去上学，威廉斯夫人。",
+    "intent": "医生告知家长孩子目前还不可以去上学，强调禁令和时间限制",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "The boy",
+        "relation": "句子谈论的对象",
+        "meaning": "这个男孩"
+      },
+      {
+        "text": "mustn't go to school",
+        "relation": "核心禁令内容",
+        "meaning": "不可以去上学"
+      },
+      {
+        "text": "yet,",
+        "relation": "时间限定，强调目前还不行",
+        "meaning": "还"
+      },
+      {
+        "text": "Mrs. Williams.",
+        "relation": "称呼，听话人身份",
+        "meaning": "威廉斯夫人。"
+      }
+    ],
+    "notes": [
+      {
+        "title": "mustn't 的用法",
+        "text": "mustn't 表示“禁止、不可以”，用来给出明确的不允许做某事的要求。"
+      },
+      {
+        "title": "yet 表“还、尚”",
+        "text": "yet 常用于否定句或疑问句，强调到目前为止的情况，暗含后续可能变化。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "mustn't 的用法",
+        "text": "mustn't 表示“禁止、不可以”，用来给出明确的不允许做某事的要求。"
+      },
+      {
+        "title": "yet 表“还、尚”",
+        "text": "yet 常用于否定句或疑问句，强调到目前为止的情况，暗含后续可能变化。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "The boy mustn't go to school yet,",
+        "role": "陈述句主干（主谓结构）",
+        "explanation": "The boy 是主语，mustn't go to school 是带情态动词否定的谓语部分，yet 作状语修饰全句。"
+      },
+      {
+        "text": "Mrs. Williams.",
+        "role": "呼语",
+        "explanation": "对听话人的称呼，用逗号与主句隔开。"
+      }
+    ],
+    "words": [
+      {
+        "text": "The",
+        "meaning": "这个（定冠词，表特指）",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "boy",
+        "meaning": "男孩",
+        "pos": "名词",
+        "phonetic": "/bɔɪ/"
+      },
+      {
+        "text": "mustn't",
+        "meaning": "不可以，不准（must not 的缩写）",
+        "pos": "情态动词否定式",
+        "phonetic": "/ˈmʌsnt/"
+      },
+      {
+        "text": "go",
+        "meaning": "去",
+        "pos": "动词",
+        "phonetic": "/ɡəʊ/"
+      },
+      {
+        "text": "to",
+        "meaning": "到，向",
+        "pos": "介词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "school",
+        "meaning": "学校",
+        "pos": "名词",
+        "phonetic": "/skuːl/"
+      },
+      {
+        "text": "yet,",
+        "meaning": "还，尚（后接逗号）",
+        "pos": "副词",
+        "phonetic": "/jet/"
+      },
+      {
+        "text": "Mrs.",
+        "meaning": "夫人，太太",
+        "pos": "称呼名词",
+        "phonetic": "/ˈmɪsɪz/"
+      },
+      {
+        "text": "Williams.",
+        "meaning": "威廉斯。",
+        "pos": "姓氏",
+        "phonetic": "/ˈwɪljəmz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先讲“这个男孩不能上学”，再补“还”的时间意味，最后加称呼。",
+      "letterShape": "T__ b__ m____'_ g_ t_ s_____ y__, M__. W_______.",
+      "answerNote": "用 mustn't 表示禁令，用 yet 强调目前还不行。"
+    },
+    "teacherTip": {
+      "text": "mustn't 在这里是医生依病情给出的明确禁令，意思是“不可以、不准”，不是单纯的“不必”。yet 放在否定句末补充“到目前还不行”的时间意味，暗含以后会放宽；中文常把“还”放在动词前，英语则习惯用 yet 放在句末或否定结构附近。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已复核：句子与原文一致，称呼修正为 Mrs. Williams 对应“威廉斯夫人”，词义与说明准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已复核：句子与原文一致，称呼修正为 Mrs. Williams 对应“威廉斯夫人”，词义与说明准确。"
+  }
+}

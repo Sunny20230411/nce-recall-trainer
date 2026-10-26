@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-131",
+    "sentenceId": "nce-1-lesson-131-scan-r6-003",
+    "sentenceOrder": 3,
+    "english": "I'm not sure.",
+    "chinese": "我还不确定。",
+    "intent": "表示出国度假的计划尚未确定",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I'm not sure.",
+        "relation": "表达尚未确定",
+        "meaning": "我还不确定"
+      }
+    ],
+    "notes": [
+      {
+        "title": "状态表达",
+        "text": "sure 是表语，not 否定这种确定的状态；具体不确定什么由上文补足。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "状态表达",
+        "text": "sure 是表语，not 否定这种确定的状态；具体不确定什么由上文补足。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I'm",
+        "role": "主语和系动词",
+        "explanation": "I'm 为 I am 的缩合"
+      },
+      {
+        "text": "not sure.",
+        "role": "表语及否定成分",
+        "explanation": "表示并不确定"
+      }
+    ],
+    "words": [
+      {
+        "text": "I'm",
+        "meaning": "我（是）",
+        "pos": "代词与系动词缩合",
+        "phonetic": "/aɪm/"
+      },
+      {
+        "text": "not",
+        "meaning": "不；尚未",
+        "pos": "否定副词",
+        "phonetic": "/nɒt/"
+      },
+      {
+        "text": "sure.",
+        "meaning": "确定的",
+        "pos": "形容词",
+        "phonetic": "/ʃʊə/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "刚提到可能出国，再简短说明还没确定。",
+      "letterShape": "I'_ n__ s___.",
+      "answerNote": "用 be not sure 表达不确定的状态。"
+    },
+    "teacherTip": {
+      "text": "前面用了 may 说可能出国，这里补一句 I'm not sure，把计划尚未敲定说清楚。日常回答不必总把不确定的事情再复述一遍，语境已经提供了对象。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

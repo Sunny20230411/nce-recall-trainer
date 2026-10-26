@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-019",
+    "sentenceOrder": 19,
+    "english": "Aren't you lucky!",
+    "chinese": "你们真幸运啊！",
+    "intent": "对他人的度假安排表示羡慕的感叹",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Aren't you lucky!",
+        "relation": "感叹内容",
+        "meaning": "你可真幸运啊"
+      }
+    ],
+    "notes": [
+      {
+        "title": "否定疑问式感叹",
+        "text": "Aren't you lucky! 是口语常用的感叹句式，用反问形式强化羡慕、赞叹的语气，不需要回答。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "否定疑问式感叹",
+        "text": "Aren't you lucky! 是口语常用的感叹句式，用反问形式强化羡慕、赞叹的语气，不需要回答。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Aren't",
+        "role": "系动词+否定词（前置）",
+        "explanation": "Aren't 是are not的缩写，置于句首构成疑问语序，这里表感叹。"
+      },
+      {
+        "text": "you",
+        "role": "主语",
+        "explanation": "you 指代对方，这里指Sam。"
+      },
+      {
+        "text": "lucky!",
+        "role": "表语",
+        "explanation": "lucky 是形容词，说明主语的状态。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Aren't",
+        "meaning": "（are not 的缩写，表反问感叹）",
+        "pos": "系动词缩约形式",
+        "phonetic": "/ɑːnt/"
+      },
+      {
+        "text": "you",
+        "meaning": "你",
+        "pos": "人称代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "lucky!",
+        "meaning": "幸运的",
+        "pos": "形容词",
+        "phonetic": "/ˈlʌki/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "用否定疑问的句式来表达强烈的羡慕感慨。",
+      "letterShape": "A___'_ y__ l____!",
+      "answerNote": "这是感叹句，不是真的提问，意思是“你真幸运”。"
+    },
+    "teacherTip": {
+      "text": "这是用否定疑问句形式表达的感叹，不是真的在提问，而是带着羡慕强调“你可真幸运”。口语里常用Aren't you ...! 加强感慨语气，比陈述句You're lucky! 情绪更浓。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "句子与扫描原文一致，教学数据符合要求。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。句子与扫描原文一致，教学数据符合要求。"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-127",
+    "sentenceId": "nce-1-lesson-127-scan-r6-018",
+    "sentenceOrder": 18,
+    "english": "She was a famous actress when I was still at school.",
+    "chinese": "我还在上学的时候，她就已经是个著名的女演员了。",
+    "intent": "用自己的早年记忆支持年龄判断",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "She was a famous actress",
+        "relation": "过去的身份",
+        "meaning": "她那时是著名女演员"
+      },
+      {
+        "text": "when I was still at school.",
+        "relation": "时间参照",
+        "meaning": "我还在上学的时候"
+      }
+    ],
+    "notes": [
+      {
+        "title": "过去时间对应",
+        "text": "两个 was 都指过去同一时期；中文可用‘就已经’体现语境，但英文没有使用完成时。"
+      },
+      {
+        "title": "在校状态",
+        "text": "at school 表示在上学，不加冠词。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "过去时间对应",
+        "text": "两个 was 都指过去同一时期；中文可用‘就已经’体现语境，但英文没有使用完成时。"
+      },
+      {
+        "title": "在校状态",
+        "text": "at school 表示在上学，不加冠词。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "She",
+        "role": "主语",
+        "explanation": "指女演员"
+      },
+      {
+        "text": "was",
+        "role": "系动词",
+        "explanation": "说明过去的身份"
+      },
+      {
+        "text": "a famous actress",
+        "role": "表语",
+        "explanation": "当时的职业和知名程度"
+      },
+      {
+        "text": "when I was still at school.",
+        "role": "时间状语从句",
+        "explanation": "以说话人上学时期作参照"
+      },
+      {
+        "text": "I",
+        "role": "从句主语",
+        "explanation": "说话人"
+      },
+      {
+        "text": "was",
+        "role": "从句系动词",
+        "explanation": "连接当时状态"
+      },
+      {
+        "text": "still",
+        "role": "从句状语",
+        "explanation": "强调上学状态仍持续"
+      },
+      {
+        "text": "at school.",
+        "role": "从句表语",
+        "explanation": "当时处于上学阶段"
+      }
+    ],
+    "words": [
+      {
+        "text": "She",
+        "meaning": "她",
+        "pos": "代词",
+        "phonetic": "/ʃiː/"
+      },
+      {
+        "text": "was",
+        "meaning": "是（过去）",
+        "pos": "系动词",
+        "phonetic": "/wəz/"
+      },
+      {
+        "text": "a",
+        "meaning": "一位",
+        "pos": "冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "famous",
+        "meaning": "著名的",
+        "pos": "形容词",
+        "phonetic": "/ˈfeɪməs/"
+      },
+      {
+        "text": "actress",
+        "meaning": "女演员",
+        "pos": "名词",
+        "phonetic": "/ˈæktrəs/"
+      },
+      {
+        "text": "when",
+        "meaning": "当……时",
+        "pos": "连词",
+        "phonetic": "/wen/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "was",
+        "meaning": "处于（过去）",
+        "pos": "系动词",
+        "phonetic": "/wəz/"
+      },
+      {
+        "text": "still",
+        "meaning": "还；仍然",
+        "pos": "副词",
+        "phonetic": "/stɪl/"
+      },
+      {
+        "text": "at",
+        "meaning": "在（at school：上学）",
+        "pos": "介词",
+        "phonetic": "/ət/"
+      },
+      {
+        "text": "school.",
+        "meaning": "学校（此处指上学状态）",
+        "pos": "名词",
+        "phonetic": "/skuːl/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "她成名的过去，以我仍在上学的时期来定位。",
+      "letterShape": "S__ w__ a f_____ a______ w___ I w__ s____ a_ s_____.",
+      "answerNote": "一般过去时对应同一时期，still at school 指还在上学。"
+    },
+    "teacherTip": {
+      "text": "说自己还在上学时她就成名，是拿个人经历支持‘她不年轻了’的判断。still 强调自己当时尚处学生阶段；at school 在这里说上学的状态，不只是在学校建筑里。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

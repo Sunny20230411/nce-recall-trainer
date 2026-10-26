@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-129",
+    "sentenceId": "nce-1-lesson-129-scan-r6-013",
+    "sentenceOrder": 13,
+    "english": "I was telling him to drive slowly.",
+    "chinese": "我当时正在叫他开慢点。",
+    "intent": "说明自己当时一直在提醒司机减速",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I was telling him",
+        "relation": "当时的提醒行为",
+        "meaning": "我正在提醒他"
+      },
+      {
+        "text": "to drive slowly.",
+        "relation": "提醒的内容",
+        "meaning": "开慢一点"
+      }
+    ],
+    "notes": [
+      {
+        "title": "要求某人做事",
+        "text": "tell somebody to do something 中，him 是 tell 的宾语，也是 drive 的逻辑主语。"
+      },
+      {
+        "title": "方式修饰",
+        "text": "slowly 修饰 drive，说明开车的方式。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "要求某人做事",
+        "text": "tell somebody to do something 中，him 是 tell 的宾语，也是 drive 的逻辑主语。"
+      },
+      {
+        "title": "方式修饰",
+        "text": "slowly 修饰 drive，说明开车的方式。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "说话的乘客"
+      },
+      {
+        "text": "was telling",
+        "role": "谓语",
+        "explanation": "过去进行时描述当时的提醒"
+      },
+      {
+        "text": "him",
+        "role": "宾语",
+        "explanation": "接受提醒的人"
+      },
+      {
+        "text": "to drive slowly.",
+        "role": "宾语补足语",
+        "explanation": "不定式说明要求他做什么"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "was",
+        "meaning": "（构成过去进行时）",
+        "pos": "助动词",
+        "phonetic": "/wɒz/"
+      },
+      {
+        "text": "telling",
+        "meaning": "叫；嘱咐",
+        "pos": "动词",
+        "phonetic": "/ˈtelɪŋ/"
+      },
+      {
+        "text": "him",
+        "meaning": "他",
+        "pos": "代词",
+        "phonetic": "/hɪm/"
+      },
+      {
+        "text": "to",
+        "meaning": "（引出不定式）",
+        "pos": "不定式标记",
+        "phonetic": "/tuː/（元音前弱读为/tə/）"
+      },
+      {
+        "text": "drive",
+        "meaning": "驾驶；开车",
+        "pos": "动词",
+        "phonetic": "/draɪv/"
+      },
+      {
+        "text": "slowly.",
+        "meaning": "慢慢地",
+        "pos": "副词",
+        "phonetic": "/ˈsləʊli/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "乘客说自己当时正在嘱咐司机，内容是开慢些。",
+      "letterShape": "I w__ t______ h__ t_ d____ s_____.",
+      "answerNote": "用 tell somebody to do 表达嘱咐某人做某事。"
+    },
+    "teacherTip": {
+      "text": "tell him to drive slowly 说的是“叫他怎么做”，不是把一句关于驾驶的话告诉他。用 was telling 把提醒放回当时的现场；是否照做并不包含在 tell 本身的意思里。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

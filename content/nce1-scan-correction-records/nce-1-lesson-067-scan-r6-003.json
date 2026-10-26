@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-67",
+    "sentenceId": "nce-1-lesson-067-scan-r6-003",
+    "sentenceOrder": 3,
+    "english": "Yes, I was.",
+    "chinese": "是的，我在。",
+    "intent": "对一般疑问句作肯定回答，确认自己当时在肉店。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Yes,",
+        "relation": "肯定标记",
+        "meaning": "是的，"
+      },
+      {
+        "text": "I was.",
+        "relation": "主语+be动词（简略回答）",
+        "meaning": "我在。"
+      }
+    ],
+    "notes": [
+      {
+        "title": "be动词疑问句的简略肯定回答",
+        "text": "结构为 Yes, 主语 + be动词过去式。这里主语是I，be动词用was，和问句的you对应转换。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "be动词疑问句的简略肯定回答",
+        "text": "结构为 Yes, 主语 + be动词过去式。这里主语是I，be动词用was，和问句的you对应转换。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Yes, I was.",
+        "role": "简略肯定答句",
+        "explanation": "由肯定副词yes加上主语I和be动词was构成，省略重复的表语部分。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Yes,",
+        "meaning": "是的，对",
+        "pos": "副词",
+        "phonetic": "/jes/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "was.",
+        "meaning": "是（be的过去式，第一人称单数，这里表示在某地）",
+        "pos": "动词",
+        "phonetic": "/wɒz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "回答Were you...? 的肯定式，记得把you换成I，be动词换成was。",
+      "letterShape": "Y__, I w__.",
+      "answerNote": "Yes开头，主语I后面接was，省略重复的地点。"
+    },
+    "teacherTip": {
+      "text": "回答Were you...? 这类be动词疑问句，肯定答句只要说到主语加be动词就行，重复地点会显得啰嗦。注意you换成I，be动词也跟着变成was。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "内容符合原文，字段完整准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。内容符合原文，字段完整准确。"
+  }
+}

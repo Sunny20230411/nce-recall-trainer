@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-113",
+    "sentenceId": "nce-1-lesson-113-scan-r6-018",
+    "sentenceOrder": 18,
+    "english": "They're all millionaires!",
+    "chinese": "他们全都是百万富翁！",
+    "intent": "用夸张玩笑评论大家都没有零钱",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "They're",
+        "relation": "谈论对象",
+        "meaning": "他们是"
+      },
+      {
+        "text": "all",
+        "relation": "覆盖全部",
+        "meaning": "全都"
+      },
+      {
+        "text": "millionaires!",
+        "relation": "夸张身份",
+        "meaning": "百万富翁"
+      }
+    ],
+    "notes": [
+      {
+        "title": "全部范围",
+        "text": "all 指 they 所指的所有人；millionaires 用复数，对应复数主语。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "全部范围",
+        "text": "all 指 they 所指的所有人；millionaires 用复数，对应复数主语。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "They're",
+        "role": "主语与系动词",
+        "explanation": "they 为主语，are 连接身份"
+      },
+      {
+        "text": "all",
+        "role": "主语范围补充",
+        "explanation": "all 表明主语所指的人无一例外"
+      },
+      {
+        "text": "millionaires!",
+        "role": "表语",
+        "explanation": "赋予众人夸张的富豪身份"
+      }
+    ],
+    "words": [
+      {
+        "text": "They're",
+        "meaning": "他们（含系动词）",
+        "pos": "代词与系动词缩写",
+        "phonetic": "/ðeə/"
+      },
+      {
+        "text": "all",
+        "meaning": "全体；都",
+        "pos": "代词",
+        "phonetic": "/ɔːl/"
+      },
+      {
+        "text": "millionaires!",
+        "meaning": "百万富翁",
+        "pos": "名词",
+        "phonetic": "/ˌmɪljəˈneəz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "把他们全体夸张地说成富豪，用感叹语气。",
+      "letterShape": "T___'__ a__ m___________!",
+      "answerNote": "all 指所有人，复数身份名词与 they 对应。"
+    },
+    "teacherTip": {
+      "text": "没人拿得出零钱，售票员便开玩笑说大家都是百万富翁，好像只带大钞。这不是认真报告乘客的资产，而是借夸张化解换不开钱的窘境。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

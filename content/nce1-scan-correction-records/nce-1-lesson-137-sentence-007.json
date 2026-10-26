@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-137",
+    "sentenceId": "nce-1-lesson-137-sentence-007",
+    "sentenceOrder": 10,
+    "english": "If we win a lot of money we'll travel round the world and we'll stay at the best hotels.",
+    "chinese": "如果我们赢了很多钱，我们就去环游世界，住最好的旅馆。",
+    "intent": "设想中奖后安排旅行和住宿。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "If we win a lot of money",
+        "relation": "设想成立的前提",
+        "meaning": "如果我们赢了很多钱"
+      },
+      {
+        "text": "we'll travel round the world",
+        "relation": "中奖后的旅行打算",
+        "meaning": "我们就去环游世界"
+      },
+      {
+        "text": "and we'll stay at the best hotels.",
+        "relation": "追加住宿打算",
+        "meaning": "并住最好的旅馆"
+      }
+    ],
+    "notes": [
+      {
+        "title": "条件与将来安排",
+        "text": "If we win a lot of money 提出将来的可能条件，主句用 will 的缩写 we'll 表示届时的打算；条件部分通常用一般现在时。"
+      },
+      {
+        "title": "两个安排并列",
+        "text": "and 连接 we'll travel 和 we'll stay 两项打算；round the world 表示环游世界，at the best hotels 说明住宿地点。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "条件与将来安排",
+        "text": "If we win a lot of money 提出将来的可能条件，主句用 will 的缩写 we'll 表示届时的打算；条件部分通常用一般现在时。"
+      },
+      {
+        "title": "两个安排并列",
+        "text": "and 连接 we'll travel 和 we'll stay 两项打算；round the world 表示环游世界，at the best hotels 说明住宿地点。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "If we win a lot of money",
+        "role": "条件状语从句",
+        "explanation": "说明后面两项安排以中奖为前提。"
+      },
+      {
+        "text": "we'll travel round the world",
+        "role": "主句的第一项安排",
+        "explanation": "说明将去哪里旅行。"
+      },
+      {
+        "text": "we'll stay at the best hotels.",
+        "role": "并列分句",
+        "explanation": "追加入住最好的旅馆这一安排。"
+      }
+    ],
+    "words": [
+      {
+        "text": "If",
+        "meaning": "如果",
+        "pos": "连词",
+        "phonetic": "/ɪf/"
+      },
+      {
+        "text": "we",
+        "meaning": "我们",
+        "pos": "代词",
+        "phonetic": "/wiː/"
+      },
+      {
+        "text": "win",
+        "meaning": "赢得",
+        "pos": "动词",
+        "phonetic": "/wɪn/"
+      },
+      {
+        "text": "a",
+        "meaning": "（构成数量表达）",
+        "pos": "冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "lot",
+        "meaning": "大量（与a、of连用）",
+        "pos": "名词",
+        "phonetic": "/lɒt/"
+      },
+      {
+        "text": "of",
+        "meaning": "（连接数量与物品）",
+        "pos": "介词",
+        "phonetic": "/ɒv/"
+      },
+      {
+        "text": "money",
+        "meaning": "钱",
+        "pos": "名词",
+        "phonetic": "/ˈmʌni/"
+      },
+      {
+        "text": "we'll",
+        "meaning": "我们将会",
+        "pos": "代词与助动词缩写",
+        "phonetic": "/wiːl/ 或 /wɪl/"
+      },
+      {
+        "text": "travel",
+        "meaning": "旅行",
+        "pos": "动词",
+        "phonetic": "/ˈtrævl/"
+      },
+      {
+        "text": "round",
+        "meaning": "绕着、遍及",
+        "pos": "介词",
+        "phonetic": "/raʊnd/"
+      },
+      {
+        "text": "the",
+        "meaning": "（特指世界）",
+        "pos": "冠词",
+        "phonetic": "/ðə/ 或 /ðiː/"
+      },
+      {
+        "text": "world",
+        "meaning": "世界",
+        "pos": "名词",
+        "phonetic": "/wɜːld/"
+      },
+      {
+        "text": "and",
+        "meaning": "并且",
+        "pos": "连词",
+        "phonetic": "/ænd/"
+      },
+      {
+        "text": "we'll",
+        "meaning": "我们将会",
+        "pos": "代词与助动词缩写",
+        "phonetic": "/wiːl/ 或 /wɪl/"
+      },
+      {
+        "text": "stay",
+        "meaning": "住宿",
+        "pos": "动词",
+        "phonetic": "/steɪ/"
+      },
+      {
+        "text": "at",
+        "meaning": "在",
+        "pos": "介词",
+        "phonetic": "/æt/"
+      },
+      {
+        "text": "the",
+        "meaning": "（用于最高级前）",
+        "pos": "冠词",
+        "phonetic": "/ðə/ 或 /ðiː/"
+      },
+      {
+        "text": "best",
+        "meaning": "最好的",
+        "pos": "形容词最高级",
+        "phonetic": "/best/"
+      },
+      {
+        "text": "hotels.",
+        "meaning": "旅馆",
+        "pos": "名词",
+        "phonetic": "/həʊˈtelz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说中奖这个前提，再接环游世界和住宿两项打算。",
+      "letterShape": "I_ w_ w__ a l__ o_ m____ w_'__ t_____ r____ t__ w____ a__ w_'__ s___ a_ t__ b___ h_____.",
+      "answerNote": "条件部分与主句谈的是同一个将来设想，但各自采用适合的时态表达。"
+    },
+    "teacherTip": {
+      "text": "先把“如果中奖”设为前提，再说有了这笔钱准备怎样享受，旅行和住宿就能接在同一个设想里。这里是在谈将来的可能安排，if 后的 win 不表示事情现在已经发生；先分清前提与打算，再选择各自的表达。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

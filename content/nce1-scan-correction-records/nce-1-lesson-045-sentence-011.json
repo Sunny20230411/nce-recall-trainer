@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-45",
+    "sentenceId": "nce-1-lesson-045-sentence-011",
+    "sentenceOrder": 12,
+    "english": "Thank you, Bob.",
+    "chinese": "谢谢你，鲍勃。",
+    "intent": "向对方表达感谢并称呼对方名字",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Thank you,",
+        "relation": "核心致谢内容",
+        "meaning": "谢谢你"
+      },
+      {
+        "text": "Bob.",
+        "relation": "称呼对象",
+        "meaning": "鲍勃"
+      }
+    ],
+    "notes": [
+      {
+        "title": "thank you 后接称呼",
+        "text": "Thank you 后接人名作称呼时，中间用逗号隔开，表示向特定的人致谢。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "thank you 后接称呼",
+        "text": "Thank you 后接人名作称呼时，中间用逗号隔开，表示向特定的人致谢。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Thank you,",
+        "role": "谓语+宾语（致谢表达）",
+        "explanation": "Thank you 是常用的致谢固定表达，整体传递感谢的动作与对象"
+      },
+      {
+        "text": "Bob.",
+        "role": "呼语",
+        "explanation": "Bob 是呼语，用来称呼听话人，不参与句子主干结构"
+      }
+    ],
+    "words": [
+      {
+        "text": "Thank",
+        "meaning": "感谢",
+        "pos": "动词",
+        "phonetic": "/θæŋk/"
+      },
+      {
+        "text": "you,",
+        "meaning": "你（宾格）",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "Bob.",
+        "meaning": "鲍勃（男子名）",
+        "pos": "专有名词",
+        "phonetic": "/bɒb/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说致谢的话，再用逗号隔开对方名字",
+      "letterShape": "T____ y__, B__.",
+      "answerNote": "这是当面道谢加称呼的常用结构"
+    },
+    "teacherTip": {
+      "text": "当面道谢时，把称呼放在道谢语后面、用逗号隔开，是英语里很自然的说法，既明确致谢对象，也显得亲切。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "字段完整，内容符合本课语境与语法要求，教师提点提炼了表达习惯而非复述翻译"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。字段完整，内容符合本课语境与语法要求，教师提点提炼了表达习惯而非复述翻译"
+  }
+}

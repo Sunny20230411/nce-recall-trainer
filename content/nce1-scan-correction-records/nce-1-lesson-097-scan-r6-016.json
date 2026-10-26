@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-97",
+    "sentenceId": "nce-1-lesson-097-scan-r6-016",
+    "sentenceOrder": 16,
+    "english": "Thank you.",
+    "chinese": "谢谢你。",
+    "intent": "向对方支付费用后表达谢意，完成交接礼节。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Thank you.",
+        "relation": "道谢核心表达",
+        "meaning": "谢谢你"
+      }
+    ],
+    "notes": [
+      {
+        "title": "道谢常用表达",
+        "text": "Thank you 是完整的礼貌道谢用语，可用于正式及非正式的多数场合。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "道谢常用表达",
+        "text": "Thank you 是完整的礼貌道谢用语，可用于正式及非正式的多数场合。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Thank you.",
+        "role": "固定道谢句式",
+        "explanation": "由动词Thank和宾语you构成的固定道谢表达，整体传递感谢。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Thank",
+        "meaning": "感谢",
+        "pos": "动词",
+        "phonetic": "/θæŋk/"
+      },
+      {
+        "text": "you.",
+        "meaning": "你（宾格）",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "表达对对方的感谢，用最常用的礼貌说法。",
+      "letterShape": "T____ y__.",
+      "answerNote": "固定的礼貌道谢用语，意为“谢谢你”。"
+    },
+    "teacherTip": {
+      "text": "Thank you 是通用礼貌道谢，适用于服务、交易等多数日常场景。这里是和失物招领工作人员的正式交接，用Thank you比更随意的Thanks更得体。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "校验通过：词义、结构准确，教学点贴合场景得体性，数据完整。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。校验通过：词义、结构准确，教学点贴合场景得体性，数据完整。"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-95",
+    "sentenceId": "nce-1-lesson-095-scan-r6-009",
+    "sentenceOrder": 9,
+    "english": "We've got plenty of time.",
+    "chinese": "我们的时间还很充裕。",
+    "intent": "表达目前时间充足，暗含不用着急、还可以做别的事。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "We've got",
+        "relation": "主语与谓语（有）",
+        "meaning": "我们有"
+      },
+      {
+        "text": "plenty of time.",
+        "relation": "宾语（充足的时间）",
+        "meaning": "大量的时间"
+      }
+    ],
+    "notes": [
+      {
+        "title": "have got 的用法",
+        "text": "We've got 是 We have got 的缩写，口语中常用来表示“有”，相当于 have。"
+      },
+      {
+        "title": "plenty of 的搭配",
+        "text": "plenty of 意为“大量、充足的”，后可接可数名词复数或不可数名词。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "have got 的用法",
+        "text": "We've got 是 We have got 的缩写，口语中常用来表示“有”，相当于 have。"
+      },
+      {
+        "title": "plenty of 的搭配",
+        "text": "plenty of 意为“大量、充足的”，后可接可数名词复数或不可数名词。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "We've got plenty of time.",
+        "role": "主谓宾结构",
+        "explanation": "We've got 作主谓部分，plenty of time 作宾语，整体表达“我们拥有充足的时间”。"
+      },
+      {
+        "text": "plenty of time.",
+        "role": "名词短语作宾语",
+        "explanation": "由plenty of修饰不可数名词time，构成宾语短语，表示充足的时间。"
+      }
+    ],
+    "words": [
+      {
+        "text": "We've",
+        "meaning": "我们已经（we have的缩写）",
+        "pos": "代词+助动词缩写",
+        "phonetic": "/wiːv/"
+      },
+      {
+        "text": "got",
+        "meaning": "得到；有（与have连用）",
+        "pos": "动词过去分词",
+        "phonetic": "/ɡɒt/"
+      },
+      {
+        "text": "plenty",
+        "meaning": "大量；充足",
+        "pos": "代词",
+        "phonetic": "/ˈplenti/"
+      },
+      {
+        "text": "of",
+        "meaning": "……的",
+        "pos": "介词",
+        "phonetic": "/ɒv/"
+      },
+      {
+        "text": "time.",
+        "meaning": "时间",
+        "pos": "名词",
+        "phonetic": "/taɪm/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想表达“时间很充裕”，用哪个短语来表示“充足的”？",
+      "letterShape": "W_'__ g__ p_____ o_ t___.",
+      "answerNote": "用plenty of加不可数名词time，前面用We've got表示“我们有”。"
+    },
+    "teacherTip": {
+      "text": "说“有充足的某物”，英语常用plenty of + 名词，既可接可数也可接不可数。这里We've got plenty of time 比 We have much time 更自然口语化，强调数量够、不用急。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "结构与词义准确，符合口语常用表达；教学点选取自然。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。结构与词义准确，符合口语常用表达；教学点选取自然。"
+  }
+}

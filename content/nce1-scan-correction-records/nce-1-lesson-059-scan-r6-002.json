@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-59",
+    "sentenceId": "nce-1-lesson-059-scan-r6-002",
+    "sentenceOrder": 2,
+    "english": "Do you want the large size or the small size?",
+    "chinese": "您想要大号的还是小号的？",
+    "intent": "在购物场景中向对方确认所需商品的规格，提供两个明确选项供选择。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Do you want the large size",
+        "relation": "问句主干与第一个选项",
+        "meaning": "您想要大号的"
+      },
+      {
+        "text": "or",
+        "relation": "选择连接词",
+        "meaning": "还是"
+      },
+      {
+        "text": "the small size?",
+        "relation": "第二个选项",
+        "meaning": "小号的"
+      }
+    ],
+    "notes": [
+      {
+        "title": "选择疑问句",
+        "text": "用 or 连接两个供选择的内容，回答时一般从给出的选项中选其一，不能只用 yes / no 回答。"
+      },
+      {
+        "title": "the + 形容词 + size",
+        "text": "用来表示“某号尺寸/规格”，large size 指大号，small size 指小号，是购物场景的常用表达。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "选择疑问句",
+        "text": "用 or 连接两个供选择的内容，回答时一般从给出的选项中选其一，不能只用 yes / no 回答。"
+      },
+      {
+        "title": "the + 形容词 + size",
+        "text": "用来表示“某号尺寸/规格”，large size 指大号，small size 指小号，是购物场景的常用表达。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Do you want the large size or the small size?",
+        "role": "选择疑问句",
+        "explanation": "由助动词 Do 引导的一般疑问句结构，末尾用 or 连接两个并列的名词短语作宾语，构成选择疑问。"
+      },
+      {
+        "text": "want the large size or the small size?",
+        "role": "谓语与宾语部分",
+        "explanation": "want 是谓语动词，the large size or the small size 是由 or 连接的并列宾语，提供两个可选对象。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Do",
+        "meaning": "助动词，无实义，引导一般现在时的疑问句",
+        "pos": "助动词",
+        "phonetic": "/duː/"
+      },
+      {
+        "text": "you",
+        "meaning": "你；您",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "want",
+        "meaning": "想要；要",
+        "pos": "动词",
+        "phonetic": "/wɒnt/"
+      },
+      {
+        "text": "the",
+        "meaning": "这个（定冠词，表特指）",
+        "pos": "限定词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "large",
+        "meaning": "大的；大号的",
+        "pos": "形容词",
+        "phonetic": "/lɑːdʒ/"
+      },
+      {
+        "text": "size",
+        "meaning": "尺寸；尺码",
+        "pos": "名词",
+        "phonetic": "/saɪz/"
+      },
+      {
+        "text": "or",
+        "meaning": "还是；或者",
+        "pos": "连词",
+        "phonetic": "/ɔː/"
+      },
+      {
+        "text": "the",
+        "meaning": "这个（定冠词，表特指）",
+        "pos": "限定词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "small",
+        "meaning": "小的；小号的",
+        "pos": "形容词",
+        "phonetic": "/smɔːl/"
+      },
+      {
+        "text": "size?",
+        "meaning": "尺寸；尺码（句末带问号）",
+        "pos": "名词",
+        "phonetic": "/saɪz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先想“你想要…还是…”的二选一结构，把大号、小号两个规格用 or 连在后面。",
+      "letterShape": "D_ y__ w___ t__ l____ s___ o_ t__ s____ s___?",
+      "answerNote": "购物时问对方要大号还是小号，提供两个选项让对方选。"
+    },
+    "teacherTip": {
+      "text": "这是选择疑问句，用 or 连接 the large size 和 the small size 两个对等选项；已知对方要这类商品，只需在两个规格里确认，不能用 yes/no 回答。下次问二选一的问题，把两个可比的名词短语用 or 连在问句末尾即可。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已修复 parts 不连续问题，parts 按 token 索引 0–5、6–6、7–9 连续覆盖全部 10 个 token，无重叠无遗漏。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已修复 parts 不连续问题，parts 按 token 索引 0–5、6–6、7–9 连续覆盖全部 10 个 token，无重叠无遗漏。"
+  }
+}

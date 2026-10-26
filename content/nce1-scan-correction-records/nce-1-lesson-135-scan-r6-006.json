@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-135",
+    "sentenceId": "nce-1-lesson-135-scan-r6-006",
+    "sentenceOrder": 6,
+    "english": "Your future husband, Miss Marsh?",
+    "chinese": "你未来的丈夫，马什小姐？",
+    "intent": "惊讶地重复新信息以求确认",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Your future husband,",
+        "relation": "请求确认的新信息",
+        "meaning": "你未来的丈夫"
+      },
+      {
+        "text": "Miss Marsh?",
+        "relation": "称呼",
+        "meaning": "马什小姐"
+      }
+    ],
+    "notes": [
+      {
+        "title": "回声问句",
+        "text": "这是名词短语构成的省略疑问，用升调确认刚听到的信息，不必补入原文没有的谓语。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "回声问句",
+        "text": "这是名词短语构成的省略疑问，用升调确认刚听到的信息，不必补入原文没有的谓语。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Your future husband,",
+        "role": "独立成分",
+        "explanation": "重复名词短语，构成请求确认的回声问句"
+      },
+      {
+        "text": "Miss Marsh?",
+        "role": "呼语",
+        "explanation": "称呼受访者"
+      }
+    ],
+    "words": [
+      {
+        "text": "Your",
+        "meaning": "你的",
+        "pos": "物主限定词",
+        "phonetic": "/jɔː(r)/"
+      },
+      {
+        "text": "future",
+        "meaning": "未来的",
+        "pos": "形容词",
+        "phonetic": "/ˈfjuːtʃə/"
+      },
+      {
+        "text": "husband,",
+        "meaning": "丈夫",
+        "pos": "名词",
+        "phonetic": "/ˈhʌzbənd/"
+      },
+      {
+        "text": "Miss",
+        "meaning": "小姐",
+        "pos": "名词",
+        "phonetic": "/mɪs/"
+      },
+      {
+        "text": "Marsh?",
+        "meaning": "马什（姓氏）",
+        "pos": "专有名词",
+        "phonetic": "/mɑːʃ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "记者惊讶地重复未来丈夫这一身份，再称呼受访者。",
+      "letterShape": "Y___ f_____ h______, M___ M____?",
+      "answerNote": "保留名词短语式追问，不另加完整谓语。"
+    },
+    "teacherTip": {
+      "text": "记者抓住意料之外的“未来丈夫”重复追问，并不需要补成完整问句。日常对话中，听到关键新消息时，也可以原样重复那一小段，用语调请求确认。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

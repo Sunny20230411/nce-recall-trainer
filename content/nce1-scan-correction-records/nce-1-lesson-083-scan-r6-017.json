@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-017",
+    "sentenceOrder": 17,
+    "english": "We're going to leave tomorrow.",
+    "chinese": "我们明天就要动身了。",
+    "intent": "说明即将发生的安排，进一步解释收拾行李的原因。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "We're going to leave",
+        "relation": "打算进行的动作",
+        "meaning": "我们打算离开"
+      },
+      {
+        "text": "tomorrow.",
+        "relation": "动作的时间",
+        "meaning": "明天"
+      }
+    ],
+    "notes": [
+      {
+        "title": "be going to 表即将发生的安排",
+        "text": "We're going to leave 表示已有安排、即将发生的动作，常伴有可见的准备迹象。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "be going to 表即将发生的安排",
+        "text": "We're going to leave 表示已有安排、即将发生的动作，常伴有可见的准备迹象。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "We're going to leave tomorrow.",
+        "role": "主谓结构（将来安排）",
+        "explanation": "We 是主语，'re going to leave 是表将来打算的谓语，tomorrow 作时间状语。"
+      }
+    ],
+    "words": [
+      {
+        "text": "We're",
+        "meaning": "我们正在（we are 的缩略形式）",
+        "pos": "代词+系动词缩略",
+        "phonetic": "/wɪəz/"
+      },
+      {
+        "text": "going",
+        "meaning": "（going to 结构组成部分，表将要）",
+        "pos": "动词现在分词",
+        "phonetic": "/ˈɡəʊɪŋ/"
+      },
+      {
+        "text": "to",
+        "meaning": "（不定式符号，无实义，引出动词原形）",
+        "pos": "不定式符号",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "leave",
+        "meaning": "离开，动身",
+        "pos": "动词原形",
+        "phonetic": "/liːv/"
+      },
+      {
+        "text": "tomorrow.",
+        "meaning": "明天",
+        "pos": "副词",
+        "phonetic": "/təˈmɒrəʊ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说“我们打算动身”，再加具体时间。",
+      "letterShape": "W_'__ g____ t_ l____ t_______.",
+      "answerNote": "用 be going to 表示已有准备的将来动作。"
+    },
+    "teacherTip": {
+      "text": "这里用be going to leave不是单纯“想要走”，而是基于眼前正在收拾行李的迹象，表达已有安排的即将动身。说将来安排时，有眼前准备迹象就用be going to，比will更贴合语境。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "修正了结构拆解的主语说明；调整了going的词义表述更准确；teacherTip明确了be going to的使用依据。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。修正了结构拆解的主语说明；调整了going的词义表述更准确；teacherTip明确了be going to的使用依据。"
+  }
+}

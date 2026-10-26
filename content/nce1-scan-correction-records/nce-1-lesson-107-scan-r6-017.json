@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-107",
+    "sentenceId": "nce-1-lesson-107-scan-r6-017",
+    "sentenceOrder": 17,
+    "english": "I'm afraid I haven't got a larger dress.",
+    "chinese": "恐怕我这里没有更大号的连衣裙了。",
+    "intent": "委婉说明没有更大尺码",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I'm afraid",
+        "relation": "委婉铺垫",
+        "meaning": "恐怕"
+      },
+      {
+        "text": "I haven't got",
+        "relation": "库存否定",
+        "meaning": "我这里没有"
+      },
+      {
+        "text": "a larger dress.",
+        "relation": "缺少的商品",
+        "meaning": "更大号的连衣裙"
+      }
+    ],
+    "notes": [
+      {
+        "title": "拥有表达",
+        "text": "haven't got 表示没有，是 have got 的否定形式。"
+      },
+      {
+        "title": "比较级参照",
+        "text": "larger 表示比眼前的裙子更大号，比较对象由语境提供。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "拥有表达",
+        "text": "haven't got 表示没有，是 have got 的否定形式。"
+      },
+      {
+        "title": "比较级参照",
+        "text": "larger 表示比眼前的裙子更大号，比较对象由语境提供。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I'm",
+        "role": "主句主语与系动词",
+        "explanation": "I'm 是 I am。"
+      },
+      {
+        "text": "afraid",
+        "role": "主句表语",
+        "explanation": "afraid 后接省略 that 的内容从句，缓和坏消息。"
+      },
+      {
+        "text": "I",
+        "role": "从句主语",
+        "explanation": "指店员代表的店方。"
+      },
+      {
+        "text": "haven't got",
+        "role": "从句谓语",
+        "explanation": "haven't got 否定拥有或库存。"
+      },
+      {
+        "text": "a larger dress.",
+        "role": "从句宾语",
+        "explanation": "店里没有的更大号裙子。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I'm",
+        "meaning": "我（是）",
+        "pos": "代词与系动词缩写",
+        "phonetic": "/aɪm/"
+      },
+      {
+        "text": "afraid",
+        "meaning": "恐怕；遗憾的是",
+        "pos": "形容词",
+        "phonetic": "/əˈfreɪd/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "haven't",
+        "meaning": "没有（与 got 连用）",
+        "pos": "助动词与否定词缩写",
+        "phonetic": "/ˈhævənt/"
+      },
+      {
+        "text": "got",
+        "meaning": "有（与 have 连用）",
+        "pos": "动词",
+        "phonetic": "/ɡɒt/"
+      },
+      {
+        "text": "a",
+        "meaning": "一件",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "larger",
+        "meaning": "更大号的",
+        "pos": "形容词",
+        "phonetic": "/ˈlɑːdʒə/"
+      },
+      {
+        "text": "dress.",
+        "meaning": "连衣裙",
+        "pos": "名词",
+        "phonetic": "/dres/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先缓和语气，再说明没有更大的尺码。",
+      "letterShape": "I'_ a_____ I h____'_ g__ a l_____ d____.",
+      "answerNote": "恐怕后接完整陈述，用拥有结构的否定式和比较级。"
+    },
+    "teacherTip": {
+      "text": "I'm afraid 在这里是说坏消息前的缓冲，不是店员害怕。a larger dress 比的是刚才那件裙子的尺码，参照物已清楚，就不必再补 than。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

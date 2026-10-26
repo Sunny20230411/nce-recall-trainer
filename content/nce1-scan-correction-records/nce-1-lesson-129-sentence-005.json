@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-129",
+    "sentenceId": "nce-1-lesson-129-sentence-005",
+    "sentenceOrder": 11,
+    "english": "I must have been dreaming.",
+    "chinese": "我刚才一定是在走神。",
+    "intent": "用走神为没看到限速标志作解释",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I",
+        "relation": "解释者",
+        "meaning": "我"
+      },
+      {
+        "text": "must have been dreaming.",
+        "relation": "对刚才状态的推断",
+        "meaning": "刚才肯定在走神"
+      }
+    ],
+    "notes": [
+      {
+        "title": "语境义",
+        "text": "dreaming 在此指心不在焉，而非睡梦。"
+      },
+      {
+        "title": "推测形式",
+        "text": "must have been dreaming 表示推断过去正在持续的状态。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "语境义",
+        "text": "dreaming 在此指心不在焉，而非睡梦。"
+      },
+      {
+        "title": "推测形式",
+        "text": "must have been dreaming 表示推断过去正在持续的状态。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "司机本人"
+      },
+      {
+        "text": "must have been dreaming.",
+        "role": "谓语",
+        "explanation": "用完成进行形式对过去走神的状态作肯定推测"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "must",
+        "meaning": "一定；肯定",
+        "pos": "情态动词",
+        "phonetic": "/mʌst/"
+      },
+      {
+        "text": "have",
+        "meaning": "（构成完成形式）",
+        "pos": "助动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "been",
+        "meaning": "（构成进行形式）",
+        "pos": "助动词",
+        "phonetic": "/biːn/"
+      },
+      {
+        "text": "dreaming.",
+        "meaning": "走神；做白日梦",
+        "pos": "动词",
+        "phonetic": "/ˈdriːmɪŋ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "把刚才没注意到标志解释为自己一定走神了。",
+      "letterShape": "I m___ h___ b___ d_______.",
+      "answerNote": "用 must have been 加现在分词推断过去的状态。"
+    },
+    "teacherTip": {
+      "text": "这里的 dreaming 不是说睡着做梦，而是借“做白日梦”表示开车时走神。must have been 把解释说成对自己刚才状态的推断，带有为疏忽找理由的意味。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

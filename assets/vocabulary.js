@@ -12,6 +12,14 @@
     } catch { words = []; }
     if (!Array.isArray(words)) words = [];
     words = words.filter(word => word && typeof word.text === 'string' && typeof word.meaning === 'string');
+    if (window.migrateVocabularySourceCorrection && state.selectedLesson.sourceCorrection) {
+      const previous = JSON.stringify(words);
+      words = window.migrateVocabularySourceCorrection(words, state.selectedLesson);
+      if (JSON.stringify(words) !== previous) try {
+        if (!localStorage.getItem(`${key}:before_source_r6`)) localStorage.setItem(`${key}:before_source_r6`, previous);
+        localStorage.setItem(key, JSON.stringify(words));
+      } catch {}
+    }
     loadedKey = key;
   }
   const escape = value => String(value || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -57,6 +65,7 @@
     navigate('vocabListView', `${state.selectedLesson.title} · 生词本`);
     const body = listView;
     body.innerHTML = `<header class="vocab-head"><div><h2>生词本</h2><p>${escape(state.selectedLesson.title)} · ${words.length} 个单词</p></div><button class="btn" id="vocabStart" ${words.length ? '' : 'disabled'}>开始默写</button></header>` + (words.length ? `<div class="vocab-list">${words.map((word, index) => `<div class="vocab-row"><div><button class="vocab-word" data-speak="${index}" title="播放 ${escape(word.text)}">${escape(word.text)}</button><small>${escape(word.phonetic)}</small><small>${escape(word.meaning)} · ${escape(word.pos)}</small></div><div class="vocab-example"><small>${escape(word.english)}</small></div><button class="preview-play" data-remove="${index}" aria-label="移除 ${escape(word.text)}">移除</button></div>`).join('')}</div>` : '<div class="vocab-empty">暂无生词</div>');
+    body.querySelectorAll('.vocab-example').forEach((node, index) => { if (words[index].sourceStatus === 'previous-edition') node.prepend(document.createTextNode('旧版例句：')); });
     body.querySelectorAll('[data-speak]').forEach(button => button.onclick = () => speakSentence(words[button.dataset.speak].text));
     body.querySelectorAll('[data-remove]').forEach(button => button.onclick = () => { words.splice(Number(button.dataset.remove), 1); save(); list(); });
     body.querySelector('#vocabStart').onclick = () => start(words);

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-37",
+    "sentenceId": "nce-1-lesson-037-scan-r6-005",
+    "sentenceOrder": 5,
+    "english": "Which hammer?",
+    "chinese": "哪一把锤子？",
+    "intent": "针对对方刚提到的锤子，询问具体所指的是哪一把，作确认用。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Which hammer?",
+        "relation": "疑问限定词+询问对象，构成确认疑问",
+        "meaning": "哪一把锤子？"
+      }
+    ],
+    "notes": [
+      {
+        "title": "省略的确认问句",
+        "text": "完整表达可以是Which hammer do you mean? 口语中对方刚提到hammer，直接用Which hammer? 就足够表达确认的意思。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "省略的确认问句",
+        "text": "完整表达可以是Which hammer do you mean? 口语中对方刚提到hammer，直接用Which hammer? 就足够表达确认的意思。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Which",
+        "role": "疑问限定词",
+        "explanation": "Which用来在一组事物中询问具体哪一个，修饰后面的hammer。"
+      },
+      {
+        "text": "hammer?",
+        "role": "被询问的名词",
+        "explanation": "hammer是疑问的对象，句末问号表示疑问语气。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Which",
+        "meaning": "哪一个",
+        "pos": "限定词",
+        "phonetic": "/wɪtʃ/"
+      },
+      {
+        "text": "hammer?",
+        "meaning": "锤子",
+        "pos": "名词",
+        "phonetic": "/ˈhæmə/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想问“哪一个+事物”，把疑问词放在事物前面。",
+      "letterShape": "W____ h_____?",
+      "answerNote": "用Which加名词构成简短的选择确认问句。"
+    },
+    "teacherTip": {
+      "text": "对方刚说过“那把锤子”，你没听清是哪一把，不用补完整问句，直接用Which加名词把疑问焦点说清楚就够。换作问哪本书，也可以直接说Which book?",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "字段完整，教学点贴合口语确认场景，无内容错误。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。字段完整，教学点贴合口语确认场景，无内容错误。"
+  }
+}

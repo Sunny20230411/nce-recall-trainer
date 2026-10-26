@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-127",
+    "sentenceId": "nce-1-lesson-127-scan-r6-008",
+    "sentenceOrder": 8,
+    "english": "It can't be.",
+    "chinese": "不可能是他。",
+    "intent": "否定对方的人物推断",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "It can't be.",
+        "relation": "否定推断",
+        "meaning": "不可能是他"
+      }
+    ],
+    "notes": [
+      {
+        "title": "否定推测与省略",
+        "text": "can't be 表示认为某判断不可能；be 后省略 Conrad Reeves。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "否定推测与省略",
+        "text": "can't be 表示认为某判断不可能；be 后省略 Conrad Reeves。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "It",
+        "role": "主语",
+        "explanation": "指正在辨认的人"
+      },
+      {
+        "text": "can't be.",
+        "role": "谓语",
+        "explanation": "否定可能性的系动词短语，表语承上省略"
+      }
+    ],
+    "words": [
+      {
+        "text": "It",
+        "meaning": "那个人",
+        "pos": "代词",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "text": "can't",
+        "meaning": "不可能",
+        "pos": "情态动词缩写",
+        "phonetic": "/kɑːnt/"
+      },
+      {
+        "text": "be.",
+        "meaning": "是（他）",
+        "pos": "系动词",
+        "phonetic": "/biː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "简短否定刚才的身份推测，不必再报姓名。",
+      "letterShape": "I_ c__'_ b_.",
+      "answerNote": "can't be 表示不可能是，表语承前省略。"
+    },
+    "teacherTip": {
+      "text": "要说‘不可能是他’，这里用 can't be，而不是 mustn't be；后者常让人想到禁止。短短一句就能否定刚才的身份猜测，be 后的姓名无需重复。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

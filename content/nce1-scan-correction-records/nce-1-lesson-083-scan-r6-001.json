@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-001",
+    "sentenceOrder": 1,
+    "english": "Hello, Sam.",
+    "chinese": "你好，萨姆。",
+    "intent": "开门见到萨姆时，用普通礼貌的方式打招呼并表示欢迎。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Hello,",
+        "relation": "招呼用语",
+        "meaning": "你好"
+      },
+      {
+        "text": "Sam.",
+        "relation": "招呼的对象",
+        "meaning": "萨姆"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Hello 的使用特点",
+        "text": "Hello 是通用问候语，正式和非正式场合都能用，比 Hi 略显稳重、礼貌。"
+      },
+      {
+        "title": "称呼语的位置",
+        "text": "英文招呼语后接人名时，中间用逗号隔开，人名放在招呼词之后。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "Hello 的使用特点",
+        "text": "Hello 是通用问候语，正式和非正式场合都能用，比 Hi 略显稳重、礼貌。"
+      },
+      {
+        "title": "称呼语的位置",
+        "text": "英文招呼语后接人名时，中间用逗号隔开，人名放在招呼词之后。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Hello, Sam.",
+        "role": "问候呼语句",
+        "explanation": "Hello 是感叹词作问候语，Sam 是称呼语，整体是见面时的简短礼貌招呼，无需完整主谓结构。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Hello,",
+        "meaning": "你好（通用问候语）",
+        "pos": "感叹词",
+        "phonetic": "/həˈləʊ/"
+      },
+      {
+        "text": "Sam.",
+        "meaning": "萨姆（男子名，Samuel 的昵称）",
+        "pos": "专有名词",
+        "phonetic": "/sæm/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先用通用问候语“你好”，再说出对方名字。",
+      "letterShape": "H____, S__.",
+      "answerNote": "这是见面时的普通礼貌招呼，hello 适用范围很广。"
+    },
+    "teacherTip": {
+      "text": "Hello, Sam. 是中性偏礼貌的日常招呼，熟人见面都能用，语气比 Hi 稍稳重一点。中文说“你好，萨姆”，英文对应把 Hello 放前面、人名放后面，中间用逗号，语序基本一致。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已核对原文为 Hello, Sam.，符合课文开篇语境，表述准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已核对原文为 Hello, Sam.，符合课文开篇语境，表述准确。"
+  }
+}

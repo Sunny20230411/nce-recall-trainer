@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-101",
+    "sentenceId": "nce-1-lesson-101-scan-r6-015",
+    "sentenceOrder": 15,
+    "english": "I'm afraid I can't hear you.",
+    "chinese": "恐怕我听不见你说话。",
+    "intent": "礼貌地说明自己听不清，为没听清或要求对方大声说给出理由。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I'm afraid",
+        "relation": "委婉引出后续内容的客套语",
+        "meaning": "恐怕；很抱歉"
+      },
+      {
+        "text": "I can't hear you.",
+        "relation": "afraid的具体内容，即实际要说明的事",
+        "meaning": "我听不见你说话"
+      }
+    ],
+    "notes": [
+      {
+        "title": "I'm afraid的委婉用法",
+        "text": "I'm afraid常用来礼貌地引出令人失望或否定的情况，相当于“恐怕、很遗憾”，并非表达恐惧。"
+      },
+      {
+        "title": "情态动词can't表能力",
+        "text": "can't是cannot的缩写，此处表示“不能够、没能力做到”，说明听不见的客观情况。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "I'm afraid的委婉用法",
+        "text": "I'm afraid常用来礼貌地引出令人失望或否定的情况，相当于“恐怕、很遗憾”，并非表达恐惧。"
+      },
+      {
+        "title": "情态动词can't表能力",
+        "text": "can't是cannot的缩写，此处表示“不能够、没能力做到”，说明听不见的客观情况。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I'm afraid I can't hear you.",
+        "role": "主从复合句（主句+宾语从句）",
+        "explanation": "I'm afraid是主句，后面的I can't hear you是宾语从句，说明afraid的具体内容。"
+      },
+      {
+        "text": "I can't hear you.",
+        "role": "宾语从句",
+        "explanation": "I can't hear you作afraid的宾语从句，主谓宾完整，说明实际情况。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I'm",
+        "meaning": "我是（I am的缩写）",
+        "pos": "人称代词+be动词缩写",
+        "phonetic": "/aɪm/"
+      },
+      {
+        "text": "afraid",
+        "meaning": "担心的；（用于委婉表达）恐怕的",
+        "pos": "形容词",
+        "phonetic": "/əˈfreɪd/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "人称代词主格",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "can't",
+        "meaning": "不能（cannot的缩写）",
+        "pos": "情态动词否定缩写",
+        "phonetic": "/kɑːnt/"
+      },
+      {
+        "text": "hear",
+        "meaning": "听见，听到",
+        "pos": "动词",
+        "phonetic": "/hɪə/"
+      },
+      {
+        "text": "you.",
+        "meaning": "你（宾格）",
+        "pos": "人称代词宾格",
+        "phonetic": "/juː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想礼貌地说“我听不见你”，先在开头加一句委婉客气的表达，再讲实际情况。",
+      "letterShape": "I'_ a_____ I c__'_ h___ y__.",
+      "answerNote": "用I'm afraid引出不好的情况，是英语里常见的委婉说法。"
+    },
+    "teacherTip": {
+      "text": "I'm afraid在这里不是“我害怕”，而是口语里委婉引出否定或不便情况的套话，比直接说I can't hear you更客气。后面接从句说明具体内容。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "句子与原文一致，委婉用法点拨准确，结构划分合理。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。句子与原文一致，委婉用法点拨准确，结构划分合理。"
+  }
+}

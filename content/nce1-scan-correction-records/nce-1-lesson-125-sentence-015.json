@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-125",
+    "sentenceId": "nce-1-lesson-125-sentence-015",
+    "sentenceOrder": 17,
+    "english": "It's raining!",
+    "chinese": "下雨了！",
+    "intent": "指出眼前下雨的意外情况",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "It's raining!",
+        "relation": "眼前天气",
+        "meaning": "正在下雨"
+      }
+    ],
+    "notes": [
+      {
+        "title": "天气主语",
+        "text": "It's 是 It is；it 为天气表达中的非指代主语。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "天气主语",
+        "text": "It's 是 It is；it 为天气表达中的非指代主语。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "It's",
+        "role": "主语及助动词",
+        "explanation": "It 为天气主语，is 构成现在进行时"
+      },
+      {
+        "text": "raining!",
+        "role": "谓语核心",
+        "explanation": "raining 表示正在下雨"
+      }
+    ],
+    "words": [
+      {
+        "text": "It's",
+        "meaning": "（天气主语与 is 的缩写）",
+        "pos": "代词与助动词缩写",
+        "phonetic": "/ɪts/"
+      },
+      {
+        "text": "raining!",
+        "meaning": "下雨",
+        "pos": "动词",
+        "phonetic": "/ˈreɪnɪŋ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "看见窗外正在下雨，带着惊喜说出来。",
+      "letterShape": "I_'_ r______!",
+      "answerNote": "天气用 it 作主语，进行时表示眼前正在下雨。"
+    },
+    "teacherTip": {
+      "text": "这里看见的雨正好免去了浇花的工作，所以一句短短的‘下雨了’就够了。说眼前正在发生的天气，用进行时；it 只是天气句的主语，不需要找一个具体的‘它’。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

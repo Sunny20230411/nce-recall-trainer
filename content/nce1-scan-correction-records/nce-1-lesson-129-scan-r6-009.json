@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-129",
+    "sentenceId": "nce-1-lesson-129-scan-r6-009",
+    "sentenceOrder": 9,
+    "english": "Didn't you see the speed limit?",
+    "chinese": "你没看见限速标志吗？",
+    "intent": "带着惊讶追问司机是否注意到限速",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Didn't you see",
+        "relation": "带责问的询问",
+        "meaning": "你难道没看见"
+      },
+      {
+        "text": "the speed limit?",
+        "relation": "应注意的信息",
+        "meaning": "限速标志"
+      }
+    ],
+    "notes": [
+      {
+        "title": "否定疑问句",
+        "text": "Didn't 放在主语前，see 保持原形，询问过去是否看见。"
+      },
+      {
+        "title": "限速",
+        "text": "speed limit 是固定名词短语，指最高允许车速。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "否定疑问句",
+        "text": "Didn't 放在主语前，see 保持原形，询问过去是否看见。"
+      },
+      {
+        "title": "限速",
+        "text": "speed limit 是固定名词短语，指最高允许车速。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Didn't",
+        "role": "谓语助动成分",
+        "explanation": "过去时否定助动词提前构成疑问"
+      },
+      {
+        "text": "you",
+        "role": "主语",
+        "explanation": "被询问的司机"
+      },
+      {
+        "text": "see",
+        "role": "谓语",
+        "explanation": "实义动词表示看见"
+      },
+      {
+        "text": "the speed limit?",
+        "role": "宾语",
+        "explanation": "所问的限速信息"
+      }
+    ],
+    "words": [
+      {
+        "text": "Didn't",
+        "meaning": "难道没有（过去时疑问）",
+        "pos": "助动词（否定缩合）",
+        "phonetic": "/ˈdɪdnt/"
+      },
+      {
+        "text": "you",
+        "meaning": "你",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "see",
+        "meaning": "看见",
+        "pos": "动词",
+        "phonetic": "/siː/"
+      },
+      {
+        "text": "the",
+        "meaning": "该；那个",
+        "pos": "冠词",
+        "phonetic": "/ðə/ 或 /ðiː/"
+      },
+      {
+        "text": "speed",
+        "meaning": "速度",
+        "pos": "名词",
+        "phonetic": "/spiːd/"
+      },
+      {
+        "text": "limit?",
+        "meaning": "限制；限速",
+        "pos": "名词",
+        "phonetic": "/ˈlɪmɪt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "警察认为司机本该注意限速，用过去时否定问句追问。",
+      "letterShape": "D___'_ y__ s__ t__ s____ l____?",
+      "answerNote": "否定助动词提前，see 用原形，宾语是限速。"
+    },
+    "teacherTip": {
+      "text": "警察本以为司机应该看到限速，因此用否定问句追问，语气比单纯询问看没看到更有责问意味。speed limit 本指速度限制，这里结合路边标志，自然译成“限速标志”。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

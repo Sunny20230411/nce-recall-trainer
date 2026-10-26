@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-97",
+    "sentenceId": "nce-1-lesson-097-scan-r6-008",
+    "sentenceOrder": 8,
+    "english": "This one's got a label.",
+    "chinese": "这只箱子有个标签。",
+    "intent": "指出当前这只箱子带有标签这一特征，为接下来查看地址信息做铺垫。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "This one's",
+        "relation": "描述对象",
+        "meaning": "这一个（箱子）"
+      },
+      {
+        "text": "got a label.",
+        "relation": "对象特征",
+        "meaning": "有一个标签"
+      }
+    ],
+    "notes": [
+      {
+        "title": "has got 表带有",
+        "text": "'s got 是 has got 的口语缩写，这里表示某物带有某种部件或特征，意思和 has 接近，更常用于口语。"
+      },
+      {
+        "title": "one 指代可数名词",
+        "text": "one 代替前文出现过的可数名词 case，避免重复，this one 指“这一只箱子”。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "has got 表带有",
+        "text": "'s got 是 has got 的口语缩写，这里表示某物带有某种部件或特征，意思和 has 接近，更常用于口语。"
+      },
+      {
+        "title": "one 指代可数名词",
+        "text": "one 代替前文出现过的可数名词 case，避免重复，this one 指“这一只箱子”。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "This one's got a label.",
+        "role": "陈述句（主谓宾）",
+        "explanation": "主语是 This one，谓语是 has got（缩写为 one's got），宾语是 a label，整体说明某物带有什么。"
+      },
+      {
+        "text": "This one's",
+        "role": "主语",
+        "explanation": "This one 指代当前提到的箱子，作句子主语。"
+      },
+      {
+        "text": "got a label.",
+        "role": "谓语与宾语",
+        "explanation": "'s got 是 has got 的缩写，作谓语；a label 是宾语，说明带有的东西。"
+      }
+    ],
+    "words": [
+      {
+        "text": "This",
+        "meaning": "这个",
+        "pos": "限定词",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "text": "one's",
+        "meaning": "一个（有，是one has的缩写）",
+        "pos": "代词+助动词缩写",
+        "phonetic": "/wʌnz/"
+      },
+      {
+        "text": "got",
+        "meaning": "有（与has搭配表拥有、带有）",
+        "pos": "动词（过去分词）",
+        "phonetic": "/ɡɒt/"
+      },
+      {
+        "text": "a",
+        "meaning": "一个",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "label.",
+        "meaning": "标签",
+        "pos": "名词",
+        "phonetic": "/ˈleɪbl/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想说“某样东西带有某个部件”，口语里常用什么缩写说法？",
+      "letterShape": "T___ o__'_ g__ a l____.",
+      "answerNote": "用 物 + 's got + 部件，相当于 has got 的简写。"
+    },
+    "teacherTip": {
+      "text": "one's got 是 has got 的口语缩写，常用来表示“某物带有某种部件或特征”，和 has 意思接近但更随意。描述箱包、衣物等自带什么配件时，可以直接用 物 + 's got + 特征名词。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "校验通过：has got 用法说明准确，名师提点贴合口语表达习惯，无错误。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。校验通过：has got 用法说明准确，名师提点贴合口语表达习惯，无错误。"
+  }
+}

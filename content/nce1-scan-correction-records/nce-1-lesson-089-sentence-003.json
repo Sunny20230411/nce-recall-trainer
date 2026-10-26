@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-89",
+    "sentenceId": "nce-1-lesson-089-sentence-003",
+    "sentenceOrder": 4,
+    "english": "May I have a look at it, please?",
+    "chinese": "请问我可以看看它吗？",
+    "intent": "买方礼貌地向卖方提出查看房屋的请求，用May I表达委婉客气的语气",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "May I have a look at it,",
+        "relation": "请求许可的核心问句",
+        "meaning": "我可以看看它吗"
+      },
+      {
+        "text": "please?",
+        "relation": "礼貌语气标记",
+        "meaning": "请问"
+      }
+    ],
+    "notes": [
+      {
+        "title": "May I...? 请求许可",
+        "text": "may用于请求对方允许自己做某事，语气委婉客气，回答常用Yes, of course. / Certainly.等。"
+      },
+      {
+        "title": "have a look at sth",
+        "text": "固定搭配，意为“看一看某物”，look此处是名词，后接宾语需加介词at。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "May I...? 请求许可",
+        "text": "may用于请求对方允许自己做某事，语气委婉客气，回答常用Yes, of course. / Certainly.等。"
+      },
+      {
+        "title": "have a look at sth",
+        "text": "固定搭配，意为“看一看某物”，look此处是名词，后接宾语需加介词at。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "May I have a look at it,",
+        "role": "一般疑问句（请求许可）",
+        "explanation": "May是情态动词置于句首构成疑问，I作主语，have a look at it是谓语部分。"
+      },
+      {
+        "text": "please?",
+        "role": "礼貌标记语",
+        "explanation": "please用于句末表礼貌，可提升请求的客气程度。"
+      }
+    ],
+    "words": [
+      {
+        "text": "May",
+        "meaning": "可以（表请求许可）",
+        "pos": "情态动词",
+        "phonetic": "/meɪ/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "have",
+        "meaning": "进行（动作）",
+        "pos": "动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "a",
+        "meaning": "一（次）",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "look",
+        "meaning": "看",
+        "pos": "名词",
+        "phonetic": "/lʊk/"
+      },
+      {
+        "text": "at",
+        "meaning": "（表示对象）对着；朝",
+        "pos": "介词",
+        "phonetic": "/æt/"
+      },
+      {
+        "text": "it,",
+        "meaning": "它",
+        "pos": "代词",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "text": "please?",
+        "meaning": "请；请问",
+        "pos": "感叹词",
+        "phonetic": "/pliːz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想礼貌请求“我可以……吗”用May I开头，看某物用have a look at",
+      "letterShape": "M__ I h___ a l___ a_ i_, p_____?",
+      "answerNote": "这是一句很客气的请求许可问句，please放在句末表礼貌"
+    },
+    "teacherTip": {
+      "text": "May I...? 是向对方请求许可的常用客气说法，比Can I更正式礼貌，适合陌生人间的正式场合。请求看东西时，常用have a look at it，而不能直接说look it。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已补齐所有必填中文字段，教师提点对比May I的礼貌用法和have a look at的搭配，符合要求"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已补齐所有必填中文字段，教师提点对比May I的礼貌用法和have a look at的搭配，符合要求"
+  }
+}

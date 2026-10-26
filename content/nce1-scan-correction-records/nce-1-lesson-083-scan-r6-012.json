@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-012",
+    "sentenceOrder": 12,
+    "english": "Let's go into the living room, Carol.",
+    "chinese": "咱们到客厅去吧，卡罗尔。",
+    "intent": "提议一同前往客厅并点明说话对象。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Let's go into the living room,",
+        "relation": "提议的核心内容",
+        "meaning": "咱们到客厅去吧"
+      },
+      {
+        "text": "Carol.",
+        "relation": "称呼对方",
+        "meaning": "卡罗尔"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Let's 提建议结构",
+        "text": "Let's 是 Let us 的常用缩写，用于向对方提议共同做某事，后面直接接动词原形，语气比完整形式更随意自然。"
+      },
+      {
+        "title": "go into + 地点",
+        "text": "表示“走进某个室内空间”，into 强调从外到内的动作方向，区别于单纯表示所在位置的 in。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "Let's 提建议结构",
+        "text": "Let's 是 Let us 的常用缩写，用于向对方提议共同做某事，后面直接接动词原形，语气比完整形式更随意自然。"
+      },
+      {
+        "title": "go into + 地点",
+        "text": "表示“走进某个室内空间”，into 强调从外到内的动作方向，区别于单纯表示所在位置的 in。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Let's go into the living room,",
+        "role": "祈使句主干（提建议）",
+        "explanation": "以 Let's 引出的祈使句，表达共同行动的提议；go into the living room 是具体的行动内容。"
+      },
+      {
+        "text": "Carol.",
+        "role": "呼语",
+        "explanation": "位于句末的称呼，用来点明说话对象，朗读时前面通常有停顿。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Let's",
+        "meaning": "让我们（表提议）",
+        "pos": "缩写词",
+        "phonetic": "/lets/"
+      },
+      {
+        "text": "go",
+        "meaning": "去",
+        "pos": "动词",
+        "phonetic": "/ɡəʊ/"
+      },
+      {
+        "text": "into",
+        "meaning": "到……里面",
+        "pos": "介词",
+        "phonetic": "/ˈɪntuː/"
+      },
+      {
+        "text": "the",
+        "meaning": "这个（表特指）",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "living",
+        "meaning": "起居的",
+        "pos": "动名词作定语",
+        "phonetic": "/ˈlɪvɪŋ/"
+      },
+      {
+        "text": "room,",
+        "meaning": "房间，",
+        "pos": "名词",
+        "phonetic": "/ruːm/"
+      },
+      {
+        "text": "Carol.",
+        "meaning": "卡罗尔。",
+        "pos": "人名",
+        "phonetic": "/ˈkærəl/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "提议一起去某地，先提“咱们”，再接动作和地点，最后补称呼。",
+      "letterShape": "L__'_ g_ i___ t__ l_____ r___, C____.",
+      "answerNote": "用 Let's 开头提出共同行动，地点放在 go into 之后。"
+    },
+    "teacherTip": {
+      "text": "Let's 是提共同行动建议的常用开头，不是字面的“让我们”，天然把说话人和听话人都算在行动里，语气轻松亲切。想提议一起做某事，直接用 Let's 加动词原形就很地道。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已核对原文、词义与结构，修正了教师点拨的表述，信息准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已核对原文、词义与结构，修正了教师点拨的表述，信息准确。"
+  }
+}

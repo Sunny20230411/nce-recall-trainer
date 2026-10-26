@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-105",
+    "sentenceId": "nce-1-lesson-105-sentence-003-part-01",
+    "sentenceOrder": 5,
+    "english": "I want her to come to my office.",
+    "chinese": "我要她到我办公室来。",
+    "intent": "要求桑德拉前来办公室",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I want",
+        "relation": "说话者要求",
+        "meaning": "我要"
+      },
+      {
+        "text": "her to come",
+        "relation": "执行者与行动",
+        "meaning": "她来"
+      },
+      {
+        "text": "to my office.",
+        "relation": "目的地",
+        "meaning": "到我的办公室"
+      }
+    ],
+    "notes": [
+      {
+        "title": "要求别人行动",
+        "text": "want her to come 中 her 是 want 的宾语，也是 come 的逻辑主语。"
+      },
+      {
+        "title": "两个 to",
+        "text": "第一个 to 引出不定式；第二个 to 是表示目的地的介词。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "要求别人行动",
+        "text": "want her to come 中 her 是 want 的宾语，也是 come 的逻辑主语。"
+      },
+      {
+        "title": "两个 to",
+        "text": "第一个 to 引出不定式；第二个 to 是表示目的地的介词。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "提出要求的人。"
+      },
+      {
+        "text": "want",
+        "role": "谓语",
+        "explanation": "表达意愿或要求。"
+      },
+      {
+        "text": "her",
+        "role": "宾语",
+        "explanation": "被要求行动的人。"
+      },
+      {
+        "text": "to come to my office.",
+        "role": "宾语补足语",
+        "explanation": "说明希望她完成的行动，其中 to my office 表示目的地。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "want",
+        "meaning": "想要；要求",
+        "pos": "动词",
+        "phonetic": "/wɒnt/"
+      },
+      {
+        "text": "her",
+        "meaning": "她",
+        "pos": "代词",
+        "phonetic": "/hɜː/"
+      },
+      {
+        "text": "to",
+        "meaning": "（引出不定式）",
+        "pos": "不定式标记",
+        "phonetic": "/tə/"
+      },
+      {
+        "text": "come",
+        "meaning": "来",
+        "pos": "动词",
+        "phonetic": "/kʌm/"
+      },
+      {
+        "text": "to",
+        "meaning": "到",
+        "pos": "介词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "my",
+        "meaning": "我的",
+        "pos": "物主限定词",
+        "phonetic": "/maɪ/"
+      },
+      {
+        "text": "office.",
+        "meaning": "办公室",
+        "pos": "名词",
+        "phonetic": "/ˈɒfɪs/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "说自己要她来，并交代目的地是自己的办公室。",
+      "letterShape": "I w___ h__ t_ c___ t_ m_ o_____.",
+      "answerNote": "用想要加宾格代词，再接不定式说明行动。"
+    },
+    "teacherTip": {
+      "text": "想做事的人是她，不是说话者自己，所以要把 her 放在 want 后面，再交代她要做什么。come 也体现了方向：是到说话者所在的地方来。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

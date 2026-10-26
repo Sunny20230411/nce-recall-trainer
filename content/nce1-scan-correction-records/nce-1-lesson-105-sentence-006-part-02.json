@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-105",
+    "sentenceId": "nce-1-lesson-105-sentence-006-part-02",
+    "sentenceOrder": 15,
+    "english": "I want you to type it again.",
+    "chinese": "我要你把它重新打一遍。",
+    "intent": "要求重打信件",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I want",
+        "relation": "提出要求",
+        "meaning": "我要"
+      },
+      {
+        "text": "you to type",
+        "relation": "指定行动",
+        "meaning": "你打字"
+      },
+      {
+        "text": "it",
+        "relation": "处理对象",
+        "meaning": "这封信"
+      },
+      {
+        "text": "again.",
+        "relation": "重做",
+        "meaning": "再一次"
+      }
+    ],
+    "notes": [
+      {
+        "title": "宾语与补足语",
+        "text": "you 是 want 的宾语，to type it again 说明要求对方做的事。"
+      },
+      {
+        "title": "指代",
+        "text": "it 在这里指前文那封错误很多的信。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "宾语与补足语",
+        "text": "you 是 want 的宾语，to type it again 说明要求对方做的事。"
+      },
+      {
+        "title": "指代",
+        "text": "it 在这里指前文那封错误很多的信。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "提出要求的人。"
+      },
+      {
+        "text": "want",
+        "role": "谓语",
+        "explanation": "表达明确要求。"
+      },
+      {
+        "text": "you",
+        "role": "宾语",
+        "explanation": "实际执行重打的人。"
+      },
+      {
+        "text": "to type it again.",
+        "role": "宾语补足语",
+        "explanation": "不定式交代要求的行动，it 是 type 的宾语，again 表示重复。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "want",
+        "meaning": "想要；要求",
+        "pos": "动词",
+        "phonetic": "/wɒnt/"
+      },
+      {
+        "text": "you",
+        "meaning": "你",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "to",
+        "meaning": "（引出不定式）",
+        "pos": "不定式标记",
+        "phonetic": "/tə/"
+      },
+      {
+        "text": "type",
+        "meaning": "打字；打出",
+        "pos": "动词",
+        "phonetic": "/taɪp/"
+      },
+      {
+        "text": "it",
+        "meaning": "它（指信）",
+        "pos": "代词",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "text": "again.",
+        "meaning": "再一次；重新",
+        "pos": "副词",
+        "phonetic": "/əˈɡen/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "明确要求对方重新完成打信这件事。",
+      "letterShape": "I w___ y__ t_ t___ i_ a____.",
+      "answerNote": "要求某人做事用宾语加不定式，句末说明再做一次。"
+    },
+    "teacherTip": {
+      "text": "这不是说自己想重新打，而是明确要求对方来做。把 you 放在 want 后面，again 放在动作后面，就把执行者和重做的要求都说清楚了。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

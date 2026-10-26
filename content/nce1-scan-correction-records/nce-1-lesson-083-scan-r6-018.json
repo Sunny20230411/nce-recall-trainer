@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-018",
+    "sentenceOrder": 18,
+    "english": "Tom and I are going to have a holiday.",
+    "chinese": "我和汤姆要去度假了。",
+    "intent": "告知对方两人即将休假的计划",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Tom and I",
+        "relation": "动作主体",
+        "meaning": "汤姆和我"
+      },
+      {
+        "text": "are going to have a holiday.",
+        "relation": "将要进行的计划",
+        "meaning": "打算去度假"
+      }
+    ],
+    "notes": [
+      {
+        "title": "be going to 表计划",
+        "text": "are going to have 表示目前已经决定、即将执行的安排，语气比单纯的将来时更肯定。"
+      },
+      {
+        "title": "have a holiday",
+        "text": "固定搭配，意思是“休假、度假”，强调拥有一段休息时间。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "be going to 表计划",
+        "text": "are going to have 表示目前已经决定、即将执行的安排，语气比单纯的将来时更肯定。"
+      },
+      {
+        "title": "have a holiday",
+        "text": "固定搭配，意思是“休假、度假”，强调拥有一段休息时间。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Tom and I",
+        "role": "主语",
+        "explanation": "由Tom and I构成的并列主语，指两个人。"
+      },
+      {
+        "text": "are going to have a holiday.",
+        "role": "谓语",
+        "explanation": "are going to have 是将来时的谓语结构，a holiday是have的宾语。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Tom",
+        "meaning": "汤姆（男子名）",
+        "pos": "专有名词",
+        "phonetic": "/tɒm/"
+      },
+      {
+        "text": "and",
+        "meaning": "和",
+        "pos": "连词",
+        "phonetic": "/ænd/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "人称代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "are",
+        "meaning": "（be动词，对应复数主语，无实义，构成将来时结构）",
+        "pos": "助动词",
+        "phonetic": "/ɑː/"
+      },
+      {
+        "text": "going",
+        "meaning": "（与to搭配表将来打算，无实义）",
+        "pos": "动词现在分词",
+        "phonetic": "/ˈɡəʊɪŋ/"
+      },
+      {
+        "text": "to",
+        "meaning": "（不定式符号，无实义）",
+        "pos": "不定式小品词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "have",
+        "meaning": "度过",
+        "pos": "动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "a",
+        "meaning": "一个（次）",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "holiday.",
+        "meaning": "假期",
+        "pos": "名词",
+        "phonetic": "/ˈhɒlədeɪ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说两个人，再说“打算做什么”的计划结构。",
+      "letterShape": "T__ a__ I a__ g____ t_ h___ a h______.",
+      "answerNote": "用be going to接have a holiday来表达已经定好的度假安排。"
+    },
+    "teacherTip": {
+      "text": "这里用be going to表示眼下已经确定的安排，不是临时起意。说“度假”时，have a holiday侧重享受一段假期，go on holiday更侧重动身出行的状态，两个都自然，按想强调的角度选就行。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "句子与扫描原文一致，修正了be动词词性说明和have的释义，教学数据符合要求。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。句子与扫描原文一致，修正了be动词词性说明和have的释义，教学数据符合要求。"
+  }
+}

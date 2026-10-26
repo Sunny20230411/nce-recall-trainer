@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-61",
+    "sentenceId": "nce-1-lesson-061-scan-r6-002",
+    "sentenceOrder": 2,
+    "english": "He's in bed.",
+    "chinese": "他躺在床上。",
+    "intent": "回答上一句的位置提问，说明第三人所处的位置状态",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "He's",
+        "relation": "主语+谓语",
+        "meaning": "他在"
+      },
+      {
+        "text": "in bed.",
+        "relation": "地点表语",
+        "meaning": "在床上"
+      }
+    ],
+    "notes": [
+      {
+        "title": "in bed的含义",
+        "text": "in bed是固定表达，多指“躺在床上（常含休息、生病的意味）”，不必加定冠词the。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "in bed的含义",
+        "text": "in bed是固定表达，多指“躺在床上（常含休息、生病的意味）”，不必加定冠词the。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "He's in bed.",
+        "role": "主系表结构",
+        "explanation": "He's是主语He加系动词is的缩写，in bed是介词短语作表语，说明主语的位置状态。"
+      }
+    ],
+    "words": [
+      {
+        "text": "He's",
+        "meaning": "他在（He is的缩写，is在这里表示所处的状态）",
+        "pos": "人称代词+be动词缩写",
+        "phonetic": "/hiːz/"
+      },
+      {
+        "text": "in",
+        "meaning": "在（某处）",
+        "pos": "介词",
+        "phonetic": "/ɪn/"
+      },
+      {
+        "text": "bed.",
+        "meaning": "床",
+        "pos": "名词",
+        "phonetic": "/bed/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说“他”，再补“在床上”的地点。",
+      "letterShape": "H_'_ i_ b__.",
+      "answerNote": "这是对位置提问的回答，说明他正躺在床上。"
+    },
+    "teacherTip": {
+      "text": "回答Where的提问时，先说主语加be动词（He's），再补地点（in bed），语序和中文大体一致，直接对应就能用。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "字段结构完整，数据符合原文，in bed的含义贴合上下文语境。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。字段结构完整，数据符合原文，in bed的含义贴合上下文语境。"
+  }
+}

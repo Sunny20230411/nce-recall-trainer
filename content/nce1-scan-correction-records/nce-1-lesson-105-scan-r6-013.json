@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-105",
+    "sentenceId": "nce-1-lesson-105-scan-r6-013",
+    "sentenceOrder": 13,
+    "english": "You've typed it with only one 'L'.",
+    "chinese": "可你打的时候只打了一个 L。",
+    "intent": "指出已打出的单词少了一个字母",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "You've typed it",
+        "relation": "已完成的输入",
+        "meaning": "你已经把它打出来了"
+      },
+      {
+        "text": "with only one 'L'.",
+        "relation": "错误细节",
+        "meaning": "却只用了一个 L"
+      }
+    ],
+    "notes": [
+      {
+        "title": "完成时与当前结果",
+        "text": "You've 是 You have，接 typed 表示已完成的输入，其结果现在仍可检查。"
+      },
+      {
+        "title": "数量限制",
+        "text": "only 修饰 one 'L'，强调只出现一个 L。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "完成时与当前结果",
+        "text": "You've 是 You have，接 typed 表示已完成的输入，其结果现在仍可检查。"
+      },
+      {
+        "title": "数量限制",
+        "text": "only 修饰 one 'L'，强调只出现一个 L。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "You've",
+        "role": "主语与完成时助动词",
+        "explanation": "缩写包含 you 和 have。"
+      },
+      {
+        "text": "typed",
+        "role": "谓语核心",
+        "explanation": "过去分词与 have 构成现在完成时。"
+      },
+      {
+        "text": "it",
+        "role": "宾语",
+        "explanation": "指 intelligent 这个单词。"
+      },
+      {
+        "text": "with only one 'L'.",
+        "role": "方式状语",
+        "explanation": "说明打出的字母配置。"
+      }
+    ],
+    "words": [
+      {
+        "text": "You've",
+        "meaning": "你已经（含完成时助动词）",
+        "pos": "代词与助动词缩写",
+        "phonetic": "/juːv/"
+      },
+      {
+        "text": "typed",
+        "meaning": "打字输入了",
+        "pos": "动词",
+        "phonetic": "/taɪpt/"
+      },
+      {
+        "text": "it",
+        "meaning": "它（指该单词）",
+        "pos": "代词",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "text": "with",
+        "meaning": "用；带有",
+        "pos": "介词",
+        "phonetic": "/wɪð/"
+      },
+      {
+        "text": "only",
+        "meaning": "只",
+        "pos": "副词",
+        "phonetic": "/ˈəʊnli/"
+      },
+      {
+        "text": "one",
+        "meaning": "一个",
+        "pos": "数词",
+        "phonetic": "/wʌn/"
+      },
+      {
+        "text": "'L'.",
+        "meaning": "字母 L",
+        "pos": "字母名称",
+        "phonetic": "/el/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说已经打出的结果，再指出只用了一个字母。",
+      "letterShape": "Y__'__ t____ i_ w___ o___ o__ 'L'.",
+      "answerNote": "现在完成时后接宾语，用介词短语说明少打的字母数量。"
+    },
+    "teacherTip": {
+      "text": "她口头拼得对，纸上却少了一个 L。现在完成时把已经打过的动作和眼前的错误连起来；only one 点出问题是数量不足，不是字母选错。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

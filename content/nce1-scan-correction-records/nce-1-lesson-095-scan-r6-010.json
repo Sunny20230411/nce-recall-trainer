@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-95",
+    "sentenceId": "nce-1-lesson-095-scan-r6-010",
+    "sentenceOrder": 10,
+    "english": "It's only three minutes to eight.",
+    "chinese": "现在才差三分钟到八点。",
+    "intent": "说明当前具体时刻，强调离八点还有很短时间，呼应上文“时间充裕”。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "It's only",
+        "relation": "主语与系动词 + 强调词",
+        "meaning": "现在只是/才"
+      },
+      {
+        "text": "three minutes to eight.",
+        "relation": "表语（具体时间差）",
+        "meaning": "差三分钟到八点"
+      }
+    ],
+    "notes": [
+      {
+        "title": "时间读法：倒读法（不到半点）",
+        "text": "表示“差几分到几点”用“分钟数 + to + 整点”，three minutes to eight 即 7:57。"
+      },
+      {
+        "title": "only 的强调作用",
+        "text": "only 放在时间短语前，表示“仅仅、才”，强调时间尚早、剩余时间不多但够用。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "时间读法：倒读法（不到半点）",
+        "text": "表示“差几分到几点”用“分钟数 + to + 整点”，three minutes to eight 即 7:57。"
+      },
+      {
+        "title": "only 的强调作用",
+        "text": "only 放在时间短语前，表示“仅仅、才”，强调时间尚早、剩余时间不多但够用。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "It's only three minutes to eight.",
+        "role": "主系表结构",
+        "explanation": "It's 作主系部分，only three minutes to eight 作表语，用来说明当前时间。"
+      },
+      {
+        "text": "only three minutes to eight.",
+        "role": "名词短语作表语",
+        "explanation": "由only修饰的时间短语，整体表示“差三分钟到八点”，作表语说明时刻。"
+      }
+    ],
+    "words": [
+      {
+        "text": "It's",
+        "meaning": "它是（it is的缩写，此处指时间）",
+        "pos": "代词+be动词缩写",
+        "phonetic": "/ɪts/"
+      },
+      {
+        "text": "only",
+        "meaning": "只，仅仅",
+        "pos": "副词",
+        "phonetic": "/ˈəʊnli/"
+      },
+      {
+        "text": "three",
+        "meaning": "三",
+        "pos": "数词",
+        "phonetic": "/θriː/"
+      },
+      {
+        "text": "minutes",
+        "meaning": "分钟",
+        "pos": "名词",
+        "phonetic": "/ˈmɪnɪts/"
+      },
+      {
+        "text": "to",
+        "meaning": "到，差（表示时间）",
+        "pos": "介词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "eight.",
+        "meaning": "八（点钟）",
+        "pos": "数词",
+        "phonetic": "/eɪt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想表达“差几分到几点”，用哪个介词表示“到/差”？",
+      "letterShape": "I_'_ o___ t____ m______ t_ e____.",
+      "answerNote": "用“分钟数 + to + 整点”的结构，to表示还差多少到整点。"
+    },
+    "teacherTip": {
+      "text": "说“差几分到几点”，英语用“分钟数 + to + 整点”，to 表示“差、到”。这里only放在时间短语前，突出“只差、仅仅”，带一点“还早呢”的语气。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "时间表达与词义准确，教学点贴合中文学习者易错点。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。时间表达与词义准确，教学点贴合中文学习者易错点。"
+  }
+}

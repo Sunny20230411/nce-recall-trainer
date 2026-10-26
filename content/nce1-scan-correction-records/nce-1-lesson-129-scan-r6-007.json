@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-129",
+    "sentenceId": "nce-1-lesson-129-scan-r6-007",
+    "sentenceOrder": 7,
+    "english": "I can't have been.",
+    "chinese": "我不可能开那个速度。",
+    "intent": "否认警察对先前车速的判断",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I",
+        "relation": "否认者",
+        "meaning": "我"
+      },
+      {
+        "text": "can't have been.",
+        "relation": "否定过去的推断",
+        "meaning": "不可能是那样"
+      }
+    ],
+    "notes": [
+      {
+        "title": "省略回答",
+        "text": "been 后省略 driving at seventy miles an hour。"
+      },
+      {
+        "title": "否定推测",
+        "text": "can't have 表示认为过去某种情况不可能发生，而非过去没有能力。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "省略回答",
+        "text": "been 后省略 driving at seventy miles an hour。"
+      },
+      {
+        "title": "否定推测",
+        "text": "can't have 表示认为过去某种情况不可能发生，而非过去没有能力。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "司机本人"
+      },
+      {
+        "text": "can't have been.",
+        "role": "谓语",
+        "explanation": "否定对过去驾驶情况的推测，后接内容省略"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "can't",
+        "meaning": "不可能",
+        "pos": "情态动词（否定缩合）",
+        "phonetic": "/kɑːnt/"
+      },
+      {
+        "text": "have",
+        "meaning": "（构成完成形式）",
+        "pos": "助动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "been.",
+        "meaning": "（承接被省略的驾驶情况）",
+        "pos": "助动词",
+        "phonetic": "/biːn/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "用否定推测回应刚才的速度判断，已知内容不重复。",
+      "letterShape": "I c__'_ h___ b___.",
+      "answerNote": "can't have been 承接上一句的完成进行形式。"
+    },
+    "teacherTip": {
+      "text": "这不是“我没有能力开车”，而是说警察的推断不可能对。回答保留 can't have been，省去双方都知道的驾驶速度内容，为后面报出八十英里的反转作铺垫。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

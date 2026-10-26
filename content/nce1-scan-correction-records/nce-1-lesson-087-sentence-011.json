@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-87",
+    "sentenceId": "nce-1-lesson-087-sentence-011",
+    "sentenceOrder": 15,
+    "english": "I drove it into a lamp-post.",
+    "chinese": "我把车撞到一根路灯柱上了。",
+    "intent": "说明事故经过，交代车撞到了什么物体上。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I drove it",
+        "relation": "动作执行者与动作+宾语",
+        "meaning": "我驾驶它（指车）"
+      },
+      {
+        "text": "into a lamp-post.",
+        "relation": "碰撞方向与对象",
+        "meaning": "撞到一根路灯柱上"
+      }
+    ],
+    "notes": [
+      {
+        "title": "drive into 的含义",
+        "text": "drive into 表示“驾车撞上……”，into 突出碰撞的动态与结果，区别于单纯表方向的 drive to。"
+      },
+      {
+        "title": "合成名词 lamp-post",
+        "text": "lamp-post 是由 lamp 和 post 用连字符构成的合成名词，意为“路灯柱”。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "drive into 的含义",
+        "text": "drive into 表示“驾车撞上……”，into 突出碰撞的动态与结果，区别于单纯表方向的 drive to。"
+      },
+      {
+        "title": "合成名词 lamp-post",
+        "text": "lamp-post 是由 lamp 和 post 用连字符构成的合成名词，意为“路灯柱”。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I drove it into a lamp-post.",
+        "role": "主谓宾+状语",
+        "explanation": "I 是主语，drove 是谓语动词过去式，it 是宾语，into a lamp-post 是介词短语作方向/结果状语。"
+      },
+      {
+        "text": "into a lamp-post.",
+        "role": "介词短语作状语",
+        "explanation": "into 引出碰撞的对象，a lamp-post 是介词宾语。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "人称代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "drove",
+        "meaning": "驾驶（drive的过去式）",
+        "pos": "动词",
+        "phonetic": "/drəʊv/"
+      },
+      {
+        "text": "it",
+        "meaning": "它",
+        "pos": "人称代词",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "text": "into",
+        "meaning": "到……里面；撞上",
+        "pos": "介词",
+        "phonetic": "/ˈɪntuː/"
+      },
+      {
+        "text": "a",
+        "meaning": "一（根）",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "lamp-post.",
+        "meaning": "路灯柱",
+        "pos": "名词",
+        "phonetic": "/ˈlæmp pəʊst/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想说“开车撞上某物”，记得用 drive into 表碰撞结果。",
+      "letterShape": "I d____ i_ i___ a l___-____.",
+      "answerNote": "用 drive into 表示驾车撞上，into 带出碰撞的动态。"
+    },
+    "teacherTip": {
+      "text": "“撞到……上”容易直译成 drive it to a lamp-post，其实英语用 drive into 更准确——into 带有“撞上、陷入”的动态结果，不只是方向。以后说开车撞到什么、撞上哪里，都可以用 drive into 这个搭配。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "修正原句中 lamp post 为连字符形式 lamp-post，与标准课文一致，搭配点拨准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。修正原句中 lamp post 为连字符形式 lamp-post，与标准课文一致，搭配点拨准确。"
+  }
+}

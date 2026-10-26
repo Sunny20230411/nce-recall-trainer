@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-97",
+    "sentenceId": "nce-1-lesson-097-sentence-011",
+    "sentenceOrder": 12,
+    "english": "That's right.",
+    "chinese": "没错。",
+    "intent": "工作人员核对完标签信息后，确认与失主所说一致。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "That's right.",
+        "relation": "主语+系动词+表语",
+        "meaning": "那是 对的。"
+      }
+    ],
+    "notes": [
+      {
+        "title": "That's right 与 All right 的区别",
+        "text": "That's right 侧重“说得对、符合事实”；All right 侧重“好吧、可以”，表示同意或情况尚可。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "That's right 与 All right 的区别",
+        "text": "That's right 侧重“说得对、符合事实”；All right 侧重“好吧、可以”，表示同意或情况尚可。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "That's right.",
+        "role": "主系表短句",
+        "explanation": "That作主语，is是系动词，right作表语，构成完整的短句回应。"
+      }
+    ],
+    "words": [
+      {
+        "text": "That's",
+        "meaning": "那是（that is 的缩写）",
+        "pos": "代词+be动词缩写",
+        "phonetic": "/ðæts/"
+      },
+      {
+        "text": "right.",
+        "meaning": "正确的，对的",
+        "pos": "形容词",
+        "phonetic": "/raɪt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想肯定“对方说的是对的”，就用That's right。",
+      "letterShape": "T___'_ r____.",
+      "answerNote": "这是核对信息后的确认，表示内容相符。"
+    },
+    "teacherTip": {
+      "text": "That's right用来确认对方说的内容正确、符合事实，不是表示“好的、同意”。这里是核对信息后的确认，不是答应请求，别和All right混淆。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已将原误写的All right更正为课文原文That's right，并补充两者区分的教学点，表述准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已将原误写的All right更正为课文原文That's right，并补充两者区分的教学点，表述准确。"
+  }
+}

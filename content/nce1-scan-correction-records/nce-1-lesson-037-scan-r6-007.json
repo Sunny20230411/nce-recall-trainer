@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-37",
+    "sentenceId": "nce-1-lesson-037-scan-r6-007",
+    "sentenceOrder": 7,
+    "english": "No, not that one.",
+    "chinese": "不，不是那一把。",
+    "intent": "否定对方指的那一把锤子，明确排除错误对象。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "No,",
+        "relation": "整体否定回应",
+        "meaning": "不，"
+      },
+      {
+        "text": "not that one.",
+        "relation": "补充说明被否定的具体对象",
+        "meaning": "不是那一把。"
+      }
+    ],
+    "notes": [
+      {
+        "title": "简短否定回答",
+        "text": "完整可以说No, it is not that one. 口语里省略it is，直接说not that one更简洁，上下文已经明确在说hammer。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "简短否定回答",
+        "text": "完整可以说No, it is not that one. 口语里省略it is，直接说not that one更简洁，上下文已经明确在说hammer。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "No,",
+        "role": "否定应答词",
+        "explanation": "No用来直接否定对方刚才的提问或猜测。"
+      },
+      {
+        "text": "not",
+        "role": "否定词",
+        "explanation": "not表示否定，引出被否定的内容。"
+      },
+      {
+        "text": "that one.",
+        "role": "被否定的指代词组",
+        "explanation": "that one指代较远的那一把锤子，one代替前面的hammer。"
+      }
+    ],
+    "words": [
+      {
+        "text": "No,",
+        "meaning": "不，不是",
+        "pos": "感叹词",
+        "phonetic": "/nəʊ/"
+      },
+      {
+        "text": "not",
+        "meaning": "不，没有",
+        "pos": "副词",
+        "phonetic": "/nɒt/"
+      },
+      {
+        "text": "that",
+        "meaning": "那个",
+        "pos": "限定词",
+        "phonetic": "/ðæt/"
+      },
+      {
+        "text": "one.",
+        "meaning": "一个（指代锤子）",
+        "pos": "代词",
+        "phonetic": "/wʌn/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先给否定，再指出不对的那一个，不用重复名词。",
+      "letterShape": "N_, n__ t___ o__.",
+      "answerNote": "用No先否定，再用not that one明确排除对方指的那个物品。"
+    },
+    "teacherTip": {
+      "text": "先用No直接否定对方的猜测，再用not that one点明错的是哪一个，信息干脆清楚。纠正对方指错物品时，都可以先给否定，再用that one指出不对的那个，不用重复完整句子。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "字段完整，否定回应的信息安排讲解清楚，符合口语逻辑。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。字段完整，否定回应的信息安排讲解清楚，符合口语逻辑。"
+  }
+}

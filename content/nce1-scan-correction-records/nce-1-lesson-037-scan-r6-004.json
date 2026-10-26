@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-37",
+    "sentenceId": "nce-1-lesson-037-scan-r6-004",
+    "sentenceOrder": 4,
+    "english": "Give me that hammer please, Dan.",
+    "chinese": "请把那把锤子递给我，丹。",
+    "intent": "向对方提出请求，希望对方把指定的锤子递过来。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Give me",
+        "relation": "祈使句主干，提出递送的动作和接收者",
+        "meaning": "递给我"
+      },
+      {
+        "text": "that hammer",
+        "relation": "宾语，指明要递的具体物品",
+        "meaning": "那把锤子"
+      },
+      {
+        "text": "please,",
+        "relation": "礼貌标记，软化请求语气",
+        "meaning": "请（句中带逗号）"
+      },
+      {
+        "text": "Dan.",
+        "relation": "称呼，指明说话对象",
+        "meaning": "丹（句末带句号）"
+      }
+    ],
+    "notes": [
+      {
+        "title": "表示请求的祈使句",
+        "text": "以动词原形Give开头，后接间接宾语me和直接宾语that hammer，加上please表示礼貌，句末的Dan是称呼语。"
+      },
+      {
+        "title": "give接双宾语",
+        "text": "give后面可以先接人（me）再接物（that hammer），表示“把某物给某人”。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "表示请求的祈使句",
+        "text": "以动词原形Give开头，后接间接宾语me和直接宾语that hammer，加上please表示礼貌，句末的Dan是称呼语。"
+      },
+      {
+        "title": "give接双宾语",
+        "text": "give后面可以先接人（me）再接物（that hammer），表示“把某物给某人”。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Give me that hammer please, Dan.",
+        "role": "祈使句（含称呼语）",
+        "explanation": "核心祈使部分为Give me that hammer please，Dan是句末的称呼语。"
+      },
+      {
+        "text": "Give me that hammer",
+        "role": "双宾语结构",
+        "explanation": "me是间接宾语，that hammer是直接宾语，共同作give的宾语。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Give",
+        "meaning": "给；递给",
+        "pos": "动词",
+        "phonetic": "/ɡɪv/"
+      },
+      {
+        "text": "me",
+        "meaning": "我（宾格）",
+        "pos": "人称代词",
+        "phonetic": "/miː/"
+      },
+      {
+        "text": "that",
+        "meaning": "那个；那",
+        "pos": "限定词",
+        "phonetic": "/ðæt/"
+      },
+      {
+        "text": "hammer",
+        "meaning": "锤子",
+        "pos": "名词",
+        "phonetic": "/ˈhæmə/"
+      },
+      {
+        "text": "please,",
+        "meaning": "请（句中带逗号）",
+        "pos": "感叹词",
+        "phonetic": "/pliːz/"
+      },
+      {
+        "text": "Dan.",
+        "meaning": "丹（男子名，句末带句号）",
+        "pos": "名词",
+        "phonetic": "/dæn/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先讲“递给我+物品”，再加please和对方称呼。",
+      "letterShape": "G___ m_ t___ h_____ p_____, D__.",
+      "answerNote": "用祈使句Give me sth. please提出递物请求，语气更客气。"
+    },
+    "teacherTip": {
+      "text": "请求别人递东西时，先用Give me把动作和接收者说清楚，再加please软化语气，最后补称呼Dan明确说话对象。日常要别人递某物，都可以用Give me + 物品 + please的句式。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "原文与扫描内容一致；结构、词性及词义均核对正确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。原文与扫描内容一致；结构、词性及词义均核对正确。"
+  }
+}

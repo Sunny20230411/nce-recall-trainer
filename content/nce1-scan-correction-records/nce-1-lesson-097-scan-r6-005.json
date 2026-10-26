@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-97",
+    "sentenceId": "nce-1-lesson-097-scan-r6-005",
+    "sentenceOrder": 5,
+    "english": "Is this case yours?",
+    "chinese": "这只箱子是您的吗？",
+    "intent": "向对方确认眼前的箱子是否属于他，核对物品归属。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Is this case",
+        "relation": "被确认的物品",
+        "meaning": "这只箱子"
+      },
+      {
+        "text": "yours?",
+        "relation": "未知的归属焦点",
+        "meaning": "是你的吗"
+      }
+    ],
+    "notes": [
+      {
+        "title": "一般疑问句确认归属",
+        "text": "把 be 动词 Is 提前，用名词性物主代词 yours 询问“是不是你的（东西）”，yours = your case。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "一般疑问句确认归属",
+        "text": "把 be 动词 Is 提前，用名词性物主代词 yours 询问“是不是你的（东西）”，yours = your case。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Is this case yours?",
+        "role": "一般疑问句",
+        "explanation": "Is 是系动词，this case 是主语，yours 是表语；倒装语序用来提问归属。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Is",
+        "meaning": "是（be动词第三人称单数，用于提问）",
+        "pos": "be动词",
+        "phonetic": "/ɪz/"
+      },
+      {
+        "text": "this",
+        "meaning": "这个",
+        "pos": "限定词",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "text": "case",
+        "meaning": "箱子",
+        "pos": "名词",
+        "phonetic": "/keɪs/"
+      },
+      {
+        "text": "yours?",
+        "meaning": "你的（东西）？",
+        "pos": "名词性物主代词+问号",
+        "phonetic": "/jɔːz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先提要问的物品，再用yours落在“是不是对方的”这个焦点上。",
+      "letterShape": "I_ t___ c___ y____?",
+      "answerNote": "以Is开头的一般疑问句，用yours表示“你的箱子”，不用重复名词。"
+    },
+    "teacherTip": {
+      "text": "问物品归属时，英语把要确认的物品this case放在主语位置，句末用yours落在“归属”这个未知焦点上。焦点是“是不是你的”，不是“这是什么”，回答也直接对应mine/yours这类物主代词，不用重复名词。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "句子与原文一致，疑问句焦点的讲解准确，符合询问归属的常用场景。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。句子与原文一致，疑问句焦点的讲解准确，符合询问归属的常用场景。"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-67",
+    "sentenceId": "nce-1-lesson-067-sentence-001",
+    "sentenceOrder": 2,
+    "english": "Were you at the butcher's?",
+    "chinese": "你在肉店吗？",
+    "intent": "询问对方过去是否在某个地点。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Were you",
+        "relation": "疑问框架（主语+be动词倒装）",
+        "meaning": "你……吗？"
+      },
+      {
+        "text": "at the butcher's?",
+        "relation": "询问的地点",
+        "meaning": "在肉店"
+      }
+    ],
+    "notes": [
+      {
+        "title": "'s 表店铺",
+        "text": "the butcher's 是 the butcher's shop 的省略，用店主职业加's 代指店铺，是口语里很常见的简略说法。"
+      },
+      {
+        "title": "一般过去时疑问句",
+        "text": "把be动词were放在句首，询问过去某个时间对方是否在某地。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "'s 表店铺",
+        "text": "the butcher's 是 the butcher's shop 的省略，用店主职业加's 代指店铺，是口语里很常见的简略说法。"
+      },
+      {
+        "title": "一般过去时疑问句",
+        "text": "把be动词were放在句首，询问过去某个时间对方是否在某地。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Were you at the butcher's?",
+        "role": "一般疑问句（一般过去时）",
+        "explanation": "由be动词were提前构成疑问语序，询问过去的状态。"
+      },
+      {
+        "text": "at the butcher's?",
+        "role": "表语（地点介词短语）",
+        "explanation": "at the butcher's 是介词短语作表语，说明所处地点。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Were",
+        "meaning": "是（be的过去式，用于第二人称单复数及复数主语，这里引导疑问句）",
+        "pos": "动词",
+        "phonetic": "/wɜː(r)/"
+      },
+      {
+        "text": "you",
+        "meaning": "你；你们",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "at",
+        "meaning": "在（某处）",
+        "pos": "介词",
+        "phonetic": "/æt/"
+      },
+      {
+        "text": "the",
+        "meaning": "这个；那个（定冠词，这里特指双方都知道的那家肉店）",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "butcher's?",
+        "meaning": "肉店（butcher的所有格，等于butcher's shop）",
+        "pos": "名词所有格",
+        "phonetic": "/ˈbʊtʃəz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先想“你在某地吗”的疑问句式，再用职业加's说店铺。",
+      "letterShape": "W___ y__ a_ t__ b______'_?",
+      "answerNote": "用were you开头问过去的状态，the butcher's指肉店。"
+    },
+    "teacherTip": {
+      "text": "英语里说店铺常常用店主职业加's，比如the butcher's就是肉店，不用多说shop。这里问的是刚才的情况，把were放句首就构成一般疑问句。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已修正原句错误，符合扫描原文；字段完整准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已修正原句错误，符合扫描原文；字段完整准确。"
+  }
+}

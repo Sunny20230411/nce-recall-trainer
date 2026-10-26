@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-101",
+    "sentenceId": "nce-1-lesson-101-scan-r6-010",
+    "sentenceOrder": 10,
+    "english": "What else does he say?",
+    "chinese": "他还说了什么？",
+    "intent": "在已知对方说了一部分内容的基础上，询问剩余或补充的信息",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "What else",
+        "relation": "疑问核心（补充内容）",
+        "meaning": "别的什么"
+      },
+      {
+        "text": "does he say?",
+        "relation": "疑问句式主体",
+        "meaning": "他说"
+      }
+    ],
+    "notes": [
+      {
+        "title": "what else的用法",
+        "text": "else接在疑问词what后面，表示“其他的、别的”，用于在已有信息之外追问更多内容。"
+      },
+      {
+        "title": "一般现在时疑问句",
+        "text": "实义动词say的第三人称单数疑问句，用助动词does帮助构成疑问语序，动词用原形。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "what else的用法",
+        "text": "else接在疑问词what后面，表示“其他的、别的”，用于在已有信息之外追问更多内容。"
+      },
+      {
+        "title": "一般现在时疑问句",
+        "text": "实义动词say的第三人称单数疑问句，用助动词does帮助构成疑问语序，动词用原形。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "What else",
+        "role": "疑问宾语",
+        "explanation": "由what和else构成的疑问短语，在句中作动词say的宾语，询问所说的内容。"
+      },
+      {
+        "text": "does",
+        "role": "助动词",
+        "explanation": "一般现在时第三人称单数的疑问助动词，无实义，帮助构成疑问句语序。"
+      },
+      {
+        "text": "he",
+        "role": "主语",
+        "explanation": "人称代词主格he，指代前文提到的男性（吉米）。"
+      },
+      {
+        "text": "say?",
+        "role": "谓语动词",
+        "explanation": "实义动词say的原形，因前面有助动词does，用动词原形。"
+      }
+    ],
+    "words": [
+      {
+        "text": "What",
+        "meaning": "什么",
+        "pos": "代词",
+        "phonetic": "/wɒt/"
+      },
+      {
+        "text": "else",
+        "meaning": "别的，其他的",
+        "pos": "副词",
+        "phonetic": "/els/"
+      },
+      {
+        "text": "does",
+        "meaning": "（无实义，帮助构成一般现在时第三人称单数疑问句）",
+        "pos": "助动词",
+        "phonetic": "/dʌz/"
+      },
+      {
+        "text": "he",
+        "meaning": "他",
+        "pos": "代词",
+        "phonetic": "/hiː/"
+      },
+      {
+        "text": "say?",
+        "meaning": "说；讲",
+        "pos": "动词",
+        "phonetic": "/seɪ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想追问“还有什么别的内容”，先把疑问词加else放最前面，再接一般疑问句语序。",
+      "letterShape": "W___ e___ d___ h_ s__?",
+      "answerNote": "what else用来问“别的什么”，放在疑问句句首，后面接一般疑问句语序。"
+    },
+    "teacherTip": {
+      "text": "这句的焦点是“别的内容”，不是“说”这个动作本身。你已经听过一部分内容，想接着追问剩下的信息，就把What else放在句首，直接点出未知的补充部分。想问“还有谁、还有哪里”，换成Who else、Where else即可。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "修订了teacherTip表述，去掉重复的指令感，其余内容与原文一致，信息准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。修订了teacherTip表述，去掉重复的指令感，其余内容与原文一致，信息准确。"
+  }
+}

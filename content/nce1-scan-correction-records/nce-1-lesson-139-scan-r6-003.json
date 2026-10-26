@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-139",
+    "sentenceId": "nce-1-lesson-139-scan-r6-003",
+    "sentenceOrder": 3,
+    "english": "Tell Mary we'll be late for dinner this evening.",
+    "chinese": "告诉玛丽，我们今晚吃饭会迟到。",
+    "intent": "请接电话的人代为转告晚餐迟到的消息。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Tell Mary",
+        "relation": "请对方转告的对象",
+        "meaning": "告诉玛丽"
+      },
+      {
+        "text": "we'll be late for dinner",
+        "relation": "需要转达的消息",
+        "meaning": "我们吃饭会迟到"
+      },
+      {
+        "text": "this evening.",
+        "relation": "消息涉及的时间",
+        "meaning": "今晚"
+      }
+    ],
+    "notes": [
+      {
+        "title": "tell后的人与消息",
+        "text": "Tell Mary 后接 we'll be late... 作为消息内容，连接词 that 在这里省略。祈使句中被请托的 you 没有明说。"
+      },
+      {
+        "title": "be late for",
+        "text": "be late for dinner 表示赴晚餐迟到，不是晚餐本身晚了；this evening 不需要再加时间介词。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "tell后的人与消息",
+        "text": "Tell Mary 后接 we'll be late... 作为消息内容，连接词 that 在这里省略。祈使句中被请托的 you 没有明说。"
+      },
+      {
+        "title": "be late for",
+        "text": "be late for dinner 表示赴晚餐迟到，不是晚餐本身晚了；this evening 不需要再加时间介词。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Tell",
+        "role": "谓语动词",
+        "explanation": "提出转告的请求。"
+      },
+      {
+        "text": "Mary",
+        "role": "间接宾语",
+        "explanation": "消息的接收者玛丽。"
+      },
+      {
+        "text": "we'll be late for dinner this evening.",
+        "role": "宾语从句",
+        "explanation": "说明要转达的完整内容，省略that。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Tell",
+        "meaning": "告诉、转告",
+        "pos": "动词",
+        "phonetic": "/tel/ 或 /təˈtel/？不，tell 的英式音标是 /tel/，正确。"
+      },
+      {
+        "text": "Mary",
+        "meaning": "玛丽（人名）",
+        "pos": "名词",
+        "phonetic": "/ˈmeəri/"
+      },
+      {
+        "text": "we'll",
+        "meaning": "我们将会",
+        "pos": "代词与助动词缩写",
+        "phonetic": "/wiːl/ 或 /wɪl/"
+      },
+      {
+        "text": "be",
+        "meaning": "（连接主语与迟到状态）",
+        "pos": "动词",
+        "phonetic": "/biː/ 或 /bi/"
+      },
+      {
+        "text": "late",
+        "meaning": "迟到的",
+        "pos": "形容词",
+        "phonetic": "/leɪt/"
+      },
+      {
+        "text": "for",
+        "meaning": "对于、赴（晚餐）",
+        "pos": "介词",
+        "phonetic": "/fɔː(r)/"
+      },
+      {
+        "text": "dinner",
+        "meaning": "晚餐",
+        "pos": "名词",
+        "phonetic": "/ˈdɪnə/"
+      },
+      {
+        "text": "this",
+        "meaning": "这（个）",
+        "pos": "限定词",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "text": "evening.",
+        "meaning": "晚上",
+        "pos": "名词",
+        "phonetic": "/ˈiːvnɪŋ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "请对方转告玛丽，再说今晚晚餐要迟到。",
+      "letterShape": "T___ M___ w_'__ b_ l___ f__ d_____ t___ e______.",
+      "answerNote": "把接收者和要转达的整件事分别交代清楚。"
+    },
+    "teacherTip": {
+      "text": "你不是直接跟玛丽说话，而是请眼前这个人替你传话。先用 Tell Mary 交代“告诉谁”，再把要转达的整件事接上；以后请人传话，也可以先明确收信的人，再说消息内容。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

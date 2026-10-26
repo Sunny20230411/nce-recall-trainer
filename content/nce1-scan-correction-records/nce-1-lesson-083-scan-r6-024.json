@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-024",
+    "sentenceOrder": 24,
+    "english": "I stayed at home!",
+    "chinese": "我待在家里了！",
+    "intent": "揭晓自己休假的地点",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I",
+        "relation": "人物",
+        "meaning": "我"
+      },
+      {
+        "text": "stayed",
+        "relation": "经历",
+        "meaning": "待了"
+      },
+      {
+        "text": "at home!",
+        "relation": "地点",
+        "meaning": "在家里"
+      }
+    ],
+    "notes": [
+      {
+        "title": "过去经历",
+        "text": "stayed 回答前文 Where did you go，叙述已经结束的休假经历。"
+      },
+      {
+        "title": "地点搭配",
+        "text": "at home 表示在家；这里 home 是介词 at 的宾语。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "过去经历",
+        "text": "stayed 回答前文 Where did you go，叙述已经结束的休假经历。"
+      },
+      {
+        "title": "地点搭配",
+        "text": "at home 表示在家；这里 home 是介词 at 的宾语。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "说明谁度过假期。"
+      },
+      {
+        "text": "stayed",
+        "role": "谓语",
+        "explanation": "一般过去时，表示当时停留。"
+      },
+      {
+        "text": "at home!",
+        "role": "地点状语",
+        "explanation": "说明停留地点。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "stayed",
+        "meaning": "待；停留",
+        "pos": "动词",
+        "phonetic": "/steɪd/"
+      },
+      {
+        "text": "at",
+        "meaning": "在",
+        "pos": "介词",
+        "phonetic": "/æt/"
+      },
+      {
+        "text": "home!",
+        "meaning": "家里",
+        "pos": "名词",
+        "phonetic": "/həʊm/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说自己做了什么，再交代地点其实是家里。",
+      "letterShape": "I s_____ a_ h___!",
+      "answerNote": "用停留的过去式，地点用表示在家的短语。"
+    },
+    "teacherTip": {
+      "text": "前面问去了哪里，回答却是待在家里，笑点就在这个反差。说休假期间做了什么，用一般过去时回顾即可；有假期并不等于一定出门旅行。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

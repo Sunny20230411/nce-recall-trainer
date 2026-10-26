@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-139",
+    "sentenceId": "nce-1-lesson-139-scan-r6-005",
+    "sentenceOrder": 5,
+    "english": "Hasn't Mary told you?",
+    "chinese": "玛丽没告诉你吗？",
+    "intent": "对对方不知道晚餐安排感到意外并确认是否告知。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Hasn't Mary told you?",
+        "relation": "意外地确认是否已经告知",
+        "meaning": "玛丽没告诉你吗"
+      }
+    ],
+    "notes": [
+      {
+        "title": "否定的现在完成时问句",
+        "text": "Hasn't 是 has not 的缩写，与 told 构成现在完成时，关注到现在是否已经告知。Mary 是主语，you 是消息接收者。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "否定的现在完成时问句",
+        "text": "Hasn't 是 has not 的缩写，与 told 构成现在完成时，关注到现在是否已经告知。Mary 是主语，you 是消息接收者。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Hasn't",
+        "role": "否定助动词",
+        "explanation": "帮助构成现在完成时的否定疑问句。"
+      },
+      {
+        "text": "Mary",
+        "role": "主语",
+        "explanation": "玛丽是告知这一动作的执行者。"
+      },
+      {
+        "text": "told",
+        "role": "谓语核心",
+        "explanation": "told是tell的过去分词。"
+      },
+      {
+        "text": "you?",
+        "role": "宾语",
+        "explanation": "指应当收到消息的人。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Hasn't",
+        "meaning": "难道还没有（完成时否定问句）",
+        "pos": "助动词缩写",
+        "phonetic": "/ˈhæzənt/"
+      },
+      {
+        "text": "Mary",
+        "meaning": "玛丽（人名）",
+        "pos": "名词",
+        "phonetic": "/ˈmeəri/"
+      },
+      {
+        "text": "told",
+        "meaning": "告诉",
+        "pos": "动词过去分词",
+        "phonetic": "/təʊld/"
+      },
+      {
+        "text": "you?",
+        "meaning": "你",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "带着“她应该已经告诉你”的预期，反问是否尚未告知。",
+      "letterShape": "H___'_ M___ t___ y__?",
+      "answerNote": "现在完成时关注到说话时为止是否发生，否定问句带出意外。"
+    },
+    "teacherTip": {
+      "text": "说话人原以为玛丽已经告诉对方，所以问的不是毫无预期的“她告诉你了吗”，而是“难道还没告诉你吗”。想表达这种与预期不符的确认，英语可以用否定问句，但不必因此理解成责备。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

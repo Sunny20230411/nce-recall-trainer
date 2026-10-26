@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-59",
+    "sentenceId": "nce-1-lesson-059-scan-r6-010",
+    "sentenceOrder": 10,
+    "english": "And I want some glue.",
+    "chinese": "我还要一些胶水。",
+    "intent": "顾客继续追加购物需求，补充下一样要买的物品。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "And",
+        "relation": "衔接标记",
+        "meaning": "还有；另外"
+      },
+      {
+        "text": "I want",
+        "relation": "说话人与需求动作",
+        "meaning": "我想要"
+      },
+      {
+        "text": "some glue.",
+        "relation": "需求的物品",
+        "meaning": "一些胶水"
+      }
+    ],
+    "notes": [
+      {
+        "title": "and 表追加需求",
+        "text": "在列举或追加购物项时，句首用And引出下一个需求，口语中很常见，相当于“还有”。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "and 表追加需求",
+        "text": "在列举或追加购物项时，句首用And引出下一个需求，口语中很常见，相当于“还有”。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "And I want some glue.",
+        "role": "陈述句（追加需求）",
+        "explanation": "And作句首连接词，承接上文需求；主干为I want some glue。"
+      },
+      {
+        "text": "And",
+        "role": "连接词",
+        "explanation": "用于承接前一个购物需求，引出新的需求。"
+      },
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "指代说话的顾客。"
+      },
+      {
+        "text": "want",
+        "role": "谓语动词",
+        "explanation": "表示“想要”。"
+      },
+      {
+        "text": "some glue.",
+        "role": "宾语",
+        "explanation": "some修饰不可数名词glue，表示“一些胶水”。"
+      }
+    ],
+    "words": [
+      {
+        "text": "And",
+        "meaning": "和；还有；接着",
+        "pos": "连词",
+        "phonetic": "/ænd/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "want",
+        "meaning": "想要",
+        "pos": "动词",
+        "phonetic": "/wɒnt/"
+      },
+      {
+        "text": "some",
+        "meaning": "一些",
+        "pos": "限定词",
+        "phonetic": "/sʌm/"
+      },
+      {
+        "text": "glue.",
+        "meaning": "胶水",
+        "pos": "名词",
+        "phonetic": "/ɡluː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想说“还要一样东西”，开头先用衔接词承接，再说出物品。",
+      "letterShape": "A__ I w___ s___ g___.",
+      "answerNote": "顾客在便笺簿之后，又补充要一些胶水。"
+    },
+    "teacherTip": {
+      "text": "句首的And不是简单译为“和”，而是承接上一个需求，表示“还有一样”。口语里追加购物项时开头加And很自然，不用特意说I also want。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "对and追加功能的点拨到位，词类与结构对应准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。对and追加功能的点拨到位，词类与结构对应准确。"
+  }
+}

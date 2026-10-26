@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-113",
+    "sentenceId": "nce-1-lesson-113-scan-r6-003",
+    "sentenceOrder": 3,
+    "english": "I'm sorry, sir.",
+    "chinese": "对不起，先生。",
+    "intent": "为无法提供找零表示歉意",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I'm sorry,",
+        "relation": "表示歉意",
+        "meaning": "对不起"
+      },
+      {
+        "text": "sir.",
+        "relation": "称呼对方",
+        "meaning": "先生"
+      }
+    ],
+    "notes": [
+      {
+        "title": "缩写",
+        "text": "I'm 是 I am 的缩写，sorry 说明说话人的歉意。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "缩写",
+        "text": "I'm 是 I am 的缩写，sorry 说明说话人的歉意。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I'm",
+        "role": "主语与系动词",
+        "explanation": "I 为主语，am 连接歉意状态"
+      },
+      {
+        "text": "sorry,",
+        "role": "表语",
+        "explanation": "说明说话人感到抱歉"
+      },
+      {
+        "text": "sir.",
+        "role": "呼语",
+        "explanation": "称呼男性乘客"
+      }
+    ],
+    "words": [
+      {
+        "text": "I'm",
+        "meaning": "我（含系动词）",
+        "pos": "代词与系动词缩写",
+        "phonetic": "/aɪm/"
+      },
+      {
+        "text": "sorry,",
+        "meaning": "抱歉的",
+        "pos": "形容词",
+        "phonetic": "/ˈsɒri/"
+      },
+      {
+        "text": "sir.",
+        "meaning": "先生",
+        "pos": "名词",
+        "phonetic": "/sɜː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先表达自己的歉意，再称呼先生。",
+      "letterShape": "I'_ s____, s__.",
+      "answerNote": "用系表表达歉意，句末保留对男性的称呼。"
+    },
+    "teacherTip": {
+      "text": "这里的 sorry 是为接下来帮不上忙作铺垫，并不一定表示自己做错了事。遇到无法满足对方要求的情形，也可以先这样表达歉意。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

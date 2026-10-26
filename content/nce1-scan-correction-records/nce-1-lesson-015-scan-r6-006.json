@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-15",
+    "sentenceId": "nce-1-lesson-015-scan-r6-006",
+    "sentenceOrder": 6,
+    "english": "They are Norwegian.",
+    "chinese": "他们是挪威人。",
+    "intent": "说明朋友的国籍，承接上一句的否定回答补充正确信息。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "They are",
+        "relation": "主语与系动词",
+        "meaning": "他们是"
+      },
+      {
+        "text": "Norwegian.",
+        "relation": "表语（说明国籍的核心新信息）",
+        "meaning": "挪威人"
+      }
+    ],
+    "notes": [
+      {
+        "title": "be动词说明国籍",
+        "text": "用be动词 + 国籍形容词（如Norwegian）可以直接说明某人的国籍，该词兼作名词也可表国籍。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "be动词说明国籍",
+        "text": "用be动词 + 国籍形容词（如Norwegian）可以直接说明某人的国籍，该词兼作名词也可表国籍。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "They",
+        "role": "主语",
+        "explanation": "人称代词主格they，指代前面提到的your friends。"
+      },
+      {
+        "text": "are",
+        "role": "系动词",
+        "explanation": "be动词的复数现在时形式are，连接主语和表语。"
+      },
+      {
+        "text": "Norwegian.",
+        "role": "表语",
+        "explanation": "形容词Norwegian，用来说明主语的国籍身份。"
+      }
+    ],
+    "words": [
+      {
+        "text": "They",
+        "meaning": "他们",
+        "pos": "人称代词主格",
+        "phonetic": "/ðeɪ/"
+      },
+      {
+        "text": "are",
+        "meaning": "（be动词复数现在时形式，无实义，连接主语与表语）",
+        "pos": "be动词",
+        "phonetic": "/ɑː/"
+      },
+      {
+        "text": "Norwegian.",
+        "meaning": "挪威的；挪威人",
+        "pos": "形容词（兼作名词）",
+        "phonetic": "/nɔːˈwiːdʒən/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "纠正别人的误会时，把正确的国籍信息放在句子最后说。",
+      "letterShape": "T___ a__ N________.",
+      "answerNote": "补充说明朋友们的真实国籍是挪威。"
+    },
+    "teacherTip": {
+      "text": "上一句刚否定了“你朋友也是丹麦人”，这句把正确国籍Norwegian放在句末，信息焦点自然落在新信息上。纠正误解时，先否定再把正确内容放句末，对方一下就能接住重点。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已核对为扫描原文句子，教学数据完整准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已核对为扫描原文句子，教学数据完整准确。"
+  }
+}

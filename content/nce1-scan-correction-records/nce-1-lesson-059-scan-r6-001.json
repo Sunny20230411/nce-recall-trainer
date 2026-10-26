@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-59",
+    "sentenceId": "nce-1-lesson-059-scan-r6-001",
+    "sentenceOrder": 1,
+    "english": "I want some envelopes, please.",
+    "chinese": "请给我一些信封。",
+    "intent": "在商店里向店员说明自己想要购买的物品，发起购物请求。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I want",
+        "relation": "主语+需求动作",
+        "meaning": "我想要"
+      },
+      {
+        "text": "some envelopes,",
+        "relation": "想要的物品",
+        "meaning": "一些信封"
+      },
+      {
+        "text": "please.",
+        "relation": "礼貌标记",
+        "meaning": "请"
+      }
+    ],
+    "notes": [
+      {
+        "title": "please的位置",
+        "text": "please放在句末表示礼貌请求，比放在句首更自然常见，前面通常加逗号。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "please的位置",
+        "text": "please放在句末表示礼貌请求，比放在句首更自然常见，前面通常加逗号。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "人称代词主格，指说话人自己。"
+      },
+      {
+        "text": "want",
+        "role": "谓语动词",
+        "explanation": "实义动词want表示“想要”，后面接名词作宾语。"
+      },
+      {
+        "text": "some envelopes,",
+        "role": "宾语",
+        "explanation": "some修饰复数名词envelopes，表示“一些信封”。"
+      },
+      {
+        "text": "please.",
+        "role": "礼貌用语",
+        "explanation": "感叹词please用于请求时使语气更委婉，放在句末。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "人称代词主格",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "want",
+        "meaning": "想要",
+        "pos": "动词",
+        "phonetic": "/wɒnt/"
+      },
+      {
+        "text": "some",
+        "meaning": "一些",
+        "pos": "限定词",
+        "phonetic": "/sʌm/"
+      },
+      {
+        "text": "envelopes,",
+        "meaning": "信封（复数）",
+        "pos": "名词",
+        "phonetic": "/ˈenvələʊps/"
+      },
+      {
+        "text": "please.",
+        "meaning": "请",
+        "pos": "感叹词",
+        "phonetic": "/pliːz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "购物说自己要什么，先说我想要，再讲物品，最后加please更礼貌。",
+      "letterShape": "I w___ s___ e________, p_____.",
+      "answerNote": "用want表示想要的物品，句末加please构成礼貌的请求。"
+    },
+    "teacherTip": {
+      "text": "购物时说“我要什么”，用I want some... please就很自然，please放在句末比句首更客气委婉。也可以说I'd like some envelopes，语气更柔和，但want在日常买东西的场景里并不生硬。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "内容与原文一致，购物场景的表达点拨准确实用，结构和词义均无误。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。内容与原文一致，购物场景的表达点拨准确实用，结构和词义均无误。"
+  }
+}

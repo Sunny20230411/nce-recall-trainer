@@ -6,7 +6,7 @@ import vm from 'node:vm';
 
 const partial = process.argv.includes('--allow-partial');
 assert.equal(makeLetterShape("I'm a new student."), "I'_ a n__ s______.");
-const published = await loadPublishedUnderstanding({ requireComplete: !partial });
+const published = await loadPublishedUnderstanding({ requireComplete: !partial, withoutScanCorrection: true });
 const original = JSON.parse(await readFile('content/understanding-source-index.v1.json', 'utf8'));
 const plan = JSON.parse(await readFile('content/sentence-split-plan.v1.json', 'utf8'));
 const pilots = JSON.parse(await readFile('content/sentence-understanding.pilot.v1.json', 'utf8')).records;

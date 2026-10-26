@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-105",
+    "sentenceId": "nce-1-lesson-105-scan-r6-008",
+    "sentenceOrder": 8,
+    "english": "Ah, yes, Sandra.",
+    "chinese": "啊，是的，桑德拉。",
+    "intent": "回应桑德拉并接入正题",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Ah,",
+        "relation": "语气反应",
+        "meaning": "啊"
+      },
+      {
+        "text": "yes,",
+        "relation": "确认",
+        "meaning": "是的"
+      },
+      {
+        "text": "Sandra.",
+        "relation": "称呼",
+        "meaning": "桑德拉"
+      }
+    ],
+    "notes": [
+      {
+        "title": "对话衔接",
+        "text": "这是独立的简短回应，不能为它硬补一个完整主谓结构。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "对话衔接",
+        "text": "这是独立的简短回应，不能为它硬补一个完整主谓结构。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Ah,",
+        "role": "独立感叹语",
+        "explanation": "表示注意到或想起对话事项。"
+      },
+      {
+        "text": "yes,",
+        "role": "应答语",
+        "explanation": "确认对方的问题。"
+      },
+      {
+        "text": "Sandra.",
+        "role": "呼语",
+        "explanation": "称呼面前的桑德拉。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Ah,",
+        "meaning": "啊",
+        "pos": "感叹词",
+        "phonetic": "/ɑː/"
+      },
+      {
+        "text": "yes,",
+        "meaning": "是的",
+        "pos": "副词",
+        "phonetic": "/jes/"
+      },
+      {
+        "text": "Sandra.",
+        "meaning": "桑德拉（人名）",
+        "pos": "专有名词",
+        "phonetic": "/ˈsɑːndrə/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先发出一声反应，再肯定回应并叫她的名字。",
+      "letterShape": "A_, y__, S_____.",
+      "answerNote": "感叹语、肯定词和人名之间用逗号分开。"
+    },
+    "teacherTip": {
+      "text": "Ah 表现出说话者把注意力转回这件事，yes 则确认刚才确实找过她。这样短短一声回应，就能自然接着提出问题。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

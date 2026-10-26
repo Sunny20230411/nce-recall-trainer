@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-59",
+    "sentenceId": "nce-1-lesson-059-scan-r6-011",
+    "sentenceOrder": 11,
+    "english": "A bottle of glue.",
+    "chinese": "一瓶胶水。",
+    "intent": "承接上文顾客的胶水需求，用名词短语形式确认商品规格。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "A bottle of glue.",
+        "relation": "核心信息（商品及规格）",
+        "meaning": "一瓶胶水"
+      }
+    ],
+    "notes": [
+      {
+        "title": "省略句在购物语境中的用法",
+        "text": "本句是名词短语构成的省略句，承接上文顾客提出的glue需求，相当于省略了I want或You want a bottle of glue的核心部分。"
+      },
+      {
+        "title": "不可数名词的量化表达",
+        "text": "glue是不可数名词，表示具体数量时用“a + 容器名词 + of + 不可数名词”的结构。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "省略句在购物语境中的用法",
+        "text": "本句是名词短语构成的省略句，承接上文顾客提出的glue需求，相当于省略了I want或You want a bottle of glue的核心部分。"
+      },
+      {
+        "title": "不可数名词的量化表达",
+        "text": "glue是不可数名词，表示具体数量时用“a + 容器名词 + of + 不可数名词”的结构。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "A bottle of glue.",
+        "role": "名词短语（省略句）",
+        "explanation": "整体作为购物场景下的承接性应答，直接点明商品规格，省略了双方已知的主谓部分。"
+      },
+      {
+        "text": "bottle of glue.",
+        "role": "量词短语结构",
+        "explanation": "bottle of glue以bottle为量词核心，of引出不可数名词glue说明内容物。"
+      }
+    ],
+    "words": [
+      {
+        "text": "A",
+        "meaning": "一（个、瓶等）",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "bottle",
+        "meaning": "瓶子",
+        "pos": "名词",
+        "phonetic": "/ˈbɒtl/"
+      },
+      {
+        "text": "of",
+        "meaning": "（表示内容所属）的",
+        "pos": "介词",
+        "phonetic": "/əv/"
+      },
+      {
+        "text": "glue.",
+        "meaning": "胶水",
+        "pos": "名词",
+        "phonetic": "/ɡluː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "回应刚提过的不可数物品需求，直接说容器加of加物品就够了。",
+      "letterShape": "A b_____ o_ g___.",
+      "answerNote": "“一瓶胶水”用a bottle of glue，购物时可以直接用这个短语承接。"
+    },
+    "teacherTip": {
+      "text": "购物场景里接对方刚提过的不可数物品需求，不用重复说“我要/你要胶水”，直接用“a bottle of glue”这样的容器+of+物品结构报规格，简洁又清楚。遇到纸、牛奶这类不可数商品，都可以用这个方式回应或提需求。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "句子信息与原文一致，教学点准确贴合购物省略表达场景，难度符合第一册要求。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。句子信息与原文一致，教学点准确贴合购物省略表达场景，难度符合第一册要求。"
+  }
+}

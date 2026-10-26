@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-105",
+    "sentenceId": "nce-1-lesson-105-sentence-006-part-01",
+    "sentenceOrder": 14,
+    "english": "This letter's full of mistakes.",
+    "chinese": "这封信里全是错误。",
+    "intent": "指出信件错误很多",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "This letter's",
+        "relation": "被评价对象",
+        "meaning": "这封信"
+      },
+      {
+        "text": "full of mistakes.",
+        "relation": "问题程度",
+        "meaning": "满是错误"
+      }
+    ],
+    "notes": [
+      {
+        "title": "缩写辨认",
+        "text": "letter's 在这里是 letter is，不是所有格。"
+      },
+      {
+        "title": "固定搭配",
+        "text": "be full of 表示充满；mistakes 用复数表示多处错误。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "缩写辨认",
+        "text": "letter's 在这里是 letter is，不是所有格。"
+      },
+      {
+        "title": "固定搭配",
+        "text": "be full of 表示充满；mistakes 用复数表示多处错误。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "This letter's",
+        "role": "主语与系动词",
+        "explanation": "This letter 是主语，letter's 末尾包含 is。"
+      },
+      {
+        "text": "full of mistakes.",
+        "role": "表语",
+        "explanation": "形容词短语说明信的状况，of mistakes 补充装满什么。"
+      }
+    ],
+    "words": [
+      {
+        "text": "This",
+        "meaning": "这",
+        "pos": "指示限定词",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "text": "letter's",
+        "meaning": "信是（含 is）",
+        "pos": "名词与系动词缩写",
+        "phonetic": "/ˈletəz/"
+      },
+      {
+        "text": "full",
+        "meaning": "充满的",
+        "pos": "形容词",
+        "phonetic": "/fʊl/"
+      },
+      {
+        "text": "of",
+        "meaning": "……的；含有",
+        "pos": "介词",
+        "phonetic": "/ɒv/"
+      },
+      {
+        "text": "mistakes.",
+        "meaning": "错误",
+        "pos": "名词",
+        "phonetic": "/mɪˈsteɪks/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "以这封信为话题，用充满某物的表达强调错误多。",
+      "letterShape": "T___ l_____'_ f___ o_ m_______.",
+      "answerNote": "信后缩写系动词，形容词后接介词引出错误。"
+    },
+    "teacherTip": {
+      "text": "full of 把错误多说成信里“装满了”错误，语气比单说有几个错误更重。letter 在此是整封信，不是上一句提到的单个字母。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

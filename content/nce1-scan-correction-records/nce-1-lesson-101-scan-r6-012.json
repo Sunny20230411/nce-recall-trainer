@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-101",
+    "sentenceId": "nce-1-lesson-101-scan-r6-012",
+    "sentenceOrder": 12,
+    "english": "I hope you are all well.'",
+    "chinese": "我希望你们都身体好。’",
+    "intent": "引述吉米对家人的问候与祝愿，表达希望对方安好的心意",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I hope",
+        "relation": "主句（主语+愿望动词）",
+        "meaning": "我希望"
+      },
+      {
+        "text": "you are all well.'",
+        "relation": "宾语从句（希望的内容）",
+        "meaning": "你们都身体好（引语结束）"
+      }
+    ],
+    "notes": [
+      {
+        "title": "hope后接宾语从句",
+        "text": "hope后面可以直接跟一个完整的句子作宾语，表达希望某事发生或某种状态成立，口语中常省略连接词that。"
+      },
+      {
+        "title": "all的位置",
+        "text": "all表示“全部、都”，放在be动词are的后面，修饰主语you，强调所有人。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "hope后接宾语从句",
+        "text": "hope后面可以直接跟一个完整的句子作宾语，表达希望某事发生或某种状态成立，口语中常省略连接词that。"
+      },
+      {
+        "title": "all的位置",
+        "text": "all表示“全部、都”，放在be动词are的后面，修饰主语you，强调所有人。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I",
+        "role": "主句主语",
+        "explanation": "人称代词主格I，作主句的主语。"
+      },
+      {
+        "text": "hope",
+        "role": "主句谓语",
+        "explanation": "实义动词hope，作主句谓语，后接宾语从句。"
+      },
+      {
+        "text": "you are all well.'",
+        "role": "宾语从句",
+        "explanation": "省略that的宾语从句，作hope的宾语，内容是希望的具体情况。"
+      },
+      {
+        "text": "you",
+        "role": "从句主语",
+        "explanation": "人称代词主格you，在从句中作主语。"
+      },
+      {
+        "text": "are",
+        "role": "从句系动词",
+        "explanation": "be动词are，在从句中作系动词。"
+      },
+      {
+        "text": "all",
+        "role": "不定代词",
+        "explanation": "all修饰从句主语you，放在be动词之后，强调“全部都”。"
+      },
+      {
+        "text": "well.'",
+        "role": "从句表语+引语标记",
+        "explanation": "well是形容词作表语，意思是“身体好的”，句末单引号表示直接引语结束。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "hope",
+        "meaning": "希望",
+        "pos": "动词",
+        "phonetic": "/həʊp/"
+      },
+      {
+        "text": "you",
+        "meaning": "你；你们",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "are",
+        "meaning": "是（be动词第二人称复数形式）",
+        "pos": "动词",
+        "phonetic": "/ɑː/"
+      },
+      {
+        "text": "all",
+        "meaning": "全部；都",
+        "pos": "代词",
+        "phonetic": "/ɔːl/"
+      },
+      {
+        "text": "well.'",
+        "meaning": "身体好的（句末带直接引语结束单引号）",
+        "pos": "形容词",
+        "phonetic": "/wel/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "表达希望某人怎么样，先说“我希望”，再接对方和状态，“都”放在be动词后面。",
+      "letterShape": "I h___ y__ a__ a__ w___.'",
+      "answerNote": "hope后面直接跟句子表示希望的内容，all放在be动词后强调所有人都安好。"
+    },
+    "teacherTip": {
+      "text": "hope后面直接接句子，是很常用的祝愿表达。中文说“希望你们都好”，英语不用特意加连接词，直接说I hope you...就自然。all放在be动词后面，强调“所有人都”的范围。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "将structures中all的role由“程度限定词”修正为“不定代词”，微调teacherTip表述，其余内容与原文一致，信息准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。将structures中all的role由“程度限定词”修正为“不定代词”，微调teacherTip表述，其余内容与原文一致，信息准确。"
+  }
+}

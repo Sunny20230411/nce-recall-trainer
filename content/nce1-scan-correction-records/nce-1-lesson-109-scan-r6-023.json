@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-109",
+    "sentenceId": "nce-1-lesson-109-scan-r6-023",
+    "sentenceOrder": 23,
+    "english": "That's very good advice!",
+    "chinese": "这建议真好！",
+    "intent": "赞同刚才的生活建议",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "That's",
+        "relation": "承接建议",
+        "meaning": "那是"
+      },
+      {
+        "text": "very good advice!",
+        "relation": "高度评价",
+        "meaning": "非常好的建议"
+      }
+    ],
+    "notes": [
+      {
+        "title": "不可数名词",
+        "text": "advice 不加 a，也不直接用复数；very 修饰 good，不修饰 advice。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "不可数名词",
+        "text": "advice 不加 a，也不直接用复数；very 修饰 good，不修饰 advice。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "That's",
+        "role": "主语与系动词",
+        "explanation": "That's 指刚才多吃少抽的建议，并包含 is。"
+      },
+      {
+        "text": "very good advice!",
+        "role": "表语",
+        "explanation": "对建议作积极评价，very 加强 good 的程度。"
+      }
+    ],
+    "words": [
+      {
+        "text": "That's",
+        "meaning": "那是（指刚才的建议）",
+        "pos": "代词与系动词缩写",
+        "phonetic": "/ðæts/"
+      },
+      {
+        "text": "very",
+        "meaning": "非常",
+        "pos": "副词",
+        "phonetic": "/ˈveri/"
+      },
+      {
+        "text": "good",
+        "meaning": "好的",
+        "pos": "形容词",
+        "phonetic": "/ɡʊd/"
+      },
+      {
+        "text": "advice!",
+        "meaning": "建议",
+        "pos": "不可数名词",
+        "phonetic": "/ədˈvaɪs/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "接住刚才的建议，强调评价很好，注意建议不能直接数。",
+      "letterShape": "T___'_ v___ g___ a_____!",
+      "answerNote": "那是后接非常好的建议，名词前不加一个。"
+    },
+    "teacherTip": {
+      "text": "advice 把刚才两条做法合起来当作建议来评价，在英语里是不可数名词。即使内容不止一条，也不能因此直接加复数词尾；要数条数时另用 a piece of 等表达。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

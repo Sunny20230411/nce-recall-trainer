@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-139",
+    "sentenceId": "nce-1-lesson-139-scan-r6-009",
+    "sentenceOrder": 9,
+    "english": "I don't know when I'll finish.",
+    "chinese": "我不知道什么时候能结束。",
+    "intent": "说明自己无法确定工作的结束时间。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I don't know",
+        "relation": "说明自己尚不清楚",
+        "meaning": "我不知道"
+      },
+      {
+        "text": "when I'll finish.",
+        "relation": "点明未知的内容",
+        "meaning": "什么时候会结束"
+      }
+    ],
+    "notes": [
+      {
+        "title": "when引导的内容从句",
+        "text": "when I'll finish 作 know 的宾语，内部按陈述语序说 I'll finish，不使用独立问句的 will I finish。"
+      },
+      {
+        "title": "finish的省略内容",
+        "text": "finish 在这里指结束手头的工作，具体宾语可由前文补足。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "when引导的内容从句",
+        "text": "when I'll finish 作 know 的宾语，内部按陈述语序说 I'll finish，不使用独立问句的 will I finish。"
+      },
+      {
+        "title": "finish的省略内容",
+        "text": "finish 在这里指结束手头的工作，具体宾语可由前文补足。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I don't know",
+        "role": "主句",
+        "explanation": "说明说话人不知道某事。"
+      },
+      {
+        "text": "when I'll finish.",
+        "role": "宾语从句",
+        "explanation": "说明不知道的是完成工作的时间。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "don't",
+        "meaning": "不（构成否定）",
+        "pos": "助动词缩写",
+        "phonetic": "/dəʊnt/"
+      },
+      {
+        "text": "know",
+        "meaning": "知道",
+        "pos": "动词",
+        "phonetic": "/nəʊ/"
+      },
+      {
+        "text": "when",
+        "meaning": "什么时候",
+        "pos": "连接副词",
+        "phonetic": "/wen/"
+      },
+      {
+        "text": "I'll",
+        "meaning": "我将会",
+        "pos": "代词与助动词缩写",
+        "phonetic": "/aɪl/"
+      },
+      {
+        "text": "finish.",
+        "meaning": "结束、完成工作",
+        "pos": "动词",
+        "phonetic": "/ˈfɪnɪʃ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说不知道，再把工作何时结束这个未知点接上。",
+      "letterShape": "I d__'_ k___ w___ I'__ f_____.",
+      "answerNote": "从句提供“不知道”的内容，不是独立提出问题。"
+    },
+    "teacherTip": {
+      "text": "真正不知道的是“什么时候结束”，所以把这个未知点放进 I don't know 后面。when I'll finish 在这里是一件尚不确定的事，不是另起一个问题；下次说明自己不知道什么，也可以把那个未知内容整体接上。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

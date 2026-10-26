@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-010",
+    "sentenceOrder": 10,
+    "english": "I've just had a cup, thank you.",
+    "chinese": "我刚喝过一杯了，谢谢你。",
+    "intent": "礼貌拒绝对方喝咖啡的邀请，说明自己刚刚已经喝过，同时表示感谢。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I've just had a cup,",
+        "relation": "说明已完成的动作及数量",
+        "meaning": "我刚喝过一杯（咖啡）"
+      },
+      {
+        "text": "thank you.",
+        "relation": "礼貌回应",
+        "meaning": "谢谢你"
+      }
+    ],
+    "notes": [
+      {
+        "title": "现在完成时+just",
+        "text": "have/has + just + 过去分词用来表示不久前刚完成的动作，强调与现在的关联——因为刚喝过，所以现在不喝了。"
+      },
+      {
+        "title": "a cup的指代",
+        "text": "这里a cup承接上文的a cup of coffee，省略了of coffee，避免重复。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "现在完成时+just",
+        "text": "have/has + just + 过去分词用来表示不久前刚完成的动作，强调与现在的关联——因为刚喝过，所以现在不喝了。"
+      },
+      {
+        "title": "a cup的指代",
+        "text": "这里a cup承接上文的a cup of coffee，省略了of coffee，避免重复。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I've just had a cup,",
+        "role": "主句（现在完成时陈述句）",
+        "explanation": "主语I + 助动词have（缩写为've）+ 状语just + 谓语had + 宾语a cup，表达刚完成的动作。"
+      },
+      {
+        "text": "thank you.",
+        "role": "句末礼貌用语",
+        "explanation": "thank you放在句末，用于拒绝提议时表达谢意，语气礼貌委婉。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I've",
+        "meaning": "我已经（是I have的缩写，have在这里作助动词，构成现在完成时）",
+        "pos": "代词+助动词缩写",
+        "phonetic": "/aɪv/"
+      },
+      {
+        "text": "just",
+        "meaning": "刚刚，刚才",
+        "pos": "副词",
+        "phonetic": "/dʒʌst/"
+      },
+      {
+        "text": "had",
+        "meaning": "喝（have的过去分词，这里表示饮用）",
+        "pos": "动词",
+        "phonetic": "/hæd/"
+      },
+      {
+        "text": "a",
+        "meaning": "一（杯）",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "cup,",
+        "meaning": "杯子（这里指代一杯咖啡）",
+        "pos": "名词",
+        "phonetic": "/kʌp/"
+      },
+      {
+        "text": "thank",
+        "meaning": "谢谢，感谢",
+        "pos": "动词",
+        "phonetic": "/θæŋk/"
+      },
+      {
+        "text": "you.",
+        "meaning": "你，你们",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说“我刚喝过一杯”，用现在完成时加just，再接上感谢。",
+      "letterShape": "I'__ j___ h__ a c__, t____ y__.",
+      "answerNote": "用I've just had...表达刚完成且影响现在的动作，句尾加thank you礼貌拒绝。"
+    },
+    "teacherTip": {
+      "text": "刚做完一件事、因此婉拒当前邀请时，常用I've just had...。just和现在完成时搭配，重点是强调“喝完的状态到现在还在”，所以不用再喝了，不是只说“刚才”那个时间点。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已复核：just与现在完成时的语用对比清晰，a cup的指代说明准确，各字段无误。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已复核：just与现在完成时的语用对比清晰，a cup的指代说明准确，各字段无误。"
+  }
+}

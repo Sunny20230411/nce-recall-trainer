@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-022",
+    "sentenceOrder": 22,
+    "english": "I've already had my holiday this year.",
+    "chinese": "我今年已经休过假了。",
+    "intent": "补充说明自己不确定度假时间的原因，给出“今年已度假”这一事实依据。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I've already had",
+        "relation": "核心谓语，说明已经发生的动作",
+        "meaning": "我已经度过了"
+      },
+      {
+        "text": "my holiday",
+        "relation": "动作的对象，指度假这件事",
+        "meaning": "我的假期"
+      },
+      {
+        "text": "this year.",
+        "relation": "时间范围，限定在今年之内",
+        "meaning": "今年。"
+      }
+    ],
+    "notes": [
+      {
+        "title": "现在完成时与already连用",
+        "text": "结构是“have/has + already + 过去分词”，用来强调动作在当前之前已经完成，常暗含和现在情况有关联。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "现在完成时与already连用",
+        "text": "结构是“have/has + already + 过去分词”，用来强调动作在当前之前已经完成，常暗含和现在情况有关联。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I've",
+        "role": "主语",
+        "explanation": "说话人自己，作句子主语。"
+      },
+      {
+        "text": "already had",
+        "role": "谓语",
+        "explanation": "现在完成时肯定形式，由助动词have和过去分词had构成，already是副词放在助动词与过去分词之间修饰。"
+      },
+      {
+        "text": "my holiday",
+        "role": "宾语",
+        "explanation": "动词had的宾语，表示“度过我的假期”。"
+      },
+      {
+        "text": "this year.",
+        "role": "时间状语",
+        "explanation": "说明动作发生的时间范围是今年。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I've",
+        "meaning": "I have 的常用口语缩写，构成现在完成时",
+        "pos": "助动词+主语缩写",
+        "phonetic": "/aɪv/"
+      },
+      {
+        "text": "already",
+        "meaning": "已经",
+        "pos": "副词",
+        "phonetic": "/ɔːlˈredi/"
+      },
+      {
+        "text": "had",
+        "meaning": "have的过去分词，与my holiday搭配表示“度过（假期）”",
+        "pos": "动词",
+        "phonetic": "/hæd/"
+      },
+      {
+        "text": "my",
+        "meaning": "我的",
+        "pos": "限定词",
+        "phonetic": "/maɪ/"
+      },
+      {
+        "text": "holiday",
+        "meaning": "假期",
+        "pos": "名词",
+        "phonetic": "/ˈhɒlədeɪ/"
+      },
+      {
+        "text": "this",
+        "meaning": "这，这个",
+        "pos": "限定词",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "text": "year.",
+        "meaning": "年",
+        "pos": "名词",
+        "phonetic": "/jɪə/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想表达“到现在已经做过某事”时，用现在完成时把already放在助动词和过去分词之间。",
+      "letterShape": "I'__ a______ h__ m_ h______ t___ y___.",
+      "answerNote": "主语I后接have already加had，宾语是my holiday，最后加时间this year。"
+    },
+    "teacherTip": {
+      "text": "说“已经休过假”时用现在完成时加already，是站在现在的角度强调“到目前为止这事已经发生过”，暗含眼下不会再安排的意思。表达“到现在已经做过某事”，可用have/has already加过去分词。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "校验通过，原文准确，时态点拨贴合使用场景，修正了谓语结构描述的笔误，词义与结构均无误。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。校验通过，原文准确，时态点拨贴合使用场景，修正了谓语结构描述的笔误，词义与结构均无误。"
+  }
+}

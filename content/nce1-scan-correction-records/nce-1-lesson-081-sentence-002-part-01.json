@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-81",
+    "sentenceId": "nce-1-lesson-081-sentence-002-part-01",
+    "sentenceOrder": 1,
+    "english": "Hi, Carol!",
+    "chinese": "嗨，卡罗尔！",
+    "intent": "熟人见面时热情地打招呼，唤起对方注意。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Hi,",
+        "relation": "招呼用语",
+        "meaning": "嗨"
+      },
+      {
+        "text": "Carol!",
+        "relation": "招呼的对象",
+        "meaning": "卡罗尔"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Hi 的使用场合",
+        "text": "Hi 是非正式的问候语，多用于熟人、朋友之间，比 Hello 更随意亲切。"
+      },
+      {
+        "title": "招呼语与称呼的标点",
+        "text": "英文中招呼词和人名之间用逗号隔开，句末的感叹号体现打招呼时的热情语气。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "Hi 的使用场合",
+        "text": "Hi 是非正式的问候语，多用于熟人、朋友之间，比 Hello 更随意亲切。"
+      },
+      {
+        "title": "招呼语与称呼的标点",
+        "text": "英文中招呼词和人名之间用逗号隔开，句末的感叹号体现打招呼时的热情语气。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Hi, Carol!",
+        "role": "感叹式呼语句",
+        "explanation": "Hi 是感叹词作招呼语，Carol 是称呼语，整体是日常见面的简短招呼，不要求完整主谓结构。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Hi,",
+        "meaning": "嗨（非正式问候语）",
+        "pos": "感叹词",
+        "phonetic": "/haɪ/"
+      },
+      {
+        "text": "Carol!",
+        "meaning": "卡罗尔（女子名）",
+        "pos": "专有名词",
+        "phonetic": "/ˈkærəl/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说招呼语“嗨”，再接对方名字。",
+      "letterShape": "H_, C____!",
+      "answerNote": "这是熟人之间的口语打招呼，Hi 比 Hello 更随便。"
+    },
+    "teacherTip": {
+      "text": "Hi, Carol! 是很口语化的熟人招呼，句末用感叹号比句号更显活泼亲切。英文打招呼常把称呼放在招呼词后面，中间用逗号隔开，和中文“嗨，卡罗尔”的语序一致，直接对应就行。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已核对原文为 Hi, Carol!，标点与语气符合语境，表述准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已核对原文为 Hi, Carol!，标点与语气符合语境，表述准确。"
+  }
+}

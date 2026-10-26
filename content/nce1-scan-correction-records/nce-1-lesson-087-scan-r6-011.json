@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-87",
+    "sentenceId": "nce-1-lesson-087-scan-r6-011",
+    "sentenceOrder": 11,
+    "english": "Isn't that your car?",
+    "chinese": "那不是你的车吗？",
+    "intent": "用反问确认眼前的车是否属于对方，带有“看起来很像”的预判语气。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Isn't",
+        "relation": "反问引导（含否定与系动词）",
+        "meaning": "难道不是……吗"
+      },
+      {
+        "text": "that",
+        "relation": "被指认的对象",
+        "meaning": "那个"
+      },
+      {
+        "text": "your car?",
+        "relation": "归属与事物",
+        "meaning": "你的车"
+      }
+    ],
+    "notes": [
+      {
+        "title": "否定形式的反问句",
+        "text": "Isn't that...? 以否定开头，实际表达肯定的猜测，期待对方认同或确认，语气比 Is that...? 更带把握。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "否定形式的反问句",
+        "text": "Isn't that...? 以否定开头，实际表达肯定的猜测，期待对方认同或确认，语气比 Is that...? 更带把握。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Isn't that your car?",
+        "role": "一般疑问句的否定形式（反问）",
+        "explanation": "由系动词否定缩略式 Isn't 开头，后接主语 that 和表语 your car，用于带预判的确认。"
+      },
+      {
+        "text": "that",
+        "role": "主语",
+        "explanation": "指示代词 that 指代远处或刚看到的那辆车。"
+      },
+      {
+        "text": "your car?",
+        "role": "表语",
+        "explanation": "your 是形容词性物主代词修饰 car，整体说明主语的归属与身份。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Isn't",
+        "meaning": "不是（is not 的缩略形式，用于反问）",
+        "pos": "动词短语（系动词+否定副词缩略）",
+        "phonetic": "/ˈɪznt/"
+      },
+      {
+        "text": "that",
+        "meaning": "那个",
+        "pos": "指示代词",
+        "phonetic": "/ðæt/"
+      },
+      {
+        "text": "your",
+        "meaning": "你的",
+        "pos": "形容词性物主代词",
+        "phonetic": "/jɔː/"
+      },
+      {
+        "text": "car?",
+        "meaning": "汽车（句末带问号）",
+        "pos": "名词",
+        "phonetic": "/kɑː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先想“我觉得是，只想确认”，用否定开头的反问，再跟上指认的对象和归属。",
+      "letterShape": "I__'_ t___ y___ c__?",
+      "answerNote": "带着肯定预判去求证，所以用 isn't 开头反问。"
+    },
+    "teacherTip": {
+      "text": "这句不是普通的否定疑问句，而是带着“我觉得这就是你的车”的预判来求证，所以用 Isn't that... 而不是 Is that...。下次你觉得某事大概率是真的、只想等对方确认，就可以用这种否定开头的反问。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "与扫描原文一致，句式与语境匹配，点拨聚焦反问语气。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。与扫描原文一致，句式与语境匹配，点拨聚焦反问语气。"
+  }
+}

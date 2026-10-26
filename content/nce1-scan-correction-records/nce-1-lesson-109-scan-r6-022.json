@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-109",
+    "sentenceId": "nce-1-lesson-109-scan-r6-022",
+    "sentenceOrder": 22,
+    "english": "Eat more and smoke less!",
+    "chinese": "多吃点，少抽点！",
+    "intent": "用对比提出生活建议",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Eat more",
+        "relation": "增加的行为",
+        "meaning": "多吃点"
+      },
+      {
+        "text": "and",
+        "relation": "并列关系",
+        "meaning": "并且"
+      },
+      {
+        "text": "smoke less!",
+        "relation": "减少的行为",
+        "meaning": "少抽点"
+      }
+    ],
+    "notes": [
+      {
+        "title": "并列祈使句",
+        "text": "两个动词都用原形，共同省略主语 you。"
+      },
+      {
+        "title": "行为的量",
+        "text": "more 和 less 在这里修饰动作，表示多吃、少抽，不是 more cigarettes 或 fewer cigarettes 的名词数量结构。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "并列祈使句",
+        "text": "两个动词都用原形，共同省略主语 you。"
+      },
+      {
+        "title": "行为的量",
+        "text": "more 和 less 在这里修饰动作，表示多吃、少抽，不是 more cigarettes 或 fewer cigarettes 的名词数量结构。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Eat",
+        "role": "第一谓语",
+        "explanation": "建议吃。"
+      },
+      {
+        "text": "more",
+        "role": "程度状语",
+        "explanation": "说明吃的量要增加。"
+      },
+      {
+        "text": "and",
+        "role": "并列连接成分",
+        "explanation": "连接两项建议。"
+      },
+      {
+        "text": "smoke",
+        "role": "第二谓语",
+        "explanation": "建议调整抽烟行为。"
+      },
+      {
+        "text": "less!",
+        "role": "程度状语",
+        "explanation": "说明抽烟的量要减少。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Eat",
+        "meaning": "吃",
+        "pos": "动词",
+        "phonetic": "/iːt/"
+      },
+      {
+        "text": "more",
+        "meaning": "更多地；多一点",
+        "pos": "副词",
+        "phonetic": "/mɔː/"
+      },
+      {
+        "text": "and",
+        "meaning": "并且",
+        "pos": "连词",
+        "phonetic": "/ænd/"
+      },
+      {
+        "text": "smoke",
+        "meaning": "抽烟",
+        "pos": "动词",
+        "phonetic": "/sməʊk/"
+      },
+      {
+        "text": "less!",
+        "meaning": "更少地；少一点",
+        "pos": "副词",
+        "phonetic": "/les/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "两条并列建议，一条增加，一条减少。",
+      "letterShape": "E__ m___ a__ s____ l___!",
+      "answerNote": "两个动词原形用并列词连接，分别搭配多一点和少一点。"
+    },
+    "teacherTip": {
+      "text": "这里把两种行为的量往相反方向调：吃多一点、烟少一点。more 和 less 比较的基准由眼下的习惯提供，不一定非要说出“比什么多、比什么少”。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

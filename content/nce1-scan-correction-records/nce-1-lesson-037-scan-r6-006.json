@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-37",
+    "sentenceId": "nce-1-lesson-037-scan-r6-006",
+    "sentenceOrder": 6,
+    "english": "This one?",
+    "chinese": "这一把吗？",
+    "intent": "指着近处的一把锤子，向对方确认是否是他要的那一把。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "This one?",
+        "relation": "指示词+代词，构成确认疑问",
+        "meaning": "这一把吗？"
+      }
+    ],
+    "notes": [
+      {
+        "title": "one的指代用法",
+        "text": "one在这里代替前面提到的hammer，避免重复名词；句末问号表示向对方确认。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "one的指代用法",
+        "text": "one在这里代替前面提到的hammer，避免重复名词；句末问号表示向对方确认。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "This",
+        "role": "指示限定词",
+        "explanation": "This指较近的一个，修饰后面的one。"
+      },
+      {
+        "text": "one?",
+        "role": "代词",
+        "explanation": "one指代上文提到的hammer，代替重复的单数可数名词。"
+      }
+    ],
+    "words": [
+      {
+        "text": "This",
+        "meaning": "这个",
+        "pos": "限定词",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "text": "one?",
+        "meaning": "一个（指代锤子）",
+        "pos": "代词",
+        "phonetic": "/wʌn/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "不想重复刚说过的东西，用one代替就行。",
+      "letterShape": "T___ o__?",
+      "answerNote": "用one代替前面出现过的单数可数名词，避免重复。"
+    },
+    "teacherTip": {
+      "text": "既然已经在聊hammer，就不用重复this hammer，用one代替前面提过的hammer更自然。指代刚说过的单数可数物品时，都可以用one省掉重复名词。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "字段完整，one的指代用法讲解准确，符合口语习惯。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。字段完整，one的指代用法讲解准确，符合口语习惯。"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-105",
+    "sentenceId": "nce-1-lesson-105-sentence-008",
+    "sentenceOrder": 18,
+    "english": "And here's a little present for you.",
+    "chinese": "另外，这儿有一件小礼物送给你。",
+    "intent": "递出送给对方的礼物",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "And",
+        "relation": "补充话题",
+        "meaning": "另外"
+      },
+      {
+        "text": "here's a little present",
+        "relation": "呈上物品",
+        "meaning": "这儿有一件小礼物"
+      },
+      {
+        "text": "for you.",
+        "relation": "赠送对象",
+        "meaning": "给你"
+      }
+    ],
+    "notes": [
+      {
+        "title": "呈现句式",
+        "text": "here's 是 here is，完整名词主语 a little present 放在系动词后。"
+      },
+      {
+        "title": "用途修饰",
+        "text": "for you 说明礼物是给谁的。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "呈现句式",
+        "text": "here's 是 here is，完整名词主语 a little present 放在系动词后。"
+      },
+      {
+        "title": "用途修饰",
+        "text": "for you 说明礼物是给谁的。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "And",
+        "role": "衔接成分",
+        "explanation": "把送礼接在前面的交谈之后。"
+      },
+      {
+        "text": "here's",
+        "role": "呈现状语与系动词",
+        "explanation": "缩写包含 here 和 is，用来引出眼前事物。"
+      },
+      {
+        "text": "a little present",
+        "role": "主语",
+        "explanation": "倒装结构中被呈现的礼物。"
+      },
+      {
+        "text": "for you.",
+        "role": "后置定语",
+        "explanation": "修饰礼物，说明接受者。"
+      }
+    ],
+    "words": [
+      {
+        "text": "And",
+        "meaning": "另外；而且",
+        "pos": "连词",
+        "phonetic": "/ænd/"
+      },
+      {
+        "text": "here's",
+        "meaning": "这里有（含 is）",
+        "pos": "副词与系动词缩写",
+        "phonetic": "/hɪəz/"
+      },
+      {
+        "text": "a",
+        "meaning": "一件",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "little",
+        "meaning": "小小的",
+        "pos": "形容词",
+        "phonetic": "/ˈlɪtl/"
+      },
+      {
+        "text": "present",
+        "meaning": "礼物",
+        "pos": "名词",
+        "phonetic": "/ˈprezənt/"
+      },
+      {
+        "text": "for",
+        "meaning": "给",
+        "pos": "介词",
+        "phonetic": "/fɔː/"
+      },
+      {
+        "text": "you.",
+        "meaning": "你",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "把话题接到礼物上，呈上东西，再交代是送给谁的。",
+      "letterShape": "A__ h___'_ a l_____ p______ f__ y__.",
+      "answerNote": "用这里有的缩写引出一件小礼物，句末说明接受者。"
+    },
+    "teacherTip": {
+      "text": "递东西时，here's 不只是报告东西在哪儿，也是在把它呈给对方。a little present 常把礼物说得轻一些，不必理解成礼物体积一定很小；后文才揭晓它是词典。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

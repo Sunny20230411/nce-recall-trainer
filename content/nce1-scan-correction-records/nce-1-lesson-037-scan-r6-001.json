@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-37",
+    "sentenceId": "nce-1-lesson-037-scan-r6-001",
+    "sentenceOrder": 1,
+    "english": "You're working hard, George.",
+    "chinese": "你干得真卖力啊，乔治。",
+    "intent": "看到对方在干活，随口打招呼并评价对方工作卖力",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "You're working hard,",
+        "relation": "核心观察与评价",
+        "meaning": "你干得真卖力"
+      },
+      {
+        "text": "George.",
+        "relation": "呼语",
+        "meaning": "乔治"
+      }
+    ],
+    "notes": [
+      {
+        "title": "现在进行时",
+        "text": "You're working 是 you are working 的缩写，表此刻正在做的事。"
+      },
+      {
+        "title": "hard的用法",
+        "text": "hard在这里是副词，修饰working，意思是“努力地、卖力地”。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "现在进行时",
+        "text": "You're working 是 you are working 的缩写，表此刻正在做的事。"
+      },
+      {
+        "title": "hard的用法",
+        "text": "hard在这里是副词，修饰working，意思是“努力地、卖力地”。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "You're working hard,",
+        "role": "现在进行时主谓结构",
+        "explanation": "you是主语，are working是谓语，hard是方式状语"
+      },
+      {
+        "text": "You're",
+        "role": "主语+助动词缩写",
+        "explanation": "You're = You are，are帮助构成现在进行时"
+      },
+      {
+        "text": "George.",
+        "role": "呼语",
+        "explanation": "George是对听话人的称呼，独立于句子主干"
+      }
+    ],
+    "words": [
+      {
+        "text": "You're",
+        "meaning": "你（是）= you are",
+        "pos": "代词+动词缩写",
+        "phonetic": "/jʊə/"
+      },
+      {
+        "text": "working",
+        "meaning": "工作；干活（现在分词）",
+        "pos": "动词",
+        "phonetic": "/ˈwɜːkɪŋ/"
+      },
+      {
+        "text": "hard,",
+        "meaning": "努力地；卖力地",
+        "pos": "副词",
+        "phonetic": "/hɑːd/"
+      },
+      {
+        "text": "George.",
+        "meaning": "乔治（男子名）",
+        "pos": "名词",
+        "phonetic": "/dʒɔːdʒ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说“你在卖力干活”，再喊名字George。",
+      "letterShape": "Y__'__ w______ h___, G_____.",
+      "answerNote": "这是看到别人干活时的随口评价，带点打招呼的意思。"
+    },
+    "teacherTip": {
+      "text": "口语里先把眼前的观察You're working hard说出来，再补上称呼George。把评价放前面，称呼放后面，更自然地带着关注的语气，不像中文常把称呼搁开头。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "核对原文：You're working hard, George.与扫描内容一致，为新增句，结构、词义与语境匹配。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。核对原文：You're working hard, George.与扫描内容一致，为新增句，结构、词义与语境匹配。"
+  }
+}

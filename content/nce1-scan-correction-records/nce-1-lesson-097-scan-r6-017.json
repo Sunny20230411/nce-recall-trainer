@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-97",
+    "sentenceId": "nce-1-lesson-097-scan-r6-017",
+    "sentenceOrder": 17,
+    "english": "Hey!",
+    "chinese": "嘿！",
+    "intent": "突然发现不对，用感叹词引起对方注意、表达诧异。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Hey!",
+        "relation": "感叹呼语",
+        "meaning": "嘿"
+      }
+    ],
+    "notes": [
+      {
+        "title": "感叹词Hey的用法",
+        "text": "Hey 是口语感叹词，可用于打招呼，也可用于表达惊讶、诧异或唤起注意。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "感叹词Hey的用法",
+        "text": "Hey 是口语感叹词，可用于打招呼，也可用于表达惊讶、诧异或唤起注意。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Hey!",
+        "role": "独立感叹词",
+        "explanation": "单独使用的感叹词，传递情绪并唤起对方注意。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Hey!",
+        "meaning": "嘿（表诧异或唤起注意）",
+        "pos": "感叹词",
+        "phonetic": "/heɪ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "突然发现有问题，喊一声引起对方注意。",
+      "letterShape": "H__!",
+      "answerNote": "口语感叹词，用来唤起注意或表达诧异。"
+    },
+    "teacherTip": {
+      "text": "Hey 在这里不是普通打招呼，是发现拿错箱子时的即时反应，带着诧异情绪喊住对方。口语里它既可打招呼，也能用来唤起注意。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "校验通过：词义说明准确，教学点区分了不同用法，数据完整。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。校验通过：词义说明准确，教学点区分了不同用法，数据完整。"
+  }
+}

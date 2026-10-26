@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-37",
+    "sentenceId": "nce-1-lesson-037-scan-r6-003",
+    "sentenceOrder": 3,
+    "english": "I'm making a bookcase.",
+    "chinese": "我正在做一个书架。",
+    "intent": "回答对方的问题，说明自己当下正在进行的具体事情。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I'm making",
+        "relation": "主语与进行时谓语主干，说明“我正在做”",
+        "meaning": "我正在做"
+      },
+      {
+        "text": "a bookcase.",
+        "relation": "宾语，说明制作的具体对象",
+        "meaning": "一个书架"
+      }
+    ],
+    "notes": [
+      {
+        "title": "现在进行时的陈述句",
+        "text": "由主语I + be动词am（缩写为I'm）+ 现在分词making构成，用来表示此刻正在进行的动作。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "现在进行时的陈述句",
+        "text": "由主语I + be动词am（缩写为I'm）+ 现在分词making构成，用来表示此刻正在进行的动作。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I'm making a bookcase.",
+        "role": "主谓宾结构陈述句",
+        "explanation": "I'm making是谓语部分，a bookcase是宾语，整体表示正在进行的动作及其对象。"
+      },
+      {
+        "text": "a bookcase.",
+        "role": "宾语",
+        "explanation": "由不定冠词a和可数名词bookcase构成，作making的宾语。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I'm",
+        "meaning": "我正在（I am 的缩写）",
+        "pos": "人称代词+be动词缩写",
+        "phonetic": "/aɪm/"
+      },
+      {
+        "text": "making",
+        "meaning": "制作；做（现在分词形式）",
+        "pos": "动词现在分词",
+        "phonetic": "/ˈmeɪkɪŋ/"
+      },
+      {
+        "text": "a",
+        "meaning": "一个",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "bookcase.",
+        "meaning": "书架；书橱（句末带句号）",
+        "pos": "名词",
+        "phonetic": "/ˈbʊkkeɪs/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说“我正在做”，再补充做的具体东西。",
+      "letterShape": "I'_ m_____ a b_______.",
+      "answerNote": "用现在进行时I'm doing sth.说明正在做的事。"
+    },
+    "teacherTip": {
+      "text": "回应“What are you doing?”时，直接用I'm + 动词-ing说出正在做的动作，把具体制作对象a bookcase放在后面补全。下次说“我正在做/读/写某样东西”，都可以按这个思路组织。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "原文与扫描内容一致；修正了I'm词义中冗余的“我是”表述，其余词义、结构及音标均核对正确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。原文与扫描内容一致；修正了I'm词义中冗余的“我是”表述，其余词义、结构及音标均核对正确。"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-115",
+    "sentenceId": "nce-1-lesson-115-scan-r6-016",
+    "sentenceOrder": 16,
+    "english": "It's nice and warm out here.",
+    "chinese": "外面这里暖洋洋的，很舒服。",
+    "intent": "说明在花园用餐舒适宜人",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "It's",
+        "relation": "现场环境",
+        "meaning": "这里的环境"
+      },
+      {
+        "text": "nice and warm",
+        "relation": "舒适温度",
+        "meaning": "暖和宜人"
+      },
+      {
+        "text": "out here.",
+        "relation": "说话人所在处",
+        "meaning": "外面这里"
+      }
+    ],
+    "notes": [
+      {
+        "title": "环境主语",
+        "text": "It 在这里泛指环境状况，不指某个具体物品。"
+      },
+      {
+        "title": "习惯表达",
+        "text": "nice and warm 表示温暖舒适，nice and 可加强后面的正面感受。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "环境主语",
+        "text": "It 在这里泛指环境状况，不指某个具体物品。"
+      },
+      {
+        "title": "习惯表达",
+        "text": "nice and warm 表示温暖舒适，nice and 可加强后面的正面感受。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "It's",
+        "role": "环境主语与系动词",
+        "explanation": "it 泛指环境，is 连接状态"
+      },
+      {
+        "text": "nice and warm",
+        "role": "表语",
+        "explanation": "描述温暖而舒适的状态"
+      },
+      {
+        "text": "out here.",
+        "role": "地点状语",
+        "explanation": "限定为说话人所在的室外"
+      }
+    ],
+    "words": [
+      {
+        "text": "It's",
+        "meaning": "环境（含 is）",
+        "pos": "代词与系动词缩写",
+        "phonetic": "/ɪts/"
+      },
+      {
+        "text": "nice",
+        "meaning": "舒服宜人的",
+        "pos": "形容词",
+        "phonetic": "/naɪs/"
+      },
+      {
+        "text": "and",
+        "meaning": "而且（连接舒适温暖的描述）",
+        "pos": "连词",
+        "phonetic": "/ənd/"
+      },
+      {
+        "text": "warm",
+        "meaning": "温暖的",
+        "pos": "形容词",
+        "phonetic": "/wɔːm/"
+      },
+      {
+        "text": "out",
+        "meaning": "在外面",
+        "pos": "副词",
+        "phonetic": "/aʊt/"
+      },
+      {
+        "text": "here.",
+        "meaning": "这里",
+        "pos": "副词",
+        "phonetic": "/hɪə/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "用环境主语描述暖和舒适，最后点明就在室外这里。",
+      "letterShape": "I_'_ n___ a__ w___ o__ h___.",
+      "answerNote": "nice and warm 整体表达暖和宜人，out here 指室外这里。"
+    },
+    "teacherTip": {
+      "text": "nice and warm 常常是在说“暖和得很舒服”，不必机械拆成好和暖两个并列评价。out here 从说话人站在花园的视角指这里的室外，也就自然解释了大家为什么愿意留下。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

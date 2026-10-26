@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-115",
+    "sentenceId": "nce-1-lesson-115-scan-r6-024",
+    "sentenceOrder": 24,
+    "english": "Don't believe her, Jim.",
+    "chinese": "吉姆，别信她的话。",
+    "intent": "提醒吉姆不要把玩笑当真",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Don't believe her,",
+        "relation": "劝阻相信",
+        "meaning": "别信她的话"
+      },
+      {
+        "text": "Jim.",
+        "relation": "提醒对象",
+        "meaning": "吉姆"
+      }
+    ],
+    "notes": [
+      {
+        "title": "否定祈使",
+        "text": "Don't 后接 believe 原形，主语 you 省略；her 是宾格。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "否定祈使",
+        "text": "Don't 后接 believe 原形，主语 you 省略；her 是宾格。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Don't believe",
+        "role": "谓语",
+        "explanation": "否定祈使，要求不要相信"
+      },
+      {
+        "text": "her,",
+        "role": "宾语",
+        "explanation": "其话语不应当真的人"
+      },
+      {
+        "text": "Jim.",
+        "role": "呼语",
+        "explanation": "称呼正在被提醒的吉姆"
+      }
+    ],
+    "words": [
+      {
+        "text": "Don't",
+        "meaning": "不要（do not 的缩写）",
+        "pos": "助动词否定缩写",
+        "phonetic": "/dəʊnt/"
+      },
+      {
+        "text": "believe",
+        "meaning": "相信……的话",
+        "pos": "动词",
+        "phonetic": "/bɪˈliːv/"
+      },
+      {
+        "text": "her,",
+        "meaning": "她",
+        "pos": "代词宾格",
+        "phonetic": "/hɜː/"
+      },
+      {
+        "text": "Jim.",
+        "meaning": "吉姆",
+        "pos": "专有名词",
+        "phonetic": "/dʒɪm/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "用否定祈使提醒不要相信她，末尾称呼吉姆。",
+      "letterShape": "D__'_ b______ h__, J__.",
+      "answerNote": "don't 后接动词原形，believe 后的人称代词用宾格。"
+    },
+    "teacherTip": {
+      "text": "believe her 在这里是相信她说的话，不是在讨论她是否存在。听到别人开玩笑，想提醒朋友别当真，可以直接这样把说话人作为 believe 的对象。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

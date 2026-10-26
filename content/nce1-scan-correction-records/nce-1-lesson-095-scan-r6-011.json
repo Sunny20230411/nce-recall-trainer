@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-95",
+    "sentenceId": "nce-1-lesson-095-scan-r6-011",
+    "sentenceOrder": 11,
+    "english": "Let's go and have a drink.",
+    "chinese": "咱们去喝一杯吧。",
+    "intent": "提议一起去喝点东西，用轻松的邀约语气",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Let's",
+        "relation": "提议标识",
+        "meaning": "咱们（一起）"
+      },
+      {
+        "text": "go and have a drink.",
+        "relation": "提议的具体内容",
+        "meaning": "去喝一杯"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Let's 提建议结构",
+        "text": "Let's 是 Let us 的缩写，后接动词原形，用来向对方发出一起做某事的提议，语气比较随意自然。"
+      },
+      {
+        "title": "have a drink 习惯表达",
+        "text": "have a drink 是常用口语，泛指“喝一杯/喝点东西”，不一定特指喝酒，也可指喝饮料。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "Let's 提建议结构",
+        "text": "Let's 是 Let us 的缩写，后接动词原形，用来向对方发出一起做某事的提议，语气比较随意自然。"
+      },
+      {
+        "title": "have a drink 习惯表达",
+        "text": "have a drink 是常用口语，泛指“喝一杯/喝点东西”，不一定特指喝酒，也可指喝饮料。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Let's",
+        "role": "祈使句引导成分",
+        "explanation": "Let's 引出祈使句，表示“让我们……”，包含说话人和听话人双方"
+      },
+      {
+        "text": "go and have a drink.",
+        "role": "并列谓语",
+        "explanation": "go 和 have a drink 由 and 连接，是并列的动作，都跟在 Let's 之后用原形"
+      }
+    ],
+    "words": [
+      {
+        "text": "Let's",
+        "meaning": "让我们（咱们）",
+        "pos": "缩写（let us 的口语形式）",
+        "phonetic": "/lets/"
+      },
+      {
+        "text": "go",
+        "meaning": "去",
+        "pos": "动词",
+        "phonetic": "/ɡəʊ/"
+      },
+      {
+        "text": "and",
+        "meaning": "和，然后",
+        "pos": "连词",
+        "phonetic": "/ænd/"
+      },
+      {
+        "text": "have",
+        "meaning": "进行（某活动）",
+        "pos": "动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "a",
+        "meaning": "一（杯/份）",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "drink.",
+        "meaning": "饮料，一杯（酒或饮品）",
+        "pos": "名词",
+        "phonetic": "/drɪŋk/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先想“提议一起做”用Let's，再补上两个连贯动作：去+喝一杯",
+      "letterShape": "L__'_ g_ a__ h___ a d____.",
+      "answerNote": "Let's 开头提议，go 和 have a drink 用 and 连起来，都用动词原形"
+    },
+    "teacherTip": {
+      "text": "Let's 是拉上对方一起行动的常用提议开头，比单纯说 go 更有邀约感；have a drink 是口语里“喝点东西”的固定说法，这里 have 不表示“有”。要提议一起做某事，就用 Let's 加动词原形。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "符合原文，结构与词义均准确，教学点贴合初学者常见直译误区"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。符合原文，结构与词义均准确，教学点贴合初学者常见直译误区"
+  }
+}

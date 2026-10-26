@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-127",
+    "sentenceId": "nce-1-lesson-127-scan-r6-007",
+    "sentenceOrder": 7,
+    "english": "Conrad Reeves, the actor?",
+    "chinese": "康拉德·里夫斯，那个男演员？",
+    "intent": "带惊讶地核对听到的身份",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Conrad Reeves,",
+        "relation": "复核姓名",
+        "meaning": "康拉德·里夫斯"
+      },
+      {
+        "text": "the actor?",
+        "relation": "复核身份",
+        "meaning": "那个男演员"
+      }
+    ],
+    "notes": [
+      {
+        "title": "省略问句",
+        "text": "这是核对信息的名词短语问句；the actor 与姓名指同一个人。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "省略问句",
+        "text": "这是核对信息的名词短语问句；the actor 与姓名指同一个人。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Conrad Reeves,",
+        "role": "独立核对成分",
+        "explanation": "重复听到的姓名以确认"
+      },
+      {
+        "text": "the actor?",
+        "role": "同位语",
+        "explanation": "补充姓名所指的职业身份"
+      }
+    ],
+    "words": [
+      {
+        "text": "Conrad",
+        "meaning": "康拉德",
+        "pos": "专有名词",
+        "phonetic": "/ˈkɒnræd/"
+      },
+      {
+        "text": "Reeves,",
+        "meaning": "里夫斯",
+        "pos": "专有名词",
+        "phonetic": "/riːvz/"
+      },
+      {
+        "text": "the",
+        "meaning": "那位",
+        "pos": "冠词",
+        "phonetic": "/ði/"
+      },
+      {
+        "text": "actor?",
+        "meaning": "男演员",
+        "pos": "名词",
+        "phonetic": "/ˈæktə/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "重复姓名，再以演员身份核对，带惊讶语气。",
+      "letterShape": "C_____ R_____, t__ a____?",
+      "answerNote": "名词短语也可借疑问语气核对信息。"
+    },
+    "teacherTip": {
+      "text": "听到意外的名字，可以直接重复名字并加上身份来核对，不一定重说一个完整问句。问号使这段名词短语成为‘你说的是那位演员吗’的回声式追问。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

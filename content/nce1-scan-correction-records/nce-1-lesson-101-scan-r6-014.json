@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-101",
+    "sentenceId": "nce-1-lesson-101-scan-r6-014",
+    "sentenceOrder": 14,
+    "english": "Speak up, Penny.",
+    "chinese": "大点声说，彭妮。",
+    "intent": "因为听不清，要求对方说话声音大一点。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Speak up,",
+        "relation": "祈使句核心动作与补充",
+        "meaning": "大点声说"
+      },
+      {
+        "text": "Penny.",
+        "relation": "称呼对象",
+        "meaning": "彭妮"
+      }
+    ],
+    "notes": [
+      {
+        "title": "短语动词speak up",
+        "text": "speak up表示“大声说、清楚地说”，常用于听不清时要求对方提高音量。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "短语动词speak up",
+        "text": "speak up表示“大声说、清楚地说”，常用于听不清时要求对方提高音量。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Speak up,",
+        "role": "祈使句谓语（短语动词）",
+        "explanation": "Speak up是祈使句的核心，由动词speak加副词up构成短语动词，表达“大声说”的指令。"
+      },
+      {
+        "text": "Penny.",
+        "role": "呼语",
+        "explanation": "Penny是称呼对方的呼语，放在祈使句末尾，指明说话对象。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Speak",
+        "meaning": "说话，讲话",
+        "pos": "动词",
+        "phonetic": "/spiːk/"
+      },
+      {
+        "text": "up,",
+        "meaning": "（与speak构成短语）更大声地",
+        "pos": "副词",
+        "phonetic": "/ʌp/"
+      },
+      {
+        "text": "Penny.",
+        "meaning": "彭妮（女子名）",
+        "pos": "专有名词",
+        "phonetic": "/ˈpeni/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "让对方“说话大声点”，用speak加一个表示“提高”的小词组成固定短语。",
+      "letterShape": "S____ u_, P____.",
+      "answerNote": "用speak up这个短语动词，是“大声说”的地道表达。"
+    },
+    "teacherTip": {
+      "text": "Speak up是固定短语，意思是“大声说、说清楚点”，不要按字面理解成“往上说”。称呼放在祈使句句尾，语气比放句首更自然，带一点提醒对方注意的意味。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "句子与原文一致，短语用法和呼语功能说明准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。句子与原文一致，短语用法和呼语功能说明准确。"
+  }
+}

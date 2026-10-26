@@ -2,6 +2,7 @@ import { writeFile } from 'node:fs/promises';
 import { loadPublishedUnderstanding, makeLetterShape } from './sentence-split-content.mjs';
 
 const published = await loadPublishedUnderstanding();
+const scanCorrection = process.argv.includes('--scan-correction');
 const normalize = value => value.toLowerCase().replace(/’/g, "'").replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, '');
 const posCode = label => {
   if (/[+＋]/u.test(label)) return null;
@@ -10,7 +11,8 @@ const posCode = label => {
 };
 const withoutEnd = text => text.replace(/[.!?"'’”]+$/u, '');
 for (const courseId of ['nce1', 'nce2']) {
-  const affected = new Set(published.practiceSplits.parents.filter(parent => parent.courseId === courseId).map(parent => parent.lessonId));
+  if (scanCorrection && courseId !== 'nce1') continue;
+  const affected = new Set((scanCorrection ? published.practiceCorrections.lessons : published.practiceSplits.parents).filter(parent => parent.courseId === courseId).map(parent => parent.lessonId));
   const groups = Map.groupBy(published.records.filter(record => record.courseId === courseId && affected.has(record.lessonId)), record => record.lessonId);
   const lessons = [...groups].map(([lessonId, records], index) => ({
     lessonId, lessonNo: Number(lessonId.match(/\d+$/)[0]), title: published.sources.find(source => source.lessonId === lessonId && source.courseId === courseId).lesson,
@@ -21,7 +23,7 @@ for (const courseId of ['nce1', 'nce2']) {
       const type = typeMap.find(([pattern]) => pattern.test(completeStructure?.role || ''))?.[1] || 'independent_element';
       const tokens = record.words.map((word, tokenIndex) => {
         const punctuation = word.text.match(/[^\p{L}\p{N}]+$/u)?.[0] || '';
-        return { tokenId: `${record.parentSentenceId || record.sentenceId}-token-${String((record.tokenOffset || 0) + tokenIndex).padStart(3, '0')}`,
+        return { tokenId: word.tokenId || `${record.parentSentenceId || record.sentenceId}-token-${String((record.tokenOffset || 0) + tokenIndex).padStart(3, '0')}`,
           tokenIndex, displayText: punctuation ? word.text.slice(0, -punctuation.length) : word.text,
           normalizedText: normalize(word.text), punctuation, phonetic: word.phonetic,
           posCode: posCode(word.pos), posLabel: word.pos, contextMeaning: word.meaning };
@@ -38,7 +40,7 @@ for (const courseId of ['nce1', 'nce2']) {
       };
     })
   }));
-  const path = `content/sentence-split-update.${courseId}.enriched.v1.json`;
+  const path = `content/${scanCorrection ? 'scan-correction-update' : 'sentence-split-update'}.${courseId}.enriched.v1.json`;
   await writeFile(path, JSON.stringify({ schemaVersion: '1.0.0', stage: 'enriched', generatorVersion: 'reviewed-sentence-boundaries-1.0.0',
     course: { courseId, title: courseId === 'nce1' ? '新概念英语第一册' : '新概念英语第二册', language: 'en', translationLanguage: 'zh-CN', revision: published.revision,
       sourceName: 'Boundary revision: complete revised lessons only; unchanged lessons omitted', sourceLicense: null }, lessons }, null, 2) + '\n');

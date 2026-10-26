@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-115",
+    "sentenceId": "nce-1-lesson-115-scan-r6-001",
+    "sentenceOrder": 1,
+    "english": "Isn't there anyone at home?",
+    "chinese": "难道家里没有人吗？",
+    "intent": "敲门无人回应后惊讶地询问",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Isn't there anyone",
+        "relation": "意外地询问是否有人",
+        "meaning": "难道没有人吗"
+      },
+      {
+        "text": "at home?",
+        "relation": "所在地点",
+        "meaning": "在家"
+      }
+    ],
+    "notes": [
+      {
+        "title": "存在句疑问",
+        "text": "Isn't there 构成 there is 的否定疑问，there 不表示那里。anyone 指任何人。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "存在句疑问",
+        "text": "Isn't there 构成 there is 的否定疑问，there 不表示那里。anyone 指任何人。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Isn't",
+        "role": "前置系动词与否定",
+        "explanation": "is not 前置形成否定疑问"
+      },
+      {
+        "text": "there",
+        "role": "存在句引导成分",
+        "explanation": "there 引入某处是否有人的询问"
+      },
+      {
+        "text": "anyone",
+        "role": "存在主体",
+        "explanation": "询问是否有任何人"
+      },
+      {
+        "text": "at home?",
+        "role": "地点状语",
+        "explanation": "限定为在家"
+      }
+    ],
+    "words": [
+      {
+        "text": "Isn't",
+        "meaning": "没有吗（is not 的缩写）",
+        "pos": "系动词否定缩写",
+        "phonetic": "/ˈɪzənt/"
+      },
+      {
+        "text": "there",
+        "meaning": "（引导存在句，无实义）",
+        "pos": "引导词",
+        "phonetic": "/ðeə/"
+      },
+      {
+        "text": "anyone",
+        "meaning": "任何人",
+        "pos": "不定代词",
+        "phonetic": "/ˈeniwʌn/"
+      },
+      {
+        "text": "at",
+        "meaning": "在",
+        "pos": "介词",
+        "phonetic": "/ət/"
+      },
+      {
+        "text": "home?",
+        "meaning": "家",
+        "pos": "名词",
+        "phonetic": "/həʊm/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "敲门没有回音，用带意外的否定存在问句问家里是否有人。",
+      "letterShape": "I__'_ t____ a_____ a_ h___?",
+      "answerNote": "there 表示存在句结构，不译成那里；is 的否定缩写前置。"
+    },
+    "teacherTip": {
+      "text": "已经约好来吃午饭，却迟迟没人应门，所以这不是毫无预设地问有没有人。否定问句带出“本以为该有人在”的意外，让听者听出说话人的期待。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

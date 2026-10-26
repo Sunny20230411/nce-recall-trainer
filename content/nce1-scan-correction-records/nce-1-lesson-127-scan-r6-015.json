@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-127",
+    "sentenceId": "nce-1-lesson-127-scan-r6-015",
+    "sentenceOrder": 15,
+    "english": "She does, doesn't she!",
+    "chinese": "确实显老，可不是吗！",
+    "intent": "赞同显老的判断并求共鸣",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "She does,",
+        "relation": "明确赞同",
+        "meaning": "她确实如此"
+      },
+      {
+        "text": "doesn't she!",
+        "relation": "邀请认同",
+        "meaning": "可不是吗"
+      }
+    ],
+    "notes": [
+      {
+        "title": "替代与附加问句",
+        "text": "does 代替 looks old；肯定主句后接否定附加问句 doesn't she。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "替代与附加问句",
+        "text": "does 代替 looks old；肯定主句后接否定附加问句 doesn't she。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "She",
+        "role": "主语",
+        "explanation": "指卡伦"
+      },
+      {
+        "text": "does,",
+        "role": "谓语替代成分",
+        "explanation": "代替 looks old，肯定前句判断"
+      },
+      {
+        "text": "doesn't she!",
+        "role": "附加问句",
+        "explanation": "再次邀请对方认同"
+      }
+    ],
+    "words": [
+      {
+        "text": "She",
+        "meaning": "她",
+        "pos": "代词",
+        "phonetic": "/ʃiː/"
+      },
+      {
+        "text": "does,",
+        "meaning": "确实（显老）",
+        "pos": "助动词",
+        "phonetic": "/dʌz/"
+      },
+      {
+        "text": "doesn't",
+        "meaning": "不是吗（does not）",
+        "pos": "助动词否定缩写",
+        "phonetic": "/ˈdʌznt/"
+      },
+      {
+        "text": "she!",
+        "meaning": "她",
+        "pos": "代词",
+        "phonetic": "/ʃiː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先明确赞同，再附加否定问句求共鸣。",
+      "letterShape": "S__ d___, d____'_ s__!",
+      "answerNote": "does 代替 looks old；前肯定后否定。"
+    },
+    "teacherTip": {
+      "text": "先用 She does 明确赞同‘她看着老’，再接 doesn't she 邀请共鸣。does 代替前面的 look old，不是‘做’；短答仍然在评论同一个外观印象。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

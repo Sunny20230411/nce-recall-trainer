@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-009",
+    "sentenceOrder": 9,
+    "english": "Have a cup of coffee then.",
+    "chinese": "那喝杯咖啡吧。",
+    "intent": "在对方拒绝一起吃午饭后，转换提议，邀请对方喝杯咖啡。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Have a cup of coffee",
+        "relation": "核心提议内容",
+        "meaning": "喝一杯咖啡"
+      },
+      {
+        "text": "then.",
+        "relation": "语气衔接词",
+        "meaning": "那，既然这样"
+      }
+    ],
+    "notes": [
+      {
+        "title": "祈使句表邀请",
+        "text": "以Have开头的祈使句在这里不是“拥有”，而是表示邀请对方享用饮食，语气比较随意亲切。"
+      },
+      {
+        "title": "then的位置与语气",
+        "text": "then放在句尾时，承接上文对方拒绝吃饭的语境，带有“那不如…、既然那样就…”的顺势意味。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "祈使句表邀请",
+        "text": "以Have开头的祈使句在这里不是“拥有”，而是表示邀请对方享用饮食，语气比较随意亲切。"
+      },
+      {
+        "title": "then的位置与语气",
+        "text": "then放在句尾时，承接上文对方拒绝吃饭的语境，带有“那不如…、既然那样就…”的顺势意味。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Have a cup of coffee",
+        "role": "祈使句主体",
+        "explanation": "由Have引导的祈使句，省略了主语you，直接提出邀请或建议。"
+      },
+      {
+        "text": "then.",
+        "role": "句末语气状语",
+        "explanation": "then作连接副词，承接前文语境，起缓和提议、顺势衔接的作用。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Have",
+        "meaning": "喝（表示享用饮食）",
+        "pos": "动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "a",
+        "meaning": "一（杯）",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "cup",
+        "meaning": "杯子",
+        "pos": "名词",
+        "phonetic": "/kʌp/"
+      },
+      {
+        "text": "of",
+        "meaning": "（表示量）……的",
+        "pos": "介词",
+        "phonetic": "/ɒv/"
+      },
+      {
+        "text": "coffee",
+        "meaning": "咖啡",
+        "pos": "名词",
+        "phonetic": "/ˈkɒfi/"
+      },
+      {
+        "text": "then.",
+        "meaning": "那，既然这样",
+        "pos": "副词",
+        "phonetic": "/ðen/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先想“提议喝杯咖啡”，再补上承接上文的“那”，放在句尾。",
+      "letterShape": "H___ a c__ o_ c_____ t___.",
+      "answerNote": "用have表示“喝/享用”提出邀请，句尾加then承接上文“既然如此”的语气。"
+    },
+    "teacherTip": {
+      "text": "对方已经明确拒绝一件事，转而提议另一项时，把then放在句尾，就带着“既然那样/那不如”的顺势语气，比直接说Have a cup of coffee更自然。下次换别的提议，比如吃块饼干，也可以在句尾加then。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已复核：then的语用讲解准确，祈使句功能说明符合语境，各字段无错漏。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已复核：then的语用讲解准确，祈使句功能说明符合语境，各字段无错漏。"
+  }
+}

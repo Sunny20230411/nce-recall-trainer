@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-95",
+    "sentenceId": "nce-1-lesson-095-scan-r6-022",
+    "sentenceOrder": 22,
+    "english": "In five hours' time!",
+    "chinese": "五个小时之后！",
+    "intent": "告知下一班车还要等待的时长，暗含间隔之久的语气。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "In",
+        "relation": "表示时间起点（从现在算起）",
+        "meaning": "在……之后"
+      },
+      {
+        "text": "five hours' time!",
+        "relation": "说明具体的时长",
+        "meaning": "五个小时的时间"
+      }
+    ],
+    "notes": [
+      {
+        "title": "in + 时间段",
+        "text": "“in + 时间段”表示从现在起多久之后，常用于回答将来的时间。"
+      },
+      {
+        "title": "复数名词所有格",
+        "text": "five hours' 是复数名词的所有格，以s结尾的复数直接加'，表示“五个小时的”。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "in + 时间段",
+        "text": "“in + 时间段”表示从现在起多久之后，常用于回答将来的时间。"
+      },
+      {
+        "title": "复数名词所有格",
+        "text": "five hours' 是复数名词的所有格，以s结尾的复数直接加'，表示“五个小时的”。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "In five hours' time!",
+        "role": "介词短语作时间状语",
+        "explanation": "整体用作答句，相当于下一班火车会在五小时之后发车。"
+      },
+      {
+        "text": "five hours' time!",
+        "role": "带所有格的名词短语",
+        "explanation": "five hours' 修饰time，说明时间的长度。"
+      }
+    ],
+    "words": [
+      {
+        "text": "In",
+        "meaning": "在（一段时间）之后",
+        "pos": "介词",
+        "phonetic": "/ɪn/"
+      },
+      {
+        "text": "five",
+        "meaning": "五",
+        "pos": "数词",
+        "phonetic": "/faɪv/"
+      },
+      {
+        "text": "hours'",
+        "meaning": "小时的（复数名词所有格）",
+        "pos": "名词所有格",
+        "phonetic": "/ˈaʊəz/"
+      },
+      {
+        "text": "time!",
+        "meaning": "时间",
+        "pos": "名词",
+        "phonetic": "/taɪm/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "说还要多久才到，用“in + 多久的时间”来表达。",
+      "letterShape": "I_ f___ h____' t___!",
+      "answerNote": "in 加时间段表示从现在起多久之后，hours' 是复数所有格。"
+    },
+    "teacherTip": {
+      "text": "回答“还要多久才发生”常用in加一段时间，in five hours' time就是从现在算起五个小时以后。这里用复数所有格hours'修饰time，强调是一段时长的等待。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已核对原文、所有格形式与时间表达，点拨准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已核对原文、所有格形式与时间表达，点拨准确。"
+  }
+}

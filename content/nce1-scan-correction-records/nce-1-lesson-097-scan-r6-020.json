@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-97",
+    "sentenceId": "nce-1-lesson-097-scan-r6-020",
+    "sentenceOrder": 20,
+    "english": "You've given me the wrong case!",
+    "chinese": "你给错我箱子了！",
+    "intent": "指出对方给的物品不对，说明拿错的直接原因。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "You've given",
+        "relation": "动作发出者与动作",
+        "meaning": "你已经给了"
+      },
+      {
+        "text": "me",
+        "relation": "接受对象",
+        "meaning": "我"
+      },
+      {
+        "text": "the wrong case!",
+        "relation": "动作的对象（错误的物品）",
+        "meaning": "错的箱子"
+      }
+    ],
+    "notes": [
+      {
+        "title": "the wrong + 名词",
+        "text": "wrong 放在名词前表示“不对的、错误的那个”，the wrong case 就是“给错/拿错的这只箱子”。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "the wrong + 名词",
+        "text": "wrong 放在名词前表示“不对的、错误的那个”，the wrong case 就是“给错/拿错的这只箱子”。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "You've",
+        "role": "主语",
+        "explanation": "You've 是 You have 的缩写，主语 you 指对方。"
+      },
+      {
+        "text": "You've given",
+        "role": "谓语",
+        "explanation": "'ve given 是现在完成时，强调“给完”这个动作和现在拿错箱子的结果有关。"
+      },
+      {
+        "text": "me",
+        "role": "间接宾语",
+        "explanation": "me 是人称代词宾格，作 give 的间接宾语，指接受箱子的人。"
+      },
+      {
+        "text": "the wrong case!",
+        "role": "直接宾语",
+        "explanation": "the wrong case 是 give 的直接宾语，指给出的物品。"
+      }
+    ],
+    "words": [
+      {
+        "text": "You've",
+        "meaning": "你已经（you have 的缩写）",
+        "pos": "代词+助动词缩约形式",
+        "phonetic": "/juːv/"
+      },
+      {
+        "text": "given",
+        "meaning": "给（give 的过去分词）",
+        "pos": "动词",
+        "phonetic": "/ˈɡɪvn/"
+      },
+      {
+        "text": "me",
+        "meaning": "我（宾格）",
+        "pos": "人称代词",
+        "phonetic": "/miː/"
+      },
+      {
+        "text": "the",
+        "meaning": "这个（定指）",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "wrong",
+        "meaning": "错误的、不对的",
+        "pos": "形容词",
+        "phonetic": "/rɒŋ/"
+      },
+      {
+        "text": "case!",
+        "meaning": "箱子",
+        "pos": "名词",
+        "phonetic": "/keɪs/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先讲对方“已经给了”，再说明给到的东西是“错的箱子”。",
+      "letterShape": "Y__'__ g____ m_ t__ w____ c___!",
+      "answerNote": "用 give sb sth 结构，“错的”放在名词前：the wrong case。"
+    },
+    "teacherTip": {
+      "text": "说“给错了”不用刻意按中文语序翻成“错给”，英语习惯把 wrong 放在名词前：give sb the wrong sth，直接表示“给到的某样东西是错的”。下次说拿错号码、坐错座位都可以套用 the wrong + 名词。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "经复核，原文、结构与词义均准确，教师提点点明了中英文语序差异的可迁移用法。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。经复核，原文、结构与词义均准确，教师提点点明了中英文语序差异的可迁移用法。"
+  }
+}

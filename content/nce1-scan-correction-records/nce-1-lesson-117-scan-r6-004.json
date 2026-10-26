@@ -1,0 +1,220 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-117",
+    "sentenceId": "nce-1-lesson-117-scan-r6-004",
+    "sentenceOrder": 4,
+    "english": "While we were having breakfast, our little boy, Tommy, found two small coins on the floor.",
+    "chinese": "我们正在吃早饭时，我们的小儿子汤米在地上找到了两枚小硬币。",
+    "intent": "叙述早餐期间孩子的发现",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "While we were having breakfast,",
+        "relation": "时间背景",
+        "meaning": "我们正在吃早饭时"
+      },
+      {
+        "text": "our little boy, Tommy,",
+        "relation": "发现者",
+        "meaning": "我们的小儿子汤米"
+      },
+      {
+        "text": "found two small coins",
+        "relation": "发现",
+        "meaning": "找到了两枚小硬币"
+      },
+      {
+        "text": "on the floor.",
+        "relation": "地点",
+        "meaning": "在地上"
+      }
+    ],
+    "notes": [
+      {
+        "title": "同时发生",
+        "text": "while 从句用过去进行时作背景，主句 found 表示期间发生的发现。"
+      },
+      {
+        "title": "同位语",
+        "text": "Tommy 补充说明 our little boy 的姓名。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "同时发生",
+        "text": "while 从句用过去进行时作背景，主句 found 表示期间发生的发现。"
+      },
+      {
+        "title": "同位语",
+        "text": "Tommy 补充说明 our little boy 的姓名。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "While we were having breakfast,",
+        "role": "时间状语从句",
+        "explanation": "说明发现发生在吃早餐期间"
+      },
+      {
+        "text": "we",
+        "role": "从句主语",
+        "explanation": "吃早餐的人"
+      },
+      {
+        "text": "were having",
+        "role": "从句谓语",
+        "explanation": "were having 为过去进行时"
+      },
+      {
+        "text": "breakfast,",
+        "role": "从句宾语",
+        "explanation": "所吃的一餐"
+      },
+      {
+        "text": "our little boy,",
+        "role": "主语",
+        "explanation": "发现硬币的孩子"
+      },
+      {
+        "text": "Tommy,",
+        "role": "同位语",
+        "explanation": "补充孩子姓名"
+      },
+      {
+        "text": "found",
+        "role": "谓语",
+        "explanation": "发现"
+      },
+      {
+        "text": "two small coins",
+        "role": "宾语",
+        "explanation": "发现的两枚小硬币"
+      },
+      {
+        "text": "on the floor.",
+        "role": "地点状语",
+        "explanation": "发现的位置"
+      }
+    ],
+    "words": [
+      {
+        "text": "While",
+        "meaning": "当……的时候",
+        "pos": "连词",
+        "phonetic": "/waɪl/"
+      },
+      {
+        "text": "we",
+        "meaning": "我们",
+        "pos": "代词",
+        "phonetic": "/wiː/"
+      },
+      {
+        "text": "were",
+        "meaning": "（构成过去进行时）",
+        "pos": "助动词",
+        "phonetic": "/wə/"
+      },
+      {
+        "text": "having",
+        "meaning": "吃",
+        "pos": "动词",
+        "phonetic": "/ˈhævɪŋ/"
+      },
+      {
+        "text": "breakfast,",
+        "meaning": "早饭",
+        "pos": "名词",
+        "phonetic": "/ˈbrekfəst/"
+      },
+      {
+        "text": "our",
+        "meaning": "我们的",
+        "pos": "限定词",
+        "phonetic": "/ˈaʊə/"
+      },
+      {
+        "text": "little",
+        "meaning": "小的；年幼的",
+        "pos": "形容词",
+        "phonetic": "/ˈlɪtl/"
+      },
+      {
+        "text": "boy,",
+        "meaning": "男孩；儿子",
+        "pos": "名词",
+        "phonetic": "/bɔɪ/"
+      },
+      {
+        "text": "Tommy,",
+        "meaning": "汤米",
+        "pos": "专有名词",
+        "phonetic": "/ˈtɒmi/"
+      },
+      {
+        "text": "found",
+        "meaning": "找到",
+        "pos": "动词",
+        "phonetic": "/faʊnd/"
+      },
+      {
+        "text": "two",
+        "meaning": "两",
+        "pos": "数词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "small",
+        "meaning": "小的",
+        "pos": "形容词",
+        "phonetic": "/smɔːl/"
+      },
+      {
+        "text": "coins",
+        "meaning": "硬币",
+        "pos": "名词",
+        "phonetic": "/kɔɪnz/"
+      },
+      {
+        "text": "on",
+        "meaning": "在……上",
+        "pos": "介词",
+        "phonetic": "/ɒn/"
+      },
+      {
+        "text": "the",
+        "meaning": "（特指地板）",
+        "pos": "冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "floor.",
+        "meaning": "地板",
+        "pos": "名词",
+        "phonetic": "/flɔː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "早餐作背景，小儿子是发现者，最后交代硬币的位置。",
+      "letterShape": "W____ w_ w___ h_____ b________, o__ l_____ b__, T____, f____ t__ s____ c____ o_ t__ f____.",
+      "answerNote": "while 配进行中的背景；found 叙述发现。"
+    },
+    "teacherTip": {
+      "text": "从一家人吃早餐的场景转到孩子的发现，用 while 把两件事放在同一时段。Tommy 是对 our little boy 的补充命名，并不是又出现了一个人。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

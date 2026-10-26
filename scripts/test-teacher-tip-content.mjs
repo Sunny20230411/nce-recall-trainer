@@ -31,9 +31,10 @@ for (const path of Object.values(manifest.lessons)) {
 assert.equal(availableIds.size, manifest.totalRecords);
 const published = await loadPublishedUnderstanding();
 assert.equal(JSON.stringify(manifest.teacherTips.records), JSON.stringify(published.teacherTips.records));
-assert.equal(published.teacherTips.records.filter(tip => tip.courseId === 'nce1').length, 1127);
+const nce1PublishedCount = published.records.filter(record => record.courseId === 'nce1').length;
+assert.equal(published.teacherTips.records.filter(tip => tip.courseId === 'nce1').length, nce1PublishedCount);
 const changed = sources.map(source => ({ ...source }));
 changed.find(source => source.courseId === 'nce1').english += ' altered';
 await assert.rejects(() => loadTeacherTips(changed, { requireComplete: true }), /source changed/);
 assert.notEqual(teacherTipSourceDigest(expected), teacherTipSourceDigest([...expected].reverse()));
-console.log('956 legacy directly authored tips, 1127 published NCE1 units, 72 lessons, exact generated content and source drift protection passed.');
+console.log(`956 legacy directly authored tips, ${nce1PublishedCount} published NCE1 units, 72 lessons, exact generated content and source drift protection passed.`);

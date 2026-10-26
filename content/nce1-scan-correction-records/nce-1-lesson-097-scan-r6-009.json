@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-97",
+    "sentenceId": "nce-1-lesson-097-scan-r6-009",
+    "sentenceOrder": 9,
+    "english": "Let me see it.",
+    "chinese": "让我看看。",
+    "intent": "请求对方允许自己查看箱子上的标签，是口语中提出查看要求的常用说法。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Let me",
+        "relation": "使役引导",
+        "meaning": "让我"
+      },
+      {
+        "text": "see it.",
+        "relation": "动作内容",
+        "meaning": "看看它"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Let me 祈使句式",
+        "text": "Let me + 动词原形 表示说话人请求对方允许自己做某事，或主动提出要做某事。"
+      },
+      {
+        "title": "see 的含义",
+        "text": "这里 see 不是单纯“看见”，而是“查看、确认一下”的意思。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "Let me 祈使句式",
+        "text": "Let me + 动词原形 表示说话人请求对方允许自己做某事，或主动提出要做某事。"
+      },
+      {
+        "title": "see 的含义",
+        "text": "这里 see 不是单纯“看见”，而是“查看、确认一下”的意思。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Let me see it.",
+        "role": "祈使句（Let型）",
+        "explanation": "以 Let 开头的祈使句，me 是宾语，see it 是不带 to 的不定式作宾语补足语，整体表示“让我做某事”。"
+      },
+      {
+        "text": "Let me",
+        "role": "谓语与宾语",
+        "explanation": "Let 是使役动词作谓语，me 是宾格代词作宾语。"
+      },
+      {
+        "text": "see it.",
+        "role": "宾语补足语",
+        "explanation": "see it 是省略 to 的不定式短语，补充说明让“我”做什么；it 指代箱子。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Let",
+        "meaning": "让",
+        "pos": "使役动词",
+        "phonetic": "/let/"
+      },
+      {
+        "text": "me",
+        "meaning": "我（宾格）",
+        "pos": "代词",
+        "phonetic": "/miː/"
+      },
+      {
+        "text": "see",
+        "meaning": "查看，看",
+        "pos": "动词",
+        "phonetic": "/siː/"
+      },
+      {
+        "text": "it.",
+        "meaning": "它（指代箱子）",
+        "pos": "代词",
+        "phonetic": "/ɪt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想表达“让我看看”来核实东西，用哪个常用口语句子？",
+      "letterShape": "L__ m_ s__ i_.",
+      "answerNote": "用 Let me see it，比直接索要更自然。"
+    },
+    "teacherTip": {
+      "text": "这里 see 不是单纯“看见”，而是“查看、核实一下”的意思。要凑近检查物品信息时，用 Let me see it 比直接说 Give it to me 更自然礼貌，也更符合服务场景的语气。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "校验通过：see 的词义辨析准确，名师提点点出了容易误解的词义差异。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。校验通过：see 的词义辨析准确，名师提点点出了容易误解的词义差异。"
+  }
+}

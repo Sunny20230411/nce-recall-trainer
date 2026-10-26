@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-95",
+    "sentenceId": "nce-1-lesson-095-scan-r6-020",
+    "sentenceOrder": 20,
+    "english": "That clock's ten minutes slow.",
+    "chinese": "那只钟慢了十分钟。",
+    "intent": "解释当前钟面显示时间与实际时间的偏差，说明乘客误车的原因。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "That clock's",
+        "relation": "说明描述的对象",
+        "meaning": "那只钟"
+      },
+      {
+        "text": "ten minutes slow.",
+        "relation": "说明走时偏差的情况",
+        "meaning": "慢了十分钟"
+      }
+    ],
+    "notes": [
+      {
+        "title": "时间偏差表达",
+        "text": "表示钟表慢/快多久，把时长放在slow/fast之前，结构为“时长 + slow/fast”。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "时间偏差表达",
+        "text": "表示钟表慢/快多久，把时长放在slow/fast之前，结构为“时长 + slow/fast”。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "That clock's ten minutes slow.",
+        "role": "主系表结构",
+        "explanation": "That clock's是主语加系动词is的缩写，ten minutes slow作表语说明钟表的走时状态。"
+      },
+      {
+        "text": "ten minutes",
+        "role": "名词短语作程度状语",
+        "explanation": "ten minutes修饰slow，说明慢的具体幅度。"
+      }
+    ],
+    "words": [
+      {
+        "text": "That",
+        "meaning": "那个",
+        "pos": "限定词",
+        "phonetic": "/ðæt/"
+      },
+      {
+        "text": "clock's",
+        "meaning": "钟是（clock is 的缩写）",
+        "pos": "名词+be动词缩写",
+        "phonetic": "/klɒks/"
+      },
+      {
+        "text": "ten",
+        "meaning": "十",
+        "pos": "数词",
+        "phonetic": "/ten/"
+      },
+      {
+        "text": "minutes",
+        "meaning": "分钟（复数）",
+        "pos": "名词",
+        "phonetic": "/ˈmɪnɪts/"
+      },
+      {
+        "text": "slow.",
+        "meaning": "慢的",
+        "pos": "形容词",
+        "phonetic": "/sləʊ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说描述的钟表，再把时长放在“慢/快”前面说偏差。",
+      "letterShape": "T___ c____'_ t__ m______ s___.",
+      "answerNote": "用“时长 + slow/fast”的顺序表达钟表走时偏差。"
+    },
+    "teacherTip": {
+      "text": "说钟表走时不准不用直译“走得慢/快”，直接把偏差时长放在slow/fast前面，ten minutes slow就是慢十分钟。下次描述钟表快慢，先想偏差时长，再接slow或fast就符合英语习惯。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已核对原文、词义与结构，时间偏差的表达点拨准确，符合教学要求。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已核对原文、词义与结构，时间偏差的表达点拨准确，符合教学要求。"
+  }
+}

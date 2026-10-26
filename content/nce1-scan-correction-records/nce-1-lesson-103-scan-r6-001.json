@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-103",
+    "sentenceId": "nce-1-lesson-103-scan-r6-001",
+    "sentenceOrder": 1,
+    "english": "How was the exam, Richard?",
+    "chinese": "考试怎么样，理查德？",
+    "intent": "询问对方考试的整体情况，开启考试话题的寒暄。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "How was the exam,",
+        "relation": "疑问主干，询问考试情况",
+        "meaning": "考试怎么样"
+      },
+      {
+        "text": "Richard?",
+        "relation": "称呼对象",
+        "meaning": "理查德？"
+      }
+    ],
+    "notes": [
+      {
+        "title": "How was 引导的特殊疑问句",
+        "text": "用于询问过去事件的情况或感受，be动词用过去式was与单数名词exam呼应。"
+      },
+      {
+        "title": "句末称呼",
+        "text": "口语中常把听话人的名字放在句末，用来明确对话对象，语气自然。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "How was 引导的特殊疑问句",
+        "text": "用于询问过去事件的情况或感受，be动词用过去式was与单数名词exam呼应。"
+      },
+      {
+        "title": "句末称呼",
+        "text": "口语中常把听话人的名字放在句末，用来明确对话对象，语气自然。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "How was the exam,",
+        "role": "特殊疑问句主干",
+        "explanation": "由疑问词How+be动词was+主语the exam构成，用来询问事物的状况。"
+      },
+      {
+        "text": "Richard?",
+        "role": "呼语",
+        "explanation": "对听话人的称呼，独立于句子主干之外。"
+      }
+    ],
+    "words": [
+      {
+        "text": "How",
+        "meaning": "怎样，如何",
+        "pos": "副词",
+        "phonetic": "/haʊ/"
+      },
+      {
+        "text": "was",
+        "meaning": "（be动词过去式，用于单数主语）",
+        "pos": "动词",
+        "phonetic": "/wɒz/"
+      },
+      {
+        "text": "the",
+        "meaning": "这，那（定指）",
+        "pos": "限定词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "exam,",
+        "meaning": "考试",
+        "pos": "名词",
+        "phonetic": "/ɪɡˈzæm/"
+      },
+      {
+        "text": "Richard?",
+        "meaning": "理查德（人名）",
+        "pos": "名词",
+        "phonetic": "/ˈrɪtʃəd/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先想“问过去的事怎么样”用How was，再接要问的事物，最后加上对方名字。",
+      "letterShape": "H__ w__ t__ e___, R______?",
+      "answerNote": "这是一句询问考试情况的口语问句，称呼放在句末很自然。"
+    },
+    "teacherTip": {
+      "text": "用How was...问已结束事件的整体感受，直接把想了解的事物（the exam）放在was后面，称呼放在句末是口语里自然的补充，不影响疑问焦点。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "内容匹配原文，教学点符合口语问句特点，各字段准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。内容匹配原文，教学点符合口语问句特点，各字段准确。"
+  }
+}

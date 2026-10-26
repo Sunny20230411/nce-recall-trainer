@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-61",
+    "sentenceId": "nce-1-lesson-061-scan-r6-001",
+    "sentenceOrder": 1,
+    "english": "Where's Jimmy?",
+    "chinese": "吉米在哪儿？",
+    "intent": "询问第三人的所在位置",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Where's",
+        "relation": "疑问核心+谓语",
+        "meaning": "在哪儿"
+      },
+      {
+        "text": "Jimmy?",
+        "relation": "询问对象",
+        "meaning": "吉米"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Where's的缩写",
+        "text": "Where's是Where is的常用口语缩写，is在这里起连接疑问词和主语的作用。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "Where's的缩写",
+        "text": "Where's是Where is的常用口语缩写，is在这里起连接疑问词和主语的作用。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Where's Jimmy?",
+        "role": "特殊疑问句",
+        "explanation": "由疑问副词Where引导，用来询问地点，语序是“疑问词+be动词+主语”。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Where's",
+        "meaning": "在哪里（是Where is的缩写，is用来连接主语表示所处的位置）",
+        "pos": "疑问副词+be动词缩写",
+        "phonetic": "/weəz/"
+      },
+      {
+        "text": "Jimmy?",
+        "meaning": "吉米（男子名）",
+        "pos": "专有名词",
+        "phonetic": "/ˈdʒɪmi/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先想“问位置用Where”，再把要找的人接在后面。",
+      "letterShape": "W____'_ J____?",
+      "answerNote": "这是询问吉米所在位置的问句。"
+    },
+    "teacherTip": {
+      "text": "用Where问位置时，先把疑问词放句首点亮未知信息，再接be动词和要找的人。问不同人的位置，只要替换人名即可。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "字段结构完整，数据符合原文，各词项与tokens一一对应。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。字段结构完整，数据符合原文，各词项与tokens一一对应。"
+  }
+}

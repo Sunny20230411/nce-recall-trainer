@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-7",
+    "sentenceId": "nce-1-lesson-007-sentence-001-part-01",
+    "sentenceOrder": 1,
+    "english": "I am a new student.",
+    "chinese": "我是一名新学生。",
+    "intent": "自我介绍，说明自己的新学生身份。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I am",
+        "relation": "说话人主体",
+        "meaning": "我是"
+      },
+      {
+        "text": "a new student.",
+        "relation": "主体的身份说明",
+        "meaning": "一名新学生"
+      }
+    ],
+    "notes": [
+      {
+        "title": "主系表结构",
+        "text": "I 是主语，am 是系动词，a new student 是表语，整体说明主语的身份。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "主系表结构",
+        "text": "I 是主语，am 是系动词，a new student 是表语，整体说明主语的身份。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "指代说话人自己，是句子的主体。"
+      },
+      {
+        "text": "am",
+        "role": "系动词",
+        "explanation": "连接主语和后面的身份说明，本身无实义，只起语法连接作用。"
+      },
+      {
+        "text": "a new student.",
+        "role": "表语",
+        "explanation": "说明主语的身份，其中new是定语修饰student。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "am",
+        "meaning": "（系动词，连接主语与身份说明）",
+        "pos": "动词",
+        "phonetic": "/æm/"
+      },
+      {
+        "text": "a",
+        "meaning": "一（名）",
+        "pos": "冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "new",
+        "meaning": "新的",
+        "pos": "形容词",
+        "phonetic": "/njuː/"
+      },
+      {
+        "text": "student.",
+        "meaning": "学生。",
+        "pos": "名词",
+        "phonetic": "/ˈstjuːdnt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "自我介绍先说“我”，再讲自己是什么身份，修饰词放身份名词前面。",
+      "letterShape": "I a_ a n__ s______.",
+      "answerNote": "这是自我介绍的常用句式，结构是“主语 + 系动词 + 身份名词”。"
+    },
+    "teacherTip": {
+      "text": "初次见面介绍身份，英语和中文一样先说“我”再讲身份，直接说I am a new student就自然。形容词new放在名词student前面，是英语名词前加修饰的常规顺序。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "原文与tokens一致，身份介绍的表达思路清晰，词义、结构准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。原文与tokens一致，身份介绍的表达思路清晰，词义、结构准确。"
+  }
+}

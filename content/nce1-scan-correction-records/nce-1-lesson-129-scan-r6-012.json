@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-129",
+    "sentenceId": "nce-1-lesson-129-scan-r6-012",
+    "sentenceOrder": 12,
+    "english": "He wasn't dreaming, officer.",
+    "chinese": "他并没有走神，警官。",
+    "intent": "否认司机关于走神的解释",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "He wasn't dreaming,",
+        "relation": "否认当时走神",
+        "meaning": "他并没有走神"
+      },
+      {
+        "text": "officer.",
+        "relation": "称呼",
+        "meaning": "警官"
+      }
+    ],
+    "notes": [
+      {
+        "title": "否定过去进行时",
+        "text": "wasn't dreaming 表示过去那个时刻并未处于走神状态。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "否定过去进行时",
+        "text": "wasn't dreaming 表示过去那个时刻并未处于走神状态。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "He",
+        "role": "主语",
+        "explanation": "指司机"
+      },
+      {
+        "text": "wasn't dreaming,",
+        "role": "谓语",
+        "explanation": "否定过去进行的状态"
+      },
+      {
+        "text": "officer.",
+        "role": "呼语",
+        "explanation": "称呼警官"
+      }
+    ],
+    "words": [
+      {
+        "text": "He",
+        "meaning": "他",
+        "pos": "代词",
+        "phonetic": "/hiː/"
+      },
+      {
+        "text": "wasn't",
+        "meaning": "当时没有（构成否定进行时）",
+        "pos": "助动词（否定缩合）",
+        "phonetic": "/ˈwɒznt/"
+      },
+      {
+        "text": "dreaming,",
+        "meaning": "走神",
+        "pos": "动词",
+        "phonetic": "/ˈdriːmɪŋ/"
+      },
+      {
+        "text": "officer.",
+        "meaning": "警官",
+        "pos": "名词",
+        "phonetic": "/ˈɒfɪsə/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "乘客向警官澄清：司机当时并没有走神。",
+      "letterShape": "H_ w___'_ d_______, o______.",
+      "answerNote": "用 wasn't 加现在分词否定当时的状态。"
+    },
+    "teacherTip": {
+      "text": "乘客直接否定的是“当时在走神”这个说法，所以沿用过去进行时。她不是在讨论他平时会不会走神，而是在纠正这一回发生的事。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

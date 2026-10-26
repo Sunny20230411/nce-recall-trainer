@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-61",
+    "sentenceId": "nce-1-lesson-061-scan-r6-011",
+    "sentenceOrder": 11,
+    "english": "Open your mouth, Jimmy.",
+    "chinese": "张开嘴，吉米。",
+    "intent": "医生对吉米发出检查指令，让他张开嘴。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Open your mouth,",
+        "relation": "动作指令",
+        "meaning": "张开你的嘴"
+      },
+      {
+        "text": "Jimmy.",
+        "relation": "称呼对象",
+        "meaning": "吉米"
+      }
+    ],
+    "notes": [
+      {
+        "title": "祈使句加称呼",
+        "text": "祈使句的称呼常放在句末，前面用逗号隔开，语气自然。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "祈使句加称呼",
+        "text": "祈使句的称呼常放在句末，前面用逗号隔开，语气自然。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Open your mouth,",
+        "role": "祈使句主句",
+        "explanation": "以动词原形Open开头，your mouth是宾语，构成及物动词的祈使结构。"
+      },
+      {
+        "text": "Jimmy.",
+        "role": "呼语",
+        "explanation": "Jimmy是称呼对方的名字，不作句子主干成分。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Open",
+        "meaning": "打开，张开",
+        "pos": "动词",
+        "phonetic": "/ˈəʊpən/"
+      },
+      {
+        "text": "your",
+        "meaning": "你的",
+        "pos": "形容词性物主代词",
+        "phonetic": "/jɔː/"
+      },
+      {
+        "text": "mouth,",
+        "meaning": "嘴（后带逗号）",
+        "pos": "名词",
+        "phonetic": "/maʊθ/"
+      },
+      {
+        "text": "Jimmy.",
+        "meaning": "吉米（人名，句末带句号）",
+        "pos": "名词",
+        "phonetic": "/ˈdʒɪmi/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "让别人做动作直接用动词原形开头，人名可以放句尾。",
+      "letterShape": "O___ y___ m____, J____.",
+      "answerNote": "Open your mouth是核心指令，Jimmy是称呼。"
+    },
+    "teacherTip": {
+      "text": "祈使句直接以动词原形Open开头，语气干脆，适合检查、吩咐这类场景。称呼Jimmy放句末比放句首更自然，不会显得生硬。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "复核通过，原文、词义、结构均准确，提点贴合祈使句交际功能。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。复核通过，原文、词义、结构均准确，提点贴合祈使句交际功能。"
+  }
+}

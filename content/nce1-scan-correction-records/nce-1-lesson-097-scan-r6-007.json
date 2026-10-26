@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-97",
+    "sentenceId": "nce-1-lesson-097-scan-r6-007",
+    "sentenceOrder": 7,
+    "english": "What about this one?",
+    "chinese": "那这只呢？",
+    "intent": "在第一个箱子被否定后，向对方征询对另一个箱子的看法，引导对方确认或判断。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "What about",
+        "relation": "征询引导",
+        "meaning": "……怎么样"
+      },
+      {
+        "text": "this one?",
+        "relation": "征询对象",
+        "meaning": "这一个"
+      }
+    ],
+    "notes": [
+      {
+        "title": "What about 征询句式",
+        "text": "What about + 名词/代词 用于顺着现有话题，提出另一个选项请对方考虑或确认，相当于省略了前面重复的内容。"
+      },
+      {
+        "title": "one 指代前文事物",
+        "text": "这里 one 指代前面提到过的 case，避免重复同一个名词。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "What about 征询句式",
+        "text": "What about + 名词/代词 用于顺着现有话题，提出另一个选项请对方考虑或确认，相当于省略了前面重复的内容。"
+      },
+      {
+        "title": "one 指代前文事物",
+        "text": "这里 one 指代前面提到过的 case，避免重复同一个名词。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "What about this one?",
+        "role": "特殊疑问句（征询类）",
+        "explanation": "由 What about 引导的省略式征询问句，整体用来询问对方对某个对象的看法，补充完整相当于 What do you think about this one?"
+      },
+      {
+        "text": "this one?",
+        "role": "介词宾语",
+        "explanation": "this one 是介词 about 的宾语，指代当前提到的那只箱子。"
+      }
+    ],
+    "words": [
+      {
+        "text": "What",
+        "meaning": "什么",
+        "pos": "代词",
+        "phonetic": "/wɒt/"
+      },
+      {
+        "text": "about",
+        "meaning": "关于",
+        "pos": "介词",
+        "phonetic": "/əˈbaʊt/"
+      },
+      {
+        "text": "this",
+        "meaning": "这个",
+        "pos": "限定词",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "text": "one?",
+        "meaning": "一个（代指箱子）",
+        "pos": "代词",
+        "phonetic": "/wʌn/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想顺着话题问“那这个呢”，用什么常用省略说法？",
+      "letterShape": "W___ a____ t___ o__?",
+      "answerNote": "用 What about 加指代对象，不用重复整句。"
+    },
+    "teacherTip": {
+      "text": "What about... 是口语里顺着前文话题、转问另一个选项的常用省略说法，不用重新组织完整问句。刚否定了一个、要问下一个合不合适时，直接用 What about + 指代对象就行，省掉重复描述。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "校验通过：词义、结构说明准确，名师提点聚焦实用句式用法，符合语境。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。校验通过：词义、结构说明准确，名师提点聚焦实用句式用法，符合语境。"
+  }
+}

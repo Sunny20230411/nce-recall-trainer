@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-9",
+    "sentenceId": "nce-1-lesson-009-scan-r6-009",
+    "sentenceOrder": 9,
+    "english": "How's Emma?",
+    "chinese": "埃玛好吗？",
+    "intent": "询问第三人埃玛的身体近况。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "How's",
+        "relation": "询问状况的核心表达",
+        "meaning": "……好吗"
+      },
+      {
+        "text": "Emma?",
+        "relation": "被询问的对象",
+        "meaning": "埃玛"
+      }
+    ],
+    "notes": [
+      {
+        "title": "How's 的缩写",
+        "text": "How's 是 How is 的常用口语缩写，用来询问某人的近况或状态。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "How's 的缩写",
+        "text": "How's 是 How is 的常用口语缩写，用来询问某人的近况或状态。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "How's",
+        "role": "疑问词组（系表结构的疑问形式）",
+        "explanation": "由疑问副词How和be动词is缩合而成，用来引导询问状态的特殊疑问句。"
+      },
+      {
+        "text": "Emma?",
+        "role": "主语",
+        "explanation": "人名Emma，是被询问状况的对象，句末带问号。"
+      }
+    ],
+    "words": [
+      {
+        "text": "How's",
+        "meaning": "……好吗（How is 的缩写，用于询问状态）",
+        "pos": "疑问词组（缩约形式）",
+        "phonetic": "/haʊz/"
+      },
+      {
+        "text": "Emma?",
+        "meaning": "埃玛（女子名）",
+        "pos": "专有名词",
+        "phonetic": "/ˈemə/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "顺着话题问另一个人的近况，直接把人名接在问状况的句式后面。",
+      "letterShape": "H__'_ E___?",
+      "answerNote": "这是顺着前面问候的话题，问埃玛身体好不好。"
+    },
+    "teacherTip": {
+      "text": "前面刚问过Tony的状况，再问Emma时直接用How's...?承接，双方都清楚话题是身体近况，不用重复铺垫。接着问下一个人的近况时，套用How's +人名就自然。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已对照扫描原文确认句子为How's Emma?，教学数据匹配当前句子。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已对照扫描原文确认句子为How's Emma?，教学数据匹配当前句子。"
+  }
+}

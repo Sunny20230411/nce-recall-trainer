@@ -6,6 +6,7 @@ execFileSync(process.execPath, ['scripts/build-british-phonetics.mjs'], { stdio:
 
 await mkdir("dist", { recursive: true });
 await mkdir("dist/assets", { recursive: true });
+await copyFile("assets/source-corrections.js", "dist/assets/source-corrections.js");
 await copyFile("index.html", "dist/index.html");
 await copyFile("sentence-splits.js", "dist/sentence-splits.js");
 await copyFile("ai-chat.js", "dist/ai-chat.js");

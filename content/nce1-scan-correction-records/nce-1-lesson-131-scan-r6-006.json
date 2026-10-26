@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-131",
+    "sentenceId": "nce-1-lesson-131-scan-r6-006",
+    "sentenceOrder": 6,
+    "english": "We can't make up our minds.",
+    "chinese": "我们拿不定主意。",
+    "intent": "说明夫妻两人无法决定度假安排",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "We can't",
+        "relation": "未能决定的人",
+        "meaning": "我们无法"
+      },
+      {
+        "text": "make up our minds.",
+        "relation": "尚未作出的决定",
+        "meaning": "拿定主意"
+      }
+    ],
+    "notes": [
+      {
+        "title": "固定短语",
+        "text": "make up one's mind 意为下定决心、作出决定；物主限定词和 mind 的单复数随主语变化。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "固定短语",
+        "text": "make up one's mind 意为下定决心、作出决定；物主限定词和 mind 的单复数随主语变化。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "We",
+        "role": "主语",
+        "explanation": "指说话人与妻子"
+      },
+      {
+        "text": "can't make up",
+        "role": "谓语",
+        "explanation": "can't make up 表示无法作出决定"
+      },
+      {
+        "text": "our minds.",
+        "role": "宾语",
+        "explanation": "短语中的 our minds，与复数主语呼应"
+      }
+    ],
+    "words": [
+      {
+        "text": "We",
+        "meaning": "我们",
+        "pos": "代词",
+        "phonetic": "/wiː/"
+      },
+      {
+        "text": "can't",
+        "meaning": "无法；不能",
+        "pos": "情态动词（否定缩合）",
+        "phonetic": "/kɑːnt/"
+      },
+      {
+        "text": "make",
+        "meaning": "作出（决定）",
+        "pos": "动词",
+        "phonetic": "/meɪk/"
+      },
+      {
+        "text": "up",
+        "meaning": "（与 make、minds 构成拿定主意）",
+        "pos": "副词",
+        "phonetic": "/ʌp/"
+      },
+      {
+        "text": "our",
+        "meaning": "我们的",
+        "pos": "物主限定词",
+        "phonetic": "/ˈaʊə/ 或 /ɑː/"
+      },
+      {
+        "text": "minds.",
+        "meaning": "主意；决心",
+        "pos": "名词",
+        "phonetic": "/maɪndz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "说的是夫妻双方都无法决定度假安排，注意用复数主意。",
+      "letterShape": "W_ c__'_ m___ u_ o__ m____.",
+      "answerNote": "make up one's mind 表示拿定主意，we 对应 our minds。"
+    },
+    "teacherTip": {
+      "text": "make up our minds 表示两个人都还没作出决定，不是“编出我们的想法”。这里用复数 minds，是因为 we 涉及不止一个人的主意；换成我，就说 make up my mind。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

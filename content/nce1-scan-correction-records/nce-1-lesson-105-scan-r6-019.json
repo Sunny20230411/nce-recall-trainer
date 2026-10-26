@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-105",
+    "sentenceId": "nce-1-lesson-105-scan-r6-019",
+    "sentenceOrder": 19,
+    "english": "What is it?",
+    "chinese": "是什么呀？",
+    "intent": "询问礼物是什么",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "What",
+        "relation": "询问身份",
+        "meaning": "什么"
+      },
+      {
+        "text": "is it?",
+        "relation": "所问对象",
+        "meaning": "它是"
+      }
+    ],
+    "notes": [
+      {
+        "title": "疑问表语",
+        "text": "what 询问礼物的具体名称或种类；it 指刚提到的礼物。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "疑问表语",
+        "text": "what 询问礼物的具体名称或种类；it 指刚提到的礼物。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "What",
+        "role": "表语",
+        "explanation": "置于句首，询问物品是什么。"
+      },
+      {
+        "text": "is",
+        "role": "系动词",
+        "explanation": "连接物品与其身份，疑问时在主语前。"
+      },
+      {
+        "text": "it?",
+        "role": "主语",
+        "explanation": "指那件礼物。"
+      }
+    ],
+    "words": [
+      {
+        "text": "What",
+        "meaning": "什么",
+        "pos": "疑问代词",
+        "phonetic": "/wɒt/"
+      },
+      {
+        "text": "is",
+        "meaning": "是",
+        "pos": "系动词",
+        "phonetic": "/ɪz/"
+      },
+      {
+        "text": "it?",
+        "meaning": "它（指礼物）",
+        "pos": "代词",
+        "phonetic": "/ɪt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "问眼前礼物究竟是什么东西。",
+      "letterShape": "W___ i_ i_?",
+      "answerNote": "疑问词在前，系动词放在代词主语前面。"
+    },
+    "teacherTip": {
+      "text": "已经知道那是礼物，现在要问具体是什么东西，所以用 What is it。不是询问“哪一件”，也不用重复 present。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

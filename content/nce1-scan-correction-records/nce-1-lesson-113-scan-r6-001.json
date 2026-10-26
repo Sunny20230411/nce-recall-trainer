@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-113",
+    "sentenceId": "nce-1-lesson-113-scan-r6-001",
+    "sentenceOrder": 1,
+    "english": "Fares, please!",
+    "chinese": "请买票！",
+    "intent": "售票员向乘客收取车费",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Fares,",
+        "relation": "收取项目",
+        "meaning": "车费"
+      },
+      {
+        "text": "please!",
+        "relation": "礼貌请求",
+        "meaning": "请"
+      }
+    ],
+    "notes": [
+      {
+        "title": "场景省略",
+        "text": "Fares 指乘客应付的车费，复数对应多位乘客；整句是收车费的简短用语。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "场景省略",
+        "text": "Fares 指乘客应付的车费，复数对应多位乘客；整句是收车费的简短用语。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Fares,",
+        "role": "独立成分",
+        "explanation": "名词独立成句，省略交付车费的动作"
+      },
+      {
+        "text": "please!",
+        "role": "独立成分",
+        "explanation": "礼貌标记"
+      }
+    ],
+    "words": [
+      {
+        "text": "Fares,",
+        "meaning": "车费",
+        "pos": "名词",
+        "phonetic": "/feəz/"
+      },
+      {
+        "text": "please!",
+        "meaning": "请",
+        "pos": "感叹词",
+        "phonetic": "/pliːz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "售票员开始收钱，用车费的复数加礼貌词。",
+      "letterShape": "F____, p_____!",
+      "answerNote": "以名词直接提示乘客交车费，是售票场景的省略表达。"
+    },
+    "teacherTip": {
+      "text": "售票场景中，只说车费这个名词，大家就明白是在收钱，不必补成完整命令。类似的服务用语靠现场补足动作，翻译时要说出实际要做的事。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

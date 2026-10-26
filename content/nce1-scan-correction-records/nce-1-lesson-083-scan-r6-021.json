@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-021",
+    "sentenceOrder": 21,
+    "english": "I don't know.",
+    "chinese": "我不知道。",
+    "intent": "直接回应对方关于度假时间的提问，表明自己不确定或没有相关计划。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I don't know.",
+        "relation": "完整短句，表达不确定的态度",
+        "meaning": "我不知道。"
+      }
+    ],
+    "notes": [
+      {
+        "title": "一般现在时的否定句",
+        "text": "由“主语 + 助动词don't + 实义动词原形”构成，用来陈述当前不知道的状态。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "一般现在时的否定句",
+        "text": "由“主语 + 助动词don't + 实义动词原形”构成，用来陈述当前不知道的状态。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "说话人自己，作句子的主语。"
+      },
+      {
+        "text": "don't know.",
+        "role": "谓语",
+        "explanation": "由助动词don't加实义动词know构成否定谓语，表示“不知道”。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "don't",
+        "meaning": "do not 的常用口语缩写，构成一般现在时否定，无实义",
+        "pos": "助动词缩写",
+        "phonetic": "/dəʊnt/"
+      },
+      {
+        "text": "know.",
+        "meaning": "知道；了解",
+        "pos": "动词",
+        "phonetic": "/nəʊ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "表达自己不知道某件事时，直接用最简短的否定说法即可。",
+      "letterShape": "I d__'_ k___.",
+      "answerNote": "主语是I，一般现在时的否定用don't加动词原形know。"
+    },
+    "teacherTip": {
+      "text": "对方刚问完度假时间，这里用“I don't know”简短作答即可，不用重复“什么时候度假”这类双方已知的信息。日常回应不确定的提问，直接说I don't know最自然简洁。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "校验通过，原文准确，点拨符合对话语境，词义与结构无误。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。校验通过，原文准确，点拨符合对话语境，词义与结构无误。"
+  }
+}

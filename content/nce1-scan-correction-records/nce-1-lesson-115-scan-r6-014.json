@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-115",
+    "sentenceId": "nce-1-lesson-115-scan-r6-014",
+    "sentenceOrder": 14,
+    "english": "Hello, Jim.",
+    "chinese": "你好，吉姆。",
+    "intent": "接着向吉姆打招呼",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Hello,",
+        "relation": "问候",
+        "meaning": "你好"
+      },
+      {
+        "text": "Jim.",
+        "relation": "问候对象",
+        "meaning": "吉姆"
+      }
+    ],
+    "notes": [
+      {
+        "title": "人名",
+        "text": "Jim 是人名吉姆，在此是呼语而不是句子的主语。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "人名",
+        "text": "Jim 是人名吉姆，在此是呼语而不是句子的主语。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Hello,",
+        "role": "独立成分",
+        "explanation": "独立问候语"
+      },
+      {
+        "text": "Jim.",
+        "role": "呼语",
+        "explanation": "称呼吉姆"
+      }
+    ],
+    "words": [
+      {
+        "text": "Hello,",
+        "meaning": "你好",
+        "pos": "感叹词",
+        "phonetic": "/həˈləʊ/"
+      },
+      {
+        "text": "Jim.",
+        "meaning": "吉姆",
+        "pos": "专有名词",
+        "phonetic": "/dʒɪm/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "这次问候另一位来客吉姆。",
+      "letterShape": "H____, J__.",
+      "answerNote": "保留相同问候形式，把称呼换为吉姆。"
+    },
+    "teacherTip": {
+      "text": "主人接着向另一位来客打招呼，沿用同一个简短问候就很自然。换成另一个名字，就把招呼明确送给了另一人。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-59",
+    "sentenceId": "nce-1-lesson-059-scan-r6-003",
+    "sentenceOrder": 3,
+    "english": "The large size, please.",
+    "chinese": "请给我大号的。",
+    "intent": "在对方给出大小两个选项后，明确做出选择并礼貌回应。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "The large size,",
+        "relation": "所选的选项内容",
+        "meaning": "大号的"
+      },
+      {
+        "text": "please.",
+        "relation": "礼貌语气词",
+        "meaning": "请"
+      }
+    ],
+    "notes": [
+      {
+        "title": "简答式选择回应",
+        "text": "面对选择疑问句时，可以直接用选中的名词短语作答，省略双方都清楚的主谓部分，简洁自然。"
+      },
+      {
+        "title": "please 的位置",
+        "text": "please 放在句末表示礼貌请求，前面通常用逗号隔开，是服务场景的常用礼貌表达。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "简答式选择回应",
+        "text": "面对选择疑问句时，可以直接用选中的名词短语作答，省略双方都清楚的主谓部分，简洁自然。"
+      },
+      {
+        "title": "please 的位置",
+        "text": "please 放在句末表示礼貌请求，前面通常用逗号隔开，是服务场景的常用礼貌表达。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "The large size, please.",
+        "role": "省略式名词短语应答句",
+        "explanation": "完整表达相当于 I want the large size, please，这里省略了主语和谓语，只保留核心选择内容 the large size 加礼貌词 please。"
+      },
+      {
+        "text": "The large size,",
+        "role": "名词短语作核心应答内容",
+        "explanation": "The large size 是定冠词加形容词加名词构成的名词短语，明确指出选择的规格。"
+      }
+    ],
+    "words": [
+      {
+        "text": "The",
+        "meaning": "这个（定冠词，表特指）",
+        "pos": "限定词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "large",
+        "meaning": "大的；大号的",
+        "pos": "形容词",
+        "phonetic": "/lɑːdʒ/"
+      },
+      {
+        "text": "size,",
+        "meaning": "尺寸；尺码（句中带逗号）",
+        "pos": "名词",
+        "phonetic": "/saɪz/"
+      },
+      {
+        "text": "please.",
+        "meaning": "请（句末带句号）",
+        "pos": "感叹词",
+        "phonetic": "/pliːz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "别人问大小号，直接说你要的那个号，末尾加 please 更礼貌。",
+      "letterShape": "T__ l____ s___, p_____.",
+      "answerNote": "选大号的，用 please 表示礼貌。"
+    },
+    "teacherTip": {
+      "text": "这是购物场景里常见的简答，不用说出完整的 I want the large size, please，直接报选中的选项加 please 就自然，因为双方都清楚在谈信封尺寸。下次别人给二选一的选项，你直接说选的那一项加 please 就行。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已按 token 索引修正 parts 连续性，0–2 与 3–3 连续覆盖全部 4 个 token，无重叠无遗漏。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已按 token 索引修正 parts 连续性，0–2 与 3–3 连续覆盖全部 4 个 token，无重叠无遗漏。"
+  }
+}

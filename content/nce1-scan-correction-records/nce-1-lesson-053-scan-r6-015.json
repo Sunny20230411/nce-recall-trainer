@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-53",
+    "sentenceId": "nce-1-lesson-053-scan-r6-015",
+    "sentenceOrder": 15,
+    "english": "It's our favourite subject of conversation.",
+    "chinese": "这是我们最喜欢的话题。",
+    "intent": "总结说明气候是英国人最爱谈论的话题，点出气候话题的趣味性。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "It's",
+        "relation": "主系结构引入",
+        "meaning": "这是"
+      },
+      {
+        "text": "our favourite subject",
+        "relation": "被修饰的核心事物",
+        "meaning": "我们最喜欢的话题"
+      },
+      {
+        "text": "of conversation.",
+        "relation": "话题的所属类别",
+        "meaning": "交谈方面的"
+      }
+    ],
+    "notes": [
+      {
+        "title": "of表示所属类别",
+        "text": "of conversation用来限定subject的范畴，说明是“交谈方面的话题”，相当于“交谈的话题”。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "of表示所属类别",
+        "text": "of conversation用来限定subject的范畴，说明是“交谈方面的话题”，相当于“交谈的话题”。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "It's",
+        "role": "主语+系动词",
+        "explanation": "It's是It is的缩写，it指代上文提到的气候话题，is是系动词。"
+      },
+      {
+        "text": "our favourite subject",
+        "role": "表语核心部分",
+        "explanation": "our favourite是定语修饰subject，subject是表语的中心名词。"
+      },
+      {
+        "text": "of conversation.",
+        "role": "后置定语",
+        "explanation": "of conversation是介词短语，作后置定语修饰subject，说明话题的类别。"
+      }
+    ],
+    "words": [
+      {
+        "text": "It's",
+        "meaning": "这是（it is的缩写）",
+        "pos": "代词+动词缩写",
+        "phonetic": "/ɪts/"
+      },
+      {
+        "text": "our",
+        "meaning": "我们的",
+        "pos": "形容词性物主代词",
+        "phonetic": "/ˈaʊə/"
+      },
+      {
+        "text": "favourite",
+        "meaning": "最喜欢的",
+        "pos": "形容词",
+        "phonetic": "/ˈfeɪvərɪt/"
+      },
+      {
+        "text": "subject",
+        "meaning": "话题",
+        "pos": "名词",
+        "phonetic": "/ˈsʌbdʒɪkt/"
+      },
+      {
+        "text": "of",
+        "meaning": "（表所属类别）关于……的",
+        "pos": "介词",
+        "phonetic": "/ɒv/"
+      },
+      {
+        "text": "conversation.",
+        "meaning": "交谈，谈话",
+        "pos": "名词",
+        "phonetic": "/ˌkɒnvəˈseɪʃən/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "表达“某类最喜欢的事物”，先讲核心事物，再用of加类别来限定范围。",
+      "letterShape": "I_'_ o__ f________ s______ o_ c___________.",
+      "answerNote": "用of conversation作后置定语修饰subject，说明是交谈方面的话题。"
+    },
+    "teacherTip": {
+      "text": "说“最喜欢的某类话题”时，英语常用favourite subject of conversation这种“核心名词+of+类别”的结构，先点明核心事物subject，再用of conversation限定范畴。也可以说favourite conversation subject，但of结构更书面正式。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "内容与原文一致，of结构的讲解准确，subject词义已调整为本句语境义，表达习惯点拨符合实用需求。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。内容与原文一致，of结构的讲解准确，subject词义已调整为本句语境义，表达习惯点拨符合实用需求。"
+  }
+}

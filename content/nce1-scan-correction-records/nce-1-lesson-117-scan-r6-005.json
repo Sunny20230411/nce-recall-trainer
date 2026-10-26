@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-117",
+    "sentenceId": "nce-1-lesson-117-scan-r6-005",
+    "sentenceOrder": 5,
+    "english": "He put them both into his mouth.",
+    "chinese": "他把两枚硬币都放进了嘴里。",
+    "intent": "说明孩子把两枚都放入口中",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "He",
+        "relation": "行动者",
+        "meaning": "他"
+      },
+      {
+        "text": "put them both",
+        "relation": "动作与数量",
+        "meaning": "把它们两个都放了"
+      },
+      {
+        "text": "into his mouth.",
+        "relation": "去向",
+        "meaning": "进他的嘴里"
+      }
+    ],
+    "notes": [
+      {
+        "title": "双数总括",
+        "text": "both 指前面的两枚硬币；them both 与 both of them 都能表达两者全部。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "双数总括",
+        "text": "both 指前面的两枚硬币；them both 与 both of them 都能表达两者全部。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "He",
+        "role": "主语",
+        "explanation": "指汤米"
+      },
+      {
+        "text": "put",
+        "role": "谓语",
+        "explanation": "put 的过去式与原形相同"
+      },
+      {
+        "text": "them",
+        "role": "宾语",
+        "explanation": "指两枚硬币"
+      },
+      {
+        "text": "both",
+        "role": "宾语范围补充",
+        "explanation": "both 总括 them"
+      },
+      {
+        "text": "into his mouth.",
+        "role": "方向状语",
+        "explanation": "说明放入的部位"
+      }
+    ],
+    "words": [
+      {
+        "text": "He",
+        "meaning": "他",
+        "pos": "代词",
+        "phonetic": "/hiː/"
+      },
+      {
+        "text": "put",
+        "meaning": "放",
+        "pos": "动词",
+        "phonetic": "/pʊt/"
+      },
+      {
+        "text": "them",
+        "meaning": "它们",
+        "pos": "代词",
+        "phonetic": "/ðəm/"
+      },
+      {
+        "text": "both",
+        "meaning": "两者都",
+        "pos": "代词",
+        "phonetic": "/bəʊθ/"
+      },
+      {
+        "text": "into",
+        "meaning": "进……里面",
+        "pos": "介词",
+        "phonetic": "/ˈɪntuː/"
+      },
+      {
+        "text": "his",
+        "meaning": "他的",
+        "pos": "限定词",
+        "phonetic": "/hɪz/"
+      },
+      {
+        "text": "mouth.",
+        "meaning": "嘴",
+        "pos": "名词",
+        "phonetic": "/maʊθ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "指代前面的两枚硬币，强调两个都进了嘴。",
+      "letterShape": "H_ p__ t___ b___ i___ h__ m____.",
+      "answerNote": "them both 表示两枚都；into 表示进入。"
+    },
+    "teacherTip": {
+      "text": "前面已经提过两枚硬币，这里用 them 接着说，再用 both 强调一枚也没落下。‘放进’要有进入内部的方向感，所以这里用 into，不只是说在嘴边或嘴上。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

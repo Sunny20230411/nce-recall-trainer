@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-37",
+    "sentenceId": "nce-1-lesson-037-scan-r6-009",
+    "sentenceOrder": 9,
+    "english": "Here you are.",
+    "chinese": "给你。",
+    "intent": "把对方要的东西递过去时的常用口语。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Here you are.",
+        "relation": "递物时的完整交际用语",
+        "meaning": "给你。"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Here you are 的交际功能",
+        "text": "Here you are 是口语中把物品递给对方时的常用表达，相当于中文的“给你”。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "Here you are 的交际功能",
+        "text": "Here you are 是口语中把物品递给对方时的常用表达，相当于中文的“给你”。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Here you are.",
+        "role": "倒装句式（交际用语）",
+        "explanation": "here 置于句首引出递物动作，主语是代词 you，所以语序仍是 here + 主语 + 动词。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Here",
+        "meaning": "在这里；（用于句首引出递物）喏，给",
+        "pos": "副词",
+        "phonetic": "/hɪə/"
+      },
+      {
+        "text": "you",
+        "meaning": "你",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "are.",
+        "meaning": "（be动词，此处构成固定表达）",
+        "pos": "动词",
+        "phonetic": "/ɑː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "递东西给对方时，用一句以 here 开头的常用短句。",
+      "letterShape": "H___ y__ a__.",
+      "answerNote": "这是递物的固定口语，意思是“给你”。"
+    },
+    "teacherTip": {
+      "text": "Here you are 是递东西时的固定表达，不是在陈述“你在这里”。英语把 here 放在句首，自然带出“东西递到你跟前”的意味，日常递物接物都能直接用。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "校验通过：递物常用语释义准确，字段完整。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。校验通过：递物常用语释义准确，字段完整。"
+  }
+}

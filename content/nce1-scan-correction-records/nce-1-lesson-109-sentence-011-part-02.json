@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-109",
+    "sentenceId": "nce-1-lesson-109-sentence-011-part-02",
+    "sentenceOrder": 14,
+    "english": "I'd like a cigarette, too.",
+    "chinese": "我还想要一支香烟。",
+    "intent": "在接受咖啡后另提一个需求",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I'd like",
+        "relation": "客气表达需求",
+        "meaning": "我想要"
+      },
+      {
+        "text": "a cigarette,",
+        "relation": "所需物品",
+        "meaning": "一支香烟"
+      },
+      {
+        "text": "too.",
+        "relation": "追加关系",
+        "meaning": "还；也"
+      }
+    ],
+    "notes": [
+      {
+        "title": "缩写",
+        "text": "I'd 在 like 前是 I would，不是 I had。"
+      },
+      {
+        "title": "追加含义",
+        "text": "too 在句末表示也，承接前文喝咖啡的需求。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "缩写",
+        "text": "I'd 在 like 前是 I would，不是 I had。"
+      },
+      {
+        "title": "追加含义",
+        "text": "too 在句末表示也，承接前文喝咖啡的需求。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I'd",
+        "role": "主语与情态助动词",
+        "explanation": "缩写表达我愿意、想要。"
+      },
+      {
+        "text": "like",
+        "role": "谓语核心",
+        "explanation": "与 would 构成客气需求表达。"
+      },
+      {
+        "text": "a cigarette,",
+        "role": "宾语",
+        "explanation": "所要的一支香烟。"
+      },
+      {
+        "text": "too.",
+        "role": "追加状语",
+        "explanation": "说明这是附加的需求。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I'd",
+        "meaning": "我想（含 would）",
+        "pos": "代词与情态动词缩写",
+        "phonetic": "/aɪd/"
+      },
+      {
+        "text": "like",
+        "meaning": "想要",
+        "pos": "动词",
+        "phonetic": "/laɪk/"
+      },
+      {
+        "text": "a",
+        "meaning": "一支",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "cigarette,",
+        "meaning": "香烟",
+        "pos": "名词",
+        "phonetic": "/ˌsɪɡəˈret/"
+      },
+      {
+        "text": "too.",
+        "meaning": "也；还",
+        "pos": "副词",
+        "phonetic": "/tuː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "在原有需求之外，客气地再要一支香烟。",
+      "letterShape": "I'_ l___ a c________, t__.",
+      "answerNote": "我想要使用缩写，句末加也表示追加。"
+    },
+    "teacherTip": {
+      "text": "too 把香烟加在刚才答应再喝的咖啡之外，表示“还想要这个”。I'd like 比直接说 I want 更适合向主人提出自己的需求，但并不改变想要的东西。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

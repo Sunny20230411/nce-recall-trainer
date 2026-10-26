@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-005",
+    "sentenceOrder": 5,
+    "english": "Do you want to have lunch with us?",
+    "chinese": "你想和我们一起吃午饭吗？",
+    "intent": "在说明自己正在吃午饭之后，顺势询问对方是否愿意一起吃，发出用餐邀请。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Do you want",
+        "relation": "疑问主干：询问对方意愿",
+        "meaning": "你想要……吗"
+      },
+      {
+        "text": "to have lunch",
+        "relation": "意愿涉及的动作内容",
+        "meaning": "吃午饭"
+      },
+      {
+        "text": "with us?",
+        "relation": "伴随对象补充",
+        "meaning": "和我们一起"
+      }
+    ],
+    "notes": [
+      {
+        "title": "want to 后接动作的邀请句式",
+        "text": "Do you want to + 动词原形 是口语里常用的委婉邀请/询问句式，用来询问对方是否愿意做某事。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "want to 后接动作的邀请句式",
+        "text": "Do you want to + 动词原形 是口语里常用的委婉邀请/询问句式，用来询问对方是否愿意做某事。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Do",
+        "role": "一般现在时疑问句助动词",
+        "explanation": "Do 是构成一般现在时疑问句的助动词，没有实义，帮助构成疑问语序。"
+      },
+      {
+        "text": "you",
+        "role": "主语",
+        "explanation": "you 是句子的主语，指代被询问的人。"
+      },
+      {
+        "text": "want",
+        "role": "谓语动词",
+        "explanation": "want 是主句的谓语动词，表示“想要”。"
+      },
+      {
+        "text": "to have lunch",
+        "role": "不定式短语作宾语",
+        "explanation": "to have lunch 是不定式短语，作 want 的宾语，说明想要做的具体事情。"
+      },
+      {
+        "text": "with us?",
+        "role": "伴随状语",
+        "explanation": "with us 是介词短语作伴随状语，说明一起做这件事的对象。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Do",
+        "meaning": "（构成一般现在时疑问句，无实义）",
+        "pos": "助动词",
+        "phonetic": "/duː/"
+      },
+      {
+        "text": "you",
+        "meaning": "你；你们",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "want",
+        "meaning": "想要；希望",
+        "pos": "动词",
+        "phonetic": "/wɒnt/"
+      },
+      {
+        "text": "to",
+        "meaning": "（不定式符号，无实义）",
+        "pos": "小品词",
+        "phonetic": "/tə/"
+      },
+      {
+        "text": "have",
+        "meaning": "吃；进行（活动）",
+        "pos": "动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "lunch",
+        "meaning": "午餐",
+        "pos": "名词",
+        "phonetic": "/lʌntʃ/"
+      },
+      {
+        "text": "with",
+        "meaning": "和……一起",
+        "pos": "介词",
+        "phonetic": "/wɪð/"
+      },
+      {
+        "text": "us?",
+        "meaning": "我们（宾格）",
+        "pos": "代词",
+        "phonetic": "/ʌs/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "邀请别人一起吃饭，先说“你想要……吗”，再说吃什么、和谁一起。",
+      "letterShape": "D_ y__ w___ t_ h___ l____ w___ u_?",
+      "answerNote": "这是委婉邀请对方一起吃午饭的问句，用 want to 引出想做的事。"
+    },
+    "teacherTip": {
+      "text": "邀请别人一起做某事，用 Do you want to... 比直接祈使更委婉，给对方留了拒绝的余地。英语习惯先把“你要不要做某事”的主干说清楚，再用 with us 补充伴随的对象。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "句子为课本原句，句式与词义准确，教学点符合邀请场景。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。句子为课本原句，句式与词义准确，教学点符合邀请场景。"
+  }
+}

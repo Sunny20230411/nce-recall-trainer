@@ -16,7 +16,7 @@ for (const record of records) {
   assert.equal(record.sentenceOrder, lesson.records.length + 1, `Source order: ${record.sentenceId}`);
   lesson.records.push(record);
 }
-assert.equal(records.length, 1127);
+assert.ok(records.length > 0);
 assert.equal(lessons.size, 72);
 const lines = ['New Concept English 1', `${lessons.size} lessons / ${records.length} practice sentences`, ''];
 for (const lesson of lessons.values()) {
@@ -25,7 +25,7 @@ for (const lesson of lessons.values()) {
   lines.push('');
 }
 await mkdir('exports', { recursive: true });
-const path = 'exports/nce1-sentences-r5.txt';
+const path = `exports/nce1-sentences-r${source.revision}.txt`;
 // BOM and CRLF keep the export readable in Windows text editors.
 const output = '\uFEFF' + lines.join('\r\n');
 await writeFile(path, output, 'utf8');

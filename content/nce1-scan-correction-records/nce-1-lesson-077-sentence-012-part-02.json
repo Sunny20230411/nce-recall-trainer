@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-77",
+    "sentenceId": "nce-1-lesson-077-sentence-012-part-02",
+    "sentenceOrder": 14,
+    "english": "Can you come at 2 p.m.?",
+    "chinese": "您下午两点能来吗？",
+    "intent": "提供另一个下午的就诊时间选项，再次询问患者是否可以按此时刻前来。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Can you come",
+        "relation": "疑问核心，询问对方是否能来",
+        "meaning": "你能来吗"
+      },
+      {
+        "text": "at 2 p.m.?",
+        "relation": "说明具体时刻",
+        "meaning": "在下午两点"
+      }
+    ],
+    "notes": [
+      {
+        "title": "p.m.的用法",
+        "text": "p.m.是拉丁语post meridiem的缩写，表示“下午、午后”，与a.m.（上午）相对。"
+      },
+      {
+        "title": "时刻前的介词",
+        "text": "表示具体几点钟的时间前，统一用介词at。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "p.m.的用法",
+        "text": "p.m.是拉丁语post meridiem的缩写，表示“下午、午后”，与a.m.（上午）相对。"
+      },
+      {
+        "title": "时刻前的介词",
+        "text": "表示具体几点钟的时间前，统一用介词at。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Can you come at 2 p.m.?",
+        "role": "一般疑问句",
+        "explanation": "由情态动词Can引导，询问对方是否可以在指定时间做某事。"
+      },
+      {
+        "text": "you come",
+        "role": "主语+谓语",
+        "explanation": "you是主语，come是实义动词作谓语，构成句子核心动作部分。"
+      },
+      {
+        "text": "at 2 p.m.?",
+        "role": "时间状语",
+        "explanation": "at 2 p.m.作时间状语，说明动作发生的具体时刻。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Can",
+        "meaning": "能够，可以",
+        "pos": "情态动词",
+        "phonetic": "/kæn/"
+      },
+      {
+        "text": "you",
+        "meaning": "你，您",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "come",
+        "meaning": "来",
+        "pos": "动词",
+        "phonetic": "/kʌm/"
+      },
+      {
+        "text": "at",
+        "meaning": "在（表示具体时刻）",
+        "pos": "介词",
+        "phonetic": "/æt/"
+      },
+      {
+        "text": "2",
+        "meaning": "二",
+        "pos": "数词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "p.m.?",
+        "meaning": "下午，午后",
+        "pos": "缩写词",
+        "phonetic": "/ˌpiː ˈem/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "沿用上午约时间的问句结构，把数字换成2，再把a.m.换成p.m.即可。",
+      "letterShape": "C__ y__ c___ a_ 2 p._.?",
+      "answerNote": "这是换下午时间再约的问句，结构和问上午时间完全一致，只替换时间细节。"
+    },
+    "teacherTip": {
+      "text": "换一个时间点约人时，句子主干Can you come...不用动，只要替换时刻数字和a.m./p.m.就行。下午用p.m.，具体点钟前依然配介词at。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已复核：句子结构、词义、音标均正确，教学点突出同类问句复用思路，实用且不重复前句知识点。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已复核：句子结构、词义、音标均正确，教学点突出同类问句复用思路，实用且不重复前句知识点。"
+  }
+}

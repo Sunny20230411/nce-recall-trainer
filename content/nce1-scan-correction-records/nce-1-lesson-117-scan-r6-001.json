@@ -1,0 +1,219 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-117",
+    "sentenceId": "nce-1-lesson-117-scan-r6-001",
+    "sentenceOrder": 1,
+    "english": "When my husband was going into the dining room this morning, he dropped some coins on the floor.",
+    "chinese": "今天早晨，我丈夫正走进餐厅时，把一些硬币掉在了地上。",
+    "intent": "交代意外发生时的背景",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "When my husband was going into the dining room this morning,",
+        "relation": "时间背景",
+        "meaning": "今天早晨丈夫正走进餐厅时"
+      },
+      {
+        "text": "he dropped some coins",
+        "relation": "发生的事",
+        "meaning": "他掉了一些硬币"
+      },
+      {
+        "text": "on the floor.",
+        "relation": "落点",
+        "meaning": "在地上"
+      }
+    ],
+    "notes": [
+      {
+        "title": "背景与事件",
+        "text": "was going 描写当时正在进行的动作，dropped 推进故事；go into 表示走进，并非 be going to 表将来。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "背景与事件",
+        "text": "was going 描写当时正在进行的动作，dropped 推进故事；go into 表示走进，并非 be going to 表将来。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "When my husband was going into the dining room this morning,",
+        "role": "时间状语从句",
+        "explanation": "When 引出主句事件发生时的背景"
+      },
+      {
+        "text": "my husband",
+        "role": "从句主语",
+        "explanation": "走进餐厅的人"
+      },
+      {
+        "text": "was going",
+        "role": "从句谓语",
+        "explanation": "过去进行时"
+      },
+      {
+        "text": "into the dining room",
+        "role": "方向状语",
+        "explanation": "走进的地方"
+      },
+      {
+        "text": "this morning,",
+        "role": "时间状语",
+        "explanation": "限定为今天早晨"
+      },
+      {
+        "text": "he",
+        "role": "主语",
+        "explanation": "he 指丈夫"
+      },
+      {
+        "text": "dropped",
+        "role": "谓语",
+        "explanation": "过去发生的掉落动作"
+      },
+      {
+        "text": "some coins",
+        "role": "宾语",
+        "explanation": "掉落的硬币"
+      },
+      {
+        "text": "on the floor.",
+        "role": "地点状语",
+        "explanation": "硬币落到的地方"
+      }
+    ],
+    "words": [
+      {
+        "text": "When",
+        "meaning": "当……时",
+        "pos": "连词",
+        "phonetic": "/wen/"
+      },
+      {
+        "text": "my",
+        "meaning": "我的",
+        "pos": "限定词",
+        "phonetic": "/maɪ/"
+      },
+      {
+        "text": "husband",
+        "meaning": "丈夫",
+        "pos": "名词",
+        "phonetic": "/ˈhʌzbənd/"
+      },
+      {
+        "text": "was",
+        "meaning": "（构成过去进行时）",
+        "pos": "助动词",
+        "phonetic": "/wəz/"
+      },
+      {
+        "text": "going",
+        "meaning": "走；前往",
+        "pos": "动词",
+        "phonetic": "/ˈɡəʊɪŋ/"
+      },
+      {
+        "text": "into",
+        "meaning": "进入",
+        "pos": "介词",
+        "phonetic": "/ˈɪntuː/"
+      },
+      {
+        "text": "the",
+        "meaning": "（特指餐厅）",
+        "pos": "冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "dining",
+        "meaning": "用餐（修饰 room）",
+        "pos": "名词性修饰语",
+        "phonetic": "/ˈdaɪnɪŋ/"
+      },
+      {
+        "text": "room",
+        "meaning": "房间（dining room：餐厅）",
+        "pos": "名词",
+        "phonetic": "/ruːm/"
+      },
+      {
+        "text": "this",
+        "meaning": "这；今天的",
+        "pos": "限定词",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "text": "morning,",
+        "meaning": "早晨",
+        "pos": "名词",
+        "phonetic": "/ˈmɔːnɪŋ/"
+      },
+      {
+        "text": "he",
+        "meaning": "他",
+        "pos": "代词",
+        "phonetic": "/hiː/"
+      },
+      {
+        "text": "dropped",
+        "meaning": "使掉落",
+        "pos": "动词",
+        "phonetic": "/drɒpt/"
+      },
+      {
+        "text": "some",
+        "meaning": "一些",
+        "pos": "限定词",
+        "phonetic": "/səm/"
+      },
+      {
+        "text": "coins",
+        "meaning": "硬币",
+        "pos": "名词",
+        "phonetic": "/kɔɪnz/"
+      },
+      {
+        "text": "on",
+        "meaning": "在……上",
+        "pos": "介词",
+        "phonetic": "/ɒn/"
+      },
+      {
+        "text": "the",
+        "meaning": "（特指地板）",
+        "pos": "冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "floor.",
+        "meaning": "地板",
+        "pos": "名词",
+        "phonetic": "/flɔː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说今早走进餐厅的背景，再说硬币掉落和落点。",
+      "letterShape": "W___ m_ h______ w__ g____ i___ t__ d_____ r___ t___ m______, h_ d______ s___ c____ o_ t__ f____.",
+      "answerNote": "背景用过去进行时，意外用一般过去时。"
+    },
+    "teacherTip": {
+      "text": "先用正在进行的动作搭好场景，再说突然发生的事。这里不是丈夫打算进餐厅，而是他正走进去时掉了硬币；叙述被小意外打断的日常活动，也可以这样安排。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

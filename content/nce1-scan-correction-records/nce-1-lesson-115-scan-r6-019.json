@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-115",
+    "sentenceId": "nce-1-lesson-115-scan-r6-019",
+    "sentenceOrder": 19,
+    "english": "May I have a glass of beer please?",
+    "chinese": "请问，我可以喝一杯啤酒吗？",
+    "intent": "礼貌地向主人要一杯啤酒",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "May I have",
+        "relation": "提出请求",
+        "meaning": "我可以喝吗"
+      },
+      {
+        "text": "a glass of beer",
+        "relation": "所要饮品及份量",
+        "meaning": "一杯啤酒"
+      },
+      {
+        "text": "please?",
+        "relation": "礼貌标记",
+        "meaning": "请"
+      }
+    ],
+    "notes": [
+      {
+        "title": "份量表达",
+        "text": "a glass of beer 用可数的 glass 计量不可数的 beer。"
+      },
+      {
+        "title": "请求形式",
+        "text": "May 前置，have 用原形，在此表示喝或享用。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "份量表达",
+        "text": "a glass of beer 用可数的 glass 计量不可数的 beer。"
+      },
+      {
+        "title": "请求形式",
+        "text": "May 前置，have 用原形，在此表示喝或享用。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "May",
+        "role": "前置情态动词",
+        "explanation": "请求许可"
+      },
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "提出饮品请求的人"
+      },
+      {
+        "text": "have",
+        "role": "谓语核心",
+        "explanation": "表示喝或享用"
+      },
+      {
+        "text": "a glass of beer",
+        "role": "宾语",
+        "explanation": "一杯啤酒"
+      },
+      {
+        "text": "please?",
+        "role": "独立成分",
+        "explanation": "礼貌请求标记"
+      }
+    ],
+    "words": [
+      {
+        "text": "May",
+        "meaning": "可以（请求许可）",
+        "pos": "情态动词",
+        "phonetic": "/meɪ/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "have",
+        "meaning": "喝；享用",
+        "pos": "动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "a",
+        "meaning": "一",
+        "pos": "冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "glass",
+        "meaning": "杯",
+        "pos": "名词",
+        "phonetic": "/ɡlɑːs/"
+      },
+      {
+        "text": "of",
+        "meaning": "装有……的（引出饮品）",
+        "pos": "介词",
+        "phonetic": "/əv/"
+      },
+      {
+        "text": "beer",
+        "meaning": "啤酒",
+        "pos": "名词",
+        "phonetic": "/bɪə/"
+      },
+      {
+        "text": "please?",
+        "meaning": "请",
+        "pos": "感叹词",
+        "phonetic": "/pliːz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先请求自己可否享用，再说一杯啤酒，末尾加请。",
+      "letterShape": "M__ I h___ a g____ o_ b___ p_____?",
+      "answerNote": "May I have 用于提出请求，a glass of 表示饮料的一杯份量。"
+    },
+    "teacherTip": {
+      "text": "这里 May I have 是向主人提出自己的请求，不是在询问自己的喝酒能力。beer 不直接按一个个数，要说一杯，就用 glass 把饮料装进一个可数的份量里。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-109",
+    "sentenceId": "nce-1-lesson-109-sentence-010",
+    "sentenceOrder": 12,
+    "english": "Would you like some more?",
+    "chinese": "还想再喝点吗？",
+    "intent": "询问是否再来些咖啡",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Would you like",
+        "relation": "客气询问意愿",
+        "meaning": "你想要吗"
+      },
+      {
+        "text": "some more?",
+        "relation": "追加分量",
+        "meaning": "再来一些"
+      }
+    ],
+    "notes": [
+      {
+        "title": "招待用语",
+        "text": "Would you like 表示客气地询问对方想不想要。"
+      },
+      {
+        "title": "省略对象",
+        "text": "some more 指更多咖啡，名词由语境补足。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "招待用语",
+        "text": "Would you like 表示客气地询问对方想不想要。"
+      },
+      {
+        "title": "省略对象",
+        "text": "some more 指更多咖啡，名词由语境补足。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Would",
+        "role": "情态助动词",
+        "explanation": "提前构成客气的意愿询问。"
+      },
+      {
+        "text": "you",
+        "role": "主语",
+        "explanation": "被招待的人。"
+      },
+      {
+        "text": "like",
+        "role": "谓语核心",
+        "explanation": "询问想要。"
+      },
+      {
+        "text": "some more?",
+        "role": "宾语",
+        "explanation": "指追加的一些咖啡。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Would",
+        "meaning": "（表示客气询问意愿）",
+        "pos": "情态动词",
+        "phonetic": "/wʊd/"
+      },
+      {
+        "text": "you",
+        "meaning": "你",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "like",
+        "meaning": "想要",
+        "pos": "动词",
+        "phonetic": "/laɪk/"
+      },
+      {
+        "text": "some",
+        "meaning": "一些",
+        "pos": "限定词",
+        "phonetic": "/sʌm/"
+      },
+      {
+        "text": "more?",
+        "meaning": "更多；再一些",
+        "pos": "代词",
+        "phonetic": "/mɔː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "客气询问对方是否想再添一些已经喝过的饮品。",
+      "letterShape": "W____ y__ l___ s___ m___?",
+      "answerNote": "客气的想要问法后，接表示再来一些的短语。"
+    },
+    "teacherTip": {
+      "text": "已经喝过咖啡，more 自然表示再来一些，不必重复 coffee。招待客人时用 some 带着愿意提供的意味；疑问句也完全可以用 some。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

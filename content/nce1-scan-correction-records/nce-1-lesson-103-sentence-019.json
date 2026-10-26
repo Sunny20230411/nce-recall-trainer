@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-103",
+    "sentenceId": "nce-1-lesson-103-sentence-019",
+    "sentenceOrder": 18,
+    "english": "The guy next to me wrote his name at the top of the paper.",
+    "chinese": "我旁边的那个人在试卷顶端写了自己的名字。",
+    "intent": "描述考场里旁边那个人的一个具体举动，为后续讲他全程没写字做铺垫。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "The guy next to me",
+        "relation": "动作的发出者，带位置修饰",
+        "meaning": "我旁边的家伙"
+      },
+      {
+        "text": "wrote his name",
+        "relation": "核心动作与对象",
+        "meaning": "写了他的名字"
+      },
+      {
+        "text": "at the top of the paper.",
+        "relation": "动作发生的位置",
+        "meaning": "在试卷的顶端"
+      }
+    ],
+    "notes": [
+      {
+        "title": "guy 与 man 的区别",
+        "text": "guy更口语化，可指代随便提到的某个人，语气比man轻松；man更正式、中性。"
+      },
+      {
+        "title": "next to me 作后置定语",
+        "text": "放在名词guy后面，说明这个人的位置，相当于“在我旁边的”。"
+      },
+      {
+        "title": "at the top of",
+        "text": "表示“在……的顶端/上端”，用来指明具体位置。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "guy 与 man 的区别",
+        "text": "guy更口语化，可指代随便提到的某个人，语气比man轻松；man更正式、中性。"
+      },
+      {
+        "title": "next to me 作后置定语",
+        "text": "放在名词guy后面，说明这个人的位置，相当于“在我旁边的”。"
+      },
+      {
+        "title": "at the top of",
+        "text": "表示“在……的顶端/上端”，用来指明具体位置。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "The guy next to me",
+        "role": "主语",
+        "explanation": "中心词是The guy，next to me是介词短语作后置定语，修饰guy。"
+      },
+      {
+        "text": "wrote",
+        "role": "谓语动词",
+        "explanation": "write的过去式wrote，表示过去发生的动作。"
+      },
+      {
+        "text": "his name",
+        "role": "宾语",
+        "explanation": "his name是wrote的动作对象。"
+      },
+      {
+        "text": "at the top of the paper.",
+        "role": "地点状语",
+        "explanation": "介词短语at the top of the paper说明写字的位置。"
+      }
+    ],
+    "words": [
+      {
+        "text": "The",
+        "meaning": "这，那（定指）",
+        "pos": "限定词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "guy",
+        "meaning": "家伙，人",
+        "pos": "名词",
+        "phonetic": "/ɡaɪ/"
+      },
+      {
+        "text": "next",
+        "meaning": "紧接，下一个",
+        "pos": "形容词",
+        "phonetic": "/nekst/"
+      },
+      {
+        "text": "to",
+        "meaning": "朝，向；靠近",
+        "pos": "介词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "me",
+        "meaning": "我（宾格）",
+        "pos": "代词",
+        "phonetic": "/miː/"
+      },
+      {
+        "text": "wrote",
+        "meaning": "写（过去式）",
+        "pos": "动词",
+        "phonetic": "/rəʊt/"
+      },
+      {
+        "text": "his",
+        "meaning": "他的",
+        "pos": "限定词",
+        "phonetic": "/hɪz/"
+      },
+      {
+        "text": "name",
+        "meaning": "名字",
+        "pos": "名词",
+        "phonetic": "/neɪm/"
+      },
+      {
+        "text": "at",
+        "meaning": "在（某处）",
+        "pos": "介词",
+        "phonetic": "/æt/"
+      },
+      {
+        "text": "the",
+        "meaning": "这，那（定指）",
+        "pos": "限定词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "top",
+        "meaning": "顶部，上端",
+        "pos": "名词",
+        "phonetic": "/tɒp/"
+      },
+      {
+        "text": "of",
+        "meaning": "……的",
+        "pos": "介词",
+        "phonetic": "/ɒv/"
+      },
+      {
+        "text": "the",
+        "meaning": "这，那（定指）",
+        "pos": "限定词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "paper.",
+        "meaning": "试卷，纸",
+        "pos": "名词",
+        "phonetic": "/ˈpeɪpə/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说“旁边的人”the guy next to me，再讲他做了什么wrote his name，最后补位置at the top of the paper。",
+      "letterShape": "T__ g__ n___ t_ m_ w____ h__ n___ a_ t__ t__ o_ t__ p____.",
+      "answerNote": "这句话描述旁边考生的一个小动作，用guy显得口语化，位置修饰都放在名词后面。"
+    },
+    "teacherTip": {
+      "text": "guy比man更口语化，带点轻松随意的语气，适合聊考场上遇到的陌生人。描述人时把位置（next to me）直接跟在名词后面，英语不用单独说“坐在……的”，读者自然能理解。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已将原文man修正为guy，词义、结构与翻译均匹配原文，教学点准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已将原文man修正为guy，词义、结构与翻译均匹配原文，教学点准确。"
+  }
+}

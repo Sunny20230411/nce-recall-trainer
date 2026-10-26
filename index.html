@@ -2431,6 +2431,7 @@
   <link rel="stylesheet" href="understanding-view.css">
   <script src="understanding-content.js"></script>
   <script src="sentence-splits.js"></script>
+  <script src="assets/source-corrections.js"></script>
   <script src="assets/british-phonetics-data.js"></script>
   <script src="assets/british-english.js"></script>
   <script src="understanding-view.js"></script>
@@ -7564,7 +7565,8 @@ window.NCE_ZH_OVERRIDES = [
         if (migrated !== saved) {
           saved = migrated;
           try {
-            localStorage.setItem(`${SESSION_STORAGE_KEY}_before_boundary_r5`, raw);
+            const backupKey = state.selectedLesson.sourceCorrection ? `${SESSION_STORAGE_KEY}_before_content_r6` : `${SESSION_STORAGE_KEY}_before_boundary_r5`;
+            if (!localStorage.getItem(backupKey)) localStorage.setItem(backupKey, raw);
             localStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(saved));
           } catch (error) {
             // Continue restoring in memory when browser storage is unavailable.

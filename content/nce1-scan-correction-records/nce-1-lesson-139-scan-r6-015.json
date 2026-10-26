@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-139",
+    "sentenceId": "nce-1-lesson-139-scan-r6-015",
+    "sentenceOrder": 15,
+    "english": "That's right.",
+    "chinese": "没错。",
+    "intent": "确认对方刚提出的姓名和职业判断。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "That's right.",
+        "relation": "确认前面的判断正确",
+        "meaning": "没错"
+      }
+    ],
+    "notes": [
+      {
+        "title": "that指代前述判断",
+        "text": "That's是that is的缩写，right作表语，说明刚才所说的话是正确的。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "that指代前述判断",
+        "text": "That's是that is的缩写，right作表语，说明刚才所说的话是正确的。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "That's",
+        "role": "主语与系动词缩写",
+        "explanation": "that概括刚才的判断。"
+      },
+      {
+        "text": "right.",
+        "role": "表语",
+        "explanation": "说明该判断正确。"
+      }
+    ],
+    "words": [
+      {
+        "text": "That's",
+        "meaning": "那是、那一判断是",
+        "pos": "代词与动词缩写",
+        "phonetic": "/ðæts/"
+      },
+      {
+        "text": "right.",
+        "meaning": "正确的",
+        "pos": "形容词",
+        "phonetic": "/raɪt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "用简短回应确认刚才的判断没有错。",
+      "letterShape": "T___'_ r____.",
+      "answerNote": "这里right表示正确，that概括前述内容。"
+    },
+    "teacherTip": {
+      "text": "对方刚把一个判断说完整，回答 That's right 就能确认“你说的那件事没错”。right 在这里是正确，不是方向；that 指向刚才整条判断，而不只是某个具体东西。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

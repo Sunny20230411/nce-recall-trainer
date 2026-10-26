@@ -3,6 +3,7 @@ import { validateUnderstanding } from './understanding-contract.mjs';
 import { teacherTipSourceDigest, loadTeacherTips } from './teacher-tip-content.mjs';
 import { TEACHER_TIP_VERSION } from './teacher-tip-rules.mjs';
 import vm from 'node:vm';
+import { applyScanCorrection } from './scan-correction-content.mjs';
 
 export function makeLetterShape(english) {
   return english.split(/\s+/).map(word => {
@@ -129,5 +130,6 @@ export async function loadPublishedUnderstanding(options) {
   const records = await Promise.all(source.records.map(async entry => pilot.records.find(record => record.sentenceId === entry.sentenceId)
     || JSON.parse(await readFile(`content/understanding-records/${entry.sentenceId}.json`, 'utf8'))));
   const tips = await loadTeacherTips(source.records, { requireComplete: true });
-  return applySentenceSplits(source.records, records, tips, options);
+  const published = await applySentenceSplits(source.records, records, tips, options);
+  return options?.withoutScanCorrection ? published : applyScanCorrection(published);
 }

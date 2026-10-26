@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-113",
+    "sentenceId": "nce-1-lesson-113-scan-r6-014",
+    "sentenceOrder": 14,
+    "english": "Neither can I.",
+    "chinese": "我也换不开。",
+    "intent": "附和前一位乘客的否定回答",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Neither",
+        "relation": "否定附和",
+        "meaning": "也不"
+      },
+      {
+        "text": "can I.",
+        "relation": "相同处境",
+        "meaning": "我也不能"
+      }
+    ],
+    "notes": [
+      {
+        "title": "否定附和倒装",
+        "text": "Neither 后接情态动词和主语；can 承接前句的能力表达，change this note 被省略。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "否定附和倒装",
+        "text": "Neither 后接情态动词和主语；can 承接前句的能力表达，change this note 被省略。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Neither",
+        "role": "否定附和状语",
+        "explanation": "表示前句的否定也适用于自己"
+      },
+      {
+        "text": "can",
+        "role": "前置情态动词",
+        "explanation": "倒装并承接被省略的兑钱动作"
+      },
+      {
+        "text": "I.",
+        "role": "主语",
+        "explanation": "同样无法换钱的人"
+      }
+    ],
+    "words": [
+      {
+        "text": "Neither",
+        "meaning": "也不",
+        "pos": "副词",
+        "phonetic": "/ˈnaɪðə/"
+      },
+      {
+        "text": "can",
+        "meaning": "能（承接前句动作）",
+        "pos": "情态动词",
+        "phonetic": "/kæn/"
+      },
+      {
+        "text": "I.",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "承接别人的不能，表达自己也一样，情态动词放在我前面。",
+      "letterShape": "N______ c__ I.",
+      "answerNote": "否定附和用 neither 加 can 加主语，不再重复动作。"
+    },
+    "teacherTip": {
+      "text": "前面的人说不能兑开，自己也一样，就用 Neither can I。这里沿用 can 来承接“不能做”，不必再重复换钞票的整段话。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-135",
+    "sentenceId": "nce-1-lesson-135-scan-r6-010",
+    "sentenceOrder": 10,
+    "english": "We're going to get married next week.",
+    "chinese": "我们打算下周结婚。",
+    "intent": "宣布两人下周结婚的安排",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "We're going to get married",
+        "relation": "宣布结婚打算",
+        "meaning": "我们打算结婚"
+      },
+      {
+        "text": "next week.",
+        "relation": "计划时间",
+        "meaning": "下周"
+      }
+    ],
+    "notes": [
+      {
+        "title": "事件与状态",
+        "text": "get married 表示结婚这一变化；married 在这里是表语。"
+      },
+      {
+        "title": "时间表达",
+        "text": "next week 作时间状语，前面不加介词。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "事件与状态",
+        "text": "get married 表示结婚这一变化；married 在这里是表语。"
+      },
+      {
+        "title": "时间表达",
+        "text": "next week 作时间状语，前面不加介词。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "We're",
+        "role": "主语及助动成分",
+        "explanation": "We're 包含 We 和 are"
+      },
+      {
+        "text": "going to get",
+        "role": "谓语",
+        "explanation": "与 are 构成 going to get，说明计划进入某状态"
+      },
+      {
+        "text": "married",
+        "role": "表语",
+        "explanation": "married 说明结婚后的状态，与 get 共同表达结婚事件"
+      },
+      {
+        "text": "next week.",
+        "role": "状语",
+        "explanation": "说明计划时间"
+      }
+    ],
+    "words": [
+      {
+        "text": "We're",
+        "meaning": "我们（与 are 缩合）",
+        "pos": "代词与助动词缩合",
+        "phonetic": "/wɪə/"
+      },
+      {
+        "text": "going",
+        "meaning": "（与 be、to 构成打算）",
+        "pos": "动词",
+        "phonetic": "/ˈɡəʊɪŋ/"
+      },
+      {
+        "text": "to",
+        "meaning": "（引出不定式）",
+        "pos": "不定式标记",
+        "phonetic": "/tuː/（元音前弱读为/tə/）"
+      },
+      {
+        "text": "get",
+        "meaning": "变得；进入某状态",
+        "pos": "系动词",
+        "phonetic": "/ɡet/"
+      },
+      {
+        "text": "married",
+        "meaning": "已婚的（与 get 构成结婚）",
+        "pos": "形容词",
+        "phonetic": "/ˈmærid/"
+      },
+      {
+        "text": "next",
+        "meaning": "下一；下个",
+        "pos": "限定词",
+        "phonetic": "/nekst/"
+      },
+      {
+        "text": "week.",
+        "meaning": "星期；周",
+        "pos": "名词",
+        "phonetic": "/wiːk/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "宣布两人结婚的既定打算，最后给出下周的时间。",
+      "letterShape": "W_'__ g____ t_ g__ m______ n___ w___.",
+      "answerNote": "用 be going to get married，说下周直接加 next week。"
+    },
+    "teacherTip": {
+      "text": "get married 说的是进入婚姻这件事，和 be married 表示已婚状态不同。这里用 going to 配合 next week，把结婚说成已经有的打算，而不是现场临时作出的决定。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

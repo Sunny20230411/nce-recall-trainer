@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-67",
+    "sentenceId": "nce-1-lesson-067-scan-r6-001",
+    "sentenceOrder": 1,
+    "english": "Hello.",
+    "chinese": "你好。",
+    "intent": "见面打招呼，开启对话。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Hello.",
+        "relation": "招呼用语",
+        "meaning": "你好。"
+      }
+    ],
+    "notes": [
+      {
+        "title": "招呼语",
+        "text": "Hello. 是独立的感叹句，用作日常见面或开启对话的问候，语气中性偏随意。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "招呼语",
+        "text": "Hello. 是独立的感叹句，用作日常见面或开启对话的问候，语气中性偏随意。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Hello.",
+        "role": "感叹句（问候语）",
+        "explanation": "由单个感叹词构成完整问候，不需要额外的主语或谓语。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Hello.",
+        "meaning": "你好。",
+        "pos": "感叹词",
+        "phonetic": "/həˈləʊ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "最常见的见面问候词，直接用。",
+      "letterShape": "H____.",
+      "answerNote": "就是“你好”，用来打招呼。"
+    },
+    "teacherTip": {
+      "text": "Hello是最常用的通用问候，熟人、陌生人当面或电话开场都能用，单独说就完整，不用硬加称呼。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "内容符合原文，字段完整准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。内容符合原文，字段完整准确。"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-023",
+    "sentenceOrder": 23,
+    "english": "Where did you go?",
+    "chinese": "你去哪儿了？",
+    "intent": "顺着对方“今年已经度假”的回答，追问度假的地点。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Where",
+        "relation": "疑问焦点，询问地点",
+        "meaning": "在哪里"
+      },
+      {
+        "text": "did you go?",
+        "relation": "一般疑问语序，构成针对过去动作的提问",
+        "meaning": "你去了？"
+      }
+    ],
+    "notes": [
+      {
+        "title": "一般过去时的特殊疑问句",
+        "text": "由“疑问词 + did + 主语 + 动词原形”构成，用来询问过去发生动作的相关信息。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "一般过去时的特殊疑问句",
+        "text": "由“疑问词 + did + 主语 + 动词原形”构成，用来询问过去发生动作的相关信息。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Where",
+        "role": "疑问副词",
+        "explanation": "放在句首引导特殊疑问句，询问地点。"
+      },
+      {
+        "text": "did",
+        "role": "助动词",
+        "explanation": "do的过去式，帮助构成一般过去时的疑问句，无实义。"
+      },
+      {
+        "text": "you",
+        "role": "主语",
+        "explanation": "指对方，作句子主语。"
+      },
+      {
+        "text": "go?",
+        "role": "谓语动词原形",
+        "explanation": "因为前面有助动词did，所以实义动词用原形go。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Where",
+        "meaning": "在哪里；到哪里",
+        "pos": "副词",
+        "phonetic": "/weə/"
+      },
+      {
+        "text": "did",
+        "meaning": "do的过去式，构成一般过去时疑问句，无实义",
+        "pos": "助动词",
+        "phonetic": "/dɪd/"
+      },
+      {
+        "text": "you",
+        "meaning": "你；你们",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "go?",
+        "meaning": "去；走",
+        "pos": "动词",
+        "phonetic": "/ɡəʊ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "问对方过去去了哪里，用地点疑问词开头，后面接一般过去时的疑问语序。",
+      "letterShape": "W____ d__ y__ g_?",
+      "answerNote": "疑问词Where在前，然后是助动词did，接着主语you和动词原形go。"
+    },
+    "teacherTip": {
+      "text": "对方刚说完已经休过假，你想知道去了哪里，未知的是地点，所以用Where放在句首点亮这个疑问。问过去动作的地点，就用Where did you... 这种结构，did体现动作发生在过去。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "校验通过，疑问句焦点点拨清晰，语法与词义均准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。校验通过，疑问句焦点点拨清晰，语法与词义均准确。"
+  }
+}

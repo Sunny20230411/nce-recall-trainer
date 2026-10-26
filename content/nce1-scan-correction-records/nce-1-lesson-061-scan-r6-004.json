@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-61",
+    "sentenceId": "nce-1-lesson-061-scan-r6-004",
+    "sentenceOrder": 4,
+    "english": "He feels ill.",
+    "chinese": "他觉得不舒服。",
+    "intent": "陈述某人主观上感受到生病、身体不适的状态。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "He",
+        "relation": "描述的对象",
+        "meaning": "他"
+      },
+      {
+        "text": "feels ill.",
+        "relation": "描述对象的感受状态",
+        "meaning": "觉得不舒服"
+      }
+    ],
+    "notes": [
+      {
+        "title": "感官动词feel的用法",
+        "text": "feel在这里是感官系动词，后面直接跟形容词ill表示“感到……”，不表示“触摸”这个动作。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "感官动词feel的用法",
+        "text": "feel在这里是感官系动词，后面直接跟形容词ill表示“感到……”，不表示“触摸”这个动作。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "He feels ill.",
+        "role": "主语 + 感官系动词 + 表语",
+        "explanation": "He是主语，feels是感官系动词，ill是表语，用来说明主语的感受状态。"
+      }
+    ],
+    "words": [
+      {
+        "text": "He",
+        "meaning": "他",
+        "pos": "代词",
+        "phonetic": "/hiː/"
+      },
+      {
+        "text": "feels",
+        "meaning": "感觉，觉得",
+        "pos": "动词",
+        "phonetic": "/fiːlz/"
+      },
+      {
+        "text": "ill.",
+        "meaning": "生病的，不舒服的",
+        "pos": "形容词",
+        "phonetic": "/ɪl/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说人，再用feel接“不舒服”这个感受。",
+      "letterShape": "H_ f____ i__.",
+      "answerNote": "feel表示主观感觉，后面直接加形容词ill。"
+    },
+    "teacherTip": {
+      "text": "feel在这里指自己身体内部的感受，不是“触摸”的动作。同样说“看起来/尝起来/闻起来怎么样”，英语都用这类感官动词直接加形容词，不用副词。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "原文与词义准确，感官动词用法说明清晰，无错误。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。原文与词义准确，感官动词用法说明清晰，无错误。"
+  }
+}

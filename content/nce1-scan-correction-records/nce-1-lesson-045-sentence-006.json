@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-45",
+    "sentenceId": "nce-1-lesson-045-sentence-006",
+    "sentenceOrder": 7,
+    "english": "Ask her please.",
+    "chinese": "请去问问她。",
+    "intent": "指示别人去询问某人",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Ask her",
+        "relation": "指令的核心内容",
+        "meaning": "问问她"
+      },
+      {
+        "text": "please.",
+        "relation": "礼貌语气词",
+        "meaning": "请"
+      }
+    ],
+    "notes": [
+      {
+        "title": "祈使句加 please",
+        "text": "祈使句末尾加 please 可弱化命令感，让指令更礼貌，口语中很常见。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "祈使句加 please",
+        "text": "祈使句末尾加 please 可弱化命令感，让指令更礼貌，口语中很常见。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Ask",
+        "role": "谓语动词",
+        "explanation": "ask 是及物动词，构成祈使句的核心动作。"
+      },
+      {
+        "text": "her",
+        "role": "宾语",
+        "explanation": "her 是宾格代词，作 ask 的宾语，指代被询问的人。"
+      },
+      {
+        "text": "please.",
+        "role": "语气词",
+        "explanation": "please 用于祈使句末，表示礼貌请求。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Ask",
+        "meaning": "问；询问",
+        "pos": "动词",
+        "phonetic": "/ɑːsk/"
+      },
+      {
+        "text": "her",
+        "meaning": "她（宾格）",
+        "pos": "代词",
+        "phonetic": "/hɜː/"
+      },
+      {
+        "text": "please.",
+        "meaning": "请（礼貌用语）",
+        "pos": "感叹词",
+        "phonetic": "/pliːz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说要对方做什么，再用 please 软化语气。",
+      "letterShape": "A__ h__ p_____.",
+      "answerNote": "祈使句先讲动作 ask her，please 放句末更自然礼貌。"
+    },
+    "teacherTip": {
+      "text": "祈使句加please表礼貌时，放句末比句首更口语自然，不会像命令。中文习惯把“请”放前面，英语后放语气更柔和，下次提请求可以留意这个位置差别。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已核对原文与结构，信息均准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已核对原文与结构，信息均准确。"
+  }
+}

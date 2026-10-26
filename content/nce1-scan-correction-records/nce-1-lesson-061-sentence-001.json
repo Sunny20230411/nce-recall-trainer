@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-61",
+    "sentenceId": "nce-1-lesson-061-sentence-001",
+    "sentenceOrder": 3,
+    "english": "What's the matter with him?",
+    "chinese": "他怎么了？",
+    "intent": "询问第三人的身体或遇到的状况",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "What's the matter",
+        "relation": "疑问核心",
+        "meaning": "怎么了/出什么事了"
+      },
+      {
+        "text": "with him?",
+        "relation": "涉及对象",
+        "meaning": "他"
+      }
+    ],
+    "notes": [
+      {
+        "title": "What's the matter的用法",
+        "text": "What's the matter是固定口语表达，用来询问对方或他人出了什么问题、哪里不舒服，后面接with引出对象。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "What's the matter的用法",
+        "text": "What's the matter是固定口语表达，用来询问对方或他人出了什么问题、哪里不舒服，后面接with引出对象。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "What's the matter with him?",
+        "role": "特殊疑问句",
+        "explanation": "What是疑问代词作主语，is是系动词，the matter是表语，with him是介词短语说明涉及的对象。"
+      }
+    ],
+    "words": [
+      {
+        "text": "What's",
+        "meaning": "是什么（What is的缩写，is用来连接主语和表语）",
+        "pos": "疑问代词+be动词缩写",
+        "phonetic": "/wɒts/"
+      },
+      {
+        "text": "the",
+        "meaning": "这个（此处为定冠词，限定后面的名词）",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "matter",
+        "meaning": "事情；问题",
+        "pos": "名词",
+        "phonetic": "/ˈmætə/"
+      },
+      {
+        "text": "with",
+        "meaning": "关于；对于",
+        "pos": "介词",
+        "phonetic": "/wɪð/"
+      },
+      {
+        "text": "him?",
+        "meaning": "他（he的宾格，作介词with的宾语）",
+        "pos": "人称代词宾格",
+        "phonetic": "/hɪm/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先想“问怎么了用What's the matter”，再用with带出要问的人。",
+      "letterShape": "W___'_ t__ m_____ w___ h__?",
+      "answerNote": "这是询问他身体或状况的常用问句。"
+    },
+    "teacherTip": {
+      "text": "问别人“怎么了”常用What's the matter with...，with后面接要问的人。想问对方就用with you，问第三方就用him/her，不用重新造句。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已按原文修正为What's the matter with him?，移除了原句的you和Jimmy称呼，字段完整合规。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已按原文修正为What's the matter with him?，移除了原句的you和Jimmy称呼，字段完整合规。"
+  }
+}

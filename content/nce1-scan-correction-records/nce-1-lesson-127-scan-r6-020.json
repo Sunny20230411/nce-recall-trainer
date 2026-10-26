@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-127",
+    "sentenceId": "nce-1-lesson-127-scan-r6-020",
+    "sentenceOrder": 20,
+    "english": "Not that long ago!",
+    "chinese": "也没那么久！",
+    "intent": "反驳对方夸大的时间距离",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Not that long ago!",
+        "relation": "程度反驳",
+        "meaning": "没那么久以前"
+      }
+    ],
+    "notes": [
+      {
+        "title": "省略表达",
+        "text": "可理解为 It wasn't that long ago；that 在这里修饰 long，表示那么。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "省略表达",
+        "text": "可理解为 It wasn't that long ago；that 在这里修饰 long，表示那么。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Not that long ago!",
+        "role": "独立省略句",
+        "explanation": "省略主语和系动词，否定时间距离的程度"
+      },
+      {
+        "text": "Not",
+        "role": "否定成分",
+        "explanation": "否定后面的程度判断"
+      },
+      {
+        "text": "that",
+        "role": "程度状语",
+        "explanation": "that 表示那么"
+      },
+      {
+        "text": "long ago!",
+        "role": "时间表达",
+        "explanation": "long ago 表示很久以前"
+      }
+    ],
+    "words": [
+      {
+        "text": "Not",
+        "meaning": "不；没有",
+        "pos": "副词",
+        "phonetic": "/nɒt/"
+      },
+      {
+        "text": "that",
+        "meaning": "那么",
+        "pos": "程度副词",
+        "phonetic": "/ðæt/"
+      },
+      {
+        "text": "long",
+        "meaning": "久；长时间",
+        "pos": "副词",
+        "phonetic": "/lɒŋ/"
+      },
+      {
+        "text": "ago!",
+        "meaning": "以前",
+        "pos": "副词",
+        "phonetic": "/əˈɡəʊ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "不否认过去，只反驳时间没有对方说得那么久。",
+      "letterShape": "N__ t___ l___ a__!",
+      "answerNote": "that 在这里表示程度‘那么’，不是指示代词。"
+    },
+    "teacherTip": {
+      "text": "她并没有否认事情发生在过去，只是否认‘那么久’这个程度。这里的 that 相当于‘那么’，不是指示某件事；只反驳程度，就能既简短又带出不服气。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

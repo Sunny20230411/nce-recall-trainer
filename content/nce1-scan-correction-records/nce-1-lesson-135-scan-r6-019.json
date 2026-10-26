@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-135",
+    "sentenceId": "nce-1-lesson-135-scan-r6-019",
+    "sentenceOrder": 19,
+    "english": "That's sensational news, isn't it, Kate?",
+    "chinese": "那可真是轰动的消息，不是吗，凯特？",
+    "intent": "评价消息轰动并向凯特寻求认同",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "That's sensational news,",
+        "relation": "评价消息",
+        "meaning": "那真是轰动的消息"
+      },
+      {
+        "text": "isn't it,",
+        "relation": "征求认同",
+        "meaning": "不是吗"
+      },
+      {
+        "text": "Kate?",
+        "relation": "称呼",
+        "meaning": "凯特"
+      }
+    ],
+    "notes": [
+      {
+        "title": "附加问句",
+        "text": "前句为肯定的 That is，后接否定的 isn't it；附加问句用 it 指代 that。"
+      },
+      {
+        "title": "news 的一致关系",
+        "text": "news 是不可数名词，不按复数处理。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "附加问句",
+        "text": "前句为肯定的 That is，后接否定的 isn't it；附加问句用 it 指代 that。"
+      },
+      {
+        "title": "news 的一致关系",
+        "text": "news 是不可数名词，不按复数处理。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "That's",
+        "role": "主语和系动词",
+        "explanation": "That's 包含 That 与 is"
+      },
+      {
+        "text": "sensational news,",
+        "role": "表语",
+        "explanation": "说明消息的性质"
+      },
+      {
+        "text": "isn't it,",
+        "role": "附加问句",
+        "explanation": "询问对方是否认同该评价"
+      },
+      {
+        "text": "Kate?",
+        "role": "呼语",
+        "explanation": "称呼凯特"
+      }
+    ],
+    "words": [
+      {
+        "text": "That's",
+        "meaning": "那是",
+        "pos": "代词与系动词缩合",
+        "phonetic": "/ðæts/"
+      },
+      {
+        "text": "sensational",
+        "meaning": "轰动的；惊人的",
+        "pos": "形容词",
+        "phonetic": "/senˈseɪʃənl/"
+      },
+      {
+        "text": "news,",
+        "meaning": "消息；新闻",
+        "pos": "名词",
+        "phonetic": "njuːz"
+      },
+      {
+        "text": "isn't",
+        "meaning": "不是吗（附加问句）",
+        "pos": "系动词（否定缩合）",
+        "phonetic": "/ˈɪznt/"
+      },
+      {
+        "text": "it,",
+        "meaning": "它；这件事",
+        "pos": "代词",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "text": "Kate?",
+        "meaning": "凯特（人名）",
+        "pos": "专有名词",
+        "phonetic": "/keɪt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先评价消息轰动，再用否定附加问句请凯特认同。",
+      "letterShape": "T___'_ s__________ n___, i__'_ i_, K___?",
+      "answerNote": "That is 的肯定陈述后接 isn't it，news 不按复数处理。"
+    },
+    "teacherTip": {
+      "text": "说话人已经把消息评价为轰动，再加 isn't it 是邀请同伴赞同，而不是完全不知道答案。news 虽然以 s 结尾，却按不可数名词处理，所以这里用 is 和 it。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

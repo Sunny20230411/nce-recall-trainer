@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-95",
+    "sentenceId": "nce-1-lesson-095-scan-r6-012",
+    "sentenceOrder": 12,
+    "english": "There's a bar next door to the station.",
+    "chinese": "车站隔壁有一家酒吧。",
+    "intent": "告知附近存在一家酒吧，补充地点信息",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "There's a bar",
+        "relation": "存在的事物（焦点信息）",
+        "meaning": "有一家酒吧"
+      },
+      {
+        "text": "next door to the station.",
+        "relation": "所在地点（补充信息）",
+        "meaning": "在车站隔壁"
+      }
+    ],
+    "notes": [
+      {
+        "title": "there be 存在句",
+        "text": "there be 句型用来表示“某处有某物/某人”，主语是后面的名词，本句中 a bar 是单数，所以用 There's。"
+      },
+      {
+        "title": "next door to 地点表达",
+        "text": "next door to 表示“在……隔壁/紧挨着……”，后接地点名词，用来描述相邻位置。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "there be 存在句",
+        "text": "there be 句型用来表示“某处有某物/某人”，主语是后面的名词，本句中 a bar 是单数，所以用 There's。"
+      },
+      {
+        "title": "next door to 地点表达",
+        "text": "next door to 表示“在……隔壁/紧挨着……”，后接地点名词，用来描述相邻位置。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "There's a bar",
+        "role": "存在句主干",
+        "explanation": "There's a bar 是 there be 句型的主干，表示“有一家酒吧”"
+      },
+      {
+        "text": "next door to the station.",
+        "role": "地点状语",
+        "explanation": "next door to the station 说明酒吧的位置，作地点状语"
+      }
+    ],
+    "words": [
+      {
+        "text": "There's",
+        "meaning": "有（存在）",
+        "pos": "缩写（there is 的口语形式）",
+        "phonetic": "/ðeəz/"
+      },
+      {
+        "text": "a",
+        "meaning": "一（家）",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "bar",
+        "meaning": "酒吧",
+        "pos": "名词",
+        "phonetic": "/bɑː/"
+      },
+      {
+        "text": "next",
+        "meaning": "下一个的，其次的",
+        "pos": "形容词",
+        "phonetic": "/nekst/"
+      },
+      {
+        "text": "door",
+        "meaning": "门；（相邻的）一户/一家",
+        "pos": "名词",
+        "phonetic": "/dɔː/"
+      },
+      {
+        "text": "to",
+        "meaning": "靠近，在……旁边",
+        "pos": "介词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "the",
+        "meaning": "这个（指双方都知道的车站）",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "station.",
+        "meaning": "车站",
+        "pos": "名词",
+        "phonetic": "/ˈsteɪʃn/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说“有酒吧”，再说“车站隔壁”这个位置",
+      "letterShape": "T____'_ a b__ n___ d___ t_ t__ s______.",
+      "answerNote": "用 There's 引出存在的事物，地点用 next door to 放在后面"
+    },
+    "teacherTip": {
+      "text": "这句话重点是告诉对方“有酒吧”这件事，车站隔壁只是补充位置，所以用 there be 先引出存在的事物，再把地点放后面。遇到先说“某地有某物”的中文，想清楚重点是物还是地点，再决定信息顺序。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "符合原文，存在句教学点准确，地点表达说明清晰"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。符合原文，存在句教学点准确，地点表达说明清晰"
+  }
+}

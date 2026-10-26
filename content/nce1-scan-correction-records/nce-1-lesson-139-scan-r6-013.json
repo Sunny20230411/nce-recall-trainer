@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-139",
+    "sentenceId": "nce-1-lesson-139-scan-r6-013",
+    "sentenceOrder": 13,
+    "english": "Yes, I'm John Smith.",
+    "chinese": "是的，我是约翰·史密斯。",
+    "intent": "确认自己的姓名，尚未确认对方假定的职业身份。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Yes,",
+        "relation": "作出肯定回应",
+        "meaning": "是的"
+      },
+      {
+        "text": "I'm John Smith.",
+        "relation": "确认自己的姓名",
+        "meaning": "我是约翰·史密斯"
+      }
+    ],
+    "notes": [
+      {
+        "title": "姓名作表语",
+        "text": "I'm是I am的缩写，John Smith说明说话者的姓名；Yes回应前面的身份核对。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "姓名作表语",
+        "text": "I'm是I am的缩写，John Smith说明说话者的姓名；Yes回应前面的身份核对。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Yes,",
+        "role": "独立应答成分",
+        "explanation": "肯定对方关于姓名的判断。"
+      },
+      {
+        "text": "I'm",
+        "role": "主语与系动词缩写",
+        "explanation": "引出说话人的身份信息。"
+      },
+      {
+        "text": "John Smith.",
+        "role": "表语",
+        "explanation": "说明姓名。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Yes,",
+        "meaning": "是的",
+        "pos": "副词",
+        "phonetic": "/jes/"
+      },
+      {
+        "text": "I'm",
+        "meaning": "我是",
+        "pos": "代词与动词缩写",
+        "phonetic": "/aɪm/"
+      },
+      {
+        "text": "John",
+        "meaning": "约翰（人名）",
+        "pos": "名词",
+        "phonetic": "/dʒɒn/"
+      },
+      {
+        "text": "Smith.",
+        "meaning": "史密斯（姓氏）",
+        "pos": "名词",
+        "phonetic": "/smɪθ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "肯定刚才核对的姓名，再说明自己的名字。",
+      "letterShape": "Y__, I'_ J___ S____.",
+      "answerNote": "本句只确认姓名，不等于已经确认公司等其他身份信息。"
+    },
+    "teacherTip": {
+      "text": "对方核对姓名，就先确认姓名：Yes, I'm John Smith。这句只证明名字相同，并没有确认对方想到的职业或公司；理解对话时要看每一次回答究竟确认了哪一条信息，不能把没说的条件一起算进去。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

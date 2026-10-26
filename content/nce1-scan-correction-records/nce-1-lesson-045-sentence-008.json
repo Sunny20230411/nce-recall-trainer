@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-45",
+    "sentenceId": "nce-1-lesson-045-sentence-008",
+    "sentenceOrder": 9,
+    "english": "Can you type this letter for the boss please, Pamela?",
+    "chinese": "帕梅拉，请你替老板打这封信好吗？",
+    "intent": "礼貌地请求对方为老板打一封信",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Can you type this letter",
+        "relation": "请求的核心内容",
+        "meaning": "你能打这封信吗"
+      },
+      {
+        "text": "for the boss",
+        "relation": "说明服务对象",
+        "meaning": "替老板"
+      },
+      {
+        "text": "please,",
+        "relation": "礼貌语气词",
+        "meaning": "请"
+      },
+      {
+        "text": "Pamela?",
+        "relation": "称呼对方",
+        "meaning": "帕梅拉"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Can you... 的请求用法",
+        "text": "Can you...? 常用于礼貌请求别人做某事，搭配 please 语气更委婉。"
+      },
+      {
+        "title": "for 表示服务对象",
+        "text": "for the boss 表示“为老板、替老板”，说明动作的服务对象。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "Can you... 的请求用法",
+        "text": "Can you...? 常用于礼貌请求别人做某事，搭配 please 语气更委婉。"
+      },
+      {
+        "title": "for 表示服务对象",
+        "text": "for the boss 表示“为老板、替老板”，说明动作的服务对象。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Can",
+        "role": "情态动词",
+        "explanation": "Can 引导一般疑问句，用于向对方提出请求。"
+      },
+      {
+        "text": "you",
+        "role": "主语",
+        "explanation": "you 是句子主语，指听话人Pamela。"
+      },
+      {
+        "text": "type",
+        "role": "谓语动词",
+        "explanation": "type 是实义动词，和情态动词 can 共同构成谓语。"
+      },
+      {
+        "text": "this letter",
+        "role": "宾语",
+        "explanation": "this letter 是 type 的宾语，表示要打的内容。"
+      },
+      {
+        "text": "for the boss",
+        "role": "对象状语",
+        "explanation": "for the boss 说明打字动作的服务对象。"
+      },
+      {
+        "text": "please,",
+        "role": "语气词",
+        "explanation": "please 用于句中偏后位置，增强礼貌语气。"
+      },
+      {
+        "text": "Pamela?",
+        "role": "呼语",
+        "explanation": "Pamela 是称呼，放在句末点明说话对象。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Can",
+        "meaning": "能；可以（表请求）",
+        "pos": "情态动词",
+        "phonetic": "/kæn/"
+      },
+      {
+        "text": "you",
+        "meaning": "你；你们",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "type",
+        "meaning": "打字",
+        "pos": "动词",
+        "phonetic": "/taɪp/"
+      },
+      {
+        "text": "this",
+        "meaning": "这；这个",
+        "pos": "限定词",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "text": "letter",
+        "meaning": "信",
+        "pos": "名词",
+        "phonetic": "/ˈletə/"
+      },
+      {
+        "text": "for",
+        "meaning": "为；给",
+        "pos": "介词",
+        "phonetic": "/fɔː/"
+      },
+      {
+        "text": "the",
+        "meaning": "（定冠词，指特定的人）",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "boss",
+        "meaning": "老板；上司",
+        "pos": "名词",
+        "phonetic": "/bɒs/"
+      },
+      {
+        "text": "please,",
+        "meaning": "请（礼貌用语）",
+        "pos": "感叹词",
+        "phonetic": "/pliːz/"
+      },
+      {
+        "text": "Pamela?",
+        "meaning": "帕梅拉（女子名）",
+        "pos": "名词",
+        "phonetic": "/ˈpæmələ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先想请求对方做什么事，再补替谁做，最后加礼貌词和称呼。",
+      "letterShape": "C__ y__ t___ t___ l_____ f__ t__ b___ p_____, P_____?",
+      "answerNote": "用 Can you 提请求，for引出服务对象，please和称呼放后面更自然。"
+    },
+    "teacherTip": {
+      "text": "用Can you...提请求时，先把核心事“打这封信”说清楚，再用for the boss补服务对象，信息顺下来不绕。please和称呼都往后放，是口语请求的自然节奏，比堆在句首更不生硬。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已核对原文，修正状语角色表述与部分词义，其余信息准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已核对原文，修正状语角色表述与部分词义，其余信息准确。"
+  }
+}

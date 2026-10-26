@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-113",
+    "sentenceId": "nce-1-lesson-113-scan-r6-016",
+    "sentenceOrder": 16,
+    "english": "You must get off the bus.",
+    "chinese": "您必须下车。",
+    "intent": "要求无法支付车费的乘客下车",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "You",
+        "relation": "要求对象",
+        "meaning": "您"
+      },
+      {
+        "text": "must get off",
+        "relation": "必须采取的行动",
+        "meaning": "必须下车"
+      },
+      {
+        "text": "the bus.",
+        "relation": "所在交通工具",
+        "meaning": "这辆公交车"
+      }
+    ],
+    "notes": [
+      {
+        "title": "下车搭配",
+        "text": "get off the bus 表示下公交车，must 后接 get 原形。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "下车搭配",
+        "text": "get off the bus 表示下公交车，must 后接 get 原形。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "You",
+        "role": "主语",
+        "explanation": "被要求下车的乘客"
+      },
+      {
+        "text": "must get",
+        "role": "谓语",
+        "explanation": "must 加 get，表示必须采取行动"
+      },
+      {
+        "text": "off the bus.",
+        "role": "方向状语",
+        "explanation": "off the bus 说明离开公交车"
+      }
+    ],
+    "words": [
+      {
+        "text": "You",
+        "meaning": "您",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "must",
+        "meaning": "必须",
+        "pos": "情态动词",
+        "phonetic": "/mʌst/"
+      },
+      {
+        "text": "get",
+        "meaning": "移动；离开（与 off 连用）",
+        "pos": "动词",
+        "phonetic": "/ɡet/"
+      },
+      {
+        "text": "off",
+        "meaning": "离开……",
+        "pos": "介词",
+        "phonetic": "/ɒf/"
+      },
+      {
+        "text": "the",
+        "meaning": "这辆（特指）",
+        "pos": "冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "bus.",
+        "meaning": "公交车",
+        "pos": "名词",
+        "phonetic": "/bʌs/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "对乘客提出必须离开公交车的要求。",
+      "letterShape": "Y__ m___ g__ o__ t__ b__.",
+      "answerNote": "must 表示义务要求；下公交车用 get off。"
+    },
+    "teacherTip": {
+      "text": "这里 must 表示要求对方必须采取行动，不是根据证据推测他一定会下车。说交通工具的上下车，选择 get on 或 get off；本句需要的是离开公交车。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

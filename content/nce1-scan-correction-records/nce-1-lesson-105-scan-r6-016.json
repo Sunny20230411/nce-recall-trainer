@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-105",
+    "sentenceId": "nce-1-lesson-105-scan-r6-016",
+    "sentenceOrder": 16,
+    "english": "Yes, I'll do that.",
+    "chinese": "好的，我会照办。",
+    "intent": "接受重新打信的要求",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Yes,",
+        "relation": "接受要求",
+        "meaning": "好的"
+      },
+      {
+        "text": "I'll do that.",
+        "relation": "承诺执行",
+        "meaning": "我会照办"
+      }
+    ],
+    "notes": [
+      {
+        "title": "缩写",
+        "text": "I'll 是 I will，表示此刻答应去做。"
+      },
+      {
+        "title": "承接前文",
+        "text": "that 指重新打信的要求，do that 表示照办。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "缩写",
+        "text": "I'll 是 I will，表示此刻答应去做。"
+      },
+      {
+        "title": "承接前文",
+        "text": "that 指重新打信的要求，do that 表示照办。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Yes,",
+        "role": "应答语",
+        "explanation": "表示接受。"
+      },
+      {
+        "text": "I'll",
+        "role": "主语与情态助动词",
+        "explanation": "缩写表达我愿意去做。"
+      },
+      {
+        "text": "do",
+        "role": "谓语核心",
+        "explanation": "表示执行。"
+      },
+      {
+        "text": "that.",
+        "role": "宾语",
+        "explanation": "指代前文要求的行动。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Yes,",
+        "meaning": "好的；是的",
+        "pos": "副词",
+        "phonetic": "/jes/"
+      },
+      {
+        "text": "I'll",
+        "meaning": "我会（含 will）",
+        "pos": "代词与情态动词缩写",
+        "phonetic": "/aɪl/"
+      },
+      {
+        "text": "do",
+        "meaning": "做；执行",
+        "pos": "动词",
+        "phonetic": "/duː/"
+      },
+      {
+        "text": "that.",
+        "meaning": "那件事",
+        "pos": "代词",
+        "phonetic": "/ðæt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先答应，再承诺照着刚才的要求去做。",
+      "letterShape": "Y__, I'__ d_ t___.",
+      "answerNote": "用我会的缩写，后接做那件事。"
+    },
+    "teacherTip": {
+      "text": "这里的 will 是听到要求后作出的承诺，不只是预测将来。do that 把重打信这件事整体接过来，避免重复上司刚说的话。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

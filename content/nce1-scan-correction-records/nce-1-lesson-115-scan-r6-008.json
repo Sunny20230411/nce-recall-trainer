@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-115",
+    "sentenceId": "nce-1-lesson-115-scan-r6-008",
+    "sentenceOrder": 8,
+    "english": "Can you see anything?",
+    "chinese": "你能看见什么吗？",
+    "intent": "询问透过窗户是否看得到东西",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Can you see",
+        "relation": "询问是否看得见",
+        "meaning": "你能看见吗"
+      },
+      {
+        "text": "anything?",
+        "relation": "不限定的对象",
+        "meaning": "什么东西"
+      }
+    ],
+    "notes": [
+      {
+        "title": "疑问范围",
+        "text": "anything 在此问是否看见任何东西，适合不预设具体目标的询问。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "疑问范围",
+        "text": "anything 在此问是否看见任何东西，适合不预设具体目标的询问。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Can",
+        "role": "前置情态动词",
+        "explanation": "构成疑问，询问当下能否看见"
+      },
+      {
+        "text": "you",
+        "role": "主语",
+        "explanation": "正在向里看的人"
+      },
+      {
+        "text": "see",
+        "role": "谓语核心",
+        "explanation": "视觉感知"
+      },
+      {
+        "text": "anything?",
+        "role": "宾语",
+        "explanation": "可能看到的任何东西"
+      }
+    ],
+    "words": [
+      {
+        "text": "Can",
+        "meaning": "能",
+        "pos": "情态动词",
+        "phonetic": "/kæn/"
+      },
+      {
+        "text": "you",
+        "meaning": "你",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "see",
+        "meaning": "看见",
+        "pos": "动词",
+        "phonetic": "/siː/"
+      },
+      {
+        "text": "anything?",
+        "meaning": "任何东西",
+        "pos": "不定代词",
+        "phonetic": "/ˈeniθɪŋ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "问眼前是否能看见任何东西，不限定是什么。",
+      "letterShape": "C__ y__ s__ a_______?",
+      "answerNote": "can 前置，see 表示看见的结果，anything 表示开放的询问对象。"
+    },
+    "teacherTip": {
+      "text": "这里 can see 关心的是眼前是否看得见，不是在问对方有没有视觉能力。anything 把范围敞开：无论是什么，只要看到一点东西都算回应了问题。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

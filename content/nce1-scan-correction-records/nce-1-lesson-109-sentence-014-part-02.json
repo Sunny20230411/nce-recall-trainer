@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-109",
+    "sentenceId": "nce-1-lesson-109-sentence-014-part-02",
+    "sentenceOrder": 21,
+    "english": "Have a biscuit instead.",
+    "chinese": "那就吃块饼干吧。",
+    "intent": "没有香烟时提出替代选择",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Have a biscuit",
+        "relation": "招待建议",
+        "meaning": "吃块饼干"
+      },
+      {
+        "text": "instead.",
+        "relation": "替代关系",
+        "meaning": "作为替代吧"
+      }
+    ],
+    "notes": [
+      {
+        "title": "祈使句",
+        "text": "省略主语 you，用动词原形提出建议。"
+      },
+      {
+        "title": "食物搭配",
+        "text": "have 在食物前表示吃或喝，此处是吃饼干。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "祈使句",
+        "text": "省略主语 you，用动词原形提出建议。"
+      },
+      {
+        "title": "食物搭配",
+        "text": "have 在食物前表示吃或喝，此处是吃饼干。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Have",
+        "role": "谓语",
+        "explanation": "原形动词引出招待建议。"
+      },
+      {
+        "text": "a biscuit",
+        "role": "宾语",
+        "explanation": "建议吃的东西。"
+      },
+      {
+        "text": "instead.",
+        "role": "替代状语",
+        "explanation": "说明以吃饼干替代刚才想做的事。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Have",
+        "meaning": "吃",
+        "pos": "动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "a",
+        "meaning": "一块",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "biscuit",
+        "meaning": "饼干",
+        "pos": "名词",
+        "phonetic": "/ˈbɪskɪt/"
+      },
+      {
+        "text": "instead.",
+        "meaning": "代替；改为",
+        "pos": "副词",
+        "phonetic": "/ɪnˈsted/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "提出吃饼干作为替代，不是额外添加。",
+      "letterShape": "H___ a b______ i______.",
+      "answerNote": "用原形动词提出建议，句末放表示替代的副词。"
+    },
+    "teacherTip": {
+      "text": "instead 把饼干说成香烟之外的替代办法，意思不是再加一块饼干。招待时 Have a… 可以直接邀请对方吃喝，语气结合场景理解，不必一见祈使句就当成命令。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

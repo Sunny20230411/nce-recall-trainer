@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-97",
+    "sentenceId": "nce-1-lesson-097-scan-r6-014",
+    "sentenceOrder": 14,
+    "english": "Three pounds fifty pence, please.",
+    "chinese": "请付三英镑五十便士。",
+    "intent": "向对方收取费用时告知金额",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Three pounds fifty pence,",
+        "relation": "金额信息",
+        "meaning": "三英镑五十便士"
+      },
+      {
+        "text": "please.",
+        "relation": "语气词，软化请求的礼貌标记",
+        "meaning": "请"
+      }
+    ],
+    "notes": [
+      {
+        "title": "英镑金额表达",
+        "text": "表达英镑和便士的金额时，先说英镑数额再讲便士数额，二者直接连用，不需要用and连接。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "英镑金额表达",
+        "text": "表达英镑和便士的金额时，先说英镑数额再讲便士数额，二者直接连用，不需要用and连接。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Three pounds fifty pence, please.",
+        "role": "省略式礼貌收费表达",
+        "explanation": "完整形式可补充为That's three pounds fifty pence, please，省略了主语和系动词，是收费场景的简洁常用表达。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Three",
+        "meaning": "三",
+        "pos": "数词",
+        "phonetic": "/θriː/"
+      },
+      {
+        "text": "pounds",
+        "meaning": "英镑（复数）",
+        "pos": "名词",
+        "phonetic": "/paʊndz/"
+      },
+      {
+        "text": "fifty",
+        "meaning": "五十",
+        "pos": "数词",
+        "phonetic": "/ˈfɪfti/"
+      },
+      {
+        "text": "pence,",
+        "meaning": "便士（复数，单数为penny）",
+        "pos": "名词",
+        "phonetic": "/pens/"
+      },
+      {
+        "text": "please.",
+        "meaning": "请（用于礼貌请求）",
+        "pos": "感叹词",
+        "phonetic": "/pliːz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "收费报英镑加便士的金额，最后加please表示客气",
+      "letterShape": "T____ p_____ f____ p____, p_____.",
+      "answerNote": "先说英镑数，再说便士数，句末加please"
+    },
+    "teacherTip": {
+      "text": "说英镑金额时，大单位pounds在前、小单位pence在后，直接连用不用and衔接。please放在句末软化语气，是服务场景收费时的常用客气说法。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "修正了金额表达的语句疏漏，知识点准确，场景说明清晰"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。修正了金额表达的语句疏漏，知识点准确，场景说明清晰"
+  }
+}

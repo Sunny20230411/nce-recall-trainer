@@ -1,0 +1,290 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-117",
+    "sentenceId": "nce-1-lesson-117-scan-r6-010",
+    "sentenceOrder": 10,
+    "english": "'I don't know,' I answered, 'Tommy's been to the toilet three times this morning, but I haven't had any change yet!'",
+    "chinese": "“我不知道，”我回答说，“汤米今天上午已经上了三次厕所，可我到现在还没见着‘零钱’——也没什么变化！”",
+    "intent": "用硬币与变化的双关结束故事",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "'I don't know,'",
+        "relation": "直接回答",
+        "meaning": "我不知道"
+      },
+      {
+        "text": "I answered,",
+        "relation": "说话说明",
+        "meaning": "我回答"
+      },
+      {
+        "text": "'Tommy's been to the toilet",
+        "relation": "已发生的活动",
+        "meaning": "汤米已经上过厕所"
+      },
+      {
+        "text": "three times",
+        "relation": "次数",
+        "meaning": "三次"
+      },
+      {
+        "text": "this morning,",
+        "relation": "时间范围",
+        "meaning": "今天上午"
+      },
+      {
+        "text": "but I haven't had any change yet!'",
+        "relation": "转折与双关",
+        "meaning": "但到现在还没有零钱／变化"
+      }
+    ],
+    "notes": [
+      {
+        "title": "完成与现在",
+        "text": "Tommy's 是 Tommy has；been to 表示去过并已回来。this morning 在此仍作为截至说话时的上午时间范围。"
+      },
+      {
+        "title": "否定与双关",
+        "text": "haven't had any change yet 表示截至现在仍未得到任何 change，既可理解为变化，又借零钱指吞下的硬币。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "完成与现在",
+        "text": "Tommy's 是 Tommy has；been to 表示去过并已回来。this morning 在此仍作为截至说话时的上午时间范围。"
+      },
+      {
+        "title": "否定与双关",
+        "text": "haven't had any change yet 表示截至现在仍未得到任何 change，既可理解为变化，又借零钱指吞下的硬币。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "'I",
+        "role": "主语",
+        "explanation": "直接引语中的说话者"
+      },
+      {
+        "text": "don't know,'",
+        "role": "谓语",
+        "explanation": "否定知道"
+      },
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "叙述者"
+      },
+      {
+        "text": "answered,",
+        "role": "谓语",
+        "explanation": "引出回答内容"
+      },
+      {
+        "text": "'Tommy's been to the toilet three times this morning,",
+        "role": "直接引语分句",
+        "explanation": "介绍截至现在的如厕次数"
+      },
+      {
+        "text": "'Tommy's",
+        "role": "主语及助动词",
+        "explanation": "Tommy's 合并 Tommy 与 has"
+      },
+      {
+        "text": "been",
+        "role": "谓语核心",
+        "explanation": "been 与 has 构成现在完成时"
+      },
+      {
+        "text": "to the toilet",
+        "role": "方向补充",
+        "explanation": "to the toilet 与 been 连用表示上过厕所"
+      },
+      {
+        "text": "three times",
+        "role": "频次状语",
+        "explanation": "三次"
+      },
+      {
+        "text": "this morning,",
+        "role": "时间状语",
+        "explanation": "今天上午"
+      },
+      {
+        "text": "but",
+        "role": "连接成分",
+        "explanation": "引出转折"
+      },
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "说话的母亲"
+      },
+      {
+        "text": "haven't had",
+        "role": "谓语",
+        "explanation": "现在完成时的否定"
+      },
+      {
+        "text": "any change",
+        "role": "宾语",
+        "explanation": "any change，双关的中心"
+      },
+      {
+        "text": "yet!'",
+        "role": "时间状语",
+        "explanation": "yet 表示到现在仍未发生"
+      }
+    ],
+    "words": [
+      {
+        "text": "'I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "don't",
+        "meaning": "（一般现在时否定）",
+        "pos": "助动词缩写",
+        "phonetic": "/dəʊnt/"
+      },
+      {
+        "text": "know,'",
+        "meaning": "知道",
+        "pos": "动词",
+        "phonetic": "/nəʊ/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "answered,",
+        "meaning": "回答",
+        "pos": "动词",
+        "phonetic": "/ˈɑːnsəd/"
+      },
+      {
+        "text": "'Tommy's",
+        "meaning": "汤米已经（Tommy has）",
+        "pos": "专有名词与助动词缩写",
+        "phonetic": "/ˈtɒmiz/"
+      },
+      {
+        "text": "been",
+        "meaning": "去过（与 to 连用）",
+        "pos": "动词",
+        "phonetic": "/biːn/"
+      },
+      {
+        "text": "to",
+        "meaning": "到",
+        "pos": "介词",
+        "phonetic": "/tə/"
+      },
+      {
+        "text": "the",
+        "meaning": "（用于厕所）",
+        "pos": "冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "toilet",
+        "meaning": "厕所",
+        "pos": "名词",
+        "phonetic": "/ˈtɔɪlət/"
+      },
+      {
+        "text": "three",
+        "meaning": "三",
+        "pos": "数词",
+        "phonetic": "/θriː/"
+      },
+      {
+        "text": "times",
+        "meaning": "次",
+        "pos": "名词",
+        "phonetic": "/taɪmz/"
+      },
+      {
+        "text": "this",
+        "meaning": "今天的",
+        "pos": "限定词",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "text": "morning,",
+        "meaning": "上午",
+        "pos": "名词",
+        "phonetic": "/ˈmɔːnɪŋ/"
+      },
+      {
+        "text": "but",
+        "meaning": "但是",
+        "pos": "连词",
+        "phonetic": "/bət/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "haven't",
+        "meaning": "（现在完成时否定）",
+        "pos": "助动词缩写",
+        "phonetic": "/ˈhævnt/"
+      },
+      {
+        "text": "had",
+        "meaning": "得到；有",
+        "pos": "动词",
+        "phonetic": "/hæd/"
+      },
+      {
+        "text": "any",
+        "meaning": "任何",
+        "pos": "限定词",
+        "phonetic": "/ˈeni/"
+      },
+      {
+        "text": "change",
+        "meaning": "零钱；变化（双关）",
+        "pos": "名词",
+        "phonetic": "/tʃeɪndʒ/"
+      },
+      {
+        "text": "yet!'",
+        "meaning": "还；到现在",
+        "pos": "副词",
+        "phonetic": "/jet/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先答不知道，再说今早三次如厕，最后用零钱和变化的双关收尾。",
+      "letterShape": "'I d__'_ k___,' I a_______, 'T____'_ b___ t_ t__ t_____ t____ t____ t___ m______, b__ I h____'_ h__ a__ c_____ y__!'",
+      "answerNote": "been to 表示去过；否定完成时配 yet，change 保留双关。"
+    },
+    "teacherTip": {
+      "text": "change 既能指‘变化’，又能指‘零钱’。母亲说还没有 change，表面回答孩子情况没有变化，笑点却落在吞下的硬币还没排出来；只译成‘没有变化’就会丢掉故事的包袱。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-007",
+    "sentenceOrder": 7,
+    "english": "I've already had lunch.",
+    "chinese": "我已经吃过午饭了。",
+    "intent": "说明吃午饭这件事已经完成，为回绝一起吃午饭的邀请提供理由。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I've already had lunch.",
+        "relation": "说明已完成的动作及其结果",
+        "meaning": "我已经吃过午饭了"
+      }
+    ],
+    "notes": [
+      {
+        "title": "现在完成时与already",
+        "text": "have/has + 过去分词搭配already，强调动作已经完成，且这个完成的结果和当前情境相关，本句用来解释为什么不能再一起吃午饭。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "现在完成时与already",
+        "text": "have/has + 过去分词搭配already，强调动作已经完成，且这个完成的结果和当前情境相关，本句用来解释为什么不能再一起吃午饭。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I've already had lunch.",
+        "role": "主谓宾结构的现在完成时句子",
+        "explanation": "I've 是 I have 的缩写，和过去分词 had 共同构成现在完成时的谓语，already 是副词放在助动词和实义动词之间，lunch 是宾语。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I've",
+        "meaning": "我已经（I have 的缩写，其中have为构成完成时的助动词）",
+        "pos": "代词+助动词缩写",
+        "phonetic": "/aɪv/"
+      },
+      {
+        "text": "already",
+        "meaning": "已经",
+        "pos": "副词",
+        "phonetic": "/ɔːlˈredi/"
+      },
+      {
+        "text": "had",
+        "meaning": "吃（have的过去分词）",
+        "pos": "动词",
+        "phonetic": "/hæd/"
+      },
+      {
+        "text": "lunch.",
+        "meaning": "午饭",
+        "pos": "名词",
+        "phonetic": "/lʌntʃ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想说“已经做过某事”，用 have 加 already 加动词过去分词。",
+      "letterShape": "I'__ a______ h__ l____.",
+      "answerNote": "这句话强调“吃过了”这个现状，不涉及具体时间，所以用现在完成时。"
+    },
+    "teacherTip": {
+      "text": "用现在完成时加 already，重点不在“什么时候吃的”，而在“吃过了”这个结果和当下的关联——所以现在不用再吃。要讲具体几点吃的，就换一般过去时。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "明确了缩写中have的助动词属性，教师点拨突出与语境的关联而非生硬语法规则，其余字段准确合规。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。明确了缩写中have的助动词属性，教师点拨突出与语境的关联而非生硬语法规则，其余字段准确合规。"
+  }
+}

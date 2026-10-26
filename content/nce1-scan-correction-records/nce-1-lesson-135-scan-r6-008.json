@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-135",
+    "sentenceId": "nce-1-lesson-135-scan-r6-008",
+    "sentenceOrder": 8,
+    "english": "Let me introduce him to you.",
+    "chinese": "让我把他介绍给你。",
+    "intent": "主动提出介绍未来丈夫",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Let me introduce",
+        "relation": "主动提出介绍",
+        "meaning": "让我介绍"
+      },
+      {
+        "text": "him",
+        "relation": "被介绍的人",
+        "meaning": "他"
+      },
+      {
+        "text": "to you.",
+        "relation": "介绍给谁",
+        "meaning": "给你"
+      }
+    ],
+    "notes": [
+      {
+        "title": "介绍的搭配",
+        "text": "introduce somebody to somebody 表示把前者介绍给后者。"
+      },
+      {
+        "title": "let 结构",
+        "text": "let me 后接不带 to 的 introduce。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "介绍的搭配",
+        "text": "introduce somebody to somebody 表示把前者介绍给后者。"
+      },
+      {
+        "title": "let 结构",
+        "text": "let me 后接不带 to 的 introduce。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Let",
+        "role": "谓语",
+        "explanation": "祈使句用 let 提议自己来做"
+      },
+      {
+        "text": "me",
+        "role": "宾语",
+        "explanation": "执行介绍动作的人"
+      },
+      {
+        "text": "introduce him to you.",
+        "role": "宾语补足语",
+        "explanation": "说明让 me 做什么；him 为 introduce 的宾语，to you 为介绍对象"
+      }
+    ],
+    "words": [
+      {
+        "text": "Let",
+        "meaning": "让",
+        "pos": "动词",
+        "phonetic": "/let/"
+      },
+      {
+        "text": "me",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/miː/"
+      },
+      {
+        "text": "introduce",
+        "meaning": "介绍",
+        "pos": "动词",
+        "phonetic": "/ˌɪntrəˈdjuːs/"
+      },
+      {
+        "text": "him",
+        "meaning": "他",
+        "pos": "代词",
+        "phonetic": "/hɪm/"
+      },
+      {
+        "text": "to",
+        "meaning": "给；向",
+        "pos": "介词",
+        "phonetic": "/tuː/（元音前弱读为/tə/）"
+      },
+      {
+        "text": "you.",
+        "meaning": "你",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "主动提出由自己把他介绍给记者，注意介绍方向。",
+      "letterShape": "L__ m_ i________ h__ t_ y__.",
+      "answerNote": "let me introduce 后接被介绍的人，再用 to 引出对方。"
+    },
+    "teacherTip": {
+      "text": "introduce him to you 的方向是把“他”介绍给“你”，不是反过来。需要介绍某人时，先放被介绍的人，再用 to 引出认识他的人，这样就能清楚交代双方。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-139",
+    "sentenceId": "nce-1-lesson-139-sentence-001",
+    "sentenceOrder": 1,
+    "english": "Is that you, John?",
+    "chinese": "是你吗，约翰？",
+    "intent": "在电话里确认接听者的身份。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Is that you,",
+        "relation": "确认接听者身份",
+        "meaning": "是你吗"
+      },
+      {
+        "text": "John?",
+        "relation": "点明要找的人",
+        "meaning": "约翰"
+      }
+    ],
+    "notes": [
+      {
+        "title": "电话中的that",
+        "text": "that 在电话交流中可以用来指对方，you 确认其身份，John 是独立的称呼。"
+      },
+      {
+        "title": "一般疑问句",
+        "text": "Is 放在 that 前构成问句；称呼 John 不充当句子的主语。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "电话中的that",
+        "text": "that 在电话交流中可以用来指对方，you 确认其身份，John 是独立的称呼。"
+      },
+      {
+        "title": "一般疑问句",
+        "text": "Is 放在 that 前构成问句；称呼 John 不充当句子的主语。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Is",
+        "role": "系动词",
+        "explanation": "在问句中置于主语前。"
+      },
+      {
+        "text": "that",
+        "role": "主语",
+        "explanation": "指电话那头的接听者。"
+      },
+      {
+        "text": "you,",
+        "role": "表语",
+        "explanation": "确认接听者是否为对方本人。"
+      },
+      {
+        "text": "John?",
+        "role": "呼语",
+        "explanation": "称呼约翰。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Is",
+        "meaning": "（系动词，构成身份确认问句）",
+        "pos": "动词",
+        "phonetic": "/ɪz/"
+      },
+      {
+        "text": "that",
+        "meaning": "电话那头的接听者",
+        "pos": "代词",
+        "phonetic": "/ðæt/"
+      },
+      {
+        "text": "you,",
+        "meaning": "你",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "John?",
+        "meaning": "约翰（人名）",
+        "pos": "名词",
+        "phonetic": "/dʒɒn/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "电话开场，先确认接听的人是不是约翰。",
+      "letterShape": "I_ t___ y__, J___?",
+      "answerNote": "电话中的that可指接听者，句末的人名是称呼。"
+    },
+    "teacherTip": {
+      "text": "打电话看不到对方，想确认是不是熟人，可以问 Is that you, John?。这里 that 指电话那头的接听者，不是在问远处的一个物体；先抓住“确认谁在接电话”的情境，就容易理解这种问法。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

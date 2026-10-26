@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-97",
+    "sentenceId": "nce-1-lesson-097-scan-r6-011",
+    "sentenceOrder": 11,
+    "english": "David Hall, 83, Bridge Street.",
+    "chinese": "戴维·霍尔，桥街83号。",
+    "intent": "失主回答工作人员的询问，依次报出姓名和地址。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "David Hall,",
+        "relation": "回答的第一项：姓名",
+        "meaning": "戴维 霍尔，"
+      },
+      {
+        "text": "83, Bridge Street.",
+        "relation": "回答的第二项：地址",
+        "meaning": "83号， 桥 街。"
+      }
+    ],
+    "notes": [
+      {
+        "title": "地址表达顺序",
+        "text": "英语地址由小到大排列：先门牌号，再街道名，与中文从大到小的顺序相反。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "地址表达顺序",
+        "text": "英语地址由小到大排列：先门牌号，再街道名，与中文从大到小的顺序相反。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "David Hall, 83, Bridge Street.",
+        "role": "省略式答语",
+        "explanation": "承接上文问句，省略主谓等冗余成分，直接给出核心信息。"
+      }
+    ],
+    "words": [
+      {
+        "text": "David",
+        "meaning": "戴维（男子名）",
+        "pos": "专有名词",
+        "phonetic": "/ˈdeɪvɪd/"
+      },
+      {
+        "text": "Hall,",
+        "meaning": "霍尔（姓氏）",
+        "pos": "专有名词",
+        "phonetic": "/hɔːl/"
+      },
+      {
+        "text": "83,",
+        "meaning": "八十三（号）",
+        "pos": "数词",
+        "phonetic": "/ˌeɪti ˈθriː/"
+      },
+      {
+        "text": "Bridge",
+        "meaning": "桥",
+        "pos": "专有名词",
+        "phonetic": "/brɪdʒ/"
+      },
+      {
+        "text": "Street.",
+        "meaning": "街，街道",
+        "pos": "名词",
+        "phonetic": "/striːt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "报地址记住“先小后大”：门牌号在前，街道名在后。",
+      "letterShape": "D____ H___, 8_, B_____ S_____.",
+      "answerNote": "这是对上一句询问的直接回应，依次给出姓名和具体地址。"
+    },
+    "teacherTip": {
+      "text": "英语回答姓名地址时，按“姓名+门牌号+街道名”的顺序直接罗列，不用补全“I live at...”这类完整句子，日常办事场合更自然。地址顺序从小往大说，和中文相反。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "原句为课文原文，专名译名规范；教学点突出地址顺序差异与省略答语的用法，实用性强。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。原句为课文原文，专名译名规范；教学点突出地址顺序差异与省略答语的用法，实用性强。"
+  }
+}

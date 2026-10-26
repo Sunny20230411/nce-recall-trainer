@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-115",
+    "sentenceId": "nce-1-lesson-115-sentence-008",
+    "sentenceOrder": 18,
+    "english": "Thanks, Carol.",
+    "chinese": "谢谢，卡罗尔。",
+    "intent": "感谢卡罗尔的招待",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Thanks,",
+        "relation": "表达感谢",
+        "meaning": "谢谢"
+      },
+      {
+        "text": "Carol.",
+        "relation": "感谢对象",
+        "meaning": "卡罗尔"
+      }
+    ],
+    "notes": [
+      {
+        "title": "固定感谢语",
+        "text": "Thanks 可以独立表示谢谢；Carol 为呼语。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "固定感谢语",
+        "text": "Thanks 可以独立表示谢谢；Carol 为呼语。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Thanks,",
+        "role": "独立成分",
+        "explanation": "简短感谢语"
+      },
+      {
+        "text": "Carol.",
+        "role": "呼语",
+        "explanation": "直接称呼卡罗尔"
+      }
+    ],
+    "words": [
+      {
+        "text": "Thanks,",
+        "meaning": "谢谢",
+        "pos": "感叹词",
+        "phonetic": "/θæŋks/"
+      },
+      {
+        "text": "Carol.",
+        "meaning": "卡罗尔",
+        "pos": "专有名词",
+        "phonetic": "/ˈkærəl/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "简短道谢，再叫出卡罗尔的名字。",
+      "letterShape": "T_____, C____.",
+      "answerNote": "用 Thanks 独立道谢，人名用逗号隔开。"
+    },
+    "teacherTip": {
+      "text": "接受主人招待时，一个 Thanks 就足以表达谢意。再叫出主人的名字，是把这声谢谢直接说给她听，不必补成很长的感谢句。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

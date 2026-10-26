@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-109",
+    "sentenceId": "nce-1-lesson-109-scan-r6-015",
+    "sentenceOrder": 15,
+    "english": "May I have one?",
+    "chinese": "我可以拿一支吗？",
+    "intent": "请求允许拿一支香烟",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "May I",
+        "relation": "请求许可",
+        "meaning": "我可以吗"
+      },
+      {
+        "text": "have one?",
+        "relation": "想做的事",
+        "meaning": "拿一支"
+      }
+    ],
+    "notes": [
+      {
+        "title": "许可问句",
+        "text": "May I 加动词原形，表示请求允许自己做某事。"
+      },
+      {
+        "title": "替代",
+        "text": "one 代替 a cigarette，不是指已经确定的某一支。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "许可问句",
+        "text": "May I 加动词原形，表示请求允许自己做某事。"
+      },
+      {
+        "title": "替代",
+        "text": "one 代替 a cigarette，不是指已经确定的某一支。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "May",
+        "role": "情态助动词",
+        "explanation": "提前询问许可。"
+      },
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "希望拿香烟的人。"
+      },
+      {
+        "text": "have",
+        "role": "谓语核心",
+        "explanation": "表示取用、得到。"
+      },
+      {
+        "text": "one?",
+        "role": "宾语",
+        "explanation": "指一支香烟。"
+      }
+    ],
+    "words": [
+      {
+        "text": "May",
+        "meaning": "可以（请求许可）",
+        "pos": "情态动词",
+        "phonetic": "/meɪ/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "have",
+        "meaning": "拿；得到",
+        "pos": "动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "one?",
+        "meaning": "一支（香烟）",
+        "pos": "代词",
+        "phonetic": "/wʌn/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "请求允许自己拿一支刚刚提到的东西。",
+      "letterShape": "M__ I h___ o__?",
+      "answerNote": "许可问句以情态动词开头，最后用代词指一支。"
+    },
+    "teacherTip": {
+      "text": "香烟刚提过，用 one 就能指同类中的一支，不必重复名词。May I 问的是自己能否获准拿，不是要求主人去完成某个动作。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

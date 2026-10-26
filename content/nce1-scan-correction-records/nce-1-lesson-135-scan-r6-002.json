@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-135",
+    "sentenceId": "nce-1-lesson-135-scan-r6-002",
+    "sentenceOrder": 2,
+    "english": "I may.",
+    "chinese": "可能会吧。",
+    "intent": "对是否退休保留可能性",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I may.",
+        "relation": "保留退休的可能",
+        "meaning": "我可能会"
+      }
+    ],
+    "notes": [
+      {
+        "title": "情态动词后的省略",
+        "text": "may 后省略 retire，不能据此把 may 当作实义动词。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "情态动词后的省略",
+        "text": "may 后省略 retire，不能据此把 may 当作实义动词。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "马什小姐本人"
+      },
+      {
+        "text": "may.",
+        "role": "谓语",
+        "explanation": "情态动词承接省略的 retire，表示可能性"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "may.",
+        "meaning": "可能会（退休）",
+        "pos": "情态动词",
+        "phonetic": "/meɪ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "对退休问题不作肯定，只保留可能。",
+      "letterShape": "I m__.",
+      "answerNote": "may 表示可能，后面的退休动作省略。"
+    },
+    "teacherTip": {
+      "text": "这里 may 表示可能，不是在请求或给予许可。只回答 I may，就能表达“我可能会退休”；退休这件事刚问过，无须重复。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

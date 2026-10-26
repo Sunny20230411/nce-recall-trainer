@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-016",
+    "sentenceOrder": 16,
+    "english": "We're packing our suitcases.",
+    "chinese": "我们正在收拾行李箱。",
+    "intent": "解释屋子凌乱的原因，说明当前正在进行的动作。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "We're packing",
+        "relation": "动作主体与正在进行的动作",
+        "meaning": "我们正在收拾"
+      },
+      {
+        "text": "our suitcases.",
+        "relation": "动作的对象",
+        "meaning": "我们的行李箱"
+      }
+    ],
+    "notes": [
+      {
+        "title": "现在进行时表当下动作",
+        "text": "We're packing 表示此刻正在进行的动作，用来解释眼前看到的凌乱状况。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "现在进行时表当下动作",
+        "text": "We're packing 表示此刻正在进行的动作，用来解释眼前看到的凌乱状况。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "We're packing our suitcases.",
+        "role": "主谓宾结构（现在进行时）",
+        "explanation": "We 是主语，'re packing 是现在进行时的谓语，our suitcases 作宾语。"
+      }
+    ],
+    "words": [
+      {
+        "text": "We're",
+        "meaning": "我们正在（we are 的缩略形式）",
+        "pos": "代词+系动词缩略",
+        "phonetic": "/wɪəz/"
+      },
+      {
+        "text": "packing",
+        "meaning": "收拾（行李），打包",
+        "pos": "动词现在分词",
+        "phonetic": "/ˈpækɪŋ/"
+      },
+      {
+        "text": "our",
+        "meaning": "我们的",
+        "pos": "物主代词",
+        "phonetic": "/ˈaʊə/"
+      },
+      {
+        "text": "suitcases.",
+        "meaning": "行李箱",
+        "pos": "名词复数",
+        "phonetic": "/ˈsuːtkeɪsɪz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说“我们正在做”，再接收拾的具体对象。",
+      "letterShape": "W_'__ p______ o__ s________.",
+      "answerNote": "现在进行时，用 be + doing 表示正在进行的动作。"
+    },
+    "teacherTip": {
+      "text": "前一句说屋子乱，这句直接接We're packing our suitcases给出原因，不用加because也能自然承接因果。表达“收拾行李”常用pack suitcases，是固定搭配。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "精简了中文翻译避免重复；修正了结构拆解的主语说明；teacherTip明确了语境中的承接逻辑。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。精简了中文翻译避免重复；修正了结构拆解的主语说明；teacherTip明确了语境中的承接逻辑。"
+  }
+}

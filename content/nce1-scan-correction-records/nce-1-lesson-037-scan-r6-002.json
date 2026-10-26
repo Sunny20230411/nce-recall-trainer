@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-37",
+    "sentenceId": "nce-1-lesson-037-scan-r6-002",
+    "sentenceOrder": 2,
+    "english": "What are you doing?",
+    "chinese": "你在做什么？",
+    "intent": "看到对方正在忙，询问对方当下正在进行的具体动作。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "What",
+        "relation": "疑问焦点，询问动作内容",
+        "meaning": "什么"
+      },
+      {
+        "text": "are you doing?",
+        "relation": "构成现在进行时的疑问语序，询问对方正在进行的动作",
+        "meaning": "你正在做"
+      }
+    ],
+    "notes": [
+      {
+        "title": "现在进行时的特殊疑问句",
+        "text": "由疑问词what引导，后接be动词are、主语you和现在分词doing，用来询问此刻正在发生的动作。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "现在进行时的特殊疑问句",
+        "text": "由疑问词what引导，后接be动词are、主语you和现在分词doing，用来询问此刻正在发生的动作。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "What are you doing?",
+        "role": "特殊疑问句",
+        "explanation": "以what为疑问词，对正在进行的动作内容提问，整体采用疑问语序。"
+      },
+      {
+        "text": "are you doing?",
+        "role": "谓语部分（疑问语序）",
+        "explanation": "由are you doing构成现在进行时的疑问形式，其中doing是现在分词。"
+      }
+    ],
+    "words": [
+      {
+        "text": "What",
+        "meaning": "什么",
+        "pos": "疑问代词",
+        "phonetic": "/wɒt/"
+      },
+      {
+        "text": "are",
+        "meaning": "be动词，辅助构成现在进行时，无实义",
+        "pos": "助动词",
+        "phonetic": "/ɑː/"
+      },
+      {
+        "text": "you",
+        "meaning": "你；你们",
+        "pos": "人称代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "doing?",
+        "meaning": "做（现在分词形式，句末带问号）",
+        "pos": "动词现在分词",
+        "phonetic": "/ˈduːɪŋ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先想疑问焦点“什么”，再组织现在进行时的疑问语序。",
+      "letterShape": "W___ a__ y__ d____?",
+      "answerNote": "用What提问正在做的事，搭配现在进行时的疑问结构。"
+    },
+    "teacherTip": {
+      "text": "这句话的未知焦点是“正在做什么事”，用What把这个焦点放在句首发问，后面接现在进行时的疑问语序对应“你此刻正在做”。想问“正在看/读/写什么”，都可以套用What + be动词 + 主语 + 动词-ing的结构。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "原文与扫描内容一致；修正了tokens与words的对应标点说明，词义、结构及音标均核对正确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。原文与扫描内容一致；修正了tokens与words的对应标点说明，词义、结构及音标均核对正确。"
+  }
+}

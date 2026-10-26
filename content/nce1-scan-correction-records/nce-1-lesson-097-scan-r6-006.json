@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-97",
+    "sentenceId": "nce-1-lesson-097-scan-r6-006",
+    "sentenceOrder": 6,
+    "english": "No, that's not mine.",
+    "chinese": "不，那不是我的。",
+    "intent": "直接否定对方的猜测，明确说明那只箱子不属于自己。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "No,",
+        "relation": "否定回应标记",
+        "meaning": "不"
+      },
+      {
+        "text": "that's not mine.",
+        "relation": "否定归属判断",
+        "meaning": "那不是我的"
+      }
+    ],
+    "notes": [
+      {
+        "title": "名词性物主代词 mine",
+        "text": "mine 等于 my case，用来代替“我的+名词”，避免重复提到 case。"
+      },
+      {
+        "title": "that 的指代作用",
+        "text": "that 指代上一句提到的 this case，指离说话人稍远、对方刚提及的物品。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "名词性物主代词 mine",
+        "text": "mine 等于 my case，用来代替“我的+名词”，避免重复提到 case。"
+      },
+      {
+        "title": "that 的指代作用",
+        "text": "that 指代上一句提到的 this case，指离说话人稍远、对方刚提及的物品。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "that's not mine.",
+        "role": "否定陈述句主干",
+        "explanation": "that's 是 that is 的缩写，not 构成否定，mine 作表语，说明物品归属。"
+      }
+    ],
+    "words": [
+      {
+        "text": "No,",
+        "meaning": "不，",
+        "pos": "副词+逗号",
+        "phonetic": "/nəʊ/"
+      },
+      {
+        "text": "that's",
+        "meaning": "那是（that is 的缩写）",
+        "pos": "代词+be动词缩写",
+        "phonetic": "/ðæts/"
+      },
+      {
+        "text": "not",
+        "meaning": "不（构成否定）",
+        "pos": "副词",
+        "phonetic": "/nɒt/"
+      },
+      {
+        "text": "mine.",
+        "meaning": "我的（东西）。",
+        "pos": "名词性物主代词+句号",
+        "phonetic": "/maɪn/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先用No否定，再用that指箱子，mine代替“我的箱子”。",
+      "letterShape": "N_, t___'_ n__ m___.",
+      "answerNote": "简短否定回答，用that指代前文的箱子，mine代替my case避免重复。"
+    },
+    "teacherTip": {
+      "text": "回答归属问题时不用重复this case，用that指代对方刚问的箱子，mine对应问句里的yours，一来一回都用物主代词，简洁利落。否定直接加在that's后面，先给否定标记No，再补明归属判断。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "句子与原文一致，短答中指代与物主代词的对应点拨准确，符合交际习惯。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。句子与原文一致，短答中指代与物主代词的对应点拨准确，符合交际习惯。"
+  }
+}

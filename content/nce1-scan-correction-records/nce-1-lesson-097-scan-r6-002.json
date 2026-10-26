@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-97",
+    "sentenceId": "nce-1-lesson-097-scan-r6-002",
+    "sentenceOrder": 2,
+    "english": "Can you describe it, sir?",
+    "chinese": "先生，您能描述一下它吗？",
+    "intent": "请对方描述失物的外观特征，以便进一步核对。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Can you describe it,",
+        "relation": "核心请求内容",
+        "meaning": "你能描述一下它吗"
+      },
+      {
+        "text": "sir?",
+        "relation": "礼貌称呼",
+        "meaning": "先生"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Can you...? 请求句式",
+        "text": "用于请求对方做某事，语气比较客气自然，常见于日常和服务场合。"
+      },
+      {
+        "title": "sir的用法",
+        "text": "对男士的礼貌称呼，不与姓名连用，常放在句末表示客气。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "Can you...? 请求句式",
+        "text": "用于请求对方做某事，语气比较客气自然，常见于日常和服务场合。"
+      },
+      {
+        "title": "sir的用法",
+        "text": "对男士的礼貌称呼，不与姓名连用，常放在句末表示客气。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Can",
+        "role": "情态动词",
+        "explanation": "情态动词can置于句首构成一般疑问句，表请求的语气。"
+      },
+      {
+        "text": "you",
+        "role": "主语",
+        "explanation": "人称代词you作主语。"
+      },
+      {
+        "text": "describe",
+        "role": "谓语动词",
+        "explanation": "实义动词describe和情态动词can共同构成谓语。"
+      },
+      {
+        "text": "it,",
+        "role": "宾语",
+        "explanation": "代词it作describe的宾语，指代前面提到的suitcase。"
+      },
+      {
+        "text": "sir?",
+        "role": "呼语",
+        "explanation": "sir是礼貌称呼语，不参与句子主干结构。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Can",
+        "meaning": "能；可以",
+        "pos": "情态动词",
+        "phonetic": "/kæn/"
+      },
+      {
+        "text": "you",
+        "meaning": "你；您",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "describe",
+        "meaning": "描述",
+        "pos": "动词",
+        "phonetic": "/dɪˈskraɪb/"
+      },
+      {
+        "text": "it,",
+        "meaning": "它，",
+        "pos": "代词",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "text": "sir?",
+        "meaning": "先生？",
+        "pos": "名词",
+        "phonetic": "/sɜː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先问“能不能描述它”，末尾加上礼貌称呼。",
+      "letterShape": "C__ y__ d_______ i_, s__?",
+      "answerNote": "这是请对方描述物品的客气问句，sir是对男士的尊称。"
+    },
+    "teacherTip": {
+      "text": "服务场合请对方提供信息，用Can you...语气自然客气。sir放在请求末尾比对陌生人直接称呼更缓和，常见于官方或服务场景。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "与扫描原文一致，tokens切分正确，教学数据准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。与扫描原文一致，tokens切分正确，教学数据准确。"
+  }
+}

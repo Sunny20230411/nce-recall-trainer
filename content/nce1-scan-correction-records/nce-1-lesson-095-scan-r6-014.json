@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-95",
+    "sentenceId": "nce-1-lesson-095-scan-r6-014",
+    "sentenceOrder": 14,
+    "english": "Tickets, please.",
+    "chinese": "请出示车票。",
+    "intent": "检票员礼貌要求乘客出示车票，属于服务场景的简短指令。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Tickets,",
+        "relation": "核心要求对象",
+        "meaning": "车票"
+      },
+      {
+        "text": "please.",
+        "relation": "礼貌语气标记",
+        "meaning": "请"
+      }
+    ],
+    "notes": [
+      {
+        "title": "省略动词的服务类祈使",
+        "text": "公共场所请求出示某物时，直接说物品名称加please即可，省略show me等动词更自然地道。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "省略动词的服务类祈使",
+        "text": "公共场所请求出示某物时，直接说物品名称加please即可，省略show me等动词更自然地道。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Tickets, please.",
+        "role": "无动词祈使句",
+        "explanation": "由名词短语加礼貌词please构成，相当于省略了show me的祈使句，用于明确提出服务类要求。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Tickets,",
+        "meaning": "车票（复数）",
+        "pos": "名词",
+        "phonetic": "/ˈtɪkɪts/"
+      },
+      {
+        "text": "please.",
+        "meaning": "请（用于礼貌请求）",
+        "pos": "感叹词",
+        "phonetic": "/pliːz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想让对方出示某样东西，直接说物品加“请”。",
+      "letterShape": "T______, p_____.",
+      "answerNote": "服务场景要对方出示某物，用物品名词加please即可，不用额外加动词。"
+    },
+    "teacherTip": {
+      "text": "这是公共场所查票的惯用短句，直接用名词Tickets加please表达要求，客气又明确。中文习惯补出“出示”这类动词，英文在服务场景里直接说物品加please，对方自然懂是要出示。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "复核原文为车站检票场景的短祈使句，结构与词义准确，用法说明符合语境。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。复核原文为车站检票场景的短祈使句，结构与词义准确，用法说明符合语境。"
+  }
+}

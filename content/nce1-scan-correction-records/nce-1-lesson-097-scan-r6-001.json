@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-97",
+    "sentenceId": "nce-1-lesson-097-scan-r6-001",
+    "sentenceOrder": 1,
+    "english": "I left a suitcase on the train to London the other day.",
+    "chinese": "前几天我把一个手提箱落在了开往伦敦的火车上。",
+    "intent": "说明自己遗落物品的基本情况，向工作人员求助寻找。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I left a suitcase",
+        "relation": "核心事件（主语+动作+对象）",
+        "meaning": "我落下了一个手提箱"
+      },
+      {
+        "text": "on the train to London",
+        "relation": "遗落的地点",
+        "meaning": "在开往伦敦的火车上"
+      },
+      {
+        "text": "the other day.",
+        "relation": "事件发生的时间",
+        "meaning": "前几天"
+      }
+    ],
+    "notes": [
+      {
+        "title": "left表示“遗落”",
+        "text": "left是leave的过去式，后接地点时表示“把某物落在某处”；forget不接地点，仅表示忘记某事或忘记带某物。"
+      },
+      {
+        "title": "the other day",
+        "text": "固定短语，意为“前几天、不久前的一天”，仅用于过去时的语境。"
+      },
+      {
+        "title": "the train to London",
+        "text": "to London作后置定语修饰the train，表示“开往伦敦的火车”，to指向目的地。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "left表示“遗落”",
+        "text": "left是leave的过去式，后接地点时表示“把某物落在某处”；forget不接地点，仅表示忘记某事或忘记带某物。"
+      },
+      {
+        "title": "the other day",
+        "text": "固定短语，意为“前几天、不久前的一天”，仅用于过去时的语境。"
+      },
+      {
+        "title": "the train to London",
+        "text": "to London作后置定语修饰the train，表示“开往伦敦的火车”，to指向目的地。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "人称代词主格I作主语，指代说话人。"
+      },
+      {
+        "text": "left",
+        "role": "谓语动词",
+        "explanation": "leave的过去式left作谓语，表“遗落”的动作。"
+      },
+      {
+        "text": "a suitcase",
+        "role": "宾语",
+        "explanation": "名词短语a suitcase作left的宾语，是动作的对象。"
+      },
+      {
+        "text": "on the train to London",
+        "role": "地点状语",
+        "explanation": "介词短语on the train to London说明遗落的地点，其中to London作后置定语修饰train。"
+      },
+      {
+        "text": "the other day.",
+        "role": "时间状语",
+        "explanation": "名词短语the other day作时间状语，说明动作发生在过去不久前。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "left",
+        "meaning": "落下；遗落（leave的过去式）",
+        "pos": "动词",
+        "phonetic": "/left/"
+      },
+      {
+        "text": "a",
+        "meaning": "一个",
+        "pos": "限定词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "suitcase",
+        "meaning": "手提箱",
+        "pos": "名词",
+        "phonetic": "/ˈsuːtkeɪs/"
+      },
+      {
+        "text": "on",
+        "meaning": "在……上面",
+        "pos": "介词",
+        "phonetic": "/ɒn/"
+      },
+      {
+        "text": "the",
+        "meaning": "这；那（定指）",
+        "pos": "限定词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "train",
+        "meaning": "火车",
+        "pos": "名词",
+        "phonetic": "/treɪn/"
+      },
+      {
+        "text": "to",
+        "meaning": "到；向；开往",
+        "pos": "介词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "London",
+        "meaning": "伦敦",
+        "pos": "名词",
+        "phonetic": "/ˈlʌndən/"
+      },
+      {
+        "text": "the",
+        "meaning": "（与other day构成短语）",
+        "pos": "限定词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "other",
+        "meaning": "别的；另外的",
+        "pos": "形容词",
+        "phonetic": "/ˈʌðə/"
+      },
+      {
+        "text": "day.",
+        "meaning": "一天。",
+        "pos": "名词",
+        "phonetic": "/deɪ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说“我落了一个箱子”，再补落在哪趟车上，最后说前几天发生的。",
+      "letterShape": "I l___ a s_______ o_ t__ t____ t_ L_____ t__ o____ d__.",
+      "answerNote": "核心是“遗落手提箱”，地点是去伦敦的火车，时间是前几天。"
+    },
+    "teacherTip": {
+      "text": "说“把东西落在哪儿”时，不要直接对应forget；后接具体地点表示“遗落在某处”，英语用leave/left更自然。下次说落东西，先看有没有地点，有地点就优先用left。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "与扫描原文一致，tokens切分正确，教学数据准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。与扫描原文一致，tokens切分正确，教学数据准确。"
+  }
+}

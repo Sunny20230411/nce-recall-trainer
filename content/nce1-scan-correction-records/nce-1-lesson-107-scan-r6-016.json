@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-107",
+    "sentenceId": "nce-1-lesson-107-scan-r6-016",
+    "sentenceOrder": 16,
+    "english": "I want a dress like that one, but it must be my size.",
+    "chinese": "我想要一件像那件那样的连衣裙，但尺码必须适合我。",
+    "intent": "说明款式偏好和尺码要求",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I want a dress",
+        "relation": "购买意愿",
+        "meaning": "我想要一件连衣裙"
+      },
+      {
+        "text": "like that one,",
+        "relation": "款式参照",
+        "meaning": "像那件一样"
+      },
+      {
+        "text": "but",
+        "relation": "转折",
+        "meaning": "但是"
+      },
+      {
+        "text": "it must be my size.",
+        "relation": "必要条件",
+        "meaning": "它必须是适合我的尺码"
+      }
+    ],
+    "notes": [
+      {
+        "title": "替代名词",
+        "text": "one 代替 dress；like 是介词，表示像。"
+      },
+      {
+        "title": "尺码作表语",
+        "text": "my size 是名词短语，作 be 的表语，说明尺码合适。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "替代名词",
+        "text": "one 代替 dress；like 是介词，表示像。"
+      },
+      {
+        "title": "尺码作表语",
+        "text": "my size 是名词短语，作 be 的表语，说明尺码合适。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I",
+        "role": "第一分句主语",
+        "explanation": "提出购买需求的人。"
+      },
+      {
+        "text": "want",
+        "role": "第一分句谓语",
+        "explanation": "表达想要。"
+      },
+      {
+        "text": "a dress like that one,",
+        "role": "宾语",
+        "explanation": "目标裙子，其中 like that one 是修饰 dress 的后置定语。"
+      },
+      {
+        "text": "but",
+        "role": "并列连接成分",
+        "explanation": "引出与款式偏好相对的必要条件。"
+      },
+      {
+        "text": "it",
+        "role": "第二分句主语",
+        "explanation": "指想买的裙子。"
+      },
+      {
+        "text": "must be",
+        "role": "第二分句谓语",
+        "explanation": "must be 表示必须符合条件。"
+      },
+      {
+        "text": "my size.",
+        "role": "表语",
+        "explanation": "说明所需尺码。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "want",
+        "meaning": "想要",
+        "pos": "动词",
+        "phonetic": "/wɒnt/"
+      },
+      {
+        "text": "a",
+        "meaning": "一件",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "dress",
+        "meaning": "连衣裙",
+        "pos": "名词",
+        "phonetic": "/dres/"
+      },
+      {
+        "text": "like",
+        "meaning": "像",
+        "pos": "介词",
+        "phonetic": "/laɪk/"
+      },
+      {
+        "text": "that",
+        "meaning": "那",
+        "pos": "指示限定词",
+        "phonetic": "/ðæt/"
+      },
+      {
+        "text": "one,",
+        "meaning": "一件（代指连衣裙）",
+        "pos": "代词",
+        "phonetic": "/wʌn/"
+      },
+      {
+        "text": "but",
+        "meaning": "但是",
+        "pos": "连词",
+        "phonetic": "/bʌt/"
+      },
+      {
+        "text": "it",
+        "meaning": "它（指要买的裙子）",
+        "pos": "代词",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "text": "must",
+        "meaning": "必须",
+        "pos": "情态动词",
+        "phonetic": "/mʌst/"
+      },
+      {
+        "text": "be",
+        "meaning": "是",
+        "pos": "系动词",
+        "phonetic": "/biː/"
+      },
+      {
+        "text": "my",
+        "meaning": "我的；适合我的",
+        "pos": "物主限定词",
+        "phonetic": "/maɪ/"
+      },
+      {
+        "text": "size.",
+        "meaning": "尺码",
+        "pos": "名词",
+        "phonetic": "/saɪz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先描述想要的相似款式，再强调尺码这一硬条件。",
+      "letterShape": "I w___ a d____ l___ t___ o__, b__ i_ m___ b_ m_ s___.",
+      "answerNote": "用代词替代前文裙子，转折后用必须加系动词说明尺码。"
+    },
+    "teacherTip": {
+      "text": "like that one 保留了喜欢的款式，but 后再补不能让步的尺码条件。这里 must 是购物要求，不是“想必”的推测；my size 指适合自己的尺码，不是说人和裙子一样大。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

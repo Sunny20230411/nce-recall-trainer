@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-95",
+    "sentenceId": "nce-1-lesson-095-scan-r6-017",
+    "sentenceOrder": 17,
+    "english": "What!",
+    "chinese": "什么！",
+    "intent": "听到意外消息后表达强烈的惊讶与不敢相信。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "What!",
+        "relation": "惊叹表达",
+        "meaning": "什么！"
+      }
+    ],
+    "notes": [
+      {
+        "title": "独词惊叹句",
+        "text": "What! 在这里是独立的感叹用语，不构成疑问句，用来表达惊讶、不敢相信的情绪。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "独词惊叹句",
+        "text": "What! 在这里是独立的感叹用语，不构成疑问句，用来表达惊讶、不敢相信的情绪。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "What!",
+        "role": "独词感叹句",
+        "explanation": "由单个感叹词构成的省略句，依托上下文表达完整的惊讶情绪。"
+      }
+    ],
+    "words": [
+      {
+        "text": "What!",
+        "meaning": "什么！（表惊讶）",
+        "pos": "感叹词",
+        "phonetic": "/wɒt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "表达强烈惊讶的一个短词，对应中文“什么！/怎么会！”",
+      "letterShape": "W___!",
+      "answerNote": "是独词感叹，不是疑问句，表示不敢相信刚才听到的话。"
+    },
+    "teacherTip": {
+      "text": "这里的What!不是疑问词“什么”在发问，而是口语里听到难以置信的消息时脱口而出的惊叹，相当于“怎么会！”。不用补成完整句子，上下文已经补足了惊讶的对象。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "内容符合原文与语境，知识点准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。内容符合原文与语境，知识点准确。"
+  }
+}

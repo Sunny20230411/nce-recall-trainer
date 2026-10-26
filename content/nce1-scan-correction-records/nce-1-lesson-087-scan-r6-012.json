@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-87",
+    "sentenceId": "nce-1-lesson-087-scan-r6-012",
+    "sentenceOrder": 12,
+    "english": "Well, it was my car.",
+    "chinese": "嗯，那曾是我的车。",
+    "intent": "委婉承认车原本属于自己，但暗含“现在已经不是（我的车了）”的意味。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Well,",
+        "relation": "语气词（承接对方问题）",
+        "meaning": "嗯，这个嘛"
+      },
+      {
+        "text": "it",
+        "relation": "话题主体（指代那辆车）",
+        "meaning": "它"
+      },
+      {
+        "text": "was my car.",
+        "relation": "过去的归属说明",
+        "meaning": "曾是我的车"
+      }
+    ],
+    "notes": [
+      {
+        "title": "一般过去时暗含今昔对比",
+        "text": "it was my car 用过去时 was，字面是“过去是我的车”，在对话中含蓄表达“现在已经不是原来那辆完好的车了”。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "一般过去时暗含今昔对比",
+        "text": "it was my car 用过去时 was，字面是“过去是我的车”，在对话中含蓄表达“现在已经不是原来那辆完好的车了”。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "it was my car.",
+        "role": "主系表陈述句",
+        "explanation": "it 作主语，was 是系动词be的过去式，my car 作表语，说明过去的归属。"
+      },
+      {
+        "text": "Well,",
+        "role": "话语标记",
+        "explanation": "Well 用来缓和语气，引出略带保留的回答。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Well,",
+        "meaning": "嗯，这个嘛（用于缓和语气）",
+        "pos": "感叹词",
+        "phonetic": "/wel/"
+      },
+      {
+        "text": "it",
+        "meaning": "它",
+        "pos": "人称代词",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "text": "was",
+        "meaning": "是（be的第一/三人称单数过去式）",
+        "pos": "be动词过去式",
+        "phonetic": "/wɒz/"
+      },
+      {
+        "text": "my",
+        "meaning": "我的",
+        "pos": "形容词性物主代词",
+        "phonetic": "/maɪ/"
+      },
+      {
+        "text": "car.",
+        "meaning": "汽车",
+        "pos": "名词",
+        "phonetic": "/kɑː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想说“以前是，现在不一样了”，把be动词换成过去式就行。",
+      "letterShape": "W___, i_ w__ m_ c__.",
+      "answerNote": "用过去时 was 暗示今昔不同，车已经撞坏了。"
+    },
+    "teacherTip": {
+      "text": "这里用 was 而不是 is，不只是说过去的事，更是在暗示“现在这辆车已经撞坏、不能再算我的好车了”。以后想表达“以前是、现在不一样了”，不用额外多说，换个过去时就能带出这层意思。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "与扫描原文一致，点拨过去时暗含的对比含义。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。与扫描原文一致，点拨过去时暗含的对比含义。"
+  }
+}

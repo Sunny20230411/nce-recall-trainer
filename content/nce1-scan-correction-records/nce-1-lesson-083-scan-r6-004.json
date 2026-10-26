@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-004",
+    "sentenceOrder": 4,
+    "english": "We're having lunch.",
+    "chinese": "我们正在吃午饭。",
+    "intent": "向刚进门的Sam说明眼下正在进行的活动，交代当前状态。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "We're having",
+        "relation": "主语与进行时助动词",
+        "meaning": "我们正在"
+      },
+      {
+        "text": "lunch.",
+        "relation": "进行的活动内容",
+        "meaning": "吃午饭"
+      }
+    ],
+    "notes": [
+      {
+        "title": "have 表示进餐的用法",
+        "text": "have lunch 是固定搭配，意为“吃午饭”，这里的 have 不表示“拥有”，而表示进行某类日常活动。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "have 表示进餐的用法",
+        "text": "have lunch 是固定搭配，意为“吃午饭”，这里的 have 不表示“拥有”，而表示进行某类日常活动。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "We're",
+        "role": "主语+be动词（现在进行时助动词）",
+        "explanation": "We're 是 We are 的缩写，其中 We 作主语，are 是构成现在进行时的助动词。"
+      },
+      {
+        "text": "having lunch.",
+        "role": "现在分词短语作谓语核心",
+        "explanation": "having lunch 是“have + 三餐名词”的现在分词形式，和前面的 are 一起构成现在进行时的谓语。"
+      }
+    ],
+    "words": [
+      {
+        "text": "We're",
+        "meaning": "我们是/我们正在（we are 的缩写）",
+        "pos": "代词+be动词缩写",
+        "phonetic": "/wɪə(r)/"
+      },
+      {
+        "text": "having",
+        "meaning": "吃；进行（活动）",
+        "pos": "动词（现在分词）",
+        "phonetic": "/ˈhævɪŋ/"
+      },
+      {
+        "text": "lunch.",
+        "meaning": "午餐",
+        "pos": "名词",
+        "phonetic": "/lʌntʃ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想说“我们这会儿正在吃午饭”，用“我们正 + 吃午饭”的进行时结构。",
+      "letterShape": "W_'__ h_____ l____.",
+      "answerNote": "现在进行时，说明当下正在进行的动作是吃午饭。"
+    },
+    "teacherTip": {
+      "text": "这里用现在进行时不是单纯描述“吃”的动作，而是点明“我们这会儿正处在吃午饭的过程中”，顺势为后面的邀请铺垫。说当下正做的日常活动，用be + 动词-ing就很自然。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "句子为课本原句，现在进行时的用法与词义均准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。句子为课本原句，现在进行时的用法与词义均准确。"
+  }
+}

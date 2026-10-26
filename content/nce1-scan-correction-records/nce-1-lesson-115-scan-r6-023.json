@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-115",
+    "sentenceId": "nce-1-lesson-115-scan-r6-023",
+    "sentenceOrder": 23,
+    "english": "Lemonade!",
+    "chinese": "柠檬汽水！",
+    "intent": "对只能喝柠檬汽水表示意外或失望",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Lemonade!",
+        "relation": "对替代饮品的反应",
+        "meaning": "柠檬汽水"
+      }
+    ],
+    "notes": [
+      {
+        "title": "感叹式重复",
+        "text": "重复对方刚提出的饮品，用感叹号表达情绪；具体语气由情境决定。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "感叹式重复",
+        "text": "重复对方刚提出的饮品，用感叹号表达情绪；具体语气由情境决定。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Lemonade!",
+        "role": "独立成分",
+        "explanation": "以名词独立发出感叹"
+      }
+    ],
+    "words": [
+      {
+        "text": "Lemonade!",
+        "meaning": "柠檬汽水",
+        "pos": "名词",
+        "phonetic": "/ˌleməˈneɪd/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "重复替代饮品，用感叹语气表现没想到。",
+      "letterShape": "L_______!",
+      "answerNote": "只重复饮品名并保留感叹号，不扩成完整句。"
+    },
+    "teacherTip": {
+      "text": "同样是重复一个饮品名，感叹号让它不再像平静确认，而更像对这个替代选择的意外反应。上下文中吉姆原本要的是啤酒，所以还能听出一点失望。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

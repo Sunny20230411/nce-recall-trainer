@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-113",
+    "sentenceId": "nce-1-lesson-113-scan-r6-017",
+    "sentenceOrder": 17,
+    "english": "None of our passengers can change this note.",
+    "chinese": "我们的乘客中没有一个人能换开这张钞票。",
+    "intent": "解释全体乘客都无法兑开钞票",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "None of our passengers",
+        "relation": "全体中的零人数",
+        "meaning": "我们的乘客中没有一个人"
+      },
+      {
+        "text": "can change",
+        "relation": "无法做到的事",
+        "meaning": "能换开"
+      },
+      {
+        "text": "this note.",
+        "relation": "指定对象",
+        "meaning": "这张钞票"
+      }
+    ],
+    "notes": [
+      {
+        "title": "否定范围",
+        "text": "None of our passengers 整体作主语，否定所有乘客中存在能兑开者；can 不再加 not。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "否定范围",
+        "text": "None of our passengers 整体作主语，否定所有乘客中存在能兑开者；can 不再加 not。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "None of our passengers",
+        "role": "主语",
+        "explanation": "none 表示乘客中没有任何一人"
+      },
+      {
+        "text": "can change",
+        "role": "谓语",
+        "explanation": "表示兑开钞票的能力，否定来自主语 none"
+      },
+      {
+        "text": "this note.",
+        "role": "宾语",
+        "explanation": "当前需要兑开的钞票"
+      }
+    ],
+    "words": [
+      {
+        "text": "None",
+        "meaning": "没有一个人",
+        "pos": "代词",
+        "phonetic": "/nʌn/"
+      },
+      {
+        "text": "of",
+        "meaning": "……中的",
+        "pos": "介词",
+        "phonetic": "/əv/"
+      },
+      {
+        "text": "our",
+        "meaning": "我们的",
+        "pos": "物主限定词",
+        "phonetic": "/aʊə/"
+      },
+      {
+        "text": "passengers",
+        "meaning": "乘客",
+        "pos": "名词",
+        "phonetic": "/ˈpæsɪndʒəz/"
+      },
+      {
+        "text": "can",
+        "meaning": "能",
+        "pos": "情态动词",
+        "phonetic": "/kæn/"
+      },
+      {
+        "text": "change",
+        "meaning": "兑开",
+        "pos": "动词",
+        "phonetic": "/tʃeɪndʒ/"
+      },
+      {
+        "text": "this",
+        "meaning": "这张",
+        "pos": "限定词",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "text": "note.",
+        "meaning": "钞票",
+        "pos": "名词",
+        "phonetic": "/nəʊt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先把乘客中的人数说成零，再说兑开这张钞票的能力。",
+      "letterShape": "N___ o_ o__ p_________ c__ c_____ t___ n___.",
+      "answerNote": "none of 引出全部否定，谓语不重复加否定词。"
+    },
+    "teacherTip": {
+      "text": "要表达“一个也没有”，先用 None of 把整群人中的数量归零，再说他们做不了什么。它比“并非所有人都能换开”更强，后者仍允许有人能帮忙。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

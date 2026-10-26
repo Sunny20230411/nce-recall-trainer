@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-109",
+    "sentenceId": "nce-1-lesson-109-sentence-012-part-02",
+    "sentenceOrder": 18,
+    "english": "I'm afraid it's empty.",
+    "chinese": "恐怕盒子是空的。",
+    "intent": "委婉告知盒内已无香烟",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I'm afraid",
+        "relation": "委婉引入",
+        "meaning": "恐怕"
+      },
+      {
+        "text": "it's empty.",
+        "relation": "实际情况",
+        "meaning": "它是空的"
+      }
+    ],
+    "notes": [
+      {
+        "title": "内容从句",
+        "text": "afraid 后接省略 that 的从句 it's empty。"
+      },
+      {
+        "title": "指代",
+        "text": "it 指那个盒子，不是香烟。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "内容从句",
+        "text": "afraid 后接省略 that 的从句 it's empty。"
+      },
+      {
+        "title": "指代",
+        "text": "it 指那个盒子，不是香烟。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I'm",
+        "role": "主句主语与系动词",
+        "explanation": "I'm 是 I am。"
+      },
+      {
+        "text": "afraid",
+        "role": "主句表语",
+        "explanation": "用于引入令人遗憾的消息。"
+      },
+      {
+        "text": "it's",
+        "role": "从句主语与系动词",
+        "explanation": "it's 是 it is，it 指盒子。"
+      },
+      {
+        "text": "empty.",
+        "role": "从句表语",
+        "explanation": "说明盒子空了。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I'm",
+        "meaning": "我（是）",
+        "pos": "代词与系动词缩写",
+        "phonetic": "/aɪm/"
+      },
+      {
+        "text": "afraid",
+        "meaning": "恐怕；遗憾的是",
+        "pos": "形容词",
+        "phonetic": "/əˈfreɪd/"
+      },
+      {
+        "text": "it's",
+        "meaning": "它是（指盒子）",
+        "pos": "代词与系动词缩写",
+        "phonetic": "/ɪts/"
+      },
+      {
+        "text": "empty.",
+        "meaning": "空的",
+        "pos": "形容词",
+        "phonetic": "/ˈempti/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "委婉地报告盒子已经空了。",
+      "letterShape": "I'_ a_____ i_'_ e____.",
+      "answerNote": "恐怕后面接它是空的，注意两个缩写。"
+    },
+    "teacherTip": {
+      "text": "这里不是害怕盒子，而是用 I'm afraid 软化一个让人失望的发现。it's empty 说盒子已经空了，既回应去盒里拿的建议，也纠正了刚才的估计。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

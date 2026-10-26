@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-15",
+    "sentenceId": "nce-1-lesson-015-sentence-002-part-01",
+    "sentenceOrder": 2,
+    "english": "No, we are not.",
+    "chinese": "不，我们不是。",
+    "intent": "对一般疑问句作否定回答，明确否定“我们是瑞典人”。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "No,",
+        "relation": "否定答语引导词",
+        "meaning": "不"
+      },
+      {
+        "text": "we are not.",
+        "relation": "完整否定陈述",
+        "meaning": "我们不是"
+      }
+    ],
+    "notes": [
+      {
+        "title": "完整否定形式",
+        "text": "are not 是be动词are的完整否定形式，比缩写aren't语气更显正式、清晰。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "完整否定形式",
+        "text": "are not 是be动词are的完整否定形式，比缩写aren't语气更显正式、清晰。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "No,",
+        "role": "否定答语标记",
+        "explanation": "用在句首回应一般疑问句，表示否定态度。"
+      },
+      {
+        "text": "we",
+        "role": "主语",
+        "explanation": "人称代词主格we，指代说话人一方。"
+      },
+      {
+        "text": "are not.",
+        "role": "谓语（系动词+否定词）",
+        "explanation": "由be动词are和否定副词not构成完整否定形式，表达“不是”的含义。"
+      }
+    ],
+    "words": [
+      {
+        "text": "No,",
+        "meaning": "不，不是的",
+        "pos": "感叹词",
+        "phonetic": "/nəʊ/"
+      },
+      {
+        "text": "we",
+        "meaning": "我们",
+        "pos": "人称代词主格",
+        "phonetic": "/wiː/"
+      },
+      {
+        "text": "are",
+        "meaning": "（be动词第二人称及复数现在时形式，无实义，配合主语构成系表结构）",
+        "pos": "be动词",
+        "phonetic": "/ɑː/"
+      },
+      {
+        "text": "not.",
+        "meaning": "不（构成否定）",
+        "pos": "副词",
+        "phonetic": "/nɒt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "正式场合否定回答，先给“不”，再把主语和be动词否定说完整。",
+      "letterShape": "N_, w_ a__ n__.",
+      "answerNote": "用完整形式否定“我们是瑞典人”这个说法。"
+    },
+    "teacherTip": {
+      "text": "这里用完整的we are not而不是缩写we aren't，语气更郑重清晰，适合边检核对身份的正式场合。否定回答先用No亮出态度，再补完整主谓否定结构，信息明确不含糊。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已对照扫描原文修正为No, we are not.，替换原缩写形式，数据与原文一致。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已对照扫描原文修正为No, we are not.，替换原缩写形式，数据与原文一致。"
+  }
+}

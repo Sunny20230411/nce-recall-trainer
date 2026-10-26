@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-113",
+    "sentenceId": "nce-1-lesson-113-sentence-007",
+    "sentenceOrder": 12,
+    "english": "Can you change this ten-pound note, madam?",
+    "chinese": "女士，您能把这张十英镑钞票换开吗？",
+    "intent": "请求女乘客帮助兑开钞票",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Can you change",
+        "relation": "请求帮助",
+        "meaning": "您能换开吗"
+      },
+      {
+        "text": "this ten-pound note,",
+        "relation": "指定钞票",
+        "meaning": "这张十英镑钞票"
+      },
+      {
+        "text": "madam?",
+        "relation": "称呼",
+        "meaning": "女士"
+      }
+    ],
+    "notes": [
+      {
+        "title": "情态疑问",
+        "text": "Can 前置，change 保持原形。"
+      },
+      {
+        "title": "复合定语",
+        "text": "ten-pound 修饰 note，金额中的 pound 用单数。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "情态疑问",
+        "text": "Can 前置，change 保持原形。"
+      },
+      {
+        "title": "复合定语",
+        "text": "ten-pound 修饰 note，金额中的 pound 用单数。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Can",
+        "role": "前置情态动词",
+        "explanation": "询问对方能否提供帮助"
+      },
+      {
+        "text": "you",
+        "role": "主语",
+        "explanation": "受请求的乘客"
+      },
+      {
+        "text": "change",
+        "role": "谓语核心",
+        "explanation": "兑开钞票"
+      },
+      {
+        "text": "this ten-pound note,",
+        "role": "宾语",
+        "explanation": "需要兑开的具体钞票"
+      },
+      {
+        "text": "madam?",
+        "role": "呼语",
+        "explanation": "称呼女性乘客"
+      }
+    ],
+    "words": [
+      {
+        "text": "Can",
+        "meaning": "能；可以",
+        "pos": "情态动词",
+        "phonetic": "/kæn/"
+      },
+      {
+        "text": "you",
+        "meaning": "您",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "change",
+        "meaning": "兑开",
+        "pos": "动词",
+        "phonetic": "/tʃeɪndʒ/"
+      },
+      {
+        "text": "this",
+        "meaning": "这张",
+        "pos": "限定词",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "text": "ten-pound",
+        "meaning": "十英镑的",
+        "pos": "复合形容词",
+        "phonetic": "/ˌten ˈpaʊnd/"
+      },
+      {
+        "text": "note,",
+        "meaning": "钞票",
+        "pos": "名词",
+        "phonetic": "/nəʊt/"
+      },
+      {
+        "text": "madam?",
+        "meaning": "女士",
+        "pos": "名词",
+        "phonetic": "/ˈmædəm/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先问能否帮忙兑开，点明这张十英镑钞票，再称呼女士。",
+      "letterShape": "C__ y__ c_____ t___ t__-_____ n___, m____?",
+      "answerNote": "can 提前构成请求式疑问，钞票前用 this 指明是哪一张。"
+    },
+    "teacherTip": {
+      "text": "虽然问的是“能不能”，实际是在请求对方帮忙，而不是测试她是否会换钱。this 指向手里的这张钞票，让请求对象明确；change 在这里要理解成兑开。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

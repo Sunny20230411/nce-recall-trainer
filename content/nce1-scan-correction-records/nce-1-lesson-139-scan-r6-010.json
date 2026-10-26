@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-139",
+    "sentenceId": "nce-1-lesson-139-scan-r6-010",
+    "sentenceOrder": 10,
+    "english": "Oh, and by the way, my wife wants to know if Mary needs any help.",
+    "chinese": "哦，顺便说一句，我妻子想知道玛丽是否需要帮忙。",
+    "intent": "顺便转达妻子关于是否需要帮助的询问。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Oh, and by the way,",
+        "relation": "引入顺便补充的话题",
+        "meaning": "哦，顺便说一句"
+      },
+      {
+        "text": "my wife wants to know",
+        "relation": "说明是谁想了解情况",
+        "meaning": "我妻子想知道"
+      },
+      {
+        "text": "if Mary needs any help.",
+        "relation": "说明想确认的事情",
+        "meaning": "玛丽是否需要帮忙"
+      }
+    ],
+    "notes": [
+      {
+        "title": "if表示是否",
+        "text": "if Mary needs any help 是 know 的宾语从句，表示想知道的内容；此处不是条件状语从句。"
+      },
+      {
+        "title": "want to know",
+        "text": "wants to know表示想了解，needs的主语是Mary，不能把两个动词误看成同一层的并列谓语。"
+      },
+      {
+        "title": "插入式开场",
+        "text": "Oh, and by the way 是话题补充的口语开场，不充当后面主句的主语或宾语。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "if表示是否",
+        "text": "if Mary needs any help 是 know 的宾语从句，表示想知道的内容；此处不是条件状语从句。"
+      },
+      {
+        "title": "want to know",
+        "text": "wants to know表示想了解，needs的主语是Mary，不能把两个动词误看成同一层的并列谓语。"
+      },
+      {
+        "title": "插入式开场",
+        "text": "Oh, and by the way 是话题补充的口语开场，不充当后面主句的主语或宾语。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Oh, and by the way,",
+        "role": "话语连接成分",
+        "explanation": "提示接下来是顺便补充的话题。"
+      },
+      {
+        "text": "my wife",
+        "role": "主语",
+        "explanation": "指出想了解情况的是妻子。"
+      },
+      {
+        "text": "wants to know",
+        "role": "谓语及不定式宾语",
+        "explanation": "说明她想知道某事。"
+      },
+      {
+        "text": "if Mary needs any help.",
+        "role": "宾语从句",
+        "explanation": "给出妻子想确认的具体内容。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Oh,",
+        "meaning": "哦（引起注意）",
+        "pos": "感叹词",
+        "phonetic": "/əʊ/"
+      },
+      {
+        "text": "and",
+        "meaning": "还有、并且",
+        "pos": "连词",
+        "phonetic": "/ænd/"
+      },
+      {
+        "text": "by",
+        "meaning": "（与the way构成顺便说一句）",
+        "pos": "介词",
+        "phonetic": "/baɪ/"
+      },
+      {
+        "text": "the",
+        "meaning": "（构成固定短语）",
+        "pos": "冠词",
+        "phonetic": "/ðə/ 或 /ðiː/"
+      },
+      {
+        "text": "way,",
+        "meaning": "（构成顺便说一句）",
+        "pos": "名词",
+        "phonetic": "/weɪ/"
+      },
+      {
+        "text": "my",
+        "meaning": "我的",
+        "pos": "限定词",
+        "phonetic": "/maɪ/"
+      },
+      {
+        "text": "wife",
+        "meaning": "妻子",
+        "pos": "名词",
+        "phonetic": "/waɪf/"
+      },
+      {
+        "text": "wants",
+        "meaning": "想要",
+        "pos": "动词",
+        "phonetic": "/ˈwɒnts/"
+      },
+      {
+        "text": "to",
+        "meaning": "（引出想做的动作）",
+        "pos": "不定式标记",
+        "phonetic": "/tuː/（元音前弱读为/tə/）"
+      },
+      {
+        "text": "know",
+        "meaning": "知道",
+        "pos": "动词",
+        "phonetic": "/nəʊ/"
+      },
+      {
+        "text": "if",
+        "meaning": "是否",
+        "pos": "连词",
+        "phonetic": "/ɪf/"
+      },
+      {
+        "text": "Mary",
+        "meaning": "玛丽（人名）",
+        "pos": "名词",
+        "phonetic": "/ˈmeəri/"
+      },
+      {
+        "text": "needs",
+        "meaning": "需要",
+        "pos": "动词",
+        "phonetic": "/niːdz/"
+      },
+      {
+        "text": "any",
+        "meaning": "一些、任何（用于是否需要的询问）",
+        "pos": "限定词",
+        "phonetic": "/ˈeni/"
+      },
+      {
+        "text": "help.",
+        "meaning": "帮助",
+        "pos": "名词",
+        "phonetic": "/help/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "顺便补充妻子的询问，重点是玛丽是否需要帮助。",
+      "letterShape": "O_, a__ b_ t__ w__, m_ w___ w____ t_ k___ i_ M___ n____ a__ h___.",
+      "answerNote": "先判断if从句在提供未知内容还是在设条件，本句属于前者。"
+    },
+    "teacherTip": {
+      "text": "先用 by the way 提醒对方要补充一件事，再说妻子想确认的内容。这里 if 不是“如果玛丽需要”，而是“玛丽是否需要”：前面是在问自己想知道什么，不是在给后面某个行动设条件。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

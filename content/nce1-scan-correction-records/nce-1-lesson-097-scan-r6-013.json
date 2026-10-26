@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-97",
+    "sentenceId": "nce-1-lesson-097-scan-r6-013",
+    "sentenceOrder": 13,
+    "english": "D. N. Hall, 83, Bridge Street.",
+    "chinese": "D. N. 霍尔，大桥街83号。",
+    "intent": "工作人员核对标签上的姓名与地址信息",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "D. N. Hall,",
+        "relation": "姓名信息",
+        "meaning": "D. N. 霍尔"
+      },
+      {
+        "text": "83, Bridge Street.",
+        "relation": "地址信息",
+        "meaning": "大桥街83号"
+      }
+    ],
+    "notes": [
+      {
+        "title": "英文地址顺序",
+        "text": "英文地址遵循从小到大的顺序，先写门牌号，再写街道名称，与中文从大到小的表述顺序不同。"
+      },
+      {
+        "title": "姓名缩写",
+        "text": "名字的缩写形式是首字母后加句点，常用于正式标签、信函等场景。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "英文地址顺序",
+        "text": "英文地址遵循从小到大的顺序，先写门牌号，再写街道名称，与中文从大到小的表述顺序不同。"
+      },
+      {
+        "title": "姓名缩写",
+        "text": "名字的缩写形式是首字母后加句点，常用于正式标签、信函等场景。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "D. N. Hall, 83, Bridge Street.",
+        "role": "名词短语（核对用的身份地址信息）",
+        "explanation": "整体是由姓名和地址两部分组成的名词性信息，用于核对标签上的内容，没有完整的主谓结构。"
+      }
+    ],
+    "words": [
+      {
+        "text": "D.",
+        "meaning": "D.（名字首字母缩写）",
+        "pos": "名词（名字缩写）",
+        "phonetic": "/diː/"
+      },
+      {
+        "text": "N.",
+        "meaning": "N.（名字首字母缩写）",
+        "pos": "名词（名字缩写）",
+        "phonetic": "/en/"
+      },
+      {
+        "text": "Hall,",
+        "meaning": "霍尔（姓氏）",
+        "pos": "专有名词",
+        "phonetic": "/hɔːl/"
+      },
+      {
+        "text": "83,",
+        "meaning": "83号",
+        "pos": "数词",
+        "phonetic": "/ˈθɜːti θriː/"
+      },
+      {
+        "text": "Bridge",
+        "meaning": "桥（街道名组成部分）",
+        "pos": "专有名词",
+        "phonetic": "/brɪdʒ/"
+      },
+      {
+        "text": "Street.",
+        "meaning": "街，街道（街道名组成部分）",
+        "pos": "专有名词",
+        "phonetic": "/striːt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "写标签上的姓名加地址，按英文从小到大的地址顺序组织信息",
+      "letterShape": "D. N. H___, 8_, B_____ S_____.",
+      "answerNote": "先写姓名缩写，再写门牌号和街道名"
+    },
+    "teacherTip": {
+      "text": "英文地址习惯从小到大，先说门牌号再讲街道名，和中文从大到小的顺序不同。姓名缩写的首字母后要加句点，正式标签上常用这种缩写形式。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "修正了结构角色的括号闭合问题，调整了词义表述的准确性，知识点符合教学要求"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。修正了结构角色的括号闭合问题，调整了词义表述的准确性，知识点符合教学要求"
+  }
+}

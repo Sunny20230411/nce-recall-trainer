@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-109",
+    "sentenceId": "nce-1-lesson-109-scan-r6-017",
+    "sentenceOrder": 17,
+    "english": "I think there are a few in that box.",
+    "chinese": "我想那个盒子里还有几支。",
+    "intent": "凭印象告知香烟所在与余量",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I think",
+        "relation": "判断保留",
+        "meaning": "我想"
+      },
+      {
+        "text": "there are a few",
+        "relation": "存在与数量",
+        "meaning": "还有几支"
+      },
+      {
+        "text": "in that box.",
+        "relation": "存放地点",
+        "meaning": "在那个盒子里"
+      }
+    ],
+    "notes": [
+      {
+        "title": "存在句",
+        "text": "there are 表示某处有某物，there 不表示那里。"
+      },
+      {
+        "title": "数量短语",
+        "text": "a few 省略了 cigarettes，表示少量但有一些，与 few 的几乎没有不同。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "存在句",
+        "text": "there are 表示某处有某物，there 不表示那里。"
+      },
+      {
+        "title": "数量短语",
+        "text": "a few 省略了 cigarettes，表示少量但有一些，与 few 的几乎没有不同。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I",
+        "role": "主句主语",
+        "explanation": "作出判断的人。"
+      },
+      {
+        "text": "think",
+        "role": "主句谓语",
+        "explanation": "引出省略 that 的宾语从句。"
+      },
+      {
+        "text": "there",
+        "role": "存在句引导成分",
+        "explanation": "there 引出存在信息，不指地点。"
+      },
+      {
+        "text": "are",
+        "role": "从句谓语",
+        "explanation": "are 表示存在，与复数数量呼应。"
+      },
+      {
+        "text": "a few",
+        "role": "存在句实际主语",
+        "explanation": "指几支香烟，名词已省略。"
+      },
+      {
+        "text": "in that box.",
+        "role": "地点状语",
+        "explanation": "说明香烟所在。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "think",
+        "meaning": "想；认为",
+        "pos": "动词",
+        "phonetic": "/θɪŋk/"
+      },
+      {
+        "text": "there",
+        "meaning": "（引出存在句，无实义）",
+        "pos": "引导词",
+        "phonetic": "/ðeə/"
+      },
+      {
+        "text": "are",
+        "meaning": "有",
+        "pos": "动词",
+        "phonetic": "/ɑː/"
+      },
+      {
+        "text": "a",
+        "meaning": "（与 few 构成几个）",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "few",
+        "meaning": "几支；少数几支",
+        "pos": "代词",
+        "phonetic": "/fjuː/"
+      },
+      {
+        "text": "in",
+        "meaning": "在……里",
+        "pos": "介词",
+        "phonetic": "/ɪn/"
+      },
+      {
+        "text": "that",
+        "meaning": "那个",
+        "pos": "指示限定词",
+        "phonetic": "/ðæt/"
+      },
+      {
+        "text": "box.",
+        "meaning": "盒子",
+        "pos": "名词",
+        "phonetic": "/bɒks/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "带一点不确定地说，那个盒子里有少量香烟。",
+      "letterShape": "I t____ t____ a__ a f__ i_ t___ b__.",
+      "answerNote": "认为后接存在句，复数数量用肯定意义的几个。"
+    },
+    "teacherTip": {
+      "text": "I think 留出自己可能记错的余地，后面不是说谁拥有香烟，而是说那个盒子里有。a few 表示还有几支，并非“几乎没有”，因此才会建议对方去拿。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

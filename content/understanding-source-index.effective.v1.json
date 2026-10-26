@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "revision": 5,
+  "revision": 6,
   "complete": true,
   "records": [
     {
@@ -359,12 +359,9 @@
       "lessonId": "lesson-7",
       "sentenceId": "nce-1-lesson-007-sentence-001-part-01",
       "sentenceOrder": 1,
-      "english": "I'm a new student.",
+      "english": "I am a new student.",
       "chinese": "我是一名新学生。",
-      "lesson": "Lesson 7 Are you a teacher?",
-      "parentSentenceId": "nce-1-lesson-007-sentence-001",
-      "parentEnglish": "I'm a new student. My name's Robert.",
-      "tokenOffset": 0
+      "lesson": "Lesson 7 Are you a teacher?"
     },
     {
       "courseId": "nce1",
@@ -434,7 +431,7 @@
       "lessonId": "lesson-7",
       "sentenceId": "nce-1-lesson-007-sentence-006",
       "sentenceOrder": 8,
-      "english": "No, I'm not.",
+      "english": "No, I am not.",
       "chinese": "不，我不是。",
       "lesson": "Lesson 7 Are you a teacher?"
     },
@@ -573,9 +570,9 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-9",
-      "sentenceId": "nce-1-lesson-009-sentence-006",
+      "sentenceId": "nce-1-lesson-009-scan-r6-007",
       "sentenceOrder": 7,
-      "english": "How's Tony?",
+      "english": "How is Tony?",
       "chinese": "托尼好吗？",
       "lesson": "Lesson 9 How are you today?"
     },
@@ -591,10 +588,10 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-9",
-      "sentenceId": "nce-1-lesson-009-sentence-008",
+      "sentenceId": "nce-1-lesson-009-scan-r6-009",
       "sentenceOrder": 9,
-      "english": "How's Mrs. Ford?",
-      "chinese": "福特太太好吗？",
+      "english": "How's Emma?",
+      "chinese": "埃玛好吗？",
       "lesson": "Lesson 9 How are you today?"
     },
     {
@@ -971,12 +968,9 @@
       "lessonId": "lesson-15",
       "sentenceId": "nce-1-lesson-015-sentence-002-part-01",
       "sentenceOrder": 2,
-      "english": "No, we aren't.",
+      "english": "No, we are not.",
       "chinese": "不，我们不是。",
-      "lesson": "Lesson 15 Your passports, please.",
-      "parentSentenceId": "nce-1-lesson-015-sentence-002",
-      "parentEnglish": "No, we aren't. We are Danish.",
-      "tokenOffset": 0
+      "lesson": "Lesson 15 Your passports, please."
     },
     {
       "courseId": "nce1",
@@ -1014,14 +1008,11 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-15",
-      "sentenceId": "nce-1-lesson-015-sentence-004-part-02",
+      "sentenceId": "nce-1-lesson-015-scan-r6-006",
       "sentenceOrder": 6,
-      "english": "They're Norwegian.",
+      "english": "They are Norwegian.",
       "chinese": "他们是挪威人。",
-      "lesson": "Lesson 15 Your passports, please.",
-      "parentSentenceId": "nce-1-lesson-015-sentence-004",
-      "parentEnglish": "No, they aren't. They're Norwegian.",
-      "tokenOffset": 3
+      "lesson": "Lesson 15 Your passports, please."
     },
     {
       "courseId": "nce1",
@@ -1106,7 +1097,7 @@
       "lessonId": "lesson-15",
       "sentenceId": "nce-1-lesson-015-sentence-012",
       "sentenceOrder": 15,
-      "english": "Are your friends tourists, too?",
+      "english": "Are your friends tourists too?",
       "chinese": "你们的朋友也是游客吗？",
       "lesson": "Lesson 15 Your passports, please."
     },
@@ -1919,15 +1910,6 @@
     },
     {
       "courseId": "nce1",
-      "lessonId": "lesson-29",
-      "sentenceId": "nce-1-lesson-029-sentence-010",
-      "sentenceOrder": 10,
-      "english": "Right.",
-      "chinese": "好的。",
-      "lesson": "Lesson 29 Come in, Amy."
-    },
-    {
-      "courseId": "nce1",
       "lessonId": "lesson-31",
       "sentenceId": "nce-1-lesson-031-sentence-001",
       "sentenceOrder": 1,
@@ -2063,7 +2045,7 @@
       "lessonId": "lesson-33",
       "sentenceId": "nce-1-lesson-033-sentence-001",
       "sentenceOrder": 1,
-      "english": "It's a fine day today.",
+      "english": "It is a fine day today.",
       "chinese": "今天天气很好。",
       "lesson": "Lesson 33 A fine day"
     },
@@ -2286,26 +2268,116 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-37",
-      "sentenceId": "nce-1-lesson-037-sentence-001",
+      "sentenceId": "nce-1-lesson-037-scan-r6-001",
       "sentenceOrder": 1,
-      "english": "What are you going to do, George?",
-      "chinese": "你打算做什么，乔治？",
+      "english": "You're working hard, George.",
+      "chinese": "你干得真卖力啊，乔治。",
+      "lesson": "Lesson 37 Making a bookcase"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-37",
+      "sentenceId": "nce-1-lesson-037-scan-r6-002",
+      "sentenceOrder": 2,
+      "english": "What are you doing?",
+      "chinese": "你在做什么？",
+      "lesson": "Lesson 37 Making a bookcase"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-37",
+      "sentenceId": "nce-1-lesson-037-scan-r6-003",
+      "sentenceOrder": 3,
+      "english": "I'm making a bookcase.",
+      "chinese": "我正在做一个书架。",
+      "lesson": "Lesson 37 Making a bookcase"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-37",
+      "sentenceId": "nce-1-lesson-037-scan-r6-004",
+      "sentenceOrder": 4,
+      "english": "Give me that hammer please, Dan.",
+      "chinese": "请把那把锤子递给我，丹。",
+      "lesson": "Lesson 37 Making a bookcase"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-37",
+      "sentenceId": "nce-1-lesson-037-scan-r6-005",
+      "sentenceOrder": 5,
+      "english": "Which hammer?",
+      "chinese": "哪一把锤子？",
+      "lesson": "Lesson 37 Making a bookcase"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-37",
+      "sentenceId": "nce-1-lesson-037-scan-r6-006",
+      "sentenceOrder": 6,
+      "english": "This one?",
+      "chinese": "这一把吗？",
+      "lesson": "Lesson 37 Making a bookcase"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-37",
+      "sentenceId": "nce-1-lesson-037-scan-r6-007",
+      "sentenceOrder": 7,
+      "english": "No, not that one.",
+      "chinese": "不，不是那一把。",
+      "lesson": "Lesson 37 Making a bookcase"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-37",
+      "sentenceId": "nce-1-lesson-037-scan-r6-008",
+      "sentenceOrder": 8,
+      "english": "The big one.",
+      "chinese": "那把大的。",
+      "lesson": "Lesson 37 Making a bookcase"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-37",
+      "sentenceId": "nce-1-lesson-037-scan-r6-009",
+      "sentenceOrder": 9,
+      "english": "Here you are.",
+      "chinese": "给你。",
+      "lesson": "Lesson 37 Making a bookcase"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-37",
+      "sentenceId": "nce-1-lesson-037-scan-r6-010",
+      "sentenceOrder": 10,
+      "english": "Thanks, Dan.",
+      "chinese": "谢谢你，丹。",
+      "lesson": "Lesson 37 Making a bookcase"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-37",
+      "sentenceId": "nce-1-lesson-037-sentence-001",
+      "sentenceOrder": 11,
+      "english": "What are you going to do now, George?",
+      "chinese": "你现在打算做什么，乔治？",
       "lesson": "Lesson 37 Making a bookcase"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-37",
       "sentenceId": "nce-1-lesson-037-sentence-002",
-      "sentenceOrder": 2,
-      "english": "I'm going to paint this bookcase.",
-      "chinese": "我打算给这个书架刷漆。",
+      "sentenceOrder": 12,
+      "english": "I'm going to paint it.",
+      "chinese": "我打算给它刷漆。",
       "lesson": "Lesson 37 Making a bookcase"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-37",
       "sentenceId": "nce-1-lesson-037-sentence-003",
-      "sentenceOrder": 3,
+      "sentenceOrder": 13,
       "english": "What colour are you going to paint it?",
       "chinese": "你打算把它刷成什么颜色？",
       "lesson": "Lesson 37 Making a bookcase"
@@ -2314,7 +2386,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-37",
       "sentenceId": "nce-1-lesson-037-sentence-004",
-      "sentenceOrder": 4,
+      "sentenceOrder": 14,
       "english": "I'm going to paint it pink.",
       "chinese": "我打算把它刷成粉红色。",
       "lesson": "Lesson 37 Making a bookcase"
@@ -2323,7 +2395,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-37",
       "sentenceId": "nce-1-lesson-037-sentence-005",
-      "sentenceOrder": 5,
+      "sentenceOrder": 15,
       "english": "Pink!",
       "chinese": "粉红色！",
       "lesson": "Lesson 37 Making a bookcase"
@@ -2332,7 +2404,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-37",
       "sentenceId": "nce-1-lesson-037-sentence-006",
-      "sentenceOrder": 6,
+      "sentenceOrder": 16,
       "english": "This bookcase isn't for me.",
       "chinese": "这个书架不是给我的。",
       "lesson": "Lesson 37 Making a bookcase"
@@ -2341,7 +2413,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-37",
       "sentenceId": "nce-1-lesson-037-sentence-007",
-      "sentenceOrder": 7,
+      "sentenceOrder": 17,
       "english": "It's for my daughter, Susan.",
       "chinese": "它是给我女儿苏珊的。",
       "lesson": "Lesson 37 Making a bookcase"
@@ -2350,7 +2422,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-37",
       "sentenceId": "nce-1-lesson-037-sentence-008",
-      "sentenceOrder": 8,
+      "sentenceOrder": 18,
       "english": "Pink's her favourite colour.",
       "chinese": "粉红色是她最喜欢的颜色。",
       "lesson": "Lesson 37 Making a bookcase"
@@ -2456,27 +2528,15 @@
       "lessonId": "lesson-39",
       "sentenceId": "nce-1-lesson-039-sentence-007-part-02",
       "sentenceOrder": 10,
-      "english": "Put it on the shelf.",
-      "chinese": "把它放在架子上。",
-      "lesson": "Lesson 39 Don't drop it!",
-      "parentSentenceId": "nce-1-lesson-039-sentence-007",
-      "parentEnglish": "Don't put it there, Sam. Put it on the shelf.",
-      "tokenOffset": 5
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-39",
-      "sentenceId": "nce-1-lesson-039-sentence-008",
-      "sentenceOrder": 11,
-      "english": "All right, Sam.",
-      "chinese": "好吧，萨姆。",
+      "english": "Put it here, on this shelf.",
+      "chinese": "放在这儿，这个架子上。",
       "lesson": "Lesson 39 Don't drop it!"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-39",
       "sentenceId": "nce-1-lesson-039-sentence-009-part-01",
-      "sentenceOrder": 12,
+      "sentenceOrder": 11,
       "english": "There we are!",
       "chinese": "好了！",
       "lesson": "Lesson 39 Don't drop it!",
@@ -2488,7 +2548,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-39",
       "sentenceId": "nce-1-lesson-039-sentence-009-part-02",
-      "sentenceOrder": 13,
+      "sentenceOrder": 12,
       "english": "It's a lovely vase.",
       "chinese": "这是个漂亮的花瓶。",
       "lesson": "Lesson 39 Don't drop it!",
@@ -2500,7 +2560,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-39",
       "sentenceId": "nce-1-lesson-039-sentence-010",
-      "sentenceOrder": 14,
+      "sentenceOrder": 13,
       "english": "Those flowers are lovely, too.",
       "chinese": "那些花也很漂亮。",
       "lesson": "Lesson 39 Don't drop it!"
@@ -2816,12 +2876,9 @@
       "lessonId": "lesson-43",
       "sentenceId": "nce-1-lesson-043-sentence-014-part-01",
       "sentenceOrder": 17,
-      "english": "Hurry up, Sam.",
-      "chinese": "快点，萨姆。",
-      "lesson": "Lesson 43 Hurry up!",
-      "parentSentenceId": "nce-1-lesson-043-sentence-014",
-      "parentEnglish": "Hurry up, Sam. The kettle's boiling!",
-      "tokenOffset": 0
+      "english": "Hurry up, Sam!",
+      "chinese": "快点，萨姆！",
+      "lesson": "Lesson 43 Hurry up!"
     },
     {
       "courseId": "nce1",
@@ -2900,8 +2957,8 @@
       "lessonId": "lesson-45",
       "sentenceId": "nce-1-lesson-045-sentence-006",
       "sentenceOrder": 7,
-      "english": "Ask her please, Bob.",
-      "chinese": "鲍勃，请去问问她。",
+      "english": "Ask her please.",
+      "chinese": "请去问问她。",
       "lesson": "Lesson 45 The boss's letter"
     },
     {
@@ -2918,7 +2975,7 @@
       "lessonId": "lesson-45",
       "sentenceId": "nce-1-lesson-045-sentence-008",
       "sentenceOrder": 9,
-      "english": "Pamela, can you type this letter for the boss please?",
+      "english": "Can you type this letter for the boss please, Pamela?",
       "chinese": "帕梅拉，请你替老板打这封信好吗？",
       "lesson": "Lesson 45 The boss's letter"
     },
@@ -2945,8 +3002,8 @@
       "lessonId": "lesson-45",
       "sentenceId": "nce-1-lesson-045-sentence-011",
       "sentenceOrder": 12,
-      "english": "Thank you, Pamela.",
-      "chinese": "谢谢你，帕梅拉。",
+      "english": "Thank you, Bob.",
+      "chinese": "谢谢你，鲍勃。",
       "lesson": "Lesson 45 The boss's letter"
     },
     {
@@ -2963,17 +3020,17 @@
       "lessonId": "lesson-45",
       "sentenceId": "nce-1-lesson-045-sentence-013",
       "sentenceOrder": 14,
-      "english": "Yes, sir?",
-      "chinese": "什么事，先生？",
+      "english": "Yes?",
+      "chinese": "什么事？",
       "lesson": "Lesson 45 The boss's letter"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-45",
-      "sentenceId": "nce-1-lesson-045-sentence-014",
+      "sentenceId": "nce-1-lesson-045-scan-r6-015",
       "sentenceOrder": 15,
-      "english": "Can you take this letter to her?",
-      "chinese": "你能把这封信拿给她吗？",
+      "english": "What's the matter?",
+      "chinese": "怎么了？",
       "lesson": "Lesson 45 The boss's letter"
     },
     {
@@ -2988,17 +3045,8 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-45",
-      "sentenceId": "nce-1-lesson-045-sentence-016",
-      "sentenceOrder": 17,
-      "english": "Why can't you?",
-      "chinese": "你为什么打不了？",
-      "lesson": "Lesson 45 The boss's letter"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-45",
       "sentenceId": "nce-1-lesson-045-sentence-017-part-01",
-      "sentenceOrder": 18,
+      "sentenceOrder": 17,
       "english": "I can't read it!",
       "chinese": "我看不懂它！",
       "lesson": "Lesson 45 The boss's letter",
@@ -3010,7 +3058,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-45",
       "sentenceId": "nce-1-lesson-045-sentence-017-part-02",
-      "sentenceOrder": 19,
+      "sentenceOrder": 18,
       "english": "The boss's handwriting is terrible!",
       "chinese": "老板的字迹太糟糕了！",
       "lesson": "Lesson 45 The boss's letter",
@@ -3057,26 +3105,8 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-47",
-      "sentenceId": "nce-1-lesson-047-sentence-005",
-      "sentenceOrder": 5,
-      "english": "Would you like a cup of coffee?",
-      "chinese": "你想喝一杯咖啡吗？",
-      "lesson": "Lesson 47 A cup of coffee"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-47",
-      "sentenceId": "nce-1-lesson-047-sentence-006",
-      "sentenceOrder": 6,
-      "english": "Yes, please.",
-      "chinese": "好的，请来一杯。",
-      "lesson": "Lesson 47 A cup of coffee"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-47",
       "sentenceId": "nce-1-lesson-047-sentence-007",
-      "sentenceOrder": 7,
+      "sentenceOrder": 5,
       "english": "Do you want any sugar?",
       "chinese": "你要加糖吗？",
       "lesson": "Lesson 47 A cup of coffee"
@@ -3085,7 +3115,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-47",
       "sentenceId": "nce-1-lesson-047-sentence-008",
-      "sentenceOrder": 8,
+      "sentenceOrder": 6,
       "english": "Yes, please.",
       "chinese": "好的，请给我加一点。",
       "lesson": "Lesson 47 A cup of coffee"
@@ -3094,7 +3124,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-47",
       "sentenceId": "nce-1-lesson-047-sentence-009",
-      "sentenceOrder": 9,
+      "sentenceOrder": 7,
       "english": "Do you want any milk?",
       "chinese": "你要加牛奶吗？",
       "lesson": "Lesson 47 A cup of coffee"
@@ -3103,7 +3133,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-47",
       "sentenceId": "nce-1-lesson-047-sentence-010",
-      "sentenceOrder": 10,
+      "sentenceOrder": 8,
       "english": "No, thank you.",
       "chinese": "不了，谢谢。",
       "lesson": "Lesson 47 A cup of coffee"
@@ -3112,7 +3142,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-47",
       "sentenceId": "nce-1-lesson-047-sentence-011",
-      "sentenceOrder": 11,
+      "sentenceOrder": 9,
       "english": "I don't like milk in my coffee.",
       "chinese": "我不喜欢咖啡里加牛奶。",
       "lesson": "Lesson 47 A cup of coffee"
@@ -3121,7 +3151,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-47",
       "sentenceId": "nce-1-lesson-047-sentence-012",
-      "sentenceOrder": 12,
+      "sentenceOrder": 10,
       "english": "I like black coffee.",
       "chinese": "我喜欢黑咖啡。",
       "lesson": "Lesson 47 A cup of coffee"
@@ -3130,7 +3160,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-47",
       "sentenceId": "nce-1-lesson-047-sentence-013",
-      "sentenceOrder": 13,
+      "sentenceOrder": 11,
       "english": "Do you like biscuits?",
       "chinese": "你喜欢饼干吗？",
       "lesson": "Lesson 47 A cup of coffee"
@@ -3138,17 +3168,17 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-47",
-      "sentenceId": "nce-1-lesson-047-sentence-014",
-      "sentenceOrder": 14,
-      "english": "Yes.",
-      "chinese": "喜欢。",
+      "sentenceId": "nce-1-lesson-047-scan-r6-012",
+      "sentenceOrder": 12,
+      "english": "Yes, I do.",
+      "chinese": "是的，我喜欢。",
       "lesson": "Lesson 47 A cup of coffee"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-47",
       "sentenceId": "nce-1-lesson-047-sentence-015",
-      "sentenceOrder": 15,
+      "sentenceOrder": 13,
       "english": "Do you want one?",
       "chinese": "你想要一个吗？",
       "lesson": "Lesson 47 A cup of coffee"
@@ -3157,7 +3187,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-47",
       "sentenceId": "nce-1-lesson-047-sentence-016",
-      "sentenceOrder": 16,
+      "sentenceOrder": 14,
       "english": "Yes, please.",
       "chinese": "好的，请给我一块。",
       "lesson": "Lesson 47 A cup of coffee"
@@ -3605,6 +3635,15 @@
     },
     {
       "courseId": "nce1",
+      "lessonId": "lesson-53",
+      "sentenceId": "nce-1-lesson-053-scan-r6-015",
+      "sentenceOrder": 15,
+      "english": "It's our favourite subject of conversation.",
+      "chinese": "这是我们最喜欢的话题。",
+      "lesson": "Lesson 53 An interesting climate"
+    },
+    {
+      "courseId": "nce1",
       "lessonId": "lesson-55",
       "sentenceId": "nce-1-lesson-055-sentence-001",
       "sentenceOrder": 1,
@@ -3891,116 +3930,278 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-59",
-      "sentenceId": "nce-1-lesson-059-sentence-001",
+      "sentenceId": "nce-1-lesson-059-scan-r6-001",
       "sentenceOrder": 1,
-      "english": "What's in the bag?",
-      "chinese": "包里有什么？",
+      "english": "I want some envelopes, please.",
+      "chinese": "请给我一些信封。",
       "lesson": "Lesson 59 Is that all?"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-59",
-      "sentenceId": "nce-1-lesson-059-sentence-002",
+      "sentenceId": "nce-1-lesson-059-scan-r6-002",
       "sentenceOrder": 2,
-      "english": "There's a loaf of bread in the bag.",
-      "chinese": "包里有一条面包。",
+      "english": "Do you want the large size or the small size?",
+      "chinese": "您想要大号的还是小号的？",
       "lesson": "Lesson 59 Is that all?"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-59",
-      "sentenceId": "nce-1-lesson-059-sentence-003",
+      "sentenceId": "nce-1-lesson-059-scan-r6-003",
       "sentenceOrder": 3,
-      "english": "Is there any cheese in the bag?",
-      "chinese": "包里有奶酪吗？",
+      "english": "The large size, please.",
+      "chinese": "请给我大号的。",
       "lesson": "Lesson 59 Is that all?"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-59",
-      "sentenceId": "nce-1-lesson-059-sentence-004",
+      "sentenceId": "nce-1-lesson-059-scan-r6-004",
       "sentenceOrder": 4,
-      "english": "No, there isn't any cheese in the bag.",
-      "chinese": "没有，包里没有奶酪。",
+      "english": "Do you have any writing paper?",
+      "chinese": "你们有信纸吗？",
       "lesson": "Lesson 59 Is that all?"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-59",
-      "sentenceId": "nce-1-lesson-059-sentence-005",
+      "sentenceId": "nce-1-lesson-059-scan-r6-005",
       "sentenceOrder": 5,
-      "english": "Is there any soap on the dressing table?",
-      "chinese": "梳妆台上有肥皂吗？",
+      "english": "Yes, we do.",
+      "chinese": "是的，我们有。",
       "lesson": "Lesson 59 Is that all?"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-59",
-      "sentenceId": "nce-1-lesson-059-sentence-006",
+      "sentenceId": "nce-1-lesson-059-scan-r6-006",
       "sentenceOrder": 6,
-      "english": "Yes, there's some soap on the dressing table.",
-      "chinese": "有，梳妆台上有一些肥皂。",
+      "english": "I don't have any small pads.",
+      "chinese": "我没有小本的信纸。",
       "lesson": "Lesson 59 Is that all?"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-59",
-      "sentenceId": "nce-1-lesson-059-sentence-007",
+      "sentenceId": "nce-1-lesson-059-scan-r6-007",
       "sentenceOrder": 7,
-      "english": "Is there any tobacco in the cupboard?",
-      "chinese": "碗橱里有烟丝吗？",
+      "english": "I only have large ones.",
+      "chinese": "我只有大本的。",
       "lesson": "Lesson 59 Is that all?"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-59",
-      "sentenceId": "nce-1-lesson-059-sentence-008",
+      "sentenceId": "nce-1-lesson-059-scan-r6-008",
       "sentenceOrder": 8,
-      "english": "No, there isn't any tobacco in the cupboard.",
-      "chinese": "没有，碗橱里没有烟丝。",
+      "english": "Do you want a pad?",
+      "chinese": "你要一本便笺簿吗？",
       "lesson": "Lesson 59 Is that all?"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-59",
-      "sentenceId": "nce-1-lesson-059-sentence-009",
+      "sentenceId": "nce-1-lesson-059-scan-r6-009",
       "sentenceOrder": 9,
-      "english": "Is there any water in the bottle?",
-      "chinese": "瓶子里有水吗？",
+      "english": "Yes, please.",
+      "chinese": "好的，麻烦了。",
       "lesson": "Lesson 59 Is that all?"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-59",
-      "sentenceId": "nce-1-lesson-059-sentence-010",
+      "sentenceId": "nce-1-lesson-059-scan-r6-010",
       "sentenceOrder": 10,
-      "english": "Yes, there's some water in the bottle.",
-      "chinese": "有，瓶子里有一些水。",
+      "english": "And I want some glue.",
+      "chinese": "我还要一些胶水。",
+      "lesson": "Lesson 59 Is that all?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-59",
+      "sentenceId": "nce-1-lesson-059-scan-r6-011",
+      "sentenceOrder": 11,
+      "english": "A bottle of glue.",
+      "chinese": "一瓶胶水。",
+      "lesson": "Lesson 59 Is that all?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-59",
+      "sentenceId": "nce-1-lesson-059-scan-r6-012",
+      "sentenceOrder": 12,
+      "english": "And I want a large box of chalk, too.",
+      "chinese": "我还要一大盒粉笔。",
+      "lesson": "Lesson 59 Is that all?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-59",
+      "sentenceId": "nce-1-lesson-059-scan-r6-013",
+      "sentenceOrder": 13,
+      "english": "I only have small boxes.",
+      "chinese": "我只有小盒的。",
+      "lesson": "Lesson 59 Is that all?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-59",
+      "sentenceId": "nce-1-lesson-059-scan-r6-014",
+      "sentenceOrder": 14,
+      "english": "Do you want one?",
+      "chinese": "您想要一盒吗？",
+      "lesson": "Lesson 59 Is that all?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-59",
+      "sentenceId": "nce-1-lesson-059-scan-r6-015",
+      "sentenceOrder": 15,
+      "english": "No, thank you.",
+      "chinese": "不了，谢谢您。",
+      "lesson": "Lesson 59 Is that all?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-59",
+      "sentenceId": "nce-1-lesson-059-scan-r6-016",
+      "sentenceOrder": 16,
+      "english": "Is that all?",
+      "chinese": "就这些了吗？",
+      "lesson": "Lesson 59 Is that all?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-59",
+      "sentenceId": "nce-1-lesson-059-scan-r6-017",
+      "sentenceOrder": 17,
+      "english": "That's all, thank you.",
+      "chinese": "就这些了，谢谢您。",
+      "lesson": "Lesson 59 Is that all?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-59",
+      "sentenceId": "nce-1-lesson-059-scan-r6-018",
+      "sentenceOrder": 18,
+      "english": "What else do you want?",
+      "chinese": "您还要别的吗？",
+      "lesson": "Lesson 59 Is that all?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-59",
+      "sentenceId": "nce-1-lesson-059-scan-r6-019",
+      "sentenceOrder": 19,
+      "english": "I want my change.",
+      "chinese": "我还要您找给我的零钱。",
       "lesson": "Lesson 59 Is that all?"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-61",
-      "sentenceId": "nce-1-lesson-061-sentence-001",
+      "sentenceId": "nce-1-lesson-061-scan-r6-001",
       "sentenceOrder": 1,
-      "english": "What's the matter with you, Jimmy?",
-      "chinese": "你怎么了，吉米？",
+      "english": "Where's Jimmy?",
+      "chinese": "吉米在哪儿？",
       "lesson": "Lesson 61 A bad cold"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-61",
-      "sentenceId": "nce-1-lesson-061-sentence-002",
+      "sentenceId": "nce-1-lesson-061-scan-r6-002",
       "sentenceOrder": 2,
-      "english": "I feel ill.",
-      "chinese": "我觉得不舒服。",
+      "english": "He's in bed.",
+      "chinese": "他躺在床上。",
+      "lesson": "Lesson 61 A bad cold"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-61",
+      "sentenceId": "nce-1-lesson-061-sentence-001",
+      "sentenceOrder": 3,
+      "english": "What's the matter with him?",
+      "chinese": "他怎么了？",
+      "lesson": "Lesson 61 A bad cold"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-61",
+      "sentenceId": "nce-1-lesson-061-scan-r6-004",
+      "sentenceOrder": 4,
+      "english": "He feels ill.",
+      "chinese": "他觉得不舒服。",
+      "lesson": "Lesson 61 A bad cold"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-61",
+      "sentenceId": "nce-1-lesson-061-scan-r6-005",
+      "sentenceOrder": 5,
+      "english": "He looks ill.",
+      "chinese": "他看起来病了。",
+      "lesson": "Lesson 61 A bad cold"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-61",
+      "sentenceId": "nce-1-lesson-061-scan-r6-006",
+      "sentenceOrder": 6,
+      "english": "We must call the doctor.",
+      "chinese": "我们得请医生来。",
+      "lesson": "Lesson 61 A bad cold"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-61",
+      "sentenceId": "nce-1-lesson-061-scan-r6-007",
+      "sentenceOrder": 7,
+      "english": "Yes, we must.",
+      "chinese": "是的，我们必须（请医生）。",
+      "lesson": "Lesson 61 A bad cold"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-61",
+      "sentenceId": "nce-1-lesson-061-scan-r6-008",
+      "sentenceOrder": 8,
+      "english": "Can you remember the doctor's telephone number?",
+      "chinese": "你还记得医生的电话号码吗？",
+      "lesson": "Lesson 61 A bad cold"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-61",
+      "sentenceId": "nce-1-lesson-061-scan-r6-009",
+      "sentenceOrder": 9,
+      "english": "Yes.",
+      "chinese": "记得。",
+      "lesson": "Lesson 61 A bad cold"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-61",
+      "sentenceId": "nce-1-lesson-061-scan-r6-010",
+      "sentenceOrder": 10,
+      "english": "It's 09754.",
+      "chinese": "是09754。",
+      "lesson": "Lesson 61 A bad cold"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-61",
+      "sentenceId": "nce-1-lesson-061-scan-r6-011",
+      "sentenceOrder": 11,
+      "english": "Open your mouth, Jimmy.",
+      "chinese": "张开嘴，吉米。",
       "lesson": "Lesson 61 A bad cold"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-61",
       "sentenceId": "nce-1-lesson-061-sentence-003-part-01",
-      "sentenceOrder": 3,
+      "sentenceOrder": 12,
       "english": "Show me your tongue.",
       "chinese": "让我看看你的舌头。",
       "lesson": "Lesson 61 A bad cold",
@@ -4012,20 +4213,17 @@
       "courseId": "nce1",
       "lessonId": "lesson-61",
       "sentenceId": "nce-1-lesson-061-sentence-003-part-02",
-      "sentenceOrder": 4,
-      "english": "Say, Ah.",
-      "chinese": "说，啊。",
-      "lesson": "Lesson 61 A bad cold",
-      "parentSentenceId": "nce-1-lesson-061-sentence-003",
-      "parentEnglish": "Show me your tongue. Say, Ah.",
-      "tokenOffset": 4
+      "sentenceOrder": 13,
+      "english": "Say, 'Ah'.",
+      "chinese": "说“啊”。",
+      "lesson": "Lesson 61 A bad cold"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-61",
       "sentenceId": "nce-1-lesson-061-sentence-004",
-      "sentenceOrder": 5,
-      "english": "What's wrong with him, doctor?",
+      "sentenceOrder": 14,
+      "english": "What's the matter with him, doctor?",
       "chinese": "医生，他怎么了？",
       "lesson": "Lesson 61 A bad cold"
     },
@@ -4033,7 +4231,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-61",
       "sentenceId": "nce-1-lesson-061-sentence-005",
-      "sentenceOrder": 6,
+      "sentenceOrder": 15,
       "english": "He has a bad cold, Mr. Williams, so he must stay in bed for a week.",
       "chinese": "他得了重感冒，威廉斯先生，所以他必须卧床一周。",
       "lesson": "Lesson 61 A bad cold"
@@ -4042,7 +4240,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-61",
       "sentenceId": "nce-1-lesson-061-sentence-006",
-      "sentenceOrder": 7,
+      "sentenceOrder": 16,
       "english": "That's good news for Jimmy.",
       "chinese": "这对吉米来说是个好消息。",
       "lesson": "Lesson 61 A bad cold"
@@ -4051,7 +4249,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-61",
       "sentenceId": "nce-1-lesson-061-sentence-007-part-01",
-      "sentenceOrder": 8,
+      "sentenceOrder": 17,
       "english": "Good news?",
       "chinese": "好消息？",
       "lesson": "Lesson 61 A bad cold",
@@ -4063,7 +4261,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-61",
       "sentenceId": "nce-1-lesson-061-sentence-007-part-02",
-      "sentenceOrder": 9,
+      "sentenceOrder": 18,
       "english": "Why?",
       "chinese": "为什么？",
       "lesson": "Lesson 61 A bad cold",
@@ -4075,7 +4273,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-61",
       "sentenceId": "nce-1-lesson-061-sentence-008",
-      "sentenceOrder": 10,
+      "sentenceOrder": 19,
       "english": "Because he doesn't like school!",
       "chinese": "因为他不喜欢上学！",
       "lesson": "Lesson 61 A bad cold"
@@ -4178,12 +4376,9 @@
       "lessonId": "lesson-63",
       "sentenceId": "nce-1-lesson-063-sentence-008-part-01",
       "sentenceOrder": 10,
-      "english": "The boy mustn't go to school yet, Mr. Williams.",
-      "chinese": "这个男孩还不能去上学，威廉斯先生。",
-      "lesson": "Lesson 63 Thank you, doctor.",
-      "parentSentenceId": "nce-1-lesson-063-sentence-008",
-      "parentEnglish": "The boy mustn't go to school yet, Mr. Williams. And he mustn't eat rich food.",
-      "tokenOffset": 0
+      "english": "The boy mustn't go to school yet, Mrs. Williams.",
+      "chinese": "这个男孩还不能去上学，威廉斯夫人。",
+      "lesson": "Lesson 63 Thank you, doctor."
     },
     {
       "courseId": "nce1",
@@ -4343,7 +4538,7 @@
       "lessonId": "lesson-65",
       "sentenceId": "nce-1-lesson-065-sentence-005",
       "sentenceOrder": 6,
-      "english": "Can I have the key to the front door please?",
+      "english": "Can I have the key to the front door, please?",
       "chinese": "请把前门钥匙给我好吗？",
       "lesson": "Lesson 65 Not a baby"
     },
@@ -4500,26 +4695,35 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-67",
-      "sentenceId": "nce-1-lesson-067-sentence-001",
+      "sentenceId": "nce-1-lesson-067-scan-r6-001",
       "sentenceOrder": 1,
-      "english": "Where were you at the baker's on Friday?",
-      "chinese": "星期五你在哪里？是在面包店吗？",
+      "english": "Hello.",
+      "chinese": "你好。",
       "lesson": "Lesson 67 The weekend"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-67",
-      "sentenceId": "nce-1-lesson-067-sentence-002",
+      "sentenceId": "nce-1-lesson-067-sentence-001",
       "sentenceOrder": 2,
-      "english": "I was at the baker's on Friday.",
-      "chinese": "星期五我在面包店。",
+      "english": "Were you at the butcher's?",
+      "chinese": "你在肉店吗？",
+      "lesson": "Lesson 67 The weekend"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-67",
+      "sentenceId": "nce-1-lesson-067-scan-r6-003",
+      "sentenceOrder": 3,
+      "english": "Yes, I was.",
+      "chinese": "是的，我在。",
       "lesson": "Lesson 67 The weekend"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-67",
       "sentenceId": "nce-1-lesson-067-sentence-003",
-      "sentenceOrder": 3,
+      "sentenceOrder": 4,
       "english": "Were you at the butcher's, too?",
       "chinese": "你也在肉店吗？",
       "lesson": "Lesson 67 The weekend"
@@ -4528,7 +4732,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-67",
       "sentenceId": "nce-1-lesson-067-sentence-004-part-01",
-      "sentenceOrder": 4,
+      "sentenceOrder": 5,
       "english": "No, I wasn't.",
       "chinese": "不，我不在。",
       "lesson": "Lesson 67 The weekend",
@@ -4540,7 +4744,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-67",
       "sentenceId": "nce-1-lesson-067-sentence-004-part-02",
-      "sentenceOrder": 5,
+      "sentenceOrder": 6,
       "english": "I was at the greengrocer's.",
       "chinese": "我当时在蔬菜水果店。",
       "lesson": "Lesson 67 The weekend",
@@ -4552,7 +4756,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-67",
       "sentenceId": "nce-1-lesson-067-sentence-005",
-      "sentenceOrder": 6,
+      "sentenceOrder": 7,
       "english": "How's Jimmy today?",
       "chinese": "吉米今天怎么样？",
       "lesson": "Lesson 67 The weekend"
@@ -4561,7 +4765,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-67",
       "sentenceId": "nce-1-lesson-067-sentence-006",
-      "sentenceOrder": 7,
+      "sentenceOrder": 8,
       "english": "He's very well, thank you.",
       "chinese": "他很好，谢谢。",
       "lesson": "Lesson 67 The weekend"
@@ -4570,7 +4774,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-67",
       "sentenceId": "nce-1-lesson-067-sentence-007",
-      "sentenceOrder": 8,
+      "sentenceOrder": 9,
       "english": "Was he absent from school last week?",
       "chinese": "他上星期没去上学吗？",
       "lesson": "Lesson 67 The weekend"
@@ -4579,7 +4783,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-67",
       "sentenceId": "nce-1-lesson-067-sentence-008",
-      "sentenceOrder": 9,
+      "sentenceOrder": 10,
       "english": "Yes, he was.",
       "chinese": "是的，他确实缺课了。",
       "lesson": "Lesson 67 The weekend"
@@ -4588,7 +4792,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-67",
       "sentenceId": "nce-1-lesson-067-sentence-009",
-      "sentenceOrder": 10,
+      "sentenceOrder": 11,
       "english": "He was absent on Monday, Tuesday, Wednesday and Thursday.",
       "chinese": "他星期一、星期二、星期三和星期四都没来。",
       "lesson": "Lesson 67 The weekend"
@@ -4597,7 +4801,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-67",
       "sentenceId": "nce-1-lesson-067-sentence-010",
-      "sentenceOrder": 11,
+      "sentenceOrder": 12,
       "english": "How are you all keeping?",
       "chinese": "你们大家都好吗？",
       "lesson": "Lesson 67 The weekend"
@@ -4606,7 +4810,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-67",
       "sentenceId": "nce-1-lesson-067-sentence-011",
-      "sentenceOrder": 12,
+      "sentenceOrder": 13,
       "english": "Very well, thank you.",
       "chinese": "很好，谢谢。",
       "lesson": "Lesson 67 The weekend"
@@ -4615,7 +4819,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-67",
       "sentenceId": "nce-1-lesson-067-sentence-012",
-      "sentenceOrder": 13,
+      "sentenceOrder": 14,
       "english": "We're going to spend three days in the country.",
       "chinese": "我们打算去乡下住三天。",
       "lesson": "Lesson 67 The weekend"
@@ -4624,7 +4828,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-67",
       "sentenceId": "nce-1-lesson-067-sentence-013",
-      "sentenceOrder": 14,
+      "sentenceOrder": 15,
       "english": "We're going to stay at my mother's for the weekend.",
       "chinese": "我们打算去我母亲家过周末。",
       "lesson": "Lesson 67 The weekend"
@@ -4633,7 +4837,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-67",
       "sentenceId": "nce-1-lesson-067-sentence-014-part-01",
-      "sentenceOrder": 15,
+      "sentenceOrder": 16,
       "english": "Friday, Saturday and Sunday in the country!",
       "chinese": "星期五、星期六和星期天都在乡下！",
       "lesson": "Lesson 67 The weekend",
@@ -4645,7 +4849,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-67",
       "sentenceId": "nce-1-lesson-067-sentence-014-part-02",
-      "sentenceOrder": 16,
+      "sentenceOrder": 17,
       "english": "Aren't you lucky!",
       "chinese": "你们真幸运！",
       "lesson": "Lesson 67 The weekend",
@@ -4928,8 +5132,8 @@
       "lessonId": "lesson-71",
       "sentenceId": "nce-1-lesson-071-sentence-009",
       "sentenceOrder": 12,
-      "english": "Did he telephone last night?",
-      "chinese": "他昨晚打电话了吗？",
+      "english": "Did he telephone again last night?",
+      "chinese": "他昨晚又打电话了吗？",
       "lesson": "Lesson 71 He's awful!"
     },
     {
@@ -5444,8 +5648,8 @@
       "lessonId": "lesson-77",
       "sentenceId": "nce-1-lesson-077-sentence-010",
       "sentenceOrder": 11,
-      "english": "Can you come at ten a.m.?",
-      "chinese": "您上午十点能来吗？",
+      "english": "Can you come at 10 a.m. on Monday, April 24th?",
+      "chinese": "您能在4月24日星期一上午10点来吗？",
       "lesson": "Lesson 77 Terrible toothache"
     },
     {
@@ -5474,24 +5678,18 @@
       "lessonId": "lesson-77",
       "sentenceId": "nce-1-lesson-077-sentence-012-part-02",
       "sentenceOrder": 14,
-      "english": "Can you come at two p.m.?",
+      "english": "Can you come at 2 p.m.?",
       "chinese": "您下午两点能来吗？",
-      "lesson": "Lesson 77 Terrible toothache",
-      "parentSentenceId": "nce-1-lesson-077-sentence-012",
-      "parentEnglish": "The dentist is very busy at the moment. Can you come at two p.m.?",
-      "tokenOffset": 8
+      "lesson": "Lesson 77 Terrible toothache"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-77",
       "sentenceId": "nce-1-lesson-077-sentence-013-part-01",
       "sentenceOrder": 15,
-      "english": "That's too late.",
-      "chinese": "那太晚了。",
-      "lesson": "Lesson 77 Terrible toothache",
-      "parentSentenceId": "nce-1-lesson-077-sentence-013",
-      "parentEnglish": "That's too late. Can the dentist see me now?",
-      "tokenOffset": 0
+      "english": "That's very late.",
+      "chinese": "那可太晚了。",
+      "lesson": "Lesson 77 Terrible toothache"
     },
     {
       "courseId": "nce1",
@@ -5721,29 +5919,17 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-81",
-      "sentenceId": "nce-1-lesson-081-sentence-001",
+      "sentenceId": "nce-1-lesson-081-sentence-002-part-01",
       "sentenceOrder": 1,
-      "english": "Hi, Sam.",
-      "chinese": "嗨，萨姆。",
+      "english": "Hi, Carol!",
+      "chinese": "嗨，卡罗尔！",
       "lesson": "Lesson 81 Roast beef and potatoes"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-81",
-      "sentenceId": "nce-1-lesson-081-sentence-002-part-01",
-      "sentenceOrder": 2,
-      "english": "Hi, Carol.",
-      "chinese": "嗨，卡罗尔。",
-      "lesson": "Lesson 81 Roast beef and potatoes",
-      "parentSentenceId": "nce-1-lesson-081-sentence-002",
-      "parentEnglish": "Hi, Carol. Where's Tom?",
-      "tokenOffset": 0
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-002-part-02",
-      "sentenceOrder": 3,
+      "sentenceOrder": 2,
       "english": "Where's Tom?",
       "chinese": "汤姆在哪里？",
       "lesson": "Lesson 81 Roast beef and potatoes",
@@ -5755,7 +5941,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-003-part-01",
-      "sentenceOrder": 4,
+      "sentenceOrder": 3,
       "english": "He's upstairs.",
       "chinese": "他在楼上。",
       "lesson": "Lesson 81 Roast beef and potatoes",
@@ -5767,7 +5953,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-003-part-02",
-      "sentenceOrder": 5,
+      "sentenceOrder": 4,
       "english": "He's having a bath.",
       "chinese": "他正在洗澡。",
       "lesson": "Lesson 81 Roast beef and potatoes",
@@ -5779,7 +5965,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-004",
-      "sentenceOrder": 6,
+      "sentenceOrder": 5,
       "english": "Tom!",
       "chinese": "汤姆！",
       "lesson": "Lesson 81 Roast beef and potatoes"
@@ -5788,7 +5974,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-005",
-      "sentenceOrder": 7,
+      "sentenceOrder": 6,
       "english": "Yes?",
       "chinese": "什么事？",
       "lesson": "Lesson 81 Roast beef and potatoes"
@@ -5797,7 +5983,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-006",
-      "sentenceOrder": 8,
+      "sentenceOrder": 7,
       "english": "Sam's here.",
       "chinese": "萨姆来了。",
       "lesson": "Lesson 81 Roast beef and potatoes"
@@ -5806,7 +5992,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-007",
-      "sentenceOrder": 9,
+      "sentenceOrder": 8,
       "english": "I'm nearly ready.",
       "chinese": "我快好了。",
       "lesson": "Lesson 81 Roast beef and potatoes"
@@ -5815,7 +6001,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-008-part-01",
-      "sentenceOrder": 10,
+      "sentenceOrder": 9,
       "english": "Hello, Sam.",
       "chinese": "你好，萨姆。",
       "lesson": "Lesson 81 Roast beef and potatoes",
@@ -5827,7 +6013,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-008-part-02",
-      "sentenceOrder": 11,
+      "sentenceOrder": 10,
       "english": "Have a cigarette.",
       "chinese": "抽支烟吧。",
       "lesson": "Lesson 81 Roast beef and potatoes",
@@ -5839,7 +6025,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-009",
-      "sentenceOrder": 12,
+      "sentenceOrder": 11,
       "english": "No, thanks, Tom.",
       "chinese": "不用了，谢谢，汤姆。",
       "lesson": "Lesson 81 Roast beef and potatoes"
@@ -5848,7 +6034,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-010",
-      "sentenceOrder": 13,
+      "sentenceOrder": 12,
       "english": "Have a glass of whisky then.",
       "chinese": "那喝杯威士忌吧。",
       "lesson": "Lesson 81 Roast beef and potatoes"
@@ -5857,7 +6043,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-011-part-01",
-      "sentenceOrder": 14,
+      "sentenceOrder": 13,
       "english": "OK.",
       "chinese": "好。",
       "lesson": "Lesson 81 Roast beef and potatoes",
@@ -5869,7 +6055,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-011-part-02",
-      "sentenceOrder": 15,
+      "sentenceOrder": 14,
       "english": "Thanks.",
       "chinese": "谢谢。",
       "lesson": "Lesson 81 Roast beef and potatoes",
@@ -5881,7 +6067,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-012",
-      "sentenceOrder": 16,
+      "sentenceOrder": 15,
       "english": "Is dinner ready, Carol?",
       "chinese": "晚饭准备好了吗，卡罗尔？",
       "lesson": "Lesson 81 Roast beef and potatoes"
@@ -5890,7 +6076,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-013-part-01",
-      "sentenceOrder": 17,
+      "sentenceOrder": 16,
       "english": "It's nearly ready.",
       "chinese": "快好了。",
       "lesson": "Lesson 81 Roast beef and potatoes",
@@ -5902,7 +6088,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-013-part-02",
-      "sentenceOrder": 18,
+      "sentenceOrder": 17,
       "english": "We can have dinner at seven o'clock.",
       "chinese": "我们七点钟可以吃晚饭。",
       "lesson": "Lesson 81 Roast beef and potatoes",
@@ -5914,7 +6100,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-014-part-01",
-      "sentenceOrder": 19,
+      "sentenceOrder": 18,
       "english": "Sam and I had lunch together today.",
       "chinese": "萨姆和我今天一起吃了午饭。",
       "lesson": "Lesson 81 Roast beef and potatoes",
@@ -5926,7 +6112,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-014-part-02",
-      "sentenceOrder": 20,
+      "sentenceOrder": 19,
       "english": "We went to a restaurant.",
       "chinese": "我们去了一家餐馆。",
       "lesson": "Lesson 81 Roast beef and potatoes",
@@ -5938,7 +6124,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-015",
-      "sentenceOrder": 21,
+      "sentenceOrder": 20,
       "english": "What did you have?",
       "chinese": "你们吃了什么？",
       "lesson": "Lesson 81 Roast beef and potatoes"
@@ -5947,7 +6133,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-016",
-      "sentenceOrder": 22,
+      "sentenceOrder": 21,
       "english": "We had roast beef and potatoes.",
       "chinese": "我们吃了烤牛肉和土豆。",
       "lesson": "Lesson 81 Roast beef and potatoes"
@@ -5956,7 +6142,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-017",
-      "sentenceOrder": 23,
+      "sentenceOrder": 22,
       "english": "Oh!",
       "chinese": "哦！",
       "lesson": "Lesson 81 Roast beef and potatoes"
@@ -5965,7 +6151,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-018",
-      "sentenceOrder": 24,
+      "sentenceOrder": 23,
       "english": "What's the matter, Carol?",
       "chinese": "怎么了，卡罗尔？",
       "lesson": "Lesson 81 Roast beef and potatoes"
@@ -5974,7 +6160,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-81",
       "sentenceId": "nce-1-lesson-081-sentence-019",
-      "sentenceOrder": 25,
+      "sentenceOrder": 24,
       "english": "Well, you're going to have roast beef and potatoes again tonight!",
       "chinese": "嗯，今晚你们又要吃烤牛肉和土豆了！",
       "lesson": "Lesson 81 Roast beef and potatoes"
@@ -5982,8 +6168,26 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-001",
+      "sentenceId": "nce-1-lesson-083-scan-r6-001",
       "sentenceOrder": 1,
+      "english": "Hello, Sam.",
+      "chinese": "你好，萨姆。",
+      "lesson": "Lesson 83 Going on holiday"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-83",
+      "sentenceId": "nce-1-lesson-083-scan-r6-002",
+      "sentenceOrder": 2,
+      "english": "Come in.",
+      "chinese": "进来吧。",
+      "lesson": "Lesson 83 Going on holiday"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-83",
+      "sentenceId": "nce-1-lesson-083-sentence-001",
+      "sentenceOrder": 3,
       "english": "Hi, Sam.",
       "chinese": "嗨，萨姆。",
       "lesson": "Lesson 83 Going on holiday"
@@ -5991,227 +6195,215 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-002-part-01",
-      "sentenceOrder": 2,
-      "english": "Hello, Carol.",
-      "chinese": "你好，卡罗尔。",
-      "lesson": "Lesson 83 Going on holiday",
-      "parentSentenceId": "nce-1-lesson-083-sentence-002",
-      "parentEnglish": "Hello, Carol. Where are you going?",
-      "tokenOffset": 0
+      "sentenceId": "nce-1-lesson-083-scan-r6-004",
+      "sentenceOrder": 4,
+      "english": "We're having lunch.",
+      "chinese": "我们正在吃午饭。",
+      "lesson": "Lesson 83 Going on holiday"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-002-part-02",
-      "sentenceOrder": 3,
-      "english": "Where are you going?",
-      "chinese": "你们要去哪里？",
-      "lesson": "Lesson 83 Going on holiday",
-      "parentSentenceId": "nce-1-lesson-083-sentence-002",
-      "parentEnglish": "Hello, Carol. Where are you going?",
-      "tokenOffset": 2
+      "sentenceId": "nce-1-lesson-083-scan-r6-005",
+      "sentenceOrder": 5,
+      "english": "Do you want to have lunch with us?",
+      "chinese": "你想和我们一起吃午饭吗？",
+      "lesson": "Lesson 83 Going on holiday"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-83",
+      "sentenceId": "nce-1-lesson-083-scan-r6-006",
+      "sentenceOrder": 6,
+      "english": "No, thank you, Tom.",
+      "chinese": "不用了，谢谢你，汤姆。",
+      "lesson": "Lesson 83 Going on holiday"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-83",
+      "sentenceId": "nce-1-lesson-083-scan-r6-007",
+      "sentenceOrder": 7,
+      "english": "I've already had lunch.",
+      "chinese": "我已经吃过午饭了。",
+      "lesson": "Lesson 83 Going on holiday"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-83",
+      "sentenceId": "nce-1-lesson-083-scan-r6-008",
+      "sentenceOrder": 8,
+      "english": "I had lunch at half past twelve.",
+      "chinese": "我十二点半吃的午饭。",
+      "lesson": "Lesson 83 Going on holiday"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-83",
+      "sentenceId": "nce-1-lesson-083-scan-r6-009",
+      "sentenceOrder": 9,
+      "english": "Have a cup of coffee then.",
+      "chinese": "那喝杯咖啡吧。",
+      "lesson": "Lesson 83 Going on holiday"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-83",
+      "sentenceId": "nce-1-lesson-083-scan-r6-010",
+      "sentenceOrder": 10,
+      "english": "I've just had a cup, thank you.",
+      "chinese": "我刚喝过一杯了，谢谢你。",
+      "lesson": "Lesson 83 Going on holiday"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-83",
+      "sentenceId": "nce-1-lesson-083-scan-r6-011",
+      "sentenceOrder": 11,
+      "english": "I had one after my lunch.",
+      "chinese": "我午饭后喝了一杯。",
+      "lesson": "Lesson 83 Going on holiday"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-83",
+      "sentenceId": "nce-1-lesson-083-scan-r6-012",
+      "sentenceOrder": 12,
+      "english": "Let's go into the living room, Carol.",
+      "chinese": "咱们到客厅去吧，卡罗尔。",
+      "lesson": "Lesson 83 Going on holiday"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-83",
+      "sentenceId": "nce-1-lesson-083-scan-r6-013",
+      "sentenceOrder": 13,
+      "english": "We can have our coffee there.",
+      "chinese": "我们可以在那儿喝咖啡。",
+      "lesson": "Lesson 83 Going on holiday"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-83",
+      "sentenceId": "nce-1-lesson-083-scan-r6-014",
+      "sentenceOrder": 14,
+      "english": "Excuse the mess, Sam.",
+      "chinese": "屋里很乱，请见谅，萨姆。",
+      "lesson": "Lesson 83 Going on holiday"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-83",
+      "sentenceId": "nce-1-lesson-083-scan-r6-015",
+      "sentenceOrder": 15,
+      "english": "This room's very untidy.",
+      "chinese": "这间屋子非常不整洁。",
+      "lesson": "Lesson 83 Going on holiday"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-83",
+      "sentenceId": "nce-1-lesson-083-scan-r6-016",
+      "sentenceOrder": 16,
+      "english": "We're packing our suitcases.",
+      "chinese": "我们正在收拾行李箱。",
+      "lesson": "Lesson 83 Going on holiday"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-83",
+      "sentenceId": "nce-1-lesson-083-scan-r6-017",
+      "sentenceOrder": 17,
+      "english": "We're going to leave tomorrow.",
+      "chinese": "我们明天就要动身了。",
+      "lesson": "Lesson 83 Going on holiday"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-83",
+      "sentenceId": "nce-1-lesson-083-scan-r6-018",
+      "sentenceOrder": 18,
+      "english": "Tom and I are going to have a holiday.",
+      "chinese": "我和汤姆要去度假了。",
+      "lesson": "Lesson 83 Going on holiday"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-83",
+      "sentenceId": "nce-1-lesson-083-scan-r6-019",
+      "sentenceOrder": 19,
+      "english": "Aren't you lucky!",
+      "chinese": "你们真幸运啊！",
+      "lesson": "Lesson 83 Going on holiday"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-83",
       "sentenceId": "nce-1-lesson-083-sentence-003",
-      "sentenceOrder": 4,
-      "english": "We're going to have a holiday.",
-      "chinese": "我们要去度假。",
-      "lesson": "Lesson 83 Going on holiday"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-004-part-01",
-      "sentenceOrder": 5,
-      "english": "Lucky you!",
-      "chinese": "你们真幸运！",
-      "lesson": "Lesson 83 Going on holiday",
-      "parentSentenceId": "nce-1-lesson-083-sentence-004",
-      "parentEnglish": "Lucky you! Where are you going to spend your holidays this year, Carol?",
-      "tokenOffset": 0
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-004-part-02",
-      "sentenceOrder": 6,
-      "english": "Where are you going to spend your holidays this year, Carol?",
-      "chinese": "卡罗尔，你们今年打算去哪儿度假？",
-      "lesson": "Lesson 83 Going on holiday",
-      "parentSentenceId": "nce-1-lesson-083-sentence-004",
-      "parentEnglish": "Lucky you! Where are you going to spend your holidays this year, Carol?",
-      "tokenOffset": 2
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-005",
-      "sentenceOrder": 7,
-      "english": "We may go abroad.",
-      "chinese": "我们可能出国。",
-      "lesson": "Lesson 83 Going on holiday"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-006",
-      "sentenceOrder": 8,
-      "english": "I'm not sure.",
-      "chinese": "我不确定。",
-      "lesson": "Lesson 83 Going on holiday"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-007",
-      "sentenceOrder": 9,
-      "english": "My wife wants to go to Egypt.",
-      "chinese": "我妻子想去埃及。",
-      "lesson": "Lesson 83 Going on holiday"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-008",
-      "sentenceOrder": 10,
-      "english": "I'd like to go there, too.",
-      "chinese": "我也想去那儿。",
-      "lesson": "Lesson 83 Going on holiday"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-009",
-      "sentenceOrder": 11,
-      "english": "We haven't been there yet.",
-      "chinese": "我们还没有去过那里。",
-      "lesson": "Lesson 83 Going on holiday"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-010",
-      "sentenceOrder": 12,
-      "english": "Will you travel by sea or by air?",
-      "chinese": "你们旅行是坐船还是坐飞机？",
-      "lesson": "Lesson 83 Going on holiday"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-011",
-      "sentenceOrder": 13,
-      "english": "We may travel by sea.",
-      "chinese": "我们可能坐船。",
-      "lesson": "Lesson 83 Going on holiday"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-012",
-      "sentenceOrder": 14,
-      "english": "It's cheaper, isn't it?",
-      "chinese": "那更便宜，是吗？",
-      "lesson": "Lesson 83 Going on holiday"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-013",
-      "sentenceOrder": 15,
-      "english": "It may be cheaper, but it takes a long time.",
-      "chinese": "可能更便宜，但要花很长时间。",
-      "lesson": "Lesson 83 Going on holiday"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-014",
-      "sentenceOrder": 16,
-      "english": "I'm sure you'll enjoy yourselves.",
-      "chinese": "我相信你们会玩得很开心。",
-      "lesson": "Lesson 83 Going on holiday"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-015",
-      "sentenceOrder": 17,
-      "english": "Don't be so sure.",
-      "chinese": "别那么肯定。",
-      "lesson": "Lesson 83 Going on holiday"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-016",
-      "sentenceOrder": 18,
-      "english": "We might not go anywhere.",
-      "chinese": "我们也许哪儿也不去。",
-      "lesson": "Lesson 83 Going on holiday"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-017",
-      "sentenceOrder": 19,
-      "english": "My wife's always worried.",
-      "chinese": "我妻子总是担心。",
-      "lesson": "Lesson 83 Going on holiday"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-018",
       "sentenceOrder": 20,
-      "english": "Who's going to look after the dog?",
-      "chinese": "谁来照看狗？",
+      "english": "When are you going to have a holiday, Sam?",
+      "chinese": "萨姆，你打算什么时候去度假？",
       "lesson": "Lesson 83 Going on holiday"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-019",
+      "sentenceId": "nce-1-lesson-083-scan-r6-021",
       "sentenceOrder": 21,
-      "english": "Who's going to look after the house?",
-      "chinese": "谁来照看房子？",
+      "english": "I don't know.",
+      "chinese": "我不知道。",
       "lesson": "Lesson 83 Going on holiday"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-020",
+      "sentenceId": "nce-1-lesson-083-scan-r6-022",
       "sentenceOrder": 22,
-      "english": "Who's going to look after the garden?",
-      "chinese": "谁来照看花园？",
+      "english": "I've already had my holiday this year.",
+      "chinese": "我今年已经休过假了。",
       "lesson": "Lesson 83 Going on holiday"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-021",
+      "sentenceId": "nce-1-lesson-083-scan-r6-023",
       "sentenceOrder": 23,
-      "english": "We have this problem every year.",
-      "chinese": "我们每年都有这个问题。",
+      "english": "Where did you go?",
+      "chinese": "你去哪儿了？",
       "lesson": "Lesson 83 Going on holiday"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-83",
-      "sentenceId": "nce-1-lesson-083-sentence-022",
+      "sentenceId": "nce-1-lesson-083-scan-r6-024",
       "sentenceOrder": 24,
-      "english": "In the end, we stay at home and look after everything!",
-      "chinese": "最后，我们待在家里照看一切！",
+      "english": "I stayed at home!",
+      "chinese": "我待在家里了！",
       "lesson": "Lesson 83 Going on holiday"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-85",
-      "sentenceId": "nce-1-lesson-085-sentence-001",
+      "sentenceId": "nce-1-lesson-085-scan-r6-001",
       "sentenceOrder": 1,
+      "english": "Hello, Ken.",
+      "chinese": "你好，肯。",
+      "lesson": "Lesson 85 Paris in the spring"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-85",
+      "sentenceId": "nce-1-lesson-085-scan-r6-002",
+      "sentenceOrder": 2,
+      "english": "Hi, George.",
+      "chinese": "嗨，乔治。",
+      "lesson": "Lesson 85 Paris in the spring"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-85",
+      "sentenceId": "nce-1-lesson-085-sentence-001",
+      "sentenceOrder": 3,
       "english": "Have you just been to the cinema?",
       "chinese": "你刚去过电影院吗？",
       "lesson": "Lesson 85 Paris in the spring"
@@ -6220,7 +6412,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-85",
       "sentenceId": "nce-1-lesson-085-sentence-002",
-      "sentenceOrder": 2,
+      "sentenceOrder": 4,
       "english": "Yes, I have.",
       "chinese": "是的，去过。",
       "lesson": "Lesson 85 Paris in the spring"
@@ -6229,7 +6421,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-85",
       "sentenceId": "nce-1-lesson-085-sentence-003",
-      "sentenceOrder": 3,
+      "sentenceOrder": 5,
       "english": "What's on?",
       "chinese": "（现在）上映什么？",
       "lesson": "Lesson 85 Paris in the spring"
@@ -6238,7 +6430,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-85",
       "sentenceId": "nce-1-lesson-085-sentence-004",
-      "sentenceOrder": 4,
+      "sentenceOrder": 6,
       "english": "'Paris in the Spring'.",
       "chinese": "《巴黎之春》。",
       "lesson": "Lesson 85 Paris in the spring"
@@ -6247,7 +6439,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-85",
       "sentenceId": "nce-1-lesson-085-sentence-005",
-      "sentenceOrder": 5,
+      "sentenceOrder": 7,
       "english": "Oh, I've already seen it.",
       "chinese": "哦，我已经看过了。",
       "lesson": "Lesson 85 Paris in the spring"
@@ -6256,7 +6448,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-85",
       "sentenceId": "nce-1-lesson-085-sentence-006",
-      "sentenceOrder": 6,
+      "sentenceOrder": 8,
       "english": "I saw it on television last year.",
       "chinese": "我去年在电视上看的。",
       "lesson": "Lesson 85 Paris in the spring"
@@ -6265,7 +6457,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-85",
       "sentenceId": "nce-1-lesson-085-sentence-007",
-      "sentenceOrder": 7,
+      "sentenceOrder": 9,
       "english": "It's an old film, but it's very good.",
       "chinese": "那是一部老电影，但它很好。",
       "lesson": "Lesson 85 Paris in the spring"
@@ -6274,7 +6466,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-85",
       "sentenceId": "nce-1-lesson-085-sentence-008",
-      "sentenceOrder": 8,
+      "sentenceOrder": 10,
       "english": "Paris is a beautiful city.",
       "chinese": "巴黎是一座美丽的城市。",
       "lesson": "Lesson 85 Paris in the spring"
@@ -6283,7 +6475,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-85",
       "sentenceId": "nce-1-lesson-085-sentence-009-part-01",
-      "sentenceOrder": 9,
+      "sentenceOrder": 11,
       "english": "I've never been there.",
       "chinese": "我从没去过那里。",
       "lesson": "Lesson 85 Paris in the spring",
@@ -6295,7 +6487,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-85",
       "sentenceId": "nce-1-lesson-085-sentence-009-part-02",
-      "sentenceOrder": 10,
+      "sentenceOrder": 12,
       "english": "Have you ever been there, Ken?",
       "chinese": "肯，你去过那里吗？",
       "lesson": "Lesson 85 Paris in the spring",
@@ -6307,7 +6499,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-85",
       "sentenceId": "nce-1-lesson-085-sentence-010-part-01",
-      "sentenceOrder": 11,
+      "sentenceOrder": 13,
       "english": "Yes, I have.",
       "chinese": "是的，去过。",
       "lesson": "Lesson 85 Paris in the spring",
@@ -6319,7 +6511,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-85",
       "sentenceId": "nce-1-lesson-085-sentence-010-part-02",
-      "sentenceOrder": 12,
+      "sentenceOrder": 14,
       "english": "I was there in April.",
       "chinese": "我四月在那里。",
       "lesson": "Lesson 85 Paris in the spring",
@@ -6331,7 +6523,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-85",
       "sentenceId": "nce-1-lesson-085-sentence-011",
-      "sentenceOrder": 13,
+      "sentenceOrder": 15,
       "english": "Paris in the spring, eh?",
       "chinese": "春天的巴黎，嗯？",
       "lesson": "Lesson 85 Paris in the spring"
@@ -6340,7 +6532,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-85",
       "sentenceId": "nce-1-lesson-085-sentence-012-part-01",
-      "sentenceOrder": 14,
+      "sentenceOrder": 16,
       "english": "It was spring, but the weather was awful.",
       "chinese": "当时是春天，但天气糟透了。",
       "lesson": "Lesson 85 Paris in the spring",
@@ -6352,7 +6544,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-85",
       "sentenceId": "nce-1-lesson-085-sentence-012-part-02",
-      "sentenceOrder": 15,
+      "sentenceOrder": 17,
       "english": "It rained all the time.",
       "chinese": "一直在下雨。",
       "lesson": "Lesson 85 Paris in the spring",
@@ -6364,7 +6556,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-85",
       "sentenceId": "nce-1-lesson-085-sentence-013",
-      "sentenceOrder": 16,
+      "sentenceOrder": 18,
       "english": "Just like London!",
       "chinese": "就像伦敦一样！",
       "lesson": "Lesson 85 Paris in the spring"
@@ -6474,8 +6666,26 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-87",
-      "sentenceId": "nce-1-lesson-087-sentence-009",
+      "sentenceId": "nce-1-lesson-087-scan-r6-011",
       "sentenceOrder": 11,
+      "english": "Isn't that your car?",
+      "chinese": "那不是你的车吗？",
+      "lesson": "Lesson 87 A car crash"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-87",
+      "sentenceId": "nce-1-lesson-087-scan-r6-012",
+      "sentenceOrder": 12,
+      "english": "Well, it was my car.",
+      "chinese": "嗯，那曾是我的车。",
+      "lesson": "Lesson 87 A car crash"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-87",
+      "sentenceId": "nce-1-lesson-087-sentence-009",
+      "sentenceOrder": 13,
       "english": "Didn't you have a crash?",
       "chinese": "你是不是撞车了？",
       "lesson": "Lesson 87 A car crash"
@@ -6484,7 +6694,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-87",
       "sentenceId": "nce-1-lesson-087-sentence-010",
-      "sentenceOrder": 12,
+      "sentenceOrder": 14,
       "english": "That's right.",
       "chinese": "是的。",
       "lesson": "Lesson 87 A car crash"
@@ -6493,8 +6703,8 @@
       "courseId": "nce1",
       "lessonId": "lesson-87",
       "sentenceId": "nce-1-lesson-087-sentence-011",
-      "sentenceOrder": 13,
-      "english": "I drove it into a lamp post.",
+      "sentenceOrder": 15,
+      "english": "I drove it into a lamp-post.",
       "chinese": "我把车撞到一根路灯柱上了。",
       "lesson": "Lesson 87 A car crash"
     },
@@ -6502,7 +6712,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-87",
       "sentenceId": "nce-1-lesson-087-sentence-012",
-      "sentenceOrder": 14,
+      "sentenceOrder": 16,
       "english": "Can your mechanics repair it?",
       "chinese": "你们的机修工能修好吗？",
       "lesson": "Lesson 87 A car crash"
@@ -6511,7 +6721,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-87",
       "sentenceId": "nce-1-lesson-087-sentence-013-part-01",
-      "sentenceOrder": 15,
+      "sentenceOrder": 17,
       "english": "Well, they're trying to repair it, sir.",
       "chinese": "嗯，他们正在努力维修，先生。",
       "lesson": "Lesson 87 A car crash",
@@ -6523,13 +6733,10 @@
       "courseId": "nce1",
       "lessonId": "lesson-87",
       "sentenceId": "nce-1-lesson-087-sentence-013-part-02",
-      "sentenceOrder": 16,
-      "english": "But to tell you the truth, you need a new car.",
-      "chinese": "但说实话，您需要换一辆新车。",
-      "lesson": "Lesson 87 A car crash",
-      "parentSentenceId": "nce-1-lesson-087-sentence-013",
-      "parentEnglish": "Well, they're trying to repair it, sir. But to tell you the truth, you need a new car.",
-      "tokenOffset": 7
+      "sentenceOrder": 18,
+      "english": "But to tell you the truth, you need a new car!",
+      "chinese": "不过说实话，您需要一辆新车！",
+      "lesson": "Lesson 87 A car crash"
     },
     {
       "courseId": "nce1",
@@ -6569,8 +6776,8 @@
       "lessonId": "lesson-89",
       "sentenceId": "nce-1-lesson-089-sentence-003",
       "sentenceOrder": 4,
-      "english": "May I have a look at it please?",
-      "chinese": "我可以看看吗？",
+      "english": "May I have a look at it, please?",
+      "chinese": "请问我可以看看它吗？",
       "lesson": "Lesson 89 For sale"
     },
     {
@@ -7164,281 +7371,341 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-95",
-      "sentenceId": "nce-1-lesson-095-sentence-006",
-      "sentenceOrder": 7,
-      "english": "What time will we arrive in London?",
-      "chinese": "我们什么时候到达伦敦？",
-      "lesson": "Lesson 95 Tickets, please."
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-95",
-      "sentenceId": "nce-1-lesson-095-sentence-007",
-      "sentenceOrder": 8,
-      "english": "We'll arrive in London at ten past ten.",
-      "chinese": "我们十点十分到达伦敦。",
-      "lesson": "Lesson 95 Tickets, please."
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-95",
-      "sentenceId": "nce-1-lesson-095-sentence-008",
-      "sentenceOrder": 9,
-      "english": "How much are the tickets?",
-      "chinese": "车票多少钱？",
-      "lesson": "Lesson 95 Tickets, please."
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-95",
-      "sentenceId": "nce-1-lesson-095-sentence-009",
-      "sentenceOrder": 10,
-      "english": "Twenty pounds, please.",
-      "chinese": "二十英镑，请付款。",
-      "lesson": "Lesson 95 Tickets, please."
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-95",
-      "sentenceId": "nce-1-lesson-095-sentence-010",
-      "sentenceOrder": 11,
-      "english": "Here's your change.",
-      "chinese": "这是找您的零钱。",
-      "lesson": "Lesson 95 Tickets, please."
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-95",
-      "sentenceId": "nce-1-lesson-095-sentence-011",
-      "sentenceOrder": 12,
-      "english": "Thank you.",
-      "chinese": "谢谢。",
-      "lesson": "Lesson 95 Tickets, please."
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-95",
       "sentenceId": "nce-1-lesson-095-sentence-012",
-      "sentenceOrder": 13,
-      "english": "At what time did the train leave?",
-      "chinese": "火车什么时候开的？",
+      "sentenceOrder": 7,
+      "english": "What time will the next train leave?",
+      "chinese": "下一班火车什么时候开？",
       "lesson": "Lesson 95 Tickets, please."
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-95",
-      "sentenceId": "nce-1-lesson-095-sentence-013-part-01",
-      "sentenceOrder": 14,
-      "english": "It left five minutes ago!",
-      "chinese": "它五分钟前开走了！",
-      "lesson": "Lesson 95 Tickets, please.",
-      "parentSentenceId": "nce-1-lesson-095-sentence-013",
-      "parentEnglish": "It left five minutes ago! We missed the train!",
-      "tokenOffset": 0
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-95",
-      "sentenceId": "nce-1-lesson-095-sentence-013-part-02",
-      "sentenceOrder": 15,
-      "english": "We missed the train!",
-      "chinese": "我们错过了这班火车！",
-      "lesson": "Lesson 95 Tickets, please.",
-      "parentSentenceId": "nce-1-lesson-095-sentence-013",
-      "parentEnglish": "It left five minutes ago! We missed the train!",
-      "tokenOffset": 5
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-95",
-      "sentenceId": "nce-1-lesson-095-sentence-014-part-01",
-      "sentenceOrder": 16,
-      "english": "There's a train every hour.",
-      "chinese": "每小时都有一班火车。",
-      "lesson": "Lesson 95 Tickets, please.",
-      "parentSentenceId": "nce-1-lesson-095-sentence-014",
-      "parentEnglish": "There's a train every hour. You just missed this one.",
-      "tokenOffset": 0
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-95",
-      "sentenceId": "nce-1-lesson-095-sentence-014-part-02",
-      "sentenceOrder": 17,
-      "english": "You just missed this one.",
-      "chinese": "你们刚好错过了这一班。",
-      "lesson": "Lesson 95 Tickets, please.",
-      "parentSentenceId": "nce-1-lesson-095-sentence-014",
-      "parentEnglish": "There's a train every hour. You just missed this one.",
-      "tokenOffset": 5
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-97",
-      "sentenceId": "nce-1-lesson-097-sentence-001",
-      "sentenceOrder": 1,
-      "english": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.",
-      "chinese": "半小时前我在这里买了两本很贵的词典，但忘了拿走。",
-      "lesson": "Lesson 97 A small blue case"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-97",
-      "sentenceId": "nce-1-lesson-097-sentence-002",
-      "sentenceOrder": 2,
-      "english": "Who served you, sir?",
-      "chinese": "是谁接待您的，先生？",
-      "lesson": "Lesson 97 A small blue case"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-97",
-      "sentenceId": "nce-1-lesson-097-sentence-003",
-      "sentenceOrder": 3,
-      "english": "The lady who is standing behind the counter.",
-      "chinese": "站在柜台后面的那位女士。",
-      "lesson": "Lesson 97 A small blue case"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-97",
-      "sentenceId": "nce-1-lesson-097-sentence-004",
-      "sentenceOrder": 4,
-      "english": "Which books did you buy?",
-      "chinese": "您买的是哪几本书？",
-      "lesson": "Lesson 97 A small blue case"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-97",
-      "sentenceId": "nce-1-lesson-097-sentence-005",
-      "sentenceOrder": 5,
-      "english": "The books which are on the counter.",
-      "chinese": "柜台上的那几本。",
-      "lesson": "Lesson 97 A small blue case"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-97",
-      "sentenceId": "nce-1-lesson-097-sentence-006-part-01",
-      "sentenceOrder": 6,
-      "english": "Did you serve this gentleman half an hour ago, Caroline?",
-      "chinese": "卡罗琳，半小时前你接待过这位先生吗？",
-      "lesson": "Lesson 97 A small blue case",
-      "parentSentenceId": "nce-1-lesson-097-sentence-006",
-      "parentEnglish": "Did you serve this gentleman half an hour ago, Caroline? He says he's the man who bought these books.",
-      "tokenOffset": 0
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-97",
-      "sentenceId": "nce-1-lesson-097-sentence-006-part-02",
-      "sentenceOrder": 7,
-      "english": "He says he's the man who bought these books.",
-      "chinese": "他说他就是买这些书的人。",
-      "lesson": "Lesson 97 A small blue case",
-      "parentSentenceId": "nce-1-lesson-097-sentence-006",
-      "parentEnglish": "Did you serve this gentleman half an hour ago, Caroline? He says he's the man who bought these books.",
-      "tokenOffset": 10
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-97",
-      "sentenceId": "nce-1-lesson-097-sentence-007-part-01",
+      "sentenceId": "nce-1-lesson-095-scan-r6-008",
       "sentenceOrder": 8,
-      "english": "I can't remember.",
-      "chinese": "我记不起来了。",
-      "lesson": "Lesson 97 A small blue case",
-      "parentSentenceId": "nce-1-lesson-097-sentence-007",
-      "parentEnglish": "I can't remember. The man who I served was wearing a hat.",
-      "tokenOffset": 0
+      "english": "At eight nineteen.",
+      "chinese": "八点十九分。",
+      "lesson": "Lesson 95 Tickets, please."
     },
     {
       "courseId": "nce1",
-      "lessonId": "lesson-97",
-      "sentenceId": "nce-1-lesson-097-sentence-007-part-02",
+      "lessonId": "lesson-95",
+      "sentenceId": "nce-1-lesson-095-scan-r6-009",
       "sentenceOrder": 9,
-      "english": "The man who I served was wearing a hat.",
-      "chinese": "我接待的那个男人戴着一顶帽子。",
-      "lesson": "Lesson 97 A small blue case",
-      "parentSentenceId": "nce-1-lesson-097-sentence-007",
-      "parentEnglish": "I can't remember. The man who I served was wearing a hat.",
-      "tokenOffset": 3
+      "english": "We've got plenty of time.",
+      "chinese": "我们的时间还很充裕。",
+      "lesson": "Lesson 95 Tickets, please."
     },
     {
       "courseId": "nce1",
-      "lessonId": "lesson-97",
-      "sentenceId": "nce-1-lesson-097-sentence-008",
+      "lessonId": "lesson-95",
+      "sentenceId": "nce-1-lesson-095-scan-r6-010",
       "sentenceOrder": 10,
-      "english": "Have you got a hat, sir?",
-      "chinese": "先生，您有帽子吗？",
-      "lesson": "Lesson 97 A small blue case"
+      "english": "It's only three minutes to eight.",
+      "chinese": "现在才差三分钟到八点。",
+      "lesson": "Lesson 95 Tickets, please."
     },
     {
       "courseId": "nce1",
-      "lessonId": "lesson-97",
-      "sentenceId": "nce-1-lesson-097-sentence-009",
+      "lessonId": "lesson-95",
+      "sentenceId": "nce-1-lesson-095-scan-r6-011",
       "sentenceOrder": 11,
-      "english": "Yes, I have.",
-      "chinese": "有。",
+      "english": "Let's go and have a drink.",
+      "chinese": "咱们去喝一杯吧。",
+      "lesson": "Lesson 95 Tickets, please."
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-95",
+      "sentenceId": "nce-1-lesson-095-scan-r6-012",
+      "sentenceOrder": 12,
+      "english": "There's a bar next door to the station.",
+      "chinese": "车站隔壁有一家酒吧。",
+      "lesson": "Lesson 95 Tickets, please."
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-95",
+      "sentenceId": "nce-1-lesson-095-scan-r6-013",
+      "sentenceOrder": 13,
+      "english": "We had better go back to the station now, Ken.",
+      "chinese": "我们最好现在回车站去，肯。",
+      "lesson": "Lesson 95 Tickets, please."
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-95",
+      "sentenceId": "nce-1-lesson-095-scan-r6-014",
+      "sentenceOrder": 14,
+      "english": "Tickets, please.",
+      "chinese": "请出示车票。",
+      "lesson": "Lesson 95 Tickets, please."
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-95",
+      "sentenceId": "nce-1-lesson-095-scan-r6-015",
+      "sentenceOrder": 15,
+      "english": "We want to catch the eight nineteen to London.",
+      "chinese": "我们要赶八点十九分去伦敦的火车。",
+      "lesson": "Lesson 95 Tickets, please."
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-95",
+      "sentenceId": "nce-1-lesson-095-scan-r6-016",
+      "sentenceOrder": 16,
+      "english": "You've just missed it!",
+      "chinese": "您刚刚误了这班车！",
+      "lesson": "Lesson 95 Tickets, please."
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-95",
+      "sentenceId": "nce-1-lesson-095-scan-r6-017",
+      "sentenceOrder": 17,
+      "english": "What!",
+      "chinese": "什么！",
+      "lesson": "Lesson 95 Tickets, please."
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-95",
+      "sentenceId": "nce-1-lesson-095-scan-r6-018",
+      "sentenceOrder": 18,
+      "english": "It's only eight fifteen.",
+      "chinese": "现在才八点十五分。",
+      "lesson": "Lesson 95 Tickets, please."
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-95",
+      "sentenceId": "nce-1-lesson-095-scan-r6-019",
+      "sentenceOrder": 19,
+      "english": "I'm sorry, sir.",
+      "chinese": "对不起，先生。",
+      "lesson": "Lesson 95 Tickets, please."
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-95",
+      "sentenceId": "nce-1-lesson-095-scan-r6-020",
+      "sentenceOrder": 20,
+      "english": "That clock's ten minutes slow.",
+      "chinese": "那只钟慢了十分钟。",
+      "lesson": "Lesson 95 Tickets, please."
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-95",
+      "sentenceId": "nce-1-lesson-095-scan-r6-021",
+      "sentenceOrder": 21,
+      "english": "When's the next train?",
+      "chinese": "下一班火车是什么时候？",
+      "lesson": "Lesson 95 Tickets, please."
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-95",
+      "sentenceId": "nce-1-lesson-095-scan-r6-022",
+      "sentenceOrder": 22,
+      "english": "In five hours' time!",
+      "chinese": "五个小时之后！",
+      "lesson": "Lesson 95 Tickets, please."
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-97",
+      "sentenceId": "nce-1-lesson-097-scan-r6-001",
+      "sentenceOrder": 1,
+      "english": "I left a suitcase on the train to London the other day.",
+      "chinese": "前几天我把一个手提箱落在了开往伦敦的火车上。",
       "lesson": "Lesson 97 A small blue case"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-97",
-      "sentenceId": "nce-1-lesson-097-sentence-010",
-      "sentenceOrder": 12,
-      "english": "Would you put it on please?",
-      "chinese": "请您把它戴上好吗？",
+      "sentenceId": "nce-1-lesson-097-scan-r6-002",
+      "sentenceOrder": 2,
+      "english": "Can you describe it, sir?",
+      "chinese": "先生，您能描述一下它吗？",
+      "lesson": "Lesson 97 A small blue case"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-97",
+      "sentenceId": "nce-1-lesson-097-scan-r6-003",
+      "sentenceOrder": 3,
+      "english": "It's a small blue case and it's got a zip.",
+      "chinese": "它是一只蓝色的小箱子，而且有一个拉链。",
+      "lesson": "Lesson 97 A small blue case"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-97",
+      "sentenceId": "nce-1-lesson-097-scan-r6-004",
+      "sentenceOrder": 4,
+      "english": "There's a label on the handle with my name and address on it.",
+      "chinese": "把手上有个标签，上面写着我的姓名和地址。",
+      "lesson": "Lesson 97 A small blue case"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-97",
+      "sentenceId": "nce-1-lesson-097-scan-r6-005",
+      "sentenceOrder": 5,
+      "english": "Is this case yours?",
+      "chinese": "这只箱子是您的吗？",
+      "lesson": "Lesson 97 A small blue case"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-97",
+      "sentenceId": "nce-1-lesson-097-scan-r6-006",
+      "sentenceOrder": 6,
+      "english": "No, that's not mine.",
+      "chinese": "不，那不是我的。",
+      "lesson": "Lesson 97 A small blue case"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-97",
+      "sentenceId": "nce-1-lesson-097-scan-r6-007",
+      "sentenceOrder": 7,
+      "english": "What about this one?",
+      "chinese": "那这只呢？",
+      "lesson": "Lesson 97 A small blue case"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-97",
+      "sentenceId": "nce-1-lesson-097-scan-r6-008",
+      "sentenceOrder": 8,
+      "english": "This one's got a label.",
+      "chinese": "这只箱子有个标签。",
+      "lesson": "Lesson 97 A small blue case"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-97",
+      "sentenceId": "nce-1-lesson-097-scan-r6-009",
+      "sentenceOrder": 9,
+      "english": "Let me see it.",
+      "chinese": "让我看看。",
+      "lesson": "Lesson 97 A small blue case"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-97",
+      "sentenceId": "nce-1-lesson-097-scan-r6-010",
+      "sentenceOrder": 10,
+      "english": "What's your name and address?",
+      "chinese": "您的姓名和地址是什么？",
+      "lesson": "Lesson 97 A small blue case"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-97",
+      "sentenceId": "nce-1-lesson-097-scan-r6-011",
+      "sentenceOrder": 11,
+      "english": "David Hall, 83, Bridge Street.",
+      "chinese": "戴维·霍尔，桥街83号。",
       "lesson": "Lesson 97 A small blue case"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-97",
       "sentenceId": "nce-1-lesson-097-sentence-011",
+      "sentenceOrder": 12,
+      "english": "That's right.",
+      "chinese": "没错。",
+      "lesson": "Lesson 97 A small blue case"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-97",
+      "sentenceId": "nce-1-lesson-097-scan-r6-013",
       "sentenceOrder": 13,
-      "english": "All right.",
-      "chinese": "好吧。",
+      "english": "D. N. Hall, 83, Bridge Street.",
+      "chinese": "D. N. 霍尔，大桥街83号。",
       "lesson": "Lesson 97 A small blue case"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-97",
-      "sentenceId": "nce-1-lesson-097-sentence-012",
+      "sentenceId": "nce-1-lesson-097-scan-r6-014",
       "sentenceOrder": 14,
-      "english": "Is this the man that you served, Caroline?",
-      "chinese": "卡罗琳，这就是你接待过的那个人吗？",
+      "english": "Three pounds fifty pence, please.",
+      "chinese": "请付三英镑五十便士。",
       "lesson": "Lesson 97 A small blue case"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-97",
-      "sentenceId": "nce-1-lesson-097-sentence-013-part-01",
+      "sentenceId": "nce-1-lesson-097-scan-r6-015",
       "sentenceOrder": 15,
-      "english": "Yes.",
-      "chinese": "是的。",
-      "lesson": "Lesson 97 A small blue case",
-      "parentSentenceId": "nce-1-lesson-097-sentence-013",
-      "parentEnglish": "Yes. I recognize him now.",
-      "tokenOffset": 0
+      "english": "Here you are.",
+      "chinese": "给您。",
+      "lesson": "Lesson 97 A small blue case"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-97",
-      "sentenceId": "nce-1-lesson-097-sentence-013-part-02",
+      "sentenceId": "nce-1-lesson-097-scan-r6-016",
       "sentenceOrder": 16,
-      "english": "I recognize him now.",
-      "chinese": "我现在认出他来了。",
-      "lesson": "Lesson 97 A small blue case",
-      "parentSentenceId": "nce-1-lesson-097-sentence-013",
-      "parentEnglish": "Yes. I recognize him now.",
-      "tokenOffset": 1
+      "english": "Thank you.",
+      "chinese": "谢谢你。",
+      "lesson": "Lesson 97 A small blue case"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-97",
+      "sentenceId": "nce-1-lesson-097-scan-r6-017",
+      "sentenceOrder": 17,
+      "english": "Hey!",
+      "chinese": "嘿！",
+      "lesson": "Lesson 97 A small blue case"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-97",
+      "sentenceId": "nce-1-lesson-097-scan-r6-018",
+      "sentenceOrder": 18,
+      "english": "What's the matter?",
+      "chinese": "怎么回事？",
+      "lesson": "Lesson 97 A small blue case"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-97",
+      "sentenceId": "nce-1-lesson-097-scan-r6-019",
+      "sentenceOrder": 19,
+      "english": "This case doesn't belong to me!",
+      "chinese": "这箱子不是我的！",
+      "lesson": "Lesson 97 A small blue case"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-97",
+      "sentenceId": "nce-1-lesson-097-scan-r6-020",
+      "sentenceOrder": 20,
+      "english": "You've given me the wrong case!",
+      "chinese": "你给错我箱子了！",
+      "lesson": "Lesson 97 A small blue case"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-99",
+      "sentenceId": "nce-1-lesson-099-scan-r6-001",
+      "sentenceOrder": 1,
+      "english": "Ow!",
+      "chinese": "哎哟！",
+      "lesson": "Lesson 99 Ow!"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-99",
       "sentenceId": "nce-1-lesson-099-sentence-001",
-      "sentenceOrder": 1,
+      "sentenceOrder": 2,
       "english": "What's the matter, Andy?",
       "chinese": "怎么了，安迪？",
       "lesson": "Lesson 99 Ow!"
@@ -7447,7 +7714,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-99",
       "sentenceId": "nce-1-lesson-099-sentence-002",
-      "sentenceOrder": 2,
+      "sentenceOrder": 3,
       "english": "I slipped and fell downstairs.",
       "chinese": "我滑倒了，从楼梯上摔了下来。",
       "lesson": "Lesson 99 Ow!"
@@ -7456,7 +7723,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-99",
       "sentenceId": "nce-1-lesson-099-sentence-003",
-      "sentenceOrder": 3,
+      "sentenceOrder": 4,
       "english": "Have you hurt yourself?",
       "chinese": "你伤到自己了吗？",
       "lesson": "Lesson 99 Ow!"
@@ -7465,7 +7732,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-99",
       "sentenceId": "nce-1-lesson-099-sentence-004-part-01",
-      "sentenceOrder": 4,
+      "sentenceOrder": 5,
       "english": "Yes, I have.",
       "chinese": "是的，我受伤了。",
       "lesson": "Lesson 99 Ow!",
@@ -7477,7 +7744,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-99",
       "sentenceId": "nce-1-lesson-099-sentence-004-part-02",
-      "sentenceOrder": 5,
+      "sentenceOrder": 6,
       "english": "I think that I've hurt my back.",
       "chinese": "我想我伤到背了。",
       "lesson": "Lesson 99 Ow!",
@@ -7489,7 +7756,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-99",
       "sentenceId": "nce-1-lesson-099-sentence-005",
-      "sentenceOrder": 6,
+      "sentenceOrder": 7,
       "english": "Try and stand up.",
       "chinese": "试着站起来。",
       "lesson": "Lesson 99 Ow!"
@@ -7498,7 +7765,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-99",
       "sentenceId": "nce-1-lesson-099-sentence-006",
-      "sentenceOrder": 7,
+      "sentenceOrder": 8,
       "english": "Can you stand up?",
       "chinese": "你能站起来吗？",
       "lesson": "Lesson 99 Ow!"
@@ -7507,7 +7774,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-99",
       "sentenceId": "nce-1-lesson-099-sentence-007",
-      "sentenceOrder": 8,
+      "sentenceOrder": 9,
       "english": "Here.",
       "chinese": "试着站起来。你能站起来吗？来，让我帮你。",
       "lesson": "Lesson 99 Ow!"
@@ -7516,7 +7783,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-99",
       "sentenceId": "nce-1-lesson-099-sentence-008",
-      "sentenceOrder": 9,
+      "sentenceOrder": 10,
       "english": "Let me help you.",
       "chinese": "来，让我帮你。",
       "lesson": "Lesson 99 Ow!"
@@ -7525,7 +7792,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-99",
       "sentenceId": "nce-1-lesson-099-sentence-009-part-01",
-      "sentenceOrder": 10,
+      "sentenceOrder": 11,
       "english": "I'm sorry, Lucy.",
       "chinese": "对不起，露西。",
       "lesson": "Lesson 99 Ow!",
@@ -7537,7 +7804,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-99",
       "sentenceId": "nce-1-lesson-099-sentence-009-part-02",
-      "sentenceOrder": 11,
+      "sentenceOrder": 12,
       "english": "I'm afraid that I can't get up.",
       "chinese": "恐怕我起不来。",
       "lesson": "Lesson 99 Ow!",
@@ -7549,7 +7816,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-99",
       "sentenceId": "nce-1-lesson-099-sentence-010-part-01",
-      "sentenceOrder": 12,
+      "sentenceOrder": 13,
       "english": "I think that the doctor had better see you.",
       "chinese": "我想最好让医生看看你。",
       "lesson": "Lesson 99 Ow!",
@@ -7561,7 +7828,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-99",
       "sentenceId": "nce-1-lesson-099-sentence-010-part-02",
-      "sentenceOrder": 13,
+      "sentenceOrder": 14,
       "english": "I'll phone Dr. Carter.",
       "chinese": "我会给卡特医生打电话。",
       "lesson": "Lesson 99 Ow!",
@@ -7573,7 +7840,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-99",
       "sentenceId": "nce-1-lesson-099-sentence-011-part-01",
-      "sentenceOrder": 14,
+      "sentenceOrder": 15,
       "english": "The doctor says that he will come at once.",
       "chinese": "医生说他马上就来。",
       "lesson": "Lesson 99 Ow!",
@@ -7585,7 +7852,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-99",
       "sentenceId": "nce-1-lesson-099-sentence-011-part-02",
-      "sentenceOrder": 15,
+      "sentenceOrder": 16,
       "english": "I'm sure that you need an X-ray, Andy.",
       "chinese": "安迪，我肯定你需要拍一张X光片。",
       "lesson": "Lesson 99 Ow!",
@@ -7683,8 +7950,62 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-101",
-      "sentenceId": "nce-1-lesson-101-sentence-009",
+      "sentenceId": "nce-1-lesson-101-scan-r6-010",
       "sentenceOrder": 10,
+      "english": "What else does he say?",
+      "chinese": "他还说了什么？",
+      "lesson": "Lesson 101 A card from Jimmy"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-101",
+      "sentenceId": "nce-1-lesson-101-scan-r6-011",
+      "sentenceOrder": 11,
+      "english": "'I'll write a letter soon.",
+      "chinese": "“我很快会写一封信。",
+      "lesson": "Lesson 101 A card from Jimmy"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-101",
+      "sentenceId": "nce-1-lesson-101-scan-r6-012",
+      "sentenceOrder": 12,
+      "english": "I hope you are all well.'",
+      "chinese": "我希望你们都身体好。’",
+      "lesson": "Lesson 101 A card from Jimmy"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-101",
+      "sentenceId": "nce-1-lesson-101-scan-r6-013",
+      "sentenceOrder": 13,
+      "english": "What?",
+      "chinese": "什么？",
+      "lesson": "Lesson 101 A card from Jimmy"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-101",
+      "sentenceId": "nce-1-lesson-101-scan-r6-014",
+      "sentenceOrder": 14,
+      "english": "Speak up, Penny.",
+      "chinese": "大点声说，彭妮。",
+      "lesson": "Lesson 101 A card from Jimmy"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-101",
+      "sentenceId": "nce-1-lesson-101-scan-r6-015",
+      "sentenceOrder": 15,
+      "english": "I'm afraid I can't hear you.",
+      "chinese": "恐怕我听不见你说话。",
+      "lesson": "Lesson 101 A card from Jimmy"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-101",
+      "sentenceId": "nce-1-lesson-101-sentence-009",
+      "sentenceOrder": 16,
       "english": "He says he'll write a letter soon.",
       "chinese": "他说他很快会写信。他希望我们大家都好。‘爱你的，吉米。’",
       "lesson": "Lesson 101 A card from Jimmy"
@@ -7693,7 +8014,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-101",
       "sentenceId": "nce-1-lesson-101-sentence-010",
-      "sentenceOrder": 11,
+      "sentenceOrder": 17,
       "english": "He hopes we are all well.",
       "chinese": "他希望我们大家都好。",
       "lesson": "Lesson 101 A card from Jimmy"
@@ -7702,7 +8023,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-101",
       "sentenceId": "nce-1-lesson-101-sentence-011",
-      "sentenceOrder": 12,
+      "sentenceOrder": 18,
       "english": "'Love, Jimmy.'",
       "chinese": "他说他很快会写信。他希望我们大家都好。‘爱你的，吉米。’",
       "lesson": "Lesson 101 A card from Jimmy"
@@ -7711,7 +8032,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-101",
       "sentenceId": "nce-1-lesson-101-sentence-012-part-01",
-      "sentenceOrder": 13,
+      "sentenceOrder": 19,
       "english": "Is that all?",
       "chinese": "就这些吗？",
       "lesson": "Lesson 101 A card from Jimmy",
@@ -7723,7 +8044,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-101",
       "sentenceId": "nce-1-lesson-101-sentence-012-part-02",
-      "sentenceOrder": 14,
+      "sentenceOrder": 20,
       "english": "He doesn't say very much, does he?",
       "chinese": "他没写多少东西，是吧？",
       "lesson": "Lesson 101 A card from Jimmy",
@@ -7735,7 +8056,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-101",
       "sentenceId": "nce-1-lesson-101-sentence-013",
-      "sentenceOrder": 15,
+      "sentenceOrder": 21,
       "english": "He can't write very much on a card, Mum.",
       "chinese": "妈妈，明信片上写不了太多。",
       "lesson": "Lesson 101 A card from Jimmy"
@@ -7743,62 +8064,26 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-103",
-      "sentenceId": "nce-1-lesson-103-sentence-001",
+      "sentenceId": "nce-1-lesson-103-scan-r6-001",
       "sentenceOrder": 1,
-      "english": "How many questions did you get right, Jane?",
-      "chinese": "简，你答对了多少题？",
+      "english": "How was the exam, Richard?",
+      "chinese": "考试怎么样，理查德？",
       "lesson": "Lesson 103 The French test"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-103",
-      "sentenceId": "nce-1-lesson-103-sentence-002",
+      "sentenceId": "nce-1-lesson-103-scan-r6-002",
       "sentenceOrder": 2,
-      "english": "I got eighty.",
-      "chinese": "我答对了八十道。",
-      "lesson": "Lesson 103 The French test"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-103",
-      "sentenceId": "nce-1-lesson-103-sentence-003",
-      "sentenceOrder": 3,
-      "english": "How about you, Harry?",
-      "chinese": "你呢，哈里？",
-      "lesson": "Lesson 103 The French test"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-103",
-      "sentenceId": "nce-1-lesson-103-sentence-004",
-      "sentenceOrder": 4,
-      "english": "I got fifty.",
-      "chinese": "我答对了五十道。",
-      "lesson": "Lesson 103 The French test"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-103",
-      "sentenceId": "nce-1-lesson-103-sentence-005",
-      "sentenceOrder": 5,
-      "english": "I got forty-four.",
-      "chinese": "我答对了四十四道。",
-      "lesson": "Lesson 103 The French test"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-103",
-      "sentenceId": "nce-1-lesson-103-sentence-006",
-      "sentenceOrder": 6,
-      "english": "That's not bad.",
-      "chinese": "那还不错。",
+      "english": "Not too bad.",
+      "chinese": "不算太糟。",
       "lesson": "Lesson 103 The French test"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-007",
-      "sentenceOrder": 7,
+      "sentenceOrder": 3,
       "english": "I think I passed in English and Mathematics.",
       "chinese": "我想我的英语和数学及格了。",
       "lesson": "Lesson 103 The French test"
@@ -7807,7 +8092,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-008",
-      "sentenceOrder": 8,
+      "sentenceOrder": 4,
       "english": "The questions were very easy.",
       "chinese": "题很容易。",
       "lesson": "Lesson 103 The French test"
@@ -7816,7 +8101,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-009",
-      "sentenceOrder": 9,
+      "sentenceOrder": 5,
       "english": "How about you, Gary?",
       "chinese": "你呢，加里？",
       "lesson": "Lesson 103 The French test"
@@ -7825,7 +8110,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-010-part-01",
-      "sentenceOrder": 10,
+      "sentenceOrder": 6,
       "english": "The English and Maths papers weren't easy enough for me.",
       "chinese": "英语和数学试卷对我来说不够容易。",
       "lesson": "Lesson 103 The French test",
@@ -7837,7 +8122,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-010-part-02",
-      "sentenceOrder": 11,
+      "sentenceOrder": 7,
       "english": "I hope I haven't failed.",
       "chinese": "我希望我没有不及格。",
       "lesson": "Lesson 103 The French test",
@@ -7849,7 +8134,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-011",
-      "sentenceOrder": 12,
+      "sentenceOrder": 8,
       "english": "I think I failed the French paper.",
       "chinese": "我想我的法语考试不及格了。",
       "lesson": "Lesson 103 The French test"
@@ -7858,7 +8143,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-012",
-      "sentenceOrder": 13,
+      "sentenceOrder": 9,
       "english": "I could answer sixteen of the questions.",
       "chinese": "我能回答其中十六道题。",
       "lesson": "Lesson 103 The French test"
@@ -7867,7 +8152,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-013",
-      "sentenceOrder": 14,
+      "sentenceOrder": 10,
       "english": "They were very easy.",
       "chinese": "那些题很容易。",
       "lesson": "Lesson 103 The French test"
@@ -7876,7 +8161,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-014",
-      "sentenceOrder": 15,
+      "sentenceOrder": 11,
       "english": "But I couldn't answer the rest.",
       "chinese": "但其余的我答不上来。",
       "lesson": "Lesson 103 The French test"
@@ -7885,7 +8170,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-015",
-      "sentenceOrder": 16,
+      "sentenceOrder": 12,
       "english": "They were too difficult for me.",
       "chinese": "它们对我来说太难了。",
       "lesson": "Lesson 103 The French test"
@@ -7894,7 +8179,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-016",
-      "sentenceOrder": 17,
+      "sentenceOrder": 13,
       "english": "French tests are awful, aren't they?",
       "chinese": "法语考试真糟糕，是不是？",
       "lesson": "Lesson 103 The French test"
@@ -7903,7 +8188,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-017-part-01",
-      "sentenceOrder": 18,
+      "sentenceOrder": 14,
       "english": "I hate them.",
       "chinese": "我讨厌它们。",
       "lesson": "Lesson 103 The French test",
@@ -7915,7 +8200,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-017-part-02",
-      "sentenceOrder": 19,
+      "sentenceOrder": 15,
       "english": "I'm sure I've got a low mark.",
       "chinese": "我肯定我考了低分。",
       "lesson": "Lesson 103 The French test",
@@ -7927,7 +8212,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-018-part-01",
-      "sentenceOrder": 20,
+      "sentenceOrder": 16,
       "english": "Oh, cheer up!",
       "chinese": "哦，振作点！",
       "lesson": "Lesson 103 The French test",
@@ -7939,7 +8224,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-018-part-02",
-      "sentenceOrder": 21,
+      "sentenceOrder": 17,
       "english": "Perhaps we didn't do too badly.",
       "chinese": "也许我们考得并不太差。",
       "lesson": "Lesson 103 The French test",
@@ -7951,16 +8236,16 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-019",
-      "sentenceOrder": 22,
-      "english": "The man next to me wrote his name at the top of the paper.",
-      "chinese": "坐在我旁边的那个人在试卷上端写了自己的名字。",
+      "sentenceOrder": 18,
+      "english": "The guy next to me wrote his name at the top of the paper.",
+      "chinese": "我旁边的那个人在试卷顶端写了自己的名字。",
       "lesson": "Lesson 103 The French test"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-020",
-      "sentenceOrder": 23,
+      "sentenceOrder": 19,
       "english": "Yes?",
       "chinese": "（升调）然后呢？",
       "lesson": "Lesson 103 The French test"
@@ -7969,7 +8254,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-021-part-01",
-      "sentenceOrder": 24,
+      "sentenceOrder": 20,
       "english": "Then he sat there and looked at it for three hours!",
       "chinese": "然后他坐在那里盯着它看了三个小时！",
       "lesson": "Lesson 103 The French test",
@@ -7981,7 +8266,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-103",
       "sentenceId": "nce-1-lesson-103-sentence-021-part-02",
-      "sentenceOrder": 25,
+      "sentenceOrder": 21,
       "english": "He didn't write a word!",
       "chinese": "他一个字也没写！",
       "lesson": "Lesson 103 The French test",
@@ -8025,20 +8310,26 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-105",
-      "sentenceId": "nce-1-lesson-105-sentence-003-part-01",
+      "sentenceId": "nce-1-lesson-105-scan-r6-004",
       "sentenceOrder": 4,
-      "english": "Yes, I want her to come to my office.",
-      "chinese": "是的，我要她到我的办公室来。",
-      "lesson": "Lesson 105 Full of mistakes",
-      "parentSentenceId": "nce-1-lesson-105-sentence-003",
-      "parentEnglish": "Yes, I want her to come to my office. Tell her to come at once.",
-      "tokenOffset": 0
+      "english": "Yes, I do.",
+      "chinese": "是的，我想。",
+      "lesson": "Lesson 105 Full of mistakes"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-105",
+      "sentenceId": "nce-1-lesson-105-sentence-003-part-01",
+      "sentenceOrder": 5,
+      "english": "I want her to come to my office.",
+      "chinese": "我要她到我办公室来。",
+      "lesson": "Lesson 105 Full of mistakes"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-105",
       "sentenceId": "nce-1-lesson-105-sentence-003-part-02",
-      "sentenceOrder": 5,
+      "sentenceOrder": 6,
       "english": "Tell her to come at once.",
       "chinese": "告诉她马上来。",
       "lesson": "Lesson 105 Full of mistakes",
@@ -8049,107 +8340,125 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-105",
-      "sentenceId": "nce-1-lesson-105-sentence-004-part-01",
-      "sentenceOrder": 6,
-      "english": "Sandra, here's a letter for you.",
-      "chinese": "桑德拉，这是给你的一封信。",
-      "lesson": "Lesson 105 Full of mistakes",
-      "parentSentenceId": "nce-1-lesson-105-sentence-004",
-      "parentEnglish": "Sandra, here's a letter for you. I want you to type it again.",
-      "tokenOffset": 0
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-105",
-      "sentenceId": "nce-1-lesson-105-sentence-004-part-02",
+      "sentenceId": "nce-1-lesson-105-scan-r6-007",
       "sentenceOrder": 7,
-      "english": "I want you to type it again.",
-      "chinese": "我要你重新打一遍。",
-      "lesson": "Lesson 105 Full of mistakes",
-      "parentSentenceId": "nce-1-lesson-105-sentence-004",
-      "parentEnglish": "Sandra, here's a letter for you. I want you to type it again.",
-      "tokenOffset": 6
+      "english": "Did you want to see me?",
+      "chinese": "您刚才找我吗？",
+      "lesson": "Lesson 105 Full of mistakes"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-105",
-      "sentenceId": "nce-1-lesson-105-sentence-005-part-01",
+      "sentenceId": "nce-1-lesson-105-scan-r6-008",
       "sentenceOrder": 8,
-      "english": "Yes, Mr. Richards.",
-      "chinese": "好的，理查兹先生。",
-      "lesson": "Lesson 105 Full of mistakes",
-      "parentSentenceId": "nce-1-lesson-105-sentence-005",
-      "parentEnglish": "Yes, Mr. Richards. What's wrong with it?",
-      "tokenOffset": 0
+      "english": "Ah, yes, Sandra.",
+      "chinese": "啊，是的，桑德拉。",
+      "lesson": "Lesson 105 Full of mistakes"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-105",
-      "sentenceId": "nce-1-lesson-105-sentence-005-part-02",
+      "sentenceId": "nce-1-lesson-105-scan-r6-009",
       "sentenceOrder": 9,
-      "english": "What's wrong with it?",
-      "chinese": "它有什么问题？",
-      "lesson": "Lesson 105 Full of mistakes",
-      "parentSentenceId": "nce-1-lesson-105-sentence-005",
-      "parentEnglish": "Yes, Mr. Richards. What's wrong with it?",
-      "tokenOffset": 3
+      "english": "How do you spell 'intelligent'?",
+      "chinese": "“intelligent”这个词怎么拼？",
+      "lesson": "Lesson 105 Full of mistakes"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-105",
+      "sentenceId": "nce-1-lesson-105-scan-r6-010",
+      "sentenceOrder": 10,
+      "english": "Can you tell me?",
+      "chinese": "你能告诉我吗？",
+      "lesson": "Lesson 105 Full of mistakes"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-105",
+      "sentenceId": "nce-1-lesson-105-scan-r6-011",
+      "sentenceOrder": 11,
+      "english": "I-N-T-E-L-L-I-G-E-N-T.",
+      "chinese": "拼作 I-N-T-E-L-L-I-G-E-N-T。",
+      "lesson": "Lesson 105 Full of mistakes"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-105",
+      "sentenceId": "nce-1-lesson-105-scan-r6-012",
+      "sentenceOrder": 12,
+      "english": "That's right.",
+      "chinese": "对了。",
+      "lesson": "Lesson 105 Full of mistakes"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-105",
+      "sentenceId": "nce-1-lesson-105-scan-r6-013",
+      "sentenceOrder": 13,
+      "english": "You've typed it with only one 'L'.",
+      "chinese": "可你打的时候只打了一个 L。",
+      "lesson": "Lesson 105 Full of mistakes"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-105",
       "sentenceId": "nce-1-lesson-105-sentence-006-part-01",
-      "sentenceOrder": 10,
-      "english": "It's full of mistakes.",
-      "chinese": "里面全是错误。",
-      "lesson": "Lesson 105 Full of mistakes",
-      "parentSentenceId": "nce-1-lesson-105-sentence-006",
-      "parentEnglish": "It's full of mistakes. I want you to correct them.",
-      "tokenOffset": 0
+      "sentenceOrder": 14,
+      "english": "This letter's full of mistakes.",
+      "chinese": "这封信里全是错误。",
+      "lesson": "Lesson 105 Full of mistakes"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-105",
       "sentenceId": "nce-1-lesson-105-sentence-006-part-02",
-      "sentenceOrder": 11,
-      "english": "I want you to correct them.",
-      "chinese": "我要你把它们改正。",
-      "lesson": "Lesson 105 Full of mistakes",
-      "parentSentenceId": "nce-1-lesson-105-sentence-006",
-      "parentEnglish": "It's full of mistakes. I want you to correct them.",
-      "tokenOffset": 4
+      "sentenceOrder": 15,
+      "english": "I want you to type it again.",
+      "chinese": "我要你把它重新打一遍。",
+      "lesson": "Lesson 105 Full of mistakes"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-105",
-      "sentenceId": "nce-1-lesson-105-sentence-007",
-      "sentenceOrder": 12,
-      "english": "Very well, Mr. Richards.",
-      "chinese": "好的，理查兹先生。",
+      "sentenceId": "nce-1-lesson-105-scan-r6-016",
+      "sentenceOrder": 16,
+      "english": "Yes, I'll do that.",
+      "chinese": "好的，我会照办。",
+      "lesson": "Lesson 105 Full of mistakes"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-105",
+      "sentenceId": "nce-1-lesson-105-scan-r6-017",
+      "sentenceOrder": 17,
+      "english": "I'm sorry about that.",
+      "chinese": "这件事真对不起。",
       "lesson": "Lesson 105 Full of mistakes"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-105",
       "sentenceId": "nce-1-lesson-105-sentence-008",
-      "sentenceOrder": 13,
-      "english": "Here's a little present for you.",
-      "chinese": "这是给你的一件小礼物。",
+      "sentenceOrder": 18,
+      "english": "And here's a little present for you.",
+      "chinese": "另外，这儿有一件小礼物送给你。",
       "lesson": "Lesson 105 Full of mistakes"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-105",
-      "sentenceId": "nce-1-lesson-105-sentence-009",
-      "sentenceOrder": 14,
-      "english": "What's this?",
-      "chinese": "这是什么？",
+      "sentenceId": "nce-1-lesson-105-scan-r6-019",
+      "sentenceOrder": 19,
+      "english": "What is it?",
+      "chinese": "是什么呀？",
       "lesson": "Lesson 105 Full of mistakes"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-105",
       "sentenceId": "nce-1-lesson-105-sentence-010",
-      "sentenceOrder": 15,
+      "sentenceOrder": 20,
       "english": "It's a dictionary.",
       "chinese": "它是一本词典。",
       "lesson": "Lesson 105 Full of mistakes"
@@ -8158,18 +8467,9 @@
       "courseId": "nce1",
       "lessonId": "lesson-105",
       "sentenceId": "nce-1-lesson-105-sentence-011",
-      "sentenceOrder": 16,
+      "sentenceOrder": 21,
       "english": "I hope it'll help you.",
       "chinese": "我希望这本词典能帮到你。",
-      "lesson": "Lesson 105 Full of mistakes"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-105",
-      "sentenceId": "nce-1-lesson-105-sentence-012",
-      "sentenceOrder": 17,
-      "english": "Thank you, Mr. Richards.",
-      "chinese": "谢谢您，理查兹先生。",
       "lesson": "Lesson 105 Full of mistakes"
     },
     {
@@ -8313,68 +8613,38 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-107",
-      "sentenceId": "nce-1-lesson-107-sentence-013-part-01",
+      "sentenceId": "nce-1-lesson-107-scan-r6-015",
       "sentenceOrder": 15,
-      "english": "But the blue one's longer than the green one.",
-      "chinese": "可是那件蓝色的比这件绿色的长。",
-      "lesson": "Lesson 107 It's too small.",
-      "parentSentenceId": "nce-1-lesson-107-sentence-013",
-      "parentEnglish": "But the blue one's longer than the green one. I'm afraid the green dress is too short for me.",
-      "tokenOffset": 0
+      "english": "Could you show me another blue dress?",
+      "chinese": "能再拿一件蓝色连衣裙给我看看吗？",
+      "lesson": "Lesson 107 It's too small."
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-107",
-      "sentenceId": "nce-1-lesson-107-sentence-013-part-02",
+      "sentenceId": "nce-1-lesson-107-scan-r6-016",
       "sentenceOrder": 16,
-      "english": "I'm afraid the green dress is too short for me.",
-      "chinese": "恐怕这件绿色连衣裙对我来说太短了。",
-      "lesson": "Lesson 107 It's too small.",
-      "parentSentenceId": "nce-1-lesson-107-sentence-013",
-      "parentEnglish": "But the blue one's longer than the green one. I'm afraid the green dress is too short for me.",
-      "tokenOffset": 9
+      "english": "I want a dress like that one, but it must be my size.",
+      "chinese": "我想要一件像那件那样的连衣裙，但尺码必须适合我。",
+      "lesson": "Lesson 107 It's too small."
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-107",
-      "sentenceId": "nce-1-lesson-107-sentence-014",
+      "sentenceId": "nce-1-lesson-107-scan-r6-017",
       "sentenceOrder": 17,
-      "english": "Why don't you try on the blue one?",
-      "chinese": "您为什么不试试那件蓝色的呢？",
+      "english": "I'm afraid I haven't got a larger dress.",
+      "chinese": "恐怕我这里没有更大号的连衣裙了。",
       "lesson": "Lesson 107 It's too small."
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-107",
-      "sentenceId": "nce-1-lesson-107-sentence-015",
+      "sentenceId": "nce-1-lesson-107-scan-r6-018",
       "sentenceOrder": 18,
-      "english": "Yes, that's a good idea.",
-      "chinese": "是的，这是个好主意。",
+      "english": "This is the largest dress in the shop.",
+      "chinese": "这是店里最大号的连衣裙了。",
       "lesson": "Lesson 107 It's too small."
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-107",
-      "sentenceId": "nce-1-lesson-107-sentence-016-part-01",
-      "sentenceOrder": 19,
-      "english": "I think the blue dress is more beautiful than the green one.",
-      "chinese": "我觉得那件蓝色连衣裙比这件绿色的更漂亮。",
-      "lesson": "Lesson 107 It's too small.",
-      "parentSentenceId": "nce-1-lesson-107-sentence-016",
-      "parentEnglish": "I think the blue dress is more beautiful than the green one. And it's bigger, too.",
-      "tokenOffset": 0
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-107",
-      "sentenceId": "nce-1-lesson-107-sentence-016-part-02",
-      "sentenceOrder": 20,
-      "english": "And it's bigger, too.",
-      "chinese": "而且也更大。",
-      "lesson": "Lesson 107 It's too small.",
-      "parentSentenceId": "nce-1-lesson-107-sentence-016",
-      "parentEnglish": "I think the blue dress is more beautiful than the green one. And it's bigger, too.",
-      "tokenOffset": 12
     },
     {
       "courseId": "nce1",
@@ -8390,8 +8660,8 @@
       "lessonId": "lesson-109",
       "sentenceId": "nce-1-lesson-109-sentence-002",
       "sentenceOrder": 2,
-      "english": "That's a good idea, Harry.",
-      "chinese": "这是个好主意，哈里。",
+      "english": "That's a good idea, Charlotte.",
+      "chinese": "好主意，夏洛特。",
       "lesson": "Lesson 109 A good idea"
     },
     {
@@ -8492,8 +8762,8 @@
       "lessonId": "lesson-109",
       "sentenceId": "nce-1-lesson-109-sentence-010",
       "sentenceOrder": 12,
-      "english": "Would you like another cup?",
-      "chinese": "你想再来一杯吗？",
+      "english": "Would you like some more?",
+      "chinese": "还想再喝点吗？",
       "lesson": "Lesson 109 A good idea"
     },
     {
@@ -8513,42 +8783,51 @@
       "lessonId": "lesson-109",
       "sentenceId": "nce-1-lesson-109-sentence-011-part-02",
       "sentenceOrder": 14,
-      "english": "I'd like a biscuit too.",
-      "chinese": "我还想要一块饼干。",
-      "lesson": "Lesson 109 A good idea",
-      "parentSentenceId": "nce-1-lesson-109-sentence-011",
-      "parentEnglish": "Yes, please. I'd like a biscuit too.",
-      "tokenOffset": 2
+      "english": "I'd like a cigarette, too.",
+      "chinese": "我还想要一支香烟。",
+      "lesson": "Lesson 109 A good idea"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-109",
-      "sentenceId": "nce-1-lesson-109-sentence-012-part-01",
+      "sentenceId": "nce-1-lesson-109-scan-r6-015",
       "sentenceOrder": 15,
-      "english": "There are only a few left.",
-      "chinese": "只剩下几块了。",
-      "lesson": "Lesson 109 A good idea",
-      "parentSentenceId": "nce-1-lesson-109-sentence-012",
-      "parentEnglish": "There are only a few left. I'm afraid the tin's nearly empty.",
-      "tokenOffset": 0
+      "english": "May I have one?",
+      "chinese": "我可以拿一支吗？",
+      "lesson": "Lesson 109 A good idea"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-109",
+      "sentenceId": "nce-1-lesson-109-scan-r6-016",
+      "sentenceOrder": 16,
+      "english": "Of course.",
+      "chinese": "当然可以。",
+      "lesson": "Lesson 109 A good idea"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-109",
+      "sentenceId": "nce-1-lesson-109-scan-r6-017",
+      "sentenceOrder": 17,
+      "english": "I think there are a few in that box.",
+      "chinese": "我想那个盒子里还有几支。",
+      "lesson": "Lesson 109 A good idea"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-109",
       "sentenceId": "nce-1-lesson-109-sentence-012-part-02",
-      "sentenceOrder": 16,
-      "english": "I'm afraid the tin's nearly empty.",
-      "chinese": "恐怕盒子快空了。",
-      "lesson": "Lesson 109 A good idea",
-      "parentSentenceId": "nce-1-lesson-109-sentence-012",
-      "parentEnglish": "There are only a few left. I'm afraid the tin's nearly empty.",
-      "tokenOffset": 6
+      "sentenceOrder": 18,
+      "english": "I'm afraid it's empty.",
+      "chinese": "恐怕盒子是空的。",
+      "lesson": "Lesson 109 A good idea"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-109",
       "sentenceId": "nce-1-lesson-109-sentence-013",
-      "sentenceOrder": 17,
+      "sentenceOrder": 19,
       "english": "What a pity!",
       "chinese": "真可惜！",
       "lesson": "Lesson 109 A good idea"
@@ -8557,7 +8836,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-109",
       "sentenceId": "nce-1-lesson-109-sentence-014-part-01",
-      "sentenceOrder": 18,
+      "sentenceOrder": 20,
       "english": "It doesn't matter.",
       "chinese": "没关系。",
       "lesson": "Lesson 109 A good idea",
@@ -8569,85 +8848,28 @@
       "courseId": "nce1",
       "lessonId": "lesson-109",
       "sentenceId": "nce-1-lesson-109-sentence-014-part-02",
-      "sentenceOrder": 19,
-      "english": "Have a cigarette.",
-      "chinese": "抽支烟吧。",
-      "lesson": "Lesson 109 A good idea",
-      "parentSentenceId": "nce-1-lesson-109-sentence-014",
-      "parentEnglish": "It doesn't matter. Have a cigarette.",
-      "tokenOffset": 3
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-109",
-      "sentenceId": "nce-1-lesson-109-sentence-015-part-01",
-      "sentenceOrder": 20,
-      "english": "No, thanks.",
-      "chinese": "不用，谢谢。",
-      "lesson": "Lesson 109 A good idea",
-      "parentSentenceId": "nce-1-lesson-109-sentence-015",
-      "parentEnglish": "No, thanks. I never smoke.",
-      "tokenOffset": 0
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-109",
-      "sentenceId": "nce-1-lesson-109-sentence-015-part-02",
       "sentenceOrder": 21,
-      "english": "I never smoke.",
-      "chinese": "我从不抽烟。",
-      "lesson": "Lesson 109 A good idea",
-      "parentSentenceId": "nce-1-lesson-109-sentence-015",
-      "parentEnglish": "No, thanks. I never smoke.",
-      "tokenOffset": 2
+      "english": "Have a biscuit instead.",
+      "chinese": "那就吃块饼干吧。",
+      "lesson": "Lesson 109 A good idea"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-109",
-      "sentenceId": "nce-1-lesson-109-sentence-016-part-01",
+      "sentenceId": "nce-1-lesson-109-scan-r6-022",
       "sentenceOrder": 22,
-      "english": "I have a lot of cigarettes.",
-      "chinese": "我有很多香烟。",
-      "lesson": "Lesson 109 A good idea",
-      "parentSentenceId": "nce-1-lesson-109-sentence-016",
-      "parentEnglish": "I have a lot of cigarettes. I smoke a lot.",
-      "tokenOffset": 0
+      "english": "Eat more and smoke less!",
+      "chinese": "多吃点，少抽点！",
+      "lesson": "Lesson 109 A good idea"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-109",
-      "sentenceId": "nce-1-lesson-109-sentence-016-part-02",
+      "sentenceId": "nce-1-lesson-109-scan-r6-023",
       "sentenceOrder": 23,
-      "english": "I smoke a lot.",
-      "chinese": "我抽烟抽得很多。",
-      "lesson": "Lesson 109 A good idea",
-      "parentSentenceId": "nce-1-lesson-109-sentence-016",
-      "parentEnglish": "I have a lot of cigarettes. I smoke a lot.",
-      "tokenOffset": 6
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-109",
-      "sentenceId": "nce-1-lesson-109-sentence-017-part-01",
-      "sentenceOrder": 24,
-      "english": "Well, I have very few cigarettes.",
-      "chinese": "嗯，我的烟很少。",
-      "lesson": "Lesson 109 A good idea",
-      "parentSentenceId": "nce-1-lesson-109-sentence-017",
-      "parentEnglish": "Well, I have very few cigarettes. I smoke very little.",
-      "tokenOffset": 0
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-109",
-      "sentenceId": "nce-1-lesson-109-sentence-017-part-02",
-      "sentenceOrder": 25,
-      "english": "I smoke very little.",
-      "chinese": "我抽得很少。",
-      "lesson": "Lesson 109 A good idea",
-      "parentSentenceId": "nce-1-lesson-109-sentence-017",
-      "parentEnglish": "Well, I have very few cigarettes. I smoke very little.",
-      "tokenOffset": 6
+      "english": "That's very good advice!",
+      "chinese": "这建议真好！",
+      "lesson": "Lesson 109 A good idea"
     },
     {
       "courseId": "nce1",
@@ -8810,8 +9032,8 @@
       "lessonId": "lesson-111",
       "sentenceId": "nce-1-lesson-111-sentence-010",
       "sentenceOrder": 15,
-      "english": "Do you want to buy it, dear?",
-      "chinese": "亲爱的，你想买下它吗？",
+      "english": "Do you like it, dear?",
+      "chinese": "亲爱的，你喜欢它吗？",
       "lesson": "Lesson 111 The most expensive model"
     },
     {
@@ -8853,32 +9075,80 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-113",
-      "sentenceId": "nce-1-lesson-113-sentence-001-part-01",
+      "sentenceId": "nce-1-lesson-113-scan-r6-001",
       "sentenceOrder": 1,
-      "english": "Excuse me.",
-      "chinese": "打扰一下。",
-      "lesson": "Lesson 113 Small change",
-      "parentSentenceId": "nce-1-lesson-113-sentence-001",
-      "parentEnglish": "Excuse me. Have you got any small change?",
-      "tokenOffset": 0
+      "english": "Fares, please!",
+      "chinese": "请买票！",
+      "lesson": "Lesson 113 Small change"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-113",
+      "sentenceId": "nce-1-lesson-113-scan-r6-002",
+      "sentenceOrder": 2,
+      "english": "Trafalgar Square, please.",
+      "chinese": "请到特拉法尔加广场。",
+      "lesson": "Lesson 113 Small change"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-113",
+      "sentenceId": "nce-1-lesson-113-scan-r6-003",
+      "sentenceOrder": 3,
+      "english": "I'm sorry, sir.",
+      "chinese": "对不起，先生。",
+      "lesson": "Lesson 113 Small change"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-113",
+      "sentenceId": "nce-1-lesson-113-scan-r6-004",
+      "sentenceOrder": 4,
+      "english": "I can't change a ten-pound note.",
+      "chinese": "我换不开一张十英镑的钞票。",
+      "lesson": "Lesson 113 Small change"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-113",
       "sentenceId": "nce-1-lesson-113-sentence-001-part-02",
-      "sentenceOrder": 2,
-      "english": "Have you got any small change?",
-      "chinese": "你有零钱吗？",
-      "lesson": "Lesson 113 Small change",
-      "parentSentenceId": "nce-1-lesson-113-sentence-001",
-      "parentEnglish": "Excuse me. Have you got any small change?",
-      "tokenOffset": 2
+      "sentenceOrder": 5,
+      "english": "Haven't you got any small change?",
+      "chinese": "你难道没有零钱吗？",
+      "lesson": "Lesson 113 Small change"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-113",
+      "sentenceId": "nce-1-lesson-113-scan-r6-006",
+      "sentenceOrder": 6,
+      "english": "I've got no small change, I'm afraid.",
+      "chinese": "恐怕我没有零钱。",
+      "lesson": "Lesson 113 Small change"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-113",
+      "sentenceId": "nce-1-lesson-113-scan-r6-007",
+      "sentenceOrder": 7,
+      "english": "I'll ask some of the passengers.",
+      "chinese": "我去问问几位乘客。",
+      "lesson": "Lesson 113 Small change"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-113",
+      "sentenceId": "nce-1-lesson-113-scan-r6-008",
+      "sentenceOrder": 8,
+      "english": "Have you any small change, sir?",
+      "chinese": "先生，您有零钱吗？",
+      "lesson": "Lesson 113 Small change"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-113",
       "sentenceId": "nce-1-lesson-113-sentence-002-part-01",
-      "sentenceOrder": 3,
+      "sentenceOrder": 9,
       "english": "I'm sorry.",
       "chinese": "对不起。",
       "lesson": "Lesson 113 Small change",
@@ -8890,7 +9160,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-113",
       "sentenceId": "nce-1-lesson-113-sentence-002-part-02",
-      "sentenceOrder": 4,
+      "sentenceOrder": 10,
       "english": "I've got none.",
       "chinese": "我一点零钱也没有。",
       "lesson": "Lesson 113 Small change",
@@ -8901,35 +9171,8 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-113",
-      "sentenceId": "nce-1-lesson-113-sentence-003",
-      "sentenceOrder": 5,
-      "english": "Has anybody got any small change?",
-      "chinese": "有人有零钱吗？",
-      "lesson": "Lesson 113 Small change"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-113",
-      "sentenceId": "nce-1-lesson-113-sentence-004",
-      "sentenceOrder": 6,
-      "english": "I've got no small change, I'm afraid.",
-      "chinese": "恐怕我没有零钱。",
-      "lesson": "Lesson 113 Small change"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-113",
-      "sentenceId": "nce-1-lesson-113-sentence-005",
-      "sentenceOrder": 7,
-      "english": "What about you?",
-      "chinese": "你呢？",
-      "lesson": "Lesson 113 Small change"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-113",
       "sentenceId": "nce-1-lesson-113-sentence-006",
-      "sentenceOrder": 8,
+      "sentenceOrder": 11,
       "english": "I haven't got any either.",
       "chinese": "我也没有。",
       "lesson": "Lesson 113 Small change"
@@ -8938,16 +9181,16 @@
       "courseId": "nce1",
       "lessonId": "lesson-113",
       "sentenceId": "nce-1-lesson-113-sentence-007",
-      "sentenceOrder": 9,
-      "english": "Can you change this ten-pound note?",
-      "chinese": "你能把这张十英镑的钞票换开吗？",
+      "sentenceOrder": 12,
+      "english": "Can you change this ten-pound note, madam?",
+      "chinese": "女士，您能把这张十英镑钞票换开吗？",
       "lesson": "Lesson 113 Small change"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-113",
       "sentenceId": "nce-1-lesson-113-sentence-008",
-      "sentenceOrder": 10,
+      "sentenceOrder": 13,
       "english": "I'm afraid I can't.",
       "chinese": "恐怕我不能。",
       "lesson": "Lesson 113 Small change"
@@ -8955,8 +9198,62 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-113",
+      "sentenceId": "nce-1-lesson-113-scan-r6-014",
+      "sentenceOrder": 14,
+      "english": "Neither can I.",
+      "chinese": "我也换不开。",
+      "lesson": "Lesson 113 Small change"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-113",
+      "sentenceId": "nce-1-lesson-113-scan-r6-015",
+      "sentenceOrder": 15,
+      "english": "I'm very sorry, sir.",
+      "chinese": "非常抱歉，先生。",
+      "lesson": "Lesson 113 Small change"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-113",
+      "sentenceId": "nce-1-lesson-113-scan-r6-016",
+      "sentenceOrder": 16,
+      "english": "You must get off the bus.",
+      "chinese": "您必须下车。",
+      "lesson": "Lesson 113 Small change"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-113",
+      "sentenceId": "nce-1-lesson-113-scan-r6-017",
+      "sentenceOrder": 17,
+      "english": "None of our passengers can change this note.",
+      "chinese": "我们的乘客中没有一个人能换开这张钞票。",
+      "lesson": "Lesson 113 Small change"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-113",
+      "sentenceId": "nce-1-lesson-113-scan-r6-018",
+      "sentenceOrder": 18,
+      "english": "They're all millionaires!",
+      "chinese": "他们全都是百万富翁！",
+      "lesson": "Lesson 113 Small change"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-113",
+      "sentenceId": "nce-1-lesson-113-scan-r6-019",
+      "sentenceOrder": 19,
+      "english": "Except us.",
+      "chinese": "我们除外。",
+      "lesson": "Lesson 113 Small change"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-113",
       "sentenceId": "nce-1-lesson-113-sentence-009",
-      "sentenceOrder": 11,
+      "sentenceOrder": 20,
       "english": "I've got some small change.",
       "chinese": "我有一些零钱。",
       "lesson": "Lesson 113 Small change"
@@ -8965,277 +9262,322 @@
       "courseId": "nce1",
       "lessonId": "lesson-113",
       "sentenceId": "nce-1-lesson-113-sentence-010",
-      "sentenceOrder": 12,
+      "sentenceOrder": 21,
       "english": "So have I.",
       "chinese": "我也有。",
       "lesson": "Lesson 113 Small change"
     },
     {
       "courseId": "nce1",
-      "lessonId": "lesson-113",
-      "sentenceId": "nce-1-lesson-113-sentence-011",
-      "sentenceOrder": 13,
-      "english": "Give me a pound note, please.",
-      "chinese": "请给我一张一英镑的钞票。",
-      "lesson": "Lesson 113 Small change"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-113",
-      "sentenceId": "nce-1-lesson-113-sentence-012",
-      "sentenceOrder": 14,
-      "english": "Here you are.",
-      "chinese": "给你。",
-      "lesson": "Lesson 113 Small change"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-113",
-      "sentenceId": "nce-1-lesson-113-sentence-013",
-      "sentenceOrder": 15,
-      "english": "Thank you very much.",
-      "chinese": "非常感谢。",
-      "lesson": "Lesson 113 Small change"
-    },
-    {
-      "courseId": "nce1",
       "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-001",
+      "sentenceId": "nce-1-lesson-115-scan-r6-001",
       "sentenceOrder": 1,
-      "english": "Who's there?",
-      "chinese": "谁在那儿？",
+      "english": "Isn't there anyone at home?",
+      "chinese": "难道家里没有人吗？",
       "lesson": "Lesson 115 Knock, knock!"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-002",
+      "sentenceId": "nce-1-lesson-115-scan-r6-002",
       "sentenceOrder": 2,
-      "english": "It's me.",
-      "chinese": "是我。",
+      "english": "I'll knock again, Helen.",
+      "chinese": "海伦，我再敲一次门。",
       "lesson": "Lesson 115 Knock, knock!"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-003",
+      "sentenceId": "nce-1-lesson-115-scan-r6-003",
       "sentenceOrder": 3,
-      "english": "Who's 'me'?",
-      "chinese": "“我”是谁？",
+      "english": "Everything's very quiet.",
+      "chinese": "四周静悄悄的。",
       "lesson": "Lesson 115 Knock, knock!"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-004",
+      "sentenceId": "nce-1-lesson-115-scan-r6-004",
       "sentenceOrder": 4,
-      "english": "Polly.",
-      "chinese": "波莉。",
+      "english": "I'm sure there's no one at home.",
+      "chinese": "我肯定家里没有人。",
       "lesson": "Lesson 115 Knock, knock!"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-005",
+      "sentenceId": "nce-1-lesson-115-scan-r6-005",
       "sentenceOrder": 5,
-      "english": "What are you doing, Polly?",
-      "chinese": "你在做什么，波莉？",
+      "english": "But that's impossible.",
+      "chinese": "可那不可能啊。",
       "lesson": "Lesson 115 Knock, knock!"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-006",
+      "sentenceId": "nce-1-lesson-115-scan-r6-006",
       "sentenceOrder": 6,
-      "english": "I'm having tea.",
-      "chinese": "我正在喝茶。",
+      "english": "Carol and Tom invited us to lunch.",
+      "chinese": "卡罗尔和汤姆邀请了我们来吃午饭。",
       "lesson": "Lesson 115 Knock, knock!"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-007",
+      "sentenceId": "nce-1-lesson-115-scan-r6-007",
       "sentenceOrder": 7,
-      "english": "Come in.",
-      "chinese": "进来吧。",
+      "english": "Look through the window.",
+      "chinese": "透过窗户看看。",
+      "lesson": "Lesson 115 Knock, knock!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-115",
+      "sentenceId": "nce-1-lesson-115-scan-r6-008",
+      "sentenceOrder": 8,
+      "english": "Can you see anything?",
+      "chinese": "你能看见什么吗？",
+      "lesson": "Lesson 115 Knock, knock!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-115",
+      "sentenceId": "nce-1-lesson-115-scan-r6-009",
+      "sentenceOrder": 9,
+      "english": "Nothing at all.",
+      "chinese": "什么也看不见。",
+      "lesson": "Lesson 115 Knock, knock!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-115",
+      "sentenceId": "nce-1-lesson-115-scan-r6-010",
+      "sentenceOrder": 10,
+      "english": "Let's try the back door.",
+      "chinese": "我们到后门试试吧。",
+      "lesson": "Lesson 115 Knock, knock!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-115",
+      "sentenceId": "nce-1-lesson-115-scan-r6-011",
+      "sentenceOrder": 11,
+      "english": "Look!",
+      "chinese": "看！",
+      "lesson": "Lesson 115 Knock, knock!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-115",
+      "sentenceId": "nce-1-lesson-115-scan-r6-012",
+      "sentenceOrder": 12,
+      "english": "Everyone's in the garden.",
+      "chinese": "大家都在花园里。",
+      "lesson": "Lesson 115 Knock, knock!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-115",
+      "sentenceId": "nce-1-lesson-115-scan-r6-013",
+      "sentenceOrder": 13,
+      "english": "Hello, Helen.",
+      "chinese": "你好，海伦。",
+      "lesson": "Lesson 115 Knock, knock!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-115",
+      "sentenceId": "nce-1-lesson-115-scan-r6-014",
+      "sentenceOrder": 14,
+      "english": "Hello, Jim.",
+      "chinese": "你好，吉姆。",
+      "lesson": "Lesson 115 Knock, knock!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-115",
+      "sentenceId": "nce-1-lesson-115-scan-r6-015",
+      "sentenceOrder": 15,
+      "english": "Everybody wants to have lunch in the garden.",
+      "chinese": "大家都想在花园里吃午饭。",
+      "lesson": "Lesson 115 Knock, knock!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-115",
+      "sentenceId": "nce-1-lesson-115-scan-r6-016",
+      "sentenceOrder": 16,
+      "english": "It's nice and warm out here.",
+      "chinese": "外面这里暖洋洋的，很舒服。",
+      "lesson": "Lesson 115 Knock, knock!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-115",
+      "sentenceId": "nce-1-lesson-115-scan-r6-017",
+      "sentenceOrder": 17,
+      "english": "Come and have something to drink.",
+      "chinese": "过来喝点东西吧。",
       "lesson": "Lesson 115 Knock, knock!"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-115",
       "sentenceId": "nce-1-lesson-115-sentence-008",
-      "sentenceOrder": 8,
-      "english": "Thanks.",
-      "chinese": "谢谢。",
-      "lesson": "Lesson 115 Knock, knock!"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-009",
-      "sentenceOrder": 9,
-      "english": "Is anyone there?",
-      "chinese": "有人在吗？",
-      "lesson": "Lesson 115 Knock, knock!"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-010-part-01",
-      "sentenceOrder": 10,
-      "english": "No, there's no one.",
-      "chinese": "没有，一个人也没有。",
-      "lesson": "Lesson 115 Knock, knock!",
-      "parentSentenceId": "nce-1-lesson-115-sentence-010",
-      "parentEnglish": "No, there's no one. Everyone's out.",
-      "tokenOffset": 0
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-010-part-02",
-      "sentenceOrder": 11,
-      "english": "Everyone's out.",
-      "chinese": "大家都出去了。",
-      "lesson": "Lesson 115 Knock, knock!",
-      "parentSentenceId": "nce-1-lesson-115-sentence-010",
-      "parentEnglish": "No, there's no one. Everyone's out.",
-      "tokenOffset": 4
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-011-part-01",
-      "sentenceOrder": 12,
-      "english": "But, look, there's a light on.",
-      "chinese": "可是，看，灯亮着。",
-      "lesson": "Lesson 115 Knock, knock!",
-      "parentSentenceId": "nce-1-lesson-115-sentence-011",
-      "parentEnglish": "But, look, there's a light on. Someone's knocking at the door.",
-      "tokenOffset": 0
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-011-part-02",
-      "sentenceOrder": 13,
-      "english": "Someone's knocking at the door.",
-      "chinese": "有人在敲门。",
-      "lesson": "Lesson 115 Knock, knock!",
-      "parentSentenceId": "nce-1-lesson-115-sentence-011",
-      "parentEnglish": "But, look, there's a light on. Someone's knocking at the door.",
-      "tokenOffset": 6
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-012-part-01",
-      "sentenceOrder": 14,
-      "english": "There's no one in.",
-      "chinese": "里面没有人。",
-      "lesson": "Lesson 115 Knock, knock!",
-      "parentSentenceId": "nce-1-lesson-115-sentence-012",
-      "parentEnglish": "There's no one in. Everyone's gone to the cinema.",
-      "tokenOffset": 0
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-012-part-02",
-      "sentenceOrder": 15,
-      "english": "Everyone's gone to the cinema.",
-      "chinese": "大家都去看电影了。",
-      "lesson": "Lesson 115 Knock, knock!",
-      "parentSentenceId": "nce-1-lesson-115-sentence-012",
-      "parentEnglish": "There's no one in. Everyone's gone to the cinema.",
-      "tokenOffset": 4
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-013-part-01",
-      "sentenceOrder": 16,
-      "english": "Don't be silly, Polly.",
-      "chinese": "别傻了，波莉。",
-      "lesson": "Lesson 115 Knock, knock!",
-      "parentSentenceId": "nce-1-lesson-115-sentence-013",
-      "parentEnglish": "Don't be silly, Polly. I know there's someone in.",
-      "tokenOffset": 0
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-013-part-02",
-      "sentenceOrder": 17,
-      "english": "I know there's someone in.",
-      "chinese": "我知道里面有人。",
-      "lesson": "Lesson 115 Knock, knock!",
-      "parentSentenceId": "nce-1-lesson-115-sentence-013",
-      "parentEnglish": "Don't be silly, Polly. I know there's someone in.",
-      "tokenOffset": 4
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-014-part-01",
       "sentenceOrder": 18,
-      "english": "Wait a minute.",
-      "chinese": "等一下。",
-      "lesson": "Lesson 115 Knock, knock!",
-      "parentSentenceId": "nce-1-lesson-115-sentence-014",
-      "parentEnglish": "Wait a minute. There's someone at the window.",
-      "tokenOffset": 0
+      "english": "Thanks, Carol.",
+      "chinese": "谢谢，卡罗尔。",
+      "lesson": "Lesson 115 Knock, knock!"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-014-part-02",
+      "sentenceId": "nce-1-lesson-115-scan-r6-019",
       "sentenceOrder": 19,
-      "english": "There's someone at the window.",
-      "chinese": "窗户那儿有人。",
-      "lesson": "Lesson 115 Knock, knock!",
-      "parentSentenceId": "nce-1-lesson-115-sentence-014",
-      "parentEnglish": "Wait a minute. There's someone at the window.",
-      "tokenOffset": 3
+      "english": "May I have a glass of beer please?",
+      "chinese": "请问，我可以喝一杯啤酒吗？",
+      "lesson": "Lesson 115 Knock, knock!"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-015-part-01",
+      "sentenceId": "nce-1-lesson-115-scan-r6-020",
       "sentenceOrder": 20,
-      "english": "It's Tom!",
-      "chinese": "是汤姆！",
-      "lesson": "Lesson 115 Knock, knock!",
-      "parentSentenceId": "nce-1-lesson-115-sentence-015",
-      "parentEnglish": "It's Tom! He's hiding behind the door.",
-      "tokenOffset": 0
+      "english": "Beer?",
+      "chinese": "啤酒？",
+      "lesson": "Lesson 115 Knock, knock!"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-115",
-      "sentenceId": "nce-1-lesson-115-sentence-015-part-02",
+      "sentenceId": "nce-1-lesson-115-scan-r6-021",
       "sentenceOrder": 21,
-      "english": "He's hiding behind the door.",
-      "chinese": "他正躲在门后面。",
-      "lesson": "Lesson 115 Knock, knock!",
-      "parentSentenceId": "nce-1-lesson-115-sentence-015",
-      "parentEnglish": "It's Tom! He's hiding behind the door.",
-      "tokenOffset": 2
+      "english": "There's none left.",
+      "chinese": "一点也没剩了。",
+      "lesson": "Lesson 115 Knock, knock!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-115",
+      "sentenceId": "nce-1-lesson-115-scan-r6-022",
+      "sentenceOrder": 22,
+      "english": "You can have some lemonade.",
+      "chinese": "你可以喝点柠檬汽水。",
+      "lesson": "Lesson 115 Knock, knock!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-115",
+      "sentenceId": "nce-1-lesson-115-scan-r6-023",
+      "sentenceOrder": 23,
+      "english": "Lemonade!",
+      "chinese": "柠檬汽水！",
+      "lesson": "Lesson 115 Knock, knock!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-115",
+      "sentenceId": "nce-1-lesson-115-scan-r6-024",
+      "sentenceOrder": 24,
+      "english": "Don't believe her, Jim.",
+      "chinese": "吉姆，别信她的话。",
+      "lesson": "Lesson 115 Knock, knock!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-115",
+      "sentenceId": "nce-1-lesson-115-scan-r6-025",
+      "sentenceOrder": 25,
+      "english": "She's only joking.",
+      "chinese": "她只是在开玩笑。",
+      "lesson": "Lesson 115 Knock, knock!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-115",
+      "sentenceId": "nce-1-lesson-115-scan-r6-026",
+      "sentenceOrder": 26,
+      "english": "Have some beer!",
+      "chinese": "来，喝点啤酒吧！",
+      "lesson": "Lesson 115 Knock, knock!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-117",
+      "sentenceId": "nce-1-lesson-117-scan-r6-001",
+      "sentenceOrder": 1,
+      "english": "When my husband was going into the dining room this morning, he dropped some coins on the floor.",
+      "chinese": "今天早晨，我丈夫正走进餐厅时，把一些硬币掉在了地上。",
+      "lesson": "Lesson 117 Tommy's breakfast"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-117",
+      "sentenceId": "nce-1-lesson-117-scan-r6-002",
+      "sentenceOrder": 2,
+      "english": "There were coins everywhere.",
+      "chinese": "到处都是硬币。",
+      "lesson": "Lesson 117 Tommy's breakfast"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-117",
+      "sentenceId": "nce-1-lesson-117-scan-r6-003",
+      "sentenceOrder": 3,
+      "english": "We looked for them, but we could not find them all.",
+      "chinese": "我们找了找，但没能把硬币全找齐。",
+      "lesson": "Lesson 117 Tommy's breakfast"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-117",
+      "sentenceId": "nce-1-lesson-117-scan-r6-004",
+      "sentenceOrder": 4,
+      "english": "While we were having breakfast, our little boy, Tommy, found two small coins on the floor.",
+      "chinese": "我们正在吃早饭时，我们的小儿子汤米在地上找到了两枚小硬币。",
+      "lesson": "Lesson 117 Tommy's breakfast"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-117",
+      "sentenceId": "nce-1-lesson-117-scan-r6-005",
+      "sentenceOrder": 5,
+      "english": "He put them both into his mouth.",
+      "chinese": "他把两枚硬币都放进了嘴里。",
+      "lesson": "Lesson 117 Tommy's breakfast"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-117",
+      "sentenceId": "nce-1-lesson-117-scan-r6-006",
+      "sentenceOrder": 6,
+      "english": "We both tried to get the coins, but it was too late.",
+      "chinese": "我们俩都试着把硬币拿出来，但已经太晚了。",
+      "lesson": "Lesson 117 Tommy's breakfast"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-117",
+      "sentenceId": "nce-1-lesson-117-scan-r6-007",
+      "sentenceOrder": 7,
+      "english": "Tommy had already swallowed them!",
+      "chinese": "汤米已经把它们吞下去了！",
+      "lesson": "Lesson 117 Tommy's breakfast"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-117",
       "sentenceId": "nce-1-lesson-117-sentence-001",
-      "sentenceOrder": 1,
-      "english": "When I was doing the housework, my husband telephoned me from the office.",
-      "chinese": "我正在做家务时，丈夫从办公室给我打电话。",
+      "sentenceOrder": 8,
+      "english": "Later that morning, when I was doing the housework, my husband phoned me from the office.",
+      "chinese": "那天上午晚些时候，我正在做家务，丈夫从办公室打电话给我。",
       "lesson": "Lesson 117 Tommy's breakfast"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-117",
       "sentenceId": "nce-1-lesson-117-sentence-002",
-      "sentenceOrder": 2,
+      "sentenceOrder": 9,
       "english": "'How's Tommy?' he asked.",
       "chinese": "‘汤米怎么样？’他问。",
       "lesson": "Lesson 117 Tommy's breakfast"
@@ -9243,79 +9585,10 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-117",
-      "sentenceId": "nce-1-lesson-117-sentence-003-part-01",
-      "sentenceOrder": 3,
-      "english": "'I'm sorry,' I said.",
-      "chinese": "“对不起，”我说。",
-      "lesson": "Lesson 117 Tommy's breakfast",
-      "parentSentenceId": "nce-1-lesson-117-sentence-003",
-      "parentEnglish": "'I'm sorry,' I said. 'He's eating breakfast.'",
-      "tokenOffset": 0
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-117",
-      "sentenceId": "nce-1-lesson-117-sentence-003-part-02",
-      "sentenceOrder": 4,
-      "english": "'He's eating breakfast.'",
-      "chinese": "“他正在吃早饭。”",
-      "lesson": "Lesson 117 Tommy's breakfast",
-      "parentSentenceId": "nce-1-lesson-117-sentence-003",
-      "parentEnglish": "'I'm sorry,' I said. 'He's eating breakfast.'",
-      "tokenOffset": 4
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-117",
-      "sentenceId": "nce-1-lesson-117-sentence-004",
-      "sentenceOrder": 5,
-      "english": "'What's he eating?' my husband asked.",
-      "chinese": "‘他在吃什么？’我丈夫问。",
-      "lesson": "Lesson 117 Tommy's breakfast"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-117",
-      "sentenceId": "nce-1-lesson-117-sentence-005",
-      "sentenceOrder": 6,
-      "english": "'He's eating a cake,' I answered.",
-      "chinese": "‘他在吃一块蛋糕，’我回答。",
-      "lesson": "Lesson 117 Tommy's breakfast"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-117",
-      "sentenceId": "nce-1-lesson-117-sentence-006",
-      "sentenceOrder": 7,
-      "english": "'Where did he get the cake?' my husband asked.",
-      "chinese": "‘他从哪里拿到那块蛋糕的？’我丈夫问。",
-      "lesson": "Lesson 117 Tommy's breakfast"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-117",
-      "sentenceId": "nce-1-lesson-117-sentence-007",
-      "sentenceOrder": 8,
-      "english": "'He took it out of the cupboard,' I said.",
-      "chinese": "‘他从碗橱里拿出来的，’我说。",
-      "lesson": "Lesson 117 Tommy's breakfast"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-117",
-      "sentenceId": "nce-1-lesson-117-sentence-008",
-      "sentenceOrder": 9,
-      "english": "When I was cleaning the cupboard, Tommy dropped the cake.",
-      "chinese": "我正在清理碗橱时，汤米把蛋糕掉在了地上。",
-      "lesson": "Lesson 117 Tommy's breakfast"
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-117",
-      "sentenceId": "nce-1-lesson-117-sentence-009",
+      "sentenceId": "nce-1-lesson-117-scan-r6-010",
       "sentenceOrder": 10,
-      "english": "He ate it all.",
-      "chinese": "他把它全吃了。",
+      "english": "'I don't know,' I answered, 'Tommy's been to the toilet three times this morning, but I haven't had any change yet!'",
+      "chinese": "“我不知道，”我回答说，“汤米今天上午已经上了三次厕所，可我到现在还没见到一点‘零钱’呢！”",
       "lesson": "Lesson 117 Tommy's breakfast"
     },
     {
@@ -9599,8 +9872,8 @@
       "lessonId": "lesson-121",
       "sentenceId": "nce-1-lesson-121-sentence-010",
       "sentenceOrder": 12,
-      "english": "Would you put it on please?",
-      "chinese": "请您把它戴上好吗？",
+      "english": "Would you put it on, please?",
+      "chinese": "请您把帽子戴上好吗？",
       "lesson": "Lesson 121 The man in a hat"
     },
     {
@@ -10025,8 +10298,8 @@
       "lessonId": "lesson-125",
       "sentenceId": "nce-1-lesson-125-sentence-015",
       "sentenceOrder": 17,
-      "english": "It's raining.",
-      "chinese": "下雨了。",
+      "english": "It's raining!",
+      "chinese": "下雨了！",
       "lesson": "Lesson 125 Tea for two"
     },
     {
@@ -10065,76 +10338,199 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-127",
-      "sentenceId": "nce-1-lesson-127-sentence-001",
+      "sentenceId": "nce-1-lesson-127-scan-r6-001",
       "sentenceOrder": 1,
-      "english": "I think she was forty-three at that time.",
-      "chinese": "我想她那时四十三岁。",
+      "english": "Can you recognize that woman, Liz?",
+      "chinese": "莉兹，你认得出那个女人吗？",
       "lesson": "Lesson 127 A famous actress"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-127",
-      "sentenceId": "nce-1-lesson-127-sentence-002-part-01",
+      "sentenceId": "nce-1-lesson-127-scan-r6-002",
       "sentenceOrder": 2,
-      "english": "She can't have been forty-three.",
-      "chinese": "她当时不可能是四十三岁。",
-      "lesson": "Lesson 127 A famous actress",
-      "parentSentenceId": "nce-1-lesson-127-sentence-002",
-      "parentEnglish": "She can't have been forty-three. She must have been at least fifty.",
-      "tokenOffset": 0
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-127",
-      "sentenceId": "nce-1-lesson-127-sentence-002-part-02",
-      "sentenceOrder": 3,
-      "english": "She must have been at least fifty.",
-      "chinese": "她当时肯定至少五十岁了。",
-      "lesson": "Lesson 127 A famous actress",
-      "parentSentenceId": "nce-1-lesson-127-sentence-002",
-      "parentEnglish": "She can't have been forty-three. She must have been at least fifty.",
-      "tokenOffset": 5
-    },
-    {
-      "courseId": "nce1",
-      "lessonId": "lesson-127",
-      "sentenceId": "nce-1-lesson-127-sentence-003",
-      "sentenceOrder": 4,
-      "english": "I read she was twenty-nine in 1970.",
-      "chinese": "我读到她在1970年是二十九岁。",
+      "english": "I think I can, Kate.",
+      "chinese": "凯特，我想我认得出。",
       "lesson": "Lesson 127 A famous actress"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-127",
-      "sentenceId": "nce-1-lesson-127-sentence-004-part-01",
-      "sentenceOrder": 5,
-      "english": "She can't have been twenty-nine in 1970.",
-      "chinese": "她在1970年不可能是二十九岁。",
-      "lesson": "Lesson 127 A famous actress",
-      "parentSentenceId": "nce-1-lesson-127-sentence-004",
-      "parentEnglish": "She can't have been twenty-nine in 1970. She must have been thirty-nine.",
-      "tokenOffset": 0
+      "sentenceId": "nce-1-lesson-127-scan-r6-003",
+      "sentenceOrder": 3,
+      "english": "It must be Karen Marsh, the actress.",
+      "chinese": "那一定是女演员卡伦·马什。",
+      "lesson": "Lesson 127 A famous actress"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-127",
-      "sentenceId": "nce-1-lesson-127-sentence-004-part-02",
+      "sentenceId": "nce-1-lesson-127-scan-r6-004",
+      "sentenceOrder": 4,
+      "english": "I thought so.",
+      "chinese": "我也觉得是她。",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-005",
+      "sentenceOrder": 5,
+      "english": "Who's that beside her?",
+      "chinese": "她旁边那个人是谁？",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-006",
       "sentenceOrder": 6,
-      "english": "She must have been thirty-nine.",
-      "chinese": "她那时一定是三十九岁。",
-      "lesson": "Lesson 127 A famous actress",
-      "parentSentenceId": "nce-1-lesson-127-sentence-004",
-      "parentEnglish": "She can't have been twenty-nine in 1970. She must have been thirty-nine.",
-      "tokenOffset": 7
+      "english": "That must be Conrad Reeves.",
+      "chinese": "那一定是康拉德·里夫斯。",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-007",
+      "sentenceOrder": 7,
+      "english": "Conrad Reeves, the actor?",
+      "chinese": "康拉德·里夫斯，那个男演员？",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-008",
+      "sentenceOrder": 8,
+      "english": "It can't be.",
+      "chinese": "不可能是他。",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-009",
+      "sentenceOrder": 9,
+      "english": "Let me have another look.",
+      "chinese": "让我再看一眼。",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-010",
+      "sentenceOrder": 10,
+      "english": "I think you're right!",
+      "chinese": "我想你说对了！",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-011",
+      "sentenceOrder": 11,
+      "english": "Isn't he her third husband?",
+      "chinese": "他不是她的第三任丈夫吗？",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-012",
+      "sentenceOrder": 12,
+      "english": "No.",
+      "chinese": "不是。",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-013",
+      "sentenceOrder": 13,
+      "english": "He must be her fourth or fifth.",
+      "chinese": "他准是她的第四任或第五任丈夫。",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-014",
+      "sentenceOrder": 14,
+      "english": "Doesn't Karen Marsh look old!",
+      "chinese": "卡伦·马什看起来可真老啊！",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-015",
+      "sentenceOrder": 15,
+      "english": "She does, doesn't she!",
+      "chinese": "确实显老，可不是吗！",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-016",
+      "sentenceOrder": 16,
+      "english": "I read she's twenty-nine, but she must be at least forty.",
+      "chinese": "我看报道说她二十九岁，但她肯定至少四十岁了。",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-017",
+      "sentenceOrder": 17,
+      "english": "I'm sure she is.",
+      "chinese": "我肯定她有那么大。",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-018",
+      "sentenceOrder": 18,
+      "english": "She was a famous actress when I was still at school.",
+      "chinese": "我还在上学的时候，她就已经是个著名的女演员了。",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-019",
+      "sentenceOrder": 19,
+      "english": "That was a long time ago, wasn't it?",
+      "chinese": "那可是很久以前的事了，不是吗？",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-020",
+      "sentenceOrder": 20,
+      "english": "Not that long ago!",
+      "chinese": "也没那么久！",
+      "lesson": "Lesson 127 A famous actress"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-127",
+      "sentenceId": "nce-1-lesson-127-scan-r6-021",
+      "sentenceOrder": 21,
+      "english": "I'm not more than twenty-nine myself.",
+      "chinese": "我自己也不过二十九岁。",
+      "lesson": "Lesson 127 A famous actress"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-129",
       "sentenceId": "nce-1-lesson-129-sentence-001",
       "sentenceOrder": 1,
-      "english": "Look, Gary.",
-      "chinese": "喂，加里。",
+      "english": "Look, Gary!",
+      "chinese": "加里，快看！",
       "lesson": "Lesson 129 Seventy miles an hour"
     },
     {
@@ -10182,26 +10578,98 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-129",
-      "sentenceId": "nce-1-lesson-129-sentence-005",
+      "sentenceId": "nce-1-lesson-129-scan-r6-006",
       "sentenceOrder": 6,
-      "english": "I must have been driving too fast.",
-      "chinese": "我一定是开得太快了。",
+      "english": "You must have been driving at seventy miles an hour.",
+      "chinese": "你刚才肯定开到了每小时七十英里。",
       "lesson": "Lesson 129 Seventy miles an hour"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-129",
-      "sentenceId": "nce-1-lesson-129-sentence-006",
+      "sentenceId": "nce-1-lesson-129-scan-r6-007",
       "sentenceOrder": 7,
-      "english": "I was doing eighty miles an hour.",
-      "chinese": "我当时开到每小时八十英里。",
+      "english": "I can't have been.",
+      "chinese": "我不可能开那个速度。",
+      "lesson": "Lesson 129 Seventy miles an hour"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-129",
+      "sentenceId": "nce-1-lesson-129-scan-r6-008",
+      "sentenceOrder": 8,
+      "english": "I was doing eighty when I overtook you.",
+      "chinese": "我超过你时，时速是八十英里。",
+      "lesson": "Lesson 129 Seventy miles an hour"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-129",
+      "sentenceId": "nce-1-lesson-129-scan-r6-009",
+      "sentenceOrder": 9,
+      "english": "Didn't you see the speed limit?",
+      "chinese": "你没看见限速标志吗？",
+      "lesson": "Lesson 129 Seventy miles an hour"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-129",
+      "sentenceId": "nce-1-lesson-129-scan-r6-010",
+      "sentenceOrder": 10,
+      "english": "I'm afraid I didn't, officer.",
+      "chinese": "恐怕我没看见，警官。",
+      "lesson": "Lesson 129 Seventy miles an hour"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-129",
+      "sentenceId": "nce-1-lesson-129-sentence-005",
+      "sentenceOrder": 11,
+      "english": "I must have been dreaming.",
+      "chinese": "我刚才一定是在走神。",
+      "lesson": "Lesson 129 Seventy miles an hour"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-129",
+      "sentenceId": "nce-1-lesson-129-scan-r6-012",
+      "sentenceOrder": 12,
+      "english": "He wasn't dreaming, officer.",
+      "chinese": "他并没有走神，警官。",
+      "lesson": "Lesson 129 Seventy miles an hour"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-129",
+      "sentenceId": "nce-1-lesson-129-scan-r6-013",
+      "sentenceOrder": 13,
+      "english": "I was telling him to drive slowly.",
+      "chinese": "我当时正在叫他开慢点。",
+      "lesson": "Lesson 129 Seventy miles an hour"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-129",
+      "sentenceId": "nce-1-lesson-129-scan-r6-014",
+      "sentenceOrder": 14,
+      "english": "That's why I didn't see the sign.",
+      "chinese": "所以我才没看见那个标志。",
+      "lesson": "Lesson 129 Seventy miles an hour"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-129",
+      "sentenceId": "nce-1-lesson-129-scan-r6-015",
+      "sentenceOrder": 15,
+      "english": "Let me see your driving licence.",
+      "chinese": "让我看看你的驾驶证。",
       "lesson": "Lesson 129 Seventy miles an hour"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-129",
       "sentenceId": "nce-1-lesson-129-sentence-007-part-01",
-      "sentenceOrder": 8,
+      "sentenceOrder": 16,
       "english": "I won't charge you this time.",
       "chinese": "这次我就不罚你了。",
       "lesson": "Lesson 129 Seventy miles an hour",
@@ -10213,19 +10681,16 @@
       "courseId": "nce1",
       "lessonId": "lesson-129",
       "sentenceId": "nce-1-lesson-129-sentence-007-part-02",
-      "sentenceOrder": 9,
-      "english": "But you'd better not do it again.",
-      "chinese": "但你最好别再这么做。",
-      "lesson": "Lesson 129 Seventy miles an hour",
-      "parentSentenceId": "nce-1-lesson-129-sentence-007",
-      "parentEnglish": "I won't charge you this time. But you'd better not do it again.",
-      "tokenOffset": 6
+      "sentenceOrder": 17,
+      "english": "But you'd better not do it again!",
+      "chinese": "不过你最好别再这样了！",
+      "lesson": "Lesson 129 Seventy miles an hour"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-129",
       "sentenceId": "nce-1-lesson-129-sentence-008-part-01",
-      "sentenceOrder": 10,
+      "sentenceOrder": 18,
       "english": "Thank you.",
       "chinese": "谢谢您。",
       "lesson": "Lesson 129 Seventy miles an hour",
@@ -10237,7 +10702,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-129",
       "sentenceId": "nce-1-lesson-129-sentence-008-part-02",
-      "sentenceOrder": 11,
+      "sentenceOrder": 19,
       "english": "I'll certainly be more careful.",
       "chinese": "我一定会更加小心。",
       "lesson": "Lesson 129 Seventy miles an hour",
@@ -10249,7 +10714,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-129",
       "sentenceId": "nce-1-lesson-129-sentence-009",
-      "sentenceOrder": 12,
+      "sentenceOrder": 20,
       "english": "I told you to drive slowly, Gary.",
       "chinese": "我告诉过你要开慢点，加里。",
       "lesson": "Lesson 129 Seventy miles an hour"
@@ -10258,7 +10723,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-129",
       "sentenceId": "nce-1-lesson-129-sentence-010",
-      "sentenceOrder": 13,
+      "sentenceOrder": 21,
       "english": "You always tell me to drive slowly, darling.",
       "chinese": "亲爱的，你总是告诉我要开慢点。",
       "lesson": "Lesson 129 Seventy miles an hour"
@@ -10267,7 +10732,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-129",
       "sentenceId": "nce-1-lesson-129-sentence-011",
-      "sentenceOrder": 14,
+      "sentenceOrder": 22,
       "english": "Well, next time you'd better take my advice!",
       "chinese": "嗯，下次你最好听我的劝告！",
       "lesson": "Lesson 129 Seventy miles an hour"
@@ -10293,8 +10758,17 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-131",
-      "sentenceId": "nce-1-lesson-131-sentence-003",
+      "sentenceId": "nce-1-lesson-131-scan-r6-003",
       "sentenceOrder": 3,
+      "english": "I'm not sure.",
+      "chinese": "我还不确定。",
+      "lesson": "Lesson 131 Don't be so sure!"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-131",
+      "sentenceId": "nce-1-lesson-131-sentence-003",
+      "sentenceOrder": 4,
       "english": "My wife wants to go to Egypt.",
       "chinese": "我妻子想去埃及。",
       "lesson": "Lesson 131 Don't be so sure!"
@@ -10303,7 +10777,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-131",
       "sentenceId": "nce-1-lesson-131-sentence-004",
-      "sentenceOrder": 4,
+      "sentenceOrder": 5,
       "english": "I'd like to go there, too.",
       "chinese": "我也想去那儿。",
       "lesson": "Lesson 131 Don't be so sure!"
@@ -10311,17 +10785,17 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-131",
-      "sentenceId": "nce-1-lesson-131-sentence-005",
-      "sentenceOrder": 5,
-      "english": "We haven't been there yet.",
-      "chinese": "我们还没有去过那里。",
+      "sentenceId": "nce-1-lesson-131-scan-r6-006",
+      "sentenceOrder": 6,
+      "english": "We can't make up our minds.",
+      "chinese": "我们拿不定主意。",
       "lesson": "Lesson 131 Don't be so sure!"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-131",
       "sentenceId": "nce-1-lesson-131-sentence-006",
-      "sentenceOrder": 6,
+      "sentenceOrder": 7,
       "english": "Will you travel by sea or by air?",
       "chinese": "你们坐船还是坐飞机旅行？",
       "lesson": "Lesson 131 Don't be so sure!"
@@ -10330,7 +10804,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-131",
       "sentenceId": "nce-1-lesson-131-sentence-007",
-      "sentenceOrder": 7,
+      "sentenceOrder": 8,
       "english": "We may travel by sea.",
       "chinese": "我们可能坐船去。",
       "lesson": "Lesson 131 Don't be so sure!"
@@ -10339,7 +10813,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-131",
       "sentenceId": "nce-1-lesson-131-sentence-008",
-      "sentenceOrder": 8,
+      "sentenceOrder": 9,
       "english": "It's cheaper, isn't it?",
       "chinese": "那更便宜，是吗？",
       "lesson": "Lesson 131 Don't be so sure!"
@@ -10348,7 +10822,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-131",
       "sentenceId": "nce-1-lesson-131-sentence-009",
-      "sentenceOrder": 9,
+      "sentenceOrder": 10,
       "english": "It may be cheaper, but it takes a long time.",
       "chinese": "可能更便宜，但要花很长时间。",
       "lesson": "Lesson 131 Don't be so sure!"
@@ -10357,7 +10831,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-131",
       "sentenceId": "nce-1-lesson-131-sentence-010",
-      "sentenceOrder": 10,
+      "sentenceOrder": 11,
       "english": "I'm sure you'll enjoy yourselves.",
       "chinese": "我相信你们会玩得很开心。",
       "lesson": "Lesson 131 Don't be so sure!"
@@ -10366,7 +10840,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-131",
       "sentenceId": "nce-1-lesson-131-sentence-011",
-      "sentenceOrder": 11,
+      "sentenceOrder": 12,
       "english": "Don't be so sure.",
       "chinese": "别那么肯定。",
       "lesson": "Lesson 131 Don't be so sure!"
@@ -10375,7 +10849,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-131",
       "sentenceId": "nce-1-lesson-131-sentence-012",
-      "sentenceOrder": 12,
+      "sentenceOrder": 13,
       "english": "We might not go anywhere.",
       "chinese": "我们也许哪儿也不去。",
       "lesson": "Lesson 131 Don't be so sure!"
@@ -10383,17 +10857,17 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-131",
-      "sentenceId": "nce-1-lesson-131-sentence-013",
-      "sentenceOrder": 13,
-      "english": "My wife's always worried.",
-      "chinese": "我妻子总是担心。",
+      "sentenceId": "nce-1-lesson-131-scan-r6-014",
+      "sentenceOrder": 14,
+      "english": "My wife always worries too much.",
+      "chinese": "我妻子总是担心得太多。",
       "lesson": "Lesson 131 Don't be so sure!"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-131",
       "sentenceId": "nce-1-lesson-131-sentence-014",
-      "sentenceOrder": 14,
+      "sentenceOrder": 15,
       "english": "Who's going to look after the dog?",
       "chinese": "谁来照看狗？",
       "lesson": "Lesson 131 Don't be so sure!"
@@ -10402,7 +10876,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-131",
       "sentenceId": "nce-1-lesson-131-sentence-015",
-      "sentenceOrder": 15,
+      "sentenceOrder": 16,
       "english": "Who's going to look after the house?",
       "chinese": "谁来照看房子？",
       "lesson": "Lesson 131 Don't be so sure!"
@@ -10411,7 +10885,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-131",
       "sentenceId": "nce-1-lesson-131-sentence-016",
-      "sentenceOrder": 16,
+      "sentenceOrder": 17,
       "english": "Who's going to look after the garden?",
       "chinese": "谁来照看花园？",
       "lesson": "Lesson 131 Don't be so sure!"
@@ -10420,7 +10894,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-131",
       "sentenceId": "nce-1-lesson-131-sentence-017",
-      "sentenceOrder": 17,
+      "sentenceOrder": 18,
       "english": "We have this problem every year.",
       "chinese": "我们每年都有这个问题。",
       "lesson": "Lesson 131 Don't be so sure!"
@@ -10429,7 +10903,7 @@
       "courseId": "nce1",
       "lessonId": "lesson-131",
       "sentenceId": "nce-1-lesson-131-sentence-018",
-      "sentenceOrder": 18,
+      "sentenceOrder": 19,
       "english": "In the end, we stay at home and look after everything!",
       "chinese": "最后，我们待在家里照看一切！",
       "lesson": "Lesson 131 Don't be so sure!"
@@ -10605,88 +11079,190 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-135",
-      "sentenceId": "nce-1-lesson-135-sentence-001",
+      "sentenceId": "nce-1-lesson-135-scan-r6-001",
       "sentenceOrder": 1,
-      "english": "Is Karen Marsh going to retire, Alan?",
-      "chinese": "艾伦，卡伦·马什打算退休吗？",
+      "english": "Are you really going to retire, Miss Marsh?",
+      "chinese": "马什小姐，你真的打算退休吗？",
       "lesson": "Lesson 135 The latest report"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-135",
-      "sentenceId": "nce-1-lesson-135-sentence-002-part-01",
+      "sentenceId": "nce-1-lesson-135-scan-r6-002",
       "sentenceOrder": 2,
-      "english": "I don't know.",
-      "chinese": "我不知道。",
-      "lesson": "Lesson 135 The latest report",
-      "parentSentenceId": "nce-1-lesson-135-sentence-002",
-      "parentEnglish": "I don't know. She hasn't told reporters yet.",
-      "tokenOffset": 0
+      "english": "I may.",
+      "chinese": "可能会吧。",
+      "lesson": "Lesson 135 The latest report"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-135",
-      "sentenceId": "nce-1-lesson-135-sentence-002-part-02",
+      "sentenceId": "nce-1-lesson-135-scan-r6-003",
       "sentenceOrder": 3,
-      "english": "She hasn't told reporters yet.",
-      "chinese": "她还没有告诉记者。",
-      "lesson": "Lesson 135 The latest report",
-      "parentSentenceId": "nce-1-lesson-135-sentence-002",
-      "parentEnglish": "I don't know. She hasn't told reporters yet.",
-      "tokenOffset": 3
+      "english": "I can't make up my mind.",
+      "chinese": "我拿不定主意。",
+      "lesson": "Lesson 135 The latest report"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-135",
-      "sentenceId": "nce-1-lesson-135-sentence-003",
+      "sentenceId": "nce-1-lesson-135-scan-r6-004",
       "sentenceOrder": 4,
-      "english": "What did she say?",
-      "chinese": "她说了什么？",
+      "english": "I will have to ask my future husband.",
+      "chinese": "我得问问我未来的丈夫。",
       "lesson": "Lesson 135 The latest report"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-135",
-      "sentenceId": "nce-1-lesson-135-sentence-004",
+      "sentenceId": "nce-1-lesson-135-scan-r6-005",
       "sentenceOrder": 5,
-      "english": "She said she might retire.",
-      "chinese": "她说她可能退休。",
+      "english": "He won't let me make another film.",
+      "chinese": "他不会让我再拍一部电影的。",
       "lesson": "Lesson 135 The latest report"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-135",
-      "sentenceId": "nce-1-lesson-135-sentence-005",
+      "sentenceId": "nce-1-lesson-135-scan-r6-006",
       "sentenceOrder": 6,
-      "english": "What will she do?",
-      "chinese": "她将做什么？",
+      "english": "Your future husband, Miss Marsh?",
+      "chinese": "你未来的丈夫，马什小姐？",
       "lesson": "Lesson 135 The latest report"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-135",
-      "sentenceId": "nce-1-lesson-135-sentence-006",
+      "sentenceId": "nce-1-lesson-135-scan-r6-007",
       "sentenceOrder": 7,
-      "english": "She says she may stay at home.",
-      "chinese": "她说她可能待在家里。",
+      "english": "Yes.",
+      "chinese": "是的。",
       "lesson": "Lesson 135 The latest report"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-135",
-      "sentenceId": "nce-1-lesson-135-sentence-007",
+      "sentenceId": "nce-1-lesson-135-scan-r6-008",
       "sentenceOrder": 8,
-      "english": "Will she make another film?",
-      "chinese": "她会再拍一部电影吗？",
+      "english": "Let me introduce him to you.",
+      "chinese": "让我把他介绍给你。",
       "lesson": "Lesson 135 The latest report"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-135",
-      "sentenceId": "nce-1-lesson-135-sentence-008",
+      "sentenceId": "nce-1-lesson-135-scan-r6-009",
       "sentenceOrder": 9,
-      "english": "She says she may not make another film.",
-      "chinese": "她说她可能不会再拍新电影。",
+      "english": "His name is Carlos.",
+      "chinese": "他叫卡洛斯。",
+      "lesson": "Lesson 135 The latest report"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-135",
+      "sentenceId": "nce-1-lesson-135-scan-r6-010",
+      "sentenceOrder": 10,
+      "english": "We're going to get married next week.",
+      "chinese": "我们打算下周结婚。",
+      "lesson": "Lesson 135 The latest report"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-135",
+      "sentenceId": "nce-1-lesson-135-scan-r6-011",
+      "sentenceOrder": 11,
+      "english": "Look, Liz!",
+      "chinese": "莉兹，快看！",
+      "lesson": "Lesson 135 The latest report"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-135",
+      "sentenceId": "nce-1-lesson-135-scan-r6-012",
+      "sentenceOrder": 12,
+      "english": "Here's another report about Karen Marsh.",
+      "chinese": "这儿又有一篇关于卡伦·马什的报道。",
+      "lesson": "Lesson 135 The latest report"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-135",
+      "sentenceId": "nce-1-lesson-135-scan-r6-013",
+      "sentenceOrder": 13,
+      "english": "Listen: 'Karen Marsh: The latest.",
+      "chinese": "听着：“卡伦·马什最新消息。",
+      "lesson": "Lesson 135 The latest report"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-135",
+      "sentenceId": "nce-1-lesson-135-scan-r6-014",
+      "sentenceOrder": 14,
+      "english": "At her London Hotel today Miss Marsh told reporters she might retire.",
+      "chinese": "今天，马什小姐在她下榻的伦敦旅馆告诉记者，她可能会退休。",
+      "lesson": "Lesson 135 The latest report"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-135",
+      "sentenceId": "nce-1-lesson-135-scan-r6-015",
+      "sentenceOrder": 15,
+      "english": "She said she couldn't make up her mind.",
+      "chinese": "她说她拿不定主意。",
+      "lesson": "Lesson 135 The latest report"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-135",
+      "sentenceId": "nce-1-lesson-135-scan-r6-016",
+      "sentenceOrder": 16,
+      "english": "She said she would have to ask her future husband.",
+      "chinese": "她说她得问问她未来的丈夫。",
+      "lesson": "Lesson 135 The latest report"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-135",
+      "sentenceId": "nce-1-lesson-135-scan-r6-017",
+      "sentenceOrder": 17,
+      "english": "She said her future husband would not let her make another film.",
+      "chinese": "她说她未来的丈夫不会让她再拍一部电影。",
+      "lesson": "Lesson 135 The latest report"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-135",
+      "sentenceId": "nce-1-lesson-135-scan-r6-018",
+      "sentenceOrder": 18,
+      "english": "Then she introduced us to Carlos and told us they would get married next week.'",
+      "chinese": "然后她把我们介绍给卡洛斯，并告诉我们他们下周要结婚。’",
+      "lesson": "Lesson 135 The latest report"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-135",
+      "sentenceId": "nce-1-lesson-135-scan-r6-019",
+      "sentenceOrder": 19,
+      "english": "That's sensational news, isn't it, Kate?",
+      "chinese": "那可真是轰动的消息，不是吗，凯特？",
+      "lesson": "Lesson 135 The latest report"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-135",
+      "sentenceId": "nce-1-lesson-135-scan-r6-020",
+      "sentenceOrder": 20,
+      "english": "It certainly is.",
+      "chinese": "确实是。",
+      "lesson": "Lesson 135 The latest report"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-135",
+      "sentenceId": "nce-1-lesson-135-scan-r6-021",
+      "sentenceOrder": 21,
+      "english": "He'll be her sixth husband!",
+      "chinese": "他将是她的第六任丈夫！",
       "lesson": "Lesson 135 The latest report"
     },
     {
@@ -10793,8 +11369,8 @@
       "lessonId": "lesson-137",
       "sentenceId": "nce-1-lesson-137-sentence-007",
       "sentenceOrder": 10,
-      "english": "If we win a lot of money we'll travel around the world and we'll stay at the best hotels.",
-      "chinese": "如果我们赢了很多钱，我们就环游世界，住最好的旅馆。",
+      "english": "If we win a lot of money we'll travel round the world and we'll stay at the best hotels.",
+      "chinese": "如果我们赢了很多钱，我们就去环游世界，住最好的旅馆。",
       "lesson": "Lesson 137 A pleasant dream"
     },
     {
@@ -10862,8 +11438,8 @@
       "lessonId": "lesson-139",
       "sentenceId": "nce-1-lesson-139-sentence-001",
       "sentenceOrder": 1,
-      "english": "Hello, is that you, John?",
-      "chinese": "喂，是约翰吗？",
+      "english": "Is that you, John?",
+      "chinese": "是你吗，约翰？",
       "lesson": "Lesson 139 Is that you, John?"
     },
     {
@@ -10878,55 +11454,145 @@
     {
       "courseId": "nce1",
       "lessonId": "lesson-139",
-      "sentenceId": "nce-1-lesson-139-sentence-003",
+      "sentenceId": "nce-1-lesson-139-scan-r6-003",
       "sentenceOrder": 3,
-      "english": "Mary told me that you would come to London.",
-      "chinese": "玛丽告诉我你会来伦敦。",
+      "english": "Tell Mary we'll be late for dinner this evening.",
+      "chinese": "告诉玛丽，我们今晚吃饭会迟到。",
       "lesson": "Lesson 139 Is that you, John?"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-139",
-      "sentenceId": "nce-1-lesson-139-sentence-004",
+      "sentenceId": "nce-1-lesson-139-scan-r6-004",
       "sentenceOrder": 4,
-      "english": "I wanted to speak to you about your brother Tim.",
-      "chinese": "我想和你谈谈你弟弟蒂姆的事。",
+      "english": "I'm afraid I don't understand.",
+      "chinese": "恐怕我没明白您的意思。",
       "lesson": "Lesson 139 Is that you, John?"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-139",
-      "sentenceId": "nce-1-lesson-139-sentence-005",
+      "sentenceId": "nce-1-lesson-139-scan-r6-005",
       "sentenceOrder": 5,
-      "english": "He told me he would arrive tomorrow.",
-      "chinese": "他告诉我他明天到。",
+      "english": "Hasn't Mary told you?",
+      "chinese": "玛丽没告诉你吗？",
       "lesson": "Lesson 139 Is that you, John?"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-139",
-      "sentenceId": "nce-1-lesson-139-sentence-006",
+      "sentenceId": "nce-1-lesson-139-scan-r6-006",
       "sentenceOrder": 6,
-      "english": "He said he would stay for two weeks.",
-      "chinese": "他说他会住两个星期。",
+      "english": "She invited Charlotte and me to dinner this evening.",
+      "chinese": "她邀请了夏洛特和我今晚去吃晚饭。",
       "lesson": "Lesson 139 Is that you, John?"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-139",
-      "sentenceId": "nce-1-lesson-139-sentence-007",
+      "sentenceId": "nce-1-lesson-139-scan-r6-007",
       "sentenceOrder": 7,
-      "english": "Will you meet him at the station?",
-      "chinese": "你会去车站接他吗？",
+      "english": "I said I would be at your house at six o'clock, but the boss wants me to do some extra work.",
+      "chinese": "我说过六点会到你家，可老板要我做些额外的工作。",
       "lesson": "Lesson 139 Is that you, John?"
     },
     {
       "courseId": "nce1",
       "lessonId": "lesson-139",
-      "sentenceId": "nce-1-lesson-139-sentence-008",
+      "sentenceId": "nce-1-lesson-139-scan-r6-008",
       "sentenceOrder": 8,
-      "english": "I'll try to meet him if I have time.",
-      "chinese": "如果我有时间，我会尽量去接他。",
+      "english": "I'll have to stay at the office.",
+      "chinese": "我不得不留在办公室。",
+      "lesson": "Lesson 139 Is that you, John?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-139",
+      "sentenceId": "nce-1-lesson-139-scan-r6-009",
+      "sentenceOrder": 9,
+      "english": "I don't know when I'll finish.",
+      "chinese": "我不知道什么时候能结束。",
+      "lesson": "Lesson 139 Is that you, John?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-139",
+      "sentenceId": "nce-1-lesson-139-scan-r6-010",
+      "sentenceOrder": 10,
+      "english": "Oh, and by the way, my wife wants to know if Mary needs any help.",
+      "chinese": "哦，顺便说一句，我妻子想知道玛丽是否需要帮忙。",
+      "lesson": "Lesson 139 Is that you, John?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-139",
+      "sentenceId": "nce-1-lesson-139-scan-r6-011",
+      "sentenceOrder": 11,
+      "english": "I don't know what you're talking about.",
+      "chinese": "我不知道你在说什么。",
+      "lesson": "Lesson 139 Is that you, John?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-139",
+      "sentenceId": "nce-1-lesson-139-scan-r6-012",
+      "sentenceOrder": 12,
+      "english": "That is John Smith, isn't it?",
+      "chinese": "你是约翰·史密斯，对吗？",
+      "lesson": "Lesson 139 Is that you, John?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-139",
+      "sentenceId": "nce-1-lesson-139-scan-r6-013",
+      "sentenceOrder": 13,
+      "english": "Yes, I'm John Smith.",
+      "chinese": "是的，我是约翰·史密斯。",
+      "lesson": "Lesson 139 Is that you, John?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-139",
+      "sentenceId": "nce-1-lesson-139-scan-r6-014",
+      "sentenceOrder": 14,
+      "english": "You are John Smith, the engineer, aren't you?",
+      "chinese": "你是工程师约翰·史密斯，对吧？",
+      "lesson": "Lesson 139 Is that you, John?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-139",
+      "sentenceId": "nce-1-lesson-139-scan-r6-015",
+      "sentenceOrder": 15,
+      "english": "That's right.",
+      "chinese": "没错。",
+      "lesson": "Lesson 139 Is that you, John?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-139",
+      "sentenceId": "nce-1-lesson-139-scan-r6-016",
+      "sentenceOrder": 16,
+      "english": "You work for the Overseas Engineering Company, don't you?",
+      "chinese": "你在海外工程公司工作，对吧？",
+      "lesson": "Lesson 139 Is that you, John?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-139",
+      "sentenceId": "nce-1-lesson-139-scan-r6-017",
+      "sentenceOrder": 17,
+      "english": "No, I don't.",
+      "chinese": "不，我不在那里工作。",
+      "lesson": "Lesson 139 Is that you, John?"
+    },
+    {
+      "courseId": "nce1",
+      "lessonId": "lesson-139",
+      "sentenceId": "nce-1-lesson-139-scan-r6-018",
+      "sentenceOrder": 18,
+      "english": "I'm John Smith the telephone engineer and I'm repairing your telephone line.",
+      "chinese": "我是电话工程师约翰·史密斯，正在修理你的电话线路。",
       "lesson": "Lesson 139 Is that you, John?"
     },
     {
@@ -11168,8 +11834,8 @@
       "lessonId": "lesson-143",
       "sentenceId": "nce-1-lesson-143-sentence-010",
       "sentenceOrder": 10,
-      "english": "Among the rubbish, I found a sign which said: 'Anyone who leaves litter in these woods will be prosecuted!'",
-      "chinese": "在垃圾中，我发现了一块牌子，上面写着：‘任何在这些树林里乱扔垃圾的人都将被起诉！’",
+      "english": "Among the rubbish, I found a sign which said, 'Anyone who leaves litter in these woods will be prosecuted!'",
+      "chinese": "在垃圾中，我发现了一块牌子，上面写着：“凡在这片树林里乱扔垃圾的人都将被起诉！”",
       "lesson": "Lesson 143 A walk through the woods"
     },
     {

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-115",
+    "sentenceId": "nce-1-lesson-115-scan-r6-009",
+    "sentenceOrder": 9,
+    "english": "Nothing at all.",
+    "chinese": "什么也看不见。",
+    "intent": "强调完全没有看到任何东西",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Nothing",
+        "relation": "否定看到的东西",
+        "meaning": "什么也没有"
+      },
+      {
+        "text": "at all.",
+        "relation": "加强否定",
+        "meaning": "一点也没有"
+      }
+    ],
+    "notes": [
+      {
+        "title": "省略回答",
+        "text": "省略了能从上文恢复的 I can see；nothing 自带否定意义。at all 加强否定。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "省略回答",
+        "text": "省略了能从上文恢复的 I can see；nothing 自带否定意义。at all 加强否定。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Nothing",
+        "role": "省略句中的宾语",
+        "explanation": "承接 see 的对象，表示没看到任何东西"
+      },
+      {
+        "text": "at all.",
+        "role": "程度状语",
+        "explanation": "加强完全没有的意思"
+      }
+    ],
+    "words": [
+      {
+        "text": "Nothing",
+        "meaning": "什么也没有",
+        "pos": "不定代词",
+        "phonetic": "/ˈnʌθɪŋ/"
+      },
+      {
+        "text": "at",
+        "meaning": "（与 all 连用加强否定）",
+        "pos": "介词",
+        "phonetic": "/ət/"
+      },
+      {
+        "text": "all.",
+        "meaning": "丝毫（与 at 连用）",
+        "pos": "代词",
+        "phonetic": "/ɔːl/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "用表示无物的词作短答，再用两词搭配加强完全没有。",
+      "letterShape": "N______ a_ a__.",
+      "answerNote": "nothing 已含否定，at all 加强语气，省略看见的动作。"
+    },
+    "teacherTip": {
+      "text": "上一句已经问了看见什么，回答只保留“什么也没有”就够了。at all 把否定说得更彻底，相当于“一点也没有”，不需要再加一个 not。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

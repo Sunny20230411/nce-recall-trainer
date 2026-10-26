@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-95",
+    "sentenceId": "nce-1-lesson-095-scan-r6-018",
+    "sentenceOrder": 18,
+    "english": "It's only eight fifteen.",
+    "chinese": "现在才八点十五分。",
+    "intent": "用当前时间反驳“已经错过车”的说法，表达自己的不解。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "It's only eight fifteen.",
+        "relation": "核心表述",
+        "meaning": "现在才八点十五分。"
+      }
+    ],
+    "notes": [
+      {
+        "title": "only的语气作用",
+        "text": "only 修饰 eight fifteen，不只是表示数量少，更带有“时间还早、不该发生错过”的反驳语气。"
+      },
+      {
+        "title": "时间表达法",
+        "text": "直接说 It's eight fifteen 是口语里最常用的报时方式，意思是八点十五分。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "only的语气作用",
+        "text": "only 修饰 eight fifteen，不只是表示数量少，更带有“时间还早、不该发生错过”的反驳语气。"
+      },
+      {
+        "title": "时间表达法",
+        "text": "直接说 It's eight fifteen 是口语里最常用的报时方式，意思是八点十五分。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "It's only eight fifteen.",
+        "role": "主系表结构",
+        "explanation": "It 指代时间，is 是系动词，only eight fifteen 是表语，说明当前时间。"
+      },
+      {
+        "text": "only",
+        "role": "强调状语",
+        "explanation": "only 修饰后面的时间，突出时间尚早的语气。"
+      }
+    ],
+    "words": [
+      {
+        "text": "It's",
+        "meaning": "（指时间）是",
+        "pos": "代词+be动词缩写",
+        "phonetic": "/ɪts/"
+      },
+      {
+        "text": "only",
+        "meaning": "才，仅仅",
+        "pos": "副词",
+        "phonetic": "/ˈəʊnli/"
+      },
+      {
+        "text": "eight",
+        "meaning": "八",
+        "pos": "数词",
+        "phonetic": "/eɪt/"
+      },
+      {
+        "text": "fifteen.",
+        "meaning": "十五（分）",
+        "pos": "数词",
+        "phonetic": "/ˌfɪfˈtiːn/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说“现在是”，再加“才”和具体钟点，用来反驳“来不及了”之类的话。",
+      "letterShape": "I_'_ o___ e____ f______.",
+      "answerNote": "It's 用来报时，only 带出“还早”的反驳语气。"
+    },
+    "teacherTip": {
+      "text": "only放在时间前面，重点不是“只有”这个量，而是强调“时间还早、不该错过”的语气，用来支撑反驳。说时间直接用It's + 钟点，是最自然的口语表达。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "内容符合原文与语境，知识点准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。内容符合原文与语境，知识点准确。"
+  }
+}

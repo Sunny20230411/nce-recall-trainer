@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-135",
+    "sentenceId": "nce-1-lesson-135-scan-r6-012",
+    "sentenceOrder": 12,
+    "english": "Here's another report about Karen Marsh.",
+    "chinese": "这儿又有一篇关于卡伦·马什的报道。",
+    "intent": "向同伴指出又一篇关于马什的报道",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Here's another report",
+        "relation": "呈现又一篇报道",
+        "meaning": "这儿又有一篇报道"
+      },
+      {
+        "text": "about Karen Marsh.",
+        "relation": "报道的主题",
+        "meaning": "关于卡伦·马什"
+      }
+    ],
+    "notes": [
+      {
+        "title": "呈现句式",
+        "text": "Here's 是 Here is 的缩合，名词主语 another report 放在后面。"
+      },
+      {
+        "title": "修饰关系",
+        "text": "about Karen Marsh 修饰 report，说明报道的主题。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "呈现句式",
+        "text": "Here's 是 Here is 的缩合，名词主语 another report 放在后面。"
+      },
+      {
+        "title": "修饰关系",
+        "text": "about Karen Marsh 修饰 report，说明报道的主题。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Here's",
+        "role": "状语及系动词",
+        "explanation": "Here's 包含呈现用的 Here 与 is"
+      },
+      {
+        "text": "another report",
+        "role": "主语",
+        "explanation": "被呈现的新报道"
+      },
+      {
+        "text": "about Karen Marsh.",
+        "role": "定语",
+        "explanation": "介词短语修饰 report"
+      }
+    ],
+    "words": [
+      {
+        "text": "Here's",
+        "meaning": "这里有；这儿是",
+        "pos": "副词与系动词缩合",
+        "phonetic": "/hɪəz/"
+      },
+      {
+        "text": "another",
+        "meaning": "又一；另一",
+        "pos": "限定词",
+        "phonetic": "/əˈnʌðə/"
+      },
+      {
+        "text": "report",
+        "meaning": "报道",
+        "pos": "名词",
+        "phonetic": "/rɪˈpɔːt/"
+      },
+      {
+        "text": "about",
+        "meaning": "关于",
+        "pos": "介词",
+        "phonetic": "/əˈbaʊt/"
+      },
+      {
+        "text": "Karen",
+        "meaning": "卡伦（人名）",
+        "pos": "专有名词",
+        "phonetic": "/ˈkærən/"
+      },
+      {
+        "text": "Marsh.",
+        "meaning": "马什（姓氏）",
+        "pos": "专有名词",
+        "phonetic": "/mɑːʃ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先指出又一篇报道，再交代报道谈的是谁。",
+      "letterShape": "H___'_ a______ r_____ a____ K____ M____.",
+      "answerNote": "Here's 呈现眼前事物，about 引出报道主题。"
+    },
+    "teacherTip": {
+      "text": "Here's 把眼前新发现的报道呈现给对方，不是单纯交代某物的位置。another 还传达“此前已经有过相关报道，现在又来一篇”，这种衔接值得在中文里保留。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

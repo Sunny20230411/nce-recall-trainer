@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-139",
+    "sentenceId": "nce-1-lesson-139-scan-r6-017",
+    "sentenceOrder": 17,
+    "english": "No, I don't.",
+    "chinese": "不，我不在那里工作。",
+    "intent": "否定自己在对方所说公司工作的判断。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "No,",
+        "relation": "否定对方的判断",
+        "meaning": "不"
+      },
+      {
+        "text": "I don't.",
+        "relation": "明确自己并非如此",
+        "meaning": "我不在那里工作"
+      }
+    ],
+    "notes": [
+      {
+        "title": "don't承接前文动作",
+        "text": "I don't省略了work for the Overseas Engineering Company，具体否定的事由上一句补足。No与后面的否定说明一致。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "don't承接前文动作",
+        "text": "I don't省略了work for the Overseas Engineering Company，具体否定的事由上一句补足。No与后面的否定说明一致。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "No,",
+        "role": "独立应答成分",
+        "explanation": "否定对方关于工作单位的判断。"
+      },
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "指说话人。"
+      },
+      {
+        "text": "don't.",
+        "role": "省略式谓语",
+        "explanation": "用否定助动词承接前文的工作关系。"
+      }
+    ],
+    "words": [
+      {
+        "text": "No,",
+        "meaning": "不、不是",
+        "pos": "副词",
+        "phonetic": "/nəʊ/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "don't.",
+        "meaning": "不（省略后面的工作关系）",
+        "pos": "助动词缩写",
+        "phonetic": "/dəʊnt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先否定对方的判断，再用省略答法说明自己不是那样。",
+      "letterShape": "N_, I d__'_.",
+      "answerNote": "依据前述事实是否成立选择Yes或No，不按中文反问的表面形式机械对应。"
+    },
+    "teacherTip": {
+      "text": "对方用 don't you? 请求确认，但这里的 No 不是机械地顺着问句里的“不”回答，而是在否定“你为那家公司工作”这件事。回答这类确认问句时，先判断事实是否成立：成立说 Yes，不成立说 No。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

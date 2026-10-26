@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-115",
+    "sentenceId": "nce-1-lesson-115-scan-r6-015",
+    "sentenceOrder": 15,
+    "english": "Everybody wants to have lunch in the garden.",
+    "chinese": "大家都想在花园里吃午饭。",
+    "intent": "解释大家聚在花园的原因",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Everybody",
+        "relation": "共同意愿的人",
+        "meaning": "大家"
+      },
+      {
+        "text": "wants to have lunch",
+        "relation": "共同意愿",
+        "meaning": "都想吃午饭"
+      },
+      {
+        "text": "in the garden.",
+        "relation": "用餐地点",
+        "meaning": "在花园里"
+      }
+    ],
+    "notes": [
+      {
+        "title": "主谓一致",
+        "text": "everybody 按单数使用，因此用 wants。want to do 表示想做某事。"
+      },
+      {
+        "title": "三餐搭配",
+        "text": "have lunch 表示吃午饭，此处 lunch 前不用冠词。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "主谓一致",
+        "text": "everybody 按单数使用，因此用 wants。want to do 表示想做某事。"
+      },
+      {
+        "title": "三餐搭配",
+        "text": "have lunch 表示吃午饭，此处 lunch 前不用冠词。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Everybody",
+        "role": "主语",
+        "explanation": "所有人，按单数使用"
+      },
+      {
+        "text": "wants",
+        "role": "谓语",
+        "explanation": "表达意愿，第三人称单数形式"
+      },
+      {
+        "text": "to have lunch in the garden.",
+        "role": "宾语性不定式补足语",
+        "explanation": "说明想做的事，并含用餐地点"
+      }
+    ],
+    "words": [
+      {
+        "text": "Everybody",
+        "meaning": "每个人；大家",
+        "pos": "不定代词",
+        "phonetic": "/ˈevribɒdi/"
+      },
+      {
+        "text": "wants",
+        "meaning": "想要",
+        "pos": "动词第三人称单数",
+        "phonetic": "/wɒnts/"
+      },
+      {
+        "text": "to",
+        "meaning": "（引出不定式动作）",
+        "pos": "不定式标记",
+        "phonetic": "/tə/"
+      },
+      {
+        "text": "have",
+        "meaning": "吃；用餐",
+        "pos": "动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "lunch",
+        "meaning": "午饭",
+        "pos": "名词",
+        "phonetic": "/lʌntʃ/"
+      },
+      {
+        "text": "in",
+        "meaning": "在……里面",
+        "pos": "介词",
+        "phonetic": "/ɪn/"
+      },
+      {
+        "text": "the",
+        "meaning": "这个（特指）",
+        "pos": "冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "garden.",
+        "meaning": "花园",
+        "pos": "名词",
+        "phonetic": "/ˈɡɑːdən/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "说每个人都想做什么，再补上吃午饭的位置。",
+      "letterShape": "E________ w____ t_ h___ l____ i_ t__ g_____.",
+      "answerNote": "everybody 后用 wants，接 to have lunch，再接地点。"
+    },
+    "teacherTip": {
+      "text": "重点是大家想怎样安排午餐，所以先说愿望，再补上用餐地点。have lunch 是吃午饭，不是拥有午饭；表达日常三餐活动时，可以这样直接搭配。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

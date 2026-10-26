@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-39",
+    "sentenceId": "nce-1-lesson-039-sentence-007-part-02",
+    "sentenceOrder": 10,
+    "english": "Put it here, on this shelf.",
+    "chinese": "放在这儿，这个架子上。",
+    "intent": "给对方指示放置的具体位置，先给大致方位再补充精确位置",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Put it here,",
+        "relation": "动作+大致位置",
+        "meaning": "把它放在这儿"
+      },
+      {
+        "text": "on this shelf.",
+        "relation": "补充精确位置",
+        "meaning": "在这个架子上"
+      }
+    ],
+    "notes": [
+      {
+        "title": "祈使句",
+        "text": "Put it here 是祈使句，直接给对方指示，省略了主语you。"
+      },
+      {
+        "title": "同位位置说明",
+        "text": "on this shelf 是对here的补充说明，进一步明确位置。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "祈使句",
+        "text": "Put it here 是祈使句，直接给对方指示，省略了主语you。"
+      },
+      {
+        "title": "同位位置说明",
+        "text": "on this shelf 是对here的补充说明，进一步明确位置。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Put it here,",
+        "role": "祈使句主干",
+        "explanation": "动词原形put开头，宾语it + 地点状语here"
+      },
+      {
+        "text": "on this shelf.",
+        "role": "地点状语",
+        "explanation": "介词短语作补充说明，细化here的具体位置"
+      }
+    ],
+    "words": [
+      {
+        "text": "Put",
+        "meaning": "放",
+        "pos": "动词",
+        "phonetic": "/pʊt/"
+      },
+      {
+        "text": "it",
+        "meaning": "它",
+        "pos": "人称代词",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "text": "here,",
+        "meaning": "在这里",
+        "pos": "副词",
+        "phonetic": "/hɪə/"
+      },
+      {
+        "text": "on",
+        "meaning": "在……上面",
+        "pos": "介词",
+        "phonetic": "/ɒn/"
+      },
+      {
+        "text": "this",
+        "meaning": "这个",
+        "pos": "限定词",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "text": "shelf.",
+        "meaning": "架子",
+        "pos": "名词",
+        "phonetic": "/ʃelf/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先给“放这儿”的大致指令，再补“在这个架子上”的具体位置。",
+      "letterShape": "P__ i_ h___, o_ t___ s____.",
+      "answerNote": "祈使句直接说动作，here是大概位置，后面介词短语说清楚具体在哪。"
+    },
+    "teacherTip": {
+      "text": "先说here把方向点出来，再用on this shelf补清楚具体位置，口语里给位置指示常这样“先粗后细”。想说“放在这儿，XX上面/里面”，都可以先put it here，再用介词短语补细节。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "原文符合新概念英语第39课内容，各字段校验无误。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。原文符合新概念英语第39课内容，各字段校验无误。"
+  }
+}

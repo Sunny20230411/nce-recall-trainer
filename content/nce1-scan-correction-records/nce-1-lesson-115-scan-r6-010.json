@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-115",
+    "sentenceId": "nce-1-lesson-115-scan-r6-010",
+    "sentenceOrder": 10,
+    "english": "Let's try the back door.",
+    "chinese": "我们到后门试试吧。",
+    "intent": "建议换到后门寻找主人",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Let's try",
+        "relation": "共同尝试的提议",
+        "meaning": "我们试试吧"
+      },
+      {
+        "text": "the back door.",
+        "relation": "新的寻找途径",
+        "meaning": "后门"
+      }
+    ],
+    "notes": [
+      {
+        "title": "共同提议",
+        "text": "Let's 是 let us 的缩写，引出包括说话人在内的提议，try 用原形。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "共同提议",
+        "text": "Let's 是 let us 的缩写，引出包括说话人在内的提议，try 用原形。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Let's",
+        "role": "提议引导成分",
+        "explanation": "let us 的缩写，提出共同采取行动"
+      },
+      {
+        "text": "try",
+        "role": "行动核心",
+        "explanation": "说明建议尝试"
+      },
+      {
+        "text": "the back door.",
+        "role": "宾语",
+        "explanation": "把后门作为新的尝试途径"
+      }
+    ],
+    "words": [
+      {
+        "text": "Let's",
+        "meaning": "我们……吧",
+        "pos": "动词与代词缩写",
+        "phonetic": "/lets/"
+      },
+      {
+        "text": "try",
+        "meaning": "试试",
+        "pos": "动词",
+        "phonetic": "/traɪ/"
+      },
+      {
+        "text": "the",
+        "meaning": "那扇（特指）",
+        "pos": "冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "back",
+        "meaning": "后面的",
+        "pos": "形容词",
+        "phonetic": "/bæk/"
+      },
+      {
+        "text": "door.",
+        "meaning": "门",
+        "pos": "名词",
+        "phonetic": "/dɔː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "提出大家一起换个办法，去后门试试。",
+      "letterShape": "L__'_ t__ t__ b___ d___.",
+      "answerNote": "let's 引出共同建议，try 后直接接这次要尝试的途径。"
+    },
+    "teacherTip": {
+      "text": "try 后门，并不是测试门的质量，而是把后门当成下一条找人的路。遇到一个办法不通时，try 后面直接接另一个渠道，就能提出新的尝试。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-107",
+    "sentenceId": "nce-1-lesson-107-scan-r6-018",
+    "sentenceOrder": 18,
+    "english": "This is the largest dress in the shop.",
+    "chinese": "这是店里最大号的连衣裙了。",
+    "intent": "说明现有裙子的最大尺码限制",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "This is",
+        "relation": "指认商品",
+        "meaning": "这是"
+      },
+      {
+        "text": "the largest dress",
+        "relation": "尺码极值",
+        "meaning": "最大号的连衣裙"
+      },
+      {
+        "text": "in the shop.",
+        "relation": "比较范围",
+        "meaning": "在这家店里"
+      }
+    ],
+    "notes": [
+      {
+        "title": "最高级范围",
+        "text": "the largest 表示某一范围内最大，in the shop 给出该范围。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "最高级范围",
+        "text": "the largest 表示某一范围内最大，in the shop 给出该范围。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "This",
+        "role": "主语",
+        "explanation": "指眼前这件裙子。"
+      },
+      {
+        "text": "is",
+        "role": "系动词",
+        "explanation": "连接商品与其描述。"
+      },
+      {
+        "text": "the largest dress",
+        "role": "表语",
+        "explanation": "指出它是最大号的裙子。"
+      },
+      {
+        "text": "in the shop.",
+        "role": "范围状语",
+        "explanation": "限定最高级比较的范围。"
+      }
+    ],
+    "words": [
+      {
+        "text": "This",
+        "meaning": "这；这件",
+        "pos": "代词",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "text": "is",
+        "meaning": "是",
+        "pos": "系动词",
+        "phonetic": "/ɪz/"
+      },
+      {
+        "text": "the",
+        "meaning": "（限定最高级）",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "largest",
+        "meaning": "最大号的",
+        "pos": "形容词",
+        "phonetic": "/ˈlɑːdʒɪst/"
+      },
+      {
+        "text": "dress",
+        "meaning": "连衣裙",
+        "pos": "名词",
+        "phonetic": "/dres/"
+      },
+      {
+        "text": "in",
+        "meaning": "在……里",
+        "pos": "介词",
+        "phonetic": "/ɪn/"
+      },
+      {
+        "text": "the",
+        "meaning": "这家（特指）",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "shop.",
+        "meaning": "商店",
+        "pos": "名词",
+        "phonetic": "/ʃɒp/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "指出这件是最大号，并限定为店内的比较。",
+      "letterShape": "T___ i_ t__ l______ d____ i_ t__ s___.",
+      "answerNote": "最高级前用定冠词，句末给出店内范围。"
+    },
+    "teacherTip": {
+      "text": "largest 配上 in the shop，把“最大”的范围限定在这家店。它解释了为什么没法再拿大一号，并不是说世界上找不到更大的裙子。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

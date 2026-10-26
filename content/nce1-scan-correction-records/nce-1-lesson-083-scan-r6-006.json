@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-006",
+    "sentenceOrder": 6,
+    "english": "No, thank you, Tom.",
+    "chinese": "不用了，谢谢你，汤姆。",
+    "intent": "礼貌回绝对方一起吃午饭的邀请并致谢。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "No, thank you,",
+        "relation": "回绝邀请并致谢的核心表达",
+        "meaning": "不用了，谢谢你"
+      },
+      {
+        "text": "Tom.",
+        "relation": "称呼对话对象",
+        "meaning": "汤姆"
+      }
+    ],
+    "notes": [
+      {
+        "title": "婉拒邀请的常用表达",
+        "text": "No, thank you 是英语口语中婉拒他人提议或邀请的常用礼貌说法，先表明拒绝态度，再用 thank you 表达对对方好意的感谢。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "婉拒邀请的常用表达",
+        "text": "No, thank you 是英语口语中婉拒他人提议或邀请的常用礼貌说法，先表明拒绝态度，再用 thank you 表达对对方好意的感谢。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "No, thank you,",
+        "role": "应答分句",
+        "explanation": "由感叹词 No 和动词短语 thank you 构成的口语化应答，用于礼貌回绝。"
+      },
+      {
+        "text": "Tom.",
+        "role": "呼语",
+        "explanation": "对听话人的称呼，放在句末用逗号隔开。"
+      }
+    ],
+    "words": [
+      {
+        "text": "No,",
+        "meaning": "不，不是（表否定应答）",
+        "pos": "感叹词",
+        "phonetic": "/nəʊ/"
+      },
+      {
+        "text": "thank",
+        "meaning": "感谢",
+        "pos": "动词",
+        "phonetic": "/θæŋk/"
+      },
+      {
+        "text": "you,",
+        "meaning": "你，你们",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "Tom.",
+        "meaning": "汤姆（男子名）",
+        "pos": "名词",
+        "phonetic": "/tɒm/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先给拒绝的态度，再道谢，最后带上对方的名字。",
+      "letterShape": "N_, t____ y__, T__.",
+      "answerNote": "口语里婉拒别人的好意，习惯先说“不”再道谢，显得礼貌不生硬。"
+    },
+    "teacherTip": {
+      "text": "回绝别人的好意邀请时，先说 No 表明态度，再接 thank you 谢对方的关心，比只说 No 委婉自然。日常拒绝提议、邀约都可以用这个组合。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "修正了No的词义为表否定应答而非“没有”，名师提点从使用场景切入避免泛泛，其余字段准确合规。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。修正了No的词义为表否定应答而非“没有”，名师提点从使用场景切入避免泛泛，其余字段准确合规。"
+  }
+}

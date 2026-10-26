@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-33",
+    "sentenceId": "nce-1-lesson-033-sentence-001",
+    "sentenceOrder": 1,
+    "english": "It is a fine day today.",
+    "chinese": "今天天气很好。",
+    "intent": "开篇描述当日的天气状况",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "It is a fine day",
+        "relation": "核心描述（天气）",
+        "meaning": "是个好天气"
+      },
+      {
+        "text": "today.",
+        "relation": "时间背景",
+        "meaning": "今天"
+      }
+    ],
+    "notes": [
+      {
+        "title": "it指代天气",
+        "text": "it在这里没有具体词义，用来引出天气描述，是英语的习惯用法。"
+      },
+      {
+        "title": "fine",
+        "text": "fine形容天气时表示“晴朗的、很好的”。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "it指代天气",
+        "text": "it在这里没有具体词义，用来引出天气描述，是英语的习惯用法。"
+      },
+      {
+        "title": "fine",
+        "text": "fine形容天气时表示“晴朗的、很好的”。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "It is a fine day today.",
+        "role": "陈述句主系表结构",
+        "explanation": "it作主语指代天气，is是系动词，a fine day是表语，today是时间状语"
+      },
+      {
+        "text": "It",
+        "role": "主语",
+        "explanation": "it指代天气，作为句子的主语"
+      },
+      {
+        "text": "a fine day",
+        "role": "表语",
+        "explanation": "a fine day说明天气的状况"
+      }
+    ],
+    "words": [
+      {
+        "text": "It",
+        "meaning": "（指代天气，无实义）",
+        "pos": "代词",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "text": "is",
+        "meaning": "是",
+        "pos": "动词",
+        "phonetic": "/ɪz/"
+      },
+      {
+        "text": "a",
+        "meaning": "一（个）",
+        "pos": "冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "fine",
+        "meaning": "晴朗的；美好的",
+        "pos": "形容词",
+        "phonetic": "/faɪn/"
+      },
+      {
+        "text": "day",
+        "meaning": "天；日子",
+        "pos": "名词",
+        "phonetic": "/deɪ/"
+      },
+      {
+        "text": "today.",
+        "meaning": "今天",
+        "pos": "副词",
+        "phonetic": "/təˈdeɪ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "说天气先用it起头，a fine day讲天气，today放最后。",
+      "letterShape": "I_ i_ a f___ d__ t____.",
+      "answerNote": "这是描述天气的常用开头，it代指天气。"
+    },
+    "teacherTip": {
+      "text": "描述天气时英文习惯用it引出话题，先说核心的a fine day，再把时间today放句末作背景。下次说某天天气如何，先用It is a ... day起头，再补时间。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "核对原文：完整形式It is a fine day today与扫描件一致，翻译准确，结构和词义无误。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。核对原文：完整形式It is a fine day today与扫描件一致，翻译准确，结构和词义无误。"
+  }
+}

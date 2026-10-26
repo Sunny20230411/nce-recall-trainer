@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-127",
+    "sentenceId": "nce-1-lesson-127-scan-r6-019",
+    "sentenceOrder": 19,
+    "english": "That was a long time ago, wasn't it?",
+    "chinese": "那可是很久以前的事了，不是吗？",
+    "intent": "借时间久远打趣对方年龄",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "That was a long time ago,",
+        "relation": "时间判断",
+        "meaning": "那是很久以前了"
+      },
+      {
+        "text": "wasn't it?",
+        "relation": "寻求认同",
+        "meaning": "不是吗"
+      }
+    ],
+    "notes": [
+      {
+        "title": "附加问句",
+        "text": "主句用 was，附加问句沿用 wasn't；主语 that 在附加问句中换为 it。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "附加问句",
+        "text": "主句用 was，附加问句沿用 wasn't；主语 that 在附加问句中换为 it。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "That",
+        "role": "主语",
+        "explanation": "指刚提及的那个时期"
+      },
+      {
+        "text": "was",
+        "role": "系动词",
+        "explanation": "说明该时期距今的远近"
+      },
+      {
+        "text": "a long time ago,",
+        "role": "表语",
+        "explanation": "表示距今很久"
+      },
+      {
+        "text": "wasn't it?",
+        "role": "附加问句",
+        "explanation": "邀请对方承认时间久远"
+      }
+    ],
+    "words": [
+      {
+        "text": "That",
+        "meaning": "那；那个时期",
+        "pos": "指示代词",
+        "phonetic": "/ðæt/"
+      },
+      {
+        "text": "was",
+        "meaning": "是（过去）",
+        "pos": "系动词",
+        "phonetic": "/wəz/"
+      },
+      {
+        "text": "a",
+        "meaning": "一段",
+        "pos": "冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "long",
+        "meaning": "长的",
+        "pos": "形容词",
+        "phonetic": "/lɒŋ/"
+      },
+      {
+        "text": "time",
+        "meaning": "时间",
+        "pos": "名词",
+        "phonetic": "/taɪm/"
+      },
+      {
+        "text": "ago,",
+        "meaning": "以前",
+        "pos": "副词",
+        "phonetic": "/əˈɡəʊ/"
+      },
+      {
+        "text": "wasn't",
+        "meaning": "不是（was not）",
+        "pos": "系动词否定缩写",
+        "phonetic": "/ˈwɒznt/"
+      },
+      {
+        "text": "it?",
+        "meaning": "那件事；那个时期",
+        "pos": "代词",
+        "phonetic": "/ɪt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "把上学时期说成很久以前，末尾求对方认同。",
+      "letterShape": "T___ w__ a l___ t___ a__, w___'_ i_?",
+      "answerNote": "that 作主语，附加问句用 wasn't it。"
+    },
+    "teacherTip": {
+      "text": "that 接住对方刚提到的学生时代，不再复述整段往事。补上 wasn't it 看似只是求认同，却把‘那已经很久了’推到对方面前，也就引出了后面对自己年龄的辩解。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

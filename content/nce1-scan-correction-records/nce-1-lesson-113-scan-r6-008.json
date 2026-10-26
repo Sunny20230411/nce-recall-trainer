@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-113",
+    "sentenceId": "nce-1-lesson-113-scan-r6-008",
+    "sentenceOrder": 8,
+    "english": "Have you any small change, sir?",
+    "chinese": "先生，您有零钱吗？",
+    "intent": "向一位乘客询问零钱",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Have you",
+        "relation": "询问持有情况",
+        "meaning": "您有吗"
+      },
+      {
+        "text": "any small change,",
+        "relation": "询问对象",
+        "meaning": "零钱"
+      },
+      {
+        "text": "sir?",
+        "relation": "称呼",
+        "meaning": "先生"
+      }
+    ],
+    "notes": [
+      {
+        "title": "拥有的问法",
+        "text": "have 是表示拥有的实义动词，此处直接前置构成疑问，没有 got。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "拥有的问法",
+        "text": "have 是表示拥有的实义动词，此处直接前置构成疑问，没有 got。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Have",
+        "role": "前置谓语",
+        "explanation": "have 表示拥有，前置构成疑问"
+      },
+      {
+        "text": "you",
+        "role": "主语",
+        "explanation": "被询问的乘客"
+      },
+      {
+        "text": "any small change,",
+        "role": "宾语",
+        "explanation": "询问是否持有的零钱"
+      },
+      {
+        "text": "sir?",
+        "role": "呼语",
+        "explanation": "称呼男性乘客"
+      }
+    ],
+    "words": [
+      {
+        "text": "Have",
+        "meaning": "有",
+        "pos": "动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "you",
+        "meaning": "您",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "any",
+        "meaning": "一点；任何一些",
+        "pos": "限定词",
+        "phonetic": "/ˈeni/"
+      },
+      {
+        "text": "small",
+        "meaning": "小额的",
+        "pos": "形容词",
+        "phonetic": "/smɔːl/"
+      },
+      {
+        "text": "change,",
+        "meaning": "零钱",
+        "pos": "名词",
+        "phonetic": "/tʃeɪndʒ/"
+      },
+      {
+        "text": "sir?",
+        "meaning": "先生",
+        "pos": "名词",
+        "phonetic": "/sɜː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "用课文中直接把拥有动词提前的问法，末尾称呼先生。",
+      "letterShape": "H___ y__ a__ s____ c_____, s__?",
+      "answerNote": "本句 have 直接作表示拥有的谓语，不补 got 或 do。"
+    },
+    "teacherTip": {
+      "text": "这里直接用 Have you 询问是否持有，是较传统的英式说法。日常也可以说 Have you got 或 Do you have；要认得课文表达，不必把其他自然说法判成错误。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-129",
+    "sentenceId": "nce-1-lesson-129-sentence-001",
+    "sentenceOrder": 1,
+    "english": "Look, Gary!",
+    "chinese": "加里，快看！",
+    "intent": "提醒加里注意眼前的情况",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Look,",
+        "relation": "提醒注意",
+        "meaning": "快看"
+      },
+      {
+        "text": "Gary!",
+        "relation": "称呼对象",
+        "meaning": "加里"
+      }
+    ],
+    "notes": [
+      {
+        "title": "提醒用语",
+        "text": "Look 可独立构成祈使句；Gary 是呼语，不是主语。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "提醒用语",
+        "text": "Look 可独立构成祈使句；Gary 是呼语，不是主语。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Look,",
+        "role": "谓语",
+        "explanation": "祈使句省略主语 you"
+      },
+      {
+        "text": "Gary!",
+        "role": "呼语",
+        "explanation": "直接称呼加里"
+      }
+    ],
+    "words": [
+      {
+        "text": "Look,",
+        "meaning": "看；注意",
+        "pos": "动词",
+        "phonetic": "/lʊk/"
+      },
+      {
+        "text": "Gary!",
+        "meaning": "加里（人名）",
+        "pos": "专有名词",
+        "phonetic": "/ˈɡæri/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先引起注意，再叫出对方的名字。",
+      "letterShape": "L___, G___!",
+      "answerNote": "用简短祈使句提醒对方看眼前的情况。"
+    },
+    "teacherTip": {
+      "text": "这里的 Look 是把对方的注意力拉到眼前，并不是要求仔细观察某件物品。后面紧接警察在招手，中文可以自然说成“快看”。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

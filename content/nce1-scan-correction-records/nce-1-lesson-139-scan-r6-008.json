@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-139",
+    "sentenceId": "nce-1-lesson-139-scan-r6-008",
+    "sentenceOrder": 8,
+    "english": "I'll have to stay at the office.",
+    "chinese": "我不得不留在办公室。",
+    "intent": "说明因工作安排而必须继续留在办公室。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I'll have to",
+        "relation": "说明接下来的必要性",
+        "meaning": "我将不得不"
+      },
+      {
+        "text": "stay at the office.",
+        "relation": "说明必须做的事与地点",
+        "meaning": "留在办公室"
+      }
+    ],
+    "notes": [
+      {
+        "title": "will have to",
+        "text": "I'll 是 I will 的缩写，have to 表示必须，后接动词原形 stay；will 把必要性放到接下来的安排中。"
+      },
+      {
+        "title": "stay at the office",
+        "text": "stay 表示留下、不离开，at the office 说明留下的地点。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "will have to",
+        "text": "I'll 是 I will 的缩写，have to 表示必须，后接动词原形 stay；will 把必要性放到接下来的安排中。"
+      },
+      {
+        "title": "stay at the office",
+        "text": "stay 表示留下、不离开，at the office 说明留下的地点。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I'll have to",
+        "role": "主语与必要性表达",
+        "explanation": "说明接下来必须如此。"
+      },
+      {
+        "text": "stay",
+        "role": "实义动词",
+        "explanation": "表示留下。"
+      },
+      {
+        "text": "at the office.",
+        "role": "地点状语",
+        "explanation": "指出留下的地点是办公室。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I'll",
+        "meaning": "我将会",
+        "pos": "代词与助动词缩写",
+        "phonetic": "/aɪl/"
+      },
+      {
+        "text": "have",
+        "meaning": "必须（与to连用）",
+        "pos": "动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "to",
+        "meaning": "（构成必须做某事的表达）",
+        "pos": "不定式标记",
+        "phonetic": "/tuː/（元音前弱读为/tə/）"
+      },
+      {
+        "text": "stay",
+        "meaning": "留下",
+        "pos": "动词",
+        "phonetic": "/steɪ/"
+      },
+      {
+        "text": "at",
+        "meaning": "在",
+        "pos": "介词",
+        "phonetic": "/æt/"
+      },
+      {
+        "text": "the",
+        "meaning": "（指双方知道的办公室）",
+        "pos": "冠词",
+        "phonetic": "/ðə/ 或 /ðiː/"
+      },
+      {
+        "text": "office.",
+        "meaning": "办公室",
+        "pos": "名词",
+        "phonetic": "/ˈɒfɪs/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "说明接下来因为工作而不得不留下，最后交代地点。",
+      "letterShape": "I'__ h___ t_ s___ a_ t__ o_____.",
+      "answerNote": "have to侧重当前情形带来的必要，不等同于主动想做。"
+    },
+    "teacherTip": {
+      "text": "这不是说“我想留下”，而是在说明工作要求让自己没法按原计划离开。用 I'll have to 把这种接下来不得不做的事说出来；表达安排时，先分清是自己的打算，还是处境带来的必要。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

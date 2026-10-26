@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-135",
+    "sentenceId": "nce-1-lesson-135-scan-r6-017",
+    "sentenceOrder": 17,
+    "english": "She said her future husband would not let her make another film.",
+    "chinese": "她说她未来的丈夫不会让她再拍一部电影。",
+    "intent": "转述未来丈夫不准她继续拍片的说法",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "She said",
+        "relation": "转述来源",
+        "meaning": "她说"
+      },
+      {
+        "text": "her future husband",
+        "relation": "转述中的决定者",
+        "meaning": "她未来的丈夫"
+      },
+      {
+        "text": "would not let her",
+        "relation": "不会准许她",
+        "meaning": "不会让她"
+      },
+      {
+        "text": "make another film.",
+        "relation": "被阻止的行动",
+        "meaning": "再拍一部电影"
+      }
+    ],
+    "notes": [
+      {
+        "title": "时态与人称",
+        "text": "would not 对应原话 won't，her 对应原话 me。"
+      },
+      {
+        "title": "不带 to 的补足语",
+        "text": "let her make 中 make 保持原形，否定作用于 let。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "时态与人称",
+        "text": "would not 对应原话 won't，her 对应原话 me。"
+      },
+      {
+        "title": "不带 to 的补足语",
+        "text": "let her make 中 make 保持原形，否定作用于 let。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "She",
+        "role": "主语",
+        "explanation": "原话说话人"
+      },
+      {
+        "text": "said",
+        "role": "谓语",
+        "explanation": "报告所说内容"
+      },
+      {
+        "text": "her future husband would not let her make another film.",
+        "role": "宾语从句",
+        "explanation": "转述未来丈夫不会准许拍片"
+      },
+      {
+        "text": "her future husband",
+        "role": "从句主语",
+        "explanation": "未来丈夫"
+      },
+      {
+        "text": "would not let",
+        "role": "从句谓语",
+        "explanation": "从过去看将来不会允许"
+      },
+      {
+        "text": "her",
+        "role": "从句宾语",
+        "explanation": "被限制行动的马什小姐"
+      },
+      {
+        "text": "make another film.",
+        "role": "宾语补足语",
+        "explanation": "说明不被允许做的事"
+      }
+    ],
+    "words": [
+      {
+        "text": "She",
+        "meaning": "她",
+        "pos": "代词",
+        "phonetic": "/ʃiː/"
+      },
+      {
+        "text": "said",
+        "meaning": "说",
+        "pos": "动词",
+        "phonetic": "/sed/"
+      },
+      {
+        "text": "her",
+        "meaning": "她的",
+        "pos": "物主限定词",
+        "phonetic": "/hɜː(r)/"
+      },
+      {
+        "text": "future",
+        "meaning": "未来的",
+        "pos": "形容词",
+        "phonetic": "/ˈfjuːtʃə/"
+      },
+      {
+        "text": "husband",
+        "meaning": "丈夫",
+        "pos": "名词",
+        "phonetic": "/ˈhʌzbənd/"
+      },
+      {
+        "text": "would",
+        "meaning": "将会（过去视角）",
+        "pos": "情态动词",
+        "phonetic": "/wʊd/"
+      },
+      {
+        "text": "not",
+        "meaning": "不",
+        "pos": "否定副词",
+        "phonetic": "/nɒt/"
+      },
+      {
+        "text": "let",
+        "meaning": "让；允许",
+        "pos": "动词",
+        "phonetic": "/let/"
+      },
+      {
+        "text": "her",
+        "meaning": "她",
+        "pos": "代词",
+        "phonetic": "/hɜː(r)/"
+      },
+      {
+        "text": "make",
+        "meaning": "拍摄；制作（电影）",
+        "pos": "动词",
+        "phonetic": "/meɪk/"
+      },
+      {
+        "text": "another",
+        "meaning": "再一；另一",
+        "pos": "限定词",
+        "phonetic": "/əˈnʌðə/"
+      },
+      {
+        "text": "film.",
+        "meaning": "电影",
+        "pos": "名词",
+        "phonetic": "/fɪlm/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说她作了陈述，再完整转述未来丈夫不准她拍片的态度。",
+      "letterShape": "S__ s___ h__ f_____ h______ w____ n__ l__ h__ m___ a______ f___.",
+      "answerNote": "said 后的主语是 her future husband，would not let 后接 her make。"
+    },
+    "teacherTip": {
+      "text": "这仍是她对未来丈夫态度的说法，记者只是转述，并非亲自替丈夫作保证。would not let 保留原话 won't let 的拒绝准许之意；后面的 her 则是原话中的 me。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

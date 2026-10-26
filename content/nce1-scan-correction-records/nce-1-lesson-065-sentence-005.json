@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-65",
+    "sentenceId": "nce-1-lesson-065-sentence-005",
+    "sentenceOrder": 6,
+    "english": "Can I have the key to the front door, please?",
+    "chinese": "请把前门钥匙给我好吗？",
+    "intent": "礼貌地请求对方把前门的钥匙给自己",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Can I have",
+        "relation": "礼貌请求的主干",
+        "meaning": "我能要/拿到"
+      },
+      {
+        "text": "the key to the front door,",
+        "relation": "请求的具体物品",
+        "meaning": "前门的钥匙"
+      },
+      {
+        "text": "please?",
+        "relation": "礼貌语气词",
+        "meaning": "好吗？/请"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Can I have... 表请求",
+        "text": "口语中向别人要东西常用 Can I have...，语气比直接说 Give me... 更委婉客气。"
+      },
+      {
+        "title": "the key to...",
+        "text": "表示“……的钥匙”时，介词用 to 而不用 of，to 表示对应关系。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "Can I have... 表请求",
+        "text": "口语中向别人要东西常用 Can I have...，语气比直接说 Give me... 更委婉客气。"
+      },
+      {
+        "title": "the key to...",
+        "text": "表示“……的钥匙”时，介词用 to 而不用 of，to 表示对应关系。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Can I have the key to the front door, please?",
+        "role": "一般疑问句（表请求）",
+        "explanation": "以情态动词 Can 开头，I 是主语，have 是谓语动词，the key to the front door 是宾语，please 用于加强礼貌语气。"
+      },
+      {
+        "text": "the key to the front door,",
+        "role": "名词短语作宾语",
+        "explanation": "中心词是 the key，to the front door 是后置修饰语，说明钥匙对应的门。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Can",
+        "meaning": "能，可以",
+        "pos": "情态动词",
+        "phonetic": "/kæn/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "have",
+        "meaning": "有，得到",
+        "pos": "动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "the",
+        "meaning": "这个（定冠词，表特指）",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "key",
+        "meaning": "钥匙",
+        "pos": "名词",
+        "phonetic": "/kiː/"
+      },
+      {
+        "text": "to",
+        "meaning": "（表对应）属于，通向",
+        "pos": "介词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "the",
+        "meaning": "这个（定冠词，表特指）",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "front",
+        "meaning": "前面的",
+        "pos": "形容词",
+        "phonetic": "/frʌnt/"
+      },
+      {
+        "text": "door,",
+        "meaning": "门（后接逗号）",
+        "pos": "名词",
+        "phonetic": "/dɔː/"
+      },
+      {
+        "text": "please?",
+        "meaning": "请？/好吗？",
+        "pos": "感叹词（礼貌用语）",
+        "phonetic": "/pliːz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说“我能要……吗”，再说具体东西，最后加 please 表示客气。",
+      "letterShape": "C__ I h___ t__ k__ t_ t__ f____ d___, p_____?",
+      "answerNote": "用 Can I have... 委婉请求，“前门的钥匙”用 the key to the front door。"
+    },
+    "teacherTip": {
+      "text": "口语里委婉索要东西，常用 Can I have... 开头，比直接说 Give me... 自然客气。表示“……的钥匙”介词要用 to 而不是 of，the key to the front door 就是“前门的钥匙”；类似的对应关系还有 the answer to the question。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已复核：句子与原文一致，关键表达与介词用法说明准确，字段完整。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已复核：句子与原文一致，关键表达与介词用法说明准确，字段完整。"
+  }
+}

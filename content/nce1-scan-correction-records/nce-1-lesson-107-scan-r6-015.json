@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-107",
+    "sentenceId": "nce-1-lesson-107-scan-r6-015",
+    "sentenceOrder": 15,
+    "english": "Could you show me another blue dress?",
+    "chinese": "能再拿一件蓝色连衣裙给我看看吗？",
+    "intent": "请店员展示另一件蓝裙子",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Could you",
+        "relation": "委婉请求",
+        "meaning": "您能否"
+      },
+      {
+        "text": "show me",
+        "relation": "展示给我",
+        "meaning": "给我看看"
+      },
+      {
+        "text": "another blue dress?",
+        "relation": "所要商品",
+        "meaning": "另一件蓝色连衣裙"
+      }
+    ],
+    "notes": [
+      {
+        "title": "双宾语",
+        "text": "show me another blue dress 中 me 是接受者，another blue dress 是展示的东西。"
+      },
+      {
+        "title": "另一个",
+        "text": "another 后接单数可数名词，表示同类中的另一件。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "双宾语",
+        "text": "show me another blue dress 中 me 是接受者，another blue dress 是展示的东西。"
+      },
+      {
+        "title": "另一个",
+        "text": "another 后接单数可数名词，表示同类中的另一件。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Could",
+        "role": "情态助动词",
+        "explanation": "提前构成委婉请求。"
+      },
+      {
+        "text": "you",
+        "role": "主语",
+        "explanation": "受请求的店员。"
+      },
+      {
+        "text": "show",
+        "role": "谓语核心",
+        "explanation": "表示展示。"
+      },
+      {
+        "text": "me",
+        "role": "间接宾语",
+        "explanation": "观看者。"
+      },
+      {
+        "text": "another blue dress?",
+        "role": "直接宾语",
+        "explanation": "希望看到的商品。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Could",
+        "meaning": "能否（委婉请求）",
+        "pos": "情态动词",
+        "phonetic": "/kʊd/"
+      },
+      {
+        "text": "you",
+        "meaning": "您",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "show",
+        "meaning": "给……看；展示",
+        "pos": "动词",
+        "phonetic": "/ʃəʊ/"
+      },
+      {
+        "text": "me",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/miː/"
+      },
+      {
+        "text": "another",
+        "meaning": "另一件",
+        "pos": "限定词",
+        "phonetic": "/əˈnʌðə/"
+      },
+      {
+        "text": "blue",
+        "meaning": "蓝色的",
+        "pos": "形容词",
+        "phonetic": "/bluː/"
+      },
+      {
+        "text": "dress?",
+        "meaning": "连衣裙",
+        "pos": "名词",
+        "phonetic": "/dres/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "礼貌地请店员给自己看另一件同色裙子。",
+      "letterShape": "C____ y__ s___ m_ a______ b___ d____?",
+      "answerNote": "展示后先接看的人，再接另一件蓝裙子。"
+    },
+    "teacherTip": {
+      "text": "已经看过一件蓝裙子，another 表示再换一件，而不是把原来那件再看一次。Could you 在这里提出委婉请求，并不表示问店员过去有没有能力拿裙子。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

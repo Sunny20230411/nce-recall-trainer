@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-45",
+    "sentenceId": "nce-1-lesson-045-sentence-013",
+    "sentenceOrder": 14,
+    "english": "Yes?",
+    "chinese": "什么事？",
+    "intent": "回应别人的呼唤，询问对方有什么事",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Yes?",
+        "relation": "应答并询问事由",
+        "meaning": "什么事？"
+      }
+    ],
+    "notes": [
+      {
+        "title": "升调的 Yes?",
+        "text": "Yes? 读升调时用于应答呼唤，表示自己听到了，同时请对方说明来意，相当于“什么事？”。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "升调的 Yes?",
+        "text": "Yes? 读升调时用于应答呼唤，表示自己听到了，同时请对方说明来意，相当于“什么事？”。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Yes?",
+        "role": "应答短句",
+        "explanation": "Yes? 是省略形式的应答句，靠升调传递询问的语气"
+      }
+    ],
+    "words": [
+      {
+        "text": "Yes?",
+        "meaning": "什么事（应答呼唤时的询问）",
+        "pos": "感叹词",
+        "phonetic": "/jes/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "别人喊你名字时，用升调的 yes 来问有什么事",
+      "letterShape": "Y__?",
+      "answerNote": "这是应答呼唤的常用短问句"
+    },
+    "teacherTip": {
+      "text": "被叫到名字时用升调说 Yes? 是英语里很自然的应答，意思是“怎么了/什么事”，不是单纯表示肯定的“是的”。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "字段完整，准确说明升调Yes?的交际功能，教师提点贴合学习者易误解的点"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。字段完整，准确说明升调Yes?的交际功能，教师提点贴合学习者易误解的点"
+  }
+}

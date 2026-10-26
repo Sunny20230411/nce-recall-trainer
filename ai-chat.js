@@ -203,7 +203,7 @@
       errors: JSON.stringify(state.current.wrongIndexes || []), answerVisible: state.current.correct || state.current.viewedAnswer,
       analysis: JSON.stringify(sentence.analysis || sentenceAnalysisCatalog[normalizeForAccepted(sentence.english)] || (window.NCE1_SENTENCE_ANALYSIS || {})[normalizeForAccepted(sentence.english)] || {}).slice(0, 4000) };
     if (state.vocabulary) Object.assign(context, { kind: 'vocabulary', draft: state.vocabulary.value,
-      wordPos: state.vocabulary.pos, sourceSentence: state.vocabulary.english, analysis: '', wordStatus: state.vocabulary.status });
+      wordPos: state.vocabulary.pos, sourceSentence: `${state.vocabulary.sourceStatus === 'previous-edition' ? '（旧版收藏例句，可能不属于修正后的本课）' : ''}${state.vocabulary.english}`, analysis: '', wordStatus: state.vocabulary.status });
     controller = new AbortController(); send.disabled = true; newChat.disabled = true; status.textContent = '';
     suggestions.hidden = true;
     messages.querySelectorAll('.tutor-followups').forEach(node => node.remove());

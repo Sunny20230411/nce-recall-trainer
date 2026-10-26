@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-015",
+    "sentenceOrder": 15,
+    "english": "This room's very untidy.",
+    "chinese": "这间屋子非常不整洁。",
+    "intent": "向客人说明屋子当前的状态，为凌乱的环境致歉做补充解释。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "This room's",
+        "relation": "描述对象",
+        "meaning": "这间屋子"
+      },
+      {
+        "text": "very untidy.",
+        "relation": "特征描述",
+        "meaning": "非常不整洁"
+      }
+    ],
+    "notes": [
+      {
+        "title": "room's 的缩略含义",
+        "text": "room's 在此处是 room is 的缩略，不是名词所有格，用来引出对房间状态的描述。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "room's 的缩略含义",
+        "text": "room's 在此处是 room is 的缩略，不是名词所有格，用来引出对房间状态的描述。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "This room's very untidy.",
+        "role": "主系表结构",
+        "explanation": "This room 是主语，'s 是系动词 is 的缩略，very untidy 作表语说明屋子的状态。"
+      }
+    ],
+    "words": [
+      {
+        "text": "This",
+        "meaning": "这",
+        "pos": "限定词",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "text": "room's",
+        "meaning": "房间是（room is 的缩略形式）",
+        "pos": "名词+系动词缩略",
+        "phonetic": "/ruːmz/"
+      },
+      {
+        "text": "very",
+        "meaning": "非常，很",
+        "pos": "副词",
+        "phonetic": "/ˈveri/"
+      },
+      {
+        "text": "untidy.",
+        "meaning": "不整洁的，凌乱的",
+        "pos": "形容词",
+        "phonetic": "/ʌnˈtaɪdi/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先点明房间，再说它的状态是不整洁。",
+      "letterShape": "T___ r___'_ v___ u_____.",
+      "answerNote": "主系表结构，用缩略的 is 连接主语和状态描述。"
+    },
+    "teacherTip": {
+      "text": "前一句先致歉“Excuse the mess”，再用This room's very untidy补一句具体状态，是自然的客套节奏。日常说房间“没收拾”，用untidy比messy语气更轻，更贴合居家凌乱的情境。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "修正了notes表述和结构拆解的主语说明；teacherTip补充了用词语气差异，符合原文语境。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。修正了notes表述和结构拆解的主语说明；teacherTip补充了用词语气差异，符合原文语境。"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-115",
+    "sentenceId": "nce-1-lesson-115-scan-r6-005",
+    "sentenceOrder": 5,
+    "english": "But that's impossible.",
+    "chinese": "可那不可能啊。",
+    "intent": "反驳家中无人的判断",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "But",
+        "relation": "转折反驳",
+        "meaning": "可是"
+      },
+      {
+        "text": "that's impossible.",
+        "relation": "否定前述可能性",
+        "meaning": "那是不可能的"
+      }
+    ],
+    "notes": [
+      {
+        "title": "回指内容",
+        "text": "that's 是 that is，that 指上一句家里没有人的判断。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "回指内容",
+        "text": "that's 是 that is，that 指上一句家里没有人的判断。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "But",
+        "role": "连接成分",
+        "explanation": "转折并反驳前述判断"
+      },
+      {
+        "text": "that's",
+        "role": "主语与系动词",
+        "explanation": "that 指前述情况，is 连接评价"
+      },
+      {
+        "text": "impossible.",
+        "role": "表语",
+        "explanation": "评价该情况不可能"
+      }
+    ],
+    "words": [
+      {
+        "text": "But",
+        "meaning": "可是",
+        "pos": "连词",
+        "phonetic": "/bʌt/"
+      },
+      {
+        "text": "that's",
+        "meaning": "那（含 is）",
+        "pos": "指示代词与系动词缩写",
+        "phonetic": "/ðæts/"
+      },
+      {
+        "text": "impossible.",
+        "meaning": "不可能的",
+        "pos": "形容词",
+        "phonetic": "/ɪmˈpɒsəbl/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先转折，再用指示代词评价刚才的判断不可能。",
+      "letterShape": "B__ t___'_ i_________.",
+      "answerNote": "that 回指前面整件事，后接不可能这一评价。"
+    },
+    "teacherTip": {
+      "text": "that 回指的不是某个物体，而是刚才“家里没人”这个说法。聊天时要评价对方整句话是真是假、是否可能，可以直接用 that 接住，不必把原话重说一遍。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

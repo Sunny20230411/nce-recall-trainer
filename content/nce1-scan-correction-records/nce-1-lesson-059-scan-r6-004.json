@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-59",
+    "sentenceId": "nce-1-lesson-059-scan-r6-004",
+    "sentenceOrder": 4,
+    "english": "Do you have any writing paper?",
+    "chinese": "你们有信纸吗？",
+    "intent": "向店员询问店内是否有售信纸，属于购物时的商品存在性提问。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Do you have",
+        "relation": "问句主干",
+        "meaning": "你们有"
+      },
+      {
+        "text": "any writing paper?",
+        "relation": "询问的物品对象",
+        "meaning": "一些信纸"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Do you have...? 句型",
+        "text": "用来询问对方是否拥有或售卖某物，是一般现在时的一般疑问句，have 为实义动词，需借助助动词 do 构成疑问。"
+      },
+      {
+        "title": "any 在疑问句中的用法",
+        "text": "any 常用于疑问句和否定句中，表示“一些；任何”，后面可接可数或不可数名词。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "Do you have...? 句型",
+        "text": "用来询问对方是否拥有或售卖某物，是一般现在时的一般疑问句，have 为实义动词，需借助助动词 do 构成疑问。"
+      },
+      {
+        "title": "any 在疑问句中的用法",
+        "text": "any 常用于疑问句和否定句中，表示“一些；任何”，后面可接可数或不可数名词。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Do you have any writing paper?",
+        "role": "一般疑问句",
+        "explanation": "由助动词 Do 开头，主语为 you，谓语动词为 have，any writing paper 作宾语。"
+      },
+      {
+        "text": "any writing paper?",
+        "role": "宾语",
+        "explanation": "any 是限定词修饰不可数名词短语 writing paper，整体作 have 的宾语。"
+      },
+      {
+        "text": "writing paper?",
+        "role": "名词短语",
+        "explanation": "writing 是动名词作定语修饰 paper，writing paper 表示“信纸、书写用纸”。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Do",
+        "meaning": "助动词，无实义，引导一般现在时的疑问句",
+        "pos": "助动词",
+        "phonetic": "/duː/"
+      },
+      {
+        "text": "you",
+        "meaning": "你；你们",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "have",
+        "meaning": "有；售卖",
+        "pos": "动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "any",
+        "meaning": "一些；任何（用于疑问句）",
+        "pos": "限定词",
+        "phonetic": "/ˈeni/"
+      },
+      {
+        "text": "writing",
+        "meaning": "书写用的（作定语）",
+        "pos": "动名词",
+        "phonetic": "/ˈraɪtɪŋ/"
+      },
+      {
+        "text": "paper?",
+        "meaning": "纸（句末带问号）",
+        "pos": "名词",
+        "phonetic": "/ˈpeɪpə/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "问对方有没有某物，用 Do you have any... 开头，后面接要问的东西。",
+      "letterShape": "D_ y__ h___ a__ w______ p____?",
+      "answerNote": "询问对方是否有信纸，是购物时的常用问句。"
+    },
+    "teacherTip": {
+      "text": "中文说“你们有…吗”，初学者容易错说成 Are you have...；have 表“拥有、有售”是实义动词，疑问句要借助助动词 do。另外疑问句里表示“一些”常用 any 不用 some。下次问对方有没有某物，先搭 Do you have... 再加 any 加名词。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已修复 parts 连续性问题，0–2 与 3–5 连续覆盖全部 6 个 token，边界正确无重叠。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已修复 parts 连续性问题，0–2 与 3–5 连续覆盖全部 6 个 token，边界正确无重叠。"
+  }
+}

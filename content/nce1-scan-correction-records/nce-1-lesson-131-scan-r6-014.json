@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-131",
+    "sentenceId": "nce-1-lesson-131-scan-r6-014",
+    "sentenceOrder": 14,
+    "english": "My wife always worries too much.",
+    "chinese": "我妻子总是担心得太多。",
+    "intent": "抱怨妻子对度假牵挂过多",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "My wife",
+        "relation": "被评价的人",
+        "meaning": "我妻子"
+      },
+      {
+        "text": "always worries",
+        "relation": "经常出现的行为",
+        "meaning": "总是担心"
+      },
+      {
+        "text": "too much.",
+        "relation": "过量的程度",
+        "meaning": "太多"
+      }
+    ],
+    "notes": [
+      {
+        "title": "频率与程度",
+        "text": "always 说频率，too much 说担心的程度；much 在此不修饰名词。"
+      },
+      {
+        "title": "一般现在时",
+        "text": "worries 描述一贯习惯，主语为第三人称单数。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "频率与程度",
+        "text": "always 说频率，too much 说担心的程度；much 在此不修饰名词。"
+      },
+      {
+        "title": "一般现在时",
+        "text": "worries 描述一贯习惯，主语为第三人称单数。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "My wife",
+        "role": "主语",
+        "explanation": "指说话人的妻子"
+      },
+      {
+        "text": "always",
+        "role": "状语",
+        "explanation": "说明频率"
+      },
+      {
+        "text": "worries",
+        "role": "谓语",
+        "explanation": "描述经常担心"
+      },
+      {
+        "text": "too much.",
+        "role": "状语",
+        "explanation": "说明担心得过多"
+      }
+    ],
+    "words": [
+      {
+        "text": "My",
+        "meaning": "我的",
+        "pos": "物主限定词",
+        "phonetic": "/maɪ/"
+      },
+      {
+        "text": "wife",
+        "meaning": "妻子",
+        "pos": "名词",
+        "phonetic": "/waɪf/"
+      },
+      {
+        "text": "always",
+        "meaning": "总是",
+        "pos": "副词",
+        "phonetic": "/ˈɔːlweɪz/"
+      },
+      {
+        "text": "worries",
+        "meaning": "担心；忧虑",
+        "pos": "动词",
+        "phonetic": "/ˈwʌriz/"
+      },
+      {
+        "text": "too",
+        "meaning": "过于；太",
+        "pos": "副词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "much.",
+        "meaning": "多（修饰担心的程度）",
+        "pos": "副词",
+        "phonetic": "/mʌtʃ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说妻子总是担心，再补上超过必要程度的评价。",
+      "letterShape": "M_ w___ a_____ w______ t__ m___.",
+      "answerNote": "always 表频率，too much 表担心得过多。"
+    },
+    "teacherTip": {
+      "text": "too much 不只是“很担心”，还带着说话人认为超过必要程度的评价。后面妻子接连担心狗、房子和花园，正好说明他为什么说她“担心得太多”。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

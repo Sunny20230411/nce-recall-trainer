@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-97",
+    "sentenceId": "nce-1-lesson-097-scan-r6-004",
+    "sentenceOrder": 4,
+    "english": "There's a label on the handle with my name and address on it.",
+    "chinese": "把手上有个标签，上面写着我的姓名和地址。",
+    "intent": "描述箱子的特征，补充标签上的具体内容，帮助对方识别物品。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "There's a label on the handle",
+        "relation": "存在主体与位置",
+        "meaning": "把手上有个标签"
+      },
+      {
+        "text": "with my name and address on it.",
+        "relation": "补充标签附带的内容",
+        "meaning": "上面写着我的姓名和地址"
+      }
+    ],
+    "notes": [
+      {
+        "title": "there be 结构",
+        "text": "用来引出某处存在某物，这里先交代标签位于把手上。"
+      },
+      {
+        "title": "with 引导的后置修饰",
+        "text": "with my name and address on it 修饰 label，补充标签上的信息；it 指代前面的 label，避免重复。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "there be 结构",
+        "text": "用来引出某处存在某物，这里先交代标签位于把手上。"
+      },
+      {
+        "title": "with 引导的后置修饰",
+        "text": "with my name and address on it 修饰 label，补充标签上的信息；it 指代前面的 label，避免重复。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "There's a label on the handle",
+        "role": "存在句主干",
+        "explanation": "由 There's + 主语 a label + 地点状语 on the handle 构成，说明某处存在某物。"
+      },
+      {
+        "text": "with my name and address on it.",
+        "role": "后置定语",
+        "explanation": "with 复合结构修饰 label，补充标签上的具体内容；on it 中的 it 指代 label，避免重复。"
+      }
+    ],
+    "words": [
+      {
+        "text": "There's",
+        "meaning": "有（there is 的缩写，表存在）",
+        "pos": "存在句引导词+be动词缩写",
+        "phonetic": "/ðeəz/"
+      },
+      {
+        "text": "a",
+        "meaning": "一个",
+        "pos": "冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "label",
+        "meaning": "标签",
+        "pos": "名词",
+        "phonetic": "/ˈleɪbl/"
+      },
+      {
+        "text": "on",
+        "meaning": "在……上面",
+        "pos": "介词",
+        "phonetic": "/ɒn/"
+      },
+      {
+        "text": "the",
+        "meaning": "这个（指特定的把手）",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "handle",
+        "meaning": "把手",
+        "pos": "名词",
+        "phonetic": "/ˈhændl/"
+      },
+      {
+        "text": "with",
+        "meaning": "带有，附有",
+        "pos": "介词",
+        "phonetic": "/wɪð/"
+      },
+      {
+        "text": "my",
+        "meaning": "我的",
+        "pos": "形容词性物主代词",
+        "phonetic": "/maɪ/"
+      },
+      {
+        "text": "name",
+        "meaning": "姓名",
+        "pos": "名词",
+        "phonetic": "/neɪm/"
+      },
+      {
+        "text": "and",
+        "meaning": "和",
+        "pos": "连词",
+        "phonetic": "/ænd/"
+      },
+      {
+        "text": "address",
+        "meaning": "地址",
+        "pos": "名词",
+        "phonetic": "/əˈdres/"
+      },
+      {
+        "text": "on",
+        "meaning": "在……上面",
+        "pos": "介词",
+        "phonetic": "/ɒn/"
+      },
+      {
+        "text": "it.",
+        "meaning": "它（指代标签）。",
+        "pos": "代词+句号",
+        "phonetic": "/ɪt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先讲某处有某物，再用with接它带的细节，末尾用on it回指前面的物品。",
+      "letterShape": "T____'_ a l____ o_ t__ h_____ w___ m_ n___ a__ a______ o_ i_.",
+      "answerNote": "先用there is引出标签和位置，再用with短语补充标签上的姓名地址，it指代标签。"
+    },
+    "teacherTip": {
+      "text": "描述物品附属细节时，不用分成两句“把手上有标签，标签上有名字”。先用there's交代标签的位置，再用with...on it把标签附带的信息接在后面，顺着“位置→内容”说下来，句子更紧凑。以后说某物上面带什么信息，都可以用这个with结构补细节。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "句子与原文一致，with结构的信息组织点拨准确，贴合描述物品特征的场景。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。句子与原文一致，with结构的信息组织点拨准确，贴合描述物品特征的场景。"
+  }
+}

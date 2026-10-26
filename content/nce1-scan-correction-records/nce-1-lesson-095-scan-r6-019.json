@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-95",
+    "sentenceId": "nce-1-lesson-095-scan-r6-019",
+    "sentenceOrder": 19,
+    "english": "I'm sorry, sir.",
+    "chinese": "对不起，先生。",
+    "intent": "客气地告知坏消息或纠正对方，先表达歉意缓和语气。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I'm sorry,",
+        "relation": "致歉用语",
+        "meaning": "对不起"
+      },
+      {
+        "text": "sir.",
+        "relation": "称呼",
+        "meaning": "先生"
+      }
+    ],
+    "notes": [
+      {
+        "title": "I'm sorry 的交际功能",
+        "text": "在服务场合中，I'm sorry 常用来铺垫不好的消息或拒绝，带有礼貌委婉的语气，不一定表示自己有错。"
+      },
+      {
+        "title": "称呼sir",
+        "text": "sir 是对男士的礼貌称呼，常用于服务场合，不附带姓氏。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "I'm sorry 的交际功能",
+        "text": "在服务场合中，I'm sorry 常用来铺垫不好的消息或拒绝，带有礼貌委婉的语气，不一定表示自己有错。"
+      },
+      {
+        "title": "称呼sir",
+        "text": "sir 是对男士的礼貌称呼，常用于服务场合，不附带姓氏。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I'm sorry,",
+        "role": "主句",
+        "explanation": "主系表结构，表达歉意。"
+      },
+      {
+        "text": "sir.",
+        "role": "呼语",
+        "explanation": "独立于句子主干的礼貌称呼，面向听话人。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I'm",
+        "meaning": "我是",
+        "pos": "代词+be动词缩写",
+        "phonetic": "/aɪm/"
+      },
+      {
+        "text": "sorry,",
+        "meaning": "抱歉的，对不起的",
+        "pos": "形容词",
+        "phonetic": "/ˈsɒri/"
+      },
+      {
+        "text": "sir.",
+        "meaning": "先生",
+        "pos": "名词（称呼）",
+        "phonetic": "/sɜː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "服务场合说不好的消息前，先道歉再加称呼，显得礼貌。",
+      "letterShape": "I'_ s____, s__.",
+      "answerNote": "这是委婉告知坏消息的客套开头，不是承认自己犯错。"
+    },
+    "teacherTip": {
+      "text": "I'm sorry, sir. 在这里不是为自己犯错道歉，而是服务场合里委婉拒绝、告知不好消息的客套开头，先表示礼貌再说明原因。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "内容符合原文与语境，知识点准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。内容符合原文与语境，知识点准确。"
+  }
+}

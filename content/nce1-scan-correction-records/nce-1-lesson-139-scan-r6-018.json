@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-139",
+    "sentenceId": "nce-1-lesson-139-scan-r6-018",
+    "sentenceOrder": 18,
+    "english": "I'm John Smith the telephone engineer and I'm repairing your telephone line.",
+    "chinese": "我是电话工程师约翰·史密斯，正在修理你的电话线路。",
+    "intent": "澄清自己的真正职业及正在进行的维修工作。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I'm John Smith the telephone engineer",
+        "relation": "澄清姓名和具体职业",
+        "meaning": "我是电话工程师约翰·史密斯"
+      },
+      {
+        "text": "and I'm repairing your telephone line.",
+        "relation": "解释正在做的事",
+        "meaning": "并且正在修理你的电话线路"
+      }
+    ],
+    "notes": [
+      {
+        "title": "身份与动作的并列",
+        "text": "第一个I'm是I am，用姓名和职业说明身份；第二个I'm中的am与repairing构成现在进行时。and连接两个分句。"
+      },
+      {
+        "title": "职业补充姓名",
+        "text": "the telephone engineer补充说明John Smith的具体职业；your telephone line是repairing的宾语。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "身份与动作的并列",
+        "text": "第一个I'm是I am，用姓名和职业说明身份；第二个I'm中的am与repairing构成现在进行时。and连接两个分句。"
+      },
+      {
+        "title": "职业补充姓名",
+        "text": "the telephone engineer补充说明John Smith的具体职业；your telephone line是repairing的宾语。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I'm John Smith the telephone engineer",
+        "role": "并列分句之一",
+        "explanation": "说明姓名与职业身份。"
+      },
+      {
+        "text": "the telephone engineer",
+        "role": "同位语",
+        "explanation": "补充姓名所指的具体人物身份。"
+      },
+      {
+        "text": "I'm repairing your telephone line.",
+        "role": "并列分句之二",
+        "explanation": "说明当前的维修动作。"
+      },
+      {
+        "text": "your telephone line.",
+        "role": "宾语",
+        "explanation": "指出正在修理的对象。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I'm",
+        "meaning": "我是",
+        "pos": "代词与动词缩写",
+        "phonetic": "/aɪm/"
+      },
+      {
+        "text": "John",
+        "meaning": "约翰（人名）",
+        "pos": "名词",
+        "phonetic": "/dʒɒn/"
+      },
+      {
+        "text": "Smith",
+        "meaning": "史密斯（姓氏）",
+        "pos": "名词",
+        "phonetic": "/smɪθ/"
+      },
+      {
+        "text": "the",
+        "meaning": "那位（引出职业身份）",
+        "pos": "冠词",
+        "phonetic": "/ðə/ 或 /ðiː/"
+      },
+      {
+        "text": "telephone",
+        "meaning": "电话（修饰职业）",
+        "pos": "名词",
+        "phonetic": "/ˈtelɪfəʊn/"
+      },
+      {
+        "text": "engineer",
+        "meaning": "工程师",
+        "pos": "名词",
+        "phonetic": "/ˌendʒɪˈnɪə(r)/"
+      },
+      {
+        "text": "and",
+        "meaning": "并且",
+        "pos": "连词",
+        "phonetic": "/ænd/"
+      },
+      {
+        "text": "I'm",
+        "meaning": "我（与进行时助动词am缩写）",
+        "pos": "代词与助动词缩写",
+        "phonetic": "/aɪm/"
+      },
+      {
+        "text": "repairing",
+        "meaning": "正在修理",
+        "pos": "动词现在分词",
+        "phonetic": "/rɪˈpeərɪŋ/"
+      },
+      {
+        "text": "your",
+        "meaning": "你的",
+        "pos": "限定词",
+        "phonetic": "/jɔː(r)/"
+      },
+      {
+        "text": "telephone",
+        "meaning": "电话（修饰线路）",
+        "pos": "名词",
+        "phonetic": "/ˈtelɪfəʊn/"
+      },
+      {
+        "text": "line.",
+        "meaning": "线路",
+        "pos": "名词",
+        "phonetic": "/laɪn/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先澄清真正的姓名和职业，再说明正在修理电话线路。",
+      "letterShape": "I'_ J___ S____ t__ t________ e_______ a__ I'_ r________ y___ t________ l___.",
+      "answerNote": "两个I'm作用不同：一处连接身份，一处帮助构成进行中的动作。"
+    },
+    "teacherTip": {
+      "text": "误会终于要解开了：先说“我是哪个约翰·史密斯”，再说明自己此刻在做什么。I'm John Smith…交代身份，I'm repairing…交代眼前的动作；别把中文里同一个“是、在”的感觉都固定配给一种英文结构。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-117",
+    "sentenceId": "nce-1-lesson-117-sentence-001",
+    "sentenceOrder": 8,
+    "english": "Later that morning, when I was doing the housework, my husband phoned me from the office.",
+    "chinese": "那天上午晚些时候，我正在做家务，丈夫从办公室打电话给我。",
+    "intent": "把故事推进到稍后的电话",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Later that morning,",
+        "relation": "时间推进",
+        "meaning": "那天上午晚些时候"
+      },
+      {
+        "text": "when I was doing the housework,",
+        "relation": "正在做的事",
+        "meaning": "我正在做家务时"
+      },
+      {
+        "text": "my husband phoned me",
+        "relation": "新事件",
+        "meaning": "丈夫打电话给我"
+      },
+      {
+        "text": "from the office.",
+        "relation": "来电地点",
+        "meaning": "从办公室"
+      }
+    ],
+    "notes": [
+      {
+        "title": "时间参照",
+        "text": "that morning 承接前文的上午；later 表示同一上午更晚的时候。"
+      },
+      {
+        "title": "通话表达",
+        "text": "phone 可直接作动词，后接接电话的人。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "时间参照",
+        "text": "that morning 承接前文的上午；later 表示同一上午更晚的时候。"
+      },
+      {
+        "title": "通话表达",
+        "text": "phone 可直接作动词，后接接电话的人。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Later that morning,",
+        "role": "时间状语",
+        "explanation": "交代新的时间位置"
+      },
+      {
+        "text": "when I was doing the housework,",
+        "role": "时间状语从句",
+        "explanation": "电话发生时正在做的事"
+      },
+      {
+        "text": "I",
+        "role": "从句主语",
+        "explanation": "做家务的人"
+      },
+      {
+        "text": "was doing",
+        "role": "从句谓语",
+        "explanation": "过去进行时"
+      },
+      {
+        "text": "the housework,",
+        "role": "从句宾语",
+        "explanation": "所做的家务"
+      },
+      {
+        "text": "my husband",
+        "role": "主语",
+        "explanation": "来电者"
+      },
+      {
+        "text": "phoned",
+        "role": "谓语",
+        "explanation": "打电话"
+      },
+      {
+        "text": "me",
+        "role": "宾语",
+        "explanation": "接电话的人"
+      },
+      {
+        "text": "from the office.",
+        "role": "地点状语",
+        "explanation": "说明来电出发地点"
+      }
+    ],
+    "words": [
+      {
+        "text": "Later",
+        "meaning": "后来；晚些时候",
+        "pos": "副词",
+        "phonetic": "/ˈleɪtə/"
+      },
+      {
+        "text": "that",
+        "meaning": "那一天的",
+        "pos": "限定词",
+        "phonetic": "/ðæt/"
+      },
+      {
+        "text": "morning,",
+        "meaning": "上午",
+        "pos": "名词",
+        "phonetic": "/ˈmɔːnɪŋ/"
+      },
+      {
+        "text": "when",
+        "meaning": "当……时",
+        "pos": "连词",
+        "phonetic": "/wen/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "was",
+        "meaning": "（构成过去进行时）",
+        "pos": "助动词",
+        "phonetic": "/wəz/"
+      },
+      {
+        "text": "doing",
+        "meaning": "做",
+        "pos": "动词",
+        "phonetic": "/ˈduːɪŋ/"
+      },
+      {
+        "text": "the",
+        "meaning": "（用于家务这一活动）",
+        "pos": "冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "housework,",
+        "meaning": "家务",
+        "pos": "名词",
+        "phonetic": "/ˈhaʊswɜːk/"
+      },
+      {
+        "text": "my",
+        "meaning": "我的",
+        "pos": "限定词",
+        "phonetic": "/maɪ/"
+      },
+      {
+        "text": "husband",
+        "meaning": "丈夫",
+        "pos": "名词",
+        "phonetic": "/ˈhʌzbənd/"
+      },
+      {
+        "text": "phoned",
+        "meaning": "打电话给",
+        "pos": "动词",
+        "phonetic": "/fəʊnd/"
+      },
+      {
+        "text": "me",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/miː/"
+      },
+      {
+        "text": "from",
+        "meaning": "从",
+        "pos": "介词",
+        "phonetic": "/frəm/"
+      },
+      {
+        "text": "the",
+        "meaning": "（特指办公室）",
+        "pos": "冠词",
+        "phonetic": "/ði/"
+      },
+      {
+        "text": "office.",
+        "meaning": "办公室",
+        "pos": "名词",
+        "phonetic": "/ˈɒfɪs/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "同一上午稍晚，家务作背景，电话是新事件。",
+      "letterShape": "L____ t___ m______, w___ I w__ d____ t__ h________, m_ h______ p_____ m_ f___ t__ o_____.",
+      "answerNote": "later that morning 推进时间；phoned 后直接接人。"
+    },
+    "teacherTip": {
+      "text": "Later that morning 把时间往前推，却仍留在同一个上午。接着交代妻子当时在做什么，再引入电话，这样读者能看见新事件是怎样进入日常场景的。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

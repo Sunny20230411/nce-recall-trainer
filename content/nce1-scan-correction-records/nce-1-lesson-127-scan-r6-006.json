@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-127",
+    "sentenceId": "nce-1-lesson-127-scan-r6-006",
+    "sentenceOrder": 6,
+    "english": "That must be Conrad Reeves.",
+    "chinese": "那一定是康拉德·里夫斯。",
+    "intent": "推断旁边男子的身份",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "That",
+        "relation": "指认对象",
+        "meaning": "那个人"
+      },
+      {
+        "text": "must be Conrad Reeves.",
+        "relation": "身份推断",
+        "meaning": "一定是康拉德·里夫斯"
+      }
+    ],
+    "notes": [
+      {
+        "title": "推测语气",
+        "text": "must be 说明说话人认为证据很充分，仍属于推断。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "推测语气",
+        "text": "must be 说明说话人认为证据很充分，仍属于推断。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "That",
+        "role": "主语",
+        "explanation": "指刚问到的男子"
+      },
+      {
+        "text": "must be",
+        "role": "系动词短语",
+        "explanation": "表达肯定推测"
+      },
+      {
+        "text": "Conrad Reeves.",
+        "role": "表语",
+        "explanation": "推断的姓名"
+      }
+    ],
+    "words": [
+      {
+        "text": "That",
+        "meaning": "那个人",
+        "pos": "指示代词",
+        "phonetic": "/ðæt/"
+      },
+      {
+        "text": "must",
+        "meaning": "一定",
+        "pos": "情态动词",
+        "phonetic": "/mʌst/"
+      },
+      {
+        "text": "be",
+        "meaning": "是",
+        "pos": "系动词",
+        "phonetic": "/biː/"
+      },
+      {
+        "text": "Conrad",
+        "meaning": "康拉德",
+        "pos": "专有名词",
+        "phonetic": "/ˈkɒnræd/"
+      },
+      {
+        "text": "Reeves.",
+        "meaning": "里夫斯",
+        "pos": "专有名词",
+        "phonetic": "/riːvz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "接着指那个人，有把握地报出姓名。",
+      "letterShape": "T___ m___ b_ C_____ R_____.",
+      "answerNote": "that 承接所指人物，must be 表示推测。"
+    },
+    "teacherTip": {
+      "text": "that 顺着对方刚指出的人继续说，不必重复‘她旁边的那个男人’。用 must be 表达认人的把握，而不是把尚未核实的判断说成亲自确认过的事实。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

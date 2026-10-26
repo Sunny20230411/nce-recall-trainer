@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-87",
+    "sentenceId": "nce-1-lesson-087-sentence-013-part-02",
+    "sentenceOrder": 18,
+    "english": "But to tell you the truth, you need a new car!",
+    "chinese": "不过说实话，您需要一辆新车！",
+    "intent": "机修人员告知客户车辆难以修复，坦诚给出需要更换新车的建议，to tell you the truth用于铺垫坦率的、可能让对方意外的结论",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "But to tell you the truth,",
+        "relation": "插入语，引出坦率的下文",
+        "meaning": "不过说实话"
+      },
+      {
+        "text": "you need a new car!",
+        "relation": "主句，给出核心建议",
+        "meaning": "您需要一辆新车"
+      }
+    ],
+    "notes": [
+      {
+        "title": "to tell you the truth",
+        "text": "固定插入语，用于引出坦率、可能让人意外的话，常放在句首，也可放在句中。"
+      },
+      {
+        "title": "need表示客观需要",
+        "text": "此处need是实义动词，后接名词，表示“需要某物”，强调客观上的必要。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "to tell you the truth",
+        "text": "固定插入语，用于引出坦率、可能让人意外的话，常放在句首，也可放在句中。"
+      },
+      {
+        "title": "need表示客观需要",
+        "text": "此处need是实义动词，后接名词，表示“需要某物”，强调客观上的必要。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "But to tell you the truth,",
+        "role": "评注性状语（插入语）",
+        "explanation": "独立于主句结构，表达说话人的语气，说明后续内容是坦率的实情。"
+      },
+      {
+        "text": "you need a new car!",
+        "role": "主句",
+        "explanation": "you作主语，need作谓语，a new car作宾语。"
+      }
+    ],
+    "words": [
+      {
+        "text": "But",
+        "meaning": "但是；不过",
+        "pos": "连词",
+        "phonetic": "/bʌt/"
+      },
+      {
+        "text": "to",
+        "meaning": "（不定式符号，无实义）",
+        "pos": "小品词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "tell",
+        "meaning": "告诉",
+        "pos": "动词",
+        "phonetic": "/tel/"
+      },
+      {
+        "text": "you",
+        "meaning": "你；您",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "the",
+        "meaning": "（定冠词，表特指）",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "truth,",
+        "meaning": "真相，事实",
+        "pos": "名词",
+        "phonetic": "/truːθ/"
+      },
+      {
+        "text": "you",
+        "meaning": "你；您",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "need",
+        "meaning": "需要",
+        "pos": "动词",
+        "phonetic": "/niːd/"
+      },
+      {
+        "text": "a",
+        "meaning": "一（辆）",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "new",
+        "meaning": "新的",
+        "pos": "形容词",
+        "phonetic": "/njuː/"
+      },
+      {
+        "text": "car!",
+        "meaning": "汽车",
+        "pos": "名词",
+        "phonetic": "/kɑː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先想“说实话”的铺垫短语，再说出核心建议“需要新车”",
+      "letterShape": "B__ t_ t___ y__ t__ t____, y__ n___ a n__ c__!",
+      "answerNote": "前半句是用来铺垫坦率语气的插入语，后半句是给出的核心建议"
+    },
+    "teacherTip": {
+      "text": "用to tell you the truth开头，是先给对方打个预防针，表明接下来说的是不太中听的实话，而不是直接抛出need a new car的生硬建议。下次要委婉地说出不好的消息时，也可以用这个短语先铺垫。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已补齐所有必填中文字段，教师提点明确讲解to tell you the truth的语用功能和可迁移用法，符合要求"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已补齐所有必填中文字段，教师提点明确讲解to tell you the truth的语用功能和可迁移用法，符合要求"
+  }
+}

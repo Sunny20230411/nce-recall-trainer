@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-135",
+    "sentenceId": "nce-1-lesson-135-scan-r6-020",
+    "sentenceOrder": 20,
+    "english": "It certainly is.",
+    "chinese": "确实是。",
+    "intent": "明确赞同这是一条轰动消息",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "It certainly is.",
+        "relation": "明确表示赞同",
+        "meaning": "确实是这样"
+      }
+    ],
+    "notes": [
+      {
+        "title": "省略应答",
+        "text": "is 后省略 sensational news；certainly 强化肯定。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "省略应答",
+        "text": "is 后省略 sensational news；certainly 强化肯定。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "It",
+        "role": "主语",
+        "explanation": "指刚才谈论的消息"
+      },
+      {
+        "text": "certainly",
+        "role": "状语",
+        "explanation": "强化肯定语气"
+      },
+      {
+        "text": "is.",
+        "role": "系动词",
+        "explanation": "承接省略的表语"
+      }
+    ],
+    "words": [
+      {
+        "text": "It",
+        "meaning": "它；这条消息",
+        "pos": "代词",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "text": "certainly",
+        "meaning": "的确；确实",
+        "pos": "副词",
+        "phonetic": "/ˈsɜːtənli/"
+      },
+      {
+        "text": "is.",
+        "meaning": "是",
+        "pos": "系动词",
+        "phonetic": "/ɪz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "用简短肯定回答，强调自己完全赞同。",
+      "letterShape": "I_ c________ i_.",
+      "answerNote": "certainly 放在 is 前加强肯定，表语省略。"
+    },
+    "teacherTip": {
+      "text": "certainly 把赞同说得很肯定，相当于“那可不是嘛”。这里只保留 is，就能承接前面的 sensational news，不必把评价再重复一遍。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

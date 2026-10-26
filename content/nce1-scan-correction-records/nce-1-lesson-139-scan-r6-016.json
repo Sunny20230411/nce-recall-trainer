@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-139",
+    "sentenceId": "nce-1-lesson-139-scan-r6-016",
+    "sentenceOrder": 16,
+    "english": "You work for the Overseas Engineering Company, don't you?",
+    "chinese": "你在海外工程公司工作，对吧？",
+    "intent": "继续通过就职公司确认对方是否为自己要找的人。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "You work for the Overseas Engineering Company,",
+        "relation": "核对工作单位",
+        "meaning": "你在海外工程公司工作"
+      },
+      {
+        "text": "don't you?",
+        "relation": "邀请对方确认",
+        "meaning": "对吧"
+      }
+    ],
+    "notes": [
+      {
+        "title": "work for a company",
+        "text": "for说明为哪家单位工作，the Overseas Engineering Company是公司名称。"
+      },
+      {
+        "title": "一般现在时的附加疑问",
+        "text": "主句用实义动词work，附加疑问借助don't you，而不是用aren't you。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "work for a company",
+        "text": "for说明为哪家单位工作，the Overseas Engineering Company是公司名称。"
+      },
+      {
+        "title": "一般现在时的附加疑问",
+        "text": "主句用实义动词work，附加疑问借助don't you，而不是用aren't you。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "You",
+        "role": "主语",
+        "explanation": "指接听电话的人。"
+      },
+      {
+        "text": "work",
+        "role": "谓语动词",
+        "explanation": "说明工作。"
+      },
+      {
+        "text": "for the Overseas Engineering Company,",
+        "role": "介词短语",
+        "explanation": "补充雇主单位。"
+      },
+      {
+        "text": "don't you?",
+        "role": "附加疑问",
+        "explanation": "核对关于工作单位的判断。"
+      }
+    ],
+    "words": [
+      {
+        "text": "You",
+        "meaning": "你",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "work",
+        "meaning": "工作",
+        "pos": "动词",
+        "phonetic": "/wɜːk/"
+      },
+      {
+        "text": "for",
+        "meaning": "为（某雇主）",
+        "pos": "介词",
+        "phonetic": "/fɔː(r)/"
+      },
+      {
+        "text": "the",
+        "meaning": "（公司名称的一部分）",
+        "pos": "冠词",
+        "phonetic": "/ðə/ 或 /ðiː/"
+      },
+      {
+        "text": "Overseas",
+        "meaning": "海外（公司名称的一部分）",
+        "pos": "形容词",
+        "phonetic": "/ˌəʊvəˈsiːz/"
+      },
+      {
+        "text": "Engineering",
+        "meaning": "工程（公司名称的一部分）",
+        "pos": "名词",
+        "phonetic": "/ˌendʒɪˈnɪərɪŋ/"
+      },
+      {
+        "text": "Company,",
+        "meaning": "公司",
+        "pos": "名词",
+        "phonetic": "/ˈkʌmpəni/"
+      },
+      {
+        "text": "don't",
+        "meaning": "不是吗（附加确认）",
+        "pos": "助动词缩写",
+        "phonetic": "/dəʊnt/"
+      },
+      {
+        "text": "you?",
+        "meaning": "你",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "继续核对工作单位，最后加请求确认的小问句。",
+      "letterShape": "Y__ w___ f__ t__ O_______ E__________ C______, d__'_ y__?",
+      "answerNote": "work for侧重雇主关系，附加疑问对应实义动词work。"
+    },
+    "teacherTip": {
+      "text": "姓名、职业都对上后，说话人再核对雇主，才发现原先的判断有误。work for 后面接的是为谁工作，不是工作地点；下次介绍工作，先分清要交代雇主、地点还是工作内容，再选相应说法。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

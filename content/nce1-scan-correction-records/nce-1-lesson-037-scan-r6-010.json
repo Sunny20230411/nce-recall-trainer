@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-37",
+    "sentenceId": "nce-1-lesson-037-scan-r6-010",
+    "sentenceOrder": 10,
+    "english": "Thanks, Dan.",
+    "chinese": "谢谢你，丹。",
+    "intent": "接过对方递来的锤子后向对方道谢。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Thanks,",
+        "relation": "表达感谢",
+        "meaning": "谢谢你"
+      },
+      {
+        "text": "Dan.",
+        "relation": "道谢的对象",
+        "meaning": "丹"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Thanks 的用法",
+        "text": "thanks 是名词复数形式，单独使用可表达“谢谢”，比 Thank you 更口语化。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "Thanks 的用法",
+        "text": "thanks 是名词复数形式，单独使用可表达“谢谢”，比 Thank you 更口语化。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Thanks,",
+        "role": "感谢用语主干",
+        "explanation": "thanks 独立承担道谢功能，构成句子核心。"
+      },
+      {
+        "text": "Dan.",
+        "role": "称呼语",
+        "explanation": "Dan 是对听话人的称呼，补充说明感谢的对象。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Thanks,",
+        "meaning": "谢谢（表示感谢）",
+        "pos": "感叹词",
+        "phonetic": "/θæŋks/"
+      },
+      {
+        "text": "Dan.",
+        "meaning": "丹（男子名）",
+        "pos": "名词",
+        "phonetic": "/dæn/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "道谢时可以先说简短的感谢，再跟上对方的名字。",
+      "letterShape": "T_____, D__.",
+      "answerNote": "Thanks 是简短的道谢，Dan 是被叫到的人。"
+    },
+    "teacherTip": {
+      "text": "Thanks 比 Thank you 更随意自然，适合熟人之间简短道谢。后面直接跟上称呼 Dan，把谢意明确指向对方，语气更亲切。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "校验通过：道谢短句符合对话场景，字段完整准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。校验通过：道谢短句符合对话场景，字段完整准确。"
+  }
+}

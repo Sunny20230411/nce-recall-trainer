@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-59",
+    "sentenceId": "nce-1-lesson-059-scan-r6-012",
+    "sentenceOrder": 12,
+    "english": "And I want a large box of chalk, too.",
+    "chinese": "我还要一大盒粉笔。",
+    "intent": "顾客追加新的购物需求，同时说明粉笔的规格，传递“在已有需求之外再添一项”的含义。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "And",
+        "relation": "连接词（承接前文需求）",
+        "meaning": "还有；另外"
+      },
+      {
+        "text": "I want",
+        "relation": "主语和谓语（说话人需求）",
+        "meaning": "我想要"
+      },
+      {
+        "text": "a large box of chalk,",
+        "relation": "宾语（所需物品及规格）",
+        "meaning": "一大盒粉笔"
+      },
+      {
+        "text": "too.",
+        "relation": "语气补充（追加含义）",
+        "meaning": "也；还"
+      }
+    ],
+    "notes": [
+      {
+        "title": "too表示追加需求",
+        "text": "too放在句末，用于说明这是已有需求之外新增的一项，口语中常与句首And配合使用。"
+      },
+      {
+        "title": "不可数名词的量化表达",
+        "text": "chalk常作不可数名词，表示“一盒粉笔”用a box of chalk，加上形容词large说明规格。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "too表示追加需求",
+        "text": "too放在句末，用于说明这是已有需求之外新增的一项，口语中常与句首And配合使用。"
+      },
+      {
+        "title": "不可数名词的量化表达",
+        "text": "chalk常作不可数名词，表示“一盒粉笔”用a box of chalk，加上形容词large说明规格。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I want a large box of chalk, too.",
+        "role": "主谓宾结构",
+        "explanation": "I是主语，want是谓语，a large box of chalk是宾语，too是句末状语表追加语气。"
+      },
+      {
+        "text": "a large box of chalk,",
+        "role": "名词短语作宾语",
+        "explanation": "large修饰box，of chalk说明box的内容物，整体表示“一大盒粉笔”。"
+      }
+    ],
+    "words": [
+      {
+        "text": "And",
+        "meaning": "和；还有；而且",
+        "pos": "连词",
+        "phonetic": "/ænd/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "want",
+        "meaning": "想要",
+        "pos": "动词",
+        "phonetic": "/wɒnt/"
+      },
+      {
+        "text": "a",
+        "meaning": "一（个、盒等）",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "large",
+        "meaning": "大的",
+        "pos": "形容词",
+        "phonetic": "/lɑːdʒ/"
+      },
+      {
+        "text": "box",
+        "meaning": "盒子；箱",
+        "pos": "名词",
+        "phonetic": "/bɒks/"
+      },
+      {
+        "text": "of",
+        "meaning": "（表示内容）的",
+        "pos": "介词",
+        "phonetic": "/əv/"
+      },
+      {
+        "text": "chalk,",
+        "meaning": "粉笔",
+        "pos": "名词",
+        "phonetic": "/tʃɔːk/"
+      },
+      {
+        "text": "too.",
+        "meaning": "也；还",
+        "pos": "副词",
+        "phonetic": "/tuː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想表达“我还要某样东西”，句首可以加And，句末加too来体现追加。",
+      "letterShape": "A__ I w___ a l____ b__ o_ c____, t__.",
+      "answerNote": "“一大盒粉笔”是a large box of chalk，句末加too表示“还要”。"
+    },
+    "teacherTip": {
+      "text": "句首And和句末too前后呼应，都在强化“这是额外再加的一样”。中文习惯把“还”放在动词前，英语用too放在句末补追加语气，比把also放在动词中间更口语自然。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "句子信息与原文一致，教学点清晰说明追加需求的表达特点，数据准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。句子信息与原文一致，教学点清晰说明追加需求的表达特点，数据准确。"
+  }
+}

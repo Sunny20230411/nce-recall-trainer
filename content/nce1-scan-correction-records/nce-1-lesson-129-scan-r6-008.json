@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-129",
+    "sentenceId": "nce-1-lesson-129-scan-r6-008",
+    "sentenceOrder": 8,
+    "english": "I was doing eighty when I overtook you.",
+    "chinese": "我超过你时，时速是八十英里。",
+    "intent": "用超车时的实际速度纠正七十英里的判断",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I was doing eighty",
+        "relation": "当时的行驶速度",
+        "meaning": "我当时时速八十英里"
+      },
+      {
+        "text": "when I overtook you.",
+        "relation": "对应的时刻",
+        "meaning": "在我超过你时"
+      }
+    ],
+    "notes": [
+      {
+        "title": "速度用法",
+        "text": "do 加数字可指以某速度行驶；本课语境省略 miles an hour。"
+      },
+      {
+        "title": "过去时间关系",
+        "text": "was doing 描述背景中的行驶状态，overtook 表示当时发生的超车动作。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "速度用法",
+        "text": "do 加数字可指以某速度行驶；本课语境省略 miles an hour。"
+      },
+      {
+        "title": "过去时间关系",
+        "text": "was doing 描述背景中的行驶状态，overtook 表示当时发生的超车动作。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "开车的人"
+      },
+      {
+        "text": "was doing",
+        "role": "谓语",
+        "explanation": "过去进行时描述行驶速度"
+      },
+      {
+        "text": "eighty",
+        "role": "宾语",
+        "explanation": "数词表示速度值"
+      },
+      {
+        "text": "when I overtook you.",
+        "role": "时间状语从句",
+        "explanation": "交代超车时刻；I 为主语，overtook 为谓语，you 为宾语"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "was",
+        "meaning": "（构成过去进行时）",
+        "pos": "助动词",
+        "phonetic": "/wɒz/"
+      },
+      {
+        "text": "doing",
+        "meaning": "以……速度行驶",
+        "pos": "动词",
+        "phonetic": "/ˈduːɪŋ/"
+      },
+      {
+        "text": "eighty",
+        "meaning": "八十（英里每小时）",
+        "pos": "数词",
+        "phonetic": "/ˈeɪti/"
+      },
+      {
+        "text": "when",
+        "meaning": "当……时",
+        "pos": "连词",
+        "phonetic": "/wen/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "overtook",
+        "meaning": "超过（车辆）",
+        "pos": "动词",
+        "phonetic": "/ˌəʊvəˈtʊk/"
+      },
+      {
+        "text": "you.",
+        "meaning": "你",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先报自己当时的八十英里时速，再说明是在超车那一刻。",
+      "letterShape": "I w__ d____ e_____ w___ I o_______ y__.",
+      "answerNote": "用过去进行时说车速，用 when 从句标出超车时刻。"
+    },
+    "teacherTip": {
+      "text": "doing eighty 在驾驶语境里就是“时速八十英里”，不必再说一遍速度单位。when 引出的超车动作是一个时间点，前面的进行形式交代那一刻车正在以什么速度行驶。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

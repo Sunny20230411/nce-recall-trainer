@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-002",
+    "sentenceOrder": 2,
+    "english": "Come in.",
+    "chinese": "进来吧。",
+    "intent": "日常招呼客人进门，属于口语里的简短邀请/祈使表达。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Come in.",
+        "relation": "祈使式邀请动作",
+        "meaning": "进来吧"
+      }
+    ],
+    "notes": [
+      {
+        "title": "祈使句的省略形式",
+        "text": "口语中招呼对方做动作的祈使句，默认主语是you，常直接以动词原形开头，不用额外加主语。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "祈使句的省略形式",
+        "text": "口语中招呼对方做动作的祈使句，默认主语是you，常直接以动词原形开头，不用额外加主语。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Come in.",
+        "role": "祈使句谓语（短语动词）",
+        "explanation": "由动词Come和副词in构成短语动词，整体表达“进来”的动作，作祈使句的谓语。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Come",
+        "meaning": "来",
+        "pos": "动词",
+        "phonetic": "/kʌm/"
+      },
+      {
+        "text": "in.",
+        "meaning": "进入；在里面",
+        "pos": "副词",
+        "phonetic": "/ɪn/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "招呼人进门的短句，直接用“来+进”的短语动词。",
+      "letterShape": "C___ i_.",
+      "answerNote": "这是招呼对方进来的祈使短句，口语里很常用。"
+    },
+    "teacherTip": {
+      "text": "Come in 是招呼进门最常用的口语短句，默认听话人就是you，直接用动词原形开头就自然。熟人间不用加please也得体，带点随意的语气。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "句子为课本原句，结构与词义均准确，教学点贴合口语场景。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。句子为课本原句，结构与词义均准确，教学点贴合口语场景。"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-61",
+    "sentenceId": "nce-1-lesson-061-scan-r6-006",
+    "sentenceOrder": 6,
+    "english": "We must call the doctor.",
+    "chinese": "我们得请医生来。",
+    "intent": "表达根据眼前情况，有必要、应当去做请医生这件事。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "We",
+        "relation": "动作的发出者",
+        "meaning": "我们"
+      },
+      {
+        "text": "must",
+        "relation": "表达必要性的语气",
+        "meaning": "必须，得"
+      },
+      {
+        "text": "call the doctor.",
+        "relation": "要做的具体事情",
+        "meaning": "请医生来 / 叫医生"
+      }
+    ],
+    "notes": [
+      {
+        "title": "must表示必要性",
+        "text": "must是情态动词，在这里表示根据当前情况做出的“有必要、必须”的判断，后面跟动词原形call。"
+      },
+      {
+        "title": "call the doctor的含义",
+        "text": "call the doctor是常用表达，意思是请医生来诊治，不只表示“给医生打电话”这个动作本身。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "must表示必要性",
+        "text": "must是情态动词，在这里表示根据当前情况做出的“有必要、必须”的判断，后面跟动词原形call。"
+      },
+      {
+        "title": "call the doctor的含义",
+        "text": "call the doctor是常用表达，意思是请医生来诊治，不只表示“给医生打电话”这个动作本身。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "We must call the doctor.",
+        "role": "主语 + 情态动词 + 谓语 + 宾语",
+        "explanation": "We是主语，must是情态动词表示必要性，call是谓语动词，the doctor是宾语。"
+      }
+    ],
+    "words": [
+      {
+        "text": "We",
+        "meaning": "我们",
+        "pos": "代词",
+        "phonetic": "/wiː/"
+      },
+      {
+        "text": "must",
+        "meaning": "必须，得（表示有必要做某事）",
+        "pos": "情态动词",
+        "phonetic": "/mʌst/"
+      },
+      {
+        "text": "call",
+        "meaning": "叫，请来",
+        "pos": "动词",
+        "phonetic": "/kɔːl/"
+      },
+      {
+        "text": "the",
+        "meaning": "这个（指双方都知道的）",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "doctor.",
+        "meaning": "医生",
+        "pos": "名词",
+        "phonetic": "/ˈdɒktə/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说“我们必须”，再接“叫医生”这件事。",
+      "letterShape": "W_ m___ c___ t__ d_____.",
+      "answerNote": "must表示有必要，后面跟动词原形；call the doctor指请医生看病。"
+    },
+    "teacherTip": {
+      "text": "must在这里不是“被迫遵守规定”，而是说话人根据情况判断“必须、得做”。call the doctor是英语常用说法，指请医生来看病，核心意图是找医生就诊，不只是“打电话给医生”这个动作。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "原文与词义准确，must和call the doctor的用法说明清晰，无错误。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。原文与词义准确，must和call the doctor的用法说明清晰，无错误。"
+  }
+}

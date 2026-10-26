@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-127",
+    "sentenceId": "nce-1-lesson-127-scan-r6-014",
+    "sentenceOrder": 14,
+    "english": "Doesn't Karen Marsh look old!",
+    "chinese": "卡伦·马什看起来可真老啊！",
+    "intent": "以否定疑问形式发出感叹",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Doesn't Karen Marsh",
+        "relation": "感叹对象",
+        "meaning": "卡伦·马什可真是"
+      },
+      {
+        "text": "look old!",
+        "relation": "感叹判断",
+        "meaning": "看起来老"
+      }
+    ],
+    "notes": [
+      {
+        "title": "否定形式的感叹",
+        "text": "Doesn't…! 此处表达强烈肯定感叹；look 作系动词，old 描写主语的外观。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "否定形式的感叹",
+        "text": "Doesn't…! 此处表达强烈肯定感叹；look 作系动词，old 描写主语的外观。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Doesn't",
+        "role": "感叹助动成分",
+        "explanation": "does not 前置形成否定疑问式感叹"
+      },
+      {
+        "text": "Karen Marsh",
+        "role": "主语",
+        "explanation": "卡伦·马什"
+      },
+      {
+        "text": "look",
+        "role": "系动词",
+        "explanation": "表示看起来"
+      },
+      {
+        "text": "old!",
+        "role": "表语",
+        "explanation": "描述显老的外观"
+      }
+    ],
+    "words": [
+      {
+        "text": "Doesn't",
+        "meaning": "（否定疑问式感叹）",
+        "pos": "助动词否定缩写",
+        "phonetic": "/ˈdʌznt/"
+      },
+      {
+        "text": "Karen",
+        "meaning": "卡伦",
+        "pos": "专有名词",
+        "phonetic": "/ˈkærən/"
+      },
+      {
+        "text": "Marsh",
+        "meaning": "马什",
+        "pos": "专有名词",
+        "phonetic": "/mɑːʃ/"
+      },
+      {
+        "text": "look",
+        "meaning": "看起来",
+        "pos": "系动词",
+        "phonetic": "/lʊk/"
+      },
+      {
+        "text": "old!",
+        "meaning": "老的；显老的",
+        "pos": "形容词",
+        "phonetic": "/əʊld/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "借否定疑问外形，强烈感叹她显老。",
+      "letterShape": "D____'_ K____ M____ l___ o__!",
+      "answerNote": "这里是肯定感叹，不是说她不老。"
+    },
+    "teacherTip": {
+      "text": "这句不是在猜她看起来老不老，而是在感叹‘真显老’。否定疑问的外形加上感叹语气，可以邀请对方认同强烈印象；不能照字面译成‘她看起来不老’。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

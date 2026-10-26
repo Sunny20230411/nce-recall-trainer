@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-37",
+    "sentenceId": "nce-1-lesson-037-sentence-001",
+    "sentenceOrder": 11,
+    "english": "What are you going to do now, George?",
+    "chinese": "你现在打算做什么，乔治？",
+    "intent": "询问对方当下紧接着的行动打算，补充时间限定“现在”缩小问题范围",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "What are you going to do",
+        "relation": "核心疑问内容",
+        "meaning": "你打算做什么"
+      },
+      {
+        "text": "now,",
+        "relation": "时间限定",
+        "meaning": "现在"
+      },
+      {
+        "text": "George?",
+        "relation": "称呼对象",
+        "meaning": "乔治"
+      }
+    ],
+    "notes": [
+      {
+        "title": "be going to 疑问句",
+        "text": "把be动词are移到主语you前面，构成询问对方打算的特殊疑问句。"
+      },
+      {
+        "title": "now的位置",
+        "text": "now放在句末补充时间，让问题指向当下紧接着的动作。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "be going to 疑问句",
+        "text": "把be动词are移到主语you前面，构成询问对方打算的特殊疑问句。"
+      },
+      {
+        "title": "now的位置",
+        "text": "now放在句末补充时间，让问题指向当下紧接着的动作。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "What are you going to do now,",
+        "role": "特殊疑问句主干",
+        "explanation": "由疑问词what引导，询问即将进行的动作"
+      },
+      {
+        "text": "are you going to do",
+        "role": "一般疑问句语序",
+        "explanation": "are you going to do 是be going to结构的疑问形式"
+      },
+      {
+        "text": "George?",
+        "role": "呼语",
+        "explanation": "对听话人的称呼，不参与句子主干结构"
+      }
+    ],
+    "words": [
+      {
+        "text": "What",
+        "meaning": "什么",
+        "pos": "疑问代词",
+        "phonetic": "/wɒt/"
+      },
+      {
+        "text": "are",
+        "meaning": "（助动词，构成疑问句，无实义）",
+        "pos": "助动词",
+        "phonetic": "/ɑː/"
+      },
+      {
+        "text": "you",
+        "meaning": "你",
+        "pos": "人称代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "going",
+        "meaning": "将要，打算",
+        "pos": "动词现在分词",
+        "phonetic": "/ˈɡəʊɪŋ/"
+      },
+      {
+        "text": "to",
+        "meaning": "（不定式符号，无实义）",
+        "pos": "不定式小品词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "do",
+        "meaning": "做",
+        "pos": "动词",
+        "phonetic": "/duː/"
+      },
+      {
+        "text": "now,",
+        "meaning": "现在",
+        "pos": "副词",
+        "phonetic": "/naʊ/"
+      },
+      {
+        "text": "George?",
+        "meaning": "乔治（男子名）",
+        "pos": "专有名词",
+        "phonetic": "/dʒɔːdʒ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先想“你打算做什么”的问句，再加“现在”这个时间说明，最后带称呼。",
+      "letterShape": "W___ a__ y__ g____ t_ d_ n__, G_____?",
+      "answerNote": "用what问动作内容，be going to表示打算，now补充时间是“现在”。"
+    },
+    "teacherTip": {
+      "text": "前面问的是整体打算，这里加now把问题落到眼前这一步，不是泛泛问整个计划。想问“现在/接下来打算做什么”，直接在be going to问句末尾补个时间词就行。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "原文符合新概念英语第37课内容，各字段校验无误。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。原文符合新概念英语第37课内容，各字段校验无误。"
+  }
+}

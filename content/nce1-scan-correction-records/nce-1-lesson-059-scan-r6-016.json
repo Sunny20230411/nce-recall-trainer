@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-59",
+    "sentenceId": "nce-1-lesson-059-scan-r6-016",
+    "sentenceOrder": 16,
+    "english": "Is that all?",
+    "chinese": "就这些了吗？",
+    "intent": "店员确认顾客是否还需要别的东西，即购物是否结束",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Is that all?",
+        "relation": "一般疑问整体，确认是否就这些",
+        "meaning": "就这些了吗？"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Is that all? 的用法",
+        "text": "这是购物、点餐等场景中确认对方是否还需要别的常用问句，字面是“那就是全部吗”，实际意为“就这些了吗 / 还要别的吗”。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "Is that all? 的用法",
+        "text": "这是购物、点餐等场景中确认对方是否还需要别的常用问句，字面是“那就是全部吗”，实际意为“就这些了吗 / 还要别的吗”。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Is",
+        "role": "系动词（be动词）",
+        "explanation": "构成主系表疑问句，提前到句首。"
+      },
+      {
+        "text": "that",
+        "role": "主语",
+        "explanation": "指代眼前所选购的全部物品这件事。"
+      },
+      {
+        "text": "all?",
+        "role": "表语",
+        "explanation": "表示“全部；所有”。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Is",
+        "meaning": "是（be的第三人称单数形式）",
+        "pos": "动词",
+        "phonetic": "/ɪz/"
+      },
+      {
+        "text": "that",
+        "meaning": "那；那个",
+        "pos": "代词",
+        "phonetic": "/ðæt/"
+      },
+      {
+        "text": "all?",
+        "meaning": "全部；所有",
+        "pos": "代词",
+        "phonetic": "/ɔːl/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "想问对方是不是就这些、不再要别的了，可以用Is that all?",
+      "letterShape": "I_ t___ a__?",
+      "answerNote": "这是店员确认购物是否结束的常用问句。"
+    },
+    "teacherTip": {
+      "text": "Is that all? 是服务场景里的固定问法，不是在问“那是不是全部的东西”，而是在确认“您还要别的吗 / 就这些了吗”。用that概括眼前这堆要买的东西，简洁自然。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "原文与扫描一致，教学点贴合服务场景常用表达，表述准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。原文与扫描一致，教学点贴合服务场景常用表达，表述准确。"
+  }
+}

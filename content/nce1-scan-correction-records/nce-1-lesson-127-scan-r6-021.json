@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-127",
+    "sentenceId": "nce-1-lesson-127-scan-r6-021",
+    "sentenceOrder": 21,
+    "english": "I'm not more than twenty-nine myself.",
+    "chinese": "我自己也不过二十九岁。",
+    "intent": "以自报年龄维护年轻形象",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I'm not more than twenty-nine",
+        "relation": "自报年龄上限",
+        "meaning": "我不超过二十九岁"
+      },
+      {
+        "text": "myself.",
+        "relation": "本人强调",
+        "meaning": "我自己"
+      }
+    ],
+    "notes": [
+      {
+        "title": "范围与强调",
+        "text": "not more than twenty-nine 表示年龄不超过二十九；myself 强调主语 I，不是动作的反身宾语。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "范围与强调",
+        "text": "not more than twenty-nine 表示年龄不超过二十九；myself 强调主语 I，不是动作的反身宾语。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I'm",
+        "role": "主语及系动词",
+        "explanation": "I am 的缩写"
+      },
+      {
+        "text": "not more than twenty-nine",
+        "role": "表语",
+        "explanation": "否定比较限定年龄上限，years old 省略"
+      },
+      {
+        "text": "myself.",
+        "role": "主语强调成分",
+        "explanation": "myself 强调说话人本人"
+      }
+    ],
+    "words": [
+      {
+        "text": "I'm",
+        "meaning": "我是（I am）",
+        "pos": "代词与系动词缩写",
+        "phonetic": "/aɪm/"
+      },
+      {
+        "text": "not",
+        "meaning": "不",
+        "pos": "副词",
+        "phonetic": "/nɒt/"
+      },
+      {
+        "text": "more",
+        "meaning": "更多；更大（年龄）",
+        "pos": "比较级副词",
+        "phonetic": "/mɔː/"
+      },
+      {
+        "text": "than",
+        "meaning": "比",
+        "pos": "连词",
+        "phonetic": "/ðæn/"
+      },
+      {
+        "text": "twenty-nine",
+        "meaning": "二十九岁",
+        "pos": "数词",
+        "phonetic": "/ˌtwenti ˈnaɪn/"
+      },
+      {
+        "text": "myself.",
+        "meaning": "我自己；我本人",
+        "pos": "反身代词",
+        "phonetic": "/maɪˈself/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "给自己年龄划二十九岁的上限，最后强调本人。",
+      "letterShape": "I'_ n__ m___ t___ t_____-____ m_____.",
+      "answerNote": "not more than 表示不超过；myself 强调主语。"
+    },
+    "teacherTip": {
+      "text": "not more than 说的是‘不超过’，这里带着‘也不过如此’的辩解语气，并不单凭语法就断定恰好二十九。myself 把话题转回她本人，与刚刚议论别人的年龄形成幽默对照。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-59",
+    "sentenceId": "nce-1-lesson-059-scan-r6-005",
+    "sentenceOrder": 5,
+    "english": "Yes, we do.",
+    "chinese": "是的，我们有。",
+    "intent": "用简略肯定回答回应对方关于“是否有信纸”的一般疑问句，确认具备该商品。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Yes,",
+        "relation": "肯定回应标记",
+        "meaning": "是的"
+      },
+      {
+        "text": "we do.",
+        "relation": "简略答句主体",
+        "meaning": "我们有"
+      }
+    ],
+    "notes": [
+      {
+        "title": "简略肯定答句",
+        "text": "以助动词 do 呼应前面的一般疑问句“Do you have any writing paper?”，代替重复实义动词 have 及宾语，是口语常用的简洁回答方式。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "简略肯定答句",
+        "text": "以助动词 do 呼应前面的一般疑问句“Do you have any writing paper?”，代替重复实义动词 have 及宾语，是口语常用的简洁回答方式。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Yes,",
+        "role": "感叹词（肯定应答）",
+        "explanation": "用于对一般疑问句给出肯定回应，独立于后面的主谓结构。"
+      },
+      {
+        "text": "we",
+        "role": "主语",
+        "explanation": "指代说话人一方（店员）。"
+      },
+      {
+        "text": "do.",
+        "role": "谓语（助动词替代形式）",
+        "explanation": "助动词 do 代替前文的 have any writing paper，构成简略答句，避免重复。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Yes,",
+        "meaning": "是的，对",
+        "pos": "感叹词",
+        "phonetic": "/jes/"
+      },
+      {
+        "text": "we",
+        "meaning": "我们",
+        "pos": "代词",
+        "phonetic": "/wiː/"
+      },
+      {
+        "text": "do.",
+        "meaning": "（助动词，代替前文 have 相关内容）",
+        "pos": "动词",
+        "phonetic": "/duː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先给“是的”，再用主语加助动词简略回应，别提重复过的物品名。",
+      "letterShape": "Y__, w_ d_.",
+      "answerNote": "这是回应 Do you have... 的标准简略肯定答法，用 do 代替重复的内容。"
+    },
+    "teacherTip": {
+      "text": "回答 Do you have... 这类问句，不用把 have any writing paper 全说一遍，用 Yes, we do 里的 do 替掉整段动作内容就够了。英语对话里只要双方都知道说的是什么，都用这种简略答法，自然不啰嗦。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "校验通过：字段完整，teacherTip 侧重表达习惯而非直译对比，结构与词义准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。校验通过：字段完整，teacherTip 侧重表达习惯而非直译对比，结构与词义准确。"
+  }
+}

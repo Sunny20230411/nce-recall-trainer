@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-129",
+    "sentenceId": "nce-1-lesson-129-scan-r6-010",
+    "sentenceOrder": 10,
+    "english": "I'm afraid I didn't, officer.",
+    "chinese": "恐怕我没看见，警官。",
+    "intent": "委婉承认没有看到限速标志",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I'm afraid",
+        "relation": "委婉引入回答",
+        "meaning": "恐怕"
+      },
+      {
+        "text": "I didn't,",
+        "relation": "承认未看见",
+        "meaning": "我没看见"
+      },
+      {
+        "text": "officer.",
+        "relation": "称呼",
+        "meaning": "警官"
+      }
+    ],
+    "notes": [
+      {
+        "title": "省略",
+        "text": "didn't 后省略 see the speed limit。"
+      },
+      {
+        "title": "委婉框架",
+        "text": "I'm afraid 后接省略 that 的宾语从句，表达遗憾或不愿承认的事实。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "省略",
+        "text": "didn't 后省略 see the speed limit。"
+      },
+      {
+        "title": "委婉框架",
+        "text": "I'm afraid 后接省略 that 的宾语从句，表达遗憾或不愿承认的事实。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I'm",
+        "role": "主语和系动词",
+        "explanation": "I'm 缩合 I am"
+      },
+      {
+        "text": "afraid",
+        "role": "表语",
+        "explanation": "afraid 引出令人遗憾的事实"
+      },
+      {
+        "text": "I didn't,",
+        "role": "宾语从句",
+        "explanation": "I 为主语，didn't 承接被省略的动作"
+      },
+      {
+        "text": "officer.",
+        "role": "呼语",
+        "explanation": "称呼警官"
+      }
+    ],
+    "words": [
+      {
+        "text": "I'm",
+        "meaning": "我（是）",
+        "pos": "代词与系动词缩合",
+        "phonetic": "/aɪm/"
+      },
+      {
+        "text": "afraid",
+        "meaning": "恐怕；很遗憾",
+        "pos": "形容词",
+        "phonetic": "/əˈfreɪd/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "didn't,",
+        "meaning": "没有（看见）",
+        "pos": "助动词（否定缩合）",
+        "phonetic": "/ˈdɪdnt/"
+      },
+      {
+        "text": "officer.",
+        "meaning": "警官",
+        "pos": "名词",
+        "phonetic": "/ˈɒfɪsə/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "委婉承认自己确实没看见，最后称呼警官。",
+      "letterShape": "I'_ a_____ I d___'_, o______.",
+      "answerNote": "I'm afraid 缓和语气，I didn't 省去已知动作。"
+    },
+    "teacherTip": {
+      "text": "I'm afraid 在这里不是说自己害怕，而是在承认一个对方不愿听到的事实。对否定问句作答时，I didn't 仍然明确表示“我没看见”，不要按中文“是的，我没看见”机械套用 yes。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

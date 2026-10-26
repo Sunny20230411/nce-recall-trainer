@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-59",
+    "sentenceId": "nce-1-lesson-059-scan-r6-006",
+    "sentenceOrder": 6,
+    "english": "I don't have any small pads.",
+    "chinese": "我没有小本的信纸。",
+    "intent": "说明自身目前不具备某类商品（小规格便笺本），为后续给出替代选项铺垫。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I don't have any",
+        "relation": "否定陈述主体",
+        "meaning": "我没有任何"
+      },
+      {
+        "text": "small pads.",
+        "relation": "被否定的事物",
+        "meaning": "小的便笺本"
+      }
+    ],
+    "notes": [
+      {
+        "title": "否定句中的 any",
+        "text": "在 don't have 引导的否定句中，用 any 修饰复数可数名词 pads，表示“任何……都没有”，对应肯定句里的 some。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "否定句中的 any",
+        "text": "在 don't have 引导的否定句中，用 any 修饰复数可数名词 pads，表示“任何……都没有”，对应肯定句里的 some。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "第一人称单数主格代词，指说话人（店员）。"
+      },
+      {
+        "text": "don't",
+        "role": "助动词的否定形式",
+        "explanation": "do not 的缩写，与实义动词 have 一起构成一般现在时的否定。"
+      },
+      {
+        "text": "have",
+        "role": "谓语动词",
+        "explanation": "实义动词，意为“有、拥有”。"
+      },
+      {
+        "text": "any",
+        "role": "限定词",
+        "explanation": "用于否定句，修饰后面的复数名词 pads。"
+      },
+      {
+        "text": "small",
+        "role": "定语",
+        "explanation": "形容词，修饰 pads，说明尺寸小。"
+      },
+      {
+        "text": "pads.",
+        "role": "宾语",
+        "explanation": "复数可数名词，指便笺本、信笺本。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "don't",
+        "meaning": "不，没有（do not 的缩写）",
+        "pos": "助动词否定式",
+        "phonetic": "/dəʊnt/"
+      },
+      {
+        "text": "have",
+        "meaning": "有",
+        "pos": "动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "any",
+        "meaning": "任何的，一些（用于否定句）",
+        "pos": "限定词",
+        "phonetic": "/ˈeni/"
+      },
+      {
+        "text": "small",
+        "meaning": "小的",
+        "pos": "形容词",
+        "phonetic": "/smɔːl/"
+      },
+      {
+        "text": "pads.",
+        "meaning": "便笺本，信笺本",
+        "pos": "名词",
+        "phonetic": "/pædz/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说“我没有”，再加 any 和具体物品描述。",
+      "letterShape": "I d__'_ h___ a__ s____ p___.",
+      "answerNote": "这是一般现在时的否定句，表达“没有某物”时否定句用 any 不用 some。"
+    },
+    "teacherTip": {
+      "text": "中文说“没有小本的信纸”很自然，但英语否定句里要说 not...any，不能直接用 not some。这句话先把“我没有”这个事实摆出来，再讲是哪种东西没货，重点落在缺货信息上，方便接着给替代方案。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "校验通过：any 用法讲清，信息顺序解释合理，词义与结构准确。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。校验通过：any 用法讲清，信息顺序解释合理，词义与结构准确。"
+  }
+}

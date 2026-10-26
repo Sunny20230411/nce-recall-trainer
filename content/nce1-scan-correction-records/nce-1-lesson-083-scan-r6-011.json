@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-scan-r6-011",
+    "sentenceOrder": 11,
+    "english": "I had one after my lunch.",
+    "chinese": "我午饭后喝了一杯。",
+    "intent": "补充说明刚才那杯咖啡是在午饭之后喝的，进一步解释为什么现在不喝。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I had one",
+        "relation": "核心动作与对象",
+        "meaning": "我喝了一杯（咖啡）"
+      },
+      {
+        "text": "after my lunch.",
+        "relation": "动作发生的时间",
+        "meaning": "在我午饭之后"
+      }
+    ],
+    "notes": [
+      {
+        "title": "one的指代用法",
+        "text": "one在这里代替a cup of coffee，避免重复上文提到的内容，是英语里很常见的指代方式。"
+      },
+      {
+        "title": "一般过去时的使用",
+        "text": "句中有明确的过去时间after my lunch，所以动词用过去式had，单纯叙述过去发生的事。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "one的指代用法",
+        "text": "one在这里代替a cup of coffee，避免重复上文提到的内容，是英语里很常见的指代方式。"
+      },
+      {
+        "title": "一般过去时的使用",
+        "text": "句中有明确的过去时间after my lunch，所以动词用过去式had，单纯叙述过去发生的事。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I had one",
+        "role": "主句（一般过去时陈述句）",
+        "explanation": "主语I + 谓语had + 宾语one，叙述过去发生的动作。"
+      },
+      {
+        "text": "after my lunch.",
+        "role": "时间状语",
+        "explanation": "由after引导的介词短语，说明动作发生的时间在午饭之后。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "had",
+        "meaning": "喝（have的过去式，这里表示饮用）",
+        "pos": "动词",
+        "phonetic": "/hæd/"
+      },
+      {
+        "text": "one",
+        "meaning": "一杯（指代一杯咖啡）",
+        "pos": "代词",
+        "phonetic": "/wʌn/"
+      },
+      {
+        "text": "after",
+        "meaning": "在……之后",
+        "pos": "介词",
+        "phonetic": "/ˈɑːftə/"
+      },
+      {
+        "text": "my",
+        "meaning": "我的",
+        "pos": "限定词",
+        "phonetic": "/maɪ/"
+      },
+      {
+        "text": "lunch.",
+        "meaning": "午餐，午饭",
+        "pos": "名词",
+        "phonetic": "/lʌntʃ/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说“我喝了一杯”，再补“午饭后”这个过去时间。",
+      "letterShape": "I h__ o__ a____ m_ l____.",
+      "answerNote": "有明确过去时间就用一般过去时had，用one代替前面提过的a cup of coffee避免重复。"
+    },
+    "teacherTip": {
+      "text": "上一句用I've just had说“刚喝过”对现在的影响，这句用I had...加具体时间after my lunch，转到说过去某个时间点发生的事。一个讲现状关联，一个讲过去事实，两句配合着说明理由。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已复核：时态对比讲解到位，one的指代说明准确，各字段符合原文语境。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已复核：时态对比讲解到位，one的指代说明准确，各字段符合原文语境。"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-115",
+    "sentenceId": "nce-1-lesson-115-scan-r6-011",
+    "sentenceOrder": 11,
+    "english": "Look!",
+    "chinese": "看！",
+    "intent": "突然发现人后提醒同伴注意",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Look!",
+        "relation": "提醒注意",
+        "meaning": "看"
+      }
+    ],
+    "notes": [
+      {
+        "title": "独立祈使句",
+        "text": "动词原形单独成句，主语 you 省略，感叹号突出突然提醒。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "独立祈使句",
+        "text": "动词原形单独成句，主语 you 省略，感叹号突出突然提醒。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Look!",
+        "role": "谓语",
+        "explanation": "祈使句中提醒对方看，主语省略"
+      }
+    ],
+    "words": [
+      {
+        "text": "Look!",
+        "meaning": "看",
+        "pos": "动词",
+        "phonetic": "/lʊk/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "发现情况，单独发出一个看字的提醒。",
+      "letterShape": "L___!",
+      "answerNote": "动词原形独立构成祈使句，保留感叹号。"
+    },
+    "teacherTip": {
+      "text": "突然发现情况时，一个 Look 就能把对方的注意力拉过来。这里先提醒“快看”，具体看到了什么留到下一句再说。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

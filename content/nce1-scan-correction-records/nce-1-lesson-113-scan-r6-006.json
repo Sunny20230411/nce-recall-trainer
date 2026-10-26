@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-113",
+    "sentenceId": "nce-1-lesson-113-scan-r6-006",
+    "sentenceOrder": 6,
+    "english": "I've got no small change, I'm afraid.",
+    "chinese": "恐怕我没有零钱。",
+    "intent": "委婉说明自己没有零钱",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I've got",
+        "relation": "说明持有情况",
+        "meaning": "我有"
+      },
+      {
+        "text": "no small change,",
+        "relation": "否定零钱数量",
+        "meaning": "没有零钱"
+      },
+      {
+        "text": "I'm afraid.",
+        "relation": "缓和语气",
+        "meaning": "恐怕"
+      }
+    ],
+    "notes": [
+      {
+        "title": "否定范围",
+        "text": "no 直接限定 small change，表达一点零钱也没有，不再加 not。"
+      },
+      {
+        "title": "插入语",
+        "text": "I'm afraid 在句尾作评注，不是说害怕某件事。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "否定范围",
+        "text": "no 直接限定 small change，表达一点零钱也没有，不再加 not。"
+      },
+      {
+        "title": "插入语",
+        "text": "I'm afraid 在句尾作评注，不是说害怕某件事。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I've",
+        "role": "主语与助动词",
+        "explanation": "I 为主语，have 参与 have got"
+      },
+      {
+        "text": "got",
+        "role": "谓语组成部分",
+        "explanation": "与 have 合成表示拥有的表达"
+      },
+      {
+        "text": "no small change,",
+        "role": "宾语",
+        "explanation": "no 限定零钱，表达零数量"
+      },
+      {
+        "text": "I'm afraid.",
+        "role": "插入语",
+        "explanation": "以歉意缓和前面的坏消息"
+      }
+    ],
+    "words": [
+      {
+        "text": "I've",
+        "meaning": "我（含 have）",
+        "pos": "代词与助动词缩写",
+        "phonetic": "/aɪv/"
+      },
+      {
+        "text": "got",
+        "meaning": "有（与 have 连用）",
+        "pos": "动词过去分词",
+        "phonetic": "/ɡɒt/"
+      },
+      {
+        "text": "no",
+        "meaning": "没有一点",
+        "pos": "限定词",
+        "phonetic": "/nəʊ/"
+      },
+      {
+        "text": "small",
+        "meaning": "小额的",
+        "pos": "形容词",
+        "phonetic": "/smɔːl/"
+      },
+      {
+        "text": "change,",
+        "meaning": "零钱",
+        "pos": "名词",
+        "phonetic": "/tʃeɪndʒ/"
+      },
+      {
+        "text": "I'm",
+        "meaning": "我（含系动词）",
+        "pos": "代词与系动词缩写",
+        "phonetic": "/aɪm/"
+      },
+      {
+        "text": "afraid.",
+        "meaning": "恐怕；很遗憾",
+        "pos": "形容词",
+        "phonetic": "/əˈfreɪd/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说自己一点零钱也没有，末尾补上委婉的恐怕。",
+      "letterShape": "I'__ g__ n_ s____ c_____, I'_ a_____.",
+      "answerNote": "no 已经表达否定，句尾的歉意表达不表示害怕。"
+    },
+    "teacherTip": {
+      "text": "这里的 afraid 不是害怕零钱，而是在告诉对方一个不合心意的事实。把 I'm afraid 放在后面，像补上一句“很遗憾”，能让拒绝显得不那么生硬。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

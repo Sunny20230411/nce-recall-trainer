@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-129",
+    "sentenceId": "nce-1-lesson-129-scan-r6-014",
+    "sentenceOrder": 14,
+    "english": "That's why I didn't see the sign.",
+    "chinese": "所以我才没看见那个标志。",
+    "intent": "把刚提到的情况当作未看见标志的原因",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "That's why",
+        "relation": "承接前因引出结果",
+        "meaning": "这就是为什么"
+      },
+      {
+        "text": "I didn't see the sign.",
+        "relation": "造成的结果",
+        "meaning": "我没看见那个标志"
+      }
+    ],
+    "notes": [
+      {
+        "title": "原因与结果的连接",
+        "text": "That 指上文的情况；why 从句作表语，说明该情况导致的结果。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "原因与结果的连接",
+        "text": "That 指上文的情况；why 从句作表语，说明该情况导致的结果。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "That's",
+        "role": "主语和系动词",
+        "explanation": "That's 缩合 That is，That 指上文情况"
+      },
+      {
+        "text": "why I didn't see the sign.",
+        "role": "表语从句",
+        "explanation": "why 引出没看见标志的结果"
+      },
+      {
+        "text": "I",
+        "role": "从句主语",
+        "explanation": "结果中的行动者"
+      },
+      {
+        "text": "didn't see",
+        "role": "从句谓语",
+        "explanation": "一般过去时否定看见"
+      },
+      {
+        "text": "the sign.",
+        "role": "从句宾语",
+        "explanation": "未看见的标志"
+      }
+    ],
+    "words": [
+      {
+        "text": "That's",
+        "meaning": "那就是；这就是",
+        "pos": "代词与系动词缩合",
+        "phonetic": "/ðæts/"
+      },
+      {
+        "text": "why",
+        "meaning": "……的原因；为什么",
+        "pos": "连接副词",
+        "phonetic": "/waɪ/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "didn't",
+        "meaning": "没有（过去时否定）",
+        "pos": "助动词（否定缩合）",
+        "phonetic": "/ˈdɪdnt/"
+      },
+      {
+        "text": "see",
+        "meaning": "看见",
+        "pos": "动词",
+        "phonetic": "/siː/"
+      },
+      {
+        "text": "the",
+        "meaning": "那个",
+        "pos": "冠词",
+        "phonetic": "/ðə/ 或 /ðiː/"
+      },
+      {
+        "text": "sign.",
+        "meaning": "标志；标牌",
+        "pos": "名词",
+        "phonetic": "/saɪn/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先承接刚说的原因，再说没看见标志这个结果。",
+      "letterShape": "T___'_ w__ I d___'_ s__ t__ s___.",
+      "answerNote": "That's why 后接结果，用过去时否定说明没看见。"
+    },
+    "teacherTip": {
+      "text": "That's why 承接前面已经说过的情况，再引出它造成的结果。若换成 That's because，后面通常要给原因；这里后面是“没看见标志”这个结果，不能只因中文都能说“因为”就混用。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

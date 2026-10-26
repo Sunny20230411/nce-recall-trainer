@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-61",
+    "sentenceId": "nce-1-lesson-061-sentence-004",
+    "sentenceOrder": 14,
+    "english": "What's the matter with him, doctor?",
+    "chinese": "医生，他怎么了？",
+    "intent": "向医生询问他人的身体状况或出了什么问题",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "What's the matter",
+        "relation": "核心疑问，询问出了什么问题",
+        "meaning": "怎么了/出什么事了"
+      },
+      {
+        "text": "with him,",
+        "relation": "引出询问的对象",
+        "meaning": "他"
+      },
+      {
+        "text": "doctor?",
+        "relation": "称呼，指明听话人身份",
+        "meaning": "医生？"
+      }
+    ],
+    "notes": [
+      {
+        "title": "What's the matter with...",
+        "text": "用来询问人或事物出了什么毛病、有什么问题，后接人称代词宾格或具体对象。"
+      },
+      {
+        "title": "句末称呼",
+        "text": "称呼语 doctor 放在句末，用逗号隔开，是口语中向特定人发话的常见位置。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "What's the matter with...",
+        "text": "用来询问人或事物出了什么毛病、有什么问题，后接人称代词宾格或具体对象。"
+      },
+      {
+        "title": "句末称呼",
+        "text": "称呼语 doctor 放在句末，用逗号隔开，是口语中向特定人发话的常见位置。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "What's the matter with him,",
+        "role": "特殊疑问句主干",
+        "explanation": "以 What 引导的特殊疑问句，用来询问具体的问题或状况；with him 补充说明针对的对象。"
+      },
+      {
+        "text": "doctor?",
+        "role": "呼语",
+        "explanation": "对听话人的称呼，不参与句子主干结构，只表明发话对象。"
+      }
+    ],
+    "words": [
+      {
+        "text": "What's",
+        "meaning": "是什么（what is 的缩写）",
+        "pos": "疑问代词+be动词缩写",
+        "phonetic": "/wɒts/"
+      },
+      {
+        "text": "the",
+        "meaning": "这个（定冠词，表特指）",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "matter",
+        "meaning": "麻烦事，毛病",
+        "pos": "名词",
+        "phonetic": "/ˈmætə/"
+      },
+      {
+        "text": "with",
+        "meaning": "关于，对于",
+        "pos": "介词",
+        "phonetic": "/wɪð/"
+      },
+      {
+        "text": "him,",
+        "meaning": "他（宾格，后接逗号）",
+        "pos": "代词",
+        "phonetic": "/hɪm/"
+      },
+      {
+        "text": "doctor?",
+        "meaning": "医生？",
+        "pos": "名词",
+        "phonetic": "/ˈdɒktə/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先想“出了什么问题”，再带出对象“他”，最后加上称呼。",
+      "letterShape": "W___'_ t__ m_____ w___ h__, d_____?",
+      "answerNote": "用 What's the matter with... 引出询问对象，句末加称呼。"
+    },
+    "teacherTip": {
+      "text": "问别人身体出了什么问题，口语里常用 What's the matter with him，先把“出了什么事”这个疑问点亮出来，再补出对象。the matter 在这里特指“毛病、麻烦事”，不是泛指“事情”；也可以换用 What's wrong with him，意思相近。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已复核：句子与原文一致，词义、结构、名师提点均准确，无错误。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已复核：句子与原文一致，词义、结构、名师提点均准确，无错误。"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-95",
+    "sentenceId": "nce-1-lesson-095-scan-r6-015",
+    "sentenceOrder": 15,
+    "english": "We want to catch the eight nineteen to London.",
+    "chinese": "我们要赶八点十九分去伦敦的火车。",
+    "intent": "向检票员说明乘车需求，指明具体班次与目的地。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "We want to catch",
+        "relation": "主体与动作意图",
+        "meaning": "我们想要赶乘"
+      },
+      {
+        "text": "the eight nineteen",
+        "relation": "具体车次（用发车时间指代）",
+        "meaning": "八点十九分的（车）"
+      },
+      {
+        "text": "to London.",
+        "relation": "目的地",
+        "meaning": "去伦敦"
+      }
+    ],
+    "notes": [
+      {
+        "title": "用时间指代车次",
+        "text": "the eight nineteen在这里特指八点十九分发车的那班火车，是交通场景的常用省略说法。"
+      },
+      {
+        "title": "catch表示赶乘",
+        "text": "catch后接交通工具或班次，表示及时赶上，比take更强调“赶得上”的意味。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "用时间指代车次",
+        "text": "the eight nineteen在这里特指八点十九分发车的那班火车，是交通场景的常用省略说法。"
+      },
+      {
+        "title": "catch表示赶乘",
+        "text": "catch后接交通工具或班次，表示及时赶上，比take更强调“赶得上”的意味。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "We want to catch the eight nineteen to London.",
+        "role": "主谓宾结构",
+        "explanation": "We作主语，want to catch作谓语部分，the eight nineteen to London作宾语，说明乘车需求。"
+      },
+      {
+        "text": "the eight nineteen to London.",
+        "role": "宾语短语",
+        "explanation": "由定冠词、时间表达和目的地介词短语组成，整体指代特定班次的火车。"
+      }
+    ],
+    "words": [
+      {
+        "text": "We",
+        "meaning": "我们",
+        "pos": "代词",
+        "phonetic": "/wiː/"
+      },
+      {
+        "text": "want",
+        "meaning": "想要",
+        "pos": "动词",
+        "phonetic": "/wɒnt/"
+      },
+      {
+        "text": "to",
+        "meaning": "（不定式符号，无实义）",
+        "pos": "小品词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "catch",
+        "meaning": "赶上（交通工具）",
+        "pos": "动词",
+        "phonetic": "/kætʃ/"
+      },
+      {
+        "text": "the",
+        "meaning": "这，那（特指）",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "eight",
+        "meaning": "八",
+        "pos": "数词",
+        "phonetic": "/eɪt/"
+      },
+      {
+        "text": "nineteen",
+        "meaning": "十九",
+        "pos": "数词",
+        "phonetic": "/ˌnaɪnˈtiːn/"
+      },
+      {
+        "text": "to",
+        "meaning": "到，往",
+        "pos": "介词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "London.",
+        "meaning": "伦敦",
+        "pos": "地名",
+        "phonetic": "/ˈlʌndən/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说要赶车，再说是几点的、去哪的。",
+      "letterShape": "W_ w___ t_ c____ t__ e____ n_______ t_ L_____.",
+      "answerNote": "说明要赶的班次，用catch加发车时间加to加目的地，不用重复“火车”。"
+    },
+    "teacherTip": {
+      "text": "说赶某趟火车，英文常用catch the + 时间 + to + 目的地，直接用发车时间指代那班车，不用逐字译出“火车”。交通场景里提到具体时刻的车，都可以这样省掉交通工具名词。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "复核原文词义与结构准确，时间指代车次的用法说明符合交通场景习惯。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。复核原文词义与结构准确，时间指代车次的用法说明符合交通场景习惯。"
+  }
+}

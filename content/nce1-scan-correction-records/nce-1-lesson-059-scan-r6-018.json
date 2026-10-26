@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-59",
+    "sentenceId": "nce-1-lesson-059-scan-r6-018",
+    "sentenceOrder": 18,
+    "english": "What else do you want?",
+    "chinese": "您还要别的吗？",
+    "intent": "店员在顾客说完一轮需求后，追问是否还有其他想要的东西。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "What else",
+        "relation": "疑问焦点",
+        "meaning": "还有什么别的"
+      },
+      {
+        "text": "do you want?",
+        "relation": "提问内容",
+        "meaning": "您想要"
+      }
+    ],
+    "notes": [
+      {
+        "title": "what else 的用法",
+        "text": "else 放在疑问词 what 后面，表示“其他的、别的”，指除了已经提到的事物之外的内容。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "what else 的用法",
+        "text": "else 放在疑问词 what 后面，表示“其他的、别的”，指除了已经提到的事物之外的内容。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "What else",
+        "role": "疑问词组作宾语",
+        "explanation": "What else 整体是 want 的宾语，what 是核心疑问词，else 修饰 what。"
+      },
+      {
+        "text": "do you want?",
+        "role": "一般疑问句语序",
+        "explanation": "借助助动词 do 构成疑问句，主语是 you，谓语是 want。"
+      }
+    ],
+    "words": [
+      {
+        "text": "What",
+        "meaning": "什么",
+        "pos": "疑问代词",
+        "phonetic": "/wɒt/"
+      },
+      {
+        "text": "else",
+        "meaning": "其他的，别的",
+        "pos": "形容词",
+        "phonetic": "/els/"
+      },
+      {
+        "text": "do",
+        "meaning": "（助动词，无实义，帮助构成疑问句）",
+        "pos": "助动词",
+        "phonetic": "/duː/"
+      },
+      {
+        "text": "you",
+        "meaning": "你，您",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "want?",
+        "meaning": "想要，要",
+        "pos": "动词",
+        "phonetic": "/wɒnt/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先把“别的什么”放在前面当疑问焦点，再接疑问句语序的“你想要”。",
+      "letterShape": "W___ e___ d_ y__ w___?",
+      "answerNote": "疑问词加 else 表示“还有什么别的”，用来追问额外需求。"
+    },
+    "teacherTip": {
+      "text": "What else 不是从零问“要什么”，而是在已有内容的基础上问“还有什么别的”。else 紧跟疑问词后面，把问题限定在“除了已经说过的之外”，比直接说 What do you want 更贴合这种追问场景。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已复核：else 的含义与位置说明准确，teacherTip讲清与普通what问句的场景区别，结构无误。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已复核：else 的含义与位置说明准确，teacherTip讲清与普通what问句的场景区别，结构无误。"
+  }
+}

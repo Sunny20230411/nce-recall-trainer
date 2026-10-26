@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-109",
+    "sentenceId": "nce-1-lesson-109-scan-r6-016",
+    "sentenceOrder": 16,
+    "english": "Of course.",
+    "chinese": "当然可以。",
+    "intent": "爽快同意取用香烟",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Of course.",
+        "relation": "欣然许可",
+        "meaning": "当然可以"
+      }
+    ],
+    "notes": [
+      {
+        "title": "整体使用",
+        "text": "of course 是固定短语，此处独立回答许可请求，不按两个词的字面义翻译。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "整体使用",
+        "text": "of course 是固定短语，此处独立回答许可请求，不按两个词的字面义翻译。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Of course.",
+        "role": "独立答语",
+        "explanation": "整体表示肯定和许可。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Of",
+        "meaning": "（与 course 构成当然）",
+        "pos": "介词",
+        "phonetic": "/ɒv/"
+      },
+      {
+        "text": "course.",
+        "meaning": "（与 of 构成当然）",
+        "pos": "名词",
+        "phonetic": "/kɔːs/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "用两个词组成的固定短语，爽快表示当然可以。",
+      "letterShape": "O_ c_____.",
+      "answerNote": "整个固定短语作答，不需要主语。"
+    },
+    "teacherTip": {
+      "text": "对方在请求许可，Of course 就是爽快答应“可以”。这两个词已经能完成回应，不必再拼成完整句子。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

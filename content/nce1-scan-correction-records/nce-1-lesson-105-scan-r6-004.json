@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-105",
+    "sentenceId": "nce-1-lesson-105-scan-r6-004",
+    "sentenceOrder": 4,
+    "english": "Yes, I do.",
+    "chinese": "是的，我想。",
+    "intent": "确认想与桑德拉谈话",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "Yes,",
+        "relation": "肯定回应",
+        "meaning": "是的"
+      },
+      {
+        "text": "I do.",
+        "relation": "确认意愿",
+        "meaning": "我想"
+      }
+    ],
+    "notes": [
+      {
+        "title": "替代前文",
+        "text": "do 代替 want to speak to her，而不是表示做某件事。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "替代前文",
+        "text": "do 代替 want to speak to her，而不是表示做某件事。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "Yes,",
+        "role": "应答语",
+        "explanation": "表明肯定。"
+      },
+      {
+        "text": "I",
+        "role": "主语",
+        "explanation": "回答者本人。"
+      },
+      {
+        "text": "do.",
+        "role": "省略谓语",
+        "explanation": "用助动词承接问句中的谓语内容。"
+      }
+    ],
+    "words": [
+      {
+        "text": "Yes,",
+        "meaning": "是的",
+        "pos": "副词",
+        "phonetic": "/jes/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "do.",
+        "meaning": "（代替前文）想与她说话",
+        "pos": "助动词",
+        "phonetic": "/duː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "肯定回答，用问句里的助动词承接。",
+      "letterShape": "Y__, I d_.",
+      "answerNote": "肯定词后保留主语和助动词即可。"
+    },
+    "teacherTip": {
+      "text": "对方已经问明要不要跟她说话，回答不必重说整件事。用 do 接住前面的 want，既简短又明确。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}

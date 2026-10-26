@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-83",
+    "sentenceId": "nce-1-lesson-083-sentence-003",
+    "sentenceOrder": 20,
+    "english": "When are you going to have a holiday, Sam?",
+    "chinese": "萨姆，你打算什么时候去度假？",
+    "intent": "询问对方度假计划的时间",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "When",
+        "relation": "疑问焦点",
+        "meaning": "什么时候"
+      },
+      {
+        "text": "are you going to have a holiday,",
+        "relation": "询问的计划内容",
+        "meaning": "你打算去度假"
+      },
+      {
+        "text": "Sam?",
+        "relation": "称呼对象",
+        "meaning": "萨姆"
+      }
+    ],
+    "notes": [
+      {
+        "title": "When 引导的将来时疑问句",
+        "text": "When 用来提问时间，后接be going to的疑问语序，询问对方计划做某事的时间。"
+      },
+      {
+        "title": "句末称呼",
+        "text": "Sam 放在句末是口语里对听话人的称呼，前面用逗号隔开。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "When 引导的将来时疑问句",
+        "text": "When 用来提问时间，后接be going to的疑问语序，询问对方计划做某事的时间。"
+      },
+      {
+        "title": "句末称呼",
+        "text": "Sam 放在句末是口语里对听话人的称呼，前面用逗号隔开。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "When",
+        "role": "疑问副词",
+        "explanation": "When 引导特殊疑问句，询问时间。"
+      },
+      {
+        "text": "are",
+        "role": "助动词（be）",
+        "explanation": "are 提前到主语you前，构成疑问句语序。"
+      },
+      {
+        "text": "you",
+        "role": "主语",
+        "explanation": "you 指Sam。"
+      },
+      {
+        "text": "going to have a holiday,",
+        "role": "谓语核心（含宾语）",
+        "explanation": "going to have a holiday 是be going to结构，表示计划好的动作。"
+      },
+      {
+        "text": "Sam?",
+        "role": "呼语",
+        "explanation": "Sam 是称呼，不参与句子主干。"
+      }
+    ],
+    "words": [
+      {
+        "text": "When",
+        "meaning": "什么时候",
+        "pos": "疑问副词",
+        "phonetic": "/wen/"
+      },
+      {
+        "text": "are",
+        "meaning": "（be动词，无实义，构成疑问句）",
+        "pos": "助动词",
+        "phonetic": "/ɑː/"
+      },
+      {
+        "text": "you",
+        "meaning": "你",
+        "pos": "人称代词",
+        "phonetic": "/juː/"
+      },
+      {
+        "text": "going",
+        "meaning": "（与to搭配表将来打算，无实义）",
+        "pos": "动词现在分词",
+        "phonetic": "/ˈɡəʊɪŋ/"
+      },
+      {
+        "text": "to",
+        "meaning": "（不定式符号，无实义）",
+        "pos": "不定式小品词",
+        "phonetic": "/tuː/"
+      },
+      {
+        "text": "have",
+        "meaning": "度过",
+        "pos": "动词",
+        "phonetic": "/hæv/"
+      },
+      {
+        "text": "a",
+        "meaning": "一个（次）",
+        "pos": "不定冠词",
+        "phonetic": "/ə/"
+      },
+      {
+        "text": "holiday,",
+        "meaning": "假期",
+        "pos": "名词",
+        "phonetic": "/ˈhɒlədeɪ/"
+      },
+      {
+        "text": "Sam?",
+        "meaning": "萨姆（男子名，呼语）",
+        "pos": "专有名词",
+        "phonetic": "/sæm/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先放疑问词“什么时候”，再按疑问语序说“你打算度假”，最后带称呼。",
+      "letterShape": "W___ a__ y__ g____ t_ h___ a h______, S__?",
+      "answerNote": "问将来计划的时间，用When + be going to 的疑问结构。"
+    },
+    "teacherTip": {
+      "text": "这里已知对方有度假打算，未知的是具体时间，所以把When放在句首点亮疑问焦点。用be going to提问，是默认对方已有相关计划，而非凭空问一件没影儿的事。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "句子已修正为扫描原文的问句，修正了单词标点拆分错误和have的释义，教学数据完整。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。句子已修正为扫描原文的问句，修正了单词标点拆分错误和have的释义，教学数据完整。"
+  }
+}

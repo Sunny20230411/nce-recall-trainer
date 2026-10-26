@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-59",
+    "sentenceId": "nce-1-lesson-059-scan-r6-017",
+    "sentenceOrder": 17,
+    "english": "That's all, thank you.",
+    "chinese": "就这些了，谢谢您。",
+    "intent": "顾客告知店员所需物品已全部说完，并礼貌致谢。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "That's all,",
+        "relation": "核心表态",
+        "meaning": "就这些了"
+      },
+      {
+        "text": "thank you.",
+        "relation": "礼貌致谢",
+        "meaning": "谢谢您"
+      }
+    ],
+    "notes": [
+      {
+        "title": "That's all 的用法",
+        "text": "That's all 是口语常用短句，用来表示所说的内容、所需的物品到此为止，没有更多了。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "That's all 的用法",
+        "text": "That's all 是口语常用短句，用来表示所说的内容、所需的物品到此为止，没有更多了。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "That's all,",
+        "role": "主系表结构",
+        "explanation": "That's 是 That is 的缩写，That 作主语，is 是系动词，all 作表语，表示“全部、仅此而已”。"
+      },
+      {
+        "text": "thank you.",
+        "role": "致谢短句",
+        "explanation": "thank you 是独立的礼貌用语，补充表示感谢。"
+      }
+    ],
+    "words": [
+      {
+        "text": "That's",
+        "meaning": "那是（That is 的缩写，用于引出判断）",
+        "pos": "缩写（代词+be动词）",
+        "phonetic": "/ðæts/"
+      },
+      {
+        "text": "all,",
+        "meaning": "全部，仅此而已",
+        "pos": "代词",
+        "phonetic": "/ɔːl/"
+      },
+      {
+        "text": "thank",
+        "meaning": "感谢，谢谢",
+        "pos": "动词",
+        "phonetic": "/θæŋk/"
+      },
+      {
+        "text": "you.",
+        "meaning": "你，您",
+        "pos": "代词",
+        "phonetic": "/juː/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先说“就要这些”收尾，再加一句礼貌道谢，按两层意思顺下来。",
+      "letterShape": "T___'_ a__, t____ y__.",
+      "answerNote": "前半句表示所需物品说完了，后半句是礼貌致谢。"
+    },
+    "teacherTip": {
+      "text": "That's all 是购物、点餐这类场景收尾的常用口语，意思是“就要这些，没别的了”，不用逐字译成“那是全部”。后面紧跟 thank you，是服务场景里自然的礼貌搭配。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "已复核：词义、结构准确，teacherTip点明场景用法与直译误区，符合教学要求。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。已复核：词义、结构准确，teacherTip点明场景用法与直译误区，符合教学要求。"
+  }
+}

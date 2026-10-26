@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "doubao-seed-2-1-turbo-260628",
+  "reviewMethod": "separate-model-request-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-97",
+    "sentenceId": "nce-1-lesson-097-scan-r6-018",
+    "sentenceOrder": 18,
+    "english": "What's the matter?",
+    "chinese": "怎么回事？",
+    "intent": "看到对方反应异常，询问出了什么问题。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "What's the matter?",
+        "relation": "询问状况的核心问句",
+        "meaning": "怎么回事？"
+      }
+    ],
+    "notes": [
+      {
+        "title": "What's the matter? 的用法",
+        "text": "用于察觉对方有异常或问题时，询问具体出了什么事。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "What's the matter? 的用法",
+        "text": "用于察觉对方有异常或问题时，询问具体出了什么事。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "What's the matter?",
+        "role": "特殊疑问句",
+        "explanation": "以What引导，询问“麻烦/问题是什么”，the matter指“麻烦事、不对劲的事”。"
+      }
+    ],
+    "words": [
+      {
+        "text": "What's",
+        "meaning": "是什么（what is 的缩写）",
+        "pos": "疑问代词+be动词缩写",
+        "phonetic": "/wɒts/"
+      },
+      {
+        "text": "the",
+        "meaning": "这（那）个，定指",
+        "pos": "定冠词",
+        "phonetic": "/ðə/"
+      },
+      {
+        "text": "matter?",
+        "meaning": "事情，问题",
+        "pos": "名词",
+        "phonetic": "/ˈmætə/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "看出对方不对劲，问具体出了什么问题。",
+      "letterShape": "W___'_ t__ m_____?",
+      "answerNote": "察觉异常时询问“怎么回事”的常用问句。"
+    },
+    "teacherTip": {
+      "text": "What's the matter? 只在察觉对方有异常时问“出什么事了”，不是泛泛的“什么事”。如果只是问对方有什么事要说，用What's up? 更自然。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "校验通过：使用场景讲解清晰，词义结构准确，数据完整。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "豆包生成并独立请求复核，非人工逐句核验。校验通过：使用场景讲解清晰，词义结构准确，数据完整。"
+  }
+}

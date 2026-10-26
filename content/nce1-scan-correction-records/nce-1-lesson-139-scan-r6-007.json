@@ -1,0 +1,238 @@
+{
+  "schemaVersion": "1.0.0",
+  "revision": 6,
+  "sourceSha256": "e6ee0a02888ad01676cdd7a3926522a683b6c673e3ba9af0db60f36ca5acc903",
+  "author": "Codex",
+  "reviewMethod": "codex-authored-and-self-reviewed-not-human-verification",
+  "ruleVersion": "intent-driven-expression-1.2.0",
+  "record": {
+    "courseId": "nce1",
+    "lessonId": "lesson-139",
+    "sentenceId": "nce-1-lesson-139-scan-r6-007",
+    "sentenceOrder": 7,
+    "english": "I said I would be at your house at six o'clock, but the boss wants me to do some extra work.",
+    "chinese": "我说过六点会到你家，可老板要我做些额外的工作。",
+    "intent": "对照先前的赴约承诺和现在被安排的额外工作。",
+    "comparison": null,
+    "parts": [
+      {
+        "text": "I said",
+        "relation": "引出先前说过的话",
+        "meaning": "我说过"
+      },
+      {
+        "text": "I would be at your house at six o'clock,",
+        "relation": "交代原先的赴约安排",
+        "meaning": "我六点会到你家"
+      },
+      {
+        "text": "but",
+        "relation": "转向眼下的阻碍",
+        "meaning": "可是"
+      },
+      {
+        "text": "the boss wants me to do some extra work.",
+        "relation": "说明老板的新要求",
+        "meaning": "老板要我做些额外的工作"
+      }
+    ],
+    "notes": [
+      {
+        "title": "转述先前的将来安排",
+        "text": "I said 后的 I would be... 是省略that的宾语从句，would 从过去说话的时间点看将来的赴约，并非在此表示不真实的假设。"
+      },
+      {
+        "title": "want someone to do",
+        "text": "wants me to do some extra work 说明老板要我做什么，me是被要求行动的人，to do是对其动作的补充。"
+      },
+      {
+        "title": "地点与时间",
+        "text": "at your house说明地点，at six o'clock说明时刻。but连接原有安排与当前要求。"
+      }
+    ],
+    "structureNotes": [
+      {
+        "title": "转述先前的将来安排",
+        "text": "I said 后的 I would be... 是省略that的宾语从句，would 从过去说话的时间点看将来的赴约，并非在此表示不真实的假设。"
+      },
+      {
+        "title": "want someone to do",
+        "text": "wants me to do some extra work 说明老板要我做什么，me是被要求行动的人，to do是对其动作的补充。"
+      },
+      {
+        "title": "地点与时间",
+        "text": "at your house说明地点，at six o'clock说明时刻。but连接原有安排与当前要求。"
+      }
+    ],
+    "structures": [
+      {
+        "text": "I said",
+        "role": "主句引述框架",
+        "explanation": "引出先前说过的安排。"
+      },
+      {
+        "text": "I would be at your house at six o'clock,",
+        "role": "宾语从句",
+        "explanation": "交代从过去看将来的到访安排。"
+      },
+      {
+        "text": "the boss wants me to do some extra work.",
+        "role": "并列分句",
+        "explanation": "与前面的安排构成转折。"
+      },
+      {
+        "text": "me",
+        "role": "宾语",
+        "explanation": "指被要求做额外工作的人。"
+      },
+      {
+        "text": "to do some extra work.",
+        "role": "宾语补足语",
+        "explanation": "说明老板要求我做的事。"
+      }
+    ],
+    "words": [
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "said",
+        "meaning": "说过",
+        "pos": "动词过去式",
+        "phonetic": "/sed/"
+      },
+      {
+        "text": "I",
+        "meaning": "我",
+        "pos": "代词",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "text": "would",
+        "meaning": "会（从过去看将来）",
+        "pos": "助动词",
+        "phonetic": "/wʊd/"
+      },
+      {
+        "text": "be",
+        "meaning": "在（某处）",
+        "pos": "动词",
+        "phonetic": "/biː/ 或 /bi/"
+      },
+      {
+        "text": "at",
+        "meaning": "在",
+        "pos": "介词",
+        "phonetic": "/æt/"
+      },
+      {
+        "text": "your",
+        "meaning": "你的",
+        "pos": "限定词",
+        "phonetic": "/jɔː(r)/"
+      },
+      {
+        "text": "house",
+        "meaning": "家、房子",
+        "pos": "名词",
+        "phonetic": "haʊs"
+      },
+      {
+        "text": "at",
+        "meaning": "在（某时刻）",
+        "pos": "介词",
+        "phonetic": "/æt/"
+      },
+      {
+        "text": "six",
+        "meaning": "六",
+        "pos": "数词",
+        "phonetic": "/sɪks/"
+      },
+      {
+        "text": "o'clock,",
+        "meaning": "点钟",
+        "pos": "副词",
+        "phonetic": "/əˈklɒk/"
+      },
+      {
+        "text": "but",
+        "meaning": "可是",
+        "pos": "连词",
+        "phonetic": "/bʌt/"
+      },
+      {
+        "text": "the",
+        "meaning": "（特指老板）",
+        "pos": "冠词",
+        "phonetic": "/ðə/ 或 /ðiː/"
+      },
+      {
+        "text": "boss",
+        "meaning": "老板",
+        "pos": "名词",
+        "phonetic": "/bɒs/"
+      },
+      {
+        "text": "wants",
+        "meaning": "要求、想要",
+        "pos": "动词",
+        "phonetic": "/ˈwɒnts/"
+      },
+      {
+        "text": "me",
+        "meaning": "我（宾格）",
+        "pos": "代词",
+        "phonetic": "/miː/"
+      },
+      {
+        "text": "to",
+        "meaning": "（引出要做的动作）",
+        "pos": "不定式标记",
+        "phonetic": "/tuː/（元音前弱读为/tə/）"
+      },
+      {
+        "text": "do",
+        "meaning": "做",
+        "pos": "动词",
+        "phonetic": "/duː/"
+      },
+      {
+        "text": "some",
+        "meaning": "一些",
+        "pos": "限定词",
+        "phonetic": "/sʌm/"
+      },
+      {
+        "text": "extra",
+        "meaning": "额外的",
+        "pos": "形容词",
+        "phonetic": "/ˈekstrə/"
+      },
+      {
+        "text": "work.",
+        "meaning": "工作",
+        "pos": "名词",
+        "phonetic": "/wɜːk/"
+      }
+    ],
+    "hints": {
+      "memoryNote": "先转述先前六点赴约的承诺，再说明老板现在安排了额外工作。",
+      "letterShape": "I s___ I w____ b_ a_ y___ h____ a_ s__ o'_____, b__ t__ b___ w____ m_ t_ d_ s___ e____ w___.",
+      "answerNote": "过去说的话用过去视角转述，眼下的要求仍可用现在时。"
+    },
+    "teacherTip": {
+      "text": "先交代自己先前怎么答应的，再用 but 转向现在遇到的阻碍。I would be 站在“当时说这话”的时间点看后面的赴约，wants 则回到眼下老板的要求；一句话里时间视角不同，表达形式也可以不同。",
+      "ruleVersion": "intent-driven-expression-1.2.0",
+      "reviewNote": "Codex按句直接撰写并自检，非人工逐句核验。"
+    },
+    "analysisSource": "ai",
+    "analysisStatus": "approved",
+    "ruleVersion": "scan-correction-1.0.0",
+    "contentRevision": 6,
+    "reviewNote": "Codex按扫描整理稿语境直接撰写并自检；无外部API调用，非人工逐句核验。"
+  }
+}
