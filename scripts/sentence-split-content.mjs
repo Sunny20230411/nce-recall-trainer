@@ -116,7 +116,7 @@ export async function applySentenceSplits(sources, originals, teacherTips, { req
   }));
   const affectedLessons = new Set(runtimeParents.map(parent => `${parent.courseId}:${parent.lessonId}`));
   const identities = Object.fromEntries([...Map.groupBy(records.filter(record => affectedLessons.has(`${record.courseId}:${record.lessonId}`)), record => `${record.courseId}:${record.lessonId}`)]
-    .map(([key, entries]) => [key, entries.map(record => ({ id: record.sentenceId, english: record.english }))]));
+    .map(([key, entries]) => [key, entries.map(record => ({ id: record.sentenceId, english: record.english, chinese: record.chinese }))]));
   return { revision: plan.revision, records, sources: effectiveSources,
     teacherTips: { ...teacherTips, revision: plan.revision, records: [...teacherTips.records.filter(tip => !replacements.has(tip.sentenceId)), ...childTips] },
     practiceSplits: { revision: plan.revision, parents: runtimeParents, identities },

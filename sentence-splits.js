@@ -21,7 +21,10 @@
       if (used.size) {
         const identities = window.SENTENCE_UNDERSTANDING.practiceSplits.identities?.[`${courseId}:${lesson.id}`];
         if (identities?.length === sentences.length && identities.every((item, index) => item.english === sentences[index].english)) {
-          sentences.forEach((sentence, index) => { sentence.id = identities[index].id; });
+          sentences.forEach((sentence, index) => {
+            sentence.id = identities[index].id;
+            if (identities[index].chinese) sentence.chinese = identities[index].chinese;
+          });
         }
         lesson.boundaryMigration = { revision: revision(), oldToNew, oldCount: lesson.sentences.length };
         lesson.sentences = sentences;
